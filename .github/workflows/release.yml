@@ -1,12 +1,11 @@
 name: Create Release
 
 on:
-  workflow_dispatch:
-    inputs:
-      version:
-        description: 'Release version (e.g., 1.0.0)'
-        required: true
-        type: string
+  push:
+    branches:
+      - main
+    paths:
+      - 'module.json'
 
 jobs:
   release:
@@ -18,21 +17,28 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Extract version from module.json
+        id: version
+        run: |
+          VERSION=$(node -p "require('./module.json').version")
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Extracted version: $VERSION"
+
       - name: Validate version format
         run: |
-          if ! echo "${{ inputs.version }}" | grep -qE '^\d+\.\d+\.\d+$'; then
+          if ! echo "${{ steps.version.outputs.version }}" | grep -qE '^\d+\.\d+\.\d+$'; then
             echo "Error: Version must follow semantic versioning (e.g., 1.2.3)"
             exit 1
           fi
-          echo "✓ Version format valid: ${{ inputs.version }}"
+          echo "✓ Version format valid: ${{ steps.version.outputs.version }}"
 
       - name: Check if tag exists
         run: |
-          if git rev-parse "v${{ inputs.version }}" >/dev/null 2>&1; then
-            echo "Error: Tag v${{ inputs.version }} already exists"
+          if git rev-parse "v${{ steps.version.outputs.version }}" >/dev/null 2>&1; then
+            echo "Error: Tag v${{ steps.version.outputs.version }} already exists"
             exit 1
           fi
-          echo "✓ Tag v${{ inputs.version }} does not exist"
+          echo "✓ Tag v${{ steps.version.outputs.version }} does not exist"
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -51,7 +57,7 @@ jobs:
 
       - name: Update manifest
         env:
-          VERSION: ${{ inputs.version }}
+          VERSION: ${{ steps.version.outputs.version }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: node .github/scripts/update-manifest.cjs
 
@@ -86,8 +92,8 @@ jobs:
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: v${{ inputs.version }}
-          name: Release v${{ inputs.version }}
+          tag_name: v${{ steps.version.outputs.version }}
+          name: Release v${{ steps.version.outputs.version }}
           draft: false
           prerelease: false
           generate_release_notes: true
