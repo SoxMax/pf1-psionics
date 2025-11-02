@@ -63,6 +63,9 @@ jobs:
 
       - name: Create module package
         run: |
+          # Remove any existing release artifacts
+          rm -rf release-temp module.zip
+
           # Create clean module directory
           mkdir -p release-temp/pf1-psionics
 
@@ -76,6 +79,7 @@ jobs:
             --exclude='.worktrees' \
             --exclude='.idea' \
             --exclude='.vscode' \
+            --exclude='release-temp' \
             --exclude='*.log' \
             --exclude='.env' \
             --exclude='.eslintcache' \
@@ -86,6 +90,9 @@ jobs:
           cd release-temp
           zip -r ../module.zip pf1-psionics/
           cd ..
+
+          # Clean up temp directory
+          rm -rf release-temp
 
           echo "✓ Created module.zip ($(du -h module.zip | cut -f1))"
 
