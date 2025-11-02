@@ -23,7 +23,8 @@
     "Actor": "readonly",
     "DocumentSheetConfig": "readonly",
     "libWrapper": "readonly",
-    "RollPF": "readonly"
+    "RollPF": "readonly",
+    "lang": "readonly"
   },
   "rules": {
     "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],

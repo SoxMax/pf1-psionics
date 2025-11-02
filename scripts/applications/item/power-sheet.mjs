@@ -1,4 +1,4 @@
-import { MODULE_ID } from '../../_module.mjs';
+import { MODULE_ID } from "../../_module.mjs";
 
 export class PowerSheet extends pf1.applications.item.ItemSheetPF {
 
@@ -17,7 +17,7 @@ export class PowerSheet extends pf1.applications.item.ItemSheetPF {
 
   async getData() {
     const context = await super.getData();
-    const item = this.item
+    const item = this.item;
 
     context.isSpell = true;
     context.canUseAmmo = false;
@@ -82,7 +82,7 @@ export class PowerSheet extends pf1.applications.item.ItemSheetPF {
    * @param {Event} event   The click event which originated the selection
    * @private
    */
-  _onTraitSelector(event, target) {
+  _onTraitSelector(event, _target) {
     event.preventDefault();
 
     if (!this.isEditable) return;
@@ -109,8 +109,7 @@ export class PowerSheet extends pf1.applications.item.ItemSheetPF {
       options.choices = pf1.config[a.dataset.options];
     } else if (a.dataset.options === "subdiscipline") {
       const school = a.dataset.school;
-      const temp = pf1.config.psionics.subdisciplineMap[school];
-      const subdisciplineKeys = pf1.config.psionics.subdisciplineMap[school] || []
+      const subdisciplineKeys = pf1.config.psionics.subdisciplineMap[school] || [];
       const choices = Object.fromEntries(
         subdisciplineKeys.map(key => [key, pf1.config.psionics.subdisciplines[key]])
       );

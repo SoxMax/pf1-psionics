@@ -1,12 +1,12 @@
-import { MODULE_ID } from '../../_module.mjs';
+import { MODULE_ID } from "../../_module.mjs";
 
 export function injectActionUse() {
-  libWrapper.register(MODULE_ID, 'pf1.actionUse.ActionUse.prototype.getMessageData', function () {
+  libWrapper.register(MODULE_ID, "pf1.actionUse.ActionUse.prototype.getMessageData", function () {
     if (this.item.type === `${MODULE_ID}.power`) {
       this.shared.templateData.casterLevelCheck = this.shared.casterLevelCheck;
       this.shared.templateData.concentrationCheck = this.shared.concentrationCheck;
     }
-  }, 'LISTENER');
+  }, "LISTENER");
 }
 
 export function pf1PreActionUseHook(actionUse) {
