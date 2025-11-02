@@ -77,6 +77,34 @@ For detailed documentation, see:
 - [tools/docs/IMPORT-GUIDE.md](tools/docs/IMPORT-GUIDE.md) - Complete import workflow
 - [COMPENDIUM-WORKFLOW.md](COMPENDIUM-WORKFLOW.md) - Architecture documentation
 
+## Release Process
+
+This module uses GitHub Actions for automated releases.
+
+### Creating a Release
+
+1. Go to the [Actions tab](https://github.com/SoxMax/pf1-psionics/actions)
+2. Select "Create Release" workflow
+3. Click "Run workflow"
+4. Enter the version number (e.g., `1.0.0`)
+5. Click "Run workflow" button
+
+The workflow will:
+- Validate version format
+- Run ESLint checks
+- Compile compendiums
+- Update module.json with version-specific URLs
+- Create GitHub release with module.zip and module.json
+
+### Installing in FoundryVTT
+
+Users can install this module using:
+```
+https://github.com/SoxMax/pf1-psionics/releases/latest/download/module.json
+```
+
+This URL always points to the most recent release.
+
 ### Legal Note:
 
 "This module uses trademarks and/or copyrights owned by Paizo Inc., used under Paizo's Community Use Policy (paizo.com/communityuse). We are expressly prohibited from charging you to use or access this content. This module is not published, endorsed, or specifically approved by Paizo. For more information about Paizo Inc. and Paizo products, visit paizo.com."

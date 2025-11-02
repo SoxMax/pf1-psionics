@@ -23,7 +23,7 @@ export const PSIBOOK =  {
             max: 0,
             formula: "",
         },
-    }
+    };
 
 export const PSIBOOKS = {
     primary: foundry.utils.deepClone(PSIBOOK),
@@ -33,4 +33,4 @@ export const PSIBOOKS = {
         class: "_hd",
         ability: "cha",
     })
-}
+};

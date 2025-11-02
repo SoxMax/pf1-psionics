@@ -1,1 +1,1 @@
-export {PowerModel} from './power-model.mjs';
+export {PowerModel} from "./power-model.mjs";

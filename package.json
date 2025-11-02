@@ -6,10 +6,15 @@
   "type": "module",
   "scripts": {
     "packs:extract": "node ./tools/packs.mjs extract",
-    "packs:compile": "node ./tools/packs.mjs compile"
+    "packs:compile": "node ./tools/packs.mjs compile",
+    "lint": "eslint \"scripts/**/*.mjs\"",
+    "lint:fix": "eslint \"scripts/**/*.mjs\" --fix"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.57.0",
     "js-yaml": "^4.1.0",
     "listr2": "^9.0.3",
     "picocolors": "^1.1.1",

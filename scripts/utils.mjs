@@ -10,7 +10,7 @@ export function onGetRollData(doc, rollData) {
 			const actor = doc;
 
 			// Add spellbook info
-			rollData.psionics = foundry.utils.deepClone(actor.getFlag(MODULE_ID, 'spellbooks') || {});
+			rollData.psionics = foundry.utils.deepClone(actor.getFlag(MODULE_ID, "spellbooks") || {});
 			for (const book of Object.values(rollData.psionics)) {
 				book.abilityMod = rollData.abilities[book.ability]?.mod ?? 0;
 				// Add alias

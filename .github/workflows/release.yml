@@ -1,0 +1,96 @@
+name: Create Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release version (e.g., 1.0.0)'
+        required: true
+        type: string
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate version format
+        run: |
+          if ! echo "${{ inputs.version }}" | grep -qE '^\d+\.\d+\.\d+$'; then
+            echo "Error: Version must follow semantic versioning (e.g., 1.2.3)"
+            exit 1
+          fi
+          echo "✓ Version format valid: ${{ inputs.version }}"
+
+      - name: Check if tag exists
+        run: |
+          if git rev-parse "v${{ inputs.version }}" >/dev/null 2>&1; then
+            echo "Error: Tag v${{ inputs.version }} already exists"
+            exit 1
+          fi
+          echo "✓ Tag v${{ inputs.version }} does not exist"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run ESLint
+        run: npm run lint
+
+      - name: Compile compendiums
+        run: npm run packs:compile
+
+      - name: Update manifest
+        env:
+          VERSION: ${{ inputs.version }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node .github/scripts/update-manifest.cjs
+
+      - name: Create module package
+        run: |
+          # Create clean module directory
+          mkdir -p release-temp/pf1-psionics
+
+          # Copy files respecting .gitignore
+          rsync -av \
+            --exclude='.git' \
+            --exclude='node_modules' \
+            --exclude='packs-source' \
+            --exclude='tools' \
+            --exclude='.github' \
+            --exclude='.worktrees' \
+            --exclude='.idea' \
+            --exclude='.vscode' \
+            --exclude='*.log' \
+            --exclude='.env' \
+            --exclude='.eslintcache' \
+            --exclude='docs/plans' \
+            ./ release-temp/pf1-psionics/
+
+          # Create zip
+          cd release-temp
+          zip -r ../module.zip pf1-psionics/
+          cd ..
+
+          echo "✓ Created module.zip ($(du -h module.zip | cut -f1))"
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ inputs.version }}
+          name: Release v${{ inputs.version }}
+          draft: false
+          prerelease: false
+          generate_release_notes: true
+          files: |
+            module.zip
+            module.json
