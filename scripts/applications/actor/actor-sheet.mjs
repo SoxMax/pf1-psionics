@@ -141,6 +141,20 @@ function onItemCreate(event) {
 	this._forceShowPowerTab = true;
 }
 
+async function onBrowsePowers(event) {
+	event.preventDefault();
+
+	// Open the compendium for psionic powers
+	const pack = game.packs.get("pf1-psionics.powers");
+	if (!pack) {
+		ui.notifications.warn(game.i18n.localize("PF1-Psionics.Error.CompendiumNotFound"));
+		return;
+	}
+
+	// Open the compendium - users can drag powers from here to their character sheet
+	pack.render(true);
+}
+
 function injectEventListeners(app, html, _data) {
 	const psionicsTabBody = html.find("div.tab[data-tab=psibook]");
 	psionicsTabBody.find("span.text-box.direct").on("click", (event) => {
@@ -157,6 +171,8 @@ function injectEventListeners(app, html, _data) {
 	psibooksBodyElement.find(".item-delete").click(app._onItemDelete.bind(app));
 	// Item Action control
 	psibooksBodyElement.find(".item-actions a.item-action").click(app._itemActivationControl.bind(app));
+	// Browse powers compendium
+	psibooksBodyElement.find("a[data-action='browse']").click(onBrowsePowers.bind(app));
 }
 
 function prepareManifestors(sheet, context) {
