@@ -1,9 +1,9 @@
 import { MODULE_ID } from "../../_module.mjs";
 import { POINTS_PER_LEVEL } from "../../data/powerpoints.mjs";
 import { PSIBOOKS } from "../../data/psibooks.mjs";
-import { Spellbook, SpellbookMode, SpellbookSlots, SpellRanges } from "./utils/spellbook.mjs";
+import { SpellRanges } from "./utils/spellbook.mjs";
 
-export function onPreCreateActor(document, data, options, userId) {
+export function onPreCreateActor(document, _data, _options, _userId) {
     if (!["character", "npc"].includes(document.type)) return;
     // Knowledge (Psionics)
     document.updateSource({
@@ -47,7 +47,7 @@ export function onPreCreateActor(document, data, options, userId) {
     document.updateSource(psionicsFlags);
 }
 
-export function pf1PrepareBaseActorData(actor) {
+export function pf1PrepareBaseActorData(_actor) {
 }
 
 export function pf1PrepareDerivedActorData(actor) {
@@ -58,7 +58,7 @@ export function pf1PrepareDerivedActorData(actor) {
     }
 }
 
-export function pf1ActorRest(actor, options, updateData, itemUpdates) {
+export function pf1ActorRest(actor, _options, _updateData, _itemUpdates) {
     rechargePowerPoints(actor);
     rechargeFocus(actor);
 }
@@ -233,8 +233,6 @@ function calculatePowerPoints(actor, rollData, bookId, book) {
     } else {
         book.powerPoints.max = formulaBonus;
     }
-    // Set source info function
-    const setSourceInfoByName = pf1.documents.actor.changes.setSourceInfoByName;
 }
 
 function deriveTotalPowerPoints(actor) {

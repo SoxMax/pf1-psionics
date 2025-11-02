@@ -183,8 +183,6 @@ export class PowerItem extends pf1.documents.item.ItemPF {
       sort: (targets.find((e) => e.id === "dc").sort ?? 5_000) + 100, // Sort after DC
     });
 
-    const charges = targets.find((t) => t.id === "charges");
-
     // Relabel for spellpoints
     // if (this.useSpellPoints()) charges.label = game.i18n.localize("PF1.SpellPointsCost");
     // else charges.disabled = true; // Non-spellpoint spells do not use charges
@@ -198,7 +196,7 @@ export class PowerItem extends pf1.documents.item.ItemPF {
    * @param {object} [data=null] - Additional data to pass to the update
    * @returns {Promise<this | void>} Updated document or undefined if no update is possible or required.
    */
-  async addCharges(value, data = null) {
+  async addCharges(value, _data = null) {
     if (!this.actor) return;
     if (this.system.atWill) return;
     if (value === 0) return this;
@@ -207,7 +205,7 @@ export class PowerItem extends pf1.documents.item.ItemPF {
 
     const updateData = {};
     if (value > 0) {
-      updateData[`flags.${MODULE_ID}.powerPoints.current`] = Math.min(powerPoints.maximum, powerPoints.current + amount);
+      updateData[`flags.${MODULE_ID}.powerPoints.current`] = Math.min(powerPoints.maximum, powerPoints.current + value);
     } else {
       let toRemove = Math.abs(value);
       if (toRemove < powerPoints.temporary) {
@@ -238,7 +236,7 @@ export class PowerItem extends pf1.documents.item.ItemPF {
 
     if (prepared > 0) {
       const powerPoints = this.actor?.flags["pf1-psionics"]?.powerPoints;
-      if (max) return powerPoints?.maximum ?? 0
+      if (max) return powerPoints?.maximum ?? 0;
       return powerPoints?.current ?? 0 + powerPoints?.temp ?? 0;
     }
 
@@ -320,7 +318,7 @@ export class PowerItem extends pf1.documents.item.ItemPF {
     let bodyContent = "";
     if (body) {
       const noDesc = "<p class='placeholder'>" + game.i18n.localize("PF1.NoDescription") + "</p>";
-      bodyContent = `<div class="description-body">` + (this.system.description.value || noDesc) + "</div>";
+      bodyContent = "<div class=\"description-body\">" + (this.system.description.value || noDesc) + "</div>";
     }
 
     let separator = "";

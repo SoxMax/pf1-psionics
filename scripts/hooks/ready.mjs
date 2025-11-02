@@ -35,15 +35,15 @@ async function migrateOldActors() {
 		});
 
 		if(!actor.getFlag(MODULE_ID, "spellbooks")) {
-			actor.setFlag(MODULE_ID, "spellbooks", PSIBOOKS)
+			actor.setFlag(MODULE_ID, "spellbooks", PSIBOOKS);
 		}
 
 		if(!actor.getFlag(MODULE_ID, "powerPoints")) {
-			actor.setFlag(MODULE_ID, "powerPoints", { current: 0, temporary: 0 })
+			actor.setFlag(MODULE_ID, "powerPoints", { current: 0, temporary: 0 });
 		}
 
 		if(!actor.getFlag(MODULE_ID, "focus")) {
-			actor.setFlag(MODULE_ID, "focus", { current: 0 })
+			actor.setFlag(MODULE_ID, "focus", { current: 0 });
 		}
 	});
 }

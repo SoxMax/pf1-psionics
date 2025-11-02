@@ -9,13 +9,12 @@ import { injectItemAction } from "./documents/action/action.mjs";
 import { injectActionUse, pf1PreActionUseHook } from "./documents/action/action-use.mjs";
 import { renderAttackDialogHook } from "./documents/action/attack-dialog.mjs";
 import { onGetRollData } from "./utils.mjs";
-import { MODULE_ID } from "./_module.mjs";
 
 /**
  * Module hooks for initialization, localization, and rendering.
  */
 
-Hooks.once('setup', setupHook);
+Hooks.once("setup", setupHook);
 
 /**
  * Executes when the module is initialized.
@@ -66,9 +65,9 @@ Hooks.on("renderItemSheet", renderItemHook);
  * This allows for accurate calculations during combat and power rolls.
  *
  */
-Hooks.on('pf1GetRollData', onGetRollData);
+Hooks.on("pf1GetRollData", onGetRollData);
 
-Hooks.on('pf1PreActionUse', pf1PreActionUseHook);
+Hooks.on("pf1PreActionUse", pf1PreActionUseHook);
 
 Hooks.on("preCreateActor", onPreCreateActor);
 

@@ -13,18 +13,18 @@ export async function renderActorHook(app, html, data) {
 }
 
 export function injectActorSheetPF() {
-	libWrapper.register(MODULE_ID, 'pf1.applications.actor.ActorSheetPF.prototype._prepareItems', function (wrapped, context) {
+	libWrapper.register(MODULE_ID, "pf1.applications.actor.ActorSheetPF.prototype._prepareItems", function (wrapped, context) {
 		wrapped(context);
 		context.psionics = {};
 		prepareManifestors(this, context);
 		context.psionics.powerPoints = this.actor.getFlag(MODULE_ID, "powerPoints");
 		context.psionics.focus = this.actor.getFlag(MODULE_ID, "focus");
-	}, 'WRAPPER');
+	}, "WRAPPER");
 
 	// Track the currently active tab
-	libWrapper.register(MODULE_ID, 'pf1.applications.actor.ActorSheetPF.prototype._onChangeTab', function (event, tabs, active) {
+	libWrapper.register(MODULE_ID, "pf1.applications.actor.ActorSheetPF.prototype._onChangeTab", function (event, tabs, active) {
 		this._activeTab = active;
-	}, 'LISTENER');
+	}, "LISTENER");
 }
 
 function adjustActiveTab(app) {
@@ -141,7 +141,7 @@ function onItemCreate(event) {
 	this._forceShowPowerTab = true;
 }
 
-function injectEventListeners(app, html, data) {
+function injectEventListeners(app, html, _data) {
 	const psionicsTabBody = html.find("div.tab[data-tab=psibook]");
 	psionicsTabBody.find("span.text-box.direct").on("click", (event) => {
 		app._onSpanTextInput(event, app._adjustActorPropertyBySpan.bind(app));
@@ -172,7 +172,7 @@ function prepareManifestors(sheet, context) {
 			manifestor.class = context.rollData.classes[manifestor.class];
 			return [manifestorId, manifestor];
 		});
-	const isManifestor = manifestors.some(([manifestorId, manifestor]) => manifestor.inUse);
+	const isManifestor = manifestors.some(([_manifestorId, manifestor]) => manifestor.inUse);
 
 	context.psibookData = Object.fromEntries(manifestors);
 	context.usesAnyPsibook = isManifestor;
@@ -249,7 +249,7 @@ function prepareManifestorPowerLevels(data, manifestorId, manifestor, powers) {
 
 	// Add arbitrary level for collecting invalid spells
 	const invalidLevelData = {
-		id: `level-invalid`,
+		id: "level-invalid",
 		level: 99,
 		label: game.i18n.localize("PF1.Unknown"),
 		valid: false,
