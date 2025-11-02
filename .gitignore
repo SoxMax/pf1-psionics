@@ -328,6 +328,3 @@ $RECYCLE.BIN/
 # The packs-source/ directory contains the human-readable YAML files that are the source of truth
 # The packs/ directory contains compiled LevelDB files generated at build time
 /packs
-
-# Git worktrees (isolated development workspaces)
-.worktrees/
