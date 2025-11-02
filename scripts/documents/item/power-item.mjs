@@ -318,7 +318,7 @@ export class PowerItem extends pf1.documents.item.ItemPF {
     let bodyContent = "";
     if (body) {
       const noDesc = "<p class='placeholder'>" + game.i18n.localize("PF1.NoDescription") + "</p>";
-      bodyContent = "<div class=\"description-body\">" + (this.system.description.value || noDesc) + "</div>";
+      bodyContent = '<div class="description-body">' + (this.system.description.value || noDesc) + "</div>";
     }
 
     let separator = "";

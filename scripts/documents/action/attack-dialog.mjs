@@ -10,11 +10,11 @@ export async function renderAttackDialogHook(app, html, data) {
     height: "auto"
   });
 
-  html.find("input.attribute[name=\"sl-offset\"]").on("change", app._onChangeAttribute.bind(app));
-  html.find("input.attribute[name=\"cl-offset\"]").on("change", app._onChangeAttribute.bind(app));
-  html.find("input.attribute[name=\"pp-offset\"]").on("change", onChangeAttribute.bind(app));
-  html.find("input[type=\"checkbox\"][name=\"concentration\"]").on("change", app._onToggleFlag.bind(app));
-  html.find("input[type=\"checkbox\"][name=\"cl-check\"]").on("change", app._onToggleFlag.bind(app));
+  html.find('input.attribute[name="sl-offset"]').on("change", app._onChangeAttribute.bind(app));
+  html.find('input.attribute[name="cl-offset"]').on("change", app._onChangeAttribute.bind(app));
+  html.find('input.attribute[name="pp-offset"]').on("change", onChangeAttribute.bind(app));
+  html.find('input[type="checkbox"][name="concentration"]').on("change", app._onToggleFlag.bind(app));
+  html.find('input[type="checkbox"][name="cl-check"]').on("change", app._onToggleFlag.bind(app));
 }
 
 function onChangeAttribute(event) {
