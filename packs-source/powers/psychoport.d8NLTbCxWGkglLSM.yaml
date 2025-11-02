@@ -1,0 +1,163 @@
+_id: d8NLTbCxWGkglLSM
+_key: '!items!d8NLTbCxWGkglLSM'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psychoport
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Psychoport
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      damage:
+        parts:
+          - - 1d10
+            - untyped
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: personal
+        value: Personal and touch
+      save:
+        dc: 10 + @sl + @ablMod
+        description: None or Will negates (object)
+        type: will
+      target:
+        value: You and touched objects or other touched willing creatures
+  description:
+    value: >-
+      <p>This&nbsp;power&nbsp;instantly&nbsp;transports&nbsp;you&nbsp;to&nbsp;a&nbsp;designated&nbsp;destination,&nbsp;which&nbsp;may&nbsp;be&nbsp;as&nbsp;distant&nbsp;as&nbsp;100&nbsp;miles&nbsp;per&nbsp;manifester&nbsp;level.&nbsp;Interplanar&nbsp;travel&nbsp;is&nbsp;not&nbsp;possible.&nbsp;You&nbsp;can&nbsp;bring&nbsp;along&nbsp;objects&nbsp;as&nbsp;long&nbsp;as&nbsp;their&nbsp;weight&nbsp;doesn't&nbsp;exceed&nbsp;your&nbsp;maximum&nbsp;load.&nbsp;You&nbsp;may&nbsp;also&nbsp;bring&nbsp;one&nbsp;additional&nbsp;willing&nbsp;Medium&nbsp;or&nbsp;smaller&nbsp;creature&nbsp;(carrying&nbsp;gear&nbsp;or&nbsp;objects&nbsp;up&nbsp;to&nbsp;its&nbsp;maximum&nbsp;load)&nbsp;or&nbsp;its&nbsp;equivalent&nbsp;per&nbsp;three&nbsp;manifester&nbsp;levels.&nbsp;A&nbsp;Large&nbsp;creature&nbsp;counts&nbsp;as&nbsp;two&nbsp;Medium&nbsp;creatures,&nbsp;a&nbsp;Huge&nbsp;creature&nbsp;counts&nbsp;as&nbsp;four&nbsp;Medium&nbsp;creatures,&nbsp;and&nbsp;so&nbsp;forth.&nbsp;All&nbsp;creatures&nbsp;to&nbsp;be&nbsp;transported&nbsp;must&nbsp;be&nbsp;in&nbsp;contact&nbsp;with&nbsp;one&nbsp;another,&nbsp;and&nbsp;at&nbsp;least&nbsp;one&nbsp;of&nbsp;those&nbsp;creatures&nbsp;must&nbsp;be&nbsp;in&nbsp;contact&nbsp;with&nbsp;you.&nbsp;As&nbsp;with&nbsp;all&nbsp;powers&nbsp;where&nbsp;the&nbsp;range&nbsp;is&nbsp;personal&nbsp;and&nbsp;the&nbsp;target&nbsp;is&nbsp;you,&nbsp;you&nbsp;need&nbsp;not&nbsp;make&nbsp;a&nbsp;saving&nbsp;throw,&nbsp;nor&nbsp;is&nbsp;power&nbsp;resistance&nbsp;applicable&nbsp;to&nbsp;you.&nbsp;Only&nbsp;objects&nbsp;held&nbsp;or&nbsp;in&nbsp;use&nbsp;(attended)&nbsp;by&nbsp;another&nbsp;person&nbsp;receive&nbsp;saving&nbsp;throws&nbsp;and&nbsp;power&nbsp;resistance.
+
+      </p>
+
+      <p>You&nbsp;must&nbsp;have&nbsp;some&nbsp;clear&nbsp;idea&nbsp;of&nbsp;the&nbsp;location&nbsp;and&nbsp;layout&nbsp;of&nbsp;the&nbsp;destination.&nbsp;The&nbsp;clearer&nbsp;your&nbsp;mental&nbsp;image,&nbsp;the&nbsp;more&nbsp;likely&nbsp;the&nbsp;teleportation&nbsp;works.&nbsp;Areas&nbsp;of&nbsp;strong&nbsp;physical&nbsp;or&nbsp;psionic&nbsp;energy&nbsp;may&nbsp;make&nbsp;teleportation&nbsp;more&nbsp;hazardous&nbsp;or&nbsp;even&nbsp;impossible.
+
+      </p>
+
+      <p>To&nbsp;see&nbsp;how&nbsp;well&nbsp;the&nbsp;teleportation&nbsp;works,&nbsp;roll&nbsp;d%&nbsp;and&nbsp;consult&nbsp;the&nbsp;table&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;this&nbsp;power.&nbsp;Refer&nbsp;to&nbsp;the&nbsp;following&nbsp;information&nbsp;for&nbsp;definitions&nbsp;of&nbsp;the&nbsp;terms&nbsp;on&nbsp;the&nbsp;table.
+
+      </p><ul><li><em>Familiarity:</em>&nbsp;"Very&nbsp;familiar"&nbsp;is&nbsp;a&nbsp;place&nbsp;where&nbsp;you&nbsp;have&nbsp;been&nbsp;very&nbsp;often&nbsp;and&nbsp;where&nbsp;you&nbsp;feel&nbsp;at&nbsp;home.&nbsp;"Studied&nbsp;carefully"&nbsp;is&nbsp;a&nbsp;place&nbsp;you&nbsp;know&nbsp;well,&nbsp;either&nbsp;because&nbsp;you&nbsp;can&nbsp;currently&nbsp;physically&nbsp;see&nbsp;it&nbsp;or&nbsp;you've&nbsp;been&nbsp;there&nbsp;often.&nbsp;"Seen&nbsp;casually"&nbsp;is&nbsp;a&nbsp;place&nbsp;that&nbsp;you&nbsp;have&nbsp;seen&nbsp;more&nbsp;than&nbsp;once&nbsp;but&nbsp;with&nbsp;which&nbsp;you&nbsp;are&nbsp;not&nbsp;very&nbsp;familiar.&nbsp;"Viewed&nbsp;once"&nbsp;is&nbsp;a&nbsp;place&nbsp;that&nbsp;you&nbsp;have&nbsp;seen&nbsp;once,&nbsp;possibly&nbsp;using&nbsp;powers&nbsp;such&nbsp;as&nbsp;remote&nbsp;viewing.</li></ul>
+
+      <ul><li>"False&nbsp;destination"&nbsp;is&nbsp;a&nbsp;place&nbsp;that&nbsp;does&nbsp;not&nbsp;truly&nbsp;exist&nbsp;or&nbsp;if&nbsp;you&nbsp;are&nbsp;teleporting&nbsp;to&nbsp;an&nbsp;otherwise&nbsp;familiar&nbsp;location&nbsp;that&nbsp;no&nbsp;longer&nbsp;exists&nbsp;as&nbsp;such&nbsp;or&nbsp;has&nbsp;been&nbsp;so&nbsp;completely&nbsp;altered&nbsp;as&nbsp;to&nbsp;no&nbsp;longer&nbsp;be&nbsp;familiar&nbsp;to&nbsp;you.&nbsp;When&nbsp;traveling&nbsp;to&nbsp;a&nbsp;false&nbsp;destination,&nbsp;roll&nbsp;1d20+80&nbsp;to&nbsp;obtain&nbsp;results&nbsp;on&nbsp;the&nbsp;table,&nbsp;rather&nbsp;than&nbsp;rolling&nbsp;d%,&nbsp;since&nbsp;there&nbsp;is&nbsp;no&nbsp;real&nbsp;destination&nbsp;for&nbsp;you&nbsp;to&nbsp;hope&nbsp;to&nbsp;arrive&nbsp;at&nbsp;or&nbsp;even&nbsp;be&nbsp;off&nbsp;target&nbsp;from.</li></ul>
+
+      <ul><li><em>On&nbsp;Target:</em>&nbsp;You&nbsp;appear&nbsp;where&nbsp;you&nbsp;want&nbsp;to&nbsp;be.</li></ul>
+
+      <ul><li><em>Off&nbsp;Target:</em>&nbsp;You&nbsp;appear&nbsp;safely&nbsp;a&nbsp;random&nbsp;distance&nbsp;away&nbsp;from&nbsp;the&nbsp;destination&nbsp;in&nbsp;a&nbsp;random&nbsp;direction.&nbsp;Distance&nbsp;off&nbsp;target&nbsp;is&nbsp;d%&nbsp;of&nbsp;the&nbsp;distance&nbsp;that&nbsp;was&nbsp;to&nbsp;be&nbsp;traveled.&nbsp;The&nbsp;direction&nbsp;off&nbsp;target&nbsp;is&nbsp;determined&nbsp;randomly.</li></ul>
+
+      <ul><li><em>Similar&nbsp;Area:</em>&nbsp;You&nbsp;wind&nbsp;up&nbsp;in&nbsp;an&nbsp;area&nbsp;that's&nbsp;visually&nbsp;or&nbsp;thematically&nbsp;similar&nbsp;to&nbsp;the&nbsp;target&nbsp;area.&nbsp;Generally,&nbsp;you&nbsp;appear&nbsp;in&nbsp;the&nbsp;closest&nbsp;similar&nbsp;place&nbsp;within&nbsp;range.&nbsp;If&nbsp;no&nbsp;such&nbsp;area&nbsp;exists&nbsp;within&nbsp;the&nbsp;power's&nbsp;range,&nbsp;the&nbsp;power&nbsp;simply&nbsp;fails&nbsp;instead.</li></ul>
+
+      <ul><li><em>Mishap:</em>&nbsp;You&nbsp;and&nbsp;anyone&nbsp;else&nbsp;teleporting&nbsp;with&nbsp;you&nbsp;have&nbsp;gotten&nbsp;"scrambled."&nbsp;You&nbsp;each&nbsp;take&nbsp;1d10&nbsp;points&nbsp;of&nbsp;damage,&nbsp;and&nbsp;you&nbsp;reroll&nbsp;on&nbsp;the&nbsp;chart&nbsp;to&nbsp;see&nbsp;where&nbsp;you&nbsp;wind&nbsp;up.&nbsp;For&nbsp;these&nbsp;rerolls,&nbsp;roll&nbsp;1d20+80.&nbsp;Each&nbsp;time&nbsp;"Mishap"&nbsp;comes&nbsp;up,&nbsp;the&nbsp;characters&nbsp;take&nbsp;more&nbsp;damage&nbsp;and&nbsp;must&nbsp;reroll.</li></ul>
+
+      <table><tbody><tr><th>Familiarity
+
+      </th><th>On&nbsp;Target
+
+      </th><th>Off&nbsp;Target
+
+      </th><th>Similar&nbsp;Area
+
+      </th><th>Mishap
+
+      </th></tr><tr><td>Very&nbsp;familiar
+
+      </td><td>01–97
+
+      </td><td>98–99
+
+      </td><td>100
+
+      </td><td>—
+
+      </td></tr><tr><td>Studied&nbsp;carefully
+
+      </td><td>01–94
+
+      </td><td>95–97
+
+      </td><td>98–99
+
+      </td><td>100
+
+      </td></tr><tr><td>Seen&nbsp;casually
+
+      </td><td>01–88&nbsp;89–94&nbsp;95–98&nbsp;99–100
+
+      </td></tr><tr><td>Viewed&nbsp;once
+
+      </td><td>01–76
+
+      </td><td>77–88
+
+      </td><td>89–96
+
+      </td><td>97–100
+
+      </td></tr><tr><td>False&nbsp;destination
+
+      </td><td>—
+
+      </td><td>—
+
+      </td><td>81–92
+
+      </td><td>93–100
+
+      </td></tr></tbody></table>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;consider&nbsp;the&nbsp;familiarity&nbsp;of&nbsp;a&nbsp;location&nbsp;1&nbsp;step&nbsp;better,&nbsp;with&nbsp;the&nbsp;exception&nbsp;of&nbsp;a&nbsp;false&nbsp;destination,&nbsp;which&nbsp;is&nbsp;always&nbsp;considered&nbsp;a&nbsp;false&nbsp;destination.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 6
+      nomad: 5
+      voyager: 5
+  level: 5
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 138–139
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 236–237
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '52'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  subdiscipline:
+    - teleportation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

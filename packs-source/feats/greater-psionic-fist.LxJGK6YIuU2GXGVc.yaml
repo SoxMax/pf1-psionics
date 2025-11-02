@@ -1,0 +1,78 @@
+_id: LxJGK6YIuU2GXGVc
+_key: '!items!LxJGK6YIuU2GXGVc'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Greater_Psionic_Fist
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Greater Psionic Fist
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;can&nbsp;charge&nbsp;your&nbsp;unarmed&nbsp;strike&nbsp;or&nbsp;natural&nbsp;weapon&nbsp;with&nbsp;additional&nbsp;damage&nbsp;potential.</em></p>
+
+      <p><strong>Prerequisites:</strong>&nbsp;Str&nbsp;13,&nbsp;<a&nbsp;href="/wiki/Psionic_Fist"&nbsp;title="Psionic&nbsp;Fist">Psionic&nbsp;Fist</a>,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+6.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;use&nbsp;the&nbsp;Psionic&nbsp;Fist&nbsp;feat,&nbsp;your&nbsp;unarmed&nbsp;attack&nbsp;or&nbsp;attack&nbsp;with&nbsp;a&nbsp;natural&nbsp;weapon&nbsp;deals&nbsp;an&nbsp;extra&nbsp;2&nbsp;points&nbsp;of&nbsp;damage&nbsp;instead&nbsp;of&nbsp;1&nbsp;point&nbsp;of&nbsp;damage&nbsp;while&nbsp;you&nbsp;maintain&nbsp;psionic&nbsp;focus,&nbsp;and&nbsp;deal&nbsp;an&nbsp;extra&nbsp;4d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;instead&nbsp;of&nbsp;an&nbsp;extra&nbsp;2d6&nbsp;points&nbsp;when&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Psionic_Fist"&nbsp;title="Psionic&nbsp;Fist">Psionic&nbsp;Fist</a></li><li><a&nbsp;href="/wiki/Psionic_Fist_(Mythic)"&nbsp;title="Psionic&nbsp;Fist&nbsp;(Mythic)">Psionic&nbsp;Fist&nbsp;(Mythic)</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 52–53
+      publisher: Dreamscarred Press
+      title: 'Psionics Unleashed: Revised'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '102'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

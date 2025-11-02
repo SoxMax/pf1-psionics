@@ -1,0 +1,101 @@
+_id: ZjUtvBEfR7h3VfKr
+_key: '!items!ZjUtvBEfR7h3VfKr'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Trick_Shot
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Trick Shot
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: immediate
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      target:
+        value: One Tiny or smaller object in motion
+  description:
+    value: >-
+      <p>By&nbsp;altering&nbsp;the&nbsp;levels&nbsp;of&nbsp;probability&nbsp;surrounding&nbsp;a&nbsp;small&nbsp;object&nbsp;in&nbsp;motion,&nbsp;you&nbsp;can&nbsp;'trick'&nbsp;it&nbsp;into&nbsp;performing&nbsp;seemingly&nbsp;impossible&nbsp;maneuvers.&nbsp;While&nbsp;this&nbsp;ability&nbsp;has&nbsp;no&nbsp;direct&nbsp;influence&nbsp;on&nbsp;an&nbsp;attack&nbsp;roll,&nbsp;it&nbsp;can&nbsp;nevertheless&nbsp;make&nbsp;a&nbsp;certain&nbsp;outcome&nbsp;possible&nbsp;in&nbsp;the&nbsp;first&nbsp;place.
+
+      </p>
+
+      <p>Until&nbsp;the&nbsp;beginning&nbsp;of&nbsp;your&nbsp;next&nbsp;turn,&nbsp;you&nbsp;may&nbsp;make&nbsp;one&nbsp;Tiny&nbsp;or&nbsp;smaller&nbsp;moving&nbsp;object&nbsp;perform&nbsp;a&nbsp;'trick&nbsp;shot'&nbsp;--&nbsp;a&nbsp;stunt&nbsp;that&nbsp;you&nbsp;describe&nbsp;--&nbsp;so&nbsp;long&nbsp;as&nbsp;it&nbsp;is&nbsp;not&nbsp;moving&nbsp;under&nbsp;its&nbsp;own&nbsp;power&nbsp;(thrown&nbsp;objects&nbsp;or&nbsp;fired&nbsp;projectiles&nbsp;are&nbsp;not&nbsp;moving&nbsp;under&nbsp;their&nbsp;own&nbsp;power,&nbsp;while&nbsp;an&nbsp;insect&nbsp;or&nbsp;a&nbsp;flying&nbsp;psicrystal&nbsp;are).&nbsp;So&nbsp;long&nbsp;as&nbsp;the&nbsp;stunt&nbsp;can&nbsp;be&nbsp;succinctly&nbsp;described&nbsp;in&nbsp;ten&nbsp;words&nbsp;or&nbsp;less,&nbsp;it&nbsp;occurs,&nbsp;no&nbsp;matter&nbsp;how&nbsp;unlikely&nbsp;this&nbsp;is.&nbsp;This&nbsp;trick&nbsp;shot&nbsp;has&nbsp;no&nbsp;influence&nbsp;on&nbsp;attack&nbsp;or&nbsp;damage&nbsp;rolls,&nbsp;although&nbsp;the&nbsp;effect&nbsp;itself&nbsp;may&nbsp;allow&nbsp;an&nbsp;attack&nbsp;to&nbsp;occur.
+
+      </p>
+
+      <p>Example&nbsp;trick&nbsp;shots&nbsp;include&nbsp;the&nbsp;following&nbsp;(which&nbsp;are&nbsp;descriptive&nbsp;and&nbsp;of&nbsp;varying&nbsp;complexity;&nbsp;the&nbsp;sentences&nbsp;used&nbsp;in&nbsp;manifesting&nbsp;are&nbsp;shorter):
+
+      </p><ul><li>Shooting&nbsp;an&nbsp;arrow&nbsp;through&nbsp;the&nbsp;sockets&nbsp;of&nbsp;twelve&nbsp;axe&nbsp;heads&nbsp;between&nbsp;you&nbsp;and&nbsp;your&nbsp;target</li><li>Bouncing&nbsp;a&nbsp;billiard&nbsp;ball&nbsp;off&nbsp;of&nbsp;nine&nbsp;different&nbsp;fixtures&nbsp;(including&nbsp;your&nbsp;friend's&nbsp;breastplate)&nbsp;before&nbsp;sinking&nbsp;in&nbsp;a&nbsp;pocket</li><li>Having&nbsp;a&nbsp;crossbow&nbsp;bolt&nbsp;"loop&nbsp;the&nbsp;loop"&nbsp;before&nbsp;impacting&nbsp;normally</li><li>Forcing&nbsp;a&nbsp;tossed&nbsp;coin&nbsp;to&nbsp;land,&nbsp;perfectly&nbsp;stable,&nbsp;on&nbsp;its&nbsp;edge</li><li>Getting&nbsp;a&nbsp;javelin&nbsp;to&nbsp;slalom&nbsp;around&nbsp;trees&nbsp;between&nbsp;you&nbsp;and&nbsp;your&nbsp;target</li><li>Directing&nbsp;the&nbsp;tiny&nbsp;bead&nbsp;of&nbsp;an&nbsp;undetonated&nbsp;fireball&nbsp;to&nbsp;fly&nbsp;a&nbsp;"figure&nbsp;eight"&nbsp;around&nbsp;its&nbsp;target's&nbsp;feet</li><li>Allowing&nbsp;a&nbsp;dagger,&nbsp;despite&nbsp;being&nbsp;pointy,&nbsp;to&nbsp;bounce&nbsp;off&nbsp;of&nbsp;the&nbsp;ground&nbsp;between&nbsp;a&nbsp;creature's&nbsp;legs&nbsp;and&nbsp;continue&nbsp;unhindered&nbsp;to&nbsp;its&nbsp;actual&nbsp;target&nbsp;behind&nbsp;him</li></ul>
+
+      <p>Additional&nbsp;trick&nbsp;shots&nbsp;beyond&nbsp;this&nbsp;list&nbsp;are&nbsp;possible.
+
+      </p>
+
+      <p>From&nbsp;a&nbsp;combat&nbsp;perspective,&nbsp;the&nbsp;most&nbsp;powerful&nbsp;use&nbsp;of&nbsp;this&nbsp;power&nbsp;would&nbsp;be&nbsp;to&nbsp;shoot&nbsp;around&nbsp;corners,&nbsp;but&nbsp;doing&nbsp;so&nbsp;is&nbsp;treated&nbsp;as&nbsp;shooting&nbsp;blind.&nbsp;It&nbsp;is&nbsp;more&nbsp;frequently&nbsp;used,&nbsp;however,&nbsp;to&nbsp;show&nbsp;off&nbsp;outside&nbsp;of&nbsp;combat.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>Each&nbsp;additional&nbsp;power&nbsp;point&nbsp;spent&nbsp;allows&nbsp;you&nbsp;to&nbsp;affect&nbsp;one&nbsp;additional&nbsp;object&nbsp;before&nbsp;the&nbsp;power&nbsp;ends,&nbsp;although&nbsp;this&nbsp;cannot&nbsp;allow&nbsp;you&nbsp;to&nbsp;make&nbsp;more&nbsp;attacks&nbsp;in&nbsp;a&nbsp;standard&nbsp;attack&nbsp;or&nbsp;full&nbsp;attack&nbsp;than&nbsp;normal.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;size&nbsp;of&nbsp;an&nbsp;object&nbsp;you&nbsp;can&nbsp;affect&nbsp;with&nbsp;this&nbsp;power&nbsp;increases&nbsp;one&nbsp;step.</li><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;the&nbsp;power's&nbsp;duration&nbsp;extends&nbsp;1&nbsp;round.&nbsp;The&nbsp;number&nbsp;of&nbsp;objects&nbsp;you&nbsp;can&nbsp;alter&nbsp;this&nbsp;way&nbsp;remains&nbsp;unchanged,&nbsp;and&nbsp;the&nbsp;power&nbsp;still&nbsp;ends&nbsp;when&nbsp;these&nbsp;run&nbsp;out.</li></ol>
+
+      <p>Additionally,&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;spent&nbsp;to&nbsp;achieve&nbsp;any&nbsp;of&nbsp;these&nbsp;effects&nbsp;allows&nbsp;for&nbsp;your&nbsp;trick&nbsp;shots&nbsp;to&nbsp;be&nbsp;described&nbsp;in&nbsp;sentences&nbsp;of&nbsp;up&nbsp;to&nbsp;one&nbsp;word&nbsp;longer.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      marksman: 0
+      thug: 0
+  level: 0
+  manifestTime:
+    units: immediate
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 25–26
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Unlimited Possibilities'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '183'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '253'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

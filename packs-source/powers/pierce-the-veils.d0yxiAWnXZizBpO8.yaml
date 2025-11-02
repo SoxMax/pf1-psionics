@@ -1,0 +1,88 @@
+_id: d0yxiAWnXZizBpO8
+_key: '!items!d0yxiAWnXZizBpO8'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Pierce_the_Veils
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Pierce the Veils
+system:
+  actions:
+    - actionType: rsak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;gain&nbsp;the&nbsp;ability&nbsp;to&nbsp;see&nbsp;all&nbsp;things&nbsp;as&nbsp;they&nbsp;actually&nbsp;are.&nbsp;You&nbsp;see&nbsp;through&nbsp;normal&nbsp;and&nbsp;psionic&nbsp;darkness,&nbsp;notice&nbsp;secret&nbsp;doors&nbsp;hidden&nbsp;by&nbsp;psionics,&nbsp;see&nbsp;the&nbsp;exact&nbsp;locations&nbsp;of&nbsp;creatures&nbsp;or&nbsp;objects&nbsp;under&nbsp;blur&nbsp;or&nbsp;displacement&nbsp;effects,&nbsp;see&nbsp;invisible&nbsp;creatures&nbsp;or&nbsp;objects&nbsp;normally,&nbsp;see&nbsp;through&nbsp;illusions,&nbsp;and&nbsp;see&nbsp;the&nbsp;true&nbsp;form&nbsp;of&nbsp;polymorphed,&nbsp;changed,&nbsp;or&nbsp;transmuted&nbsp;things.&nbsp;Further,&nbsp;you&nbsp;can&nbsp;focus&nbsp;your&nbsp;vision&nbsp;as&nbsp;a&nbsp;standard&nbsp;action&nbsp;to&nbsp;instead&nbsp;see&nbsp;into&nbsp;the&nbsp;Ethereal&nbsp;Plane&nbsp;(but&nbsp;not&nbsp;into&nbsp;extradimensional&nbsp;spaces).&nbsp;The&nbsp;visual&nbsp;range&nbsp;of&nbsp;the&nbsp;effect&nbsp;conferred&nbsp;is&nbsp;120&nbsp;feet.
+
+      </p>
+
+      <p>This&nbsp;does&nbsp;not,&nbsp;however,&nbsp;penetrate&nbsp;solid&nbsp;objects.&nbsp;It&nbsp;in&nbsp;no&nbsp;way&nbsp;confers&nbsp;X-ray&nbsp;vision&nbsp;or&nbsp;its&nbsp;equivalent.&nbsp;It&nbsp;does&nbsp;not&nbsp;negate&nbsp;concealment,&nbsp;including&nbsp;that&nbsp;caused&nbsp;by&nbsp;fog&nbsp;and&nbsp;the&nbsp;like.&nbsp;This&nbsp;effect&nbsp;does&nbsp;not&nbsp;help&nbsp;you&nbsp;see&nbsp;through&nbsp;mundane&nbsp;disguises,&nbsp;spot&nbsp;creatures&nbsp;that&nbsp;are&nbsp;simply&nbsp;hiding,&nbsp;or&nbsp;notice&nbsp;secret&nbsp;doors&nbsp;hidden&nbsp;by&nbsp;mundane&nbsp;means.&nbsp;In&nbsp;addition,&nbsp;the&nbsp;effects&nbsp;cannot&nbsp;be&nbsp;further&nbsp;enhanced&nbsp;with&nbsp;known&nbsp;magic,&nbsp;so&nbsp;one&nbsp;cannot&nbsp;use&nbsp;this&nbsp;power&nbsp;through&nbsp;a&nbsp;crystal&nbsp;ball&nbsp;or&nbsp;in&nbsp;conjunction&nbsp;with&nbsp;effects&nbsp;such&nbsp;as&nbsp;clairaudience/clairvoyance.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 5
+      dread: 5
+      empath: 5
+      gambler: 5
+      marksman: 4
+      psion: 5
+      thug: 4
+      voyager: 5
+      wilder: 5
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '133'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '229'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '50'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

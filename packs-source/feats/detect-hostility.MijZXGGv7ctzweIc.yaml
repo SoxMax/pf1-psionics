@@ -1,0 +1,134 @@
+_id: MijZXGGv7ctzweIc
+_key: '!items!MijZXGGv7ctzweIc'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Detect_Hostility
+img: icons/sundries/books/book-embossed-blue.webp
+name: Detect Hostility
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;know&nbsp;how&nbsp;to&nbsp;search&nbsp;for&nbsp;the&nbsp;"killing&nbsp;intent"&nbsp;that&nbsp;creatures&nbsp;subconsciously&nbsp;aim&nbsp;at&nbsp;their&nbsp;enemies.</em></p>
+
+      <p><strong>Prerequisites:</strong><a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Blind-Fight">Blind-Fight</a>&nbsp;feat&nbsp;or&nbsp;the&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/UMR.aspx?ItemName=Scent">Scent</a>&nbsp;ability,&nbsp;Knowledge&nbsp;(martial)&nbsp;5&nbsp;ranks.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;You&nbsp;can&nbsp;perform&nbsp;the&nbsp;anticipate&nbsp;ambush&nbsp;occult&nbsp;skill&nbsp;unlock&nbsp;even&nbsp;if&nbsp;you&nbsp;can't&nbsp;cast&nbsp;psychic&nbsp;spells.&nbsp;If&nbsp;you&nbsp;can&nbsp;cast&nbsp;psychic&nbsp;spells&nbsp;or&nbsp;have&nbsp;the&nbsp;Psychic&nbsp;Sensitivity&nbsp;feat,&nbsp;you&nbsp;can&nbsp;use&nbsp;anticipate&nbsp;ambush&nbsp;one&nbsp;additional&nbsp;time&nbsp;per&nbsp;day.
+
+      </p>
+
+      <p>At&nbsp;any&nbsp;time&nbsp;as&nbsp;a&nbsp;standard&nbsp;action,&nbsp;you&nbsp;can&nbsp;attempt&nbsp;a&nbsp;Knowledge&nbsp;(martial)&nbsp;check&nbsp;to&nbsp;detect&nbsp;whether&nbsp;any&nbsp;creatures&nbsp;within&nbsp;30&nbsp;feet&nbsp;carry&nbsp;a&nbsp;desire&nbsp;to&nbsp;fight,&nbsp;kill&nbsp;or&nbsp;otherwise&nbsp;defeat&nbsp;someone&nbsp;they&nbsp;can&nbsp;see.&nbsp;Using&nbsp;this&nbsp;ability&nbsp;does&nbsp;not&nbsp;require&nbsp;you&nbsp;to&nbsp;be&nbsp;aware&nbsp;of&nbsp;the&nbsp;creatures&nbsp;in&nbsp;question,&nbsp;but&nbsp;you&nbsp;cannot&nbsp;sense&nbsp;hostility&nbsp;from&nbsp;a&nbsp;creature&nbsp;immune&nbsp;to&nbsp;mind-affecting&nbsp;effects&nbsp;unless&nbsp;they&nbsp;are&nbsp;actively&nbsp;focusing&nbsp;it&nbsp;onto&nbsp;another&nbsp;creature&nbsp;in&nbsp;some&nbsp;way&nbsp;(such&nbsp;as&nbsp;via&nbsp;the&nbsp;Intimidate&nbsp;skill,&nbsp;the&nbsp;paladin's&nbsp;smite&nbsp;evil,&nbsp;the&nbsp;cavalier's&nbsp;challenge&nbsp;or&nbsp;the&nbsp;harbinger's&nbsp;dark&nbsp;claim).&nbsp;If&nbsp;you&nbsp;succeed&nbsp;then&nbsp;you&nbsp;learn&nbsp;the&nbsp;locations&nbsp;of&nbsp;each&nbsp;source&nbsp;of&nbsp;hostility,&nbsp;as&nbsp;well&nbsp;as&nbsp;the&nbsp;type&nbsp;of&nbsp;hostility&nbsp;involved&nbsp;(friendly,&nbsp;adversarial&nbsp;or&nbsp;malicious).&nbsp;If&nbsp;you&nbsp;succeed&nbsp;by&nbsp;5&nbsp;or&nbsp;more&nbsp;then&nbsp;you&nbsp;can&nbsp;determine&nbsp;who&nbsp;these&nbsp;hostile&nbsp;feelings&nbsp;are&nbsp;directed&nbsp;at,&nbsp;as&nbsp;long&nbsp;as&nbsp;both&nbsp;the&nbsp;target&nbsp;and&nbsp;the&nbsp;aggressor&nbsp;are&nbsp;within&nbsp;your&nbsp;line&nbsp;of&nbsp;sight.&nbsp;You&nbsp;always&nbsp;know&nbsp;if&nbsp;hostility&nbsp;is&nbsp;directed&nbsp;at&nbsp;you,&nbsp;even&nbsp;if&nbsp;you&nbsp;cannot&nbsp;see&nbsp;the&nbsp;target.
+
+      </p><table><tbody><tr><th>Type&nbsp;of&nbsp;Hostility
+
+      </th><th>DC
+
+      </th></tr><tr><td>Friendly&nbsp;(wants&nbsp;to&nbsp;spar&nbsp;with&nbsp;the&nbsp;target)
+
+      </td><td>15&nbsp;+&nbsp;the&nbsp;aggressor's&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+&nbsp;the&nbsp;aggressor's&nbsp;Wisdom&nbsp;modifier
+
+      </td></tr><tr><td>Adversarial&nbsp;(wants&nbsp;to&nbsp;stop&nbsp;the&nbsp;target)
+
+      </td><td>10&nbsp;+&nbsp;the&nbsp;aggressor's&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+&nbsp;the&nbsp;aggressor's&nbsp;Wisdom&nbsp;modifier
+
+      </td></tr><tr><td>Malicious&nbsp;(wants&nbsp;to&nbsp;make&nbsp;the&nbsp;target&nbsp;suffer)
+
+      </td><td>5&nbsp;+&nbsp;the&nbsp;aggressor's&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+&nbsp;the&nbsp;aggressor's&nbsp;Wisdom&nbsp;modifier
+
+      </td></tr></tbody></table>
+
+      <table><tbody><tr><th>DC&nbsp;Modifiers
+
+      </th><th>DC
+
+      </th></tr><tr><td>Aggressor&nbsp;is&nbsp;attacking&nbsp;the&nbsp;target
+
+      </td><td>–10
+
+      </td></tr><tr><td>You&nbsp;are&nbsp;the&nbsp;target&nbsp;of&nbsp;the&nbsp;aggressor's&nbsp;feelings
+
+      </td><td>–5
+
+      </td></tr><tr><td>Aggressor&nbsp;is&nbsp;shaken,&nbsp;frightened&nbsp;or&nbsp;panicked
+
+      </td><td>+5
+
+      </td></tr><tr><td>Aggressor&nbsp;is&nbsp;using&nbsp;the&nbsp;Intimidate&nbsp;skill&nbsp;on&nbsp;target
+
+      </td><td>–5
+
+      </td></tr><tr><td>Aggressor&nbsp;has&nbsp;placed&nbsp;a&nbsp;smite,&nbsp;challenge&nbsp;or&nbsp;Claim&nbsp;on&nbsp;target.
+
+      </td><td>–5
+
+      </td></tr><tr><td>Aggressor&nbsp;is&nbsp;under&nbsp;the&nbsp;effects&nbsp;of&nbsp;a&nbsp;nondetection&nbsp;spell&nbsp;or&nbsp;similar&nbsp;effect
+
+      </td><td>+10
+
+      </td></tr></tbody></table>
+
+      <p>If&nbsp;an&nbsp;aggressor&nbsp;is&nbsp;concerned&nbsp;of&nbsp;its&nbsp;hostility&nbsp;being&nbsp;noticed&nbsp;and&nbsp;wants&nbsp;to&nbsp;hide&nbsp;it,&nbsp;then&nbsp;the&nbsp;Knowledge&nbsp;(martial)&nbsp;DC&nbsp;is&nbsp;instead&nbsp;equal&nbsp;to&nbsp;10&nbsp;+&nbsp;their&nbsp;Bluff&nbsp;modifier&nbsp;(if&nbsp;higher&nbsp;than&nbsp;the&nbsp;normal&nbsp;DC).&nbsp;Creatures&nbsp;using&nbsp;the&nbsp;Stealth&nbsp;skill&nbsp;are&nbsp;assumed&nbsp;to&nbsp;be&nbsp;hiding&nbsp;their&nbsp;hostility&nbsp;unless&nbsp;stated&nbsp;otherwise.
+
+      </p>
+
+      <p><strong>Special:</strong>&nbsp;Outsiders&nbsp;with&nbsp;the&nbsp;evil&nbsp;subtype&nbsp;are&nbsp;considered&nbsp;to&nbsp;radiate&nbsp;malicious&nbsp;hostility&nbsp;towards&nbsp;all&nbsp;creatures&nbsp;they&nbsp;can&nbsp;see,&nbsp;regardless&nbsp;of&nbsp;the&nbsp;personality&nbsp;and&nbsp;goals&nbsp;of&nbsp;the&nbsp;outsider&nbsp;in&nbsp;question.&nbsp;At&nbsp;your&nbsp;GM's&nbsp;option,&nbsp;other&nbsp;kinds&nbsp;of&nbsp;creatures&nbsp;might&nbsp;radiate&nbsp;hostility&nbsp;of&nbsp;different&nbsp;kinds&nbsp;(such&nbsp;as&nbsp;celestials&nbsp;radiating&nbsp;friendly&nbsp;hostility,&nbsp;or&nbsp;ghosts&nbsp;radiating&nbsp;adversarial&nbsp;hostility).
+
+      </p>
+
+      <p>A&nbsp;warder&nbsp;with&nbsp;the&nbsp;sworn&nbsp;protector&nbsp;archetype&nbsp;(or&nbsp;a&nbsp;character&nbsp;with&nbsp;a&nbsp;similar&nbsp;ability)&nbsp;may&nbsp;treat&nbsp;hostility&nbsp;aimed&nbsp;at&nbsp;their&nbsp;ward&nbsp;as&nbsp;hostility&nbsp;aimed&nbsp;at&nbsp;themselves&nbsp;for&nbsp;determining&nbsp;their&nbsp;ability&nbsp;to&nbsp;sense&nbsp;it.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Constant_Vigilance"&nbsp;title="Constant&nbsp;Vigilance">Constant&nbsp;Vigilance</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 79–80
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Occult Compilation'
+  subType: feat
+  summons: false
+  tags:
+    - feat
+type: feat

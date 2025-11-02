@@ -1,0 +1,72 @@
+_id: Rr9oAspQzBWVOGGL
+_key: '!items!Rr9oAspQzBWVOGGL'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Effective_Opportunist
+img: icons/sundries/books/book-embossed-blue.webp
+name: Effective Opportunist
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>Your&nbsp;ability&nbsp;to&nbsp;manifest&nbsp;reflxively&nbsp;is&nbsp;second&nbsp;to&nbsp;none.</em></p>
+
+      <p><strong>Prerequisites:</strong><a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Combat%20Reflexes">Combat&nbsp;Reflexes</a>,&nbsp;<a&nbsp;href="/wiki/Opportunity_Power"&nbsp;title="Opportunity&nbsp;Power">Opportunity&nbsp;Power</a>.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;use&nbsp;the&nbsp;Opportunity&nbsp;Power&nbsp;feat&nbsp;as&nbsp;many&nbsp;times&nbsp;as&nbsp;you&nbsp;could&nbsp;make&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;in&nbsp;a&nbsp;round.&nbsp;Using&nbsp;the&nbsp;Opportunity&nbsp;Power&nbsp;feat&nbsp;doesn’t&nbsp;count
+
+      as&nbsp;an&nbsp;immediate&nbsp;action&nbsp;anymore.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '2'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  subType: feat
+  summons: false
+  tags:
+    - feat
+type: feat

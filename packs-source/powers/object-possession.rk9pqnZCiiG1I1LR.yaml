@@ -1,0 +1,69 @@
+_id: rk9pqnZCiiG1I1LR
+_key: '!items!rk9pqnZCiiG1I1LR'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Object_Possession
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Object Possession
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;take&nbsp;a&nbsp;ghostlike&nbsp;form,&nbsp;leaping&nbsp;into&nbsp;a&nbsp;nearby&nbsp;object.&nbsp;This&nbsp;object&nbsp;must&nbsp;be&nbsp;of&nbsp;Small&nbsp;size&nbsp;or&nbsp;smaller,&nbsp;and&nbsp;must&nbsp;be&nbsp;no&nbsp;further&nbsp;away&nbsp;than&nbsp;50&nbsp;feet.&nbsp;You&nbsp;effectively&nbsp;become&nbsp;that&nbsp;object,&nbsp;counting&nbsp;as&nbsp;an&nbsp;animated&nbsp;object&nbsp;of&nbsp;the&nbsp;object's&nbsp;size&nbsp;and&nbsp;shape,&nbsp;except&nbsp;that&nbsp;you&nbsp;do&nbsp;not&nbsp;gain&nbsp;immunity&nbsp;to&nbsp;mind-affecting&nbsp;effects.&nbsp;If&nbsp;the&nbsp;object&nbsp;is&nbsp;destroyed&nbsp;while&nbsp;you&nbsp;are&nbsp;inhabiting&nbsp;it,&nbsp;this&nbsp;power&nbsp;immediately&nbsp;ends&nbsp;and&nbsp;you&nbsp;are&nbsp;dazed&nbsp;for&nbsp;one&nbsp;round.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;was.
+
+      </p><ol><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;increase&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;10&nbsp;minutes/level.&nbsp;However,&nbsp;if&nbsp;you&nbsp;augment&nbsp;the&nbsp;power&nbsp;in&nbsp;this&nbsp;way,&nbsp;the&nbsp;object&nbsp;targeted&nbsp;does&nbsp;not&nbsp;become&nbsp;animated&nbsp;-&nbsp;instead,&nbsp;you&nbsp;can&nbsp;take&nbsp;no&nbsp;action&nbsp;while&nbsp;inside&nbsp;it&nbsp;other&nbsp;than&nbsp;to&nbsp;dismiss&nbsp;this&nbsp;power.&nbsp;You&nbsp;may&nbsp;observe&nbsp;the&nbsp;object's&nbsp;surroundings&nbsp;using&nbsp;your&nbsp;skills&nbsp;and&nbsp;normal&nbsp;senses,&nbsp;however.</li><li>You&nbsp;may&nbsp;spend&nbsp;an&nbsp;additional&nbsp;3&nbsp;power&nbsp;points&nbsp;to&nbsp;increase&nbsp;the&nbsp;size&nbsp;of&nbsp;object&nbsp;you&nbsp;may&nbsp;animate&nbsp;by&nbsp;one&nbsp;step&nbsp;(to&nbsp;a&nbsp;maximum&nbsp;of&nbsp;Huge).</li></ol>
+  discipline: athanatism
+  display:
+    auditory: true
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      conduit: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '37'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

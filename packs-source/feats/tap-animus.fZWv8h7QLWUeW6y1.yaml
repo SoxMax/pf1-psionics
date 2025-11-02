@@ -1,0 +1,94 @@
+_id: fZWv8h7QLWUeW6y1
+_key: '!items!fZWv8h7QLWUeW6y1'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Tap_Animus
+img: icons/skills/melee/hand-grip-sword-orange.webp
+name: Tap Animus
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;gain&nbsp;the&nbsp;ability&nbsp;to&nbsp;tap&nbsp;a&nbsp;small&nbsp;wellspring&nbsp;of&nbsp;animus&nbsp;within&nbsp;you.</em></p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;You&nbsp;may&nbsp;not&nbsp;possess&nbsp;the&nbsp;animus&nbsp;class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;enter&nbsp;combat,&nbsp;you&nbsp;gain&nbsp;an&nbsp;<a&nbsp;href="/wiki/Animus_(system)"&nbsp;title="Animus&nbsp;(system)">animus&nbsp;pool</a>&nbsp;with&nbsp;one&nbsp;point&nbsp;of&nbsp;animus&nbsp;at&nbsp;the&nbsp;start&nbsp;of&nbsp;your&nbsp;first&nbsp;turn,&nbsp;and&nbsp;add&nbsp;one&nbsp;point&nbsp;of&nbsp;animus&nbsp;to&nbsp;your&nbsp;animus&nbsp;pool&nbsp;at&nbsp;the&nbsp;start&nbsp;of&nbsp;each&nbsp;of&nbsp;your&nbsp;turns&nbsp;thereafter.&nbsp;Your&nbsp;animus&nbsp;pool&nbsp;persists&nbsp;for&nbsp;one&nbsp;minute&nbsp;after&nbsp;the&nbsp;last&nbsp;enemy&nbsp;combatant&nbsp;is&nbsp;defeated&nbsp;or&nbsp;the&nbsp;encounter&nbsp;otherwise&nbsp;ends.&nbsp;At&nbsp;the&nbsp;end&nbsp;of&nbsp;any&nbsp;round&nbsp;in&nbsp;which&nbsp;you&nbsp;initiate&nbsp;a&nbsp;maneuver&nbsp;(a&nbsp;strike,&nbsp;boost,&nbsp;or&nbsp;counter;&nbsp;see&nbsp;<em><a&nbsp;href="/wiki/Path_of_War"&nbsp;title="Path&nbsp;of&nbsp;War">Path&nbsp;of&nbsp;War</a></em>&nbsp;and&nbsp;<em><a&nbsp;href="/wiki/Path_of_War_Expanded"&nbsp;title="Path&nbsp;of&nbsp;War&nbsp;Expanded">Path&nbsp;of&nbsp;War&nbsp;Expanded</a></em>),&nbsp;you&nbsp;add&nbsp;an&nbsp;additional&nbsp;point&nbsp;of&nbsp;animus&nbsp;to&nbsp;you&nbsp;pool.&nbsp;You&nbsp;can&nbsp;use&nbsp;this&nbsp;animus&nbsp;pool&nbsp;to&nbsp;augment&nbsp;maneuvers&nbsp;or&nbsp;power&nbsp;animus-related&nbsp;feats&nbsp;and&nbsp;abilities&nbsp;as&nbsp;normal.
+
+      </p>
+
+      <p><strong>Special:</strong>&nbsp;If&nbsp;you&nbsp;ever&nbsp;gain&nbsp;the&nbsp;animus&nbsp;class&nbsp;feature,&nbsp;this&nbsp;feat&nbsp;is&nbsp;immediately&nbsp;exchanged&nbsp;for&nbsp;the&nbsp;<a&nbsp;href="/wiki/Extra_Animus"&nbsp;title="Extra&nbsp;Animus">Extra&nbsp;Animus</a>&nbsp;feat.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Halo_Knight"&nbsp;title="Halo&nbsp;Knight">Halo&nbsp;Knight</a></li><li><a&nbsp;href="/wiki/Knight-chandler"&nbsp;title="Knight-chandler">Knight-chandler</a></li><li><a&nbsp;href="/wiki/Sacred_Band"&nbsp;title="Sacred&nbsp;Band">Sacred&nbsp;Band</a></li></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Psychic_Warrior_Path"&nbsp;title="Psychic&nbsp;Warrior&nbsp;Path">Psychic&nbsp;Warrior&nbsp;Path</a></li></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Akashic_Animus"&nbsp;title="Akashic&nbsp;Animus">Akashic&nbsp;Animus</a></li><li><a&nbsp;href="/wiki/Animus_Healing"&nbsp;title="Animus&nbsp;Healing">Animus&nbsp;Healing</a></li><li><a&nbsp;href="/wiki/Awakened_Animus"&nbsp;title="Awakened&nbsp;Animus">Awakened&nbsp;Animus</a></li><li><a&nbsp;href="/wiki/Extra_Animus"&nbsp;title="Extra&nbsp;Animus">Extra&nbsp;Animus</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Eightfold_Immortal%27s_Crown"&nbsp;title="Eightfold&nbsp;Immortal's&nbsp;Crown">Eightfold&nbsp;Immortal's&nbsp;Crown</a></li><li><a&nbsp;href="/wiki/Kusanagi%27s_Woe"&nbsp;title="Kusanagi's&nbsp;Woe">Kusanagi's&nbsp;Woe</a></li><li><a&nbsp;href="/wiki/The_Primordial"&nbsp;title="The&nbsp;Primordial">The&nbsp;Primordial</a></li><li><a&nbsp;href="/wiki/The_Primordial_(Retold)"&nbsp;title="The&nbsp;Primordial&nbsp;(Retold)">The&nbsp;Primordial&nbsp;(Retold)</a></li></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '80'
+      publisher: Dreamscarred Press
+      title: Path of War Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '7'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Psychic Warriors II'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '41'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: feat
+  summons: false
+  tags:
+    - combat
+type: feat

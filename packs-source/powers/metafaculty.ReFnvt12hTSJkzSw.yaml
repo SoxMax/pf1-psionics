@@ -1,0 +1,92 @@
+_id: ReFnvt12hTSJkzSw
+_key: '!items!ReFnvt12hTSJkzSw'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Metafaculty
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Metafaculty
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: hour
+      duration:
+        dismiss: true
+        units: inst
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;elevate&nbsp;your&nbsp;mind&nbsp;to&nbsp;a&nbsp;near-universal&nbsp;consciousness,&nbsp;cogitating&nbsp;countless&nbsp;impressions&nbsp;and&nbsp;predictions&nbsp;involving&nbsp;any&nbsp;creature&nbsp;you&nbsp;have&nbsp;seen&nbsp;before,&nbsp;whether&nbsp;personally&nbsp;or&nbsp;by&nbsp;means&nbsp;of&nbsp;another&nbsp;power&nbsp;such&nbsp;as&nbsp;remote&nbsp;viewing.
+
+      </p>
+
+      <p>This&nbsp;process&nbsp;gives&nbsp;you&nbsp;an&nbsp;uncannily&nbsp;accurate&nbsp;vision&nbsp;of&nbsp;the&nbsp;creature's&nbsp;nature,&nbsp;activities,&nbsp;and&nbsp;whereabouts.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;the&nbsp;power,&nbsp;you&nbsp;learn&nbsp;the&nbsp;following&nbsp;facts&nbsp;about&nbsp;the&nbsp;creature.
+
+      </p><ul><li>Its&nbsp;name,&nbsp;race,&nbsp;alignment,&nbsp;and&nbsp;character&nbsp;class.</li><li>A&nbsp;general&nbsp;estimate&nbsp;of&nbsp;its&nbsp;level&nbsp;or&nbsp;Hit&nbsp;Dice:&nbsp;low&nbsp;(5&nbsp;HD&nbsp;or&nbsp;lower),&nbsp;medium&nbsp;(6&nbsp;to&nbsp;11&nbsp;HD),&nbsp;high&nbsp;(12&nbsp;to&nbsp;20&nbsp;HD),&nbsp;very&nbsp;high&nbsp;(21&nbsp;HD&nbsp;to&nbsp;40&nbsp;HD),&nbsp;or&nbsp;deific&nbsp;(41&nbsp;HD&nbsp;or&nbsp;higher).</li><li>Its&nbsp;location&nbsp;(including&nbsp;place&nbsp;of&nbsp;residence,&nbsp;town,&nbsp;country,&nbsp;world,&nbsp;and&nbsp;plane&nbsp;of&nbsp;existence).</li><li>Significant&nbsp;items&nbsp;currently&nbsp;in&nbsp;its&nbsp;possession.</li><li>Any&nbsp;significant&nbsp;activities&nbsp;or&nbsp;actions&nbsp;the&nbsp;creature&nbsp;has&nbsp;undertaken&nbsp;in&nbsp;the&nbsp;previous&nbsp;8&nbsp;hours,&nbsp;including&nbsp;details&nbsp;such&nbsp;as&nbsp;locales&nbsp;traveled&nbsp;through,&nbsp;the&nbsp;names&nbsp;or&nbsp;races&nbsp;of&nbsp;those&nbsp;the&nbsp;creature&nbsp;fought,&nbsp;spells&nbsp;or&nbsp;powers&nbsp;it&nbsp;has&nbsp;used,&nbsp;items&nbsp;it&nbsp;acquired,&nbsp;and&nbsp;items&nbsp;it&nbsp;left&nbsp;behind&nbsp;(including&nbsp;the&nbsp;location&nbsp;of&nbsp;those&nbsp;items).</li><li>A&nbsp;current&nbsp;mental&nbsp;view&nbsp;of&nbsp;the&nbsp;creature,&nbsp;as&nbsp;described&nbsp;in&nbsp;the&nbsp;remote&nbsp;viewing&nbsp;power,&nbsp;which&nbsp;you&nbsp;can&nbsp;maintain&nbsp;for&nbsp;up&nbsp;to&nbsp;1&nbsp;minute&nbsp;per&nbsp;level.</li></ul>
+
+      <p>Metafaculty&nbsp;can&nbsp;defeat&nbsp;spells,&nbsp;powers,&nbsp;and&nbsp;special&nbsp;abilities&nbsp;such&nbsp;as&nbsp;screen&nbsp;or&nbsp;mind&nbsp;blank&nbsp;(or&nbsp;even&nbsp;a&nbsp;wish&nbsp;spell)&nbsp;that&nbsp;normally&nbsp;obscure&nbsp;clairsentience&nbsp;powers.&nbsp;You&nbsp;can&nbsp;attempt&nbsp;a&nbsp;manifester&nbsp;level&nbsp;check&nbsp;(DC&nbsp;6&nbsp;+&nbsp;manifester&nbsp;or&nbsp;caster&nbsp;level&nbsp;of&nbsp;the&nbsp;creator&nbsp;of&nbsp;the&nbsp;obscuring&nbsp;effect,&nbsp;as&nbsp;appropriate)&nbsp;to&nbsp;defeat&nbsp;these&nbsp;sorts&nbsp;of&nbsp;otherwise&nbsp;impervious&nbsp;defenses.
+
+      </p>
+
+      <p>Metafaculty&nbsp;is&nbsp;defeated&nbsp;by&nbsp;epic&nbsp;powers,&nbsp;epic&nbsp;spells,&nbsp;and&nbsp;epic&nbsp;special&nbsp;abilities&nbsp;that&nbsp;obscure&nbsp;divinations&nbsp;and&nbsp;clairsentience&nbsp;powers.
+
+      </p>
+
+      <p>The&nbsp;amount&nbsp;of&nbsp;information&nbsp;gained&nbsp;from&nbsp;metafaculty&nbsp;is&nbsp;taxing&nbsp;on&nbsp;the&nbsp;mind.&nbsp;You&nbsp;suffer&nbsp;2&nbsp;points&nbsp;of&nbsp;ability&nbsp;burn&nbsp;to&nbsp;your&nbsp;key&nbsp;ability&nbsp;score&nbsp;when&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: true
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      seer: 9
+  level: 9
+  manifestTime:
+    units: hour
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '123'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '219'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '46'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

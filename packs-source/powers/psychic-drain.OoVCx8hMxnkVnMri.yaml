@@ -1,0 +1,91 @@
+_id: OoVCx8hMxnkVnMri
+_key: '!items!OoVCx8hMxnkVnMri'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psychic_Drain
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Psychic Drain
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude negates
+        type: fort
+      target:
+        value: Creature touched
+  description:
+    value: >-
+      <p>This&nbsp;power&nbsp;shrouds&nbsp;your&nbsp;hand&nbsp;or&nbsp;a&nbsp;natural&nbsp;weapon&nbsp;you&nbsp;possess&nbsp;with&nbsp;darkness&nbsp;that&nbsp;you&nbsp;can&nbsp;use&nbsp;to&nbsp;drain&nbsp;an&nbsp;opponent's&nbsp;power.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power&nbsp;to&nbsp;affect&nbsp;your&nbsp;hand,&nbsp;the&nbsp;next&nbsp;successful&nbsp;melee&nbsp;touch&nbsp;attack&nbsp;you&nbsp;make&nbsp;(if&nbsp;the&nbsp;victim&nbsp;fails&nbsp;its&nbsp;Fortitude&nbsp;save)&nbsp;drains&nbsp;2&nbsp;power&nbsp;points&nbsp;from&nbsp;your&nbsp;foe&nbsp;for&nbsp;every&nbsp;manifester&nbsp;level&nbsp;you&nbsp;have.&nbsp;The&nbsp;drained&nbsp;points&nbsp;simply&nbsp;dissipate.&nbsp;Your&nbsp;touch&nbsp;attack,&nbsp;charged&nbsp;with&nbsp;psionic&nbsp;power,&nbsp;is&nbsp;treated&nbsp;as&nbsp;an&nbsp;armed&nbsp;attack.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power&nbsp;to&nbsp;affect&nbsp;a&nbsp;natural&nbsp;weapon&nbsp;you&nbsp;possess,&nbsp;you&nbsp;must&nbsp;make&nbsp;a&nbsp;successful&nbsp;melee&nbsp;attack&nbsp;with&nbsp;the&nbsp;weapon&nbsp;to&nbsp;gain&nbsp;the&nbsp;power's&nbsp;benefit.
+
+      </p>
+
+      <p>Against&nbsp;a&nbsp;psionic&nbsp;being&nbsp;that&nbsp;has&nbsp;no&nbsp;power&nbsp;points&nbsp;or&nbsp;a&nbsp;nonpsionic&nbsp;foe,&nbsp;your&nbsp;attack&nbsp;instead&nbsp;deals&nbsp;2&nbsp;points&nbsp;of&nbsp;Intelligence,&nbsp;Wisdom,&nbsp;or&nbsp;Charisma&nbsp;damage&nbsp;(your&nbsp;choice).
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      egoist: 4
+      psychic warrior: 4
+      vitalist: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '137'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '234'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '52'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

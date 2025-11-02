@@ -1,0 +1,34 @@
+<div class="form-group">
+  <label>{{localize "PF1.CasterLevelOffset"}}</label>
+  <div class="form-fields">
+    <input class="attribute" type="number" value="{{attributes.cl-offset}}" name="cl-offset" step="1">
+  </div>
+</div>
+
+<div class="form-group">
+  <label>{{localize "PF1.SpellLevelOffset"}}</label>
+  <div class="form-fields">
+    <input class="attribute" type="number" value="{{attributes.sl-offset}}" name="sl-offset" step="1">
+  </div>
+</div>
+
+<div class="form-group">
+  <label>{{localize "PF1-Psionics.PowerPoints.Offset"}}</label>
+  <div class="form-fields">
+    <input class="attribute" type="number" value="{{attributes.pp-offset}}" name="pp-offset" step="1">
+  </div>
+</div>
+
+<div class="form-group">
+  <label>{{localize "PF1.ConcentrationCheck"}}</label>
+  <div class="form-fields">
+    <input type="checkbox" name="concentration" {{checked flags.concentration}}>
+  </div>
+</div>
+
+<div class="form-group">
+  <label>{{localize "PF1.CasterLevelCheck"}}</label>
+  <div class="form-fields">
+    <input type="checkbox" name="cl-check" {{checked flags.cl-check}}>
+  </div>
+</div>

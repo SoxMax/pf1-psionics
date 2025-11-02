@@ -1,0 +1,89 @@
+_id: HfVCPpFDdkowRFoL
+_key: '!items!HfVCPpFDdkowRFoL'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Sense_Minds
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Sense Minds
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        concentration: true
+        units: conc
+        value: up to 1 min / level; (see text)
+      name: Use
+      range:
+        units: ft
+        value: 60 ft.
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: cone-shaped emanation
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;locate&nbsp;creatures.&nbsp;For&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;effect,&nbsp;you&nbsp;can&nbsp;detect&nbsp;any&nbsp;non-mindless&nbsp;creature&nbsp;in&nbsp;range,&nbsp;although&nbsp;the&nbsp;amount&nbsp;of&nbsp;information&nbsp;you&nbsp;learn&nbsp;depends&nbsp;on&nbsp;how&nbsp;long&nbsp;you&nbsp;concentrate&nbsp;on&nbsp;an&nbsp;area.'
+
+      </p><ul><li><em>1st&nbsp;Round:</em>&nbsp;Presence&nbsp;or&nbsp;absence&nbsp;of&nbsp;thoughts&nbsp;(from&nbsp;conscious&nbsp;creatures&nbsp;with&nbsp;Intelligence&nbsp;scores&nbsp;of&nbsp;1&nbsp;or&nbsp;higher).</li></ul>
+
+      <ul><li><em>2nd&nbsp;Round:</em>&nbsp;Number&nbsp;of&nbsp;thinking&nbsp;minds&nbsp;and&nbsp;the&nbsp;Intelligence&nbsp;score&nbsp;of&nbsp;each.&nbsp;If&nbsp;the&nbsp;highest&nbsp;Intelligence&nbsp;is&nbsp;26&nbsp;or&nbsp;higher&nbsp;(and&nbsp;at&nbsp;least&nbsp;10&nbsp;points&nbsp;higher&nbsp;than&nbsp;your&nbsp;own&nbsp;Intelligence&nbsp;score),&nbsp;you&nbsp;are&nbsp;stunned&nbsp;for&nbsp;1&nbsp;round&nbsp;and&nbsp;the&nbsp;effect&nbsp;ends.</li></ul>
+
+      <p>If&nbsp;you&nbsp;concentrate&nbsp;on&nbsp;a&nbsp;specific&nbsp;creature&nbsp;in&nbsp;the&nbsp;area&nbsp;of&nbsp;effect&nbsp;for&nbsp;one&nbsp;full&nbsp;round,&nbsp;you&nbsp;can&nbsp;pinpoint&nbsp;their&nbsp;exact&nbsp;location.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      marksman: 1
+      telepath: 2
+      thug: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 22–23
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Find the Mark'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '178'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 242–243
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

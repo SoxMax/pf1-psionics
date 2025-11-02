@@ -1,0 +1,81 @@
+_id: MwCxBNw8M25RTILG
+_key: '!items!MwCxBNw8M25RTILG'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Energy_Touch
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Energy Touch
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        description: None
+      target:
+        value: One target per level
+  description:
+    value: >-
+      <p>You&nbsp;charge&nbsp;your&nbsp;touch&nbsp;with&nbsp;your&nbsp;active&nbsp;energy&nbsp;type,&nbsp;dealing&nbsp;1d6&nbsp;points&nbsp;of&nbsp;energy&nbsp;damage&nbsp;on&nbsp;a&nbsp;successful&nbsp;melee&nbsp;touch&nbsp;attack.&nbsp;You&nbsp;can&nbsp;use&nbsp;this&nbsp;melee&nbsp;touch&nbsp;attack&nbsp;up&nbsp;to&nbsp;one&nbsp;time&nbsp;per&nbsp;manifester&nbsp;level.
+
+      </p><ul><li><em>Cold:</em>&nbsp;A&nbsp;touch&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;+1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die.</li></ul>
+
+      <ul><li><em>Electricity:&nbsp;</em>You&nbsp;gain&nbsp;a&nbsp;+3&nbsp;bonus&nbsp;on&nbsp;your&nbsp;attack&nbsp;roll&nbsp;if&nbsp;the&nbsp;target&nbsp;is&nbsp;wearing&nbsp;metal&nbsp;armor&nbsp;and&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;manifester&nbsp;level&nbsp;checks&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of&nbsp;overcoming&nbsp;power&nbsp;resistance.</li></ul>
+
+      <ul><li><em>Fire:</em>&nbsp;A&nbsp;touch&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;+1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die.</li></ul>
+
+      <ul><li><em>Sonic:</em>&nbsp;A&nbsp;touch&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;–1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die&nbsp;and&nbsp;ignores&nbsp;an&nbsp;object's&nbsp;hardness.</li></ul>
+
+      <p>This&nbsp;power's&nbsp;subtype&nbsp;is&nbsp;the&nbsp;same&nbsp;as&nbsp;the&nbsp;type&nbsp;of&nbsp;energy&nbsp;you&nbsp;manifest.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;deals&nbsp;+1d6&nbsp;energy&nbsp;damage.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;each&nbsp;energy&nbsp;type&nbsp;gains&nbsp;a&nbsp;secondary&nbsp;effect&nbsp;as&nbsp;follows:</li></ol>
+
+      <ul><li><em>Cold:</em>&nbsp;The&nbsp;target&nbsp;must&nbsp;make&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;or&nbsp;become&nbsp;staggered&nbsp;for&nbsp;1&nbsp;round.</li><li><em>Electricity:</em>&nbsp;The&nbsp;target&nbsp;must&nbsp;make&nbsp;a&nbsp;Will&nbsp;save&nbsp;or&nbsp;become&nbsp;shaken&nbsp;for&nbsp;1&nbsp;round.</li><li><em>Fire:</em>&nbsp;The&nbsp;target&nbsp;must&nbsp;make&nbsp;a&nbsp;Reflex&nbsp;save&nbsp;or&nbsp;catch&nbsp;on&nbsp;fire&nbsp;and&nbsp;take&nbsp;1d6&nbsp;of&nbsp;extra&nbsp;fire&nbsp;damage.</li><li><em>Sonic:</em>&nbsp;The&nbsp;target&nbsp;must&nbsp;make&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;or&nbsp;become&nbsp;sickened&nbsp;for&nbsp;1&nbsp;round.</li></ul>
+  discipline: psychokinesis
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 1
+      psychic warrior: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '72'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

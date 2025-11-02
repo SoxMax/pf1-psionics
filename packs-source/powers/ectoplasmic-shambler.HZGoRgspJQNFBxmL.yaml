@@ -1,0 +1,88 @@
+_id: HZGoRgspJQNFBxmL
+_key: '!items!HZGoRgspJQNFBxmL'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Ectoplasmic_Shambler
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Ectoplasmic Shambler
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: round
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: long
+        value: Long (400 ft. + 40 ft./level)
+      save:
+        description: None
+      target:
+        value: One ectoplasmic manifestation of a size equal to ten 10-ft. cubes (S)
+  description:
+    value: >-
+      <p>You&nbsp;fashion&nbsp;an&nbsp;ephemeral,&nbsp;many-legged&nbsp;mass&nbsp;of&nbsp;pseudoliving&nbsp;ectoplasm&nbsp;called&nbsp;an&nbsp;ectoplasmic&nbsp;shambler.&nbsp;You&nbsp;can&nbsp;direct&nbsp;the&nbsp;shambler&nbsp;as&nbsp;a&nbsp;free&nbsp;action.&nbsp;It&nbsp;has&nbsp;a&nbsp;speed&nbsp;of&nbsp;10&nbsp;feet.&nbsp;It&nbsp;can&nbsp;completely&nbsp;surround&nbsp;objects&nbsp;(and&nbsp;opponents)&nbsp;over&nbsp;which&nbsp;it&nbsp;is&nbsp;manifested&nbsp;or&nbsp;onto&nbsp;which&nbsp;it&nbsp;moves,&nbsp;because&nbsp;it&nbsp;has&nbsp;the&nbsp;consistency&nbsp;of&nbsp;thick&nbsp;mist.&nbsp;The&nbsp;vision&nbsp;of&nbsp;those&nbsp;within&nbsp;the&nbsp;shambler&nbsp;is&nbsp;limited&nbsp;to&nbsp;5&nbsp;feet,&nbsp;and&nbsp;manifesting&nbsp;powers&nbsp;(or&nbsp;casting&nbsp;spells)&nbsp;within&nbsp;the&nbsp;shambler&nbsp;is&nbsp;difficult&nbsp;due&nbsp;to&nbsp;the&nbsp;constant&nbsp;turbulence&nbsp;felt&nbsp;by&nbsp;those&nbsp;caught&nbsp;in&nbsp;the&nbsp;shambler's&nbsp;form.&nbsp;Vision&nbsp;through&nbsp;the&nbsp;shambler&nbsp;is&nbsp;similarly&nbsp;impaired&nbsp;for&nbsp;those&nbsp;outside&nbsp;the&nbsp;shamble.
+
+      </p>
+
+      <p>Creatures&nbsp;enveloped&nbsp;by&nbsp;the&nbsp;shambler,&nbsp;regardless&nbsp;of&nbsp;Armor&nbsp;Class,&nbsp;take&nbsp;1&nbsp;point&nbsp;of&nbsp;damage&nbsp;for&nbsp;every&nbsp;two&nbsp;manifester&nbsp;levels&nbsp;you&nbsp;have&nbsp;in&nbsp;each&nbsp;round&nbsp;they&nbsp;become&nbsp;enveloped&nbsp;in&nbsp;or&nbsp;remain&nbsp;within&nbsp;the&nbsp;roiling&nbsp;turbulence&nbsp;of&nbsp;the&nbsp;shambler.&nbsp;Anyone&nbsp;trying&nbsp;to&nbsp;manifest&nbsp;a&nbsp;power&nbsp;must&nbsp;make&nbsp;a&nbsp;concentration&nbsp;check&nbsp;(DC&nbsp;15&nbsp;+&nbsp;power's&nbsp;or&nbsp;spell's&nbsp;level)&nbsp;to&nbsp;successfully&nbsp;manifest&nbsp;a&nbsp;power&nbsp;or&nbsp;cast&nbsp;a&nbsp;spell&nbsp;inside&nbsp;the&nbsp;shambler.
+
+      </p>
+
+      <p>A&nbsp;wind&nbsp;stronger&nbsp;than&nbsp;20&nbsp;miles&nbsp;per&nbsp;hour&nbsp;that&nbsp;blows&nbsp;against&nbsp;the&nbsp;shambler&nbsp;reduces&nbsp;its&nbsp;speed&nbsp;to&nbsp;0&nbsp;feet&nbsp;during&nbsp;the&nbsp;first&nbsp;round,&nbsp;and&nbsp;in&nbsp;subsequent&nbsp;rounds&nbsp;moves&nbsp;it&nbsp;in&nbsp;the&nbsp;direction&nbsp;of&nbsp;the&nbsp;wind&nbsp;at&nbsp;a&nbsp;speed&nbsp;of&nbsp;5&nbsp;feet.&nbsp;A&nbsp;wind&nbsp;stronger&nbsp;than&nbsp;20&nbsp;miles&nbsp;per&nbsp;hour&nbsp;that&nbsp;blows&nbsp;in&nbsp;the&nbsp;direction&nbsp;the&nbsp;shambler&nbsp;travels&nbsp;increases&nbsp;its&nbsp;speed&nbsp;to&nbsp;15&nbsp;feet.
+
+      </p>
+  discipline: metacreativity
+  display:
+    auditory: true
+    material: true
+    mental: false
+    olfactory: true
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 5
+      psion: 5
+      wilder: 5
+  level: 5
+  manifestTime:
+    units: round
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 100–101
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '190'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '37'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  subdiscipline:
+    - creation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

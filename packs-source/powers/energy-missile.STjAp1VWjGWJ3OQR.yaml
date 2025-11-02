@@ -1,0 +1,104 @@
+_id: STjAp1VWjGWJ3OQR
+_key: '!items!STjAp1VWjGWJ3OQR'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Energy_Missile
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Energy Missile
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      damage:
+        parts:
+          - - 3d6
+            - untyped
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Reflex half or Fortitude half; see text;
+        type: fort
+      target:
+        value: >-
+          Up to five creatures or unattended objects; no two targets can be more
+          than 15 ft. apart.
+  description:
+    value: >-
+      <p>You&nbsp;release&nbsp;a&nbsp;powerful&nbsp;missile&nbsp;of&nbsp;your&nbsp;active&nbsp;energy&nbsp;type&nbsp;(cold,&nbsp;electricity,&nbsp;fire,&nbsp;or&nbsp;sonic)&nbsp;at&nbsp;your&nbsp;foe.&nbsp;The&nbsp;missile&nbsp;deals&nbsp;3d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;to&nbsp;each&nbsp;creature&nbsp;or&nbsp;unattended&nbsp;object&nbsp;you&nbsp;target,&nbsp;to&nbsp;the&nbsp;maximum&nbsp;of&nbsp;five&nbsp;targets.&nbsp;You&nbsp;cannot&nbsp;hit&nbsp;the&nbsp;same&nbsp;target&nbsp;multiple&nbsp;times&nbsp;with&nbsp;the&nbsp;same&nbsp;manifestation&nbsp;of&nbsp;this&nbsp;power.
+
+      </p><ul><li><em>Cold:</em>&nbsp;A&nbsp;missile&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;+1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die.&nbsp;The&nbsp;saving&nbsp;throw&nbsp;to&nbsp;reduce&nbsp;damage&nbsp;from&nbsp;a&nbsp;cold&nbsp;missile&nbsp;is&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;instead&nbsp;of&nbsp;a&nbsp;Reflex&nbsp;save.</li></ul>
+
+      <ul><li><em>Electricity:</em>&nbsp;Manifesting&nbsp;a&nbsp;missile&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;provides&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;to&nbsp;the&nbsp;save&nbsp;DC&nbsp;and&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;manifester&nbsp;level&nbsp;checks&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of&nbsp;overcoming&nbsp;power&nbsp;resistance.</li></ul>
+
+      <ul><li><em>Fire:</em>&nbsp;A&nbsp;missile&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;+1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die.</li></ul>
+
+      <ul><li><em>Sonic:</em>&nbsp;A&nbsp;missile&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;–1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die&nbsp;and&nbsp;ignores&nbsp;an&nbsp;object's&nbsp;hardness.</li></ul>
+
+      <p>This&nbsp;power's&nbsp;subtype&nbsp;is&nbsp;the&nbsp;same&nbsp;as&nbsp;the&nbsp;type&nbsp;of&nbsp;energy&nbsp;you&nbsp;manifest.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;damage&nbsp;increases&nbsp;by&nbsp;one&nbsp;die&nbsp;(d6).&nbsp;For&nbsp;every&nbsp;two&nbsp;additional&nbsp;dice&nbsp;of&nbsp;damage,&nbsp;the&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+
+      <p><strong>Special:</strong>&nbsp;A&nbsp;kineticist&nbsp;does&nbsp;not&nbsp;need&nbsp;to&nbsp;select&nbsp;an&nbsp;energy&nbsp;type&nbsp;for&nbsp;this&nbsp;power&nbsp;when&nbsp;he&nbsp;gains&nbsp;psionic&nbsp;focus.&nbsp;He&nbsp;may&nbsp;choose&nbsp;the&nbsp;type&nbsp;of&nbsp;damage&nbsp;at&nbsp;the&nbsp;time&nbsp;the&nbsp;power&nbsp;is&nbsp;manifested.
+
+      </p>
+  descriptors:
+    - see text
+  discipline: psychokinesis
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 2
+      kineticist: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '106'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '195'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 39–40
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,90 @@
+_id: iD2pymBm6IwOPJxT
+_key: '!items!iD2pymBm6IwOPJxT'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psychokinetic_Cannon
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Psychokinetic Cannon
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: swift
+      damage:
+        parts:
+          - - 1d8
+            - fire
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: ft
+        value: 0 ft.
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates (harmless, object)
+        harmless: true
+        type: will
+      target:
+        value: One piece of ammunition or one thrown weapon
+  description:
+    value: >-
+      <p>You&nbsp;empower&nbsp;one&nbsp;piece&nbsp;of&nbsp;ammunition&nbsp;or&nbsp;one&nbsp;thrown&nbsp;weapon&nbsp;with&nbsp;the&nbsp;impetus&nbsp;of&nbsp;motion&nbsp;it&nbsp;would&nbsp;get&nbsp;from&nbsp;its&nbsp;launcher,&nbsp;in&nbsp;effect&nbsp;firing&nbsp;it&nbsp;by&nbsp;will&nbsp;alone.&nbsp;You&nbsp;may&nbsp;launch&nbsp;a&nbsp;boosted&nbsp;projectile&nbsp;as&nbsp;an&nbsp;attack&nbsp;action&nbsp;(in&nbsp;addition&nbsp;to&nbsp;the&nbsp;swift&nbsp;action&nbsp;of&nbsp;manifesting&nbsp;this&nbsp;power),&nbsp;treating&nbsp;it&nbsp;in&nbsp;all&nbsp;ways&nbsp;as&nbsp;if&nbsp;it&nbsp;had&nbsp;been&nbsp;fired&nbsp;from&nbsp;its&nbsp;intended&nbsp;launcher&nbsp;(shortbow,&nbsp;light&nbsp;crossbow,&nbsp;or&nbsp;sling,&nbsp;sized&nbsp;appropriately&nbsp;to&nbsp;you).&nbsp;Since&nbsp;no&nbsp;actual&nbsp;launcher&nbsp;is&nbsp;involved,&nbsp;reload&nbsp;times&nbsp;are&nbsp;not&nbsp;applicable.&nbsp;Making&nbsp;a&nbsp;ranged&nbsp;attack&nbsp;in&nbsp;this&nbsp;fashion&nbsp;does&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity.
+
+      </p>
+
+      <p>The&nbsp;attack&nbsp;deals&nbsp;1d8&nbsp;points&nbsp;of&nbsp;damage&nbsp;regardless&nbsp;of&nbsp;ammunition&nbsp;type&nbsp;or&nbsp;size,&nbsp;has&nbsp;a&nbsp;range&nbsp;increment&nbsp;of&nbsp;80&nbsp;ft.,&nbsp;and&nbsp;has&nbsp;a&nbsp;critical&nbsp;threat&nbsp;of&nbsp;19-20&nbsp;and&nbsp;a&nbsp;x3&nbsp;critical&nbsp;multiplier.&nbsp;Any&nbsp;feats&nbsp;or&nbsp;other&nbsp;abilities&nbsp;that&nbsp;work&nbsp;only&nbsp;on&nbsp;specific&nbsp;weapons&nbsp;work&nbsp;if&nbsp;the&nbsp;ammunition&nbsp;type&nbsp;is&nbsp;applicable&nbsp;to&nbsp;the&nbsp;ability&nbsp;(Improved&nbsp;Critical&nbsp;(longbow)&nbsp;for&nbsp;an&nbsp;arrow,&nbsp;for&nbsp;example).
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways:
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;fire&nbsp;additional&nbsp;projectiles&nbsp;in&nbsp;this&nbsp;fashion&nbsp;as&nbsp;a&nbsp;full&nbsp;attack,&nbsp;up&nbsp;to&nbsp;the&nbsp;number&nbsp;of&nbsp;attacks&nbsp;you&nbsp;could&nbsp;normally&nbsp;make&nbsp;during&nbsp;a&nbsp;full&nbsp;attack&nbsp;action.&nbsp;These&nbsp;are&nbsp;not&nbsp;in&nbsp;addition&nbsp;to&nbsp;normal&nbsp;attacks&nbsp;in&nbsp;a&nbsp;full&nbsp;attack.</li><li>For&nbsp;every&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;attack&nbsp;gains&nbsp;a&nbsp;+1&nbsp;enhancement&nbsp;bonus&nbsp;to&nbsp;attack&nbsp;and&nbsp;damage&nbsp;and&nbsp;a&nbsp;+10'&nbsp;bonus&nbsp;to&nbsp;range.</li></ol>
+  discipline: psychokinesis
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      marksman: 1
+  level: 1
+  manifestTime:
+    units: swift
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '22'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Find the Mark'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '175'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '235'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

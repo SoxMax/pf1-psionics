@@ -1,0 +1,86 @@
+_id: sEuAVWF8WaXTdysE
+_key: '!items!sEuAVWF8WaXTdysE'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Mixed_Combat
+img: icons/skills/melee/hand-grip-sword-orange.webp
+name: Mixed Combat
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;are&nbsp;trained&nbsp;at&nbsp;using&nbsp;ranged&nbsp;and&nbsp;melee&nbsp;attacks&nbsp;at&nbsp;the&nbsp;same&nbsp;time.</em></p>
+
+      <p><strong>Prerequisites:</strong><a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Quick%20Draw">Quick&nbsp;Draw</a>,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+6.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;You&nbsp;can&nbsp;sheathe&nbsp;a&nbsp;weapon&nbsp;as&nbsp;a&nbsp;free&nbsp;action&nbsp;that&nbsp;does&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity,&nbsp;even&nbsp;if&nbsp;it&nbsp;isn't&nbsp;your&nbsp;turn.&nbsp;If&nbsp;you&nbsp;hit&nbsp;a&nbsp;creature&nbsp;with&nbsp;a&nbsp;melee&nbsp;attack,&nbsp;your&nbsp;attacks&nbsp;with&nbsp;ranged&nbsp;weapons&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;turn&nbsp;do&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;from&nbsp;that&nbsp;creature.
+
+      </p>
+
+      <p><strong>Normal:</strong>&nbsp;Sheathing&nbsp;a&nbsp;weapon&nbsp;is&nbsp;a&nbsp;move&nbsp;action&nbsp;that&nbsp;provokes&nbsp;attacks&nbsp;of&nbsp;opportunity.&nbsp;Ranged&nbsp;attacks&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Bushi_(Archetype)"&nbsp;title="Bushi&nbsp;(Archetype)">Bushi&nbsp;(Archetype)</a></li><li><a&nbsp;href="/wiki/Quantum"&nbsp;title="Quantum">Quantum</a></li></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Voyager"&nbsp;title="Voyager">Voyager</a></li></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Dual_Wielding_Mystic_Fusion"&nbsp;title="Dual&nbsp;Wielding&nbsp;Mystic&nbsp;Fusion">Dual&nbsp;Wielding&nbsp;Mystic&nbsp;Fusion</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '79'
+      publisher: Dreamscarred Press
+      title: Path of War Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '117'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+  subType: feat
+  summons: false
+  tags:
+    - combat
+type: feat

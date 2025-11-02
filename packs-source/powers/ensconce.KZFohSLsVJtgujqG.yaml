@@ -1,0 +1,84 @@
+_id: KZFohSLsVJtgujqG
+_key: '!items!KZFohSLsVJtgujqG'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Ensconce
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Ensconce
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: day
+        value: One day/level (D)
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        dc: 10 + @sl + @ablMod
+        description: None or Will negates (object)
+        type: will
+      target:
+        value: One willing creature or one object (up to a 2-ft. cube/level) touched
+  description:
+    value: >-
+      <p>When&nbsp;manifested,&nbsp;this&nbsp;power&nbsp;prevents&nbsp;clairsentience&nbsp;or&nbsp;divination&nbsp;effects&nbsp;from&nbsp;detecting&nbsp;or&nbsp;locating&nbsp;the&nbsp;target&nbsp;and&nbsp;also&nbsp;renders&nbsp;the&nbsp;affected&nbsp;target&nbsp;invisible&nbsp;(as&nbsp;the&nbsp;invisibility&nbsp;spell).&nbsp;The&nbsp;power&nbsp;does&nbsp;not&nbsp;prevent&nbsp;the&nbsp;subject&nbsp;from&nbsp;being&nbsp;discovered&nbsp;through&nbsp;tactile&nbsp;means&nbsp;or&nbsp;through&nbsp;the&nbsp;use&nbsp;of&nbsp;devices.&nbsp;Creatures&nbsp;affected&nbsp;by&nbsp;ensconce&nbsp;become&nbsp;comatose&nbsp;and&nbsp;are&nbsp;effectively&nbsp;in&nbsp;a&nbsp;state&nbsp;of&nbsp;suspended&nbsp;animation&nbsp;until&nbsp;the&nbsp;effect&nbsp;ends.
+
+      </p>
+
+      <p><strong>Note:</strong>&nbsp;The&nbsp;Will&nbsp;save&nbsp;prevents&nbsp;an&nbsp;attended&nbsp;or&nbsp;magical&nbsp;object&nbsp;from&nbsp;being&nbsp;ensconced.&nbsp;There&nbsp;is&nbsp;no&nbsp;save&nbsp;to&nbsp;see&nbsp;the&nbsp;ensconced&nbsp;creature&nbsp;or&nbsp;object&nbsp;or&nbsp;to&nbsp;detect&nbsp;it&nbsp;with&nbsp;a&nbsp;clairsentience&nbsp;power&nbsp;or&nbsp;divination&nbsp;spell,&nbsp;such&nbsp;an&nbsp;attempt&nbsp;automatically&nbsp;fails.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 7
+      wilder: 7
+  level: 7
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '109'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '198'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '41'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

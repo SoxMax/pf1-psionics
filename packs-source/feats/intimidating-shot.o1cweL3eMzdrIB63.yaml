@@ -1,0 +1,78 @@
+_id: o1cweL3eMzdrIB63
+_key: '!items!o1cweL3eMzdrIB63'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Intimidating_Shot
+img: icons/weapons/thrown/bomb-fuse-black.webp
+name: Intimidating Shot
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>Your&nbsp;ranged&nbsp;and&nbsp;thrown&nbsp;attacks&nbsp;are&nbsp;charged&nbsp;with&nbsp;such&nbsp;force&nbsp;that&nbsp;they&nbsp;can&nbsp;demoralize&nbsp;your&nbsp;enemies.</em></p>
+
+      <p><strong>Prerequisite:</strong><a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank&nbsp;Shot</a>.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;As&nbsp;long&nbsp;as&nbsp;you&nbsp;maintain&nbsp;psionic&nbsp;focus,&nbsp;as&nbsp;a&nbsp;standard&nbsp;action,&nbsp;you&nbsp;may&nbsp;make&nbsp;a&nbsp;single&nbsp;ranged&nbsp;or&nbsp;thrown&nbsp;attack&nbsp;at&nbsp;an&nbsp;enemy.&nbsp;If&nbsp;the&nbsp;attack&nbsp;is&nbsp;successful,&nbsp;deal&nbsp;damage&nbsp;normally&nbsp;and&nbsp;you&nbsp;may&nbsp;make&nbsp;a&nbsp;free&nbsp;Intimidate&nbsp;check&nbsp;to&nbsp;demoralize&nbsp;the&nbsp;target.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Crippling_Assault"&nbsp;title="Crippling&nbsp;Assault">Crippling&nbsp;Assault</a></li><li><a&nbsp;href="/wiki/Intimidating_Shot_(Mythic)"&nbsp;title="Intimidating&nbsp;Shot&nbsp;(Mythic)">Intimidating&nbsp;Shot&nbsp;(Mythic)</a></li><li><a&nbsp;href="/wiki/Staggering_Shot"&nbsp;title="Staggering&nbsp;Shot">Staggering&nbsp;Shot</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '116'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '104'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

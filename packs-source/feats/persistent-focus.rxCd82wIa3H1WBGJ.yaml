@@ -1,0 +1,78 @@
+_id: rxCd82wIa3H1WBGJ
+_key: '!items!rxCd82wIa3H1WBGJ'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Persistent_Focus
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Persistent Focus
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;are&nbsp;always&nbsp;treated&nbsp;as&nbsp;maintaining&nbsp;psionic&nbsp;focus&nbsp;for&nbsp;one&nbsp;ability.</em></p>
+
+      <p><strong>Prerequisites:</strong>&nbsp;Wis&nbsp;13,&nbsp;<a&nbsp;href="/wiki/Psionic_Meditation"&nbsp;title="Psionic&nbsp;Meditation">Psionic&nbsp;Meditation</a>,&nbsp;Autohypnosis&nbsp;4&nbsp;ranks.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>Choose&nbsp;one&nbsp;psionic&nbsp;ability&nbsp;or&nbsp;psionic&nbsp;feat&nbsp;that&nbsp;requires&nbsp;maintaining&nbsp;psionic&nbsp;focus.&nbsp;From&nbsp;this&nbsp;point&nbsp;forward,&nbsp;you&nbsp;are&nbsp;always&nbsp;considered&nbsp;psionically&nbsp;focused&nbsp;even&nbsp;if&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;for&nbsp;any&nbsp;other&nbsp;ability.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Psionic_Meditation"&nbsp;title="Psionic&nbsp;Meditation">Psionic&nbsp;Meditation</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 39–40
+      publisher: Dreamscarred Press
+      title: Psionics Augmented
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '108'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

@@ -1,0 +1,89 @@
+_id: aNGuA94fIzHMtDB5
+_key: '!items!aNGuA94fIzHMtDB5'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Cleanse_Spirit
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Cleanse Spirit
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 3
+        type: round
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates (harmless)
+        harmless: true
+        type: will
+      target:
+        value: Creature touched
+  description:
+    value: >-
+      <p>This&nbsp;power&nbsp;cures&nbsp;all&nbsp;ability&nbsp;damage,&nbsp;and&nbsp;it&nbsp;restores&nbsp;all&nbsp;points&nbsp;drained&nbsp;from&nbsp;a&nbsp;single&nbsp;ability&nbsp;score&nbsp;(your&nbsp;choice&nbsp;if&nbsp;more&nbsp;than&nbsp;one&nbsp;score&nbsp;is&nbsp;drained).&nbsp;It&nbsp;also&nbsp;eliminates&nbsp;any&nbsp;fatigue&nbsp;or&nbsp;exhaustion&nbsp;suffered&nbsp;by&nbsp;the&nbsp;target.&nbsp;Cleanse&nbsp;spirit&nbsp;does&nbsp;not&nbsp;restore&nbsp;levels&nbsp;or&nbsp;Constitution&nbsp;points&nbsp;lost&nbsp;due&nbsp;to&nbsp;death.
+
+      </p>
+
+      <p>Cleanse&nbsp;spirit&nbsp;can&nbsp;remove&nbsp;negative&nbsp;levels.&nbsp;It&nbsp;can&nbsp;also&nbsp;restore&nbsp;one&nbsp;level&nbsp;to&nbsp;a&nbsp;creature&nbsp;that&nbsp;has&nbsp;had&nbsp;a&nbsp;level&nbsp;drained,&nbsp;if&nbsp;the&nbsp;number&nbsp;of&nbsp;days&nbsp;since&nbsp;the&nbsp;creature&nbsp;lost&nbsp;the&nbsp;level&nbsp;is&nbsp;equal&nbsp;to&nbsp;or&nbsp;less&nbsp;than&nbsp;your&nbsp;manifester&nbsp;level.&nbsp;In&nbsp;such&nbsp;a&nbsp;case,&nbsp;cleanse&nbsp;spirit&nbsp;brings&nbsp;the&nbsp;creature&nbsp;up&nbsp;to&nbsp;the&nbsp;minimum&nbsp;number&nbsp;of&nbsp;experience&nbsp;points&nbsp;necessary&nbsp;to&nbsp;advance&nbsp;it&nbsp;to&nbsp;the&nbsp;next&nbsp;higher&nbsp;level,&nbsp;gaining&nbsp;it&nbsp;an&nbsp;additional&nbsp;Hit&nbsp;Die&nbsp;and&nbsp;level&nbsp;benefits&nbsp;accordingly.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;the&nbsp;power&nbsp;dispels&nbsp;all&nbsp;permanent&nbsp;and&nbsp;temporary&nbsp;negative&nbsp;levels&nbsp;afflicting&nbsp;the&nbsp;healed&nbsp;creature.&nbsp;The&nbsp;power&nbsp;also&nbsp;dispels&nbsp;all&nbsp;psionic&nbsp;effects&nbsp;penalizing&nbsp;the&nbsp;creature's&nbsp;abilities,&nbsp;cures&nbsp;all&nbsp;temporary&nbsp;ability&nbsp;damage,&nbsp;and&nbsp;restores&nbsp;all&nbsp;points&nbsp;permanently&nbsp;drained&nbsp;from&nbsp;all&nbsp;ability&nbsp;scores.&nbsp;It&nbsp;also&nbsp;eliminates&nbsp;fatigue&nbsp;and&nbsp;exhaustion,&nbsp;and&nbsp;removes&nbsp;all&nbsp;forms&nbsp;of&nbsp;insanity,&nbsp;confusion,&nbsp;and&nbsp;similar&nbsp;mental&nbsp;effects.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      egoist: 6
+      vitalist: 6
+  level: 6
+  manifestTime:
+    units: round
+    value: 3
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '86'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '172'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '33'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline:
+    - healing
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,90 @@
+_id: 79xu2CE1cscz4vJa
+_key: '!items!79xu2CE1cscz4vJa'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Mind_Switch,_True
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Mind Switch, True
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: minute
+      duration:
+        units: inst
+      name: Use
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates; see text
+        type: will
+  description:
+    value: >-
+      <p>As&nbsp;<em><a&nbsp;href="/wiki/Mind_Switch"&nbsp;title="Mind&nbsp;Switch">mind&nbsp;switch</a></em>,&nbsp;except&nbsp;as&nbsp;noted&nbsp;here.
+
+      </p>
+
+      <p>You&nbsp;permanently&nbsp;exchange&nbsp;bodies&nbsp;with&nbsp;the&nbsp;subject.&nbsp;Since&nbsp;this&nbsp;power's&nbsp;duration&nbsp;is&nbsp;instantaneous,&nbsp;you&nbsp;cannot&nbsp;be&nbsp;forced&nbsp;to&nbsp;return&nbsp;to&nbsp;your&nbsp;natural&nbsp;body&nbsp;by&nbsp;means&nbsp;of&nbsp;dispel&nbsp;psionics,&nbsp;an&nbsp;antimagic&nbsp;field,&nbsp;or&nbsp;a&nbsp;similar&nbsp;effect.&nbsp;If&nbsp;the&nbsp;subject's&nbsp;body&nbsp;dies&nbsp;while&nbsp;you&nbsp;are&nbsp;in&nbsp;it,&nbsp;you&nbsp;are&nbsp;dead.&nbsp;The&nbsp;subject&nbsp;immediately&nbsp;suffers&nbsp;one&nbsp;permanent&nbsp;negative&nbsp;level,&nbsp;but&nbsp;otherwise&nbsp;survives&nbsp;the&nbsp;experience&nbsp;in&nbsp;your&nbsp;natural&nbsp;body.&nbsp;If&nbsp;your&nbsp;natural&nbsp;body&nbsp;dies&nbsp;while&nbsp;the&nbsp;subject&nbsp;is&nbsp;in&nbsp;it,&nbsp;you&nbsp;immediately&nbsp;suffer&nbsp;two&nbsp;permanent&nbsp;negative&nbsp;levels,&nbsp;but&nbsp;you&nbsp;likewise&nbsp;survive&nbsp;the&nbsp;experience&nbsp;in&nbsp;your&nbsp;new&nbsp;body.&nbsp;Negative&nbsp;levels&nbsp;gained&nbsp;in&nbsp;this&nbsp;way&nbsp;may&nbsp;only&nbsp;be&nbsp;cured&nbsp;by&nbsp;powerful&nbsp;healing,&nbsp;such&nbsp;as&nbsp;greater&nbsp;restoration&nbsp;or&nbsp;restoration;&nbsp;they&nbsp;do&nbsp;not&nbsp;fade&nbsp;over&nbsp;time.
+
+      </p>
+
+      <p>Your&nbsp;"natural"&nbsp;body&nbsp;is&nbsp;always&nbsp;considered&nbsp;to&nbsp;be&nbsp;the&nbsp;last&nbsp;one&nbsp;you&nbsp;switched&nbsp;out&nbsp;of.&nbsp;If&nbsp;you&nbsp;exchange&nbsp;bodies&nbsp;with&nbsp;a&nbsp;chain&nbsp;of&nbsp;multiple&nbsp;subjects,&nbsp;you&nbsp;need&nbsp;worry&nbsp;only&nbsp;about&nbsp;the&nbsp;welfare&nbsp;of&nbsp;the&nbsp;last&nbsp;body&nbsp;you&nbsp;switched&nbsp;with.&nbsp;In&nbsp;other&nbsp;words,&nbsp;if&nbsp;your&nbsp;mind&nbsp;is&nbsp;expelled&nbsp;from&nbsp;your&nbsp;current&nbsp;body,&nbsp;your&nbsp;mind&nbsp;returns&nbsp;to&nbsp;the&nbsp;last&nbsp;body&nbsp;you&nbsp;switched&nbsp;with,&nbsp;not&nbsp;to&nbsp;your&nbsp;original&nbsp;body.&nbsp;Similarly,&nbsp;if&nbsp;your&nbsp;original&nbsp;body&nbsp;dies&nbsp;but&nbsp;you&nbsp;have&nbsp;since&nbsp;switched&nbsp;minds&nbsp;with&nbsp;a&nbsp;second&nbsp;subject,&nbsp;you&nbsp;take&nbsp;no&nbsp;penalty.&nbsp;You&nbsp;suffer&nbsp;permanent&nbsp;negative&nbsp;levels&nbsp;only&nbsp;if&nbsp;the&nbsp;body&nbsp;you&nbsp;inhabited&nbsp;immediately&nbsp;prior&nbsp;to&nbsp;your&nbsp;current&nbsp;body&nbsp;is&nbsp;killed.
+
+      </p>
+
+      <p>You&nbsp;suffer&nbsp;two&nbsp;temporary&nbsp;negative&nbsp;levels&nbsp;upon&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;as&nbsp;your&nbsp;mind&nbsp;adjusts&nbsp;to&nbsp;controlling&nbsp;a&nbsp;new&nbsp;body.&nbsp;These&nbsp;negative&nbsp;levels&nbsp;cannot&nbsp;be&nbsp;cured,&nbsp;but&nbsp;fade&nbsp;at&nbsp;a&nbsp;rate&nbsp;of&nbsp;one&nbsp;every&nbsp;24&nbsp;hours.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;successfully&nbsp;use&nbsp;true&nbsp;mind&nbsp;switch&nbsp;while&nbsp;under&nbsp;the&nbsp;effect&nbsp;of&nbsp;mind&nbsp;switch,&nbsp;the&nbsp;original&nbsp;target&nbsp;of&nbsp;mind&nbsp;switch&nbsp;is&nbsp;returned&nbsp;to&nbsp;its&nbsp;original&nbsp;body,&nbsp;the&nbsp;new&nbsp;target&nbsp;of&nbsp;true&nbsp;mind&nbsp;switch&nbsp;occupies&nbsp;your&nbsp;original&nbsp;body,&nbsp;and&nbsp;you&nbsp;occupy&nbsp;the&nbsp;body&nbsp;of&nbsp;the&nbsp;target&nbsp;of&nbsp;true&nbsp;mind&nbsp;switch.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      telepath: 9
+  level: 9
+  manifestTime:
+    units: minute
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 128–129
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '223'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '48'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

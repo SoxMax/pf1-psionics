@@ -1,0 +1,91 @@
+_id: DoM8eIA1aGg7avec
+_key: '!items!DoM8eIA1aGg7avec'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Empathic_Connection
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Empathic Connection
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: hour
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One humanoid
+  description:
+    value: >-
+      <p>You&nbsp;reach&nbsp;out&nbsp;with&nbsp;your&nbsp;mind,&nbsp;finding&nbsp;the&nbsp;emotional&nbsp;strings&nbsp;that&nbsp;most&nbsp;apply&nbsp;to&nbsp;your&nbsp;target.&nbsp;With&nbsp;delicate&nbsp;influences,&nbsp;you&nbsp;twist&nbsp;those&nbsp;emotional&nbsp;strings,&nbsp;making&nbsp;your&nbsp;target&nbsp;view&nbsp;you&nbsp;as&nbsp;a&nbsp;friend&nbsp;(treat&nbsp;the&nbsp;target's&nbsp;attitude&nbsp;as&nbsp;friendly).&nbsp;If&nbsp;the&nbsp;creature&nbsp;is&nbsp;currently&nbsp;being&nbsp;threatened&nbsp;or&nbsp;attacked&nbsp;by&nbsp;you&nbsp;or&nbsp;your&nbsp;allies,&nbsp;however,&nbsp;it&nbsp;receives&nbsp;a&nbsp;+5&nbsp;bonus&nbsp;on&nbsp;its&nbsp;saving&nbsp;throw.
+
+      </p>
+
+      <p>This&nbsp;does&nbsp;not&nbsp;enable&nbsp;you&nbsp;to&nbsp;control&nbsp;the&nbsp;affected&nbsp;person&nbsp;as&nbsp;if&nbsp;it&nbsp;was&nbsp;an&nbsp;automaton,&nbsp;but&nbsp;it&nbsp;perceives&nbsp;your&nbsp;words&nbsp;and&nbsp;actions&nbsp;in&nbsp;the&nbsp;most&nbsp;favorable&nbsp;way.&nbsp;You&nbsp;can&nbsp;try&nbsp;to&nbsp;give&nbsp;the&nbsp;subject&nbsp;orders,&nbsp;but&nbsp;you&nbsp;must&nbsp;win&nbsp;an&nbsp;opposed&nbsp;Charisma&nbsp;check&nbsp;to&nbsp;convince&nbsp;it&nbsp;to&nbsp;do&nbsp;anything&nbsp;it&nbsp;wouldn't&nbsp;ordinarily&nbsp;do.&nbsp;(Retries&nbsp;are&nbsp;not&nbsp;allowed.)&nbsp;An&nbsp;affected&nbsp;creature&nbsp;never&nbsp;obeys&nbsp;suicidal&nbsp;or&nbsp;obviously&nbsp;harmful&nbsp;orders,&nbsp;but&nbsp;it&nbsp;might&nbsp;be&nbsp;convinced&nbsp;that&nbsp;something&nbsp;very&nbsp;dangerous&nbsp;is&nbsp;worth&nbsp;doing.&nbsp;Any&nbsp;act&nbsp;by&nbsp;you&nbsp;or&nbsp;your&nbsp;apparent&nbsp;allies&nbsp;that&nbsp;threatens&nbsp;the&nbsp;charmed&nbsp;person&nbsp;breaks&nbsp;the&nbsp;effect.&nbsp;You&nbsp;must&nbsp;speak&nbsp;the&nbsp;person's&nbsp;language&nbsp;to&nbsp;communicate&nbsp;your&nbsp;commands,&nbsp;be&nbsp;good&nbsp;at&nbsp;pantomiming,&nbsp;or&nbsp;have&nbsp;some&nbsp;other&nbsp;method&nbsp;to&nbsp;communicate,&nbsp;such&nbsp;as&nbsp;mindlink.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;can&nbsp;also&nbsp;affect&nbsp;an&nbsp;animal,&nbsp;fey,&nbsp;magical&nbsp;beast,&nbsp;or&nbsp;monstrous&nbsp;humanoid.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;can&nbsp;also&nbsp;affect&nbsp;an&nbsp;aberration,&nbsp;dragon,&nbsp;elemental,&nbsp;or&nbsp;outsider&nbsp;in&nbsp;addition&nbsp;to&nbsp;the&nbsp;creature&nbsp;types&nbsp;mentioned&nbsp;above.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power's&nbsp;duration&nbsp;increases&nbsp;to&nbsp;one&nbsp;day&nbsp;per&nbsp;level.&nbsp;In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend&nbsp;to&nbsp;achieve&nbsp;any&nbsp;of&nbsp;these&nbsp;effects,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.</li></ol>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 1
+      telepath: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 101–102
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 191–192
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '38'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline:
+    - charm
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

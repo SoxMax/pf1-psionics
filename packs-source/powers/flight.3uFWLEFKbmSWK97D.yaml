@@ -1,0 +1,88 @@
+_id: 3uFWLEFKbmSWK97D
+_key: '!items!3uFWLEFKbmSWK97D'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Flight
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Flight
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      damage:
+        parts:
+          - - 1d6
+            - untyped
+      duration:
+        dismiss: true
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;fly&nbsp;at&nbsp;a&nbsp;speed&nbsp;of&nbsp;60&nbsp;feet&nbsp;(or&nbsp;40&nbsp;feet&nbsp;if&nbsp;you&nbsp;wear&nbsp;medium&nbsp;or&nbsp;heavy&nbsp;armor,&nbsp;or&nbsp;if&nbsp;you&nbsp;carry&nbsp;a&nbsp;medium&nbsp;or&nbsp;heavy&nbsp;load).&nbsp;You&nbsp;can&nbsp;ascend&nbsp;at&nbsp;half&nbsp;speed&nbsp;and&nbsp;descend&nbsp;at&nbsp;double&nbsp;speed,&nbsp;and&nbsp;your&nbsp;maneuverability&nbsp;is&nbsp;good.&nbsp;Using&nbsp;this&nbsp;power&nbsp;requires&nbsp;only&nbsp;as&nbsp;much&nbsp;concentration&nbsp;as&nbsp;walking,&nbsp;so&nbsp;you&nbsp;can&nbsp;attack&nbsp;or&nbsp;manifest&nbsp;normally.&nbsp;You&nbsp;can&nbsp;charge&nbsp;but&nbsp;not&nbsp;run,&nbsp;and&nbsp;you&nbsp;cannot&nbsp;carry&nbsp;aloft&nbsp;more&nbsp;weight&nbsp;than&nbsp;your&nbsp;maximum&nbsp;load,&nbsp;plus&nbsp;any&nbsp;armor&nbsp;you&nbsp;wear.&nbsp;You&nbsp;gain&nbsp;a&nbsp;bonus&nbsp;on&nbsp;Fly&nbsp;skill&nbsp;checks&nbsp;equal&nbsp;to&nbsp;1/2&nbsp;your&nbsp;manifester&nbsp;level.
+
+      </p>
+
+      <p>Should&nbsp;the&nbsp;duration&nbsp;expire&nbsp;while&nbsp;you&nbsp;are&nbsp;still&nbsp;aloft,&nbsp;the&nbsp;power&nbsp;fails&nbsp;slowly.&nbsp;You&nbsp;float&nbsp;downward&nbsp;60&nbsp;feet&nbsp;per&nbsp;round&nbsp;for&nbsp;1d6&nbsp;rounds.&nbsp;If&nbsp;you&nbsp;reach&nbsp;the&nbsp;ground&nbsp;in&nbsp;that&nbsp;amount&nbsp;of&nbsp;time,&nbsp;you&nbsp;lands&nbsp;safely.&nbsp;If&nbsp;not,&nbsp;you&nbsp;fall&nbsp;the&nbsp;rest&nbsp;of&nbsp;the&nbsp;distance,&nbsp;taking&nbsp;1d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;per&nbsp;10&nbsp;feet&nbsp;of&nbsp;fall.&nbsp;Since&nbsp;dispelling&nbsp;a&nbsp;power&nbsp;effectively&nbsp;ends&nbsp;it,&nbsp;you&nbsp;also&nbsp;descend&nbsp;safely&nbsp;in&nbsp;this&nbsp;way&nbsp;if&nbsp;the&nbsp;power&nbsp;is&nbsp;dispelled,&nbsp;but&nbsp;not&nbsp;if&nbsp;it&nbsp;is&nbsp;negated&nbsp;by&nbsp;a&nbsp;null&nbsp;psionics&nbsp;field.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 5
+      gambler: 4
+      nomad: 4
+      voyager: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 113–114
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 204–205
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '43'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

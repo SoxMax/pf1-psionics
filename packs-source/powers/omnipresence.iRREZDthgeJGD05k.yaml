@@ -1,0 +1,80 @@
+_id: iRREZDthgeJGD05k
+_key: '!items!iRREZDthgeJGD05k'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Omnipresence
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Omnipresence
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: swift
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: personal (see text)
+      save:
+        description: None
+      target:
+        value: you (see text)
+  description:
+    value: >-
+      <p>You&nbsp;must&nbsp;be&nbsp;a&nbsp;<a&nbsp;href="/wiki/Highlord"&nbsp;title="Highlord">Highlord</a>&nbsp;following&nbsp;the&nbsp;<a&nbsp;href="/wiki/Sovereign_(Tenets_of_Dominance)"&nbsp;title="Sovereign&nbsp;(Tenets&nbsp;of&nbsp;Dominance)">Sovereign&nbsp;(Tenets&nbsp;of&nbsp;Dominance)</a>&nbsp;to&nbsp;manifest&nbsp;this&nbsp;power.&nbsp;You&nbsp;cannot&nbsp;learn&nbsp;this&nbsp;power&nbsp;with&nbsp;the&nbsp;<a&nbsp;href="/wiki/Expanded_Knowledge"&nbsp;title="Expanded&nbsp;Knowledge">Expanded&nbsp;Knowledge</a>&nbsp;feat&nbsp;or&nbsp;similar&nbsp;abilities.
+
+      </p>
+
+      <p>You&nbsp;expand&nbsp;your&nbsp;presence,&nbsp;using&nbsp;the&nbsp;minds&nbsp;of&nbsp;your&nbsp;collective&nbsp;as&nbsp;psychoportive&nbsp;beacons.&nbsp;Even&nbsp;if&nbsp;you’re&nbsp;standing&nbsp;in&nbsp;plain&nbsp;view,&nbsp;you&nbsp;seem&nbsp;to&nbsp;be&nbsp;everywhere&nbsp;and&nbsp;nowhere,&nbsp;appearing&nbsp;in&nbsp;the&nbsp;corner&nbsp;of&nbsp;a&nbsp;creature’s&nbsp;vision,&nbsp;laying&nbsp;a&nbsp;reassuring&nbsp;hand&nbsp;on&nbsp;an&nbsp;ally’s&nbsp;shoulder,&nbsp;pushing&nbsp;a&nbsp;blade&nbsp;through&nbsp;a&nbsp;foe’s&nbsp;chest,&nbsp;or&nbsp;even&nbsp;all&nbsp;of&nbsp;these&nbsp;at&nbsp;once.
+
+      </p>
+
+      <p>While&nbsp;under&nbsp;the&nbsp;effect&nbsp;of&nbsp;this&nbsp;power,&nbsp;you&nbsp;threaten&nbsp;all&nbsp;spaces&nbsp;within&nbsp;5&nbsp;feet&nbsp;of&nbsp;you,&nbsp;and&nbsp;can&nbsp;make&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;against&nbsp;targets&nbsp;within&nbsp;this&nbsp;area&nbsp;with&nbsp;any&nbsp;weapon&nbsp;you&nbsp;are&nbsp;wielding,&nbsp;even&nbsp;if&nbsp;it&nbsp;isn’t&nbsp;a&nbsp;melee&nbsp;weapon&nbsp;or&nbsp;can’t&nbsp;reach&nbsp;that&nbsp;space.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;treat&nbsp;yourself&nbsp;as&nbsp;being&nbsp;within&nbsp;any&nbsp;of&nbsp;those&nbsp;spaces&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of&nbsp;your&nbsp;vision,&nbsp;and&nbsp;for&nbsp;determining&nbsp;line&nbsp;of&nbsp;effect&nbsp;to&nbsp;targets&nbsp;of&nbsp;your&nbsp;psionic&nbsp;powers&nbsp;and&nbsp;highlord&nbsp;class&nbsp;features.&nbsp;During&nbsp;your&nbsp;turn,&nbsp;you&nbsp;can&nbsp;also&nbsp;treat&nbsp;yourself&nbsp;as&nbsp;within&nbsp;each&nbsp;of&nbsp;those&nbsp;spaces&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of&nbsp;making&nbsp;attacks&nbsp;(including&nbsp;drawing&nbsp;line&nbsp;of&nbsp;sight&nbsp;and&nbsp;effect,&nbsp;and&nbsp;determining&nbsp;threatened&nbsp;area).
+
+      </p>
+
+      <p>If&nbsp;a&nbsp;creature&nbsp;within&nbsp;your&nbsp;collective&nbsp;occupies&nbsp;a&nbsp;space&nbsp;in&nbsp;this&nbsp;power’s&nbsp;area,&nbsp;this&nbsp;power’s&nbsp;area&nbsp;expands&nbsp;to&nbsp;all&nbsp;spaces&nbsp;adjacent&nbsp;to&nbsp;that&nbsp;creature.&nbsp;This&nbsp;effect&nbsp;can&nbsp;chain&nbsp;through&nbsp;multiple&nbsp;collective&nbsp;members,&nbsp;allowing&nbsp;the&nbsp;power’s&nbsp;area&nbsp;it&nbsp;continue&nbsp;to&nbsp;change&nbsp;as&nbsp;your&nbsp;collective&nbsp;repositions.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;attacks&nbsp;against&nbsp;you&nbsp;suffer&nbsp;a&nbsp;5%&nbsp;miss&nbsp;chance.&nbsp;This&nbsp;effect&nbsp;is&nbsp;cumulative&nbsp;with&nbsp;multiple&nbsp;power&nbsp;points&nbsp;spent,&nbsp;up&nbsp;to&nbsp;a&nbsp;maximum&nbsp;miss&nbsp;chance&nbsp;of&nbsp;50%.</li><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;make&nbsp;1&nbsp;additional&nbsp;attack&nbsp;of&nbsp;opportunity&nbsp;in&nbsp;each&nbsp;round&nbsp;during&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power.</li><li>For&nbsp;every&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;distance&nbsp;this&nbsp;power&nbsp;reaches&nbsp;from&nbsp;you&nbsp;(and&nbsp;any&nbsp;collective&nbsp;members&nbsp;in&nbsp;the&nbsp;area)&nbsp;increases&nbsp;by&nbsp;5&nbsp;feet.</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;gain&nbsp;the&nbsp;ability&nbsp;to&nbsp;switch&nbsp;positions&nbsp;with&nbsp;members&nbsp;of&nbsp;your&nbsp;collective&nbsp;within&nbsp;the&nbsp;power’s&nbsp;area;&nbsp;doing&nbsp;so&nbsp;is&nbsp;a&nbsp;move&nbsp;action&nbsp;that&nbsp;does&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity.</li><li>If&nbsp;you&nbsp;spend&nbsp;8&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;choose&nbsp;a&nbsp;single&nbsp;collective&nbsp;member&nbsp;to&nbsp;center&nbsp;this&nbsp;power’s&nbsp;effect&nbsp;on,&nbsp;instead&nbsp;of&nbsp;yourself.&nbsp;You&nbsp;do&nbsp;not&nbsp;create&nbsp;the&nbsp;power’s&nbsp;effect&nbsp;around&nbsp;yourself&nbsp;if&nbsp;you&nbsp;do&nbsp;so,&nbsp;but&nbsp;you&nbsp;can&nbsp;still&nbsp;act&nbsp;through&nbsp;the&nbsp;area&nbsp;of&nbsp;the&nbsp;power&nbsp;as&nbsp;normal.&nbsp;If&nbsp;you&nbsp;manifest&nbsp;the&nbsp;power&nbsp;in&nbsp;this&nbsp;way,&nbsp;you&nbsp;take&nbsp;half&nbsp;the&nbsp;damage&nbsp;the&nbsp;chosen&nbsp;collective&nbsp;member&nbsp;does.&nbsp;This&nbsp;damage&nbsp;cannot&nbsp;be&nbsp;reduced&nbsp;or&nbsp;nullified&nbsp;in&nbsp;any&nbsp;way.</li></ol>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      highlord: 1
+  level: 1
+  manifestTime:
+    units: swift
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '9'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

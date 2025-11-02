@@ -1,0 +1,68 @@
+_id: T9Yc3VdNgLuf7JMh
+_key: '!items!T9Yc3VdNgLuf7JMh'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Through_the_Flesh
+img: icons/magic/symbols/runes-carved-stone-purple.webp
+name: Through the Flesh
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;can&nbsp;chain&nbsp;a&nbsp;telepathy&nbsp;power&nbsp;when&nbsp;using&nbsp;a&nbsp;psychometabolism&nbsp;power.</em></p>
+
+      <p><strong>Benefit:&nbsp;</strong>To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.&nbsp;You&nbsp;manifest&nbsp;a&nbsp;psychometabolism&nbsp;power&nbsp;that&nbsp;targets&nbsp;a&nbsp;single&nbsp;creature&nbsp;and&nbsp;as&nbsp;a&nbsp;free&nbsp;action,&nbsp;you&nbsp;can&nbsp;manifest&nbsp;a&nbsp;telepathy&nbsp;power&nbsp;that&nbsp;targets&nbsp;the&nbsp;same&nbsp;creature.&nbsp;Using&nbsp;this&nbsp;feat&nbsp;increases&nbsp;the&nbsp;power&nbsp;point&nbsp;cost&nbsp;of&nbsp;the&nbsp;power&nbsp;by&nbsp;2.&nbsp;The&nbsp;powers&nbsp;total&nbsp;cost&nbsp;(psychometabolism&nbsp;and&nbsp;telepathy&nbsp;together)&nbsp;cannot&nbsp;exceed&nbsp;your&nbsp;manifester&nbsp;level.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Implant_in_Flesh"&nbsp;title="Implant&nbsp;in&nbsp;Flesh">Implant&nbsp;in&nbsp;Flesh</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '8'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  subType: feat
+  summons: false
+  tags:
+    - metapsionic
+type: feat

@@ -1,0 +1,70 @@
+_id: 1NnVzjkwHH3cy5O3
+_key: '!items!1NnVzjkwHH3cy5O3'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Overwhelming_Mercy
+img: icons/sundries/books/book-embossed-blue.webp
+name: Overwhelming Mercy
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>Your&nbsp;powers&nbsp;that&nbsp;deal&nbsp;nonlethal&nbsp;damage&nbsp;are&nbsp;more&nbsp;potent.</em></p>
+
+      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Merciful_Power"&nbsp;title="Merciful&nbsp;Power">Merciful&nbsp;Power</a>.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;using&nbsp;the&nbsp;Merciful&nbsp;Power&nbsp;feat,&nbsp;increase&nbsp;the&nbsp;total&nbsp;damage&nbsp;by&nbsp;50%.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '5'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  subType: feat
+  summons: false
+  tags:
+    - feat
+type: feat

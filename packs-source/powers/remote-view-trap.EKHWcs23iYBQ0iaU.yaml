@@ -1,0 +1,86 @@
+_id: EKHWcs23iYBQ0iaU
+_key: '!items!EKHWcs23iYBQ0iaU'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Remote_View_Trap
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/lightning/bolt-strike-blue-white.webp
+name: Remote View Trap
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      damage:
+        parts:
+          - - 8d6
+            - electricity
+      duration:
+        units: hour
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will half; see text
+        type: will
+      target:
+        value: You
+  description:
+    value: >-
+      <p>When&nbsp;others&nbsp;use&nbsp;clairvoyant&nbsp;sense,&nbsp;remote&nbsp;viewing,&nbsp;or&nbsp;other&nbsp;means&nbsp;of&nbsp;scrying&nbsp;you&nbsp;from&nbsp;afar,&nbsp;your&nbsp;prepared&nbsp;trap&nbsp;gives&nbsp;them&nbsp;a&nbsp;nasty&nbsp;surprise.&nbsp;If&nbsp;the&nbsp;scryer&nbsp;fails&nbsp;its&nbsp;saving&nbsp;throw,&nbsp;you&nbsp;are&nbsp;undetected.&nbsp;Moreover,&nbsp;the&nbsp;would-be&nbsp;observer&nbsp;takes&nbsp;8d6&nbsp;points&nbsp;of&nbsp;electricity&nbsp;damage.&nbsp;If&nbsp;the&nbsp;scryer&nbsp;makes&nbsp;its&nbsp;saving&nbsp;throw,&nbsp;it&nbsp;takes&nbsp;only&nbsp;4d6&nbsp;points&nbsp;of&nbsp;electricity&nbsp;damage&nbsp;and&nbsp;is&nbsp;able&nbsp;to&nbsp;observe&nbsp;you&nbsp;normally.&nbsp;Either&nbsp;way,&nbsp;you&nbsp;are&nbsp;aware&nbsp;of&nbsp;the&nbsp;attempt&nbsp;to&nbsp;view&nbsp;you,&nbsp;but&nbsp;not&nbsp;of&nbsp;the&nbsp;viewer&nbsp;or&nbsp;the&nbsp;viewer's&nbsp;location.&nbsp;It&nbsp;is&nbsp;possible&nbsp;that&nbsp;you&nbsp;might&nbsp;recognize&nbsp;the&nbsp;quasi-real&nbsp;viewpoint&nbsp;of&nbsp;someone&nbsp;using&nbsp;the&nbsp;remote&nbsp;viewing&nbsp;power&nbsp;if&nbsp;you&nbsp;could&nbsp;pierce&nbsp;its&nbsp;invisibility&nbsp;(which&nbsp;is&nbsp;true&nbsp;for&nbsp;remote&nbsp;viewing&nbsp;whether&nbsp;or&nbsp;not&nbsp;you&nbsp;use&nbsp;this&nbsp;power).
+
+      </p>
+  descriptors:
+    - electricity
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 6
+      psion: 6
+      wilder: 6
+  level: 6
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '142'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '239'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '54'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

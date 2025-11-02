@@ -1,0 +1,92 @@
+_id: ppL7FWe56azvuBNB
+_key: '!items!ppL7FWe56azvuBNB'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Bound_Self
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Bound Self
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>As&nbsp;a&nbsp;last-ditch&nbsp;effort,&nbsp;you&nbsp;may&nbsp;bind&nbsp;your&nbsp;own&nbsp;soul&nbsp;to&nbsp;your&nbsp;psicrystal&nbsp;–&nbsp;preventing&nbsp;death&nbsp;at&nbsp;great&nbsp;cost.</em></p>
+
+      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Bound_Spirit"&nbsp;title="Bound&nbsp;Spirit">Bound&nbsp;Spirit</a>,&nbsp;<a&nbsp;href="/wiki/Psicrystal_Affinity"&nbsp;title="Psicrystal&nbsp;Affinity">Psicrystal&nbsp;Affinity</a>,&nbsp;<a&nbsp;href="/wiki/Spirited_Psicrystal"&nbsp;title="Spirited&nbsp;Psicrystal">Spirited&nbsp;Psicrystal</a>,&nbsp;manifester&nbsp;level&nbsp;15th.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;While&nbsp;on&nbsp;the&nbsp;edge&nbsp;of&nbsp;death,&nbsp;you&nbsp;can&nbsp;bind&nbsp;a&nbsp;piece&nbsp;of&nbsp;yourself&nbsp;into&nbsp;your&nbsp;<a&nbsp;href="/wiki/Psicrystal"&nbsp;title="Psicrystal">psicrystal</a>&nbsp;to&nbsp;be&nbsp;granted&nbsp;another&nbsp;chance.&nbsp;You&nbsp;may&nbsp;only&nbsp;use&nbsp;Bound&nbsp;Self&nbsp;if&nbsp;you&nbsp;currently&nbsp;have&nbsp;an&nbsp;active&nbsp;psicrystal.&nbsp;You&nbsp;may&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;and&nbsp;gain&nbsp;two&nbsp;permanent&nbsp;negative&nbsp;levels&nbsp;to&nbsp;use&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;abilities:
+
+      </p>
+
+      <p>You&nbsp;may&nbsp;use&nbsp;Bound&nbsp;Self&nbsp;when&nbsp;you&nbsp;would&nbsp;fail&nbsp;a&nbsp;save&nbsp;against&nbsp;an&nbsp;effect&nbsp;that&nbsp;would&nbsp;instantly&nbsp;kill&nbsp;you&nbsp;to&nbsp;automatically&nbsp;succeed&nbsp;on&nbsp;the&nbsp;save.
+
+      </p>
+
+      <p>You&nbsp;may&nbsp;use&nbsp;Bound&nbsp;Self&nbsp;when&nbsp;you&nbsp;would&nbsp;suffer&nbsp;enough&nbsp;damage&nbsp;to&nbsp;kill&nbsp;you&nbsp;to&nbsp;instead&nbsp;only&nbsp;suffer&nbsp;enough&nbsp;damage&nbsp;to&nbsp;reduce&nbsp;you&nbsp;to&nbsp;0&nbsp;hit&nbsp;points.
+
+      </p>
+
+      <p>You&nbsp;may&nbsp;use&nbsp;Bound&nbsp;Self&nbsp;when&nbsp;you&nbsp;would&nbsp;be&nbsp;reduced&nbsp;to&nbsp;a&nbsp;Constitution&nbsp;score&nbsp;of&nbsp;0&nbsp;to&nbsp;instead&nbsp;be&nbsp;reduced&nbsp;to&nbsp;a&nbsp;Constitution&nbsp;score&nbsp;of&nbsp;1.
+
+      </p>
+
+      <p>If&nbsp;your&nbsp;psicrystal&nbsp;is&nbsp;destroyed&nbsp;while&nbsp;you&nbsp;possess&nbsp;any&nbsp;negative&nbsp;levels&nbsp;gained&nbsp;from&nbsp;Bound&nbsp;Self,&nbsp;you&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;(DC&nbsp;equal&nbsp;to&nbsp;10&nbsp;+&nbsp;your&nbsp;manifester&nbsp;level)&nbsp;or&nbsp;die&nbsp;instantly.
+
+      </p>
+
+      <p><strong>Special:</strong>&nbsp;If&nbsp;you&nbsp;are&nbsp;immune&nbsp;to&nbsp;negative&nbsp;levels,&nbsp;you&nbsp;may&nbsp;not&nbsp;benefit&nbsp;from&nbsp;this&nbsp;feat.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Bound_Spirit"&nbsp;title="Bound&nbsp;Spirit">Bound&nbsp;Spirit</a></li><li><a&nbsp;href="/wiki/Psicrystal_Affinity"&nbsp;title="Psicrystal&nbsp;Affinity">Psicrystal&nbsp;Affinity</a></li><li><a&nbsp;href="/wiki/Spirited_Psicrystal"&nbsp;title="Spirited&nbsp;Psicrystal">Spirited&nbsp;Psicrystal</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '14'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

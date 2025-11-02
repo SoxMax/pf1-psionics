@@ -1,0 +1,112 @@
+_id: ZmpONTYcxofUjt3R
+_key: '!items!ZmpONTYcxofUjt3R'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Energy_Wall
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/earth/strike-body-stone-crumble.webp
+name: Energy Wall
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      damage:
+        parts:
+          - - 2d6
+            - untyped
+      duration:
+        concentration: true
+        units: conc
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Reflex half or Fortitude half; see text;
+        type: fort
+      target:
+        value: >-
+          An opaque sheet of energy up to 20 ft. long/level or a ring of energy
+          with a radius of up to 5 ft./2 levels; either form 20 ft. high
+  description:
+    value: >-
+      <p>You&nbsp;create&nbsp;an&nbsp;immobile&nbsp;sheet&nbsp;of&nbsp;energy&nbsp;of&nbsp;your&nbsp;active&nbsp;energy&nbsp;type&nbsp;(cold,&nbsp;electricity,&nbsp;fire,&nbsp;or&nbsp;sonic)&nbsp;formed&nbsp;out&nbsp;of&nbsp;unstable&nbsp;ectoplasm.&nbsp;One&nbsp;side&nbsp;of&nbsp;the&nbsp;wall,&nbsp;selected&nbsp;by&nbsp;you,&nbsp;sends&nbsp;forth&nbsp;waves&nbsp;of&nbsp;energy,&nbsp;dealing&nbsp;2d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;to&nbsp;creatures&nbsp;and&nbsp;objects&nbsp;within&nbsp;10&nbsp;feet&nbsp;and&nbsp;1d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;to&nbsp;those&nbsp;beyond&nbsp;10&nbsp;feet&nbsp;but&nbsp;within&nbsp;20&nbsp;feet.&nbsp;In&nbsp;addition,&nbsp;anyone&nbsp;passing&nbsp;though&nbsp;the&nbsp;energy&nbsp;wall&nbsp;takes&nbsp;2d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;+1&nbsp;point&nbsp;per&nbsp;manifester&nbsp;level&nbsp;(maximum&nbsp;+20).
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;manifest&nbsp;the&nbsp;wall&nbsp;so&nbsp;that&nbsp;it&nbsp;appears&nbsp;where&nbsp;creatures&nbsp;are,&nbsp;each&nbsp;creature&nbsp;takes&nbsp;damage&nbsp;as&nbsp;if&nbsp;passing&nbsp;through&nbsp;the&nbsp;wall.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power&nbsp;in&nbsp;the&nbsp;form&nbsp;of&nbsp;a&nbsp;ring&nbsp;of&nbsp;energy,&nbsp;you&nbsp;choose&nbsp;whether&nbsp;the&nbsp;waves&nbsp;of&nbsp;energy&nbsp;radiate&nbsp;inward&nbsp;or&nbsp;outward&nbsp;from&nbsp;the&nbsp;ring.
+
+      </p><ul><li><em>Cold:</em>&nbsp;A&nbsp;sheet&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;+1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die.&nbsp;The&nbsp;saving&nbsp;throw&nbsp;to&nbsp;reduce&nbsp;damage&nbsp;from&nbsp;a&nbsp;cold&nbsp;wall&nbsp;is&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;instead&nbsp;of&nbsp;a&nbsp;Reflex&nbsp;save.</li></ul>
+
+      <ul><li><em>Electricity:</em>&nbsp;Manifesting&nbsp;a&nbsp;sheet&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;provides&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;to&nbsp;the&nbsp;save&nbsp;DC&nbsp;and&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;manifester&nbsp;level&nbsp;checks&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of&nbsp;overcoming&nbsp;power&nbsp;resistance.</li></ul>
+
+      <ul><li><em>Fire:</em>&nbsp;A&nbsp;sheet&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;+1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die.</li></ul>
+
+      <ul><li><em>Sonic:</em>&nbsp;A&nbsp;sheet&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;–1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die&nbsp;and&nbsp;ignores&nbsp;an&nbsp;object's&nbsp;hardness.</li></ul>
+
+      <p>This&nbsp;power's&nbsp;subtype&nbsp;is&nbsp;the&nbsp;same&nbsp;as&nbsp;the&nbsp;type&nbsp;of&nbsp;energy&nbsp;you&nbsp;manifest.
+
+      </p>
+
+      <p><strong>Special:</strong>&nbsp;A&nbsp;kineticist&nbsp;does&nbsp;not&nbsp;need&nbsp;to&nbsp;select&nbsp;an&nbsp;energy&nbsp;type&nbsp;for&nbsp;this&nbsp;power&nbsp;when&nbsp;he&nbsp;gains&nbsp;psionic&nbsp;focus.&nbsp;He&nbsp;may&nbsp;choose&nbsp;the&nbsp;type&nbsp;of&nbsp;damage&nbsp;at&nbsp;the&nbsp;time&nbsp;the&nbsp;power&nbsp;is&nbsp;manifested.
+
+      </p>
+  descriptors:
+    - see text
+  discipline: metacreativity
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 3
+      psion: 3
+      wilder: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '108'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 197–198
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '41'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline:
+    - creation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

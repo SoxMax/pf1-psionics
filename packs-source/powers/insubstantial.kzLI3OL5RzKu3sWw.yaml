@@ -1,0 +1,83 @@
+_id: kzLI3OL5RzKu3sWw
+_key: '!items!kzLI3OL5RzKu3sWw'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Insubstantial
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Insubstantial
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      damage:
+        parts:
+          - - 1d6
+            - force
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>Your&nbsp;form&nbsp;becomes&nbsp;indistinct&nbsp;and&nbsp;blurry&nbsp;as&nbsp;if&nbsp;viewed&nbsp;through&nbsp;a&nbsp;heat-haze.&nbsp;While&nbsp;under&nbsp;the&nbsp;effect&nbsp;of&nbsp;this&nbsp;power,&nbsp;you&nbsp;gain&nbsp;the&nbsp;incorporeal&nbsp;monster&nbsp;ability.&nbsp;Because&nbsp;this&nbsp;transformation&nbsp;is&nbsp;temporary,&nbsp;it&nbsp;only&nbsp;grants&nbsp;you&nbsp;the&nbsp;ability&nbsp;to&nbsp;move&nbsp;through&nbsp;solid&nbsp;objects&nbsp;as&nbsp;an&nbsp;incorporeal&nbsp;creature&nbsp;would,&nbsp;though&nbsp;<em>insubstantial&nbsp;</em>can&nbsp;be&nbsp;augmented&nbsp;to&nbsp;offer&nbsp;additional&nbsp;benefits.
+
+      </p>
+
+      <p>When&nbsp;this&nbsp;power&nbsp;ends,&nbsp;you&nbsp;are&nbsp;staggered&nbsp;for&nbsp;one&nbsp;round.&nbsp;Additionally,&nbsp;if&nbsp;you&nbsp;are&nbsp;partially&nbsp;or&nbsp;completely&nbsp;inside&nbsp;a&nbsp;material&nbsp;object&nbsp;when&nbsp;this&nbsp;power&nbsp;ends,&nbsp;you&nbsp;are&nbsp;ejected&nbsp;into&nbsp;the&nbsp;nearest&nbsp;free&nbsp;space,&nbsp;taking&nbsp;1d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;per&nbsp;5&nbsp;feet&nbsp;of&nbsp;material&nbsp;you&nbsp;move&nbsp;through&nbsp;to&nbsp;find&nbsp;a&nbsp;free&nbsp;space.
+
+      </p>
+
+      <p><strong>Augment</strong>:&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ul><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;two&nbsp;power&nbsp;points,&nbsp;you&nbsp;gain&nbsp;the&nbsp;innate&nbsp;sense&nbsp;of&nbsp;direction&nbsp;common&nbsp;to&nbsp;naturally&nbsp;incorporeal&nbsp;creatures,&nbsp;able&nbsp;to&nbsp;move&nbsp;at&nbsp;full&nbsp;speed&nbsp;even&nbsp;when&nbsp;you&nbsp;cannot&nbsp;see.&nbsp;This&nbsp;does&nbsp;not&nbsp;grant&nbsp;you&nbsp;any&nbsp;additional&nbsp;senses&nbsp;and&nbsp;is&nbsp;therefore&nbsp;mostly&nbsp;useful&nbsp;while&nbsp;passing&nbsp;through&nbsp;solid&nbsp;objects.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;two&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;move&nbsp;silently.&nbsp;Creatures&nbsp;making&nbsp;Perception&nbsp;checks&nbsp;to&nbsp;observe&nbsp;or&nbsp;locate&nbsp;you&nbsp;suffer&nbsp;a&nbsp;-5&nbsp;penalty&nbsp;on&nbsp;those&nbsp;checks.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;four&nbsp;power&nbsp;points,&nbsp;your&nbsp;Armor&nbsp;Class&nbsp;is&nbsp;altered&nbsp;as&nbsp;a&nbsp;natural&nbsp;incorporeal&nbsp;creature;&nbsp;you&nbsp;lose&nbsp;any&nbsp;natural&nbsp;armor&nbsp;bonus&nbsp;to&nbsp;Armor&nbsp;Class&nbsp;and&nbsp;gain&nbsp;a&nbsp;deflection&nbsp;bonus&nbsp;equal&nbsp;to&nbsp;your&nbsp;Charisma&nbsp;modifier.&nbsp;This&nbsp;bonus&nbsp;does&nbsp;not&nbsp;stack&nbsp;with&nbsp;other&nbsp;sources.&nbsp;Any&nbsp;armor&nbsp;or&nbsp;shield&nbsp;that&nbsp;does&nbsp;not&nbsp;have&nbsp;the&nbsp;<em>ghost&nbsp;touch&nbsp;</em>property&nbsp;ceases&nbsp;applying&nbsp;to&nbsp;your&nbsp;Armor&nbsp;Class&nbsp;while&nbsp;you&nbsp;are&nbsp;incorporeal.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;eight&nbsp;power&nbsp;points,&nbsp;you&nbsp;gain&nbsp;immunity&nbsp;to&nbsp;non-magical&nbsp;attack&nbsp;forms&nbsp;and&nbsp;take&nbsp;only&nbsp;half&nbsp;damage&nbsp;from&nbsp;magic&nbsp;weapons&nbsp;and&nbsp;powers&nbsp;from&nbsp;corporeal&nbsp;sources.&nbsp;Corporeal&nbsp;powers&nbsp;and&nbsp;effects&nbsp;that&nbsp;do&nbsp;not&nbsp;cause&nbsp;damage&nbsp;only&nbsp;have&nbsp;a&nbsp;50%&nbsp;chance&nbsp;of&nbsp;affecting&nbsp;you.&nbsp;Force&nbsp;powers&nbsp;and&nbsp;effects,&nbsp;such&nbsp;as&nbsp;from&nbsp;<em>entangling&nbsp;debris</em>,&nbsp;affect&nbsp;an&nbsp;incorporeal&nbsp;creature&nbsp;normally.</li></ul>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      conduit: 3
+      dread: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '11'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '75'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

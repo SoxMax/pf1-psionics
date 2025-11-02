@@ -1,0 +1,73 @@
+_id: qcuo1HxyRA3ts2mp
+_key: '!items!qcuo1HxyRA3ts2mp'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Empowering_Arcanix_Aura
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Empowering Arcanix Aura
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: none (harmless)
+        harmless: true
+  description:
+    value: >-
+      <p>When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;choose&nbsp;either&nbsp;divine,&nbsp;arcane&nbsp;or&nbsp;psychic&nbsp;spells&nbsp;as&nbsp;the&nbsp;vibration&nbsp;your&nbsp;aura&nbsp;is&nbsp;aligned&nbsp;with.&nbsp;Whenever&nbsp;you&nbsp;are&nbsp;the&nbsp;target&nbsp;of&nbsp;a&nbsp;spell&nbsp;of&nbsp;this&nbsp;kind,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;to&nbsp;saves&nbsp;against&nbsp;it.&nbsp;If&nbsp;you&nbsp;successfully&nbsp;save&nbsp;against&nbsp;the&nbsp;effect,&nbsp;you&nbsp;siphon&nbsp;off&nbsp;the&nbsp;energies&nbsp;from&nbsp;it&nbsp;to&nbsp;empower&nbsp;yourself.&nbsp;If&nbsp;you&nbsp;manifested&nbsp;this&nbsp;as&nbsp;a&nbsp;psychokinesis&nbsp;power,&nbsp;you&nbsp;gain&nbsp;1&nbsp;temporary&nbsp;hit&nbsp;point&nbsp;per&nbsp;spell&nbsp;level&nbsp;of&nbsp;the&nbsp;spell&nbsp;you&nbsp;saved&nbsp;against,&nbsp;and&nbsp;if&nbsp;you&nbsp;manifested&nbsp;this&nbsp;as&nbsp;a&nbsp;clairsentience&nbsp;power,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+1&nbsp;insight&nbsp;bonus&nbsp;to&nbsp;your&nbsp;next&nbsp;d20&nbsp;roll&nbsp;for&nbsp;every&nbsp;3&nbsp;spell&nbsp;levels.&nbsp;If&nbsp;the&nbsp;spell&nbsp;doesn’t&nbsp;require&nbsp;a&nbsp;save,&nbsp;or&nbsp;is&nbsp;harmless,&nbsp;you&nbsp;gain&nbsp;half&nbsp;this&nbsp;bonus.&nbsp;These&nbsp;bonuses&nbsp;stack&nbsp;with&nbsp;themselves&nbsp;and&nbsp;lasts&nbsp;while&nbsp;the&nbsp;aura&nbsp;is&nbsp;in&nbsp;effect.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ul><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;increases&nbsp;to&nbsp;1&nbsp;minute&nbsp;/&nbsp;level.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;increases&nbsp;to&nbsp;10&nbsp;minutes&nbsp;/&nbsp;level.</li></ul>
+  descriptors:
+    - network
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      highlord: 2
+      psion: 2
+      tactician: 2
+      vitalist: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '11'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

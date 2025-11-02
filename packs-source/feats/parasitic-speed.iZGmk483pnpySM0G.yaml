@@ -1,0 +1,72 @@
+_id: iZGmk483pnpySM0G
+_key: '!items!iZGmk483pnpySM0G'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Parasitic_Speed
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Parasitic Speed
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;can&nbsp;steal&nbsp;the&nbsp;speed&nbsp;of&nbsp;those&nbsp;in&nbsp;your&nbsp;collective&nbsp;to&nbsp;move&nbsp;faster.</em></p>
+
+      <p><strong>Prerequisites:</strong>&nbsp;Collective&nbsp;class&nbsp;feature,&nbsp;<a&nbsp;href="/wiki/Mind_Parasite"&nbsp;title="Mind&nbsp;Parasite">Mind&nbsp;Parasite</a>.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>Up&nbsp;to&nbsp;3&nbsp;times&nbsp;per&nbsp;day,&nbsp;as&nbsp;a&nbsp;swift&nbsp;action,&nbsp;you&nbsp;can&nbsp;give&nbsp;every&nbsp;member&nbsp;of&nbsp;your&nbsp;Collective&nbsp;a&nbsp;–5&nbsp;feet&nbsp;penalty&nbsp;on&nbsp;their&nbsp;movement&nbsp;speeds&nbsp;and&nbsp;gain&nbsp;a&nbsp;bonus&nbsp;to&nbsp;your&nbsp;movement&nbsp;speeds&nbsp;equal&nbsp;to&nbsp;+5&nbsp;feet&nbsp;per&nbsp;member.&nbsp;Both&nbsp;the&nbsp;penalty&nbsp;and&nbsp;bonus&nbsp;last&nbsp;for&nbsp;a&nbsp;number&nbsp;of&nbsp;rounds&nbsp;equal&nbsp;to&nbsp;your&nbsp;key&nbsp;ability&nbsp;modifier.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Mind_Parasite"&nbsp;title="Mind&nbsp;Parasite">Mind&nbsp;Parasite</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '5'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

@@ -1,0 +1,84 @@
+_id: Xri3tGagXoqssSX3
+_key: '!items!Xri3tGagXoqssSX3'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Judge_(power)
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Judge
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: One Sense Motive check this round
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;gain&nbsp;temporary,&nbsp;intuitive&nbsp;insight&nbsp;into&nbsp;piercing&nbsp;lies.&nbsp;Your&nbsp;Sense&nbsp;Motive&nbsp;check&nbsp;gains&nbsp;a&nbsp;+2&nbsp;insight&nbsp;bonus.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;each&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;increase&nbsp;your&nbsp;Sense&nbsp;Motive&nbsp;check&nbsp;by&nbsp;+1.
+
+      </p>
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 0
+      psion: 1
+      sighted seeker: 1
+      voyager: 1
+      wilder: 1
+  level: 0
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '22'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Pawns and Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '167'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '214'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,72 @@
+_id: RNyAT7n1g9GF2jjv
+_key: '!items!RNyAT7n1g9GF2jjv'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Touch_of_the_Grave
+img: icons/sundries/books/book-embossed-blue.webp
+name: Touch of the Grave
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You've&nbsp;become&nbsp;more&nbsp;like&nbsp;the&nbsp;undead&nbsp;that&nbsp;you&nbsp;spend&nbsp;so&nbsp;much&nbsp;time&nbsp;with.</em></p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Must&nbsp;be&nbsp;living.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;You&nbsp;gain&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;all&nbsp;saving&nbsp;throws&nbsp;against&nbsp;pain&nbsp;and&nbsp;cold&nbsp;effects&nbsp;(including&nbsp;effects&nbsp;that&nbsp;deal&nbsp;cold&nbsp;damage&nbsp;and&nbsp;allow&nbsp;a&nbsp;save)&nbsp;however&nbsp;your&nbsp;skin&nbsp;becomes&nbsp;ice&nbsp;cold&nbsp;and&nbsp;your&nbsp;complexion&nbsp;sallow&nbsp;and&nbsp;sunken.&nbsp;You&nbsp;suffer&nbsp;a&nbsp;-4&nbsp;penalty&nbsp;on&nbsp;Disguise&nbsp;checks&nbsp;to&nbsp;pose&nbsp;as&nbsp;anything&nbsp;living.
+
+      </p>
+
+      <p><br&nbsp;/></p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '16'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  subType: feat
+  summons: false
+  tags:
+    - feat
+type: feat

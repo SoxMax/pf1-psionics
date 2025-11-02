@@ -1,0 +1,78 @@
+_id: ZDp4XpW9y1RQsACT
+_key: '!items!ZDp4XpW9y1RQsACT'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Opportunistic_Conscription
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Opportunistic Conscription
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;can&nbsp;quickly&nbsp;exploit&nbsp;any&nbsp;weakness&nbsp;in&nbsp;the&nbsp;mental&nbsp;state&nbsp;of&nbsp;your&nbsp;enemies.</em></p>
+
+      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Unwilling_Participant"&nbsp;title="Unwilling&nbsp;Participant">Unwilling&nbsp;Participant</a>.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;When&nbsp;a&nbsp;creature&nbsp;within&nbsp;the&nbsp;range&nbsp;of&nbsp;your&nbsp;Unwilling&nbsp;Participant&nbsp;feat&nbsp;fails&nbsp;a&nbsp;save&nbsp;against&nbsp;an&nbsp;effect&nbsp;created&nbsp;by&nbsp;another&nbsp;member&nbsp;of&nbsp;your&nbsp;collective,&nbsp;you
+
+      can&nbsp;use&nbsp;the&nbsp;Unwilling&nbsp;Participant&nbsp;feat&nbsp;on&nbsp;them&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '16'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '40'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

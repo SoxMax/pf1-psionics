@@ -1,0 +1,75 @@
+_id: 9LFdwh6JznMHkpqo
+_key: '!items!9LFdwh6JznMHkpqo'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Numbed_Mind
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Numbed Mind
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will (see text)
+        type: will
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>You&nbsp;numb&nbsp;the&nbsp;mind&nbsp;of&nbsp;the&nbsp;target,&nbsp;making&nbsp;their&nbsp;thoughts&nbsp;unfocused&nbsp;and&nbsp;imprecise.&nbsp;This&nbsp;makes&nbsp;the&nbsp;target&nbsp;harder&nbsp;to&nbsp;affect&nbsp;with&nbsp;any&nbsp;mind-affecting&nbsp;abilities,&nbsp;but&nbsp;if&nbsp;they&nbsp;are&nbsp;casters&nbsp;or&nbsp;manifesters,&nbsp;they&nbsp;can’t&nbsp;use&nbsp;their&nbsp;mind&nbsp;to&nbsp;its&nbsp;fullest&nbsp;potential.&nbsp;The&nbsp;target&nbsp;gains&nbsp;a&nbsp;+4&nbsp;bonus&nbsp;to&nbsp;saves&nbsp;against&nbsp;any&nbsp;mind-affecting&nbsp;abilities,&nbsp;spells&nbsp;or&nbsp;powers,&nbsp;but&nbsp;lose&nbsp;access&nbsp;to&nbsp;the&nbsp;highest&nbsp;level&nbsp;of&nbsp;spells,&nbsp;powers,&nbsp;spell-like&nbsp;abilities&nbsp;or&nbsp;psi-like&nbsp;abilities&nbsp;they&nbsp;possess.&nbsp;For&nbsp;example:&nbsp;Wayana,&nbsp;a&nbsp;6th&nbsp;level&nbsp;sorcerer&nbsp;is&nbsp;targeted&nbsp;by&nbsp;<em>numbed&nbsp;mind&nbsp;</em>and&nbsp;fails&nbsp;her&nbsp;Will-save.&nbsp;For&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;power,&nbsp;she&nbsp;gains&nbsp;a&nbsp;+4&nbsp;bonus&nbsp;to&nbsp;her&nbsp;saves&nbsp;against&nbsp;other&nbsp;mind-affecting&nbsp;abilities&nbsp;but&nbsp;cannot&nbsp;cast&nbsp;her&nbsp;3rd&nbsp;level&nbsp;spells.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;becomes&nbsp;1&nbsp;minute&nbsp;/&nbsp;level.</li><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;target&nbsp;another&nbsp;creature.</li><li>If&nbsp;you&nbsp;spend&nbsp;8&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;becomes&nbsp;permanent,&nbsp;but&nbsp;the&nbsp;target&nbsp;gets&nbsp;a&nbsp;new&nbsp;save&nbsp;(without&nbsp;the&nbsp;bonus)&nbsp;after&nbsp;having&nbsp;slept&nbsp;for&nbsp;at&nbsp;least&nbsp;8&nbsp;hours&nbsp;for&nbsp;as&nbsp;long&nbsp;as&nbsp;the&nbsp;power&nbsp;is&nbsp;in&nbsp;effect.</li></ol>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      dread: 2
+      telepath: 2
+      thug: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '12'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

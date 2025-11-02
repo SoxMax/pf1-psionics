@@ -1,0 +1,86 @@
+_id: KHClRIXvJhVeh175
+_key: '!items!KHClRIXvJhVeh175'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Fell_Shot
+img: icons/weapons/thrown/bomb-fuse-black.webp
+name: Fell Shot
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;can&nbsp;strike&nbsp;your&nbsp;foe&nbsp;with&nbsp;a&nbsp;ranged&nbsp;weapon&nbsp;as&nbsp;if&nbsp;making&nbsp;a&nbsp;touch&nbsp;attack.</em></p>
+
+      <p><strong>Prerequisites:</strong>&nbsp;Dex&nbsp;13,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank&nbsp;Shot</a>,&nbsp;<a&nbsp;href="/wiki/Psionic_Shot"&nbsp;title="Psionic&nbsp;Shot">Psionic&nbsp;Shot</a>,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+6.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;part&nbsp;of&nbsp;a&nbsp;ranged&nbsp;attack.&nbsp;You&nbsp;can&nbsp;resolve&nbsp;that&nbsp;ranged&nbsp;attack&nbsp;as&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack.
+
+      </p>
+
+      <p>You&nbsp;must&nbsp;decide&nbsp;whether&nbsp;or&nbsp;not&nbsp;to&nbsp;use&nbsp;this&nbsp;feat&nbsp;prior&nbsp;to&nbsp;making&nbsp;an&nbsp;attack.&nbsp;If&nbsp;your&nbsp;attack&nbsp;misses,&nbsp;you&nbsp;still&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.&nbsp;Abilities&nbsp;that&nbsp;do&nbsp;not&nbsp;work&nbsp;on&nbsp;touch&nbsp;attacks&nbsp;similarly&nbsp;do&nbsp;not&nbsp;work&nbsp;with&nbsp;this&nbsp;feat.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Spearman"&nbsp;title="Spearman">Spearman</a></li></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Marksman"&nbsp;title="Marksman">Marksman</a></li></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Fell_Shot_(Mythic)"&nbsp;title="Fell&nbsp;Shot&nbsp;(Mythic)">Fell&nbsp;Shot&nbsp;(Mythic)</a></li><li><a&nbsp;href="/wiki/Psionic_Shot"&nbsp;title="Psionic&nbsp;Shot">Psionic&nbsp;Shot</a></li><li><a&nbsp;href="/wiki/Return_Shot"&nbsp;title="Return&nbsp;Shot">Return&nbsp;Shot</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '46'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '101'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

@@ -1,0 +1,99 @@
+_id: aUGSkHIQioiFEaFk
+_key: '!items!aUGSkHIQioiFEaFk'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Gravitational_Well
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Gravitational Well
+system:
+  actions:
+    - actionType: rsak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Reflex negates
+        type: ref
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>An&nbsp;artificial&nbsp;well&nbsp;of&nbsp;gravity&nbsp;manifests&nbsp;on&nbsp;the&nbsp;target,&nbsp;pulling&nbsp;other&nbsp;objects&nbsp;in&nbsp;towards&nbsp;it.&nbsp;All&nbsp;attacks&nbsp;against&nbsp;the&nbsp;target&nbsp;gain&nbsp;a&nbsp;+2&nbsp;circumstance&nbsp;bonus&nbsp;to&nbsp;the&nbsp;attack&nbsp;roll&nbsp;as&nbsp;attacks&nbsp;are&nbsp;drawn&nbsp;toward&nbsp;it&nbsp;from&nbsp;the&nbsp;increased&nbsp;gravitational&nbsp;pull.
+
+      </p>
+
+      <p>In&nbsp;addition,&nbsp;attacks&nbsp;made&nbsp;against&nbsp;any&nbsp;other&nbsp;creatures&nbsp;within&nbsp;10&nbsp;ft.&nbsp;of&nbsp;the&nbsp;target&nbsp;suffer&nbsp;a&nbsp;-2&nbsp;penalty&nbsp;to&nbsp;attack&nbsp;rolls,&nbsp;as&nbsp;the&nbsp;altered&nbsp;gravity&nbsp;attempts&nbsp;to&nbsp;pull&nbsp;the&nbsp;attack&nbsp;toward&nbsp;the&nbsp;affected&nbsp;creature.
+
+      </p>
+
+      <p>Any&nbsp;attempt&nbsp;to&nbsp;move&nbsp;closer&nbsp;to&nbsp;or&nbsp;around&nbsp;the&nbsp;target&nbsp;is&nbsp;unhindered,&nbsp;but&nbsp;any&nbsp;attempt&nbsp;to&nbsp;move&nbsp;away&nbsp;from&nbsp;the&nbsp;affected&nbsp;creature&nbsp;is&nbsp;treated&nbsp;as&nbsp;difficult&nbsp;terrain&nbsp;until&nbsp;more&nbsp;than&nbsp;10&nbsp;ft.&nbsp;away.&nbsp;A&nbsp;successful&nbsp;Reflex&nbsp;save&nbsp;negates&nbsp;this&nbsp;effect.
+
+      </p>
+
+      <p>Creatures&nbsp;benefiting&nbsp;from&nbsp;Stability&nbsp;or&nbsp;Personal&nbsp;Gravity,&nbsp;such&nbsp;as&nbsp;an&nbsp;elocater,&nbsp;gain&nbsp;a&nbsp;+4&nbsp;bonus&nbsp;to&nbsp;their&nbsp;saving&nbsp;throw.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points,&nbsp;ranged&nbsp;attacks,&nbsp;but&nbsp;not&nbsp;ranged&nbsp;touch&nbsp;attacks,&nbsp;fired&nbsp;at&nbsp;nearby&nbsp;targets&nbsp;are&nbsp;likely&nbsp;to&nbsp;veer&nbsp;off&nbsp;course,&nbsp;turning&nbsp;toward&nbsp;the&nbsp;creature&nbsp;affected.&nbsp;Any&nbsp;ranged&nbsp;attack&nbsp;within&nbsp;10&nbsp;ft.&nbsp;that&nbsp;misses&nbsp;its&nbsp;target&nbsp;has&nbsp;a&nbsp;25%&nbsp;chance&nbsp;of&nbsp;striking&nbsp;at&nbsp;the&nbsp;creature&nbsp;affected.&nbsp;Roll&nbsp;a&nbsp;second&nbsp;attack&nbsp;roll&nbsp;at&nbsp;a&nbsp;-4&nbsp;penalty&nbsp;with&nbsp;the&nbsp;affected&nbsp;creature&nbsp;as&nbsp;the&nbsp;target.&nbsp;If&nbsp;the&nbsp;attack&nbsp;roll&nbsp;is&nbsp;successful,&nbsp;the&nbsp;affected&nbsp;creature&nbsp;is&nbsp;struck&nbsp;by&nbsp;the&nbsp;ranged&nbsp;attack.</li><li>For&nbsp;every&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;spent,&nbsp;the&nbsp;distance&nbsp;from&nbsp;the&nbsp;target&nbsp;increases&nbsp;by&nbsp;5&nbsp;ft.&nbsp;to&nbsp;determine&nbsp;if&nbsp;a&nbsp;missed&nbsp;attack&nbsp;strikes&nbsp;at&nbsp;the&nbsp;affected&nbsp;creature.</li></ol>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: true
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 2
+      gambler: 2
+      marksman: 2
+      nomad: 2
+      thug: 2
+      voyager: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 19–20
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Find the Mark'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '165'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '209'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,99 @@
+_id: RIya2MLyCheCHfCH
+_key: '!items!RIya2MLyCheCHfCH'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Expansion,_Karak's
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Expansion, Karak's
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>This&nbsp;power&nbsp;causes&nbsp;instant&nbsp;growth,&nbsp;doubling&nbsp;your&nbsp;height,&nbsp;length,&nbsp;and&nbsp;width&nbsp;and&nbsp;multiplying&nbsp;your&nbsp;weight&nbsp;by&nbsp;8.&nbsp;This&nbsp;increase&nbsp;changes&nbsp;your&nbsp;size&nbsp;category&nbsp;to&nbsp;the&nbsp;next&nbsp;larger&nbsp;one.&nbsp;You&nbsp;gain&nbsp;a&nbsp;+2&nbsp;size&nbsp;bonus&nbsp;to&nbsp;Strength,&nbsp;a&nbsp;–2&nbsp;size&nbsp;penalty&nbsp;to&nbsp;Dexterity&nbsp;(to&nbsp;a&nbsp;minimum&nbsp;of&nbsp;1),&nbsp;a&nbsp;–1&nbsp;size&nbsp;penalty&nbsp;on&nbsp;attack&nbsp;rolls&nbsp;and&nbsp;AC&nbsp;due&nbsp;to&nbsp;your&nbsp;increased&nbsp;size.
+
+      </p>
+
+      <p>If&nbsp;your&nbsp;new&nbsp;size&nbsp;is&nbsp;Large&nbsp;or&nbsp;larger,&nbsp;you&nbsp;have&nbsp;a&nbsp;space&nbsp;of&nbsp;at&nbsp;least&nbsp;10&nbsp;feet&nbsp;and&nbsp;a&nbsp;natural&nbsp;reach&nbsp;of&nbsp;at&nbsp;least&nbsp;10&nbsp;feet.&nbsp;This&nbsp;power&nbsp;does&nbsp;not&nbsp;change&nbsp;your&nbsp;speed.
+
+      </p>
+
+      <p>If&nbsp;insufficient&nbsp;room&nbsp;is&nbsp;available&nbsp;for&nbsp;the&nbsp;desired&nbsp;growth,&nbsp;you&nbsp;attain&nbsp;the&nbsp;maximum&nbsp;possible&nbsp;size&nbsp;and&nbsp;can&nbsp;make&nbsp;a&nbsp;Strength&nbsp;check&nbsp;(using&nbsp;your&nbsp;increased&nbsp;Strength&nbsp;score)&nbsp;to&nbsp;burst&nbsp;any&nbsp;enclosures&nbsp;in&nbsp;the&nbsp;process.&nbsp;If&nbsp;you&nbsp;fail,&nbsp;you&nbsp;are&nbsp;constrained&nbsp;without&nbsp;harm&nbsp;by&nbsp;the&nbsp;materials&nbsp;enclosing&nbsp;you—&nbsp;you&nbsp;cannot&nbsp;crush&nbsp;yourself&nbsp;to&nbsp;death&nbsp;by&nbsp;increasing&nbsp;your&nbsp;size.
+
+      </p>
+
+      <p>All&nbsp;your&nbsp;equipment,&nbsp;worn&nbsp;or&nbsp;carried,&nbsp;is&nbsp;similarly&nbsp;expanded&nbsp;by&nbsp;this&nbsp;power.&nbsp;Melee&nbsp;and&nbsp;projectile&nbsp;weapons&nbsp;deal&nbsp;more&nbsp;damage.
+
+      </p>
+
+      <p>Other&nbsp;psionic&nbsp;or&nbsp;magical&nbsp;properties&nbsp;are&nbsp;not&nbsp;affected&nbsp;by&nbsp;this&nbsp;power.&nbsp;Any&nbsp;affected&nbsp;item&nbsp;that&nbsp;leaves&nbsp;your&nbsp;possession&nbsp;(including&nbsp;a&nbsp;projectile&nbsp;or&nbsp;thrown&nbsp;weapon)&nbsp;instantly&nbsp;returns&nbsp;to&nbsp;its&nbsp;normal&nbsp;size.&nbsp;This&nbsp;means&nbsp;that&nbsp;thrown&nbsp;weapons&nbsp;deal&nbsp;their&nbsp;normal&nbsp;damage&nbsp;(projectiles&nbsp;deal&nbsp;damage&nbsp;based&nbsp;on&nbsp;the&nbsp;size&nbsp;of&nbsp;the&nbsp;weapon&nbsp;that&nbsp;fired&nbsp;them).&nbsp;Multiple&nbsp;effects&nbsp;that&nbsp;increase&nbsp;size&nbsp;do&nbsp;not&nbsp;stack,&nbsp;which&nbsp;means&nbsp;(among&nbsp;other&nbsp;things)&nbsp;that&nbsp;you&nbsp;can't&nbsp;use&nbsp;a&nbsp;second&nbsp;manifestation&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;further&nbsp;expand&nbsp;yourself.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;increases&nbsp;your&nbsp;size&nbsp;by&nbsp;two&nbsp;size&nbsp;categories&nbsp;instead&nbsp;of&nbsp;one.&nbsp;You&nbsp;gain&nbsp;a&nbsp;+4&nbsp;size&nbsp;bonus&nbsp;to&nbsp;Strength,&nbsp;a&nbsp;–4&nbsp;size&nbsp;penalty&nbsp;to&nbsp;Dexterity&nbsp;(to&nbsp;a&nbsp;minimum&nbsp;effective&nbsp;Dexterity&nbsp;score&nbsp;of&nbsp;1),&nbsp;a&nbsp;–2&nbsp;size&nbsp;penalty&nbsp;on&nbsp;attack&nbsp;rolls,&nbsp;and&nbsp;a&nbsp;–2&nbsp;size&nbsp;penalty&nbsp;to&nbsp;Armor&nbsp;Class&nbsp;due&nbsp;to&nbsp;your&nbsp;increased&nbsp;size.</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;instead&nbsp;of&nbsp;a&nbsp;standard&nbsp;action.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power's&nbsp;duration&nbsp;is&nbsp;10&nbsp;minutes&nbsp;per&nbsp;level&nbsp;rather&nbsp;than&nbsp;1&nbsp;minute&nbsp;per&nbsp;level.</li></ol>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: true
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 1
+      gifted blade: 1
+      psychic warrior: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 110–111
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '201'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '42'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

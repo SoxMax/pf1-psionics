@@ -1,0 +1,58 @@
+<div class="tab spellbook psionics flexcol" data-group="primary" data-tab="psibook">
+  <div class="psionics-resources flexrow">
+    {{! Psionic Focus }}
+    <div class="info-box-header psionic-focus">
+      <h3>{{localize "PF1-Psionics.Focus.Plural"}}</h3>
+      <div class="info-box-joined">
+        <div class="info-box current">
+          <h5>{{localize "PF1-Psionics.Focus.Current"}}</h5>
+          <span class="value text-box direct wheel-change allow-relative" name="flags.pf1-psionics.focus.current"  data-dtype="Number">{{psionics.focus.current}}</span>
+        </div>
+        <div class="info-box maximum">
+          <h5>{{localize "PF1-Psionics.Focus.Maximum"}}</h5>
+          <span class="value text-box readonly">{{psionics.focus.maximum}}</span>
+        </div>
+      </div>
+    </div>
+    {{! Power Points }}
+    <div class="info-box-header power-points flexcol">
+      <h3>{{localize "PF1-Psionics.PowerPoints.Plural"}}</h3>
+      <div class="info-box-joined">
+        <div class="info-box current">
+          <h5>{{localize "PF1-Psionics.PowerPoints.Current"}}</h5>
+          <span class="value text-box direct wheel-change allow-relative" name="flags.pf1-psionics.powerPoints.current" data-dtype="Number">{{psionics.powerPoints.current}}</span>
+        </div>
+        <div class="info-box maximum">
+          <h5>{{localize "PF1-Psionics.PowerPoints.Maximum"}}</h5>
+          <span class="value text-box readonly">{{psionics.powerPoints.maximum}}</span>
+        </div>
+        <div class="info-box temporary">
+          <h5>{{localize "PF1-Psionics.PowerPoints.Temporary"}}</h5>
+          <span class="value text-box direct wheel-change allow-relative" name="flags.pf1-psionics.powerPoints.temporary" data-dtype="Number">{{psionics.powerPoints.temporary}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {{!-- Spellbook Navigation --}}
+  <nav class="sheet-navigation tabs psibooks" data-group="psibooks">
+    {{#each psibookData}}
+      {{#if inUse}}
+      <a class="item" data-tab="{{@key}}" data-group="psibooks">
+        <span class="label">{{label}}</span>
+        <span class="caster-level">{{cl.total}}</span>
+      </a>
+      {{/if}}
+    {{/each}}
+  </nav>
+
+  <section class="psibooks-body">
+    {{#each psibookData}}
+      {{#if inUse}}
+      <div class="tab psibook-group flexcol" data-group="psibooks" data-tab="{{@key}}" data-book-id="{{@key}}">
+      {{~> "modules/pf1-psionics/templates/actor/actor-psibook.hbs" spellbook=this bookId=@key}}
+      </div>
+      {{/if}}
+    {{/each}}
+  </section>
+</div>

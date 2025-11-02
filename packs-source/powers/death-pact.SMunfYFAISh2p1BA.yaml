@@ -1,0 +1,67 @@
+_id: SMunfYFAISh2p1BA
+_key: '!items!SMunfYFAISh2p1BA'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Death_Pact_(power)
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Death Pact
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 10
+        type: minute
+      duration:
+        units: perm
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        description: None
+      target:
+        value: One willing, living creature
+  description:
+    value: >-
+      <p>You&nbsp;form&nbsp;a&nbsp;lasting&nbsp;bond&nbsp;with&nbsp;a&nbsp;willing&nbsp;creature,&nbsp;ensuring&nbsp;them&nbsp;eternal&nbsp;unlife&nbsp;even&nbsp;if&nbsp;death&nbsp;should&nbsp;claim&nbsp;them.&nbsp;All&nbsp;it&nbsp;costs&nbsp;them&nbsp;is&nbsp;their&nbsp;allegiance.&nbsp;When&nbsp;the&nbsp;target&nbsp;dies,&nbsp;they&nbsp;immediately&nbsp;become&nbsp;a&nbsp;ghost,&nbsp;applying&nbsp;the&nbsp;ghost&nbsp;template&nbsp;as&nbsp;normal.&nbsp;They&nbsp;only&nbsp;gain&nbsp;corrupting&nbsp;touch&nbsp;as&nbsp;a&nbsp;special&nbsp;attack,&nbsp;however.&nbsp;While&nbsp;the&nbsp;subject&nbsp;is&nbsp;affected&nbsp;by&nbsp;this&nbsp;power,&nbsp;they&nbsp;are&nbsp;friendly&nbsp;to&nbsp;you,&nbsp;share&nbsp;your&nbsp;motivations&nbsp;and&nbsp;goals,&nbsp;and&nbsp;are&nbsp;likely&nbsp;to&nbsp;follow&nbsp;any&nbsp;reasonable&nbsp;suggestions&nbsp;you&nbsp;make.&nbsp;You&nbsp;may&nbsp;not&nbsp;manifest&nbsp;this&nbsp;power&nbsp;on&nbsp;yourself.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways
+
+      </p><ol><li>You&nbsp;may&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;instead&nbsp;have&nbsp;the&nbsp;target&nbsp;become&nbsp;a&nbsp;free-willed&nbsp;wraith&nbsp;after&nbsp;they&nbsp;die.&nbsp;This&nbsp;wraith&nbsp;retains&nbsp;its&nbsp;initial&nbsp;alignment.&nbsp;This&nbsp;augment&nbsp;may&nbsp;only&nbsp;be&nbsp;used&nbsp;if&nbsp;the&nbsp;target&nbsp;has&nbsp;7&nbsp;or&nbsp;more&nbsp;Hit&nbsp;Dice.</li><li>You&nbsp;may&nbsp;spend&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;and&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;instead&nbsp;have&nbsp;the&nbsp;target&nbsp;become&nbsp;a&nbsp;free-willed&nbsp;spectre&nbsp;after&nbsp;they&nbsp;die.&nbsp;This&nbsp;spectre&nbsp;retains&nbsp;its&nbsp;initial&nbsp;alignment.&nbsp;This&nbsp;augment&nbsp;may&nbsp;only&nbsp;be&nbsp;used&nbsp;if&nbsp;the&nbsp;target&nbsp;has&nbsp;9&nbsp;or&nbsp;more&nbsp;Hit&nbsp;Dice.</li><li>You&nbsp;may&nbsp;spend&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points&nbsp;and&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;instead&nbsp;have&nbsp;the&nbsp;target&nbsp;become&nbsp;a&nbsp;free-willed&nbsp;banshee&nbsp;after&nbsp;they&nbsp;die.&nbsp;This&nbsp;banshee&nbsp;retains&nbsp;its&nbsp;initial&nbsp;alignment.&nbsp;This&nbsp;augment&nbsp;may&nbsp;only&nbsp;be&nbsp;used&nbsp;if&nbsp;the&nbsp;target&nbsp;has&nbsp;15&nbsp;or&nbsp;more&nbsp;Hit&nbsp;Dice.</li><li>You&nbsp;may&nbsp;spend&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;and&nbsp;gain&nbsp;a&nbsp;permanent&nbsp;negative&nbsp;level&nbsp;to&nbsp;grant&nbsp;the&nbsp;target&nbsp;one&nbsp;additional&nbsp;ghost&nbsp;special&nbsp;attack&nbsp;of&nbsp;your&nbsp;choice.</li></ol>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      conduit: 6
+  level: 6
+  manifestTime:
+    units: minute
+    value: 10
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 27–28
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

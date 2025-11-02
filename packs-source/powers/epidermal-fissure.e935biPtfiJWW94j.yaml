@@ -1,0 +1,86 @@
+_id: e935biPtfiJWW94j
+_key: '!items!e935biPtfiJWW94j'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Epidermal_Fissure
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Epidermal Fissure
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude negates
+        type: fort
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>You&nbsp;engorge&nbsp;the&nbsp;muscles&nbsp;of&nbsp;your&nbsp;target,&nbsp;shredding&nbsp;their&nbsp;skin&nbsp;and&nbsp;exposing&nbsp;the&nbsp;tissue&nbsp;beneath.&nbsp;The&nbsp;target&nbsp;gains&nbsp;a&nbsp;+4&nbsp;enhancement&nbsp;bonus&nbsp;to&nbsp;Strength&nbsp;and&nbsp;a&nbsp;+4&nbsp;enhancement&nbsp;bonus&nbsp;to&nbsp;Intimidate&nbsp;checks.&nbsp;Additionally,&nbsp;the&nbsp;target&nbsp;suffers&nbsp;2&nbsp;points&nbsp;of&nbsp;bleed&nbsp;damage&nbsp;at&nbsp;the&nbsp;start&nbsp;of&nbsp;their&nbsp;turns.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;the&nbsp;following&nbsp;ways:
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;3&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;Strength&nbsp;and&nbsp;Intimidate&nbsp;bonuses&nbsp;increase&nbsp;by&nbsp;2.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;bleed&nbsp;damage&nbsp;increases&nbsp;by&nbsp;2.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;target&nbsp;suffers&nbsp;a&nbsp;–2&nbsp;penalty&nbsp;to&nbsp;their&nbsp;natural&nbsp;armor&nbsp;(this&nbsp;cannot&nbsp;reduce&nbsp;their&nbsp;natural&nbsp;armor&nbsp;below&nbsp;0).</li></ol>
+
+      <p>Additionally,&nbsp;for&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;you&nbsp;spend&nbsp;to&nbsp;achieve&nbsp;the&nbsp;above&nbsp;results,&nbsp;increase&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;by&nbsp;1.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 2
+      psion: 2
+      psychic warrior: 2
+      tactician: 2
+      thug: 2
+      vitalist: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '53'
+      publisher: Dreamscarred Press
+      title: Lords of the Night
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '70'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

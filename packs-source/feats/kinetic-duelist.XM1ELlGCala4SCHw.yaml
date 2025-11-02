@@ -1,0 +1,76 @@
+_id: XM1ELlGCala4SCHw
+_key: '!items!XM1ELlGCala4SCHw'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Kinetic_Duelist_(feat)
+img: icons/skills/melee/hand-grip-sword-orange.webp
+name: Kinetic Duelist
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;can&nbsp;create&nbsp;a&nbsp;second&nbsp;kinetic&nbsp;blade.</em></p>
+
+      <p><strong>Prerequisites:</strong><a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Two-Weapon%20Fighting">Two-Weapon&nbsp;Fighting</a>,&nbsp;<em>kinetic&nbsp;blade</em>&nbsp;wild&nbsp;talent.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;use&nbsp;the&nbsp;<em>kinetic&nbsp;blade</em>&nbsp;wild&nbsp;talent,&nbsp;you&nbsp;may&nbsp;make&nbsp;a&nbsp;second&nbsp;<em>kinetic&nbsp;blade&nbsp;</em>in&nbsp;your&nbsp;off&nbsp;hand.&nbsp;You&nbsp;can&nbsp;only&nbsp;make&nbsp;one&nbsp;attack&nbsp;with&nbsp;this&nbsp;second&nbsp;kinetic&nbsp;blade,&nbsp;regardless&nbsp;of&nbsp;how&nbsp;many&nbsp;off-hand&nbsp;attacks&nbsp;you&nbsp;would&nbsp;normally&nbsp;receive.&nbsp;You&nbsp;pay&nbsp;burn&nbsp;costs&nbsp;for&nbsp;the&nbsp;second&nbsp;<em>kinetic&nbsp;blade</em>&nbsp;as&nbsp;normal,&nbsp;and&nbsp;can&nbsp;make&nbsp;the&nbsp;second&nbsp;<em>kinetic&nbsp;blade</em>&nbsp;using&nbsp;a&nbsp;different&nbsp;<em>kinetic&nbsp;blast</em>&nbsp;than&nbsp;the&nbsp;first,&nbsp;if&nbsp;you&nbsp;wish.&nbsp;If&nbsp;you&nbsp;used&nbsp;gather&nbsp;power&nbsp;to&nbsp;reduce&nbsp;the&nbsp;cost&nbsp;of&nbsp;the&nbsp;first&nbsp;<em>kinetic&nbsp;blade</em>,&nbsp;the&nbsp;reduction&nbsp;from&nbsp;gather&nbsp;power&nbsp;does&nbsp;not&nbsp;apply&nbsp;to&nbsp;the&nbsp;second&nbsp;blade's&nbsp;cost&nbsp;as&nbsp;well.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '6'
+      publisher: Dreamscarred Press
+      title: 'Divergent Paths: Roil Dancer'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '80'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Occult Compilation'
+  subType: feat
+  summons: false
+  tags:
+    - combat
+type: feat

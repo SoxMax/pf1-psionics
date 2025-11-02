@@ -1,0 +1,84 @@
+_id: ON8JA2ZgADzh3rpb
+_key: '!items!ON8JA2ZgADzh3rpb'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Ectoplasmic_Cocoon,_Mass
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Ectoplasmic Cocoon, Mass
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '20'
+      duration:
+        dismiss: true
+        units: hour
+        value: '@cl'
+      name: Use
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Reflex negates
+        type: ref
+      target:
+        value: 20-ft.-radius burst
+  description:
+    value: >-
+      <p>As&nbsp;<em><a&nbsp;href="/wiki/Ectoplasmic_Cocoon"&nbsp;title="Ectoplasmic&nbsp;Cocoon">ectoplasmic&nbsp;cocoon</a></em>,&nbsp;except&nbsp;you&nbsp;can&nbsp;cocoon&nbsp;several&nbsp;creatures&nbsp;(or&nbsp;a&nbsp;single&nbsp;big&nbsp;creature&nbsp;that&nbsp;fits&nbsp;in&nbsp;a&nbsp;20-foot&nbsp;radius&nbsp;sphere&nbsp;or&nbsp;hemisphere)&nbsp;in&nbsp;a&nbsp;mass&nbsp;of&nbsp;writhing&nbsp;ectoplasm.&nbsp;Targets&nbsp;entirely&nbsp;within&nbsp;the&nbsp;area&nbsp;who&nbsp;fail&nbsp;their&nbsp;save&nbsp;are&nbsp;caught&nbsp;and&nbsp;cocooned.&nbsp;If&nbsp;a&nbsp;creature’s&nbsp;body&nbsp;is&nbsp;only&nbsp;partially&nbsp;within&nbsp;the&nbsp;area,&nbsp;this&nbsp;power&nbsp;does&nbsp;not&nbsp;affect&nbsp;that&nbsp;creature.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;radius&nbsp;of&nbsp;this&nbsp;power's&nbsp;area&nbsp;increases&nbsp;by&nbsp;5&nbsp;feet.
+
+      </p>
+  discipline: metacreativity
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      shaper: 7
+  level: 7
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '100'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '188'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '37'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

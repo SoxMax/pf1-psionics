@@ -1,0 +1,72 @@
+_id: Yp9SSIGg1DAyzY5b
+_key: '!items!Yp9SSIGg1DAyzY5b'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Bound_Sigil
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Bound Sigil
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>The&nbsp;sigils&nbsp;of&nbsp;your&nbsp;manifesting&nbsp;can&nbsp;be&nbsp;drawn&nbsp;on&nbsp;your&nbsp;body&nbsp;and&nbsp;activated&nbsp;later.</em></p>
+
+      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Sigilist"&nbsp;title="Sigilist">Sigilist</a>.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;now&nbsp;draw&nbsp;your&nbsp;sigils&nbsp;on&nbsp;your&nbsp;body&nbsp;so&nbsp;that&nbsp;they&nbsp;etch&nbsp;themselves&nbsp;into&nbsp;you.&nbsp;3&nbsp;times&nbsp;per&nbsp;day&nbsp;you&nbsp;can&nbsp;manifest&nbsp;a&nbsp;power&nbsp;and&nbsp;turn&nbsp;it&nbsp;into&nbsp;a&nbsp;psionic&nbsp;tattoo&nbsp;on&nbsp;your&nbsp;body&nbsp;instead&nbsp;of&nbsp;having&nbsp;it&nbsp;manifest&nbsp;normally.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Sigilist"&nbsp;title="Sigilist">Sigilist</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '2'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

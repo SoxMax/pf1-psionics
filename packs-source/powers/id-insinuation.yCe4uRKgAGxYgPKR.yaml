@@ -1,0 +1,115 @@
+_id: yCe4uRKgAGxYgPKR
+_key: '!items!yCe4uRKgAGxYgPKR'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Id_Insinuation
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Id Insinuation
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      damage:
+        parts:
+          - - 1d8
+            - untyped
+      duration:
+        concentration: true
+        units: conc
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. +5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>Swift&nbsp;tendrils&nbsp;of&nbsp;thought&nbsp;disrupt&nbsp;the&nbsp;unconscious&nbsp;mind&nbsp;of&nbsp;any&nbsp;one&nbsp;creature,&nbsp;sapping&nbsp;its&nbsp;might.&nbsp;As&nbsp;long&nbsp;as&nbsp;the&nbsp;manifester&nbsp;remains&nbsp;concentrating&nbsp;fully&nbsp;on&nbsp;this&nbsp;power,&nbsp;the&nbsp;subject&nbsp;is&nbsp;confused,&nbsp;making&nbsp;it&nbsp;unable&nbsp;to&nbsp;independently&nbsp;determine&nbsp;what&nbsp;it&nbsp;will&nbsp;do.&nbsp;Roll&nbsp;on&nbsp;the&nbsp;following&nbsp;table&nbsp;at&nbsp;the&nbsp;beginning&nbsp;of&nbsp;each&nbsp;of&nbsp;the&nbsp;subject's&nbsp;turns&nbsp;to&nbsp;see&nbsp;what&nbsp;the&nbsp;subject&nbsp;does&nbsp;in&nbsp;that&nbsp;round.
+
+      </p><table><tbody><tr><th>d%
+
+      </th><th>Behavior
+
+      </th></tr><tr><td>01–25
+
+      </td><td>Act&nbsp;normally
+
+      </td></tr><tr><td>26–50
+
+      </td><td>Do&nbsp;nothing&nbsp;but&nbsp;babble&nbsp;incoherently.
+
+      </td></tr><tr><td>51–75
+
+      </td><td>Deal&nbsp;1d8&nbsp;points&nbsp;of&nbsp;damage&nbsp;+&nbsp;Str&nbsp;modifier&nbsp;to&nbsp;self&nbsp;with&nbsp;item&nbsp;in&nbsp;hand
+
+      </td></tr><tr><td>76–100
+
+      </td><td>Attack&nbsp;nearest&nbsp;creature&nbsp;(for&nbsp;this&nbsp;purpose,&nbsp;a&nbsp;psicrystal&nbsp;counts&nbsp;as&nbsp;part&nbsp;of&nbsp;the&nbsp;subject's&nbsp;self).
+
+      </td></tr></tbody></table>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1,&nbsp;and&nbsp;the&nbsp;power&nbsp;can&nbsp;affect&nbsp;an&nbsp;additional&nbsp;target.&nbsp;Any&nbsp;additional&nbsp;target&nbsp;cannot&nbsp;be&nbsp;more&nbsp;than&nbsp;15&nbsp;feet&nbsp;from&nbsp;another&nbsp;target&nbsp;of&nbsp;the&nbsp;power.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 2
+      empath: 2
+      gambler: 2
+      psion: 2
+      thug: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '118'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '211'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '44'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline:
+    - compulsion
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

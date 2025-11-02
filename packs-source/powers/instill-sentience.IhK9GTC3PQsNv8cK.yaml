@@ -1,0 +1,66 @@
+_id: IhK9GTC3PQsNv8cK
+_key: '!items!IhK9GTC3PQsNv8cK'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Instill_Sentience
+folder: KOobADbbBkVCSjkN
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Instill Sentience
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 10
+        type: minute
+      duration:
+        dismiss: true
+        units: spec
+        value: see text (D)
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        description: None
+      target:
+        value: One non-sentient animal, plant or construct (Int – or Int 1-2)
+  description:
+    value: "<p>You&nbsp;awaken&nbsp;the&nbsp;mind&nbsp;of&nbsp;something&nbsp;that&nbsp;once&nbsp;had&nbsp;none&nbsp;using&nbsp;a&nbsp;specific&nbsp;ritual&nbsp;and&nbsp;previously&nbsp;prepared&nbsp;crystals&nbsp;that&nbsp;are&nbsp;consumed&nbsp;in&nbsp;the&nbsp;ritual&nbsp;(cost&nbsp;of&nbsp;5000&nbsp;gp).&nbsp;If&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power&nbsp;as&nbsp;an&nbsp;athanatism&nbsp;power,&nbsp;you&nbsp;infuse&nbsp;the&nbsp;target&nbsp;with&nbsp;the&nbsp;soul&nbsp;of&nbsp;a&nbsp;previously&nbsp;dead,&nbsp;but&nbsp;intelligent,&nbsp;creature.&nbsp;The&nbsp;target&nbsp;gains&nbsp;the&nbsp;psionic&nbsp;subtype&nbsp;and&nbsp;a&nbsp;limited&nbsp;form&nbsp;of&nbsp;telepathy,&nbsp;allowing&nbsp;it&nbsp;to&nbsp;communicate&nbsp;wordlessly&nbsp;with\_a&nbsp;willing&nbsp;creature&nbsp;within&nbsp;30&nbsp;ft.\n</p>\n<p>You&nbsp;have&nbsp;no&nbsp;special&nbsp;empathy&nbsp;or&nbsp;connection&nbsp;with&nbsp;a&nbsp;creature&nbsp;you&nbsp;awaken,&nbsp;although&nbsp;it&nbsp;is&nbsp;friendly&nbsp;and&nbsp;will&nbsp;often&nbsp;help&nbsp;you&nbsp;with&nbsp;specific&nbsp;tasks&nbsp;or&nbsp;endeavors&nbsp;if&nbsp;you&nbsp;communicate&nbsp;your&nbsp;desires&nbsp;to&nbsp;it.&nbsp;Creatures&nbsp;previously&nbsp;under&nbsp;another&nbsp;creature’s&nbsp;control,&nbsp;either&nbsp;as&nbsp;shield&nbsp;guardians&nbsp;or&nbsp;a&nbsp;golem&nbsp;crafter’s&nbsp;creations,&nbsp;break&nbsp;all&nbsp;connections&nbsp;with&nbsp;that&nbsp;creature.\n</p>\n<p>An&nbsp;awakened&nbsp;plant&nbsp;has&nbsp;characteristics&nbsp;as&nbsp;if&nbsp;it&nbsp;were&nbsp;an&nbsp;animated&nbsp;object&nbsp;of&nbsp;its&nbsp;size,&nbsp;except&nbsp;that&nbsp;it&nbsp;gains&nbsp;the&nbsp;plant&nbsp;type&nbsp;and&nbsp;its&nbsp;Intelligence,&nbsp;Wisdom,&nbsp;and&nbsp;Charisma&nbsp;scores&nbsp;are&nbsp;each&nbsp;3d6.&nbsp;An&nbsp;awakened&nbsp;plant&nbsp;gains&nbsp;the&nbsp;ability&nbsp;to&nbsp;move&nbsp;its&nbsp;limbs,&nbsp;roots,&nbsp;vines,&nbsp;creepers,&nbsp;and&nbsp;so&nbsp;forth,&nbsp;and&nbsp;it&nbsp;has&nbsp;senses&nbsp;similar&nbsp;to&nbsp;a&nbsp;human’s,&nbsp;but&nbsp;generally&nbsp;can’t&nbsp;speak&nbsp;beyond&nbsp;its&nbsp;telepathic&nbsp;abilities.\n</p>\n<p>For&nbsp;constructs&nbsp;and&nbsp;animals,&nbsp;roll&nbsp;3d6&nbsp;to&nbsp;determine&nbsp;the&nbsp;Intelligence&nbsp;score&nbsp;of&nbsp;the&nbsp;awakened&nbsp;creature,&nbsp;and&nbsp;increase&nbsp;its&nbsp;Charisma&nbsp;score&nbsp;by&nbsp;2d6.\n</p>\n<p>The&nbsp;creature&nbsp;gains&nbsp;the&nbsp;(augmented)&nbsp;subtype&nbsp;and&nbsp;it&nbsp;gains&nbsp;feats&nbsp;and&nbsp;skill&nbsp;points&nbsp;according&nbsp;to&nbsp;its&nbsp;new&nbsp;Intelligence&nbsp;score,&nbsp;and&nbsp;the&nbsp;skill&nbsp;points&nbsp;are&nbsp;assigned&nbsp;appropriately,&nbsp;as&nbsp;determined&nbsp;by&nbsp;the&nbsp;GM.&nbsp;An&nbsp;awakened&nbsp;creature&nbsp;speaks&nbsp;one&nbsp;language&nbsp;plus&nbsp;one&nbsp;additional&nbsp;language&nbsp;per&nbsp;point&nbsp;of&nbsp;Intelligence&nbsp;bonus&nbsp;(if&nbsp;any).&nbsp;Its&nbsp;alignment&nbsp;is&nbsp;determined&nbsp;by&nbsp;the&nbsp;GM.&nbsp;Such&nbsp;a&nbsp;creature&nbsp;cannot&nbsp;serve&nbsp;as&nbsp;the&nbsp;familiar,&nbsp;animal&nbsp;companion,&nbsp;mount&nbsp;or&nbsp;other&nbsp;servant&nbsp;of&nbsp;another&nbsp;creature&nbsp;unless&nbsp;the&nbsp;GM&nbsp;decides&nbsp;that&nbsp;it&nbsp;is&nbsp;appropriate.\n</p>\n<p><strong>Augment:&nbsp;</strong>This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.\n</p><ul><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;awaken&nbsp;vermin&nbsp;or&nbsp;oozes&nbsp;too.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;and&nbsp;manifest&nbsp;this&nbsp;power&nbsp;as&nbsp;an&nbsp;athanatism&nbsp;power,&nbsp;you&nbsp;can&nbsp;awaken&nbsp;mindless&nbsp;undead&nbsp;too,&nbsp;binding&nbsp;a&nbsp;different&nbsp;spirit&nbsp;to&nbsp;its&nbsp;animated&nbsp;husk.</li></ul>"
+  descriptors:
+    - mind-affecting
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 6
+      vitalist: 6
+      wilder: 6
+  level: 6
+  manifestTime:
+    units: minute
+    value: 10
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 11–12
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

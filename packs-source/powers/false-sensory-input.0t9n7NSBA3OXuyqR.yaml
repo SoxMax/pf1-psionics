@@ -1,0 +1,95 @@
+_id: 0t9n7NSBA3OXuyqR
+_key: '!items!0t9n7NSBA3OXuyqR'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/False_Sensory_Input
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: False Sensory Input
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: round
+      duration:
+        concentration: true
+        dismiss: true
+        units: conc
+        value: up to 1 min./level (D)
+      name: Use
+      range:
+        units: long
+        value: Long (400 ft. + 40 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>You&nbsp;have&nbsp;a&nbsp;limited&nbsp;ability&nbsp;to&nbsp;falsify&nbsp;one&nbsp;of&nbsp;the&nbsp;subject's&nbsp;senses.&nbsp;The&nbsp;subject&nbsp;thinks&nbsp;she&nbsp;sees,&nbsp;hears,&nbsp;smells,&nbsp;tastes,&nbsp;or&nbsp;feels&nbsp;something&nbsp;other&nbsp;than&nbsp;what&nbsp;her&nbsp;senses&nbsp;actually&nbsp;report.&nbsp;You&nbsp;can't&nbsp;create&nbsp;a&nbsp;sensation&nbsp;where&nbsp;none&nbsp;exists,&nbsp;nor&nbsp;make&nbsp;the&nbsp;subject&nbsp;completely&nbsp;oblivious&nbsp;to&nbsp;a&nbsp;sensation,&nbsp;but&nbsp;you&nbsp;can&nbsp;replace&nbsp;the&nbsp;specifics&nbsp;of&nbsp;one&nbsp;sensation&nbsp;with&nbsp;different&nbsp;specifics.&nbsp;For&nbsp;instance,&nbsp;you&nbsp;could&nbsp;make&nbsp;a&nbsp;human&nbsp;look&nbsp;like&nbsp;a&nbsp;dwarf&nbsp;(or&nbsp;one&nbsp;human&nbsp;look&nbsp;like&nbsp;another&nbsp;specific&nbsp;human),&nbsp;a&nbsp;closed&nbsp;door&nbsp;look&nbsp;like&nbsp;it&nbsp;is&nbsp;open,&nbsp;a&nbsp;vat&nbsp;of&nbsp;acid&nbsp;smell&nbsp;like&nbsp;rose&nbsp;water,&nbsp;a&nbsp;parrot&nbsp;look&nbsp;like&nbsp;a&nbsp;bookend,&nbsp;stale&nbsp;rations&nbsp;taste&nbsp;like&nbsp;fresh&nbsp;fruit,&nbsp;a&nbsp;light&nbsp;pat&nbsp;feel&nbsp;like&nbsp;a&nbsp;dagger&nbsp;thrust,&nbsp;a&nbsp;scream&nbsp;sound&nbsp;like&nbsp;the&nbsp;howling&nbsp;wind,&nbsp;and&nbsp;so&nbsp;on.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;switch&nbsp;between&nbsp;senses&nbsp;you&nbsp;falsify&nbsp;round&nbsp;by&nbsp;round.&nbsp;You&nbsp;can't&nbsp;alter&nbsp;the&nbsp;size&nbsp;of&nbsp;an&nbsp;object&nbsp;by&nbsp;more&nbsp;than&nbsp;50%&nbsp;by&nbsp;using&nbsp;this&nbsp;power.&nbsp;Thus,&nbsp;you&nbsp;couldn't&nbsp;make&nbsp;a&nbsp;castle&nbsp;look&nbsp;like&nbsp;a&nbsp;hovel,&nbsp;but&nbsp;you&nbsp;could&nbsp;make&nbsp;it&nbsp;look&nbsp;like&nbsp;a&nbsp;different&nbsp;castle,&nbsp;or&nbsp;a&nbsp;rough&nbsp;hillock&nbsp;of&nbsp;approximately&nbsp;the&nbsp;same&nbsp;size.&nbsp;If&nbsp;this&nbsp;power&nbsp;is&nbsp;used&nbsp;to&nbsp;distract&nbsp;an&nbsp;enemy&nbsp;manifester&nbsp;who&nbsp;is&nbsp;attempting&nbsp;to&nbsp;use&nbsp;his&nbsp;powers,&nbsp;the&nbsp;enemy&nbsp;must&nbsp;make&nbsp;a&nbsp;concentration&nbsp;check&nbsp;as&nbsp;if&nbsp;being&nbsp;grappling&nbsp;or&nbsp;pinned.
+
+      </p>
+
+      <p>Because&nbsp;you&nbsp;override&nbsp;a&nbsp;victim's&nbsp;senses,&nbsp;you&nbsp;can&nbsp;fool&nbsp;a&nbsp;victim&nbsp;who&nbsp;is&nbsp;using&nbsp;true&nbsp;seeing&nbsp;or&nbsp;some&nbsp;other&nbsp;method&nbsp;of&nbsp;gathering&nbsp;information,&nbsp;assuming&nbsp;you&nbsp;know&nbsp;that&nbsp;the&nbsp;victim&nbsp;is&nbsp;actively&nbsp;using&nbsp;such&nbsp;an&nbsp;effect&nbsp;and&nbsp;you&nbsp;can&nbsp;maintain&nbsp;concentration.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;can&nbsp;affect&nbsp;an&nbsp;additional&nbsp;target.&nbsp;Any&nbsp;additional&nbsp;target&nbsp;cannot&nbsp;be&nbsp;more&nbsp;than&nbsp;15&nbsp;feet&nbsp;from&nbsp;another&nbsp;target&nbsp;of&nbsp;the&nbsp;power.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 3
+      telepath: 3
+  level: 3
+  manifestTime:
+    units: round
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 111–112
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '202'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '42'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

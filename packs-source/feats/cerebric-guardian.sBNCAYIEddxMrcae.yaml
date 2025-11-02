@@ -1,0 +1,90 @@
+_id: sBNCAYIEddxMrcae
+_key: '!items!sBNCAYIEddxMrcae'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Cerebric_Guardian
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Cerebric Guardian
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;have&nbsp;bound&nbsp;a&nbsp;powerful&nbsp;spirit&nbsp;to&nbsp;your&nbsp;psicrystal,&nbsp;gaining&nbsp;a&nbsp;servant&nbsp;that&nbsp;grows&nbsp;as&nbsp;you&nbsp;do.</em></p>
+
+      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Psicrystal_Affinity"&nbsp;title="Psicrystal&nbsp;Affinity">Psicrystal&nbsp;Affinity</a>,&nbsp;manifester&nbsp;level&nbsp;1st.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;You&nbsp;replace&nbsp;your&nbsp;psicrystal&nbsp;with&nbsp;a&nbsp;three-headed&nbsp;psionic&nbsp;guardian,&nbsp;allying&nbsp;the&nbsp;splinter&nbsp;personality&nbsp;within&nbsp;it&nbsp;with&nbsp;a&nbsp;friendly&nbsp;spirit.&nbsp;Should&nbsp;your&nbsp;cerebric&nbsp;guardian&nbsp;be&nbsp;destroyed,&nbsp;you&nbsp;gain&nbsp;a&nbsp;new&nbsp;one&nbsp;in&nbsp;24&nbsp;hours.&nbsp;A&nbsp;new&nbsp;cerebric&nbsp;guardian&nbsp;must&nbsp;have&nbsp;the&nbsp;same&nbsp;personality&nbsp;as&nbsp;the&nbsp;original,&nbsp;and&nbsp;when&nbsp;created,&nbsp;may&nbsp;choose&nbsp;an&nbsp;additional&nbsp;two&nbsp;personalities.&nbsp;Once&nbsp;each&nbsp;day,&nbsp;when&nbsp;you&nbsp;would&nbsp;normally&nbsp;recover&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;choose&nbsp;which&nbsp;of&nbsp;the&nbsp;three&nbsp;personalities&nbsp;is&nbsp;active,&nbsp;gaining&nbsp;its&nbsp;benefits&nbsp;for&nbsp;the&nbsp;day.
+
+      </p>
+
+      <p>A&nbsp;cerebric&nbsp;guardian&nbsp;is&nbsp;treated&nbsp;the&nbsp;same&nbsp;as&nbsp;a&nbsp;psicrystal&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of&nbsp;stats&nbsp;and&nbsp;advancement,&nbsp;with&nbsp;the&nbsp;following&nbsp;changes.
+
+      </p><ul><li><em>Piece&nbsp;of&nbsp;Mind&nbsp;(Ex):</em>&nbsp;A&nbsp;cerebric&nbsp;guardian&nbsp;is&nbsp;invisible&nbsp;and&nbsp;cannot&nbsp;interact&nbsp;with&nbsp;or&nbsp;be&nbsp;interacted&nbsp;with&nbsp;by&nbsp;any&nbsp;creature&nbsp;other&nbsp;than&nbsp;its&nbsp;owner.&nbsp;It&nbsp;is&nbsp;always&nbsp;treated&nbsp;as&nbsp;adjacent&nbsp;to&nbsp;its&nbsp;owner,&nbsp;and&nbsp;cannot&nbsp;be&nbsp;targeted&nbsp;by&nbsp;or&nbsp;included&nbsp;in&nbsp;any&nbsp;effect&nbsp;not&nbsp;originating&nbsp;from&nbsp;its&nbsp;owner.</li></ul>
+
+      <ul><li><em>This&nbsp;ability&nbsp;replaces&nbsp;flight.</em></li></ul>
+
+      <ul><li><em>Manifest&nbsp;Mind&nbsp;(Ps):</em>&nbsp;At&nbsp;7th&nbsp;level,&nbsp;once&nbsp;per&nbsp;day,&nbsp;you&nbsp;may&nbsp;manifest&nbsp;your&nbsp;cerebric&nbsp;guardian,&nbsp;just&nbsp;as&nbsp;if&nbsp;you&nbsp;were&nbsp;using&nbsp;astral&nbsp;construct,&nbsp;at&nbsp;a&nbsp;manifester&nbsp;level&nbsp;equal&nbsp;to&nbsp;1/2&nbsp;your&nbsp;HD.&nbsp;You&nbsp;spend&nbsp;power&nbsp;points&nbsp;to&nbsp;do&nbsp;so&nbsp;as&nbsp;normal,&nbsp;to&nbsp;a&nbsp;maximum&nbsp;of&nbsp;1/2&nbsp;your&nbsp;HD,&nbsp;but&nbsp;this&nbsp;is&nbsp;a&nbsp;supernatural&nbsp;effect&nbsp;and&nbsp;has&nbsp;a&nbsp;duration&nbsp;of&nbsp;1&nbsp;hour.&nbsp;While&nbsp;this&nbsp;astral&nbsp;construct&nbsp;exists,&nbsp;it&nbsp;counts&nbsp;as&nbsp;your&nbsp;cerebric&nbsp;guardian&nbsp;and&nbsp;can&nbsp;deliver&nbsp;touch&nbsp;powers&nbsp;for&nbsp;you,&nbsp;but&nbsp;loses&nbsp;all&nbsp;benefits&nbsp;of&nbsp;the&nbsp;piece&nbsp;of&nbsp;mind&nbsp;ability.&nbsp;If&nbsp;your&nbsp;cerebric&nbsp;guardian&nbsp;is&nbsp;destroyed&nbsp;while&nbsp;in&nbsp;this&nbsp;form,&nbsp;you&nbsp;cannot&nbsp;use&nbsp;manifest&nbsp;mind&nbsp;again&nbsp;for&nbsp;24&nbsp;hours,&nbsp;you&nbsp;lose&nbsp;power&nbsp;points&nbsp;equal&nbsp;to&nbsp;your&nbsp;character&nbsp;level&nbsp;and&nbsp;are&nbsp;stunned&nbsp;for&nbsp;one&nbsp;round.&nbsp;This&nbsp;astral&nbsp;construct&nbsp;cannot&nbsp;venture&nbsp;more&nbsp;than&nbsp;100&nbsp;feet&nbsp;from&nbsp;you&nbsp;–&nbsp;if&nbsp;it&nbsp;does&nbsp;so,&nbsp;the&nbsp;astral&nbsp;construct&nbsp;immediately&nbsp;disperses,&nbsp;returning&nbsp;your&nbsp;cerebric&nbsp;guardian&nbsp;to&nbsp;its&nbsp;original&nbsp;form.</li></ul>
+
+      <ul><li><em>This&nbsp;ability&nbsp;modifies&nbsp;deliver&nbsp;touch&nbsp;powers.</em></li></ul>
+
+      <ul><li><em>Form&nbsp;of&nbsp;Fear&nbsp;(Su):</em>&nbsp;At&nbsp;13th&nbsp;level,&nbsp;you&nbsp;may&nbsp;use&nbsp;manifest&nbsp;mind&nbsp;one&nbsp;additional&nbsp;time&nbsp;each&nbsp;day.&nbsp;When&nbsp;you&nbsp;use&nbsp;manifest&nbsp;mind,&nbsp;any&nbsp;enemy&nbsp;within&nbsp;20&nbsp;feet&nbsp;of&nbsp;the&nbsp;astral&nbsp;construct&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Will&nbsp;save&nbsp;(DC&nbsp;13&nbsp;+&nbsp;the&nbsp;primary&nbsp;manifesting&nbsp;ability&nbsp;score&nbsp;modifier&nbsp;of&nbsp;your&nbsp;highest&nbsp;level&nbsp;manifesting&nbsp;class)&nbsp;or&nbsp;be&nbsp;shaken&nbsp;for&nbsp;5&nbsp;minutes&nbsp;or&nbsp;until&nbsp;the&nbsp;cerebric&nbsp;guardian&nbsp;is&nbsp;no&nbsp;longer&nbsp;in&nbsp;astral&nbsp;construct&nbsp;form,&nbsp;whichever&nbsp;happens&nbsp;first.</li></ul>
+
+      <ul><li><em>This&nbsp;ability&nbsp;replaces&nbsp;sight&nbsp;link.</em></li></ul>
+
+      <ul><li><em>Channel&nbsp;Power&nbsp;(Sp):</em>&nbsp;This&nbsp;ability&nbsp;functions&nbsp;as&nbsp;normal,&nbsp;except&nbsp;that&nbsp;it&nbsp;only&nbsp;functions&nbsp;if&nbsp;the&nbsp;cerebric&nbsp;guardian&nbsp;is&nbsp;within&nbsp;100&nbsp;feet&nbsp;of&nbsp;you.</li></ul>
+
+      <ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Psicrystal_Affinity"&nbsp;title="Psicrystal&nbsp;Affinity">Psicrystal&nbsp;Affinity</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '15'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

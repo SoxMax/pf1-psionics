@@ -1,0 +1,80 @@
+_id: U2viNzaXIV83Adfh
+_key: '!items!U2viNzaXIV83Adfh'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Backlash
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Backlash
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: immediate
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;gain&nbsp;a&nbsp;flash&nbsp;of&nbsp;foresight,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;strike&nbsp;back&nbsp;at&nbsp;an&nbsp;enemy.&nbsp;As&nbsp;part&nbsp;of&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;you&nbsp;can&nbsp;make&nbsp;a&nbsp;full-attack&nbsp;action&nbsp;against&nbsp;a&nbsp;creature&nbsp;that&nbsp;has&nbsp;damaged&nbsp;you,&nbsp;so&nbsp;long&nbsp;as&nbsp;the&nbsp;creature&nbsp;is&nbsp;within&nbsp;range.&nbsp;However,&nbsp;this&nbsp;foresight&nbsp;overloads&nbsp;your&nbsp;senses&nbsp;after&nbsp;your&nbsp;attack,&nbsp;and&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;next&nbsp;turn,&nbsp;you&nbsp;are&nbsp;dazed.&nbsp;This&nbsp;dazed&nbsp;effect&nbsp;cannot&nbsp;be&nbsp;removed&nbsp;by&nbsp;any&nbsp;means&nbsp;except&nbsp;its&nbsp;normal&nbsp;expiration&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;next&nbsp;turn.&nbsp;You&nbsp;can&nbsp;only&nbsp;use&nbsp;this&nbsp;power&nbsp;immediately&nbsp;in&nbsp;response&nbsp;to&nbsp;being&nbsp;damaged&nbsp;by&nbsp;a&nbsp;creature&nbsp;and&nbsp;must&nbsp;target&nbsp;the&nbsp;creature&nbsp;that&nbsp;caused&nbsp;the&nbsp;damage.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;8&nbsp;power&nbsp;points,&nbsp;you&nbsp;are&nbsp;not&nbsp;dazed&nbsp;after&nbsp;making&nbsp;your&nbsp;attack.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: true
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psychic warrior: 4
+      voyager: 4
+  level: 4
+  manifestTime:
+    units: immediate
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 23–24
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '150'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '164'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,81 @@
+_id: sKDaSqBafgFDmViM
+_key: '!items!sKDaSqBafgFDmViM'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Broker
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Broker
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;gain&nbsp;temporary,&nbsp;intuitive&nbsp;insight&nbsp;into&nbsp;dealing&nbsp;equitably&nbsp;with&nbsp;others.&nbsp;Your&nbsp;next&nbsp;Diplomacy&nbsp;check&nbsp;gains&nbsp;a&nbsp;+2&nbsp;insight&nbsp;bonus.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;each&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;insight&nbsp;bonus&nbsp;to&nbsp;Diplomacy&nbsp;increases&nbsp;by&nbsp;+1.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '83'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '169'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '31'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

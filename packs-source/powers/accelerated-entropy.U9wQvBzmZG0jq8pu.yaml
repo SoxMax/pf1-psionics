@@ -1,0 +1,82 @@
+_id: U9wQvBzmZG0jq8pu
+_key: '!items!U9wQvBzmZG0jq8pu'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Accelerated_Entropy
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Accelerated Entropy
+system:
+  actions:
+    - actionType: rsak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates, see text
+        type: will
+      target:
+        value: Ray
+  description:
+    value: >-
+      <p>The&nbsp;smell&nbsp;of&nbsp;rancid,&nbsp;rotting&nbsp;vegetation&nbsp;suffuses&nbsp;the&nbsp;area&nbsp;as&nbsp;the&nbsp;object&nbsp;of&nbsp;your&nbsp;ire&nbsp;rapidly&nbsp;ages&nbsp;and&nbsp;falls&nbsp;apart.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;you&nbsp;must&nbsp;make&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;(typically&nbsp;AC&nbsp;10)&nbsp;against&nbsp;a&nbsp;single&nbsp;magical&nbsp;or&nbsp;psionic&nbsp;consumable&nbsp;item&nbsp;such&nbsp;as&nbsp;a&nbsp;potion,&nbsp;scroll,&nbsp;shard,&nbsp;or&nbsp;power&nbsp;stone.&nbsp;The&nbsp;object&nbsp;targeted&nbsp;must&nbsp;make&nbsp;a&nbsp;successful&nbsp;saving&nbsp;throw&nbsp;or&nbsp;it&nbsp;is&nbsp;immediately&nbsp;broken.&nbsp;If&nbsp;the&nbsp;item&nbsp;is&nbsp;unattended,&nbsp;use&nbsp;its&nbsp;manifester&nbsp;level&nbsp;as&nbsp;its&nbsp;Will&nbsp;saving&nbsp;throw&nbsp;bonus.&nbsp;If&nbsp;the&nbsp;item&nbsp;is&nbsp;attended,&nbsp;use&nbsp;the&nbsp;Will&nbsp;saving&nbsp;throw&nbsp;bonus&nbsp;of&nbsp;the&nbsp;creature&nbsp;holding&nbsp;it.
+
+      </p>
+
+      <p>This&nbsp;power&nbsp;cannot&nbsp;be&nbsp;normally&nbsp;be&nbsp;used&nbsp;against&nbsp;items&nbsp;that&nbsp;contain&nbsp;more&nbsp;than&nbsp;one&nbsp;charge,&nbsp;such&nbsp;as&nbsp;wands&nbsp;or&nbsp;dorjes.&nbsp;In&nbsp;the&nbsp;case&nbsp;of&nbsp;items&nbsp;such&nbsp;as&nbsp;scrolls&nbsp;that&nbsp;are&nbsp;single-use&nbsp;but&nbsp;contain&nbsp;more&nbsp;than&nbsp;one&nbsp;spell&nbsp;or&nbsp;power,&nbsp;one&nbsp;randomly&nbsp;chosen&nbsp;spell&nbsp;or&nbsp;power&nbsp;can&nbsp;be&nbsp;ruined&nbsp;per&nbsp;manifestation&nbsp;of&nbsp;<em>accelerated&nbsp;entropy</em>.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;target&nbsp;a&nbsp;single,&nbsp;non-magical&nbsp;item&nbsp;weighing&nbsp;up&nbsp;to&nbsp;10&nbsp;pounds&nbsp;per&nbsp;manifester&nbsp;level.&nbsp;In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;two&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;saving&nbsp;throw&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: true
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      conduit: 1
+      cryptic: 1
+      dread: 1
+      thug: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '5'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '62'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

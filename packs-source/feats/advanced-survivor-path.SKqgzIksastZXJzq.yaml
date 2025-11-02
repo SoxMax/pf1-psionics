@@ -1,0 +1,84 @@
+_id: SKqgzIksastZXJzq
+_key: '!items!SKqgzIksastZXJzq'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Advanced_Survivor_Path
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Advanced Survivor Path
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;are&nbsp;capable&nbsp;of&nbsp;withstanding&nbsp;a&nbsp;variety&nbsp;of&nbsp;situations.</em></p>
+
+      <p><strong>Prerequisites:</strong>&nbsp;Con&nbsp;13,&nbsp;<a&nbsp;href="/wiki/Mind_Over_Body"&nbsp;title="Mind&nbsp;Over&nbsp;Body">Mind&nbsp;Over&nbsp;Body</a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Toughness">Toughness</a>,&nbsp;survivor&nbsp;path&nbsp;class&nbsp;feature,&nbsp;manifester&nbsp;level&nbsp;10th,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+6
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;When&nbsp;using&nbsp;the&nbsp;survivor&nbsp;trance,&nbsp;you&nbsp;gain&nbsp;resistance&nbsp;to&nbsp;your&nbsp;active&nbsp;energy&nbsp;type.&nbsp;The&nbsp;resistance&nbsp;is&nbsp;equal&nbsp;to&nbsp;5&nbsp;for&nbsp;every&nbsp;four&nbsp;psychic&nbsp;warrior&nbsp;levels&nbsp;you&nbsp;have.&nbsp;In&nbsp;addition,&nbsp;when&nbsp;using&nbsp;the&nbsp;survivor&nbsp;maneuver,&nbsp;the&nbsp;bonus&nbsp;to&nbsp;Will&nbsp;saves&nbsp;can&nbsp;instead&nbsp;apply&nbsp;to&nbsp;Fortitude&nbsp;saves.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Mind_Over_Body"&nbsp;title="Mind&nbsp;Over&nbsp;Body">Mind&nbsp;Over&nbsp;Body</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '16'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '110'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '94'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

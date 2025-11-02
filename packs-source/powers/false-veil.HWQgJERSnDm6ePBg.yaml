@@ -1,0 +1,75 @@
+_id: HWQgJERSnDm6ePBg
+_key: '!items!HWQgJERSnDm6ePBg'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/False_Veil
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: False Veil
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: hour
+        value: '@cl'
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates (harmless)
+        harmless: true
+        type: will
+      target:
+        value: Creature touched
+  description:
+    value: >-
+      <p>You&nbsp;draw&nbsp;upon&nbsp;the&nbsp;proto-magics&nbsp;of&nbsp;akasha&nbsp;to&nbsp;weave&nbsp;an&nbsp;extremely&nbsp;minor&nbsp;<a&nbsp;href="/wiki/Veil"&nbsp;title="Veil">veil</a>&nbsp;on&nbsp;the&nbsp;target.&nbsp;This&nbsp;veil&nbsp;doesn't&nbsp;do&nbsp;anything&nbsp;in&nbsp;particular,&nbsp;but&nbsp;can&nbsp;be&nbsp;formed&nbsp;on&nbsp;any&nbsp;open&nbsp;chakra&nbsp;and&nbsp;can&nbsp;look&nbsp;like&nbsp;whatever&nbsp;the&nbsp;caster&nbsp;desires&nbsp;(including&nbsp;other&nbsp;appropriate&nbsp;veils).&nbsp;It&nbsp;can&nbsp;be&nbsp;readily&nbsp;identified&nbsp;as&nbsp;a&nbsp;veil&nbsp;as&nbsp;normal,&nbsp;but&nbsp;noticing&nbsp;that&nbsp;it&nbsp;isn't&nbsp;a&nbsp;fully&nbsp;operational&nbsp;one&nbsp;takes&nbsp;an&nbsp;appropriate&nbsp;Knowledge&nbsp;check&nbsp;(DC&nbsp;25).&nbsp;This&nbsp;veil&nbsp;can&nbsp;be&nbsp;invested&nbsp;with&nbsp;essence&nbsp;by&nbsp;the&nbsp;person&nbsp;it&nbsp;is&nbsp;formed&nbsp;on,&nbsp;just&nbsp;like&nbsp;any&nbsp;other.&nbsp;Essence&nbsp;invested&nbsp;this&nbsp;way&nbsp;makes&nbsp;the&nbsp;veil&nbsp;appear&nbsp;more&nbsp;solid,&nbsp;with&nbsp;much&nbsp;more&nbsp;dramatic&nbsp;energies&nbsp;swirling,&nbsp;sparking,&nbsp;or&nbsp;showering&nbsp;from&nbsp;it.&nbsp;This&nbsp;increases&nbsp;the&nbsp;DC&nbsp;to&nbsp;identify&nbsp;that&nbsp;it&nbsp;is&nbsp;not&nbsp;functional&nbsp;by&nbsp;+2&nbsp;per&nbsp;point&nbsp;of&nbsp;essence&nbsp;invested.&nbsp;It&nbsp;cannot&nbsp;be&nbsp;bound.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;increase&nbsp;the&nbsp;range&nbsp;of&nbsp;this&nbsp;power&nbsp;by&nbsp;one&nbsp;category&nbsp;(touch&nbsp;to&nbsp;close,&nbsp;close&nbsp;to&nbsp;medium,&nbsp;and&nbsp;medium&nbsp;to&nbsp;long).
+
+      </p>
+  discipline: metacreativity
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 1
+      psion: 1
+      tactician: 1
+      thug: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '8'
+      publisher: Dreamscarred Press
+      title: 'April Augmented: 2017'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

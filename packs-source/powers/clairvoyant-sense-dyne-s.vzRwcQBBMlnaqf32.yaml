@@ -1,0 +1,88 @@
+_id: vzRwcQBBMlnaqf32
+_key: '!items!vzRwcQBBMlnaqf32'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Clairvoyant_Sense,_Dyne's
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Clairvoyant Sense, Dyne's
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: line
+        units: ft
+        value: '10'
+      duration:
+        dismiss: true
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: ft
+        value: See text
+      save:
+        description: None
+      target:
+        value: Psionic sensor
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;see&nbsp;and&nbsp;hear&nbsp;a&nbsp;distant&nbsp;location&nbsp;almost&nbsp;as&nbsp;if&nbsp;you&nbsp;were&nbsp;there.&nbsp;You&nbsp;don't&nbsp;need&nbsp;line&nbsp;of&nbsp;sight&nbsp;or&nbsp;line&nbsp;of&nbsp;effect,&nbsp;but&nbsp;the&nbsp;locale&nbsp;must&nbsp;be&nbsp;known—a&nbsp;place&nbsp;familiar&nbsp;to&nbsp;you&nbsp;or&nbsp;an&nbsp;obvious&nbsp;one,&nbsp;such&nbsp;as&nbsp;behind&nbsp;a&nbsp;door,&nbsp;around&nbsp;a&nbsp;corner,&nbsp;or&nbsp;in&nbsp;a&nbsp;grove&nbsp;of&nbsp;trees.&nbsp;Once&nbsp;you&nbsp;have&nbsp;selected&nbsp;the&nbsp;locale,&nbsp;the&nbsp;focus&nbsp;of&nbsp;your&nbsp;clairvoyant&nbsp;sense&nbsp;doesn't&nbsp;move,&nbsp;but&nbsp;you&nbsp;can&nbsp;rotate&nbsp;it&nbsp;in&nbsp;all&nbsp;directions&nbsp;to&nbsp;view&nbsp;the&nbsp;area&nbsp;as&nbsp;desired.&nbsp;Unlike&nbsp;other&nbsp;scrying&nbsp;powers,&nbsp;this&nbsp;power&nbsp;does&nbsp;not&nbsp;allow&nbsp;psionically&nbsp;or&nbsp;supernaturally&nbsp;enhanced&nbsp;senses&nbsp;to&nbsp;work&nbsp;through&nbsp;it.
+
+      </p>
+
+      <p>If&nbsp;the&nbsp;chosen&nbsp;locale&nbsp;is&nbsp;magically&nbsp;or&nbsp;psionically&nbsp;dark,&nbsp;you&nbsp;see&nbsp;nothing.&nbsp;If&nbsp;it&nbsp;is&nbsp;naturally&nbsp;pitch&nbsp;black,&nbsp;you&nbsp;can&nbsp;see&nbsp;in&nbsp;a&nbsp;10foot&nbsp;radius&nbsp;around&nbsp;the&nbsp;center&nbsp;of&nbsp;the&nbsp;power's&nbsp;effect&nbsp;or&nbsp;out&nbsp;to&nbsp;the&nbsp;extent&nbsp;of&nbsp;your&nbsp;natural&nbsp;darkvision.&nbsp;The&nbsp;power&nbsp;does&nbsp;not&nbsp;work&nbsp;across&nbsp;planes.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      seer: 2
+      sighted seeker: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '84'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '170'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '32'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  subdiscipline:
+    - scrying
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

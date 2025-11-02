@@ -1,0 +1,87 @@
+_id: HxNvpkMF9tv0fTNB
+_key: '!items!HxNvpkMF9tv0fTNB'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Precognition
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Precognition
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: spec
+        value: Up to 10 min./level, until discharged; see text
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>Precognition&nbsp;allows&nbsp;your&nbsp;mind&nbsp;to&nbsp;glimpse&nbsp;fragments&nbsp;of&nbsp;potential&nbsp;future&nbsp;events—what&nbsp;you&nbsp;see&nbsp;will&nbsp;probably&nbsp;happen&nbsp;if&nbsp;no&nbsp;one&nbsp;takes&nbsp;action&nbsp;to&nbsp;change&nbsp;it.&nbsp;However,&nbsp;your&nbsp;vision&nbsp;is&nbsp;incomplete,&nbsp;and&nbsp;it&nbsp;makes&nbsp;no&nbsp;real&nbsp;sense&nbsp;until&nbsp;the&nbsp;actual&nbsp;events&nbsp;you&nbsp;glimpsed&nbsp;begin&nbsp;to&nbsp;unfold.&nbsp;That's&nbsp;when&nbsp;everything&nbsp;begins&nbsp;to&nbsp;come&nbsp;together,&nbsp;and&nbsp;you&nbsp;can&nbsp;act,&nbsp;if&nbsp;you&nbsp;act&nbsp;swiftly,&nbsp;on&nbsp;the&nbsp;information&nbsp;you&nbsp;previously&nbsp;received&nbsp;when&nbsp;you&nbsp;manifested&nbsp;this&nbsp;power.
+
+      </p>
+
+      <p>In&nbsp;practice,&nbsp;manifesting&nbsp;this&nbsp;power&nbsp;grants&nbsp;you&nbsp;a&nbsp;"precognitive&nbsp;edge."&nbsp;Normally,&nbsp;you&nbsp;can&nbsp;have&nbsp;only&nbsp;a&nbsp;single&nbsp;precognitive&nbsp;edge&nbsp;at&nbsp;one&nbsp;time.&nbsp;You&nbsp;must&nbsp;use&nbsp;your&nbsp;edge&nbsp;within&nbsp;a&nbsp;period&nbsp;of&nbsp;no&nbsp;more&nbsp;than&nbsp;10&nbsp;minutes&nbsp;per&nbsp;level,&nbsp;at&nbsp;which&nbsp;time&nbsp;your&nbsp;preknowledge&nbsp;fades&nbsp;and&nbsp;you&nbsp;lose&nbsp;your&nbsp;edge.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;use&nbsp;your&nbsp;precognitive&nbsp;edge&nbsp;in&nbsp;a&nbsp;variety&nbsp;of&nbsp;ways.&nbsp;Essentially,&nbsp;the&nbsp;edge&nbsp;translates&nbsp;into&nbsp;a&nbsp;+2&nbsp;insight&nbsp;bonus&nbsp;that&nbsp;you&nbsp;can&nbsp;apply&nbsp;at&nbsp;any&nbsp;time&nbsp;to&nbsp;either&nbsp;an&nbsp;attack&nbsp;roll,&nbsp;a&nbsp;damage&nbsp;roll,&nbsp;a&nbsp;saving&nbsp;throw,&nbsp;or&nbsp;a&nbsp;skill&nbsp;check.&nbsp;You&nbsp;can&nbsp;elect&nbsp;to&nbsp;apply&nbsp;the&nbsp;bonus&nbsp;to&nbsp;the&nbsp;roll&nbsp;after&nbsp;you&nbsp;determine&nbsp;that&nbsp;your&nbsp;unmodified&nbsp;roll&nbsp;is&nbsp;lower&nbsp;than&nbsp;desired.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 1
+      seer: 1
+      sighted seeker: 1
+      tactician: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 133–134
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '229'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '50'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

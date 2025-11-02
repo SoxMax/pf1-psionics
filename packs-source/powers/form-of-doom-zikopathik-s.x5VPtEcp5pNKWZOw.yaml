@@ -1,0 +1,102 @@
+_id: x5VPtEcp5pNKWZOw
+_key: '!items!x5VPtEcp5pNKWZOw'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Form_of_Doom,_Zikopathik's
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Form of Doom, Zikopathik's
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      damage:
+        parts:
+          - - 2d8
+            - untyped
+      duration:
+        dismiss: true
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal; see text
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;wrench&nbsp;from&nbsp;your&nbsp;subconscious&nbsp;a&nbsp;terrifying&nbsp;visage&nbsp;of&nbsp;deadly&nbsp;hunger&nbsp;and&nbsp;become&nbsp;one&nbsp;with&nbsp;it.&nbsp;You&nbsp;are&nbsp;transformed&nbsp;into&nbsp;a&nbsp;nightmarish&nbsp;version&nbsp;of&nbsp;yourself,&nbsp;complete&nbsp;with&nbsp;an&nbsp;ooze-sleek&nbsp;skin&nbsp;coating,&nbsp;lashing&nbsp;tentacles,&nbsp;and&nbsp;a&nbsp;frightinducing&nbsp;countenance.&nbsp;You&nbsp;effectively&nbsp;gain&nbsp;a&nbsp;+10&nbsp;bonus&nbsp;on&nbsp;Disguise&nbsp;checks&nbsp;to&nbsp;hide&nbsp;your&nbsp;identity&nbsp;and&nbsp;instead&nbsp;appear&nbsp;as&nbsp;a&nbsp;horrific&nbsp;monster,&nbsp;though&nbsp;you&nbsp;retain&nbsp;your&nbsp;basic&nbsp;shape&nbsp;and&nbsp;can&nbsp;continue&nbsp;to&nbsp;use&nbsp;your&nbsp;equipment.&nbsp;While&nbsp;using&nbsp;this&nbsp;power,&nbsp;you&nbsp;cannot&nbsp;impersonate&nbsp;a&nbsp;specific&nbsp;individual.
+
+      </p>
+
+      <p>You&nbsp;gain&nbsp;the&nbsp;frightful&nbsp;presence&nbsp;extraordinary&nbsp;ability,&nbsp;which&nbsp;takes&nbsp;effect&nbsp;automatically&nbsp;when&nbsp;you&nbsp;charge&nbsp;a&nbsp;foe.&nbsp;Opponents&nbsp;within&nbsp;30&nbsp;feet&nbsp;of&nbsp;you&nbsp;that&nbsp;have&nbsp;fewer&nbsp;Hit&nbsp;Dice&nbsp;or&nbsp;levels&nbsp;than&nbsp;you&nbsp;and&nbsp;that&nbsp;witness&nbsp;your&nbsp;charge&nbsp;become&nbsp;shaken&nbsp;for&nbsp;5d6&nbsp;rounds&nbsp;if&nbsp;they&nbsp;fail&nbsp;a&nbsp;Will&nbsp;save&nbsp;(DC&nbsp;16&nbsp;+&nbsp;your&nbsp;Cha&nbsp;modifier).&nbsp;An&nbsp;opponent&nbsp;that&nbsp;succeeds&nbsp;on&nbsp;the&nbsp;saving&nbsp;throw&nbsp;is&nbsp;immune&nbsp;to&nbsp;your&nbsp;frightful&nbsp;presence&nbsp;for&nbsp;24&nbsp;hours.&nbsp;Frightful&nbsp;presence&nbsp;is&nbsp;a&nbsp;mind-affecting&nbsp;fear&nbsp;effect.
+
+      </p>
+
+      <p>Your&nbsp;horrific&nbsp;form&nbsp;grants&nbsp;you&nbsp;a&nbsp;natural&nbsp;armor&nbsp;bonus&nbsp;of&nbsp;+5,&nbsp;damage&nbsp;reduction&nbsp;5/–,&nbsp;and&nbsp;a&nbsp;+4&nbsp;bonus&nbsp;to&nbsp;your&nbsp;Strength&nbsp;score.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;gain&nbsp;+10&nbsp;feet&nbsp;to&nbsp;your&nbsp;land&nbsp;speed&nbsp;as&nbsp;well&nbsp;as&nbsp;a&nbsp;+10&nbsp;bonus&nbsp;on&nbsp;Climb&nbsp;checks&nbsp;and&nbsp;Acrobatic&nbsp;checks&nbsp;made&nbsp;to&nbsp;jump.
+
+      </p>
+
+      <p>A&nbsp;nest&nbsp;of&nbsp;violently&nbsp;flailing&nbsp;black&nbsp;tentacles&nbsp;sprout&nbsp;from&nbsp;your&nbsp;hair&nbsp;and&nbsp;back.&nbsp;You&nbsp;can&nbsp;make&nbsp;up&nbsp;to&nbsp;four&nbsp;additional&nbsp;attacks&nbsp;with&nbsp;these&nbsp;tentacles&nbsp;in&nbsp;addition&nbsp;to&nbsp;your&nbsp;regular&nbsp;melee&nbsp;attacks&nbsp;in&nbsp;each&nbsp;round&nbsp;that&nbsp;you&nbsp;take&nbsp;a&nbsp;full&nbsp;attack&nbsp;action.&nbsp;You&nbsp;can&nbsp;make&nbsp;tentacle&nbsp;attacks&nbsp;within&nbsp;the&nbsp;space&nbsp;you&nbsp;normally&nbsp;threaten.&nbsp;If&nbsp;you&nbsp;make&nbsp;your&nbsp;tentacle&nbsp;attacks&nbsp;in&nbsp;addition&nbsp;to&nbsp;you&nbsp;regular&nbsp;melee&nbsp;attacks,&nbsp;each&nbsp;tentacle&nbsp;attacks&nbsp;at&nbsp;your&nbsp;highest&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;with&nbsp;a&nbsp;–5&nbsp;penalty.&nbsp;If&nbsp;you&nbsp;forgo&nbsp;all&nbsp;your&nbsp;other&nbsp;attacks,&nbsp;making&nbsp;only&nbsp;tentacle&nbsp;attacks,&nbsp;you&nbsp;make&nbsp;your&nbsp;tentacle&nbsp;attacks&nbsp;at&nbsp;your&nbsp;highest&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;with&nbsp;no&nbsp;penalty.&nbsp;These&nbsp;tentacles&nbsp;deal&nbsp;2d8&nbsp;points&nbsp;of&nbsp;damage&nbsp;plus&nbsp;one-half&nbsp;your&nbsp;Strength&nbsp;bonus&nbsp;on&nbsp;each&nbsp;successful&nbsp;strike.
+
+      </p>
+
+      <p>This&nbsp;power&nbsp;functions&nbsp;only&nbsp;while&nbsp;you&nbsp;inhabit&nbsp;your&nbsp;base&nbsp;form&nbsp;(for&nbsp;instance,&nbsp;you&nbsp;can't&nbsp;be&nbsp;metamorphed&nbsp;or&nbsp;polymorphed&nbsp;into&nbsp;another&nbsp;form,&nbsp;though&nbsp;you&nbsp;can&nbsp;use&nbsp;claws&nbsp;of&nbsp;the&nbsp;beast,&nbsp;and&nbsp;Karak's&nbsp;bite&nbsp;of&nbsp;the&nbsp;wolf&nbsp;in&nbsp;conjunction&nbsp;with&nbsp;this&nbsp;power&nbsp;for&nbsp;your&nbsp;regular&nbsp;attacks),&nbsp;and&nbsp;while&nbsp;your&nbsp;mind&nbsp;resides&nbsp;within&nbsp;your&nbsp;own&nbsp;body.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;duration&nbsp;increases&nbsp;by&nbsp;2&nbsp;rounds.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 6
+      psychic warrior: 6
+  level: 6
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 114–115
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 205–206
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '43'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

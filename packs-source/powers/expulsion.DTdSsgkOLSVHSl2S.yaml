@@ -1,0 +1,78 @@
+_id: DTdSsgkOLSVHSl2S
+_key: '!items!DTdSsgkOLSVHSl2S'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Expulsion
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Expulsion
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One extraplanar creature
+  description:
+    value: >-
+      <p>You&nbsp;force&nbsp;an&nbsp;extraplanar&nbsp;creature&nbsp;back&nbsp;to&nbsp;its&nbsp;proper&nbsp;plane&nbsp;if&nbsp;it&nbsp;fails&nbsp;a&nbsp;Will&nbsp;save.&nbsp;If&nbsp;the&nbsp;manifestation&nbsp;is&nbsp;successful,&nbsp;the&nbsp;creature&nbsp;is&nbsp;instantly&nbsp;whisked&nbsp;away,&nbsp;but&nbsp;there&nbsp;is&nbsp;a&nbsp;20%&nbsp;chance&nbsp;of&nbsp;actually&nbsp;sending&nbsp;the&nbsp;subject&nbsp;to&nbsp;a&nbsp;plane&nbsp;other&nbsp;than&nbsp;its&nbsp;own.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      nomad: 4
+      voyager: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '111'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '202'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '42'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

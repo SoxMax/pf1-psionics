@@ -1,0 +1,85 @@
+_id: ZeTWOIUGORKEs70E
+_key: '!items!ZeTWOIUGORKEs70E'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Telekinetic_Maneuver
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+name: Telekinetic Maneuver
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        concentration: true
+        units: conc
+        value: up to 1 round/level
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        description: None
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;affect&nbsp;a&nbsp;foe&nbsp;by&nbsp;concentrating&nbsp;your&nbsp;mind&nbsp;upon&nbsp;its&nbsp;current&nbsp;status&nbsp;and&nbsp;the&nbsp;status&nbsp;you&nbsp;desire,&nbsp;once&nbsp;per&nbsp;round.&nbsp;You&nbsp;can&nbsp;perform&nbsp;a&nbsp;bull&nbsp;rush,&nbsp;a&nbsp;disarm,&nbsp;a&nbsp;grapple&nbsp;(including&nbsp;a&nbsp;pin),&nbsp;or&nbsp;a&nbsp;trip.&nbsp;Resolve&nbsp;these&nbsp;attempts&nbsp;as&nbsp;normal,&nbsp;except&nbsp;that&nbsp;they&nbsp;don't&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity,&nbsp;you&nbsp;use&nbsp;your&nbsp;manifester&nbsp;level&nbsp;in&nbsp;place&nbsp;of&nbsp;your&nbsp;base&nbsp;attack&nbsp;bonus,&nbsp;you&nbsp;use&nbsp;your&nbsp;key&nbsp;ability&nbsp;modifier&nbsp;in&nbsp;place&nbsp;of&nbsp;your&nbsp;Strength&nbsp;modifier&nbsp;or&nbsp;Dexterity&nbsp;modifier,&nbsp;and&nbsp;a&nbsp;failed&nbsp;attempt&nbsp;doesn't&nbsp;result&nbsp;in&nbsp;you&nbsp;being&nbsp;disarmed&nbsp;or&nbsp;knocked&nbsp;prone&nbsp;(if&nbsp;attempting&nbsp;a&nbsp;disarm&nbsp;or&nbsp;trip).&nbsp;No&nbsp;save&nbsp;is&nbsp;allowed&nbsp;against&nbsp;these&nbsp;attempts,&nbsp;but&nbsp;power&nbsp;resistance&nbsp;applies&nbsp;normally.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;grants&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;on&nbsp;your&nbsp;CMB.
+
+      </p>
+  descriptors:
+    - force
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 4
+      psion: 4
+      wilder: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 148–149
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '250'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '57'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

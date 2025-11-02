@@ -1,0 +1,92 @@
+{
+  "TYPES": {
+    "Item": {
+      "pf1-psionics": {
+        "power": "Power"
+      }
+    }
+  },
+  "PF1-Psionics": {
+    "AutoLevelPowerPoints": "Auto Calculate Power Points",
+    "AutoAttributePowerPoints": "Ability Score Bonus Points",
+    "RequiresAutoLevelPowerPoints": "Requires auto power points to be enabled.",
+    "AutoMaxPowerLevel": "Auto Calculate Maximum Power Level",
+    "HasCantrips": "Has Knacks",
+    "Browse": "Browse Powers",
+    "Skills": {
+      "kps": "Knowledge (Psionics)",
+      "ahp": "Autohypnosis"
+    },
+    "CreatureSubTypes": {
+      "Psionic": "Psionic"
+    },
+    "Trait": {
+      "Psionic": "Psionic"
+    },
+    "TabName": "Psionics",
+    "Powers": {
+      "NewPower": "New Power",
+      "Display": {
+        "Plural": "Displays",
+        "Auditory": "Auditory",
+        "Material": "Material",
+        "Mental": "Mental",
+        "Olfactory": "Olfactory",
+        "Visual": "Visual"
+      },
+      "Level": "Power level",
+      "Levels": {
+        "0": "Knacks",
+        "1": "1st Level",
+        "2": "2nd Level",
+        "3": "3rd Level",
+        "4": "4th Level",
+        "5": "5th Level",
+        "6": "6th Level",
+        "7": "7th Level",
+        "8": "8th Level",
+        "9": "9th Level",
+        "Mismatch": "Powers over maximum level known"
+      }
+    },
+    "Discipline": {
+      "Singular": "Psionic Discipline",
+      "Plural": "Psionic Disciplines",
+      "Athanatism": "Athanatism",
+      "Clairsentience": "Clairsentience",
+      "Metacreativity": "Metacreativity",
+      "Psychokinesis": "Psychokinesis",
+      "Psychometabolism": "Psychometabolism",
+      "Psychoportation": "Psychoportation",
+      "Telepathy": "Telepathy"
+    },
+    "Spellbooks": {
+      "Spelllike": "Psi-like"
+    },
+    "Charges": {
+      "Plural": "Uses",
+      "Current": "Uses left"
+    },
+    "Class": {
+      "Manifestor": "Manifestor",
+      "ManifestingHeader": "Psionic Manifesting"
+    },
+    "Focus": {
+      "Plural": "Psionic Focuses",
+      "Current": "Current",
+      "Maximum": "Maximum"
+    },
+    "PowerPoints": {
+      "Plural": "Power Points",
+      "Current": "Current",
+      "Maximum": "Maximum",
+      "Temporary": "Temporary",
+      "Formula": "Power Point Maximum",
+      "Cost": "Power Point Cost",
+      "Offset": "Power Point Offset"
+    },
+    "Error": {
+      "PowerCostTooHigh": "Power point cost exceeds current manifestor level."
+    }
+  }
+}

@@ -1,0 +1,76 @@
+_id: zSQpbk2ush12FMoz
+_key: '!items!zSQpbk2ush12FMoz'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Split-Headed_Lash
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Split-Headed Lash
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>The&nbsp;pyrokineticist&nbsp;has&nbsp;learned&nbsp;to&nbsp;split&nbsp;her&nbsp;focus&nbsp;and&nbsp;attack&nbsp;multiple&nbsp;targets&nbsp;at&nbsp;once.</em></p>
+
+      <p><strong>Prerequisites:</strong>&nbsp;Fire&nbsp;lash&nbsp;class&nbsp;feature,&nbsp;Knowledge&nbsp;(psionics)&nbsp;10&nbsp;ranks,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point%20Blank%20Shot">Point&nbsp;Blank&nbsp;Shot</a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Precise%20Shot">Precise&nbsp;Shot</a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Weapon%20Focus">Weapon&nbsp;Focus</a>&nbsp;(whip)
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;By&nbsp;expending&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;part&nbsp;of&nbsp;a&nbsp;full&nbsp;attack,&nbsp;you&nbsp;can&nbsp;split&nbsp;you&nbsp;fire&nbsp;lash&nbsp;into&nbsp;two&nbsp;separate&nbsp;heads&nbsp;for&nbsp;the&nbsp;first&nbsp;attack.&nbsp;The&nbsp;fire&nbsp;lash&nbsp;returns&nbsp;to&nbsp;normal&nbsp;for&nbsp;the&nbsp;remaining&nbsp;attacks.&nbsp;Each&nbsp;head’s&nbsp;attack&nbsp;is&nbsp;rolled&nbsp;separately&nbsp;and&nbsp;need&nbsp;not&nbsp;be&nbsp;at&nbsp;the&nbsp;same&nbsp;target.&nbsp;If&nbsp;attacking&nbsp;multiple&nbsp;targets,&nbsp;these&nbsp;targets&nbsp;must&nbsp;be&nbsp;within&nbsp;10&nbsp;ft.&nbsp;of&nbsp;each&nbsp;other&nbsp;and&nbsp;both&nbsp;must&nbsp;be&nbsp;within&nbsp;15&nbsp;ft.&nbsp;of&nbsp;the&nbsp;pyrokineticist.&nbsp;Any&nbsp;extra&nbsp;damage&nbsp;dice&nbsp;that&nbsp;would&nbsp;have&nbsp;applied&nbsp;to&nbsp;the&nbsp;fire&nbsp;lash&nbsp;attack&nbsp;are&nbsp;applied&nbsp;to&nbsp;both&nbsp;heads,&nbsp;including&nbsp;damage&nbsp;from&nbsp;sources&nbsp;such&nbsp;as&nbsp;sneak&nbsp;attack&nbsp;and&nbsp;psychic&nbsp;strike.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '41'
+      publisher: Dreamscarred Press
+      title: Psionics Augmented
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '117'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

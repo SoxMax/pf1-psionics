@@ -1,0 +1,80 @@
+_id: c9GSotjQNAWm7SxS
+_key: '!items!c9GSotjQNAWm7SxS'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Feast_of_Folly
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Feast of Folly
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;can&nbsp;burn&nbsp;your&nbsp;mind&nbsp;and&nbsp;soul&nbsp;to&nbsp;preserve&nbsp;your&nbsp;life.</em></p>
+
+      <p><strong>Benefit:</strong>&nbsp;As&nbsp;a&nbsp;free&nbsp;action,&nbsp;when&nbsp;you&nbsp;are&nbsp;reduced&nbsp;to&nbsp;0&nbsp;or&nbsp;fewer&nbsp;hit&nbsp;points,&nbsp;you&nbsp;can&nbsp;heal&nbsp;1&nbsp;hit&nbsp;point&nbsp;by&nbsp;taking&nbsp;1&nbsp;ability&nbsp;burn&nbsp;damage&nbsp;to&nbsp;one&nbsp;of&nbsp;your&nbsp;three&nbsp;mental&nbsp;ability&nbsp;scores:&nbsp;Intelligence,&nbsp;Wisdom,&nbsp;and&nbsp;Charisma.&nbsp;For&nbsp;example,&nbsp;you&nbsp;may&nbsp;heal&nbsp;1&nbsp;hit&nbsp;point&nbsp;by&nbsp;taking&nbsp;1&nbsp;point&nbsp;of&nbsp;ability&nbsp;burn&nbsp;to&nbsp;your&nbsp;Intelligence.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;recover&nbsp;additional&nbsp;hit&nbsp;points&nbsp;for&nbsp;a&nbsp;proportional&nbsp;cost&nbsp;to&nbsp;Intelligence,&nbsp;Wisdom,&nbsp;or&nbsp;Charisma.&nbsp;If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when&nbsp;you&nbsp;use&nbsp;Feast&nbsp;of&nbsp;Folly,&nbsp;you&nbsp;heal&nbsp;2&nbsp;hit&nbsp;points&nbsp;for&nbsp;each&nbsp;point&nbsp;of&nbsp;ability&nbsp;burn&nbsp;you&nbsp;take.&nbsp;The&nbsp;amount&nbsp;you&nbsp;can&nbsp;heal&nbsp;this&nbsp;way&nbsp;in&nbsp;one&nbsp;use&nbsp;of&nbsp;Feast&nbsp;of&nbsp;Folly&nbsp;can&nbsp;not&nbsp;be&nbsp;higher&nbsp;than&nbsp;your&nbsp;HD&nbsp;and&nbsp;you&nbsp;cannot&nbsp;use&nbsp;this&nbsp;feat&nbsp;more&nbsp;than&nbsp;once&nbsp;per&nbsp;round.
+
+      </p>
+
+      <p>For&nbsp;example,&nbsp;Telthor&nbsp;is&nbsp;reduced&nbsp;to&nbsp;-5&nbsp;hp.&nbsp;He&nbsp;decides&nbsp;to&nbsp;take&nbsp;5&nbsp;points&nbsp;of&nbsp;ability&nbsp;burn&nbsp;and&nbsp;expends&nbsp;his&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;heal&nbsp;10&nbsp;hit&nbsp;points.&nbsp;He&nbsp;then&nbsp;takes&nbsp;3&nbsp;points&nbsp;of&nbsp;Intelligence&nbsp;burn&nbsp;and&nbsp;2&nbsp;points&nbsp;of&nbsp;Charisma&nbsp;burn,&nbsp;leaving&nbsp;his&nbsp;Wisdom&nbsp;untouched.
+
+      </p>
+
+      <p><strong>Special:</strong>&nbsp;Only&nbsp;intelligent,&nbsp;sentient&nbsp;creatures&nbsp;can&nbsp;use&nbsp;this&nbsp;feat.&nbsp;Any&nbsp;creature&nbsp;immune&nbsp;to&nbsp;ability&nbsp;damage&nbsp;or&nbsp;ability&nbsp;burn&nbsp;is&nbsp;unable&nbsp;to&nbsp;benefit&nbsp;from&nbsp;this&nbsp;feat.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Spirit_Feast"&nbsp;title="Spirit&nbsp;Feast">Spirit&nbsp;Feast</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 15–16
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

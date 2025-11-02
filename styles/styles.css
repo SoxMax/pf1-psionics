@@ -1,0 +1,7 @@
+.psionics-resources {
+  display: flex;
+  flex-flow: row;
+  gap: 3px;
+
+  flex: 0;
+}

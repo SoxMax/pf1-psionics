@@ -1,0 +1,70 @@
+_id: gBBSQpXkIPTcffuO
+_key: '!items!gBBSQpXkIPTcffuO'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Focused_Swiftness
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Focused Swiftness
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;imbue&nbsp;your&nbsp;body&nbsp;with&nbsp;the&nbsp;essence&nbsp;of&nbsp;speed,&nbsp;psionically&nbsp;enhancing&nbsp;your&nbsp;movements.</em></p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;psionically&nbsp;focus&nbsp;your&nbsp;body&nbsp;in&nbsp;the&nbsp;same&nbsp;manner&nbsp;in&nbsp;which&nbsp;you&nbsp;gain&nbsp;psionic&nbsp;focus&nbsp;normally.&nbsp;At&nbsp;any&nbsp;time&nbsp;when&nbsp;you&nbsp;need&nbsp;to&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;on&nbsp;an&nbsp;ability&nbsp;that&nbsp;is&nbsp;normally&nbsp;taken&nbsp;during&nbsp;movement&nbsp;or&nbsp;would&nbsp;change&nbsp;your&nbsp;location&nbsp;(including&nbsp;both&nbsp;movement&nbsp;and&nbsp;teleportation),&nbsp;you&nbsp;can&nbsp;expend&nbsp;this&nbsp;psionic&nbsp;focus&nbsp;instead.&nbsp;At&nbsp;any&nbsp;time&nbsp;when&nbsp;you&nbsp;need&nbsp;to&nbsp;maintain&nbsp;psionic&nbsp;focus&nbsp;with&nbsp;such&nbsp;an&nbsp;ability,&nbsp;you&nbsp;can&nbsp;use&nbsp;this&nbsp;psionic&nbsp;focus&nbsp;instead.&nbsp;Psionically&nbsp;focusing&nbsp;with&nbsp;this&nbsp;feat&nbsp;works&nbsp;just&nbsp;like&nbsp;focusing&nbsp;your&nbsp;own&nbsp;mind.
+
+      </p>
+
+      <p><strong>Special:&nbsp;</strong>You&nbsp;cannot&nbsp;benefit&nbsp;from&nbsp;this&nbsp;feat&nbsp;at&nbsp;the&nbsp;same&nbsp;time&nbsp;as&nbsp;<a&nbsp;href="/wiki/Psicrystal_Containment"&nbsp;title="Psicrystal&nbsp;Containment">Psicrystal&nbsp;Containment</a>,&nbsp;<a&nbsp;href="/wiki/Deep_Focus"&nbsp;title="Deep&nbsp;Focus">Deep&nbsp;Focus</a>,&nbsp;or&nbsp;another&nbsp;ability&nbsp;that&nbsp;grants&nbsp;you&nbsp;an&nbsp;extra&nbsp;psionic&nbsp;focus.&nbsp;If&nbsp;you&nbsp;have&nbsp;more&nbsp;than&nbsp;one&nbsp;of&nbsp;these,&nbsp;you&nbsp;may&nbsp;only&nbsp;have&nbsp;a&nbsp;single&nbsp;additional&nbsp;psionic&nbsp;focus&nbsp;at&nbsp;any&nbsp;given&nbsp;time.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '18'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

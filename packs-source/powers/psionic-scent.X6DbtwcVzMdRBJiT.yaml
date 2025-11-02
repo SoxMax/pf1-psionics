@@ -1,0 +1,92 @@
+_id: X6DbtwcVzMdRBJiT
+_key: '!items!X6DbtwcVzMdRBJiT'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Scent
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Psionic Scent
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;gain&nbsp;an&nbsp;enhanced&nbsp;sense&nbsp;of&nbsp;smell,&nbsp;equivalent&nbsp;to&nbsp;the&nbsp;scent&nbsp;ability&nbsp;of&nbsp;some&nbsp;monsters.&nbsp;This&nbsp;ability&nbsp;allows&nbsp;you&nbsp;to&nbsp;detect&nbsp;approaching&nbsp;enemies,&nbsp;sniff&nbsp;out&nbsp;hidden&nbsp;foes,&nbsp;and&nbsp;track&nbsp;by&nbsp;sense&nbsp;of&nbsp;smell.&nbsp;With&nbsp;the&nbsp;scent&nbsp;ability,&nbsp;you&nbsp;can&nbsp;identify&nbsp;familiar&nbsp;odors&nbsp;just&nbsp;as&nbsp;humanoids&nbsp;do&nbsp;familiar&nbsp;sights.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;detect&nbsp;opponents&nbsp;within&nbsp;30&nbsp;feet&nbsp;by&nbsp;sense&nbsp;of&nbsp;smell.&nbsp;If&nbsp;the&nbsp;opponent&nbsp;is&nbsp;upwind,&nbsp;the&nbsp;range&nbsp;increases&nbsp;to&nbsp;60&nbsp;feet;&nbsp;if&nbsp;downwind,&nbsp;it&nbsp;drops&nbsp;to&nbsp;15&nbsp;feet.&nbsp;Strong&nbsp;scents,&nbsp;such&nbsp;as&nbsp;smoke&nbsp;or&nbsp;rotting&nbsp;garbage,&nbsp;can&nbsp;be&nbsp;detected&nbsp;at&nbsp;twice&nbsp;the&nbsp;ranges&nbsp;noted&nbsp;above.&nbsp;Overpowering&nbsp;scents,&nbsp;such&nbsp;as&nbsp;skunk&nbsp;musk&nbsp;or&nbsp;troglodyte&nbsp;stench,&nbsp;can&nbsp;be&nbsp;detected&nbsp;at&nbsp;triple&nbsp;normal&nbsp;range.
+
+      </p>
+
+      <p>When&nbsp;you&nbsp;detect&nbsp;a&nbsp;scent,&nbsp;the&nbsp;exact&nbsp;location&nbsp;of&nbsp;the&nbsp;source&nbsp;is&nbsp;not&nbsp;revealed—only&nbsp;its&nbsp;presence&nbsp;somewhere&nbsp;within&nbsp;range.&nbsp;You&nbsp;can&nbsp;take&nbsp;a&nbsp;move&nbsp;action&nbsp;to&nbsp;note&nbsp;the&nbsp;direction&nbsp;of&nbsp;the&nbsp;scent.&nbsp;Whenever&nbsp;you&nbsp;come&nbsp;within&nbsp;5&nbsp;feet&nbsp;of&nbsp;the&nbsp;source,&nbsp;you&nbsp;pinpoint&nbsp;the&nbsp;source's&nbsp;location.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;follow&nbsp;tracks&nbsp;by&nbsp;smell,&nbsp;making&nbsp;a&nbsp;Survival&nbsp;check&nbsp;to&nbsp;find&nbsp;or&nbsp;follow&nbsp;a&nbsp;track.&nbsp;The&nbsp;typical&nbsp;DC&nbsp;for&nbsp;a&nbsp;fresh&nbsp;trail&nbsp;is&nbsp;10&nbsp;(no&nbsp;matter&nbsp;what&nbsp;kind&nbsp;of&nbsp;surface&nbsp;holds&nbsp;the&nbsp;scent).&nbsp;This&nbsp;DC&nbsp;increases&nbsp;or&nbsp;decreases&nbsp;depending&nbsp;on&nbsp;how&nbsp;strong&nbsp;the&nbsp;quarry's&nbsp;odor&nbsp;is,&nbsp;the&nbsp;number&nbsp;of&nbsp;creatures,&nbsp;and&nbsp;the&nbsp;age&nbsp;of&nbsp;the&nbsp;trail.&nbsp;For&nbsp;each&nbsp;hour&nbsp;that&nbsp;the&nbsp;trail&nbsp;is&nbsp;cold,&nbsp;the&nbsp;DC&nbsp;increases&nbsp;by&nbsp;2.&nbsp;If&nbsp;you&nbsp;are&nbsp;tracking&nbsp;with&nbsp;psionic&nbsp;scent,&nbsp;you&nbsp;ignore&nbsp;the&nbsp;effects&nbsp;of&nbsp;surface&nbsp;conditions&nbsp;and&nbsp;poor&nbsp;visibility.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      gifted blade: 2
+      marksman: 2
+      psychic warrior: 2
+      thug: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '136'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '233'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '51'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

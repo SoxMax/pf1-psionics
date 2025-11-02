@@ -1,0 +1,100 @@
+_id: DjeCOTwMtfNxMHKq
+_key: '!items!DjeCOTwMtfNxMHKq'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Empathic_Transfer,_Hostile
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Empathic Transfer, Hostile
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '20'
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will half
+        type: will
+      target:
+        value: Creature touched
+  description:
+    value: >-
+      <p>You&nbsp;transfer&nbsp;your&nbsp;hurt&nbsp;to&nbsp;another.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power&nbsp;and&nbsp;then&nbsp;make&nbsp;a&nbsp;successful&nbsp;touch&nbsp;attack,&nbsp;you&nbsp;can&nbsp;transfer&nbsp;50&nbsp;points&nbsp;of&nbsp;damage&nbsp;(or&nbsp;less,&nbsp;if&nbsp;you&nbsp;choose)&nbsp;from&nbsp;yourself&nbsp;to&nbsp;the&nbsp;touched&nbsp;creature.&nbsp;The&nbsp;damage&nbsp;you&nbsp;transfer&nbsp;may&nbsp;not&nbsp;exceed&nbsp;the&nbsp;damage&nbsp;you&nbsp;currently&nbsp;have.&nbsp;You&nbsp;immediately&nbsp;regain&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;the&nbsp;amount&nbsp;of&nbsp;damage&nbsp;you&nbsp;transfer.
+
+      </p>
+
+      <p>You&nbsp;cannot&nbsp;use&nbsp;this&nbsp;power&nbsp;to&nbsp;gain&nbsp;hit&nbsp;points&nbsp;in&nbsp;excess&nbsp;of&nbsp;your&nbsp;full&nbsp;normal&nbsp;total.&nbsp;The&nbsp;transferred&nbsp;damage&nbsp;is&nbsp;empathic&nbsp;in&nbsp;nature,&nbsp;so&nbsp;powers&nbsp;and&nbsp;abilities&nbsp;the&nbsp;subject&nbsp;may&nbsp;have&nbsp;such&nbsp;as&nbsp;damage&nbsp;reduction&nbsp;and&nbsp;regeneration&nbsp;do&nbsp;not&nbsp;lessen&nbsp;or&nbsp;change&nbsp;this&nbsp;damage.
+
+      </p>
+
+      <p>The&nbsp;damage&nbsp;transferred&nbsp;by&nbsp;this&nbsp;power&nbsp;has&nbsp;no&nbsp;type,&nbsp;so&nbsp;even&nbsp;if&nbsp;the&nbsp;subject&nbsp;has&nbsp;immunity&nbsp;to&nbsp;the&nbsp;type&nbsp;of&nbsp;damage&nbsp;you&nbsp;originally&nbsp;took,&nbsp;the&nbsp;transfer&nbsp;occurs&nbsp;normally&nbsp;and&nbsp;deals&nbsp;hit&nbsp;point&nbsp;damage&nbsp;to&nbsp;the&nbsp;subject.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;transfer&nbsp;an&nbsp;additional&nbsp;5&nbsp;points&nbsp;of&nbsp;damage&nbsp;(maximum&nbsp;70&nbsp;points&nbsp;per&nbsp;manifestation),&nbsp;although&nbsp;you&nbsp;must&nbsp;still&nbsp;have&nbsp;that&nbsp;amount&nbsp;of&nbsp;actual&nbsp;damage&nbsp;to&nbsp;transfer.</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;affects&nbsp;all&nbsp;creatures&nbsp;in&nbsp;a&nbsp;20-foot-radius&nbsp;spread&nbsp;centered&nbsp;on&nbsp;you,&nbsp;transferring&nbsp;the&nbsp;full&nbsp;amount&nbsp;of&nbsp;damage&nbsp;to&nbsp;each&nbsp;creature,&nbsp;although&nbsp;no&nbsp;matter&nbsp;how&nbsp;many&nbsp;targets&nbsp;you&nbsp;affect,&nbsp;you&nbsp;only&nbsp;heal&nbsp;the&nbsp;highest&nbsp;amount&nbsp;transferred&nbsp;to&nbsp;any&nbsp;one&nbsp;target.</li></ol>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: true
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 3
+      gambler: 3
+      psychic warrior: 3
+      tactician: 3
+      telepath: 3
+      vitalist: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 102–103
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '192'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '38'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

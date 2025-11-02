@@ -1,0 +1,83 @@
+_id: UsARtIlRzsCwBvqh
+_key: '!items!UsARtIlRzsCwBvqh'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Crystal_Light
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/light/explosion-star-glow-silhouette.webp
+name: Crystal Light
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: inst
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates (object) or Fortitude negates; see text
+        type: fort
+      target:
+        value: One crystalline creature or object
+  description:
+    value: >-
+      <p>Upon&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;you&nbsp;cause&nbsp;one&nbsp;crystalline&nbsp;creature&nbsp;or&nbsp;object&nbsp;(glass,&nbsp;crystal,&nbsp;gem,&nbsp;psicrystal,&nbsp;astral&nbsp;construct,&nbsp;etc.)&nbsp;to&nbsp;glow&nbsp;in&nbsp;one&nbsp;of&nbsp;two&nbsp;ways.&nbsp;You&nbsp;can&nbsp;cause&nbsp;it&nbsp;to&nbsp;glow&nbsp;with&nbsp;a&nbsp;steady&nbsp;light&nbsp;equivalent&nbsp;to&nbsp;a&nbsp;torch,&nbsp;in&nbsp;which&nbsp;case&nbsp;the&nbsp;duration&nbsp;lasts&nbsp;up&nbsp;to&nbsp;1&nbsp;minute&nbsp;per&nbsp;manifester&nbsp;level.&nbsp;Alternately,&nbsp;you&nbsp;can&nbsp;cause&nbsp;it&nbsp;to&nbsp;flash&nbsp;brightly&nbsp;once,&nbsp;causing&nbsp;one&nbsp;creature&nbsp;of&nbsp;your&nbsp;choice&nbsp;in&nbsp;that&nbsp;square&nbsp;or&nbsp;immediately&nbsp;adjacent&nbsp;to&nbsp;be&nbsp;dazzled&nbsp;for&nbsp;1&nbsp;minute&nbsp;unless&nbsp;it&nbsp;makes&nbsp;a&nbsp;successful&nbsp;Fortitude&nbsp;save.&nbsp;Crystalline&nbsp;creatures&nbsp;or&nbsp;objects&nbsp;which&nbsp;are&nbsp;targeted&nbsp;to&nbsp;glow&nbsp;are&nbsp;allowed&nbsp;a&nbsp;Will&nbsp;save&nbsp;to&nbsp;negate&nbsp;the&nbsp;power&nbsp;completely;&nbsp;if&nbsp;such&nbsp;is&nbsp;also&nbsp;the&nbsp;target&nbsp;of&nbsp;a&nbsp;dazzling&nbsp;flash,&nbsp;the&nbsp;creature&nbsp;being&nbsp;dazzled&nbsp;is&nbsp;also&nbsp;allowed&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;to&nbsp;avoid&nbsp;being&nbsp;dazzled.
+
+      </p>
+  descriptors:
+    - light
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 0
+      gambler: 0
+      psion: 0
+      wilder: 0
+  level: 0
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 21–22
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Unlimited Possibilities'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '153'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '178'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

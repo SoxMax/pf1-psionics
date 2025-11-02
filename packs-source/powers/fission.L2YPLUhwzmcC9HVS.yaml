@@ -1,0 +1,93 @@
+_id: L2YPLUhwzmcC9HVS
+_key: '!items!L2YPLUhwzmcC9HVS'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Fission
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Fission
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: Duplicate of yourself
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;divide&nbsp;yourself,&nbsp;creating&nbsp;a&nbsp;duplicate&nbsp;that&nbsp;comes&nbsp;into&nbsp;existence&nbsp;5&nbsp;feet&nbsp;away.&nbsp;Your&nbsp;duplicate&nbsp;thinks&nbsp;and&nbsp;acts&nbsp;exactly&nbsp;as&nbsp;you&nbsp;do&nbsp;and&nbsp;follows&nbsp;your&nbsp;orders,&nbsp;although&nbsp;it&nbsp;will&nbsp;not&nbsp;do&nbsp;anything&nbsp;you&nbsp;wouldn't&nbsp;do&nbsp;yourself.&nbsp;Your&nbsp;duplicate&nbsp;has&nbsp;all&nbsp;your&nbsp;abilities&nbsp;but&nbsp;none&nbsp;of&nbsp;your&nbsp;psionic&nbsp;or&nbsp;magical&nbsp;equipment&nbsp;(it&nbsp;does&nbsp;possess&nbsp;a&nbsp;duplicate&nbsp;of&nbsp;all&nbsp;your&nbsp;mundane&nbsp;equipment,&nbsp;clothing,&nbsp;armor,&nbsp;and&nbsp;implements,&nbsp;as&nbsp;well&nbsp;as&nbsp;mundane&nbsp;versions&nbsp;of&nbsp;any&nbsp;psionic&nbsp;or&nbsp;magical&nbsp;equipment&nbsp;you&nbsp;have).&nbsp;You&nbsp;and&nbsp;your&nbsp;duplicate&nbsp;evenly&nbsp;split&nbsp;your&nbsp;power&nbsp;points,&nbsp;your&nbsp;remaining&nbsp;usages&nbsp;of&nbsp;pertinent&nbsp;special&nbsp;abilities&nbsp;for&nbsp;the&nbsp;day,&nbsp;and&nbsp;so&nbsp;on.&nbsp;You&nbsp;retain&nbsp;your&nbsp;psionic&nbsp;focus,&nbsp;if&nbsp;you&nbsp;maintain&nbsp;such&nbsp;when&nbsp;this&nbsp;power&nbsp;is&nbsp;manifested.&nbsp;Treat&nbsp;your&nbsp;duplicate&nbsp;as&nbsp;yourself&nbsp;with&nbsp;a&nbsp;manifester&nbsp;level&nbsp;two&nbsp;lower&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of&nbsp;determining&nbsp;the&nbsp;powers&nbsp;to&nbsp;which&nbsp;the&nbsp;duplicate&nbsp;has&nbsp;access&nbsp;(while&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;lasts,&nbsp;this&nbsp;manifester&nbsp;level&nbsp;penalty&nbsp;cannot&nbsp;be&nbsp;removed&nbsp;by&nbsp;any&nbsp;means).&nbsp;Your&nbsp;duplicate&nbsp;has&nbsp;all&nbsp;other&nbsp;physical&nbsp;traits&nbsp;you&nbsp;had&nbsp;at&nbsp;the&nbsp;time&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power.&nbsp;Powers,&nbsp;spells,&nbsp;or&nbsp;other&nbsp;effects&nbsp;affecting&nbsp;you&nbsp;when&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power&nbsp;do&nbsp;not&nbsp;transfer&nbsp;to&nbsp;your&nbsp;duplicate.&nbsp;Your&nbsp;duplicate&nbsp;has&nbsp;the&nbsp;same&nbsp;number&nbsp;of&nbsp;hit&nbsp;points&nbsp;you&nbsp;did&nbsp;at&nbsp;the&nbsp;time&nbsp;this&nbsp;power&nbsp;was&nbsp;manifested.
+
+      </p>
+
+      <p>When&nbsp;the&nbsp;duration&nbsp;expires&nbsp;or&nbsp;when&nbsp;you&nbsp;dismiss&nbsp;the&nbsp;power,&nbsp;you&nbsp;and&nbsp;your&nbsp;duplicate&nbsp;rejoin,&nbsp;no&nbsp;matter&nbsp;how&nbsp;far&nbsp;from&nbsp;each&nbsp;other&nbsp;you&nbsp;are.&nbsp;You&nbsp;gain&nbsp;back&nbsp;any&nbsp;power&nbsp;points&nbsp;the&nbsp;duplicate&nbsp;has&nbsp;not&nbsp;spent.&nbsp;At&nbsp;the&nbsp;time&nbsp;of&nbsp;rejoining,&nbsp;your&nbsp;hit&nbsp;points&nbsp;become&nbsp;the&nbsp;average&nbsp;between&nbsp;the&nbsp;current&nbsp;hit&nbsp;points&nbsp;of&nbsp;you&nbsp;and&nbsp;your&nbsp;duplicate.&nbsp;This&nbsp;could&nbsp;potentially&nbsp;leave&nbsp;you&nbsp;with&nbsp;negative&nbsp;hit&nbsp;points,&nbsp;but&nbsp;it&nbsp;can't&nbsp;reduce&nbsp;your&nbsp;hit&nbsp;points&nbsp;so&nbsp;low&nbsp;as&nbsp;to&nbsp;kill&nbsp;you&nbsp;when&nbsp;the&nbsp;duration&nbsp;ends.
+
+      </p>
+
+      <p>If&nbsp;your&nbsp;duplicate&nbsp;dies&nbsp;before&nbsp;the&nbsp;duration&nbsp;expires,&nbsp;no&nbsp;rejoining&nbsp;occurs,&nbsp;and&nbsp;you&nbsp;gain&nbsp;one&nbsp;negative&nbsp;level&nbsp;and&nbsp;are&nbsp;sickened&nbsp;for&nbsp;ten&nbsp;minutes.&nbsp;If&nbsp;you&nbsp;die,&nbsp;your&nbsp;duplicate&nbsp;remains&nbsp;in&nbsp;existence&nbsp;and&nbsp;is&nbsp;sickened&nbsp;for&nbsp;ten&nbsp;minutes,&nbsp;and&nbsp;is&nbsp;for&nbsp;all&nbsp;intents&nbsp;you,&nbsp;but&nbsp;with&nbsp;two&nbsp;negative&nbsp;levels,&nbsp;and&nbsp;without&nbsp;the&nbsp;manifester&nbsp;level&nbsp;penalty.&nbsp;(Once&nbsp;the&nbsp;duration&nbsp;expires,&nbsp;the&nbsp;negative&nbsp;levels&nbsp;can&nbsp;be&nbsp;removed&nbsp;by&nbsp;standard&nbsp;means.)
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;have&nbsp;only&nbsp;one&nbsp;fissioned&nbsp;duplicate&nbsp;in&nbsp;existence&nbsp;at&nbsp;one&nbsp;time;&nbsp;your&nbsp;duplicate&nbsp;cannot&nbsp;use&nbsp;this&nbsp;power.&nbsp;You&nbsp;cannot&nbsp;use&nbsp;fusion&nbsp;or&nbsp;metaconcert&nbsp;with&nbsp;a&nbsp;duplicate,&nbsp;or&nbsp;share&nbsp;any&nbsp;other&nbsp;power&nbsp;or&nbsp;effect&nbsp;that&nbsp;pools&nbsp;abilities&nbsp;(the&nbsp;sum&nbsp;of&nbsp;you&nbsp;and&nbsp;you&nbsp;is&nbsp;still&nbsp;just&nbsp;you).&nbsp;Similarly,&nbsp;attempting&nbsp;to&nbsp;use&nbsp;powers&nbsp;such&nbsp;as&nbsp;claws&nbsp;of&nbsp;the&nbsp;vampire&nbsp;or&nbsp;vampiric&nbsp;blade&nbsp;to&nbsp;hurt&nbsp;your&nbsp;duplicate&nbsp;only&nbsp;damages&nbsp;your&nbsp;duplicate;&nbsp;these&nbsp;powers&nbsp;do&nbsp;not&nbsp;heal&nbsp;you.&nbsp;Empathic&nbsp;transfer&nbsp;and&nbsp;similar&nbsp;powers&nbsp;are&nbsp;likewise&nbsp;ineffective&nbsp;(transferring&nbsp;wounds&nbsp;to&nbsp;yourself&nbsp;isn't&nbsp;a&nbsp;good&nbsp;healing&nbsp;strategy).
+
+      </p>
+
+      <p>All&nbsp;beneficial&nbsp;powers&nbsp;affecting&nbsp;a&nbsp;fissioned&nbsp;creature,&nbsp;either&nbsp;the&nbsp;original&nbsp;or&nbsp;the&nbsp;duplicate,&nbsp;end&nbsp;when&nbsp;the&nbsp;fission&nbsp;ends.&nbsp;Any&nbsp;detrimental&nbsp;powers&nbsp;affecting&nbsp;your&nbsp;duplicate&nbsp;end&nbsp;when&nbsp;the&nbsp;duration&nbsp;ends,&nbsp;unless&nbsp;you&nbsp;die&nbsp;and&nbsp;your&nbsp;duplicate&nbsp;survives,&nbsp;in&nbsp;which&nbsp;case&nbsp;any&nbsp;detrimental&nbsp;effects&nbsp;on&nbsp;your&nbsp;duplicate&nbsp;continue.&nbsp;All&nbsp;ability&nbsp;damage,&nbsp;ability&nbsp;drain,&nbsp;and&nbsp;ability&nbsp;burn&nbsp;damage&nbsp;is&nbsp;added&nbsp;together,&nbsp;although&nbsp;as&nbsp;stated&nbsp;above,&nbsp;your&nbsp;hit&nbsp;points&nbsp;become&nbsp;the&nbsp;average&nbsp;hit&nbsp;points&nbsp;between&nbsp;you&nbsp;and&nbsp;your&nbsp;duplicate.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: true
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      egoist: 7
+  level: 7
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '113'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '204'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '43'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

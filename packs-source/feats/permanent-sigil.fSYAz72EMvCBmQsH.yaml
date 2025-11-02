@@ -1,0 +1,72 @@
+_id: fSYAz72EMvCBmQsH
+_key: '!items!fSYAz72EMvCBmQsH'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Permanent_Sigil
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Permanent Sigil
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>A&nbsp;permanent&nbsp;sigil&nbsp;on&nbsp;your&nbsp;body&nbsp;enhances&nbsp;your&nbsp;manifesting&nbsp;ability.</em></p>
+
+      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Sigilist"&nbsp;title="Sigilist">Sigilist</a>.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;have&nbsp;one&nbsp;or&nbsp;more&nbsp;scars,&nbsp;tattoos&nbsp;or&nbsp;other&nbsp;markings&nbsp;that&nbsp;are&nbsp;bound&nbsp;to&nbsp;you&nbsp;and&nbsp;your&nbsp;power.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;powers,&nbsp;these&nbsp;glow&nbsp;and&nbsp;pulsate,&nbsp;making&nbsp;it&nbsp;impossible&nbsp;for&nbsp;you&nbsp;to&nbsp;manifest&nbsp;a&nbsp;power&nbsp;without&nbsp;drawing&nbsp;attention.&nbsp;However,&nbsp;any&nbsp;power&nbsp;you&nbsp;manifest&nbsp;on&nbsp;yourself&nbsp;has&nbsp;double&nbsp;the&nbsp;duration,&nbsp;and&nbsp;the&nbsp;DC&nbsp;to&nbsp;dispel&nbsp;them&nbsp;is&nbsp;5&nbsp;higher.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Sigilist"&nbsp;title="Sigilist">Sigilist</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '5'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

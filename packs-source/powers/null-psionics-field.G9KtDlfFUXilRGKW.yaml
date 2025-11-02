@@ -1,0 +1,98 @@
+_id: G9KtDlfFUXilRGKW
+_key: '!items!G9KtDlfFUXilRGKW'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Null_Psionics_Field
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Null Psionics Field
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '10'
+      duration:
+        dismiss: true
+        units: minute
+        value: 10 * @cl
+      name: Use
+      range:
+        units: ft
+        value: 10 ft.
+      save:
+        description: None
+      target:
+        value: 10-ft.-radius emanation centered on you
+  description:
+    value: >-
+      <p>An&nbsp;invisible&nbsp;barrier&nbsp;surrounds&nbsp;you&nbsp;and&nbsp;moves&nbsp;with&nbsp;you.&nbsp;The&nbsp;space&nbsp;within&nbsp;this&nbsp;barrier&nbsp;is&nbsp;impervious&nbsp;to&nbsp;most&nbsp;psionic&nbsp;effects,&nbsp;including&nbsp;powers,&nbsp;psi-like&nbsp;abilities,&nbsp;and&nbsp;supernatural&nbsp;abilities.&nbsp;Likewise,&nbsp;it&nbsp;prevents&nbsp;the&nbsp;functioning&nbsp;of&nbsp;any&nbsp;psionic&nbsp;items&nbsp;or&nbsp;powers&nbsp;within&nbsp;its&nbsp;confines.&nbsp;A&nbsp;null&nbsp;psionics&nbsp;field&nbsp;suppresses&nbsp;any&nbsp;power&nbsp;or&nbsp;psionic&nbsp;effect&nbsp;used&nbsp;within,&nbsp;brought&nbsp;into,&nbsp;or&nbsp;manifested&nbsp;into&nbsp;its&nbsp;area,&nbsp;but&nbsp;does&nbsp;not&nbsp;negate&nbsp;it.&nbsp;Time&nbsp;spent&nbsp;within&nbsp;a&nbsp;null&nbsp;psionics&nbsp;field&nbsp;counts&nbsp;against&nbsp;a&nbsp;suppressed&nbsp;effect's&nbsp;duration.
+
+      </p>
+
+      <p>Astral&nbsp;constructs,&nbsp;summoned&nbsp;creatures,&nbsp;and&nbsp;incorporeal&nbsp;undead&nbsp;wink&nbsp;out&nbsp;if&nbsp;they&nbsp;enter&nbsp;a&nbsp;null&nbsp;psionics&nbsp;field&nbsp;if&nbsp;they&nbsp;fail&nbsp;any&nbsp;applicable&nbsp;power&nbsp;resistance&nbsp;check.&nbsp;They&nbsp;reappear&nbsp;in&nbsp;the&nbsp;same&nbsp;spot&nbsp;once&nbsp;the&nbsp;field&nbsp;goes&nbsp;away.&nbsp;Time&nbsp;spent&nbsp;winked&nbsp;out&nbsp;counts&nbsp;normally&nbsp;against&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;power&nbsp;that&nbsp;is&nbsp;maintaining&nbsp;the&nbsp;construct&nbsp;or&nbsp;summoned&nbsp;creature.
+
+      </p>
+
+      <p>Creation&nbsp;powers&nbsp;with&nbsp;instantaneous&nbsp;durations&nbsp;and&nbsp;calling&nbsp;powers&nbsp;are&nbsp;not&nbsp;affected&nbsp;by&nbsp;a&nbsp;null&nbsp;psionics&nbsp;field&nbsp;because&nbsp;the&nbsp;power&nbsp;itself&nbsp;is&nbsp;no&nbsp;longer&nbsp;in&nbsp;effect,&nbsp;only&nbsp;its&nbsp;result.
+
+      </p>
+
+      <p>A&nbsp;normal&nbsp;creature&nbsp;(a&nbsp;normally&nbsp;encountered&nbsp;construct&nbsp;rather&nbsp;than&nbsp;a&nbsp;created&nbsp;one,&nbsp;for&nbsp;instance)&nbsp;can&nbsp;enter&nbsp;the&nbsp;area,&nbsp;as&nbsp;can&nbsp;normal&nbsp;missiles.&nbsp;Furthermore,&nbsp;while&nbsp;a&nbsp;psionic&nbsp;sword&nbsp;does&nbsp;not&nbsp;function&nbsp;psionically&nbsp;within&nbsp;the&nbsp;area,&nbsp;it&nbsp;is&nbsp;still&nbsp;a&nbsp;sword&nbsp;(and&nbsp;a&nbsp;masterwork&nbsp;sword&nbsp;at&nbsp;that).&nbsp;The&nbsp;power&nbsp;has&nbsp;no&nbsp;effect&nbsp;on&nbsp;golems&nbsp;and&nbsp;other&nbsp;constructs&nbsp;that&nbsp;are&nbsp;imbued&nbsp;with&nbsp;magic&nbsp;during&nbsp;their&nbsp;creation&nbsp;process&nbsp;and&nbsp;are&nbsp;thereafter&nbsp;self-supporting&nbsp;(unless&nbsp;they&nbsp;have&nbsp;been&nbsp;summoned&nbsp;or&nbsp;have&nbsp;a&nbsp;limited&nbsp;duration,&nbsp;in&nbsp;which&nbsp;case&nbsp;they&nbsp;are&nbsp;treated&nbsp;like&nbsp;any&nbsp;other&nbsp;summoned&nbsp;creatures).&nbsp;Elementals,&nbsp;corporeal&nbsp;undead,&nbsp;and&nbsp;outsiders&nbsp;are&nbsp;likewise&nbsp;unaffected&nbsp;unless&nbsp;summoned.&nbsp;These&nbsp;creatures'&nbsp;spell-like&nbsp;or&nbsp;supernatural&nbsp;abilities,&nbsp;however,&nbsp;may&nbsp;be&nbsp;temporarily&nbsp;nullified&nbsp;by&nbsp;the&nbsp;field.
+
+      </p>
+
+      <p>Dispel&nbsp;psionics&nbsp;does&nbsp;not&nbsp;remove&nbsp;the&nbsp;field.&nbsp;Two&nbsp;or&nbsp;more&nbsp;null&nbsp;psionics&nbsp;fields&nbsp;sharing&nbsp;any&nbsp;of&nbsp;the&nbsp;same&nbsp;space&nbsp;have&nbsp;no&nbsp;effect&nbsp;on&nbsp;each&nbsp;other.&nbsp;Certain&nbsp;powers&nbsp;may&nbsp;be&nbsp;unaffected&nbsp;by&nbsp;null&nbsp;psionics&nbsp;field&nbsp;(see&nbsp;the&nbsp;individual&nbsp;power&nbsp;descriptions).&nbsp;Artifacts&nbsp;and&nbsp;deities&nbsp;are&nbsp;unaffected&nbsp;by&nbsp;mortal&nbsp;power&nbsp;such&nbsp;as&nbsp;this.&nbsp;Should&nbsp;a&nbsp;creature's&nbsp;space&nbsp;extend&nbsp;across&nbsp;the&nbsp;boundary&nbsp;of&nbsp;the&nbsp;area&nbsp;enclosed&nbsp;by&nbsp;the&nbsp;field,&nbsp;any&nbsp;part&nbsp;of&nbsp;the&nbsp;creature&nbsp;that&nbsp;lies&nbsp;outside&nbsp;the&nbsp;effect&nbsp;is&nbsp;unaffected&nbsp;by&nbsp;the&nbsp;field.
+
+      </p>
+  discipline: psychokinesis
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 6
+      kineticist: 6
+  level: 6
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '131'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '227'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '49'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

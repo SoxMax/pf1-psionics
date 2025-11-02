@@ -1,0 +1,81 @@
+_id: AAKu8kZXRTgLDKi5
+_key: '!items!AAKu8kZXRTgLDKi5'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Heartbinding
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Heartbinding
+system:
+  actions:
+    - actionType: heal
+      activation:
+        cost: 1
+        type: minute
+      damage:
+        parts:
+          - - 3d8
+            - untyped
+          - - 3d8
+            - heal
+      duration:
+        dismiss: true
+        units: hour
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates (harmless)
+        harmless: true
+        type: will
+      target:
+        value: One living creature
+  description:
+    value: >-
+      <p>By&nbsp;binding&nbsp;the&nbsp;soul&nbsp;of&nbsp;another&nbsp;to&nbsp;yourself,&nbsp;you&nbsp;form&nbsp;a&nbsp;protective&nbsp;bond.&nbsp;The&nbsp;subject&nbsp;gains&nbsp;a&nbsp;+1&nbsp;deflection&nbsp;bonus&nbsp;to&nbsp;AC&nbsp;and&nbsp;a&nbsp;+1&nbsp;resistance&nbsp;bonus&nbsp;on&nbsp;saves.&nbsp;While&nbsp;this&nbsp;power&nbsp;is&nbsp;active,&nbsp;you&nbsp;or&nbsp;the&nbsp;target&nbsp;may&nbsp;choose&nbsp;to&nbsp;gain&nbsp;any&nbsp;morale&nbsp;bonuses&nbsp;granted&nbsp;to&nbsp;the&nbsp;other,&nbsp;just&nbsp;as&nbsp;if&nbsp;you&nbsp;were&nbsp;both&nbsp;targeted.&nbsp;In&nbsp;addition,&nbsp;if&nbsp;you&nbsp;or&nbsp;the&nbsp;target&nbsp;are&nbsp;subjected&nbsp;to&nbsp;an&nbsp;emotion&nbsp;effect&nbsp;that&nbsp;allows&nbsp;a&nbsp;saving&nbsp;throw,&nbsp;one&nbsp;of&nbsp;you&nbsp;may&nbsp;attempt&nbsp;the&nbsp;saving&nbsp;throw,&nbsp;applying&nbsp;the&nbsp;result&nbsp;to&nbsp;both&nbsp;of&nbsp;you.&nbsp;You&nbsp;must&nbsp;decide&nbsp;to&nbsp;use&nbsp;this&nbsp;effect&nbsp;before&nbsp;the&nbsp;save&nbsp;is&nbsp;made.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;you&nbsp;may,&nbsp;as&nbsp;a&nbsp;standard&nbsp;action,&nbsp;end&nbsp;this&nbsp;power&nbsp;to&nbsp;heal&nbsp;the&nbsp;target&nbsp;3d8&nbsp;points&nbsp;of&nbsp;damage&nbsp;+&nbsp;1&nbsp;point&nbsp;per&nbsp;manifester&nbsp;level&nbsp;(maximum&nbsp;+25).&nbsp;This&nbsp;healing&nbsp;can&nbsp;return&nbsp;a&nbsp;recently&nbsp;dead&nbsp;target&nbsp;to&nbsp;life,&nbsp;as&nbsp;long&nbsp;as&nbsp;its&nbsp;hit&nbsp;points&nbsp;after&nbsp;the&nbsp;healing&nbsp;are&nbsp;at&nbsp;least&nbsp;equal&nbsp;to&nbsp;the&nbsp;hit&nbsp;points&nbsp;at&nbsp;which&nbsp;it&nbsp;would&nbsp;die.&nbsp;If&nbsp;you&nbsp;return&nbsp;a&nbsp;recently&nbsp;dead&nbsp;target&nbsp;to&nbsp;life&nbsp;this&nbsp;way,&nbsp;you&nbsp;suffer&nbsp;damage&nbsp;equal&nbsp;to&nbsp;the&nbsp;amount&nbsp;healed.&nbsp;You&nbsp;must&nbsp;touch&nbsp;the&nbsp;target&nbsp;to&nbsp;trigger&nbsp;this&nbsp;effect,&nbsp;and&nbsp;no&nbsp;more&nbsp;than&nbsp;one&nbsp;round&nbsp;may&nbsp;have&nbsp;passed&nbsp;since&nbsp;their&nbsp;death.&nbsp;This&nbsp;power&nbsp;gains&nbsp;the&nbsp;healing&nbsp;subtype.
+
+      </p>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 2
+      tactician: 3
+      vitalist: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: minute
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 32–33
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

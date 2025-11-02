@@ -1,0 +1,101 @@
+_id: JH1DGENBgNUiXEfG
+_key: '!items!JH1DGENBgNUiXEfG'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Reddopsi
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Reddopsi
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: minute
+        value: 10 * @cl
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>Powers&nbsp;and&nbsp;psi-like&nbsp;effects&nbsp;targeted&nbsp;on&nbsp;you&nbsp;are&nbsp;reversed&nbsp;back&nbsp;upon&nbsp;the&nbsp;original&nbsp;manifester.&nbsp;Reddopsi&nbsp;turns&nbsp;only&nbsp;powers&nbsp;that&nbsp;have&nbsp;you&nbsp;as&nbsp;a&nbsp;target.&nbsp;Effect&nbsp;and&nbsp;area&nbsp;powers&nbsp;are&nbsp;not&nbsp;affected.&nbsp;Reddopsi&nbsp;also&nbsp;fails&nbsp;to&nbsp;stop&nbsp;touch&nbsp;range&nbsp;powers.&nbsp;Up&nbsp;to&nbsp;15&nbsp;power&nbsp;points&nbsp;(or&nbsp;eight&nbsp;spell&nbsp;levels&nbsp;in&nbsp;psionic-magic&nbsp;transparency&nbsp;games)&nbsp;worth&nbsp;of&nbsp;powers&nbsp;are&nbsp;reversed&nbsp;in&nbsp;this&nbsp;fashion.
+
+      </p>
+
+      <p>When&nbsp;you&nbsp;are&nbsp;targeted&nbsp;by&nbsp;a&nbsp;power&nbsp;using&nbsp;a&nbsp;higher&nbsp;amount&nbsp;of&nbsp;power&nbsp;points&nbsp;than&nbsp;the&nbsp;amount&nbsp;of&nbsp;reddopsi&nbsp;you&nbsp;have&nbsp;left,&nbsp;that&nbsp;power&nbsp;is&nbsp;partially&nbsp;reversed.&nbsp;Subtract&nbsp;the&nbsp;amount&nbsp;of&nbsp;reddopsi&nbsp;left&nbsp;from&nbsp;the&nbsp;power&nbsp;points&nbsp;of&nbsp;the&nbsp;incoming&nbsp;power,&nbsp;then&nbsp;divide&nbsp;the&nbsp;result&nbsp;by&nbsp;the&nbsp;total&nbsp;power&nbsp;points&nbsp;of&nbsp;the&nbsp;incoming&nbsp;power&nbsp;to&nbsp;see&nbsp;what&nbsp;fraction&nbsp;of&nbsp;the&nbsp;effect&nbsp;gets&nbsp;through.&nbsp;For&nbsp;damaging&nbsp;powers,&nbsp;you&nbsp;and&nbsp;the&nbsp;manifester&nbsp;each&nbsp;take&nbsp;a&nbsp;fraction&nbsp;of&nbsp;the&nbsp;damage.&nbsp;For&nbsp;nondamaging&nbsp;powers,&nbsp;each&nbsp;of&nbsp;you&nbsp;has&nbsp;a&nbsp;proportional&nbsp;chance&nbsp;to&nbsp;be&nbsp;the&nbsp;one&nbsp;who&nbsp;is&nbsp;affected.&nbsp;If&nbsp;you&nbsp;and&nbsp;a&nbsp;manifesting&nbsp;attacker&nbsp;are&nbsp;both&nbsp;warded&nbsp;by&nbsp;reddopsi&nbsp;effects&nbsp;in&nbsp;operation,&nbsp;a&nbsp;resonating&nbsp;field&nbsp;is&nbsp;created.&nbsp;Roll&nbsp;randomly&nbsp;to&nbsp;determine&nbsp;the&nbsp;result.
+
+      </p><table><tbody><tr><th>d%
+
+      </th><th>Effect
+
+      </th></tr><tr><td>01–70
+
+      </td><td>Power&nbsp;drains&nbsp;away&nbsp;without&nbsp;effect.
+
+      </td></tr><tr><td>71–80
+
+      </td><td>Power&nbsp;affects&nbsp;both&nbsp;of&nbsp;you&nbsp;equally&nbsp;at&nbsp;full&nbsp;effect.
+
+      </td></tr><tr><td>81–97
+
+      </td><td>Both&nbsp;reversing&nbsp;effects&nbsp;are&nbsp;rendered&nbsp;nonfunctional&nbsp;for&nbsp;1d4&nbsp;minutes.
+
+      </td></tr><tr><td>98–100
+
+      </td><td>Both&nbsp;of&nbsp;you&nbsp;go&nbsp;through&nbsp;a&nbsp;rift&nbsp;into&nbsp;another&nbsp;plane.
+
+      </td></tr></tbody></table>
+  discipline: psychokinesis
+  display:
+    auditory: true
+    material: false
+    mental: true
+    olfactory: true
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      kineticist: 7
+  level: 7
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 141–142
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '239'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '54'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

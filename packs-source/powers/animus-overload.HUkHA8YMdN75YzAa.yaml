@@ -1,0 +1,81 @@
+_id: HUkHA8YMdN75YzAa
+_key: '!items!HUkHA8YMdN75YzAa'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Animus_Overload
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Animus Overload
+system:
+  actions:
+    - actionType: rsak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude partial
+        type: fort
+  description:
+    value: >-
+      <p>This&nbsp;power&nbsp;allows&nbsp;the&nbsp;manifester&nbsp;to&nbsp;cause&nbsp;the&nbsp;power&nbsp;of&nbsp;the&nbsp;already-unstable&nbsp;animus&nbsp;within&nbsp;a&nbsp;target&nbsp;to&nbsp;lose&nbsp;containment&nbsp;and&nbsp;become&nbsp;explosive&nbsp;within&nbsp;the&nbsp;target's&nbsp;body.&nbsp;When&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;the&nbsp;manifester&nbsp;makes&nbsp;a&nbsp;touch&nbsp;attack&nbsp;against&nbsp;the&nbsp;target&nbsp;and&nbsp;he&nbsp;may&nbsp;cause&nbsp;1d4&nbsp;points&nbsp;of&nbsp;animus&nbsp;in&nbsp;the&nbsp;target&nbsp;to&nbsp;erupt&nbsp;within&nbsp;them&nbsp;(consuming&nbsp;the&nbsp;point&nbsp;of&nbsp;animus),&nbsp;causing&nbsp;5&nbsp;points&nbsp;of&nbsp;damage&nbsp;per&nbsp;animus&nbsp;point&nbsp;consumed&nbsp;with&nbsp;this&nbsp;ability.&nbsp;The&nbsp;target&nbsp;of&nbsp;this&nbsp;ability&nbsp;may&nbsp;make&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;to&nbsp;negate&nbsp;the&nbsp;damage&nbsp;while&nbsp;they&nbsp;release&nbsp;the&nbsp;dangerous&nbsp;animus&nbsp;from&nbsp;their&nbsp;body,&nbsp;but&nbsp;the&nbsp;animus&nbsp;targeted&nbsp;by&nbsp;this&nbsp;power&nbsp;is&nbsp;consumed.&nbsp;If&nbsp;the&nbsp;target&nbsp;does&nbsp;not&nbsp;possess&nbsp;animus,&nbsp;this&nbsp;power&nbsp;has&nbsp;no&nbsp;effct.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>If&nbsp;you&nbsp;spend&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;points,&nbsp;you&nbsp;may&nbsp;alter&nbsp;the&nbsp;range&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;close&nbsp;range&nbsp;(25&nbsp;feet&nbsp;+&nbsp;5&nbsp;feet&nbsp;per&nbsp;two&nbsp;manifester&nbsp;levels)&nbsp;and&nbsp;make&nbsp;the&nbsp;attack&nbsp;as&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;spend&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;consume&nbsp;and&nbsp;explode&nbsp;an&nbsp;additional&nbsp;1d4&nbsp;points&nbsp;of&nbsp;animus&nbsp;within&nbsp;the&nbsp;target.
+
+      </p>
+  discipline: metacreativity
+  display:
+    auditory: true
+    material: true
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gifted blade: 1
+      psion: 1
+      psychic warrior: 1
+      tactician: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 10–11
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Psychic Warrior'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '62'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,85 @@
+_id: 0qoD9hg8PFkoEIwO
+_key: '!items!0qoD9hg8PFkoEIwO'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Exhalation_of_the_Black_Dragon
+folder: KOobADbbBkVCSjkN
+img: icons/magic/unholy/projectile-missile-green.webp
+name: Exhalation of the Black Dragon
+system:
+  actions:
+    - actionType: rsak
+      activation:
+        cost: 1
+        type: standard
+      damage:
+        parts:
+          - - 3d6
+            - acid
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      target:
+        value: Ray
+  description:
+    value: >-
+      <p>You&nbsp;spit&nbsp;forth&nbsp;vitriolic&nbsp;acid,&nbsp;originating&nbsp;from&nbsp;your&nbsp;mouth,&nbsp;at&nbsp;your&nbsp;target.&nbsp;If&nbsp;you&nbsp;succeed&nbsp;on&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack,&nbsp;the&nbsp;target&nbsp;takes&nbsp;3d6&nbsp;points&nbsp;of&nbsp;acid&nbsp;damage.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;damage&nbsp;increases&nbsp;by&nbsp;1d6&nbsp;points.
+
+      </p>
+  descriptors:
+    - acid
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psychic warrior: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '110'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '201'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '42'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

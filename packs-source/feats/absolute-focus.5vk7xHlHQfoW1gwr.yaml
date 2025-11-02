@@ -1,0 +1,70 @@
+_id: 5vk7xHlHQfoW1gwr
+_key: '!items!5vk7xHlHQfoW1gwr'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Absolute_Focus
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Absolute Focus
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;can&nbsp;convert&nbsp;psionic&nbsp;power&nbsp;into&nbsp;mental&nbsp;focus.</em></p>
+
+      <p><strong>Prerequisites:</strong>&nbsp;Autohypnosis&nbsp;3&nbsp;ranks,&nbsp;focus&nbsp;powers&nbsp;class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;Choose&nbsp;one&nbsp;focus&nbsp;power&nbsp;you&nbsp;know.&nbsp;You&nbsp;can&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when&nbsp;using&nbsp;the&nbsp;chosen&nbsp;focus&nbsp;power&nbsp;to&nbsp;reduce&nbsp;its&nbsp;cost&nbsp;in&nbsp;mental&nbsp;focus&nbsp;points&nbsp;by&nbsp;1&nbsp;(to&nbsp;a&nbsp;minimum&nbsp;of&nbsp;0).
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '78'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Occult Compilation'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

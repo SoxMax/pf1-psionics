@@ -1,0 +1,94 @@
+_id: SkLfZoemugNHuuMj
+_key: '!items!SkLfZoemugNHuuMj'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Eradicate_Invisibility
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Eradicate Invisibility
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: line
+        units: ft
+        value: '50'
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: ft
+        value: 50 ft.
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Reflex negates
+        type: ref
+      target:
+        value: >-
+          You and all invisible creatures and objects in a 50-ft.-radius burst
+          centered on you
+  description:
+    value: >-
+      <p>You&nbsp;radiate&nbsp;a&nbsp;psychokinetic&nbsp;burst&nbsp;that&nbsp;disrupts&nbsp;and&nbsp;negates&nbsp;all&nbsp;types&nbsp;of&nbsp;invisibility&nbsp;(though&nbsp;this&nbsp;power&nbsp;can't&nbsp;negate&nbsp;the&nbsp;effect&nbsp;of&nbsp;cloud&nbsp;mind).&nbsp;Any&nbsp;creature&nbsp;that&nbsp;fails&nbsp;its&nbsp;save&nbsp;to&nbsp;avoid&nbsp;the&nbsp;effect&nbsp;loses&nbsp;its&nbsp;invisibility.
+
+      </p>
+
+      <p>Creatures&nbsp;that&nbsp;are&nbsp;naturally&nbsp;invisible,&nbsp;such&nbsp;as&nbsp;an&nbsp;invisible&nbsp;stalker,&nbsp;are&nbsp;revealed&nbsp;as&nbsp;a&nbsp;dim&nbsp;outline&nbsp;for&nbsp;1&nbsp;round&nbsp;(until&nbsp;the&nbsp;beginning&nbsp;of&nbsp;your&nbsp;next&nbsp;turn)&nbsp;and&nbsp;do&nbsp;not&nbsp;have&nbsp;total&nbsp;concealment&nbsp;during&nbsp;this&nbsp;period.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;range&nbsp;and&nbsp;the&nbsp;radius&nbsp;of&nbsp;the&nbsp;burst&nbsp;in&nbsp;which&nbsp;it&nbsp;functions&nbsp;both&nbsp;increase&nbsp;by&nbsp;5&nbsp;feet.&nbsp;For&nbsp;each&nbsp;10-foot&nbsp;increase,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 3
+      gambler: 3
+      psion: 3
+      wilder: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '109'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 199–200
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '41'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

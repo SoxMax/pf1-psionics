@@ -1,0 +1,102 @@
+{
+  "id": "pf1-psionics",
+  "title": "Psionics for PF1e",
+  "version": "0.1.0",
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf1",
+        "type": "system",
+        "compatibility": {
+          "minimum": "11",
+          "verified": "11.8"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "scripts/psionics.mjs"
+  ],
+  "styles": [
+    "styles/styles.css"
+  ],
+  "packFolders": [
+    {
+      "name": "Psionics",
+      "sorting": "a",
+      "color": "#6a5acd",
+      "packs": [
+        "powers",
+        "feats"
+      ]
+    }
+  ],
+  "packs": [
+    {
+      "name": "powers",
+      "label": "Psionic Powers",
+      "path": "packs/powers",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feats",
+      "label": "Psionic Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "documentTypes": {
+    "Item": {
+      "power": {
+        "htmlFields": [
+          "description.value"
+        ],
+        "filePathFields": {
+          "img": [
+            "IMAGE"
+          ]
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "name": "SoxMax",
+      "discord": "soxmax",
+      "flags": {}
+    }
+  ],
+  "bugs": "https://github.com/SoxMax/pf1-psionics/issues",
+  "url": "https://github.com/SoxMax/pf1-psionics",
+  "manifest": "https://github.com/SoxMax/pf1-psionics/releases/download/0.1.0/module.json",
+  "download": "https://github.com/SoxMax/pf1-psionics/archive/refs/tags/0.1.0.zip"
+}

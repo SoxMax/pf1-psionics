@@ -1,0 +1,71 @@
+_id: c3ZoWHmGlrWKocNp
+_key: '!items!c3ZoWHmGlrWKocNp'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Ghostly_Possession
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Ghostly Possession
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: round
+      duration:
+        dismiss: true
+        units: minute
+        value: 10 * @cl
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates; see text
+        type: will
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;adopt&nbsp;a&nbsp;ghostlike&nbsp;form.&nbsp;You&nbsp;are&nbsp;treated&nbsp;as&nbsp;incorporeal,&nbsp;but&nbsp;you&nbsp;may&nbsp;not&nbsp;make&nbsp;attacks,&nbsp;cast&nbsp;spells,&nbsp;or&nbsp;manifest&nbsp;powers&nbsp;in&nbsp;this&nbsp;state.&nbsp;Instead,&nbsp;you&nbsp;gain&nbsp;a&nbsp;single&nbsp;use&nbsp;of&nbsp;the&nbsp;following&nbsp;ability:&nbsp;you&nbsp;can&nbsp;merge&nbsp;your&nbsp;body&nbsp;with&nbsp;an&nbsp;adjacent&nbsp;creature&nbsp;that&nbsp;you&nbsp;can&nbsp;see&nbsp;on&nbsp;the&nbsp;Material&nbsp;Plane.&nbsp;While&nbsp;you&nbsp;are&nbsp;merged&nbsp;with&nbsp;the&nbsp;creature,&nbsp;its&nbsp;life&nbsp;force&nbsp;is&nbsp;temporarily&nbsp;trapped&nbsp;outside&nbsp;its&nbsp;body,&nbsp;unable&nbsp;to&nbsp;act,&nbsp;but&nbsp;visible&nbsp;on&nbsp;the&nbsp;Ethereal&nbsp;Plane.&nbsp;You&nbsp;keep&nbsp;your&nbsp;Intelligence,&nbsp;Wisdom,&nbsp;Charisma,&nbsp;level,&nbsp;class,&nbsp;base&nbsp;attack&nbsp;bonus,&nbsp;base&nbsp;save&nbsp;bonuses,&nbsp;alignment,&nbsp;and&nbsp;mental&nbsp;abilities&nbsp;(including&nbsp;psionics).&nbsp;The&nbsp;body&nbsp;retains&nbsp;its&nbsp;Strength,&nbsp;Dexterity,&nbsp;Constitution,&nbsp;hit&nbsp;points,&nbsp;natural&nbsp;abilities,&nbsp;and&nbsp;automatic&nbsp;abilities.&nbsp;You&nbsp;can't&nbsp;choose&nbsp;to&nbsp;activate&nbsp;this&nbsp;body's&nbsp;extraordinary&nbsp;or&nbsp;supernatural&nbsp;abilities.&nbsp;The&nbsp;creature's&nbsp;powers&nbsp;and&nbsp;psi-like&nbsp;abilities&nbsp;do&nbsp;not&nbsp;stay&nbsp;with&nbsp;the&nbsp;body.&nbsp;The&nbsp;target&nbsp;can&nbsp;negate&nbsp;this&nbsp;possession&nbsp;with&nbsp;a&nbsp;successful&nbsp;Will&nbsp;save.&nbsp;A&nbsp;creature&nbsp;that&nbsp;successfully&nbsp;saves&nbsp;cannot&nbsp;be&nbsp;possessed&nbsp;by&nbsp;you&nbsp;again&nbsp;for&nbsp;24&nbsp;hours.&nbsp;If&nbsp;this&nbsp;power&nbsp;expires&nbsp;or&nbsp;the&nbsp;creature&nbsp;dies&nbsp;while&nbsp;you&nbsp;are&nbsp;possessing&nbsp;it,&nbsp;the&nbsp;possession&nbsp;immediately&nbsp;ends,&nbsp;placing&nbsp;you&nbsp;in&nbsp;a&nbsp;square&nbsp;of&nbsp;your&nbsp;choice&nbsp;adjacent&nbsp;to&nbsp;the&nbsp;possessed&nbsp;creature.
+
+      </p>
+  descriptors:
+    - polymorph
+  discipline: athanatism
+  display:
+    auditory: true
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 5
+      psion: 5
+      wilder: 5
+  level: 5
+  manifestTime:
+    units: round
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '31'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

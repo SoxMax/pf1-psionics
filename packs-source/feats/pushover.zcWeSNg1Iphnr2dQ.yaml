@@ -1,0 +1,70 @@
+_id: zcWeSNg1Iphnr2dQ
+_key: '!items!zcWeSNg1Iphnr2dQ'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Pushover
+img: icons/sundries/books/book-embossed-blue.webp
+name: Pushover
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>Knocking&nbsp;a&nbsp;target&nbsp;over&nbsp;also&nbsp;causes&nbsp;them&nbsp;to&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity.</em></p>
+
+      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Toppling_Power"&nbsp;title="Toppling&nbsp;Power">Toppling&nbsp;Power</a>.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>If&nbsp;you&nbsp;succeed&nbsp;at&nbsp;knocking&nbsp;a&nbsp;target&nbsp;prone&nbsp;when&nbsp;using&nbsp;the&nbsp;Toppling&nbsp;Power&nbsp;feat,&nbsp;that&nbsp;target&nbsp;provokes&nbsp;an&nbsp;attack&nbsp;of&nbsp;opportunity&nbsp;when&nbsp;falling.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '6'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  subType: feat
+  summons: false
+  tags:
+    - feat
+type: feat

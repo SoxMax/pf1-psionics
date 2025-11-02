@@ -1,0 +1,73 @@
+_id: ouxDMY0frwiGJILX
+_key: '!items!ouxDMY0frwiGJILX'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Steal_Language
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Steal Language
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One creature with at least one language
+  description:
+    value: >-
+      <p>You&nbsp;rip&nbsp;knowledege&nbsp;of&nbsp;a&nbsp;language&nbsp;out&nbsp;of&nbsp;the&nbsp;mind&nbsp;of&nbsp;the&nbsp;target&nbsp;and&nbsp;implant&nbsp;it&nbsp;into&nbsp;your&nbsp;own&nbsp;mind.&nbsp;Unless&nbsp;the&nbsp;target&nbsp;succeeds&nbsp;on&nbsp;its&nbsp;saving&nbsp;throw,&nbsp;you&nbsp;add&nbsp;the&nbsp;language&nbsp;to&nbsp;your&nbsp;languages&nbsp;known&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;effect&nbsp;and&nbsp;your&nbsp;target&nbsp;loses&nbsp;access&nbsp;to&nbsp;this&nbsp;language&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;effect.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;choose&nbsp;one&nbsp;more&nbsp;language&nbsp;that&nbsp;your&nbsp;target&nbsp;knows&nbsp;that&nbsp;it&nbsp;will&nbsp;lose&nbsp;and&nbsp;you&nbsp;will&nbsp;gain&nbsp;on&nbsp;a&nbsp;failed&nbsp;save.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;extends&nbsp;to&nbsp;1&nbsp;hour/level.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;extends&nbsp;to&nbsp;1&nbsp;day/level.</li></ol>
+  discipline: telepathy
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: true
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 1
+      psion: 1
+      thug: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '80'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

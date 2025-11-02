@@ -1,0 +1,86 @@
+_id: OJ2UZjFkYn8eUgZq
+_key: '!items!OJ2UZjFkYn8eUgZq'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Last_Stand
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Last Stand
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates (harmless)
+        harmless: true
+        type: will
+      target:
+        value: 1 creature / level
+  description:
+    value: >-
+      <p>You&nbsp;send&nbsp;a&nbsp;powerful&nbsp;morale&nbsp;boost&nbsp;to&nbsp;the&nbsp;targets,&nbsp;a&nbsp;telepathic&nbsp;equivalent&nbsp;of&nbsp;an&nbsp;epic&nbsp;battle&nbsp;speech,&nbsp;preparing&nbsp;them&nbsp;to&nbsp;overcome&nbsp;a&nbsp;difficult&nbsp;challenge.&nbsp;Each&nbsp;affected&nbsp;creature&nbsp;gains&nbsp;a&nbsp;+5&nbsp;morale&nbsp;bonus&nbsp;to&nbsp;attack&nbsp;rolls,&nbsp;Armor&nbsp;Class,&nbsp;and&nbsp;saving&nbsp;throws,&nbsp;as&nbsp;well&nbsp;as&nbsp;50&nbsp;temporary&nbsp;hit&nbsp;points.
+
+      </p>
+
+      <p>In&nbsp;addition,&nbsp;each&nbsp;affected&nbsp;creature&nbsp;gains&nbsp;immunity&nbsp;to&nbsp;fear&nbsp;effects&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;power&nbsp;and&nbsp;if&nbsp;brought&nbsp;below&nbsp;0&nbsp;hit&nbsp;points&nbsp;but&nbsp;not&nbsp;killed,&nbsp;the&nbsp;target&nbsp;can&nbsp;fight&nbsp;on&nbsp;for&nbsp;one&nbsp;more&nbsp;round&nbsp;as&nbsp;if&nbsp;disabled.&nbsp;At&nbsp;the&nbsp;end&nbsp;of&nbsp;his&nbsp;next&nbsp;turn,&nbsp;unless&nbsp;brought&nbsp;to&nbsp;above&nbsp;0&nbsp;hit&nbsp;points,&nbsp;the&nbsp;affected&nbsp;creature&nbsp;immediately&nbsp;falls&nbsp;unconscious&nbsp;and&nbsp;begins&nbsp;dying.
+
+      </p>
+  descriptors:
+    - mind-affecting
+    - network
+  discipline: telepathy
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      tactician: 9
+  level: 9
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '19'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Pawns and Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '169'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '215'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

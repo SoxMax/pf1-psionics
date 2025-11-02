@@ -1,0 +1,80 @@
+_id: sRzR2YFeGAc93nwa
+_key: '!items!sRzR2YFeGAc93nwa'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Mind_Knight’s_Arsenal
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Mind Knight’s Arsenal
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>Your&nbsp;skill&nbsp;with&nbsp;a&nbsp;particular&nbsp;weapon&nbsp;makes&nbsp;your&nbsp;summoned&nbsp;weapons&nbsp;more&nbsp;powerful.</em></p>
+
+      <p><strong>Prerequisites:</strong>&nbsp;Base&nbsp;attack&nbsp;bonus&nbsp;+3,&nbsp;mind&nbsp;knight&nbsp;warrior&nbsp;path,&nbsp;<em>call&nbsp;weaponry</em>&nbsp;path&nbsp;power,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Weapon%20Focus">Weapon&nbsp;Focus</a>&nbsp;with&nbsp;selected&nbsp;weapon.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;summon&nbsp;a&nbsp;weapon&nbsp;with&nbsp;the&nbsp;<em>call&nbsp;weaponry&nbsp;</em>path&nbsp;power&nbsp;with&nbsp;which&nbsp;you&nbsp;have&nbsp;the&nbsp;Weapon&nbsp;Focus&nbsp;feat,&nbsp;the&nbsp;weapon’s&nbsp;enhancement&nbsp;bonus&nbsp;is&nbsp;increased&nbsp;by&nbsp;1&nbsp;and&nbsp;it&nbsp;gains&nbsp;a&nbsp;single&nbsp;predetermined&nbsp;weapon&nbsp;special&nbsp;ability&nbsp;with&nbsp;a&nbsp;+1&nbsp;base&nbsp;price&nbsp;modifier.&nbsp;The&nbsp;weapon&nbsp;special&nbsp;ability&nbsp;must&nbsp;be&nbsp;appropriate&nbsp;for&nbsp;the&nbsp;weapon&nbsp;you&nbsp;choose&nbsp;and&nbsp;must&nbsp;be&nbsp;selected&nbsp;from&nbsp;those&nbsp;weapon&nbsp;special&nbsp;abilities&nbsp;available&nbsp;to&nbsp;the&nbsp;soulknife.&nbsp;You&nbsp;can&nbsp;meditate&nbsp;for&nbsp;8&nbsp;hours&nbsp;to&nbsp;change&nbsp;which&nbsp;predetermined&nbsp;special&nbsp;ability&nbsp;it&nbsp;gets.
+
+      </p>
+
+      <p><strong>Special:&nbsp;</strong>You&nbsp;may&nbsp;take&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;time,&nbsp;it&nbsp;effect&nbsp;do&nbsp;not&nbsp;stack.&nbsp;Each&nbsp;time,&nbsp;choose&nbsp;a&nbsp;new&nbsp;weapon&nbsp;for&nbsp;which&nbsp;you&nbsp;have&nbsp;the&nbsp;Weapon&nbsp;Focus&nbsp;feat&nbsp;to&nbsp;apply&nbsp;the&nbsp;benefits&nbsp;of&nbsp;this&nbsp;feat.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '39'
+      publisher: Dreamscarred Press
+      title: Psionics Augmented
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '107'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

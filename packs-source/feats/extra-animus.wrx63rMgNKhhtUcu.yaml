@@ -1,0 +1,92 @@
+_id: wrx63rMgNKhhtUcu
+_key: '!items!wrx63rMgNKhhtUcu'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Extra_Animus
+img: icons/skills/melee/hand-grip-sword-orange.webp
+name: Extra Animus
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>Your&nbsp;reserves&nbsp;of&nbsp;animus&nbsp;are&nbsp;stronger.</em></p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Must&nbsp;possess&nbsp;an&nbsp;<a&nbsp;href="/wiki/Animus_(system)"&nbsp;title="Animus&nbsp;(system)">animus&nbsp;pool</a>.
+
+      </p>
+
+      <p><strong>Benefits:</strong>&nbsp;Your&nbsp;initial&nbsp;animus&nbsp;pool&nbsp;at&nbsp;the&nbsp;start&nbsp;of&nbsp;each&nbsp;combat&nbsp;increases&nbsp;by&nbsp;2&nbsp;points
+
+      </p>
+
+      <p><strong>Special:</strong>You&nbsp;can&nbsp;take&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;times.&nbsp;Each&nbsp;additional&nbsp;time&nbsp;you&nbsp;take&nbsp;the&nbsp;feat,&nbsp;your&nbsp;initial&nbsp;animus&nbsp;pool&nbsp;increases&nbsp;by&nbsp;1&nbsp;point&nbsp;instead&nbsp;of&nbsp;2.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Halo_Knight"&nbsp;title="Halo&nbsp;Knight">Halo&nbsp;Knight</a></li></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Advanced_Anomalous_Path"&nbsp;title="Advanced&nbsp;Anomalous&nbsp;Path">Advanced&nbsp;Anomalous&nbsp;Path</a></li><li><a&nbsp;href="/wiki/Tap_Animus"&nbsp;title="Tap&nbsp;Animus">Tap&nbsp;Animus</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Eightfold_Immortal%27s_Crown"&nbsp;title="Eightfold&nbsp;Immortal's&nbsp;Crown">Eightfold&nbsp;Immortal's&nbsp;Crown</a></li><li><a&nbsp;href="/wiki/Kusanagi%27s_Woe"&nbsp;title="Kusanagi's&nbsp;Woe">Kusanagi's&nbsp;Woe</a></li><li><a&nbsp;href="/wiki/The_Primordial"&nbsp;title="The&nbsp;Primordial">The&nbsp;Primordial</a></li><li><a&nbsp;href="/wiki/The_Primordial_(Retold)"&nbsp;title="The&nbsp;Primordial&nbsp;(Retold)">The&nbsp;Primordial&nbsp;(Retold)</a></li></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '78'
+      publisher: Dreamscarred Press
+      title: Path of War Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '7'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Psychic Warriors II'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '39'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: feat
+  summons: false
+  tags:
+    - combat
+type: feat

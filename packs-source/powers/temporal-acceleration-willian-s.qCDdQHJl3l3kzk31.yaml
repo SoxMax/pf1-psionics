@@ -1,0 +1,104 @@
+_id: qCDdQHJl3l3kzk31
+_key: '!items!qCDdQHJl3l3kzk31'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Temporal_Acceleration,_Willian's
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Temporal Acceleration, Willian's
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: swift
+      duration:
+        units: spec
+        value: 1 round (in apparent time); see text
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;enter&nbsp;another&nbsp;time&nbsp;frame,&nbsp;speeding&nbsp;up&nbsp;so&nbsp;greatly&nbsp;that&nbsp;all&nbsp;other&nbsp;creatures&nbsp;seem&nbsp;frozen,&nbsp;though&nbsp;they&nbsp;are&nbsp;actually&nbsp;still&nbsp;moving&nbsp;at&nbsp;normal&nbsp;speed.&nbsp;You&nbsp;are&nbsp;free&nbsp;to&nbsp;act&nbsp;for&nbsp;1&nbsp;round&nbsp;of&nbsp;apparent&nbsp;time.&nbsp;You&nbsp;can&nbsp;manifest&nbsp;powers,&nbsp;cast&nbsp;spells,&nbsp;move,&nbsp;or&nbsp;perform&nbsp;other&nbsp;types&nbsp;of&nbsp;actions,&nbsp;subject&nbsp;to&nbsp;the&nbsp;restrictions&nbsp;outlined&nbsp;below.
+
+      </p>
+
+      <p>While&nbsp;your&nbsp;temporal&nbsp;acceleration&nbsp;is&nbsp;in&nbsp;effect,&nbsp;other&nbsp;creatures&nbsp;are&nbsp;invulnerable&nbsp;to&nbsp;your&nbsp;attacks&nbsp;and&nbsp;powers.&nbsp;This&nbsp;means&nbsp;you&nbsp;cannot&nbsp;target&nbsp;a&nbsp;creature&nbsp;with&nbsp;any&nbsp;attack&nbsp;or&nbsp;power.&nbsp;However,&nbsp;a&nbsp;power&nbsp;you&nbsp;manifest&nbsp;that&nbsp;affects&nbsp;an&nbsp;area&nbsp;and&nbsp;has&nbsp;a&nbsp;duration&nbsp;longer&nbsp;than&nbsp;the&nbsp;remaining&nbsp;duration&nbsp;of&nbsp;your&nbsp;temporal&nbsp;acceleration&nbsp;has&nbsp;its&nbsp;normal&nbsp;effect&nbsp;on&nbsp;&nbsp;creatures&nbsp;in&nbsp;the&nbsp;area&nbsp;once&nbsp;this&nbsp;power&nbsp;ends.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;affect&nbsp;an&nbsp;unattended&nbsp;object&nbsp;but&nbsp;not&nbsp;an&nbsp;object&nbsp;held,&nbsp;carried,&nbsp;or&nbsp;worn&nbsp;by&nbsp;another&nbsp;creature.&nbsp;You&nbsp;are&nbsp;undetectable&nbsp;by&nbsp;any&nbsp;means&nbsp;while&nbsp;your&nbsp;temporal&nbsp;acceleration&nbsp;lasts.
+
+      </p>
+
+      <p>While&nbsp;under&nbsp;the&nbsp;effect&nbsp;of&nbsp;this&nbsp;power,&nbsp;you&nbsp;cannot&nbsp;enter&nbsp;an&nbsp;area&nbsp;protected&nbsp;by&nbsp;a&nbsp;null&nbsp;psionics&nbsp;field&nbsp;or&nbsp;by&nbsp;a&nbsp;power&nbsp;or&nbsp;spell&nbsp;that&nbsp;neutralizes&nbsp;high-level&nbsp;powers&nbsp;or&nbsp;spells.&nbsp;Normal&nbsp;and&nbsp;magical&nbsp;fire,&nbsp;cold,&nbsp;acid,&nbsp;and&nbsp;the&nbsp;like&nbsp;can&nbsp;still&nbsp;harm&nbsp;you.
+
+      </p>
+
+      <p>When&nbsp;your&nbsp;temporal&nbsp;acceleration&nbsp;expires,&nbsp;you&nbsp;resume&nbsp;acting&nbsp;during&nbsp;your&nbsp;current&nbsp;turn&nbsp;in&nbsp;the&nbsp;standard&nbsp;time&nbsp;frame.&nbsp;You&nbsp;are&nbsp;shaken&nbsp;for&nbsp;1&nbsp;round&nbsp;upon&nbsp;your&nbsp;return&nbsp;to&nbsp;the&nbsp;standard&nbsp;time&nbsp;frame.
+
+      </p>
+
+      <p>Splintered&nbsp;or&nbsp;partitioned&nbsp;minds&nbsp;within&nbsp;your&nbsp;own&nbsp;mind,&nbsp;such&nbsp;as&nbsp;might&nbsp;be&nbsp;in&nbsp;effect&nbsp;through&nbsp;the&nbsp;use&nbsp;of&nbsp;powers&nbsp;such&nbsp;as&nbsp;schism,&nbsp;are&nbsp;not&nbsp;temporally&nbsp;speeded&nbsp;up,&nbsp;even&nbsp;if&nbsp;your&nbsp;second&nbsp;mind&nbsp;manifested&nbsp;this&nbsp;power&nbsp;(your&nbsp;primary&nbsp;mind&nbsp;gains&nbsp;the&nbsp;benefit,&nbsp;while&nbsp;your&nbsp;second&nbsp;mind&nbsp;remains&nbsp;stuck&nbsp;in&nbsp;the&nbsp;standard&nbsp;time&nbsp;frame).
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;duration&nbsp;(in&nbsp;apparent&nbsp;time)&nbsp;increases&nbsp;by&nbsp;1&nbsp;round.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 6
+      empath: 6
+      psion: 6
+      voyager: 6
+      wilder: 6
+  level: 6
+  manifestTime:
+    units: swift
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '149'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 250–251
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '57'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

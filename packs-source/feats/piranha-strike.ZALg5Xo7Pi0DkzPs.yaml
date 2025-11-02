@@ -1,0 +1,94 @@
+_id: ZALg5Xo7Pi0DkzPs
+_key: '!items!ZALg5Xo7Pi0DkzPs'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Piranha_Strike
+img: icons/skills/melee/hand-grip-sword-orange.webp
+name: Piranha Strike
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;make&nbsp;a&nbsp;combination&nbsp;of&nbsp;quick&nbsp;strikes,&nbsp;sacrificing&nbsp;accuracy&nbsp;for&nbsp;multiple,&nbsp;minor&nbsp;wounds&nbsp;that&nbsp;prove&nbsp;exceptionally&nbsp;deadly.</em></p>
+
+      <p><strong>Prerequisites:</strong><a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Weapon%20Finesse">Weapon&nbsp;Finesse</a>,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+1.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;When&nbsp;wielding&nbsp;a&nbsp;light&nbsp;weapon,&nbsp;you&nbsp;can&nbsp;choose&nbsp;to&nbsp;take&nbsp;a&nbsp;-1&nbsp;penalty&nbsp;on&nbsp;all&nbsp;melee&nbsp;attack&nbsp;rolls&nbsp;and&nbsp;combat&nbsp;maneuver&nbsp;checks&nbsp;to&nbsp;gain&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;all&nbsp;melee&nbsp;damage&nbsp;rolls.&nbsp;This&nbsp;bonus&nbsp;to&nbsp;damage&nbsp;is&nbsp;halved&nbsp;(-50%)&nbsp;if&nbsp;you&nbsp;are&nbsp;making&nbsp;an&nbsp;attack&nbsp;with&nbsp;an&nbsp;off-hand&nbsp;weapon&nbsp;or&nbsp;secondary&nbsp;natural&nbsp;weapon.&nbsp;When&nbsp;your&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;reaches&nbsp;+4,&nbsp;and&nbsp;for&nbsp;every&nbsp;4&nbsp;points&nbsp;thereafter,&nbsp;the&nbsp;penalty&nbsp;increases&nbsp;by&nbsp;-1&nbsp;and&nbsp;the&nbsp;bonus&nbsp;on&nbsp;damage&nbsp;rolls&nbsp;increases&nbsp;by&nbsp;+2.&nbsp;You&nbsp;must&nbsp;choose&nbsp;to&nbsp;use&nbsp;this&nbsp;feat&nbsp;before&nbsp;the&nbsp;attack&nbsp;roll,&nbsp;and&nbsp;its&nbsp;effects&nbsp;last&nbsp;until&nbsp;your&nbsp;next&nbsp;turn.&nbsp;The&nbsp;bonus&nbsp;damage&nbsp;does&nbsp;not&nbsp;apply&nbsp;to&nbsp;touch&nbsp;attacks&nbsp;or&nbsp;effects&nbsp;that&nbsp;do&nbsp;not&nbsp;deal&nbsp;hit&nbsp;point&nbsp;damage.&nbsp;This&nbsp;feat&nbsp;cannot&nbsp;be&nbsp;used&nbsp;in&nbsp;conjunction&nbsp;with&nbsp;the&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Power%20Attack">Power&nbsp;Attack</a>&nbsp;feat.
+
+      </p><ul><li><em><strong>See:</strong><a&nbsp;href="/wiki/Combat_Stamina"&nbsp;title="Combat&nbsp;Stamina">Combat&nbsp;Stamina</a></em>.</li></ul>
+
+      <p>When&nbsp;using&nbsp;this&nbsp;feat,&nbsp;you&nbsp;can&nbsp;spend&nbsp;2&nbsp;stamina&nbsp;points&nbsp;to&nbsp;gain&nbsp;the&nbsp;benefits&nbsp;and&nbsp;the&nbsp;hindrances&nbsp;of&nbsp;that&nbsp;feat&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;turn,&nbsp;instead&nbsp;of&nbsp;until&nbsp;your&nbsp;next&nbsp;turn.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Nimble_Blade"&nbsp;title="Nimble&nbsp;Blade">Nimble&nbsp;Blade</a></li></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '30'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Hidden Intentions'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '118'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '109'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '22'
+      publisher: Dreamscarred Press
+      title: Baron's Glorious Arena
+  subType: feat
+  summons: false
+  tags:
+    - combat
+type: feat

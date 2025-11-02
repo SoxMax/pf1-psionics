@@ -1,0 +1,93 @@
+_id: epRPAEGCPoL2DiS1
+_key: '!items!epRPAEGCPoL2DiS1'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Divert_Teleport
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Divert Teleport
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: immediate
+      duration:
+        dismiss: true
+        units: minute
+        value: 10 * @cl
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates (foils diversion)
+        type: will
+      target:
+        value: >-
+          Diverts the teleportation of any object or creature whose weight does
+          not exceed your maximum load
+  description:
+    value: >-
+      <p>Similar&nbsp;to&nbsp;detect&nbsp;teleportation,&nbsp;except&nbsp;that&nbsp;you&nbsp;know&nbsp;the&nbsp;intended&nbsp;destination,&nbsp;and&nbsp;you&nbsp;can&nbsp;divert&nbsp;the&nbsp;final&nbsp;destination&nbsp;of&nbsp;any&nbsp;teleportation&nbsp;attempt&nbsp;made&nbsp;by&nbsp;others&nbsp;within&nbsp;the&nbsp;area.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;divert&nbsp;the&nbsp;destination&nbsp;of&nbsp;both&nbsp;incoming&nbsp;and&nbsp;outgoing&nbsp;teleportations,&nbsp;psionic&nbsp;and&nbsp;magical.&nbsp;You&nbsp;must&nbsp;overcome&nbsp;the&nbsp;power&nbsp;resistance&nbsp;of&nbsp;creatures&nbsp;that&nbsp;possess&nbsp;it&nbsp;to&nbsp;make&nbsp;a&nbsp;successful&nbsp;diversion,&nbsp;and&nbsp;the&nbsp;teleporting&nbsp;creature&nbsp;can&nbsp;make&nbsp;a&nbsp;Will&nbsp;save&nbsp;to&nbsp;foil&nbsp;the&nbsp;diversion&nbsp;as&nbsp;well.
+
+      </p>
+
+      <p>For&nbsp;the&nbsp;purpose&nbsp;of&nbsp;this&nbsp;power,&nbsp;"divert"&nbsp;means&nbsp;you&nbsp;choose&nbsp;the&nbsp;actual&nbsp;destination&nbsp;of&nbsp;any&nbsp;teleportation&nbsp;attempt&nbsp;you&nbsp;can&nbsp;affect,&nbsp;as&nbsp;if&nbsp;you&nbsp;yourself&nbsp;were&nbsp;teleporting&nbsp;to&nbsp;that&nbsp;location,&nbsp;regardless&nbsp;of&nbsp;the&nbsp;teleportation&nbsp;range&nbsp;of&nbsp;the&nbsp;effect&nbsp;you&nbsp;are&nbsp;diverting.&nbsp;The&nbsp;destination&nbsp;you&nbsp;choose&nbsp;must&nbsp;be&nbsp;a&nbsp;location&nbsp;with&nbsp;which&nbsp;you&nbsp;are&nbsp;very&nbsp;familiar&nbsp;or&nbsp;that&nbsp;you&nbsp;have&nbsp;studied&nbsp;carefully.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 7
+      tactician: 7
+      wilder: 7
+  level: 7
+  manifestTime:
+    units: immediate
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 98–99
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '187'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '37'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline:
+    - teleportation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

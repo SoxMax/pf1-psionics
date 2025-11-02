@@ -1,0 +1,69 @@
+_id: L7Q21esBCV4JAiN8
+_key: '!items!L7Q21esBCV4JAiN8'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Feast_of_the_Dead
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Feast of the Dead
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 10
+        type: minute
+      duration:
+        units: spec
+        value: 1 hour plus 12 hours; see text
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      target:
+        value: Personal plus one creature/level
+  description:
+    value: >-
+      <p>You&nbsp;transform&nbsp;phantasmal&nbsp;remains&nbsp;into&nbsp;a&nbsp;sumptuous,&nbsp;macabre&nbsp;banquet,&nbsp;which&nbsp;you&nbsp;may&nbsp;share&nbsp;with&nbsp;one&nbsp;creature/level.&nbsp;The&nbsp;feast&nbsp;takes&nbsp;1&nbsp;hour&nbsp;to&nbsp;consume,&nbsp;and&nbsp;the&nbsp;beneficial&nbsp;effects&nbsp;do&nbsp;not&nbsp;set&nbsp;in&nbsp;until&nbsp;this&nbsp;hour&nbsp;is&nbsp;over.&nbsp;Every&nbsp;creature&nbsp;partaking&nbsp;of&nbsp;the&nbsp;feast&nbsp;gains&nbsp;1d8&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;+&nbsp;1&nbsp;point&nbsp;per&nbsp;two&nbsp;manifester&nbsp;levels&nbsp;(maximum&nbsp;+10).&nbsp;The&nbsp;meat&nbsp;of&nbsp;the&nbsp;feast&nbsp;grants&nbsp;each&nbsp;target&nbsp;that&nbsp;partakes&nbsp;a&nbsp;+2&nbsp;morale&nbsp;bonus&nbsp;on&nbsp;saving&nbsp;throws&nbsp;against&nbsp;curses&nbsp;and&nbsp;effects&nbsp;that&nbsp;sicken&nbsp;or&nbsp;nauseate&nbsp;for&nbsp;12&nbsp;hours.&nbsp;If&nbsp;the&nbsp;feast&nbsp;is&nbsp;interrupted&nbsp;for&nbsp;any&nbsp;reason,&nbsp;the&nbsp;power&nbsp;is&nbsp;ruined&nbsp;and&nbsp;all&nbsp;effects&nbsp;of&nbsp;the&nbsp;power&nbsp;are&nbsp;negated.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;spend&nbsp;an&nbsp;6&nbsp;additional&nbsp;power&nbsp;points&nbsp;to&nbsp;grant&nbsp;all&nbsp;who&nbsp;join&nbsp;in&nbsp;the&nbsp;feast&nbsp;a&nbsp;+1&nbsp;morale&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;rolls.&nbsp;It&nbsp;also&nbsp;increases&nbsp;the&nbsp;granted&nbsp;bonus&nbsp;on&nbsp;saves&nbsp;against&nbsp;curses&nbsp;and&nbsp;effects&nbsp;that&nbsp;sicken&nbsp;or&nbsp;nauseate&nbsp;to&nbsp;+4.&nbsp;In&nbsp;addition,&nbsp;if&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;you&nbsp;may&nbsp;provide&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;benefits&nbsp;to&nbsp;any&nbsp;that&nbsp;partake&nbsp;in&nbsp;the&nbsp;feast:&nbsp;dispel&nbsp;any&nbsp;magical&nbsp;or&nbsp;psionic&nbsp;effects&nbsp;reducing&nbsp;one&nbsp;of&nbsp;the&nbsp;subject's&nbsp;ability&nbsp;scores,&nbsp;cures&nbsp;1d4&nbsp;points&nbsp;of&nbsp;temporary&nbsp;ability&nbsp;damage&nbsp;to&nbsp;one&nbsp;of&nbsp;the&nbsp;subject's&nbsp;ability&nbsp;scores,&nbsp;eliminates&nbsp;fatigue,&nbsp;improves&nbsp;an&nbsp;exhausted&nbsp;condition&nbsp;to&nbsp;fatigued,&nbsp;and&nbsp;attempts&nbsp;to&nbsp;remove&nbsp;any&nbsp;curses&nbsp;currently&nbsp;affecting&nbsp;the&nbsp;creature.&nbsp;You&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;manifester&nbsp;level&nbsp;check&nbsp;against&nbsp;the&nbsp;DC&nbsp;of&nbsp;each&nbsp;curse,&nbsp;with&nbsp;success&nbsp;meaning&nbsp;that&nbsp;the&nbsp;curse&nbsp;is&nbsp;removed.
+
+      </p>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 3
+      wilder: 3
+  level: 3
+  manifestTime:
+    units: minute
+    value: 10
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '28'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

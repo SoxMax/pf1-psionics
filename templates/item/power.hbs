@@ -1,0 +1,268 @@
+<form class="{{cssClass}} flexcol" autocomplete="off" data-tooltip-class="pf1">
+
+  {{!-- Item Sheet Header --}}
+  <header class="sheet-header flexrow">
+    <img class="profile" src="{{item.img}}" data-edit="img">
+
+    <div class="header-details flexrow">
+      <h1 class="item-name">
+        <input name="name" type="text" value="{{item.name}}" placeholder="{{localize "PF1.ItemName"}}">
+      </h1>
+
+      {{! Content Source }}
+      {{~> "systems/pf1/templates/internal/content-source-view.hbs"}}
+
+      <ul class="summary">
+      </ul>
+    </div>
+  </header>
+
+    {{!-- Sidebar --}}
+  <section class="sidebar">
+    <header>
+      <h3 class="item-type">{{itemType}}</h3>
+
+      <h4 class="level">{{labels.level}}</h4>
+
+      <h4 class="school">
+        <span>{{labels.discipline}}</span>
+        {{#if system.subdiscipline.total.size}}
+        <span class="subschools">
+          ({{#each system.subdiscipline.names}}{{this}}{{#if (not @last)}}, {{/if}}{{/each}})
+        </span>
+        {{/if}}
+      </h4>
+    </header>
+
+    {{#if system.descriptors.total.size}}
+    <ul class="property-list descriptors tags">
+      <h5>{{localize "PF1.DescriptorPlural"}}</h5>
+      {{#each system.descriptors.names}}
+        <li class="property generic-tag descriptor-{{@key}}">{{this}}</li>
+      {{/each}}
+    </ul>
+    {{/if}}
+
+    <ul class="property-list components tags">
+      <h5>{{localize "PF1-Psionics.Powers.Display.Plural"}}</h5>
+      {{#if system.display.auditory}}
+        <li class="property generic-tag">{{localize "PF1-Psionics.Powers.Display.Auditory"}}</li>
+      {{/if}}
+      {{#if system.display.material}}
+        <li class="property generic-tag">{{localize "PF1-Psionics.Powers.Display.Material"}}</li>
+      {{/if}}
+      {{#if system.display.mental}}
+        <li class="property generic-tag">{{localize "PF1-Psionics.Powers.Display.Mental"}}</li>
+      {{/if}}
+      {{#if system.display.olfactory}}
+        <li class="property generic-tag">{{localize "PF1-Psionics.Powers.Display.Olfactory"}}</li>
+      {{/if}}
+      {{#if system.display.visual}}
+        <li class="property generic-tag">{{localize "PF1-Psionics.Powers.Display.Visual"}}</li>
+      {{/if}}
+      {{!-- Misc Display --}}
+      {{#if system.display.value}}
+        <li class="property generic-tag misc-component">{{system.display.value}}</li>
+      {{/if}}
+    </ul>
+
+    {{> "systems/pf1/templates/items/parts/item-sidebar-inputs.hbs"}}
+
+    {{> "systems/pf1/templates/items/parts/item-sidebar-tags.hbs"}}
+  </section>
+
+  {{!-- Item Sheet Navigation --}}
+  <nav class="sheet-navigation tabs" data-group="primary">
+    <a class="item" data-tab="description">{{ localize "PF1.Description" }}</a>
+    <a class="item" data-tab="details">{{ localize "PF1.Details" }}</a>
+    <a class="item" data-tab="links">{{localize "PF1.Links"}}</a>
+    <a class="item" data-tab="advanced">{{localize "PF1.Advanced"}}</a>
+  </nav>
+
+  {{!-- Item Sheet Body --}}
+  <section class="primary-body">
+
+    {{!-- Description Tab --}}
+    <div class="tab description" data-group="primary" data-tab="description">
+      {{> "modules/pf1-psionics/templates/item/parts/power-header.hbs"}}
+
+      {{!-- Spell Description --}}
+      <h2>{{localize "PF1.Description"}}</h2>
+      {{editor descriptionHTML.identified target="system.description.value" button=_editorState.system.description.value engine="prosemirror" editable=@root.editable}}
+      <!--prose-mirror name="system.description.value" value="{{system.description.value}}" {{#if _editorState.system.description.value}}toggled{{/if}}>{{{descriptionHTML.identified}}}</prose-mirror-->
+
+      {{> "systems/pf1/templates/items/parts/item-instructions.hbs"}}
+    </div>
+
+    {{!-- Details Tab --}}
+    <div class="tab details" data-group="primary" data-tab="details">
+      {{> "modules/pf1-psionics/templates/item/parts/power-actions.hbs"}}
+
+      {{!-- Psionic Disipline --}}
+      <div class="form-group">
+        <label>{{localize "PF1-Psionics.Discipline.Singular"}}</label>
+        <div class="form-fields">
+          <select name="system.discipline">
+            {{selectOptions config.psionics.disciplines selected=system.discipline}}
+          </select>
+        </div>
+      </div>
+
+      {{!-- Subschool --}}
+      {{> "modules/pf1-psionics/templates/item/parts/power-subschool.hbs"}}
+
+      {{!-- Descriptors --}}
+      {{> "modules/pf1-psionics/templates/item/parts/power-descriptors.hbs"}}
+
+      <h3 class="form-header">{{localize "PF1.SpellBook"}}</h3>
+
+      {{!-- Spellbook --}}
+      {{#if owned}}
+      <div class="form-group">
+        <label>{{localize "PF1-Psionics.Class.Manifestor"}}</label>
+        <div class="form-fields">
+          <select name="system.spellbook">
+            {{selectOptions psibookChoices selected=system.spellbook}}
+          </select>
+        </div>
+      </div>
+      {{else}}
+      <input type="hidden" name="system.spellbook" value="">
+      {{/if}}
+
+      {{!-- Spell Level --}}
+      <div class="form-group">
+        <label>{{localize "PF1.SpellLevel"}}</label>
+        <div class="form-fields">
+          <select name="system.level" data-dtype="Number" data-tooltip="@sl : {{system.level}}<br>@item.level : {{system.level}}">
+            {{selectOptions config.spellLevels selected=system.level}}
+          </select>
+        </div>
+      </div>
+
+      <h3 class="form-header">{{localize "PF1.LearnedAt"}}</h3>
+
+      <div class="form-group">
+        <div class="data-selector">
+          <a class="entry-selector" data-for="system.learnedAt.class" data-fields="PF1-Psionics.Class.Manifestor;PF1.Level" data-dtypes="String;Number" data-flag="true" data-title="PF1.LearnedAt"><i class="fa-solid fa-edit" inert></i></a>
+          <label>{{localize "PF1-Psionics.Class.Manifestor"}}</label>
+        </div>
+      </div>
+
+      {{!-- Misc --}}
+      <h3 class="form-header">{{localize "PF1.Misc"}}</h3>
+
+      <div class="spell-misc form-group stacked">
+        <label class="checkbox">
+          <input type="checkbox" name="system.sr" {{checked system.sr}}>
+          {{localize "PF1.SpellResistance"}}
+        </label>
+
+        <label class="checkbox">
+          <input type="checkbox" name="system.clCheck" {{checked system.clCheck}}>
+          {{localize "PF1.CasterLevelCheck"}}
+        </label>
+
+        <label class="checkbox">
+          <input type="checkbox" name="system.atWill" {{checked system.atWill}}>
+          {{localize "PF1.SpellPrepAtWill"}}
+        </label>
+
+        <label class="checkbox">
+          <input type="checkbox" name="system.domain" {{checked system.domain}}>
+          {{localize "PF1.Domain"}}/{{localize "PF1.School"}}
+        </label>
+      </div>
+
+      <h3 class="form-header">{{localize "PF1-Psionics.Powers.Display.Plural"}}</h3>
+
+      {{!-- Spell Components --}}
+      <div class="spell-components form-group stacked">
+        <label class="checkbox">
+          <input type="checkbox" name="system.display.auditory" {{checked system.display.auditory}}>
+          {{localize "PF1-Psionics.Powers.Display.Auditory"}}
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" name="system.display.material" {{checked system.display.material}}>
+          {{localize "PF1-Psionics.Powers.Display.Material"}}
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" name="system.display.mental" {{checked system.display.mental}}>
+          {{localize "PF1-Psionics.Powers.Display.Mental"}}
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" name="system.display.olfactory" {{checked system.display.olfactory}}>
+          {{localize "PF1-Psionics.Powers.Display.Olfactory"}}
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" name="system.display.visual" {{checked system.display.visual}}>
+          {{localize "PF1-Psionics.Powers.Display.Visual"}}
+        </label>
+      </div>
+
+      {{!-- Misc Components --}}
+      <div class="misc-components form-group">
+        <label>{{localize "PF1.SpellComponents.Misc"}}</label>
+        <div class="form-fields">
+          <input type="text" name="system.components.value" value="{{system.components.value}}" placeholder="{{localize "PF1.NonApplicable"}}">
+        </div>
+      </div>
+
+      <h3 class="form-header">{{localize "PF1.Offsets"}}</h3>
+
+      {{#unless isAtWill}}
+      <div class="form-group charge-cost" data-tooltip="PF1.ChargeCostActionFormulaHint">
+        <label>{{localize "PF1-Psionics.PowerPoints.Cost"}}</label>
+        <div class="form-fields">
+          <input type="text" class="formula roll" name="system.uses.autoDeductChargesCost" value="{{system.uses.autoDeductChargesCost}}" placeholder="{{defaultChargeFormula}}">
+        </div>
+      </div>
+      {{/unless}}
+
+      {{!-- Caster Level Offset --}}
+      <div class="form-group">
+        <label>{{localize "PF1.CasterLevelOffset"}}</label>
+        <div class="form-fields">
+          <input type="number" name="system.modifiers.cl" value="{{system.modifiers.cl}}" placeholder="0" step="1">
+        </div>
+      </div>
+
+      {{!-- Spell Level Offset --}}
+      <div class="form-group">
+        <label>{{localize "PF1.SpellLevelOffset"}}</label>
+        <div class="form-fields">
+          <input type="number" name="system.modifiers.sl" value="{{system.modifiers.sl}}" placeholder="0" step="1">
+        </div>
+      </div>
+
+      {{!-- Spell Slot Cost --}}
+      {{#if standardSlots}}
+      <div class="form-group">
+        <label>{{localize "PF1.SpellSlotCost"}}</label>
+        <div class="form-fields">
+          <input type="text" name="system.slotCost" value="{{system.slotCost}}" placeholder="1" data-dtype="Number">
+        </div>
+      </div>
+      {{/if}}
+
+      {{#if hasDamage}}
+      {{!-- Alignment Types --}}
+      {{> "systems/pf1/templates/items/parts/item-alignments.hbs" reference="system.alignments" value=system.alignments}}
+      {{/if}}
+
+      {{!-- Advanced --}}
+      <h3 class="form-header">{{localize "PF1.Advanced"}}</h3>
+
+      {{! Tags }}
+      {{~> "systems/pf1/templates/items/parts/item-tags.hbs"}}
+    </div>
+
+    <div class="tab links" data-group="primary" data-tab="links">
+      {{> "systems/pf1/templates/items/parts/item-links.hbs"}}
+    </div>
+
+    <div class="tab advanced" data-group="primary" data-tab="advanced">
+      {{> "systems/pf1/templates/items/parts/item-advanced.hbs"}}
+    </div>
+  </section>
+</form>

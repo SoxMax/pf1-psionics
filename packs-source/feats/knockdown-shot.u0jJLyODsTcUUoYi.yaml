@@ -1,0 +1,84 @@
+_id: u0jJLyODsTcUUoYi
+_key: '!items!u0jJLyODsTcUUoYi'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Knockdown_Shot
+img: icons/weapons/thrown/bomb-fuse-black.webp
+name: Knockdown Shot
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;are&nbsp;capable&nbsp;of&nbsp;knocking&nbsp;down&nbsp;your&nbsp;enemies&nbsp;by&nbsp;psionically&nbsp;empowering&nbsp;your&nbsp;attacks.</em></p>
+
+      <p><strong>Prerequisites:</strong>&nbsp;Dex&nbsp;15,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank&nbsp;Shot</a>,&nbsp;<a&nbsp;href="/wiki/Psionic_Shot"&nbsp;title="Psionic&nbsp;Shot">Psionic&nbsp;Shot</a>.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;and&nbsp;make&nbsp;a&nbsp;single&nbsp;ranged&nbsp;attack&nbsp;as&nbsp;a&nbsp;standard&nbsp;action.&nbsp;If&nbsp;your&nbsp;attack&nbsp;hits,&nbsp;it&nbsp;deals&nbsp;damage&nbsp;normally&nbsp;and&nbsp;the&nbsp;target&nbsp;must&nbsp;make&nbsp;a&nbsp;Reflex&nbsp;save&nbsp;(DC&nbsp;10&nbsp;+&nbsp;half&nbsp;your&nbsp;character&nbsp;level&nbsp;+&nbsp;your&nbsp;Wisdom&nbsp;modifier)&nbsp;or&nbsp;be&nbsp;knocked&nbsp;prone.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Psionic_Shot"&nbsp;title="Psionic&nbsp;Shot">Psionic&nbsp;Shot</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '12'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Find the Mark'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '116'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 104–105
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

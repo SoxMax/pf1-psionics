@@ -1,0 +1,79 @@
+_id: 2fnVaDO4VtF2kuDT
+_key: '!items!2fnVaDO4VtF2kuDT'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Sense_Poison
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Sense Poison
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      target:
+        value: One creature, one object, or a 5-ft. cube
+  description:
+    value: >-
+      <p>You&nbsp;determine&nbsp;whether&nbsp;a&nbsp;creature,&nbsp;object,&nbsp;or&nbsp;area&nbsp;has&nbsp;been&nbsp;poisoned&nbsp;or&nbsp;is&nbsp;poisonous.&nbsp;You&nbsp;can&nbsp;determine&nbsp;the&nbsp;exact&nbsp;type&nbsp;of&nbsp;poison&nbsp;with&nbsp;a&nbsp;DC&nbsp;20&nbsp;Wisdom&nbsp;check.&nbsp;A&nbsp;character&nbsp;with&nbsp;the&nbsp;Craft&nbsp;(alchemy)&nbsp;skill&nbsp;may&nbsp;try&nbsp;a&nbsp;DC&nbsp;20&nbsp;Craft&nbsp;(alchemy)&nbsp;check&nbsp;if&nbsp;the&nbsp;Wisdom&nbsp;check&nbsp;fails,&nbsp;or&nbsp;may&nbsp;try&nbsp;the&nbsp;Craft&nbsp;(alchemy)&nbsp;check&nbsp;prior&nbsp;to&nbsp;the&nbsp;Wisdom&nbsp;check.&nbsp;The&nbsp;power&nbsp;can&nbsp;penetrate&nbsp;barriers,&nbsp;but&nbsp;1&nbsp;foot&nbsp;of&nbsp;stone,&nbsp;1&nbsp;inch&nbsp;of&nbsp;common&nbsp;metal,&nbsp;a&nbsp;thin&nbsp;sheet&nbsp;of&nbsp;lead,&nbsp;or&nbsp;3&nbsp;feet&nbsp;of&nbsp;wood&nbsp;or&nbsp;dirt&nbsp;blocks&nbsp;it.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 0
+      psion: 0
+      psychic warrior: 0
+      vitalist: 0
+      wilder: 0
+  level: 0
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '40'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Hidden Intentions'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '178'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '243'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

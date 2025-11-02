@@ -1,0 +1,66 @@
+_id: sHJQGt8QzVjvlyn7
+_key: '!items!sHJQGt8QzVjvlyn7'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Bulwark_Power
+img: icons/magic/symbols/runes-carved-stone-purple.webp
+name: Bulwark Power
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;manifest&nbsp;a&nbsp;personal&nbsp;power&nbsp;so&nbsp;that&nbsp;it&nbsp;takes&nbsp;effect&nbsp;at&nbsp;a&nbsp;later&nbsp;time.</em></p>
+
+      <p><strong>Benefit:&nbsp;</strong>To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.&nbsp;You&nbsp;manifest&nbsp;a&nbsp;personal&nbsp;psionic&nbsp;power&nbsp;that&nbsp;instead&nbsp;of&nbsp;triggering&nbsp;immediately,&nbsp;instead&nbsp;triggers&nbsp;the&nbsp;next&nbsp;time&nbsp;you&nbsp;are&nbsp;attacked&nbsp;(someone&nbsp;makes&nbsp;a&nbsp;successful&nbsp;attack&nbsp;roll,&nbsp;or&nbsp;you&nbsp;fail&nbsp;a&nbsp;saving&nbsp;throw).&nbsp;Using&nbsp;this&nbsp;feat&nbsp;increases&nbsp;the&nbsp;power&nbsp;point&nbsp;cost&nbsp;of&nbsp;the&nbsp;power&nbsp;by&nbsp;2.&nbsp;The&nbsp;power’s&nbsp;total&nbsp;cost&nbsp;cannot&nbsp;exceed&nbsp;your&nbsp;manifester&nbsp;level.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '7'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  subType: feat
+  summons: false
+  tags:
+    - metapsionic
+type: feat

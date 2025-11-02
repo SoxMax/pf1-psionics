@@ -1,0 +1,88 @@
+_id: AmkjPLKFH2g8dGJZ
+_key: '!items!AmkjPLKFH2g8dGJZ'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Thought_Shield
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Thought Shield
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: immediate
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;fortify&nbsp;your&nbsp;mind&nbsp;against&nbsp;intrusions,&nbsp;gaining&nbsp;power&nbsp;resistance&nbsp;13&nbsp;against&nbsp;all&nbsp;mind-affecting&nbsp;powers.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;duration&nbsp;increases&nbsp;by&nbsp;1&nbsp;round,&nbsp;and&nbsp;the&nbsp;power&nbsp;resistance&nbsp;it&nbsp;provides&nbsp;increases&nbsp;by&nbsp;1&nbsp;point.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 2
+      gifted blade: 2
+      psion: 2
+      psychic warrior: 2
+      tactician: 2
+      thug: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: immediate
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '150'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '251'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '58'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

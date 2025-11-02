@@ -1,0 +1,101 @@
+_id: F96apFfbJUXhmCaW
+_key: '!items!F96apFfbJUXhmCaW'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Horrid_Fetter
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Horrid Fetter
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 10
+        type: minute
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels); see text
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One incorporeal creature with 6 HD or less
+  description:
+    value: >-
+      <p>By&nbsp;using&nbsp;this&nbsp;power,&nbsp;you&nbsp;attempt&nbsp;to&nbsp;bind&nbsp;an&nbsp;incorporeal&nbsp;creature&nbsp;to&nbsp;an&nbsp;object&nbsp;important&nbsp;to&nbsp;it,&nbsp;which&nbsp;must&nbsp;lie&nbsp;within&nbsp;the&nbsp;powers'&nbsp;range.&nbsp;The&nbsp;called&nbsp;creature&nbsp;is&nbsp;bound&nbsp;to&nbsp;the&nbsp;object&nbsp;and&nbsp;to&nbsp;your&nbsp;service&nbsp;until&nbsp;it&nbsp;agrees&nbsp;to&nbsp;perform&nbsp;one&nbsp;service&nbsp;in&nbsp;return&nbsp;for&nbsp;its&nbsp;freedom.
+
+      </p>
+
+      <p>First,&nbsp;you&nbsp;must&nbsp;locate&nbsp;an&nbsp;object&nbsp;important&nbsp;to&nbsp;that&nbsp;creature.&nbsp;This&nbsp;can&nbsp;the&nbsp;breath&nbsp;of&nbsp;a&nbsp;dying&nbsp;man,&nbsp;a&nbsp;bloodied&nbsp;sword,&nbsp;or&nbsp;be&nbsp;an&nbsp;object&nbsp;that&nbsp;holds&nbsp;significance&nbsp;to&nbsp;members&nbsp;of&nbsp;its&nbsp;type&nbsp;(a&nbsp;mirror&nbsp;for&nbsp;a&nbsp;mirror&nbsp;shade,&nbsp;for&nbsp;example).&nbsp;When&nbsp;calling&nbsp;a&nbsp;specific&nbsp;individual,&nbsp;you&nbsp;would&nbsp;use&nbsp;things&nbsp;like&nbsp;an&nbsp;item&nbsp;that&nbsp;it&nbsp;wielded&nbsp;in&nbsp;life,&nbsp;a&nbsp;picture&nbsp;of&nbsp;it,&nbsp;the&nbsp;tears&nbsp;of&nbsp;its&nbsp;widow,&nbsp;or&nbsp;its&nbsp;corporeal&nbsp;remains&nbsp;if&nbsp;it&nbsp;is&nbsp;undead.&nbsp;The&nbsp;type&nbsp;of&nbsp;creature&nbsp;must&nbsp;be&nbsp;known&nbsp;and&nbsp;stated.&nbsp;If&nbsp;you&nbsp;wish&nbsp;to&nbsp;call&nbsp;a&nbsp;specific&nbsp;individual,&nbsp;you&nbsp;must&nbsp;use&nbsp;that&nbsp;individual's&nbsp;proper&nbsp;name&nbsp;in&nbsp;manifesting&nbsp;this&nbsp;power.
+
+      </p>
+
+      <p>The&nbsp;target&nbsp;creature&nbsp;is&nbsp;allowed&nbsp;a&nbsp;Will&nbsp;saving&nbsp;throw.&nbsp;If&nbsp;the&nbsp;saving&nbsp;throw&nbsp;succeeds,&nbsp;the&nbsp;creature&nbsp;resists&nbsp;the&nbsp;power.&nbsp;If&nbsp;the&nbsp;saving&nbsp;throw&nbsp;fails,&nbsp;the&nbsp;creature&nbsp;is&nbsp;immediately&nbsp;drawn&nbsp;to&nbsp;the&nbsp;object&nbsp;(power&nbsp;resistance&nbsp;does&nbsp;not&nbsp;keep&nbsp;it&nbsp;from&nbsp;being&nbsp;called),&nbsp;and&nbsp;is&nbsp;unable&nbsp;to&nbsp;harm&nbsp;or&nbsp;act&nbsp;against&nbsp;you&nbsp;for&nbsp;as&nbsp;long&nbsp;as&nbsp;you&nbsp;hold&nbsp;or&nbsp;own&nbsp;the&nbsp;object&nbsp;it&nbsp;is&nbsp;bound&nbsp;to.&nbsp;You&nbsp;can&nbsp;add&nbsp;a&nbsp;special&nbsp;diagram&nbsp;(a&nbsp;two-dimensional&nbsp;bounded&nbsp;figure&nbsp;with&nbsp;no&nbsp;gaps&nbsp;along&nbsp;its&nbsp;circumference,&nbsp;augmented&nbsp;with&nbsp;various&nbsp;psionic&nbsp;sigils)&nbsp;to&nbsp;make&nbsp;the&nbsp;circle&nbsp;more&nbsp;secure.&nbsp;Drawing&nbsp;the&nbsp;diagram&nbsp;by&nbsp;hand&nbsp;takes&nbsp;10&nbsp;minutes&nbsp;and&nbsp;requires&nbsp;a&nbsp;DC&nbsp;20&nbsp;Spellcraft&nbsp;check.&nbsp;You&nbsp;do&nbsp;not&nbsp;know&nbsp;the&nbsp;result&nbsp;of&nbsp;this&nbsp;check.&nbsp;If&nbsp;the&nbsp;check&nbsp;fails,&nbsp;the&nbsp;diagram&nbsp;is&nbsp;ineffective.&nbsp;You&nbsp;can&nbsp;take&nbsp;10&nbsp;when&nbsp;drawing&nbsp;the&nbsp;diagram&nbsp;if&nbsp;you&nbsp;are&nbsp;under&nbsp;no&nbsp;particular&nbsp;time&nbsp;pressure&nbsp;to&nbsp;complete&nbsp;the&nbsp;task.&nbsp;This&nbsp;task&nbsp;also&nbsp;takes&nbsp;10&nbsp;full&nbsp;minutes.&nbsp;If&nbsp;time&nbsp;is&nbsp;no&nbsp;factor&nbsp;at&nbsp;all,&nbsp;and&nbsp;you&nbsp;devote&nbsp;3&nbsp;hours&nbsp;and&nbsp;20&nbsp;minutes&nbsp;to&nbsp;the&nbsp;task,&nbsp;you&nbsp;can&nbsp;take&nbsp;20.
+
+      </p>
+
+      <p>A&nbsp;successful&nbsp;diagram&nbsp;allows&nbsp;you&nbsp;to&nbsp;manifest&nbsp;a&nbsp;wrench&nbsp;spell&nbsp;on&nbsp;the&nbsp;circle&nbsp;during&nbsp;the&nbsp;round&nbsp;before&nbsp;manifesting&nbsp;any&nbsp;summoning&nbsp;power.&nbsp;The&nbsp;anchor&nbsp;holds&nbsp;any&nbsp;called&nbsp;creatures&nbsp;in&nbsp;the&nbsp;circle&nbsp;for&nbsp;24&nbsp;hours&nbsp;per&nbsp;manifester&nbsp;level.&nbsp;A&nbsp;creature&nbsp;cannot&nbsp;use&nbsp;its&nbsp;power&nbsp;resistance&nbsp;against&nbsp;a&nbsp;circle&nbsp;prepared&nbsp;with&nbsp;a&nbsp;diagram,&nbsp;and&nbsp;none&nbsp;of&nbsp;its&nbsp;abilities&nbsp;or&nbsp;attacks&nbsp;can&nbsp;cross&nbsp;the&nbsp;diagram.&nbsp;If&nbsp;the&nbsp;creature&nbsp;tries&nbsp;a&nbsp;Charisma&nbsp;check&nbsp;to&nbsp;break&nbsp;free&nbsp;of&nbsp;the&nbsp;trap&nbsp;(see&nbsp;below),&nbsp;the&nbsp;DC&nbsp;increases&nbsp;by&nbsp;5.&nbsp;The&nbsp;creature&nbsp;is&nbsp;immediately&nbsp;released&nbsp;if&nbsp;anything&nbsp;disturbs&nbsp;the&nbsp;diagram—even&nbsp;a&nbsp;straw&nbsp;laid&nbsp;across&nbsp;it.&nbsp;The&nbsp;creature&nbsp;itself&nbsp;cannot&nbsp;disturb&nbsp;the&nbsp;diagram&nbsp;either&nbsp;directly&nbsp;or&nbsp;indirectly,&nbsp;as&nbsp;noted&nbsp;above
+
+      </p>
+
+      <p>The&nbsp;creature&nbsp;can&nbsp;flee&nbsp;from&nbsp;you&nbsp;by&nbsp;successfully&nbsp;pitting&nbsp;its&nbsp;power&nbsp;resistance&nbsp;against&nbsp;your&nbsp;manifester&nbsp;level&nbsp;check,&nbsp;by&nbsp;dimensional&nbsp;travel,&nbsp;or&nbsp;with&nbsp;a&nbsp;successful&nbsp;Charisma&nbsp;check&nbsp;(DC&nbsp;15&nbsp;+&nbsp;1/2&nbsp;your&nbsp;manifester&nbsp;level&nbsp;+&nbsp;your&nbsp;Charisma&nbsp;modifier).&nbsp;It&nbsp;can&nbsp;try&nbsp;each&nbsp;method&nbsp;once&nbsp;per&nbsp;day.&nbsp;If&nbsp;it&nbsp;breaks&nbsp;loose,&nbsp;it&nbsp;can&nbsp;flee&nbsp;or&nbsp;attack&nbsp;you.&nbsp;If&nbsp;the&nbsp;creature&nbsp;is&nbsp;held&nbsp;within&nbsp;a&nbsp;successful&nbsp;circle&nbsp;enhanced&nbsp;by&nbsp;wrench&nbsp;(as&nbsp;described&nbsp;above),&nbsp;they&nbsp;may&nbsp;not&nbsp;escape&nbsp;by&nbsp;dimensional&nbsp;travel.
+
+      </p>
+
+      <p>If&nbsp;the&nbsp;creature&nbsp;does&nbsp;not&nbsp;break&nbsp;free&nbsp;of&nbsp;this&nbsp;power,&nbsp;you&nbsp;may&nbsp;keep&nbsp;it&nbsp;bound&nbsp;for&nbsp;as&nbsp;long&nbsp;as&nbsp;you&nbsp;wish.&nbsp;You&nbsp;can&nbsp;attempt&nbsp;to&nbsp;compel&nbsp;a&nbsp;creature&nbsp;to&nbsp;perform&nbsp;a&nbsp;service&nbsp;by&nbsp;describing&nbsp;the&nbsp;service&nbsp;and&nbsp;either&nbsp;offering&nbsp;some&nbsp;sort&nbsp;of&nbsp;reward&nbsp;or&nbsp;damaging&nbsp;the&nbsp;object&nbsp;to&nbsp;attempt&nbsp;to&nbsp;coerce&nbsp;it.&nbsp;In&nbsp;either&nbsp;case,&nbsp;you&nbsp;can&nbsp;only&nbsp;attempt&nbsp;to&nbsp;issue&nbsp;the&nbsp;creature&nbsp;commands&nbsp;or&nbsp;negotiate&nbsp;for&nbsp;services&nbsp;once&nbsp;in&nbsp;a&nbsp;24-hour&nbsp;period,&nbsp;and&nbsp;impossible&nbsp;demands&nbsp;or&nbsp;unreasonable&nbsp;commands&nbsp;are&nbsp;never&nbsp;agreed&nbsp;to.
+
+      </p>
+
+      <p>For&nbsp;the&nbsp;former&nbsp;case,&nbsp;you&nbsp;make&nbsp;a&nbsp;Charisma&nbsp;check&nbsp;opposed&nbsp;by&nbsp;the&nbsp;creature's&nbsp;Charisma&nbsp;check.&nbsp;The&nbsp;check&nbsp;is&nbsp;assigned&nbsp;a&nbsp;bonus&nbsp;of&nbsp;+0&nbsp;to&nbsp;+6&nbsp;based&nbsp;on&nbsp;the&nbsp;nature&nbsp;of&nbsp;the&nbsp;service&nbsp;and&nbsp;the&nbsp;reward.&nbsp;If&nbsp;the&nbsp;creature&nbsp;wins&nbsp;the&nbsp;opposed&nbsp;check,&nbsp;it&nbsp;refuses&nbsp;service.&nbsp;This&nbsp;process&nbsp;can&nbsp;be&nbsp;repeated&nbsp;until&nbsp;the&nbsp;creature&nbsp;promises&nbsp;to&nbsp;serve,&nbsp;until&nbsp;it&nbsp;breaks&nbsp;free,&nbsp;or&nbsp;until&nbsp;you&nbsp;decide&nbsp;to&nbsp;get&nbsp;rid&nbsp;of&nbsp;it&nbsp;by&nbsp;means&nbsp;of&nbsp;some&nbsp;other&nbsp;effect.&nbsp;If&nbsp;you&nbsp;ever&nbsp;roll&nbsp;a&nbsp;natural&nbsp;1&nbsp;on&nbsp;the&nbsp;Charisma&nbsp;check,&nbsp;the&nbsp;creature&nbsp;breaks&nbsp;free&nbsp;of&nbsp;the&nbsp;power's&nbsp;effect&nbsp;and&nbsp;can&nbsp;escape&nbsp;or&nbsp;attack&nbsp;you.
+
+      </p>
+
+      <p>In&nbsp;the&nbsp;latter&nbsp;case,&nbsp;you&nbsp;may&nbsp;damage&nbsp;the&nbsp;object&nbsp;a&nbsp;total&nbsp;of&nbsp;five&nbsp;times&nbsp;to&nbsp;attempt&nbsp;to&nbsp;compel&nbsp;the&nbsp;creature.&nbsp;After&nbsp;the&nbsp;fifth&nbsp;time,&nbsp;the&nbsp;object&nbsp;breaks,&nbsp;and&nbsp;this&nbsp;power&nbsp;ends.&nbsp;When&nbsp;you&nbsp;damage&nbsp;the&nbsp;item&nbsp;(a&nbsp;standard&nbsp;action),&nbsp;the&nbsp;creature&nbsp;takes&nbsp;damage&nbsp;equal&nbsp;to&nbsp;half&nbsp;its&nbsp;maximum&nbsp;hit&nbsp;points,&nbsp;round&nbsp;up,&nbsp;and&nbsp;is&nbsp;sickened&nbsp;for&nbsp;1&nbsp;round/level.&nbsp;Instead&nbsp;of&nbsp;taking&nbsp;damage,&nbsp;the&nbsp;creature&nbsp;may&nbsp;follow&nbsp;one&nbsp;command&nbsp;you&nbsp;give&nbsp;it&nbsp;to&nbsp;the&nbsp;best&nbsp;of&nbsp;its&nbsp;ability.
+
+      </p>
+
+      <p>Once&nbsp;the&nbsp;service&nbsp;or&nbsp;command&nbsp;is&nbsp;completed,&nbsp;the&nbsp;creature&nbsp;need&nbsp;only&nbsp;to&nbsp;inform&nbsp;you&nbsp;to&nbsp;be&nbsp;instantly&nbsp;sent&nbsp;back&nbsp;whence&nbsp;it&nbsp;came.&nbsp;The&nbsp;creature&nbsp;might&nbsp;later&nbsp;seek&nbsp;revenge.&nbsp;If&nbsp;you&nbsp;assign&nbsp;some&nbsp;open-ended&nbsp;task&nbsp;that&nbsp;the&nbsp;creature&nbsp;cannot&nbsp;complete&nbsp;through&nbsp;its&nbsp;own&nbsp;actions,&nbsp;the&nbsp;power&nbsp;remains&nbsp;in&nbsp;effect&nbsp;for&nbsp;a&nbsp;maximum&nbsp;of&nbsp;1&nbsp;day&nbsp;per&nbsp;manifester&nbsp;level,&nbsp;and&nbsp;the&nbsp;creature&nbsp;gains&nbsp;an&nbsp;immediate&nbsp;chance&nbsp;to&nbsp;break&nbsp;free&nbsp;(with&nbsp;the&nbsp;same&nbsp;chance&nbsp;to&nbsp;resist&nbsp;as&nbsp;when&nbsp;it&nbsp;was&nbsp;called).&nbsp;Note&nbsp;that&nbsp;a&nbsp;clever&nbsp;recipient&nbsp;can&nbsp;subvert&nbsp;some&nbsp;instructions.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;each&nbsp;additional&nbsp;power&nbsp;point&nbsp;that&nbsp;you&nbsp;spend,&nbsp;increase&nbsp;the&nbsp;HD&nbsp;of&nbsp;the&nbsp;creature&nbsp;that&nbsp;you&nbsp;can&nbsp;summon&nbsp;by&nbsp;1.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;may&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;target&nbsp;up&nbsp;to&nbsp;three&nbsp;creatures&nbsp;of&nbsp;the&nbsp;same&nbsp;kind,&nbsp;as&nbsp;long&nbsp;as&nbsp;their&nbsp;total&nbsp;Hit&nbsp;Dice&nbsp;is&nbsp;no&nbsp;more&nbsp;than&nbsp;the&nbsp;total&nbsp;creature&nbsp;HD&nbsp;you&nbsp;are&nbsp;summoning.&nbsp;Each&nbsp;creature&nbsp;gets&nbsp;a&nbsp;saving&nbsp;throw,&nbsp;makes&nbsp;an&nbsp;independent&nbsp;attempt&nbsp;to&nbsp;escape,&nbsp;and&nbsp;must&nbsp;be&nbsp;individually&nbsp;persuaded&nbsp;to&nbsp;aid&nbsp;you.
+
+      </p>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      conduit: 5
+  level: 5
+  manifestTime:
+    units: minute
+    value: 10
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 33–34
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,78 @@
+_id: 4i8KyKK6XMO53Mv4
+_key: '!items!4i8KyKK6XMO53Mv4'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Biokinetic_Rhythms
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Biokinetic Rhythms
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;know&nbsp;how&nbsp;to&nbsp;heal&nbsp;your&nbsp;body&nbsp;with&nbsp;biokinetic&nbsp;techniques.</em></p>
+
+      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Biokinetic_Adept"&nbsp;title="Biokinetic&nbsp;Adept">Biokinetic&nbsp;Adept</a>,&nbsp;<a&nbsp;href="/wiki/Psionic_Meditation"&nbsp;title="Psionic&nbsp;Meditation">Psionic&nbsp;Meditation</a>,&nbsp;Con&nbsp;15.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;You&nbsp;may&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;a&nbsp;standard&nbsp;action&nbsp;to&nbsp;gain&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/UMR.aspx?ItemName=Fast%20Healing">fast&nbsp;healing</a>&nbsp;equal&nbsp;to&nbsp;your&nbsp;Constitution&nbsp;modifier&nbsp;for&nbsp;5&nbsp;rounds.&nbsp;Using&nbsp;this&nbsp;feat&nbsp;drains&nbsp;your&nbsp;body’s&nbsp;natural&nbsp;biorhythms;&nbsp;after&nbsp;activating&nbsp;this&nbsp;feat&nbsp;you&nbsp;must&nbsp;wait&nbsp;10&nbsp;minutes&nbsp;before&nbsp;activating&nbsp;it&nbsp;again.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Biokinetic_Adept"&nbsp;title="Biokinetic&nbsp;Adept">Biokinetic&nbsp;Adept</a></li><li><a&nbsp;href="/wiki/Psionic_Meditation"&nbsp;title="Psionic&nbsp;Meditation">Psionic&nbsp;Meditation</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '10'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Wilders'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '37'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

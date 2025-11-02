@@ -1,0 +1,69 @@
+{{! Spellcasting Configuration }}
+<h3 class="form-header">{{localize "PF1-Psionics.Class.ManifestingHeader"}}</h3>
+
+{{#if @root.embedded}}
+<p class="info">
+    <i class="fa-solid fa-circle-info" inert></i>
+    {{localize "PF1.SpellCastingEmbeddedClass"}}
+</p>
+{{/if}}
+
+{{!--
+<div class="form-group spellcasting-type">
+    <label>{{localize "PF1.Type"}}</label>
+    <div class="form-fields">
+        <select name="system.manifesting.type" {{disabled @root.embedded}}>
+            <option value="">{{localize "PF1.None"}}</option>
+            {{selectOptions manifesting.types selected=system.manifesting.type}}
+        </select>
+    </div>
+</div>
+--}}
+
+
+<div class="form-group spellcasting-progression">
+    <label>{{localize "PF1.Spellcasting.Progression.Label"}}</label>
+    <div class="form-fields">
+        <select name="system.manifesting.progression" {{disabled @root.embedded}}>
+            <option value="">{{localize "PF1.None"}}</option>
+            {{selectOptions manifesting.progression selected=system.manifesting.progression localize=true}}
+        </select>
+    </div>
+</div>
+
+{{#if system.manifesting.progression}}
+<div class="form-group spellcasting-ability">
+    <label>{{localize "PF1.SpellcastingAbility"}}</label>
+    <div class="form-fields">
+        <select name="system.manifesting.ability" {{disabled @root.embedded}}>
+            {{selectOptions config.abilities selected=system.manifesting.ability}}
+        </select>
+    </div>
+</div>
+
+{{!--
+<div class="form-group spellcasting-offset">
+    <label>{{localize "PF1.LevelOffset"}}</label>
+    <div class="form-fields">
+        <input type="number" name="system.manifesting.offset" value="{{system.manifesting.offset}}" step="1" placeholder="0"
+            {{disabled @root.embedded}}>
+    </div>
+</div>
+--}}
+
+<div class="form-group spellcasting-cantrips">
+    <label class="checkbox">
+        <input type="checkbox" name="system.manifesting.cantrips" {{checked system.manifesting.cantrips}} {{disabled @root.embedded}}>
+        {{localize "PF1.HasCantrips"}}
+    </label>
+</div>
+
+{{#unless hasSpellbook}}
+<div class="form-group create-spellbook">
+    <button name="create-spellbook" type="button" {{disabled (not @root.editable)}}>
+        <i class="fa-solid fa-book" inert></i>
+        {{localize "PF1.CreateSpellbook"}}
+    </button>
+</div>
+{{/unless}}
+{{/if}}

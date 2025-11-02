@@ -1,0 +1,91 @@
+_id: hGfbisO8Fwx2suUJ
+_key: '!items!hGfbisO8Fwx2suUJ'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Aversion
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Aversion
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: hour
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>You&nbsp;plant&nbsp;a&nbsp;powerful&nbsp;aversion&nbsp;in&nbsp;the&nbsp;mind&nbsp;of&nbsp;the&nbsp;subject.&nbsp;If&nbsp;the&nbsp;object&nbsp;of&nbsp;the&nbsp;implanted&nbsp;aversion&nbsp;is&nbsp;an&nbsp;individual&nbsp;or&nbsp;a&nbsp;physical&nbsp;object,&nbsp;she&nbsp;will&nbsp;prefer&nbsp;not&nbsp;to&nbsp;approach&nbsp;within&nbsp;30&nbsp;feet&nbsp;of&nbsp;it.&nbsp;If&nbsp;it&nbsp;is&nbsp;a&nbsp;word,&nbsp;she&nbsp;will&nbsp;try&nbsp;not&nbsp;to&nbsp;utter&nbsp;it;&nbsp;if&nbsp;it&nbsp;is&nbsp;an&nbsp;action,&nbsp;she&nbsp;will&nbsp;not&nbsp;willingly&nbsp;attempt&nbsp;to&nbsp;perform&nbsp;it;&nbsp;and&nbsp;if&nbsp;it&nbsp;is&nbsp;an&nbsp;event,&nbsp;she&nbsp;will&nbsp;not&nbsp;willingly&nbsp;attend&nbsp;it.&nbsp;The&nbsp;subject&nbsp;will&nbsp;take&nbsp;reasonable&nbsp;steps&nbsp;to&nbsp;avoid&nbsp;the&nbsp;object&nbsp;of&nbsp;its&nbsp;aversion,&nbsp;but&nbsp;will&nbsp;not&nbsp;put&nbsp;herself&nbsp;in&nbsp;jeopardy&nbsp;by&nbsp;doing&nbsp;so.
+
+      </p>
+
+      <p>If&nbsp;the&nbsp;subject&nbsp;is&nbsp;forced&nbsp;into&nbsp;taking&nbsp;an&nbsp;action&nbsp;she&nbsp;has&nbsp;an&nbsp;aversion&nbsp;to,&nbsp;she&nbsp;takes&nbsp;a&nbsp;–2&nbsp;penalty&nbsp;on&nbsp;any&nbsp;attack&nbsp;rolls,&nbsp;ability&nbsp;checks,&nbsp;or&nbsp;skill&nbsp;checks&nbsp;involved.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1&nbsp;and&nbsp;the&nbsp;duration&nbsp;increases&nbsp;by&nbsp;1&nbsp;hour.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: true
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 2
+      telepath: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '79'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '164'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '29'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline:
+    - compulsion
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

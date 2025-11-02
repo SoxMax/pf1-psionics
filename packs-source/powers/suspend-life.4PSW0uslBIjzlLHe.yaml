@@ -1,0 +1,81 @@
+_id: 4PSW0uslBIjzlLHe
+_key: '!items!4PSW0uslBIjzlLHe'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Suspend_Life
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Suspend Life
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: perm
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;place&nbsp;yourself&nbsp;into&nbsp;a&nbsp;trance&nbsp;so&nbsp;deep&nbsp;that&nbsp;you&nbsp;are&nbsp;almost&nbsp;in&nbsp;suspended&nbsp;animation.&nbsp;Even&nbsp;powers&nbsp;that&nbsp;detect&nbsp;life&nbsp;or&nbsp;thought&nbsp;are&nbsp;incapable&nbsp;of&nbsp;determining&nbsp;that&nbsp;you&nbsp;are&nbsp;alive.
+
+      </p>
+
+      <p>While&nbsp;you&nbsp;are&nbsp;suspended,&nbsp;you&nbsp;are&nbsp;aware&nbsp;of&nbsp;your&nbsp;surroundings.&nbsp;You&nbsp;feel&nbsp;the&nbsp;passage&nbsp;of&nbsp;one&nbsp;day&nbsp;for&nbsp;every&nbsp;year&nbsp;that&nbsp;actually&nbsp;passes.&nbsp;Though&nbsp;on&nbsp;a&nbsp;slower&nbsp;schedule,&nbsp;you&nbsp;grow&nbsp;hungry&nbsp;after&nbsp;a&nbsp;"day"&nbsp;without&nbsp;food&nbsp;(though&nbsp;a&nbsp;year&nbsp;passes&nbsp;in&nbsp;actuality)&nbsp;and&nbsp;begin&nbsp;to&nbsp;suffer&nbsp;the&nbsp;effects&nbsp;of&nbsp;thirst&nbsp;and&nbsp;starvation&nbsp;as&nbsp;appropriate.&nbsp;Time-based&nbsp;physical&nbsp;effects&nbsp;like&nbsp;aging&nbsp;are&nbsp;similarly&nbsp;slowed&nbsp;down,&nbsp;although&nbsp;durations&nbsp;of&nbsp;psionic&nbsp;powers&nbsp;and&nbsp;similar&nbsp;effects&nbsp;are&nbsp;treated&nbsp;normally.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;take&nbsp;any&nbsp;damage,&nbsp;you&nbsp;come&nbsp;out&nbsp;of&nbsp;your&nbsp;trance&nbsp;4&nbsp;rounds&nbsp;later.&nbsp;The&nbsp;trance&nbsp;can&nbsp;also&nbsp;be&nbsp;ended&nbsp;by&nbsp;a&nbsp;successful&nbsp;use&nbsp;of&nbsp;dispel&nbsp;psionics.&nbsp;If&nbsp;you&nbsp;choose&nbsp;to&nbsp;dismiss&nbsp;the&nbsp;power,&nbsp;your&nbsp;trance&nbsp;ends&nbsp;10&nbsp;rounds&nbsp;later.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: true
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 6
+      psion: 6
+      psychic warrior: 6
+      vitalist: 6
+      wilder: 6
+  level: 6
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '147'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '248'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

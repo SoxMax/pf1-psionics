@@ -1,0 +1,79 @@
+_id: QWC8PHO9T8amX2NF
+_key: '!items!QWC8PHO9T8amX2NF'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Kinetic_Reload
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Kinetic Reload
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: swift
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        description: None
+      target:
+        value: One firearm
+  description:
+    value: >-
+      <p>You&nbsp;telekinetically&nbsp;reload&nbsp;a&nbsp;single&nbsp;one-handed&nbsp;or&nbsp;two-handed&nbsp;firearm&nbsp;you&nbsp;are&nbsp;currently&nbsp;wielding.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;as&nbsp;part&nbsp;of&nbsp;a&nbsp;full&nbsp;attack&nbsp;sequence,&nbsp;reloading&nbsp;your&nbsp;firearm&nbsp;to&nbsp;allow&nbsp;it&nbsp;to&nbsp;make&nbsp;each&nbsp;attack.
+
+      </p>
+  discipline: psychokinesis
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      marksman: 2
+  level: 2
+  manifestTime:
+    units: swift
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '38'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Hidden Intentions'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '168'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '214'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

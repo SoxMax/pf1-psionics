@@ -1,0 +1,93 @@
+_id: 4Sry1f0oV9HE9eR7
+_key: '!items!4Sry1f0oV9HE9eR7'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Ectoplasmic_Sheen
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Ectoplasmic Sheen
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: See power text
+      target:
+        value: One object or a 10-ft. square
+  description:
+    value: >-
+      <p>You&nbsp;draw&nbsp;forth&nbsp;ectoplasm&nbsp;in&nbsp;an&nbsp;area,&nbsp;causing&nbsp;the&nbsp;surface&nbsp;to&nbsp;become&nbsp;slick.&nbsp;Any&nbsp;creature&nbsp;in&nbsp;the&nbsp;area&nbsp;when&nbsp;the&nbsp;power&nbsp;is&nbsp;manifested&nbsp;must&nbsp;make&nbsp;a&nbsp;successful&nbsp;Reflex&nbsp;save&nbsp;or&nbsp;fall.&nbsp;A&nbsp;creature&nbsp;can&nbsp;walk&nbsp;within&nbsp;or&nbsp;through&nbsp;the&nbsp;area&nbsp;of&nbsp;ectoplasm&nbsp;at&nbsp;half&nbsp;normal&nbsp;speed&nbsp;with&nbsp;a&nbsp;DC&nbsp;10&nbsp;Acrobatics&nbsp;check.&nbsp;Failure&nbsp;means&nbsp;it&nbsp;can't&nbsp;move&nbsp;that&nbsp;round&nbsp;(and&nbsp;must&nbsp;then&nbsp;make&nbsp;a&nbsp;Reflex&nbsp;save&nbsp;or&nbsp;fall),&nbsp;while&nbsp;failure&nbsp;by&nbsp;5&nbsp;or&nbsp;more&nbsp;means&nbsp;it&nbsp;falls&nbsp;(see&nbsp;the&nbsp;Acrobatics&nbsp;skill&nbsp;for&nbsp;details).&nbsp;Creatures&nbsp;that&nbsp;do&nbsp;not&nbsp;move&nbsp;on&nbsp;their&nbsp;turn&nbsp;do&nbsp;not&nbsp;need&nbsp;to&nbsp;make&nbsp;this&nbsp;check&nbsp;and&nbsp;are&nbsp;not&nbsp;considered&nbsp;flat-footed.
+
+      </p>
+
+      <p>The&nbsp;power&nbsp;can&nbsp;also&nbsp;be&nbsp;used&nbsp;to&nbsp;create&nbsp;a&nbsp;greasy&nbsp;coating&nbsp;on&nbsp;an&nbsp;item.&nbsp;Material&nbsp;objects&nbsp;not&nbsp;in&nbsp;use&nbsp;are&nbsp;always&nbsp;affected&nbsp;by&nbsp;this&nbsp;power,&nbsp;while&nbsp;an&nbsp;object&nbsp;wielded&nbsp;or&nbsp;employed&nbsp;by&nbsp;a&nbsp;creature&nbsp;requires&nbsp;its&nbsp;bearer&nbsp;to&nbsp;make&nbsp;a&nbsp;Reflex&nbsp;saving&nbsp;throw&nbsp;to&nbsp;avoid&nbsp;the&nbsp;effect.&nbsp;If&nbsp;the&nbsp;initial&nbsp;saving&nbsp;throw&nbsp;fails,&nbsp;the&nbsp;creature&nbsp;immediately&nbsp;drops&nbsp;the&nbsp;item.&nbsp;A&nbsp;saving&nbsp;throw&nbsp;must&nbsp;be&nbsp;made&nbsp;in&nbsp;each&nbsp;round&nbsp;that&nbsp;the&nbsp;creature&nbsp;attempts&nbsp;to&nbsp;pick&nbsp;up&nbsp;or&nbsp;use&nbsp;the&nbsp;affected&nbsp;item.&nbsp;A&nbsp;creature&nbsp;wearing&nbsp;affected&nbsp;armor&nbsp;or&nbsp;clothing&nbsp;gains&nbsp;a&nbsp;+10&nbsp;circumstance&nbsp;bonus&nbsp;on&nbsp;Escape&nbsp;Artist&nbsp;checks&nbsp;and&nbsp;combat&nbsp;maneuver&nbsp;checks&nbsp;made&nbsp;to&nbsp;escape&nbsp;a&nbsp;grapple,&nbsp;and&nbsp;to&nbsp;their&nbsp;CMD&nbsp;to&nbsp;avoid&nbsp;being&nbsp;grappled.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;each&nbsp;target&nbsp;that&nbsp;fails&nbsp;a&nbsp;Reflex&nbsp;save&nbsp;to&nbsp;remain&nbsp;standing&nbsp;and&nbsp;falls&nbsp;must&nbsp;first&nbsp;make&nbsp;a&nbsp;Strength&nbsp;check&nbsp;(with&nbsp;the&nbsp;same&nbsp;DC&nbsp;as&nbsp;the&nbsp;Reflex&nbsp;save)&nbsp;to&nbsp;stand.
+
+      </p>
+
+      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;two&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend&nbsp;augmenting&nbsp;this&nbsp;power,&nbsp;the&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  discipline: metacreativity
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: true
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 1
+      psion: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '101'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '190'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '38'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  subdiscipline:
+    - creation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

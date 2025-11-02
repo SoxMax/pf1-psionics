@@ -1,0 +1,71 @@
+_id: CDUFj3yMIMd0sNLD
+_key: '!items!CDUFj3yMIMd0sNLD'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Seance
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Seance
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: hour
+      duration:
+        units: hour
+        value: '1'
+      name: Use
+      range:
+        units: unlimited
+        value: Unlimited; see text
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One specific departed soul
+  description:
+    value: >-
+      <p>You&nbsp;and&nbsp;a&nbsp;group&nbsp;of&nbsp;allies&nbsp;summon&nbsp;pieces&nbsp;of&nbsp;a&nbsp;departed&nbsp;soul&nbsp;for&nbsp;questioning.&nbsp;You&nbsp;may&nbsp;include&nbsp;up&nbsp;to&nbsp;two&nbsp;others&nbsp;in&nbsp;this&nbsp;power&nbsp;as&nbsp;members,&nbsp;whom&nbsp;you&nbsp;must&nbsp;remain&nbsp;in&nbsp;close&nbsp;proximity&nbsp;to&nbsp;for&nbsp;the&nbsp;entire&nbsp;manifestation&nbsp;time.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;you&nbsp;must&nbsp;specify&nbsp;a&nbsp;departed&nbsp;soul&nbsp;by&nbsp;name.&nbsp;That&nbsp;departed&nbsp;soul&nbsp;is&nbsp;the&nbsp;target,&nbsp;and&nbsp;can&nbsp;be&nbsp;targeted&nbsp;on&nbsp;different&nbsp;planes.&nbsp;The&nbsp;departed&nbsp;soul&nbsp;is&nbsp;physically&nbsp;drawn&nbsp;to&nbsp;your&nbsp;location,&nbsp;and&nbsp;cannot&nbsp;take&nbsp;any&nbsp;actions&nbsp;while&nbsp;there&nbsp;except&nbsp;to&nbsp;communicate.&nbsp;It&nbsp;is&nbsp;not&nbsp;an&nbsp;actual&nbsp;creature,&nbsp;and&nbsp;cannot&nbsp;be&nbsp;attacked&nbsp;or&nbsp;effected&nbsp;in&nbsp;any&nbsp;way.&nbsp;You&nbsp;and&nbsp;each&nbsp;other&nbsp;that&nbsp;aided&nbsp;you&nbsp;in&nbsp;the&nbsp;manifestation&nbsp;of&nbsp;this&nbsp;power&nbsp;may&nbsp;each&nbsp;ask&nbsp;the&nbsp;departed&nbsp;soul&nbsp;a&nbsp;question,&nbsp;which&nbsp;the&nbsp;departed&nbsp;soul&nbsp;must&nbsp;answer&nbsp;though&nbsp;it&nbsp;only&nbsp;knows&nbsp;what&nbsp;it&nbsp;knew&nbsp;in&nbsp;life.&nbsp;The&nbsp;departed&nbsp;soul&nbsp;can&nbsp;be&nbsp;deceptive&nbsp;or&nbsp;cryptic,&nbsp;if&nbsp;it&nbsp;so&nbsp;wishes.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;spent,&nbsp;you&nbsp;can&nbsp;include&nbsp;an&nbsp;additional&nbsp;member&nbsp;in&nbsp;the&nbsp;manifestation&nbsp;of&nbsp;this&nbsp;power.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;8&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;target&nbsp;a&nbsp;departed&nbsp;soul&nbsp;that&nbsp;has&nbsp;been&nbsp;destroyed&nbsp;in&nbsp;the&nbsp;last&nbsp;week.</li></ol>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      conduit: 1
+      tactician: 1
+  level: 1
+  manifestTime:
+    units: hour
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '40'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

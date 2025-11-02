@@ -1,0 +1,82 @@
+_id: jHV4nfsAVwERVNKv
+_key: '!items!jHV4nfsAVwERVNKv'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Stomp
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Stomp
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: ft
+        value: 20 ft.
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Reflex negates
+        type: ref
+      target:
+        value: Cone-shaped spread
+  description:
+    value: >-
+      <p>Your&nbsp;foot&nbsp;stomp&nbsp;precipitates&nbsp;a&nbsp;psychokinetic&nbsp;shock&nbsp;wave&nbsp;that&nbsp;travels&nbsp;along&nbsp;the&nbsp;ground,&nbsp;toppling&nbsp;creatures&nbsp;and&nbsp;loose&nbsp;objects.&nbsp;The&nbsp;shock&nbsp;wave&nbsp;affects&nbsp;only&nbsp;creatures&nbsp;standing&nbsp;on&nbsp;the&nbsp;ground&nbsp;within&nbsp;the&nbsp;power's&nbsp;area.&nbsp;Creatures&nbsp;that&nbsp;fail&nbsp;their&nbsp;saves&nbsp;are&nbsp;thrown&nbsp;to&nbsp;the&nbsp;ground,&nbsp;are&nbsp;prone,&nbsp;and&nbsp;take&nbsp;1d4&nbsp;points&nbsp;of&nbsp;nonlethal&nbsp;damage.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;nonlethal&nbsp;damage&nbsp;increases&nbsp;by&nbsp;1d4&nbsp;points.&nbsp;For&nbsp;every&nbsp;additional&nbsp;2d4&nbsp;points&nbsp;of&nbsp;nonlethal&nbsp;damage,&nbsp;the&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  discipline: psychokinesis
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 1
+      psychic warrior: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '146'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '247'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '56'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

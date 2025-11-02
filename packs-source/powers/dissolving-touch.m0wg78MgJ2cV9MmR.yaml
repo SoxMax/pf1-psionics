@@ -1,0 +1,85 @@
+_id: m0wg78MgJ2cV9MmR
+_key: '!items!m0wg78MgJ2cV9MmR'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Dissolving_Touch
+folder: KOobADbbBkVCSjkN
+img: icons/magic/unholy/projectile-missile-green.webp
+name: Dissolving Touch
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      damage:
+        parts:
+          - - 4d6
+            - acid
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        description: None
+      target:
+        value: Creature or object touched
+  description:
+    value: >-
+      <p>Your&nbsp;touch,&nbsp;claw,&nbsp;or&nbsp;bite&nbsp;is&nbsp;corrosive,&nbsp;and&nbsp;sizzling&nbsp;moisture&nbsp;visibly&nbsp;oozes&nbsp;from&nbsp;your&nbsp;natural&nbsp;weapon&nbsp;or&nbsp;hand.&nbsp;You&nbsp;deal&nbsp;4d6&nbsp;points&nbsp;of&nbsp;acid&nbsp;damage&nbsp;to&nbsp;any&nbsp;creature&nbsp;or&nbsp;object&nbsp;you&nbsp;touch&nbsp;with&nbsp;your&nbsp;successful&nbsp;melee&nbsp;touch&nbsp;attack.&nbsp;Acid&nbsp;you&nbsp;secrete&nbsp;denatures&nbsp;1&nbsp;round&nbsp;after&nbsp;use,&nbsp;losing&nbsp;all&nbsp;efficacy&nbsp;and&nbsp;ability&nbsp;to&nbsp;deal&nbsp;damage.&nbsp;You&nbsp;are&nbsp;immune&nbsp;to&nbsp;your&nbsp;own&nbsp;acid.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;damage&nbsp;increases&nbsp;by&nbsp;1d6&nbsp;points.
+
+      </p>
+  descriptors:
+    - acid
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psychic warrior: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '98'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '186'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '37'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

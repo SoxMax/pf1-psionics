@@ -1,0 +1,118 @@
+_id: 7u3OJMwt9FwxyvUa
+_key: '!items!7u3OJMwt9FwxyvUa'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Physical_Acceleration
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Physical Acceleration
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;move&nbsp;and&nbsp;act&nbsp;more&nbsp;quickly&nbsp;than&nbsp;normal.&nbsp;This&nbsp;extra&nbsp;speed&nbsp;has&nbsp;several&nbsp;effects.
+
+      </p>
+
+      <p>When&nbsp;making&nbsp;a&nbsp;full&nbsp;attack&nbsp;action,&nbsp;you&nbsp;gain&nbsp;one&nbsp;additional&nbsp;attack.&nbsp;The&nbsp;attack&nbsp;is&nbsp;made&nbsp;using&nbsp;your&nbsp;full&nbsp;base&nbsp;attack&nbsp;bonus,&nbsp;plus&nbsp;any&nbsp;modifiers&nbsp;appropriate&nbsp;to&nbsp;the&nbsp;situation.&nbsp;(This&nbsp;effect&nbsp;is&nbsp;not&nbsp;cumulative&nbsp;with&nbsp;similar&nbsp;effects,&nbsp;such&nbsp;as&nbsp;that&nbsp;provided&nbsp;by&nbsp;a&nbsp;speed&nbsp;weapon,&nbsp;nor&nbsp;does&nbsp;it&nbsp;actually&nbsp;grant&nbsp;an&nbsp;extra&nbsp;action,&nbsp;so&nbsp;you&nbsp;can't&nbsp;use&nbsp;it&nbsp;to&nbsp;manifest&nbsp;a&nbsp;second&nbsp;power&nbsp;or&nbsp;otherwise&nbsp;take&nbsp;an&nbsp;extra&nbsp;action&nbsp;in&nbsp;the&nbsp;round.)
+
+      </p>
+
+      <p>You&nbsp;gain&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;rolls&nbsp;and&nbsp;a&nbsp;+1&nbsp;dodge&nbsp;bonus&nbsp;to&nbsp;AC&nbsp;and&nbsp;Reflex&nbsp;saves.&nbsp;Any&nbsp;condition&nbsp;that&nbsp;makes&nbsp;you&nbsp;lose&nbsp;your&nbsp;Dexterity&nbsp;bonus&nbsp;to&nbsp;Armor&nbsp;Class&nbsp;(if&nbsp;any)&nbsp;also&nbsp;makes&nbsp;you&nbsp;lose&nbsp;dodge&nbsp;bonuses.
+
+      </p>
+
+      <p>All&nbsp;of&nbsp;your&nbsp;modes&nbsp;of&nbsp;movement&nbsp;(including&nbsp;land&nbsp;movement,&nbsp;burrow,&nbsp;climb,&nbsp;fly,&nbsp;and&nbsp;swim)&nbsp;increase&nbsp;by&nbsp;30&nbsp;feet,&nbsp;to&nbsp;a&nbsp;maximum&nbsp;of&nbsp;twice&nbsp;your&nbsp;normal&nbsp;speed&nbsp;using&nbsp;that&nbsp;form&nbsp;of&nbsp;movement.&nbsp;This&nbsp;increase&nbsp;counts&nbsp;as&nbsp;an&nbsp;enhancement&nbsp;bonus,&nbsp;and&nbsp;it&nbsp;affects&nbsp;your&nbsp;jumping&nbsp;distance&nbsp;as&nbsp;normal&nbsp;for&nbsp;increased&nbsp;speed.&nbsp;Multiple&nbsp;physical&nbsp;acceleration&nbsp;effects&nbsp;don't&nbsp;stack,&nbsp;nor&nbsp;does&nbsp;it&nbsp;stack&nbsp;with&nbsp;haste.&nbsp;Physical&nbsp;acceleration&nbsp;negates&nbsp;slow.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      egoist: 3
+      empath: 3
+      gifted blade: 3
+      marksman: 3
+      psychic warrior: 3
+      sighted seeker: 4
+      thug: 3
+      vitalist: 4
+      voyager: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '21'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Find the Mark'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 17–18
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Mind Over Body'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 24–25
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Unlimited Possibilities'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 172–173
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 228–229
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 49–50
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

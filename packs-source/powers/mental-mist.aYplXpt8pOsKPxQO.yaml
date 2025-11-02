@@ -1,0 +1,85 @@
+_id: aYplXpt8pOsKPxQO
+_key: '!items!aYplXpt8pOsKPxQO'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Mental_Mist
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Mental Mist
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '20'
+      damage:
+        parts:
+          - - 1d6
+            - untyped
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: 20 ft radius
+  description:
+    value: >-
+      <p>You&nbsp;reach&nbsp;into&nbsp;the&nbsp;minds&nbsp;of&nbsp;your&nbsp;targets&nbsp;and&nbsp;cloud&nbsp;them,&nbsp;making&nbsp;them&nbsp;think&nbsp;they&nbsp;are&nbsp;deep&nbsp;inside&nbsp;an&nbsp;overwhelming&nbsp;mist&nbsp;or&nbsp;fog.&nbsp;Those&nbsp;who&nbsp;fail&nbsp;their&nbsp;Will&nbsp;saves&nbsp;are&nbsp;affected&nbsp;as&nbsp;follows:&nbsp;The&nbsp;mental&nbsp;mist&nbsp;obscures&nbsp;all&nbsp;sight,&nbsp;including&nbsp;darkvision,&nbsp;beyond&nbsp;5&nbsp;feet.&nbsp;A&nbsp;creature&nbsp;within&nbsp;5&nbsp;feet&nbsp;has&nbsp;concealment&nbsp;(attacks&nbsp;have&nbsp;a&nbsp;20%&nbsp;miss&nbsp;chance).&nbsp;Creatures&nbsp;farther&nbsp;away&nbsp;have&nbsp;total&nbsp;concealment&nbsp;(50%&nbsp;miss&nbsp;chance,&nbsp;and&nbsp;the&nbsp;attacker&nbsp;can't&nbsp;use&nbsp;sight&nbsp;to&nbsp;locate&nbsp;the&nbsp;target).
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;all&nbsp;targets&nbsp;that&nbsp;fail&nbsp;their&nbsp;saves&nbsp;are&nbsp;mentally&nbsp;drained,&nbsp;move&nbsp;at&nbsp;half&nbsp;their&nbsp;normal&nbsp;speed&nbsp;and&nbsp;take&nbsp;a&nbsp;-2&nbsp;penalty&nbsp;on&nbsp;all&nbsp;attack&nbsp;rolls&nbsp;and&nbsp;melee&nbsp;damage&nbsp;rolls&nbsp;and&nbsp;cannot&nbsp;take&nbsp;a&nbsp;5-foot-step&nbsp;while&nbsp;inside.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;all&nbsp;targets&nbsp;that&nbsp;failed&nbsp;their&nbsp;Will&nbsp;save&nbsp;also&nbsp;take&nbsp;1d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;at&nbsp;the&nbsp;start&nbsp;of&nbsp;your&nbsp;turn,&nbsp;beginning&nbsp;with&nbsp;the&nbsp;turn&nbsp;you&nbsp;manifest&nbsp;the&nbsp;mental&nbsp;mist.</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;all&nbsp;targets&nbsp;must&nbsp;make&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;at&nbsp;the&nbsp;beginning&nbsp;of&nbsp;their&nbsp;turn&nbsp;or&nbsp;be&nbsp;overwhelmed&nbsp;by&nbsp;horrid&nbsp;mental&nbsp;images&nbsp;tearing&nbsp;them&nbsp;apart,&nbsp;taking&nbsp;1d4&nbsp;points&nbsp;of&nbsp;Wisdom&nbsp;damage.&nbsp;If&nbsp;they&nbsp;succeed&nbsp;on&nbsp;this&nbsp;save,&nbsp;they&nbsp;take&nbsp;half&nbsp;damage.</li><li>If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus,&nbsp;you&nbsp;can&nbsp;exclude&nbsp;yourself&nbsp;from&nbsp;all&nbsp;effects&nbsp;while&nbsp;inside&nbsp;the&nbsp;area.</li></ol>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 2
+      psion: 2
+      tactician: 2
+      thug: 2
+      vitalist: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '77'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

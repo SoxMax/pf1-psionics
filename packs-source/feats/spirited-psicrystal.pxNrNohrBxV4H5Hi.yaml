@@ -1,0 +1,80 @@
+_id: pxNrNohrBxV4H5Hi
+_key: '!items!pxNrNohrBxV4H5Hi'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Spirited_Psicrystal
+img: icons/commodities/gems/gem-faceted-diamond-blue.webp
+name: Spirited Psicrystal
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>Even&nbsp;after&nbsp;you&nbsp;die&nbsp;and&nbsp;return&nbsp;from&nbsp;death,&nbsp;your&nbsp;psicrystal&nbsp;remains&nbsp;bonded&nbsp;to&nbsp;you.</em></p>
+
+      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Psicrystal_Affinity"&nbsp;title="Psicrystal&nbsp;Affinity">Psicrystal&nbsp;Affinity</a>,&nbsp;manifester&nbsp;level&nbsp;5th.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;Whenever&nbsp;you&nbsp;die&nbsp;and&nbsp;are&nbsp;returned&nbsp;to&nbsp;life,&nbsp;your&nbsp;psicrystal&nbsp;automatically&nbsp;reforms&nbsp;immediately.&nbsp;When&nbsp;it&nbsp;reforms,&nbsp;it&nbsp;must&nbsp;have&nbsp;the&nbsp;same&nbsp;personality&nbsp;as&nbsp;the&nbsp;original.
+
+      </p>
+
+      <p>In&nbsp;addition,&nbsp;having&nbsp;this&nbsp;extra&nbsp;bond&nbsp;strengthens&nbsp;you&nbsp;against&nbsp;further&nbsp;peril.&nbsp;While&nbsp;your&nbsp;psicrystal&nbsp;is&nbsp;active,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;saves&nbsp;against&nbsp;death&nbsp;effects&nbsp;and&nbsp;on&nbsp;checks&nbsp;made&nbsp;to&nbsp;stabilize&nbsp;while&nbsp;you&nbsp;are&nbsp;dying.
+
+      </p>
+
+      <p><strong>Normal:</strong>&nbsp;When&nbsp;you&nbsp;die,&nbsp;your&nbsp;psicrystal&nbsp;is&nbsp;destroyed.&nbsp;When&nbsp;your&nbsp;psicrystal&nbsp;is&nbsp;destroyed,&nbsp;it&nbsp;reforms&nbsp;after&nbsp;24&nbsp;hours.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Bound_Self"&nbsp;title="Bound&nbsp;Self">Bound&nbsp;Self</a></li><li><a&nbsp;href="/wiki/Bound_Spirit"&nbsp;title="Bound&nbsp;Spirit">Bound&nbsp;Spirit</a></li><li><a&nbsp;href="/wiki/Psicrystal_Affinity"&nbsp;title="Psicrystal&nbsp;Affinity">Psicrystal&nbsp;Affinity</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '16'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

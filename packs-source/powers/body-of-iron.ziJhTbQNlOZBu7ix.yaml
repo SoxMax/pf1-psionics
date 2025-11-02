@@ -1,0 +1,94 @@
+_id: ziJhTbQNlOZBu7ix
+_key: '!items!ziJhTbQNlOZBu7ix'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Body_of_Iron
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Body of Iron
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;transform&nbsp;your&nbsp;body&nbsp;into&nbsp;living&nbsp;iron,&nbsp;which&nbsp;grants&nbsp;you&nbsp;several&nbsp;powerful&nbsp;resistances&nbsp;and&nbsp;abilities.&nbsp;You&nbsp;gain&nbsp;damage&nbsp;reduction&nbsp;15/adamantine.&nbsp;You&nbsp;are&nbsp;immune&nbsp;to&nbsp;blindness,&nbsp;critical&nbsp;hits,&nbsp;ability&nbsp;score&nbsp;damage,&nbsp;deafness,&nbsp;disease,&nbsp;drowning,&nbsp;electricity,&nbsp;poison,&nbsp;stunning,&nbsp;and&nbsp;all&nbsp;powers&nbsp;or&nbsp;attacks&nbsp;that&nbsp;affect&nbsp;your&nbsp;physiology&nbsp;or&nbsp;respiration,&nbsp;because&nbsp;you&nbsp;have&nbsp;no&nbsp;physiology&nbsp;or&nbsp;respiration&nbsp;while&nbsp;this&nbsp;power&nbsp;is&nbsp;in&nbsp;effect.&nbsp;You&nbsp;take&nbsp;only&nbsp;half&nbsp;damage&nbsp;from&nbsp;acid&nbsp;and&nbsp;fire.&nbsp;However,&nbsp;you&nbsp;also&nbsp;become&nbsp;vulnerable&nbsp;to&nbsp;all&nbsp;special&nbsp;attacks&nbsp;that&nbsp;affect&nbsp;iron&nbsp;golems.
+
+      </p>
+
+      <p>You&nbsp;gain&nbsp;a&nbsp;+6&nbsp;enhancement&nbsp;bonus&nbsp;to&nbsp;your&nbsp;Strength&nbsp;score,&nbsp;but&nbsp;you&nbsp;take&nbsp;a&nbsp;–6&nbsp;penalty&nbsp;to&nbsp;Dexterity&nbsp;as&nbsp;well&nbsp;(to&nbsp;a&nbsp;minimum&nbsp;Dexterity&nbsp;score&nbsp;of&nbsp;1),&nbsp;and&nbsp;your&nbsp;speed&nbsp;is&nbsp;reduced&nbsp;to&nbsp;half&nbsp;normal.&nbsp;You&nbsp;have&nbsp;an&nbsp;arcane&nbsp;spell&nbsp;failure&nbsp;chance&nbsp;of&nbsp;35%&nbsp;and&nbsp;a&nbsp;–6&nbsp;armor&nbsp;check&nbsp;penalty,&nbsp;just&nbsp;as&nbsp;if&nbsp;you&nbsp;were&nbsp;clad&nbsp;in&nbsp;full&nbsp;plate&nbsp;armor.&nbsp;You&nbsp;cannot&nbsp;drink&nbsp;(and&nbsp;thus&nbsp;can't&nbsp;use&nbsp;potions)&nbsp;or&nbsp;play&nbsp;wind&nbsp;instruments.
+
+      </p>
+
+      <p>Your&nbsp;unarmed&nbsp;attack&nbsp;deals&nbsp;damage&nbsp;equal&nbsp;to&nbsp;a&nbsp;club&nbsp;sized&nbsp;for&nbsp;you&nbsp;(1d4&nbsp;for&nbsp;Small&nbsp;characters&nbsp;or&nbsp;1d6&nbsp;for&nbsp;Medium&nbsp;characters),&nbsp;and&nbsp;you&nbsp;are&nbsp;considered&nbsp;armed&nbsp;when&nbsp;making&nbsp;unarmed&nbsp;attacks.
+
+      </p>
+
+      <p>Your&nbsp;weight&nbsp;increases&nbsp;by&nbsp;a&nbsp;factor&nbsp;of&nbsp;10,&nbsp;causing&nbsp;you&nbsp;to&nbsp;sink&nbsp;in&nbsp;water&nbsp;like&nbsp;a&nbsp;stone.&nbsp;However,&nbsp;you&nbsp;could&nbsp;survive&nbsp;the&nbsp;lack&nbsp;of&nbsp;air&nbsp;at&nbsp;the&nbsp;bottom&nbsp;of&nbsp;the&nbsp;ocean—at&nbsp;least&nbsp;until&nbsp;the&nbsp;duration&nbsp;expires.
+
+      </p>
+  discipline: metacreativity
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 8
+      psychic warrior: 6
+      vitalist: 8
+      wilder: 8
+  level: 6
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '82'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 167–168
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '30'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  subdiscipline:
+    - creation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

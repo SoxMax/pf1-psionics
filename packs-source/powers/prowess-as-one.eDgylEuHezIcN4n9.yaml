@@ -1,0 +1,92 @@
+_id: eDgylEuHezIcN4n9
+_key: '!items!eDgylEuHezIcN4n9'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Prowess_as_One
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Prowess as One
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft/2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates (harmless, see text)
+        harmless: true
+        type: will
+      target:
+        value: You plus one creature
+  description:
+    value: >-
+      <p>This&nbsp;power&nbsp;links&nbsp;the&nbsp;fighting&nbsp;prowess&nbsp;of&nbsp;one&nbsp;to&nbsp;another.&nbsp;Treat&nbsp;all&nbsp;targets&nbsp;of&nbsp;this&nbsp;power&nbsp;in&nbsp;all&nbsp;ways&nbsp;as&nbsp;if&nbsp;they&nbsp;have&nbsp;a&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;equal&nbsp;to&nbsp;the&nbsp;highest&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;amongst&nbsp;all&nbsp;willing&nbsp;targets&nbsp;affected&nbsp;(this&nbsp;can&nbsp;grant&nbsp;additional&nbsp;attacks&nbsp;per&nbsp;round&nbsp;as&nbsp;usual&nbsp;for&nbsp;a&nbsp;high&nbsp;base&nbsp;attack&nbsp;bonus).
+
+      </p>
+
+      <p>Temporary&nbsp;effects&nbsp;that&nbsp;alter&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;are&nbsp;ignored&nbsp;by&nbsp;this&nbsp;power.&nbsp;While&nbsp;subjects&nbsp;still&nbsp;gain&nbsp;the&nbsp;benefit&nbsp;of&nbsp;both&nbsp;effects,&nbsp;prowess&nbsp;as&nbsp;one&nbsp;only&nbsp;deals&nbsp;with&nbsp;their&nbsp;regular&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;before&nbsp;other&nbsp;temporary&nbsp;effects&nbsp;are&nbsp;applied.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;3&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;share&nbsp;one&nbsp;of&nbsp;the&nbsp;target's&nbsp;weapon&nbsp;proficiencies&nbsp;with&nbsp;every&nbsp;other&nbsp;willing&nbsp;target.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;instead&nbsp;share&nbsp;the&nbsp;lowest&nbsp;base&nbsp;attack&nbsp;amongst&nbsp;any&nbsp;targets&nbsp;you&nbsp;choose&nbsp;instead&nbsp;of&nbsp;the&nbsp;highest.&nbsp;This&nbsp;can&nbsp;cause&nbsp;a&nbsp;loss&nbsp;of&nbsp;melee&nbsp;attacks&nbsp;or&nbsp;deny&nbsp;use&nbsp;of&nbsp;feats&nbsp;or&nbsp;class&nbsp;abilities.&nbsp;If&nbsp;a&nbsp;recipient's&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;would&nbsp;be&nbsp;lowered&nbsp;through&nbsp;the&nbsp;use&nbsp;of&nbsp;this&nbsp;power,&nbsp;they&nbsp;may&nbsp;attempt&nbsp;a&nbsp;Will&nbsp;saving&nbsp;throw&nbsp;each&nbsp;round&nbsp;to&nbsp;ignore&nbsp;its&nbsp;effects.</li><li>For&nbsp;every&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;may&nbsp;also&nbsp;select&nbsp;one&nbsp;class&nbsp;feature&nbsp;belonging&nbsp;to&nbsp;you&nbsp;or&nbsp;a&nbsp;target&nbsp;that&nbsp;directly&nbsp;modifies&nbsp;the&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;you&nbsp;share,&nbsp;either&nbsp;by&nbsp;providing&nbsp;a&nbsp;bonus&nbsp;or&nbsp;by&nbsp;altering&nbsp;the&nbsp;base&nbsp;attack&nbsp;bonus.&nbsp;Example&nbsp;class&nbsp;features&nbsp;include&nbsp;the&nbsp;monk's&nbsp;Flurry&nbsp;of&nbsp;Blows&nbsp;class&nbsp;feature.&nbsp;The&nbsp;GM&nbsp;may&nbsp;allow&nbsp;additional&nbsp;abilities&nbsp;at&nbsp;his&nbsp;discretion.&nbsp;You&nbsp;may&nbsp;effectively&nbsp;grant&nbsp;this&nbsp;class&nbsp;feature&nbsp;to&nbsp;any&nbsp;or&nbsp;all&nbsp;willing&nbsp;targets&nbsp;of&nbsp;your&nbsp;choice;&nbsp;treat&nbsp;them&nbsp;as&nbsp;if&nbsp;they&nbsp;actually&nbsp;had&nbsp;the&nbsp;class&nbsp;feature&nbsp;in&nbsp;question,&nbsp;with&nbsp;one&nbsp;exception:&nbsp;if&nbsp;a&nbsp;class&nbsp;feature&nbsp;has&nbsp;additional&nbsp;benefits&nbsp;besides&nbsp;directly&nbsp;modifying&nbsp;the&nbsp;base&nbsp;attack&nbsp;bonus,&nbsp;those&nbsp;additional&nbsp;benefits&nbsp;are&nbsp;not&nbsp;included.</li></ol>
+  descriptors:
+    - mind-affecting
+    - network
+    - shared
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 5
+      tactician: 5
+  level: 5
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 19–20
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Pawns and Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 173–174
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 231–232
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

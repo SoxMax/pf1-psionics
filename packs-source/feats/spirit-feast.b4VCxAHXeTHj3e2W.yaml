@@ -1,0 +1,76 @@
+_id: b4VCxAHXeTHj3e2W
+_key: '!items!b4VCxAHXeTHj3e2W'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Spirit_Feast
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Spirit Feast
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;have&nbsp;become&nbsp;far&nbsp;more&nbsp;efficient&nbsp;in&nbsp;your&nbsp;efforts&nbsp;to&nbsp;preserve&nbsp;your&nbsp;life.</em></p>
+
+      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Feast_of_Folly"&nbsp;title="Feast&nbsp;of&nbsp;Folly">Feast&nbsp;of&nbsp;Folly</a>,&nbsp;character&nbsp;level&nbsp;10th.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;use&nbsp;the&nbsp;Feast&nbsp;of&nbsp;Folly&nbsp;feat,&nbsp;you&nbsp;heal&nbsp;2&nbsp;hit&nbsp;points&nbsp;for&nbsp;each&nbsp;point&nbsp;of&nbsp;ability&nbsp;burn&nbsp;taken&nbsp;instead&nbsp;of&nbsp;1.&nbsp;If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus,&nbsp;you&nbsp;heal&nbsp;3&nbsp;per&nbsp;point&nbsp;of&nbsp;ability&nbsp;burn&nbsp;instead.
+
+      </p>
+
+      <p>The&nbsp;limit&nbsp;to&nbsp;the&nbsp;amount&nbsp;that&nbsp;you&nbsp;may&nbsp;heal&nbsp;through&nbsp;one&nbsp;use&nbsp;of&nbsp;Feast&nbsp;of&nbsp;Folly&nbsp;increases&nbsp;to&nbsp;twice&nbsp;your&nbsp;HD.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Feast_of_Folly"&nbsp;title="Feast&nbsp;of&nbsp;Folly">Feast&nbsp;of&nbsp;Folly</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '16'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

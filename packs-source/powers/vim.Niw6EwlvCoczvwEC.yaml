@@ -1,0 +1,96 @@
+_id: Niw6EwlvCoczvwEC
+_key: '!items!Niw6EwlvCoczvwEC'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Vim
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Vim
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;suffuse&nbsp;yourself&nbsp;with&nbsp;power,&nbsp;gaining&nbsp;1&nbsp;temporary&nbsp;hit&nbsp;point.&nbsp;This&nbsp;temporary&nbsp;hit&nbsp;point&nbsp;overlaps&nbsp;(does&nbsp;not&nbsp;stack)&nbsp;with&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;from&nbsp;any&nbsp;source,&nbsp;including&nbsp;previous&nbsp;manifestations&nbsp;of&nbsp;this&nbsp;power.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: true
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 0
+      dread: 0
+      empath: 0
+      gambler: 0
+      psion: 0
+      psychic warrior: 0
+      thug: 0
+      vitalist: 0
+      wilder: 0
+  level: 0
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '40'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Hidden Intentions'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '35'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '26'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Unlimited Possibilities'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '185'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '256'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,80 @@
+_id: yk6hvdMAUMFzMVIe
+_key: '!items!yk6hvdMAUMFzMVIe'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Inertial_Barrier
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/earth/strike-body-stone-crumble.webp
+name: Inertial Barrier
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: 10 * @cl
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;create&nbsp;a&nbsp;skin-tight&nbsp;psychokinetic&nbsp;barrier&nbsp;around&nbsp;yourself&nbsp;that&nbsp;resists&nbsp;blows,&nbsp;cuts,&nbsp;stabs,&nbsp;and&nbsp;slashes,&nbsp;as&nbsp;well&nbsp;as&nbsp;providing&nbsp;some&nbsp;protection&nbsp;against&nbsp;falling.&nbsp;You&nbsp;gain&nbsp;damage&nbsp;reduction&nbsp;5/–.&nbsp;Inertial&nbsp;barrier&nbsp;also&nbsp;absorbs&nbsp;half&nbsp;the&nbsp;damage&nbsp;you&nbsp;take&nbsp;from&nbsp;any&nbsp;fall.
+
+      </p>
+  discipline: psychokinesis
+  display:
+    auditory: true
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gifted blade: 4
+      kineticist: 4
+      marksman: 4
+      psychic warrior: 4
+      vitalist: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '119'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '213'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '45'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

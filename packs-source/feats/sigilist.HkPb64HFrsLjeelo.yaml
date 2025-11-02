@@ -1,0 +1,72 @@
+_id: HkPb64HFrsLjeelo
+_key: '!items!HkPb64HFrsLjeelo'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Sigilist
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Sigilist
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>Your&nbsp;manifesting&nbsp;includes&nbsp;glowing&nbsp;sigils.</em></p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;The&nbsp;ability&nbsp;to&nbsp;manifest&nbsp;a&nbsp;power.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>Unlike&nbsp;most&nbsp;manifesters,&nbsp;you&nbsp;must&nbsp;draw&nbsp;glowing&nbsp;sigils&nbsp;either&nbsp;on&nbsp;the&nbsp;ground,&nbsp;in&nbsp;the&nbsp;air,&nbsp;or&nbsp;on&nbsp;your&nbsp;body&nbsp;to&nbsp;manifest&nbsp;a&nbsp;power,&nbsp;adding&nbsp;a&nbsp;“Somatic”&nbsp;component&nbsp;to&nbsp;your&nbsp;manifesting.&nbsp;However,&nbsp;these&nbsp;sigils&nbsp;bind&nbsp;your&nbsp;powers&nbsp;to&nbsp;this&nbsp;world&nbsp;and&nbsp;make&nbsp;them&nbsp;hard&nbsp;to&nbsp;resist,&nbsp;giving&nbsp;you&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;to&nbsp;save&nbsp;DCs&nbsp;and&nbsp;+2&nbsp;to&nbsp;your&nbsp;manifester&nbsp;level&nbsp;to&nbsp;overcome&nbsp;power&nbsp;resistance.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Bound_Sigil"&nbsp;title="Bound&nbsp;Sigil">Bound&nbsp;Sigil</a></li><li><a&nbsp;href="/wiki/Permanent_Sigil"&nbsp;title="Permanent&nbsp;Sigil">Permanent&nbsp;Sigil</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '6'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

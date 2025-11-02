@@ -1,0 +1,77 @@
+_id: 4eSqEuzMBH3GUGOW
+_key: '!items!4eSqEuzMBH3GUGOW'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Resting_with_the_Fallen
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Resting with the Fallen
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: round
+      duration:
+        units: spec
+        value: See text
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      target:
+        value: One dead body
+  description:
+    value: >-
+      <p>You&nbsp;transfer&nbsp;your&nbsp;soul&nbsp;into&nbsp;a&nbsp;dead&nbsp;body,&nbsp;claiming&nbsp;their
+
+      memories&nbsp;as&nbsp;your&nbsp;own.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;your&nbsp;body&nbsp;is&nbsp;emptied&nbsp;–&nbsp;you&nbsp;are&nbsp;treated&nbsp;as&nbsp;unconscious&nbsp;and&nbsp;helpless.&nbsp;However,&nbsp;as&nbsp;you&nbsp;are&nbsp;not&nbsp;within&nbsp;your&nbsp;body,&nbsp;you&nbsp;are&nbsp;immune&nbsp;to&nbsp;mind-affecting&nbsp;effects&nbsp;for&nbsp;this&nbsp;time.&nbsp;While&nbsp;this&nbsp;power&nbsp;is&nbsp;active,&nbsp;you&nbsp;may&nbsp;dredge&nbsp;through&nbsp;the&nbsp;target's&nbsp;most&nbsp;recent&nbsp;memories.&nbsp;For&nbsp;each&nbsp;round&nbsp;that&nbsp;you&nbsp;remain&nbsp;in&nbsp;the&nbsp;target's&nbsp;mind&nbsp;(up&nbsp;to&nbsp;1&nbsp;round/level),&nbsp;you&nbsp;access&nbsp;two&nbsp;rounds&nbsp;worth&nbsp;of&nbsp;memory.&nbsp;These&nbsp;memories&nbsp;start&nbsp;from&nbsp;immediately&nbsp;before&nbsp;the&nbsp;target&nbsp;died,&nbsp;and&nbsp;continue&nbsp;backwards&nbsp;from&nbsp;there&nbsp;(for&nbsp;example,&nbsp;if&nbsp;you&nbsp;were&nbsp;in&nbsp;their&nbsp;mind&nbsp;for&nbsp;4&nbsp;rounds,&nbsp;you&nbsp;would&nbsp;learn&nbsp;the&nbsp;last&nbsp;8&nbsp;rounds&nbsp;of&nbsp;their&nbsp;memories&nbsp;prior&nbsp;to&nbsp;death).&nbsp;You&nbsp;only&nbsp;learn&nbsp;anything&nbsp;they&nbsp;experienced&nbsp;or&nbsp;learned&nbsp;in&nbsp;that&nbsp;time&nbsp;period.
+
+      </p>
+
+      <p>If&nbsp;the&nbsp;target's&nbsp;body&nbsp;is&nbsp;destroyed,&nbsp;raised&nbsp;from&nbsp;the&nbsp;dead,&nbsp;or&nbsp;animated&nbsp;as&nbsp;undead&nbsp;while&nbsp;you&nbsp;are&nbsp;in&nbsp;it,&nbsp;this&nbsp;power&nbsp;immediately&nbsp;ends,&nbsp;and&nbsp;you&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Will&nbsp;save&nbsp;or&nbsp;be&nbsp;dazed&nbsp;for&nbsp;1d6&nbsp;rounds.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;you&nbsp;instead&nbsp;gain&nbsp;access&nbsp;to&nbsp;1&nbsp;hour&nbsp;of&nbsp;memories&nbsp;for&nbsp;each&nbsp;round&nbsp;you&nbsp;spend&nbsp;in&nbsp;the&nbsp;target's&nbsp;mind.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;corrupt&nbsp;any&nbsp;memories&nbsp;you&nbsp;access,&nbsp;changing&nbsp;them&nbsp;subtly&nbsp;in&nbsp;ways&nbsp;you&nbsp;choose.&nbsp;This&nbsp;affects&nbsp;any&nbsp;future&nbsp;manifestations&nbsp;of&nbsp;this&nbsp;or&nbsp;other&nbsp;similar&nbsp;effects&nbsp;on&nbsp;the&nbsp;target,&nbsp;as&nbsp;well&nbsp;as&nbsp;affecting&nbsp;the&nbsp;target's&nbsp;memories&nbsp;should&nbsp;they&nbsp;be&nbsp;later&nbsp;raised&nbsp;or&nbsp;become&nbsp;undead.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;animate&nbsp;the&nbsp;body.&nbsp;While&nbsp;this&nbsp;power&nbsp;is&nbsp;active,&nbsp;the&nbsp;dead&nbsp;body&nbsp;is&nbsp;treated&nbsp;as&nbsp;a&nbsp;wight,&nbsp;completely&nbsp;under&nbsp;your&nbsp;control.</li></ol>
+  discipline: athanatism
+  display:
+    auditory: true
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      conduit: 3
+      cryptic: 3
+      tactician: 3
+      thug: 3
+  level: 3
+  manifestTime:
+    units: round
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '39'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,80 @@
+_id: OuDxjkoQ1yr4HVt1
+_key: '!items!OuDxjkoQ1yr4HVt1'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Precognition,_Greater
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Precognition, Greater
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 10
+        type: minute
+      duration:
+        units: spec
+        value: 1 hour/level; see text
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>As&nbsp;<em><a&nbsp;href="/wiki/Precognition"&nbsp;title="Precognition">precognition</a></em>,&nbsp;except&nbsp;as&nbsp;noted&nbsp;here.
+
+      </p>
+
+      <p>You&nbsp;gain&nbsp;a&nbsp;+4&nbsp;insight&nbsp;bonus&nbsp;instead&nbsp;of&nbsp;a&nbsp;+2&nbsp;bonus,&nbsp;and&nbsp;the&nbsp;effect&nbsp;is&nbsp;not&nbsp;discharged&nbsp;when&nbsp;used.&nbsp;You&nbsp;may&nbsp;only&nbsp;gain&nbsp;a&nbsp;number&nbsp;of&nbsp;precognitive&nbsp;edges&nbsp;per&nbsp;manifestation&nbsp;equal&nbsp;to&nbsp;your&nbsp;manifester&nbsp;level.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      seer: 6
+  level: 6
+  manifestTime:
+    units: minute
+    value: 10
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '134'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '230'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '50'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

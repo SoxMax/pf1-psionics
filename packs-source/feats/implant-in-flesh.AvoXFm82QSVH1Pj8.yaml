@@ -1,0 +1,72 @@
+_id: AvoXFm82QSVH1Pj8
+_key: '!items!AvoXFm82QSVH1Pj8'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Implant_in_Flesh
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Implant in Flesh
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>Your&nbsp;mental&nbsp;powers&nbsp;more&nbsp;effectively&nbsp;follow&nbsp;your&nbsp;physical&nbsp;powers.</em></p>
+
+      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Through_the_Flesh"&nbsp;title="Through&nbsp;the&nbsp;Flesh">Through&nbsp;the&nbsp;Flesh</a>.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;using&nbsp;the&nbsp;Through&nbsp;the&nbsp;Flesh&nbsp;metapsionic&nbsp;feat,&nbsp;the&nbsp;target&nbsp;does&nbsp;not&nbsp;gain&nbsp;a&nbsp;save&nbsp;against&nbsp;the&nbsp;telepathy&nbsp;power&nbsp;if&nbsp;they&nbsp;fail&nbsp;their&nbsp;save&nbsp;against&nbsp;the&nbsp;psychometabolism&nbsp;power,&nbsp;or&nbsp;if&nbsp;that&nbsp;power&nbsp;does&nbsp;not&nbsp;allow&nbsp;a&nbsp;save.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Through_the_Flesh"&nbsp;title="Through&nbsp;the&nbsp;Flesh">Through&nbsp;the&nbsp;Flesh</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '4'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

@@ -1,0 +1,84 @@
+_id: CA6j9uMmdUCVWBrB
+_key: '!items!CA6j9uMmdUCVWBrB'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Advanced_Feral_Path
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Advanced Feral Path
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>Your&nbsp;natural&nbsp;attacks&nbsp;are&nbsp;more&nbsp;vicious.</em></p>
+
+      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Psionic_Fist"&nbsp;title="Psionic&nbsp;Fist">Psionic&nbsp;Fist</a>,&nbsp;<a&nbsp;href="/wiki/Unavoidable_Strike"&nbsp;title="Unavoidable&nbsp;Strike">Unavoidable&nbsp;Strike</a>,&nbsp;Feral&nbsp;path&nbsp;class&nbsp;feature,&nbsp;manifester&nbsp;level&nbsp;10th,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+6
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>The&nbsp;competence&nbsp;bonus&nbsp;from&nbsp;your&nbsp;trance&nbsp;now&nbsp;also&nbsp;applies&nbsp;to&nbsp;damage&nbsp;rolls&nbsp;made&nbsp;with&nbsp;natural&nbsp;attacks.&nbsp;In&nbsp;addition,&nbsp;when&nbsp;using&nbsp;the&nbsp;Feral&nbsp;maneuver,&nbsp;if&nbsp;two&nbsp;natural&nbsp;attacks&nbsp;in&nbsp;the&nbsp;same&nbsp;charge&nbsp;are&nbsp;successful,&nbsp;your&nbsp;natural&nbsp;weapons&nbsp;deal&nbsp;extra&nbsp;damage.&nbsp;This&nbsp;damage&nbsp;is&nbsp;equal&nbsp;to&nbsp;the&nbsp;damage&nbsp;dealt&nbsp;by&nbsp;one&nbsp;natural&nbsp;attack&nbsp;plus&nbsp;1-1/2&nbsp;times&nbsp;your&nbsp;Strength&nbsp;modifier&nbsp;(if&nbsp;the&nbsp;two&nbsp;natural&nbsp;attacks&nbsp;deal&nbsp;different&nbsp;amounts&nbsp;of&nbsp;damage,&nbsp;use&nbsp;the&nbsp;lesser&nbsp;of&nbsp;the&nbsp;two).
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Psionic_Fist"&nbsp;title="Psionic&nbsp;Fist">Psionic&nbsp;Fist</a></li><li><a&nbsp;href="/wiki/Unavoidable_Strike"&nbsp;title="Unavoidable&nbsp;Strike">Unavoidable&nbsp;Strike</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '15'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '105'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '87'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

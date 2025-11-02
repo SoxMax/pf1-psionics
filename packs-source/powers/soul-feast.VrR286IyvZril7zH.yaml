@@ -1,0 +1,73 @@
+_id: VrR286IyvZril7zH
+_key: '!items!VrR286IyvZril7zH'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Soul_Feast_(power)
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Soul Feast
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        description: None
+      target:
+        value: One corpse
+  description:
+    value: >-
+      <p>You&nbsp;devour&nbsp;the&nbsp;most&nbsp;delectable&nbsp;parts&nbsp;of&nbsp;the&nbsp;souls&nbsp;of&nbsp;the&nbsp;fallen.&nbsp;The&nbsp;target&nbsp;must&nbsp;have&nbsp;been&nbsp;dead&nbsp;no&nbsp;more&nbsp;than&nbsp;1&nbsp;round&nbsp;per&nbsp;manifester&nbsp;level.&nbsp;You&nbsp;gain&nbsp;a&nbsp;soul&nbsp;pool,&nbsp;with&nbsp;soul&nbsp;points&nbsp;equal&nbsp;to&nbsp;the&nbsp;target's&nbsp;HD&nbsp;plus&nbsp;its&nbsp;Charisma&nbsp;modifier.&nbsp;You&nbsp;may&nbsp;spend&nbsp;one&nbsp;or&nbsp;more&nbsp;soul&nbsp;points&nbsp;from&nbsp;this&nbsp;pool&nbsp;to&nbsp;grant&nbsp;yourself&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;bonuses:&nbsp;heal&nbsp;a&nbsp;point&nbsp;of&nbsp;ability&nbsp;damage&nbsp;(this&nbsp;costs&nbsp;3&nbsp;soul&nbsp;points),&nbsp;heal&nbsp;a&nbsp;point&nbsp;of&nbsp;ability&nbsp;drain&nbsp;(this&nbsp;costs&nbsp;5&nbsp;soul&nbsp;points),&nbsp;heal&nbsp;a&nbsp;negative&nbsp;level&nbsp;(7&nbsp;soul&nbsp;points),&nbsp;or&nbsp;gain&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;the&nbsp;target's&nbsp;HD&nbsp;(1&nbsp;soul&nbsp;point).&nbsp;Spending&nbsp;soul&nbsp;points&nbsp;from&nbsp;a&nbsp;soul&nbsp;pool&nbsp;is&nbsp;always&nbsp;a&nbsp;free&nbsp;action.
+
+      </p>
+
+      <p>The&nbsp;soul&nbsp;pool&nbsp;and&nbsp;any&nbsp;bonuses&nbsp;or&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;granted&nbsp;by&nbsp;this&nbsp;power&nbsp;vanish&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;day.&nbsp;In&nbsp;addition,&nbsp;anyone&nbsp;attempting&nbsp;to&nbsp;return&nbsp;a&nbsp;target&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;life&nbsp;or&nbsp;raise&nbsp;a&nbsp;target&nbsp;of&nbsp;this&nbsp;power&nbsp;as&nbsp;an&nbsp;undead&nbsp;creature&nbsp;must&nbsp;succeed&nbsp;on&nbsp;an&nbsp;opposed&nbsp;manifester&nbsp;level&nbsp;check&nbsp;with&nbsp;you&nbsp;–&nbsp;if&nbsp;they&nbsp;fail,&nbsp;the&nbsp;attempt&nbsp;fails.&nbsp;If&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power&nbsp;while&nbsp;you&nbsp;have&nbsp;soul&nbsp;points&nbsp;in&nbsp;your&nbsp;soul&nbsp;pool&nbsp;(such&nbsp;as&nbsp;from&nbsp;a&nbsp;previous&nbsp;manifestation&nbsp;of&nbsp;this&nbsp;power),&nbsp;the&nbsp;previous&nbsp;soul&nbsp;pool&nbsp;is&nbsp;emptied,&nbsp;and&nbsp;all&nbsp;bonuses&nbsp;or&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;gained&nbsp;from&nbsp;it&nbsp;are&nbsp;immediately&nbsp;lost.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>You&nbsp;may&nbsp;spend&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;to&nbsp;share&nbsp;this&nbsp;feast&nbsp;with&nbsp;one&nbsp;ally&nbsp;that&nbsp;is&nbsp;also&nbsp;adjacent&nbsp;to&nbsp;the&nbsp;target.&nbsp;That&nbsp;ally&nbsp;gains&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;the&nbsp;target's&nbsp;HD.&nbsp;These&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;vanish&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;day.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points,&nbsp;while&nbsp;you&nbsp;have&nbsp;one&nbsp;or&nbsp;more&nbsp;soul&nbsp;points&nbsp;from&nbsp;this&nbsp;power,&nbsp;you&nbsp;gain&nbsp;a&nbsp;bonus&nbsp;on&nbsp;saves&nbsp;against&nbsp;negative&nbsp;energy,&nbsp;death&nbsp;effects,&nbsp;and&nbsp;energy&nbsp;drain&nbsp;equal&nbsp;to&nbsp;the&nbsp;target's&nbsp;Charisma&nbsp;modifier.</li></ol>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: true
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 5
+      psion: 5
+      wilder: 5
+  level: 5
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '42'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

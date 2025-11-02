@@ -1,0 +1,89 @@
+_id: 4YUCNODU6ZyNliJb
+_key: '!items!4YUCNODU6ZyNliJb'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Solicit_Psicrystal
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Solicit Psicrystal
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: swift
+      duration:
+        dismiss: true
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      target:
+        value: Your psicrystal
+  description:
+    value: >-
+      <p>Your&nbsp;<a&nbsp;href="/wiki/Psicrystal"&nbsp;title="Psicrystal">psicrystal</a>&nbsp;takes&nbsp;over&nbsp;the&nbsp;responsibility&nbsp;of&nbsp;maintaining&nbsp;concentration&nbsp;on&nbsp;any&nbsp;single&nbsp;power&nbsp;you&nbsp;have&nbsp;manifested&nbsp;and&nbsp;are&nbsp;concentrating&nbsp;on.&nbsp;While&nbsp;maintaining&nbsp;this&nbsp;concentration,&nbsp;the&nbsp;psicrystal&nbsp;is&nbsp;limited&nbsp;to&nbsp;move&nbsp;actions&nbsp;in&nbsp;each&nbsp;round,&nbsp;as&nbsp;normal,&nbsp;unless&nbsp;the&nbsp;maintaining&nbsp;concentration&nbsp;on&nbsp;the&nbsp;power&nbsp;would&nbsp;not&nbsp;allow&nbsp;a&nbsp;move&nbsp;action.&nbsp;When&nbsp;the&nbsp;duration&nbsp;of&nbsp;solicit&nbsp;psicrystal&nbsp;expires,&nbsp;the&nbsp;power&nbsp;you&nbsp;transferred&nbsp;to&nbsp;the&nbsp;psicrystal&nbsp;ends&nbsp;(even&nbsp;if&nbsp;this&nbsp;would&nbsp;mean&nbsp;that&nbsp;the&nbsp;power&nbsp;ends&nbsp;earlier&nbsp;than&nbsp;normal).&nbsp;If&nbsp;necessary,&nbsp;the&nbsp;psicrystal&nbsp;makes&nbsp;concentration&nbsp;checks&nbsp;using&nbsp;your&nbsp;modifier.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;(and&nbsp;transfer&nbsp;the&nbsp;responsibility)&nbsp;with&nbsp;an&nbsp;instant&nbsp;thought,&nbsp;quickly&nbsp;enough&nbsp;to&nbsp;gain&nbsp;the&nbsp;benefit&nbsp;of&nbsp;the&nbsp;power&nbsp;before&nbsp;you&nbsp;take&nbsp;any&nbsp;other&nbsp;actions&nbsp;in&nbsp;a&nbsp;round.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;maximum&nbsp;duration&nbsp;increases&nbsp;by&nbsp;1&nbsp;round.
+
+      </p>
+  discipline: telepathy
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 3
+      psion: 3
+      tactician: 3
+      vitalist: 3
+      wilder: 3
+  level: 3
+  manifestTime:
+    units: swift
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '146'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '246'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '56'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

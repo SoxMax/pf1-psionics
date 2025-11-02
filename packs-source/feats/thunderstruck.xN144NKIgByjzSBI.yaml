@@ -1,0 +1,86 @@
+_id: xN144NKIgByjzSBI
+_key: '!items!xN144NKIgByjzSBI'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Thunderstruck
+img: icons/skills/melee/hand-grip-sword-orange.webp
+name: Thunderstruck
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>Your&nbsp;music&nbsp;carries&nbsp;the&nbsp;fury&nbsp;of&nbsp;the&nbsp;elements.</em></p>
+
+      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Fire_Starter"&nbsp;title="Fire&nbsp;Starter">Fire&nbsp;Starter</a>,&nbsp;inspire&nbsp;courage&nbsp;class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;use&nbsp;your&nbsp;inspire&nbsp;courage&nbsp;ability,&nbsp;you&nbsp;can&nbsp;choose&nbsp;to&nbsp;imbue&nbsp;the&nbsp;attacks&nbsp;of&nbsp;affected&nbsp;allies&nbsp;with&nbsp;elemental&nbsp;energy,&nbsp;rather&nbsp;than&nbsp;giving&nbsp;them&nbsp;a&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;and&nbsp;weapon&nbsp;damage&nbsp;rolls.&nbsp;This&nbsp;choice&nbsp;is&nbsp;made&nbsp;when&nbsp;you&nbsp;activate&nbsp;the&nbsp;ability,&nbsp;and&nbsp;choice&nbsp;applies&nbsp;to&nbsp;affected&nbsp;allies.
+
+      </p>
+
+      <p>An&nbsp;affected&nbsp;ally&nbsp;does&nbsp;not&nbsp;gain&nbsp;the&nbsp;normal&nbsp;competence&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;and&nbsp;weapon&nbsp;damage&nbsp;rolls,&nbsp;and&nbsp;instead&nbsp;deals&nbsp;additional&nbsp;1d6&nbsp;damage&nbsp;with&nbsp;their&nbsp;weapons&nbsp;for&nbsp;each&nbsp;point&nbsp;of&nbsp;competence&nbsp;bonus&nbsp;that&nbsp;your&nbsp;inspire&nbsp;courage&nbsp;would&nbsp;normally&nbsp;grant.&nbsp;The&nbsp;type&nbsp;of&nbsp;this&nbsp;damage&nbsp;depends&nbsp;on&nbsp;your&nbsp;primary&nbsp;element.&nbsp;This&nbsp;feat&nbsp;is&nbsp;a&nbsp;supernatural&nbsp;ability.
+
+      </p><ul><li><em>Aether:</em>&nbsp;The&nbsp;weapon's&nbsp;normal&nbsp;damage&nbsp;type.</li><li><em>Air:</em>&nbsp;Electricity.</li><li><em>Earth:</em>&nbsp;Sonic.</li><li><em>Fire:</em>&nbsp;Fire.</li><li><em>Water:</em>&nbsp;Cold.</li><li><em>Void:</em>&nbsp;Bludgeoning.</li><li><em>Wood:</em>&nbsp;Positive&nbsp;energy.</li></ul>
+
+      <p><strong>Special:</strong>&nbsp;If&nbsp;you&nbsp;do&nbsp;not&nbsp;have&nbsp;a&nbsp;primary&nbsp;element&nbsp;or&nbsp;if&nbsp;your&nbsp;primary&nbsp;element&nbsp;is&nbsp;not&nbsp;on&nbsp;the&nbsp;above&nbsp;list,&nbsp;then&nbsp;this&nbsp;feat's&nbsp;additional&nbsp;damage&nbsp;type&nbsp;defaults&nbsp;to&nbsp;electricity.&nbsp;At&nbsp;the&nbsp;GM's&nbsp;option,&nbsp;you&nbsp;can&nbsp;use&nbsp;a&nbsp;different&nbsp;damage&nbsp;type&nbsp;from&nbsp;the&nbsp;list&nbsp;(or&nbsp;an&nbsp;entirely&nbsp;new&nbsp;one)&nbsp;based&nbsp;on&nbsp;your&nbsp;primary&nbsp;element.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Fire_Starter"&nbsp;title="Fire&nbsp;Starter">Fire&nbsp;Starter</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '13'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Occult Kineticists'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '81'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Occult Compilation'
+  subType: feat
+  summons: false
+  tags:
+    - combat
+type: feat

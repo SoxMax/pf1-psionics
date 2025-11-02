@@ -1,0 +1,50 @@
+_id: gJhuc0xO133qJ7qx
+_key: '!items!gJhuc0xO133qJ7qx'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Animus_Potency
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Animus Potency
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;are&nbsp;capable&nbsp;of&nbsp;channeling&nbsp;animus&nbsp;into&nbsp;your&nbsp;psionic&nbsp;powers&nbsp;when&nbsp;you&nbsp;manifest&nbsp;them.</em></p>
+
+      <p><strong>Prerequisites:</strong>&nbsp;Spellcraft&nbsp;5&nbsp;ranks,&nbsp;must&nbsp;possess&nbsp;an&nbsp;<a&nbsp;href="/wiki/Animus_(system)"&nbsp;title="Animus&nbsp;(system)">animus&nbsp;pool</a>.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;manifest&nbsp;a&nbsp;power&nbsp;that&nbsp;allows&nbsp;a&nbsp;saving&nbsp;throw,&nbsp;you&nbsp;can&nbsp;spend&nbsp;up&nbsp;2&nbsp;points&nbsp;of&nbsp;animus&nbsp;to&nbsp;increase&nbsp;its&nbsp;save&nbsp;DC&nbsp;by&nbsp;1.&nbsp;At&nbsp;manifester&nbsp;level&nbsp;8th&nbsp;and&nbsp;every&nbsp;four&nbsp;levels&nbsp;thereafter,&nbsp;you&nbsp;can&nbsp;spend&nbsp;an&nbsp;additional&nbsp;2&nbsp;points&nbsp;of&nbsp;animus&nbsp;to&nbsp;add&nbsp;an&nbsp;additional&nbsp;+1&nbsp;to&nbsp;the&nbsp;save&nbsp;DC.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '37'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

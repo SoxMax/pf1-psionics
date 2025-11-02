@@ -1,0 +1,70 @@
+_id: Vs5eAPNsEnmcptp7
+_key: '!items!Vs5eAPNsEnmcptp7'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Duality
+img: icons/sundries/books/book-embossed-blue.webp
+name: Duality
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>Your&nbsp;twinned&nbsp;powers&nbsp;are&nbsp;twice&nbsp;as&nbsp;likely&nbsp;to&nbsp;affect&nbsp;the&nbsp;target.</em></p>
+
+      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Twin_Power"&nbsp;title="Twin&nbsp;Power">Twin&nbsp;Power</a>.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;saving&nbsp;against&nbsp;a&nbsp;twinned&nbsp;power,&nbsp;the&nbsp;targets&nbsp;must&nbsp;make&nbsp;both&nbsp;saves&nbsp;or&nbsp;be&nbsp;affected&nbsp;by&nbsp;both&nbsp;powers&nbsp;as&nbsp;if&nbsp;both&nbsp;saves&nbsp;were&nbsp;failed.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '2'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  subType: feat
+  summons: false
+  tags:
+    - feat
+type: feat

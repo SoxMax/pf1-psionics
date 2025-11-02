@@ -1,0 +1,103 @@
+_id: 228Z5NkN6QC3bfV3
+_key: '!items!228Z5NkN6QC3bfV3'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Disable
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Disable
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: ft
+        value: 20 ft.
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: Cone-shaped emanation centered on you
+  description:
+    value: >-
+      <p>You&nbsp;broadcast&nbsp;a&nbsp;mental&nbsp;compulsion&nbsp;that&nbsp;convinces&nbsp;one&nbsp;or&nbsp;more&nbsp;creatures&nbsp;of&nbsp;a&nbsp;combined&nbsp;total&nbsp;of&nbsp;4&nbsp;Hit&nbsp;Dice&nbsp;or&nbsp;less&nbsp;that&nbsp;they&nbsp;are&nbsp;disabled.&nbsp;Creatures&nbsp;with&nbsp;the&nbsp;fewest&nbsp;HD&nbsp;are&nbsp;affected&nbsp;first.&nbsp;Among&nbsp;creatures&nbsp;with&nbsp;equal&nbsp;Hit&nbsp;Dice,&nbsp;those&nbsp;who&nbsp;are&nbsp;closest&nbsp;to&nbsp;the&nbsp;power's&nbsp;point&nbsp;of&nbsp;origin&nbsp;are&nbsp;affected&nbsp;first.&nbsp;Hit&nbsp;Dice&nbsp;that&nbsp;are&nbsp;not&nbsp;sufficient&nbsp;to&nbsp;affect&nbsp;a&nbsp;creature&nbsp;are&nbsp;wasted.
+
+      </p>
+
+      <p>Creatures&nbsp;that&nbsp;are&nbsp;rendered&nbsp;helpless&nbsp;or&nbsp;are&nbsp;destroyed&nbsp;when&nbsp;they&nbsp;reach&nbsp;0&nbsp;hit&nbsp;points&nbsp;cannot&nbsp;be&nbsp;affected.&nbsp;Creatures&nbsp;affected&nbsp;by&nbsp;this&nbsp;power&nbsp;believe&nbsp;that&nbsp;they&nbsp;have&nbsp;somehow&nbsp;been&nbsp;brought&nbsp;to&nbsp;the&nbsp;brink&nbsp;of&nbsp;unconsciousness&nbsp;and&nbsp;must&nbsp;act&nbsp;accordingly.&nbsp;While&nbsp;it's&nbsp;possible&nbsp;for&nbsp;an&nbsp;important&nbsp;nonplayer&nbsp;character&nbsp;to&nbsp;attempt&nbsp;some&nbsp;sort&nbsp;of&nbsp;"heroic"&nbsp;action,&nbsp;common&nbsp;NPCs&nbsp;and&nbsp;creatures&nbsp;under&nbsp;the&nbsp;effect&nbsp;of&nbsp;this&nbsp;power
+
+      typically&nbsp;cower&nbsp;or&nbsp;retreat.
+
+      </p>
+
+      <p>Any&nbsp;creature&nbsp;that&nbsp;attempts&nbsp;to&nbsp;take&nbsp;a&nbsp;standard&nbsp;action&nbsp;immediately&nbsp;breaks&nbsp;the&nbsp;compulsion&nbsp;and&nbsp;can&nbsp;act&nbsp;normally.&nbsp;A&nbsp;creature&nbsp;that&nbsp;attempts&nbsp;to&nbsp;heal&nbsp;itself&nbsp;or&nbsp;that&nbsp;receives&nbsp;healing&nbsp;is&nbsp;likewise&nbsp;freed&nbsp;of&nbsp;the&nbsp;compulsion,&nbsp;and&nbsp;if&nbsp;it&nbsp;is&nbsp;not&nbsp;actually&nbsp;wounded,&nbsp;the&nbsp;healing&nbsp;is&nbsp;wasted.&nbsp;A&nbsp;creature&nbsp;that&nbsp;takes&nbsp;damage&nbsp;is&nbsp;also&nbsp;instantly&nbsp;freed&nbsp;of&nbsp;the&nbsp;compulsion&nbsp;(although&nbsp;the&nbsp;damage&nbsp;still&nbsp;counts&nbsp;against&nbsp;its&nbsp;actual&nbsp;current&nbsp;hit&nbsp;points).
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;range&nbsp;increases&nbsp;by&nbsp;5&nbsp;feet&nbsp;and&nbsp;its&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+
+      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend&nbsp;to&nbsp;increase&nbsp;the&nbsp;range&nbsp;and&nbsp;the&nbsp;save&nbsp;DC,&nbsp;this&nbsp;power&nbsp;can&nbsp;affect&nbsp;targets&nbsp;that&nbsp;have&nbsp;Hit&nbsp;Dice&nbsp;equal&nbsp;to&nbsp;4&nbsp;+&nbsp;the&nbsp;number&nbsp;of&nbsp;additional&nbsp;points.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 1
+      psion: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '96'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '184'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '36'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline:
+    - compulsion
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

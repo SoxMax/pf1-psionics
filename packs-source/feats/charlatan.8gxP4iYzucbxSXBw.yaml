@@ -1,0 +1,74 @@
+_id: 8gxP4iYzucbxSXBw
+_key: '!items!8gxP4iYzucbxSXBw'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Charlatan
+img: icons/sundries/books/book-embossed-blue.webp
+name: Charlatan
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;can&nbsp;fake&nbsp;out&nbsp;practitioners&nbsp;of&nbsp;magic&nbsp;when&nbsp;using&nbsp;your&nbsp;own&nbsp;superhuman&nbsp;abilities.</em></p>
+
+      <p><strong>Prerequisites:</strong>&nbsp;Bluff&nbsp;1&nbsp;rank,&nbsp;Spellcraft&nbsp;1&nbsp;rank.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;Whenever&nbsp;you&nbsp;use&nbsp;a&nbsp;power,&nbsp;psi-like&nbsp;ability,&nbsp;spell,&nbsp;spell-like&nbsp;ability,&nbsp;or&nbsp;supernatural&nbsp;ability,&nbsp;you&nbsp;may&nbsp;make&nbsp;a&nbsp;Bluff&nbsp;or&nbsp;Spellcraft&nbsp;check&nbsp;to&nbsp;obfuscate&nbsp;the&nbsp;nature&nbsp;of&nbsp;your&nbsp;ability.&nbsp;A&nbsp;creature&nbsp;watching&nbsp;you&nbsp;while&nbsp;you&nbsp;use&nbsp;this&nbsp;ability&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Sense&nbsp;Motive&nbsp;or&nbsp;Spellcraft&nbsp;check&nbsp;with&nbsp;a&nbsp;DC&nbsp;equal&nbsp;to&nbsp;your&nbsp;Bluff&nbsp;check&nbsp;result&nbsp;or&nbsp;they&nbsp;believe&nbsp;that&nbsp;you&nbsp;used&nbsp;a&nbsp;type&nbsp;of&nbsp;effect&nbsp;of&nbsp;your&nbsp;choice&nbsp;from&nbsp;the&nbsp;above&nbsp;list.&nbsp;They&nbsp;do&nbsp;not&nbsp;gain&nbsp;insight&nbsp;into&nbsp;the&nbsp;exact&nbsp;nature&nbsp;of&nbsp;your&nbsp;ability;&nbsp;for&nbsp;example,&nbsp;you&nbsp;could&nbsp;fool&nbsp;a&nbsp;creature&nbsp;into&nbsp;thinking&nbsp;that&nbsp;you've&nbsp;cast&nbsp;a&nbsp;spell,&nbsp;but&nbsp;they&nbsp;will&nbsp;not&nbsp;be&nbsp;sure&nbsp;of&nbsp;what&nbsp;exact&nbsp;spell&nbsp;you've&nbsp;cast.&nbsp;If&nbsp;your&nbsp;ability&nbsp;has&nbsp;obvious&nbsp;components&nbsp;(such&nbsp;as&nbsp;verbal,&nbsp;somatic,&nbsp;or&nbsp;material&nbsp;components,&nbsp;a&nbsp;psionic&nbsp;power's&nbsp;display,&nbsp;or&nbsp;a&nbsp;dragon's&nbsp;breath&nbsp;weapon&nbsp;erupting&nbsp;from&nbsp;its&nbsp;mouth),&nbsp;then&nbsp;you&nbsp;take&nbsp;a&nbsp;–5&nbsp;penalty&nbsp;on&nbsp;your&nbsp;Bluff&nbsp;check.&nbsp;A&nbsp;creature&nbsp;that&nbsp;succeeds&nbsp;on&nbsp;its&nbsp;check&nbsp;may&nbsp;still&nbsp;make&nbsp;a&nbsp;Spellcraft&nbsp;check&nbsp;to&nbsp;identify&nbsp;a&nbsp;spell&nbsp;or&nbsp;power&nbsp;being&nbsp;used,&nbsp;as&nbsp;normal.
+
+      </p>
+
+      <p><strong>Special:</strong>&nbsp;If&nbsp;your&nbsp;campaign&nbsp;uses&nbsp;<em><a&nbsp;href="/wiki/Path_of_War"&nbsp;title="Path&nbsp;of&nbsp;War">Path&nbsp;of&nbsp;War</a></em>,&nbsp;you&nbsp;may&nbsp;use&nbsp;this&nbsp;feat&nbsp;to&nbsp;obfuscate&nbsp;a&nbsp;supernatural&nbsp;martial&nbsp;maneuver,&nbsp;or&nbsp;to&nbsp;disguise&nbsp;one&nbsp;of&nbsp;the&nbsp;listed&nbsp;effects&nbsp;as&nbsp;a&nbsp;martial&nbsp;maneuver.&nbsp;If&nbsp;you&nbsp;do,&nbsp;you&nbsp;may&nbsp;make&nbsp;a&nbsp;Knowledge&nbsp;(martial)&nbsp;check&nbsp;in&nbsp;place&nbsp;of&nbsp;your&nbsp;Bluff&nbsp;or&nbsp;Spellcraft&nbsp;check,&nbsp;and&nbsp;viewers&nbsp;may&nbsp;attempt&nbsp;a&nbsp;Knowledge&nbsp;(martial)&nbsp;check&nbsp;in&nbsp;place&nbsp;of&nbsp;their&nbsp;Sense&nbsp;Motive&nbsp;or&nbsp;Spellcraft&nbsp;check.&nbsp;A&nbsp;maneuver&nbsp;does&nbsp;not&nbsp;have&nbsp;obvious&nbsp;components&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of&nbsp;this&nbsp;feat.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 78–79
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Occult Compilation'
+  subType: feat
+  summons: false
+  tags:
+    - feat
+type: feat

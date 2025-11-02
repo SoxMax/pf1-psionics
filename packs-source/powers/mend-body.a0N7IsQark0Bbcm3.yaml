@@ -1,0 +1,87 @@
+_id: a0N7IsQark0Bbcm3
+_key: '!items!a0N7IsQark0Bbcm3'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Mend_Body
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Mend Body
+system:
+  actions:
+    - actionType: heal
+      activation:
+        cost: 1
+        type: standard
+      damage:
+        parts:
+          - - 3d8
+            - untyped
+          - - 3d8
+            - heal
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;mend&nbsp;your&nbsp;own&nbsp;wounds,&nbsp;healing&nbsp;3d8&nbsp;points&nbsp;of&nbsp;damage.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;spent,&nbsp;the&nbsp;power&nbsp;heals&nbsp;an&nbsp;additional&nbsp;1d8&nbsp;points&nbsp;of&nbsp;damage.</li><li>By&nbsp;expending&nbsp;your&nbsp;psionic&nbsp;focus,&nbsp;each&nbsp;1d8&nbsp;points&nbsp;of&nbsp;damage&nbsp;healed&nbsp;is&nbsp;instead&nbsp;2d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;healed.</li></ol>
+  discipline: psychometabolism
+  display:
+    auditory: true
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      vitalist: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '17'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Mind Over Body'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '170'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '217'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  subdiscipline:
+    - healing
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

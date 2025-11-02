@@ -1,0 +1,68 @@
+_id: 4dCeFmAboUyCFdCE
+_key: '!items!4dCeFmAboUyCFdCE'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Bond_of_Death
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Bond of Death
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 5
+        type: minute
+      duration:
+        units: day
+        value: '@cl'
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        description: None
+      target:
+        value: One willing animal companion or familiar touched with 3 HD or less
+  description:
+    value: >-
+      <p>You&nbsp;reinforce&nbsp;the&nbsp;bond&nbsp;between&nbsp;a&nbsp;master&nbsp;and&nbsp;servant,&nbsp;allowing&nbsp;them&nbsp;to&nbsp;join&nbsp;in&nbsp;undeath.&nbsp;If&nbsp;the&nbsp;target's&nbsp;master&nbsp;dies&nbsp;and&nbsp;is&nbsp;animated&nbsp;as&nbsp;any&nbsp;kind&nbsp;of&nbsp;intelligent&nbsp;undead,&nbsp;the&nbsp;target&nbsp;immediately&nbsp;dies.&nbsp;They&nbsp;reanimate&nbsp;as&nbsp;a&nbsp;ghost,&nbsp;retaining&nbsp;all&nbsp;of&nbsp;the&nbsp;same&nbsp;benefits&nbsp;they&nbsp;had&nbsp;in&nbsp;life&nbsp;as&nbsp;a&nbsp;familiar&nbsp;or&nbsp;animal&nbsp;companion,&nbsp;including&nbsp;the&nbsp;bond&nbsp;to&nbsp;their&nbsp;master.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;spent,&nbsp;the&nbsp;maximum&nbsp;HD&nbsp;of&nbsp;creature&nbsp;that&nbsp;this&nbsp;power&nbsp;can&nbsp;target&nbsp;is&nbsp;increased&nbsp;by&nbsp;1.
+
+      </p>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      conduit: 2
+  level: 2
+  manifestTime:
+    units: minute
+    value: 5
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '24'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

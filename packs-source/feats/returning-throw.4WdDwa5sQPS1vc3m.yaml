@@ -1,0 +1,88 @@
+_id: 4WdDwa5sQPS1vc3m
+_key: '!items!4WdDwa5sQPS1vc3m'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Returning_Throw
+img: icons/weapons/thrown/bomb-fuse-black.webp
+name: Returning Throw
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;are&nbsp;able&nbsp;to&nbsp;make&nbsp;your&nbsp;thrown&nbsp;weapons&nbsp;return&nbsp;to&nbsp;your&nbsp;hand.</em></p>
+
+      <p><strong>Prerequisites:</strong><a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank&nbsp;Shot</a>,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+1.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;As&nbsp;long&nbsp;as&nbsp;you&nbsp;maintain&nbsp;psionic&nbsp;focus,&nbsp;weapons&nbsp;you&nbsp;throw&nbsp;return&nbsp;to&nbsp;the&nbsp;square&nbsp;from&nbsp;which&nbsp;they&nbsp;were&nbsp;thrown&nbsp;just&nbsp;before&nbsp;your&nbsp;next&nbsp;turn.&nbsp;Catching&nbsp;any&nbsp;returning&nbsp;weapons&nbsp;is&nbsp;a&nbsp;free&nbsp;action.&nbsp;If&nbsp;you&nbsp;can’t&nbsp;catch&nbsp;the&nbsp;weapon,&nbsp;it&nbsp;drops&nbsp;to&nbsp;the&nbsp;ground.
+
+      </p>
+
+      <p>You&nbsp;may&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;part&nbsp;of&nbsp;a&nbsp;thrown&nbsp;attack&nbsp;to&nbsp;make&nbsp;the&nbsp;weapon&nbsp;you&nbsp;throw&nbsp;return&nbsp;to&nbsp;your&nbsp;hand&nbsp;immediately&nbsp;after&nbsp;any&nbsp;thrown&nbsp;attack&nbsp;resolves.&nbsp;This&nbsp;effect&nbsp;lasts&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;turn,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;attack&nbsp;multiple&nbsp;times&nbsp;with&nbsp;the&nbsp;same&nbsp;thrown&nbsp;weapon&nbsp;if&nbsp;multiple&nbsp;attacks&nbsp;are&nbsp;otherwise&nbsp;available.
+
+      </p>
+
+      <p>If&nbsp;the&nbsp;weapon&nbsp;(or&nbsp;shield)&nbsp;being&nbsp;thrown&nbsp;has&nbsp;the&nbsp;ranged,&nbsp;returning,&nbsp;or&nbsp;teleporting&nbsp;special&nbsp;ability,&nbsp;your&nbsp;attacks&nbsp;are&nbsp;treated&nbsp;as&nbsp;if&nbsp;you&nbsp;had&nbsp;expended&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;power&nbsp;this&nbsp;feat.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Spearman"&nbsp;title="Spearman">Spearman</a></li></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Marksman"&nbsp;title="Marksman">Marksman</a></li></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '120'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '115'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

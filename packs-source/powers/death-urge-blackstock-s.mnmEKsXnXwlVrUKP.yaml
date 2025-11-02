@@ -1,0 +1,97 @@
+_id: mnmEKsXnXwlVrUKP
+_key: '!items!mnmEKsXnXwlVrUKP'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Death_Urge,_Blackstock's
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Death Urge, Blackstock's
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One living creature
+  description:
+    value: >-
+      <p>You&nbsp;plant&nbsp;a&nbsp;hidden&nbsp;death-urge&nbsp;impulse&nbsp;in&nbsp;the&nbsp;subject's&nbsp;unconscious.&nbsp;On&nbsp;the&nbsp;subject's&nbsp;next&nbsp;turn,&nbsp;it&nbsp;looks&nbsp;for&nbsp;the&nbsp;quickest&nbsp;method&nbsp;to&nbsp;end&nbsp;its&nbsp;life&nbsp;and&nbsp;attempts&nbsp;to&nbsp;do&nbsp;so.&nbsp;The&nbsp;subject&nbsp;takes&nbsp;no&nbsp;other&nbsp;action&nbsp;on&nbsp;its&nbsp;turn&nbsp;except&nbsp;attempting&nbsp;to&nbsp;harm&nbsp;itself.
+
+      </p>
+
+      <p>If&nbsp;armed,&nbsp;the&nbsp;subject&nbsp;attacks&nbsp;itself&nbsp;as&nbsp;a&nbsp;full-round&nbsp;action.&nbsp;The&nbsp;attack&nbsp;automatically&nbsp;succeeds&nbsp;and&nbsp;deals&nbsp;damage&nbsp;as&nbsp;a&nbsp;critical&nbsp;hit.&nbsp;If&nbsp;unarmed,&nbsp;the&nbsp;subject&nbsp;moves&nbsp;adjacent&nbsp;to&nbsp;the&nbsp;nearest&nbsp;enemy&nbsp;and&nbsp;provokes&nbsp;an&nbsp;attack&nbsp;of&nbsp;opportunity,&nbsp;offering&nbsp;its&nbsp;opponent&nbsp;an&nbsp;opening,&nbsp;which&nbsp;the&nbsp;opponent&nbsp;may&nbsp;or&nbsp;may&nbsp;not&nbsp;choose&nbsp;to&nbsp;take&nbsp;advantage&nbsp;of.
+
+      </p>
+
+      <p>If&nbsp;the&nbsp;subject&nbsp;is&nbsp;unarmed&nbsp;and&nbsp;no&nbsp;enemy&nbsp;is&nbsp;nearby,&nbsp;the&nbsp;subject&nbsp;simply&nbsp;does&nbsp;nothing&nbsp;at&nbsp;all.&nbsp;A&nbsp;subject&nbsp;close&nbsp;to&nbsp;an&nbsp;immediate&nbsp;and&nbsp;lethal&nbsp;hazard&nbsp;such&nbsp;as&nbsp;a&nbsp;cliff&nbsp;or&nbsp;a&nbsp;fire&nbsp;might&nbsp;hurl&nbsp;itself&nbsp;off&nbsp;the&nbsp;cliff&nbsp;or&nbsp;into&nbsp;the&nbsp;fire&nbsp;instead&nbsp;of&nbsp;striking&nbsp;itself&nbsp;with&nbsp;a&nbsp;weapon.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.&nbsp;For&nbsp;every&nbsp;2&nbsp;point&nbsp;increase&nbsp;in&nbsp;the&nbsp;power's&nbsp;save&nbsp;DC,&nbsp;the&nbsp;duration&nbsp;increases&nbsp;by&nbsp;1&nbsp;round.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 4
+      gambler: 4
+      psion: 4
+      wilder: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 92–93
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '180'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '35'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline:
+    - compulsion
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

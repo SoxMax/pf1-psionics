@@ -1,0 +1,70 @@
+_id: Ck05RtCWFtu4pLf0
+_key: '!items!Ck05RtCWFtu4pLf0'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Rewind_Age
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Rewind Age
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: hour
+        value: '24'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;ignore&nbsp;the&nbsp;physical&nbsp;detriments&nbsp;of&nbsp;being&nbsp;middle-aged.&nbsp;This&nbsp;spell&nbsp;does&nbsp;not&nbsp;cause&nbsp;you&nbsp;to&nbsp;look&nbsp;younger,&nbsp;nor&nbsp;does&nbsp;it&nbsp;prevent&nbsp;you&nbsp;from&nbsp;dying&nbsp;of&nbsp;old&nbsp;age,&nbsp;but&nbsp;as&nbsp;long&nbsp;as&nbsp;the&nbsp;spell&nbsp;is&nbsp;in&nbsp;effect,&nbsp;you&nbsp;ignore&nbsp;the&nbsp;–1&nbsp;penalties&nbsp;to&nbsp;Strength,&nbsp;Dexterity,&nbsp;and&nbsp;Constitution&nbsp;that&nbsp;accrue&nbsp;once&nbsp;you&nbsp;become&nbsp;middle-aged.&nbsp;You&nbsp;retain&nbsp;the&nbsp;age-related&nbsp;bonuses&nbsp;to&nbsp;Intelligence,&nbsp;Wisdom,&nbsp;and&nbsp;Charisma&nbsp;while&nbsp;under&nbsp;the&nbsp;effects&nbsp;of&nbsp;this&nbsp;spell.&nbsp;Additional&nbsp;penalties&nbsp;that&nbsp;you&nbsp;accrue&nbsp;upon&nbsp;becoming&nbsp;old&nbsp;or&nbsp;venerable&nbsp;apply&nbsp;in&nbsp;full.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;3&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;ignore&nbsp;the&nbsp;penalties&nbsp;of&nbsp;another,&nbsp;higher,&nbsp;age&nbsp;category&nbsp;(old,&nbsp;venerable).</li><li>If&nbsp;you&nbsp;spend&nbsp;3&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;becomes&nbsp;1&nbsp;day/level.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;range&nbsp;becomes&nbsp;Touch&nbsp;and&nbsp;the&nbsp;target&nbsp;becomes:&nbsp;One&nbsp;living&nbsp;creature.</li></ol>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 4
+      vitalist: 4
+      wilder: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '13'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

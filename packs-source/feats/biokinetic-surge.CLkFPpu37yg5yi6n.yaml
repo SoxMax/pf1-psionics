@@ -1,0 +1,72 @@
+_id: CLkFPpu37yg5yi6n
+_key: '!items!CLkFPpu37yg5yi6n'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Biokinetic_Surge
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Biokinetic Surge
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;can&nbsp;burn&nbsp;away&nbsp;long-term&nbsp;damage&nbsp;to&nbsp;your&nbsp;body.</em></p>
+
+      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Biokinetic_Adept"&nbsp;title="Biokinetic&nbsp;Adept">Biokinetic&nbsp;Adept</a>,&nbsp;Con&nbsp;13,&nbsp;wild&nbsp;surge&nbsp;class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;You&nbsp;may&nbsp;invoke&nbsp;your&nbsp;wild&nbsp;surge&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;heal&nbsp;an&nbsp;amount&nbsp;of&nbsp;ability&nbsp;damage&nbsp;to&nbsp;your&nbsp;Strength,&nbsp;Dexterity,&nbsp;or&nbsp;Constitution&nbsp;equal&nbsp;to&nbsp;your&nbsp;wild&nbsp;surge's&nbsp;intensity.&nbsp;The&nbsp;first&nbsp;time&nbsp;per&nbsp;day&nbsp;that&nbsp;you&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;do&nbsp;not&nbsp;need&nbsp;to&nbsp;check&nbsp;for&nbsp;psychic&nbsp;enervation.&nbsp;You&nbsp;check&nbsp;for&nbsp;psychic&nbsp;enervation&nbsp;as&nbsp;normal&nbsp;for&nbsp;each&nbsp;use&nbsp;thereafter.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Biokinetic_Adept"&nbsp;title="Biokinetic&nbsp;Adept">Biokinetic&nbsp;Adept</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '37'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

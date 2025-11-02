@@ -1,0 +1,88 @@
+_id: uO111Yq1A6Lg4yMX
+_key: '!items!uO111Yq1A6Lg4yMX'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Shatter_Mind_Blank
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Shatter Mind Blank
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '30'
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: ft
+        value: 30 ft.
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: 30-ft.-radius burst centered on you
+  description:
+    value: >-
+      <p>This&nbsp;power&nbsp;can&nbsp;negate&nbsp;a&nbsp;barred&nbsp;mind,&nbsp;mind&nbsp;blank,&nbsp;or&nbsp;a&nbsp;personal&nbsp;barred&nbsp;mind&nbsp;affecting&nbsp;all&nbsp;creatures&nbsp;within&nbsp;range.&nbsp;If&nbsp;the&nbsp;affected&nbsp;creatures&nbsp;fail&nbsp;their&nbsp;saves&nbsp;and&nbsp;do&nbsp;not&nbsp;overcome&nbsp;your&nbsp;attempt&nbsp;with&nbsp;power&nbsp;resistance,&nbsp;you&nbsp;can&nbsp;shatter&nbsp;the&nbsp;effects&nbsp;by&nbsp;making&nbsp;a&nbsp;successful&nbsp;check&nbsp;(1d20&nbsp;+&nbsp;your&nbsp;manifester&nbsp;level,&nbsp;maximum&nbsp;+20)&nbsp;against&nbsp;a&nbsp;DC&nbsp;equal&nbsp;to&nbsp;11&nbsp;+&nbsp;the&nbsp;manifester&nbsp;level&nbsp;of&nbsp;the&nbsp;creator&nbsp;of&nbsp;each&nbsp;of&nbsp;the&nbsp;effects.&nbsp;If&nbsp;you&nbsp;succeed,&nbsp;the&nbsp;barred&nbsp;mind&nbsp;or&nbsp;mind&nbsp;blank&nbsp;effect&nbsp;ends.&nbsp;Use&nbsp;the&nbsp;same&nbsp;check&nbsp;against&nbsp;each&nbsp;barred&nbsp;mind,&nbsp;mind&nbsp;blank,&nbsp;or&nbsp;personal&nbsp;barred&nbsp;mind&nbsp;effect.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;designate&nbsp;creatures&nbsp;within&nbsp;the&nbsp;affected&nbsp;area&nbsp;who&nbsp;are&nbsp;not&nbsp;affected&nbsp;by&nbsp;your&nbsp;manifestation&nbsp;of&nbsp;shatter&nbsp;mind&nbsp;blank.
+
+      </p>
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: true
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 5
+      gambler: 5
+      psion: 5
+      wilder: 5
+  level: 5
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '145'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '244'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 55–56
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

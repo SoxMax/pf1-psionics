@@ -1,0 +1,82 @@
+_id: I8q60Vx3IU31yyMy
+_key: '!items!I8q60Vx3IU31yyMy'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Deadly_Throw
+img: icons/weapons/thrown/bomb-fuse-black.webp
+name: Deadly Throw
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>Your&nbsp;skill&nbsp;with&nbsp;thrown&nbsp;weapons&nbsp;allows&nbsp;you&nbsp;to&nbsp;replace&nbsp;power&nbsp;with&nbsp;finesse.</em></p>
+
+      <p><strong>Prerequisites:</strong>&nbsp;Dex&nbsp;15,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank&nbsp;Shot</a>,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+3.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;As&nbsp;long&nbsp;as&nbsp;you&nbsp;maintain&nbsp;psionic&nbsp;focus,&nbsp;you&nbsp;may&nbsp;add&nbsp;your&nbsp;Dexterity&nbsp;modifier&nbsp;to&nbsp;damage&nbsp;rolls&nbsp;made&nbsp;with&nbsp;thrown&nbsp;weapons&nbsp;instead&nbsp;of&nbsp;using&nbsp;your&nbsp;Strength&nbsp;modifier.&nbsp;You&nbsp;must&nbsp;be&nbsp;within&nbsp;30&nbsp;ft.&nbsp;of&nbsp;the&nbsp;target&nbsp;to&nbsp;gain&nbsp;this&nbsp;benefit.
+
+      </p>
+
+      <p><strong>Normal:</strong>&nbsp;You&nbsp;add&nbsp;your&nbsp;Strength&nbsp;modifier&nbsp;to&nbsp;damage&nbsp;rolls&nbsp;for&nbsp;attacks&nbsp;made&nbsp;with&nbsp;thrown&nbsp;weapons.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Deadly_Throw_(Mythic)"&nbsp;title="Deadly&nbsp;Throw&nbsp;(Mythic)">Deadly&nbsp;Throw&nbsp;(Mythic)</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '111'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '97'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

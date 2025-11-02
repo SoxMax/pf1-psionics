@@ -1,0 +1,75 @@
+_id: E9qPCbbN240q0fQc
+_key: '!items!E9qPCbbN240q0fQc'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Tormenting_the_Living
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Tormenting the Living
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: hour
+        value: '@cl'
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One living creature touched
+  description:
+    value: >-
+      <p>You&nbsp;bind&nbsp;a&nbsp;spirit&nbsp;to&nbsp;a&nbsp;living&nbsp;creature,&nbsp;goading&nbsp;it&nbsp;into&nbsp;tormenting&nbsp;and&nbsp;torturing&nbsp;them.&nbsp;They&nbsp;are&nbsp;constantly&nbsp;harassed&nbsp;by&nbsp;ghostly&nbsp;hallucinations,&nbsp;suffering&nbsp;a&nbsp;-2&nbsp;penalty&nbsp;on&nbsp;Reflex&nbsp;saves&nbsp;and&nbsp;AC&nbsp;against&nbsp;attacks&nbsp;of&nbsp;opportunity.&nbsp;During&nbsp;your&nbsp;turn,&nbsp;as&nbsp;a&nbsp;swift&nbsp;action,&nbsp;you&nbsp;may&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;empower&nbsp;the&nbsp;spirit,&nbsp;haunting&nbsp;the&nbsp;creature&nbsp;more&nbsp;intensely.&nbsp;It&nbsp;is&nbsp;shaken&nbsp;for&nbsp;a&nbsp;number&nbsp;of&nbsp;rounds&nbsp;equal&nbsp;to&nbsp;your&nbsp;Charisma&nbsp;modifier.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;any&nbsp;incorporeal&nbsp;creature&nbsp;that&nbsp;attacks&nbsp;the&nbsp;target&nbsp;gains&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;rolls,&nbsp;damage&nbsp;rolls,&nbsp;and&nbsp;save&nbsp;DCs&nbsp;of&nbsp;powers&nbsp;it&nbsp;manifests&nbsp;or&nbsp;effects&nbsp;it&nbsp;creates.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points,&nbsp;increase&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;1&nbsp;day/level.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;increase&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;1&nbsp;week/level.</li></ol>
+  descriptors:
+    - mind-affecting
+    - fear
+  discipline: athanatism
+  display:
+    auditory: true
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 2
+      vitalist: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '44'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

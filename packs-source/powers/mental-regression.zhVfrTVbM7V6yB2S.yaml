@@ -1,0 +1,76 @@
+_id: zhVfrTVbM7V6yB2S
+_key: '!items!zhVfrTVbM7V6yB2S'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Mental_Regression_(power)
+folder: KOobADbbBkVCSjkN
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Mental Regression
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: 10 * @cl
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will or Fortitude negates (see text)
+        type: fort
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>You&nbsp;regress&nbsp;the&nbsp;targets&nbsp;mental&nbsp;faculties,&nbsp;making&nbsp;them&nbsp;dim-witted&nbsp;and&nbsp;coarse,&nbsp;perhaps&nbsp;even&nbsp;reducing&nbsp;them&nbsp;to&nbsp;an&nbsp;animal&nbsp;state.&nbsp;If&nbsp;the&nbsp;target&nbsp;fails&nbsp;its&nbsp;saving&nbsp;throw&nbsp;(Will&nbsp;for&nbsp;telepathy,&nbsp;Fortitude&nbsp;for&nbsp;psychometabolism),&nbsp;it&nbsp;takes&nbsp;a&nbsp;1d6&nbsp;penalty&nbsp;to&nbsp;Intelligence,&nbsp;Wisdom&nbsp;and&nbsp;Charisma&nbsp;(this&nbsp;cannot&nbsp;reduce&nbsp;a&nbsp;score&nbsp;below&nbsp;1).&nbsp;If&nbsp;the&nbsp;target’s&nbsp;ability&nbsp;score&nbsp;is&nbsp;reduced&nbsp;to&nbsp;1,&nbsp;they&nbsp;cannot&nbsp;use&nbsp;any&nbsp;skills&nbsp;related&nbsp;to&nbsp;that&nbsp;ability&nbsp;score,&nbsp;cannot&nbsp;communicate&nbsp;clearly&nbsp;(or&nbsp;at&nbsp;all),&nbsp;cannot&nbsp;understand&nbsp;language,&nbsp;but&nbsp;can&nbsp;still&nbsp;identify&nbsp;friend&nbsp;and&nbsp;foe.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ul><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;range&nbsp;increases&nbsp;to&nbsp;Medium&nbsp;(100&nbsp;ft.&nbsp;+&nbsp;10&nbsp;ft.&nbsp;/&nbsp;level).</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spent,&nbsp;the&nbsp;penalty&nbsp;increases&nbsp;by&nbsp;1d6.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;changes&nbsp;to&nbsp;Instantaneous&nbsp;and&nbsp;the&nbsp;penalty&nbsp;can&nbsp;only&nbsp;be&nbsp;removed&nbsp;through&nbsp;the&nbsp;use&nbsp;of&nbsp;<em>psychic&nbsp;surgery,&nbsp;heal,&nbsp;wish,&nbsp;reality&nbsp;revision&nbsp;</em>or&nbsp;a&nbsp;similar&nbsp;power&nbsp;or&nbsp;spell.</li></ul>
+  descriptors:
+    - mind-affecting
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      dread: 2
+      psion: 2
+      thug: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '12'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

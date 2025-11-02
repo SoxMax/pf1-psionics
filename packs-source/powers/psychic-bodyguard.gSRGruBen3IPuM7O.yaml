@@ -1,0 +1,100 @@
+_id: gSRGruBen3IPuM7O
+_key: '!items!gSRGruBen3IPuM7O'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psychic_Bodyguard
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Psychic Bodyguard
+system:
+  actions:
+    - actionType: rsak
+      activation:
+        cost: 1
+        type: round
+      duration:
+        dismiss: true
+        units: spec
+        value: One hour/level (D) or until discharged; see text
+      name: Use
+      range:
+        units: med
+        value: Medium (100 feet + 10 feet/level)
+      save:
+        description: Yes (harmless)
+        harmless: true
+      target:
+        value: One willing creature
+  description:
+    value: >-
+      <p>You&nbsp;forge&nbsp;a&nbsp;specialized&nbsp;telepathic&nbsp;connection&nbsp;between&nbsp;yourself&nbsp;and&nbsp;one&nbsp;ally.&nbsp;Whenever&nbsp;the&nbsp;target&nbsp;must&nbsp;make&nbsp;a&nbsp;Will&nbsp;save,&nbsp;you&nbsp;make&nbsp;the&nbsp;save&nbsp;instead&nbsp;as&nbsp;if&nbsp;the&nbsp;effect&nbsp;targeted&nbsp;you.&nbsp;If&nbsp;you&nbsp;fail&nbsp;in&nbsp;the&nbsp;saving&nbsp;throw,&nbsp;your&nbsp;ally&nbsp;suffers&nbsp;the&nbsp;consequences&nbsp;of&nbsp;the&nbsp;effect&nbsp;that&nbsp;forced&nbsp;the&nbsp;Will&nbsp;save&nbsp;and&nbsp;you&nbsp;must&nbsp;make&nbsp;an&nbsp;additional&nbsp;Will&nbsp;save&nbsp;at&nbsp;the&nbsp;same&nbsp;DC&nbsp;or&nbsp;be&nbsp;stunned&nbsp;for&nbsp;one&nbsp;round.&nbsp;The&nbsp;target&nbsp;may&nbsp;willingly&nbsp;fail&nbsp;saves&nbsp;against&nbsp;harmless&nbsp;powers&nbsp;without&nbsp;causing&nbsp;you&nbsp;to&nbsp;be&nbsp;stunned.&nbsp;Once&nbsp;the&nbsp;connection&nbsp;is&nbsp;forged,&nbsp;you&nbsp;can&nbsp;make&nbsp;Will&nbsp;saves&nbsp;for&nbsp;your&nbsp;ally&nbsp;as&nbsp;long&nbsp;as&nbsp;she&nbsp;remains&nbsp;in&nbsp;range.&nbsp;If&nbsp;she&nbsp;strays&nbsp;out&nbsp;of&nbsp;range,&nbsp;the&nbsp;power&nbsp;ends.&nbsp;You&nbsp;may&nbsp;not&nbsp;willingly&nbsp;fail&nbsp;a&nbsp;save&nbsp;when&nbsp;using&nbsp;psychic&nbsp;bodyguard,&nbsp;but&nbsp;you&nbsp;may&nbsp;allow&nbsp;the&nbsp;target&nbsp;to&nbsp;make&nbsp;her&nbsp;own&nbsp;save.&nbsp;The&nbsp;power&nbsp;immediately&nbsp;ends&nbsp;after&nbsp;you&nbsp;have&nbsp;made&nbsp;a&nbsp;successful&nbsp;Will&nbsp;save&nbsp;for&nbsp;the&nbsp;target.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;spent,&nbsp;the&nbsp;power&nbsp;lasts&nbsp;for&nbsp;one&nbsp;additional&nbsp;successful&nbsp;Will&nbsp;save.</li><li>If&nbsp;you&nbsp;spend&nbsp;8&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;power&nbsp;is&nbsp;not&nbsp;discharged&nbsp;after&nbsp;making&nbsp;a&nbsp;successful&nbsp;Will&nbsp;save.</li></ol>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 2
+      psion: 2
+      tactician: 2
+      vitalist: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: round
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '20'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Pawns and Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '18'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Mind Over Body'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 174–175
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '233'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '51'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

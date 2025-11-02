@@ -1,0 +1,76 @@
+_id: wUFGecpFI08j0YOd
+_key: '!items!wUFGecpFI08j0YOd'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Resist_the_Lure
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Resist the Lure
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>Your&nbsp;force&nbsp;of&nbsp;will&nbsp;is&nbsp;heightened&nbsp;against&nbsp;the&nbsp;predations&nbsp;of&nbsp;ghosts&nbsp;and&nbsp;spirits.</em></p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Wis&nbsp;13.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;While&nbsp;you&nbsp;maintain&nbsp;psionic&nbsp;focus,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;on&nbsp;saves&nbsp;against&nbsp;the&nbsp;abilities&nbsp;of&nbsp;any&nbsp;incorporeal&nbsp;creature.
+
+      </p>
+
+      <p>Additionally,&nbsp;if&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;part&nbsp;of&nbsp;a&nbsp;save&nbsp;against&nbsp;one&nbsp;of&nbsp;these&nbsp;effects,&nbsp;you&nbsp;instead&nbsp;gain&nbsp;a&nbsp;bonus&nbsp;of&nbsp;+4&nbsp;on&nbsp;that&nbsp;saving&nbsp;throw.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Deny_the_Lure"&nbsp;title="Deny&nbsp;the&nbsp;Lure">Deny&nbsp;the&nbsp;Lure</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '16'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

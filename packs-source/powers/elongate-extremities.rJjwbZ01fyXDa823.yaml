@@ -1,0 +1,74 @@
+_id: rJjwbZ01fyXDa823
+_key: '!items!rJjwbZ01fyXDa823'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Elongate_Extremities
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Elongate Extremities
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;elongate&nbsp;either&nbsp;your&nbsp;arms&nbsp;(or&nbsp;whatever&nbsp;extremities&nbsp;are&nbsp;equivalent)&nbsp;or&nbsp;your&nbsp;legs&nbsp;to&nbsp;gain&nbsp;an&nbsp;advantage&nbsp;over&nbsp;your&nbsp;enemies.
+
+      </p><ul><li><em>Arms:</em>&nbsp;Increase&nbsp;your&nbsp;reach&nbsp;by&nbsp;5&nbsp;ft&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power.</li></ul>
+
+      <ul><li><em>Legs:</em>&nbsp;Increase&nbsp;your&nbsp;speed&nbsp;by&nbsp;5&nbsp;ft&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;end&nbsp;your&nbsp;turn&nbsp;in&nbsp;the&nbsp;same&nbsp;square&nbsp;as&nbsp;any&nbsp;creature&nbsp;that&nbsp;is&nbsp;the&nbsp;same&nbsp;size&nbsp;or&nbsp;smaller&nbsp;as&nbsp;you.</li></ul>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of
+
+      the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;becomes&nbsp;10&nbsp;minutes&nbsp;per&nbsp;level.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;speed&nbsp;increase&nbsp;becomes&nbsp;+15&nbsp;ft&nbsp;instead&nbsp;of&nbsp;+5&nbsp;ft&nbsp;and&nbsp;you&nbsp;can&nbsp;end&nbsp;your&nbsp;turn&nbsp;in&nbsp;the&nbsp;same&nbsp;square&nbsp;as&nbsp;a&nbsp;creature&nbsp;that&nbsp;is&nbsp;up&nbsp;to&nbsp;two&nbsp;sizes&nbsp;larger&nbsp;than&nbsp;you.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;elongate&nbsp;both&nbsp;arms&nbsp;and&nbsp;legs&nbsp;at&nbsp;the&nbsp;same&nbsp;time.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;your&nbsp;reach&nbsp;increases&nbsp;by&nbsp;10&nbsp;ft&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power.</li><li>If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus,&nbsp;you&nbsp;can&nbsp;double&nbsp;the&nbsp;bonus&nbsp;and&nbsp;manifest&nbsp;it&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;but&nbsp;the&nbsp;power&nbsp;only&nbsp;lasts&nbsp;for&nbsp;1&nbsp;round,&nbsp;and&nbsp;the&nbsp;duration&nbsp;cannot&nbsp;be&nbsp;augmented&nbsp;in&nbsp;any&nbsp;way.</li></ol>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: true
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      egoist: 1
+      gifted blade: 1
+      psychic warrior: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 70–71
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

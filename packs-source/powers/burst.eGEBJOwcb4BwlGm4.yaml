@@ -1,0 +1,86 @@
+_id: eGEBJOwcb4BwlGm4
+_key: '!items!eGEBJOwcb4BwlGm4'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Burst
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Burst
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: swift
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>This&nbsp;power&nbsp;increases&nbsp;your&nbsp;land&nbsp;speed&nbsp;by&nbsp;10&nbsp;feet.&nbsp;This&nbsp;adjustment&nbsp;counts&nbsp;as&nbsp;an&nbsp;enhancement&nbsp;bonus&nbsp;to&nbsp;speed.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;enhancement&nbsp;bonus&nbsp;to&nbsp;speed&nbsp;increases&nbsp;by&nbsp;10&nbsp;feet.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gifted blade: 1
+      marksman: 1
+      nomad: 1
+      psychic warrior: 1
+      sighted seeker: 1
+      thug: 1
+      voyager: 1
+  level: 1
+  manifestTime:
+    units: swift
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '83'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '169'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '31'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

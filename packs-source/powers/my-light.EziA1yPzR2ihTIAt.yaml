@@ -1,0 +1,104 @@
+_id: EziA1yPzR2ihTIAt
+_key: '!items!EziA1yPzR2ihTIAt'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/My_Light
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/light/explosion-star-glow-silhouette.webp
+name: My Light
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: cone
+        units: ft
+        value: '40'
+      duration:
+        dismiss: true
+        units: minute
+        value: 10 * @cl
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: 40-ft. cone of light emanating from you
+  description:
+    value: >-
+      <p>Your&nbsp;eyes&nbsp;beam&nbsp;forth&nbsp;a&nbsp;40-foot&nbsp;cone&nbsp;of&nbsp;light;&nbsp;for&nbsp;the&nbsp;first&nbsp;20&nbsp;feet,&nbsp;you&nbsp;shed&nbsp;normal&nbsp;light&nbsp;in&nbsp;such&nbsp;area,&nbsp;and&nbsp;you&nbsp;increase&nbsp;the&nbsp;light&nbsp;level&nbsp;for&nbsp;the&nbsp;other&nbsp;20&nbsp;feet&nbsp;by&nbsp;one&nbsp;step,&nbsp;up&nbsp;to&nbsp;normal&nbsp;light&nbsp;(darkness&nbsp;becomes&nbsp;dim&nbsp;light,&nbsp;and&nbsp;dim&nbsp;light&nbsp;becomes&nbsp;normal&nbsp;light).&nbsp;In&nbsp;an&nbsp;area&nbsp;of&nbsp;normal&nbsp;or&nbsp;bright&nbsp;light,&nbsp;this&nbsp;power&nbsp;can&nbsp;be&nbsp;manifested&nbsp;but&nbsp;it&nbsp;has&nbsp;no&nbsp;effect,&nbsp;until&nbsp;you&nbsp;enter&nbsp;into&nbsp;an&nbsp;area&nbsp;with&nbsp;a&nbsp;lower&nbsp;light&nbsp;level.
+
+      </p>
+
+      <p>If&nbsp;my&nbsp;light&nbsp;is&nbsp;used&nbsp;in&nbsp;conjunction&nbsp;with&nbsp;elfsight,&nbsp;the&nbsp;cone&nbsp;of&nbsp;light&nbsp;extends&nbsp;out&nbsp;to&nbsp;80&nbsp;feet&nbsp;instead&nbsp;of&nbsp;40&nbsp;feet.
+
+      </p>
+
+      <p>If&nbsp;my&nbsp;light&nbsp;is&nbsp;used&nbsp;in&nbsp;conjunction&nbsp;with&nbsp;control&nbsp;light,&nbsp;the&nbsp;cone&nbsp;of&nbsp;light&nbsp;extends&nbsp;out&nbsp;to&nbsp;60&nbsp;feet&nbsp;instead&nbsp;of&nbsp;20&nbsp;feet.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action.</li><li>If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;the&nbsp;cost&nbsp;of&nbsp;the&nbsp;power&nbsp;is&nbsp;reduced&nbsp;by&nbsp;1&nbsp;(to&nbsp;a&nbsp;minimum&nbsp;of&nbsp;0).</li></ol>
+  descriptors:
+    - light
+  discipline: psychokinesis
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 0
+      dread: 0
+      empath: 0
+      gambler: 0
+      gifted blade: 1
+      marksman: 0
+      psion: 0
+      psychic warrior: 0
+      thug: 0
+      wilder: 0
+  level: 0
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '130'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '172'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '226'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

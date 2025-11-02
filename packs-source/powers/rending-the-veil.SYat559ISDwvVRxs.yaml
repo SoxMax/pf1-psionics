@@ -1,0 +1,69 @@
+_id: SYat559ISDwvVRxs
+_key: '!items!SYat559ISDwvVRxs'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Rending_the_Veil
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Rending the Veil
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '40'
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: ft
+        value: 40 ft.
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: 40-ft. radius spread centered on you
+  description:
+    value: >-
+      <p>You&nbsp;tear&nbsp;down&nbsp;the&nbsp;walls&nbsp;between&nbsp;the&nbsp;ethereal&nbsp;and&nbsp;the&nbsp;material,&nbsp;juxtaposing&nbsp;the&nbsp;planes.&nbsp;All&nbsp;creatures&nbsp;in&nbsp;the&nbsp;area&nbsp;become&nbsp;corporeal&nbsp;for&nbsp;24&nbsp;hours,&nbsp;losing&nbsp;any&nbsp;and&nbsp;all&nbsp;ethereal&nbsp;or&nbsp;incorporeal&nbsp;special&nbsp;abilities&nbsp;or&nbsp;defenses&nbsp;they&nbsp;had&nbsp;(this&nbsp;includes&nbsp;the&nbsp;special&nbsp;ability&nbsp;to&nbsp;become&nbsp;ethereal).&nbsp;If&nbsp;the&nbsp;target&nbsp;lacks&nbsp;a&nbsp;corporeal&nbsp;body,&nbsp;it&nbsp;assume&nbsp;a&nbsp;form&nbsp;of&nbsp;ectoplasm&nbsp;of&nbsp;the&nbsp;same&nbsp;size&nbsp;and&nbsp;shape,&nbsp;effectively&nbsp;identical&nbsp;to&nbsp;its&nbsp;incorporeal&nbsp;form&nbsp;(except&nbsp;that&nbsp;it&nbsp;is&nbsp;corporeal).&nbsp;Any&nbsp;targets&nbsp;that&nbsp;were&nbsp;incorporeal&nbsp;or&nbsp;ethereal&nbsp;when&nbsp;you&nbsp;manifested&nbsp;this&nbsp;power&nbsp;are&nbsp;dazed&nbsp;for&nbsp;1d4&nbsp;rounds.
+
+      </p>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: true
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      conduit: 9
+  level: 9
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '39'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

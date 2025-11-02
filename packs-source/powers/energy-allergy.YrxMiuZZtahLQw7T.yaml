@@ -1,0 +1,85 @@
+_id: YrxMiuZZtahLQw7T
+_key: '!items!YrxMiuZZtahLQw7T'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Energy_Allergy
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Energy Allergy
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude negates
+        type: fort
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>The&nbsp;skin&nbsp;of&nbsp;your&nbsp;foe&nbsp;begins&nbsp;to&nbsp;discolor&nbsp;as&nbsp;its&nbsp;very&nbsp;nature&nbsp;changes,&nbsp;introducing&nbsp;a&nbsp;potentially&nbsp;fatal&nbsp;flaw&nbsp;in&nbsp;its&nbsp;defenses.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;the&nbsp;target&nbsp;gains&nbsp;vulnerability&nbsp;to&nbsp;the&nbsp;energy&nbsp;type&nbsp;you&nbsp;selected&nbsp;when&nbsp;you&nbsp;last&nbsp;gained&nbsp;psionic&nbsp;focus.&nbsp;Such&nbsp;a&nbsp;creature&nbsp;takes&nbsp;an&nbsp;additional&nbsp;50%&nbsp;damage&nbsp;from&nbsp;that&nbsp;energy&nbsp;type&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;<em>energy&nbsp;allergy</em>.
+
+      </p>
+
+      <p>Resistance&nbsp;and&nbsp;immunity&nbsp;to&nbsp;the&nbsp;energy&nbsp;type&nbsp;you&nbsp;specify&nbsp;remain&nbsp;unaffected&nbsp;by&nbsp;this&nbsp;power.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;four&nbsp;power&nbsp;points&nbsp;you&nbsp;can&nbsp;specify&nbsp;a&nbsp;second&nbsp;energy&nbsp;type&nbsp;or&nbsp;specify&nbsp;an&nbsp;energy&nbsp;type&nbsp;other&nbsp;than&nbsp;the&nbsp;type&nbsp;you&nbsp;chose&nbsp;when&nbsp;last&nbsp;gaining&nbsp;psionic&nbsp;focus.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: true
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 3
+      dread: 3
+      psion: 4
+      thug: 3
+      wilder: 4
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '10'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '71'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

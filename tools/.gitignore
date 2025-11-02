@@ -1,0 +1,9 @@
+# Logs
+logs/*.log
+
+# Test outputs
+test-data/*.json
+test-data/*.html
+
+# Keep directory structure
+!.gitkeep

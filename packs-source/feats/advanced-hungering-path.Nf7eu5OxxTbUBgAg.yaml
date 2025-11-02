@@ -1,0 +1,78 @@
+_id: Nf7eu5OxxTbUBgAg
+_key: '!items!Nf7eu5OxxTbUBgAg'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Advanced_Hungering_Path
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Advanced Hungering Path
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;ever-hungry&nbsp;psionic&nbsp;scar&nbsp;holds&nbsp;greater&nbsp;demands&nbsp;for&nbsp;greater&nbsp;power.</em></p>
+
+      <p><strong>Prerequisites:</strong>&nbsp;Con&nbsp;13;&nbsp;<a&nbsp;href="/wiki/Psionic_Body"&nbsp;title="Psionic&nbsp;Body">Psionic&nbsp;Body</a>&nbsp;or&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Toughness">Toughness</a>;&nbsp;<a&nbsp;href="/wiki/Warrior%27s_Focus"&nbsp;title="Warrior's&nbsp;Focus">Warrior's&nbsp;Focus</a>;&nbsp;warrior's&nbsp;path&nbsp;class&nbsp;feature,&nbsp;manifester&nbsp;level&nbsp;10th,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+6.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>The&nbsp;hunger&nbsp;path’s&nbsp;trance&nbsp;causes&nbsp;those&nbsp;who&nbsp;fail&nbsp;a&nbsp;saving&nbsp;throw&nbsp;against&nbsp;your&nbsp;powers&nbsp;or&nbsp;class&nbsp;abilities&nbsp;to&nbsp;become&nbsp;sickened&nbsp;for&nbsp;two&nbsp;rounds&nbsp;from&nbsp;the&nbsp;power&nbsp;of&nbsp;your&nbsp;aura.&nbsp;When&nbsp;using&nbsp;the&nbsp;maneuver,&nbsp;the&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;not&nbsp;only&nbsp;draws&nbsp;in&nbsp;psychic&nbsp;power,&nbsp;but&nbsp;it&nbsp;also&nbsp;life&nbsp;energies.&nbsp;In&nbsp;addition&nbsp;to&nbsp;the&nbsp;power&nbsp;point&nbsp;drain,&nbsp;the&nbsp;attack&nbsp;inflicts&nbsp;1d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;at&nbsp;3rd&nbsp;level,&nbsp;and&nbsp;this&nbsp;damage&nbsp;improves&nbsp;by&nbsp;1d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;at&nbsp;7th&nbsp;level&nbsp;and&nbsp;every&nbsp;four&nbsp;levels&nbsp;thereafter.&nbsp;You&nbsp;gain&nbsp;5&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;for&nbsp;10&nbsp;points&nbsp;of&nbsp;damage&nbsp;inflicted&nbsp;by&nbsp;this&nbsp;attack.&nbsp;These&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;last&nbsp;for&nbsp;one&nbsp;minute&nbsp;or&nbsp;until&nbsp;they&nbsp;are&nbsp;taken&nbsp;away&nbsp;by&nbsp;damage;&nbsp;further&nbsp;applications&nbsp;of&nbsp;this&nbsp;ability&nbsp;do&nbsp;not&nbsp;stack&nbsp;up&nbsp;additional&nbsp;temporary&nbsp;hit&nbsp;points.&nbsp;This&nbsp;feat&nbsp;is&nbsp;a&nbsp;supernatural&nbsp;ability.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Warrior%27s_Focus"&nbsp;title="Warrior's&nbsp;Focus">Warrior's&nbsp;Focus</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '7'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Psychic Warrior II'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '37'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

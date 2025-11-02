@@ -1,0 +1,70 @@
+_id: VDngjNDXlCWBVOOJ
+_key: '!items!VDngjNDXlCWBVOOJ'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Careless_Burrowing
+img: icons/sundries/books/book-embossed-blue.webp
+name: Careless Burrowing
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;can&nbsp;make&nbsp;a&nbsp;best&nbsp;guess&nbsp;to&nbsp;use&nbsp;a&nbsp;burrowing&nbsp;power,&nbsp;but&nbsp;with&nbsp;mixed&nbsp;results.</em></p>
+
+      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Burrowing_Power"&nbsp;title="Burrowing&nbsp;Power">Burrowing&nbsp;Power</a>.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;choose&nbsp;to&nbsp;use&nbsp;the&nbsp;Burrowing&nbsp;Power&nbsp;feat&nbsp;even&nbsp;though&nbsp;you&nbsp;can’t&nbsp;see&nbsp;the&nbsp;target,&nbsp;instead&nbsp;choosing&nbsp;to&nbsp;affect&nbsp;a&nbsp;target&nbsp;in&nbsp;the&nbsp;square&nbsp;behind&nbsp;the&nbsp;barrier.&nbsp;However,&nbsp;the&nbsp;power&nbsp;has&nbsp;a&nbsp;50%&nbsp;miss&nbsp;chance&nbsp;when&nbsp;used&nbsp;carelessly.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '2'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  subType: feat
+  summons: false
+  tags:
+    - feat
+type: feat

@@ -1,0 +1,76 @@
+_id: Dip0HNpM5mBJaP56
+_key: '!items!Dip0HNpM5mBJaP56'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Words_of_Salvation
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Words of Salvation
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>Your&nbsp;false&nbsp;judgments&nbsp;bring&nbsp;real&nbsp;hope&nbsp;and&nbsp;the&nbsp;promise&nbsp;of&nbsp;a&nbsp;better&nbsp;future.</em></p>
+
+      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Divine_Judgment"&nbsp;title="Divine&nbsp;Judgment">Divine&nbsp;Judgment</a>,&nbsp;<a&nbsp;href="/wiki/Athanatism_(Psion_Discipline)"&nbsp;title="Athanatism&nbsp;(Psion&nbsp;Discipline)">conduit</a>&nbsp;level&nbsp;5th.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;succeed&nbsp;on&nbsp;a&nbsp;check&nbsp;to&nbsp;use&nbsp;the&nbsp;Divine&nbsp;Judgment&nbsp;feat,&nbsp;you&nbsp;may&nbsp;also&nbsp;attempt&nbsp;to&nbsp;use&nbsp;Diplomacy&nbsp;to&nbsp;change&nbsp;the&nbsp;attitude&nbsp;of&nbsp;the&nbsp;target&nbsp;(including&nbsp;the&nbsp;bonus&nbsp;from&nbsp;Divine&nbsp;Judgment)&nbsp;as&nbsp;a&nbsp;free&nbsp;action.&nbsp;Once&nbsp;per&nbsp;day,&nbsp;while&nbsp;the&nbsp;target&nbsp;is&nbsp;at&nbsp;least&nbsp;indifferent&nbsp;towards&nbsp;you,&nbsp;you&nbsp;may&nbsp;manifest&nbsp;<em><a>naija's&nbsp;compelling&nbsp;voice</a></em>&nbsp;on&nbsp;that&nbsp;target&nbsp;as&nbsp;a&nbsp;psi-like&nbsp;ability,&nbsp;with&nbsp;a&nbsp;DC&nbsp;equal&nbsp;to&nbsp;12&nbsp;+&nbsp;your&nbsp;Charisma&nbsp;modifier&nbsp;and&nbsp;a&nbsp;manifester&nbsp;level&nbsp;equal&nbsp;to&nbsp;your&nbsp;HD,&nbsp;ignoring&nbsp;normal&nbsp;immunities&nbsp;to&nbsp;mind-affecting&nbsp;effects.
+
+      </p>
+
+      <p><strong>Special:</strong>&nbsp;You&nbsp;may&nbsp;not&nbsp;use&nbsp;both&nbsp;<a&nbsp;href="/wiki/Condemning_Glare"&nbsp;title="Condemning&nbsp;Glare">Condemning&nbsp;Glare</a>&nbsp;and&nbsp;Words&nbsp;of&nbsp;Salvation&nbsp;on&nbsp;the&nbsp;same&nbsp;target&nbsp;within&nbsp;a&nbsp;24-hour&nbsp;period.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Condemning_Glare"&nbsp;title="Condemning&nbsp;Glare">Condemning&nbsp;Glare</a></li><li><a&nbsp;href="/wiki/Divine_Judgment"&nbsp;title="Divine&nbsp;Judgment">Divine&nbsp;Judgment</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '16'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

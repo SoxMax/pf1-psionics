@@ -1,0 +1,72 @@
+_id: aOjQiRrhskfYFPtN
+_key: '!items!aOjQiRrhskfYFPtN'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Symbiotic_Speed
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Symbiotic Speed
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>Your&nbsp;collective&nbsp;allows&nbsp;you&nbsp;to&nbsp;gain&nbsp;a&nbsp;brief&nbsp;burst&nbsp;of&nbsp;speed.</em></p>
+
+      <p><strong>Prerequisites:</strong>&nbsp;Collective&nbsp;class&nbsp;feature,&nbsp;<a&nbsp;href="/wiki/Mind_Symbiote"&nbsp;title="Mind&nbsp;Symbiote">Mind&nbsp;Symbiote</a>.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>Up&nbsp;to&nbsp;3&nbsp;times&nbsp;per&nbsp;day,&nbsp;as&nbsp;a&nbsp;swift&nbsp;action,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+5&nbsp;feet&nbsp;bonus&nbsp;per&nbsp;member&nbsp;to&nbsp;your&nbsp;movement&nbsp;speed&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;current&nbsp;turn.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Mind_Symbiote"&nbsp;title="Mind&nbsp;Symbiote">Mind&nbsp;Symbiote</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '7'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

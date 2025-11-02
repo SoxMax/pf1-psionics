@@ -1,0 +1,72 @@
+_id: dNb8KdrgA0rqyqvg
+_key: '!items!dNb8KdrgA0rqyqvg'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Cortex_Strike
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Cortex Strike
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;have&nbsp;learned&nbsp;how&nbsp;to&nbsp;overwhelm&nbsp;your&nbsp;enemies&nbsp;with&nbsp;a&nbsp;burst&nbsp;of&nbsp;energy&nbsp;just&nbsp;before&nbsp;your&nbsp;strike&nbsp;hits,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;gain&nbsp;that&nbsp;final&nbsp;edge&nbsp;needed&nbsp;to&nbsp;strike&nbsp;a&nbsp;telling&nbsp;blow.</em></p>
+
+      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Psicrystal_Affinity"&nbsp;title="Psicrystal&nbsp;Affinity">Psicrystal&nbsp;Affinity</a>,&nbsp;<a&nbsp;href="/wiki/Psionic_Weapon"&nbsp;title="Psionic&nbsp;Weapon">Psionic&nbsp;Weapon</a>,&nbsp;sneak&nbsp;attack&nbsp;+2d6,&nbsp;<a&nbsp;href="/wiki/Superior_Psicrystal"&nbsp;title="Superior&nbsp;Psicrystal">Superior&nbsp;Psicrystal</a>&nbsp;(<a&nbsp;href="/wiki/Psicrystal_Weapon"&nbsp;title="Psicrystal&nbsp;Weapon">Psicrystal&nbsp;Weapon</a>&nbsp;variant).
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of&nbsp;your&nbsp;Psionic&nbsp;Weapon&nbsp;feat&nbsp;with&nbsp;a&nbsp;psicrystal&nbsp;weapon,&nbsp;you&nbsp;can&nbsp;add&nbsp;your&nbsp;sneak&nbsp;attack&nbsp;damage&nbsp;to&nbsp;the&nbsp;regular&nbsp;+2d6&nbsp;damage&nbsp;this&nbsp;feat&nbsp;provides,&nbsp;even&nbsp;if&nbsp;the&nbsp;creature&nbsp;isn’t&nbsp;denied&nbsp;its&nbsp;Dexterity&nbsp;bonus.&nbsp;This&nbsp;extra&nbsp;damage&nbsp;does&nbsp;not&nbsp;affect&nbsp;a&nbsp;creature&nbsp;immune&nbsp;to&nbsp;sneak&nbsp;attacks.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Improved_Cortex_Attack"&nbsp;title="Improved&nbsp;Cortex&nbsp;Attack">Improved&nbsp;Cortex&nbsp;Attack</a></li><li><a&nbsp;href="/wiki/Psicrystal_Affinity"&nbsp;title="Psicrystal&nbsp;Affinity">Psicrystal&nbsp;Affinity</a></li><li><a&nbsp;href="/wiki/Psionic_Weapon"&nbsp;title="Psionic&nbsp;Weapon">Psionic&nbsp;Weapon</a></li><li><a&nbsp;href="/wiki/Strike_the_Heart_River"&nbsp;title="Strike&nbsp;the&nbsp;Heart&nbsp;River">Strike&nbsp;the&nbsp;Heart&nbsp;River</a></li><li><a&nbsp;href="/wiki/Superior_Psicrystal"&nbsp;title="Superior&nbsp;Psicrystal">Superior&nbsp;Psicrystal</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '10'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Psicrystals'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

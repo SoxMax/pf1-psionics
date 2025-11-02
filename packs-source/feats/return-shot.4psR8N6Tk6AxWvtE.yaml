@@ -1,0 +1,84 @@
+_id: 4psR8N6Tk6AxWvtE
+_key: '!items!4psR8N6Tk6AxWvtE'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Return_Shot
+img: icons/weapons/thrown/bomb-fuse-black.webp
+name: Return Shot
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;can&nbsp;return&nbsp;incoming&nbsp;arrows,&nbsp;as&nbsp;well&nbsp;as&nbsp;crossbow&nbsp;bolts,&nbsp;spears,&nbsp;and&nbsp;other&nbsp;projectile&nbsp;or&nbsp;thrown&nbsp;weapons.</em></p>
+
+      <p><strong>Prerequisites:</strong><a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank&nbsp;Shot</a>,&nbsp;<a&nbsp;href="/wiki/Psionic_Shot"&nbsp;title="Psionic&nbsp;Shot">Psionic&nbsp;Shot</a>,&nbsp;<a&nbsp;href="/wiki/Fell_Shot"&nbsp;title="Fell&nbsp;Shot">Fell&nbsp;Shot</a>,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+6.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;and&nbsp;have&nbsp;at&nbsp;least&nbsp;one&nbsp;hand&nbsp;free.&nbsp;Once&nbsp;per&nbsp;round&nbsp;when&nbsp;you&nbsp;would&nbsp;normally&nbsp;be&nbsp;hit&nbsp;by&nbsp;a&nbsp;projectile&nbsp;or&nbsp;a&nbsp;thrown&nbsp;weapon&nbsp;no&nbsp;more&nbsp;than&nbsp;one&nbsp;size&nbsp;category&nbsp;larger&nbsp;than&nbsp;your&nbsp;size,&nbsp;you&nbsp;can&nbsp;deflect&nbsp;the&nbsp;attack&nbsp;so&nbsp;that&nbsp;you&nbsp;take&nbsp;no&nbsp;damage&nbsp;from&nbsp;it.&nbsp;The&nbsp;attack&nbsp;is&nbsp;deflected&nbsp;back&nbsp;at&nbsp;your&nbsp;attacker,&nbsp;using&nbsp;the&nbsp;attack&nbsp;bonus&nbsp;of&nbsp;the&nbsp;original&nbsp;attack&nbsp;on&nbsp;you.&nbsp;You&nbsp;must&nbsp;be&nbsp;aware&nbsp;of&nbsp;the&nbsp;attack&nbsp;and&nbsp;not&nbsp;flat-footed.&nbsp;Attempting&nbsp;to&nbsp;return&nbsp;a&nbsp;shot&nbsp;is&nbsp;a&nbsp;free&nbsp;action.
+
+      </p>
+
+      <p><strong>Special:&nbsp;</strong>If&nbsp;you&nbsp;also&nbsp;have&nbsp;the&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Deflect%20Arrows">Deflect&nbsp;Arrows</a>&nbsp;feat,&nbsp;the&nbsp;deflected&nbsp;attack&nbsp;is&nbsp;made&nbsp;with&nbsp;the&nbsp;original&nbsp;attack&nbsp;bonus&nbsp;plus&nbsp;your&nbsp;Dexterity&nbsp;bonus.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Marksman"&nbsp;title="Marksman">Marksman</a></li></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Fell_Shot"&nbsp;title="Fell&nbsp;Shot">Fell&nbsp;Shot</a></li><li><a&nbsp;href="/wiki/Psionic_Shot"&nbsp;title="Psionic&nbsp;Shot">Psionic&nbsp;Shot</a></li><li><a&nbsp;href="/wiki/Return_Shot_(Mythic)"&nbsp;title="Return&nbsp;Shot&nbsp;(Mythic)">Return&nbsp;Shot&nbsp;(Mythic)</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '58'
+      publisher: Dreamscarred Press
+      title: 'Psionics Unleashed: Revised'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '115'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

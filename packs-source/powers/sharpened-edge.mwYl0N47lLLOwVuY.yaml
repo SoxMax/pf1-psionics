@@ -1,0 +1,91 @@
+_id: mwYl0N47lLLOwVuY
+_key: '!items!mwYl0N47lLLOwVuY'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Sharpened_Edge
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Sharpened Edge
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: 10 * @cl
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates (harmless, object)
+        harmless: true
+        type: will
+      target:
+        value: >-
+          One weapon or fifty projectiles, all of which must be in contact with
+          each other at the time of manifestation
+  description:
+    value: >-
+      <p>You&nbsp;psionically&nbsp;make&nbsp;a&nbsp;weapon&nbsp;keen,&nbsp;improving&nbsp;its&nbsp;ability&nbsp;to&nbsp;deal&nbsp;telling&nbsp;blows.&nbsp;This&nbsp;doubles&nbsp;the&nbsp;threat&nbsp;range&nbsp;of&nbsp;the&nbsp;weapon.&nbsp;A&nbsp;threat&nbsp;range&nbsp;of&nbsp;20&nbsp;becomes&nbsp;19–20,&nbsp;a&nbsp;threat&nbsp;range&nbsp;of&nbsp;19–20&nbsp;becomes&nbsp;17–20,&nbsp;and&nbsp;a&nbsp;threat&nbsp;range&nbsp;of&nbsp;18–&nbsp;20&nbsp;becomes&nbsp;15–20.&nbsp;The&nbsp;power&nbsp;can&nbsp;be&nbsp;manifested&nbsp;only&nbsp;on&nbsp;piercing&nbsp;or&nbsp;slashing&nbsp;weapons.&nbsp;If&nbsp;used&nbsp;on&nbsp;arrows&nbsp;or&nbsp;crossbow&nbsp;bolts,&nbsp;the&nbsp;effect&nbsp;on&nbsp;a&nbsp;particular&nbsp;projectile&nbsp;ends&nbsp;after&nbsp;one&nbsp;use,&nbsp;whether&nbsp;or&nbsp;not&nbsp;the&nbsp;missile&nbsp;strikes&nbsp;its&nbsp;intended&nbsp;target.&nbsp;Treat&nbsp;shuriken&nbsp;as&nbsp;arrows,&nbsp;rather&nbsp;than&nbsp;as&nbsp;thrown&nbsp;weapons,&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of&nbsp;this&nbsp;power.
+
+      </p>
+
+      <p>Multiple&nbsp;effects&nbsp;that&nbsp;increase&nbsp;a&nbsp;weapon's&nbsp;threat&nbsp;range&nbsp;(such&nbsp;as&nbsp;the&nbsp;keen&nbsp;special&nbsp;weapon&nbsp;property&nbsp;and&nbsp;the&nbsp;Improved&nbsp;Critical&nbsp;feat)&nbsp;don't&nbsp;stack.&nbsp;You&nbsp;can't&nbsp;manifest&nbsp;this&nbsp;power&nbsp;on&nbsp;a&nbsp;natural&nbsp;weapon,&nbsp;such&nbsp;as&nbsp;a&nbsp;claw.
+
+      </p>
+  discipline: metacreativity
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 3
+      gifted blade: 3
+      marksman: 4
+      psion: 3
+      psychic warrior: 3
+      thug: 3
+      wilder: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '145'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '244'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '55'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

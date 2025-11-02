@@ -1,0 +1,74 @@
+_id: 2cCYDxZWVc8itfTR
+_key: '!items!2cCYDxZWVc8itfTR'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Backtrack
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Backtrack
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>Your&nbsp;parallel&nbsp;selves&nbsp;learn&nbsp;an&nbsp;old&nbsp;trick,&nbsp;even&nbsp;after&nbsp;opportunity&nbsp;had&nbsp;passed&nbsp;them&nbsp;by.</em></p>
+
+      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Voyager"&nbsp;title="Voyager">Voyager</a>&nbsp;level&nbsp;3rd.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;You&nbsp;gain&nbsp;a&nbsp;voyager&nbsp;parallel&nbsp;action&nbsp;in&nbsp;a&nbsp;category&nbsp;of&nbsp;your&nbsp;class&nbsp;level&nbsp;or&nbsp;lower&nbsp;that&nbsp;you&nbsp;did&nbsp;not&nbsp;already&nbsp;possess.
+
+      </p>
+
+      <p><strong>Special:</strong>&nbsp;You&nbsp;can&nbsp;take&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;times;&nbsp;each&nbsp;time&nbsp;you&nbsp;do,&nbsp;you&nbsp;choose&nbsp;a&nbsp;different&nbsp;parallel&nbsp;action&nbsp;to&nbsp;learn.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '17'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

@@ -1,0 +1,95 @@
+_id: QfrzWK5u7Pj2IGzV
+_key: '!items!QfrzWK5u7Pj2IGzV'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Body_Adjustment
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Body Adjustment
+system:
+  actions:
+    - actionType: heal
+      activation:
+        cost: 1
+        type: round
+      damage:
+        parts:
+          - - 1d12
+            - untyped
+          - - 1d12
+            - heal
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;take&nbsp;control&nbsp;of&nbsp;your&nbsp;body's&nbsp;healing&nbsp;process,&nbsp;curing&nbsp;yourself&nbsp;of&nbsp;1d12&nbsp;points&nbsp;of&nbsp;damage.&nbsp;As&nbsp;usual,&nbsp;when&nbsp;regular&nbsp;damage&nbsp;is&nbsp;healed,&nbsp;an&nbsp;equal&nbsp;amount&nbsp;of&nbsp;nonlethal&nbsp;damage&nbsp;is&nbsp;also&nbsp;healed.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;heals&nbsp;an&nbsp;additional&nbsp;1d12&nbsp;points&nbsp;of&nbsp;damage.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: true
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      gifted blade: 2
+      marksman: 2
+      psion: 3
+      psychic warrior: 2
+      thug: 2
+      vitalist: 2
+      voyager: 2
+      wilder: 3
+  level: 2
+  manifestTime:
+    units: round
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '81'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '167'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '30'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  subdiscipline:
+    - healing
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,88 @@
+_id: TqVFJSu0295WJZ2G
+_key: '!items!TqVFJSu0295WJZ2G'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Merge_Designs
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Merge Designs
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>Your&nbsp;tattoo&nbsp;designs&nbsp;are&nbsp;altered&nbsp;to&nbsp;disguise&nbsp;their&nbsp;nature&nbsp;and&nbsp;to&nbsp;be&nbsp;more&nbsp;compact.</em></p>
+
+      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Scribe_Tattoo"&nbsp;title="Scribe&nbsp;Tattoo">Scribe&nbsp;Tattoo</a>,&nbsp;pattern&nbsp;designs&nbsp;class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;Your&nbsp;tattoos&nbsp;cannot&nbsp;be&nbsp;interpreted&nbsp;to&nbsp;determine&nbsp;your&nbsp;powers&nbsp;known.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;safely&nbsp;wear&nbsp;one&nbsp;additional&nbsp;psionic&nbsp;tattoo&nbsp;on&nbsp;your&nbsp;body.
+
+      </p>
+
+      <p><strong>Normal:</strong>&nbsp;Tattoos&nbsp;for&nbsp;the&nbsp;pattern&nbsp;designs&nbsp;class&nbsp;feature&nbsp;can&nbsp;be&nbsp;identified&nbsp;by&nbsp;a&nbsp;Spellcraft&nbsp;check.&nbsp;A&nbsp;character&nbsp;can&nbsp;only&nbsp;safely&nbsp;wear&nbsp;twenty&nbsp;psionic&nbsp;tattoos.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Merge_Designs_(Mythic)"&nbsp;title="Merge&nbsp;Designs&nbsp;(Mythic)">Merge&nbsp;Designs&nbsp;(Mythic)</a></li><li><a&nbsp;href="/wiki/Scribe_Tattoo"&nbsp;title="Scribe&nbsp;Tattoo">Scribe&nbsp;Tattoo</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '29'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Hidden Intentions'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '116'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '106'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

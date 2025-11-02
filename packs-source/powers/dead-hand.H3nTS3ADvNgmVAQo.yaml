@@ -1,0 +1,80 @@
+_id: H3nTS3ADvNgmVAQo
+_key: '!items!H3nTS3ADvNgmVAQo'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Dead_Hand
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Dead Hand
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates; see text
+        type: will
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;bind&nbsp;a&nbsp;bit&nbsp;of&nbsp;the&nbsp;Ethereal&nbsp;Plane&nbsp;into&nbsp;your&nbsp;hand.&nbsp;You&nbsp;can&nbsp;interact&nbsp;with&nbsp;the&nbsp;Ethereal&nbsp;Plane&nbsp;as&nbsp;if&nbsp;one&nbsp;of&nbsp;your&nbsp;hands&nbsp;was&nbsp;also&nbsp;ethereal,&nbsp;but&nbsp;you&nbsp;cannot&nbsp;use&nbsp;that&nbsp;hand&nbsp;to&nbsp;manipulate&nbsp;the&nbsp;Material&nbsp;Plane.&nbsp;This&nbsp;means&nbsp;you&nbsp;cannot&nbsp;wield&nbsp;a&nbsp;two-handed&nbsp;weapon,&nbsp;and&nbsp;any&nbsp;shield,&nbsp;weapon,&nbsp;or&nbsp;item&nbsp;held&nbsp;in&nbsp;the&nbsp;ethereal&nbsp;hand&nbsp;can&nbsp;only&nbsp;affect&nbsp;the&nbsp;Ethereal&nbsp;Plane.&nbsp;If&nbsp;the&nbsp;item&nbsp;you&nbsp;are&nbsp;holding&nbsp;has&nbsp;the&nbsp;ghost&nbsp;touch&nbsp;special&nbsp;property,&nbsp;you&nbsp;can&nbsp;hold&nbsp;and&nbsp;wield&nbsp;it&nbsp;as&nbsp;normal.&nbsp;Any&nbsp;item&nbsp;dropped&nbsp;from&nbsp;the&nbsp;ethereal&nbsp;hand&nbsp;returns&nbsp;to&nbsp;the&nbsp;Material&nbsp;Plane&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;turn.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;grapple&nbsp;a&nbsp;creature&nbsp;while&nbsp;this&nbsp;power&nbsp;is&nbsp;active,&nbsp;you&nbsp;may&nbsp;attempt&nbsp;to&nbsp;shunt&nbsp;it&nbsp;partially&nbsp;into&nbsp;the&nbsp;Ethereal&nbsp;Plane.&nbsp;If&nbsp;it&nbsp;fails&nbsp;a&nbsp;Will&nbsp;save,&nbsp;it&nbsp;counts&nbsp;as&nbsp;both&nbsp;ethereal&nbsp;and&nbsp;material&nbsp;and&nbsp;is&nbsp;shaken&nbsp;by&nbsp;the&nbsp;horrific&nbsp;sights&nbsp;it&nbsp;sees&nbsp;in&nbsp;the&nbsp;spirit&nbsp;realms.&nbsp;This&nbsp;lasts&nbsp;as&nbsp;long&nbsp;as&nbsp;you&nbsp;are&nbsp;grappling&nbsp;it&nbsp;or&nbsp;until&nbsp;this&nbsp;power&nbsp;expires,&nbsp;whichever&nbsp;happens&nbsp;first.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;By&nbsp;spending&nbsp;3&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;manifest&nbsp;this&nbsp;power&nbsp;on&nbsp;one&nbsp;other&nbsp;hand.&nbsp;This&nbsp;hand&nbsp;may&nbsp;belong&nbsp;to&nbsp;you,&nbsp;or&nbsp;to&nbsp;another&nbsp;willing&nbsp;target.&nbsp;If&nbsp;both&nbsp;of&nbsp;your&nbsp;hands&nbsp;are&nbsp;ethereal,&nbsp;you&nbsp;may&nbsp;wield&nbsp;items&nbsp;and&nbsp;weapons&nbsp;as&nbsp;normal&nbsp;(albeit&nbsp;ethereally).&nbsp;If&nbsp;you&nbsp;use&nbsp;this&nbsp;augmented&nbsp;power&nbsp;on&nbsp;an&nbsp;ethereal&nbsp;creature,&nbsp;they&nbsp;instead&nbsp;gain&nbsp;one&nbsp;material&nbsp;hand.
+
+      </p>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: true
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      marksman: 2
+      psion: 2
+      psychic warrior: 2
+      thug: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '27'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

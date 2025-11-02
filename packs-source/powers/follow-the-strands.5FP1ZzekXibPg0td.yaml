@@ -1,0 +1,71 @@
+_id: 5FP1ZzekXibPg0td
+_key: '!items!5FP1ZzekXibPg0td'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Follow_the_Strands
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Follow the Strands
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: Object or ghost touched
+  description:
+    value: >-
+      <p>You&nbsp;become&nbsp;attuned&nbsp;to&nbsp;the&nbsp;link&nbsp;between&nbsp;a&nbsp;ghost&nbsp;and&nbsp;its&nbsp;important&nbsp;possessions.&nbsp;If&nbsp;you&nbsp;target&nbsp;a&nbsp;ghost&nbsp;with&nbsp;this&nbsp;power,&nbsp;you&nbsp;learn&nbsp;what&nbsp;(if&nbsp;any)&nbsp;objects&nbsp;would&nbsp;be&nbsp;considered&nbsp;important&nbsp;to&nbsp;it,&nbsp;as&nbsp;well&nbsp;as&nbsp;their&nbsp;basic&nbsp;whereabouts.&nbsp;If&nbsp;you&nbsp;target&nbsp;an&nbsp;object&nbsp;with&nbsp;this&nbsp;power,&nbsp;you&nbsp;learn&nbsp;the&nbsp;name,&nbsp;alignment,&nbsp;and&nbsp;general&nbsp;location&nbsp;of&nbsp;a&nbsp;ghost&nbsp;that&nbsp;considers&nbsp;it&nbsp;important&nbsp;(if&nbsp;it&nbsp;is&nbsp;connected&nbsp;to&nbsp;a&nbsp;ghost).&nbsp;In&nbsp;the&nbsp;latter&nbsp;case,&nbsp;the&nbsp;ghost&nbsp;receives&nbsp;a&nbsp;Will&nbsp;save&nbsp;to&nbsp;negate&nbsp;the&nbsp;use&nbsp;of&nbsp;this&nbsp;power&nbsp;on&nbsp;its&nbsp;object.&nbsp;If&nbsp;it&nbsp;fails&nbsp;the&nbsp;Will&nbsp;save,&nbsp;it&nbsp;is&nbsp;not&nbsp;aware&nbsp;that&nbsp;anything&nbsp;has&nbsp;occurred.&nbsp;If&nbsp;the&nbsp;object&nbsp;or&nbsp;ghost&nbsp;is&nbsp;located&nbsp;on&nbsp;another&nbsp;plane,&nbsp;you&nbsp;learn&nbsp;which&nbsp;plane&nbsp;it&nbsp;is&nbsp;on&nbsp;in&nbsp;addition&nbsp;to&nbsp;its&nbsp;location.&nbsp;If&nbsp;more&nbsp;than&nbsp;one&nbsp;ghost&nbsp;considers&nbsp;the&nbsp;object&nbsp;equally&nbsp;important,&nbsp;you&nbsp;gain&nbsp;knowledge&nbsp;on&nbsp;a&nbsp;random&nbsp;one.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;spend&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points&nbsp;to&nbsp;instead&nbsp;gain&nbsp;knowledge&nbsp;on&nbsp;a&nbsp;living&nbsp;person&nbsp;that&nbsp;considers&nbsp;a&nbsp;targeted&nbsp;object&nbsp;important.&nbsp;If&nbsp;more&nbsp;than&nbsp;one&nbsp;living&nbsp;person&nbsp;considers&nbsp;the&nbsp;object&nbsp;equally&nbsp;important,&nbsp;you&nbsp;gain&nbsp;knowledge&nbsp;on&nbsp;a&nbsp;random&nbsp;one.
+
+      </p>
+  discipline: athanatism
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      conduit: 2
+      psion: 3
+      wilder: 3
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '29'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

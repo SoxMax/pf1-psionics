@@ -1,0 +1,76 @@
+_id: zbXSE3yLn3jjuvrM
+_key: '!items!zbXSE3yLn3jjuvrM'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Greater_Empowerment
+img: icons/magic/symbols/runes-triangle-orange.webp
+name: Greater Empowerment
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>As&nbsp;your&nbsp;bond&nbsp;to&nbsp;your&nbsp;empowered&nbsp;psicrystal&nbsp;grows,&nbsp;so&nbsp;does&nbsp;its&nbsp;powers,&nbsp;swelling&nbsp;in&nbsp;response.</em></p>
+
+      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Psicrystal_Affinity"&nbsp;title="Psicrystal&nbsp;Affinity">Psicrystal&nbsp;Affinity</a>,&nbsp;Manifester&nbsp;level&nbsp;3rd,&nbsp;<a&nbsp;href="/wiki/Superior_Psicrystal"&nbsp;title="Superior&nbsp;Psicrystal">Superior&nbsp;Psicrystal</a>&nbsp;(<a&nbsp;href="/wiki/Empowered_Psicrystal"&nbsp;title="Empowered&nbsp;Psicrystal">Empowered&nbsp;Psicrystal</a>&nbsp;variant).
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;increase&nbsp;the&nbsp;manifester&nbsp;level&nbsp;of&nbsp;all&nbsp;the&nbsp;powers&nbsp;of&nbsp;your&nbsp;empowered&nbsp;psicrystal&nbsp;by&nbsp;2&nbsp;and&nbsp;gain&nbsp;one&nbsp;additional&nbsp;daily&nbsp;use&nbsp;of&nbsp;each&nbsp;psi-like&nbsp;ability.
+
+      </p>
+
+      <p><strong>Special:&nbsp;</strong>This&nbsp;feat&nbsp;can&nbsp;be&nbsp;taken&nbsp;once&nbsp;for&nbsp;every&nbsp;5&nbsp;manifester&nbsp;levels&nbsp;the&nbsp;character&nbsp;has.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Psicrystal_Affinity"&nbsp;title="Psicrystal&nbsp;Affinity">Psicrystal&nbsp;Affinity</a></li><li><a&nbsp;href="/wiki/Superior_Psicrystal"&nbsp;title="Superior&nbsp;Psicrystal">Superior&nbsp;Psicrystal</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '10'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Psicrystals'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

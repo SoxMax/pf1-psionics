@@ -1,0 +1,96 @@
+_id: oh2y7in0rhJ8VSd7
+_key: '!items!oh2y7in0rhJ8VSd7'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Empathic_Transfer
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Empathic Transfer
+system:
+  actions:
+    - actionType: heal
+      activation:
+        cost: 1
+        type: standard
+      damage:
+        parts:
+          - - 2d10
+            - untyped
+          - - 2d10
+            - heal
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        description: None
+      target:
+        value: Willing creature touched
+  description:
+    value: >-
+      <p>You&nbsp;heal&nbsp;another&nbsp;creature's&nbsp;wounds,&nbsp;transferring&nbsp;some&nbsp;of&nbsp;its&nbsp;damage&nbsp;to&nbsp;yourself.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;you&nbsp;can&nbsp;heal&nbsp;as&nbsp;much&nbsp;as&nbsp;2d10&nbsp;points&nbsp;of&nbsp;damage.&nbsp;The&nbsp;target&nbsp;regains&nbsp;a&nbsp;number&nbsp;of&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;the&nbsp;dice&nbsp;result,&nbsp;and&nbsp;you&nbsp;lose&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;half&nbsp;of&nbsp;that&nbsp;amount.&nbsp;(This&nbsp;loss&nbsp;can&nbsp;bring&nbsp;you&nbsp;to&nbsp;0&nbsp;or&nbsp;fewer&nbsp;hit&nbsp;points.)&nbsp;Powers&nbsp;and&nbsp;abilities&nbsp;you&nbsp;may&nbsp;have&nbsp;such&nbsp;as&nbsp;damage&nbsp;reduction&nbsp;and&nbsp;regeneration&nbsp;do&nbsp;not&nbsp;lessen&nbsp;or&nbsp;change&nbsp;this&nbsp;damage,&nbsp;since&nbsp;you&nbsp;are&nbsp;taking&nbsp;the&nbsp;target's&nbsp;pain&nbsp;into&nbsp;yourself&nbsp;in&nbsp;an&nbsp;empathic&nbsp;manner.&nbsp;The&nbsp;damage&nbsp;transferred&nbsp;by&nbsp;this&nbsp;power&nbsp;has&nbsp;no&nbsp;type,&nbsp;so&nbsp;even&nbsp;if&nbsp;you&nbsp;have&nbsp;immunity&nbsp;to&nbsp;the&nbsp;type&nbsp;of&nbsp;damage&nbsp;the&nbsp;target&nbsp;originally&nbsp;took,&nbsp;the&nbsp;transfer&nbsp;occurs&nbsp;normally&nbsp;and&nbsp;deals&nbsp;hit&nbsp;point&nbsp;damage&nbsp;to&nbsp;you.
+
+      </p>
+
+      <p>Alternatively,&nbsp;you&nbsp;can&nbsp;use&nbsp;this&nbsp;power&nbsp;to&nbsp;absorb&nbsp;one&nbsp;poison&nbsp;or&nbsp;one&nbsp;disease&nbsp;afflicting&nbsp;the&nbsp;target&nbsp;creature&nbsp;into&nbsp;yourself.&nbsp;When&nbsp;you&nbsp;absorb&nbsp;a&nbsp;poison&nbsp;or&nbsp;disease,&nbsp;you&nbsp;do&nbsp;not&nbsp;take&nbsp;any&nbsp;of&nbsp;the&nbsp;damage&nbsp;previously&nbsp;dealt&nbsp;to&nbsp;the&nbsp;target&nbsp;by&nbsp;the&nbsp;affliction,&nbsp;but&nbsp;you&nbsp;do&nbsp;assume&nbsp;the&nbsp;burden&nbsp;of&nbsp;making&nbsp;the&nbsp;secondary&nbsp;and/or&nbsp;continuing&nbsp;Fortitude&nbsp;saves&nbsp;to&nbsp;combat&nbsp;the&nbsp;affliction.
+
+      </p>
+
+      <p>Finally,&nbsp;you&nbsp;can&nbsp;use&nbsp;this&nbsp;power&nbsp;to&nbsp;transfer&nbsp;up&nbsp;to&nbsp;1&nbsp;point&nbsp;of&nbsp;ability&nbsp;damage&nbsp;per&nbsp;manifester&nbsp;level&nbsp;from&nbsp;the&nbsp;target&nbsp;to&nbsp;yourself.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;heal&nbsp;an&nbsp;additional&nbsp;2d10&nbsp;points&nbsp;of&nbsp;damage&nbsp;(to&nbsp;a&nbsp;maximum&nbsp;of&nbsp;10d10&nbsp;points&nbsp;per&nbsp;manifestation).
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: true
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      egoist: 2
+      psychic warrior: 2
+      tactician: 2
+      vitalist: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '102'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '192'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '38'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

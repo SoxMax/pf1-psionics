@@ -1,0 +1,92 @@
+_id: y4s3owml0O47McPR
+_key: '!items!y4s3owml0O47McPR'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Bound_Spirit
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Bound Spirit
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>By&nbsp;binding&nbsp;a&nbsp;willing&nbsp;spirit&nbsp;to&nbsp;your&nbsp;psicrystal,&nbsp;you&nbsp;grant&nbsp;further&nbsp;power&nbsp;to&nbsp;yourself&nbsp;and&nbsp;enhanced&nbsp;survivability&nbsp;to&nbsp;it.</em></p>
+
+      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Psicrystal_Affinity"&nbsp;title="Psicrystal&nbsp;Affinity">Psicrystal&nbsp;Affinity</a>,&nbsp;<a&nbsp;href="/wiki/Spirited_Psicrystal"&nbsp;title="Spirited&nbsp;Psicrystal">Spirited&nbsp;Psicrystal</a>,&nbsp;manifester&nbsp;level&nbsp;10th.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;You&nbsp;make&nbsp;a&nbsp;pact&nbsp;with&nbsp;a&nbsp;spirit,&nbsp;binding&nbsp;it&nbsp;to&nbsp;your&nbsp;<a&nbsp;href="/wiki/Psicrystal"&nbsp;title="Psicrystal">psicrystal</a>.&nbsp;It&nbsp;may&nbsp;leave&nbsp;the&nbsp;psicrystal&nbsp;at&nbsp;any&nbsp;time&nbsp;as&nbsp;a&nbsp;free&nbsp;action,&nbsp;and&nbsp;you&nbsp;may&nbsp;free&nbsp;it&nbsp;at&nbsp;any&nbsp;time&nbsp;as&nbsp;a&nbsp;fullround&nbsp;action.&nbsp;If&nbsp;your&nbsp;psicrystal&nbsp;is&nbsp;destroyed,&nbsp;the&nbsp;spirit&nbsp;is&nbsp;immediately&nbsp;freed&nbsp;from&nbsp;it.
+
+      </p>
+
+      <p>Three&nbsp;times&nbsp;per&nbsp;day,&nbsp;while&nbsp;the&nbsp;spirit&nbsp;is&nbsp;bound&nbsp;within&nbsp;your&nbsp;psicrystal,&nbsp;you&nbsp;may&nbsp;draw&nbsp;on&nbsp;its&nbsp;essence&nbsp;for&nbsp;power&nbsp;–&nbsp;choosing&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;abilities.&nbsp;Each&nbsp;of&nbsp;these&nbsp;abilities&nbsp;takes&nbsp;a&nbsp;standard&nbsp;action&nbsp;to&nbsp;activate,&nbsp;is&nbsp;a&nbsp;psilike&nbsp;effect,&nbsp;and&nbsp;functions&nbsp;at&nbsp;your&nbsp;manifester&nbsp;level.&nbsp;For&nbsp;each&nbsp;bonus&nbsp;you&nbsp;take,&nbsp;you&nbsp;owe&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;to&nbsp;the&nbsp;spirit,&nbsp;to&nbsp;be&nbsp;paid&nbsp;within&nbsp;the&nbsp;next&nbsp;24&nbsp;hours:&nbsp;a&nbsp;part&nbsp;of&nbsp;your&nbsp;dreams&nbsp;(you&nbsp;must&nbsp;rest&nbsp;one&nbsp;additional&nbsp;hour&nbsp;to&nbsp;regain&nbsp;power&nbsp;points),&nbsp;some&nbsp;of&nbsp;your&nbsp;memories&nbsp;(you&nbsp;must&nbsp;spend&nbsp;one&nbsp;uninterrupted&nbsp;hour&nbsp;doing&nbsp;nothing&nbsp;but&nbsp;sitting&nbsp;and&nbsp;reminiscing),&nbsp;or&nbsp;a&nbsp;part&nbsp;of&nbsp;your&nbsp;soul&nbsp;(you&nbsp;gain&nbsp;one&nbsp;negative&nbsp;level).&nbsp;If&nbsp;you&nbsp;do&nbsp;not&nbsp;pay&nbsp;the&nbsp;spirit&nbsp;within&nbsp;the&nbsp;next&nbsp;24&nbsp;hours,&nbsp;you&nbsp;lose&nbsp;all&nbsp;benefits&nbsp;of&nbsp;this&nbsp;feat&nbsp;and&nbsp;cannot&nbsp;benefit&nbsp;from&nbsp;it&nbsp;again&nbsp;for&nbsp;one&nbsp;week.
+
+      </p>
+
+      <p>Gain&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;1d10&nbsp;+&nbsp;1&nbsp;per&nbsp;manifester&nbsp;level.
+
+      </p>
+
+      <p>Gain&nbsp;a&nbsp;bonus&nbsp;equal&nbsp;to&nbsp;2&nbsp;times&nbsp;your&nbsp;manifester&nbsp;level&nbsp;on&nbsp;the&nbsp;next&nbsp;attack&nbsp;roll&nbsp;you&nbsp;make.&nbsp;This&nbsp;attack&nbsp;must&nbsp;be&nbsp;before&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;next&nbsp;turn,&nbsp;or&nbsp;the&nbsp;bonus&nbsp;is&nbsp;lost.&nbsp;Sustain&nbsp;you&nbsp;for&nbsp;24&nbsp;hours&nbsp;without&nbsp;food&nbsp;and&nbsp;water,&nbsp;as&nbsp;if&nbsp;using&nbsp;sustenance.
+
+      </p>
+
+      <p>Form&nbsp;a&nbsp;ghostly&nbsp;weapon.&nbsp;This&nbsp;weapon&nbsp;is&nbsp;a&nbsp;quasi-real&nbsp;masterwork&nbsp;melee&nbsp;weapon&nbsp;of&nbsp;a&nbsp;type&nbsp;you&nbsp;are&nbsp;proficient&nbsp;with.&nbsp;You&nbsp;may&nbsp;make&nbsp;attacks&nbsp;with&nbsp;this&nbsp;weapon&nbsp;as&nbsp;normal,&nbsp;dealing&nbsp;normal&nbsp;damage,&nbsp;except&nbsp;that&nbsp;this&nbsp;weapon&nbsp;only&nbsp;deals&nbsp;1&nbsp;point&nbsp;of&nbsp;damage&nbsp;to&nbsp;objects.&nbsp;This&nbsp;effect&nbsp;ends&nbsp;if&nbsp;the&nbsp;weapon&nbsp;leaves&nbsp;your&nbsp;possession.
+
+      </p>
+
+      <p>Conceal&nbsp;your&nbsp;form,&nbsp;becoming&nbsp;invisible&nbsp;for&nbsp;a&nbsp;number&nbsp;of&nbsp;minutes&nbsp;equal&nbsp;to&nbsp;your&nbsp;manifester&nbsp;level.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Bound_Self"&nbsp;title="Bound&nbsp;Self">Bound&nbsp;Self</a></li><li><a&nbsp;href="/wiki/Psicrystal_Affinity"&nbsp;title="Psicrystal&nbsp;Affinity">Psicrystal&nbsp;Affinity</a></li><li><a&nbsp;href="/wiki/Spirited_Psicrystal"&nbsp;title="Spirited&nbsp;Psicrystal">Spirited&nbsp;Psicrystal</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 14–15
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

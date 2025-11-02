@@ -1,0 +1,70 @@
+_id: YMe3J2dsWx6de49e
+_key: '!items!YMe3J2dsWx6de49e'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Unconscious_Unconditionally
+img: icons/sundries/books/book-embossed-blue.webp
+name: Unconscious Unconditionally
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;can&nbsp;manifest&nbsp;powers&nbsp;even&nbsp;when&nbsp;you&nbsp;become&nbsp;unconscious.</em></p>
+
+      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Unconditional_Power"&nbsp;title="Unconditional&nbsp;Power">Unconditional&nbsp;Power</a>.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>The&nbsp;first&nbsp;round&nbsp;after&nbsp;you&nbsp;become&nbsp;unconscious,&nbsp;you&nbsp;can&nbsp;use&nbsp;the&nbsp;Unconditional&nbsp;Power&nbsp;feat&nbsp;to&nbsp;manifest&nbsp;a&nbsp;power&nbsp;as&nbsp;if&nbsp;you&nbsp;were&nbsp;stunned.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '7'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  subType: feat
+  summons: false
+  tags:
+    - feat
+type: feat

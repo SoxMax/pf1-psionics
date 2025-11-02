@@ -1,0 +1,120 @@
+_id: LUtKjGgj1hMayM33
+_key: '!items!LUtKjGgj1hMayM33'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psychosis
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Psychosis
+system:
+  actions:
+    - actionType: heal
+      activation:
+        cost: 1
+        type: standard
+      damage:
+        parts:
+          - - 1d8
+            - untyped
+          - - 1d8
+            - heal
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>Creatures&nbsp;affected&nbsp;by&nbsp;this&nbsp;power&nbsp;are&nbsp;permanently&nbsp;confused&nbsp;and&nbsp;constantly&nbsp;behave&nbsp;randomly,&nbsp;making&nbsp;them&nbsp;unable&nbsp;to&nbsp;independently&nbsp;determine&nbsp;what&nbsp;they&nbsp;will&nbsp;do.&nbsp;Roll&nbsp;on&nbsp;the&nbsp;following&nbsp;table&nbsp;at&nbsp;the&nbsp;beginning&nbsp;the&nbsp;subject's&nbsp;turn&nbsp;each&nbsp;round&nbsp;to&nbsp;see&nbsp;what&nbsp;the&nbsp;subject&nbsp;does&nbsp;in&nbsp;that&nbsp;round.
+
+      </p><table><tbody><tr><th>d%
+
+      </th><th>Behavior
+
+      </th></tr><tr><td>01–25
+
+      </td><td>Act&nbsp;normally
+
+      </td></tr><tr><td>26–50
+
+      </td><td>Do&nbsp;nothing&nbsp;but&nbsp;babble&nbsp;incoherently.
+
+      </td></tr><tr><td>51–75
+
+      </td><td>Deal&nbsp;1d8&nbsp;points&nbsp;of&nbsp;damage&nbsp;+&nbsp;Str&nbsp;modifier&nbsp;to&nbsp;self&nbsp;with&nbsp;item&nbsp;in&nbsp;hand
+
+      </td></tr><tr><td>76–100
+
+      </td><td>Attack&nbsp;nearest&nbsp;creature&nbsp;(for&nbsp;this&nbsp;purpose,&nbsp;a&nbsp;psicrystal&nbsp;counts&nbsp;as&nbsp;part&nbsp;of&nbsp;the&nbsp;subject's&nbsp;self).
+
+      </td></tr></tbody></table>
+
+      <p>A&nbsp;confused&nbsp;character&nbsp;that&nbsp;can't&nbsp;carry&nbsp;out&nbsp;the&nbsp;indicated&nbsp;action&nbsp;does&nbsp;nothing&nbsp;but&nbsp;babble&nbsp;incoherently.&nbsp;Attackers&nbsp;are&nbsp;not&nbsp;at&nbsp;any&nbsp;special&nbsp;advantage&nbsp;when&nbsp;attacking&nbsp;a&nbsp;confused&nbsp;character.&nbsp;Any&nbsp;confused&nbsp;character&nbsp;that&nbsp;is&nbsp;attacked&nbsp;automatically&nbsp;attacks&nbsp;its&nbsp;attackers&nbsp;on&nbsp;its&nbsp;next&nbsp;turn,&nbsp;as&nbsp;long&nbsp;as&nbsp;it&nbsp;is&nbsp;still&nbsp;confused&nbsp;when&nbsp;its&nbsp;turn&nbsp;comes.&nbsp;Note&nbsp;that&nbsp;a&nbsp;confused&nbsp;character&nbsp;will&nbsp;not&nbsp;make&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;against&nbsp;any&nbsp;creature&nbsp;that&nbsp;it&nbsp;is&nbsp;not&nbsp;already&nbsp;devoted&nbsp;to&nbsp;attacking&nbsp;(either&nbsp;because&nbsp;of&nbsp;its&nbsp;most&nbsp;recent&nbsp;actions&nbsp;or&nbsp;because&nbsp;it&nbsp;has&nbsp;just&nbsp;been&nbsp;attacked).
+
+      </p>
+
+      <p>Only&nbsp;psychic&nbsp;chirurgery,&nbsp;reality&nbsp;revision,&nbsp;and&nbsp;other&nbsp;similarly&nbsp;extreme&nbsp;measures&nbsp;can&nbsp;restore&nbsp;the&nbsp;subject's&nbsp;sanity.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1,&nbsp;and&nbsp;the&nbsp;power&nbsp;can&nbsp;affect&nbsp;an&nbsp;additional&nbsp;target.&nbsp;Any&nbsp;additional&nbsp;target&nbsp;cannot&nbsp;be&nbsp;more&nbsp;than&nbsp;15&nbsp;feet&nbsp;from&nbsp;another&nbsp;target&nbsp;of&nbsp;the&nbsp;power.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 7
+      wilder: 7
+  level: 7
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 139–140
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '237'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '53'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline:
+    - compulsion
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

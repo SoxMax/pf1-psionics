@@ -1,0 +1,88 @@
+_id: OwFSNHdMmO8Ve6Q1
+_key: '!items!OwFSNHdMmO8Ve6Q1'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Subconscious_Banishment
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Subconscious Banishment
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates; then Fortitude negates (seetext)
+        type: fort
+      target:
+        value: One creature with an Intelligence of 3 or more.
+  description:
+    value: >-
+      <p>You&nbsp;tear&nbsp;the&nbsp;subconscious&nbsp;mind&nbsp;away&nbsp;from&nbsp;the&nbsp;target&nbsp;and&nbsp;send&nbsp;it&nbsp;into&nbsp;a&nbsp;personal&nbsp;nightmare,&nbsp;causing&nbsp;the&nbsp;target&nbsp;to&nbsp;be&nbsp;sickened&nbsp;unless&nbsp;it&nbsp;makes&nbsp;a&nbsp;successful&nbsp;Will&nbsp;save.&nbsp;At&nbsp;the&nbsp;beginning&nbsp;of&nbsp;each&nbsp;subsequent&nbsp;round,&nbsp;the&nbsp;target&nbsp;gets&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;to&nbsp;stop&nbsp;being&nbsp;sickened.&nbsp;While&nbsp;sickened,&nbsp;the&nbsp;target&nbsp;must&nbsp;make&nbsp;a&nbsp;concentration&nbsp;check&nbsp;(DC&nbsp;20&nbsp;+&nbsp;level&nbsp;of&nbsp;the&nbsp;power/spell&nbsp;they&nbsp;wish&nbsp;to&nbsp;manifest/cast)&nbsp;to&nbsp;manifest&nbsp;powers&nbsp;or&nbsp;cast&nbsp;spells,&nbsp;as&nbsp;their&nbsp;mind&nbsp;is&nbsp;in&nbsp;two&nbsp;places&nbsp;at&nbsp;once.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;3&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;range&nbsp;increases&nbsp;to&nbsp;Medium&nbsp;(100&nbsp;ft.&nbsp;+&nbsp;10&nbsp;ft./level).</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;target&nbsp;becomes&nbsp;nauseated&nbsp;instead&nbsp;of&nbsp;sickened.&nbsp;On&nbsp;their&nbsp;first&nbsp;successful&nbsp;Fortitude&nbsp;save,&nbsp;they&nbsp;become&nbsp;sickened&nbsp;until&nbsp;they&nbsp;make&nbsp;another&nbsp;successful&nbsp;Fortitude&nbsp;save&nbsp;the&nbsp;following&nbsp;round(s).</li></ol>
+
+      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;spent&nbsp;on&nbsp;the&nbsp;above&nbsp;augmentations,&nbsp;the&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 2
+      thug: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 32–33
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '181'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 247–248
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

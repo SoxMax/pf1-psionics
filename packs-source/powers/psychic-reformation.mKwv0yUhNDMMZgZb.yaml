@@ -1,0 +1,102 @@
+_id: mKwv0yUhNDMMZgZb
+_key: '!items!mKwv0yUhNDMMZgZb'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psychic_Reformation
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Psychic Reformation
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 10
+        type: minute
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>When&nbsp;this&nbsp;power&nbsp;is&nbsp;manifested,&nbsp;the&nbsp;subject&nbsp;can&nbsp;choose&nbsp;to&nbsp;spend&nbsp;its&nbsp;most&nbsp;recently&nbsp;gained&nbsp;skill&nbsp;ranks&nbsp;differently&nbsp;(picking&nbsp;new&nbsp;skills&nbsp;and&nbsp;abandoning&nbsp;old&nbsp;ones&nbsp;if&nbsp;it&nbsp;chooses)&nbsp;and&nbsp;to&nbsp;choose&nbsp;a&nbsp;different&nbsp;feat&nbsp;from&nbsp;the&nbsp;one&nbsp;it&nbsp;selected&nbsp;when&nbsp;advancing&nbsp;from&nbsp;its&nbsp;previous&nbsp;level&nbsp;to&nbsp;its&nbsp;current&nbsp;level.
+
+      </p>
+
+      <p>The&nbsp;subject&nbsp;can&nbsp;also&nbsp;choose&nbsp;to&nbsp;forget&nbsp;powers&nbsp;or&nbsp;spells&nbsp;it&nbsp;acquired&nbsp;when&nbsp;advancing&nbsp;to&nbsp;its&nbsp;current&nbsp;level,&nbsp;replacing&nbsp;them&nbsp;with&nbsp;new&nbsp;ones.
+
+      </p>
+
+      <p>The&nbsp;subject&nbsp;can&nbsp;undo&nbsp;decisions&nbsp;of&nbsp;these&nbsp;sorts&nbsp;that&nbsp;were&nbsp;made&nbsp;at&nbsp;lower&nbsp;levels,&nbsp;although&nbsp;he&nbsp;suffers&nbsp;increased&nbsp;penalties&nbsp;the&nbsp;farther&nbsp;back&nbsp;he&nbsp;goes&nbsp;to&nbsp;undo&nbsp;decisions.&nbsp;The&nbsp;subject&nbsp;must&nbsp;abide&nbsp;by&nbsp;the&nbsp;standard&nbsp;rules&nbsp;for&nbsp;selecting&nbsp;skills&nbsp;and&nbsp;feats,&nbsp;and&nbsp;so&nbsp;it&nbsp;cannot&nbsp;take&nbsp;feats&nbsp;for&nbsp;which&nbsp;it&nbsp;doesn't&nbsp;qualify.&nbsp;Any&nbsp;change&nbsp;made&nbsp;must&nbsp;have&nbsp;been&nbsp;available&nbsp;at&nbsp;the&nbsp;level&nbsp;selected.&nbsp;For&nbsp;example,&nbsp;a&nbsp;7th&nbsp;level&nbsp;psion&nbsp;who&nbsp;uses&nbsp;this&nbsp;power&nbsp;to&nbsp;change&nbsp;a&nbsp;2nd&nbsp;level&nbsp;power&nbsp;gained&nbsp;at&nbsp;3rd&nbsp;level&nbsp;psion&nbsp;cannot&nbsp;select&nbsp;a&nbsp;4th&nbsp;level&nbsp;power&nbsp;to&nbsp;replace&nbsp;it&nbsp;–&nbsp;he&nbsp;must&nbsp;choose&nbsp;a&nbsp;1st&nbsp;or&nbsp;2nd&nbsp;level&nbsp;power.
+
+      </p>
+
+      <p>The&nbsp;subject&nbsp;is&nbsp;not&nbsp;limited&nbsp;to&nbsp;changing&nbsp;only&nbsp;a&nbsp;single&nbsp;level's&nbsp;choices&nbsp;should&nbsp;he&nbsp;decide&nbsp;to&nbsp;undo&nbsp;decisions&nbsp;from&nbsp;prior&nbsp;levels.&nbsp;Every&nbsp;level&nbsp;between&nbsp;his&nbsp;current&nbsp;level&nbsp;and&nbsp;the&nbsp;earliest&nbsp;level&nbsp;may&nbsp;be&nbsp;altered,&nbsp;so&nbsp;long&nbsp;as&nbsp;the&nbsp;choices&nbsp;made&nbsp;were&nbsp;valid&nbsp;at&nbsp;the&nbsp;appropriate&nbsp;level.
+
+      </p>
+
+      <p>If&nbsp;the&nbsp;subject&nbsp;goes&nbsp;farther&nbsp;back&nbsp;than&nbsp;the&nbsp;changes&nbsp;from&nbsp;the&nbsp;previous&nbsp;level&nbsp;to&nbsp;its&nbsp;current&nbsp;level,&nbsp;the&nbsp;subject&nbsp;suffers&nbsp;a&nbsp;cumulative&nbsp;–1&nbsp;penalty&nbsp;on&nbsp;all&nbsp;ability&nbsp;checks,&nbsp;attack&nbsp;rolls,&nbsp;combat&nbsp;maneuver&nbsp;checks,&nbsp;Combat&nbsp;Maneuver&nbsp;Defense,&nbsp;saving&nbsp;throws,&nbsp;and&nbsp;skill&nbsp;checks&nbsp;for&nbsp;each&nbsp;level&nbsp;back&nbsp;the&nbsp;power&nbsp;changes.&nbsp;In&nbsp;addition,&nbsp;the&nbsp;creature&nbsp;reduces&nbsp;its&nbsp;current&nbsp;and&nbsp;total&nbsp;hit&nbsp;points&nbsp;by&nbsp;5&nbsp;for&nbsp;each&nbsp;level&nbsp;back&nbsp;the&nbsp;power&nbsp;changes.&nbsp;The&nbsp;creature&nbsp;is&nbsp;also&nbsp;treated&nbsp;as&nbsp;one&nbsp;level&nbsp;lower&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of&nbsp;level-dependent&nbsp;variables&nbsp;(such&nbsp;as&nbsp;spellcasting&nbsp;or&nbsp;manifesting)&nbsp;for&nbsp;each&nbsp;level&nbsp;back&nbsp;the&nbsp;power&nbsp;changes.&nbsp;These&nbsp;penalties&nbsp;last&nbsp;for&nbsp;24&nbsp;hours.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;either&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;penalties&nbsp;end&nbsp;after&nbsp;the&nbsp;subject&nbsp;rests&nbsp;for&nbsp;8&nbsp;hours.</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;subject&nbsp;does&nbsp;not&nbsp;suffer&nbsp;any&nbsp;penalties.</li></ol>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: true
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 4
+      gifted blade: 4
+      psion: 4
+      tactician: 4
+      vitalist: 4
+      wilder: 4
+  level: 4
+  manifestTime:
+    units: minute
+    value: 10
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '137'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 234–235
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '52'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

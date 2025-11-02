@@ -1,0 +1,83 @@
+_id: sADBUEGhQAynrw62
+_key: '!items!sADBUEGhQAynrw62'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Reality_Revision
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Reality Revision
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      name: Use
+      save:
+        description: See text
+  description:
+    value: >-
+      <p>As&nbsp;bend&nbsp;reality,&nbsp;but&nbsp;with&nbsp;more&nbsp;far-reaching&nbsp;effects.&nbsp;A&nbsp;reality&nbsp;revision&nbsp;can&nbsp;produce&nbsp;any&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;effects.
+
+      </p><ul><li>Duplicate&nbsp;any&nbsp;psion&nbsp;power&nbsp;of&nbsp;8th&nbsp;level&nbsp;or&nbsp;lower,&nbsp;provided&nbsp;the&nbsp;power&nbsp;is&nbsp;not&nbsp;on&nbsp;a&nbsp;discipline-restricted&nbsp;list&nbsp;that&nbsp;you&nbsp;do&nbsp;not&nbsp;have&nbsp;access&nbsp;to.</li><li>Duplicate&nbsp;any&nbsp;psion&nbsp;power&nbsp;of&nbsp;7th&nbsp;level&nbsp;or&nbsp;lower&nbsp;even&nbsp;if&nbsp;it's&nbsp;a&nbsp;power&nbsp;on&nbsp;a&nbsp;discipline-restricted&nbsp;list&nbsp;that&nbsp;you&nbsp;do&nbsp;not&nbsp;have&nbsp;access&nbsp;to.</li><li>Duplicate&nbsp;any&nbsp;other&nbsp;power&nbsp;or&nbsp;spell&nbsp;of&nbsp;6th&nbsp;level&nbsp;or&nbsp;lower,&nbsp;such&nbsp;as&nbsp;a&nbsp;psychic&nbsp;warrior&nbsp;power.</li><li>Undo&nbsp;the&nbsp;harmful&nbsp;effects&nbsp;of&nbsp;many&nbsp;other&nbsp;powers,&nbsp;such&nbsp;as&nbsp;microcosm,&nbsp;geas/quest,&nbsp;or&nbsp;insanity.</li><li>Create&nbsp;a&nbsp;non-psionic&nbsp;item&nbsp;of&nbsp;up&nbsp;to&nbsp;25,000&nbsp;gp&nbsp;in&nbsp;value.</li><li>Grant&nbsp;a&nbsp;creature&nbsp;a&nbsp;+1&nbsp;inherent&nbsp;bonus&nbsp;to&nbsp;an&nbsp;ability&nbsp;score.&nbsp;Two&nbsp;to&nbsp;five&nbsp;reality&nbsp;revisions&nbsp;manifested&nbsp;in&nbsp;immediate&nbsp;succession&nbsp;can&nbsp;grant&nbsp;a&nbsp;creature&nbsp;a&nbsp;+2&nbsp;to&nbsp;+5&nbsp;inherent&nbsp;bonus&nbsp;to&nbsp;an&nbsp;ability&nbsp;score.&nbsp;Inherent&nbsp;bonuses&nbsp;are&nbsp;instantaneous,&nbsp;so&nbsp;they&nbsp;cannot&nbsp;be&nbsp;negated&nbsp;or&nbsp;dispelled.&nbsp;An&nbsp;inherent&nbsp;bonus&nbsp;cannot&nbsp;exceed&nbsp;+5&nbsp;for&nbsp;a&nbsp;single&nbsp;ability&nbsp;score.&nbsp;Inherent&nbsp;bonuses&nbsp;to&nbsp;a&nbsp;particular&nbsp;ability&nbsp;score&nbsp;do&nbsp;not&nbsp;stack;&nbsp;only&nbsp;the&nbsp;best&nbsp;one&nbsp;applies.</li><li>Remove&nbsp;injuries&nbsp;and&nbsp;afflictions.&nbsp;A&nbsp;single&nbsp;reality&nbsp;revision&nbsp;can&nbsp;aid&nbsp;one&nbsp;creature&nbsp;per&nbsp;manifester&nbsp;level,&nbsp;and&nbsp;all&nbsp;subjects&nbsp;are&nbsp;cured&nbsp;of&nbsp;the&nbsp;same&nbsp;kind&nbsp;of&nbsp;affliction.</li><li>Revive&nbsp;the&nbsp;dead.&nbsp;Reality&nbsp;revision&nbsp;can&nbsp;bring&nbsp;a&nbsp;dead&nbsp;creature&nbsp;back&nbsp;to&nbsp;life&nbsp;by&nbsp;duplicating&nbsp;a&nbsp;resurrection&nbsp;spell.&nbsp;This&nbsp;power&nbsp;can&nbsp;revive&nbsp;a&nbsp;dead&nbsp;creature&nbsp;whose&nbsp;body&nbsp;has&nbsp;been&nbsp;destroyed,&nbsp;but&nbsp;the&nbsp;task&nbsp;takes&nbsp;two&nbsp;manifestations&nbsp;of&nbsp;reality&nbsp;revision,&nbsp;one&nbsp;to&nbsp;recreate&nbsp;the&nbsp;body&nbsp;and&nbsp;another&nbsp;to&nbsp;infuse&nbsp;the&nbsp;body&nbsp;with&nbsp;life&nbsp;again.&nbsp;Reality&nbsp;revision&nbsp;cannot&nbsp;prevent&nbsp;a&nbsp;character&nbsp;who&nbsp;is&nbsp;brought&nbsp;back&nbsp;to&nbsp;life&nbsp;from&nbsp;suffering&nbsp;a&nbsp;permanent&nbsp;negative&nbsp;level&nbsp;or&nbsp;suffering&nbsp;from&nbsp;Constitution&nbsp;drain.</li><li>Transport&nbsp;travelers.&nbsp;This&nbsp;power&nbsp;can&nbsp;lift&nbsp;one&nbsp;creature&nbsp;per&nbsp;manifester&nbsp;level&nbsp;from&nbsp;anywhere&nbsp;on&nbsp;any&nbsp;plane&nbsp;and&nbsp;place&nbsp;those&nbsp;creatures&nbsp;anywhere&nbsp;else&nbsp;on&nbsp;any&nbsp;plane&nbsp;regardless&nbsp;of&nbsp;local&nbsp;conditions.&nbsp;An&nbsp;unwilling&nbsp;target&nbsp;gets&nbsp;a&nbsp;Will&nbsp;save&nbsp;to&nbsp;negate&nbsp;the&nbsp;effect,&nbsp;and&nbsp;power&nbsp;resistance&nbsp;(if&nbsp;any)&nbsp;applies.</li><li>Undo&nbsp;misfortune.&nbsp;Reality&nbsp;revision&nbsp;can&nbsp;undo&nbsp;a&nbsp;single&nbsp;recent&nbsp;event.&nbsp;Manifesting&nbsp;the&nbsp;power&nbsp;forces&nbsp;a&nbsp;reroll&nbsp;of&nbsp;any&nbsp;single&nbsp;roll&nbsp;made&nbsp;within&nbsp;the&nbsp;last&nbsp;round&nbsp;(including&nbsp;your&nbsp;last&nbsp;turn).&nbsp;Reality&nbsp;reshapes&nbsp;itself&nbsp;to&nbsp;accommodate&nbsp;the&nbsp;new&nbsp;result.&nbsp;The&nbsp;reroll,&nbsp;however,&nbsp;may&nbsp;be&nbsp;as&nbsp;bad&nbsp;as&nbsp;or&nbsp;worse&nbsp;than&nbsp;the&nbsp;original&nbsp;roll.&nbsp;An&nbsp;unwilling&nbsp;target&nbsp;gets&nbsp;a&nbsp;Will&nbsp;save&nbsp;to&nbsp;negate&nbsp;the&nbsp;effect,&nbsp;and&nbsp;power&nbsp;resistance&nbsp;(if&nbsp;any)&nbsp;applies.</li></ul>
+
+      <p>You&nbsp;can&nbsp;try&nbsp;to&nbsp;use&nbsp;reality&nbsp;revision&nbsp;to&nbsp;produce&nbsp;more&nbsp;powerful&nbsp;effects&nbsp;than&nbsp;these,&nbsp;but&nbsp;doing&nbsp;so&nbsp;is&nbsp;dangerous.&nbsp;The&nbsp;manifestation&nbsp;may&nbsp;pervert&nbsp;your&nbsp;intent&nbsp;into&nbsp;a&nbsp;literal&nbsp;but&nbsp;undesirable&nbsp;fulfillment&nbsp;or&nbsp;only&nbsp;a&nbsp;partial&nbsp;fulfillment.
+
+      </p>
+
+      <p>Duplicated&nbsp;powers&nbsp;allow&nbsp;saves&nbsp;and&nbsp;power&nbsp;resistance&nbsp;as&nbsp;normal&nbsp;(but&nbsp;save&nbsp;DCs&nbsp;are&nbsp;calculated&nbsp;as&nbsp;though&nbsp;the&nbsp;power&nbsp;is&nbsp;9th&nbsp;level)&nbsp;and&nbsp;the&nbsp;power&nbsp;is&nbsp;treated&nbsp;as&nbsp;if&nbsp;manifested&nbsp;with&nbsp;17&nbsp;power&nbsp;points,&nbsp;allowing&nbsp;the&nbsp;manifester&nbsp;to&nbsp;choose&nbsp;any&nbsp;appropriate&nbsp;augment&nbsp;options.&nbsp;Powers&nbsp;without&nbsp;augment&nbsp;options&nbsp;are&nbsp;simply&nbsp;manifested&nbsp;as&nbsp;normal,&nbsp;but&nbsp;with&nbsp;9th&nbsp;level&nbsp;save&nbsp;DCs.
+
+      </p>
+
+      <p>Manifesting&nbsp;reality&nbsp;revision&nbsp;requires&nbsp;channeling&nbsp;psionic&nbsp;power&nbsp;through&nbsp;specially-treated&nbsp;crystals&nbsp;similar&nbsp;to&nbsp;cognizance&nbsp;crystals&nbsp;that&nbsp;cost&nbsp;25,000&nbsp;gp.&nbsp;The&nbsp;crystal&nbsp;is&nbsp;consumed&nbsp;in&nbsp;the&nbsp;manifestation&nbsp;and&nbsp;becomes&nbsp;inert,&nbsp;unable&nbsp;to&nbsp;be&nbsp;used&nbsp;again&nbsp;and&nbsp;losing&nbsp;any&nbsp;value.&nbsp;If&nbsp;a&nbsp;power&nbsp;or&nbsp;spell&nbsp;duplicated&nbsp;by&nbsp;reality&nbsp;revision&nbsp;has&nbsp;a&nbsp;material&nbsp;component&nbsp;that&nbsp;costs&nbsp;more&nbsp;than&nbsp;10,000&nbsp;gp,&nbsp;you&nbsp;must&nbsp;provide&nbsp;that&nbsp;component&nbsp;or&nbsp;additional&nbsp;crystals&nbsp;of&nbsp;the&nbsp;same&nbsp;value.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 9
+      tactician: 9
+      vitalist: 9
+      wilder: 9
+  level: 9
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 140–141
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '238'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 53–54
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

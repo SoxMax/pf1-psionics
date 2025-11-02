@@ -1,0 +1,85 @@
+_id: Dr6QHpYIMhiPDMJ5
+_key: '!items!Dr6QHpYIMhiPDMJ5'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Skills_as_One
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Skills as One
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None (see text)
+      target:
+        value: You plus one willing creature
+  description:
+    value: >-
+      <p>When&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;you&nbsp;must&nbsp;choose&nbsp;one&nbsp;skill.&nbsp;If&nbsp;your&nbsp;rank&nbsp;in&nbsp;that&nbsp;skill&nbsp;is&nbsp;higher,&nbsp;the&nbsp;target&nbsp;uses&nbsp;your&nbsp;ranks&nbsp;in&nbsp;place&nbsp;of&nbsp;his&nbsp;own&nbsp;ranks&nbsp;(maximum&nbsp;5&nbsp;ranks),&nbsp;and&nbsp;vice&nbsp;versa.&nbsp;If&nbsp;a&nbsp;target's&nbsp;skill&nbsp;ranks&nbsp;are&nbsp;replaced&nbsp;by&nbsp;this&nbsp;power,&nbsp;they&nbsp;are&nbsp;treated&nbsp;as&nbsp;though&nbsp;they&nbsp;actually&nbsp;had&nbsp;the&nbsp;shared&nbsp;ranks&nbsp;in&nbsp;the&nbsp;skill&nbsp;for&nbsp;all&nbsp;purposes&nbsp;(including&nbsp;class&nbsp;skill&nbsp;bonuses&nbsp;and&nbsp;the&nbsp;use&nbsp;of&nbsp;trained-only&nbsp;skills).
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;choose&nbsp;an&nbsp;additional&nbsp;skill&nbsp;to&nbsp;share.&nbsp;Compare&nbsp;each&nbsp;skill&nbsp;individually.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;maximum&nbsp;ranks&nbsp;you&nbsp;can&nbsp;share&nbsp;increases&nbsp;by&nbsp;5&nbsp;ranks.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;can&nbsp;affect&nbsp;an&nbsp;unwilling&nbsp;target,&nbsp;and&nbsp;the&nbsp;power's&nbsp;saving&nbsp;throw&nbsp;becomes&nbsp;"Will&nbsp;negates&nbsp;(harmless)".&nbsp;Unwilling&nbsp;targets&nbsp;do&nbsp;not&nbsp;gain&nbsp;the&nbsp;benefit&nbsp;of&nbsp;increased&nbsp;skill&nbsp;ranks,&nbsp;although&nbsp;their&nbsp;skill&nbsp;ranks&nbsp;may&nbsp;be&nbsp;shared&nbsp;with&nbsp;willing&nbsp;targets.</li></ol>
+  descriptors:
+    - mind-affecting
+    - network
+    - shared
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 1
+      tactician: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '22'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Pawns and Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '180'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '246'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

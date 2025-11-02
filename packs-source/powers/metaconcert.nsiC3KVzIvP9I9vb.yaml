@@ -1,0 +1,114 @@
+_id: nsiC3KVzIvP9I9vb
+_key: '!items!nsiC3KVzIvP9I9vb'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Metaconcert
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Metaconcert
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: minute
+      duration:
+        dismiss: true
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: ft
+        value: 20 ft.
+      save:
+        description: None
+      target:
+        value: You and up to five other willing psionic creatures in range; see text
+  description:
+    value: >-
+      <p>You&nbsp;link&nbsp;your&nbsp;psychic&nbsp;might&nbsp;with&nbsp;other&nbsp;psionic&nbsp;creatures,&nbsp;creating&nbsp;a&nbsp;composite&nbsp;network&nbsp;more&nbsp;powerful&nbsp;than&nbsp;the&nbsp;sum&nbsp;of&nbsp;its&nbsp;parts.&nbsp;If&nbsp;there&nbsp;are&nbsp;no&nbsp;willing,&nbsp;psionic&nbsp;creatures&nbsp;in&nbsp;the&nbsp;area&nbsp;other&nbsp;than&nbsp;you&nbsp;when&nbsp;you&nbsp;use&nbsp;this&nbsp;power,&nbsp;it&nbsp;fails.
+
+      </p>
+
+      <p>When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;up&nbsp;to&nbsp;five&nbsp;willing,&nbsp;psionic&nbsp;creatures&nbsp;in&nbsp;the&nbsp;area&nbsp;connect&nbsp;with&nbsp;you&nbsp;into&nbsp;a&nbsp;metaconcert&nbsp;network&nbsp;(a&nbsp;"metanetwork"),&nbsp;a&nbsp;distributed,&nbsp;metaphysical&nbsp;analogue&nbsp;of&nbsp;a&nbsp;psionic&nbsp;manifester.&nbsp;Misty&nbsp;strands&nbsp;of&nbsp;glowing&nbsp;power&nbsp;link&nbsp;the&nbsp;brows&nbsp;of&nbsp;each&nbsp;member&nbsp;in&nbsp;a&nbsp;complex&nbsp;and&nbsp;shifting&nbsp;pattern,&nbsp;and&nbsp;a&nbsp;mental&nbsp;image&nbsp;of&nbsp;each&nbsp;other&nbsp;member&nbsp;appears&nbsp;in&nbsp;the&nbsp;minds&nbsp;of&nbsp;everyone&nbsp;so&nbsp;linked.&nbsp;A&nbsp;number&nbsp;of&nbsp;power&nbsp;points&nbsp;you&nbsp;designate&nbsp;flow&nbsp;from&nbsp;each&nbsp;member&nbsp;(including&nbsp;yourself)&nbsp;into&nbsp;a&nbsp;collective&nbsp;pool.&nbsp;If&nbsp;a&nbsp;member&nbsp;does&nbsp;not&nbsp;have&nbsp;enough&nbsp;power&nbsp;points&nbsp;to&nbsp;contribute,&nbsp;he&nbsp;drops&nbsp;out&nbsp;of&nbsp;the&nbsp;metaconcert&nbsp;(see&nbsp;below).
+
+      </p>
+
+      <p>One&nbsp;individual&nbsp;is&nbsp;chosen&nbsp;as&nbsp;the&nbsp;metaconcert&nbsp;conductor&nbsp;by&nbsp;mutual&nbsp;consent&nbsp;of&nbsp;the&nbsp;other&nbsp;members&nbsp;(this&nbsp;is&nbsp;usually&nbsp;the&nbsp;manifester,&nbsp;but&nbsp;doesn't&nbsp;have&nbsp;to&nbsp;be).&nbsp;Until&nbsp;the&nbsp;power&nbsp;ends,&nbsp;this&nbsp;conductor&nbsp;directs&nbsp;the&nbsp;efforts&nbsp;of&nbsp;the&nbsp;network.&nbsp;Members&nbsp;of&nbsp;a&nbsp;metaconcert&nbsp;can&nbsp;continue&nbsp;to&nbsp;take&nbsp;actions&nbsp;of&nbsp;their&nbsp;own&nbsp;as&nbsp;normal&nbsp;without&nbsp;disrupting&nbsp;the&nbsp;metanetwork,&nbsp;provided&nbsp;they&nbsp;stay&nbsp;within&nbsp;the&nbsp;area&nbsp;(see&nbsp;below).
+
+      </p>
+
+      <p>All&nbsp;the&nbsp;powers&nbsp;known&nbsp;of&nbsp;each&nbsp;member&nbsp;(except&nbsp;metaconcert)&nbsp;are&nbsp;available&nbsp;to&nbsp;the&nbsp;conductor&nbsp;through&nbsp;the&nbsp;metanetwork.&nbsp;While&nbsp;the&nbsp;conductor&nbsp;may&nbsp;still&nbsp;manifest&nbsp;his&nbsp;own&nbsp;powers&nbsp;as&nbsp;normal,&nbsp;he&nbsp;may&nbsp;instead&nbsp;choose&nbsp;to&nbsp;manifest&nbsp;a&nbsp;power&nbsp;from&nbsp;the&nbsp;metanetwork&nbsp;instead&nbsp;of&nbsp;from&nbsp;his&nbsp;own&nbsp;powers&nbsp;known.&nbsp;If&nbsp;he&nbsp;does&nbsp;so,&nbsp;he&nbsp;must&nbsp;use&nbsp;the&nbsp;power&nbsp;point&nbsp;pool&nbsp;of&nbsp;the&nbsp;metanetwork&nbsp;and&nbsp;may&nbsp;not&nbsp;use&nbsp;any&nbsp;of&nbsp;his&nbsp;feats&nbsp;or&nbsp;class&nbsp;features&nbsp;to&nbsp;modify&nbsp;the&nbsp;manifestation&nbsp;(although&nbsp;items&nbsp;are&nbsp;permitted),&nbsp;but&nbsp;he&nbsp;also&nbsp;gains&nbsp;numerous&nbsp;benefits.&nbsp;When&nbsp;manifesting&nbsp;a&nbsp;power&nbsp;from&nbsp;the&nbsp;metanetwork,&nbsp;his&nbsp;manifester&nbsp;level&nbsp;increases&nbsp;by&nbsp;one&nbsp;for&nbsp;each&nbsp;other&nbsp;metanetwork&nbsp;member&nbsp;(for&nbsp;instance,&nbsp;the&nbsp;normal&nbsp;maximum&nbsp;membership&nbsp;of&nbsp;five&nbsp;members&nbsp;besides&nbsp;the&nbsp;conductor&nbsp;increases&nbsp;the&nbsp;conductor's&nbsp;manifester&nbsp;level&nbsp;by&nbsp;five).&nbsp;It&nbsp;is&nbsp;obvious&nbsp;to&nbsp;an&nbsp;outsider&nbsp;when&nbsp;the&nbsp;conductor&nbsp;manifests&nbsp;from&nbsp;the&nbsp;metanetwork,&nbsp;as&nbsp;arcs&nbsp;of&nbsp;light&nbsp;pulse&nbsp;between&nbsp;the&nbsp;various&nbsp;members&nbsp;in&nbsp;a&nbsp;scintillating&nbsp;pattern,&nbsp;streaming&nbsp;to&nbsp;the&nbsp;conductor&nbsp;as&nbsp;his&nbsp;power&nbsp;manifests&nbsp;--&nbsp;this&nbsp;display&nbsp;cannot&nbsp;be&nbsp;hidden.
+
+      </p>
+
+      <p>The&nbsp;metanetwork&nbsp;also&nbsp;supports&nbsp;its&nbsp;members.&nbsp;Each&nbsp;member&nbsp;of&nbsp;the&nbsp;metanetwork&nbsp;gains&nbsp;a&nbsp;bonus&nbsp;on&nbsp;saving&nbsp;throws&nbsp;made&nbsp;against&nbsp;spells&nbsp;or&nbsp;powers&nbsp;equal&nbsp;to&nbsp;the&nbsp;number&nbsp;of&nbsp;other&nbsp;members,&nbsp;as&nbsp;the&nbsp;metanetwork&nbsp;distributes&nbsp;incoming&nbsp;magical&nbsp;energy&nbsp;about&nbsp;its&nbsp;nodes.&nbsp;If&nbsp;a&nbsp;spell&nbsp;or&nbsp;power&nbsp;would&nbsp;deal&nbsp;damage&nbsp;or&nbsp;ability&nbsp;damage&nbsp;to&nbsp;the&nbsp;conductor,&nbsp;he&nbsp;may&nbsp;choose&nbsp;to&nbsp;instead&nbsp;distribute&nbsp;it&nbsp;evenly&nbsp;between&nbsp;himself&nbsp;and&nbsp;all&nbsp;willing&nbsp;members.&nbsp;An&nbsp;individual&nbsp;member&nbsp;may&nbsp;decline&nbsp;receiving&nbsp;damage&nbsp;this&nbsp;way&nbsp;on&nbsp;a&nbsp;case-by-case&nbsp;basis&nbsp;(for&nbsp;example,&nbsp;if&nbsp;a&nbsp;metaconcert&nbsp;consists&nbsp;of&nbsp;the&nbsp;conductor&nbsp;and&nbsp;four&nbsp;other&nbsp;members,&nbsp;one&nbsp;of&nbsp;whom&nbsp;is&nbsp;not&nbsp;willing&nbsp;to&nbsp;receive&nbsp;damage&nbsp;at&nbsp;this&nbsp;time,&nbsp;the&nbsp;conductor&nbsp;may&nbsp;split&nbsp;the&nbsp;incoming&nbsp;damage&nbsp;between&nbsp;himself&nbsp;and&nbsp;the&nbsp;three&nbsp;willing&nbsp;members).&nbsp;Damage&nbsp;split&nbsp;to&nbsp;willing&nbsp;members&nbsp;this&nbsp;way&nbsp;is&nbsp;typeless&nbsp;and&nbsp;empathic&nbsp;in&nbsp;nature.&nbsp;This&nbsp;splitting&nbsp;takes&nbsp;place&nbsp;prior&nbsp;to&nbsp;the&nbsp;effects&nbsp;of&nbsp;other&nbsp;powers&nbsp;or&nbsp;abilities&nbsp;that&nbsp;lessen&nbsp;damage,&nbsp;such&nbsp;as&nbsp;energy&nbsp;resistance&nbsp;or&nbsp;the&nbsp;intellect&nbsp;fortress&nbsp;power.&nbsp;Spells&nbsp;and&nbsp;powers&nbsp;that&nbsp;are&nbsp;not&nbsp;subject&nbsp;to&nbsp;power&nbsp;resistance&nbsp;cannot&nbsp;have&nbsp;their&nbsp;damage&nbsp;or&nbsp;ability&nbsp;damage&nbsp;split&nbsp;this&nbsp;way,&nbsp;though&nbsp;the&nbsp;saving&nbsp;throw&nbsp;bonus&nbsp;still&nbsp;applies.
+
+      </p>
+
+      <p>Once&nbsp;the&nbsp;metanetwork&nbsp;forms,&nbsp;the&nbsp;members&nbsp;must&nbsp;remain&nbsp;within&nbsp;the&nbsp;power's&nbsp;area,&nbsp;and&nbsp;as&nbsp;a&nbsp;group&nbsp;can&nbsp;move&nbsp;at&nbsp;half&nbsp;the&nbsp;slowest&nbsp;member's&nbsp;speed&nbsp;on&nbsp;the&nbsp;conductor's&nbsp;turn.&nbsp;This&nbsp;counts&nbsp;as&nbsp;a&nbsp;move&nbsp;action&nbsp;for&nbsp;each&nbsp;member&nbsp;(that&nbsp;is,&nbsp;if&nbsp;the&nbsp;group&nbsp;moves,&nbsp;each&nbsp;member&nbsp;is&nbsp;treated&nbsp;as&nbsp;having&nbsp;used&nbsp;a&nbsp;move&nbsp;action&nbsp;on&nbsp;their&nbsp;next&nbsp;turn).&nbsp;If&nbsp;a&nbsp;member&nbsp;moves&nbsp;outside&nbsp;the&nbsp;area&nbsp;(whether&nbsp;willingly&nbsp;or&nbsp;involuntarily),&nbsp;that&nbsp;individual&nbsp;drops&nbsp;out&nbsp;of&nbsp;the&nbsp;group,&nbsp;and&nbsp;the&nbsp;power&nbsp;point&nbsp;pool&nbsp;of&nbsp;the&nbsp;metanetwork&nbsp;is&nbsp;instantly&nbsp;recalculated.
+
+      </p>
+
+      <p>All&nbsp;members&nbsp;who&nbsp;leave&nbsp;before&nbsp;a&nbsp;metaconcert&nbsp;ends&nbsp;or&nbsp;is&nbsp;dismissed&nbsp;reclaim&nbsp;a&nbsp;number&nbsp;of&nbsp;power&nbsp;points&nbsp;equal&nbsp;to&nbsp;the&nbsp;metanetwork's&nbsp;current&nbsp;power&nbsp;point&nbsp;pool&nbsp;divided&nbsp;by&nbsp;the&nbsp;number&nbsp;of&nbsp;members.&nbsp;That&nbsp;same&nbsp;number&nbsp;of&nbsp;points&nbsp;is&nbsp;removed&nbsp;from&nbsp;the&nbsp;metanetwork's&nbsp;power&nbsp;point&nbsp;pool.&nbsp;If&nbsp;the&nbsp;conductor&nbsp;drops&nbsp;out,&nbsp;the&nbsp;power&nbsp;ends.&nbsp;When&nbsp;a&nbsp;metaconcert&nbsp;ends&nbsp;normally&nbsp;or&nbsp;is&nbsp;dismissed,&nbsp;remaining&nbsp;power&nbsp;points&nbsp;in&nbsp;the&nbsp;pool&nbsp;are&nbsp;divided&nbsp;among&nbsp;all&nbsp;the&nbsp;members&nbsp;(the&nbsp;conductor&nbsp;receives&nbsp;the&nbsp;remainder&nbsp;if&nbsp;the&nbsp;points&nbsp;can't&nbsp;be&nbsp;divided&nbsp;evenly).
+
+      </p>
+
+      <p>No&nbsp;creature&nbsp;can&nbsp;leave&nbsp;a&nbsp;metaconcert&nbsp;with&nbsp;more&nbsp;power&nbsp;points&nbsp;than&nbsp;they&nbsp;had&nbsp;when&nbsp;they&nbsp;entered&nbsp;it&nbsp;--&nbsp;surplus&nbsp;points&nbsp;dissipate&nbsp;as&nbsp;harmless&nbsp;light&nbsp;radiating&nbsp;from&nbsp;the&nbsp;creature's&nbsp;eyes.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;duration&nbsp;increases&nbsp;by&nbsp;1&nbsp;minute.&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;spent&nbsp;this&nbsp;way,&nbsp;the&nbsp;maximum&nbsp;number&nbsp;of&nbsp;members&nbsp;of&nbsp;the&nbsp;metanetwork&nbsp;increases&nbsp;by&nbsp;one,&nbsp;and&nbsp;the&nbsp;range&nbsp;and&nbsp;radius&nbsp;of&nbsp;the&nbsp;area&nbsp;of&nbsp;effect&nbsp;increase&nbsp;by&nbsp;5&nbsp;ft.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 5
+      psychic warrior: 5
+      tactician: 5
+      telepath: 5
+  level: 5
+  manifestTime:
+    units: minute
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 122–123
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 217–219
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '46'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

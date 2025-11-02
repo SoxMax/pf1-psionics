@@ -1,0 +1,70 @@
+_id: 8ETse0qyGfWv5bOI
+_key: '!items!8ETse0qyGfWv5bOI'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Lightning_Quicken
+img: icons/sundries/books/book-embossed-blue.webp
+name: Lightning Quicken
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>Your&nbsp;manifesting&nbsp;capability&nbsp;is&nbsp;exceptionally&nbsp;fast.</em></p>
+
+      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Quicken_Power"&nbsp;title="Quicken&nbsp;Power">Quicken&nbsp;Power</a>.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;use&nbsp;the&nbsp;Quicken&nbsp;Power&nbsp;feat&nbsp;twice&nbsp;in&nbsp;a&nbsp;round&nbsp;instead&nbsp;of&nbsp;just&nbsp;once&nbsp;per&nbsp;round.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '4'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  subType: feat
+  summons: false
+  tags:
+    - feat
+type: feat

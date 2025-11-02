@@ -1,0 +1,90 @@
+_id: DmQbD8uncRPT3ezS
+_key: '!items!DmQbD8uncRPT3ezS'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Uplift
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Uplift
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: day
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One animal
+  description:
+    value: >-
+      <p>A&nbsp;sphere&nbsp;of&nbsp;psychic&nbsp;static&nbsp;emanates&nbsp;from&nbsp;you,&nbsp;hinting&nbsp;at&nbsp;a&nbsp;furious&nbsp;transmission&nbsp;of&nbsp;mental&nbsp;identity.&nbsp;By&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;you&nbsp;attempt&nbsp;to&nbsp;raise&nbsp;the&nbsp;Intelligence&nbsp;of&nbsp;the&nbsp;target&nbsp;animal&nbsp;by&nbsp;gifting&nbsp;some&nbsp;of&nbsp;your&nbsp;own.&nbsp;When&nbsp;you&nbsp;use&nbsp;<em>uplift</em>,&nbsp;your&nbsp;Intelligence&nbsp;score&nbsp;is&nbsp;reduced&nbsp;as&nbsp;if&nbsp;by&nbsp;ability&nbsp;score&nbsp;damage&nbsp;by&nbsp;an&nbsp;amount&nbsp;you&nbsp;select.&nbsp;This&nbsp;reduction&nbsp;cannot&nbsp;be&nbsp;healed,&nbsp;repaired,&nbsp;or&nbsp;negated&nbsp;in&nbsp;any&nbsp;way&nbsp;until&nbsp;<em>uplift&nbsp;</em>ends,&nbsp;at&nbsp;which&nbsp;point&nbsp;your&nbsp;Intelligence&nbsp;score&nbsp;returns&nbsp;to&nbsp;its&nbsp;normal&nbsp;level&nbsp;(applying&nbsp;any&nbsp;actual&nbsp;damage&nbsp;or&nbsp;drain&nbsp;you&nbsp;might&nbsp;have).&nbsp;You&nbsp;cannot&nbsp;reduce&nbsp;your&nbsp;Intelligence&nbsp;score&nbsp;below&nbsp;1&nbsp;using&nbsp;this&nbsp;power.
+
+      </p>
+
+      <p>At&nbsp;the&nbsp;same&nbsp;time&nbsp;that&nbsp;your&nbsp;intellect&nbsp;is&nbsp;reduced,&nbsp;the&nbsp;mental&nbsp;capacity&nbsp;of&nbsp;the&nbsp;target&nbsp;creature&nbsp;is&nbsp;increased&nbsp;by&nbsp;the&nbsp;same&nbsp;amount.&nbsp;The&nbsp;cogitation&nbsp;thus&nbsp;granted&nbsp;is&nbsp;your&nbsp;own&nbsp;and&nbsp;some&nbsp;of&nbsp;your&nbsp;knowledge&nbsp;is&nbsp;gifted&nbsp;along&nbsp;with&nbsp;it.&nbsp;A&nbsp;target&nbsp;subject&nbsp;to&nbsp;<em>uplift&nbsp;</em>learns&nbsp;Common&nbsp;or&nbsp;one&nbsp;other&nbsp;language&nbsp;you&nbsp;know&nbsp;(though&nbsp;they&nbsp;may&nbsp;not&nbsp;have&nbsp;the&nbsp;physical&nbsp;ability&nbsp;to&nbsp;speak&nbsp;it).
+
+      </p>
+
+      <p>This&nbsp;power&nbsp;does&nbsp;not&nbsp;place&nbsp;the&nbsp;target&nbsp;animal&nbsp;under&nbsp;your&nbsp;control&nbsp;or&nbsp;influence&nbsp;it&nbsp;in&nbsp;any&nbsp;way,&nbsp;but&nbsp;it&nbsp;may&nbsp;provide&nbsp;the&nbsp;creature&nbsp;sufficient&nbsp;intelligence&nbsp;that&nbsp;it&nbsp;can&nbsp;be&nbsp;bargained&nbsp;with,&nbsp;or&nbsp;convinced&nbsp;to&nbsp;provide&nbsp;assistance&nbsp;by&nbsp;reasoned&nbsp;use&nbsp;of&nbsp;Diplomacy.&nbsp;Perversely,&nbsp;as&nbsp;the&nbsp;mental&nbsp;capacity&nbsp;of&nbsp;the&nbsp;target&nbsp;animal&nbsp;increases,&nbsp;yours&nbsp;reduces,&nbsp;potentially&nbsp;rendering&nbsp;you&nbsp;unable&nbsp;to&nbsp;effectively&nbsp;reason&nbsp;with&nbsp;it.
+
+      </p>
+
+      <p>The&nbsp;target&nbsp;creature&nbsp;type&nbsp;for&nbsp;<em>uplift&nbsp;</em>cannot&nbsp;be&nbsp;altered&nbsp;by&nbsp;any&nbsp;other&nbsp;spell,&nbsp;power,&nbsp;feat,&nbsp;class&nbsp;feature&nbsp;or&nbsp;other&nbsp;ability.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways:
+
+      </p><ul><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;you&nbsp;may&nbsp;transfer&nbsp;all&nbsp;of&nbsp;your&nbsp;ranks&nbsp;in&nbsp;one&nbsp;skill&nbsp;you&nbsp;possess&nbsp;to&nbsp;the&nbsp;target&nbsp;creature.&nbsp;Using&nbsp;this&nbsp;augment&nbsp;temporarily&nbsp;removes&nbsp;your&nbsp;access&nbsp;to&nbsp;those&nbsp;ranks&nbsp;until&nbsp;the&nbsp;power&nbsp;ends.</li><li>For&nbsp;every&nbsp;two&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;DC&nbsp;of&nbsp;this&nbsp;power&nbsp;increases&nbsp;by&nbsp;one.</li></ul>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      thug: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 16–17
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '84'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

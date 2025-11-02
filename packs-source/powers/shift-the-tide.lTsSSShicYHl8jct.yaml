@@ -1,0 +1,87 @@
+_id: lTsSSShicYHl8jct
+_key: '!items!lTsSSShicYHl8jct'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Shift_the_Tide
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Shift the Tide
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: immediate
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates (harmless) or Will partial (see text)
+        harmless: true
+        type: will
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>You&nbsp;see&nbsp;the&nbsp;flow&nbsp;of&nbsp;battle&nbsp;and&nbsp;are&nbsp;able&nbsp;to&nbsp;make&nbsp;a&nbsp;single&nbsp;correction&nbsp;to&nbsp;shift&nbsp;the&nbsp;outcome&nbsp;of&nbsp;events.&nbsp;You&nbsp;force&nbsp;one&nbsp;creature&nbsp;in&nbsp;range&nbsp;to&nbsp;reroll&nbsp;a&nbsp;single&nbsp;check.&nbsp;This&nbsp;could&nbsp;be&nbsp;an&nbsp;attack&nbsp;roll,&nbsp;saving&nbsp;throw,&nbsp;opposed&nbsp;check,&nbsp;skill&nbsp;check,&nbsp;or&nbsp;any&nbsp;other&nbsp;d20&nbsp;roll.&nbsp;The&nbsp;creature&nbsp;must&nbsp;take&nbsp;the&nbsp;result&nbsp;of&nbsp;the&nbsp;second&nbsp;roll.&nbsp;You&nbsp;can&nbsp;choose&nbsp;to&nbsp;use&nbsp;this&nbsp;power&nbsp;after&nbsp;the&nbsp;result&nbsp;of&nbsp;a&nbsp;roll&nbsp;has&nbsp;already&nbsp;been&nbsp;determined&nbsp;-&nbsp;such&nbsp;as&nbsp;to&nbsp;force&nbsp;an&nbsp;enemy&nbsp;who&nbsp;has&nbsp;hit&nbsp;an&nbsp;ally&nbsp;to&nbsp;reroll,&nbsp;or&nbsp;to&nbsp;allow&nbsp;an&nbsp;ally&nbsp;to&nbsp;reroll&nbsp;a&nbsp;failed&nbsp;saving&nbsp;throw.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;target&nbsp;an&nbsp;enemy&nbsp;who&nbsp;makes&nbsp;a&nbsp;successful&nbsp;Will&nbsp;save,&nbsp;their&nbsp;action&nbsp;is&nbsp;not&nbsp;altered,&nbsp;but&nbsp;they&nbsp;are&nbsp;instead&nbsp;staggered&nbsp;for&nbsp;one&nbsp;round.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;two&nbsp;additional&nbsp;power&nbsp;points&nbsp;spent,&nbsp;the&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      tactician: 4
+      voyager: 4
+  level: 4
+  manifestTime:
+    units: immediate
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 21–22
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Pawns and Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '179'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 244–245
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

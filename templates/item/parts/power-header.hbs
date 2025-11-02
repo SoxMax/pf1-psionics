@@ -1,0 +1,33 @@
+<div class="spell-description">
+  <p>
+  <strong>{{localize "PF1-Psionics.Discipline.Singular"}}</strong>&nbsp;{{{labels.discipline}}}{{#if labels.subdiscipline}}&nbsp;({{{labels.subdiscipline}}}){{/if}}{{#if labels.descriptors}}&nbsp;[{{{labels.descriptors}}}]{{/if}}
+  {{~#unless chatcard}}
+    {{~#if learnedAt.class}}; <strong>{{localize "PF1.Level"}}</strong>&nbsp;{{{learnedAt.class}}}{{/if}}
+    {{~#if learnedAt.domain}}; <strong>{{localize "PF1.Domain"}}</strong>&nbsp;{{{learnedAt.domain}}}{{/if}}
+    {{~#if learnedAt.subDomain}}; <strong>{{localize "PF1.SubDomain"}}</strong>&nbsp;{{{learnedAt.subDomain}}}{{/if}}
+    {{~#if learnedAt.elementalSchool}}; <strong>{{localize "PF1.ElementalSchool"}}</strong>&nbsp;{{{learnedAt.elementalSchool}}}{{/if}}
+    {{~#if learnedAt.bloodline}}; <strong>{{localize "PF1.Bloodline"}}</strong>&nbsp;{{{learnedAt.bloodline}}}{{/if}}
+  {{else}};
+    <strong>{{localize "PF1.Level"}}</strong> {{system.level}}
+  {{/unless}}
+  </p>
+  {{#if (or labels.activation labels.components)}}
+  <p>
+  {{#if labels.activation}}<strong>{{localize "PF1.CastingTime"}}</strong>&nbsp;{{{labels.activation}}}<br>{{/if}}
+  {{#if labels.displays}}<strong>{{localize "PF1-Psionics.Powers.Display.Plural"}}</strong>&nbsp;{{{labels.displays}}}<br>{{/if}}
+  </p>
+  {{/if}}
+  <p>
+  {{#if labels.range}}<strong>{{localize "PF1.Range"}}</strong>&nbsp;{{{labels.range}}}<br>{{/if}}
+  {{#if labels.area}}<strong>{{localize "PF1.Area"}}</strong>&nbsp;{{{labels.area}}}<br>{{/if}}
+  {{#if labels.targets}}<strong>{{localize "PF1.Targets"}}</strong>&nbsp;{{{labels.targets}}}<br>{{/if}}
+  {{#if labels.effect}}<strong>{{localize "PF1.Effect"}}</strong>&nbsp;{{{labels.effect}}}<br>{{/if}}
+  {{#if labels.duration}}<strong>{{localize "PF1.Duration"}}</strong>&nbsp;<span{{#if labels.durationFormula}} data-tooltip="{{localize "PF1.Formula"}}: {{labels.durationFormula}}"{{/if}}>{{#if variableDuration}}≈{{/if}}{{{labels.duration}}}</span><br>{{/if}}
+  {{#if useDCandSR}}
+    <strong>{{localize "PF1.SavingThrow"}}</strong>&nbsp;{{{labels.savingThrow}}};
+    <strong>{{localize "PF1.SpellResistance"}}</strong>&nbsp;{{{labels.sr}}}
+    {{~#if labels.harmless}}; <strong>{{localize "PF1.Harmless"}}</strong>&nbsp;{{{labels.harmless}}}{{/if}}
+    <br>
+  {{/if}}
+  </p>
+</div>

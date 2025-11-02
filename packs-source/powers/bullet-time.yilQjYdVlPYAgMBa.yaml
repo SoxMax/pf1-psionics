@@ -1,0 +1,82 @@
+_id: yilQjYdVlPYAgMBa
+_key: '!items!yilQjYdVlPYAgMBa'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Bullet_Time
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Bullet Time
+system:
+  actions:
+    - actionType: rsak
+      activation:
+        cost: 1
+        type: immediate
+      duration:
+        units: spec
+        value: See text
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: Self
+  description:
+    value: >-
+      <p>With&nbsp;a&nbsp;sudden&nbsp;blur&nbsp;of&nbsp;activity,&nbsp;you&nbsp;fling&nbsp;yourself&nbsp;out&nbsp;of&nbsp;the&nbsp;path&nbsp;of&nbsp;a&nbsp;deadly&nbsp;oncoming&nbsp;projectile.&nbsp;You&nbsp;are&nbsp;able&nbsp;to&nbsp;manifest&nbsp;this&nbsp;power&nbsp;in&nbsp;reaction&nbsp;to&nbsp;a&nbsp;perceived&nbsp;ranged&nbsp;attack,&nbsp;including&nbsp;ranged&nbsp;touch&nbsp;attacks&nbsp;such&nbsp;as&nbsp;rays.&nbsp;You&nbsp;must&nbsp;decide&nbsp;to&nbsp;manifest&nbsp;<em>bullet&nbsp;time&nbsp;</em>before&nbsp;an&nbsp;attack&nbsp;roll&nbsp;is&nbsp;made.
+
+      </p>
+
+      <p>When&nbsp;using&nbsp;<em>bullet&nbsp;time</em>,&nbsp;you&nbsp;may&nbsp;attempt&nbsp;a&nbsp;single&nbsp;Reflex&nbsp;save&nbsp;to&nbsp;evade&nbsp;the&nbsp;incoming&nbsp;attack.&nbsp;The&nbsp;DC&nbsp;for&nbsp;this&nbsp;save&nbsp;is&nbsp;equal&nbsp;to&nbsp;the&nbsp;attack,&nbsp;minus&nbsp;10.&nbsp;If&nbsp;you&nbsp;succeed&nbsp;at&nbsp;this&nbsp;Reflex&nbsp;save,&nbsp;the&nbsp;incoming&nbsp;ranged&nbsp;attack&nbsp;automatically&nbsp;misses.&nbsp;If&nbsp;you&nbsp;fail&nbsp;the&nbsp;save,&nbsp;the&nbsp;attack&nbsp;is&nbsp;resolved&nbsp;normally&nbsp;(which&nbsp;may&nbsp;possibly&nbsp;still&nbsp;miss).
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>For&nbsp;every&nbsp;additional&nbsp;two&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;make&nbsp;attempt&nbsp;to&nbsp;evade&nbsp;one&nbsp;additional&nbsp;ranged&nbsp;attack&nbsp;made&nbsp;by&nbsp;the&nbsp;same&nbsp;source&nbsp;whose&nbsp;turn&nbsp;you&nbsp;interrupt&nbsp;with&nbsp;your&nbsp;immediate&nbsp;action.&nbsp;You&nbsp;do&nbsp;not&nbsp;need&nbsp;to&nbsp;determine&nbsp;how&nbsp;many&nbsp;power&nbsp;points&nbsp;to&nbsp;spend&nbsp;at&nbsp;the&nbsp;moment&nbsp;of&nbsp;manifestation;&nbsp;the&nbsp;power&nbsp;lingers&nbsp;for&nbsp;the&nbsp;attacker’s&nbsp;turn,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;spend&nbsp;additional&nbsp;power&nbsp;points&nbsp;during&nbsp;that&nbsp;time.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 1
+      highlord: 1
+      marksman: 1
+      tactician: 1
+      thug: 1
+  level: 1
+  manifestTime:
+    units: immediate
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '7'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 65–66
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

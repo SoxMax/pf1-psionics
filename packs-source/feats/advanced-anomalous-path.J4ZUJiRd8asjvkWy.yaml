@@ -1,0 +1,78 @@
+_id: J4ZUJiRd8asjvkWy
+_key: '!items!J4ZUJiRd8asjvkWy'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Advanced_Anomalous_Path
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Advanced Anomalous Path
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;have&nbsp;developed&nbsp;finer&nbsp;control&nbsp;over&nbsp;of&nbsp;your&nbsp;psionic&nbsp;animus.</em></p>
+
+      <p><strong>Prerequisites:</strong>&nbsp;Wis&nbsp;13;&nbsp;<a&nbsp;href="/wiki/Animus_Potency"&nbsp;title="Animus&nbsp;Potency">Animus&nbsp;Potency</a>&nbsp;or&nbsp;<a&nbsp;href="/wiki/Extra_Animus"&nbsp;title="Extra&nbsp;Animus">Extra&nbsp;Animus</a>;&nbsp;any&nbsp;<a&nbsp;href="/wiki/Metapsionic_feat"&nbsp;title="Metapsionic&nbsp;feat">metapsionic&nbsp;feat</a>,&nbsp;warrior's&nbsp;path&nbsp;class&nbsp;feature,&nbsp;manifester&nbsp;level&nbsp;10th,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+6.
+
+      </p>
+
+      <p>The&nbsp;anomalous&nbsp;trance&nbsp;benefit&nbsp;now&nbsp;applies&nbsp;to&nbsp;your&nbsp;touch&nbsp;Armor&nbsp;Class&nbsp;against&nbsp;powers,&nbsp;psi-like&nbsp;abilities,&nbsp;spells,&nbsp;and&nbsp;spell-like&nbsp;abilities.&nbsp;Additionally,&nbsp;when&nbsp;using&nbsp;the&nbsp;anomalous&nbsp;path&nbsp;maneuver,&nbsp;the&nbsp;animus&nbsp;provided&nbsp;from&nbsp;this&nbsp;ability&nbsp;increases&nbsp;from&nbsp;1d4&nbsp;to&nbsp;1d6&nbsp;at&nbsp;3rd&nbsp;level,&nbsp;and&nbsp;from&nbsp;2d4&nbsp;to&nbsp;2d6&nbsp;at&nbsp;7th&nbsp;level.&nbsp;This&nbsp;feat&nbsp;is&nbsp;a&nbsp;supernatural&nbsp;ability.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Animus_Potency"&nbsp;title="Animus&nbsp;Potency">Animus&nbsp;Potency</a></li><li><a&nbsp;href="/wiki/Extra_Animus"&nbsp;title="Extra&nbsp;Animus">Extra&nbsp;Animus</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '6'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Psychic Warriors II'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '34'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

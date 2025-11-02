@@ -1,0 +1,82 @@
+_id: 0fKn4rHJyMHmItjx
+_key: '!items!0fKn4rHJyMHmItjx'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Cleanse_Body
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Cleanse Body
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 3
+        type: round
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates (harmless)
+        harmless: true
+        type: will
+      target:
+        value: Living creature touched
+  description:
+    value: >-
+      <p>You&nbsp;dispel&nbsp;any&nbsp;psionic&nbsp;effects&nbsp;reducing&nbsp;one&nbsp;of&nbsp;the&nbsp;subject's&nbsp;ability&nbsp;scores&nbsp;or&nbsp;cure&nbsp;1d4&nbsp;points&nbsp;of&nbsp;temporary&nbsp;ability&nbsp;damage&nbsp;to&nbsp;one&nbsp;of&nbsp;the&nbsp;subject's&nbsp;ability&nbsp;scores.&nbsp;You&nbsp;also&nbsp;eliminate&nbsp;any&nbsp;fatigue&nbsp;suffered&nbsp;by&nbsp;the&nbsp;character,&nbsp;and&nbsp;improves&nbsp;an&nbsp;exhausted&nbsp;condition&nbsp;to&nbsp;fatigued.&nbsp;You&nbsp;do&nbsp;not&nbsp;restore&nbsp;permanent&nbsp;ability&nbsp;drain.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 2
+      vitalist: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: round
+    value: 3
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '86'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '172'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '33'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline:
+    - healing
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

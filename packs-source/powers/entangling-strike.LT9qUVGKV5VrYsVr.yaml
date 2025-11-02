@@ -1,0 +1,92 @@
+_id: LT9qUVGKV5VrYsVr
+_key: '!items!LT9qUVGKV5VrYsVr'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Entangling_Strike
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Entangling Strike
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: swift
+      damage:
+        parts:
+          - - 2d6
+            - untyped
+      duration:
+        units: spec
+        value: 1 round; see text
+      name: Use
+      range:
+        units: ft
+        value: Melee
+      save:
+        description: None
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>The&nbsp;next&nbsp;successful&nbsp;melee&nbsp;attack&nbsp;you&nbsp;make&nbsp;this&nbsp;turn&nbsp;entangles&nbsp;the&nbsp;target&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;its&nbsp;next&nbsp;turn.
+
+      </p>
+
+      <p><strong>Trigger:</strong>&nbsp;If&nbsp;your&nbsp;attack&nbsp;was&nbsp;successful&nbsp;and&nbsp;the&nbsp;target&nbsp;tries&nbsp;to&nbsp;make&nbsp;a&nbsp;concentration&nbsp;check&nbsp;before&nbsp;the&nbsp;end&nbsp;of&nbsp;its&nbsp;next&nbsp;turn,&nbsp;you&nbsp;can&nbsp;immediately&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;deal&nbsp;2d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;to&nbsp;it.&nbsp;The&nbsp;damage&nbsp;dealt&nbsp;causes&nbsp;the&nbsp;standard&nbsp;penalty&nbsp;to&nbsp;that&nbsp;concentration&nbsp;check.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;instead&nbsp;manifest&nbsp;this&nbsp;power&nbsp;upon&nbsp;making&nbsp;a&nbsp;successful&nbsp;melee&nbsp;attack&nbsp;and&nbsp;have&nbsp;the&nbsp;effects&nbsp;of&nbsp;this&nbsp;power&nbsp;instead&nbsp;apply&nbsp;to&nbsp;that&nbsp;attack.&nbsp;Doing&nbsp;so&nbsp;still&nbsp;uses&nbsp;your&nbsp;swift&nbsp;action&nbsp;for&nbsp;the&nbsp;round.
+
+      </p>
+  descriptors:
+    - trigger
+  discipline: metacreativity
+  display:
+    auditory: true
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psychic warrior: 2
+  level: 2
+  manifestTime:
+    units: swift
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '28'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '161'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '199'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  subdiscipline:
+    - creation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

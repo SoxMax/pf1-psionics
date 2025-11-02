@@ -1,0 +1,98 @@
+_id: hUxQgLNZpFsqwwJR
+_key: '!items!hUxQgLNZpFsqwwJR'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Gate_of_Avernus
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Gate of Avernus
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 10
+        type: minute
+      duration:
+        dismiss: true
+        units: perm
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        description: None
+  description:
+    value: >-
+      <p>You&nbsp;tear&nbsp;open&nbsp;a&nbsp;hole&nbsp;in&nbsp;the&nbsp;planes,&nbsp;bringing&nbsp;forth&nbsp;a&nbsp;gate&nbsp;to&nbsp;the&nbsp;Ethereal&nbsp;Plane.
+
+      </p>
+
+      <p>Creating&nbsp;a&nbsp;gate&nbsp;of&nbsp;Avernus&nbsp;has&nbsp;two&nbsp;effects.
+
+      </p>
+
+      <p>First,&nbsp;it&nbsp;creates&nbsp;an&nbsp;interdimensional&nbsp;connection&nbsp;between&nbsp;your&nbsp;plane&nbsp;of&nbsp;existence&nbsp;and&nbsp;the&nbsp;Ethereal&nbsp;Plane,&nbsp;allowing&nbsp;travel&nbsp;between&nbsp;these&nbsp;two&nbsp;planes&nbsp;in&nbsp;either&nbsp;direction.
+
+      </p>
+
+      <p>Second,&nbsp;you&nbsp;may&nbsp;call&nbsp;a&nbsp;particular&nbsp;ethereal&nbsp;individual&nbsp;or&nbsp;kind&nbsp;of&nbsp;incorporeal&nbsp;being&nbsp;through&nbsp;the&nbsp;gate&nbsp;of&nbsp;Avernus.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;you&nbsp;dedicate&nbsp;a&nbsp;part&nbsp;of&nbsp;yourself&nbsp;to&nbsp;maintaining&nbsp;it.&nbsp;Any&nbsp;power&nbsp;points&nbsp;that&nbsp;you&nbsp;spent&nbsp;manifesting&nbsp;this&nbsp;power&nbsp;cannot&nbsp;be&nbsp;regained&nbsp;or&nbsp;restored&nbsp;while&nbsp;the&nbsp;power&nbsp;exists.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;suffer&nbsp;1d6&nbsp;points&nbsp;of&nbsp;Constitution&nbsp;and&nbsp;Wisdom&nbsp;drain&nbsp;when&nbsp;you&nbsp;finish&nbsp;manifestation.
+
+      </p>
+
+      <p>The&nbsp;gate&nbsp;of&nbsp;Avernus&nbsp;is&nbsp;a&nbsp;circular&nbsp;hoop&nbsp;or&nbsp;disk&nbsp;from&nbsp;5&nbsp;to&nbsp;20&nbsp;feet&nbsp;in&nbsp;diameter&nbsp;(manifester's&nbsp;choice)&nbsp;oriented&nbsp;in&nbsp;the&nbsp;direction&nbsp;you&nbsp;desire&nbsp;when&nbsp;it&nbsp;comes&nbsp;into&nbsp;existence&nbsp;(typically&nbsp;vertical&nbsp;and&nbsp;facing&nbsp;you).&nbsp;It&nbsp;is&nbsp;a&nbsp;two-dimensional&nbsp;window&nbsp;looking&nbsp;into&nbsp;the&nbsp;plane&nbsp;you&nbsp;specified&nbsp;when&nbsp;manifesting&nbsp;the&nbsp;power,&nbsp;and&nbsp;anyone&nbsp;or&nbsp;anything&nbsp;that&nbsp;fulfills&nbsp;your&nbsp;entry&nbsp;terms,&nbsp;if&nbsp;any,&nbsp;that&nbsp;moves&nbsp;through&nbsp;is&nbsp;shunted&nbsp;instantly&nbsp;to&nbsp;the&nbsp;other&nbsp;side.&nbsp;However,&nbsp;this&nbsp;travel&nbsp;is&nbsp;not&nbsp;without&nbsp;risk.&nbsp;Those&nbsp;that&nbsp;would&nbsp;cross&nbsp;from&nbsp;the&nbsp;Ethereal&nbsp;Plane&nbsp;suffer&nbsp;1d6&nbsp;Wisdom&nbsp;drain,&nbsp;while&nbsp;those&nbsp;that&nbsp;would&nbsp;cross&nbsp;into&nbsp;the&nbsp;Ethereal&nbsp;Plane&nbsp;suffer&nbsp;1d6&nbsp;Constitution&nbsp;drain.&nbsp;Otherwise,&nbsp;this&nbsp;functions&nbsp;much&nbsp;like&nbsp;a&nbsp;plane&nbsp;shift.
+
+      </p><ul><li><em>Planar&nbsp;Travel:</em>&nbsp;For&nbsp;this&nbsp;use,&nbsp;you&nbsp;may&nbsp;set&nbsp;entry&nbsp;terms,&nbsp;if&nbsp;you&nbsp;wish.&nbsp;If&nbsp;you&nbsp;do&nbsp;so,&nbsp;you&nbsp;may&nbsp;choose&nbsp;either&nbsp;keyed&nbsp;entry,&nbsp;only&nbsp;allowing&nbsp;certain&nbsp;people,&nbsp;or&nbsp;only&nbsp;allowing&nbsp;a&nbsp;certain&nbsp;type&nbsp;of&nbsp;people.&nbsp;Once&nbsp;you&nbsp;decide&nbsp;on&nbsp;these&nbsp;terms,&nbsp;they&nbsp;cannot&nbsp;be&nbsp;changed.</li></ul>
+
+      <ul><li>In&nbsp;the&nbsp;first&nbsp;case,&nbsp;any&nbsp;one&nbsp;in&nbsp;possession&nbsp;of&nbsp;a&nbsp;key&nbsp;or&nbsp;specific,&nbsp;special&nbsp;object,&nbsp;or&nbsp;knowing&nbsp;a&nbsp;certain&nbsp;passphrase&nbsp;may&nbsp;pass.&nbsp;This&nbsp;key&nbsp;or&nbsp;phrase&nbsp;must&nbsp;be&nbsp;decided&nbsp;when&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;and&nbsp;cannot&nbsp;be&nbsp;changed.</li></ul>
+
+      <ul><li>In&nbsp;the&nbsp;second&nbsp;case,&nbsp;you&nbsp;may&nbsp;indicate&nbsp;a&nbsp;number&nbsp;of&nbsp;people&nbsp;up&nbsp;to&nbsp;your&nbsp;manifester&nbsp;level&nbsp;when&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power.&nbsp;These&nbsp;people,&nbsp;as&nbsp;well&nbsp;as&nbsp;yourself,&nbsp;are&nbsp;the&nbsp;only&nbsp;targets&nbsp;that&nbsp;may&nbsp;pass.&nbsp;No&nbsp;disguise,&nbsp;spell,&nbsp;or&nbsp;effect&nbsp;can&nbsp;fool&nbsp;this&nbsp;power.</li></ul>
+
+      <ul><li>In&nbsp;the&nbsp;third&nbsp;case,&nbsp;you&nbsp;may&nbsp;indicate&nbsp;a&nbsp;certain&nbsp;characteristic&nbsp;that&nbsp;all&nbsp;who&nbsp;would&nbsp;pass&nbsp;must&nbsp;share.&nbsp;This&nbsp;can&nbsp;be&nbsp;as&nbsp;concrete&nbsp;as&nbsp;alignment,&nbsp;hair&nbsp;color,&nbsp;or&nbsp;possession&nbsp;of&nbsp;a&nbsp;certain&nbsp;class&nbsp;ability,&nbsp;or&nbsp;as&nbsp;abstract&nbsp;as&nbsp;deity&nbsp;worshiped&nbsp;or&nbsp;personal&nbsp;philosophy.</li></ul>
+
+      <ul><li><em>Calling&nbsp;Creatures:</em>&nbsp;The&nbsp;second&nbsp;use&nbsp;of&nbsp;this&nbsp;power&nbsp;is&nbsp;to&nbsp;call&nbsp;forth&nbsp;powerful&nbsp;spirits&nbsp;from&nbsp;the&nbsp;Ethereal&nbsp;Plane.&nbsp;By&nbsp;naming&nbsp;a&nbsp;particular&nbsp;being&nbsp;or&nbsp;kind&nbsp;of&nbsp;being&nbsp;as&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power&nbsp;(which&nbsp;must&nbsp;have&nbsp;the&nbsp;incorporeal&nbsp;subtype&nbsp;or&nbsp;be&nbsp;native&nbsp;to&nbsp;the&nbsp;Ethereal&nbsp;Plane,&nbsp;or&nbsp;this&nbsp;power&nbsp;fails,&nbsp;not&nbsp;expending&nbsp;any&nbsp;material&nbsp;components),&nbsp;you&nbsp;cause&nbsp;the&nbsp;gate&nbsp;of&nbsp;Avernus&nbsp;to&nbsp;open&nbsp;in&nbsp;the&nbsp;immediate&nbsp;vicinity&nbsp;of&nbsp;the&nbsp;desired&nbsp;creature&nbsp;and&nbsp;pull&nbsp;the&nbsp;subject&nbsp;through,&nbsp;willing&nbsp;or&nbsp;unwilling.&nbsp;Deities&nbsp;and&nbsp;unique&nbsp;beings&nbsp;are&nbsp;under&nbsp;no&nbsp;compulsion&nbsp;to&nbsp;come&nbsp;through&nbsp;the&nbsp;gate&nbsp;of&nbsp;Avernus,&nbsp;although&nbsp;may&nbsp;choose&nbsp;to&nbsp;do&nbsp;so&nbsp;of&nbsp;their&nbsp;own&nbsp;accord.&nbsp;This&nbsp;use&nbsp;of&nbsp;this&nbsp;power&nbsp;creates&nbsp;a&nbsp;gate&nbsp;of&nbsp;Avernus&nbsp;that&nbsp;remains&nbsp;open&nbsp;just&nbsp;long&nbsp;enough&nbsp;to&nbsp;transport&nbsp;the&nbsp;called&nbsp;creatures.&nbsp;This&nbsp;use&nbsp;of&nbsp;this&nbsp;power&nbsp;has&nbsp;a&nbsp;material&nbsp;cost&nbsp;of&nbsp;10,000&nbsp;gp&nbsp;in&nbsp;intricate&nbsp;scrimshaw&nbsp;and&nbsp;rare&nbsp;tributes.&nbsp;This&nbsp;cost&nbsp;is&nbsp;in&nbsp;addition&nbsp;to&nbsp;any&nbsp;cost&nbsp;that&nbsp;must&nbsp;be&nbsp;paid&nbsp;to&nbsp;the&nbsp;called&nbsp;creatures.</li></ul>
+
+      <p>If&nbsp;you&nbsp;choose&nbsp;to&nbsp;call&nbsp;a&nbsp;kind&nbsp;of&nbsp;creature&nbsp;instead&nbsp;of&nbsp;a&nbsp;known&nbsp;individual,&nbsp;you&nbsp;may&nbsp;call&nbsp;either&nbsp;a&nbsp;single&nbsp;creature&nbsp;or&nbsp;several&nbsp;creatures.&nbsp;In&nbsp;either&nbsp;case,&nbsp;their&nbsp;total&nbsp;HD&nbsp;cannot&nbsp;exceed&nbsp;twice&nbsp;your&nbsp;manifester&nbsp;level,&nbsp;and&nbsp;they&nbsp;must&nbsp;either&nbsp;have&nbsp;the&nbsp;incorporeal&nbsp;subtype&nbsp;or&nbsp;be&nbsp;native&nbsp;to&nbsp;the&nbsp;Ethereal&nbsp;Plane.&nbsp;In&nbsp;the&nbsp;case&nbsp;of&nbsp;a&nbsp;single&nbsp;creature,&nbsp;you&nbsp;can&nbsp;control&nbsp;it&nbsp;if&nbsp;its&nbsp;HD&nbsp;does&nbsp;not&nbsp;exceed&nbsp;your&nbsp;manifester&nbsp;level.&nbsp;A&nbsp;creature&nbsp;with&nbsp;more&nbsp;HD&nbsp;than&nbsp;your&nbsp;manifester&nbsp;level&nbsp;can't&nbsp;be&nbsp;controlled.&nbsp;Deities&nbsp;and&nbsp;unique&nbsp;beings&nbsp;cannot&nbsp;be&nbsp;controlled&nbsp;in&nbsp;any&nbsp;event.&nbsp;An&nbsp;uncontrolled&nbsp;being&nbsp;acts&nbsp;as&nbsp;it&nbsp;pleases,&nbsp;making&nbsp;the&nbsp;calling&nbsp;of&nbsp;such&nbsp;creatures&nbsp;dangerous.&nbsp;An&nbsp;uncontrolled&nbsp;being&nbsp;may&nbsp;return&nbsp;to&nbsp;the&nbsp;Ethereal&nbsp;Plane&nbsp;at&nbsp;any&nbsp;time.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;choose&nbsp;to&nbsp;exact&nbsp;a&nbsp;longer&nbsp;or&nbsp;more&nbsp;involved&nbsp;form&nbsp;of&nbsp;service&nbsp;from&nbsp;a&nbsp;called&nbsp;creature,&nbsp;you&nbsp;must&nbsp;offer&nbsp;some&nbsp;fair&nbsp;trade&nbsp;in&nbsp;return&nbsp;for&nbsp;that&nbsp;service.&nbsp;The&nbsp;service&nbsp;exacted&nbsp;must&nbsp;be&nbsp;reasonable&nbsp;with&nbsp;respect&nbsp;to&nbsp;the&nbsp;promised&nbsp;favor&nbsp;or&nbsp;reward;&nbsp;see&nbsp;the&nbsp;lesser&nbsp;planar&nbsp;ally&nbsp;spell&nbsp;for&nbsp;appropriate&nbsp;rewards.&nbsp;Some&nbsp;creatures&nbsp;may&nbsp;want&nbsp;their&nbsp;payment&nbsp;in&nbsp;"livestock",&nbsp;time&nbsp;spent&nbsp;possessing&nbsp;a&nbsp;mortal&nbsp;body,&nbsp;memories,&nbsp;or&nbsp;emotions&nbsp;(negative&nbsp;levels&nbsp;and&nbsp;ability&nbsp;drain)&nbsp;rather&nbsp;than&nbsp;in&nbsp;coin.&nbsp;Immediately&nbsp;upon&nbsp;completion&nbsp;of&nbsp;the&nbsp;service,&nbsp;the&nbsp;being&nbsp;is&nbsp;transported&nbsp;to&nbsp;your&nbsp;vicinity,&nbsp;and&nbsp;you&nbsp;must&nbsp;then&nbsp;and&nbsp;there&nbsp;turn&nbsp;over&nbsp;the&nbsp;promised&nbsp;reward.&nbsp;After&nbsp;this&nbsp;is&nbsp;done,&nbsp;the&nbsp;creature&nbsp;is&nbsp;instantly&nbsp;freed&nbsp;to&nbsp;return&nbsp;to&nbsp;its&nbsp;own&nbsp;plane.
+
+      </p>
+
+      <p>Failure&nbsp;to&nbsp;fulfill&nbsp;the&nbsp;promise&nbsp;to&nbsp;the&nbsp;letter&nbsp;results&nbsp;in&nbsp;your&nbsp;being&nbsp;subjected&nbsp;to&nbsp;service&nbsp;by&nbsp;the&nbsp;creature&nbsp;or&nbsp;by&nbsp;its&nbsp;liege&nbsp;and&nbsp;master,&nbsp;at&nbsp;the&nbsp;very&nbsp;least.&nbsp;At&nbsp;worst,&nbsp;the&nbsp;creature&nbsp;or&nbsp;its&nbsp;kin&nbsp;may&nbsp;attack&nbsp;you.
+
+      </p>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      conduit: 8
+  level: 8
+  manifestTime:
+    units: minute
+    value: 10
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 30–31
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,78 @@
+_id: 2PAn4keGRloODkpf
+_key: '!items!2PAn4keGRloODkpf'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Dancing_Shadow_Style
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Dancing Shadow Style
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You’ve&nbsp;learned&nbsp;to&nbsp;turn&nbsp;your&nbsp;evasive&nbsp;combat&nbsp;style&nbsp;into&nbsp;a&nbsp;potent&nbsp;meditative&nbsp;technique.</em></p>
+
+      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Cloak_Dance"&nbsp;title="Cloak&nbsp;Dance">Cloak&nbsp;Dance</a>,&nbsp;ability&nbsp;to&nbsp;generate&nbsp;a&nbsp;mind&nbsp;blade,&nbsp;psychic&nbsp;strike&nbsp;+1d8,&nbsp;Acrobatics&nbsp;2&nbsp;ranks,&nbsp;Stealth&nbsp;7&nbsp;ranks.
+
+      </p>
+
+      <p><strong>Benefit</strong>:&nbsp;When&nbsp;performing&nbsp;a&nbsp;cloak&nbsp;dance&nbsp;(see&nbsp;the&nbsp;Cloak&nbsp;Dance&nbsp;feat),&nbsp;you&nbsp;may&nbsp;charge&nbsp;your&nbsp;psychic&nbsp;strike.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Cloak_Dance"&nbsp;title="Cloak&nbsp;Dance">Cloak&nbsp;Dance</a></li><li><a&nbsp;href="/wiki/Dancing_Shadow_Retribution"&nbsp;title="Dancing&nbsp;Shadow&nbsp;Retribution">Dancing&nbsp;Shadow&nbsp;Retribution</a></li><li><a&nbsp;href="/wiki/Dancing_Shadow_Waltz"&nbsp;title="Dancing&nbsp;Shadow&nbsp;Waltz">Dancing&nbsp;Shadow&nbsp;Waltz</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '4'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Soulknives II'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '39'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

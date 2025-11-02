@@ -1,0 +1,103 @@
+_id: n3ZGyg1rqxxAx149
+_key: '!items!n3ZGyg1rqxxAx149'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Synesthete
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Synesthete
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: minute
+        value: 10 * @cl
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;receive&nbsp;one&nbsp;kind&nbsp;of&nbsp;sensory&nbsp;input&nbsp;when&nbsp;a&nbsp;different&nbsp;sense&nbsp;is&nbsp;stimulated.&nbsp;In&nbsp;particular,&nbsp;you&nbsp;can&nbsp;either&nbsp;feel&nbsp;light&nbsp;or&nbsp;feel&nbsp;sound.&nbsp;You&nbsp;can&nbsp;shift&nbsp;your&nbsp;stimulated&nbsp;sense&nbsp;between&nbsp;these&nbsp;two&nbsp;options&nbsp;once&nbsp;per&nbsp;round&nbsp;as&nbsp;a&nbsp;swift&nbsp;action.&nbsp;Your&nbsp;senses&nbsp;continue&nbsp;to&nbsp;work&nbsp;normally&nbsp;as&nbsp;well,&nbsp;unless&nbsp;they&nbsp;are&nbsp;impaired&nbsp;for&nbsp;some&nbsp;reason.
+
+      </p>
+
+      <p>Your&nbsp;face&nbsp;must&nbsp;be&nbsp;uncovered&nbsp;to&nbsp;use&nbsp;this&nbsp;power,&nbsp;because&nbsp;it&nbsp;is&nbsp;the&nbsp;skin&nbsp;of&nbsp;your&nbsp;face&nbsp;that&nbsp;acts&nbsp;as&nbsp;the&nbsp;sensory&nbsp;receiver.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;are&nbsp;feeling&nbsp;light&nbsp;by&nbsp;absorbing&nbsp;ambient&nbsp;light&nbsp;onto&nbsp;your&nbsp;skin,&nbsp;you&nbsp;have&nbsp;your&nbsp;normal&nbsp;visual&nbsp;abilities&nbsp;(except&nbsp;for&nbsp;darkvision),&nbsp;even&nbsp;if&nbsp;your&nbsp;eyes&nbsp;are&nbsp;closed&nbsp;or&nbsp;you&nbsp;are&nbsp;blinded.&nbsp;If&nbsp;your&nbsp;eyes&nbsp;are&nbsp;working&nbsp;normally,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+4&nbsp;circumstance&nbsp;bonus&nbsp;on&nbsp;all&nbsp;visual&nbsp;Perception&nbsp;checks.&nbsp;While&nbsp;feeling&nbsp;light,&nbsp;you&nbsp;are&nbsp;immune&nbsp;to&nbsp;gaze&nbsp;attacks.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;are&nbsp;feeling&nbsp;sound&nbsp;by&nbsp;absorbing&nbsp;sound&nbsp;onto&nbsp;your&nbsp;skin&nbsp;and&nbsp;your&nbsp;ears&nbsp;are&nbsp;working&nbsp;normally,&nbsp;the&nbsp;expanded&nbsp;audio&nbsp;input&nbsp;provides&nbsp;you&nbsp;with&nbsp;a&nbsp;+4&nbsp;circumstance&nbsp;bonus&nbsp;on&nbsp;Perception&nbsp;checks&nbsp;to&nbsp;listen.
+
+      </p>
+
+      <p>Psionic&nbsp;or&nbsp;magical&nbsp;displacement&nbsp;effects,&nbsp;invisibility&nbsp;effects,&nbsp;illusions,&nbsp;and&nbsp;other&nbsp;similar&nbsp;effects&nbsp;confuse&nbsp;your&nbsp;synesthete&nbsp;senses&nbsp;just&nbsp;as&nbsp;they&nbsp;would&nbsp;your&nbsp;normal&nbsp;senses.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;also&nbsp;use&nbsp;this&nbsp;power&nbsp;to&nbsp;see&nbsp;sound&nbsp;if&nbsp;you&nbsp;are&nbsp;deafened,&nbsp;or&nbsp;hear&nbsp;light&nbsp;if&nbsp;you&nbsp;are&nbsp;blinded,&nbsp;thus&nbsp;removing&nbsp;all&nbsp;penalties&nbsp;associated&nbsp;with&nbsp;either&nbsp;condition&nbsp;(though&nbsp;you&nbsp;gain&nbsp;no&nbsp;bonuses&nbsp;for&nbsp;using&nbsp;the&nbsp;power&nbsp;in&nbsp;this&nbsp;way&nbsp;if&nbsp;you&nbsp;are&nbsp;not&nbsp;deafened&nbsp;or&nbsp;blinded).
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 1
+      gambler: 1
+      gifted blade: 1
+      psion: 1
+      psychic warrior: 1
+      vitalist: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '147'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '249'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '57'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

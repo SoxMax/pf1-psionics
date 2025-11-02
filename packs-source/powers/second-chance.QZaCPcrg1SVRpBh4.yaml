@@ -1,0 +1,81 @@
+_id: QZaCPcrg1SVRpBh4
+_key: '!items!QZaCPcrg1SVRpBh4'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Second_Chance
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Second Chance
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;take&nbsp;a&nbsp;hand&nbsp;in&nbsp;influencing&nbsp;the&nbsp;probable&nbsp;outcomes&nbsp;of&nbsp;your&nbsp;immediate&nbsp;environment.&nbsp;You&nbsp;see&nbsp;the&nbsp;many&nbsp;alternative&nbsp;branches&nbsp;that&nbsp;reality&nbsp;could&nbsp;take&nbsp;in&nbsp;the&nbsp;next&nbsp;few&nbsp;seconds,&nbsp;and&nbsp;with&nbsp;this&nbsp;foreknowledge&nbsp;you&nbsp;gain&nbsp;the&nbsp;ability&nbsp;to&nbsp;reroll&nbsp;one&nbsp;attack&nbsp;roll,&nbsp;one&nbsp;saving&nbsp;throw,&nbsp;one&nbsp;ability&nbsp;check,&nbsp;or&nbsp;one&nbsp;skill&nbsp;check.&nbsp;You&nbsp;must&nbsp;take&nbsp;the&nbsp;result&nbsp;of&nbsp;the&nbsp;reroll,&nbsp;even&nbsp;if&nbsp;it's&nbsp;worse&nbsp;than&nbsp;the&nbsp;original&nbsp;roll.&nbsp;You&nbsp;do&nbsp;not&nbsp;have&nbsp;to&nbsp;make&nbsp;another&nbsp;roll&nbsp;if&nbsp;satisfied&nbsp;with&nbsp;your&nbsp;original&nbsp;roll.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;3&nbsp;additional&nbsp;power&nbsp;points&nbsp;spend,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+1&nbsp;insight&nbsp;bonus&nbsp;on&nbsp;the&nbsp;reroll.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      seer: 5
+      voyager: 5
+  level: 5
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '143'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '242'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '55'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

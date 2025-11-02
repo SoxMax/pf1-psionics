@@ -1,0 +1,89 @@
+_id: jLQLgh1O6v9kEojm
+_key: '!items!jLQLgh1O6v9kEojm'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Control_Light
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/light/explosion-star-glow-silhouette.webp
+name: Control Light
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        concentration: true
+        units: conc
+        value: up to 1 min./level, or 1 round; see text
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        description: None
+      target:
+        value: Nine 10-ft. cubes + three 10-ft. cubes/level (S)
+  description:
+    value: >-
+      <p>By&nbsp;manipulating&nbsp;the&nbsp;ambient&nbsp;light&nbsp;level,&nbsp;you&nbsp;can&nbsp;decrease&nbsp;or&nbsp;increase&nbsp;the&nbsp;illumination&nbsp;of&nbsp;an&nbsp;area.&nbsp;The&nbsp;change&nbsp;in&nbsp;illumination&nbsp;can&nbsp;be&nbsp;gradual&nbsp;(taking&nbsp;as&nbsp;long&nbsp;as&nbsp;1&nbsp;minute)&nbsp;or&nbsp;sudden&nbsp;(occurring&nbsp;immediately&nbsp;when&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power).&nbsp;You&nbsp;can&nbsp;alter&nbsp;the&nbsp;level&nbsp;of&nbsp;illumination&nbsp;from&nbsp;its&nbsp;original&nbsp;level&nbsp;at&nbsp;any&nbsp;time&nbsp;during&nbsp;the&nbsp;power's&nbsp;duration.
+
+      </p><ul><li><em>Decrease:</em>&nbsp;You&nbsp;can&nbsp;decrease&nbsp;the&nbsp;light&nbsp;level&nbsp;of&nbsp;an&nbsp;area&nbsp;by&nbsp;one&nbsp;step&nbsp;(from&nbsp;bright&nbsp;light&nbsp;to&nbsp;normal&nbsp;light,&nbsp;from&nbsp;normal&nbsp;light&nbsp;to&nbsp;dim&nbsp;light,&nbsp;or&nbsp;from&nbsp;dim&nbsp;light&nbsp;to&nbsp;darkness.&nbsp;Creatures&nbsp;with&nbsp;darkvision&nbsp;can&nbsp;see&nbsp;in&nbsp;an&nbsp;area&nbsp;of&nbsp;dim&nbsp;light&nbsp;or&nbsp;darkness&nbsp;without&nbsp;penalty.&nbsp;You&nbsp;cannot&nbsp;create&nbsp;supernatural&nbsp;dark.</li></ul>
+
+      <ul><li><em>Increase:</em>&nbsp;You&nbsp;can&nbsp;increase&nbsp;the&nbsp;light&nbsp;level&nbsp;of&nbsp;an&nbsp;area&nbsp;by&nbsp;one&nbsp;step&nbsp;(from&nbsp;darkness&nbsp;to&nbsp;dim&nbsp;light,&nbsp;from&nbsp;dim&nbsp;light&nbsp;to&nbsp;normal&nbsp;light,&nbsp;or&nbsp;from&nbsp;normal&nbsp;light&nbsp;to&nbsp;bright&nbsp;light).</li></ul>
+
+      <ul><li><em>Burst&nbsp;Increase:</em>&nbsp;You&nbsp;can&nbsp;use&nbsp;this&nbsp;power&nbsp;to&nbsp;increase&nbsp;the&nbsp;light&nbsp;level&nbsp;of&nbsp;an&nbsp;area&nbsp;by&nbsp;two&nbsp;steps&nbsp;(from&nbsp;darkness&nbsp;to&nbsp;normal&nbsp;light,&nbsp;or&nbsp;from&nbsp;dim&nbsp;light&nbsp;to&nbsp;bright&nbsp;light),&nbsp;but&nbsp;in&nbsp;such&nbsp;a&nbsp;case&nbsp;the&nbsp;power's&nbsp;duration&nbsp;is&nbsp;only&nbsp;1&nbsp;round.</li></ul>
+
+      <p>This&nbsp;power&nbsp;cannot&nbsp;stack&nbsp;with&nbsp;itself,&nbsp;even&nbsp;when&nbsp;manifested&nbsp;by&nbsp;another&nbsp;psionic&nbsp;creature,&nbsp;if&nbsp;manifested&nbsp;into&nbsp;the&nbsp;same&nbsp;area.&nbsp;If&nbsp;multiple&nbsp;manifestations&nbsp;of&nbsp;the&nbsp;control&nbsp;light&nbsp;power&nbsp;overlaps&nbsp;in&nbsp;an&nbsp;area,&nbsp;the&nbsp;light&nbsp;level&nbsp;is&nbsp;decreased&nbsp;or&nbsp;increased&nbsp;by&nbsp;only&nbsp;one&nbsp;step&nbsp;(or&nbsp;two&nbsp;steps&nbsp;in&nbsp;case&nbsp;of&nbsp;the&nbsp;Burst&nbsp;Increase&nbsp;manifestation).
+
+      </p>
+  descriptors:
+    - light
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 1
+      psion: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 89–90
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '176'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '34'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

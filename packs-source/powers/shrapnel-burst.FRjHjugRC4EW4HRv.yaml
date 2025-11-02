@@ -1,0 +1,95 @@
+_id: FRjHjugRC4EW4HRv
+_key: '!items!FRjHjugRC4EW4HRv'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Shrapnel_Burst
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Shrapnel Burst
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: line
+        units: ft
+        value: '40'
+      damage:
+        parts:
+          - - 1d6
+            - untyped
+      duration:
+        units: inst
+      name: Use
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Reflex half
+        type: ref
+      target:
+        value: 40 ft. burst
+  description:
+    value: >-
+      <p>You&nbsp;emit&nbsp;a&nbsp;burst&nbsp;of&nbsp;crystalline&nbsp;shrapnel,&nbsp;dealing&nbsp;9d6&nbsp;points&nbsp;of&nbsp;piercing&nbsp;damage&nbsp;to&nbsp;all&nbsp;creatures&nbsp;within&nbsp;a&nbsp;40&nbsp;ft.&nbsp;burst&nbsp;centered&nbsp;on&nbsp;you.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;the&nbsp;power&nbsp;deals&nbsp;an&nbsp;additional&nbsp;1d6&nbsp;points&nbsp;of&nbsp;damage.&nbsp;For&nbsp;every&nbsp;two&nbsp;additional&nbsp;dice&nbsp;of&nbsp;damage,&nbsp;the&nbsp;save&nbsp;DC&nbsp;is&nbsp;increased&nbsp;by&nbsp;1.
+
+      </p>
+  discipline: metacreativity
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 5
+      psion: 5
+      psychic warrior: 4
+      wilder: 5
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '26'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Unlimited Possibilities'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '179'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '245'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '56'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

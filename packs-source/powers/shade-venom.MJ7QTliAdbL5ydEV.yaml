@@ -1,0 +1,76 @@
+_id: MJ7QTliAdbL5ydEV
+_key: '!items!MJ7QTliAdbL5ydEV'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Shade_Venom
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Shade Venom
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude negates (harmless)
+        harmless: true
+        type: fort
+      target:
+        value: One dose of poison or poisonous natural weapon touched
+  description:
+    value: >-
+      <p>You&nbsp;enhance&nbsp;a&nbsp;poison&nbsp;so&nbsp;that&nbsp;it&nbsp;can&nbsp;affect&nbsp;even&nbsp;the&nbsp;immaterial.&nbsp;The&nbsp;target&nbsp;can&nbsp;poison&nbsp;incorporeal&nbsp;creatures&nbsp;as&nbsp;if&nbsp;they&nbsp;possessed&nbsp;no&nbsp;immunity&nbsp;or&nbsp;resistance,&nbsp;substituting&nbsp;a&nbsp;Will&nbsp;save&nbsp;for&nbsp;the&nbsp;normal&nbsp;Fortitude&nbsp;save&nbsp;of&nbsp;the&nbsp;poison.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;spent,&nbsp;you&nbsp;increase&nbsp;the&nbsp;save&nbsp;DC&nbsp;of&nbsp;the&nbsp;target&nbsp;by&nbsp;1&nbsp;against&nbsp;incorporeal&nbsp;creatures.
+
+      </p>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 3
+      gifted blade: 3
+      psion: 3
+      psychic warrior: 3
+      thug: 3
+      wilder: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '40'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

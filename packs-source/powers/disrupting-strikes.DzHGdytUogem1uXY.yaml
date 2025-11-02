@@ -1,0 +1,76 @@
+_id: DzHGdytUogem1uXY
+_key: '!items!DzHGdytUogem1uXY'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Disrupting_Strikes
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Disrupting Strikes
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: swift
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;use&nbsp;your&nbsp;disrupt&nbsp;pattern&nbsp;ability&nbsp;as&nbsp;part&nbsp;of&nbsp;a&nbsp;full&nbsp;attack&nbsp;sequence&nbsp;instead&nbsp;of&nbsp;as&nbsp;a&nbsp;standard&nbsp;action.&nbsp;Any&nbsp;or&nbsp;all&nbsp;of&nbsp;the&nbsp;attacks&nbsp;in&nbsp;the&nbsp;full&nbsp;attack&nbsp;sequence&nbsp;can&nbsp;be&nbsp;your&nbsp;disrupt&nbsp;pattern&nbsp;ability&nbsp;in&nbsp;place&nbsp;of&nbsp;a&nbsp;normal&nbsp;attack.&nbsp;This&nbsp;is&nbsp;an&nbsp;exception&nbsp;to&nbsp;the&nbsp;rule&nbsp;that&nbsp;disrupt&nbsp;pattern&nbsp;may&nbsp;only&nbsp;be&nbsp;used&nbsp;once&nbsp;a&nbsp;round.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 4
+  level: 4
+  manifestTime:
+    units: swift
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '34'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Hidden Intentions'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '157'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '185'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

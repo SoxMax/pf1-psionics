@@ -1,0 +1,92 @@
+_id: AJEWr4a4ThDCpB1B
+_key: '!items!AJEWr4a4ThDCpB1B'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Concealing_Amorpha
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Concealing Amorpha
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: ft
+        value: 0 ft.
+      save:
+        description: None
+      target:
+        value: Quasi-real amorphous film centered on you
+  description:
+    value: >-
+      <p>You&nbsp;weave&nbsp;a&nbsp;quasi-real&nbsp;membrane&nbsp;around&nbsp;yourself.&nbsp;You&nbsp;remain&nbsp;visible&nbsp;within&nbsp;the&nbsp;translucent,&nbsp;amorphous&nbsp;enclosure.&nbsp;This&nbsp;distortion&nbsp;grants&nbsp;you&nbsp;concealment&nbsp;(opponents&nbsp;have&nbsp;a&nbsp;20%&nbsp;miss&nbsp;chance),&nbsp;thanks&nbsp;to&nbsp;the&nbsp;rippling&nbsp;membrane&nbsp;encasing&nbsp;your&nbsp;form.&nbsp;You&nbsp;can&nbsp;pick&nbsp;up&nbsp;or&nbsp;drop&nbsp;objects,&nbsp;easily&nbsp;reaching&nbsp;through&nbsp;the&nbsp;film.&nbsp;Anything&nbsp;you&nbsp;hold&nbsp;is&nbsp;enveloped&nbsp;by&nbsp;the&nbsp;amorpha.&nbsp;Likewise,&nbsp;you&nbsp;can&nbsp;engage&nbsp;in&nbsp;melee,&nbsp;make&nbsp;ranged&nbsp;attacks,&nbsp;and&nbsp;manifest&nbsp;powers&nbsp;without&nbsp;hindrance.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;membrane&nbsp;can&nbsp;spread&nbsp;and&nbsp;affect&nbsp;one&nbsp;creature&nbsp;adjacent&nbsp;to&nbsp;you.&nbsp;If&nbsp;the&nbsp;creature&nbsp;moves&nbsp;away&nbsp;from&nbsp;you,&nbsp;it&nbsp;loses&nbsp;the&nbsp;protection.
+
+      </p>
+  discipline: metacreativity
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      dread: 2
+      gambler: 2
+      gifted blade: 2
+      marksman: 2
+      psion: 2
+      psychic warrior: 2
+      thug: 2
+      voyager: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '87'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '174'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '33'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  subdiscipline:
+    - creation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

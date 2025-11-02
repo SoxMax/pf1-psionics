@@ -1,0 +1,70 @@
+_id: mz2wWWHQQHBSRKr3
+_key: '!items!mz2wWWHQQHBSRKr3'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Thunderclap_Percussion
+img: icons/sundries/books/book-embossed-blue.webp
+name: Thunderclap Percussion
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>Your&nbsp;concussive&nbsp;powers&nbsp;also&nbsp;affect&nbsp;those&nbsp;near&nbsp;the&nbsp;target.</em></p>
+
+      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Concussive_Power"&nbsp;title="Concussive&nbsp;Power">Concussive&nbsp;Power</a>.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;using&nbsp;the&nbsp;Concussive&nbsp;Power&nbsp;feat,&nbsp;you&nbsp;can&nbsp;choose&nbsp;to&nbsp;have&nbsp;anyone&nbsp;adjacent&nbsp;to&nbsp;the&nbsp;initial&nbsp;target&nbsp;also&nbsp;be&nbsp;affected&nbsp;by&nbsp;the&nbsp;Concussive&nbsp;Power&nbsp;feat.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '7'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  subType: feat
+  summons: false
+  tags:
+    - feat
+type: feat

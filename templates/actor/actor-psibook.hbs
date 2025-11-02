@@ -1,0 +1,269 @@
+<div class="inventory-filters spellbook-configuration">
+  <div class="summary">
+    {{! Concentration }}
+    <div class="info-box spellcasting-concentration rollable" data-drag="concentration">
+      <h5><a class="rollable">{{localize "PF1.Concentration"}}</a></h5>
+      <span class="value">{{numberFormat concentration.total sign=true decimals=0}}</span>
+    </div>
+
+    {{! Caster Level }}
+    <div class="info-box spellcasting-cl rollable" data-drag="cl">
+      <h5><a class="rollable">{{localize "PF1.CasterLevel"}}</a></h5>
+      <span class="value">{{numberFormat cl.total sign=true decimals=0}}</span>
+    </div>
+
+    {{! Power Points }}
+    <div class="info-box power-points">
+      <h5>{{localize "PF1-Psionics.PowerPoints.Plural"}}</h5>
+      <span class="value">{{powerPoints.max}}</span>
+    </div>
+
+    {{! Spell Ranges }}
+    <div class="info-box-joined ranges">
+      {{! Close }}
+      <div class="info-box range close">
+        <h5>{{localize "PF1.Distance.close"}}</h5>
+        <span class="value">{{range.close}}</span>
+      </div>
+
+      {{! Medium }}
+      <div class="info-box range medium">
+        <h5>{{localize "PF1.Distance.medium"}}</h5>
+        <span class="value">{{range.medium}}</span>
+      </div>
+
+      {{! Long }}
+      <div class="info-box range long">
+        <h5>{{localize "PF1.Distance.long"}}</h5>
+        <span class="value">{{range.long}}</span>
+      </div>
+    </div>
+
+    <div class="spellcasting-config">
+      <a class="toggle-config" data-spellbook="{{bookId}}"><i class="fa-solid fa-cogs" inert></i></a>
+    </div>
+  </div>
+
+  <div class="hide psibook-info_{{bookId}} {{#if showConfig}}hidden{{/if}}">
+    <div class="psibook-info spellbook-info">
+      <h3>{{localize "PF1.Concentration"}}</h3>
+      <h3>{{localize "PF1.CasterLevel"}}</h3>
+      <div class="form-group spellcasting-bonus-formulas">
+        <h3>{{localize "PF1.BonusFormula"}}</h3>
+        <div class="form-fields">
+          <input class="formula" type="text" name="flags.pf1-psionics.spellbooks.{{bookId}}.concentration.formula"
+            value="{{concentration.formula}}" placeholder="{{localize "PF1.ConcentrationBonusFormula"}}">
+        </div>
+      </div>
+      <div class="form-group spellcasting-bonus-formulas">
+        <h3>{{localize "PF1.BonusFormula"}}</h3>
+        <div class="form-fields">
+          <input class="formula" type="text" name="flags.pf1-psionics.spellbooks.{{bookId}}.cl.formula"
+            value="{{cl.formula}}" placeholder="{{localize "PF1.CasterLevelBonusFormula"}}">
+        </div>
+      </div>
+      {{! Notes }}
+      <div class="flexrow spellcasting-notes">
+        <textarea name="flags.pf1-psionics.spellbooks.{{bookId}}.concentration.notes" placeholder="{{localize "PF1.ConcentrationNotes"}}">{{concentration.notes}}</textarea>
+      </div>
+      <div class="flexrow spellcasting-notes">
+        <textarea name="flags.pf1-psionics.spellbooks.{{bookId}}.cl.notes" placeholder="{{localize "PF1.CasterLevelNotes"}}">{{cl.notes}}</textarea>
+      </div>
+
+      <div class="spell-settings">
+        <div class="form-group spellcasting-class">
+          <h3>{{localize "PF1.SpellcastingClass"}}</h3>
+          <div class="form-fields">
+            <select name="flags.pf1-psionics.spellbooks.{{bookId}}.class">
+              <option value="">{{localize "PF1.None"}}</option>
+              {{selectOptions @root.classList selected=classId}}
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group spellcasting-ability">
+          <h3>{{localize "PF1.SpellcastingAbility"}}</h3>
+          <div class="form-fields">
+            <select name="flags.pf1-psionics.spellbooks.{{bookId}}.ability">
+              {{selectOptions @root.config.abilities selected=ability}}
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group formulas">
+          <h3>{{localize "PF1.BaseDCFormula"}}</h3>
+          <div class="form-fields">
+            <input class="formula" type="text" name="flags.pf1-psionics.spellbooks.{{bookId}}.baseDCFormula"
+              value="{{baseDCFormula}}" placeholder="{{localize "PF1.BaseDCFormula"}}">
+          </div>
+        </div>
+
+        <div class="form-group power-point-formula">
+          <h3>{{localize "PF1-Psionics.PowerPoints.Formula"}}</h3>
+          <div class="form-fields">
+            <input class="formula" type="text" name="flags.pf1-psionics.spellbooks.{{bookId}}.powerPoints.formula"
+              value="{{powerPoints.formula}}" placeholder="{{localize "PF1.Formula"}}">
+          </div>
+        </div>
+
+        <div class="form-group alt-name">
+          <h3>{{localize "PF1.SpellbookName"}}</h3>
+          <div class="form-fields">
+            <input type="text" name="flags.pf1-psionics.spellbooks.{{bookId}}.name"
+              value="{{name}}" placeholder="{{label}}">
+          </div>
+        </div>
+      </div>
+
+      <div class="spell-settings">
+        <div class="flexrow stacked autoslots">
+          <label class="checkbox">
+            <input type="checkbox" name="flags.pf1-psionics.spellbooks.{{bookId}}.autoLevelPowerPoints"
+              {{checked autoLevelPowerPoints}}> {{localize "PF1-Psionics.AutoLevelPowerPoints"}}
+          </label>
+          <label class="checkbox" {{#if (not autoLevelPowerPoints)}}data-tooltip="PF1-Psionics.RequiresAutoLevelPowerPoints"{{/if}}>
+            <input type="checkbox" name="flags.pf1-psionics.spellbooks.{{bookId}}.autoAttributePowerPoints"
+              {{disabled (not autoLevelPowerPoints)}}
+              {{checked autoAttributePowerPoints}}> {{localize "PF1-Psionics.AutoAttributePowerPoints"}}
+          </label>
+        </div>
+        <div class="flexrow stacked special">
+          <label class="checkbox">
+            <input type="checkbox" name="flags.pf1-psionics.spellbooks.{{bookId}}.hasCantrips"
+              {{checked hasCantrips}}> {{localize "PF1-Psionics.HasCantrips"}}
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" name="flags.pf1-psionics.spellbooks.{{bookId}}.noAbilityLimit"
+              {{checked spellbook.noAbilityLimit}}> {{localize "PF1.NoCastingAbilityLimit"}}
+          </label>
+        </div>
+        <div class="flexrow stacked special">
+          <label class="checkbox">
+            <input type="checkbox" name="flags.pf1-psionics.spellbooks.{{bookId}}.autoMaxPowerLevel"
+              {{checked autoMaxPowerLevel}}> {{localize "PF1-Psionics.AutoMaxPowerLevel"}}
+          </label>
+        </div>
+        <div class="form-group">
+          <h3>{{localize "PF1.Preparation"}}</h3>
+          <div class="form-fields">
+            <select name="flags.pf1-psionics.spellbooks.{{bookId}}.spellPreparationMode">
+              {{selectOptions @root.choices.casterPreparation selected=spellbook.spellPreparationMode}}
+            </select>
+          </div>
+        </div>
+        <div class="form-group" data-tooltip="PF1.Spellcasting.Progression.Hint">
+          <h3>{{localize "PF1.Spellcasting.Progression.Label"}}</h3>
+          <div class="form-fields">
+            <select name="flags.pf1-psionics.spellbooks.{{bookId}}.casterType">
+              {{#each @root.choices.casterProgression}}
+              <option value="{{@key}}" {{#if (eq ../spellbook.casterType @key)}}selected{{/if}}>{{this}}</option>
+              {{/each}}
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{!-- Spellbook Navigation --}}
+{{!-- {{> "systems/pf1/templates/actors/parts/actor-item-nav-filters.hbs" category=(concat "spellbook-" bookId) sections=spellbook.sections prepared=true}} --}}
+
+<ol class="item-groups-list book-{{bookId}}-body">
+  {{#each sections}}
+  {{#unless _hidden}}
+  <ol class="item-list{{#unless valid}} invalid{{/unless}}" data-list="spell-{{../bookId}}-{{level}}" data-type="spell" data-level="{{level}}" data-preparation-unused="{{preparation.unused}}" {{#if ../spellbook.spontaneous}}data-known-unused="{{known.unused}}"{{/if}}>
+    <li class="flexrow item-list-header spellbook-header {{#if lowAbilityScore}}insufficient-ability-score{{/if}}" data-level="{{level}}">
+      <div class="item-name">
+        <h3>{{label}}</h3>
+        {{#unless valid}}
+        <i class="fa-solid fa-triangle-exclamation" data-tooltip="PF1.InvalidSpellLevelHint"></i>
+        {{/unless}}
+      </div>
+
+      <div class="item-detail spell-uses"><i class="icon-pf icon-battery-pack" data-tooltip="PF1.ChargePlural"></i></div>
+
+      <div class="item-detail item-actions"><i class="icon-pf icon-gears" data-tooltip="PF1.ActionPlural"></i></div>
+
+      <div class="item-detail spell-activation"><i class="icon-pf icon-hand" data-tooltip="PF1.Usage"></i></div>
+
+      <div class="item-detail spell-components"><i class="icon-pf icon-expense" data-tooltip="PF1.Components"></i></div>
+
+      <div class="item-detail spell-school"><i class="icon-pf icon-spell-book" data-tooltip="PF1.SpellSchool"></i></div>
+
+      <div class="item-controls">
+        {{#if valid}}
+        <a class="item-control item-create" data-tooltip="PF1.CreateItem" data-create="{{path}}" data-level="{{level}}" data-book="{{../bookId}}">
+          <i class="fa-solid fa-plus" inert></i>
+        </a>
+        <a data-action="browse" data-source="spells.spell" data-level="{{level}}" data-tooltip="PF1.BrowseSpells"><i class="fa-solid fa-folder-plus" inert></i></a>
+        {{/if}}
+      </div>
+    </li>
+
+    {{#each items}}
+    <li class="item flexrow{{#unless valid}} invalid{{/unless}} {{#if document.canUse}}prepared{{else}}unprepared{{/if}}{{#if domain}} domain{{/if}}" data-item-id="{{id}}">
+      <div class="item-name rollable">
+        <div class="item-image" style='background-image: url("{{img}}")' data-tooltip="PF1.DisplayInChat"></div>
+        <h4>{{name}}</h4>
+      </div>
+
+      <div class="item-detail spell-uses flexrow">
+        <div class="power-cost">
+            <span>{{labels.chargeCost}}</span>
+        </div>
+      </div>
+
+      <div class="item-detail item-actions">
+        {{#if ../valid}}
+        <div class="item-action">
+          <a class="item-control item-action action roll"
+            data-tooltip="{{localize "PF1.UseSpell"}}
+              {{#if labels.range}}<br>{{labels.range}}{{/if}}
+              {{#if labels.save}}<br>{{labels.save}}{{/if}}">
+            <i class="fa-solid fa-dice-d20" inert></i>
+          </a>
+        </div>
+        {{/if}}
+      </div>
+
+      <div class="item-detail spell-activation"><span>{{labels.activation}}</span></div>
+      <div class="item-detail spell-components">
+        <span>{{labels.displays}}</span>
+      </div>
+
+      <div class="item-detail spell-school tooltip">
+        <span>{{labels.discipline}}</span>
+      </div>
+
+      {{#if @root.owner}}
+      <div class="item-controls">
+        <a class="item-control item-edit" data-tooltip="PF1.EditItem"><i class="fa-solid fa-edit" inert></i></a>
+        <a class="item-control item-duplicate" data-tooltip="PF1.DuplicateItem"><i class="fa-solid fa-copy" inert></i></a>
+        <a class="item-control item-delete" data-tooltip="PF1.DeleteItem"><i class="fa-solid fa-trash" inert></i></a>
+      </div>
+      {{/if}}
+    </li>
+    {{/each}}
+
+    {{! Spell Level Issues }}
+    {{#if hasIssues}}
+      <div class="spell-notifications">
+      {{#if lowLevel}}
+        <div class="notification-box warning">
+          <h5>{{localize "PF1.Spellbook.InsufficientLevel"}}</h5>
+        </div>
+      {{/if}}
+      {{#if lowAbilityScore}}
+        <div class="notification-box warning">
+          <h5>{{localize "PF1.Spellbook.InsufficientAbility"}}</h5>
+          <span class="value">{{lookup (lookup @root.system.abilities ../spellbook.ability) 'total'}}</span>
+          <span class="label">{{lookup @root.config.abilitiesShort ../spellbook.ability}}</span>
+        </div>
+      {{/if}}
+      </div>
+    {{/if}}
+  </ol>
+  {{/unless}}
+  {{/each}}
+</ol>

@@ -1,0 +1,85 @@
+_id: mwF7Br3YeSSkulmA
+_key: '!items!mwF7Br3YeSSkulmA'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Bioluminescence
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Bioluminescence
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '30'
+      duration:
+        units: spec
+        value: One hour; see text
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude negates (harmless)
+        harmless: true
+        type: fort
+      target:
+        value: A 30-ft.-radius patch of natural fungus or similar simple plant-life
+  description:
+    value: >-
+      <p>A&nbsp;glowing&nbsp;ball&nbsp;of&nbsp;dim&nbsp;light&nbsp;fades&nbsp;into&nbsp;perceptibility&nbsp;around&nbsp;the&nbsp;caverns&nbsp;nearby,&nbsp;revealing&nbsp;the&nbsp;tiny&nbsp;natural&nbsp;plants&nbsp;living&nbsp;there,&nbsp;but&nbsp;never&nbsp;fades&nbsp;away.&nbsp;To&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;you&nbsp;must&nbsp;target&nbsp;an&nbsp;area&nbsp;of&nbsp;existing&nbsp;small-scale&nbsp;plant&nbsp;life&nbsp;(no&nbsp;more&nbsp;complex&nbsp;than&nbsp;simple&nbsp;grasses).&nbsp;The&nbsp;chemistry&nbsp;of&nbsp;any&nbsp;of&nbsp;these&nbsp;plants&nbsp;within&nbsp;the&nbsp;area&nbsp;of&nbsp;your&nbsp;power&nbsp;is&nbsp;altered&nbsp;so&nbsp;the&nbsp;plants&nbsp;naturally&nbsp;emit&nbsp;dim&nbsp;light.&nbsp;This&nbsp;alteration&nbsp;is&nbsp;fueled&nbsp;by&nbsp;a&nbsp;symbiotic&nbsp;link&nbsp;between&nbsp;you&nbsp;and&nbsp;the&nbsp;plant&nbsp;life,&nbsp;which&nbsp;continue&nbsp;to&nbsp;produce&nbsp;light&nbsp;as&nbsp;long&nbsp;as&nbsp;you&nbsp;remain&nbsp;within&nbsp;range&nbsp;and&nbsp;one&nbsp;hour&nbsp;thereafter.&nbsp;If&nbsp;you&nbsp;return&nbsp;within&nbsp;range&nbsp;of&nbsp;glowing&nbsp;plants&nbsp;before&nbsp;they&nbsp;extinguish,&nbsp;they&nbsp;relink&nbsp;to&nbsp;you&nbsp;automatically&nbsp;and&nbsp;resume&nbsp;feeding&nbsp;harmlessly&nbsp;on&nbsp;your&nbsp;excess&nbsp;mental&nbsp;energy.
+
+      </p>
+
+      <p>The&nbsp;illumination&nbsp;emitted&nbsp;by&nbsp;these&nbsp;plants&nbsp;is&nbsp;non-psionic&nbsp;in&nbsp;nature,&nbsp;raising&nbsp;the&nbsp;ambient&nbsp;lighting&nbsp;level&nbsp;of&nbsp;the&nbsp;area&nbsp;naturally,&nbsp;which&nbsp;may&nbsp;prevail&nbsp;in&nbsp;circumstances&nbsp;where&nbsp;magic&nbsp;or&nbsp;psionic&nbsp;illumination&nbsp;and&nbsp;darkness&nbsp;powers&nbsp;have&nbsp;cancelled&nbsp;one&nbsp;another&nbsp;out.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 0
+      gambler: 0
+      psion: 0
+      thug: 0
+      wilder: 0
+  level: 0
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '6'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 63–64
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

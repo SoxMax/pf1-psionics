@@ -1,0 +1,107 @@
+_id: CvOqwzUtoKpDd0zU
+_key: '!items!CvOqwzUtoKpDd0zU'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Fusion
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Fusion
+system:
+  actions:
+    - actionType: heal
+      activation:
+        cost: 1
+        type: round
+      damage:
+        parts:
+          - - 1d6
+            - untyped
+          - - 1d6
+            - heal
+      duration:
+        dismiss: true
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        description: None
+      target:
+        value: >-
+          You and one touched willing creature of your type and your size or
+          smaller
+  description:
+    value: >-
+      <p>You&nbsp;and&nbsp;another&nbsp;willing,&nbsp;corporeal,&nbsp;living&nbsp;creature&nbsp;of&nbsp;the&nbsp;same&nbsp;or&nbsp;smaller&nbsp;size&nbsp;fuse&nbsp;into&nbsp;one&nbsp;being.&nbsp;As&nbsp;the&nbsp;manifester,&nbsp;you&nbsp;control&nbsp;the&nbsp;actions&nbsp;of&nbsp;the&nbsp;fused&nbsp;being.&nbsp;However,&nbsp;you&nbsp;can&nbsp;give&nbsp;up&nbsp;this&nbsp;control&nbsp;to&nbsp;the&nbsp;other&nbsp;creature.&nbsp;Once&nbsp;you&nbsp;give&nbsp;up&nbsp;control,&nbsp;you&nbsp;cannot&nbsp;regain&nbsp;it&nbsp;unless&nbsp;the&nbsp;other&nbsp;creature&nbsp;relinquishes&nbsp;it.
+
+      </p>
+
+      <p>The&nbsp;fused&nbsp;being&nbsp;has&nbsp;your&nbsp;current&nbsp;hit&nbsp;points&nbsp;plus&nbsp;the&nbsp;other&nbsp;creature's&nbsp;current&nbsp;hit&nbsp;points.&nbsp;The&nbsp;fused&nbsp;being&nbsp;knows&nbsp;all&nbsp;the&nbsp;powers&nbsp;you&nbsp;and&nbsp;the&nbsp;other&nbsp;creature&nbsp;know,&nbsp;has&nbsp;the&nbsp;sum&nbsp;of&nbsp;your&nbsp;and&nbsp;the&nbsp;other&nbsp;creature's&nbsp;power&nbsp;points,&nbsp;and&nbsp;knows&nbsp;or&nbsp;has&nbsp;prepared&nbsp;any&nbsp;spells&nbsp;you&nbsp;or&nbsp;the&nbsp;other&nbsp;creature&nbsp;possesses&nbsp;(if&nbsp;any).&nbsp;Likewise,&nbsp;all&nbsp;feats,&nbsp;racial&nbsp;abilities,&nbsp;and&nbsp;class&nbsp;features&nbsp;are&nbsp;pooled&nbsp;(if&nbsp;both&nbsp;creatures&nbsp;have&nbsp;the&nbsp;same&nbsp;ability,&nbsp;the&nbsp;fused&nbsp;being&nbsp;gains&nbsp;it&nbsp;only&nbsp;once).&nbsp;For&nbsp;each&nbsp;of&nbsp;the&nbsp;six&nbsp;ability&nbsp;scores,&nbsp;the&nbsp;fused&nbsp;being's&nbsp;score&nbsp;is&nbsp;the&nbsp;higher&nbsp;of&nbsp;yours&nbsp;and&nbsp;the&nbsp;other&nbsp;creature's,&nbsp;and&nbsp;the&nbsp;fused&nbsp;being&nbsp;also&nbsp;has&nbsp;the&nbsp;higher&nbsp;Hit&nbsp;Dice&nbsp;or&nbsp;manifester&nbsp;level—this&nbsp;effectively&nbsp;means&nbsp;the&nbsp;fused&nbsp;being&nbsp;uses&nbsp;the&nbsp;better&nbsp;saving&nbsp;throws,&nbsp;attack&nbsp;bonus,&nbsp;and&nbsp;skill&nbsp;modifiers&nbsp;of&nbsp;either&nbsp;member,&nbsp;and&nbsp;it&nbsp;manifests&nbsp;powers&nbsp;at&nbsp;the&nbsp;higher&nbsp;of&nbsp;the&nbsp;manifester&nbsp;levels&nbsp;that&nbsp;you&nbsp;or&nbsp;the&nbsp;other&nbsp;creature&nbsp;possessed&nbsp;before&nbsp;becoming&nbsp;fused.
+
+      </p>
+
+      <p>You&nbsp;decide&nbsp;what&nbsp;equipment&nbsp;is&nbsp;absorbed&nbsp;into&nbsp;the&nbsp;fused&nbsp;being&nbsp;and&nbsp;what&nbsp;equipment&nbsp;remains&nbsp;available&nbsp;for&nbsp;use.&nbsp;These&nbsp;fused&nbsp;items&nbsp;are&nbsp;restored&nbsp;once&nbsp;the&nbsp;power&nbsp;ends.
+
+      </p>
+
+      <p>When&nbsp;the&nbsp;power&nbsp;ends,&nbsp;the&nbsp;fused&nbsp;being&nbsp;separates.&nbsp;The&nbsp;other&nbsp;creature&nbsp;appears&nbsp;in&nbsp;an&nbsp;area&nbsp;adjacent&nbsp;to&nbsp;you&nbsp;that&nbsp;you&nbsp;determine.&nbsp;If&nbsp;separation&nbsp;occurs&nbsp;in&nbsp;a&nbsp;cramped&nbsp;space,&nbsp;the&nbsp;other&nbsp;creature&nbsp;is&nbsp;expelled&nbsp;through&nbsp;the&nbsp;Astral&nbsp;Plane,&nbsp;finally&nbsp;coming&nbsp;to&nbsp;rest&nbsp;materially&nbsp;in&nbsp;the&nbsp;nearest&nbsp;empty&nbsp;space&nbsp;and&nbsp;taking&nbsp;1d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;for&nbsp;each&nbsp;10&nbsp;feet&nbsp;of&nbsp;solid&nbsp;material&nbsp;passed&nbsp;through.
+
+      </p>
+
+      <p>Damage&nbsp;taken&nbsp;by&nbsp;the&nbsp;fused&nbsp;being&nbsp;is&nbsp;split&nbsp;evenly&nbsp;between&nbsp;you&nbsp;and&nbsp;the&nbsp;other&nbsp;creature&nbsp;when&nbsp;the&nbsp;power&nbsp;ends.&nbsp;You&nbsp;do&nbsp;not&nbsp;leave&nbsp;the&nbsp;fusion&nbsp;with&nbsp;more&nbsp;hit&nbsp;points&nbsp;than&nbsp;you&nbsp;entered&nbsp;it&nbsp;with,&nbsp;unless&nbsp;you&nbsp;were&nbsp;damaged&nbsp;prior&nbsp;to&nbsp;the&nbsp;fusion&nbsp;and&nbsp;the&nbsp;fused&nbsp;being&nbsp;was&nbsp;subsequently&nbsp;healed.&nbsp;In&nbsp;a&nbsp;like&nbsp;manner,&nbsp;the&nbsp;fused&nbsp;being's&nbsp;remaining&nbsp;power&nbsp;points&nbsp;are&nbsp;split&nbsp;between&nbsp;you&nbsp;and&nbsp;the&nbsp;other&nbsp;creature&nbsp;(you&nbsp;can&nbsp;leave&nbsp;with&nbsp;more&nbsp;points&nbsp;than&nbsp;you&nbsp;entered&nbsp;with,&nbsp;as&nbsp;long&nbsp;as&nbsp;you&nbsp;don't&nbsp;exceed&nbsp;the&nbsp;maximum&nbsp;power&nbsp;points&nbsp;for&nbsp;your&nbsp;level&nbsp;and&nbsp;ability&nbsp;score).&nbsp;Ability&nbsp;damage&nbsp;and&nbsp;negative&nbsp;levels&nbsp;are&nbsp;also&nbsp;split&nbsp;between&nbsp;you&nbsp;and&nbsp;the&nbsp;other&nbsp;creature.&nbsp;(If&nbsp;an&nbsp;odd&nbsp;number&nbsp;of&nbsp;negative&nbsp;levels&nbsp;or&nbsp;ability&nbsp;score&nbsp;reductions&nbsp;must&nbsp;be&nbsp;split,&nbsp;you&nbsp;decide&nbsp;whether&nbsp;you&nbsp;or&nbsp;the&nbsp;other&nbsp;creature&nbsp;receives&nbsp;the&nbsp;additional&nbsp;loss.)
+
+      </p>
+
+      <p>If&nbsp;a&nbsp;fused&nbsp;being&nbsp;is&nbsp;killed,&nbsp;it&nbsp;separates&nbsp;into&nbsp;its&nbsp;constituent&nbsp;creatures,&nbsp;both&nbsp;of&nbsp;which&nbsp;are&nbsp;also&nbsp;dead.&nbsp;You&nbsp;cannot&nbsp;use&nbsp;fission&nbsp;on&nbsp;a&nbsp;fused&nbsp;being.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: true
+    material: true
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      egoist: 8
+      tactician: 9
+      vitalist: 9
+  level: 8
+  manifestTime:
+    units: round
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '116'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '207'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '43'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

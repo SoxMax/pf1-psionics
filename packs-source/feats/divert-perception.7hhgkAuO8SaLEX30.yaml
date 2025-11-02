@@ -1,0 +1,80 @@
+_id: 7hhgkAuO8SaLEX30
+_key: '!items!7hhgkAuO8SaLEX30'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Divert_Perception
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Divert Perception
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>Your&nbsp;movement&nbsp;itself&nbsp;obscures&nbsp;your&nbsp;presence,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;hide&nbsp;more&nbsp;easily.</em></p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Stealth&nbsp;5&nbsp;ranks.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;You&nbsp;can&nbsp;move&nbsp;up&nbsp;to&nbsp;your&nbsp;speed&nbsp;and&nbsp;use&nbsp;Stealth&nbsp;at&nbsp;no&nbsp;penalty.&nbsp;You&nbsp;can&nbsp;use&nbsp;Stealth&nbsp;while&nbsp;running&nbsp;or&nbsp;charging&nbsp;with&nbsp;a&nbsp;–5&nbsp;penalty.
+
+      </p>
+
+      <p>In&nbsp;addition,&nbsp;whenever&nbsp;you&nbsp;take&nbsp;a&nbsp;move&nbsp;action&nbsp;to&nbsp;move&nbsp;while&nbsp;psionically&nbsp;focused,&nbsp;you&nbsp;can&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;in&nbsp;order&nbsp;to&nbsp;make&nbsp;a&nbsp;Stealth&nbsp;check&nbsp;to&nbsp;hide&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;movement,&nbsp;even&nbsp;if&nbsp;you&nbsp;do&nbsp;not&nbsp;have&nbsp;concealment&nbsp;or&nbsp;are&nbsp;observed.&nbsp;You&nbsp;remain&nbsp;hidden&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;next&nbsp;turn&nbsp;or&nbsp;until&nbsp;you&nbsp;break&nbsp;Stealth,&nbsp;whichever&nbsp;comes&nbsp;first.
+
+      </p>
+
+      <p><strong>Normal:&nbsp;</strong>You&nbsp;can&nbsp;move&nbsp;up&nbsp;to&nbsp;half&nbsp;your&nbsp;normal&nbsp;speed&nbsp;and&nbsp;use&nbsp;Stealth&nbsp;at&nbsp;no&nbsp;penalty.&nbsp;When&nbsp;moving&nbsp;at&nbsp;a&nbsp;speed&nbsp;greater&nbsp;than&nbsp;half&nbsp;but&nbsp;less&nbsp;than&nbsp;your&nbsp;normal&nbsp;speed,&nbsp;you&nbsp;take&nbsp;a&nbsp;–5&nbsp;penalty.&nbsp;It’s&nbsp;impossible&nbsp;to&nbsp;use&nbsp;Stealth&nbsp;while&nbsp;attacking,&nbsp;running,&nbsp;or&nbsp;charging.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Fade_from_Memory"&nbsp;title="Fade&nbsp;from&nbsp;Memory">Fade&nbsp;from&nbsp;Memory</a></li><li><a&nbsp;href="/wiki/Power_Trick"&nbsp;title="Power&nbsp;Trick">Power&nbsp;Trick</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '17'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

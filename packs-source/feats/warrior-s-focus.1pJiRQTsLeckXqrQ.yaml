@@ -1,0 +1,79 @@
+_id: 1pJiRQTsLeckXqrQ
+_key: '!items!1pJiRQTsLeckXqrQ'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Warrior's_Focus
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Warrior's Focus
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;have&nbsp;mastered&nbsp;a&nbsp;subdivision&nbsp;within&nbsp;your&nbsp;psyche&nbsp;that&nbsp;thinks&nbsp;only&nbsp;of&nbsp;battle.</em></p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Must&nbsp;possess&nbsp;the&nbsp;warrior's&nbsp;path&nbsp;class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;You&nbsp;gain&nbsp;an&nbsp;additional&nbsp;psionic&nbsp;focus,&nbsp;a&nbsp;special&nbsp;type&nbsp;dedicated&nbsp;to&nbsp;combat&nbsp;and&nbsp;the&nbsp;warrior's&nbsp;path;&nbsp;this&nbsp;focus&nbsp;is&nbsp;gained&nbsp;and&nbsp;used&nbsp;exactly&nbsp;like&nbsp;the&nbsp;character’s&nbsp;normal&nbsp;psionic&nbsp;focus,&nbsp;but&nbsp;may&nbsp;only&nbsp;be&nbsp;used&nbsp;to&nbsp;maintain&nbsp;or&nbsp;use&nbsp;your&nbsp;warrior's&nbsp;path&nbsp;class&nbsp;feature.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><li><a&nbsp;href="/wiki/Advanced_Hungering_Path"&nbsp;title="Advanced&nbsp;Hungering&nbsp;Path">Advanced&nbsp;Hungering&nbsp;Path</a></li><li><a&nbsp;href="/wiki/Advanced_Outrider_Path"&nbsp;title="Advanced&nbsp;Outrider&nbsp;Path">Advanced&nbsp;Outrider&nbsp;Path</a></li></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '7'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Psychic Warrior II'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '41'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: feat
+  summons: false
+  tags:
+    - combat
+    - psionic
+type: feat

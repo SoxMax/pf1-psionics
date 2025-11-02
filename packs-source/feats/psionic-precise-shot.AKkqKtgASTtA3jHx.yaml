@@ -1,0 +1,76 @@
+_id: AKkqKtgASTtA3jHx
+_key: '!items!AKkqKtgASTtA3jHx'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Precise_Shot
+img: icons/weapons/thrown/bomb-fuse-black.webp
+name: Psionic Precise Shot
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>Your&nbsp;ranged&nbsp;attacks&nbsp;sometimes&nbsp;bypass&nbsp;barriers.</em></p>
+
+      <p><strong>Prerequisites:</strong>&nbsp;Dex&nbsp;19,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Precise%20Shot">Improved&nbsp;Precise&nbsp;Shot</a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank&nbsp;Shot</a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Precise%20Shot">Precise&nbsp;Shot</a>,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+11.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.&nbsp;You&nbsp;can&nbsp;attempt&nbsp;to&nbsp;make&nbsp;a&nbsp;single&nbsp;ranged&nbsp;attack&nbsp;as&nbsp;a&nbsp;standard&nbsp;action&nbsp;against&nbsp;a&nbsp;target&nbsp;that&nbsp;is&nbsp;sheltered&nbsp;behind&nbsp;a&nbsp;wall,&nbsp;wall&nbsp;of&nbsp;force&nbsp;effect,&nbsp;or&nbsp;similar&nbsp;barrier.&nbsp;Your&nbsp;attack&nbsp;briefly&nbsp;skips&nbsp;through&nbsp;the&nbsp;Astral&nbsp;Plane&nbsp;to&nbsp;bypass&nbsp;the&nbsp;barrier.&nbsp;You&nbsp;must&nbsp;still&nbsp;have&nbsp;line&nbsp;of&nbsp;sight&nbsp;to&nbsp;the&nbsp;target.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '119'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '112'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

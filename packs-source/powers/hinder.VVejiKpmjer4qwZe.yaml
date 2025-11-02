@@ -1,0 +1,77 @@
+_id: VVejiKpmjer4qwZe
+_key: '!items!VVejiKpmjer4qwZe'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Hinder
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Hinder
+system:
+  actions:
+    - actionType: rsak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: spec
+        value: 1 minute or until discharged; see text
+      name: Use
+      range:
+        units: ft
+        value: 30 ft.
+      save:
+        description: none
+      target:
+        value: One living creature
+  description:
+    value: >-
+      <p>If&nbsp;you&nbsp;make&nbsp;a&nbsp;successful&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;against&nbsp;the&nbsp;target,&nbsp;it&nbsp;takes&nbsp;a&nbsp;-1&nbsp;penalty&nbsp;on&nbsp;the&nbsp;next&nbsp;attack&nbsp;roll,&nbsp;saving&nbsp;throw,&nbsp;or&nbsp;skill&nbsp;check.&nbsp;You&nbsp;must&nbsp;choose&nbsp;which&nbsp;type&nbsp;of&nbsp;roll&nbsp;the&nbsp;penalty&nbsp;applies&nbsp;to&nbsp;at&nbsp;the&nbsp;time&nbsp;you&nbsp;manifest&nbsp;the&nbsp;power.&nbsp;If&nbsp;the&nbsp;target&nbsp;does&nbsp;not&nbsp;make&nbsp;that&nbsp;type&nbsp;of&nbsp;roll&nbsp;before&nbsp;the&nbsp;power&nbsp;ends,&nbsp;it&nbsp;has&nbsp;no&nbsp;effect.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 0
+      vitalist: 0
+  level: 0
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 37–38
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Hidden Intentions'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 166–167
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '211'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

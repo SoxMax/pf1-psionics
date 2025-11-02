@@ -1,0 +1,79 @@
+_id: uBY90tZB0HhoXc4Q
+_key: '!items!uBY90tZB0HhoXc4Q'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Fate_of_One
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Fate of One
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: immediate
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>Your&nbsp;limited&nbsp;omniscience&nbsp;allows&nbsp;you&nbsp;to&nbsp;reroll&nbsp;a&nbsp;saving&nbsp;throw,&nbsp;attack&nbsp;roll,&nbsp;or&nbsp;skill&nbsp;check.&nbsp;Whatever&nbsp;the&nbsp;result&nbsp;of&nbsp;the&nbsp;reroll,&nbsp;you&nbsp;must&nbsp;use&nbsp;it&nbsp;even&nbsp;if&nbsp;it&nbsp;is&nbsp;worse&nbsp;than&nbsp;the&nbsp;original&nbsp;roll.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;use&nbsp;the&nbsp;power&nbsp;to&nbsp;reroll&nbsp;a&nbsp;saving&nbsp;throw,&nbsp;you&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;even&nbsp;when&nbsp;it&nbsp;is&nbsp;not&nbsp;your&nbsp;turn.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      seer: 7
+  level: 7
+  manifestTime:
+    units: immediate
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '112'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '203'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '42'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

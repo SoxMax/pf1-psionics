@@ -1,0 +1,21 @@
+{
+  "name": "pf1-psionics",
+  "version": "1.0.0",
+  "description": "FoundryVTT module that adds Dreamscarred Press' Psionics system to the Pathfinder 1e system",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "packs:extract": "node ./tools/packs.mjs extract",
+    "packs:compile": "node ./tools/packs.mjs compile"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^2.0.0",
+    "js-yaml": "^4.1.0",
+    "listr2": "^9.0.3",
+    "picocolors": "^1.1.1",
+    "yargs": "^18.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

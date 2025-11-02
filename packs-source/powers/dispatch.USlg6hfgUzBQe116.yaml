@@ -1,0 +1,87 @@
+_id: USlg6hfgUzBQe116
+_key: '!items!USlg6hfgUzBQe116'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Dispatch
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Dispatch
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: swift
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;gain&nbsp;a&nbsp;split&nbsp;second&nbsp;insight&nbsp;into&nbsp;the&nbsp;intentions&nbsp;of&nbsp;your&nbsp;foes&nbsp;allowing&nbsp;you&nbsp;to&nbsp;predict&nbsp;and&nbsp;counter&nbsp;their&nbsp;attacks&nbsp;and&nbsp;place&nbsp;them&nbsp;in&nbsp;line&nbsp;for&nbsp;a&nbsp;single,&nbsp;devastating&nbsp;final&nbsp;strike.
+
+      </p>
+
+      <p>You&nbsp;gain&nbsp;a&nbsp;+4&nbsp;insight&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;rolls&nbsp;made&nbsp;to&nbsp;disarm&nbsp;or&nbsp;trip&nbsp;(and&nbsp;any&nbsp;relevant&nbsp;ability&nbsp;checks&nbsp;to&nbsp;do&nbsp;so)&nbsp;for&nbsp;one&nbsp;round.&nbsp;If&nbsp;you&nbsp;successfully&nbsp;disarm&nbsp;or&nbsp;trip&nbsp;an&nbsp;opponent&nbsp;in&nbsp;melee,&nbsp;you&nbsp;may&nbsp;make&nbsp;an&nbsp;immediate&nbsp;attack&nbsp;of&nbsp;opportunity&nbsp;against&nbsp;that&nbsp;opponent&nbsp;at&nbsp;your&nbsp;highest&nbsp;attack&nbsp;bonus&nbsp;with&nbsp;a&nbsp;+4&nbsp;circumstance&nbsp;bonus&nbsp;to&nbsp;the&nbsp;attack&nbsp;roll.&nbsp;This&nbsp;counts&nbsp;against&nbsp;your&nbsp;allowed&nbsp;number&nbsp;of&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;for&nbsp;the&nbsp;round.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways:
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;5&nbsp;additional&nbsp;power&nbsp;points,&nbsp;your&nbsp;critical&nbsp;threat&nbsp;range&nbsp;is&nbsp;doubled&nbsp;while&nbsp;making&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;from&nbsp;this&nbsp;power.&nbsp;Unlike&nbsp;most&nbsp;of&nbsp;these&nbsp;effects,&nbsp;this&nbsp;stacks&nbsp;with&nbsp;Improved&nbsp;Critical&nbsp;or&nbsp;the&nbsp;keen&nbsp;weapon&nbsp;property&nbsp;(that&nbsp;is,&nbsp;using&nbsp;a&nbsp;keen&nbsp;scimitar&nbsp;that&nbsp;would&nbsp;normally&nbsp;threaten&nbsp;on&nbsp;a&nbsp;1520&nbsp;–&nbsp;six&nbsp;numbers&nbsp;–&nbsp;with&nbsp;this&nbsp;augment&nbsp;would&nbsp;lead&nbsp;to&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;that&nbsp;threaten&nbsp;on&nbsp;a&nbsp;12-20&nbsp;–&nbsp;nine&nbsp;numbers).</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;your&nbsp;insight&nbsp;bonus&nbsp;on&nbsp;disarm&nbsp;and&nbsp;trip&nbsp;attempts&nbsp;(including&nbsp;the&nbsp;ability&nbsp;checks&nbsp;as&nbsp;necessary)&nbsp;increases&nbsp;by&nbsp;1.</li><li>For&nbsp;every&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;duration&nbsp;increases&nbsp;by&nbsp;one&nbsp;round.</li><li>Each&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend&nbsp;(including&nbsp;those&nbsp;spent&nbsp;on&nbsp;other&nbsp;augments)&nbsp;gives&nbsp;you&nbsp;a&nbsp;+1&nbsp;insight&nbsp;bonus&nbsp;on&nbsp;damage&nbsp;rolls&nbsp;on&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;generated&nbsp;by&nbsp;this&nbsp;power.</li></ol>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 3
+      psychic warrior: 3
+      thug: 3
+      voyager: 3
+  level: 3
+  manifestTime:
+    units: swift
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '26'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '156'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 184–185
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

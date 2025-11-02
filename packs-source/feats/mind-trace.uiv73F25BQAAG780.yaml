@@ -1,0 +1,70 @@
+_id: uiv73F25BQAAG780
+_key: '!items!uiv73F25BQAAG780'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Mind_Trace
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Mind Trace
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p><em>You&nbsp;can&nbsp;create&nbsp;an&nbsp;imprint&nbsp;of&nbsp;the&nbsp;abilities&nbsp;of&nbsp;a&nbsp;member&nbsp;of&nbsp;your&nbsp;collective&nbsp;within&nbsp;your&nbsp;mind.</em></p>
+
+      <p><strong>Prerequisites:</strong>&nbsp;Collective&nbsp;class&nbsp;feature,&nbsp;tribute&nbsp;class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;Once&nbsp;per&nbsp;day,&nbsp;as&nbsp;a&nbsp;full-round&nbsp;action,&nbsp;you&nbsp;can&nbsp;select&nbsp;a&nbsp;feat&nbsp;possessed&nbsp;or&nbsp;power&nbsp;known&nbsp;by&nbsp;another&nbsp;member&nbsp;of&nbsp;your&nbsp;collective.&nbsp;You&nbsp;must&nbsp;meet&nbsp;the&nbsp;prerequisites&nbsp;for&nbsp;a&nbsp;feat&nbsp;chosen&nbsp;this&nbsp;way.&nbsp;You&nbsp;gain&nbsp;that&nbsp;feat&nbsp;or&nbsp;learn&nbsp;that&nbsp;power&nbsp;until&nbsp;you&nbsp;use&nbsp;this&nbsp;feat&nbsp;again,&nbsp;in&nbsp;which&nbsp;case&nbsp;you&nbsp;switch&nbsp;the&nbsp;feat&nbsp;or&nbsp;power&nbsp;previously&nbsp;gained&nbsp;by&nbsp;mind&nbsp;trace&nbsp;for&nbsp;the&nbsp;new&nbsp;one.&nbsp;Unlike&nbsp;feats&nbsp;granted&nbsp;through&nbsp;the&nbsp;tribute&nbsp;ability,&nbsp;or&nbsp;powers&nbsp;usable&nbsp;through&nbsp;contact&nbsp;in&nbsp;the&nbsp;collective,&nbsp;you&nbsp;retain&nbsp;feats&nbsp;or&nbsp;powers&nbsp;known&nbsp;from&nbsp;mind&nbsp;trace&nbsp;even&nbsp;if&nbsp;all&nbsp;other&nbsp;creatures&nbsp;that&nbsp;possess&nbsp;them&nbsp;leave&nbsp;your&nbsp;collective.
+
+      </p><ul><dt>Archetypes</dt></ul>
+
+      <ul><dt>Blessings</dt></ul>
+
+      <ul><dt>Classes</dt></ul>
+
+      <ul><dt>Class&nbsp;Options</dt></ul>
+
+      <ul><dt>Deities</dt></ul>
+
+      <ul><dt>Feats</dt></ul>
+
+      <ul><dt>Powers</dt></ul>
+
+      <ul><dt>Spells</dt></ul>
+
+      <ul><dt>Talents</dt></ul>
+
+      <ul><dt>Traits</dt></ul>
+
+      <ul><dt>Veil</dt></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '16'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

@@ -1,0 +1,101 @@
+_id: 2peyHDXB8pShw3xx
+_key: '!items!2peyHDXB8pShw3xx'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Entangling_Debris
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+name: Entangling Debris
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '40'
+      damage:
+        parts:
+          - - 2d6
+            - force
+      duration:
+        concentration: true
+        dismiss: true
+        units: conc
+        value: up to 1 min./level (D)
+      name: Use
+      range:
+        units: long
+        value: Long (400 ft. + 40 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Reflex partial; see text
+        type: ref
+      target:
+        value: Matter in a 40-ft.-radius spread
+  description:
+    value: >-
+      <p>You&nbsp;use&nbsp;telekinetic&nbsp;force&nbsp;to&nbsp;manipulate&nbsp;matter&nbsp;in&nbsp;the&nbsp;affected&nbsp;area,&nbsp;including&nbsp;wood,&nbsp;metal,&nbsp;grasses,&nbsp;bushes,&nbsp;and&nbsp;even&nbsp;trees,&nbsp;to&nbsp;entwine&nbsp;creatures&nbsp;in&nbsp;the&nbsp;affected&nbsp;area&nbsp;or&nbsp;those&nbsp;that&nbsp;enter&nbsp;the&nbsp;area,&nbsp;causing&nbsp;them&nbsp;to&nbsp;become&nbsp;entangled.&nbsp;The&nbsp;individual&nbsp;pieces&nbsp;of&nbsp;matter&nbsp;affected&nbsp;must&nbsp;weigh&nbsp;less&nbsp;than&nbsp;25&nbsp;lbs&nbsp;each&nbsp;and&nbsp;either&nbsp;cannot&nbsp;be&nbsp;permanently&nbsp;affixed&nbsp;or&nbsp;must&nbsp;be&nbsp;able&nbsp;to&nbsp;sufficiently&nbsp;reach&nbsp;creatures&nbsp;within&nbsp;the&nbsp;area.&nbsp;Affected&nbsp;creatures&nbsp;can&nbsp;break&nbsp;free&nbsp;and&nbsp;move&nbsp;half&nbsp;their&nbsp;normal&nbsp;speed&nbsp;by&nbsp;using&nbsp;a&nbsp;full-round&nbsp;action&nbsp;to&nbsp;make&nbsp;a&nbsp;DC&nbsp;20&nbsp;Strength&nbsp;check&nbsp;or&nbsp;a&nbsp;DC&nbsp;20&nbsp;Escape&nbsp;Artist&nbsp;check.&nbsp;A&nbsp;creature&nbsp;that&nbsp;succeeds&nbsp;on&nbsp;a&nbsp;Reflex&nbsp;save&nbsp;is&nbsp;not&nbsp;entangled&nbsp;but&nbsp;can&nbsp;still&nbsp;move&nbsp;at&nbsp;only&nbsp;half&nbsp;speed&nbsp;through&nbsp;the&nbsp;area.&nbsp;Each&nbsp;round&nbsp;you&nbsp;concentrate,&nbsp;you&nbsp;may&nbsp;once&nbsp;again&nbsp;direct&nbsp;the&nbsp;debris&nbsp;to&nbsp;attempt&nbsp;to&nbsp;entangle&nbsp;all&nbsp;creatures&nbsp;that&nbsp;have&nbsp;avoided&nbsp;or&nbsp;escaped&nbsp;entanglement.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;each&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;spent,&nbsp;this&nbsp;power&nbsp;can&nbsp;affect&nbsp;an&nbsp;area&nbsp;5&nbsp;ft.&nbsp;larger&nbsp;in&nbsp;radius.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;causes&nbsp;2d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;per&nbsp;round&nbsp;to&nbsp;creatures&nbsp;that&nbsp;failed&nbsp;their&nbsp;Reflex&nbsp;save.</li></ol>
+
+      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend&nbsp;to&nbsp;achieve&nbsp;any&nbsp;of&nbsp;these&nbsp;effects,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  descriptors:
+    - force
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 1
+      psion: 1
+      tactician: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 17–18
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Pawns and Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '160'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 198–199
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

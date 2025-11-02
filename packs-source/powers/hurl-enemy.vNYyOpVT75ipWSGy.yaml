@@ -1,0 +1,83 @@
+_id: vNYyOpVT75ipWSGy
+_key: '!items!vNYyOpVT75ipWSGy'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Hurl_Enemy
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+name: Hurl Enemy
+system:
+  actions:
+    - actionType: rsak
+      activation:
+        cost: 1
+        type: standard
+      damage:
+        parts:
+          - - 7d6
+            - force
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: ft
+        value: Short (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude negates
+        type: fort
+      target:
+        value: One creature (see text)
+  description:
+    value: >-
+      <p>You&nbsp;concentrate&nbsp;on&nbsp;a&nbsp;creature&nbsp;and&nbsp;use&nbsp;telekinesis&nbsp;to&nbsp;try&nbsp;to&nbsp;hurl&nbsp;it&nbsp;at&nbsp;another&nbsp;target.&nbsp;The&nbsp;creature&nbsp;being&nbsp;hurled&nbsp;must&nbsp;weigh&nbsp;less&nbsp;than&nbsp;50&nbsp;pounds&nbsp;per&nbsp;manifester&nbsp;level.&nbsp;If&nbsp;the&nbsp;targeted&nbsp;creature&nbsp;fails&nbsp;its&nbsp;save,&nbsp;you&nbsp;forcefully&nbsp;launch&nbsp;it&nbsp;at&nbsp;another&nbsp;target&nbsp;that&nbsp;must&nbsp;be&nbsp;within&nbsp;30&nbsp;ft.&nbsp;of&nbsp;the&nbsp;affected&nbsp;creature.
+
+      </p>
+
+      <p>Make&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;against&nbsp;the&nbsp;target.&nbsp;If&nbsp;the&nbsp;attack&nbsp;is&nbsp;successful,&nbsp;deal&nbsp;7d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;to&nbsp;both&nbsp;the&nbsp;hurled&nbsp;creature&nbsp;and&nbsp;the&nbsp;target&nbsp;of&nbsp;the&nbsp;ranged&nbsp;attack.&nbsp;If&nbsp;the&nbsp;attack&nbsp;misses,&nbsp;deal&nbsp;3d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;to&nbsp;the&nbsp;hurled
+
+      creature.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;spent,&nbsp;the&nbsp;damage&nbsp;to&nbsp;each&nbsp;creature&nbsp;increases&nbsp;by&nbsp;1d6.&nbsp;For&nbsp;every&nbsp;additional&nbsp;2d6&nbsp;of&nbsp;damage,&nbsp;the&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  descriptors:
+    - force
+  discipline: psychokinesis
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 4
+      tactician: 4
+      wilder: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '74'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
