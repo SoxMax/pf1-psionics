@@ -328,3 +328,7 @@ $RECYCLE.BIN/
 # The packs-source/ directory contains the human-readable YAML files that are the source of truth
 # The packs/ directory contains compiled LevelDB files generated at build time
 /packs
+
+# Release build artifacts
+release-temp/
+module.zip
