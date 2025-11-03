@@ -25,6 +25,15 @@ export function injectActorSheetPF() {
 	libWrapper.register(MODULE_ID, "pf1.applications.actor.ActorSheetPF.prototype._onChangeTab", function (event, tabs, active) {
 		this._activeTab = active;
 	}, "LISTENER");
+
+    // Handle drag and drop for powers
+    libWrapper.register(MODULE_ID, "pf1.applications.actor.ActorSheetPF.prototype._alterDropItemData", async function (wrapped, data, source) {
+        wrapped(data, source);
+        // Set spellbook to currently viewed one
+        if (data.type === `${MODULE_ID}.power`) {
+            data.system.spellbook = this._tabs.find((t) => t.group === "psibooks")?.active || "primary"
+        }
+    }, "WRAPPER");
 }
 
 function adjustActiveTab(app) {
