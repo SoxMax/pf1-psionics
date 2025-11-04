@@ -12,8 +12,7 @@ export class PowerItem extends pf1.documents.item.ItemPF {
       const cls = item.actor.flags?.[MODULE_ID]?.spellbooks?.[book]?.classId;
       const level = item.system.learnedAt?.class?.[cls];
       if (Number.isFinite(level)) {
-        foundry.utils.setProperty(item._source, 'system.level',
-            Math.clamp(level, 0, 9));
+        foundry.utils.setProperty(item._source, 'system.level', Math.clamp(level, 0, 9));
       }
     }
   }
@@ -33,24 +32,18 @@ export class PowerItem extends pf1.documents.item.ItemPF {
     labels.level = pf1.config.psionics.powerLevels[itemData.level];
     labels.discipline = pf1.config.psionics.disciplines[itemData.discipline];
     labels.displays = this.getDisplays().join(' ');
-    labels.chargeCost = RollPF.safeRollSync(this.getDefaultChargeFormula(), rollData, undefined, undefined,
-        {minimize: true}).total;
+    labels.chargeCost = RollPF.safeRollSync(this.getDefaultChargeFormula(), rollData, undefined, undefined, {minimize: true}).total;
 
     return labels;
   }
 
   getDisplays() {
     const displays = [];
-    if (this.system.display.auditory) displays.push(
-        game.i18n.localize('PF1-Psionics.Powers.Display.Auditory'));
-    if (this.system.display.material) displays.push(
-        game.i18n.localize('PF1-Psionics.Powers.Display.Material'));
-    if (this.system.display.mental) displays.push(
-        game.i18n.localize('PF1-Psionics.Powers.Display.Mental'));
-    if (this.system.display.olefactory) displays.push(
-        game.i18n.localize('PF1-Psionics.Powers.Display.Olefactory'));
-    if (this.system.display.visual) displays.push(
-        game.i18n.localize('PF1-Psionics.Powers.Display.Visual'));
+    if (this.system.display.auditory) displays.push(game.i18n.localize('PF1-Psionics.Powers.Display.Auditory'));
+    if (this.system.display.material) displays.push(game.i18n.localize('PF1-Psionics.Powers.Display.Material'));
+    if (this.system.display.mental) displays.push(game.i18n.localize('PF1-Psionics.Powers.Display.Mental'));
+    if (this.system.display.olefactory) displays.push(game.i18n.localize('PF1-Psionics.Powers.Display.Olefactory'));
+    if (this.system.display.visual) displays.push(game.i18n.localize('PF1-Psionics.Powers.Display.Visual'));
     return displays;
   }
 
