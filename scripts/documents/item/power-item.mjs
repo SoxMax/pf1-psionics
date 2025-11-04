@@ -1,4 +1,4 @@
-import { MODULE_ID } from "../../_module.mjs";
+import {MODULE_ID} from '../../_module.mjs';
 
 export class PowerItem extends pf1.documents.item.ItemPF {
 
@@ -9,26 +9,32 @@ export class PowerItem extends pf1.documents.item.ItemPF {
   }
 
   /** @inheritDoc */
-  getLabels({ actionId, rollData, isolated } = {}) {
-    const labels = super.getLabels({ actionId, rollData, isolated });
+  getLabels({actionId, rollData, isolated} = {}) {
+    const labels = super.getLabels({actionId, rollData, isolated});
     const itemData = this.system;
 
     // Spell Level, School, and Components
     labels.level = pf1.config.psionics.powerLevels[itemData.level];
     labels.discipline = pf1.config.psionics.disciplines[itemData.discipline];
-    labels.displays = this.getDisplays().join(" ");
-    labels.chargeCost = RollPF.safeRollSync(this.getDefaultChargeFormula(), rollData, undefined, undefined, { minimize: true }).total;
+    labels.displays = this.getDisplays().join(' ');
+    labels.chargeCost = RollPF.safeRollSync(this.getDefaultChargeFormula(), rollData, undefined, undefined,
+        {minimize: true}).total;
 
     return labels;
   }
 
   getDisplays() {
     const displays = [];
-    if (this.system.display.auditory) displays.push(game.i18n.localize("PF1-Psionics.Powers.Display.Auditory"));
-    if (this.system.display.material) displays.push(game.i18n.localize("PF1-Psionics.Powers.Display.Material"));
-    if (this.system.display.mental) displays.push(game.i18n.localize("PF1-Psionics.Powers.Display.Mental"));
-    if (this.system.display.olefactory) displays.push(game.i18n.localize("PF1-Psionics.Powers.Display.Olefactory"));
-    if (this.system.display.visual) displays.push(game.i18n.localize("PF1-Psionics.Powers.Display.Visual"));
+    if (this.system.display.auditory) displays.push(
+        game.i18n.localize('PF1-Psionics.Powers.Display.Auditory'));
+    if (this.system.display.material) displays.push(
+        game.i18n.localize('PF1-Psionics.Powers.Display.Material'));
+    if (this.system.display.mental) displays.push(
+        game.i18n.localize('PF1-Psionics.Powers.Display.Mental'));
+    if (this.system.display.olefactory) displays.push(
+        game.i18n.localize('PF1-Psionics.Powers.Display.Olefactory'));
+    if (this.system.display.visual) displays.push(
+        game.i18n.localize('PF1-Psionics.Powers.Display.Visual'));
     return displays;
   }
 
@@ -38,7 +44,7 @@ export class PowerItem extends pf1.documents.item.ItemPF {
    * @returns {string} Charge formula
    */
   getDefaultChargeFormula() {
-    return this.system.uses?.autoDeductChargesCost || "max(0, @sl * 2 - 1)";
+    return this.system.uses?.autoDeductChargesCost || 'max(0, @sl * 2 - 1)';
   }
 
   /**
@@ -76,7 +82,7 @@ export class PowerItem extends pf1.documents.item.ItemPF {
    */
   get psibook() {
     const bookId = this.system.spellbook;
-    return this.actor?.flags["pf1-psionics"]?.spellbooks[bookId];
+    return this.actor?.flags['pf1-psionics']?.spellbooks[bookId];
   }
 
   /**
@@ -84,21 +90,22 @@ export class PowerItem extends pf1.documents.item.ItemPF {
    * @returns {[number,number]} - A tuple containing the spell level and caster level in order.
    */
   static getMinimumCasterLevelBySpellData(itemData) {
-    const learnedAt = Object.entries(itemData.system.learnedAt?.class ?? {})?.reduce((cur, [classId, level]) => {
-      const classes = classId.split("/");
-      for (const cls of classes) cur.push([cls, level]);
-      return cur;
-    }, []);
+    const learnedAt = Object.entries(itemData.system.learnedAt?.class ?? {})?.
+        reduce((cur, [classId, level]) => {
+          const classes = classId.split('/');
+          for (const cls of classes) cur.push([cls, level]);
+          return cur;
+        }, []);
     const result = [9, 20];
     for (const [classId, level] of learnedAt) {
       result[0] = Math.min(result[0], level);
 
-      const tc = pf1.config.classCasterType[classId] || "high";
-      if (tc === "high") {
+      const tc = pf1.config.classCasterType[classId] || 'high';
+      if (tc === 'high') {
         result[1] = Math.min(result[1], 1 + Math.max(0, level - 1) * 2);
-      } else if (tc === "med") {
+      } else if (tc === 'med') {
         result[1] = Math.min(result[1], 1 + Math.max(0, level - 1) * 3);
-      } else if (tc === "low") {
+      } else if (tc === 'low') {
         result[1] = Math.min(result[1], 1 + Math.max(0, level) * 3);
       }
     }
@@ -107,8 +114,8 @@ export class PowerItem extends pf1.documents.item.ItemPF {
   }
 
   /**
- * @internal
- */
+   * @internal
+   */
   _prepareTraits() {
     super._prepareTraits();
     const map = {
@@ -149,15 +156,18 @@ export class PowerItem extends pf1.documents.item.ItemPF {
     const psibook = this.psibook;
     if (psibook) {
       const spellAbility = psibook.ability;
-      let ablMod = "";
-      if (spellAbility !== "") ablMod = result.abilities?.[spellAbility]?.mod;
+      let ablMod = '';
+      if (spellAbility !== '') ablMod = result.abilities?.[spellAbility]?.mod;
       result.ablMod = ablMod;
 
       result.cl = this.casterLevel || 0;
 
       // Add @class shortcut to @classes[classTag]
-      if (psibook.class === "_hd")
-        result.class = { level: result.attributes.hd?.total ?? result.details?.level?.value ?? 0 };
+      if (psibook.class === '_hd')
+        result.class = {
+          level: result.attributes.hd?.total ?? result.details?.level?.value ??
+              0,
+        };
       else result.class = result.classes?.[psibook.class] ?? {};
 
       // Add @psibook shortcut to @spells[bookId]
@@ -177,10 +187,10 @@ export class PowerItem extends pf1.documents.item.ItemPF {
 
     // Add Caster Level target
     targets.push({
-      id: "cl",
-      label: game.i18n.localize("PF1.CasterLevel"),
+      id: 'cl',
+      label: game.i18n.localize('PF1.CasterLevel'),
       simple: true,
-      sort: (targets.find((e) => e.id === "dc").sort ?? 5_000) + 100, // Sort after DC
+      sort: (targets.find((e) => e.id === 'dc').sort ?? 5_000) + 100, // Sort after DC
     });
 
     // Relabel for spellpoints
@@ -205,15 +215,18 @@ export class PowerItem extends pf1.documents.item.ItemPF {
 
     const updateData = {};
     if (value > 0) {
-      updateData[`flags.${MODULE_ID}.powerPoints.current`] = Math.min(powerPoints.maximum, powerPoints.current + value);
+      updateData[`flags.${MODULE_ID}.powerPoints.current`] = Math.min(
+          powerPoints.maximum, powerPoints.current + value);
     } else {
       let toRemove = Math.abs(value);
       if (toRemove < powerPoints.temporary) {
-        updateData[`flags.${MODULE_ID}.powerPoints.temporary`] = powerPoints.temporary - toRemove;
+        updateData[`flags.${MODULE_ID}.powerPoints.temporary`] = powerPoints.temporary -
+            toRemove;
       } else {
         toRemove -= powerPoints.temporary;
         updateData[`flags.${MODULE_ID}.powerPoints.temporary`] = 0;
-        updateData[`flags.${MODULE_ID}.powerPoints.current`] =  powerPoints.current - toRemove;
+        updateData[`flags.${MODULE_ID}.powerPoints.current`] = powerPoints.current -
+            toRemove;
       }
     }
 
@@ -235,7 +248,7 @@ export class PowerItem extends pf1.documents.item.ItemPF {
     const prepared = 1;
 
     if (prepared > 0) {
-      const powerPoints = this.actor?.flags["pf1-psionics"]?.powerPoints;
+      const powerPoints = this.actor?.flags['pf1-psionics']?.powerPoints;
       if (max) return powerPoints?.maximum ?? 0;
       return powerPoints?.current ?? 0 + powerPoints?.temp ?? 0;
     }
@@ -285,19 +298,19 @@ export class PowerItem extends pf1.documents.item.ItemPF {
    * @throws {Error} - If type is invalid
    * @returns {number} - DC
    */
-  getConcentrationDC(type = "defensive", options = {}) {
+  getConcentrationDC(type = 'defensive', options = {}) {
     const level = this.system.level || 0;
     switch (type) {
-      // Defensive Casting
-      case "defensive": {
+        // Defensive Casting
+      case 'defensive': {
         return 15 + level * 2;
       }
-      // Maintain spell on damage taken
-      case "damage": {
+        // Maintain spell on damage taken
+      case 'damage': {
         const damage = options.damage ?? 0;
         return 15 + level + damage;
       }
-      // Default nonsense value
+        // Default nonsense value
       default: {
         throw new Error(`Unrecgnized concentration check type: "${type}"`);
       }
@@ -305,31 +318,43 @@ export class PowerItem extends pf1.documents.item.ItemPF {
   }
 
   /** @inheritDoc */
-  async getDescription({ chatcard = false, data = {}, rollData, header = true, body = true, isolated = false } = {}) {
+  async getDescription({
+    chatcard = false,
+    data = {},
+    rollData,
+    header = true,
+    body = true,
+    isolated = false,
+  } = {}) {
     const renderCachedTemplate = pf1.utils.handlebars.renderCachedTemplate;
     const headerContent = header
-      ? renderCachedTemplate("modules/pf1-psionics/templates/item/parts/power-header.hbs", {
-          ...data,
-          ...(await this.getDescriptionData({ rollData, isolated })),
-          chatcard: chatcard === true,
-        })
-      : "";
+        ? renderCachedTemplate(
+            'modules/pf1-psionics/templates/item/parts/power-header.hbs', {
+              ...data,
+              ...(await this.getDescriptionData({rollData, isolated})),
+              chatcard: chatcard === true,
+            })
+        : '';
 
-    let bodyContent = "";
+    let bodyContent = '';
     if (body) {
-      const noDesc = "<p class='placeholder'>" + game.i18n.localize("PF1.NoDescription") + "</p>";
-      bodyContent = '<div class="description-body">' + (this.system.description.value || noDesc) + "</div>";
+      const noDesc = '<p class=\'placeholder\'>' +
+          game.i18n.localize('PF1.NoDescription') + '</p>';
+      bodyContent = '<div class="description-body">' +
+          (this.system.description.value || noDesc) + '</div>';
     }
 
-    let separator = "";
-    if (header && body) separator = `<h3 class="description-header">${game.i18n.localize("PF1.Description")}</h3>`;
+    let separator = '';
+    if (header &&
+        body) separator = `<h3 class="description-header">${game.i18n.localize(
+        'PF1.Description')}</h3>`;
 
     return headerContent + separator + bodyContent;
   }
 
   /** @inheritDoc */
-  async getDescriptionData({ rollData, isolated = false } = {}) {
-    const result = await super.getDescriptionData({ rollData, isolated });
+  async getDescriptionData({rollData, isolated = false} = {}) {
+    const result = await super.getDescriptionData({rollData, isolated});
 
     const system = this.system;
     result.system = system;
@@ -339,22 +364,30 @@ export class PowerItem extends pf1.documents.item.ItemPF {
 
     rollData ??= defaultAction?.getRollData() ?? this.getRollData();
 
-    const labels = this.getLabels({ rollData, isolated });
+    const labels = this.getLabels({rollData, isolated});
     result.labels = labels;
 
     labels.discipline = pf1.config.psionics.disciplines[system.discipline];
-    labels.subdiscipline = pf1.utils.i18n.join([...(system.subdiscipline.names ?? [])]);
-    labels.descriptors = pf1.utils.i18n.join([...(system.descriptors.names ?? [])], "conjunction", false);
+    labels.subdiscipline = pf1.utils.i18n.join(
+        [...(system.subdiscipline.names ?? [])]);
+    labels.descriptors = pf1.utils.i18n.join(
+        [...(system.descriptors.names ?? [])], 'conjunction', false);
 
     // Set information about when the spell is learned
     result.learnedAt = {};
     if (system.learnedAt) {
       const classNames = await pf1.utils.packs.getClassIDMap();
-      for (const category of ["class", "domain", "subDomain", "elementalSchool", "bloodline"]) {
+      for (const category of [
+        'class',
+        'domain',
+        'subDomain',
+        'elementalSchool',
+        'bloodline']) {
         result.learnedAt[category] = pf1.utils.i18n.join(
-          Object.entries(system.learnedAt[category]).map(
-            ([classId, level]) => `${classNames[classId] || classId} ${level}`
-          )
+            Object.entries(system.learnedAt[category]).map(
+                ([classId, level]) => `${classNames[classId] ||
+                classId} ${level}`,
+            ),
         );
       }
     }
@@ -369,16 +402,19 @@ export class PowerItem extends pf1.documents.item.ItemPF {
     // Set DC and SR
     {
       const savingThrowDescription = action.save?.description;
-      labels.savingThrow = savingThrowDescription || game.i18n.localize("PF1.None");
+      labels.savingThrow = savingThrowDescription ||
+          game.i18n.localize('PF1.None');
 
       const sr = system.sr;
-      labels.sr = (sr === true ? game.i18n.localize("PF1.Yes") : game.i18n.localize("PF1.No")).toLowerCase();
+      labels.sr = (sr === true
+          ? game.i18n.localize('PF1.Yes')
+          : game.i18n.localize('PF1.No')).toLowerCase();
 
-      if (action.range?.units !== "personal") result.useDCandSR = true;
+      if (action.range?.units !== 'personal') result.useDCandSR = true;
     }
 
     const harmless = action.save?.harmless ?? false;
-    if (harmless) labels.harmless = game.i18n.localize("PF1.Yes").toLowerCase();
+    if (harmless) labels.harmless = game.i18n.localize('PF1.Yes').toLowerCase();
 
     return result;
   }
