@@ -19,6 +19,9 @@ export class PowerSheet extends pf1.applications.item.ItemSheetPF {
     const context = await super.getData();
     const item = this.item;
 
+    // Get the current language for locale-aware sorting
+    const lang = game.settings.get("core", "language");
+
     context.isSpell = true;
     context.canUseAmmo = false;
     context.psibooks = item.actor?.getFlag(MODULE_ID, "spellbooks") ?? {};
@@ -44,7 +47,6 @@ export class PowerSheet extends pf1.applications.item.ItemSheetPF {
 
       context[traitKey] = trait;
 
-      trait.selected = 
       // TODO: Alphasort
       trait.selected = {};
       for (const id of trait.standard) {

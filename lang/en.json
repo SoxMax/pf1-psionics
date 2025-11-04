@@ -61,6 +61,8 @@
       "Telepathy": "Telepathy"
     },
     "Spellbooks": {
+      "BrowsePowers": "Browse Powers",
+      "CreatePower": "Create Power",
       "Spelllike": "Psi-like"
     },
     "Charges": {
@@ -86,7 +88,8 @@
       "Offset": "Power Point Offset"
     },
     "Error": {
-      "PowerCostTooHigh": "Power point cost exceeds current manifestor level."
+      "PowerCostTooHigh": "Power point cost exceeds current manifestor level.",
+      "CompendiumNotFound": "Psionic Powers compendium not found. Please ensure the module is properly installed."
     }
   }
 }

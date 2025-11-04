@@ -1,6 +1,21 @@
-import { MODULE_ID } from "../../_module.mjs";
+import {MODULE_ID} from "../../_module.mjs";
 
 export class PowerItem extends pf1.documents.item.ItemPF {
+
+  /** @inheritDoc */
+  static _adjustNewItem(item, data, override = false) {
+    if (!item.actor) return;
+
+    // Assign level if undefined
+    if (!Number.isFinite(data?.system?.level) || override) {
+      const book = item.system.spellbook;
+      const cls = item.actor.flags?.[MODULE_ID]?.spellbooks?.[book]?.classId;
+      const level = item.system.learnedAt?.class?.[cls];
+      if (Number.isFinite(level)) {
+        foundry.utils.setProperty(item._source, "system.level", Math.clamp(level, 0, 9));
+      }
+    }
+  }
 
   getRollData(options) {
     const rollData = super.getRollData(options);
@@ -9,15 +24,16 @@ export class PowerItem extends pf1.documents.item.ItemPF {
   }
 
   /** @inheritDoc */
-  getLabels({ actionId, rollData, isolated } = {}) {
-    const labels = super.getLabels({ actionId, rollData, isolated });
+  getLabels({actionId, rollData, isolated} = {}) {
+    const labels = super.getLabels({actionId, rollData, isolated});
     const itemData = this.system;
 
     // Spell Level, School, and Components
     labels.level = pf1.config.psionics.powerLevels[itemData.level];
     labels.discipline = pf1.config.psionics.disciplines[itemData.discipline];
     labels.displays = this.getDisplays().join(" ");
-    labels.chargeCost = RollPF.safeRollSync(this.getDefaultChargeFormula(), rollData, undefined, undefined, { minimize: true }).total;
+    labels.chargeCost = RollPF.safeRollSync(this.getDefaultChargeFormula(), rollData, undefined, undefined,
+        {minimize: true}).total;
 
     return labels;
   }
@@ -84,11 +100,12 @@ export class PowerItem extends pf1.documents.item.ItemPF {
    * @returns {[number,number]} - A tuple containing the spell level and caster level in order.
    */
   static getMinimumCasterLevelBySpellData(itemData) {
-    const learnedAt = Object.entries(itemData.system.learnedAt?.class ?? {})?.reduce((cur, [classId, level]) => {
-      const classes = classId.split("/");
-      for (const cls of classes) cur.push([cls, level]);
-      return cur;
-    }, []);
+    const learnedAt = Object.entries(itemData.system.learnedAt?.class ?? {})?.
+        reduce((cur, [classId, level]) => {
+          const classes = classId.split("/");
+          for (const cls of classes) cur.push([cls, level]);
+          return cur;
+        }, []);
     const result = [9, 20];
     for (const [classId, level] of learnedAt) {
       result[0] = Math.min(result[0], level);
@@ -107,8 +124,8 @@ export class PowerItem extends pf1.documents.item.ItemPF {
   }
 
   /**
- * @internal
- */
+   * @internal
+   */
   _prepareTraits() {
     super._prepareTraits();
     const map = {
@@ -157,7 +174,7 @@ export class PowerItem extends pf1.documents.item.ItemPF {
 
       // Add @class shortcut to @classes[classTag]
       if (psibook.class === "_hd")
-        result.class = { level: result.attributes.hd?.total ?? result.details?.level?.value ?? 0 };
+        result.class = {level: result.attributes.hd?.total ?? result.details?.level?.value ?? 0};
       else result.class = result.classes?.[psibook.class] ?? {};
 
       // Add @psibook shortcut to @spells[bookId]
@@ -213,7 +230,7 @@ export class PowerItem extends pf1.documents.item.ItemPF {
       } else {
         toRemove -= powerPoints.temporary;
         updateData[`flags.${MODULE_ID}.powerPoints.temporary`] = 0;
-        updateData[`flags.${MODULE_ID}.powerPoints.current`] =  powerPoints.current - toRemove;
+        updateData[`flags.${MODULE_ID}.powerPoints.current`] = powerPoints.current - toRemove;
       }
     }
 
@@ -288,16 +305,16 @@ export class PowerItem extends pf1.documents.item.ItemPF {
   getConcentrationDC(type = "defensive", options = {}) {
     const level = this.system.level || 0;
     switch (type) {
-      // Defensive Casting
+        // Defensive Casting
       case "defensive": {
         return 15 + level * 2;
       }
-      // Maintain spell on damage taken
+        // Maintain spell on damage taken
       case "damage": {
         const damage = options.damage ?? 0;
         return 15 + level + damage;
       }
-      // Default nonsense value
+        // Default nonsense value
       default: {
         throw new Error(`Unrecgnized concentration check type: "${type}"`);
       }
@@ -305,15 +322,16 @@ export class PowerItem extends pf1.documents.item.ItemPF {
   }
 
   /** @inheritDoc */
-  async getDescription({ chatcard = false, data = {}, rollData, header = true, body = true, isolated = false } = {}) {
+  async getDescription({chatcard = false, data = {}, rollData, header = true, body = true, isolated = false} = {}) {
     const renderCachedTemplate = pf1.utils.handlebars.renderCachedTemplate;
     const headerContent = header
-      ? renderCachedTemplate("modules/pf1-psionics/templates/item/parts/power-header.hbs", {
-          ...data,
-          ...(await this.getDescriptionData({ rollData, isolated })),
-          chatcard: chatcard === true,
-        })
-      : "";
+        ? renderCachedTemplate(
+            "modules/pf1-psionics/templates/item/parts/power-header.hbs", {
+              ...data,
+              ...(await this.getDescriptionData({rollData, isolated})),
+              chatcard: chatcard === true,
+            })
+        : "";
 
     let bodyContent = "";
     if (body) {
@@ -328,8 +346,8 @@ export class PowerItem extends pf1.documents.item.ItemPF {
   }
 
   /** @inheritDoc */
-  async getDescriptionData({ rollData, isolated = false } = {}) {
-    const result = await super.getDescriptionData({ rollData, isolated });
+  async getDescriptionData({rollData, isolated = false} = {}) {
+    const result = await super.getDescriptionData({rollData, isolated});
 
     const system = this.system;
     result.system = system;
@@ -339,7 +357,7 @@ export class PowerItem extends pf1.documents.item.ItemPF {
 
     rollData ??= defaultAction?.getRollData() ?? this.getRollData();
 
-    const labels = this.getLabels({ rollData, isolated });
+    const labels = this.getLabels({rollData, isolated});
     result.labels = labels;
 
     labels.discipline = pf1.config.psionics.disciplines[system.discipline];
@@ -352,9 +370,9 @@ export class PowerItem extends pf1.documents.item.ItemPF {
       const classNames = await pf1.utils.packs.getClassIDMap();
       for (const category of ["class", "domain", "subDomain", "elementalSchool", "bloodline"]) {
         result.learnedAt[category] = pf1.utils.i18n.join(
-          Object.entries(system.learnedAt[category]).map(
-            ([classId, level]) => `${classNames[classId] || classId} ${level}`
-          )
+            Object.entries(system.learnedAt[category]).map(
+                ([classId, level]) => `${classNames[classId] || classId} ${level}`,
+            ),
         );
       }
     }
