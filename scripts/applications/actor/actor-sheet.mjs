@@ -177,6 +177,7 @@ function injectEventListeners(app, html, _data) {
 
 	psibooksBodyElement.find(".item-create").click(onItemCreate.bind(app));
 	psibooksBodyElement.find(".item-edit").click(app._onItemEdit.bind(app));
+  psibooksBodyElement.find(".item-duplicate").click(app._duplicateItem.bind(app));
 	psibooksBodyElement.find(".item-delete").click(app._onItemDelete.bind(app));
 	// Item Action control
 	psibooksBodyElement.find(".item-actions a.item-action").click(app._itemActivationControl.bind(app));
