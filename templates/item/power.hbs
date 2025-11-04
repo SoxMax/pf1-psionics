@@ -116,18 +116,18 @@
 
       <h3 class="form-header">{{localize "PF1.SpellBook"}}</h3>
 
-      {{!-- Spellbook --}}
+      {{!-- Manifestor --}}
       {{#if owned}}
       <div class="form-group">
         <label>{{localize "PF1-Psionics.Class.Manifestor"}}</label>
         <div class="form-fields">
-          <select name="system.spellbook">
-            {{selectOptions psibookChoices selected=system.spellbook}}
+          <select name="system.manifestor">
+            {{selectOptions manifestorChoices selected=system.manifestor}}
           </select>
         </div>
       </div>
       {{else}}
-      <input type="hidden" name="system.spellbook" value="">
+      <input type="hidden" name="system.manifestor" value="">
       {{/if}}
 
       {{!-- Spell Level --}}

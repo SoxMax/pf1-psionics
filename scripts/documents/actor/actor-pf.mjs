@@ -1,7 +1,7 @@
 import { MODULE_ID } from "../../_module.mjs";
 import { POINTS_PER_LEVEL } from "../../data/powerpoints.mjs";
-import { PSIBOOKS } from "../../data/psibooks.mjs";
-import { SpellRanges } from "./utils/spellbook.mjs";
+import { MANIFESTORS } from "../../data/manifestors.mjs";
+import { SpellRanges } from "./utils/manifestor.mjs";
 
 export function onPreCreateActor(document, _data, _options, _userId) {
     if (!["character", "npc"].includes(document.type)) return;
@@ -38,7 +38,7 @@ export function onPreCreateActor(document, _data, _options, _userId) {
 
     const psionicsFlags = {
         [`flags.${MODULE_ID}`]: {
-            spellbooks: PSIBOOKS,
+            manifestors: MANIFESTORS,
             powerPoints: { current: 0, temporary: 0 },
             focus: { current: 0 }
         }
@@ -51,7 +51,7 @@ export function pf1PrepareBaseActorData(_actor) {
 }
 
 export function pf1PrepareDerivedActorData(actor) {
-    if (actor.getFlag(MODULE_ID, "spellbooks")) {
+    if (actor.getFlag(MODULE_ID, "manifestors")) {
         deriveManifestorsInfo(actor);
         deriveTotalPowerPoints(actor);
         deriveTotalFocus(actor);
@@ -65,9 +65,9 @@ export function pf1ActorRest(actor, _options, _updateData, _itemUpdates) {
 
 function deriveManifestorsInfo(actor) {
     const rollData = actor.getRollData({ refresh: true });
-    const spellbooks = actor.getFlag(MODULE_ID, "spellbooks");
-    for (const [bookId, spellbook] of Object.entries(spellbooks)) {
-        deriveManifestorInfo(actor, rollData, bookId, spellbook);
+    const manifestors = actor.getFlag(MODULE_ID, "manifestors");
+    for (const [bookId, manifestor] of Object.entries(manifestors)) {
+        deriveManifestorInfo(actor, rollData, bookId, manifestor);
         delete rollData.class;
         delete rollData.classLevel;
         delete rollData.cl;
@@ -90,7 +90,7 @@ function deriveManifestorInfo(actor, rollData, bookId, book) {
     calculateConcentration(actor, rollData, bookId, book);
     calculatePowerPoints(actor, rollData, bookId, book);
 
-    // Set spellbook ranges
+    // Set manifestor ranges
     book.range = new SpellRanges(book.cl.total);
 }
 
@@ -102,7 +102,7 @@ function getBookLabel(actor, bookId, book) {
     // If the book has a class associated use that
     if (book.class) {
         if (book.class === "_hd") {
-            return game.i18n.localize("PF1-Psionics.Spellbooks.Spelllike");
+            return game.i18n.localize("PF1-Psionics.Manifestors.Spelllike");
         } else {
             const bookClassId = actor.classes[book.class]?._id;
             const bookClass = actor.items.get(bookClassId);
@@ -118,7 +118,7 @@ function getBookLabel(actor, bookId, book) {
 
 function calculateCasterLevel(actor, rollData, bookId, book) {
     let clTotal = 0;
-    const key = `flags.${MODULE_ID}.spellbooks.${bookId}.cl.total`;
+    const key = `flags.${MODULE_ID}.manifestors.${bookId}.cl.total`;
     const formula = book.cl.formula || "0";
     let classLevelTotal = 0;
 
@@ -190,7 +190,7 @@ function calculateConcentration(actor, rollData, bookId, book) {
 
     // Set source info function
     const setSourceInfoByName = pf1.documents.actor.changes.setSourceInfoByName;
-    const key = `flags.${MODULE_ID}.spellbooks.${bookId}.concentration.total`;
+    const key = `flags.${MODULE_ID}.manifestors.${bookId}.concentration.total`;
     setSourceInfoByName(
         actor.sourceInfo,
         key,
@@ -237,10 +237,10 @@ function calculatePowerPoints(actor, rollData, bookId, book) {
 
 function deriveTotalPowerPoints(actor) {
     const powerPoints = actor.getFlag(MODULE_ID, "powerPoints") ?? { current: 0, temporary: 0 };
-    const manifestors = actor.getFlag(MODULE_ID, "spellbooks") ?? {};
+    const manifestors = actor.getFlag(MODULE_ID, "manifestors") ?? {};
     powerPoints.maximum = Object.values(manifestors)
-        .filter((psibook) => psibook.inUse)
-        .reduce((sum, psibook) => sum + (psibook.powerPoints?.max ?? 0), 0);
+        .filter((manifestor) => manifestor.inUse)
+        .reduce((sum, manifestor) => sum + (manifestor.powerPoints?.max ?? 0), 0);
 }
 
 function deriveTotalFocus(actor) {

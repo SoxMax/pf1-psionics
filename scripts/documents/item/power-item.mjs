@@ -8,8 +8,8 @@ export class PowerItem extends pf1.documents.item.ItemPF {
 
     // Assign level if undefined
     if (!Number.isFinite(data?.system?.level) || override) {
-      const book = item.system.spellbook;
-      const cls = item.actor.flags?.[MODULE_ID]?.spellbooks?.[book]?.classId;
+      const book = item.system.manifestor;
+      const cls = item.actor.flags?.[MODULE_ID]?.manifestors?.[book]?.classId;
       const level = item.system.learnedAt?.class?.[cls];
       if (Number.isFinite(level)) {
         foundry.utils.setProperty(item._source, "system.level", Math.clamp(level, 0, 9));
@@ -74,25 +74,25 @@ export class PowerItem extends pf1.documents.item.ItemPF {
    *
    * @remarks
    * - Accounts for offset
-   * - Returns null if not linked to a valid spellbook.
+   * - Returns null if not linked to a valid manifestor.
    *
    * @type {number|null}
    */
   get casterLevel() {
-    const psibook = this.psibook;
-    if (!psibook) return null;
+    const manifestor = this.manifestor;
+    if (!manifestor) return null;
 
-    return psibook.cl.total + (this.system.modifiers.cl || 0);
+    return manifestor.cl.total + (this.system.modifiers.cl || 0);
   }
 
   /**
-   * Linked spellbook
+   * Linked manifestor
    *
    * @type {object|undefined}
    */
-  get psibook() {
-    const bookId = this.system.spellbook;
-    return this.actor?.flags["pf1-psionics"]?.spellbooks[bookId];
+  get manifestor() {
+    const bookId = this.system.manifestor;
+    return this.actor?.flags["pf1-psionics"]?.manifestors[bookId];
   }
 
   /**
@@ -163,9 +163,9 @@ export class PowerItem extends pf1.documents.item.ItemPF {
   _addTypeRollData(result) {
     result.sl = this.spellLevel || 0;
 
-    const psibook = this.psibook;
-    if (psibook) {
-      const spellAbility = psibook.ability;
+    const manifestor = this.manifestor;
+    if (manifestor) {
+      const spellAbility = manifestor.ability;
       let ablMod = "";
       if (spellAbility !== "") ablMod = result.abilities?.[spellAbility]?.mod;
       result.ablMod = ablMod;
@@ -173,12 +173,12 @@ export class PowerItem extends pf1.documents.item.ItemPF {
       result.cl = this.casterLevel || 0;
 
       // Add @class shortcut to @classes[classTag]
-      if (psibook.class === "_hd")
+      if (manifestor.class === "_hd")
         result.class = {level: result.attributes.hd?.total ?? result.details?.level?.value ?? 0};
-      else result.class = result.classes?.[psibook.class] ?? {};
+      else result.class = result.classes?.[manifestor.class] ?? {};
 
-      // Add @psibook shortcut to @spells[bookId]
-      result.psibook = result.psionics[this.system.spellbook];
+      // Add @manifestor shortcut to @psionics[bookId]
+      result.manifestor = result.psionics[this.system.manifestor];
     } else {
       const [sl, cl] = this.constructor.getMinimumCasterLevelBySpellData(this);
 

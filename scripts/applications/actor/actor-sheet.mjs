@@ -6,7 +6,7 @@ export async function renderActorHook(app, html, data) {
   if (actor.flags?.core?.sheetClass !== "pf1alt.AltActorSheetPFCharacter") {
     // Inject Settings
     injectSettings(app, html, data);
-    // Inject Psionics Spellbooks Tab
+    // Inject Psionics Manifestors Tab
     await injectPsionicsTab(app, html, data);
     adjustActiveTab(app);
   }
@@ -29,23 +29,23 @@ export function injectActorSheetPF() {
     // Handle drag and drop for powers
     libWrapper.register(MODULE_ID, "pf1.applications.actor.ActorSheetPF.prototype._alterDropItemData", async function (wrapped, data, source) {
         wrapped(data, source);
-        // Set spellbook to currently viewed one
+        // Set manifestor to currently viewed one
         if (data.type === `${MODULE_ID}.power`) {
-            data.system.spellbook = this._tabs.find((t) => t.group === "psibooks")?.active || "primary";
+            data.system.manifestor = this._tabs.find((t) => t.group === "manifestors")?.active || "primary";
         }
     }, "WRAPPER");
 }
 
 function adjustActiveTab(app) {
   // If we saved an active tab name, re-activate it.
-  if (app._activeTab === "psibook") {
+  if (app._activeTab === "manifestor") {
     app.activateTab(app._activeTab);
   }
 }
 
 function injectSettings(app, html, data) {
   injectPsionicsDiv(app, html);
-  injectSpellbookCheckboxes(app, html, data);
+  injectManifestorCheckboxes(app, html, data);
 }
 
 function injectPsionicsDiv(app, html) {
@@ -65,51 +65,51 @@ function injectPsionicsDiv(app, html) {
   div.append(formGroup);
 }
 
-function getSpellbookName(bookId, spellbook) {
-  if (spellbook.label) {
-    return spellbook.label;
+function getManifestorName(bookId, manifestor) {
+  if (manifestor.label) {
+    return manifestor.label;
   }
-  return game.i18n.localize(`PF1-Psionics.Spellbooks.${bookId.capitalize()}`);
+  return game.i18n.localize(`PF1-Psionics.Manifestors.${bookId.capitalize()}`);
 }
 
-function injectSpellbookCheckboxes(app, html, data) {
+function injectManifestorCheckboxes(app, html, data) {
   const controls = html.find(".pf1-psionics-div .stacked")[0];
-  for (const [bookId, spellbook] of Object.entries(data.actor.getFlag(MODULE_ID, "spellbooks"))) {
+  for (const [bookId, manifestor] of Object.entries(data.actor.getFlag(MODULE_ID, "manifestors"))) {
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
-    checkbox.name = `flags.${MODULE_ID}.spellbooks.${bookId}.inUse`;
+    checkbox.name = `flags.${MODULE_ID}.manifestors.${bookId}.inUse`;
     checkbox.id = checkbox.name;
-    if (spellbook.inUse)
+    if (manifestor.inUse)
       checkbox.checked = true;
     const label = document.createElement("label");
     label.append(checkbox);
-    label.append(getSpellbookName(bookId, spellbook));
+    label.append(getManifestorName(bookId, manifestor));
     label.classList.add("checkbox");
     controls.append(label);
   }
 }
 
 async function injectPsionicsTab(app, html, data) {
-  if (Object.values(data.psibookData).some((psibook) => psibook.inUse)) {
+  if (Object.values(data.manifestorData).some((manifestor) => manifestor.inUse)) {
     const tabSelector = html.find("a[data-tab=skills]");
     const psionicsTab = document.createElement("a");
     psionicsTab.classList.add("item");
-    psionicsTab.dataset["tab"] = "psibook";
+    psionicsTab.dataset["tab"] = "manifestor";
     psionicsTab.dataset["group"] = "primary";
     psionicsTab.innerHTML = game.i18n.localize("PF1-Psionics.TabName");
     tabSelector.after(psionicsTab);
 
-    const psionicsBody = await foundry.applications.handlebars.renderTemplate("modules/pf1-psionics/templates/actor/actor-psibook-front.hbs", data);
+    const psionicsBody = await foundry.applications.handlebars.renderTemplate("modules/pf1-psionics/templates/actor/actor-manifestor-front.hbs", data);
     const bodySelector = html.find("div.tab[data-tab=skills]");
     bodySelector.after(psionicsBody);
 
-    var tab = app._tabs.find((element) => element.group == "psibooks");
+    var tab = app._tabs.find((element) => element.group == "manifestors");
     if (!tab) {
       tab = new foundry.applications.ux.Tabs({
-        navSelector: "nav.tabs[data-group='psibooks']",
-        contentSelector: "section.psibooks-body",
+        navSelector: "nav.tabs[data-group='manifestors']",
+        contentSelector: "section.manifestors-body",
         initial: "primary",
-        group: "psibooks",
+        group: "manifestors",
       });
     }
     tab.bind(html[0]);
@@ -122,9 +122,9 @@ async function injectPsionicsTab(app, html, data) {
 function onToggleConfig(event) {
   const element = event.currentTarget;
   const dataset = element.dataset;
-  const spellbooks = this.actor.getFlag(MODULE_ID, "spellbooks");
-  const currentToggle = spellbooks[dataset.spellbook].showConfig;
-  const configFlag = { [`flags.${MODULE_ID}.spellbooks.${dataset.spellbook}.showConfig`]: !currentToggle };
+  const manifestors = this.actor.getFlag(MODULE_ID, "manifestors");
+  const currentToggle = manifestors[dataset.manifestor].showConfig;
+  const configFlag = { [`flags.${MODULE_ID}.manifestors.${dataset.manifestor}.showConfig`]: !currentToggle };
   this.actor.update(configFlag);
   this._forceShowPowerTab = true;
 }
@@ -143,7 +143,7 @@ function onItemCreate(event) {
     type: type,
     system: {
       level: parseInt(dataset.level),
-      spellbook: dataset.book,
+      manifestor: dataset.book,
     }
   };
   PowerItem.create(powerData, { parent: actor, renderSheet: true });
@@ -165,33 +165,33 @@ async function onBrowsePowers(event) {
 }
 
 function injectEventListeners(app, html, _data) {
-  const psionicsTabBody = html.find("div.tab[data-tab=psibook]");
+  const psionicsTabBody = html.find("div.tab[data-tab=manifestor]");
   psionicsTabBody.find("span.text-box.direct").on("click", (event) => {
     app._onSpanTextInput(event, app._adjustActorPropertyBySpan.bind(app));
   });
 
-  const psibooksBodyElement = psionicsTabBody.find(".psibooks-body");
+  const manifestorsBodyElement = psionicsTabBody.find(".manifestors-body");
   // Bind Events
-  // psibooksBodyElement.find("a.hide-show").click(app._hideShowElement.bind(app));
-  psibooksBodyElement.find("a.toggle-config").click(onToggleConfig.bind(app));
+  // manifestorsBodyElement.find("a.hide-show").click(app._hideShowElement.bind(app));
+  manifestorsBodyElement.find("a.toggle-config").click(onToggleConfig.bind(app));
 
-  psibooksBodyElement.find(".item-create").click(onItemCreate.bind(app));
-  psibooksBodyElement.find(".item-edit").click(app._onItemEdit.bind(app));
-  psibooksBodyElement.find(".item-duplicate").click(app._duplicateItem.bind(app));
-  psibooksBodyElement.find(".item-delete").click(app._onItemDelete.bind(app));
+  manifestorsBodyElement.find(".item-create").click(onItemCreate.bind(app));
+  manifestorsBodyElement.find(".item-edit").click(app._onItemEdit.bind(app));
+  manifestorsBodyElement.find(".item-duplicate").click(app._duplicateItem.bind(app));
+  manifestorsBodyElement.find(".item-delete").click(app._onItemDelete.bind(app));
   // Item Action control
-  psibooksBodyElement.find(".item-actions a.item-action").click(app._itemActivationControl.bind(app));
+  manifestorsBodyElement.find(".item-actions a.item-action").click(app._itemActivationControl.bind(app));
   // Browse powers compendium
-  psibooksBodyElement.find("a[data-action='browse']").click(onBrowsePowers.bind(app));
+  manifestorsBodyElement.find("a[data-action='browse']").click(onBrowsePowers.bind(app));
 }
 
 function prepareManifestors(sheet, context) {
   const powers = context.items.filter((item) => item.type === `${MODULE_ID}.power`);
 
-  const manifestors = Object.entries(context.actor.getFlag(MODULE_ID, "spellbooks"))
+  const manifestors = Object.entries(context.actor.getFlag(MODULE_ID, "manifestors"))
     .map(([manifestorId, manifestor]) => {
       if (!manifestor.inUse) return [manifestorId, manifestor];
-      const manifestorPowers = powers.filter((obj) => obj.spellbook === manifestorId);
+      const manifestorPowers = powers.filter((obj) => obj.manifestor === manifestorId);
       manifestor.sections = prepareManifestorPowerLevels(context, manifestorId, manifestor, manifestorPowers);
       manifestor.rollData = context.rollData.psionics[manifestorId];
       manifestor.classId = manifestor.class;
@@ -200,10 +200,10 @@ function prepareManifestors(sheet, context) {
     });
   const isManifestor = manifestors.some(([_manifestorId, manifestor]) => manifestor.inUse);
 
-  context.psibookData = Object.fromEntries(manifestors);
-  context.usesAnyPsibook = isManifestor;
+  context.manifestorData = Object.fromEntries(manifestors);
+  context.usesAnyManifestor = isManifestor;
 
-  // Class selection list, only used by spellbooks
+  // Class selection list, only used by manifestors
   if (isManifestor) {
     const lang = game.settings.get("core", "language");
     const allClasses = sheet.actor.itemTypes.class
@@ -223,13 +223,13 @@ function prepareManifestors(sheet, context) {
 }
 
 /**
- * Insert a spell into the spellbook object when rendering the character sheet
+ * Insert a power into the manifestor object when rendering the character sheet
  *
  * @internal
  * @param {object} data - The Actor data being prepared
- * @param {Array} powers - The spell data being prepared
- * @param {string} manifestorId - The key of the spellbook being prepared
- * @returns {object} - Spellbook data
+ * @param {Array} powers - The power data being prepared
+ * @param {string} manifestorId - The key of the manifestor being prepared
+ * @returns {object} - Manifestor data
  */
 function prepareManifestorPowerLevels(data, manifestorId, manifestor, powers) {
   if (!manifestor) return;
@@ -250,18 +250,18 @@ function prepareManifestorPowerLevels(data, manifestorId, manifestor, powers) {
   })();
 
   /** @type {AbilityScoreData} */
-  const spellbookAbility = data.actor.system.abilities[manifestor.ability];
-  const maxLevelByAblScore = (spellbookAbility?.total ?? 0) - 10;
+  const manifestorAbility = data.actor.system.abilities[manifestor.ability];
+  const maxLevelByAblScore = (manifestorAbility?.total ?? 0) - 10;
   const maxPowerPoints = manifestor.powerPoints.max ?? 0;
 
-  // Reduce spells to the nested spellbook structure
-  const spellbook = [];
+  // Reduce spells to the nested manifestor structure
+  const manifestorLevels = [];
   for (let level = 0; level < 10; level++) {
     const lowAbilityScore = level > maxLevelByAblScore;
     const valid = (level * 2) - 1 <= maxPowerPoints;
     const hasIssues = valid && lowAbilityScore;
 
-    spellbook[level] = {
+    manifestorLevels[level] = {
       id: `level-${level}`,
       level,
       label: game.i18n.localize(`PF1-Psionics.Powers.Levels.${level}`),
@@ -285,19 +285,19 @@ function prepareManifestorPowerLevels(data, manifestorId, manifestor, powers) {
   // Sort spells into their respective levels
   for (const power of powers) {
     const lvl = power.level ?? minPowerLevel;
-    const levelData = spellbook[lvl] ?? invalidLevelData;
+    const levelData = manifestorLevels[lvl] ?? invalidLevelData;
 
     levelData.items.push(power);
   }
 
   // Mark cantrips as invalid if it shouldn't exist
-  if (!manifestor.hasCantrips) spellbook[0].valid = false;
+  if (!manifestor.hasCantrips) manifestorLevels[0].valid = false;
 
   // Append invalid level if it has anything
-  if (invalidLevelData.items.length) spellbook.push(invalidLevelData);
+  if (invalidLevelData.items.length) manifestorLevels.push(invalidLevelData);
 
   // Return only levels with something
-  return spellbook.filter((levelData) => {
+  return manifestorLevels.filter((levelData) => {
     if (!levelData) return false;
     if (levelData.items.length > 0) return true;
     const { level } = levelData;

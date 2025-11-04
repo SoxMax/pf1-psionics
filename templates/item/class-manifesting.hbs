@@ -58,9 +58,9 @@
     </label>
 </div>
 
-{{#unless hasSpellbook}}
+{{#unless hasManifestor}}
 <div class="form-group create-spellbook">
-    <button name="create-spellbook" type="button" {{disabled (not @root.editable)}}>
+    <button name="create-manifestor" type="button" {{disabled (not @root.editable)}}>
         <i class="fa-solid fa-book" inert></i>
         {{localize "PF1.CreateSpellbook"}}
     </button>

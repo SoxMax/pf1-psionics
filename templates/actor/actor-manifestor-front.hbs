@@ -1,4 +1,4 @@
-<div class="tab spellbook psionics flexcol" data-group="primary" data-tab="psibook">
+<div class="tab spellbook psionics flexcol" data-group="primary" data-tab="manifestor">
   <div class="psionics-resources flexrow">
     {{! Psionic Focus }}
     <div class="info-box-header psionic-focus">
@@ -34,11 +34,11 @@
     </div>
   </div>
 
-  {{!-- Spellbook Navigation --}}
-  <nav class="sheet-navigation tabs psibooks" data-group="psibooks">
-    {{#each psibookData}}
+  {{!-- Manifestor Navigation --}}
+  <nav class="sheet-navigation tabs manifestors" data-group="manifestors">
+    {{#each manifestorData}}
       {{#if inUse}}
-      <a class="item" data-tab="{{@key}}" data-group="psibooks">
+      <a class="item" data-tab="{{@key}}" data-group="manifestors">
         <span class="label">{{label}}</span>
         <span class="caster-level">{{cl.total}}</span>
       </a>
@@ -46,11 +46,11 @@
     {{/each}}
   </nav>
 
-  <section class="psibooks-body">
-    {{#each psibookData}}
+  <section class="manifestors-body">
+    {{#each manifestorData}}
       {{#if inUse}}
-      <div class="tab psibook-group flexcol" data-group="psibooks" data-tab="{{@key}}" data-book-id="{{@key}}">
-      {{~> "modules/pf1-psionics/templates/actor/actor-psibook.hbs" spellbook=this bookId=@key}}
+      <div class="tab manifestor-group flexcol" data-group="manifestors" data-tab="{{@key}}" data-book-id="{{@key}}">
+      {{~> "modules/pf1-psionics/templates/actor/actor-manifestor.hbs" manifestor=this bookId=@key}}
       </div>
       {{/if}}
     {{/each}}

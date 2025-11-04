@@ -78,7 +78,7 @@ export class PowerModel extends foundry.abstract.TypeDataModel  {
             }),
 			known: new BooleanField({ initial: false }),
 			prepared: new BooleanField({ initial: false }),
-            spellbook: new StringField({ initial: "" }),
+            manifestor: new StringField({ initial: "" }),
             sr: new BooleanField({ initial: true }),
         };
     }

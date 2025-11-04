@@ -265,7 +265,7 @@ function parsePowerData(html, url) {
       sr: true,
       known: false,
       prepared: false,
-      spellbook: '',
+      manifestor: '',
       uses: {
         autoDeductChargesCost: 'max(0, @sl * 2 - 1)' // Default power point formula
       }
