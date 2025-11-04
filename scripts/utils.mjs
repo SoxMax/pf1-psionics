@@ -17,7 +17,7 @@ export function onGetRollData(doc, rollData) {
 				if (book.class && book.class !== "_hd") rollData.psionics[book.class] ??= book;
 			}
 		}
-	} catch (error) {
+	} catch (_error) {
 		return;
 	}
 }
