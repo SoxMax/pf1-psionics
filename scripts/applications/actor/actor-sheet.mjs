@@ -31,7 +31,7 @@ export function injectActorSheetPF() {
         wrapped(data, source);
         // Set spellbook to currently viewed one
         if (data.type === `${MODULE_ID}.power`) {
-            data.system.spellbook = this._tabs.find((t) => t.group === "psibooks")?.active || "primary"
+            data.system.spellbook = this._tabs.find((t) => t.group === "psibooks")?.active || "primary";
         }
     }, "WRAPPER");
 }
