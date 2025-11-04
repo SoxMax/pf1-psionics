@@ -2,6 +2,22 @@ import {MODULE_ID} from '../../_module.mjs';
 
 export class PowerItem extends pf1.documents.item.ItemPF {
 
+  /** @inheritDoc */
+  static _adjustNewItem(item, data, override = false) {
+    if (!item.actor) return;
+
+    // Assign level if undefined
+    if (!Number.isFinite(data?.system?.level) || override) {
+      const book = item.system.spellbook;
+      const cls = item.actor.flags?.[MODULE_ID]?.spellbooks?.[book]?.classId;
+      const level = item.system.learnedAt?.class?.[cls];
+      if (Number.isFinite(level)) {
+        foundry.utils.setProperty(item._source, 'system.level',
+            Math.clamp(level, 0, 9));
+      }
+    }
+  }
+
   getRollData(options) {
     const rollData = super.getRollData(options);
     rollData.sl = this.system.level || 0;
