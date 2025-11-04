@@ -254,7 +254,7 @@ export class PowerItem extends pf1.documents.item.ItemPF {
     if (prepared > 0) {
       const powerPoints = this.actor?.flags["pf1-psionics"]?.powerPoints;
       if (max) return powerPoints?.maximum ?? 0;
-      return powerPoints?.current ?? 0 + powerPoints?.temp ?? 0;
+      return (powerPoints?.current ?? 0) + (powerPoints?.temp ?? 0);
     }
 
     return 0;
