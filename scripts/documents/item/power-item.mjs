@@ -32,7 +32,8 @@ export class PowerItem extends pf1.documents.item.ItemPF {
     labels.level = pf1.config.psionics.powerLevels[itemData.level];
     labels.discipline = pf1.config.psionics.disciplines[itemData.discipline];
     labels.displays = this.getDisplays().join(' ');
-    labels.chargeCost = RollPF.safeRollSync(this.getDefaultChargeFormula(), rollData, undefined, undefined, {minimize: true}).total;
+    labels.chargeCost = RollPF.safeRollSync(this.getDefaultChargeFormula(), rollData, undefined, undefined,
+        {minimize: true}).total;
 
     return labels;
   }
@@ -173,10 +174,7 @@ export class PowerItem extends pf1.documents.item.ItemPF {
 
       // Add @class shortcut to @classes[classTag]
       if (psibook.class === '_hd')
-        result.class = {
-          level: result.attributes.hd?.total ?? result.details?.level?.value ??
-              0,
-        };
+        result.class = {level: result.attributes.hd?.total ?? result.details?.level?.value ?? 0};
       else result.class = result.classes?.[psibook.class] ?? {};
 
       // Add @psibook shortcut to @spells[bookId]
@@ -224,18 +222,15 @@ export class PowerItem extends pf1.documents.item.ItemPF {
 
     const updateData = {};
     if (value > 0) {
-      updateData[`flags.${MODULE_ID}.powerPoints.current`] = Math.min(
-          powerPoints.maximum, powerPoints.current + value);
+      updateData[`flags.${MODULE_ID}.powerPoints.current`] = Math.min(powerPoints.maximum, powerPoints.current + value);
     } else {
       let toRemove = Math.abs(value);
       if (toRemove < powerPoints.temporary) {
-        updateData[`flags.${MODULE_ID}.powerPoints.temporary`] = powerPoints.temporary -
-            toRemove;
+        updateData[`flags.${MODULE_ID}.powerPoints.temporary`] = powerPoints.temporary - toRemove;
       } else {
         toRemove -= powerPoints.temporary;
         updateData[`flags.${MODULE_ID}.powerPoints.temporary`] = 0;
-        updateData[`flags.${MODULE_ID}.powerPoints.current`] = powerPoints.current -
-            toRemove;
+        updateData[`flags.${MODULE_ID}.powerPoints.current`] = powerPoints.current - toRemove;
       }
     }
 
@@ -327,14 +322,7 @@ export class PowerItem extends pf1.documents.item.ItemPF {
   }
 
   /** @inheritDoc */
-  async getDescription({
-    chatcard = false,
-    data = {},
-    rollData,
-    header = true,
-    body = true,
-    isolated = false,
-  } = {}) {
+  async getDescription({chatcard = false, data = {}, rollData, header = true, body = true, isolated = false} = {}) {
     const renderCachedTemplate = pf1.utils.handlebars.renderCachedTemplate;
     const headerContent = header
         ? renderCachedTemplate(
@@ -347,16 +335,12 @@ export class PowerItem extends pf1.documents.item.ItemPF {
 
     let bodyContent = '';
     if (body) {
-      const noDesc = '<p class=\'placeholder\'>' +
-          game.i18n.localize('PF1.NoDescription') + '</p>';
-      bodyContent = '<div class="description-body">' +
-          (this.system.description.value || noDesc) + '</div>';
+      const noDesc = '<p class=\'placeholder\'>' + game.i18n.localize('PF1.NoDescription') + '</p>';
+      bodyContent = '<div class="description-body">' + (this.system.description.value || noDesc) + '</div>';
     }
 
     let separator = '';
-    if (header &&
-        body) separator = `<h3 class="description-header">${game.i18n.localize(
-        'PF1.Description')}</h3>`;
+    if (header && body) separator = `<h3 class="description-header">${game.i18n.localize('PF1.Description')}</h3>`;
 
     return headerContent + separator + bodyContent;
   }
@@ -377,25 +361,17 @@ export class PowerItem extends pf1.documents.item.ItemPF {
     result.labels = labels;
 
     labels.discipline = pf1.config.psionics.disciplines[system.discipline];
-    labels.subdiscipline = pf1.utils.i18n.join(
-        [...(system.subdiscipline.names ?? [])]);
-    labels.descriptors = pf1.utils.i18n.join(
-        [...(system.descriptors.names ?? [])], 'conjunction', false);
+    labels.subdiscipline = pf1.utils.i18n.join([...(system.subdiscipline.names ?? [])]);
+    labels.descriptors = pf1.utils.i18n.join([...(system.descriptors.names ?? [])], 'conjunction', false);
 
     // Set information about when the spell is learned
     result.learnedAt = {};
     if (system.learnedAt) {
       const classNames = await pf1.utils.packs.getClassIDMap();
-      for (const category of [
-        'class',
-        'domain',
-        'subDomain',
-        'elementalSchool',
-        'bloodline']) {
+      for (const category of ['class', 'domain', 'subDomain', 'elementalSchool', 'bloodline']) {
         result.learnedAt[category] = pf1.utils.i18n.join(
             Object.entries(system.learnedAt[category]).map(
-                ([classId, level]) => `${classNames[classId] ||
-                classId} ${level}`,
+                ([classId, level]) => `${classNames[classId] || classId} ${level}`,
             ),
         );
       }
@@ -411,13 +387,10 @@ export class PowerItem extends pf1.documents.item.ItemPF {
     // Set DC and SR
     {
       const savingThrowDescription = action.save?.description;
-      labels.savingThrow = savingThrowDescription ||
-          game.i18n.localize('PF1.None');
+      labels.savingThrow = savingThrowDescription || game.i18n.localize('PF1.None');
 
       const sr = system.sr;
-      labels.sr = (sr === true
-          ? game.i18n.localize('PF1.Yes')
-          : game.i18n.localize('PF1.No')).toLowerCase();
+      labels.sr = (sr === true ? game.i18n.localize('PF1.Yes') : game.i18n.localize('PF1.No')).toLowerCase();
 
       if (action.range?.units !== 'personal') result.useDCandSR = true;
     }
