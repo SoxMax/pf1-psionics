@@ -1,8 +1,8 @@
 export function setupHook() {
 	foundry.applications.handlebars.loadTemplates([
 		"modules/pf1-psionics/templates/action/attack-dialog.hbs", // Attack dialog additions
-		"modules/pf1-psionics/templates/actor/actor-psibook-front.hbs", // Psionics tab template
-		"modules/pf1-psionics/templates/actor/actor-psibook.hbs", // Psionics tab template
+		"modules/pf1-psionics/templates/actor/actor-manifestor-front.hbs", // Psionics tab template
+		"modules/pf1-psionics/templates/actor/actor-manifestor.hbs", // Psionics tab template
 		"modules/pf1-psionics/templates/item/class-manifesting.hbs", // Psionics class config
 		"modules/pf1-psionics/templates/item/parts/power-actions.hbs", // Power actions template
 		"modules/pf1-psionics/templates/item/parts/power-descriptors.hbs", // Power descriptors template

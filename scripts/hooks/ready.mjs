@@ -1,5 +1,5 @@
 import { MODULE_ID } from "../_module.mjs";
-import { PSIBOOKS } from "../data/psibooks.mjs";
+import { MANIFESTORS } from "../data/manifestors.mjs";
 
 
 export function readyHook() {
@@ -34,8 +34,8 @@ async function migrateOldActors() {
 			background: true,
 		});
 
-		if(!actor.getFlag(MODULE_ID, "spellbooks")) {
-			actor.setFlag(MODULE_ID, "spellbooks", PSIBOOKS);
+		if(!actor.getFlag(MODULE_ID, "manifestors")) {
+			actor.setFlag(MODULE_ID, "manifestors", MANIFESTORS);
 		}
 
 		if(!actor.getFlag(MODULE_ID, "powerPoints")) {
