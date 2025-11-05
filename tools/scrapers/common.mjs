@@ -400,6 +400,15 @@ export function extractDescription(html) {
     contentEnd = html.indexOf('</div><!-- mw-parser-output -->', contentStart);
   }
 
+  // Look for "Related" section and cut off there (for feats and powers)
+  const relatedMatch = html.match(/<h[23][^>]*>\s*Related\s*<\/h[23]>/i);
+  if (relatedMatch) {
+    const relatedIndex = html.indexOf(relatedMatch[0], contentStart);
+    if (relatedIndex > contentStart && (contentEnd === -1 || relatedIndex < contentEnd)) {
+      contentEnd = relatedIndex;
+    }
+  }
+
   if (contentEnd <= contentStart) {
     return '';
   }
