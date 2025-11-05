@@ -5,20 +5,23 @@
  * and outputs YAML files directly to packs-source/powers/ for version control.
  *
  * Usage:
- *   node powers-scraper.mjs                                   # Scrape all powers
+ *   node powers-scraper.mjs                                   # Scrape all powers (default category)
  *   node powers-scraper.mjs <url>                             # Single power to YAML
  *   node powers-scraper.mjs --list <file>                     # URL list file to YAML
+ *   node powers-scraper.mjs --category <url>                  # Use custom base category URL
  *
  * Examples:
  *   node powers-scraper.mjs                                   # Scrape all → packs-source/powers/*.yaml
  *   node powers-scraper.mjs --list tools/data/power-urls.txt  # Bulk import to YAML
  *   node powers-scraper.mjs "https://metzo.miraheze.org/wiki/Crystal_Shard"  # Single power
+ *   node powers-scraper.mjs --category "https://metzo.miraheze.org/wiki/Category:Custom_Powers"
  *
  * After scraping, run `npm run packs:compile` to build the LevelDB compendium.
  */
 
 import fs from 'fs';
 import { join } from 'path';
+import yaml from 'js-yaml';
 import {
   getScraperPaths,
   decodeHTMLEntities,
@@ -30,7 +33,8 @@ import {
   writeYAMLPack,
   delay,
   extractCategoryLinks,
-  parseSourcebooks
+  parseSourcebooks,
+  sluggify
 } from './common.mjs';
 
 const { TOOLS_DIR } = getScraperPaths(import.meta.url);
@@ -224,6 +228,32 @@ function selectPowerIcon(power) {
       // Default psionic power icon
       return 'icons/magic/symbols/runes-star-magenta.webp';
   }
+}
+
+/**
+ * Find existing YAML file for a power by name
+ *
+ * @param {string} powerName - Name of the power to find
+ * @param {string} packsSourceDir - Path to packs-source/powers directory
+ * @returns {string|null} - Full path to existing YAML file, or null if not found
+ */
+function findExistingPowerFile(powerName, packsSourceDir) {
+  if (!fs.existsSync(packsSourceDir)) {
+    return null;
+  }
+
+  const slug = sluggify(powerName);
+  const files = fs.readdirSync(packsSourceDir);
+
+  // Look for a file matching the pattern: slug.*.yaml
+  const regex = new RegExp(`^${slug}\\..*\\.yaml$`, 'i');
+  const matchingFile = files.find(file => regex.test(file));
+
+  if (matchingFile) {
+    return join(packsSourceDir, matchingFile);
+  }
+
+  return null;
 }
 
 /**
@@ -641,12 +671,17 @@ function extractPowerLinks(html) {
 /**
  * Extract all power URLs from category pages with pagination
  */
-async function extractAllPowerUrls() {
+async function extractAllPowerUrls(categoryUrl = CATEGORY_URL) {
   console.log('Extracting power URLs from category pages...\n');
 
   const allPowerNames = new Set();
-  let currentUrl = CATEGORY_URL;
+  let currentUrl = categoryUrl;
   let pageNum = 1;
+
+  // Extract the category name pattern from the provided URL for flexible pagination
+  // Pattern: https://metzo.miraheze.org/wiki/Category:SomeCategory
+  const categoryMatch = categoryUrl.match(/\/Category:([^?&\s]+)/);
+  const categoryName = categoryMatch ? categoryMatch[1] : null;
 
   while (currentUrl) {
     console.log(`Page ${pageNum}: ${currentUrl}`);
@@ -656,7 +691,20 @@ async function extractAllPowerUrls() {
 
     powerNames.forEach(name => allPowerNames.add(name));
 
-    const nextUrl = extractNextPageLink(html, 'powers');
+    // Extract next page link, looking for the specific category pattern
+    let nextUrl = null;
+    if (categoryName) {
+      // For custom categories, look for the specific category in the next link
+      const regex = new RegExp(`<a href="(\\/wiki\\/Category:${categoryName}[^"]*)"[^>]*>next page<\\/a>`, 'i');
+      const match = html.match(regex);
+      if (match) {
+        nextUrl = 'https://metzo.miraheze.org' + match[1];
+      }
+    } else {
+      // Fallback to the standard extraction
+      nextUrl = extractNextPageLink(html, 'powers');
+    }
+
     if (nextUrl) {
       currentUrl = nextUrl;
       pageNum++;
@@ -693,19 +741,91 @@ async function scrapePowers(urls) {
 }
 
 /**
- * Main entry point
+ * Write powers to YAML files, updating existing files or creating new ones
  */
+function writePowersWithDeduplication(powers, rootDir) {
+  const packsSourceDir = join(rootDir, 'packs-source', 'powers');
+
+  // Ensure directory exists
+  if (!fs.existsSync(packsSourceDir)) {
+    fs.mkdirSync(packsSourceDir, { recursive: true });
+  }
+
+  const stats = {
+    written: 0,
+    updated: 0,
+    skipped: 0,
+    errors: []
+  };
+
+  for (const power of powers) {
+    try {
+      // Check if a YAML file already exists for this power
+      const existingFile = findExistingPowerFile(power.name, packsSourceDir);
+
+      if (existingFile) {
+        // Read existing YAML to preserve the ID
+        const existingContent = fs.readFileSync(existingFile, 'utf8');
+        const existingPower = yaml.load(existingContent);
+
+        // Preserve the existing ID
+        power._id = existingPower._id;
+
+        // Update the file
+        const yamlContent = yaml.dump(power, {
+          sortKeys: true,
+          lineWidth: -1
+        });
+
+        fs.writeFileSync(existingFile, yamlContent, 'utf8');
+        stats.updated++;
+        console.log(`  📝 Updated: ${power.name}`);
+      } else {
+        // Create new file
+        // Note: writeYAMLPack generates a new ID, so we'll use that
+        const slug = sluggify(power.name);
+        const filename = `${slug}.${power._id}.yaml`;
+        const filepath = join(packsSourceDir, filename);
+
+        const yamlContent = yaml.dump(power, {
+          sortKeys: true,
+          lineWidth: -1
+        });
+
+        fs.writeFileSync(filepath, yamlContent, 'utf8');
+        stats.written++;
+        console.log(`  ✨ Created: ${power.name}`);
+      }
+    } catch (error) {
+      stats.errors.push({ item: power.name, error: error.message });
+      stats.skipped++;
+      console.error(`  ✗ Error writing ${power.name}: ${error.message}`);
+    }
+  }
+
+  return stats;
+}
 async function main() {
   const args = process.argv.slice(2);
 
   let urls = [];
+  let categoryUrl = CATEGORY_URL; // Default category URL
 
   // Parse arguments
   let i = 0;
   while (i < args.length) {
     const arg = args[i];
 
-    if (arg === '--list') {
+    if (arg === '--category') {
+      // --category <url> - Use custom base category URL
+      categoryUrl = args[++i];
+      if (!categoryUrl) {
+        console.error('Error: No category URL specified');
+        console.error('Usage: node powers-scraper.mjs --category <category-url>');
+        process.exit(1);
+      }
+      i++;
+    } else if (arg === '--list') {
       // --list <file> - Read URLs from file
       const urlFile = args[++i];
       if (!urlFile) {
@@ -732,7 +852,7 @@ async function main() {
   // If no URLs specified, scrape all from category
   if (urls.length === 0) {
     console.log('No URLs specified - scraping all powers from category\n');
-    urls = await extractAllPowerUrls();
+    urls = await extractAllPowerUrls(categoryUrl);
   }
 
   console.log(`Scraping ${urls.length} power(s)...\n`);
@@ -742,11 +862,13 @@ async function main() {
   console.log('');
   console.log(`Scraped ${powers.length} powers successfully\n`);
 
-  // Write as YAML files to packs-source/powers/
+  // Write as YAML files to packs-source/powers/ with deduplication
   const rootDir = join(TOOLS_DIR, '..');
-  const stats = writeYAMLPack('powers', powers, rootDir);
+  const stats = writePowersWithDeduplication(powers, rootDir);
 
-  console.log(`✓ Wrote ${stats.written} YAML files to packs-source/powers/`);
+  console.log('');
+  console.log(`✓ Created ${stats.written} new YAML files`);
+  console.log(`✓ Updated ${stats.updated} existing YAML files`);
   if (stats.skipped > 0) {
     console.log(`⚠ Skipped ${stats.skipped} items due to errors`);
     stats.errors.forEach(err => {

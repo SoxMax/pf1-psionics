@@ -21,6 +21,7 @@
 
 import fs from 'fs';
 import { join } from 'path';
+import yaml from 'js-yaml';
 import {
   getScraperPaths,
   decodeHTMLEntities,
@@ -33,7 +34,8 @@ import {
   delay,
   extractCategoryLinks,
   parseSourcebooks,
-  extractPageCategories
+  extractPageCategories,
+  sluggify
 } from './common.mjs';
 
 const { TOOLS_DIR } = getScraperPaths(import.meta.url);
@@ -228,6 +230,32 @@ function selectFeatIcon(feat) {
 }
 
 /**
+ * Find existing YAML file for a feat by name
+ *
+ * @param {string} featName - Name of the feat to find
+ * @param {string} packsSourceDir - Path to packs-source/feats directory
+ * @returns {string|null} - Full path to existing YAML file, or null if not found
+ */
+function findExistingFeatFile(featName, packsSourceDir) {
+  if (!fs.existsSync(packsSourceDir)) {
+    return null;
+  }
+
+  const slug = sluggify(featName);
+  const files = fs.readdirSync(packsSourceDir);
+
+  // Look for a file matching the pattern: slug.*.yaml
+  const regex = new RegExp(`^${slug}\\..*\\.yaml$`, 'i');
+  const matchingFile = files.find(file => regex.test(file));
+
+  if (matchingFile) {
+    return join(packsSourceDir, matchingFile);
+  }
+
+  return null;
+}
+
+/**
  * Parse feat data from HTML page
  */
 function parseFeatData(html, url) {
@@ -384,6 +412,11 @@ async function extractAllFeatUrls(categoryUrl = CATEGORY_URL) {
   let currentUrl = categoryUrl;
   let pageNum = 1;
 
+  // Extract the category name pattern from the provided URL for flexible pagination
+  // Pattern: https://metzo.miraheze.org/wiki/Category:SomeCategory
+  const categoryMatch = categoryUrl.match(/\/Category:([^?&\s]+)/);
+  const categoryName = categoryMatch ? categoryMatch[1] : null;
+
   while (currentUrl) {
     console.log(`Page ${pageNum}: ${currentUrl}`);
     const html = await fetchHTML(currentUrl);
@@ -392,7 +425,20 @@ async function extractAllFeatUrls(categoryUrl = CATEGORY_URL) {
 
     featNames.forEach(name => allFeatNames.add(name));
 
-    const nextUrl = extractNextPageLink(html, 'feats');
+    // Extract next page link, looking for the specific category pattern
+    let nextUrl = null;
+    if (categoryName) {
+      // For custom categories, look for the specific category in the next link
+      const regex = new RegExp(`<a href="(\\/wiki\\/Category:${categoryName}[^"]*)"[^>]*>next page<\\/a>`, 'i');
+      const match = html.match(regex);
+      if (match) {
+        nextUrl = 'https://metzo.miraheze.org' + match[1];
+      }
+    } else {
+      // Fallback to the standard extraction
+      nextUrl = extractNextPageLink(html, 'feats');
+    }
+
     if (nextUrl) {
       currentUrl = nextUrl;
       pageNum++;
@@ -407,6 +453,72 @@ async function extractAllFeatUrls(categoryUrl = CATEGORY_URL) {
 
   // Convert to full URLs
   return Array.from(allFeatNames).sort().map(name => `${BASE_URL}${name}`);
+}
+
+/**
+ * Write feats to YAML files, updating existing files or creating new ones
+ */
+function writeFeatsWithDeduplication(feats, rootDir) {
+  const packsSourceDir = join(rootDir, 'packs-source', 'feats');
+
+  // Ensure directory exists
+  if (!fs.existsSync(packsSourceDir)) {
+    fs.mkdirSync(packsSourceDir, { recursive: true });
+  }
+
+  const stats = {
+    written: 0,
+    updated: 0,
+    skipped: 0,
+    errors: []
+  };
+
+  for (const feat of feats) {
+    try {
+      // Check if a YAML file already exists for this feat
+      const existingFile = findExistingFeatFile(feat.name, packsSourceDir);
+
+      if (existingFile) {
+        // Read existing YAML to preserve the ID
+        const existingContent = fs.readFileSync(existingFile, 'utf8');
+        const existingFeat = yaml.load(existingContent);
+
+        // Preserve the existing ID
+        feat._id = existingFeat._id;
+
+        // Update the file
+        const yamlContent = yaml.dump(feat, {
+          sortKeys: true,
+          lineWidth: -1
+        });
+
+        fs.writeFileSync(existingFile, yamlContent, 'utf8');
+        stats.updated++;
+        console.log(`  📝 Updated: ${feat.name}`);
+      } else {
+        // Create new file
+        // Note: writeYAMLPack generates a new ID, so we'll use that
+        const slug = sluggify(feat.name);
+        const filename = `${slug}.${feat._id}.yaml`;
+        const filepath = join(packsSourceDir, filename);
+
+        const yamlContent = yaml.dump(feat, {
+          sortKeys: true,
+          lineWidth: -1
+        });
+
+        fs.writeFileSync(filepath, yamlContent, 'utf8');
+        stats.written++;
+        console.log(`  ✨ Created: ${feat.name}`);
+      }
+    } catch (error) {
+      stats.errors.push({ item: feat.name, error: error.message });
+      stats.skipped++;
+      console.error(`  ✗ Error writing ${feat.name}: ${error.message}`);
+    }
+  }
+
+  return stats;
 }
 
 async function main() {
@@ -470,11 +582,13 @@ async function main() {
   console.log(`Scraped ${psionicFeats.length} psionic feats successfully`);
   console.log(`Skipped ${feats.length - psionicFeats.length} non-psionic feats\n`);
 
-  // Write as YAML files to packs-source/feats/
+  // Write as YAML files to packs-source/feats/ with deduplication
   const rootDir = join(TOOLS_DIR, '..');
-  const stats = writeYAMLPack('feats', psionicFeats, rootDir);
+  const stats = writeFeatsWithDeduplication(psionicFeats, rootDir);
 
-  console.log(`✓ Wrote ${stats.written} YAML files to packs-source/feats/`);
+  console.log('');
+  console.log(`✓ Created ${stats.written} new YAML files`);
+  console.log(`✓ Updated ${stats.updated} existing YAML files`);
   if (stats.skipped > 0) {
     console.log(`⚠ Skipped ${stats.skipped} items due to errors`);
     stats.errors.forEach(err => {
