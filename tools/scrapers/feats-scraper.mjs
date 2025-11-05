@@ -141,7 +141,7 @@ function isPsionicFeatByCategories(categories) {
   return categories.some(cat => {
     const catName = cat.name || cat.slug;
     return PSIONIC_SOURCES.some(source =>
-      catName.includes(`Source: ${source}`)
+      catName.includes(`${source}`)
     );
   });
 }
