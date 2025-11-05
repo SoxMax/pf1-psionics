@@ -5,16 +5,16 @@
  * and outputs YAML files directly to packs-source/feats/ for version control.
  *
  * Usage:
- *   node feats-scraper.mjs                                    # Scrape all, output YAML (default)
+ *   node feats-scraper.mjs                                   # Scrape all feats (default category)
  *   node feats-scraper.mjs <url>                             # Single feat to YAML
  *   node feats-scraper.mjs --list <file>                     # URL list file to YAML
- *   node feats-scraper.mjs --format json psionic-feats.json  # Legacy JSON output
+ *   node feats-scraper.mjs --category <url>                  # Use custom base category URL
  *
  * Examples:
  *   node feats-scraper.mjs                                   # Scrape all → packs-source/feats/*.yaml
  *   node feats-scraper.mjs --list tools/data/feat-urls.txt   # Bulk import to YAML
  *   node feats-scraper.mjs "https://metzo.miraheze.org/wiki/Empower_Power"  # Single feat
- *   node feats-scraper.mjs --format json feats.json          # Old JSON format
+ *   node feats-scraper.mjs --category "https://metzo.miraheze.org/wiki/Category:Custom_Feats"
  *
  * After scraping, run `npm run packs:compile` to build the LevelDB compendium.
  */
@@ -29,7 +29,6 @@ import {
   extractTitle,
   extractDescription,
   extractNextPageLink,
-  writeJSONOutput,
   writeYAMLPack,
   delay,
   extractCategoryLinks,
@@ -141,6 +140,19 @@ function isPsionicFeatByCategories(categories) {
     return PSIONIC_SOURCES.some(source =>
       catName.includes(`Source: ${source}`)
     );
+  });
+}
+
+/**
+ * Check if categories contain "feat" or "feats"
+ *
+ * @param {Array} categories - Array of category objects
+ * @returns {boolean} - True if any category name contains "feat" or "feats"
+ */
+function hasFeatCategory(categories) {
+  return categories.some(cat => {
+    const catName = (cat.name || cat.slug || '').toLowerCase();
+    return catName.includes('feat');
   });
 }
 
@@ -258,6 +270,11 @@ function parseFeatData(html, url) {
   // Extract page categories
   const categories = extractPageCategories(html);
 
+  // Check if this is a feat based on categories (must have "feat" in category name)
+  if (!hasFeatCategory(categories)) {
+    return null; // Not a feat
+  }
+
   // Check if this is a psionic feat based on categories
   if (!isPsionicFeatByCategories(categories)) {
     // Fallback to old method if no categories found
@@ -360,11 +377,11 @@ async function scrapeFeats(urls) {
 /**
  * Extract all feat URLs from category pages with pagination
  */
-async function extractAllFeatUrls() {
+async function extractAllFeatUrls(categoryUrl = CATEGORY_URL) {
   console.log('Extracting feat URLs from category pages...\n');
 
   const allFeatNames = new Set();
-  let currentUrl = CATEGORY_URL;
+  let currentUrl = categoryUrl;
   let pageNum = 1;
 
   while (currentUrl) {
@@ -392,26 +409,23 @@ async function extractAllFeatUrls() {
   return Array.from(allFeatNames).sort().map(name => `${BASE_URL}${name}`);
 }
 
-/**
- * Main entry point
- */
 async function main() {
   const args = process.argv.slice(2);
 
   let urls = [];
-  let outputFormat = 'yaml'; // Default to YAML
-  let outputFile = null;
+  let categoryUrl = CATEGORY_URL; // Default category URL
 
   // Parse arguments
   let i = 0;
   while (i < args.length) {
     const arg = args[i];
 
-    if (arg === '--format') {
-      // --format json|yaml
-      outputFormat = args[++i] || 'yaml';
-      if (!['json', 'yaml'].includes(outputFormat)) {
-        console.error(`Error: Invalid format "${outputFormat}". Use "json" or "yaml"`);
+    if (arg === '--category') {
+      // --category <url> - Use custom base category URL
+      categoryUrl = args[++i];
+      if (!categoryUrl) {
+        console.error('Error: No category URL specified');
+        console.error('Usage: node feats-scraper.mjs --category <category-url>');
         process.exit(1);
       }
       i++;
@@ -420,7 +434,7 @@ async function main() {
       const urlFile = args[++i];
       if (!urlFile) {
         console.error('Error: No URL list file specified');
-        console.error('Usage: node feats-scraper.mjs --list <url-list-file> [--format yaml|json]');
+        console.error('Usage: node feats-scraper.mjs --list <url-list-file>');
         process.exit(1);
       }
 
@@ -433,11 +447,6 @@ async function main() {
       // Single URL
       urls.push(arg);
       i++;
-    } else if (arg.endsWith('.json')) {
-      // Legacy: JSON output file specified
-      outputFile = arg;
-      outputFormat = 'json';
-      i++;
     } else {
       // Unknown argument
       i++;
@@ -447,11 +456,10 @@ async function main() {
   // If no URLs specified, scrape all from category
   if (urls.length === 0) {
     console.log('No URLs specified - scraping all feats from category\n');
-    urls = await extractAllFeatUrls();
+    urls = await extractAllFeatUrls(categoryUrl);
   }
 
-  console.log(`Scraping ${urls.length} feat(s)...`);
-  console.log(`Output format: ${outputFormat.toUpperCase()}\n`);
+  console.log(`Scraping ${urls.length} feat(s)...\n`);
 
   const feats = await scrapeFeats(urls);
 
@@ -462,28 +470,18 @@ async function main() {
   console.log(`Scraped ${psionicFeats.length} psionic feats successfully`);
   console.log(`Skipped ${feats.length - psionicFeats.length} non-psionic feats\n`);
 
-  // Output based on format
-  if (outputFormat === 'yaml') {
-    // Write as YAML files to packs-source/feats/
-    const rootDir = join(TOOLS_DIR, '..');
-    const stats = writeYAMLPack('feats', psionicFeats, rootDir);
+  // Write as YAML files to packs-source/feats/
+  const rootDir = join(TOOLS_DIR, '..');
+  const stats = writeYAMLPack('feats', psionicFeats, rootDir);
 
-    console.log(`✓ Wrote ${stats.written} YAML files to packs-source/feats/`);
-    if (stats.skipped > 0) {
-      console.log(`⚠ Skipped ${stats.skipped} items due to errors`);
-      stats.errors.forEach(err => {
-        console.log(`  - ${err.item}: ${err.error}`);
-      });
-    }
-    console.log('\nRun `npm run packs:compile` to build the compendium');
-  } else {
-    // Legacy JSON output
-    if (!outputFile) {
-      outputFile = join(TOOLS_DIR, 'data', 'psionic-feats.json');
-    }
-    writeJSONOutput(outputFile, psionicFeats);
-    console.log(`Saved to: ${outputFile}`);
+  console.log(`✓ Wrote ${stats.written} YAML files to packs-source/feats/`);
+  if (stats.skipped > 0) {
+    console.log(`⚠ Skipped ${stats.skipped} items due to errors`);
+    stats.errors.forEach(err => {
+      console.log(`  - ${err.item}: ${err.error}`);
+    });
   }
+  console.log('\nRun `npm run packs:compile` to build the compendium');
 }
 
 // Run if called directly
