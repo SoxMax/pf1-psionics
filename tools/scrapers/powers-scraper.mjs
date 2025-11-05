@@ -5,16 +5,14 @@
  * and outputs YAML files directly to packs-source/powers/ for version control.
  *
  * Usage:
- *   node powers-scraper.mjs                                    # Scrape all, output YAML (default)
+ *   node powers-scraper.mjs                                   # Scrape all powers
  *   node powers-scraper.mjs <url>                             # Single power to YAML
  *   node powers-scraper.mjs --list <file>                     # URL list file to YAML
- *   node powers-scraper.mjs --format json psionic-powers.json # Legacy JSON output
  *
  * Examples:
  *   node powers-scraper.mjs                                   # Scrape all → packs-source/powers/*.yaml
  *   node powers-scraper.mjs --list tools/data/power-urls.txt  # Bulk import to YAML
  *   node powers-scraper.mjs "https://metzo.miraheze.org/wiki/Crystal_Shard"  # Single power
- *   node powers-scraper.mjs --format json powers.json         # Old JSON format
  *
  * After scraping, run `npm run packs:compile` to build the LevelDB compendium.
  */
@@ -29,7 +27,6 @@ import {
   extractTitle,
   extractDescription,
   extractNextPageLink,
-  writeJSONOutput,
   writeYAMLPack,
   delay,
   extractCategoryLinks,
@@ -702,28 +699,18 @@ async function main() {
   const args = process.argv.slice(2);
 
   let urls = [];
-  let outputFormat = 'yaml'; // Default to YAML
-  let outputFile = null;
 
   // Parse arguments
   let i = 0;
   while (i < args.length) {
     const arg = args[i];
 
-    if (arg === '--format') {
-      // --format json|yaml
-      outputFormat = args[++i] || 'yaml';
-      if (!['json', 'yaml'].includes(outputFormat)) {
-        console.error(`Error: Invalid format "${outputFormat}". Use "json" or "yaml"`);
-        process.exit(1);
-      }
-      i++;
-    } else if (arg === '--list') {
+    if (arg === '--list') {
       // --list <file> - Read URLs from file
       const urlFile = args[++i];
       if (!urlFile) {
         console.error('Error: No URL list file specified');
-        console.error('Usage: node powers-scraper.mjs --list <url-list-file> [--format yaml|json]');
+        console.error('Usage: node powers-scraper.mjs --list <url-list-file>');
         process.exit(1);
       }
 
@@ -735,11 +722,6 @@ async function main() {
     } else if (arg.startsWith('http')) {
       // Single URL
       urls.push(arg);
-      i++;
-    } else if (arg.endsWith('.json')) {
-      // Legacy: JSON output file specified
-      outputFile = arg;
-      outputFormat = 'json';
       i++;
     } else {
       // Unknown argument
@@ -753,36 +735,25 @@ async function main() {
     urls = await extractAllPowerUrls();
   }
 
-  console.log(`Scraping ${urls.length} power(s)...`);
-  console.log(`Output format: ${outputFormat.toUpperCase()}\n`);
+  console.log(`Scraping ${urls.length} power(s)...\n`);
 
   const powers = await scrapePowers(urls);
 
   console.log('');
   console.log(`Scraped ${powers.length} powers successfully\n`);
 
-  // Output based on format
-  if (outputFormat === 'yaml') {
-    // Write as YAML files to packs-source/powers/
-    const rootDir = join(TOOLS_DIR, '..');
-    const stats = writeYAMLPack('powers', powers, rootDir);
+  // Write as YAML files to packs-source/powers/
+  const rootDir = join(TOOLS_DIR, '..');
+  const stats = writeYAMLPack('powers', powers, rootDir);
 
-    console.log(`✓ Wrote ${stats.written} YAML files to packs-source/powers/`);
-    if (stats.skipped > 0) {
-      console.log(`⚠ Skipped ${stats.skipped} items due to errors`);
-      stats.errors.forEach(err => {
-        console.log(`  - ${err.item}: ${err.error}`);
-      });
-    }
-    console.log('\nRun `npm run packs:compile` to build the compendium');
-  } else {
-    // Legacy JSON output
-    if (!outputFile) {
-      outputFile = join(TOOLS_DIR, 'data', 'psionic-powers.json');
-    }
-    writeJSONOutput(outputFile, powers);
-    console.log(`Saved to: ${outputFile}`);
+  console.log(`✓ Wrote ${stats.written} YAML files to packs-source/powers/`);
+  if (stats.skipped > 0) {
+    console.log(`⚠ Skipped ${stats.skipped} items due to errors`);
+    stats.errors.forEach(err => {
+      console.log(`  - ${err.item}: ${err.error}`);
+    });
   }
+  console.log('\nRun `npm run packs:compile` to build the compendium');
 }
 
 // Run if called directly
