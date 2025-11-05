@@ -35,7 +35,8 @@ import {
   extractCategoryLinks,
   parseSourcebooks,
   extractPageCategories,
-  sluggify
+  sluggify,
+  generateFoundryId
 } from './common.mjs';
 
 const { TOOLS_DIR } = getScraperPaths(import.meta.url);
@@ -269,7 +270,26 @@ function parseFeatData(html, url) {
       tags: [],
       sources: [], // Will be populated from sourcebook field
       featType: 'feat',
-      abilityType: 'none'
+      abilityType: 'none',
+      // Required PF1 feat fields
+      subType: 'feat',
+      acquired: false,
+      disabled: false,
+      inherited: false,
+      showInQuickbar: false,
+      simple: false,
+      summons: false,
+      changeFlags: {
+        loseDexToAC: false,
+        noHeavyEncumbrance: false,
+        noMediumEncumbrance: false,
+        mediumArmorFullSpeed: false,
+        heavyArmorFullSpeed: false,
+        seeInvisibility: false,
+        seeInDarkness: false,
+        lowLightVision: false,
+        immuneToMorale: false
+      }
     },
     img: 'icons/svg/mystery-man.svg',
     flags: {
@@ -473,18 +493,33 @@ function writeFeatsWithDeduplication(feats, rootDir) {
     errors: []
   };
 
+  // Collect existing IDs to prevent collisions
+  const existingIds = new Set();
+  if (fs.existsSync(packsSourceDir)) {
+    const files = fs.readdirSync(packsSourceDir);
+    for (const file of files) {
+      if (file.endsWith('.yaml')) {
+        const match = file.match(/\.([a-zA-Z0-9]{16})\.yaml$/);
+        if (match) {
+          existingIds.add(match[1]);
+        }
+      }
+    }
+  }
+
   for (const feat of feats) {
     try {
       // Check if a YAML file already exists for this feat
       const existingFile = findExistingFeatFile(feat.name, packsSourceDir);
 
       if (existingFile) {
-        // Read existing YAML to preserve the ID
+        // Read existing YAML to preserve the ID and _key
         const existingContent = fs.readFileSync(existingFile, 'utf8');
         const existingFeat = yaml.load(existingContent);
 
-        // Preserve the existing ID
+        // Preserve the existing ID and _key
         feat._id = existingFeat._id;
+        feat._key = existingFeat._key;
 
         // Update the file
         const yamlContent = yaml.dump(feat, {
@@ -496,8 +531,10 @@ function writeFeatsWithDeduplication(feats, rootDir) {
         stats.updated++;
         console.log(`  📝 Updated: ${feat.name}`);
       } else {
-        // Create new file
-        // Note: writeYAMLPack generates a new ID, so we'll use that
+        // Create new file - generate a new Foundry-compatible ID
+        feat._id = generateFoundryId(existingIds);
+        feat._key = `!items!${feat._id}`;
+        existingIds.add(feat._id); // Add to set to prevent duplicates in same batch
         const slug = sluggify(feat.name);
         const filename = `${slug}.${feat._id}.yaml`;
         const filepath = join(packsSourceDir, filename);

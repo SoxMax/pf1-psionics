@@ -34,7 +34,8 @@ import {
   delay,
   extractCategoryLinks,
   parseSourcebooks,
-  sluggify
+  sluggify,
+  generateFoundryId
 } from './common.mjs';
 
 const { TOOLS_DIR } = getScraperPaths(import.meta.url);
@@ -758,6 +759,20 @@ function writePowersWithDeduplication(powers, rootDir) {
     errors: []
   };
 
+  // Collect existing IDs to prevent collisions
+  const existingIds = new Set();
+  if (fs.existsSync(packsSourceDir)) {
+    const files = fs.readdirSync(packsSourceDir);
+    for (const file of files) {
+      if (file.endsWith('.yaml')) {
+        const match = file.match(/\.([a-zA-Z0-9]{16})\.yaml$/);
+        if (match) {
+          existingIds.add(match[1]);
+        }
+      }
+    }
+  }
+
   for (const power of powers) {
     try {
       // Check if a YAML file already exists for this power
@@ -781,8 +796,9 @@ function writePowersWithDeduplication(powers, rootDir) {
         stats.updated++;
         console.log(`  📝 Updated: ${power.name}`);
       } else {
-        // Create new file
-        // Note: writeYAMLPack generates a new ID, so we'll use that
+        // Create new file - generate a new Foundry-compatible ID
+        power._id = generateFoundryId(existingIds);
+        existingIds.add(power._id); // Add to set to prevent duplicates in same batch
         const slug = sluggify(power.name);
         const filename = `${slug}.${power._id}.yaml`;
         const filepath = join(packsSourceDir, filename);
