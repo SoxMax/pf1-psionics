@@ -1,0 +1,56 @@
+_id: Qb88JtnSq6HwXzWP
+_key: '!items!Qb88JtnSq6HwXzWP'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Critical_Imbuement
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Critical Imbuement
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;are&nbsp;able&nbsp;to&nbsp;recharge&nbsp;your&nbsp;psychic&nbsp;strike&nbsp;through
+
+      truly&nbsp;potent&nbsp;attacks&nbsp;invigorating&nbsp;your&nbsp;confidence.
+
+      </p>
+
+      <p><strong>Prerequisites</strong>:&nbsp;Psychic&nbsp;Strike&nbsp;+1d8
+
+      </p>
+
+      <p><strong>Benefit</strong>:&nbsp;One&nbsp;per&nbsp;round&nbsp;when&nbsp;you&nbsp;make&nbsp;a&nbsp;successful
+
+      critical&nbsp;hit&nbsp;you&nbsp;may&nbsp;recharge&nbsp;your&nbsp;psychic&nbsp;strike&nbsp;as&nbsp;a
+
+      free&nbsp;action&nbsp;(even&nbsp;if&nbsp;it&nbsp;is&nbsp;not&nbsp;your&nbsp;turn).
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

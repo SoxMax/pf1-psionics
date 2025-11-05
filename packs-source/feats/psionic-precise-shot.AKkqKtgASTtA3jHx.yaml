@@ -1,7 +1,5 @@
 _id: AKkqKtgASTtA3jHx
 _key: '!items!AKkqKtgASTtA3jHx'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Precise_Shot
@@ -30,27 +28,7 @@ system:
 
       <p><strong>Benefit:</strong>&nbsp;To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.&nbsp;You&nbsp;can&nbsp;attempt&nbsp;to&nbsp;make&nbsp;a&nbsp;single&nbsp;ranged&nbsp;attack&nbsp;as&nbsp;a&nbsp;standard&nbsp;action&nbsp;against&nbsp;a&nbsp;target&nbsp;that&nbsp;is&nbsp;sheltered&nbsp;behind&nbsp;a&nbsp;wall,&nbsp;wall&nbsp;of&nbsp;force&nbsp;effect,&nbsp;or&nbsp;similar&nbsp;barrier.&nbsp;Your&nbsp;attack&nbsp;briefly&nbsp;skips&nbsp;through&nbsp;the&nbsp;Astral&nbsp;Plane&nbsp;to&nbsp;bypass&nbsp;the&nbsp;barrier.&nbsp;You&nbsp;must&nbsp;still&nbsp;have&nbsp;line&nbsp;of&nbsp;sight&nbsp;to&nbsp;the&nbsp;target.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

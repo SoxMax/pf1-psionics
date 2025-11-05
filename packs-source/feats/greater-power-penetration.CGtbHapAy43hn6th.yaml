@@ -1,0 +1,66 @@
+_id: CGtbHapAy43hn6th
+_key: '!items!CGtbHapAy43hn6th'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Greater_Power_Penetration
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Greater Power Penetration
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;powers&nbsp;are&nbsp;especially&nbsp;potent&nbsp;at&nbsp;breaking&nbsp;through
+
+      power&nbsp;resistance.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong><a&nbsp;href="/wiki/Power_Penetration"&nbsp;title="Power&nbsp;Penetration">Power&nbsp;Penetration</a>.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;use&nbsp;the&nbsp;Power&nbsp;Penetration&nbsp;feat,
+
+      the&nbsp;bonus&nbsp;on&nbsp;manifester&nbsp;level&nbsp;checks&nbsp;to&nbsp;overcome&nbsp;a
+
+      creature’s&nbsp;power&nbsp;resistance&nbsp;increases&nbsp;to&nbsp;+4&nbsp;when&nbsp;you
+
+      maintain&nbsp;psionic&nbsp;focus,&nbsp;and&nbsp;+8&nbsp;when&nbsp;you&nbsp;expend&nbsp;you
+
+      psionic&nbsp;focus.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

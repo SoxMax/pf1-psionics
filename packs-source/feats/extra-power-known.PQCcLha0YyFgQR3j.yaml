@@ -1,0 +1,70 @@
+_id: PQCcLha0YyFgQR3j
+_key: '!items!PQCcLha0YyFgQR3j'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Extra_Power_Known
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Extra Power Known
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;know&nbsp;an&nbsp;additional&nbsp;psionic&nbsp;power.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Manifester&nbsp;level&nbsp;1st.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>Add&nbsp;one&nbsp;additional&nbsp;power&nbsp;known&nbsp;of&nbsp;any&nbsp;level
+
+      up&nbsp;to&nbsp;the&nbsp;highest-level&nbsp;power&nbsp;you&nbsp;can&nbsp;manifest&nbsp;to&nbsp;your
+
+      powers&nbsp;known.&nbsp;You&nbsp;can&nbsp;only&nbsp;choose&nbsp;the&nbsp;power&nbsp;from
+
+      your&nbsp;class&nbsp;power&nbsp;list.
+
+      </p>
+
+      <p><strong>Special:&nbsp;</strong>You&nbsp;can&nbsp;gain&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;times.&nbsp;Each
+
+      time,&nbsp;you&nbsp;learn&nbsp;one&nbsp;new&nbsp;power&nbsp;from&nbsp;your&nbsp;class&nbsp;power
+
+      list&nbsp;up&nbsp;to&nbsp;the&nbsp;highest-level&nbsp;power&nbsp;you&nbsp;can&nbsp;manifest.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

@@ -1,7 +1,5 @@
 _id: TOcTQ8dvQCeO89ZQ
 _key: '!items!TOcTQ8dvQCeO89ZQ'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Crippling_Assault
@@ -30,29 +28,7 @@ system:
 
       <p><strong>Benefit:</strong>&nbsp;To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.&nbsp;As&nbsp;a&nbsp;standard&nbsp;action,&nbsp;you&nbsp;can&nbsp;make&nbsp;a&nbsp;ranged&nbsp;attack&nbsp;with&nbsp;a&nbsp;ranged&nbsp;or&nbsp;thrown&nbsp;weapon.&nbsp;If&nbsp;the&nbsp;attack&nbsp;is&nbsp;successful,&nbsp;it&nbsp;deals&nbsp;damage&nbsp;normally&nbsp;and&nbsp;forces&nbsp;the&nbsp;target&nbsp;to&nbsp;make&nbsp;a&nbsp;Fortitude&nbsp;saving&nbsp;throw&nbsp;(DC&nbsp;10&nbsp;+&nbsp;1/2&nbsp;your&nbsp;character&nbsp;level&nbsp;+&nbsp;your&nbsp;Wis&nbsp;modifier)&nbsp;or&nbsp;be&nbsp;paralyzed&nbsp;until&nbsp;the&nbsp;beginning&nbsp;of&nbsp;your&nbsp;next&nbsp;turn.&nbsp;This&nbsp;paralysis&nbsp;is&nbsp;only&nbsp;effective&nbsp;against&nbsp;dazed,&nbsp;flat-footed,&nbsp;paralyzed,&nbsp;staggered,&nbsp;stunned,&nbsp;or&nbsp;unconscious&nbsp;foes.&nbsp;If&nbsp;your&nbsp;attack&nbsp;misses,&nbsp;you&nbsp;still&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Intimidating_Shot"&nbsp;title="Intimidating&nbsp;Shot">Intimidating&nbsp;Shot</a></li><li><a&nbsp;href="/wiki/Staggering_Shot"&nbsp;title="Staggering&nbsp;Shot">Staggering&nbsp;Shot</a></li></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

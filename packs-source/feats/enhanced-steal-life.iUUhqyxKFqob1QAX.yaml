@@ -1,0 +1,86 @@
+_id: iUUhqyxKFqob1QAX
+_key: '!items!iUUhqyxKFqob1QAX'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Enhanced_Steal_Life
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Enhanced Steal Life
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;make&nbsp;it&nbsp;more&nbsp;difficult&nbsp;for&nbsp;others&nbsp;to&nbsp;resist&nbsp;you
+
+      stealing&nbsp;their&nbsp;life.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Steal&nbsp;life&nbsp;class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;use&nbsp;your&nbsp;steal&nbsp;life&nbsp;class&nbsp;feature,
+
+      you&nbsp;can&nbsp;channel&nbsp;power&nbsp;points&nbsp;into&nbsp;it&nbsp;to&nbsp;increase&nbsp;the&nbsp;DC
+
+      of&nbsp;the&nbsp;save.&nbsp;For&nbsp;every&nbsp;three&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,
+
+      the&nbsp;save&nbsp;DC&nbsp;is&nbsp;increased&nbsp;by&nbsp;1.&nbsp;You&nbsp;may&nbsp;not&nbsp;spend&nbsp;more
+
+      power&nbsp;points&nbsp;in&nbsp;this&nbsp;fashion&nbsp;than&nbsp;your&nbsp;manifester&nbsp;level.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>You&nbsp;are&nbsp;skilled&nbsp;at&nbsp;extracting&nbsp;the&nbsp;life&nbsp;force&nbsp;out&nbsp;of&nbsp;other&nbsp;creatures.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Enhanced&nbsp;Steal&nbsp;Life.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;The&nbsp;number&nbsp;of&nbsp;hit&nbsp;points&nbsp;gained&nbsp;when&nbsp;using&nbsp;steal&nbsp;life&nbsp;is&nbsp;increased&nbsp;by&nbsp;50%&nbsp;(round&nbsp;down.)&nbsp;When&nbsp;using&nbsp;the&nbsp;steal&nbsp;life&nbsp;class&nbsp;feature,&nbsp;you&nbsp;can&nbsp;expend&nbsp;one&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power.&nbsp;If&nbsp;the&nbsp;target&nbsp;makes&nbsp;a&nbsp;successful&nbsp;save&nbsp;against&nbsp;the&nbsp;attempt,&nbsp;you&nbsp;instead&nbsp;steal&nbsp;hit&nbsp;points&nbsp;as&nbsp;if&nbsp;you&nbsp;had&nbsp;used&nbsp;the&nbsp;steal&nbsp;health&nbsp;class&nbsp;feature&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

@@ -1,0 +1,60 @@
+_id: F45FD2dOSfGpHBYR
+_key: '!items!F45FD2dOSfGpHBYR'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Mind_Sniper
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Mind Sniper
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;have&nbsp;mastered&nbsp;ways&nbsp;to&nbsp;use&nbsp;your&nbsp;psychically-generated&nbsp;weapons&nbsp;in&nbsp;a&nbsp;deadly&nbsp;and&nbsp;precise&nbsp;manner.
+
+      </p>
+
+      <p><strong>Prerequisites</strong>:&nbsp;Ability&nbsp;to&nbsp;generate&nbsp;a&nbsp;mind&nbsp;blade&nbsp;or
+
+      mind&nbsp;bolt,&nbsp;knowledge&nbsp;of&nbsp;one&nbsp;blade&nbsp;skill,&nbsp;style&nbsp;technique
+
+      class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit</strong>:&nbsp;Your&nbsp;mind&nbsp;blade&nbsp;or&nbsp;mind&nbsp;bolt&nbsp;always&nbsp;counts
+
+      as&nbsp;a&nbsp;favored&nbsp;weapon&nbsp;for&nbsp;your&nbsp;favored&nbsp;weapon&nbsp;class
+
+      feature,&nbsp;and&nbsp;your&nbsp;levels&nbsp;in&nbsp;soulknife&nbsp;count&nbsp;as&nbsp;marksman
+
+      levels&nbsp;when&nbsp;determining&nbsp;your&nbsp;favored&nbsp;weapon&nbsp;bonuses.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

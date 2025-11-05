@@ -1,7 +1,5 @@
 _id: JvPqfkAGFDSb2x62
 _key: '!items!JvPqfkAGFDSb2x62'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Ready_Response
@@ -30,33 +28,7 @@ system:
 
       <p><strong>Normal:&nbsp;</strong>A&nbsp;character&nbsp;that&nbsp;is&nbsp;allowed&nbsp;to&nbsp;act&nbsp;in&nbsp;a&nbsp;surprise&nbsp;round&nbsp;can&nbsp;take&nbsp;only&nbsp;a&nbsp;standard&nbsp;action&nbsp;or&nbsp;a&nbsp;move&nbsp;action,&nbsp;not&nbsp;both.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Quantum"&nbsp;title="Quantum">Quantum</a></li></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Voyager"&nbsp;title="Voyager">Voyager</a></li></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Advanced_Gladiator_Path"&nbsp;title="Advanced&nbsp;Gladiator&nbsp;Path">Advanced&nbsp;Gladiator&nbsp;Path</a></li></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

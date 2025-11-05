@@ -1,0 +1,64 @@
+_id: L8W6y3F3SnoJPdJ6
+_key: '!items!L8W6y3F3SnoJPdJ6'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Channel_Rage
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Channel Rage
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;have&nbsp;learned&nbsp;to&nbsp;focus&nbsp;your&nbsp;anger&nbsp;to&nbsp;fuel&nbsp;your&nbsp;wild
+
+      surges.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Wild&nbsp;surge&nbsp;class&nbsp;feature,&nbsp;rage&nbsp;class
+
+      feature.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;choose&nbsp;to&nbsp;power&nbsp;a&nbsp;manifestation
+
+      with&nbsp;only&nbsp;your&nbsp;wild&nbsp;surge,&nbsp;you&nbsp;may&nbsp;spend&nbsp;1&nbsp;round&nbsp;of
+
+      your&nbsp;rage&nbsp;instead&nbsp;of&nbsp;expending&nbsp;your&nbsp;psionic&nbsp;focus.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation I'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

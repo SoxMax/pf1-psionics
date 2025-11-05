@@ -1,0 +1,86 @@
+_id: IYaxEFQMcXGgMdpj
+_key: '!items!IYaxEFQMcXGgMdpj'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Dodge
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Psionic Dodge
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;are&nbsp;proficient&nbsp;at&nbsp;dodging&nbsp;blows.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Dex&nbsp;13,&nbsp;Dodge.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;must&nbsp;be&nbsp;psionically&nbsp;focused&nbsp;to&nbsp;use&nbsp;this
+
+      feat.&nbsp;You&nbsp;receive&nbsp;a&nbsp;+1&nbsp;dodge&nbsp;bonus&nbsp;to&nbsp;your&nbsp;Armor&nbsp;Class.
+
+      This&nbsp;bonus&nbsp;stacks&nbsp;with&nbsp;the&nbsp;bonus&nbsp;from&nbsp;the&nbsp;Dodge&nbsp;feat.
+
+      You&nbsp;may&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;an&nbsp;immediate
+
+      action&nbsp;to&nbsp;increase&nbsp;this&nbsp;bonus&nbsp;to&nbsp;a&nbsp;+4&nbsp;dodge&nbsp;bonus&nbsp;to&nbsp;your
+
+      Armor&nbsp;Class&nbsp;for&nbsp;a&nbsp;single&nbsp;attack&nbsp;made&nbsp;against&nbsp;you.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>Your&nbsp;psionically-empowered&nbsp;reflexes&nbsp;are&nbsp;heightened&nbsp;by&nbsp;your&nbsp;mythic&nbsp;power.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Psionic&nbsp;Dodge.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;The&nbsp;dodge&nbsp;bonus&nbsp;you&nbsp;gain&nbsp;from&nbsp;Psionic&nbsp;Dodge&nbsp;is&nbsp;doubled.&nbsp;In&nbsp;addition,&nbsp;when&nbsp;an&nbsp;attack&nbsp;against&nbsp;you&nbsp;misses,&nbsp;you&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action&nbsp;to&nbsp;take&nbsp;a&nbsp;5-foot&nbsp;step&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

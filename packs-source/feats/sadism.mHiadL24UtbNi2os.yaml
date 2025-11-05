@@ -1,7 +1,5 @@
 _id: mHiadL24UtbNi2os
 _key: '!items!mHiadL24UtbNi2os'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Sadism
@@ -30,27 +28,7 @@ system:
 
       <p><strong>Benefit:</strong>&nbsp;Whenever&nbsp;another&nbsp;member&nbsp;of&nbsp;your&nbsp;collective&nbsp;takes&nbsp;damage,&nbsp;you&nbsp;may&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action&nbsp;in&nbsp;order&nbsp;to&nbsp;gain&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;half&nbsp;the&nbsp;damage&nbsp;dealt.&nbsp;These&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;fade&nbsp;at&nbsp;a&nbsp;rate&nbsp;of&nbsp;1&nbsp;per&nbsp;round,&nbsp;and&nbsp;stack&nbsp;with&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;gained&nbsp;from&nbsp;this&nbsp;feat.&nbsp;You&nbsp;may&nbsp;only&nbsp;gain&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;in&nbsp;this&nbsp;way&nbsp;to&nbsp;a&nbsp;limit&nbsp;of&nbsp;up&nbsp;to&nbsp;half&nbsp;of&nbsp;your&nbsp;normal&nbsp;maximum&nbsp;hit&nbsp;points.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

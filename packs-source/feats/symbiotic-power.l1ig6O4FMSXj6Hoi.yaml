@@ -1,7 +1,5 @@
 _id: l1ig6O4FMSXj6Hoi
 _key: '!items!l1ig6O4FMSXj6Hoi'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Symbiotic_Power
@@ -30,29 +28,7 @@ system:
 
       <p><strong>Benefit:&nbsp;</strong>Up&nbsp;to&nbsp;3&nbsp;times&nbsp;per&nbsp;day,&nbsp;as&nbsp;a&nbsp;swift&nbsp;action,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;to&nbsp;your&nbsp;manifester&nbsp;level&nbsp;for&nbsp;every&nbsp;member&nbsp;of&nbsp;your&nbsp;collective&nbsp;that&nbsp;has&nbsp;a&nbsp;caster&nbsp;or&nbsp;manifester&nbsp;level.&nbsp;This&nbsp;increase&nbsp;does&nbsp;not&nbsp;allow&nbsp;you&nbsp;to&nbsp;augment&nbsp;powers&nbsp;beyond&nbsp;your&nbsp;regular&nbsp;manifester&nbsp;level,&nbsp;but&nbsp;affects&nbsp;your&nbsp;ability&nbsp;to&nbsp;add&nbsp;metapsionics&nbsp;to&nbsp;them&nbsp;and&nbsp;all&nbsp;other&nbsp;aspects&nbsp;of&nbsp;manifested&nbsp;power.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Mind_Symbiote"&nbsp;title="Mind&nbsp;Symbiote">Mind&nbsp;Symbiote</a></li></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

@@ -1,7 +1,5 @@
 _id: 2A1H93asF4MbnpRx
 _key: '!items!2A1H93asF4MbnpRx'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Fire_Starter
@@ -30,29 +28,7 @@ system:
 
       <p><strong>Benefit:</strong>&nbsp;Your&nbsp;kineticist&nbsp;levels&nbsp;and&nbsp;your&nbsp;levels&nbsp;in&nbsp;the&nbsp;class&nbsp;that&nbsp;granted&nbsp;you&nbsp;the&nbsp;bardic&nbsp;performance&nbsp;or&nbsp;raging&nbsp;song&nbsp;class&nbsp;feature&nbsp;stack&nbsp;for&nbsp;determining&nbsp;the&nbsp;number&nbsp;of&nbsp;performance&nbsp;rounds&nbsp;you&nbsp;have&nbsp;per&nbsp;day&nbsp;and&nbsp;the&nbsp;strength&nbsp;of&nbsp;your&nbsp;music&nbsp;effects&nbsp;(but&nbsp;not&nbsp;which&nbsp;effects&nbsp;you&nbsp;have&nbsp;access&nbsp;to).&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;activate&nbsp;a&nbsp;bardic&nbsp;performance&nbsp;or&nbsp;raging&nbsp;song&nbsp;ability&nbsp;that&nbsp;normally&nbsp;requires&nbsp;a&nbsp;standard&nbsp;action&nbsp;to&nbsp;start&nbsp;as&nbsp;part&nbsp;of&nbsp;using&nbsp;a&nbsp;kinetic&nbsp;blast.&nbsp;If&nbsp;you&nbsp;do,&nbsp;the&nbsp;ability&nbsp;takes&nbsp;effect&nbsp;before&nbsp;your&nbsp;attack&nbsp;roll.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Thunderstruck"&nbsp;title="Thunderstruck">Thunderstruck</a></li></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

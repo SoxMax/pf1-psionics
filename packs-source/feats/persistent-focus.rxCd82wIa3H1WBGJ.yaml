@@ -1,7 +1,5 @@
 _id: rxCd82wIa3H1WBGJ
 _key: '!items!rxCd82wIa3H1WBGJ'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Persistent_Focus
@@ -30,29 +28,7 @@ system:
 
       <p><strong>Benefit:&nbsp;</strong>Choose&nbsp;one&nbsp;psionic&nbsp;ability&nbsp;or&nbsp;psionic&nbsp;feat&nbsp;that&nbsp;requires&nbsp;maintaining&nbsp;psionic&nbsp;focus.&nbsp;From&nbsp;this&nbsp;point&nbsp;forward,&nbsp;you&nbsp;are&nbsp;always&nbsp;considered&nbsp;psionically&nbsp;focused&nbsp;even&nbsp;if&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;for&nbsp;any&nbsp;other&nbsp;ability.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Psionic_Meditation"&nbsp;title="Psionic&nbsp;Meditation">Psionic&nbsp;Meditation</a></li></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

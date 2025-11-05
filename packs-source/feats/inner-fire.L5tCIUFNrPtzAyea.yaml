@@ -1,7 +1,5 @@
 _id: L5tCIUFNrPtzAyea
 _key: '!items!L5tCIUFNrPtzAyea'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Inner_Fire
@@ -30,27 +28,7 @@ system:
 
       <p><strong>Benefit:</strong>&nbsp;You&nbsp;can&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;while&nbsp;gathering&nbsp;power&nbsp;to&nbsp;reduce&nbsp;the&nbsp;action&nbsp;needed&nbsp;to&nbsp;alleviate&nbsp;burn.&nbsp;If&nbsp;you&nbsp;take&nbsp;a&nbsp;swift&nbsp;action,&nbsp;you&nbsp;are&nbsp;treated&nbsp;as&nbsp;if&nbsp;you&nbsp;had&nbsp;gathered&nbsp;power&nbsp;as&nbsp;a&nbsp;move&nbsp;action.&nbsp;If&nbsp;you&nbsp;take&nbsp;a&nbsp;move&nbsp;action,&nbsp;you&nbsp;are&nbsp;treated&nbsp;as&nbsp;if&nbsp;you&nbsp;gathered&nbsp;power&nbsp;for&nbsp;a&nbsp;full&nbsp;round.&nbsp;You&nbsp;cannot&nbsp;gather&nbsp;power&nbsp;in&nbsp;another&nbsp;way&nbsp;in&nbsp;the&nbsp;same&nbsp;turn&nbsp;you&nbsp;use&nbsp;this&nbsp;feat.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

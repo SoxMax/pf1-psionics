@@ -1,7 +1,5 @@
 _id: 6fk57GgH6cXP3R6A
 _key: '!items!6fk57GgH6cXP3R6A'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Psicrystal_Ball
@@ -30,27 +28,7 @@ system:
 
       <p><strong>Benefit:</strong>&nbsp;Once&nbsp;per&nbsp;day,&nbsp;you&nbsp;may&nbsp;spend&nbsp;ten&nbsp;minutes&nbsp;divining&nbsp;the&nbsp;future&nbsp;using&nbsp;your&nbsp;psicrystal.&nbsp;When&nbsp;you&nbsp;do,&nbsp;roll&nbsp;a&nbsp;number&nbsp;of&nbsp;d20s&nbsp;equal&nbsp;to&nbsp;the&nbsp;highest&nbsp;of&nbsp;your&nbsp;Intelligence,&nbsp;Wisdom&nbsp;or&nbsp;Charisma&nbsp;modifiers&nbsp;and&nbsp;record&nbsp;the&nbsp;results.&nbsp;As&nbsp;an&nbsp;immediate&nbsp;action,&nbsp;when&nbsp;you&nbsp;or&nbsp;another&nbsp;creature&nbsp;you&nbsp;can&nbsp;see&nbsp;within&nbsp;60&nbsp;feet&nbsp;rolls&nbsp;a&nbsp;d20,&nbsp;you&nbsp;may&nbsp;force&nbsp;them&nbsp;to&nbsp;use&nbsp;one&nbsp;of&nbsp;the&nbsp;recorded&nbsp;rolls&nbsp;instead&nbsp;of&nbsp;the&nbsp;result&nbsp;of&nbsp;their&nbsp;die&nbsp;roll,&nbsp;treating&nbsp;it&nbsp;in&nbsp;all&nbsp;ways&nbsp;as&nbsp;if&nbsp;they&nbsp;had&nbsp;rolled&nbsp;it.&nbsp;Using&nbsp;this&nbsp;ability&nbsp;expends&nbsp;the&nbsp;roll&nbsp;in&nbsp;question.&nbsp;An&nbsp;unwilling&nbsp;target&nbsp;can&nbsp;make&nbsp;a&nbsp;Will&nbsp;save&nbsp;(DC&nbsp;10&nbsp;+&nbsp;1/2&nbsp;your&nbsp;character&nbsp;level&nbsp;+&nbsp;the&nbsp;highest&nbsp;of&nbsp;your&nbsp;Intelligence,&nbsp;Wisdom&nbsp;or&nbsp;Charisma&nbsp;modifiers).&nbsp;If&nbsp;they&nbsp;succeed&nbsp;on&nbsp;their&nbsp;saving&nbsp;throw,&nbsp;they&nbsp;roll&nbsp;their&nbsp;die&nbsp;as&nbsp;normal,&nbsp;and&nbsp;the&nbsp;roll&nbsp;you&nbsp;tried&nbsp;to&nbsp;substitute&nbsp;is&nbsp;still&nbsp;expended.&nbsp;You&nbsp;may&nbsp;roll&nbsp;and&nbsp;record&nbsp;an&nbsp;additional&nbsp;d20&nbsp;per&nbsp;day&nbsp;for&nbsp;every&nbsp;five&nbsp;character&nbsp;levels&nbsp;you&nbsp;possess.&nbsp;This&nbsp;feat&nbsp;is&nbsp;a&nbsp;supernatural&nbsp;ability.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

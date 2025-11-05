@@ -1,0 +1,62 @@
+_id: tyuq9r8DdzGYPmFo
+_key: '!items!tyuq9r8DdzGYPmFo'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Additional_Terror
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Additional Terror
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;have&nbsp;unlocked&nbsp;an&nbsp;additional&nbsp;form&nbsp;of&nbsp;fear.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Terror&nbsp;class&nbsp;feature
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;gain&nbsp;an&nbsp;additional&nbsp;terror.
+
+      </p>
+
+      <p><strong>Special:&nbsp;</strong>You&nbsp;may&nbsp;take&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;times.&nbsp;Each
+
+      time,&nbsp;you&nbsp;gain&nbsp;a&nbsp;new&nbsp;terror.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

@@ -1,0 +1,60 @@
+_id: gnXRQABIxtD7VJJg
+_key: '!items!gnXRQABIxtD7VJJg'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Deadly_Imbuement
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Deadly Imbuement
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;are&nbsp;able&nbsp;to&nbsp;siphon&nbsp;off&nbsp;residual&nbsp;psychic&nbsp;impressions
+
+      to&nbsp;recharge&nbsp;your&nbsp;psychic&nbsp;strike&nbsp;from&nbsp;fallen&nbsp;foes.
+
+      </p>
+
+      <p><strong>Prerequisites</strong>:&nbsp;Psychic&nbsp;Strike&nbsp;+1d8.
+
+      </p>
+
+      <p><strong>Benefit</strong>:&nbsp;Whenever&nbsp;you&nbsp;reduce&nbsp;a&nbsp;foe&nbsp;to&nbsp;0&nbsp;hit&nbsp;points
+
+      or&nbsp;less,&nbsp;you&nbsp;may&nbsp;recharge&nbsp;your&nbsp;psychic&nbsp;strike&nbsp;as&nbsp;a&nbsp;free
+
+      action&nbsp;once&nbsp;per&nbsp;round.&nbsp;Foes&nbsp;slain&nbsp;in&nbsp;such&nbsp;a&nbsp;manner&nbsp;must
+
+      possess&nbsp;an&nbsp;Intelligence&nbsp;score&nbsp;of&nbsp;3&nbsp;or&nbsp;more&nbsp;for&nbsp;you&nbsp;to&nbsp;be
+
+      able&nbsp;to&nbsp;recharge&nbsp;your&nbsp;psychic&nbsp;strike.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

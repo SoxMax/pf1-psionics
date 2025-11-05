@@ -1,0 +1,64 @@
+_id: 8KwU0KFzRmpuooKh
+_key: '!items!8KwU0KFzRmpuooKh'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Biokinetic_Feedback
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Biokinetic Feedback
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;convert&nbsp;your&nbsp;psychic&nbsp;enervation&nbsp;into&nbsp;physical
+
+      feedback.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Con&nbsp;13,&nbsp;psychic&nbsp;enervation&nbsp;class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>If&nbsp;you&nbsp;would&nbsp;lose&nbsp;power&nbsp;points&nbsp;as&nbsp;the&nbsp;result
+
+      of&nbsp;psychic&nbsp;enervation,&nbsp;you&nbsp;may&nbsp;instead&nbsp;lose&nbsp;an&nbsp;equal
+
+      number&nbsp;of&nbsp;hit&nbsp;points.&nbsp;Additionally,&nbsp;if&nbsp;you&nbsp;possess&nbsp;the
+
+      Overchannel&nbsp;feat,&nbsp;you&nbsp;may&nbsp;use&nbsp;it&nbsp;in&nbsp;conjunction&nbsp;with
+
+      your&nbsp;wild&nbsp;surge.&nbsp;The&nbsp;effects&nbsp;stack.&nbsp;Combining&nbsp;your&nbsp;wild
+
+      surge&nbsp;with&nbsp;Overchannel&nbsp;in&nbsp;this&nbsp;manner&nbsp;increases&nbsp;your
+
+      chance&nbsp;for&nbsp;psychic&nbsp;enervation&nbsp;by&nbsp;20%.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

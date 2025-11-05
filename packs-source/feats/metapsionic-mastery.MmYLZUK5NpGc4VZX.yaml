@@ -1,0 +1,78 @@
+_id: MmYLZUK5NpGc4VZX
+_key: '!items!MmYLZUK5NpGc4VZX'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Metapsionic_Mastery
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Metapsionic Mastery
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;have&nbsp;mastered&nbsp;applying&nbsp;a&nbsp;metapsionic&nbsp;feat&nbsp;to&nbsp;a
+
+      particular&nbsp;power.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Manifester&nbsp;level&nbsp;3rd,&nbsp;one&nbsp;metapsionic
+
+      feat
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>Select&nbsp;one&nbsp;psionic&nbsp;power&nbsp;you&nbsp;can&nbsp;manifest.
+
+      You&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;while&nbsp;applying&nbsp;any&nbsp;number
+
+      of&nbsp;metapsionic&nbsp;feats&nbsp;you&nbsp;possess&nbsp;without&nbsp;having&nbsp;to
+
+      expend&nbsp;your&nbsp;psionic&nbsp;focus,&nbsp;but&nbsp;for&nbsp;each&nbsp;metapsionic
+
+      feat&nbsp;you&nbsp;apply&nbsp;without&nbsp;expending&nbsp;your&nbsp;psionic&nbsp;focus,
+
+      the&nbsp;power’s&nbsp;cost&nbsp;is&nbsp;increased&nbsp;by&nbsp;2&nbsp;power&nbsp;points.&nbsp;The
+
+      power’s&nbsp;total&nbsp;cost&nbsp;cannot&nbsp;exceed&nbsp;your&nbsp;manifester&nbsp;level.
+
+      </p>
+
+      <p><strong>Special:&nbsp;</strong>You&nbsp;can&nbsp;select&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;times.&nbsp;Each
+
+      time,&nbsp;it&nbsp;applies&nbsp;to&nbsp;a&nbsp;different&nbsp;psionic&nbsp;power.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

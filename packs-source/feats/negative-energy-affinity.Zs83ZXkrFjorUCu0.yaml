@@ -1,7 +1,5 @@
 _id: Zs83ZXkrFjorUCu0
 _key: '!items!Zs83ZXkrFjorUCu0'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Negative_Energy_Affinity
@@ -30,31 +28,7 @@ system:
 
       <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;select&nbsp;your&nbsp;active&nbsp;energy&nbsp;type,&nbsp;you&nbsp;can&nbsp;choose&nbsp;negative&nbsp;energy.&nbsp;When&nbsp;manifesting&nbsp;a&nbsp;power&nbsp;that&nbsp;deals&nbsp;cold,&nbsp;fire,&nbsp;electricity,&nbsp;or&nbsp;sonic&nbsp;damage,&nbsp;you&nbsp;instead&nbsp;deal&nbsp;negative&nbsp;energy.&nbsp;Like&nbsp;a&nbsp;<a&nbsp;href="/wiki/Cleric"&nbsp;title="Cleric">cleric</a>&nbsp;using&nbsp;channel&nbsp;energy,&nbsp;negative&nbsp;energy&nbsp;heals&nbsp;undead&nbsp;and&nbsp;harms&nbsp;living&nbsp;creatures.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Channeler"&nbsp;title="Channeler">Channeler</a></li></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Athanatism_(Psion_Discipline)"&nbsp;title="Athanatism&nbsp;(Psion&nbsp;Discipline)">Athanatism&nbsp;(Psion&nbsp;Discipline)</a></li></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

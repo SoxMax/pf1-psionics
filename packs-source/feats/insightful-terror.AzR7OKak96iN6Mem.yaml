@@ -1,0 +1,74 @@
+_id: AzR7OKak96iN6Mem
+_key: '!items!AzR7OKak96iN6Mem'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Insightful_Terror
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Insightful Terror
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;insight&nbsp;into&nbsp;how&nbsp;fear&nbsp;affects&nbsp;creatures&nbsp;allows
+
+      you&nbsp;to&nbsp;paralyze&nbsp;an&nbsp;enemy&nbsp;with&nbsp;fear,&nbsp;instead&nbsp;of&nbsp;merely
+
+      shaking&nbsp;him.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Fearsome&nbsp;insight&nbsp;class&nbsp;feature,
+
+      Intimidate&nbsp;9&nbsp;ranks.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>As&nbsp;a&nbsp;standard&nbsp;action&nbsp;you&nbsp;can&nbsp;make&nbsp;an
+
+      Intimidate&nbsp;check&nbsp;to&nbsp;demoralize&nbsp;a&nbsp;single&nbsp;foe&nbsp;(within&nbsp;30&nbsp;ft).
+
+      If&nbsp;you&nbsp;succeed&nbsp;the&nbsp;target&nbsp;is&nbsp;paralyzed&nbsp;for&nbsp;one&nbsp;round.&nbsp;This
+
+      is&nbsp;a&nbsp;mind-affecting&nbsp;fear&nbsp;effect.
+
+      </p>
+
+      <p><strong>Normal:&nbsp;</strong>A&nbsp;creature&nbsp;demoralized&nbsp;through&nbsp;Intimidate
+
+      is&nbsp;shaken.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

@@ -1,11 +1,9 @@
 _id: COpXKyEScvqt7IHz
 _key: '!items!COpXKyEScvqt7IHz'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
-    sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Fist
-img: icons/magic/symbols/runes-star-magenta.webp
+    sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Fist_(Mythic)
+img: icons/sundries/books/book-embossed-blue.webp
 name: Psionic Fist
 system:
   abilityType: none
@@ -22,45 +20,15 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;charge&nbsp;your&nbsp;unarmed&nbsp;strike&nbsp;or&nbsp;natural&nbsp;weapon&nbsp;with&nbsp;additional&nbsp;damage&nbsp;potential.</em></p>
+      <p><em>You&nbsp;imbue&nbsp;your&nbsp;unarmed&nbsp;attacks&nbsp;with&nbsp;your&nbsp;mythic&nbsp;power.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Str&nbsp;13.
-
-      </p>
-
-      <p><strong>Benefit:</strong>&nbsp;While&nbsp;you&nbsp;maintain&nbsp;psionic&nbsp;focus,&nbsp;your&nbsp;unarmed&nbsp;strikes&nbsp;or&nbsp;attacks&nbsp;with&nbsp;a&nbsp;natural&nbsp;weapon&nbsp;deal&nbsp;an&nbsp;extra&nbsp;1&nbsp;point&nbsp;of&nbsp;damage.
+      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Psionic_Fist"&nbsp;title="Psionic&nbsp;Fist">Psionic&nbsp;Fist</a>.
 
       </p>
 
-      <p>Additionally,&nbsp;if&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;part&nbsp;of&nbsp;an&nbsp;unarmed&nbsp;strike&nbsp;or&nbsp;an&nbsp;attack&nbsp;with&nbsp;a&nbsp;natural&nbsp;weapon,&nbsp;that&nbsp;attack&nbsp;instead&nbsp;deals&nbsp;an&nbsp;extra&nbsp;2d6&nbsp;points&nbsp;of&nbsp;damage.&nbsp;You&nbsp;must&nbsp;decide&nbsp;whether&nbsp;or&nbsp;not&nbsp;to&nbsp;use&nbsp;this&nbsp;option&nbsp;prior&nbsp;to&nbsp;making&nbsp;an&nbsp;attack.&nbsp;If&nbsp;your&nbsp;attack&nbsp;misses,&nbsp;you&nbsp;still&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.
+      <p>Double&nbsp;the&nbsp;damage&nbsp;added&nbsp;to&nbsp;your&nbsp;attacks&nbsp;when&nbsp;using&nbsp;Psionic&nbsp;Fist&nbsp;or&nbsp;<a&nbsp;href="/wiki/Greater_Psionic_Fist"&nbsp;title="Greater&nbsp;Psionic&nbsp;Fist">Greater&nbsp;Psionic&nbsp;Fist</a>.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;reroll&nbsp;any&nbsp;extra&nbsp;damage&nbsp;dice&nbsp;from&nbsp;Psionic&nbsp;Fist&nbsp;or&nbsp;Greater&nbsp;Psionic&nbsp;Fist&nbsp;and&nbsp;take&nbsp;the&nbsp;better&nbsp;result.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Enlightened_Monk"&nbsp;title="Enlightened&nbsp;Monk">Enlightened&nbsp;Monk</a></li><li><a&nbsp;href="/wiki/Psionic_Fighter"&nbsp;title="Psionic&nbsp;Fighter">Psionic&nbsp;Fighter</a></li></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Genesis_Avatar"&nbsp;title="Genesis&nbsp;Avatar">Genesis&nbsp;Avatar</a></li></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Advanced_Feral_Path"&nbsp;title="Advanced&nbsp;Feral&nbsp;Path">Advanced&nbsp;Feral&nbsp;Path</a></li><li><a&nbsp;href="/wiki/Crystal_Strike"&nbsp;title="Crystal&nbsp;Strike">Crystal&nbsp;Strike</a></li><li><a&nbsp;href="/wiki/Greater_Psionic_Fist"&nbsp;title="Greater&nbsp;Psionic&nbsp;Fist">Greater&nbsp;Psionic&nbsp;Fist</a></li><li><a&nbsp;href="/wiki/Piercing_Attack"&nbsp;title="Piercing&nbsp;Attack">Piercing&nbsp;Attack</a></li><li><a&nbsp;href="/wiki/Psi-Animus_Assault"&nbsp;title="Psi-Animus&nbsp;Assault">Psi-Animus&nbsp;Assault</a></li><li><a&nbsp;href="/wiki/Psionic_Fist_(Mythic)"&nbsp;title="Psionic&nbsp;Fist&nbsp;(Mythic)">Psionic&nbsp;Fist&nbsp;(Mythic)</a></li><li><a&nbsp;href="/wiki/Reality-Puncturing_Attack"&nbsp;title="Reality-Puncturing&nbsp;Attack">Reality-Puncturing&nbsp;Attack</a></li><li><a&nbsp;href="/wiki/Tear_Resilience"&nbsp;title="Tear&nbsp;Resilience">Tear&nbsp;Resilience</a></li><li><a&nbsp;href="/wiki/Unavoidable_Strike"&nbsp;title="Unavoidable&nbsp;Strike">Unavoidable&nbsp;Strike</a></li></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false
@@ -70,17 +38,11 @@ system:
     - date: ''
       errata: ''
       id: ''
-      pages: '57'
+      pages: '20'
       publisher: Dreamscarred Press
-      title: 'Psionics Unleashed: Revised'
-    - date: ''
-      errata: ''
-      id: ''
-      pages: '112'
-      publisher: Dreamscarred Press
-      title: Ultimate Psionics
+      title: 'Psionics Augmented: Mythic Psionics'
   subType: feat
   summons: false
   tags:
-    - psionic
+    - feat
 type: feat

@@ -1,0 +1,82 @@
+_id: XjMbJXfoDw5OGw5w
+_key: '!items!XjMbJXfoDw5OGw5w'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Disciple_of_Fear
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Disciple of Fear
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;have&nbsp;studied&nbsp;the&nbsp;intricacies&nbsp;of&nbsp;terror&nbsp;and&nbsp;fear,
+
+      being&nbsp;able&nbsp;to&nbsp;use&nbsp;this&nbsp;knowledge&nbsp;to&nbsp;further&nbsp;your&nbsp;own
+
+      powers&nbsp;beyond&nbsp;what&nbsp;would&nbsp;normally&nbsp;be&nbsp;available&nbsp;for
+
+      you.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Devastating&nbsp;touch&nbsp;class&nbsp;feature,
+
+      terrors&nbsp;class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>For&nbsp;the&nbsp;purpose&nbsp;of&nbsp;your&nbsp;devastating&nbsp;touch
+
+      and&nbsp;terror&nbsp;class&nbsp;features,&nbsp;your&nbsp;effective&nbsp;class&nbsp;level
+
+      increases&nbsp;by&nbsp;4.&nbsp;This&nbsp;benefit&nbsp;can’t&nbsp;increase&nbsp;your&nbsp;effective
+
+      class&nbsp;level&nbsp;to&nbsp;higher&nbsp;than&nbsp;your&nbsp;Hit&nbsp;Dice.&nbsp;However,&nbsp;even
+
+      if&nbsp;you&nbsp;can’t&nbsp;benefit&nbsp;from&nbsp;the&nbsp;full&nbsp;bonus&nbsp;immediately,&nbsp;if
+
+      you&nbsp;later&nbsp;gain&nbsp;Hit&nbsp;Dice&nbsp;in&nbsp;levels&nbsp;of&nbsp;other&nbsp;classes,&nbsp;you
+
+      might&nbsp;be&nbsp;able&nbsp;to&nbsp;apply&nbsp;the&nbsp;rest&nbsp;of&nbsp;the&nbsp;bonus.&nbsp;This&nbsp;feat
+
+      does&nbsp;not&nbsp;affect&nbsp;your&nbsp;terrors&nbsp;known&nbsp;or&nbsp;give&nbsp;you&nbsp;further
+
+      uses&nbsp;of&nbsp;your&nbsp;terrors,&nbsp;but&nbsp;increases&nbsp;it&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of
+
+      augmentation&nbsp;and&nbsp;save&nbsp;DC’s.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

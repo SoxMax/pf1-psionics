@@ -1,0 +1,86 @@
+_id: Dr98xNmCPlKoAJkI
+_key: '!items!Dr98xNmCPlKoAJkI'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Speed_of_Thought
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Speed of Thought
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>The&nbsp;energy&nbsp;of&nbsp;your&nbsp;mind&nbsp;energizes&nbsp;the&nbsp;alacrity&nbsp;of&nbsp;your
+
+      body.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Wis&nbsp;13.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>As&nbsp;long&nbsp;as&nbsp;you&nbsp;are&nbsp;psionically&nbsp;focused&nbsp;and
+
+      not&nbsp;wearing&nbsp;heavy&nbsp;armor,&nbsp;you&nbsp;gain&nbsp;an&nbsp;insight&nbsp;bonus
+
+      to&nbsp;your&nbsp;speed&nbsp;of&nbsp;10&nbsp;feet.&nbsp;&nbsp;You&nbsp;may&nbsp;expend&nbsp;your&nbsp;psionic
+
+      focus&nbsp;to&nbsp;increase&nbsp;the&nbsp;insight&nbsp;bonus&nbsp;to&nbsp;your&nbsp;speed&nbsp;to&nbsp;30
+
+      feet&nbsp;for&nbsp;your&nbsp;turn.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>You&nbsp;are&nbsp;faster&nbsp;than&nbsp;the&nbsp;eye&nbsp;can&nbsp;see.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Speed&nbsp;of&nbsp;Thought.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;Double&nbsp;the&nbsp;bonus&nbsp;to&nbsp;your&nbsp;speed&nbsp;from&nbsp;Speed&nbsp;of&nbsp;Thought.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;when&nbsp;taking&nbsp;a&nbsp;5-foot&nbsp;step&nbsp;to&nbsp;instead&nbsp;move&nbsp;your&nbsp;full&nbsp;speed.&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

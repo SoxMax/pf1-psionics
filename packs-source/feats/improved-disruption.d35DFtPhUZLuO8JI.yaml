@@ -1,0 +1,78 @@
+_id: d35DFtPhUZLuO8JI
+_key: '!items!d35DFtPhUZLuO8JI'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Improved_Disruption
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Improved Disruption
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;disrupt&nbsp;pattern&nbsp;attacks&nbsp;are&nbsp;more&nbsp;destructive.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Disrupt&nbsp;pattern&nbsp;ability.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>Your&nbsp;disrupt&nbsp;pattern&nbsp;ability&nbsp;deals&nbsp;one
+
+      additional&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die&nbsp;of&nbsp;damage.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>Your&nbsp;ability&nbsp;to&nbsp;unravel&nbsp;patterns&nbsp;is&nbsp;extremely&nbsp;advanced.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Improved&nbsp;Disruption.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;Your&nbsp;disrupt&nbsp;pattern&nbsp;ability&nbsp;deals&nbsp;an&nbsp;additional&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die&nbsp;equal&nbsp;to&nbsp;half&nbsp;your&nbsp;mythic&nbsp;tier&nbsp;(minimum&nbsp;1.)&nbsp;You&nbsp;can&nbsp;expend&nbsp;one&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;when&nbsp;using&nbsp;disrupt&nbsp;pattern&nbsp;to&nbsp;maximize&nbsp;the&nbsp;damage&nbsp;of&nbsp;the&nbsp;ability,&nbsp;treating&nbsp;all&nbsp;dice&nbsp;rolled&nbsp;as&nbsp;the&nbsp;maximum&nbsp;value&nbsp;possible.&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

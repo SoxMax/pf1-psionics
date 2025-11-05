@@ -1,0 +1,88 @@
+_id: JpYoizsD3r5zjKcy
+_key: '!items!JpYoizsD3r5zjKcy'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Talent
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Psionic Talent
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;gain&nbsp;additional&nbsp;power&nbsp;points&nbsp;to&nbsp;supplement&nbsp;those
+
+      you&nbsp;already&nbsp;had.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Having&nbsp;a&nbsp;power&nbsp;point&nbsp;reserve.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;take&nbsp;this&nbsp;feat&nbsp;for&nbsp;the&nbsp;first&nbsp;time,&nbsp;you
+
+      gain&nbsp;2&nbsp;power&nbsp;points.
+
+      </p>
+
+      <p><strong>Special:&nbsp;</strong>You&nbsp;can&nbsp;take&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;times.&nbsp;Each
+
+      time&nbsp;you&nbsp;take&nbsp;the&nbsp;feat&nbsp;after&nbsp;the&nbsp;first&nbsp;time,&nbsp;the&nbsp;number&nbsp;of
+
+      power&nbsp;points&nbsp;you&nbsp;gain&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>Your&nbsp;reservoir&nbsp;of&nbsp;psionic&nbsp;power&nbsp;grows&nbsp;more&nbsp;quickly&nbsp;than&nbsp;most.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Psionic&nbsp;Talent.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;Double&nbsp;the&nbsp;number&nbsp;of&nbsp;power&nbsp;points&nbsp;gained&nbsp;for&nbsp;each&nbsp;Psionic&nbsp;Talent&nbsp;feat&nbsp;you&nbsp;possess.&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

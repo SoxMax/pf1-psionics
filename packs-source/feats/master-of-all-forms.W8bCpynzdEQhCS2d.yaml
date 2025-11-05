@@ -1,0 +1,64 @@
+_id: W8bCpynzdEQhCS2d
+_key: '!items!W8bCpynzdEQhCS2d'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Master_of_All_Forms
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Master of All Forms
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>No&nbsp;longer&nbsp;inhibited&nbsp;by&nbsp;a&nbsp;single&nbsp;form,&nbsp;you&nbsp;are&nbsp;able&nbsp;to
+
+      instantly&nbsp;change&nbsp;into&nbsp;the&nbsp;perfect&nbsp;shape&nbsp;for&nbsp;your&nbsp;current
+
+      dilemma.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong><a&nbsp;href="/wiki/Swift_Shapeshifter"&nbsp;title="Swift&nbsp;Shapeshifter">Swift&nbsp;Shapeshifter</a>,&nbsp;ability&nbsp;to&nbsp;manifest
+
+      <em>metamorphosis</em></p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;manifest&nbsp;<em>minor&nbsp;metamorphosis,</em><em>major&nbsp;metamorphosis&nbsp;or&nbsp;metamorphosis&nbsp;</em>the
+
+      manifestation&nbsp;time&nbsp;is&nbsp;a&nbsp;swift&nbsp;action&nbsp;instead&nbsp;of&nbsp;a&nbsp;standard
+
+      action.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

@@ -1,0 +1,66 @@
+_id: Lusm3OjikTji9RZi
+_key: '!items!Lusm3OjikTji9RZi'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Quick_Suit
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Quick Suit
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;have&nbsp;learned&nbsp;to&nbsp;quickly&nbsp;form&nbsp;your&nbsp;astral&nbsp;suit.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Astral&nbsp;suit&nbsp;class&nbsp;feature,&nbsp;reconfigure
+
+      class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;form&nbsp;your&nbsp;astral&nbsp;suit&nbsp;as&nbsp;a&nbsp;free&nbsp;action
+
+      once&nbsp;per&nbsp;turn.
+
+      </p>
+
+      <p><strong>Normal:&nbsp;</strong>Forming&nbsp;an&nbsp;astral&nbsp;suit&nbsp;takes&nbsp;a&nbsp;swift&nbsp;action&nbsp;for
+
+      astral&nbsp;skin,&nbsp;a&nbsp;standard&nbsp;action&nbsp;for&nbsp;astral&nbsp;armor,&nbsp;and&nbsp;a&nbsp;full-round&nbsp;action&nbsp;for&nbsp;astral&nbsp;juggernaut.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation I'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

@@ -1,0 +1,73 @@
+_id: U0N651fNKPDyub8w
+_key: '!items!U0N651fNKPDyub8w'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Focused_Precision
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Focused Precision
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;aim&nbsp;is&nbsp;so&nbsp;precise&nbsp;that&nbsp;you&nbsp;find&nbsp;just&nbsp;the&nbsp;right&nbsp;spot
+
+      to&nbsp;maximize&nbsp;the&nbsp;damage&nbsp;of&nbsp;your&nbsp;attacks.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Base&nbsp;attack&nbsp;bonus&nbsp;+7,&nbsp;Dexterity&nbsp;17,
+
+      Weapon&nbsp;Focus&nbsp;(any&nbsp;crossbow&nbsp;or&nbsp;firearm),&nbsp;style&nbsp;ability
+
+      class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>While&nbsp;maintaining&nbsp;psionic&nbsp;focus,&nbsp;you&nbsp;add
+
+      your&nbsp;Dexterity&nbsp;modifier&nbsp;to&nbsp;damage&nbsp;rolls&nbsp;made&nbsp;with&nbsp;a
+
+      crossbow&nbsp;or&nbsp;firearm&nbsp;for&nbsp;which&nbsp;you&nbsp;have&nbsp;the&nbsp;Weapon
+
+      Focus&nbsp;feat.&nbsp;Damage&nbsp;from&nbsp;this&nbsp;feat&nbsp;is&nbsp;precision-based
+
+      damage,&nbsp;so&nbsp;creatures&nbsp;immune&nbsp;to&nbsp;precision&nbsp;damage&nbsp;are
+
+      immune&nbsp;to&nbsp;this&nbsp;extra&nbsp;damage.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation I'
+  subType: feat
+  summons: false
+  tags:
+    - combat
+    - psionic
+type: feat

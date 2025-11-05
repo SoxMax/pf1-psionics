@@ -1,0 +1,78 @@
+_id: qD3Uk0PWmmFNpFyv
+_key: '!items!qD3Uk0PWmmFNpFyv'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Focused_Sunder
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Focused Sunder
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;sense&nbsp;the&nbsp;stress&nbsp;points&nbsp;on&nbsp;others’&nbsp;weapons.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Str&nbsp;13,&nbsp;Power&nbsp;Attack,&nbsp;Improved&nbsp;Sunder.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your
+
+      psionic&nbsp;focus.&nbsp;When&nbsp;you&nbsp;strike&nbsp;at&nbsp;an&nbsp;opponent’s&nbsp;weapon,
+
+      you&nbsp;ignore&nbsp;half&nbsp;of&nbsp;the&nbsp;weapon’s&nbsp;total&nbsp;hardness&nbsp;(round
+
+      down).&nbsp;Total&nbsp;hardness&nbsp;includes&nbsp;any&nbsp;magical&nbsp;or&nbsp;psionic
+
+      enhancements&nbsp;possessed&nbsp;by&nbsp;the&nbsp;weapon&nbsp;that&nbsp;increase
+
+      its&nbsp;hardness.
+
+      </p>
+
+      <p><strong>Special:&nbsp;</strong>You&nbsp;can&nbsp;also&nbsp;sense&nbsp;the&nbsp;stress&nbsp;points&nbsp;in&nbsp;any
+
+      hard&nbsp;construction,&nbsp;such&nbsp;as&nbsp;wooden&nbsp;doors&nbsp;or&nbsp;stone&nbsp;walls,
+
+      and&nbsp;can&nbsp;ignore&nbsp;half&nbsp;of&nbsp;the&nbsp;object’s&nbsp;total&nbsp;hardness&nbsp;(round
+
+      down)&nbsp;when&nbsp;attacking&nbsp;that&nbsp;object.&nbsp;You&nbsp;must&nbsp;still&nbsp;expend
+
+      your&nbsp;psionic&nbsp;focus&nbsp;when&nbsp;using&nbsp;this&nbsp;special&nbsp;option.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

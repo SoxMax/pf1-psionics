@@ -1,0 +1,78 @@
+_id: JDfNYjd0RCsEzTx5
+_key: '!items!JDfNYjd0RCsEzTx5'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Shield_Bash
+img: icons/equipment/shield/heater-crystal-blue.webp
+name: Psionic Shield Bash
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;shield&nbsp;bash&nbsp;attacks&nbsp;can&nbsp;strike&nbsp;both&nbsp;the&nbsp;body&nbsp;and
+
+      mind&nbsp;of&nbsp;a&nbsp;foe.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Improved&nbsp;Shield&nbsp;Bash,&nbsp;Shield
+
+      Proficiency.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>While&nbsp;maintaining&nbsp;psionic&nbsp;focus,&nbsp;when&nbsp;you
+
+      successfully&nbsp;strike&nbsp;a&nbsp;foe&nbsp;with&nbsp;a&nbsp;shield&nbsp;bash&nbsp;attack,&nbsp;the&nbsp;foe
+
+      must&nbsp;also&nbsp;make&nbsp;a&nbsp;Will&nbsp;save&nbsp;(DC&nbsp;10&nbsp;+&nbsp;one-half&nbsp;your&nbsp;base
+
+      attack&nbsp;bonus&nbsp;+&nbsp;your&nbsp;Wisdom&nbsp;modifier)&nbsp;or&nbsp;be&nbsp;shaken&nbsp;for
+
+      1&nbsp;round.&nbsp;This&nbsp;is&nbsp;a&nbsp;mind-affecting&nbsp;fear&nbsp;effect.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when&nbsp;you&nbsp;make&nbsp;a
+
+      shield&nbsp;bash,&nbsp;on&nbsp;a&nbsp;successful&nbsp;attack&nbsp;roll&nbsp;you&nbsp;can&nbsp;instead
+
+      force&nbsp;the&nbsp;target&nbsp;to&nbsp;make&nbsp;a&nbsp;Will&nbsp;saving&nbsp;throw&nbsp;or&nbsp;be
+
+      stunned&nbsp;for&nbsp;1&nbsp;round.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

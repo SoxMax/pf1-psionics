@@ -1,0 +1,66 @@
+_id: GPQ1xpdMNAMNvFn1
+_key: '!items!GPQ1xpdMNAMNvFn1'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Touch_of_Terror
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Touch of Terror
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;devastating&nbsp;touch&nbsp;deals&nbsp;additional&nbsp;damage.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Devastating&nbsp;touch&nbsp;class&nbsp;feature
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>Your&nbsp;devastating&nbsp;touch&nbsp;ability&nbsp;deals&nbsp;1d6
+
+      points&nbsp;of&nbsp;damage&nbsp;plus&nbsp;your&nbsp;class&nbsp;level&nbsp;and&nbsp;your
+
+      Charisma&nbsp;modifier.
+
+      </p>
+
+      <p><strong>Normal:&nbsp;</strong>Devastating&nbsp;touch&nbsp;deals&nbsp;1d6&nbsp;points&nbsp;of
+
+      damage&nbsp;plus&nbsp;your&nbsp;class&nbsp;level.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

@@ -1,0 +1,64 @@
+_id: SBXovqefw24EnSuR
+_key: '!items!SBXovqefw24EnSuR'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Advanced_Constructs
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Advanced Constructs
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;are&nbsp;especially&nbsp;skilled&nbsp;at&nbsp;creating&nbsp;astral&nbsp;constructs.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Able&nbsp;to&nbsp;manifest&nbsp;<em><a>astral&nbsp;construct</a></em>.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;gain&nbsp;additional&nbsp;menu&nbsp;options&nbsp;for&nbsp;astral
+
+      constructs,&nbsp;as&nbsp;detailed&nbsp;below.
+
+      </p>
+
+      <p><em><strong>Menu&nbsp;A</strong></em></p><ul><li><strong>Armor&nbsp;Spikes&nbsp;(Ex):&nbsp;</strong>The&nbsp;construct’s&nbsp;body&nbsp;is&nbsp;covered&nbsp;in&nbsp;spikes,&nbsp;allowing&nbsp;the&nbsp;construct&nbsp;to&nbsp;deal&nbsp;an&nbsp;extra&nbsp;1d6&nbsp;points&nbsp;of&nbsp;piercing&nbsp;damage&nbsp;with&nbsp;a&nbsp;successful&nbsp;trample,&nbsp;constrict,&nbsp;bull&nbsp;rush,&nbsp;or&nbsp;grapple&nbsp;attack.&nbsp;The&nbsp;construct&nbsp;also&nbsp;can&nbsp;make&nbsp;a&nbsp;regular&nbsp;melee&nbsp;attack&nbsp;with&nbsp;the&nbsp;spikes,&nbsp;dealing&nbsp;1d6&nbsp;points&nbsp;of&nbsp;damage.</li><li><strong>Dodge&nbsp;(Ex):&nbsp;</strong>The&nbsp;astral&nbsp;construct&nbsp;gains&nbsp;the&nbsp;Dodge&nbsp;feat&nbsp;even&nbsp;if&nbsp;it&nbsp;does&nbsp;not&nbsp;meet&nbsp;the&nbsp;prerequisites.</li><li><strong>Psionic&nbsp;Attacks&nbsp;(Su):&nbsp;</strong>The&nbsp;astral&nbsp;construct’s&nbsp;attacks&nbsp;are&nbsp;treated&nbsp;as&nbsp;psionic&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of&nbsp;overcoming&nbsp;damage&nbsp;reduction.</li><li><strong>Might&nbsp;(Ex):&nbsp;</strong>The&nbsp;astral&nbsp;construct’s&nbsp;melee&nbsp;attacks&nbsp;deal&nbsp;an&nbsp;additional&nbsp;+1&nbsp;point&nbsp;of&nbsp;damage.</li><li><strong>Talons&nbsp;(Ex):&nbsp;</strong>The&nbsp;astral&nbsp;construct&nbsp;replaces&nbsp;its&nbsp;slam&nbsp;attacks&nbsp;with&nbsp;claw&nbsp;attacks&nbsp;that&nbsp;deal&nbsp;either&nbsp;slashing&nbsp;or&nbsp;piercing&nbsp;damage,&nbsp;chosen&nbsp;at&nbsp;time&nbsp;of&nbsp;manifestation.</li><li><strong>Utility&nbsp;(Ex):&nbsp;</strong>Your&nbsp;construct&nbsp;can&nbsp;perform&nbsp;tasks&nbsp;for&nbsp;you.&nbsp;This&nbsp;can&nbsp;include&nbsp;such&nbsp;tasks&nbsp;as&nbsp;cleaning,&nbsp;cooking,&nbsp;or&nbsp;setting&nbsp;up&nbsp;camp,&nbsp;or&nbsp;any&nbsp;other&nbsp;activity&nbsp;that&nbsp;requires&nbsp;a&nbsp;DC&nbsp;10&nbsp;or&nbsp;lower&nbsp;skill&nbsp;check.&nbsp;An&nbsp;astral&nbsp;construct&nbsp;with&nbsp;this&nbsp;option&nbsp;does&nbsp;not&nbsp;need&nbsp;to&nbsp;stay&nbsp;close&nbsp;to&nbsp;the&nbsp;manifester&nbsp;and&nbsp;will&nbsp;continue&nbsp;following&nbsp;any&nbsp;given&nbsp;order&nbsp;until&nbsp;given&nbsp;other&nbsp;instructions.&nbsp;You&nbsp;can&nbsp;select&nbsp;this&nbsp;menu&nbsp;option&nbsp;multiple&nbsp;times.&nbsp;Each&nbsp;time,&nbsp;the&nbsp;DC&nbsp;of&nbsp;skill&nbsp;checks&nbsp;the&nbsp;construct&nbsp;can&nbsp;attempt&nbsp;increases&nbsp;by&nbsp;2.&nbsp;An&nbsp;astral&nbsp;construct&nbsp;with&nbsp;this&nbsp;option&nbsp;that&nbsp;is&nbsp;not&nbsp;used&nbsp;in&nbsp;combat&nbsp;has&nbsp;a&nbsp;duration&nbsp;of&nbsp;1&nbsp;hour&nbsp;/&nbsp;level.&nbsp;If&nbsp;it&nbsp;later&nbsp;enters&nbsp;combat,&nbsp;its&nbsp;duration&nbsp;resets&nbsp;to&nbsp;1&nbsp;round&nbsp;/&nbsp;level,&nbsp;but&nbsp;suffers&nbsp;a&nbsp;-2&nbsp;penalty&nbsp;to&nbsp;its&nbsp;attack&nbsp;rolls.</li></ul>
+
+      <p><em><strong>Menu&nbsp;B</strong></em></p><ul><li><strong>Great&nbsp;Cleave&nbsp;(Ex):&nbsp;</strong>The&nbsp;astral&nbsp;construct&nbsp;gains&nbsp;the&nbsp;Great&nbsp;Cleave&nbsp;feat&nbsp;even&nbsp;if&nbsp;it&nbsp;does&nbsp;not&nbsp;meet&nbsp;the&nbsp;prerequisites.</li><li><strong>Improved&nbsp;Might&nbsp;(Ex):&nbsp;</strong>The&nbsp;astral&nbsp;construct’s&nbsp;melee&nbsp;attacks&nbsp;deal&nbsp;an&nbsp;additional&nbsp;+3&nbsp;points&nbsp;of&nbsp;damage.&nbsp;This&nbsp;does&nbsp;not&nbsp;stack&nbsp;with&nbsp;the&nbsp;Might&nbsp;menu&nbsp;option.</li><li><strong>Reach&nbsp;(Ex):&nbsp;</strong>The&nbsp;astral&nbsp;construct’s&nbsp;reach&nbsp;increases&nbsp;by&nbsp;5&nbsp;feet.</li><li><strong>Stunning&nbsp;Fist&nbsp;(Ex):&nbsp;</strong>The&nbsp;astral&nbsp;construct&nbsp;gains&nbsp;the&nbsp;Stunning&nbsp;Fist&nbsp;feat&nbsp;even&nbsp;if&nbsp;it&nbsp;does&nbsp;not&nbsp;meet&nbsp;the&nbsp;prerequisites.&nbsp;The&nbsp;construct&nbsp;can&nbsp;use&nbsp;Stunning&nbsp;Fist&nbsp;with&nbsp;its&nbsp;slam&nbsp;attack.</li></ul>
+
+      <p><em><strong>Menu&nbsp;C</strong></em></p><ul><li><strong>Greater&nbsp;Might&nbsp;(Ex):&nbsp;</strong>The&nbsp;astral&nbsp;construct’s&nbsp;melee&nbsp;attacks&nbsp;deal&nbsp;an&nbsp;additional&nbsp;+5&nbsp;points&nbsp;of&nbsp;damage.&nbsp;This&nbsp;does&nbsp;not&nbsp;stack&nbsp;with&nbsp;the&nbsp;Improved&nbsp;Might&nbsp;or&nbsp;Might&nbsp;menu&nbsp;option.</li><li><strong>Tail&nbsp;Slap&nbsp;(Ex):&nbsp;</strong>The&nbsp;astral&nbsp;construct&nbsp;gains&nbsp;a&nbsp;tail,&nbsp;giving&nbsp;it&nbsp;a&nbsp;tail&nbsp;slap&nbsp;secondary&nbsp;attack.&nbsp;A&nbsp;tail&nbsp;slap&nbsp;deals&nbsp;2d8&nbsp;points&nbsp;of&nbsp;damage.</li></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

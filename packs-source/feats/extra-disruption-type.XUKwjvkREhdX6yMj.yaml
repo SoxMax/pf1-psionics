@@ -1,0 +1,60 @@
+_id: XUKwjvkREhdX6yMj
+_key: '!items!XUKwjvkREhdX6yMj'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Extra_Disruption_Type
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Extra Disruption Type
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;have&nbsp;more&nbsp;active&nbsp;creature&nbsp;types&nbsp;with&nbsp;your
+
+      disrupt&nbsp;pattern.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Disrupt&nbsp;pattern&nbsp;class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;gain&nbsp;psionic&nbsp;focus,&nbsp;you&nbsp;can&nbsp;select
+
+      one&nbsp;additional&nbsp;creature&nbsp;type&nbsp;as&nbsp;your&nbsp;active&nbsp;type.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

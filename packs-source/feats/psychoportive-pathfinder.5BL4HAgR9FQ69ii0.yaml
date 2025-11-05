@@ -1,0 +1,74 @@
+_id: 5BL4HAgR9FQ69ii0
+_key: '!items!5BL4HAgR9FQ69ii0'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psychoportive_Pathfinder
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Psychoportive Pathfinder
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;expertise&nbsp;in&nbsp;dimensional&nbsp;movement&nbsp;has&nbsp;made
+
+      you&nbsp;the&nbsp;perfect&nbsp;guide&nbsp;for&nbsp;others.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Nomad,&nbsp;ability&nbsp;to&nbsp;manifest&nbsp;<em><a&nbsp;href="/wiki/Trace_psychoport"&nbsp;class="mw-redirect"&nbsp;title="Trace&nbsp;psychoport">trace&nbsp;psychoport</a></em>and&nbsp;either&nbsp;<em><a&nbsp;href="/wiki/Psychoport"&nbsp;title="Psychoport">psychoport</a></em>or&nbsp;<em><a&nbsp;href="/wiki/Greater_psychoport"&nbsp;class="mw-redirect"&nbsp;title="Greater&nbsp;psychoport">greater&nbsp;psychoport</a></em>.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>Any&nbsp;time&nbsp;you&nbsp;manifest&nbsp;<em>psychoport</em>,&nbsp;you&nbsp;may,
+
+      as&nbsp;a&nbsp;free&nbsp;action,&nbsp;choose&nbsp;to&nbsp;leave&nbsp;a&nbsp;marker&nbsp;for&nbsp;someone
+
+      else&nbsp;to&nbsp;follow.&nbsp;This&nbsp;marker&nbsp;has&nbsp;a&nbsp;duration&nbsp;of&nbsp;one&nbsp;round.
+
+      If&nbsp;another&nbsp;person&nbsp;casts&nbsp;<em>teleport&nbsp;</em>or&nbsp;<em>greater&nbsp;teleport&nbsp;</em>or
+
+      manifests&nbsp;<em>psychoport&nbsp;</em>or&nbsp;<em>greater&nbsp;psychoport&nbsp;</em>in&nbsp;the&nbsp;space
+
+      you&nbsp;left&nbsp;from,&nbsp;they&nbsp;can&nbsp;choose&nbsp;as&nbsp;part&nbsp;of&nbsp;casting&nbsp;the&nbsp;spell
+
+      or&nbsp;manifesting&nbsp;the&nbsp;power&nbsp;to&nbsp;appear&nbsp;adjacent&nbsp;to&nbsp;you&nbsp;in&nbsp;a
+
+      safe,&nbsp;uninhabited&nbsp;space&nbsp;even&nbsp;if&nbsp;they&nbsp;would&nbsp;normally&nbsp;fail
+
+      due&nbsp;to&nbsp;lack&nbsp;of&nbsp;familiarity&nbsp;or&nbsp;lack&nbsp;of&nbsp;range.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation I'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

@@ -1,7 +1,5 @@
 _id: SKqgzIksastZXJzq
 _key: '!items!SKqgzIksastZXJzq'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Advanced_Survivor_Path
@@ -30,29 +28,7 @@ system:
 
       <p><strong>Benefit:</strong>&nbsp;When&nbsp;using&nbsp;the&nbsp;survivor&nbsp;trance,&nbsp;you&nbsp;gain&nbsp;resistance&nbsp;to&nbsp;your&nbsp;active&nbsp;energy&nbsp;type.&nbsp;The&nbsp;resistance&nbsp;is&nbsp;equal&nbsp;to&nbsp;5&nbsp;for&nbsp;every&nbsp;four&nbsp;psychic&nbsp;warrior&nbsp;levels&nbsp;you&nbsp;have.&nbsp;In&nbsp;addition,&nbsp;when&nbsp;using&nbsp;the&nbsp;survivor&nbsp;maneuver,&nbsp;the&nbsp;bonus&nbsp;to&nbsp;Will&nbsp;saves&nbsp;can&nbsp;instead&nbsp;apply&nbsp;to&nbsp;Fortitude&nbsp;saves.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Mind_Over_Body"&nbsp;title="Mind&nbsp;Over&nbsp;Body">Mind&nbsp;Over&nbsp;Body</a></li></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

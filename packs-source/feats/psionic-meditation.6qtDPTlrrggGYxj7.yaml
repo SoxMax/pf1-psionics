@@ -1,10 +1,8 @@
 _id: 6qtDPTlrrggGYxj7
 _key: '!items!6qtDPTlrrggGYxj7'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
-    sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Meditation
+    sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Meditation_(Mythic)
 img: icons/magic/perception/third-eye-blue-red.webp
 name: Psionic Meditation
 system:
@@ -22,49 +20,15 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;focus&nbsp;your&nbsp;mind&nbsp;faster&nbsp;than&nbsp;normal,&nbsp;even&nbsp;under&nbsp;duress.</em></p>
+      <p><em>Gaining&nbsp;psionic&nbsp;focus&nbsp;comes&nbsp;second&nbsp;nature&nbsp;to&nbsp;you.</em></p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Wis&nbsp;13,&nbsp;Autohypnosis&nbsp;4&nbsp;ranks.
-
-      </p>
-
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;can&nbsp;take&nbsp;a&nbsp;move&nbsp;action&nbsp;to&nbsp;become&nbsp;psionically&nbsp;focused.
+      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Psionic_Meditation"&nbsp;title="Psionic&nbsp;Meditation">Psionic&nbsp;Meditation</a>.
 
       </p>
 
-      <p><strong>Normal:</strong>&nbsp;A&nbsp;character&nbsp;without&nbsp;this&nbsp;feat&nbsp;must&nbsp;take&nbsp;a&nbsp;full-round&nbsp;action&nbsp;to&nbsp;become&nbsp;psionically&nbsp;focused.
+      <p><strong>Benefit:</strong>&nbsp;You&nbsp;no&nbsp;longer&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;when&nbsp;meditating&nbsp;to&nbsp;gain&nbsp;psionic&nbsp;focus.&nbsp;Should&nbsp;you&nbsp;have&nbsp;multiple&nbsp;psionic&nbsp;foci,&nbsp;such&nbsp;as&nbsp;from&nbsp;<a&nbsp;href="/wiki/Deep_Focus"&nbsp;title="Deep&nbsp;Focus">Deep&nbsp;Focus</a>,&nbsp;you&nbsp;regain&nbsp;any&nbsp;psionic&nbsp;focus&nbsp;you&nbsp;are&nbsp;not&nbsp;currently&nbsp;maintaining&nbsp;anytime&nbsp;you&nbsp;meditate&nbsp;to&nbsp;gain&nbsp;psionic&nbsp;focus.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;to&nbsp;regain&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;a&nbsp;free&nbsp;action.
 
       </p>
-
-      <p><strong>Special:</strong>&nbsp;This&nbsp;feat&nbsp;works&nbsp;on&nbsp;other&nbsp;methods&nbsp;of&nbsp;psionic&nbsp;focus,&nbsp;such&nbsp;as&nbsp;that&nbsp;permitted&nbsp;by&nbsp;<a&nbsp;href="/wiki/Psicrystal_Containment"&nbsp;title="Psicrystal&nbsp;Containment">Psicrystal&nbsp;Containment</a>.
-
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Blasting_Wilder"&nbsp;title="Blasting&nbsp;Wilder">Blasting&nbsp;Wilder</a></li><li><a&nbsp;href="/wiki/Contemplative"&nbsp;title="Contemplative">Contemplative</a></li><li><a&nbsp;href="/wiki/Gatesmasher"&nbsp;title="Gatesmasher">Gatesmasher</a></li></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Highlord"&nbsp;title="Highlord">Highlord</a></li><li><a&nbsp;href="/wiki/Marksman"&nbsp;title="Marksman">Marksman</a></li></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Advanced_Mind_Knight_Path"&nbsp;title="Advanced&nbsp;Mind&nbsp;Knight&nbsp;Path">Advanced&nbsp;Mind&nbsp;Knight&nbsp;Path</a></li><li><a&nbsp;href="/wiki/Animus_Focus"&nbsp;title="Animus&nbsp;Focus">Animus&nbsp;Focus</a></li><li><a&nbsp;href="/wiki/Biokinetic_Adept"&nbsp;title="Biokinetic&nbsp;Adept">Biokinetic&nbsp;Adept</a></li><li><a&nbsp;href="/wiki/Biokinetic_Rhythms"&nbsp;title="Biokinetic&nbsp;Rhythms">Biokinetic&nbsp;Rhythms</a></li><li><a&nbsp;href="/wiki/Biokinetic_Shielding"&nbsp;title="Biokinetic&nbsp;Shielding">Biokinetic&nbsp;Shielding</a></li><li><a&nbsp;href="/wiki/Metapsionic_Knife"&nbsp;title="Metapsionic&nbsp;Knife">Metapsionic&nbsp;Knife</a></li><li><a&nbsp;href="/wiki/Persistent_Focus"&nbsp;title="Persistent&nbsp;Focus">Persistent&nbsp;Focus</a></li><li><a&nbsp;href="/wiki/Psionic_Meditation_(Mythic)"&nbsp;title="Psionic&nbsp;Meditation&nbsp;(Mythic)">Psionic&nbsp;Meditation&nbsp;(Mythic)</a></li><li><a&nbsp;href="/wiki/Psychic_Celerity"&nbsp;title="Psychic&nbsp;Celerity">Psychic&nbsp;Celerity</a></li></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
   disabled: false
   featType: feat
   inherited: false
@@ -74,17 +38,11 @@ system:
     - date: ''
       errata: ''
       id: ''
-      pages: '57'
+      pages: 20–21
       publisher: Dreamscarred Press
-      title: 'Psionics Unleashed: Revised'
-    - date: ''
-      errata: ''
-      id: ''
-      pages: '112'
-      publisher: Dreamscarred Press
-      title: Ultimate Psionics
+      title: 'Psionics Augmented: Mythic Psionics'
   subType: feat
   summons: false
   tags:
-    - psionic
+    - feat
 type: feat

@@ -1,0 +1,82 @@
+_id: zOBTuisr7IIrlmEt
+_key: '!items!zOBTuisr7IIrlmEt'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Extra_Insight
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Extra Insight
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;have&nbsp;unlocked&nbsp;a&nbsp;new&nbsp;insight.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Insight&nbsp;class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;gain&nbsp;one&nbsp;additional&nbsp;insight.&nbsp;You&nbsp;must
+
+      meet&nbsp;all&nbsp;of&nbsp;the&nbsp;prerequisites&nbsp;for&nbsp;this&nbsp;insight.
+
+      </p>
+
+      <p><strong>Special:&nbsp;</strong>You&nbsp;can&nbsp;gain&nbsp;Extra&nbsp;Insight&nbsp;multiple&nbsp;times.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>You&nbsp;can&nbsp;meditate&nbsp;to&nbsp;gain&nbsp;additional&nbsp;insights.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Extra&nbsp;Insight.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;Each&nbsp;day,&nbsp;you&nbsp;can&nbsp;take&nbsp;1&nbsp;hour&nbsp;of&nbsp;meditation&nbsp;to&nbsp;decide&nbsp;how&nbsp;to&nbsp;focus&nbsp;your&nbsp;mythic&nbsp;energies.&nbsp;At&nbsp;the&nbsp;end&nbsp;of&nbsp;this&nbsp;time,&nbsp;you&nbsp;gain&nbsp;one&nbsp;additional&nbsp;insight&nbsp;for&nbsp;which&nbsp;you&nbsp;meet&nbsp;all&nbsp;the&nbsp;prerequisites.&nbsp;You&nbsp;retain&nbsp;this&nbsp;insight&nbsp;until&nbsp;you&nbsp;next&nbsp;meditate&nbsp;on&nbsp;your&nbsp;mythic&nbsp;insights.&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

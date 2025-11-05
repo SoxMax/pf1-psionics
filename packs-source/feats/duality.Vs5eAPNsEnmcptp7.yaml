@@ -1,7 +1,5 @@
 _id: Vs5eAPNsEnmcptp7
 _key: '!items!Vs5eAPNsEnmcptp7'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Duality
@@ -30,27 +28,7 @@ system:
 
       <p><strong>Benefit:&nbsp;</strong>When&nbsp;saving&nbsp;against&nbsp;a&nbsp;twinned&nbsp;power,&nbsp;the&nbsp;targets&nbsp;must&nbsp;make&nbsp;both&nbsp;saves&nbsp;or&nbsp;be&nbsp;affected&nbsp;by&nbsp;both&nbsp;powers&nbsp;as&nbsp;if&nbsp;both&nbsp;saves&nbsp;were&nbsp;failed.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

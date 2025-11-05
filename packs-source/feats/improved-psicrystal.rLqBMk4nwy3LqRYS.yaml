@@ -1,0 +1,100 @@
+_id: rLqBMk4nwy3LqRYS
+_key: '!items!rLqBMk4nwy3LqRYS'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Improved_Psicrystal
+img: icons/commodities/gems/gem-faceted-diamond-blue.webp
+name: Improved Psicrystal
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;upgrade&nbsp;your&nbsp;psicrystal.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong><a&nbsp;href="/wiki/Psicrystal_Affinity"&nbsp;title="Psicrystal&nbsp;Affinity">Psicrystal&nbsp;Affinity</a>.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;implant&nbsp;another&nbsp;personality
+
+      fragment&nbsp;in&nbsp;your&nbsp;psicrystal.&nbsp;You&nbsp;gain&nbsp;the&nbsp;benefits&nbsp;of&nbsp;both
+
+      psicrystal&nbsp;personalities.&nbsp;Your&nbsp;psicrystal’s&nbsp;personality
+
+      adjusts&nbsp;and&nbsp;becomes&nbsp;a&nbsp;blend&nbsp;between&nbsp;all&nbsp;implanted
+
+      personality&nbsp;fragments.&nbsp;From&nbsp;now&nbsp;on,&nbsp;when&nbsp;determining
+
+      the&nbsp;abilities&nbsp;of&nbsp;your&nbsp;psicrystal,&nbsp;treat&nbsp;your&nbsp;level&nbsp;as&nbsp;one
+
+      higher&nbsp;than&nbsp;your&nbsp;normal&nbsp;level.
+
+      </p>
+
+      <p><strong>Special:&nbsp;</strong>You&nbsp;can&nbsp;gain&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;times.&nbsp;Each
+
+      time,&nbsp;you&nbsp;implant&nbsp;a&nbsp;new&nbsp;personality&nbsp;fragment&nbsp;in&nbsp;your
+
+      psicrystal,&nbsp;from&nbsp;which&nbsp;you&nbsp;derive&nbsp;the&nbsp;noted&nbsp;benefits,
+
+      and&nbsp;you&nbsp;treat&nbsp;your&nbsp;level&nbsp;as&nbsp;one&nbsp;higher&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of
+
+      determining&nbsp;your&nbsp;psicrystal’s&nbsp;abilities.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>The&nbsp;personality&nbsp;fragments&nbsp;from&nbsp;your&nbsp;psicrystal&nbsp;greatly&nbsp;improve&nbsp;your&nbsp;abilities.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Improved&nbsp;Psicrystal.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;The&nbsp;bonus&nbsp;gained&nbsp;from&nbsp;all&nbsp;of&nbsp;your&nbsp;psicrystal&nbsp;personalities&nbsp;doubles.&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

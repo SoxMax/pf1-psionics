@@ -1,7 +1,5 @@
 _id: LxJGK6YIuU2GXGVc
 _key: '!items!LxJGK6YIuU2GXGVc'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Greater_Psionic_Fist
@@ -30,29 +28,7 @@ system:
 
       <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;use&nbsp;the&nbsp;Psionic&nbsp;Fist&nbsp;feat,&nbsp;your&nbsp;unarmed&nbsp;attack&nbsp;or&nbsp;attack&nbsp;with&nbsp;a&nbsp;natural&nbsp;weapon&nbsp;deals&nbsp;an&nbsp;extra&nbsp;2&nbsp;points&nbsp;of&nbsp;damage&nbsp;instead&nbsp;of&nbsp;1&nbsp;point&nbsp;of&nbsp;damage&nbsp;while&nbsp;you&nbsp;maintain&nbsp;psionic&nbsp;focus,&nbsp;and&nbsp;deal&nbsp;an&nbsp;extra&nbsp;4d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;instead&nbsp;of&nbsp;an&nbsp;extra&nbsp;2d6&nbsp;points&nbsp;when&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Psionic_Fist"&nbsp;title="Psionic&nbsp;Fist">Psionic&nbsp;Fist</a></li><li><a&nbsp;href="/wiki/Psionic_Fist_(Mythic)"&nbsp;title="Psionic&nbsp;Fist&nbsp;(Mythic)">Psionic&nbsp;Fist&nbsp;(Mythic)</a></li></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

@@ -1,0 +1,62 @@
+_id: QwjBpxqN1nm6VjA3
+_key: '!items!QwjBpxqN1nm6VjA3'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Terror_Mastery
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Terror Mastery
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;have&nbsp;learned&nbsp;to&nbsp;activate&nbsp;multiple&nbsp;terrors&nbsp;at&nbsp;a&nbsp;time.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>8&nbsp;terrors&nbsp;known.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;use&nbsp;your&nbsp;terrors&nbsp;class&nbsp;feature,&nbsp;you
+
+      can&nbsp;activate&nbsp;two&nbsp;terrors&nbsp;in&nbsp;a&nbsp;single&nbsp;swift&nbsp;action.
+
+      </p>
+
+      <p><strong>Normal:&nbsp;</strong>You&nbsp;can&nbsp;only&nbsp;activate&nbsp;one&nbsp;terror&nbsp;at&nbsp;a&nbsp;time.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

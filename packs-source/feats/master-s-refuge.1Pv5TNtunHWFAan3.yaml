@@ -1,0 +1,78 @@
+_id: 1Pv5TNtunHWFAan3
+_key: '!items!1Pv5TNtunHWFAan3'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Master’s_Refuge
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Master’s Refuge
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;thralls&nbsp;are&nbsp;also&nbsp;your&nbsp;final&nbsp;resort&nbsp;if&nbsp;death&nbsp;comes
+
+      calling.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Twofold&nbsp;master&nbsp;class&nbsp;feature
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;die,&nbsp;your&nbsp;mind&nbsp;instantly&nbsp;transfers
+
+      to&nbsp;one&nbsp;of&nbsp;your&nbsp;living&nbsp;thralls.&nbsp;While&nbsp;inside&nbsp;your&nbsp;thrall,&nbsp;their
+
+      mind&nbsp;submerges&nbsp;into&nbsp;a&nbsp;comatose&nbsp;state&nbsp;and&nbsp;you&nbsp;take&nbsp;over
+
+      their&nbsp;body.&nbsp;You&nbsp;retain&nbsp;the&nbsp;body’s&nbsp;Strength,&nbsp;Constitution
+
+      and&nbsp;Dexterity,&nbsp;but&nbsp;you&nbsp;keep&nbsp;your&nbsp;Intelligence,&nbsp;Wisdom
+
+      and&nbsp;Charisma,&nbsp;as&nbsp;well&nbsp;as&nbsp;all&nbsp;other&nbsp;relevant&nbsp;statistics.
+
+      Each&nbsp;day&nbsp;you&nbsp;remain&nbsp;in&nbsp;your&nbsp;thralls&nbsp;body,&nbsp;you&nbsp;must
+
+      make&nbsp;a&nbsp;Will-save&nbsp;or&nbsp;die&nbsp;(DC20&nbsp;+1&nbsp;for&nbsp;each&nbsp;day&nbsp;spent&nbsp;in
+
+      the&nbsp;body).&nbsp;If&nbsp;your&nbsp;body&nbsp;is&nbsp;recreated,&nbsp;you&nbsp;can&nbsp;relocate
+
+      to&nbsp;your&nbsp;body&nbsp;at&nbsp;will,&nbsp;or&nbsp;you&nbsp;can&nbsp;find&nbsp;alternate&nbsp;means&nbsp;of
+
+      surviving&nbsp;(via&nbsp;the&nbsp;<em>mind&nbsp;switch&nbsp;</em>power,&nbsp;for&nbsp;example).
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

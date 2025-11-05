@@ -1,0 +1,80 @@
+_id: ezMDGA3Z85rQUldI
+_key: '!items!ezMDGA3Z85rQUldI'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Talented
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Talented
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;overchannel&nbsp;powers&nbsp;with&nbsp;less&nbsp;cost&nbsp;to&nbsp;yourself.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong><a&nbsp;href="/wiki/Overchannel"&nbsp;title="Overchannel">Overchannel</a>.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic
+
+      focus.&nbsp;When&nbsp;manifesting&nbsp;a&nbsp;power&nbsp;of&nbsp;3rd&nbsp;level&nbsp;or&nbsp;lower,
+
+      you&nbsp;do&nbsp;not&nbsp;take&nbsp;damage&nbsp;from&nbsp;overchanneling.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>You&nbsp;are&nbsp;incredibly&nbsp;skilled&nbsp;at&nbsp;pushing&nbsp;yourself&nbsp;beyond&nbsp;normal&nbsp;limits.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Talented.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;Add&nbsp;half&nbsp;your&nbsp;tier&nbsp;(minimum&nbsp;1)&nbsp;to&nbsp;the&nbsp;maximum&nbsp;power&nbsp;level&nbsp;you&nbsp;can&nbsp;use&nbsp;Talented&nbsp;on&nbsp;to&nbsp;not&nbsp;take&nbsp;damage&nbsp;from&nbsp;when&nbsp;overchanneling.&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

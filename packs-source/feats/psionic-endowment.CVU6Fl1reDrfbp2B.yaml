@@ -1,0 +1,76 @@
+_id: CVU6Fl1reDrfbp2B
+_key: '!items!CVU6Fl1reDrfbp2B'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Endowment
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Psionic Endowment
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;endow&nbsp;your&nbsp;manifestations&nbsp;with&nbsp;more
+
+      concentrated&nbsp;focus.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic
+
+      focus.&nbsp;You&nbsp;add&nbsp;1&nbsp;to&nbsp;the&nbsp;save&nbsp;DC&nbsp;of&nbsp;a&nbsp;power&nbsp;you&nbsp;manifest.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>Enemies&nbsp;have&nbsp;an&nbsp;incredibly&nbsp;difficult&nbsp;time&nbsp;resisting&nbsp;your&nbsp;manifestations.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Psionic&nbsp;Endowment.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;use&nbsp;Psionic&nbsp;Endowment,&nbsp;double&nbsp;the&nbsp;amount&nbsp;added&nbsp;to&nbsp;the&nbsp;save&nbsp;DC.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;when&nbsp;using&nbsp;Psionic&nbsp;Endowment&nbsp;to&nbsp;force&nbsp;a&nbsp;non-mythic&nbsp;enemy&nbsp;to&nbsp;automatically&nbsp;fail&nbsp;the&nbsp;save.&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

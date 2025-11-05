@@ -1,0 +1,80 @@
+_id: ggMo04p9ruWJoqxf
+_key: '!items!ggMo04p9ruWJoqxf'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Power_Penetration
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Power Penetration
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;powers&nbsp;are&nbsp;especially&nbsp;potent,&nbsp;breaking&nbsp;through
+
+      power&nbsp;resistance&nbsp;more&nbsp;readily&nbsp;than&nbsp;normal.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>As&nbsp;long&nbsp;as&nbsp;you&nbsp;maintain&nbsp;psionic&nbsp;focus,&nbsp;you
+
+      gain&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;manifester&nbsp;level&nbsp;checks&nbsp;made&nbsp;to
+
+      overcome&nbsp;a&nbsp;creature’s&nbsp;power&nbsp;resistance.&nbsp;You&nbsp;may
+
+      expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;increase&nbsp;this&nbsp;bonus&nbsp;to&nbsp;+4.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>Your&nbsp;mythic&nbsp;power&nbsp;aids&nbsp;you&nbsp;in&nbsp;bypassing&nbsp;enemy&nbsp;defenses.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Power&nbsp;Penetration.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;Add&nbsp;half&nbsp;your&nbsp;tier&nbsp;to&nbsp;manifester&nbsp;level&nbsp;checks&nbsp;to&nbsp;overcome&nbsp;power&nbsp;resistance.&nbsp;If&nbsp;you&nbsp;have&nbsp;Greater&nbsp;Power&nbsp;Penetration,&nbsp;add&nbsp;your&nbsp;full&nbsp;tier&nbsp;instead.&nbsp;&nbsp;When&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;while&nbsp;using&nbsp;Power&nbsp;Penetration,&nbsp;double&nbsp;the&nbsp;bonus&nbsp;from&nbsp;your&nbsp;tier&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

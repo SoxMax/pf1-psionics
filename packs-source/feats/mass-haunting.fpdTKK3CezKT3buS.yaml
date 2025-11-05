@@ -1,7 +1,5 @@
 _id: fpdTKK3CezKT3buS
 _key: '!items!fpdTKK3CezKT3buS'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Mass_Haunting
@@ -34,27 +32,7 @@ system:
 
       <p>In&nbsp;addition,&nbsp;you&nbsp;add&nbsp;1/2&nbsp;your&nbsp;<a&nbsp;href="/wiki/Spiritualist"&nbsp;title="Spiritualist">spiritualist</a>&nbsp;level&nbsp;to&nbsp;your&nbsp;levels&nbsp;in&nbsp;classes&nbsp;that&nbsp;grant&nbsp;the&nbsp;collective&nbsp;class&nbsp;feature&nbsp;for&nbsp;determining&nbsp;the&nbsp;range&nbsp;of&nbsp;your&nbsp;collective,&nbsp;and&nbsp;you&nbsp;add&nbsp;1/2&nbsp;your&nbsp;levels&nbsp;in&nbsp;such&nbsp;classes&nbsp;to&nbsp;your&nbsp;spiritualist&nbsp;level&nbsp;for&nbsp;determining&nbsp;the&nbsp;effect&nbsp;of&nbsp;your&nbsp;shared&nbsp;consciousness&nbsp;ability.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

@@ -1,0 +1,102 @@
+_id: pyccZGNWaOKshKCN
+_key: '!items!pyccZGNWaOKshKCN'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Telepathic_Link
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Telepathic Link
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;experience&nbsp;with&nbsp;joining&nbsp;minds&nbsp;has&nbsp;progressed&nbsp;to
+
+      the&nbsp;point&nbsp;that&nbsp;you&nbsp;are&nbsp;now&nbsp;able&nbsp;to&nbsp;maintain&nbsp;a&nbsp;permanent
+
+      telepathic&nbsp;connection&nbsp;with&nbsp;others.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Manifester&nbsp;level&nbsp;3rd,&nbsp;ability&nbsp;to
+
+      manifest&nbsp;<em><a&nbsp;href="/wiki/Mindlink"&nbsp;title="Mindlink">mindlink</a></em>.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>As&nbsp;long&nbsp;as&nbsp;you&nbsp;maintain&nbsp;psionic&nbsp;focus,&nbsp;you
+
+      may&nbsp;maintain&nbsp;a&nbsp;telepathic&nbsp;connection&nbsp;between&nbsp;yourself
+
+      and&nbsp;other&nbsp;willing&nbsp;creatures.&nbsp;Creatures&nbsp;so&nbsp;connected&nbsp;may
+
+      communicate&nbsp;with&nbsp;you&nbsp;and&nbsp;each&nbsp;other&nbsp;telepathically,
+
+      even&nbsp;if&nbsp;they&nbsp;do&nbsp;not&nbsp;share&nbsp;a&nbsp;common&nbsp;language.
+
+      </p>
+
+      <p>As&nbsp;a&nbsp;standard&nbsp;action,&nbsp;you&nbsp;may&nbsp;add&nbsp;any&nbsp;number&nbsp;of
+
+      creatures&nbsp;in&nbsp;line&nbsp;of&nbsp;sight&nbsp;to&nbsp;this&nbsp;link;&nbsp;however&nbsp;the&nbsp;link
+
+      may&nbsp;never&nbsp;contain&nbsp;more&nbsp;creatures&nbsp;than&nbsp;your&nbsp;key&nbsp;ability
+
+      modifier&nbsp;(minimum&nbsp;1).&nbsp;You&nbsp;are&nbsp;always&nbsp;a&nbsp;member&nbsp;of&nbsp;the
+
+      link&nbsp;and&nbsp;do&nbsp;not&nbsp;count&nbsp;against&nbsp;this&nbsp;limit.&nbsp;You&nbsp;may&nbsp;remove
+
+      any&nbsp;number&nbsp;of&nbsp;creatures&nbsp;from&nbsp;the&nbsp;link&nbsp;as&nbsp;a&nbsp;free&nbsp;action,
+
+      and&nbsp;any&nbsp;creature&nbsp;within&nbsp;the&nbsp;link&nbsp;may&nbsp;remove&nbsp;itself&nbsp;as
+
+      a&nbsp;free&nbsp;action.&nbsp;Any&nbsp;creature&nbsp;in&nbsp;the&nbsp;link&nbsp;which&nbsp;moves
+
+      beyond&nbsp;medium&nbsp;range&nbsp;(100&nbsp;ft.&nbsp;+&nbsp;10&nbsp;ft./manifester&nbsp;level)
+
+      from&nbsp;you&nbsp;or&nbsp;falls&nbsp;unconscious&nbsp;or&nbsp;dies&nbsp;is&nbsp;automatically
+
+      removed&nbsp;from&nbsp;the&nbsp;link.
+
+      </p>
+
+      <p><strong>Special:&nbsp;</strong>You&nbsp;may&nbsp;take&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;times.&nbsp;Each
+
+      additional&nbsp;time,&nbsp;the&nbsp;maximum&nbsp;number&nbsp;of&nbsp;creatures&nbsp;in
+
+      the&nbsp;link&nbsp;is&nbsp;increased&nbsp;by&nbsp;2.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation I'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

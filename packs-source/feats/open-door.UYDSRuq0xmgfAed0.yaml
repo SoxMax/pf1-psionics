@@ -1,0 +1,76 @@
+_id: UYDSRuq0xmgfAed0
+_key: '!items!UYDSRuq0xmgfAed0'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Open_Door
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Open Door
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Once&nbsp;you&nbsp;have&nbsp;pried&nbsp;the&nbsp;gates&nbsp;open&nbsp;into&nbsp;another&nbsp;mind,
+
+      you&nbsp;can&nbsp;always&nbsp;return&nbsp;there&nbsp;no&nbsp;matter&nbsp;how&nbsp;long&nbsp;it&nbsp;has
+
+      been.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Mindlock&nbsp;class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>Once&nbsp;an&nbsp;individual&nbsp;has&nbsp;failed&nbsp;a&nbsp;Will&nbsp;save&nbsp;to
+
+      avoid&nbsp;being&nbsp;mindlocked&nbsp;by&nbsp;you,&nbsp;you&nbsp;can&nbsp;attune&nbsp;yourself
+
+      to&nbsp;that&nbsp;creature.&nbsp;You&nbsp;can&nbsp;only&nbsp;be&nbsp;attuned&nbsp;to&nbsp;one&nbsp;creature
+
+      in&nbsp;such&nbsp;a&nbsp;way&nbsp;at&nbsp;any&nbsp;given&nbsp;time.&nbsp;You&nbsp;can&nbsp;reactivate
+
+      the&nbsp;mindlock&nbsp;to&nbsp;your&nbsp;attuned&nbsp;creature&nbsp;at&nbsp;any&nbsp;time&nbsp;by
+
+      spending&nbsp;1&nbsp;power&nbsp;point&nbsp;as&nbsp;a&nbsp;free&nbsp;action,&nbsp;regardless&nbsp;of
+
+      the&nbsp;time&nbsp;since&nbsp;you&nbsp;first&nbsp;mindlocked&nbsp;the&nbsp;target.&nbsp;This
+
+      means&nbsp;that&nbsp;they&nbsp;count&nbsp;as&nbsp;having&nbsp;failed&nbsp;their&nbsp;Will&nbsp;save
+
+      again.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

@@ -1,0 +1,84 @@
+_id: 4WCVb4QtesvNAELE
+_key: '!items!4WCVb4QtesvNAELE'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Surging_Aura
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Surging Aura
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;wild&nbsp;surge&nbsp;enhances&nbsp;the&nbsp;aim&nbsp;of&nbsp;nearby&nbsp;allies.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Wild&nbsp;surge&nbsp;+1.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;gain&nbsp;a&nbsp;10’&nbsp;surging&nbsp;aura.&nbsp;When&nbsp;you&nbsp;use
+
+      your&nbsp;wild&nbsp;surge&nbsp;class&nbsp;feature,&nbsp;you&nbsp;can&nbsp;designate&nbsp;one&nbsp;ally
+
+      for&nbsp;every&nbsp;+1&nbsp;of&nbsp;your&nbsp;wild&nbsp;surge&nbsp;within&nbsp;the&nbsp;surging&nbsp;aura
+
+      to&nbsp;gain&nbsp;an&nbsp;insight&nbsp;bonus&nbsp;to&nbsp;attack&nbsp;rolls&nbsp;equal&nbsp;to&nbsp;your&nbsp;wild
+
+      surge&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;their&nbsp;next&nbsp;turn.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>Your&nbsp;wild&nbsp;surges&nbsp;inspire&nbsp;your&nbsp;allies&nbsp;in&nbsp;battle.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Surging&nbsp;Aura.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;The&nbsp;insight&nbsp;bonus&nbsp;from&nbsp;your&nbsp;surging&nbsp;aura&nbsp;doubles&nbsp;and&nbsp;the&nbsp;effect&nbsp;lasts&nbsp;a&nbsp;number&nbsp;of&nbsp;rounds&nbsp;equal&nbsp;to&nbsp;your&nbsp;mythic&nbsp;tier.&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

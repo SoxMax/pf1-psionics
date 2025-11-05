@@ -1,0 +1,92 @@
+_id: 8F5bq7REQCQLJbB2
+_key: '!items!8F5bq7REQCQLJbB2'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Mental_Leap
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Mental Leap
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;make&nbsp;amazing&nbsp;jumps.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Dex&nbsp;13&nbsp;OR&nbsp;Str&nbsp;13,&nbsp;Acrobatics&nbsp;2&nbsp;ranks.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>While&nbsp;you&nbsp;maintain&nbsp;psionic&nbsp;focus,&nbsp;you&nbsp;gain
+
+      a&nbsp;+2&nbsp;enhancement&nbsp;bonus&nbsp;on&nbsp;Acrobatics&nbsp;checks&nbsp;made&nbsp;to
+
+      jump.&nbsp;If&nbsp;you&nbsp;have&nbsp;at&nbsp;least&nbsp;10&nbsp;ranks&nbsp;in&nbsp;Acrobatics,&nbsp;this
+
+      bonus&nbsp;increases&nbsp;to&nbsp;+4.
+
+      </p>
+
+      <p>Additionally,&nbsp;if&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus,&nbsp;you
+
+      gain&nbsp;a&nbsp;+10&nbsp;enhancement&nbsp;bonus&nbsp;on&nbsp;an&nbsp;Acrobatics&nbsp;check
+
+      made&nbsp;to&nbsp;jump.&nbsp;&nbsp;If&nbsp;you&nbsp;have&nbsp;at&nbsp;least&nbsp;10&nbsp;ranks&nbsp;in&nbsp;Acrobatics,
+
+      this&nbsp;bonus&nbsp;increases&nbsp;to&nbsp;+20.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>The&nbsp;leaps&nbsp;you&nbsp;are&nbsp;able&nbsp;to&nbsp;make&nbsp;are&nbsp;astounding.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Mental&nbsp;Leap.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;The&nbsp;enhancement&nbsp;bonus&nbsp;from&nbsp;Mental&nbsp;Leap&nbsp;on&nbsp;Acrobatics&nbsp;checks&nbsp;made&nbsp;to&nbsp;jump&nbsp;is&nbsp;doubled.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;while&nbsp;making&nbsp;a&nbsp;jump&nbsp;to&nbsp;be&nbsp;treated&nbsp;as&nbsp;if&nbsp;under&nbsp;the&nbsp;catfall&nbsp;power,&nbsp;with&nbsp;a&nbsp;manifester&nbsp;level&nbsp;equal&nbsp;to&nbsp;your&nbsp;tier&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

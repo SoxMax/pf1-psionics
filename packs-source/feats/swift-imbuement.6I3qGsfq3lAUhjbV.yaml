@@ -1,0 +1,64 @@
+_id: 6I3qGsfq3lAUhjbV
+_key: '!items!6I3qGsfq3lAUhjbV'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Swift_Imbuement
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Swift Imbuement
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;have&nbsp;learned&nbsp;how&nbsp;to&nbsp;efficiently&nbsp;charge&nbsp;your&nbsp;mind
+
+      blade’s&nbsp;psychic&nbsp;strike&nbsp;to&nbsp;make&nbsp;it&nbsp;more&nbsp;available&nbsp;in
+
+      combat.
+
+      </p>
+
+      <p><strong>Prerequisites</strong>:&nbsp;Ability&nbsp;to&nbsp;generate&nbsp;a&nbsp;mind&nbsp;blade,
+
+      psychic&nbsp;strike&nbsp;+1d8.
+
+      </p>
+
+      <p><strong>Benefit</strong>:&nbsp;You&nbsp;may&nbsp;charge&nbsp;your&nbsp;psychic&nbsp;strike&nbsp;as&nbsp;a&nbsp;swift
+
+      action.
+
+      </p>
+
+      <p><strong>Normal</strong>:&nbsp;You&nbsp;charge&nbsp;your&nbsp;psychic&nbsp;strike&nbsp;as&nbsp;a&nbsp;move
+
+      action.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

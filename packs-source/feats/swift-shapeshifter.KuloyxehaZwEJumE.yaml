@@ -1,0 +1,62 @@
+_id: KuloyxehaZwEJumE
+_key: '!items!KuloyxehaZwEJumE'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Swift_Shapeshifter
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Swift Shapeshifter
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;are&nbsp;naturally&nbsp;confident&nbsp;with&nbsp;different&nbsp;shapes&nbsp;and
+
+      forms,&nbsp;and&nbsp;years&nbsp;of&nbsp;training&nbsp;have&nbsp;allowed&nbsp;your&nbsp;body&nbsp;to
+
+      more&nbsp;easily&nbsp;flow&nbsp;into&nbsp;new&nbsp;shapes.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Ability&nbsp;to&nbsp;manifest&nbsp;<em><a&nbsp;href="/wiki/Metamorphosis"&nbsp;title="Metamorphosis">metamorphosis</a></em></p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;manifest&nbsp;<em>minor&nbsp;metamorphosis,</em><em>major&nbsp;metamorphosis&nbsp;or&nbsp;metamorphosis&nbsp;</em>the
+
+      manifestation&nbsp;time&nbsp;is&nbsp;a&nbsp;move&nbsp;action&nbsp;instead&nbsp;of&nbsp;a&nbsp;standard
+
+      action.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

@@ -1,0 +1,78 @@
+_id: uh4HX0fXiUNCVi5v
+_key: '!items!uh4HX0fXiUNCVi5v'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Trip
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Psionic Trip
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;draw&nbsp;on&nbsp;your&nbsp;psionic&nbsp;power&nbsp;to&nbsp;boost&nbsp;the
+
+      power&nbsp;of&nbsp;a&nbsp;trip&nbsp;attack.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Int&nbsp;13,&nbsp;Combat&nbsp;Expertise,&nbsp;Improved
+
+      Trip.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>While&nbsp;maintaining&nbsp;psionic&nbsp;focus,&nbsp;when&nbsp;you
+
+      successfully&nbsp;perform&nbsp;a&nbsp;trip&nbsp;combat&nbsp;maneuver,&nbsp;you&nbsp;also
+
+      deal&nbsp;damage&nbsp;equal&nbsp;to&nbsp;half&nbsp;your&nbsp;level&nbsp;to&nbsp;the&nbsp;creature
+
+      tripped.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when&nbsp;you&nbsp;perform
+
+      a&nbsp;successful&nbsp;trip&nbsp;combat&nbsp;maneuver,&nbsp;you&nbsp;can&nbsp;also&nbsp;throw
+
+      your&nbsp;target&nbsp;up&nbsp;to&nbsp;5&nbsp;feet,&nbsp;+5&nbsp;feet&nbsp;for&nbsp;every&nbsp;four&nbsp;levels&nbsp;you
+
+      possess,&nbsp;although&nbsp;the&nbsp;creature&nbsp;thrown&nbsp;may&nbsp;not&nbsp;be&nbsp;more
+
+      than&nbsp;one&nbsp;size&nbsp;category&nbsp;larger&nbsp;than&nbsp;you.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

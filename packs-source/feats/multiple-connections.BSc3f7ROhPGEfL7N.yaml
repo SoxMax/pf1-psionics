@@ -1,0 +1,62 @@
+_id: BSc3f7ROhPGEfL7N
+_key: '!items!BSc3f7ROhPGEfL7N'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Multiple_Connections
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Multiple Connections
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;are&nbsp;able&nbsp;to&nbsp;be&nbsp;attuned&nbsp;to&nbsp;multiple&nbsp;minds.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong><a&nbsp;href="/wiki/Open_Door"&nbsp;title="Open&nbsp;Door">Open&nbsp;Door</a>,&nbsp;mindlock&nbsp;class&nbsp;feature
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;be&nbsp;attuned&nbsp;to&nbsp;up&nbsp;to&nbsp;three&nbsp;creature&nbsp;for
+
+      the&nbsp;purposes&nbsp;of&nbsp;Open&nbsp;Door.
+
+      </p>
+
+      <p><strong>Normal:&nbsp;</strong>You&nbsp;can&nbsp;only&nbsp;be&nbsp;attuned&nbsp;to&nbsp;one&nbsp;creature.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

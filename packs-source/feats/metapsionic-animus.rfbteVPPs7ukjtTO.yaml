@@ -1,7 +1,5 @@
 _id: rfbteVPPs7ukjtTO
 _key: '!items!rfbteVPPs7ukjtTO'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Metapsionic_Animus
@@ -30,27 +28,7 @@ system:
 
       <p>When&nbsp;you&nbsp;manifest&nbsp;a&nbsp;power&nbsp;and&nbsp;apply&nbsp;a&nbsp;<a&nbsp;href="/wiki/Metapsionic_feat"&nbsp;title="Metapsionic&nbsp;feat">metapsionic&nbsp;feat</a>,&nbsp;you&nbsp;may&nbsp;spend&nbsp;points&nbsp;of&nbsp;animus&nbsp;equal&nbsp;to&nbsp;twice&nbsp;that&nbsp;metapsionic&nbsp;feat's&nbsp;normal&nbsp;cost&nbsp;adjustment&nbsp;instead&nbsp;of&nbsp;the&nbsp;power&nbsp;points&nbsp;it&nbsp;would&nbsp;normally&nbsp;cost.&nbsp;This&nbsp;still&nbsp;counts&nbsp;as&nbsp;spending&nbsp;the&nbsp;power&nbsp;points&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of&nbsp;the&nbsp;maximum&nbsp;power&nbsp;points&nbsp;spent&nbsp;on&nbsp;the&nbsp;power.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

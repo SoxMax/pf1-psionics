@@ -1,0 +1,100 @@
+_id: R8SOZZYJNoW9d48I
+_key: '!items!R8SOZZYJNoW9d48I'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Ghost_Attack
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Ghost Attack
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;deadly&nbsp;strikes&nbsp;against&nbsp;incorporeal&nbsp;foes&nbsp;more
+
+      frequently&nbsp;find&nbsp;their&nbsp;mark.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Base&nbsp;attack&nbsp;bonus&nbsp;+3.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;must&nbsp;be&nbsp;psionically&nbsp;focused&nbsp;to&nbsp;use&nbsp;this
+
+      feat.&nbsp;When&nbsp;you&nbsp;make&nbsp;a&nbsp;successful&nbsp;melee&nbsp;attack&nbsp;or&nbsp;a
+
+      ranged&nbsp;attack&nbsp;against&nbsp;an&nbsp;incorporeal&nbsp;creature,&nbsp;your
+
+      attack&nbsp;deals&nbsp;75%&nbsp;damage&nbsp;instead&nbsp;of&nbsp;the&nbsp;standard&nbsp;50%
+
+      damage.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;part&nbsp;of&nbsp;the&nbsp;attack,
+
+      your&nbsp;attack&nbsp;deals&nbsp;full&nbsp;damage.&nbsp;&nbsp;You&nbsp;must&nbsp;decide&nbsp;whether
+
+      or&nbsp;not&nbsp;to&nbsp;use&nbsp;this&nbsp;option&nbsp;prior&nbsp;to&nbsp;making&nbsp;an&nbsp;attack.&nbsp;If
+
+      your&nbsp;attack&nbsp;misses,&nbsp;you&nbsp;still&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.
+
+      Your&nbsp;weapon&nbsp;or&nbsp;natural&nbsp;weapon&nbsp;actually&nbsp;appears&nbsp;to
+
+      become&nbsp;briefly&nbsp;incorporeal&nbsp;as&nbsp;the&nbsp;attack&nbsp;is&nbsp;made.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>Your&nbsp;attacks&nbsp;against&nbsp;the&nbsp;incorporeal&nbsp;are&nbsp;more&nbsp;especially&nbsp;effective.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Ghost&nbsp;Attack.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;Your&nbsp;attacks&nbsp;against&nbsp;incorporeal&nbsp;creatures&nbsp;always&nbsp;deal&nbsp;full&nbsp;damage.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;when&nbsp;you&nbsp;make&nbsp;a&nbsp;successful&nbsp;attack&nbsp;against&nbsp;an&nbsp;incorporeal&nbsp;creature&nbsp;to&nbsp;deal&nbsp;an&nbsp;additional&nbsp;amount&nbsp;of&nbsp;damage&nbsp;equal&nbsp;to&nbsp;your&nbsp;tier.&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

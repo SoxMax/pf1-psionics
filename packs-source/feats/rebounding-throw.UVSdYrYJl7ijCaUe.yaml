@@ -1,10 +1,8 @@
 _id: UVSdYrYJl7ijCaUe
 _key: '!items!UVSdYrYJl7ijCaUe'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
-    sourceUrl: https://metzo.miraheze.org/wiki/Rebounding_Throw
+    sourceUrl: https://metzo.miraheze.org/wiki/Rebounding_Throw_(Mythic)
 img: icons/weapons/thrown/bomb-fuse-black.webp
 name: Rebounding Throw
 system:
@@ -22,37 +20,15 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;thrown&nbsp;attacks&nbsp;are&nbsp;capable&nbsp;of&nbsp;striking&nbsp;multiple&nbsp;targets.</em></p>
+      <p><em>Your&nbsp;thrown&nbsp;attacks&nbsp;are&nbsp;capable&nbsp;of&nbsp;mowing&nbsp;down&nbsp;multiple&nbsp;enemies&nbsp;with&nbsp;a&nbsp;single&nbsp;throw.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank&nbsp;Shot</a>,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+1.
+      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Rebounding_Throw"&nbsp;title="Rebounding&nbsp;Throw">Rebounding&nbsp;Throw</a>.
 
       </p>
 
-      <p><strong>Benefit:</strong>You&nbsp;may&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;a&nbsp;free&nbsp;action&nbsp;when&nbsp;one&nbsp;of&nbsp;your&nbsp;thrown&nbsp;attacks&nbsp;successfully&nbsp;hits&nbsp;to&nbsp;rebound&nbsp;the&nbsp;attack&nbsp;at&nbsp;another&nbsp;enemy&nbsp;within&nbsp;one&nbsp;range&nbsp;increment&nbsp;of&nbsp;the&nbsp;original&nbsp;target.&nbsp;This&nbsp;second&nbsp;attack&nbsp;is&nbsp;made&nbsp;at&nbsp;a&nbsp;-4&nbsp;penalty.
+      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;use&nbsp;Rebounding&nbsp;Throw,&nbsp;you&nbsp;may&nbsp;rebound&nbsp;the&nbsp;attack&nbsp;to&nbsp;a&nbsp;number&nbsp;of&nbsp;additional&nbsp;targets&nbsp;equal&nbsp;to&nbsp;half&nbsp;your&nbsp;mythic&nbsp;tier&nbsp;(minimum&nbsp;1.)&nbsp;Each&nbsp;rebound&nbsp;adds&nbsp;a&nbsp;cumulative&nbsp;-2&nbsp;penalty&nbsp;to&nbsp;the&nbsp;next&nbsp;attack.&nbsp;You&nbsp;cannot&nbsp;strike&nbsp;the&nbsp;same&nbsp;creature&nbsp;twice&nbsp;when&nbsp;using&nbsp;Rebounding&nbsp;Throw.&nbsp;If&nbsp;you&nbsp;expend&nbsp;one&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;while&nbsp;using&nbsp;Rebounding&nbsp;Throw,&nbsp;the&nbsp;additional&nbsp;attacks&nbsp;are&nbsp;made&nbsp;at&nbsp;the&nbsp;full&nbsp;attack&nbsp;bonus&nbsp;and&nbsp;there&nbsp;are&nbsp;no&nbsp;penalties&nbsp;for&nbsp;range&nbsp;increments.&nbsp;
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Rebounding_Throw_(Mythic)"&nbsp;title="Rebounding&nbsp;Throw&nbsp;(Mythic)">Rebounding&nbsp;Throw&nbsp;(Mythic)</a></li></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false
@@ -62,17 +38,11 @@ system:
     - date: ''
       errata: ''
       id: ''
-      pages: '120'
+      pages: '22'
       publisher: Dreamscarred Press
-      title: Psionics Expanded
-    - date: ''
-      errata: ''
-      id: ''
-      pages: 114–115
-      publisher: Dreamscarred Press
-      title: Ultimate Psionics
+      title: 'Psionics Augmented: Mythic Psionics'
   subType: feat
   summons: false
   tags:
-    - psionic
+    - feat
 type: feat

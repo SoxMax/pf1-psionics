@@ -1,0 +1,66 @@
+_id: 1OkkOtP6RKFls5Uw
+_key: '!items!1OkkOtP6RKFls5Uw'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Brutal_Surge
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Brutal Surge
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;are&nbsp;able&nbsp;to&nbsp;manifest&nbsp;powers&nbsp;using&nbsp;your&nbsp;anger&nbsp;to&nbsp;a
+
+      greater&nbsp;degree.
+
+      </p>
+
+      <p><strong>Prerequisites</strong>:&nbsp;Ability&nbsp;to&nbsp;manifest&nbsp;a&nbsp;rage&nbsp;blade,&nbsp;ability
+
+      to&nbsp;manifest&nbsp;1st&nbsp;level&nbsp;powers&nbsp;from&nbsp;the&nbsp;gifted&nbsp;blade&nbsp;list.
+
+      </p>
+
+      <p><strong>Benefit</strong>:&nbsp;You&nbsp;may&nbsp;treat&nbsp;the&nbsp;enhancement&nbsp;bonus
+
+      increase&nbsp;from&nbsp;your&nbsp;rage&nbsp;blade&nbsp;as&nbsp;the&nbsp;wild&nbsp;surge&nbsp;class
+
+      feature&nbsp;(see&nbsp;wilder&nbsp;base&nbsp;class&nbsp;for&nbsp;details)&nbsp;on&nbsp;powers
+
+      that&nbsp;you&nbsp;manifest.&nbsp;You&nbsp;spend&nbsp;one&nbsp;round&nbsp;of&nbsp;your&nbsp;rage
+
+      blade&nbsp;usage&nbsp;and&nbsp;initiate&nbsp;a&nbsp;wild&nbsp;surge&nbsp;and&nbsp;risk&nbsp;psychic
+
+      enervation&nbsp;as&nbsp;per&nbsp;the&nbsp;wilder&nbsp;class&nbsp;(using&nbsp;the&nbsp;brutality
+
+      blade’s&nbsp;enervation&nbsp;penalty).
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

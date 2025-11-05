@@ -1,0 +1,64 @@
+_id: FZ1WaJnrLSyJmR82
+_key: '!items!FZ1WaJnrLSyJmR82'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Elemental_Blast
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Elemental Blast
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;have&nbsp;learned&nbsp;how&nbsp;to&nbsp;convert&nbsp;your&nbsp;surge&nbsp;blast&nbsp;into
+
+      elemental&nbsp;damage.
+
+      </p>
+
+      <p><strong>Prerequsite:&nbsp;</strong>Wild&nbsp;Surge&nbsp;+1,&nbsp;Surge&nbsp;Blast&nbsp;class&nbsp;feature
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>Your&nbsp;surge&nbsp;blast&nbsp;deals&nbsp;damage&nbsp;of&nbsp;your&nbsp;active
+
+      energy&nbsp;type&nbsp;instead&nbsp;of&nbsp;force&nbsp;damage.&nbsp;In&nbsp;addition,&nbsp;your
+
+      surge&nbsp;blast&nbsp;is&nbsp;modified&nbsp;based&nbsp;upon&nbsp;your&nbsp;active&nbsp;energy
+
+      type.
+
+      </p><ul><li><em>Cold:&nbsp;</em>A&nbsp;surge&nbsp;blast&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;+1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die.</li><li><em>Electricity:&nbsp;</em>A&nbsp;surge&nbsp;blast&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;provides&nbsp;a&nbsp;+3&nbsp;bonus&nbsp;on&nbsp;your&nbsp;attack&nbsp;roll&nbsp;if&nbsp;the&nbsp;target&nbsp;is&nbsp;wearing&nbsp;metal&nbsp;armor.</li><li><em>Fire:&nbsp;</em>A&nbsp;surge&nbsp;blast&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;+1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die.</li><li><em>Sonic:&nbsp;</em>A&nbsp;surge&nbsp;blast&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;–1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die&nbsp;and&nbsp;ignores&nbsp;an&nbsp;object’s&nbsp;hardness.</li></ul>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

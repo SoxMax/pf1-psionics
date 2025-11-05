@@ -1,7 +1,5 @@
 _id: 8gxP4iYzucbxSXBw
 _key: '!items!8gxP4iYzucbxSXBw'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Charlatan
@@ -34,27 +32,7 @@ system:
 
       <p><strong>Special:</strong>&nbsp;If&nbsp;your&nbsp;campaign&nbsp;uses&nbsp;<em><a&nbsp;href="/wiki/Path_of_War"&nbsp;title="Path&nbsp;of&nbsp;War">Path&nbsp;of&nbsp;War</a></em>,&nbsp;you&nbsp;may&nbsp;use&nbsp;this&nbsp;feat&nbsp;to&nbsp;obfuscate&nbsp;a&nbsp;supernatural&nbsp;martial&nbsp;maneuver,&nbsp;or&nbsp;to&nbsp;disguise&nbsp;one&nbsp;of&nbsp;the&nbsp;listed&nbsp;effects&nbsp;as&nbsp;a&nbsp;martial&nbsp;maneuver.&nbsp;If&nbsp;you&nbsp;do,&nbsp;you&nbsp;may&nbsp;make&nbsp;a&nbsp;Knowledge&nbsp;(martial)&nbsp;check&nbsp;in&nbsp;place&nbsp;of&nbsp;your&nbsp;Bluff&nbsp;or&nbsp;Spellcraft&nbsp;check,&nbsp;and&nbsp;viewers&nbsp;may&nbsp;attempt&nbsp;a&nbsp;Knowledge&nbsp;(martial)&nbsp;check&nbsp;in&nbsp;place&nbsp;of&nbsp;their&nbsp;Sense&nbsp;Motive&nbsp;or&nbsp;Spellcraft&nbsp;check.&nbsp;A&nbsp;maneuver&nbsp;does&nbsp;not&nbsp;have&nbsp;obvious&nbsp;components&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of&nbsp;this&nbsp;feat.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

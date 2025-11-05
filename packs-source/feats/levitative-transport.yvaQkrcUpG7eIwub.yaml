@@ -1,0 +1,102 @@
+_id: yvaQkrcUpG7eIwub
+_key: '!items!yvaQkrcUpG7eIwub'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Levitative_Transport
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Levitative Transport
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;share&nbsp;your&nbsp;gravity-defying&nbsp;abilities.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Elocater&nbsp;level&nbsp;5th,&nbsp;<a&nbsp;href="/wiki/Gravitic_Stability"&nbsp;title="Gravitic&nbsp;Stability">Gravitic&nbsp;Stability</a></p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;gain&nbsp;psionic&nbsp;focus,&nbsp;you&nbsp;may
+
+      choose&nbsp;to&nbsp;share&nbsp;the&nbsp;benefit&nbsp;of&nbsp;your&nbsp;personal&nbsp;gravity,
+
+      scorn&nbsp;earth,&nbsp;and&nbsp;terminal&nbsp;velocity&nbsp;abilities&nbsp;with&nbsp;all
+
+      adjacent&nbsp;allies.&nbsp;When&nbsp;you&nbsp;move,&nbsp;all&nbsp;affected&nbsp;allies&nbsp;move
+
+      with&nbsp;you&nbsp;on&nbsp;your&nbsp;turn.&nbsp;Allies&nbsp;may&nbsp;move&nbsp;around&nbsp;you
+
+      freely&nbsp;on&nbsp;their&nbsp;own&nbsp;turns&nbsp;(for&nbsp;example,&nbsp;an&nbsp;ally&nbsp;in&nbsp;front
+
+      of&nbsp;you&nbsp;could&nbsp;move&nbsp;to&nbsp;stand&nbsp;behind&nbsp;you),&nbsp;but&nbsp;if&nbsp;any&nbsp;ally
+
+      moves&nbsp;more&nbsp;than&nbsp;5&nbsp;ft.&nbsp;away&nbsp;from&nbsp;you,&nbsp;the&nbsp;effect&nbsp;ends
+
+      immediately&nbsp;for&nbsp;that&nbsp;ally.&nbsp;If&nbsp;you&nbsp;are&nbsp;attacked,&nbsp;you&nbsp;must
+
+      make&nbsp;a&nbsp;concentration&nbsp;check&nbsp;as&nbsp;if&nbsp;concentrating&nbsp;on&nbsp;a
+
+      2nd-level&nbsp;power&nbsp;to&nbsp;maintain&nbsp;this&nbsp;effect.&nbsp;If&nbsp;subjected
+
+      to&nbsp;harsh&nbsp;environmental&nbsp;effects&nbsp;which&nbsp;would&nbsp;disrupt
+
+      concentration&nbsp;(such&nbsp;as&nbsp;strong&nbsp;winds),&nbsp;you&nbsp;must&nbsp;make&nbsp;a
+
+      concentration&nbsp;check&nbsp;once&nbsp;per&nbsp;hour&nbsp;of&nbsp;overland&nbsp;travel&nbsp;in
+
+      such&nbsp;conditions.
+
+      </p>
+
+      <p>In&nbsp;addition,&nbsp;your&nbsp;speed&nbsp;is&nbsp;no&nbsp;longer&nbsp;reduced&nbsp;to&nbsp;10
+
+      ft.&nbsp;when&nbsp;wearing&nbsp;medium&nbsp;or&nbsp;heavy&nbsp;armor&nbsp;or&nbsp;carrying
+
+      a&nbsp;medium&nbsp;load&nbsp;while&nbsp;using&nbsp;personal&nbsp;gravity&nbsp;or&nbsp;scorn
+
+      earth,&nbsp;although&nbsp;your&nbsp;base&nbsp;land&nbsp;speed&nbsp;is&nbsp;still&nbsp;reduced
+
+      as&nbsp;normal&nbsp;for&nbsp;such,&nbsp;unless&nbsp;you&nbsp;have&nbsp;an&nbsp;ability&nbsp;or&nbsp;trait
+
+      such&nbsp;as&nbsp;a&nbsp;fighter’s&nbsp;armor&nbsp;training&nbsp;or&nbsp;a&nbsp;dwarf’s&nbsp;slow&nbsp;and
+
+      steady.&nbsp;You&nbsp;may&nbsp;use&nbsp;personal&nbsp;gravity&nbsp;and&nbsp;scorn&nbsp;earth
+
+      while&nbsp;heavily&nbsp;encumbered,&nbsp;but&nbsp;your&nbsp;movement&nbsp;speed
+
+      is&nbsp;reduced&nbsp;to&nbsp;10&nbsp;ft.&nbsp;plus&nbsp;any&nbsp;applicable&nbsp;speed&nbsp;bonuses.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation I'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

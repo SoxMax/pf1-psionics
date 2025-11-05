@@ -1,0 +1,72 @@
+_id: uGBFzChOSvuJZKUM
+_key: '!items!uGBFzChOSvuJZKUM'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Power_Channeler
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Power Channeler
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;have&nbsp;learned&nbsp;how&nbsp;to&nbsp;channel&nbsp;your&nbsp;powers&nbsp;through
+
+      your&nbsp;weaponry,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;make&nbsp;melee&nbsp;attacks&nbsp;and
+
+      channel&nbsp;offensive&nbsp;powers&nbsp;at&nbsp;the&nbsp;same&nbsp;time.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;channel&nbsp;a&nbsp;touch&nbsp;range&nbsp;power
+
+      through&nbsp;a&nbsp;melee&nbsp;weapon.&nbsp;You&nbsp;can&nbsp;make&nbsp;a&nbsp;single&nbsp;melee
+
+      attack&nbsp;during&nbsp;the&nbsp;same&nbsp;action&nbsp;in&nbsp;which&nbsp;you&nbsp;manifest&nbsp;a
+
+      touch&nbsp;power&nbsp;with&nbsp;a&nbsp;manifesting&nbsp;time&nbsp;of&nbsp;one&nbsp;standard
+
+      action;&nbsp;if&nbsp;this&nbsp;melee&nbsp;attack&nbsp;hits,&nbsp;it&nbsp;triggers&nbsp;the&nbsp;power&nbsp;as&nbsp;if
+
+      you&nbsp;had&nbsp;succeeded&nbsp;on&nbsp;a&nbsp;touch&nbsp;attack&nbsp;and&nbsp;deals&nbsp;damage
+
+      as&nbsp;normal.&nbsp;If&nbsp;you&nbsp;miss,&nbsp;the&nbsp;power&nbsp;fizzles&nbsp;and&nbsp;the&nbsp;charge
+
+      is&nbsp;lost.&nbsp;The&nbsp;attack&nbsp;made&nbsp;is&nbsp;against&nbsp;standard&nbsp;AC&nbsp;and&nbsp;not
+
+      touch&nbsp;AC.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

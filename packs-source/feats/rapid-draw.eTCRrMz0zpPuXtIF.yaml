@@ -1,0 +1,70 @@
+_id: eTCRrMz0zpPuXtIF
+_key: '!items!eTCRrMz0zpPuXtIF'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Rapid_Draw
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Rapid Draw
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;are&nbsp;able&nbsp;to&nbsp;form&nbsp;your&nbsp;blade&nbsp;more&nbsp;frequently&nbsp;each
+
+      round.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Alter&nbsp;blade&nbsp;blade&nbsp;skill,&nbsp;quick&nbsp;draw
+
+      class&nbsp;feature,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+6
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;may&nbsp;form&nbsp;your&nbsp;mind&nbsp;blade&nbsp;as&nbsp;a&nbsp;free
+
+      action&nbsp;an&nbsp;additional&nbsp;number&nbsp;of&nbsp;times&nbsp;per&nbsp;round&nbsp;equal&nbsp;to
+
+      your&nbsp;Wisdom&nbsp;modifier&nbsp;(minimum&nbsp;+1).
+
+      </p>
+
+      <p><strong>Normal:&nbsp;</strong>You&nbsp;may&nbsp;form&nbsp;your&nbsp;mind&nbsp;blade&nbsp;as&nbsp;a&nbsp;free
+
+      action&nbsp;once&nbsp;per&nbsp;round.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation I'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

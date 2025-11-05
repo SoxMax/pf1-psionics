@@ -1,0 +1,116 @@
+_id: V2gmdCSTbLEPF6NA
+_key: '!items!V2gmdCSTbLEPF6NA'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Aligned_Attack
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Aligned Attack
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;melee&nbsp;or&nbsp;ranged&nbsp;attack&nbsp;overcomes&nbsp;your
+
+      opponent’s&nbsp;alignment-based&nbsp;damage&nbsp;reduction&nbsp;and
+
+      deals&nbsp;additional&nbsp;damage.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Base&nbsp;attack&nbsp;bonus&nbsp;+6.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;take&nbsp;this&nbsp;feat,&nbsp;choose&nbsp;either
+
+      chaos,&nbsp;good,&nbsp;evil&nbsp;or&nbsp;law.&nbsp;(Your&nbsp;choice&nbsp;must&nbsp;match&nbsp;one
+
+      of&nbsp;your&nbsp;alignment&nbsp;components.)&nbsp;Once&nbsp;you’ve&nbsp;made&nbsp;this
+
+      alignment&nbsp;choice,&nbsp;it&nbsp;cannot&nbsp;be&nbsp;changed.
+
+      </p>
+
+      <p>As&nbsp;long&nbsp;as&nbsp;you&nbsp;maintain&nbsp;psionic&nbsp;focus,&nbsp;your&nbsp;attack&nbsp;is
+
+      treated&nbsp;as&nbsp;either&nbsp;a&nbsp;good,&nbsp;evil,&nbsp;chaotic,&nbsp;or&nbsp;lawful&nbsp;attack
+
+      (depending&nbsp;on&nbsp;your&nbsp;original&nbsp;choice)&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of
+
+      overcoming&nbsp;damage&nbsp;reduction.
+
+      </p>
+
+      <p>You&nbsp;may&nbsp;choose&nbsp;to&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when
+
+      making&nbsp;an&nbsp;attack&nbsp;to&nbsp;power&nbsp;this&nbsp;feat’s&nbsp;secondary&nbsp;ability.
+
+      When&nbsp;you&nbsp;make&nbsp;a&nbsp;successful&nbsp;melee&nbsp;or&nbsp;ranged&nbsp;attack&nbsp;in
+
+      this&nbsp;fashion,&nbsp;you&nbsp;deal&nbsp;an&nbsp;extra&nbsp;2d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;of
+
+      the&nbsp;type&nbsp;you&nbsp;originally&nbsp;selected&nbsp;if&nbsp;your&nbsp;target&nbsp;is&nbsp;of&nbsp;the
+
+      opposed&nbsp;alignment.&nbsp;This&nbsp;attack&nbsp;is&nbsp;still&nbsp;treated&nbsp;as&nbsp;the
+
+      appropriate&nbsp;alignment&nbsp;type.&nbsp;You&nbsp;must&nbsp;decide&nbsp;whether
+
+      or&nbsp;not&nbsp;to&nbsp;use&nbsp;this&nbsp;ability&nbsp;prior&nbsp;to&nbsp;making&nbsp;an&nbsp;attack.&nbsp;If
+
+      your&nbsp;attack&nbsp;misses,&nbsp;you&nbsp;still&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>You&nbsp;can&nbsp;switch&nbsp;the&nbsp;alignment&nbsp;of&nbsp;your&nbsp;attacks.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Aligned&nbsp;Attack.&nbsp;
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;You&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;change&nbsp;the&nbsp;alignment&nbsp;choice&nbsp;for&nbsp;the&nbsp;Aligned&nbsp;Attack&nbsp;feat.&nbsp;The&nbsp;alignment&nbsp;chosen&nbsp;must&nbsp;still&nbsp;match&nbsp;one&nbsp;of&nbsp;your&nbsp;alignment&nbsp;components.&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

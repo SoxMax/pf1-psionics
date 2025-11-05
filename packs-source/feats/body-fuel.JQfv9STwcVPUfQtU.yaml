@@ -1,0 +1,96 @@
+_id: JQfv9STwcVPUfQtU
+_key: '!items!JQfv9STwcVPUfQtU'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Body_Fuel
+img: icons/magic/life/heart-glowing-red.webp
+name: Body Fuel
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;expand&nbsp;your&nbsp;power&nbsp;point&nbsp;total&nbsp;at&nbsp;the&nbsp;expense
+
+      of&nbsp;your&nbsp;health.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;recover&nbsp;2&nbsp;power&nbsp;points&nbsp;by&nbsp;taking
+
+      1&nbsp;point&nbsp;of&nbsp;ability&nbsp;burn&nbsp;damage&nbsp;to&nbsp;each&nbsp;of&nbsp;your&nbsp;three
+
+      physical&nbsp;ability&nbsp;scores:&nbsp;Strength,&nbsp;Dexterity,&nbsp;and
+
+      Constitution.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;recover&nbsp;additional&nbsp;power&nbsp;points&nbsp;for&nbsp;a
+
+      proportional&nbsp;cost&nbsp;to&nbsp;Strength,&nbsp;Dexterity,&nbsp;and&nbsp;Constitution.
+
+      These&nbsp;recovered&nbsp;points&nbsp;are&nbsp;added&nbsp;to&nbsp;your&nbsp;power&nbsp;point
+
+      reserve&nbsp;as&nbsp;if&nbsp;you&nbsp;had&nbsp;gained&nbsp;them&nbsp;by&nbsp;resting&nbsp;overnight.
+
+      </p>
+
+      <p><strong>Special:&nbsp;</strong>Only&nbsp;living&nbsp;creatures&nbsp;can&nbsp;use&nbsp;this&nbsp;feat.&nbsp;You
+
+      can&nbsp;take&nbsp;advantage&nbsp;of&nbsp;this&nbsp;feat&nbsp;only&nbsp;while&nbsp;in&nbsp;your&nbsp;own
+
+      body.
+
+      </p>
+
+      <p>You&nbsp;are&nbsp;able&nbsp;to&nbsp;selectively&nbsp;decide&nbsp;which&nbsp;ability&nbsp;to&nbsp;sacrifice&nbsp;for&nbsp;more&nbsp;power&nbsp;points.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Body&nbsp;Fuel.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;When&nbsp;using&nbsp;the&nbsp;Body&nbsp;Fuel&nbsp;feat,&nbsp;you&nbsp;need&nbsp;only&nbsp;choose&nbsp;a&nbsp;single&nbsp;physical&nbsp;ability&nbsp;score&nbsp;(Strength,&nbsp;Dexterity,&nbsp;or&nbsp;Constitution)&nbsp;to&nbsp;suffer&nbsp;ability&nbsp;burn,&nbsp;instead&nbsp;of&nbsp;all&nbsp;three.&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat
