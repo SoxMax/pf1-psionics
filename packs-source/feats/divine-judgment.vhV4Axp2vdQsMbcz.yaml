@@ -1,7 +1,5 @@
 _id: vhV4Axp2vdQsMbcz
 _key: '!items!vhV4Axp2vdQsMbcz'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Divine_Judgment
@@ -34,29 +32,7 @@ system:
 
       <p>This&nbsp;penalty&nbsp;for&nbsp;a&nbsp;given&nbsp;spirit&nbsp;decreases&nbsp;by&nbsp;one&nbsp;for&nbsp;each&nbsp;day&nbsp;that&nbsp;passes&nbsp;in&nbsp;which&nbsp;you&nbsp;do&nbsp;not&nbsp;attempt&nbsp;to&nbsp;control&nbsp;or&nbsp;deceive&nbsp;that&nbsp;spirit,&nbsp;to&nbsp;a&nbsp;minimum&nbsp;of&nbsp;0.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Condemning_Glare"&nbsp;title="Condemning&nbsp;Glare">Condemning&nbsp;Glare</a></li><li><a&nbsp;href="/wiki/Words_of_Salvation"&nbsp;title="Words&nbsp;of&nbsp;Salvation">Words&nbsp;of&nbsp;Salvation</a></li></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

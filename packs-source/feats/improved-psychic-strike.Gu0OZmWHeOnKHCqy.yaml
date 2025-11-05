@@ -1,0 +1,58 @@
+_id: Gu0OZmWHeOnKHCqy
+_key: '!items!Gu0OZmWHeOnKHCqy'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Improved_Psychic_Strike
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Improved Psychic Strike
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;have&nbsp;mastered&nbsp;a&nbsp;way&nbsp;to&nbsp;prolong&nbsp;the&nbsp;charge&nbsp;on&nbsp;your
+
+      psychic&nbsp;strikes&nbsp;to&nbsp;devastate&nbsp;a&nbsp;foe&nbsp;for&nbsp;multiple&nbsp;attacks.
+
+      </p>
+
+      <p><strong>Prerequisites</strong>:&nbsp;Base&nbsp;attack&nbsp;bonus&nbsp;+6,&nbsp;Psychic&nbsp;Strike&nbsp;+2d8.
+
+      </p>
+
+      <p><strong>Benefit</strong>:&nbsp;You&nbsp;may&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when
+
+      you&nbsp;use&nbsp;your&nbsp;psychic&nbsp;strike&nbsp;to&nbsp;apply&nbsp;your&nbsp;psychic&nbsp;strike
+
+      damage&nbsp;to&nbsp;all&nbsp;mind&nbsp;blade&nbsp;attacks&nbsp;you&nbsp;make&nbsp;until&nbsp;the
+
+      start&nbsp;of&nbsp;your&nbsp;next&nbsp;turn.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

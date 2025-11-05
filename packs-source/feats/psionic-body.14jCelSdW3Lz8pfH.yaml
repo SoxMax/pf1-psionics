@@ -1,0 +1,78 @@
+_id: 14jCelSdW3Lz8pfH
+_key: '!items!14jCelSdW3Lz8pfH'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Body
+img: icons/magic/life/heart-glowing-red.webp
+name: Psionic Body
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;mind&nbsp;reinforces&nbsp;your&nbsp;body.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;take&nbsp;this&nbsp;feat,&nbsp;you&nbsp;gain&nbsp;2&nbsp;hit&nbsp;points
+
+      for&nbsp;each&nbsp;psionic&nbsp;feat&nbsp;you&nbsp;have&nbsp;(including&nbsp;this&nbsp;one).
+
+      Whenever&nbsp;you&nbsp;take&nbsp;a&nbsp;new&nbsp;psionic&nbsp;feat,&nbsp;you&nbsp;gain&nbsp;2&nbsp;more
+
+      hit&nbsp;points.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>Your&nbsp;psionic&nbsp;training&nbsp;and&nbsp;mythic&nbsp;power&nbsp;toughen&nbsp;your&nbsp;physical&nbsp;form.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Psionic&nbsp;Body.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;The&nbsp;number&nbsp;of&nbsp;hit&nbsp;points&nbsp;gained&nbsp;from&nbsp;Psionic&nbsp;Body&nbsp;for&nbsp;each&nbsp;psionic&nbsp;feat&nbsp;you&nbsp;possess&nbsp;increases&nbsp;to&nbsp;6&nbsp;per&nbsp;feat.&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

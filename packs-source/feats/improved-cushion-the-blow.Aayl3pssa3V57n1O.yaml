@@ -1,0 +1,62 @@
+_id: Aayl3pssa3V57n1O
+_key: '!items!Aayl3pssa3V57n1O'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Improved_Cushion_the_Blow
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Improved Cushion the Blow
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;damage&nbsp;prevention&nbsp;blocks&nbsp;multiple&nbsp;attacks.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Wisdom&nbsp;15,&nbsp;<a&nbsp;href="/wiki/Cushion_the_Blow"&nbsp;title="Cushion&nbsp;the&nbsp;Blow">Cushion&nbsp;the&nbsp;Blow</a>,
+
+      Collective&nbsp;class&nbsp;feature,&nbsp;manifester&nbsp;level&nbsp;12th.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;using&nbsp;the&nbsp;Cushion&nbsp;the&nbsp;Blow&nbsp;feat,&nbsp;the
+
+      effect&nbsp;can&nbsp;be&nbsp;applied&nbsp;to&nbsp;an&nbsp;additional&nbsp;attack&nbsp;with&nbsp;a&nbsp;melee,
+
+      ranged,&nbsp;or&nbsp;natural&nbsp;weapon&nbsp;in&nbsp;the&nbsp;same&nbsp;round.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

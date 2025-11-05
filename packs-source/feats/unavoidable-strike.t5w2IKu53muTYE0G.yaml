@@ -1,11 +1,9 @@
 _id: t5w2IKu53muTYE0G
 _key: '!items!t5w2IKu53muTYE0G'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
-    sourceUrl: https://metzo.miraheze.org/wiki/Unavoidable_Strike
-img: icons/magic/symbols/runes-star-magenta.webp
+    sourceUrl: https://metzo.miraheze.org/wiki/Unavoidable_Strike_(Mythic)
+img: icons/sundries/books/book-embossed-blue.webp
 name: Unavoidable Strike
 system:
   abilityType: none
@@ -22,41 +20,15 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;make&nbsp;an&nbsp;unarmed&nbsp;strike&nbsp;or&nbsp;use&nbsp;a&nbsp;natural&nbsp;weapon&nbsp;against&nbsp;your&nbsp;foe&nbsp;as&nbsp;if&nbsp;delivering&nbsp;a&nbsp;touch&nbsp;attack.</em></p>
+      <p><em>Your&nbsp;mythic&nbsp;power&nbsp;guides&nbsp;your&nbsp;unarmed&nbsp;strikes&nbsp;and&nbsp;natural&nbsp;attacks.</em></p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Str&nbsp;13,&nbsp;<a&nbsp;href="/wiki/Psionic_Fist"&nbsp;title="Psionic&nbsp;Fist">Psionic&nbsp;Fist</a>,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+6.
-
-      </p>
-
-      <p><strong>Benefit:&nbsp;</strong>To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;part&nbsp;of&nbsp;either&nbsp;an&nbsp;unarmed&nbsp;strike&nbsp;or&nbsp;an&nbsp;attack&nbsp;with&nbsp;a&nbsp;natural&nbsp;weapon.&nbsp;You&nbsp;can&nbsp;resolve&nbsp;that&nbsp;unarmed&nbsp;strike&nbsp;or&nbsp;attack&nbsp;with&nbsp;a&nbsp;natural&nbsp;weapon&nbsp;as&nbsp;a&nbsp;touch&nbsp;attack.
+      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Unavoidable_Strike"&nbsp;title="Unavoidable&nbsp;Strike">Unavoidable&nbsp;Strike</a>.
 
       </p>
 
-      <p>You&nbsp;must&nbsp;decide&nbsp;whether&nbsp;or&nbsp;not&nbsp;to&nbsp;use&nbsp;this&nbsp;feat&nbsp;prior&nbsp;to&nbsp;making&nbsp;an&nbsp;attack.&nbsp;If&nbsp;your&nbsp;attack&nbsp;misses,&nbsp;you&nbsp;still&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.&nbsp;Abilities&nbsp;that&nbsp;do&nbsp;not&nbsp;work&nbsp;on&nbsp;touch&nbsp;attacks&nbsp;similarly&nbsp;do&nbsp;not&nbsp;work&nbsp;with&nbsp;this&nbsp;feat.
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;make&nbsp;an&nbsp;attack&nbsp;using&nbsp;Unavoidable&nbsp;Strike,&nbsp;add&nbsp;half&nbsp;your&nbsp;tier&nbsp;(minimum&nbsp;1)&nbsp;to&nbsp;the&nbsp;attack&nbsp;roll.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;when&nbsp;using&nbsp;Unavoidable&nbsp;Strike&nbsp;to&nbsp;treat&nbsp;all&nbsp;attacks&nbsp;made&nbsp;during&nbsp;your&nbsp;turn&nbsp;as&nbsp;melee&nbsp;touch&nbsp;attacks
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Advanced_Feral_Path"&nbsp;title="Advanced&nbsp;Feral&nbsp;Path">Advanced&nbsp;Feral&nbsp;Path</a></li><li><a&nbsp;href="/wiki/Psionic_Fist"&nbsp;title="Psionic&nbsp;Fist">Psionic&nbsp;Fist</a></li><li><a&nbsp;href="/wiki/Reality-Puncturing_Attack"&nbsp;title="Reality-Puncturing&nbsp;Attack">Reality-Puncturing&nbsp;Attack</a></li><li><a&nbsp;href="/wiki/Unavoidable_Strike_(Mythic)"&nbsp;title="Unavoidable&nbsp;Strike&nbsp;(Mythic)">Unavoidable&nbsp;Strike&nbsp;(Mythic)</a></li></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false
@@ -66,17 +38,11 @@ system:
     - date: ''
       errata: ''
       id: ''
-      pages: '59'
+      pages: '23'
       publisher: Dreamscarred Press
-      title: 'Psionics Unleashed: Revised'
-    - date: ''
-      errata: ''
-      id: ''
-      pages: 118–119
-      publisher: Dreamscarred Press
-      title: Ultimate Psionics
+      title: 'Psionics Augmented: Mythic Psionics'
   subType: feat
   summons: false
   tags:
-    - psionic
+    - feat
 type: feat

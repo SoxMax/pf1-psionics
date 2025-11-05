@@ -1,0 +1,64 @@
+_id: phuWrJ3XbPv2helO
+_key: '!items!phuWrJ3XbPv2helO'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Vent_Agony
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Vent Agony
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;share&nbsp;your&nbsp;psychic&nbsp;pain&nbsp;with&nbsp;others.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong><a&nbsp;href="/wiki/Overchannel"&nbsp;title="Overchannel">Overchannel</a>&nbsp;or&nbsp;wild&nbsp;surge.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>Whenever&nbsp;you&nbsp;suffer&nbsp;psychic&nbsp;enervation
+
+      or&nbsp;use&nbsp;your&nbsp;Overchannel&nbsp;feat,&nbsp;you&nbsp;may&nbsp;select&nbsp;a&nbsp;hostile
+
+      creature&nbsp;within&nbsp;30&nbsp;feet&nbsp;That&nbsp;creature&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a
+
+      Will&nbsp;save&nbsp;(DC&nbsp;10&nbsp;+&nbsp;1/2&nbsp;your&nbsp;manifester&nbsp;level&nbsp;+&nbsp;your&nbsp;key
+
+      ability&nbsp;modifier)&nbsp;or&nbsp;suffer&nbsp;the&nbsp;effects&nbsp;of&nbsp;your&nbsp;psychic
+
+      enervation&nbsp;and/or&nbsp;the&nbsp;damage&nbsp;from&nbsp;your&nbsp;Overchannel
+
+      feat&nbsp;(you&nbsp;still&nbsp;suffer&nbsp;those&nbsp;effects&nbsp;yourself).&nbsp;This&nbsp;is&nbsp;a&nbsp;pain
+
+      effect.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

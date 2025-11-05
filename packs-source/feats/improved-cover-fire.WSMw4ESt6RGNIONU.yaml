@@ -1,0 +1,73 @@
+_id: WSMw4ESt6RGNIONU
+_key: '!items!WSMw4ESt6RGNIONU'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Improved_Cover_Fire
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Improved Cover Fire
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;are&nbsp;more&nbsp;dangerous&nbsp;when&nbsp;providing&nbsp;cover&nbsp;fire.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Cover&nbsp;fire&nbsp;class&nbsp;feature
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;gain&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;rolls&nbsp;to&nbsp;activate
+
+      your&nbsp;cover&nbsp;fire&nbsp;class&nbsp;feature&nbsp;and&nbsp;the&nbsp;Reflex&nbsp;save&nbsp;DC
+
+      increases&nbsp;by&nbsp;1.&nbsp;When&nbsp;you&nbsp;confirm&nbsp;a&nbsp;critical&nbsp;hit&nbsp;when
+
+      using&nbsp;your&nbsp;cover&nbsp;fire&nbsp;ability,&nbsp;you&nbsp;can&nbsp;expend&nbsp;your
+
+      psionic&nbsp;focus&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action;&nbsp;if&nbsp;you&nbsp;do&nbsp;and
+
+      the&nbsp;opponent&nbsp;fails&nbsp;their&nbsp;Reflex&nbsp;save,&nbsp;they&nbsp;are&nbsp;stunned
+
+      for&nbsp;one&nbsp;round&nbsp;instead&nbsp;of&nbsp;staggered.&nbsp;You&nbsp;must&nbsp;choose
+
+      to&nbsp;use&nbsp;this&nbsp;ability&nbsp;before&nbsp;the&nbsp;Reflex&nbsp;save&nbsp;and&nbsp;critical
+
+      confirmation&nbsp;roll.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation I'
+  subType: feat
+  summons: false
+  tags:
+    - combat
+    - psionic
+type: feat

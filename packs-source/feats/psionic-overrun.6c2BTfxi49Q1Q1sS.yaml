@@ -1,0 +1,76 @@
+_id: 6c2BTfxi49Q1Q1sS
+_key: '!items!6c2BTfxi49Q1Q1sS'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Overrun
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Psionic Overrun
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;draw&nbsp;on&nbsp;your&nbsp;psionic&nbsp;power&nbsp;to&nbsp;boost&nbsp;the
+
+      power&nbsp;of&nbsp;an&nbsp;overrun&nbsp;attack.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Str&nbsp;13,&nbsp;Improved&nbsp;Overrun,&nbsp;Power
+
+      Attack,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+1.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>While&nbsp;maintaining&nbsp;psionic&nbsp;focus,&nbsp;when&nbsp;you
+
+      successfully&nbsp;perform&nbsp;an&nbsp;overrun&nbsp;combat&nbsp;maneuver,&nbsp;you
+
+      also&nbsp;deal&nbsp;damage&nbsp;equal&nbsp;to&nbsp;half&nbsp;your&nbsp;level&nbsp;to&nbsp;the&nbsp;creature
+
+      you&nbsp;overrun.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when&nbsp;you&nbsp;perform&nbsp;a
+
+      successful&nbsp;overrun&nbsp;combat&nbsp;maneuver,&nbsp;you&nbsp;can&nbsp;also&nbsp;push
+
+      your&nbsp;target&nbsp;up&nbsp;to&nbsp;5&nbsp;feet,&nbsp;+5&nbsp;feet&nbsp;for&nbsp;every&nbsp;four&nbsp;levels&nbsp;you
+
+      possess.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

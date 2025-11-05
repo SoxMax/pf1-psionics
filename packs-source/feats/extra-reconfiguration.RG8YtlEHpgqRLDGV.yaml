@@ -1,0 +1,76 @@
+_id: RG8YtlEHpgqRLDGV
+_key: '!items!RG8YtlEHpgqRLDGV'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Extra_Reconfiguration
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Extra Reconfiguration
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;are&nbsp;able&nbsp;to&nbsp;modify&nbsp;your&nbsp;astral&nbsp;suit&nbsp;more&nbsp;often.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Astral&nbsp;suit&nbsp;class&nbsp;ability,&nbsp;reconfigure
+
+      class&nbsp;ability
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;gain&nbsp;one&nbsp;additional&nbsp;daily&nbsp;use&nbsp;of&nbsp;your
+
+      reconfigure&nbsp;class&nbsp;ability.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>Your&nbsp;mythic&nbsp;energies&nbsp;grant&nbsp;you&nbsp;additional&nbsp;opportunities&nbsp;to&nbsp;reconfigure&nbsp;your&nbsp;astral&nbsp;suit.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Extra&nbsp;Reconfiguration.
+
+      <strong>Benefit:</strong>&nbsp;You&nbsp;gain&nbsp;one&nbsp;additional&nbsp;daily&nbsp;use&nbsp;of&nbsp;your&nbsp;reconfigure&nbsp;ability.&nbsp;Additionally,&nbsp;if&nbsp;you&nbsp;have&nbsp;no&nbsp;uses&nbsp;of&nbsp;reconfigure&nbsp;remaining,&nbsp;you&nbsp;may&nbsp;expend&nbsp;two&nbsp;uses&nbsp;of&nbsp;mythic&nbsp;power&nbsp;to&nbsp;use&nbsp;your&nbsp;reconfigure&nbsp;ability&nbsp;&nbsp;Additionally,&nbsp;if&nbsp;you&nbsp;have&nbsp;no&nbsp;uses&nbsp;of&nbsp;reconfigure&nbsp;remaining,&nbsp;you&nbsp;may&nbsp;expend&nbsp;two&nbsp;uses&nbsp;of&nbsp;mythic&nbsp;power&nbsp;to&nbsp;use&nbsp;your&nbsp;reconfigure&nbsp;ability&nbsp;<br&nbsp;/></p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

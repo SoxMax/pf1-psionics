@@ -1,7 +1,5 @@
 _id: J4ZUJiRd8asjvkWy
 _key: '!items!J4ZUJiRd8asjvkWy'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Advanced_Anomalous_Path
@@ -30,29 +28,7 @@ system:
 
       <p>The&nbsp;anomalous&nbsp;trance&nbsp;benefit&nbsp;now&nbsp;applies&nbsp;to&nbsp;your&nbsp;touch&nbsp;Armor&nbsp;Class&nbsp;against&nbsp;powers,&nbsp;psi-like&nbsp;abilities,&nbsp;spells,&nbsp;and&nbsp;spell-like&nbsp;abilities.&nbsp;Additionally,&nbsp;when&nbsp;using&nbsp;the&nbsp;anomalous&nbsp;path&nbsp;maneuver,&nbsp;the&nbsp;animus&nbsp;provided&nbsp;from&nbsp;this&nbsp;ability&nbsp;increases&nbsp;from&nbsp;1d4&nbsp;to&nbsp;1d6&nbsp;at&nbsp;3rd&nbsp;level,&nbsp;and&nbsp;from&nbsp;2d4&nbsp;to&nbsp;2d6&nbsp;at&nbsp;7th&nbsp;level.&nbsp;This&nbsp;feat&nbsp;is&nbsp;a&nbsp;supernatural&nbsp;ability.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Animus_Potency"&nbsp;title="Animus&nbsp;Potency">Animus&nbsp;Potency</a></li><li><a&nbsp;href="/wiki/Extra_Animus"&nbsp;title="Extra&nbsp;Animus">Extra&nbsp;Animus</a></li></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

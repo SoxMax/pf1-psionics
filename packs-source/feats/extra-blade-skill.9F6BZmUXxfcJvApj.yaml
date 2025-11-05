@@ -1,0 +1,86 @@
+_id: 9F6BZmUXxfcJvApj
+_key: '!items!9F6BZmUXxfcJvApj'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Extra_Blade_Skill
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Extra Blade Skill
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;training&nbsp;with&nbsp;a&nbsp;mind&nbsp;blade&nbsp;allows&nbsp;you&nbsp;to&nbsp;perform
+
+      additional&nbsp;abilities.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Blade&nbsp;skill&nbsp;class&nbsp;feature,&nbsp;base&nbsp;attack
+
+      bonus&nbsp;+2.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;gain&nbsp;an&nbsp;additional&nbsp;blade&nbsp;skill.
+
+      </p>
+
+      <p><strong>Special:&nbsp;</strong>You&nbsp;may&nbsp;take&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;times.&nbsp;Each
+
+      time,&nbsp;you&nbsp;gain&nbsp;a&nbsp;new&nbsp;blade&nbsp;skill.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>You&nbsp;can&nbsp;meditate&nbsp;to&nbsp;gain&nbsp;a&nbsp;blade&nbsp;skill.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Extra&nbsp;Blade&nbsp;Skill.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;Each&nbsp;day,&nbsp;you&nbsp;can&nbsp;take&nbsp;1&nbsp;hour&nbsp;of&nbsp;meditation&nbsp;to&nbsp;decide&nbsp;how&nbsp;to&nbsp;focus&nbsp;your&nbsp;mythic&nbsp;energies.&nbsp;At&nbsp;the&nbsp;end&nbsp;of&nbsp;this&nbsp;time,&nbsp;select&nbsp;1&nbsp;blade&nbsp;skill&nbsp;for&nbsp;which&nbsp;you&nbsp;meet&nbsp;all&nbsp;the&nbsp;prerequisites.&nbsp;You&nbsp;retain&nbsp;this&nbsp;blade&nbsp;skill&nbsp;until&nbsp;you&nbsp;next&nbsp;meditate&nbsp;on&nbsp;your&nbsp;mythic&nbsp;blade&nbsp;skill.&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

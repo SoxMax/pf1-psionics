@@ -368,7 +368,7 @@ export class PowerItem extends pf1.documents.item.ItemPF {
     result.learnedAt = {};
     if (system.learnedAt) {
       const classNames = await pf1.utils.packs.getClassIDMap();
-      for (const category of ["class", "domain", "subDomain", "elementalSchool", "bloodline"]) {
+      for (const category of ["class"]) {
         result.learnedAt[category] = pf1.utils.i18n.join(
             Object.entries(system.learnedAt[category]).map(
                 ([classId, level]) => `${classNames[classId] || classId} ${level}`,

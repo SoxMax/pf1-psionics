@@ -1,11 +1,9 @@
 _id: zuqKfTFLW6QWnltb
 _key: '!items!zuqKfTFLW6QWnltb'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
-    sourceUrl: https://metzo.miraheze.org/wiki/Up_the_Walls
-img: icons/magic/symbols/runes-star-magenta.webp
+    sourceUrl: https://metzo.miraheze.org/wiki/Up_the_Walls_(Mythic)
+img: icons/sundries/books/book-embossed-blue.webp
 name: Up the Walls
 system:
   abilityType: none
@@ -22,49 +20,15 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;run&nbsp;on&nbsp;walls&nbsp;for&nbsp;brief&nbsp;distances.</em></p>
+      <p><em>Your&nbsp;ability&nbsp;to&nbsp;traverse&nbsp;walls&nbsp;defies&nbsp;all&nbsp;laws&nbsp;of&nbsp;physics.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Wis&nbsp;13.
-
-      </p>
-
-      <p><strong>Benefit:</strong>&nbsp;While&nbsp;you&nbsp;are&nbsp;psionically&nbsp;focused,&nbsp;you&nbsp;can&nbsp;take&nbsp;part&nbsp;of&nbsp;one&nbsp;of&nbsp;your&nbsp;move&nbsp;actions&nbsp;to&nbsp;traverse&nbsp;a&nbsp;wall&nbsp;or&nbsp;other&nbsp;relatively&nbsp;smooth&nbsp;vertical&nbsp;surface&nbsp;if&nbsp;you&nbsp;begin&nbsp;and&nbsp;end&nbsp;your&nbsp;move&nbsp;on&nbsp;a&nbsp;horizontal&nbsp;surface.&nbsp;The&nbsp;height&nbsp;you&nbsp;can&nbsp;achieve&nbsp;on&nbsp;the&nbsp;wall&nbsp;is&nbsp;limited&nbsp;only&nbsp;by&nbsp;this&nbsp;movement&nbsp;restriction.&nbsp;If&nbsp;you&nbsp;do&nbsp;not&nbsp;end&nbsp;your&nbsp;move&nbsp;on&nbsp;a&nbsp;horizontal&nbsp;surface,&nbsp;you&nbsp;fall&nbsp;prone,&nbsp;taking&nbsp;falling&nbsp;damage&nbsp;as&nbsp;appropriate&nbsp;for&nbsp;your&nbsp;distance&nbsp;above&nbsp;the&nbsp;ground.&nbsp;Treat&nbsp;the&nbsp;wall&nbsp;as&nbsp;a&nbsp;normal&nbsp;floor&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of&nbsp;measuring&nbsp;your&nbsp;movement.&nbsp;Passing&nbsp;from&nbsp;floor&nbsp;to&nbsp;wall&nbsp;or&nbsp;wall&nbsp;to&nbsp;floor&nbsp;costs&nbsp;no&nbsp;movement;&nbsp;you&nbsp;can&nbsp;change&nbsp;surfaces&nbsp;freely.&nbsp;Opponents&nbsp;on&nbsp;the&nbsp;ground&nbsp;can&nbsp;make&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;as&nbsp;you&nbsp;move&nbsp;up&nbsp;the&nbsp;wall.
+      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Up_the_Walls"&nbsp;title="Up&nbsp;the&nbsp;Walls">Up&nbsp;the&nbsp;Walls</a>.
 
       </p>
 
-      <p>You&nbsp;may&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;while&nbsp;using&nbsp;Up&nbsp;the&nbsp;Walls&nbsp;and&nbsp;gain&nbsp;its&nbsp;benefits&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;turn.
+      <p><strong>Benefit:</strong>&nbsp;You&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;when&nbsp;using&nbsp;the&nbsp;Up&nbsp;the&nbsp;Walls&nbsp;feat&nbsp;to&nbsp;remain&nbsp;on&nbsp;a&nbsp;surface&nbsp;other&nbsp;than&nbsp;the&nbsp;floor&nbsp;for&nbsp;a&nbsp;number&nbsp;of&nbsp;rounds&nbsp;equal&nbsp;to&nbsp;your&nbsp;tier.
 
       </p>
-
-      <p><strong>Special:</strong>&nbsp;You&nbsp;can&nbsp;take&nbsp;other&nbsp;move&nbsp;actions&nbsp;in&nbsp;conjunction&nbsp;with&nbsp;moving&nbsp;along&nbsp;a&nbsp;wall.&nbsp;For&nbsp;instance,&nbsp;the&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Spring%20Attack">Spring&nbsp;Attack</a>&nbsp;feat&nbsp;allows&nbsp;you&nbsp;to&nbsp;make&nbsp;an&nbsp;attack&nbsp;from&nbsp;the&nbsp;wall&nbsp;against&nbsp;a&nbsp;foe&nbsp;standing&nbsp;on&nbsp;the&nbsp;ground&nbsp;who&nbsp;is&nbsp;within&nbsp;the&nbsp;area&nbsp;you&nbsp;threaten;&nbsp;however,&nbsp;if&nbsp;you&nbsp;are&nbsp;somehow&nbsp;prevented&nbsp;from&nbsp;completing&nbsp;your&nbsp;move,&nbsp;you&nbsp;fall.&nbsp;Likewise,&nbsp;you&nbsp;could&nbsp;tumble&nbsp;along&nbsp;the&nbsp;wall&nbsp;to&nbsp;avoid&nbsp;attacks&nbsp;of&nbsp;opportunity.
-
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Quantum"&nbsp;title="Quantum">Quantum</a></li></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Voyager"&nbsp;title="Voyager">Voyager</a></li></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Up_the_Walls_(Mythic)"&nbsp;title="Up&nbsp;the&nbsp;Walls&nbsp;(Mythic)">Up&nbsp;the&nbsp;Walls&nbsp;(Mythic)</a></li></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
   disabled: false
   featType: feat
   inherited: false
@@ -74,23 +38,11 @@ system:
     - date: ''
       errata: ''
       id: ''
-      pages: '53'
+      pages: '23'
       publisher: Dreamscarred Press
-      title: Psionics Unleashed
-    - date: ''
-      errata: ''
-      id: ''
-      pages: '60'
-      publisher: Dreamscarred Press
-      title: 'Psionics Unleashed: Revised'
-    - date: ''
-      errata: ''
-      id: ''
-      pages: '120'
-      publisher: Dreamscarred Press
-      title: Ultimate Psionics
+      title: 'Psionics Augmented: Mythic Psionics'
   subType: feat
   summons: false
   tags:
-    - psionic
+    - feat
 type: feat

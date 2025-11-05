@@ -1,0 +1,94 @@
+_id: 2eXWo6ehzl716iQK
+_key: '!items!2eXWo6ehzl716iQK'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Improved_Psi-Like_Ability
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Improved Psi-Like Ability
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;manifest&nbsp;your&nbsp;racial&nbsp;psionic&nbsp;abilities&nbsp;more
+
+      often.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Racial&nbsp;psi-like&nbsp;ability.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>Choose&nbsp;one&nbsp;psi-like&nbsp;ability&nbsp;gained&nbsp;from&nbsp;your
+
+      race.&nbsp;You&nbsp;can&nbsp;use&nbsp;that&nbsp;racial&nbsp;psi-like&nbsp;ability&nbsp;an&nbsp;additional
+
+      two&nbsp;times&nbsp;per&nbsp;day.
+
+      </p>
+
+      <p><strong>Special:&nbsp;</strong>You&nbsp;can&nbsp;take&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;times,&nbsp;either
+
+      choosing&nbsp;an&nbsp;additional&nbsp;psi-like&nbsp;ability&nbsp;or&nbsp;to&nbsp;gain&nbsp;an
+
+      additional&nbsp;two&nbsp;uses&nbsp;per&nbsp;day&nbsp;of&nbsp;the&nbsp;same&nbsp;psi-like&nbsp;ability.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>Your&nbsp;psi-like&nbsp;abilities&nbsp;grow&nbsp;with&nbsp;your&nbsp;experience.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Improved&nbsp;Psi-Like&nbsp;Ability.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;Your&nbsp;racial&nbsp;psi-like&nbsp;ability&nbsp;has&nbsp;a&nbsp;manifester&nbsp;level&nbsp;equal&nbsp;to&nbsp;your&nbsp;character&nbsp;level&nbsp;plus&nbsp;your&nbsp;mythic&nbsp;tier.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;use&nbsp;your&nbsp;racial&nbsp;psi-like&nbsp;ability&nbsp;a&nbsp;number&nbsp;of&nbsp;times&nbsp;per&nbsp;day&nbsp;equal&nbsp;to&nbsp;your&nbsp;mythic&nbsp;tier.&nbsp;
+
+      </p>
+
+      <p><strong>Special:</strong>&nbsp;You&nbsp;can&nbsp;take&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;times,&nbsp;each&nbsp;time&nbsp;choosing&nbsp;another&nbsp;racial&nbsp;psi-like&nbsp;ability&nbsp;that&nbsp;has&nbsp;been&nbsp;improved&nbsp;by&nbsp;Improve&nbsp;Psi-Like&nbsp;Ability&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

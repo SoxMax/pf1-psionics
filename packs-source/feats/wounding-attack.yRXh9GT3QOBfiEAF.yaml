@@ -1,0 +1,92 @@
+_id: yRXh9GT3QOBfiEAF
+_key: '!items!yRXh9GT3QOBfiEAF'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Wounding_Attack
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Wounding Attack
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;vicious&nbsp;attacks&nbsp;wound&nbsp;your&nbsp;foe.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Base&nbsp;attack&nbsp;bonus&nbsp;+8.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your
+
+      psionic&nbsp;focus.&nbsp;You&nbsp;can&nbsp;make&nbsp;an&nbsp;attack&nbsp;with&nbsp;such&nbsp;vicious
+
+      force&nbsp;that&nbsp;you&nbsp;wound&nbsp;your&nbsp;opponent.&nbsp;A&nbsp;wound&nbsp;deals&nbsp;1
+
+      point&nbsp;of&nbsp;Constitution&nbsp;damage&nbsp;to&nbsp;your&nbsp;foe&nbsp;in&nbsp;addition&nbsp;to
+
+      the&nbsp;usual&nbsp;damage&nbsp;dealt.
+
+      </p>
+
+      <p>You&nbsp;must&nbsp;decide&nbsp;whether&nbsp;or&nbsp;not&nbsp;to&nbsp;use&nbsp;this&nbsp;feat&nbsp;prior&nbsp;to
+
+      making&nbsp;an&nbsp;attack.&nbsp;If&nbsp;your&nbsp;attack&nbsp;misses,&nbsp;you&nbsp;still&nbsp;expend
+
+      your&nbsp;psionic&nbsp;focus.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>Your&nbsp;attacks&nbsp;are&nbsp;particularly&nbsp;debilitating.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Wounding&nbsp;Attack.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;The&nbsp;Constitution&nbsp;damage&nbsp;dealt&nbsp;from&nbsp;Wounding&nbsp;Attack&nbsp;is&nbsp;doubled.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;when&nbsp;an&nbsp;attack&nbsp;made&nbsp;with&nbsp;Wounding&nbsp;Attack&nbsp;misses&nbsp;to&nbsp;reroll&nbsp;the&nbsp;attack&nbsp;roll.&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

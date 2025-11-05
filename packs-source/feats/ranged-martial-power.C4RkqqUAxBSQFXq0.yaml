@@ -1,0 +1,55 @@
+_id: C4RkqqUAxBSQFXq0
+_key: '!items!C4RkqqUAxBSQFXq0'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Ranged_Martial_Power
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Ranged Martial Power
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You’ve&nbsp;learned&nbsp;how&nbsp;to&nbsp;use&nbsp;your&nbsp;martial&nbsp;path&nbsp;talents&nbsp;at
+
+      range.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Martial&nbsp;power&nbsp;class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;use&nbsp;your&nbsp;martial&nbsp;power&nbsp;class&nbsp;feature
+
+      when&nbsp;making&nbsp;ranged&nbsp;attacks.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: feat
+  summons: false
+  tags:
+    - combat
+    - psionic
+type: feat

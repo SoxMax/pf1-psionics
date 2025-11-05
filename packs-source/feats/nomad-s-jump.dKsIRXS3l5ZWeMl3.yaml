@@ -1,0 +1,78 @@
+_id: dKsIRXS3l5ZWeMl3
+_key: '!items!dKsIRXS3l5ZWeMl3'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Nomad’s_Jump
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Nomad’s Jump
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;ability&nbsp;to&nbsp;teleport&nbsp;short&nbsp;distances&nbsp;is&nbsp;not&nbsp;hindered
+
+      by&nbsp;your&nbsp;new&nbsp;studies.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Aerial&nbsp;acrobatics&nbsp;class&nbsp;ability,&nbsp;nomad’s
+
+      step&nbsp;class&nbsp;ability
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>Your&nbsp;levels&nbsp;of&nbsp;elocator&nbsp;stack&nbsp;with&nbsp;your&nbsp;levels
+
+      of&nbsp;nomad&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of&nbsp;determining&nbsp;the&nbsp;range&nbsp;of
+
+      nomad’s&nbsp;step.
+
+      </p>
+
+      <p>In&nbsp;addition,&nbsp;when&nbsp;you&nbsp;use&nbsp;nomad’s&nbsp;step,&nbsp;you&nbsp;may&nbsp;split
+
+      your&nbsp;distance&nbsp;traveled&nbsp;into&nbsp;two&nbsp;steps&nbsp;and&nbsp;determine
+
+      your&nbsp;line&nbsp;of&nbsp;sight&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;first&nbsp;step.&nbsp;The&nbsp;total
+
+      distance&nbsp;traveled&nbsp;must&nbsp;not&nbsp;exceed&nbsp;your&nbsp;maximum&nbsp;range
+
+      for&nbsp;nomad’s&nbsp;step&nbsp;and&nbsp;you&nbsp;may&nbsp;perform&nbsp;no&nbsp;other&nbsp;actions
+
+      during&nbsp;the&nbsp;steps.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation I'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

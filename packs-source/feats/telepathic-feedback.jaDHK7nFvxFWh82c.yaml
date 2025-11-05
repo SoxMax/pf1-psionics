@@ -1,0 +1,82 @@
+_id: jaDHK7nFvxFWh82c
+_key: '!items!jaDHK7nFvxFWh82c'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Telepathic_Feedback
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Telepathic Feedback
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;overload&nbsp;the&nbsp;connections&nbsp;people&nbsp;make&nbsp;with&nbsp;your
+
+      minds.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong><a&nbsp;href="/wiki/Wild_Mind"&nbsp;title="Wild&nbsp;Mind">Wild&nbsp;Mind</a>&nbsp;or&nbsp;Wis&nbsp;15.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;may&nbsp;activate&nbsp;this&nbsp;feat&nbsp;whenever&nbsp;you
+
+      are&nbsp;targeted&nbsp;by&nbsp;a&nbsp;hostile&nbsp;mind-affecting&nbsp;ability,&nbsp;power,
+
+      or&nbsp;spell,&nbsp;or&nbsp;when&nbsp;you&nbsp;are&nbsp;subjected&nbsp;to&nbsp;unwanted
+
+      telepathic&nbsp;contact&nbsp;(you&nbsp;are&nbsp;automatically&nbsp;aware
+
+      of&nbsp;when&nbsp;you&nbsp;have&nbsp;been&nbsp;targeted&nbsp;or&nbsp;contacted
+
+      in&nbsp;this&nbsp;manner,&nbsp;though&nbsp;without&nbsp;further
+
+      information&nbsp;you&nbsp;might&nbsp;not&nbsp;be&nbsp;able&nbsp;to
+
+      identify&nbsp;the&nbsp;source).&nbsp;The&nbsp;source&nbsp;of
+
+      the&nbsp;ability&nbsp;or&nbsp;contact&nbsp;must&nbsp;succeed
+
+      at&nbsp;a&nbsp;Will&nbsp;save&nbsp;(DC&nbsp;10&nbsp;+&nbsp;1/2&nbsp;your
+
+      character&nbsp;level&nbsp;+&nbsp;your&nbsp;Wisdom
+
+      or&nbsp;Charisma&nbsp;modifier)&nbsp;or&nbsp;suffer
+
+      damage&nbsp;equal&nbsp;to&nbsp;your&nbsp;character&nbsp;level.
+
+      You&nbsp;may&nbsp;only&nbsp;activate&nbsp;this&nbsp;feat
+
+      once&nbsp;per&nbsp;provoking&nbsp;ability&nbsp;or
+
+      contact.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

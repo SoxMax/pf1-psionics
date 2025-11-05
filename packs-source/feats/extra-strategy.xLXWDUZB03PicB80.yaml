@@ -1,0 +1,84 @@
+_id: xLXWDUZB03PicB80
+_key: '!items!xLXWDUZB03PicB80'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Extra_Strategy
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Extra Strategy
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;gain&nbsp;extra&nbsp;daily&nbsp;uses&nbsp;of&nbsp;your&nbsp;strategy&nbsp;ability.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Strategy&nbsp;class&nbsp;feature
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;gain&nbsp;two&nbsp;additional&nbsp;daily&nbsp;uses&nbsp;of&nbsp;your
+
+      strategy&nbsp;class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Special:&nbsp;</strong>You&nbsp;can&nbsp;gain&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;times.&nbsp;Its
+
+      effects&nbsp;stack.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>You&nbsp;are&nbsp;able&nbsp;to&nbsp;use&nbsp;your&nbsp;mythic&nbsp;energy&nbsp;to&nbsp;gain&nbsp;strategic&nbsp;opportunities.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Extra&nbsp;Strategy.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;You&nbsp;gain&nbsp;two&nbsp;additional&nbsp;daily&nbsp;uses&nbsp;of&nbsp;your&nbsp;strategy&nbsp;ability.&nbsp;Additionally,&nbsp;if&nbsp;you&nbsp;have&nbsp;no&nbsp;uses&nbsp;of&nbsp;strategy&nbsp;remaining,&nbsp;you&nbsp;may&nbsp;expend&nbsp;one&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;to&nbsp;use&nbsp;your&nbsp;strategy&nbsp;ability.&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

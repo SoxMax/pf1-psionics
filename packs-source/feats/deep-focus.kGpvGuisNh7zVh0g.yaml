@@ -1,0 +1,106 @@
+_id: kGpvGuisNh7zVh0g
+_key: '!items!kGpvGuisNh7zVh0g'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Deep_Focus
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Deep Focus
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;have&nbsp;learned&nbsp;to&nbsp;focus&nbsp;your&nbsp;subconscious&nbsp;mind
+
+      even&nbsp;while&nbsp;awake.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong><a&nbsp;href="/wiki/Psionic_Body"&nbsp;title="Psionic&nbsp;Body">Psionic&nbsp;Body</a>,&nbsp;Autohypnosis&nbsp;4&nbsp;ranks.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;psionically&nbsp;focus&nbsp;your&nbsp;subconscious
+
+      in&nbsp;the&nbsp;same&nbsp;manner&nbsp;in&nbsp;which&nbsp;you&nbsp;gain&nbsp;psionic&nbsp;focus
+
+      normally.&nbsp;At&nbsp;any&nbsp;time&nbsp;when&nbsp;you&nbsp;need&nbsp;to&nbsp;expend&nbsp;your
+
+      psionic&nbsp;focus,&nbsp;you&nbsp;can&nbsp;expend&nbsp;your&nbsp;subconscious’s
+
+      psionic&nbsp;focus&nbsp;instead.&nbsp;At&nbsp;any&nbsp;time&nbsp;when&nbsp;you&nbsp;need
+
+      to&nbsp;maintain&nbsp;psionic&nbsp;focus&nbsp;for&nbsp;an&nbsp;effect,&nbsp;you&nbsp;can&nbsp;use
+
+      your&nbsp;subconscious’s&nbsp;psionic&nbsp;focus&nbsp;instead.&nbsp;Psionically
+
+      focusing&nbsp;your&nbsp;subconscious&nbsp;works&nbsp;just&nbsp;like&nbsp;focusing
+
+      your&nbsp;conscious&nbsp;mind.
+
+      </p>
+
+      <p><strong>Special:&nbsp;</strong>You&nbsp;cannot&nbsp;benefit&nbsp;from&nbsp;both&nbsp;Psicrystal
+
+      Containment&nbsp;and&nbsp;Deep&nbsp;Focus&nbsp;at&nbsp;the&nbsp;same&nbsp;time.&nbsp;If&nbsp;you
+
+      have&nbsp;both&nbsp;feats,&nbsp;you&nbsp;may&nbsp;only&nbsp;have&nbsp;your&nbsp;psicrystal&nbsp;or
+
+      your&nbsp;subconscious&nbsp;maintaining&nbsp;psionic&nbsp;focus&nbsp;at&nbsp;any
+
+      given&nbsp;time.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>Your&nbsp;subconscious&nbsp;mind’s&nbsp;focus&nbsp;is&nbsp;improved.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Deep&nbsp;Focus.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;As&nbsp;long&nbsp;as&nbsp;you&nbsp;have&nbsp;at&nbsp;least&nbsp;one&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;remaining&nbsp;or&nbsp;one&nbsp;power&nbsp;point&nbsp;remaining&nbsp;in&nbsp;your&nbsp;power&nbsp;point&nbsp;pool,&nbsp;you&nbsp;are&nbsp;always&nbsp;treated&nbsp;as&nbsp;if&nbsp;you&nbsp;are&nbsp;maintaining&nbsp;psionic&nbsp;focus&nbsp;for&nbsp;abilities&nbsp;powered&nbsp;by&nbsp;maintaining&nbsp;psionic&nbsp;focus.&nbsp;You&nbsp;may&nbsp;still&nbsp;only&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;if&nbsp;you&nbsp;are&nbsp;actually&nbsp;maintaining&nbsp;psionic&nbsp;focus.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;regain&nbsp;both&nbsp;your&nbsp;own&nbsp;and&nbsp;the&nbsp;psionic&nbsp;focus&nbsp;provided&nbsp;by&nbsp;Deep&nbsp;Focus.&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation I'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

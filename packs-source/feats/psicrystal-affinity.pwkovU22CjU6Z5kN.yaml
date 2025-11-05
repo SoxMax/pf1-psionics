@@ -1,10 +1,8 @@
 _id: pwkovU22CjU6Z5kN
 _key: '!items!pwkovU22CjU6Z5kN'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
-    sourceUrl: https://metzo.miraheze.org/wiki/Psicrystal_Affinity
+    sourceUrl: https://metzo.miraheze.org/wiki/Psicrystal_Affinity_(Mythic)
 img: icons/commodities/gems/gem-faceted-diamond-blue.webp
 name: Psicrystal Affinity
 system:
@@ -22,47 +20,15 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;have&nbsp;created&nbsp;a&nbsp;psicrystal.</em></p>
+      <p><em>Your&nbsp;psicrystal&nbsp;is&nbsp;infused&nbsp;with&nbsp;your&nbsp;mythic&nbsp;power.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Manifester&nbsp;level&nbsp;1st.
-
-      </p>
-
-      <p><strong>Benefit:</strong>&nbsp;This&nbsp;feat&nbsp;allows&nbsp;you&nbsp;to&nbsp;gain&nbsp;a&nbsp;<a&nbsp;href="/wiki/Psicrystal"&nbsp;title="Psicrystal">psicrystal</a>.&nbsp;Should&nbsp;your&nbsp;psicrystal&nbsp;be&nbsp;destroyed,&nbsp;you&nbsp;gain&nbsp;a&nbsp;new&nbsp;one&nbsp;after&nbsp;24&nbsp;hours.&nbsp;A&nbsp;new&nbsp;psicrystal&nbsp;must&nbsp;have&nbsp;the&nbsp;same&nbsp;personality&nbsp;as&nbsp;the&nbsp;original.
+      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Psicrystal_Affinity"&nbsp;title="Psicrystal&nbsp;Affinity">Psicrystal&nbsp;Affinity</a>.
 
       </p>
 
-      <p><strong>Special:</strong>&nbsp;For&nbsp;the&nbsp;purposes&nbsp;of&nbsp;this&nbsp;feat,&nbsp;all&nbsp;feats&nbsp;that&nbsp;depend&nbsp;on&nbsp;it&nbsp;and&nbsp;all&nbsp;abilities&nbsp;that&nbsp;stem&nbsp;from&nbsp;it,&nbsp;all&nbsp;psionic&nbsp;class&nbsp;levels&nbsp;count&nbsp;as&nbsp;manifester&nbsp;levels.
+      <p><strong>Benefit:</strong>&nbsp;Your&nbsp;psicrystal&nbsp;can&nbsp;use&nbsp;the&nbsp;surge&nbsp;ability&nbsp;a&nbsp;number&nbsp;of&nbsp;times&nbsp;per&nbsp;day&nbsp;equal&nbsp;to&nbsp;your&nbsp;tier.&nbsp;Its&nbsp;surge&nbsp;ability&nbsp;uses&nbsp;the&nbsp;same&nbsp;bonus&nbsp;die&nbsp;type&nbsp;as&nbsp;you&nbsp;do&nbsp;when&nbsp;you&nbsp;use&nbsp;your&nbsp;surge&nbsp;ability.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Circuitbreaker"&nbsp;title="Circuitbreaker">Circuitbreaker</a></li><li><a&nbsp;href="/wiki/Crystal_Warrior"&nbsp;title="Crystal&nbsp;Warrior">Crystal&nbsp;Warrior</a></li><li><a&nbsp;href="/wiki/Crystalline_Binder"&nbsp;title="Crystalline&nbsp;Binder">Crystalline&nbsp;Binder</a></li><li><a&nbsp;href="/wiki/Psychic_Mage"&nbsp;title="Psychic&nbsp;Mage">Psychic&nbsp;Mage</a></li><li><a&nbsp;href="/wiki/Quantum"&nbsp;title="Quantum">Quantum</a></li></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Hivemind"&nbsp;title="Hivemind">Hivemind</a></li></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Agent_Path"&nbsp;title="Agent&nbsp;Path">Agent&nbsp;Path</a></li><li><a&nbsp;href="/wiki/Circuitry_Mystery"&nbsp;title="Circuitry&nbsp;Mystery">Circuitry&nbsp;Mystery</a></li><li><a&nbsp;href="/wiki/Hivemind_Gestalt_Talent"&nbsp;title="Hivemind&nbsp;Gestalt&nbsp;Talent">Hivemind&nbsp;Gestalt&nbsp;Talent</a></li><li><a&nbsp;href="/wiki/Robot_Subdomain"&nbsp;title="Robot&nbsp;Subdomain">Robot&nbsp;Subdomain</a></li><li><a&nbsp;href="/wiki/Soulknife_Blade_Skill"&nbsp;title="Soulknife&nbsp;Blade&nbsp;Skill">Soulknife&nbsp;Blade&nbsp;Skill</a></li><li><a&nbsp;href="/wiki/Zealot_Conviction"&nbsp;title="Zealot&nbsp;Conviction">Zealot&nbsp;Conviction</a></li></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Bound_Self"&nbsp;title="Bound&nbsp;Self">Bound&nbsp;Self</a></li><li><a&nbsp;href="/wiki/Bound_Spirit"&nbsp;title="Bound&nbsp;Spirit">Bound&nbsp;Spirit</a></li><li><a&nbsp;href="/wiki/Cerebric_Guardian"&nbsp;title="Cerebric&nbsp;Guardian">Cerebric&nbsp;Guardian</a></li><li><a&nbsp;href="/wiki/Cortex_Strike"&nbsp;title="Cortex&nbsp;Strike">Cortex&nbsp;Strike</a></li><li><a&nbsp;href="/wiki/Crystal_Psiborg"&nbsp;title="Crystal&nbsp;Psiborg">Crystal&nbsp;Psiborg</a></li><li><a&nbsp;href="/wiki/Crystalline_Vassal"&nbsp;title="Crystalline&nbsp;Vassal">Crystalline&nbsp;Vassal</a></li><li><a&nbsp;href="/wiki/Extra_Mech_Enhancement"&nbsp;title="Extra&nbsp;Mech&nbsp;Enhancement">Extra&nbsp;Mech&nbsp;Enhancement</a></li><li><a&nbsp;href="/wiki/Flexible_Personality"&nbsp;title="Flexible&nbsp;Personality">Flexible&nbsp;Personality</a></li><li><a&nbsp;href="/wiki/Greater_Empowerment"&nbsp;title="Greater&nbsp;Empowerment">Greater&nbsp;Empowerment</a></li><li><a&nbsp;href="/wiki/Improved_Cortex_Attack"&nbsp;title="Improved&nbsp;Cortex&nbsp;Attack">Improved&nbsp;Cortex&nbsp;Attack</a></li><li><a&nbsp;href="/wiki/Matter-Energy_Storage"&nbsp;title="Matter-Energy&nbsp;Storage">Matter-Energy&nbsp;Storage</a></li><li><a&nbsp;href="/wiki/Mech_Piloting"&nbsp;title="Mech&nbsp;Piloting">Mech&nbsp;Piloting</a></li><li><a&nbsp;href="/wiki/Psi-Core_Upgrade"&nbsp;title="Psi-Core&nbsp;Upgrade">Psi-Core&nbsp;Upgrade</a></li><li><a&nbsp;href="/wiki/Psicrystal_Affinity_(Mythic)"&nbsp;title="Psicrystal&nbsp;Affinity&nbsp;(Mythic)">Psicrystal&nbsp;Affinity&nbsp;(Mythic)</a></li><li><a&nbsp;href="/wiki/Psicrystal_Body"&nbsp;title="Psicrystal&nbsp;Body">Psicrystal&nbsp;Body</a></li><li><a&nbsp;href="/wiki/Psicrystal_Reservoir"&nbsp;title="Psicrystal&nbsp;Reservoir">Psicrystal&nbsp;Reservoir</a></li><li><a&nbsp;href="/wiki/Psicrystal_Strike_Focus"&nbsp;title="Psicrystal&nbsp;Strike&nbsp;Focus">Psicrystal&nbsp;Strike&nbsp;Focus</a></li><li><a&nbsp;href="/wiki/Retain_Charge"&nbsp;title="Retain&nbsp;Charge">Retain&nbsp;Charge</a></li><li><a&nbsp;href="/wiki/Spirited_Psicrystal"&nbsp;title="Spirited&nbsp;Psicrystal">Spirited&nbsp;Psicrystal</a></li><li><a&nbsp;href="/wiki/Strike_the_Heart_River"&nbsp;title="Strike&nbsp;the&nbsp;Heart&nbsp;River">Strike&nbsp;the&nbsp;Heart&nbsp;River</a></li><li><a&nbsp;href="/wiki/Superior_Psicrystal"&nbsp;title="Superior&nbsp;Psicrystal">Superior&nbsp;Psicrystal</a></li><li><a&nbsp;href="/wiki/Swarming_Psicrystal"&nbsp;title="Swarming&nbsp;Psicrystal">Swarming&nbsp;Psicrystal</a></li><li><a&nbsp;href="/wiki/Uncarnate_Psicrystal"&nbsp;title="Uncarnate&nbsp;Psicrystal">Uncarnate&nbsp;Psicrystal</a></li><li><a&nbsp;href="/wiki/Void_Focus"&nbsp;title="Void&nbsp;Focus">Void&nbsp;Focus</a></li></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false
@@ -72,23 +38,11 @@ system:
     - date: ''
       errata: ''
       id: ''
-      pages: '55'
+      pages: '20'
       publisher: Dreamscarred Press
-      title: 'Psionics Unleashed: Revised'
-    - date: ''
-      errata: ''
-      id: ''
-      pages: '4'
-      publisher: Dreamscarred Press
-      title: 'Psionics Augmented: Feats and Powers'
-    - date: ''
-      errata: ''
-      id: ''
-      pages: '109'
-      publisher: Dreamscarred Press
-      title: Ultimate Psionics
+      title: 'Psionics Augmented: Mythic Psionics'
   subType: feat
   summons: false
   tags:
-    - psionic
+    - feat
 type: feat

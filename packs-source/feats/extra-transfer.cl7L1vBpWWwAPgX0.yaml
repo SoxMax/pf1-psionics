@@ -1,0 +1,90 @@
+_id: cl7L1vBpWWwAPgX0
+_key: '!items!cl7L1vBpWWwAPgX0'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Extra_Transfer
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Extra Transfer
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;use&nbsp;transfer&nbsp;wounds&nbsp;more&nbsp;often.
+
+      </p>
+
+      <p><strong>Prerequisite</strong>:&nbsp;Transfer&nbsp;wounds&nbsp;or&nbsp;sickening&nbsp;touch
+
+      class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit</strong>:&nbsp;You&nbsp;can&nbsp;use&nbsp;transfer&nbsp;wounds&nbsp;or&nbsp;sickening
+
+      touch&nbsp;two&nbsp;additional&nbsp;times&nbsp;per&nbsp;day.
+
+      </p>
+
+      <p><strong>Special:&nbsp;</strong>If&nbsp;you&nbsp;have&nbsp;both&nbsp;transfer&nbsp;wounds&nbsp;and
+
+      sickening&nbsp;touch,&nbsp;choose&nbsp;which&nbsp;ability&nbsp;this&nbsp;feat&nbsp;affects
+
+      when&nbsp;you&nbsp;take&nbsp;this&nbsp;feat.&nbsp;You&nbsp;may&nbsp;take&nbsp;this&nbsp;feat&nbsp;multiple
+
+      times,&nbsp;once&nbsp;for&nbsp;each&nbsp;ability.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>You&nbsp;are&nbsp;able&nbsp;to&nbsp;channel&nbsp;mythic&nbsp;energy&nbsp;to&nbsp;transfer&nbsp;wounds&nbsp;more&nbsp;often.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Extra&nbsp;Transfer.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;You&nbsp;gain&nbsp;two&nbsp;additional&nbsp;daily&nbsp;uses&nbsp;of&nbsp;your&nbsp;transfer&nbsp;wounds&nbsp;or&nbsp;sickening&nbsp;touch&nbsp;ability.&nbsp;Additionally,&nbsp;if&nbsp;you&nbsp;have&nbsp;no&nbsp;uses&nbsp;of&nbsp;transfer&nbsp;wounds&nbsp;or&nbsp;sickening&nbsp;touch&nbsp;remaining,&nbsp;you&nbsp;may&nbsp;expend&nbsp;one&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;to&nbsp;use&nbsp;your&nbsp;transfer&nbsp;wounds&nbsp;or&nbsp;sickening&nbsp;touch&nbsp;ability&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

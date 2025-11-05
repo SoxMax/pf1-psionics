@@ -1,0 +1,76 @@
+_id: AlIkoXpL8ttICja9
+_key: '!items!AlIkoXpL8ttICja9'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Gravitic_Stability
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Gravitic Stability
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;have&nbsp;an&nbsp;uncanny&nbsp;stability&nbsp;against&nbsp;attempts&nbsp;to
+
+      impede&nbsp;your&nbsp;movement.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Elocater&nbsp;level&nbsp;1st
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>Any&nbsp;time&nbsp;your&nbsp;movement&nbsp;speed&nbsp;would&nbsp;be
+
+      reduced&nbsp;to&nbsp;10&nbsp;ft.&nbsp;as&nbsp;a&nbsp;result&nbsp;of&nbsp;using&nbsp;personal&nbsp;gravity
+
+      or&nbsp;scorn&nbsp;earth&nbsp;(such&nbsp;as&nbsp;from&nbsp;wearing&nbsp;heavy&nbsp;armor&nbsp;or
+
+      being&nbsp;more&nbsp;than&nbsp;1&nbsp;ft.&nbsp;away&nbsp;from&nbsp;a&nbsp;stable&nbsp;surface),&nbsp;your
+
+      speed&nbsp;is&nbsp;instead&nbsp;reduced&nbsp;to&nbsp;10&nbsp;ft.&nbsp;plus&nbsp;any&nbsp;bonuses&nbsp;to
+
+      your&nbsp;movement&nbsp;(such&nbsp;as&nbsp;from&nbsp;freerunning).&nbsp;You&nbsp;do&nbsp;not
+
+      take&nbsp;any&nbsp;penalty&nbsp;for&nbsp;attacking&nbsp;while&nbsp;using&nbsp;scorn&nbsp;earth&nbsp;at
+
+      distances&nbsp;greater&nbsp;than&nbsp;1&nbsp;ft.&nbsp;from&nbsp;the&nbsp;ground&nbsp;or&nbsp;a&nbsp;stable
+
+      surface.&nbsp;You&nbsp;gain&nbsp;a&nbsp;bonus&nbsp;to&nbsp;your&nbsp;CMD&nbsp;equal&nbsp;to&nbsp;your
+
+      elocater&nbsp;class&nbsp;level&nbsp;against&nbsp;any&nbsp;bull&nbsp;rush&nbsp;or&nbsp;trip&nbsp;attempt.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation I'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

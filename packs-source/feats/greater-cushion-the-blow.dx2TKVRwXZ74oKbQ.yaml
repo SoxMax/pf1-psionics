@@ -1,0 +1,64 @@
+_id: dx2TKVRwXZ74oKbQ
+_key: '!items!dx2TKVRwXZ74oKbQ'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Greater_Cushion_the_Blow
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Greater Cushion the Blow
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;damage&nbsp;prevention&nbsp;protects&nbsp;your&nbsp;ally&nbsp;for&nbsp;longer.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Wisdom&nbsp;17,&nbsp;<a&nbsp;href="/wiki/Cushion_the_Blow"&nbsp;title="Cushion&nbsp;the&nbsp;Blow">Cushion&nbsp;the&nbsp;Blow</a>,
+
+      <a&nbsp;href="/wiki/Improved_Cushion_the_Blow"&nbsp;title="Improved&nbsp;Cushion&nbsp;the&nbsp;Blow">Improved&nbsp;Cushion&nbsp;the&nbsp;Blow</a>,&nbsp;Collective&nbsp;class&nbsp;feature,
+
+      manifester&nbsp;level&nbsp;18th.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;using&nbsp;the&nbsp;Cushion&nbsp;the&nbsp;Blow&nbsp;feat,&nbsp;the
+
+      effect&nbsp;applies&nbsp;to&nbsp;all&nbsp;damage&nbsp;for&nbsp;that&nbsp;collective&nbsp;member
+
+      until&nbsp;the&nbsp;beginning&nbsp;of&nbsp;your&nbsp;next&nbsp;turn.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

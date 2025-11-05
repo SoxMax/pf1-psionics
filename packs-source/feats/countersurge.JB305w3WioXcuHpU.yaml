@@ -1,7 +1,5 @@
 _id: JB305w3WioXcuHpU
 _key: '!items!JB305w3WioXcuHpU'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Countersurge
@@ -30,27 +28,7 @@ system:
 
       <p><strong>Benefit:&nbsp;</strong>You&nbsp;may&nbsp;invoke&nbsp;your&nbsp;wild&nbsp;surge&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action&nbsp;in&nbsp;response&nbsp;to&nbsp;a&nbsp;power&nbsp;being&nbsp;manifested,&nbsp;or&nbsp;a&nbsp;spell&nbsp;being&nbsp;cast,&nbsp;within&nbsp;100&nbsp;feet&nbsp;of&nbsp;you.&nbsp;If&nbsp;you&nbsp;do,&nbsp;the&nbsp;source&nbsp;of&nbsp;the&nbsp;power&nbsp;or&nbsp;spell&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Will&nbsp;save&nbsp;(DC&nbsp;10&nbsp;+&nbsp;1/2&nbsp;your&nbsp;manifester&nbsp;level&nbsp;+&nbsp;your&nbsp;Charisma&nbsp;modifier)&nbsp;or&nbsp;that&nbsp;power&nbsp;or&nbsp;spell&nbsp;has&nbsp;its&nbsp;caster&nbsp;or&nbsp;manifester&nbsp;level&nbsp;(and,&nbsp;as&nbsp;a&nbsp;result,&nbsp;all&nbsp;effects&nbsp;dependent&nbsp;on&nbsp;caster&nbsp;or&nbsp;manifester&nbsp;level,&nbsp;such&nbsp;as&nbsp;damage&nbsp;and&nbsp;range)&nbsp;reduced&nbsp;by&nbsp;an&nbsp;amount&nbsp;equal&nbsp;to&nbsp;your&nbsp;wild&nbsp;surge's&nbsp;intensity.&nbsp;If&nbsp;this&nbsp;would&nbsp;reduce&nbsp;the&nbsp;power&nbsp;or&nbsp;spell's&nbsp;level&nbsp;below&nbsp;the&nbsp;minimum&nbsp;needed&nbsp;to&nbsp;cast&nbsp;it,&nbsp;that&nbsp;power&nbsp;or&nbsp;spell&nbsp;is&nbsp;still&nbsp;cast,&nbsp;though&nbsp;a&nbsp;spell&nbsp;or&nbsp;power&nbsp;with&nbsp;its&nbsp;caster&nbsp;level&nbsp;reduced&nbsp;to&nbsp;0&nbsp;or&nbsp;lower&nbsp;is&nbsp;negated&nbsp;and&nbsp;has&nbsp;no&nbsp;effect.&nbsp;Using&nbsp;this&nbsp;feat&nbsp;increases&nbsp;your&nbsp;chance&nbsp;of&nbsp;psychic&nbsp;enervation&nbsp;by&nbsp;20%.&nbsp;You&nbsp;must&nbsp;declare&nbsp;that&nbsp;you&nbsp;are&nbsp;using&nbsp;this&nbsp;feat&nbsp;after&nbsp;the&nbsp;power&nbsp;is&nbsp;manifested&nbsp;or&nbsp;the&nbsp;spell&nbsp;is&nbsp;cast,&nbsp;but&nbsp;before&nbsp;its&nbsp;results&nbsp;are&nbsp;determined.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

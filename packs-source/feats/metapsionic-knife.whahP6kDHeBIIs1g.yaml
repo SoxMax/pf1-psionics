@@ -1,7 +1,5 @@
 _id: whahP6kDHeBIIs1g
 _key: '!items!whahP6kDHeBIIs1g'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Metapsionic_Knife
@@ -30,29 +28,7 @@ system:
 
       <p><strong>Benefit:</strong>&nbsp;You&nbsp;may&nbsp;use&nbsp;your&nbsp;mind&nbsp;blade&nbsp;to&nbsp;deliver&nbsp;touch&nbsp;or&nbsp;ranged&nbsp;touch&nbsp;powers.&nbsp;As&nbsp;a&nbsp;standard&nbsp;action,&nbsp;you&nbsp;may&nbsp;manifest&nbsp;a&nbsp;power&nbsp;with&nbsp;the&nbsp;range&nbsp;of&nbsp;touch&nbsp;or&nbsp;close&nbsp;and&nbsp;make&nbsp;a&nbsp;single&nbsp;attack,&nbsp;expending&nbsp;your&nbsp;psionic&nbsp;focus.&nbsp;If&nbsp;this&nbsp;attack&nbsp;is&nbsp;successful,&nbsp;then&nbsp;the&nbsp;attack&nbsp;deals&nbsp;damage&nbsp;from&nbsp;the&nbsp;mind&nbsp;blade&nbsp;and&nbsp;the&nbsp;effects&nbsp;of&nbsp;the&nbsp;power&nbsp;manifested&nbsp;with&nbsp;this&nbsp;ability.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Greater_Metapsionic_Knife"&nbsp;title="Greater&nbsp;Metapsionic&nbsp;Knife">Greater&nbsp;Metapsionic&nbsp;Knife</a></li><li><a&nbsp;href="/wiki/Psionic_Meditation"&nbsp;title="Psionic&nbsp;Meditation">Psionic&nbsp;Meditation</a></li></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

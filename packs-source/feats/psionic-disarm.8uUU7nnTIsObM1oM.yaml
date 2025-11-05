@@ -1,0 +1,78 @@
+_id: 8uUU7nnTIsObM1oM
+_key: '!items!8uUU7nnTIsObM1oM'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Disarm
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Psionic Disarm
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;psionically&nbsp;carry&nbsp;your&nbsp;disarm&nbsp;maneuver’s
+
+      force&nbsp;through&nbsp;your&nbsp;foe.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Improved&nbsp;Disarm.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>While&nbsp;maintaining&nbsp;psionic&nbsp;focus,&nbsp;when&nbsp;you
+
+      successfully&nbsp;perform&nbsp;a&nbsp;disarm&nbsp;combat&nbsp;maneuver,&nbsp;you
+
+      also&nbsp;deal&nbsp;damage&nbsp;equal&nbsp;to&nbsp;half&nbsp;your&nbsp;level&nbsp;to&nbsp;the&nbsp;creature
+
+      disarmed.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when&nbsp;you&nbsp;make&nbsp;a
+
+      successful&nbsp;disarm&nbsp;combat&nbsp;maneuver,&nbsp;you&nbsp;can&nbsp;also&nbsp;send
+
+      the&nbsp;disarmed&nbsp;object&nbsp;into&nbsp;any&nbsp;space&nbsp;of&nbsp;your&nbsp;choosing
+
+      within&nbsp;25&nbsp;ft.&nbsp;+5&nbsp;ft./2&nbsp;levels.&nbsp;If&nbsp;a&nbsp;creature&nbsp;is&nbsp;in&nbsp;the&nbsp;selected
+
+      space&nbsp;and&nbsp;has&nbsp;a&nbsp;hand&nbsp;free,&nbsp;it&nbsp;can&nbsp;grab&nbsp;the&nbsp;disarmed
+
+      object&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

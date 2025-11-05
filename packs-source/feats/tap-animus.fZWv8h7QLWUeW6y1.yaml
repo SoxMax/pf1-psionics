@@ -1,7 +1,5 @@
 _id: fZWv8h7QLWUeW6y1
 _key: '!items!fZWv8h7QLWUeW6y1'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Tap_Animus
@@ -34,35 +32,7 @@ system:
 
       <p><strong>Special:</strong>&nbsp;If&nbsp;you&nbsp;ever&nbsp;gain&nbsp;the&nbsp;animus&nbsp;class&nbsp;feature,&nbsp;this&nbsp;feat&nbsp;is&nbsp;immediately&nbsp;exchanged&nbsp;for&nbsp;the&nbsp;<a&nbsp;href="/wiki/Extra_Animus"&nbsp;title="Extra&nbsp;Animus">Extra&nbsp;Animus</a>&nbsp;feat.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Halo_Knight"&nbsp;title="Halo&nbsp;Knight">Halo&nbsp;Knight</a></li><li><a&nbsp;href="/wiki/Knight-chandler"&nbsp;title="Knight-chandler">Knight-chandler</a></li><li><a&nbsp;href="/wiki/Sacred_Band"&nbsp;title="Sacred&nbsp;Band">Sacred&nbsp;Band</a></li></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Psychic_Warrior_Path"&nbsp;title="Psychic&nbsp;Warrior&nbsp;Path">Psychic&nbsp;Warrior&nbsp;Path</a></li></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Akashic_Animus"&nbsp;title="Akashic&nbsp;Animus">Akashic&nbsp;Animus</a></li><li><a&nbsp;href="/wiki/Animus_Healing"&nbsp;title="Animus&nbsp;Healing">Animus&nbsp;Healing</a></li><li><a&nbsp;href="/wiki/Awakened_Animus"&nbsp;title="Awakened&nbsp;Animus">Awakened&nbsp;Animus</a></li><li><a&nbsp;href="/wiki/Extra_Animus"&nbsp;title="Extra&nbsp;Animus">Extra&nbsp;Animus</a></li></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Eightfold_Immortal%27s_Crown"&nbsp;title="Eightfold&nbsp;Immortal's&nbsp;Crown">Eightfold&nbsp;Immortal's&nbsp;Crown</a></li><li><a&nbsp;href="/wiki/Kusanagi%27s_Woe"&nbsp;title="Kusanagi's&nbsp;Woe">Kusanagi's&nbsp;Woe</a></li><li><a&nbsp;href="/wiki/The_Primordial"&nbsp;title="The&nbsp;Primordial">The&nbsp;Primordial</a></li><li><a&nbsp;href="/wiki/The_Primordial_(Retold)"&nbsp;title="The&nbsp;Primordial&nbsp;(Retold)">The&nbsp;Primordial&nbsp;(Retold)</a></li></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

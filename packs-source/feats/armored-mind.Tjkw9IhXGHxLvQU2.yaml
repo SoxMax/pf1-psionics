@@ -1,0 +1,58 @@
+_id: Tjkw9IhXGHxLvQU2
+_key: '!items!Tjkw9IhXGHxLvQU2'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Armored_Mind
+img: icons/equipment/shield/heater-crystal-blue.webp
+name: Armored Mind
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;mental&nbsp;resilience&nbsp;is&nbsp;psionically&nbsp;enhanced.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong><a&nbsp;href="/wiki/Enduring_Mind"&nbsp;title="Enduring&nbsp;Mind">Enduring&nbsp;Mind</a>.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>The&nbsp;benefits&nbsp;of&nbsp;your&nbsp;Enduring&nbsp;Mind&nbsp;feat
+
+      increase&nbsp;by&nbsp;2&nbsp;while&nbsp;you&nbsp;are&nbsp;psionically&nbsp;focused.&nbsp;You&nbsp;may
+
+      expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action&nbsp;to
+
+      negate&nbsp;all&nbsp;mental&nbsp;ability&nbsp;damage&nbsp;from&nbsp;a&nbsp;single&nbsp;source
+
+      (other&nbsp;than&nbsp;you)&nbsp;for&nbsp;1&nbsp;round.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

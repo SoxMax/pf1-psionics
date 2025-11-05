@@ -1,0 +1,65 @@
+_id: br5hTy5BqeXpCtwU
+_key: '!items!br5hTy5BqeXpCtwU'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Critical_Refocus
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Critical Refocus
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;critical&nbsp;hits&nbsp;recharge&nbsp;your&nbsp;expended&nbsp;focus.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Improved&nbsp;Critical,&nbsp;proficiency&nbsp;with
+
+      weapon,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+8.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;confirm&nbsp;a&nbsp;critical&nbsp;hit&nbsp;on&nbsp;an&nbsp;attack
+
+      where&nbsp;you&nbsp;expended&nbsp;psionic&nbsp;focus,&nbsp;you&nbsp;automatically
+
+      regain&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;after&nbsp;the&nbsp;results&nbsp;of&nbsp;the&nbsp;attack
+
+      are&nbsp;determined.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation I'
+  subType: feat
+  summons: false
+  tags:
+    - combat
+    - psionic
+type: feat

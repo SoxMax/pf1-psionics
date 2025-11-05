@@ -1,0 +1,82 @@
+_id: qbwAlYVZFVWQYlVL
+_key: '!items!qbwAlYVZFVWQYlVL'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Enervation_Fortitude
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Enervation Fortitude
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;have&nbsp;learned&nbsp;how&nbsp;to&nbsp;better&nbsp;handle&nbsp;psychic
+
+      enervation.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Psychic&nbsp;enervation&nbsp;class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;suffer&nbsp;psychic&nbsp;enervation,&nbsp;the
+
+      penalties&nbsp;are&nbsp;calculated&nbsp;as&nbsp;if&nbsp;your&nbsp;wilder&nbsp;level&nbsp;were
+
+      reduced&nbsp;by&nbsp;half&nbsp;(to&nbsp;a&nbsp;minimum&nbsp;of&nbsp;1).
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>You&nbsp;are&nbsp;extremely&nbsp;resilient&nbsp;against&nbsp;psychic&nbsp;enervation.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Enervation&nbsp;Fortitude.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;suffer&nbsp;psychic&nbsp;enervation,&nbsp;you&nbsp;do&nbsp;not&nbsp;lose&nbsp;any&nbsp;hit&nbsp;points&nbsp;or&nbsp;power&nbsp;points,&nbsp;although&nbsp;you&nbsp;still&nbsp;suffer&nbsp;any&nbsp;additional&nbsp;effects&nbsp;like&nbsp;being&nbsp;stunned&nbsp;or&nbsp;sickened.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;one&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;when&nbsp;you&nbsp;would&nbsp;suffer&nbsp;psychic&nbsp;enervation&nbsp;to&nbsp;negate&nbsp;the&nbsp;psychic&nbsp;enervation&nbsp;and&nbsp;instead&nbsp;gain&nbsp;surging&nbsp;euphoria.&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

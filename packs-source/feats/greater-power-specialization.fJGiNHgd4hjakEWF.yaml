@@ -1,0 +1,66 @@
+_id: fJGiNHgd4hjakEWF
+_key: '!items!fJGiNHgd4hjakEWF'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Greater_Power_Specialization
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Greater Power Specialization
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;deal&nbsp;more&nbsp;damage&nbsp;with&nbsp;your&nbsp;powers.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong><a&nbsp;href="/wiki/Power_Specialization"&nbsp;title="Power&nbsp;Specialization">Power&nbsp;Specialization</a>,&nbsp;Weapon&nbsp;Focus
+
+      (ray),&nbsp;manifester&nbsp;level&nbsp;12th.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>Your&nbsp;powers&nbsp;that&nbsp;deal&nbsp;damage&nbsp;deal&nbsp;an&nbsp;extra
+
+      2&nbsp;points&nbsp;of&nbsp;damage.&nbsp;This&nbsp;damage&nbsp;stacks&nbsp;with&nbsp;other
+
+      bonuses&nbsp;on&nbsp;damage&nbsp;rolls&nbsp;to&nbsp;powers,&nbsp;including&nbsp;the&nbsp;one
+
+      from&nbsp;Power&nbsp;Specialization.&nbsp;The&nbsp;damage&nbsp;bonus&nbsp;applies
+
+      only&nbsp;if&nbsp;the&nbsp;target&nbsp;or&nbsp;targets&nbsp;are&nbsp;within&nbsp;30&nbsp;feet.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

@@ -1,0 +1,102 @@
+_id: WpUyE5jQpixBxvgE
+_key: '!items!WpUyE5jQpixBxvgE'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Cushion_the_Blow
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Cushion the Blow
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;reduce&nbsp;the&nbsp;damage&nbsp;of&nbsp;an&nbsp;attack&nbsp;on&nbsp;an&nbsp;ally.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Wisdom&nbsp;15,&nbsp;collective&nbsp;class&nbsp;feature,
+
+      manifester&nbsp;level&nbsp;6th.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>As&nbsp;long&nbsp;as&nbsp;you&nbsp;are&nbsp;maintaining&nbsp;psionic&nbsp;focus,
+
+      as&nbsp;an&nbsp;immediate&nbsp;action,&nbsp;you&nbsp;can&nbsp;minimize&nbsp;the&nbsp;damage
+
+      of&nbsp;a&nbsp;single&nbsp;attack&nbsp;with&nbsp;a&nbsp;ranged,&nbsp;melee,&nbsp;or&nbsp;natural
+
+      weapon&nbsp;or&nbsp;unarmed&nbsp;strike&nbsp;(treat&nbsp;all&nbsp;dice&nbsp;rolled&nbsp;as&nbsp;1s)&nbsp;on
+
+      any&nbsp;member&nbsp;of&nbsp;the&nbsp;collective.&nbsp;This&nbsp;ability&nbsp;must&nbsp;be&nbsp;used
+
+      in&nbsp;response&nbsp;to&nbsp;an&nbsp;attack&nbsp;on&nbsp;a&nbsp;member&nbsp;of&nbsp;the&nbsp;collective.
+
+      </p>
+
+      <p>In&nbsp;addition,&nbsp;if&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus,&nbsp;you
+
+      can&nbsp;reduce&nbsp;any&nbsp;additional&nbsp;damage&nbsp;on&nbsp;the&nbsp;attack&nbsp;(such
+
+      as&nbsp;bonus&nbsp;damage&nbsp;from&nbsp;a&nbsp;high&nbsp;Strength&nbsp;or&nbsp;sneak&nbsp;attack
+
+      damage)&nbsp;by&nbsp;your&nbsp;key&nbsp;ability&nbsp;modifier.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>You&nbsp;are&nbsp;able&nbsp;to&nbsp;block&nbsp;damage&nbsp;to&nbsp;multiple&nbsp;targets&nbsp;at&nbsp;once.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Cushion&nbsp;the&nbsp;Blow.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;You&nbsp;can&nbsp;share&nbsp;the&nbsp;effect&nbsp;of&nbsp;Cushion&nbsp;the&nbsp;Blow,&nbsp;Greater&nbsp;Cushion&nbsp;the&nbsp;Blow,&nbsp;and&nbsp;Improved&nbsp;Cushion&nbsp;the&nbsp;Blow&nbsp;to&nbsp;a&nbsp;number&nbsp;of&nbsp;members&nbsp;of&nbsp;your&nbsp;collective&nbsp;equal&nbsp;to&nbsp;your&nbsp;mythic&nbsp;tier.&nbsp;In&nbsp;addition,&nbsp;if&nbsp;you&nbsp;expend&nbsp;one&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power,&nbsp;you&nbsp;can&nbsp;use&nbsp;Cushion&nbsp;the&nbsp;Blow&nbsp;as&nbsp;a&nbsp;free&nbsp;action&nbsp;even&nbsp;if&nbsp;it&nbsp;is&nbsp;not&nbsp;your&nbsp;turn.
+
+      </p>
+
+      <p><strong>Normal:</strong>&nbsp;Using&nbsp;Cushion&nbsp;the&nbsp;Blow&nbsp;is&nbsp;an&nbsp;immediate&nbsp;action&nbsp;and&nbsp;only&nbsp;applies&nbsp;to&nbsp;a&nbsp;single&nbsp;member&nbsp;of&nbsp;your&nbsp;collective&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

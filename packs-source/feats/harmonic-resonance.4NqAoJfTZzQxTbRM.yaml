@@ -1,0 +1,122 @@
+_id: 4NqAoJfTZzQxTbRM
+_key: '!items!4NqAoJfTZzQxTbRM'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Harmonic_Resonance
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Harmonic Resonance
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;attune&nbsp;your&nbsp;mind&nbsp;to&nbsp;the&nbsp;subtle&nbsp;inner&nbsp;workings
+
+      of&nbsp;other&nbsp;psionic&nbsp;beings,&nbsp;and&nbsp;gain&nbsp;a&nbsp;more&nbsp;intimate
+
+      knowledge&nbsp;of&nbsp;their&nbsp;powers.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Collective&nbsp;class&nbsp;feature,&nbsp;Spellcraft&nbsp;3
+
+      ranks.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;have&nbsp;an&nbsp;active
+
+      collective&nbsp;when&nbsp;you&nbsp;choose&nbsp;your&nbsp;powers&nbsp;known&nbsp;for&nbsp;the
+
+      day&nbsp;or&nbsp;meditate&nbsp;to&nbsp;regain&nbsp;your&nbsp;power&nbsp;point&nbsp;pool.&nbsp;Choose
+
+      a&nbsp;number&nbsp;of&nbsp;powers&nbsp;equal&nbsp;to&nbsp;your&nbsp;primary&nbsp;manifesting
+
+      modifier&nbsp;that&nbsp;members&nbsp;of&nbsp;your&nbsp;collective&nbsp;know.&nbsp;If&nbsp;you
+
+      are&nbsp;psionically&nbsp;focused,&nbsp;you&nbsp;may&nbsp;treat&nbsp;those&nbsp;powers
+
+      as&nbsp;if&nbsp;they&nbsp;were&nbsp;on&nbsp;your&nbsp;power&nbsp;list&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of
+
+      manifesting&nbsp;another’s&nbsp;powers&nbsp;known.&nbsp;You&nbsp;may&nbsp;change
+
+      these&nbsp;powers&nbsp;as&nbsp;often&nbsp;as&nbsp;you&nbsp;change&nbsp;your&nbsp;powers&nbsp;known
+
+      or&nbsp;regain&nbsp;your&nbsp;power&nbsp;point&nbsp;pool.
+
+      </p>
+
+      <p><strong>Special:&nbsp;</strong>The&nbsp;nature&nbsp;of&nbsp;this&nbsp;connection&nbsp;requires
+
+      constant&nbsp;focus.&nbsp;If&nbsp;you&nbsp;expend&nbsp;your&nbsp;focus&nbsp;during&nbsp;the
+
+      manifestation&nbsp;(for&nbsp;instance,&nbsp;to&nbsp;add&nbsp;a&nbsp;metapsionic&nbsp;feat
+
+      to&nbsp;a&nbsp;borrowed&nbsp;power),&nbsp;the&nbsp;manifestation&nbsp;fails.&nbsp;If&nbsp;you
+
+      have&nbsp;the&nbsp;Psicrystal&nbsp;Containment&nbsp;feat,&nbsp;you&nbsp;can&nbsp;expend
+
+      your&nbsp;crystal’s&nbsp;focus&nbsp;and&nbsp;maintain&nbsp;your&nbsp;own,&nbsp;and&nbsp;the
+
+      manifestation&nbsp;will&nbsp;not&nbsp;fail&nbsp;in&nbsp;this&nbsp;way.
+
+      </p>
+
+      <p><strong>Normal:&nbsp;</strong>If&nbsp;you&nbsp;try&nbsp;to&nbsp;manifest&nbsp;a&nbsp;power&nbsp;that&nbsp;is&nbsp;not
+
+      on&nbsp;your&nbsp;power&nbsp;list&nbsp;from&nbsp;another’s&nbsp;powers&nbsp;known,&nbsp;the
+
+      attempt&nbsp;automatically&nbsp;fails.
+
+      </p>
+
+      <p>You&nbsp;are&nbsp;able&nbsp;to&nbsp;learn&nbsp;powers&nbsp;from&nbsp;members&nbsp;in&nbsp;your&nbsp;collective.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Harmonic&nbsp;Resonance.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;When&nbsp;selecting&nbsp;powers&nbsp;from&nbsp;those&nbsp;known&nbsp;by&nbsp;members&nbsp;of&nbsp;your&nbsp;collective,&nbsp;you&nbsp;can&nbsp;choose&nbsp;to&nbsp;have&nbsp;those&nbsp;powers&nbsp;as&nbsp;your&nbsp;powers&nbsp;known,&nbsp;instead&nbsp;of&nbsp;as&nbsp;powers&nbsp;you&nbsp;can&nbsp;use&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of&nbsp;manifesting&nbsp;another’s&nbsp;powers&nbsp;known.&nbsp;Powers&nbsp;selected&nbsp;in&nbsp;this&nbsp;way&nbsp;only&nbsp;stay&nbsp;as&nbsp;powers&nbsp;known&nbsp;until&nbsp;you&nbsp;meditate&nbsp;to&nbsp;regain&nbsp;power&nbsp;points,&nbsp;at&nbsp;which&nbsp;point&nbsp;you&nbsp;can&nbsp;choose&nbsp;new&nbsp;powers&nbsp;from&nbsp;members&nbsp;of&nbsp;your&nbsp;collective.&nbsp;Powers&nbsp;chosen&nbsp;must&nbsp;have&nbsp;a&nbsp;power&nbsp;level&nbsp;equal&nbsp;to&nbsp;or&nbsp;lower&nbsp;than&nbsp;the&nbsp;maximum&nbsp;power&nbsp;level&nbsp;you&nbsp;can&nbsp;manifest.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;one&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;to&nbsp;manifest&nbsp;a&nbsp;single&nbsp;power&nbsp;from&nbsp;those&nbsp;known&nbsp;by&nbsp;any&nbsp;member&nbsp;of&nbsp;your&nbsp;collective&nbsp;without&nbsp;having&nbsp;to&nbsp;pay&nbsp;the&nbsp;power&nbsp;point&nbsp;cost.&nbsp;The&nbsp;power&nbsp;manifested&nbsp;in&nbsp;this&nbsp;fashion&nbsp;is&nbsp;automatically&nbsp;augmented&nbsp;up&nbsp;to&nbsp;your&nbsp;manifester&nbsp;level.&nbsp;&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

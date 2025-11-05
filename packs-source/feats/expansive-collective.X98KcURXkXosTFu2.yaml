@@ -1,0 +1,64 @@
+_id: X98KcURXkXosTFu2
+_key: '!items!X98KcURXkXosTFu2'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Expansive_Collective
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Expansive Collective
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>The&nbsp;power&nbsp;of&nbsp;your&nbsp;collective&nbsp;is&nbsp;unaffected&nbsp;by&nbsp;your
+
+      other&nbsp;dabblings.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Collective&nbsp;class&nbsp;feature,&nbsp;spirit&nbsp;of&nbsp;many
+
+      class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;calculating&nbsp;the&nbsp;range&nbsp;and&nbsp;number&nbsp;of
+
+      creatures&nbsp;which&nbsp;may&nbsp;be&nbsp;joined&nbsp;to&nbsp;your&nbsp;collective,&nbsp;use
+
+      your&nbsp;total&nbsp;Hit&nbsp;Dice&nbsp;instead&nbsp;of&nbsp;your&nbsp;class&nbsp;level.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation I'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

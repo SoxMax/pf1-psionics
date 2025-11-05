@@ -1,0 +1,71 @@
+_id: uemwtcRhAV3LYWmR
+_key: '!items!uemwtcRhAV3LYWmR'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Adrenal_Overchannel
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Adrenal Overchannel
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;are&nbsp;able&nbsp;to&nbsp;channel&nbsp;your&nbsp;very&nbsp;life&nbsp;force&nbsp;into&nbsp;a&nbsp;psychic
+
+      edge&nbsp;with&nbsp;which&nbsp;to&nbsp;defeat&nbsp;your&nbsp;opponents.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong><a&nbsp;href="/wiki/Overchannel"&nbsp;title="Overchannel">Overchannel</a>,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+4.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;use&nbsp;the&nbsp;Overchannel&nbsp;feat&nbsp;to&nbsp;gain&nbsp;a&nbsp;+1
+
+      insight&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;rolls&nbsp;and&nbsp;a&nbsp;+2&nbsp;insight&nbsp;bonus&nbsp;on
+
+      damage&nbsp;rolls&nbsp;for&nbsp;one&nbsp;round&nbsp;instead&nbsp;of&nbsp;gaining&nbsp;a&nbsp;bonus
+
+      to&nbsp;your&nbsp;manifester&nbsp;level.&nbsp;At&nbsp;8th&nbsp;level,&nbsp;these&nbsp;bonuses
+
+      increase&nbsp;to&nbsp;+2&nbsp;on&nbsp;attack&nbsp;rolls&nbsp;and&nbsp;+4&nbsp;on&nbsp;damage&nbsp;rolls&nbsp;(and
+
+      the&nbsp;damage&nbsp;taken&nbsp;increases&nbsp;to&nbsp;3d8),&nbsp;and&nbsp;at&nbsp;15th&nbsp;level,
+
+      they&nbsp;improve&nbsp;to&nbsp;+3&nbsp;on&nbsp;attack&nbsp;rolls&nbsp;and&nbsp;+6&nbsp;on&nbsp;damage
+
+      rolls&nbsp;(and&nbsp;the&nbsp;damage&nbsp;taken&nbsp;increases&nbsp;to&nbsp;5d8).&nbsp;You&nbsp;must
+
+      choose&nbsp;to&nbsp;use&nbsp;this&nbsp;feat&nbsp;before&nbsp;making&nbsp;an&nbsp;attack&nbsp;roll,&nbsp;and
+
+      its&nbsp;effects&nbsp;last&nbsp;until&nbsp;your&nbsp;next&nbsp;turn.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: feat
+  summons: false
+  tags:
+    - combat
+    - psionic
+type: feat

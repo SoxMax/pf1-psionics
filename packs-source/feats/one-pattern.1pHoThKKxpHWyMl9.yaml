@@ -1,0 +1,78 @@
+_id: 1pHoThKKxpHWyMl9
+_key: '!items!1pHoThKKxpHWyMl9'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/One_Pattern
+img: icons/magic/symbols/runes-star-magenta.webp
+name: One Pattern
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;adventures&nbsp;have&nbsp;taught&nbsp;you&nbsp;that&nbsp;all&nbsp;creatures
+
+      have&nbsp;a&nbsp;common&nbsp;thread&nbsp;to&nbsp;their&nbsp;patterns,&nbsp;and&nbsp;that&nbsp;they
+
+      also&nbsp;all&nbsp;have&nbsp;that&nbsp;one&nbsp;loose&nbsp;thread&nbsp;to&nbsp;pull.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Disrupt&nbsp;pattern&nbsp;class&nbsp;feature,
+
+      Knowledge&nbsp;(arcane)&nbsp;5&nbsp;ranks,&nbsp;Knowledge&nbsp;(dungeoneering)
+
+      5&nbsp;ranks,&nbsp;Knowledge&nbsp;(nature)&nbsp;5&nbsp;ranks,&nbsp;Knowledge&nbsp;(planes)
+
+      5&nbsp;ranks,&nbsp;Knowledge&nbsp;(psionics),&nbsp;and&nbsp;Knowledge&nbsp;(religion)
+
+      5&nbsp;ranks.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>Your&nbsp;target&nbsp;no&nbsp;longer&nbsp;needs&nbsp;to&nbsp;match&nbsp;your
+
+      active&nbsp;creature&nbsp;type&nbsp;to&nbsp;deal&nbsp;full&nbsp;damage&nbsp;with&nbsp;your
+
+      disrupt&nbsp;pattern&nbsp;ability.&nbsp;If&nbsp;your&nbsp;target&nbsp;does&nbsp;match&nbsp;your
+
+      active&nbsp;creature&nbsp;type,&nbsp;you&nbsp;inflict&nbsp;an&nbsp;extra&nbsp;1&nbsp;point&nbsp;of
+
+      damage&nbsp;per&nbsp;dice&nbsp;of&nbsp;damage&nbsp;dealt&nbsp;with&nbsp;disrupt&nbsp;pattern.
+
+      This&nbsp;extra&nbsp;damage&nbsp;is&nbsp;not&nbsp;multiplied&nbsp;on&nbsp;a&nbsp;critical&nbsp;hit.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation I'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

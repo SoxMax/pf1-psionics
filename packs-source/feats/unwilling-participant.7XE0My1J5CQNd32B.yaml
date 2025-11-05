@@ -1,0 +1,118 @@
+_id: 7XE0My1J5CQNd32B
+_key: '!items!7XE0My1J5CQNd32B'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Unwilling_Participant
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Unwilling Participant
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;are&nbsp;able&nbsp;to&nbsp;force&nbsp;others&nbsp;into&nbsp;your&nbsp;collective.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Collective&nbsp;class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;may&nbsp;attempt&nbsp;to&nbsp;force&nbsp;a&nbsp;living&nbsp;creature
+
+      into&nbsp;your&nbsp;collective&nbsp;as&nbsp;a&nbsp;standard&nbsp;action.&nbsp;The&nbsp;target&nbsp;may
+
+      attempt&nbsp;a&nbsp;Will&nbsp;save&nbsp;(DC&nbsp;10&nbsp;+&nbsp;half&nbsp;manifester&nbsp;level&nbsp;level
+
+      +&nbsp;Wisdom&nbsp;modifier)&nbsp;to&nbsp;resist.&nbsp;If&nbsp;the&nbsp;target&nbsp;fails&nbsp;the&nbsp;save,
+
+      it&nbsp;may&nbsp;attempt&nbsp;another&nbsp;Will&nbsp;save&nbsp;at&nbsp;the&nbsp;same&nbsp;DC&nbsp;every
+
+      24&nbsp;hours&nbsp;thereafter,&nbsp;but&nbsp;is&nbsp;otherwise&nbsp;unable&nbsp;to&nbsp;leave&nbsp;the
+
+      collective&nbsp;unless&nbsp;you&nbsp;allow&nbsp;it.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;while&nbsp;using&nbsp;this&nbsp;feat,
+
+      the&nbsp;action&nbsp;required&nbsp;to&nbsp;attempt&nbsp;to&nbsp;force&nbsp;a&nbsp;living&nbsp;creature
+
+      into&nbsp;your&nbsp;collective&nbsp;is&nbsp;instead&nbsp;a&nbsp;move&nbsp;action.
+
+      </p>
+
+      <p><strong>Normal:&nbsp;</strong>Only&nbsp;willing&nbsp;creatures&nbsp;may&nbsp;be&nbsp;added&nbsp;to&nbsp;a
+
+      collective.&nbsp;Creatures&nbsp;may&nbsp;leave&nbsp;the&nbsp;collective&nbsp;as&nbsp;a&nbsp;free
+
+      action.
+
+      </p>
+
+      <p><strong>Special:&nbsp;</strong>Creatures&nbsp;forced&nbsp;into&nbsp;your&nbsp;collective&nbsp;using
+
+      Unwilling&nbsp;Participant&nbsp;are&nbsp;considered&nbsp;willing&nbsp;members
+
+      for&nbsp;any&nbsp;collective-related&nbsp;effects&nbsp;unless&nbsp;they&nbsp;succeed&nbsp;on
+
+      another&nbsp;Will&nbsp;save&nbsp;at&nbsp;the&nbsp;same&nbsp;DC&nbsp;to&nbsp;resist&nbsp;being&nbsp;forced
+
+      into&nbsp;the&nbsp;collective.&nbsp;A&nbsp;successful&nbsp;save&nbsp;means&nbsp;the&nbsp;creature
+
+      resisted&nbsp;the&nbsp;specific&nbsp;effect&nbsp;but&nbsp;is&nbsp;still&nbsp;a&nbsp;member&nbsp;of&nbsp;the
+
+      collective.
+
+      </p>
+
+      <p>Creatures&nbsp;find&nbsp;it&nbsp;difficult&nbsp;to&nbsp;resist&nbsp;joining&nbsp;your&nbsp;collective.
+
+      </p>
+
+      <p><strong>Prerequisites:</strong>&nbsp;Unwilling&nbsp;Participant,&nbsp;2nd&nbsp;mythic&nbsp;tier.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;You&nbsp;add&nbsp;half&nbsp;your&nbsp;tier&nbsp;to&nbsp;the&nbsp;save&nbsp;DC&nbsp;when&nbsp;forcing&nbsp;an&nbsp;unwilling&nbsp;creature&nbsp;into&nbsp;your&nbsp;collective.&nbsp;Additionally,&nbsp;you&nbsp;can&nbsp;expend&nbsp;one&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;when&nbsp;a&nbsp;creature&nbsp;succeeds&nbsp;on&nbsp;its&nbsp;saving&nbsp;throw&nbsp;against&nbsp;being&nbsp;added&nbsp;to&nbsp;your&nbsp;collective&nbsp;to&nbsp;force&nbsp;that&nbsp;creature&nbsp;to&nbsp;roll&nbsp;a&nbsp;second&nbsp;time&nbsp;and&nbsp;take&nbsp;the&nbsp;lower&nbsp;result.&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

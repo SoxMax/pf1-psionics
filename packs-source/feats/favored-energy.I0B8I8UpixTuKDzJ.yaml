@@ -1,0 +1,86 @@
+_id: I0B8I8UpixTuKDzJ
+_key: '!items!I0B8I8UpixTuKDzJ'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Favored_Energy
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Favored Energy
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;prefer&nbsp;a&nbsp;certain&nbsp;energy&nbsp;type&nbsp;over&nbsp;all&nbsp;others.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Ability&nbsp;to&nbsp;manifest&nbsp;any&nbsp;power&nbsp;that
+
+      deals&nbsp;fire,&nbsp;cold,&nbsp;electricity,&nbsp;or&nbsp;sonic&nbsp;damage,&nbsp;manifester
+
+      level&nbsp;3rd.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>Choose&nbsp;one&nbsp;type&nbsp;of&nbsp;energy&nbsp;to&nbsp;become&nbsp;your
+
+      favored&nbsp;energy:&nbsp;cold,&nbsp;electricity,&nbsp;fire,&nbsp;or&nbsp;sonic.&nbsp;Any&nbsp;time
+
+      you&nbsp;manifest&nbsp;a&nbsp;power&nbsp;that&nbsp;deals&nbsp;damage&nbsp;of&nbsp;your&nbsp;favored
+
+      energy&nbsp;type,&nbsp;the&nbsp;damage&nbsp;is&nbsp;increased&nbsp;by&nbsp;+1&nbsp;per&nbsp;die.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>Powers&nbsp;using&nbsp;your&nbsp;favored&nbsp;energy&nbsp;are&nbsp;particularly&nbsp;damaging.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Favored&nbsp;Energy.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;When&nbsp;manifesting&nbsp;a&nbsp;power&nbsp;that&nbsp;deals&nbsp;damage&nbsp;of&nbsp;your&nbsp;favored&nbsp;energy&nbsp;type,&nbsp;the&nbsp;power’s&nbsp;damage&nbsp;is&nbsp;increased&nbsp;by&nbsp;an&nbsp;additional&nbsp;50%&nbsp;(round&nbsp;down.)&nbsp;This&nbsp;stacks&nbsp;with&nbsp;the&nbsp;effects&nbsp;of&nbsp;Empower&nbsp;Power&nbsp;to&nbsp;increase&nbsp;the&nbsp;damage&nbsp;by&nbsp;100%.&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

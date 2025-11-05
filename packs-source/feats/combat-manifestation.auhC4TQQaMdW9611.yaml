@@ -1,0 +1,76 @@
+_id: auhC4TQQaMdW9611
+_key: '!items!auhC4TQQaMdW9611'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Combat_Manifestation
+img: icons/magic/symbols/question-stone-yellow.webp
+name: Combat Manifestation
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;are&nbsp;adept&nbsp;at&nbsp;manifesting&nbsp;powers&nbsp;in&nbsp;combat.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;get&nbsp;a&nbsp;+4&nbsp;bonus&nbsp;on&nbsp;concentration&nbsp;checks
+
+      made&nbsp;to&nbsp;manifest&nbsp;a&nbsp;power&nbsp;or&nbsp;use&nbsp;a&nbsp;psi-like&nbsp;ability&nbsp;when
+
+      manifesting&nbsp;on&nbsp;the&nbsp;defensive&nbsp;or&nbsp;while&nbsp;grappled.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>You&nbsp;rarely&nbsp;lose&nbsp;concentration&nbsp;in&nbsp;combat.
+
+      </p>
+
+      <p><strong>Prerequisites:</strong>&nbsp;Combat&nbsp;Manifestation.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;The&nbsp;bonus&nbsp;from&nbsp;Combat&nbsp;Manifestation&nbsp;increases&nbsp;to&nbsp;+8.&nbsp;Anytime&nbsp;you&nbsp;fail&nbsp;a&nbsp;concentration&nbsp;check,&nbsp;you&nbsp;do&nbsp;not&nbsp;lose&nbsp;the&nbsp;power&nbsp;points&nbsp;you&nbsp;were&nbsp;attempting&nbsp;to&nbsp;use.&nbsp;You&nbsp;do&nbsp;not&nbsp;manage&nbsp;to&nbsp;manifest&nbsp;the&nbsp;power,&nbsp;but&nbsp;the&nbsp;power&nbsp;points&nbsp;remains&nbsp;available&nbsp;for&nbsp;you&nbsp;to&nbsp;use&nbsp;at&nbsp;a&nbsp;later&nbsp;time.&nbsp;Additionally&nbsp;if&nbsp;you&nbsp;successfully&nbsp;make&nbsp;a&nbsp;check&nbsp;to&nbsp;manifest&nbsp;a&nbsp;power&nbsp;defensively&nbsp;and&nbsp;the&nbsp;power&nbsp;requires&nbsp;a&nbsp;ranged&nbsp;attack&nbsp;roll,&nbsp;that&nbsp;ranged&nbsp;attack&nbsp;does&nbsp;not&nbsp;provoke&nbsp;an&nbsp;attack&nbsp;of&nbsp;opportunity.&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

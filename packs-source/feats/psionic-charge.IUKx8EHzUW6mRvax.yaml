@@ -1,0 +1,88 @@
+_id: IUKx8EHzUW6mRvax
+_key: '!items!IUKx8EHzUW6mRvax'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Charge
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Psionic Charge
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;charge&nbsp;in&nbsp;a&nbsp;crooked&nbsp;line.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Dex&nbsp;13,&nbsp;<a&nbsp;href="/wiki/Speed_of_Thought"&nbsp;title="Speed&nbsp;of&nbsp;Thought">Speed&nbsp;of&nbsp;Thought</a>.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic
+
+      focus.&nbsp;When&nbsp;you&nbsp;charge,&nbsp;you&nbsp;can&nbsp;make&nbsp;one&nbsp;turn&nbsp;of&nbsp;up&nbsp;to
+
+      90&nbsp;degrees&nbsp;during&nbsp;your&nbsp;movement.&nbsp;All&nbsp;other&nbsp;restrictions
+
+      on&nbsp;charges&nbsp;still&nbsp;apply;&nbsp;for&nbsp;instance,&nbsp;you&nbsp;cannot&nbsp;pass
+
+      through&nbsp;a&nbsp;square&nbsp;that&nbsp;blocks&nbsp;or&nbsp;slows&nbsp;movement,&nbsp;or&nbsp;that
+
+      contains&nbsp;a&nbsp;creature.&nbsp;You&nbsp;must&nbsp;have&nbsp;line&nbsp;of&nbsp;sight&nbsp;to&nbsp;the
+
+      opponent&nbsp;at&nbsp;the&nbsp;start&nbsp;of&nbsp;your&nbsp;turn.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>You&nbsp;have&nbsp;learned&nbsp;to&nbsp;charge&nbsp;a&nbsp;foe&nbsp;regardless&nbsp;of&nbsp;the&nbsp;path&nbsp;to&nbsp;reach&nbsp;him.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Psionic&nbsp;Charge.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;When&nbsp;using&nbsp;Psionic&nbsp;Charge,&nbsp;you&nbsp;can&nbsp;make&nbsp;a&nbsp;number&nbsp;of&nbsp;additional&nbsp;90&nbsp;degree&nbsp;turns&nbsp;equal&nbsp;to&nbsp;half&nbsp;your&nbsp;tier&nbsp;(minimum&nbsp;1).&nbsp;For&nbsp;example,&nbsp;at&nbsp;4th&nbsp;tier,&nbsp;you&nbsp;could&nbsp;make&nbsp;three&nbsp;90&nbsp;degree&nbsp;turns&nbsp;during&nbsp;a&nbsp;charge&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

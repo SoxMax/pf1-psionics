@@ -1,0 +1,102 @@
+_id: xws4IJysdNemsjDt
+_key: '!items!xws4IJysdNemsjDt'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Resonance_Mastery
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Resonance Mastery
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Through&nbsp;practiced&nbsp;effort,&nbsp;you&nbsp;have&nbsp;mastered&nbsp;the&nbsp;art&nbsp;of
+
+      resonating&nbsp;powers&nbsp;through&nbsp;your&nbsp;psicrystal.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Psicrystal&nbsp;imprinter&nbsp;5th,&nbsp;any
+
+      metapsionic&nbsp;feat.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;use&nbsp;the&nbsp;psicrystal&nbsp;resonance&nbsp;class
+
+      feature,&nbsp;choose&nbsp;any&nbsp;single&nbsp;metapsionic&nbsp;feat&nbsp;that&nbsp;you
+
+      posses&nbsp;that&nbsp;increases&nbsp;the&nbsp;power&nbsp;point&nbsp;cost&nbsp;of&nbsp;a&nbsp;power
+
+      by&nbsp;your&nbsp;psicrystal&nbsp;imprinter&nbsp;level&nbsp;minus&nbsp;3&nbsp;or&nbsp;less.&nbsp;Feats
+
+      which&nbsp;reduce&nbsp;manifesting&nbsp;time,&nbsp;such&nbsp;as&nbsp;Hustle&nbsp;PowerPE
+
+      or&nbsp;Quicken&nbsp;Power,&nbsp;may&nbsp;not&nbsp;be&nbsp;chosen.&nbsp;Instead&nbsp;of&nbsp;gaining
+
+      one&nbsp;of&nbsp;the&nbsp;normal&nbsp;benefits&nbsp;of&nbsp;psicrystal&nbsp;resonance,
+
+      you&nbsp;may&nbsp;choose&nbsp;to&nbsp;instead&nbsp;apply&nbsp;the&nbsp;effects&nbsp;of&nbsp;that
+
+      metapsionic&nbsp;feat&nbsp;to&nbsp;the&nbsp;power&nbsp;being&nbsp;manifested.
+
+      </p>
+
+      <p>The&nbsp;power&nbsp;is&nbsp;treated&nbsp;as&nbsp;if&nbsp;manifested&nbsp;with&nbsp;the
+
+      selected&nbsp;metapsionic&nbsp;feat,&nbsp;but&nbsp;the&nbsp;power&nbsp;point&nbsp;cost&nbsp;is&nbsp;not
+
+      increased&nbsp;nor&nbsp;are&nbsp;you&nbsp;required&nbsp;to&nbsp;expend&nbsp;your&nbsp;psionic
+
+      focus.&nbsp;Instead,&nbsp;the&nbsp;manifestation&nbsp;time&nbsp;is&nbsp;increased.&nbsp;If
+
+      the&nbsp;power&nbsp;has&nbsp;a&nbsp;manifestation&nbsp;time&nbsp;of&nbsp;less&nbsp;than&nbsp;one
+
+      round,&nbsp;increase&nbsp;the&nbsp;manifesting&nbsp;time&nbsp;to&nbsp;one&nbsp;full&nbsp;round;
+
+      otherwise,&nbsp;increase&nbsp;the&nbsp;manifesting&nbsp;time&nbsp;by&nbsp;one&nbsp;full
+
+      round.&nbsp;If&nbsp;the&nbsp;metapsionic&nbsp;feat&nbsp;would&nbsp;normally&nbsp;increase
+
+      the&nbsp;power&nbsp;point&nbsp;cost&nbsp;of&nbsp;the&nbsp;power&nbsp;by&nbsp;more&nbsp;than&nbsp;2&nbsp;power
+
+      points,&nbsp;add&nbsp;one&nbsp;round&nbsp;to&nbsp;the&nbsp;manifesting&nbsp;time&nbsp;for&nbsp;every
+
+      2&nbsp;power&nbsp;points&nbsp;that&nbsp;the&nbsp;metapsionic&nbsp;feat&nbsp;would&nbsp;have
+
+      increased&nbsp;the&nbsp;power&nbsp;cost&nbsp;beyond&nbsp;the&nbsp;first&nbsp;2.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation I'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

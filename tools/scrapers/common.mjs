@@ -226,6 +226,33 @@ export function sluggify(name) {
 }
 
 /**
+ * Generate a Foundry VTT-compatible random ID
+ * Format: 16-character alphanumeric string (a-zA-Z0-9)
+ * @param {Set<string>} existingIds - Optional set of existing IDs to avoid collisions
+ * @returns {string} Random ID
+ */
+export function generateFoundryId(existingIds = null) {
+  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  let id = '';
+  let attempts = 0;
+  const maxAttempts = 100;
+
+  do {
+    id = '';
+    for (let i = 0; i < 16; i++) {
+      id += chars.charAt(Math.floor(Math.random() * chars.length));
+    }
+    attempts++;
+
+    if (attempts >= maxAttempts) {
+      throw new Error('Failed to generate unique ID after 100 attempts');
+    }
+  } while (existingIds && existingIds.has(id));
+
+  return id;
+}
+
+/**
  * Delay execution (for rate limiting API/web requests)
  *
  * @param {number} ms - Milliseconds to delay
@@ -398,6 +425,15 @@ export function extractDescription(html) {
 
   if (contentEnd === -1) {
     contentEnd = html.indexOf('</div><!-- mw-parser-output -->', contentStart);
+  }
+
+  // Look for "Related" section and cut off there (for feats and powers)
+  const relatedMatch = html.match(/<h[23][^>]*>\s*Related\s*<\/h[23]>/i);
+  if (relatedMatch) {
+    const relatedIndex = html.indexOf(relatedMatch[0], contentStart);
+    if (relatedIndex > contentStart && (contentEnd === -1 || relatedIndex < contentEnd)) {
+      contentEnd = relatedIndex;
+    }
   }
 
   if (contentEnd <= contentStart) {

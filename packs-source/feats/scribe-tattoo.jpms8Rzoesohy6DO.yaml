@@ -1,10 +1,8 @@
 _id: jpms8Rzoesohy6DO
 _key: '!items!jpms8Rzoesohy6DO'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
-    sourceUrl: https://metzo.miraheze.org/wiki/Scribe_Tattoo
+    sourceUrl: https://metzo.miraheze.org/wiki/Scribe_Tattoo_(Mythic)
 img: icons/sundries/books/book-embossed-blue.webp
 name: Scribe Tattoo
 system:
@@ -22,47 +20,23 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;create&nbsp;psionic&nbsp;tattoos,&nbsp;which&nbsp;store&nbsp;powers&nbsp;within&nbsp;their&nbsp;designs.</em></p>
+      <p><em>You&nbsp;have&nbsp;mastered&nbsp;the&nbsp;art&nbsp;of&nbsp;scribing&nbsp;psionic&nbsp;tattoos.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Manifester&nbsp;level&nbsp;3rd.
-
-      </p>
-
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;can&nbsp;create&nbsp;a&nbsp;<a&nbsp;href="/wiki/Psionic_Tattoo"&nbsp;title="Psionic&nbsp;Tattoo">psionic&nbsp;tattoo</a>&nbsp;of&nbsp;any&nbsp;power&nbsp;of&nbsp;3rd&nbsp;level&nbsp;or&nbsp;lower&nbsp;that&nbsp;you&nbsp;know&nbsp;and&nbsp;that&nbsp;targets&nbsp;one&nbsp;or&nbsp;more&nbsp;creatures.&nbsp;Scribing&nbsp;a&nbsp;psionic&nbsp;tattoo&nbsp;takes&nbsp;one&nbsp;day.&nbsp;When&nbsp;you&nbsp;create&nbsp;a&nbsp;psionic&nbsp;tattoo,&nbsp;you&nbsp;set&nbsp;the&nbsp;manifester&nbsp;level.&nbsp;The&nbsp;manifester&nbsp;level&nbsp;must&nbsp;be&nbsp;sufficient&nbsp;to&nbsp;manifest&nbsp;the&nbsp;power&nbsp;in&nbsp;question&nbsp;and&nbsp;no&nbsp;higher&nbsp;than&nbsp;your&nbsp;own&nbsp;level.&nbsp;The&nbsp;base&nbsp;price&nbsp;of&nbsp;a&nbsp;psionic&nbsp;tattoo&nbsp;is&nbsp;its&nbsp;power&nbsp;level&nbsp;x&nbsp;its&nbsp;manifester&nbsp;level&nbsp;x&nbsp;50&nbsp;gp.&nbsp;To&nbsp;scribe&nbsp;a&nbsp;tattoo,&nbsp;you&nbsp;must&nbsp;use&nbsp;up&nbsp;raw&nbsp;materials&nbsp;(special&nbsp;inks,&nbsp;masterwork&nbsp;needles,&nbsp;and&nbsp;so&nbsp;on)&nbsp;costing&nbsp;one-half&nbsp;of&nbsp;this&nbsp;base&nbsp;price.
+      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Scribe_Tattoo"&nbsp;title="Scribe&nbsp;Tattoo">Scribe&nbsp;Tattoo</a>,&nbsp;manifester&nbsp;level&nbsp;3rd.
 
       </p>
 
-      <p>When&nbsp;you&nbsp;create&nbsp;a&nbsp;psionic&nbsp;tattoo,&nbsp;you&nbsp;make&nbsp;any&nbsp;choices&nbsp;that&nbsp;you&nbsp;would&nbsp;normally&nbsp;make&nbsp;when&nbsp;manifesting&nbsp;the&nbsp;power.
+      <p><strong>Benefit:</strong>&nbsp;At&nbsp;the&nbsp;beginning&nbsp;of&nbsp;each&nbsp;day&nbsp;when&nbsp;you&nbsp;regain&nbsp;your&nbsp;uses&nbsp;of&nbsp;mythic&nbsp;power,&nbsp;you&nbsp;can&nbsp;expend&nbsp;one&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;to&nbsp;accomplish&nbsp;eight&nbsp;hours&nbsp;of&nbsp;work&nbsp;on&nbsp;one&nbsp;psionic&nbsp;tattoo&nbsp;you&nbsp;are&nbsp;scribing.&nbsp;You&nbsp;can&nbsp;only&nbsp;do&nbsp;this&nbsp;once&nbsp;per&nbsp;day&nbsp;per&nbsp;tattoo&nbsp;you&nbsp;are&nbsp;scribing,&nbsp;though&nbsp;you&nbsp;may&nbsp;also&nbsp;add&nbsp;an&nbsp;actual&nbsp;eighthour&nbsp;work&nbsp;day&nbsp;toward&nbsp;the&nbsp;scribing&nbsp;of&nbsp;such&nbsp;a&nbsp;tattoo.
 
       </p>
 
-      <p>When&nbsp;its&nbsp;wearer&nbsp;physically&nbsp;activates&nbsp;the&nbsp;tattoo,&nbsp;the&nbsp;wearer&nbsp;is&nbsp;the&nbsp;target&nbsp;of&nbsp;the&nbsp;power.
+      <p>Unlike&nbsp;normal&nbsp;tattoo&nbsp;scribing,&nbsp;work&nbsp;accomplished&nbsp;by&nbsp;expending&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;does&nbsp;not&nbsp;require&nbsp;any&nbsp;special&nbsp;work&nbsp;space&nbsp;or&nbsp;quiet&nbsp;(though&nbsp;the&nbsp;cost&nbsp;of&nbsp;making&nbsp;magic&nbsp;items&nbsp;created&nbsp;this&nbsp;way&nbsp;is&nbsp;normal).
 
-      </p><ul><dt>Archetypes</dt></ul>
+      </p>
 
-      <ul><dt>Blessings</dt></ul>
+      <p>Additionally,&nbsp;there&nbsp;is&nbsp;no&nbsp;limit&nbsp;to&nbsp;the&nbsp;level&nbsp;of&nbsp;power&nbsp;you&nbsp;can&nbsp;imbue&nbsp;into&nbsp;a&nbsp;tattoo.
 
-      <ul><dt>Classes</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Cryptic"&nbsp;title="Cryptic">Cryptic</a></li></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Merge_Designs"&nbsp;title="Merge&nbsp;Designs">Merge&nbsp;Designs</a></li><li><a&nbsp;href="/wiki/Scribe_Tattoo_(Mythic)"&nbsp;title="Scribe&nbsp;Tattoo&nbsp;(Mythic)">Scribe&nbsp;Tattoo&nbsp;(Mythic)</a></li></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false
@@ -72,15 +46,9 @@ system:
     - date: ''
       errata: ''
       id: ''
-      pages: '58'
+      pages: '22'
       publisher: Dreamscarred Press
-      title: 'Psionics Unleashed: Revised'
-    - date: ''
-      errata: ''
-      id: ''
-      pages: '116'
-      publisher: Dreamscarred Press
-      title: Ultimate Psionics
+      title: 'Psionics Augmented: Mythic Psionics'
   subType: feat
   summons: false
   tags:

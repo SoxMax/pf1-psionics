@@ -1,0 +1,74 @@
+_id: Pvwv4fyd3EjLrVt3
+_key: '!items!Pvwv4fyd3EjLrVt3'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Expanded_Collective
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Expanded Collective
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;are&nbsp;able&nbsp;to&nbsp;include&nbsp;more&nbsp;creatures&nbsp;into&nbsp;your
+
+      collective.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Collective&nbsp;class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;may&nbsp;add&nbsp;two&nbsp;additional&nbsp;creatures&nbsp;into
+
+      your&nbsp;collective.
+
+      </p>
+
+      <p><strong>Normal:&nbsp;</strong>Your&nbsp;collective&nbsp;can&nbsp;contain&nbsp;a&nbsp;number&nbsp;of
+
+      creatures&nbsp;equal&nbsp;to&nbsp;half&nbsp;your&nbsp;class&nbsp;level&nbsp;or&nbsp;your&nbsp;key
+
+      ability&nbsp;modifier,&nbsp;whichever&nbsp;is&nbsp;greater.
+
+      </p>
+
+      <p><strong>Special:&nbsp;</strong>You&nbsp;may&nbsp;take&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;times;&nbsp;its
+
+      benefits&nbsp;stack.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

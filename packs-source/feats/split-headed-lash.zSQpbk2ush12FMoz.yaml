@@ -1,7 +1,5 @@
 _id: zSQpbk2ush12FMoz
 _key: '!items!zSQpbk2ush12FMoz'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Split-Headed_Lash
@@ -30,27 +28,7 @@ system:
 
       <p><strong>Benefit:</strong>&nbsp;By&nbsp;expending&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;part&nbsp;of&nbsp;a&nbsp;full&nbsp;attack,&nbsp;you&nbsp;can&nbsp;split&nbsp;you&nbsp;fire&nbsp;lash&nbsp;into&nbsp;two&nbsp;separate&nbsp;heads&nbsp;for&nbsp;the&nbsp;first&nbsp;attack.&nbsp;The&nbsp;fire&nbsp;lash&nbsp;returns&nbsp;to&nbsp;normal&nbsp;for&nbsp;the&nbsp;remaining&nbsp;attacks.&nbsp;Each&nbsp;head’s&nbsp;attack&nbsp;is&nbsp;rolled&nbsp;separately&nbsp;and&nbsp;need&nbsp;not&nbsp;be&nbsp;at&nbsp;the&nbsp;same&nbsp;target.&nbsp;If&nbsp;attacking&nbsp;multiple&nbsp;targets,&nbsp;these&nbsp;targets&nbsp;must&nbsp;be&nbsp;within&nbsp;10&nbsp;ft.&nbsp;of&nbsp;each&nbsp;other&nbsp;and&nbsp;both&nbsp;must&nbsp;be&nbsp;within&nbsp;15&nbsp;ft.&nbsp;of&nbsp;the&nbsp;pyrokineticist.&nbsp;Any&nbsp;extra&nbsp;damage&nbsp;dice&nbsp;that&nbsp;would&nbsp;have&nbsp;applied&nbsp;to&nbsp;the&nbsp;fire&nbsp;lash&nbsp;attack&nbsp;are&nbsp;applied&nbsp;to&nbsp;both&nbsp;heads,&nbsp;including&nbsp;damage&nbsp;from&nbsp;sources&nbsp;such&nbsp;as&nbsp;sneak&nbsp;attack&nbsp;and&nbsp;psychic&nbsp;strike.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

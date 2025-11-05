@@ -1,0 +1,66 @@
+_id: wrIKyxGD6f0PMPhW
+_key: '!items!wrIKyxGD6f0PMPhW'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Fast_Aid
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Fast Aid
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Requests&nbsp;to&nbsp;you&nbsp;for&nbsp;healing&nbsp;can&nbsp;be&nbsp;made&nbsp;much&nbsp;faster.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Heal&nbsp;7&nbsp;ranks,&nbsp;Spellcraft&nbsp;7&nbsp;ranks,&nbsp;request
+
+      aid&nbsp;class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>Your&nbsp;allies&nbsp;may&nbsp;choose&nbsp;to&nbsp;request&nbsp;aid&nbsp;as&nbsp;a
+
+      swift&nbsp;action.
+
+      </p>
+
+      <p><strong>Normal:&nbsp;</strong>Request&nbsp;aid&nbsp;costs&nbsp;a&nbsp;standard&nbsp;action&nbsp;to
+
+      perform.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

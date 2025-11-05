@@ -1,0 +1,60 @@
+_id: zh2JXstd9o1fIFkl
+_key: '!items!zh2JXstd9o1fIFkl'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Extended_Blast
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Extended Blast
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;surge&nbsp;blast&nbsp;has&nbsp;a&nbsp;farther&nbsp;reach.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Surge&nbsp;blast&nbsp;class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>Your&nbsp;surge&nbsp;blast&nbsp;has&nbsp;a&nbsp;range&nbsp;of&nbsp;60&nbsp;feet.
+
+      </p>
+
+      <p><strong>Normal:&nbsp;</strong>Your&nbsp;surge&nbsp;blast&nbsp;has&nbsp;a&nbsp;range&nbsp;of&nbsp;30&nbsp;feet.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

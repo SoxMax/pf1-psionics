@@ -1,7 +1,5 @@
 _id: I7P4Jb09ZGUJ12Bp
 _key: '!items!I7P4Jb09ZGUJ12Bp'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Intuitive_Shot
@@ -28,29 +26,7 @@ system:
 
       <p><strong>Benefit:&nbsp;</strong>As&nbsp;long&nbsp;as&nbsp;you&nbsp;maintain&nbsp;psionic&nbsp;focus,&nbsp;as&nbsp;a&nbsp;standard&nbsp;action,&nbsp;you&nbsp;may&nbsp;make&nbsp;an&nbsp;attack&nbsp;with&nbsp;a&nbsp;ranged&nbsp;or&nbsp;thrown&nbsp;weapon&nbsp;and&nbsp;add&nbsp;your&nbsp;Wisdom&nbsp;modifier&nbsp;to&nbsp;the&nbsp;damage&nbsp;roll.&nbsp;You&nbsp;must&nbsp;be&nbsp;within&nbsp;30&nbsp;feet&nbsp;of&nbsp;your&nbsp;target&nbsp;to&nbsp;deal&nbsp;this&nbsp;extra&nbsp;damage.&nbsp;Creatures&nbsp;immune&nbsp;to&nbsp;critical&nbsp;hits&nbsp;and&nbsp;sneak&nbsp;attacks&nbsp;are&nbsp;immune&nbsp;to&nbsp;this&nbsp;extra&nbsp;damage.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Greater_Intuitive_Shot"&nbsp;title="Greater&nbsp;Intuitive&nbsp;Shot">Greater&nbsp;Intuitive&nbsp;Shot</a></li><li><a&nbsp;href="/wiki/Psionic_Shot"&nbsp;title="Psionic&nbsp;Shot">Psionic&nbsp;Shot</a></li></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

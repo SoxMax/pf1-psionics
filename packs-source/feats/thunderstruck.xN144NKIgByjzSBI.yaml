@@ -1,7 +1,5 @@
 _id: xN144NKIgByjzSBI
 _key: '!items!xN144NKIgByjzSBI'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Thunderstruck
@@ -38,29 +36,7 @@ system:
 
       <p><strong>Special:</strong>&nbsp;If&nbsp;you&nbsp;do&nbsp;not&nbsp;have&nbsp;a&nbsp;primary&nbsp;element&nbsp;or&nbsp;if&nbsp;your&nbsp;primary&nbsp;element&nbsp;is&nbsp;not&nbsp;on&nbsp;the&nbsp;above&nbsp;list,&nbsp;then&nbsp;this&nbsp;feat's&nbsp;additional&nbsp;damage&nbsp;type&nbsp;defaults&nbsp;to&nbsp;electricity.&nbsp;At&nbsp;the&nbsp;GM's&nbsp;option,&nbsp;you&nbsp;can&nbsp;use&nbsp;a&nbsp;different&nbsp;damage&nbsp;type&nbsp;from&nbsp;the&nbsp;list&nbsp;(or&nbsp;an&nbsp;entirely&nbsp;new&nbsp;one)&nbsp;based&nbsp;on&nbsp;your&nbsp;primary&nbsp;element.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Fire_Starter"&nbsp;title="Fire&nbsp;Starter">Fire&nbsp;Starter</a></li></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

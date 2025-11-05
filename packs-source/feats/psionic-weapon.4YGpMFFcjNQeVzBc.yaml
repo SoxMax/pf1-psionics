@@ -1,10 +1,8 @@
 _id: 4YGpMFFcjNQeVzBc
 _key: '!items!4YGpMFFcjNQeVzBc'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
-    sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Weapon
+    sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Weapon_(Mythic)
 img: icons/weapons/swords/greatsword-crossguard-blue.webp
 name: Psionic Weapon
 system:
@@ -22,43 +20,15 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;charge&nbsp;your&nbsp;melee&nbsp;weapon&nbsp;with&nbsp;additional&nbsp;damage&nbsp;potential.</em></p>
+      <p><em>Your&nbsp;mythic&nbsp;power&nbsp;enhances&nbsp;the&nbsp;psionic&nbsp;power&nbsp;of&nbsp;your&nbsp;melee&nbsp;attacks.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Str&nbsp;13.
-
-      </p>
-
-      <p><strong>Benefit:</strong>&nbsp;While&nbsp;you&nbsp;maintain&nbsp;psionic&nbsp;focus,&nbsp;your&nbsp;attacks&nbsp;with&nbsp;a&nbsp;melee&nbsp;weapon&nbsp;deal&nbsp;an&nbsp;extra&nbsp;1&nbsp;point&nbsp;of&nbsp;damage.
+      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Psionic_Weapon"&nbsp;title="Psionic&nbsp;Weapon">Psionic&nbsp;Weapon</a>.
 
       </p>
 
-      <p>Additionally,&nbsp;if&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;part&nbsp;of&nbsp;an&nbsp;attack&nbsp;with&nbsp;a&nbsp;melee&nbsp;weapon,&nbsp;that&nbsp;attack&nbsp;instead&nbsp;deals&nbsp;an&nbsp;extra&nbsp;2d6&nbsp;points&nbsp;of&nbsp;damage.&nbsp;You&nbsp;must&nbsp;decide&nbsp;whether&nbsp;or&nbsp;not&nbsp;to&nbsp;use&nbsp;this&nbsp;feat&nbsp;prior&nbsp;to&nbsp;making&nbsp;an&nbsp;attack.&nbsp;If&nbsp;your&nbsp;attack&nbsp;misses,&nbsp;you&nbsp;still&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.
+      <p><strong>Benefit:</strong>&nbsp;Double&nbsp;the&nbsp;damage&nbsp;added&nbsp;to&nbsp;your&nbsp;attacks&nbsp;when&nbsp;using&nbsp;Psionic&nbsp;Weapon&nbsp;or&nbsp;Greater&nbsp;Psionic&nbsp;Weapon.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;reroll&nbsp;any&nbsp;extra&nbsp;damage&nbsp;dice&nbsp;from&nbsp;Psionic&nbsp;Weapon&nbsp;or&nbsp;Greater&nbsp;Psionic&nbsp;Weapon&nbsp;and&nbsp;take&nbsp;the&nbsp;better&nbsp;result.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Living_Legend"&nbsp;title="Living&nbsp;Legend">Living&nbsp;Legend</a></li><li><a&nbsp;href="/wiki/Psionic_Fighter"&nbsp;title="Psionic&nbsp;Fighter">Psionic&nbsp;Fighter</a></li><li><a&nbsp;href="/wiki/Thunderjarl"&nbsp;title="Thunderjarl">Thunderjarl</a></li></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><li><a&nbsp;href="/wiki/Advanced_Assassin_Path"&nbsp;title="Advanced&nbsp;Assassin&nbsp;Path">Advanced&nbsp;Assassin&nbsp;Path</a></li><li><a&nbsp;href="/wiki/Advanced_Mind_Knight_Path"&nbsp;title="Advanced&nbsp;Mind&nbsp;Knight&nbsp;Path">Advanced&nbsp;Mind&nbsp;Knight&nbsp;Path</a></li><li><a&nbsp;href="/wiki/Cortex_Strike"&nbsp;title="Cortex&nbsp;Strike">Cortex&nbsp;Strike</a></li><li><a&nbsp;href="/wiki/Deep_Impact"&nbsp;title="Deep&nbsp;Impact">Deep&nbsp;Impact</a></li><li><a&nbsp;href="/wiki/Improved_Cortex_Attack"&nbsp;title="Improved&nbsp;Cortex&nbsp;Attack">Improved&nbsp;Cortex&nbsp;Attack</a></li><li><a&nbsp;href="/wiki/Piercing_Attack"&nbsp;title="Piercing&nbsp;Attack">Piercing&nbsp;Attack</a></li><li><a&nbsp;href="/wiki/Psi-Animus_Assault"&nbsp;title="Psi-Animus&nbsp;Assault">Psi-Animus&nbsp;Assault</a></li><li><a&nbsp;href="/wiki/Psionic_Weapon_(Mythic)"&nbsp;title="Psionic&nbsp;Weapon&nbsp;(Mythic)">Psionic&nbsp;Weapon&nbsp;(Mythic)</a></li><li><a&nbsp;href="/wiki/Reality-Puncturing_Attack"&nbsp;title="Reality-Puncturing&nbsp;Attack">Reality-Puncturing&nbsp;Attack</a></li><li><a&nbsp;href="/wiki/Retain_Charge"&nbsp;title="Retain&nbsp;Charge">Retain&nbsp;Charge</a></li><li><a&nbsp;href="/wiki/Strike_the_Heart_River"&nbsp;title="Strike&nbsp;the&nbsp;Heart&nbsp;River">Strike&nbsp;the&nbsp;Heart&nbsp;River</a></li><li><a&nbsp;href="/wiki/Tear_Resilience"&nbsp;title="Tear&nbsp;Resilience">Tear&nbsp;Resilience</a></li></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false
@@ -68,17 +38,11 @@ system:
     - date: ''
       errata: ''
       id: ''
-      pages: '57'
+      pages: '21'
       publisher: Dreamscarred Press
-      title: 'Psionics Unleashed: Revised'
-    - date: ''
-      errata: ''
-      id: ''
-      pages: '113'
-      publisher: Dreamscarred Press
-      title: Ultimate Psionics
+      title: 'Psionics Augmented: Mythic Psionics'
   subType: feat
   summons: false
   tags:
-    - psionic
+    - feat
 type: feat

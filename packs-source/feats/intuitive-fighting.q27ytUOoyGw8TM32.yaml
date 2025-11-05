@@ -1,0 +1,62 @@
+_id: q27ytUOoyGw8TM32
+_key: '!items!q27ytUOoyGw8TM32'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Intuitive_Fighting
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Intuitive Fighting
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;intuition&nbsp;guides&nbsp;your&nbsp;strikes&nbsp;to&nbsp;be&nbsp;more
+
+      devastating.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Blind-Fight.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>To&nbsp;use&nbsp;this&nbsp;feat&nbsp;you&nbsp;must&nbsp;maintain&nbsp;psionic
+
+      focus.&nbsp;You&nbsp;add&nbsp;your&nbsp;Wisdom&nbsp;modifier&nbsp;to&nbsp;your&nbsp;melee
+
+      attack&nbsp;rolls&nbsp;instead&nbsp;of&nbsp;your&nbsp;Strength&nbsp;modifier.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

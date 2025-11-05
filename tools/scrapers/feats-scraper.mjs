@@ -5,22 +5,23 @@
  * and outputs YAML files directly to packs-source/feats/ for version control.
  *
  * Usage:
- *   node feats-scraper.mjs                                    # Scrape all, output YAML (default)
+ *   node feats-scraper.mjs                                   # Scrape all feats (default category)
  *   node feats-scraper.mjs <url>                             # Single feat to YAML
  *   node feats-scraper.mjs --list <file>                     # URL list file to YAML
- *   node feats-scraper.mjs --format json psionic-feats.json  # Legacy JSON output
+ *   node feats-scraper.mjs --category <url>                  # Use custom base category URL
  *
  * Examples:
  *   node feats-scraper.mjs                                   # Scrape all → packs-source/feats/*.yaml
  *   node feats-scraper.mjs --list tools/data/feat-urls.txt   # Bulk import to YAML
  *   node feats-scraper.mjs "https://metzo.miraheze.org/wiki/Empower_Power"  # Single feat
- *   node feats-scraper.mjs --format json feats.json          # Old JSON format
+ *   node feats-scraper.mjs --category "https://metzo.miraheze.org/wiki/Category:Custom_Feats"
  *
  * After scraping, run `npm run packs:compile` to build the LevelDB compendium.
  */
 
 import fs from 'fs';
 import { join } from 'path';
+import yaml from 'js-yaml';
 import {
   getScraperPaths,
   decodeHTMLEntities,
@@ -29,12 +30,13 @@ import {
   extractTitle,
   extractDescription,
   extractNextPageLink,
-  writeJSONOutput,
   writeYAMLPack,
   delay,
   extractCategoryLinks,
   parseSourcebooks,
-  extractPageCategories
+  extractPageCategories,
+  sluggify,
+  generateFoundryId
 } from './common.mjs';
 
 const { TOOLS_DIR } = getScraperPaths(import.meta.url);
@@ -139,8 +141,21 @@ function isPsionicFeatByCategories(categories) {
   return categories.some(cat => {
     const catName = cat.name || cat.slug;
     return PSIONIC_SOURCES.some(source =>
-      catName.includes(`Source: ${source}`)
+      catName.includes(`${source}`)
     );
+  });
+}
+
+/**
+ * Check if categories contain "feat" or "feats"
+ *
+ * @param {Array} categories - Array of category objects
+ * @returns {boolean} - True if any category name contains "feat" or "feats"
+ */
+function hasFeatCategory(categories) {
+  return categories.some(cat => {
+    const catName = (cat.name || cat.slug || '').toLowerCase();
+    return catName.includes('feat');
   });
 }
 
@@ -216,6 +231,32 @@ function selectFeatIcon(feat) {
 }
 
 /**
+ * Find existing YAML file for a feat by name
+ *
+ * @param {string} featName - Name of the feat to find
+ * @param {string} packsSourceDir - Path to packs-source/feats directory
+ * @returns {string|null} - Full path to existing YAML file, or null if not found
+ */
+function findExistingFeatFile(featName, packsSourceDir) {
+  if (!fs.existsSync(packsSourceDir)) {
+    return null;
+  }
+
+  const slug = sluggify(featName);
+  const files = fs.readdirSync(packsSourceDir);
+
+  // Look for a file matching the pattern: slug.*.yaml
+  const regex = new RegExp(`^${slug}\\..*\\.yaml$`, 'i');
+  const matchingFile = files.find(file => regex.test(file));
+
+  if (matchingFile) {
+    return join(packsSourceDir, matchingFile);
+  }
+
+  return null;
+}
+
+/**
  * Parse feat data from HTML page
  */
 function parseFeatData(html, url) {
@@ -229,7 +270,26 @@ function parseFeatData(html, url) {
       tags: [],
       sources: [], // Will be populated from sourcebook field
       featType: 'feat',
-      abilityType: 'none'
+      abilityType: 'none',
+      // Required PF1 feat fields
+      subType: 'feat',
+      acquired: false,
+      disabled: false,
+      inherited: false,
+      showInQuickbar: false,
+      simple: false,
+      summons: false,
+      changeFlags: {
+        loseDexToAC: false,
+        noHeavyEncumbrance: false,
+        noMediumEncumbrance: false,
+        mediumArmorFullSpeed: false,
+        heavyArmorFullSpeed: false,
+        seeInvisibility: false,
+        seeInDarkness: false,
+        lowLightVision: false,
+        immuneToMorale: false
+      }
     },
     img: 'icons/svg/mystery-man.svg',
     flags: {
@@ -257,6 +317,11 @@ function parseFeatData(html, url) {
 
   // Extract page categories
   const categories = extractPageCategories(html);
+
+  // Check if this is a feat based on categories (must have "feat" in category name)
+  if (!hasFeatCategory(categories)) {
+    return null; // Not a feat
+  }
 
   // Check if this is a psionic feat based on categories
   if (!isPsionicFeatByCategories(categories)) {
@@ -360,12 +425,17 @@ async function scrapeFeats(urls) {
 /**
  * Extract all feat URLs from category pages with pagination
  */
-async function extractAllFeatUrls() {
+async function extractAllFeatUrls(categoryUrl = CATEGORY_URL) {
   console.log('Extracting feat URLs from category pages...\n');
 
   const allFeatNames = new Set();
-  let currentUrl = CATEGORY_URL;
+  let currentUrl = categoryUrl;
   let pageNum = 1;
+
+  // Extract the category name pattern from the provided URL for flexible pagination
+  // Pattern: https://metzo.miraheze.org/wiki/Category:SomeCategory
+  const categoryMatch = categoryUrl.match(/\/Category:([^?&\s]+)/);
+  const categoryName = categoryMatch ? categoryMatch[1] : null;
 
   while (currentUrl) {
     console.log(`Page ${pageNum}: ${currentUrl}`);
@@ -375,7 +445,20 @@ async function extractAllFeatUrls() {
 
     featNames.forEach(name => allFeatNames.add(name));
 
-    const nextUrl = extractNextPageLink(html, 'feats');
+    // Extract next page link, looking for the specific category pattern
+    let nextUrl = null;
+    if (categoryName) {
+      // For custom categories, look for the specific category in the next link
+      const regex = new RegExp(`<a href="(\\/wiki\\/Category:${categoryName}[^"]*)"[^>]*>next page<\\/a>`, 'i');
+      const match = html.match(regex);
+      if (match) {
+        nextUrl = 'https://metzo.miraheze.org' + match[1];
+      }
+    } else {
+      // Fallback to the standard extraction
+      nextUrl = extractNextPageLink(html, 'feats');
+    }
+
     if (nextUrl) {
       currentUrl = nextUrl;
       pageNum++;
@@ -393,25 +476,105 @@ async function extractAllFeatUrls() {
 }
 
 /**
- * Main entry point
+ * Write feats to YAML files, updating existing files or creating new ones
  */
+function writeFeatsWithDeduplication(feats, rootDir) {
+  const packsSourceDir = join(rootDir, 'packs-source', 'feats');
+
+  // Ensure directory exists
+  if (!fs.existsSync(packsSourceDir)) {
+    fs.mkdirSync(packsSourceDir, { recursive: true });
+  }
+
+  const stats = {
+    written: 0,
+    updated: 0,
+    skipped: 0,
+    errors: []
+  };
+
+  // Collect existing IDs to prevent collisions
+  const existingIds = new Set();
+  if (fs.existsSync(packsSourceDir)) {
+    const files = fs.readdirSync(packsSourceDir);
+    for (const file of files) {
+      if (file.endsWith('.yaml')) {
+        const match = file.match(/\.([a-zA-Z0-9]{16})\.yaml$/);
+        if (match) {
+          existingIds.add(match[1]);
+        }
+      }
+    }
+  }
+
+  for (const feat of feats) {
+    try {
+      // Check if a YAML file already exists for this feat
+      const existingFile = findExistingFeatFile(feat.name, packsSourceDir);
+
+      if (existingFile) {
+        // Read existing YAML to preserve the ID and _key
+        const existingContent = fs.readFileSync(existingFile, 'utf8');
+        const existingFeat = yaml.load(existingContent);
+
+        // Preserve the existing ID and _key
+        feat._id = existingFeat._id;
+        feat._key = existingFeat._key;
+
+        // Update the file
+        const yamlContent = yaml.dump(feat, {
+          sortKeys: true,
+          lineWidth: -1
+        });
+
+        fs.writeFileSync(existingFile, yamlContent, 'utf8');
+        stats.updated++;
+        console.log(`  📝 Updated: ${feat.name}`);
+      } else {
+        // Create new file - generate a new Foundry-compatible ID
+        feat._id = generateFoundryId(existingIds);
+        feat._key = `!items!${feat._id}`;
+        existingIds.add(feat._id); // Add to set to prevent duplicates in same batch
+        const slug = sluggify(feat.name);
+        const filename = `${slug}.${feat._id}.yaml`;
+        const filepath = join(packsSourceDir, filename);
+
+        const yamlContent = yaml.dump(feat, {
+          sortKeys: true,
+          lineWidth: -1
+        });
+
+        fs.writeFileSync(filepath, yamlContent, 'utf8');
+        stats.written++;
+        console.log(`  ✨ Created: ${feat.name}`);
+      }
+    } catch (error) {
+      stats.errors.push({ item: feat.name, error: error.message });
+      stats.skipped++;
+      console.error(`  ✗ Error writing ${feat.name}: ${error.message}`);
+    }
+  }
+
+  return stats;
+}
+
 async function main() {
   const args = process.argv.slice(2);
 
   let urls = [];
-  let outputFormat = 'yaml'; // Default to YAML
-  let outputFile = null;
+  let categoryUrl = CATEGORY_URL; // Default category URL
 
   // Parse arguments
   let i = 0;
   while (i < args.length) {
     const arg = args[i];
 
-    if (arg === '--format') {
-      // --format json|yaml
-      outputFormat = args[++i] || 'yaml';
-      if (!['json', 'yaml'].includes(outputFormat)) {
-        console.error(`Error: Invalid format "${outputFormat}". Use "json" or "yaml"`);
+    if (arg === '--category') {
+      // --category <url> - Use custom base category URL
+      categoryUrl = args[++i];
+      if (!categoryUrl) {
+        console.error('Error: No category URL specified');
+        console.error('Usage: node feats-scraper.mjs --category <category-url>');
         process.exit(1);
       }
       i++;
@@ -420,7 +583,7 @@ async function main() {
       const urlFile = args[++i];
       if (!urlFile) {
         console.error('Error: No URL list file specified');
-        console.error('Usage: node feats-scraper.mjs --list <url-list-file> [--format yaml|json]');
+        console.error('Usage: node feats-scraper.mjs --list <url-list-file>');
         process.exit(1);
       }
 
@@ -433,11 +596,6 @@ async function main() {
       // Single URL
       urls.push(arg);
       i++;
-    } else if (arg.endsWith('.json')) {
-      // Legacy: JSON output file specified
-      outputFile = arg;
-      outputFormat = 'json';
-      i++;
     } else {
       // Unknown argument
       i++;
@@ -447,11 +605,10 @@ async function main() {
   // If no URLs specified, scrape all from category
   if (urls.length === 0) {
     console.log('No URLs specified - scraping all feats from category\n');
-    urls = await extractAllFeatUrls();
+    urls = await extractAllFeatUrls(categoryUrl);
   }
 
-  console.log(`Scraping ${urls.length} feat(s)...`);
-  console.log(`Output format: ${outputFormat.toUpperCase()}\n`);
+  console.log(`Scraping ${urls.length} feat(s)...\n`);
 
   const feats = await scrapeFeats(urls);
 
@@ -462,28 +619,20 @@ async function main() {
   console.log(`Scraped ${psionicFeats.length} psionic feats successfully`);
   console.log(`Skipped ${feats.length - psionicFeats.length} non-psionic feats\n`);
 
-  // Output based on format
-  if (outputFormat === 'yaml') {
-    // Write as YAML files to packs-source/feats/
-    const rootDir = join(TOOLS_DIR, '..');
-    const stats = writeYAMLPack('feats', psionicFeats, rootDir);
+  // Write as YAML files to packs-source/feats/ with deduplication
+  const rootDir = join(TOOLS_DIR, '..');
+  const stats = writeFeatsWithDeduplication(psionicFeats, rootDir);
 
-    console.log(`✓ Wrote ${stats.written} YAML files to packs-source/feats/`);
-    if (stats.skipped > 0) {
-      console.log(`⚠ Skipped ${stats.skipped} items due to errors`);
-      stats.errors.forEach(err => {
-        console.log(`  - ${err.item}: ${err.error}`);
-      });
-    }
-    console.log('\nRun `npm run packs:compile` to build the compendium');
-  } else {
-    // Legacy JSON output
-    if (!outputFile) {
-      outputFile = join(TOOLS_DIR, 'data', 'psionic-feats.json');
-    }
-    writeJSONOutput(outputFile, psionicFeats);
-    console.log(`Saved to: ${outputFile}`);
+  console.log('');
+  console.log(`✓ Created ${stats.written} new YAML files`);
+  console.log(`✓ Updated ${stats.updated} existing YAML files`);
+  if (stats.skipped > 0) {
+    console.log(`⚠ Skipped ${stats.skipped} items due to errors`);
+    stats.errors.forEach(err => {
+      console.log(`  - ${err.item}: ${err.error}`);
+    });
   }
+  console.log('\nRun `npm run packs:compile` to build the compendium');
 }
 
 // Run if called directly

@@ -1,0 +1,64 @@
+_id: wFRcuacKyVJHN36V
+_key: '!items!wFRcuacKyVJHN36V'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Improved_Metamorphosis
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Improved Metamorphosis
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;gain&nbsp;more&nbsp;versatility&nbsp;when&nbsp;changing&nbsp;your&nbsp;form.
+
+      </p>
+
+      <p><strong>Prerequisite:&nbsp;</strong>Ability&nbsp;to&nbsp;manifest&nbsp;<em>minor</em><em>metamorphosis</em>,&nbsp;<em>metamorphosis</em>,&nbsp;<em>greater&nbsp;metamorphosis</em>,
+
+      or&nbsp;<em>true&nbsp;metamorphosis</em>.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>Any&nbsp;time&nbsp;you&nbsp;manifest&nbsp;<em>minor&nbsp;metamorphosis</em>,
+
+      <em>metamorphosis</em>,&nbsp;<em>greater&nbsp;metamorphosis</em>,&nbsp;or&nbsp;<em>true</em><em>metamorphosis</em>,&nbsp;you&nbsp;gain&nbsp;one&nbsp;additional&nbsp;menu&nbsp;option
+
+      from&nbsp;either&nbsp;the&nbsp;Ability&nbsp;Menu&nbsp;or&nbsp;Enhancement&nbsp;Menu&nbsp;of
+
+      the&nbsp;relevant&nbsp;power.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Advanced Psionics Guide'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

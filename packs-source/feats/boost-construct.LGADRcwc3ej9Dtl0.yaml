@@ -1,0 +1,80 @@
+_id: LGADRcwc3ej9Dtl0
+_key: '!items!LGADRcwc3ej9Dtl0'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Boost_Construct
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Boost Construct
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;astral&nbsp;constructs&nbsp;have&nbsp;more&nbsp;abilities.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;create&nbsp;an&nbsp;astral&nbsp;construct,&nbsp;you&nbsp;can
+
+      give&nbsp;it&nbsp;one&nbsp;additional&nbsp;special&nbsp;ability&nbsp;from&nbsp;any&nbsp;menu&nbsp;that
+
+      the&nbsp;construct&nbsp;currently&nbsp;has&nbsp;an&nbsp;ability&nbsp;from.
+
+      </p>
+
+      <p><strong>Special:&nbsp;</strong>This&nbsp;effect&nbsp;stacks&nbsp;with&nbsp;the&nbsp;Summoner’s&nbsp;Call
+
+      ability&nbsp;of&nbsp;the&nbsp;shaper.
+
+      </p>
+
+      <p>Your&nbsp;astral&nbsp;constructs&nbsp;are&nbsp;creatures&nbsp;of&nbsp;legendary&nbsp;might&nbsp;and&nbsp;toughness.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Boost&nbsp;Construct.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;Any&nbsp;astral&nbsp;construct&nbsp;you&nbsp;create&nbsp;is&nbsp;considered&nbsp;mythic&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of&nbsp;interacting&nbsp;with&nbsp;other&nbsp;mythic&nbsp;creatures.&nbsp;It&nbsp;doesn’t&nbsp;gain&nbsp;any&nbsp;mythic&nbsp;abilities&nbsp;or&nbsp;powers,&nbsp;but&nbsp;is&nbsp;affected&nbsp;by&nbsp;mythic&nbsp;powers,&nbsp;spells,&nbsp;and&nbsp;abilities&nbsp;as&nbsp;if&nbsp;it&nbsp;were&nbsp;a&nbsp;1st-tier&nbsp;mythic&nbsp;creature.&nbsp;Additionally,&nbsp;if&nbsp;the&nbsp;astral&nbsp;construct&nbsp;has&nbsp;damage&nbsp;reduction,&nbsp;its&nbsp;damage&nbsp;reduction&nbsp;becomes&nbsp;DR/epic.&nbsp;&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

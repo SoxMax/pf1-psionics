@@ -1,0 +1,72 @@
+_id: MtIuqmp2nPXuccPP
+_key: '!items!MtIuqmp2nPXuccPP'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Imbuement_of_the_Phantom_Weapon
+img: icons/weapons/swords/greatsword-crossguard-blue.webp
+name: Imbuement of the Phantom Weapon
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;have&nbsp;learned&nbsp;how&nbsp;to&nbsp;suspend&nbsp;a&nbsp;destructive&nbsp;psychic
+
+      field&nbsp;on&nbsp;weapons&nbsp;other&nbsp;than&nbsp;your&nbsp;mind&nbsp;blade.
+
+      </p>
+
+      <p><strong>Prerequisites</strong>:&nbsp;Ability&nbsp;to&nbsp;generate&nbsp;a&nbsp;mind&nbsp;blade,
+
+      psychic&nbsp;strike&nbsp;+1d8.
+
+      </p>
+
+      <p><strong>Benefit</strong>:&nbsp;You&nbsp;may&nbsp;charge&nbsp;your&nbsp;psychic&nbsp;strike&nbsp;on&nbsp;a
+
+      weapon&nbsp;other&nbsp;than&nbsp;your&nbsp;mind&nbsp;blade&nbsp;as&nbsp;if&nbsp;it&nbsp;were&nbsp;your
+
+      mind&nbsp;blade&nbsp;and&nbsp;release&nbsp;it&nbsp;on&nbsp;a&nbsp;foe&nbsp;in&nbsp;the&nbsp;same&nbsp;manner.
+
+      You&nbsp;may&nbsp;only&nbsp;maintain&nbsp;a&nbsp;number&nbsp;of&nbsp;charged&nbsp;weapons
+
+      equal&nbsp;to&nbsp;the&nbsp;number&nbsp;of&nbsp;psychic&nbsp;strike&nbsp;dice&nbsp;you&nbsp;possess.
+
+      If&nbsp;the&nbsp;charged&nbsp;weapon&nbsp;ever&nbsp;leaves&nbsp;your&nbsp;possession
+
+      (either&nbsp;by&nbsp;being&nbsp;thrown&nbsp;or&nbsp;by&nbsp;being&nbsp;taken&nbsp;or&nbsp;lost),&nbsp;then
+
+      the&nbsp;weapon&nbsp;loses&nbsp;its&nbsp;charge&nbsp;the&nbsp;following&nbsp;round.&nbsp;The
+
+      weapon&nbsp;loses&nbsp;its&nbsp;held&nbsp;charge&nbsp;when&nbsp;you&nbsp;sleep&nbsp;or&nbsp;if&nbsp;you’re
+
+      knocked&nbsp;unconscious&nbsp;or&nbsp;killed.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

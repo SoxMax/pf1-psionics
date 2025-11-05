@@ -1,0 +1,102 @@
+_id: yXvYrdc5H3vWWUg0
+_key: '!items!yXvYrdc5H3vWWUg0'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Overchannel
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Overchannel
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;burn&nbsp;your&nbsp;life&nbsp;force&nbsp;to&nbsp;strengthen&nbsp;your&nbsp;powers.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>While&nbsp;manifesting&nbsp;a&nbsp;power,&nbsp;you&nbsp;can&nbsp;increase
+
+      your&nbsp;effective&nbsp;manifester&nbsp;level&nbsp;by&nbsp;one,&nbsp;but&nbsp;in&nbsp;so&nbsp;doing
+
+      you&nbsp;take&nbsp;1d8&nbsp;points&nbsp;of&nbsp;damage.&nbsp;At&nbsp;8th&nbsp;level,&nbsp;you&nbsp;can
+
+      choose&nbsp;to&nbsp;increase&nbsp;your&nbsp;effective&nbsp;manifester&nbsp;level&nbsp;by
+
+      two,&nbsp;but&nbsp;you&nbsp;take&nbsp;3d8&nbsp;points&nbsp;of&nbsp;damage.&nbsp;At&nbsp;15th&nbsp;level,
+
+      you&nbsp;can&nbsp;increase&nbsp;your&nbsp;effective&nbsp;manifester&nbsp;level&nbsp;by
+
+      three,&nbsp;but&nbsp;you&nbsp;take&nbsp;5d8&nbsp;points&nbsp;of&nbsp;damage.
+
+      </p>
+
+      <p>The&nbsp;effective&nbsp;increase&nbsp;in&nbsp;manifester&nbsp;level&nbsp;increases
+
+      the&nbsp;number&nbsp;of&nbsp;power&nbsp;points&nbsp;you&nbsp;can&nbsp;expend&nbsp;on&nbsp;a&nbsp;single
+
+      power&nbsp;manifestation,&nbsp;as&nbsp;well&nbsp;as&nbsp;increasing&nbsp;all&nbsp;manifester
+
+      level-dependent&nbsp;effects,&nbsp;such&nbsp;as&nbsp;range,&nbsp;duration,&nbsp;and
+
+      overcoming&nbsp;power&nbsp;resistance.
+
+      </p>
+
+      <p><strong>Normal:&nbsp;</strong>Your&nbsp;manifester&nbsp;level&nbsp;is&nbsp;equal&nbsp;to&nbsp;your&nbsp;total
+
+      levels&nbsp;in&nbsp;classes&nbsp;that&nbsp;manifest&nbsp;powers.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>You&nbsp;have&nbsp;learned&nbsp;to&nbsp;push&nbsp;yourself&nbsp;harder&nbsp;to&nbsp;increase&nbsp;your&nbsp;manifesting&nbsp;power.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Overchannel.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;You&nbsp;can&nbsp;increase&nbsp;your&nbsp;manifester&nbsp;level&nbsp;when&nbsp;using&nbsp;Overchannel&nbsp;by&nbsp;half&nbsp;your&nbsp;tier&nbsp;(minimum&nbsp;1),&nbsp;but&nbsp;doing&nbsp;so&nbsp;adds&nbsp;an&nbsp;additional&nbsp;1d8&nbsp;points&nbsp;of&nbsp;damage&nbsp;per&nbsp;manifester&nbsp;level&nbsp;added&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

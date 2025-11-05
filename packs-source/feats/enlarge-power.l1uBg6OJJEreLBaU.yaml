@@ -1,0 +1,100 @@
+_id: l1uBg6OJJEreLBaU
+_key: '!items!l1uBg6OJJEreLBaU'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Enlarge_Power
+img: icons/magic/symbols/runes-carved-stone-purple.webp
+name: Enlarge Power
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;manifest&nbsp;powers&nbsp;farther&nbsp;than&nbsp;normal.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your
+
+      psionic&nbsp;focus.&nbsp;You&nbsp;can&nbsp;alter&nbsp;a&nbsp;power&nbsp;with&nbsp;a&nbsp;range&nbsp;of
+
+      close,&nbsp;medium,&nbsp;or&nbsp;long&nbsp;to&nbsp;increase&nbsp;its&nbsp;range&nbsp;by&nbsp;100%.
+
+      An&nbsp;enlarged&nbsp;power&nbsp;with&nbsp;a&nbsp;range&nbsp;of&nbsp;close&nbsp;has&nbsp;a&nbsp;range&nbsp;of
+
+      50&nbsp;feet&nbsp;+&nbsp;5&nbsp;feet&nbsp;per&nbsp;level,&nbsp;a&nbsp;medium-range&nbsp;power&nbsp;has&nbsp;a
+
+      range&nbsp;of&nbsp;200&nbsp;feet&nbsp;+&nbsp;20&nbsp;feet&nbsp;per&nbsp;level,&nbsp;and&nbsp;a&nbsp;long-range
+
+      power&nbsp;has&nbsp;a&nbsp;range&nbsp;of&nbsp;800&nbsp;feet&nbsp;+&nbsp;80&nbsp;feet&nbsp;per&nbsp;level.
+
+      Powers&nbsp;whose&nbsp;ranges&nbsp;are&nbsp;not&nbsp;defined&nbsp;by&nbsp;distance,&nbsp;as
+
+      well&nbsp;as&nbsp;powers&nbsp;whose&nbsp;ranges&nbsp;are&nbsp;not&nbsp;close,&nbsp;medium,&nbsp;or
+
+      long,&nbsp;are&nbsp;not&nbsp;affected.
+
+      </p>
+
+      <p>Using&nbsp;this&nbsp;feat&nbsp;does&nbsp;not&nbsp;increase&nbsp;the&nbsp;power&nbsp;point&nbsp;cost
+
+      of&nbsp;the&nbsp;power.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>You&nbsp;can&nbsp;triple&nbsp;the&nbsp;range&nbsp;of&nbsp;a&nbsp;power.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Enlarge&nbsp;Power.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;manifest&nbsp;a&nbsp;power&nbsp;with&nbsp;a&nbsp;range&nbsp;of&nbsp;close,&nbsp;medium,&nbsp;or&nbsp;long&nbsp;affected&nbsp;by&nbsp;Enlarge&nbsp;Power,&nbsp;its&nbsp;range&nbsp;is&nbsp;increased&nbsp;by&nbsp;+200%.&nbsp;An&nbsp;enlarged&nbsp;power&nbsp;with&nbsp;a&nbsp;range&nbsp;of&nbsp;close&nbsp;now&nbsp;has&nbsp;a&nbsp;range&nbsp;of&nbsp;75&nbsp;ft.&nbsp;+&nbsp;15&nbsp;ft./2&nbsp;levels,&nbsp;while&nbsp;medium-range&nbsp;powers&nbsp;have&nbsp;a&nbsp;range&nbsp;of&nbsp;300&nbsp;ft.&nbsp;+&nbsp;30&nbsp;ft./level&nbsp;and&nbsp;long-range&nbsp;powers&nbsp;have&nbsp;a&nbsp;range&nbsp;of&nbsp;1,200&nbsp;ft.&nbsp;+&nbsp;120&nbsp;ft./level.&nbsp;Alternatively,&nbsp;you&nbsp;may&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;to&nbsp;manifest&nbsp;a&nbsp;power&nbsp;as&nbsp;an&nbsp;enlarged&nbsp;power&nbsp;(gaining&nbsp;only&nbsp;the&nbsp;normal&nbsp;benefits&nbsp;of&nbsp;an&nbsp;enlarged&nbsp;power,&nbsp;rather&nbsp;than&nbsp;the&nbsp;increased&nbsp;benefits&nbsp;outlined&nbsp;above)&nbsp;without&nbsp;increasing&nbsp;the&nbsp;number&nbsp;of&nbsp;power&nbsp;points&nbsp;spent&nbsp;or&nbsp;expending&nbsp;psionic&nbsp;focus.&nbsp;
+
+      </p>
+
+      <p><strong>Normal:</strong>&nbsp;An&nbsp;enlarged&nbsp;power&nbsp;with&nbsp;a&nbsp;range&nbsp;of&nbsp;close&nbsp;has&nbsp;a&nbsp;range&nbsp;of&nbsp;50&nbsp;ft.&nbsp;+&nbsp;5&nbsp;ft./level,&nbsp;while&nbsp;medium-range&nbsp;powers&nbsp;have&nbsp;a&nbsp;range&nbsp;of&nbsp;200&nbsp;ft.&nbsp;+&nbsp;20&nbsp;ft./level&nbsp;and&nbsp;longrange&nbsp;powers&nbsp;have&nbsp;a&nbsp;range&nbsp;of&nbsp;800&nbsp;ft.&nbsp;+&nbsp;80&nbsp;ft./level.&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - metapsionic
+type: feat

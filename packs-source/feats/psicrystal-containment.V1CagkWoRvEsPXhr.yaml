@@ -1,0 +1,100 @@
+_id: V1CagkWoRvEsPXhr
+_key: '!items!V1CagkWoRvEsPXhr'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psicrystal_Containment
+img: icons/commodities/gems/gem-faceted-diamond-blue.webp
+name: Psicrystal Containment
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>Your&nbsp;psicrystal&nbsp;has&nbsp;advanced&nbsp;enough&nbsp;that&nbsp;it&nbsp;can&nbsp;hold&nbsp;a
+
+      psionic&nbsp;focus&nbsp;that&nbsp;you&nbsp;store&nbsp;within&nbsp;it.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong><a&nbsp;href="/wiki/Psicrystal_Affinity"&nbsp;title="Psicrystal&nbsp;Affinity">Psicrystal&nbsp;Affinity</a>,&nbsp;manifester&nbsp;level
+
+      3rd.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;psionically&nbsp;focus&nbsp;your&nbsp;psicrystal&nbsp;in
+
+      the&nbsp;same&nbsp;manner&nbsp;in&nbsp;which&nbsp;you&nbsp;gain&nbsp;psionic&nbsp;focus.&nbsp;At
+
+      any&nbsp;time&nbsp;when&nbsp;you&nbsp;need&nbsp;to&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus,
+
+      you&nbsp;can&nbsp;expend&nbsp;your&nbsp;psicrystal’s&nbsp;psionic&nbsp;focus&nbsp;instead,
+
+      as&nbsp;long&nbsp;as&nbsp;the&nbsp;crystal&nbsp;is&nbsp;within&nbsp;5&nbsp;feet&nbsp;of&nbsp;you.&nbsp;At&nbsp;any&nbsp;time
+
+      when&nbsp;you&nbsp;need&nbsp;to&nbsp;maintain&nbsp;psionic&nbsp;focus&nbsp;for&nbsp;an&nbsp;effect,
+
+      you&nbsp;can&nbsp;use&nbsp;your&nbsp;psicrysta’s&nbsp;psionic&nbsp;focus&nbsp;instead,&nbsp;as&nbsp;long
+
+      as&nbsp;the&nbsp;crystal&nbsp;is&nbsp;within&nbsp;5&nbsp;feet&nbsp;of&nbsp;you.&nbsp;Psionically&nbsp;focusing
+
+      your&nbsp;psicrystal&nbsp;works&nbsp;just&nbsp;like&nbsp;focusing&nbsp;yourself.&nbsp;The
+
+      psicrystal&nbsp;cannot&nbsp;focus&nbsp;itself—only&nbsp;the&nbsp;owner&nbsp;can&nbsp;spend
+
+      the&nbsp;time&nbsp;to&nbsp;focus&nbsp;the&nbsp;crystal.
+
+      </p>
+
+      <p><br&nbsp;/></p>
+
+      <p>Your&nbsp;psicrystal’s&nbsp;presence&nbsp;grants&nbsp;you&nbsp;focus.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong>&nbsp;Psicrystal&nbsp;Containment.
+
+      </p>
+
+      <p><strong>Benefit:</strong>&nbsp;So&nbsp;long&nbsp;as&nbsp;your&nbsp;psicrystal&nbsp;is&nbsp;within&nbsp;5&nbsp;feet&nbsp;of&nbsp;you,&nbsp;you&nbsp;are&nbsp;always&nbsp;treated&nbsp;as&nbsp;if&nbsp;you&nbsp;are&nbsp;maintaining&nbsp;psionic&nbsp;focus&nbsp;for&nbsp;abilities&nbsp;powered&nbsp;by&nbsp;maintaining&nbsp;psionic&nbsp;focus.&nbsp;You&nbsp;may&nbsp;still&nbsp;only&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;if&nbsp;you&nbsp;are&nbsp;actually&nbsp;maintaining&nbsp;psionic&nbsp;focus.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;regain&nbsp;both&nbsp;your&nbsp;own&nbsp;and&nbsp;your&nbsp;psicrystal’s&nbsp;psionic&nbsp;focus.&nbsp;
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

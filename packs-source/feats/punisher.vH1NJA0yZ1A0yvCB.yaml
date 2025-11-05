@@ -1,7 +1,5 @@
 _id: vH1NJA0yZ1A0yvCB
 _key: '!items!vH1NJA0yZ1A0yvCB'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Punisher
@@ -30,27 +28,7 @@ system:
 
       <p><strong>Benefit:&nbsp;</strong>Whenever&nbsp;a&nbsp;member&nbsp;of&nbsp;your&nbsp;collective&nbsp;attacks&nbsp;and&nbsp;misses,&nbsp;you&nbsp;may&nbsp;deal&nbsp;your&nbsp;lifeblood&nbsp;resonance&nbsp;damage&nbsp;to&nbsp;them&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

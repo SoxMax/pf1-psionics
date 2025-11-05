@@ -1,7 +1,5 @@
 _id: xLVzUihi7G67eHw8
 _key: '!items!xLVzUihi7G67eHw8'
-_stats:
-  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Admixed_Power
@@ -26,27 +24,7 @@ system:
 
       <p><strong>Benefit:&nbsp;</strong>To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;a&nbsp;power&nbsp;that&nbsp;deals&nbsp;cold,&nbsp;electricity,&nbsp;fire,&nbsp;or&nbsp;sonic&nbsp;damage&nbsp;using&nbsp;this&nbsp;feat,&nbsp;choose&nbsp;an&nbsp;additional&nbsp;energy&nbsp;type.&nbsp;The&nbsp;power&nbsp;counts&nbsp;as&nbsp;being&nbsp;both&nbsp;energy&nbsp;types&nbsp;and&nbsp;only&nbsp;the&nbsp;lowest&nbsp;resistance&nbsp;works&nbsp;against&nbsp;the&nbsp;admixed&nbsp;power.&nbsp;Using&nbsp;this&nbsp;feat&nbsp;increases&nbsp;the&nbsp;power&nbsp;point&nbsp;cost&nbsp;of&nbsp;the&nbsp;power&nbsp;by&nbsp;2.&nbsp;The&nbsp;power’s&nbsp;total&nbsp;cost&nbsp;cannot&nbsp;exceed&nbsp;your&nbsp;manifester&nbsp;level.
 
-      </p><ul><dt>Archetypes</dt></ul>
-
-      <ul><dt>Blessings</dt></ul>
-
-      <ul><dt>Classes</dt></ul>
-
-      <ul><dt>Class&nbsp;Options</dt></ul>
-
-      <ul><dt>Deities</dt></ul>
-
-      <ul><dt>Feats</dt></ul>
-
-      <ul><dt>Powers</dt></ul>
-
-      <ul><dt>Spells</dt></ul>
-
-      <ul><dt>Talents</dt></ul>
-
-      <ul><dt>Traits</dt></ul>
-
-      <ul><dt>Veil</dt></ul>
+      </p>
   disabled: false
   featType: feat
   inherited: false

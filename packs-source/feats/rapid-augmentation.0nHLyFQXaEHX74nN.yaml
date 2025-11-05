@@ -1,0 +1,64 @@
+_id: 0nHLyFQXaEHX74nN
+_key: '!items!0nHLyFQXaEHX74nN'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Rapid_Augmentation
+img: icons/magic/symbols/runes-triangle-orange.webp
+name: Rapid Augmentation
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>With&nbsp;a&nbsp;quick&nbsp;burst&nbsp;of&nbsp;psionic&nbsp;power,&nbsp;you&nbsp;can&nbsp;make
+
+      slight&nbsp;alterations&nbsp;in&nbsp;your&nbsp;astral&nbsp;suit.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Augment&nbsp;suit&nbsp;class&nbsp;feature.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;activate&nbsp;your&nbsp;augment&nbsp;suit&nbsp;class
+
+      feature&nbsp;as&nbsp;a&nbsp;swift&nbsp;action.
+
+      </p>
+
+      <p><strong>Normal:&nbsp;</strong>Activating&nbsp;augment&nbsp;suit&nbsp;is&nbsp;a&nbsp;standard&nbsp;action.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation I'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat

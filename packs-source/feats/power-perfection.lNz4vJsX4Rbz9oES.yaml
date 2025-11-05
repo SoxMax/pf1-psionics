@@ -1,0 +1,82 @@
+_id: lNz4vJsX4Rbz9oES
+_key: '!items!lNz4vJsX4Rbz9oES'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Power_Perfection
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Power Perfection
+system:
+  abilityType: none
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>You&nbsp;are&nbsp;unequaled&nbsp;at&nbsp;the&nbsp;manifesting&nbsp;of&nbsp;one&nbsp;particular
+
+      power.
+
+      </p>
+
+      <p><strong>Prerequisites:&nbsp;</strong>Spellcraft&nbsp;15&nbsp;ranks,&nbsp;at&nbsp;least&nbsp;three
+
+      metapsionic&nbsp;feats.
+
+      </p>
+
+      <p><strong>Benefit:&nbsp;</strong>Pick&nbsp;one&nbsp;power&nbsp;which&nbsp;you&nbsp;have&nbsp;the&nbsp;ability&nbsp;to
+
+      manifest.&nbsp;Whenever&nbsp;you&nbsp;manifest&nbsp;that&nbsp;power&nbsp;you&nbsp;may
+
+      apply&nbsp;any&nbsp;one&nbsp;metapsionic&nbsp;feat&nbsp;you&nbsp;have&nbsp;to&nbsp;that&nbsp;power
+
+      without&nbsp;expending&nbsp;psionic&nbsp;focus&nbsp;or&nbsp;affecting&nbsp;its&nbsp;level&nbsp;or
+
+      manifesting&nbsp;time,&nbsp;as&nbsp;long&nbsp;as&nbsp;the&nbsp;total&nbsp;power&nbsp;point&nbsp;cost
+
+      of&nbsp;the&nbsp;power,&nbsp;including&nbsp;the&nbsp;metapsionic&nbsp;feat&nbsp;cost&nbsp;and
+
+      any&nbsp;augmentation,&nbsp;does&nbsp;not&nbsp;exceed&nbsp;17&nbsp;power&nbsp;points.&nbsp;In
+
+      addition,&nbsp;if&nbsp;you&nbsp;have&nbsp;other&nbsp;feats&nbsp;which&nbsp;allow&nbsp;you&nbsp;to&nbsp;apply
+
+      a&nbsp;set&nbsp;numerical&nbsp;bonus&nbsp;to&nbsp;any&nbsp;aspect&nbsp;of&nbsp;this&nbsp;power&nbsp;(such
+
+      as&nbsp;Power&nbsp;Penetration,&nbsp;Psionic&nbsp;Endowment,&nbsp;Weapon
+
+      Focus&nbsp;[ray],&nbsp;and&nbsp;so&nbsp;on),&nbsp;double&nbsp;the&nbsp;bonus&nbsp;granted&nbsp;by&nbsp;that
+
+      feat&nbsp;when&nbsp;applied&nbsp;to&nbsp;this&nbsp;power.
+
+      </p>
+  disabled: false
+  featType: feat
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: ''
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation I'
+  subType: feat
+  summons: false
+  tags:
+    - psionic
+type: feat
