@@ -26,14 +26,14 @@ export function injectActorSheetPF() {
     this._activeTab = active;
   }, "LISTENER");
 
-    // Handle drag and drop for powers
-    libWrapper.register(MODULE_ID, "pf1.applications.actor.ActorSheetPF.prototype._alterDropItemData", async function (wrapped, data, source) {
-        wrapped(data, source);
-        // Set manifestor to currently viewed one
-        if (data.type === `${MODULE_ID}.power`) {
-            data.system.manifestor = this._tabs.find((t) => t.group === "manifestors")?.active || "primary";
-        }
-    }, "WRAPPER");
+  // Handle drag and drop for powers
+  libWrapper.register(MODULE_ID, "pf1.applications.actor.ActorSheetPF.prototype._alterDropItemData", async function (wrapped, data, source) {
+      wrapped(data, source);
+      // Set manifestor to currently viewed one
+      if (data.type === `${MODULE_ID}.power`) {
+          data.system.manifestor = this._tabs.find((t) => t.group === "manifestors")?.active || "primary";
+      }
+  }, "WRAPPER");
 }
 
 function adjustActiveTab(app) {
@@ -119,6 +119,13 @@ async function injectPsionicsTab(app, html, data) {
   }
 }
 
+function onRollConcentration(event) {
+  event.preventDefault();
+
+  const manifestorKey = $(event.currentTarget).closest(".manifestor-group").data("tab");
+  this.actor.rollConcentration(manifestorKey, { token: this.token, isPsionic: true });
+}
+
 function onToggleConfig(event) {
   const element = event.currentTarget;
   const dataset = element.dataset;
@@ -171,6 +178,9 @@ function injectEventListeners(app, html, _data) {
   });
 
   const manifestorsBodyElement = psionicsTabBody.find(".manifestors-body");
+
+  manifestorsBodyElement.find(".spellcasting-concentration.rollable").click(onRollConcentration.bind(app));
+
   // Bind Events
   // manifestorsBodyElement.find("a.hide-show").click(app._hideShowElement.bind(app));
   manifestorsBodyElement.find("a.toggle-config").click(onToggleConfig.bind(app));
