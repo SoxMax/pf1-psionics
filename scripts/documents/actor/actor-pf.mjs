@@ -264,20 +264,19 @@ async function rechargeFocus(actor) {
     [`flags.${MODULE_ID}.focus.current`]: focus.maximum,
   });
 }
+async function _isPsionicRoll(options) {
+      // 1. Checking options flag
+  return options.isPsionic
+      // 2. If we have an item, check its type
+      || options.item?.type === `${MODULE_ID}.power`
+      // 3. If no item but we have a message reference (from chat button), retrieve the item
+      || await fromUuid(options.reference)?.itemSource?.type === `${MODULE_ID}.power`;
+}
 
 export function injectActorPF() {
   libWrapper.register(MODULE_ID, "pf1.documents.actor.ActorPF.prototype.rollConcentration",
       async function(wrapped, bookId, options = {}) {
-
-        // Determine if we are in a psionic context by:
-        // 1. Checking options flag
-        const isPsionicContext = options.isPsionic
-            // 2. If we have an item, check its type
-            || options.item?.type === `${MODULE_ID}.power`
-            // 3. If no item but we have a message reference (from chat button), retrieve the item
-            || await fromUuid(options.reference)?.itemSource?.type === `${MODULE_ID}.power`;
-
-        if (isPsionicContext) {
+        if (await _isPsionicRoll(options)) {
           return rollPsionicConcentration.call(this, bookId, options);
         }
         return wrapped(bookId, options);
@@ -285,16 +284,7 @@ export function injectActorPF() {
 
   libWrapper.register(MODULE_ID, "pf1.documents.actor.ActorPF.prototype.rollCL",
       async function(wrapped, bookId, options = {}) {
-
-        // Determine if we are in a psionic context by:
-        // 1. Checking options flag
-        const isPsionicContext = options.isPsionic
-            // 2. If we have an item, check its type
-            || options.item?.type === `${MODULE_ID}.power`
-            // 3. If no item but we have a message reference (from chat button), retrieve the item
-            || await fromUuid(options.reference)?.itemSource?.type === `${MODULE_ID}.power`;
-
-        if (isPsionicContext) {
+        if (await _isPsionicRoll(options)) {
           return rollPsionicCL.call(this, bookId, options);
         }
         return wrapped(bookId, options);
