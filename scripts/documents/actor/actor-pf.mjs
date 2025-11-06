@@ -286,16 +286,10 @@ export function injectActorPF() {
 
 async function rollPsionicConcentration(manifestorId, options = {}) {
   const manifestor = this.getFlag(MODULE_ID, "manifestors")?.[manifestorId];
-  if (!manifestor) {
-    ui.notifications.error(`Manifestor "${manifestorId}" not found`);
-    return;
-  }
 
   const rollData = options.rollData ?? this.getRollData();
   rollData.cl = manifestor.cl.total;
   rollData.mod = this.system.abilities[manifestor.ability]?.mod ?? 0;
-  rollData.sl = options?.sl ?? options.item?.system?.level;
-  rollData.damage = options?.damage ?? 0;
 
   if (
       Hooks.call("actorRoll", "pf1PreActorRollConcentration", undefined, this, "concentration", manifestorId, options) ===
@@ -306,20 +300,20 @@ async function rollPsionicConcentration(manifestorId, options = {}) {
   // Set up roll parts
   const parts = [];
 
-  const describePart = (value, label) => parts.push(`${value}[${pf1.utils.formula.safeFlair(label)}]`);
-  const srcDetails = (s) => s?.reverse().forEach((d) => describePart(d.value, d.name));
+  const describePart = (value, label) => parts.push(`${value}[${label}]`);
+  const srcDetails = (s) => s?.reverse().forEach((d) => describePart(d.value, d.name, -10));
   srcDetails(this.getSourceDetails(`flags.${MODULE_ID}.manifestors.${manifestorId}.concentration.total`));
 
   // Add contextual concentration string
-  // Use the same context note path as spells for compatibility with existing PF1 features
   const notes = await this.getContextNotesParsed(`spell.concentration.${manifestorId}`, { rollData });
 
   // Wound Threshold penalty
   const wT = this.getWoundThresholdData();
   if (wT.valid) notes.push({ text: game.i18n.localize(pf1.config.woundThresholdConditions[wT.level]) });
+  // TODO: Make the penalty show separate of the CL.total.
 
   const props = [];
-  if (notes.length > 0) props.push({ id: "generic", header: game.i18n.localize("PF1.Notes"), value: notes });
+  if (notes.length > 0) props.push({ header: game.i18n.localize("PF1.Notes"), value: notes });
 
   const token = options.token ?? this.token;
 
@@ -328,10 +322,8 @@ async function rollPsionicConcentration(manifestorId, options = {}) {
     parts,
     rollData,
     subject: { core: "concentration", spellbook: manifestorId },
-    flavor: game.i18n.localize("PF1-Psionics.Concentration.Check.Label"),
+    flavor: game.i18n.localize("PF1.ConcentrationCheck"),
     chatTemplateData: { properties: props },
-    properties: props,
-    actions: pf1.registry.concentration.contents,
     speaker: ChatMessage.implementation.getSpeaker({ actor: this, token }),
   };
   if (Hooks.call("pf1PreActorRollConcentration", this, rollOptions, manifestorId) === false) return;
