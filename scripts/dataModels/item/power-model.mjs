@@ -96,6 +96,10 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
    */
   prepareBaseData() {
     super.prepareBaseData();
+
+    // Alias manifestor as spellbook for PF1 chat button compatibility
+    // This allows PF1's concentration chat button to work with powers
+    this.spellbook = this.manifestor;
   }
 
   /**
