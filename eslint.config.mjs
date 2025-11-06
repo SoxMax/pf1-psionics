@@ -10,29 +10,34 @@ export default [
       sourceType: "module",
       globals: {
         // Browser globals
-        window: "readonly",
-        document: "readonly",
         console: "readonly",
+        document: "readonly",
+        window: "readonly",
         
         // Node globals
-        process: "readonly",
         __dirname: "readonly",
         __filename: "readonly",
+        process: "readonly",
         
         // Foundry VTT globals
-        game: "readonly",
-        canvas: "readonly",
-        ui: "readonly",
-        CONFIG: "readonly",
-        Hooks: "readonly",
-        foundry: "readonly",
-        pf1: "readonly",
-        Item: "readonly",
         Actor: "readonly",
+        CONFIG: "readonly",
+        ChatMessage: "readonly",
         DocumentSheetConfig: "readonly",
-        libWrapper: "readonly",
+        Hooks: "readonly",
+        Item: "readonly",
         RollPF: "readonly",
+        canvas: "readonly",
+        foundry: "readonly",
+        fromUuid: "readonly",
+        game: "readonly",
         lang: "readonly",
+        libWrapper: "readonly",
+        pf1: "readonly",
+        ui: "readonly",
+
+        // jQuery global
+        $: "readonly",
       },
     },
     rules: {
