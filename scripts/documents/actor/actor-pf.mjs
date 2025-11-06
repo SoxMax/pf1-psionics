@@ -264,6 +264,7 @@ async function rechargeFocus(actor) {
     [`flags.${MODULE_ID}.focus.current`]: focus.maximum,
   });
 }
+
 async function _isPsionicRoll(options) {
       // 1. Checking options flag
   return options.isPsionic
