@@ -286,7 +286,6 @@ export function injectActorPF() {
 
 async function rollPsionicConcentration(manifestorId, options = {}) {
   const manifestor = this.getFlag(MODULE_ID, "manifestors")?.[manifestorId];
-
   const rollData = options.rollData ?? this.getRollData();
   rollData.cl = manifestor.cl.total;
   rollData.mod = this.system.abilities[manifestor.ability]?.mod ?? 0;
