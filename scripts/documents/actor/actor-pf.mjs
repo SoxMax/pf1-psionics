@@ -282,6 +282,23 @@ export function injectActorPF() {
         }
         return wrapped(bookId, options);
       }, "MIXED");
+
+  libWrapper.register(MODULE_ID, "pf1.documents.actor.ActorPF.prototype.rollCL",
+      async function(wrapped, bookId, options = {}) {
+
+        // Determine if we are in a psionic context by:
+        // 1. Checking options flag
+        const isPsionicContext = options.isPsionic
+            // 2. If we have an item, check its type
+            || options.item?.type === `${MODULE_ID}.power`
+            // 3. If no item but we have a message reference (from chat button), retrieve the item
+            || await fromUuid(options.reference)?.itemSource?.type === `${MODULE_ID}.power`;
+
+        if (isPsionicContext) {
+          return rollPsionicCL.call(this, bookId, options);
+        }
+        return wrapped(bookId, options);
+      }, "MIXED");
 }
 
 async function rollPsionicConcentration(manifestorId, options = {}) {
@@ -328,5 +345,55 @@ async function rollPsionicConcentration(manifestorId, options = {}) {
   if (Hooks.call("pf1PreActorRollConcentration", this, rollOptions, manifestorId) === false) return;
   const result = await pf1.dice.d20Roll(rollOptions);
   Hooks.callAll("pf1ActorRollConcentration", this, result, manifestorId);
+  return result;
+}
+
+async function rollPsionicCL(manifestorId, options = {}) {
+  const manifestor = this.getFlag(MODULE_ID, "manifestors")?.[manifestorId];
+  const rollData = options.rollData ?? this.getRollData();
+  rollData.cl = manifestor.cl.total;
+
+  // Set up roll parts
+  const parts = [];
+
+  const sources = this.getSourceDetails(`flags.${MODULE_ID}.manifestors.${manifestorId}.cl.total`);
+  sources.reverse();
+
+  for (const src of sources) {
+    const label = pf1.utils.formula.safeFlair(src.name);
+    if (src.id === "woundThreshold") {
+      // Adjust WT part to how much WT actually adjusted CL, to account for minimum CL
+      const wt = manifestor.cl.woundPenalty || 0;
+      if (wt) parts.push(`${wt}[${label}]`);
+      continue;
+    }
+    parts.push(`${src.value}[${label}]`);
+  }
+
+  // Add contextual caster level string
+  const notes = await this.getContextNotesParsed(`spell.cl.${manifestorId}`, { rollData });
+
+  // Wound Threshold penalty
+  const wT = this.getWoundThresholdData();
+  if (wT.valid) notes.push({ text: pf1.config.woundThresholdConditions[wT.level] });
+
+  const properties = [];
+  if (notes.length) properties.push({ id: "generic", header: game.i18n.localize("PF1.Notes"), value: notes });
+
+  const token = options.token ?? this.token;
+
+  const rollOptions = {
+    ...options,
+    parts,
+    rollData,
+    subject: { core: "cl", spellbook: manifestorId },
+    flavor: game.i18n.localize("PF1.CasterLevelCheck"),
+    chatTemplateData: { properties },
+    properties,
+    speaker: ChatMessage.implementation.getSpeaker({ actor: this, token }),
+  };
+  if (Hooks.call("pf1PreActorRollCl", this, rollOptions, manifestorId) === false) return;
+  const result = await pf1.dice.d20Roll(rollOptions);
+  Hooks.callAll("pf1ActorRollCl", this, result, manifestorId);
   return result;
 }
