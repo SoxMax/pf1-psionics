@@ -357,17 +357,14 @@ async function rollPsionicCL(manifestorId, options = {}) {
   const parts = [];
 
   const sources = this.getSourceDetails(`flags.${MODULE_ID}.manifestors.${manifestorId}.cl.total`);
-  sources.reverse();
-
-  for (const src of sources) {
-    const label = pf1.utils.formula.safeFlair(src.name);
+  for (const src of sources.reverse()) {
     if (src.id === "woundThreshold") {
       // Adjust WT part to how much WT actually adjusted CL, to account for minimum CL
       const wt = manifestor.cl.woundPenalty || 0;
-      if (wt) parts.push(`${wt}[${label}]`);
+      if (wt) parts.push(`${wt}[${src.name}]`);
       continue;
     }
-    parts.push(`${src.value}[${label}]`);
+    parts.push(`${src.value}[${src.name}]`);
   }
 
   // Add contextual caster level string
@@ -377,8 +374,8 @@ async function rollPsionicCL(manifestorId, options = {}) {
   const wT = this.getWoundThresholdData();
   if (wT.valid) notes.push({ text: pf1.config.woundThresholdConditions[wT.level] });
 
-  const properties = [];
-  if (notes.length) properties.push({ id: "generic", header: game.i18n.localize("PF1.Notes"), value: notes });
+  const props = [];
+  if (notes.length) props.push({ header: game.i18n.localize("PF1.Notes"), value: notes });
 
   const token = options.token ?? this.token;
 
@@ -388,8 +385,7 @@ async function rollPsionicCL(manifestorId, options = {}) {
     rollData,
     subject: { core: "cl", spellbook: manifestorId },
     flavor: game.i18n.localize("PF1.CasterLevelCheck"),
-    chatTemplateData: { properties },
-    properties,
+    chatTemplateData: { properties: props },
     speaker: ChatMessage.implementation.getSpeaker({ actor: this, token }),
   };
   if (Hooks.call("pf1PreActorRollCl", this, rollOptions, manifestorId) === false) return;
