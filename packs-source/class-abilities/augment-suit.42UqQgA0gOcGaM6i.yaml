@@ -1,0 +1,34 @@
+_id: 42UqQgA0gOcGaM6i
+_key: '!items!42UqQgA0gOcGaM6i'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Augment Suit
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Aegis
+  description:
+    value: >-
+      <p><b>Augment&nbsp;Suit:</b>An&nbsp;aegis&nbsp;learns&nbsp;how&nbsp;to&nbsp;infuse&nbsp;his&nbsp;astral&nbsp;suit&nbsp;with&nbsp;his&nbsp;psionic&nbsp;power,&nbsp;augmenting&nbsp;the&nbsp;capacity&nbsp;of&nbsp;his&nbsp;suit.&nbsp;Beginning&nbsp;at&nbsp;4th&nbsp;level,&nbsp;the&nbsp;aegis&nbsp;may&nbsp;spend&nbsp;up&nbsp;to&nbsp;one&nbsp;power&nbsp;point&nbsp;per&nbsp;four&nbsp;class&nbsp;levels&nbsp;to&nbsp;customize&nbsp;his&nbsp;Astral&nbsp;Suit,&nbsp;gaining&nbsp;one&nbsp;temporary&nbsp;customization&nbsp;point&nbsp;for&nbsp;each&nbsp;power&nbsp;point&nbsp;spent.
+
+      </p><p>This&nbsp;ability,&nbsp;activated&nbsp;as&nbsp;a&nbsp;standard&nbsp;action,&nbsp;lasts&nbsp;for&nbsp;a&nbsp;number&nbsp;of&nbsp;rounds&nbsp;equal&nbsp;to&nbsp;the&nbsp;aegis'&nbsp;Intelligence&nbsp;modifier.
+
+      </p><p>Activating&nbsp;this&nbsp;ability&nbsp;again,&nbsp;while&nbsp;already&nbsp;in&nbsp;use,&nbsp;immediately&nbsp;causes&nbsp;the&nbsp;previous&nbsp;duration&nbsp;to&nbsp;end.
+
+      </p><p>An&nbsp;aegis&nbsp;may&nbsp;end&nbsp;the&nbsp;duration&nbsp;as&nbsp;a&nbsp;free&nbsp;action&nbsp;at&nbsp;any&nbsp;time.
+
+      </p><p></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 27–31
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 28–30
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: augment-suit
+type: feat

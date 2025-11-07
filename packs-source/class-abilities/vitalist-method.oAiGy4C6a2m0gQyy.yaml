@@ -1,0 +1,30 @@
+_id: oAiGy4C6a2m0gQyy
+_key: '!items!oAiGy4C6a2m0gQyy'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Vitalist Method
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Vitalist
+  description:
+    value: >-
+      <p><b>Vitalist&nbsp;Method:</b>All&nbsp;vitalists&nbsp;must&nbsp;choose&nbsp;a&nbsp;particular&nbsp;method&nbsp;that&nbsp;encompasses&nbsp;their&nbsp;focus&nbsp;in&nbsp;the&nbsp;skills&nbsp;they&nbsp;develop.&nbsp;As&nbsp;they&nbsp;gain&nbsp;in&nbsp;level,&nbsp;their&nbsp;method&nbsp;determines&nbsp;the&nbsp;abilities&nbsp;they&nbsp;gain.
+
+      </p>
+
+      <dl><dd><div&nbsp;class="va-hatnote-text"><i></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 57–61
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 69–72
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: vitalist-method
+type: feat

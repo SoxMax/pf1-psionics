@@ -5,7 +5,6 @@ _stats:
 img: systems/pf1/icons/items/inventory/brain-purple.png
 name: Dread
 system:
-  armorProf: []
   bab: low
   classSkills:
     acr: false
@@ -48,65 +47,35 @@ system:
     swm: false
     umd: false
   description:
-    summary: ''
-    value: </p><p>Most creatures must learn to deal with fear in some fashion. For some, it is confronting and overcoming their fears. For others, it is always running away. For the dread, it is using her fear as a weapon, it is understanding how fear works and manipulating the fears of others in unusual and devastating ways. The dread is the master of fear and terror. </p><p><b>Role:</b> A dread is an opponent on the battlefield who can turn the bravest of enemies into a sniveling coward with but a touch. Combining moderate manifesting ability with destructive melee attacks, the dread is a dangerous opponent to ignore. Out of combat, the dread uses fear and intimidation to manipulate or bully others into the path she deems best. </p><p><b>Alignment:</b> Any </p><p><b>Hit Die:</b> d8 </p><p><b>Starting Wealth:</b> 3d6 x 10 (average 105 gp). In addition, each character begins play with an outfit worth 10 gp or less. </p><p><b>Class Skills:</b> The dread's class skills (and the key ability for each skill) are Acrobatics (Dex), Autohypnosis (Wis), Bluff (Cha), Climb (Str), Craft (Int), Escape Artist (Dex), Intimidate (Cha), Knowledge (psionics) (Int), Perception (Wis), Stealth (Dex), Profession (Wis), Sense Motive (Wis), Spellcraft (Int), and Swim (Str). </p><p><b>Skill Points Per Level:</b> 6 + Int modifier. </p>
+    value: >-
+      </p><p>Most&nbsp;creatures&nbsp;must&nbsp;learn&nbsp;to&nbsp;deal&nbsp;with&nbsp;fear&nbsp;in&nbsp;some&nbsp;fashion.&nbsp;For&nbsp;some,&nbsp;it&nbsp;is&nbsp;confronting&nbsp;and&nbsp;overcoming&nbsp;their&nbsp;fears.&nbsp;For&nbsp;others,&nbsp;it&nbsp;is&nbsp;always&nbsp;running&nbsp;away.&nbsp;For&nbsp;the&nbsp;dread,&nbsp;it&nbsp;is&nbsp;using&nbsp;her&nbsp;fear&nbsp;as&nbsp;a&nbsp;weapon,&nbsp;it&nbsp;is&nbsp;understanding&nbsp;how&nbsp;fear&nbsp;works&nbsp;and&nbsp;manipulating&nbsp;the&nbsp;fears&nbsp;of&nbsp;others&nbsp;in&nbsp;unusual&nbsp;and&nbsp;devastating&nbsp;ways.&nbsp;The&nbsp;dread&nbsp;is&nbsp;the&nbsp;master&nbsp;of&nbsp;fear&nbsp;and&nbsp;terror.&nbsp;</p><p><b>Role:</b>&nbsp;A&nbsp;dread&nbsp;is&nbsp;an&nbsp;opponent&nbsp;on&nbsp;the&nbsp;battlefield&nbsp;who&nbsp;can&nbsp;turn&nbsp;the&nbsp;bravest&nbsp;of&nbsp;enemies&nbsp;into&nbsp;a&nbsp;sniveling&nbsp;coward&nbsp;with&nbsp;but&nbsp;a&nbsp;touch.&nbsp;Combining&nbsp;moderate&nbsp;manifesting&nbsp;ability&nbsp;with&nbsp;destructive&nbsp;melee&nbsp;attacks,&nbsp;the&nbsp;dread&nbsp;is&nbsp;a&nbsp;dangerous&nbsp;opponent&nbsp;to&nbsp;ignore.&nbsp;Out&nbsp;of&nbsp;combat,&nbsp;the&nbsp;dread&nbsp;uses&nbsp;fear&nbsp;and&nbsp;intimidation&nbsp;to&nbsp;manipulate&nbsp;or&nbsp;bully&nbsp;others&nbsp;into&nbsp;the&nbsp;path&nbsp;she&nbsp;deems&nbsp;best.&nbsp;</p><p><b>Alignment:</b>&nbsp;Any&nbsp;</p><p><b>Hit&nbsp;Die:</b>&nbsp;d8&nbsp;</p><p><b>Starting&nbsp;Wealth:</b>&nbsp;3d6&nbsp;x&nbsp;10&nbsp;(average&nbsp;105&nbsp;gp).&nbsp;In&nbsp;addition,&nbsp;each&nbsp;character&nbsp;begins&nbsp;play&nbsp;with&nbsp;an&nbsp;outfit&nbsp;worth&nbsp;10&nbsp;gp&nbsp;or&nbsp;less.&nbsp;</p><p><b>Class&nbsp;Skills:</b>&nbsp;The&nbsp;dread's&nbsp;class&nbsp;skills&nbsp;(and&nbsp;the&nbsp;key&nbsp;ability&nbsp;for&nbsp;each&nbsp;skill)&nbsp;are&nbsp;Acrobatics&nbsp;(Dex),&nbsp;Autohypnosis&nbsp;(Wis),&nbsp;Bluff&nbsp;(Cha),&nbsp;Climb&nbsp;(Str),&nbsp;Craft&nbsp;(Int),&nbsp;Escape&nbsp;Artist&nbsp;(Dex),&nbsp;Intimidate&nbsp;(Cha),&nbsp;Knowledge&nbsp;(psionics)&nbsp;(Int),&nbsp;Perception&nbsp;(Wis),&nbsp;Stealth&nbsp;(Dex),&nbsp;Profession&nbsp;(Wis),&nbsp;Sense&nbsp;Motive&nbsp;(Wis),&nbsp;Spellcraft&nbsp;(Int),&nbsp;and&nbsp;Swim&nbsp;(Str).&nbsp;</p><p><b>Skill&nbsp;Points&nbsp;Per&nbsp;Level:</b>&nbsp;6&nbsp;+&nbsp;Int&nbsp;modifier.&nbsp;</p>
   hd: 6
   hp: 6
   level: 1
   links:
     classAssociations:
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.EC4iUYqyakGOmmAW
+        uuid: Compendium.pf1-psionics.class-abilities.Item.AMAmiCQGs20UA262
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.kcowOauc2SCMwamC
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Myg4kakkAocumuq2
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.M0qkmkcei6eAcyeY
+        uuid: Compendium.pf1-psionics.class-abilities.Item.QsuGOWoCOGMe4o62
       - level: 2
         uuid: Compendium.pf1-psionics.class-abilities.Item.WyoSIc6uCImuyEAk
       - level: 3
-        uuid: Compendium.pf1-psionics.class-abilities.Item.MUyIImYYC4C0uM2s
+        uuid: Compendium.pf1-psionics.class-abilities.Item.WGwGCUimAqsgCE4w
       - level: 3
-        uuid: Compendium.pf1-psionics.class-abilities.Item.UsOCSaMUSiWm2CKg
-      - level: 4
-        uuid: Compendium.pf1-psionics.class-abilities.Item.WyoSIc6uCImuyEAk
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Iu4YgQgSmcCqIAGS
       - level: 5
-        uuid: Compendium.pf1-psionics.class-abilities.Item.0uWY0KYCCA8sOooy
-      - level: 6
-        uuid: Compendium.pf1-psionics.class-abilities.Item.WyoSIc6uCImuyEAk
+        uuid: Compendium.pf1-psionics.class-abilities.Item.us0wMOeuyC0EU2Wc
       - level: 7
-        uuid: Compendium.pf1-psionics.class-abilities.Item.6K2A4Qk6mYwCsS8a
-      - level: 8
-        uuid: Compendium.pf1-psionics.class-abilities.Item.WyoSIc6uCImuyEAk
-      - level: 9
-        uuid: Compendium.pf1-psionics.class-abilities.Item.0uWY0KYCCA8sOooy
-      - level: 10
-        uuid: Compendium.pf1-psionics.class-abilities.Item.WyoSIc6uCImuyEAk
+        uuid: Compendium.pf1-psionics.class-abilities.Item.CMiK4ggm6mY4WImY
       - level: 11
-        uuid: Compendium.pf1-psionics.class-abilities.Item.IwcSQSE8UKuM0A6S
+        uuid: Compendium.pf1-psionics.class-abilities.Item.CuyA80QCGmKywwmA
       - level: 11
-        uuid: Compendium.pf1-psionics.class-abilities.Item.eOmhkEwaiEum0moc
-      - level: 12
-        uuid: Compendium.pf1-psionics.class-abilities.Item.WyoSIc6uCImuyEAk
-      - level: 13
-        uuid: Compendium.pf1-psionics.class-abilities.Item.0uWY0KYCCA8sOooy
-      - level: 14
-        uuid: Compendium.pf1-psionics.class-abilities.Item.WyoSIc6uCImuyEAk
-      - level: 15
-        uuid: Compendium.pf1-psionics.class-abilities.Item.IwcSQSE8UKuM0A6S
-      - level: 15
-        uuid: Compendium.pf1-psionics.class-abilities.Item.eOmhkEwaiEum0moc
-      - level: 16
-        uuid: Compendium.pf1-psionics.class-abilities.Item.WyoSIc6uCImuyEAk
-      - level: 17
-        uuid: Compendium.pf1-psionics.class-abilities.Item.0uWY0KYCCA8sOooy
-      - level: 18
-        uuid: Compendium.pf1-psionics.class-abilities.Item.WyoSIc6uCImuyEAk
-      - level: 19
-        uuid: Compendium.pf1-psionics.class-abilities.Item.IwcSQSE8UKuM0A6S
+        uuid: Compendium.pf1-psionics.class-abilities.Item.osCmSc8K8Wwig8ow
       - level: 20
-        uuid: Compendium.pf1-psionics.class-abilities.Item.s2MQKA4gQSyQek6O
-      - level: 20
-        uuid: Compendium.pf1-psionics.class-abilities.Item.eeaQ4w0cKEOiMEIc
+        uuid: Compendium.pf1-psionics.class-abilities.Item.uysmiGOa6MO8KcIq
   manifesting:
     ability: wis
     cantrips: true

@@ -1,0 +1,28 @@
+_id: SQkWIoG68QKQqkEm
+_key: '!items!SQkWIoG68QKQqkEm'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Enhanced Disruption
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: >-
+      <p><b>Enhanced&nbsp;Disruption:</b>At&nbsp;3rd&nbsp;level&nbsp;and&nbsp;every&nbsp;two&nbsp;levels&nbsp;thereafter,&nbsp;the&nbsp;cryptic's&nbsp;disrupt&nbsp;pattern&nbsp;deals&nbsp;an&nbsp;additional&nbsp;1d6&nbsp;points&nbsp;of&nbsp;damage.&nbsp;This&nbsp;additional&nbsp;damage&nbsp;is&nbsp;not&nbsp;multiplied&nbsp;on&nbsp;a&nbsp;critical&nbsp;hit&nbsp;or&nbsp;by&nbsp;using&nbsp;feats&nbsp;such&nbsp;as&nbsp;Vital&nbsp;Strike,&nbsp;but&nbsp;it&nbsp;is&nbsp;halved&nbsp;if&nbsp;the&nbsp;creature&nbsp;struck&nbsp;is&nbsp;not&nbsp;of&nbsp;the&nbsp;cryptic's&nbsp;active&nbsp;creature&nbsp;type.
+
+      </p><p></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 36–42
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 34–40
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: enhanced-disruption
+type: feat

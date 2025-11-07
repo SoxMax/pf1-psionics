@@ -1,0 +1,24 @@
+_id: S0iUQKSqWw2MO8Uy
+_key: '!items!S0iUQKSqWw2MO8Uy'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Uncanny Dodge
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: >-
+      <p><b>Uncanny&nbsp;Dodge:</b>Starting&nbsp;at&nbsp;6th&nbsp;level,&nbsp;a&nbsp;voyager&nbsp;can&nbsp;react&nbsp;to&nbsp;danger&nbsp;before&nbsp;her&nbsp;senses&nbsp;would&nbsp;normally&nbsp;allow&nbsp;her&nbsp;to&nbsp;do&nbsp;so.&nbsp;She&nbsp;cannot&nbsp;be&nbsp;caught&nbsp;flat-footed,&nbsp;nor&nbsp;does&nbsp;she&nbsp;lose&nbsp;her&nbsp;Dex&nbsp;bonus&nbsp;to&nbsp;AC&nbsp;if&nbsp;the&nbsp;attacker&nbsp;is&nbsp;invisible.&nbsp;She&nbsp;still&nbsp;loses&nbsp;her&nbsp;Dexterity&nbsp;bonus&nbsp;to&nbsp;AC&nbsp;if&nbsp;immobilized.&nbsp;A&nbsp;voyager&nbsp;with&nbsp;this&nbsp;ability&nbsp;can&nbsp;still&nbsp;lose&nbsp;her&nbsp;Dexterity&nbsp;bonus&nbsp;to&nbsp;AC&nbsp;if&nbsp;an&nbsp;opponent&nbsp;successfully&nbsp;uses&nbsp;the&nbsp;feint&nbsp;action&nbsp;(see&nbsp;Combat)&nbsp;against&nbsp;her.If&nbsp;a&nbsp;voyager&nbsp;already&nbsp;has&nbsp;uncanny&nbsp;dodge&nbsp;from&nbsp;a&nbsp;different&nbsp;class,&nbsp;she&nbsp;automatically&nbsp;gains&nbsp;improved&nbsp;uncanny&nbsp;dodge&nbsp;(see&nbsp;below)&nbsp;instead.
+
+      </p><p></p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
+  subType: classFeat
+  tag: uncanny-dodge
+type: feat

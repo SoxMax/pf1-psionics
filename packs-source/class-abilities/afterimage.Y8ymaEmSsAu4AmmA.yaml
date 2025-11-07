@@ -1,0 +1,30 @@
+_id: Y8ymaEmSsAu4AmmA
+_key: '!items!Y8ymaEmSsAu4AmmA'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Afterimage
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: >-
+      <p><b>Afterimage:</b>At&nbsp;3rd&nbsp;level,&nbsp;the&nbsp;voyager&nbsp;gains&nbsp;some&nbsp;reach&nbsp;with&nbsp;her&nbsp;parallel&nbsp;actions&nbsp;beyond&nbsp;her&nbsp;body.&nbsp;Once&nbsp;per&nbsp;round,&nbsp;as&nbsp;a&nbsp;free&nbsp;action&nbsp;that&nbsp;can&nbsp;be&nbsp;taken&nbsp;at&nbsp;any&nbsp;point&nbsp;during&nbsp;her&nbsp;turn,&nbsp;the&nbsp;voyager&nbsp;can&nbsp;create&nbsp;an&nbsp;afterimage&nbsp;of&nbsp;herself&nbsp;occupying&nbsp;her&nbsp;space,&nbsp;that&nbsp;remains&nbsp;for&nbsp;as&nbsp;long&nbsp;as&nbsp;it&nbsp;is&nbsp;medium&nbsp;range&nbsp;(100&nbsp;feet&nbsp;+&nbsp;10&nbsp;feet&nbsp;per&nbsp;class&nbsp;level)&nbsp;of&nbsp;herself.&nbsp;An&nbsp;afterimage&nbsp;does&nbsp;nothing&nbsp;by&nbsp;itself&nbsp;but&nbsp;denote&nbsp;the&nbsp;location&nbsp;its&nbsp;source&nbsp;occupied,&nbsp;and&nbsp;provide&nbsp;a&nbsp;vector&nbsp;for&nbsp;the&nbsp;voyager's&nbsp;parallel&nbsp;actions.&nbsp;Afterimages&nbsp;do&nbsp;not&nbsp;block&nbsp;creatures&nbsp;from&nbsp;passing&nbsp;through&nbsp;or&nbsp;occupying&nbsp;the&nbsp;space&nbsp;they&nbsp;occupy.&nbsp;The&nbsp;voyager&nbsp;can&nbsp;dismiss&nbsp;her&nbsp;afterimage&nbsp;as&nbsp;a&nbsp;free&nbsp;action.&nbsp;A&nbsp;voyager&nbsp;can&nbsp;only&nbsp;have&nbsp;one&nbsp;afterimage&nbsp;of&nbsp;herself&nbsp;at&nbsp;a&nbsp;time,&nbsp;and&nbsp;creating&nbsp;a&nbsp;new&nbsp;one&nbsp;causes&nbsp;older&nbsp;afterimages&nbsp;to&nbsp;disappear.&nbsp;Leaving&nbsp;the&nbsp;range&nbsp;of&nbsp;an&nbsp;afterimage&nbsp;also&nbsp;causes&nbsp;it&nbsp;to&nbsp;disappear.
+
+      </p><p>Afterimages&nbsp;serve&nbsp;as&nbsp;an&nbsp;additional&nbsp;vector&nbsp;for&nbsp;the&nbsp;voyager's&nbsp;parallel&nbsp;actions,&nbsp;besides&nbsp;her&nbsp;own&nbsp;position.&nbsp;She&nbsp;can&nbsp;treat&nbsp;her&nbsp;afterimage's&nbsp;position&nbsp;as&nbsp;if&nbsp;it&nbsp;were&nbsp;her&nbsp;own&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of&nbsp;determining&nbsp;her&nbsp;range&nbsp;with&nbsp;parallel&nbsp;actions.&nbsp;For&nbsp;example,&nbsp;this&nbsp;would&nbsp;allow&nbsp;her&nbsp;to&nbsp;use&nbsp;a&nbsp;parallel&nbsp;action&nbsp;that&nbsp;normally&nbsp;affects&nbsp;a&nbsp;creature&nbsp;adjacent&nbsp;to&nbsp;her,&nbsp;to&nbsp;affect&nbsp;a&nbsp;creature&nbsp;adjacent&nbsp;to&nbsp;her&nbsp;afterimage.
+
+      </p><p>At&nbsp;the&nbsp;beginning&nbsp;of&nbsp;her&nbsp;parallel&nbsp;turn,&nbsp;the&nbsp;voyager&nbsp;can&nbsp;move&nbsp;her&nbsp;afterimage&nbsp;a&nbsp;distance&nbsp;up&nbsp;to&nbsp;15&nbsp;feet&nbsp;+&nbsp;5&nbsp;feet&nbsp;per&nbsp;3&nbsp;additional&nbsp;class&nbsp;levels&nbsp;past&nbsp;3rd&nbsp;level.&nbsp;Her&nbsp;afterimage&nbsp;can&nbsp;move&nbsp;in&nbsp;any&nbsp;direction,&nbsp;and&nbsp;is&nbsp;not&nbsp;impaired&nbsp;by&nbsp;difficult&nbsp;terrain.&nbsp;However,&nbsp;it&nbsp;cannot&nbsp;pass&nbsp;through&nbsp;obstacles&nbsp;that&nbsp;the&nbsp;voyager&nbsp;could&nbsp;not&nbsp;pass&nbsp;through.
+
+      </p><p>An&nbsp;afterimage&nbsp;usually&nbsp;resembles&nbsp;a&nbsp;ghostly&nbsp;form&nbsp;of&nbsp;the&nbsp;voyager&nbsp;(though&nbsp;due&nbsp;to&nbsp;her&nbsp;nature,&nbsp;they&nbsp;may&nbsp;appear&nbsp;different&nbsp;from&nbsp;herself).&nbsp;In&nbsp;all&nbsp;cases,&nbsp;afterimages&nbsp;are&nbsp;translucent&nbsp;and&nbsp;allow&nbsp;viewers&nbsp;to&nbsp;see&nbsp;through&nbsp;them,&nbsp;displaying&nbsp;their&nbsp;unreal&nbsp;nature&nbsp;like&nbsp;a&nbsp;disbelieved&nbsp;phantom&nbsp;or&nbsp;figment.&nbsp;If&nbsp;the&nbsp;voyager&nbsp;is&nbsp;currently&nbsp;using&nbsp;Stealth,&nbsp;she&nbsp;can&nbsp;have&nbsp;her&nbsp;afterimages&nbsp;do&nbsp;so&nbsp;as&nbsp;well,&nbsp;so&nbsp;long&nbsp;as&nbsp;they&nbsp;are&nbsp;in&nbsp;positions&nbsp;where&nbsp;they&nbsp;could&nbsp;hide.&nbsp;If&nbsp;she&nbsp;does,&nbsp;they&nbsp;use&nbsp;the&nbsp;same&nbsp;roll&nbsp;and&nbsp;result&nbsp;as&nbsp;the&nbsp;voyager's&nbsp;Stealth&nbsp;check.
+
+      </p><p></p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
+  subType: classFeat
+  tag: afterimage
+type: feat

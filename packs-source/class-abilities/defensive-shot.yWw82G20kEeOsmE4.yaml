@@ -1,0 +1,28 @@
+_id: yWw82G20kEeOsmE4
+_key: '!items!yWw82G20kEeOsmE4'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Defensive Shot
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Marksman
+  description:
+    value: >-
+      <p><b>Defensive&nbsp;Shot:</b>At&nbsp;13th&nbsp;level,&nbsp;a&nbsp;Marksman&nbsp;no&nbsp;longer&nbsp;provokes&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;when&nbsp;making&nbsp;ranged&nbsp;attacks&nbsp;with&nbsp;a&nbsp;ranged&nbsp;or&nbsp;thrown&nbsp;weapon.
+
+      </p><p></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 47–50
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 44–46
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: defensive-shot
+type: feat

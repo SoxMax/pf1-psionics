@@ -10,9 +10,18 @@ system:
     classes:
       - Dread
   description:
-    value: |-
-      <p><b>Terror:</b> Beginning at 2nd level, a dread learns to harness the power of fear in a variety of ways called terrors. Using a terror is a swift action. Some terrors are channelled through her devastating touch class feature. These terrors charge a dread's touch (and later her weapon) until her next successful attack that round.
+    value: >-
+      <p><b>Terror:</b>Beginning&nbsp;at&nbsp;2nd&nbsp;level,&nbsp;a&nbsp;dread&nbsp;learns&nbsp;to&nbsp;harness&nbsp;the&nbsp;power&nbsp;of&nbsp;fear&nbsp;in&nbsp;a&nbsp;variety&nbsp;of&nbsp;ways&nbsp;called&nbsp;terrors.&nbsp;Using&nbsp;a&nbsp;terror&nbsp;is&nbsp;a&nbsp;swift&nbsp;action.&nbsp;Some&nbsp;terrors&nbsp;are&nbsp;channelled&nbsp;through&nbsp;her&nbsp;devastating&nbsp;touch&nbsp;class&nbsp;feature.&nbsp;These&nbsp;terrors&nbsp;charge&nbsp;a&nbsp;dread's&nbsp;touch&nbsp;(and&nbsp;later&nbsp;her&nbsp;weapon)&nbsp;until&nbsp;her&nbsp;next&nbsp;successful&nbsp;attack&nbsp;that&nbsp;round.
+
+      </p><p>Some&nbsp;terrors&nbsp;can&nbsp;be&nbsp;augmented&nbsp;by&nbsp;spending&nbsp;power&nbsp;points,&nbsp;similar&nbsp;to&nbsp;manifesting&nbsp;powers,&nbsp;to&nbsp;increase&nbsp;their&nbsp;effect.&nbsp;When&nbsp;augmenting&nbsp;her&nbsp;terrors&nbsp;with&nbsp;power&nbsp;points,&nbsp;the&nbsp;dread&nbsp;cannot&nbsp;spend&nbsp;more&nbsp;power&nbsp;points&nbsp;than&nbsp;her&nbsp;manifester&nbsp;level&nbsp;on&nbsp;any&nbsp;single&nbsp;use&nbsp;of&nbsp;a&nbsp;terror.
+
+      </p><p>A&nbsp;dread&nbsp;can&nbsp;use&nbsp;her&nbsp;terrors&nbsp;a&nbsp;total&nbsp;number&nbsp;of&nbsp;times&nbsp;per&nbsp;day&nbsp;equal&nbsp;to&nbsp;her&nbsp;dread&nbsp;level&nbsp;+&nbsp;her&nbsp;Charisma&nbsp;modifier.
+
+      </p><p>All&nbsp;terrors&nbsp;may&nbsp;only&nbsp;be&nbsp;chosen&nbsp;once&nbsp;unless&nbsp;otherwise&nbsp;specified.
+
       </p>
+
+      <dl><dd><div&nbsp;class="va-hatnote-text"><i></p>
   sources:
     - date: '2012-07-23'
       pages: 43–47

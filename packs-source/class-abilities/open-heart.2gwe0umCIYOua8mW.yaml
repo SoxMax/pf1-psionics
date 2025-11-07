@@ -1,0 +1,24 @@
+_id: 2gwe0umCIYOua8mW
+_key: '!items!2gwe0umCIYOua8mW'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Open Heart
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Highlord
+  description:
+    value: >-
+      <p><b>Open&nbsp;Heart:</b>A&nbsp;highlord's&nbsp;collective&nbsp;is&nbsp;more&nbsp;than&nbsp;just&nbsp;a&nbsp;link;&nbsp;when&nbsp;he&nbsp;touches&nbsp;the&nbsp;mind&nbsp;of&nbsp;another,&nbsp;he&nbsp;shares&nbsp;a&nbsp;part&nbsp;of&nbsp;himself,&nbsp;his&nbsp;core,&nbsp;driving&nbsp;goals&nbsp;and&nbsp;desires.&nbsp;To&nbsp;members&nbsp;of&nbsp;his&nbsp;collective,&nbsp;a&nbsp;highlord's&nbsp;psionic&nbsp;powers&nbsp;are&nbsp;unmistakably&nbsp;<i>his</i>,&nbsp;bearing&nbsp;sensory&nbsp;displays&nbsp;unique&nbsp;to&nbsp;the&nbsp;highlord&nbsp;instead&nbsp;of&nbsp;their&nbsp;normal&nbsp;appearances.&nbsp;The&nbsp;appearance&nbsp;of&nbsp;a&nbsp;highlord's&nbsp;powers&nbsp;is&nbsp;tied&nbsp;to&nbsp;what&nbsp;the&nbsp;highlord&nbsp;values—common&nbsp;displays&nbsp;are&nbsp;flowing&nbsp;streams&nbsp;of&nbsp;blood,&nbsp;coins,&nbsp;or&nbsp;other&nbsp;materials,&nbsp;sounds&nbsp;of&nbsp;the&nbsp;highlord's&nbsp;home&nbsp;and&nbsp;those&nbsp;he&nbsp;cares&nbsp;about,&nbsp;or&nbsp;similarly&nbsp;important&nbsp;things.&nbsp;Though&nbsp;these&nbsp;displays&nbsp;don't&nbsp;grant&nbsp;the&nbsp;highlord's&nbsp;collective&nbsp;members&nbsp;any&nbsp;unique&nbsp;insight&nbsp;into&nbsp;the&nbsp;effects&nbsp;of&nbsp;his&nbsp;powers,&nbsp;they&nbsp;do&nbsp;share&nbsp;knowledge&nbsp;of&nbsp;something&nbsp;important&nbsp;to&nbsp;the&nbsp;highlord.
+
+      </p><p></p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–6
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: classFeat
+  tag: open-heart
+type: feat

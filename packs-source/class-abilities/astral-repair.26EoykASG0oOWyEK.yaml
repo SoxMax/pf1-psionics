@@ -1,0 +1,28 @@
+_id: 26EoykASG0oOWyEK
+_key: '!items!26EoykASG0oOWyEK'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Astral Repair
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Aegis
+  description:
+    value: >-
+      <p><b>Astral&nbsp;Repair:</b>An&nbsp;aegis&nbsp;is&nbsp;capable&nbsp;of&nbsp;repairing&nbsp;mundane&nbsp;items,&nbsp;restoring&nbsp;2&nbsp;hit&nbsp;points&nbsp;of&nbsp;damage&nbsp;to&nbsp;the&nbsp;touched&nbsp;item&nbsp;as&nbsp;a&nbsp;standard&nbsp;action&nbsp;usable&nbsp;at&nbsp;will.&nbsp;If&nbsp;the&nbsp;object&nbsp;has&nbsp;the&nbsp;broken&nbsp;condition,&nbsp;this&nbsp;condition&nbsp;is&nbsp;removed&nbsp;if&nbsp;the&nbsp;object&nbsp;is&nbsp;restored&nbsp;to&nbsp;at&nbsp;least&nbsp;half&nbsp;its&nbsp;original&nbsp;hit&nbsp;points.&nbsp;All&nbsp;of&nbsp;the&nbsp;pieces&nbsp;of&nbsp;an&nbsp;object&nbsp;must&nbsp;be&nbsp;present&nbsp;for&nbsp;this&nbsp;ability&nbsp;to&nbsp;function.&nbsp;This&nbsp;ability&nbsp;has&nbsp;no&nbsp;effect&nbsp;on&nbsp;objects&nbsp;that&nbsp;have&nbsp;been&nbsp;warped&nbsp;or&nbsp;otherwise&nbsp;transmuted,&nbsp;but&nbsp;it&nbsp;can&nbsp;still&nbsp;repair&nbsp;damage&nbsp;done&nbsp;to&nbsp;such&nbsp;items.
+
+      </p><p></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 27–31
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 28–30
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: astral-repair
+type: feat

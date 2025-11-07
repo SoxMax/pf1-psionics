@@ -1,0 +1,30 @@
+_id: osCmSc8K8Wwig8ow
+_key: '!items!osCmSc8K8Wwig8ow'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Twin Fear
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Dread
+  description:
+    value: >-
+      <p><b>Twin&nbsp;Fear:</b>When&nbsp;a&nbsp;dread&nbsp;of&nbsp;at&nbsp;least&nbsp;11th&nbsp;level&nbsp;has&nbsp;a&nbsp;shadow&nbsp;twin&nbsp;active,&nbsp;if&nbsp;any&nbsp;creature&nbsp;within&nbsp;30&nbsp;ft.&nbsp;of&nbsp;the&nbsp;dread&nbsp;or&nbsp;the&nbsp;shadow&nbsp;twin&nbsp;suffers&nbsp;from&nbsp;the&nbsp;shaken,&nbsp;frightened,&nbsp;or&nbsp;panicked&nbsp;condition&nbsp;at&nbsp;the&nbsp;start&nbsp;of&nbsp;the&nbsp;dread's&nbsp;turn,&nbsp;the&nbsp;shadow&nbsp;twin&nbsp;uses&nbsp;a&nbsp;separate&nbsp;action&nbsp;pool&nbsp;instead&nbsp;of&nbsp;sharing&nbsp;the&nbsp;round's&nbsp;actions&nbsp;with&nbsp;the&nbsp;dread&nbsp;for&nbsp;that&nbsp;round.&nbsp;This&nbsp;means&nbsp;that&nbsp;it&nbsp;and&nbsp;the&nbsp;dread&nbsp;could&nbsp;both&nbsp;make&nbsp;attacks&nbsp;in&nbsp;the&nbsp;same&nbsp;round.
+
+      </p><p>At&nbsp;15th&nbsp;level,&nbsp;if&nbsp;any&nbsp;creature&nbsp;within&nbsp;30&nbsp;ft.&nbsp;of&nbsp;the&nbsp;dread&nbsp;or&nbsp;shadow&nbsp;twin&nbsp;suffers&nbsp;from&nbsp;the&nbsp;frightened&nbsp;or&nbsp;panicked&nbsp;condition,&nbsp;the&nbsp;shadow&nbsp;twin&nbsp;is&nbsp;treated&nbsp;as&nbsp;if&nbsp;under&nbsp;the&nbsp;affect&nbsp;of&nbsp;the&nbsp;<a&nbsp;href="/wiki/Form_of_Doom"&nbsp;class="mw-redirect"&nbsp;title="Form&nbsp;of&nbsp;Doom">form&nbsp;of&nbsp;doom</a>&nbsp;power.&nbsp;Unlike&nbsp;other&nbsp;effects,&nbsp;the&nbsp;dread&nbsp;is&nbsp;not&nbsp;also&nbsp;under&nbsp;this&nbsp;effect.
+
+      </p><p></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 43–47
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 40–44
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: twin-fear
+type: feat

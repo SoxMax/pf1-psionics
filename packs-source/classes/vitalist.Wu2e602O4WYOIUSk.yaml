@@ -2,7 +2,7 @@ _id: Wu2e602O4WYOIUSk
 _key: '!items!Wu2e602O4WYOIUSk'
 _stats:
   coreVersion: '13.350'
-img: systems/pf1/icons/spells/heal-jade-2.jpg
+img: systems/pf1/icons/items/inventory/brain-purple.png
 name: Vitalist
 system:
   armorProf:
@@ -49,75 +49,49 @@ system:
     swm: false
     umd: false
   description:
-    summary: ''
-    value: '</p><p>Where the egoist is the master of his own body through the power of psychometabolism, vitalists blend the disciplines of telepathy, psychometabolism, and clairsentience to pool multiple creatures into a larger collective of beings, sharing the health of the many to keep each individual well. They are the masters of psionic healing, distributing regenerative energy with the precision of a surgeon. A vitalist''s psionic powers and his collective are his most vital abilities. </p><p><b>Role:</b> Regardless of their chosen method, all vitalists can act as the party medic: healing wounds, curing ailments, and augmenting the physical form. The method in which they perform this role varies from vitalist to vitalist. As light armor wearers with minimal combat skill, vitalists are typically not found on the front line of battle. Helping his allies – whether by healing them or making your enemies weaker – is what a vitalist does best. </p><p><b>Alignment:</b> Any. </p><p><b>Hit Die:</b> d6. </p><p><b>Starting Wealth:</b> 4d4 x 10 gp (average 100 gp.) In addition, each character begins play with an outfit worth 10 gp or less. </p><p><b>Class Skills: </b>The vitalist''s class skills are Autohypnosis, Bluff, Craft, Diplomacy, Heal, Intimidate, Knowledge (history), Knowledge (local), Knowledge (psionics), Linguistics, Perception, Perform, Profession, Sense Motive, Spellcraft, and Survival. </p><p><b>Skill Ranks per Level:</b> 2 + Int modifier. </p>'
+    value: >-
+      </p><p>Where&nbsp;the&nbsp;egoist&nbsp;is&nbsp;the&nbsp;master&nbsp;of&nbsp;his&nbsp;own&nbsp;body&nbsp;through&nbsp;the&nbsp;power&nbsp;of&nbsp;psychometabolism,&nbsp;vitalists&nbsp;blend&nbsp;the&nbsp;disciplines&nbsp;of&nbsp;telepathy,&nbsp;psychometabolism,&nbsp;and&nbsp;clairsentience&nbsp;to&nbsp;pool&nbsp;multiple&nbsp;creatures&nbsp;into&nbsp;a&nbsp;larger&nbsp;collective&nbsp;of&nbsp;beings,&nbsp;sharing&nbsp;the&nbsp;health&nbsp;of&nbsp;the&nbsp;many&nbsp;to&nbsp;keep&nbsp;each&nbsp;individual&nbsp;well.&nbsp;They&nbsp;are&nbsp;the&nbsp;masters&nbsp;of&nbsp;psionic&nbsp;healing,&nbsp;distributing&nbsp;regenerative&nbsp;energy&nbsp;with&nbsp;the&nbsp;precision&nbsp;of&nbsp;a&nbsp;surgeon.&nbsp;A&nbsp;vitalist's&nbsp;psionic&nbsp;powers&nbsp;and&nbsp;his&nbsp;collective&nbsp;are&nbsp;his&nbsp;most&nbsp;vital&nbsp;abilities.&nbsp;</p><p><b>Role:</b>&nbsp;Regardless&nbsp;of&nbsp;their&nbsp;chosen&nbsp;method,&nbsp;all&nbsp;vitalists&nbsp;can&nbsp;act&nbsp;as&nbsp;the&nbsp;party&nbsp;medic:&nbsp;healing&nbsp;wounds,&nbsp;curing&nbsp;ailments,&nbsp;and&nbsp;augmenting&nbsp;the&nbsp;physical&nbsp;form.&nbsp;The&nbsp;method&nbsp;in&nbsp;which&nbsp;they&nbsp;perform&nbsp;this&nbsp;role&nbsp;varies&nbsp;from&nbsp;vitalist&nbsp;to&nbsp;vitalist.&nbsp;As&nbsp;light&nbsp;armor&nbsp;wearers&nbsp;with&nbsp;minimal&nbsp;combat&nbsp;skill,&nbsp;vitalists&nbsp;are&nbsp;typically&nbsp;not&nbsp;found&nbsp;on&nbsp;the&nbsp;front&nbsp;line&nbsp;of&nbsp;battle.&nbsp;Helping&nbsp;his&nbsp;allies&nbsp;–&nbsp;whether&nbsp;by&nbsp;healing&nbsp;them&nbsp;or&nbsp;making&nbsp;your&nbsp;enemies&nbsp;weaker&nbsp;–&nbsp;is&nbsp;what&nbsp;a&nbsp;vitalist&nbsp;does&nbsp;best.&nbsp;</p><p><b>Alignment:</b>&nbsp;Any.&nbsp;</p><p><b>Hit&nbsp;Die:</b>&nbsp;d6.&nbsp;</p><p><b>Starting&nbsp;Wealth:</b>&nbsp;4d4&nbsp;x&nbsp;10&nbsp;gp&nbsp;(average&nbsp;100&nbsp;gp.)&nbsp;In&nbsp;addition,&nbsp;each&nbsp;character&nbsp;begins&nbsp;play&nbsp;with&nbsp;an&nbsp;outfit&nbsp;worth&nbsp;10&nbsp;gp&nbsp;or&nbsp;less.&nbsp;</p><p><b>Class&nbsp;Skills:&nbsp;</b>The&nbsp;vitalist's&nbsp;class&nbsp;skills&nbsp;are&nbsp;Autohypnosis,&nbsp;Bluff,&nbsp;Craft,&nbsp;Diplomacy,&nbsp;Heal,&nbsp;Intimidate,&nbsp;Knowledge&nbsp;(history),&nbsp;Knowledge&nbsp;(local),&nbsp;Knowledge&nbsp;(psionics),&nbsp;Linguistics,&nbsp;Perception,&nbsp;Perform,&nbsp;Profession,&nbsp;Sense&nbsp;Motive,&nbsp;Spellcraft,&nbsp;and&nbsp;Survival.&nbsp;</p><p><b>Skill&nbsp;Ranks&nbsp;per&nbsp;Level:</b>&nbsp;2&nbsp;+&nbsp;Int&nbsp;modifier.&nbsp;</p>
   hd: 6
   hp: 6
   level: 1
   links:
     classAssociations:
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.GyUykGcEKqE8yA0M
+        uuid: Compendium.pf1-psionics.class-abilities.Item.oAiGy4C6a2m0gQyy
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.owYa6Iq2CK04EWWM
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Ak6eKAMuAiG6ueiQ
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.meUSmQ4suI8cgyu8
+        uuid: Compendium.pf1-psionics.class-abilities.Item.MeoeOOUKGWYW2cSO
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.QcCwcmuiG6Ge8YUA
+        uuid: Compendium.pf1-psionics.class-abilities.Item.q2IYKKGG6oGCIsie
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.meeSoMUS2SoOk6yG
+        uuid: Compendium.pf1-psionics.class-abilities.Item.MyYqku0cUwMQAgYi
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.geiUwM2mUsKmCSK6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.kkcCiMeIYo02AA6y
       - level: 2
-        uuid: Compendium.pf1-psionics.class-abilities.Item.AuQqsYys8W6Q2mim
+        uuid: Compendium.pf1-psionics.class-abilities.Item.gigUC0mgo8qmK46k
       - level: 2
-        uuid: Compendium.pf1-psionics.class-abilities.Item.A8eQkCgimEUwqucI
+        uuid: Compendium.pf1-psionics.class-abilities.Item.gUWqkAc6i26aMgGe
       - level: 2
-        uuid: Compendium.pf1-psionics.class-abilities.Item.2ykG6UeMAUGO6y6I
+        uuid: Compendium.pf1-psionics.class-abilities.Item.4GWcKEm4i6eEusme
       - level: 3
-        uuid: Compendium.pf1-psionics.class-abilities.Item.uIIQI6iOwe0q8iGI
+        uuid: Compendium.pf1-psionics.class-abilities.Item.M4c66GCKAMsE2O0W
       - level: 3
-        uuid: Compendium.pf1-psionics.class-abilities.Item.CwEA80Csm24EYowq
-      - level: 4
-        uuid: Compendium.pf1-psionics.class-abilities.Item.WWw0M2c8AiwYggqA
+        uuid: Compendium.pf1-psionics.class-abilities.Item.yGY6m8LU8m2o4uyq
       - level: 5
-        uuid: Compendium.pf1-psionics.class-abilities.Item.0amyUGe8AmUqMo4k
+        uuid: Compendium.pf1-psionics.class-abilities.Item.C8EY24eUsI88imIq
       - level: 6
         uuid: Compendium.pf1-psionics.class-abilities.Item.uGE2gsCui860w2mm
-      - level: 7
-        uuid: Compendium.pf1-psionics.class-abilities.Item.CaqCCckQ0aSW22qk
-      - level: 7
-        uuid: Compendium.pf1-psionics.class-abilities.Item.yWyCwgIy4GGeUOYm
-      - level: 7
-        uuid: Compendium.pf1-psionics.class-abilities.Item.geiUwM2mUsKmCSK6
       - level: 8
-        uuid: Compendium.pf1-psionics.class-abilities.Item.s3mikAgwEaqs4cwy
+        uuid: Compendium.pf1-psionics.class-abilities.Item.AYEYKkGooC0OkqCe
       - level: 9
         uuid: Compendium.pf1-psionics.class-abilities.Item.gI220IWswyg4ske8
-      - level: 10
-        uuid: Compendium.pf1-psionics.class-abilities.Item.kkcCiMeIYo02AA6y
       - level: 11
         uuid: Compendium.pf1-psionics.class-abilities.Item.u0ckM4oaOUcEkYso
-      - level: 12
-        uuid: Compendium.pf1-psionics.class-abilities.Item.CaqCCckQ0aSW22qk
-      - level: 13
-        uuid: Compendium.pf1-psionics.class-abilities.Item.WWw0M2c8AiwYggqA
       - level: 14
-        uuid: Compendium.pf1-psionics.class-abilities.Item.E4woOIKcGgGkguIy
-      - level: 15
-        uuid: Compendium.pf1-psionics.class-abilities.Item.EAYceqIy8q2GUuCE
-      - level: 16
-        uuid: Compendium.pf1-psionics.class-abilities.Item.WWw0M2c8AiwYggqA
-      - level: 17
-        uuid: Compendium.pf1-psionics.class-abilities.Item.CaqCCckQ0aSW22qk
-      - level: 18
-        uuid: Compendium.pf1-psionics.class-abilities.Item.gI220IWswyg4ske8
-      - level: 19
-        uuid: Compendium.pf1-psionics.class-abilities.Item.WWw0M2c8AiwYggqA
-      - level: 19
-        uuid: Compendium.pf1-psionics.class-abilities.Item.y2ao4QMk0uOAGMOQ
+        uuid: Compendium.pf1-psionics.class-abilities.Item.82OiC2cGqSAOcU8a
       - level: 20
-        uuid: Compendium.pf1-psionics.class-abilities.Item.agMyKAy2uUaIEcUy
+        uuid: Compendium.pf1-psionics.class-abilities.Item.OWq0IYKYyE6KkKig
   manifesting:
     ability: wis
     cantrips: true

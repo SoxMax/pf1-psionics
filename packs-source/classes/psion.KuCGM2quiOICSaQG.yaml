@@ -5,7 +5,6 @@ _stats:
 img: systems/pf1/icons/items/inventory/brain-purple.png
 name: Psion
 system:
-  armorProf: []
   bab: low
   classSkills:
     acr: false
@@ -48,35 +47,19 @@ system:
     swm: false
     umd: false
   description:
-    summary: ''
-    value: '</p><p>The powers of the mind are varied and limitless, and the psion learns how to unlock them. Whether he is a shaper or a telepath, an egoist or a nomad, or even a generalist, the psion learns to manifest psionic powers that alter himself and the world around him. Due to the limited powers that any one psion knows, each psion is unique in his capabilities, as his latent abilities are drawn out and shaped into the psionic powers that define the psion. </p><p>Each psion also gains unique abilities depending on his choice of disciplines: the egoist excels at altering his own physiology, while the nomad learns to manipulate the very fabric of space and time, and the generalist becomes a master of the overall principles of psionics, while sacrificing some of the unique abilities of the other disciplines. </p><p><b>Role:</b> The psion can fulfill a variety of different roles depending upon the power choices he makes. Generalist psions have the greatest versatility of the different psions, while those of a particular discipline excel at the given focus of their chosen specialization. Regardless of their choice, all psions are masters of the powers of the mind and capable of helping their allies against any danger. </p><p><b>Alignment:</b> Any. </p><p><b>Hit Die:</b> d6. </p><p><b>Class Skills:</b> The psion''s class skills are <a href="/wiki/Autohypnosis" title="Autohypnosis">Autohypnosis</a> (Wis), Craft (Int), Knowledge (all skills, taken individually)* (Int), Profession (Wis), and Spellcraft (Int). In addition, a psion gains access to additional class skills based on his discipline: </p> <dl><dd><i><a href="/wiki/Seer" class="mw-redirect" title="Seer">Seer</a> (Clairsentience):</i> Diplomacy (Cha) and Perception (Wis).</dd> <dd><i><a href="/wiki/Metacreativity_(Psion_Discipline)" title="Metacreativity (Psion Discipline)">Shaper</a> (Metacreativity):</i> Bluff (Cha), Disguise (Cha), and Use Magic Device (Cha).</dd> <dd><i><a href="/wiki/Psychokinesis_(Psion_Discipline)" title="Psychokinesis (Psion Discipline)">Kineticist</a> (Psychokinesis):</i> Disable Device (Dex) and Intimidate (Cha).</dd> <dd><i><a href="/wiki/Egoist" class="mw-redirect" title="Egoist">Egoist</a> (Psychometabolism):</i> Acrobatics (Dex) and Heal (Wis).</dd> <dd><i><a href="/wiki/Psychoportation_(Psion_Discipline)" title="Psychoportation (Psion Discipline)">Nomad</a> (Psychoportation):</i> Climb (Str), Fly (Dex), Survival (Wis), and Swim (Str).</dd> <dd><i><a href="/wiki/Telepath" class="mw-redirect" title="Telepath">Telepath</a> (Telepathy):</i> Bluff (Cha), Diplomacy (Cha), and Sense Motive (Wis).</dd> <dd><i><a href="/wiki/Athanatism_(Psion_Discipline)" title="Athanatism (Psion Discipline)">Conduit</a> (Athanatism):</i> Bluff, Perception, and Sense Motive.</dd> <dd><i><a href="/wiki/Generalist_(Psion_Discipline)" title="Generalist (Psion Discipline)">Generalist</a> (None):</i> Use Magic Device (Cha) and any one skill chosen from the above discipline lists.</dd></dl> <p><b>Skill Ranks at Each Level:</b> 2 + Int modifier. </p>'
+    value: >-
+      </p><p>The&nbsp;powers&nbsp;of&nbsp;the&nbsp;mind&nbsp;are&nbsp;varied&nbsp;and&nbsp;limitless,&nbsp;and&nbsp;the&nbsp;psion&nbsp;learns&nbsp;how&nbsp;to&nbsp;unlock&nbsp;them.&nbsp;Whether&nbsp;he&nbsp;is&nbsp;a&nbsp;shaper&nbsp;or&nbsp;a&nbsp;telepath,&nbsp;an&nbsp;egoist&nbsp;or&nbsp;a&nbsp;nomad,&nbsp;or&nbsp;even&nbsp;a&nbsp;generalist,&nbsp;the&nbsp;psion&nbsp;learns&nbsp;to&nbsp;manifest&nbsp;psionic&nbsp;powers&nbsp;that&nbsp;alter&nbsp;himself&nbsp;and&nbsp;the&nbsp;world&nbsp;around&nbsp;him.&nbsp;Due&nbsp;to&nbsp;the&nbsp;limited&nbsp;powers&nbsp;that&nbsp;any&nbsp;one&nbsp;psion&nbsp;knows,&nbsp;each&nbsp;psion&nbsp;is&nbsp;unique&nbsp;in&nbsp;his&nbsp;capabilities,&nbsp;as&nbsp;his&nbsp;latent&nbsp;abilities&nbsp;are&nbsp;drawn&nbsp;out&nbsp;and&nbsp;shaped&nbsp;into&nbsp;the&nbsp;psionic&nbsp;powers&nbsp;that&nbsp;define&nbsp;the&nbsp;psion.&nbsp;</p><p>Each&nbsp;psion&nbsp;also&nbsp;gains&nbsp;unique&nbsp;abilities&nbsp;depending&nbsp;on&nbsp;his&nbsp;choice&nbsp;of&nbsp;disciplines:&nbsp;the&nbsp;egoist&nbsp;excels&nbsp;at&nbsp;altering&nbsp;his&nbsp;own&nbsp;physiology,&nbsp;while&nbsp;the&nbsp;nomad&nbsp;learns&nbsp;to&nbsp;manipulate&nbsp;the&nbsp;very&nbsp;fabric&nbsp;of&nbsp;space&nbsp;and&nbsp;time,&nbsp;and&nbsp;the&nbsp;generalist&nbsp;becomes&nbsp;a&nbsp;master&nbsp;of&nbsp;the&nbsp;overall&nbsp;principles&nbsp;of&nbsp;psionics,&nbsp;while&nbsp;sacrificing&nbsp;some&nbsp;of&nbsp;the&nbsp;unique&nbsp;abilities&nbsp;of&nbsp;the&nbsp;other&nbsp;disciplines.&nbsp;</p><p><b>Role:</b>&nbsp;The&nbsp;psion&nbsp;can&nbsp;fulfill&nbsp;a&nbsp;variety&nbsp;of&nbsp;different&nbsp;roles&nbsp;depending&nbsp;upon&nbsp;the&nbsp;power&nbsp;choices&nbsp;he&nbsp;makes.&nbsp;Generalist&nbsp;psions&nbsp;have&nbsp;the&nbsp;greatest&nbsp;versatility&nbsp;of&nbsp;the&nbsp;different&nbsp;psions,&nbsp;while&nbsp;those&nbsp;of&nbsp;a&nbsp;particular&nbsp;discipline&nbsp;excel&nbsp;at&nbsp;the&nbsp;given&nbsp;focus&nbsp;of&nbsp;their&nbsp;chosen&nbsp;specialization.&nbsp;Regardless&nbsp;of&nbsp;their&nbsp;choice,&nbsp;all&nbsp;psions&nbsp;are&nbsp;masters&nbsp;of&nbsp;the&nbsp;powers&nbsp;of&nbsp;the&nbsp;mind&nbsp;and&nbsp;capable&nbsp;of&nbsp;helping&nbsp;their&nbsp;allies&nbsp;against&nbsp;any&nbsp;danger.&nbsp;</p><p><b>Alignment:</b>&nbsp;Any.&nbsp;</p><p><b>Hit&nbsp;Die:</b>&nbsp;d6.&nbsp;</p><p><b>Class&nbsp;Skills:</b>&nbsp;The&nbsp;psion's&nbsp;class&nbsp;skills&nbsp;are&nbsp;<a&nbsp;href="/wiki/Autohypnosis"&nbsp;title="Autohypnosis">Autohypnosis</a>&nbsp;(Wis),&nbsp;Craft&nbsp;(Int),&nbsp;Knowledge&nbsp;(all&nbsp;skills,&nbsp;taken&nbsp;individually)*&nbsp;(Int),&nbsp;Profession&nbsp;(Wis),&nbsp;and&nbsp;Spellcraft&nbsp;(Int).&nbsp;In&nbsp;addition,&nbsp;a&nbsp;psion&nbsp;gains&nbsp;access&nbsp;to&nbsp;additional&nbsp;class&nbsp;skills&nbsp;based&nbsp;on&nbsp;his&nbsp;discipline:&nbsp;</p>&nbsp;<dl><dd><i><a&nbsp;href="/wiki/Seer"&nbsp;class="mw-redirect"&nbsp;title="Seer">Seer</a>&nbsp;(Clairsentience):</i>&nbsp;Diplomacy&nbsp;(Cha)&nbsp;and&nbsp;Perception&nbsp;(Wis).</dd>&nbsp;<dd><i><a&nbsp;href="/wiki/Metacreativity_(Psion_Discipline)"&nbsp;title="Metacreativity&nbsp;(Psion&nbsp;Discipline)">Shaper</a>&nbsp;(Metacreativity):</i>&nbsp;Bluff&nbsp;(Cha),&nbsp;Disguise&nbsp;(Cha),&nbsp;and&nbsp;Use&nbsp;Magic&nbsp;Device&nbsp;(Cha).</dd>&nbsp;<dd><i><a&nbsp;href="/wiki/Psychokinesis_(Psion_Discipline)"&nbsp;title="Psychokinesis&nbsp;(Psion&nbsp;Discipline)">Kineticist</a>&nbsp;(Psychokinesis):</i>&nbsp;Disable&nbsp;Device&nbsp;(Dex)&nbsp;and&nbsp;Intimidate&nbsp;(Cha).</dd>&nbsp;<dd><i><a&nbsp;href="/wiki/Egoist"&nbsp;class="mw-redirect"&nbsp;title="Egoist">Egoist</a>&nbsp;(Psychometabolism):</i>&nbsp;Acrobatics&nbsp;(Dex)&nbsp;and&nbsp;Heal&nbsp;(Wis).</dd>&nbsp;<dd><i><a&nbsp;href="/wiki/Psychoportation_(Psion_Discipline)"&nbsp;title="Psychoportation&nbsp;(Psion&nbsp;Discipline)">Nomad</a>&nbsp;(Psychoportation):</i>&nbsp;Climb&nbsp;(Str),&nbsp;Fly&nbsp;(Dex),&nbsp;Survival&nbsp;(Wis),&nbsp;and&nbsp;Swim&nbsp;(Str).</dd>&nbsp;<dd><i><a&nbsp;href="/wiki/Telepath"&nbsp;class="mw-redirect"&nbsp;title="Telepath">Telepath</a>&nbsp;(Telepathy):</i>&nbsp;Bluff&nbsp;(Cha),&nbsp;Diplomacy&nbsp;(Cha),&nbsp;and&nbsp;Sense&nbsp;Motive&nbsp;(Wis).</dd>&nbsp;<dd><i><a&nbsp;href="/wiki/Athanatism_(Psion_Discipline)"&nbsp;title="Athanatism&nbsp;(Psion&nbsp;Discipline)">Conduit</a>&nbsp;(Athanatism):</i>&nbsp;Bluff,&nbsp;Perception,&nbsp;and&nbsp;Sense&nbsp;Motive.</dd>&nbsp;<dd><i><a&nbsp;href="/wiki/Generalist_(Psion_Discipline)"&nbsp;title="Generalist&nbsp;(Psion&nbsp;Discipline)">Generalist</a>&nbsp;(None):</i>&nbsp;Use&nbsp;Magic&nbsp;Device&nbsp;(Cha)&nbsp;and&nbsp;any&nbsp;one&nbsp;skill&nbsp;chosen&nbsp;from&nbsp;the&nbsp;above&nbsp;discipline&nbsp;lists.</dd></dl>&nbsp;<p><b>Skill&nbsp;Ranks&nbsp;at&nbsp;Each&nbsp;Level:</b>&nbsp;2&nbsp;+&nbsp;Int&nbsp;modifier.&nbsp;</p>
   hd: 6
   hp: 6
   level: 1
   links:
     classAssociations:
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.AQGsku4CGyuiukYe
+        uuid: Compendium.pf1-psionics.class-abilities.Item.ouok28mYgoGweIO8
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.UgosM08csYWOACGU
+        uuid: Compendium.pf1-psionics.class-abilities.Item.8K8uUMKcsEo0sUY8
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.mGMsGiaAS0egmqOU
-      - level: 2
-        uuid: Compendium.pf1-psionics.class-abilities.Item.6E2y8Gq0g0Uc4a4s
-      - level: 5
-        uuid: Compendium.pf1-psionics.class-abilities.Item.AQGsku4CGyuiukYe
-      - level: 8
-        uuid: Compendium.pf1-psionics.class-abilities.Item.6E2y8Gq0g0Uc4a4s
-      - level: 10
-        uuid: Compendium.pf1-psionics.class-abilities.Item.AQGsku4CGyuiukYe
-      - level: 14
-        uuid: Compendium.pf1-psionics.class-abilities.Item.6E2y8Gq0g0Uc4a4s
-      - level: 15
-        uuid: Compendium.pf1-psionics.class-abilities.Item.AQGsku4CGyuiukYe
-      - level: 20
-        uuid: Compendium.pf1-psionics.class-abilities.Item.AQGsku4CGyuiukYe
-      - level: 20
-        uuid: Compendium.pf1-psionics.class-abilities.Item.8ccKacqGWcgeC642
+        uuid: Compendium.pf1-psionics.class-abilities.Item.6KgIc4acEaW4kuuM
   manifesting:
     ability: wis
     cantrips: true
