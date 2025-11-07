@@ -162,24 +162,25 @@ function convertSave(save) {
 }
 
 /**
- * Parse class table to extract features by level
+ * Match table entries to actual class features and determine levels
  * @param {string} html - Class page HTML
- * @returns {Map<number, string[]>} - Map of level to feature names
+ * @param {Map<string, object>} classFeatures - Map of lowercase feature names to feature data
+ * @returns {Map<string, number[]>} - Map of feature name to array of levels
  */
-function parseClassTable(html) {
-  const features = new Map();
+function matchFeaturesToLevels(html, classFeatures) {
+  const featureLevels = new Map();
 
   // Find Class Features section
   const classFeaturesRegex = /<h2[^>]*>Class Features<\/h2>([\s\S]*?)(?=<h2|$)/i;
   const sectionMatch = html.match(classFeaturesRegex);
 
-  if (!sectionMatch) return features;
+  if (!sectionMatch) return featureLevels;
 
   // Find table with Special column
   const tableRegex = /<table[^>]*>([\s\S]*?)<\/table>/i;
   const tableMatch = sectionMatch[1].match(tableRegex);
 
-  if (!tableMatch) return features;
+  if (!tableMatch) return featureLevels;
 
   // Parse rows
   const rowRegex = /<tr[^>]*>([\s\S]*?)<\/tr>/gi;
@@ -229,18 +230,51 @@ function parseClassTable(html) {
 
     if (!specialText || specialText === '—' || specialText === '-') continue;
 
-    // Split on comma and clean up
-    const featureNames = specialText
+    // Split on comma/semicolon and normalize
+    const tableEntries = specialText
       .split(/[,;]/)
       .map(f => f.trim())
       .map(f => f.replace(/\s*\([^)]*\)/, '')) // Remove parenthetical like "(Ex)"
-      .map(f => f.replace(/\s*[+\-]\d+$/, '')) // Remove trailing modifiers like "+1" or "-2"
+      .map(f => f.replace(/\s*(?:[+\-]?\d+d\d+|[+\-]\d+)$/g, '')) // Remove trailing modifiers
       .filter(f => f.length > 0);
 
-    features.set(level, featureNames);
+    // Match each table entry to actual feature names
+    for (const entry of tableEntries) {
+      const entryLower = entry.toLowerCase();
+
+      // Try exact match first
+      if (classFeatures.has(entryLower)) {
+        const featureName = classFeatures.get(entryLower).name;
+        if (!featureLevels.has(featureName)) {
+          featureLevels.set(featureName, []);
+        }
+        featureLevels.get(featureName).push(level);
+      } else {
+        // Try partial match (table might abbreviate)
+        let matched = false;
+        for (const [key, feature] of classFeatures) {
+          if (key.includes(entryLower) || entryLower.includes(key)) {
+            if (!featureLevels.has(feature.name)) {
+              featureLevels.set(feature.name, []);
+            }
+            featureLevels.get(feature.name).push(level);
+            matched = true;
+            break;
+          }
+        }
+
+        // If no match found, still track it for the first level it appears
+        if (!matched) {
+          if (!featureLevels.has(entry)) {
+            featureLevels.set(entry, []);
+          }
+          featureLevels.get(entry).push(level);
+        }
+      }
+    }
   }
 
-  return features;
+  return featureLevels;
 }
 
 /**
@@ -499,41 +533,47 @@ function extractProficiencies(html) {
 }
 
 /**
- * Parse class feature descriptions from Class Features section
+ * Extract all class feature names and descriptions from Class Features section
+ * This is the primary source of truth - we discover features from their descriptions,
+ * not from the table (which has abbreviated/modified names)
  * @param {string} html - Class page HTML
- * @param {string[]} featureNames - Feature names to find
  * @returns {Map<string, string>} - Map of feature name to description HTML
  */
-function parseClassFeatures(html, featureNames) {
-  const descriptions = new Map();
+function extractClassFeatures(html) {
+  const features = new Map();
 
   // Find Class Features section
   const classFeaturesRegex = /<h2[^>]*>Class Features<\/h2>([\s\S]*?)(?=<h2|$)/i;
   const sectionMatch = html.match(classFeaturesRegex);
 
-  if (!sectionMatch) return descriptions;
+  if (!sectionMatch) return features;
 
   const section = sectionMatch[1];
 
-  for (const featureName of featureNames) {
-    // Look for <b>Feature Name:</b> or <b>Feature Name (Ex):</b> patterns
-    const escapedName = featureName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    const featureRegex = new RegExp(
-      `<b>${escapedName}(?:\\s*\\([^)]*\\))?:</b>([^<]*(?:<[^b][^>]*>[^<]*</[^>]+>)*[^<]*)`,
-      'i'
-    );
+  // Find all feature headings: <b>Feature Name (Ex):</b> or <b>Feature Name:</b>
+  const featureRegex = /<b>([^<]+?)(?:\s*\([^)]*\))?:<\/b>/g;
+  let match;
 
-    const featureMatch = section.match(featureRegex);
+  while ((match = featureRegex.exec(section)) !== null) {
+    const featureName = match[1].trim();
+    const startPos = match.index + match[0].length;
 
-    if (featureMatch) {
-      descriptions.set(featureName, `<p><b>${featureName}:</b>${featureMatch[1]}</p>`);
-    } else {
-      // Fallback: use feature name as description
-      descriptions.set(featureName, `<p>${featureName}</p>`);
-    }
+    // Find the end - next feature heading or end of section
+    const endRegex = /<b>[^<]+?(?:\s*\([^)]*\))?:<\/b>/g;
+    endRegex.lastIndex = startPos;
+    const endMatch = endRegex.exec(section);
+
+    const endPos = endMatch ? endMatch.index : section.length;
+    const content = section.substring(startPos, endPos).trim();
+
+    // Store the feature with its full description
+    features.set(featureName.toLowerCase(), {
+      name: featureName,
+      description: `<p><b>${featureName}:</b>${content}</p>`
+    });
   }
 
-  return descriptions;
+  return features;
 }
 
 /**
@@ -591,25 +631,26 @@ function buildClassAbility(name, level, className, description, sources = []) {
  * Build class item with associations
  * @param {object} classData - Class data extracted from page
  * @param {Array} abilities - Array of class ability items
- * @param {Map} featuresByLevel - Map of level to feature names
+ * @param {Map} featureLevels - Map of feature name to array of levels
  * @returns {object} - Class item
  */
-function buildClassItem(classData, abilities, featuresByLevel) {
+function buildClassItem(classData, abilities, featureLevels) {
   const id = generateDeterministicId(classData.name);
 
   // Build classAssociations array
   const classAssociations = [];
 
-  for (const [level, featureNames] of featuresByLevel) {
-    for (const featureName of featureNames) {
-      // Find matching ability
-      const ability = abilities.find(a => a.name === featureName);
-      if (ability) {
-        classAssociations.push({
-          level: level,
-          uuid: `Compendium.pf1-psionics.class-abilities.Item.${ability._id}`
-        });
-      }
+  for (const [featureName, levels] of featureLevels) {
+    // Find matching ability
+    const ability = abilities.find(a => a.name === featureName);
+    if (ability) {
+      // Only link at the first level (when ability is gained)
+      // Following PF1e pattern: descriptions explain scaling, not multiple links
+      const firstLevel = Math.min(...levels);
+      classAssociations.push({
+        level: firstLevel,
+        uuid: `Compendium.pf1-psionics.class-abilities.Item.${ability._id}`
+      });
     }
   }
 
@@ -719,37 +760,28 @@ async function scrapeClass(url, className) {
     sources: sources
   };
 
-  // Parse class table
-  const featuresByLevel = parseClassTable(html);
+  // Extract all class features from descriptions (primary source of truth)
+  const classFeatures = extractClassFeatures(html);
 
-  // Collect all unique feature names
-  const allFeatureNames = new Set();
-  for (const names of featuresByLevel.values()) {
-    names.forEach(n => allFeatureNames.add(n));
-  }
+  // Match table entries to features and determine levels
+  const featureLevels = matchFeaturesToLevels(html, classFeatures);
 
-  // Parse feature descriptions
-  const descriptions = parseClassFeatures(html, Array.from(allFeatureNames));
-
-  // Build ability items
+  // Build ability items - one per unique feature
   const abilities = [];
-  const createdAbilities = new Set(); // Track to avoid duplicates
+  for (const [featureName, levels] of featureLevels) {
+    // Try to get feature data from extracted features
+    const featureData = classFeatures.get(featureName.toLowerCase());
 
-  for (const [level, featureNames] of featuresByLevel) {
-    for (const featureName of featureNames) {
-      // Only create ability once (for progressive abilities)
-      if (createdAbilities.has(featureName)) continue;
+    const description = featureData
+      ? featureData.description
+      : `<p>${featureName}</p>`; // Fallback if feature only in table
 
-      const description = descriptions.get(featureName) || `<p>${featureName}</p>`;
-      const ability = buildClassAbility(featureName, level, className, description, sources);
-
-      abilities.push(ability);
-      createdAbilities.add(featureName);
-    }
+    const ability = buildClassAbility(featureName, levels[0], className, description, sources);
+    abilities.push(ability);
   }
 
   // Build class item
-  const classItem = buildClassItem(classData, abilities, featuresByLevel);
+  const classItem = buildClassItem(classData, abilities, featureLevels);
 
   return { classItem, abilities };
 }

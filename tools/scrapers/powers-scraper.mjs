@@ -742,14 +742,29 @@ async function scrapePowers(urls) {
 }
 
 /**
- * Write powers to YAML files, updating existing files or creating new ones
+ * Write powers to YAML files organized by discipline in subdirectories
+ * Powers are written to packs-source/powers/{discipline}/{slug}.{id}.yaml
  */
 function writePowersWithDeduplication(powers, rootDir) {
   const packsSourceDir = join(rootDir, 'packs-source', 'powers');
 
-  // Ensure directory exists
-  if (!fs.existsSync(packsSourceDir)) {
-    fs.mkdirSync(packsSourceDir, { recursive: true });
+  // Collect existing IDs to prevent collisions (scan all subdirectories)
+  const existingIds = new Set();
+  if (fs.existsSync(packsSourceDir)) {
+    const scanDirectory = (dir) => {
+      const items = fs.readdirSync(dir, { withFileTypes: true });
+      for (const item of items) {
+        if (item.isDirectory()) {
+          scanDirectory(join(dir, item.name));
+        } else if (item.name.endsWith('.yaml')) {
+          const match = item.name.match(/\.([a-zA-Z0-9]{16})\.yaml$/);
+          if (match) {
+            existingIds.add(match[1]);
+          }
+        }
+      }
+    };
+    scanDirectory(packsSourceDir);
   }
 
   const stats = {
@@ -759,49 +774,55 @@ function writePowersWithDeduplication(powers, rootDir) {
     errors: []
   };
 
-  // Collect existing IDs to prevent collisions
-  const existingIds = new Set();
-  if (fs.existsSync(packsSourceDir)) {
-    const files = fs.readdirSync(packsSourceDir);
-    for (const file of files) {
-      if (file.endsWith('.yaml')) {
-        const match = file.match(/\.([a-zA-Z0-9]{16})\.yaml$/);
-        if (match) {
-          existingIds.add(match[1]);
-        }
-      }
+  // Group powers by discipline
+  const powersByDiscipline = {};
+  for (const power of powers) {
+    const discipline = power.system.discipline || 'athanatism';
+    if (!powersByDiscipline[discipline]) {
+      powersByDiscipline[discipline] = [];
     }
+    powersByDiscipline[discipline].push(power);
   }
 
-  for (const power of powers) {
-    try {
-      // Check if a YAML file already exists for this power
-      const existingFile = findExistingPowerFile(power.name, packsSourceDir);
+  // Process each discipline
+  for (const [discipline, disciplinePowers] of Object.entries(powersByDiscipline)) {
+    const disciplineDir = join(packsSourceDir, discipline);
 
-      if (existingFile) {
-        // Read existing YAML to preserve the ID
-        const existingContent = fs.readFileSync(existingFile, 'utf8');
-        const existingPower = yaml.load(existingContent);
+    // Ensure discipline directory exists
+    if (!fs.existsSync(disciplineDir)) {
+      fs.mkdirSync(disciplineDir, { recursive: true });
+    }
 
-        // Preserve the existing ID
-        power._id = existingPower._id;
+    for (const power of disciplinePowers) {
+      try {
+        // Check if a YAML file already exists for this power in the discipline directory
+        const existingFile = findExistingPowerFile(power.name, disciplineDir);
 
-        // Update the file
-        const yamlContent = yaml.dump(power, {
-          sortKeys: true,
-          lineWidth: -1
-        });
+        if (existingFile) {
+          // Read existing YAML to preserve the ID
+          const existingContent = fs.readFileSync(existingFile, 'utf8');
+          const existingPower = yaml.load(existingContent);
 
-        fs.writeFileSync(existingFile, yamlContent, 'utf8');
-        stats.updated++;
-        console.log(`  📝 Updated: ${power.name}`);
-      } else {
-        // Create new file - generate a new Foundry-compatible ID
-        power._id = generateFoundryId(existingIds);
-        existingIds.add(power._id); // Add to set to prevent duplicates in same batch
+          // Preserve the existing ID
+          power._id = existingPower._id;
+          stats.updated++;
+          console.log(`  📝 Updating: ${power.name} (${discipline})`);
+        } else {
+          // Generate a new Foundry-compatible ID
+          power._id = generateFoundryId(existingIds);
+          existingIds.add(power._id);
+          stats.written++;
+          console.log(`  ✨ Creating: ${power.name} (${discipline})`);
+        }
+
+        // Add required Foundry fields
+        power._key = `!items!${power._id}`;
+        power._stats = { coreVersion: '13.350' };
+
+        // Write YAML file to discipline subdirectory
         const slug = sluggify(power.name);
         const filename = `${slug}.${power._id}.yaml`;
-        const filepath = join(packsSourceDir, filename);
+        const filepath = join(disciplineDir, filename);
 
         const yamlContent = yaml.dump(power, {
           sortKeys: true,
@@ -809,13 +830,11 @@ function writePowersWithDeduplication(powers, rootDir) {
         });
 
         fs.writeFileSync(filepath, yamlContent, 'utf8');
-        stats.written++;
-        console.log(`  ✨ Created: ${power.name}`);
+      } catch (error) {
+        stats.errors.push({ item: power.name, error: error.message });
+        stats.skipped++;
+        console.error(`  ✗ Error writing ${power.name}: ${error.message}`);
       }
-    } catch (error) {
-      stats.errors.push({ item: power.name, error: error.message });
-      stats.skipped++;
-      console.error(`  ✗ Error writing ${power.name}: ${error.message}`);
     }
   }
 
