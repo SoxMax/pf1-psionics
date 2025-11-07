@@ -431,6 +431,87 @@ function mapSkillsToCodes(skillNames) {
 }
 
 /**
+ * Parse source information from sourcebook text
+ * @param {string} sourceText - Source text (e.g., "Ultimate Psionics, pgs. 69–72")
+ * @returns {object} - Source object with title, pages, publisher, date
+ */
+function parseSourceInfo(sourceText) {
+  // Known publication dates and publishers
+  const sourceMetadata = {
+    'Ultimate Psionics': {
+      date: '2013-12-24',
+      publisher: 'Dreamscarred Press'
+    },
+    'Psionics Expanded': {
+      date: '2012-07-23',
+      publisher: 'Dreamscarred Press'
+    },
+    'Psionics Augmented': {
+      date: '2012-01-01',
+      publisher: 'Dreamscarred Press'
+    },
+    'Psionics Unleashed': {
+      date: '2010-08-01',
+      publisher: 'Dreamscarred Press'
+    }
+  };
+
+  // Extract title and pages
+  const match = sourceText.match(/([^,]+?)(?:,\s*pgs?\.?\s*([\d–\-]+))?$/);
+
+  if (!match) return null;
+
+  const title = match[1].trim();
+  const pages = match[2] || '';
+
+  const metadata = sourceMetadata[title] || {
+    date: '2010-01-01',
+    publisher: 'Dreamscarred Press'
+  };
+
+  return {
+    title: title,
+    pages: pages,
+    publisher: metadata.publisher,
+    date: metadata.date
+  };
+}
+
+/**
+ * Extract source information from infobox
+ * @param {string} html - Class page HTML
+ * @returns {Array} - Array of source objects
+ */
+function extractSources(html) {
+  const sources = [];
+
+  // Find sourcebook data-source element
+  const sourceRegex = /data-source="sourcebook"[^>]*>([\s\S]*?)<\/td>/;
+  const match = html.match(sourceRegex);
+
+  if (!match) return sources;
+
+  const sourceHTML = match[1];
+
+  // Extract individual source entries (separated by <br />)
+  const entries = sourceHTML.split(/<br\s*\/?>/i);
+
+  for (const entry of entries) {
+    // Remove HTML tags but keep the text
+    const text = entry.replace(/<\/?i>/g, '').replace(/<a[^>]*>([^<]+)<\/a>/g, '$1').trim();
+
+    if (!text) continue;
+
+    const sourceInfo = parseSourceInfo(text);
+    if (sourceInfo) {
+      sources.push(sourceInfo);
+    }
+  }
+
+  return sources;
+}
+
+/**
  * Extract weapon and armor proficiencies from page text
  * @param {string} html - Class page HTML
  * @returns {object} - {weapons: string[], armor: string[]}
@@ -521,9 +602,10 @@ function detectAbilityType(description) {
  * @param {number} level - Level gained
  * @param {string} className - Class name
  * @param {string} description - Feature description HTML
+ * @param {Array} sources - Source information array
  * @returns {object} - Class ability item
  */
-function buildClassAbility(name, level, className, description) {
+function buildClassAbility(name, level, className, description, sources = []) {
   // Generate stable UUID based on class and feature name
   const id = generateDeterministicId(`${className}-${name}`);
 
@@ -544,6 +626,7 @@ function buildClassAbility(name, level, className, description) {
       description: {
         value: description
       },
+      sources: sources,
       subType: 'classFeat',
       tag: sluggify(name)
     }
@@ -602,6 +685,7 @@ function buildClassItem(classData, abilities, featuresByLevel) {
       }
     },
     skillsPerLevel: parseInt(classData.skillsPerLevel) || 2,
+    sources: classData.sources || [],
     subType: 'base',
     tag: sluggify(classData.name),
     wealth: classData.wealth || '2d6 * 10',
@@ -658,6 +742,7 @@ async function scrapeClass(url, className) {
   const classSkills = mapSkillsToCodes(skillNames);
   const proficiencies = extractProficiencies(html);
   const saves = extractSaves(html);
+  const sources = extractSources(html);
 
   // Build class data object
   const classData = {
@@ -677,7 +762,7 @@ async function scrapeClass(url, className) {
     armorProf: proficiencies.armor,
     weaponProf: proficiencies.weapons,
     isPsionic: true, // All classes from this scraper are psionic
-    sources: [] // TODO: Parse sourcebook from infobox
+    sources: sources
   };
 
   // Parse class table
@@ -702,7 +787,7 @@ async function scrapeClass(url, className) {
       if (createdAbilities.has(featureName)) continue;
 
       const description = descriptions.get(featureName) || `<p>${featureName}</p>`;
-      const ability = buildClassAbility(featureName, level, className, description);
+      const ability = buildClassAbility(featureName, level, className, description, sources);
 
       abilities.push(ability);
       createdAbilities.add(featureName);
