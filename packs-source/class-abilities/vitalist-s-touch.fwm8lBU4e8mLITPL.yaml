@@ -1,0 +1,28 @@
+_id: fwm8lBU4e8mLITPL
+_key: '!items!fwm8lBU4e8mLITPL'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Vitalist's Touch
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Vitalist
+  description:
+    value: >-
+      <p><b>Vitalist's&nbsp;Touch:</b>Once&nbsp;a&nbsp;vitalist&nbsp;reaches&nbsp;2nd&nbsp;level,&nbsp;he&nbsp;learns&nbsp;to&nbsp;apply&nbsp;the&nbsp;skills&nbsp;of&nbsp;his&nbsp;method&nbsp;to&nbsp;his&nbsp;transfer&nbsp;wounds&nbsp;ability,&nbsp;as&nbsp;detailed&nbsp;in&nbsp;the&nbsp;vitalist's&nbsp;method&nbsp;of&nbsp;choice.
+
+      </p><p></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 57–61
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 69–72
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: vitalist-s-touch
+type: feat

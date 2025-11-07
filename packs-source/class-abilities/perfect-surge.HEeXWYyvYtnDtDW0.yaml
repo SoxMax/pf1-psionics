@@ -1,0 +1,36 @@
+_id: HEeXWYyvYtnDtDW0
+_key: '!items!HEeXWYyvYtnDtDW0'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Perfect Surge
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Wilder
+  description:
+    value: >-
+      <p><b>Perfect&nbsp;Surge:</b>The&nbsp;wilder&nbsp;has&nbsp;mastered&nbsp;the&nbsp;untamable&nbsp;and&nbsp;can&nbsp;now&nbsp;use&nbsp;a&nbsp;blindingly&nbsp;powerful&nbsp;version&nbsp;of&nbsp;wild&nbsp;surge,&nbsp;albeit&nbsp;at&nbsp;great&nbsp;cost.&nbsp;Once&nbsp;per&nbsp;day,&nbsp;the&nbsp;wilder&nbsp;may&nbsp;add&nbsp;+10&nbsp;to&nbsp;her&nbsp;manifester&nbsp;level&nbsp;on&nbsp;one&nbsp;manifestation&nbsp;as&nbsp;if&nbsp;through&nbsp;wild&nbsp;surge.&nbsp;In&nbsp;addition&nbsp;to&nbsp;this&nbsp;increase,&nbsp;the&nbsp;manifestation&nbsp;also&nbsp;receives&nbsp;+3&nbsp;to&nbsp;its&nbsp;save&nbsp;DC,&nbsp;+3&nbsp;to&nbsp;any&nbsp;attack&nbsp;rolls&nbsp;involved,&nbsp;and&nbsp;is&nbsp;treated&nbsp;as&nbsp;a&nbsp;power&nbsp;five&nbsp;levels&nbsp;higher&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of&nbsp;level-dependent&nbsp;effects&nbsp;(such&nbsp;as&nbsp;<i>minor&nbsp;globe&nbsp;of&nbsp;invulnerability</i>).&nbsp;A&nbsp;power&nbsp;manifested&nbsp;with&nbsp;a&nbsp;perfect&nbsp;surge&nbsp;has&nbsp;the&nbsp;radius&nbsp;and&nbsp;intensity&nbsp;of&nbsp;its&nbsp;associated&nbsp;displays&nbsp;doubled;&nbsp;such&nbsp;displays&nbsp;cannot&nbsp;be&nbsp;hidden&nbsp;normally.&nbsp;The&nbsp;wilder&nbsp;exudes&nbsp;light&nbsp;as&nbsp;if&nbsp;she&nbsp;is&nbsp;the&nbsp;subject&nbsp;of&nbsp;the&nbsp;<i>daylight</i>&nbsp;spell&nbsp;while&nbsp;using&nbsp;a&nbsp;perfect&nbsp;surge,&nbsp;and&nbsp;anyone&nbsp;who&nbsp;makes&nbsp;physical&nbsp;contact&nbsp;with&nbsp;her&nbsp;before&nbsp;the&nbsp;start&nbsp;of&nbsp;her&nbsp;next&nbsp;turn&nbsp;takes&nbsp;1d4&nbsp;points&nbsp;of&nbsp;fire&nbsp;damage.&nbsp;However,&nbsp;this&nbsp;extreme&nbsp;example&nbsp;of&nbsp;wild&nbsp;surging&nbsp;has&nbsp;its&nbsp;price.&nbsp;The&nbsp;wilder&nbsp;is&nbsp;struck&nbsp;by&nbsp;psychic&nbsp;enervation&nbsp;afterwards&nbsp;without&nbsp;fail,&nbsp;except&nbsp;she&nbsp;suffers&nbsp;her&nbsp;associated&nbsp;condition&nbsp;(dazed,&nbsp;staggered,&nbsp;etc.)&nbsp;for&nbsp;1d4&nbsp;rounds&nbsp;and&nbsp;loses&nbsp;a&nbsp;number&nbsp;of&nbsp;power&nbsp;points&nbsp;or&nbsp;hit&nbsp;points&nbsp;(dependent&nbsp;on&nbsp;path)&nbsp;equal&nbsp;to&nbsp;her&nbsp;manifester&nbsp;level&nbsp;+10.&nbsp;The&nbsp;wilder&nbsp;also&nbsp;takes&nbsp;2&nbsp;points&nbsp;of&nbsp;ability&nbsp;burn&nbsp;to&nbsp;every&nbsp;ability&nbsp;score.
+
+      </p><p>The&nbsp;wilder&nbsp;cannot&nbsp;use&nbsp;wild&nbsp;surge&nbsp;or&nbsp;Overchannel&nbsp;on&nbsp;the&nbsp;same&nbsp;manifestation&nbsp;as&nbsp;a&nbsp;perfect&nbsp;surge.
+
+      </p>
+
+      <div&nbsp;class="mw-heading&nbsp;mw-heading2"></p>
+  sources:
+    - date: '2010-08-01'
+      pages: 33–35
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2010-01-01'
+      pages: 38–41
+      publisher: Dreamscarred Press
+      title: 'Psionics Unleashed: Revised'
+    - date: '2013-12-24'
+      pages: 75–77
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: perfect-surge
+type: feat

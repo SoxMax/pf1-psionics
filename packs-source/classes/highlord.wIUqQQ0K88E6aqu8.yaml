@@ -57,19 +57,13 @@ system:
   links:
     classAssociations:
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.MuWw2GSk2oSoGYuc
-      - level: 1
         uuid: Compendium.pf1-psionics.class-abilities.Item.ocEEWS02yqhiWyYe
       - level: 1
         uuid: Compendium.pf1-psionics.class-abilities.Item.aY8uicwAA8UmCyIM
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.EC4Gg0cE0SMQia20
-      - level: 1
         uuid: Compendium.pf1-psionics.class-abilities.Item.2gwe0umCIYOua8mW
       - level: 2
         uuid: Compendium.pf1-psionics.class-abilities.Item.sGKUqckGiIe4OKkc
-      - level: 2
-        uuid: Compendium.pf1-psionics.class-abilities.Item.8GquKGe4SoesUKog
       - level: 3
         uuid: Compendium.pf1-psionics.class-abilities.Item.I6O2gi0Y8AQGea4c
       - level: 3
@@ -84,8 +78,6 @@ system:
         uuid: Compendium.pf1-psionics.class-abilities.Item.cAU4a0scKimUeOSU
       - level: 10
         uuid: Compendium.pf1-psionics.class-abilities.Item.KGg0iEEUS0ESiQOk
-      - level: 16
-        uuid: Compendium.pf1-psionics.class-abilities.Item.sygq6aS0Euc6Eko6
       - level: 20
         uuid: Compendium.pf1-psionics.class-abilities.Item.WiGU5Gsc4FgKqgW6
   manifesting:

@@ -1,0 +1,28 @@
+_id: eELFpQeZqDTiCBH2
+_key: '!items!eELFpQeZqDTiCBH2'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Damage Reduction
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Aegis
+  description:
+    value: >-
+      <p><b>Damage&nbsp;Reduction:</b>Starting&nbsp;at&nbsp;2nd&nbsp;level,&nbsp;when&nbsp;an&nbsp;aegis&nbsp;is&nbsp;wearing&nbsp;his&nbsp;astral&nbsp;suit,&nbsp;he&nbsp;gains&nbsp;damage&nbsp;reduction&nbsp;2/-,&nbsp;regardless&nbsp;of&nbsp;what&nbsp;type&nbsp;of&nbsp;astral&nbsp;suit&nbsp;he&nbsp;is&nbsp;wearing.&nbsp;At&nbsp;5th&nbsp;level&nbsp;and&nbsp;every&nbsp;three&nbsp;levels&nbsp;thereafter,&nbsp;this&nbsp;damage&nbsp;reduction&nbsp;improves&nbsp;by&nbsp;1.
+
+      </p><p></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 27–31
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 28–30
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: damage-reduction
+type: feat

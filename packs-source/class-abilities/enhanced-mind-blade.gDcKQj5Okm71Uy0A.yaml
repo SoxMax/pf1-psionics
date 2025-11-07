@@ -1,0 +1,32 @@
+_id: gDcKQj5Okm71Uy0A
+_key: '!items!gDcKQj5Okm71Uy0A'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Enhanced Mind Blade
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Soulknife
+  description:
+    value: >-
+      <p><b>Enhanced&nbsp;Mind&nbsp;Blade:</b>A&nbsp;soulknife's&nbsp;mind&nbsp;blade&nbsp;improves&nbsp;as&nbsp;the&nbsp;character&nbsp;gains&nbsp;higher&nbsp;levels.&nbsp;At&nbsp;3rd&nbsp;level&nbsp;and&nbsp;every&nbsp;odd&nbsp;level&nbsp;thereafter,&nbsp;the&nbsp;mind&nbsp;blade&nbsp;gains&nbsp;a&nbsp;cumulative&nbsp;+1&nbsp;enhancement&nbsp;bonus&nbsp;that&nbsp;she&nbsp;may&nbsp;spend&nbsp;on&nbsp;an&nbsp;actual&nbsp;enhancement&nbsp;bonus&nbsp;or&nbsp;on&nbsp;weapon&nbsp;special&nbsp;abilities.&nbsp;A&nbsp;soulknife's&nbsp;level&nbsp;determines&nbsp;her&nbsp;maximum&nbsp;enhancement&nbsp;bonus&nbsp;(see&nbsp;Table&nbsp;2-8:&nbsp;The&nbsp;Soulknife).&nbsp;The&nbsp;soulknife&nbsp;may&nbsp;(and&nbsp;must,&nbsp;when&nbsp;her&nbsp;total&nbsp;enhancement&nbsp;is&nbsp;higher&nbsp;than&nbsp;her&nbsp;maximum&nbsp;bonus)&nbsp;apply&nbsp;any&nbsp;special&nbsp;ability&nbsp;from&nbsp;the&nbsp;table&nbsp;below&nbsp;instead&nbsp;of&nbsp;an&nbsp;enhancement&nbsp;bonus,&nbsp;as&nbsp;long&nbsp;as&nbsp;she&nbsp;meets&nbsp;the&nbsp;level&nbsp;requirements.&nbsp;A&nbsp;soulknife&nbsp;can&nbsp;choose&nbsp;any&nbsp;combination&nbsp;of&nbsp;weapon&nbsp;special&nbsp;abilities&nbsp;and/or&nbsp;enhancement&nbsp;bonus&nbsp;that&nbsp;does&nbsp;not&nbsp;exceed&nbsp;the&nbsp;total&nbsp;allowed&nbsp;by&nbsp;the&nbsp;soulknife's&nbsp;level,&nbsp;but&nbsp;she&nbsp;must&nbsp;assign&nbsp;at&nbsp;least&nbsp;a&nbsp;+1&nbsp;enhancement&nbsp;bonus&nbsp;before&nbsp;assigning&nbsp;any&nbsp;special&nbsp;abilities.
+
+      </p><p>If&nbsp;the&nbsp;soulknife&nbsp;shapes&nbsp;her&nbsp;mind&nbsp;blade&nbsp;into&nbsp;two&nbsp;items,&nbsp;the&nbsp;enhancement&nbsp;bonus&nbsp;of&nbsp;her&nbsp;mind&nbsp;blade&nbsp;(if&nbsp;any)&nbsp;is&nbsp;reduced&nbsp;by&nbsp;1&nbsp;(to&nbsp;a&nbsp;minimum&nbsp;of&nbsp;0).&nbsp;If&nbsp;this&nbsp;would&nbsp;reduce&nbsp;the&nbsp;enhancement&nbsp;bonus&nbsp;on&nbsp;the&nbsp;mind&nbsp;blades&nbsp;to&nbsp;0&nbsp;and&nbsp;weapon&nbsp;special&nbsp;abilities&nbsp;are&nbsp;applied,&nbsp;the&nbsp;soulknife&nbsp;must&nbsp;reshape&nbsp;her&nbsp;mind&nbsp;blade&nbsp;to&nbsp;make&nbsp;the&nbsp;options&nbsp;valid.&nbsp;Both&nbsp;mind&nbsp;blades&nbsp;have&nbsp;the&nbsp;same&nbsp;selection&nbsp;of&nbsp;enhancement&nbsp;bonus&nbsp;and&nbsp;weapon&nbsp;special&nbsp;abilities&nbsp;(if&nbsp;any).&nbsp;This&nbsp;penalty&nbsp;does&nbsp;not&nbsp;apply&nbsp;when&nbsp;using&nbsp;the&nbsp;Mind&nbsp;Shield&nbsp;blade&nbsp;skill.
+
+      </p>
+
+      <dl><dd><div&nbsp;class="va-hatnote-text"><i></p>
+  sources:
+    - date: '2010-08-01'
+      pages: 28–33
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 57–64
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: enhanced-mind-blade
+type: feat

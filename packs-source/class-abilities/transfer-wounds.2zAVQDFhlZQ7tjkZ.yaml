@@ -1,0 +1,28 @@
+_id: 2zAVQDFhlZQ7tjkZ
+_key: '!items!2zAVQDFhlZQ7tjkZ'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Transfer Wounds
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Vitalist
+  description:
+    value: >-
+      <p><b>Transfer&nbsp;Wounds:</b>All&nbsp;vitalists&nbsp;learn&nbsp;how&nbsp;to&nbsp;transfer&nbsp;wounds&nbsp;with&nbsp;but&nbsp;a&nbsp;touch.&nbsp;As&nbsp;a&nbsp;standard&nbsp;action&nbsp;that&nbsp;does&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity,&nbsp;a&nbsp;vitalist&nbsp;may&nbsp;touch&nbsp;a&nbsp;target&nbsp;and&nbsp;heal&nbsp;it&nbsp;for&nbsp;1d6&nbsp;points&nbsp;of&nbsp;damage.&nbsp;The&nbsp;vitalist&nbsp;suffers&nbsp;the&nbsp;same&nbsp;number&nbsp;of&nbsp;points&nbsp;of&nbsp;non-lethal&nbsp;damage&nbsp;(up&nbsp;to&nbsp;the&nbsp;amount&nbsp;the&nbsp;target&nbsp;is&nbsp;actually&nbsp;healed)&nbsp;At&nbsp;4th&nbsp;level&nbsp;and&nbsp;every&nbsp;3&nbsp;levels&nbsp;thereafter,&nbsp;the&nbsp;damage&nbsp;healed&nbsp;to&nbsp;the&nbsp;target&nbsp;and&nbsp;non-lethal&nbsp;damage&nbsp;taken&nbsp;by&nbsp;the&nbsp;vitalist&nbsp;increases&nbsp;by&nbsp;1d6.&nbsp;A&nbsp;vitalist&nbsp;may&nbsp;use&nbsp;this&nbsp;ability&nbsp;a&nbsp;number&nbsp;of&nbsp;times&nbsp;per&nbsp;day&nbsp;equal&nbsp;to&nbsp;3&nbsp;+&nbsp;his&nbsp;Wisdom&nbsp;modifier.&nbsp;A&nbsp;vitalist&nbsp;may&nbsp;not&nbsp;use&nbsp;this&nbsp;ability&nbsp;upon&nbsp;himself.
+
+      </p><p></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 57–61
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 69–72
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: transfer-wounds
+type: feat

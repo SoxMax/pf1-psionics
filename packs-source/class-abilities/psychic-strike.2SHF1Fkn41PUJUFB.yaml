@@ -1,0 +1,36 @@
+_id: 2SHF1Fkn41PUJUFB
+_key: '!items!2SHF1Fkn41PUJUFB'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Psychic Strike
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Soulknife
+  description:
+    value: >-
+      <p><b>Psychic&nbsp;Strike:</b>As&nbsp;a&nbsp;move&nbsp;action,&nbsp;a&nbsp;soulknife&nbsp;of&nbsp;3rd&nbsp;level&nbsp;or&nbsp;higher&nbsp;can&nbsp;imbue&nbsp;her&nbsp;mind&nbsp;blade&nbsp;with&nbsp;destructive&nbsp;psychic&nbsp;energy.&nbsp;This&nbsp;effect&nbsp;deals&nbsp;an&nbsp;extra&nbsp;1d8&nbsp;points&nbsp;of&nbsp;damage&nbsp;on&nbsp;any&nbsp;attack&nbsp;she&nbsp;wishes&nbsp;to&nbsp;activate&nbsp;it&nbsp;on&nbsp;(as&nbsp;long&nbsp;as&nbsp;the&nbsp;attack&nbsp;is&nbsp;made&nbsp;with&nbsp;her&nbsp;mind&nbsp;blade).&nbsp;A&nbsp;soulknife&nbsp;may&nbsp;hold&nbsp;the&nbsp;charge&nbsp;as&nbsp;long&nbsp;as&nbsp;she&nbsp;likes&nbsp;without&nbsp;discharging.&nbsp;&nbsp;It&nbsp;does&nbsp;not&nbsp;go&nbsp;off&nbsp;on&nbsp;any&nbsp;attack&nbsp;unless&nbsp;she&nbsp;chooses&nbsp;to&nbsp;use&nbsp;it,&nbsp;and&nbsp;the&nbsp;charge&nbsp;is&nbsp;not&nbsp;wasted&nbsp;if&nbsp;an&nbsp;attack&nbsp;misses.&nbsp;Mindless&nbsp;creatures&nbsp;are&nbsp;immune&nbsp;to&nbsp;this&nbsp;damage,&nbsp;although&nbsp;non-mindless&nbsp;creatures&nbsp;immune&nbsp;to&nbsp;mind-affecting&nbsp;effects&nbsp;are&nbsp;affected&nbsp;by&nbsp;this&nbsp;damage&nbsp;as&nbsp;normal.&nbsp;(Unlike&nbsp;the&nbsp;rogue's&nbsp;sneak&nbsp;attack,&nbsp;the&nbsp;psychic&nbsp;strike&nbsp;is&nbsp;not&nbsp;precision&nbsp;damage&nbsp;and&nbsp;can&nbsp;affect&nbsp;creatures&nbsp;otherwise&nbsp;immune&nbsp;to&nbsp;extra&nbsp;damage&nbsp;from&nbsp;critical&nbsp;hits&nbsp;or&nbsp;more&nbsp;than&nbsp;30&nbsp;feet&nbsp;away.)
+
+      </p><p>A&nbsp;mind&nbsp;blade&nbsp;deals&nbsp;this&nbsp;extra&nbsp;damage&nbsp;only&nbsp;once&nbsp;when&nbsp;this&nbsp;ability&nbsp;is&nbsp;called&nbsp;upon,&nbsp;but&nbsp;a&nbsp;soulknife&nbsp;can&nbsp;imbue&nbsp;her&nbsp;mind&nbsp;blade&nbsp;with&nbsp;psychic&nbsp;energy&nbsp;again&nbsp;by&nbsp;taking&nbsp;another&nbsp;move&nbsp;action.&nbsp;Additionally,&nbsp;she&nbsp;may&nbsp;recharge&nbsp;it&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;by&nbsp;expending&nbsp;her&nbsp;psionic&nbsp;focus.
+
+      </p><p>Once&nbsp;a&nbsp;soulknife&nbsp;has&nbsp;prepared&nbsp;her&nbsp;blade&nbsp;for&nbsp;a&nbsp;psychic&nbsp;strike,&nbsp;it&nbsp;holds&nbsp;the&nbsp;extra&nbsp;energy&nbsp;until&nbsp;it&nbsp;is&nbsp;used&nbsp;(whether&nbsp;the&nbsp;attack&nbsp;is&nbsp;successful&nbsp;or&nbsp;not).&nbsp;Even&nbsp;if&nbsp;the&nbsp;soulknife&nbsp;drops&nbsp;the&nbsp;mind&nbsp;blade&nbsp;(or&nbsp;it&nbsp;otherwise&nbsp;dissipates,&nbsp;such&nbsp;as&nbsp;when&nbsp;it&nbsp;is&nbsp;thrown),&nbsp;it&nbsp;is&nbsp;still&nbsp;imbued&nbsp;with&nbsp;psychic&nbsp;energy&nbsp;when&nbsp;the&nbsp;soulknife&nbsp;next&nbsp;materializes&nbsp;it.
+
+      </p><p>If&nbsp;the&nbsp;soulknife&nbsp;forms&nbsp;her&nbsp;mind&nbsp;blade&nbsp;into&nbsp;two&nbsp;weapons,&nbsp;she&nbsp;may&nbsp;imbue&nbsp;each&nbsp;mind&nbsp;blade&nbsp;with&nbsp;psychic&nbsp;strike&nbsp;as&nbsp;normal.&nbsp;If&nbsp;she&nbsp;reshapes&nbsp;her&nbsp;mind&nbsp;blade&nbsp;into&nbsp;a&nbsp;single&nbsp;weapon&nbsp;form,&nbsp;the&nbsp;additional&nbsp;psychic&nbsp;strike&nbsp;imbued&nbsp;into&nbsp;the&nbsp;additional&nbsp;weapon&nbsp;is&nbsp;lost.
+
+      </p><p>At&nbsp;every&nbsp;four&nbsp;levels&nbsp;thereafter&nbsp;(7th,&nbsp;11th,&nbsp;etc),&nbsp;the&nbsp;extra&nbsp;damage&nbsp;from&nbsp;a&nbsp;soulknife's&nbsp;psychic&nbsp;strike&nbsp;increases&nbsp;by&nbsp;1d8.
+
+      </p><p></p>
+  sources:
+    - date: '2010-08-01'
+      pages: 28–33
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 57–64
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: psychic-strike
+type: feat

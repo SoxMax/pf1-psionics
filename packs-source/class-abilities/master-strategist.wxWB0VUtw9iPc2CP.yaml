@@ -1,0 +1,30 @@
+_id: wxWB0VUtw9iPc2CP
+_key: '!items!wxWB0VUtw9iPc2CP'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Master Strategist
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Tactician
+  description:
+    value: >-
+      <p><b>Master&nbsp;Strategist:</b>Upon&nbsp;achieving&nbsp;20th&nbsp;level,&nbsp;a&nbsp;tactician&nbsp;has&nbsp;learned&nbsp;how&nbsp;to&nbsp;turn&nbsp;his&nbsp;collective&nbsp;into&nbsp;a&nbsp;truly&nbsp;cohesive&nbsp;battle&nbsp;unit.&nbsp;The&nbsp;tactician&nbsp;may&nbsp;use&nbsp;two&nbsp;daily&nbsp;uses&nbsp;of&nbsp;his&nbsp;strategy&nbsp;ability&nbsp;and&nbsp;grant&nbsp;all&nbsp;of&nbsp;his&nbsp;allies&nbsp;an&nbsp;insight&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;and&nbsp;damage&nbsp;rolls,&nbsp;armor&nbsp;class,&nbsp;and&nbsp;saving&nbsp;throws&nbsp;equal&nbsp;to&nbsp;his&nbsp;intelligence&nbsp;for&nbsp;two&nbsp;minutes.&nbsp;This&nbsp;ability&nbsp;may&nbsp;not&nbsp;be&nbsp;used&nbsp;if&nbsp;the&nbsp;tactician&nbsp;is&nbsp;not&nbsp;engaged&nbsp;in&nbsp;combat.
+
+      </p>
+
+      <div&nbsp;class="mw-heading&nbsp;mw-heading2"></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 52–57
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 64–69
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: master-strategist
+type: feat

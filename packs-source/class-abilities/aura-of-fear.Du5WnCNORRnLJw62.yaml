@@ -1,0 +1,28 @@
+_id: Du5WnCNORRnLJw62
+_key: '!items!Du5WnCNORRnLJw62'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Aura of Fear
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Dread
+  description:
+    value: >-
+      <p><b>Aura&nbsp;of&nbsp;Fear:</b>At&nbsp;3rd&nbsp;level,&nbsp;a&nbsp;dread&nbsp;radiates&nbsp;a&nbsp;palpably&nbsp;daunting&nbsp;aura&nbsp;that&nbsp;causes&nbsp;all&nbsp;enemies&nbsp;within&nbsp;10&nbsp;feet&nbsp;to&nbsp;take&nbsp;a&nbsp;–4&nbsp;penalty&nbsp;on&nbsp;saving&nbsp;throws&nbsp;against&nbsp;fear&nbsp;effects.&nbsp;Creatures&nbsp;that&nbsp;are&nbsp;normally&nbsp;immune&nbsp;to&nbsp;fear&nbsp;lose&nbsp;that&nbsp;immunity&nbsp;while&nbsp;within&nbsp;10&nbsp;feet&nbsp;of&nbsp;a&nbsp;dread&nbsp;with&nbsp;this&nbsp;ability.&nbsp;This&nbsp;ability&nbsp;functions&nbsp;only&nbsp;while&nbsp;the&nbsp;dread&nbsp;remains&nbsp;conscious,&nbsp;not&nbsp;if&nbsp;she&nbsp;is&nbsp;unconscious&nbsp;or&nbsp;dead.
+
+      </p><p></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 43–47
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 40–44
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: aura-of-fear
+type: feat

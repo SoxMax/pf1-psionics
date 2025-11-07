@@ -1,0 +1,28 @@
+_id: U0BpvY7AgjNnsJfB
+_key: '!items!U0BpvY7AgjNnsJfB'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Wild Talent
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Soulknife
+  description:
+    value: >-
+      <p><b>Wild&nbsp;Talent:</b>The&nbsp;soulknife&nbsp;gains&nbsp;<a&nbsp;href="/wiki/Wild_Talent"&nbsp;title="Wild&nbsp;Talent">Wild&nbsp;Talent</a>&nbsp;as&nbsp;a&nbsp;bonus&nbsp;feat&nbsp;at&nbsp;1st&nbsp;level.&nbsp;This&nbsp;provides&nbsp;her&nbsp;with&nbsp;the&nbsp;psionic&nbsp;power&nbsp;necessary&nbsp;to&nbsp;manifest&nbsp;her&nbsp;mind&nbsp;blade.&nbsp;A&nbsp;character&nbsp;who&nbsp;is&nbsp;already&nbsp;psionic&nbsp;instead&nbsp;gains&nbsp;the&nbsp;<a&nbsp;href="/wiki/Psionic_Talent"&nbsp;title="Psionic&nbsp;Talent">Psionic&nbsp;Talent</a>&nbsp;feat.
+
+      </p><p></p>
+  sources:
+    - date: '2010-08-01'
+      pages: 28–33
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 57–64
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: wild-talent
+type: feat

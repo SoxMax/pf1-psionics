@@ -1,0 +1,28 @@
+_id: EP9Mhhy8Od5pgL8h
+_key: '!items!EP9Mhhy8Od5pgL8h'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Disrupt Pattern
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: >-
+      <p><b>Disrupt&nbsp;Pattern:</b>All&nbsp;cryptics&nbsp;are&nbsp;able&nbsp;to&nbsp;disrupt&nbsp;the&nbsp;patterns&nbsp;they&nbsp;can&nbsp;perceive,&nbsp;although&nbsp;the&nbsp;potency&nbsp;of&nbsp;this&nbsp;disruption&nbsp;is&nbsp;based&nbsp;on&nbsp;the&nbsp;cryptic's&nbsp;focus.&nbsp;When&nbsp;a&nbsp;cryptic&nbsp;gains&nbsp;psionic&nbsp;focus,&nbsp;she&nbsp;selects&nbsp;one&nbsp;creature&nbsp;type&nbsp;as&nbsp;her&nbsp;active&nbsp;type&nbsp;(she&nbsp;does&nbsp;not&nbsp;need&nbsp;to&nbsp;select&nbsp;a&nbsp;subtype).&nbsp;As&nbsp;a&nbsp;standard&nbsp;action,&nbsp;the&nbsp;cryptic&nbsp;can&nbsp;make&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;with&nbsp;a&nbsp;range&nbsp;of&nbsp;30&nbsp;feet,&nbsp;firing&nbsp;a&nbsp;ray&nbsp;of&nbsp;black&nbsp;energy&nbsp;at&nbsp;the&nbsp;target.&nbsp;If&nbsp;the&nbsp;attack&nbsp;is&nbsp;successful,&nbsp;the&nbsp;cryptic&nbsp;deals&nbsp;1d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;+&nbsp;additional&nbsp;damage&nbsp;equal&nbsp;to&nbsp;the&nbsp;cryptic's&nbsp;Intelligence&nbsp;modifier.&nbsp;This&nbsp;attack&nbsp;deals&nbsp;half&nbsp;damage&nbsp;if&nbsp;the&nbsp;target's&nbsp;type&nbsp;is&nbsp;not&nbsp;of&nbsp;the&nbsp;cryptic's&nbsp;active&nbsp;type.&nbsp;Like&nbsp;some&nbsp;other&nbsp;rays,&nbsp;if&nbsp;the&nbsp;attack&nbsp;roll&nbsp;of&nbsp;this&nbsp;ability&nbsp;would&nbsp;indicate&nbsp;a&nbsp;critical&nbsp;hit,&nbsp;the&nbsp;damage&nbsp;is&nbsp;doubled.&nbsp;This&nbsp;ability&nbsp;can&nbsp;only&nbsp;be&nbsp;used&nbsp;once&nbsp;per&nbsp;round,&nbsp;even&nbsp;if&nbsp;an&nbsp;item&nbsp;or&nbsp;other&nbsp;effect&nbsp;would&nbsp;duplicate&nbsp;it.
+
+      </p><p></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 36–42
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 34–40
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: disrupt-pattern
+type: feat

@@ -1,0 +1,30 @@
+_id: pr4HtIglbpCarwRX
+_key: '!items!pr4HtIglbpCarwRX'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Fear Incarnate
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Dread
+  description:
+    value: >-
+      <p><b>Fear&nbsp;Incarnate:</b>At&nbsp;20th&nbsp;level&nbsp;the&nbsp;dread&nbsp;no&nbsp;longer&nbsp;acts&nbsp;as&nbsp;a&nbsp;simple&nbsp;conduit&nbsp;between&nbsp;the&nbsp;realm&nbsp;of&nbsp;nightmares&nbsp;and&nbsp;the&nbsp;Material&nbsp;Plane,&nbsp;but&nbsp;becomes&nbsp;the&nbsp;embodiment&nbsp;of&nbsp;nightmares.&nbsp;The&nbsp;dread's&nbsp;type&nbsp;changes&nbsp;to&nbsp;Outsider&nbsp;(native),&nbsp;she&nbsp;gains&nbsp;DR&nbsp;10/psionic,&nbsp;and&nbsp;she&nbsp;gains&nbsp;the&nbsp;ability&nbsp;to&nbsp;turn&nbsp;ethereal&nbsp;at&nbsp;will.&nbsp;In&nbsp;addition,&nbsp;the&nbsp;dread&nbsp;can&nbsp;use&nbsp;the&nbsp;Nightmare&nbsp;Form&nbsp;terror&nbsp;at&nbsp;will,&nbsp;even&nbsp;if&nbsp;she&nbsp;does&nbsp;not&nbsp;already&nbsp;have&nbsp;it.&nbsp;Using&nbsp;Nightmare&nbsp;Form&nbsp;no&nbsp;longer&nbsp;consumes&nbsp;a&nbsp;use&nbsp;of&nbsp;her&nbsp;terrors&nbsp;for&nbsp;the&nbsp;day.
+
+      </p>
+
+      <div&nbsp;class="mw-heading&nbsp;mw-heading2"></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 43–47
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 40–44
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: fear-incarnate
+type: feat

@@ -1,0 +1,30 @@
+_id: 2cRtj90eJfuJ5Pt9
+_key: '!items!2cRtj90eJfuJ5Pt9'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Pattern Designs
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: >-
+      <p><b>Pattern&nbsp;Designs:</b>Unlike&nbsp;normal&nbsp;manifesters,&nbsp;a&nbsp;cryptic&nbsp;manipulates&nbsp;the&nbsp;world&nbsp;around&nbsp;her&nbsp;by&nbsp;creating&nbsp;tattoos&nbsp;and&nbsp;patterns&nbsp;that&nbsp;alters&nbsp;reality&nbsp;in&nbsp;different&nbsp;ways.&nbsp;Cryptic&nbsp;powers&nbsp;show&nbsp;up&nbsp;on&nbsp;the&nbsp;cryptic's&nbsp;body&nbsp;in&nbsp;the&nbsp;form&nbsp;of&nbsp;tattoos.&nbsp;The&nbsp;cryptic's&nbsp;known&nbsp;powers&nbsp;can&nbsp;be&nbsp;identified&nbsp;via&nbsp;Spellcraft&nbsp;checks&nbsp;with&nbsp;a&nbsp;DC&nbsp;equal&nbsp;to&nbsp;10&nbsp;+&nbsp;double&nbsp;the&nbsp;power's&nbsp;level.&nbsp;These&nbsp;tattoos&nbsp;do&nbsp;not&nbsp;count&nbsp;against&nbsp;the&nbsp;number&nbsp;of&nbsp;psionic&nbsp;tattoos&nbsp;that&nbsp;the&nbsp;cryptic&nbsp;can&nbsp;safely&nbsp;wear.
+
+      </p><p>When&nbsp;a&nbsp;cryptic&nbsp;manifests&nbsp;one&nbsp;of&nbsp;her&nbsp;powers,&nbsp;it&nbsp;creates&nbsp;a&nbsp;visual&nbsp;pattern&nbsp;of&nbsp;energy&nbsp;during&nbsp;the&nbsp;action&nbsp;taken&nbsp;to&nbsp;manifest&nbsp;the&nbsp;pattern.&nbsp;While&nbsp;the&nbsp;cryptic's&nbsp;powers&nbsp;have&nbsp;the&nbsp;normal&nbsp;displays&nbsp;for&nbsp;psionic&nbsp;powers&nbsp;–&nbsp;auditory,&nbsp;mental,&nbsp;and&nbsp;the&nbsp;like&nbsp;–&nbsp;this&nbsp;visual&nbsp;pattern&nbsp;unique&nbsp;to&nbsp;the&nbsp;cryptic&nbsp;cannot&nbsp;be&nbsp;suppressed&nbsp;as&nbsp;normal&nbsp;displays&nbsp;can&nbsp;be&nbsp;suppressed.
+
+      </p><p></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 36–42
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 34–40
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: pattern-designs
+type: feat

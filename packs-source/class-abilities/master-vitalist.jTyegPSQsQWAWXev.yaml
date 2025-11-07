@@ -1,0 +1,30 @@
+_id: jTyegPSQsQWAWXev
+_key: '!items!jTyegPSQsQWAWXev'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Master Vitalist
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Vitalist
+  description:
+    value: >-
+      <p><b>Master&nbsp;Vitalist:</b>Upon&nbsp;achieving&nbsp;20th&nbsp;level,&nbsp;a&nbsp;vitalist&nbsp;has&nbsp;reached&nbsp;the&nbsp;pinnacle&nbsp;of&nbsp;his&nbsp;method,&nbsp;gaining&nbsp;a&nbsp;special&nbsp;ability&nbsp;unique&nbsp;to&nbsp;his&nbsp;chosen&nbsp;method.
+
+      </p>
+
+      <div&nbsp;class="mw-heading&nbsp;mw-heading2"></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 57–61
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 69–72
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: master-vitalist
+type: feat
