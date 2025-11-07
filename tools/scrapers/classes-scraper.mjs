@@ -23,6 +23,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import yaml from 'js-yaml';
 import {
   getScraperPaths,
   fetchHTML,
@@ -30,6 +31,7 @@ import {
   sluggify,
   generateFoundryId,
   writeYAMLPack,
+  writeItemsWithDeduplication,
   parseSourceInfo
 } from './common.mjs';
 
@@ -263,13 +265,10 @@ function matchFeaturesToLevels(html, classFeatures) {
           }
         }
 
-        // If no match found, still track it for the first level it appears
-        if (!matched) {
-          if (!featureLevels.has(entry)) {
-            featureLevels.set(entry, []);
-          }
-          featureLevels.get(entry).push(level);
-        }
+        // Skip unmatched entries - they're likely parenthetical clarifications
+        // or table formatting artifacts, not actual features
+        // e.g., "secondary path (trance, maneuver)" splits into "trance" and "maneuver)"
+        // which don't correspond to actual class features
       }
     }
   }
@@ -816,13 +815,13 @@ async function scrapeAllClasses(systemURL = 'https://metzo.miraheze.org/wiki/Psi
     }
   }
 
-  // Write outputs
+  // Write outputs with deduplication
   const rootDir = path.join(TOOLS_DIR, '..');
-  const classStats = writeYAMLPack('classes', allClassItems, rootDir);
-  const abilityStats = writeYAMLPack('class-abilities', allAbilities, rootDir);
+  const classStats = writeItemsWithDeduplication('classes', allClassItems, rootDir);
+  const abilityStats = writeItemsWithDeduplication('class-abilities', allAbilities, rootDir);
 
-  console.log(`\nClasses: written=${classStats.written}, skipped=${classStats.skipped}, errors=${classStats.errors.length}`);
-  console.log(`Abilities: written=${abilityStats.written}, skipped=${abilityStats.skipped}, errors=${abilityStats.errors.length}`);
+  console.log(`\nClasses: written=${classStats.written}, updated=${classStats.updated}, skipped=${classStats.skipped}, errors=${classStats.errors.length}`);
+  console.log(`Abilities: written=${abilityStats.written}, updated=${abilityStats.updated}, skipped=${abilityStats.skipped}, errors=${abilityStats.errors.length}`);
 
   if (classStats.errors.length > 0) {
     console.error('Class errors:', classStats.errors);
@@ -850,13 +849,13 @@ async function main() {
     console.log(`Scraping single class: ${url}`);
     const { classItem, abilities } = await scrapeClass(url);
 
-    // Write outputs
+    // Write outputs with deduplication
     const rootDir = path.join(TOOLS_DIR, '..');
-    const classStats = writeYAMLPack('classes', [classItem], rootDir);
-    const abilityStats = writeYAMLPack('class-abilities', abilities, rootDir);
+    const classStats = writeItemsWithDeduplication('classes', [classItem], rootDir);
+    const abilityStats = writeItemsWithDeduplication('class-abilities', abilities, rootDir);
 
-    console.log(`\nClasses: written=${classStats.written}, skipped=${classStats.skipped}`);
-    console.log(`Abilities: written=${abilityStats.written}, skipped=${abilityStats.skipped}`);
+    console.log(`\nClasses: written=${classStats.written}, updated=${classStats.updated}, skipped=${classStats.skipped}`);
+    console.log(`Abilities: written=${abilityStats.written}, updated=${abilityStats.updated}, skipped=${abilityStats.skipped}`);
 
     if (classStats.errors.length > 0) {
       console.error('Class errors:', classStats.errors);
