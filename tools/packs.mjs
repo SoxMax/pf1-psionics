@@ -129,12 +129,25 @@ function sanitizePackEntry(entry, documentType = "", { childDocument = false } =
     if (Object.keys(entry.flags).length === 0) delete entry.flags;
   }
 
-  // Sanitize HTML fields
-  if (entry.system?.description?.value) {
-    entry.system.description.value = sanitizeHTML(entry.system.description.value);
-  }
-  if (entry.system?.description?.augment) {
-    entry.system.description.augment = sanitizeHTML(entry.system.description.augment);
+  // Sanitize HTML fields based on document type
+  const htmlFields = {
+    class: ["system.description.value", "system.description.summary"],
+    feat: ["system.description.value"],
+    default: ["system.description.value", "system.description.augment"],
+  };
+
+  const fieldsToSanitize = htmlFields[entry.type] || htmlFields.default;
+  for (const fieldPath of fieldsToSanitize) {
+    const parts = fieldPath.split(".");
+    let obj = entry;
+    for (let i = 0; i < parts.length - 1; i++) {
+      if (!obj[parts[i]]) break;
+      obj = obj[parts[i]];
+    }
+    const lastPart = parts[parts.length - 1];
+    if (obj && obj[lastPart]) {
+      obj[lastPart] = sanitizeHTML(obj[lastPart]);
+    }
   }
 
   // Sanitize actions
@@ -148,8 +161,20 @@ function sanitizePackEntry(entry, documentType = "", { childDocument = false } =
       if (action.activation?.cost === null) {
         delete action.activation.cost;
       }
+      // Clean up unchained activation cost nulls
+      if (action.activation?.unchained?.cost === null) {
+        delete action.activation.unchained.cost;
+      }
       pruneObject(action);
     }
+  }
+
+  // For class items, sanitize the classAssociations links
+  if (entry.type === "class" && entry.system?.links?.classAssociations) {
+    // Ensure each association has level and uuid
+    entry.system.links.classAssociations = entry.system.links.classAssociations.filter(
+      assoc => assoc.level !== null && assoc.uuid
+    );
   }
 
   // Remove folder if null or is child document
@@ -179,6 +204,35 @@ function getFolderForPower(power) {
   };
 
   return disciplineMap[discipline] || null;
+}
+
+/**
+ * Get folder name for item based on its type.
+ * Returns null for items that should not be organized into folders.
+ */
+function getFolderForItem(entry) {
+  // For powers, organize by discipline
+  if (entry.type === "pf1-psionics.power") {
+    return getFolderForPower(entry);
+  }
+
+  // Classes don't need subfolders - keep them flat
+  if (entry.type === "class") {
+    return null;
+  }
+
+  // For class abilities (feats with classFeat subtype), don't create folders
+  // Let the natural folder structure from extraction handle organization
+  if (entry.type === "feat" && entry.system?.subType === "classFeat") {
+    return null;
+  }
+
+  // For other feats (psionic, metapsionic), don't create folders
+  if (entry.type === "feat") {
+    return null;
+  }
+
+  return null;
 }
 
 /**
@@ -269,28 +323,29 @@ async function extractPack(packName, options = {}) {
     transformEntry: (entry) => {
       return sanitizePackEntry(entry, "Item");
     },
-    transformName: (entry) => {
-      let folder = null;
-
-      // For powers, organize by discipline
-      if (entry.type === "pf1-psionics.power") {
-        folder = getFolderForPower(entry);
-      }
+    transformName: (entry, { folder }) => {
+      // Use folder from extraction (for class abilities with folder structure)
+      // or get programmatic folder (for powers organized by discipline)
+      let finalFolder = folder || getFolderForItem(entry);
 
       const filename = `${sluggify(entry.name)}.${entry._id}.yaml`;
 
       // Track touched file
       let fullPath;
-      if (folder) {
-        fullPath = normalizePath(path.join(sourcePath, folder, filename));
+      if (finalFolder) {
+        fullPath = normalizePath(path.join(sourcePath, finalFolder, filename));
         touchedFiles.add(fullPath);
-        return path.join(folder, filename);
+        return path.join(finalFolder, filename);
       } else {
         fullPath = normalizePath(path.join(sourcePath, filename));
         touchedFiles.add(fullPath);
         return filename;
       }
     },
+    transformFolderName: (entry) => {
+      return sluggify(entry.name);
+    },
+    folders: true,
     yaml: true,
     yamlOptions: {
       sortKeys: true,

@@ -45,16 +45,18 @@
       "sorting": "a",
       "color": "#6a5acd",
       "packs": [
-        "powers",
-        "feats"
+        "class-abilities",
+        "classes",
+        "feats",
+        "powers"
       ]
     }
   ],
   "packs": [
     {
-      "name": "classes",
-      "label": "Psionic Classes",
-      "path": "packs/classes",
+      "name": "class-abilities",
+      "label": "Psionic Class Abilities",
+      "path": "packs/class-abilities",
       "type": "Item",
       "system": "pf1",
       "ownership": {
@@ -63,9 +65,9 @@
       }
     },
     {
-      "name": "class-abilities",
-      "label": "Psionic Class Abilities",
-      "path": "packs/class-abilities",
+      "name": "classes",
+      "label": "Psionic Classes",
+      "path": "packs/classes",
       "type": "Item",
       "system": "pf1",
       "ownership": {
