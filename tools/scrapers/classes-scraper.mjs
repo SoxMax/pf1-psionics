@@ -29,7 +29,8 @@ import {
   extractInfoboxData,
   sluggify,
   generateFoundryId,
-  writeYAMLPack
+  writeYAMLPack,
+  parseSourceInfo
 } from './common.mjs';
 
 const { TOOLS_DIR } = getScraperPaths(import.meta.url);
@@ -428,53 +429,6 @@ function mapSkillsToCodes(skillNames) {
   }
 
   return result;
-}
-
-/**
- * Parse source information from sourcebook text
- * @param {string} sourceText - Source text (e.g., "Ultimate Psionics, pgs. 69–72")
- * @returns {object} - Source object with title, pages, publisher, date
- */
-function parseSourceInfo(sourceText) {
-  // Known publication dates and publishers
-  const sourceMetadata = {
-    'Ultimate Psionics': {
-      date: '2013-12-24',
-      publisher: 'Dreamscarred Press'
-    },
-    'Psionics Expanded': {
-      date: '2012-07-23',
-      publisher: 'Dreamscarred Press'
-    },
-    'Psionics Augmented': {
-      date: '2012-01-01',
-      publisher: 'Dreamscarred Press'
-    },
-    'Psionics Unleashed': {
-      date: '2010-08-01',
-      publisher: 'Dreamscarred Press'
-    }
-  };
-
-  // Extract title and pages
-  const match = sourceText.match(/([^,]+?)(?:,\s*pgs?\.?\s*([\d–\-]+))?$/);
-
-  if (!match) return null;
-
-  const title = match[1].trim();
-  const pages = match[2] || '';
-
-  const metadata = sourceMetadata[title] || {
-    date: '2010-01-01',
-    publisher: 'Dreamscarred Press'
-  };
-
-  return {
-    title: title,
-    pages: pages,
-    publisher: metadata.publisher,
-    date: metadata.date
-  };
 }
 
 /**

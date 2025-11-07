@@ -302,11 +302,61 @@ export function extractCategoryLinks(html, options = {}) {
 }
 
 /**
- * Parse sourcebook HTML into sources array
+ * Known source metadata for Dreamscarred Press publications
+ * Maps book titles to publication dates and publishers
+ */
+export const SOURCE_METADATA = {
+  'Ultimate Psionics': {
+    date: '2013-12-24',
+    publisher: 'Dreamscarred Press'
+  },
+  'Psionics Expanded': {
+    date: '2012-07-23',
+    publisher: 'Dreamscarred Press'
+  },
+  'Psionics Augmented': {
+    date: '2012-01-01',
+    publisher: 'Dreamscarred Press'
+  },
+  'Psionics Unleashed': {
+    date: '2010-08-01',
+    publisher: 'Dreamscarred Press'
+  }
+};
+
+/**
+ * Parse a single source text into a structured object with metadata
+ * @param {string} sourceText - Source text (e.g., "Ultimate Psionics, pgs. 69–72")
+ * @returns {object|null} - Source object with title, pages, publisher, date
+ */
+export function parseSourceInfo(sourceText) {
+  // Match pattern: "Book Name, pg(s). page-numbers"
+  const match = sourceText.match(/^([^,]+?)(?:,\s*pgs?\.?\s*([\d–\-]+))?$/);
+
+  if (!match) return null;
+
+  const title = match[1].trim();
+  const pages = match[2] || '';
+
+  const metadata = SOURCE_METADATA[title] || {
+    date: '2010-01-01',
+    publisher: 'Dreamscarred Press'
+  };
+
+  return {
+    title: title,
+    pages: pages,
+    publisher: metadata.publisher,
+    date: metadata.date
+  };
+}
+
+/**
+ * Parse sourcebook HTML into sources array with metadata
  * Format: "<i>Psionics Unleashed</i>, pgs. 106–107<br /><i>Ultimate Psionics</i>, pg. 196"
  *
  * @param {string} html - Raw HTML from sourcebook field
- * @returns {Array} - Array of source objects with title, pages, and publisher
+ * @returns {Array} - Array of source objects with title, pages, publisher, and date
  */
 export function parseSourcebooks(html) {
   const sources = [];
@@ -321,20 +371,11 @@ export function parseSourcebooks(html) {
       .replace(/&amp;/g, '&')
       .trim();
 
-    // Match pattern: "Book Name, pg(s). page-numbers"
-    const match = cleanEntry.match(/^([^,]+),\s*pgs?\.\s*(.+)$/);
-    if (match) {
-      const title = decodeHTMLEntities(match[1].trim());
-      const pages = decodeHTMLEntities(match[2].trim());
+    if (!cleanEntry) continue;
 
-      sources.push({
-        title: title,
-        pages: pages,
-        id: '', // Could generate from title if needed
-        errata: '',
-        date: '',
-        publisher: 'Dreamscarred Press'
-      });
+    const sourceInfo = parseSourceInfo(cleanEntry);
+    if (sourceInfo) {
+      sources.push(sourceInfo);
     }
   }
 
