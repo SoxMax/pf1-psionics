@@ -10,8 +10,9 @@ system:
     classes:
       - Highlord
   description:
-    value: |-
-      <p><b>gift of power:</b> At 3rd level, the highlord is capable of sharing a portion of his power with his allies. The highlord chooses a power that he can manifest. This power gains the Network descriptor when manifested by the highlord. At 6th level, and every three levels thereafter, the highlord can choose an additional power of a different level that he can manifest to give the Network descriptor to. Whenever the highlord gains a level, he may change which powers to grant the Network descriptor to. However, any power that the highlord chooses must be the same level as the power he is changing it from.
+    value: >-
+      <p><b>gift&nbsp;of&nbsp;power:</b>&nbsp;At&nbsp;3rd&nbsp;level,&nbsp;the&nbsp;highlord&nbsp;is&nbsp;capable&nbsp;of&nbsp;sharing&nbsp;a&nbsp;portion&nbsp;of&nbsp;his&nbsp;power&nbsp;with&nbsp;his&nbsp;allies.&nbsp;The&nbsp;highlord&nbsp;chooses&nbsp;a&nbsp;power&nbsp;that&nbsp;he&nbsp;can&nbsp;manifest.&nbsp;This&nbsp;power&nbsp;gains&nbsp;the&nbsp;Network&nbsp;descriptor&nbsp;when&nbsp;manifested&nbsp;by&nbsp;the&nbsp;highlord.&nbsp;At&nbsp;6th&nbsp;level,&nbsp;and&nbsp;every&nbsp;three&nbsp;levels&nbsp;thereafter,&nbsp;the&nbsp;highlord&nbsp;can&nbsp;choose&nbsp;an&nbsp;additional&nbsp;power&nbsp;of&nbsp;a&nbsp;different&nbsp;level&nbsp;that&nbsp;he&nbsp;can&nbsp;manifest&nbsp;to&nbsp;give&nbsp;the&nbsp;Network&nbsp;descriptor&nbsp;to.&nbsp;Whenever&nbsp;the&nbsp;highlord&nbsp;gains&nbsp;a&nbsp;level,&nbsp;he&nbsp;may&nbsp;change&nbsp;which&nbsp;powers&nbsp;to&nbsp;grant&nbsp;the&nbsp;Network&nbsp;descriptor&nbsp;to.&nbsp;However,&nbsp;any&nbsp;power&nbsp;that&nbsp;the&nbsp;highlord&nbsp;chooses&nbsp;must&nbsp;be&nbsp;the&nbsp;same&nbsp;level&nbsp;as&nbsp;the&nbsp;power&nbsp;he&nbsp;is&nbsp;changing&nbsp;it&nbsp;from.
+
       </p>
   subType: classFeat
   tag: gift-of-power

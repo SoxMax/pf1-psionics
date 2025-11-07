@@ -10,7 +10,8 @@ system:
     classes:
       - Psion
   description:
-    value: <p><b>talents:</b> Each psion gains three 0 level talents of their choice, as well as </p>
+    value: >-
+      <p><b>talents:</b>&nbsp;Each&nbsp;psion&nbsp;gains&nbsp;three&nbsp;0&nbsp;level&nbsp;talents&nbsp;of&nbsp;their&nbsp;choice,&nbsp;as&nbsp;well&nbsp;as&nbsp;</p>
   subType: classFeat
   tag: talents
 type: feat

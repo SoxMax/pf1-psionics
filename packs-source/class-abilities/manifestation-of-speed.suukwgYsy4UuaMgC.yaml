@@ -10,8 +10,9 @@ system:
     classes:
       - Voyager
   description:
-    value: |-
-      <p><b>manifestation of speed:</b> At 2nd level, a voyager gains the ability to combine her kinetic and psionic energy into special types of attacks called augmented attacks. Making an augmented attack is a standard action and is made like a normal attack with a weapon, but is prefaced by the expenditure of points of momentum, power points, or both.
+    value: >-
+      <p><b>manifestation&nbsp;of&nbsp;speed:</b>&nbsp;At&nbsp;2nd&nbsp;level,&nbsp;a&nbsp;voyager&nbsp;gains&nbsp;the&nbsp;ability&nbsp;to&nbsp;combine&nbsp;her&nbsp;kinetic&nbsp;and&nbsp;psionic&nbsp;energy&nbsp;into&nbsp;special&nbsp;types&nbsp;of&nbsp;attacks&nbsp;called&nbsp;augmented&nbsp;attacks.&nbsp;Making&nbsp;an&nbsp;augmented&nbsp;attack&nbsp;is&nbsp;a&nbsp;standard&nbsp;action&nbsp;and&nbsp;is&nbsp;made&nbsp;like&nbsp;a&nbsp;normal&nbsp;attack&nbsp;with&nbsp;a&nbsp;weapon,&nbsp;but&nbsp;is&nbsp;prefaced&nbsp;by&nbsp;the&nbsp;expenditure&nbsp;of&nbsp;points&nbsp;of&nbsp;momentum,&nbsp;power&nbsp;points,&nbsp;or&nbsp;both.
+
       </p>
   subType: classFeat
   tag: manifestation-of-speed

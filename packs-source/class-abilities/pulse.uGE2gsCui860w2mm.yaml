@@ -10,8 +10,9 @@ system:
     classes:
       - Vitalist
   description:
-    value: |-
-      <p><b>Pulse:</b> A vitalist of 6th level can project an pulse of psionic energy to all members of his collective as a free action by spending 1 power point. The effect of the pulse depends on the vitalist's chosen method. The pulse lasts one round.
+    value: >-
+      <p><b>Pulse:</b>&nbsp;A&nbsp;vitalist&nbsp;of&nbsp;6th&nbsp;level&nbsp;can&nbsp;project&nbsp;an&nbsp;pulse&nbsp;of&nbsp;psionic&nbsp;energy&nbsp;to&nbsp;all&nbsp;members&nbsp;of&nbsp;his&nbsp;collective&nbsp;as&nbsp;a&nbsp;free&nbsp;action&nbsp;by&nbsp;spending&nbsp;1&nbsp;power&nbsp;point.&nbsp;The&nbsp;effect&nbsp;of&nbsp;the&nbsp;pulse&nbsp;depends&nbsp;on&nbsp;the&nbsp;vitalist's&nbsp;chosen&nbsp;method.&nbsp;The&nbsp;pulse&nbsp;lasts&nbsp;one&nbsp;round.
+
       </p>
   subType: classFeat
   tag: pulse

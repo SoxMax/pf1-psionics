@@ -10,8 +10,9 @@ system:
     classes:
       - Highlord
   description:
-    value: |-
-      <p><b>supremacy:</b> Once per round, when a 20th level highlord would die or be destroyed, he may choose to have a member of his collective die or be destroyed in his stead. Loss of hit points and death effects simply fail to kill him, he suffers no change in Constitution score, and he ignores ongoing damage for a round. The highlord is healed for an amount equal to the current hit points of the member who died for him. If this amount of hit points is not enough to bring the highlord back above the threshold of death, then the highlord still dies. This is a death effect, and he may not choose a creature immune to death effects to die in his stead.
+    value: >-
+      <p><b>supremacy:</b>&nbsp;Once&nbsp;per&nbsp;round,&nbsp;when&nbsp;a&nbsp;20th&nbsp;level&nbsp;highlord&nbsp;would&nbsp;die&nbsp;or&nbsp;be&nbsp;destroyed,&nbsp;he&nbsp;may&nbsp;choose&nbsp;to&nbsp;have&nbsp;a&nbsp;member&nbsp;of&nbsp;his&nbsp;collective&nbsp;die&nbsp;or&nbsp;be&nbsp;destroyed&nbsp;in&nbsp;his&nbsp;stead.&nbsp;Loss&nbsp;of&nbsp;hit&nbsp;points&nbsp;and&nbsp;death&nbsp;effects&nbsp;simply&nbsp;fail&nbsp;to&nbsp;kill&nbsp;him,&nbsp;he&nbsp;suffers&nbsp;no&nbsp;change&nbsp;in&nbsp;Constitution&nbsp;score,&nbsp;and&nbsp;he&nbsp;ignores&nbsp;ongoing&nbsp;damage&nbsp;for&nbsp;a&nbsp;round.&nbsp;The&nbsp;highlord&nbsp;is&nbsp;healed&nbsp;for&nbsp;an&nbsp;amount&nbsp;equal&nbsp;to&nbsp;the&nbsp;current&nbsp;hit&nbsp;points&nbsp;of&nbsp;the&nbsp;member&nbsp;who&nbsp;died&nbsp;for&nbsp;him.&nbsp;If&nbsp;this&nbsp;amount&nbsp;of&nbsp;hit&nbsp;points&nbsp;is&nbsp;not&nbsp;enough&nbsp;to&nbsp;bring&nbsp;the&nbsp;highlord&nbsp;back&nbsp;above&nbsp;the&nbsp;threshold&nbsp;of&nbsp;death,&nbsp;then&nbsp;the&nbsp;highlord&nbsp;still&nbsp;dies.&nbsp;This&nbsp;is&nbsp;a&nbsp;death&nbsp;effect,&nbsp;and&nbsp;he&nbsp;may&nbsp;not&nbsp;choose&nbsp;a&nbsp;creature&nbsp;immune&nbsp;to&nbsp;death&nbsp;effects&nbsp;to&nbsp;die&nbsp;in&nbsp;his&nbsp;stead.
+
       </p>
   subType: classFeat
   tag: supremacy

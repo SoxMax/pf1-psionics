@@ -10,7 +10,7 @@ system:
     classes:
       - Vitalist
   description:
-    value: <p>collective range</p>
+    value: <p>collective&nbsp;range</p>
   subType: classFeat
   tag: collective-range
 type: feat

@@ -10,8 +10,9 @@ system:
     classes:
       - Psychic Warrior
   description:
-    value: |-
-      <p><b>Path skill:</b> At 4th level, the psychic warrior gains a +2 bonus to one skill associated with a path he is on. Every three levels thereafter, he can choose to increase the bonus to one of his path skills by +2 (to a maximum of +6 for any one path skill). This may be a skill he has already chosen or a new skill associated with a path he is on.
+    value: >-
+      <p><b>Path&nbsp;skill:</b>&nbsp;At&nbsp;4th&nbsp;level,&nbsp;the&nbsp;psychic&nbsp;warrior&nbsp;gains&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;to&nbsp;one&nbsp;skill&nbsp;associated&nbsp;with&nbsp;a&nbsp;path&nbsp;he&nbsp;is&nbsp;on.&nbsp;Every&nbsp;three&nbsp;levels&nbsp;thereafter,&nbsp;he&nbsp;can&nbsp;choose&nbsp;to&nbsp;increase&nbsp;the&nbsp;bonus&nbsp;to&nbsp;one&nbsp;of&nbsp;his&nbsp;path&nbsp;skills&nbsp;by&nbsp;+2&nbsp;(to&nbsp;a&nbsp;maximum&nbsp;of&nbsp;+6&nbsp;for&nbsp;any&nbsp;one&nbsp;path&nbsp;skill).&nbsp;This&nbsp;may&nbsp;be&nbsp;a&nbsp;skill&nbsp;he&nbsp;has&nbsp;already&nbsp;chosen&nbsp;or&nbsp;a&nbsp;new&nbsp;skill&nbsp;associated&nbsp;with&nbsp;a&nbsp;path&nbsp;he&nbsp;is&nbsp;on.
+
       </p>
   subType: classFeat
   tag: path-skill

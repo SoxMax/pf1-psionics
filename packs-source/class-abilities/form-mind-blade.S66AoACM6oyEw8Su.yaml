@@ -10,8 +10,9 @@ system:
     classes:
       - Soulknife
   description:
-    value: |-
-      <p><b>form mind blade:</b> As a move action, a soulknife can form a semi-solid weapon composed of psychic energy distilled from her own mind.
+    value: >-
+      <p><b>form&nbsp;mind&nbsp;blade:</b>&nbsp;As&nbsp;a&nbsp;move&nbsp;action,&nbsp;a&nbsp;soulknife&nbsp;can&nbsp;form&nbsp;a&nbsp;semi-solid&nbsp;weapon&nbsp;composed&nbsp;of&nbsp;psychic&nbsp;energy&nbsp;distilled&nbsp;from&nbsp;her&nbsp;own&nbsp;mind.
+
       </p>
   subType: classFeat
   tag: form-mind-blade

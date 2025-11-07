@@ -10,8 +10,9 @@ system:
     classes:
       - Vitalist
   description:
-    value: |-
-      <p><b>Steal life:</b> Beginning at 14th level, a vitalist can not only steal the health of a target, but steal their life itself. By making a successful melee touch attack and expending psionic focus, the vitalist can force the target to make a Fortitude save (DC 10 + half class level + Wisdom modifier) or die. A successful save negates this effect. Targets with more than 140 hit points are unaffected by this ability.
+    value: >-
+      <p><b>Steal&nbsp;life:</b>&nbsp;Beginning&nbsp;at&nbsp;14th&nbsp;level,&nbsp;a&nbsp;vitalist&nbsp;can&nbsp;not&nbsp;only&nbsp;steal&nbsp;the&nbsp;health&nbsp;of&nbsp;a&nbsp;target,&nbsp;but&nbsp;steal&nbsp;their&nbsp;life&nbsp;itself.&nbsp;By&nbsp;making&nbsp;a&nbsp;successful&nbsp;melee&nbsp;touch&nbsp;attack&nbsp;and&nbsp;expending&nbsp;psionic&nbsp;focus,&nbsp;the&nbsp;vitalist&nbsp;can&nbsp;force&nbsp;the&nbsp;target&nbsp;to&nbsp;make&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;(DC&nbsp;10&nbsp;+&nbsp;half&nbsp;class&nbsp;level&nbsp;+&nbsp;Wisdom&nbsp;modifier)&nbsp;or&nbsp;die.&nbsp;A&nbsp;successful&nbsp;save&nbsp;negates&nbsp;this&nbsp;effect.&nbsp;Targets&nbsp;with&nbsp;more&nbsp;than&nbsp;140&nbsp;hit&nbsp;points&nbsp;are&nbsp;unaffected&nbsp;by&nbsp;this&nbsp;ability.
+
       </p>
   subType: classFeat
   tag: steal-life

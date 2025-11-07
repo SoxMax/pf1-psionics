@@ -10,8 +10,9 @@ system:
     classes:
       - Wilder
   description:
-    value: |-
-      <p><b>surge blast:</b> A wilder can channel her wild surge into a blast of uncontrolled phrenic energy. As a standard action and by expending psionic focus, the wilder can make a ranged touch attack (range 30') that deals 1d6 points of force damage for every +1 to her wild surge.
+    value: >-
+      <p><b>surge&nbsp;blast:</b>&nbsp;A&nbsp;wilder&nbsp;can&nbsp;channel&nbsp;her&nbsp;wild&nbsp;surge&nbsp;into&nbsp;a&nbsp;blast&nbsp;of&nbsp;uncontrolled&nbsp;phrenic&nbsp;energy.&nbsp;As&nbsp;a&nbsp;standard&nbsp;action&nbsp;and&nbsp;by&nbsp;expending&nbsp;psionic&nbsp;focus,&nbsp;the&nbsp;wilder&nbsp;can&nbsp;make&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;(range&nbsp;30')&nbsp;that&nbsp;deals&nbsp;1d6&nbsp;points&nbsp;of&nbsp;force&nbsp;damage&nbsp;for&nbsp;every&nbsp;+1&nbsp;to&nbsp;her&nbsp;wild&nbsp;surge.
+
       </p>
   subType: classFeat
   tag: surge-blast

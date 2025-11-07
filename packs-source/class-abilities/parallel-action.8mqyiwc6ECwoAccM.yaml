@@ -10,8 +10,9 @@ system:
     classes:
       - Voyager
   description:
-    value: |-
-      <p><b>Parallel action:</b> A voyager's aid from her parallel selves manifests through parallel actions that she knows. Parallel actions come in several categories, each with a listed level. When a voyager reaches the listed level, she chooses a specified number of parallel actions of the category of that level to learn. In addition, all voyagers learn the helping hand parallel action at 1st level for free.
+    value: >-
+      <p><b>Parallel&nbsp;action:</b>&nbsp;A&nbsp;voyager's&nbsp;aid&nbsp;from&nbsp;her&nbsp;parallel&nbsp;selves&nbsp;manifests&nbsp;through&nbsp;parallel&nbsp;actions&nbsp;that&nbsp;she&nbsp;knows.&nbsp;Parallel&nbsp;actions&nbsp;come&nbsp;in&nbsp;several&nbsp;categories,&nbsp;each&nbsp;with&nbsp;a&nbsp;listed&nbsp;level.&nbsp;When&nbsp;a&nbsp;voyager&nbsp;reaches&nbsp;the&nbsp;listed&nbsp;level,&nbsp;she&nbsp;chooses&nbsp;a&nbsp;specified&nbsp;number&nbsp;of&nbsp;parallel&nbsp;actions&nbsp;of&nbsp;the&nbsp;category&nbsp;of&nbsp;that&nbsp;level&nbsp;to&nbsp;learn.&nbsp;In&nbsp;addition,&nbsp;all&nbsp;voyagers&nbsp;learn&nbsp;the&nbsp;helping&nbsp;hand&nbsp;parallel&nbsp;action&nbsp;at&nbsp;1st&nbsp;level&nbsp;for&nbsp;free.
+
       </p>
   subType: classFeat
   tag: parallel-action

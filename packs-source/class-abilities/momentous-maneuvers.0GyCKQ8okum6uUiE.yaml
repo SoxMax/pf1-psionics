@@ -10,8 +10,9 @@ system:
     classes:
       - Voyager
   description:
-    value: |-
-      <p><b>momentous maneuvers:</b> At 5th level, the voyager can use her momentum for more than just direct damage, channeling it to enhance her tactical maneuvers. When she makes a combat maneuver check, she can expend momentum to augment her action and avoid provoking attacks of opportunity with the maneuver. She gains a +2 bonus on the combat maneuver roll for each point of momentum spent. The maximum bonus granted by this ability is 2 + 1/2 her voyager level.
+    value: >-
+      <p><b>momentous&nbsp;maneuvers:</b>&nbsp;At&nbsp;5th&nbsp;level,&nbsp;the&nbsp;voyager&nbsp;can&nbsp;use&nbsp;her&nbsp;momentum&nbsp;for&nbsp;more&nbsp;than&nbsp;just&nbsp;direct&nbsp;damage,&nbsp;channeling&nbsp;it&nbsp;to&nbsp;enhance&nbsp;her&nbsp;tactical&nbsp;maneuvers.&nbsp;When&nbsp;she&nbsp;makes&nbsp;a&nbsp;combat&nbsp;maneuver&nbsp;check,&nbsp;she&nbsp;can&nbsp;expend&nbsp;momentum&nbsp;to&nbsp;augment&nbsp;her&nbsp;action&nbsp;and&nbsp;avoid&nbsp;provoking&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;with&nbsp;the&nbsp;maneuver.&nbsp;She&nbsp;gains&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;the&nbsp;combat&nbsp;maneuver&nbsp;roll&nbsp;for&nbsp;each&nbsp;point&nbsp;of&nbsp;momentum&nbsp;spent.&nbsp;The&nbsp;maximum&nbsp;bonus&nbsp;granted&nbsp;by&nbsp;this&nbsp;ability&nbsp;is&nbsp;2&nbsp;+&nbsp;1/2&nbsp;her&nbsp;voyager&nbsp;level.
+
       </p>
   subType: classFeat
   tag: momentous-maneuvers

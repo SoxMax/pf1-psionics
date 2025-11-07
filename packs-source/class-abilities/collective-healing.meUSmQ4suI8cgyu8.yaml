@@ -10,8 +10,9 @@ system:
     classes:
       - Vitalist
   description:
-    value: |-
-      <p><b>collective healing:</b> Whenever a willing member of the vitalist's collective could regain lost hit points or ability damage, the vitalist may choose to redirect any or all of that healing to one or more other willing members of the collective as a free action. This can transfer instantaneous healing (such as a body adjustment power), healing from ongoing healing effects, such as fast healing, and even hit points gained from rest (in which case, a member of the collective would rest for a period of time as normal, and the amount of hit points and ability damage healed would go to another).
+    value: >-
+      <p><b>collective&nbsp;healing:</b>&nbsp;Whenever&nbsp;a&nbsp;willing&nbsp;member&nbsp;of&nbsp;the&nbsp;vitalist's&nbsp;collective&nbsp;could&nbsp;regain&nbsp;lost&nbsp;hit&nbsp;points&nbsp;or&nbsp;ability&nbsp;damage,&nbsp;the&nbsp;vitalist&nbsp;may&nbsp;choose&nbsp;to&nbsp;redirect&nbsp;any&nbsp;or&nbsp;all&nbsp;of&nbsp;that&nbsp;healing&nbsp;to&nbsp;one&nbsp;or&nbsp;more&nbsp;other&nbsp;willing&nbsp;members&nbsp;of&nbsp;the&nbsp;collective&nbsp;as&nbsp;a&nbsp;free&nbsp;action.&nbsp;This&nbsp;can&nbsp;transfer&nbsp;instantaneous&nbsp;healing&nbsp;(such&nbsp;as&nbsp;a&nbsp;body&nbsp;adjustment&nbsp;power),&nbsp;healing&nbsp;from&nbsp;ongoing&nbsp;healing&nbsp;effects,&nbsp;such&nbsp;as&nbsp;fast&nbsp;healing,&nbsp;and&nbsp;even&nbsp;hit&nbsp;points&nbsp;gained&nbsp;from&nbsp;rest&nbsp;(in&nbsp;which&nbsp;case,&nbsp;a&nbsp;member&nbsp;of&nbsp;the&nbsp;collective&nbsp;would&nbsp;rest&nbsp;for&nbsp;a&nbsp;period&nbsp;of&nbsp;time&nbsp;as&nbsp;normal,&nbsp;and&nbsp;the&nbsp;amount&nbsp;of&nbsp;hit&nbsp;points&nbsp;and&nbsp;ability&nbsp;damage&nbsp;healed&nbsp;would&nbsp;go&nbsp;to&nbsp;another).
+
       </p>
   subType: classFeat
   tag: collective-healing

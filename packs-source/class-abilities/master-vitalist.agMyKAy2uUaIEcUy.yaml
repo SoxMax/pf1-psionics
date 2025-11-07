@@ -10,8 +10,9 @@ system:
     classes:
       - Vitalist
   description:
-    value: |-
-      <p><b>Master vitalist:</b> Upon achieving 20th level, a vitalist has reached the pinnacle of his method, gaining a special ability unique to his chosen method.
+    value: >-
+      <p><b>Master&nbsp;vitalist:</b>&nbsp;Upon&nbsp;achieving&nbsp;20th&nbsp;level,&nbsp;a&nbsp;vitalist&nbsp;has&nbsp;reached&nbsp;the&nbsp;pinnacle&nbsp;of&nbsp;his&nbsp;method,&nbsp;gaining&nbsp;a&nbsp;special&nbsp;ability&nbsp;unique&nbsp;to&nbsp;his&nbsp;chosen&nbsp;method.
+
       </p>
   subType: classFeat
   tag: master-vitalist

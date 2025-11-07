@@ -6,12 +6,7 @@ img: systems/pf1/icons/items/inventory/brain-purple.png
 name: Soulknife
 system:
   alignment: Any
-  armorProf: []
   bab: low
-  classSkills: []
-  description:
-    summary: ''
-    value: ''
   hd: 6
   hp: 6
   level: 1
@@ -87,7 +82,6 @@ system:
     will:
       value: low
   skillsPerLevel: 2
-  sources: []
   subType: base
   tag: soulknife
   wealth: 2d6 * 10

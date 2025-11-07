@@ -10,8 +10,9 @@ system:
     classes:
       - Voyager
   description:
-    value: |-
-      <p><b>momentum:</b> A voyager generates kinetic energy that amplifies her dodging ability, but can also be channeled into an attack. Whenever the voyager moves, she generates 1 point of momentum for every 10 feet she moved. If the voyager teleports, she can treat the distance between her origin and arrival points as distance moved for the purposes of this effect. Effects that move or teleport the voyager unwillingly, such as a bull rush or a hostile teleport effect do not cause the voyager to generate momentum.
+    value: >-
+      <p><b>momentum:</b>&nbsp;A&nbsp;voyager&nbsp;generates&nbsp;kinetic&nbsp;energy&nbsp;that&nbsp;amplifies&nbsp;her&nbsp;dodging&nbsp;ability,&nbsp;but&nbsp;can&nbsp;also&nbsp;be&nbsp;channeled&nbsp;into&nbsp;an&nbsp;attack.&nbsp;Whenever&nbsp;the&nbsp;voyager&nbsp;moves,&nbsp;she&nbsp;generates&nbsp;1&nbsp;point&nbsp;of&nbsp;momentum&nbsp;for&nbsp;every&nbsp;10&nbsp;feet&nbsp;she&nbsp;moved.&nbsp;If&nbsp;the&nbsp;voyager&nbsp;teleports,&nbsp;she&nbsp;can&nbsp;treat&nbsp;the&nbsp;distance&nbsp;between&nbsp;her&nbsp;origin&nbsp;and&nbsp;arrival&nbsp;points&nbsp;as&nbsp;distance&nbsp;moved&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of&nbsp;this&nbsp;effect.&nbsp;Effects&nbsp;that&nbsp;move&nbsp;or&nbsp;teleport&nbsp;the&nbsp;voyager&nbsp;unwillingly,&nbsp;such&nbsp;as&nbsp;a&nbsp;bull&nbsp;rush&nbsp;or&nbsp;a&nbsp;hostile&nbsp;teleport&nbsp;effect&nbsp;do&nbsp;not&nbsp;cause&nbsp;the&nbsp;voyager&nbsp;to&nbsp;generate&nbsp;momentum.
+
       </p>
   subType: classFeat
   tag: momentum

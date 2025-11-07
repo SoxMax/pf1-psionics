@@ -10,7 +10,7 @@ system:
     classes:
       - Soulknife
   description:
-    value: <p>psychic strike +4d8</p>
+    value: <p>psychic&nbsp;strike&nbsp;+4d8</p>
   subType: classFeat
   tag: psychic-strike-4d8
 type: feat

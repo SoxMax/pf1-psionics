@@ -10,8 +10,9 @@ system:
     classes:
       - Cryptic
   description:
-    value: |-
-      <p><b>unchanging pattern:</b> At 18th level, the cryptic gains power resistance equal to 12 + her class level.
+    value: >-
+      <p><b>unchanging&nbsp;pattern:</b>&nbsp;At&nbsp;18th&nbsp;level,&nbsp;the&nbsp;cryptic&nbsp;gains&nbsp;power&nbsp;resistance&nbsp;equal&nbsp;to&nbsp;12&nbsp;+&nbsp;her&nbsp;class&nbsp;level.
+
       </p>
   subType: classFeat
   tag: unchanging-pattern

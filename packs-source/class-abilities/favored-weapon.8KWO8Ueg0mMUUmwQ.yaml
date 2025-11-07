@@ -10,8 +10,9 @@ system:
     classes:
       - Marksman
   description:
-    value: |-
-      <p><b>favored weapon:</b> Marksmen of 2nd level select a group of ranged weapons from the list below as their preferred weapons and gain a +1 competence bonus to ranged attack rolls made with any weapon of that group. Every four Marksman levels thereafter, this bonus increases by 1.
+    value: >-
+      <p><b>favored&nbsp;weapon:</b>&nbsp;Marksmen&nbsp;of&nbsp;2nd&nbsp;level&nbsp;select&nbsp;a&nbsp;group&nbsp;of&nbsp;ranged&nbsp;weapons&nbsp;from&nbsp;the&nbsp;list&nbsp;below&nbsp;as&nbsp;their&nbsp;preferred&nbsp;weapons&nbsp;and&nbsp;gain&nbsp;a&nbsp;+1&nbsp;competence&nbsp;bonus&nbsp;to&nbsp;ranged&nbsp;attack&nbsp;rolls&nbsp;made&nbsp;with&nbsp;any&nbsp;weapon&nbsp;of&nbsp;that&nbsp;group.&nbsp;Every&nbsp;four&nbsp;Marksman&nbsp;levels&nbsp;thereafter,&nbsp;this&nbsp;bonus&nbsp;increases&nbsp;by&nbsp;1.
+
       </p>
   subType: classFeat
   tag: favored-weapon

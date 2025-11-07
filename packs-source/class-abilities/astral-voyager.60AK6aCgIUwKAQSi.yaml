@@ -10,7 +10,8 @@ system:
     classes:
       - Voyager
   description:
-    value: <p><b>Astral voyager:</b> At 5th level, a voyager's journey can extend to the Astral Plane and beyond. The voyager gains <a href="/wiki/Astral_Traveler" title="Astral Traveler">astral traveler</a> as a bonus power known, if she does not know it already. In addition, voyager can use </p>
+    value: >-
+      <p><b>Astral&nbsp;voyager:</b>&nbsp;At&nbsp;5th&nbsp;level,&nbsp;a&nbsp;voyager's&nbsp;journey&nbsp;can&nbsp;extend&nbsp;to&nbsp;the&nbsp;Astral&nbsp;Plane&nbsp;and&nbsp;beyond.&nbsp;The&nbsp;voyager&nbsp;gains&nbsp;<a&nbsp;href="/wiki/Astral_Traveler"&nbsp;title="Astral&nbsp;Traveler">astral&nbsp;traveler</a>&nbsp;as&nbsp;a&nbsp;bonus&nbsp;power&nbsp;known,&nbsp;if&nbsp;she&nbsp;does&nbsp;not&nbsp;know&nbsp;it&nbsp;already.&nbsp;In&nbsp;addition,&nbsp;voyager&nbsp;can&nbsp;use&nbsp;</p>
   subType: classFeat
   tag: astral-voyager
 type: feat

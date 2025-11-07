@@ -10,8 +10,9 @@ system:
     classes:
       - Vitalist
   description:
-    value: |-
-      <p><b>Swift aid:</b> Upon achieving 8th level, a vitalist is able to rapidly respond to the need of a member of his collective, as determined by his vitalist method.
+    value: >-
+      <p><b>Swift&nbsp;aid:</b>&nbsp;Upon&nbsp;achieving&nbsp;8th&nbsp;level,&nbsp;a&nbsp;vitalist&nbsp;is&nbsp;able&nbsp;to&nbsp;rapidly&nbsp;respond&nbsp;to&nbsp;the&nbsp;need&nbsp;of&nbsp;a&nbsp;member&nbsp;of&nbsp;his&nbsp;collective,&nbsp;as&nbsp;determined&nbsp;by&nbsp;his&nbsp;vitalist&nbsp;method.
+
       </p>
   subType: classFeat
   tag: swift-aid

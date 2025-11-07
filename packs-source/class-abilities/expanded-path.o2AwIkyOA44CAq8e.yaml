@@ -10,8 +10,9 @@ system:
     classes:
       - Psychic Warrior
   description:
-    value: |-
-      <p><b>Expanded path:</b> At 3rd level, the psychic warrior expands his understanding of his chosen path. From this point on, he can use the trance and maneuver associated with his chosen path.
+    value: >-
+      <p><b>Expanded&nbsp;path:</b>&nbsp;At&nbsp;3rd&nbsp;level,&nbsp;the&nbsp;psychic&nbsp;warrior&nbsp;expands&nbsp;his&nbsp;understanding&nbsp;of&nbsp;his&nbsp;chosen&nbsp;path.&nbsp;From&nbsp;this&nbsp;point&nbsp;on,&nbsp;he&nbsp;can&nbsp;use&nbsp;the&nbsp;trance&nbsp;and&nbsp;maneuver&nbsp;associated&nbsp;with&nbsp;his&nbsp;chosen&nbsp;path.
+
       </p>
   subType: classFeat
   tag: expanded-path

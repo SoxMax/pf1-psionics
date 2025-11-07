@@ -10,8 +10,9 @@ system:
     classes:
       - Tactician
   description:
-    value: |-
-      <p><b>coordinated strike:</b> The tacician is able to direct his allies to coordinating their attacks upon a single target to devastating effect. As a swift action, the tactician can declare one target within his line of sight as the primary foe. All members of the tactician's collective, including the tactician himself gain a +1 insight bonus to attacks against the primary foe until the beginning of the tactician's next turn. At 5th level and every four levels thereafter, this bonus increases by 1.
+    value: >-
+      <p><b>coordinated&nbsp;strike:</b>&nbsp;The&nbsp;tacician&nbsp;is&nbsp;able&nbsp;to&nbsp;direct&nbsp;his&nbsp;allies&nbsp;to&nbsp;coordinating&nbsp;their&nbsp;attacks&nbsp;upon&nbsp;a&nbsp;single&nbsp;target&nbsp;to&nbsp;devastating&nbsp;effect.&nbsp;As&nbsp;a&nbsp;swift&nbsp;action,&nbsp;the&nbsp;tactician&nbsp;can&nbsp;declare&nbsp;one&nbsp;target&nbsp;within&nbsp;his&nbsp;line&nbsp;of&nbsp;sight&nbsp;as&nbsp;the&nbsp;primary&nbsp;foe.&nbsp;All&nbsp;members&nbsp;of&nbsp;the&nbsp;tactician's&nbsp;collective,&nbsp;including&nbsp;the&nbsp;tactician&nbsp;himself&nbsp;gain&nbsp;a&nbsp;+1&nbsp;insight&nbsp;bonus&nbsp;to&nbsp;attacks&nbsp;against&nbsp;the&nbsp;primary&nbsp;foe&nbsp;until&nbsp;the&nbsp;beginning&nbsp;of&nbsp;the&nbsp;tactician's&nbsp;next&nbsp;turn.&nbsp;At&nbsp;5th&nbsp;level&nbsp;and&nbsp;every&nbsp;four&nbsp;levels&nbsp;thereafter,&nbsp;this&nbsp;bonus&nbsp;increases&nbsp;by&nbsp;1.
+
       </p>
   subType: classFeat
   tag: coordinated-strike

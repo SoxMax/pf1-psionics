@@ -10,8 +10,9 @@ system:
     classes:
       - Vitalist
   description:
-    value: |-
-      <p><b>Transfer Wounds:</b> All vitalists learn how to transfer wounds with but a touch. As a standard action that does not provoke attacks of opportunity, a vitalist may touch a target and heal it for 1d6 points of damage. The vitalist suffers the same number of points of non-lethal damage (up to the amount the target is actually healed) At 4th level and every 3 levels thereafter, the damage healed to the target and non-lethal damage taken by the vitalist increases by 1d6. A vitalist may use this ability a number of times per day equal to 3 + his Wisdom modifier. A vitalist may not use this ability upon himself.
+    value: >-
+      <p><b>Transfer&nbsp;Wounds:</b>&nbsp;All&nbsp;vitalists&nbsp;learn&nbsp;how&nbsp;to&nbsp;transfer&nbsp;wounds&nbsp;with&nbsp;but&nbsp;a&nbsp;touch.&nbsp;As&nbsp;a&nbsp;standard&nbsp;action&nbsp;that&nbsp;does&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity,&nbsp;a&nbsp;vitalist&nbsp;may&nbsp;touch&nbsp;a&nbsp;target&nbsp;and&nbsp;heal&nbsp;it&nbsp;for&nbsp;1d6&nbsp;points&nbsp;of&nbsp;damage.&nbsp;The&nbsp;vitalist&nbsp;suffers&nbsp;the&nbsp;same&nbsp;number&nbsp;of&nbsp;points&nbsp;of&nbsp;non-lethal&nbsp;damage&nbsp;(up&nbsp;to&nbsp;the&nbsp;amount&nbsp;the&nbsp;target&nbsp;is&nbsp;actually&nbsp;healed)&nbsp;At&nbsp;4th&nbsp;level&nbsp;and&nbsp;every&nbsp;3&nbsp;levels&nbsp;thereafter,&nbsp;the&nbsp;damage&nbsp;healed&nbsp;to&nbsp;the&nbsp;target&nbsp;and&nbsp;non-lethal&nbsp;damage&nbsp;taken&nbsp;by&nbsp;the&nbsp;vitalist&nbsp;increases&nbsp;by&nbsp;1d6.&nbsp;A&nbsp;vitalist&nbsp;may&nbsp;use&nbsp;this&nbsp;ability&nbsp;a&nbsp;number&nbsp;of&nbsp;times&nbsp;per&nbsp;day&nbsp;equal&nbsp;to&nbsp;3&nbsp;+&nbsp;his&nbsp;Wisdom&nbsp;modifier.&nbsp;A&nbsp;vitalist&nbsp;may&nbsp;not&nbsp;use&nbsp;this&nbsp;ability&nbsp;upon&nbsp;himself.
+
       </p>
   subType: classFeat
   tag: transfer-wounds

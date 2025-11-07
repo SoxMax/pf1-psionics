@@ -10,8 +10,9 @@ system:
     classes:
       - Vitalist
   description:
-    value: |-
-      <p><b>Vitalist method:</b> All vitalists must choose a particular method that encompasses their focus in the skills they develop. As they gain in level, their method determines the abilities they gain.
+    value: >-
+      <p><b>Vitalist&nbsp;method:</b>&nbsp;All&nbsp;vitalists&nbsp;must&nbsp;choose&nbsp;a&nbsp;particular&nbsp;method&nbsp;that&nbsp;encompasses&nbsp;their&nbsp;focus&nbsp;in&nbsp;the&nbsp;skills&nbsp;they&nbsp;develop.&nbsp;As&nbsp;they&nbsp;gain&nbsp;in&nbsp;level,&nbsp;their&nbsp;method&nbsp;determines&nbsp;the&nbsp;abilities&nbsp;they&nbsp;gain.
+
       </p>
   subType: classFeat
   tag: vitalist-method

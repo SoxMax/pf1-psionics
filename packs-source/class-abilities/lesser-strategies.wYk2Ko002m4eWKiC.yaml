@@ -10,8 +10,9 @@ system:
     classes:
       - Tactician
   description:
-    value: |-
-      <p><b>lesser strategies:</b> Tacticians learn minor powers they can use at will to aid them in coordination and tactics. The tactician gains 3 talents from the tactician talent list.
+    value: >-
+      <p><b>lesser&nbsp;strategies:</b>&nbsp;Tacticians&nbsp;learn&nbsp;minor&nbsp;powers&nbsp;they&nbsp;can&nbsp;use&nbsp;at&nbsp;will&nbsp;to&nbsp;aid&nbsp;them&nbsp;in&nbsp;coordination&nbsp;and&nbsp;tactics.&nbsp;The&nbsp;tactician&nbsp;gains&nbsp;3&nbsp;talents&nbsp;from&nbsp;the&nbsp;tactician&nbsp;talent&nbsp;list.
+
       </p>
   subType: classFeat
   tag: lesser-strategies

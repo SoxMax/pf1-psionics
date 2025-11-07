@@ -10,8 +10,9 @@ system:
     classes:
       - Psychic Warrior
   description:
-    value: |-
-      <p><b>Secondary path:</b> At 9th level, the psychic warrior gets to choose a second warrior's path. He chooses one of the path powers available from his new list. The psychic warrior may only have two path powers in total from a single given path.
+    value: >-
+      <p><b>Secondary&nbsp;path:</b>&nbsp;At&nbsp;9th&nbsp;level,&nbsp;the&nbsp;psychic&nbsp;warrior&nbsp;gets&nbsp;to&nbsp;choose&nbsp;a&nbsp;second&nbsp;warrior's&nbsp;path.&nbsp;He&nbsp;chooses&nbsp;one&nbsp;of&nbsp;the&nbsp;path&nbsp;powers&nbsp;available&nbsp;from&nbsp;his&nbsp;new&nbsp;list.&nbsp;The&nbsp;psychic&nbsp;warrior&nbsp;may&nbsp;only&nbsp;have&nbsp;two&nbsp;path&nbsp;powers&nbsp;in&nbsp;total&nbsp;from&nbsp;a&nbsp;single&nbsp;given&nbsp;path.
+
       </p>
   subType: classFeat
   tag: secondary-path

@@ -10,8 +10,9 @@ system:
     classes:
       - Marksman
   description:
-    value: |-
-      <p><b>Cover fire:</b> Beginning at 4th level, the Marksman knows not only how to directly engage her enemies, but also how to protect her allies. As an attack action, she may choose to fire a ranged or thrown weapon at an opponent within 30 feet to distract that opponent rather than to deal damage. Make an attack roll against the space a target occupies (AC 10). If successful, the targeted enemy must make a Reflex save (DC 10 + one-half the Marksman's class level + the Marksman's Dexterity modifier), or be staggered for one round. The Marksman still expends ammunition as normal for this attack.
+    value: >-
+      <p><b>Cover&nbsp;fire:</b>&nbsp;Beginning&nbsp;at&nbsp;4th&nbsp;level,&nbsp;the&nbsp;Marksman&nbsp;knows&nbsp;not&nbsp;only&nbsp;how&nbsp;to&nbsp;directly&nbsp;engage&nbsp;her&nbsp;enemies,&nbsp;but&nbsp;also&nbsp;how&nbsp;to&nbsp;protect&nbsp;her&nbsp;allies.&nbsp;As&nbsp;an&nbsp;attack&nbsp;action,&nbsp;she&nbsp;may&nbsp;choose&nbsp;to&nbsp;fire&nbsp;a&nbsp;ranged&nbsp;or&nbsp;thrown&nbsp;weapon&nbsp;at&nbsp;an&nbsp;opponent&nbsp;within&nbsp;30&nbsp;feet&nbsp;to&nbsp;distract&nbsp;that&nbsp;opponent&nbsp;rather&nbsp;than&nbsp;to&nbsp;deal&nbsp;damage.&nbsp;Make&nbsp;an&nbsp;attack&nbsp;roll&nbsp;against&nbsp;the&nbsp;space&nbsp;a&nbsp;target&nbsp;occupies&nbsp;(AC&nbsp;10).&nbsp;If&nbsp;successful,&nbsp;the&nbsp;targeted&nbsp;enemy&nbsp;must&nbsp;make&nbsp;a&nbsp;Reflex&nbsp;save&nbsp;(DC&nbsp;10&nbsp;+&nbsp;one-half&nbsp;the&nbsp;Marksman's&nbsp;class&nbsp;level&nbsp;+&nbsp;the&nbsp;Marksman's&nbsp;Dexterity&nbsp;modifier),&nbsp;or&nbsp;be&nbsp;staggered&nbsp;for&nbsp;one&nbsp;round.&nbsp;The&nbsp;Marksman&nbsp;still&nbsp;expends&nbsp;ammunition&nbsp;as&nbsp;normal&nbsp;for&nbsp;this&nbsp;attack.
+
       </p>
   subType: classFeat
   tag: cover-fire

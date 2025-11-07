@@ -10,8 +10,9 @@ system:
     classes:
       - Aegis
   description:
-    value: |-
-      <p><b>Damage reduction:</b> Starting at 2nd level, when an aegis is wearing his astral suit, he gains damage reduction 2/-, regardless of what type of astral suit he is wearing. At 5th level and every three levels thereafter, this damage reduction improves by 1.
+    value: >-
+      <p><b>Damage&nbsp;reduction:</b>&nbsp;Starting&nbsp;at&nbsp;2nd&nbsp;level,&nbsp;when&nbsp;an&nbsp;aegis&nbsp;is&nbsp;wearing&nbsp;his&nbsp;astral&nbsp;suit,&nbsp;he&nbsp;gains&nbsp;damage&nbsp;reduction&nbsp;2/-,&nbsp;regardless&nbsp;of&nbsp;what&nbsp;type&nbsp;of&nbsp;astral&nbsp;suit&nbsp;he&nbsp;is&nbsp;wearing.&nbsp;At&nbsp;5th&nbsp;level&nbsp;and&nbsp;every&nbsp;three&nbsp;levels&nbsp;thereafter,&nbsp;this&nbsp;damage&nbsp;reduction&nbsp;improves&nbsp;by&nbsp;1.
+
       </p>
   subType: classFeat
   tag: damage-reduction

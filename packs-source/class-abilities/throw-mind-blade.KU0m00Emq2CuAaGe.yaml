@@ -10,8 +10,9 @@ system:
     classes:
       - Soulknife
   description:
-    value: |-
-      <p><b>throw mind blade:</b> All soulknives have some knowledge of how to throw their mind blades, though the range increment varies by form and the largest of blade forms cannot be thrown. Light weapon mind blades have a range increment of 20 ft. One-handed weapon mind blades have a range increment of 15 ft. Two-handed weapon mind blades cannot be thrown without the Two-Handed Throw blade skill.  Whether or not the attack hits, a thrown mind blade then dissipates.
+    value: >-
+      <p><b>throw&nbsp;mind&nbsp;blade:</b>&nbsp;All&nbsp;soulknives&nbsp;have&nbsp;some&nbsp;knowledge&nbsp;of&nbsp;how&nbsp;to&nbsp;throw&nbsp;their&nbsp;mind&nbsp;blades,&nbsp;though&nbsp;the&nbsp;range&nbsp;increment&nbsp;varies&nbsp;by&nbsp;form&nbsp;and&nbsp;the&nbsp;largest&nbsp;of&nbsp;blade&nbsp;forms&nbsp;cannot&nbsp;be&nbsp;thrown.&nbsp;Light&nbsp;weapon&nbsp;mind&nbsp;blades&nbsp;have&nbsp;a&nbsp;range&nbsp;increment&nbsp;of&nbsp;20&nbsp;ft.&nbsp;One-handed&nbsp;weapon&nbsp;mind&nbsp;blades&nbsp;have&nbsp;a&nbsp;range&nbsp;increment&nbsp;of&nbsp;15&nbsp;ft.&nbsp;Two-handed&nbsp;weapon&nbsp;mind&nbsp;blades&nbsp;cannot&nbsp;be&nbsp;thrown&nbsp;without&nbsp;the&nbsp;Two-Handed&nbsp;Throw&nbsp;blade&nbsp;skill.&nbsp;&nbsp;Whether&nbsp;or&nbsp;not&nbsp;the&nbsp;attack&nbsp;hits,&nbsp;a&nbsp;thrown&nbsp;mind&nbsp;blade&nbsp;then&nbsp;dissipates.
+
       </p>
   subType: classFeat
   tag: throw-mind-blade

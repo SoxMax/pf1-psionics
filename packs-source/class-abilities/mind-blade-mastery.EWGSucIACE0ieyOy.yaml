@@ -10,8 +10,9 @@ system:
     classes:
       - Soulknife
   description:
-    value: |-
-      <p><b>mind blade mastery:</b> At 20th level, a soulknife reaches the pinnacle of her art and her connection to her blade is so strong it cannot be severed. She no longer requires a Will save to maintain her mind blade in a {{lcil|Null Psionics Field<i>, although it still loses any enhancement bonus and special abilities. In addition, she may change the configurations of her mind blade's special abilities at will as a full-round action, which also resets any penalties that may have accrued from the Fluid Form and Improved Fluid Form blade skills.</i>
+    value: >-
+      <p><b>mind&nbsp;blade&nbsp;mastery:</b>&nbsp;At&nbsp;20th&nbsp;level,&nbsp;a&nbsp;soulknife&nbsp;reaches&nbsp;the&nbsp;pinnacle&nbsp;of&nbsp;her&nbsp;art&nbsp;and&nbsp;her&nbsp;connection&nbsp;to&nbsp;her&nbsp;blade&nbsp;is&nbsp;so&nbsp;strong&nbsp;it&nbsp;cannot&nbsp;be&nbsp;severed.&nbsp;She&nbsp;no&nbsp;longer&nbsp;requires&nbsp;a&nbsp;Will&nbsp;save&nbsp;to&nbsp;maintain&nbsp;her&nbsp;mind&nbsp;blade&nbsp;in&nbsp;a&nbsp;{{lcil|Null&nbsp;Psionics&nbsp;Field<i>,&nbsp;although&nbsp;it&nbsp;still&nbsp;loses&nbsp;any&nbsp;enhancement&nbsp;bonus&nbsp;and&nbsp;special&nbsp;abilities.&nbsp;In&nbsp;addition,&nbsp;she&nbsp;may&nbsp;change&nbsp;the&nbsp;configurations&nbsp;of&nbsp;her&nbsp;mind&nbsp;blade's&nbsp;special&nbsp;abilities&nbsp;at&nbsp;will&nbsp;as&nbsp;a&nbsp;full-round&nbsp;action,&nbsp;which&nbsp;also&nbsp;resets&nbsp;any&nbsp;penalties&nbsp;that&nbsp;may&nbsp;have&nbsp;accrued&nbsp;from&nbsp;the&nbsp;Fluid&nbsp;Form&nbsp;and&nbsp;Improved&nbsp;Fluid&nbsp;Form&nbsp;blade&nbsp;skills.</i>
+
       </p>
   subType: classFeat
   tag: mind-blade-mastery

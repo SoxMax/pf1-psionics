@@ -10,8 +10,9 @@ system:
     classes:
       - Vitalist
   description:
-    value: |-
-      <p><b>medic powers:</b> The vitalist gains special uses of some of his powers that are unavailable to other characters.
+    value: >-
+      <p><b>medic&nbsp;powers:</b>&nbsp;The&nbsp;vitalist&nbsp;gains&nbsp;special&nbsp;uses&nbsp;of&nbsp;some&nbsp;of&nbsp;his&nbsp;powers&nbsp;that&nbsp;are&nbsp;unavailable&nbsp;to&nbsp;other&nbsp;characters.
+
       </p>
   subType: classFeat
   tag: medic-powers

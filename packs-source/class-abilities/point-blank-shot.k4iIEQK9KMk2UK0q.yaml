@@ -10,7 +10,7 @@ system:
     classes:
       - Marksman
   description:
-    value: <p>Point Blank Shot</p>
+    value: <p>Point&nbsp;Blank&nbsp;Shot</p>
   subType: classFeat
   tag: point-blank-shot
 type: feat
