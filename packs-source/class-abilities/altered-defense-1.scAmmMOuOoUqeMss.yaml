@@ -1,0 +1,16 @@
+_id: scAmmMOuOoUqeMss
+_key: '!items!scAmmMOuOoUqeMss'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Altered defense 1
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: <p>Altered defense 1</p>
+  subType: classFeat
+  tag: altered-defense-1
+type: feat

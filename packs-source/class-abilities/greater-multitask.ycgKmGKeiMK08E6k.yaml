@@ -1,0 +1,16 @@
+_id: ycgKmGKeiMK08E6k
+_key: '!items!ycgKmGKeiMK08E6k'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Greater multitask
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: <p>Greater multitask</p>
+  subType: classFeat
+  tag: greater-multitask
+type: feat

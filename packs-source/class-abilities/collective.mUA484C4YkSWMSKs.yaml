@@ -1,0 +1,18 @@
+_id: mUA484C4YkSWMSKs
+_key: '!items!mUA484C4YkSWMSKs'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: collective
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Highlord
+  description:
+    value: |-
+      <p><b>collective:</b> A highlord learns to use psionic power to connect willing minds through an internal network that strengthens their psychic bonds. As a standard action, a highlord can join any number of willing targets into his collective (up to his limit, see below). The highlord must have line of sight to each target, each target must have a Wisdom score of at least 1, and all targets must be within medium range (100 feet + 10 feet per class level). The collective can contain up to his Charisma modifier or half his highlord level, whichever is higher. The highlord is always considered a member of his own collective, and does not count against this limit.
+      </p>
+  subType: classFeat
+  tag: collective
+type: feat

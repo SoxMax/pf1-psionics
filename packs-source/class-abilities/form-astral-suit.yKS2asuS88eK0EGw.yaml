@@ -1,0 +1,18 @@
+_id: yKS2asuS88eK0EGw
+_key: '!items!yKS2asuS88eK0EGw'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: form astral suit
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Aegis
+  description:
+    value: |-
+      <p><b>form astral suit:</b> Every aegis learns to draw forth ectoplasm and form an astral suit around their form. The aegis can select from three different types when forming his astral suit – skin, armor, or juggernaut. An aegis is always considered to be proficient with his astral suit, even if he does not have the appropriate armor proficiency. The amount of time forming this astral suit takes depends on the type of suit being formed. Different astral suit forms grant different free customizations. These free customizations never count against the aegis's total number of customization points spent on his astral suit.
+      </p>
+  subType: classFeat
+  tag: form-astral-suit
+type: feat

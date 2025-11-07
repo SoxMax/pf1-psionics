@@ -1,0 +1,18 @@
+_id: 6QiuaY4K6kqeqiiK
+_key: '!items!6QiuaY4K6kqeqiiK'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Style skill
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Marksman
+  description:
+    value: |-
+      <p><b>Style skill:</b> At 3rd level, a Marksman gains a +1 bonus to the skill associated to his combat style. Every three levels thereafter (6th, 9th, etc), this bonus improves by 1.
+      </p>
+  subType: classFeat
+  tag: style-skill
+type: feat

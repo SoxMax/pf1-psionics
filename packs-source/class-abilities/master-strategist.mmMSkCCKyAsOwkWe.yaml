@@ -1,0 +1,18 @@
+_id: mmMSkCCKyAsOwkWe
+_key: '!items!mmMSkCCKyAsOwkWe'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Master strategist
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Tactician
+  description:
+    value: |-
+      <p><b>Master strategist:</b> Upon achieving 20th level, a tactician has learned how to turn his collective into a truly cohesive battle unit. The tactician may use two daily uses of his strategy ability and grant all of his allies an insight bonus on attack and damage rolls, armor class, and saving throws equal to his intelligence for two minutes. This ability may not be used if the tactician is not engaged in combat.
+      </p>
+  subType: classFeat
+  tag: master-strategist
+type: feat

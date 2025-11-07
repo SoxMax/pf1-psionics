@@ -1,0 +1,18 @@
+_id: MUyIImYYC4C0uM2s
+_key: '!items!MUyIImYYC4C0uM2s'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Aura of fear
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Dread
+  description:
+    value: |-
+      <p><b>Aura of fear:</b> At 3rd level, a dread radiates a palpably daunting aura that causes all enemies within 10 feet to take a –4 penalty on saving throws against fear effects. Creatures that are normally immune to fear lose that immunity while within 10 feet of a dread with this ability. This ability functions only while the dread remains conscious, not if she is unconscious or dead.
+      </p>
+  subType: classFeat
+  tag: aura-of-fear
+type: feat

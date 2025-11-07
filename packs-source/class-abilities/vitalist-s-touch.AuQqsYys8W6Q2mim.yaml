@@ -1,0 +1,18 @@
+_id: AuQqsYys8W6Q2mim
+_key: '!items!AuQqsYys8W6Q2mim'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Vitalist's touch
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Vitalist
+  description:
+    value: |-
+      <p><b>Vitalist's touch:</b> Once a vitalist reaches 2nd level, he learns to apply the skills of his method to his transfer wounds ability, as detailed in the vitalist's method of choice.
+      </p>
+  subType: classFeat
+  tag: vitalist-s-touch
+type: feat

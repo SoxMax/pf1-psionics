@@ -1,0 +1,18 @@
+_id: A46M8KqKIg2UuuiK
+_key: '!items!A46M8KqKIg2UuuiK'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: talent
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Wilder
+  description:
+    value: |-
+      <p><b>talent:</b> A wilder gains a single 0 level talent of her choice. This talent does not count against her powers known.
+      </p>
+  subType: classFeat
+  tag: talent
+type: feat

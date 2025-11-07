@@ -1,0 +1,18 @@
+_id: S66AoACM6oyEw8Su
+_key: '!items!S66AoACM6oyEw8Su'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: form mind blade
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Soulknife
+  description:
+    value: |-
+      <p><b>form mind blade:</b> As a move action, a soulknife can form a semi-solid weapon composed of psychic energy distilled from her own mind.
+      </p>
+  subType: classFeat
+  tag: form-mind-blade
+type: feat

@@ -1,0 +1,16 @@
+_id: I2oQIacyWyK0W822
+_key: '!items!I2oQIacyWyK0W822'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: enhanced disruption+4d6
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: <p>enhanced disruption+4d6</p>
+  subType: classFeat
+  tag: enhanced-disruption-4d6
+type: feat

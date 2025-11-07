@@ -1,0 +1,56 @@
+_id: KuCGM2quiOICSaQG
+_key: '!items!KuCGM2quiOICSaQG'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/items/inventory/brain-purple.png
+name: Psion
+system:
+  alignment: Any
+  armorProf: []
+  bab: low
+  classSkills: []
+  description:
+    summary: ''
+    value: ''
+  hd: 6
+  hp: 6
+  level: 1
+  links:
+    classAssociations:
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.AQGsku4CGyuiukYe
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.UgosM08csYWOACGU
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.mGMsGiaAS0egmqOU
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.6E2y8Gq0g0Uc4a4s
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.AQGsku4CGyuiukYe
+      - level: 8
+        uuid: Compendium.pf1-psionics.class-abilities.Item.6E2y8Gq0g0Uc4a4s
+      - level: 10
+        uuid: Compendium.pf1-psionics.class-abilities.Item.AQGsku4CGyuiukYe
+      - level: 14
+        uuid: Compendium.pf1-psionics.class-abilities.Item.6E2y8Gq0g0Uc4a4s
+      - level: 15
+        uuid: Compendium.pf1-psionics.class-abilities.Item.AQGsku4CGyuiukYe
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.AQGsku4CGyuiukYe
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.8ccKacqGWcgeC642
+  savingThrows:
+    fort:
+      value: low
+    ref:
+      value: low
+    will:
+      value: low
+  skillsPerLevel: 2
+  sources: []
+  subType: base
+  tag: psion
+  wealth: 2d6 * 10
+  weaponProf:
+    - simple
+type: class

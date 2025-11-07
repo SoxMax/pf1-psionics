@@ -1,0 +1,16 @@
+_id: egQUk8K8QQ6qM06i
+_key: '!items!egQUk8K8QQ6qM06i'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: speeding strike
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: <p>speeding strike</p>
+  subType: classFeat
+  tag: speeding-strike
+type: feat

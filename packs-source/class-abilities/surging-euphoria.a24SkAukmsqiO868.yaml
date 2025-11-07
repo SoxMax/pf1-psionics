@@ -1,0 +1,18 @@
+_id: a24SkAukmsqiO868
+_key: '!items!a24SkAukmsqiO868'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: surging euphoria
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Wilder
+  description:
+    value: |-
+      <p><b>surging euphoria:</b> Starting at 4th level, when a wilder uses her wild surge ability, she gains a +1 morale bonus on attack rolls, damage rolls, and saving throws for a number of rounds equal to the intensity of her wild surge. If a wilder is overcome by psychic enervation following her wild surge, she does not gain the morale bonus for this use of her wild surge ability.
+      </p>
+  subType: classFeat
+  tag: surging-euphoria
+type: feat

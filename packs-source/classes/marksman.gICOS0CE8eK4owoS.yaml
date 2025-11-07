@@ -1,0 +1,106 @@
+_id: gICOS0CE8eK4owoS
+_key: '!items!gICOS0CE8eK4owoS'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/items/inventory/brain-purple.png
+name: Marksman
+system:
+  alignment: Any
+  armorProf: []
+  bab: low
+  classSkills: []
+  description:
+    summary: ''
+    value: ''
+  hd: 6
+  hp: 6
+  level: 1
+  links:
+    classAssociations:
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.8abmsI8ekceqYCOE
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.k4iIEQK9KMk2UK0q
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.6W2K6A6y2MCeWUiM
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.g6y64wSoAGy4muYA
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.62YswoQGukR4yuQw
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.8KWO8Ueg0mMUUmwQ
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.6QiuaY4K6kqeqiiK
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.O4OUSsWYUEAQM2Sq
+      - level: 4
+        uuid: Compendium.pf1-psionics.class-abilities.Item.q6wMgAASMYSW8oE6
+      - level: 4
+        uuid: Compendium.pf1-psionics.class-abilities.Item.C4cIScSIEEy28Q6c
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Q6iGiCcSoiEAQQwe
+      - level: 6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.g6y64wSoAGy4muYA
+      - level: 6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.wYY62gYiyQak20qy
+      - level: 6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.8KWO8Ueg0mMUUmwQ
+      - level: 7
+        uuid: Compendium.pf1-psionics.class-abilities.Item.mYuugQMa84GoAEW2
+      - level: 8
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Q6iGiCcSoiEAQQwe
+      - level: 8
+        uuid: Compendium.pf1-psionics.class-abilities.Item.C4cIScSIEEy28Q6c
+      - level: 9
+        uuid: Compendium.pf1-psionics.class-abilities.Item.6QiuaY4K6kqeqiiK
+      - level: 10
+        uuid: Compendium.pf1-psionics.class-abilities.Item.g6y64wSoAGy4muYA
+      - level: 10
+        uuid: Compendium.pf1-psionics.class-abilities.Item.8KWO8Ueg0mMUUmwQ
+      - level: 11
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Q6iGiCcSoiEAQQwe
+      - level: 12
+        uuid: Compendium.pf1-psionics.class-abilities.Item.4SIWcQ8giKSaGsK2
+      - level: 12
+        uuid: Compendium.pf1-psionics.class-abilities.Item.wYY62gYiyQak20qy
+      - level: 13
+        uuid: Compendium.pf1-psionics.class-abilities.Item.4YaQMaWkQoAK8MOU
+      - level: 14
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Q6iGiCcSoiEAQQwe
+      - level: 14
+        uuid: Compendium.pf1-psionics.class-abilities.Item.QugMkc82QU4A46iO
+      - level: 14
+        uuid: Compendium.pf1-psionics.class-abilities.Item.8KWO8Ueg0mMUUmwQ
+      - level: 15
+        uuid: Compendium.pf1-psionics.class-abilities.Item.6QiuaY4K6kqeqiiK
+      - level: 16
+        uuid: Compendium.pf1-psionics.class-abilities.Item.4SIWcQ8giKSaGsK2
+      - level: 17
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Q6iGiCcSoiEAQQwe
+      - level: 18
+        uuid: Compendium.pf1-psionics.class-abilities.Item.g6y64wSoAGy4muYA
+      - level: 18
+        uuid: Compendium.pf1-psionics.class-abilities.Item.wYY62gYiyQak20qy
+      - level: 18
+        uuid: Compendium.pf1-psionics.class-abilities.Item.8KWO8Ueg0mMUUmwQ
+      - level: 19
+        uuid: Compendium.pf1-psionics.class-abilities.Item.q0SiyqAUwqooi40s
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Q6iGiCcSoiEAQQwe
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.C4cIScSIEEy28Q6c
+  savingThrows:
+    fort:
+      value: low
+    ref:
+      value: low
+    will:
+      value: low
+  skillsPerLevel: 2
+  sources: []
+  subType: base
+  tag: marksman
+  wealth: 2d6 * 10
+  weaponProf:
+    - simple
+type: class

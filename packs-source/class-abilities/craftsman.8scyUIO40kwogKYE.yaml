@@ -1,0 +1,18 @@
+_id: 8scyUIO40kwogKYE
+_key: '!items!8scyUIO40kwogKYE'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Craftsman
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Aegis
+  description:
+    value: |-
+      <p><b>Craftsman:</b> Beginning at 2nd level, an aegis gains a +1 bonus to one Craft skill of his choice. At 6th level and every four levels thereafter, this bonus increases by 1.
+      </p>
+  subType: classFeat
+  tag: craftsman
+type: feat

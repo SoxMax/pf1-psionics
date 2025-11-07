@@ -1,0 +1,18 @@
+_id: QcCwcmuiG6Ge8YUA
+_key: '!items!QcCwcmuiG6Ge8YUA'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: medic powers
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Vitalist
+  description:
+    value: |-
+      <p><b>medic powers:</b> The vitalist gains special uses of some of his powers that are unavailable to other characters.
+      </p>
+  subType: classFeat
+  tag: medic-powers
+type: feat

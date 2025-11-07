@@ -1,0 +1,18 @@
+_id: gI220IWswyg4ske8
+_key: '!items!gI220IWswyg4ske8'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Expanded Knowledge
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Vitalist
+  description:
+    value: |-
+      <p><b>Expanded Knowledge:</b> Skilled vitalists understand that there is merit in expanding their arsenal. At 9th level, a vitalist gains <a href="/wiki/Expanded_Knowledge" title="Expanded Knowledge">Expanded Knowledge</a> as a bonus feat. He gains this feat again at 18th level.
+      </p>
+  subType: classFeat
+  tag: expanded-knowledge
+type: feat

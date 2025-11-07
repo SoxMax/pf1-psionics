@@ -1,0 +1,18 @@
+_id: eOmhkEwaiEum0moc
+_key: '!items!eOmhkEwaiEum0moc'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: twin fear
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Dread
+  description:
+    value: |-
+      <p><b>twin fear:</b> When a dread of at least 11th level has a shadow twin active, if any creature within 30 ft. of the dread or the shadow twin suffers from the shaken, frightened, or panicked condition at the start of the dread's turn, the shadow twin uses a separate action pool instead of sharing the round's actions with the dread for that round. This means that it and the dread could both make attacks in the same round.
+      </p>
+  subType: classFeat
+  tag: twin-fear
+type: feat

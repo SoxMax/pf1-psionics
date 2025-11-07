@@ -1,0 +1,16 @@
+_id: EC4Gg0cE0SMQia20
+_key: '!items!EC4Gg0cE0SMQia20'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: highlord's tenets
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Highlord
+  description:
+    value: <p>highlord's tenets</p>
+  subType: classFeat
+  tag: highlord-s-tenets
+type: feat

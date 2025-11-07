@@ -1,0 +1,16 @@
+_id: OasMe0Mgw0MO2mmk
+_key: '!items!OasMe0Mgw0MO2mmk'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Blade skill
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Soulknife
+  description:
+    value: <p>Blade skill</p>
+  subType: classFeat
+  tag: blade-skill
+type: feat

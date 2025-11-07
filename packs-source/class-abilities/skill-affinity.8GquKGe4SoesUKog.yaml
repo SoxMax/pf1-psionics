@@ -1,0 +1,16 @@
+_id: 8GquKGe4SoesUKog
+_key: '!items!8GquKGe4SoesUKog'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: skill affinity
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Highlord
+  description:
+    value: <p>skill affinity</p>
+  subType: classFeat
+  tag: skill-affinity
+type: feat

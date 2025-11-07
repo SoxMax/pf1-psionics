@@ -1,0 +1,18 @@
+_id: eUsUCoiSuOk2Eom2
+_key: '!items!eUsUCoiSuOk2Eom2'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Elude attack
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Wilder
+  description:
+    value: |-
+      <p><b>Elude attack:</b> Starting at 2nd level, a wilder's intuition supersedes her intellect, alerting her to danger from attacks. She gains a +1 dodge bonus to her Armor Class. This bonus increases by 1 every 4 levels thereafter (+2 at 6th level, +3 at 10th level, etc).
+      </p>
+  subType: classFeat
+  tag: elude-attack
+type: feat

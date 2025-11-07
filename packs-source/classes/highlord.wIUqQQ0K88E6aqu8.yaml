@@ -1,0 +1,112 @@
+_id: wIUqQQ0K88E6aqu8
+_key: '!items!wIUqQQ0K88E6aqu8'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/items/inventory/brain-purple.png
+name: Highlord
+system:
+  alignment: Any
+  armorProf: []
+  bab: low
+  classSkills: []
+  description:
+    summary: ''
+    value: ''
+  hd: 6
+  hp: 6
+  level: 1
+  links:
+    classAssociations:
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.MuWw2GSk2oSoGYuc
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.mUA484C4YkSWMSKs
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.2QO2uYsGKSs6MaaA
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.EC4Gg0cE0SMQia20
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.8wUwMsw6g06aswmU
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.qycmWyGg2KSIIKMu
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.8GquKGe4SoesUKog
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.mq8Gyiu8EEAuiqIA
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.G6Y8u20yAiWWY0OW
+      - level: 4
+        uuid: Compendium.pf1-psionics.class-abilities.Item.MuWw2GSk2oSoGYuc
+      - level: 4
+        uuid: Compendium.pf1-psionics.class-abilities.Item.k4K4wEssgIcsISug
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.0uq6qEmWoGoU0IIM
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.8AQGkciGMIkCuq26
+      - level: 6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.mq8Gyiu8EEAuiqIA
+      - level: 6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.2kYsOg6yIigEkGGA
+      - level: 7
+        uuid: Compendium.pf1-psionics.class-abilities.Item.k4K4wEssgIcsISug
+      - level: 8
+        uuid: Compendium.pf1-psionics.class-abilities.Item.MuWw2GSk2oSoGYuc
+      - level: 8
+        uuid: Compendium.pf1-psionics.class-abilities.Item.uEo6qsKW4sye2Imw
+      - level: 9
+        uuid: Compendium.pf1-psionics.class-abilities.Item.qycmWyGg2KSIIKMu
+      - level: 9
+        uuid: Compendium.pf1-psionics.class-abilities.Item.uA8wC2WkOWaQMagE
+      - level: 10
+        uuid: Compendium.pf1-psionics.class-abilities.Item.k4K4wEssgIcsISug
+      - level: 10
+        uuid: Compendium.pf1-psionics.class-abilities.Item.A6u6wkAWU0ggQoOc
+      - level: 11
+        uuid: Compendium.pf1-psionics.class-abilities.Item.CusmSMSy8AA2Ckoo
+      - level: 12
+        uuid: Compendium.pf1-psionics.class-abilities.Item.MuWw2GSk2oSoGYuc
+      - level: 12
+        uuid: Compendium.pf1-psionics.class-abilities.Item.uA8wC2WkOWaQMagE
+      - level: 13
+        uuid: Compendium.pf1-psionics.class-abilities.Item.k4K4wEssgIcsISug
+      - level: 14
+        uuid: Compendium.pf1-psionics.class-abilities.Item.0uq6qEmWoGoU0IIM
+      - level: 15
+        uuid: Compendium.pf1-psionics.class-abilities.Item.G4044iky2aok6WEW
+      - level: 15
+        uuid: Compendium.pf1-psionics.class-abilities.Item.uA8wC2WkOWaQMagE
+      - level: 16
+        uuid: Compendium.pf1-psionics.class-abilities.Item.qycmWyGg2KSIIKMu
+      - level: 16
+        uuid: Compendium.pf1-psionics.class-abilities.Item.sygq6aS0Euc6Eko6
+      - level: 16
+        uuid: Compendium.pf1-psionics.class-abilities.Item.IucQc8gcZwGisIWS
+      - level: 17
+        uuid: Compendium.pf1-psionics.class-abilities.Item.CusmSMSy8AA2Ckoo
+      - level: 18
+        uuid: Compendium.pf1-psionics.class-abilities.Item.mq8Gyiu8EEAuiqIA
+      - level: 18
+        uuid: Compendium.pf1-psionics.class-abilities.Item.uEo6qsKW4sye2Imw
+      - level: 19
+        uuid: Compendium.pf1-psionics.class-abilities.Item.G4044iky2aok6WEW
+      - level: 19
+        uuid: Compendium.pf1-psionics.class-abilities.Item.IucQc8gcZwGisIWS
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.MuWw2GSk2oSoGYuc
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.G8Os6Iko4W0qMCSi
+  savingThrows:
+    fort:
+      value: low
+    ref:
+      value: low
+    will:
+      value: low
+  skillsPerLevel: 2
+  sources: []
+  subType: base
+  tag: highlord
+  wealth: 2d6 * 10
+  weaponProf:
+    - simple
+type: class

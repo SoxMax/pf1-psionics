@@ -1,0 +1,16 @@
+_id: Q6iGiCcSoiEAQQwe
+_key: '!items!Q6iGiCcSoiEAQQwe'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Bonus feat
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Marksman
+  description:
+    value: <p><b>Bonus feat:</b> A Marksman of 5th level gains a bonus feat chosen from his combat style feat list, <a rel="nofollow" class="external text" href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Deadly%20Aim">Deadly Aim</a>, </p>
+  subType: classFeat
+  tag: bonus-feat
+type: feat

@@ -1,0 +1,18 @@
+_id: 0M64UmKmqMK6sYeA
+_key: '!items!0M64UmKmqMK6sYeA'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: perfect merger
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Aegis
+  description:
+    value: |-
+      <p><b>perfect merger:</b> An aegis of 20th level has learned to become one with his suit. His suit cannot be dispelled or removed against his will by any means, although his astral suit ability still does not function within areas where psionics do not work, such as a null psionics field.
+      </p>
+  subType: classFeat
+  tag: perfect-merger
+type: feat

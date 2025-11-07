@@ -1,0 +1,18 @@
+_id: wk6SSqCY04CA6AAk
+_key: '!items!wk6SSqCY04CA6AAk'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Endless
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: |-
+      <p><b>Endless:</b> At 11th level, a voyager can continue their exploration of time for as long as she desires. A voyager ceases to age, though she may begin aging normally if she wishes to. This is a decision that the voyager can change at any time. The voyager cannot be magically aged, unless she allows it.
+      </p>
+  subType: classFeat
+  tag: endless
+type: feat

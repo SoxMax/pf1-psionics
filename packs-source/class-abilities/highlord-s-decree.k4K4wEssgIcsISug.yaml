@@ -1,0 +1,16 @@
+_id: k4K4wEssgIcsISug
+_key: '!items!k4K4wEssgIcsISug'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Highlord's decree
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Highlord
+  description:
+    value: <p>Highlord's decree</p>
+  subType: classFeat
+  tag: highlord-s-decree
+type: feat

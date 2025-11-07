@@ -1,0 +1,18 @@
+_id: 4YaQMaWkQoAK8MOU
+_key: '!items!4YaQMaWkQoAK8MOU'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Defensive shot
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Marksman
+  description:
+    value: |-
+      <p><b>Defensive shot:</b> At 13th level, a Marksman no longer provokes attacks of opportunity when making ranged attacks with a ranged or thrown weapon.
+      </p>
+  subType: classFeat
+  tag: defensive-shot
+type: feat

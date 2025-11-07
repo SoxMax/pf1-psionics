@@ -1,0 +1,16 @@
+_id: 6E2y8Gq0g0Uc4a4s
+_key: '!items!6E2y8Gq0g0Uc4a4s'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Discipline ability
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Psion
+  description:
+    value: <p>Discipline ability</p>
+  subType: classFeat
+  tag: discipline-ability
+type: feat

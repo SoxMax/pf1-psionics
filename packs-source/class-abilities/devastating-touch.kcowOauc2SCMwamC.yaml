@@ -1,0 +1,18 @@
+_id: kcowOauc2SCMwamC
+_key: '!items!kcowOauc2SCMwamC'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: devastating touch
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Dread
+  description:
+    value: |-
+      <p><b>devastating touch:</b> A dread is able to channel psionic energy from fear and nightmares into a touch that causes pain. To use this ability, a dread must make a melee touch attack as a standard action on a living target. If the attack hits, it deals 1d6 points of damage plus 1 point per class level. The dread does not add his Strength modifier to the damage of this attack.
+      </p>
+  subType: classFeat
+  tag: devastating-touch
+type: feat

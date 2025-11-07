@@ -1,0 +1,18 @@
+_id: o2AwIkyOA44CAq8e
+_key: '!items!o2AwIkyOA44CAq8e'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Expanded path
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Psychic Warrior
+  description:
+    value: |-
+      <p><b>Expanded path:</b> At 3rd level, the psychic warrior expands his understanding of his chosen path. From this point on, he can use the trance and maneuver associated with his chosen path.
+      </p>
+  subType: classFeat
+  tag: expanded-path
+type: feat

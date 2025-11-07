@@ -1,0 +1,18 @@
+_id: CaqCCckQ0aSW22qk
+_key: '!items!CaqCCckQ0aSW22qk'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Health sense
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Vitalist
+  description:
+    value: |-
+      <p><b>Health sense:</b> Beginning at 2nd level, a vitalist may take a swift action to gauge the relative health level of collective members, determining the amount of damage, in hit points, that an ally has taken. In addition, the vitalist may make a Heal check as a standard action, with a DC of 15, to determine if any of the members of his collective are afflicted by a disease or poison.
+      </p>
+  subType: classFeat
+  tag: health-sense
+type: feat

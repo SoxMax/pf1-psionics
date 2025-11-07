@@ -1,0 +1,18 @@
+_id: YgeIKuiAGK28Q2ec
+_key: '!items!YgeIKuiAGK28Q2ec'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Improved surge bond
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Wilder
+  description:
+    value: |-
+      <p><b>Improved surge bond:</b> At 5th level, the wilder's surge bond grants additional special abilities depending on the type of wilder.
+      </p>
+  subType: classFeat
+  tag: improved-surge-bond
+type: feat

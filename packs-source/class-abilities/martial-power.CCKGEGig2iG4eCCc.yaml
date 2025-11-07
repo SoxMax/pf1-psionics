@@ -1,0 +1,18 @@
+_id: CCKGEGig2iG4eCCc
+_key: '!items!CCKGEGig2iG4eCCc'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Martial power
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Psychic Warrior
+  description:
+    value: |-
+      <p><b>Martial power:</b> At 6th level, if the psychic warrior makes an attack (but not a ranged touch attack), he can manifest one of his path powers as part of that attack action. The power takes effect immediately after the attack has been finished. Touch range powers are transmitted through the melee attack to the attacked target. You gain the benefits of the power on the attack made, even if the power is what grants the weapon to make the attack. You may only activate a path power in this fashion once per round.
+      </p>
+  subType: classFeat
+  tag: martial-power
+type: feat

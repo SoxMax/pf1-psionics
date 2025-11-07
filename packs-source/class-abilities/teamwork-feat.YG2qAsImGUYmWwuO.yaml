@@ -1,0 +1,18 @@
+_id: YG2qAsImGUYmWwuO
+_key: '!items!YG2qAsImGUYmWwuO'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: teamwork feat
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Tactician
+  description:
+    value: |-
+      <p><b>teamwork feat:</b> At 6th level, and every six levels thereafter, the tactician gains a bonus feat in addition to those gained from normal advancement. These bonus feats must be selected from those listed as <a href="/wiki/Teamwork_feat" title="Teamwork feat">teamwork feats</a>. The tactician must meet the prerequisites of the selected bonus feat.
+      </p>
+  subType: classFeat
+  tag: teamwork-feat
+type: feat

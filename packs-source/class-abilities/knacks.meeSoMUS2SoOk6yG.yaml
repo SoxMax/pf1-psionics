@@ -1,0 +1,18 @@
+_id: meeSoMUS2SoOk6yG
+_key: '!items!meeSoMUS2SoOk6yG'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: knacks
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Vitalist
+  description:
+    value: |-
+      <p><b>knacks:</b> Vitalists of all forms learn to manipulate the energy of body and mind in minor ways. A vitalist gains two talents from the vitalist power list, as well as one talent from his method power list.
+      </p>
+  subType: classFeat
+  tag: knacks
+type: feat

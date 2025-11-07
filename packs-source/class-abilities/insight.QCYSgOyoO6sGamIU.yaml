@@ -1,0 +1,18 @@
+_id: QCYSgOyoO6sGamIU
+_key: '!items!QCYSgOyoO6sGamIU'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: insight
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: |-
+      <p><b>insight:</b> Starting at 2nd level, and then again every 2 levels thereafter (up to 18th level), a cryptic learns a unique ability related to her perception of the patterns in the world around her. 
+      </p>
+  subType: classFeat
+  tag: insight
+type: feat

@@ -1,0 +1,18 @@
+_id: OgwQKuAE2QMY8Oay
+_key: '!items!OgwQKuAE2QMY8Oay'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Supreme insight
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: |-
+      <p><b>Supreme insight:</b> At 20th level, the cryptic makes astounding leaps of insight. She immediately learns two normal insights, but also learns a third insight chosen from the list to the right, representing a truly astounding breakthrough in understanding how patterns work. For many cryptics, the possibility of this sort of discoveries is the driving force for their studying of patterns. 
+      </p>
+  subType: classFeat
+  tag: supreme-insight
+type: feat

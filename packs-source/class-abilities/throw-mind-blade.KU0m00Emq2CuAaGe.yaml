@@ -1,0 +1,18 @@
+_id: KU0m00Emq2CuAaGe
+_key: '!items!KU0m00Emq2CuAaGe'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: throw mind blade
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Soulknife
+  description:
+    value: |-
+      <p><b>throw mind blade:</b> All soulknives have some knowledge of how to throw their mind blades, though the range increment varies by form and the largest of blade forms cannot be thrown. Light weapon mind blades have a range increment of 20 ft. One-handed weapon mind blades have a range increment of 15 ft. Two-handed weapon mind blades cannot be thrown without the Two-Handed Throw blade skill.  Whether or not the attack hits, a thrown mind blade then dissipates.
+      </p>
+  subType: classFeat
+  tag: throw-mind-blade
+type: feat

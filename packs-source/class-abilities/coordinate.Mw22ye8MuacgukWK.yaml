@@ -1,0 +1,18 @@
+_id: Mw22ye8MuacgukWK
+_key: '!items!Mw22ye8MuacgukWK'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Coordinate
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Tactician
+  description:
+    value: |-
+      <p><b>Coordinate:</b> At 6th level, as long as the tactician maintains psionic focus, he may share any one teamwork feat he has with one member of his collective within line of sight and line of effect. Declaring which member of the collective gains the teamwork feat is a free action that can only be done once per round. The ally's positioning and actions must still meet the prerequisites listed in the teamwork feat to receive the listed bonus, but the ally need not meet the feat prerequisites to gain the benefit.
+      </p>
+  subType: classFeat
+  tag: coordinate
+type: feat

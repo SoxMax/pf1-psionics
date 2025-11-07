@@ -1,0 +1,18 @@
+_id: IwcSQSE8UKuM0A6S
+_key: '!items!IwcSQSE8UKuM0A6S'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Shadow twin
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Dread
+  description:
+    value: |-
+      <p><b>Shadow twin:</b> A dread of 11th level is able to draw forth a replica of herself formed from fears and nightmares. The shadow twin appears at a location chosen by the dread that is within 30 ft. and lasts for one round per class level. The dread and this shadow twin are, for all intents and purposes, one person - including only having one round's worth of actions to use between the two, sharing attacks of opportunity, sharing a single pool of hit points and power points, and having access to all of the same abilities and daily uses of those abilities. If the shadow twin is damaged or healed, the dread takes the damage or healing, and vice versa. If both the dread and the shadow twin are affected by the same area of effect, damage is only counted once.
+      </p>
+  subType: classFeat
+  tag: shadow-twin
+type: feat

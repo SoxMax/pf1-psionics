@@ -1,0 +1,18 @@
+_id: 02S06QoQk6ku0Qoy
+_key: '!items!02S06QoQk6ku0Qoy'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: psychic enervation
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Wilder
+  description:
+    value: |-
+      <p><b>psychic enervation:</b> Pushing oneself by invoking a wild surge is dangerous. Immediately following each wild surge, a wilder may be overcome by the strain of her effort, the effect of which is detailed in the specific surge entry. The chance of suffering psychic enervation is 15%.
+      </p>
+  subType: classFeat
+  tag: psychic-enervation
+type: feat

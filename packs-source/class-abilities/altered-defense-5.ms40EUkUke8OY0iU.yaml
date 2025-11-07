@@ -1,0 +1,16 @@
+_id: ms40EUkUke8OY0iU
+_key: '!items!ms40EUkUke8OY0iU'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Altered defense 5
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: <p>Altered defense 5</p>
+  subType: classFeat
+  tag: altered-defense-5
+type: feat

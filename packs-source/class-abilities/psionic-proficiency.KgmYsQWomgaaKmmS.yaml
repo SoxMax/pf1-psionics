@@ -1,0 +1,18 @@
+_id: KgmYsQWomgaaKmmS
+_key: '!items!KgmYsQWomgaaKmmS'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: psionic proficiency
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Psychic Warrior
+  description:
+    value: |-
+      <p><b>psionic proficiency:</b> A psychic warrior treats his base attack bonus as equal to his psychic warrior level for the purposes of requirements for psionic feats. Base attack bonuses granted from other classes are unaffected and are added normally.
+      </p>
+  subType: classFeat
+  tag: psionic-proficiency
+type: feat

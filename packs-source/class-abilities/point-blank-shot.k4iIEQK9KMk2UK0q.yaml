@@ -1,0 +1,16 @@
+_id: k4iIEQK9KMk2UK0q
+_key: '!items!k4iIEQK9KMk2UK0q'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Point Blank Shot
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Marksman
+  description:
+    value: <p>Point Blank Shot</p>
+  subType: classFeat
+  tag: point-blank-shot
+type: feat

@@ -1,0 +1,18 @@
+_id: E4woOIKcGgGkguIy
+_key: '!items!E4woOIKcGgGkguIy'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Steal life
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Vitalist
+  description:
+    value: |-
+      <p><b>Steal life:</b> Beginning at 14th level, a vitalist can not only steal the health of a target, but steal their life itself. By making a successful melee touch attack and expending psionic focus, the vitalist can force the target to make a Fortitude save (DC 10 + half class level + Wisdom modifier) or die. A successful save negates this effect. Targets with more than 140 hit points are unaffected by this ability.
+      </p>
+  subType: classFeat
+  tag: steal-life
+type: feat

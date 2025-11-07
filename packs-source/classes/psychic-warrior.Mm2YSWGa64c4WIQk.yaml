@@ -1,0 +1,84 @@
+_id: Mm2YSWGa64c4WIQk
+_key: '!items!Mm2YSWGa64c4WIQk'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/items/inventory/brain-purple.png
+name: Psychic Warrior
+system:
+  alignment: Any
+  armorProf: []
+  bab: low
+  classSkills: []
+  description:
+    summary: ''
+    value: ''
+  hd: 6
+  hp: 6
+  level: 1
+  links:
+    classAssociations:
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Q4kwKAM8YQWAgCae
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.KgmYsQWomgaaKmmS
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.MeuAyIkQkig8ICso
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Q4kwKAM8YQWAgCae
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.o2AwIkyOA44CAq8e
+      - level: 4
+        uuid: Compendium.pf1-psionics.class-abilities.Item.YoOaq4SuGqMcemIC
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Q4kwKAM8YQWAgCae
+      - level: 6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.CCKGEGig2iG4eCCc
+      - level: 7
+        uuid: Compendium.pf1-psionics.class-abilities.Item.YoOaq4SuGqMcemIC
+      - level: 8
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Q4kwKAM8YQWAgCae
+      - level: 9
+        uuid: Compendium.pf1-psionics.class-abilities.Item.SmAeGiss6iqiOYsY
+      - level: 10
+        uuid: Compendium.pf1-psionics.class-abilities.Item.YoOaq4SuGqMcemIC
+      - level: 11
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Q4kwKAM8YQWAgCae
+      - level: 11
+        uuid: Compendium.pf1-psionics.class-abilities.Item.2KmosquuCscsSm4i
+      - level: 11
+        uuid: Compendium.pf1-psionics.class-abilities.Item.sSOYeWcSAUYCaiUG
+      - level: 12
+        uuid: Compendium.pf1-psionics.class-abilities.Item.4uCoY4AgM8CqA6aM
+      - level: 13
+        uuid: Compendium.pf1-psionics.class-abilities.Item.YoOaq4SuGqMcemIC
+      - level: 14
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Q4kwKAM8YQWAgCae
+      - level: 15
+        uuid: Compendium.pf1-psionics.class-abilities.Item.o8sqQGswEeYlKg8E
+      - level: 16
+        uuid: Compendium.pf1-psionics.class-abilities.Item.YoOaq4SuGqMcemIC
+      - level: 17
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Q4kwKAM8YQWAgCae
+      - level: 18
+        uuid: Compendium.pf1-psionics.class-abilities.Item.o8sqQGswEeYlKg8E
+      - level: 19
+        uuid: Compendium.pf1-psionics.class-abilities.Item.YoOaq4SuGqMcemIC
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Q4kwKAM8YQWAgCae
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.gYCoGo0uGUcAqmee
+  savingThrows:
+    fort:
+      value: low
+    ref:
+      value: low
+    will:
+      value: low
+  skillsPerLevel: 2
+  sources: []
+  subType: base
+  tag: psychic-warrior
+  wealth: 2d6 * 10
+  weaponProf:
+    - simple
+type: class

@@ -1,0 +1,18 @@
+_id: sAOgkGkUo4k8AISq
+_key: '!items!sAOgkGkUo4k8AISq'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Accelerate
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: |-
+      <p><b>Accelerate:</b> A voyager's psionic ability enhances her agility, altering her personal time to accelerate herself. She gains <a href="/wiki/Speed_of_Thought" title="Speed of Thought">Speed of Thought</a> as a bonus feat at 1st level. At 3rd level and every five class levels thereafter, the voyager's Speed of Thought feat improves, increasing its insight bonus to speed by 10 feet. When a voyager expends her psionic focus to increase the feat's speed bonus, she doubles the existing bonus, rather than increasing it to +30 feet.
+      </p>
+  subType: classFeat
+  tag: accelerate
+type: feat

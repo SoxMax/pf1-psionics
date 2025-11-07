@@ -1,0 +1,18 @@
+_id: C8ciIOQGQEW4oua6
+_key: '!items!C8ciIOQGQEW4oua6'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Invigorating suit
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Aegis
+  description:
+    value: |-
+      <p><b>Invigorating suit:</b> An aegis of at least 3rd level wearing his astral suit gains a +4 bonus on the following checks and saves: Swim checks made to resist nonlethal damage from exhaustion; Constitution checks made to continue running; Constitution checks made to avoid nonlethal damage from a forced march; Constitution checks made to hold breath; Constitution checks made to avoid nonlethal damage from starvation or thirst; Fortitude saves made to avoid nonlethal damage from hot or cold environments; and Fortitude saves made to resist damage from suffocation.
+      </p>
+  subType: classFeat
+  tag: invigorating-suit
+type: feat

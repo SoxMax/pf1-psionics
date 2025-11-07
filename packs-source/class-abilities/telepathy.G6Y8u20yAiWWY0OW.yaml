@@ -1,0 +1,18 @@
+_id: G6Y8u20yAiWWY0OW
+_key: '!items!G6Y8u20yAiWWY0OW'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: telepathy
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Highlord
+  description:
+    value: |-
+      <p><b>telepathy:</b> When a highlord reaches 3rd level, all willing members of his collective (including the highlord himself) can communicate with each other telepathically, even if they do not share a common language. Psionic creatures who are willing members in a highlord's collective (including the highlord himself) may manifest unknown powers known by another willing psionic creature in the collective as if they were making physical contact.
+      </p>
+  subType: classFeat
+  tag: telepathy
+type: feat

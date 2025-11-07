@@ -1,0 +1,16 @@
+_id: O6ySyg2gkgSy4koc
+_key: '!items!O6ySyg2gkgSy4koc'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: psychic strike +1d8
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Soulknife
+  description:
+    value: <p>psychic strike +1d8</p>
+  subType: classFeat
+  tag: psychic-strike-1d8
+type: feat

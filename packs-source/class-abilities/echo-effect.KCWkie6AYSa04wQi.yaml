@@ -1,0 +1,18 @@
+_id: KCWkie6AYSa04wQi
+_key: '!items!KCWkie6AYSa04wQi'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Echo effect
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Tactician
+  description:
+    value: |-
+      <p><b>Echo effect:</b> At 8th level, the tactician gains the ability to copy non-permanent magical and psionic effects within his collective. If a member of the collective is affected by a magical or psionic effect with a duration greater than 1 round, the tactician can echo it onto another member of his collective. To do so the tactician must first identify the power properly (see the Spellcraft skill description).
+      </p>
+  subType: classFeat
+  tag: echo-effect
+type: feat

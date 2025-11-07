@@ -1,0 +1,18 @@
+_id: ECewyUYMqgQIO80g
+_key: '!items!ECewyUYMqgQIO80g'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Strategy
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Tactician
+  description:
+    value: |-
+      <p><b>Strategy:</b> At 4th level, and every three tactician levels thereafter, a tactician learns a new tactical strategy, granting him special abilities in combat. Unless specified otherwise, using a strategy is a swift action that does not provoke attacks of opportunity. Strategies are often orders or suggestions that the tactician issues to members of his collective. A tactician may not direct a strategy at himself unless a strategy specifies otherwise.
+      </p>
+  subType: classFeat
+  tag: strategy
+type: feat

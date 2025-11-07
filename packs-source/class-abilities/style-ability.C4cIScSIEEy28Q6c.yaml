@@ -1,0 +1,18 @@
+_id: C4cIScSIEEy28Q6c
+_key: '!items!C4cIScSIEEy28Q6c'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: style ability
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Marksman
+  description:
+    value: |-
+      <p><b>style ability:</b> Starting at 4th level, a Marksman gains an ability associated with her combat style. Every four levels thereafter (8th, 12th, 16th, 20th), she gains a new style ability.
+      </p>
+  subType: classFeat
+  tag: style-ability
+type: feat

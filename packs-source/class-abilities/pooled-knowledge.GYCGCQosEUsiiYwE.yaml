@@ -1,0 +1,18 @@
+_id: GYCGCQosEUsiiYwE
+_key: '!items!GYCGCQosEUsiiYwE'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Pooled knowledge
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Tactician
+  description:
+    value: |-
+      <p><b>Pooled knowledge:</b> Once a tactician has reached 14th level, he has learned to share not only strategic knowledge over the collective, but even knowledge of manifesting. By expending psionic focus, the tactician may attempt to manifest any power known by a member of his collective. If the power is not on the tactician power list, the tactician must make a successful Spellcraft check (DC 20 + the power's level) to see if he understands the power. If the Spellcraft check fails, the attempt fails and psionic focus is still expended, but no power points are spent. If the check is successful, the tactician may immediately manifest the power. Using this ability uses an action equal to the manifesting time of the power to be manifested. This ability may not be used to manifest powers with a manifesting time longer than one round.
+      </p>
+  subType: classFeat
+  tag: pooled-knowledge
+type: feat

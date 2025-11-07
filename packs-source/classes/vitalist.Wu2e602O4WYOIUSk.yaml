@@ -1,0 +1,96 @@
+_id: Wu2e602O4WYOIUSk
+_key: '!items!Wu2e602O4WYOIUSk'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/items/inventory/brain-purple.png
+name: Vitalist
+system:
+  alignment: Any
+  armorProf: []
+  bab: low
+  classSkills: []
+  description:
+    summary: ''
+    value: ''
+  hd: 6
+  hp: 6
+  level: 1
+  links:
+    classAssociations:
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.GyUykGcEKqE8yA0M
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.owYa6Iq2CK04EWWM
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.meUSmQ4suI8cgyu8
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.QcCwcmuiG6Ge8YUA
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.meeSoMUS2SoOk6yG
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.geiUwM2mUsKmCSK6
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.AuQqsYys8W6Q2mim
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.A8eQkCgimEUwqucI
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.2ykG6UeMAUGO6y6I
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.uIIQI6iOwe0q8iGI
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.CwEA80Csm24EYowq
+      - level: 4
+        uuid: Compendium.pf1-psionics.class-abilities.Item.WWw0M2c8AiwYggqA
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.0amyUGe8AmUqMo4k
+      - level: 6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.uGE2gsCui860w2mm
+      - level: 7
+        uuid: Compendium.pf1-psionics.class-abilities.Item.CaqCCckQ0aSW22qk
+      - level: 7
+        uuid: Compendium.pf1-psionics.class-abilities.Item.yWyCwgIy4GGeUOYm
+      - level: 7
+        uuid: Compendium.pf1-psionics.class-abilities.Item.geiUwM2mUsKmCSK6
+      - level: 8
+        uuid: Compendium.pf1-psionics.class-abilities.Item.s3mikAgwEaqs4cwy
+      - level: 9
+        uuid: Compendium.pf1-psionics.class-abilities.Item.gI220IWswyg4ske8
+      - level: 10
+        uuid: Compendium.pf1-psionics.class-abilities.Item.kkcCiMeIYo02AA6y
+      - level: 11
+        uuid: Compendium.pf1-psionics.class-abilities.Item.u0ckM4oaOUcEkYso
+      - level: 12
+        uuid: Compendium.pf1-psionics.class-abilities.Item.CaqCCckQ0aSW22qk
+      - level: 13
+        uuid: Compendium.pf1-psionics.class-abilities.Item.WWw0M2c8AiwYggqA
+      - level: 14
+        uuid: Compendium.pf1-psionics.class-abilities.Item.E4woOIKcGgGkguIy
+      - level: 15
+        uuid: Compendium.pf1-psionics.class-abilities.Item.EAYceqIy8q2GUuCE
+      - level: 16
+        uuid: Compendium.pf1-psionics.class-abilities.Item.WWw0M2c8AiwYggqA
+      - level: 17
+        uuid: Compendium.pf1-psionics.class-abilities.Item.CaqCCckQ0aSW22qk
+      - level: 18
+        uuid: Compendium.pf1-psionics.class-abilities.Item.gI220IWswyg4ske8
+      - level: 19
+        uuid: Compendium.pf1-psionics.class-abilities.Item.WWw0M2c8AiwYggqA
+      - level: 19
+        uuid: Compendium.pf1-psionics.class-abilities.Item.y2ao4QMk0uOAGMOQ
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.agMyKAy2uUaIEcUy
+  savingThrows:
+    fort:
+      value: low
+    ref:
+      value: low
+    will:
+      value: low
+  skillsPerLevel: 2
+  sources: []
+  subType: base
+  tag: vitalist
+  wealth: 2d6 * 10
+  weaponProf:
+    - simple
+type: class

@@ -1,0 +1,98 @@
+_id: 0oqIscgy8ge2O6Su
+_key: '!items!0oqIscgy8ge2O6Su'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/items/inventory/brain-purple.png
+name: Aegis
+system:
+  alignment: Any
+  armorProf: []
+  bab: low
+  classSkills: []
+  description:
+    summary: ''
+    value: ''
+  hd: 6
+  hp: 6
+  level: 1
+  links:
+    classAssociations:
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.eUsu2SOiIKoY4qsA
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.yKS2asuS88eK0EGw
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.8scyUIO40kwogKYE
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.MgaESKcacAWcCUIs
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.C8ciIOQGQEW4oua6
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.O8SI0wuyso8KwqqA
+      - level: 4
+        uuid: Compendium.pf1-psionics.class-abilities.Item.ysiqEcaGgYuKSuMa
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.uSQEIcQ8OqgA6cuu
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.yk62A1QSIgIY4SwC
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.O8SI0wuyso8KwqqA
+      - level: 6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.8scyUIO40kwogKYE
+      - level: 7
+        uuid: Compendium.pf1-psionics.class-abilities.Item.a8su0SOW4eIaGoWa
+      - level: 8
+        uuid: Compendium.pf1-psionics.class-abilities.Item.ysiqEcaGgYuKSuMa
+      - level: 8
+        uuid: Compendium.pf1-psionics.class-abilities.Item.MgaESKcacAWcCUIs
+      - level: 9
+        uuid: Compendium.pf1-psionics.class-abilities.Item.a8su0SOW4eIaGoWa
+      - level: 10
+        uuid: Compendium.pf1-psionics.class-abilities.Item.8scyUIO40kwogKYE
+      - level: 11
+        uuid: Compendium.pf1-psionics.class-abilities.Item.uSQEIcQ8OqgA6cuu
+      - level: 11
+        uuid: Compendium.pf1-psionics.class-abilities.Item.O8SI0wuyso8KwqqA
+      - level: 12
+        uuid: Compendium.pf1-psionics.class-abilities.Item.ysiqEcaGgYuKSuMa
+      - level: 12
+        uuid: Compendium.pf1-psionics.class-abilities.Item.sEwW6ioiCI4MeOKK
+      - level: 13
+        uuid: Compendium.pf1-psionics.class-abilities.Item.a8su0SOW4eIaGoWa
+      - level: 14
+        uuid: Compendium.pf1-psionics.class-abilities.Item.8scyUIO40kwogKYE
+      - level: 14
+        uuid: Compendium.pf1-psionics.class-abilities.Item.MgaESKcacAWcCUIs
+      - level: 15
+        uuid: Compendium.pf1-psionics.class-abilities.Item.a8su0SOW4eIaGoWa
+      - level: 16
+        uuid: Compendium.pf1-psionics.class-abilities.Item.ysiqEcaGgYuKSuMa
+      - level: 17
+        uuid: Compendium.pf1-psionics.class-abilities.Item.uSQEIcQ8OqgA6cuu
+      - level: 17
+        uuid: Compendium.pf1-psionics.class-abilities.Item.O8SI0wuyso8KwqqA
+      - level: 18
+        uuid: Compendium.pf1-psionics.class-abilities.Item.8scyUIO40kwogKYE
+      - level: 19
+        uuid: Compendium.pf1-psionics.class-abilities.Item.a8su0SOW4eIaGoWa
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.ysiqEcaGgYuKSuMa
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.MgaESKcacAWcCUIs
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.0M64UmKmqMK6sYeA
+  savingThrows:
+    fort:
+      value: low
+    ref:
+      value: low
+    will:
+      value: low
+  skillsPerLevel: 2
+  sources: []
+  subType: base
+  tag: aegis
+  wealth: 2d6 * 10
+  weaponProf:
+    - simple
+type: class

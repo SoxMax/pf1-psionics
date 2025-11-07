@@ -1,0 +1,18 @@
+_id: QugMkc82QU4A46iO
+_key: '!items!QugMkc82QU4A46iO'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: evade arrows
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Marksman
+  description:
+    value: |-
+      <p><b>evade arrows:</b> At 2nd level, a Marksman's familiarity with ranged attacks and her natural intuition alerts her to danger from mundane ranged attacks. She gains a +1 Dodge bonus to Armor Class against ranged attacks (but not ranged touch attacks). At 6th level and every four Marksman levels thereafter, this Dodge bonus increases by 1.
+      </p>
+  subType: classFeat
+  tag: evade-arrows
+type: feat

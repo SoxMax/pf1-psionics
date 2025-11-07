@@ -1,0 +1,16 @@
+_id: kS2kiqSawaUSkwGE
+_key: '!items!kS2kiqSawaUSkwGE'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Enhanced disruption+9d6
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: <p>Enhanced disruption+9d6</p>
+  subType: classFeat
+  tag: enhanced-disruption-9d6
+type: feat

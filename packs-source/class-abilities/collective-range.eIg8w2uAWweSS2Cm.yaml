@@ -1,0 +1,16 @@
+_id: eIg8w2uAWweSS2Cm
+_key: '!items!eIg8w2uAWweSS2Cm'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Collective range
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Tactician
+  description:
+    value: <p>Collective range</p>
+  subType: classFeat
+  tag: collective-range
+type: feat

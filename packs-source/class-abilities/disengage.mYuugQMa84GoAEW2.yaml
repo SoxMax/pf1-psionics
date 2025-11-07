@@ -1,0 +1,18 @@
+_id: mYuugQMa84GoAEW2
+_key: '!items!mYuugQMa84GoAEW2'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Disengage
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Marksman
+  description:
+    value: |-
+      <p><b>Disengage:</b> Once a Marksman has reached 7th level, she learns how to effectively distance herself from enemies. When the Marksman would provoke an attack of opportunity for moving out of a threatened space, she may expend her psionic focus to add her Wisdom modifier to her Acrobatics rolls to avoid attacks of opportunity for the round and can move at full speed without increasing the Acrobatics DC.
+      </p>
+  subType: classFeat
+  tag: disengage
+type: feat

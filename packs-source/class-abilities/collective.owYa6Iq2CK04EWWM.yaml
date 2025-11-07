@@ -1,0 +1,18 @@
+_id: owYa6Iq2CK04EWWM
+_key: '!items!owYa6Iq2CK04EWWM'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: collective
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Vitalist
+  description:
+    value: |-
+      <p><b>collective:</b> A vitalist learns to use psionic power to connect willing minds through an internal network that strengthens their psychic bonds. As a standard action, a vitalist can join a number willing targets into his collective equal to his key ability modifier or half his vitalist level, whichever is higher. The vitalist must have line of sight to each target, each target must have a Wisdom score of at least 1, and all targets must be within Medium range (100 ft. + 10 ft. per class level). The vitalist is always considered a member of his own collective, and does not count against this limit.
+      </p>
+  subType: classFeat
+  tag: collective
+type: feat

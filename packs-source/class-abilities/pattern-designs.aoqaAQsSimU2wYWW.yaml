@@ -1,0 +1,18 @@
+_id: aoqaAQsSimU2wYWW
+_key: '!items!aoqaAQsSimU2wYWW'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: pattern designs
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: |-
+      <p><b>pattern designs:</b> Unlike normal manifesters, a cryptic manipulates the world around her by creating tattoos and patterns that alters reality in different ways. Cryptic powers show up on the cryptic's body in the form of tattoos. The cryptic's known powers can be identified via Spellcraft checks with a DC equal to 10 + double the power's level. These tattoos do not count against the number of psionic tattoos that the cryptic can safely wear.
+      </p>
+  subType: classFeat
+  tag: pattern-designs
+type: feat

@@ -1,0 +1,16 @@
+_id: 8quGQ2GKqo8Og0Sy
+_key: '!items!8quGQ2GKqo8Og0Sy'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: wild talent
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Soulknife
+  description:
+    value: <p><b>wild talent:</b> The soulknife gains <a href="/wiki/Wild_Talent" title="Wild Talent">Wild Talent</a> as a bonus feat at 1st level. This provides her with the psionic power necessary to manifest her mind blade. A character who is already psionic instead gains the </p>
+  subType: classFeat
+  tag: wild-talent
+type: feat

@@ -1,0 +1,16 @@
+_id: sSOYeWcSAUYCaiUG
+_key: '!items!sSOYeWcSAUYCaiUG'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: maneuver)
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Psychic Warrior
+  description:
+    value: <p>maneuver)</p>
+  subType: classFeat
+  tag: maneuver
+type: feat

@@ -1,0 +1,80 @@
+_id: uOccwKY6yiakuUG8
+_key: '!items!uOccwKY6yiakuUG8'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/items/inventory/brain-purple.png
+name: Wilder
+system:
+  alignment: Any
+  armorProf: []
+  bab: low
+  classSkills: []
+  description:
+    summary: ''
+    value: ''
+  hd: 6
+  hp: 6
+  level: 1
+  links:
+    classAssociations:
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.cy8UEUbq0o00A0su
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.02S06QoQk6ku0Qoy
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Q2skwMgQsKqyKiz4
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.4Ym6gOEEYI2KUUqA
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.A46M8KqKIg2UuuiK
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.eUsUCoiSuOk2Eom2
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.cy8UEUbq0o00A0su
+      - level: 4
+        uuid: Compendium.pf1-psionics.class-abilities.Item.4u4qUwA2aisuaK0c
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.YgeIKuiAGK28Q2ec
+      - level: 6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.eUsUCoiSuOk2Eom2
+      - level: 7
+        uuid: Compendium.pf1-psionics.class-abilities.Item.cy8UEUbq0o00A0su
+      - level: 9
+        uuid: Compendium.pf1-psionics.class-abilities.Item.YgeIKuiAGK28Q2ec
+      - level: 10
+        uuid: Compendium.pf1-psionics.class-abilities.Item.eUsUCoiSuOk2Eom2
+      - level: 11
+        uuid: Compendium.pf1-psionics.class-abilities.Item.cy8UEUbq0o00A0su
+      - level: 12
+        uuid: Compendium.pf1-psionics.class-abilities.Item.4u4qUwA2aisuaK0c
+      - level: 13
+        uuid: Compendium.pf1-psionics.class-abilities.Item.YgeIKuiAGK28Q2ec
+      - level: 14
+        uuid: Compendium.pf1-psionics.class-abilities.Item.eUsUCoiSuOk2Eom2
+      - level: 15
+        uuid: Compendium.pf1-psionics.class-abilities.Item.cy8UEUbq0o00A0su
+      - level: 17
+        uuid: Compendium.pf1-psionics.class-abilities.Item.YgeIKuiAGK28Q2ec
+      - level: 18
+        uuid: Compendium.pf1-psionics.class-abilities.Item.eUsUCoiSuOk2Eom2
+      - level: 19
+        uuid: Compendium.pf1-psionics.class-abilities.Item.cy8UEUbq0o00A0su
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.wMYMuUAEcGwcg8CY
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.a24SkAukmsqiO868
+  savingThrows:
+    fort:
+      value: low
+    ref:
+      value: low
+    will:
+      value: low
+  skillsPerLevel: 2
+  sources: []
+  subType: base
+  tag: wilder
+  wealth: 2d6 * 10
+  weaponProf:
+    - simple
+type: class

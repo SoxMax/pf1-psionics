@@ -1,0 +1,88 @@
+_id: mio84cUec2CusIMW
+_key: '!items!mio84cUec2CusIMW'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/items/inventory/brain-purple.png
+name: Tactician
+system:
+  alignment: Any
+  armorProf: []
+  bab: low
+  classSkills: []
+  description:
+    summary: ''
+    value: ''
+  hd: 6
+  hp: 6
+  level: 1
+  links:
+    classAssociations:
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.cOoAMOSo0yQYyyeu
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.sQkCEsy4i6imYwii
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.wYk2Ko002m4eWKiC
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.ooaYkKCMASwwiYCO
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.sSOmqwoGUEWweYGe
+      - level: 4
+        uuid: Compendium.pf1-psionics.class-abilities.Item.ECewyUYMqgQIO80g
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.IW4cS8cCkUCWayk4
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.0yWY1i622Q4EEqGs
+      - level: 6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Mw22ye8MuacgukWK
+      - level: 6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.YG2qAsImGUYmWwuO
+      - level: 7
+        uuid: Compendium.pf1-psionics.class-abilities.Item.ECewyUYMqgQIO80g
+      - level: 8
+        uuid: Compendium.pf1-psionics.class-abilities.Item.KCWkie6AYSa04wQi
+      - level: 9
+        uuid: Compendium.pf1-psionics.class-abilities.Item.IW4cS8cCkUCWayk4
+      - level: 10
+        uuid: Compendium.pf1-psionics.class-abilities.Item.ECewyUYMqgQIO80g
+      - level: 11
+        uuid: Compendium.pf1-psionics.class-abilities.Item.C66IoCmIUcQ4akq0
+      - level: 12
+        uuid: Compendium.pf1-psionics.class-abilities.Item.SaEsYqK6UKcwEkAK
+      - level: 13
+        uuid: Compendium.pf1-psionics.class-abilities.Item.IW4cS8cCkUCWayk4
+      - level: 13
+        uuid: Compendium.pf1-psionics.class-abilities.Item.244ioSYGW84WSCYs
+      - level: 14
+        uuid: Compendium.pf1-psionics.class-abilities.Item.GYCGCQosEUsiiYwE
+      - level: 15
+        uuid: Compendium.pf1-psionics.class-abilities.Item.eIg8w2uAWweSS2Cm
+      - level: 16
+        uuid: Compendium.pf1-psionics.class-abilities.Item.ECewyUYMqgQIO80g
+      - level: 17
+        uuid: Compendium.pf1-psionics.class-abilities.Item.IW4cS8cCkUCWayk4
+      - level: 17
+        uuid: Compendium.pf1-psionics.class-abilities.Item.0yWY1i622Q4EEqGs
+      - level: 18
+        uuid: Compendium.pf1-psionics.class-abilities.Item.SaEsYqK6UKcwEkAK
+      - level: 19
+        uuid: Compendium.pf1-psionics.class-abilities.Item.eIg8w2uAWweSS2Cm
+      - level: 19
+        uuid: Compendium.pf1-psionics.class-abilities.Item.244ioSYGW84WSCYs
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.mmMSkCCKyAsOwkWe
+  savingThrows:
+    fort:
+      value: low
+    ref:
+      value: low
+    will:
+      value: low
+  skillsPerLevel: 2
+  sources: []
+  subType: base
+  tag: tactician
+  wealth: 2d6 * 10
+  weaponProf:
+    - simple
+type: class

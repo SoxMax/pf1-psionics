@@ -1,0 +1,18 @@
+_id: 0yWY1i622Q4EEqGs
+_key: '!items!0yWY1i622Q4EEqGs'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: improved share
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Tactician
+  description:
+    value: |-
+      <p><b>improved share:</b> A tactician learns special techniques when manifesting powers with the Shared descriptor. Beginning at 5th level, the tactician may maintain two powers with the Shared descriptor at any time instead of only one. Should he manifest a third power with the Shared descriptor, the tactician can choose which of the maintained Shared powers ends immediately.
+      </p>
+  subType: classFeat
+  tag: improved-share
+type: feat

@@ -1,0 +1,16 @@
+_id: 4uCoY4AgM8CqA6aM
+_key: '!items!4uCoY4AgM8CqA6aM'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Twisting paths
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Psychic Warrior
+  description:
+    value: <p>Twisting paths</p>
+  subType: classFeat
+  tag: twisting-paths
+type: feat

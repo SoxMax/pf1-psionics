@@ -1,0 +1,18 @@
+_id: EC4iUYqyakGOmmAW
+_key: '!items!EC4iUYqyakGOmmAW'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Fearsome insight
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Dread
+  description:
+    value: |-
+      <p><b>Fearsome insight:</b> The dread's connection to the fears and the subconscious grows and she gains a greater understanding of the mental faculties which regulate fear. This translates into an insight bonus to Intimidate equal to half her class level (minimum +1).
+      </p>
+  subType: classFeat
+  tag: fearsome-insight
+type: feat

@@ -1,0 +1,18 @@
+_id: m4UqCMusSCYqQ8YW
+_key: '!items!m4UqCMusSCYqQ8YW'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: rapid defense
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: |-
+      <p><b>rapid defense:</b> Starting at 4th level, a cryptic can use her altered defense ability as a free action by expending her psionic focus. The cryptic may even do this when it is not her turn.
+      </p>
+  subType: classFeat
+  tag: rapid-defense
+type: feat

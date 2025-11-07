@@ -1,0 +1,18 @@
+_id: gYCoGo0uGUcAqmee
+_key: '!items!gYCoGo0uGUcAqmee'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: eternal warrior
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Psychic Warrior
+  description:
+    value: |-
+      <p><b>eternal warrior:</b> At 20th level, once per day as a free action, the psychic warrior can enter into a very powerful trance. As long as he maintains psionic focus, for up to 5 minutes the psychic warrior adds his Wisdom modifier to his attack rolls, damage rolls, AC, skill checks, ability checks, saves, and initiative, and he increases his speed by +5 feet for every point of his Wisdom modifier. These benefits stack with those that might be granted by his active path's trance (or both paths, if using pathweaving).
+      </p>
+  subType: classFeat
+  tag: eternal-warrior
+type: feat

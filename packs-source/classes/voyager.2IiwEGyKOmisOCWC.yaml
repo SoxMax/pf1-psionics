@@ -1,0 +1,110 @@
+_id: 2IiwEGyKOmisOCWC
+_key: '!items!2IiwEGyKOmisOCWC'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/items/inventory/brain-purple.png
+name: Voyager
+system:
+  alignment: Any
+  armorProf: []
+  bab: low
+  classSkills: []
+  description:
+    summary: ''
+    value: ''
+  hd: 6
+  hp: 6
+  level: 1
+  links:
+    classAssociations:
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.sAOgkGkUo4k8AISq
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.mqyMoQqSQCeKuKMs
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.swKKKsAeuoUg6Mgu
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.soSw4QCgCoC00wAA
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.sKmimsqK4SgwcY0E
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.MWY8ma4eAYoacIEW
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.suukwgYsy4UuaMgC
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.sAOgkGkUo4k8AISq
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.SakGsgEkImOG868I
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.swKKKsAeuoUg6Mgu
+      - level: 4
+        uuid: Compendium.pf1-psionics.class-abilities.Item.OSkSwC4AYiwkyCkQ
+      - level: 4
+        uuid: Compendium.pf1-psionics.class-abilities.Item.IWM02QSS22UsSagA
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.60AK6aCgIUwKAQSi
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.suukwgYsy4UuaMgC
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.0GyCKQ8okum6uUiE
+      - level: 6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.uYYcizK6ywAa2WmG
+      - level: 6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.miOG68kgkyKIOGMC
+      - level: 7
+        uuid: Compendium.pf1-psionics.class-abilities.Item.8mqyiwc6ECwoAccM
+      - level: 7
+        uuid: Compendium.pf1-psionics.class-abilities.Item.W6cqIoS6GmYmgCCu
+      - level: 8
+        uuid: Compendium.pf1-psionics.class-abilities.Item.sAOgkGkUo4k8AISq
+      - level: 8
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Ug4yk0ee6G6cUUIE
+      - level: 9
+        uuid: Compendium.pf1-psionics.class-abilities.Item.eiYug0WSY8aEaUid
+      - level: 9
+        uuid: Compendium.pf1-psionics.class-abilities.Item.iumlOG0KoKyz4iyO
+      - level: 10
+        uuid: Compendium.pf1-psionics.class-abilities.Item.60AK6aCgIUwKAQSi
+      - level: 10
+        uuid: Compendium.pf1-psionics.class-abilities.Item.aMiKu4CUy2qa2uk2
+      - level: 11
+        uuid: Compendium.pf1-psionics.class-abilities.Item.wk6SSqCY04CA6AAk
+      - level: 11
+        uuid: Compendium.pf1-psionics.class-abilities.Item.swKKKsAeuoUg6Mgu
+      - level: 12
+        uuid: Compendium.pf1-psionics.class-abilities.Item.WwkoAUsU8eaI8Gog
+      - level: 13
+        uuid: Compendium.pf1-psionics.class-abilities.Item.sAOgkGkUo4k8AISq
+      - level: 13
+        uuid: Compendium.pf1-psionics.class-abilities.Item.egQUk8K8QQ6qM06i
+      - level: 14
+        uuid: Compendium.pf1-psionics.class-abilities.Item.waiogUieowOwWasW
+      - level: 15
+        uuid: Compendium.pf1-psionics.class-abilities.Item.60AK6aCgIUwKAQSi
+      - level: 15
+        uuid: Compendium.pf1-psionics.class-abilities.Item.swKKKsAeuoUg6Mgu
+      - level: 16
+        uuid: Compendium.pf1-psionics.class-abilities.Item.i2AUcW28ikoEuwYI
+      - level: 17
+        uuid: Compendium.pf1-psionics.class-abilities.Item.ycgKmGKeiMK08E6k
+      - level: 18
+        uuid: Compendium.pf1-psionics.class-abilities.Item.sAOgkGkUo4k8AISq
+      - level: 19
+        uuid: Compendium.pf1-psionics.class-abilities.Item.8mqyiwc6ECwoAccM
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.YyoCa0qsMCQYW2Um
+  savingThrows:
+    fort:
+      value: low
+    ref:
+      value: low
+    will:
+      value: low
+  skillsPerLevel: 2
+  sources: []
+  subType: base
+  tag: voyager
+  wealth: 2d6 * 10
+  weaponProf:
+    - simple
+type: class

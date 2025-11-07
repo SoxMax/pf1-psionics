@@ -1,0 +1,18 @@
+_id: 8abmsI8ekceqYCOE
+_key: '!items!8abmsI8ekceqYCOE'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Combat style
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Marksman
+  description:
+    value: |-
+      <p><b>Combat style:</b> A Marksman of 1st level chooses a type of ranged combat that is her preferred style. This style determines certain class features, skills, and abilities, as described in the different styles.
+      </p>
+  subType: classFeat
+  tag: combat-style
+type: feat

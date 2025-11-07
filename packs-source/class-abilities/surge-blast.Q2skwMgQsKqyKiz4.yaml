@@ -1,0 +1,18 @@
+_id: Q2skwMgQsKqyKiz4
+_key: '!items!Q2skwMgQsKqyKiz4'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: surge blast
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Wilder
+  description:
+    value: |-
+      <p><b>surge blast:</b> A wilder can channel her wild surge into a blast of uncontrolled phrenic energy. As a standard action and by expending psionic focus, the wilder can make a ranged touch attack (range 30') that deals 1d6 points of force damage for every +1 to her wild surge.
+      </p>
+  subType: classFeat
+  tag: surge-blast
+type: feat

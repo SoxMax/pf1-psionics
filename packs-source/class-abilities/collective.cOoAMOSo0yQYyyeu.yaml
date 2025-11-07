@@ -1,0 +1,18 @@
+_id: cOoAMOSo0yQYyyeu
+_key: '!items!cOoAMOSo0yQYyyeu'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Collective
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Tactician
+  description:
+    value: |-
+      <p><b>Collective:</b> A tactician learns to use psionic power to connect willing minds through an internal network that strengthens their psychic bonds. As a standard action, a tactician can join any number of willing targets into his collective (up to his limit, see below). The tactician must have line of sight to each target, each target must have a Wisdom score of at least 1, and all targets must be within Medium range (100 ft. + 10 ft. per class level). The collective can contain up to his key ability modifier or half his tactician level, whichever is higher. The tactician is always considered a member of his own collective, and does not count against this limit.
+      </p>
+  subType: classFeat
+  tag: collective
+type: feat

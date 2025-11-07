@@ -1,0 +1,16 @@
+_id: mGMsGiaAS0egmqOU
+_key: '!items!mGMsGiaAS0egmqOU'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: talents
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Psion
+  description:
+    value: <p><b>talents:</b> Each psion gains three 0 level talents of their choice, as well as </p>
+  subType: classFeat
+  tag: talents
+type: feat

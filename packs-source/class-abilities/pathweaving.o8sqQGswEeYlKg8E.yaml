@@ -1,0 +1,18 @@
+_id: o8sqQGswEeYlKg8E
+_key: '!items!o8sqQGswEeYlKg8E'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Pathweaving
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Psychic Warrior
+  description:
+    value: |-
+      <p><b>Pathweaving:</b> At 15th level, as long as the psychic warrior maintains psionic focus, once per day he can gain the benefits of both of his trances for up to 5 minutes. Activating this ability is a free action.
+      </p>
+  subType: classFeat
+  tag: pathweaving
+type: feat

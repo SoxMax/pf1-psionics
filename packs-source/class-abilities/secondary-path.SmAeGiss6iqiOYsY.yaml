@@ -1,0 +1,18 @@
+_id: SmAeGiss6iqiOYsY
+_key: '!items!SmAeGiss6iqiOYsY'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Secondary path
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Psychic Warrior
+  description:
+    value: |-
+      <p><b>Secondary path:</b> At 9th level, the psychic warrior gets to choose a second warrior's path. He chooses one of the path powers available from his new list. The psychic warrior may only have two path powers in total from a single given path.
+      </p>
+  subType: classFeat
+  tag: secondary-path
+type: feat

@@ -1,0 +1,16 @@
+_id: KE8K0sQuqWQSYC0u
+_key: '!items!KE8K0sQuqWQSYC0u'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Altered defense 3
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: <p>Altered defense 3</p>
+  subType: classFeat
+  tag: altered-defense-3
+type: feat

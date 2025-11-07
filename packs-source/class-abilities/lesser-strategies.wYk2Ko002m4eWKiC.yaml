@@ -1,0 +1,18 @@
+_id: wYk2Ko002m4eWKiC
+_key: '!items!wYk2Ko002m4eWKiC'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: lesser strategies
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Tactician
+  description:
+    value: |-
+      <p><b>lesser strategies:</b> Tacticians learn minor powers they can use at will to aid them in coordination and tactics. The tactician gains 3 talents from the tactician talent list.
+      </p>
+  subType: classFeat
+  tag: lesser-strategies
+type: feat

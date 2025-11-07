@@ -1,0 +1,18 @@
+_id: uGE2gsCui860w2mm
+_key: '!items!uGE2gsCui860w2mm'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Pulse
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Vitalist
+  description:
+    value: |-
+      <p><b>Pulse:</b> A vitalist of 6th level can project an pulse of psionic energy to all members of his collective as a free action by spending 1 power point. The effect of the pulse depends on the vitalist's chosen method. The pulse lasts one round.
+      </p>
+  subType: classFeat
+  tag: pulse
+type: feat

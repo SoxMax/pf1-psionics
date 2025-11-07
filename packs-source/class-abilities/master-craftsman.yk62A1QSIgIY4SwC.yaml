@@ -1,0 +1,18 @@
+_id: yk62A1QSIgIY4SwC
+_key: '!items!yk62A1QSIgIY4SwC'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Master Craftsman
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Aegis
+  description:
+    value: |-
+      <p><b>Master Craftsman:</b> At 5th level, an aegis gains the <a rel="nofollow" class="external text" href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Master%20Craftsman">Master Craftsman</a> feat as a bonus feat. He must still meet the prerequisites of the feat in order to gain its benefits.
+      </p>
+  subType: classFeat
+  tag: master-craftsman
+type: feat

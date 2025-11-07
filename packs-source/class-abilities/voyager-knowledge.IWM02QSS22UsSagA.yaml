@@ -1,0 +1,18 @@
+_id: IWM02QSS22UsSagA
+_key: '!items!IWM02QSS22UsSagA'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: voyager knowledge
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: |-
+      <p><b>voyager knowledge:</b> At 4th level and each time voyager gains access to a new level of voyager powers afterwards, she also adds a special trick to her psionic repertoire, gaining <a href="/wiki/Expanded_Knowledge" title="Expanded Knowledge">Expanded Knowledge</a> as a bonus feat.
+      </p>
+  subType: classFeat
+  tag: voyager-knowledge
+type: feat

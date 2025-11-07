@@ -1,0 +1,18 @@
+_id: 8wUwMsw6g06aswmU
+_key: '!items!8wUwMsw6g06aswmU'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: open heart
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Highlord
+  description:
+    value: |-
+      <p><b>open heart:</b> A highlord's collective is more than just a link; when he touches the mind of another, he shares a part of himself, his core, driving goals and desires. To members of his collective, a highlord's psionic powers are unmistakably <i>his</i>, bearing sensory displays unique to the highlord instead of their normal appearances. The appearance of a highlord's powers is tied to what the highlord values—common displays are flowing streams of blood, coins, or other materials, sounds of the highlord's home and those he cares about, or similarly important things. Though these displays don't grant the highlord's collective members any unique insight into the effects of his powers, they do share knowledge of something important to the highlord.
+      </p>
+  subType: classFeat
+  tag: open-heart
+type: feat

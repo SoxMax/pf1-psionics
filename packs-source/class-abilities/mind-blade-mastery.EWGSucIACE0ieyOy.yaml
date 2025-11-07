@@ -1,0 +1,18 @@
+_id: EWGSucIACE0ieyOy
+_key: '!items!EWGSucIACE0ieyOy'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: mind blade mastery
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Soulknife
+  description:
+    value: |-
+      <p><b>mind blade mastery:</b> At 20th level, a soulknife reaches the pinnacle of her art and her connection to her blade is so strong it cannot be severed. She no longer requires a Will save to maintain her mind blade in a {{lcil|Null Psionics Field<i>, although it still loses any enhancement bonus and special abilities. In addition, she may change the configurations of her mind blade's special abilities at will as a full-round action, which also resets any penalties that may have accrued from the Fluid Form and Improved Fluid Form blade skills.</i>
+      </p>
+  subType: classFeat
+  tag: mind-blade-mastery
+type: feat

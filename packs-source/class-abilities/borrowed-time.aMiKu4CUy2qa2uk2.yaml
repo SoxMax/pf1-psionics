@@ -1,0 +1,18 @@
+_id: aMiKu4CUy2qa2uk2
+_key: '!items!aMiKu4CUy2qa2uk2'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: borrowed time
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: |-
+      <p><b>borrowed time:</b> At 10th level, a voyager can devote an instance of her own time towards empowering and directing her parallel counterparts. As a swift action, the voyager can carry out one of her known parallel actions. She cannot use the same parallel action twice in a single round.
+      </p>
+  subType: classFeat
+  tag: borrowed-time
+type: feat

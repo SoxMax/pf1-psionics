@@ -1,0 +1,16 @@
+_id: u0ckM4oaOUcEkYso
+_key: '!items!u0ckM4oaOUcEkYso'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Vitalist expertise
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Vitalist
+  description:
+    value: <p>Vitalist expertise</p>
+  subType: classFeat
+  tag: vitalist-expertise
+type: feat

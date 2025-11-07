@@ -1,0 +1,16 @@
+_id: k6eiiKOeQokeQCeq
+_key: '!items!k6eiiKOeQokeQCeq'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: enhanced disruption+8d6
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: <p>enhanced disruption+8d6</p>
+  subType: classFeat
+  tag: enhanced-disruption-8d6
+type: feat

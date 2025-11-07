@@ -1,0 +1,16 @@
+_id: YcGsEwoC0yUSEaSq
+_key: '!items!YcGsEwoC0yUSEaSq'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: enhanced disruption+2d6
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: <p>enhanced disruption+2d6</p>
+  subType: classFeat
+  tag: enhanced-disruption-2d6
+type: feat

@@ -1,0 +1,18 @@
+_id: mqyMoQqSQCeKuKMs
+_key: '!items!mqyMoQqSQCeKuKMs'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: momentum
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: |-
+      <p><b>momentum:</b> A voyager generates kinetic energy that amplifies her dodging ability, but can also be channeled into an attack. Whenever the voyager moves, she generates 1 point of momentum for every 10 feet she moved. If the voyager teleports, she can treat the distance between her origin and arrival points as distance moved for the purposes of this effect. Effects that move or teleport the voyager unwillingly, such as a bull rush or a hostile teleport effect do not cause the voyager to generate momentum.
+      </p>
+  subType: classFeat
+  tag: momentum
+type: feat

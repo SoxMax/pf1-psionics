@@ -1,0 +1,16 @@
+_id: 60AK6aCgIUwKAQSi
+_key: '!items!60AK6aCgIUwKAQSi'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Astral voyager
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: <p><b>Astral voyager:</b> At 5th level, a voyager's journey can extend to the Astral Plane and beyond. The voyager gains <a href="/wiki/Astral_Traveler" title="Astral Traveler">astral traveler</a> as a bonus power known, if she does not know it already. In addition, voyager can use </p>
+  subType: classFeat
+  tag: astral-voyager
+type: feat

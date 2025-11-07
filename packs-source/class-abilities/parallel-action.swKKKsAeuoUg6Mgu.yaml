@@ -1,0 +1,18 @@
+_id: swKKKsAeuoUg6Mgu
+_key: '!items!swKKKsAeuoUg6Mgu'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: parallel action
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: |-
+      <p><b>parallel action:</b> A voyager's aid from her parallel selves manifests through parallel actions that she knows. Parallel actions come in several categories, each with a listed level. When a voyager reaches the listed level, she chooses a specified number of parallel actions of the category of that level to learn. In addition, all voyagers learn the helping hand parallel action at 1st level for free.
+      </p>
+  subType: classFeat
+  tag: parallel-action
+type: feat

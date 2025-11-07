@@ -1,0 +1,96 @@
+_id: qkgeImcxasewMoQq
+_key: '!items!qkgeImcxasewMoQq'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/items/inventory/brain-purple.png
+name: Soulknife
+system:
+  alignment: Any
+  armorProf: []
+  bab: low
+  classSkills: []
+  description:
+    summary: ''
+    value: ''
+  hd: 6
+  hp: 6
+  level: 1
+  links:
+    classAssociations:
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.C8amcgO8suOKq28g
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.S66AoACM6oyEw8Su
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.QUQG6YWy0YuMw2oq
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.KU0m00Emq2CuAaGe
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.8quGQ2GKqo8Og0Sy
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.OasMe0Mgw0MO2mmk
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.KuywIcWGo2AwKs88
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.O6ySyg2gkgSy4koc
+      - level: 4
+        uuid: Compendium.pf1-psionics.class-abilities.Item.OasMe0Mgw0MO2mmk
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.KuywIcWGo2AwKs88
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.aQ0eS6U8WkyAg2UO
+      - level: 6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.OasMe0Mgw0MO2mmk
+      - level: 7
+        uuid: Compendium.pf1-psionics.class-abilities.Item.KuywIcWGo2AwKs88
+      - level: 7
+        uuid: Compendium.pf1-psionics.class-abilities.Item.mQsG0ooGqoA26kY0
+      - level: 8
+        uuid: Compendium.pf1-psionics.class-abilities.Item.OasMe0Mgw0MO2mmk
+      - level: 9
+        uuid: Compendium.pf1-psionics.class-abilities.Item.KuywIcWGo2AwKs88
+      - level: 10
+        uuid: Compendium.pf1-psionics.class-abilities.Item.OasMe0Mgw0MO2mmk
+      - level: 11
+        uuid: Compendium.pf1-psionics.class-abilities.Item.KuywIcWGo2AwKs88
+      - level: 11
+        uuid: Compendium.pf1-psionics.class-abilities.Item.OsKWUqmYuASMKeiA
+      - level: 12
+        uuid: Compendium.pf1-psionics.class-abilities.Item.OasMe0Mgw0MO2mmk
+      - level: 13
+        uuid: Compendium.pf1-psionics.class-abilities.Item.KuywIcWGo2AwKs88
+      - level: 14
+        uuid: Compendium.pf1-psionics.class-abilities.Item.OasMe0Mgw0MO2mmk
+      - level: 15
+        uuid: Compendium.pf1-psionics.class-abilities.Item.KuywIcWGo2AwKs88
+      - level: 15
+        uuid: Compendium.pf1-psionics.class-abilities.Item.0SQ0sKuEwACCq8MK
+      - level: 16
+        uuid: Compendium.pf1-psionics.class-abilities.Item.OasMe0Mgw0MO2mmk
+      - level: 17
+        uuid: Compendium.pf1-psionics.class-abilities.Item.KuywIcWGo2AwKs88
+      - level: 18
+        uuid: Compendium.pf1-psionics.class-abilities.Item.OasMe0Mgw0MO2mmk
+      - level: 19
+        uuid: Compendium.pf1-psionics.class-abilities.Item.KuywIcWGo2AwKs88
+      - level: 19
+        uuid: Compendium.pf1-psionics.class-abilities.Item.cusGMMsW6igSWwSm
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.OasMe0Mgw0MO2mmk
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.EWGSucIACE0ieyOy
+  savingThrows:
+    fort:
+      value: low
+    ref:
+      value: low
+    will:
+      value: low
+  skillsPerLevel: 2
+  sources: []
+  subType: base
+  tag: soulknife
+  wealth: 2d6 * 10
+  weaponProf:
+    - simple
+type: class

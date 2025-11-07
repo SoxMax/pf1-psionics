@@ -1,0 +1,16 @@
+_id: wMYMuUAEcGwcg8CY
+_key: '!items!wMYMuUAEcGwcg8CY'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Perfect surge
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Wilder
+  description:
+    value: <p><b>Perfect surge:</b> The wilder has mastered the untamable and can now use a blindingly powerful version of wild surge, albeit at great cost. Once per day, the wilder may add +10 to her manifester level on one manifestation as if through wild surge. In addition to this increase, the manifestation also receives +3 to its save DC, +3 to any attack rolls involved, and is treated as a power five levels higher for the purposes of level-dependent effects (such as <i>minor globe of invulnerability</i>). A power manifested with a perfect surge has the radius and intensity of its associated displays doubled; such displays cannot be hidden normally. The wilder exudes light as if she is the subject of the </p>
+  subType: classFeat
+  tag: perfect-surge
+type: feat

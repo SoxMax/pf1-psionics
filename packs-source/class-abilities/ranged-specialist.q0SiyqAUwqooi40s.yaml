@@ -1,0 +1,18 @@
+_id: q0SiyqAUwqooi40s
+_key: '!items!q0SiyqAUwqooi40s'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Ranged specialist
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Marksman
+  description:
+    value: |-
+      <p><b>Ranged specialist:</b> At 19th level, a Marksman's ranged and thrown attacks have their critical multiplier increased by 1 (x2 becomes x3, for example) and her penalties for range increments are halved. If the Marksman has the Far Shot feat, she instead suffers no penalties for range increments.
+      </p>
+  subType: classFeat
+  tag: ranged-specialist
+type: feat

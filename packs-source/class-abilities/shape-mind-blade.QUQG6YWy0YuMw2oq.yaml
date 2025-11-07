@@ -1,0 +1,18 @@
+_id: QUQG6YWy0YuMw2oq
+_key: '!items!QUQG6YWy0YuMw2oq'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: shape mind blade
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Soulknife
+  description:
+    value: |-
+      <p><b>shape mind blade:</b> The soulknife's mind blade retains the last chosen form every time it is formed until the soulknife reshapes it. If the soulknife chooses to reshape her blade, it requires a full-round action to do so. She may also re-assign the type of damage dealt as part of reshaping her mind blade if she so chooses.
+      </p>
+  subType: classFeat
+  tag: shape-mind-blade
+type: feat

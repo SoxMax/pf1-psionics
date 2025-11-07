@@ -1,0 +1,16 @@
+_id: Ckqsk8ekCUCKykEQ
+_key: '!items!Ckqsk8ekCUCKykEQ'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: disrupt pattern 1d6
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: <p>disrupt pattern 1d6</p>
+  subType: classFeat
+  tag: disrupt-pattern-1d6
+type: feat

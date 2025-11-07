@@ -1,0 +1,18 @@
+_id: EIkG2WaAIyuYemBG
+_key: '!items!EIkG2WaAIyuYemBG'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: hidden pattern
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: |-
+      <p><b>hidden pattern:</b> A cryptic learns how to recognize patterns in light and sound around her that can help her to mask her presence. At 2nd level, a cryptic gains a +2 competence bonus on all Stealth checks. This bonus increases to +4 at 5th level, and then again to +6 at 8th level. At 10th level, as long as the cryptic maintains psionic focus, she can use the Stealth skill to hide, even while being observed.
+      </p>
+  subType: classFeat
+  tag: hidden-pattern
+type: feat

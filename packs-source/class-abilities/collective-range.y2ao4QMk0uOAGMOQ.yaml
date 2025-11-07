@@ -1,0 +1,16 @@
+_id: y2ao4QMk0uOAGMOQ
+_key: '!items!y2ao4QMk0uOAGMOQ'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: collective range
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Vitalist
+  description:
+    value: <p>collective range</p>
+  subType: classFeat
+  tag: collective-range
+type: feat

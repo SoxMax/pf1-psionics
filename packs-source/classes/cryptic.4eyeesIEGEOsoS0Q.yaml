@@ -1,0 +1,110 @@
+_id: 4eyeesIEGEOsoS0Q
+_key: '!items!4eyeesIEGEOsoS0Q'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/items/inventory/brain-purple.png
+name: Cryptic
+system:
+  alignment: Any
+  armorProf: []
+  bab: low
+  classSkills: []
+  description:
+    summary: ''
+    value: ''
+  hd: 6
+  hp: 6
+  level: 1
+  links:
+    classAssociations:
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.scAmmMOuOoUqeMss
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Ckqsk8ekCUCKykEQ
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.aoqaAQsSimU2wYWW
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.8qumUqIacOUmYsO0
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.yaW8oa8uiUmK244S
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.YWIIACQaiCQ4akEm
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.OKuekQESaOYU6siQ
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.QCYSgOyoO6sGamIU
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.eioa8sSWss8kW8u6
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.E0GiQc2qS6G4EYOK
+      - level: 4
+        uuid: Compendium.pf1-psionics.class-abilities.Item.QaoUAcYW4k8qWq0o
+      - level: 4
+        uuid: Compendium.pf1-psionics.class-abilities.Item.m4UqCMusSCYqQ8YW
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.WeMSyegAms62ewyq
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.YcGsEwoC0yUSEaSq
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.EIkG2WaAIyuYemBG
+      - level: 6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.QaoUAcYW4k8qWq0o
+      - level: 6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.28UMGwMWsUYGKAK0
+      - level: 7
+        uuid: Compendium.pf1-psionics.class-abilities.Item.w62wGOou2WmoqOYi
+      - level: 8
+        uuid: Compendium.pf1-psionics.class-abilities.Item.OKuekQESaOYU6siQ
+      - level: 8
+        uuid: Compendium.pf1-psionics.class-abilities.Item.QCYSgOyoO6sGamIU
+      - level: 9
+        uuid: Compendium.pf1-psionics.class-abilities.Item.KE8K0sQuqWQSYC0u
+      - level: 9
+        uuid: Compendium.pf1-psionics.class-abilities.Item.I2oQIacyWyK0W822
+      - level: 10
+        uuid: Compendium.pf1-psionics.class-abilities.Item.e2QUI0kAcgoQM6Uy
+      - level: 10
+        uuid: Compendium.pf1-psionics.class-abilities.Item.QCYSgOyoO6sGamIU
+      - level: 11
+        uuid: Compendium.pf1-psionics.class-abilities.Item.AgSQ6M0c4q0w44M4
+      - level: 12
+        uuid: Compendium.pf1-psionics.class-abilities.Item.QaoUAcYW4k8qWq0o
+      - level: 13
+        uuid: Compendium.pf1-psionics.class-abilities.Item.yGOqyQcwMooM8IMe
+      - level: 13
+        uuid: Compendium.pf1-psionics.class-abilities.Item.0g68eMSuOGa6OyWW
+      - level: 14
+        uuid: Compendium.pf1-psionics.class-abilities.Item.I4KiUKSWSimGmWgs
+      - level: 14
+        uuid: Compendium.pf1-psionics.class-abilities.Item.QCYSgOyoO6sGamIU
+      - level: 15
+        uuid: Compendium.pf1-psionics.class-abilities.Item.S4kWaW4mEuY866aS
+      - level: 16
+        uuid: Compendium.pf1-psionics.class-abilities.Item.QaoUAcYW4k8qWq0o
+      - level: 17
+        uuid: Compendium.pf1-psionics.class-abilities.Item.ms40EUkUke8OY0iU
+      - level: 17
+        uuid: Compendium.pf1-psionics.class-abilities.Item.k6eiiKOeQokeQCeq
+      - level: 18
+        uuid: Compendium.pf1-psionics.class-abilities.Item.QaoUAcYW4k8qWq0o
+      - level: 18
+        uuid: Compendium.pf1-psionics.class-abilities.Item.W0aco4q6KK8uoWwA
+      - level: 19
+        uuid: Compendium.pf1-psionics.class-abilities.Item.kS2kiqSawaUSkwGE
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.OgwQKuAE2QMY8Oay
+  savingThrows:
+    fort:
+      value: low
+    ref:
+      value: low
+    will:
+      value: low
+  skillsPerLevel: 2
+  sources: []
+  subType: base
+  tag: cryptic
+  wealth: 2d6 * 10
+  weaponProf:
+    - simple
+type: class

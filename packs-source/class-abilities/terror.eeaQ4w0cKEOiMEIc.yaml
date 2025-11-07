@@ -1,0 +1,18 @@
+_id: eeaQ4w0cKEOiMEIc
+_key: '!items!eeaQ4w0cKEOiMEIc'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: terror
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Dread
+  description:
+    value: |-
+      <p><b>terror:</b> Beginning at 2nd level, a dread learns to harness the power of fear in a variety of ways called terrors. Using a terror is a swift action. Some terrors are channelled through her devastating touch class feature. These terrors charge a dread's touch (and later her weapon) until her next successful attack that round.
+      </p>
+  subType: classFeat
+  tag: terror
+type: feat

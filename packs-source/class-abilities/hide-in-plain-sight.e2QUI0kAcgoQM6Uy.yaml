@@ -1,0 +1,16 @@
+_id: e2QUI0kAcgoQM6Uy
+_key: '!items!e2QUI0kAcgoQM6Uy'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Hide in plain sight
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: <p>Hide in plain sight</p>
+  subType: classFeat
+  tag: hide-in-plain-sight
+type: feat

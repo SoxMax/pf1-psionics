@@ -1,0 +1,18 @@
+_id: O8SI0wuyso8KwqqA
+_key: '!items!O8SI0wuyso8KwqqA'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: reconfigure
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Aegis
+  description:
+    value: |-
+      <p><b>reconfigure:</b> Starting at 3rd level, an aegis can reconfigure up to his Intelligence modifier in customization points on his astral suit once per day as a standard action. Every two levels thereafter, he can use this ability an additional time per day.
+      </p>
+  subType: classFeat
+  tag: reconfigure
+type: feat

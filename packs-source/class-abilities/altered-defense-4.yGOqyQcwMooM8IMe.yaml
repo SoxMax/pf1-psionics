@@ -1,0 +1,16 @@
+_id: yGOqyQcwMooM8IMe
+_key: '!items!yGOqyQcwMooM8IMe'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Altered defense 4
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: <p>Altered defense 4</p>
+  subType: classFeat
+  tag: altered-defense-4
+type: feat

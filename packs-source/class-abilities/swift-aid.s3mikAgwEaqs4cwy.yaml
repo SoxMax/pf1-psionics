@@ -1,0 +1,18 @@
+_id: s3mikAgwEaqs4cwy
+_key: '!items!s3mikAgwEaqs4cwy'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Swift aid
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Vitalist
+  description:
+    value: |-
+      <p><b>Swift aid:</b> Upon achieving 8th level, a vitalist is able to rapidly respond to the need of a member of his collective, as determined by his vitalist method.
+      </p>
+  subType: classFeat
+  tag: swift-aid
+type: feat

@@ -1,0 +1,86 @@
+_id: GWIOmU8cuUii0000
+_key: '!items!GWIOmU8cuUii0000'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/items/inventory/brain-purple.png
+name: Dread
+system:
+  alignment: Any
+  armorProf: []
+  bab: low
+  classSkills: []
+  description:
+    summary: ''
+    value: ''
+  hd: 6
+  hp: 6
+  level: 1
+  links:
+    classAssociations:
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.EC4iUYqyakGOmmAW
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.kcowOauc2SCMwamC
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.M0qkmkcei6eAcyeY
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.WyoSIc6uCImuyEAk
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.MUyIImYYC4C0uM2s
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.UsOCSaMUSiWm2CKg
+      - level: 4
+        uuid: Compendium.pf1-psionics.class-abilities.Item.WyoSIc6uCImuyEAk
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.0uWY0KYCCA8sOooy
+      - level: 6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.WyoSIc6uCImuyEAk
+      - level: 7
+        uuid: Compendium.pf1-psionics.class-abilities.Item.6K2A4Qk6mYwCsS8a
+      - level: 8
+        uuid: Compendium.pf1-psionics.class-abilities.Item.WyoSIc6uCImuyEAk
+      - level: 9
+        uuid: Compendium.pf1-psionics.class-abilities.Item.0uWY0KYCCA8sOooy
+      - level: 10
+        uuid: Compendium.pf1-psionics.class-abilities.Item.WyoSIc6uCImuyEAk
+      - level: 11
+        uuid: Compendium.pf1-psionics.class-abilities.Item.IwcSQSE8UKuM0A6S
+      - level: 11
+        uuid: Compendium.pf1-psionics.class-abilities.Item.eOmhkEwaiEum0moc
+      - level: 12
+        uuid: Compendium.pf1-psionics.class-abilities.Item.WyoSIc6uCImuyEAk
+      - level: 13
+        uuid: Compendium.pf1-psionics.class-abilities.Item.0uWY0KYCCA8sOooy
+      - level: 14
+        uuid: Compendium.pf1-psionics.class-abilities.Item.WyoSIc6uCImuyEAk
+      - level: 15
+        uuid: Compendium.pf1-psionics.class-abilities.Item.IwcSQSE8UKuM0A6S
+      - level: 15
+        uuid: Compendium.pf1-psionics.class-abilities.Item.eOmhkEwaiEum0moc
+      - level: 16
+        uuid: Compendium.pf1-psionics.class-abilities.Item.WyoSIc6uCImuyEAk
+      - level: 17
+        uuid: Compendium.pf1-psionics.class-abilities.Item.0uWY0KYCCA8sOooy
+      - level: 18
+        uuid: Compendium.pf1-psionics.class-abilities.Item.WyoSIc6uCImuyEAk
+      - level: 19
+        uuid: Compendium.pf1-psionics.class-abilities.Item.IwcSQSE8UKuM0A6S
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.s2MQKA4gQSyQek6O
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.eeaQ4w0cKEOiMEIc
+  savingThrows:
+    fort:
+      value: low
+    ref:
+      value: low
+    will:
+      value: low
+  skillsPerLevel: 2
+  sources: []
+  subType: base
+  tag: dread
+  wealth: 2d6 * 10
+  weaponProf:
+    - simple
+type: class

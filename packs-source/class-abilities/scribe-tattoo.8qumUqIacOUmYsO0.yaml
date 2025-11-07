@@ -1,0 +1,18 @@
+_id: 8qumUqIacOUmYsO0
+_key: '!items!8qumUqIacOUmYsO0'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: scribe tattoo
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: |-
+      <p><b>scribe tattoo:</b> At 1st level, cryptics receive <a href="/wiki/Scribe_Tattoo" title="Scribe Tattoo">Scribe Tattoo</a> as a bonus feat. A cryptic can scribe tattoos of any power she knows (up to 3rd level). The power must be one that can be made into a tattoo. The cryptic does not need to meet the prerequisites for this feat.
+      </p>
+  subType: classFeat
+  tag: scribe-tattoo
+type: feat
