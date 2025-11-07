@@ -243,6 +243,227 @@ function parseClassTable(html) {
 }
 
 /**
+ * Extract class description from page
+ * @param {string} html - Class page HTML
+ * @returns {string} - Class description HTML
+ */
+function extractClassDescription(html) {
+  // Find content between infobox and "Class Features" heading
+  const startRegex = /<\/aside>[\s\S]*?<p[^>]*>/;
+  const endRegex = /<div[^>]*class="mw-heading[^>]*><h2[^>]*>Class Features<\/h2>/i;
+
+  const startMatch = html.match(startRegex);
+  const endMatch = html.match(endRegex);
+
+  if (!startMatch || !endMatch) return '';
+
+  const startPos = startMatch.index + startMatch[0].length - 3; // Keep the <p>
+  const endPos = endMatch.index;
+
+  let description = html.substring(startPos, endPos);
+
+  // Clean up the description
+  description = description
+    .replace(/<p class="mw-empty-elt"><\/p>/g, '')
+    .replace(/\n/g, ' ')
+    .replace(/\s+/g, ' ')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/'/g, "'")
+    .replace(/×/g, 'x')
+    .trim();
+
+  // Remove trailing incomplete tags at start
+  description = description.replace(/^[^<]*?>/, '');
+
+  return description;
+}
+
+/**
+ * Extract saves from infobox horizontal table
+ * @param {string} html - Class page HTML
+ * @returns {object} - {fort, ref, will} save values
+ */
+function extractSaves(html) {
+  const saves = {};
+
+  // Find the horizontal table with save data
+  const tableRegex = /<table class="pi-horizontal-group">[\s\S]*?<\/table>/;
+  const tableMatch = html.match(tableRegex);
+
+  if (!tableMatch) return { fort: undefined, ref: undefined, will: undefined };
+
+  const table = tableMatch[0];
+
+  // Extract each save type from <td> elements (not <th>)
+  const fortMatch = table.match(/<td[^>]+data-source="savefort"[^>]*>([^<]*(?:<[^>]+>[^<]*<\/[^>]+>)*[^<]*)<\/td>/);
+  const refMatch = table.match(/<td[^>]+data-source="saveref"[^>]*>([^<]*(?:<[^>]+>[^<]*<\/[^>]+>)*[^<]*)<\/td>/);
+  const willMatch = table.match(/<td[^>]+data-source="savewill"[^>]*>([^<]*(?:<[^>]+>[^<]*<\/[^>]+>)*[^<]*)<\/td>/);
+
+  if (fortMatch) {
+    const text = fortMatch[1].replace(/<[^>]+>/g, '').trim();
+    saves.fort = text.includes('Good') ? 'Good' : 'Poor';
+  }
+  if (refMatch) {
+    const text = refMatch[1].replace(/<[^>]+>/g, '').trim();
+    saves.ref = text.includes('Good') ? 'Good' : 'Poor';
+  }
+  if (willMatch) {
+    const text = willMatch[1].replace(/<[^>]+>/g, '').trim();
+    saves.will = text.includes('Good') ? 'Good' : 'Poor';
+  }
+
+  return saves;
+}
+
+/**
+ * Extract starting wealth from page text
+ * @param {string} html - Class page HTML
+ * @returns {string} - Starting wealth formula (e.g., "4d4 * 10")
+ */
+function extractStartingWealth(html) {
+  const wealthRegex = /<b>Starting Wealth:<\/b>\s*(\d+d\d+)\s*×\s*10/i;
+  const match = html.match(wealthRegex);
+
+  if (match) {
+    return `${match[1]} * 10`;
+  }
+
+  return '2d6 * 10'; // Default
+}
+
+/**
+ * Extract class skills from page text
+ * @param {string} html - Class page HTML
+ * @returns {string[]} - Array of skill names
+ */
+function extractClassSkills(html) {
+  const skillsRegex = /<b>Class Skills:?\s*<\/b>\s*(?:The [^']+?'s class skills are\s+)?([^<]+)/i;
+  const match = html.match(skillsRegex);
+
+  if (!match) return [];
+
+  // Parse skill names from the text
+  const skillText = match[1];
+  const skills = skillText
+    .split(/,\s*(?:and\s+)?/)
+    .map(s => s.trim())
+    .map(s => s.replace(/\.$/, ''))
+    .filter(s => s.length > 0);
+
+  return skills;
+}
+
+/**
+ * Map skill names to PF1 skill codes
+ * @param {string[]} skillNames - Array of skill names
+ * @returns {object} - Object mapping skill codes to boolean
+ */
+function mapSkillsToCodes(skillNames) {
+  const skillMap = {
+    'Acrobatics': 'acr',
+    'Appraise': 'apr',
+    'Artistry': 'art',
+    'Autohypnosis': 'ahp',
+    'Bluff': 'blf',
+    'Climb': 'clm',
+    'Craft': 'crf',
+    'Diplomacy': 'dip',
+    'Disable Device': 'dev',
+    'Disguise': 'dis',
+    'Escape Artist': 'esc',
+    'Fly': 'fly',
+    'Handle Animal': 'han',
+    'Heal': 'hea',
+    'Intimidate': 'int',
+    'Knowledge (arcana)': 'kar',
+    'Knowledge (dungeoneering)': 'kdu',
+    'Knowledge (engineering)': 'ken',
+    'Knowledge (geography)': 'kge',
+    'Knowledge (history)': 'khi',
+    'Knowledge (local)': 'klo',
+    'Knowledge (nature)': 'kna',
+    'Knowledge (nobility)': 'kno',
+    'Knowledge (planes)': 'kpl',
+    'Knowledge (psionics)': 'kps',
+    'Knowledge (religion)': 'kre',
+    'Linguistics': 'lin',
+    'Lore': 'lor',
+    'Perception': 'per',
+    'Perform': 'prf',
+    'Profession': 'pro',
+    'Ride': 'rid',
+    'Sense Motive': 'sen',
+    'Sleight of Hand': 'slt',
+    'Spellcraft': 'spl',
+    'Stealth': 'ste',
+    'Survival': 'sur',
+    'Swim': 'swm',
+    'Use Magic Device': 'umd'
+  };
+
+  // Initialize all skills to false
+  const result = {};
+  for (const code of Object.values(skillMap)) {
+    result[code] = false;
+  }
+
+  // Set matched skills to true
+  for (const skillName of skillNames) {
+    const code = skillMap[skillName];
+    if (code) {
+      result[code] = true;
+    } else {
+      // Try partial matching for Knowledge skills
+      const knowledgeMatch = skillName.match(/Knowledge \(([^)]+)\)/i);
+      if (knowledgeMatch) {
+        const subject = knowledgeMatch[1].toLowerCase();
+        for (const [fullName, skillCode] of Object.entries(skillMap)) {
+          if (fullName.toLowerCase().includes(subject)) {
+            result[skillCode] = true;
+            break;
+          }
+        }
+      }
+    }
+  }
+
+  return result;
+}
+
+/**
+ * Extract weapon and armor proficiencies from page text
+ * @param {string} html - Class page HTML
+ * @returns {object} - {weapons: string[], armor: string[]}
+ */
+function extractProficiencies(html) {
+  const profRegex = /<b>Weapon and Armor Proficiencies:<\/b>\s*([^<]+(?:<[^>]+>[^<]+<\/[^>]+>)*[^<]*)/i;
+  const match = html.match(profRegex);
+
+  if (!match) return { weapons: ['simple'], armor: [] };
+
+  const text = match[1].toLowerCase();
+
+  const weapons = [];
+  const armor = [];
+
+  // Parse weapons
+  if (text.includes('all simple')) weapons.push('simple');
+  if (text.includes('all martial')) weapons.push('martial');
+  if (text.includes('all exotic')) weapons.push('exotic');
+
+  // Parse armor
+  if (text.includes('light armor')) armor.push('lgt');
+  if (text.includes('medium armor')) armor.push('med');
+  if (text.includes('heavy armor')) armor.push('hvy');
+  if (text.includes('all armor')) armor.push('lgt', 'med', 'hvy');
+
+  return {
+    weapons: weapons.length > 0 ? weapons : ['simple'],
+    armor: armor
+  };
+}
+
+/**
  * Parse class feature descriptions from Class Features section
  * @param {string} html - Class page HTML
  * @param {string[]} featureNames - Feature names to find
@@ -355,6 +576,47 @@ function buildClassItem(classData, abilities, featuresByLevel) {
     }
   }
 
+  const system = {
+    armorProf: classData.armorProf || [],
+    bab: convertBAB(classData.bab),
+    classSkills: classData.classSkills || {},
+    description: {
+      summary: '',
+      value: classData.description || ''
+    },
+    hd: parseInt(classData.hd.replace('d', '')),
+    hp: parseInt(classData.hd.replace('d', '')),
+    level: 1,
+    links: {
+      classAssociations: classAssociations
+    },
+    savingThrows: {
+      fort: {
+        value: convertSave(classData.saves?.fort)
+      },
+      ref: {
+        value: convertSave(classData.saves?.ref)
+      },
+      will: {
+        value: convertSave(classData.saves?.will)
+      }
+    },
+    skillsPerLevel: parseInt(classData.skillsPerLevel) || 2,
+    subType: 'base',
+    tag: sluggify(classData.name),
+    wealth: classData.wealth || '2d6 * 10',
+    weaponProf: classData.weaponProf || ['simple']
+  };
+
+  // Add manifesting section for psionic classes
+  if (classData.isPsionic) {
+    system.manifesting = {
+      ability: 'wis', // Default, could be parsed from page
+      cantrips: true,
+      progression: 'high' // Default, could be parsed from class table
+    };
+  }
+
   return {
     _id: id,
     _key: `!items!${id}`,
@@ -364,39 +626,7 @@ function buildClassItem(classData, abilities, featuresByLevel) {
     img: 'systems/pf1/icons/items/inventory/brain-purple.png',
     name: classData.name,
     type: 'class',
-    system: {
-      alignment: classData.alignment || 'Any',
-      armorProf: [],
-      bab: convertBAB(classData.bab),
-      classSkills: [],
-      description: {
-        summary: '',
-        value: classData.description || ''
-      },
-      hd: parseInt(classData.hd.replace('d', '')),
-      hp: parseInt(classData.hd.replace('d', '')),
-      level: 1,
-      links: {
-        classAssociations: classAssociations
-      },
-      savingThrows: {
-        fort: {
-          value: convertSave(classData.saves?.fort)
-        },
-        ref: {
-          value: convertSave(classData.saves?.ref)
-        },
-        will: {
-          value: convertSave(classData.saves?.will)
-        }
-      },
-      skillsPerLevel: parseInt(classData.skillsPerLevel) || 2,
-      sources: classData.sources || [],
-      subType: 'base',
-      tag: sluggify(classData.name),
-      wealth: '2d6 * 10',
-      weaponProf: ['simple']
-    }
+    system: system
   };
 }
 
@@ -421,20 +651,33 @@ async function scrapeClass(url, className) {
   // Extract infobox data
   const infoboxData = extractInfoboxData(html, 'name');
 
+  // Extract additional data
+  const description = extractClassDescription(html);
+  const wealth = extractStartingWealth(html);
+  const skillNames = extractClassSkills(html);
+  const classSkills = mapSkillsToCodes(skillNames);
+  const proficiencies = extractProficiencies(html);
+  const saves = extractSaves(html);
+
   // Build class data object
   const classData = {
     name: className,
     hd: infoboxData.hitdie || 'd6',
     bab: infoboxData.bab || '1/2',
     saves: {
-      fort: infoboxData.savefort,
-      ref: infoboxData.saveref,
-      will: infoboxData.savewill
+      fort: saves.fort || infoboxData.savefort,
+      ref: saves.ref || infoboxData.saveref,
+      will: saves.will || infoboxData.savewill
     },
     skillsPerLevel: infoboxData.skilleachlevel || '2',
     alignment: infoboxData.alignment || 'Any',
-    description: '', // TODO: Extract description
-    sources: [] // TODO: Parse sourcebook
+    description: description,
+    wealth: wealth,
+    classSkills: classSkills,
+    armorProf: proficiencies.armor,
+    weaponProf: proficiencies.weapons,
+    isPsionic: true, // All classes from this scraper are psionic
+    sources: [] // TODO: Parse sourcebook from infobox
   };
 
   // Parse class table
