@@ -1,0 +1,28 @@
+_id: yzKa7t1se6nEcGTj
+_key: '!items!yzKa7t1se6nEcGTj'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Devastating Touch
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Dread
+  description:
+    value: >-
+      <p><b>Devastating&nbsp;Touch:</b>A&nbsp;dread&nbsp;is&nbsp;able&nbsp;to&nbsp;channel&nbsp;psionic&nbsp;energy&nbsp;from&nbsp;fear&nbsp;and&nbsp;nightmares&nbsp;into&nbsp;a&nbsp;touch&nbsp;that&nbsp;causes&nbsp;pain.&nbsp;To&nbsp;use&nbsp;this&nbsp;ability,&nbsp;a&nbsp;dread&nbsp;must&nbsp;make&nbsp;a&nbsp;melee&nbsp;touch&nbsp;attack&nbsp;as&nbsp;a&nbsp;standard&nbsp;action&nbsp;on&nbsp;a&nbsp;living&nbsp;target.&nbsp;If&nbsp;the&nbsp;attack&nbsp;hits,&nbsp;it&nbsp;deals&nbsp;1d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;plus&nbsp;1&nbsp;point&nbsp;per&nbsp;class&nbsp;level.&nbsp;The&nbsp;dread&nbsp;does&nbsp;not&nbsp;add&nbsp;his&nbsp;Strength&nbsp;modifier&nbsp;to&nbsp;the&nbsp;damage&nbsp;of&nbsp;this&nbsp;attack.
+
+      </p><p></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 43–47
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 40–44
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: devastating-touch
+type: feat

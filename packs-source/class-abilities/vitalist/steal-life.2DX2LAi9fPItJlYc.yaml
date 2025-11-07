@@ -1,0 +1,36 @@
+_id: 2DX2LAi9fPItJlYc
+_key: '!items!2DX2LAi9fPItJlYc'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Steal Life
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Vitalist
+  description:
+    value: >-
+      <p><b>Steal&nbsp;Life:</b>Beginning&nbsp;at&nbsp;14th&nbsp;level,&nbsp;a&nbsp;vitalist&nbsp;can&nbsp;not&nbsp;only&nbsp;steal&nbsp;the&nbsp;health&nbsp;of&nbsp;a&nbsp;target,&nbsp;but&nbsp;steal&nbsp;their&nbsp;life&nbsp;itself.&nbsp;By&nbsp;making&nbsp;a&nbsp;successful&nbsp;melee&nbsp;touch&nbsp;attack&nbsp;and&nbsp;expending&nbsp;psionic&nbsp;focus,&nbsp;the&nbsp;vitalist&nbsp;can&nbsp;force&nbsp;the&nbsp;target&nbsp;to&nbsp;make&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;(DC&nbsp;10&nbsp;+&nbsp;half&nbsp;class&nbsp;level&nbsp;+&nbsp;Wisdom&nbsp;modifier)&nbsp;or&nbsp;die.&nbsp;A&nbsp;successful&nbsp;save&nbsp;negates&nbsp;this&nbsp;effect.&nbsp;Targets&nbsp;with&nbsp;more&nbsp;than&nbsp;140&nbsp;hit&nbsp;points&nbsp;are&nbsp;unaffected&nbsp;by&nbsp;this&nbsp;ability.
+
+      </p><p>If&nbsp;the&nbsp;target&nbsp;fails&nbsp;the&nbsp;save,&nbsp;the&nbsp;vitalist&nbsp;is&nbsp;able&nbsp;to&nbsp;channel&nbsp;the&nbsp;stolen&nbsp;life&nbsp;force&nbsp;through&nbsp;his&nbsp;collective,&nbsp;healing&nbsp;any&nbsp;number&nbsp;of&nbsp;the&nbsp;members&nbsp;of&nbsp;his&nbsp;collective&nbsp;for&nbsp;a&nbsp;combined&nbsp;total&nbsp;of&nbsp;5&nbsp;hit&nbsp;points&nbsp;per&nbsp;hit&nbsp;die&nbsp;the&nbsp;original&nbsp;target&nbsp;had.
+
+      </p><p>This&nbsp;ability&nbsp;may&nbsp;only&nbsp;be&nbsp;used&nbsp;on&nbsp;creatures&nbsp;with&nbsp;a&nbsp;Constitution&nbsp;score&nbsp;and&nbsp;may&nbsp;not&nbsp;be&nbsp;used&nbsp;against&nbsp;creatures&nbsp;in&nbsp;the&nbsp;vitalist's&nbsp;collective.
+
+      </p><p>For&nbsp;example,&nbsp;Jorus&nbsp;is&nbsp;a&nbsp;level&nbsp;14&nbsp;vitalist&nbsp;and&nbsp;he&nbsp;uses&nbsp;steal&nbsp;life&nbsp;on&nbsp;a&nbsp;thought&nbsp;slayer,&nbsp;which&nbsp;has&nbsp;11&nbsp;hit&nbsp;dice.&nbsp;The&nbsp;thought&nbsp;slayer&nbsp;fails&nbsp;the&nbsp;Fortitude&nbsp;save,&nbsp;so&nbsp;Jorus&nbsp;can&nbsp;heal&nbsp;up&nbsp;to&nbsp;55&nbsp;hit&nbsp;points&nbsp;over&nbsp;his&nbsp;collective,&nbsp;divided&nbsp;among&nbsp;the&nbsp;members&nbsp;as&nbsp;he&nbsp;sees&nbsp;fit.
+
+      </p><p>A&nbsp;vitalist&nbsp;must&nbsp;wait&nbsp;10&nbsp;minutes&nbsp;after&nbsp;using&nbsp;this&nbsp;ability&nbsp;before&nbsp;he&nbsp;can&nbsp;attempt&nbsp;to&nbsp;use&nbsp;it&nbsp;again.&nbsp;This&nbsp;is&nbsp;considered&nbsp;a&nbsp;death&nbsp;effect.
+
+      </p><p></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 57–61
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 69–72
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: steal-life
+type: feat

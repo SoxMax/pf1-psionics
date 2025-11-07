@@ -1,0 +1,30 @@
+_id: g6nLxJCbqvL7CtPp
+_key: '!items!g6nLxJCbqvL7CtPp'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Mind Blade Mastery
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Soulknife
+  description:
+    value: >-
+      <p><b>Mind&nbsp;Blade&nbsp;Mastery:</b>At&nbsp;20th&nbsp;level,&nbsp;a&nbsp;soulknife&nbsp;reaches&nbsp;the&nbsp;pinnacle&nbsp;of&nbsp;her&nbsp;art&nbsp;and&nbsp;her&nbsp;connection&nbsp;to&nbsp;her&nbsp;blade&nbsp;is&nbsp;so&nbsp;strong&nbsp;it&nbsp;cannot&nbsp;be&nbsp;severed.&nbsp;She&nbsp;no&nbsp;longer&nbsp;requires&nbsp;a&nbsp;Will&nbsp;save&nbsp;to&nbsp;maintain&nbsp;her&nbsp;mind&nbsp;blade&nbsp;in&nbsp;a&nbsp;{{lcil|Null&nbsp;Psionics&nbsp;Field<i>,&nbsp;although&nbsp;it&nbsp;still&nbsp;loses&nbsp;any&nbsp;enhancement&nbsp;bonus&nbsp;and&nbsp;special&nbsp;abilities.&nbsp;In&nbsp;addition,&nbsp;she&nbsp;may&nbsp;change&nbsp;the&nbsp;configurations&nbsp;of&nbsp;her&nbsp;mind&nbsp;blade's&nbsp;special&nbsp;abilities&nbsp;at&nbsp;will&nbsp;as&nbsp;a&nbsp;full-round&nbsp;action,&nbsp;which&nbsp;also&nbsp;resets&nbsp;any&nbsp;penalties&nbsp;that&nbsp;may&nbsp;have&nbsp;accrued&nbsp;from&nbsp;the&nbsp;Fluid&nbsp;Form&nbsp;and&nbsp;Improved&nbsp;Fluid&nbsp;Form&nbsp;blade&nbsp;skills.</i>
+
+      </p>
+
+      <div&nbsp;class="mw-heading&nbsp;mw-heading2"></p>
+  sources:
+    - date: '2010-08-01'
+      pages: 28–33
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 57–64
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: mind-blade-mastery
+type: feat

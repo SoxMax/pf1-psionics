@@ -1,0 +1,32 @@
+_id: aw3DTX3wPbiHi1xk
+_key: '!items!aw3DTX3wPbiHi1xk'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Highlord's Decrees
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Highlord
+  description:
+    value: >-
+      <p><b>Highlord's&nbsp;Decrees:</b>At&nbsp;1st&nbsp;level,&nbsp;the&nbsp;highlord&nbsp;gains&nbsp;a&nbsp;decree&nbsp;based&nbsp;on&nbsp;his&nbsp;chosen&nbsp;tenet,&nbsp;granting&nbsp;him&nbsp;a&nbsp;special&nbsp;command&nbsp;he&nbsp;can&nbsp;issue.&nbsp;At&nbsp;4th&nbsp;level&nbsp;and&nbsp;every&nbsp;three&nbsp;levels&nbsp;afterwards,&nbsp;a&nbsp;highlord&nbsp;learns&nbsp;an&nbsp;additional&nbsp;highlord&nbsp;decree.
+
+      </p><p>In&nbsp;order&nbsp;to&nbsp;use&nbsp;a&nbsp;decree,&nbsp;the&nbsp;highlord&nbsp;must&nbsp;expend&nbsp;his&nbsp;psionic&nbsp;focus.&nbsp;He&nbsp;cannot&nbsp;regain&nbsp;that&nbsp;psionic&nbsp;focus&nbsp;until&nbsp;the&nbsp;decree&nbsp;ends&nbsp;(either&nbsp;by&nbsp;its&nbsp;duration&nbsp;running&nbsp;out&nbsp;or&nbsp;the&nbsp;highlord&nbsp;dismissing&nbsp;it).
+
+      </p><p>When&nbsp;a&nbsp;decree's&nbsp;duration&nbsp;runs&nbsp;its&nbsp;course,&nbsp;the&nbsp;highlord&nbsp;recovers&nbsp;the&nbsp;psionic&nbsp;focus&nbsp;he&nbsp;spent&nbsp;to&nbsp;use&nbsp;the&nbsp;decree.&nbsp;In&nbsp;any&nbsp;round&nbsp;after&nbsp;the&nbsp;one&nbsp;he&nbsp;activated&nbsp;the&nbsp;decree&nbsp;in,&nbsp;the&nbsp;highlord&nbsp;can&nbsp;dismiss&nbsp;its&nbsp;effect&nbsp;as&nbsp;a&nbsp;move&nbsp;action,&nbsp;regaining&nbsp;the&nbsp;psionic&nbsp;focus&nbsp;he&nbsp;expended&nbsp;to&nbsp;use&nbsp;it.&nbsp;If&nbsp;the&nbsp;highlord&nbsp;possesses&nbsp;the&nbsp;<a&nbsp;href="/wiki/Psionic_Meditation"&nbsp;title="Psionic&nbsp;Meditation">Psionic&nbsp;Meditation</a>&nbsp;feat,&nbsp;he&nbsp;can&nbsp;instead&nbsp;dismiss&nbsp;decrees&nbsp;as&nbsp;swift&nbsp;actions.&nbsp;A&nbsp;highlord&nbsp;who&nbsp;has&nbsp;multiple&nbsp;psionic&nbsp;focuses&nbsp;(such&nbsp;as&nbsp;through&nbsp;the&nbsp;<a&nbsp;href="/wiki/Psicrystal_Containment"&nbsp;title="Psicrystal&nbsp;Containment">Psicrystal&nbsp;Containment</a>&nbsp;feat)&nbsp;can&nbsp;have&nbsp;multiple&nbsp;active&nbsp;decrees&nbsp;at&nbsp;once—one&nbsp;for&nbsp;each&nbsp;psionic&nbsp;focus.
+
+      </p><p>Unless&nbsp;specifically&nbsp;noted,&nbsp;decrees&nbsp;are&nbsp;mind-affecting&nbsp;effects,&nbsp;and&nbsp;if&nbsp;a&nbsp;member&nbsp;of&nbsp;the&nbsp;highlord's&nbsp;collective&nbsp;is&nbsp;unwilling&nbsp;to&nbsp;be&nbsp;affected&nbsp;by&nbsp;one&nbsp;of&nbsp;his&nbsp;decrees&nbsp;(such&nbsp;as&nbsp;if&nbsp;it&nbsp;applies&nbsp;a&nbsp;negative&nbsp;condition,&nbsp;or&nbsp;directs&nbsp;them&nbsp;to&nbsp;take&nbsp;actions&nbsp;they're&nbsp;unwilling&nbsp;to&nbsp;take),&nbsp;the&nbsp;collective&nbsp;member&nbsp;can&nbsp;make&nbsp;a&nbsp;Will&nbsp;save&nbsp;(DC&nbsp;10&nbsp;+&nbsp;1/2&nbsp;the&nbsp;highlord's&nbsp;class&nbsp;level&nbsp;+&nbsp;the&nbsp;highlord's&nbsp;Charisma&nbsp;modifier)&nbsp;to&nbsp;resist&nbsp;the&nbsp;effect&nbsp;of&nbsp;the&nbsp;decree.&nbsp;This&nbsp;means&nbsp;that&nbsp;they&nbsp;forgo&nbsp;any&nbsp;actions&nbsp;that&nbsp;may&nbsp;have&nbsp;been&nbsp;granted&nbsp;and&nbsp;they&nbsp;ignore&nbsp;any&nbsp;benefits&nbsp;or&nbsp;conditions&nbsp;that&nbsp;may&nbsp;have&nbsp;been&nbsp;applied.&nbsp;A&nbsp;creature&nbsp;willing&nbsp;to&nbsp;be&nbsp;affected&nbsp;by&nbsp;a&nbsp;decree&nbsp;can&nbsp;voluntarily&nbsp;accept&nbsp;it;&nbsp;if&nbsp;they&nbsp;do,&nbsp;it&nbsp;ignores&nbsp;any&nbsp;immunity&nbsp;to&nbsp;mind-affecting&nbsp;effects&nbsp;they&nbsp;might&nbsp;possess.&nbsp;A&nbsp;highlord&nbsp;can&nbsp;take&nbsp;the&nbsp;Ability&nbsp;Focus&nbsp;(decrees)&nbsp;feat,&nbsp;in&nbsp;which&nbsp;case&nbsp;it&nbsp;affects&nbsp;the&nbsp;DC&nbsp;of&nbsp;saving&nbsp;throws&nbsp;made&nbsp;against&nbsp;any&nbsp;of&nbsp;the&nbsp;decrees&nbsp;the&nbsp;highlord&nbsp;uses.
+
+      </p>
+
+      <dl><dd><div&nbsp;class="va-hatnote-text"><i></p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–6
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: classFeat
+  tag: highlord-s-decrees
+type: feat

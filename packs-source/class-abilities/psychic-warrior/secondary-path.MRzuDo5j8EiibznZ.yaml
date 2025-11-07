@@ -1,0 +1,34 @@
+_id: MRzuDo5j8EiibznZ
+_key: '!items!MRzuDo5j8EiibznZ'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Secondary Path
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Psychic Warrior
+  description:
+    value: >-
+      <p><b>Secondary&nbsp;Path:</b>At&nbsp;9th&nbsp;level,&nbsp;the&nbsp;psychic&nbsp;warrior&nbsp;gets&nbsp;to&nbsp;choose&nbsp;a&nbsp;second&nbsp;warrior's&nbsp;path.&nbsp;He&nbsp;chooses&nbsp;one&nbsp;of&nbsp;the&nbsp;path&nbsp;powers&nbsp;available&nbsp;from&nbsp;his&nbsp;new&nbsp;list.&nbsp;The&nbsp;psychic&nbsp;warrior&nbsp;may&nbsp;only&nbsp;have&nbsp;two&nbsp;path&nbsp;powers&nbsp;in&nbsp;total&nbsp;from&nbsp;a&nbsp;single&nbsp;given&nbsp;path.
+
+      </p><p>At&nbsp;11th&nbsp;level,&nbsp;the&nbsp;psychic&nbsp;warrior&nbsp;can&nbsp;choose&nbsp;to&nbsp;use&nbsp;the&nbsp;trance&nbsp;and&nbsp;maneuver&nbsp;from&nbsp;his&nbsp;second&nbsp;warrior's&nbsp;path,&nbsp;but&nbsp;may&nbsp;only&nbsp;benefit&nbsp;from&nbsp;one&nbsp;trance&nbsp;at&nbsp;a&nbsp;time.&nbsp;The&nbsp;psychic&nbsp;warrior&nbsp;treats&nbsp;the&nbsp;path&nbsp;skills&nbsp;of&nbsp;his&nbsp;secondary&nbsp;path&nbsp;as&nbsp;class&nbsp;skills&nbsp;and&nbsp;may&nbsp;select&nbsp;them&nbsp;when&nbsp;choosing&nbsp;a&nbsp;path&nbsp;skill.
+
+      </p><p></p>
+  sources:
+    - date: '2010-08-01'
+      pages: 25–27
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2010-01-01'
+      pages: 29–31
+      publisher: Dreamscarred Press
+      title: 'Psionics Unleashed: Revised'
+    - date: '2013-12-24'
+      pages: 53–55
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: secondary-path
+type: feat

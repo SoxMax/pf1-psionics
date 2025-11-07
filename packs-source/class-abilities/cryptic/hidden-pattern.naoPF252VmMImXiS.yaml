@@ -1,0 +1,28 @@
+_id: naoPF252VmMImXiS
+_key: '!items!naoPF252VmMImXiS'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Hidden Pattern
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: >-
+      <p><b>Hidden&nbsp;Pattern:</b>A&nbsp;cryptic&nbsp;learns&nbsp;how&nbsp;to&nbsp;recognize&nbsp;patterns&nbsp;in&nbsp;light&nbsp;and&nbsp;sound&nbsp;around&nbsp;her&nbsp;that&nbsp;can&nbsp;help&nbsp;her&nbsp;to&nbsp;mask&nbsp;her&nbsp;presence.&nbsp;At&nbsp;2nd&nbsp;level,&nbsp;a&nbsp;cryptic&nbsp;gains&nbsp;a&nbsp;+2&nbsp;competence&nbsp;bonus&nbsp;on&nbsp;all&nbsp;Stealth&nbsp;checks.&nbsp;This&nbsp;bonus&nbsp;increases&nbsp;to&nbsp;+4&nbsp;at&nbsp;5th&nbsp;level,&nbsp;and&nbsp;then&nbsp;again&nbsp;to&nbsp;+6&nbsp;at&nbsp;8th&nbsp;level.&nbsp;At&nbsp;10th&nbsp;level,&nbsp;as&nbsp;long&nbsp;as&nbsp;the&nbsp;cryptic&nbsp;maintains&nbsp;psionic&nbsp;focus,&nbsp;she&nbsp;can&nbsp;use&nbsp;the&nbsp;Stealth&nbsp;skill&nbsp;to&nbsp;hide,&nbsp;even&nbsp;while&nbsp;being&nbsp;observed.
+
+      </p><p></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 36–42
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 34–40
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: hidden-pattern
+type: feat

@@ -1,0 +1,28 @@
+_id: yFpRKDM9nZHHdqGw
+_key: '!items!yFpRKDM9nZHHdqGw'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Style Skill
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Marksman
+  description:
+    value: >-
+      <p><b>Style&nbsp;Skill:</b>At&nbsp;3rd&nbsp;level,&nbsp;a&nbsp;Marksman&nbsp;gains&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;to&nbsp;the&nbsp;skill&nbsp;associated&nbsp;to&nbsp;his&nbsp;combat&nbsp;style.&nbsp;Every&nbsp;three&nbsp;levels&nbsp;thereafter&nbsp;(6th,&nbsp;9th,&nbsp;etc),&nbsp;this&nbsp;bonus&nbsp;improves&nbsp;by&nbsp;1.
+
+      </p><p></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 47–50
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 44–46
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: style-skill
+type: feat

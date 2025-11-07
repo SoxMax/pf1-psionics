@@ -1,0 +1,28 @@
+_id: vVo5ivm210wo9ULM
+_key: '!items!vVo5ivm210wo9ULM'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Talents
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Dread
+  description:
+    value: >-
+      <p><b>Talents:</b>Dreads&nbsp;learn&nbsp;minor&nbsp;powers&nbsp;they&nbsp;can&nbsp;use&nbsp;at&nbsp;will&nbsp;to&nbsp;aid&nbsp;them&nbsp;in&nbsp;a&nbsp;variety&nbsp;of&nbsp;ways.&nbsp;The&nbsp;dread&nbsp;gains&nbsp;2&nbsp;talents&nbsp;from&nbsp;the&nbsp;dread&nbsp;talent&nbsp;list.
+
+      </p><p></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 43–47
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 40–44
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: talents
+type: feat

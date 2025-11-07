@@ -1,0 +1,28 @@
+_id: IWYOhPRVkBgtl8X4
+_key: '!items!IWYOhPRVkBgtl8X4'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Style Ability
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Marksman
+  description:
+    value: >-
+      <p><b>Style&nbsp;Ability:</b>Starting&nbsp;at&nbsp;4th&nbsp;level,&nbsp;a&nbsp;Marksman&nbsp;gains&nbsp;an&nbsp;ability&nbsp;associated&nbsp;with&nbsp;her&nbsp;combat&nbsp;style.&nbsp;Every&nbsp;four&nbsp;levels&nbsp;thereafter&nbsp;(8th,&nbsp;12th,&nbsp;16th,&nbsp;20th),&nbsp;she&nbsp;gains&nbsp;a&nbsp;new&nbsp;style&nbsp;ability.
+
+      </p><p></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 47–50
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 44–46
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: style-ability
+type: feat

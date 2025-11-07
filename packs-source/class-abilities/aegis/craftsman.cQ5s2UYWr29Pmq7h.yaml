@@ -1,0 +1,28 @@
+_id: cQ5s2UYWr29Pmq7h
+_key: '!items!cQ5s2UYWr29Pmq7h'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Craftsman
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Aegis
+  description:
+    value: >-
+      <p><b>Craftsman:</b>Beginning&nbsp;at&nbsp;2nd&nbsp;level,&nbsp;an&nbsp;aegis&nbsp;gains&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;to&nbsp;one&nbsp;Craft&nbsp;skill&nbsp;of&nbsp;his&nbsp;choice.&nbsp;At&nbsp;6th&nbsp;level&nbsp;and&nbsp;every&nbsp;four&nbsp;levels&nbsp;thereafter,&nbsp;this&nbsp;bonus&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p><p></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 27–31
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 28–30
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: craftsman
+type: feat

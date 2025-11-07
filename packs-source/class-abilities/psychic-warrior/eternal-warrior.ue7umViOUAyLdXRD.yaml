@@ -1,0 +1,34 @@
+_id: ue7umViOUAyLdXRD
+_key: '!items!ue7umViOUAyLdXRD'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Eternal Warrior
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Psychic Warrior
+  description:
+    value: >-
+      <p><b>Eternal&nbsp;Warrior:</b>At&nbsp;20th&nbsp;level,&nbsp;once&nbsp;per&nbsp;day&nbsp;as&nbsp;a&nbsp;free&nbsp;action,&nbsp;the&nbsp;psychic&nbsp;warrior&nbsp;can&nbsp;enter&nbsp;into&nbsp;a&nbsp;very&nbsp;powerful&nbsp;trance.&nbsp;As&nbsp;long&nbsp;as&nbsp;he&nbsp;maintains&nbsp;psionic&nbsp;focus,&nbsp;for&nbsp;up&nbsp;to&nbsp;5&nbsp;minutes&nbsp;the&nbsp;psychic&nbsp;warrior&nbsp;adds&nbsp;his&nbsp;Wisdom&nbsp;modifier&nbsp;to&nbsp;his&nbsp;attack&nbsp;rolls,&nbsp;damage&nbsp;rolls,&nbsp;AC,&nbsp;skill&nbsp;checks,&nbsp;ability&nbsp;checks,&nbsp;saves,&nbsp;and&nbsp;initiative,&nbsp;and&nbsp;he&nbsp;increases&nbsp;his&nbsp;speed&nbsp;by&nbsp;+5&nbsp;feet&nbsp;for&nbsp;every&nbsp;point&nbsp;of&nbsp;his&nbsp;Wisdom&nbsp;modifier.&nbsp;These&nbsp;benefits&nbsp;stack&nbsp;with&nbsp;those&nbsp;that&nbsp;might&nbsp;be&nbsp;granted&nbsp;by&nbsp;his&nbsp;active&nbsp;path's&nbsp;trance&nbsp;(or&nbsp;both&nbsp;paths,&nbsp;if&nbsp;using&nbsp;pathweaving).
+
+      </p>
+
+      <div&nbsp;class="mw-heading&nbsp;mw-heading2"></p>
+  sources:
+    - date: '2010-08-01'
+      pages: 25–27
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2010-01-01'
+      pages: 29–31
+      publisher: Dreamscarred Press
+      title: 'Psionics Unleashed: Revised'
+    - date: '2013-12-24'
+      pages: 53–55
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: eternal-warrior
+type: feat
