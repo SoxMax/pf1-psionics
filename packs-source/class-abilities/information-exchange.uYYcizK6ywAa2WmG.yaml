@@ -10,10 +10,14 @@ system:
     classes:
       - Voyager
   description:
-    value: >-
-      <p><b>Information&nbsp;exchange:</b>&nbsp;At&nbsp;6th&nbsp;level,&nbsp;a&nbsp;voyager&nbsp;can&nbsp;begin&nbsp;to&nbsp;make&nbsp;contact&nbsp;with&nbsp;her&nbsp;other&nbsp;selves&nbsp;to&nbsp;exchange&nbsp;knowledge,&nbsp;gaining&nbsp;insight&nbsp;into&nbsp;a&nbsp;subject&nbsp;that&nbsp;another&nbsp;version&nbsp;of&nbsp;herself&nbsp;is&nbsp;an&nbsp;expert&nbsp;on.&nbsp;The&nbsp;voyager&nbsp;gains&nbsp;a&nbsp;bonus&nbsp;equal&nbsp;to&nbsp;half&nbsp;her&nbsp;class&nbsp;level&nbsp;on&nbsp;checks&nbsp;with&nbsp;a&nbsp;Knowledge&nbsp;skill&nbsp;of&nbsp;her&nbsp;choice,&nbsp;and&nbsp;can&nbsp;make&nbsp;checks&nbsp;with&nbsp;that&nbsp;Knowledge&nbsp;skill&nbsp;untrained.&nbsp;As&nbsp;a&nbsp;full-round&nbsp;action,&nbsp;the&nbsp;voyager&nbsp;can&nbsp;search&nbsp;her&nbsp;timeline&nbsp;in&nbsp;order&nbsp;to&nbsp;locate&nbsp;a&nbsp;version&nbsp;of&nbsp;herself&nbsp;knowledgeable&nbsp;in&nbsp;another&nbsp;aspect,&nbsp;allowing&nbsp;her&nbsp;to&nbsp;switch&nbsp;this&nbsp;bonus&nbsp;to&nbsp;a&nbsp;different&nbsp;Knowledge&nbsp;skill.
-
+    value: |-
+      <p><b>Information exchange:</b> At 6th level, a voyager can begin to make contact with her other selves to exchange knowledge, gaining insight into a subject that another version of herself is an expert on. The voyager gains a bonus equal to half her class level on checks with a Knowledge skill of her choice, and can make checks with that Knowledge skill untrained. As a full-round action, the voyager can search her timeline in order to locate a version of herself knowledgeable in another aspect, allowing her to switch this bonus to a different Knowledge skill.
       </p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
   subType: classFeat
   tag: information-exchange
 type: feat

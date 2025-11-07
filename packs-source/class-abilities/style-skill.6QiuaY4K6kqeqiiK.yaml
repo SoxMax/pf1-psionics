@@ -10,10 +10,18 @@ system:
     classes:
       - Marksman
   description:
-    value: >-
-      <p><b>Style&nbsp;skill:</b>&nbsp;At&nbsp;3rd&nbsp;level,&nbsp;a&nbsp;Marksman&nbsp;gains&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;to&nbsp;the&nbsp;skill&nbsp;associated&nbsp;to&nbsp;his&nbsp;combat&nbsp;style.&nbsp;Every&nbsp;three&nbsp;levels&nbsp;thereafter&nbsp;(6th,&nbsp;9th,&nbsp;etc),&nbsp;this&nbsp;bonus&nbsp;improves&nbsp;by&nbsp;1.
-
+    value: |-
+      <p><b>Style skill:</b> At 3rd level, a Marksman gains a +1 bonus to the skill associated to his combat style. Every three levels thereafter (6th, 9th, etc), this bonus improves by 1.
       </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 47–50
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 44–46
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: style-skill
 type: feat

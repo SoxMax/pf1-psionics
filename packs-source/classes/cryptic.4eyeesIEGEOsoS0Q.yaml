@@ -5,8 +5,52 @@ _stats:
 img: systems/pf1/icons/items/inventory/brain-purple.png
 name: Cryptic
 system:
-  alignment: Any
+  armorProf:
+    - lgt
   bab: low
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    summary: ''
+    value: '</p><p>The very fabric of the world is visible through the eyes of the cryptic, who sees all things as patterns of energies that can be understood and manipulated. This unique insight allows the cryptic the ability to foresee events and even manipulate the energy of her surroundings to accomplish her tasks. Whether it is knowing where to step to avoid being seen, where to place an attack for maximum effect, or how to temporarily alter the laws of physics, the cryptic is a master of any pattern she sees. </p><p><b>Role:</b> The cryptic excels as a finder of dangers and at remaining undetected even in the most difficult locations. With modest combat prowess, a cryptic can help her allies defeat enemies, although her limited defensive capabilities means she needs to avoid becoming the main target of her opponents. </p><p><b>Alignment</b>: Any. </p><p><b>Hit Die</b>: d8. </p><p><b>Starting Wealth</b>: 3d6 x 10 (average 105gp) In addition, each character begins play with an outfit worth 10 gp or less. </p><p><b>Class Skills: </b>The cryptic''s class skills are Acrobatics (Dex), Appraise (Int), Autohypnosis (Wis), Climb (Str), Craft (Int), Disable Device (Dex), Disguise (Cha), Escape Artist (Dex), Knowledge (all) (Int), Linguistics (Int), Perception (Wis), Perform (Cha), Profession (Wis), Sense Motive (Wis), Sleight of Hand (Dex), Spellcraft (Int), Stealth (Dex), Swim (Str), and Use Magic Device(Cha). </p><p><b>Skill Ranks per Level</b>: 4 + Int modifier. </p>'
   hd: 6
   hp: 6
   level: 1
@@ -88,14 +132,27 @@ system:
         uuid: Compendium.pf1-psionics.class-abilities.Item.kS2kiqSawaUSkwGE
       - level: 20
         uuid: Compendium.pf1-psionics.class-abilities.Item.OgwQKuAE2QMY8Oay
+  manifesting:
+    ability: wis
+    cantrips: true
+    progression: high
   savingThrows:
     fort:
       value: low
     ref:
-      value: low
+      value: high
     will:
-      value: low
+      value: high
   skillsPerLevel: 2
+  sources:
+    - date: '2012-07-23'
+      pages: 36–42
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 34–40
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: base
   tag: cryptic
   wealth: 2d6 * 10

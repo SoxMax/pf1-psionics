@@ -10,10 +10,18 @@ system:
     classes:
       - Cryptic
   description:
-    value: >-
-      <p><b>insight:</b>&nbsp;Starting&nbsp;at&nbsp;2nd&nbsp;level,&nbsp;and&nbsp;then&nbsp;again&nbsp;every&nbsp;2&nbsp;levels&nbsp;thereafter&nbsp;(up&nbsp;to&nbsp;18th&nbsp;level),&nbsp;a&nbsp;cryptic&nbsp;learns&nbsp;a&nbsp;unique&nbsp;ability&nbsp;related&nbsp;to&nbsp;her&nbsp;perception&nbsp;of&nbsp;the&nbsp;patterns&nbsp;in&nbsp;the&nbsp;world&nbsp;around&nbsp;her.&nbsp;
-
+    value: |-
+      <p><b>insight:</b> Starting at 2nd level, and then again every 2 levels thereafter (up to 18th level), a cryptic learns a unique ability related to her perception of the patterns in the world around her. 
       </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 36–42
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 34–40
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: insight
 type: feat

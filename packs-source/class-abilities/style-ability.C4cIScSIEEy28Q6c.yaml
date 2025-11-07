@@ -10,10 +10,18 @@ system:
     classes:
       - Marksman
   description:
-    value: >-
-      <p><b>style&nbsp;ability:</b>&nbsp;Starting&nbsp;at&nbsp;4th&nbsp;level,&nbsp;a&nbsp;Marksman&nbsp;gains&nbsp;an&nbsp;ability&nbsp;associated&nbsp;with&nbsp;her&nbsp;combat&nbsp;style.&nbsp;Every&nbsp;four&nbsp;levels&nbsp;thereafter&nbsp;(8th,&nbsp;12th,&nbsp;16th,&nbsp;20th),&nbsp;she&nbsp;gains&nbsp;a&nbsp;new&nbsp;style&nbsp;ability.
-
+    value: |-
+      <p><b>style ability:</b> Starting at 4th level, a Marksman gains an ability associated with her combat style. Every four levels thereafter (8th, 12th, 16th, 20th), she gains a new style ability.
       </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 47–50
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 44–46
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: style-ability
 type: feat

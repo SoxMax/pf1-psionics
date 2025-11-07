@@ -10,7 +10,16 @@ system:
     classes:
       - Soulknife
   description:
-    value: <p>psychic&nbsp;strike&nbsp;+2d8</p>
+    value: <p>psychic strike +2d8</p>
+  sources:
+    - date: '2010-08-01'
+      pages: 28–33
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 57–64
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: psychic-strike-2d8
 type: feat

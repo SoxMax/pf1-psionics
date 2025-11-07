@@ -5,8 +5,52 @@ _stats:
 img: systems/pf1/icons/items/inventory/brain-purple.png
 name: Wilder
 system:
-  alignment: Any
+  armorProf:
+    - lgt
   bab: low
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: true
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    summary: ''
+    value: '</p><p>Unlike the psion, who studies his psionic ability and potential to unlock its secrets, or the psychic warrior, who uses his psionic ability to enhance his physical form, the wilder taps into her emotions to unlock and unleash her innate psionic power. By channeling her emotions in such a fashion, the wilder greatly enhances her psionic powers, but runs the risk of suffering backlash, as emotions are unstable. </p><p><b>Role:</b> The wilder traditionally fills the role of dealing large amounts of damage, while running the risk of suffering backlash. Depending on the path a wilder chooses, she can also give her nearby allies a boost in efficiency. </p><p><b>Alignment:</b> Any. </p><p><b>Hit Die:</b> d8. </p><p><b>Starting Wealth:</b> 4d4 x 10 gp (average 100 gp). In addition, each character begins play with an outfit worth 10 gp or less. </p><p><b>Class Skills: </b>The wilder''s class skills are Acrobatics (Dex), Autohypnosis (Wis), Bluff (Cha), Climb (Str), Craft (Int), Diplomacy (Cha), Escape Artist (Dex), Intimidate (Cha), Knowledge (psionics) (Int), Perception (Wis), Profession (Int), Sense Motive (Wis), Spellcraft (Int), Swim (Str), and Use Magic Device (Cha). </p><p><b>Skill Ranks at Each Level:</b> 4 + Int modifier </p>'
   hd: 6
   hp: 6
   level: 1
@@ -58,17 +102,34 @@ system:
         uuid: Compendium.pf1-psionics.class-abilities.Item.wMYMuUAEcGwcg8CY
       - level: 20
         uuid: Compendium.pf1-psionics.class-abilities.Item.a24SkAukmsqiO868
+  manifesting:
+    ability: wis
+    cantrips: true
+    progression: high
   savingThrows:
     fort:
       value: low
     ref:
       value: low
     will:
-      value: low
+      value: high
   skillsPerLevel: 2
+  sources:
+    - date: '2010-08-01'
+      pages: 33–35
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2010-01-01'
+      pages: 38–41
+      publisher: Dreamscarred Press
+      title: 'Psionics Unleashed: Revised'
+    - date: '2013-12-24'
+      pages: 75–77
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: base
   tag: wilder
-  wealth: 2d6 * 10
+  wealth: 4d4 * 10
   weaponProf:
     - simple
 type: class

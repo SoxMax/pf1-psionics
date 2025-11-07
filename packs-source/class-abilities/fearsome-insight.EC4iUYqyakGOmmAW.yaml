@@ -10,10 +10,18 @@ system:
     classes:
       - Dread
   description:
-    value: >-
-      <p><b>Fearsome&nbsp;insight:</b>&nbsp;The&nbsp;dread's&nbsp;connection&nbsp;to&nbsp;the&nbsp;fears&nbsp;and&nbsp;the&nbsp;subconscious&nbsp;grows&nbsp;and&nbsp;she&nbsp;gains&nbsp;a&nbsp;greater&nbsp;understanding&nbsp;of&nbsp;the&nbsp;mental&nbsp;faculties&nbsp;which&nbsp;regulate&nbsp;fear.&nbsp;This&nbsp;translates&nbsp;into&nbsp;an&nbsp;insight&nbsp;bonus&nbsp;to&nbsp;Intimidate&nbsp;equal&nbsp;to&nbsp;half&nbsp;her&nbsp;class&nbsp;level&nbsp;(minimum&nbsp;+1).
-
+    value: |-
+      <p><b>Fearsome insight:</b> The dread's connection to the fears and the subconscious grows and she gains a greater understanding of the mental faculties which regulate fear. This translates into an insight bonus to Intimidate equal to half her class level (minimum +1).
       </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 43–47
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 40–44
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: fearsome-insight
 type: feat

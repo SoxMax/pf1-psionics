@@ -5,8 +5,51 @@ _stats:
 img: systems/pf1/icons/items/inventory/brain-purple.png
 name: Soulknife
 system:
-  alignment: Any
+  armorProf: []
   bab: low
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: true
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    summary: ''
+    value: '</p> <table class="wikitable"> <tbody><tr> <td><b>Editor''s Note:</b> It is recommended by the developers that in "games with higher levels of expertise, powerful classes and abilities, or just generally better toys available to people, it would be considered prudent" to use the <a href="/wiki/Soulknife_(High_Psionics)" title="Soulknife (High Psionics)">High Psionics version of Soulknife</a>. For more information, see the <a href="/wiki/High_Psionics" title="High Psionics">High Psionics</a> rules. </td></tr></tbody></table> <p><span class="va-quotation-text"><i>Never caught unarmed, the soulknife is the literal interpretation of using the power of the mind as a weapon. Creating a mind blade is the core of the soulknife, and with it, she is a deadly combatant. Versatile and varied, the soulknife can be found in all shapes and sizes, wielding blades unique to the wielder and customized to fit the needs of the soulknife. Fluid in function, the soulknife has mastered how to alter her mind blade to fit the situation, bringing power and versatility into any combat.</i></span> </p><p><b>Role:</b> As a wielder of a weapon first and foremost, the soulknife excels as a front-line combatant on the battlefield. Her limited armor options and defensive abilities can be a hindrance, but her varied blade abilities can make her an excellent mobile warrior or battlefield controller. </p><p><b>Alignment: </b>Any. </p><p><b>Hit Die: </b>d10. </p><p><b>Starting Wealth:</b> 5d6 x10 (average 175 gp.) In addition, each character begins play with an outfit worth 10 gp or less. </p><p><b>Class Skills: </b>The soulknife''s class skills are Acrobatics (Dex), Autohypnosis (Wis), Climb (Str), Craft (Int), Intimidate (Cha), Knowledge (psionics) (Int), Perception (Wis), Profession (Wis), Stealth (Dex), and Swim (Str). </p><p><b>Skill Ranks per Level: </b>4 + Int modifier </p>'
   hd: 6
   hp: 6
   level: 1
@@ -74,17 +117,30 @@ system:
         uuid: Compendium.pf1-psionics.class-abilities.Item.OasMe0Mgw0MO2mmk
       - level: 20
         uuid: Compendium.pf1-psionics.class-abilities.Item.EWGSucIACE0ieyOy
+  manifesting:
+    ability: wis
+    cantrips: true
+    progression: high
   savingThrows:
     fort:
       value: low
     ref:
-      value: low
+      value: high
     will:
-      value: low
+      value: high
   skillsPerLevel: 2
+  sources:
+    - date: '2010-08-01'
+      pages: 28–33
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 57–64
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: base
   tag: soulknife
-  wealth: 2d6 * 10
+  wealth: 5d6 * 10
   weaponProf:
     - simple
 type: class

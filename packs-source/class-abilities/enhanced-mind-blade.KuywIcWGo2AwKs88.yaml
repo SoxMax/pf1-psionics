@@ -10,10 +10,18 @@ system:
     classes:
       - Soulknife
   description:
-    value: >-
-      <p><b>Enhanced&nbsp;mind&nbsp;blade:</b>&nbsp;A&nbsp;soulknife's&nbsp;mind&nbsp;blade&nbsp;improves&nbsp;as&nbsp;the&nbsp;character&nbsp;gains&nbsp;higher&nbsp;levels.&nbsp;At&nbsp;3rd&nbsp;level&nbsp;and&nbsp;every&nbsp;odd&nbsp;level&nbsp;thereafter,&nbsp;the&nbsp;mind&nbsp;blade&nbsp;gains&nbsp;a&nbsp;cumulative&nbsp;+1&nbsp;enhancement&nbsp;bonus&nbsp;that&nbsp;she&nbsp;may&nbsp;spend&nbsp;on&nbsp;an&nbsp;actual&nbsp;enhancement&nbsp;bonus&nbsp;or&nbsp;on&nbsp;weapon&nbsp;special&nbsp;abilities.&nbsp;A&nbsp;soulknife's&nbsp;level&nbsp;determines&nbsp;her&nbsp;maximum&nbsp;enhancement&nbsp;bonus&nbsp;(see&nbsp;Table&nbsp;2-8:&nbsp;The&nbsp;Soulknife).&nbsp;The&nbsp;soulknife&nbsp;may&nbsp;(and&nbsp;must,&nbsp;when&nbsp;her&nbsp;total&nbsp;enhancement&nbsp;is&nbsp;higher&nbsp;than&nbsp;her&nbsp;maximum&nbsp;bonus)&nbsp;apply&nbsp;any&nbsp;special&nbsp;ability&nbsp;from&nbsp;the&nbsp;table&nbsp;below&nbsp;instead&nbsp;of&nbsp;an&nbsp;enhancement&nbsp;bonus,&nbsp;as&nbsp;long&nbsp;as&nbsp;she&nbsp;meets&nbsp;the&nbsp;level&nbsp;requirements.&nbsp;A&nbsp;soulknife&nbsp;can&nbsp;choose&nbsp;any&nbsp;combination&nbsp;of&nbsp;weapon&nbsp;special&nbsp;abilities&nbsp;and/or&nbsp;enhancement&nbsp;bonus&nbsp;that&nbsp;does&nbsp;not&nbsp;exceed&nbsp;the&nbsp;total&nbsp;allowed&nbsp;by&nbsp;the&nbsp;soulknife's&nbsp;level,&nbsp;but&nbsp;she&nbsp;must&nbsp;assign&nbsp;at&nbsp;least&nbsp;a&nbsp;+1&nbsp;enhancement&nbsp;bonus&nbsp;before&nbsp;assigning&nbsp;any&nbsp;special&nbsp;abilities.
-
+    value: |-
+      <p><b>Enhanced mind blade:</b> A soulknife's mind blade improves as the character gains higher levels. At 3rd level and every odd level thereafter, the mind blade gains a cumulative +1 enhancement bonus that she may spend on an actual enhancement bonus or on weapon special abilities. A soulknife's level determines her maximum enhancement bonus (see Table 2-8: The Soulknife). The soulknife may (and must, when her total enhancement is higher than her maximum bonus) apply any special ability from the table below instead of an enhancement bonus, as long as she meets the level requirements. A soulknife can choose any combination of weapon special abilities and/or enhancement bonus that does not exceed the total allowed by the soulknife's level, but she must assign at least a +1 enhancement bonus before assigning any special abilities.
       </p>
+  sources:
+    - date: '2010-08-01'
+      pages: 28–33
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 57–64
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: enhanced-mind-blade
 type: feat

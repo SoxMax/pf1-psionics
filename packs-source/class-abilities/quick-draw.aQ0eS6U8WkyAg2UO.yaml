@@ -10,10 +10,18 @@ system:
     classes:
       - Soulknife
   description:
-    value: >-
-      <p><b>quick&nbsp;draw:</b>&nbsp;A&nbsp;5th&nbsp;level&nbsp;soulknife&nbsp;may&nbsp;manifest&nbsp;her&nbsp;mind&nbsp;blade&nbsp;as&nbsp;a&nbsp;free&nbsp;action,&nbsp;though&nbsp;she&nbsp;may&nbsp;still&nbsp;only&nbsp;attempt&nbsp;to&nbsp;do&nbsp;so&nbsp;once&nbsp;per&nbsp;round&nbsp;(unless&nbsp;throwing&nbsp;the&nbsp;weapon&nbsp;multiple&nbsp;times&nbsp;using&nbsp;the&nbsp;Multiple&nbsp;Throw&nbsp;blade&nbsp;skill).
-
+    value: |-
+      <p><b>quick draw:</b> A 5th level soulknife may manifest her mind blade as a free action, though she may still only attempt to do so once per round (unless throwing the weapon multiple times using the Multiple Throw blade skill).
       </p>
+  sources:
+    - date: '2010-08-01'
+      pages: 28–33
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 57–64
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: quick-draw
 type: feat

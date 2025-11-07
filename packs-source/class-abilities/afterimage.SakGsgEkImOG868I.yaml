@@ -10,10 +10,14 @@ system:
     classes:
       - Voyager
   description:
-    value: >-
-      <p><b>afterimage:</b>&nbsp;At&nbsp;3rd&nbsp;level,&nbsp;the&nbsp;voyager&nbsp;gains&nbsp;some&nbsp;reach&nbsp;with&nbsp;her&nbsp;parallel&nbsp;actions&nbsp;beyond&nbsp;her&nbsp;body.&nbsp;Once&nbsp;per&nbsp;round,&nbsp;as&nbsp;a&nbsp;free&nbsp;action&nbsp;that&nbsp;can&nbsp;be&nbsp;taken&nbsp;at&nbsp;any&nbsp;point&nbsp;during&nbsp;her&nbsp;turn,&nbsp;the&nbsp;voyager&nbsp;can&nbsp;create&nbsp;an&nbsp;afterimage&nbsp;of&nbsp;herself&nbsp;occupying&nbsp;her&nbsp;space,&nbsp;that&nbsp;remains&nbsp;for&nbsp;as&nbsp;long&nbsp;as&nbsp;it&nbsp;is&nbsp;medium&nbsp;range&nbsp;(100&nbsp;feet&nbsp;+&nbsp;10&nbsp;feet&nbsp;per&nbsp;class&nbsp;level)&nbsp;of&nbsp;herself.&nbsp;An&nbsp;afterimage&nbsp;does&nbsp;nothing&nbsp;by&nbsp;itself&nbsp;but&nbsp;denote&nbsp;the&nbsp;location&nbsp;its&nbsp;source&nbsp;occupied,&nbsp;and&nbsp;provide&nbsp;a&nbsp;vector&nbsp;for&nbsp;the&nbsp;voyager's&nbsp;parallel&nbsp;actions.&nbsp;Afterimages&nbsp;do&nbsp;not&nbsp;block&nbsp;creatures&nbsp;from&nbsp;passing&nbsp;through&nbsp;or&nbsp;occupying&nbsp;the&nbsp;space&nbsp;they&nbsp;occupy.&nbsp;The&nbsp;voyager&nbsp;can&nbsp;dismiss&nbsp;her&nbsp;afterimage&nbsp;as&nbsp;a&nbsp;free&nbsp;action.&nbsp;A&nbsp;voyager&nbsp;can&nbsp;only&nbsp;have&nbsp;one&nbsp;afterimage&nbsp;of&nbsp;herself&nbsp;at&nbsp;a&nbsp;time,&nbsp;and&nbsp;creating&nbsp;a&nbsp;new&nbsp;one&nbsp;causes&nbsp;older&nbsp;afterimages&nbsp;to&nbsp;disappear.&nbsp;Leaving&nbsp;the&nbsp;range&nbsp;of&nbsp;an&nbsp;afterimage&nbsp;also&nbsp;causes&nbsp;it&nbsp;to&nbsp;disappear.
-
+    value: |-
+      <p><b>afterimage:</b> At 3rd level, the voyager gains some reach with her parallel actions beyond her body. Once per round, as a free action that can be taken at any point during her turn, the voyager can create an afterimage of herself occupying her space, that remains for as long as it is medium range (100 feet + 10 feet per class level) of herself. An afterimage does nothing by itself but denote the location its source occupied, and provide a vector for the voyager's parallel actions. Afterimages do not block creatures from passing through or occupying the space they occupy. The voyager can dismiss her afterimage as a free action. A voyager can only have one afterimage of herself at a time, and creating a new one causes older afterimages to disappear. Leaving the range of an afterimage also causes it to disappear.
       </p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
   subType: classFeat
   tag: afterimage
 type: feat

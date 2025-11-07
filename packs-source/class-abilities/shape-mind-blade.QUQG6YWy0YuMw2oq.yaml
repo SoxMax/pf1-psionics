@@ -10,10 +10,18 @@ system:
     classes:
       - Soulknife
   description:
-    value: >-
-      <p><b>shape&nbsp;mind&nbsp;blade:</b>&nbsp;The&nbsp;soulknife's&nbsp;mind&nbsp;blade&nbsp;retains&nbsp;the&nbsp;last&nbsp;chosen&nbsp;form&nbsp;every&nbsp;time&nbsp;it&nbsp;is&nbsp;formed&nbsp;until&nbsp;the&nbsp;soulknife&nbsp;reshapes&nbsp;it.&nbsp;If&nbsp;the&nbsp;soulknife&nbsp;chooses&nbsp;to&nbsp;reshape&nbsp;her&nbsp;blade,&nbsp;it&nbsp;requires&nbsp;a&nbsp;full-round&nbsp;action&nbsp;to&nbsp;do&nbsp;so.&nbsp;She&nbsp;may&nbsp;also&nbsp;re-assign&nbsp;the&nbsp;type&nbsp;of&nbsp;damage&nbsp;dealt&nbsp;as&nbsp;part&nbsp;of&nbsp;reshaping&nbsp;her&nbsp;mind&nbsp;blade&nbsp;if&nbsp;she&nbsp;so&nbsp;chooses.
-
+    value: |-
+      <p><b>shape mind blade:</b> The soulknife's mind blade retains the last chosen form every time it is formed until the soulknife reshapes it. If the soulknife chooses to reshape her blade, it requires a full-round action to do so. She may also re-assign the type of damage dealt as part of reshaping her mind blade if she so chooses.
       </p>
+  sources:
+    - date: '2010-08-01'
+      pages: 28–33
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 57–64
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: shape-mind-blade
 type: feat

@@ -10,10 +10,14 @@ system:
     classes:
       - Voyager
   description:
-    value: >-
-      <p><b>Endless:</b>&nbsp;At&nbsp;11th&nbsp;level,&nbsp;a&nbsp;voyager&nbsp;can&nbsp;continue&nbsp;their&nbsp;exploration&nbsp;of&nbsp;time&nbsp;for&nbsp;as&nbsp;long&nbsp;as&nbsp;she&nbsp;desires.&nbsp;A&nbsp;voyager&nbsp;ceases&nbsp;to&nbsp;age,&nbsp;though&nbsp;she&nbsp;may&nbsp;begin&nbsp;aging&nbsp;normally&nbsp;if&nbsp;she&nbsp;wishes&nbsp;to.&nbsp;This&nbsp;is&nbsp;a&nbsp;decision&nbsp;that&nbsp;the&nbsp;voyager&nbsp;can&nbsp;change&nbsp;at&nbsp;any&nbsp;time.&nbsp;The&nbsp;voyager&nbsp;cannot&nbsp;be&nbsp;magically&nbsp;aged,&nbsp;unless&nbsp;she&nbsp;allows&nbsp;it.
-
+    value: |-
+      <p><b>Endless:</b> At 11th level, a voyager can continue their exploration of time for as long as she desires. A voyager ceases to age, though she may begin aging normally if she wishes to. This is a decision that the voyager can change at any time. The voyager cannot be magically aged, unless she allows it.
       </p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
   subType: classFeat
   tag: endless
 type: feat

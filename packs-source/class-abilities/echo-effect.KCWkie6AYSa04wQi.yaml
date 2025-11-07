@@ -10,10 +10,18 @@ system:
     classes:
       - Tactician
   description:
-    value: >-
-      <p><b>Echo&nbsp;effect:</b>&nbsp;At&nbsp;8th&nbsp;level,&nbsp;the&nbsp;tactician&nbsp;gains&nbsp;the&nbsp;ability&nbsp;to&nbsp;copy&nbsp;non-permanent&nbsp;magical&nbsp;and&nbsp;psionic&nbsp;effects&nbsp;within&nbsp;his&nbsp;collective.&nbsp;If&nbsp;a&nbsp;member&nbsp;of&nbsp;the&nbsp;collective&nbsp;is&nbsp;affected&nbsp;by&nbsp;a&nbsp;magical&nbsp;or&nbsp;psionic&nbsp;effect&nbsp;with&nbsp;a&nbsp;duration&nbsp;greater&nbsp;than&nbsp;1&nbsp;round,&nbsp;the&nbsp;tactician&nbsp;can&nbsp;echo&nbsp;it&nbsp;onto&nbsp;another&nbsp;member&nbsp;of&nbsp;his&nbsp;collective.&nbsp;To&nbsp;do&nbsp;so&nbsp;the&nbsp;tactician&nbsp;must&nbsp;first&nbsp;identify&nbsp;the&nbsp;power&nbsp;properly&nbsp;(see&nbsp;the&nbsp;Spellcraft&nbsp;skill&nbsp;description).
-
+    value: |-
+      <p><b>Echo effect:</b> At 8th level, the tactician gains the ability to copy non-permanent magical and psionic effects within his collective. If a member of the collective is affected by a magical or psionic effect with a duration greater than 1 round, the tactician can echo it onto another member of his collective. To do so the tactician must first identify the power properly (see the Spellcraft skill description).
       </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 52–57
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 64–69
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: echo-effect
 type: feat

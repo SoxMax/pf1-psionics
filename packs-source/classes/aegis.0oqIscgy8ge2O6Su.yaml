@@ -5,8 +5,51 @@ _stats:
 img: systems/pf1/icons/items/inventory/brain-purple.png
 name: Aegis
 system:
-  alignment: Any
+  armorProf: []
   bab: low
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: true
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: true
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    summary: ''
+    value: </p><p>While the shaper is the master of manipulating ectoplasm and creating any manner of item, the aegis has learned to take ectoplasm and form it into a suit to be worn around his body, granting him a variety of benefits. </p><p>The aegis can shape his astral suit into several different forms and is capable of altering its abilities to suit his needs. </p><p><b>Role:</b> An aegis is a front-line combatant. His astral suit allows him significant flexibility in handling combat and non-combat situations, and his defensive abilities are considerable. </p><p><b>Alignment:</b> Any. </p><p><b>Hit Die:</b> d10. </p><p><b>Class Skills:</b> The aegis’s class skills (and the key ability for each skill) are Acrobatics (Dex), Autohypnosis (Wis), Climb (Str), Craft (Int), Fly (Dex), Intimidate (Cha), Knowledge (Engineering) (Int), Knowledge (Psionics) (Int), Profession (Wis), Spellcraft (Int), Swim (Str), and Use Magic Device (Cha). </p><p><b>Skill Ranks per Level:</b> 4 + Int modifier. </p>
   hd: 6
   hp: 6
   level: 1
@@ -76,14 +119,27 @@ system:
         uuid: Compendium.pf1-psionics.class-abilities.Item.MgaESKcacAWcCUIs
       - level: 20
         uuid: Compendium.pf1-psionics.class-abilities.Item.0M64UmKmqMK6sYeA
+  manifesting:
+    ability: wis
+    cantrips: true
+    progression: high
   savingThrows:
     fort:
-      value: low
+      value: high
     ref:
       value: low
     will:
-      value: low
+      value: high
   skillsPerLevel: 2
+  sources:
+    - date: '2012-07-23'
+      pages: 27–31
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 28–30
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: base
   tag: aegis
   wealth: 2d6 * 10

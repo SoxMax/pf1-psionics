@@ -10,10 +10,18 @@ system:
     classes:
       - Dread
   description:
-    value: >-
-      <p><b>channel&nbsp;terror:</b>&nbsp;At&nbsp;3rd&nbsp;level,&nbsp;the&nbsp;dread&nbsp;learns&nbsp;how&nbsp;to&nbsp;channel&nbsp;her&nbsp;terrors&nbsp;through&nbsp;any&nbsp;melee&nbsp;weapon&nbsp;she&nbsp;is&nbsp;holding&nbsp;or&nbsp;through&nbsp;her&nbsp;devastating&nbsp;touch&nbsp;class&nbsp;feature,&nbsp;even&nbsp;if&nbsp;using&nbsp;devastating&nbsp;touch&nbsp;as&nbsp;a&nbsp;ranged&nbsp;attack&nbsp;(such&nbsp;as&nbsp;through&nbsp;the&nbsp;mindlock&nbsp;terror).&nbsp;If&nbsp;channeling&nbsp;a&nbsp;terror&nbsp;through&nbsp;a&nbsp;weapon,&nbsp;it&nbsp;does&nbsp;not&nbsp;gain&nbsp;the&nbsp;benefits&nbsp;of&nbsp;the&nbsp;devastating&nbsp;touch&nbsp;ability.
-
+    value: |-
+      <p><b>channel terror:</b> At 3rd level, the dread learns how to channel her terrors through any melee weapon she is holding or through her devastating touch class feature, even if using devastating touch as a ranged attack (such as through the mindlock terror). If channeling a terror through a weapon, it does not gain the benefits of the devastating touch ability.
       </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 43–47
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 40–44
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: channel-terror
 type: feat

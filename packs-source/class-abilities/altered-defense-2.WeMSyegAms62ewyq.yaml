@@ -10,7 +10,16 @@ system:
     classes:
       - Cryptic
   description:
-    value: <p>Altered&nbsp;defense&nbsp;2</p>
+    value: <p>Altered defense 2</p>
+  sources:
+    - date: '2012-07-23'
+      pages: 36–42
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 34–40
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: altered-defense-2
 type: feat

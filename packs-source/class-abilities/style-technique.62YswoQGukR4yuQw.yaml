@@ -10,10 +10,18 @@ system:
     classes:
       - Marksman
   description:
-    value: >-
-      <p><b>style&nbsp;technique:</b>&nbsp;All&nbsp;marksmen,&nbsp;regardless&nbsp;of&nbsp;their&nbsp;chosen&nbsp;combat&nbsp;style,&nbsp;gain&nbsp;special&nbsp;techniques&nbsp;at&nbsp;2nd&nbsp;level&nbsp;that&nbsp;they&nbsp;can&nbsp;use&nbsp;by&nbsp;expending&nbsp;psionic&nbsp;focus.&nbsp;The&nbsp;specific&nbsp;technique&nbsp;is&nbsp;determined&nbsp;by&nbsp;the&nbsp;Marksman's&nbsp;chosen&nbsp;style.
-
+    value: |-
+      <p><b>style technique:</b> All marksmen, regardless of their chosen combat style, gain special techniques at 2nd level that they can use by expending psionic focus. The specific technique is determined by the Marksman's chosen style.
       </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 47–50
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 44–46
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: style-technique
 type: feat

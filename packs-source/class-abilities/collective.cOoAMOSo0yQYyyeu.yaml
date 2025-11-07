@@ -10,10 +10,18 @@ system:
     classes:
       - Tactician
   description:
-    value: >-
-      <p><b>Collective:</b>&nbsp;A&nbsp;tactician&nbsp;learns&nbsp;to&nbsp;use&nbsp;psionic&nbsp;power&nbsp;to&nbsp;connect&nbsp;willing&nbsp;minds&nbsp;through&nbsp;an&nbsp;internal&nbsp;network&nbsp;that&nbsp;strengthens&nbsp;their&nbsp;psychic&nbsp;bonds.&nbsp;As&nbsp;a&nbsp;standard&nbsp;action,&nbsp;a&nbsp;tactician&nbsp;can&nbsp;join&nbsp;any&nbsp;number&nbsp;of&nbsp;willing&nbsp;targets&nbsp;into&nbsp;his&nbsp;collective&nbsp;(up&nbsp;to&nbsp;his&nbsp;limit,&nbsp;see&nbsp;below).&nbsp;The&nbsp;tactician&nbsp;must&nbsp;have&nbsp;line&nbsp;of&nbsp;sight&nbsp;to&nbsp;each&nbsp;target,&nbsp;each&nbsp;target&nbsp;must&nbsp;have&nbsp;a&nbsp;Wisdom&nbsp;score&nbsp;of&nbsp;at&nbsp;least&nbsp;1,&nbsp;and&nbsp;all&nbsp;targets&nbsp;must&nbsp;be&nbsp;within&nbsp;Medium&nbsp;range&nbsp;(100&nbsp;ft.&nbsp;+&nbsp;10&nbsp;ft.&nbsp;per&nbsp;class&nbsp;level).&nbsp;The&nbsp;collective&nbsp;can&nbsp;contain&nbsp;up&nbsp;to&nbsp;his&nbsp;key&nbsp;ability&nbsp;modifier&nbsp;or&nbsp;half&nbsp;his&nbsp;tactician&nbsp;level,&nbsp;whichever&nbsp;is&nbsp;higher.&nbsp;The&nbsp;tactician&nbsp;is&nbsp;always&nbsp;considered&nbsp;a&nbsp;member&nbsp;of&nbsp;his&nbsp;own&nbsp;collective,&nbsp;and&nbsp;does&nbsp;not&nbsp;count&nbsp;against&nbsp;this&nbsp;limit.
-
+    value: |-
+      <p><b>Collective:</b> A tactician learns to use psionic power to connect willing minds through an internal network that strengthens their psychic bonds. As a standard action, a tactician can join any number of willing targets into his collective (up to his limit, see below). The tactician must have line of sight to each target, each target must have a Wisdom score of at least 1, and all targets must be within Medium range (100 ft. + 10 ft. per class level). The collective can contain up to his key ability modifier or half his tactician level, whichever is higher. The tactician is always considered a member of his own collective, and does not count against this limit.
       </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 52–57
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 64–69
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: collective
 type: feat

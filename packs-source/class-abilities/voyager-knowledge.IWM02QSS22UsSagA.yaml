@@ -10,10 +10,14 @@ system:
     classes:
       - Voyager
   description:
-    value: >-
-      <p><b>voyager&nbsp;knowledge:</b>&nbsp;At&nbsp;4th&nbsp;level&nbsp;and&nbsp;each&nbsp;time&nbsp;voyager&nbsp;gains&nbsp;access&nbsp;to&nbsp;a&nbsp;new&nbsp;level&nbsp;of&nbsp;voyager&nbsp;powers&nbsp;afterwards,&nbsp;she&nbsp;also&nbsp;adds&nbsp;a&nbsp;special&nbsp;trick&nbsp;to&nbsp;her&nbsp;psionic&nbsp;repertoire,&nbsp;gaining&nbsp;<a&nbsp;href="/wiki/Expanded_Knowledge"&nbsp;title="Expanded&nbsp;Knowledge">Expanded&nbsp;Knowledge</a>&nbsp;as&nbsp;a&nbsp;bonus&nbsp;feat.
-
+    value: |-
+      <p><b>voyager knowledge:</b> At 4th level and each time voyager gains access to a new level of voyager powers afterwards, she also adds a special trick to her psionic repertoire, gaining <a href="/wiki/Expanded_Knowledge" title="Expanded Knowledge">Expanded Knowledge</a> as a bonus feat.
       </p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
   subType: classFeat
   tag: voyager-knowledge
 type: feat

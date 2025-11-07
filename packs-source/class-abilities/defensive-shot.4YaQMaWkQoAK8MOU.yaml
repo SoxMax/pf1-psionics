@@ -10,10 +10,18 @@ system:
     classes:
       - Marksman
   description:
-    value: >-
-      <p><b>Defensive&nbsp;shot:</b>&nbsp;At&nbsp;13th&nbsp;level,&nbsp;a&nbsp;Marksman&nbsp;no&nbsp;longer&nbsp;provokes&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;when&nbsp;making&nbsp;ranged&nbsp;attacks&nbsp;with&nbsp;a&nbsp;ranged&nbsp;or&nbsp;thrown&nbsp;weapon.
-
+    value: |-
+      <p><b>Defensive shot:</b> At 13th level, a Marksman no longer provokes attacks of opportunity when making ranged attacks with a ranged or thrown weapon.
       </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 47–50
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 44–46
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: defensive-shot
 type: feat

@@ -10,7 +10,12 @@ system:
     classes:
       - Highlord
   description:
-    value: <p>highlord's&nbsp;decree</p>
+    value: <p>highlord's decree</p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–6
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
   subType: classFeat
   tag: highlord-s-decree
 type: feat

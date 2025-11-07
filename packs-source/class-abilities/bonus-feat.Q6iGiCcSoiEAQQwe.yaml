@@ -10,8 +10,16 @@ system:
     classes:
       - Marksman
   description:
-    value: >-
-      <p><b>Bonus&nbsp;feat:</b>&nbsp;A&nbsp;Marksman&nbsp;of&nbsp;5th&nbsp;level&nbsp;gains&nbsp;a&nbsp;bonus&nbsp;feat&nbsp;chosen&nbsp;from&nbsp;his&nbsp;combat&nbsp;style&nbsp;feat&nbsp;list,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Deadly%20Aim">Deadly&nbsp;Aim</a>,&nbsp;</p>
+    value: <p><b>Bonus feat:</b> A Marksman of 5th level gains a bonus feat chosen from his combat style feat list, <a rel="nofollow" class="external text" href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Deadly%20Aim">Deadly Aim</a>, </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 47–50
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 44–46
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: bonus-feat
 type: feat

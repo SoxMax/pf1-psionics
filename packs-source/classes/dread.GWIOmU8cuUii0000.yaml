@@ -5,8 +5,51 @@ _stats:
 img: systems/pf1/icons/items/inventory/brain-purple.png
 name: Dread
 system:
-  alignment: Any
+  armorProf: []
   bab: low
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: true
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    summary: ''
+    value: </p><p>Most creatures must learn to deal with fear in some fashion. For some, it is confronting and overcoming their fears. For others, it is always running away. For the dread, it is using her fear as a weapon, it is understanding how fear works and manipulating the fears of others in unusual and devastating ways. The dread is the master of fear and terror. </p><p><b>Role:</b> A dread is an opponent on the battlefield who can turn the bravest of enemies into a sniveling coward with but a touch. Combining moderate manifesting ability with destructive melee attacks, the dread is a dangerous opponent to ignore. Out of combat, the dread uses fear and intimidation to manipulate or bully others into the path she deems best. </p><p><b>Alignment:</b> Any </p><p><b>Hit Die:</b> d8 </p><p><b>Starting Wealth:</b> 3d6 x 10 (average 105 gp). In addition, each character begins play with an outfit worth 10 gp or less. </p><p><b>Class Skills:</b> The dread's class skills (and the key ability for each skill) are Acrobatics (Dex), Autohypnosis (Wis), Bluff (Cha), Climb (Str), Craft (Int), Escape Artist (Dex), Intimidate (Cha), Knowledge (psionics) (Int), Perception (Wis), Stealth (Dex), Profession (Wis), Sense Motive (Wis), Spellcraft (Int), and Swim (Str). </p><p><b>Skill Points Per Level:</b> 6 + Int modifier. </p>
   hd: 6
   hp: 6
   level: 1
@@ -64,17 +107,30 @@ system:
         uuid: Compendium.pf1-psionics.class-abilities.Item.s2MQKA4gQSyQek6O
       - level: 20
         uuid: Compendium.pf1-psionics.class-abilities.Item.eeaQ4w0cKEOiMEIc
+  manifesting:
+    ability: wis
+    cantrips: true
+    progression: high
   savingThrows:
     fort:
       value: low
     ref:
-      value: low
+      value: high
     will:
-      value: low
+      value: high
   skillsPerLevel: 2
+  sources:
+    - date: '2012-07-23'
+      pages: 43–47
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 40–44
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: base
   tag: dread
-  wealth: 2d6 * 10
+  wealth: 3d6 * 10
   weaponProf:
     - simple
 type: class

@@ -10,10 +10,14 @@ system:
     classes:
       - Voyager
   description:
-    value: >-
-      <p><b>trap&nbsp;foresight:</b>&nbsp;A&nbsp;voyager&nbsp;can&nbsp;use&nbsp;Disable&nbsp;Device&nbsp;to&nbsp;disarm&nbsp;magic&nbsp;traps&nbsp;like&nbsp;a&nbsp;rogue,&nbsp;and&nbsp;whenever&nbsp;she&nbsp;uses&nbsp;the&nbsp;Disable&nbsp;Device&nbsp;skill,&nbsp;she&nbsp;can&nbsp;expend&nbsp;her&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;roll&nbsp;twice&nbsp;and&nbsp;take&nbsp;the&nbsp;higher&nbsp;of&nbsp;the&nbsp;two&nbsp;rolls.&nbsp;If&nbsp;the&nbsp;voyager&nbsp;could&nbsp;take&nbsp;10&nbsp;on&nbsp;the&nbsp;check,&nbsp;she&nbsp;can&nbsp;choose&nbsp;to&nbsp;use&nbsp;this&nbsp;ability&nbsp;to&nbsp;take&nbsp;10&nbsp;with&nbsp;one&nbsp;die&nbsp;and&nbsp;roll&nbsp;the&nbsp;other&nbsp;die&nbsp;(using&nbsp;the&nbsp;higher&nbsp;result).
-
+    value: |-
+      <p><b>trap foresight:</b> A voyager can use Disable Device to disarm magic traps like a rogue, and whenever she uses the Disable Device skill, she can expend her psionic focus to roll twice and take the higher of the two rolls. If the voyager could take 10 on the check, she can choose to use this ability to take 10 with one die and roll the other die (using the higher result).
       </p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
   subType: classFeat
   tag: trap-foresight
 type: feat

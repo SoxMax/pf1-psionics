@@ -10,10 +10,14 @@ system:
     classes:
       - Highlord
   description:
-    value: >-
-      <p><b>tribute:</b>&nbsp;At&nbsp;5th&nbsp;level,&nbsp;a&nbsp;highlord&nbsp;can&nbsp;draw&nbsp;upon&nbsp;the&nbsp;talents&nbsp;of&nbsp;his&nbsp;collective&nbsp;and&nbsp;use&nbsp;them&nbsp;as&nbsp;his&nbsp;own.&nbsp;As&nbsp;a&nbsp;move&nbsp;action,&nbsp;the&nbsp;highlord&nbsp;designates&nbsp;a&nbsp;single&nbsp;feat,&nbsp;item&nbsp;enhancement,&nbsp;power&nbsp;effect,&nbsp;or&nbsp;spell&nbsp;effect&nbsp;from&nbsp;among&nbsp;those&nbsp;belonging&nbsp;or&nbsp;affecting&nbsp;willing&nbsp;members&nbsp;of&nbsp;his&nbsp;collective&nbsp;as&nbsp;tribute.&nbsp;The&nbsp;highlord&nbsp;gains&nbsp;the&nbsp;effects&nbsp;of&nbsp;the&nbsp;selected&nbsp;tribute&nbsp;until&nbsp;he&nbsp;designates&nbsp;a&nbsp;new&nbsp;tribute,&nbsp;for&nbsp;as&nbsp;long&nbsp;as&nbsp;the&nbsp;effect&nbsp;remains&nbsp;active&nbsp;on&nbsp;the&nbsp;member&nbsp;that&nbsp;possessed.&nbsp;In&nbsp;addition,&nbsp;if&nbsp;a&nbsp;member&nbsp;of&nbsp;the&nbsp;collective&nbsp;leaves&nbsp;the&nbsp;collective,&nbsp;the&nbsp;highlord&nbsp;loses&nbsp;the&nbsp;effects&nbsp;of&nbsp;tributes&nbsp;from&nbsp;that&nbsp;member.
-
+    value: |-
+      <p><b>tribute:</b> At 5th level, a highlord can draw upon the talents of his collective and use them as his own. As a move action, the highlord designates a single feat, item enhancement, power effect, or spell effect from among those belonging or affecting willing members of his collective as tribute. The highlord gains the effects of the selected tribute until he designates a new tribute, for as long as the effect remains active on the member that possessed. In addition, if a member of the collective leaves the collective, the highlord loses the effects of tributes from that member.
       </p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–6
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
   subType: classFeat
   tag: tribute
 type: feat

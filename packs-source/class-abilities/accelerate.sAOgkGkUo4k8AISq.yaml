@@ -10,10 +10,14 @@ system:
     classes:
       - Voyager
   description:
-    value: >-
-      <p><b>Accelerate:</b>&nbsp;A&nbsp;voyager's&nbsp;psionic&nbsp;ability&nbsp;enhances&nbsp;her&nbsp;agility,&nbsp;altering&nbsp;her&nbsp;personal&nbsp;time&nbsp;to&nbsp;accelerate&nbsp;herself.&nbsp;She&nbsp;gains&nbsp;<a&nbsp;href="/wiki/Speed_of_Thought"&nbsp;title="Speed&nbsp;of&nbsp;Thought">Speed&nbsp;of&nbsp;Thought</a>&nbsp;as&nbsp;a&nbsp;bonus&nbsp;feat&nbsp;at&nbsp;1st&nbsp;level.&nbsp;At&nbsp;3rd&nbsp;level&nbsp;and&nbsp;every&nbsp;five&nbsp;class&nbsp;levels&nbsp;thereafter,&nbsp;the&nbsp;voyager's&nbsp;Speed&nbsp;of&nbsp;Thought&nbsp;feat&nbsp;improves,&nbsp;increasing&nbsp;its&nbsp;insight&nbsp;bonus&nbsp;to&nbsp;speed&nbsp;by&nbsp;10&nbsp;feet.&nbsp;When&nbsp;a&nbsp;voyager&nbsp;expends&nbsp;her&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;increase&nbsp;the&nbsp;feat's&nbsp;speed&nbsp;bonus,&nbsp;she&nbsp;doubles&nbsp;the&nbsp;existing&nbsp;bonus,&nbsp;rather&nbsp;than&nbsp;increasing&nbsp;it&nbsp;to&nbsp;+30&nbsp;feet.
-
+    value: |-
+      <p><b>Accelerate:</b> A voyager's psionic ability enhances her agility, altering her personal time to accelerate herself. She gains <a href="/wiki/Speed_of_Thought" title="Speed of Thought">Speed of Thought</a> as a bonus feat at 1st level. At 3rd level and every five class levels thereafter, the voyager's Speed of Thought feat improves, increasing its insight bonus to speed by 10 feet. When a voyager expends her psionic focus to increase the feat's speed bonus, she doubles the existing bonus, rather than increasing it to +30 feet.
       </p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
   subType: classFeat
   tag: accelerate
 type: feat

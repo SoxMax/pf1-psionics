@@ -10,10 +10,18 @@ system:
     classes:
       - Marksman
   description:
-    value: >-
-      <p><b>Combat&nbsp;style:</b>&nbsp;A&nbsp;Marksman&nbsp;of&nbsp;1st&nbsp;level&nbsp;chooses&nbsp;a&nbsp;type&nbsp;of&nbsp;ranged&nbsp;combat&nbsp;that&nbsp;is&nbsp;her&nbsp;preferred&nbsp;style.&nbsp;This&nbsp;style&nbsp;determines&nbsp;certain&nbsp;class&nbsp;features,&nbsp;skills,&nbsp;and&nbsp;abilities,&nbsp;as&nbsp;described&nbsp;in&nbsp;the&nbsp;different&nbsp;styles.
-
+    value: |-
+      <p><b>Combat style:</b> A Marksman of 1st level chooses a type of ranged combat that is her preferred style. This style determines certain class features, skills, and abilities, as described in the different styles.
       </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 47–50
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 44–46
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: combat-style
 type: feat

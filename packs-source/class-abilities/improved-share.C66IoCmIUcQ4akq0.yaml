@@ -10,10 +10,18 @@ system:
     classes:
       - Tactician
   description:
-    value: >-
-      <p><b>Improved&nbsp;share:</b>&nbsp;A&nbsp;tactician&nbsp;learns&nbsp;special&nbsp;techniques&nbsp;when&nbsp;manifesting&nbsp;powers&nbsp;with&nbsp;the&nbsp;Shared&nbsp;descriptor.&nbsp;Beginning&nbsp;at&nbsp;5th&nbsp;level,&nbsp;the&nbsp;tactician&nbsp;may&nbsp;maintain&nbsp;two&nbsp;powers&nbsp;with&nbsp;the&nbsp;Shared&nbsp;descriptor&nbsp;at&nbsp;any&nbsp;time&nbsp;instead&nbsp;of&nbsp;only&nbsp;one.&nbsp;Should&nbsp;he&nbsp;manifest&nbsp;a&nbsp;third&nbsp;power&nbsp;with&nbsp;the&nbsp;Shared&nbsp;descriptor,&nbsp;the&nbsp;tactician&nbsp;can&nbsp;choose&nbsp;which&nbsp;of&nbsp;the&nbsp;maintained&nbsp;Shared&nbsp;powers&nbsp;ends&nbsp;immediately.
-
+    value: |-
+      <p><b>Improved share:</b> A tactician learns special techniques when manifesting powers with the Shared descriptor. Beginning at 5th level, the tactician may maintain two powers with the Shared descriptor at any time instead of only one. Should he manifest a third power with the Shared descriptor, the tactician can choose which of the maintained Shared powers ends immediately.
       </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 52–57
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 64–69
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: improved-share
 type: feat

@@ -10,7 +10,12 @@ system:
     classes:
       - Voyager
   description:
-    value: <p>speeding&nbsp;strike</p>
+    value: <p>speeding strike</p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
   subType: classFeat
   tag: speeding-strike
 type: feat

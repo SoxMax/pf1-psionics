@@ -10,10 +10,14 @@ system:
     classes:
       - Voyager
   description:
-    value: >-
-      <p><b>borrowed&nbsp;time:</b>&nbsp;At&nbsp;10th&nbsp;level,&nbsp;a&nbsp;voyager&nbsp;can&nbsp;devote&nbsp;an&nbsp;instance&nbsp;of&nbsp;her&nbsp;own&nbsp;time&nbsp;towards&nbsp;empowering&nbsp;and&nbsp;directing&nbsp;her&nbsp;parallel&nbsp;counterparts.&nbsp;As&nbsp;a&nbsp;swift&nbsp;action,&nbsp;the&nbsp;voyager&nbsp;can&nbsp;carry&nbsp;out&nbsp;one&nbsp;of&nbsp;her&nbsp;known&nbsp;parallel&nbsp;actions.&nbsp;She&nbsp;cannot&nbsp;use&nbsp;the&nbsp;same&nbsp;parallel&nbsp;action&nbsp;twice&nbsp;in&nbsp;a&nbsp;single&nbsp;round.
-
+    value: |-
+      <p><b>borrowed time:</b> At 10th level, a voyager can devote an instance of her own time towards empowering and directing her parallel counterparts. As a swift action, the voyager can carry out one of her known parallel actions. She cannot use the same parallel action twice in a single round.
       </p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
   subType: classFeat
   tag: borrowed-time
 type: feat

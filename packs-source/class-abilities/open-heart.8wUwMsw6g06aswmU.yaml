@@ -10,10 +10,14 @@ system:
     classes:
       - Highlord
   description:
-    value: >-
-      <p><b>open&nbsp;heart:</b>&nbsp;A&nbsp;highlord's&nbsp;collective&nbsp;is&nbsp;more&nbsp;than&nbsp;just&nbsp;a&nbsp;link;&nbsp;when&nbsp;he&nbsp;touches&nbsp;the&nbsp;mind&nbsp;of&nbsp;another,&nbsp;he&nbsp;shares&nbsp;a&nbsp;part&nbsp;of&nbsp;himself,&nbsp;his&nbsp;core,&nbsp;driving&nbsp;goals&nbsp;and&nbsp;desires.&nbsp;To&nbsp;members&nbsp;of&nbsp;his&nbsp;collective,&nbsp;a&nbsp;highlord's&nbsp;psionic&nbsp;powers&nbsp;are&nbsp;unmistakably&nbsp;<i>his</i>,&nbsp;bearing&nbsp;sensory&nbsp;displays&nbsp;unique&nbsp;to&nbsp;the&nbsp;highlord&nbsp;instead&nbsp;of&nbsp;their&nbsp;normal&nbsp;appearances.&nbsp;The&nbsp;appearance&nbsp;of&nbsp;a&nbsp;highlord's&nbsp;powers&nbsp;is&nbsp;tied&nbsp;to&nbsp;what&nbsp;the&nbsp;highlord&nbsp;values—common&nbsp;displays&nbsp;are&nbsp;flowing&nbsp;streams&nbsp;of&nbsp;blood,&nbsp;coins,&nbsp;or&nbsp;other&nbsp;materials,&nbsp;sounds&nbsp;of&nbsp;the&nbsp;highlord's&nbsp;home&nbsp;and&nbsp;those&nbsp;he&nbsp;cares&nbsp;about,&nbsp;or&nbsp;similarly&nbsp;important&nbsp;things.&nbsp;Though&nbsp;these&nbsp;displays&nbsp;don't&nbsp;grant&nbsp;the&nbsp;highlord's&nbsp;collective&nbsp;members&nbsp;any&nbsp;unique&nbsp;insight&nbsp;into&nbsp;the&nbsp;effects&nbsp;of&nbsp;his&nbsp;powers,&nbsp;they&nbsp;do&nbsp;share&nbsp;knowledge&nbsp;of&nbsp;something&nbsp;important&nbsp;to&nbsp;the&nbsp;highlord.
-
+    value: |-
+      <p><b>open heart:</b> A highlord's collective is more than just a link; when he touches the mind of another, he shares a part of himself, his core, driving goals and desires. To members of his collective, a highlord's psionic powers are unmistakably <i>his</i>, bearing sensory displays unique to the highlord instead of their normal appearances. The appearance of a highlord's powers is tied to what the highlord values—common displays are flowing streams of blood, coins, or other materials, sounds of the highlord's home and those he cares about, or similarly important things. Though these displays don't grant the highlord's collective members any unique insight into the effects of his powers, they do share knowledge of something important to the highlord.
       </p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–6
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
   subType: classFeat
   tag: open-heart
 type: feat

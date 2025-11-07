@@ -10,7 +10,16 @@ system:
     classes:
       - Cryptic
   description:
-    value: <p>Hide&nbsp;in&nbsp;plain&nbsp;sight</p>
+    value: <p>Hide in plain sight</p>
+  sources:
+    - date: '2012-07-23'
+      pages: 36–42
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 34–40
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: hide-in-plain-sight
 type: feat

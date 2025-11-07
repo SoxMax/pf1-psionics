@@ -10,7 +10,12 @@ system:
     classes:
       - Voyager
   description:
-    value: <p>Greater&nbsp;multitask</p>
+    value: <p>Greater multitask</p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
   subType: classFeat
   tag: greater-multitask
 type: feat

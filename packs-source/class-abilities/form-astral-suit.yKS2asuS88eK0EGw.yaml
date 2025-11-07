@@ -10,10 +10,18 @@ system:
     classes:
       - Aegis
   description:
-    value: >-
-      <p><b>form&nbsp;astral&nbsp;suit:</b>&nbsp;Every&nbsp;aegis&nbsp;learns&nbsp;to&nbsp;draw&nbsp;forth&nbsp;ectoplasm&nbsp;and&nbsp;form&nbsp;an&nbsp;astral&nbsp;suit&nbsp;around&nbsp;their&nbsp;form.&nbsp;The&nbsp;aegis&nbsp;can&nbsp;select&nbsp;from&nbsp;three&nbsp;different&nbsp;types&nbsp;when&nbsp;forming&nbsp;his&nbsp;astral&nbsp;suit&nbsp;–&nbsp;skin,&nbsp;armor,&nbsp;or&nbsp;juggernaut.&nbsp;An&nbsp;aegis&nbsp;is&nbsp;always&nbsp;considered&nbsp;to&nbsp;be&nbsp;proficient&nbsp;with&nbsp;his&nbsp;astral&nbsp;suit,&nbsp;even&nbsp;if&nbsp;he&nbsp;does&nbsp;not&nbsp;have&nbsp;the&nbsp;appropriate&nbsp;armor&nbsp;proficiency.&nbsp;The&nbsp;amount&nbsp;of&nbsp;time&nbsp;forming&nbsp;this&nbsp;astral&nbsp;suit&nbsp;takes&nbsp;depends&nbsp;on&nbsp;the&nbsp;type&nbsp;of&nbsp;suit&nbsp;being&nbsp;formed.&nbsp;Different&nbsp;astral&nbsp;suit&nbsp;forms&nbsp;grant&nbsp;different&nbsp;free&nbsp;customizations.&nbsp;These&nbsp;free&nbsp;customizations&nbsp;never&nbsp;count&nbsp;against&nbsp;the&nbsp;aegis's&nbsp;total&nbsp;number&nbsp;of&nbsp;customization&nbsp;points&nbsp;spent&nbsp;on&nbsp;his&nbsp;astral&nbsp;suit.
-
+    value: |-
+      <p><b>form astral suit:</b> Every aegis learns to draw forth ectoplasm and form an astral suit around their form. The aegis can select from three different types when forming his astral suit – skin, armor, or juggernaut. An aegis is always considered to be proficient with his astral suit, even if he does not have the appropriate armor proficiency. The amount of time forming this astral suit takes depends on the type of suit being formed. Different astral suit forms grant different free customizations. These free customizations never count against the aegis's total number of customization points spent on his astral suit.
       </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 27–31
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 28–30
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: form-astral-suit
 type: feat

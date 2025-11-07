@@ -10,10 +10,14 @@ system:
     classes:
       - Highlord
   description:
-    value: >-
-      <p><b>highlord's&nbsp;mark:</b>&nbsp;At&nbsp;5th&nbsp;level,&nbsp;willingly&nbsp;or&nbsp;unwillingly,&nbsp;a&nbsp;highlord's&nbsp;charismatic&nbsp;and&nbsp;psionic&nbsp;nature&nbsp;bleeds&nbsp;into&nbsp;the&nbsp;environment&nbsp;around&nbsp;him.&nbsp;The&nbsp;highlord&nbsp;can&nbsp;establish&nbsp;a&nbsp;location&nbsp;as&nbsp;his&nbsp;territory,&nbsp;after&nbsp;spending&nbsp;at&nbsp;least&nbsp;a&nbsp;week&nbsp;in&nbsp;the&nbsp;area&nbsp;around&nbsp;it.&nbsp;This&nbsp;location&nbsp;must&nbsp;be&nbsp;an&nbsp;area&nbsp;no&nbsp;larger&nbsp;in&nbsp;volume&nbsp;than&nbsp;a&nbsp;cube&nbsp;that&nbsp;is&nbsp;a&nbsp;number&nbsp;of&nbsp;feet&nbsp;per&nbsp;side&nbsp;equal&nbsp;to&nbsp;10&nbsp;feet&nbsp;per&nbsp;highlord&nbsp;level.&nbsp;If&nbsp;it&nbsp;is&nbsp;a&nbsp;public&nbsp;(or&nbsp;at&nbsp;least&nbsp;well&nbsp;known)&nbsp;area,&nbsp;it&nbsp;becomes&nbsp;widely&nbsp;regarded&nbsp;by&nbsp;others&nbsp;that&nbsp;the&nbsp;highlord&nbsp;controls&nbsp;or&nbsp;own&nbsp;it&nbsp;in&nbsp;some&nbsp;way.&nbsp;The&nbsp;highlord's&nbsp;power&nbsp;influences&nbsp;the&nbsp;appearance&nbsp;of&nbsp;the&nbsp;area&nbsp;through&nbsp;his&nbsp;open&nbsp;heart&nbsp;ability,&nbsp;though&nbsp;objects&nbsp;within&nbsp;it&nbsp;are&nbsp;not&nbsp;changed&nbsp;as&nbsp;to&nbsp;become&nbsp;unrecognizable.
-
+    value: |-
+      <p><b>highlord's mark:</b> At 5th level, willingly or unwillingly, a highlord's charismatic and psionic nature bleeds into the environment around him. The highlord can establish a location as his territory, after spending at least a week in the area around it. This location must be an area no larger in volume than a cube that is a number of feet per side equal to 10 feet per highlord level. If it is a public (or at least well known) area, it becomes widely regarded by others that the highlord controls or own it in some way. The highlord's power influences the appearance of the area through his open heart ability, though objects within it are not changed as to become unrecognizable.
       </p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–6
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
   subType: classFeat
   tag: highlord-s-mark
 type: feat

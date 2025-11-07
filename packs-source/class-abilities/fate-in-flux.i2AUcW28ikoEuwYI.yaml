@@ -10,10 +10,14 @@ system:
     classes:
       - Voyager
   description:
-    value: >-
-      <p><b>Fate&nbsp;in&nbsp;flux:</b>&nbsp;At&nbsp;16th&nbsp;level,&nbsp;a&nbsp;voyager&nbsp;gains&nbsp;unique&nbsp;insight&nbsp;into&nbsp;the&nbsp;nonlinear&nbsp;nature&nbsp;of&nbsp;time,&nbsp;and&nbsp;can&nbsp;reach&nbsp;back&nbsp;to&nbsp;adjust&nbsp;one&nbsp;of&nbsp;the&nbsp;decisions&nbsp;she&nbsp;made&nbsp;in&nbsp;the&nbsp;past.&nbsp;Once&nbsp;per&nbsp;day,&nbsp;by&nbsp;meditating&nbsp;for&nbsp;10&nbsp;minutes,&nbsp;the&nbsp;voyager&nbsp;can&nbsp;use&nbsp;<a&nbsp;href="/wiki/Psychic_Reformation"&nbsp;title="Psychic&nbsp;Reformation">psychic&nbsp;reformation</a>&nbsp;as&nbsp;a&nbsp;psi-like&nbsp;ability.&nbsp;She&nbsp;can&nbsp;only&nbsp;target&nbsp;herself&nbsp;with&nbsp;this&nbsp;effect,&nbsp;takes&nbsp;no&nbsp;penalties&nbsp;from&nbsp;it.&nbsp;In&nbsp;addition&nbsp;to&nbsp;the&nbsp;power's&nbsp;normal&nbsp;effect,&nbsp;the&nbsp;voyager&nbsp;can&nbsp;also&nbsp;change&nbsp;her&nbsp;parallel&nbsp;actions&nbsp;known&nbsp;when&nbsp;she&nbsp;uses&nbsp;this&nbsp;ability.
-
+    value: |-
+      <p><b>Fate in flux:</b> At 16th level, a voyager gains unique insight into the nonlinear nature of time, and can reach back to adjust one of the decisions she made in the past. Once per day, by meditating for 10 minutes, the voyager can use <a href="/wiki/Psychic_Reformation" title="Psychic Reformation">psychic reformation</a> as a psi-like ability. She can only target herself with this effect, takes no penalties from it. In addition to the power's normal effect, the voyager can also change her parallel actions known when she uses this ability.
       </p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
   subType: classFeat
   tag: fate-in-flux
 type: feat

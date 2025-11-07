@@ -10,10 +10,14 @@ system:
     classes:
       - Voyager
   description:
-    value: >-
-      <p><b>parallel&nbsp;initiative:</b>&nbsp;A&nbsp;voyager's&nbsp;future&nbsp;and&nbsp;alternate&nbsp;selves&nbsp;can&nbsp;act&nbsp;in&nbsp;some&nbsp;capacity&nbsp;on&nbsp;their&nbsp;present&nbsp;self's&nbsp;reality.&nbsp;Their&nbsp;activities&nbsp;are&nbsp;represented&nbsp;through&nbsp;a&nbsp;unique&nbsp;turn&nbsp;known&nbsp;as&nbsp;a&nbsp;parallel&nbsp;turn.&nbsp;Whenever&nbsp;a&nbsp;voyager&nbsp;rolls&nbsp;initiative,&nbsp;she&nbsp;also&nbsp;rolls&nbsp;initiative&nbsp;for&nbsp;her&nbsp;parallel&nbsp;turn.&nbsp;She&nbsp;makes&nbsp;a&nbsp;second&nbsp;initiative&nbsp;roll&nbsp;at&nbsp;a&nbsp;–8&nbsp;penalty.&nbsp;This&nbsp;result&nbsp;is&nbsp;noted&nbsp;as&nbsp;the&nbsp;voyager's&nbsp;parallel&nbsp;turn.&nbsp;If&nbsp;the&nbsp;voyager&nbsp;has&nbsp;another&nbsp;ability&nbsp;that&nbsp;allows&nbsp;her&nbsp;to&nbsp;reroll&nbsp;initiative&nbsp;checks&nbsp;or&nbsp;roll&nbsp;additional&nbsp;dice,&nbsp;she&nbsp;can&nbsp;apply&nbsp;them&nbsp;to&nbsp;either&nbsp;roll.
-
+    value: |-
+      <p><b>parallel initiative:</b> A voyager's future and alternate selves can act in some capacity on their present self's reality. Their activities are represented through a unique turn known as a parallel turn. Whenever a voyager rolls initiative, she also rolls initiative for her parallel turn. She makes a second initiative roll at a –8 penalty. This result is noted as the voyager's parallel turn. If the voyager has another ability that allows her to reroll initiative checks or roll additional dice, she can apply them to either roll.
       </p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
   subType: classFeat
   tag: parallel-initiative
 type: feat

@@ -10,8 +10,16 @@ system:
     classes:
       - Soulknife
   description:
-    value: >-
-      <p><b>Bonus&nbsp;feat:</b>&nbsp;The&nbsp;soulknife&nbsp;may&nbsp;choose&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Power%20Attack">Power&nbsp;Attack</a>,&nbsp;</p>
+    value: <p><b>Bonus feat:</b> The soulknife may choose <a rel="nofollow" class="external text" href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Power%20Attack">Power Attack</a>, </p>
+  sources:
+    - date: '2010-08-01'
+      pages: 28–33
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 57–64
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: bonus-feat
 type: feat

@@ -10,10 +10,18 @@ system:
     classes:
       - Dread
   description:
-    value: >-
-      <p><b>Shadow&nbsp;twin:</b>&nbsp;A&nbsp;dread&nbsp;of&nbsp;11th&nbsp;level&nbsp;is&nbsp;able&nbsp;to&nbsp;draw&nbsp;forth&nbsp;a&nbsp;replica&nbsp;of&nbsp;herself&nbsp;formed&nbsp;from&nbsp;fears&nbsp;and&nbsp;nightmares.&nbsp;The&nbsp;shadow&nbsp;twin&nbsp;appears&nbsp;at&nbsp;a&nbsp;location&nbsp;chosen&nbsp;by&nbsp;the&nbsp;dread&nbsp;that&nbsp;is&nbsp;within&nbsp;30&nbsp;ft.&nbsp;and&nbsp;lasts&nbsp;for&nbsp;one&nbsp;round&nbsp;per&nbsp;class&nbsp;level.&nbsp;The&nbsp;dread&nbsp;and&nbsp;this&nbsp;shadow&nbsp;twin&nbsp;are,&nbsp;for&nbsp;all&nbsp;intents&nbsp;and&nbsp;purposes,&nbsp;one&nbsp;person&nbsp;-&nbsp;including&nbsp;only&nbsp;having&nbsp;one&nbsp;round's&nbsp;worth&nbsp;of&nbsp;actions&nbsp;to&nbsp;use&nbsp;between&nbsp;the&nbsp;two,&nbsp;sharing&nbsp;attacks&nbsp;of&nbsp;opportunity,&nbsp;sharing&nbsp;a&nbsp;single&nbsp;pool&nbsp;of&nbsp;hit&nbsp;points&nbsp;and&nbsp;power&nbsp;points,&nbsp;and&nbsp;having&nbsp;access&nbsp;to&nbsp;all&nbsp;of&nbsp;the&nbsp;same&nbsp;abilities&nbsp;and&nbsp;daily&nbsp;uses&nbsp;of&nbsp;those&nbsp;abilities.&nbsp;If&nbsp;the&nbsp;shadow&nbsp;twin&nbsp;is&nbsp;damaged&nbsp;or&nbsp;healed,&nbsp;the&nbsp;dread&nbsp;takes&nbsp;the&nbsp;damage&nbsp;or&nbsp;healing,&nbsp;and&nbsp;vice&nbsp;versa.&nbsp;If&nbsp;both&nbsp;the&nbsp;dread&nbsp;and&nbsp;the&nbsp;shadow&nbsp;twin&nbsp;are&nbsp;affected&nbsp;by&nbsp;the&nbsp;same&nbsp;area&nbsp;of&nbsp;effect,&nbsp;damage&nbsp;is&nbsp;only&nbsp;counted&nbsp;once.
-
+    value: |-
+      <p><b>Shadow twin:</b> A dread of 11th level is able to draw forth a replica of herself formed from fears and nightmares. The shadow twin appears at a location chosen by the dread that is within 30 ft. and lasts for one round per class level. The dread and this shadow twin are, for all intents and purposes, one person - including only having one round's worth of actions to use between the two, sharing attacks of opportunity, sharing a single pool of hit points and power points, and having access to all of the same abilities and daily uses of those abilities. If the shadow twin is damaged or healed, the dread takes the damage or healing, and vice versa. If both the dread and the shadow twin are affected by the same area of effect, damage is only counted once.
       </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 43–47
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 40–44
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: shadow-twin
 type: feat

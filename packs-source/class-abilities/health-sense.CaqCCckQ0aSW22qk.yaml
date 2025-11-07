@@ -10,10 +10,18 @@ system:
     classes:
       - Vitalist
   description:
-    value: >-
-      <p><b>Health&nbsp;sense:</b>&nbsp;Beginning&nbsp;at&nbsp;2nd&nbsp;level,&nbsp;a&nbsp;vitalist&nbsp;may&nbsp;take&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;gauge&nbsp;the&nbsp;relative&nbsp;health&nbsp;level&nbsp;of&nbsp;collective&nbsp;members,&nbsp;determining&nbsp;the&nbsp;amount&nbsp;of&nbsp;damage,&nbsp;in&nbsp;hit&nbsp;points,&nbsp;that&nbsp;an&nbsp;ally&nbsp;has&nbsp;taken.&nbsp;In&nbsp;addition,&nbsp;the&nbsp;vitalist&nbsp;may&nbsp;make&nbsp;a&nbsp;Heal&nbsp;check&nbsp;as&nbsp;a&nbsp;standard&nbsp;action,&nbsp;with&nbsp;a&nbsp;DC&nbsp;of&nbsp;15,&nbsp;to&nbsp;determine&nbsp;if&nbsp;any&nbsp;of&nbsp;the&nbsp;members&nbsp;of&nbsp;his&nbsp;collective&nbsp;are&nbsp;afflicted&nbsp;by&nbsp;a&nbsp;disease&nbsp;or&nbsp;poison.
-
+    value: |-
+      <p><b>Health sense:</b> Beginning at 2nd level, a vitalist may take a swift action to gauge the relative health level of collective members, determining the amount of damage, in hit points, that an ally has taken. In addition, the vitalist may make a Heal check as a standard action, with a DC of 15, to determine if any of the members of his collective are afflicted by a disease or poison.
       </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 57–61
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 69–72
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: health-sense
 type: feat

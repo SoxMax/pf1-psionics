@@ -10,10 +10,18 @@ system:
     classes:
       - Vitalist
   description:
-    value: >-
-      <p><b>Steal&nbsp;health:</b>&nbsp;At&nbsp;3rd&nbsp;level,&nbsp;a&nbsp;vitalist&nbsp;has&nbsp;learned&nbsp;to&nbsp;siphon&nbsp;the&nbsp;health&nbsp;of&nbsp;a&nbsp;creature&nbsp;and&nbsp;use&nbsp;it&nbsp;for&nbsp;his&nbsp;own&nbsp;needs&nbsp;or&nbsp;the&nbsp;needs&nbsp;of&nbsp;his&nbsp;collective.&nbsp;As&nbsp;a&nbsp;touch&nbsp;attack,&nbsp;the&nbsp;vitalist&nbsp;may&nbsp;deal&nbsp;a&nbsp;number&nbsp;of&nbsp;hit&nbsp;points&nbsp;in&nbsp;damage&nbsp;to&nbsp;the&nbsp;target&nbsp;equal&nbsp;to&nbsp;his&nbsp;vitalist&nbsp;level&nbsp;+&nbsp;his&nbsp;Wisdom&nbsp;modifier&nbsp;and&nbsp;heal&nbsp;an&nbsp;equal&nbsp;amount&nbsp;of&nbsp;damage.&nbsp;The&nbsp;vitalist&nbsp;may&nbsp;share&nbsp;any&nbsp;healing&nbsp;from&nbsp;this&nbsp;effect&nbsp;over&nbsp;his&nbsp;collective,&nbsp;even&nbsp;if&nbsp;he&nbsp;himself&nbsp;would&nbsp;not&nbsp;be&nbsp;eligible&nbsp;for&nbsp;the&nbsp;healing.&nbsp;A&nbsp;vitalist&nbsp;may&nbsp;not&nbsp;heal&nbsp;more&nbsp;hit&nbsp;points&nbsp;than&nbsp;the&nbsp;touched&nbsp;creature&nbsp;had&nbsp;prior&nbsp;to&nbsp;using&nbsp;this&nbsp;ability.
-
+    value: |-
+      <p><b>Steal health:</b> At 3rd level, a vitalist has learned to siphon the health of a creature and use it for his own needs or the needs of his collective. As a touch attack, the vitalist may deal a number of hit points in damage to the target equal to his vitalist level + his Wisdom modifier and heal an equal amount of damage. The vitalist may share any healing from this effect over his collective, even if he himself would not be eligible for the healing. A vitalist may not heal more hit points than the touched creature had prior to using this ability.
       </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 57–61
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 69–72
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: steal-health
 type: feat

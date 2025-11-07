@@ -10,10 +10,18 @@ system:
     classes:
       - Dread
   description:
-    value: >-
-      <p><b>Bonus&nbsp;feat:</b>&nbsp;At&nbsp;5th&nbsp;level,&nbsp;the&nbsp;dread&nbsp;gains&nbsp;a&nbsp;bonus&nbsp;feat&nbsp;from&nbsp;the&nbsp;following&nbsp;list.&nbsp;The&nbsp;dread&nbsp;must&nbsp;still&nbsp;meet&nbsp;all&nbsp;prerequisites&nbsp;for&nbsp;the&nbsp;bonus&nbsp;feat,&nbsp;including&nbsp;ability&nbsp;score&nbsp;and&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;minimums&nbsp;as&nbsp;well&nbsp;as&nbsp;class&nbsp;requirements&nbsp;(like&nbsp;levels&nbsp;in&nbsp;another&nbsp;specific&nbsp;class).
-
+    value: |-
+      <p><b>Bonus feat:</b> At 5th level, the dread gains a bonus feat from the following list. The dread must still meet all prerequisites for the bonus feat, including ability score and base attack bonus minimums as well as class requirements (like levels in another specific class).
       </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 43–47
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 40–44
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: bonus-feat
 type: feat

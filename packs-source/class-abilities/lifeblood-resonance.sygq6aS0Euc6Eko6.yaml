@@ -10,7 +10,12 @@ system:
     classes:
       - Highlord
   description:
-    value: <p>lifeblood&nbsp;resonance</p>
+    value: <p>lifeblood resonance</p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–6
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
   subType: classFeat
   tag: lifeblood-resonance
 type: feat

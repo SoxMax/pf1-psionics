@@ -10,10 +10,18 @@ system:
     classes:
       - Vitalist
   description:
-    value: >-
-      <p><b>Master&nbsp;vitalist:</b>&nbsp;Upon&nbsp;achieving&nbsp;20th&nbsp;level,&nbsp;a&nbsp;vitalist&nbsp;has&nbsp;reached&nbsp;the&nbsp;pinnacle&nbsp;of&nbsp;his&nbsp;method,&nbsp;gaining&nbsp;a&nbsp;special&nbsp;ability&nbsp;unique&nbsp;to&nbsp;his&nbsp;chosen&nbsp;method.
-
+    value: |-
+      <p><b>Master vitalist:</b> Upon achieving 20th level, a vitalist has reached the pinnacle of his method, gaining a special ability unique to his chosen method.
       </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 57–61
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 69–72
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: master-vitalist
 type: feat

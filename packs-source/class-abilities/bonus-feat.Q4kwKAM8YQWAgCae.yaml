@@ -10,7 +10,20 @@ system:
     classes:
       - Psychic Warrior
   description:
-    value: <p>Bonus&nbsp;feat</p>
+    value: <p>Bonus feat</p>
+  sources:
+    - date: '2010-08-01'
+      pages: 25–27
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2010-01-01'
+      pages: 29–31
+      publisher: Dreamscarred Press
+      title: 'Psionics Unleashed: Revised'
+    - date: '2013-12-24'
+      pages: 53–55
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: bonus-feat
 type: feat

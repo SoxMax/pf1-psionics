@@ -10,10 +10,18 @@ system:
     classes:
       - Aegis
   description:
-    value: >-
-      <p><b>Augment&nbsp;suit:</b>&nbsp;An&nbsp;aegis&nbsp;learns&nbsp;how&nbsp;to&nbsp;infuse&nbsp;his&nbsp;astral&nbsp;suit&nbsp;with&nbsp;his&nbsp;psionic&nbsp;power,&nbsp;augmenting&nbsp;the&nbsp;capacity&nbsp;of&nbsp;his&nbsp;suit.&nbsp;Beginning&nbsp;at&nbsp;4th&nbsp;level,&nbsp;the&nbsp;aegis&nbsp;may&nbsp;spend&nbsp;up&nbsp;to&nbsp;one&nbsp;power&nbsp;point&nbsp;per&nbsp;four&nbsp;class&nbsp;levels&nbsp;to&nbsp;customize&nbsp;his&nbsp;Astral&nbsp;Suit,&nbsp;gaining&nbsp;one&nbsp;temporary&nbsp;customization&nbsp;point&nbsp;for&nbsp;each&nbsp;power&nbsp;point&nbsp;spent.
-
+    value: |-
+      <p><b>Augment suit:</b> An aegis learns how to infuse his astral suit with his psionic power, augmenting the capacity of his suit. Beginning at 4th level, the aegis may spend up to one power point per four class levels to customize his Astral Suit, gaining one temporary customization point for each power point spent.
       </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 27–31
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 28–30
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
   subType: classFeat
   tag: augment-suit
 type: feat
