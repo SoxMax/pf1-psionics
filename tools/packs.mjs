@@ -221,8 +221,9 @@ function getFolderForItem(entry) {
     return null;
   }
 
-  // For class abilities (feats with classFeat subtype), don't create folders
-  // Let the natural folder structure from extraction handle organization
+  // For class abilities (feats with classFeat subtype), don't programmatically create folders.
+  // The folder structure from the source YAML files (organized by class) is preserved
+  // during both compilation and extraction via the `folders: true` option.
   if (entry.type === "feat" && entry.system?.subType === "classFeat") {
     return null;
   }
@@ -324,9 +325,22 @@ async function extractPack(packName, options = {}) {
       return sanitizePackEntry(entry, "Item");
     },
     transformName: (entry, { folder }) => {
-      // Use folder from extraction (for class abilities with folder structure)
-      // or get programmatic folder (for powers organized by discipline)
-      let finalFolder = folder || getFolderForItem(entry);
+      // Determine folder for file organization:
+      // 1. For class abilities (feats with classFeat subtype), organize by class name
+      // 2. For powers, organize by discipline (via getFolderForItem)
+      // 3. For items with Foundry UI folders, use the folder name
+      let finalFolder;
+
+      if (entry.type === "feat" && entry.system?.subType === "classFeat") {
+        // Organize class abilities by their associated class
+        const className = entry.system?.associations?.classes?.[0];
+        if (className) {
+          finalFolder = sluggify(className);
+        }
+      } else {
+        // Use Foundry folder or programmatic folder (e.g., for powers)
+        finalFolder = folder || getFolderForItem(entry);
+      }
 
       const filename = `${sluggify(entry.name)}.${entry._id}.yaml`;
 
