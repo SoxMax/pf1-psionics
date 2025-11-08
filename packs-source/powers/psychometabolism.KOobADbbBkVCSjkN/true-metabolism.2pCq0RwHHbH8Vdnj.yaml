@@ -1,0 +1,84 @@
+_id: 2pCq0RwHHbH8Vdnj
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/True_Metabolism
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: True Metabolism
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: round
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;are&nbsp;difficult&nbsp;to&nbsp;kill&nbsp;while&nbsp;this&nbsp;power&nbsp;persists.&nbsp;You&nbsp;automatically&nbsp;heal&nbsp;damage&nbsp;at&nbsp;the&nbsp;rate&nbsp;of&nbsp;10&nbsp;hit&nbsp;points&nbsp;per&nbsp;round.
+
+      </p>
+
+      <p>This&nbsp;power&nbsp;is&nbsp;not&nbsp;effective&nbsp;against&nbsp;damage&nbsp;from&nbsp;starvation,&nbsp;thirst,&nbsp;or&nbsp;suffocation.&nbsp;Also,&nbsp;attack&nbsp;forms&nbsp;that&nbsp;don't&nbsp;deal&nbsp;hit&nbsp;point&nbsp;damage&nbsp;(for&nbsp;example,&nbsp;most&nbsp;poisons)&nbsp;ignore&nbsp;true&nbsp;metabolism.&nbsp;You&nbsp;can&nbsp;also&nbsp;use&nbsp;this&nbsp;power&nbsp;to&nbsp;regrow&nbsp;lost&nbsp;portions&nbsp;of&nbsp;your&nbsp;body&nbsp;and&nbsp;to&nbsp;reattach&nbsp;severed&nbsp;limbs&nbsp;or&nbsp;body&nbsp;parts,&nbsp;if&nbsp;you&nbsp;do&nbsp;nothing&nbsp;but&nbsp;concentrate&nbsp;on&nbsp;regrowing&nbsp;the&nbsp;lost&nbsp;body&nbsp;part&nbsp;or&nbsp;reattaching&nbsp;the&nbsp;severed&nbsp;limb&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;power.&nbsp;You&nbsp;do&nbsp;not&nbsp;gain&nbsp;the&nbsp;benefits&nbsp;described&nbsp;earlier&nbsp;when&nbsp;you&nbsp;manifest&nbsp;true&nbsp;metabolism&nbsp;for&nbsp;this&nbsp;purpose.&nbsp;You&nbsp;must&nbsp;have&nbsp;a&nbsp;Constitution&nbsp;score&nbsp;to&nbsp;gain&nbsp;any&nbsp;of&nbsp;this&nbsp;power's&nbsp;benefits.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 8
+      vitalist: 8
+      wilder: 8
+  level: 8
+  manifestTime:
+    units: round
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '152'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '254'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '59'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  subdiscipline:
+    - healing
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!2pCq0RwHHbH8Vdnj'

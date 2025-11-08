@@ -1,0 +1,79 @@
+_id: kx25Yy4WKovQGfGF
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Disruption
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Disruption
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>The&nbsp;power&nbsp;overwhelms&nbsp;the&nbsp;target's&nbsp;mind&nbsp;and&nbsp;ability&nbsp;to&nbsp;concentrate,&nbsp;making&nbsp;manifesting&nbsp;powers&nbsp;or&nbsp;casting&nbsp;spells&nbsp;extremely&nbsp;hard.&nbsp;The&nbsp;subject&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;concentration&nbsp;check&nbsp;(DC&nbsp;equal&nbsp;to&nbsp;the&nbsp;save&nbsp;DC&nbsp;of&nbsp;this&nbsp;power)&nbsp;in&nbsp;order&nbsp;to&nbsp;cast&nbsp;a&nbsp;spell,&nbsp;manifest&nbsp;a&nbsp;power,&nbsp;use&nbsp;any&nbsp;spell-like&nbsp;ability&nbsp;use&nbsp;any&nbsp;psi-like&nbsp;ability,&nbsp;or&nbsp;use&nbsp;any&nbsp;spell&nbsp;completion,&nbsp;power&nbsp;completion,&nbsp;power&nbsp;trigger&nbsp;or&nbsp;spell&nbsp;trigger&nbsp;magic&nbsp;items.
+
+      </p>
+
+      <p>While&nbsp;under&nbsp;the&nbsp;effect&nbsp;of&nbsp;this&nbsp;power,&nbsp;if&nbsp;the&nbsp;subject&nbsp;must&nbsp;attempt&nbsp;a&nbsp;concentration&nbsp;check&nbsp;to&nbsp;cast&nbsp;a&nbsp;spell,&nbsp;manifest&nbsp;a&nbsp;power,&nbsp;use&nbsp;a&nbsp;psi-like&nbsp;ability&nbsp;or&nbsp;a&nbsp;spell-like&nbsp;ability&nbsp;for&nbsp;any&nbsp;reason&nbsp;other&nbsp;than&nbsp;the&nbsp;effect&nbsp;of&nbsp;this&nbsp;spell&nbsp;(such&nbsp;as&nbsp;manifesting&nbsp;defensively,&nbsp;being&nbsp;injured&nbsp;while&nbsp;manifesting,&nbsp;and&nbsp;so&nbsp;on),&nbsp;it&nbsp;takes&nbsp;a&nbsp;penalty&nbsp;on&nbsp;that&nbsp;check&nbsp;equal&nbsp;to&nbsp;1/2&nbsp;its&nbsp;caster&nbsp;or&nbsp;manifester&nbsp;level.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;choose&nbsp;another&nbsp;target.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;range&nbsp;increases&nbsp;to&nbsp;Medium&nbsp;instead&nbsp;of&nbsp;Close.</li><li>If&nbsp;you&nbsp;spend&nbsp;3&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;target&nbsp;takes&nbsp;a&nbsp;penalty&nbsp;to&nbsp;all&nbsp;concentration&nbsp;checks&nbsp;equal&nbsp;to&nbsp;your&nbsp;manifesting&nbsp;ability&nbsp;stat,&nbsp;in&nbsp;addition&nbsp;to&nbsp;any&nbsp;other&nbsp;penalties&nbsp;it&nbsp;might&nbsp;suffer.</li></ol>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 3
+      dread: 3
+      psion: 3
+      tactician: 3
+      thug: 3
+      wilder: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 68–69
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!kx25Yy4WKovQGfGF'

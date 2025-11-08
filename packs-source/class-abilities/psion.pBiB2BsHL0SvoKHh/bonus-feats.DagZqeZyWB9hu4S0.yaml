@@ -1,0 +1,31 @@
+_id: DagZqeZyWB9hu4S0
+_stats:
+  coreVersion: '13.350'
+folder: pBiB2BsHL0SvoKHh
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Bonus Feats
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Psion
+  description:
+    value: >-
+      <p><b>Bonus&nbsp;Feats:</b>A&nbsp;psion&nbsp;gains&nbsp;a&nbsp;bonus&nbsp;feat&nbsp;at&nbsp;1st&nbsp;level,&nbsp;5th&nbsp;level,&nbsp;10th&nbsp;level,&nbsp;15th&nbsp;level,&nbsp;and&nbsp;20th&nbsp;level.&nbsp;This&nbsp;feat&nbsp;must&nbsp;be&nbsp;a&nbsp;<a&nbsp;href="/wiki/Psionic_feat"&nbsp;title="Psionic&nbsp;feat">psionic&nbsp;feat</a>,&nbsp;a&nbsp;<a&nbsp;href="/wiki/Metapsionic_feat"&nbsp;title="Metapsionic&nbsp;feat">metapsionic&nbsp;feat</a>,&nbsp;or&nbsp;a&nbsp;psionic&nbsp;<a&nbsp;href="/wiki/Item_Creation_feat"&nbsp;title="Item&nbsp;Creation&nbsp;feat">item&nbsp;creation&nbsp;feat</a>.
+
+      </p><p>These&nbsp;bonus&nbsp;feats&nbsp;are&nbsp;in&nbsp;addition&nbsp;to&nbsp;the&nbsp;feats&nbsp;that&nbsp;a&nbsp;character&nbsp;of&nbsp;any&nbsp;class&nbsp;gains&nbsp;every&nbsp;other&nbsp;level.&nbsp;A&nbsp;psion&nbsp;is&nbsp;not&nbsp;limited&nbsp;to&nbsp;psionic&nbsp;feats,&nbsp;metapsionic&nbsp;feats,&nbsp;and&nbsp;psionic&nbsp;item&nbsp;creation&nbsp;feats&nbsp;when&nbsp;choosing&nbsp;these&nbsp;other&nbsp;feats.
+
+      </p><p></p>
+  sources:
+    - date: '2010-08-01'
+      pages: 20–25
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 49–53
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: bonus-feats
+type: feat
+_key: '!items!DagZqeZyWB9hu4S0'

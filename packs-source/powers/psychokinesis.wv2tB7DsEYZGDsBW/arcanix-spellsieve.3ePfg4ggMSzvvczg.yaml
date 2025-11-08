@@ -1,0 +1,77 @@
+_id: 3ePfg4ggMSzvvczg
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Arcanix_Spellsieve
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Arcanix Spellsieve
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None (harmless)
+        harmless: true
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>You&nbsp;interweave&nbsp;your&nbsp;mind&nbsp;and&nbsp;power&nbsp;with&nbsp;that&nbsp;of&nbsp;another&nbsp;creature,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;either&nbsp;empower&nbsp;their&nbsp;spells&nbsp;or&nbsp;to&nbsp;draw&nbsp;power&nbsp;from&nbsp;the&nbsp;spells&nbsp;they&nbsp;cast.&nbsp;Whenever&nbsp;the&nbsp;target&nbsp;casts&nbsp;a&nbsp;spell,&nbsp;you&nbsp;can&nbsp;augment&nbsp;that&nbsp;spell&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action.&nbsp;For&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;you&nbsp;spend&nbsp;augmenting&nbsp;it,&nbsp;increase&nbsp;the&nbsp;effective&nbsp;caster&nbsp;level&nbsp;of&nbsp;that&nbsp;spell&nbsp;by&nbsp;1.&nbsp;For&nbsp;every&nbsp;3&nbsp;power&nbsp;points&nbsp;you&nbsp;spend&nbsp;augmenting&nbsp;it,&nbsp;increase&nbsp;its&nbsp;effective&nbsp;spell&nbsp;level&nbsp;by&nbsp;1.&nbsp;Both&nbsp;of&nbsp;these&nbsp;uses&nbsp;stack&nbsp;with&nbsp;each&nbsp;other,&nbsp;but&nbsp;you&nbsp;cannot&nbsp;spend&nbsp;more&nbsp;than&nbsp;your&nbsp;manifester&nbsp;level&nbsp;on&nbsp;a&nbsp;single&nbsp;augment.&nbsp;(For&nbsp;example,&nbsp;if&nbsp;you&nbsp;spend&nbsp;6&nbsp;power&nbsp;points&nbsp;to&nbsp;augment&nbsp;a&nbsp;spell,&nbsp;the&nbsp;caster&nbsp;level&nbsp;increases&nbsp;by&nbsp;3&nbsp;and&nbsp;the&nbsp;spell&nbsp;level&nbsp;by&nbsp;2).
+
+      </p>
+
+      <p>The&nbsp;other&nbsp;use&nbsp;of&nbsp;this&nbsp;power&nbsp;allows&nbsp;you&nbsp;to&nbsp;siphon&nbsp;some&nbsp;of&nbsp;the&nbsp;power&nbsp;of&nbsp;a&nbsp;spell&nbsp;into&nbsp;your&nbsp;own&nbsp;power&nbsp;reserves.&nbsp;As&nbsp;an&nbsp;immediate&nbsp;action&nbsp;when&nbsp;the&nbsp;target&nbsp;casts&nbsp;a&nbsp;spell,&nbsp;you&nbsp;regain&nbsp;1&nbsp;power&nbsp;point&nbsp;for&nbsp;every&nbsp;2&nbsp;spell&nbsp;levels&nbsp;of&nbsp;the&nbsp;spell&nbsp;they&nbsp;cast.&nbsp;This&nbsp;use&nbsp;of&nbsp;the&nbsp;power&nbsp;immediately&nbsp;ends&nbsp;the&nbsp;effect.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ul><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;increases&nbsp;to&nbsp;10&nbsp;minutes&nbsp;/&nbsp;level.</li><li>For&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;choose&nbsp;another&nbsp;target&nbsp;for&nbsp;this&nbsp;power.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;augment&nbsp;the&nbsp;spells&nbsp;of&nbsp;your&nbsp;target&nbsp;as&nbsp;a&nbsp;free&nbsp;action.</li></ul>
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      highlord: 2
+      psion: 2
+      tactician: 2
+      vitalist: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '10'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!3ePfg4ggMSzvvczg'

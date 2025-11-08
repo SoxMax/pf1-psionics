@@ -1,0 +1,63 @@
+_id: vbGa0PgtPfowWZY5
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Sever_the_Strand
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Sever the Strand
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: perm
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      target:
+        value: One corpse
+  description:
+    value: >-
+      <p>Using&nbsp;your&nbsp;mastery&nbsp;of&nbsp;the&nbsp;spirit&nbsp;world,&nbsp;you&nbsp;sever&nbsp;a&nbsp;soul&nbsp;from&nbsp;the&nbsp;newly-dead.&nbsp;The&nbsp;subject&nbsp;must&nbsp;have&nbsp;been&nbsp;dead&nbsp;no&nbsp;more&nbsp;than&nbsp;1&nbsp;round/level.&nbsp;Once&nbsp;you&nbsp;have&nbsp;severed&nbsp;the&nbsp;soul,&nbsp;it&nbsp;cannot&nbsp;be&nbsp;returned&nbsp;to&nbsp;life&nbsp;or&nbsp;animated&nbsp;as&nbsp;an&nbsp;undead&nbsp;creature&nbsp;by&nbsp;any&nbsp;means&nbsp;(including,&nbsp;but&nbsp;not&nbsp;limited&nbsp;to,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/SpellDisplay.aspx?ItemName=wish"><em>wish</em></a>&nbsp;or&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/SpellDisplay.aspx?ItemName=miracle"><em>miracle</em></a>).
+
+      </p>
+  discipline: athanatism
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      conduit: 7
+  level: 7
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '40'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!vbGa0PgtPfowWZY5'

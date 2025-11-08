@@ -1,0 +1,94 @@
+_id: x35aMaylCbwr0Gdk
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Anchored_Navigation
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Anchored Navigation
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '60'
+      duration:
+        units: hour
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;know&nbsp;where&nbsp;you&nbsp;are&nbsp;in&nbsp;relation&nbsp;to&nbsp;a&nbsp;fixed&nbsp;starting&nbsp;point,&nbsp;which&nbsp;is&nbsp;essential&nbsp;for&nbsp;setting&nbsp;up&nbsp;a&nbsp;mishap-free&nbsp;teleport&nbsp;beacon.&nbsp;While&nbsp;the&nbsp;duration&nbsp;lasts,&nbsp;you&nbsp;are&nbsp;aware&nbsp;of&nbsp;your&nbsp;exact&nbsp;distance&nbsp;and&nbsp;route&nbsp;(physical&nbsp;or&nbsp;psychoportive)&nbsp;back&nbsp;to&nbsp;a&nbsp;fixed&nbsp;starting&nbsp;point.&nbsp;The&nbsp;"anchored"&nbsp;starting&nbsp;point&nbsp;is&nbsp;your&nbsp;exact&nbsp;location&nbsp;when&nbsp;you&nbsp;manifest&nbsp;the&nbsp;power.&nbsp;To&nbsp;designate&nbsp;other&nbsp;anchored&nbsp;starting&nbsp;points,&nbsp;you&nbsp;must&nbsp;manifest&nbsp;this&nbsp;power&nbsp;multiple&nbsp;times&nbsp;and&nbsp;be&nbsp;present&nbsp;at&nbsp;the&nbsp;desired&nbsp;locations&nbsp;when&nbsp;you&nbsp;do&nbsp;so.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;also&nbsp;retrace&nbsp;your&nbsp;steps&nbsp;through&nbsp;a&nbsp;maze&nbsp;automatically&nbsp;while&nbsp;the&nbsp;power&nbsp;lasts,&nbsp;without&nbsp;resorting&nbsp;to&nbsp;a&nbsp;map.
+
+      </p>
+
+      <p>Anchored&nbsp;navigation&nbsp;grants&nbsp;you&nbsp;a&nbsp;mindlink&nbsp;with&nbsp;one&nbsp;designated&nbsp;creature&nbsp;who&nbsp;remains&nbsp;within&nbsp;a&nbsp;60-foot&nbsp;radius&nbsp;of&nbsp;the&nbsp;starting&nbsp;point,&nbsp;regardless&nbsp;of&nbsp;the&nbsp;distance&nbsp;between&nbsp;you&nbsp;and&nbsp;the&nbsp;creature.&nbsp;The&nbsp;use&nbsp;of&nbsp;anchored&nbsp;navigation&nbsp;is&nbsp;confined&nbsp;to&nbsp;the&nbsp;plane&nbsp;of&nbsp;existence&nbsp;where&nbsp;you&nbsp;manifest&nbsp;it.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;effect&nbsp;of&nbsp;this&nbsp;power&nbsp;extends&nbsp;across&nbsp;all&nbsp;planar&nbsp;boundaries.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: true
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 4
+      seer: 4
+      sighted seeker: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '75'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 159–160
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '28'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!x35aMaylCbwr0Gdk'

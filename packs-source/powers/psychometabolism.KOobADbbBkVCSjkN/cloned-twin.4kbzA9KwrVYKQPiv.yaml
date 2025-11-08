@@ -1,0 +1,76 @@
+_id: 4kbzA9KwrVYKQPiv
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Cloned_Twin
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Cloned Twin
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: One cloned twin
+  description:
+    value: >-
+      <p>When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;your&nbsp;body&nbsp;creates&nbsp;a&nbsp;perfect&nbsp;copy&nbsp;of&nbsp;yourself&nbsp;into&nbsp;a&nbsp;single&nbsp;adjacent&nbsp;square.&nbsp;As&nbsp;long&nbsp;as&nbsp;the&nbsp;twin&nbsp;exists,&nbsp;whenever&nbsp;you&nbsp;take&nbsp;a&nbsp;move&nbsp;action&nbsp;to&nbsp;move,&nbsp;the&nbsp;twin&nbsp;can&nbsp;move&nbsp;as&nbsp;well,&nbsp;although&nbsp;it&nbsp;does&nbsp;not&nbsp;need&nbsp;to&nbsp;follow&nbsp;you&nbsp;and&nbsp;cannot&nbsp;take&nbsp;any&nbsp;other&nbsp;actions.&nbsp;On&nbsp;subsequent&nbsp;rounds,&nbsp;at&nbsp;the&nbsp;start&nbsp;of&nbsp;your&nbsp;turn,&nbsp;your&nbsp;mind&nbsp;can&nbsp;instantaneously&nbsp;exchange&nbsp;places&nbsp;with&nbsp;your&nbsp;twin,&nbsp;becoming&nbsp;the&nbsp;twin&nbsp;and&nbsp;your&nbsp;original&nbsp;body&nbsp;becoming&nbsp;the&nbsp;twin.&nbsp;This&nbsp;is&nbsp;not&nbsp;an&nbsp;action&nbsp;and&nbsp;does&nbsp;not&nbsp;provoke&nbsp;an&nbsp;attack&nbsp;of&nbsp;opportunity.
+
+      </p>
+
+      <p>The&nbsp;twin&nbsp;has&nbsp;a&nbsp;speed&nbsp;of&nbsp;30&nbsp;feet&nbsp;and&nbsp;provokes&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;from&nbsp;movement&nbsp;as&nbsp;normal.&nbsp;Your&nbsp;twin&nbsp;cannot&nbsp;speak&nbsp;while&nbsp;you&nbsp;are&nbsp;in&nbsp;your&nbsp;other&nbsp;body,&nbsp;and&nbsp;cannot&nbsp;flank,&nbsp;make&nbsp;attacks&nbsp;of&nbsp;opportunity,&nbsp;or&nbsp;otherwise&nbsp;threaten&nbsp;enemies.&nbsp;It&nbsp;has&nbsp;an&nbsp;AC&nbsp;equal&nbsp;to&nbsp;10&nbsp;+&nbsp;1/2&nbsp;your&nbsp;manifester&nbsp;level&nbsp;and&nbsp;a&nbsp;number&nbsp;of&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;your&nbsp;manifester&nbsp;level.&nbsp;If&nbsp;the&nbsp;twin&nbsp;is&nbsp;reduced&nbsp;to&nbsp;0&nbsp;hit&nbsp;points,&nbsp;it&nbsp;is&nbsp;destroyed,&nbsp;although&nbsp;you&nbsp;can&nbsp;create&nbsp;a&nbsp;new&nbsp;one&nbsp;on&nbsp;your&nbsp;turn&nbsp;as&nbsp;a&nbsp;standard&nbsp;action&nbsp;as&nbsp;long&nbsp;as&nbsp;the&nbsp;duration&nbsp;persists.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;extends&nbsp;to&nbsp;1&nbsp;minute/lvl.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;create&nbsp;another&nbsp;cloned&nbsp;twin.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;twin&nbsp;uses&nbsp;your&nbsp;AC,&nbsp;movement&nbsp;speeds,&nbsp;movement&nbsp;modes&nbsp;and&nbsp;hit&nbsp;points&nbsp;at&nbsp;the&nbsp;time&nbsp;of&nbsp;the&nbsp;split,&nbsp;and&nbsp;retains&nbsp;any&nbsp;spells,&nbsp;powers&nbsp;or&nbsp;effects&nbsp;that&nbsp;were&nbsp;affecting&nbsp;you&nbsp;when&nbsp;you&nbsp;split.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;if&nbsp;you&nbsp;are&nbsp;reduced&nbsp;to&nbsp;0&nbsp;hit&nbsp;points,&nbsp;you&nbsp;can&nbsp;freely&nbsp;shift&nbsp;your&nbsp;consciousness&nbsp;into&nbsp;the&nbsp;twin,&nbsp;while&nbsp;the&nbsp;body&nbsp;you&nbsp;inhabited&nbsp;is&nbsp;destroyed.</li></ol>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: true
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      egoist: 3
+      psion: 4
+      psychic warrior: 3
+      vitalist: 4
+      wilder: 4
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '67'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!4kbzA9KwrVYKQPiv'

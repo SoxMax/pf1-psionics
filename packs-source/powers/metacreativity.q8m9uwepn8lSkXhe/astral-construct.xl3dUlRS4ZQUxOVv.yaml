@@ -1,0 +1,88 @@
+_id: xl3dUlRS4ZQUxOVv
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Astral_Construct
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Astral Construct
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: round
+      duration:
+        dismiss: true
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      target:
+        value: One created astral construct
+  description:
+    value: >-
+      <p>This&nbsp;power&nbsp;creates&nbsp;one&nbsp;1st-level&nbsp;astral&nbsp;construct&nbsp;of&nbsp;solidified&nbsp;ectoplasm&nbsp;that&nbsp;attacks&nbsp;your&nbsp;enemies.&nbsp;It&nbsp;appears&nbsp;where&nbsp;you&nbsp;designate&nbsp;and&nbsp;acts&nbsp;immediately,&nbsp;on&nbsp;your&nbsp;turn.&nbsp;It&nbsp;attacks&nbsp;your&nbsp;opponents&nbsp;to&nbsp;the&nbsp;best&nbsp;of&nbsp;its&nbsp;ability.&nbsp;As&nbsp;a&nbsp;free&nbsp;action,&nbsp;you&nbsp;can&nbsp;mentally&nbsp;direct&nbsp;it&nbsp;not&nbsp;to&nbsp;attack,&nbsp;to&nbsp;attack&nbsp;particular&nbsp;enemies,&nbsp;or&nbsp;to&nbsp;perform&nbsp;other&nbsp;actions.&nbsp;The&nbsp;astral&nbsp;construct&nbsp;acts&nbsp;normally&nbsp;on&nbsp;the&nbsp;last&nbsp;round&nbsp;of&nbsp;the&nbsp;power's&nbsp;duration&nbsp;and&nbsp;dissipates&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;its&nbsp;turn.
+
+      </p>
+
+      <p>Astral&nbsp;constructs&nbsp;are&nbsp;not&nbsp;summoned;&nbsp;they&nbsp;are&nbsp;created&nbsp;on&nbsp;the&nbsp;plane&nbsp;you&nbsp;inhabit&nbsp;(using&nbsp;ectoplasm&nbsp;drawn&nbsp;from&nbsp;the&nbsp;Astral&nbsp;Plane).&nbsp;Thus,&nbsp;they&nbsp;are&nbsp;not&nbsp;subject&nbsp;to&nbsp;effects&nbsp;that&nbsp;hedge&nbsp;out&nbsp;or&nbsp;otherwise&nbsp;affect&nbsp;outsiders;&nbsp;they&nbsp;are&nbsp;constructs,&nbsp;not&nbsp;outsiders.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;level&nbsp;of&nbsp;the&nbsp;astral&nbsp;construct&nbsp;increases&nbsp;by&nbsp;one.
+
+      </p>
+  discipline: metacreativity
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 1
+      shaper: 1
+  level: 1
+  manifestTime:
+    units: round
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '77'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '162'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '28'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  subdiscipline:
+    - creation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!xl3dUlRS4ZQUxOVv'

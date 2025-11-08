@@ -1,0 +1,74 @@
+_id: NFeBUyoCvynxb1v6
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Tactile_Telekinesis
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Tactile Telekinesis
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: spec
+        value: 1 min./level; see text (D)
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+  description:
+    value: >-
+      <p>While&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+8&nbsp;circumstance&nbsp;bonus&nbsp;to&nbsp;your&nbsp;Strength&nbsp;score&nbsp;to&nbsp;determine&nbsp;what&nbsp;your&nbsp;lifting&nbsp;and&nbsp;dragging&nbsp;capacity&nbsp;is&nbsp;or&nbsp;when&nbsp;you&nbsp;are&nbsp;making&nbsp;Strength&nbsp;checks&nbsp;to&nbsp;break&nbsp;objects,&nbsp;and&nbsp;you&nbsp;gain&nbsp;the&nbsp;rock&nbsp;throwing&nbsp;special&nbsp;ability&nbsp;while&nbsp;this&nbsp;is&nbsp;in&nbsp;effect.&nbsp;Additionally,&nbsp;you&nbsp;may&nbsp;add&nbsp;a&nbsp;+2&nbsp;circumstance&nbsp;bonus&nbsp;to&nbsp;your&nbsp;attack&nbsp;and&nbsp;damage&nbsp;rolls.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;spent,&nbsp;the&nbsp;Strength&nbsp;bonus&nbsp;to&nbsp;determine&nbsp;your&nbsp;lifting&nbsp;and&nbsp;dragging&nbsp;capacity&nbsp;increases&nbsp;by&nbsp;an&nbsp;additional&nbsp;+1.&nbsp;For&nbsp;every&nbsp;additional&nbsp;4&nbsp;power&nbsp;points&nbsp;spent,&nbsp;the&nbsp;circumstance&nbsp;bonus&nbsp;to&nbsp;your&nbsp;attack&nbsp;and&nbsp;damage&nbsp;rolls&nbsp;increase&nbsp;by&nbsp;an&nbsp;additional&nbsp;+1.
+
+      </p>
+  discipline: psychokinesis
+  display:
+    auditory: true
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gifted blade: 4
+      psychic warrior: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '13'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Soulknives II'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '81'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!NFeBUyoCvynxb1v6'

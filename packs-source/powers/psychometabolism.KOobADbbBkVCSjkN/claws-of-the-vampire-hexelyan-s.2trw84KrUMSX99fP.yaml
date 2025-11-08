@@ -1,0 +1,84 @@
+_id: 2trw84KrUMSX99fP
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Claws_of_the_Vampire,_Hexelyan's
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Claws of the Vampire, Hexelyan's
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>If&nbsp;you&nbsp;have&nbsp;a&nbsp;claw&nbsp;attack&nbsp;(either&nbsp;from&nbsp;an&nbsp;actual&nbsp;natural&nbsp;weapon&nbsp;or&nbsp;from&nbsp;an&nbsp;effect&nbsp;such&nbsp;as&nbsp;claws&nbsp;of&nbsp;the&nbsp;beast),&nbsp;you&nbsp;can&nbsp;use&nbsp;this&nbsp;power&nbsp;to&nbsp;change&nbsp;the&nbsp;nature&nbsp;of&nbsp;that&nbsp;weapon.&nbsp;When&nbsp;this&nbsp;power&nbsp;is&nbsp;manifested,&nbsp;your&nbsp;claws&nbsp;take&nbsp;on&nbsp;an&nbsp;ominous&nbsp;glimmer.&nbsp;Each&nbsp;time&nbsp;you&nbsp;make&nbsp;a&nbsp;successful&nbsp;claw&nbsp;attack&nbsp;against&nbsp;a&nbsp;living&nbsp;creature&nbsp;of&nbsp;Small&nbsp;or&nbsp;larger&nbsp;size,&nbsp;you&nbsp;are&nbsp;healed&nbsp;of&nbsp;some&nbsp;amount&nbsp;of&nbsp;damage.
+
+      </p>
+
+      <p>You&nbsp;heal&nbsp;a&nbsp;number&nbsp;of&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;half&nbsp;the&nbsp;base&nbsp;damage&nbsp;dealt&nbsp;by&nbsp;your&nbsp;claws&nbsp;of&nbsp;the&nbsp;vampire,&nbsp;rounded&nbsp;down&nbsp;(additional&nbsp;damage&nbsp;dealt&nbsp;because&nbsp;of&nbsp;a&nbsp;high&nbsp;Strength&nbsp;score&nbsp;or&nbsp;other&nbsp;enhancements&nbsp;does&nbsp;not&nbsp;count&nbsp;toward&nbsp;the&nbsp;amount&nbsp;you&nbsp;heal).&nbsp;You&nbsp;heal&nbsp;as&nbsp;many&nbsp;hit&nbsp;points&nbsp;as&nbsp;can&nbsp;be&nbsp;gained&nbsp;while&nbsp;the&nbsp;creature&nbsp;remains&nbsp;at&nbsp;1&nbsp;hit&nbsp;point&nbsp;or&nbsp;higher.&nbsp;Any&nbsp;damage&nbsp;that&nbsp;would&nbsp;reduce&nbsp;the&nbsp;creature&nbsp;to&nbsp;0&nbsp;or&nbsp;fewer&nbsp;hit&nbsp;points&nbsp;does&nbsp;not&nbsp;benefit&nbsp;you.
+
+      </p>
+
+      <p>You&nbsp;do&nbsp;not&nbsp;heal&nbsp;damage&nbsp;if&nbsp;your&nbsp;attack&nbsp;deals&nbsp;nonlethal&nbsp;damage,&nbsp;such&nbsp;as&nbsp;when&nbsp;you&nbsp;attack&nbsp;a&nbsp;creature&nbsp;that&nbsp;has&nbsp;the&nbsp;regeneration&nbsp;ability.&nbsp;Moreover,&nbsp;you&nbsp;gain&nbsp;no&nbsp;healing&nbsp;from&nbsp;attacking&nbsp;any&nbsp;creature&nbsp;that&nbsp;is&nbsp;under&nbsp;the&nbsp;effect&nbsp;of&nbsp;biofeedback.&nbsp;Using&nbsp;fission&nbsp;on&nbsp;yourself&nbsp;and&nbsp;then&nbsp;attacking&nbsp;your&nbsp;duplicate&nbsp;also&nbsp;fails&nbsp;to&nbsp;grant&nbsp;any&nbsp;healing.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psychic warrior: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 85–86
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '172'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '32'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!2trw84KrUMSX99fP'

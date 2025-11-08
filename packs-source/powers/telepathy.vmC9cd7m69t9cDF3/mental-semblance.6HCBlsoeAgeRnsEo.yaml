@@ -1,0 +1,79 @@
+_id: 6HCBlsoeAgeRnsEo
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Mental_Semblance
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Mental Semblance
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: fullRound
+      duration:
+        units: minute
+        value: 10 * @cl
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+  description:
+    value: >-
+      <p>When&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;you&nbsp;are&nbsp;capable&nbsp;of&nbsp;duplicating&nbsp;the&nbsp;psionic&nbsp;pattern&nbsp;of&nbsp;an&nbsp;individual&nbsp;you’ve&nbsp;touched&nbsp;and&nbsp;attempt&nbsp;to&nbsp;duplicate&nbsp;them.&nbsp;This&nbsp;is&nbsp;a&nbsp;mind-affecting&nbsp;ability&nbsp;that&nbsp;causes&nbsp;those&nbsp;who&nbsp;view&nbsp;you&nbsp;to&nbsp;see&nbsp;and&nbsp;hear&nbsp;you&nbsp;as&nbsp;the&nbsp;duplicated&nbsp;individual,&nbsp;granting&nbsp;you&nbsp;a&nbsp;+30&nbsp;competence&nbsp;bonus&nbsp;on&nbsp;Disguise&nbsp;and&nbsp;Bluff&nbsp;checks&nbsp;to&nbsp;appear&nbsp;and&nbsp;act&nbsp;like&nbsp;the&nbsp;duplicated&nbsp;individual.&nbsp;You&nbsp;may&nbsp;duplicate&nbsp;patterns&nbsp;that&nbsp;are&nbsp;similar&nbsp;to&nbsp;your&nbsp;own;&nbsp;creatures&nbsp;duplicated&nbsp;must&nbsp;be&nbsp;of&nbsp;same&nbsp;type&nbsp;and&nbsp;size&nbsp;or&nbsp;within&nbsp;one&nbsp;step&nbsp;smaller&nbsp;or&nbsp;larger,&nbsp;and&nbsp;must&nbsp;have&nbsp;the&nbsp;same&nbsp;configuration&nbsp;of&nbsp;limbs&nbsp;(if&nbsp;you&nbsp;duplicate&nbsp;someone&nbsp;with&nbsp;a&nbsp;missing&nbsp;limb,&nbsp;observers&nbsp;will&nbsp;see&nbsp;that&nbsp;this&nbsp;limb&nbsp;is&nbsp;missing&nbsp;still).&nbsp;This&nbsp;power&nbsp;only&nbsp;affects&nbsp;the&nbsp;senses&nbsp;of&nbsp;sight&nbsp;and&nbsp;sound,&nbsp;you&nbsp;will&nbsp;still&nbsp;smell&nbsp;the&nbsp;same&nbsp;and&nbsp;creatures&nbsp;with&nbsp;scent&nbsp;may&nbsp;pick&nbsp;up&nbsp;the&nbsp;difference.&nbsp;Individuals&nbsp;who&nbsp;perceive&nbsp;falsehood&nbsp;in&nbsp;your&nbsp;disguise&nbsp;and&nbsp;representation&nbsp;of&nbsp;the&nbsp;duplicated&nbsp;victim&nbsp;may&nbsp;attempt&nbsp;a&nbsp;Will&nbsp;save&nbsp;to&nbsp;disbelieve&nbsp;the&nbsp;power&nbsp;and&nbsp;see&nbsp;through&nbsp;it.&nbsp;However,&nbsp;this&nbsp;does&nbsp;not&nbsp;end&nbsp;the&nbsp;power,&nbsp;only&nbsp;allowing&nbsp;the&nbsp;creature&nbsp;making&nbsp;the&nbsp;save&nbsp;to&nbsp;see&nbsp;through&nbsp;it&nbsp;to&nbsp;what&nbsp;you&nbsp;really&nbsp;are.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>If&nbsp;you&nbsp;spend&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;points,&nbsp;the&nbsp;bonus&nbsp;on&nbsp;Bluff&nbsp;and&nbsp;Disguise&nbsp;checks&nbsp;increase&nbsp;by&nbsp;2&nbsp;and&nbsp;the&nbsp;DC&nbsp;to&nbsp;disbelieve&nbsp;the&nbsp;disguise&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: true
+    material: true
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      psion: 2
+      thug: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: fullRound
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '11'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Psychic Warrior'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 77–78
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!6HCBlsoeAgeRnsEo'

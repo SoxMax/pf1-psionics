@@ -1,0 +1,85 @@
+_id: K3GeSamV4tjD1qNI
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Wall_Walker_(power)
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/earth/strike-body-stone-crumble.webp
+name: Wall Walker
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;walk&nbsp;on&nbsp;vertical&nbsp;surfaces&nbsp;or&nbsp;even&nbsp;traverse&nbsp;ceilings&nbsp;(you&nbsp;need&nbsp;not&nbsp;make&nbsp;Climb&nbsp;checks&nbsp;to&nbsp;traverse&nbsp;these&nbsp;surfaces).&nbsp;Because&nbsp;of&nbsp;the&nbsp;need&nbsp;to&nbsp;keep&nbsp;at&nbsp;least&nbsp;one&nbsp;foot&nbsp;in&nbsp;contact&nbsp;with&nbsp;the&nbsp;wall&nbsp;or&nbsp;ceiling&nbsp;at&nbsp;all&nbsp;times,&nbsp;you&nbsp;cannot&nbsp;jump&nbsp;or&nbsp;use&nbsp;the&nbsp;run&nbsp;action,&nbsp;and&nbsp;you&nbsp;can&nbsp;move&nbsp;at&nbsp;only&nbsp;half&nbsp;speed.
+
+      </p>
+
+      <p>You&nbsp;retain&nbsp;your&nbsp;Dexterity&nbsp;bonus&nbsp;to&nbsp;Armor&nbsp;Class,&nbsp;if&nbsp;any,&nbsp;and&nbsp;opponents&nbsp;gain&nbsp;no&nbsp;special&nbsp;bonuses&nbsp;against&nbsp;you.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      gifted blade: 2
+      marksman: 2
+      psychic warrior: 2
+      thug: 2
+      voyager: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '154'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '257'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '60'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!K3GeSamV4tjD1qNI'

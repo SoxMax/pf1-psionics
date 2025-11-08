@@ -1,0 +1,92 @@
+_id: P7udhj8Ey4FyqfZB
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Caustic_Retribution
+folder: KOobADbbBkVCSjkN
+img: icons/magic/unholy/projectile-missile-green.webp
+name: Caustic Retribution
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      damage:
+        parts:
+          - - 3d6
+            - acid
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates (harmless)
+        harmless: true
+        type: will
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>You&nbsp;alter&nbsp;a&nbsp;creature's&nbsp;blood&nbsp;into&nbsp;a&nbsp;caustic&nbsp;fluid&nbsp;and&nbsp;adjust&nbsp;their&nbsp;veins&nbsp;and&nbsp;arteries&nbsp;to&nbsp;accommodate&nbsp;it.&nbsp;The&nbsp;target&nbsp;gains&nbsp;acid&nbsp;resistance&nbsp;10.&nbsp;Additionally,&nbsp;when&nbsp;the&nbsp;target&nbsp;is&nbsp;damaged&nbsp;by&nbsp;a&nbsp;melee&nbsp;attack,&nbsp;its&nbsp;attacker&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Reflex&nbsp;save&nbsp;or&nbsp;take&nbsp;3d6&nbsp;points&nbsp;of&nbsp;acid&nbsp;damage.&nbsp;Attackers&nbsp;using&nbsp;a&nbsp;natural&nbsp;weapon&nbsp;suffer&nbsp;a&nbsp;–4&nbsp;penalty&nbsp;to&nbsp;their&nbsp;save.
+
+      </p>
+
+      <p>Whenever&nbsp;the&nbsp;target&nbsp;takes&nbsp;damage&nbsp;from&nbsp;a&nbsp;bleed&nbsp;effect,&nbsp;creatures&nbsp;adjacent&nbsp;to&nbsp;the&nbsp;target&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Reflex&nbsp;save&nbsp;or&nbsp;suffer&nbsp;3d6&nbsp;points&nbsp;of&nbsp;acid&nbsp;damage.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;the&nbsp;following&nbsp;ways:
+
+      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;its&nbsp;damage&nbsp;increases&nbsp;by&nbsp;one&nbsp;die&nbsp;(d6).</li><li>If&nbsp;you&nbsp;spend&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;creatures&nbsp;damaged&nbsp;by&nbsp;this&nbsp;power&nbsp;who&nbsp;fail&nbsp;their&nbsp;saves&nbsp;are&nbsp;also&nbsp;blinded&nbsp;until&nbsp;the&nbsp;beginning&nbsp;of&nbsp;their&nbsp;next&nbsp;turn.</li></ol>
+  descriptors:
+    - acid
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: true
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 3
+      psion: 3
+      psychic warrior: 3
+      thug: 3
+      vitalist: 3
+      wilder: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '52'
+      publisher: Dreamscarred Press
+      title: Lords of the Night
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '66'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!P7udhj8Ey4FyqfZB'

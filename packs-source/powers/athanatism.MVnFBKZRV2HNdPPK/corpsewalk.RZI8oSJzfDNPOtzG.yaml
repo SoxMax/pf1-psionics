@@ -1,0 +1,93 @@
+_id: RZI8oSJzfDNPOtzG
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Corpsewalk
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Corpsewalk
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One mindless undead
+  description:
+    value: >-
+      <p>The&nbsp;lurching&nbsp;and&nbsp;uncoordinated&nbsp;movements&nbsp;of&nbsp;a&nbsp;nearby&nbsp;monster&nbsp;suddenly&nbsp;take&nbsp;a&nbsp;controlled&nbsp;and&nbsp;purposeful&nbsp;smoothness.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;<em>corpsewalk</em>,&nbsp;you&nbsp;temporarily&nbsp;gain&nbsp;the&nbsp;ability&nbsp;to&nbsp;inhabit&nbsp;the&nbsp;body&nbsp;of&nbsp;a&nbsp;mindless&nbsp;undead&nbsp;creature&nbsp;such&nbsp;as&nbsp;a&nbsp;skeleton&nbsp;or&nbsp;zombie.&nbsp;Your&nbsp;body&nbsp;becomes&nbsp;limp&nbsp;and&nbsp;unresponsive&nbsp;while&nbsp;your&nbsp;consciousness&nbsp;is&nbsp;riding&nbsp;in&nbsp;its&nbsp;temporary&nbsp;host.&nbsp;You&nbsp;remain&nbsp;aware&nbsp;of&nbsp;events&nbsp;around&nbsp;your&nbsp;body&nbsp;and&nbsp;you&nbsp;may&nbsp;return&nbsp;to&nbsp;it&nbsp;by&nbsp;dismissing&nbsp;<em>corpsewalk&nbsp;</em>(a&nbsp;standard&nbsp;action).
+
+      </p>
+
+      <p>While&nbsp;you&nbsp;inhabit&nbsp;an&nbsp;undead&nbsp;husk,&nbsp;it&nbsp;is&nbsp;unable&nbsp;to&nbsp;act&nbsp;in&nbsp;any&nbsp;way.&nbsp;You&nbsp;control&nbsp;its&nbsp;body&nbsp;and&nbsp;may&nbsp;use&nbsp;it&nbsp;as&nbsp;you&nbsp;wish,&nbsp;making&nbsp;slam&nbsp;attacks,&nbsp;moving,&nbsp;or&nbsp;using&nbsp;whatever&nbsp;equipment&nbsp;you&nbsp;can&nbsp;place&nbsp;its&nbsp;hands&nbsp;upon.
+
+      </p>
+
+      <p>You&nbsp;gain&nbsp;whatever&nbsp;senses&nbsp;your&nbsp;undead&nbsp;host&nbsp;possesses&nbsp;and&nbsp;the&nbsp;body&nbsp;retains&nbsp;any&nbsp;defensive&nbsp;or&nbsp;passive&nbsp;abilities&nbsp;(such&nbsp;as&nbsp;Damage&nbsp;Reduction)&nbsp;it&nbsp;has&nbsp;which&nbsp;do&nbsp;not&nbsp;require&nbsp;activation.&nbsp;Otherwise,&nbsp;you&nbsp;do&nbsp;not&nbsp;gain&nbsp;control&nbsp;of&nbsp;any&nbsp;supernatural,&nbsp;or&nbsp;psi-like&nbsp;abilities&nbsp;the&nbsp;creature&nbsp;has,&nbsp;nor&nbsp;do&nbsp;you&nbsp;gain&nbsp;access&nbsp;to&nbsp;any&nbsp;feats&nbsp;it&nbsp;possesses.&nbsp;You&nbsp;are&nbsp;able&nbsp;to&nbsp;use&nbsp;feats&nbsp;and&nbsp;skills&nbsp;you&nbsp;know&nbsp;as&nbsp;long&nbsp;as&nbsp;they&nbsp;are&nbsp;appropriate&nbsp;to&nbsp;the&nbsp;body&nbsp;you&nbsp;are&nbsp;occupying.
+
+      </p>
+
+      <p>You&nbsp;may&nbsp;make&nbsp;Disguise&nbsp;or&nbsp;Bluff&nbsp;checks&nbsp;to&nbsp;attempt&nbsp;to&nbsp;disguise&nbsp;yourself&nbsp;but&nbsp;a&nbsp;mindless&nbsp;undead&nbsp;typically&nbsp;moves&nbsp;with&nbsp;a&nbsp;gait&nbsp;that&nbsp;is&nbsp;distinctive&nbsp;and&nbsp;unnatural,&nbsp;meaning&nbsp;you&nbsp;are&nbsp;likely&nbsp;to&nbsp;be&nbsp;spotted&nbsp;as&nbsp;unusual&nbsp;while&nbsp;in&nbsp;motion.
+
+      </p>
+
+      <p>If&nbsp;your&nbsp;undead&nbsp;host&nbsp;body&nbsp;is&nbsp;destroyed&nbsp;while&nbsp;you&nbsp;occupy&nbsp;it,&nbsp;<em>corpsewalk&nbsp;</em>immediately&nbsp;ends.&nbsp;During&nbsp;this&nbsp;power,&nbsp;you&nbsp;are&nbsp;merely&nbsp;linking&nbsp;to&nbsp;the&nbsp;undead&nbsp;body&nbsp;and&nbsp;your&nbsp;soul&nbsp;remains&nbsp;within&nbsp;your&nbsp;own,&nbsp;so&nbsp;if&nbsp;your&nbsp;host&nbsp;body&nbsp;is&nbsp;within&nbsp;a&nbsp;negative&nbsp;energy&nbsp;effect&nbsp;such&nbsp;as&nbsp;channel&nbsp;negative&nbsp;energy,&nbsp;the&nbsp;body&nbsp;heals&nbsp;and&nbsp;you&nbsp;suffer&nbsp;no&nbsp;ill&nbsp;effect.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>For&nbsp;every&nbsp;additional&nbsp;two&nbsp;power&nbsp;points&nbsp;you&nbsp;spend&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;you&nbsp;gain&nbsp;the&nbsp;ability&nbsp;to&nbsp;manifest&nbsp;one&nbsp;psionic&nbsp;power&nbsp;while&nbsp;you&nbsp;are&nbsp;controlling&nbsp;the&nbsp;undead&nbsp;body&nbsp;and&nbsp;the&nbsp;DC&nbsp;for&nbsp;this&nbsp;power&nbsp;increases&nbsp;by&nbsp;one.
+
+      </p>
+  discipline: athanatism
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      conduit: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '8'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '68'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!RZI8oSJzfDNPOtzG'

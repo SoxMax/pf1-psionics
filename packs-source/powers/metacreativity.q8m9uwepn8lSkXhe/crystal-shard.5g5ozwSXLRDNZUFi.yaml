@@ -1,0 +1,83 @@
+_id: 5g5ozwSXLRDNZUFi
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Crystal_Shard
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Crystal Shard
+system:
+  actions:
+    - actionType: rsak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      target:
+        value: Ray
+  description:
+    value: >-
+      <p>Upon&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;you&nbsp;propel&nbsp;a&nbsp;razor-sharp&nbsp;crystal&nbsp;shard&nbsp;at&nbsp;your&nbsp;target.&nbsp;You&nbsp;must&nbsp;succeed&nbsp;on&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;with&nbsp;the&nbsp;ray&nbsp;to&nbsp;deal&nbsp;damage&nbsp;to&nbsp;a&nbsp;target.&nbsp;The&nbsp;ray&nbsp;deals&nbsp;1d6&nbsp;points&nbsp;of&nbsp;piercing&nbsp;damage.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;damage&nbsp;increases&nbsp;by&nbsp;1d6&nbsp;points.</li><li>If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;the&nbsp;cost&nbsp;of&nbsp;the&nbsp;power&nbsp;is&nbsp;reduced&nbsp;by&nbsp;1&nbsp;(to&nbsp;a&nbsp;minimum&nbsp;of&nbsp;0),&nbsp;but&nbsp;the&nbsp;damage&nbsp;is&nbsp;reduced&nbsp;to&nbsp;1d3&nbsp;points&nbsp;of&nbsp;piercing&nbsp;damage&nbsp;and&nbsp;cannot&nbsp;be&nbsp;further&nbsp;augmented.</li></ol>
+  discipline: metacreativity
+  display:
+    auditory: true
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 1
+      psion: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '92'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '179'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '35'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  subdiscipline:
+    - creation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!5g5ozwSXLRDNZUFi'

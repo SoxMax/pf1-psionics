@@ -1,0 +1,89 @@
+_id: l2FdlmUV5RbZM64L
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Know_Direction_and_Location
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Know Direction and Location
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;generally&nbsp;know&nbsp;where&nbsp;you&nbsp;are.&nbsp;This&nbsp;power&nbsp;is&nbsp;useful&nbsp;to&nbsp;characters&nbsp;that&nbsp;end&nbsp;up&nbsp;at&nbsp;unfamiliar&nbsp;destinations&nbsp;after&nbsp;teleporting,&nbsp;using&nbsp;a&nbsp;gate,&nbsp;or&nbsp;traveling&nbsp;to&nbsp;or&nbsp;from&nbsp;other&nbsp;planes&nbsp;of&nbsp;existence.&nbsp;The&nbsp;power&nbsp;reveals&nbsp;general&nbsp;information&nbsp;about&nbsp;your&nbsp;location&nbsp;as&nbsp;a&nbsp;feeling&nbsp;or&nbsp;presentiment.&nbsp;The&nbsp;information&nbsp;is&nbsp;usually&nbsp;no&nbsp;more&nbsp;detailed&nbsp;than&nbsp;a&nbsp;summary&nbsp;that&nbsp;locates&nbsp;you&nbsp;according&nbsp;to&nbsp;a&nbsp;prominent&nbsp;local&nbsp;or&nbsp;regional&nbsp;site.&nbsp;Using&nbsp;this&nbsp;power&nbsp;also&nbsp;tells&nbsp;you&nbsp;what&nbsp;direction&nbsp;you&nbsp;are&nbsp;facing.
+
+      </p>
+
+      <p>Using&nbsp;this&nbsp;power&nbsp;prior&nbsp;to&nbsp;making&nbsp;a&nbsp;Knowledge&nbsp;(planes)&nbsp;check&nbsp;with&nbsp;astral&nbsp;caravan&nbsp;grants&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;the&nbsp;check.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;the&nbsp;cost&nbsp;of&nbsp;the&nbsp;power&nbsp;is&nbsp;reduced&nbsp;by&nbsp;1&nbsp;(to&nbsp;a&nbsp;minimum&nbsp;of&nbsp;0).
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 1
+      psion: 1
+      sighted seeker: 2
+      tactician: 1
+      thug: 1
+      voyager: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '120'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 214–215
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '45'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!l2FdlmUV5RbZM64L'

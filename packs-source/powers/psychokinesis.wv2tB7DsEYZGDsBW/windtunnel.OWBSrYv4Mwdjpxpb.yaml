@@ -1,0 +1,74 @@
+_id: OWBSrYv4Mwdjpxpb
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Windtunnel
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Windtunnel
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: A short tunnel of fast-moving air that you can point.
+  description:
+    value: >-
+      <p>The&nbsp;air&nbsp;before&nbsp;you&nbsp;swirls&nbsp;into&nbsp;a&nbsp;roiling&nbsp;tornado.&nbsp;This&nbsp;power&nbsp;provides&nbsp;you&nbsp;a&nbsp;tunnel&nbsp;through&nbsp;which&nbsp;you&nbsp;can&nbsp;fire&nbsp;ranged&nbsp;attacks&nbsp;that&nbsp;use&nbsp;ammunition.&nbsp;The&nbsp;tunnel&nbsp;causes&nbsp;your&nbsp;shots&nbsp;to&nbsp;accelerate,&nbsp;which&nbsp;increases&nbsp;their&nbsp;range&nbsp;increments&nbsp;by&nbsp;10&nbsp;ft.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>For&nbsp;every&nbsp;additional&nbsp;two&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;range&nbsp;increments&nbsp;of&nbsp;your&nbsp;shots&nbsp;is&nbsp;extended&nbsp;an&nbsp;additional&nbsp;10&nbsp;ft.
+
+      </p>
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      marksman: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 18–19
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '85'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!OWBSrYv4Mwdjpxpb'

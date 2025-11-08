@@ -1,0 +1,76 @@
+_id: WyHD88feC8rBNzry
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/True_Creation
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: True Creation
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      save:
+        description: None
+  description:
+    value: >-
+      <p>As&nbsp;<em><a&nbsp;href="/wiki/Ectoplasmic_Creation,_Major"&nbsp;title="Ectoplasmic&nbsp;Creation,&nbsp;Major">ectoplasmic&nbsp;creation,&nbsp;major</a></em>,&nbsp;except&nbsp;items&nbsp;created&nbsp;are&nbsp;enduring&nbsp;and&nbsp;cannot&nbsp;be&nbsp;negated&nbsp;by&nbsp;dispelling&nbsp;magic&nbsp;or&nbsp;negating&nbsp;powers.&nbsp;For&nbsp;all&nbsp;intents&nbsp;and&nbsp;purposes,&nbsp;these&nbsp;items&nbsp;are&nbsp;completely&nbsp;real.
+
+      </p>
+
+      <p>You&nbsp;suffer&nbsp;one&nbsp;point&nbsp;of&nbsp;ability&nbsp;burn&nbsp;to&nbsp;your&nbsp;key&nbsp;ability&nbsp;score&nbsp;per&nbsp;5,000&nbsp;gp&nbsp;value&nbsp;of&nbsp;the&nbsp;item&nbsp;created.&nbsp;You&nbsp;suffer&nbsp;no&nbsp;ability&nbsp;burn&nbsp;if&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;item&nbsp;created&nbsp;is&nbsp;under&nbsp;50&nbsp;gp.
+
+      </p>
+  discipline: metacreativity
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      shaper: 9
+  level: 9
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '152'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '254'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '58'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  subdiscipline:
+    - creation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!WyHD88feC8rBNzry'

@@ -1,0 +1,82 @@
+_id: LcdeH0i8b8Ed6ceb
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Pinning_Shot
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Pinning Shot
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>Your&nbsp;arrows&nbsp;glisten&nbsp;with&nbsp;a&nbsp;thin&nbsp;layer&nbsp;of&nbsp;what&nbsp;appears&nbsp;to&nbsp;be&nbsp;an&nbsp;exotic&nbsp;psionic&nbsp;adhesive.&nbsp;While&nbsp;you&nbsp;have&nbsp;this&nbsp;power&nbsp;manifested,&nbsp;you&nbsp;fire&nbsp;shots&nbsp;that&nbsp;can&nbsp;bind&nbsp;targets&nbsp;in&nbsp;a&nbsp;number&nbsp;of&nbsp;ways.&nbsp;You&nbsp;can&nbsp;use&nbsp;this&nbsp;to&nbsp;make&nbsp;it&nbsp;difficult&nbsp;to&nbsp;open&nbsp;a&nbsp;door&nbsp;or&nbsp;similar&nbsp;portal,&nbsp;or&nbsp;to&nbsp;make&nbsp;it&nbsp;difficult&nbsp;for&nbsp;a&nbsp;creature&nbsp;to&nbsp;move.
+
+      </p>
+
+      <p><em>Creature:&nbsp;</em>To&nbsp;use&nbsp;this&nbsp;binding&nbsp;method,&nbsp;you&nbsp;must&nbsp;first&nbsp;successfully&nbsp;make&nbsp;a&nbsp;shot&nbsp;with&nbsp;a&nbsp;ranged&nbsp;weapon&nbsp;against&nbsp;your&nbsp;target.&nbsp;If&nbsp;you&nbsp;hit,&nbsp;instead&nbsp;of&nbsp;dealing&nbsp;damage&nbsp;as&nbsp;normal,&nbsp;you&nbsp;may&nbsp;choose&nbsp;to&nbsp;pin&nbsp;them&nbsp;to&nbsp;an&nbsp;adjacent&nbsp;object,&nbsp;including&nbsp;the&nbsp;floor.&nbsp;If&nbsp;there&nbsp;is&nbsp;no&nbsp;suitable&nbsp;adjacent&nbsp;object&nbsp;(such&nbsp;as&nbsp;in&nbsp;the&nbsp;case&nbsp;of&nbsp;a&nbsp;flying&nbsp;creature),&nbsp;this&nbsp;method&nbsp;has&nbsp;no&nbsp;effect.&nbsp;A&nbsp;target&nbsp;pinned&nbsp;to&nbsp;a&nbsp;solid&nbsp;object&nbsp;is&nbsp;unable&nbsp;to&nbsp;move&nbsp;from&nbsp;their&nbsp;location&nbsp;without&nbsp;succeeding&nbsp;at&nbsp;a&nbsp;Strength&nbsp;check&nbsp;with&nbsp;a&nbsp;DC&nbsp;equal&nbsp;to&nbsp;13&nbsp;+&nbsp;your&nbsp;key&nbsp;ability&nbsp;modifier.
+
+      </p>
+
+      <p><em>Door:&nbsp;</em>To&nbsp;use&nbsp;this&nbsp;binding&nbsp;method,&nbsp;you&nbsp;must&nbsp;first&nbsp;successfully&nbsp;make&nbsp;a&nbsp;shot&nbsp;with&nbsp;a&nbsp;ranged&nbsp;weapon&nbsp;against&nbsp;your&nbsp;target.&nbsp;A&nbsp;door,&nbsp;chest,&nbsp;or&nbsp;similar&nbsp;items&nbsp;typically&nbsp;have&nbsp;AC&nbsp;10.&nbsp;If&nbsp;you&nbsp;hit,&nbsp;your&nbsp;projectile&nbsp;binds&nbsp;the&nbsp;portal&nbsp;shut,&nbsp;rendering&nbsp;it&nbsp;difficult&nbsp;to&nbsp;open.&nbsp;Opening&nbsp;such&nbsp;a&nbsp;bound&nbsp;item&nbsp;requires&nbsp;a&nbsp;Strength&nbsp;check&nbsp;with&nbsp;a&nbsp;DC&nbsp;equal&nbsp;to&nbsp;13&nbsp;+&nbsp;your&nbsp;key&nbsp;ability&nbsp;modifier.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>For&nbsp;every&nbsp;additional&nbsp;two&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power’s&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      marksman: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 13–14
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '79'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!LcdeH0i8b8Ed6ceb'

@@ -1,0 +1,80 @@
+_id: vIpKxjbbnmKvXkrj
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Captivity_Bond
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Captivity Bond
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: One round/level
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude negates
+        type: fort
+      target:
+        value: One living creature
+  description:
+    value: >-
+      <p>A&nbsp;thin&nbsp;film&nbsp;of&nbsp;colored&nbsp;oily&nbsp;liquid&nbsp;engulfs&nbsp;your&nbsp;target&nbsp;then&nbsp;appears&nbsp;to&nbsp;be&nbsp;absorbed&nbsp;into&nbsp;their&nbsp;skin,&nbsp;leaving&nbsp;them&nbsp;tinted&nbsp;to&nbsp;match.&nbsp;For&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power,&nbsp;the&nbsp;altered&nbsp;creature&nbsp;can&nbsp;take&nbsp;only&nbsp;nonlethal&nbsp;damage&nbsp;from&nbsp;any&nbsp;source.&nbsp;If&nbsp;they&nbsp;are&nbsp;suffering&nbsp;from&nbsp;ongoing&nbsp;bleed&nbsp;damage,&nbsp;they&nbsp;will&nbsp;bleed&nbsp;nonlethally.&nbsp;This&nbsp;power&nbsp;only&nbsp;applies&nbsp;to&nbsp;effects&nbsp;that&nbsp;deal&nbsp;hit&nbsp;point&nbsp;damage,&nbsp;and&nbsp;it&nbsp;can&nbsp;only&nbsp;be&nbsp;manifested&nbsp;upon&nbsp;creatures&nbsp;that&nbsp;are&nbsp;not&nbsp;immune&nbsp;to&nbsp;nonlethal&nbsp;damage.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      dread: 2
+      highlord: 3
+      marksman: 2
+      psion: 3
+      tactician: 3
+      thug: 2
+      vitalist: 3
+      wilder: 3
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 7–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '66'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!vIpKxjbbnmKvXkrj'

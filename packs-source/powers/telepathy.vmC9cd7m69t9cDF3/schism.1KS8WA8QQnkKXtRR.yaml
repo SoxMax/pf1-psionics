@@ -1,0 +1,100 @@
+_id: 1KS8WA8QQnkKXtRR
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Schism
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Schism
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>Your&nbsp;mind&nbsp;splits&nbsp;into&nbsp;two&nbsp;independent&nbsp;parts.&nbsp;Each&nbsp;part&nbsp;functions&nbsp;in&nbsp;complete&nbsp;autonomy,&nbsp;like&nbsp;two&nbsp;characters&nbsp;in&nbsp;one&nbsp;body.&nbsp;Your&nbsp;new&nbsp;"second&nbsp;mind"&nbsp;does&nbsp;not&nbsp;control&nbsp;your&nbsp;body&nbsp;physically&nbsp;but&nbsp;is&nbsp;free&nbsp;to&nbsp;take&nbsp;one&nbsp;standard&nbsp;action&nbsp;in&nbsp;each&nbsp;round&nbsp;if&nbsp;the&nbsp;action&nbsp;is&nbsp;purely&nbsp;mental&nbsp;(such&nbsp;as&nbsp;manifesting&nbsp;a&nbsp;power)&nbsp;in&nbsp;the&nbsp;same&nbsp;round&nbsp;you&nbsp;take&nbsp;your&nbsp;normal&nbsp;actions.
+
+      </p>
+
+      <p>Your&nbsp;second&nbsp;mind&nbsp;can&nbsp;manifest&nbsp;powers&nbsp;using&nbsp;your&nbsp;power&nbsp;point&nbsp;reserve,&nbsp;but&nbsp;only&nbsp;as&nbsp;if&nbsp;your&nbsp;manifester&nbsp;level&nbsp;were&nbsp;six&nbsp;lower&nbsp;than&nbsp;it&nbsp;is.&nbsp;Your&nbsp;second&nbsp;mind&nbsp;doesn't&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;when&nbsp;manifesting&nbsp;a&nbsp;power,&nbsp;because&nbsp;doing&nbsp;so&nbsp;doesn't&nbsp;distract&nbsp;your&nbsp;primary&nbsp;mind.
+
+      </p>
+
+      <p>Having&nbsp;a&nbsp;second&nbsp;mind&nbsp;is&nbsp;strenuous&nbsp;on&nbsp;your&nbsp;psyche,&nbsp;and&nbsp;your&nbsp;primary&nbsp;mind&nbsp;suffers&nbsp;a&nbsp;-2&nbsp;manifester&nbsp;level&nbsp;penalty&nbsp;in&nbsp;any&nbsp;round&nbsp;in&nbsp;which&nbsp;the&nbsp;secondary&nbsp;mind&nbsp;has&nbsp;used&nbsp;its&nbsp;action.&nbsp;If&nbsp;your&nbsp;secondary&nbsp;mind&nbsp;does&nbsp;not&nbsp;do&nbsp;anything&nbsp;in&nbsp;a&nbsp;round,&nbsp;your&nbsp;primary&nbsp;mind&nbsp;does&nbsp;not&nbsp;suffer&nbsp;this&nbsp;penalty.&nbsp;Your&nbsp;second&nbsp;mind&nbsp;takes&nbsp;its&nbsp;first&nbsp;action&nbsp;on&nbsp;your&nbsp;turn&nbsp;in&nbsp;the&nbsp;round&nbsp;after&nbsp;schism&nbsp;is&nbsp;manifested.
+
+      </p>
+
+      <p>Both&nbsp;your&nbsp;minds&nbsp;communicate&nbsp;with&nbsp;each&nbsp;other&nbsp;telepathically.&nbsp;If&nbsp;you&nbsp;are&nbsp;subject&nbsp;to&nbsp;a&nbsp;compulsion&nbsp;or&nbsp;charm&nbsp;effect&nbsp;while&nbsp;you&nbsp;are&nbsp;of&nbsp;two&nbsp;minds,&nbsp;make&nbsp;a&nbsp;second&nbsp;saving&nbsp;throw&nbsp;if&nbsp;you&nbsp;fail&nbsp;the&nbsp;first.&nbsp;If&nbsp;you&nbsp;fail&nbsp;both,&nbsp;then&nbsp;the&nbsp;schism&nbsp;ends&nbsp;and&nbsp;you&nbsp;are&nbsp;affected&nbsp;normally&nbsp;by&nbsp;the&nbsp;power.&nbsp;If&nbsp;you&nbsp;fail&nbsp;just&nbsp;one,&nbsp;the&nbsp;schism&nbsp;ends&nbsp;immediately,&nbsp;but&nbsp;you&nbsp;are&nbsp;not&nbsp;subject&nbsp;to&nbsp;the&nbsp;compulsion&nbsp;or&nbsp;charm.
+
+      </p>
+
+      <p>Your&nbsp;second&nbsp;mind&nbsp;does&nbsp;not&nbsp;gain&nbsp;any&nbsp;advantages&nbsp;if&nbsp;you&nbsp;are&nbsp;subject&nbsp;to&nbsp;a&nbsp;haste&nbsp;effect,&nbsp;although&nbsp;you&nbsp;gain&nbsp;the&nbsp;overall&nbsp;standard&nbsp;benefits.
+
+      </p>
+
+      <p>Your&nbsp;second&nbsp;mind&nbsp;cannot&nbsp;access&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;and&nbsp;does&nbsp;not&nbsp;benefit&nbsp;if&nbsp;you&nbsp;are&nbsp;maintaining&nbsp;psionic&nbsp;focus.&nbsp;Your&nbsp;second&nbsp;mind&nbsp;may&nbsp;gain&nbsp;psionic&nbsp;focus&nbsp;if&nbsp;you&nbsp;have&nbsp;the&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Psionic%20Meditation">Psionic&nbsp;Meditation</a>&nbsp;feat.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 5
+      telepath: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '143'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 241–242
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '55'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!1KS8WA8QQnkKXtRR'

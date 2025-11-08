@@ -1,0 +1,111 @@
+_id: m2VbU4MXyAYr2pvV
+_key: '!items!m2VbU4MXyAYr2pvV'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/items/inventory/brain-purple.png
+name: Marksman
+system:
+  armorProf:
+    - lgt
+  bab: low
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: true
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    summary: ''
+    value: '</p><p>Masters of ranged weapons, marksmen are the elite wielders of any weapon that can be shot, fired, or thrown. Unlike rangers, who are more focused on tracking down their chosen enemies, marksmen focus their attention on harnessing their ranged combat abilities, learning to use their weapon in ways others could only dream of. Their psionic ability improves their attacks and augments their otherwise limited defensive abilities. </p><p><b>Role:</b> As light armor wielders, marksmen are not intended to be front-line combatants. They excel when they have a safe distance from which to unleash their deadly attacks. </p><p><b>Alignment:</b> Any </p><p><b>Hit Die:</b> d10 </p><p><b>Starting Wealth:</b> 5d6 x 10 (175 gp.) In addition, each character begins play with an outfit worth 10 gp or less. </p><p><b>Starting Age:</b> Moderate (as fighter) </p><p><b>Class Skills: </b>The Marksman''s class skills (and the key ability for each skill) are Acrobatics (Dex), Autohypnosis (Wis), Climb (Str), Craft (Int), Escape Artist (Dex), Intimidate (Cha), Knowledge (psionics) (Int), Perception (Wis), Perform (Cha), Profession (Wis), Sense Motive (Wis), Stealth (Dex), Survival (Wis), and Use Magic Device (Cha) </p><p><b>Skill Ranks Per Level:</b> 4 + Int modifier </p>'
+  hd: 6
+  hp: 6
+  level: 1
+  links:
+    classAssociations:
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.eOyOSwYakG0a62Yy
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.MEGoO6UI4keqMKaU
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.4YCwgSi0qYS6YwMS
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.OAskiuEGcKwsQeck
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.GIOyGEwQuaAQqGwu
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.acg84A2as0MQYSMi
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.u6icS4UmgQa62s8k
+      - level: 4
+        uuid: Compendium.pf1-psionics.class-abilities.Item.wAYmKmegsmCM6ykM
+      - level: 4
+        uuid: Compendium.pf1-psionics.class-abilities.Item.kMi0EQEWAcKOiuoA
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.W8MWAsE8IuACeIw8
+      - level: 7
+        uuid: Compendium.pf1-psionics.class-abilities.Item.mYuugQMa84GoAEW2
+      - level: 13
+        uuid: Compendium.pf1-psionics.class-abilities.Item.yWw82G20kEeOsmE4
+      - level: 19
+        uuid: Compendium.pf1-psionics.class-abilities.Item.6oO6aSMC0i4Iqkcy
+  manifesting:
+    ability: wis
+    cantrips: true
+    progression: high
+  savingThrows:
+    fort:
+      value: low
+    ref:
+      value: high
+    will:
+      value: high
+  skillsPerLevel: 2
+  sources:
+    - date: '2012-07-23'
+      pages: 47–50
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 44–46
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: base
+  tag: marksman
+  wealth: 5d6 * 10
+  weaponProf:
+    - simple
+type: class

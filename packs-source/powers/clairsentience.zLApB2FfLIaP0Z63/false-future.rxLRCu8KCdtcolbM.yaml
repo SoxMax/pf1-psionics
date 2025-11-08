@@ -1,0 +1,96 @@
+_id: rxLRCu8KCdtcolbM
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/False_Future
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: False Future
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>You&nbsp;show&nbsp;the&nbsp;targeted&nbsp;creature&nbsp;a&nbsp;vision&nbsp;of&nbsp;the&nbsp;future&nbsp;that&nbsp;is&nbsp;slightly&nbsp;incorrect.&nbsp;At&nbsp;any&nbsp;point&nbsp;in&nbsp;the&nbsp;target's&nbsp;turn,&nbsp;you&nbsp;can&nbsp;reposition&nbsp;them&nbsp;5&nbsp;ft.&nbsp;to&nbsp;reflect&nbsp;their&nbsp;reaction&nbsp;to&nbsp;the&nbsp;false&nbsp;insight.&nbsp;The&nbsp;target&nbsp;may&nbsp;react&nbsp;after&nbsp;the&nbsp;reposition&nbsp;has&nbsp;occurred.&nbsp;This&nbsp;might&nbsp;make&nbsp;an&nbsp;action&nbsp;the&nbsp;creature&nbsp;was&nbsp;about&nbsp;to&nbsp;take&nbsp;invalid,&nbsp;such&nbsp;as&nbsp;repositioning&nbsp;them&nbsp;when&nbsp;they&nbsp;are&nbsp;about&nbsp;to&nbsp;make&nbsp;an&nbsp;attack,&nbsp;in&nbsp;which&nbsp;case&nbsp;the&nbsp;action&nbsp;is&nbsp;wasted.
+
+      </p>
+
+      <p>You&nbsp;cannot&nbsp;reposition&nbsp;the&nbsp;creature&nbsp;into&nbsp;a&nbsp;square&nbsp;which&nbsp;they&nbsp;could&nbsp;not&nbsp;occupy&nbsp;or&nbsp;where&nbsp;there&nbsp;is&nbsp;no&nbsp;ground&nbsp;(such&nbsp;as&nbsp;over&nbsp;a&nbsp;cliff,&nbsp;into&nbsp;a&nbsp;river,&nbsp;or&nbsp;a&nbsp;flow&nbsp;of&nbsp;lava).&nbsp;Repositions&nbsp;using&nbsp;this&nbsp;power&nbsp;do&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;spent,&nbsp;this&nbsp;power&nbsp;lasts&nbsp;an&nbsp;additional&nbsp;round&nbsp;and&nbsp;the&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.&nbsp;The&nbsp;target&nbsp;gets&nbsp;a&nbsp;save&nbsp;on&nbsp;every&nbsp;round&nbsp;this&nbsp;effect&nbsp;is&nbsp;used&nbsp;upon&nbsp;them&nbsp;at&nbsp;the&nbsp;same&nbsp;save&nbsp;DC.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: true
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 2
+      seer: 2
+      sighted seeker: 4
+      tactician: 2
+      voyager: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '18'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Pawns and Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '162'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '202'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '42'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!rxLRCu8KCdtcolbM'

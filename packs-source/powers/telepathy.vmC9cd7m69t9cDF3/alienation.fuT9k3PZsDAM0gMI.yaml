@@ -1,0 +1,95 @@
+_id: fuT9k3PZsDAM0gMI
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Alienation
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Alienation
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: 1 living creature
+  description:
+    value: >-
+      <p>You&nbsp;close&nbsp;off&nbsp;the&nbsp;centers&nbsp;of&nbsp;the&nbsp;subject's&nbsp;mind&nbsp;that&nbsp;deal&nbsp;with&nbsp;communication&nbsp;and&nbsp;social&nbsp;interaction.&nbsp;The&nbsp;subject&nbsp;effectively&nbsp;loses&nbsp;knowledge&nbsp;of&nbsp;all&nbsp;languages&nbsp;(including&nbsp;telepathic&nbsp;and&nbsp;body&nbsp;language)&nbsp;and&nbsp;is&nbsp;treated&nbsp;as&nbsp;illiterate&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;power.&nbsp;He&nbsp;may&nbsp;still&nbsp;"speak"&nbsp;and&nbsp;provide&nbsp;verbal&nbsp;components,&nbsp;and&nbsp;to&nbsp;him&nbsp;they&nbsp;sound&nbsp;completely&nbsp;normal,&nbsp;but&nbsp;to&nbsp;anyone&nbsp;else&nbsp;they&nbsp;appear&nbsp;as&nbsp;complete&nbsp;gibberish.
+
+      </p>
+
+      <p>The&nbsp;subject&nbsp;is&nbsp;unable&nbsp;to&nbsp;understand&nbsp;anyone&nbsp;else&nbsp;on&nbsp;any&nbsp;level&nbsp;and&nbsp;is&nbsp;unable&nbsp;to&nbsp;determine&nbsp;friend&nbsp;from&nbsp;foe.&nbsp;This&nbsp;prevents&nbsp;things&nbsp;such&nbsp;as&nbsp;Sense&nbsp;Motive,&nbsp;the&nbsp;Aid&nbsp;Another&nbsp;action&nbsp;(or&nbsp;benefits&nbsp;from&nbsp;another's&nbsp;Aid&nbsp;Another),&nbsp;any&nbsp;skill&nbsp;check&nbsp;involving&nbsp;communication&nbsp;(including&nbsp;Linguistics),&nbsp;using&nbsp;teamwork&nbsp;feats,&nbsp;knowing&nbsp;if&nbsp;a&nbsp;magical&nbsp;effect&nbsp;used&nbsp;on&nbsp;him&nbsp;is&nbsp;harmless&nbsp;or&nbsp;not&nbsp;until&nbsp;it&nbsp;hits&nbsp;him&nbsp;(thus,&nbsp;he&nbsp;attempts&nbsp;a&nbsp;save&nbsp;against&nbsp;all&nbsp;effects&nbsp;he&nbsp;could)&nbsp;unless&nbsp;he&nbsp;makes&nbsp;a&nbsp;successful&nbsp;Spellcraft&nbsp;check&nbsp;to&nbsp;identify&nbsp;the&nbsp;effect,&nbsp;gaining&nbsp;the&nbsp;benefits&nbsp;from&nbsp;abilities&nbsp;such&nbsp;as&nbsp;bardic&nbsp;performance,&nbsp;or&nbsp;using&nbsp;any&nbsp;Charisma-based&nbsp;skill&nbsp;check&nbsp;(except&nbsp;Use&nbsp;Magic&nbsp;Device).&nbsp;The&nbsp;target&nbsp;no&nbsp;longer&nbsp;counts&nbsp;as&nbsp;an&nbsp;ally&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of&nbsp;determining&nbsp;flanking&nbsp;and&nbsp;all&nbsp;creatures&nbsp;who&nbsp;threaten&nbsp;the&nbsp;subject&nbsp;are&nbsp;considered&nbsp;allies&nbsp;for&nbsp;their&nbsp;own&nbsp;flanking&nbsp;purposes.&nbsp;In&nbsp;addition,&nbsp;the&nbsp;subject&nbsp;cannot&nbsp;make&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;while&nbsp;under&nbsp;this&nbsp;effect.
+
+      </p>
+
+      <p>The&nbsp;subject&nbsp;still&nbsp;understands&nbsp;if&nbsp;his&nbsp;attacks&nbsp;or&nbsp;powers&nbsp;are&nbsp;successful.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;may&nbsp;affect&nbsp;an&nbsp;additional&nbsp;target.&nbsp;No&nbsp;two&nbsp;targets&nbsp;may&nbsp;be&nbsp;further&nbsp;than&nbsp;15&nbsp;feet&nbsp;apart.&nbsp;For&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;spent&nbsp;this&nbsp;way,&nbsp;the&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: true
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      tactician: 4
+      telepath: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '15'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Pawns and Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '149'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '159'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  subdiscipline:
+    - compulsion
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!fuT9k3PZsDAM0gMI'

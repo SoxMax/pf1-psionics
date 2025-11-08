@@ -1,0 +1,82 @@
+_id: MSim6BmLAozojmoy
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Weapon_of_Energy
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Weapon of Energy
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude negates (object, harmless)
+        harmless: true
+        type: fort
+      target:
+        value: Weapon touched
+  description:
+    value: >-
+      <p>As&nbsp;<em><a&nbsp;href="/wiki/Claw_of_Energy"&nbsp;title="Claw&nbsp;of&nbsp;Energy">claw&nbsp;of&nbsp;energy</a></em>,&nbsp;except&nbsp;this&nbsp;power&nbsp;can&nbsp;be&nbsp;manifested&nbsp;on&nbsp;a&nbsp;touched&nbsp;weapon.&nbsp;This&nbsp;power's&nbsp;subtype&nbsp;is&nbsp;the&nbsp;same&nbsp;as&nbsp;the&nbsp;type&nbsp;of&nbsp;energy&nbsp;infused&nbsp;in&nbsp;the&nbsp;touched&nbsp;weapon.
+
+      </p>
+  descriptors:
+    - see text
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gifted blade: 4
+      psychic warrior: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '154'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '257'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '60'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!MSim6BmLAozojmoy'

@@ -1,0 +1,92 @@
+_id: R5rlKmgnalP45cK1
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Resist_Toxin
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Resist Toxin
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: hour
+        value: '1'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;become&nbsp;temporarily&nbsp;immune&nbsp;to&nbsp;poison.&nbsp;Any&nbsp;poison&nbsp;in&nbsp;your&nbsp;system&nbsp;or&nbsp;any&nbsp;poison&nbsp;to&nbsp;which&nbsp;you&nbsp;are&nbsp;exposed&nbsp;during&nbsp;the&nbsp;power's&nbsp;duration&nbsp;does&nbsp;not&nbsp;affect&nbsp;you&nbsp;until&nbsp;the&nbsp;duration&nbsp;has&nbsp;expired.&nbsp;This&nbsp;does&nbsp;not&nbsp;cure&nbsp;any&nbsp;damage&nbsp;that&nbsp;poison&nbsp;may&nbsp;have&nbsp;already&nbsp;done.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;can&nbsp;instead&nbsp;cure&nbsp;all&nbsp;diseases&nbsp;from&nbsp;you&nbsp;are&nbsp;suffering.&nbsp;You&nbsp;must&nbsp;make&nbsp;a&nbsp;manifesting&nbsp;level&nbsp;check&nbsp;(1d20&nbsp;+&nbsp;manifester&nbsp;level)&nbsp;against&nbsp;the&nbsp;DC&nbsp;of&nbsp;each&nbsp;disease&nbsp;affecting&nbsp;you.&nbsp;Success&nbsp;means&nbsp;that&nbsp;the&nbsp;disease&nbsp;is&nbsp;cured.&nbsp;The&nbsp;power's&nbsp;duration&nbsp;changes&nbsp;to&nbsp;Instantaneous&nbsp;when&nbsp;using&nbsp;this&nbsp;augment&nbsp;option.&nbsp;This&nbsp;does&nbsp;not&nbsp;prevent&nbsp;reinfection&nbsp;after&nbsp;a&nbsp;new&nbsp;exposure&nbsp;to&nbsp;the&nbsp;same&nbsp;disease&nbsp;at&nbsp;a&nbsp;later&nbsp;date.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;can&nbsp;instead&nbsp;detoxify&nbsp;any&nbsp;sort&nbsp;of&nbsp;venom&nbsp;in&nbsp;you.&nbsp;You&nbsp;must&nbsp;make&nbsp;a&nbsp;manifester&nbsp;level&nbsp;check&nbsp;(1d20&nbsp;+&nbsp;manifester&nbsp;level)&nbsp;against&nbsp;the&nbsp;DC&nbsp;of&nbsp;each&nbsp;poison&nbsp;affecting&nbsp;you.&nbsp;Success&nbsp;means&nbsp;that&nbsp;the&nbsp;poison&nbsp;is&nbsp;neutralized.&nbsp;You&nbsp;suffer&nbsp;no&nbsp;additional&nbsp;effects&nbsp;from&nbsp;the&nbsp;neutralized&nbsp;poison,&nbsp;and&nbsp;any&nbsp;temporary&nbsp;effects&nbsp;are&nbsp;ended,&nbsp;but&nbsp;this&nbsp;does&nbsp;not&nbsp;reverse&nbsp;instantaneous&nbsp;effects,&nbsp;such&nbsp;as&nbsp;hit&nbsp;point&nbsp;damage,&nbsp;temporary&nbsp;ability&nbsp;damage,&nbsp;or&nbsp;effects&nbsp;that&nbsp;don't&nbsp;go&nbsp;away&nbsp;on&nbsp;their&nbsp;own.&nbsp;The&nbsp;power's&nbsp;duration&nbsp;changes&nbsp;to&nbsp;Instantaneous&nbsp;when&nbsp;using&nbsp;this&nbsp;augment&nbsp;option.</li></ol>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      egoist: 2
+      psychic warrior: 2
+      thug: 2
+      vitalist: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '18'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Mind Over Body'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 177–178
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '241'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '55'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  subdiscipline:
+    - healing
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!R5rlKmgnalP45cK1'

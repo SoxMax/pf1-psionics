@@ -1,0 +1,98 @@
+_id: pNOR3KgUDcjERGLO
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Genesis_(power)
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Genesis
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 2
+        type: hour
+      duration:
+        units: day
+        value: '@cl'
+      name: Use
+      range:
+        units: ft
+        value: 0 ft.; see text
+      save:
+        description: None
+      target:
+        value: Extradimensional demiplane, up to three 10-ft. cubes/level (S)
+  description:
+    value: >-
+      <p>You&nbsp;create&nbsp;a&nbsp;small,&nbsp;finite&nbsp;demiplane.&nbsp;You&nbsp;must&nbsp;be&nbsp;on&nbsp;the&nbsp;Astral&nbsp;or&nbsp;Ethereal&nbsp;Plane&nbsp;or&nbsp;on&nbsp;a&nbsp;plane&nbsp;that&nbsp;has&nbsp;access&nbsp;to&nbsp;one&nbsp;of&nbsp;those&nbsp;planes&nbsp;(such&nbsp;as&nbsp;the&nbsp;Material&nbsp;Plane)&nbsp;to&nbsp;manifest&nbsp;this&nbsp;power.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;the&nbsp;power,&nbsp;you&nbsp;decide&nbsp;whether&nbsp;the&nbsp;demiplane&nbsp;is&nbsp;within&nbsp;the&nbsp;Astral&nbsp;or&nbsp;the&nbsp;Ethereal&nbsp;Plane.&nbsp;It&nbsp;is&nbsp;filled&nbsp;with&nbsp;air&nbsp;or&nbsp;water&nbsp;(decided&nbsp;by&nbsp;you).&nbsp;The&nbsp;plane&nbsp;is&nbsp;generally&nbsp;flat&nbsp;and&nbsp;featureless,&nbsp;such&nbsp;as&nbsp;an&nbsp;earth,&nbsp;stone,&nbsp;water,&nbsp;or&nbsp;wood&nbsp;floor.&nbsp;The&nbsp;"walls"&nbsp;and&nbsp;"ceiling"&nbsp;of&nbsp;the&nbsp;plane&nbsp;may&nbsp;appear&nbsp;like&nbsp;solid&nbsp;earth,&nbsp;stone,&nbsp;wood,&nbsp;or&nbsp;water,&nbsp;or&nbsp;they&nbsp;may&nbsp;end&nbsp;in&nbsp;mist,&nbsp;a&nbsp;featureless&nbsp;void,&nbsp;or&nbsp;a&nbsp;similar&nbsp;unreal-looking&nbsp;border.&nbsp;The&nbsp;plane's&nbsp;environmental&nbsp;conditions&nbsp;are&nbsp;those&nbsp;of&nbsp;a&nbsp;temperate&nbsp;spring&nbsp;day&nbsp;on&nbsp;the&nbsp;Material&nbsp;Plane.&nbsp;You&nbsp;determine&nbsp;the&nbsp;plane's&nbsp;light&nbsp;level&nbsp;(bright,&nbsp;normal,&nbsp;dim,&nbsp;or&nbsp;darkness),&nbsp;which&nbsp;affects&nbsp;the&nbsp;entire&nbsp;plane.
+
+      </p>
+
+      <p>There&nbsp;are&nbsp;no&nbsp;native&nbsp;creatures&nbsp;or&nbsp;plants&nbsp;on&nbsp;this&nbsp;plane,&nbsp;though&nbsp;you&nbsp;may&nbsp;bring&nbsp;some&nbsp;there&nbsp;(if&nbsp;the&nbsp;plane's&nbsp;light&nbsp;is&nbsp;bright&nbsp;or&nbsp;normal,&nbsp;it&nbsp;counts&nbsp;as&nbsp;sunlight&nbsp;for&nbsp;growing&nbsp;plants).&nbsp;The&nbsp;environment&nbsp;of&nbsp;the&nbsp;plane&nbsp;counts&nbsp;as&nbsp;normal&nbsp;terrain&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of&nbsp;effects&nbsp;that&nbsp;target&nbsp;earth,&nbsp;stone,&nbsp;wood,&nbsp;and&nbsp;so&nbsp;on.&nbsp;For&nbsp;example,&nbsp;you&nbsp;could&nbsp;use&nbsp;foxhole&nbsp;to&nbsp;create&nbsp;a&nbsp;small&nbsp;trench&nbsp;or&nbsp;modify&nbsp;matter&nbsp;to&nbsp;create&nbsp;a&nbsp;stone&nbsp;building.
+
+      </p>
+
+      <p>When&nbsp;you&nbsp;finish&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;you&nbsp;may&nbsp;bring&nbsp;yourself&nbsp;and&nbsp;up&nbsp;to&nbsp;seven&nbsp;other&nbsp;creatures&nbsp;to&nbsp;the&nbsp;plane&nbsp;automatically&nbsp;by&nbsp;joining&nbsp;hands&nbsp;in&nbsp;a&nbsp;circle.&nbsp;The&nbsp;demiplane&nbsp;is&nbsp;another&nbsp;plane&nbsp;of&nbsp;existence,&nbsp;and&nbsp;therefore&nbsp;is&nbsp;outside&nbsp;the&nbsp;range&nbsp;of&nbsp;any&nbsp;power&nbsp;or&nbsp;ability&nbsp;that&nbsp;cannot&nbsp;affect&nbsp;or&nbsp;reach&nbsp;other&nbsp;planes.&nbsp;Creatures&nbsp;can&nbsp;only&nbsp;enter&nbsp;the&nbsp;plane&nbsp;by&nbsp;the&nbsp;use&nbsp;of&nbsp;planar&nbsp;travel&nbsp;powers&nbsp;such&nbsp;as&nbsp;astral&nbsp;caravan&nbsp;or&nbsp;planar&nbsp;travel.&nbsp;You&nbsp;are&nbsp;considered&nbsp;"very&nbsp;familiar"&nbsp;with&nbsp;your&nbsp;entire&nbsp;demiplane.
+
+      </p>
+
+      <p>As&nbsp;a&nbsp;standard&nbsp;action,&nbsp;you&nbsp;may&nbsp;eject&nbsp;a&nbsp;creature&nbsp;from&nbsp;your&nbsp;demiplane.&nbsp;The&nbsp;creature&nbsp;may&nbsp;resist&nbsp;with&nbsp;a&nbsp;Will&nbsp;saving&nbsp;throw.&nbsp;An&nbsp;ejected&nbsp;creature&nbsp;goes&nbsp;to&nbsp;the&nbsp;closest&nbsp;plane&nbsp;to&nbsp;your&nbsp;demiplane&nbsp;(usually&nbsp;the&nbsp;Astral&nbsp;Plane&nbsp;or&nbsp;the&nbsp;Ethereal&nbsp;Plane,&nbsp;but&nbsp;if&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power&nbsp;on&nbsp;the&nbsp;Material&nbsp;Plane,&nbsp;the&nbsp;creature&nbsp;is&nbsp;sent&nbsp;to&nbsp;the&nbsp;Material&nbsp;Plane).&nbsp;When&nbsp;the&nbsp;power&nbsp;ends,&nbsp;the&nbsp;plane&nbsp;dissolves,&nbsp;and&nbsp;all&nbsp;creatures&nbsp;in&nbsp;the&nbsp;plane&nbsp;are&nbsp;ejected&nbsp;in&nbsp;this&nbsp;manner&nbsp;with&nbsp;no&nbsp;saving&nbsp;throw.&nbsp;The&nbsp;plane&nbsp;cannot&nbsp;be&nbsp;dispelled,&nbsp;but&nbsp;a&nbsp;creature&nbsp;on&nbsp;the&nbsp;plane&nbsp;can&nbsp;destroy&nbsp;it&nbsp;by&nbsp;using&nbsp;bend&nbsp;reality,&nbsp;reality&nbsp;revision,&nbsp;or&nbsp;unravel&nbsp;psionics&nbsp;and&nbsp;making&nbsp;a&nbsp;successful&nbsp;dispel&nbsp;check.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;are&nbsp;within&nbsp;the&nbsp;demiplane,&nbsp;you&nbsp;can&nbsp;add&nbsp;to&nbsp;its&nbsp;area&nbsp;by&nbsp;manifesting&nbsp;the&nbsp;power&nbsp;again.&nbsp;Alternatively,&nbsp;you&nbsp;may&nbsp;manifest&nbsp;this&nbsp;power&nbsp;again&nbsp;to&nbsp;reset&nbsp;the&nbsp;duration&nbsp;of&nbsp;an&nbsp;existing&nbsp;area&nbsp;to&nbsp;that&nbsp;of&nbsp;your&nbsp;latest&nbsp;manifesting.&nbsp;If&nbsp;the&nbsp;duration&nbsp;on&nbsp;one&nbsp;area&nbsp;of&nbsp;the&nbsp;demiplane&nbsp;ends&nbsp;and&nbsp;other&nbsp;parts&nbsp;remain,&nbsp;creatures&nbsp;in&nbsp;the&nbsp;expiring&nbsp;area&nbsp;are&nbsp;shunted&nbsp;to&nbsp;remaining&nbsp;areas.&nbsp;If&nbsp;a&nbsp;collapsing&nbsp;portion&nbsp;of&nbsp;the&nbsp;demiplane&nbsp;would&nbsp;leave&nbsp;one&nbsp;section&nbsp;cut&nbsp;off&nbsp;from&nbsp;other&nbsp;sections&nbsp;of&nbsp;the&nbsp;demiplane&nbsp;(for&nbsp;example,&nbsp;if&nbsp;there&nbsp;were&nbsp;three&nbsp;areas&nbsp;connected&nbsp;in&nbsp;a&nbsp;straight&nbsp;line&nbsp;and&nbsp;the&nbsp;center&nbsp;part&nbsp;expired),&nbsp;the&nbsp;stranded&nbsp;sections&nbsp;count&nbsp;as&nbsp;separate&nbsp;demiplanes&nbsp;under&nbsp;your&nbsp;control.&nbsp;You&nbsp;may&nbsp;reconnect&nbsp;these&nbsp;stranded&nbsp;sections&nbsp;by&nbsp;manifesting&nbsp;the&nbsp;power&nbsp;again&nbsp;to&nbsp;create&nbsp;a&nbsp;linked&nbsp;area&nbsp;between&nbsp;the&nbsp;two.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>By&nbsp;spending&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;instead&nbsp;of&nbsp;increasing&nbsp;the&nbsp;size&nbsp;of&nbsp;an&nbsp;existing&nbsp;demiplane,&nbsp;you&nbsp;may&nbsp;add&nbsp;or&nbsp;remove&nbsp;any&nbsp;planar&nbsp;trait&nbsp;available&nbsp;via&nbsp;the&nbsp;spell&nbsp;create&nbsp;demiplane&nbsp;to&nbsp;a&nbsp;demiplane&nbsp;you&nbsp;created&nbsp;via&nbsp;genesis.&nbsp;If&nbsp;you&nbsp;spend&nbsp;6PP,&nbsp;you&nbsp;may&nbsp;choose&nbsp;any&nbsp;trait&nbsp;available&nbsp;via&nbsp;create&nbsp;demiplane,&nbsp;greater.&nbsp;Either&nbsp;of&nbsp;these&nbsp;augments&nbsp;changes&nbsp;this&nbsp;power's&nbsp;duration&nbsp;to&nbsp;Instantaneous.</li><li>By&nbsp;spending&nbsp;two&nbsp;additional&nbsp;power&nbsp;points&nbsp;and&nbsp;doubling&nbsp;the&nbsp;manifestation&nbsp;time,&nbsp;the&nbsp;maximum&nbsp;size&nbsp;increases&nbsp;to&nbsp;10&nbsp;10-ft.&nbsp;cubes&nbsp;per&nbsp;level.</li><li>By&nbsp;spending&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;and&nbsp;quadrupling&nbsp;the&nbsp;manifestation&nbsp;time,&nbsp;the&nbsp;maximum&nbsp;size&nbsp;increases&nbsp;to&nbsp;20&nbsp;10-ft.&nbsp;cubes&nbsp;per&nbsp;level.</li><li>By&nbsp;spending&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;and&nbsp;channelling&nbsp;the&nbsp;power&nbsp;through&nbsp;specially-treated&nbsp;crystals&nbsp;similar&nbsp;to&nbsp;cognizance&nbsp;crystals&nbsp;that&nbsp;cost&nbsp;20,000gp,&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;becomes&nbsp;Permanent.&nbsp;These&nbsp;crystals&nbsp;are&nbsp;consumed&nbsp;during&nbsp;the&nbsp;manifestation&nbsp;process,&nbsp;becoming&nbsp;an&nbsp;infinitely&nbsp;fine&nbsp;lattice&nbsp;of&nbsp;psionic&nbsp;energy&nbsp;that&nbsp;roots&nbsp;the&nbsp;plane&nbsp;to&nbsp;the&nbsp;underlying&nbsp;fabric&nbsp;of&nbsp;its&nbsp;neighboring&nbsp;plane(s).</li></ol>
+  discipline: metacreativity
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      shaper: 6
+  level: 6
+  manifestTime:
+    units: hour
+    value: 2
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 116–117
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 207–208
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '43'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  subdiscipline:
+    - creation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!pNOR3KgUDcjERGLO'

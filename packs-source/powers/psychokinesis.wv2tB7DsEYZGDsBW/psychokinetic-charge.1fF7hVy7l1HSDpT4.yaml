@@ -1,0 +1,90 @@
+_id: 1fF7hVy7l1HSDpT4
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psychokinetic_Charge
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+name: Psychokinetic Charge
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates (harmless)
+        harmless: true
+        type: will
+      target:
+        value: one willing creature
+  description:
+    value: >-
+      <p>You&nbsp;telekinetically&nbsp;launch&nbsp;an&nbsp;ally&nbsp;(or&nbsp;yourself)&nbsp;across&nbsp;the&nbsp;battlefield&nbsp;to&nbsp;anywhere&nbsp;within&nbsp;this&nbsp;power's&nbsp;range.&nbsp;While&nbsp;moving,&nbsp;your&nbsp;ally&nbsp;is&nbsp;flying&nbsp;just&nbsp;above&nbsp;the&nbsp;ground&nbsp;unless&nbsp;you&nbsp;wish&nbsp;otherwise.&nbsp;Movement&nbsp;from&nbsp;this&nbsp;power&nbsp;provokes&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;as&nbsp;normal,&nbsp;although&nbsp;you&nbsp;can&nbsp;lift&nbsp;your&nbsp;ally&nbsp;over&nbsp;objects&nbsp;or&nbsp;out&nbsp;of&nbsp;enemy&nbsp;reach,&nbsp;as&nbsp;long&nbsp;as&nbsp;your&nbsp;ally&nbsp;remains&nbsp;within&nbsp;range.&nbsp;If&nbsp;your&nbsp;ally&nbsp;lands&nbsp;adjacent&nbsp;to&nbsp;an&nbsp;opponent,&nbsp;he&nbsp;can&nbsp;spend&nbsp;an&nbsp;immediate&nbsp;action&nbsp;to&nbsp;make&nbsp;a&nbsp;melee&nbsp;attack&nbsp;against&nbsp;that&nbsp;opponent&nbsp;with&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;the&nbsp;attack&nbsp;roll.
+
+      </p>
+  descriptors:
+    - force
+  discipline: psychokinesis
+  display:
+    auditory: true
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 4
+      gambler: 4
+      psion: 4
+      tactician: 4
+      wilder: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '39'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Hidden Intentions'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '176'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 235–236
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '52'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!1fF7hVy7l1HSDpT4'

@@ -1,0 +1,80 @@
+_id: fvcgGsu7fiJQpbvg
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Borrowed_Future_Self
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Borrowed Future Self
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        description: None
+      target:
+        value: One future self
+  description:
+    value: >-
+      <p>You&nbsp;reach&nbsp;out&nbsp;into&nbsp;all&nbsp;your&nbsp;possible&nbsp;futures&nbsp;and&nbsp;for&nbsp;a&nbsp;short&nbsp;while,&nbsp;you&nbsp;draw&nbsp;a&nbsp;fragment&nbsp;of&nbsp;your&nbsp;future&nbsp;self&nbsp;into&nbsp;this&nbsp;time.&nbsp;Your&nbsp;duplicate&nbsp;has&nbsp;no&nbsp;actual&nbsp;substance,&nbsp;it&nbsp;only&nbsp;looks&nbsp;like&nbsp;you,&nbsp;and&nbsp;you&nbsp;cannot&nbsp;use&nbsp;it&nbsp;to&nbsp;alter&nbsp;its&nbsp;surroundings&nbsp;or&nbsp;to&nbsp;attack&nbsp;or&nbsp;otherwise&nbsp;harm&nbsp;creatures&nbsp;it&nbsp;encounters.&nbsp;You&nbsp;can&nbsp;use&nbsp;the&nbsp;duplicate&nbsp;to&nbsp;speak,&nbsp;and&nbsp;interact&nbsp;verbally&nbsp;with&nbsp;creatures&nbsp;using&nbsp;the&nbsp;Bluff,&nbsp;Diplomacy,&nbsp;and&nbsp;Intimidate&nbsp;skills.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;see,&nbsp;hear,&nbsp;taste,&nbsp;and&nbsp;smell&nbsp;your&nbsp;duplicate's&nbsp;surroundings&nbsp;as&nbsp;if&nbsp;you&nbsp;are&nbsp;actually&nbsp;present&nbsp;in&nbsp;its&nbsp;location&nbsp;using&nbsp;your&nbsp;Perception&nbsp;or&nbsp;Sense&nbsp;Motive&nbsp;skills.&nbsp;While&nbsp;you&nbsp;also&nbsp;remain&nbsp;aware&nbsp;of&nbsp;your&nbsp;own&nbsp;immediate&nbsp;surroundings&nbsp;when&nbsp;controlling&nbsp;your&nbsp;duplicate,&nbsp;controlling&nbsp;it&nbsp;does&nbsp;take&nbsp;a&nbsp;toll&nbsp;on&nbsp;your&nbsp;senses.&nbsp;You&nbsp;take&nbsp;a&nbsp;–4&nbsp;penalty&nbsp;on&nbsp;Perception&nbsp;checks&nbsp;while&nbsp;you&nbsp;control&nbsp;your&nbsp;duplicate.
+
+      </p>
+
+      <p>The&nbsp;duplicate&nbsp;moves&nbsp;under&nbsp;your&nbsp;mental&nbsp;command,&nbsp;and&nbsp;while&nbsp;you&nbsp;need&nbsp;not&nbsp;act&nbsp;out&nbsp;its&nbsp;movements,&nbsp;you&nbsp;must&nbsp;take&nbsp;a&nbsp;standard&nbsp;action&nbsp;to&nbsp;control&nbsp;your&nbsp;duplicate&nbsp;for&nbsp;1&nbsp;round&nbsp;(concentrating&nbsp;on&nbsp;the&nbsp;power)&nbsp;or&nbsp;it&nbsp;winks&nbsp;out&nbsp;of&nbsp;existence.&nbsp;You&nbsp;can&nbsp;maintain&nbsp;control&nbsp;of&nbsp;your&nbsp;duplicate&nbsp;even&nbsp;if&nbsp;you&nbsp;have&nbsp;no&nbsp;line&nbsp;of&nbsp;sight&nbsp;or&nbsp;line&nbsp;of&nbsp;effect&nbsp;to&nbsp;it.
+
+      </p>
+
+      <p>The&nbsp;duplicate&nbsp;immediately&nbsp;winks&nbsp;out&nbsp;of&nbsp;existence&nbsp;if&nbsp;it&nbsp;is&nbsp;hit&nbsp;by&nbsp;an&nbsp;attack&nbsp;or&nbsp;in&nbsp;the&nbsp;area&nbsp;of&nbsp;a&nbsp;damaging&nbsp;effect,&nbsp;or&nbsp;if&nbsp;it&nbsp;moves&nbsp;beyond&nbsp;the&nbsp;maximum&nbsp;range&nbsp;of&nbsp;the&nbsp;power.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;define&nbsp;what&nbsp;your&nbsp;duplicate&nbsp;should&nbsp;do&nbsp;and&nbsp;general&nbsp;orders&nbsp;and&nbsp;it&nbsp;will&nbsp;do&nbsp;this&nbsp;by&nbsp;it's&nbsp;own&nbsp;volition,&nbsp;as&nbsp;if&nbsp;you&nbsp;were&nbsp;the&nbsp;duplicate.&nbsp;You&nbsp;can&nbsp;still&nbsp;use&nbsp;your&nbsp;senses&nbsp;through&nbsp;the&nbsp;duplicate&nbsp;if&nbsp;you&nbsp;manifest&nbsp;it&nbsp;like&nbsp;this,&nbsp;but&nbsp;cannot&nbsp;influence&nbsp;its&nbsp;actions&nbsp;once&nbsp;triggered.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;increases&nbsp;to&nbsp;10&nbsp;minutes/level.</li></ol>
+  discipline: psychoportation
+  display:
+    auditory: true
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      seer: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '65'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!fvcgGsu7fiJQpbvg'

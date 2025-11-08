@@ -1,0 +1,87 @@
+_id: ntzTyBYvrtZSHdv2
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Force_Screen
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+name: Force Screen
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;create&nbsp;an&nbsp;invisible&nbsp;mobile&nbsp;disk&nbsp;of&nbsp;force&nbsp;that&nbsp;hovers&nbsp;in&nbsp;front&nbsp;of&nbsp;you.&nbsp;The&nbsp;force&nbsp;screen&nbsp;provides&nbsp;a&nbsp;+4&nbsp;shield&nbsp;bonus&nbsp;to&nbsp;Armor&nbsp;Class&nbsp;(which&nbsp;applies&nbsp;against&nbsp;incorporeal&nbsp;touch&nbsp;attacks,&nbsp;since&nbsp;the&nbsp;force&nbsp;screen&nbsp;is&nbsp;a&nbsp;force&nbsp;effect).&nbsp;Since&nbsp;it&nbsp;hovers&nbsp;in&nbsp;front&nbsp;of&nbsp;you,&nbsp;the&nbsp;effect&nbsp;has&nbsp;no&nbsp;armor&nbsp;check&nbsp;penalty&nbsp;associated&nbsp;with&nbsp;it.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;shield&nbsp;bonus&nbsp;to&nbsp;Armor&nbsp;Class&nbsp;improves&nbsp;by&nbsp;1.
+
+      </p>
+  descriptors:
+    - force
+  discipline: psychokinesis
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 1
+      gifted blade: 1
+      psion: 1
+      psychic warrior: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '114'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '205'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '43'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!ntzTyBYvrtZSHdv2'

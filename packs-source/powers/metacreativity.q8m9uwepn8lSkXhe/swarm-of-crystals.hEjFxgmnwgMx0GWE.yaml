@@ -1,0 +1,83 @@
+_id: hEjFxgmnwgMx0GWE
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Swarm_of_Crystals
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Swarm of Crystals
+system:
+  actions:
+    - actionType: rsak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: ft
+        value: 15 ft.
+      save:
+        description: None
+      target:
+        value: Cone-shaped spread
+  description:
+    value: >-
+      <p>Thousands&nbsp;of&nbsp;tiny&nbsp;crystal&nbsp;shards&nbsp;spray&nbsp;forth&nbsp;in&nbsp;an&nbsp;arc&nbsp;from&nbsp;your&nbsp;hand.&nbsp;These&nbsp;razor-like&nbsp;crystals&nbsp;slice&nbsp;everything&nbsp;in&nbsp;their&nbsp;path.&nbsp;Anyone&nbsp;caught&nbsp;in&nbsp;the&nbsp;cone&nbsp;takes&nbsp;3d4&nbsp;points&nbsp;of&nbsp;slashing&nbsp;damage.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;damage&nbsp;increases&nbsp;by&nbsp;1d4&nbsp;points.
+
+      </p>
+  discipline: metacreativity
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 2
+      psion: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '147'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '249'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 56–57
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  subdiscipline:
+    - creation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!hEjFxgmnwgMx0GWE'

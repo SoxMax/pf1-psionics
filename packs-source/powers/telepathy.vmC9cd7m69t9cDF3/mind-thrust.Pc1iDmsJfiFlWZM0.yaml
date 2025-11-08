@@ -1,0 +1,83 @@
+_id: Pc1iDmsJfiFlWZM0
+_key: '!items!Pc1iDmsJfiFlWZM0'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Mind_Thrust
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Mind Thrust
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      damage:
+        parts:
+          - - 1d10
+            - untyped
+      duration:
+        units: inst
+        value: ''
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One creature
+  description:
+    instructions: ''
+    value: |-
+      <p>You instantly deliver a massive assault on the thought pathways of any one creature, dealing 1d10 points of damage to it.
+      </p>
+      <p><strong>Augment:</strong> For every additional power point you spend, this power's damage increases by 1d10 points. For each extra 2d10 points of damage, this power's save DC increases by 1.
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      dread: 1
+      empath: 1
+      gambler: 1
+      psion: 1
+      thug: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  manifestor: ''
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '129'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 223–224
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '48'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline: []
+  tags: []
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

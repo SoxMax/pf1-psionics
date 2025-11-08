@@ -1,0 +1,68 @@
+_id: UB2LUQEgBRc7EVOM
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Ex_Nihilo
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Ex Nihilo
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: minute
+        value: 10 * @cl
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      target:
+        value: You
+  description:
+    value: >-
+      <p>This&nbsp;power&nbsp;functions&nbsp;exactly&nbsp;like&nbsp;<em><a&nbsp;href="/wiki/Gift_of_the_Corpse"&nbsp;title="Gift&nbsp;of&nbsp;the&nbsp;Corpse">gift&nbsp;of&nbsp;the&nbsp;corpse</a></em>,&nbsp;except&nbsp;that&nbsp;you&nbsp;become&nbsp;similar&nbsp;to&nbsp;a&nbsp;ghost&nbsp;instead&nbsp;of&nbsp;a&nbsp;shadow,&nbsp;gaining&nbsp;the&nbsp;following&nbsp;changes&nbsp;for&nbsp;as&nbsp;long&nbsp;as&nbsp;this&nbsp;power&nbsp;is&nbsp;active:&nbsp;you&nbsp;become&nbsp;incorporeal,&nbsp;count&nbsp;as&nbsp;undead&nbsp;for&nbsp;all&nbsp;purposes&nbsp;(including&nbsp;immunities&nbsp;and&nbsp;vulnerabilities),&nbsp;gain&nbsp;a&nbsp;+4&nbsp;enhancement&nbsp;bonus&nbsp;to&nbsp;Charisma,&nbsp;a&nbsp;deflection&nbsp;bonus&nbsp;to&nbsp;your&nbsp;AC&nbsp;equal&nbsp;to&nbsp;your&nbsp;Charisma&nbsp;modifier,&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;your&nbsp;manifester&nbsp;level,&nbsp;and&nbsp;channel&nbsp;resistance&nbsp;+4.&nbsp;While&nbsp;in&nbsp;this&nbsp;state,&nbsp;you&nbsp;cannot&nbsp;benefit&nbsp;from&nbsp;any&nbsp;gear&nbsp;you&nbsp;possess&nbsp;unless&nbsp;it&nbsp;has&nbsp;the&nbsp;ghost&nbsp;touch&nbsp;special&nbsp;property.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;to&nbsp;have&nbsp;your&nbsp;body&nbsp;temporarily&nbsp;vanish&nbsp;when&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power.&nbsp;If&nbsp;you&nbsp;do&nbsp;so,&nbsp;your&nbsp;body&nbsp;is&nbsp;immune&nbsp;to&nbsp;all&nbsp;damage&nbsp;and&nbsp;effects&nbsp;until&nbsp;this&nbsp;power&nbsp;ends,&nbsp;when&nbsp;it&nbsp;reappears&nbsp;wherever&nbsp;it&nbsp;was&nbsp;originally.
+
+      </p>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      conduit: 6
+      cryptic: 5
+  level: 5
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '28'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!UB2LUQEgBRc7EVOM'

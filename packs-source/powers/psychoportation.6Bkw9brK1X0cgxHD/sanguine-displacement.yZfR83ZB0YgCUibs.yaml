@@ -1,0 +1,79 @@
+_id: yZfR83ZB0YgCUibs
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Sanguine_Displacement
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Sanguine Displacement
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. plus 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude partial
+        type: fort
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>You&nbsp;teleport&nbsp;blood&nbsp;and&nbsp;vital&nbsp;fluids&nbsp;from&nbsp;your&nbsp;target's&nbsp;body.&nbsp;The&nbsp;target&nbsp;suffers&nbsp;1d4&nbsp;points&nbsp;of&nbsp;Constitution&nbsp;damage&nbsp;(save&nbsp;for&nbsp;half).&nbsp;If&nbsp;you&nbsp;feed&nbsp;on&nbsp;blood&nbsp;or&nbsp;life&nbsp;force&nbsp;(such&nbsp;as&nbsp;if&nbsp;you&nbsp;are&nbsp;a&nbsp;vampire&nbsp;or&nbsp;a&nbsp;wight),&nbsp;you&nbsp;may&nbsp;teleport&nbsp;the&nbsp;removed&nbsp;fluids&nbsp;into&nbsp;your&nbsp;own&nbsp;body,&nbsp;gaining&nbsp;3&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;per&nbsp;point&nbsp;of&nbsp;Constitution&nbsp;damage&nbsp;dealt&nbsp;by&nbsp;this&nbsp;power;&nbsp;these&nbsp;do&nbsp;not&nbsp;stack&nbsp;with&nbsp;other&nbsp;uses&nbsp;of&nbsp;this&nbsp;power,&nbsp;and&nbsp;last&nbsp;for&nbsp;up&nbsp;to&nbsp;1&nbsp;hour.&nbsp;These&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;may&nbsp;be&nbsp;used&nbsp;to&nbsp;satisfy&nbsp;feeding&nbsp;requirements,&nbsp;if&nbsp;applicable.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;4&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;damage&nbsp;of&nbsp;this&nbsp;power&nbsp;increases&nbsp;by&nbsp;one&nbsp;die&nbsp;(d4)&nbsp;and&nbsp;its&nbsp;save&nbsp;DC&nbsp;is&nbsp;increased&nbsp;by&nbsp;2.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 3
+      psion: 3
+      thug: 3
+      vitalist: 3
+      wilder: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '54'
+      publisher: Dreamscarred Press
+      title: Lords of the Night
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '80'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!yZfR83ZB0YgCUibs'

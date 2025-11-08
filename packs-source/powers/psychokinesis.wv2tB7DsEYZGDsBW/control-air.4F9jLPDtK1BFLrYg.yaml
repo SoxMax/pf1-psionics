@@ -1,0 +1,98 @@
+_id: 4F9jLPDtK1BFLrYg
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Control_Air
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/control/hypnosis-mesmerism-eye-tan.webp
+name: Control Air
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '50'
+      duration:
+        concentration: true
+        units: conc
+        value: up to 1 min./level
+      name: Use
+      range:
+        units: long
+        value: Long (400 ft. + 40 ft./level)
+      save:
+        description: None
+      target:
+        value: 50-ft.-radius spread
+  description:
+    value: >-
+      <p>You&nbsp;have&nbsp;some&nbsp;control&nbsp;over&nbsp;wind&nbsp;speed&nbsp;and&nbsp;direction.
+
+      </p>
+
+      <p>The&nbsp;speed&nbsp;of&nbsp;the&nbsp;wind&nbsp;within&nbsp;the&nbsp;area&nbsp;of&nbsp;this&nbsp;power&nbsp;can&nbsp;be&nbsp;increased&nbsp;or&nbsp;decreased&nbsp;by&nbsp;up&nbsp;to&nbsp;10&nbsp;miles&nbsp;per&nbsp;hour.
+
+      </p>
+
+      <p>This&nbsp;power&nbsp;also&nbsp;gives&nbsp;you&nbsp;the&nbsp;ability&nbsp;to&nbsp;alter&nbsp;the&nbsp;direction&nbsp;of&nbsp;the&nbsp;wind&nbsp;by&nbsp;as&nbsp;much&nbsp;as&nbsp;90&nbsp;degrees.
+
+      </p>
+
+      <p>Powerful&nbsp;enough&nbsp;winds&nbsp;can&nbsp;cause&nbsp;creatures&nbsp;to&nbsp;be&nbsp;blown&nbsp;away,&nbsp;knocked&nbsp;down,&nbsp;or&nbsp;checked.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;modify&nbsp;the&nbsp;wind&nbsp;speed&nbsp;by&nbsp;an&nbsp;additional&nbsp;10&nbsp;miles&nbsp;per&nbsp;hour,&nbsp;to&nbsp;a&nbsp;maximum&nbsp;change&nbsp;in&nbsp;wind&nbsp;speed&nbsp;of&nbsp;60&nbsp;miles&nbsp;per&nbsp;hour.
+
+      </p>
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      kineticist: 2
+      marksman: 3
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '88'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 174–175
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '33'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!4F9jLPDtK1BFLrYg'

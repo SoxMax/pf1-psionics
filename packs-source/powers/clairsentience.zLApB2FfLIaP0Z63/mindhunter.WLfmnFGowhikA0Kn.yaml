@@ -1,0 +1,92 @@
+_id: WLfmnFGowhikA0Kn
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Mindhunter
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Mindhunter
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 8
+        type: hour
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: ft
+        value: One plane
+      save:
+        description: None
+      target:
+        value: One creature on the same plane
+  description:
+    value: >-
+      <p>When&nbsp;you&nbsp;go&nbsp;to&nbsp;sleep,&nbsp;you&nbsp;psionically&nbsp;split&nbsp;your&nbsp;subconscious&nbsp;mind&nbsp;from&nbsp;your&nbsp;body&nbsp;sending&nbsp;it&nbsp;out&nbsp;to&nbsp;search&nbsp;for&nbsp;another&nbsp;person's&nbsp;subconscious.&nbsp;If&nbsp;the&nbsp;creature&nbsp;is&nbsp;intelligent&nbsp;and&nbsp;not&nbsp;immune&nbsp;to&nbsp;mind-affecting&nbsp;powers,&nbsp;the&nbsp;subconscious&nbsp;mind&nbsp;tracks&nbsp;it&nbsp;down&nbsp;and&nbsp;returns&nbsp;with&nbsp;the&nbsp;information&nbsp;by&nbsp;the&nbsp;time&nbsp;you&nbsp;wake&nbsp;up.&nbsp;If&nbsp;you&nbsp;wake&nbsp;before&nbsp;8&nbsp;hours&nbsp;have&nbsp;passed,&nbsp;the&nbsp;power&nbsp;fails&nbsp;as&nbsp;the&nbsp;subconscious&nbsp;mind&nbsp;is&nbsp;violently&nbsp;forced&nbsp;back&nbsp;into&nbsp;your&nbsp;consciousness&nbsp;once&nbsp;again.
+
+      </p>
+
+      <p>When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;you&nbsp;gain&nbsp;a&nbsp;general&nbsp;knowledge&nbsp;of&nbsp;where&nbsp;the&nbsp;target&nbsp;person&nbsp;resides&nbsp;if&nbsp;they&nbsp;are&nbsp;on&nbsp;the&nbsp;same&nbsp;plane.&nbsp;You&nbsp;are&nbsp;granted&nbsp;a&nbsp;general&nbsp;overview&nbsp;of&nbsp;the&nbsp;surroundings&nbsp;and&nbsp;a&nbsp;rough&nbsp;estimate&nbsp;of&nbsp;where&nbsp;they&nbsp;are&nbsp;from&nbsp;your&nbsp;current&nbsp;position&nbsp;such&nbsp;as&nbsp;"in&nbsp;a&nbsp;wood&nbsp;20&nbsp;miles&nbsp;to&nbsp;the&nbsp;northwest".
+
+      </p>
+
+      <p>Note&nbsp;that&nbsp;the&nbsp;power&nbsp;points&nbsp;spent&nbsp;while&nbsp;dreaming&nbsp;do&nbsp;not&nbsp;regenerate&nbsp;during&nbsp;this&nbsp;time&nbsp;and&nbsp;thus&nbsp;you&nbsp;awaken&nbsp;with&nbsp;less&nbsp;than&nbsp;your&nbsp;maximum&nbsp;power&nbsp;points.
+
+      </p>
+
+      <p>You&nbsp;must&nbsp;be&nbsp;able&nbsp;to&nbsp;form&nbsp;a&nbsp;mental&nbsp;picture&nbsp;of&nbsp;the&nbsp;target,&nbsp;either&nbsp;through&nbsp;direct&nbsp;personal&nbsp;knowledge,&nbsp;from&nbsp;a&nbsp;picture&nbsp;or&nbsp;portrait,&nbsp;or&nbsp;from&nbsp;a&nbsp;description&nbsp;of&nbsp;the&nbsp;person,&nbsp;in&nbsp;order&nbsp;to&nbsp;use&nbsp;this&nbsp;power.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 3
+      psion: 3
+      sighted seeker: 3
+      thug: 3
+      voyager: 3
+      wilder: 3
+  level: 3
+  manifestTime:
+    units: hour
+    value: 8
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '30'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '171'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '224'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!WLfmnFGowhikA0Kn'

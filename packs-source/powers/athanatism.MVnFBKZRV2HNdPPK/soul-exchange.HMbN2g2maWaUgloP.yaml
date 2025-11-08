@@ -1,0 +1,69 @@
+_id: HMbN2g2maWaUgloP
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Soul_Exchange
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Soul Exchange
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: round
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        description: None
+      target:
+        value: Willing, living creature touched
+  description:
+    value: >-
+      <p>You&nbsp;muddle&nbsp;that&nbsp;which&nbsp;affects&nbsp;a&nbsp;soul,&nbsp;switching&nbsp;them&nbsp;between&nbsp;different&nbsp;souls.&nbsp;You&nbsp;and&nbsp;the&nbsp;target&nbsp;exchange&nbsp;all&nbsp;soul-based&nbsp;curses,&nbsp;blessings,&nbsp;or&nbsp;effects.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;exchange&nbsp;all&nbsp;mental&nbsp;ability&nbsp;damage&nbsp;and&nbsp;drain,&nbsp;as&nbsp;well&nbsp;as&nbsp;negative&nbsp;levels.&nbsp;If&nbsp;any&nbsp;of&nbsp;these&nbsp;effects&nbsp;could&nbsp;be&nbsp;reduced&nbsp;or&nbsp;removed&nbsp;with&nbsp;a&nbsp;save,&nbsp;their&nbsp;new&nbsp;owner&nbsp;may&nbsp;attempt&nbsp;a&nbsp;new&nbsp;save&nbsp;against&nbsp;each&nbsp;such&nbsp;effect.&nbsp;This&nbsp;does&nbsp;not&nbsp;count&nbsp;as&nbsp;if&nbsp;you&nbsp;gained&nbsp;a&nbsp;new&nbsp;version&nbsp;of&nbsp;whatever&nbsp;effect&nbsp;you&nbsp;receive&nbsp;–&nbsp;instead,&nbsp;the&nbsp;duration&nbsp;on&nbsp;any&nbsp;of&nbsp;these&nbsp;effects&nbsp;continues&nbsp;as&nbsp;normal,&nbsp;just&nbsp;as&nbsp;if&nbsp;nothing&nbsp;had&nbsp;happened.&nbsp;If&nbsp;either&nbsp;target&nbsp;is&nbsp;possessed&nbsp;when&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;the&nbsp;possessing&nbsp;entity&nbsp;may&nbsp;succeed&nbsp;on&nbsp;a&nbsp;Will&nbsp;save&nbsp;to&nbsp;choose&nbsp;one&nbsp;of&nbsp;the&nbsp;targets&nbsp;to&nbsp;transfer&nbsp;to&nbsp;-&nbsp;otherwise,&nbsp;they&nbsp;remain&nbsp;with&nbsp;the&nbsp;body&nbsp;they&nbsp;were&nbsp;originally&nbsp;possessing.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;may&nbsp;target&nbsp;an&nbsp;unwilling,&nbsp;living&nbsp;creature&nbsp;touched,&nbsp;unless&nbsp;they&nbsp;succeed&nbsp;on&nbsp;a&nbsp;Will&nbsp;save.&nbsp;Power&nbsp;resistance&nbsp;provides&nbsp;protection&nbsp;from&nbsp;this&nbsp;use&nbsp;as&nbsp;normal.
+
+      </p>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: true
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 5
+      vitalist: 5
+      wilder: 5
+  level: 5
+  manifestTime:
+    units: round
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 41–42
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!HMbN2g2maWaUgloP'

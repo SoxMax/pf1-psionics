@@ -1,0 +1,100 @@
+_id: Zt4rRZBzAkX4P6Ms
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Detect_Hostile_Intent
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Detect Hostile Intent
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '30'
+      duration:
+        dismiss: true
+        units: minute
+        value: 10 * @cl
+      name: Use
+      range:
+        units: ft
+        value: 30 ft.
+      save:
+        description: None
+      target:
+        value: 30-ft.-radius emanation centered on you
+  description:
+    value: >-
+      <p>While&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;lasts,&nbsp;you&nbsp;become&nbsp;aware&nbsp;of&nbsp;the&nbsp;presence&nbsp;of&nbsp;any&nbsp;creatures&nbsp;with&nbsp;hostile&nbsp;intent&nbsp;within&nbsp;30&nbsp;feet&nbsp;of&nbsp;you,&nbsp;and&nbsp;their&nbsp;direction&nbsp;from&nbsp;you&nbsp;(but&nbsp;not&nbsp;their&nbsp;specific&nbsp;location).&nbsp;The&nbsp;power&nbsp;detects&nbsp;active&nbsp;aggression,&nbsp;as&nbsp;opposed&nbsp;to&nbsp;vigilance.&nbsp;In&nbsp;addition,&nbsp;while&nbsp;this&nbsp;power&nbsp;is&nbsp;active&nbsp;you&nbsp;cannot&nbsp;be&nbsp;surprised&nbsp;or&nbsp;caught&nbsp;flatfooted&nbsp;by&nbsp;creatures&nbsp;that&nbsp;are&nbsp;susceptible&nbsp;to&nbsp;mind-affecting&nbsp;powers.
+
+      </p>
+
+      <p>While&nbsp;under&nbsp;the&nbsp;effect&nbsp;of&nbsp;this&nbsp;power,&nbsp;you&nbsp;can&nbsp;make&nbsp;Sense&nbsp;Motive&nbsp;checks&nbsp;as&nbsp;a&nbsp;free&nbsp;action&nbsp;against&nbsp;anyone&nbsp;within&nbsp;30&nbsp;feet&nbsp;of&nbsp;you.
+
+      </p>
+
+      <p>The&nbsp;power&nbsp;can&nbsp;penetrate&nbsp;barriers,&nbsp;but&nbsp;3&nbsp;feet&nbsp;of&nbsp;stone,&nbsp;3&nbsp;inches&nbsp;of&nbsp;common&nbsp;metal,&nbsp;1&nbsp;inch&nbsp;of&nbsp;lead,&nbsp;or&nbsp;6&nbsp;feet&nbsp;of&nbsp;wood&nbsp;or&nbsp;dirt&nbsp;blocks&nbsp;it.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: true
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      gambler: 2
+      gifted blade: 2
+      marksman: 2
+      psion: 2
+      psychic warrior: 2
+      tactician: 2
+      thug: 2
+      voyager: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '94'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '182'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '36'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!Zt4rRZBzAkX4P6Ms'

@@ -1,0 +1,87 @@
+_id: a36rIe5mlkREIaFR
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Telempathic_Projection
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Telempathic Projection
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>You&nbsp;alter&nbsp;the&nbsp;subject's&nbsp;mood,&nbsp;adjusting&nbsp;its&nbsp;attitude&nbsp;toward&nbsp;you&nbsp;by&nbsp;one&nbsp;step&nbsp;in&nbsp;a&nbsp;positive&nbsp;direction.&nbsp;For&nbsp;instance,&nbsp;an&nbsp;unfriendly&nbsp;creature&nbsp;can&nbsp;be&nbsp;made&nbsp;indifferent,&nbsp;or&nbsp;a&nbsp;hostile&nbsp;creature&nbsp;unfriendly.&nbsp;You&nbsp;can&nbsp;grant&nbsp;a&nbsp;+4&nbsp;bonus&nbsp;on&nbsp;your&nbsp;own&nbsp;(or&nbsp;others')&nbsp;Bluff,&nbsp;Diplomacy,&nbsp;Intimidate,&nbsp;Perform,&nbsp;or&nbsp;Sense&nbsp;Motive&nbsp;checks&nbsp;involving&nbsp;the&nbsp;affected&nbsp;creature.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '149'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '250'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '57'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline:
+    - charm
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!a36rIe5mlkREIaFR'

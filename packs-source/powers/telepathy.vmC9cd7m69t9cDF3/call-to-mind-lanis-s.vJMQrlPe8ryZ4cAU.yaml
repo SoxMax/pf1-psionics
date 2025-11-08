@@ -1,0 +1,85 @@
+_id: vJMQrlPe8ryZ4cAU
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Call_to_Mind,_Lanis's
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Call to Mind, Lanis's
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: minute
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>By&nbsp;meditating&nbsp;on&nbsp;a&nbsp;subject,&nbsp;you&nbsp;can&nbsp;recall&nbsp;natural&nbsp;memories&nbsp;and&nbsp;knowledge&nbsp;otherwise&nbsp;inaccessible&nbsp;to&nbsp;you.
+
+      </p>
+
+      <p>On&nbsp;a&nbsp;failed&nbsp;Knowledge&nbsp;check,&nbsp;you&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;to&nbsp;gain&nbsp;a&nbsp;new&nbsp;check&nbsp;with&nbsp;a&nbsp;+4&nbsp;competence&nbsp;bonus.&nbsp;If&nbsp;successful,&nbsp;you&nbsp;instantly&nbsp;recall&nbsp;what&nbsp;was&nbsp;previously&nbsp;buried&nbsp;in&nbsp;your&nbsp;subconscious.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;competence&nbsp;bonus&nbsp;increases&nbsp;by&nbsp;+1.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 1
+      psion: 1
+      sighted seeker: 1
+      tactician: 1
+      thug: 1
+      voyager: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: minute
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '83'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '169'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!vJMQrlPe8ryZ4cAU'

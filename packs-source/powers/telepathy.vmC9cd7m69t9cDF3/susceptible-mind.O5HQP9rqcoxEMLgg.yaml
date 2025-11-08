@@ -1,0 +1,73 @@
+_id: O5HQP9rqcoxEMLgg
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Susceptible_Mind
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Susceptible Mind
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: hour
+        value: One hour/level
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>You&nbsp;bend&nbsp;the&nbsp;mind&nbsp;of&nbsp;a&nbsp;creature&nbsp;so&nbsp;that&nbsp;it&nbsp;becomes&nbsp;less&nbsp;resistant&nbsp;to&nbsp;powers&nbsp;and&nbsp;spells&nbsp;that&nbsp;warp&nbsp;their&nbsp;loyalty.&nbsp;The&nbsp;target&nbsp;must&nbsp;roll&nbsp;twice&nbsp;to&nbsp;save&nbsp;against&nbsp;any&nbsp;charm&nbsp;or&nbsp;compulsion&nbsp;spells,&nbsp;powers&nbsp;or&nbsp;effects,&nbsp;and&nbsp;take&nbsp;the&nbsp;worst&nbsp;save.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;of&nbsp;any&nbsp;failed&nbsp;charm&nbsp;or&nbsp;compulsion&nbsp;effect&nbsp;is&nbsp;doubled.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;affect&nbsp;another&nbsp;creature&nbsp;in&nbsp;range.</li></ol>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      dread: 2
+      telepath: 2
+      thug: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '14'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!O5HQP9rqcoxEMLgg'

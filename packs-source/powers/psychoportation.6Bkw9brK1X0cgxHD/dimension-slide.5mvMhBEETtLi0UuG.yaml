@@ -1,0 +1,91 @@
+_id: 5mvMhBEETtLi0UuG
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Dimension_Slide
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Dimension Slide
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      target:
+        value: You; see text
+  description:
+    value: >-
+      <p>You&nbsp;instantly&nbsp;transfer&nbsp;yourself&nbsp;from&nbsp;your&nbsp;current&nbsp;location&nbsp;to&nbsp;any&nbsp;other&nbsp;spot&nbsp;within&nbsp;range&nbsp;to&nbsp;which&nbsp;you&nbsp;have&nbsp;line&nbsp;of&nbsp;sight.&nbsp;You&nbsp;can&nbsp;bring&nbsp;along&nbsp;possessions&nbsp;that&nbsp;amount&nbsp;to&nbsp;as&nbsp;much&nbsp;as&nbsp;a&nbsp;medium&nbsp;load,&nbsp;including&nbsp;living&nbsp;creatures&nbsp;that&nbsp;weigh&nbsp;as&nbsp;much&nbsp;as&nbsp;20&nbsp;pounds.&nbsp;Movement&nbsp;caused&nbsp;by&nbsp;the&nbsp;use&nbsp;of&nbsp;dimension&nbsp;slide&nbsp;does&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;somehow&nbsp;attempt&nbsp;to&nbsp;transfer&nbsp;yourself&nbsp;to&nbsp;a&nbsp;location&nbsp;occupied&nbsp;by&nbsp;a&nbsp;solid&nbsp;body&nbsp;or&nbsp;a&nbsp;location&nbsp;you&nbsp;can't&nbsp;see&nbsp;the&nbsp;power&nbsp;simply&nbsp;fails&nbsp;to&nbsp;function.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;as&nbsp;a&nbsp;move&nbsp;action.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 4
+      gambler: 3
+      gifted blade: 3
+      marksman: 3
+      psychic warrior: 3
+      thug: 3
+      voyager: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '95'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '183'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '36'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  subdiscipline:
+    - teleportation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!5mvMhBEETtLi0UuG'

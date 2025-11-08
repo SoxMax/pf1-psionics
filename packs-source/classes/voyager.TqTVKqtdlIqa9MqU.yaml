@@ -1,0 +1,127 @@
+_id: TqTVKqtdlIqa9MqU
+_key: '!items!TqTVKqtdlIqa9MqU'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/items/inventory/brain-purple.png
+name: Voyager
+system:
+  armorProf:
+    - lgt
+  bab: low
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    summary: ''
+    value: </p><p>The voyager is an explorer at heart. She traverses not only the borders of countries, but also the restrictions of time. The voyager's psionic abilities are uniquely tuned towards the flow of causality. Throughout time, her future, past, and parallel selves reach out and lend their aid to the present-day voyager. While they cannot manifest directly, they can contribute during the voyager's journey with a portion of their own psionic abilities and advice. In turn, the voyager devotes some of her own time and energy to aid herself throughout her storied pasts. </p><p>The voyager exploits assistance from her temporal counterparts shamelessly, combining her skills with the experience she gleans from her destiny. The voyager is her own greatest accomplice, and her greatest student. </p><p>In combat, the voyager thrives when she is able to move freely and use the momentum she gathers to her advantage, in combination with her psionic powers. The voyager's accomplices enable her by carrying out temporal tricks to support her or shift her positioning to best leverage her movement-based, psionic-fueled fighting style. </p><p>The voyager is versatile and does not falter at providing assistance even outside of battle. The voyager seems to always know more than she should, and while her fingers may not be the nimblest, she always seems to know how a trap is constructed before she starts working. </p><p><b>Role:</b> The voyager is a skirmisher that combines movement and psionic power to shape her fighting style. She can mix powers into her attacks, and can convert her spent power points and gathered momentum into additional movement. Her parallel actions can contribute to her mobility, augment her attacks and powers, and inconvenience enemies. With the above abilities, she has unparalleled flexibility and swiftness on the battlefield. </p><p><b>Alignment:</b> Any. A voyager is free to act and believe however she wishes. </p><p><b>Starting Wealth:</b> 4d6 x 10 gp (140 gp). In addition, each character begins play with an outfit worth 10 gp or less. </p><p><b>Hit Die:</b> d6 </p><p><b>Class Skills:&#160;</b>The voyager's class skills are Acrobatics (Dex), Autohypnosis (Wis), Bluff (Cha), Climb (Str), Craft (Int), Disable Device (Dex), Escape Artist (Dex), Knowledge (Geography) (Int), Knowledge (History) (Int), Knowledge (Psionics) (Int), Knowledge (Planes) (Int), Perception (Wis), Profession (Wis), Sense Motive (Wis), Sleight of Hand (Dex), Spellcraft (Int), Stealth (Dex), Survival (Wis), and Use Magic Device (Cha). </p><p><b>Skill Ranks per level:</b> 6 + Int modifier </p>
+  hd: 6
+  hp: 6
+  level: 1
+  links:
+    classAssociations:
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.sAOgkGkUo4k8AISq
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.WuAYwWIyUoKKMqSm
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.CamAcGoMSqWs4IQw
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Uo0EQCIoE4mIYe0G
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.k4C0YMeEKgCc4Qe4
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.MWY8ma4eAYoacIEW
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.ewKSQUO4kAcIEwqQ
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Y8ymaEmSsAu4AmmA
+      - level: 4
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Mqm4UW4COm0YOwrC
+      - level: 4
+        uuid: Compendium.pf1-psionics.class-abilities.Item.EK0mYSaMYIcyucw8
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.eqsY06cOoOeaSo6K
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.GO8ES8Ssk4so0W6W
+      - level: 6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.eau6C4oMEEOcosQi
+      - level: 6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.S0iUQKSqWw2MO8Uy
+      - level: 7
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Usm6wiiAwQIkEoSm
+      - level: 8
+        uuid: Compendium.pf1-psionics.class-abilities.Item.yegKIYKcCum4WY6w
+      - level: 9
+        uuid: Compendium.pf1-psionics.class-abilities.Item.4zYWYA0E4EesqakS
+      - level: 10
+        uuid: Compendium.pf1-psionics.class-abilities.Item.SAySaw6AUSuKgKou
+      - level: 11
+        uuid: Compendium.pf1-psionics.class-abilities.Item.wk6SSqCY04CA6AAk
+      - level: 12
+        uuid: Compendium.pf1-psionics.class-abilities.Item.GyeIkWwaEUYKOeIm
+      - level: 14
+        uuid: Compendium.pf1-psionics.class-abilities.Item.OMu0Y80O8Y4S6ASs
+      - level: 16
+        uuid: Compendium.pf1-psionics.class-abilities.Item.UMEaKAkgKIciCuue
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.kGsKe6io4MeSmWIu
+  manifesting:
+    ability: wis
+    cantrips: true
+    progression: high
+  savingThrows:
+    fort:
+      value: low
+    ref:
+      value: high
+    will:
+      value: high
+  skillsPerLevel: 2
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
+  subType: base
+  tag: voyager
+  wealth: 4d6 * 10
+  weaponProf:
+    - simple
+type: class

@@ -1,0 +1,85 @@
+_id: Ad1kaLxQtwr9YVnf
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Bolt
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
+name: Bolt
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: ft
+        value: 0 ft.
+      save:
+        description: None
+      target:
+        value: A normal bolt, arrow, or sling bullet
+  description:
+    value: >-
+      <p>You&nbsp;create&nbsp;2d4&nbsp;ectoplasmic&nbsp;crossbow&nbsp;bolts,&nbsp;arrows,&nbsp;or&nbsp;sling&nbsp;bullets,&nbsp;appropriate&nbsp;to&nbsp;your&nbsp;size,&nbsp;which&nbsp;dissipate&nbsp;into&nbsp;their&nbsp;constituent&nbsp;ectoplasmic&nbsp;particles&nbsp;when&nbsp;the&nbsp;duration&nbsp;ends&nbsp;or&nbsp;after&nbsp;being&nbsp;fired.&nbsp;Ammunition&nbsp;you&nbsp;create&nbsp;has&nbsp;a&nbsp;+1&nbsp;enhancement&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;rolls&nbsp;and&nbsp;damage&nbsp;rolls.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;3&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;improves&nbsp;the&nbsp;ammunition's&nbsp;enhancement&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;rolls&nbsp;and&nbsp;damage&nbsp;rolls&nbsp;by&nbsp;1&nbsp;and&nbsp;creates&nbsp;an&nbsp;additional&nbsp;1d4&nbsp;pieces&nbsp;of&nbsp;appropriate&nbsp;ammunition.
+
+      </p>
+  discipline: metacreativity
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      marksman: 1
+      psion: 1
+      thug: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '82'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '168'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 30–31
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  subdiscipline:
+    - creation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!Ad1kaLxQtwr9YVnf'

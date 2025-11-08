@@ -1,0 +1,87 @@
+_id: h1tFs2yxLBglyDls
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Trace_Psychoport
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Trace Psychoport
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      target:
+        value: Spread with a radius of 25 ft. + 5 ft./2 levels, centered on you
+  description:
+    value: >-
+      <p>As&nbsp;<em><a&nbsp;href="/wiki/Detect_Teleportation"&nbsp;title="Detect&nbsp;Teleportation">detect&nbsp;teleportation</a></em>,&nbsp;except&nbsp;you&nbsp;can&nbsp;trace&nbsp;the&nbsp;destination&nbsp;of&nbsp;any&nbsp;psionic&nbsp;or&nbsp;magical&nbsp;teleportation&nbsp;made&nbsp;by&nbsp;others&nbsp;within&nbsp;this&nbsp;power's&nbsp;area&nbsp;within&nbsp;the&nbsp;last&nbsp;minute.
+
+      </p>
+
+      <p>You&nbsp;know&nbsp;the&nbsp;direction&nbsp;and&nbsp;distance&nbsp;the&nbsp;individuals&nbsp;traveled&nbsp;and&nbsp;could&nbsp;teleport&nbsp;to&nbsp;the&nbsp;location&nbsp;yourself&nbsp;if&nbsp;you&nbsp;so&nbsp;desired&nbsp;(and&nbsp;if&nbsp;you&nbsp;know&nbsp;the&nbsp;psychoport&nbsp;power),&nbsp;as&nbsp;if&nbsp;you&nbsp;had&nbsp;"seen&nbsp;casually"&nbsp;the&nbsp;location.&nbsp;This&nbsp;power&nbsp;does&nbsp;not&nbsp;grant&nbsp;you&nbsp;any&nbsp;information&nbsp;on&nbsp;the&nbsp;conditions&nbsp;at&nbsp;the&nbsp;other&nbsp;end&nbsp;of&nbsp;the&nbsp;trace&nbsp;beyond&nbsp;the&nbsp;mental&nbsp;coordinates&nbsp;of&nbsp;the&nbsp;location.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power's&nbsp;range&nbsp;increases&nbsp;to&nbsp;Medium&nbsp;(100&nbsp;ft.&nbsp;+&nbsp;10&nbsp;ft./level).
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 4
+      psion: 4
+      sighted seeker: 4
+      voyager: 4
+      wilder: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '152'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '253'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '58'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!h1tFs2yxLBglyDls'

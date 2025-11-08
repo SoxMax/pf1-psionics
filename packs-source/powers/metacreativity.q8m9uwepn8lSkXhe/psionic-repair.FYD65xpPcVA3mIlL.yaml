@@ -1,0 +1,88 @@
+_id: FYD65xpPcVA3mIlL
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Repair
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Psionic Repair
+system:
+  actions:
+    - actionType: heal
+      activation:
+        cost: 10
+        type: minute
+      damage:
+        parts:
+          - - 1d4
+            - heal
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: ft
+        value: 10 ft.
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates (harmless, object)
+        harmless: true
+        type: will
+      target:
+        value: one object of up to 1 lb./level
+  description:
+    value: >-
+      <p>This&nbsp;power&nbsp;repairs&nbsp;damaged&nbsp;objects,&nbsp;restoring&nbsp;1d4&nbsp;hit&nbsp;points&nbsp;to&nbsp;the&nbsp;object.&nbsp;If&nbsp;the&nbsp;object&nbsp;has&nbsp;the&nbsp;broken&nbsp;condition,&nbsp;this&nbsp;condition&nbsp;is&nbsp;removed&nbsp;if&nbsp;the&nbsp;object&nbsp;is&nbsp;restored&nbsp;to&nbsp;at&nbsp;least&nbsp;half&nbsp;its&nbsp;original&nbsp;hit&nbsp;points.&nbsp;All&nbsp;of&nbsp;the&nbsp;pieces&nbsp;of&nbsp;an&nbsp;object&nbsp;must&nbsp;be&nbsp;present&nbsp;for&nbsp;this&nbsp;power&nbsp;to&nbsp;function.&nbsp;Magic&nbsp;items&nbsp;can&nbsp;be&nbsp;repaired&nbsp;by&nbsp;this&nbsp;power,&nbsp;but&nbsp;you&nbsp;must&nbsp;have&nbsp;a&nbsp;manifester&nbsp;level&nbsp;equal&nbsp;to&nbsp;or&nbsp;higher&nbsp;than&nbsp;that&nbsp;of&nbsp;the&nbsp;object.&nbsp;Magic&nbsp;items&nbsp;that&nbsp;are&nbsp;destroyed&nbsp;(at&nbsp;0&nbsp;hit&nbsp;points&nbsp;or&nbsp;less)&nbsp;can&nbsp;be&nbsp;repaired&nbsp;with&nbsp;this&nbsp;power,&nbsp;but&nbsp;this&nbsp;power&nbsp;does&nbsp;not&nbsp;restore&nbsp;their&nbsp;magic&nbsp;abilities.&nbsp;This&nbsp;power&nbsp;does&nbsp;not&nbsp;affect&nbsp;creatures&nbsp;(including&nbsp;constructs).&nbsp;This&nbsp;power&nbsp;has&nbsp;no&nbsp;effect&nbsp;on&nbsp;objects&nbsp;that&nbsp;have&nbsp;been&nbsp;warped&nbsp;or&nbsp;otherwise&nbsp;transmuted,&nbsp;but&nbsp;it&nbsp;can&nbsp;still&nbsp;repair&nbsp;damage&nbsp;done&nbsp;to&nbsp;such&nbsp;items.
+
+      </p>
+  discipline: metacreativity
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: true
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 0
+      empath: 0
+      gambler: 0
+      psion: 0
+      thug: 0
+      voyager: 0
+      wilder: 0
+  level: 0
+  manifestTime:
+    units: minute
+    value: 10
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 39–40
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Hidden Intentions'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '174'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '232'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!FYD65xpPcVA3mIlL'

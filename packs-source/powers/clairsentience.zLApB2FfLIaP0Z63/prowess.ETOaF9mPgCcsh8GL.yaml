@@ -1,0 +1,81 @@
+_id: ETOaF9mPgCcsh8GL
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Prowess
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Prowess
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: immediate
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>If&nbsp;an&nbsp;enemy&nbsp;provokes&nbsp;an&nbsp;attack&nbsp;of&nbsp;opportunity&nbsp;from&nbsp;you,&nbsp;you&nbsp;can&nbsp;make&nbsp;the&nbsp;attack&nbsp;even&nbsp;if&nbsp;you've&nbsp;already&nbsp;taken&nbsp;your&nbsp;allotted&nbsp;number&nbsp;of&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;this&nbsp;round&nbsp;(usually&nbsp;one).
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;instantly,&nbsp;quickly&nbsp;enough&nbsp;to&nbsp;gain&nbsp;an&nbsp;extra&nbsp;attack&nbsp;of&nbsp;opportunity&nbsp;in&nbsp;the&nbsp;same&nbsp;round.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gifted blade: 2
+      psychic warrior: 2
+      sighted seeker: 2
+  level: 2
+  manifestTime:
+    units: immediate
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '134'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '231'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '51'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!ETOaF9mPgCcsh8GL'

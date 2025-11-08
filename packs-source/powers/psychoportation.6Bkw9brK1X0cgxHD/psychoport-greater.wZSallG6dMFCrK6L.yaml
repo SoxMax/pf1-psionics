@@ -1,0 +1,69 @@
+_id: wZSallG6dMFCrK6L
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psychoport,_Greater
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Psychoport, Greater
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      name: Use
+  description:
+    value: >-
+      <p>As&nbsp;<em><a&nbsp;href="/wiki/Psychoport"&nbsp;title="Psychoport">psychoport</a></em>,&nbsp;except&nbsp;that&nbsp;there&nbsp;is&nbsp;no&nbsp;range&nbsp;limit&nbsp;and&nbsp;there&nbsp;is&nbsp;no&nbsp;chance&nbsp;you&nbsp;arrive&nbsp;off&nbsp;target.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;need&nbsp;not&nbsp;have&nbsp;seen&nbsp;the&nbsp;destination,&nbsp;but&nbsp;in&nbsp;that&nbsp;case&nbsp;you&nbsp;must&nbsp;have&nbsp;at&nbsp;least&nbsp;a&nbsp;reliable&nbsp;description&nbsp;of&nbsp;the&nbsp;place&nbsp;to&nbsp;which&nbsp;you&nbsp;are&nbsp;teleporting.&nbsp;If&nbsp;you&nbsp;attempt&nbsp;to&nbsp;teleport&nbsp;with&nbsp;insufficient&nbsp;information&nbsp;(or&nbsp;with&nbsp;misleading&nbsp;information),&nbsp;you&nbsp;disappear&nbsp;and&nbsp;simply&nbsp;reappear&nbsp;in&nbsp;your&nbsp;original&nbsp;location.&nbsp;Interplanar&nbsp;travel&nbsp;is&nbsp;not&nbsp;possible.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 8
+      wilder: 8
+  level: 8
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '139'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '237'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '52'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline:
+    - teleportation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!wZSallG6dMFCrK6L'

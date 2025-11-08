@@ -1,0 +1,86 @@
+_id: mhmCG0LQAyz3R7He
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Energy_Dagger
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Energy Dagger
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      damage:
+        parts:
+          - - 1d4
+            - untyped
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: ft
+        value: 0 ft.
+      save:
+        description: None
+      target:
+        value: One dagger
+  description:
+    value: >-
+      <p>You&nbsp;focus&nbsp;your&nbsp;mental&nbsp;energy&nbsp;into&nbsp;the&nbsp;form&nbsp;of&nbsp;a&nbsp;dagger&nbsp;wreathed&nbsp;in&nbsp;psionic&nbsp;energy.&nbsp;This&nbsp;dagger&nbsp;deals&nbsp;damage&nbsp;like&nbsp;a&nbsp;normal&nbsp;dagger&nbsp;for&nbsp;your&nbsp;size&nbsp;and&nbsp;has&nbsp;an&nbsp;additional&nbsp;effect&nbsp;depending&nbsp;on&nbsp;your&nbsp;active&nbsp;energy&nbsp;type.&nbsp;If&nbsp;the&nbsp;dagger&nbsp;leaves&nbsp;your&nbsp;hand,&nbsp;it&nbsp;disappears&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;round.
+
+      </p><ul><li><em>Cold:</em>&nbsp;+1&nbsp;point&nbsp;of&nbsp;cold&nbsp;damage&nbsp;and&nbsp;anyone&nbsp;damaged&nbsp;by&nbsp;this&nbsp;takes&nbsp;a&nbsp;-1&nbsp;penalty&nbsp;to&nbsp;saves&nbsp;against&nbsp;cold&nbsp;effects.</li></ul>
+
+      <ul><li><em>Fire:</em>&nbsp;+1d4&nbsp;fire&nbsp;damage.</li></ul>
+
+      <ul><li><em>Electricity:</em>&nbsp;+1&nbsp;point&nbsp;of&nbsp;electricity&nbsp;damage&nbsp;and&nbsp;a&nbsp;+3&nbsp;bonus&nbsp;to&nbsp;attacks&nbsp;against&nbsp;enemies&nbsp;in&nbsp;metal&nbsp;armor.</li></ul>
+
+      <ul><li><em>Sonic</em>:&nbsp;–1&nbsp;point&nbsp;of&nbsp;damage&nbsp;and&nbsp;ignores&nbsp;an&nbsp;object's&nbsp;hardness.</li></ul>
+
+      <p>This&nbsp;power's&nbsp;subtype&nbsp;is&nbsp;the&nbsp;same&nbsp;as&nbsp;the&nbsp;type&nbsp;of&nbsp;energy&nbsp;you&nbsp;manifest.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;dagger&nbsp;becomes&nbsp;a&nbsp;+1&nbsp;weapon.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;it&nbsp;becomes&nbsp;a&nbsp;+1&nbsp;weapon&nbsp;with&nbsp;the&nbsp;corresponding&nbsp;energy&nbsp;enhancement&nbsp;(<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Flaming"><em>flaming</em></a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Frost"><em>frost</em></a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shock"><em>shock</em></a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Thundering"><em>thundering</em></a>)&nbsp;in&nbsp;addition&nbsp;to&nbsp;its&nbsp;energy&nbsp;bonus.</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;it&nbsp;becomes&nbsp;a&nbsp;+1&nbsp;weapon&nbsp;with&nbsp;the&nbsp;corresponding&nbsp;energy&nbsp;enhancement&nbsp;(<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Flaming%20Burst"><em>flaming&nbsp;burst</em></a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Icy%20Burst"><em>icy&nbsp;burst</em></a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shocking%20Burst"><em>shocking&nbsp;burst</em></a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Keen"><em>keen</em></a><a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Thundering"><em>thundering</em></a>).</li></ol>
+  descriptors:
+    - see text
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 1
+      psychic warrior: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '71'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!mhmCG0LQAyz3R7He'

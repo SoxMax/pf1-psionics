@@ -1,0 +1,29 @@
+_id: QBwW0xkjjxxwNIK4
+_stats:
+  coreVersion: '13.350'
+folder: vB44mLAuVxEJLzeN
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Tribute
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Highlord
+  description:
+    value: >-
+      <p><b>Tribute:</b>At&nbsp;5th&nbsp;level,&nbsp;a&nbsp;highlord&nbsp;can&nbsp;draw&nbsp;upon&nbsp;the&nbsp;talents&nbsp;of&nbsp;his&nbsp;collective&nbsp;and&nbsp;use&nbsp;them&nbsp;as&nbsp;his&nbsp;own.&nbsp;As&nbsp;a&nbsp;move&nbsp;action,&nbsp;the&nbsp;highlord&nbsp;designates&nbsp;a&nbsp;single&nbsp;feat,&nbsp;item&nbsp;enhancement,&nbsp;power&nbsp;effect,&nbsp;or&nbsp;spell&nbsp;effect&nbsp;from&nbsp;among&nbsp;those&nbsp;belonging&nbsp;or&nbsp;affecting&nbsp;willing&nbsp;members&nbsp;of&nbsp;his&nbsp;collective&nbsp;as&nbsp;tribute.&nbsp;The&nbsp;highlord&nbsp;gains&nbsp;the&nbsp;effects&nbsp;of&nbsp;the&nbsp;selected&nbsp;tribute&nbsp;until&nbsp;he&nbsp;designates&nbsp;a&nbsp;new&nbsp;tribute,&nbsp;for&nbsp;as&nbsp;long&nbsp;as&nbsp;the&nbsp;effect&nbsp;remains&nbsp;active&nbsp;on&nbsp;the&nbsp;member&nbsp;that&nbsp;possessed.&nbsp;In&nbsp;addition,&nbsp;if&nbsp;a&nbsp;member&nbsp;of&nbsp;the&nbsp;collective&nbsp;leaves&nbsp;the&nbsp;collective,&nbsp;the&nbsp;highlord&nbsp;loses&nbsp;the&nbsp;effects&nbsp;of&nbsp;tributes&nbsp;from&nbsp;that&nbsp;member.
+
+      </p><p>When&nbsp;he&nbsp;gains&nbsp;this&nbsp;ability,&nbsp;the&nbsp;highlord&nbsp;may&nbsp;only&nbsp;have&nbsp;one&nbsp;tribute&nbsp;designated&nbsp;at&nbsp;once.&nbsp;At&nbsp;11th&nbsp;level,&nbsp;the&nbsp;highlord&nbsp;may&nbsp;have&nbsp;up&nbsp;to&nbsp;two&nbsp;tributes&nbsp;designated,&nbsp;and&nbsp;at&nbsp;17th&nbsp;level,&nbsp;he&nbsp;may&nbsp;have&nbsp;up&nbsp;to&nbsp;three.&nbsp;Once&nbsp;the&nbsp;highlord&nbsp;gains&nbsp;the&nbsp;ability&nbsp;to&nbsp;have&nbsp;multiple&nbsp;tributes&nbsp;at&nbsp;once,&nbsp;he&nbsp;may&nbsp;choose&nbsp;his&nbsp;tributes&nbsp;from&nbsp;either&nbsp;the&nbsp;same&nbsp;or&nbsp;different&nbsp;members&nbsp;of&nbsp;the&nbsp;collective,&nbsp;and&nbsp;can&nbsp;choose&nbsp;a&nbsp;different&nbsp;type&nbsp;of&nbsp;effect&nbsp;for&nbsp;each&nbsp;tribute.
+
+      </p><p>If&nbsp;the&nbsp;highlord&nbsp;selects&nbsp;a&nbsp;feat&nbsp;as&nbsp;one&nbsp;of&nbsp;his&nbsp;designated&nbsp;tributes,&nbsp;he&nbsp;must&nbsp;meet&nbsp;the&nbsp;prerequisites&nbsp;of&nbsp;that&nbsp;feat.&nbsp;He&nbsp;may&nbsp;use&nbsp;feats&nbsp;gained&nbsp;through&nbsp;other&nbsp;designated&nbsp;tributes&nbsp;to&nbsp;meet&nbsp;these&nbsp;prerequisites.&nbsp;If&nbsp;the&nbsp;highlord&nbsp;selects&nbsp;an&nbsp;item&nbsp;enhancement,&nbsp;he&nbsp;applies&nbsp;that&nbsp;item&nbsp;enhancement&nbsp;to&nbsp;a&nbsp;single&nbsp;qualifying&nbsp;item&nbsp;(such&nbsp;as&nbsp;a&nbsp;ranged&nbsp;weapon&nbsp;gaining&nbsp;the&nbsp;<i>distant&nbsp;</i>enhancement)&nbsp;that&nbsp;he&nbsp;is&nbsp;carrying&nbsp;or&nbsp;wielding.&nbsp;The&nbsp;normal&nbsp;caps&nbsp;on&nbsp;an&nbsp;item's&nbsp;enhancement&nbsp;bonus&nbsp;and&nbsp;special&nbsp;properties&nbsp;still&nbsp;apply.&nbsp;The&nbsp;item&nbsp;loses&nbsp;the&nbsp;designated&nbsp;property&nbsp;if&nbsp;the&nbsp;highlord&nbsp;ceases&nbsp;to&nbsp;carry&nbsp;and/or&nbsp;use&nbsp;it.
+
+      </p><p></p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–6
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: classFeat
+  tag: tribute
+type: feat
+_key: '!items!QBwW0xkjjxxwNIK4'

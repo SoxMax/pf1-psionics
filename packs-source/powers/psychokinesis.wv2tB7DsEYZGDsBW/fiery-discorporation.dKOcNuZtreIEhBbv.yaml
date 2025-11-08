@@ -1,0 +1,86 @@
+_id: dKOcNuZtreIEhBbv
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Fiery_Discorporation
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/fire/flame-burning-skull-orange.webp
+name: Fiery Discorporation
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: immediate
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;use&nbsp;your&nbsp;mastery&nbsp;of&nbsp;energy&nbsp;to&nbsp;cheat&nbsp;death.&nbsp;If&nbsp;you&nbsp;are&nbsp;within&nbsp;30&nbsp;feet&nbsp;of&nbsp;an&nbsp;open&nbsp;flame,&nbsp;you&nbsp;can&nbsp;use&nbsp;this&nbsp;power.&nbsp;Any&nbsp;damage&nbsp;that&nbsp;would&nbsp;reduce&nbsp;you&nbsp;to&nbsp;0&nbsp;hit&nbsp;points&nbsp;or&nbsp;lower&nbsp;instead&nbsp;has&nbsp;a&nbsp;chance&nbsp;to&nbsp;discorporate&nbsp;you.&nbsp;You&nbsp;attempt&nbsp;a&nbsp;Will&nbsp;save&nbsp;(DC&nbsp;5&nbsp;+&nbsp;damage&nbsp;dealt);&nbsp;if&nbsp;it&nbsp;succeeds,&nbsp;you&nbsp;take&nbsp;no&nbsp;damage&nbsp;and&nbsp;simply&nbsp;break&nbsp;apart&nbsp;into&nbsp;dozens&nbsp;of&nbsp;flitting&nbsp;tongues&nbsp;of&nbsp;flame&nbsp;and&nbsp;vanish,&nbsp;along&nbsp;with&nbsp;all&nbsp;your&nbsp;gear&nbsp;and&nbsp;anything&nbsp;you&nbsp;are&nbsp;holding&nbsp;or&nbsp;carrying.
+
+      </p>
+
+      <p>One&nbsp;day&nbsp;later,&nbsp;you&nbsp;reappear&nbsp;adjacent&nbsp;to&nbsp;an&nbsp;open&nbsp;flame&nbsp;nearest&nbsp;to&nbsp;the&nbsp;place&nbsp;where&nbsp;you&nbsp;discorporated,&nbsp;seeming&nbsp;to&nbsp;materialize&nbsp;from&nbsp;the&nbsp;fire&nbsp;(you&nbsp;choose&nbsp;where&nbsp;you&nbsp;appear&nbsp;along&nbsp;the&nbsp;perimeter&nbsp;of&nbsp;that&nbsp;open&nbsp;flame).&nbsp;While&nbsp;discorporated,&nbsp;you&nbsp;do&nbsp;not&nbsp;exist—you&nbsp;can&nbsp;do&nbsp;nothing,&nbsp;nor&nbsp;can&nbsp;any&nbsp;of&nbsp;your&nbsp;enemies&nbsp;do&nbsp;anything&nbsp;to&nbsp;you.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;3&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;on&nbsp;your&nbsp;Will&nbsp;save&nbsp;to&nbsp;determine&nbsp;whether&nbsp;you&nbsp;discorporate.
+
+      </p>
+  descriptors:
+    - fire
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 5
+      kineticist: 5
+  level: 5
+  manifestTime:
+    units: immediate
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '113'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 203–204
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '42'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!dKOcNuZtreIEhBbv'

@@ -1,0 +1,94 @@
+_id: 8Aw0UIBHd5kRjOVS
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Resist_Death
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Resist Death
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: hour
+        value: '1'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates (harmless)
+        harmless: true
+        type: will
+      target:
+        value: Self
+  description:
+    value: >-
+      <p>The&nbsp;manifester&nbsp;combines&nbsp;life&nbsp;force&nbsp;and&nbsp;psionic&nbsp;energy&nbsp;into&nbsp;a&nbsp;shield&nbsp;that&nbsp;protects&nbsp;the&nbsp;target&nbsp;from&nbsp;negative&nbsp;energy&nbsp;attacks.&nbsp;This&nbsp;power&nbsp;prevents&nbsp;energy&nbsp;drain&nbsp;and&nbsp;any&nbsp;negative&nbsp;energy&nbsp;effects,&nbsp;including&nbsp;channeled&nbsp;energy.&nbsp;Once&nbsp;the&nbsp;power&nbsp;has&nbsp;prevented&nbsp;(or&nbsp;helped&nbsp;prevent)&nbsp;one&nbsp;effect,&nbsp;the&nbsp;power&nbsp;dissipates.&nbsp;When&nbsp;manifested&nbsp;the&nbsp;power&nbsp;deals&nbsp;2&nbsp;points&nbsp;of&nbsp;non-lethal&nbsp;damage&nbsp;to&nbsp;the&nbsp;target.&nbsp;The&nbsp;damage&nbsp;may&nbsp;be&nbsp;healed&nbsp;normally.&nbsp;The&nbsp;subject&nbsp;gains&nbsp;+4&nbsp;moral&nbsp;bonus&nbsp;against&nbsp;death&nbsp;spells&nbsp;and&nbsp;magical/psionic&nbsp;death&nbsp;effects&nbsp;even&nbsp;if&nbsp;a&nbsp;save&nbsp;to&nbsp;negate&nbsp;such&nbsp;effects&nbsp;is&nbsp;not&nbsp;normally&nbsp;allowed.
+
+      </p>
+
+      <p>This&nbsp;power&nbsp;does&nbsp;not&nbsp;remove&nbsp;negative&nbsp;levels&nbsp;that&nbsp;the&nbsp;target&nbsp;has&nbsp;already&nbsp;gained,&nbsp;but&nbsp;it&nbsp;does&nbsp;remove&nbsp;penalties&nbsp;from&nbsp;negative&nbsp;levels&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;power.
+
+      </p>
+
+      <p>Resist&nbsp;death&nbsp;does&nbsp;not&nbsp;protect&nbsp;against&nbsp;other&nbsp;sorts&nbsp;of&nbsp;attacks,&nbsp;even&nbsp;if&nbsp;those&nbsp;attacks&nbsp;might&nbsp;be&nbsp;lethal.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;2&nbsp;points&nbsp;spent,&nbsp;the&nbsp;power&nbsp;prevents&nbsp;1&nbsp;additional&nbsp;effect.
+
+      </p>
+  descriptors:
+    - network
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      egoist: 4
+      vitalist: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '177'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 240–241
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '54'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!8Aw0UIBHd5kRjOVS'

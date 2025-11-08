@@ -1,0 +1,106 @@
+_id: 0LV7VfYaHmgsBo8y
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Memory_Modification
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Memory Modification
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: round
+      duration:
+        units: perm
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>You&nbsp;reach&nbsp;into&nbsp;the&nbsp;subject's&nbsp;mind&nbsp;and&nbsp;modify&nbsp;as&nbsp;many&nbsp;as&nbsp;5&nbsp;minutes&nbsp;of&nbsp;its&nbsp;memories&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p>
+
+      <p>Eliminate&nbsp;all&nbsp;memory&nbsp;of&nbsp;an&nbsp;event&nbsp;the&nbsp;subject&nbsp;actually&nbsp;experienced.&nbsp;This&nbsp;cannot&nbsp;negate&nbsp;charm,&nbsp;geas/quest,&nbsp;suggestion,&nbsp;or&nbsp;similar&nbsp;spells.
+
+      </p>
+
+      <p>Allow&nbsp;the&nbsp;subject&nbsp;to&nbsp;recall&nbsp;with&nbsp;perfect&nbsp;clarity&nbsp;an&nbsp;event&nbsp;it&nbsp;actually&nbsp;experienced.
+
+      </p>
+
+      <p>Change&nbsp;the&nbsp;details&nbsp;remembered&nbsp;of&nbsp;an&nbsp;event&nbsp;the&nbsp;subject&nbsp;actually&nbsp;experienced.
+
+      </p>
+
+      <p>Implant&nbsp;a&nbsp;memory&nbsp;of&nbsp;an&nbsp;event&nbsp;the&nbsp;subject&nbsp;never&nbsp;experienced.
+
+      </p>
+
+      <p>Manifesting&nbsp;this&nbsp;power&nbsp;takes&nbsp;1&nbsp;round.&nbsp;If&nbsp;the&nbsp;subject&nbsp;fails&nbsp;to&nbsp;save,&nbsp;you&nbsp;proceed&nbsp;by&nbsp;spending&nbsp;as&nbsp;much&nbsp;as&nbsp;5&nbsp;minutes&nbsp;(a&nbsp;period&nbsp;of&nbsp;time&nbsp;equal&nbsp;to&nbsp;the&nbsp;amount&nbsp;of&nbsp;memory&nbsp;you&nbsp;want&nbsp;to&nbsp;modify)&nbsp;visualizing&nbsp;the&nbsp;memory&nbsp;you&nbsp;wish&nbsp;to&nbsp;modify&nbsp;in&nbsp;the&nbsp;subject.&nbsp;If&nbsp;your&nbsp;concentration&nbsp;is&nbsp;disturbed&nbsp;before&nbsp;the&nbsp;visualization&nbsp;is&nbsp;complete,&nbsp;or&nbsp;if&nbsp;the&nbsp;subject&nbsp;is&nbsp;ever&nbsp;beyond&nbsp;the&nbsp;power's&nbsp;range&nbsp;during&nbsp;this&nbsp;time,&nbsp;the&nbsp;power&nbsp;fails.
+
+      </p>
+
+      <p>A&nbsp;modified&nbsp;memory&nbsp;does&nbsp;not&nbsp;necessarily&nbsp;affect&nbsp;the&nbsp;subject's&nbsp;actions,&nbsp;particularly&nbsp;if&nbsp;it&nbsp;contradicts&nbsp;the&nbsp;creature's&nbsp;natural&nbsp;inclinations.&nbsp;An&nbsp;illogical&nbsp;modified&nbsp;memory&nbsp;is&nbsp;dismissed&nbsp;by&nbsp;the&nbsp;creature&nbsp;as&nbsp;a&nbsp;bad&nbsp;dream,&nbsp;too&nbsp;much&nbsp;wine,&nbsp;or&nbsp;another&nbsp;similar&nbsp;excuse.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 4
+      telepath: 4
+  level: 4
+  manifestTime:
+    units: round
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '121'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '217'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '46'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline:
+    - compulsion
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!0LV7VfYaHmgsBo8y'

@@ -1,0 +1,80 @@
+_id: H8oMAxKONqROMc6O
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Sidestep
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Sidestep
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: immediate
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: Self
+  description:
+    value: >-
+      <p>When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;when&nbsp;you&nbsp;would&nbsp;normally&nbsp;be&nbsp;hit&nbsp;with&nbsp;an&nbsp;attack&nbsp;from&nbsp;a&nbsp;melee&nbsp;weapon,&nbsp;you&nbsp;may&nbsp;deflect&nbsp;it&nbsp;so&nbsp;that&nbsp;you&nbsp;take&nbsp;no&nbsp;damage&nbsp;from&nbsp;it.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 2
+      empath: 2
+      marksman: 2
+      psychic warrior: 2
+      thug: 2
+      voyager: 2
+  level: 2
+  manifestTime:
+    units: immediate
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '32'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 179–180
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '245'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!H8oMAxKONqROMc6O'

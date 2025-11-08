@@ -1,0 +1,31 @@
+_id: UVWw0Na1sBX1TLcO
+_stats:
+  coreVersion: '13.350'
+folder: 3nTUlQKGd4eDVPqX
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Ranged Specialist
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Marksman
+  description:
+    value: >-
+      <p><b>Ranged&nbsp;Specialist:</b>At&nbsp;19th&nbsp;level,&nbsp;a&nbsp;Marksman's&nbsp;ranged&nbsp;and&nbsp;thrown&nbsp;attacks&nbsp;have&nbsp;their&nbsp;critical&nbsp;multiplier&nbsp;increased&nbsp;by&nbsp;1&nbsp;(x2&nbsp;becomes&nbsp;x3,&nbsp;for&nbsp;example)&nbsp;and&nbsp;her&nbsp;penalties&nbsp;for&nbsp;range&nbsp;increments&nbsp;are&nbsp;halved.&nbsp;If&nbsp;the&nbsp;Marksman&nbsp;has&nbsp;the&nbsp;Far&nbsp;Shot&nbsp;feat,&nbsp;she&nbsp;instead&nbsp;suffers&nbsp;no&nbsp;penalties&nbsp;for&nbsp;range&nbsp;increments.
+
+      </p>
+
+      <div&nbsp;class="mw-heading&nbsp;mw-heading2"></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 47–50
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 44–46
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: ranged-specialist
+type: feat
+_key: '!items!UVWw0Na1sBX1TLcO'

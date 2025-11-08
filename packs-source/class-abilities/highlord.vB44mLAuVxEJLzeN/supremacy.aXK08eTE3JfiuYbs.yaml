@@ -1,0 +1,29 @@
+_id: aXK08eTE3JfiuYbs
+_stats:
+  coreVersion: '13.350'
+folder: vB44mLAuVxEJLzeN
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Supremacy
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Highlord
+  description:
+    value: >-
+      <p><b>Supremacy:</b>Once&nbsp;per&nbsp;round,&nbsp;when&nbsp;a&nbsp;20th&nbsp;level&nbsp;highlord&nbsp;would&nbsp;die&nbsp;or&nbsp;be&nbsp;destroyed,&nbsp;he&nbsp;may&nbsp;choose&nbsp;to&nbsp;have&nbsp;a&nbsp;member&nbsp;of&nbsp;his&nbsp;collective&nbsp;die&nbsp;or&nbsp;be&nbsp;destroyed&nbsp;in&nbsp;his&nbsp;stead.&nbsp;Loss&nbsp;of&nbsp;hit&nbsp;points&nbsp;and&nbsp;death&nbsp;effects&nbsp;simply&nbsp;fail&nbsp;to&nbsp;kill&nbsp;him,&nbsp;he&nbsp;suffers&nbsp;no&nbsp;change&nbsp;in&nbsp;Constitution&nbsp;score,&nbsp;and&nbsp;he&nbsp;ignores&nbsp;ongoing&nbsp;damage&nbsp;for&nbsp;a&nbsp;round.&nbsp;The&nbsp;highlord&nbsp;is&nbsp;healed&nbsp;for&nbsp;an&nbsp;amount&nbsp;equal&nbsp;to&nbsp;the&nbsp;current&nbsp;hit&nbsp;points&nbsp;of&nbsp;the&nbsp;member&nbsp;who&nbsp;died&nbsp;for&nbsp;him.&nbsp;If&nbsp;this&nbsp;amount&nbsp;of&nbsp;hit&nbsp;points&nbsp;is&nbsp;not&nbsp;enough&nbsp;to&nbsp;bring&nbsp;the&nbsp;highlord&nbsp;back&nbsp;above&nbsp;the&nbsp;threshold&nbsp;of&nbsp;death,&nbsp;then&nbsp;the&nbsp;highlord&nbsp;still&nbsp;dies.&nbsp;This&nbsp;is&nbsp;a&nbsp;death&nbsp;effect,&nbsp;and&nbsp;he&nbsp;may&nbsp;not&nbsp;choose&nbsp;a&nbsp;creature&nbsp;immune&nbsp;to&nbsp;death&nbsp;effects&nbsp;to&nbsp;die&nbsp;in&nbsp;his&nbsp;stead.
+
+      </p><p>A&nbsp;member&nbsp;of&nbsp;the&nbsp;collective&nbsp;may&nbsp;attempt&nbsp;to&nbsp;resist&nbsp;this&nbsp;effect&nbsp;with&nbsp;a&nbsp;Will&nbsp;save&nbsp;(DC&nbsp;20&nbsp;+&nbsp;the&nbsp;highlord's&nbsp;Charisma&nbsp;modifier).&nbsp;If&nbsp;they&nbsp;succeed,&nbsp;the&nbsp;highlord&nbsp;dies&nbsp;as&nbsp;normal.
+
+      </p>
+
+      <div&nbsp;class="mw-heading&nbsp;mw-heading2"></p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–6
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: classFeat
+  tag: supremacy
+type: feat
+_key: '!items!aXK08eTE3JfiuYbs'

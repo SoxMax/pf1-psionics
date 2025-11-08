@@ -1,0 +1,88 @@
+_id: oQvsZf1U7mqotsjD
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Barred_Mind
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Barred Mind
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: day
+        value: One day
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates (harmless)
+        harmless: true
+        type: will
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>The&nbsp;subject&nbsp;is&nbsp;protected&nbsp;from&nbsp;all&nbsp;devices,&nbsp;powers,&nbsp;and&nbsp;spells&nbsp;that&nbsp;gather&nbsp;information&nbsp;about&nbsp;the&nbsp;target&nbsp;through&nbsp;divination&nbsp;powers&nbsp;or&nbsp;magic&nbsp;(such&nbsp;as&nbsp;detect&nbsp;evil,&nbsp;locate&nbsp;creature,&nbsp;scry,&nbsp;and&nbsp;see&nbsp;invisible).&nbsp;Barred&nbsp;mind&nbsp;also&nbsp;grants&nbsp;a&nbsp;+8&nbsp;resistance&nbsp;bonus&nbsp;on&nbsp;saving&nbsp;throws&nbsp;against&nbsp;all&nbsp;mind-affecting&nbsp;powers,&nbsp;spells,&nbsp;and&nbsp;effects.&nbsp;Barred&nbsp;mind&nbsp;even&nbsp;foils&nbsp;<em><a&nbsp;href="/wiki/Bend_Reality"&nbsp;title="Bend&nbsp;Reality">bend&nbsp;reality</a></em>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/SpellDisplay.aspx?ItemName=limited%20wish"><em>limited&nbsp;wish</em></a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/SpellDisplay.aspx?ItemName=miracle"><em>miracle</em></a>,&nbsp;<em><a&nbsp;href="/wiki/Reality_Revision"&nbsp;title="Reality&nbsp;Revision">reality&nbsp;revision</a></em>,&nbsp;and&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/SpellDisplay.aspx?ItemName=wish"><em>wish</em></a>&nbsp;spells&nbsp;when&nbsp;they&nbsp;are&nbsp;used&nbsp;in&nbsp;such&nbsp;a&nbsp;way&nbsp;as&nbsp;to&nbsp;gain&nbsp;information&nbsp;about&nbsp;the&nbsp;target.&nbsp;In&nbsp;the&nbsp;case&nbsp;of&nbsp;remote&nbsp;viewing&nbsp;or&nbsp;scrying&nbsp;that&nbsp;scans&nbsp;an&nbsp;area&nbsp;the&nbsp;creature&nbsp;is&nbsp;in,&nbsp;such&nbsp;as&nbsp;arcane&nbsp;eye,&nbsp;the&nbsp;effect&nbsp;works&nbsp;but&nbsp;the&nbsp;creature&nbsp;simply&nbsp;isn't&nbsp;detected.&nbsp;Remote&nbsp;viewing&nbsp;(scrying)&nbsp;attempts&nbsp;that&nbsp;are&nbsp;targeted&nbsp;specifically&nbsp;at&nbsp;the&nbsp;subject&nbsp;do&nbsp;not&nbsp;work&nbsp;at&nbsp;all.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;two&nbsp;power&nbsp;points&nbsp;spent,&nbsp;the&nbsp;resistance&nbsp;bonus&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: true
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 8
+      tactician: 8
+      vitalist: 8
+      wilder: 8
+  level: 8
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '80'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '165'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '30'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!oQvsZf1U7mqotsjD'

@@ -1,0 +1,83 @@
+_id: cIdmOHYs8YDhe93d
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Timeless_Body
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Timeless Body
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>Your&nbsp;body&nbsp;ignores&nbsp;all&nbsp;harmful&nbsp;(and&nbsp;helpful)&nbsp;effects,&nbsp;beginning&nbsp;when&nbsp;you&nbsp;finish&nbsp;manifesting&nbsp;this&nbsp;power&nbsp;and&nbsp;ending&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;next&nbsp;turn.&nbsp;While&nbsp;timeless&nbsp;body&nbsp;is&nbsp;in&nbsp;effect,&nbsp;you&nbsp;are&nbsp;invulnerable&nbsp;to&nbsp;all&nbsp;attacks&nbsp;and&nbsp;powers.
+
+      </p>
+
+      <p>This&nbsp;power&nbsp;cannot&nbsp;be&nbsp;quickened.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 9
+      tactician: 9
+      vitalist: 9
+      wilder: 9
+  level: 9
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '150'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '252'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '58'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!cIdmOHYs8YDhe93d'

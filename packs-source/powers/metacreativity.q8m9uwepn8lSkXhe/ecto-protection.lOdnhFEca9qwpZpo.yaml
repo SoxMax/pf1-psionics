@@ -1,0 +1,82 @@
+_id: lOdnhFEca9qwpZpo
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Ecto_Protection
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+name: Ecto Protection
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      target:
+        value: An astral construct you manifest
+  description:
+    value: >-
+      <p>This&nbsp;power&nbsp;reinforces&nbsp;an&nbsp;<em><a&nbsp;href="/wiki/Astral_Construct"&nbsp;title="Astral&nbsp;Construct">astral&nbsp;construct</a></em>&nbsp;you&nbsp;created&nbsp;by&nbsp;the&nbsp;astral&nbsp;construct&nbsp;power,&nbsp;increasing&nbsp;the&nbsp;DC&nbsp;by&nbsp;1&nbsp;on&nbsp;any&nbsp;dispel&nbsp;psionics&nbsp;attempts&nbsp;or&nbsp;a&nbsp;similar&nbsp;effect,&nbsp;and&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;on&nbsp;its&nbsp;saving&nbsp;throw&nbsp;to&nbsp;resist&nbsp;dismiss&nbsp;ectoplasm.&nbsp;This&nbsp;power&nbsp;can&nbsp;be&nbsp;manifested&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;in&nbsp;the&nbsp;same&nbsp;round&nbsp;that&nbsp;you&nbsp;manifest&nbsp;an&nbsp;astral&nbsp;construct,&nbsp;as&nbsp;long&nbsp;as&nbsp;the&nbsp;power&nbsp;points&nbsp;you&nbsp;spend&nbsp;to&nbsp;perform&nbsp;both&nbsp;actions&nbsp;do&nbsp;not&nbsp;exceed&nbsp;your&nbsp;manifester&nbsp;level.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;DC&nbsp;for&nbsp;dispel&nbsp;psionics&nbsp;or&nbsp;similar&nbsp;effects&nbsp;increases&nbsp;by&nbsp;1,&nbsp;and&nbsp;your&nbsp;astral&nbsp;construct's&nbsp;bonus&nbsp;on&nbsp;its&nbsp;saving&nbsp;throw&nbsp;to&nbsp;resist&nbsp;dismiss&nbsp;ectoplasm&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  discipline: metacreativity
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 1
+      psion: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '99'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '188'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '38'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!lOdnhFEca9qwpZpo'

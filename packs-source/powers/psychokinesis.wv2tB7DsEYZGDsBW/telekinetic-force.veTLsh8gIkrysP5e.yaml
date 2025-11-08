@@ -1,0 +1,103 @@
+_id: veTLsh8gIkrysP5e
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Telekinetic_Force
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+name: Telekinetic Force
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates (object)
+        type: will
+      target:
+        value: >-
+          One or more objects or creatures with a total weight of 250 lb. or
+          less
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;use&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;two&nbsp;ways:
+
+      </p><ul><li><em>Move:</em>&nbsp;You&nbsp;move&nbsp;an&nbsp;object,&nbsp;or&nbsp;even&nbsp;a&nbsp;creature,&nbsp;by&nbsp;concentrating&nbsp;your&nbsp;mind&nbsp;upon&nbsp;its&nbsp;current&nbsp;location&nbsp;and&nbsp;then&nbsp;the&nbsp;location&nbsp;you&nbsp;desire,&nbsp;creating&nbsp;a&nbsp;sustained&nbsp;force.&nbsp;You&nbsp;can&nbsp;move&nbsp;an&nbsp;object&nbsp;weighing&nbsp;no&nbsp;more&nbsp;than&nbsp;250&nbsp;pounds&nbsp;up&nbsp;to&nbsp;20&nbsp;feet&nbsp;per&nbsp;round.&nbsp;A&nbsp;creature&nbsp;can&nbsp;negate&nbsp;the&nbsp;effect&nbsp;on&nbsp;an&nbsp;object&nbsp;it&nbsp;possesses&nbsp;or&nbsp;itself&nbsp;with&nbsp;a&nbsp;successful&nbsp;Will&nbsp;save&nbsp;or&nbsp;with&nbsp;power&nbsp;resistance.&nbsp;The&nbsp;weight&nbsp;can&nbsp;be&nbsp;moved&nbsp;across&nbsp;the&nbsp;ground&nbsp;or&nbsp;through&nbsp;the&nbsp;air.&nbsp;This&nbsp;power&nbsp;ends&nbsp;if&nbsp;the&nbsp;object&nbsp;is&nbsp;forced&nbsp;out&nbsp;of&nbsp;range.&nbsp;If&nbsp;you&nbsp;cease&nbsp;concentration,&nbsp;the&nbsp;object&nbsp;falls&nbsp;or&nbsp;stops.</li></ul>
+
+      <ul><li>You&nbsp;can&nbsp;drop&nbsp;a&nbsp;weight&nbsp;and&nbsp;pick&nbsp;up&nbsp;another&nbsp;during&nbsp;the&nbsp;power's&nbsp;duration,&nbsp;as&nbsp;long&nbsp;as&nbsp;you&nbsp;don't&nbsp;stop&nbsp;concentrating&nbsp;on&nbsp;maintaining&nbsp;the&nbsp;power.&nbsp;An&nbsp;object&nbsp;can&nbsp;be&nbsp;telekinetically&nbsp;manipulated&nbsp;as&nbsp;if&nbsp;you&nbsp;were&nbsp;moving&nbsp;it&nbsp;with&nbsp;one&nbsp;hand.</li></ul>
+
+      <ul><li>If&nbsp;you&nbsp;spend&nbsp;at&nbsp;least&nbsp;5&nbsp;rounds&nbsp;concentrating&nbsp;on&nbsp;an&nbsp;unattended&nbsp;object,&nbsp;you&nbsp;can&nbsp;attempt&nbsp;to&nbsp;break&nbsp;or&nbsp;burst&nbsp;it&nbsp;as&nbsp;if&nbsp;making&nbsp;a&nbsp;Strength&nbsp;check,&nbsp;except&nbsp;that&nbsp;you&nbsp;apply&nbsp;your&nbsp;key&nbsp;ability&nbsp;modifier&nbsp;to&nbsp;the&nbsp;check&nbsp;instead&nbsp;of&nbsp;your&nbsp;Strength&nbsp;&nbsp;modifier.</li></ul>
+
+      <ul><li>If&nbsp;a&nbsp;creature&nbsp;succeeds&nbsp;on&nbsp;its&nbsp;Will&nbsp;save&nbsp;against&nbsp;this&nbsp;effect,&nbsp;either&nbsp;to&nbsp;prevent&nbsp;you&nbsp;moving&nbsp;the&nbsp;creature&nbsp;or&nbsp;an&nbsp;object&nbsp;in&nbsp;its&nbsp;possession,&nbsp;you&nbsp;cannot&nbsp;target&nbsp;another&nbsp;item&nbsp;in&nbsp;that&nbsp;creature's&nbsp;possession&nbsp;nor&nbsp;the&nbsp;creature&nbsp;itself&nbsp;unless&nbsp;you&nbsp;manifest&nbsp;the&nbsp;power&nbsp;again.&nbsp;If&nbsp;the&nbsp;creature&nbsp;fails&nbsp;its&nbsp;Will&nbsp;save,&nbsp;it&nbsp;may&nbsp;still&nbsp;take&nbsp;its&nbsp;normal&nbsp;actions,&nbsp;except&nbsp;it&nbsp;cannot&nbsp;move&nbsp;from&nbsp;its&nbsp;current&nbsp;location.</li></ul>
+
+      <ul><li><em>Thrust:</em>&nbsp;You&nbsp;can&nbsp;affect&nbsp;one&nbsp;or&nbsp;more&nbsp;objects&nbsp;or&nbsp;creatures&nbsp;by&nbsp;concentrating&nbsp;your&nbsp;mind&nbsp;upon,&nbsp;sending&nbsp;them&nbsp;in&nbsp;a&nbsp;deadly&nbsp;hail&nbsp;at&nbsp;your&nbsp;foes—or&nbsp;simply&nbsp;by&nbsp;hurling&nbsp;your&nbsp;foe!&nbsp;You&nbsp;can&nbsp;hurl&nbsp;one&nbsp;object&nbsp;or&nbsp;creature&nbsp;per&nbsp;manifester&nbsp;level&nbsp;(maximum&nbsp;fifteen&nbsp;separate&nbsp;targets),&nbsp;as&nbsp;long&nbsp;as&nbsp;all&nbsp;are&nbsp;within&nbsp;the&nbsp;power's&nbsp;range&nbsp;and&nbsp;each&nbsp;is&nbsp;no&nbsp;more&nbsp;than&nbsp;10&nbsp;feet&nbsp;away&nbsp;from&nbsp;another&nbsp;one.&nbsp;Each&nbsp;object&nbsp;or&nbsp;creature&nbsp;can&nbsp;be&nbsp;hurled&nbsp;a&nbsp;maximum&nbsp;distance&nbsp;of&nbsp;10&nbsp;feet&nbsp;per&nbsp;level.</li></ul>
+
+      <ul><li>You&nbsp;must&nbsp;succeed&nbsp;on&nbsp;ranged&nbsp;attack&nbsp;rolls&nbsp;(one&nbsp;per&nbsp;creature&nbsp;or&nbsp;object&nbsp;thrown)&nbsp;to&nbsp;hit&nbsp;the&nbsp;target&nbsp;of&nbsp;the&nbsp;hurled&nbsp;items&nbsp;with&nbsp;the&nbsp;items,&nbsp;applying&nbsp;your&nbsp;key&nbsp;ability&nbsp;modifier&nbsp;to&nbsp;the&nbsp;attack&nbsp;roll&nbsp;instead&nbsp;of&nbsp;your&nbsp;Dexterity&nbsp;modifier.&nbsp;Hurled&nbsp;weapons&nbsp;deal&nbsp;their&nbsp;standard&nbsp;damage&nbsp;(your&nbsp;Strength&nbsp;bonus&nbsp;does&nbsp;not&nbsp;apply;&nbsp;arrows&nbsp;or&nbsp;bolts&nbsp;deal&nbsp;damage&nbsp;as&nbsp;daggers&nbsp;of&nbsp;their&nbsp;size&nbsp;when&nbsp;used&nbsp;in&nbsp;this&nbsp;manner).&nbsp;Other&nbsp;objects&nbsp;deal&nbsp;damage&nbsp;ranging&nbsp;from&nbsp;1&nbsp;point&nbsp;per&nbsp;25&nbsp;pounds&nbsp;of&nbsp;weight&nbsp;(for&nbsp;less&nbsp;dangerous&nbsp;objects&nbsp;such&nbsp;as&nbsp;an&nbsp;empty&nbsp;barrel)&nbsp;to&nbsp;1d6&nbsp;points&nbsp;per&nbsp;25&nbsp;pounds&nbsp;of&nbsp;weight&nbsp;(for&nbsp;hard,&nbsp;dense&nbsp;objects&nbsp;such&nbsp;as&nbsp;a&nbsp;boulder).</li></ul>
+
+      <ul><li>Creatures&nbsp;are&nbsp;allowed&nbsp;Will&nbsp;saves&nbsp;(and&nbsp;power&nbsp;resistance)&nbsp;to&nbsp;negate&nbsp;the&nbsp;effect,&nbsp;as&nbsp;are&nbsp;those&nbsp;whose&nbsp;held&nbsp;possessions&nbsp;are&nbsp;targeted&nbsp;by&nbsp;this&nbsp;power.&nbsp;Creatures&nbsp;are&nbsp;not&nbsp;allowed&nbsp;a&nbsp;Will&nbsp;save&nbsp;if&nbsp;an&nbsp;object&nbsp;is&nbsp;thrust&nbsp;at&nbsp;them&nbsp;through&nbsp;the&nbsp;use&nbsp;of&nbsp;this&nbsp;power.</li></ul>
+
+      <ul><li>If&nbsp;you&nbsp;use&nbsp;this&nbsp;power&nbsp;to&nbsp;hurl&nbsp;a&nbsp;creature&nbsp;against&nbsp;a&nbsp;solid&nbsp;surface,&nbsp;it&nbsp;takes&nbsp;damage&nbsp;as&nbsp;if&nbsp;it&nbsp;had&nbsp;fallen&nbsp;10&nbsp;feet&nbsp;(1d6&nbsp;points).</li></ul>
+
+      <ul><li>If&nbsp;you&nbsp;use&nbsp;the&nbsp;thrust&nbsp;option&nbsp;of&nbsp;this&nbsp;power,&nbsp;the&nbsp;duration&nbsp;is&nbsp;instantaneous.</li></ul>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;the&nbsp;weight&nbsp;limit&nbsp;of&nbsp;the&nbsp;target&nbsp;increases&nbsp;by&nbsp;25&nbsp;pounds.
+
+      </p>
+  descriptors:
+    - force
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 3
+      psion: 3
+      wilder: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '148'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 249–250
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '57'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!veTLsh8gIkrysP5e'

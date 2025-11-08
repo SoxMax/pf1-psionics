@@ -1,0 +1,141 @@
+_id: SDSD4F2xWypM8VKu
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Astral_Caravan
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Astral Caravan
+system:
+  actions:
+    - actionType: rsak
+      activation:
+        cost: 1
+        type: hour
+      duration:
+        units: spec
+        value: See text
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You and touched willing creatures
+  description:
+    value: >-
+      <p>You&nbsp;lead&nbsp;a&nbsp;caravan&nbsp;into&nbsp;the&nbsp;Astral&nbsp;Plane,&nbsp;leaving&nbsp;the&nbsp;Material&nbsp;Plane&nbsp;behind.&nbsp;Since&nbsp;the&nbsp;Astral&nbsp;Plane&nbsp;touches&nbsp;upon&nbsp;other&nbsp;planes,&nbsp;you&nbsp;can&nbsp;travel&nbsp;astrally&nbsp;to&nbsp;any&nbsp;of&nbsp;these&nbsp;other&nbsp;planes&nbsp;as&nbsp;you&nbsp;wish,&nbsp;but&nbsp;only&nbsp;if&nbsp;you&nbsp;know&nbsp;your&nbsp;way&nbsp;(see&nbsp;below).
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;bring&nbsp;other&nbsp;willing&nbsp;creatures&nbsp;with&nbsp;you,&nbsp;provided&nbsp;that&nbsp;these&nbsp;subjects&nbsp;have&nbsp;each&nbsp;manifested&nbsp;<em><a&nbsp;href="/wiki/Astral_Traveler"&nbsp;title="Astral&nbsp;Traveler">astral&nbsp;traveler</a></em>&nbsp;and&nbsp;are&nbsp;linked&nbsp;hand&nbsp;to&nbsp;hand&nbsp;with&nbsp;you&nbsp;at&nbsp;the&nbsp;time&nbsp;of&nbsp;the&nbsp;astral&nbsp;caravan's&nbsp;manifestation.&nbsp;These&nbsp;fellow&nbsp;travelers&nbsp;are&nbsp;dependent&nbsp;upon&nbsp;you&nbsp;and&nbsp;must&nbsp;accompany&nbsp;you&nbsp;at&nbsp;all&nbsp;times.&nbsp;If&nbsp;something&nbsp;happens&nbsp;to&nbsp;you&nbsp;during&nbsp;the&nbsp;journey&nbsp;that&nbsp;causes&nbsp;you&nbsp;to&nbsp;break&nbsp;hand-to-hand&nbsp;contact,&nbsp;your&nbsp;companions&nbsp;are&nbsp;stranded&nbsp;wherever&nbsp;you&nbsp;leave&nbsp;them.&nbsp;Because&nbsp;the&nbsp;planes&nbsp;are&nbsp;a&nbsp;dangerous&nbsp;place,&nbsp;those&nbsp;who&nbsp;lead&nbsp;astral&nbsp;caravans&nbsp;usually&nbsp;choose&nbsp;to&nbsp;manifest&nbsp;this&nbsp;power&nbsp;only&nbsp;if&nbsp;they&nbsp;have&nbsp;a&nbsp;large&nbsp;party&nbsp;of&nbsp;travelers&nbsp;assembled.&nbsp;Sometimes&nbsp;groups&nbsp;of&nbsp;lowerlevel&nbsp;adventurers&nbsp;may&nbsp;hire&nbsp;you&nbsp;to&nbsp;lead&nbsp;forays&nbsp;beyond&nbsp;the&nbsp;Material&nbsp;Plane.
+
+      </p>
+
+      <p>The&nbsp;astral&nbsp;caravan&nbsp;power&nbsp;lasts&nbsp;while&nbsp;you&nbsp;and&nbsp;your&nbsp;fellow&nbsp;travelers&nbsp;maintain&nbsp;your&nbsp;original&nbsp;formation,&nbsp;until&nbsp;(1)&nbsp;you&nbsp;reach&nbsp;your&nbsp;intended&nbsp;destination&nbsp;plane,&nbsp;(2)&nbsp;you&nbsp;desire&nbsp;to&nbsp;end&nbsp;the&nbsp;power&nbsp;while&nbsp;still&nbsp;traversing&nbsp;the&nbsp;Astral&nbsp;Plane,&nbsp;(3)&nbsp;you&nbsp;or&nbsp;anyone&nbsp;traveling&nbsp;with&nbsp;you&nbsp;breaks&nbsp;the&nbsp;hand-to-hand&nbsp;chain&nbsp;connecting&nbsp;the&nbsp;travelers&nbsp;for&nbsp;2&nbsp;consecutive&nbsp;rounds,&nbsp;or&nbsp;(4)&nbsp;the&nbsp;power&nbsp;is&nbsp;terminated&nbsp;by&nbsp;some&nbsp;outside&nbsp;means,&nbsp;such&nbsp;as&nbsp;dispel&nbsp;psionics.&nbsp;When&nbsp;the&nbsp;power&nbsp;ends,&nbsp;you&nbsp;and&nbsp;your&nbsp;fellow&nbsp;travelers&nbsp;halt&nbsp;in&nbsp;whatever&nbsp;portion&nbsp;of&nbsp;the&nbsp;Astral&nbsp;Plane&nbsp;you&nbsp;happen&nbsp;to&nbsp;be&nbsp;traversing&nbsp;(the&nbsp;Astral&nbsp;Plane&nbsp;is&nbsp;in&nbsp;many&nbsp;ways&nbsp;subjective&nbsp;in&nbsp;location;&nbsp;in&nbsp;any&nbsp;event,&nbsp;one&nbsp;place&nbsp;on&nbsp;the&nbsp;Astral&nbsp;looks&nbsp;much&nbsp;like&nbsp;any&nbsp;other).
+
+      </p>
+
+      <p>While&nbsp;you&nbsp;are&nbsp;traveling&nbsp;through&nbsp;the&nbsp;Astral&nbsp;Plane,&nbsp;those&nbsp;natives&nbsp;who&nbsp;happen&nbsp;to&nbsp;glimpse&nbsp;you&nbsp;and&nbsp;your&nbsp;fellow&nbsp;travelers&nbsp;perceive&nbsp;you&nbsp;to&nbsp;be&nbsp;moving&nbsp;at&nbsp;a&nbsp;speed&nbsp;of&nbsp;30&nbsp;feet&nbsp;(you&nbsp;can't&nbsp;run),&nbsp;with&nbsp;you&nbsp;flying&nbsp;in&nbsp;the&nbsp;lead&nbsp;and&nbsp;your&nbsp;fellow&nbsp;travelers&nbsp;strung&nbsp;out&nbsp;behind&nbsp;you,&nbsp;each&nbsp;linked&nbsp;to&nbsp;the&nbsp;next&nbsp;by&nbsp;one&nbsp;hand.
+
+      </p>
+
+      <p>Depending&nbsp;on&nbsp;your&nbsp;knowledge&nbsp;of&nbsp;the&nbsp;planes,&nbsp;your&nbsp;journey&nbsp;through&nbsp;the&nbsp;subjective&nbsp;space&nbsp;that&nbsp;is&nbsp;the&nbsp;Astral&nbsp;Plane&nbsp;may&nbsp;take&nbsp;a&nbsp;longer&nbsp;or&nbsp;shorter&nbsp;period&nbsp;of&nbsp;time.&nbsp;For&nbsp;each&nbsp;24&nbsp;hours&nbsp;you&nbsp;travel,&nbsp;make&nbsp;a&nbsp;Knowledge&nbsp;(planes)&nbsp;check.&nbsp;Unless&nbsp;a&nbsp;location&nbsp;is&nbsp;particularly&nbsp;hard&nbsp;to&nbsp;find&nbsp;and&nbsp;well&nbsp;guarded,&nbsp;or&nbsp;conversely&nbsp;easy&nbsp;to&nbsp;find&nbsp;and&nbsp;well&nbsp;advertised,&nbsp;the&nbsp;average&nbsp;DC&nbsp;for&nbsp;an&nbsp;astral&nbsp;caravan&nbsp;journey&nbsp;should&nbsp;be&nbsp;set&nbsp;at&nbsp;20.&nbsp;You&nbsp;cannot&nbsp;take&nbsp;20&nbsp;on&nbsp;this&nbsp;check,&nbsp;though&nbsp;you&nbsp;can&nbsp;take&nbsp;10.&nbsp;Each&nbsp;check&nbsp;may&nbsp;be&nbsp;modified&nbsp;by&nbsp;your&nbsp;degree&nbsp;of&nbsp;familiarity&nbsp;with&nbsp;the&nbsp;destination&nbsp;or&nbsp;by&nbsp;some&nbsp;connection&nbsp;you&nbsp;have&nbsp;with&nbsp;the&nbsp;place;&nbsp;see&nbsp;the&nbsp;following&nbsp;tables.
+
+      </p>
+
+      <p>Each&nbsp;successful&nbsp;check&nbsp;indicates&nbsp;that&nbsp;you&nbsp;are&nbsp;one&nbsp;step&nbsp;closer&nbsp;to&nbsp;your&nbsp;goal.&nbsp;To&nbsp;finally&nbsp;arrive&nbsp;at&nbsp;your&nbsp;location,&nbsp;you&nbsp;must&nbsp;succeed&nbsp;on&nbsp;six&nbsp;checks&nbsp;within&nbsp;a&nbsp;span&nbsp;of&nbsp;12&nbsp;days.&nbsp;(If&nbsp;you&nbsp;fail&nbsp;to&nbsp;make&nbsp;six&nbsp;successful&nbsp;checks&nbsp;within&nbsp;the&nbsp;first&nbsp;12&nbsp;days,&nbsp;you&nbsp;can&nbsp;continue&nbsp;to&nbsp;make&nbsp;one&nbsp;check&nbsp;per&nbsp;day&nbsp;until&nbsp;you&nbsp;get&nbsp;the&nbsp;requisite&nbsp;six&nbsp;successes&nbsp;within&nbsp;a&nbsp;span&nbsp;of&nbsp;12&nbsp;consecutive&nbsp;days).&nbsp;When&nbsp;you&nbsp;successfully&nbsp;make&nbsp;the&nbsp;requisite&nbsp;number&nbsp;of&nbsp;checks,&nbsp;the&nbsp;journey&nbsp;ends,&nbsp;and&nbsp;you&nbsp;appear&nbsp;on&nbsp;your&nbsp;chosen&nbsp;plane&nbsp;within&nbsp;10–1,000&nbsp;(1d%&nbsp;x&nbsp;10)&nbsp;miles&nbsp;of&nbsp;your&nbsp;intended&nbsp;destination&nbsp;on&nbsp;that&nbsp;plane.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;weaves&nbsp;a&nbsp;quasi-real&nbsp;filmy&nbsp;membrane&nbsp;around&nbsp;yourself&nbsp;and&nbsp;all&nbsp;those&nbsp;adjacent&nbsp;to&nbsp;each&nbsp;other&nbsp;in&nbsp;the&nbsp;caravan&nbsp;(being&nbsp;linked&nbsp;by&nbsp;hand&nbsp;is&nbsp;not&nbsp;required&nbsp;if&nbsp;this&nbsp;membrane&nbsp;is&nbsp;used).&nbsp;You&nbsp;remain&nbsp;visible&nbsp;within&nbsp;the&nbsp;translucent,&nbsp;amorphous&nbsp;enclosure.&nbsp;You&nbsp;can&nbsp;pick&nbsp;up&nbsp;or&nbsp;drop&nbsp;willing&nbsp;passengers,&nbsp;easily&nbsp;reaching&nbsp;through&nbsp;the&nbsp;film.&nbsp;Anything&nbsp;you&nbsp;hold&nbsp;is&nbsp;enveloped&nbsp;by&nbsp;the&nbsp;film.&nbsp;Any&nbsp;attacks&nbsp;made&nbsp;through&nbsp;the&nbsp;enclosure&nbsp;in&nbsp;either&nbsp;direction&nbsp;have&nbsp;a&nbsp;25%&nbsp;miss&nbsp;chance&nbsp;due&nbsp;to&nbsp;the&nbsp;rippling&nbsp;membrane.
+
+      </p>
+
+      <p>When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power&nbsp;in&nbsp;its&nbsp;augmented&nbsp;form,&nbsp;your&nbsp;apparent&nbsp;speed&nbsp;to&nbsp;those&nbsp;observing&nbsp;on&nbsp;the&nbsp;Astral&nbsp;Plane&nbsp;is&nbsp;40&nbsp;feet,&nbsp;and&nbsp;you&nbsp;can&nbsp;make&nbsp;a&nbsp;Knowledge&nbsp;(planes)&nbsp;check&nbsp;once&nbsp;every&nbsp;12&nbsp;hours&nbsp;to&nbsp;attempt&nbsp;to&nbsp;make&nbsp;it&nbsp;to&nbsp;your&nbsp;destination&nbsp;(six&nbsp;successful&nbsp;checks&nbsp;within&nbsp;12&nbsp;consecutive&nbsp;days&nbsp;still&nbsp;sees&nbsp;you&nbsp;to&nbsp;your&nbsp;desired&nbsp;goal).
+
+      </p><table><tbody><tr><th>Destination&nbsp;Knowledge
+
+      </th><th>Knowledge&nbsp;(planes)&nbsp;Check&nbsp;Modifier
+
+      </th></tr><tr><td>None*
+
+      </td><td>n/a
+
+      </td></tr><tr><td>Secondhand&nbsp;(you&nbsp;have&nbsp;heard&nbsp;of&nbsp;the&nbsp;destination)
+
+      </td><td>–10
+
+      </td></tr><tr><td>Firsthand&nbsp;(you&nbsp;have&nbsp;visited&nbsp;before)&nbsp;+0&nbsp;Familiar&nbsp;(you&nbsp;have&nbsp;visited&nbsp;three&nbsp;or&nbsp;more&nbsp;times)
+
+      </td><td>+5
+
+      </td></tr></tbody></table>
+
+      <p>*If&nbsp;you&nbsp;have&nbsp;no&nbsp;direct&nbsp;knowledge&nbsp;of&nbsp;your&nbsp;destination,&nbsp;you&nbsp;must&nbsp;have&nbsp;some&nbsp;connection&nbsp;to&nbsp;it&nbsp;in&nbsp;order&nbsp;to&nbsp;travel&nbsp;there;&nbsp;see&nbsp;below.
+
+      </p><table><tbody><tr><th>Connection
+
+      </th><th>Knowledge&nbsp;(planes)&nbsp;Check&nbsp;Modifier
+
+      </th></tr><tr><td>Likeness&nbsp;or&nbsp;picture&nbsp;of&nbsp;destination
+
+      </td><td>+2
+
+      </td></tr><tr><td>Object&nbsp;from&nbsp;destination
+
+      </td><td>+4
+
+      </td></tr><tr><td>Planar&nbsp;Cartographer's&nbsp;map&nbsp;of&nbsp;destination
+
+      </td><td>+10
+
+      </td></tr></tbody></table>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 3
+      nomad: 3
+  level: 3
+  manifestTime:
+    units: hour
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 76–77
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '161'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '28'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!SDSD4F2xWypM8VKu'

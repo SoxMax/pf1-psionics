@@ -1,0 +1,96 @@
+_id: rZxuAbmyUhv1lGV4
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Ectoplasmic_Carpet
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Ectoplasmic Carpet
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./level)
+      save:
+        description: See text
+      target:
+        value: One 5-ft. square of temporarily real carpet
+  description:
+    value: >-
+      <p>A&nbsp;glossy&nbsp;sheet&nbsp;of&nbsp;soft&nbsp;ectoplasm&nbsp;coheres&nbsp;in&nbsp;space&nbsp;to&nbsp;do&nbsp;your&nbsp;bidding.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;you&nbsp;must&nbsp;choose&nbsp;one&nbsp;of&nbsp;the&nbsp;several&nbsp;modes&nbsp;in&nbsp;which&nbsp;it&nbsp;can&nbsp;operate.&nbsp;Once&nbsp;this&nbsp;choice&nbsp;is&nbsp;made,&nbsp;it&nbsp;cannot&nbsp;be&nbsp;changed&nbsp;for&nbsp;this&nbsp;manifestation.
+
+      </p>
+
+      <p><em>Flying</em>:&nbsp;In&nbsp;this&nbsp;mode,&nbsp;an&nbsp;<em>ectoplasmic&nbsp;carpet&nbsp;</em>acts&nbsp;as&nbsp;a&nbsp;<em>flying&nbsp;carpet&nbsp;</em>of&nbsp;the&nbsp;same&nbsp;size.&nbsp;Unaugmented,&nbsp;it&nbsp;can&nbsp;carry&nbsp;up&nbsp;to&nbsp;200&nbsp;lbs.&nbsp;and&nbsp;has&nbsp;a&nbsp;fly&nbsp;speed&nbsp;of&nbsp;40&nbsp;ft.&nbsp;plus&nbsp;the&nbsp;usual&nbsp;<em>overland&nbsp;flight&nbsp;</em>capability.
+
+      </p>
+
+      <p><em>Restraint:&nbsp;</em>In&nbsp;this&nbsp;mode,&nbsp;an&nbsp;<em>ectoplasmic&nbsp;carpet&nbsp;</em>can&nbsp;wrap&nbsp;itself&nbsp;around&nbsp;a&nbsp;creature’s&nbsp;arms,&nbsp;preventing&nbsp;them&nbsp;from&nbsp;being&nbsp;used&nbsp;to&nbsp;wield&nbsp;weapons&nbsp;or&nbsp;perform&nbsp;fine&nbsp;activities&nbsp;using&nbsp;hands.&nbsp;The&nbsp;carpet&nbsp;is&nbsp;treated&nbsp;as&nbsp;a&nbsp;set&nbsp;of&nbsp;masterwork&nbsp;manacles&nbsp;(Escape&nbsp;Artist&nbsp;DC&nbsp;35&nbsp;or&nbsp;Strength&nbsp;check&nbsp;DC&nbsp;28&nbsp;to&nbsp;escape&nbsp;or&nbsp;break)&nbsp;but&nbsp;also&nbsp;constrains&nbsp;the&nbsp;target’s&nbsp;fingers.&nbsp;This&nbsp;imposes&nbsp;an&nbsp;Arcane&nbsp;Spell&nbsp;Failure&nbsp;chance&nbsp;of&nbsp;20%&nbsp;upon&nbsp;those&nbsp;to&nbsp;whom&nbsp;it&nbsp;may&nbsp;apply.&nbsp;A&nbsp;creature&nbsp;can&nbsp;make&nbsp;a&nbsp;Reflex&nbsp;save&nbsp;to&nbsp;avoid&nbsp;being&nbsp;ensnared&nbsp;by&nbsp;a&nbsp;carpet&nbsp;in&nbsp;this&nbsp;mode.&nbsp;As&nbsp;a&nbsp;move&nbsp;action,&nbsp;you&nbsp;can&nbsp;direct&nbsp;the&nbsp;carpet&nbsp;to&nbsp;a&nbsp;target&nbsp;within&nbsp;range,&nbsp;and&nbsp;as&nbsp;a&nbsp;standard&nbsp;action&nbsp;you&nbsp;can&nbsp;attempt&nbsp;to&nbsp;ensnare&nbsp;a&nbsp;creature.&nbsp;Only&nbsp;one&nbsp;creature&nbsp;can&nbsp;be&nbsp;held&nbsp;at&nbsp;a&nbsp;time&nbsp;and&nbsp;releasing&nbsp;a&nbsp;creature&nbsp;is&nbsp;a&nbsp;free&nbsp;action.
+
+      </p>
+
+      <p><em>Shield:&nbsp;</em>In&nbsp;this&nbsp;mode,&nbsp;an&nbsp;ectoplasmic&nbsp;carpet&nbsp;acts&nbsp;as&nbsp;a&nbsp;sheet&nbsp;of&nbsp;protective&nbsp;material&nbsp;that&nbsp;you&nbsp;can&nbsp;move&nbsp;around&nbsp;within&nbsp;your&nbsp;space&nbsp;as&nbsp;a&nbsp;free&nbsp;action.&nbsp;This&nbsp;functions&nbsp;as&nbsp;a&nbsp;heavy&nbsp;shield&nbsp;(+2&nbsp;shield&nbsp;bonus&nbsp;to&nbsp;AC)&nbsp;but&nbsp;only&nbsp;against&nbsp;ranged&nbsp;attacks&nbsp;as&nbsp;it&nbsp;is&nbsp;too&nbsp;insubstantial&nbsp;to&nbsp;interfere&nbsp;with&nbsp;melee&nbsp;attacks.&nbsp;This&nbsp;shield&nbsp;has&nbsp;no&nbsp;armor&nbsp;check&nbsp;penalty&nbsp;or&nbsp;Arcane&nbsp;Spell&nbsp;Failure&nbsp;chance&nbsp;since&nbsp;it&nbsp;is&nbsp;weightless&nbsp;and&nbsp;encumbrance-free.
+
+      </p>
+
+      <p><em>Tripping:&nbsp;</em>In&nbsp;this&nbsp;mode,&nbsp;an&nbsp;<em>ectoplasmic&nbsp;carpet&nbsp;</em>can&nbsp;be&nbsp;slipped&nbsp;beneath&nbsp;the&nbsp;feet&nbsp;of&nbsp;an&nbsp;opponent&nbsp;then&nbsp;telekinetically&nbsp;pulled&nbsp;out&nbsp;from&nbsp;beneath&nbsp;them.&nbsp;This&nbsp;requires&nbsp;a&nbsp;move&nbsp;action&nbsp;to&nbsp;mentally&nbsp;direct&nbsp;the&nbsp;carpet&nbsp;to&nbsp;slide&nbsp;underneath&nbsp;a&nbsp;target&nbsp;within&nbsp;range,&nbsp;and&nbsp;a&nbsp;standard&nbsp;action&nbsp;to&nbsp;perform&nbsp;a&nbsp;trip&nbsp;attempt.&nbsp;You&nbsp;use&nbsp;your&nbsp;manifester&nbsp;level&nbsp;in&nbsp;place&nbsp;of&nbsp;your&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;and&nbsp;your&nbsp;primary&nbsp;manifesting&nbsp;ability&nbsp;modifier&nbsp;in&nbsp;place&nbsp;of&nbsp;Strength&nbsp;for&nbsp;calculating&nbsp;your&nbsp;CMB&nbsp;for&nbsp;this&nbsp;trip&nbsp;attempt.&nbsp;You&nbsp;cannot&nbsp;trip&nbsp;a&nbsp;creature&nbsp;larger&nbsp;than&nbsp;this&nbsp;carpet.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways:
+
+      </p><ul><li>For&nbsp;every&nbsp;additional&nbsp;two&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;basic&nbsp;flying&nbsp;mode&nbsp;carpet&nbsp;expands&nbsp;one&nbsp;size&nbsp;as&nbsp;per&nbsp;<em>flying&nbsp;carpet</em>.&nbsp;The&nbsp;first&nbsp;augmentation&nbsp;increases&nbsp;the&nbsp;carpet&nbsp;to&nbsp;5-ft.&nbsp;by&nbsp;10-ft.&nbsp;and&nbsp;carrying&nbsp;capacity&nbsp;to&nbsp;400&nbsp;lbs.&nbsp;The&nbsp;second&nbsp;augmentation&nbsp;increases&nbsp;the&nbsp;carpet&nbsp;to&nbsp;10-ft.&nbsp;by&nbsp;10-ft.&nbsp;and&nbsp;carrying&nbsp;capacity&nbsp;to&nbsp;800&nbsp;lbs.&nbsp;Each&nbsp;subsequent&nbsp;augmentation&nbsp;increases&nbsp;size&nbsp;by&nbsp;two&nbsp;5-ft.&nbsp;squares&nbsp;and&nbsp;carrying&nbsp;capacity&nbsp;by&nbsp;400&nbsp;lbs.&nbsp;Any&nbsp;carpet&nbsp;augmented&nbsp;to&nbsp;10-ft.&nbsp;by&nbsp;10-ft.&nbsp;or&nbsp;larger&nbsp;changes&nbsp;its&nbsp;duration&nbsp;to&nbsp;1&nbsp;hour/&nbsp;level.</li><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;the&nbsp;DCs&nbsp;for&nbsp;escaping&nbsp;or&nbsp;breaking&nbsp;a&nbsp;restraint&nbsp;carpet&nbsp;increase&nbsp;by&nbsp;1.</li><li>For&nbsp;every&nbsp;additional&nbsp;three&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;shield&nbsp;bonus&nbsp;granted&nbsp;by&nbsp;a&nbsp;basic&nbsp;shield&nbsp;carpet&nbsp;increases&nbsp;by&nbsp;1.</li><li>For&nbsp;every&nbsp;additional&nbsp;four&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;basic&nbsp;tripping&nbsp;mode&nbsp;carpet&nbsp;becomes&nbsp;one&nbsp;size&nbsp;larger&nbsp;(from&nbsp;a&nbsp;5-ft.&nbsp;square&nbsp;appropriate&nbsp;to&nbsp;a&nbsp;Medium&nbsp;creature&nbsp;to&nbsp;a&nbsp;10-ft.&nbsp;square&nbsp;appropriate&nbsp;to&nbsp;a&nbsp;Large&nbsp;creature,&nbsp;then&nbsp;to&nbsp;a&nbsp;15-ft.&nbsp;square&nbsp;appropriate&nbsp;to&nbsp;a&nbsp;Huge&nbsp;creature&nbsp;and&nbsp;so&nbsp;on).&nbsp;A&nbsp;tripping&nbsp;carpet&nbsp;that&nbsp;is&nbsp;large&nbsp;enough&nbsp;may&nbsp;be&nbsp;used&nbsp;to&nbsp;trip&nbsp;multiple&nbsp;creatures&nbsp;at&nbsp;once&nbsp;if&nbsp;they&nbsp;all&nbsp;fit&nbsp;within&nbsp;its&nbsp;area.</li></ul>
+  discipline: metacreativity
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 3
+      psion: 3
+      tactician: 3
+      thug: 3
+      wilder: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 9–10
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 69–70
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  subdiscipline:
+    - creation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!rZxuAbmyUhv1lGV4'

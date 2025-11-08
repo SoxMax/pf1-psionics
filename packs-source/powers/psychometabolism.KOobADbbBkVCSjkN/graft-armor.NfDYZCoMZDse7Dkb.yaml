@@ -1,0 +1,95 @@
+_id: NfDYZCoMZDse7Dkb
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Graft_Armor
+folder: KOobADbbBkVCSjkN
+img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+name: Graft Armor
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: hour
+        value: '24'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>Any&nbsp;armor&nbsp;you&nbsp;are&nbsp;wearing&nbsp;becomes&nbsp;a&nbsp;natural&nbsp;extension&nbsp;of&nbsp;your&nbsp;body,&nbsp;and&nbsp;blends&nbsp;seamlessly&nbsp;with&nbsp;your&nbsp;form.&nbsp;Now&nbsp;that&nbsp;the&nbsp;armor&nbsp;and&nbsp;you&nbsp;are&nbsp;one,&nbsp;your&nbsp;Maximum&nbsp;Dexterity&nbsp;Bonus&nbsp;increases&nbsp;by&nbsp;1,&nbsp;the&nbsp;armor's&nbsp;Armor&nbsp;Check&nbsp;Penalty&nbsp;is&nbsp;reduced&nbsp;by&nbsp;1&nbsp;(to&nbsp;a&nbsp;minimum&nbsp;of&nbsp;0),&nbsp;any&nbsp;arcane&nbsp;spell&nbsp;failure&nbsp;is&nbsp;reduced&nbsp;by&nbsp;10%,&nbsp;and&nbsp;the&nbsp;armor&nbsp;is&nbsp;treated&nbsp;as&nbsp;one&nbsp;step&nbsp;lighter&nbsp;for&nbsp;all&nbsp;purposes&nbsp;except&nbsp;armor&nbsp;proficiency&nbsp;(light&nbsp;armor&nbsp;is&nbsp;still&nbsp;considered&nbsp;light&nbsp;armor).
+
+      </p>
+
+      <p>When&nbsp;this&nbsp;power's&nbsp;duration&nbsp;expires,&nbsp;the&nbsp;armor&nbsp;detaches&nbsp;normally&nbsp;and&nbsp;remains&nbsp;equipped.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: true
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 3
+      gifted blade: 3
+      psychic warrior: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '16'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Mind Over Body'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '24'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Unlimited Possibilities'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '164'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '208'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '44'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!NfDYZCoMZDse7Dkb'

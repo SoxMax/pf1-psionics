@@ -1,0 +1,91 @@
+_id: gU1P9lhiJd96MnKc
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Share_Pain
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Share Pain
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: hour
+        value: '@cl'
+      name: Use
+      range:
+        units: touch
+        value: Touch; see text
+      save:
+        description: None
+      target:
+        value: You and one willing creature, or two willing creatures; see text
+  description:
+    value: >-
+      <p>This&nbsp;power&nbsp;creates&nbsp;a&nbsp;psychometabolic&nbsp;connection&nbsp;between&nbsp;you&nbsp;and&nbsp;a&nbsp;willing&nbsp;subject&nbsp;so&nbsp;that&nbsp;some&nbsp;of&nbsp;your&nbsp;wounds&nbsp;are&nbsp;transferred&nbsp;to&nbsp;the&nbsp;subject.&nbsp;You&nbsp;take&nbsp;half&nbsp;damage&nbsp;from&nbsp;all&nbsp;attacks&nbsp;that&nbsp;deal&nbsp;hit&nbsp;point&nbsp;damage&nbsp;to&nbsp;you,&nbsp;and&nbsp;the&nbsp;subject&nbsp;takes&nbsp;the&nbsp;remainder.&nbsp;If&nbsp;your&nbsp;hit&nbsp;points&nbsp;are&nbsp;reduced&nbsp;by&nbsp;a&nbsp;lowered&nbsp;Constitution&nbsp;score,&nbsp;that&nbsp;reduction&nbsp;is&nbsp;not&nbsp;shared&nbsp;with&nbsp;the&nbsp;subject&nbsp;because&nbsp;it&nbsp;is&nbsp;not&nbsp;a&nbsp;form&nbsp;of&nbsp;hit&nbsp;point&nbsp;damage.&nbsp;When&nbsp;this&nbsp;power&nbsp;ends,&nbsp;subsequent&nbsp;damage&nbsp;is&nbsp;no&nbsp;longer&nbsp;divided&nbsp;between&nbsp;the&nbsp;subject&nbsp;and&nbsp;you,&nbsp;but&nbsp;damage&nbsp;already&nbsp;shared&nbsp;is&nbsp;not&nbsp;reassigned.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;and&nbsp;the&nbsp;subject&nbsp;move&nbsp;farther&nbsp;away&nbsp;from&nbsp;each&nbsp;other&nbsp;than&nbsp;close&nbsp;range,&nbsp;the&nbsp;power&nbsp;ends.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;on&nbsp;two&nbsp;willing&nbsp;subjects,&nbsp;one&nbsp;of&nbsp;which&nbsp;you&nbsp;designate&nbsp;to&nbsp;share&nbsp;its&nbsp;damage&nbsp;with&nbsp;the&nbsp;other.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: true
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 2
+      gambler: 2
+      marksman: 2
+      psion: 2
+      tactician: 2
+      vitalist: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 144–145
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 243–244
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '55'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!gU1P9lhiJd96MnKc'

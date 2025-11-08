@@ -1,0 +1,92 @@
+_id: PNqXIqcQCWuBU9Qe
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Barrage
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Barrage
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: swift
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <table><caption>Barrage&nbsp;and&nbsp;Attack&nbsp;rolls
+
+      </caption><tbody><tr><td>Given&nbsp;the&nbsp;level&nbsp;at&nbsp;which&nbsp;barrage&nbsp;can&nbsp;be&nbsp;gained,&nbsp;it&nbsp;is&nbsp;possible&nbsp;to&nbsp;result&nbsp;in&nbsp;a&nbsp;player&nbsp;using&nbsp;it&nbsp;to&nbsp;make&nbsp;over&nbsp;a&nbsp;dozen&nbsp;attacks&nbsp;in&nbsp;one&nbsp;round.&nbsp;In&nbsp;the&nbsp;interest&nbsp;of&nbsp;game&nbsp;flow,&nbsp;it&nbsp;can&nbsp;be&nbsp;decided&nbsp;that&nbsp;the&nbsp;manifester&nbsp;makes&nbsp;a&nbsp;single&nbsp;attack&nbsp;roll&nbsp;(or&nbsp;one&nbsp;attack&nbsp;roll&nbsp;for&nbsp;a&nbsp;certain&nbsp;number&nbsp;of&nbsp;targets),&nbsp;rather&nbsp;than&nbsp;one&nbsp;attack&nbsp;roll&nbsp;per&nbsp;target.&nbsp;This&nbsp;can&nbsp;have&nbsp;the&nbsp;effect&nbsp;of&nbsp;drastically&nbsp;skewing&nbsp;the&nbsp;result&nbsp;of&nbsp;the&nbsp;power,&nbsp;as&nbsp;that&nbsp;one&nbsp;attack&nbsp;roll&nbsp;may&nbsp;be&nbsp;great,&nbsp;or&nbsp;it&nbsp;may&nbsp;be&nbsp;terrible,&nbsp;but&nbsp;it&nbsp;may&nbsp;help&nbsp;in&nbsp;terms&nbsp;of&nbsp;needing&nbsp;to&nbsp;make&nbsp;a&nbsp;massive&nbsp;number&nbsp;of&nbsp;attack&nbsp;rolls&nbsp;in&nbsp;a&nbsp;single&nbsp;turn.
+
+      </td></tr></tbody></table>
+
+      <p>You&nbsp;boost&nbsp;your&nbsp;movements&nbsp;to&nbsp;super-naturally&nbsp;high&nbsp;levels,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;strike&nbsp;at&nbsp;many&nbsp;targets&nbsp;in&nbsp;what&nbsp;others&nbsp;perceive&nbsp;as&nbsp;the&nbsp;blink&nbsp;of&nbsp;an&nbsp;eye.&nbsp;Your&nbsp;actions&nbsp;are&nbsp;so&nbsp;rapid&nbsp;that&nbsp;they&nbsp;leave&nbsp;visual&nbsp;echoes&nbsp;of&nbsp;your&nbsp;previous&nbsp;positions&nbsp;in&nbsp;the&nbsp;air&nbsp;as&nbsp;you&nbsp;move,&nbsp;although&nbsp;these&nbsp;quickly&nbsp;fade.
+
+      </p>
+
+      <p>This&nbsp;round,&nbsp;as&nbsp;a&nbsp;full&nbsp;attack&nbsp;action,&nbsp;you&nbsp;may&nbsp;make&nbsp;a&nbsp;single&nbsp;ranged&nbsp;attack&nbsp;with&nbsp;one&nbsp;ranged&nbsp;weapon&nbsp;(or&nbsp;several&nbsp;thrown&nbsp;weapons&nbsp;of&nbsp;the&nbsp;same&nbsp;type)&nbsp;against&nbsp;each&nbsp;target&nbsp;within&nbsp;one&nbsp;range&nbsp;increment&nbsp;of&nbsp;your&nbsp;weapon,&nbsp;similar&nbsp;to&nbsp;the&nbsp;Whirlwind&nbsp;Attack&nbsp;feat.&nbsp;You&nbsp;still&nbsp;expend&nbsp;ammunition&nbsp;as&nbsp;normal&nbsp;for&nbsp;these&nbsp;attacks.
+
+      </p>
+
+      <p>You&nbsp;may&nbsp;not&nbsp;make&nbsp;more&nbsp;attacks&nbsp;with&nbsp;barrage&nbsp;than&nbsp;your&nbsp;manifester&nbsp;level.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      marksman: 4
+      psychic warrior: 5
+      voyager: 5
+  level: 4
+  manifestTime:
+    units: swift
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '16'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Find the Mark'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '150'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 164–165
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!PNqXIqcQCWuBU9Qe'

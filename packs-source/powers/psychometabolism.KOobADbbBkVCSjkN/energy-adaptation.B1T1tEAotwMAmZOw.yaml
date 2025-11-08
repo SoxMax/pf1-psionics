@@ -1,0 +1,109 @@
+_id: B1T1tEAotwMAmZOw
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Energy_Adaptation
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Energy Adaptation
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '60'
+      duration:
+        units: minute
+        value: 10 * @cl
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>Your&nbsp;body&nbsp;assimilates&nbsp;some&nbsp;of&nbsp;the&nbsp;effect&nbsp;of&nbsp;an&nbsp;energy&nbsp;attack&nbsp;and&nbsp;converts&nbsp;it&nbsp;to&nbsp;harmless&nbsp;light.&nbsp;You&nbsp;gain&nbsp;resistance&nbsp;10&nbsp;against&nbsp;any&nbsp;attack&nbsp;that&nbsp;deals&nbsp;acid,&nbsp;cold,&nbsp;electricity,&nbsp;fire,&nbsp;or&nbsp;sonic&nbsp;damage.
+
+      </p>
+
+      <p>When&nbsp;you&nbsp;absorb&nbsp;damage,&nbsp;you&nbsp;can&nbsp;choose&nbsp;to&nbsp;radiate&nbsp;visible&nbsp;light&nbsp;that&nbsp;illuminates&nbsp;a&nbsp;60-foot&nbsp;radius&nbsp;for&nbsp;a&nbsp;number&nbsp;of&nbsp;rounds&nbsp;equal&nbsp;to&nbsp;the&nbsp;points&nbsp;of&nbsp;damage&nbsp;you&nbsp;successfully&nbsp;resisted,&nbsp;or&nbsp;merely&nbsp;dissipate&nbsp;the&nbsp;energy&nbsp;without&nbsp;giving&nbsp;off&nbsp;a&nbsp;visual&nbsp;display.
+
+      </p>
+
+      <p>The&nbsp;energy&nbsp;resistance&nbsp;provided&nbsp;by&nbsp;this&nbsp;power&nbsp;increases&nbsp;to&nbsp;20&nbsp;points&nbsp;at&nbsp;7th&nbsp;manifester&nbsp;level&nbsp;and&nbsp;to&nbsp;a&nbsp;maximum&nbsp;of&nbsp;30&nbsp;points&nbsp;at&nbsp;11th&nbsp;level.
+
+      </p>
+
+      <p>The&nbsp;power&nbsp;protects&nbsp;your&nbsp;equipment&nbsp;as&nbsp;well.
+
+      </p>
+
+      <p>The&nbsp;resistance&nbsp;provided&nbsp;by&nbsp;this&nbsp;power&nbsp;does&nbsp;not&nbsp;stack&nbsp;with&nbsp;other&nbsp;forms&nbsp;of&nbsp;energy&nbsp;resistance.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 4
+      empath: 4
+      gambler: 4
+      gifted blade: 4
+      psion: 4
+      psychic warrior: 4
+      thug: 4
+      vitalist: 4
+      voyager: 4
+      wilder: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '103'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '193'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '38'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!B1T1tEAotwMAmZOw'

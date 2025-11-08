@@ -1,0 +1,80 @@
+_id: cPWGAomrmSaeH51w
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Breach
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Breach
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        description: None
+      target:
+        value: One door, box, or chest with an area of up to 10 sq. ft./level
+  description:
+    value: >-
+      <p>You&nbsp;psionically&nbsp;open&nbsp;stuck,&nbsp;barred,&nbsp;or&nbsp;locked&nbsp;doors,&nbsp;as&nbsp;well&nbsp;as&nbsp;those&nbsp;subject&nbsp;to&nbsp;hold&nbsp;portal&nbsp;or&nbsp;arcane&nbsp;lock.&nbsp;When&nbsp;you&nbsp;complete&nbsp;the&nbsp;manifestation&nbsp;of&nbsp;this&nbsp;power,&nbsp;make&nbsp;a&nbsp;manifester&nbsp;level&nbsp;check&nbsp;against&nbsp;the&nbsp;DC&nbsp;of&nbsp;the&nbsp;lock&nbsp;with&nbsp;a&nbsp;+10&nbsp;bonus.&nbsp;If&nbsp;successful,&nbsp;you&nbsp;open&nbsp;up&nbsp;to&nbsp;two&nbsp;means&nbsp;of&nbsp;closure.&nbsp;This&nbsp;power&nbsp;opens&nbsp;secret&nbsp;doors,&nbsp;as&nbsp;well&nbsp;as&nbsp;locked&nbsp;or&nbsp;trickopening&nbsp;boxes&nbsp;or&nbsp;chests.&nbsp;This&nbsp;also&nbsp;loosens&nbsp;welds,&nbsp;shackles,&nbsp;or&nbsp;chains&nbsp;(provided&nbsp;they&nbsp;serve&nbsp;to&nbsp;hold&nbsp;something&nbsp;shut).&nbsp;If&nbsp;used&nbsp;to&nbsp;open&nbsp;an&nbsp;arcane&nbsp;locked&nbsp;door,&nbsp;the&nbsp;power&nbsp;does&nbsp;not&nbsp;remove&nbsp;the&nbsp;arcane&nbsp;lock&nbsp;but&nbsp;simply&nbsp;suspends&nbsp;its&nbsp;functioning&nbsp;for&nbsp;10&nbsp;minutes.&nbsp;In&nbsp;all&nbsp;other&nbsp;cases,&nbsp;the&nbsp;door&nbsp;does&nbsp;not&nbsp;relock&nbsp;itself&nbsp;or&nbsp;become&nbsp;stuck&nbsp;again&nbsp;on&nbsp;its&nbsp;own.&nbsp;This&nbsp;does&nbsp;not&nbsp;raise&nbsp;barred&nbsp;gates&nbsp;or&nbsp;similar&nbsp;impediments&nbsp;(such&nbsp;as&nbsp;a&nbsp;portcullis),&nbsp;nor&nbsp;does&nbsp;it&nbsp;affect&nbsp;ropes,&nbsp;vines,&nbsp;and&nbsp;the&nbsp;like.&nbsp;The&nbsp;effect&nbsp;is&nbsp;limited&nbsp;by&nbsp;the&nbsp;area.&nbsp;Each&nbsp;manifestation&nbsp;can&nbsp;undo&nbsp;as&nbsp;many&nbsp;as&nbsp;two&nbsp;means&nbsp;of&nbsp;preventing&nbsp;access.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      gambler: 2
+      psion: 2
+      thug: 2
+      voyager: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 82–83
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '168'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '31'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!cPWGAomrmSaeH51w'

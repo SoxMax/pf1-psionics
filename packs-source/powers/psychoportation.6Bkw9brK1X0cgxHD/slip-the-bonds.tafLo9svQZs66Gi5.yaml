@@ -1,0 +1,89 @@
+_id: tafLo9svQZs66Gi5
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Slip_the_Bonds
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Slip the Bonds
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: 10 * @cl
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;move&nbsp;and&nbsp;attack&nbsp;normally&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;power,&nbsp;even&nbsp;under&nbsp;the&nbsp;influence&nbsp;of&nbsp;effects&nbsp;that&nbsp;usually&nbsp;impedes&nbsp;movement,&nbsp;such&nbsp;as&nbsp;paralysis,&nbsp;solid&nbsp;fog,&nbsp;slow,&nbsp;and&nbsp;web.&nbsp;All&nbsp;combat&nbsp;maneuver&nbsp;checks&nbsp;made&nbsp;to&nbsp;grapple&nbsp;you&nbsp;automatically&nbsp;fail.&nbsp;You&nbsp;automatically&nbsp;succeed&nbsp;on&nbsp;any&nbsp;combat&nbsp;maneuver&nbsp;checks&nbsp;and&nbsp;Escape&nbsp;Artist&nbsp;checks&nbsp;made&nbsp;to&nbsp;escape&nbsp;a&nbsp;grapple&nbsp;or&nbsp;a&nbsp;pin.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;also&nbsp;move&nbsp;and&nbsp;attack&nbsp;normally&nbsp;while&nbsp;underwater,&nbsp;even&nbsp;with&nbsp;slashing&nbsp;weapons&nbsp;such&nbsp;as&nbsp;axes&nbsp;and&nbsp;swords&nbsp;or&nbsp;with&nbsp;bludgeoning&nbsp;weapons&nbsp;such&nbsp;as&nbsp;flails,&nbsp;hammers,&nbsp;and&nbsp;maces,&nbsp;provided&nbsp;that&nbsp;the&nbsp;weapon&nbsp;is&nbsp;wielded&nbsp;in&nbsp;the&nbsp;hand&nbsp;rather&nbsp;than&nbsp;hurled.&nbsp;This&nbsp;does&nbsp;not,&nbsp;however,&nbsp;grant&nbsp;water&nbsp;breathing.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 4
+      gambler: 4
+      gifted blade: 4
+      marksman: 4
+      psion: 4
+      psychic warrior: 4
+      tactician: 4
+      thug: 4
+      voyager: 4
+      wilder: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '146'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '246'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '56'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!tafLo9svQZs66Gi5'

@@ -1,0 +1,92 @@
+_id: Eo9ig7wgMJvpUu2n
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Sensitivity_to_Psychic_Impressions
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Sensitivity to Psychic Impressions
+system:
+  actions:
+    - actionType: rsak
+      activation:
+        cost: 1
+        type: hour
+      duration:
+        concentration: true
+        units: conc
+        value: up to 10 min./level
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      target:
+        value: Spread with a radius of 25 ft. + 5 ft./2 levels, centered on you
+  description:
+    value: >-
+      <p>You&nbsp;gain&nbsp;historical&nbsp;vision&nbsp;in&nbsp;a&nbsp;given&nbsp;location.&nbsp;Rooms,&nbsp;streets,&nbsp;tunnels,&nbsp;and&nbsp;other&nbsp;discrete&nbsp;locations&nbsp;accumulate&nbsp;psychic&nbsp;impressions&nbsp;left&nbsp;by&nbsp;powerful&nbsp;emotions&nbsp;experienced&nbsp;in&nbsp;a&nbsp;given&nbsp;area.&nbsp;These&nbsp;impressions&nbsp;offer&nbsp;you&nbsp;a&nbsp;picture&nbsp;of&nbsp;the&nbsp;location's&nbsp;past.
+
+      </p>
+
+      <p>The&nbsp;types&nbsp;of&nbsp;events&nbsp;most&nbsp;likely&nbsp;to&nbsp;leave&nbsp;psychic&nbsp;impressions&nbsp;are&nbsp;those&nbsp;that&nbsp;elicited&nbsp;strong&nbsp;emotions:&nbsp;battles&nbsp;and&nbsp;betrayals,&nbsp;marriages&nbsp;and&nbsp;murders,&nbsp;births&nbsp;and&nbsp;great&nbsp;pain,&nbsp;or&nbsp;any&nbsp;other&nbsp;event&nbsp;where&nbsp;one&nbsp;emotion&nbsp;dominates.&nbsp;Everyday&nbsp;occurrences&nbsp;leave&nbsp;no&nbsp;residue&nbsp;for&nbsp;a&nbsp;manifester&nbsp;to&nbsp;detect.
+
+      </p>
+
+      <p>The&nbsp;vision&nbsp;of&nbsp;the&nbsp;event&nbsp;is&nbsp;dreamlike&nbsp;and&nbsp;shadowy.&nbsp;You&nbsp;do&nbsp;not&nbsp;gain&nbsp;special&nbsp;knowledge&nbsp;of&nbsp;those&nbsp;involved&nbsp;in&nbsp;the&nbsp;vision,&nbsp;though&nbsp;you&nbsp;might&nbsp;be&nbsp;able&nbsp;to&nbsp;read&nbsp;large&nbsp;banners&nbsp;or&nbsp;other&nbsp;writing&nbsp;if&nbsp;they&nbsp;are&nbsp;in&nbsp;your&nbsp;language.
+
+      </p>
+
+      <p>Beginning&nbsp;with&nbsp;the&nbsp;most&nbsp;recent&nbsp;significant&nbsp;event&nbsp;at&nbsp;a&nbsp;location&nbsp;and&nbsp;working&nbsp;backward&nbsp;in&nbsp;time,&nbsp;you&nbsp;can&nbsp;sense&nbsp;one&nbsp;distinct&nbsp;event&nbsp;for&nbsp;every&nbsp;10&nbsp;minutes&nbsp;you&nbsp;maintain&nbsp;concentration,&nbsp;if&nbsp;any&nbsp;such&nbsp;events&nbsp;exist&nbsp;to&nbsp;be&nbsp;sensed.&nbsp;Your&nbsp;sensitivity&nbsp;extends&nbsp;into&nbsp;the&nbsp;past&nbsp;a&nbsp;maximum&nbsp;number&nbsp;of&nbsp;years&nbsp;equal&nbsp;to&nbsp;100&nbsp;x&nbsp;your&nbsp;manifester&nbsp;level.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: true
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 2
+      seer: 2
+      sighted seeker: 2
+      voyager: 2
+  level: 2
+  manifestTime:
+    units: hour
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '144'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '243'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '55'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!Eo9ig7wgMJvpUu2n'

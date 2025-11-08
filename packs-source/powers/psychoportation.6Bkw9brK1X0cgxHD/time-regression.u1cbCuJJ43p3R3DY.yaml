@@ -1,0 +1,79 @@
+_id: u1cbCuJJ43p3R3DY
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Time_Regression
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Time Regression
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;regress&nbsp;apparent&nbsp;time&nbsp;1&nbsp;round&nbsp;into&nbsp;the&nbsp;past.&nbsp;In&nbsp;effect,&nbsp;you&nbsp;"replay"&nbsp;the&nbsp;previous&nbsp;round&nbsp;of&nbsp;activity.&nbsp;The&nbsp;power&nbsp;regresses&nbsp;time&nbsp;to&nbsp;the&nbsp;point&nbsp;along&nbsp;the&nbsp;time&nbsp;stream&nbsp;just&nbsp;prior&nbsp;to&nbsp;your&nbsp;previous&nbsp;turn,&nbsp;undoing&nbsp;the&nbsp;effects&nbsp;of&nbsp;everyone&nbsp;else's&nbsp;actions&nbsp;in&nbsp;the&nbsp;meantime.&nbsp;Once&nbsp;you&nbsp;have&nbsp;used&nbsp;time&nbsp;regression,&nbsp;only&nbsp;you&nbsp;retain&nbsp;knowledge&nbsp;of&nbsp;what&nbsp;happened&nbsp;during&nbsp;the&nbsp;round&nbsp;that&nbsp;is&nbsp;being&nbsp;replayed;&nbsp;however,&nbsp;you&nbsp;can&nbsp;communicate&nbsp;that&nbsp;knowledge&nbsp;verbally&nbsp;to&nbsp;your&nbsp;companions,&nbsp;if&nbsp;desired.&nbsp;During&nbsp;the&nbsp;round&nbsp;that&nbsp;you&nbsp;live&nbsp;through&nbsp;a&nbsp;second&nbsp;time,&nbsp;you&nbsp;can&nbsp;act&nbsp;on&nbsp;knowledge&nbsp;you&nbsp;previously&nbsp;gained&nbsp;by&nbsp;already&nbsp;living&nbsp;through&nbsp;the&nbsp;immediate&nbsp;future.&nbsp;In&nbsp;all&nbsp;likelihood,&nbsp;you'll&nbsp;probably&nbsp;not&nbsp;choose&nbsp;to&nbsp;manifest&nbsp;time&nbsp;regression&nbsp;during&nbsp;your&nbsp;second&nbsp;pass&nbsp;through&nbsp;the&nbsp;time&nbsp;stream,&nbsp;instead&nbsp;taking&nbsp;completely&nbsp;new&nbsp;actions.
+
+      </p>
+
+      <p>Altering&nbsp;the&nbsp;time&nbsp;stream&nbsp;in&nbsp;such&nbsp;a&nbsp;fashion&nbsp;is&nbsp;mentally&nbsp;taxing&nbsp;and&nbsp;you&nbsp;suffer&nbsp;2&nbsp;points&nbsp;of&nbsp;ability&nbsp;damage&nbsp;to&nbsp;Charisma,&nbsp;Intelligence,&nbsp;and&nbsp;Wisdom.&nbsp;This&nbsp;damage&nbsp;cannot&nbsp;be&nbsp;ignored&nbsp;through&nbsp;any&nbsp;special&nbsp;effects&nbsp;or&nbsp;abilities,&nbsp;but&nbsp;can&nbsp;be&nbsp;healed&nbsp;as&nbsp;any&nbsp;other&nbsp;ability&nbsp;damage.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      nomad: 9
+  level: 9
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '150'
+      publisher: Dreamscarred Press
+      title: '150'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '252'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '58'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!u1cbCuJJ43p3R3DY'

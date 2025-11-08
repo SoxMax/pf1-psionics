@@ -1,0 +1,82 @@
+_id: YpNCVRFl7ZuH9mu9
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Steal_Animus
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Steal Animus
+system:
+  actions:
+    - actionType: rsak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will half
+        type: will
+  description:
+    value: >-
+      <p>Manifesting&nbsp;this&nbsp;power&nbsp;allows&nbsp;the&nbsp;manifester&nbsp;to&nbsp;steal&nbsp;the&nbsp;unstable&nbsp;animus&nbsp;from&nbsp;a&nbsp;target&nbsp;with&nbsp;a&nbsp;touch.&nbsp;The&nbsp;manifester&nbsp;makes&nbsp;a&nbsp;touch&nbsp;attack&nbsp;against&nbsp;the&nbsp;target&nbsp;and&nbsp;may&nbsp;attempt&nbsp;to&nbsp;steal&nbsp;1d4&nbsp;points&nbsp;of&nbsp;animus&nbsp;from&nbsp;the&nbsp;target.&nbsp;A&nbsp;successful&nbsp;Will&nbsp;save&nbsp;by&nbsp;the&nbsp;target&nbsp;halves&nbsp;the&nbsp;loss&nbsp;of&nbsp;animus.&nbsp;If&nbsp;the&nbsp;target&nbsp;does&nbsp;not&nbsp;possess&nbsp;animus,&nbsp;this&nbsp;power&nbsp;has&nbsp;no&nbsp;effect.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>If&nbsp;you&nbsp;spend&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;points,&nbsp;you&nbsp;may&nbsp;alter&nbsp;the&nbsp;range&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;close&nbsp;range&nbsp;(25&nbsp;feet&nbsp;+&nbsp;5&nbsp;feet&nbsp;per&nbsp;two&nbsp;manifester&nbsp;levels)&nbsp;and&nbsp;make&nbsp;the&nbsp;attack&nbsp;as&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack.
+
+      </p>
+
+      <p>For&nbsp;every&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;spent,&nbsp;you&nbsp;may&nbsp;steal&nbsp;an&nbsp;additional&nbsp;1d4&nbsp;points&nbsp;of&nbsp;animus&nbsp;from&nbsp;the&nbsp;target.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: true
+    material: true
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gifted blade: 2
+      highlord: 2
+      psion: 2
+      psychic warrior: 2
+      tactician: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '11'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Psychic Warrior'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '80'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!YpNCVRFl7ZuH9mu9'

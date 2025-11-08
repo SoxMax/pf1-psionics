@@ -1,0 +1,97 @@
+_id: QuAZGdXJXZZpBiOW
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Biting_Cold
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp
+name: Biting Cold
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: swift
+      damage:
+        parts:
+          - - 1d10
+            - cold
+      duration:
+        units: spec
+        value: 1 round; see text
+      name: Use
+      range:
+        units: ft
+        value: Melee
+      save:
+        description: None
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>The&nbsp;next&nbsp;successful&nbsp;melee&nbsp;attack&nbsp;you&nbsp;make&nbsp;this&nbsp;round&nbsp;deals&nbsp;an&nbsp;additional&nbsp;+1d10&nbsp;points&nbsp;of&nbsp;cold&nbsp;damage&nbsp;to&nbsp;the&nbsp;struck&nbsp;creature&nbsp;and&nbsp;the&nbsp;target&nbsp;is&nbsp;staggered&nbsp;from&nbsp;the&nbsp;cold.&nbsp;Power&nbsp;resistance&nbsp;does&nbsp;not&nbsp;apply&nbsp;to&nbsp;this&nbsp;additional&nbsp;damage,&nbsp;but&nbsp;does&nbsp;apply&nbsp;to&nbsp;the&nbsp;staggered&nbsp;condition.
+
+      </p>
+
+      <p><strong>Trigger:</strong>&nbsp;If&nbsp;your&nbsp;attack&nbsp;was&nbsp;successful,&nbsp;you&nbsp;can&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;infuse&nbsp;the&nbsp;target&nbsp;with&nbsp;chilling&nbsp;cold.&nbsp;Power&nbsp;resistance&nbsp;applies&nbsp;to&nbsp;infusing&nbsp;the&nbsp;target&nbsp;with&nbsp;chilling&nbsp;cold.&nbsp;Until&nbsp;the&nbsp;end&nbsp;of&nbsp;its&nbsp;next&nbsp;turn,&nbsp;if&nbsp;the&nbsp;creature&nbsp;struck&nbsp;makes&nbsp;an&nbsp;attack,&nbsp;manifests&nbsp;a&nbsp;power,&nbsp;or&nbsp;casts&nbsp;a&nbsp;spell,&nbsp;it&nbsp;takes&nbsp;1d10&nbsp;points&nbsp;of&nbsp;cold&nbsp;damage&nbsp;and&nbsp;is&nbsp;paralyzed&nbsp;for&nbsp;one&nbsp;round.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;instead&nbsp;manifest&nbsp;this&nbsp;power&nbsp;upon&nbsp;making&nbsp;a&nbsp;successful&nbsp;melee&nbsp;attack&nbsp;and&nbsp;have&nbsp;the&nbsp;effects&nbsp;of&nbsp;this&nbsp;power&nbsp;instead&nbsp;apply&nbsp;to&nbsp;that&nbsp;attack.&nbsp;Doing&nbsp;so&nbsp;still&nbsp;uses&nbsp;your&nbsp;swift&nbsp;action&nbsp;for&nbsp;the&nbsp;round.
+
+      </p>
+  descriptors:
+    - cold
+    - trigger
+  discipline: psychokinesis
+  display:
+    auditory: true
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psychic warrior: 5
+  level: 5
+  manifestTime:
+    units: swift
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '24'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '151'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '166'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '30'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!QuAZGdXJXZZpBiOW'

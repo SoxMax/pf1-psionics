@@ -1,0 +1,76 @@
+_id: ZvmK33o5ZxhK9QLP
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Truevenom_Weapon
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Truevenom Weapon
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      target:
+        value: Weapon touched
+  description:
+    value: >-
+      <p>As&nbsp;<em><a&nbsp;href="/wiki/Truevenom"&nbsp;title="Truevenom">truevenom</a></em>,&nbsp;except&nbsp;your&nbsp;weapon&nbsp;gains&nbsp;the&nbsp;poison&nbsp;coating&nbsp;as&nbsp;long&nbsp;as&nbsp;it&nbsp;remains&nbsp;in&nbsp;your&nbsp;grip,&nbsp;until&nbsp;the&nbsp;effect&nbsp;is&nbsp;discharged,&nbsp;or&nbsp;until&nbsp;the&nbsp;duration&nbsp;expires,&nbsp;whichever&nbsp;occurs&nbsp;first.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gifted blade: 4
+      marksman: 4
+      psychic warrior: 4
+      thug: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '153'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 254–255
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '59'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline:
+    - creation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!ZvmK33o5ZxhK9QLP'

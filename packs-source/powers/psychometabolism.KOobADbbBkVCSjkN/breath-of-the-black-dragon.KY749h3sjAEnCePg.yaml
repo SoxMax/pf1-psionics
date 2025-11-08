@@ -1,0 +1,90 @@
+_id: KY749h3sjAEnCePg
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Breath_of_the_Black_Dragon
+folder: KOobADbbBkVCSjkN
+img: icons/magic/unholy/projectile-missile-green.webp
+name: Breath of the Black Dragon
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      damage:
+        parts:
+          - - 11d6
+            - acid
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Reflex half
+        type: ref
+      target:
+        value: Cone-shaped burst
+  description:
+    value: >-
+      <p>Your&nbsp;mouth&nbsp;spews&nbsp;forth&nbsp;vitriolic&nbsp;acid&nbsp;that&nbsp;deals&nbsp;11d6&nbsp;points&nbsp;of&nbsp;acid&nbsp;damage&nbsp;to&nbsp;any&nbsp;targets&nbsp;in&nbsp;the&nbsp;area.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;damage&nbsp;increases&nbsp;by&nbsp;1d6&nbsp;points.&nbsp;For&nbsp;every&nbsp;two&nbsp;additional&nbsp;damage&nbsp;dice,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  descriptors:
+    - acid
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 6
+      psion: 6
+      psychic warrior: 6
+      wilder: 6
+  level: 6
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '83'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 168–169
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '31'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!KY749h3sjAEnCePg'

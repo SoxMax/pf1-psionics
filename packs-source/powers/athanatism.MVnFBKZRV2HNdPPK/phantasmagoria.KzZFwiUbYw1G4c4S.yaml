@@ -1,0 +1,81 @@
+_id: KzZFwiUbYw1G4c4S
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Phantasmagoria
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Phantasmagoria
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: spec
+        value: 10 min./level (D); see text
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates; see text
+        type: will
+      target:
+        value: One 10-ft. cube/level (S)
+  description:
+    value: >-
+      <p>You&nbsp;draw&nbsp;on&nbsp;ghostly&nbsp;essences&nbsp;to&nbsp;cause&nbsp;horrific&nbsp;apparent&nbsp;changes&nbsp;to&nbsp;take&nbsp;place&nbsp;in&nbsp;the&nbsp;environment,&nbsp;such&nbsp;as&nbsp;people&nbsp;appearing&nbsp;dead&nbsp;or&nbsp;rotting,&nbsp;walls&nbsp;peeling&nbsp;or&nbsp;bleeding,&nbsp;and&nbsp;food&nbsp;decaying.&nbsp;This&nbsp;power&nbsp;has&nbsp;different&nbsp;effects&nbsp;based&nbsp;on&nbsp;how&nbsp;close&nbsp;creatures&nbsp;are&nbsp;to&nbsp;the&nbsp;affected&nbsp;area.&nbsp;Multiple&nbsp;effects&nbsp;stack&nbsp;-&nbsp;for&nbsp;example,&nbsp;if&nbsp;a&nbsp;creature&nbsp;is&nbsp;inside&nbsp;the&nbsp;area,&nbsp;they&nbsp;are&nbsp;also&nbsp;affected&nbsp;as&nbsp;if&nbsp;they&nbsp;were&nbsp;within&nbsp;30&nbsp;feet,&nbsp;10&nbsp;feet,&nbsp;and&nbsp;inside&nbsp;the&nbsp;area.&nbsp;If&nbsp;a&nbsp;creature&nbsp;would&nbsp;be&nbsp;affected&nbsp;by&nbsp;more&nbsp;than&nbsp;one&nbsp;if&nbsp;the&nbsp;following&nbsp;effects,&nbsp;it&nbsp;makes&nbsp;saves&nbsp;against&nbsp;each&nbsp;effect&nbsp;separately,&nbsp;in&nbsp;order.
+
+      </p><ul><li><em>Within&nbsp;30&nbsp;feet:</em>&nbsp;Creatures&nbsp;within&nbsp;30&nbsp;feet&nbsp;of&nbsp;the&nbsp;affected&nbsp;area&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Will&nbsp;save&nbsp;or&nbsp;suffer&nbsp;a&nbsp;-2&nbsp;penalty&nbsp;on&nbsp;saves&nbsp;against&nbsp;any&nbsp;of&nbsp;your&nbsp;other&nbsp;mind-affecting&nbsp;powers&nbsp;for&nbsp;as&nbsp;long&nbsp;as&nbsp;they&nbsp;remain&nbsp;within&nbsp;30&nbsp;feet&nbsp;of&nbsp;the&nbsp;affected&nbsp;area,&nbsp;and&nbsp;one&nbsp;minute&nbsp;thereafter.</li></ul>
+
+      <ul><li><em>Within&nbsp;10&nbsp;feet:</em>&nbsp;Creatures&nbsp;within&nbsp;10&nbsp;feet&nbsp;of&nbsp;the&nbsp;affected&nbsp;area&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Will&nbsp;save&nbsp;or&nbsp;become&nbsp;shaken&nbsp;for&nbsp;as&nbsp;long&nbsp;as&nbsp;they&nbsp;remain&nbsp;within&nbsp;10&nbsp;feet&nbsp;of&nbsp;the&nbsp;affected&nbsp;area,&nbsp;and&nbsp;one&nbsp;minute&nbsp;thereafter.</li></ul>
+
+      <ul><li><em>Inside:</em>&nbsp;Creatures&nbsp;that&nbsp;are&nbsp;inside&nbsp;the&nbsp;affected&nbsp;area&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Will&nbsp;save&nbsp;or&nbsp;be&nbsp;frightened&nbsp;for&nbsp;as&nbsp;long&nbsp;as&nbsp;they&nbsp;remain&nbsp;within&nbsp;the&nbsp;affected&nbsp;area,&nbsp;and&nbsp;5&nbsp;rounds&nbsp;thereafter.</li></ul>
+
+      <p><strong>Augment:</strong>&nbsp;By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;all&nbsp;creatures&nbsp;within&nbsp;the&nbsp;area&nbsp;that&nbsp;fail&nbsp;their&nbsp;save&nbsp;also&nbsp;become&nbsp;confused&nbsp;for&nbsp;as&nbsp;long&nbsp;as&nbsp;they&nbsp;remain&nbsp;within&nbsp;the&nbsp;affected&nbsp;area.
+
+      </p>
+  descriptors:
+    - mind-affecting
+    - fear
+  discipline: athanatism
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: true
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 3
+      psion: 3
+      thug: 3
+      wilder: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 37–38
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!KzZFwiUbYw1G4c4S'

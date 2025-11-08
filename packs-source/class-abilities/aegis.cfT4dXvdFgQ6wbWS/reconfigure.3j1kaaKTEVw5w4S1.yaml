@@ -1,0 +1,29 @@
+_id: 3j1kaaKTEVw5w4S1
+_stats:
+  coreVersion: '13.350'
+folder: cfT4dXvdFgQ6wbWS
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Reconfigure
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Aegis
+  description:
+    value: >-
+      <p><b>Reconfigure:</b>Starting&nbsp;at&nbsp;3rd&nbsp;level,&nbsp;an&nbsp;aegis&nbsp;can&nbsp;reconfigure&nbsp;up&nbsp;to&nbsp;his&nbsp;Intelligence&nbsp;modifier&nbsp;in&nbsp;customization&nbsp;points&nbsp;on&nbsp;his&nbsp;astral&nbsp;suit&nbsp;once&nbsp;per&nbsp;day&nbsp;as&nbsp;a&nbsp;standard&nbsp;action.&nbsp;Every&nbsp;two&nbsp;levels&nbsp;thereafter,&nbsp;he&nbsp;can&nbsp;use&nbsp;this&nbsp;ability&nbsp;an&nbsp;additional&nbsp;time&nbsp;per&nbsp;day.
+
+      </p><p></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 27–31
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 28–30
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: reconfigure
+type: feat
+_key: '!items!3j1kaaKTEVw5w4S1'

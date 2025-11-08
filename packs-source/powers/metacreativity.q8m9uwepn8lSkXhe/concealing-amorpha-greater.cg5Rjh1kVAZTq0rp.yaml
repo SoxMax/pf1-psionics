@@ -1,0 +1,78 @@
+_id: cg5Rjh1kVAZTq0rp
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Concealing_Amorpha,_Greater
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Concealing Amorpha, Greater
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: round
+        value: '@cl'
+      name: Use
+  description:
+    value: >-
+      <p>As&nbsp;<em><a&nbsp;href="/wiki/Concealing_Amorpha"&nbsp;title="Concealing&nbsp;Amorpha">concealing&nbsp;amorpha</a></em>,&nbsp;except&nbsp;the&nbsp;quasi-real&nbsp;membrane&nbsp;so&nbsp;distorts&nbsp;your&nbsp;image&nbsp;and&nbsp;actual&nbsp;position&nbsp;that&nbsp;you&nbsp;gain&nbsp;total&nbsp;concealment&nbsp;(opponents&nbsp;have&nbsp;a&nbsp;50%&nbsp;miss&nbsp;chance),&nbsp;but&nbsp;for&nbsp;a&nbsp;shorter&nbsp;period&nbsp;of&nbsp;time.
+
+      </p>
+  discipline: metacreativity
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 3
+      gifted blade: 3
+      marksman: 3
+      psychic warrior: 3
+      shaper: 3
+      thug: 3
+      voyager: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 87–88
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '174'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '33'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline:
+    - creation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!cg5Rjh1kVAZTq0rp'

@@ -1,0 +1,72 @@
+_id: COqkkFio6vD75C2x
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Bind_Flesh_to_Soul
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Bind Flesh to Soul
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>You&nbsp;force&nbsp;a&nbsp;target&nbsp;to&nbsp;share&nbsp;in&nbsp;the&nbsp;pain&nbsp;felt&nbsp;by&nbsp;nearby&nbsp;spirits.&nbsp;While&nbsp;the&nbsp;duration&nbsp;lasts,&nbsp;the&nbsp;target&nbsp;takes&nbsp;all&nbsp;damage&nbsp;and&nbsp;heals&nbsp;all&nbsp;wounds&nbsp;that&nbsp;any&nbsp;incorporeal&nbsp;or&nbsp;ethereal&nbsp;creature&nbsp;within&nbsp;30&nbsp;feet&nbsp;of&nbsp;them&nbsp;takes.&nbsp;The&nbsp;target&nbsp;is&nbsp;also&nbsp;subject&nbsp;to&nbsp;magical&nbsp;and&nbsp;psionic&nbsp;effects&nbsp;of&nbsp;3rd&nbsp;level&nbsp;or&nbsp;lower&nbsp;that&nbsp;target&nbsp;or&nbsp;effect&nbsp;any&nbsp;incorporeal&nbsp;or&nbsp;ethereal&nbsp;creature&nbsp;within&nbsp;30&nbsp;feet&nbsp;of&nbsp;them.&nbsp;If&nbsp;the&nbsp;effect&nbsp;offers&nbsp;a&nbsp;saving&nbsp;throw,&nbsp;the&nbsp;target&nbsp;gains&nbsp;one&nbsp;as&nbsp;well.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>You&nbsp;may&nbsp;spend&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;to&nbsp;have&nbsp;this&nbsp;power&nbsp;affect&nbsp;one&nbsp;additional&nbsp;target&nbsp;and&nbsp;have&nbsp;its&nbsp;DC&nbsp;increased&nbsp;by&nbsp;1.</li><li>For&nbsp;every&nbsp;additional&nbsp;4&nbsp;power&nbsp;points&nbsp;spent,&nbsp;the&nbsp;maximum&nbsp;level&nbsp;of&nbsp;effects&nbsp;that&nbsp;are&nbsp;shared&nbsp;between&nbsp;the&nbsp;target&nbsp;and&nbsp;nearby&nbsp;incorporeal&nbsp;or&nbsp;ethereal&nbsp;creatures&nbsp;is&nbsp;increased&nbsp;by&nbsp;1.&nbsp;For&nbsp;example,&nbsp;if&nbsp;you&nbsp;augment&nbsp;this&nbsp;power&nbsp;twice&nbsp;in&nbsp;this&nbsp;way,&nbsp;the&nbsp;target&nbsp;will&nbsp;be&nbsp;subject&nbsp;to&nbsp;magical&nbsp;or&nbsp;psionic&nbsp;effects&nbsp;of&nbsp;5th&nbsp;level&nbsp;or&nbsp;lower&nbsp;that&nbsp;target&nbsp;or&nbsp;effect&nbsp;any&nbsp;incorporeal&nbsp;of&nbsp;ethereal&nbsp;creatures&nbsp;within&nbsp;30&nbsp;feet&nbsp;instead&nbsp;of&nbsp;3rd&nbsp;or&nbsp;lower.</li></ol>
+  discipline: athanatism
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      conduit: 6
+      tactician: 6
+  level: 6
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 23–24
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!COqkkFio6vD75C2x'

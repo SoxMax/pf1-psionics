@@ -1,0 +1,82 @@
+_id: mOcZChtDI7br3krJ
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Flexible_Trajectory
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Flexible Trajectory
+system:
+  actions:
+    - actionType: rsak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>Your&nbsp;ranged&nbsp;attacks&nbsp;may&nbsp;follow&nbsp;a&nbsp;path&nbsp;you&nbsp;imagine&nbsp;instead&nbsp;of&nbsp;the&nbsp;path&nbsp;that&nbsp;physical&nbsp;laws&nbsp;would&nbsp;dictate.&nbsp;You&nbsp;ignore&nbsp;range&nbsp;increment&nbsp;penalties,&nbsp;and&nbsp;bonuses&nbsp;to&nbsp;Armor&nbsp;Class&nbsp;from&nbsp;cover,&nbsp;although&nbsp;total&nbsp;cover&nbsp;still&nbsp;blocks&nbsp;the&nbsp;attack.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways:
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;3&nbsp;additional&nbsp;power&nbsp;points,&nbsp;your&nbsp;ranged&nbsp;attacks&nbsp;ignore&nbsp;concealment&nbsp;(but&nbsp;not&nbsp;total&nbsp;concealment).&nbsp;If&nbsp;you&nbsp;instead&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;your&nbsp;ranged&nbsp;attacks&nbsp;ignore&nbsp;all&nbsp;miss&nbsp;chances,&nbsp;including&nbsp;those&nbsp;from&nbsp;total&nbsp;concealment&nbsp;and&nbsp;effects&nbsp;such&nbsp;as&nbsp;mirror&nbsp;image&nbsp;(although&nbsp;you&nbsp;still&nbsp;must&nbsp;target&nbsp;the&nbsp;correct&nbsp;square&nbsp;for&nbsp;an&nbsp;invisible&nbsp;target).</li><li>For&nbsp;every&nbsp;3&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;your&nbsp;range&nbsp;increment&nbsp;and&nbsp;corresponding&nbsp;maximum&nbsp;range&nbsp;with&nbsp;ranged&nbsp;attacks&nbsp;and&nbsp;your&nbsp;range&nbsp;for&nbsp;spells&nbsp;and&nbsp;powers&nbsp;that&nbsp;require&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;increase&nbsp;by&nbsp;10&nbsp;feet.</li></ol>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      marksman: 3
+      psychic warrior: 4
+      voyager: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '18'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Find the Mark'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '163'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '204'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!mOcZChtDI7br3krJ'

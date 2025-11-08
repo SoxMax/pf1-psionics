@@ -1,0 +1,91 @@
+_id: P10Glt6USfn8MZBz
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Prophetic_Song,_Euterpe's
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/sonic/projectile-sound-rings-wave.webp
+name: Prophetic Song, Euterpe's
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '60'
+      duration:
+        concentration: true
+        units: conc
+      name: Use
+      range:
+        units: ft
+        value: 60 ft.
+      save:
+        description: None
+      target:
+        value: 60 ft. radius sphere centered on you
+  description:
+    value: >-
+      <p>You&nbsp;weave&nbsp;your&nbsp;prophetic&nbsp;power&nbsp;into&nbsp;song,&nbsp;using&nbsp;it&nbsp;to&nbsp;bolster&nbsp;your&nbsp;allies&nbsp;with&nbsp;visions&nbsp;of&nbsp;the&nbsp;future.&nbsp;Allies&nbsp;within&nbsp;the&nbsp;area&nbsp;gain&nbsp;a&nbsp;+1&nbsp;insight&nbsp;bonus&nbsp;to&nbsp;their&nbsp;attack&nbsp;rolls&nbsp;as&nbsp;long&nbsp;as&nbsp;you&nbsp;concentrate&nbsp;on&nbsp;singing,&nbsp;humming,&nbsp;or&nbsp;otherwise&nbsp;making&nbsp;music&nbsp;(allies&nbsp;within&nbsp;the&nbsp;area&nbsp;of&nbsp;silence&nbsp;or&nbsp;similar&nbsp;effects,&nbsp;or&nbsp;who&nbsp;are&nbsp;deafened,&nbsp;cannot&nbsp;benefit&nbsp;from&nbsp;this&nbsp;bonus).&nbsp;You&nbsp;cannot&nbsp;manifest&nbsp;this&nbsp;power&nbsp;while&nbsp;unable&nbsp;to&nbsp;make&nbsp;music,&nbsp;such&nbsp;as&nbsp;by&nbsp;being&nbsp;within&nbsp;the&nbsp;area&nbsp;of&nbsp;a&nbsp;silence&nbsp;spell.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;insight&nbsp;bonus&nbsp;also&nbsp;applies&nbsp;to&nbsp;skill&nbsp;checks.</li><li>If&nbsp;you&nbsp;spend&nbsp;8&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;insight&nbsp;bonus&nbsp;also&nbsp;applies&nbsp;to&nbsp;weapon&nbsp;damage&nbsp;rolls&nbsp;in&nbsp;addition&nbsp;to&nbsp;the&nbsp;above&nbsp;options.</li><li>If&nbsp;you&nbsp;spend&nbsp;12&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;insight&nbsp;bonus&nbsp;also&nbsp;applies&nbsp;to&nbsp;AC&nbsp;in&nbsp;addition&nbsp;to&nbsp;the&nbsp;above&nbsp;options.</li><li>If&nbsp;you&nbsp;spend&nbsp;16&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;insight&nbsp;bonus&nbsp;also&nbsp;applies&nbsp;to&nbsp;saving&nbsp;throws&nbsp;in&nbsp;addition&nbsp;to&nbsp;the&nbsp;above&nbsp;options.</li></ol>
+
+      <p>In&nbsp;addition,&nbsp;the&nbsp;insight&nbsp;bonus&nbsp;granted&nbsp;by&nbsp;this&nbsp;power&nbsp;increases&nbsp;by&nbsp;1&nbsp;for&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;spent&nbsp;on&nbsp;the&nbsp;above&nbsp;options.
+
+      </p>
+
+      <p><strong>Surge&nbsp;Augmentation:</strong>&nbsp;If&nbsp;you&nbsp;invoke&nbsp;your&nbsp;wild&nbsp;surge&nbsp;while&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;change&nbsp;its&nbsp;duration&nbsp;to&nbsp;'concentration&nbsp;plus&nbsp;3&nbsp;rounds'.
+
+      </p>
+  descriptors:
+    - mind-affecting
+    - sonic
+  discipline: clairsentience
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 1
+      tactician: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '13'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Wilders'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '72'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!P10Glt6USfn8MZBz'

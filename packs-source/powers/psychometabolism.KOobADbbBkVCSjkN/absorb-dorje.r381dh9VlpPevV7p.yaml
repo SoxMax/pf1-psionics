@@ -1,0 +1,91 @@
+_id: r381dh9VlpPevV7p
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Absorb_Dorje
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Absorb Dorje
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: hour
+        value: '24'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>A&nbsp;light&nbsp;nausea&nbsp;overtakes&nbsp;you&nbsp;as&nbsp;you&nbsp;witness&nbsp;violation&nbsp;of&nbsp;your&nbsp;body,&nbsp;and&nbsp;a&nbsp;solid&nbsp;object&nbsp;slides&nbsp;under&nbsp;your&nbsp;skin.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;you&nbsp;must&nbsp;be&nbsp;holding&nbsp;a&nbsp;psionic&nbsp;dorje&nbsp;that&nbsp;contains&nbsp;a&nbsp;power&nbsp;that&nbsp;is&nbsp;on&nbsp;your&nbsp;power&nbsp;list&nbsp;but&nbsp;is&nbsp;not&nbsp;necessarily&nbsp;one&nbsp;of&nbsp;your&nbsp;powers&nbsp;known.&nbsp;That&nbsp;dorje&nbsp;merges&nbsp;into&nbsp;your&nbsp;flesh,&nbsp;becoming&nbsp;part&nbsp;of&nbsp;your&nbsp;body.
+
+      </p>
+
+      <p>As&nbsp;long&nbsp;as&nbsp;the&nbsp;dorje&nbsp;you&nbsp;have&nbsp;absorbed&nbsp;has&nbsp;charges,&nbsp;you&nbsp;may&nbsp;manifest&nbsp;its&nbsp;contained&nbsp;power&nbsp;as&nbsp;if&nbsp;it&nbsp;was&nbsp;one&nbsp;of&nbsp;your&nbsp;powers&nbsp;known.&nbsp;You&nbsp;must&nbsp;expend&nbsp;power&nbsp;points&nbsp;as&nbsp;normal&nbsp;to&nbsp;manifest&nbsp;the&nbsp;absorbed&nbsp;power&nbsp;as&nbsp;well&nbsp;as&nbsp;one&nbsp;charge&nbsp;from&nbsp;the&nbsp;dorje.&nbsp;The&nbsp;manifested&nbsp;power&nbsp;uses&nbsp;your&nbsp;manifester&nbsp;level&nbsp;and&nbsp;ability&nbsp;score&nbsp;for&nbsp;purposes&nbsp;of&nbsp;determining&nbsp;its&nbsp;DC&nbsp;and&nbsp;other&nbsp;variable&nbsp;effects.
+
+      </p>
+
+      <p>Once&nbsp;the&nbsp;absorbed&nbsp;dorje&nbsp;runs&nbsp;out&nbsp;of&nbsp;charges,&nbsp;it&nbsp;is&nbsp;immediately&nbsp;ejected&nbsp;from&nbsp;your&nbsp;body.&nbsp;You&nbsp;cannot&nbsp;eject&nbsp;it&nbsp;earlier&nbsp;voluntarily&nbsp;however&nbsp;a&nbsp;day&nbsp;after&nbsp;you&nbsp;absorb&nbsp;the&nbsp;dorje,&nbsp;it&nbsp;will&nbsp;slide&nbsp;harmlessly&nbsp;from&nbsp;your&nbsp;skin&nbsp;as&nbsp;<em>absorb&nbsp;dorje&nbsp;</em>expires.&nbsp;You&nbsp;can&nbsp;never&nbsp;have&nbsp;more&nbsp;than&nbsp;one&nbsp;dorje&nbsp;absorbed;&nbsp;attempting&nbsp;to&nbsp;manifest&nbsp;this&nbsp;power&nbsp;again&nbsp;while&nbsp;it&nbsp;is&nbsp;already&nbsp;in&nbsp;effect&nbsp;does&nbsp;not&nbsp;work.
+
+      </p>
+
+      <p><em><strong>Mythic&nbsp;Absorb&nbsp;Dorje</strong></em></p>
+
+      <p>You&nbsp;may&nbsp;absorb&nbsp;as&nbsp;many&nbsp;dorjes&nbsp;as&nbsp;you&nbsp;have&nbsp;mythic&nbsp;tiers.&nbsp;Doing&nbsp;so&nbsp;causes&nbsp;the&nbsp;duration&nbsp;of&nbsp;<em>mythic&nbsp;absorb&nbsp;dorje&nbsp;</em>to&nbsp;be&nbsp;divided&nbsp;by&nbsp;the&nbsp;number&nbsp;of&nbsp;dorjes&nbsp;absorbed.&nbsp;Additionally,&nbsp;manifesting&nbsp;a&nbsp;power&nbsp;from&nbsp;any&nbsp;of&nbsp;the&nbsp;absorbed&nbsp;dorjes&nbsp;consumes&nbsp;a&nbsp;charge&nbsp;from&nbsp;each&nbsp;of&nbsp;the&nbsp;absorbed&nbsp;dorjes.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 1
+      dread: 1
+      genesis: 1
+      gifted: 1
+      highlord: 1
+      psychic warrior: 1
+      thug: 1
+      vitalist: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 4–5
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '61'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!r381dh9VlpPevV7p'

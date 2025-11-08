@@ -1,0 +1,85 @@
+_id: kkLefipWxrjAJQqp
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Ego_Whip
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Ego Whip
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. +10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will half; see text
+        type: will
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>Your&nbsp;rapid&nbsp;mental&nbsp;lashings&nbsp;assault&nbsp;the&nbsp;ego&nbsp;of&nbsp;your&nbsp;enemy,&nbsp;debilitating&nbsp;its&nbsp;confidence.&nbsp;The&nbsp;target&nbsp;takes&nbsp;1d4&nbsp;points&nbsp;of&nbsp;Charisma&nbsp;damage,&nbsp;or&nbsp;half&nbsp;that&nbsp;amount&nbsp;(minimum&nbsp;1&nbsp;point)&nbsp;on&nbsp;a&nbsp;successful&nbsp;save.&nbsp;A&nbsp;target&nbsp;that&nbsp;fails&nbsp;its&nbsp;save&nbsp;is&nbsp;also&nbsp;dazed&nbsp;for&nbsp;1&nbsp;round.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;Charisma&nbsp;damage&nbsp;increases&nbsp;by&nbsp;1d4&nbsp;points&nbsp;and&nbsp;its&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;2.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 2
+      psion: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '101'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '191'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '38'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!kkLefipWxrjAJQqp'

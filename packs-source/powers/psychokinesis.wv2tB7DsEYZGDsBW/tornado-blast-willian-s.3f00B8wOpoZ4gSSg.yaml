@@ -1,0 +1,101 @@
+_id: 3f00B8wOpoZ4gSSg
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Tornado_Blast,_Willian's
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
+name: Tornado Blast, Willian's
+system:
+  actions:
+    - actionType: rsak
+      activation:
+        cost: 1
+        type: round
+      area:
+        shape: sphere
+        units: ft
+        value: '40'
+      damage:
+        parts:
+          - - 8d6
+            - untyped
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: long
+        value: Long (400 ft. + 40 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Reflex half; see text
+        type: ref
+      target:
+        value: 40-ft.-radius spread
+  description:
+    value: >-
+      <p>You&nbsp;induce&nbsp;the&nbsp;formation&nbsp;of&nbsp;a&nbsp;slender&nbsp;vortex&nbsp;of&nbsp;fiercely&nbsp;swirling&nbsp;air.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;it,&nbsp;a&nbsp;vortex&nbsp;of&nbsp;air&nbsp;visibly&nbsp;and&nbsp;audibly&nbsp;snakes&nbsp;out&nbsp;from&nbsp;your&nbsp;outstretched&nbsp;hand.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;want&nbsp;to&nbsp;aim&nbsp;the&nbsp;vortex&nbsp;at&nbsp;a&nbsp;specific&nbsp;creature,&nbsp;you&nbsp;can&nbsp;make&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;to&nbsp;strike&nbsp;the&nbsp;creature.&nbsp;If&nbsp;you&nbsp;succeed,&nbsp;direct&nbsp;contact&nbsp;with&nbsp;the&nbsp;vortex&nbsp;deals&nbsp;8d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;to&nbsp;the&nbsp;creature&nbsp;(no&nbsp;save).
+
+      </p>
+
+      <p>Regardless&nbsp;of&nbsp;whether&nbsp;your&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;hits&nbsp;(and&nbsp;even&nbsp;if&nbsp;you&nbsp;forgo&nbsp;the&nbsp;attack),&nbsp;all&nbsp;creatures&nbsp;in&nbsp;the&nbsp;area&nbsp;(including&nbsp;the&nbsp;one&nbsp;possibly&nbsp;damaged&nbsp;by&nbsp;direct&nbsp;contact)&nbsp;are&nbsp;picked&nbsp;up&nbsp;and&nbsp;violently&nbsp;dashed&nbsp;about,&nbsp;dealing&nbsp;17d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;to&nbsp;each&nbsp;one.&nbsp;Creatures&nbsp;that&nbsp;make&nbsp;a&nbsp;successful&nbsp;Reflex&nbsp;save&nbsp;take&nbsp;half&nbsp;damage,&nbsp;but&nbsp;are&nbsp;still&nbsp;picked&nbsp;up.
+
+      </p>
+
+      <p>After&nbsp;being&nbsp;dashed&nbsp;about,&nbsp;each&nbsp;creature&nbsp;that&nbsp;was&nbsp;affected&nbsp;finds&nbsp;itself&nbsp;situated&nbsp;in&nbsp;a&nbsp;new&nbsp;space&nbsp;1d4&nbsp;x&nbsp;10&nbsp;feet&nbsp;away&nbsp;from&nbsp;its&nbsp;original&nbsp;space&nbsp;in&nbsp;a&nbsp;random&nbsp;direction.&nbsp;Walls&nbsp;and&nbsp;other&nbsp;barriers&nbsp;can&nbsp;restrict&nbsp;this&nbsp;relocation;&nbsp;in&nbsp;such&nbsp;a&nbsp;case,&nbsp;the&nbsp;creature&nbsp;ends&nbsp;up&nbsp;adjacent&nbsp;to&nbsp;the&nbsp;barrier.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;area&nbsp;damage&nbsp;(not&nbsp;the&nbsp;damage&nbsp;from&nbsp;direct&nbsp;contact&nbsp;dealt&nbsp;to&nbsp;a&nbsp;specific&nbsp;creature)&nbsp;increases&nbsp;by&nbsp;1d6&nbsp;points.&nbsp;For&nbsp;each&nbsp;extra&nbsp;2d6&nbsp;points&nbsp;of&nbsp;damage,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  discipline: psychokinesis
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      kineticist: 9
+  level: 9
+  manifestTime:
+    units: round
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '151'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '252'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '58'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!3f00B8wOpoZ4gSSg'

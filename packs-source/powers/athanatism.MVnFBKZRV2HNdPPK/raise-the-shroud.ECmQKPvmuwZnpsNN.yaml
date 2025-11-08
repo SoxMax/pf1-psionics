@@ -1,0 +1,77 @@
+_id: ECmQKPvmuwZnpsNN
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Raise_the_Shroud
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Raise the Shroud
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '20'
+      duration:
+        dismiss: true
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: 20-ft.-radius spread
+  description:
+    value: >-
+      <p>You&nbsp;forcibly&nbsp;and&nbsp;temporarily&nbsp;separate&nbsp;the&nbsp;Ethereal&nbsp;and&nbsp;the&nbsp;Material&nbsp;planes.&nbsp;This&nbsp;power&nbsp;affects&nbsp;both&nbsp;the&nbsp;Ethereal&nbsp;and&nbsp;the&nbsp;Material&nbsp;Plane&nbsp;in&nbsp;the&nbsp;area.&nbsp;Affected&nbsp;ethereal&nbsp;creature&nbsp;and&nbsp;effects&nbsp;cannot&nbsp;affect&nbsp;the&nbsp;Material&nbsp;Plane,&nbsp;and&nbsp;affected&nbsp;material&nbsp;creatures&nbsp;and&nbsp;effects&nbsp;cannot&nbsp;effect&nbsp;the&nbsp;Ethereal&nbsp;Plane&nbsp;while&nbsp;within&nbsp;the&nbsp;area&nbsp;of&nbsp;this&nbsp;power.&nbsp;In&nbsp;addition,&nbsp;powers&nbsp;or&nbsp;effects&nbsp;that&nbsp;attempt&nbsp;to&nbsp;bridge&nbsp;the&nbsp;planes&nbsp;such&nbsp;as&nbsp;dead&nbsp;hand&nbsp;or&nbsp;ethereal&nbsp;jaunt&nbsp;cannot&nbsp;function&nbsp;within&nbsp;this&nbsp;area,&nbsp;and&nbsp;are&nbsp;suppressed&nbsp;for&nbsp;as&nbsp;long&nbsp;as&nbsp;they&nbsp;are&nbsp;in&nbsp;the&nbsp;area.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>You&nbsp;may&nbsp;spend&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points&nbsp;to&nbsp;increase&nbsp;the&nbsp;radius&nbsp;affected&nbsp;by&nbsp;this&nbsp;power&nbsp;by&nbsp;10&nbsp;feet.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;increase&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;1&nbsp;minute/level.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;8&nbsp;power&nbsp;points,&nbsp;increase&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;10&nbsp;minutes/level.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;center&nbsp;the&nbsp;area&nbsp;of&nbsp;this&nbsp;power&nbsp;on&nbsp;a&nbsp;held&nbsp;object,&nbsp;allowing&nbsp;it&nbsp;to&nbsp;move&nbsp;as&nbsp;the&nbsp;object&nbsp;does.</li></ol>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: true
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 4
+      tactician: 4
+      wilder: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '38'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!ECmQKPvmuwZnpsNN'

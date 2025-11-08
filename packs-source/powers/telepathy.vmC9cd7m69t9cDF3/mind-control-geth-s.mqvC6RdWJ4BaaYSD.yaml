@@ -1,0 +1,118 @@
+_id: mqvC6RdWJ4BaaYSD
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Mind_Control,_Geth's
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Mind Control, Geth's
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: round
+      duration:
+        units: spec
+        value: 1 day/ level; see text
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level); see text
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One humanoid
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;control&nbsp;the&nbsp;actions&nbsp;of&nbsp;any&nbsp;humanoid&nbsp;creature&nbsp;through&nbsp;a&nbsp;telepathic&nbsp;link&nbsp;that&nbsp;you&nbsp;establish&nbsp;with&nbsp;the&nbsp;subject's&nbsp;mind.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;and&nbsp;the&nbsp;subject&nbsp;have&nbsp;a&nbsp;common&nbsp;language,&nbsp;you&nbsp;can&nbsp;generally&nbsp;force&nbsp;the&nbsp;subject&nbsp;to&nbsp;perform&nbsp;as&nbsp;you&nbsp;desire,&nbsp;within&nbsp;the&nbsp;limits&nbsp;of&nbsp;its&nbsp;abilities.&nbsp;If&nbsp;no&nbsp;common&nbsp;language&nbsp;exists,&nbsp;you&nbsp;can&nbsp;communicate&nbsp;only&nbsp;basic&nbsp;commands,&nbsp;such&nbsp;as&nbsp;"Come&nbsp;here,"&nbsp;"Go&nbsp;there,"&nbsp;"Fight,"&nbsp;and&nbsp;"Stand&nbsp;still."&nbsp;You&nbsp;know&nbsp;what&nbsp;the&nbsp;subject&nbsp;is&nbsp;experiencing,&nbsp;but&nbsp;you&nbsp;do&nbsp;not&nbsp;receive&nbsp;direct&nbsp;sensory&nbsp;input&nbsp;from&nbsp;it,&nbsp;nor&nbsp;can&nbsp;it&nbsp;communicate&nbsp;with&nbsp;you&nbsp;telepathically.
+
+      </p>
+
+      <p>Once&nbsp;you&nbsp;have&nbsp;given&nbsp;a&nbsp;controlled&nbsp;creature&nbsp;a&nbsp;command,&nbsp;it&nbsp;continues&nbsp;to&nbsp;attempt&nbsp;to&nbsp;carry&nbsp;out&nbsp;that&nbsp;command&nbsp;to&nbsp;the&nbsp;exclusion&nbsp;of&nbsp;all&nbsp;other&nbsp;activities&nbsp;except&nbsp;those&nbsp;necessary&nbsp;for&nbsp;day-to-day&nbsp;survival&nbsp;(such&nbsp;as&nbsp;sleeping,&nbsp;eating,&nbsp;and&nbsp;so&nbsp;forth).&nbsp;Because&nbsp;of&nbsp;this&nbsp;limited&nbsp;range&nbsp;of&nbsp;activity,&nbsp;a&nbsp;Sense&nbsp;Motive&nbsp;check&nbsp;against&nbsp;DC&nbsp;15&nbsp;(rather&nbsp;than&nbsp;DC&nbsp;25)&nbsp;can&nbsp;determine&nbsp;that&nbsp;the&nbsp;subject's&nbsp;behavior&nbsp;is&nbsp;being&nbsp;influenced&nbsp;by&nbsp;an&nbsp;enchantment&nbsp;effect&nbsp;(see&nbsp;the&nbsp;Sense&nbsp;Motive&nbsp;skill&nbsp;description).
+
+      </p>
+
+      <p>Changing&nbsp;your&nbsp;orders&nbsp;or&nbsp;giving&nbsp;a&nbsp;dominated&nbsp;creature&nbsp;a&nbsp;new&nbsp;command&nbsp;is&nbsp;a&nbsp;move&nbsp;action.
+
+      </p>
+
+      <p>By&nbsp;concentrating&nbsp;fully&nbsp;on&nbsp;the&nbsp;power&nbsp;(a&nbsp;standard&nbsp;action),&nbsp;you&nbsp;can&nbsp;receive&nbsp;full&nbsp;sensory&nbsp;input&nbsp;as&nbsp;interpreted&nbsp;by&nbsp;the&nbsp;mind&nbsp;of&nbsp;the&nbsp;subject,&nbsp;though&nbsp;it&nbsp;still&nbsp;can't&nbsp;telepathically&nbsp;communicate&nbsp;with&nbsp;you.&nbsp;You&nbsp;can't&nbsp;actually&nbsp;see&nbsp;through&nbsp;the&nbsp;subject's&nbsp;eyes,&nbsp;so&nbsp;it's&nbsp;not&nbsp;as&nbsp;good&nbsp;as&nbsp;being&nbsp;there&nbsp;yourself,&nbsp;but&nbsp;you&nbsp;still&nbsp;get&nbsp;a&nbsp;good&nbsp;idea&nbsp;of&nbsp;what's&nbsp;going&nbsp;on.
+
+      </p>
+
+      <p>Subjects&nbsp;resist&nbsp;this&nbsp;control,&nbsp;and&nbsp;any&nbsp;subject&nbsp;forced&nbsp;to&nbsp;take&nbsp;actions&nbsp;against&nbsp;its&nbsp;nature&nbsp;receives&nbsp;a&nbsp;new&nbsp;saving&nbsp;throw&nbsp;with&nbsp;a&nbsp;+2&nbsp;bonus.&nbsp;Obviously&nbsp;self-destructive&nbsp;orders&nbsp;are&nbsp;not&nbsp;carried&nbsp;out.&nbsp;Once&nbsp;control&nbsp;is&nbsp;established,&nbsp;the&nbsp;range&nbsp;at&nbsp;which&nbsp;it&nbsp;can&nbsp;be&nbsp;exercised&nbsp;is&nbsp;unlimited,&nbsp;as&nbsp;long&nbsp;as&nbsp;you&nbsp;and&nbsp;the&nbsp;subject&nbsp;are&nbsp;on&nbsp;the&nbsp;same&nbsp;plane.&nbsp;You&nbsp;need&nbsp;not&nbsp;see&nbsp;the&nbsp;subject&nbsp;to&nbsp;control&nbsp;it.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;don't&nbsp;spend&nbsp;at&nbsp;least&nbsp;1&nbsp;round&nbsp;concentrating&nbsp;on&nbsp;the&nbsp;power&nbsp;each&nbsp;day,&nbsp;the&nbsp;subject&nbsp;receives&nbsp;a&nbsp;new&nbsp;saving&nbsp;throw&nbsp;to&nbsp;throw&nbsp;off&nbsp;the&nbsp;mind&nbsp;control.
+
+      </p>
+
+      <p>Protection&nbsp;from&nbsp;evil&nbsp;or&nbsp;a&nbsp;similar&nbsp;effect&nbsp;can&nbsp;prevent&nbsp;you&nbsp;from&nbsp;exercising&nbsp;control&nbsp;or&nbsp;using&nbsp;the&nbsp;telepathic&nbsp;link&nbsp;while&nbsp;the&nbsp;subject&nbsp;is&nbsp;so&nbsp;warded,&nbsp;but&nbsp;such&nbsp;an&nbsp;effect&nbsp;does&nbsp;not&nbsp;automatically&nbsp;dispel&nbsp;it.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;can&nbsp;also&nbsp;affect&nbsp;an&nbsp;animal,&nbsp;fey,&nbsp;magical&nbsp;beast,&nbsp;or&nbsp;monstrous&nbsp;humanoid.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;can&nbsp;also&nbsp;affect&nbsp;an&nbsp;aberration,&nbsp;dragon,&nbsp;elemental,&nbsp;or&nbsp;outsider&nbsp;in&nbsp;addition&nbsp;to&nbsp;the&nbsp;creature&nbsp;types&nbsp;mentioned&nbsp;above.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;can&nbsp;affect&nbsp;an&nbsp;additional&nbsp;target.&nbsp;Any&nbsp;additional&nbsp;target&nbsp;cannot&nbsp;be&nbsp;more&nbsp;than&nbsp;15&nbsp;feet&nbsp;from&nbsp;another&nbsp;target&nbsp;of&nbsp;the&nbsp;power.</li></ol>
+
+      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend&nbsp;to&nbsp;achieve&nbsp;any&nbsp;of&nbsp;these&nbsp;effects,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      telepath: 4
+  level: 4
+  manifestTime:
+    units: round
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 126–127
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 221–222
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '48'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline:
+    - compulsion
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!mqvC6RdWJ4BaaYSD'

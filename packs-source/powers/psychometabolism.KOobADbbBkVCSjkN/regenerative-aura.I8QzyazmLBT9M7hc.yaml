@@ -1,0 +1,95 @@
+_id: I8QzyazmLBT9M7hc
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Regenerative_Aura
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Regenerative Aura
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '30'
+      duration:
+        dismiss: true
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: ft
+        value: 30 ft
+      save:
+        description: Fort negates (harmless)
+        harmless: true
+      target:
+        value: 30 ft. radius sphere centered on you
+  description:
+    value: >-
+      <p>Psionic&nbsp;power&nbsp;radiates&nbsp;out&nbsp;from&nbsp;your&nbsp;body,&nbsp;causing&nbsp;all&nbsp;living&nbsp;creatures&nbsp;within&nbsp;range&nbsp;to&nbsp;rapidly&nbsp;heal&nbsp;as&nbsp;their&nbsp;healing&nbsp;ability&nbsp;is&nbsp;hyperaccelerated.&nbsp;All&nbsp;living&nbsp;creatures&nbsp;within&nbsp;range&nbsp;heal&nbsp;25&nbsp;hit&nbsp;points&nbsp;per&nbsp;round.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;By&nbsp;expending&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;while&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;you&nbsp;may&nbsp;select&nbsp;which&nbsp;creatures&nbsp;are&nbsp;healed.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      egoist: 9
+      vitalist: 9
+  level: 9
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '18'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Mind Over Body'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '176'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '239'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '54'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline:
+    - healing
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!I8QzyazmLBT9M7hc'

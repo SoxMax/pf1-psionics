@@ -1,0 +1,84 @@
+_id: TyF6WM5hx8lAZP5q
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Correspond
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Correspond
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 10
+        type: minute
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: ft
+        value: See text
+      save:
+        description: None
+      target:
+        value: One creature with an Intelligence score of 3 or higher
+  description:
+    value: >-
+      <p>You&nbsp;forge&nbsp;a&nbsp;passive&nbsp;mental&nbsp;link&nbsp;with&nbsp;a&nbsp;creature&nbsp;with&nbsp;which&nbsp;you&nbsp;have&nbsp;previously&nbsp;had&nbsp;physical&nbsp;or&nbsp;mental&nbsp;contact.&nbsp;The&nbsp;subject&nbsp;need&nbsp;not&nbsp;be&nbsp;within&nbsp;sight&nbsp;or&nbsp;even&nbsp;on&nbsp;the&nbsp;same&nbsp;plane&nbsp;as&nbsp;you&nbsp;are.&nbsp;The&nbsp;subject&nbsp;recognizes&nbsp;you,&nbsp;and&nbsp;you&nbsp;can&nbsp;mentally&nbsp;communicate&nbsp;with&nbsp;it&nbsp;for&nbsp;the&nbsp;duration&nbsp;(though&nbsp;nothing&nbsp;forces&nbsp;the&nbsp;subject&nbsp;to&nbsp;respond&nbsp;to&nbsp;you),&nbsp;exchanging&nbsp;messages&nbsp;of&nbsp;twenty-five&nbsp;words&nbsp;or&nbsp;less&nbsp;once&nbsp;per&nbsp;round.&nbsp;Receiving&nbsp;a&nbsp;message&nbsp;is&nbsp;not&nbsp;an&nbsp;action&nbsp;and&nbsp;does&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity;&nbsp;however,&nbsp;sending&nbsp;a&nbsp;message&nbsp;is&nbsp;equivalent&nbsp;to&nbsp;a&nbsp;standard&nbsp;action&nbsp;that&nbsp;can&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity.&nbsp;You&nbsp;do&nbsp;not&nbsp;need&nbsp;line&nbsp;of&nbsp;sight&nbsp;or&nbsp;line&nbsp;of&nbsp;effect&nbsp;to&nbsp;use&nbsp;this&nbsp;power.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;the&nbsp;power's&nbsp;duration&nbsp;increases&nbsp;to&nbsp;10&nbsp;minutes/level.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 4
+      tactician: 4
+      wilder: 4
+  level: 4
+  manifestTime:
+    units: minute
+    value: 10
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 90–91
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '177'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '34'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!TyF6WM5hx8lAZP5q'

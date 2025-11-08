@@ -1,0 +1,84 @@
+_id: vRPliXqQjVxYVHIk
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Mental_Contagion
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Mental Contagion
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: fullRound
+      duration:
+        units: round
+        value: '5'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. plus 5 ft. per 2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: 3 creatures (see text)
+  description:
+    value: >-
+      <p>You&nbsp;join&nbsp;your&nbsp;mind&nbsp;with&nbsp;a&nbsp;creature&nbsp;and&nbsp;seize&nbsp;the&nbsp;afflictions&nbsp;around&nbsp;its&nbsp;mind,&nbsp;spreading&nbsp;them&nbsp;to&nbsp;others.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;choose&nbsp;a&nbsp;creature&nbsp;within&nbsp;range,&nbsp;then&nbsp;choose&nbsp;up&nbsp;to&nbsp;two&nbsp;additional&nbsp;creatures&nbsp;within&nbsp;range.&nbsp;The&nbsp;additional&nbsp;creatures&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Will&nbsp;save&nbsp;or&nbsp;immediately&nbsp;suffer&nbsp;the&nbsp;effects&nbsp;of&nbsp;all&nbsp;mind-affecting&nbsp;abilities&nbsp;affecting&nbsp;the&nbsp;first&nbsp;creature&nbsp;for&nbsp;5&nbsp;rounds,&nbsp;except&nbsp;that&nbsp;you&nbsp;are&nbsp;treated&nbsp;as&nbsp;the&nbsp;caster&nbsp;(or&nbsp;origin,&nbsp;as&nbsp;appropriate)&nbsp;for&nbsp;those&nbsp;effects.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ul><li>For&nbsp;every&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;number&nbsp;of&nbsp;additional&nbsp;creatures&nbsp;increases&nbsp;by&nbsp;2,&nbsp;to&nbsp;a&nbsp;maximum&nbsp;of&nbsp;6.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;make&nbsp;a&nbsp;manifester&nbsp;level&nbsp;check&nbsp;against&nbsp;DC&nbsp;11&nbsp;+&nbsp;the&nbsp;caster&nbsp;or&nbsp;manifester&nbsp;level&nbsp;of&nbsp;the&nbsp;highest-level&nbsp;mind-affecting&nbsp;ability&nbsp;affecting&nbsp;the&nbsp;initial&nbsp;creature&nbsp;chosen.&nbsp;If&nbsp;you&nbsp;succeed,&nbsp;all&nbsp;mind-affecting&nbsp;abilities&nbsp;affecting&nbsp;that&nbsp;creature&nbsp;are&nbsp;removed.</li></ul>
+
+      <p><strong>Surge&nbsp;Augmentation:</strong>&nbsp;If&nbsp;you&nbsp;invoke&nbsp;your&nbsp;wild&nbsp;surge&nbsp;while&nbsp;manifesting&nbsp;this&nbsp;power&nbsp;you&nbsp;shatter&nbsp;the&nbsp;spirit&nbsp;of&nbsp;its&nbsp;victims;&nbsp;creatures&nbsp;that&nbsp;fail&nbsp;their&nbsp;saves&nbsp;also&nbsp;suffer&nbsp;a&nbsp;penalty&nbsp;equal&nbsp;to&nbsp;your&nbsp;wild&nbsp;surge's&nbsp;intensity&nbsp;on&nbsp;attack&nbsp;rolls,&nbsp;skill&nbsp;checks,&nbsp;caster&nbsp;level&nbsp;checks,&nbsp;and&nbsp;manifester&nbsp;level&nbsp;checks&nbsp;for&nbsp;a&nbsp;number&nbsp;of&nbsp;rounds&nbsp;equal&nbsp;to&nbsp;your&nbsp;key&nbsp;ability&nbsp;modifier.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 5
+      psion: 6
+      wilder: 6
+  level: 5
+  manifestTime:
+    units: fullRound
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '15'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Wilders'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '77'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!vRPliXqQjVxYVHIk'

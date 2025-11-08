@@ -1,0 +1,80 @@
+_id: 3TaGi3Wto4U1mtCJ
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Aura_of_Decay
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Aura of Decay
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '40'
+      damage:
+        parts:
+          - - 1d10
+            - untyped
+      duration:
+        units: hour
+        value: 2 * @cl
+      name: Use
+      range:
+        units: touch
+        value: Object touched
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: 40-ft. radius emanating from the touched object
+  description:
+    value: >-
+      <p>You&nbsp;deeply&nbsp;infuse&nbsp;one&nbsp;object&nbsp;with&nbsp;the&nbsp;power&nbsp;of&nbsp;decay.&nbsp;Creatures&nbsp;in&nbsp;the&nbsp;area&nbsp;of&nbsp;this&nbsp;power&nbsp;must&nbsp;succeed&nbsp;on&nbsp;a&nbsp;Will&nbsp;save&nbsp;or&nbsp;suffer&nbsp;a&nbsp;-2&nbsp;penalty&nbsp;on&nbsp;saving&nbsp;throws&nbsp;against&nbsp;ghost&nbsp;special&nbsp;attacks&nbsp;(such&nbsp;as&nbsp;malevolence,&nbsp;corrupting&nbsp;gaze,&nbsp;etc.).&nbsp;This&nbsp;penalty&nbsp;increases&nbsp;by&nbsp;one&nbsp;for&nbsp;each&nbsp;hour&nbsp;that&nbsp;they&nbsp;remain&nbsp;within&nbsp;the&nbsp;area&nbsp;of&nbsp;this&nbsp;power.&nbsp;Those&nbsp;that&nbsp;succeed&nbsp;on&nbsp;the&nbsp;saving&nbsp;throw&nbsp;are&nbsp;immune&nbsp;to&nbsp;this&nbsp;manifestation&nbsp;of&nbsp;this&nbsp;power.&nbsp;In&nbsp;addition,&nbsp;non-magical&nbsp;objects&nbsp;also&nbsp;rot&nbsp;away&nbsp;over&nbsp;time&nbsp;when&nbsp;exposed&nbsp;to&nbsp;this&nbsp;power,&nbsp;suffering&nbsp;1d10&nbsp;points&nbsp;of&nbsp;damage&nbsp;each&nbsp;hour,&nbsp;ignoring&nbsp;hardness.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>.&nbsp;By&nbsp;expending&nbsp;your&nbsp;psionic&nbsp;focus,&nbsp;you&nbsp;and&nbsp;any&nbsp;objects&nbsp;you&nbsp;carry&nbsp;or&nbsp;wield&nbsp;are&nbsp;immune&nbsp;to&nbsp;this&nbsp;manifestation.</li><li>You&nbsp;may&nbsp;spend&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;to&nbsp;cause&nbsp;rapid&nbsp;aging&nbsp;in&nbsp;those&nbsp;affected.&nbsp;Those&nbsp;that&nbsp;fail&nbsp;the&nbsp;Will&nbsp;save&nbsp;also&nbsp;suffer&nbsp;1&nbsp;point&nbsp;of&nbsp;ability&nbsp;damage&nbsp;to&nbsp;Strength,&nbsp;Dexterity,&nbsp;and&nbsp;Constitution&nbsp;for&nbsp;each&nbsp;hour&nbsp;that&nbsp;they&nbsp;remain&nbsp;in&nbsp;the&nbsp;area&nbsp;of&nbsp;this&nbsp;power.</li><li>By&nbsp;spending&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;reduce&nbsp;the&nbsp;hardness&nbsp;of&nbsp;all&nbsp;non-magical&nbsp;objects&nbsp;in&nbsp;the&nbsp;area&nbsp;by&nbsp;2.&nbsp;For&nbsp;each&nbsp;hour&nbsp;that&nbsp;an&nbsp;object&nbsp;remains&nbsp;in&nbsp;the&nbsp;area&nbsp;of&nbsp;this&nbsp;power,&nbsp;its&nbsp;hardness&nbsp;is&nbsp;reduced&nbsp;by&nbsp;a&nbsp;further&nbsp;2.&nbsp;After&nbsp;two&nbsp;hours&nbsp;have&nbsp;passed,&nbsp;and&nbsp;after&nbsp;every&nbsp;two&nbsp;hours&nbsp;that&nbsp;passes&nbsp;thereafter,&nbsp;the&nbsp;hardness&nbsp;of&nbsp;magical&nbsp;objects&nbsp;in&nbsp;the&nbsp;area&nbsp;is&nbsp;reduced&nbsp;by&nbsp;2&nbsp;as&nbsp;well.&nbsp;These&nbsp;objects&nbsp;receive&nbsp;their&nbsp;own&nbsp;Will&nbsp;save&nbsp;to&nbsp;resist&nbsp;this&nbsp;power.</li></ol>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: true
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 4
+      vitalist: 4
+      wilder: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 22–23
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!3TaGi3Wto4U1mtCJ'

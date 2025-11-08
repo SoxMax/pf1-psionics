@@ -1,0 +1,85 @@
+_id: emvLcxoiHHUBK2Dh
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Sustenance
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Sustenance
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;go&nbsp;without&nbsp;food&nbsp;and&nbsp;water&nbsp;for&nbsp;one&nbsp;day.&nbsp;Each&nbsp;time&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;your&nbsp;body&nbsp;manufactures&nbsp;sufficient&nbsp;solid&nbsp;and&nbsp;liquid&nbsp;nourishment&nbsp;to&nbsp;satisfy&nbsp;your&nbsp;needs&nbsp;for&nbsp;that&nbsp;time.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 2
+      empath: 2
+      gambler: 2
+      gifted blade: 2
+      marksman: 2
+      psion: 2
+      psychic warrior: 2
+      tactician: 2
+      thug: 2
+      vitalist: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '147'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '248'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '56'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!emvLcxoiHHUBK2Dh'

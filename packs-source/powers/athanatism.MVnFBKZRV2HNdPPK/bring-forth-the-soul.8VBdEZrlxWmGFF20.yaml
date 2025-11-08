@@ -1,0 +1,75 @@
+_id: 8VBdEZrlxWmGFF20
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Bring_Forth_the_Soul
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Bring Forth the Soul
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 5
+        type: minute
+      duration:
+        dismiss: true
+        units: minute
+        value: 10 * @cl
+      name: Use
+      range:
+        units: ft
+        value: 10 ft.
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates; see text
+        type: will
+      target:
+        value: One dead creature
+  description:
+    value: >-
+      <p>You&nbsp;bring&nbsp;back&nbsp;the&nbsp;soul&nbsp;of&nbsp;one&nbsp;that&nbsp;is&nbsp;recently&nbsp;dead,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;question&nbsp;them&nbsp;freely&nbsp;or&nbsp;raise&nbsp;them&nbsp;more&nbsp;easily.&nbsp;A&nbsp;soul&nbsp;brought&nbsp;back&nbsp;in&nbsp;this&nbsp;way&nbsp;is&nbsp;treated&nbsp;as&nbsp;a&nbsp;shadow,&nbsp;except&nbsp;that&nbsp;they&nbsp;cannot&nbsp;create&nbsp;spawn&nbsp;and&nbsp;do&nbsp;not&nbsp;deal&nbsp;ability&nbsp;damage&nbsp;with&nbsp;their&nbsp;attacks.&nbsp;This&nbsp;soul&nbsp;is&nbsp;not&nbsp;obliged&nbsp;to&nbsp;stay&nbsp;or&nbsp;serve,&nbsp;and&nbsp;may&nbsp;attempt&nbsp;a&nbsp;Will&nbsp;saving&nbsp;throw&nbsp;to&nbsp;resist&nbsp;being&nbsp;brought&nbsp;back.&nbsp;The&nbsp;soul&nbsp;suffers&nbsp;a&nbsp;penalty&nbsp;on&nbsp;saves&nbsp;equal&nbsp;to&nbsp;your&nbsp;Charisma&nbsp;modifier&nbsp;against&nbsp;any&nbsp;Athanatism&nbsp;powers&nbsp;or&nbsp;effects&nbsp;that&nbsp;you&nbsp;manifest&nbsp;in&nbsp;the&nbsp;future.&nbsp;A&nbsp;soul&nbsp;that&nbsp;succeeds&nbsp;on&nbsp;this&nbsp;saving&nbsp;throw&nbsp;may&nbsp;not&nbsp;be&nbsp;targeted&nbsp;again&nbsp;by&nbsp;this&nbsp;power&nbsp;by&nbsp;the&nbsp;same&nbsp;manifester&nbsp;for&nbsp;24&nbsp;hours.&nbsp;If&nbsp;the&nbsp;targeted&nbsp;creature&nbsp;has&nbsp;been&nbsp;dead&nbsp;for&nbsp;longer&nbsp;than&nbsp;a&nbsp;week,&nbsp;or&nbsp;died&nbsp;due&nbsp;to&nbsp;negative&nbsp;energy&nbsp;or&nbsp;soul-draining&nbsp;effects,&nbsp;this&nbsp;power&nbsp;fails.&nbsp;This&nbsp;power&nbsp;does&nbsp;not&nbsp;affect&nbsp;a&nbsp;corpse&nbsp;that&nbsp;has&nbsp;been&nbsp;turned&nbsp;into&nbsp;an&nbsp;undead&nbsp;creature.&nbsp;Each&nbsp;corpse&nbsp;can&nbsp;only&nbsp;be&nbsp;affected&nbsp;by&nbsp;one&nbsp;instance&nbsp;of&nbsp;this&nbsp;power&nbsp;at&nbsp;a&nbsp;time.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;corpse&nbsp;targeted&nbsp;by&nbsp;this&nbsp;power&nbsp;may&nbsp;have&nbsp;been&nbsp;dead&nbsp;for&nbsp;one&nbsp;additional&nbsp;week.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;increase&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;1&nbsp;hour/level.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;increase&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;1&nbsp;day/level.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;10&nbsp;power&nbsp;points,&nbsp;you&nbsp;may</li></ol>
+
+      <p>raise&nbsp;the&nbsp;soul&nbsp;from&nbsp;the&nbsp;dead.&nbsp;The&nbsp;soul&nbsp;must&nbsp;be&nbsp;willing&nbsp;to&nbsp;return.&nbsp;It&nbsp;returns&nbsp;to&nbsp;life&nbsp;with&nbsp;two&nbsp;permanent&nbsp;negative&nbsp;levels.&nbsp;If&nbsp;it&nbsp;is&nbsp;1st&nbsp;level,&nbsp;it&nbsp;takes&nbsp;2&nbsp;points&nbsp;of&nbsp;Constitution&nbsp;drain&nbsp;instead&nbsp;(if&nbsp;this&nbsp;would&nbsp;reduce&nbsp;its&nbsp;Con&nbsp;to&nbsp;0&nbsp;or&nbsp;less,&nbsp;it&nbsp;can't&nbsp;be&nbsp;raised).&nbsp;A&nbsp;target&nbsp;that&nbsp;died&nbsp;with&nbsp;spells&nbsp;prepared&nbsp;has&nbsp;a&nbsp;50%&nbsp;chance&nbsp;of&nbsp;losing&nbsp;any&nbsp;given&nbsp;spell&nbsp;upon&nbsp;being&nbsp;raised.&nbsp;A&nbsp;spellcasting&nbsp;creature&nbsp;that&nbsp;doesn't&nbsp;prepare&nbsp;spells&nbsp;has&nbsp;a&nbsp;50%&nbsp;chance&nbsp;of&nbsp;losing&nbsp;any&nbsp;given&nbsp;unused&nbsp;spell&nbsp;slot&nbsp;as&nbsp;if&nbsp;it&nbsp;had&nbsp;been&nbsp;used&nbsp;to&nbsp;cast&nbsp;a&nbsp;spell.&nbsp;A&nbsp;manifester&nbsp;that&nbsp;died&nbsp;with&nbsp;power&nbsp;points&nbsp;is&nbsp;raised&nbsp;with&nbsp;half&nbsp;its&nbsp;maximum&nbsp;power&nbsp;points,&nbsp;round&nbsp;up.&nbsp;A&nbsp;raised&nbsp;creature&nbsp;has&nbsp;a&nbsp;number&nbsp;of&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;its&nbsp;current&nbsp;HD.&nbsp;Any&nbsp;normal&nbsp;poison&nbsp;or&nbsp;diseases&nbsp;affecting&nbsp;the&nbsp;target&nbsp;are&nbsp;cured&nbsp;when&nbsp;it&nbsp;returns&nbsp;to&nbsp;life,&nbsp;but&nbsp;missing&nbsp;limbs,&nbsp;magical&nbsp;diseases,&nbsp;and&nbsp;curses&nbsp;remain&nbsp;unchanged.&nbsp;It&nbsp;retains&nbsp;the&nbsp;penalty&nbsp;to&nbsp;saves&nbsp;against&nbsp;your&nbsp;athanatism&nbsp;effects.&nbsp;When&nbsp;you&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;this&nbsp;way,&nbsp;you&nbsp;suffer&nbsp;a&nbsp;permanent&nbsp;negative&nbsp;level.&nbsp;This&nbsp;power&nbsp;gains&nbsp;the&nbsp;healing&nbsp;subtype.
+
+      </p>
+  discipline: athanatism
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: true
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      conduit: 2
+  level: 2
+  manifestTime:
+    units: minute
+    value: 5
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '25'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!8VBdEZrlxWmGFF20'

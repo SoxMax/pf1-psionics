@@ -1,0 +1,77 @@
+_id: WMkbhG4kGEWfQABm
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Mark_of_the_Shroud
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Mark of the Shroud
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. +5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One living creature touched per three levels
+  description:
+    value: >-
+      <p>By&nbsp;marking&nbsp;mortal&nbsp;creatures,&nbsp;you&nbsp;gain&nbsp;knowledge&nbsp;of&nbsp;their&nbsp;mortality.&nbsp;You&nbsp;are&nbsp;aware&nbsp;of&nbsp;direction&nbsp;or&nbsp;distance&nbsp;to&nbsp;the&nbsp;creatures&nbsp;and&nbsp;any&nbsp;conditions&nbsp;affecting&nbsp;them:&nbsp;unharmed,&nbsp;wounded,&nbsp;disabled,&nbsp;staggered,&nbsp;unconscious,&nbsp;dying,&nbsp;nauseated,&nbsp;panicked,&nbsp;stunned,&nbsp;poisoned,&nbsp;diseased,&nbsp;confused,&nbsp;or&nbsp;the&nbsp;like.&nbsp;You&nbsp;may&nbsp;also&nbsp;allow&nbsp;the&nbsp;soul&nbsp;to&nbsp;linger&nbsp;in&nbsp;the&nbsp;marked&nbsp;creatures&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power.&nbsp;This&nbsp;extends&nbsp;the&nbsp;period&nbsp;of&nbsp;time&nbsp;that&nbsp;spells&nbsp;and&nbsp;powers&nbsp;such&nbsp;as&nbsp;raise&nbsp;dead&nbsp;would&nbsp;be&nbsp;effective.&nbsp;Once&nbsp;this&nbsp;power&nbsp;has&nbsp;been&nbsp;manifested&nbsp;upon&nbsp;the&nbsp;subjects,&nbsp;the&nbsp;distance&nbsp;between&nbsp;them&nbsp;and&nbsp;the&nbsp;manifester&nbsp;does&nbsp;not&nbsp;affect&nbsp;the&nbsp;power&nbsp;as&nbsp;long&nbsp;as&nbsp;they&nbsp;are&nbsp;on&nbsp;the&nbsp;same&nbsp;plane.&nbsp;If&nbsp;a&nbsp;subject&nbsp;leaves&nbsp;the&nbsp;plane,&nbsp;or&nbsp;if&nbsp;it&nbsp;dies,&nbsp;the&nbsp;power&nbsp;ceases&nbsp;to&nbsp;function&nbsp;for&nbsp;it.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points,&nbsp;increase&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;1&nbsp;hour/level.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;increase&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;1&nbsp;day/level.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;extend&nbsp;the&nbsp;negative&nbsp;hit&nbsp;point&nbsp;total&nbsp;at&nbsp;which&nbsp;targets&nbsp;die&nbsp;by&nbsp;1&nbsp;hit&nbsp;point.</li></ol>
+
+      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;you&nbsp;spend&nbsp;augmenting&nbsp;this&nbsp;power,&nbsp;targets&nbsp;gain&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;on&nbsp;saves&nbsp;against&nbsp;death&nbsp;or&nbsp;negative&nbsp;energy&nbsp;effects.
+
+      </p>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: true
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 1
+      tactician: 1
+      vitalist: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '36'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!WMkbhG4kGEWfQABm'

@@ -1,0 +1,92 @@
+_id: JPknHpmCvT4mx9Vo
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Fear_Cascade
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Fear Cascade
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: long
+        value: Long (400 ft. + 40 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates or no; see text
+        type: will
+      target:
+        value: One creature and any number within 20 ft.
+  description:
+    value: >-
+      <p>You&nbsp;overload&nbsp;the&nbsp;target&nbsp;creature's&nbsp;mental&nbsp;and&nbsp;physical&nbsp;faculties&nbsp;with&nbsp;fear,&nbsp;a&nbsp;fear&nbsp;so&nbsp;powerful&nbsp;that&nbsp;even&nbsp;creatures&nbsp;near&nbsp;the&nbsp;original&nbsp;target&nbsp;are&nbsp;affected&nbsp;by&nbsp;the&nbsp;residual&nbsp;energy.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;the&nbsp;target&nbsp;is&nbsp;cowering&nbsp;unless&nbsp;it&nbsp;makes&nbsp;a&nbsp;successful&nbsp;Will&nbsp;save.
+
+      </p>
+
+      <p>In&nbsp;addition,&nbsp;all&nbsp;enemies&nbsp;within&nbsp;20&nbsp;feet&nbsp;of&nbsp;the&nbsp;target,&nbsp;including&nbsp;the&nbsp;target,&nbsp;are&nbsp;shaken&nbsp;for&nbsp;1&nbsp;round.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;shaken&nbsp;condition&nbsp;increases&nbsp;by&nbsp;1&nbsp;round.</li><li>For&nbsp;every&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;radius&nbsp;for&nbsp;nearby&nbsp;affected&nbsp;creatures&nbsp;increases&nbsp;by&nbsp;10&nbsp;feet.&nbsp;In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;you&nbsp;spend&nbsp;augmenting&nbsp;this&nbsp;power,&nbsp;the&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;+1.</li></ol>
+  descriptors:
+    - fear
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 4
+      gambler: 4
+      telepath: 4
+      thug: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 28–29
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '163'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '203'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!JPknHpmCvT4mx9Vo'

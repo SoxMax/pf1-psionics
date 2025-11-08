@@ -1,0 +1,82 @@
+_id: N2jdqTc6zi3H8AlC
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Zealous_Fury,_Zelladariath's
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Zealous Fury, Zelladariath's
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: swift
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>The&nbsp;penalty&nbsp;on&nbsp;your&nbsp;additional&nbsp;attacks&nbsp;for&nbsp;having&nbsp;a&nbsp;high&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;is&nbsp;reduced&nbsp;by&nbsp;5&nbsp;(to&nbsp;a&nbsp;minimum&nbsp;of&nbsp;0).&nbsp;For&nbsp;example,&nbsp;a&nbsp;character&nbsp;with&nbsp;a&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;of&nbsp;+6&nbsp;under&nbsp;the&nbsp;effects&nbsp;of&nbsp;this&nbsp;power&nbsp;would&nbsp;make&nbsp;full&nbsp;attacks&nbsp;at&nbsp;+6/+6&nbsp;instead&nbsp;of&nbsp;+6/+1,&nbsp;before&nbsp;accounting&nbsp;for&nbsp;other&nbsp;modifiers.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways:
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;an&nbsp;additional&nbsp;5&nbsp;power&nbsp;points,&nbsp;the&nbsp;penalty&nbsp;is&nbsp;reduced&nbsp;by&nbsp;10.</li><li>If&nbsp;you&nbsp;spend&nbsp;10&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;penalty&nbsp;is&nbsp;reduced&nbsp;by&nbsp;15.</li><li>For&nbsp;every&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;duration&nbsp;increases&nbsp;by&nbsp;1&nbsp;round.</li></ol>
+  discipline: psychometabolism
+  display:
+    auditory: true
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      marksman: 4
+      psychic warrior: 4
+      thug: 4
+  level: 4
+  manifestTime:
+    units: swift
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '23'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Find the Mark'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '186'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '258'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!N2jdqTc6zi3H8AlC'

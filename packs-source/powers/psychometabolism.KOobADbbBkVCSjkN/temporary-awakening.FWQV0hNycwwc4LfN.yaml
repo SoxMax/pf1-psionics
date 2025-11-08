@@ -1,0 +1,73 @@
+_id: FWQV0hNycwwc4LfN
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Temporary_Awakening
+folder: KOobADbbBkVCSjkN
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Temporary Awakening
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 10
+        type: minute
+      duration:
+        dismiss: true
+        units: spec
+        value: see text (D)
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      target:
+        value: One sentient creature without the psionic subtype
+  description:
+    value: >-
+      <p>Inside&nbsp;everyone&nbsp;there&nbsp;is&nbsp;a&nbsp;spark&nbsp;that&nbsp;can&nbsp;be&nbsp;fanned&nbsp;into&nbsp;true&nbsp;power.&nbsp;You&nbsp;trigger&nbsp;a&nbsp;temporary&nbsp;awakening&nbsp;of&nbsp;psionic&nbsp;power&nbsp;inside&nbsp;a&nbsp;creature&nbsp;that&nbsp;had&nbsp;none&nbsp;before,&nbsp;temporarily&nbsp;sharing&nbsp;some&nbsp;of&nbsp;your&nbsp;own&nbsp;insights&nbsp;and&nbsp;fueling&nbsp;their&nbsp;internal&nbsp;power.&nbsp;The&nbsp;more&nbsp;powerful&nbsp;the&nbsp;target&nbsp;is,&nbsp;the&nbsp;more&nbsp;power&nbsp;they&nbsp;can&nbsp;contain,&nbsp;but&nbsp;their&nbsp;knowledge&nbsp;is&nbsp;temporary,&nbsp;a&nbsp;gift&nbsp;from&nbsp;you.&nbsp;Choose&nbsp;one&nbsp;1st&nbsp;level&nbsp;power&nbsp;that&nbsp;you&nbsp;know,&nbsp;as&nbsp;long&nbsp;as&nbsp;this&nbsp;power&nbsp;is&nbsp;in&nbsp;effect,&nbsp;you&nbsp;cannot&nbsp;use&nbsp;the&nbsp;power.&nbsp;The&nbsp;target&nbsp;gains&nbsp;access&nbsp;to&nbsp;that&nbsp;1st&nbsp;level&nbsp;power,&nbsp;gains&nbsp;1&nbsp;power&nbsp;point&nbsp;and&nbsp;a&nbsp;manifester&nbsp;level&nbsp;of&nbsp;1,&nbsp;and&nbsp;a&nbsp;number&nbsp;of&nbsp;bonus&nbsp;power&nbsp;points&nbsp;as&nbsp;if&nbsp;his&nbsp;hit&nbsp;dice&nbsp;was&nbsp;his&nbsp;manifester&nbsp;level&nbsp;and&nbsp;his&nbsp;highest&nbsp;mental&nbsp;ability&nbsp;score&nbsp;was&nbsp;his&nbsp;primary&nbsp;manifesting&nbsp;ability&nbsp;score&nbsp;(which&nbsp;it&nbsp;also&nbsp;is&nbsp;for&nbsp;purposes&nbsp;of&nbsp;this&nbsp;granted&nbsp;power).&nbsp;Each&nbsp;morning&nbsp;the&nbsp;target&nbsp;can&nbsp;meditate&nbsp;to&nbsp;regain&nbsp;these&nbsp;power&nbsp;points&nbsp;as&nbsp;normal&nbsp;but&nbsp;if&nbsp;they&nbsp;ever&nbsp;are&nbsp;reduced&nbsp;to&nbsp;0&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;ends.&nbsp;The&nbsp;target&nbsp;can&nbsp;also&nbsp;recharge&nbsp;their&nbsp;power&nbsp;points&nbsp;from&nbsp;cognizance&nbsp;crystals&nbsp;as&nbsp;if&nbsp;he&nbsp;was&nbsp;a&nbsp;true&nbsp;manifester.&nbsp;Both&nbsp;the&nbsp;original&nbsp;manifester&nbsp;and&nbsp;the&nbsp;target&nbsp;can&nbsp;end&nbsp;this&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;at&nbsp;any&nbsp;time.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;choose&nbsp;another&nbsp;1st&nbsp;level&nbsp;power&nbsp;you&nbsp;know&nbsp;to&nbsp;gift&nbsp;the&nbsp;target,&nbsp;but&nbsp;you&nbsp;lose&nbsp;access&nbsp;to&nbsp;this&nbsp;power&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;target&nbsp;gains&nbsp;a&nbsp;2nd&nbsp;level&nbsp;power&nbsp;in&nbsp;addition&nbsp;to&nbsp;the&nbsp;1st&nbsp;level&nbsp;power&nbsp;and&nbsp;has&nbsp;an&nbsp;effective&nbsp;manifester&nbsp;level&nbsp;of&nbsp;3&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of&nbsp;manifesting&nbsp;these&nbsp;powers.&nbsp;You&nbsp;lose&nbsp;access&nbsp;to&nbsp;this&nbsp;2nd&nbsp;level&nbsp;power&nbsp;for&nbsp;the&nbsp;duration.</li></ol>
+  descriptors:
+    - mind-affecting
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 4
+      vitalist: 4
+      wilder: 4
+  level: 4
+  manifestTime:
+    units: minute
+    value: 10
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '14'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!FWQV0hNycwwc4LfN'

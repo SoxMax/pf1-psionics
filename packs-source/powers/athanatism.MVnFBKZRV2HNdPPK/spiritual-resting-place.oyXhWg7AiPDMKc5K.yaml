@@ -1,0 +1,75 @@
+_id: oyXhWg7AiPDMKc5K
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Spiritual_Resting_Place
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Spiritual Resting Place
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '20'
+      duration:
+        dismiss: true
+        units: hour
+        value: 2 * @cl
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        description: None
+      target:
+        value: Yourself and one willing creature touched/level
+  description:
+    value: >-
+      <p>You&nbsp;and&nbsp;the&nbsp;willing&nbsp;creatures&nbsp;you&nbsp;touch&nbsp;are&nbsp;transported&nbsp;to&nbsp;the&nbsp;Ethereal&nbsp;Plane,&nbsp;where&nbsp;you&nbsp;are&nbsp;contained&nbsp;within&nbsp;a&nbsp;impenetrable,&nbsp;transparent,&nbsp;20&nbsp;ft.&nbsp;radius&nbsp;dome.&nbsp;This&nbsp;dome&nbsp;is&nbsp;a&nbsp;force&nbsp;effect,&nbsp;and&nbsp;no&nbsp;effects&nbsp;or&nbsp;attacks&nbsp;can&nbsp;travel&nbsp;through&nbsp;it&nbsp;in&nbsp;either&nbsp;direction&nbsp;(though&nbsp;it&nbsp;can&nbsp;be&nbsp;seen&nbsp;through&nbsp;in&nbsp;either&nbsp;direction,&nbsp;and&nbsp;does&nbsp;not&nbsp;hinder&nbsp;sound).&nbsp;You&nbsp;do&nbsp;not&nbsp;have&nbsp;to&nbsp;remain&nbsp;touching&nbsp;the&nbsp;targets&nbsp;while&nbsp;the&nbsp;power&nbsp;is&nbsp;active.&nbsp;When&nbsp;this&nbsp;power&nbsp;ends,&nbsp;you&nbsp;and&nbsp;the&nbsp;creatures&nbsp;you&nbsp;brought&nbsp;with&nbsp;you&nbsp;are&nbsp;returned&nbsp;to&nbsp;the&nbsp;area&nbsp;you&nbsp;were&nbsp;in&nbsp;when&nbsp;this&nbsp;power&nbsp;was&nbsp;manifested.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;instead&nbsp;target&nbsp;yourself&nbsp;and&nbsp;two&nbsp;willing&nbsp;creatures&nbsp;touched/level.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;send&nbsp;only&nbsp;the&nbsp;willing&nbsp;creatures&nbsp;touched,&nbsp;excluding&nbsp;yourself.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;10&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;instead&nbsp;send&nbsp;one&nbsp;unwilling&nbsp;creature&nbsp;touched.&nbsp;This&nbsp;creature&nbsp;receives&nbsp;no&nbsp;save,&nbsp;but&nbsp;may&nbsp;resist&nbsp;with&nbsp;power&nbsp;resistance&nbsp;as&nbsp;normal.&nbsp;When&nbsp;augmented&nbsp;this&nbsp;way,&nbsp;this&nbsp;power&nbsp;has&nbsp;a&nbsp;duration&nbsp;of&nbsp;10&nbsp;minutes.&nbsp;A&nbsp;creature&nbsp;targeted&nbsp;by&nbsp;this&nbsp;power&nbsp;may&nbsp;take&nbsp;a&nbsp;full-round&nbsp;action&nbsp;to&nbsp;end&nbsp;this&nbsp;power&nbsp;by&nbsp;succeeding&nbsp;at&nbsp;a&nbsp;DC&nbsp;20&nbsp;Charisma&nbsp;check.</li></ol>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 3
+      tactician: 3
+      wilder: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '43'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!oyXhWg7AiPDMKc5K'

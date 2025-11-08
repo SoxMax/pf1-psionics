@@ -1,0 +1,91 @@
+_id: zBGXqW3UYYqhxOWF
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Freezing_Sting
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp
+name: Freezing Sting
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: swift
+      damage:
+        parts:
+          - - 1d6
+            - cold
+      duration:
+        units: spec
+        value: 1 round; see text
+      name: Use
+      range:
+        units: ft
+        value: Melee
+      save:
+        description: None
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>The&nbsp;next&nbsp;successful&nbsp;melee&nbsp;attack&nbsp;you&nbsp;make&nbsp;this&nbsp;turn&nbsp;deals&nbsp;an&nbsp;additional&nbsp;+1d6&nbsp;points&nbsp;of&nbsp;cold&nbsp;damage.
+
+      </p>
+
+      <p><strong>Trigger:</strong>&nbsp;If&nbsp;your&nbsp;attack&nbsp;was&nbsp;successful&nbsp;and&nbsp;the&nbsp;target&nbsp;makes&nbsp;an&nbsp;attack&nbsp;during&nbsp;its&nbsp;next&nbsp;turn,&nbsp;you&nbsp;can&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;give&nbsp;it&nbsp;a&nbsp;-2&nbsp;penalty&nbsp;to&nbsp;that&nbsp;attack&nbsp;and&nbsp;all&nbsp;other&nbsp;attacks&nbsp;it&nbsp;makes&nbsp;during&nbsp;that&nbsp;turn.&nbsp;Power&nbsp;resistance&nbsp;applies&nbsp;to&nbsp;this&nbsp;triggered&nbsp;effect&nbsp;only;&nbsp;it&nbsp;does&nbsp;not&nbsp;apply&nbsp;to&nbsp;the&nbsp;additional&nbsp;damage&nbsp;on&nbsp;your&nbsp;attack.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;instead&nbsp;manifest&nbsp;this&nbsp;power&nbsp;upon&nbsp;making&nbsp;a&nbsp;successful&nbsp;melee&nbsp;attack&nbsp;and&nbsp;have&nbsp;the&nbsp;effects&nbsp;of&nbsp;this&nbsp;power&nbsp;instead&nbsp;apply&nbsp;to&nbsp;that&nbsp;attack.&nbsp;Doing&nbsp;so&nbsp;still&nbsp;uses&nbsp;your&nbsp;swift&nbsp;action&nbsp;for&nbsp;the&nbsp;round.
+
+      </p>
+  descriptors:
+    - cold
+    - trigger
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psychic warrior: 2
+  level: 2
+  manifestTime:
+    units: swift
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '29'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '146'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '206'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!zBGXqW3UYYqhxOWF'

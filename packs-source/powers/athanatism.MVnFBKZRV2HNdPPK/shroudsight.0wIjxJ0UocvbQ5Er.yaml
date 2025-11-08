@@ -1,0 +1,82 @@
+_id: 0wIjxJ0UocvbQ5Er
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Shroudsight
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Shroudsight
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        concentration: true
+        units: conc
+      name: Use
+      range:
+        units: ft
+        value: 60 ft.
+      save:
+        description: None
+      target:
+        value: Cone-shaped emanation
+  description:
+    value: >-
+      <p>You&nbsp;attune&nbsp;your&nbsp;eyes&nbsp;to&nbsp;the&nbsp;energies&nbsp;of&nbsp;the&nbsp;dead&nbsp;and&nbsp;the&nbsp;half-living,&nbsp;detecting&nbsp;undead&nbsp;and&nbsp;incorporeal&nbsp;creatures.&nbsp;The&nbsp;amount&nbsp;of&nbsp;information&nbsp;revealed&nbsp;depends&nbsp;on&nbsp;how&nbsp;long&nbsp;you&nbsp;study&nbsp;a&nbsp;particular&nbsp;area.
+
+      </p><ul><li><em>1st&nbsp;Round:</em>&nbsp;Presence&nbsp;or&nbsp;absence&nbsp;of&nbsp;undead&nbsp;or&nbsp;incorporeal&nbsp;auras.</li></ul>
+
+      <ul><li><em>2nd&nbsp;Round:</em>&nbsp;Number&nbsp;of&nbsp;incorporeal&nbsp;or&nbsp;undead&nbsp;auras&nbsp;in&nbsp;the&nbsp;area&nbsp;and&nbsp;the&nbsp;strength&nbsp;of&nbsp;the&nbsp;strongest&nbsp;incorporeal&nbsp;or&nbsp;undead&nbsp;aura&nbsp;present.&nbsp;If&nbsp;you&nbsp;are&nbsp;of&nbsp;good&nbsp;alignment,&nbsp;and&nbsp;the&nbsp;strongest&nbsp;incorporeal&nbsp;or&nbsp;undead&nbsp;aura's&nbsp;strength&nbsp;is&nbsp;overwhelming&nbsp;(11&nbsp;HD&nbsp;or&nbsp;greater),&nbsp;and&nbsp;the&nbsp;creature&nbsp;has&nbsp;HD&nbsp;of&nbsp;at&nbsp;least&nbsp;twice&nbsp;your&nbsp;character&nbsp;level,&nbsp;you&nbsp;are&nbsp;stunned&nbsp;for&nbsp;1&nbsp;round&nbsp;and&nbsp;the&nbsp;power&nbsp;ends.</li></ul>
+
+      <ul><li><em>3rd&nbsp;Round:</em>&nbsp;The&nbsp;strength&nbsp;and&nbsp;location&nbsp;of&nbsp;each&nbsp;incorporeal&nbsp;or&nbsp;undead&nbsp;aura.&nbsp;If&nbsp;an&nbsp;aura&nbsp;is&nbsp;outside&nbsp;your&nbsp;line&nbsp;of&nbsp;sight,&nbsp;then&nbsp;you&nbsp;discern&nbsp;its&nbsp;direction&nbsp;but&nbsp;not&nbsp;its&nbsp;exact&nbsp;location.</li></ul>
+
+      <p>Each&nbsp;round,&nbsp;you&nbsp;can&nbsp;turn&nbsp;to&nbsp;detect&nbsp;incorporeal&nbsp;creatures&nbsp;or&nbsp;undead&nbsp;in&nbsp;a&nbsp;new&nbsp;area.&nbsp;The&nbsp;power&nbsp;can&nbsp;penetrate&nbsp;barriers,&nbsp;but&nbsp;1&nbsp;foot&nbsp;of&nbsp;stone,&nbsp;1&nbsp;inch&nbsp;of&nbsp;common&nbsp;metal,&nbsp;a&nbsp;thin&nbsp;sheet&nbsp;of&nbsp;lead,&nbsp;or&nbsp;3&nbsp;feet&nbsp;of&nbsp;wood&nbsp;or&nbsp;dirt&nbsp;blocks&nbsp;it.
+
+      </p>
+
+      <p>For&nbsp;the&nbsp;purpose&nbsp;of&nbsp;detecting&nbsp;incorporeal&nbsp;undead,&nbsp;you&nbsp;count&nbsp;as&nbsp;if&nbsp;you&nbsp;had&nbsp;spent&nbsp;three&nbsp;rounds&nbsp;focusing&nbsp;whenever&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;automatically&nbsp;granting&nbsp;you&nbsp;the&nbsp;maximum&nbsp;amount&nbsp;of&nbsp;information.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;3&nbsp;power&nbsp;points,&nbsp;gain&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;rolls,&nbsp;power&nbsp;save&nbsp;DCs,&nbsp;and&nbsp;skill&nbsp;checks&nbsp;against&nbsp;any&nbsp;creatures&nbsp;that&nbsp;you&nbsp;detected&nbsp;with&nbsp;this&nbsp;power.&nbsp;This&nbsp;bonus&nbsp;lasts&nbsp;for&nbsp;a&nbsp;number&nbsp;of&nbsp;rounds&nbsp;equal&nbsp;to&nbsp;your&nbsp;key&nbsp;manifesting&nbsp;modifier.
+
+      </p>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 1
+      vitalist: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '41'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!0wIjxJ0UocvbQ5Er'

@@ -1,0 +1,105 @@
+_id: OtFh9mttHxCFgzTd
+_key: '!items!OtFh9mttHxCFgzTd'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/items/inventory/brain-purple.png
+name: Highlord
+system:
+  armorProf:
+    - hvy
+  bab: low
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: true
+    kpl: false
+    kps: true
+    kre: true
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    summary: ''
+    value: </p><p>There are those who are meant to serve, and those who are meant to rule. A highlord stands proudly as one of the latter, joining minds together in a powerful network driven by his will and goals above all else. His true power shows itself when fighting alongside his allies, but if deprived of followers, the highlord can still fight by invading the minds of his enemies and briefly bending them to his will. </p><p>Unlike other telepaths, a highlord's power runs far deeper into both his mind and those of others. For a highlord, the touching of minds is a two-way street — just as he draws on the minds of his subjects, they get a glimpse into his thoughts and desires. The strong connection of a highlord's collective allows him to avail himself to the talents of both his allies and any enemies unfortunate enough to fall under his sway. When a highlord speaks, others obey. What a highlord decrees becomes fact, manipulating the course of battles, whether they take place in the mind or outside of it. </p><p>Each highlord chooses his own path, using the tenets they follow as a guideline to further their own goals. A highlord can drive his soldiers to seek victory at any cost, or exploit them for temporary advantages in combat. Those with evil in their hearts may treat their allies like pieces in the game of battle to be sacrificed if necessary. However, benevolent highlords may value the lives of those under his command, and consider them as friends or assets too valuable to discard. Instead, such highlords choose to use their talents to guide their allies towards a mutual goal. A highlord can drive his collective to step over the bodies of their fallen comrades, or to work together and persevere as one. </p><p><b>Role:</b> The highlord is a battlefield leader who guides the minds of his allies and grasps the minds of his enemies. By forcing enemies into his collective, he can inconvenience or incapacitate them, or direct his allies with pinpoint precision. Through his psionic abilities, he can fight alone or strengthen his party, ruling the battlefield regardless of his choice in tenets. </p><p><b>Alignment:</b> Any. Though certain alignments may gravitate toward different tenets, any given individual may channel the tenets of a highlord towards whichever goals they desire. </p><p><b>Starting Wealth:</b> 5d6 x 10 gp (175 gp). In addition, each character begins play with an outfit worth 10 gp or less. </p><p><b>Hit Die:</b> d8 </p><p><b>Class Skills:</b> The highlord's class skills are Autohypnosis (Wis), Bluff (Cha), Craft (Int), Diplomacy (Cha), Heal (Wis), Intimidate (Cha), Knowledge (Nobility) (Int), Knowledge (Psionics) (Int), Knowledge (Religion) (Int), Perception (Wis), Profession (Wis), Ride (Dex), Sense Motive (Wis), Spellcraft (Int), and Use Magic Device (Cha). </p><p><b>Skill Ranks per level:</b> 4 + Int modifier </p>
+  hd: 6
+  hp: 6
+  level: 1
+  links:
+    classAssociations:
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.ocEEWS02yqhiWyYe
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.aY8uicwAA8UmCyIM
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.2gwe0umCIYOua8mW
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.sGKUqckGiIe4OKkc
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.I6O2gi0Y8AQGea4c
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.2Ki6i6CIgIG2uwc6
+      - level: 4
+        uuid: Compendium.pf1-psionics.class-abilities.Item.maaoouCs60gEA4UY
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.usCoUo8YEQs6AgAy
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.CusmSMSy8AA2Ckoo
+      - level: 6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.cAU4a0scKimUeOSU
+      - level: 10
+        uuid: Compendium.pf1-psionics.class-abilities.Item.KGg0iEEUS0ESiQOk
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.WiGU5Gsc4FgKqgW6
+  manifesting:
+    ability: wis
+    cantrips: true
+    progression: high
+  savingThrows:
+    fort:
+      value: high
+    ref:
+      value: low
+    will:
+      value: high
+  skillsPerLevel: 2
+  sources:
+    - date: '2010-01-01'
+      pages: 2–6
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: base
+  tag: highlord
+  wealth: 5d6 * 10
+  weaponProf:
+    - simple
+type: class

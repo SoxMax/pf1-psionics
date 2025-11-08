@@ -1,0 +1,83 @@
+_id: BYXS8tBPMBjKMV6J
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Hidden_Pocket
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Hidden Pocket
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: hour
+        value: '1'
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        description: None
+      target:
+        value: One unattended object, weighing up to 1 lb./level
+  description:
+    value: >-
+      <p>You&nbsp;transfer&nbsp;one&nbsp;touched&nbsp;object&nbsp;to&nbsp;an&nbsp;extradimensional&nbsp;pocket&nbsp;of&nbsp;space&nbsp;in&nbsp;the&nbsp;palm&nbsp;of&nbsp;your&nbsp;hand.&nbsp;This&nbsp;extradimensional&nbsp;space&nbsp;is&nbsp;invisible&nbsp;and&nbsp;weightless,&nbsp;regardless&nbsp;of&nbsp;the&nbsp;weight&nbsp;of&nbsp;the&nbsp;item&nbsp;inside&nbsp;it.&nbsp;When&nbsp;the&nbsp;power&nbsp;ends,&nbsp;the&nbsp;object&nbsp;returns&nbsp;to&nbsp;your&nbsp;hand,&nbsp;although&nbsp;if&nbsp;your&nbsp;hand&nbsp;is&nbsp;not&nbsp;free,&nbsp;the&nbsp;object&nbsp;instead&nbsp;falls&nbsp;to&nbsp;the&nbsp;ground&nbsp;at&nbsp;your&nbsp;feet.&nbsp;You&nbsp;may&nbsp;only&nbsp;have&nbsp;one&nbsp;such&nbsp;extradimensional&nbsp;pocket&nbsp;active&nbsp;at&nbsp;any&nbsp;given&nbsp;time.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;object&nbsp;being&nbsp;stored&nbsp;can&nbsp;weigh&nbsp;an&nbsp;additional&nbsp;pound&nbsp;per&nbsp;level.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;have&nbsp;one&nbsp;additional&nbsp;item&nbsp;in&nbsp;your&nbsp;extradimensional&nbsp;pocket,&nbsp;although&nbsp;you&nbsp;are&nbsp;still&nbsp;restricted&nbsp;to&nbsp;the&nbsp;weight&nbsp;limit&nbsp;for&nbsp;all&nbsp;of&nbsp;the&nbsp;items&nbsp;combined.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;increases&nbsp;to&nbsp;one&nbsp;day.</li></ol>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: true
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 1
+      thug: 1
+      voyager: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '37'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Hidden Intentions'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '166'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 210–211
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!BYXS8tBPMBjKMV6J'

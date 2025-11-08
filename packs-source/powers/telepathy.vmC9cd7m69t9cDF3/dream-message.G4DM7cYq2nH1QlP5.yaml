@@ -1,0 +1,102 @@
+_id: G4DM7cYq2nH1QlP5
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Dream_Message
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Dream Message
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: spec
+        value: See text
+      name: Use
+      range:
+        units: unlimited
+        value: Unlimited
+      save:
+        description: None
+      target:
+        value: One living creature touched
+  description:
+    value: >-
+      <p>You,&nbsp;or&nbsp;a&nbsp;messenger&nbsp;you&nbsp;touch,&nbsp;send&nbsp;a&nbsp;message&nbsp;to&nbsp;others&nbsp;in&nbsp;the&nbsp;form&nbsp;of&nbsp;a&nbsp;dream.&nbsp;At&nbsp;the&nbsp;beginning&nbsp;of&nbsp;the&nbsp;effect,&nbsp;you&nbsp;must&nbsp;name&nbsp;the&nbsp;recipient&nbsp;or&nbsp;identify&nbsp;him&nbsp;or&nbsp;her&nbsp;by&nbsp;some&nbsp;title&nbsp;that&nbsp;leaves&nbsp;no&nbsp;doubt&nbsp;as&nbsp;to&nbsp;identity.&nbsp;The&nbsp;messenger&nbsp;then&nbsp;enters&nbsp;a&nbsp;trance,&nbsp;appears&nbsp;in&nbsp;the&nbsp;intended&nbsp;recipient's&nbsp;dream,&nbsp;and&nbsp;delivers&nbsp;the&nbsp;message.&nbsp;The&nbsp;message&nbsp;can&nbsp;be&nbsp;of&nbsp;any&nbsp;length,&nbsp;and&nbsp;the&nbsp;recipient&nbsp;remembers&nbsp;it&nbsp;perfectly&nbsp;upon&nbsp;waking.&nbsp;The&nbsp;communication&nbsp;is&nbsp;one-way.&nbsp;The&nbsp;recipient&nbsp;cannot&nbsp;ask&nbsp;questions&nbsp;or&nbsp;offer&nbsp;information,&nbsp;nor&nbsp;can&nbsp;the&nbsp;messenger&nbsp;gain&nbsp;any&nbsp;information&nbsp;by&nbsp;observing&nbsp;the&nbsp;dreams&nbsp;of&nbsp;the&nbsp;recipient.
+
+      </p>
+
+      <p>Once&nbsp;the&nbsp;message&nbsp;is&nbsp;delivered,&nbsp;the&nbsp;messenger's&nbsp;mind&nbsp;returns&nbsp;instantly&nbsp;to&nbsp;its&nbsp;body.&nbsp;The&nbsp;duration&nbsp;of&nbsp;the&nbsp;power&nbsp;is&nbsp;the&nbsp;time&nbsp;required&nbsp;for&nbsp;the&nbsp;messenger&nbsp;to&nbsp;enter&nbsp;the&nbsp;recipient's&nbsp;dream&nbsp;and&nbsp;deliver&nbsp;the&nbsp;message.
+
+      </p>
+
+      <p>If&nbsp;the&nbsp;recipient&nbsp;is&nbsp;awake&nbsp;when&nbsp;the&nbsp;power&nbsp;begins,&nbsp;the&nbsp;messenger&nbsp;can&nbsp;choose&nbsp;to&nbsp;wake&nbsp;up&nbsp;(ending&nbsp;the&nbsp;effect)&nbsp;or&nbsp;remain&nbsp;in&nbsp;the&nbsp;trance.&nbsp;The&nbsp;messenger&nbsp;can&nbsp;remain&nbsp;in&nbsp;the&nbsp;trance&nbsp;until&nbsp;the&nbsp;recipient&nbsp;goes&nbsp;to&nbsp;sleep,&nbsp;then&nbsp;enter&nbsp;the&nbsp;recipient's&nbsp;dream&nbsp;and&nbsp;deliver&nbsp;the&nbsp;message&nbsp;as&nbsp;normal.&nbsp;A&nbsp;messenger&nbsp;that&nbsp;is&nbsp;disturbed&nbsp;during&nbsp;the&nbsp;trance&nbsp;comes&nbsp;awake,&nbsp;ending&nbsp;the&nbsp;effect.
+
+      </p>
+
+      <p>Creatures&nbsp;who&nbsp;don't&nbsp;sleep&nbsp;or&nbsp;don't&nbsp;dream&nbsp;cannot&nbsp;be
+
+      contacted&nbsp;by&nbsp;this&nbsp;power.
+
+      </p>
+
+      <p>The&nbsp;messenger&nbsp;is&nbsp;unaware&nbsp;of&nbsp;its&nbsp;own&nbsp;surroundings&nbsp;or&nbsp;of&nbsp;the&nbsp;activities&nbsp;around&nbsp;it&nbsp;while&nbsp;in&nbsp;the&nbsp;trance.&nbsp;It&nbsp;is&nbsp;defenseless&nbsp;both&nbsp;physically&nbsp;and&nbsp;mentally&nbsp;(always&nbsp;failing&nbsp;any&nbsp;saving&nbsp;throw)&nbsp;while&nbsp;in&nbsp;the&nbsp;trance.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;If&nbsp;the&nbsp;recipient&nbsp;is&nbsp;awake&nbsp;when&nbsp;you&nbsp;begin&nbsp;to&nbsp;manifest&nbsp;the&nbsp;power,&nbsp;the&nbsp;messenger&nbsp;can&nbsp;choose&nbsp;to&nbsp;expend&nbsp;a&nbsp;number&nbsp;of&nbsp;power&nbsp;points&nbsp;(if&nbsp;the&nbsp;messenger&nbsp;is&nbsp;psionic)&nbsp;equal&nbsp;to&nbsp;the&nbsp;recipient's&nbsp;Hit&nbsp;Dice&nbsp;–4&nbsp;to&nbsp;plant&nbsp;the&nbsp;message,&nbsp;which&nbsp;the&nbsp;recipient&nbsp;receives&nbsp;when&nbsp;next&nbsp;she&nbsp;sleeps.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 5
+      psion: 5
+      wilder: 5
+  level: 5
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 26–27
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 157–158
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '187'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!G4DM7cYq2nH1QlP5'

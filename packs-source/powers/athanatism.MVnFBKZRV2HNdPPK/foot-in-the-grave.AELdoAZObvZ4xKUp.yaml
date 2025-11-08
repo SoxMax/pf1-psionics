@@ -1,0 +1,95 @@
+_id: AELdoAZObvZ4xKUp
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Foot_in_the_Grave
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Foot in the Grave
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: round
+      duration:
+        units: minute
+        value: 10 * @cl
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft. / 2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates; see text
+        type: will
+      target:
+        value: You and one other corporeal undead creature
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;attempt&nbsp;to&nbsp;take&nbsp;control&nbsp;of&nbsp;a&nbsp;nearby&nbsp;corporeal&nbsp;undead&nbsp;creature,&nbsp;forcing&nbsp;your&nbsp;mind&nbsp;and&nbsp;soul&nbsp;into&nbsp;its&nbsp;body,&nbsp;and&nbsp;its&nbsp;mind&nbsp;into&nbsp;your&nbsp;body.&nbsp;You&nbsp;can&nbsp;target&nbsp;any&nbsp;creature&nbsp;whose&nbsp;Hit&nbsp;Dice&nbsp;are&nbsp;equal&nbsp;to&nbsp;or&nbsp;less&nbsp;than&nbsp;your&nbsp;manifester&nbsp;level.
+
+      </p>
+
+      <p>You&nbsp;possess&nbsp;the&nbsp;target's&nbsp;body&nbsp;and&nbsp;force&nbsp;the&nbsp;creature's&nbsp;mind&nbsp;into&nbsp;your&nbsp;body&nbsp;unless&nbsp;it&nbsp;succeeds&nbsp;on&nbsp;a&nbsp;Will&nbsp;save.&nbsp;You&nbsp;can&nbsp;move&nbsp;your&nbsp;mind&nbsp;back&nbsp;into&nbsp;your&nbsp;own&nbsp;body&nbsp;whenever&nbsp;you&nbsp;desire,&nbsp;which&nbsp;returns&nbsp;the&nbsp;subject's&nbsp;mind&nbsp;to&nbsp;its&nbsp;own&nbsp;body&nbsp;and&nbsp;ends&nbsp;the&nbsp;power.&nbsp;If&nbsp;the&nbsp;manifestation&nbsp;succeeds,&nbsp;your&nbsp;life&nbsp;force&nbsp;occupies&nbsp;the&nbsp;host&nbsp;body,&nbsp;and&nbsp;the&nbsp;host's&nbsp;life&nbsp;force&nbsp;takes&nbsp;over&nbsp;yours.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;call&nbsp;on&nbsp;rudimentary&nbsp;or&nbsp;instinctive&nbsp;knowledge&nbsp;of&nbsp;the&nbsp;subject&nbsp;creature,&nbsp;but&nbsp;not&nbsp;upon&nbsp;its&nbsp;acquired&nbsp;or&nbsp;learned&nbsp;knowledge&nbsp;(such&nbsp;as&nbsp;skills&nbsp;and&nbsp;feats&nbsp;it&nbsp;possesses).&nbsp;The&nbsp;same&nbsp;is&nbsp;true&nbsp;for&nbsp;the&nbsp;subject&nbsp;in&nbsp;your&nbsp;body&nbsp;-&nbsp;mindless&nbsp;undead&nbsp;or&nbsp;undead&nbsp;with&nbsp;no&nbsp;Intelligence&nbsp;score&nbsp;will&nbsp;usually&nbsp;take&nbsp;no&nbsp;actions&nbsp;unless&nbsp;ordered&nbsp;to.&nbsp;The&nbsp;mind&nbsp;switch&nbsp;brings&nbsp;about&nbsp;the&nbsp;following&nbsp;changes.
+
+      </p><ul><li>You&nbsp;count&nbsp;as&nbsp;undead&nbsp;for&nbsp;all&nbsp;purposes,&nbsp;gaining&nbsp;standard&nbsp;undead&nbsp;immunities.</li><li>You&nbsp;gain&nbsp;the&nbsp;Strength&nbsp;and&nbsp;Dexterity&nbsp;scores&nbsp;of&nbsp;your&nbsp;assumed&nbsp;body.</li><li>You&nbsp;gain&nbsp;the&nbsp;natural&nbsp;armor,&nbsp;natural&nbsp;attacks,&nbsp;movement,&nbsp;and&nbsp;other&nbsp;simple&nbsp;physical&nbsp;characteristics&nbsp;of&nbsp;your&nbsp;assumed&nbsp;body.</li><li>You&nbsp;gain&nbsp;the&nbsp;extraordinary&nbsp;special&nbsp;attacks&nbsp;and&nbsp;qualities&nbsp;of&nbsp;your&nbsp;assumed&nbsp;body,&nbsp;but&nbsp;you&nbsp;do&nbsp;not&nbsp;gain&nbsp;supernatural&nbsp;or&nbsp;spell-like&nbsp;abilities.</li><li>You&nbsp;gain&nbsp;the&nbsp;possessions&nbsp;and&nbsp;equipment&nbsp;of&nbsp;your&nbsp;assumed&nbsp;body.</li><li>You&nbsp;retain&nbsp;your&nbsp;own&nbsp;hit&nbsp;points,&nbsp;saving&nbsp;throws&nbsp;(possibly&nbsp;modified&nbsp;by&nbsp;new&nbsp;ability&nbsp;scores),&nbsp;class&nbsp;abilities,&nbsp;supernatural&nbsp;and&nbsp;psi-like&nbsp;abilities,&nbsp;spells&nbsp;and&nbsp;powers,&nbsp;and&nbsp;skills&nbsp;and&nbsp;feats&nbsp;(although&nbsp;skill&nbsp;checks&nbsp;use&nbsp;your&nbsp;new&nbsp;ability&nbsp;scores,&nbsp;and&nbsp;you&nbsp;may&nbsp;be&nbsp;temporarily&nbsp;unable&nbsp;to&nbsp;use&nbsp;feats&nbsp;whose&nbsp;requirements&nbsp;you&nbsp;do&nbsp;not&nbsp;meet&nbsp;in&nbsp;your&nbsp;new&nbsp;body).</li><li>You&nbsp;suffer&nbsp;one&nbsp;negative&nbsp;level&nbsp;while&nbsp;in&nbsp;your&nbsp;assumed&nbsp;body.</li></ul>
+
+      <p>Supernatural&nbsp;abilities&nbsp;that&nbsp;require&nbsp;a&nbsp;certain&nbsp;body&nbsp;part&nbsp;may&nbsp;be&nbsp;unavailable&nbsp;in&nbsp;your&nbsp;new&nbsp;form.
+
+      </p>
+
+      <p>If&nbsp;either&nbsp;body&nbsp;is&nbsp;killed&nbsp;while&nbsp;the&nbsp;power&nbsp;is&nbsp;in&nbsp;effect,&nbsp;the&nbsp;other&nbsp;participant&nbsp;also&nbsp;dies&nbsp;when&nbsp;the&nbsp;power&nbsp;ends.&nbsp;If&nbsp;one&nbsp;participant's&nbsp;body&nbsp;becomes&nbsp;petrified,&nbsp;imprisoned&nbsp;by&nbsp;temporal&nbsp;stasis&nbsp;or&nbsp;imprisonment,&nbsp;or&nbsp;incapacitated&nbsp;in&nbsp;some&nbsp;other&nbsp;way,&nbsp;the&nbsp;other&nbsp;participant&nbsp;will&nbsp;be&nbsp;incapacitated&nbsp;in&nbsp;that&nbsp;way&nbsp;when&nbsp;the&nbsp;power&nbsp;ends.
+
+      </p>
+
+      <p>A&nbsp;targeted&nbsp;dispel&nbsp;psionics&nbsp;(or&nbsp;similar&nbsp;spells&nbsp;or&nbsp;effects)&nbsp;successfully&nbsp;manifested&nbsp;on&nbsp;either&nbsp;participant&nbsp;causes&nbsp;both&nbsp;minds&nbsp;to&nbsp;return&nbsp;to&nbsp;their&nbsp;original&nbsp;bodies.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;successfully&nbsp;use&nbsp;foot&nbsp;in&nbsp;the&nbsp;grave&nbsp;while&nbsp;already&nbsp;under&nbsp;the&nbsp;effect&nbsp;of&nbsp;foot&nbsp;in&nbsp;the&nbsp;grave,&nbsp;the&nbsp;original&nbsp;target&nbsp;is&nbsp;returned&nbsp;to&nbsp;its&nbsp;original&nbsp;body,&nbsp;the&nbsp;new&nbsp;target&nbsp;occupies&nbsp;your&nbsp;original&nbsp;body,&nbsp;and&nbsp;you&nbsp;occupy&nbsp;the&nbsp;body&nbsp;of&nbsp;the&nbsp;new&nbsp;target.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>By&nbsp;spending&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;while&nbsp;this&nbsp;power&nbsp;is&nbsp;active&nbsp;to&nbsp;attempt&nbsp;to&nbsp;take&nbsp;control&nbsp;of&nbsp;a&nbsp;different&nbsp;corporeal&nbsp;undead&nbsp;body.&nbsp;You&nbsp;may&nbsp;do&nbsp;this&nbsp;as&nbsp;many&nbsp;times&nbsp;as&nbsp;you&nbsp;wish&nbsp;while&nbsp;this&nbsp;power&nbsp;is&nbsp;active,&nbsp;but&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;each&nbsp;time&nbsp;to&nbsp;do&nbsp;so.&nbsp;Whenever&nbsp;you&nbsp;leave&nbsp;a&nbsp;body&nbsp;in&nbsp;this&nbsp;way,&nbsp;the&nbsp;original&nbsp;target&nbsp;is&nbsp;returned&nbsp;to&nbsp;its&nbsp;body.</li><li>By&nbsp;spending&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;increase&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;1&nbsp;hour/level.</li></ol>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      psion: 6
+      wilder: 6
+  level: 6
+  manifestTime:
+    units: round
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 29–30
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!AELdoAZObvZ4xKUp'

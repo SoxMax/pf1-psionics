@@ -1,0 +1,91 @@
+_id: 0h1YfxF71jhFwd4w
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Wardrobe_Malfunction
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Wardrobe Malfunction
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        concentration: true
+        units: conc
+        value: up to 1 round/level
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Reflex negates
+        type: ref
+      target:
+        value: One worn suit of armor or clothing
+  description:
+    value: >-
+      <p>With&nbsp;furrowed&nbsp;brow,&nbsp;you&nbsp;remotely&nbsp;loosen&nbsp;straps,&nbsp;open&nbsp;buckles,&nbsp;and&nbsp;otherwise&nbsp;disassemble&nbsp;an&nbsp;enemy’s&nbsp;armor.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;if&nbsp;your&nbsp;target&nbsp;fails&nbsp;their&nbsp;saving&nbsp;throw,&nbsp;you&nbsp;may&nbsp;start&nbsp;removing&nbsp;portions&nbsp;of&nbsp;their&nbsp;armor,&nbsp;reducing&nbsp;the&nbsp;armor&nbsp;bonus&nbsp;to&nbsp;AC&nbsp;that&nbsp;it&nbsp;grants&nbsp;by&nbsp;2.&nbsp;Each&nbsp;round&nbsp;that&nbsp;you&nbsp;concentrate&nbsp;on&nbsp;this&nbsp;power,&nbsp;the&nbsp;target&nbsp;must&nbsp;make&nbsp;an&nbsp;additional&nbsp;saving&nbsp;throw&nbsp;to&nbsp;resist&nbsp;its&nbsp;effects.&nbsp;Failure&nbsp;results&nbsp;in&nbsp;further&nbsp;reductions&nbsp;in&nbsp;armor&nbsp;bonus,&nbsp;to&nbsp;a&nbsp;minimum&nbsp;of&nbsp;zero.
+
+      </p>
+
+      <p>As&nbsp;a&nbsp;standard&nbsp;action&nbsp;on&nbsp;their&nbsp;turn,&nbsp;your&nbsp;target&nbsp;may&nbsp;refasten&nbsp;their&nbsp;armor,&nbsp;restoring&nbsp;their&nbsp;armor&nbsp;bonus&nbsp;by&nbsp;up&nbsp;to&nbsp;2,&nbsp;to&nbsp;a&nbsp;maximum&nbsp;of&nbsp;the&nbsp;normal&nbsp;armor&nbsp;bonus&nbsp;granted&nbsp;by&nbsp;their&nbsp;armor.&nbsp;Disassembly&nbsp;caused&nbsp;by&nbsp;<em>wardrobe&nbsp;malfunction&nbsp;</em>remains&nbsp;after&nbsp;the&nbsp;power&nbsp;ends,&nbsp;and&nbsp;a&nbsp;creature&nbsp;wearing&nbsp;such&nbsp;armor&nbsp;must&nbsp;spend&nbsp;actions&nbsp;to&nbsp;reassemble&nbsp;it.
+
+      </p>
+
+      <p>This&nbsp;power&nbsp;does&nbsp;not&nbsp;harm&nbsp;a&nbsp;suit&nbsp;of&nbsp;armor,&nbsp;even&nbsp;one&nbsp;that&nbsp;appears&nbsp;to&nbsp;be&nbsp;one&nbsp;integral&nbsp;piece,&nbsp;such&nbsp;as&nbsp;in&nbsp;the&nbsp;case&nbsp;of&nbsp;hide&nbsp;armor.&nbsp;Such&nbsp;armor&nbsp;merely&nbsp;becomes&nbsp;improperly&nbsp;seated&nbsp;on&nbsp;its&nbsp;wearer,&nbsp;and&nbsp;can&nbsp;be&nbsp;donned&nbsp;normally&nbsp;once&nbsp;this&nbsp;power’s&nbsp;influence&nbsp;is&nbsp;ended.
+
+      </p>
+
+      <p>This&nbsp;power&nbsp;does&nbsp;not&nbsp;affect&nbsp;armor&nbsp;bonuses&nbsp;granted&nbsp;from&nbsp;sources&nbsp;other&nbsp;than&nbsp;armor,&nbsp;such&nbsp;as&nbsp;that&nbsp;granted&nbsp;by&nbsp;<em>inertial&nbsp;armor&nbsp;</em>or&nbsp;<em>bracers&nbsp;of&nbsp;armor</em>.
+
+      </p>
+
+      <p><em>Wardrobe&nbsp;malfunction&nbsp;</em>can&nbsp;be&nbsp;similarly&nbsp;used&nbsp;upon&nbsp;common&nbsp;clothing.&nbsp;In&nbsp;this&nbsp;case,&nbsp;each&nbsp;round&nbsp;you&nbsp;may&nbsp;designate&nbsp;a&nbsp;single&nbsp;article&nbsp;of&nbsp;clothing&nbsp;your&nbsp;target&nbsp;is&nbsp;wearing.&nbsp;If&nbsp;the&nbsp;target&nbsp;fails&nbsp;its&nbsp;saving&nbsp;throw&nbsp;that&nbsp;round,&nbsp;the&nbsp;item&nbsp;slips&nbsp;off&nbsp;of&nbsp;them.
+
+      </p>
+  discipline: psychokinesis
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      highlord: 2
+      kineticist: 2
+      tactician: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '17'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 84–85
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!0h1YfxF71jhFwd4w'

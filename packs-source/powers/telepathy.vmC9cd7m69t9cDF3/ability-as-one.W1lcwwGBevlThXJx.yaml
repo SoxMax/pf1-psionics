@@ -1,0 +1,95 @@
+_id: W1lcwwGBevlThXJx
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Ability_as_One
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Ability as One
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates (harmless, see text)
+        harmless: true
+        type: will
+      target:
+        value: You plus one creature
+  description:
+    value: >-
+      <p>This&nbsp;power&nbsp;reflects&nbsp;the&nbsp;pinnacle&nbsp;of&nbsp;the&nbsp;network&nbsp;abilities&nbsp;—&nbsp;the&nbsp;unification&nbsp;of&nbsp;physical&nbsp;and&nbsp;mental&nbsp;traits&nbsp;in&nbsp;their&nbsp;purest&nbsp;form,&nbsp;ability&nbsp;scores.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;choose&nbsp;one&nbsp;of&nbsp;the&nbsp;six&nbsp;ability&nbsp;scores.&nbsp;The&nbsp;highest&nbsp;example&nbsp;of&nbsp;that&nbsp;score&nbsp;amongst&nbsp;the&nbsp;targets&nbsp;replaces&nbsp;the&nbsp;same&nbsp;ability&nbsp;score&nbsp;amongst&nbsp;all&nbsp;willing&nbsp;targets.
+
+      </p>
+
+      <p>Only&nbsp;base&nbsp;ability&nbsp;scores&nbsp;can&nbsp;be&nbsp;linked&nbsp;in&nbsp;this&nbsp;way&nbsp;—&nbsp;that&nbsp;is,&nbsp;the&nbsp;ability&nbsp;score&nbsp;without&nbsp;any&nbsp;bonuses&nbsp;or&nbsp;penalties&nbsp;of&nbsp;any&nbsp;type,&nbsp;except&nbsp;racial&nbsp;modifiers,&nbsp;age&nbsp;modifiers,&nbsp;inherent&nbsp;bonuses,&nbsp;and&nbsp;the&nbsp;bonuses&nbsp;every&nbsp;four&nbsp;character&nbsp;levels.&nbsp;Other&nbsp;effects&nbsp;that&nbsp;modify&nbsp;ability&nbsp;scores&nbsp;(such&nbsp;as&nbsp;spells,&nbsp;psionic&nbsp;powers,&nbsp;magic&nbsp;items,&nbsp;class&nbsp;features,&nbsp;and&nbsp;so&nbsp;on)&nbsp;are&nbsp;not&nbsp;transferred,&nbsp;though&nbsp;they&nbsp;remain&nbsp;in&nbsp;effect,&nbsp;altering&nbsp;any&nbsp;replaced&nbsp;score&nbsp;as&nbsp;they&nbsp;would&nbsp;alter&nbsp;the&nbsp;original.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;instead&nbsp;share&nbsp;the&nbsp;lowest&nbsp;base&nbsp;ability&nbsp;score&nbsp;amongst&nbsp;all&nbsp;targets,&nbsp;willing&nbsp;or&nbsp;not&nbsp;(which&nbsp;may&nbsp;impact&nbsp;spellcasting&nbsp;in&nbsp;a&nbsp;way&nbsp;similar&nbsp;to&nbsp;ability&nbsp;damage).&nbsp;Unwilling&nbsp;targets&nbsp;may&nbsp;make&nbsp;a&nbsp;Will&nbsp;saving&nbsp;throw&nbsp;each&nbsp;round&nbsp;to&nbsp;ignore&nbsp;the&nbsp;effects&nbsp;of&nbsp;this&nbsp;power&nbsp;for&nbsp;that&nbsp;round.&nbsp;You&nbsp;are&nbsp;exempt&nbsp;from&nbsp;any&nbsp;ability&nbsp;score&nbsp;change&nbsp;this&nbsp;way.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;may&nbsp;choose&nbsp;an&nbsp;additional&nbsp;ability&nbsp;score&nbsp;for&nbsp;this&nbsp;power&nbsp;to&nbsp;affect.</li></ol>
+
+      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;spent&nbsp;to&nbsp;achieve&nbsp;either&nbsp;of&nbsp;these&nbsp;results,&nbsp;increase&nbsp;the&nbsp;save&nbsp;DC&nbsp;(if&nbsp;applicable)&nbsp;by&nbsp;1.
+
+      </p>
+  descriptors:
+    - mind-affecting
+    - network
+    - shared
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      tactician: 8
+  level: 8
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '15'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Pawns and Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 148–149
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '158'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!W1lcwwGBevlThXJx'

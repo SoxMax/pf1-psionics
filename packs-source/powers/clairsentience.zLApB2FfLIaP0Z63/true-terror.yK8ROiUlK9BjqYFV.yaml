@@ -1,0 +1,95 @@
+_id: yK8ROiUlK9BjqYFV
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/True_Terror
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: True Terror
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '20'
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One living creature with an Intelligence of 3 or more
+  description:
+    value: >-
+      <p>You&nbsp;cause&nbsp;the&nbsp;target&nbsp;to&nbsp;see&nbsp;horrible&nbsp;visions&nbsp;of&nbsp;future&nbsp;possibilities,&nbsp;stunning&nbsp;the&nbsp;target&nbsp;unless&nbsp;it&nbsp;makes&nbsp;a&nbsp;successful&nbsp;Will&nbsp;save.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;any&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus,&nbsp;the&nbsp;range&nbsp;increases&nbsp;to&nbsp;Long&nbsp;(400&nbsp;ft.&nbsp;+&nbsp;40&nbsp;ft./level).</li><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;target&nbsp;another&nbsp;creature.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;target&nbsp;becomes&nbsp;stunned&nbsp;for&nbsp;an&nbsp;additional&nbsp;round.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;target&nbsp;creatures&nbsp;with&nbsp;an&nbsp;Intelligence&nbsp;of&nbsp;1&nbsp;or&nbsp;more,&nbsp;as&nbsp;well&nbsp;as&nbsp;nonliving&nbsp;creatures.&nbsp;You&nbsp;still&nbsp;cannot&nbsp;affect&nbsp;creature's&nbsp;that&nbsp;are&nbsp;immune&nbsp;to&nbsp;fear&nbsp;or&nbsp;mind-affecting&nbsp;effects.</li><li>If&nbsp;you&nbsp;spend&nbsp;5&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;becomes&nbsp;an&nbsp;Area-effect&nbsp;(20&nbsp;feet&nbsp;radius)&nbsp;centered&nbsp;on&nbsp;you,&nbsp;affecting&nbsp;all&nbsp;targets&nbsp;within&nbsp;range.</li></ol>
+
+      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;spent&nbsp;on&nbsp;the&nbsp;above&nbsp;augment&nbsp;options,&nbsp;the&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  descriptors:
+    - fear
+    - mind-affecting
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 2
+      seer: 2
+      thug: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '34'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 183–184
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '254'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!yK8ROiUlK9BjqYFV'

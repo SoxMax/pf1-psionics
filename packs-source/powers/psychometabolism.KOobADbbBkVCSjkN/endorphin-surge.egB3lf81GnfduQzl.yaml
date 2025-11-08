@@ -1,0 +1,98 @@
+_id: egB3lf81GnfduQzl
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Endorphin_Surge
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Endorphin Surge
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>The&nbsp;glands&nbsp;of&nbsp;your&nbsp;body&nbsp;emit&nbsp;massive&nbsp;quantities&nbsp;of&nbsp;endorphins,&nbsp;augmenting&nbsp;your&nbsp;natural&nbsp;abilities.&nbsp;While&nbsp;this&nbsp;power&nbsp;is&nbsp;active,&nbsp;you&nbsp;are&nbsp;treated&nbsp;as&nbsp;if&nbsp;in&nbsp;a&nbsp;barbarian&nbsp;rage,&nbsp;giving&nbsp;you&nbsp;a&nbsp;+2&nbsp;morale&nbsp;bonus&nbsp;to&nbsp;your&nbsp;Constitution&nbsp;and&nbsp;Strength,&nbsp;a&nbsp;+1&nbsp;morale&nbsp;bonus&nbsp;on&nbsp;Will&nbsp;saves,&nbsp;and&nbsp;a&nbsp;-2&nbsp;penalty&nbsp;to&nbsp;your&nbsp;Armor&nbsp;Class.&nbsp;The&nbsp;effect&nbsp;is&nbsp;otherwise&nbsp;identical&nbsp;with&nbsp;a&nbsp;barbarian's&nbsp;rage&nbsp;except&nbsp;you&nbsp;aren't&nbsp;fatigued&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;rage.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;morale&nbsp;bonus&nbsp;to&nbsp;your&nbsp;Constitution&nbsp;and&nbsp;Strength&nbsp;is&nbsp;increased&nbsp;by&nbsp;2,&nbsp;and&nbsp;the&nbsp;morale&nbsp;bonus&nbsp;on&nbsp;Will&nbsp;saves&nbsp;is&nbsp;increased&nbsp;by&nbsp;1.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gifted blade: 2
+      psion: 3
+      psychic warrior: 2
+      vitalist: 3
+      voyager: 5
+      wilder: 3
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '16'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Mind Over Body'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '23'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Unlimited Possibilities'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '159'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '193'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '38'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!egB3lf81GnfduQzl'

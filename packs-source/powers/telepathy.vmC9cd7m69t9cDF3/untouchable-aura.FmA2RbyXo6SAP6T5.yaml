@@ -1,0 +1,94 @@
+_id: FmA2RbyXo6SAP6T5
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Untouchable_Aura
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Untouchable Aura
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: ft
+        value: Aura
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will save (see text)
+        type: will
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;manifest&nbsp;an&nbsp;aura&nbsp;of&nbsp;nightmares&nbsp;around&nbsp;you&nbsp;which&nbsp;reacts&nbsp;to&nbsp;anyone&nbsp;trying&nbsp;to&nbsp;attack&nbsp;you&nbsp;in&nbsp;melee,&nbsp;forcing&nbsp;the&nbsp;assailant's&nbsp;worst&nbsp;nightmares&nbsp;to&nbsp;consume&nbsp;their&nbsp;thoughts.
+
+      </p>
+
+      <p>Anyone&nbsp;trying&nbsp;to&nbsp;make&nbsp;a&nbsp;melee&nbsp;attack&nbsp;against&nbsp;you&nbsp;must&nbsp;succeed&nbsp;on&nbsp;a&nbsp;Will&nbsp;save&nbsp;or&nbsp;lose&nbsp;their&nbsp;attack&nbsp;action&nbsp;as&nbsp;they&nbsp;recoil&nbsp;in&nbsp;fear&nbsp;from&nbsp;the&nbsp;images&nbsp;inside&nbsp;their&nbsp;mind.&nbsp;If&nbsp;the&nbsp;save&nbsp;succeeds,&nbsp;the&nbsp;opponent&nbsp;can&nbsp;attack&nbsp;normally&nbsp;and&nbsp;is&nbsp;unaffected&nbsp;by&nbsp;that&nbsp;manifestation&nbsp;of&nbsp;the&nbsp;power.&nbsp;Power&nbsp;resistance&nbsp;applies&nbsp;at&nbsp;the&nbsp;same&nbsp;time&nbsp;as&nbsp;a&nbsp;Will&nbsp;save.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus,&nbsp;the&nbsp;manifesting&nbsp;time&nbsp;becomes&nbsp;1&nbsp;immediate&nbsp;action&nbsp;instead.</li><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;lasts&nbsp;for&nbsp;1&nbsp;additional&nbsp;round.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;affects&nbsp;anyone&nbsp;trying&nbsp;to&nbsp;attack&nbsp;you,&nbsp;regardless&nbsp;of&nbsp;how&nbsp;(any&nbsp;targeted&nbsp;powers&nbsp;or&nbsp;spells,&nbsp;melee&nbsp;or&nbsp;ranged).</li></ol>
+
+      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;spent&nbsp;on&nbsp;the&nbsp;above&nbsp;augmentations,&nbsp;the&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  descriptors:
+    - fear
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 1
+      thug: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '34'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '184'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 255–256
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!FmA2RbyXo6SAP6T5'

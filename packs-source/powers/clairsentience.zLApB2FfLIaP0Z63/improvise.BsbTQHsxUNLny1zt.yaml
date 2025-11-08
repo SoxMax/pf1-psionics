@@ -1,0 +1,76 @@
+_id: BsbTQHsxUNLny1zt
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Improvise
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Improvise
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: swift
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>Your&nbsp;ability&nbsp;to&nbsp;form&nbsp;and&nbsp;implement&nbsp;a&nbsp;plan&nbsp;rapidly&nbsp;is&nbsp;improved.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;you&nbsp;can&nbsp;use&nbsp;the&nbsp;Readying&nbsp;An&nbsp;Action&nbsp;special&nbsp;initiative&nbsp;action&nbsp;without&nbsp;specifying&nbsp;the&nbsp;conditions&nbsp;that&nbsp;will&nbsp;trigger&nbsp;your&nbsp;readied&nbsp;action.&nbsp;You&nbsp;must&nbsp;still&nbsp;specify&nbsp;what&nbsp;action&nbsp;you&nbsp;will&nbsp;take&nbsp;as&nbsp;your&nbsp;readied&nbsp;action.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>If&nbsp;you&nbsp;spend&nbsp;six&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;increases&nbsp;to&nbsp;1&nbsp;round&nbsp;per&nbsp;level,&nbsp;but&nbsp;once&nbsp;you&nbsp;take&nbsp;the&nbsp;readied&nbsp;action,&nbsp;the&nbsp;power&nbsp;ends.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      highlord: 2
+      seer: 2
+      tactician: 2
+  level: 2
+  manifestTime:
+    units: swift
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 11–12
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 74–75
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!BsbTQHsxUNLny1zt'

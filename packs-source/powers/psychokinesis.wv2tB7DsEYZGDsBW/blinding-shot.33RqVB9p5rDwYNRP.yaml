@@ -1,0 +1,85 @@
+_id: 33RqVB9p5rDwYNRP
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Blinding_Shot
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/light/explosion-star-glow-silhouette.webp
+name: Blinding Shot
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: swift
+      duration:
+        units: spec
+        value: 1 round / level; see text
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates (harmless, object)
+        harmless: true
+        type: will
+      target:
+        value: 1 piece of ammunition
+  description:
+    value: >-
+      <p>You&nbsp;charge&nbsp;a&nbsp;piece&nbsp;of&nbsp;ammunition&nbsp;(arrow,&nbsp;bolt,&nbsp;or&nbsp;slingstone)&nbsp;with&nbsp;psychokinetic&nbsp;energy&nbsp;that,&nbsp;when&nbsp;used&nbsp;in&nbsp;a&nbsp;successful&nbsp;ranged&nbsp;attack,&nbsp;releases&nbsp;a&nbsp;blinding&nbsp;burst&nbsp;of&nbsp;light.&nbsp;The&nbsp;creature&nbsp;struck&nbsp;when&nbsp;you&nbsp;fire&nbsp;the&nbsp;charged&nbsp;piece&nbsp;of&nbsp;ammunition&nbsp;must&nbsp;make&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;or&nbsp;be&nbsp;blinded&nbsp;for&nbsp;one&nbsp;day.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;spent,&nbsp;you&nbsp;can&nbsp;charge&nbsp;an&nbsp;additional&nbsp;piece&nbsp;of&nbsp;ammunition.
+
+      </p>
+  descriptors:
+    - light
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      marksman: 2
+  level: 2
+  manifestTime:
+    units: swift
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 16–17
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Find the Mark'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 151–152
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '167'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!33RqVB9p5rDwYNRP'

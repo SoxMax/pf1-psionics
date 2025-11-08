@@ -1,0 +1,89 @@
+_id: oQkE1yy703zGusPb
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Astral_Traveler
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Astral Traveler
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: hour
+      duration:
+        units: spec
+        value: See text
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates (harmless)
+        harmless: true
+        type: will
+      target:
+        value: Creature touched
+  description:
+    value: >-
+      <p>This&nbsp;power&nbsp;allows&nbsp;you&nbsp;or&nbsp;a&nbsp;creature&nbsp;you&nbsp;touch&nbsp;to&nbsp;participate&nbsp;in&nbsp;an&nbsp;astral&nbsp;caravan&nbsp;created&nbsp;through&nbsp;use&nbsp;of&nbsp;the&nbsp;astral&nbsp;caravan&nbsp;power.&nbsp;While&nbsp;participating&nbsp;in&nbsp;a&nbsp;journey&nbsp;allowed&nbsp;by&nbsp;the&nbsp;astral&nbsp;caravan&nbsp;power,&nbsp;you&nbsp;must&nbsp;hold&nbsp;the&nbsp;hand&nbsp;of&nbsp;both&nbsp;your&nbsp;fellow&nbsp;passenger&nbsp;ahead&nbsp;of&nbsp;you&nbsp;(or&nbsp;the&nbsp;caravan&nbsp;leader)&nbsp;and&nbsp;your&nbsp;fellow&nbsp;passenger&nbsp;behind&nbsp;you&nbsp;(unless&nbsp;you&nbsp;happen&nbsp;to&nbsp;be&nbsp;the&nbsp;last&nbsp;in&nbsp;the&nbsp;hand-linked&nbsp;line).&nbsp;If&nbsp;you&nbsp;or&nbsp;any&nbsp;one&nbsp;of&nbsp;your&nbsp;fellow&nbsp;passengers&nbsp;breaks&nbsp;the&nbsp;handto-hand&nbsp;link&nbsp;for&nbsp;2&nbsp;consecutive&nbsp;rounds,&nbsp;the&nbsp;impetus&nbsp;through&nbsp;the&nbsp;Astral&nbsp;Plane&nbsp;provided&nbsp;by&nbsp;astral&nbsp;caravan&nbsp;fails.&nbsp;See&nbsp;the&nbsp;<em><a&nbsp;href="/wiki/Astral_Caravan"&nbsp;title="Astral&nbsp;Caravan">astral&nbsp;caravan</a></em>&nbsp;power&nbsp;for&nbsp;more&nbsp;information.
+
+      </p>
+
+      <p>All&nbsp;those&nbsp;who&nbsp;are&nbsp;part&nbsp;of&nbsp;the&nbsp;caravan&nbsp;who&nbsp;are&nbsp;capable&nbsp;of&nbsp;performing&nbsp;purely&nbsp;mental&nbsp;actions,&nbsp;such&nbsp;as&nbsp;manifesting&nbsp;a&nbsp;power,&nbsp;may&nbsp;do&nbsp;so&nbsp;while&nbsp;maintaining&nbsp;hand-to-hand&nbsp;contact&nbsp;with&nbsp;their&nbsp;fellow&nbsp;travelers.&nbsp;When&nbsp;astral&nbsp;travelers&nbsp;begin&nbsp;their&nbsp;journey,&nbsp;each&nbsp;one&nbsp;is&nbsp;connected&nbsp;to&nbsp;the&nbsp;Material&nbsp;Plane&nbsp;by&nbsp;an&nbsp;insubstantial&nbsp;silvery&nbsp;cord.&nbsp;Very&nbsp;few&nbsp;weapons&nbsp;exist&nbsp;that&nbsp;can&nbsp;damage&nbsp;a&nbsp;silvery&nbsp;cord.
+
+      </p>
+
+      <p>The&nbsp;last&nbsp;creature&nbsp;in&nbsp;the&nbsp;line&nbsp;of&nbsp;those&nbsp;making&nbsp;up&nbsp;the&nbsp;caravan&nbsp;is&nbsp;sometimes&nbsp;referred&nbsp;to&nbsp;as&nbsp;the&nbsp;rear&nbsp;guard,&nbsp;because&nbsp;he&nbsp;or&nbsp;she&nbsp;has&nbsp;one&nbsp;hand&nbsp;free&nbsp;and&nbsp;can&nbsp;use&nbsp;it&nbsp;to&nbsp;wield&nbsp;a&nbsp;weapon&nbsp;without&nbsp;relinquishing&nbsp;his&nbsp;or&nbsp;her&nbsp;grip&nbsp;on&nbsp;the&nbsp;next&nbsp;traveler&nbsp;in&nbsp;line.&nbsp;The&nbsp;weightless,&nbsp;subjective&nbsp;environment&nbsp;of&nbsp;the&nbsp;Astral&nbsp;Plane&nbsp;allows&nbsp;the&nbsp;caravan&nbsp;to&nbsp;flex&nbsp;and&nbsp;bend&nbsp;as&nbsp;necessary&nbsp;to&nbsp;bring&nbsp;the&nbsp;rear&nbsp;guard's&nbsp;weapon&nbsp;to&nbsp;bear.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 1
+      gambler: 1
+      gifted blade: 1
+      marksman: 1
+      psion: 1
+      psychic warrior: 1
+      thug: 1
+      voyager: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: hour
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '78'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '162'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!oQkE1yy703zGusPb'

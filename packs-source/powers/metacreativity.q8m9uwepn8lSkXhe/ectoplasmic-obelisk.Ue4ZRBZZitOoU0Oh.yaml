@@ -1,0 +1,78 @@
+_id: Ue4ZRBZZitOoU0Oh
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Ectoplasmic_Obelisk
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Ectoplasmic Obelisk
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./level)
+      save:
+        description: None
+      target:
+        value: Temporarily real statue up to 5-ft. square
+  description:
+    value: >-
+      <p>Expanding&nbsp;from&nbsp;a&nbsp;mid-air&nbsp;spec&nbsp;of&nbsp;colorful&nbsp;ectoplasm,&nbsp;a&nbsp;massive&nbsp;statue&nbsp;forms&nbsp;in&nbsp;space&nbsp;where&nbsp;you&nbsp;designate&nbsp;it,&nbsp;blocking&nbsp;travel&nbsp;and&nbsp;sight.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;you&nbsp;must&nbsp;specify&nbsp;an&nbsp;unoccupied&nbsp;square,&nbsp;which&nbsp;then&nbsp;becomes&nbsp;filled&nbsp;by&nbsp;a&nbsp;simple&nbsp;ectoplasmic&nbsp;statue&nbsp;of&nbsp;your&nbsp;design.&nbsp;This&nbsp;statue&nbsp;impedes&nbsp;movement&nbsp;as&nbsp;would&nbsp;one&nbsp;of&nbsp;the&nbsp;same&nbsp;size&nbsp;carved&nbsp;out&nbsp;of&nbsp;stone.&nbsp;An&nbsp;ectoplasmic&nbsp;obelisk&nbsp;has&nbsp;hardness&nbsp;10&nbsp;and&nbsp;30&nbsp;hit&nbsp;points.&nbsp;The&nbsp;created&nbsp;obelisk&nbsp;is&nbsp;newly&nbsp;created&nbsp;and&nbsp;thus&nbsp;has&nbsp;not&nbsp;yet&nbsp;made&nbsp;any&nbsp;impression&nbsp;in&nbsp;the&nbsp;floor&nbsp;below&nbsp;it,&nbsp;so&nbsp;it&nbsp;may&nbsp;be&nbsp;possible&nbsp;to&nbsp;push&nbsp;it&nbsp;one&nbsp;square&nbsp;with&nbsp;a&nbsp;DC&nbsp;15&nbsp;Strength&nbsp;check.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ul><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend&nbsp;on&nbsp;this&nbsp;power,&nbsp;the&nbsp;hardness&nbsp;of&nbsp;the&nbsp;obelisk&nbsp;is&nbsp;increased&nbsp;by&nbsp;1&nbsp;and&nbsp;its&nbsp;hit&nbsp;points&nbsp;increase&nbsp;by&nbsp;2.&nbsp;Additionally,&nbsp;the&nbsp;weight&nbsp;of&nbsp;the&nbsp;obelisk&nbsp;increases,&nbsp;adding&nbsp;1&nbsp;to&nbsp;the&nbsp;Strength&nbsp;DC&nbsp;required&nbsp;to&nbsp;push&nbsp;it.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;make&nbsp;an&nbsp;ectoplasmic&nbsp;obelisk&nbsp;up&nbsp;to&nbsp;one&nbsp;10-ft.&nbsp;square&nbsp;in&nbsp;size.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;10&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;becomes&nbsp;Permanent.</li></ul>
+  discipline: metacreativity
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      psion: 2
+      tactician: 2
+      thug: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '10'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '70'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!Ue4ZRBZZitOoU0Oh'

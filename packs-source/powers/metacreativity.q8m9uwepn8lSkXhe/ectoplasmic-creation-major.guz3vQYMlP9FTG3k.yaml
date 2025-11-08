@@ -1,0 +1,110 @@
+_id: guz3vQYMlP9FTG3k
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Ectoplasmic_Creation,_Major
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Ectoplasmic Creation, Major
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 10
+        type: minute
+      duration:
+        units: spec
+        value: See text
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+  description:
+    value: >-
+      <p>This&nbsp;power&nbsp;functions&nbsp;like&nbsp;ectoplasmic&nbsp;creation,&nbsp;except&nbsp;that&nbsp;you&nbsp;can&nbsp;also&nbsp;create&nbsp;an&nbsp;object&nbsp;of&nbsp;mineral&nbsp;nature:&nbsp;stone,&nbsp;crystal,&nbsp;metal,&nbsp;or&nbsp;the&nbsp;like.&nbsp;The&nbsp;duration&nbsp;of&nbsp;the&nbsp;created&nbsp;item&nbsp;varies&nbsp;with&nbsp;its&nbsp;relative&nbsp;hardness&nbsp;and&nbsp;rarity,&nbsp;as&nbsp;indicated&nbsp;on&nbsp;the&nbsp;following&nbsp;table.
+
+      </p><table><tbody><tr><th>Hardness&nbsp;and&nbsp;Rarity&nbsp;Examples
+
+      </th><th>Duration
+
+      </th></tr><tr><td>Vegetable&nbsp;matter
+
+      </td><td>2&nbsp;hr./level
+
+      </td></tr><tr><td>Stone,&nbsp;crystal,&nbsp;base&nbsp;metals
+
+      </td><td>1&nbsp;hr./level
+
+      </td></tr><tr><td>Precious&nbsp;metals
+
+      </td><td>20&nbsp;min./level
+
+      </td></tr><tr><td>Gems
+
+      </td><td>10&nbsp;min./level
+
+      </td></tr><tr><td>Rare&nbsp;metal*
+
+      </td><td>1&nbsp;round/level
+
+      </td></tr></tbody></table>
+
+      <p>*&nbsp;Includes&nbsp;adamantine,&nbsp;alchemical&nbsp;silver,&nbsp;and&nbsp;mithral.
+
+      </p>
+
+      <p>You&nbsp;can't&nbsp;use&nbsp;major&nbsp;ectoplasmic&nbsp;creation&nbsp;to&nbsp;create&nbsp;a&nbsp;cold&nbsp;iron&nbsp;item.&nbsp;Additional&nbsp;rare&nbsp;items&nbsp;are&nbsp;possible&nbsp;at&nbsp;the&nbsp;GM's&nbsp;discretion,&nbsp;but&nbsp;should&nbsp;typically&nbsp;be&nbsp;limited&nbsp;to&nbsp;1&nbsp;round/level.
+
+      </p>
+  discipline: metacreativity
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 5
+      psion: 5
+      wilder: 5
+  level: 5
+  manifestTime:
+    units: minute
+    value: 10
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '100'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 188–189
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '37'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  subdiscipline:
+    - creation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!guz3vQYMlP9FTG3k'

@@ -1,0 +1,29 @@
+_id: Qt1HPXFIOndN1BAb
+_stats:
+  coreVersion: '13.350'
+folder: R7AoIomzfNGuWBKp
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Eternity Awaits
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: >-
+      <p><b>Eternity&nbsp;Awaits:</b>At&nbsp;20th&nbsp;level,&nbsp;when&nbsp;a&nbsp;voyager&nbsp;dies,&nbsp;a&nbsp;future&nbsp;version&nbsp;of&nbsp;herself&nbsp;manifests&nbsp;to&nbsp;carry&nbsp;on&nbsp;her&nbsp;tasks.&nbsp;This&nbsp;does&nbsp;not&nbsp;happen&nbsp;if&nbsp;the&nbsp;voyager&nbsp;dies&nbsp;of&nbsp;old&nbsp;age.&nbsp;The&nbsp;future&nbsp;self&nbsp;appears&nbsp;in&nbsp;an&nbsp;unoccupied&nbsp;space&nbsp;within&nbsp;50&nbsp;feet&nbsp;of&nbsp;the&nbsp;present&nbsp;voyager's&nbsp;passing,&nbsp;and&nbsp;possess&nbsp;all&nbsp;of&nbsp;the&nbsp;voyager's&nbsp;statistics&nbsp;and&nbsp;abilities&nbsp;except&nbsp;for&nbsp;her&nbsp;swapped&nbsp;selves&nbsp;and&nbsp;eternity&nbsp;awaits&nbsp;class&nbsp;features.&nbsp;The&nbsp;voyager's&nbsp;magical&nbsp;items&nbsp;and&nbsp;equipment&nbsp;are&nbsp;transferred&nbsp;to&nbsp;her&nbsp;future&nbsp;self&nbsp;as&nbsp;she&nbsp;appears.The&nbsp;voyager's&nbsp;future&nbsp;self&nbsp;appears&nbsp;with&nbsp;maximum&nbsp;hit&nbsp;points,&nbsp;the&nbsp;same&nbsp;amount&nbsp;of&nbsp;power&nbsp;points&nbsp;as&nbsp;the&nbsp;voyager&nbsp;had&nbsp;when&nbsp;she&nbsp;passed,&nbsp;and&nbsp;20&nbsp;points&nbsp;of&nbsp;momentum&nbsp;that&nbsp;do&nbsp;not&nbsp;disappear&nbsp;at&nbsp;the&nbsp;start&nbsp;of&nbsp;her&nbsp;first&nbsp;turn.&nbsp;Should&nbsp;this&nbsp;future&nbsp;self&nbsp;die,&nbsp;their&nbsp;body&nbsp;vanishes&nbsp;and&nbsp;they&nbsp;cannot&nbsp;be&nbsp;raised&nbsp;from&nbsp;the&nbsp;dead.
+
+      </p><p>The&nbsp;voyager's&nbsp;future&nbsp;self&nbsp;carries&nbsp;on&nbsp;with&nbsp;the&nbsp;voyager's&nbsp;tasks&nbsp;as&nbsp;she&nbsp;would&nbsp;have.&nbsp;After&nbsp;a&nbsp;night's&nbsp;rest,&nbsp;the&nbsp;future&nbsp;self&nbsp;is&nbsp;able&nbsp;to&nbsp;reverse&nbsp;the&nbsp;voyager's&nbsp;death&nbsp;and&nbsp;restore&nbsp;her&nbsp;body&nbsp;and&nbsp;soul&nbsp;to&nbsp;life.&nbsp;After&nbsp;doing&nbsp;so,&nbsp;she&nbsp;departs&nbsp;to&nbsp;her&nbsp;own&nbsp;time&nbsp;with&nbsp;a&nbsp;stern&nbsp;warning&nbsp;to&nbsp;her&nbsp;past&nbsp;self.
+
+      </p>
+
+      <div&nbsp;class="mw-heading&nbsp;mw-heading2"></p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
+  subType: classFeat
+  tag: eternity-awaits
+type: feat
+_key: '!items!Qt1HPXFIOndN1BAb'

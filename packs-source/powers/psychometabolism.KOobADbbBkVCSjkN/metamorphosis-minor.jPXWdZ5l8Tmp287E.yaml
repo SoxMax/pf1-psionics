@@ -1,0 +1,102 @@
+_id: jPXWdZ5l8Tmp287E
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Metamorphosis,_Minor
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Metamorphosis, Minor
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      damage:
+        parts:
+          - - 1d8
+            - untyped
+      duration:
+        dismiss: true
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;channel&nbsp;your&nbsp;psionic&nbsp;power,&nbsp;snapping&nbsp;bones&nbsp;and&nbsp;twisting&nbsp;flesh,&nbsp;transforming&nbsp;yourself&nbsp;into&nbsp;a&nbsp;new&nbsp;shape&nbsp;or&nbsp;form.&nbsp;You&nbsp;can&nbsp;take&nbsp;the&nbsp;form&nbsp;of&nbsp;any&nbsp;creature&nbsp;of&nbsp;the&nbsp;same&nbsp;size&nbsp;as&nbsp;yourself,&nbsp;but&nbsp;this&nbsp;is&nbsp;a&nbsp;purely&nbsp;cosmetic&nbsp;change,&nbsp;your&nbsp;abilities,&nbsp;powers&nbsp;or&nbsp;stats&nbsp;do&nbsp;not&nbsp;change&nbsp;beyond&nbsp;the&nbsp;options&nbsp;selected&nbsp;below.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;choose&nbsp;to&nbsp;imitate&nbsp;an&nbsp;existing&nbsp;person,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+2&nbsp;circumstance&nbsp;bonus&nbsp;to&nbsp;Disguise&nbsp;checks&nbsp;to&nbsp;convince&nbsp;people&nbsp;that&nbsp;you&nbsp;are&nbsp;that&nbsp;person.&nbsp;If&nbsp;you&nbsp;choose&nbsp;to&nbsp;take&nbsp;on&nbsp;an&nbsp;intimidating,&nbsp;horrifying,&nbsp;or&nbsp;otherwise&nbsp;imposing&nbsp;form,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+2&nbsp;circumstance&nbsp;bonus&nbsp;to&nbsp;Intimidate&nbsp;checks.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;get&nbsp;one&nbsp;choice&nbsp;from&nbsp;either&nbsp;the&nbsp;Enhancement&nbsp;Menu&nbsp;A&nbsp;or&nbsp;Abilities&nbsp;Menu&nbsp;A.
+
+      </p><ul><dt>Enhancement&nbsp;Menu&nbsp;A</dt></ul>
+
+      <ul><li>+2&nbsp;enhancement&nbsp;bonus&nbsp;to&nbsp;Strength</li><li>+2&nbsp;enhancement&nbsp;bonus&nbsp;to&nbsp;Dexterity</li><li>+2&nbsp;enhancement&nbsp;bonus&nbsp;to&nbsp;Constitution</li><li>Increase&nbsp;your&nbsp;size&nbsp;by&nbsp;one&nbsp;size&nbsp;category&nbsp;(+2&nbsp;size&nbsp;bonus&nbsp;to&nbsp;Strength,&nbsp;-2&nbsp;size&nbsp;penalty&nbsp;to&nbsp;Dexterity,&nbsp;appropriate&nbsp;size&nbsp;modifiers&nbsp;to&nbsp;AC,&nbsp;CMB,&nbsp;attack&nbsp;rolls,&nbsp;etc).&nbsp;This&nbsp;effect&nbsp;does&nbsp;not&nbsp;stack&nbsp;with&nbsp;other&nbsp;effects&nbsp;that&nbsp;increase&nbsp;your&nbsp;size.</li><li>Decrease&nbsp;your&nbsp;size&nbsp;by&nbsp;one&nbsp;size&nbsp;category&nbsp;(+2&nbsp;size&nbsp;bonus&nbsp;to&nbsp;Dexterity,&nbsp;-2&nbsp;size&nbsp;penalty&nbsp;to&nbsp;Strength,&nbsp;appropriate&nbsp;size&nbsp;modifiers&nbsp;to&nbsp;AC,&nbsp;CMB,&nbsp;attack&nbsp;rolls,&nbsp;etc).&nbsp;This&nbsp;effect&nbsp;does&nbsp;not&nbsp;stack&nbsp;with&nbsp;other&nbsp;effects&nbsp;that&nbsp;decrease&nbsp;your&nbsp;size.</li><li>Increase&nbsp;your&nbsp;base&nbsp;land&nbsp;speed&nbsp;by&nbsp;10&nbsp;feet.</li></ul>
+
+      <ul><dt>Abilities&nbsp;Menu&nbsp;A</dt></ul>
+
+      <ul><li>You&nbsp;gain&nbsp;5&nbsp;temporary&nbsp;hit&nbsp;points</li><li>You&nbsp;gain&nbsp;the&nbsp;Cleave&nbsp;feat.</li><li>You&nbsp;gain&nbsp;the&nbsp;Improved&nbsp;Trip&nbsp;feat.</li><li>You&nbsp;gain&nbsp;a&nbsp;+1&nbsp;natural&nbsp;armor&nbsp;bonus.</li><li>You&nbsp;gain&nbsp;a&nbsp;natural&nbsp;slam/claw/bite&nbsp;(pick&nbsp;one)&nbsp;attack&nbsp;that&nbsp;deals&nbsp;1d8&nbsp;damage&nbsp;if&nbsp;Medium&nbsp;(1d10&nbsp;if&nbsp;Large).</li><li>You&nbsp;gain&nbsp;Resistance&nbsp;5&nbsp;against&nbsp;one&nbsp;of&nbsp;these&nbsp;energy&nbsp;types:&nbsp;Cold,&nbsp;Acid,&nbsp;Fire,&nbsp;Electricity.</li><li>You&nbsp;gain&nbsp;a&nbsp;swim&nbsp;speed&nbsp;of&nbsp;20&nbsp;feet.</li><li>You&nbsp;gain&nbsp;a&nbsp;climb&nbsp;speed&nbsp;of&nbsp;20&nbsp;feet.</li><li>You&nbsp;gain&nbsp;a&nbsp;burrow&nbsp;speed&nbsp;of&nbsp;15&nbsp;feet.</li></ul>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;gain&nbsp;one&nbsp;choice&nbsp;from&nbsp;Enhancement&nbsp;Menu&nbsp;A&nbsp;and&nbsp;one&nbsp;choice&nbsp;from&nbsp;Abilities&nbsp;Menu&nbsp;A.&nbsp;You&nbsp;may&nbsp;not&nbsp;choose&nbsp;the&nbsp;same&nbsp;option&nbsp;twice.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 1
+      egoist: 1
+      empath: 2
+      gambler: 2
+      psion: 2
+      thug: 1
+      voyager: 1
+      wilder: 2
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 123–124
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '219'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '47'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!jPXWdZ5l8Tmp287E'

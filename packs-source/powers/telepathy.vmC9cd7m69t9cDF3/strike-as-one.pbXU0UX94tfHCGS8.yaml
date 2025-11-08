@@ -1,0 +1,89 @@
+_id: pbXU0UX94tfHCGS8
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Strike_as_One
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Strike as One
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None (harmless)
+        harmless: true
+      target:
+        value: You and one willing creature
+  description:
+    value: >-
+      <p>You&nbsp;form&nbsp;a&nbsp;mental&nbsp;bond&nbsp;with&nbsp;a&nbsp;creature&nbsp;within&nbsp;range&nbsp;and&nbsp;use&nbsp;that&nbsp;bond&nbsp;to&nbsp;coordinate&nbsp;your&nbsp;attacks&nbsp;to&nbsp;throw&nbsp;your&nbsp;foes&nbsp;off&nbsp;balance.
+
+      </p>
+
+      <p>Creatures&nbsp;affected&nbsp;by&nbsp;this&nbsp;power&nbsp;may&nbsp;designate&nbsp;their&nbsp;own&nbsp;square&nbsp;or&nbsp;any&nbsp;square&nbsp;adjacent&nbsp;to&nbsp;them&nbsp;as&nbsp;the&nbsp;square&nbsp;they&nbsp;occupy&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of&nbsp;flanking&nbsp;on&nbsp;their&nbsp;turn.&nbsp;If&nbsp;they&nbsp;occupy&nbsp;the&nbsp;designated&nbsp;square,&nbsp;they&nbsp;gain&nbsp;an&nbsp;additional&nbsp;+2&nbsp;bonus&nbsp;from&nbsp;flanking.
+
+      </p>
+
+      <p>All&nbsp;targets&nbsp;gain&nbsp;some&nbsp;measure&nbsp;of&nbsp;awareness&nbsp;from&nbsp;other&nbsp;targets,&nbsp;guarding&nbsp;each&nbsp;other&nbsp;from&nbsp;external&nbsp;threats.&nbsp;If&nbsp;any&nbsp;target&nbsp;is&nbsp;aware&nbsp;of&nbsp;danger,&nbsp;all&nbsp;targets&nbsp;are.&nbsp;No&nbsp;target&nbsp;may&nbsp;be&nbsp;flat-footed&nbsp;or&nbsp;flanked&nbsp;unless&nbsp;all&nbsp;targets&nbsp;are.
+
+      </p>
+  descriptors:
+    - mind-affecting
+    - network
+    - shared
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      tactician: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '22'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Pawns and Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 180–181
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '247'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!pbXU0UX94tfHCGS8'

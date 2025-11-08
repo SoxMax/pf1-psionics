@@ -1,0 +1,76 @@
+_id: OdatcRpGG3Rb9MPM
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Occultation,_Myra's
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Occultation, Myra's
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: hour
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;distort&nbsp;the&nbsp;way&nbsp;others&nbsp;perceive&nbsp;and&nbsp;remember&nbsp;you,&nbsp;making&nbsp;it&nbsp;hard&nbsp;for&nbsp;creatures&nbsp;to&nbsp;recall&nbsp;knowledge&nbsp;of&nbsp;you&nbsp;and&nbsp;your&nbsp;kind.&nbsp;Creatures&nbsp;attempting&nbsp;Knowledge&nbsp;checks&nbsp;to&nbsp;identify&nbsp;you&nbsp;and&nbsp;your&nbsp;traits&nbsp;(such&nbsp;as&nbsp;abilities&nbsp;or&nbsp;weaknesses)&nbsp;suffer&nbsp;a&nbsp;-4&nbsp;penalty&nbsp;to&nbsp;do&nbsp;so.&nbsp;This&nbsp;does&nbsp;not&nbsp;affect&nbsp;Knowledge&nbsp;checks&nbsp;made&nbsp;to&nbsp;research&nbsp;you&nbsp;or&nbsp;information&nbsp;related&nbsp;to&nbsp;you&nbsp;(such&nbsp;as&nbsp;at&nbsp;a&nbsp;public&nbsp;library)&nbsp;or&nbsp;other&nbsp;forms&nbsp;of&nbsp;information-gathering&nbsp;related&nbsp;to&nbsp;you&nbsp;(such&nbsp;as&nbsp;Sense&nbsp;Motive&nbsp;or&nbsp;Diplomacy&nbsp;checks).&nbsp;Creatures&nbsp;that&nbsp;fail&nbsp;Knowledge&nbsp;checks&nbsp;to&nbsp;identify&nbsp;you&nbsp;and&nbsp;your&nbsp;traits&nbsp;learn&nbsp;false&nbsp;information&nbsp;instead&nbsp;of&nbsp;learning&nbsp;nothing.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;the&nbsp;following&nbsp;ways:
+
+      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;the&nbsp;penalty&nbsp;to&nbsp;Knowledge&nbsp;checks&nbsp;increases&nbsp;by&nbsp;2.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;determine&nbsp;the&nbsp;form&nbsp;of&nbsp;misinformation&nbsp;learned&nbsp;by&nbsp;creatures&nbsp;failing&nbsp;their&nbsp;Knowledge&nbsp;checks.</li></ol>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      dread: 2
+      psion: 3
+      tactician: 3
+      thug: 2
+      wilder: 3
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '53'
+      publisher: Dreamscarred Press
+      title: Lords of the Night
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!OdatcRpGG3Rb9MPM'

@@ -1,0 +1,99 @@
+_id: QKq6JnqDm0DeSUD0
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Upheaval
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Upheaval
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '20'
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Reflex half
+        type: ref
+      target:
+        value: 20 ft. radius burst
+  description:
+    value: >-
+      <p>You&nbsp;translocate&nbsp;entire&nbsp;chunks&nbsp;of&nbsp;the&nbsp;earth&nbsp;50&nbsp;ft.&nbsp;into&nbsp;the&nbsp;air,&nbsp;where&nbsp;they&nbsp;fall&nbsp;onto&nbsp;the&nbsp;targets&nbsp;below.&nbsp;Each&nbsp;creature&nbsp;in&nbsp;the&nbsp;area&nbsp;affected&nbsp;takes&nbsp;9d6&nbsp;points&nbsp;of&nbsp;bludgeoning&nbsp;damage&nbsp;as&nbsp;the&nbsp;earth&nbsp;falls&nbsp;back&nbsp;to&nbsp;the&nbsp;ground.&nbsp;Unlike&nbsp;normal&nbsp;damage&nbsp;from&nbsp;powers,&nbsp;this&nbsp;damage&nbsp;is&nbsp;subject&nbsp;to&nbsp;damage&nbsp;reduction&nbsp;that&nbsp;would&nbsp;affect&nbsp;mundane&nbsp;bludgeoning&nbsp;damage.
+
+      </p>
+
+      <p>In&nbsp;addition,&nbsp;the&nbsp;ground&nbsp;in&nbsp;the&nbsp;affected&nbsp;area&nbsp;becomes&nbsp;difficult&nbsp;terrain,&nbsp;making&nbsp;movement&nbsp;through&nbsp;it&nbsp;harder.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;each&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;spent,&nbsp;this&nbsp;power&nbsp;can&nbsp;affect&nbsp;an&nbsp;area&nbsp;5&nbsp;ft.&nbsp;larger&nbsp;in&nbsp;radius&nbsp;and&nbsp;the&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gambler: 5
+      psion: 5
+      psychic warrior: 6
+      tactician: 5
+      wilder: 5
+  level: 5
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '23'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Pawns and Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '184'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '256'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '59'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!QKq6JnqDm0DeSUD0'

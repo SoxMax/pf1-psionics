@@ -1,0 +1,82 @@
+_id: Aohq3ZpbWmPHZaLX
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Kinetic_Legerdemain
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Kinetic Legerdemain
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None (object)
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;use&nbsp;telekinesis&nbsp;to&nbsp;make&nbsp;Disable&nbsp;Device&nbsp;checks&nbsp;without&nbsp;a&nbsp;toolkit&nbsp;without&nbsp;suffering&nbsp;the&nbsp;increase&nbsp;to&nbsp;the&nbsp;check&nbsp;DC.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+1&nbsp;competence&nbsp;bonus&nbsp;on&nbsp;your&nbsp;Disable&nbsp;Device&nbsp;checks&nbsp;made&nbsp;with&nbsp;this&nbsp;power.</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;range&nbsp;changes&nbsp;to&nbsp;Close&nbsp;(25&nbsp;ft.&nbsp;+&nbsp;5&nbsp;ft./2&nbsp;levels)&nbsp;instead&nbsp;of&nbsp;Touch.</li></ol>
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 1
+      thug: 1
+      voyager: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '38'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Hidden Intentions'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '168'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '214'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!Aohq3ZpbWmPHZaLX'

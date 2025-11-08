@@ -1,0 +1,91 @@
+_id: 3x2uwp9e7Qumvqta
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Mental_Barrier
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/earth/strike-body-stone-crumble.webp
+name: Mental Barrier
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: immediate
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;project&nbsp;a&nbsp;field&nbsp;of&nbsp;improbability&nbsp;around&nbsp;yourself,&nbsp;creating&nbsp;a&nbsp;fleeting&nbsp;protective&nbsp;shell.&nbsp;You&nbsp;gain&nbsp;a&nbsp;+4&nbsp;deflection&nbsp;bonus&nbsp;to&nbsp;Armor&nbsp;Class.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;use&nbsp;this&nbsp;power&nbsp;even&nbsp;when&nbsp;it's&nbsp;not&nbsp;your&nbsp;turn;&nbsp;however,&nbsp;you&nbsp;must&nbsp;manifest&nbsp;it&nbsp;prior&nbsp;to&nbsp;an&nbsp;opponent's&nbsp;attack&nbsp;roll&nbsp;in&nbsp;order&nbsp;to&nbsp;gain&nbsp;this&nbsp;power's&nbsp;benefit&nbsp;against&nbsp;that&nbsp;attack.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;deflection&nbsp;bonus&nbsp;to&nbsp;Armor&nbsp;Class&nbsp;increases&nbsp;by&nbsp;1.</li><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;duration&nbsp;increases&nbsp;by&nbsp;1&nbsp;round.</li></ol>
+  discipline: clairsentience
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 3
+      gambler: 3
+      gifted blade: 3
+      psion: 3
+      psychic warrior: 3
+      sighted seeker: 3
+      thug: 3
+      wilder: 3
+  level: 3
+  manifestTime:
+    units: immediate
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '121'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '217'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '46'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!3x2uwp9e7Qumvqta'

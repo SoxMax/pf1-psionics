@@ -1,0 +1,84 @@
+_id: kz8FIGAkbq273RtK
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Tormenting_the_Dead
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Tormenting the Dead
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '20'
+      damage:
+        parts:
+          - - 5d8
+            - untyped
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude half
+        type: fort
+      target:
+        value: One incorporeal creature
+  description:
+    value: >-
+      <p>You&nbsp;summon&nbsp;ethereal&nbsp;implements&nbsp;to&nbsp;lash&nbsp;and&nbsp;torment&nbsp;the&nbsp;incorporeal.&nbsp;This&nbsp;power&nbsp;deals&nbsp;5d8&nbsp;damage&nbsp;to&nbsp;the&nbsp;target;&nbsp;this&nbsp;damage&nbsp;is&nbsp;not&nbsp;reduced&nbsp;by&nbsp;the&nbsp;incorporeal&nbsp;trait.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;one&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;the&nbsp;power&nbsp;deals&nbsp;an&nbsp;additional&nbsp;1d8&nbsp;damage.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;wrack&nbsp;all&nbsp;targets&nbsp;hit&nbsp;with&nbsp;pain.&nbsp;If&nbsp;they&nbsp;fail&nbsp;the&nbsp;Fortitude&nbsp;save,&nbsp;they&nbsp;are&nbsp;also&nbsp;sickened&nbsp;for&nbsp;1d6&nbsp;rounds.&nbsp;This&nbsp;special&nbsp;use&nbsp;of&nbsp;the&nbsp;sickened&nbsp;condition&nbsp;affects&nbsp;incorporeal&nbsp;undead&nbsp;normally,&nbsp;regardless&nbsp;of&nbsp;any&nbsp;immunity&nbsp;they&nbsp;may&nbsp;have.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;affects&nbsp;all&nbsp;incorporeal&nbsp;creatures&nbsp;in&nbsp;a&nbsp;20-ft.-radius&nbsp;spread,&nbsp;instead&nbsp;of&nbsp;only&nbsp;a&nbsp;single&nbsp;target.</li></ol>
+
+      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;spent&nbsp;augmenting&nbsp;this&nbsp;power,&nbsp;increase&nbsp;the&nbsp;power's&nbsp;save&nbsp;DC&nbsp;by&nbsp;1.
+
+      </p>
+  discipline: athanatism
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: true
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      gifted blade: 3
+      psion: 3
+      psychic warrior: 3
+      wilder: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 43–44
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!kz8FIGAkbq273RtK'

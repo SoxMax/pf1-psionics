@@ -1,0 +1,109 @@
+_id: baE6chcLhK4hlxy3
+_key: '!items!baE6chcLhK4hlxy3'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/items/inventory/brain-purple.png
+name: Tactician
+system:
+  armorProf:
+    - med
+  bab: low
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: true
+    kge: false
+    khi: true
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: true
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    summary: ''
+    value: '</p><p>Joining allies into a single cohesive unit, the tactician uses his psionic power to unlock the potential of others, as well as himself. This master of strategy tends to focus his abilities on the insight of clairsentience and the improved communication of telepathy to know where and when to act and ensure his companions are best situated to react. </p><p><b>Role:</b> A tactician is at his strongest when his companions cooperate with his instructions. He is a strategist and a battle leader, issuing orders and expecting them to be followed. He has decent combat ability, but relies primary upon his manifesting ability. </p><p><b>Alignment: </b>Any. </p><p><b>Hit Die:</b> d8 </p><p><b>Starting Wealth:</b> 4d6 x 10 (140 gp.) In addition, each character begins play with an outfit worth 10 gp or less. </p><p><b>Class Skills: </b>The tactician''s class skills are Autohypnosis (Wis), Bluff (Cha), Climb (Str), Craft (Int), Diplomacy (Cha), Intimidate (Cha), Knowledge (engineering) (Int), Knowledge (history) (Int), Knowledge (psionics) (Int), Linguistics (Int), Perception (Wis), Perform (Cha), Profession (Wis), Ride (Dex), Sense Motive (Wis), Spellcraft (Int), Swim (Str), Use Magic Device (Cha). </p><p><b>Skill Ranks at each Level:</b> 4 + Int modifier. </p>'
+  hd: 6
+  hp: 6
+  level: 1
+  links:
+    classAssociations:
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.cOoAMOSo0yQYyyeu
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.SKwuMsm6QysaOI6W
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.e6emYSqesGcyoYkg
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.AOcM82AOomcog0KY
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.sSOmqwoGUEWweYGe
+      - level: 4
+        uuid: Compendium.pf1-psionics.class-abilities.Item.ECewyUYMqgQIO80g
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.iuW6AiYs2KCWu6Eo
+      - level: 6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Mw22ye8MuacgukWK
+      - level: 6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.EuIyGSC8AoC06oGE
+      - level: 8
+        uuid: Compendium.pf1-psionics.class-abilities.Item.sSCEgUmsm8ikQ08I
+      - level: 14
+        uuid: Compendium.pf1-psionics.class-abilities.Item.02uEU24uekoO40aw
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.CyEEauCgMM4kqCSU
+  manifesting:
+    ability: wis
+    cantrips: true
+    progression: high
+  savingThrows:
+    fort:
+      value: low
+    ref:
+      value: low
+    will:
+      value: high
+  skillsPerLevel: 2
+  sources:
+    - date: '2012-07-23'
+      pages: 52–57
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 64–69
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: base
+  tag: tactician
+  wealth: 2d6 * 10
+  weaponProf:
+    - simple
+type: class

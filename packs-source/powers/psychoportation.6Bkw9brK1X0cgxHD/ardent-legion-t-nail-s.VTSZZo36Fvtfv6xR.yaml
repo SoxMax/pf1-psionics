@@ -1,0 +1,80 @@
+_id: VTSZZo36Fvtfv6xR
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Ardent_Legion,_T'Nail's
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Ardent Legion, T'Nail's
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: unlimited
+        value: Unlimited; see text
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: Willing members of your collective
+  description:
+    value: >-
+      <p>You&nbsp;send&nbsp;a&nbsp;summon&nbsp;out&nbsp;across&nbsp;your&nbsp;collective&nbsp;calling&nbsp;all&nbsp;of&nbsp;the&nbsp;members&nbsp;to&nbsp;aid&nbsp;you.&nbsp;All&nbsp;members&nbsp;of&nbsp;the&nbsp;collective&nbsp;that&nbsp;are&nbsp;located&nbsp;on&nbsp;the&nbsp;same&nbsp;plane&nbsp;and&nbsp;that&nbsp;are&nbsp;willing&nbsp;are&nbsp;then&nbsp;summoned&nbsp;to&nbsp;the&nbsp;closest&nbsp;available&nbsp;space&nbsp;to&nbsp;you&nbsp;and&nbsp;are&nbsp;given&nbsp;one&nbsp;of&nbsp;three&nbsp;options.
+
+      </p><ul><li>+3&nbsp;competence&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;and&nbsp;damage&nbsp;rolls</li><li>+3&nbsp;competence&nbsp;bonus&nbsp;on&nbsp;saving&nbsp;throws&nbsp;and&nbsp;AC</li></ul>
+
+      <p>The&nbsp;competence&nbsp;bonuses&nbsp;last&nbsp;for&nbsp;one&nbsp;round&nbsp;per&nbsp;manifester&nbsp;level.&nbsp;If&nbsp;this&nbsp;power&nbsp;is&nbsp;used&nbsp;during&nbsp;combat&nbsp;and&nbsp;the&nbsp;creatures&nbsp;summoned&nbsp;had&nbsp;not&nbsp;yet&nbsp;rolled&nbsp;initiative,&nbsp;they&nbsp;immediately&nbsp;roll&nbsp;initiative.&nbsp;If&nbsp;their&nbsp;initiative&nbsp;is&nbsp;higher&nbsp;than&nbsp;yours,&nbsp;they&nbsp;may&nbsp;immediately&nbsp;take&nbsp;this&nbsp;round's&nbsp;actions&nbsp;and&nbsp;then&nbsp;resume&nbsp;normal&nbsp;initiative&nbsp;order&nbsp;the&nbsp;next&nbsp;round.&nbsp;Creatures&nbsp;summoned&nbsp;immediately&nbsp;receive&nbsp;their&nbsp;bonus.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>By&nbsp;spending&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;power&nbsp;can&nbsp;summon&nbsp;members,&nbsp;including&nbsp;the&nbsp;manifester,&nbsp;to&nbsp;a&nbsp;particular&nbsp;member&nbsp;of&nbsp;the&nbsp;collective&nbsp;instead&nbsp;of&nbsp;to&nbsp;the&nbsp;manifester.</li><li>By&nbsp;spending&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;can&nbsp;summon&nbsp;members&nbsp;of&nbsp;the&nbsp;collective&nbsp;across&nbsp;planar&nbsp;boundaries.</li><li>By&nbsp;spending&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power's&nbsp;manifesting&nbsp;time&nbsp;becomes&nbsp;an&nbsp;immediate&nbsp;action.</li></ol>
+  discipline: psychoportation
+  display:
+    auditory: true
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      tactician: 9
+      vitalist: 9
+  level: 9
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '50'
+      publisher: Dreamscarred Press
+      title: Psionics Augmented
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '160'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!VTSZZo36Fvtfv6xR'

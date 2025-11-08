@@ -1,0 +1,152 @@
+_id: SnsLxiwTKqVMV6O9
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Remote_Viewing
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Remote Viewing
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: hour
+      duration:
+        dismiss: true
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: ft
+        value: See text
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: Quasi-real viewpoint
+  description:
+    value: >-
+      <p>You&nbsp;send&nbsp;your&nbsp;mind&nbsp;across&nbsp;space&nbsp;and&nbsp;dimensions,&nbsp;forming&nbsp;it&nbsp;into&nbsp;a&nbsp;quasi-real&nbsp;viewpoint&nbsp;from&nbsp;which&nbsp;you&nbsp;can&nbsp;see&nbsp;and&nbsp;hear&nbsp;some&nbsp;creature&nbsp;located&nbsp;at&nbsp;any&nbsp;distance&nbsp;from&nbsp;you,&nbsp;even&nbsp;if&nbsp;planar&nbsp;boundaries&nbsp;separate&nbsp;you.&nbsp;If&nbsp;the&nbsp;subject&nbsp;succeeds&nbsp;on&nbsp;a&nbsp;Will&nbsp;save,&nbsp;the&nbsp;remote&nbsp;viewing&nbsp;attempt&nbsp;fails,&nbsp;and&nbsp;you&nbsp;can't&nbsp;attempt&nbsp;to&nbsp;view&nbsp;that&nbsp;creature&nbsp;again&nbsp;for&nbsp;at&nbsp;least&nbsp;24&nbsp;hours.&nbsp;The&nbsp;difficulty&nbsp;of&nbsp;the&nbsp;save&nbsp;depends&nbsp;on&nbsp;how&nbsp;well&nbsp;you&nbsp;know&nbsp;the&nbsp;subject&nbsp;and&nbsp;what&nbsp;sort&nbsp;of&nbsp;physical&nbsp;connection&nbsp;(if&nbsp;any)&nbsp;you&nbsp;have&nbsp;to&nbsp;that&nbsp;creature.&nbsp;Furthermore,&nbsp;if&nbsp;the&nbsp;subject&nbsp;is&nbsp;on&nbsp;another&nbsp;plane,&nbsp;it&nbsp;gets&nbsp;a&nbsp;+5&nbsp;bonus&nbsp;on&nbsp;its&nbsp;Will&nbsp;save.
+
+      </p><table><tbody><tr><th>Knowledge
+
+      </th><th>Will&nbsp;Save&nbsp;Modifier
+
+      </th></tr><tr><td>None*
+
+      </td><td>+10
+
+      </td></tr><tr><td>Secondhand&nbsp;(you&nbsp;have&nbsp;heard&nbsp;of&nbsp;the&nbsp;subject)
+
+      </td><td>+5
+
+      </td></tr><tr><td>Firsthand&nbsp;(you&nbsp;have&nbsp;met&nbsp;the&nbsp;subject)
+
+      </td><td>+0
+
+      </td></tr><tr><td>Familiar&nbsp;(you&nbsp;know&nbsp;the&nbsp;subject&nbsp;well)
+
+      </td><td>–5
+
+      </td></tr></tbody></table>
+
+      <p>*You&nbsp;must&nbsp;have&nbsp;some&nbsp;sort&nbsp;of&nbsp;connection&nbsp;to&nbsp;a&nbsp;creature&nbsp;you&nbsp;have&nbsp;no&nbsp;knowledge&nbsp;of.
+
+      </p><table><tbody><tr><th>Connection
+
+      </th><th>Will&nbsp;Save&nbsp;Modifier
+
+      </th></tr><tr><td>Likeness&nbsp;or&nbsp;picture
+
+      </td><td>–2
+
+      </td></tr><tr><td>Possession&nbsp;or&nbsp;garment
+
+      </td><td>–4
+
+      </td></tr><tr><td>Body&nbsp;part,&nbsp;lock&nbsp;of&nbsp;hair,&nbsp;bit&nbsp;of&nbsp;nail,&nbsp;etc.
+
+      </td><td>–10
+
+      </td></tr><tr><td>Subject&nbsp;on&nbsp;another&nbsp;plane
+
+      </td><td>+5
+
+      </td></tr></tbody></table>
+
+      <p>If&nbsp;the&nbsp;subject&nbsp;fails&nbsp;its&nbsp;Will&nbsp;save,&nbsp;your&nbsp;mind&nbsp;coalesces&nbsp;a&nbsp;quasi-real&nbsp;viewpoint&nbsp;near&nbsp;enough&nbsp;to&nbsp;the&nbsp;subject&nbsp;to&nbsp;see&nbsp;and&nbsp;hear&nbsp;the&nbsp;subject&nbsp;and&nbsp;its&nbsp;immediate&nbsp;surroundings&nbsp;(up&nbsp;30&nbsp;feet&nbsp;in&nbsp;all&nbsp;directions&nbsp;away&nbsp;from&nbsp;the&nbsp;subject).
+
+      </p>
+
+      <p>While&nbsp;the&nbsp;remote&nbsp;viewing&nbsp;lasts,&nbsp;your&nbsp;real&nbsp;body&nbsp;remains&nbsp;unmoving&nbsp;and&nbsp;unaware&nbsp;of&nbsp;your&nbsp;actual&nbsp;surroundings.&nbsp;On&nbsp;the&nbsp;other&nbsp;hand,&nbsp;your&nbsp;quasi-real&nbsp;viewpoint&nbsp;is&nbsp;treated&nbsp;in&nbsp;some&nbsp;ways&nbsp;as&nbsp;if&nbsp;it&nbsp;were&nbsp;an&nbsp;invisible&nbsp;ectoplasmic&nbsp;form&nbsp;of&nbsp;yourself,&nbsp;except&nbsp;as&nbsp;follows.&nbsp;This&nbsp;power&nbsp;is&nbsp;of&nbsp;the&nbsp;Scrying&nbsp;subdiscipline,&nbsp;but&nbsp;use&nbsp;the&nbsp;following&nbsp;information&nbsp;in&nbsp;place&nbsp;of&nbsp;the&nbsp;standard&nbsp;scrying&nbsp;sensor.&nbsp;As&nbsp;a&nbsp;quasi-real&nbsp;viewpoint,&nbsp;you&nbsp;can&nbsp;speak&nbsp;(though&nbsp;your&nbsp;voice&nbsp;is&nbsp;whispery).
+
+      </p>
+
+      <p>You&nbsp;may&nbsp;potentially&nbsp;be&nbsp;sensed&nbsp;by&nbsp;the&nbsp;subject&nbsp;of&nbsp;your&nbsp;viewing&nbsp;(subjects&nbsp;who&nbsp;can&nbsp;see&nbsp;or&nbsp;sense&nbsp;invisible&nbsp;or&nbsp;hidden&nbsp;creatures&nbsp;automatically&nbsp;sense&nbsp;you;&nbsp;otherwise&nbsp;you&nbsp;make&nbsp;a&nbsp;Stealth&nbsp;check&nbsp;with&nbsp;a&nbsp;+40&nbsp;bonus&nbsp;to&nbsp;escape&nbsp;detection&nbsp;if&nbsp;immobile,&nbsp;or&nbsp;a&nbsp;+20&nbsp;bonus&nbsp;if&nbsp;moving).&nbsp;You&nbsp;could&nbsp;be&nbsp;attacked&nbsp;(although&nbsp;if&nbsp;you&nbsp;become&nbsp;subject&nbsp;to&nbsp;dispel&nbsp;psionics,&nbsp;the&nbsp;remote&nbsp;viewing&nbsp;simply&nbsp;ends).&nbsp;If&nbsp;the&nbsp;subject&nbsp;moves,&nbsp;you&nbsp;can&nbsp;attempt&nbsp;to&nbsp;follow&nbsp;it&nbsp;at&nbsp;a&nbsp;speed&nbsp;of&nbsp;20&nbsp;feet,&nbsp;though&nbsp;if&nbsp;it&nbsp;gets&nbsp;farther&nbsp;than&nbsp;30&nbsp;feet&nbsp;from&nbsp;you&nbsp;(or&nbsp;you&nbsp;move&nbsp;farther&nbsp;than&nbsp;30&nbsp;feet&nbsp;from&nbsp;it),&nbsp;the&nbsp;power&nbsp;ends.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;attempt&nbsp;to&nbsp;manifest&nbsp;one&nbsp;power&nbsp;through&nbsp;your&nbsp;quasi-real&nbsp;viewpoint,&nbsp;but&nbsp;you&nbsp;must&nbsp;make&nbsp;a&nbsp;concentration&nbsp;check&nbsp;(DC&nbsp;20&nbsp;+&nbsp;level&nbsp;of&nbsp;the&nbsp;power&nbsp;you&nbsp;wish&nbsp;to&nbsp;manifest)&nbsp;to&nbsp;succeed.&nbsp;Manifesting&nbsp;(or&nbsp;attempting&nbsp;and&nbsp;failing&nbsp;to&nbsp;manifest)&nbsp;a&nbsp;power&nbsp;immediately&nbsp;ends&nbsp;the&nbsp;remote&nbsp;viewing.
+
+      </p>
+
+      <p>Furthermore,&nbsp;all&nbsp;powers&nbsp;from&nbsp;your&nbsp;quasi-real&nbsp;viewpoint&nbsp;cost&nbsp;twice&nbsp;the&nbsp;usual&nbsp;number&nbsp;of&nbsp;power&nbsp;points&nbsp;(you&nbsp;can't&nbsp;exceed&nbsp;the&nbsp;power&nbsp;point&nbsp;limit&nbsp;set&nbsp;by&nbsp;your&nbsp;manifester&nbsp;level,&nbsp;so&nbsp;you&nbsp;are&nbsp;restricted&nbsp;to&nbsp;manifesting&nbsp;lower-level&nbsp;powers&nbsp;than&nbsp;you&nbsp;otherwise&nbsp;could).&nbsp;Power&nbsp;points&nbsp;you&nbsp;spend&nbsp;as&nbsp;a&nbsp;quasireal&nbsp;viewpoint&nbsp;are&nbsp;drained&nbsp;from&nbsp;your&nbsp;real&nbsp;body.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;By&nbsp;spending&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;quasi-real&nbsp;viewpoint&nbsp;can&nbsp;move&nbsp;at&nbsp;a&nbsp;speed&nbsp;of&nbsp;40&nbsp;feet.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      empath: 4
+      seer: 4
+      sighted seeker: 4
+      voyager: 4
+  level: 4
+  manifestTime:
+    units: hour
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 142–143
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 239–240
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '54'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline:
+    - scrying
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!SnsLxiwTKqVMV6O9'

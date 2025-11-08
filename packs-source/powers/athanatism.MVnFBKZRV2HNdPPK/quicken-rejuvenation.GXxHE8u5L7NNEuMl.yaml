@@ -1,0 +1,73 @@
+_id: GXxHE8u5L7NNEuMl
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Quicken_Rejuvenation
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Quicken Rejuvenation
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates (harmless)
+        harmless: true
+        type: will
+      target:
+        value: 1 ghost destroyed within the last round
+  description:
+    value: >-
+      <p>You&nbsp;infuse&nbsp;unnatural&nbsp;vitality&nbsp;into&nbsp;the&nbsp;target,&nbsp;returning&nbsp;it&nbsp;to&nbsp;unlife.&nbsp;The&nbsp;recently&nbsp;destroyed&nbsp;ghost&nbsp;immediately&nbsp;activates&nbsp;its&nbsp;rejuvenation&nbsp;ability,&nbsp;restoring&nbsp;itself&nbsp;completely.&nbsp;A&nbsp;ghost&nbsp;may&nbsp;not&nbsp;targeted&nbsp;by&nbsp;this&nbsp;power&nbsp;more&nbsp;than&nbsp;once&nbsp;in&nbsp;a&nbsp;given&nbsp;week.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;target&nbsp;a&nbsp;ghost&nbsp;that&nbsp;was&nbsp;destroyed&nbsp;a&nbsp;number&nbsp;of&nbsp;days&nbsp;ago&nbsp;equal&nbsp;to&nbsp;your&nbsp;manifester&nbsp;level&nbsp;(round&nbsp;down)&nbsp;or&nbsp;less.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points&nbsp;and&nbsp;expending&nbsp;your&nbsp;psionic&nbsp;focus,&nbsp;you&nbsp;may&nbsp;manifest&nbsp;this&nbsp;power&nbsp;on&nbsp;yourself&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action&nbsp;when&nbsp;you&nbsp;would&nbsp;be&nbsp;reduced&nbsp;to&nbsp;0&nbsp;or&nbsp;fewer&nbsp;hit&nbsp;points.&nbsp;When&nbsp;you&nbsp;do,&nbsp;you&nbsp;and&nbsp;your&nbsp;gear&nbsp;are&nbsp;immediately&nbsp;destroyed,&nbsp;returning&nbsp;to&nbsp;life&nbsp;2d4&nbsp;days&nbsp;unharmed&nbsp;with&nbsp;all&nbsp;gear&nbsp;intact.&nbsp;You&nbsp;must&nbsp;currently&nbsp;be&nbsp;incorporeal&nbsp;or&nbsp;under&nbsp;the&nbsp;effects&nbsp;of&nbsp;a&nbsp;power&nbsp;with&nbsp;the&nbsp;spirit&nbsp;subtype&nbsp;to&nbsp;augment&nbsp;the&nbsp;power&nbsp;in&nbsp;this&nbsp;way.</li></ol>
+  descriptors:
+    - healing
+  discipline: athanatism
+  display:
+    auditory: false
+    material: true
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      conduit: 3
+      vitalist: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '38'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!GXxHE8u5L7NNEuMl'

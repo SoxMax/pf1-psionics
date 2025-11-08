@@ -1,0 +1,77 @@
+_id: bPEhpJEh3YYM1YOY
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Guide_the_Willing
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Guide the Willing
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      target:
+        value: One conscious, willing, and living target
+  description:
+    value: >-
+      <p>Your&nbsp;powers&nbsp;can&nbsp;grant&nbsp;the&nbsp;final&nbsp;mercy&nbsp;to&nbsp;those&nbsp;suffering.&nbsp;The&nbsp;target&nbsp;dies&nbsp;immediately.&nbsp;Any&nbsp;triggered&nbsp;effects&nbsp;that&nbsp;would&nbsp;normally&nbsp;activate&nbsp;on&nbsp;the&nbsp;target's&nbsp;death&nbsp;do&nbsp;not&nbsp;activate,&nbsp;and&nbsp;the&nbsp;target&nbsp;cannot&nbsp;be&nbsp;raised&nbsp;from&nbsp;the&nbsp;dead&nbsp;by&nbsp;any&nbsp;means.&nbsp;A&nbsp;target&nbsp;killed&nbsp;by&nbsp;this&nbsp;power&nbsp;does&nbsp;not&nbsp;become&nbsp;undead&nbsp;when&nbsp;it&nbsp;dies.&nbsp;If&nbsp;the&nbsp;target&nbsp;is&nbsp;coerced&nbsp;or&nbsp;compelled&nbsp;in&nbsp;any&nbsp;way,&nbsp;this&nbsp;power&nbsp;fails.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>You&nbsp;may&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;have&nbsp;only&nbsp;effects&nbsp;of&nbsp;your&nbsp;choice&nbsp;trigger&nbsp;when&nbsp;the&nbsp;target&nbsp;dies.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;10&nbsp;power&nbsp;points,&nbsp;the&nbsp;target&nbsp;does&nbsp;not&nbsp;have&nbsp;to&nbsp;be&nbsp;willing&nbsp;or&nbsp;conscious.&nbsp;This&nbsp;power&nbsp;has&nbsp;a&nbsp;range&nbsp;of&nbsp;touch,&nbsp;and&nbsp;the&nbsp;target&nbsp;receives&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;to&nbsp;resist&nbsp;its&nbsp;effects&nbsp;(as&nbsp;well&nbsp;as&nbsp;power&nbsp;resistance,&nbsp;if&nbsp;applicable).</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;the&nbsp;target&nbsp;can&nbsp;be&nbsp;a&nbsp;willing&nbsp;undead&nbsp;creature.&nbsp;The&nbsp;target&nbsp;is&nbsp;completely&nbsp;destroyed,&nbsp;releasing&nbsp;its&nbsp;soul&nbsp;to&nbsp;be&nbsp;raised&nbsp;as&nbsp;normal.</li></ol>
+
+      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;two&nbsp;power&nbsp;points&nbsp;spent&nbsp;augmenting&nbsp;this&nbsp;power,&nbsp;increase&nbsp;the&nbsp;power's&nbsp;save&nbsp;DC&nbsp;by&nbsp;1.
+
+      </p>
+  descriptors:
+    - death
+  discipline: athanatism
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 2
+      empath: 1
+      psion: 1
+      thug: 2
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '32'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!bPEhpJEh3YYM1YOY'

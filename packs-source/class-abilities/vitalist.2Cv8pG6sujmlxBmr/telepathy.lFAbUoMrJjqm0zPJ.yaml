@@ -1,0 +1,31 @@
+_id: lFAbUoMrJjqm0zPJ
+_stats:
+  coreVersion: '13.350'
+folder: 2Cv8pG6sujmlxBmr
+img: systems/pf1/icons/feats/skill-focus.jpg
+name: Telepathy
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Vitalist
+  description:
+    value: >-
+      <p><b>Telepathy:</b>When&nbsp;a&nbsp;vitalist&nbsp;reaches&nbsp;3rd&nbsp;level,&nbsp;all&nbsp;willing&nbsp;members&nbsp;of&nbsp;his&nbsp;collective&nbsp;(including&nbsp;the&nbsp;vitalist&nbsp;himself)&nbsp;can&nbsp;communicate&nbsp;with&nbsp;each&nbsp;other&nbsp;telepathically,&nbsp;even&nbsp;if&nbsp;they&nbsp;do&nbsp;not&nbsp;share&nbsp;a&nbsp;common&nbsp;language.&nbsp;Psionic&nbsp;creatures&nbsp;who&nbsp;are&nbsp;willing&nbsp;members&nbsp;in&nbsp;a&nbsp;vitalist's&nbsp;collective&nbsp;(including&nbsp;the&nbsp;vitalist&nbsp;himself)&nbsp;may&nbsp;manifest&nbsp;unknown&nbsp;powers&nbsp;from&nbsp;powers&nbsp;known&nbsp;by&nbsp;another&nbsp;willing&nbsp;psionic&nbsp;creature&nbsp;in&nbsp;the&nbsp;collective&nbsp;as&nbsp;if&nbsp;they&nbsp;were&nbsp;making&nbsp;physical&nbsp;contact.
+
+      </p><p>A&nbsp;vitalist&nbsp;may&nbsp;temporarily&nbsp;deactivate,&nbsp;and&nbsp;reactivate,&nbsp;this&nbsp;ability&nbsp;as&nbsp;a&nbsp;swift&nbsp;action.
+
+      </p><p></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 57–61
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 69–72
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: telepathy
+type: feat
+_key: '!items!lFAbUoMrJjqm0zPJ'

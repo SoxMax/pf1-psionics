@@ -1,0 +1,84 @@
+_id: lwGoFHIVaN6Y9meu
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Spray_(power)
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
+name: Spray
+system:
+  actions:
+    - actionType: rsak
+      activation:
+        cost: 1
+        type: swift
+      duration:
+        units: spec
+        value: Immediate
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>The&nbsp;arrow&nbsp;you&nbsp;have&nbsp;just&nbsp;fired&nbsp;arcs&nbsp;towards&nbsp;its&nbsp;target&nbsp;then&nbsp;abruptly&nbsp;reality&nbsp;is&nbsp;rewritten&nbsp;and&nbsp;multiple&nbsp;arrows&nbsp;spawn&nbsp;in&nbsp;its&nbsp;place.&nbsp;If&nbsp;you&nbsp;manifest&nbsp;<em>spray&nbsp;</em>just&nbsp;after&nbsp;taking&nbsp;a&nbsp;shot&nbsp;with&nbsp;a&nbsp;ranged&nbsp;weapon&nbsp;(but&nbsp;not&nbsp;thrown&nbsp;weapon),&nbsp;just&nbsp;before&nbsp;striking&nbsp;its&nbsp;target,&nbsp;your&nbsp;projectile&nbsp;splits&nbsp;into&nbsp;as&nbsp;many&nbsp;as&nbsp;three&nbsp;identical&nbsp;projectiles,&nbsp;able&nbsp;to&nbsp;strike&nbsp;different&nbsp;targets.&nbsp;You&nbsp;may&nbsp;designate&nbsp;two&nbsp;targets&nbsp;adjacent&nbsp;to&nbsp;your&nbsp;original&nbsp;target,&nbsp;and&nbsp;the&nbsp;two&nbsp;twin&nbsp;projectiles&nbsp;will&nbsp;be&nbsp;directed&nbsp;at&nbsp;them.&nbsp;You&nbsp;make&nbsp;a&nbsp;single&nbsp;attack&nbsp;roll&nbsp;and&nbsp;modify&nbsp;that&nbsp;roll&nbsp;for&nbsp;each&nbsp;target&nbsp;as&nbsp;appropriate&nbsp;for&nbsp;cover,&nbsp;concealment&nbsp;and&nbsp;similar&nbsp;effects.
+
+      </p>
+
+      <p>Each&nbsp;duplicate&nbsp;projectile&nbsp;created&nbsp;by&nbsp;<em>spray&nbsp;</em>is&nbsp;identical&nbsp;to&nbsp;the&nbsp;original,&nbsp;so&nbsp;any&nbsp;effects&nbsp;or&nbsp;abilities&nbsp;being&nbsp;delivered&nbsp;by&nbsp;that&nbsp;projectile&nbsp;are&nbsp;similarly&nbsp;duplicated.
+
+      </p>
+
+      <p>In&nbsp;the&nbsp;case&nbsp;of&nbsp;a&nbsp;critical&nbsp;threat&nbsp;on&nbsp;the&nbsp;single&nbsp;attack&nbsp;roll,&nbsp;you&nbsp;must&nbsp;roll&nbsp;separate&nbsp;confirmation&nbsp;rolls&nbsp;per&nbsp;target.&nbsp;In&nbsp;the&nbsp;case&nbsp;of&nbsp;a&nbsp;critical&nbsp;fumble&nbsp;(if&nbsp;playing&nbsp;with&nbsp;fumble&nbsp;optional&nbsp;rules),&nbsp;only&nbsp;roll&nbsp;one&nbsp;confirmation.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>For&nbsp;every&nbsp;four&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;may&nbsp;add&nbsp;one&nbsp;more&nbsp;duplicate&nbsp;projectile.
+
+      </p>
+  discipline: metacreativity
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      marksman: 3
+  level: 3
+  manifestTime:
+    units: swift
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '15'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '82'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  subdiscipline:
+    - creation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!lwGoFHIVaN6Y9meu'

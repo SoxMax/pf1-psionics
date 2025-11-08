@@ -1,0 +1,83 @@
+_id: MuhbvdYrZuJ5Vo5Z
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Hustle
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Hustle
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: swift
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;gain&nbsp;an&nbsp;additional&nbsp;move&nbsp;action&nbsp;in&nbsp;the&nbsp;current&nbsp;round.&nbsp;Taking&nbsp;a&nbsp;full&nbsp;round's&nbsp;worth&nbsp;of&nbsp;attacks&nbsp;and&nbsp;then&nbsp;using&nbsp;this&nbsp;power&nbsp;to&nbsp;move&nbsp;away&nbsp;from&nbsp;your&nbsp;foe&nbsp;does&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      egoist: 3
+      empath: 2
+      gambler: 3
+      gifted blade: 3
+      marksman: 3
+      psychic warrior: 2
+      thug: 3
+      vitalist: 3
+      voyager: 3
+  level: 2
+  manifestTime:
+    units: swift
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '118'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '211'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '44'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!MuhbvdYrZuJ5Vo5Z'

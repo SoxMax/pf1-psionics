@@ -1,0 +1,85 @@
+_id: aYJIc9B1lRQn5tC1
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Guarded_Sleep
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Guarded Sleep
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: spec
+        value: Until the target wakes
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        description: None
+      target:
+        value: One sleeping creature
+  description:
+    value: >-
+      <p>You&nbsp;create&nbsp;a&nbsp;temporary&nbsp;dreamstate&nbsp;in&nbsp;the&nbsp;mind&nbsp;of&nbsp;a&nbsp;sleeping&nbsp;creature,&nbsp;sheltering&nbsp;it&nbsp;from&nbsp;outside&nbsp;influence&nbsp;while&nbsp;providing&nbsp;it&nbsp;with&nbsp;a&nbsp;pristine&nbsp;resting&nbsp;environment,&nbsp;ideal&nbsp;for&nbsp;recovering&nbsp;mental&nbsp;energies.&nbsp;For&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power,&nbsp;the&nbsp;subject&nbsp;is&nbsp;immune&nbsp;to&nbsp;all&nbsp;mind-affecting&nbsp;effects&nbsp;and&nbsp;may&nbsp;make&nbsp;saving&nbsp;throws&nbsp;normally&nbsp;(it&nbsp;is&nbsp;not&nbsp;automatically&nbsp;considered&nbsp;"willing"&nbsp;as&nbsp;unconscious&nbsp;creatures&nbsp;usually&nbsp;are).
+
+      </p>
+
+      <p>After&nbsp;a&nbsp;guarded&nbsp;sleep&nbsp;of&nbsp;at&nbsp;least&nbsp;8&nbsp;hours,&nbsp;a&nbsp;subject's&nbsp;mind&nbsp;is&nbsp;in&nbsp;top&nbsp;condition,&nbsp;and&nbsp;it&nbsp;gains&nbsp;special&nbsp;benefits&nbsp;based&nbsp;upon&nbsp;its&nbsp;particular&nbsp;abilities.&nbsp;If&nbsp;the&nbsp;target&nbsp;could&nbsp;manifest&nbsp;psionic&nbsp;powers,&nbsp;it&nbsp;gains&nbsp;one&nbsp;temporary&nbsp;power&nbsp;point&nbsp;for&nbsp;each&nbsp;manifester&nbsp;level&nbsp;it&nbsp;has&nbsp;(which&nbsp;it&nbsp;can&nbsp;access&nbsp;as&nbsp;if&nbsp;from&nbsp;a&nbsp;cognizance&nbsp;crystal).&nbsp;If&nbsp;the&nbsp;target&nbsp;could&nbsp;cast&nbsp;arcane&nbsp;spells&nbsp;spontaneously,&nbsp;it&nbsp;gains&nbsp;one&nbsp;additional&nbsp;spell&nbsp;slot&nbsp;of&nbsp;his&nbsp;highest&nbsp;level.&nbsp;If&nbsp;the&nbsp;target&nbsp;prepares&nbsp;arcane&nbsp;spells,&nbsp;it&nbsp;may&nbsp;prepare&nbsp;spells&nbsp;in&nbsp;half&nbsp;the&nbsp;usual&nbsp;amount&nbsp;of&nbsp;time.&nbsp;These&nbsp;benefits&nbsp;fade&nbsp;when&nbsp;the&nbsp;target&nbsp;next&nbsp;sleeps.&nbsp;You&nbsp;cannot&nbsp;manifest&nbsp;guarded&nbsp;sleep&nbsp;on&nbsp;yourself&nbsp;unless&nbsp;you&nbsp;are&nbsp;capable&nbsp;of&nbsp;manifesting&nbsp;powers&nbsp;while&nbsp;unconscious.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      dread: 3
+      psion: 3
+      sighted seeker: 3
+      thug: 3
+      vitalist: 3
+      wilder: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '29'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '165'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '209'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!aYJIc9B1lRQn5tC1'

@@ -1,0 +1,74 @@
+_id: lG50pBc6F7F6iXw8
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Payload
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Payload
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        description: None
+      target:
+        value: One touched ranged weapon
+  description:
+    value: >-
+      <p>A&nbsp;shimmering&nbsp;pocket&nbsp;of&nbsp;space&nbsp;opens&nbsp;up&nbsp;near&nbsp;your&nbsp;bow,&nbsp;inviting&nbsp;the&nbsp;insertion&nbsp;of&nbsp;a&nbsp;small&nbsp;item.&nbsp;While&nbsp;this&nbsp;power&nbsp;is&nbsp;in&nbsp;effect,&nbsp;you&nbsp;can&nbsp;load&nbsp;an&nbsp;alchemical&nbsp;item&nbsp;such&nbsp;as&nbsp;an&nbsp;acid&nbsp;flask&nbsp;or&nbsp;holy&nbsp;water&nbsp;into&nbsp;the&nbsp;space,&nbsp;and&nbsp;your&nbsp;next&nbsp;shot&nbsp;will&nbsp;deliver&nbsp;that&nbsp;item&nbsp;in&nbsp;addition&nbsp;to&nbsp;its&nbsp;normal&nbsp;effects.&nbsp;Loading&nbsp;this&nbsp;pocket&nbsp;requires&nbsp;a&nbsp;move&nbsp;action&nbsp;but&nbsp;once&nbsp;loaded,&nbsp;the&nbsp;pocket&nbsp;remains&nbsp;ready&nbsp;to&nbsp;use&nbsp;until&nbsp;the&nbsp;power&nbsp;expires&nbsp;or&nbsp;you&nbsp;take&nbsp;a&nbsp;shot&nbsp;with&nbsp;your&nbsp;weapon.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>For&nbsp;every&nbsp;additional&nbsp;two&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;may&nbsp;place&nbsp;an&nbsp;additional&nbsp;alchemical&nbsp;item&nbsp;into&nbsp;the&nbsp;loading&nbsp;pocket&nbsp;when&nbsp;you&nbsp;load&nbsp;it,&nbsp;without&nbsp;requiring&nbsp;more&nbsp;time.&nbsp;Such&nbsp;items&nbsp;will&nbsp;still&nbsp;only&nbsp;attach&nbsp;one&nbsp;per&nbsp;projectile,&nbsp;so&nbsp;delivering&nbsp;two&nbsp;items&nbsp;requires&nbsp;two&nbsp;shots.
+
+      </p>
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      marksman: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '13'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: 78–79
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!lG50pBc6F7F6iXw8'

@@ -1,0 +1,85 @@
+_id: rJZ2zrcENaZvpYds
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Suppress_Instinct
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Suppress Instinct
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates (harmless)
+        harmless: true
+        type: will
+      target:
+        value: One touched animal
+  description:
+    value: >-
+      <p>Your&nbsp;thoughts&nbsp;gently&nbsp;caress&nbsp;the&nbsp;primitive&nbsp;mind&nbsp;of&nbsp;an&nbsp;animal,&nbsp;reworking&nbsp;its&nbsp;most&nbsp;base&nbsp;urges&nbsp;to&nbsp;enable&nbsp;it&nbsp;to&nbsp;act&nbsp;more&nbsp;calmly&nbsp;than&nbsp;natural.&nbsp;Once&nbsp;under&nbsp;the&nbsp;effect&nbsp;of&nbsp;this&nbsp;power,&nbsp;the&nbsp;subject&nbsp;animal&nbsp;becomes&nbsp;temporarily&nbsp;immune&nbsp;to&nbsp;fear&nbsp;effects.&nbsp;In&nbsp;addition,&nbsp;the&nbsp;animal&nbsp;can&nbsp;now&nbsp;potentially&nbsp;be&nbsp;convinced&nbsp;to&nbsp;perform&nbsp;acts&nbsp;that&nbsp;it&nbsp;would&nbsp;otherwise&nbsp;be&nbsp;unwilling&nbsp;to&nbsp;do,&nbsp;such&nbsp;as&nbsp;run&nbsp;through&nbsp;a&nbsp;sheet&nbsp;of&nbsp;fire&nbsp;or&nbsp;walk&nbsp;along&nbsp;a&nbsp;sharp&nbsp;cliff.&nbsp;This&nbsp;may&nbsp;allow&nbsp;an&nbsp;animal&nbsp;to&nbsp;take&nbsp;advantage&nbsp;of&nbsp;abilities&nbsp;that&nbsp;would&nbsp;normally&nbsp;alarm&nbsp;it,&nbsp;such&nbsp;as&nbsp;if&nbsp;it&nbsp;were&nbsp;subject&nbsp;to&nbsp;a&nbsp;<em>fly&nbsp;</em>spell&nbsp;(though&nbsp;directing&nbsp;it&nbsp;in&nbsp;flight&nbsp;may&nbsp;require&nbsp;Handle&nbsp;Animal&nbsp;checks).
+
+      </p>
+
+      <p>This&nbsp;does&nbsp;not&nbsp;make&nbsp;an&nbsp;animal&nbsp;suicidal,&nbsp;but&nbsp;merely&nbsp;keeps&nbsp;its&nbsp;natural&nbsp;fears&nbsp;from&nbsp;preventing&nbsp;it&nbsp;from&nbsp;acting.&nbsp;You&nbsp;also&nbsp;do&nbsp;not&nbsp;gain&nbsp;any&nbsp;special&nbsp;influence&nbsp;over&nbsp;the&nbsp;animal&nbsp;and&nbsp;must&nbsp;direct&nbsp;it&nbsp;as&nbsp;you&nbsp;would&nbsp;to&nbsp;take&nbsp;any&nbsp;actions&nbsp;it&nbsp;would&nbsp;not&nbsp;normally&nbsp;find&nbsp;distasteful.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>For&nbsp;every&nbsp;two&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;may&nbsp;manifest&nbsp;this&nbsp;power&nbsp;on&nbsp;one&nbsp;additional&nbsp;animal.&nbsp;You&nbsp;do&nbsp;not&nbsp;need&nbsp;to&nbsp;touch&nbsp;each&nbsp;animal&nbsp;at&nbsp;the&nbsp;same&nbsp;time&nbsp;to&nbsp;activate&nbsp;this&nbsp;power&nbsp;but&nbsp;must&nbsp;touch&nbsp;all&nbsp;target&nbsp;animals&nbsp;within&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;power.
+
+      </p>
+  discipline: telepathy
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      psion: 2
+      thug: 2
+      vitalist: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '15'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '83'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!rJZ2zrcENaZvpYds'

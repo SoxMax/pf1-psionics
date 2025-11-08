@@ -1,0 +1,89 @@
+_id: kZb2hQPpTZvUaN9l
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Crisis_of_Life
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Crisis of Life
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      damage:
+        parts:
+          - - 7d6
+            - untyped
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude partial; see text
+        type: fort
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>You&nbsp;interrupt&nbsp;the&nbsp;subject's&nbsp;autonomic&nbsp;heart&nbsp;rhythm,&nbsp;killing&nbsp;it&nbsp;instantly&nbsp;on&nbsp;a&nbsp;failed&nbsp;saving&nbsp;throw&nbsp;if&nbsp;it&nbsp;has&nbsp;11&nbsp;Hit&nbsp;Dice&nbsp;or&nbsp;less.&nbsp;If&nbsp;the&nbsp;target&nbsp;makes&nbsp;its&nbsp;saving&nbsp;throw&nbsp;or&nbsp;has&nbsp;more&nbsp;than&nbsp;11&nbsp;Hit&nbsp;Dice,&nbsp;it&nbsp;takes&nbsp;7d6&nbsp;points&nbsp;of&nbsp;damage.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;can&nbsp;kill&nbsp;a&nbsp;subject&nbsp;that&nbsp;has&nbsp;Hit&nbsp;Dice&nbsp;equal&nbsp;to&nbsp;11&nbsp;+&nbsp;the&nbsp;number&nbsp;of&nbsp;additional&nbsp;points.&nbsp;For&nbsp;every&nbsp;two&nbsp;additional&nbsp;points&nbsp;spent,&nbsp;the&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  descriptors:
+    - death
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      telepath: 7
+      vitalist: 7
+  level: 7
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '92'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '178'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '35'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!kZb2hQPpTZvUaN9l'

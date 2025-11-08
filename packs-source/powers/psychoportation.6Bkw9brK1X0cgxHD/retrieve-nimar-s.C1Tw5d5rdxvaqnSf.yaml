@@ -1,0 +1,88 @@
+_id: C1Tw5d5rdxvaqnSf
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Retrieve,_Nimar's
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Retrieve, Nimar's
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates; see text
+        type: will
+      target:
+        value: >-
+          One object you can hold or carry in one hand, weighing up to 10
+          lb./level
+  description:
+    value: >-
+      <p>You&nbsp;automatically&nbsp;teleport&nbsp;an&nbsp;item&nbsp;you&nbsp;can&nbsp;see&nbsp;within&nbsp;range&nbsp;directly&nbsp;to&nbsp;your&nbsp;hand.&nbsp;If&nbsp;the&nbsp;object&nbsp;is&nbsp;in&nbsp;the&nbsp;possession&nbsp;of&nbsp;an&nbsp;opponent,&nbsp;it&nbsp;comes&nbsp;to&nbsp;your&nbsp;hand&nbsp;if&nbsp;your&nbsp;opponent&nbsp;fails&nbsp;a&nbsp;Will&nbsp;save.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;the&nbsp;weight&nbsp;limit&nbsp;of&nbsp;the&nbsp;target&nbsp;increases&nbsp;by&nbsp;10&nbsp;pounds.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 5
+      psion: 6
+      voyager: 5
+      wilder: 6
+  level: 5
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '143'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '241'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '55'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  subdiscipline:
+    - teleportation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!C1Tw5d5rdxvaqnSf'

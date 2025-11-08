@@ -1,0 +1,90 @@
+_id: 2xJLOnP5L5juxec2
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Danger_Sense
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Danger Sense
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: hour
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;sense&nbsp;the&nbsp;presence&nbsp;of&nbsp;danger&nbsp;before&nbsp;your&nbsp;senses&nbsp;would&nbsp;normally&nbsp;allow&nbsp;it.&nbsp;Your&nbsp;intuitive&nbsp;sense&nbsp;alerts&nbsp;you&nbsp;to&nbsp;danger&nbsp;from&nbsp;traps,&nbsp;giving&nbsp;you&nbsp;a&nbsp;+4&nbsp;insight&nbsp;bonus&nbsp;on&nbsp;Reflex&nbsp;saves&nbsp;to&nbsp;avoid&nbsp;traps&nbsp;and&nbsp;a&nbsp;+4&nbsp;insight&nbsp;bonus&nbsp;to&nbsp;Armor&nbsp;Class&nbsp;against&nbsp;attacks&nbsp;by&nbsp;traps.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;3&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;also&nbsp;gives&nbsp;you&nbsp;the&nbsp;uncanny&nbsp;dodge&nbsp;ability;&nbsp;if&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;gives&nbsp;you&nbsp;the&nbsp;improved&nbsp;uncanny&nbsp;dodge&nbsp;ability&nbsp;as&nbsp;well.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
+  known: false
+  learnedAt:
+    class:
+      cryptic: 3
+      marksman: 3
+      psion: 3
+      psychic warrior: 3
+      sighted seeker: 3
+      tactician: 3
+      thug: 3
+      vitalist: 3
+      voyager: 3
+      wilder: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '92'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '179'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: ''
+      errata: ''
+      id: ''
+      pages: '35'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power
+_key: '!items!2xJLOnP5L5juxec2'
