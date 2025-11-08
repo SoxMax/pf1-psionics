@@ -819,7 +819,7 @@ async function scrapeAllClasses(systemURL = 'https://metzo.miraheze.org/wiki/Psi
   const rootDir = path.join(TOOLS_DIR, '..');
   const classStats = writeItemsWithDeduplication('classes', allClassItems, rootDir);
   const abilityStats = writeItemsWithDeduplication('class-abilities', allAbilities, rootDir, {
-    getSubdirectory: (item) => sluggify(item.system.associations.classes[0])
+    getSubdirectoryName: (item) => item.system.associations?.classes?.[0] || 'unknown'
   });
 
   console.log(`\nClasses: written=${classStats.written}, updated=${classStats.updated}, skipped=${classStats.skipped}, errors=${classStats.errors.length}`);
@@ -855,7 +855,7 @@ async function main() {
     const rootDir = path.join(TOOLS_DIR, '..');
     const classStats = writeItemsWithDeduplication('classes', [classItem], rootDir);
     const abilityStats = writeItemsWithDeduplication('class-abilities', abilities, rootDir, {
-      getSubdirectory: (item) => sluggify(item.system.associations.classes[0])
+      getSubdirectoryName: (item) => item.system.associations?.classes?.[0] || 'unknown'
     });
 
     console.log(`\nClasses: written=${classStats.written}, updated=${classStats.updated}, skipped=${classStats.skipped}`);
