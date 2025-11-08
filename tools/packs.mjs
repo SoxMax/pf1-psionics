@@ -276,13 +276,13 @@ async function extractPack(packName, options = {}) {
     transformName: (entry, { folder }) => {
       // Check if this is a folder document itself
       if (entry._key?.startsWith('!folders!')) {
-        // Place folder metadata inside the folder as _Folder.yml
+        // Place folder metadata inside the folder as _Folder.yaml
         const folderName = `${sluggify(entry.name)}.${entry._id}`;
-        return `${folderName}/_Folder.yml`;
+        return `${folderName}/_Folder.yaml`;
       }
 
       // Regular document
-      const filename = `${sluggify(entry.name)}.${entry._id}.yml`;
+      const filename = `${sluggify(entry.name)}.${entry._id}.yaml`;
       return folder ? `${folder}/${filename}` : filename;
     },
     transformFolderName: (entry) => {
