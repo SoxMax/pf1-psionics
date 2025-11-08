@@ -11,6 +11,12 @@
     "packs:extract:classes": "node ./tools/packs.mjs extract classes",
     "packs:extract:class-abilities": "node ./tools/packs.mjs extract class-abilities",
     "packs:compile": "node ./tools/packs.mjs compile",
+    "scrape:powers": "node ./tools/scrapers/powers-scraper.mjs",
+    "scrape:powers:single": "node ./tools/scrapers/powers-scraper.mjs",
+    "scrape:feats": "node ./tools/scrapers/feats-scraper.mjs",
+    "scrape:feats:single": "node ./tools/scrapers/feats-scraper.mjs",
+    "scrape:classes": "node ./tools/scrapers/classes-scraper.mjs",
+    "scrape:classes:single": "node ./tools/scrapers/classes-scraper.mjs",
     "lint": "eslint \"scripts/**/*.mjs\"",
     "lint:fix": "eslint \"scripts/**/*.mjs\" --fix"
   },
