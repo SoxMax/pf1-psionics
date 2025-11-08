@@ -776,7 +776,11 @@ async function main() {
   // Write as YAML files to packs-source/powers/ with deduplication
   const rootDir = join(TOOLS_DIR, '..');
   const stats = writeItemsWithDeduplication('powers', powers, rootDir, {
-    getSubdirectory: (power) => power.system.discipline || 'athanatism'
+    getSubdirectoryName: (power) => {
+      const discipline = power.system.discipline || 'athanatism';
+      // Capitalize first letter for display name
+      return discipline.charAt(0).toUpperCase() + discipline.slice(1);
+    }
   });
 
   console.log('');

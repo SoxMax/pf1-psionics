@@ -228,8 +228,8 @@ function findExistingItemFile(item, packsSourceDir) {
   const slug = sluggify(itemName);
   const files = fs.readdirSync(packsSourceDir);
 
-  // Look for files matching the pattern: slug.*.yaml
-  const regex = new RegExp(`^${slug}\\..*\\.yaml$`, 'i');
+  // Look for files matching the pattern: slug.*.(yaml|yml)
+  const regex = new RegExp(`^${slug}\\..*\\.(yaml|yml)$`, 'i');
   const matchingFiles = files.filter(file => regex.test(file));
 
   if (matchingFiles.length === 0) {
@@ -272,6 +272,72 @@ function findExistingItemFile(item, packsSourceDir) {
 }
 
 /**
+ * Find or create folder directory with name.id format
+ * @param {string} baseDir - Base directory (e.g., packs-source/powers)
+ * @param {string} folderName - Display name for the folder
+ * @param {string} type - Foundry document type (e.g., 'Item')
+ * @param {Set<string>} existingIds - Set of existing IDs to avoid collisions
+ * @returns {object} - { path: folder directory path, folderId: folder ID }
+ */
+function ensureFolderDirectory(baseDir, folderName, type, existingIds) {
+  const slug = sluggify(folderName);
+
+  // Check if a folder directory already exists with this name
+  if (fs.existsSync(baseDir)) {
+    const entries = fs.readdirSync(baseDir, { withFileTypes: true });
+    for (const entry of entries) {
+      if (entry.isDirectory() && entry.name.startsWith(`${slug}.`)) {
+        // Found existing folder directory - check for _Folder.yml
+        const folderPath = join(baseDir, entry.name);
+        const folderMetadataPath = join(folderPath, '_Folder.yaml');
+
+        if (fs.existsSync(folderMetadataPath)) {
+          try {
+            const content = fs.readFileSync(folderMetadataPath, 'utf8');
+            const folderData = yaml.load(content);
+            return { path: folderPath, folderId: folderData._id };
+          } catch (error) {
+            // If we can't read it, we'll continue to create new
+          }
+        }
+      }
+    }
+  }
+
+  // Create new folder
+  const folderId = generateFoundryId(existingIds);
+  existingIds.add(folderId);
+
+  const folderDirName = `${slug}.${folderId}`;
+  const folderPath = join(baseDir, folderDirName);
+
+  // Create directory
+  if (!fs.existsSync(folderPath)) {
+    fs.mkdirSync(folderPath, { recursive: true });
+  }
+
+  // Create _Folder.yml metadata
+  const folderData = {
+    _id: folderId,
+    name: folderName,
+    type: type,
+    sorting: 'a',
+    _key: `!folders!${folderId}`,
+    _stats: { coreVersion: '13.350' }
+  };
+
+  const yamlContent = yaml.dump(folderData, {
+    sortKeys: true,
+    lineWidth: -1
+  });
+
+  const folderMetadataPath = join(folderPath, '_Folder.yaml');
+  fs.writeFileSync(folderMetadataPath, yamlContent, 'utf8');
+
+  return { path: folderPath, folderId };
+}
+
+/**
  * Write items with deduplication (preserves existing IDs)
  *
  * This function handles writing items to YAML files with automatic deduplication:
@@ -301,16 +367,17 @@ export function writeItemsWithDeduplication(packName, items, rootDir, options = 
     errors: []
   };
 
-  // Collect existing IDs to prevent collisions (scan all subdirectories if needed)
+  // Collect existing IDs to prevent collisions (scan all subdirectories)
   const existingIds = new Set();
   if (fs.existsSync(basePacksDir)) {
     const scanDirectory = (dir) => {
       const items = fs.readdirSync(dir, { withFileTypes: true });
       for (const item of items) {
-        if (item.isDirectory() && options.getSubdirectory) {
+        if (item.isDirectory()) {
+          // Recursively scan subdirectories
           scanDirectory(join(dir, item.name));
-        } else if (item.name.endsWith('.yaml')) {
-          const match = item.name.match(/\.([a-zA-Z0-9]{16})\.yaml$/);
+        } else if (item.name.endsWith('.yaml') || item.name.endsWith('.yml')) {
+          const match = item.name.match(/\.([a-zA-Z0-9]{16})\.(yaml|yml)$/);
           if (match) {
             existingIds.add(match[1]);
           }
@@ -324,14 +391,13 @@ export function writeItemsWithDeduplication(packName, items, rootDir, options = 
     try {
       // Determine target directory (with optional subdirectory)
       let targetDir = basePacksDir;
-      if (options.getSubdirectory) {
-        const subdir = options.getSubdirectory(item);
-        targetDir = join(basePacksDir, subdir);
+      let folderId = null;
 
-        // Ensure subdirectory exists
-        if (!fs.existsSync(targetDir)) {
-          fs.mkdirSync(targetDir, { recursive: true });
-        }
+      if (options.getSubdirectoryName) {
+        const folderName = options.getSubdirectoryName(item);
+        const folderInfo = ensureFolderDirectory(basePacksDir, folderName, 'Item', existingIds);
+        targetDir = folderInfo.path;
+        folderId = folderInfo.folderId;
       }
 
       // Check if a YAML file already exists for this item
@@ -346,8 +412,8 @@ export function writeItemsWithDeduplication(packName, items, rootDir, options = 
         item._id = existingItem._id;
         stats.updated++;
 
-        const displayPath = options.getSubdirectory
-          ? `${item.name} (${options.getSubdirectory(item)})`
+        const displayPath = options.getSubdirectoryName
+          ? `${item.name} (${options.getSubdirectoryName(item)})`
           : item.name;
         console.log(`  📝 Updating: ${displayPath}`);
       } else {
@@ -356,8 +422,8 @@ export function writeItemsWithDeduplication(packName, items, rootDir, options = 
         existingIds.add(item._id);
         stats.written++;
 
-        const displayPath = options.getSubdirectory
-          ? `${item.name} (${options.getSubdirectory(item)})`
+        const displayPath = options.getSubdirectoryName
+          ? `${item.name} (${options.getSubdirectoryName(item)})`
           : item.name;
         console.log(`  ✨ Creating: ${displayPath}`);
       }
@@ -366,7 +432,12 @@ export function writeItemsWithDeduplication(packName, items, rootDir, options = 
       item._key = `!items!${item._id}`;
       item._stats = { coreVersion: '13.350' };
 
-      // Write YAML file
+      // Set folder reference if item is in a subdirectory
+      if (folderId) {
+        item.folder = folderId;
+      }
+
+      // Write YAML file with .yaml extension
       const slug = sluggify(item.name);
       const filename = `${slug}.${item._id}.yaml`;
       const filepath = join(targetDir, filename);
