@@ -185,56 +185,6 @@ function sanitizePackEntry(entry, documentType = "", { childDocument = false } =
   return entry;
 }
 
-/**
- * Get folder name for a power based on its discipline
- */
-function getFolderForPower(power) {
-  const discipline = power.system?.discipline;
-  if (!discipline) return null;
-
-  // Map discipline to folder name
-  const disciplineMap = {
-    "ath": "athanatism",
-    "clr": "clairsentience",
-    "met": "metacreativity",
-    "pki": "psychokinesis",
-    "pmb": "psychometabolism",
-    "ppo": "psychoportation",
-    "tel": "telepathy"
-  };
-
-  return disciplineMap[discipline] || null;
-}
-
-/**
- * Get folder name for item based on its type.
- * Returns null for items that should not be organized into folders.
- */
-function getFolderForItem(entry) {
-  // For powers, organize by discipline
-  if (entry.type === "pf1-psionics.power") {
-    return getFolderForPower(entry);
-  }
-
-  // Classes don't need subfolders - keep them flat
-  if (entry.type === "class") {
-    return null;
-  }
-
-  // For class abilities (feats with classFeat subtype), don't programmatically create folders.
-  // The folder structure from the source YAML files (organized by class) is preserved
-  // during both compilation and extraction via the `folders: true` option.
-  if (entry.type === "feat" && entry.system?.subType === "classFeat") {
-    return null;
-  }
-
-  // For other feats (psionic, metapsionic), don't create folders
-  if (entry.type === "feat") {
-    return null;
-  }
-
-  return null;
-}
 
 /**
  * Extract packs from LevelDB to YAML
@@ -313,75 +263,53 @@ async function extractPack(packName, options = {}) {
   // Track files before extraction
   const filesBefore = new Set();
   if (fs.existsSync(sourcePath)) {
-    const existing = fs.globSync(path.join(sourcePath, "**/*.yaml"));
-    existing.forEach((f) => filesBefore.add(normalizePath(f)));
+    const yamlFiles = fs.globSync(path.join(sourcePath, "**/*.yaml"));
+    const ymlFiles = fs.globSync(path.join(sourcePath, "**/*.yml"));
+    [...yamlFiles, ...ymlFiles].forEach((f) => filesBefore.add(normalizePath(f)));
   }
 
-  const touchedFiles = new Set();
-
-  // Extract using Foundry CLI
+  // Extract using Foundry CLI with folder structure preserved
   await fvtt.extractPack(distPath, sourcePath, {
     transformEntry: (entry) => {
       return sanitizePackEntry(entry, "Item");
     },
     transformName: (entry, { folder }) => {
-      // Determine folder for file organization:
-      // 1. For class abilities (feats with classFeat subtype), organize by class name
-      // 2. For powers, organize by discipline (via getFolderForItem)
-      // 3. For items with Foundry UI folders, use the folder name
-      let finalFolder;
-
-      if (entry.type === "feat" && entry.system?.subType === "classFeat") {
-        // Organize class abilities by their associated class
-        const className = entry.system?.associations?.classes?.[0];
-        if (className) {
-          finalFolder = sluggify(className);
-        }
-      } else {
-        // Use Foundry folder or programmatic folder (e.g., for powers)
-        finalFolder = folder || getFolderForItem(entry);
+      // Check if this is a folder document itself
+      if (entry._key?.startsWith('!folders!')) {
+        // Place folder metadata inside the folder as _Folder.yml
+        const folderName = `${sluggify(entry.name)}.${entry._id}`;
+        return `${folderName}/_Folder.yml`;
       }
 
-      const filename = `${sluggify(entry.name)}.${entry._id}.yaml`;
-
-      // Track touched file
-      let fullPath;
-      if (finalFolder) {
-        fullPath = normalizePath(path.join(sourcePath, finalFolder, filename));
-        touchedFiles.add(fullPath);
-        return path.join(finalFolder, filename);
-      } else {
-        fullPath = normalizePath(path.join(sourcePath, filename));
-        touchedFiles.add(fullPath);
-        return filename;
-      }
+      // Regular document
+      const filename = `${sluggify(entry.name)}.${entry._id}.yml`;
+      return folder ? `${folder}/${filename}` : filename;
     },
     transformFolderName: (entry) => {
-      return sluggify(entry.name);
+      return `${sluggify(entry.name)}.${entry._id}`;
     },
     folders: true,
     yaml: true,
-    yamlOptions: {
-      sortKeys: true,
-    },
+    omitVolatile: true,
   });
 
   // Find files after extraction
   const filesAfter = [];
   if (fs.existsSync(sourcePath)) {
-    const existing = fs.globSync(path.join(sourcePath, "**/*.yaml"));
-    existing.forEach((f) => filesAfter.push(normalizePath(f)));
+    const yamlFiles = fs.globSync(path.join(sourcePath, "**/*.yaml"));
+    const ymlFiles = fs.globSync(path.join(sourcePath, "**/*.yml"));
+    [...yamlFiles, ...ymlFiles].forEach((f) => filesAfter.push(normalizePath(f)));
   }
 
   // Determine added and removed files
   const addedFiles = filesAfter.filter((f) => !filesBefore.has(f));
-  const removedFiles = [...filesBefore].filter((f) => !touchedFiles.has(f));
+  const removedFiles = [...filesBefore].filter((f) => !filesAfter.includes(f));
 
   // Remove files if reset option is set
   if (options.reset && removedFiles.length > 0) {
     await Promise.all(
       removedFiles.map((f) => {
-        if (f.endsWith(".yaml")) return fsp.unlink(f).catch(() => {});
+        if (f.endsWith(".yaml") || f.endsWith(".yml")) return fsp.unlink(f).catch(() => {});
       })
     );
   }
@@ -443,7 +371,7 @@ async function compilePack(name) {
   // Compile using Foundry CLI
   await fvtt.compilePack(sourcePath, distPath, {
     recursive: true,
-    yaml: true
+    yaml: true,
   });
 }
 
