@@ -2,7 +2,7 @@ _id: 7gz4W01En9UwEPzV
 _stats:
   coreVersion: '13.350'
 folder: 3nTUlQKGd4eDVPqX
-img: systems/pf1/icons/feats/skill-focus.jpg
+img: icons/magic/symbols/runes-star-magenta.webp
 name: Defensive Shot
 system:
   abilityType: ex
@@ -10,9 +10,8 @@ system:
     classes:
       - Marksman
   description:
-    value: >-
+    value: |-
       <p><b>Defensive&nbsp;Shot:</b>At&nbsp;13th&nbsp;level,&nbsp;a&nbsp;Marksman&nbsp;no&nbsp;longer&nbsp;provokes&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;when&nbsp;making&nbsp;ranged&nbsp;attacks&nbsp;with&nbsp;a&nbsp;ranged&nbsp;or&nbsp;thrown&nbsp;weapon.
-
       </p><p></p>
   sources:
     - date: '2012-07-23'

@@ -608,7 +608,7 @@ function buildClassAbility(name, level, className, description, sources = []) {
     _stats: {
       coreVersion: '13.350'
     },
-    img: 'systems/pf1/icons/feats/skill-focus.jpg',
+    img: 'icons/magic/symbols/runes-star-magenta.webp',
     name: name,
     type: 'feat',
     system: {
@@ -701,7 +701,7 @@ function buildClassItem(classData, abilities, featureLevels) {
     _stats: {
       coreVersion: '13.350'
     },
-    img: 'systems/pf1/icons/items/inventory/brain-purple.png',
+    img: 'icons/magic/perception/third-eye-blue-red.webp',
     name: classData.name,
     type: 'class',
     system: system

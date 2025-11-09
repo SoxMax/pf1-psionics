@@ -2,7 +2,7 @@ _id: 92BrkWRomKMIKrpg
 _stats:
   coreVersion: '13.350'
 folder: L0vW1FntHTBcf2PV
-img: systems/pf1/icons/feats/skill-focus.jpg
+img: icons/magic/symbols/runes-star-magenta.webp
 name: Expanded Path
 system:
   abilityType: ex
@@ -10,9 +10,8 @@ system:
     classes:
       - Psychic Warrior
   description:
-    value: >-
+    value: |-
       <p><b>Expanded&nbsp;Path:</b>At&nbsp;3rd&nbsp;level,&nbsp;the&nbsp;psychic&nbsp;warrior&nbsp;expands&nbsp;his&nbsp;understanding&nbsp;of&nbsp;his&nbsp;chosen&nbsp;path.&nbsp;From&nbsp;this&nbsp;point&nbsp;on,&nbsp;he&nbsp;can&nbsp;use&nbsp;the&nbsp;trance&nbsp;and&nbsp;maneuver&nbsp;associated&nbsp;with&nbsp;his&nbsp;chosen&nbsp;path.
-
       </p><p></p>
   sources:
     - date: '2010-08-01'

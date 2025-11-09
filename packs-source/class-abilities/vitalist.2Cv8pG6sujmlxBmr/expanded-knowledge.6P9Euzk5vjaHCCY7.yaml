@@ -2,7 +2,7 @@ _id: 6P9Euzk5vjaHCCY7
 _stats:
   coreVersion: '13.350'
 folder: 2Cv8pG6sujmlxBmr
-img: systems/pf1/icons/feats/skill-focus.jpg
+img: icons/magic/symbols/runes-star-magenta.webp
 name: Expanded Knowledge
 system:
   abilityType: ex
@@ -10,9 +10,8 @@ system:
     classes:
       - Vitalist
   description:
-    value: >-
+    value: |-
       <p><b>Expanded&nbsp;Knowledge:</b>Skilled&nbsp;vitalists&nbsp;understand&nbsp;that&nbsp;there&nbsp;is&nbsp;merit&nbsp;in&nbsp;expanding&nbsp;their&nbsp;arsenal.&nbsp;At&nbsp;9th&nbsp;level,&nbsp;a&nbsp;vitalist&nbsp;gains&nbsp;<a&nbsp;href="/wiki/Expanded_Knowledge"&nbsp;title="Expanded&nbsp;Knowledge">Expanded&nbsp;Knowledge</a>&nbsp;as&nbsp;a&nbsp;bonus&nbsp;feat.&nbsp;He&nbsp;gains&nbsp;this&nbsp;feat&nbsp;again&nbsp;at&nbsp;18th&nbsp;level.
-
       </p><p></p>
   sources:
     - date: '2012-07-23'

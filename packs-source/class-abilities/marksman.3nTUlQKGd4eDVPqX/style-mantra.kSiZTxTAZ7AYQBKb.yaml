@@ -2,7 +2,7 @@ _id: kSiZTxTAZ7AYQBKb
 _stats:
   coreVersion: '13.350'
 folder: 3nTUlQKGd4eDVPqX
-img: systems/pf1/icons/feats/skill-focus.jpg
+img: icons/magic/symbols/runes-star-magenta.webp
 name: Style Mantra
 system:
   abilityType: ex
@@ -10,9 +10,8 @@ system:
     classes:
       - Marksman
   description:
-    value: >-
+    value: |-
       <p><b>Style&nbsp;Mantra:</b>At&nbsp;3rd&nbsp;level,&nbsp;a&nbsp;Marksman&nbsp;gains&nbsp;a&nbsp;mantra&nbsp;associated&nbsp;with&nbsp;her&nbsp;combat&nbsp;style&nbsp;that&nbsp;is&nbsp;active&nbsp;as&nbsp;long&nbsp;as&nbsp;she&nbsp;maintains&nbsp;psionic&nbsp;focus.&nbsp;A&nbsp;Marksman&nbsp;may&nbsp;not&nbsp;use&nbsp;her&nbsp;style&nbsp;mantra&nbsp;at&nbsp;the&nbsp;same&nbsp;time&nbsp;she&nbsp;uses&nbsp;Wind&nbsp;Reader;&nbsp;she&nbsp;may&nbsp;only&nbsp;gain&nbsp;the&nbsp;benefit&nbsp;of&nbsp;one&nbsp;or&nbsp;the&nbsp;other,&nbsp;not&nbsp;both.
-
       </p><p></p>
   sources:
     - date: '2012-07-23'

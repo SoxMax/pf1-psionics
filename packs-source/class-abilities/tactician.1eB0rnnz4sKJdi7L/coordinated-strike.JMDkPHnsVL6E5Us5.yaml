@@ -2,7 +2,7 @@ _id: JMDkPHnsVL6E5Us5
 _stats:
   coreVersion: '13.350'
 folder: 1eB0rnnz4sKJdi7L
-img: systems/pf1/icons/feats/skill-focus.jpg
+img: icons/magic/symbols/runes-star-magenta.webp
 name: Coordinated Strike
 system:
   abilityType: ex
@@ -10,11 +10,9 @@ system:
     classes:
       - Tactician
   description:
-    value: >-
+    value: |-
       <p><b>Coordinated&nbsp;Strike:</b>The&nbsp;tacician&nbsp;is&nbsp;able&nbsp;to&nbsp;direct&nbsp;his&nbsp;allies&nbsp;to&nbsp;coordinating&nbsp;their&nbsp;attacks&nbsp;upon&nbsp;a&nbsp;single&nbsp;target&nbsp;to&nbsp;devastating&nbsp;effect.&nbsp;As&nbsp;a&nbsp;swift&nbsp;action,&nbsp;the&nbsp;tactician&nbsp;can&nbsp;declare&nbsp;one&nbsp;target&nbsp;within&nbsp;his&nbsp;line&nbsp;of&nbsp;sight&nbsp;as&nbsp;the&nbsp;primary&nbsp;foe.&nbsp;All&nbsp;members&nbsp;of&nbsp;the&nbsp;tactician's&nbsp;collective,&nbsp;including&nbsp;the&nbsp;tactician&nbsp;himself&nbsp;gain&nbsp;a&nbsp;+1&nbsp;insight&nbsp;bonus&nbsp;to&nbsp;attacks&nbsp;against&nbsp;the&nbsp;primary&nbsp;foe&nbsp;until&nbsp;the&nbsp;beginning&nbsp;of&nbsp;the&nbsp;tactician's&nbsp;next&nbsp;turn.&nbsp;At&nbsp;5th&nbsp;level&nbsp;and&nbsp;every&nbsp;four&nbsp;levels&nbsp;thereafter,&nbsp;this&nbsp;bonus&nbsp;increases&nbsp;by&nbsp;1.
-
       </p><p>This&nbsp;ability&nbsp;may&nbsp;be&nbsp;used&nbsp;a&nbsp;number&nbsp;of&nbsp;times&nbsp;per&nbsp;day&nbsp;equal&nbsp;to&nbsp;3&nbsp;+&nbsp;the&nbsp;tacticians&nbsp;Intelligence&nbsp;modifier.
-
       </p><p></p>
   sources:
     - date: '2012-07-23'

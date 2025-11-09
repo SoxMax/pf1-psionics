@@ -2,7 +2,7 @@ _id: 8SHlny117AKf3p4X
 _stats:
   coreVersion: '13.350'
 folder: 8GrwKZgR1JXaU7Be
-img: systems/pf1/icons/feats/skill-focus.jpg
+img: icons/magic/symbols/runes-star-magenta.webp
 name: Blade Skills
 system:
   abilityType: ex
@@ -10,11 +10,9 @@ system:
     classes:
       - Soulknife
   description:
-    value: >-
+    value: |-
       <p><b>Blade&nbsp;Skills:</b>Beginning&nbsp;at&nbsp;2nd&nbsp;level&nbsp;and&nbsp;every&nbsp;even&nbsp;soulknife&nbsp;level&nbsp;thereafter,&nbsp;a&nbsp;soulknife&nbsp;may&nbsp;choose&nbsp;one&nbsp;of&nbsp;a&nbsp;number&nbsp;of&nbsp;abilities&nbsp;to&nbsp;add&nbsp;to&nbsp;her&nbsp;repertoire.&nbsp;Some&nbsp;blade&nbsp;skills&nbsp;have&nbsp;prerequisites&nbsp;that&nbsp;must&nbsp;be&nbsp;met&nbsp;before&nbsp;they&nbsp;can&nbsp;be&nbsp;chosen.&nbsp;All&nbsp;blade&nbsp;skills&nbsp;may&nbsp;only&nbsp;be&nbsp;chosen&nbsp;once&nbsp;and&nbsp;require&nbsp;the&nbsp;soulknife&nbsp;to&nbsp;be&nbsp;using&nbsp;her&nbsp;mind&nbsp;blade&nbsp;unless&nbsp;otherwise&nbsp;stated&nbsp;in&nbsp;the&nbsp;skill's&nbsp;description.
-
       </p>
-
       <dl><dd><div&nbsp;class="va-hatnote-text"><i></p>
   sources:
     - date: '2010-08-01'

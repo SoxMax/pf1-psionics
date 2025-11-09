@@ -2,7 +2,7 @@ _id: UYVn0EWdxc1VLk6b
 _stats:
   coreVersion: '13.350'
 folder: yxB21JRuF0fTjL6O
-img: systems/pf1/icons/feats/skill-focus.jpg
+img: icons/magic/symbols/runes-star-magenta.webp
 name: Rapid Defense
 system:
   abilityType: ex
@@ -10,9 +10,8 @@ system:
     classes:
       - Cryptic
   description:
-    value: >-
+    value: |-
       <p><b>Rapid&nbsp;Defense:</b>Starting&nbsp;at&nbsp;4th&nbsp;level,&nbsp;a&nbsp;cryptic&nbsp;can&nbsp;use&nbsp;her&nbsp;altered&nbsp;defense&nbsp;ability&nbsp;as&nbsp;a&nbsp;free&nbsp;action&nbsp;by&nbsp;expending&nbsp;her&nbsp;psionic&nbsp;focus.&nbsp;The&nbsp;cryptic&nbsp;may&nbsp;even&nbsp;do&nbsp;this&nbsp;when&nbsp;it&nbsp;is&nbsp;not&nbsp;her&nbsp;turn.
-
       </p><p></p>
   sources:
     - date: '2012-07-23'

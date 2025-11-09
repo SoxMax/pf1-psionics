@@ -2,7 +2,7 @@ _id: vex5zB9t1i7cZaia
 _stats:
   coreVersion: '13.350'
 folder: pBiB2BsHL0SvoKHh
-img: systems/pf1/icons/feats/skill-focus.jpg
+img: icons/magic/symbols/runes-star-magenta.webp
 name: Talents
 system:
   abilityType: ex
@@ -10,9 +10,8 @@ system:
     classes:
       - Psion
   description:
-    value: >-
+    value: |-
       <p><b>Talents:</b>Each&nbsp;psion&nbsp;gains&nbsp;three&nbsp;0&nbsp;level&nbsp;talents&nbsp;of&nbsp;their&nbsp;choice,&nbsp;as&nbsp;well&nbsp;as&nbsp;<i><a&nbsp;href="/wiki/Detect_Psionics"&nbsp;title="Detect&nbsp;Psionics">detect&nbsp;psionics</a></i>.&nbsp;These&nbsp;talents&nbsp;do&nbsp;not&nbsp;count&nbsp;against&nbsp;the&nbsp;psion's&nbsp;powers&nbsp;known.
-
       </p><p></p>
   sources:
     - date: '2010-08-01'

@@ -2,7 +2,7 @@ _id: DCaBVimDZB8tgD3A
 _stats:
   coreVersion: '13.350'
 folder: yxB21JRuF0fTjL6O
-img: systems/pf1/icons/feats/skill-focus.jpg
+img: icons/magic/symbols/runes-star-magenta.webp
 name: Evasion
 system:
   abilityType: ex
@@ -10,9 +10,8 @@ system:
     classes:
       - Cryptic
   description:
-    value: >-
+    value: |-
       <p><b>Evasion:</b>At&nbsp;3rd&nbsp;level&nbsp;and&nbsp;higher,&nbsp;a&nbsp;cryptic&nbsp;can&nbsp;avoid&nbsp;even&nbsp;magical&nbsp;and&nbsp;unusual&nbsp;attacks&nbsp;with&nbsp;great&nbsp;agility.&nbsp;If&nbsp;she&nbsp;makes&nbsp;a&nbsp;successful&nbsp;Reflex&nbsp;saving&nbsp;throw&nbsp;against&nbsp;an&nbsp;attack&nbsp;that&nbsp;normally&nbsp;deals&nbsp;half&nbsp;damage&nbsp;on&nbsp;a&nbsp;successful&nbsp;save,&nbsp;she&nbsp;instead&nbsp;takes&nbsp;no&nbsp;damage.&nbsp;Evasion&nbsp;can&nbsp;be&nbsp;used&nbsp;only&nbsp;if&nbsp;the&nbsp;cryptic&nbsp;is&nbsp;wearing&nbsp;light&nbsp;armor&nbsp;or&nbsp;no&nbsp;armor.&nbsp;A&nbsp;helpless&nbsp;cryptic&nbsp;does&nbsp;not&nbsp;gain&nbsp;the&nbsp;benefit&nbsp;of&nbsp;evasion.
-
       </p><p></p>
   sources:
     - date: '2012-07-23'

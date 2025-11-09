@@ -2,7 +2,7 @@ _id: kmMtzhM3KM8V4Y2N
 _stats:
   coreVersion: '13.350'
 folder: WRrSVxfPrcveDL6q
-img: systems/pf1/icons/feats/skill-focus.jpg
+img: icons/magic/symbols/runes-star-magenta.webp
 name: Immersed in Fear
 system:
   abilityType: ex
@@ -10,9 +10,8 @@ system:
     classes:
       - Dread
   description:
-    value: >-
+    value: |-
       <p><b>Immersed&nbsp;in&nbsp;Fear:</b>At&nbsp;7th&nbsp;level,&nbsp;the&nbsp;dread&nbsp;gains&nbsp;immunity&nbsp;to&nbsp;fear&nbsp;(psionic&nbsp;or&nbsp;otherwise).&nbsp;This&nbsp;ability&nbsp;functions&nbsp;whether&nbsp;the&nbsp;dread&nbsp;is&nbsp;conscious&nbsp;or&nbsp;unconscious,&nbsp;but&nbsp;not&nbsp;when&nbsp;she&nbsp;is&nbsp;dead.
-
       </p><p></p>
   sources:
     - date: '2012-07-23'

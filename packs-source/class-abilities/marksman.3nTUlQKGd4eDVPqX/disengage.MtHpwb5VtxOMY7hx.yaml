@@ -2,7 +2,7 @@ _id: MtHpwb5VtxOMY7hx
 _stats:
   coreVersion: '13.350'
 folder: 3nTUlQKGd4eDVPqX
-img: systems/pf1/icons/feats/skill-focus.jpg
+img: icons/magic/symbols/runes-star-magenta.webp
 name: Disengage
 system:
   abilityType: ex
@@ -10,9 +10,8 @@ system:
     classes:
       - Marksman
   description:
-    value: >-
+    value: |-
       <p><b>Disengage:</b>Once&nbsp;a&nbsp;Marksman&nbsp;has&nbsp;reached&nbsp;7th&nbsp;level,&nbsp;she&nbsp;learns&nbsp;how&nbsp;to&nbsp;effectively&nbsp;distance&nbsp;herself&nbsp;from&nbsp;enemies.&nbsp;When&nbsp;the&nbsp;Marksman&nbsp;would&nbsp;provoke&nbsp;an&nbsp;attack&nbsp;of&nbsp;opportunity&nbsp;for&nbsp;moving&nbsp;out&nbsp;of&nbsp;a&nbsp;threatened&nbsp;space,&nbsp;she&nbsp;may&nbsp;expend&nbsp;her&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;add&nbsp;her&nbsp;Wisdom&nbsp;modifier&nbsp;to&nbsp;her&nbsp;Acrobatics&nbsp;rolls&nbsp;to&nbsp;avoid&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;for&nbsp;the&nbsp;round&nbsp;and&nbsp;can&nbsp;move&nbsp;at&nbsp;full&nbsp;speed&nbsp;without&nbsp;increasing&nbsp;the&nbsp;Acrobatics&nbsp;DC.
-
       </p><p></p>
   sources:
     - date: '2012-07-23'

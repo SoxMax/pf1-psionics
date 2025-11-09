@@ -2,7 +2,7 @@ _id: 1o2mdgD8nAdv3xpY
 _stats:
   coreVersion: '13.350'
 folder: L0vW1FntHTBcf2PV
-img: systems/pf1/icons/feats/skill-focus.jpg
+img: icons/magic/symbols/runes-star-magenta.webp
 name: Pathweaving
 system:
   abilityType: ex
@@ -10,11 +10,9 @@ system:
     classes:
       - Psychic Warrior
   description:
-    value: >-
+    value: |-
       <p><b>Pathweaving:</b>At&nbsp;15th&nbsp;level,&nbsp;as&nbsp;long&nbsp;as&nbsp;the&nbsp;psychic&nbsp;warrior&nbsp;maintains&nbsp;psionic&nbsp;focus,&nbsp;once&nbsp;per&nbsp;day&nbsp;he&nbsp;can&nbsp;gain&nbsp;the&nbsp;benefits&nbsp;of&nbsp;both&nbsp;of&nbsp;his&nbsp;trances&nbsp;for&nbsp;up&nbsp;to&nbsp;5&nbsp;minutes.&nbsp;Activating&nbsp;this&nbsp;ability&nbsp;is&nbsp;a&nbsp;free&nbsp;action.
-
       </p><p>Every&nbsp;third&nbsp;level&nbsp;thereafter,&nbsp;the&nbsp;psychic&nbsp;warrior&nbsp;can&nbsp;use&nbsp;this&nbsp;ability&nbsp;an&nbsp;additional&nbsp;time&nbsp;per&nbsp;day.
-
       </p><p></p>
   sources:
     - date: '2010-08-01'

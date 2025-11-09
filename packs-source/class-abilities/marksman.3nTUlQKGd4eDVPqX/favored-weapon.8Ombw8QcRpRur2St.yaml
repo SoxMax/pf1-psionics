@@ -2,7 +2,7 @@ _id: 8Ombw8QcRpRur2St
 _stats:
   coreVersion: '13.350'
 folder: 3nTUlQKGd4eDVPqX
-img: systems/pf1/icons/feats/skill-focus.jpg
+img: icons/magic/symbols/runes-star-magenta.webp
 name: Favored Weapon
 system:
   abilityType: ex
@@ -10,21 +10,14 @@ system:
     classes:
       - Marksman
   description:
-    value: >-
+    value: |-
       <p><b>Favored&nbsp;Weapon:</b>Marksmen&nbsp;of&nbsp;2nd&nbsp;level&nbsp;select&nbsp;a&nbsp;group&nbsp;of&nbsp;ranged&nbsp;weapons&nbsp;from&nbsp;the&nbsp;list&nbsp;below&nbsp;as&nbsp;their&nbsp;preferred&nbsp;weapons&nbsp;and&nbsp;gain&nbsp;a&nbsp;+1&nbsp;competence&nbsp;bonus&nbsp;to&nbsp;ranged&nbsp;attack&nbsp;rolls&nbsp;made&nbsp;with&nbsp;any&nbsp;weapon&nbsp;of&nbsp;that&nbsp;group.&nbsp;Every&nbsp;four&nbsp;Marksman&nbsp;levels&nbsp;thereafter,&nbsp;this&nbsp;bonus&nbsp;increases&nbsp;by&nbsp;1.
-
       </p>
-
       <ul><li><i>Bows:</i>&nbsp;composite&nbsp;longbow,&nbsp;composite&nbsp;shortbow,&nbsp;orc&nbsp;hornbow,&nbsp;longbow,&nbsp;and&nbsp;shortbow.</li>
-
       <li><i>Crossbows:</i>&nbsp;double&nbsp;crossbow,&nbsp;hand&nbsp;crossbow,&nbsp;heavy&nbsp;crossbow,&nbsp;light&nbsp;crossbow,&nbsp;repeating&nbsp;heavy&nbsp;crossbow,&nbsp;and&nbsp;repeating&nbsp;light&nbsp;crossbow.</li>
-
       <li><i>Spears:</i>&nbsp;javelin,&nbsp;lance,&nbsp;pilum,&nbsp;shortspear,&nbsp;spear,&nbsp;and&nbsp;trident.</li>
-
       <li><i>Thrown:</i>&nbsp;blowgun,&nbsp;bolas,&nbsp;boomerang,&nbsp;chakram,&nbsp;club,&nbsp;dagger,&nbsp;dart,&nbsp;halfling&nbsp;sling&nbsp;staff,&nbsp;javelin,&nbsp;light&nbsp;hammer,&nbsp;net,&nbsp;shortspear,&nbsp;shuriken,&nbsp;sling,&nbsp;spear,&nbsp;starknife,&nbsp;throwing&nbsp;axe,&nbsp;trident,&nbsp;wooden&nbsp;stake.</li></ul>
-
       <p>Note:&nbsp;Additional&nbsp;weapons&nbsp;can&nbsp;be&nbsp;added&nbsp;to&nbsp;these&nbsp;groups&nbsp;or&nbsp;additional&nbsp;weapon&nbsp;groups&nbsp;can&nbsp;be&nbsp;created&nbsp;at&nbsp;your&nbsp;GM's&nbsp;discretion.&nbsp;Some&nbsp;weapons&nbsp;may&nbsp;belong&nbsp;to&nbsp;multiple&nbsp;weapon&nbsp;groups&nbsp;at&nbsp;your&nbsp;GM's&nbsp;discretion.
-
       </p><p></p>
   sources:
     - date: '2012-07-23'

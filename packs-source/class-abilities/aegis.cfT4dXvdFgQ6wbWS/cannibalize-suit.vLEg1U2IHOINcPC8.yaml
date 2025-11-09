@@ -2,7 +2,7 @@ _id: vLEg1U2IHOINcPC8
 _stats:
   coreVersion: '13.350'
 folder: cfT4dXvdFgQ6wbWS
-img: systems/pf1/icons/feats/skill-focus.jpg
+img: icons/magic/symbols/runes-star-magenta.webp
 name: Cannibalize Suit
 system:
   abilityType: ex
@@ -10,9 +10,8 @@ system:
     classes:
       - Aegis
   description:
-    value: >-
+    value: |-
       <p><b>Cannibalize&nbsp;Suit:</b>Starting&nbsp;at&nbsp;12th&nbsp;level,&nbsp;an&nbsp;aegis&nbsp;learns&nbsp;to&nbsp;convert&nbsp;the&nbsp;psionic&nbsp;energy&nbsp;used&nbsp;to&nbsp;create&nbsp;his&nbsp;suit&nbsp;into&nbsp;healing&nbsp;power.&nbsp;Once&nbsp;per&nbsp;day&nbsp;as&nbsp;a&nbsp;standard&nbsp;action,&nbsp;he&nbsp;can&nbsp;dismiss&nbsp;his&nbsp;astral&nbsp;suit&nbsp;and&nbsp;heal&nbsp;a&nbsp;number&nbsp;of&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;his&nbsp;customization&nbsp;pool.&nbsp;The&nbsp;aegis&nbsp;cannot&nbsp;reform&nbsp;his&nbsp;suit&nbsp;again&nbsp;for&nbsp;one&nbsp;minute&nbsp;after&nbsp;using&nbsp;this&nbsp;ability.&nbsp;Every&nbsp;two&nbsp;levels&nbsp;thereafter,&nbsp;the&nbsp;aegis&nbsp;can&nbsp;use&nbsp;this&nbsp;ability&nbsp;an&nbsp;additional&nbsp;time&nbsp;per&nbsp;day.&nbsp;Additional&nbsp;customization&nbsp;points&nbsp;gained&nbsp;from&nbsp;Augment&nbsp;Suit&nbsp;are&nbsp;not&nbsp;counted&nbsp;for&nbsp;this&nbsp;ability.
-
       </p><p></p>
   sources:
     - date: '2012-07-23'

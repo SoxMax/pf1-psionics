@@ -2,7 +2,7 @@ _id: c0jAirjYfDDZxldq
 _stats:
   coreVersion: '13.350'
 folder: 2Cv8pG6sujmlxBmr
-img: systems/pf1/icons/feats/skill-focus.jpg
+img: icons/magic/symbols/runes-star-magenta.webp
 name: Spirit of Many
 system:
   abilityType: ex
@@ -10,11 +10,9 @@ system:
     classes:
       - Vitalist
   description:
-    value: >-
+    value: |-
       <p><b>Spirit&nbsp;of&nbsp;Many:</b>A&nbsp;vitalist&nbsp;of&nbsp;2nd&nbsp;level&nbsp;gains&nbsp;special&nbsp;abilities&nbsp;when&nbsp;manifesting&nbsp;powers&nbsp;with&nbsp;the&nbsp;Network&nbsp;descriptor.&nbsp;He&nbsp;can&nbsp;manifest&nbsp;these&nbsp;powers&nbsp;on&nbsp;any&nbsp;member&nbsp;of&nbsp;his&nbsp;collective,&nbsp;even&nbsp;if&nbsp;they&nbsp;are&nbsp;out&nbsp;of&nbsp;the&nbsp;power's&nbsp;range&nbsp;or&nbsp;would&nbsp;normally&nbsp;be&nbsp;immune&nbsp;to&nbsp;the&nbsp;power.&nbsp;Whenever&nbsp;a&nbsp;vitalist&nbsp;manifests&nbsp;a&nbsp;power&nbsp;with&nbsp;the&nbsp;Network&nbsp;descriptor&nbsp;targeting&nbsp;only&nbsp;members&nbsp;of&nbsp;his&nbsp;collective,&nbsp;the&nbsp;power&nbsp;loses&nbsp;the&nbsp;mind-affecting&nbsp;descriptor&nbsp;(if&nbsp;it&nbsp;had&nbsp;it)&nbsp;and&nbsp;bypasses&nbsp;any&nbsp;power&nbsp;resistance,&nbsp;although&nbsp;it&nbsp;still&nbsp;provokes&nbsp;an&nbsp;attack&nbsp;of&nbsp;opportunity&nbsp;to&nbsp;manifest&nbsp;as&nbsp;normal.&nbsp;Network&nbsp;powers&nbsp;manifest&nbsp;only&nbsp;on&nbsp;members&nbsp;of&nbsp;the&nbsp;collective&nbsp;never&nbsp;allow&nbsp;saving&nbsp;throws&nbsp;—&nbsp;their&nbsp;saving&nbsp;throw&nbsp;entry&nbsp;becomes&nbsp;“None,”&nbsp;although&nbsp;if&nbsp;the&nbsp;power&nbsp;specifies&nbsp;a&nbsp;subsequent&nbsp;saving&nbsp;throw,&nbsp;subjects&nbsp;attempt&nbsp;those&nbsp;saves&nbsp;normally.&nbsp;The&nbsp;vitalist&nbsp;also&nbsp;adds&nbsp;the&nbsp;following&nbsp;augment&nbsp;to&nbsp;all&nbsp;powers&nbsp;with&nbsp;the&nbsp;Network&nbsp;descriptor:
-
       </p>
-
       <ul><li></p>
   sources:
     - date: '2012-07-23'

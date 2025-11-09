@@ -2,7 +2,7 @@ _id: Fpmk7td5TrzUB3An
 _stats:
   coreVersion: '13.350'
 folder: yxB21JRuF0fTjL6O
-img: systems/pf1/icons/feats/skill-focus.jpg
+img: icons/magic/symbols/runes-star-magenta.webp
 name: Supreme Insight
 system:
   abilityType: ex
@@ -10,11 +10,9 @@ system:
     classes:
       - Cryptic
   description:
-    value: >-
+    value: |-
       <p><b>Supreme&nbsp;Insight:</b>At&nbsp;20th&nbsp;level,&nbsp;the&nbsp;cryptic&nbsp;makes&nbsp;astounding&nbsp;leaps&nbsp;of&nbsp;insight.&nbsp;She&nbsp;immediately&nbsp;learns&nbsp;two&nbsp;normal&nbsp;insights,&nbsp;but&nbsp;also&nbsp;learns&nbsp;a&nbsp;third&nbsp;insight&nbsp;chosen&nbsp;from&nbsp;the&nbsp;list&nbsp;to&nbsp;the&nbsp;right,&nbsp;representing&nbsp;a&nbsp;truly&nbsp;astounding&nbsp;breakthrough&nbsp;in&nbsp;understanding&nbsp;how&nbsp;patterns&nbsp;work.&nbsp;For&nbsp;many&nbsp;cryptics,&nbsp;the&nbsp;possibility&nbsp;of&nbsp;this&nbsp;sort&nbsp;of&nbsp;discoveries&nbsp;is&nbsp;the&nbsp;driving&nbsp;force&nbsp;for&nbsp;their&nbsp;studying&nbsp;of&nbsp;patterns.&nbsp;
-
       </p>
-
       <dl><dd><div&nbsp;class="va-hatnote-text"><i></p>
   sources:
     - date: '2012-07-23'

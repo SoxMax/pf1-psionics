@@ -2,7 +2,7 @@ _id: 622idgsxJ3jO4qFR
 _stats:
   coreVersion: '13.350'
 folder: yxB21JRuF0fTjL6O
-img: systems/pf1/icons/feats/skill-focus.jpg
+img: icons/magic/symbols/runes-star-magenta.webp
 name: Scribe Tattoo
 system:
   abilityType: ex
@@ -10,9 +10,8 @@ system:
     classes:
       - Cryptic
   description:
-    value: >-
+    value: |-
       <p><b>Scribe&nbsp;Tattoo:</b>At&nbsp;1st&nbsp;level,&nbsp;cryptics&nbsp;receive&nbsp;<a&nbsp;href="/wiki/Scribe_Tattoo"&nbsp;title="Scribe&nbsp;Tattoo">Scribe&nbsp;Tattoo</a>&nbsp;as&nbsp;a&nbsp;bonus&nbsp;feat.&nbsp;A&nbsp;cryptic&nbsp;can&nbsp;scribe&nbsp;tattoos&nbsp;of&nbsp;any&nbsp;power&nbsp;she&nbsp;knows&nbsp;(up&nbsp;to&nbsp;3rd&nbsp;level).&nbsp;The&nbsp;power&nbsp;must&nbsp;be&nbsp;one&nbsp;that&nbsp;can&nbsp;be&nbsp;made&nbsp;into&nbsp;a&nbsp;tattoo.&nbsp;The&nbsp;cryptic&nbsp;does&nbsp;not&nbsp;need&nbsp;to&nbsp;meet&nbsp;the&nbsp;prerequisites&nbsp;for&nbsp;this&nbsp;feat.
-
       </p><p></p>
   sources:
     - date: '2012-07-23'

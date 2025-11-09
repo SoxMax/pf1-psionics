@@ -2,7 +2,7 @@ _id: 7HTV8WKe9y0TuQBh
 _stats:
   coreVersion: '13.350'
 folder: 2Cv8pG6sujmlxBmr
-img: systems/pf1/icons/feats/skill-focus.jpg
+img: icons/magic/symbols/runes-star-magenta.webp
 name: Vitalist Method
 system:
   abilityType: ex
@@ -10,11 +10,9 @@ system:
     classes:
       - Vitalist
   description:
-    value: >-
+    value: |-
       <p><b>Vitalist&nbsp;Method:</b>All&nbsp;vitalists&nbsp;must&nbsp;choose&nbsp;a&nbsp;particular&nbsp;method&nbsp;that&nbsp;encompasses&nbsp;their&nbsp;focus&nbsp;in&nbsp;the&nbsp;skills&nbsp;they&nbsp;develop.&nbsp;As&nbsp;they&nbsp;gain&nbsp;in&nbsp;level,&nbsp;their&nbsp;method&nbsp;determines&nbsp;the&nbsp;abilities&nbsp;they&nbsp;gain.
-
       </p>
-
       <dl><dd><div&nbsp;class="va-hatnote-text"><i></p>
   sources:
     - date: '2012-07-23'

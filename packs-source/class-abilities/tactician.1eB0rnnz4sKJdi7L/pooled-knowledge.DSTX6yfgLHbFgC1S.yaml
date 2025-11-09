@@ -2,7 +2,7 @@ _id: DSTX6yfgLHbFgC1S
 _stats:
   coreVersion: '13.350'
 folder: 1eB0rnnz4sKJdi7L
-img: systems/pf1/icons/feats/skill-focus.jpg
+img: icons/magic/symbols/runes-star-magenta.webp
 name: Pooled Knowledge
 system:
   abilityType: ex
@@ -10,9 +10,8 @@ system:
     classes:
       - Tactician
   description:
-    value: >-
+    value: |-
       <p><b>Pooled&nbsp;Knowledge:</b>Once&nbsp;a&nbsp;tactician&nbsp;has&nbsp;reached&nbsp;14th&nbsp;level,&nbsp;he&nbsp;has&nbsp;learned&nbsp;to&nbsp;share&nbsp;not&nbsp;only&nbsp;strategic&nbsp;knowledge&nbsp;over&nbsp;the&nbsp;collective,&nbsp;but&nbsp;even&nbsp;knowledge&nbsp;of&nbsp;manifesting.&nbsp;By&nbsp;expending&nbsp;psionic&nbsp;focus,&nbsp;the&nbsp;tactician&nbsp;may&nbsp;attempt&nbsp;to&nbsp;manifest&nbsp;any&nbsp;power&nbsp;known&nbsp;by&nbsp;a&nbsp;member&nbsp;of&nbsp;his&nbsp;collective.&nbsp;If&nbsp;the&nbsp;power&nbsp;is&nbsp;not&nbsp;on&nbsp;the&nbsp;tactician&nbsp;power&nbsp;list,&nbsp;the&nbsp;tactician&nbsp;must&nbsp;make&nbsp;a&nbsp;successful&nbsp;Spellcraft&nbsp;check&nbsp;(DC&nbsp;20&nbsp;+&nbsp;the&nbsp;power's&nbsp;level)&nbsp;to&nbsp;see&nbsp;if&nbsp;he&nbsp;understands&nbsp;the&nbsp;power.&nbsp;If&nbsp;the&nbsp;Spellcraft&nbsp;check&nbsp;fails,&nbsp;the&nbsp;attempt&nbsp;fails&nbsp;and&nbsp;psionic&nbsp;focus&nbsp;is&nbsp;still&nbsp;expended,&nbsp;but&nbsp;no&nbsp;power&nbsp;points&nbsp;are&nbsp;spent.&nbsp;If&nbsp;the&nbsp;check&nbsp;is&nbsp;successful,&nbsp;the&nbsp;tactician&nbsp;may&nbsp;immediately&nbsp;manifest&nbsp;the&nbsp;power.&nbsp;Using&nbsp;this&nbsp;ability&nbsp;uses&nbsp;an&nbsp;action&nbsp;equal&nbsp;to&nbsp;the&nbsp;manifesting&nbsp;time&nbsp;of&nbsp;the&nbsp;power&nbsp;to&nbsp;be&nbsp;manifested.&nbsp;This&nbsp;ability&nbsp;may&nbsp;not&nbsp;be&nbsp;used&nbsp;to&nbsp;manifest&nbsp;powers&nbsp;with&nbsp;a&nbsp;manifesting&nbsp;time&nbsp;longer&nbsp;than&nbsp;one&nbsp;round.
-
       </p><p></p>
   sources:
     - date: '2012-07-23'

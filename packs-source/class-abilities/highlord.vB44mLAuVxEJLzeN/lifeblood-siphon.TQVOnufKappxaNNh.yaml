@@ -2,7 +2,7 @@ _id: TQVOnufKappxaNNh
 _stats:
   coreVersion: '13.350'
 folder: vB44mLAuVxEJLzeN
-img: systems/pf1/icons/feats/skill-focus.jpg
+img: icons/magic/symbols/runes-star-magenta.webp
 name: Lifeblood Siphon
 system:
   abilityType: ex
@@ -10,11 +10,9 @@ system:
     classes:
       - Highlord
   description:
-    value: >-
+    value: |-
       <p><b>Lifeblood&nbsp;Siphon:</b>At&nbsp;6th&nbsp;level,&nbsp;a&nbsp;highlord&nbsp;can&nbsp;siphon&nbsp;mental&nbsp;energy&nbsp;from&nbsp;the&nbsp;members&nbsp;of&nbsp;his&nbsp;collective,&nbsp;drawing&nbsp;on&nbsp;their&nbsp;goals&nbsp;and&nbsp;desires&nbsp;that&nbsp;they&nbsp;and&nbsp;he&nbsp;share.&nbsp;Whenever&nbsp;the&nbsp;highlord&nbsp;manifests&nbsp;a&nbsp;power,&nbsp;he&nbsp;may&nbsp;also&nbsp;designate&nbsp;another&nbsp;member&nbsp;of&nbsp;his&nbsp;collective&nbsp;to&nbsp;drain&nbsp;energy&nbsp;from.&nbsp;That&nbsp;member&nbsp;of&nbsp;the&nbsp;collective&nbsp;takes&nbsp;damage&nbsp;equal&nbsp;to&nbsp;the&nbsp;number&nbsp;of&nbsp;power&nbsp;points&nbsp;used&nbsp;on&nbsp;the&nbsp;power&nbsp;and&nbsp;becomes&nbsp;staggered&nbsp;until&nbsp;the&nbsp;highlord's&nbsp;next&nbsp;turn.&nbsp;In&nbsp;addition,&nbsp;the&nbsp;highlord&nbsp;regains&nbsp;half&nbsp;the&nbsp;total&nbsp;power&nbsp;points&nbsp;he&nbsp;spent&nbsp;on&nbsp;the&nbsp;power.&nbsp;The&nbsp;target&nbsp;can&nbsp;resist&nbsp;the&nbsp;staggering&nbsp;effect&nbsp;and&nbsp;deny&nbsp;the&nbsp;highlord&nbsp;the&nbsp;regained&nbsp;power&nbsp;points&nbsp;by&nbsp;succeeding&nbsp;at&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;(DC&nbsp;10&nbsp;+&nbsp;the&nbsp;power&nbsp;points&nbsp;that&nbsp;would&nbsp;be&nbsp;refunded&nbsp;+&nbsp;the&nbsp;highlord's&nbsp;Charisma&nbsp;modifier).&nbsp;This&nbsp;ability&nbsp;can&nbsp;only&nbsp;be&nbsp;used&nbsp;once&nbsp;per&nbsp;round,&nbsp;even&nbsp;if&nbsp;the&nbsp;highlord&nbsp;manifests&nbsp;multiple&nbsp;powers&nbsp;during&nbsp;that&nbsp;round.
-
       </p><p>In&nbsp;addition,&nbsp;a&nbsp;highlord's&nbsp;tenet&nbsp;grants&nbsp;him&nbsp;a&nbsp;specialized&nbsp;version&nbsp;of&nbsp;this&nbsp;ability,&nbsp;as&nbsp;listed&nbsp;in&nbsp;the&nbsp;tenet's&nbsp;description.
-
       </p><p></p>
   sources:
     - date: '2010-01-01'

@@ -2,7 +2,7 @@ _id: n7Zl4gmndfDSy2bS
 _stats:
   coreVersion: '13.350'
 folder: 3nTUlQKGd4eDVPqX
-img: systems/pf1/icons/feats/skill-focus.jpg
+img: icons/magic/symbols/runes-star-magenta.webp
 name: Style Technique
 system:
   abilityType: ex
@@ -10,9 +10,8 @@ system:
     classes:
       - Marksman
   description:
-    value: >-
+    value: |-
       <p><b>Style&nbsp;Technique:</b>All&nbsp;marksmen,&nbsp;regardless&nbsp;of&nbsp;their&nbsp;chosen&nbsp;combat&nbsp;style,&nbsp;gain&nbsp;special&nbsp;techniques&nbsp;at&nbsp;2nd&nbsp;level&nbsp;that&nbsp;they&nbsp;can&nbsp;use&nbsp;by&nbsp;expending&nbsp;psionic&nbsp;focus.&nbsp;The&nbsp;specific&nbsp;technique&nbsp;is&nbsp;determined&nbsp;by&nbsp;the&nbsp;Marksman's&nbsp;chosen&nbsp;style.
-
       </p><p></p>
   sources:
     - date: '2012-07-23'
