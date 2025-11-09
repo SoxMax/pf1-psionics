@@ -53,9 +53,7 @@ system:
   showInQuickbar: false
   simple: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '15'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Seventh Path'
