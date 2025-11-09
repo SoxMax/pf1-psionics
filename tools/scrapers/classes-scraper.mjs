@@ -709,12 +709,57 @@ function buildClassItem(classData, abilities, featureLevels) {
 }
 
 /**
+ * Load existing class ability IDs from disk
+ * @param {string} rootDir - Root directory path
+ * @param {string} className - Class name
+ * @returns {Map<string, string>} - Map of ability name to existing ID
+ */
+function loadExistingAbilityIds(rootDir, className) {
+  const abilityIdMap = new Map();
+  const classSlug = sluggify(className);
+  const baseDir = path.join(rootDir, 'packs-source', 'class-abilities');
+
+  if (!fs.existsSync(baseDir)) {
+    return abilityIdMap;
+  }
+
+  // Look for a directory matching this class
+  const entries = fs.readdirSync(baseDir, { withFileTypes: true });
+  for (const entry of entries) {
+    if (entry.isDirectory() && entry.name.startsWith(`${classSlug}.`)) {
+      const classAbilityDir = path.join(baseDir, entry.name);
+      const abilityFiles = fs.readdirSync(classAbilityDir);
+
+      for (const file of abilityFiles) {
+        if (file.endsWith('.yaml') && !file.startsWith('_')) {
+          try {
+            const content = fs.readFileSync(path.join(classAbilityDir, file), 'utf8');
+            const ability = yaml.load(content);
+
+            // Store mapping of ability name to ID
+            if (ability.name && ability._id) {
+              abilityIdMap.set(ability.name, ability._id);
+            }
+          } catch (error) {
+            // Skip files that can't be read
+            continue;
+          }
+        }
+      }
+    }
+  }
+
+  return abilityIdMap;
+}
+
+/**
  * Scrape a single class
  * @param {string} url - Class page URL or class name
  * @param {string} className - Class name (optional if URL)
+ * @param {string} rootDir - Root directory path (optional, for loading existing IDs)
  * @returns {Promise<{classItem, abilities}>}
  */
-async function scrapeClass(url, className) {
+async function scrapeClass(url, className, rootDir = null) {
   console.log(`  Scraping ${className || url}...`);
 
   // Fetch class page
@@ -765,6 +810,9 @@ async function scrapeClass(url, className) {
   // Match table entries to features and determine levels
   const featureLevels = matchFeaturesToLevels(html, classFeatures);
 
+  // Load existing ability IDs if rootDir provided
+  const existingAbilityIds = rootDir ? loadExistingAbilityIds(rootDir, className) : new Map();
+
   // Build ability items - one per unique feature
   const abilities = [];
   for (const [featureName, levels] of featureLevels) {
@@ -776,6 +824,12 @@ async function scrapeClass(url, className) {
       : `<p>${featureName}</p>`; // Fallback if feature only in table
 
     const ability = buildClassAbility(featureName, levels[0], className, description, sources);
+
+    // If this ability already exists, use its existing ID
+    if (existingAbilityIds.has(featureName)) {
+      ability._id = existingAbilityIds.get(featureName);
+    }
+
     abilities.push(ability);
   }
 
@@ -797,13 +851,14 @@ async function scrapeAllClasses(systemURL = 'https://metzo.miraheze.org/wiki/Psi
 
   console.log(`Found ${classes.length} classes to scrape`);
 
+  const rootDir = path.join(TOOLS_DIR, '..');
   const allClassItems = [];
   const allAbilities = [];
 
   for (const classInfo of classes) {
     try {
       const fullURL = `https://metzo.miraheze.org${classInfo.url}`;
-      const { classItem, abilities } = await scrapeClass(fullURL, classInfo.name);
+      const { classItem, abilities } = await scrapeClass(fullURL, classInfo.name, rootDir);
 
       allClassItems.push(classItem);
       allAbilities.push(...abilities);
@@ -816,7 +871,6 @@ async function scrapeAllClasses(systemURL = 'https://metzo.miraheze.org/wiki/Psi
   }
 
   // Write outputs with deduplication
-  const rootDir = path.join(TOOLS_DIR, '..');
   const classStats = writeItemsWithDeduplication('classes', allClassItems, rootDir);
   const abilityStats = writeItemsWithDeduplication('class-abilities', allAbilities, rootDir, {
     getSubdirectoryName: (item) => item.system.associations?.classes?.[0] || 'unknown'
@@ -849,10 +903,11 @@ async function main() {
     // Scrape single class
     const url = args[0];
     console.log(`Scraping single class: ${url}`);
-    const { classItem, abilities } = await scrapeClass(url);
 
     // Write outputs with deduplication
     const rootDir = path.join(TOOLS_DIR, '..');
+    const { classItem, abilities } = await scrapeClass(url, null, rootDir);
+
     const classStats = writeItemsWithDeduplication('classes', [classItem], rootDir);
     const abilityStats = writeItemsWithDeduplication('class-abilities', abilities, rootDir, {
       getSubdirectoryName: (item) => item.system.associations?.classes?.[0] || 'unknown'
