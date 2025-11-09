@@ -278,7 +278,8 @@ async function extractPack(packName, options = {}) {
       if (entry._key?.startsWith('!folders!')) {
         // Place folder metadata inside the folder as _Folder.yaml
         const folderName = `${sluggify(entry.name)}.${entry._id}`;
-        return `${folderName}/_Folder.yaml`;
+        // If this folder has a parent folder, place it inside the parent
+        return folder ? `${folder}/${folderName}/_Folder.yaml` : `${folderName}/_Folder.yaml`;
       }
 
       // Regular document
