@@ -38,11 +38,6 @@ system:
     mental: false
     olfactory: false
     visual: true
-  filePathFields:
-    img:
-      - IMAGE
-  htmlFields:
-    - description.value
   known: false
   learnedAt:
     class:
@@ -56,9 +51,7 @@ system:
     value: 1
   prepared: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '14'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Feats and Powers'

@@ -36,7 +36,7 @@ system:
     value: >-
       <p>Creatures&nbsp;affected&nbsp;by&nbsp;this&nbsp;power&nbsp;are&nbsp;permanently&nbsp;confused&nbsp;and&nbsp;constantly&nbsp;behave&nbsp;randomly,&nbsp;making&nbsp;them&nbsp;unable&nbsp;to&nbsp;independently&nbsp;determine&nbsp;what&nbsp;they&nbsp;will&nbsp;do.&nbsp;Roll&nbsp;on&nbsp;the&nbsp;following&nbsp;table&nbsp;at&nbsp;the&nbsp;beginning&nbsp;the&nbsp;subject's&nbsp;turn&nbsp;each&nbsp;round&nbsp;to&nbsp;see&nbsp;what&nbsp;the&nbsp;subject&nbsp;does&nbsp;in&nbsp;that&nbsp;round.
 
-      </p><table><tbody><tr><th>d%
+      </p><table><tr><th>d%
 
       </th><th>Behavior
 
@@ -56,7 +56,7 @@ system:
 
       </td><td>Attack&nbsp;nearest&nbsp;creature&nbsp;(for&nbsp;this&nbsp;purpose,&nbsp;a&nbsp;psicrystal&nbsp;counts&nbsp;as&nbsp;part&nbsp;of&nbsp;the&nbsp;subject's&nbsp;self).
 
-      </td></tr></tbody></table>
+      </td></tr></table>
 
       <p>A&nbsp;confused&nbsp;character&nbsp;that&nbsp;can't&nbsp;carry&nbsp;out&nbsp;the&nbsp;indicated&nbsp;action&nbsp;does&nbsp;nothing&nbsp;but&nbsp;babble&nbsp;incoherently.&nbsp;Attackers&nbsp;are&nbsp;not&nbsp;at&nbsp;any&nbsp;special&nbsp;advantage&nbsp;when&nbsp;attacking&nbsp;a&nbsp;confused&nbsp;character.&nbsp;Any&nbsp;confused&nbsp;character&nbsp;that&nbsp;is&nbsp;attacked&nbsp;automatically&nbsp;attacks&nbsp;its&nbsp;attackers&nbsp;on&nbsp;its&nbsp;next&nbsp;turn,&nbsp;as&nbsp;long&nbsp;as&nbsp;it&nbsp;is&nbsp;still&nbsp;confused&nbsp;when&nbsp;its&nbsp;turn&nbsp;comes.&nbsp;Note&nbsp;that&nbsp;a&nbsp;confused&nbsp;character&nbsp;will&nbsp;not&nbsp;make&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;against&nbsp;any&nbsp;creature&nbsp;that&nbsp;it&nbsp;is&nbsp;not&nbsp;already&nbsp;devoted&nbsp;to&nbsp;attacking&nbsp;(either&nbsp;because&nbsp;of&nbsp;its&nbsp;most&nbsp;recent&nbsp;actions&nbsp;or&nbsp;because&nbsp;it&nbsp;has&nbsp;just&nbsp;been&nbsp;attacked).
 
@@ -78,11 +78,6 @@ system:
     mental: true
     olfactory: false
     visual: false
-  filePathFields:
-    img:
-      - IMAGE
-  htmlFields:
-    - description.value
   known: false
   learnedAt:
     class:
@@ -94,21 +89,15 @@ system:
     value: 1
   prepared: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-08-01'
       pages: 139–140
       publisher: Dreamscarred Press
       title: Psionics Unleashed
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2013-12-24'
       pages: '237'
       publisher: Dreamscarred Press
       title: Ultimate Psionics
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '53'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Mythic Psionics'

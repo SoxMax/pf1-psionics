@@ -54,7 +54,7 @@ system:
 
       <ul><li><em>Mishap:</em>&nbsp;You&nbsp;and&nbsp;anyone&nbsp;else&nbsp;teleporting&nbsp;with&nbsp;you&nbsp;have&nbsp;gotten&nbsp;"scrambled."&nbsp;You&nbsp;each&nbsp;take&nbsp;1d10&nbsp;points&nbsp;of&nbsp;damage,&nbsp;and&nbsp;you&nbsp;reroll&nbsp;on&nbsp;the&nbsp;chart&nbsp;to&nbsp;see&nbsp;where&nbsp;you&nbsp;wind&nbsp;up.&nbsp;For&nbsp;these&nbsp;rerolls,&nbsp;roll&nbsp;1d20+80.&nbsp;Each&nbsp;time&nbsp;"Mishap"&nbsp;comes&nbsp;up,&nbsp;the&nbsp;characters&nbsp;take&nbsp;more&nbsp;damage&nbsp;and&nbsp;must&nbsp;reroll.</li></ul>
 
-      <table><tbody><tr><th>Familiarity
+      <table><tr><th>Familiarity
 
       </th><th>On&nbsp;Target
 
@@ -108,7 +108,7 @@ system:
 
       </td><td>93–100
 
-      </td></tr></tbody></table>
+      </td></tr></table>
 
       <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;consider&nbsp;the&nbsp;familiarity&nbsp;of&nbsp;a&nbsp;location&nbsp;1&nbsp;step&nbsp;better,&nbsp;with&nbsp;the&nbsp;exception&nbsp;of&nbsp;a&nbsp;false&nbsp;destination,&nbsp;which&nbsp;is&nbsp;always&nbsp;considered&nbsp;a&nbsp;false&nbsp;destination.
 
@@ -120,11 +120,6 @@ system:
     mental: false
     olfactory: false
     visual: true
-  filePathFields:
-    img:
-      - IMAGE
-  htmlFields:
-    - description.value
   known: false
   learnedAt:
     class:
@@ -137,21 +132,15 @@ system:
     value: 1
   prepared: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-08-01'
       pages: 138–139
       publisher: Dreamscarred Press
       title: Psionics Unleashed
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2013-12-24'
       pages: 236–237
       publisher: Dreamscarred Press
       title: Ultimate Psionics
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '52'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Mythic Psionics'

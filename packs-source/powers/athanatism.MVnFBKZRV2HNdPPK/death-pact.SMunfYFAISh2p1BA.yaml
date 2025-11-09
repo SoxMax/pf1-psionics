@@ -40,11 +40,6 @@ system:
     mental: true
     olfactory: false
     visual: true
-  filePathFields:
-    img:
-      - IMAGE
-  htmlFields:
-    - description.value
   known: false
   learnedAt:
     class:
@@ -55,9 +50,7 @@ system:
     value: 10
   prepared: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: 27–28
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Seventh Path'

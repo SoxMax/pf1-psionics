@@ -29,9 +29,9 @@ system:
     value: >-
       <table><caption>Barrage&nbsp;and&nbsp;Attack&nbsp;rolls
 
-      </caption><tbody><tr><td>Given&nbsp;the&nbsp;level&nbsp;at&nbsp;which&nbsp;barrage&nbsp;can&nbsp;be&nbsp;gained,&nbsp;it&nbsp;is&nbsp;possible&nbsp;to&nbsp;result&nbsp;in&nbsp;a&nbsp;player&nbsp;using&nbsp;it&nbsp;to&nbsp;make&nbsp;over&nbsp;a&nbsp;dozen&nbsp;attacks&nbsp;in&nbsp;one&nbsp;round.&nbsp;In&nbsp;the&nbsp;interest&nbsp;of&nbsp;game&nbsp;flow,&nbsp;it&nbsp;can&nbsp;be&nbsp;decided&nbsp;that&nbsp;the&nbsp;manifester&nbsp;makes&nbsp;a&nbsp;single&nbsp;attack&nbsp;roll&nbsp;(or&nbsp;one&nbsp;attack&nbsp;roll&nbsp;for&nbsp;a&nbsp;certain&nbsp;number&nbsp;of&nbsp;targets),&nbsp;rather&nbsp;than&nbsp;one&nbsp;attack&nbsp;roll&nbsp;per&nbsp;target.&nbsp;This&nbsp;can&nbsp;have&nbsp;the&nbsp;effect&nbsp;of&nbsp;drastically&nbsp;skewing&nbsp;the&nbsp;result&nbsp;of&nbsp;the&nbsp;power,&nbsp;as&nbsp;that&nbsp;one&nbsp;attack&nbsp;roll&nbsp;may&nbsp;be&nbsp;great,&nbsp;or&nbsp;it&nbsp;may&nbsp;be&nbsp;terrible,&nbsp;but&nbsp;it&nbsp;may&nbsp;help&nbsp;in&nbsp;terms&nbsp;of&nbsp;needing&nbsp;to&nbsp;make&nbsp;a&nbsp;massive&nbsp;number&nbsp;of&nbsp;attack&nbsp;rolls&nbsp;in&nbsp;a&nbsp;single&nbsp;turn.
+      </caption><tr><td>Given&nbsp;the&nbsp;level&nbsp;at&nbsp;which&nbsp;barrage&nbsp;can&nbsp;be&nbsp;gained,&nbsp;it&nbsp;is&nbsp;possible&nbsp;to&nbsp;result&nbsp;in&nbsp;a&nbsp;player&nbsp;using&nbsp;it&nbsp;to&nbsp;make&nbsp;over&nbsp;a&nbsp;dozen&nbsp;attacks&nbsp;in&nbsp;one&nbsp;round.&nbsp;In&nbsp;the&nbsp;interest&nbsp;of&nbsp;game&nbsp;flow,&nbsp;it&nbsp;can&nbsp;be&nbsp;decided&nbsp;that&nbsp;the&nbsp;manifester&nbsp;makes&nbsp;a&nbsp;single&nbsp;attack&nbsp;roll&nbsp;(or&nbsp;one&nbsp;attack&nbsp;roll&nbsp;for&nbsp;a&nbsp;certain&nbsp;number&nbsp;of&nbsp;targets),&nbsp;rather&nbsp;than&nbsp;one&nbsp;attack&nbsp;roll&nbsp;per&nbsp;target.&nbsp;This&nbsp;can&nbsp;have&nbsp;the&nbsp;effect&nbsp;of&nbsp;drastically&nbsp;skewing&nbsp;the&nbsp;result&nbsp;of&nbsp;the&nbsp;power,&nbsp;as&nbsp;that&nbsp;one&nbsp;attack&nbsp;roll&nbsp;may&nbsp;be&nbsp;great,&nbsp;or&nbsp;it&nbsp;may&nbsp;be&nbsp;terrible,&nbsp;but&nbsp;it&nbsp;may&nbsp;help&nbsp;in&nbsp;terms&nbsp;of&nbsp;needing&nbsp;to&nbsp;make&nbsp;a&nbsp;massive&nbsp;number&nbsp;of&nbsp;attack&nbsp;rolls&nbsp;in&nbsp;a&nbsp;single&nbsp;turn.
 
-      </td></tr></tbody></table>
+      </td></tr></table>
 
       <p>You&nbsp;boost&nbsp;your&nbsp;movements&nbsp;to&nbsp;super-naturally&nbsp;high&nbsp;levels,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;strike&nbsp;at&nbsp;many&nbsp;targets&nbsp;in&nbsp;what&nbsp;others&nbsp;perceive&nbsp;as&nbsp;the&nbsp;blink&nbsp;of&nbsp;an&nbsp;eye.&nbsp;Your&nbsp;actions&nbsp;are&nbsp;so&nbsp;rapid&nbsp;that&nbsp;they&nbsp;leave&nbsp;visual&nbsp;echoes&nbsp;of&nbsp;your&nbsp;previous&nbsp;positions&nbsp;in&nbsp;the&nbsp;air&nbsp;as&nbsp;you&nbsp;move,&nbsp;although&nbsp;these&nbsp;quickly&nbsp;fade.
 
@@ -51,11 +51,6 @@ system:
     mental: false
     olfactory: false
     visual: true
-  filePathFields:
-    img:
-      - IMAGE
-  htmlFields:
-    - description.value
   known: false
   learnedAt:
     class:
@@ -68,21 +63,15 @@ system:
     value: 1
   prepared: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '16'
       publisher: Dreamscarred Press
       title: 'Psionics Expanded: Find the Mark'
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2012-07-23'
       pages: '150'
       publisher: Dreamscarred Press
       title: Psionics Expanded
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2013-12-24'
       pages: 164–165
       publisher: Dreamscarred Press
       title: Ultimate Psionics

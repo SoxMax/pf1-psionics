@@ -43,11 +43,6 @@ system:
     mental: false
     olfactory: false
     visual: false
-  filePathFields:
-    img:
-      - IMAGE
-  htmlFields:
-    - description.value
   known: false
   learnedAt:
     class:
@@ -61,21 +56,15 @@ system:
     value: 1
   prepared: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-08-01'
       pages: '93'
       publisher: Dreamscarred Press
       title: Psionics Unleashed
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2013-12-24'
       pages: '180'
       publisher: Dreamscarred Press
       title: Ultimate Psionics
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '35'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Mythic Psionics'

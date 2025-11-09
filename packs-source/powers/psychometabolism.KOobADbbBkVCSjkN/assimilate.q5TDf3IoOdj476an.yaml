@@ -44,7 +44,7 @@ system:
 
       <p>A&nbsp;creature&nbsp;that&nbsp;is&nbsp;completely&nbsp;assimilated&nbsp;grants&nbsp;you&nbsp;a&nbsp;number&nbsp;of&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;the&nbsp;hit&nbsp;points&nbsp;it&nbsp;had&nbsp;prior&nbsp;to&nbsp;your&nbsp;attack.&nbsp;If&nbsp;the&nbsp;assimilated&nbsp;creature&nbsp;knows&nbsp;psionic&nbsp;powers,&nbsp;you&nbsp;gain&nbsp;knowledge&nbsp;of&nbsp;one&nbsp;of&nbsp;its&nbsp;powers&nbsp;for&nbsp;1&nbsp;hour&nbsp;(chosen&nbsp;randomly).&nbsp;You&nbsp;gain&nbsp;some&nbsp;semblance&nbsp;of&nbsp;a&nbsp;creature&nbsp;you&nbsp;completely&nbsp;assimilate&nbsp;for&nbsp;1&nbsp;hour,&nbsp;granting&nbsp;you&nbsp;a&nbsp;+10&nbsp;bonus&nbsp;on&nbsp;Disguise&nbsp;checks&nbsp;made&nbsp;to&nbsp;appear&nbsp;as&nbsp;that&nbsp;creature&nbsp;during&nbsp;that&nbsp;time.&nbsp;You&nbsp;also&nbsp;gain&nbsp;a&nbsp;bonus&nbsp;to&nbsp;your&nbsp;ability&nbsp;scores&nbsp;for&nbsp;1&nbsp;hour&nbsp;for&nbsp;completely&nbsp;assimilating&nbsp;creatures&nbsp;based&nbsp;upon&nbsp;the&nbsp;creature's&nbsp;relative&nbsp;hit&nbsp;dice&nbsp;related&nbsp;to&nbsp;yours&nbsp;as&nbsp;shown&nbsp;on&nbsp;the&nbsp;chart&nbsp;below.
 
-      </p><table><tbody><tr><th>Target's&nbsp;HD&nbsp;Compared&nbsp;to&nbsp;Manifester
+      </p><table><tr><th>Target's&nbsp;HD&nbsp;Compared&nbsp;to&nbsp;Manifester
 
       </th><th>Bonus
 
@@ -76,7 +76,7 @@ system:
 
       </td><td>No&nbsp;bonuses&nbsp;to&nbsp;ability&nbsp;scores
 
-      </td></tr></tbody></table>
+      </td></tr></table>
   discipline: psychometabolism
   display:
     auditory: true
@@ -84,11 +84,6 @@ system:
     mental: false
     olfactory: false
     visual: true
-  filePathFields:
-    img:
-      - IMAGE
-  htmlFields:
-    - description.value
   known: false
   learnedAt:
     class:
@@ -102,21 +97,15 @@ system:
     value: 1
   prepared: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-08-01'
       pages: '76'
       publisher: Dreamscarred Press
       title: Psionics Unleashed
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2013-12-24'
       pages: 160–161
       publisher: Dreamscarred Press
       title: Ultimate Psionics
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '28'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Mythic Psionics'

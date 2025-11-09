@@ -38,7 +38,7 @@ system:
 
       <p>The&nbsp;difficulty&nbsp;of&nbsp;the&nbsp;save&nbsp;depends&nbsp;on&nbsp;your&nbsp;knowledge&nbsp;of&nbsp;the&nbsp;subject&nbsp;and&nbsp;the&nbsp;physical&nbsp;connection&nbsp;(if&nbsp;any)&nbsp;you&nbsp;have&nbsp;to&nbsp;that&nbsp;creature.
 
-      </p><table><tbody><tr><th>Knowledge
+      </p><table><tr><th>Knowledge
 
       </th><th>Will&nbsp;Save&nbsp;Modifier
 
@@ -58,9 +58,9 @@ system:
 
       </td><td>-5
 
-      </td></tr></tbody></table>
+      </td></tr></table>
 
-      <table><tbody><tr><th>Connection
+      <table><tr><th>Connection
 
       </th><th>Will&nbsp;Save&nbsp;Modifier
 
@@ -76,7 +76,7 @@ system:
 
       </td><td>-10
 
-      </td></tr></tbody></table>
+      </td></tr></table>
 
       <p>*You&nbsp;must&nbsp;have&nbsp;some&nbsp;sort&nbsp;of&nbsp;connection&nbsp;to&nbsp;a&nbsp;creature&nbsp;of&nbsp;which&nbsp;you&nbsp;have&nbsp;no&nbsp;knowledge.
 
@@ -103,11 +103,6 @@ system:
     mental: true
     olfactory: false
     visual: false
-  filePathFields:
-    img:
-      - IMAGE
-  htmlFields:
-    - description.value
   known: false
   learnedAt:
     class:
@@ -120,9 +115,7 @@ system:
     value: 10
   prepared: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '44'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Seventh Path'

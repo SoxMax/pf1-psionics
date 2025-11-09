@@ -42,7 +42,7 @@ system:
 
       <p>The&nbsp;difficulty&nbsp;of&nbsp;the&nbsp;save&nbsp;depends&nbsp;on&nbsp;your&nbsp;knowledge&nbsp;the&nbsp;subject&nbsp;and&nbsp;the&nbsp;physical&nbsp;connection&nbsp;(if&nbsp;any)&nbsp;you&nbsp;have&nbsp;to&nbsp;that&nbsp;creature.
 
-      </p><table><tbody><tr><th>Knowledge
+      </p><table><tr><th>Knowledge
 
       </th><th>Will&nbsp;Save&nbsp;Modifier
 
@@ -62,9 +62,9 @@ system:
 
       </td><td>–5
 
-      </td></tr></tbody></table>
+      </td></tr></table>
 
-      <table><tbody><tr><th>Connection
+      <table><tr><th>Connection
 
       </th><th>Will&nbsp;Save&nbsp;Modifier
 
@@ -80,7 +80,7 @@ system:
 
       </td><td>–10
 
-      </td></tr></tbody></table>
+      </td></tr></table>
 
       <p>*You&nbsp;must&nbsp;have&nbsp;some&nbsp;sort&nbsp;of&nbsp;connection&nbsp;to&nbsp;a&nbsp;creature&nbsp;of&nbsp;which&nbsp;you&nbsp;have&nbsp;no&nbsp;knowledge.
 
@@ -119,11 +119,6 @@ system:
     mental: true
     olfactory: false
     visual: false
-  filePathFields:
-    img:
-      - IMAGE
-  htmlFields:
-    - description.value
   known: false
   learnedAt:
     class:
@@ -137,27 +132,19 @@ system:
     value: 10
   prepared: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: 29–30
       publisher: Dreamscarred Press
       title: 'Psionics Expanded: Master the Battle'
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2012-07-23'
       pages: 167–168
       publisher: Dreamscarred Press
       title: Psionics Expanded
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2013-12-24'
       pages: '213'
       publisher: Dreamscarred Press
       title: Ultimate Psionics
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '45'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Mythic Psionics'

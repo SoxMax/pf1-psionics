@@ -32,7 +32,7 @@ system:
 
       <p>When&nbsp;you&nbsp;use&nbsp;this&nbsp;power,&nbsp;you&nbsp;can&nbsp;remove&nbsp;a&nbsp;condition&nbsp;or&nbsp;damage&nbsp;affecting&nbsp;a&nbsp;member&nbsp;of&nbsp;your&nbsp;collective,&nbsp;based&nbsp;on&nbsp;how&nbsp;many&nbsp;powers&nbsp;points&nbsp;were&nbsp;spent&nbsp;on&nbsp;the&nbsp;power.&nbsp;Choose&nbsp;one&nbsp;option&nbsp;from&nbsp;the&nbsp;following&nbsp;table&nbsp;to&nbsp;treat:
 
-      </p><table><tbody><tr><th>Power&nbsp;Points&nbsp;Spent
+      </p><table><tr><th>Power&nbsp;Points&nbsp;Spent
 
       </th><th>Condition&nbsp;Treated
 
@@ -60,7 +60,7 @@ system:
 
       </td><td>Lost&nbsp;limbs,&nbsp;petrification
 
-      </td></tr></tbody></table>
+      </td></tr></table>
 
       <p>In&nbsp;order&nbsp;to&nbsp;treat&nbsp;a&nbsp;magical&nbsp;effect,&nbsp;you&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;manifester&nbsp;level&nbsp;check&nbsp;(1d20&nbsp;+&nbsp;your&nbsp;manifester&nbsp;level)&nbsp;against&nbsp;a&nbsp;DC&nbsp;of&nbsp;11&nbsp;+&nbsp;the&nbsp;effect’s&nbsp;caster&nbsp;level,&nbsp;and&nbsp;in&nbsp;order&nbsp;to&nbsp;treat&nbsp;a&nbsp;curse,&nbsp;disease,&nbsp;or&nbsp;poison,&nbsp;you&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;manifester&nbsp;level&nbsp;check&nbsp;against&nbsp;the&nbsp;condition’s&nbsp;save&nbsp;DC.
 
@@ -76,11 +76,6 @@ system:
     mental: true
     olfactory: false
     visual: false
-  filePathFields:
-    img:
-      - IMAGE
-  htmlFields:
-    - description.value
   known: false
   learnedAt:
     class:
@@ -91,9 +86,7 @@ system:
     value: 1
   prepared: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: 6–7
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Highlord'

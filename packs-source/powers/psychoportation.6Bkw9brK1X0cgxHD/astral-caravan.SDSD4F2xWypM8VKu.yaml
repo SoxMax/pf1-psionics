@@ -57,7 +57,7 @@ system:
 
       <p>When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power&nbsp;in&nbsp;its&nbsp;augmented&nbsp;form,&nbsp;your&nbsp;apparent&nbsp;speed&nbsp;to&nbsp;those&nbsp;observing&nbsp;on&nbsp;the&nbsp;Astral&nbsp;Plane&nbsp;is&nbsp;40&nbsp;feet,&nbsp;and&nbsp;you&nbsp;can&nbsp;make&nbsp;a&nbsp;Knowledge&nbsp;(planes)&nbsp;check&nbsp;once&nbsp;every&nbsp;12&nbsp;hours&nbsp;to&nbsp;attempt&nbsp;to&nbsp;make&nbsp;it&nbsp;to&nbsp;your&nbsp;destination&nbsp;(six&nbsp;successful&nbsp;checks&nbsp;within&nbsp;12&nbsp;consecutive&nbsp;days&nbsp;still&nbsp;sees&nbsp;you&nbsp;to&nbsp;your&nbsp;desired&nbsp;goal).
 
-      </p><table><tbody><tr><th>Destination&nbsp;Knowledge
+      </p><table><tr><th>Destination&nbsp;Knowledge
 
       </th><th>Knowledge&nbsp;(planes)&nbsp;Check&nbsp;Modifier
 
@@ -73,11 +73,11 @@ system:
 
       </td><td>+5
 
-      </td></tr></tbody></table>
+      </td></tr></table>
 
       <p>*If&nbsp;you&nbsp;have&nbsp;no&nbsp;direct&nbsp;knowledge&nbsp;of&nbsp;your&nbsp;destination,&nbsp;you&nbsp;must&nbsp;have&nbsp;some&nbsp;connection&nbsp;to&nbsp;it&nbsp;in&nbsp;order&nbsp;to&nbsp;travel&nbsp;there;&nbsp;see&nbsp;below.
 
-      </p><table><tbody><tr><th>Connection
+      </p><table><tr><th>Connection
 
       </th><th>Knowledge&nbsp;(planes)&nbsp;Check&nbsp;Modifier
 
@@ -93,7 +93,7 @@ system:
 
       </td><td>+10
 
-      </td></tr></tbody></table>
+      </td></tr></table>
   discipline: psychoportation
   display:
     auditory: false
@@ -101,11 +101,6 @@ system:
     mental: false
     olfactory: false
     visual: false
-  filePathFields:
-    img:
-      - IMAGE
-  htmlFields:
-    - description.value
   known: false
   learnedAt:
     class:
@@ -117,21 +112,15 @@ system:
     value: 1
   prepared: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-08-01'
       pages: 76–77
       publisher: Dreamscarred Press
       title: Psionics Unleashed
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2013-12-24'
       pages: '161'
       publisher: Dreamscarred Press
       title: Ultimate Psionics
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '28'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Mythic Psionics'

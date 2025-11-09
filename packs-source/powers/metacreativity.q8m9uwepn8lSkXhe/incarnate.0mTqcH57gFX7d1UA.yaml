@@ -42,7 +42,7 @@ system:
 
       </p><table><caption>Incarnate&nbsp;Power&nbsp;List
 
-      </caption><tbody><tr><td>Power
+      </caption><tr><td>Power
 
       </td><td>Minimum&nbsp;Manifester&nbsp;Level
 
@@ -112,7 +112,7 @@ system:
 
       </td><td>10,000&nbsp;GP
 
-      </td></tr></tbody></table>
+      </td></tr></table>
   discipline: metacreativity
   display:
     auditory: false
@@ -120,11 +120,6 @@ system:
     mental: false
     olfactory: false
     visual: false
-  filePathFields:
-    img:
-      - IMAGE
-  htmlFields:
-    - description.value
   known: false
   learnedAt:
     class:
@@ -138,21 +133,15 @@ system:
     value: 2
   prepared: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-08-01'
       pages: '119'
       publisher: Dreamscarred Press
       title: Psionics Unleashed
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2013-12-24'
       pages: '212'
       publisher: Dreamscarred Press
       title: Ultimate Psionics
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: 44–45
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Mythic Psionics'

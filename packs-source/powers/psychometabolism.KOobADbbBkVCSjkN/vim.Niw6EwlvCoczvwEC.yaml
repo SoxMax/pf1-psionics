@@ -37,11 +37,6 @@ system:
     mental: false
     olfactory: true
     visual: false
-  filePathFields:
-    img:
-      - IMAGE
-  htmlFields:
-    - description.value
   known: false
   learnedAt:
     class:
@@ -60,33 +55,23 @@ system:
     value: 1
   prepared: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '40'
       publisher: Dreamscarred Press
       title: 'Psionics Expanded: Hidden Intentions'
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '35'
       publisher: Dreamscarred Press
       title: 'Psionics Expanded: Master the Battle'
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '26'
       publisher: Dreamscarred Press
       title: 'Psionics Expanded: Unlimited Possibilities'
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2012-07-23'
       pages: '185'
       publisher: Dreamscarred Press
       title: Psionics Expanded
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2013-12-24'
       pages: '256'
       publisher: Dreamscarred Press
       title: Ultimate Psionics

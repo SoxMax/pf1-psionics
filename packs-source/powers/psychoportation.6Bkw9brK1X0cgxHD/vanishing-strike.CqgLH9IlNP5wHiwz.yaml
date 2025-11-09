@@ -38,11 +38,6 @@ system:
     mental: false
     olfactory: true
     visual: true
-  filePathFields:
-    img:
-      - IMAGE
-  htmlFields:
-    - description.value
   known: false
   learnedAt:
     class:
@@ -56,21 +51,15 @@ system:
     value: 1
   prepared: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: 34–35
       publisher: Dreamscarred Press
       title: 'Psionics Expanded: Master the Battle'
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2012-07-23'
       pages: 184–185
       publisher: Dreamscarred Press
       title: Psionics Expanded
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2013-12-24'
       pages: '256'
       publisher: Dreamscarred Press
       title: Ultimate Psionics

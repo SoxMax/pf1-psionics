@@ -4,7 +4,7 @@ _stats:
   coreVersion: '13.350'
 flags:
   pf1-psionics:
-    sourceUrl: https://metzo.miraheze.org/wiki/Second_Chance
+    sourceUrl: https://metzo.miraheze.org/wiki/Second_Chance_(power)
 folder: zLApB2FfLIaP0Z63
 img: icons/magic/perception/third-eye-blue-red.webp
 name: Second Chance
@@ -41,11 +41,6 @@ system:
     mental: true
     olfactory: false
     visual: false
-  filePathFields:
-    img:
-      - IMAGE
-  htmlFields:
-    - description.value
   known: false
   learnedAt:
     class:
@@ -57,21 +52,15 @@ system:
     value: 1
   prepared: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-08-01'
       pages: '143'
       publisher: Dreamscarred Press
       title: Psionics Unleashed
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2013-12-24'
       pages: '242'
       publisher: Dreamscarred Press
       title: Ultimate Psionics
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '55'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Mythic Psionics'

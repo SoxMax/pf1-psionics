@@ -48,7 +48,7 @@ system:
 
       </p><table><caption>Control&nbsp;Flames
 
-      </caption><tbody><tr><th>Manifester&nbsp;Level
+      </caption><tr><th>Manifester&nbsp;Level
 
       </th><th>Fire&nbsp;Size
 
@@ -146,7 +146,7 @@ system:
 
       </td><td>5-by-5-foot&nbsp;square
 
-      </td></tr></tbody></table>
+      </td></tr></table>
 
       <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
 
@@ -160,11 +160,6 @@ system:
     mental: false
     olfactory: false
     visual: false
-  filePathFields:
-    img:
-      - IMAGE
-  htmlFields:
-    - description.value
   known: false
   learnedAt:
     class:
@@ -177,21 +172,15 @@ system:
     value: 1
   prepared: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-08-01'
       pages: 88–89
       publisher: Dreamscarred Press
       title: Psionics Unleashed
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2013-12-24'
       pages: 175–176
       publisher: Dreamscarred Press
       title: Ultimate Psionics
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '34'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Mythic Psionics'

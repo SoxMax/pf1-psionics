@@ -32,7 +32,7 @@ system:
     value: >-
       <p>You&nbsp;send&nbsp;your&nbsp;mind&nbsp;across&nbsp;space&nbsp;and&nbsp;dimensions,&nbsp;forming&nbsp;it&nbsp;into&nbsp;a&nbsp;quasi-real&nbsp;viewpoint&nbsp;from&nbsp;which&nbsp;you&nbsp;can&nbsp;see&nbsp;and&nbsp;hear&nbsp;some&nbsp;creature&nbsp;located&nbsp;at&nbsp;any&nbsp;distance&nbsp;from&nbsp;you,&nbsp;even&nbsp;if&nbsp;planar&nbsp;boundaries&nbsp;separate&nbsp;you.&nbsp;If&nbsp;the&nbsp;subject&nbsp;succeeds&nbsp;on&nbsp;a&nbsp;Will&nbsp;save,&nbsp;the&nbsp;remote&nbsp;viewing&nbsp;attempt&nbsp;fails,&nbsp;and&nbsp;you&nbsp;can't&nbsp;attempt&nbsp;to&nbsp;view&nbsp;that&nbsp;creature&nbsp;again&nbsp;for&nbsp;at&nbsp;least&nbsp;24&nbsp;hours.&nbsp;The&nbsp;difficulty&nbsp;of&nbsp;the&nbsp;save&nbsp;depends&nbsp;on&nbsp;how&nbsp;well&nbsp;you&nbsp;know&nbsp;the&nbsp;subject&nbsp;and&nbsp;what&nbsp;sort&nbsp;of&nbsp;physical&nbsp;connection&nbsp;(if&nbsp;any)&nbsp;you&nbsp;have&nbsp;to&nbsp;that&nbsp;creature.&nbsp;Furthermore,&nbsp;if&nbsp;the&nbsp;subject&nbsp;is&nbsp;on&nbsp;another&nbsp;plane,&nbsp;it&nbsp;gets&nbsp;a&nbsp;+5&nbsp;bonus&nbsp;on&nbsp;its&nbsp;Will&nbsp;save.
 
-      </p><table><tbody><tr><th>Knowledge
+      </p><table><tr><th>Knowledge
 
       </th><th>Will&nbsp;Save&nbsp;Modifier
 
@@ -52,11 +52,11 @@ system:
 
       </td><td>–5
 
-      </td></tr></tbody></table>
+      </td></tr></table>
 
       <p>*You&nbsp;must&nbsp;have&nbsp;some&nbsp;sort&nbsp;of&nbsp;connection&nbsp;to&nbsp;a&nbsp;creature&nbsp;you&nbsp;have&nbsp;no&nbsp;knowledge&nbsp;of.
 
-      </p><table><tbody><tr><th>Connection
+      </p><table><tr><th>Connection
 
       </th><th>Will&nbsp;Save&nbsp;Modifier
 
@@ -76,7 +76,7 @@ system:
 
       </td><td>+5
 
-      </td></tr></tbody></table>
+      </td></tr></table>
 
       <p>If&nbsp;the&nbsp;subject&nbsp;fails&nbsp;its&nbsp;Will&nbsp;save,&nbsp;your&nbsp;mind&nbsp;coalesces&nbsp;a&nbsp;quasi-real&nbsp;viewpoint&nbsp;near&nbsp;enough&nbsp;to&nbsp;the&nbsp;subject&nbsp;to&nbsp;see&nbsp;and&nbsp;hear&nbsp;the&nbsp;subject&nbsp;and&nbsp;its&nbsp;immediate&nbsp;surroundings&nbsp;(up&nbsp;30&nbsp;feet&nbsp;in&nbsp;all&nbsp;directions&nbsp;away&nbsp;from&nbsp;the&nbsp;subject).
 
@@ -108,11 +108,6 @@ system:
     mental: true
     olfactory: false
     visual: false
-  filePathFields:
-    img:
-      - IMAGE
-  htmlFields:
-    - description.value
   known: false
   learnedAt:
     class:
@@ -126,21 +121,15 @@ system:
     value: 1
   prepared: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-08-01'
       pages: 142–143
       publisher: Dreamscarred Press
       title: Psionics Unleashed
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2013-12-24'
       pages: 239–240
       publisher: Dreamscarred Press
       title: Ultimate Psionics
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '54'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Mythic Psionics'

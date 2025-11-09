@@ -53,11 +53,6 @@ system:
     mental: false
     olfactory: false
     visual: false
-  filePathFields:
-    img:
-      - IMAGE
-  htmlFields:
-    - description.value
   known: false
   learnedAt:
     class:
@@ -76,39 +71,27 @@ system:
     value: 1
   prepared: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '21'
       publisher: Dreamscarred Press
       title: 'Psionics Expanded: Find the Mark'
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: 17–18
       publisher: Dreamscarred Press
       title: 'Psionics Expanded: Mind Over Body'
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: 24–25
       publisher: Dreamscarred Press
       title: 'Psionics Expanded: Unlimited Possibilities'
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2012-07-23'
       pages: 172–173
       publisher: Dreamscarred Press
       title: Psionics Expanded
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2013-12-24'
       pages: 228–229
       publisher: Dreamscarred Press
       title: Ultimate Psionics
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: 49–50
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Mythic Psionics'

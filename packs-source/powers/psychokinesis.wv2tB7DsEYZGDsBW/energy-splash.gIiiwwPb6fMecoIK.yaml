@@ -48,11 +48,6 @@ system:
     mental: false
     olfactory: false
     visual: false
-  filePathFields:
-    img:
-      - IMAGE
-  htmlFields:
-    - description.value
   known: false
   learnedAt:
     class:
@@ -66,21 +61,15 @@ system:
     value: 1
   prepared: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: 23–24
       publisher: Dreamscarred Press
       title: 'Psionics Expanded: Unlimited Possibilities'
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2012-07-23'
       pages: '160'
       publisher: Dreamscarred Press
       title: Psionics Expanded
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2013-12-24'
       pages: '197'
       publisher: Dreamscarred Press
       title: Ultimate Psionics
