@@ -1,4 +1,5 @@
 _id: HVNoLekG6bnW2gD5
+_key: '!items!HVNoLekG6bnW2gD5'
 _stats:
   coreVersion: '13.350'
 flags:
@@ -118,4 +119,3 @@ system:
   uses:
     autoDeductChargesCost: max(0, @sl * 2 - 1)
 type: pf1-psionics.power
-_key: '!items!HVNoLekG6bnW2gD5'

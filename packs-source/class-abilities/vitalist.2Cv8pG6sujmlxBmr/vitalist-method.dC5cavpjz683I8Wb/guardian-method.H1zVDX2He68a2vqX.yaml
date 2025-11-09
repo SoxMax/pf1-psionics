@@ -1,38 +1,33 @@
+_id: H1zVDX2He68a2vqX
+_key: '!items!H1zVDX2He68a2vqX'
+_stats:
+  coreVersion: '13.350'
 folder: dC5cavpjz683I8Wb
-type: feat
+img: icons/svg/book.svg
 name: Guardian Method
 system:
-  description:
-    value: >-
-      <p><span&nbsp;class="va-quotation-text"><em>A&nbsp;guardian&nbsp;vitalist&nbsp;focuses&nbsp;his&nbsp;skill&nbsp;on&nbsp;keeping&nbsp;his&nbsp;allies&nbsp;from&nbsp;suffering&nbsp;wounds.&nbsp;He&nbsp;develops&nbsp;psionic&nbsp;abilities&nbsp;that&nbsp;deflect,&nbsp;absorb,&nbsp;and&nbsp;reflect&nbsp;damage&nbsp;proactively,&nbsp;rather&nbsp;than&nbsp;healing&nbsp;wounds&nbsp;after&nbsp;they&nbsp;are&nbsp;suffered.</em></span></p><p><strong>Guardian&nbsp;Power:</strong>&nbsp;A&nbsp;guardian&nbsp;vitalist&nbsp;adds&nbsp;<em>@UUID[Compendium.pf1-psionics.powers.Item.2bx0llDpiQ66ShPZ]{Biofeedback}</em>&nbsp;to&nbsp;his&nbsp;list&nbsp;of&nbsp;powers&nbsp;known.&nbsp;This&nbsp;does&nbsp;not&nbsp;count&nbsp;against&nbsp;his&nbsp;number&nbsp;of&nbsp;powers&nbsp;known.</p><p><strong>Guardian&nbsp;Knacks:</strong>&nbsp;A&nbsp;guardian&nbsp;can&nbsp;select&nbsp;one&nbsp;of&nbsp;the&nbsp;talents&nbsp;below&nbsp;as&nbsp;his&nbsp;method&nbsp;knack.</p><ul><li><em>@UUID[Compendium.pf1-psionics.powers.Item.aAWnsECsGQd4zYvd]{Fortify,&nbsp;Lesser}</em>:&nbsp;Gain&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;on&nbsp;saving&nbsp;throws.</li><li><em>@UUID[Compendium.pf1-psionics.powers.Item.2zGndi6SFDsb62cx]{Toughen}</em>:&nbsp;Grant&nbsp;+1&nbsp;natural&nbsp;armor&nbsp;to&nbsp;collective&nbsp;members.</li></ul><p><strong>Guardian's&nbsp;Touch:</strong>&nbsp;A&nbsp;guardian&nbsp;vitalist&nbsp;of&nbsp;2nd&nbsp;level&nbsp;who&nbsp;utilizes&nbsp;transfer&nbsp;wounds&nbsp;grants&nbsp;the&nbsp;target&nbsp;a&nbsp;number&nbsp;of&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;his&nbsp;class&nbsp;level.&nbsp;These&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;last&nbsp;a&nbsp;number&nbsp;of&nbsp;rounds&nbsp;equal&nbsp;to&nbsp;the&nbsp;vitalist's&nbsp;Wisdom&nbsp;modifier&nbsp;(minimum&nbsp;1)&nbsp;and&nbsp;do&nbsp;not&nbsp;stack&nbsp;with&nbsp;any&nbsp;other&nbsp;temporary&nbsp;hit&nbsp;points.</p><p><strong>Guardian's&nbsp;Pulse:</strong>&nbsp;As&nbsp;a&nbsp;free&nbsp;action,&nbsp;guardian&nbsp;of&nbsp;6th&nbsp;level&nbsp;may&nbsp;project&nbsp;a&nbsp;pulse&nbsp;to&nbsp;all&nbsp;members&nbsp;of&nbsp;his&nbsp;collective&nbsp;by&nbsp;spending&nbsp;one&nbsp;power&nbsp;point,&nbsp;granting&nbsp;them&nbsp;DR&nbsp;2/-&nbsp;for&nbsp;one&nbsp;round.&nbsp;Every&nbsp;three&nbsp;vitalist&nbsp;levels&nbsp;thereafter,&nbsp;this&nbsp;DR&nbsp;increases&nbsp;by&nbsp;1.</p><p><strong>Swift&nbsp;Aid:</strong>&nbsp;A&nbsp;guardian&nbsp;of&nbsp;8th&nbsp;level&nbsp;may,&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action&nbsp;and&nbsp;by&nbsp;expending&nbsp;his&nbsp;psionic&nbsp;focus,&nbsp;grant&nbsp;a&nbsp;member&nbsp;of&nbsp;his&nbsp;collective&nbsp;a&nbsp;+1&nbsp;insight&nbsp;bonus&nbsp;to&nbsp;AC&nbsp;or&nbsp;saves&nbsp;(guardian's&nbsp;choice)&nbsp;that&nbsp;lasts&nbsp;until&nbsp;the&nbsp;beginning&nbsp;of&nbsp;the&nbsp;target's&nbsp;next&nbsp;turn.&nbsp;This&nbsp;insight&nbsp;bonus&nbsp;increases&nbsp;by&nbsp;+1&nbsp;every&nbsp;four&nbsp;vitalist&nbsp;levels&nbsp;thereafter.</p><p><strong>Guardian's&nbsp;Expertise:</strong>&nbsp;Upon&nbsp;achieving&nbsp;11th&nbsp;level,&nbsp;anytime&nbsp;a&nbsp;guardian&nbsp;manifests&nbsp;<em>@UUID[Compendium.pf1-psionics.powers.Item.zylCrNW8B3cHQJ86]{Empathic&nbsp;Feedback}</em>,&nbsp;the&nbsp;power&nbsp;gains&nbsp;two&nbsp;additional&nbsp;augment&nbsp;options.</p><ul><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;may&nbsp;be&nbsp;manifested&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;damage&nbsp;dealt&nbsp;to&nbsp;the&nbsp;attacker&nbsp;is&nbsp;subtracted&nbsp;from&nbsp;the&nbsp;damage&nbsp;you&nbsp;take.</li></ul><p>In&nbsp;addition,&nbsp;any&nbsp;time&nbsp;a&nbsp;guardian&nbsp;manifests&nbsp;a&nbsp;power&nbsp;on&nbsp;a&nbsp;member&nbsp;of&nbsp;his&nbsp;collective&nbsp;(including&nbsp;himself)&nbsp;with&nbsp;a&nbsp;range&nbsp;of&nbsp;You&nbsp;and&nbsp;a&nbsp;duration&nbsp;measured&nbsp;in&nbsp;rounds,&nbsp;the&nbsp;guardian&nbsp;may&nbsp;expend&nbsp;his&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;treat&nbsp;that&nbsp;power&nbsp;as&nbsp;if&nbsp;affected&nbsp;by&nbsp;the&nbsp;Extend&nbsp;Power&nbsp;feat.</p><p><strong>Master&nbsp;Guardian:</strong>&nbsp;A&nbsp;guardian&nbsp;of&nbsp;20th&nbsp;level&nbsp;can,&nbsp;as&nbsp;a&nbsp;full-round&nbsp;action&nbsp;and&nbsp;by&nbsp;expending&nbsp;his&nbsp;psionic&nbsp;focus,&nbsp;give&nbsp;one&nbsp;member&nbsp;of&nbsp;the&nbsp;collective&nbsp;a&nbsp;psionic&nbsp;bubble&nbsp;of&nbsp;protection.&nbsp;This&nbsp;protective&nbsp;bubble&nbsp;grants&nbsp;DR&nbsp;6/-,&nbsp;PR&nbsp;27,&nbsp;resistance&nbsp;20&nbsp;against&nbsp;any&nbsp;attack&nbsp;that&nbsp;deals&nbsp;acid,&nbsp;cold,&nbsp;electricity,&nbsp;fire,&nbsp;or&nbsp;sonic&nbsp;damage,&nbsp;and&nbsp;a&nbsp;+6&nbsp;deflection&nbsp;bonus&nbsp;to&nbsp;AC.&nbsp;This&nbsp;protective&nbsp;bubble&nbsp;lasts&nbsp;for&nbsp;one&nbsp;minute.&nbsp;The&nbsp;guardian&nbsp;can&nbsp;use&nbsp;this&nbsp;ability&nbsp;once&nbsp;every&nbsp;10&nbsp;minutes.</p>
+  abilityType: na
+  acquired: false
   changeFlags:
+    heavyArmorFullSpeed: false
     immuneToMorale: false
     loseDexToAC: false
-    noMediumEncumbrance: false
-    noHeavyEncumbrance: false
-    mediumArmorFullSpeed: false
-    heavyArmorFullSpeed: false
     lowLightVision: false
-    seeInvisibility: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
     seeInDarkness: false
-  subType: classFeat
-  abilityType: na
-  showInQuickbar: false
-  inherited: false
-  acquired: false
-  simple: false
-  summons: false
-  disabled: false
+    seeInvisibility: false
   classSkills:
     acr: false
+    ahp: false
     apr: false
     art: false
-    ahp: false
     blf: false
     clm: false
     crf: false
-    dip: false
     dev: false
+    dip: false
     dis: false
     esc: false
     fly: false
@@ -63,14 +58,19 @@ system:
     sur: false
     swm: false
     umd: false
+  description:
+    value: >-
+      <p><span&nbsp;class="va-quotation-text"><em>A&nbsp;guardian&nbsp;vitalist&nbsp;focuses&nbsp;his&nbsp;skill&nbsp;on&nbsp;keeping&nbsp;his&nbsp;allies&nbsp;from&nbsp;suffering&nbsp;wounds.&nbsp;He&nbsp;develops&nbsp;psionic&nbsp;abilities&nbsp;that&nbsp;deflect,&nbsp;absorb,&nbsp;and&nbsp;reflect&nbsp;damage&nbsp;proactively,&nbsp;rather&nbsp;than&nbsp;healing&nbsp;wounds&nbsp;after&nbsp;they&nbsp;are&nbsp;suffered.</em></span></p><p><strong>Guardian&nbsp;Power:</strong>&nbsp;A&nbsp;guardian&nbsp;vitalist&nbsp;adds&nbsp;<em>@UUID[Compendium.pf1-psionics.powers.Item.2bx0llDpiQ66ShPZ]{Biofeedback}</em>&nbsp;to&nbsp;his&nbsp;list&nbsp;of&nbsp;powers&nbsp;known.&nbsp;This&nbsp;does&nbsp;not&nbsp;count&nbsp;against&nbsp;his&nbsp;number&nbsp;of&nbsp;powers&nbsp;known.</p><p><strong>Guardian&nbsp;Knacks:</strong>&nbsp;A&nbsp;guardian&nbsp;can&nbsp;select&nbsp;one&nbsp;of&nbsp;the&nbsp;talents&nbsp;below&nbsp;as&nbsp;his&nbsp;method&nbsp;knack.</p><ul><li><em>@UUID[Compendium.pf1-psionics.powers.Item.aAWnsECsGQd4zYvd]{Fortify,&nbsp;Lesser}</em>:&nbsp;Gain&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;on&nbsp;saving&nbsp;throws.</li><li><em>@UUID[Compendium.pf1-psionics.powers.Item.2zGndi6SFDsb62cx]{Toughen}</em>:&nbsp;Grant&nbsp;+1&nbsp;natural&nbsp;armor&nbsp;to&nbsp;collective&nbsp;members.</li></ul><p><strong>Guardian's&nbsp;Touch:</strong>&nbsp;A&nbsp;guardian&nbsp;vitalist&nbsp;of&nbsp;2nd&nbsp;level&nbsp;who&nbsp;utilizes&nbsp;transfer&nbsp;wounds&nbsp;grants&nbsp;the&nbsp;target&nbsp;a&nbsp;number&nbsp;of&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;his&nbsp;class&nbsp;level.&nbsp;These&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;last&nbsp;a&nbsp;number&nbsp;of&nbsp;rounds&nbsp;equal&nbsp;to&nbsp;the&nbsp;vitalist's&nbsp;Wisdom&nbsp;modifier&nbsp;(minimum&nbsp;1)&nbsp;and&nbsp;do&nbsp;not&nbsp;stack&nbsp;with&nbsp;any&nbsp;other&nbsp;temporary&nbsp;hit&nbsp;points.</p><p><strong>Guardian's&nbsp;Pulse:</strong>&nbsp;As&nbsp;a&nbsp;free&nbsp;action,&nbsp;guardian&nbsp;of&nbsp;6th&nbsp;level&nbsp;may&nbsp;project&nbsp;a&nbsp;pulse&nbsp;to&nbsp;all&nbsp;members&nbsp;of&nbsp;his&nbsp;collective&nbsp;by&nbsp;spending&nbsp;one&nbsp;power&nbsp;point,&nbsp;granting&nbsp;them&nbsp;DR&nbsp;2/-&nbsp;for&nbsp;one&nbsp;round.&nbsp;Every&nbsp;three&nbsp;vitalist&nbsp;levels&nbsp;thereafter,&nbsp;this&nbsp;DR&nbsp;increases&nbsp;by&nbsp;1.</p><p><strong>Swift&nbsp;Aid:</strong>&nbsp;A&nbsp;guardian&nbsp;of&nbsp;8th&nbsp;level&nbsp;may,&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action&nbsp;and&nbsp;by&nbsp;expending&nbsp;his&nbsp;psionic&nbsp;focus,&nbsp;grant&nbsp;a&nbsp;member&nbsp;of&nbsp;his&nbsp;collective&nbsp;a&nbsp;+1&nbsp;insight&nbsp;bonus&nbsp;to&nbsp;AC&nbsp;or&nbsp;saves&nbsp;(guardian's&nbsp;choice)&nbsp;that&nbsp;lasts&nbsp;until&nbsp;the&nbsp;beginning&nbsp;of&nbsp;the&nbsp;target's&nbsp;next&nbsp;turn.&nbsp;This&nbsp;insight&nbsp;bonus&nbsp;increases&nbsp;by&nbsp;+1&nbsp;every&nbsp;four&nbsp;vitalist&nbsp;levels&nbsp;thereafter.</p><p><strong>Guardian's&nbsp;Expertise:</strong>&nbsp;Upon&nbsp;achieving&nbsp;11th&nbsp;level,&nbsp;anytime&nbsp;a&nbsp;guardian&nbsp;manifests&nbsp;<em>@UUID[Compendium.pf1-psionics.powers.Item.zylCrNW8B3cHQJ86]{Empathic&nbsp;Feedback}</em>,&nbsp;the&nbsp;power&nbsp;gains&nbsp;two&nbsp;additional&nbsp;augment&nbsp;options.</p><ul><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;may&nbsp;be&nbsp;manifested&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;damage&nbsp;dealt&nbsp;to&nbsp;the&nbsp;attacker&nbsp;is&nbsp;subtracted&nbsp;from&nbsp;the&nbsp;damage&nbsp;you&nbsp;take.</li></ul><p>In&nbsp;addition,&nbsp;any&nbsp;time&nbsp;a&nbsp;guardian&nbsp;manifests&nbsp;a&nbsp;power&nbsp;on&nbsp;a&nbsp;member&nbsp;of&nbsp;his&nbsp;collective&nbsp;(including&nbsp;himself)&nbsp;with&nbsp;a&nbsp;range&nbsp;of&nbsp;You&nbsp;and&nbsp;a&nbsp;duration&nbsp;measured&nbsp;in&nbsp;rounds,&nbsp;the&nbsp;guardian&nbsp;may&nbsp;expend&nbsp;his&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;treat&nbsp;that&nbsp;power&nbsp;as&nbsp;if&nbsp;affected&nbsp;by&nbsp;the&nbsp;Extend&nbsp;Power&nbsp;feat.</p><p><strong>Master&nbsp;Guardian:</strong>&nbsp;A&nbsp;guardian&nbsp;of&nbsp;20th&nbsp;level&nbsp;can,&nbsp;as&nbsp;a&nbsp;full-round&nbsp;action&nbsp;and&nbsp;by&nbsp;expending&nbsp;his&nbsp;psionic&nbsp;focus,&nbsp;give&nbsp;one&nbsp;member&nbsp;of&nbsp;the&nbsp;collective&nbsp;a&nbsp;psionic&nbsp;bubble&nbsp;of&nbsp;protection.&nbsp;This&nbsp;protective&nbsp;bubble&nbsp;grants&nbsp;DR&nbsp;6/-,&nbsp;PR&nbsp;27,&nbsp;resistance&nbsp;20&nbsp;against&nbsp;any&nbsp;attack&nbsp;that&nbsp;deals&nbsp;acid,&nbsp;cold,&nbsp;electricity,&nbsp;fire,&nbsp;or&nbsp;sonic&nbsp;damage,&nbsp;and&nbsp;a&nbsp;+6&nbsp;deflection&nbsp;bonus&nbsp;to&nbsp;AC.&nbsp;This&nbsp;protective&nbsp;bubble&nbsp;lasts&nbsp;for&nbsp;one&nbsp;minute.&nbsp;The&nbsp;guardian&nbsp;can&nbsp;use&nbsp;this&nbsp;ability&nbsp;once&nbsp;every&nbsp;10&nbsp;minutes.</p>
+  disabled: false
+  inherited: false
   showInCombat: false
+  showInQuickbar: false
+  simple: false
   sources:
-    - title: Ultimate Psionics
+    - date: '2013-12-24'
       pages: 72–73
-      date: '2013-12-24'
       publisher: ' Dreamscarred Press'
-_id: H1zVDX2He68a2vqX
-img: icons/svg/book.svg
-_stats:
-  coreVersion: '13.350'
-_key: '!items!H1zVDX2He68a2vqX'
+      title: Ultimate Psionics
+  subType: classFeat
+  summons: false
+type: feat

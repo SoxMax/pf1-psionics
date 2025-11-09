@@ -290,6 +290,9 @@ async function extractPack(packName, options = {}) {
     },
     folders: true,
     yaml: true,
+    yamlOptions: {
+      sortKeys: true,
+    },
     omitVolatile: true,
   });
 

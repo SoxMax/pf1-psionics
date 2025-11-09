@@ -1,4 +1,5 @@
 _id: mqvC6RdWJ4BaaYSD
+_key: '!items!mqvC6RdWJ4BaaYSD'
 _stats:
   coreVersion: '13.350'
 flags:
@@ -115,4 +116,3 @@ system:
   uses:
     autoDeductChargesCost: max(0, @sl * 2 - 1)
 type: pf1-psionics.power
-_key: '!items!mqvC6RdWJ4BaaYSD'
