@@ -10,11 +10,15 @@ system:
     classes:
       - Vitalist
   description:
-    value: |-
+    value: >-
       <p><b>Health&nbsp;Sense:</b>Beginning&nbsp;at&nbsp;2nd&nbsp;level,&nbsp;a&nbsp;vitalist&nbsp;may&nbsp;take&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;gauge&nbsp;the&nbsp;relative&nbsp;health&nbsp;level&nbsp;of&nbsp;collective&nbsp;members,&nbsp;determining&nbsp;the&nbsp;amount&nbsp;of&nbsp;damage,&nbsp;in&nbsp;hit&nbsp;points,&nbsp;that&nbsp;an&nbsp;ally&nbsp;has&nbsp;taken.&nbsp;In&nbsp;addition,&nbsp;the&nbsp;vitalist&nbsp;may&nbsp;make&nbsp;a&nbsp;Heal&nbsp;check&nbsp;as&nbsp;a&nbsp;standard&nbsp;action,&nbsp;with&nbsp;a&nbsp;DC&nbsp;of&nbsp;15,&nbsp;to&nbsp;determine&nbsp;if&nbsp;any&nbsp;of&nbsp;the&nbsp;members&nbsp;of&nbsp;his&nbsp;collective&nbsp;are&nbsp;afflicted&nbsp;by&nbsp;a&nbsp;disease&nbsp;or&nbsp;poison.
+
       </p><p>Starting&nbsp;at&nbsp;7th&nbsp;level,&nbsp;the&nbsp;vitalist&nbsp;can&nbsp;make&nbsp;a&nbsp;Heal&nbsp;check&nbsp;over&nbsp;his&nbsp;collective&nbsp;to&nbsp;stabilize&nbsp;a&nbsp;dying&nbsp;target&nbsp;or&nbsp;treat&nbsp;a&nbsp;wound&nbsp;from&nbsp;a&nbsp;caltrop,&nbsp;spike&nbsp;growth,&nbsp;spike&nbsp;stones,&nbsp;or&nbsp;similar.&nbsp;This&nbsp;ability&nbsp;improves&nbsp;at&nbsp;12th&nbsp;level,&nbsp;and&nbsp;the&nbsp;vitalist&nbsp;may&nbsp;make&nbsp;a&nbsp;Heal&nbsp;check&nbsp;over&nbsp;his&nbsp;collective&nbsp;to&nbsp;treat&nbsp;a&nbsp;poisoned&nbsp;creature.
+
       </p><p>At&nbsp;17th&nbsp;level,&nbsp;the&nbsp;vitalist&nbsp;is&nbsp;able&nbsp;to&nbsp;treat&nbsp;diseases&nbsp;in&nbsp;the&nbsp;same&nbsp;fashion,&nbsp;making&nbsp;a&nbsp;Heal&nbsp;check&nbsp;over&nbsp;his&nbsp;collective.
+
       </p><p>When&nbsp;treating&nbsp;a&nbsp;target&nbsp;over&nbsp;a&nbsp;collective,&nbsp;the&nbsp;DC&nbsp;of&nbsp;the&nbsp;Heal&nbsp;check&nbsp;is&nbsp;the&nbsp;same&nbsp;as&nbsp;if&nbsp;the&nbsp;vitalist&nbsp;was&nbsp;treating&nbsp;the&nbsp;target&nbsp;normally.
+
       </p><p></p>
   sources:
     - date: '2012-07-23'

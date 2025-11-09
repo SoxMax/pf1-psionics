@@ -10,10 +10,13 @@ system:
     classes:
       - Voyager
   description:
-    value: |-
+    value: >-
       <p><b>Momentum:</b>A&nbsp;voyager&nbsp;generates&nbsp;kinetic&nbsp;energy&nbsp;that&nbsp;amplifies&nbsp;her&nbsp;dodging&nbsp;ability,&nbsp;but&nbsp;can&nbsp;also&nbsp;be&nbsp;channeled&nbsp;into&nbsp;an&nbsp;attack.&nbsp;Whenever&nbsp;the&nbsp;voyager&nbsp;moves,&nbsp;she&nbsp;generates&nbsp;1&nbsp;point&nbsp;of&nbsp;momentum&nbsp;for&nbsp;every&nbsp;10&nbsp;feet&nbsp;she&nbsp;moved.&nbsp;If&nbsp;the&nbsp;voyager&nbsp;teleports,&nbsp;she&nbsp;can&nbsp;treat&nbsp;the&nbsp;distance&nbsp;between&nbsp;her&nbsp;origin&nbsp;and&nbsp;arrival&nbsp;points&nbsp;as&nbsp;distance&nbsp;moved&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of&nbsp;this&nbsp;effect.&nbsp;Effects&nbsp;that&nbsp;move&nbsp;or&nbsp;teleport&nbsp;the&nbsp;voyager&nbsp;unwillingly,&nbsp;such&nbsp;as&nbsp;a&nbsp;bull&nbsp;rush&nbsp;or&nbsp;a&nbsp;hostile&nbsp;teleport&nbsp;effect&nbsp;do&nbsp;not&nbsp;cause&nbsp;the&nbsp;voyager&nbsp;to&nbsp;generate&nbsp;momentum.
+
       </p><p>The&nbsp;maximum&nbsp;amount&nbsp;of&nbsp;momentum&nbsp;a&nbsp;voyager&nbsp;can&nbsp;have&nbsp;at&nbsp;once&nbsp;is&nbsp;equal&nbsp;to&nbsp;her&nbsp;class&nbsp;level,&nbsp;no&nbsp;matter&nbsp;how&nbsp;far&nbsp;she&nbsp;moves.&nbsp;A&nbsp;voyager&nbsp;gains&nbsp;a&nbsp;+1&nbsp;dodge&nbsp;bonus&nbsp;to&nbsp;her&nbsp;AC&nbsp;and&nbsp;Reflex&nbsp;saves&nbsp;for&nbsp;each&nbsp;point&nbsp;of&nbsp;momentum&nbsp;she&nbsp;currently&nbsp;has,&nbsp;up&nbsp;to&nbsp;a&nbsp;maximum&nbsp;bonus&nbsp;equal&nbsp;to&nbsp;her&nbsp;Intelligence&nbsp;modifier&nbsp;(minimum&nbsp;+1).&nbsp;When&nbsp;the&nbsp;voyager&nbsp;makes&nbsp;an&nbsp;attack&nbsp;against&nbsp;a&nbsp;single&nbsp;target,&nbsp;she&nbsp;can&nbsp;spend&nbsp;points&nbsp;of&nbsp;momentum&nbsp;to&nbsp;deal&nbsp;an&nbsp;additional&nbsp;1d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;per&nbsp;point&nbsp;consumed.&nbsp;On&nbsp;any&nbsp;attack&nbsp;that&nbsp;the&nbsp;voyager&nbsp;spent&nbsp;at&nbsp;least&nbsp;1&nbsp;point&nbsp;of&nbsp;momentum&nbsp;on,&nbsp;she&nbsp;gains&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;her&nbsp;attack&nbsp;roll&nbsp;(even&nbsp;if&nbsp;momentum&nbsp;was&nbsp;spent&nbsp;in&nbsp;other&nbsp;ways,&nbsp;such&nbsp;as&nbsp;powering&nbsp;an&nbsp;augmented&nbsp;attack).
+
       </p><p>Momentum&nbsp;is&nbsp;not&nbsp;entirely&nbsp;retained&nbsp;from&nbsp;round&nbsp;to&nbsp;round—a&nbsp;voyager&nbsp;loses&nbsp;half&nbsp;of&nbsp;her&nbsp;gathered&nbsp;points&nbsp;of&nbsp;momentum&nbsp;at&nbsp;the&nbsp;start&nbsp;of&nbsp;each&nbsp;of&nbsp;her&nbsp;turns.
+
       </p><p></p>
   sources:
     - date: '2010-01-01'

@@ -10,9 +10,11 @@ system:
     classes:
       - Marksman
   description:
-    value: |-
+    value: >-
       <p><b>Ranged&nbsp;Specialist:</b>At&nbsp;19th&nbsp;level,&nbsp;a&nbsp;Marksman's&nbsp;ranged&nbsp;and&nbsp;thrown&nbsp;attacks&nbsp;have&nbsp;their&nbsp;critical&nbsp;multiplier&nbsp;increased&nbsp;by&nbsp;1&nbsp;(x2&nbsp;becomes&nbsp;x3,&nbsp;for&nbsp;example)&nbsp;and&nbsp;her&nbsp;penalties&nbsp;for&nbsp;range&nbsp;increments&nbsp;are&nbsp;halved.&nbsp;If&nbsp;the&nbsp;Marksman&nbsp;has&nbsp;the&nbsp;Far&nbsp;Shot&nbsp;feat,&nbsp;she&nbsp;instead&nbsp;suffers&nbsp;no&nbsp;penalties&nbsp;for&nbsp;range&nbsp;increments.
+
       </p>
+
       <div&nbsp;class="mw-heading&nbsp;mw-heading2"></p>
   sources:
     - date: '2012-07-23'

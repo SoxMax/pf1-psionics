@@ -10,9 +10,11 @@ system:
     classes:
       - Cryptic
   description:
-    value: |-
+    value: >-
       <p><b>Insight:</b>Starting&nbsp;at&nbsp;2nd&nbsp;level,&nbsp;and&nbsp;then&nbsp;again&nbsp;every&nbsp;2&nbsp;levels&nbsp;thereafter&nbsp;(up&nbsp;to&nbsp;18th&nbsp;level),&nbsp;a&nbsp;cryptic&nbsp;learns&nbsp;a&nbsp;unique&nbsp;ability&nbsp;related&nbsp;to&nbsp;her&nbsp;perception&nbsp;of&nbsp;the&nbsp;patterns&nbsp;in&nbsp;the&nbsp;world&nbsp;around&nbsp;her.&nbsp;
+
       </p>
+
       <dl><dd><div&nbsp;class="va-hatnote-text"><i></p>
   sources:
     - date: '2012-07-23'

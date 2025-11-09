@@ -10,8 +10,9 @@ system:
     classes:
       - Voyager
   description:
-    value: |-
+    value: >-
       <p><b>Evasion:</b>At&nbsp;2nd&nbsp;level,&nbsp;a&nbsp;voyager&nbsp;can&nbsp;avoid&nbsp;even&nbsp;magical&nbsp;and&nbsp;unusual&nbsp;attacks&nbsp;with&nbsp;great&nbsp;agility.&nbsp;If&nbsp;the&nbsp;voyager&nbsp;makes&nbsp;a&nbsp;successful&nbsp;Reflex&nbsp;saving&nbsp;throw&nbsp;against&nbsp;an&nbsp;attack&nbsp;that&nbsp;normally&nbsp;deals&nbsp;half&nbsp;damage&nbsp;on&nbsp;a&nbsp;successful&nbsp;save,&nbsp;she&nbsp;instead&nbsp;takes&nbsp;no&nbsp;damage.&nbsp;Evasion&nbsp;can&nbsp;be&nbsp;used&nbsp;only&nbsp;if&nbsp;the&nbsp;voyager&nbsp;is&nbsp;wearing&nbsp;light&nbsp;armor&nbsp;or&nbsp;no&nbsp;armor.&nbsp;A&nbsp;helpless&nbsp;voyager&nbsp;does&nbsp;not&nbsp;gain&nbsp;the&nbsp;benefit&nbsp;of&nbsp;evasion.
+
       </p><p></p>
   sources:
     - date: '2010-01-01'

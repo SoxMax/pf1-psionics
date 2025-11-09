@@ -1,0 +1,76 @@
+folder: dC5cavpjz683I8Wb
+type: feat
+name: Mender Method
+system:
+  description:
+    value: >-
+      <p><span&nbsp;class="va-quotation-text"><em>A&nbsp;mender&nbsp;vitalist&nbsp;is&nbsp;the&nbsp;most&nbsp;common&nbsp;found,&nbsp;as&nbsp;he&nbsp;focuses&nbsp;on&nbsp;healing&nbsp;wounds&nbsp;more&nbsp;efficiently,&nbsp;even&nbsp;bringing&nbsp;back&nbsp;life&nbsp;to&nbsp;the&nbsp;dead.&nbsp;The&nbsp;mender&nbsp;vitalist&nbsp;learns&nbsp;how&nbsp;to&nbsp;boost&nbsp;the&nbsp;body's&nbsp;natural&nbsp;healing&nbsp;ability&nbsp;to&nbsp;unimaginable&nbsp;regenerative&nbsp;levels.</em></span></p><p><strong>Mender&nbsp;Power:</strong>&nbsp;A&nbsp;mender&nbsp;vitalist&nbsp;adds&nbsp;<em>@UUID[Compendium.pf1-psionics.powers.Item.Cnx8bMkrtofPQDRJ]{Natural&nbsp;Healing}</em>&nbsp;to&nbsp;his&nbsp;list&nbsp;of&nbsp;powers&nbsp;known.&nbsp;This&nbsp;does&nbsp;not&nbsp;count&nbsp;against&nbsp;his&nbsp;number&nbsp;of&nbsp;powers&nbsp;known.</p><p><strong>Mender&nbsp;Knacks:</strong>&nbsp;A&nbsp;mender&nbsp;gains&nbsp;the&nbsp;talent&nbsp;below&nbsp;as&nbsp;his&nbsp;method&nbsp;knack.</p><ul><li><em>@UUID[Compendium.pf1-psionics.powers.Item.1eq5n08zT8gK9tni]{Halt&nbsp;Death}</em>:&nbsp;Automatically&nbsp;stabilize&nbsp;a&nbsp;dying&nbsp;creature.</li></ul><p><strong>Mender's&nbsp;Touch:</strong>&nbsp;A&nbsp;mender&nbsp;vitalist&nbsp;of&nbsp;2nd&nbsp;level&nbsp;who&nbsp;utilizes&nbsp;transfer&nbsp;wounds&nbsp;heals&nbsp;the&nbsp;target&nbsp;an&nbsp;additional&nbsp;number&nbsp;of&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;his&nbsp;class&nbsp;level.&nbsp;This&nbsp;additional&nbsp;healing&nbsp;is&nbsp;not&nbsp;transferred&nbsp;to&nbsp;the&nbsp;mender&nbsp;like&nbsp;the&nbsp;normal&nbsp;amount&nbsp;healed.</p><p><strong>Mender's&nbsp;Pulse:</strong>&nbsp;As&nbsp;a&nbsp;free&nbsp;action,&nbsp;a&nbsp;mender&nbsp;of&nbsp;6th&nbsp;level&nbsp;may&nbsp;project&nbsp;a&nbsp;pulse&nbsp;to&nbsp;all&nbsp;members&nbsp;of&nbsp;his&nbsp;collective&nbsp;by&nbsp;spending&nbsp;one&nbsp;power&nbsp;point,&nbsp;granting&nbsp;fast&nbsp;healing&nbsp;1&nbsp;for&nbsp;one&nbsp;round.&nbsp;Every&nbsp;three&nbsp;vitalist&nbsp;levels&nbsp;thereafter,&nbsp;this&nbsp;fast&nbsp;healing&nbsp;increases&nbsp;by&nbsp;1.&nbsp;This&nbsp;healing&nbsp;is&nbsp;not&nbsp;eligible&nbsp;to&nbsp;be&nbsp;redirected&nbsp;using&nbsp;collective&nbsp;healing.</p><p><strong>Swift&nbsp;Aid:</strong>&nbsp;A&nbsp;mender&nbsp;of&nbsp;8th&nbsp;level&nbsp;may,&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action&nbsp;and&nbsp;by&nbsp;expending&nbsp;his&nbsp;psionic&nbsp;focus,&nbsp;heal&nbsp;a&nbsp;member&nbsp;of&nbsp;his&nbsp;collective&nbsp;as&nbsp;if&nbsp;he&nbsp;had&nbsp;used&nbsp;transfer&nbsp;wounds.</p><p><strong>Mender's&nbsp;Expertise:</strong>&nbsp;Upon&nbsp;achieving&nbsp;11th&nbsp;level,&nbsp;a&nbsp;mender&nbsp;is&nbsp;skilled&nbsp;at&nbsp;restoring&nbsp;the&nbsp;psyche&nbsp;of&nbsp;the&nbsp;recently&nbsp;deceased&nbsp;and&nbsp;efficiently&nbsp;healing&nbsp;his&nbsp;collective&nbsp;members.&nbsp;Any&nbsp;time&nbsp;a&nbsp;mender&nbsp;manifests&nbsp;@UUID[Compendium.pf1-psionics.powers.Item.hCEb5OhGt8ph780v]{Psionic&nbsp;Revivify},&nbsp;the&nbsp;maximum&nbsp;number&nbsp;of&nbsp;rounds&nbsp;after&nbsp;the&nbsp;target's&nbsp;death&nbsp;allowed&nbsp;increases&nbsp;by&nbsp;his&nbsp;Wisdom&nbsp;modifier&nbsp;(minimum&nbsp;1)&nbsp;without&nbsp;the&nbsp;need&nbsp;to&nbsp;suffer&nbsp;additional&nbsp;negative&nbsp;levels.</p><p>In&nbsp;addition,&nbsp;anytime&nbsp;a&nbsp;mender&nbsp;manifests&nbsp;a&nbsp;power&nbsp;with&nbsp;the&nbsp;[Healing]&nbsp;descriptor,&nbsp;it&nbsp;heals&nbsp;an&nbsp;additional&nbsp;50%&nbsp;hit&nbsp;points&nbsp;(round&nbsp;down).</p><p><strong>Master&nbsp;Mender:</strong>&nbsp;A&nbsp;mender&nbsp;of&nbsp;20th&nbsp;level&nbsp;is&nbsp;capable&nbsp;of&nbsp;healing&nbsp;even&nbsp;the&nbsp;most&nbsp;grievous&nbsp;of&nbsp;injuries.&nbsp;As&nbsp;a&nbsp;full-round&nbsp;action&nbsp;and&nbsp;by&nbsp;expending&nbsp;his&nbsp;psionic&nbsp;focus,&nbsp;the&nbsp;mender&nbsp;can&nbsp;heal&nbsp;a&nbsp;member&nbsp;of&nbsp;his&nbsp;collective&nbsp;to&nbsp;full&nbsp;health,&nbsp;including&nbsp;restoring&nbsp;any&nbsp;ability&nbsp;drain,&nbsp;removing&nbsp;fatigue&nbsp;or&nbsp;exhaustion,&nbsp;and&nbsp;curing&nbsp;any&nbsp;poisons&nbsp;or&nbsp;diseases.&nbsp;The&nbsp;mender&nbsp;can&nbsp;use&nbsp;this&nbsp;ability&nbsp;once&nbsp;every&nbsp;10&nbsp;minutes.</p>
+  changeFlags:
+    immuneToMorale: false
+    loseDexToAC: false
+    noMediumEncumbrance: false
+    noHeavyEncumbrance: false
+    mediumArmorFullSpeed: false
+    heavyArmorFullSpeed: false
+    lowLightVision: false
+    seeInvisibility: false
+    seeInDarkness: false
+  subType: classFeat
+  abilityType: na
+  showInQuickbar: false
+  inherited: false
+  acquired: false
+  simple: false
+  summons: false
+  disabled: false
+  classSkills:
+    acr: false
+    apr: false
+    art: false
+    ahp: false
+    blf: false
+    clm: false
+    crf: false
+    dip: false
+    dev: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  showInCombat: false
+  sources:
+    - title: Ultimate Psionics
+      pages: '74'
+      date: '2013-12-24'
+      publisher: ' Dreamscarred Press'
+_id: EZFuodW3IUO7ZTFC
+img: icons/svg/book.svg
+_stats:
+  coreVersion: '13.350'
+_key: '!items!EZFuodW3IUO7ZTFC'

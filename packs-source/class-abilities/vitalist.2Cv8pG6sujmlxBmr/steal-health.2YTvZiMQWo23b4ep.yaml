@@ -10,11 +10,15 @@ system:
     classes:
       - Vitalist
   description:
-    value: |-
+    value: >-
       <p><b>Steal&nbsp;Health:</b>At&nbsp;3rd&nbsp;level,&nbsp;a&nbsp;vitalist&nbsp;has&nbsp;learned&nbsp;to&nbsp;siphon&nbsp;the&nbsp;health&nbsp;of&nbsp;a&nbsp;creature&nbsp;and&nbsp;use&nbsp;it&nbsp;for&nbsp;his&nbsp;own&nbsp;needs&nbsp;or&nbsp;the&nbsp;needs&nbsp;of&nbsp;his&nbsp;collective.&nbsp;As&nbsp;a&nbsp;touch&nbsp;attack,&nbsp;the&nbsp;vitalist&nbsp;may&nbsp;deal&nbsp;a&nbsp;number&nbsp;of&nbsp;hit&nbsp;points&nbsp;in&nbsp;damage&nbsp;to&nbsp;the&nbsp;target&nbsp;equal&nbsp;to&nbsp;his&nbsp;vitalist&nbsp;level&nbsp;+&nbsp;his&nbsp;Wisdom&nbsp;modifier&nbsp;and&nbsp;heal&nbsp;an&nbsp;equal&nbsp;amount&nbsp;of&nbsp;damage.&nbsp;The&nbsp;vitalist&nbsp;may&nbsp;share&nbsp;any&nbsp;healing&nbsp;from&nbsp;this&nbsp;effect&nbsp;over&nbsp;his&nbsp;collective,&nbsp;even&nbsp;if&nbsp;he&nbsp;himself&nbsp;would&nbsp;not&nbsp;be&nbsp;eligible&nbsp;for&nbsp;the&nbsp;healing.&nbsp;A&nbsp;vitalist&nbsp;may&nbsp;not&nbsp;heal&nbsp;more&nbsp;hit&nbsp;points&nbsp;than&nbsp;the&nbsp;touched&nbsp;creature&nbsp;had&nbsp;prior&nbsp;to&nbsp;using&nbsp;this&nbsp;ability.
+
       </p><p>This&nbsp;ability&nbsp;may&nbsp;only&nbsp;be&nbsp;used&nbsp;on&nbsp;creatures&nbsp;with&nbsp;a&nbsp;Constitution&nbsp;score&nbsp;and&nbsp;may&nbsp;not&nbsp;be&nbsp;used&nbsp;against&nbsp;creatures&nbsp;in&nbsp;the&nbsp;vitalist's&nbsp;collective.&nbsp;A&nbsp;vitalist&nbsp;may&nbsp;use&nbsp;this&nbsp;ability&nbsp;on&nbsp;creatures&nbsp;with&nbsp;a&nbsp;total&nbsp;number&nbsp;of&nbsp;hit&nbsp;dice&nbsp;less&nbsp;than&nbsp;half&nbsp;his&nbsp;vitalist&nbsp;level,&nbsp;but&nbsp;he&nbsp;gains&nbsp;no&nbsp;healing&nbsp;from&nbsp;it.
+
       </p><p>For&nbsp;example,&nbsp;Jorus&nbsp;is&nbsp;a&nbsp;level&nbsp;3&nbsp;vitalist&nbsp;with&nbsp;a&nbsp;Wisdom&nbsp;of&nbsp;16&nbsp;and&nbsp;15&nbsp;hit&nbsp;points.&nbsp;Jorus&nbsp;has&nbsp;suffered&nbsp;3&nbsp;hit&nbsp;points&nbsp;of&nbsp;damage&nbsp;and&nbsp;uses&nbsp;Steal&nbsp;Health&nbsp;on&nbsp;a&nbsp;nearby&nbsp;2&nbsp;hit&nbsp;dice&nbsp;orc,&nbsp;dealing&nbsp;6&nbsp;hit&nbsp;points&nbsp;of&nbsp;damage&nbsp;(3&nbsp;from&nbsp;his&nbsp;levels&nbsp;in&nbsp;vitalist,&nbsp;3&nbsp;from&nbsp;his&nbsp;Wisdom&nbsp;modifier).&nbsp;Although&nbsp;Jorus&nbsp;may&nbsp;only&nbsp;heal&nbsp;himself&nbsp;for&nbsp;3&nbsp;hit&nbsp;points,&nbsp;he&nbsp;may&nbsp;distribute&nbsp;the&nbsp;other&nbsp;3&nbsp;hit&nbsp;points&nbsp;over&nbsp;the&nbsp;collective&nbsp;to&nbsp;other&nbsp;members&nbsp;as&nbsp;needed.&nbsp;If&nbsp;Jorus&nbsp;was&nbsp;level&nbsp;6,&nbsp;he&nbsp;would&nbsp;have&nbsp;dealt&nbsp;9&nbsp;points&nbsp;of&nbsp;damage,&nbsp;but&nbsp;would&nbsp;not&nbsp;have&nbsp;received&nbsp;any&nbsp;healing&nbsp;because&nbsp;the&nbsp;orc's&nbsp;total&nbsp;number&nbsp;of&nbsp;hit&nbsp;dice&nbsp;was&nbsp;too&nbsp;low.
+
       </p><p>At&nbsp;7th&nbsp;level,&nbsp;a&nbsp;vitalist&nbsp;is&nbsp;able&nbsp;to&nbsp;use&nbsp;steal&nbsp;health&nbsp;as&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;with&nbsp;a&nbsp;range&nbsp;of&nbsp;30&nbsp;feet.
+
       </p><p></p>
   sources:
     - date: '2012-07-23'

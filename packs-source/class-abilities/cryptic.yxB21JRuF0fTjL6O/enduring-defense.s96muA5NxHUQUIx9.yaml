@@ -10,8 +10,9 @@ system:
     classes:
       - Cryptic
   description:
-    value: |-
+    value: >-
       <p><b>Enduring&nbsp;Defense:</b>A&nbsp;cryptic&nbsp;of&nbsp;14th&nbsp;level&nbsp;can&nbsp;choose&nbsp;any&nbsp;option&nbsp;from&nbsp;the&nbsp;altered&nbsp;defense&nbsp;ability&nbsp;and&nbsp;always&nbsp;be&nbsp;under&nbsp;that&nbsp;effect.&nbsp;The&nbsp;cryptic&nbsp;can&nbsp;still&nbsp;change&nbsp;the&nbsp;effect&nbsp;as&nbsp;a&nbsp;swift&nbsp;action,&nbsp;but&nbsp;she&nbsp;is&nbsp;no&nbsp;longer&nbsp;limited&nbsp;to&nbsp;how&nbsp;many&nbsp;rounds&nbsp;per&nbsp;day&nbsp;she&nbsp;can&nbsp;have&nbsp;Altered&nbsp;Defense&nbsp;active.
+
       </p><p></p>
   sources:
     - date: '2012-07-23'

@@ -10,8 +10,9 @@ system:
     classes:
       - Cryptic
   description:
-    value: |-
+    value: >-
       <p><b>Swift&nbsp;Trapper:</b>At&nbsp;6th&nbsp;level,&nbsp;a&nbsp;cryptic&nbsp;can&nbsp;create&nbsp;traps&nbsp;with&nbsp;astounding&nbsp;speed.&nbsp;It&nbsp;takes&nbsp;a&nbsp;cryptic&nbsp;half&nbsp;the&nbsp;normal&nbsp;amount&nbsp;of&nbsp;time&nbsp;to&nbsp;create&nbsp;traps.
+
       </p><p></p>
   sources:
     - date: '2012-07-23'

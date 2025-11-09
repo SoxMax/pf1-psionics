@@ -10,8 +10,9 @@ system:
     classes:
       - Aegis
   description:
-    value: |-
+    value: >-
       <p><b>Craftsman:</b>Beginning&nbsp;at&nbsp;2nd&nbsp;level,&nbsp;an&nbsp;aegis&nbsp;gains&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;to&nbsp;one&nbsp;Craft&nbsp;skill&nbsp;of&nbsp;his&nbsp;choice.&nbsp;At&nbsp;6th&nbsp;level&nbsp;and&nbsp;every&nbsp;four&nbsp;levels&nbsp;thereafter,&nbsp;this&nbsp;bonus&nbsp;increases&nbsp;by&nbsp;1.
+
       </p><p></p>
   sources:
     - date: '2012-07-23'

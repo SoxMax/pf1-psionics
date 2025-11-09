@@ -10,9 +10,11 @@ system:
     classes:
       - Wilder
   description:
-    value: |-
+    value: >-
       <p><b>Surging&nbsp;Euphoria:</b>Starting&nbsp;at&nbsp;4th&nbsp;level,&nbsp;when&nbsp;a&nbsp;wilder&nbsp;uses&nbsp;her&nbsp;wild&nbsp;surge&nbsp;ability,&nbsp;she&nbsp;gains&nbsp;a&nbsp;+1&nbsp;morale&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;rolls,&nbsp;damage&nbsp;rolls,&nbsp;and&nbsp;saving&nbsp;throws&nbsp;for&nbsp;a&nbsp;number&nbsp;of&nbsp;rounds&nbsp;equal&nbsp;to&nbsp;the&nbsp;intensity&nbsp;of&nbsp;her&nbsp;wild&nbsp;surge.&nbsp;If&nbsp;a&nbsp;wilder&nbsp;is&nbsp;overcome&nbsp;by&nbsp;psychic&nbsp;enervation&nbsp;following&nbsp;her&nbsp;wild&nbsp;surge,&nbsp;she&nbsp;does&nbsp;not&nbsp;gain&nbsp;the&nbsp;morale&nbsp;bonus&nbsp;for&nbsp;this&nbsp;use&nbsp;of&nbsp;her&nbsp;wild&nbsp;surge&nbsp;ability.
+
       </p><p>At&nbsp;12th&nbsp;level,&nbsp;the&nbsp;morale&nbsp;bonus&nbsp;on&nbsp;a&nbsp;wilder's&nbsp;attack&nbsp;rolls,&nbsp;damage&nbsp;rolls,&nbsp;and&nbsp;saving&nbsp;throws&nbsp;increases&nbsp;to&nbsp;+2.&nbsp;At&nbsp;20th&nbsp;level,&nbsp;the&nbsp;bonus&nbsp;increases&nbsp;to&nbsp;+3.
+
       </p><p></p>
   sources:
     - date: '2010-08-01'

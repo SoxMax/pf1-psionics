@@ -10,8 +10,9 @@ system:
     classes:
       - Psychic Warrior
   description:
-    value: |-
+    value: >-
       <p><b>Psionic&nbsp;Proficiency:</b>A&nbsp;psychic&nbsp;warrior&nbsp;treats&nbsp;his&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;as&nbsp;equal&nbsp;to&nbsp;his&nbsp;psychic&nbsp;warrior&nbsp;level&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of&nbsp;requirements&nbsp;for&nbsp;psionic&nbsp;feats.&nbsp;Base&nbsp;attack&nbsp;bonuses&nbsp;granted&nbsp;from&nbsp;other&nbsp;classes&nbsp;are&nbsp;unaffected&nbsp;and&nbsp;are&nbsp;added&nbsp;normally.
+
       </p><p></p>
   sources:
     - date: '2010-08-01'

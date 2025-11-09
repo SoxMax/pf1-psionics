@@ -1,0 +1,76 @@
+folder: dC5cavpjz683I8Wb
+type: feat
+name: Soulthief Method
+system:
+  description:
+    value: >-
+      <p><span&nbsp;class="va-quotation-text"><em>A&nbsp;soulthief&nbsp;vitalist&nbsp;develops&nbsp;techniques&nbsp;that&nbsp;focus&nbsp;on&nbsp;harnessing&nbsp;the&nbsp;energy&nbsp;of&nbsp;enemies,&nbsp;siphoning&nbsp;it&nbsp;off&nbsp;and&nbsp;using&nbsp;it&nbsp;to&nbsp;heal&nbsp;himself&nbsp;and&nbsp;his&nbsp;allies.</em></span></p><p><strong>Soulthief&nbsp;Power:</strong>&nbsp;A&nbsp;soulthief&nbsp;vitalist&nbsp;adds&nbsp;<em>@UUID[Compendium.pf1-psionics.powers.Item.XjFBnYGwGhBF8Prs]{Collapse}</em>&nbsp;to&nbsp;his&nbsp;list&nbsp;of&nbsp;powers&nbsp;known.&nbsp;This&nbsp;does&nbsp;not&nbsp;count&nbsp;against&nbsp;his&nbsp;number&nbsp;of&nbsp;powers&nbsp;known.</p><p><strong>Soulthief&nbsp;Knacks:</strong>&nbsp;A&nbsp;soulthief&nbsp;can&nbsp;select&nbsp;one&nbsp;of&nbsp;the&nbsp;talents&nbsp;below&nbsp;as&nbsp;his&nbsp;method&nbsp;knack.</p><ul><li><em>@UUID[Compendium.pf1-psionics.powers.Item.vecZ9Bfr59u9Wu86]{Fatigue}</em>:&nbsp;Cause&nbsp;a&nbsp;creature&nbsp;to&nbsp;be&nbsp;fatigued.</li><li><em>@UUID[Compendium.pf1-psionics.powers.Item.lkTPtnYxbzQtO3vb]{Siphon}</em>:&nbsp;Deal&nbsp;1d3&nbsp;points&nbsp;of&nbsp;damage&nbsp;and&nbsp;gain&nbsp;1&nbsp;temporary&nbsp;hit&nbsp;point.</li></ul><p><strong>Soulthief's&nbsp;Touch:</strong>&nbsp;A&nbsp;soulthief&nbsp;vitalist&nbsp;of&nbsp;2nd&nbsp;level&nbsp;who&nbsp;utilizes&nbsp;transfer&nbsp;wounds&nbsp;can&nbsp;choose&nbsp;to&nbsp;instead&nbsp;deal&nbsp;the&nbsp;amount&nbsp;of&nbsp;damage&nbsp;that&nbsp;transfer&nbsp;wounds&nbsp;would&nbsp;normally&nbsp;heal&nbsp;plus&nbsp;the&nbsp;soulthief's&nbsp;class&nbsp;level&nbsp;to&nbsp;the&nbsp;target,&nbsp;healing&nbsp;himself&nbsp;a&nbsp;number&nbsp;of&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;the&nbsp;damage&nbsp;dealt.&nbsp;A&nbsp;soulthief&nbsp;may&nbsp;not&nbsp;heal&nbsp;more&nbsp;hit&nbsp;points&nbsp;than&nbsp;the&nbsp;touched&nbsp;creature&nbsp;had&nbsp;prior&nbsp;to&nbsp;using&nbsp;this&nbsp;ability.</p><p>This&nbsp;ability&nbsp;may&nbsp;only&nbsp;be&nbsp;used&nbsp;on&nbsp;creatures&nbsp;with&nbsp;a&nbsp;Constitution&nbsp;score&nbsp;and&nbsp;may&nbsp;not&nbsp;be&nbsp;used&nbsp;against&nbsp;creatures&nbsp;in&nbsp;the&nbsp;soulthief's&nbsp;collective.&nbsp;A&nbsp;soulthief&nbsp;may&nbsp;use&nbsp;this&nbsp;ability&nbsp;on&nbsp;creatures&nbsp;with&nbsp;a&nbsp;total&nbsp;number&nbsp;of&nbsp;hit&nbsp;dice&nbsp;less&nbsp;than&nbsp;half&nbsp;his&nbsp;vitalist&nbsp;level,&nbsp;but&nbsp;he&nbsp;gains&nbsp;no&nbsp;healing&nbsp;from&nbsp;it.</p><p><strong>Soulthief's&nbsp;Pulse:</strong>&nbsp;As&nbsp;a&nbsp;free&nbsp;action,&nbsp;a&nbsp;soulthief&nbsp;of&nbsp;6th&nbsp;level&nbsp;may&nbsp;project&nbsp;a&nbsp;pulse&nbsp;to&nbsp;all&nbsp;members&nbsp;of&nbsp;his&nbsp;collective&nbsp;by&nbsp;spending&nbsp;one&nbsp;power&nbsp;point,&nbsp;which&nbsp;empowers&nbsp;the&nbsp;attacks&nbsp;of&nbsp;the&nbsp;members&nbsp;of&nbsp;the&nbsp;collective&nbsp;for&nbsp;one&nbsp;round.&nbsp;Any&nbsp;successful&nbsp;damaging&nbsp;attack&nbsp;made&nbsp;with&nbsp;an&nbsp;attack&nbsp;roll&nbsp;made&nbsp;by&nbsp;a&nbsp;member&nbsp;of&nbsp;the&nbsp;collective&nbsp;heals&nbsp;the&nbsp;attacker&nbsp;for&nbsp;the&nbsp;damage&nbsp;dealt,&nbsp;up&nbsp;to&nbsp;2&nbsp;hit&nbsp;points&nbsp;of&nbsp;damage.&nbsp;Every&nbsp;three&nbsp;vitalist&nbsp;levels&nbsp;thereafter,&nbsp;the&nbsp;maximum&nbsp;healing&nbsp;granted&nbsp;by&nbsp;this&nbsp;aura&nbsp;increases&nbsp;by&nbsp;1.</p><p><strong>Swift&nbsp;Aid:</strong>&nbsp;A&nbsp;soulthief&nbsp;of&nbsp;8th&nbsp;level&nbsp;may,&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action&nbsp;and&nbsp;by&nbsp;expending&nbsp;his&nbsp;psionic&nbsp;focus,&nbsp;transfer&nbsp;the&nbsp;wounds&nbsp;of&nbsp;a&nbsp;member&nbsp;of&nbsp;his&nbsp;collective&nbsp;to&nbsp;an&nbsp;enemy&nbsp;within&nbsp;15&nbsp;ft.&nbsp;of&nbsp;the&nbsp;ally&nbsp;for&nbsp;an&nbsp;amount&nbsp;of&nbsp;damage&nbsp;equal&nbsp;to&nbsp;the&nbsp;soulthief's&nbsp;transfer&nbsp;wounds&nbsp;ability.&nbsp;A&nbsp;successful&nbsp;Fortitude&nbsp;save&nbsp;(DC&nbsp;10&nbsp;+&nbsp;1/2&nbsp;class&nbsp;level&nbsp;+&nbsp;Wisdom&nbsp;modifier)&nbsp;negates&nbsp;the&nbsp;effect.</p><p><strong>Soulthief's&nbsp;Expertise:</strong>&nbsp;Upon&nbsp;achieving&nbsp;11th&nbsp;level,&nbsp;anytime&nbsp;a&nbsp;soulthief&nbsp;manifests&nbsp;<em>@UUID[Compendium.pf1-psionics.powers.Item.DjeCOTwMtfNxMHKq]{Empathic&nbsp;Transfer,&nbsp;Hostile}</em>,&nbsp;the&nbsp;attack&nbsp;can&nbsp;be&nbsp;made&nbsp;as&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;with&nbsp;a&nbsp;range&nbsp;of&nbsp;30&nbsp;feet&nbsp;instead&nbsp;of&nbsp;as&nbsp;a&nbsp;melee&nbsp;touch&nbsp;attack.&nbsp;In&nbsp;addition,&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;spent&nbsp;augmenting&nbsp;hostile&nbsp;empathic&nbsp;transfer&nbsp;increases&nbsp;the&nbsp;additional&nbsp;damage&nbsp;transferred&nbsp;by&nbsp;7,&nbsp;rather&nbsp;than&nbsp;by&nbsp;5,&nbsp;and&nbsp;the&nbsp;maximum&nbsp;number&nbsp;of&nbsp;points&nbsp;of&nbsp;damage&nbsp;transferred&nbsp;increases&nbsp;to&nbsp;85.</p><p>In&nbsp;addition,&nbsp;any&nbsp;time&nbsp;a&nbsp;soulthief&nbsp;manifests&nbsp;a&nbsp;power&nbsp;or&nbsp;psi-like&nbsp;ability&nbsp;that&nbsp;deals&nbsp;hit&nbsp;point&nbsp;damage,&nbsp;it&nbsp;heals&nbsp;him&nbsp;for&nbsp;50%&nbsp;of&nbsp;the&nbsp;damage&nbsp;dealt.&nbsp;If&nbsp;the&nbsp;power&nbsp;does&nbsp;hit&nbsp;point&nbsp;damage&nbsp;to&nbsp;multiple&nbsp;targets,&nbsp;the&nbsp;soulthief&nbsp;only&nbsp;heals&nbsp;50%&nbsp;of&nbsp;the&nbsp;damage&nbsp;to&nbsp;the&nbsp;target&nbsp;dealt&nbsp;the&nbsp;highest&nbsp;damage.</p><p><strong>Master&nbsp;Soulthief:</strong>&nbsp;A&nbsp;soulthief&nbsp;of&nbsp;20th&nbsp;level&nbsp;learns&nbsp;how&nbsp;to&nbsp;siphon&nbsp;the&nbsp;life&nbsp;out&nbsp;of&nbsp;a&nbsp;creature.&nbsp;Once&nbsp;every&nbsp;10&nbsp;minutes,&nbsp;the&nbsp;soulthief&nbsp;can&nbsp;choose&nbsp;one&nbsp;target&nbsp;to&nbsp;which&nbsp;he&nbsp;has&nbsp;line&nbsp;of&nbsp;sight&nbsp;and,&nbsp;as&nbsp;a&nbsp;full-round&nbsp;action&nbsp;and&nbsp;by&nbsp;expending&nbsp;his&nbsp;psionic&nbsp;focus,&nbsp;begin&nbsp;draining&nbsp;the&nbsp;target&nbsp;of&nbsp;health&nbsp;(12d6&nbsp;points&nbsp;of&nbsp;empathic&nbsp;damage)&nbsp;which&nbsp;is&nbsp;then&nbsp;transferred&nbsp;to&nbsp;the&nbsp;collective&nbsp;and&nbsp;heals&nbsp;an&nbsp;equal&nbsp;amount&nbsp;of&nbsp;damage.&nbsp;A&nbsp;successful&nbsp;Will&nbsp;save&nbsp;(DC&nbsp;20&nbsp;+&nbsp;Wis&nbsp;modifier)&nbsp;negates&nbsp;the&nbsp;effect.&nbsp;Each&nbsp;round,&nbsp;the&nbsp;target&nbsp;may&nbsp;attempt&nbsp;another&nbsp;Will&nbsp;save&nbsp;to&nbsp;negate&nbsp;the&nbsp;effect.&nbsp;The&nbsp;soulthief&nbsp;can&nbsp;maintain&nbsp;concentration&nbsp;to&nbsp;continue&nbsp;the&nbsp;damage&nbsp;each&nbsp;round,&nbsp;for&nbsp;up&nbsp;to&nbsp;one&nbsp;minute.&nbsp;Any&nbsp;damage&nbsp;done&nbsp;after&nbsp;all&nbsp;members&nbsp;of&nbsp;the&nbsp;collective&nbsp;are&nbsp;healed&nbsp;completely&nbsp;instead&nbsp;grants&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;to&nbsp;any&nbsp;member&nbsp;of&nbsp;the&nbsp;collective&nbsp;(soulthief's&nbsp;choice)&nbsp;for&nbsp;10&nbsp;minutes.&nbsp;The&nbsp;soulthief&nbsp;may&nbsp;divide&nbsp;these&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;as&nbsp;he&nbsp;so&nbsp;chooses&nbsp;among&nbsp;members&nbsp;of&nbsp;the&nbsp;collective.</p>
+  changeFlags:
+    immuneToMorale: false
+    loseDexToAC: false
+    noMediumEncumbrance: false
+    noHeavyEncumbrance: false
+    mediumArmorFullSpeed: false
+    heavyArmorFullSpeed: false
+    lowLightVision: false
+    seeInvisibility: false
+    seeInDarkness: false
+  subType: classFeat
+  abilityType: na
+  showInQuickbar: false
+  inherited: false
+  acquired: false
+  simple: false
+  summons: false
+  disabled: false
+  classSkills:
+    acr: false
+    apr: false
+    art: false
+    ahp: false
+    blf: false
+    clm: false
+    crf: false
+    dip: false
+    dev: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  showInCombat: false
+  sources:
+    - title: Ultimate Psionics
+      pages: 74–75
+      date: '2013-12-24'
+      publisher: Dreamscarred Press
+_id: ig1POM3iWsxvR8yy
+img: icons/svg/book.svg
+_stats:
+  coreVersion: '13.350'
+_key: '!items!ig1POM3iWsxvR8yy'

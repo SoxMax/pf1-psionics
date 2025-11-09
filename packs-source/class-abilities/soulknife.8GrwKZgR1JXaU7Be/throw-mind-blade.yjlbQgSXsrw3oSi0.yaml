@@ -10,8 +10,9 @@ system:
     classes:
       - Soulknife
   description:
-    value: |-
+    value: >-
       <p><b>Throw&nbsp;Mind&nbsp;Blade:</b>All&nbsp;soulknives&nbsp;have&nbsp;some&nbsp;knowledge&nbsp;of&nbsp;how&nbsp;to&nbsp;throw&nbsp;their&nbsp;mind&nbsp;blades,&nbsp;though&nbsp;the&nbsp;range&nbsp;increment&nbsp;varies&nbsp;by&nbsp;form&nbsp;and&nbsp;the&nbsp;largest&nbsp;of&nbsp;blade&nbsp;forms&nbsp;cannot&nbsp;be&nbsp;thrown.&nbsp;Light&nbsp;weapon&nbsp;mind&nbsp;blades&nbsp;have&nbsp;a&nbsp;range&nbsp;increment&nbsp;of&nbsp;20&nbsp;ft.&nbsp;One-handed&nbsp;weapon&nbsp;mind&nbsp;blades&nbsp;have&nbsp;a&nbsp;range&nbsp;increment&nbsp;of&nbsp;15&nbsp;ft.&nbsp;Two-handed&nbsp;weapon&nbsp;mind&nbsp;blades&nbsp;cannot&nbsp;be&nbsp;thrown&nbsp;without&nbsp;the&nbsp;Two-Handed&nbsp;Throw&nbsp;blade&nbsp;skill.&nbsp;&nbsp;Whether&nbsp;or&nbsp;not&nbsp;the&nbsp;attack&nbsp;hits,&nbsp;a&nbsp;thrown&nbsp;mind&nbsp;blade&nbsp;then&nbsp;dissipates.
+
       </p><p></p>
   sources:
     - date: '2010-08-01'

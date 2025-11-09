@@ -10,8 +10,9 @@ system:
     classes:
       - Cryptic
   description:
-    value: |-
+    value: >-
       <p><b>Unchanging&nbsp;Pattern:</b>At&nbsp;18th&nbsp;level,&nbsp;the&nbsp;cryptic&nbsp;gains&nbsp;power&nbsp;resistance&nbsp;equal&nbsp;to&nbsp;12&nbsp;+&nbsp;her&nbsp;class&nbsp;level.
+
       </p><p></p>
   sources:
     - date: '2012-07-23'

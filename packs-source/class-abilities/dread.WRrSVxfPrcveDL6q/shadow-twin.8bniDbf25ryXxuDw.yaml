@@ -10,14 +10,21 @@ system:
     classes:
       - Dread
   description:
-    value: |-
+    value: >-
       <p><b>Shadow&nbsp;Twin:</b>A&nbsp;dread&nbsp;of&nbsp;11th&nbsp;level&nbsp;is&nbsp;able&nbsp;to&nbsp;draw&nbsp;forth&nbsp;a&nbsp;replica&nbsp;of&nbsp;herself&nbsp;formed&nbsp;from&nbsp;fears&nbsp;and&nbsp;nightmares.&nbsp;The&nbsp;shadow&nbsp;twin&nbsp;appears&nbsp;at&nbsp;a&nbsp;location&nbsp;chosen&nbsp;by&nbsp;the&nbsp;dread&nbsp;that&nbsp;is&nbsp;within&nbsp;30&nbsp;ft.&nbsp;and&nbsp;lasts&nbsp;for&nbsp;one&nbsp;round&nbsp;per&nbsp;class&nbsp;level.&nbsp;The&nbsp;dread&nbsp;and&nbsp;this&nbsp;shadow&nbsp;twin&nbsp;are,&nbsp;for&nbsp;all&nbsp;intents&nbsp;and&nbsp;purposes,&nbsp;one&nbsp;person&nbsp;-&nbsp;including&nbsp;only&nbsp;having&nbsp;one&nbsp;round's&nbsp;worth&nbsp;of&nbsp;actions&nbsp;to&nbsp;use&nbsp;between&nbsp;the&nbsp;two,&nbsp;sharing&nbsp;attacks&nbsp;of&nbsp;opportunity,&nbsp;sharing&nbsp;a&nbsp;single&nbsp;pool&nbsp;of&nbsp;hit&nbsp;points&nbsp;and&nbsp;power&nbsp;points,&nbsp;and&nbsp;having&nbsp;access&nbsp;to&nbsp;all&nbsp;of&nbsp;the&nbsp;same&nbsp;abilities&nbsp;and&nbsp;daily&nbsp;uses&nbsp;of&nbsp;those&nbsp;abilities.&nbsp;If&nbsp;the&nbsp;shadow&nbsp;twin&nbsp;is&nbsp;damaged&nbsp;or&nbsp;healed,&nbsp;the&nbsp;dread&nbsp;takes&nbsp;the&nbsp;damage&nbsp;or&nbsp;healing,&nbsp;and&nbsp;vice&nbsp;versa.&nbsp;If&nbsp;both&nbsp;the&nbsp;dread&nbsp;and&nbsp;the&nbsp;shadow&nbsp;twin&nbsp;are&nbsp;affected&nbsp;by&nbsp;the&nbsp;same&nbsp;area&nbsp;of&nbsp;effect,&nbsp;damage&nbsp;is&nbsp;only&nbsp;counted&nbsp;once.
+
       </p><p>If&nbsp;the&nbsp;shadow&nbsp;twin&nbsp;attacks,&nbsp;it&nbsp;uses&nbsp;the&nbsp;dread's&nbsp;attack&nbsp;values.&nbsp;The&nbsp;shadow&nbsp;twin&nbsp;can&nbsp;threaten&nbsp;squares&nbsp;and&nbsp;has&nbsp;all&nbsp;the&nbsp;same&nbsp;equipment&nbsp;as&nbsp;the&nbsp;dread,&nbsp;but&nbsp;charged&nbsp;items&nbsp;or&nbsp;items&nbsp;with&nbsp;limited&nbsp;uses&nbsp;per&nbsp;day&nbsp;have&nbsp;their&nbsp;uses&nbsp;shared&nbsp;between&nbsp;the&nbsp;two.&nbsp;Any&nbsp;permanent&nbsp;magic&nbsp;items&nbsp;are&nbsp;also&nbsp;active&nbsp;on&nbsp;the&nbsp;shadow&nbsp;twin.
+
       </p><p>The&nbsp;shadow&nbsp;twin&nbsp;can&nbsp;allow&nbsp;the&nbsp;dread&nbsp;to&nbsp;flank&nbsp;an&nbsp;enemy,&nbsp;make&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;she&nbsp;wouldn't&nbsp;normally&nbsp;be&nbsp;able&nbsp;to&nbsp;do,&nbsp;extend&nbsp;the&nbsp;range&nbsp;for&nbsp;a&nbsp;power&nbsp;or&nbsp;mindlock,&nbsp;or&nbsp;just&nbsp;scout&nbsp;ahead.
+
       </p><p>Effects,&nbsp;both&nbsp;beneficial&nbsp;and&nbsp;detrimental,&nbsp;that&nbsp;affect&nbsp;the&nbsp;dread&nbsp;also&nbsp;affect&nbsp;the&nbsp;shadow&nbsp;twin,&nbsp;and&nbsp;vice&nbsp;versa.&nbsp;The&nbsp;shadow&nbsp;twin&nbsp;must&nbsp;stay&nbsp;within&nbsp;30&nbsp;ft.&nbsp;of&nbsp;the&nbsp;dread&nbsp;or&nbsp;the&nbsp;effect&nbsp;immediately&nbsp;ends.
+
       </p><p>A&nbsp;dread&nbsp;can&nbsp;use&nbsp;shadow&nbsp;twin&nbsp;a&nbsp;number&nbsp;of&nbsp;times&nbsp;per&nbsp;day&nbsp;equal&nbsp;to&nbsp;his&nbsp;Charisma&nbsp;modifier.
+
       </p><p>At&nbsp;15th&nbsp;level,&nbsp;the&nbsp;shadow&nbsp;twin&nbsp;must&nbsp;stay&nbsp;within&nbsp;100&nbsp;ft.&nbsp;of&nbsp;the&nbsp;dread&nbsp;before&nbsp;the&nbsp;effect&nbsp;ends.
+
       </p><p>At&nbsp;19th&nbsp;level,&nbsp;the&nbsp;shadow&nbsp;twin&nbsp;must&nbsp;stay&nbsp;within&nbsp;400&nbsp;ft.&nbsp;of&nbsp;the&nbsp;dread&nbsp;before&nbsp;the&nbsp;effect&nbsp;ends.
+
       </p><p></p>
   sources:
     - date: '2012-07-23'
