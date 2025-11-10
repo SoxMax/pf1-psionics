@@ -11,9 +11,8 @@ system:
     classes:
       - Cryptic
   description:
-    value: >-
-      <p><b>Trapmaker:</b>A&nbsp;cryptic&nbsp;gains&nbsp;a&nbsp;competence&nbsp;bonus&nbsp;on&nbsp;Craft&nbsp;(traps)&nbsp;checks&nbsp;equal&nbsp;to&nbsp;her&nbsp;class&nbsp;level.
-
+    value: |-
+      <p>A cryptic gains a competence bonus on Craft (traps) checks equal to her class level.
       </p><p></p>
   sources:
     - date: '2012-07-23'

@@ -11,9 +11,8 @@ system:
     classes:
       - Cryptic
   description:
-    value: >-
-      <p><b>Rapid&nbsp;Defense:</b>Starting&nbsp;at&nbsp;4th&nbsp;level,&nbsp;a&nbsp;cryptic&nbsp;can&nbsp;use&nbsp;her&nbsp;altered&nbsp;defense&nbsp;ability&nbsp;as&nbsp;a&nbsp;free&nbsp;action&nbsp;by&nbsp;expending&nbsp;her&nbsp;psionic&nbsp;focus.&nbsp;The&nbsp;cryptic&nbsp;may&nbsp;even&nbsp;do&nbsp;this&nbsp;when&nbsp;it&nbsp;is&nbsp;not&nbsp;her&nbsp;turn.
-
+    value: |-
+      <p>Starting at 4th level, a cryptic can use her altered defense ability as a free action by expending her psionic focus. The cryptic may even do this when it is not her turn.
       </p><p></p>
   sources:
     - date: '2012-07-23'

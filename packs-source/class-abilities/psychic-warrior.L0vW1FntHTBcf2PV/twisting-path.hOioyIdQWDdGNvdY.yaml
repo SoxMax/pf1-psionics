@@ -11,9 +11,8 @@ system:
     classes:
       - Psychic Warrior
   description:
-    value: >-
-      <p><b>Twisting&nbsp;Path:</b>At&nbsp;12th&nbsp;level,&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;while&nbsp;maintaining&nbsp;psionic&nbsp;focus&nbsp;and&nbsp;using&nbsp;a&nbsp;trance,&nbsp;the&nbsp;psychic&nbsp;warrior&nbsp;can&nbsp;change&nbsp;to&nbsp;the&nbsp;trance&nbsp;of&nbsp;his&nbsp;other&nbsp;path.
-
+    value: |-
+      <p>At 12th level, as a swift action while maintaining psionic focus and using a trance, the psychic warrior can change to the trance of his other path.
       </p><p></p>
   sources:
     - date: '2010-08-01'

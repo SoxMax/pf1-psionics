@@ -11,11 +11,9 @@ system:
     classes:
       - Wilder
   description:
-    value: >-
-      <p><b>Surge&nbsp;Blast:</b>A&nbsp;wilder&nbsp;can&nbsp;channel&nbsp;her&nbsp;wild&nbsp;surge&nbsp;into&nbsp;a&nbsp;blast&nbsp;of&nbsp;uncontrolled&nbsp;phrenic&nbsp;energy.&nbsp;As&nbsp;a&nbsp;standard&nbsp;action&nbsp;and&nbsp;by&nbsp;expending&nbsp;psionic&nbsp;focus,&nbsp;the&nbsp;wilder&nbsp;can&nbsp;make&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;(range&nbsp;30')&nbsp;that&nbsp;deals&nbsp;1d6&nbsp;points&nbsp;of&nbsp;force&nbsp;damage&nbsp;for&nbsp;every&nbsp;+1&nbsp;to&nbsp;her&nbsp;wild&nbsp;surge.
-
-      </p><p><i>Example</i>:&nbsp;Amonai,&nbsp;a&nbsp;15th&nbsp;level&nbsp;wilder&nbsp;has&nbsp;wild&nbsp;surge&nbsp;+5,&nbsp;and&nbsp;thus&nbsp;deals&nbsp;5d6&nbsp;with&nbsp;his&nbsp;surge&nbsp;blast.&nbsp;Surge&nbsp;blasts&nbsp;do&nbsp;not&nbsp;trigger&nbsp;psychic&nbsp;enervation.
-
+    value: |-
+      <p>A wilder can channel her wild surge into a blast of uncontrolled phrenic energy. As a standard action and by expending psionic focus, the wilder can make a ranged touch attack (range 30') that deals 1d6 points of force damage for every +1 to her wild surge.
+      </p><p><i>Example</i>: Amonai, a 15th level wilder has wild surge +5, and thus deals 5d6 with his surge blast. Surge blasts do not trigger psychic enervation.
       </p><p></p>
   sources:
     - date: '2010-08-01'

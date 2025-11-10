@@ -11,9 +11,8 @@ system:
     classes:
       - Dread
   description:
-    value: >-
-      <p><b>Aura&nbsp;of&nbsp;Fear:</b>At&nbsp;3rd&nbsp;level,&nbsp;a&nbsp;dread&nbsp;radiates&nbsp;a&nbsp;palpably&nbsp;daunting&nbsp;aura&nbsp;that&nbsp;causes&nbsp;all&nbsp;enemies&nbsp;within&nbsp;10&nbsp;feet&nbsp;to&nbsp;take&nbsp;a&nbsp;–4&nbsp;penalty&nbsp;on&nbsp;saving&nbsp;throws&nbsp;against&nbsp;fear&nbsp;effects.&nbsp;Creatures&nbsp;that&nbsp;are&nbsp;normally&nbsp;immune&nbsp;to&nbsp;fear&nbsp;lose&nbsp;that&nbsp;immunity&nbsp;while&nbsp;within&nbsp;10&nbsp;feet&nbsp;of&nbsp;a&nbsp;dread&nbsp;with&nbsp;this&nbsp;ability.&nbsp;This&nbsp;ability&nbsp;functions&nbsp;only&nbsp;while&nbsp;the&nbsp;dread&nbsp;remains&nbsp;conscious,&nbsp;not&nbsp;if&nbsp;she&nbsp;is&nbsp;unconscious&nbsp;or&nbsp;dead.
-
+    value: |-
+      <p>At 3rd level, a dread radiates a palpably daunting aura that causes all enemies within 10 feet to take a –4 penalty on saving throws against fear effects. Creatures that are normally immune to fear lose that immunity while within 10 feet of a dread with this ability. This ability functions only while the dread remains conscious, not if she is unconscious or dead.
       </p><p></p>
   sources:
     - date: '2012-07-23'

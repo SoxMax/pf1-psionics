@@ -11,9 +11,8 @@ system:
     classes:
       - Psion
   description:
-    value: >-
-      <p><b>Talents:</b>Each&nbsp;psion&nbsp;gains&nbsp;three&nbsp;0&nbsp;level&nbsp;talents&nbsp;of&nbsp;their&nbsp;choice,&nbsp;as&nbsp;well&nbsp;as&nbsp;<i><a&nbsp;href="/wiki/Detect_Psionics"&nbsp;title="Detect&nbsp;Psionics">detect&nbsp;psionics</a></i>.&nbsp;These&nbsp;talents&nbsp;do&nbsp;not&nbsp;count&nbsp;against&nbsp;the&nbsp;psion's&nbsp;powers&nbsp;known.
-
+    value: |-
+      <p>Each psion gains three 0 level talents of their choice, as well as <i><a href="/wiki/Detect_Psionics" title="Detect Psionics">detect psionics</a></i>. These talents do not count against the psion's powers known.
       </p><p></p>
   sources:
     - date: '2010-08-01'

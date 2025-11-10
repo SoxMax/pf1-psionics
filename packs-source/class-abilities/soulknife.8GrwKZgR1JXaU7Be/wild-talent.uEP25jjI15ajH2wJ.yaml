@@ -11,9 +11,8 @@ system:
     classes:
       - Soulknife
   description:
-    value: >-
-      <p><b>Wild&nbsp;Talent:</b>The&nbsp;soulknife&nbsp;gains&nbsp;<a&nbsp;href="/wiki/Wild_Talent"&nbsp;title="Wild&nbsp;Talent">Wild&nbsp;Talent</a>&nbsp;as&nbsp;a&nbsp;bonus&nbsp;feat&nbsp;at&nbsp;1st&nbsp;level.&nbsp;This&nbsp;provides&nbsp;her&nbsp;with&nbsp;the&nbsp;psionic&nbsp;power&nbsp;necessary&nbsp;to&nbsp;manifest&nbsp;her&nbsp;mind&nbsp;blade.&nbsp;A&nbsp;character&nbsp;who&nbsp;is&nbsp;already&nbsp;psionic&nbsp;instead&nbsp;gains&nbsp;the&nbsp;<a&nbsp;href="/wiki/Psionic_Talent"&nbsp;title="Psionic&nbsp;Talent">Psionic&nbsp;Talent</a>&nbsp;feat.
-
+    value: |-
+      <p>The soulknife gains <a href="/wiki/Wild_Talent" title="Wild Talent">Wild Talent</a> as a bonus feat at 1st level. This provides her with the psionic power necessary to manifest her mind blade. A character who is already psionic instead gains the <a href="/wiki/Psionic_Talent" title="Psionic Talent">Psionic Talent</a> feat.
       </p><p></p>
   sources:
     - date: '2010-08-01'

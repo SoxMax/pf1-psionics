@@ -11,12 +11,10 @@ system:
     classes:
       - Cryptic
   description:
-    value: >-
-      <p><b>Supreme&nbsp;Insight:</b>At&nbsp;20th&nbsp;level,&nbsp;the&nbsp;cryptic&nbsp;makes&nbsp;astounding&nbsp;leaps&nbsp;of&nbsp;insight.&nbsp;She&nbsp;immediately&nbsp;learns&nbsp;two&nbsp;normal&nbsp;insights,&nbsp;but&nbsp;also&nbsp;learns&nbsp;a&nbsp;third&nbsp;insight&nbsp;chosen&nbsp;from&nbsp;the&nbsp;list&nbsp;to&nbsp;the&nbsp;right,&nbsp;representing&nbsp;a&nbsp;truly&nbsp;astounding&nbsp;breakthrough&nbsp;in&nbsp;understanding&nbsp;how&nbsp;patterns&nbsp;work.&nbsp;For&nbsp;many&nbsp;cryptics,&nbsp;the&nbsp;possibility&nbsp;of&nbsp;this&nbsp;sort&nbsp;of&nbsp;discoveries&nbsp;is&nbsp;the&nbsp;driving&nbsp;force&nbsp;for&nbsp;their&nbsp;studying&nbsp;of&nbsp;patterns.&nbsp;
-
+    value: |-
+      <p>At 20th level, the cryptic makes astounding leaps of insight. She immediately learns two normal insights, but also learns a third insight chosen from the list to the right, representing a truly astounding breakthrough in understanding how patterns work. For many cryptics, the possibility of this sort of discoveries is the driving force for their studying of patterns. 
       </p>
-
-      <dl><dd><div&nbsp;class="va-hatnote-text"><i></p>
+      <dl><dd><div class="va-hatnote-text"><i></p>
   sources:
     - date: '2012-07-23'
       pages: 36–42

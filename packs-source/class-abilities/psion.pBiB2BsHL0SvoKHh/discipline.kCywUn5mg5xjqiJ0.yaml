@@ -11,12 +11,10 @@ system:
     classes:
       - Psion
   description:
-    value: >-
-      <p><b>Discipline:</b>Every&nbsp;psion&nbsp;must&nbsp;decide&nbsp;at&nbsp;1st&nbsp;level&nbsp;which&nbsp;psionic&nbsp;discipline&nbsp;he&nbsp;will&nbsp;specialize&nbsp;in.&nbsp;Choosing&nbsp;a&nbsp;discipline&nbsp;provides&nbsp;a&nbsp;psion&nbsp;with&nbsp;access&nbsp;to&nbsp;the&nbsp;class&nbsp;skills&nbsp;associated&nbsp;with&nbsp;that&nbsp;discipline,&nbsp;as&nbsp;well&nbsp;as&nbsp;the&nbsp;powers&nbsp;restricted&nbsp;to&nbsp;that&nbsp;discipline,&nbsp;and&nbsp;the&nbsp;special&nbsp;abilities&nbsp;associated&nbsp;with&nbsp;that&nbsp;discipline&nbsp;(detailed&nbsp;below).&nbsp;However,&nbsp;choosing&nbsp;a&nbsp;discipline&nbsp;also&nbsp;means&nbsp;that&nbsp;the&nbsp;psion&nbsp;cannot&nbsp;learn&nbsp;powers&nbsp;that&nbsp;are&nbsp;restricted&nbsp;to&nbsp;the&nbsp;other&nbsp;disciplines&nbsp;(generalist&nbsp;psions&nbsp;cannot&nbsp;learn&nbsp;powers&nbsp;on&nbsp;any&nbsp;of&nbsp;the&nbsp;discipline&nbsp;power&nbsp;lists).&nbsp;He&nbsp;can't&nbsp;even&nbsp;use&nbsp;such&nbsp;powers&nbsp;by&nbsp;employing&nbsp;psionic&nbsp;items.
-
+    value: |-
+      <p>Every psion must decide at 1st level which psionic discipline he will specialize in. Choosing a discipline provides a psion with access to the class skills associated with that discipline, as well as the powers restricted to that discipline, and the special abilities associated with that discipline (detailed below). However, choosing a discipline also means that the psion cannot learn powers that are restricted to the other disciplines (generalist psions cannot learn powers on any of the discipline power lists). He can't even use such powers by employing psionic items.
       </p>
-
-      <dl><dd><div&nbsp;class="va-hatnote-text"><i></p>
+      <dl><dd><div class="va-hatnote-text"><i></p>
   sources:
     - date: '2010-08-01'
       pages: 20–25

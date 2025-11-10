@@ -11,11 +11,9 @@ system:
     classes:
       - Tactician
   description:
-    value: >-
-      <p><b>Improved&nbsp;Share:</b>A&nbsp;tactician&nbsp;learns&nbsp;special&nbsp;techniques&nbsp;when&nbsp;manifesting&nbsp;powers&nbsp;with&nbsp;the&nbsp;Shared&nbsp;descriptor.&nbsp;Beginning&nbsp;at&nbsp;5th&nbsp;level,&nbsp;the&nbsp;tactician&nbsp;may&nbsp;maintain&nbsp;two&nbsp;powers&nbsp;with&nbsp;the&nbsp;Shared&nbsp;descriptor&nbsp;at&nbsp;any&nbsp;time&nbsp;instead&nbsp;of&nbsp;only&nbsp;one.&nbsp;Should&nbsp;he&nbsp;manifest&nbsp;a&nbsp;third&nbsp;power&nbsp;with&nbsp;the&nbsp;Shared&nbsp;descriptor,&nbsp;the&nbsp;tactician&nbsp;can&nbsp;choose&nbsp;which&nbsp;of&nbsp;the&nbsp;maintained&nbsp;Shared&nbsp;powers&nbsp;ends&nbsp;immediately.
-
-      </p><p>Every&nbsp;six&nbsp;tactician&nbsp;levels&nbsp;thereafter&nbsp;(11th,&nbsp;17th),&nbsp;the&nbsp;tactician&nbsp;may&nbsp;maintain&nbsp;an&nbsp;additional&nbsp;power&nbsp;with&nbsp;the&nbsp;Shared&nbsp;descriptor&nbsp;before&nbsp;a&nbsp;maintained&nbsp;power&nbsp;with&nbsp;the&nbsp;Shared&nbsp;descriptor&nbsp;expires.
-
+    value: |-
+      <p>A tactician learns special techniques when manifesting powers with the Shared descriptor. Beginning at 5th level, the tactician may maintain two powers with the Shared descriptor at any time instead of only one. Should he manifest a third power with the Shared descriptor, the tactician can choose which of the maintained Shared powers ends immediately.
+      </p><p>Every six tactician levels thereafter (11th, 17th), the tactician may maintain an additional power with the Shared descriptor before a maintained power with the Shared descriptor expires.
       </p><p></p>
   sources:
     - date: '2012-07-23'

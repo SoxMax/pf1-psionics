@@ -11,11 +11,9 @@ system:
     classes:
       - Marksman
   description:
-    value: >-
-      <p><b>Cover&nbsp;Fire:</b>Beginning&nbsp;at&nbsp;4th&nbsp;level,&nbsp;the&nbsp;Marksman&nbsp;knows&nbsp;not&nbsp;only&nbsp;how&nbsp;to&nbsp;directly&nbsp;engage&nbsp;her&nbsp;enemies,&nbsp;but&nbsp;also&nbsp;how&nbsp;to&nbsp;protect&nbsp;her&nbsp;allies.&nbsp;As&nbsp;an&nbsp;attack&nbsp;action,&nbsp;she&nbsp;may&nbsp;choose&nbsp;to&nbsp;fire&nbsp;a&nbsp;ranged&nbsp;or&nbsp;thrown&nbsp;weapon&nbsp;at&nbsp;an&nbsp;opponent&nbsp;within&nbsp;30&nbsp;feet&nbsp;to&nbsp;distract&nbsp;that&nbsp;opponent&nbsp;rather&nbsp;than&nbsp;to&nbsp;deal&nbsp;damage.&nbsp;Make&nbsp;an&nbsp;attack&nbsp;roll&nbsp;against&nbsp;the&nbsp;space&nbsp;a&nbsp;target&nbsp;occupies&nbsp;(AC&nbsp;10).&nbsp;If&nbsp;successful,&nbsp;the&nbsp;targeted&nbsp;enemy&nbsp;must&nbsp;make&nbsp;a&nbsp;Reflex&nbsp;save&nbsp;(DC&nbsp;10&nbsp;+&nbsp;one-half&nbsp;the&nbsp;Marksman's&nbsp;class&nbsp;level&nbsp;+&nbsp;the&nbsp;Marksman's&nbsp;Dexterity&nbsp;modifier),&nbsp;or&nbsp;be&nbsp;staggered&nbsp;for&nbsp;one&nbsp;round.&nbsp;The&nbsp;Marksman&nbsp;still&nbsp;expends&nbsp;ammunition&nbsp;as&nbsp;normal&nbsp;for&nbsp;this&nbsp;attack.
-
-      </p><p>If&nbsp;the&nbsp;attack&nbsp;roll&nbsp;would&nbsp;indicate&nbsp;a&nbsp;critical&nbsp;threat&nbsp;and&nbsp;the&nbsp;result&nbsp;would&nbsp;hit&nbsp;the&nbsp;opponent's&nbsp;AC,&nbsp;roll&nbsp;to&nbsp;confirm:&nbsp;if&nbsp;the&nbsp;critical&nbsp;hit&nbsp;is&nbsp;confirmed&nbsp;against&nbsp;the&nbsp;opponent's&nbsp;AC,&nbsp;the&nbsp;attack&nbsp;does&nbsp;normal&nbsp;damage&nbsp;as&nbsp;well.&nbsp;A&nbsp;Marksman&nbsp;cannot&nbsp;use&nbsp;cover&nbsp;fire&nbsp;if&nbsp;her&nbsp;opponent&nbsp;or&nbsp;the&nbsp;square&nbsp;she&nbsp;targets&nbsp;would&nbsp;be&nbsp;subject&nbsp;to&nbsp;a&nbsp;miss&nbsp;chance&nbsp;(such&nbsp;as&nbsp;from&nbsp;a&nbsp;concealed&nbsp;target).
-
+    value: |-
+      <p>Beginning at 4th level, the Marksman knows not only how to directly engage her enemies, but also how to protect her allies. As an attack action, she may choose to fire a ranged or thrown weapon at an opponent within 30 feet to distract that opponent rather than to deal damage. Make an attack roll against the space a target occupies (AC 10). If successful, the targeted enemy must make a Reflex save (DC 10 + one-half the Marksman's class level + the Marksman's Dexterity modifier), or be staggered for one round. The Marksman still expends ammunition as normal for this attack.
+      </p><p>If the attack roll would indicate a critical threat and the result would hit the opponent's AC, roll to confirm: if the critical hit is confirmed against the opponent's AC, the attack does normal damage as well. A Marksman cannot use cover fire if her opponent or the square she targets would be subject to a miss chance (such as from a concealed target).
       </p><p></p>
   sources:
     - date: '2012-07-23'

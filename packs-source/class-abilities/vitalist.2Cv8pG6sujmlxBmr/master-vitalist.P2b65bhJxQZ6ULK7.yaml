@@ -11,12 +11,10 @@ system:
     classes:
       - Vitalist
   description:
-    value: >-
-      <p><b>Master&nbsp;Vitalist:</b>Upon&nbsp;achieving&nbsp;20th&nbsp;level,&nbsp;a&nbsp;vitalist&nbsp;has&nbsp;reached&nbsp;the&nbsp;pinnacle&nbsp;of&nbsp;his&nbsp;method,&nbsp;gaining&nbsp;a&nbsp;special&nbsp;ability&nbsp;unique&nbsp;to&nbsp;his&nbsp;chosen&nbsp;method.
-
+    value: |-
+      <p>Upon achieving 20th level, a vitalist has reached the pinnacle of his method, gaining a special ability unique to his chosen method.
       </p>
-
-      <div&nbsp;class="mw-heading&nbsp;mw-heading2"></p>
+      <div class="mw-heading mw-heading2"></p>
   sources:
     - date: '2012-07-23'
       pages: 57–61

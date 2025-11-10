@@ -11,9 +11,8 @@ system:
     classes:
       - Voyager
   description:
-    value: >-
-      <p><b>Swapped&nbsp;Selves:</b>At&nbsp;14th&nbsp;level,&nbsp;a&nbsp;voyager&nbsp;can&nbsp;exchange&nbsp;her&nbsp;present&nbsp;self&nbsp;with&nbsp;an&nbsp;alternate&nbsp;version&nbsp;of&nbsp;herself.&nbsp;While&nbsp;her&nbsp;appearance&nbsp;may&nbsp;change&nbsp;between&nbsp;these&nbsp;transitions,&nbsp;the&nbsp;voyager's&nbsp;statistics,&nbsp;abilities,&nbsp;conditions,&nbsp;and&nbsp;current&nbsp;equipment&nbsp;and&nbsp;weaponry&nbsp;on&nbsp;her&nbsp;person&nbsp;remain&nbsp;the&nbsp;same,&nbsp;as&nbsp;do&nbsp;her&nbsp;motivations&nbsp;and&nbsp;goals.&nbsp;However,&nbsp;the&nbsp;voyager&nbsp;gains&nbsp;a&nbsp;separate&nbsp;pool&nbsp;of&nbsp;hit&nbsp;points,&nbsp;with&nbsp;a&nbsp;maximum&nbsp;equal&nbsp;to&nbsp;her&nbsp;original.&nbsp;As&nbsp;a&nbsp;full-round&nbsp;action,&nbsp;the&nbsp;voyager&nbsp;can&nbsp;switch&nbsp;her&nbsp;hit&nbsp;points&nbsp;from&nbsp;her&nbsp;original&nbsp;set&nbsp;of&nbsp;hit&nbsp;points,&nbsp;to&nbsp;this&nbsp;alternate&nbsp;set&nbsp;of&nbsp;hit&nbsp;points,&nbsp;or&nbsp;vice&nbsp;versa.&nbsp;When&nbsp;the&nbsp;voyager&nbsp;receives&nbsp;healing,&nbsp;she&nbsp;can&nbsp;choose&nbsp;to&nbsp;apply&nbsp;this&nbsp;healing&nbsp;to&nbsp;either&nbsp;set&nbsp;of&nbsp;hit&nbsp;points.
-
+    value: |-
+      <p>At 14th level, a voyager can exchange her present self with an alternate version of herself. While her appearance may change between these transitions, the voyager's statistics, abilities, conditions, and current equipment and weaponry on her person remain the same, as do her motivations and goals. However, the voyager gains a separate pool of hit points, with a maximum equal to her original. As a full-round action, the voyager can switch her hit points from her original set of hit points, to this alternate set of hit points, or vice versa. When the voyager receives healing, she can choose to apply this healing to either set of hit points.
       </p><p></p>
   sources:
     - date: '2010-01-01'

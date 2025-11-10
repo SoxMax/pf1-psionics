@@ -11,9 +11,8 @@ system:
     classes:
       - Soulknife
   description:
-    value: >-
-      <p><b>Bonus&nbsp;Feat:</b>The&nbsp;soulknife&nbsp;may&nbsp;choose&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Power%20Attack">Power&nbsp;Attack</a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Two-Weapon%20Fighting">Two-Weapon&nbsp;Fighting</a>,&nbsp;or&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Weapon%20Focus">Weapon&nbsp;Focus</a>&nbsp;(mind&nbsp;blade)&nbsp;as&nbsp;a&nbsp;bonus&nbsp;feat&nbsp;at&nbsp;1st&nbsp;level.
-
+    value: |-
+      <p>The soulknife may choose <a rel="nofollow" class="external text" href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Power%20Attack">Power Attack</a>, <a rel="nofollow" class="external text" href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Two-Weapon%20Fighting">Two-Weapon Fighting</a>, or <a rel="nofollow" class="external text" href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Weapon%20Focus">Weapon Focus</a> (mind blade) as a bonus feat at 1st level.
       </p><p></p>
   sources:
     - date: '2010-08-01'

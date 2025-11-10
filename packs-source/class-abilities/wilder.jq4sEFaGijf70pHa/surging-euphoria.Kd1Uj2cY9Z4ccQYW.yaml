@@ -11,11 +11,9 @@ system:
     classes:
       - Wilder
   description:
-    value: >-
-      <p><b>Surging&nbsp;Euphoria:</b>Starting&nbsp;at&nbsp;4th&nbsp;level,&nbsp;when&nbsp;a&nbsp;wilder&nbsp;uses&nbsp;her&nbsp;wild&nbsp;surge&nbsp;ability,&nbsp;she&nbsp;gains&nbsp;a&nbsp;+1&nbsp;morale&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;rolls,&nbsp;damage&nbsp;rolls,&nbsp;and&nbsp;saving&nbsp;throws&nbsp;for&nbsp;a&nbsp;number&nbsp;of&nbsp;rounds&nbsp;equal&nbsp;to&nbsp;the&nbsp;intensity&nbsp;of&nbsp;her&nbsp;wild&nbsp;surge.&nbsp;If&nbsp;a&nbsp;wilder&nbsp;is&nbsp;overcome&nbsp;by&nbsp;psychic&nbsp;enervation&nbsp;following&nbsp;her&nbsp;wild&nbsp;surge,&nbsp;she&nbsp;does&nbsp;not&nbsp;gain&nbsp;the&nbsp;morale&nbsp;bonus&nbsp;for&nbsp;this&nbsp;use&nbsp;of&nbsp;her&nbsp;wild&nbsp;surge&nbsp;ability.
-
-      </p><p>At&nbsp;12th&nbsp;level,&nbsp;the&nbsp;morale&nbsp;bonus&nbsp;on&nbsp;a&nbsp;wilder's&nbsp;attack&nbsp;rolls,&nbsp;damage&nbsp;rolls,&nbsp;and&nbsp;saving&nbsp;throws&nbsp;increases&nbsp;to&nbsp;+2.&nbsp;At&nbsp;20th&nbsp;level,&nbsp;the&nbsp;bonus&nbsp;increases&nbsp;to&nbsp;+3.
-
+    value: |-
+      <p>Starting at 4th level, when a wilder uses her wild surge ability, she gains a +1 morale bonus on attack rolls, damage rolls, and saving throws for a number of rounds equal to the intensity of her wild surge. If a wilder is overcome by psychic enervation following her wild surge, she does not gain the morale bonus for this use of her wild surge ability.
+      </p><p>At 12th level, the morale bonus on a wilder's attack rolls, damage rolls, and saving throws increases to +2. At 20th level, the bonus increases to +3.
       </p><p></p>
   sources:
     - date: '2010-08-01'

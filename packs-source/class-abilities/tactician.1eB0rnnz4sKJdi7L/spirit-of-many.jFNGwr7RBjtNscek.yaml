@@ -11,11 +11,9 @@ system:
     classes:
       - Tactician
   description:
-    value: >-
-      <p><b>Spirit&nbsp;of&nbsp;Many:</b>A&nbsp;tactician&nbsp;of&nbsp;2nd&nbsp;level&nbsp;gains&nbsp;special&nbsp;abilities&nbsp;when&nbsp;manifesting&nbsp;powers&nbsp;with&nbsp;the&nbsp;Network&nbsp;descriptor.&nbsp;He&nbsp;can&nbsp;manifest&nbsp;these&nbsp;powers&nbsp;on&nbsp;any&nbsp;member&nbsp;of&nbsp;his&nbsp;collective,&nbsp;even&nbsp;if&nbsp;they&nbsp;are&nbsp;out&nbsp;of&nbsp;the&nbsp;power's&nbsp;range&nbsp;or&nbsp;would&nbsp;normally&nbsp;be&nbsp;immune&nbsp;to&nbsp;the&nbsp;power.&nbsp;Whenever&nbsp;a&nbsp;tactician&nbsp;manifests&nbsp;a&nbsp;power&nbsp;with&nbsp;the&nbsp;Network&nbsp;descriptor&nbsp;targeting&nbsp;only&nbsp;members&nbsp;of&nbsp;his&nbsp;collective,&nbsp;the&nbsp;power&nbsp;loses&nbsp;the&nbsp;mind-affecting&nbsp;descriptor&nbsp;(if&nbsp;it&nbsp;had&nbsp;it)&nbsp;and&nbsp;is&nbsp;treated&nbsp;as&nbsp;a&nbsp;supernatural&nbsp;ability&nbsp;(bypassing&nbsp;Power&nbsp;Resistance&nbsp;and&nbsp;becoming&nbsp;immune&nbsp;to&nbsp;dispel&nbsp;attempts),&nbsp;although&nbsp;it&nbsp;still&nbsp;provokes&nbsp;an&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;to&nbsp;manifest&nbsp;as&nbsp;normal.&nbsp;Network&nbsp;powers&nbsp;manifest&nbsp;only&nbsp;on&nbsp;members&nbsp;of&nbsp;the&nbsp;collective&nbsp;never&nbsp;allow&nbsp;saving&nbsp;throws&nbsp;–&nbsp;their&nbsp;saving&nbsp;throw&nbsp;entry&nbsp;becomes&nbsp;“None,”&nbsp;although&nbsp;if&nbsp;the&nbsp;power&nbsp;specifies&nbsp;a&nbsp;subsequent&nbsp;saving&nbsp;throw,&nbsp;subjects&nbsp;attempt&nbsp;those&nbsp;saves&nbsp;normally.&nbsp;The&nbsp;tactician&nbsp;also&nbsp;adds&nbsp;the&nbsp;following&nbsp;augment&nbsp;to&nbsp;all&nbsp;powers&nbsp;with&nbsp;the&nbsp;network&nbsp;descriptor:
-
+    value: |-
+      <p>A tactician of 2nd level gains special abilities when manifesting powers with the Network descriptor. He can manifest these powers on any member of his collective, even if they are out of the power's range or would normally be immune to the power. Whenever a tactician manifests a power with the Network descriptor targeting only members of his collective, the power loses the mind-affecting descriptor (if it had it) and is treated as a supernatural ability (bypassing Power Resistance and becoming immune to dispel attempts), although it still provokes an attacks of opportunity to manifest as normal. Network powers manifest only on members of the collective never allow saving throws – their saving throw entry becomes “None,” although if the power specifies a subsequent saving throw, subjects attempt those saves normally. The tactician also adds the following augment to all powers with the network descriptor:
       </p>
-
       <ul><li></p>
   sources:
     - date: '2012-07-23'

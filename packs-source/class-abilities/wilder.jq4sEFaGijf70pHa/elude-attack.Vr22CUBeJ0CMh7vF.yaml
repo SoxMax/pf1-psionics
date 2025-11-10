@@ -11,9 +11,8 @@ system:
     classes:
       - Wilder
   description:
-    value: >-
-      <p><b>Elude&nbsp;Attack:</b>Starting&nbsp;at&nbsp;2nd&nbsp;level,&nbsp;a&nbsp;wilder's&nbsp;intuition&nbsp;supersedes&nbsp;her&nbsp;intellect,&nbsp;alerting&nbsp;her&nbsp;to&nbsp;danger&nbsp;from&nbsp;attacks.&nbsp;She&nbsp;gains&nbsp;a&nbsp;+1&nbsp;dodge&nbsp;bonus&nbsp;to&nbsp;her&nbsp;Armor&nbsp;Class.&nbsp;This&nbsp;bonus&nbsp;increases&nbsp;by&nbsp;1&nbsp;every&nbsp;4&nbsp;levels&nbsp;thereafter&nbsp;(+2&nbsp;at&nbsp;6th&nbsp;level,&nbsp;+3&nbsp;at&nbsp;10th&nbsp;level,&nbsp;etc).
-
+    value: |-
+      <p>Starting at 2nd level, a wilder's intuition supersedes her intellect, alerting her to danger from attacks. She gains a +1 dodge bonus to her Armor Class. This bonus increases by 1 every 4 levels thereafter (+2 at 6th level, +3 at 10th level, etc).
       </p><p></p>
   sources:
     - date: '2010-08-01'

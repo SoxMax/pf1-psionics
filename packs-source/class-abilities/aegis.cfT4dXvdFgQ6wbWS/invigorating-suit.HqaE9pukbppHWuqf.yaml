@@ -11,9 +11,8 @@ system:
     classes:
       - Aegis
   description:
-    value: >-
-      <p><b>Invigorating&nbsp;Suit:</b>An&nbsp;aegis&nbsp;of&nbsp;at&nbsp;least&nbsp;3rd&nbsp;level&nbsp;wearing&nbsp;his&nbsp;astral&nbsp;suit&nbsp;gains&nbsp;a&nbsp;+4&nbsp;bonus&nbsp;on&nbsp;the&nbsp;following&nbsp;checks&nbsp;and&nbsp;saves:&nbsp;Swim&nbsp;checks&nbsp;made&nbsp;to&nbsp;resist&nbsp;nonlethal&nbsp;damage&nbsp;from&nbsp;exhaustion;&nbsp;Constitution&nbsp;checks&nbsp;made&nbsp;to&nbsp;continue&nbsp;running;&nbsp;Constitution&nbsp;checks&nbsp;made&nbsp;to&nbsp;avoid&nbsp;nonlethal&nbsp;damage&nbsp;from&nbsp;a&nbsp;forced&nbsp;march;&nbsp;Constitution&nbsp;checks&nbsp;made&nbsp;to&nbsp;hold&nbsp;breath;&nbsp;Constitution&nbsp;checks&nbsp;made&nbsp;to&nbsp;avoid&nbsp;nonlethal&nbsp;damage&nbsp;from&nbsp;starvation&nbsp;or&nbsp;thirst;&nbsp;Fortitude&nbsp;saves&nbsp;made&nbsp;to&nbsp;avoid&nbsp;nonlethal&nbsp;damage&nbsp;from&nbsp;hot&nbsp;or&nbsp;cold&nbsp;environments;&nbsp;and&nbsp;Fortitude&nbsp;saves&nbsp;made&nbsp;to&nbsp;resist&nbsp;damage&nbsp;from&nbsp;suffocation.
-
+    value: |-
+      <p>An aegis of at least 3rd level wearing his astral suit gains a +4 bonus on the following checks and saves: Swim checks made to resist nonlethal damage from exhaustion; Constitution checks made to continue running; Constitution checks made to avoid nonlethal damage from a forced march; Constitution checks made to hold breath; Constitution checks made to avoid nonlethal damage from starvation or thirst; Fortitude saves made to avoid nonlethal damage from hot or cold environments; and Fortitude saves made to resist damage from suffocation.
       </p><p></p>
   sources:
     - date: '2012-07-23'

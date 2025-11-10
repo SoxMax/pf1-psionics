@@ -11,11 +11,9 @@ system:
     classes:
       - Psychic Warrior
   description:
-    value: >-
-      <p><b>Bonus&nbsp;Feats:</b>At&nbsp;1st&nbsp;level,&nbsp;a&nbsp;psychic&nbsp;warrior&nbsp;gets&nbsp;a&nbsp;bonus&nbsp;combat-oriented&nbsp;feat&nbsp;in&nbsp;addition&nbsp;to&nbsp;the&nbsp;feat&nbsp;that&nbsp;any&nbsp;1st&nbsp;level&nbsp;character&nbsp;gets&nbsp;and&nbsp;the&nbsp;bonus&nbsp;feat&nbsp;granted&nbsp;to&nbsp;a&nbsp;human&nbsp;character.&nbsp;The&nbsp;psychic&nbsp;warrior&nbsp;gains&nbsp;an&nbsp;additional&nbsp;bonus&nbsp;feat&nbsp;at&nbsp;2nd&nbsp;level&nbsp;and&nbsp;every&nbsp;three&nbsp;levels&nbsp;thereafter&nbsp;(5th,&nbsp;8th,&nbsp;etc.).&nbsp;These&nbsp;bonus&nbsp;feats&nbsp;must&nbsp;be&nbsp;drawn&nbsp;from&nbsp;the&nbsp;feats&nbsp;noted&nbsp;as&nbsp;combat&nbsp;feats&nbsp;or&nbsp;psionic&nbsp;feats.&nbsp;The&nbsp;psychic&nbsp;warrior&nbsp;must&nbsp;still&nbsp;meet&nbsp;all&nbsp;prerequisites&nbsp;for&nbsp;the&nbsp;bonus&nbsp;feat,&nbsp;including&nbsp;ability&nbsp;score&nbsp;and&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;minimums&nbsp;as&nbsp;well&nbsp;as&nbsp;class&nbsp;requirements&nbsp;(like&nbsp;levels&nbsp;in&nbsp;another&nbsp;specific&nbsp;class).
-
-      </p><p>These&nbsp;bonus&nbsp;feats&nbsp;are&nbsp;in&nbsp;addition&nbsp;to&nbsp;the&nbsp;feats&nbsp;that&nbsp;a&nbsp;character&nbsp;of&nbsp;any&nbsp;class&nbsp;gains&nbsp;every&nbsp;two&nbsp;levels.&nbsp;A&nbsp;psychic&nbsp;warrior&nbsp;is&nbsp;not&nbsp;limited&nbsp;to&nbsp;combat&nbsp;feats&nbsp;and&nbsp;psionic&nbsp;feats&nbsp;when&nbsp;choosing&nbsp;these&nbsp;other&nbsp;feats.
-
+    value: |-
+      <p>At 1st level, a psychic warrior gets a bonus combat-oriented feat in addition to the feat that any 1st level character gets and the bonus feat granted to a human character. The psychic warrior gains an additional bonus feat at 2nd level and every three levels thereafter (5th, 8th, etc.). These bonus feats must be drawn from the feats noted as combat feats or psionic feats. The psychic warrior must still meet all prerequisites for the bonus feat, including ability score and base attack bonus minimums as well as class requirements (like levels in another specific class).
+      </p><p>These bonus feats are in addition to the feats that a character of any class gains every two levels. A psychic warrior is not limited to combat feats and psionic feats when choosing these other feats.
       </p><p></p>
   sources:
     - date: '2010-08-01'
