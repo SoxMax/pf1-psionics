@@ -1,0 +1,86 @@
+_id: 8hcPZwjYWvBVFUn7
+_key: '!items!8hcPZwjYWvBVFUn7'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psychokinetic_Sphere
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+name: Psychokinetic Sphere
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Reflex negates (object)
+        type: ref
+      target:
+        value: 1-ft.-diameter/level sphere, centered around creatures or objects
+  description:
+    value: >-
+      <p>A&nbsp;globe&nbsp;of&nbsp;shimmering&nbsp;force&nbsp;encloses&nbsp;a&nbsp;creature,&nbsp;provided&nbsp;the&nbsp;creature&nbsp;is&nbsp;small&nbsp;enough&nbsp;to&nbsp;fit&nbsp;within&nbsp;the&nbsp;diameter&nbsp;of&nbsp;the&nbsp;sphere,&nbsp;and&nbsp;contains&nbsp;it&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;effect.&nbsp;Anything&nbsp;contained&nbsp;within&nbsp;the&nbsp;sphere&nbsp;weighs&nbsp;only&nbsp;onesixteenth&nbsp;of&nbsp;its&nbsp;normal&nbsp;weight.&nbsp;You&nbsp;can&nbsp;telekinetically&nbsp;lift&nbsp;anything&nbsp;in&nbsp;the&nbsp;sphere&nbsp;that&nbsp;normally&nbsp;weighs&nbsp;5,000&nbsp;pounds&nbsp;or&nbsp;less.&nbsp;The&nbsp;telekinetic&nbsp;control&nbsp;extends&nbsp;from&nbsp;you&nbsp;out&nbsp;to&nbsp;medium&nbsp;range&nbsp;(100&nbsp;feet&nbsp;+&nbsp;10&nbsp;feet&nbsp;per&nbsp;manifester&nbsp;level)&nbsp;after&nbsp;the&nbsp;sphere&nbsp;has&nbsp;succeeded&nbsp;in&nbsp;encapsulating&nbsp;its&nbsp;contents.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;move&nbsp;the&nbsp;sphere,&nbsp;along&nbsp;with&nbsp;the&nbsp;objects&nbsp;and&nbsp;creatures&nbsp;it&nbsp;contains&nbsp;that&nbsp;weigh&nbsp;a&nbsp;total&nbsp;of&nbsp;5,000&nbsp;pounds&nbsp;or&nbsp;less,&nbsp;by&nbsp;concentrating&nbsp;on&nbsp;the&nbsp;sphere.&nbsp;You&nbsp;can&nbsp;begin&nbsp;moving&nbsp;a&nbsp;sphere&nbsp;in&nbsp;the&nbsp;round&nbsp;after&nbsp;manifesting&nbsp;the&nbsp;power.&nbsp;If&nbsp;you&nbsp;concentrate&nbsp;on&nbsp;doing&nbsp;so&nbsp;(a&nbsp;standard&nbsp;action),&nbsp;you&nbsp;can&nbsp;move&nbsp;the&nbsp;sphere&nbsp;as&nbsp;much&nbsp;as&nbsp;30&nbsp;feet&nbsp;in&nbsp;a&nbsp;round.&nbsp;If&nbsp;you&nbsp;cease&nbsp;concentrating,&nbsp;the&nbsp;sphere&nbsp;does&nbsp;not&nbsp;move&nbsp;in&nbsp;that&nbsp;round&nbsp;(if&nbsp;on&nbsp;a&nbsp;level&nbsp;surface)&nbsp;or&nbsp;descends&nbsp;at&nbsp;its&nbsp;falling&nbsp;rate&nbsp;(if&nbsp;aloft)&nbsp;until&nbsp;it&nbsp;reaches&nbsp;a&nbsp;level&nbsp;surface.&nbsp;You&nbsp;can&nbsp;resume&nbsp;concentrating&nbsp;on&nbsp;your&nbsp;next&nbsp;turn&nbsp;or&nbsp;any&nbsp;later&nbsp;turn&nbsp;during&nbsp;the&nbsp;duration.
+
+      </p>
+
+      <p>The&nbsp;sphere&nbsp;falls&nbsp;at&nbsp;a&nbsp;rate&nbsp;of&nbsp;only&nbsp;60&nbsp;feet&nbsp;per&nbsp;round,&nbsp;which&nbsp;is&nbsp;not&nbsp;fast&nbsp;enough&nbsp;to&nbsp;cause&nbsp;damage&nbsp;to&nbsp;the&nbsp;contents&nbsp;of&nbsp;the&nbsp;sphere.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;move&nbsp;the&nbsp;sphere&nbsp;telekinetically&nbsp;even&nbsp;if&nbsp;you&nbsp;are&nbsp;in&nbsp;it.
+
+      </p>
+
+      <p>The&nbsp;sphere&nbsp;functions&nbsp;as&nbsp;a&nbsp;wall&nbsp;of&nbsp;force,&nbsp;except&nbsp;that&nbsp;it&nbsp;can&nbsp;be&nbsp;negated&nbsp;by&nbsp;dispel&nbsp;psionics.&nbsp;A&nbsp;subject&nbsp;inside&nbsp;the&nbsp;sphere&nbsp;can&nbsp;breathe&nbsp;normally.&nbsp;The&nbsp;sphere&nbsp;cannot&nbsp;be&nbsp;physically&nbsp;moved&nbsp;either&nbsp;by&nbsp;people&nbsp;outside&nbsp;it&nbsp;or&nbsp;by&nbsp;the&nbsp;struggles&nbsp;of&nbsp;those&nbsp;within.
+
+      </p>
+  descriptors:
+    - force
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      kineticist: 8
+  level: 8
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '138'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '236'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '52'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

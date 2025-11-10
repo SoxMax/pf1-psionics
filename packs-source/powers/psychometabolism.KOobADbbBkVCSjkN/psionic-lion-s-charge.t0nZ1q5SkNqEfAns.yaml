@@ -1,0 +1,75 @@
+_id: t0nZ1q5SkNqEfAns
+_key: '!items!t0nZ1q5SkNqEfAns'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Lion's_Charge
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Psionic Lion's Charge
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: swift
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;gain&nbsp;the&nbsp;powerful&nbsp;charging&nbsp;ability&nbsp;of&nbsp;a&nbsp;lion.&nbsp;When&nbsp;you&nbsp;charge,&nbsp;you&nbsp;can&nbsp;make&nbsp;a&nbsp;full&nbsp;attack&nbsp;in&nbsp;the&nbsp;same&nbsp;round.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;with&nbsp;an&nbsp;instant&nbsp;thought,&nbsp;quickly&nbsp;enough&nbsp;to&nbsp;gain&nbsp;the&nbsp;benefit&nbsp;of&nbsp;the&nbsp;power&nbsp;as&nbsp;you&nbsp;charge.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;spent,&nbsp;each&nbsp;of&nbsp;your&nbsp;attacks&nbsp;after&nbsp;a&nbsp;charge&nbsp;in&nbsp;the&nbsp;current&nbsp;round&nbsp;gains&nbsp;a&nbsp;cumulative&nbsp;+1&nbsp;circumstance&nbsp;bonus&nbsp;on&nbsp;damage.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      empath: 3
+      gifted blade: 3
+      psychic warrior: 2
+  level: 2
+  manifestTime:
+    units: swift
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '135'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '232'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '51'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

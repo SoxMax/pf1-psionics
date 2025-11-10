@@ -1,0 +1,82 @@
+_id: 4mvmlvsWDDPDhMDA
+_key: '!items!4mvmlvsWDDPDhMDA'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Unravel_Psionics
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Unravel Psionics
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '40'
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: >-
+          All psionic effects and psionic items within a 40-ft.radius burst, or
+          one psionic item (see text)
+  description:
+    value: >-
+      <p>All&nbsp;psionic&nbsp;effects&nbsp;and&nbsp;psionic&nbsp;items&nbsp;within&nbsp;the&nbsp;radius&nbsp;of&nbsp;the&nbsp;power,&nbsp;except&nbsp;for&nbsp;those&nbsp;that&nbsp;you&nbsp;carry&nbsp;or&nbsp;touch,&nbsp;are&nbsp;disjoined.&nbsp;That&nbsp;is,&nbsp;powers&nbsp;and&nbsp;psi-like&nbsp;effects&nbsp;are&nbsp;unraveled&nbsp;and&nbsp;destroyed&nbsp;completely&nbsp;(ending&nbsp;the&nbsp;effect&nbsp;as&nbsp;a&nbsp;dispel&nbsp;psionics&nbsp;power&nbsp;does),&nbsp;and&nbsp;each&nbsp;permanent&nbsp;psionic&nbsp;item&nbsp;must&nbsp;make&nbsp;a&nbsp;successful&nbsp;Will&nbsp;save&nbsp;or&nbsp;be&nbsp;turned&nbsp;into&nbsp;a&nbsp;normal&nbsp;item&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power.&nbsp;An&nbsp;item&nbsp;in&nbsp;a&nbsp;creature's&nbsp;possession&nbsp;uses&nbsp;its&nbsp;own&nbsp;Will&nbsp;save&nbsp;bonus&nbsp;or&nbsp;its&nbsp;possessor's&nbsp;Will&nbsp;save&nbsp;bonus,&nbsp;whichever&nbsp;is&nbsp;higher.&nbsp;If&nbsp;an&nbsp;item's&nbsp;saving&nbsp;throw&nbsp;results&nbsp;in&nbsp;a&nbsp;natural&nbsp;1&nbsp;on&nbsp;the&nbsp;die,&nbsp;the&nbsp;item&nbsp;is&nbsp;destroyed&nbsp;instead&nbsp;of&nbsp;being&nbsp;suppressed.
+
+      </p>
+
+      <p>You&nbsp;also&nbsp;have&nbsp;a&nbsp;1%&nbsp;chance&nbsp;per&nbsp;manifester&nbsp;level&nbsp;of&nbsp;destroying&nbsp;a&nbsp;null&nbsp;psionics&nbsp;field.&nbsp;If&nbsp;the&nbsp;null&nbsp;psionics&nbsp;field&nbsp;survives&nbsp;the&nbsp;disjunction,&nbsp;no&nbsp;items&nbsp;within&nbsp;it&nbsp;are&nbsp;disjoined.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;also&nbsp;use&nbsp;this&nbsp;power&nbsp;to&nbsp;target&nbsp;a&nbsp;single&nbsp;item.&nbsp;The&nbsp;item&nbsp;gets&nbsp;a&nbsp;Will&nbsp;save&nbsp;at&nbsp;a&nbsp;–5&nbsp;penalty&nbsp;to&nbsp;avoid&nbsp;being&nbsp;permanently&nbsp;destroyed.&nbsp;Even&nbsp;artifacts&nbsp;are&nbsp;subject&nbsp;to&nbsp;disjunction,&nbsp;though&nbsp;there&nbsp;is&nbsp;only&nbsp;a&nbsp;1%&nbsp;chance&nbsp;per&nbsp;manifester&nbsp;level&nbsp;of&nbsp;actually&nbsp;affecting&nbsp;such&nbsp;powerful&nbsp;items.&nbsp;If&nbsp;successful,&nbsp;the&nbsp;artifact's&nbsp;power&nbsp;unravels,&nbsp;and&nbsp;it&nbsp;is&nbsp;destroyed&nbsp;(with&nbsp;no&nbsp;save).&nbsp;If&nbsp;an&nbsp;artifact&nbsp;is&nbsp;destroyed,&nbsp;you&nbsp;must&nbsp;make&nbsp;a&nbsp;DC&nbsp;25&nbsp;Will&nbsp;save&nbsp;or&nbsp;permanently&nbsp;lose&nbsp;all&nbsp;manifesting&nbsp;abilities.&nbsp;These&nbsp;abilities&nbsp;cannot&nbsp;be&nbsp;recovered&nbsp;by&nbsp;mortal&nbsp;power,&nbsp;not&nbsp;even&nbsp;reality&nbsp;revision,&nbsp;miracle,&nbsp;or&nbsp;wish.&nbsp;Destroying&nbsp;artifacts&nbsp;is&nbsp;a&nbsp;dangerous&nbsp;business,&nbsp;and&nbsp;it&nbsp;is&nbsp;95%&nbsp;likely&nbsp;to&nbsp;attract&nbsp;the&nbsp;attention&nbsp;of&nbsp;some&nbsp;powerful&nbsp;being&nbsp;who&nbsp;has&nbsp;an&nbsp;interest&nbsp;in&nbsp;or&nbsp;connection&nbsp;with&nbsp;the&nbsp;device.
+
+      </p>
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      psion: 9
+      wilder: 9
+  level: 9
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '153'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '255'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '59'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,79 @@
+_id: n0SzRLwvLg2H0IO7
+_key: '!items!n0SzRLwvLg2H0IO7'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Body_Equilibrium
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Body Equilibrium
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: minute
+        value: 10 * @cl
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;adjust&nbsp;your&nbsp;body's&nbsp;equilibrium&nbsp;to&nbsp;correspond&nbsp;with&nbsp;any&nbsp;solid&nbsp;or&nbsp;liquid&nbsp;that&nbsp;you&nbsp;stand&nbsp;on.&nbsp;Thus,&nbsp;you&nbsp;can&nbsp;walk&nbsp;on&nbsp;water,&nbsp;quicksand,&nbsp;or&nbsp;even&nbsp;a&nbsp;spider's&nbsp;web&nbsp;without&nbsp;sinking&nbsp;or&nbsp;breaking&nbsp;through&nbsp;(this&nbsp;effect&nbsp;does&nbsp;not&nbsp;confer&nbsp;any&nbsp;resistance&nbsp;to&nbsp;particularly&nbsp;sticky&nbsp;webs).&nbsp;You&nbsp;can&nbsp;move&nbsp;at&nbsp;your&nbsp;normal&nbsp;speed,&nbsp;but&nbsp;you&nbsp;cannot&nbsp;run&nbsp;(x4&nbsp;speed)&nbsp;on&nbsp;a&nbsp;nonfirm&nbsp;surface&nbsp;without&nbsp;sinking&nbsp;or&nbsp;breaking&nbsp;through.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;fall&nbsp;from&nbsp;any&nbsp;height&nbsp;while&nbsp;using&nbsp;this&nbsp;power,&nbsp;damage&nbsp;from&nbsp;the&nbsp;impact&nbsp;is&nbsp;halved.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      gambler: 2
+      gifted blade: 2
+      marksman: 2
+      psion: 2
+      psychic warrior: 2
+      thug: 2
+      vitalist: 2
+      voyager: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '81'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '167'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '30'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

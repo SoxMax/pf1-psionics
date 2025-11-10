@@ -1,5 +1,7 @@
 _id: rxCd82wIa3H1WBGJ
 _key: '!items!rxCd82wIa3H1WBGJ'
+_stats:
+  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Persistent_Focus
@@ -35,15 +37,11 @@ system:
   showInQuickbar: false
   simple: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2012-01-01'
       pages: 39–40
       publisher: Dreamscarred Press
       title: Psionics Augmented
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2013-12-24'
       pages: '108'
       publisher: Dreamscarred Press
       title: Ultimate Psionics

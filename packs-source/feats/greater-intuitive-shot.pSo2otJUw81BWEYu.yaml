@@ -1,5 +1,7 @@
 _id: pSo2otJUw81BWEYu
 _key: '!items!pSo2otJUw81BWEYu'
+_stats:
+  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Greater_Intuitive_Shot
@@ -35,21 +37,15 @@ system:
   showInQuickbar: false
   simple: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '12'
       publisher: Dreamscarred Press
       title: 'Psionics Expanded: Find the Mark'
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2012-07-23'
       pages: '114'
       publisher: Dreamscarred Press
       title: Psionics Expanded
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2013-12-24'
       pages: '102'
       publisher: Dreamscarred Press
       title: Ultimate Psionics

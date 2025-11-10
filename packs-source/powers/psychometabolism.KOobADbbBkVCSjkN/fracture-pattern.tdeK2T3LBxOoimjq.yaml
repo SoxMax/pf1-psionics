@@ -1,0 +1,80 @@
+_id: tdeK2T3LBxOoimjq
+_key: '!items!tdeK2T3LBxOoimjq'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Fracture_Pattern
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Fracture Pattern
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. plus 10 ft. per level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude negates
+        type: fort
+      target:
+        value: 1 creature or object
+  description:
+    value: >-
+      <p>You&nbsp;brutally&nbsp;rewrite&nbsp;the&nbsp;pattern&nbsp;of&nbsp;your&nbsp;target,&nbsp;leaving&nbsp;them&nbsp;vulnerable&nbsp;to&nbsp;further&nbsp;attack.&nbsp;If&nbsp;your&nbsp;target&nbsp;fails&nbsp;its&nbsp;saving&nbsp;throw,&nbsp;choose&nbsp;bludgeoning,&nbsp;cold,&nbsp;fire,&nbsp;electricity,&nbsp;piercing,&nbsp;slashing,&nbsp;or&nbsp;sonic&nbsp;damage.&nbsp;Your&nbsp;victim&nbsp;suffers&nbsp;50%&nbsp;additional&nbsp;damage&nbsp;from&nbsp;sources&nbsp;that&nbsp;deal&nbsp;damage&nbsp;of&nbsp;the&nbsp;chosen&nbsp;type&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;your&nbsp;target&nbsp;suffers&nbsp;1d6&nbsp;points&nbsp;of&nbsp;untyped&nbsp;damage&nbsp;as&nbsp;their&nbsp;pattern&nbsp;is&nbsp;violently&nbsp;rent&nbsp;by&nbsp;your&nbsp;will.</li><li>For&nbsp;every&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;affects&nbsp;an&nbsp;additional&nbsp;target&nbsp;within&nbsp;range.</li></ol>
+
+      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;spent&nbsp;on&nbsp;either&nbsp;of&nbsp;the&nbsp;above&nbsp;options,&nbsp;the&nbsp;power's&nbsp;save&nbsp;DC&nbsp;is&nbsp;increased&nbsp;by&nbsp;1.
+
+      </p>
+
+      <p><strong>Surge&nbsp;Augmentation:</strong>&nbsp;If&nbsp;you&nbsp;invoke&nbsp;your&nbsp;wild&nbsp;surge&nbsp;when&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;the&nbsp;damage&nbsp;dealt&nbsp;by&nbsp;its&nbsp;first&nbsp;augment&nbsp;option&nbsp;is&nbsp;of&nbsp;the&nbsp;type&nbsp;chosen&nbsp;when&nbsp;your&nbsp;victim&nbsp;failed&nbsp;their&nbsp;saving&nbsp;throw&nbsp;(and&nbsp;therefore&nbsp;deals&nbsp;50%&nbsp;more&nbsp;damage).
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      cryptic: 3
+      psion: 3
+      tactician: 3
+      thug: 3
+      vitalist: 3
+      wilder: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: 13–14
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Wilders'
+    - date: '2010-01-01'
+      pages: '73'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

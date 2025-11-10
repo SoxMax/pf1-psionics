@@ -1,0 +1,74 @@
+_id: zVsVMX1LOELqc8DK
+_key: '!items!zVsVMX1LOELqc8DK'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Distracting_Strikes
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Distracting Strikes
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: swift
+      duration:
+        units: spec
+        value: 1 round; see text
+      name: Use
+      range:
+        units: ft
+        value: Melee
+      save:
+        description: None
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>Your&nbsp;next&nbsp;single&nbsp;melee&nbsp;attack&nbsp;is&nbsp;imbued&nbsp;to&nbsp;distract&nbsp;the&nbsp;opponent.&nbsp;If&nbsp;the&nbsp;attack&nbsp;is&nbsp;successful,&nbsp;you&nbsp;deal&nbsp;damage&nbsp;normally&nbsp;and,&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;its&nbsp;next&nbsp;turn,&nbsp;your&nbsp;target&nbsp;takes&nbsp;a&nbsp;-2&nbsp;penalty&nbsp;to&nbsp;attack&nbsp;rolls&nbsp;and&nbsp;can't&nbsp;make&nbsp;attacks&nbsp;of&nbsp;opportunity.&nbsp;If&nbsp;your&nbsp;attack&nbsp;misses,&nbsp;the&nbsp;target&nbsp;instead&nbsp;takes&nbsp;a&nbsp;-1&nbsp;penalty&nbsp;to&nbsp;attack&nbsp;rolls&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;its&nbsp;next&nbsp;turn,&nbsp;but&nbsp;can&nbsp;make&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;as&nbsp;normal.&nbsp;Any&nbsp;power&nbsp;resistance&nbsp;your&nbsp;target&nbsp;has&nbsp;is&nbsp;applicable&nbsp;against&nbsp;this&nbsp;effect.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;four&nbsp;additional&nbsp;power&nbsp;points&nbsp;spent,&nbsp;this&nbsp;power&nbsp;affects&nbsp;one&nbsp;additional&nbsp;melee&nbsp;attack&nbsp;during&nbsp;this&nbsp;round.&nbsp;Effects&nbsp;from&nbsp;multiple&nbsp;attacks&nbsp;do&nbsp;not&nbsp;stack.</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;instead&nbsp;manifest&nbsp;this&nbsp;power&nbsp;upon&nbsp;making&nbsp;a&nbsp;successful&nbsp;melee&nbsp;attack&nbsp;and&nbsp;have&nbsp;the&nbsp;effects&nbsp;of&nbsp;this&nbsp;power&nbsp;instead&nbsp;apply&nbsp;to&nbsp;that&nbsp;attack.&nbsp;Doing&nbsp;so&nbsp;still&nbsp;uses&nbsp;your&nbsp;swift&nbsp;action&nbsp;for&nbsp;the&nbsp;round.</li></ol>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: true
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      psychic warrior: 2
+      thug: 2
+      voyager: 2
+  level: 2
+  manifestTime:
+    units: swift
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '26'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+    - date: '2012-07-23'
+      pages: '157'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 186–187
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

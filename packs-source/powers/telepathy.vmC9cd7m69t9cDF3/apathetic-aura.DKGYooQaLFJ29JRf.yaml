@@ -1,0 +1,73 @@
+_id: DKGYooQaLFJ29JRf
+_key: '!items!DKGYooQaLFJ29JRf'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Apathetic_Aura
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Apathetic Aura
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '20'
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: ft
+        value: 20 ft.
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: 20 ft. radius centered on you
+  description:
+    value: >-
+      <p>You&nbsp;emit&nbsp;an&nbsp;aura&nbsp;that&nbsp;causes&nbsp;creatures&nbsp;to&nbsp;be&nbsp;uninterested&nbsp;in&nbsp;you&nbsp;or&nbsp;those&nbsp;accompanying&nbsp;you.&nbsp;The&nbsp;affected&nbsp;creatures&nbsp;are&nbsp;aware&nbsp;of&nbsp;your&nbsp;presence,&nbsp;but&nbsp;simply&nbsp;find&nbsp;your&nbsp;presence&nbsp;unworthy&nbsp;of&nbsp;their&nbsp;attention.&nbsp;Creatures&nbsp;accompanying&nbsp;you&nbsp;must&nbsp;be&nbsp;within&nbsp;10&nbsp;feet&nbsp;of&nbsp;you&nbsp;to&nbsp;be&nbsp;similarly&nbsp;ignored.&nbsp;Any&nbsp;action&nbsp;that&nbsp;would&nbsp;directly&nbsp;harm&nbsp;the&nbsp;affected&nbsp;creature&nbsp;allows&nbsp;it&nbsp;to&nbsp;make&nbsp;an&nbsp;additional&nbsp;save&nbsp;against&nbsp;this&nbsp;power&nbsp;with&nbsp;a&nbsp;+4&nbsp;circumstance&nbsp;bonus&nbsp;to&nbsp;negate&nbsp;this&nbsp;effect.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;becomes&nbsp;10&nbsp;minutes/level.
+
+      </p>
+  descriptors:
+    - compulsion
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      psion: 2
+      thug: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '62'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

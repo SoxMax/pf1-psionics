@@ -1,0 +1,107 @@
+_id: UUGcOMOzvU05i92f
+_key: '!items!UUGcOMOzvU05i92f'
+_stats:
+  coreVersion: '13.350'
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Wilder
+system:
+  armorProf:
+    - lgt
+  bab: low
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: true
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      </p><p>Unlike&nbsp;the&nbsp;psion,&nbsp;who&nbsp;studies&nbsp;his&nbsp;psionic&nbsp;ability&nbsp;and&nbsp;potential&nbsp;to&nbsp;unlock&nbsp;its&nbsp;secrets,&nbsp;or&nbsp;the&nbsp;psychic&nbsp;warrior,&nbsp;who&nbsp;uses&nbsp;his&nbsp;psionic&nbsp;ability&nbsp;to&nbsp;enhance&nbsp;his&nbsp;physical&nbsp;form,&nbsp;the&nbsp;wilder&nbsp;taps&nbsp;into&nbsp;her&nbsp;emotions&nbsp;to&nbsp;unlock&nbsp;and&nbsp;unleash&nbsp;her&nbsp;innate&nbsp;psionic&nbsp;power.&nbsp;By&nbsp;channeling&nbsp;her&nbsp;emotions&nbsp;in&nbsp;such&nbsp;a&nbsp;fashion,&nbsp;the&nbsp;wilder&nbsp;greatly&nbsp;enhances&nbsp;her&nbsp;psionic&nbsp;powers,&nbsp;but&nbsp;runs&nbsp;the&nbsp;risk&nbsp;of&nbsp;suffering&nbsp;backlash,&nbsp;as&nbsp;emotions&nbsp;are&nbsp;unstable.&nbsp;</p><p><b>Role:</b>&nbsp;The&nbsp;wilder&nbsp;traditionally&nbsp;fills&nbsp;the&nbsp;role&nbsp;of&nbsp;dealing&nbsp;large&nbsp;amounts&nbsp;of&nbsp;damage,&nbsp;while&nbsp;running&nbsp;the&nbsp;risk&nbsp;of&nbsp;suffering&nbsp;backlash.&nbsp;Depending&nbsp;on&nbsp;the&nbsp;path&nbsp;a&nbsp;wilder&nbsp;chooses,&nbsp;she&nbsp;can&nbsp;also&nbsp;give&nbsp;her&nbsp;nearby&nbsp;allies&nbsp;a&nbsp;boost&nbsp;in&nbsp;efficiency.&nbsp;</p><p><b>Alignment:</b>&nbsp;Any.&nbsp;</p><p><b>Hit&nbsp;Die:</b>&nbsp;d8.&nbsp;</p><p><b>Starting&nbsp;Wealth:</b>&nbsp;4d4&nbsp;x&nbsp;10&nbsp;gp&nbsp;(average&nbsp;100&nbsp;gp).&nbsp;In&nbsp;addition,&nbsp;each&nbsp;character&nbsp;begins&nbsp;play&nbsp;with&nbsp;an&nbsp;outfit&nbsp;worth&nbsp;10&nbsp;gp&nbsp;or&nbsp;less.&nbsp;</p><p><b>Class&nbsp;Skills:&nbsp;</b>The&nbsp;wilder's&nbsp;class&nbsp;skills&nbsp;are&nbsp;Acrobatics&nbsp;(Dex),&nbsp;Autohypnosis&nbsp;(Wis),&nbsp;Bluff&nbsp;(Cha),&nbsp;Climb&nbsp;(Str),&nbsp;Craft&nbsp;(Int),&nbsp;Diplomacy&nbsp;(Cha),&nbsp;Escape&nbsp;Artist&nbsp;(Dex),&nbsp;Intimidate&nbsp;(Cha),&nbsp;Knowledge&nbsp;(psionics)&nbsp;(Int),&nbsp;Perception&nbsp;(Wis),&nbsp;Profession&nbsp;(Int),&nbsp;Sense&nbsp;Motive&nbsp;(Wis),&nbsp;Spellcraft&nbsp;(Int),&nbsp;Swim&nbsp;(Str),&nbsp;and&nbsp;Use&nbsp;Magic&nbsp;Device&nbsp;(Cha).&nbsp;</p><p><b>Skill&nbsp;Ranks&nbsp;at&nbsp;Each&nbsp;Level:</b>&nbsp;4&nbsp;+&nbsp;Int&nbsp;modifier&nbsp;</p>
+  hd: 6
+  hp: 6
+  level: 1
+  links:
+    classAssociations:
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.1QvHKa1seDr4sGGY
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.DmpIXP09H5FL1LiG
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.EpVQB0vxObkLRede
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.QJKC1iPMFSDtsfwp
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.z0hunLo2Md0qgIda
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Vr22CUBeJ0CMh7vF
+      - level: 4
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Kd1Uj2cY9Z4ccQYW
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.0yTVFub8FYmoTlC0
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.MDSMgTMupr51B0Uv
+  manifesting:
+    ability: wis
+    cantrips: true
+    progression: high
+  savingThrows:
+    fort:
+      value: low
+    ref:
+      value: low
+    will:
+      value: high
+  skillsPerLevel: 2
+  sources:
+    - date: '2010-08-01'
+      pages: 33–35
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2010-01-01'
+      pages: 38–41
+      publisher: Dreamscarred Press
+      title: 'Psionics Unleashed: Revised'
+    - date: '2013-12-24'
+      pages: 75–77
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: base
+  tag: wilder
+  wealth: 4d4 * 10
+  weaponProf:
+    - simple
+type: class

@@ -1,0 +1,90 @@
+_id: CQA9hwTijWvaDhW4
+_key: '!items!CQA9hwTijWvaDhW4'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Personality_Parasite
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Personality Parasite
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One Medium or smaller humanoid
+  description:
+    value: >-
+      <p>You&nbsp;attempt&nbsp;to&nbsp;briefly&nbsp;partition&nbsp;the&nbsp;mind&nbsp;of&nbsp;your&nbsp;foe,&nbsp;calving&nbsp;off&nbsp;a&nbsp;minor&nbsp;personality&nbsp;that&nbsp;is&nbsp;antagonistic&nbsp;to&nbsp;the&nbsp;main&nbsp;personality.&nbsp;The&nbsp;parasitic&nbsp;personality&nbsp;functions&nbsp;with&nbsp;complete&nbsp;autonomy&nbsp;from&nbsp;the&nbsp;main&nbsp;personality.&nbsp;It&nbsp;does&nbsp;not&nbsp;control&nbsp;the&nbsp;body&nbsp;physically,&nbsp;but&nbsp;it&nbsp;can&nbsp;take&nbsp;one&nbsp;standard&nbsp;action&nbsp;each&nbsp;round&nbsp;that&nbsp;is&nbsp;purely&nbsp;mental,&nbsp;such&nbsp;as&nbsp;manifesting&nbsp;a&nbsp;power,&nbsp;in&nbsp;the&nbsp;same&nbsp;turn&nbsp;that&nbsp;the&nbsp;subject&nbsp;takes&nbsp;its&nbsp;normal&nbsp;actions.
+
+      </p>
+
+      <p>The&nbsp;parasitic&nbsp;personality&nbsp;manifests&nbsp;powers&nbsp;using&nbsp;the&nbsp;subject's&nbsp;power&nbsp;point&nbsp;reserve&nbsp;and&nbsp;known&nbsp;powers,&nbsp;or&nbsp;any&nbsp;spells&nbsp;prepared&nbsp;or&nbsp;known&nbsp;and&nbsp;available&nbsp;spell&nbsp;slots,&nbsp;but&nbsp;can&nbsp;only&nbsp;manifest&nbsp;powers&nbsp;or&nbsp;cast&nbsp;spells&nbsp;three&nbsp;or&nbsp;more&nbsp;levels&nbsp;lower&nbsp;than&nbsp;the&nbsp;highest&nbsp;level&nbsp;of&nbsp;power&nbsp;or&nbsp;spell&nbsp;the&nbsp;subject&nbsp;can&nbsp;normally&nbsp;manifest&nbsp;or&nbsp;cast.
+
+      </p>
+
+      <p>The&nbsp;parasitic&nbsp;personality&nbsp;actively&nbsp;attempts&nbsp;to&nbsp;manifest&nbsp;powers&nbsp;or&nbsp;cast&nbsp;spells&nbsp;that&nbsp;negatively&nbsp;impact&nbsp;the&nbsp;subject,&nbsp;using&nbsp;the&nbsp;highest-level&nbsp;powers&nbsp;or&nbsp;spells&nbsp;possible&nbsp;(so&nbsp;as&nbsp;to&nbsp;deplete&nbsp;the&nbsp;subject's&nbsp;power&nbsp;point&nbsp;reserve&nbsp;and&nbsp;available&nbsp;spell&nbsp;slots),&nbsp;and&nbsp;the&nbsp;most&nbsp;deadly&nbsp;to&nbsp;the&nbsp;subject.&nbsp;You&nbsp;do&nbsp;not&nbsp;have&nbsp;control&nbsp;over&nbsp;what&nbsp;the&nbsp;parasitic&nbsp;personality&nbsp;does,&nbsp;though&nbsp;it&nbsp;always&nbsp;works&nbsp;against&nbsp;the&nbsp;interest&nbsp;of&nbsp;the&nbsp;subject.
+
+      </p>
+
+      <p>Both&nbsp;minds&nbsp;communicate&nbsp;with&nbsp;each&nbsp;other&nbsp;telepathically.&nbsp;If&nbsp;a&nbsp;creature&nbsp;is&nbsp;targeted&nbsp;by&nbsp;a&nbsp;compulsion&nbsp;or&nbsp;charm&nbsp;effect&nbsp;while&nbsp;under&nbsp;the&nbsp;effect&nbsp;of&nbsp;this&nbsp;power,&nbsp;it&nbsp;can&nbsp;make&nbsp;a&nbsp;second&nbsp;saving&nbsp;throw&nbsp;if&nbsp;the&nbsp;first&nbsp;one&nbsp;fails.&nbsp;If&nbsp;both&nbsp;saving&nbsp;throws&nbsp;fail,&nbsp;then&nbsp;this&nbsp;power&nbsp;ends&nbsp;and&nbsp;the&nbsp;creature&nbsp;is&nbsp;affected&nbsp;by&nbsp;the&nbsp;charm&nbsp;or&nbsp;compulsion&nbsp;effect.
+
+      </p>
+
+      <p>The&nbsp;parasitic&nbsp;personality&nbsp;does&nbsp;not&nbsp;gain&nbsp;any&nbsp;advantages&nbsp;if&nbsp;the&nbsp;main&nbsp;personality&nbsp;is&nbsp;subjected&nbsp;to&nbsp;a&nbsp;haste&nbsp;or&nbsp;schism&nbsp;effect.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      dread: 4
+      gambler: 4
+      psion: 4
+      thug: 4
+      wilder: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: 132–133
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '228'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '49'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

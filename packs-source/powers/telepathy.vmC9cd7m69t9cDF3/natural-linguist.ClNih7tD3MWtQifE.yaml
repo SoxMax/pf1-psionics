@@ -1,0 +1,75 @@
+_id: ClNih7tD3MWtQifE
+_key: '!items!ClNih7tD3MWtQifE'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Natural_Linguist
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Natural Linguist
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: 10 * @cl
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;telepathically&nbsp;charge&nbsp;your&nbsp;speech&nbsp;and&nbsp;hearing,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;understand&nbsp;an&nbsp;additional&nbsp;language&nbsp;when&nbsp;it&nbsp;is&nbsp;spoken,&nbsp;even&nbsp;if&nbsp;it&nbsp;is&nbsp;a&nbsp;racial&nbsp;tongue&nbsp;or&nbsp;a&nbsp;regional&nbsp;dialect,&nbsp;and&nbsp;allowing&nbsp;your&nbsp;speech&nbsp;to&nbsp;be&nbsp;understood&nbsp;in&nbsp;that&nbsp;language.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;choose&nbsp;a&nbsp;language&nbsp;or&nbsp;a&nbsp;creature&nbsp;you&nbsp;want&nbsp;to&nbsp;understand&nbsp;and&nbsp;that&nbsp;you&nbsp;want&nbsp;to&nbsp;understand&nbsp;you.&nbsp;Any&nbsp;other&nbsp;creature&nbsp;that&nbsp;also&nbsp;understands&nbsp;the&nbsp;same&nbsp;language&nbsp;can&nbsp;understand&nbsp;you&nbsp;and&nbsp;you&nbsp;can&nbsp;understand&nbsp;them.&nbsp;This&nbsp;does&nbsp;not&nbsp;enable&nbsp;you&nbsp;to&nbsp;speak&nbsp;with&nbsp;creatures&nbsp;who&nbsp;don't&nbsp;speak.&nbsp;You&nbsp;can&nbsp;make&nbsp;yourself&nbsp;understood&nbsp;as&nbsp;far&nbsp;as&nbsp;your&nbsp;voice&nbsp;carries.&nbsp;This&nbsp;power&nbsp;does&nbsp;not&nbsp;predispose&nbsp;any&nbsp;creature&nbsp;addressed&nbsp;toward&nbsp;you&nbsp;in&nbsp;any&nbsp;way.&nbsp;This&nbsp;power&nbsp;does&nbsp;not&nbsp;enable&nbsp;you&nbsp;to&nbsp;speak&nbsp;with&nbsp;creatures&nbsp;immune&nbsp;to&nbsp;mind-affecting&nbsp;powers.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;you&nbsp;may&nbsp;understand&nbsp;and&nbsp;be&nbsp;understood&nbsp;in&nbsp;an&nbsp;additional&nbsp;language&nbsp;at&nbsp;the&nbsp;same&nbsp;time&nbsp;while&nbsp;this&nbsp;effect&nbsp;is&nbsp;active.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      psion: 2
+      thug: 2
+      voyager: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '131'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 226–227
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '49'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

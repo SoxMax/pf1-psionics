@@ -1,0 +1,96 @@
+_id: mfuOpvstDwYNtJ7M
+_key: '!items!mfuOpvstDwYNtJ7M'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Crisis_of_Breath,_Kozak's
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Crisis of Breath, Kozak's
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '20'
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates, Fortitude partial; see text;
+        type: fort
+      target:
+        value: One breathing humanoid
+  description:
+    value: >-
+      <p>You&nbsp;compel&nbsp;the&nbsp;subject&nbsp;to&nbsp;purge&nbsp;its&nbsp;entire&nbsp;store&nbsp;of&nbsp;air&nbsp;in&nbsp;one&nbsp;explosive&nbsp;exhalation,&nbsp;and&nbsp;thereby&nbsp;disrupt&nbsp;the&nbsp;subject's&nbsp;autonomic&nbsp;breathing&nbsp;cycle.&nbsp;The&nbsp;subject's&nbsp;lungs&nbsp;do&nbsp;not&nbsp;automatically&nbsp;function&nbsp;again&nbsp;while&nbsp;the&nbsp;power's&nbsp;duration&nbsp;lasts.
+
+      </p>
+
+      <p>If&nbsp;the&nbsp;target&nbsp;succeeds&nbsp;on&nbsp;a&nbsp;Will&nbsp;save&nbsp;when&nbsp;crisis&nbsp;of&nbsp;breath&nbsp;is&nbsp;manifested,&nbsp;it&nbsp;is&nbsp;unaffected&nbsp;by&nbsp;this&nbsp;power.&nbsp;If&nbsp;it&nbsp;fails&nbsp;its&nbsp;Will&nbsp;save,&nbsp;it&nbsp;can&nbsp;still&nbsp;continue&nbsp;to&nbsp;breathe&nbsp;by&nbsp;taking&nbsp;a&nbsp;standard&nbsp;action&nbsp;in&nbsp;each&nbsp;round&nbsp;to&nbsp;gasp&nbsp;for&nbsp;breath.
+
+      </p>
+
+      <p>An&nbsp;affected&nbsp;creature&nbsp;can&nbsp;attempt&nbsp;to&nbsp;take&nbsp;actions&nbsp;normally&nbsp;(instead&nbsp;of&nbsp;consciously&nbsp;controlling&nbsp;its&nbsp;breathing),&nbsp;but&nbsp;each&nbsp;round&nbsp;it&nbsp;does&nbsp;so,&nbsp;beginning&nbsp;in&nbsp;the&nbsp;round&nbsp;when&nbsp;it&nbsp;failed&nbsp;its&nbsp;Will&nbsp;save,&nbsp;the&nbsp;subject&nbsp;risks&nbsp;blacking&nbsp;out&nbsp;from&nbsp;lack&nbsp;of&nbsp;oxygen.&nbsp;It&nbsp;must&nbsp;succeed&nbsp;on&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;any&nbsp;of&nbsp;its&nbsp;turns&nbsp;in&nbsp;which&nbsp;it&nbsp;did&nbsp;not&nbsp;consciously&nbsp;take&nbsp;a&nbsp;breath.&nbsp;The&nbsp;DC&nbsp;of&nbsp;this&nbsp;save&nbsp;increases&nbsp;by&nbsp;1&nbsp;in&nbsp;every&nbsp;consecutive&nbsp;round&nbsp;after&nbsp;the&nbsp;first&nbsp;one&nbsp;that&nbsp;goes&nbsp;by&nbsp;without&nbsp;a&nbsp;breath;&nbsp;the&nbsp;DC&nbsp;drops&nbsp;back&nbsp;to&nbsp;its&nbsp;original&nbsp;value&nbsp;if&nbsp;the&nbsp;subject&nbsp;spends&nbsp;an&nbsp;action&nbsp;to&nbsp;take&nbsp;a&nbsp;breath.
+
+      </p>
+
+      <p>If&nbsp;a&nbsp;subject&nbsp;fails&nbsp;a&nbsp;Fortitude&nbsp;save,&nbsp;it&nbsp;is&nbsp;disabled&nbsp;(0&nbsp;hp).&nbsp;In&nbsp;the&nbsp;following&nbsp;round,&nbsp;it&nbsp;drops&nbsp;to&nbsp;–1&nbsp;hit&nbsp;points&nbsp;and&nbsp;is&nbsp;dying.&nbsp;Curing&nbsp;powers&nbsp;or&nbsp;spells&nbsp;can&nbsp;revive&nbsp;a&nbsp;dying&nbsp;subject&nbsp;normally,&nbsp;so&nbsp;long&nbsp;as&nbsp;this&nbsp;power's&nbsp;duration&nbsp;has&nbsp;expired;&nbsp;if&nbsp;the&nbsp;power&nbsp;is&nbsp;still&nbsp;in&nbsp;effect,&nbsp;a&nbsp;revived&nbsp;creature&nbsp;is&nbsp;still&nbsp;subject&nbsp;to&nbsp;Fortitude&nbsp;saves&nbsp;in&nbsp;each&nbsp;round&nbsp;when&nbsp;it&nbsp;does&nbsp;not&nbsp;consciously&nbsp;breathe.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;can&nbsp;also&nbsp;affect&nbsp;an&nbsp;animal,&nbsp;fey,&nbsp;magical&nbsp;beast,&nbsp;or&nbsp;monstrous&nbsp;humanoid.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;can&nbsp;also&nbsp;affect&nbsp;an&nbsp;aberration,&nbsp;dragon,&nbsp;elemental,&nbsp;or&nbsp;outsider&nbsp;in&nbsp;addition&nbsp;to&nbsp;the&nbsp;creature&nbsp;types&nbsp;mentioned&nbsp;above.</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;can&nbsp;affect&nbsp;up&nbsp;to&nbsp;four&nbsp;creatures&nbsp;all&nbsp;within&nbsp;a&nbsp;20-ft.-radius&nbsp;burst.</li></ol>
+
+      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend&nbsp;to&nbsp;achieve&nbsp;any&nbsp;of&nbsp;these&nbsp;effects,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      telepath: 3
+      vitalist: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '91'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '178'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '35'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline:
+    - compulsion
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

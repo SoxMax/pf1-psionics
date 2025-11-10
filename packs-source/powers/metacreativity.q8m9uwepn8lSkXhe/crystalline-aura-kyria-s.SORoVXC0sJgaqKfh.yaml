@@ -1,0 +1,79 @@
+_id: SORoVXC0sJgaqKfh
+_key: '!items!SORoVXC0sJgaqKfh'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Crystalline_Aura,_Kyria's
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Crystalline Aura, Kyria's
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '10'
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;create&nbsp;a&nbsp;cloud&nbsp;of&nbsp;whirling,&nbsp;razor-sharp&nbsp;crystals&nbsp;around&nbsp;yourself.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;choose&nbsp;defensive&nbsp;or&nbsp;offensive&nbsp;(you&nbsp;may&nbsp;alter&nbsp;this&nbsp;choice&nbsp;as&nbsp;a&nbsp;swift&nbsp;action).&nbsp;While&nbsp;this&nbsp;power&nbsp;is&nbsp;in&nbsp;defensive&nbsp;mode,&nbsp;the&nbsp;shards&nbsp;lock&nbsp;together&nbsp;to&nbsp;protect&nbsp;you&nbsp;from&nbsp;attacks;&nbsp;you&nbsp;gain&nbsp;a&nbsp;+3&nbsp;shield&nbsp;bonus&nbsp;to&nbsp;AC,&nbsp;as&nbsp;well&nbsp;as&nbsp;a&nbsp;+3&nbsp;competence&nbsp;bonus&nbsp;to&nbsp;Reflex&nbsp;saves.&nbsp;While&nbsp;this&nbsp;power&nbsp;is&nbsp;in&nbsp;offensive&nbsp;mode,&nbsp;creatures&nbsp;within&nbsp;a&nbsp;10&nbsp;ft.&nbsp;radius&nbsp;of&nbsp;you&nbsp;suffer&nbsp;5d6&nbsp;slashing&nbsp;damage&nbsp;at&nbsp;the&nbsp;beginning&nbsp;of&nbsp;each&nbsp;round&nbsp;(and&nbsp;whenever&nbsp;they&nbsp;voluntarily&nbsp;enter&nbsp;a&nbsp;space&nbsp;within&nbsp;10&nbsp;ft.&nbsp;of&nbsp;you)&nbsp;and&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Reflex&nbsp;save&nbsp;or&nbsp;suffer&nbsp;2d6&nbsp;bleed&nbsp;damage.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways:
+
+      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;bonuses&nbsp;granted&nbsp;by&nbsp;the&nbsp;defensive&nbsp;mode&nbsp;increase&nbsp;by&nbsp;1,&nbsp;and&nbsp;the&nbsp;damage&nbsp;of&nbsp;the&nbsp;offensive&nbsp;mode&nbsp;increases&nbsp;by&nbsp;1&nbsp;#ie&nbsp;(d6;&nbsp;this&nbsp;includes&nbsp;the&nbsp;bleed&nbsp;damage).</li></ol>
+
+      <p>•&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;area&nbsp;of&nbsp;the&nbsp;offensive&nbsp;mode&nbsp;increases&nbsp;by&nbsp;5&nbsp;ft.
+
+      </p>
+
+      <p><strong>Surge&nbsp;Augmentation:</strong>&nbsp;If&nbsp;you&nbsp;invoke&nbsp;your&nbsp;wild&nbsp;surge&nbsp;while&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;you&nbsp;may&nbsp;choose&nbsp;to&nbsp;manifest&nbsp;it&nbsp;in&nbsp;both&nbsp;defensive&nbsp;and&nbsp;offensive&nbsp;mode&nbsp;at&nbsp;the&nbsp;same&nbsp;time.&nbsp;If&nbsp;you&nbsp;do&nbsp;so,&nbsp;you&nbsp;may&nbsp;not&nbsp;switch&nbsp;its&nbsp;mode&nbsp;for&nbsp;this&nbsp;manifestation,&nbsp;and&nbsp;its&nbsp;duration&nbsp;is&nbsp;cut&nbsp;in&nbsp;half&nbsp;(rounded&nbsp;down).
+
+      </p>
+  discipline: metacreativity
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      psion: 4
+      psychic warrior: 4
+      wilder: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '14'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Wilders'
+    - date: '2010-01-01'
+      pages: 75–76
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

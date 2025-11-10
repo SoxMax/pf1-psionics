@@ -1,0 +1,74 @@
+_id: QfnXPOUFcBUldSub
+_key: '!items!QfnXPOUFcBUldSub'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Entangling_Ectoplasm
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Entangling Ectoplasm
+system:
+  actions:
+    - actionType: rsak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '5'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      target:
+        value: One Medium or smaller creature
+  description:
+    value: >-
+      <p>You&nbsp;draw&nbsp;forth&nbsp;a&nbsp;glob&nbsp;of&nbsp;ectoplasmic&nbsp;goo&nbsp;from&nbsp;the&nbsp;Astral&nbsp;Plane&nbsp;and&nbsp;immediately&nbsp;throw&nbsp;it&nbsp;as&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;at&nbsp;any&nbsp;creature&nbsp;in&nbsp;range.&nbsp;On&nbsp;a&nbsp;successful&nbsp;hit,&nbsp;the&nbsp;subject&nbsp;is&nbsp;covered&nbsp;in&nbsp;goo&nbsp;and&nbsp;becomes&nbsp;entangled.&nbsp;The&nbsp;goo&nbsp;evaporates&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;power's&nbsp;duration.&nbsp;Entangled&nbsp;creatures&nbsp;can&nbsp;attempt&nbsp;to&nbsp;break&nbsp;free&nbsp;as&nbsp;a&nbsp;move&nbsp;action,&nbsp;making&nbsp;a&nbsp;Strength&nbsp;or&nbsp;Escape&nbsp;Artist&nbsp;check.&nbsp;The&nbsp;DC&nbsp;for&nbsp;this&nbsp;check&nbsp;is&nbsp;equal&nbsp;to&nbsp;11&nbsp;+&nbsp;the&nbsp;manifester's&nbsp;key&nbsp;ability&nbsp;modifier.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;can&nbsp;affect&nbsp;a&nbsp;target&nbsp;one&nbsp;size&nbsp;category&nbsp;larger&nbsp;and&nbsp;the&nbsp;DC&nbsp;to&nbsp;break&nbsp;free&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  discipline: metacreativity
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      gambler: 1
+      psion: 1
+      tactician: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '109'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '199'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '41'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  subdiscipline:
+    - creation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,100 @@
+_id: XP3p0Ym2gBxXJcpr
+_key: '!items!XP3p0Ym2gBxXJcpr'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Object_Reading
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Object Reading
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: minute
+      duration:
+        concentration: true
+        dismiss: true
+        units: conc
+        value: up to 10 min./level (D)
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        description: None
+      target:
+        value: Object touched
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;learn&nbsp;details&nbsp;of&nbsp;an&nbsp;inanimate&nbsp;object's&nbsp;previous&nbsp;owner.&nbsp;Objects&nbsp;accumulate&nbsp;psychic&nbsp;impressions&nbsp;left&nbsp;by&nbsp;their&nbsp;previous&nbsp;owners,&nbsp;which&nbsp;can&nbsp;be&nbsp;read&nbsp;by&nbsp;use&nbsp;of&nbsp;this&nbsp;power.&nbsp;The&nbsp;amount&nbsp;of&nbsp;information&nbsp;revealed&nbsp;depends&nbsp;on&nbsp;how&nbsp;long&nbsp;you&nbsp;study&nbsp;a&nbsp;particular&nbsp;object.
+
+      </p><ul><li><em>1st&nbsp;Minute:</em>&nbsp;Last&nbsp;owner's&nbsp;race.</li></ul>
+
+      <ul><li><em>2nd&nbsp;Minute:</em>&nbsp;Last&nbsp;owner's&nbsp;gender.</li></ul>
+
+      <ul><li><em>3rd&nbsp;Minute:</em>&nbsp;Last&nbsp;owner's&nbsp;age.</li></ul>
+
+      <ul><li><em>4th&nbsp;Minute:</em>&nbsp;Last&nbsp;owner's&nbsp;alignment.</li></ul>
+
+      <ul><li><em>5th&nbsp;Minute:</em>&nbsp;How&nbsp;last&nbsp;owner&nbsp;gained&nbsp;and&nbsp;lost&nbsp;the&nbsp;object.</li></ul>
+
+      <ul><li><em>6th+&nbsp;Minute:</em>&nbsp;Next-to-last&nbsp;owner's&nbsp;race,&nbsp;and&nbsp;so&nbsp;on.</li></ul>
+
+      <p>The&nbsp;power&nbsp;always&nbsp;correctly&nbsp;identifies&nbsp;the&nbsp;last&nbsp;owner&nbsp;of&nbsp;the&nbsp;item,&nbsp;and&nbsp;the&nbsp;original&nbsp;owner&nbsp;(if&nbsp;you&nbsp;keep&nbsp;the&nbsp;power&nbsp;active&nbsp;long&nbsp;enough).
+
+      </p>
+
+      <p>There&nbsp;is&nbsp;a&nbsp;90%&nbsp;chance&nbsp;that&nbsp;this&nbsp;power&nbsp;will&nbsp;successfully&nbsp;identify&nbsp;all&nbsp;other&nbsp;former&nbsp;owners&nbsp;in&nbsp;sequence,&nbsp;but&nbsp;there&nbsp;is&nbsp;a&nbsp;10%&nbsp;chance&nbsp;that&nbsp;one&nbsp;former&nbsp;owner&nbsp;will&nbsp;be&nbsp;skipped&nbsp;and&nbsp;thus&nbsp;not&nbsp;identified.
+
+      </p>
+
+      <p>This&nbsp;power&nbsp;will&nbsp;not&nbsp;identify&nbsp;casual&nbsp;users&nbsp;as&nbsp;owners.&nbsp;(Anyone&nbsp;who&nbsp;uses&nbsp;an&nbsp;object&nbsp;to&nbsp;attack&nbsp;someone&nbsp;or&nbsp;something&nbsp;is&nbsp;not&nbsp;thereafter&nbsp;considered&nbsp;a&nbsp;casual&nbsp;user.)
+
+      </p>
+
+      <p>An&nbsp;object&nbsp;without&nbsp;any&nbsp;previous&nbsp;owners&nbsp;reveals&nbsp;no&nbsp;information.&nbsp;You&nbsp;can&nbsp;continue&nbsp;to&nbsp;run&nbsp;through&nbsp;a&nbsp;list&nbsp;of&nbsp;previous&nbsp;owners&nbsp;and&nbsp;learn&nbsp;details&nbsp;about&nbsp;them&nbsp;as&nbsp;long&nbsp;as&nbsp;the&nbsp;power's&nbsp;duration&nbsp;lasts.&nbsp;If&nbsp;you&nbsp;use&nbsp;this&nbsp;power&nbsp;additional&nbsp;times&nbsp;on&nbsp;the&nbsp;same&nbsp;object,&nbsp;the&nbsp;information&nbsp;yielded&nbsp;is&nbsp;the&nbsp;same&nbsp;as&nbsp;if&nbsp;you&nbsp;were&nbsp;using&nbsp;the&nbsp;power&nbsp;on&nbsp;the&nbsp;object&nbsp;for&nbsp;the&nbsp;first&nbsp;time.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;maximum&nbsp;duration&nbsp;increases&nbsp;by&nbsp;10&nbsp;minutes.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: true
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      empath: 2
+      seer: 2
+      sighted seeker: 2
+      voyager: 2
+  level: 2
+  manifestTime:
+    units: minute
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '132'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 227–228
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '49'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

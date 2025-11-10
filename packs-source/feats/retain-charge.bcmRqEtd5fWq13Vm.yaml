@@ -1,5 +1,7 @@
 _id: bcmRqEtd5fWq13Vm
 _key: '!items!bcmRqEtd5fWq13Vm'
+_stats:
+  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Retain_Charge
@@ -35,9 +37,7 @@ system:
   showInQuickbar: false
   simple: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '10'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Psicrystals'

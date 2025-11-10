@@ -1,0 +1,70 @@
+_id: 9AvkvLHY2qVW9Za6
+_key: '!items!9AvkvLHY2qVW9Za6'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Timestepped_Form
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Timestepped Form
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: hour
+      duration:
+        units: hour
+        value: '24'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>Over&nbsp;the&nbsp;manifestation&nbsp;of&nbsp;this&nbsp;power,&nbsp;you&nbsp;siphon&nbsp;off&nbsp;tiny&nbsp;slices&nbsp;of&nbsp;yourself&nbsp;from&nbsp;the&nbsp;current&nbsp;timestream,&nbsp;cementing&nbsp;your&nbsp;physical&nbsp;form&nbsp;where&nbsp;it&nbsp;is&nbsp;when&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power.&nbsp;Note&nbsp;your&nbsp;current&nbsp;hit&nbsp;point&nbsp;total,&nbsp;physical&nbsp;ability&nbsp;scores&nbsp;(Strength,&nbsp;Dexterity,&nbsp;and&nbsp;Constitution),&nbsp;and&nbsp;any&nbsp;conditional&nbsp;modifiers&nbsp;or&nbsp;conditions&nbsp;such&nbsp;as&nbsp;ability&nbsp;damage&nbsp;to&nbsp;physical&nbsp;ability&nbsp;scores,&nbsp;disease,&nbsp;negative&nbsp;levels,&nbsp;and&nbsp;poison.&nbsp;If&nbsp;at&nbsp;any&nbsp;point&nbsp;within&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;power&nbsp;you&nbsp;are&nbsp;reduced&nbsp;to&nbsp;fewer&nbsp;than&nbsp;0&nbsp;hit&nbsp;points&nbsp;or&nbsp;are&nbsp;slain&nbsp;by&nbsp;a&nbsp;death&nbsp;effect&nbsp;that&nbsp;is&nbsp;not&nbsp;mind-affecting,&nbsp;you&nbsp;can&nbsp;immediately&nbsp;let&nbsp;your&nbsp;current&nbsp;physical&nbsp;body&nbsp;die&nbsp;and&nbsp;assume&nbsp;the&nbsp;timestepped&nbsp;form&nbsp;of&nbsp;your&nbsp;physical&nbsp;body&nbsp;on&nbsp;your&nbsp;next&nbsp;turn.
+
+      </p>
+
+      <p>When&nbsp;this&nbsp;happens,&nbsp;your&nbsp;corpse&nbsp;disappears,&nbsp;and&nbsp;you&nbsp;can&nbsp;either&nbsp;resume&nbsp;the&nbsp;place&nbsp;of&nbsp;your&nbsp;dead&nbsp;body&nbsp;(already&nbsp;wearing&nbsp;any&nbsp;clothing&nbsp;still&nbsp;attached&nbsp;to&nbsp;the&nbsp;corpse)&nbsp;or&nbsp;appear&nbsp;in&nbsp;any&nbsp;place&nbsp;you’ve&nbsp;been&nbsp;within&nbsp;500&nbsp;feet&nbsp;of&nbsp;where&nbsp;your&nbsp;corpse&nbsp;lies&nbsp;(but&nbsp;without&nbsp;any&nbsp;of&nbsp;your&nbsp;gear).
+
+      </p>
+
+      <p>You&nbsp;still&nbsp;retain&nbsp;your&nbsp;original&nbsp;mind,&nbsp;and&nbsp;therefore&nbsp;don’t&nbsp;regain&nbsp;any&nbsp;power&nbsp;points&nbsp;or&nbsp;expended&nbsp;abilities.&nbsp;You&nbsp;are&nbsp;still&nbsp;under&nbsp;any&nbsp;mental&nbsp;influences&nbsp;and&nbsp;energy&nbsp;drain&nbsp;effects&nbsp;you&nbsp;were&nbsp;under&nbsp;when&nbsp;you&nbsp;recalled&nbsp;the&nbsp;form&nbsp;of&nbsp;your&nbsp;physical&nbsp;body,&nbsp;but&nbsp;don’t&nbsp;retain&nbsp;any&nbsp;physical&nbsp;effects&nbsp;such&nbsp;as&nbsp;bleed&nbsp;damage&nbsp;or&nbsp;poison&nbsp;(unless&nbsp;you&nbsp;suffered&nbsp;from&nbsp;these&nbsp;conditions&nbsp;at&nbsp;the&nbsp;time&nbsp;the&nbsp;power&nbsp;was&nbsp;manifest).&nbsp;Spells&nbsp;and&nbsp;powers&nbsp;affecting&nbsp;you&nbsp;when&nbsp;you&nbsp;time-stepped&nbsp;your&nbsp;body&nbsp;abide&nbsp;by&nbsp;their&nbsp;normal&nbsp;durations.&nbsp;Manifesting&nbsp;this&nbsp;power&nbsp;again&nbsp;replaces&nbsp;any&nbsp;previous&nbsp;version&nbsp;of&nbsp;yourself&nbsp;that&nbsp;you&nbsp;time-stepped.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;no&nbsp;time&nbsp;has&nbsp;passed&nbsp;for&nbsp;your&nbsp;time-stepped&nbsp;body&nbsp;when&nbsp;you&nbsp;recall&nbsp;it,&nbsp;so&nbsp;all&nbsp;powers&nbsp;and&nbsp;effects&nbsp;that&nbsp;were&nbsp;active&nbsp;when&nbsp;you&nbsp;time-stepped&nbsp;are&nbsp;once&nbsp;again&nbsp;active&nbsp;when&nbsp;you&nbsp;recall&nbsp;it.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      psion: 9
+      wilder: 9
+  level: 9
+  manifestTime:
+    units: hour
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '15'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,75 @@
+_id: 3hAPBJ8yVgvQYwkL
+_key: '!items!3hAPBJ8yVgvQYwkL'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Bestow_Power
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Bestow Power
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: ft
+        value: 20 ft.
+      save:
+        description: None
+      target:
+        value: One psionic creature
+  description:
+    value: >-
+      <p>You&nbsp;link&nbsp;your&nbsp;mind&nbsp;with&nbsp;another&nbsp;psionic&nbsp;creature's&nbsp;mind,&nbsp;creating&nbsp;a&nbsp;brief&nbsp;conduit&nbsp;through&nbsp;which&nbsp;mental&nbsp;energy&nbsp;can&nbsp;be&nbsp;shared.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;the&nbsp;subject&nbsp;gains&nbsp;up&nbsp;to&nbsp;2&nbsp;power&nbsp;points.&nbsp;You&nbsp;can&nbsp;transfer&nbsp;only&nbsp;as&nbsp;many&nbsp;power&nbsp;points&nbsp;to&nbsp;a&nbsp;subject&nbsp;as&nbsp;it&nbsp;has&nbsp;manifester&nbsp;levels.
+
+      </p>
+
+      <p>Because&nbsp;of&nbsp;the&nbsp;intimate&nbsp;nature&nbsp;of&nbsp;this&nbsp;power,&nbsp;it&nbsp;cannot&nbsp;be&nbsp;fabricated&nbsp;into&nbsp;a&nbsp;psionic&nbsp;item—only&nbsp;power&nbsp;points&nbsp;generated&nbsp;by&nbsp;a&nbsp;psionic&nbsp;creature&nbsp;in&nbsp;the&nbsp;moment&nbsp;can&nbsp;be&nbsp;shared&nbsp;using&nbsp;bestow&nbsp;power.
+
+      </p>
+
+      <p><strong>Special:</strong>&nbsp;The&nbsp;power&nbsp;point&nbsp;cost&nbsp;of&nbsp;this&nbsp;power&nbsp;cannot&nbsp;be&nbsp;reduced&nbsp;below&nbsp;the&nbsp;number&nbsp;of&nbsp;power&nbsp;points&nbsp;transferred.&nbsp;All&nbsp;points&nbsp;transferred&nbsp;must&nbsp;be&nbsp;deducted&nbsp;from&nbsp;the&nbsp;manifester's&nbsp;pool&nbsp;of&nbsp;power&nbsp;points;&nbsp;sources&nbsp;such&nbsp;as&nbsp;wild&nbsp;surge&nbsp;cannot&nbsp;pay&nbsp;for&nbsp;this&nbsp;effect.&nbsp;This&nbsp;power&nbsp;is&nbsp;not&nbsp;subject&nbsp;to&nbsp;the&nbsp;effects&nbsp;of&nbsp;affinity&nbsp;field.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;3&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;subject&nbsp;gains&nbsp;2&nbsp;additional&nbsp;power&nbsp;points.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      psion: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '81'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '166'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

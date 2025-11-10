@@ -1,0 +1,67 @@
+_id: vecZ9Bfr59u9Wu86
+_key: '!items!vecZ9Bfr59u9Wu86'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Fatigue
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Fatigue
+system:
+  actions:
+    - actionType: rsak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: ft
+        value: 30 ft.
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude negates
+        type: fort
+      target:
+        value: One living creature
+  description:
+    value: >-
+      <p>As&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack,&nbsp;you&nbsp;may&nbsp;cause&nbsp;a&nbsp;target&nbsp;to&nbsp;be&nbsp;fatigued&nbsp;for&nbsp;a&nbsp;number&nbsp;of&nbsp;rounds&nbsp;equal&nbsp;to&nbsp;your&nbsp;manifester&nbsp;level.&nbsp;A&nbsp;successful&nbsp;Fortitude&nbsp;save&nbsp;negates&nbsp;this&nbsp;effect.&nbsp;This&nbsp;ability&nbsp;has&nbsp;no&nbsp;effect&nbsp;on&nbsp;a&nbsp;creature&nbsp;that&nbsp;is&nbsp;already&nbsp;fatigued.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      soulthief: 0
+  level: 0
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '36'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Hidden Intentions'
+    - date: '2012-07-23'
+      pages: 162–163
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: '203'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

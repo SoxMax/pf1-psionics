@@ -31,6 +31,7 @@ import {
   extractDescription,
   extractNextPageLink,
   writeYAMLPack,
+  writeItemsWithDeduplication,
   delay,
   extractCategoryLinks,
   parseSourcebooks,
@@ -230,31 +231,6 @@ function selectFeatIcon(feat) {
   return 'icons/sundries/books/book-embossed-blue.webp';
 }
 
-/**
- * Find existing YAML file for a feat by name
- *
- * @param {string} featName - Name of the feat to find
- * @param {string} packsSourceDir - Path to packs-source/feats directory
- * @returns {string|null} - Full path to existing YAML file, or null if not found
- */
-function findExistingFeatFile(featName, packsSourceDir) {
-  if (!fs.existsSync(packsSourceDir)) {
-    return null;
-  }
-
-  const slug = sluggify(featName);
-  const files = fs.readdirSync(packsSourceDir);
-
-  // Look for a file matching the pattern: slug.*.yaml
-  const regex = new RegExp(`^${slug}\\..*\\.yaml$`, 'i');
-  const matchingFile = files.find(file => regex.test(file));
-
-  if (matchingFile) {
-    return join(packsSourceDir, matchingFile);
-  }
-
-  return null;
-}
 
 /**
  * Parse feat data from HTML page
@@ -475,88 +451,6 @@ async function extractAllFeatUrls(categoryUrl = CATEGORY_URL) {
   return Array.from(allFeatNames).sort().map(name => `${BASE_URL}${name}`);
 }
 
-/**
- * Write feats to YAML files, updating existing files or creating new ones
- */
-function writeFeatsWithDeduplication(feats, rootDir) {
-  const packsSourceDir = join(rootDir, 'packs-source', 'feats');
-
-  // Ensure directory exists
-  if (!fs.existsSync(packsSourceDir)) {
-    fs.mkdirSync(packsSourceDir, { recursive: true });
-  }
-
-  const stats = {
-    written: 0,
-    updated: 0,
-    skipped: 0,
-    errors: []
-  };
-
-  // Collect existing IDs to prevent collisions
-  const existingIds = new Set();
-  if (fs.existsSync(packsSourceDir)) {
-    const files = fs.readdirSync(packsSourceDir);
-    for (const file of files) {
-      if (file.endsWith('.yaml')) {
-        const match = file.match(/\.([a-zA-Z0-9]{16})\.yaml$/);
-        if (match) {
-          existingIds.add(match[1]);
-        }
-      }
-    }
-  }
-
-  for (const feat of feats) {
-    try {
-      // Check if a YAML file already exists for this feat
-      const existingFile = findExistingFeatFile(feat.name, packsSourceDir);
-
-      if (existingFile) {
-        // Read existing YAML to preserve the ID and _key
-        const existingContent = fs.readFileSync(existingFile, 'utf8');
-        const existingFeat = yaml.load(existingContent);
-
-        // Preserve the existing ID and _key
-        feat._id = existingFeat._id;
-        feat._key = existingFeat._key;
-
-        // Update the file
-        const yamlContent = yaml.dump(feat, {
-          sortKeys: true,
-          lineWidth: -1
-        });
-
-        fs.writeFileSync(existingFile, yamlContent, 'utf8');
-        stats.updated++;
-        console.log(`  📝 Updated: ${feat.name}`);
-      } else {
-        // Create new file - generate a new Foundry-compatible ID
-        feat._id = generateFoundryId(existingIds);
-        feat._key = `!items!${feat._id}`;
-        existingIds.add(feat._id); // Add to set to prevent duplicates in same batch
-        const slug = sluggify(feat.name);
-        const filename = `${slug}.${feat._id}.yaml`;
-        const filepath = join(packsSourceDir, filename);
-
-        const yamlContent = yaml.dump(feat, {
-          sortKeys: true,
-          lineWidth: -1
-        });
-
-        fs.writeFileSync(filepath, yamlContent, 'utf8');
-        stats.written++;
-        console.log(`  ✨ Created: ${feat.name}`);
-      }
-    } catch (error) {
-      stats.errors.push({ item: feat.name, error: error.message });
-      stats.skipped++;
-      console.error(`  ✗ Error writing ${feat.name}: ${error.message}`);
-    }
-  }
-
-  return stats;
-}
 
 async function main() {
   const args = process.argv.slice(2);
@@ -621,7 +515,7 @@ async function main() {
 
   // Write as YAML files to packs-source/feats/ with deduplication
   const rootDir = join(TOOLS_DIR, '..');
-  const stats = writeFeatsWithDeduplication(psionicFeats, rootDir);
+  const stats = writeItemsWithDeduplication('feats', psionicFeats, rootDir);
 
   console.log('');
   console.log(`✓ Created ${stats.written} new YAML files`);

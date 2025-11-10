@@ -1,0 +1,73 @@
+_id: eVS6mHgElSJhSCF2
+_key: '!items!eVS6mHgElSJhSCF2'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psychoport_Trigger
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Psychoport Trigger
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: hour
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;specify&nbsp;a&nbsp;situation&nbsp;that&nbsp;triggers&nbsp;your&nbsp;automatic&nbsp;manifestation&nbsp;of&nbsp;a&nbsp;<em><a&nbsp;href="/wiki/Psychoport"&nbsp;title="Psychoport">psychoport</a></em>,&nbsp;taking&nbsp;you&nbsp;to&nbsp;a&nbsp;predetermined&nbsp;location.&nbsp;You&nbsp;must&nbsp;know&nbsp;the&nbsp;psychoport&nbsp;power&nbsp;and&nbsp;have&nbsp;sufficient&nbsp;power&nbsp;points&nbsp;to&nbsp;manifest&nbsp;it&nbsp;when&nbsp;the&nbsp;specified&nbsp;situation&nbsp;occurs.
+
+      </p>
+
+      <p>The&nbsp;psychoport&nbsp;trigger&nbsp;goes&nbsp;off&nbsp;on&nbsp;the&nbsp;initiative&nbsp;count&nbsp;immediately&nbsp;after&nbsp;the&nbsp;specified&nbsp;situation&nbsp;occurs,&nbsp;even&nbsp;if&nbsp;you&nbsp;are&nbsp;flat-footed&nbsp;or&nbsp;you&nbsp;have&nbsp;already&nbsp;taken&nbsp;your&nbsp;turn&nbsp;in&nbsp;the&nbsp;current&nbsp;round.&nbsp;The&nbsp;specified&nbsp;situation&nbsp;can&nbsp;be&nbsp;described&nbsp;in&nbsp;general&nbsp;terms&nbsp;or&nbsp;specific&nbsp;terms.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      nomad: 5
+      voyager: 5
+  level: 5
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '139'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '237'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '52'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  subdiscipline:
+    - teleportation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

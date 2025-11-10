@@ -1,0 +1,68 @@
+_id: PTr6LSdKQn1x6OTn
+_key: '!items!PTr6LSdKQn1x6OTn'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Charge_Weapon
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Charge Weapon
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: '1'
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        description: None
+      target:
+        value: One weapon
+  description:
+    value: >-
+      <p>You&nbsp;touch&nbsp;a&nbsp;weapon,&nbsp;filing&nbsp;it&nbsp;with&nbsp;a&nbsp;humming&nbsp;charge&nbsp;of&nbsp;your&nbsp;current&nbsp;energy&nbsp;type.&nbsp;The&nbsp;weapon&nbsp;gains&nbsp;a&nbsp;charge&nbsp;of&nbsp;3d6&nbsp;energy&nbsp;damage&nbsp;that&nbsp;the&nbsp;wielder&nbsp;can&nbsp;choose&nbsp;to&nbsp;unleash&nbsp;with&nbsp;an&nbsp;attack.&nbsp;The&nbsp;wielder&nbsp;chooses&nbsp;how&nbsp;many&nbsp;dice&nbsp;to&nbsp;add&nbsp;to&nbsp;an&nbsp;attack&nbsp;before&nbsp;making&nbsp;the&nbsp;attack&nbsp;roll;&nbsp;if&nbsp;the&nbsp;attack&nbsp;misses,&nbsp;the&nbsp;damage&nbsp;is&nbsp;lost.&nbsp;In&nbsp;addition,&nbsp;attacks&nbsp;made&nbsp;with&nbsp;the&nbsp;weapon&nbsp;have&nbsp;a&nbsp;secondary&nbsp;effect&nbsp;depending&nbsp;on&nbsp;the&nbsp;energy&nbsp;type.
+
+      </p>
+
+      <p><strong>Energy&nbsp;type:</strong></p><ul><li><em>Fire&nbsp;</em>–&nbsp;you&nbsp;deal&nbsp;1&nbsp;point&nbsp;of&nbsp;fie&nbsp;damage&nbsp;with&nbsp;all&nbsp;attacks&nbsp;with&nbsp;the&nbsp;charged&nbsp;weapon.</li><li><em>Cold&nbsp;</em>–&nbsp;all&nbsp;attacks&nbsp;with&nbsp;the&nbsp;charged&nbsp;weapon&nbsp;slow&nbsp;down&nbsp;enemies,&nbsp;anyone&nbsp;hit&nbsp;while&nbsp;the&nbsp;weapon&nbsp;is&nbsp;charged&nbsp;takes&nbsp;a&nbsp;5&nbsp;ft&nbsp;penalty&nbsp;to&nbsp;their&nbsp;speed&nbsp;in&nbsp;their&nbsp;next&nbsp;turn.</li><li><em>Electricity&nbsp;</em>–&nbsp;you&nbsp;gain&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;to&nbsp;attacks&nbsp;against&nbsp;creatures&nbsp;made&nbsp;of&nbsp;metal&nbsp;or&nbsp;in&nbsp;metal&nbsp;armor&nbsp;while&nbsp;the&nbsp;weapon&nbsp;is&nbsp;charged.</li><li><em>Sonic&nbsp;</em>–&nbsp;all&nbsp;attacks&nbsp;with&nbsp;the&nbsp;charged&nbsp;weapon&nbsp;ignores&nbsp;½&nbsp;hardness&nbsp;on&nbsp;all&nbsp;attacks&nbsp;as&nbsp;the&nbsp;weapon&nbsp;vibrates.</li></ul>
+
+      <p><strong>Augment:&nbsp;</strong>This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ul><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;increase&nbsp;the&nbsp;damage&nbsp;by&nbsp;1d6.</li><li>If&nbsp;you&nbsp;spend&nbsp;3&nbsp;additional&nbsp;power&nbsp;points,&nbsp;increase&nbsp;the&nbsp;dice&nbsp;size&nbsp;to&nbsp;d8.</li><li>If&nbsp;you&nbsp;spend&nbsp;5&nbsp;additional&nbsp;power&nbsp;points,&nbsp;increase&nbsp;the&nbsp;dice&nbsp;size&nbsp;to&nbsp;d10.</li></ul>
+  descriptors:
+    - energy
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      highlord: 3
+      kineticist: 3
+      psychic warrior: 3
+      tactician: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: 10–11
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Feats and Powers'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

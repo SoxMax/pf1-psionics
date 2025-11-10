@@ -1,0 +1,70 @@
+_id: uv09Xyy6Gk9ey0Gv
+_key: '!items!uv09Xyy6Gk9ey0Gv'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Horrid_Transformation
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Horrid Transformation
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: round
+      duration:
+        units: round
+        value: '5'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One incorporeal creature
+  description:
+    value: >-
+      <p>By&nbsp;wracking&nbsp;a&nbsp;incorporeal&nbsp;creature&nbsp;with&nbsp;incredible&nbsp;pain&nbsp;and&nbsp;suffering,&nbsp;you&nbsp;attempt&nbsp;to&nbsp;transform&nbsp;it&nbsp;into&nbsp;a&nbsp;wraith.&nbsp;The&nbsp;target&nbsp;is&nbsp;stunned&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power.&nbsp;It&nbsp;can&nbsp;attempt&nbsp;a&nbsp;new&nbsp;save&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;each&nbsp;of&nbsp;its&nbsp;turns&nbsp;to&nbsp;end&nbsp;this&nbsp;effect&nbsp;–&nbsp;but&nbsp;it&nbsp;receives&nbsp;a&nbsp;penalty&nbsp;on&nbsp;this&nbsp;save&nbsp;equal&nbsp;to&nbsp;the&nbsp;number&nbsp;of&nbsp;rounds&nbsp;it&nbsp;has&nbsp;been&nbsp;stunned&nbsp;(for&nbsp;example,&nbsp;the&nbsp;target's&nbsp;second&nbsp;save&nbsp;is&nbsp;at&nbsp;a&nbsp;-2,&nbsp;the&nbsp;third&nbsp;at&nbsp;a&nbsp;-3,&nbsp;and&nbsp;so&nbsp;on&nbsp;to&nbsp;a&nbsp;maximum&nbsp;of&nbsp;-5&nbsp;for&nbsp;the&nbsp;fifth&nbsp;save).&nbsp;If&nbsp;all&nbsp;five&nbsp;rounds&nbsp;pass&nbsp;and&nbsp;the&nbsp;target&nbsp;is&nbsp;still&nbsp;stunned&nbsp;by&nbsp;this&nbsp;power,&nbsp;it&nbsp;is&nbsp;immediately&nbsp;destroyed,&nbsp;returning&nbsp;as&nbsp;a&nbsp;wraith&nbsp;in&nbsp;1d4&nbsp;rounds.&nbsp;You&nbsp;gain&nbsp;no&nbsp;special&nbsp;control&nbsp;or&nbsp;influence&nbsp;over&nbsp;this&nbsp;wraith&nbsp;–&nbsp;in&nbsp;fact,&nbsp;it&nbsp;is&nbsp;likely&nbsp;to&nbsp;be&nbsp;enraged&nbsp;towards&nbsp;you&nbsp;for&nbsp;the&nbsp;pain&nbsp;you&nbsp;caused&nbsp;it.&nbsp;However,&nbsp;a&nbsp;wraith&nbsp;created&nbsp;through&nbsp;this&nbsp;power&nbsp;suffers&nbsp;a&nbsp;permanent&nbsp;penalty&nbsp;on&nbsp;saves&nbsp;equal&nbsp;to&nbsp;your&nbsp;Charisma&nbsp;modifier&nbsp;against&nbsp;athanatism&nbsp;powers&nbsp;or&nbsp;effects&nbsp;you&nbsp;create.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;spend&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;to&nbsp;have&nbsp;this&nbsp;power&nbsp;target&nbsp;a&nbsp;corporeal&nbsp;creature&nbsp;within&nbsp;range.
+
+      </p>
+
+      <p><strong>Special:</strong>&nbsp;Though&nbsp;this&nbsp;is&nbsp;a&nbsp;death&nbsp;effect,&nbsp;incorporeal&nbsp;undead&nbsp;creatures&nbsp;gain&nbsp;no&nbsp;immunity&nbsp;against&nbsp;this&nbsp;power.
+
+      </p>
+  descriptors:
+    - death
+    - evil
+  discipline: athanatism
+  display:
+    auditory: true
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      conduit: 7
+  level: 7
+  manifestTime:
+    units: round
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '34'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

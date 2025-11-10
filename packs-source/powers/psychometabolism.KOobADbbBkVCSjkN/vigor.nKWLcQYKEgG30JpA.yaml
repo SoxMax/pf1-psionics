@@ -1,0 +1,78 @@
+_id: nKWLcQYKEgG30JpA
+_key: '!items!nKWLcQYKEgG30JpA'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Vigor_(power)
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Vigor
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;suffuse&nbsp;yourself&nbsp;with&nbsp;power,&nbsp;gaining&nbsp;5&nbsp;temporary&nbsp;hit&nbsp;points.&nbsp;Using&nbsp;this&nbsp;power&nbsp;again&nbsp;when&nbsp;an&nbsp;earlier&nbsp;manifestation&nbsp;has&nbsp;not&nbsp;expired&nbsp;merely&nbsp;replaces&nbsp;the&nbsp;older&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;(if&nbsp;any&nbsp;remain)&nbsp;with&nbsp;the&nbsp;newer&nbsp;ones.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;the&nbsp;number&nbsp;of&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;you&nbsp;gain&nbsp;increases&nbsp;by&nbsp;5.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: true
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      cryptic: 1
+      empath: 1
+      gambler: 1
+      gifted blade: 1
+      marksman: 1
+      psion: 1
+      psychic warrior: 1
+      thug: 1
+      vitalist: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: 153–154
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '256'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '59'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

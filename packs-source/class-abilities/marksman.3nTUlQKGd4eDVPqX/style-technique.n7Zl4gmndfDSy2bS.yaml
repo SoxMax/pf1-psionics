@@ -1,0 +1,29 @@
+_id: n7Zl4gmndfDSy2bS
+_key: '!items!n7Zl4gmndfDSy2bS'
+_stats:
+  coreVersion: '13.350'
+folder: 3nTUlQKGd4eDVPqX
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Style Technique
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Marksman
+  description:
+    value: >-
+      <p>All&nbsp;marksmen,&nbsp;regardless&nbsp;of&nbsp;their&nbsp;chosen&nbsp;combat&nbsp;style,&nbsp;gain&nbsp;special&nbsp;techniques&nbsp;at&nbsp;2nd&nbsp;level&nbsp;that&nbsp;they&nbsp;can&nbsp;use&nbsp;by&nbsp;expending&nbsp;psionic&nbsp;focus.&nbsp;The&nbsp;specific&nbsp;technique&nbsp;is&nbsp;determined&nbsp;by&nbsp;the&nbsp;Marksman's&nbsp;chosen&nbsp;style.
+
+      </p><p></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 47–50
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 44–46
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: style-technique
+type: feat

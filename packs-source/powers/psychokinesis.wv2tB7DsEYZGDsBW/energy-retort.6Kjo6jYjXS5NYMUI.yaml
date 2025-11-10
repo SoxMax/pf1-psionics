@@ -1,0 +1,93 @@
+_id: 6Kjo6jYjXS5NYMUI
+_key: '!items!6Kjo6jYjXS5NYMUI'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Energy_Retort
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Energy Retort
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      damage:
+        parts:
+          - - 4d6
+            - untyped
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal and close (25 ft. + 5 ft./2 levels); see text
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Reflex half or Fortitude half; see text;
+        type: fort
+      target:
+        value: You and creature or object attacking you; see text
+  description:
+    value: >-
+      <p>You&nbsp;weave&nbsp;a&nbsp;field&nbsp;of&nbsp;potential&nbsp;energy&nbsp;of&nbsp;your&nbsp;active&nbsp;energy&nbsp;type&nbsp;(cold,&nbsp;electricity,&nbsp;fire,&nbsp;or&nbsp;sonic)&nbsp;around&nbsp;your&nbsp;body.&nbsp;The&nbsp;first&nbsp;successful&nbsp;attack&nbsp;made&nbsp;against&nbsp;you&nbsp;in&nbsp;each&nbsp;round&nbsp;during&nbsp;the&nbsp;power's&nbsp;duration&nbsp;prompts&nbsp;a&nbsp;response&nbsp;from&nbsp;the&nbsp;field&nbsp;without&nbsp;any&nbsp;effort&nbsp;on&nbsp;your&nbsp;part.&nbsp;The&nbsp;attack&nbsp;may&nbsp;be&nbsp;physical,&nbsp;the&nbsp;effect&nbsp;of&nbsp;a&nbsp;power,&nbsp;or&nbsp;the&nbsp;effect&nbsp;of&nbsp;a&nbsp;spell&nbsp;(including&nbsp;spell-like,&nbsp;supernatural,&nbsp;and&nbsp;extraordinary&nbsp;abilities).&nbsp;An&nbsp;"ectoburst"&nbsp;discharges&nbsp;from&nbsp;the&nbsp;field,&nbsp;targeting&nbsp;the&nbsp;source&nbsp;of&nbsp;the&nbsp;attack&nbsp;and&nbsp;dealing&nbsp;4d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;of&nbsp;the&nbsp;active&nbsp;energy&nbsp;type.&nbsp;To&nbsp;be&nbsp;affected,&nbsp;a&nbsp;target&nbsp;must&nbsp;be&nbsp;within&nbsp;close&nbsp;range,&nbsp;you&nbsp;must&nbsp;have&nbsp;line&nbsp;of&nbsp;sight&nbsp;and&nbsp;line&nbsp;of&nbsp;effect&nbsp;to&nbsp;it,&nbsp;and&nbsp;you&nbsp;must&nbsp;be&nbsp;able&nbsp;to&nbsp;identify&nbsp;the&nbsp;source&nbsp;of&nbsp;the&nbsp;attack.&nbsp;The&nbsp;ectoburst&nbsp;automatically&nbsp;strikes&nbsp;the&nbsp;enemy&nbsp;who&nbsp;successfully&nbsp;attacked&nbsp;you,&nbsp;so&nbsp;long&nbsp;as&nbsp;it&nbsp;meets&nbsp;the&nbsp;above&nbsp;criteria.
+
+      </p><ul><li><em>Cold:</em>&nbsp;A&nbsp;field&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;+1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die.&nbsp;The&nbsp;saving&nbsp;throw&nbsp;to&nbsp;reduce&nbsp;damage&nbsp;from&nbsp;a&nbsp;cold&nbsp;retort&nbsp;is&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;instead&nbsp;of&nbsp;a&nbsp;Reflex&nbsp;save.</li></ul>
+
+      <ul><li><em>Electricity:</em>&nbsp;Manifesting&nbsp;a&nbsp;field&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;provides&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;to&nbsp;the&nbsp;save&nbsp;DC&nbsp;and&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;manifester&nbsp;level&nbsp;checks&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of&nbsp;overcoming&nbsp;power&nbsp;resistance.</li></ul>
+
+      <ul><li><em>Fire:</em>&nbsp;A&nbsp;field&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;+1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die.</li></ul>
+
+      <ul><li><em>Sonic:</em>&nbsp;A&nbsp;field&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;–1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die&nbsp;and&nbsp;ignores&nbsp;an&nbsp;object's&nbsp;hardness.</li></ul>
+
+      <p>This&nbsp;power's&nbsp;subtype&nbsp;is&nbsp;the&nbsp;same&nbsp;as&nbsp;the&nbsp;type&nbsp;of&nbsp;energy&nbsp;you&nbsp;manifest.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;duration&nbsp;increases&nbsp;by&nbsp;1&nbsp;minute.
+
+      </p>
+
+      <p><strong>Special:</strong>&nbsp;A&nbsp;kineticist&nbsp;does&nbsp;not&nbsp;need&nbsp;to&nbsp;select&nbsp;an&nbsp;energy&nbsp;type&nbsp;for&nbsp;this&nbsp;power&nbsp;when&nbsp;he&nbsp;gains&nbsp;psionic&nbsp;focus.&nbsp;He&nbsp;may&nbsp;choose&nbsp;the&nbsp;type&nbsp;of&nbsp;damage&nbsp;at&nbsp;the&nbsp;time&nbsp;the&nbsp;power&nbsp;is&nbsp;manifested.
+
+      </p>
+  descriptors:
+    - see text
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      gambler: 3
+      psion: 3
+      wilder: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '107'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 196–197
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '40'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

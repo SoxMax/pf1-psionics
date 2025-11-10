@@ -1,0 +1,72 @@
+_id: BUj8wa7Jzr6lQW9r
+_key: '!items!BUj8wa7Jzr6lQW9r'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Heightened_Vision
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Heightened Vision
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: hour
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;increase&nbsp;your&nbsp;visual&nbsp;acuity,&nbsp;gaining&nbsp;the&nbsp;ability&nbsp;to&nbsp;see&nbsp;60&nbsp;feet&nbsp;even&nbsp;in&nbsp;total&nbsp;darkness.&nbsp;Your&nbsp;increased&nbsp;vision&nbsp;is&nbsp;black&nbsp;and&nbsp;white&nbsp;only&nbsp;but&nbsp;otherwise&nbsp;like&nbsp;normal&nbsp;sight.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      gifted blade: 2
+      marksman: 3
+      psion: 3
+      psychic warrior: 2
+      sighted seeker: 2
+      thug: 2
+      wilder: 3
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '118'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '210'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '44'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

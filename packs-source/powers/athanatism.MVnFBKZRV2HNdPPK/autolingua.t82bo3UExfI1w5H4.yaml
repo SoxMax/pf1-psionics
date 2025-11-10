@@ -1,0 +1,65 @@
+_id: t82bo3UExfI1w5H4
+_key: '!items!t82bo3UExfI1w5H4'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Autolingua
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Autolingua
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: spec
+        value: See text
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;allow&nbsp;the&nbsp;spirit&nbsp;world&nbsp;access&nbsp;to&nbsp;your&nbsp;hands,&nbsp;gaining&nbsp;information&nbsp;on&nbsp;a&nbsp;person,&nbsp;place,&nbsp;or&nbsp;thing&nbsp;through&nbsp;their&nbsp;written&nbsp;words&nbsp;at&nbsp;the&nbsp;cost&nbsp;of&nbsp;some&nbsp;of&nbsp;your&nbsp;essence.&nbsp;If&nbsp;the&nbsp;person&nbsp;or&nbsp;thing&nbsp;is&nbsp;at&nbsp;hand,&nbsp;or&nbsp;if&nbsp;you&nbsp;are&nbsp;in&nbsp;the&nbsp;place&nbsp;in&nbsp;question,&nbsp;the&nbsp;casting&nbsp;time&nbsp;is&nbsp;1d4&nbsp;x&nbsp;10&nbsp;minutes.&nbsp;If&nbsp;you&nbsp;have&nbsp;only&nbsp;detailed&nbsp;information&nbsp;on&nbsp;the&nbsp;person,&nbsp;place,&nbsp;or&nbsp;thing,&nbsp;the&nbsp;casting&nbsp;time&nbsp;is&nbsp;1d10&nbsp;days,&nbsp;and&nbsp;the&nbsp;resulting&nbsp;lore&nbsp;is&nbsp;less&nbsp;complete&nbsp;and&nbsp;specific&nbsp;(though&nbsp;it&nbsp;often&nbsp;provides&nbsp;enough&nbsp;information&nbsp;to&nbsp;help&nbsp;you&nbsp;find&nbsp;the&nbsp;person,&nbsp;place,&nbsp;or&nbsp;thing,&nbsp;thus&nbsp;allowing&nbsp;a&nbsp;better&nbsp;autolingua&nbsp;result&nbsp;next&nbsp;time).&nbsp;If&nbsp;you&nbsp;know&nbsp;only&nbsp;rumors,&nbsp;the&nbsp;casting&nbsp;time&nbsp;is&nbsp;2d6&nbsp;weeks,&nbsp;and&nbsp;the&nbsp;resulting&nbsp;lore&nbsp;is&nbsp;vague&nbsp;and&nbsp;incomplete&nbsp;(though&nbsp;it&nbsp;often&nbsp;directs&nbsp;you&nbsp;to&nbsp;more&nbsp;detailed&nbsp;information,&nbsp;thus&nbsp;allowing&nbsp;a&nbsp;better&nbsp;autolingua&nbsp;result&nbsp;next&nbsp;time).
+
+      </p>
+
+      <p>During&nbsp;the&nbsp;casting,&nbsp;you&nbsp;cannot&nbsp;engage&nbsp;in&nbsp;other&nbsp;than&nbsp;routine&nbsp;activities:&nbsp;eating,&nbsp;sleeping,&nbsp;and&nbsp;so&nbsp;forth.&nbsp;When&nbsp;completed,&nbsp;the&nbsp;written&nbsp;words&nbsp;bring&nbsp;legends&nbsp;(if&nbsp;any)&nbsp;about&nbsp;the&nbsp;person,&nbsp;place,&nbsp;or&nbsp;things&nbsp;to&nbsp;your&nbsp;mind.&nbsp;These&nbsp;may&nbsp;be&nbsp;legends&nbsp;that&nbsp;are&nbsp;still&nbsp;current,&nbsp;legends&nbsp;that&nbsp;have&nbsp;been&nbsp;forgotten,&nbsp;or&nbsp;even&nbsp;information&nbsp;that&nbsp;has&nbsp;never&nbsp;been&nbsp;generally&nbsp;known.&nbsp;If&nbsp;the&nbsp;person,&nbsp;place,&nbsp;or&nbsp;thing&nbsp;is&nbsp;not&nbsp;of&nbsp;legendary&nbsp;importance,&nbsp;you&nbsp;gain&nbsp;no&nbsp;information.&nbsp;As&nbsp;a&nbsp;rule&nbsp;of&nbsp;thumb,&nbsp;characters&nbsp;who&nbsp;are&nbsp;11th&nbsp;level&nbsp;and&nbsp;higher&nbsp;are&nbsp;"legendary,"&nbsp;as&nbsp;are&nbsp;the&nbsp;sorts&nbsp;of&nbsp;creatures&nbsp;they&nbsp;contend&nbsp;with,&nbsp;the&nbsp;major&nbsp;magic&nbsp;items&nbsp;they&nbsp;wield,&nbsp;and&nbsp;the&nbsp;places&nbsp;where&nbsp;they&nbsp;perform&nbsp;their&nbsp;key&nbsp;deeds.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points,&nbsp;you&nbsp;reduce&nbsp;the&nbsp;manifesting&nbsp;time&nbsp;of&nbsp;this&nbsp;power&nbsp;when&nbsp;the&nbsp;person,&nbsp;place,&nbsp;or&nbsp;thing&nbsp;is&nbsp;not&nbsp;at&nbsp;hand&nbsp;from&nbsp;1d10&nbsp;days&nbsp;to&nbsp;1d10&nbsp;hours.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;you&nbsp;reduce&nbsp;the&nbsp;manifesting&nbsp;time&nbsp;of&nbsp;this&nbsp;power&nbsp;when&nbsp;you&nbsp;know&nbsp;only&nbsp;rumors&nbsp;of&nbsp;the&nbsp;person,&nbsp;place,&nbsp;or&nbsp;thing&nbsp;from&nbsp;2d6&nbsp;weeks&nbsp;to&nbsp;2d6&nbsp;days.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;you&nbsp;create&nbsp;a&nbsp;map&nbsp;towards&nbsp;the&nbsp;person,&nbsp;place,&nbsp;or&nbsp;thing&nbsp;if&nbsp;it&nbsp;is&nbsp;not&nbsp;on&nbsp;hand.&nbsp;This&nbsp;map&nbsp;shows&nbsp;the&nbsp;shortest,&nbsp;most&nbsp;direct&nbsp;physical&nbsp;route&nbsp;to&nbsp;its&nbsp;location&nbsp;at&nbsp;the&nbsp;time&nbsp;you&nbsp;finish&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;as&nbsp;long&nbsp;as&nbsp;it&nbsp;is&nbsp;on&nbsp;the&nbsp;same&nbsp;plane&nbsp;as&nbsp;you.&nbsp;If&nbsp;you&nbsp;are&nbsp;not&nbsp;on&nbsp;the&nbsp;same&nbsp;plane&nbsp;as&nbsp;it,&nbsp;you&nbsp;instead&nbsp;learn&nbsp;which&nbsp;plane&nbsp;it&nbsp;is&nbsp;currently&nbsp;on.</li></ol>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      conduit: 6
+  level: 6
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '23'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,95 @@
+_id: SmsPE0hrn0ZErPdT
+_key: '!items!SmsPE0hrn0ZErPdT'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Mind_Seed
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Mind Seed
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One touched humanoid your size or smaller
+  description:
+    value: >-
+      <p>You&nbsp;impress&nbsp;the&nbsp;totality&nbsp;of&nbsp;your&nbsp;psyche&nbsp;into&nbsp;a&nbsp;subject's&nbsp;subconscious.&nbsp;If&nbsp;successfully&nbsp;implanted,&nbsp;the&nbsp;seed&nbsp;of&nbsp;your&nbsp;mind&nbsp;"germinates"&nbsp;over&nbsp;the&nbsp;period&nbsp;of&nbsp;one&nbsp;week.&nbsp;During&nbsp;this&nbsp;time,&nbsp;the&nbsp;subject&nbsp;begins&nbsp;to&nbsp;unconsciously&nbsp;take&nbsp;on&nbsp;your&nbsp;mannerisms.
+
+      </p>
+
+      <p>When&nbsp;integration&nbsp;is&nbsp;complete&nbsp;(after&nbsp;one&nbsp;week),&nbsp;the&nbsp;subject&nbsp;becomes&nbsp;you&nbsp;in&nbsp;mind&nbsp;as&nbsp;you&nbsp;were&nbsp;when&nbsp;you&nbsp;manifested&nbsp;the&nbsp;power,&nbsp;but&nbsp;the&nbsp;subject's&nbsp;level&nbsp;is&nbsp;eight&nbsp;lower&nbsp;than&nbsp;your&nbsp;own.&nbsp;The&nbsp;subject&nbsp;does&nbsp;not&nbsp;have&nbsp;any&nbsp;of&nbsp;your&nbsp;physical&nbsp;ability&nbsp;scores&nbsp;or&nbsp;equipment,&nbsp;but&nbsp;does&nbsp;have&nbsp;the&nbsp;Intelligence,&nbsp;Wisdom,&nbsp;and&nbsp;Charisma&nbsp;scores&nbsp;you&nbsp;had&nbsp;when&nbsp;you&nbsp;were&nbsp;eight&nbsp;levels&nbsp;lower.&nbsp;The&nbsp;subject&nbsp;also&nbsp;knows&nbsp;the&nbsp;powers&nbsp;you&nbsp;knew&nbsp;when&nbsp;you&nbsp;were&nbsp;eight&nbsp;levels&nbsp;lower.&nbsp;If&nbsp;the&nbsp;subject's&nbsp;race&nbsp;is&nbsp;different&nbsp;from&nbsp;yours,&nbsp;its&nbsp;racial&nbsp;traits&nbsp;do&nbsp;not&nbsp;change.
+
+      </p>
+
+      <p>While&nbsp;the&nbsp;subject&nbsp;is&nbsp;initially&nbsp;your&nbsp;mental&nbsp;duplicate,&nbsp;the&nbsp;two&nbsp;personalities&nbsp;diverge&nbsp;over&nbsp;time.&nbsp;Although&nbsp;the&nbsp;subject&nbsp;starts&nbsp;off&nbsp;with&nbsp;memories&nbsp;of&nbsp;your&nbsp;experiences,&nbsp;it&nbsp;possesses&nbsp;its&nbsp;original&nbsp;"soul"&nbsp;and&nbsp;physical&nbsp;body&nbsp;and&nbsp;is&nbsp;free&nbsp;to&nbsp;develop&nbsp;its&nbsp;own&nbsp;personality&nbsp;based&nbsp;on&nbsp;its&nbsp;own&nbsp;new&nbsp;experiences.&nbsp;Thus,&nbsp;the&nbsp;subject&nbsp;is&nbsp;not&nbsp;your&nbsp;slave&nbsp;or&nbsp;servant,&nbsp;but&nbsp;instead&nbsp;a&nbsp;nonplayer&nbsp;character&nbsp;in&nbsp;its&nbsp;own&nbsp;right&nbsp;that&nbsp;shares&nbsp;your&nbsp;earlier&nbsp;memories.
+
+      </p>
+
+      <p>Protection&nbsp;from&nbsp;evil&nbsp;or&nbsp;a&nbsp;similar&nbsp;spell&nbsp;or&nbsp;power&nbsp;can&nbsp;prevent&nbsp;you&nbsp;from&nbsp;implanting&nbsp;mind&nbsp;seed,&nbsp;or&nbsp;prevent&nbsp;a&nbsp;seed&nbsp;from&nbsp;germinating&nbsp;while&nbsp;the&nbsp;protective&nbsp;power&nbsp;lasts.&nbsp;Otherwise,&nbsp;a&nbsp;germinating&nbsp;seed&nbsp;can&nbsp;be&nbsp;removed&nbsp;(prior&nbsp;to&nbsp;germination)&nbsp;only&nbsp;by&nbsp;psychic&nbsp;chirurgery,&nbsp;reality&nbsp;revision,&nbsp;or&nbsp;similarly&nbsp;high-level&nbsp;effects.&nbsp;Manifesting&nbsp;mind&nbsp;seed&nbsp;again&nbsp;during&nbsp;the&nbsp;germination&nbsp;period&nbsp;also&nbsp;cleanses&nbsp;the&nbsp;subject's&nbsp;mind&nbsp;and&nbsp;does&nbsp;not&nbsp;carry&nbsp;with&nbsp;it&nbsp;the&nbsp;restriction&nbsp;of&nbsp;a&nbsp;target&nbsp;of&nbsp;your&nbsp;size&nbsp;or&nbsp;smaller
+
+      </p>
+
+      <p>The&nbsp;process&nbsp;of&nbsp;impressing&nbsp;your&nbsp;psyche&nbsp;into&nbsp;another&nbsp;is&nbsp;demanding&nbsp;and&nbsp;draining.&nbsp;You&nbsp;suffer&nbsp;one&nbsp;negative&nbsp;level&nbsp;that&nbsp;does&nbsp;not&nbsp;go&nbsp;away&nbsp;until&nbsp;cleansed&nbsp;by&nbsp;an&nbsp;effect&nbsp;such&nbsp;as&nbsp;restoration.&nbsp;Cleansing&nbsp;a&nbsp;mind&nbsp;seed&nbsp;does&nbsp;not&nbsp;bestow&nbsp;this&nbsp;penalty.
+
+      </p>
+
+      <p>The&nbsp;target&nbsp;of&nbsp;this&nbsp;power&nbsp;must&nbsp;be&nbsp;your&nbsp;size&nbsp;or&nbsp;smaller.&nbsp;Effects&nbsp;active&nbsp;that&nbsp;modify&nbsp;your&nbsp;size&nbsp;do&nbsp;not&nbsp;modify&nbsp;this&nbsp;restriction;&nbsp;if&nbsp;you&nbsp;are&nbsp;normally&nbsp;Medium&nbsp;size,&nbsp;but&nbsp;under&nbsp;the&nbsp;effect&nbsp;of&nbsp;expansion,&nbsp;you&nbsp;may&nbsp;still&nbsp;only&nbsp;target&nbsp;a&nbsp;Medium&nbsp;or&nbsp;smaller&nbsp;humanoid.
+
+      </p>
+
+      <p>This&nbsp;power&nbsp;does&nbsp;not&nbsp;have&nbsp;the&nbsp;evil&nbsp;descriptor&nbsp;when&nbsp;used&nbsp;to&nbsp;cleanse&nbsp;a&nbsp;mind&nbsp;seed.
+
+      </p>
+  descriptors:
+    - evil
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      telepath: 8
+  level: 8
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: 127–128
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 222–223
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '48'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline:
+    - compulsion
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

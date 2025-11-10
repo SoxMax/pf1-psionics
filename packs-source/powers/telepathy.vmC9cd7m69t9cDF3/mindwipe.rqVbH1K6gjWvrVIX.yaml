@@ -1,0 +1,81 @@
+_id: rqVbH1K6gjWvrVIX
+_key: '!items!rqVbH1K6gjWvrVIX'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Mindwipe
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Mindwipe
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude negates
+        type: fort
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>You&nbsp;partially&nbsp;wipe&nbsp;your&nbsp;victim's&nbsp;mind&nbsp;of&nbsp;past&nbsp;experiences,&nbsp;bestowing&nbsp;two&nbsp;negative&nbsp;levels&nbsp;upon&nbsp;it.&nbsp;If&nbsp;the&nbsp;subject&nbsp;has&nbsp;at&nbsp;least&nbsp;as&nbsp;many&nbsp;negative&nbsp;levels&nbsp;as&nbsp;Hit&nbsp;Dice,&nbsp;it&nbsp;dies.&nbsp;The&nbsp;effects&nbsp;of&nbsp;multiple&nbsp;negative&nbsp;levels&nbsp;stack.
+
+      </p>
+
+      <p>If&nbsp;the&nbsp;subject&nbsp;survives,&nbsp;it&nbsp;loses&nbsp;all&nbsp;negative&nbsp;levels&nbsp;after&nbsp;1&nbsp;hour.&nbsp;(No&nbsp;Fortitude&nbsp;save&nbsp;is&nbsp;necessary&nbsp;to&nbsp;avoid&nbsp;gaining&nbsp;the&nbsp;negative&nbsp;level&nbsp;permanently.)
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.</li><li>For&nbsp;every&nbsp;3&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;bestows&nbsp;an&nbsp;additional&nbsp;negative&nbsp;level&nbsp;on&nbsp;the&nbsp;subject.</li></ol>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: true
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      dread: 4
+      empath: 4
+      gambler: 4
+      psion: 4
+      thug: 4
+      wilder: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: 129–130
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '225'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '49'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

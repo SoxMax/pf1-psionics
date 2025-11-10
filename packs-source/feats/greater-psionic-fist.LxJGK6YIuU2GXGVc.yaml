@@ -1,5 +1,7 @@
 _id: LxJGK6YIuU2GXGVc
 _key: '!items!LxJGK6YIuU2GXGVc'
+_stats:
+  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Greater_Psionic_Fist
@@ -35,15 +37,11 @@ system:
   showInQuickbar: false
   simple: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: 52–53
       publisher: Dreamscarred Press
       title: 'Psionics Unleashed: Revised'
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2013-12-24'
       pages: '102'
       publisher: Dreamscarred Press
       title: Ultimate Psionics

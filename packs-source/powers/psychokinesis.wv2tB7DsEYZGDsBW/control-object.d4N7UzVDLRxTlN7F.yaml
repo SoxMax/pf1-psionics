@@ -1,0 +1,79 @@
+_id: d4N7UzVDLRxTlN7F
+_key: '!items!d4N7UzVDLRxTlN7F'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Control_Object
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/control/hypnosis-mesmerism-eye-tan.webp
+name: Control Object
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        concentration: true
+        units: conc
+        value: up to 1 round/level
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        description: None
+      target:
+        value: One unattended object weighing up to 100 lb.
+  description:
+    value: >-
+      <p>You&nbsp;telekinetically&nbsp;"bring&nbsp;to&nbsp;life"&nbsp;an&nbsp;inanimate&nbsp;object.&nbsp;Though&nbsp;it&nbsp;is&nbsp;not&nbsp;actually&nbsp;alive,&nbsp;the&nbsp;object&nbsp;moves&nbsp;under&nbsp;your&nbsp;control.&nbsp;Live&nbsp;vegetation&nbsp;cannot&nbsp;be&nbsp;controlled&nbsp;in&nbsp;this&nbsp;fashion,&nbsp;nor&nbsp;can&nbsp;already&nbsp;animated&nbsp;objects&nbsp;or&nbsp;undead.&nbsp;The&nbsp;controlled&nbsp;object&nbsp;moves&nbsp;like&nbsp;a&nbsp;puppet,&nbsp;with&nbsp;jerky&nbsp;and&nbsp;clumsy&nbsp;movements,&nbsp;at&nbsp;a&nbsp;speed&nbsp;of&nbsp;up&nbsp;to&nbsp;20&nbsp;feet.&nbsp;If&nbsp;its&nbsp;form&nbsp;is&nbsp;rigid,&nbsp;it&nbsp;makes&nbsp;creaking,&nbsp;groaning,&nbsp;or&nbsp;grating&nbsp;sounds&nbsp;as&nbsp;you&nbsp;control&nbsp;it.
+
+      </p>
+
+      <p>A&nbsp;controlled&nbsp;object&nbsp;can&nbsp;attack&nbsp;an&nbsp;opponent&nbsp;if&nbsp;you&nbsp;direct&nbsp;it&nbsp;to&nbsp;do&nbsp;so.&nbsp;It&nbsp;has&nbsp;one&nbsp;slam&nbsp;attack,&nbsp;at&nbsp;a&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;equal&nbsp;to&nbsp;your&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;plus&nbsp;your&nbsp;Intelligence&nbsp;modifier.&nbsp;If&nbsp;the&nbsp;attack&nbsp;hits,&nbsp;it&nbsp;deals&nbsp;points&nbsp;of&nbsp;damage&nbsp;equal&nbsp;to&nbsp;1d6&nbsp;plus&nbsp;your&nbsp;primary&nbsp;ability&nbsp;modifier.&nbsp;A&nbsp;controlled&nbsp;object&nbsp;has&nbsp;its&nbsp;usual&nbsp;hardness&nbsp;and&nbsp;hit&nbsp;points.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;use&nbsp;this&nbsp;power&nbsp;on&nbsp;a&nbsp;nonmagical&nbsp;lock,&nbsp;making&nbsp;it&nbsp;move&nbsp;in&nbsp;such&nbsp;a&nbsp;way&nbsp;as&nbsp;to&nbsp;attempt&nbsp;to&nbsp;unlock&nbsp;itself.&nbsp;If&nbsp;another&nbsp;character&nbsp;makes&nbsp;a&nbsp;Disable&nbsp;Device&nbsp;check&nbsp;to&nbsp;open&nbsp;a&nbsp;lock&nbsp;in&nbsp;the&nbsp;device&nbsp;that&nbsp;you&nbsp;are&nbsp;concentrating&nbsp;on&nbsp;controlling,&nbsp;the&nbsp;character&nbsp;gains&nbsp;a&nbsp;+4&nbsp;bonus&nbsp;on&nbsp;the&nbsp;check.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;control&nbsp;another&nbsp;object&nbsp;at&nbsp;the&nbsp;same&nbsp;time.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;weight&nbsp;of&nbsp;the&nbsp;object&nbsp;you&nbsp;can&nbsp;control&nbsp;increases&nbsp;by&nbsp;100&nbsp;lb.</li></ol>
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      gambler: 1
+      kineticist: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '90'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '176'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '34'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

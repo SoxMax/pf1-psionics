@@ -1,0 +1,85 @@
+_id: Ru6eCyKs5j35dusQ
+_key: '!items!Ru6eCyKs5j35dusQ'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Hail_of_Crystals,_Anselm's
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Hail of Crystals, Anselm's
+system:
+  actions:
+    - actionType: rsak
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '20'
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Reflex half
+        type: ref
+      target:
+        value: 20-ft.-radius burst
+  description:
+    value: >-
+      <p>A&nbsp;tiny&nbsp;ectoplasmic&nbsp;crystal&nbsp;emanates&nbsp;from&nbsp;your&nbsp;outstretched&nbsp;hand&nbsp;and&nbsp;rapidly&nbsp;expands&nbsp;to&nbsp;a&nbsp;2-foot-diameter&nbsp;ball&nbsp;of&nbsp;crystal&nbsp;as&nbsp;it&nbsp;speeds&nbsp;toward&nbsp;the&nbsp;location&nbsp;you&nbsp;designate.&nbsp;You&nbsp;can&nbsp;choose&nbsp;to&nbsp;aim&nbsp;this&nbsp;crystal&nbsp;at&nbsp;a&nbsp;single&nbsp;target&nbsp;or&nbsp;at&nbsp;a&nbsp;specific&nbsp;point&nbsp;in&nbsp;space&nbsp;(a&nbsp;grid&nbsp;intersection).
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;aim&nbsp;the&nbsp;crystal&nbsp;at&nbsp;a&nbsp;single&nbsp;target,&nbsp;you&nbsp;must&nbsp;make&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;to&nbsp;strike&nbsp;the&nbsp;target.&nbsp;Any&nbsp;creature&nbsp;or&nbsp;object&nbsp;struck&nbsp;by&nbsp;the&nbsp;ball&nbsp;of&nbsp;crystal&nbsp;takes&nbsp;5d4&nbsp;points&nbsp;of&nbsp;bludgeoning&nbsp;damage.
+
+      </p>
+
+      <p>Whether&nbsp;the&nbsp;crystal&nbsp;hits&nbsp;its&nbsp;target,&nbsp;misses,&nbsp;or&nbsp;was&nbsp;aimed&nbsp;at&nbsp;a&nbsp;point&nbsp;in&nbsp;space,&nbsp;it&nbsp;explodes&nbsp;upon&nbsp;arrival&nbsp;at&nbsp;the&nbsp;location&nbsp;you&nbsp;designated.&nbsp;Anyone&nbsp;within&nbsp;20&nbsp;feet&nbsp;of&nbsp;the&nbsp;explosion&nbsp;takes&nbsp;9d4&nbsp;points&nbsp;of&nbsp;slashing&nbsp;damage&nbsp;from&nbsp;the&nbsp;thousands&nbsp;of&nbsp;crystal&nbsp;shards&nbsp;that&nbsp;spray&nbsp;forth,&nbsp;although&nbsp;the&nbsp;damage&nbsp;is&nbsp;halved&nbsp;on&nbsp;a&nbsp;successful&nbsp;Reflex&nbsp;save.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;damage&nbsp;from&nbsp;the&nbsp;explosion&nbsp;of&nbsp;the&nbsp;crystal&nbsp;increases&nbsp;by&nbsp;1d4&nbsp;points.
+
+      </p>
+  discipline: metacreativity
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      gambler: 5
+      shaper: 5
+  level: 5
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '117'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '209'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '44'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  subdiscipline:
+    - creation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

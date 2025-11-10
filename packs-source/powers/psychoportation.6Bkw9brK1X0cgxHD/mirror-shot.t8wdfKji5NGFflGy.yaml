@@ -1,0 +1,87 @@
+_id: t8wdfKji5NGFflGy
+_key: '!items!t8wdfKji5NGFflGy'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Mirror_Shot
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Mirror Shot
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: immediate
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates (harmless, object)
+        harmless: true
+        type: will
+      target:
+        value: 1 projectile in flight
+  description:
+    value: >-
+      <p>You&nbsp;draw&nbsp;upon&nbsp;your&nbsp;psionic&nbsp;might&nbsp;to&nbsp;mirror&nbsp;the&nbsp;potential&nbsp;paths&nbsp;of&nbsp;a&nbsp;projectile&nbsp;into&nbsp;this&nbsp;reality,&nbsp;psionically&nbsp;turning&nbsp;a&nbsp;lone&nbsp;arrow&nbsp;into&nbsp;an&nbsp;entire&nbsp;volley,&nbsp;or&nbsp;a&nbsp;thrown&nbsp;dagger&nbsp;into&nbsp;a&nbsp;deadly&nbsp;hail&nbsp;of&nbsp;knives.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;with&nbsp;a&nbsp;moment's&nbsp;thought,&nbsp;quick&nbsp;enough&nbsp;to&nbsp;use&nbsp;when&nbsp;it&nbsp;is&nbsp;not&nbsp;your&nbsp;turn.&nbsp;You&nbsp;must&nbsp;manifest&nbsp;this&nbsp;power&nbsp;in&nbsp;response&nbsp;to&nbsp;a&nbsp;single&nbsp;attack&nbsp;made&nbsp;with&nbsp;a&nbsp;ranged&nbsp;weapon&nbsp;within&nbsp;medium&nbsp;range&nbsp;(the&nbsp;attacker&nbsp;must&nbsp;be&nbsp;within&nbsp;range,&nbsp;the&nbsp;target&nbsp;need&nbsp;not&nbsp;be)&nbsp;before&nbsp;the&nbsp;result&nbsp;of&nbsp;the&nbsp;attack&nbsp;is&nbsp;determined.&nbsp;You&nbsp;cannot&nbsp;use&nbsp;this&nbsp;power&nbsp;to&nbsp;mirror&nbsp;unusually&nbsp;massive&nbsp;projectiles&nbsp;such&nbsp;as&nbsp;siege&nbsp;weapons.
+
+      </p>
+
+      <p>You&nbsp;create&nbsp;four&nbsp;reflections&nbsp;of&nbsp;the&nbsp;projectile&nbsp;that&nbsp;each&nbsp;do&nbsp;damage&nbsp;as&nbsp;a&nbsp;mundane&nbsp;weapon&nbsp;of&nbsp;the&nbsp;original&nbsp;projectile's&nbsp;type.&nbsp;Each&nbsp;mirrored&nbsp;projectile&nbsp;uses&nbsp;the&nbsp;same&nbsp;attack&nbsp;roll&nbsp;result&nbsp;as&nbsp;the&nbsp;reflected&nbsp;attack&nbsp;to&nbsp;determine&nbsp;if&nbsp;they&nbsp;strike&nbsp;the&nbsp;target&nbsp;or&nbsp;not&nbsp;(regardless&nbsp;of&nbsp;their&nbsp;enhancement&nbsp;bonus&nbsp;to&nbsp;attack),&nbsp;and&nbsp;each&nbsp;projectile&nbsp;checks&nbsp;for&nbsp;concealment&nbsp;individually.&nbsp;Effects&nbsp;that&nbsp;modify&nbsp;the&nbsp;weapon&nbsp;or&nbsp;its&nbsp;damage,&nbsp;such&nbsp;as&nbsp;that&nbsp;from&nbsp;Psionic&nbsp;Shot&nbsp;or&nbsp;prevenom&nbsp;weapon,&nbsp;do&nbsp;not&nbsp;apply&nbsp;to&nbsp;these&nbsp;reflections.
+
+      </p>
+
+      <p>If&nbsp;applicable,&nbsp;the&nbsp;projectiles&nbsp;add&nbsp;the&nbsp;Strength&nbsp;bonus&nbsp;of&nbsp;the&nbsp;original&nbsp;attacker&nbsp;under&nbsp;the&nbsp;normal&nbsp;constraints&nbsp;for&nbsp;the&nbsp;attacker's&nbsp;weapon&nbsp;(full&nbsp;strength&nbsp;bonus&nbsp;for&nbsp;thrown&nbsp;weapons,&nbsp;full&nbsp;strength&nbsp;bonus&nbsp;up&nbsp;to&nbsp;a&nbsp;certain&nbsp;value&nbsp;for&nbsp;composite&nbsp;longbows,&nbsp;etc).&nbsp;The&nbsp;reflections&nbsp;return&nbsp;to&nbsp;their&nbsp;native&nbsp;reality&nbsp;shortly&nbsp;after&nbsp;appearing&nbsp;and&nbsp;cannot&nbsp;be&nbsp;preserved.
+
+      </p>
+
+      <p>Precision&nbsp;damage&nbsp;(such&nbsp;as&nbsp;sneak&nbsp;attack)&nbsp;and&nbsp;extra&nbsp;damage&nbsp;from&nbsp;critical&nbsp;hits&nbsp;only&nbsp;apply&nbsp;to&nbsp;the&nbsp;first&nbsp;projectile&nbsp;fired,&nbsp;not&nbsp;to&nbsp;the&nbsp;four&nbsp;reflections.&nbsp;The&nbsp;four&nbsp;mirrored&nbsp;projectiles&nbsp;bypass&nbsp;damage&nbsp;reduction&nbsp;as&nbsp;though&nbsp;they&nbsp;were&nbsp;magic&nbsp;weapons.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways:
+
+      </p><ol><li>By&nbsp;spending&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;reflect&nbsp;enhancement&nbsp;bonuses&nbsp;or&nbsp;magic&nbsp;abilities&nbsp;of&nbsp;the&nbsp;initial&nbsp;projectile.&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;may&nbsp;bestow&nbsp;the&nbsp;reflections&nbsp;with&nbsp;the&nbsp;equivalent&nbsp;of&nbsp;an&nbsp;additional&nbsp;+1&nbsp;enhancement&nbsp;bonus&nbsp;or&nbsp;ability&nbsp;priced&nbsp;as&nbsp;a&nbsp;+1&nbsp;bonus.&nbsp;Reflecting&nbsp;abilities&nbsp;that&nbsp;add&nbsp;a&nbsp;flat&nbsp;sum&nbsp;to&nbsp;the&nbsp;price&nbsp;of&nbsp;the&nbsp;weapon&nbsp;cost&nbsp;1&nbsp;additional&nbsp;power&nbsp;point&nbsp;per&nbsp;5000&nbsp;gp&nbsp;of&nbsp;their&nbsp;market&nbsp;price&nbsp;to&nbsp;replicate.&nbsp;Like&nbsp;standard&nbsp;magical&nbsp;weapons,&nbsp;you&nbsp;may&nbsp;not&nbsp;add&nbsp;abilities&nbsp;to&nbsp;the&nbsp;reflection&nbsp;projectiles&nbsp;unless&nbsp;they&nbsp;already&nbsp;have&nbsp;at&nbsp;least&nbsp;a&nbsp;+1&nbsp;enhancement&nbsp;bonus.&nbsp;The&nbsp;enhancement&nbsp;bonus&nbsp;or&nbsp;ability&nbsp;to&nbsp;be&nbsp;added&nbsp;must&nbsp;exist&nbsp;on&nbsp;the&nbsp;original&nbsp;projectile.</li><li>For&nbsp;every&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;may&nbsp;create&nbsp;an&nbsp;additional&nbsp;projectile.</li><li>If&nbsp;you&nbsp;spend&nbsp;10&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;use&nbsp;this&nbsp;power&nbsp;to&nbsp;reflect&nbsp;unusually&nbsp;massive&nbsp;projectiles&nbsp;such&nbsp;as&nbsp;siege&nbsp;weapons&nbsp;or&nbsp;boulders&nbsp;hurled&nbsp;by&nbsp;giants.&nbsp;All&nbsp;reflections&nbsp;strike&nbsp;the&nbsp;same&nbsp;area,&nbsp;if&nbsp;applicable.</li></ol>
+  discipline: psychoportation
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      marksman: 4
+  level: 4
+  manifestTime:
+    units: immediate
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '21'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Find the Mark'
+    - date: '2012-07-23'
+      pages: '171'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: '225'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

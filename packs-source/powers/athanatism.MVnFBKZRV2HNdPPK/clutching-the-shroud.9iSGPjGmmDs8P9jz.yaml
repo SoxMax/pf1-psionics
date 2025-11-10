@@ -1,0 +1,66 @@
+_id: 9iSGPjGmmDs8P9jz
+_key: '!items!9iSGPjGmmDs8P9jz'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Clutching_the_Shroud
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Clutching the Shroud
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;bridge&nbsp;the&nbsp;gap&nbsp;between&nbsp;life&nbsp;and&nbsp;death,&nbsp;counting&nbsp;temporarily&nbsp;as&nbsp;one&nbsp;of&nbsp;the&nbsp;undead.&nbsp;You&nbsp;detect&nbsp;as&nbsp;an&nbsp;undead&nbsp;creature&nbsp;(such&nbsp;as&nbsp;with&nbsp;detect&nbsp;undead,&nbsp;but&nbsp;not&nbsp;with&nbsp;magic&nbsp;that&nbsp;reveals&nbsp;your&nbsp;true&nbsp;form)&nbsp;and&nbsp;are&nbsp;treated&nbsp;as&nbsp;undead&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of&nbsp;channeled&nbsp;energy,&nbsp;cure&nbsp;spells,&nbsp;and&nbsp;inflict&nbsp;spells,&nbsp;but&nbsp;not&nbsp;for&nbsp;other&nbsp;effects&nbsp;that&nbsp;specifically&nbsp;target&nbsp;or&nbsp;react&nbsp;differently&nbsp;to&nbsp;undead.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;spend&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;to&nbsp;gain&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;saves&nbsp;against&nbsp;mind-affecting&nbsp;effects,&nbsp;disease,&nbsp;poison,&nbsp;sleep,&nbsp;and&nbsp;stunning.
+
+      </p>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: true
+    mental: true
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      empath: 2
+      psion: 2
+      thug: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: 25–26
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

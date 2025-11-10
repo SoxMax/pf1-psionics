@@ -1,0 +1,68 @@
+_id: g10CsD74OCkiZERl
+_key: '!items!g10CsD74OCkiZERl'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Mind_Palace
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Mind Palace
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: immediate
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>At&nbsp;the&nbsp;sound&nbsp;of&nbsp;a&nbsp;sharp&nbsp;snap,&nbsp;your&nbsp;eyes&nbsp;glaze&nbsp;over&nbsp;as&nbsp;you&nbsp;internalize&nbsp;your&nbsp;thought&nbsp;processes,&nbsp;rummaging&nbsp;amongst&nbsp;the&nbsp;recesses&nbsp;of&nbsp;your&nbsp;mind&nbsp;to&nbsp;reach&nbsp;resources&nbsp;normally&nbsp;inaccessible&nbsp;to&nbsp;your&nbsp;conscious&nbsp;self.&nbsp;For&nbsp;a&nbsp;tiny&nbsp;moment&nbsp;of&nbsp;time,&nbsp;your&nbsp;personal&nbsp;sense&nbsp;of&nbsp;time’s&nbsp;passage&nbsp;is&nbsp;distorted,&nbsp;granting&nbsp;the&nbsp;priceless&nbsp;boon&nbsp;of&nbsp;time&nbsp;to&nbsp;think.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;<em>mind&nbsp;palace</em>,&nbsp;you&nbsp;envision&nbsp;a&nbsp;artificial&nbsp;representation&nbsp;of&nbsp;your&nbsp;mind’s&nbsp;contents,&nbsp;and&nbsp;you&nbsp;search&nbsp;within&nbsp;that&nbsp;representation&nbsp;for&nbsp;shards&nbsp;of&nbsp;knowledge&nbsp;that&nbsp;might&nbsp;be&nbsp;applicable&nbsp;to&nbsp;the&nbsp;problem&nbsp;immediately&nbsp;before&nbsp;you.&nbsp;The&nbsp;amount&nbsp;of&nbsp;hidden&nbsp;useful&nbsp;knowledge&nbsp;to&nbsp;be&nbsp;gained&nbsp;is&nbsp;unpredictable.&nbsp;You&nbsp;gain&nbsp;a&nbsp;1d4&nbsp;bonus&nbsp;to&nbsp;the&nbsp;next&nbsp;attack&nbsp;roll,&nbsp;saving&nbsp;throw,&nbsp;skill&nbsp;check,&nbsp;ability&nbsp;check,&nbsp;manifester&nbsp;level&nbsp;check&nbsp;or&nbsp;similar&nbsp;check&nbsp;you&nbsp;make&nbsp;before&nbsp;the&nbsp;start&nbsp;of&nbsp;your&nbsp;next&nbsp;turn.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>For&nbsp;every&nbsp;additional&nbsp;two&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;bonus&nbsp;granted&nbsp;by&nbsp;this&nbsp;power&nbsp;increases&nbsp;by&nbsp;1d4.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      cryptic: 1
+      psion: 1
+      thug: 1
+      vitalist: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: immediate
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '13'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: '2010-01-01'
+      pages: '78'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

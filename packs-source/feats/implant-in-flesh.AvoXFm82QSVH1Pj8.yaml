@@ -1,5 +1,7 @@
 _id: AvoXFm82QSVH1Pj8
 _key: '!items!AvoXFm82QSVH1Pj8'
+_stats:
+  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Implant_in_Flesh
@@ -35,9 +37,7 @@ system:
   showInQuickbar: false
   simple: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '4'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Feats and Powers'

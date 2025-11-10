@@ -1,0 +1,86 @@
+_id: 0SQDaS5TyN0zS9Fn
+_key: '!items!0SQDaS5TyN0zS9Fn'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psychic_Interference
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Psychic Interference
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft/2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will partial (see text)
+        type: will
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>You&nbsp;form&nbsp;a&nbsp;mental&nbsp;bond&nbsp;with&nbsp;one&nbsp;creature&nbsp;within&nbsp;range&nbsp;and&nbsp;use&nbsp;that&nbsp;bond&nbsp;to&nbsp;force&nbsp;minor&nbsp;hallucinations&nbsp;into&nbsp;the&nbsp;target's&nbsp;mind,&nbsp;hindering&nbsp;them&nbsp;in&nbsp;several&nbsp;potential&nbsp;ways.
+
+      </p>
+
+      <p>Targets&nbsp;of&nbsp;this&nbsp;power&nbsp;suffer&nbsp;a&nbsp;-2&nbsp;penalty&nbsp;on&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;power&nbsp;(your&nbsp;choice):
+
+      </p><ul><li>Attack&nbsp;rolls</li><li>Saving&nbsp;throws</li><li>Ability&nbsp;checks&nbsp;and&nbsp;skill&nbsp;checks</li></ul>
+
+      <p>A&nbsp;successful&nbsp;save&nbsp;reduces&nbsp;the&nbsp;penalty&nbsp;to&nbsp;-1.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;choose&nbsp;a&nbsp;second&nbsp;type&nbsp;of&nbsp;check&nbsp;to&nbsp;which&nbsp;the&nbsp;penalty&nbsp;applies.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;penalty&nbsp;increases&nbsp;by&nbsp;1.&nbsp;For&nbsp;every&nbsp;two&nbsp;points&nbsp;the&nbsp;penalty&nbsp;increases,&nbsp;the&nbsp;penalty&nbsp;on&nbsp;a&nbsp;successful&nbsp;Will&nbsp;save&nbsp;increases&nbsp;by&nbsp;1.</li></ol>
+
+      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;spent&nbsp;to&nbsp;achieve&nbsp;either&nbsp;of&nbsp;these&nbsp;results,&nbsp;the&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  descriptors:
+    - mind-affecting
+    - network
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      tactician: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: 20–21
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Pawns and Powers'
+    - date: '2012-07-23'
+      pages: '175'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: '234'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

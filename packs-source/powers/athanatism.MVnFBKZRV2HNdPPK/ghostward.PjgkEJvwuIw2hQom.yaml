@@ -1,0 +1,61 @@
+_id: PjgkEJvwuIw2hQom
+_key: '!items!PjgkEJvwuIw2hQom'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Ghostward
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Ghostward
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        concentration: true
+        units: conc
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./level)
+      save:
+        description: None
+      target:
+        value: Ectoplasmic coating whose area is up to one 10-ft. square/level
+  description:
+    value: >-
+      <p>A&nbsp;shadowy&nbsp;silhouette&nbsp;of&nbsp;your&nbsp;hand&nbsp;reaches&nbsp;out&nbsp;from&nbsp;you&nbsp;and&nbsp;appears&nbsp;to&nbsp;spread&nbsp;a&nbsp;portion&nbsp;of&nbsp;your&nbsp;essence&nbsp;upon&nbsp;a&nbsp;nearby&nbsp;surface.&nbsp;This&nbsp;power&nbsp;allows&nbsp;you&nbsp;to&nbsp;cover&nbsp;a&nbsp;wall,&nbsp;floor,&nbsp;ceiling,&nbsp;or&nbsp;similar&nbsp;surface&nbsp;with&nbsp;energies&nbsp;that&nbsp;incorporeal&nbsp;undead&nbsp;find&nbsp;repulsive.&nbsp;Such&nbsp;creatures&nbsp;are&nbsp;unwilling&nbsp;to&nbsp;cross&nbsp;through&nbsp;this&nbsp;energy,&nbsp;making&nbsp;the&nbsp;area&nbsp;you&nbsp;ward&nbsp;impassable&nbsp;to&nbsp;them.&nbsp;You&nbsp;may&nbsp;shape&nbsp;the&nbsp;area&nbsp;you&nbsp;designate&nbsp;to&nbsp;some&nbsp;degree,&nbsp;but&nbsp;your&nbsp;ward&nbsp;always&nbsp;coats&nbsp;existing&nbsp;physical&nbsp;materials&nbsp;and&nbsp;you&nbsp;must&nbsp;be&nbsp;able&nbsp;to&nbsp;see&nbsp;the&nbsp;surfaces&nbsp;you&nbsp;intend&nbsp;to&nbsp;cover.&nbsp;This&nbsp;generally&nbsp;does&nbsp;not&nbsp;allow&nbsp;you&nbsp;to&nbsp;imprison&nbsp;an&nbsp;incorporeal&nbsp;undead&nbsp;as&nbsp;you&nbsp;normally&nbsp;cannot&nbsp;see&nbsp;all&nbsp;surfaces&nbsp;of&nbsp;a&nbsp;container,&nbsp;but&nbsp;it&nbsp;might&nbsp;allow&nbsp;you&nbsp;to&nbsp;ward&nbsp;all&nbsp;surfaces&nbsp;of&nbsp;a&nbsp;room&nbsp;you&nbsp;occupy&nbsp;to&nbsp;keep&nbsp;the&nbsp;creature&nbsp;out.
+
+      </p>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      conduit: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '11'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: '2010-01-01'
+      pages: '73'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

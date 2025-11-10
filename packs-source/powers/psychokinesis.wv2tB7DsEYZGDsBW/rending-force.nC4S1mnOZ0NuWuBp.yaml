@@ -1,0 +1,83 @@
+_id: nC4S1mnOZ0NuWuBp
+_key: '!items!nC4S1mnOZ0NuWuBp'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Rending_Force
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+name: Rending Force
+system:
+  actions:
+    - actionType: heal
+      activation:
+        cost: 1
+        type: fullRound
+      damage:
+        parts:
+          - - 9d6
+            - force
+          - - 9d6
+            - heal
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude partial (see text)
+        type: fort
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>You&nbsp;rip&nbsp;the&nbsp;body&nbsp;of&nbsp;the&nbsp;target&nbsp;creature&nbsp;apart&nbsp;with&nbsp;telekinetic&nbsp;force,&nbsp;rending&nbsp;it&nbsp;limb&nbsp;from&nbsp;limb.&nbsp;The&nbsp;target&nbsp;creature&nbsp;suffers&nbsp;9d6&nbsp;points&nbsp;of&nbsp;damage.&nbsp;If&nbsp;this&nbsp;damage&nbsp;reduces&nbsp;the&nbsp;target's&nbsp;hit&nbsp;point&nbsp;total&nbsp;by&nbsp;more&nbsp;than&nbsp;half,&nbsp;a&nbsp;limb&nbsp;is&nbsp;removed&nbsp;from&nbsp;the&nbsp;creature's&nbsp;body&nbsp;flies&nbsp;15&nbsp;feet&nbsp;in&nbsp;a&nbsp;random&nbsp;direction&nbsp;away&nbsp;from&nbsp;the&nbsp;creature&nbsp;and&nbsp;causes&nbsp;the&nbsp;affected&nbsp;creature&nbsp;to&nbsp;bleed.&nbsp;The&nbsp;creature&nbsp;suffers&nbsp;one&nbsp;additional&nbsp;5&nbsp;points&nbsp;of&nbsp;damage&nbsp;each&nbsp;round.&nbsp;The&nbsp;bleeding&nbsp;can&nbsp;be&nbsp;stopped&nbsp;by&nbsp;a&nbsp;DC&nbsp;15&nbsp;Heal&nbsp;check&nbsp;or&nbsp;the&nbsp;application&nbsp;of&nbsp;any&nbsp;effect&nbsp;that&nbsp;heals&nbsp;hit&nbsp;point&nbsp;damage,&nbsp;but&nbsp;the&nbsp;limb&nbsp;can&nbsp;only&nbsp;be&nbsp;restored&nbsp;by&nbsp;powerful&nbsp;healing&nbsp;effects&nbsp;such&nbsp;as&nbsp;regeneration&nbsp;or&nbsp;heal.
+
+      </p>
+
+      <p>If&nbsp;the&nbsp;damage&nbsp;reduces&nbsp;the&nbsp;target's&nbsp;hit&nbsp;points&nbsp;to&nbsp;below&nbsp;zero,&nbsp;all&nbsp;of&nbsp;its&nbsp;limbs&nbsp;are&nbsp;affected&nbsp;in&nbsp;this&nbsp;fashion.
+
+      </p>
+
+      <p>Creatures&nbsp;without&nbsp;a&nbsp;discernible&nbsp;anatomy&nbsp;or&nbsp;limbs&nbsp;are&nbsp;unaffected&nbsp;by&nbsp;rending&nbsp;force.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;damage&nbsp;dealt&nbsp;uses&nbsp;d8&nbsp;instead&nbsp;of&nbsp;d6.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;a&nbsp;limb&nbsp;is&nbsp;removed&nbsp;if&nbsp;the&nbsp;damage&nbsp;reduces&nbsp;the&nbsp;target's&nbsp;hit&nbsp;point&nbsp;total&nbsp;by&nbsp;more&nbsp;than&nbsp;1/4.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;target&nbsp;is&nbsp;also&nbsp;sickened&nbsp;if&nbsp;a&nbsp;limb&nbsp;is&nbsp;removed.</li></ol>
+
+      <p>In&nbsp;addition,&nbsp;for&nbsp;each&nbsp;power&nbsp;point&nbsp;spent&nbsp;augmenting&nbsp;this&nbsp;power,&nbsp;the&nbsp;damage&nbsp;increases&nbsp;by&nbsp;an&nbsp;additional&nbsp;die&nbsp;of&nbsp;damage.
+
+      </p>
+  descriptors:
+    - force
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      psion: 5
+      wilder: 5
+  level: 5
+  manifestTime:
+    units: fullRound
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: 79–80
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

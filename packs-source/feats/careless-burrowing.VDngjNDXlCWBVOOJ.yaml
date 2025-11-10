@@ -1,5 +1,7 @@
 _id: VDngjNDXlCWBVOOJ
 _key: '!items!VDngjNDXlCWBVOOJ'
+_stats:
+  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Careless_Burrowing
@@ -35,9 +37,7 @@ system:
   showInQuickbar: false
   simple: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '2'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Feats and Powers'

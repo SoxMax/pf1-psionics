@@ -1,0 +1,29 @@
+_id: kmMtzhM3KM8V4Y2N
+_key: '!items!kmMtzhM3KM8V4Y2N'
+_stats:
+  coreVersion: '13.350'
+folder: WRrSVxfPrcveDL6q
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Immersed in Fear
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Dread
+  description:
+    value: >-
+      <p>At&nbsp;7th&nbsp;level,&nbsp;the&nbsp;dread&nbsp;gains&nbsp;immunity&nbsp;to&nbsp;fear&nbsp;(psionic&nbsp;or&nbsp;otherwise).&nbsp;This&nbsp;ability&nbsp;functions&nbsp;whether&nbsp;the&nbsp;dread&nbsp;is&nbsp;conscious&nbsp;or&nbsp;unconscious,&nbsp;but&nbsp;not&nbsp;when&nbsp;she&nbsp;is&nbsp;dead.
+
+      </p><p></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 43–47
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 40–44
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: immersed-in-fear
+type: feat

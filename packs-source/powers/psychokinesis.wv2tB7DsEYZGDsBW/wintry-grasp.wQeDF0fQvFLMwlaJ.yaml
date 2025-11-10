@@ -1,0 +1,76 @@
+_id: wQeDF0fQvFLMwlaJ
+_key: '!items!wQeDF0fQvFLMwlaJ'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Wintry_Grasp
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp
+name: Wintry Grasp
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: spec
+        value: 1 round; see text
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You; see text
+  description:
+    value: >-
+      <p>Make&nbsp;a&nbsp;single&nbsp;melee&nbsp;attack&nbsp;as&nbsp;part&nbsp;of&nbsp;manifesting&nbsp;this&nbsp;power.&nbsp;If&nbsp;the&nbsp;attack&nbsp;hits,&nbsp;the&nbsp;target&nbsp;is&nbsp;immobilized&nbsp;and&nbsp;cannot&nbsp;physically&nbsp;move&nbsp;from&nbsp;the&nbsp;spot&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;their&nbsp;next&nbsp;turn.
+
+      </p>
+
+      <p>In&nbsp;addition,&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;next&nbsp;turn,&nbsp;all&nbsp;of&nbsp;your&nbsp;attacks&nbsp;instead&nbsp;deal&nbsp;cold&nbsp;damage.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;4&nbsp;power&nbsp;points&nbsp;spent,&nbsp;the&nbsp;effects&nbsp;of&nbsp;this&nbsp;power&nbsp;last&nbsp;an&nbsp;additional&nbsp;round.
+
+      </p>
+  descriptors:
+    - cold
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      gambler: 2
+      psychic warrior: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '35'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+    - date: '2012-07-23'
+      pages: '185'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: '257'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

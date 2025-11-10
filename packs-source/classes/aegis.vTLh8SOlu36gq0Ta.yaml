@@ -1,0 +1,103 @@
+_id: vTLh8SOlu36gq0Ta
+_key: '!items!vTLh8SOlu36gq0Ta'
+_stats:
+  coreVersion: '13.350'
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Aegis
+system:
+  bab: low
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: true
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: true
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      </p><p>While&nbsp;the&nbsp;shaper&nbsp;is&nbsp;the&nbsp;master&nbsp;of&nbsp;manipulating&nbsp;ectoplasm&nbsp;and&nbsp;creating&nbsp;any&nbsp;manner&nbsp;of&nbsp;item,&nbsp;the&nbsp;aegis&nbsp;has&nbsp;learned&nbsp;to&nbsp;take&nbsp;ectoplasm&nbsp;and&nbsp;form&nbsp;it&nbsp;into&nbsp;a&nbsp;suit&nbsp;to&nbsp;be&nbsp;worn&nbsp;around&nbsp;his&nbsp;body,&nbsp;granting&nbsp;him&nbsp;a&nbsp;variety&nbsp;of&nbsp;benefits.&nbsp;</p><p>The&nbsp;aegis&nbsp;can&nbsp;shape&nbsp;his&nbsp;astral&nbsp;suit&nbsp;into&nbsp;several&nbsp;different&nbsp;forms&nbsp;and&nbsp;is&nbsp;capable&nbsp;of&nbsp;altering&nbsp;its&nbsp;abilities&nbsp;to&nbsp;suit&nbsp;his&nbsp;needs.&nbsp;</p><p><b>Role:</b>&nbsp;An&nbsp;aegis&nbsp;is&nbsp;a&nbsp;front-line&nbsp;combatant.&nbsp;His&nbsp;astral&nbsp;suit&nbsp;allows&nbsp;him&nbsp;significant&nbsp;flexibility&nbsp;in&nbsp;handling&nbsp;combat&nbsp;and&nbsp;non-combat&nbsp;situations,&nbsp;and&nbsp;his&nbsp;defensive&nbsp;abilities&nbsp;are&nbsp;considerable.&nbsp;</p><p><b>Alignment:</b>&nbsp;Any.&nbsp;</p><p><b>Hit&nbsp;Die:</b>&nbsp;d10.&nbsp;</p><p><b>Class&nbsp;Skills:</b>&nbsp;The&nbsp;aegis’s&nbsp;class&nbsp;skills&nbsp;(and&nbsp;the&nbsp;key&nbsp;ability&nbsp;for&nbsp;each&nbsp;skill)&nbsp;are&nbsp;Acrobatics&nbsp;(Dex),&nbsp;Autohypnosis&nbsp;(Wis),&nbsp;Climb&nbsp;(Str),&nbsp;Craft&nbsp;(Int),&nbsp;Fly&nbsp;(Dex),&nbsp;Intimidate&nbsp;(Cha),&nbsp;Knowledge&nbsp;(Engineering)&nbsp;(Int),&nbsp;Knowledge&nbsp;(Psionics)&nbsp;(Int),&nbsp;Profession&nbsp;(Wis),&nbsp;Spellcraft&nbsp;(Int),&nbsp;Swim&nbsp;(Str),&nbsp;and&nbsp;Use&nbsp;Magic&nbsp;Device&nbsp;(Cha).&nbsp;</p><p><b>Skill&nbsp;Ranks&nbsp;per&nbsp;Level:</b>&nbsp;4&nbsp;+&nbsp;Int&nbsp;modifier.&nbsp;</p>
+  hd: 6
+  hp: 6
+  level: 1
+  links:
+    classAssociations:
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.F5k12vdJx8JeuyXh
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.puin0IPp2Quwfxke
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.okT0iPYixx2DMZpL
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.5pbXbZQnX43GnKN2
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.HqaE9pukbppHWuqf
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.3j1kaaKTEVw5w4S1
+      - level: 4
+        uuid: Compendium.pf1-psionics.class-abilities.Item.ZYtlAFuK6fRemL53
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.SL32ZCNG4QmodWH1
+      - level: 12
+        uuid: Compendium.pf1-psionics.class-abilities.Item.vLEg1U2IHOINcPC8
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.UoF7zxQMREzkbTJ8
+  manifesting:
+    ability: wis
+    cantrips: true
+    progression: high
+  savingThrows:
+    fort:
+      value: high
+    ref:
+      value: low
+    will:
+      value: high
+  skillsPerLevel: 2
+  sources:
+    - date: '2012-07-23'
+      pages: 27–31
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 28–30
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: base
+  tag: aegis
+  wealth: 2d6 * 10
+  weaponProf:
+    - simple
+type: class

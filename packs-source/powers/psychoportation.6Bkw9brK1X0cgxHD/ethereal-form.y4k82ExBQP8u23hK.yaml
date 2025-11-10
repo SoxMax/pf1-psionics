@@ -1,0 +1,86 @@
+_id: y4k82ExBQP8u23hK
+_key: '!items!y4k82ExBQP8u23hK'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Ethereal_Form
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Ethereal Form
+system:
+  actions:
+    - actionType: rsak
+      activation:
+        cost: 1
+        type: standard
+      damage:
+        parts:
+          - - 1d6
+            - force
+      duration:
+        dismiss: true
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;become&nbsp;ethereal,&nbsp;along&nbsp;with&nbsp;your&nbsp;equipment.&nbsp;For&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;power,&nbsp;you&nbsp;are&nbsp;in&nbsp;the&nbsp;Ethereal&nbsp;Plane,&nbsp;which&nbsp;overlaps&nbsp;the&nbsp;Material&nbsp;Plane.&nbsp;When&nbsp;the&nbsp;power&nbsp;expires,&nbsp;you&nbsp;return&nbsp;to&nbsp;material&nbsp;existence.
+
+      </p>
+
+      <p>An&nbsp;ethereal&nbsp;creature&nbsp;is&nbsp;invisible,&nbsp;insubstantial,&nbsp;and&nbsp;capable&nbsp;of&nbsp;moving&nbsp;in&nbsp;any&nbsp;direction,&nbsp;even&nbsp;up&nbsp;or&nbsp;down,&nbsp;albeit&nbsp;at&nbsp;half&nbsp;normal&nbsp;speed.&nbsp;As&nbsp;an&nbsp;insubstantial&nbsp;creature,&nbsp;you&nbsp;can&nbsp;move&nbsp;through&nbsp;solid&nbsp;objects,&nbsp;including&nbsp;living&nbsp;creatures.&nbsp;An&nbsp;ethereal&nbsp;creature&nbsp;can&nbsp;see&nbsp;and&nbsp;hear&nbsp;on&nbsp;the&nbsp;Material&nbsp;Plane,&nbsp;but&nbsp;everything&nbsp;looks&nbsp;gray&nbsp;and&nbsp;ephemeral.&nbsp;Sight&nbsp;and&nbsp;hearing&nbsp;onto&nbsp;the&nbsp;Material&nbsp;Plane&nbsp;are&nbsp;limited&nbsp;to&nbsp;60&nbsp;feet.
+
+      </p>
+
+      <p>Force&nbsp;effects&nbsp;and&nbsp;abjurations&nbsp;affect&nbsp;an&nbsp;ethereal&nbsp;creature&nbsp;normally.&nbsp;Their&nbsp;effects&nbsp;extend&nbsp;onto&nbsp;the&nbsp;Ethereal&nbsp;Plane&nbsp;from&nbsp;the&nbsp;Material&nbsp;Plane,&nbsp;but&nbsp;not&nbsp;vice&nbsp;versa.&nbsp;An&nbsp;ethereal&nbsp;creature&nbsp;can't&nbsp;attack&nbsp;material&nbsp;creatures,&nbsp;and&nbsp;powers&nbsp;you&nbsp;manifest&nbsp;while&nbsp;ethereal&nbsp;affect&nbsp;only&nbsp;other&nbsp;ethereal&nbsp;things.&nbsp;Certain&nbsp;material&nbsp;creatures&nbsp;or&nbsp;objects&nbsp;have&nbsp;attacks&nbsp;or&nbsp;effects&nbsp;that&nbsp;work&nbsp;on&nbsp;the&nbsp;Ethereal&nbsp;Plane.
+
+      </p>
+
+      <p>Treat&nbsp;other&nbsp;ethereal&nbsp;creatures&nbsp;and&nbsp;ethereal&nbsp;objects&nbsp;as&nbsp;if&nbsp;they&nbsp;were&nbsp;material.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;end&nbsp;the&nbsp;power&nbsp;and&nbsp;become&nbsp;material&nbsp;while&nbsp;inside&nbsp;a&nbsp;material&nbsp;object&nbsp;(such&nbsp;as&nbsp;a&nbsp;solid&nbsp;wall),&nbsp;you&nbsp;are&nbsp;shunted&nbsp;off&nbsp;to&nbsp;the&nbsp;nearest&nbsp;open&nbsp;space&nbsp;and&nbsp;take&nbsp;1d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;per&nbsp;5&nbsp;feet&nbsp;that&nbsp;you&nbsp;so&nbsp;travel.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      nomad: 7
+  level: 7
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: 109–110
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '200'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '41'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

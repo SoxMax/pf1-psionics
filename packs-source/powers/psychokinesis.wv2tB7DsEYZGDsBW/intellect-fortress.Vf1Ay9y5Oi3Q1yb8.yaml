@@ -1,0 +1,79 @@
+_id: Vf1Ay9y5Oi3Q1yb8
+_key: '!items!Vf1Ay9y5Oi3Q1yb8'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Intellect_Fortress
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Intellect Fortress
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: immediate
+      area:
+        shape: sphere
+        units: ft
+        value: '20'
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: ft
+        value: 20 ft.
+      save:
+        description: None
+      target:
+        value: 20-ft.-radius spread centered on you
+  description:
+    value: >-
+      <p>You&nbsp;encase&nbsp;yourself&nbsp;and&nbsp;your&nbsp;allies&nbsp;in&nbsp;a&nbsp;shimmering&nbsp;fortress&nbsp;of&nbsp;telekinetic&nbsp;force.&nbsp;All&nbsp;damage&nbsp;from&nbsp;powers&nbsp;and&nbsp;psi-like&nbsp;abilities&nbsp;taken&nbsp;by&nbsp;subjects&nbsp;inside&nbsp;the&nbsp;area&nbsp;of&nbsp;the&nbsp;intellect&nbsp;fortress,&nbsp;including&nbsp;ability&nbsp;damage,&nbsp;is&nbsp;halved.&nbsp;This&nbsp;lowering&nbsp;takes&nbsp;place&nbsp;prior&nbsp;to&nbsp;the&nbsp;effects&nbsp;of&nbsp;other&nbsp;powers&nbsp;or&nbsp;abilities&nbsp;that&nbsp;lessen&nbsp;damage,&nbsp;such&nbsp;as&nbsp;damage&nbsp;reduction&nbsp;and&nbsp;evasion.
+
+      </p>
+
+      <p>Powers&nbsp;that&nbsp;are&nbsp;not&nbsp;subject&nbsp;to&nbsp;power&nbsp;resistance&nbsp;are&nbsp;not&nbsp;affected&nbsp;by&nbsp;an&nbsp;intellect&nbsp;fortress.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;duration&nbsp;increases&nbsp;by&nbsp;1&nbsp;round.</li><li>By&nbsp;spending&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;may&nbsp;also&nbsp;affect&nbsp;breath&nbsp;weapons&nbsp;that&nbsp;deal&nbsp;damage.</li></ol>
+  discipline: psychokinesis
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      psion: 4
+      tactician: 4
+      wilder: 4
+  level: 4
+  manifestTime:
+    units: immediate
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '120'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '214'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '45'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,5 +1,7 @@
 _id: y4s3owml0O47McPR
 _key: '!items!y4s3owml0O47McPR'
+_stats:
+  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Bound_Spirit
@@ -55,9 +57,7 @@ system:
   showInQuickbar: false
   simple: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: 14–15
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Seventh Path'

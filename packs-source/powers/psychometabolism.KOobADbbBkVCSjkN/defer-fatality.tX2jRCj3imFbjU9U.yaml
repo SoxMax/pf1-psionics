@@ -1,0 +1,80 @@
+_id: tX2jRCj3imFbjU9U
+_key: '!items!tX2jRCj3imFbjU9U'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Defer_Fatality
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Defer Fatality
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>When&nbsp;death&nbsp;is&nbsp;about&nbsp;to&nbsp;claim&nbsp;you&nbsp;because&nbsp;of&nbsp;a&nbsp;lethal&nbsp;attack&nbsp;of&nbsp;any&nbsp;sort,&nbsp;you&nbsp;instead&nbsp;enter&nbsp;a&nbsp;state&nbsp;of&nbsp;suspended&nbsp;animation.&nbsp;While&nbsp;fatality&nbsp;is&nbsp;deferred,&nbsp;you&nbsp;do&nbsp;not&nbsp;age,&nbsp;breathe,&nbsp;grow&nbsp;hungry,&nbsp;sleep,&nbsp;or&nbsp;regain&nbsp;power&nbsp;points.&nbsp;You&nbsp;are&nbsp;unaware&nbsp;of&nbsp;your&nbsp;surroundings&nbsp;and&nbsp;cannot&nbsp;use&nbsp;subconscious&nbsp;powers.&nbsp;Outside&nbsp;forces&nbsp;can&nbsp;damage&nbsp;your&nbsp;body,&nbsp;but&nbsp;as&nbsp;long&nbsp;as&nbsp;your&nbsp;head&nbsp;remains&nbsp;attached&nbsp;to&nbsp;your&nbsp;torso&nbsp;and&nbsp;your&nbsp;brain&nbsp;remains&nbsp;intact,&nbsp;the&nbsp;physical&nbsp;damage&nbsp;can&nbsp;be&nbsp;healed.&nbsp;A&nbsp;coup&nbsp;de'grace&nbsp;still&nbsp;forces&nbsp;you&nbsp;to&nbsp;make&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;or&nbsp;die.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;quickly&nbsp;enough&nbsp;to&nbsp;avoid&nbsp;complete&nbsp;destruction&nbsp;if&nbsp;you&nbsp;are&nbsp;unexpectedly&nbsp;affected&nbsp;by&nbsp;a&nbsp;lethal&nbsp;melee&nbsp;or&nbsp;ranged&nbsp;attack&nbsp;or&nbsp;effect.&nbsp;You&nbsp;cannot&nbsp;manifest&nbsp;this&nbsp;power&nbsp;if&nbsp;you&nbsp;are&nbsp;unconscious.
+
+      </p>
+
+      <p>You&nbsp;remain&nbsp;in&nbsp;a&nbsp;state&nbsp;of&nbsp;deferred&nbsp;fatality&nbsp;until&nbsp;some&nbsp;third&nbsp;party&nbsp;provides&nbsp;you&nbsp;with&nbsp;magical&nbsp;or&nbsp;psionic&nbsp;healing&nbsp;in&nbsp;the&nbsp;amount&nbsp;equal&nbsp;to&nbsp;10&nbsp;points&nbsp;+&nbsp;the&nbsp;amount&nbsp;of&nbsp;damage&nbsp;your&nbsp;body&nbsp;originally&nbsp;(and&nbsp;subsequently)&nbsp;sustained&nbsp;which&nbsp;dropped&nbsp;you&nbsp;into&nbsp;this&nbsp;deferred&nbsp;state.&nbsp;When&nbsp;so&nbsp;cured,&nbsp;you&nbsp;become&nbsp;conscious,&nbsp;possess&nbsp;1&nbsp;hp,&nbsp;1&nbsp;power&nbsp;point,&nbsp;and&nbsp;sustain&nbsp;1d4+1&nbsp;points&nbsp;of&nbsp;temporary&nbsp;ability&nbsp;damage&nbsp;on&nbsp;each&nbsp;of&nbsp;your&nbsp;six&nbsp;ability&nbsp;scores.&nbsp;(If&nbsp;this&nbsp;brings&nbsp;your&nbsp;Constitution&nbsp;score&nbsp;to&nbsp;0,&nbsp;you&nbsp;die&nbsp;normally.)
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      psion: 6
+      psychic warrior: 6
+      vitalist: 6
+      voyager: 6
+      wilder: 6
+  level: 6
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: 15–16
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Mind Over Body'
+    - date: '2012-07-23'
+      pages: '155'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: '181'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '35'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

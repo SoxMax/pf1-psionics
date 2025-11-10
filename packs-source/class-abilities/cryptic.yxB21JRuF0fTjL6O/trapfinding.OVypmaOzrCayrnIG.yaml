@@ -1,0 +1,29 @@
+_id: OVypmaOzrCayrnIG
+_key: '!items!OVypmaOzrCayrnIG'
+_stats:
+  coreVersion: '13.350'
+folder: yxB21JRuF0fTjL6O
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Trapfinding
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: >-
+      <p>A&nbsp;cryptic&nbsp;adds&nbsp;1/2&nbsp;her&nbsp;level&nbsp;to&nbsp;Perception&nbsp;skill&nbsp;checks&nbsp;made&nbsp;to&nbsp;locate&nbsp;traps&nbsp;and&nbsp;to&nbsp;Disable&nbsp;Device&nbsp;skill&nbsp;checks&nbsp;(minimum&nbsp;+1).&nbsp;A&nbsp;cryptic&nbsp;can&nbsp;use&nbsp;Disable&nbsp;Device&nbsp;to&nbsp;disarm&nbsp;magic&nbsp;traps.
+
+      </p><p></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 36–42
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 34–40
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: trapfinding
+type: feat

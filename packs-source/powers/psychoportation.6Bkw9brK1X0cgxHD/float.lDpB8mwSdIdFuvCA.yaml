@@ -1,0 +1,82 @@
+_id: lDpB8mwSdIdFuvCA
+_key: '!items!lDpB8mwSdIdFuvCA'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Float
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Float
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;mentally&nbsp;support&nbsp;yourself&nbsp;in&nbsp;water&nbsp;or&nbsp;similar&nbsp;liquid.&nbsp;You&nbsp;can&nbsp;swim&nbsp;at&nbsp;a&nbsp;speed&nbsp;of&nbsp;5&nbsp;feet&nbsp;using&nbsp;the&nbsp;power&nbsp;alone,&nbsp;or,&nbsp;if&nbsp;you&nbsp;already&nbsp;have&nbsp;a&nbsp;swim&nbsp;speed,&nbsp;this&nbsp;power&nbsp;boosts&nbsp;your&nbsp;swim&nbsp;speed&nbsp;by&nbsp;5&nbsp;feet.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;your&nbsp;swim&nbsp;speed&nbsp;and&nbsp;bonus&nbsp;to&nbsp;swim&nbsp;speed&nbsp;increases&nbsp;by&nbsp;+5&nbsp;feet.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      cryptic: 0
+      empath: 0
+      gambler: 0
+      gifted blade: 1
+      marksman: 0
+      psion: 0
+      psychic warrior: 0
+      thug: 0
+      wilder: 0
+  level: 0
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '114'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2010-01-01'
+      pages: '24'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Unlimited Possibilities'
+    - date: '2012-07-23'
+      pages: '163'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: '205'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

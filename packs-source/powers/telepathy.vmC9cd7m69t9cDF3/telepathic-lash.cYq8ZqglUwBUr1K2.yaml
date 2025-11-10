@@ -1,0 +1,85 @@
+_id: cYq8ZqglUwBUr1K2
+_key: '!items!cYq8ZqglUwBUr1K2'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Telepathic_Lash
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Telepathic Lash
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One humanoid creature that has 4 HD or less
+  description:
+    value: >-
+      <p>Your&nbsp;mind&nbsp;lashes&nbsp;out,&nbsp;overwhelming&nbsp;your&nbsp;target&nbsp;with&nbsp;raging&nbsp;emotions,&nbsp;flooding&nbsp;their&nbsp;mind&nbsp;with&nbsp;memories&nbsp;and&nbsp;impulses&nbsp;they&nbsp;are&nbsp;hard&nbsp;pressed&nbsp;to&nbsp;control,&nbsp;rendering&nbsp;them&nbsp;unable&nbsp;to&nbsp;take&nbsp;any&nbsp;actions.&nbsp;Humanoids&nbsp;of&nbsp;5&nbsp;or&nbsp;more&nbsp;HD&nbsp;are&nbsp;not&nbsp;affected.&nbsp;The&nbsp;target&nbsp;is&nbsp;dazed;&nbsp;a&nbsp;dazed&nbsp;subject&nbsp;is&nbsp;not&nbsp;stunned,&nbsp;so&nbsp;attackers&nbsp;get&nbsp;no&nbsp;special&nbsp;advantage&nbsp;against&nbsp;it.&nbsp;After&nbsp;a&nbsp;creature&nbsp;has&nbsp;been&nbsp;dazed&nbsp;by&nbsp;this&nbsp;power,&nbsp;it&nbsp;is&nbsp;immune&nbsp;to&nbsp;the&nbsp;effects&nbsp;of&nbsp;this&nbsp;power&nbsp;for&nbsp;1&nbsp;minute.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;can&nbsp;affect&nbsp;a&nbsp;target&nbsp;that&nbsp;has&nbsp;Hit&nbsp;Dice&nbsp;equal&nbsp;to&nbsp;4&nbsp;+&nbsp;the&nbsp;additional&nbsp;points.</li><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;increase&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;effect&nbsp;by&nbsp;1&nbsp;round.&nbsp;If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points&nbsp;in&nbsp;this&nbsp;fashion,&nbsp;the&nbsp;target&nbsp;is&nbsp;instead&nbsp;stunned&nbsp;for&nbsp;1&nbsp;round.</li></ol>
+
+      <p>Additionally,&nbsp;for&nbsp;every&nbsp;two&nbsp;additional&nbsp;power&nbsp;points&nbsp;spent&nbsp;on&nbsp;either&nbsp;of&nbsp;the&nbsp;above&nbsp;options,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: true
+    mental: true
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      dread: 0
+      gambler: 0
+      psion: 0
+      tactician: 0
+      thug: 0
+      voyager: 0
+      wilder: 0
+  level: 0
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '149'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2012-07-23'
+      pages: '182'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: '250'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  subdiscipline:
+    - compulsion
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

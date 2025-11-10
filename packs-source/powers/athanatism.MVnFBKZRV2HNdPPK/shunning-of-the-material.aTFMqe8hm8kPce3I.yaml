@@ -1,0 +1,65 @@
+_id: aTFMqe8hm8kPce3I
+_key: '!items!aTFMqe8hm8kPce3I'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Shunning_of_the_Material
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Shunning of the Material
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates; see text
+        type: will
+      target:
+        value: One object no larger than 2 cubic feet/level
+  description:
+    value: >-
+      <p>You&nbsp;send&nbsp;an&nbsp;object&nbsp;into&nbsp;the&nbsp;Ethereal&nbsp;Plane,&nbsp;making&nbsp;it&nbsp;ethereal.&nbsp;While&nbsp;it&nbsp;is&nbsp;ethereal,&nbsp;the&nbsp;object&nbsp;cannot&nbsp;affect&nbsp;or&nbsp;be&nbsp;affected&nbsp;by&nbsp;any&nbsp;force&nbsp;on&nbsp;the&nbsp;Material&nbsp;Plane,&nbsp;except&nbsp;those&nbsp;that&nbsp;can&nbsp;normally&nbsp;interact&nbsp;with&nbsp;the&nbsp;ethereal&nbsp;(such&nbsp;as&nbsp;through&nbsp;ghost&nbsp;touch).&nbsp;Any&nbsp;creatures&nbsp;inside&nbsp;the&nbsp;object&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Will&nbsp;save,&nbsp;or&nbsp;be&nbsp;transported&nbsp;along&nbsp;with&nbsp;it.&nbsp;Any&nbsp;creatures&nbsp;transported&nbsp;this&nbsp;way&nbsp;become&nbsp;fully&nbsp;ethereal,&nbsp;not&nbsp;incorporeal&nbsp;until&nbsp;they&nbsp;leave&nbsp;the&nbsp;object&nbsp;-&nbsp;at&nbsp;which&nbsp;time&nbsp;they&nbsp;immediately&nbsp;return&nbsp;to&nbsp;the&nbsp;Material&nbsp;Plane.&nbsp;If&nbsp;the&nbsp;object&nbsp;was&nbsp;part&nbsp;of&nbsp;a&nbsp;larger&nbsp;object,&nbsp;or&nbsp;interacted&nbsp;with&nbsp;another&nbsp;object&nbsp;in&nbsp;a&nbsp;significant&nbsp;way&nbsp;(such&nbsp;as&nbsp;the&nbsp;support&nbsp;beam&nbsp;or&nbsp;keystone&nbsp;for&nbsp;a&nbsp;building,&nbsp;or&nbsp;a&nbsp;single&nbsp;part&nbsp;of&nbsp;a&nbsp;complex&nbsp;weapon),&nbsp;the&nbsp;structure&nbsp;of&nbsp;the&nbsp;other&nbsp;objects&nbsp;that&nbsp;interact&nbsp;with&nbsp;the&nbsp;target&nbsp;is&nbsp;unchanged.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;shift&nbsp;an&nbsp;area&nbsp;instead&nbsp;of&nbsp;an&nbsp;object.&nbsp;You&nbsp;may&nbsp;shift&nbsp;up&nbsp;to&nbsp;3,000&nbsp;sq.&nbsp;ft./level&nbsp;with&nbsp;this&nbsp;augmented&nbsp;use&nbsp;of&nbsp;this&nbsp;power.&nbsp;Any&nbsp;creatures&nbsp;inside&nbsp;the&nbsp;area&nbsp;to&nbsp;be&nbsp;transported&nbsp;gain&nbsp;Will&nbsp;saves&nbsp;as&nbsp;described&nbsp;above.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;increase&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;1&nbsp;hour/level.</li></ol>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      empath: 1
+      psion: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '41'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,5 +1,7 @@
 _id: TOcTQ8dvQCeO89ZQ
 _key: '!items!TOcTQ8dvQCeO89ZQ'
+_stats:
+  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Crippling_Assault
@@ -35,15 +37,11 @@ system:
   showInQuickbar: false
   simple: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2012-07-23'
       pages: '111'
       publisher: Dreamscarred Press
       title: Psionics Expanded
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2013-12-24'
       pages: '96'
       publisher: Dreamscarred Press
       title: Ultimate Psionics

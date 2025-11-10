@@ -1,0 +1,57 @@
+_id: fGI4oErksVQ18CXf
+_key: '!items!fGI4oErksVQ18CXf'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Inurement
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Inurement
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 5
+        type: minute
+      duration:
+        units: day
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>By&nbsp;binding&nbsp;your&nbsp;soul&nbsp;to&nbsp;a&nbsp;ghostly&nbsp;power&nbsp;source,&nbsp;you&nbsp;ensure&nbsp;your&nbsp;own&nbsp;eternal&nbsp;unlife.&nbsp;If&nbsp;you&nbsp;are&nbsp;killed&nbsp;while&nbsp;this&nbsp;power&nbsp;is&nbsp;active,&nbsp;you&nbsp;immediately&nbsp;become&nbsp;a&nbsp;ghost.&nbsp;When&nbsp;you&nbsp;do&nbsp;so,&nbsp;you&nbsp;suffer&nbsp;two&nbsp;permanent&nbsp;negative&nbsp;levels,&nbsp;just&nbsp;as&nbsp;if&nbsp;you&nbsp;had&nbsp;been&nbsp;hit&nbsp;by&nbsp;an&nbsp;energy-draining&nbsp;creature.&nbsp;These&nbsp;negative&nbsp;levels&nbsp;cannot&nbsp;be&nbsp;removed&nbsp;unless&nbsp;the&nbsp;one&nbsp;attempting&nbsp;to&nbsp;remove&nbsp;them&nbsp;succeeds&nbsp;on&nbsp;a&nbsp;DC&nbsp;26&nbsp;manifester&nbsp;level&nbsp;check.&nbsp;Your&nbsp;ghostly&nbsp;form&nbsp;retains&nbsp;your&nbsp;personality,&nbsp;memories,&nbsp;and&nbsp;class&nbsp;levels.&nbsp;For&nbsp;selecting&nbsp;ghost&nbsp;special&nbsp;attacks,&nbsp;you&nbsp;count&nbsp;as&nbsp;if&nbsp;your&nbsp;CR&nbsp;were&nbsp;equal&nbsp;to&nbsp;half&nbsp;your&nbsp;manifester&nbsp;level.&nbsp;Except&nbsp;as&nbsp;noted&nbsp;above,&nbsp;this&nbsp;functions&nbsp;exactly&nbsp;as&nbsp;if&nbsp;you&nbsp;were&nbsp;applying&nbsp;the&nbsp;ghost&nbsp;template&nbsp;to&nbsp;your&nbsp;character.
+
+      </p>
+  discipline: athanatism
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      conduit: 8
+  level: 8
+  manifestTime:
+    units: minute
+    value: 5
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '34'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,105 @@
+_id: PlnWluZG2XcSIR5W
+_key: '!items!PlnWluZG2XcSIR5W'
+_stats:
+  coreVersion: '13.350'
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Dread
+system:
+  bab: low
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: true
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      </p><p>Most&nbsp;creatures&nbsp;must&nbsp;learn&nbsp;to&nbsp;deal&nbsp;with&nbsp;fear&nbsp;in&nbsp;some&nbsp;fashion.&nbsp;For&nbsp;some,&nbsp;it&nbsp;is&nbsp;confronting&nbsp;and&nbsp;overcoming&nbsp;their&nbsp;fears.&nbsp;For&nbsp;others,&nbsp;it&nbsp;is&nbsp;always&nbsp;running&nbsp;away.&nbsp;For&nbsp;the&nbsp;dread,&nbsp;it&nbsp;is&nbsp;using&nbsp;her&nbsp;fear&nbsp;as&nbsp;a&nbsp;weapon,&nbsp;it&nbsp;is&nbsp;understanding&nbsp;how&nbsp;fear&nbsp;works&nbsp;and&nbsp;manipulating&nbsp;the&nbsp;fears&nbsp;of&nbsp;others&nbsp;in&nbsp;unusual&nbsp;and&nbsp;devastating&nbsp;ways.&nbsp;The&nbsp;dread&nbsp;is&nbsp;the&nbsp;master&nbsp;of&nbsp;fear&nbsp;and&nbsp;terror.&nbsp;</p><p><b>Role:</b>&nbsp;A&nbsp;dread&nbsp;is&nbsp;an&nbsp;opponent&nbsp;on&nbsp;the&nbsp;battlefield&nbsp;who&nbsp;can&nbsp;turn&nbsp;the&nbsp;bravest&nbsp;of&nbsp;enemies&nbsp;into&nbsp;a&nbsp;sniveling&nbsp;coward&nbsp;with&nbsp;but&nbsp;a&nbsp;touch.&nbsp;Combining&nbsp;moderate&nbsp;manifesting&nbsp;ability&nbsp;with&nbsp;destructive&nbsp;melee&nbsp;attacks,&nbsp;the&nbsp;dread&nbsp;is&nbsp;a&nbsp;dangerous&nbsp;opponent&nbsp;to&nbsp;ignore.&nbsp;Out&nbsp;of&nbsp;combat,&nbsp;the&nbsp;dread&nbsp;uses&nbsp;fear&nbsp;and&nbsp;intimidation&nbsp;to&nbsp;manipulate&nbsp;or&nbsp;bully&nbsp;others&nbsp;into&nbsp;the&nbsp;path&nbsp;she&nbsp;deems&nbsp;best.&nbsp;</p><p><b>Alignment:</b>&nbsp;Any&nbsp;</p><p><b>Hit&nbsp;Die:</b>&nbsp;d8&nbsp;</p><p><b>Starting&nbsp;Wealth:</b>&nbsp;3d6&nbsp;x&nbsp;10&nbsp;(average&nbsp;105&nbsp;gp).&nbsp;In&nbsp;addition,&nbsp;each&nbsp;character&nbsp;begins&nbsp;play&nbsp;with&nbsp;an&nbsp;outfit&nbsp;worth&nbsp;10&nbsp;gp&nbsp;or&nbsp;less.&nbsp;</p><p><b>Class&nbsp;Skills:</b>&nbsp;The&nbsp;dread's&nbsp;class&nbsp;skills&nbsp;(and&nbsp;the&nbsp;key&nbsp;ability&nbsp;for&nbsp;each&nbsp;skill)&nbsp;are&nbsp;Acrobatics&nbsp;(Dex),&nbsp;Autohypnosis&nbsp;(Wis),&nbsp;Bluff&nbsp;(Cha),&nbsp;Climb&nbsp;(Str),&nbsp;Craft&nbsp;(Int),&nbsp;Escape&nbsp;Artist&nbsp;(Dex),&nbsp;Intimidate&nbsp;(Cha),&nbsp;Knowledge&nbsp;(psionics)&nbsp;(Int),&nbsp;Perception&nbsp;(Wis),&nbsp;Stealth&nbsp;(Dex),&nbsp;Profession&nbsp;(Wis),&nbsp;Sense&nbsp;Motive&nbsp;(Wis),&nbsp;Spellcraft&nbsp;(Int),&nbsp;and&nbsp;Swim&nbsp;(Str).&nbsp;</p><p><b>Skill&nbsp;Points&nbsp;Per&nbsp;Level:</b>&nbsp;6&nbsp;+&nbsp;Int&nbsp;modifier.&nbsp;</p>
+  hd: 6
+  hp: 6
+  level: 1
+  links:
+    classAssociations:
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.hLltom1ZTAl8hfHW
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.S27So1eEl4S2os4u
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.4yKVlWn0XRdfoUbR
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.mECSpyfGFDSKoQyr
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.4oV0TSDfsouHMXeL
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.ZlLfQFhcQTFjwTYu
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.OYd5QiXGy1Yj3lOO
+      - level: 7
+        uuid: Compendium.pf1-psionics.class-abilities.Item.kmMtzhM3KM8V4Y2N
+      - level: 11
+        uuid: Compendium.pf1-psionics.class-abilities.Item.8bniDbf25ryXxuDw
+      - level: 11
+        uuid: Compendium.pf1-psionics.class-abilities.Item.c1550Omo9i1udB7T
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.iSfEsGtYh60C2R0n
+  manifesting:
+    ability: wis
+    cantrips: true
+    progression: high
+  savingThrows:
+    fort:
+      value: low
+    ref:
+      value: high
+    will:
+      value: high
+  skillsPerLevel: 2
+  sources:
+    - date: '2012-07-23'
+      pages: 43–47
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 40–44
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: base
+  tag: dread
+  wealth: 3d6 * 10
+  weaponProf:
+    - simple
+type: class

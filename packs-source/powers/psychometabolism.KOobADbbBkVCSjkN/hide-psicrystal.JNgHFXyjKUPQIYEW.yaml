@@ -1,0 +1,56 @@
+_id: JNgHFXyjKUPQIYEW
+_key: '!items!JNgHFXyjKUPQIYEW'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Hide_Psicrystal
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Hide Psicrystal
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: round
+      duration:
+        units: hour
+        value: '24'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+  description:
+    value: >-
+      <p>You&nbsp;merge&nbsp;your&nbsp;biokinetic&nbsp;aura&nbsp;with&nbsp;that&nbsp;of&nbsp;your&nbsp;psicrystal,&nbsp;allowing&nbsp;your&nbsp;psicrystal&nbsp;to&nbsp;merge&nbsp;into&nbsp;your&nbsp;body.&nbsp;For&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;power,&nbsp;the&nbsp;psicrystal&nbsp;cannot&nbsp;be&nbsp;targeted&nbsp;in&nbsp;any&nbsp;way&nbsp;and&nbsp;cannot&nbsp;use&nbsp;any&nbsp;of&nbsp;its&nbsp;powers,&nbsp;but&nbsp;still&nbsp;gives&nbsp;you&nbsp;the&nbsp;benefits&nbsp;of&nbsp;having&nbsp;it&nbsp;close,&nbsp;such&nbsp;as&nbsp;Alertness.&nbsp;It&nbsp;cannot&nbsp;be&nbsp;detected&nbsp;in&nbsp;any&nbsp;way,&nbsp;but&nbsp;the&nbsp;effect&nbsp;can&nbsp;still&nbsp;be&nbsp;detected.&nbsp;The&nbsp;psicrystal&nbsp;can&nbsp;be&nbsp;discharged&nbsp;as&nbsp;a&nbsp;standard&nbsp;action.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      psion: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: round
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '11'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Psicrystals'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

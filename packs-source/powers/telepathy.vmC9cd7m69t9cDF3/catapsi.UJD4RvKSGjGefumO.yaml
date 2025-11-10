@@ -1,0 +1,84 @@
+_id: UJD4RvKSGjGefumO
+_key: '!items!UJD4RvKSGjGefumO'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Catapsi
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Catapsi
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '30'
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: ft
+        value: 30 ft.
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates; see text
+        type: will
+      target:
+        value: 30-ft.-radius emanation centered on you
+  description:
+    value: >-
+      <p>By&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;you&nbsp;generate&nbsp;psychic&nbsp;static,&nbsp;interfering&nbsp;with&nbsp;the&nbsp;ability&nbsp;of&nbsp;other&nbsp;psionic&nbsp;characters&nbsp;to&nbsp;manifest&nbsp;their&nbsp;powers&nbsp;or&nbsp;use&nbsp;psi-like&nbsp;abilities&nbsp;(you&nbsp;are&nbsp;not&nbsp;affected&nbsp;by&nbsp;your&nbsp;own&nbsp;catapsi&nbsp;manifestation).&nbsp;All&nbsp;psionic&nbsp;activity&nbsp;within&nbsp;the&nbsp;area&nbsp;requires&nbsp;4&nbsp;more&nbsp;power&nbsp;points&nbsp;to&nbsp;manifest&nbsp;than&nbsp;normal,&nbsp;unless&nbsp;a&nbsp;character&nbsp;makes&nbsp;a&nbsp;Will&nbsp;save&nbsp;each&nbsp;time&nbsp;he&nbsp;attempts&nbsp;to&nbsp;manifest&nbsp;a&nbsp;power.&nbsp;Using&nbsp;a&nbsp;psi-like&nbsp;ability&nbsp;becomes&nbsp;a&nbsp;full-round&nbsp;action,&nbsp;instead&nbsp;of&nbsp;a&nbsp;standard&nbsp;action,&nbsp;in&nbsp;a&nbsp;catapsi&nbsp;field.&nbsp;If&nbsp;two&nbsp;or&nbsp;more&nbsp;fields&nbsp;of&nbsp;catapsi&nbsp;overlap,&nbsp;the&nbsp;effects&nbsp;are&nbsp;not&nbsp;cumulative.
+
+      </p>
+
+      <p>The&nbsp;limit&nbsp;on&nbsp;the&nbsp;number&nbsp;of&nbsp;power&nbsp;points&nbsp;a&nbsp;subject&nbsp;can&nbsp;spend&nbsp;on&nbsp;a&nbsp;power&nbsp;remains&nbsp;in&nbsp;effect;&nbsp;thus,&nbsp;a&nbsp;subject&nbsp;may&nbsp;not&nbsp;be&nbsp;able&nbsp;to&nbsp;manifest&nbsp;its&nbsp;highest-level&nbsp;powers.&nbsp;If&nbsp;manifesting&nbsp;a&nbsp;power&nbsp;would&nbsp;cause&nbsp;the&nbsp;manifester&nbsp;to&nbsp;exceed&nbsp;his&nbsp;available&nbsp;power&nbsp;points&nbsp;or&nbsp;his&nbsp;spending&nbsp;limits,&nbsp;the&nbsp;manifestation&nbsp;fails&nbsp;automatically,&nbsp;but&nbsp;no&nbsp;power&nbsp;points&nbsp;are&nbsp;expended.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;range&nbsp;and&nbsp;the&nbsp;radius&nbsp;of&nbsp;its&nbsp;area&nbsp;both&nbsp;increase&nbsp;by&nbsp;5&nbsp;feet.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      psion: 5
+      psychic warrior: 5
+      tactician: 5
+      wilder: 5
+  level: 5
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: 83–84
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 169–170
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '31'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

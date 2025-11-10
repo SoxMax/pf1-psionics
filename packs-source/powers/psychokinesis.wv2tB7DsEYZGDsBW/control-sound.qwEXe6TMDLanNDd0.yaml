@@ -1,0 +1,80 @@
+_id: qwEXe6TMDLanNDd0
+_key: '!items!qwEXe6TMDLanNDd0'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Control_Sound
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/sonic/projectile-sound-rings-wave.webp
+name: Control Sound
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        concentration: true
+        units: conc
+        value: up to 1 min./level; see text
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        description: None
+      target:
+        value: One sound or mixture of related sounds
+  description:
+    value: >-
+      <p>You&nbsp;shape&nbsp;and&nbsp;alter&nbsp;existing&nbsp;sounds.&nbsp;You&nbsp;can&nbsp;target&nbsp;one&nbsp;sound,&nbsp;such&nbsp;as&nbsp;a&nbsp;person&nbsp;speaking&nbsp;or&nbsp;singing,&nbsp;or&nbsp;a&nbsp;group&nbsp;of&nbsp;related&nbsp;sounds,&nbsp;such&nbsp;as&nbsp;the&nbsp;patter&nbsp;of&nbsp;many&nbsp;raindrops&nbsp;or&nbsp;the&nbsp;tramp&nbsp;of&nbsp;soldiers&nbsp;passing&nbsp;by.&nbsp;A&nbsp;sound&nbsp;as&nbsp;quiet&nbsp;as&nbsp;a&nbsp;snapping&nbsp;finger&nbsp;can&nbsp;be&nbsp;controlled.&nbsp;You&nbsp;can&nbsp;substitute&nbsp;any&nbsp;sound&nbsp;you&nbsp;have&nbsp;heard&nbsp;for&nbsp;the&nbsp;target&nbsp;sound.&nbsp;If&nbsp;you&nbsp;attempt&nbsp;to&nbsp;exactly&nbsp;duplicate&nbsp;the&nbsp;voice&nbsp;of&nbsp;a&nbsp;specific&nbsp;individual,&nbsp;or&nbsp;an&nbsp;inherently&nbsp;terrifying&nbsp;sound&nbsp;(such&nbsp;as&nbsp;a&nbsp;dragon's&nbsp;roar),&nbsp;you&nbsp;must&nbsp;succeed&nbsp;on&nbsp;a&nbsp;Bluff&nbsp;check&nbsp;with&nbsp;a&nbsp;+5&nbsp;circumstance&nbsp;bonus&nbsp;opposed&nbsp;by&nbsp;the&nbsp;intended&nbsp;listener's&nbsp;Sense&nbsp;Motive&nbsp;check&nbsp;to&nbsp;avoid&nbsp;arousing&nbsp;suspicion.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;entirely&nbsp;muffle&nbsp;a&nbsp;noise&nbsp;or&nbsp;magnify&nbsp;a&nbsp;sound&nbsp;to&nbsp;such&nbsp;loudness&nbsp;that&nbsp;it&nbsp;drowns&nbsp;out&nbsp;all&nbsp;other&nbsp;conversation&nbsp;in&nbsp;the&nbsp;immediate&nbsp;area.&nbsp;In&nbsp;this&nbsp;way,&nbsp;you&nbsp;can&nbsp;provide&nbsp;yourself&nbsp;or&nbsp;any&nbsp;with&nbsp;a&nbsp;+4&nbsp;circumstance&nbsp;bonus&nbsp;on&nbsp;Stealth&nbsp;and&nbsp;audiobased&nbsp;Perception&nbsp;checks.
+
+      </p>
+
+      <p>Alternatively,&nbsp;you&nbsp;can&nbsp;use&nbsp;up&nbsp;the&nbsp;power&nbsp;in&nbsp;an&nbsp;instant.&nbsp;You&nbsp;do&nbsp;this&nbsp;by&nbsp;modulating&nbsp;a&nbsp;sound&nbsp;into&nbsp;a&nbsp;one-time&nbsp;destructive&nbsp;impetus&nbsp;that&nbsp;shatters&nbsp;nonmagical/nonpsionic,&nbsp;unattended&nbsp;objects&nbsp;of&nbsp;crystal,&nbsp;glass,&nbsp;ceramics,&nbsp;or&nbsp;porcelain&nbsp;(vials,&nbsp;bottles,&nbsp;flasks,&nbsp;jugs,&nbsp;mirrors,&nbsp;and&nbsp;so&nbsp;forth)&nbsp;in&nbsp;the&nbsp;area.
+
+      </p>
+  descriptors:
+    - sonic
+  discipline: psychokinesis
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      gambler: 2
+      psion: 2
+      thug: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '90'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '176'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '34'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

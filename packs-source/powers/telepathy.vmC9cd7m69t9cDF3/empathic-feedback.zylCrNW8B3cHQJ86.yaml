@@ -1,0 +1,79 @@
+_id: zylCrNW8B3cHQJ86
+_key: '!items!zylCrNW8B3cHQJ86'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Empathic_Feedback
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Empathic Feedback
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: 10 * @cl
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates; see text
+        type: will
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;empathically&nbsp;share&nbsp;your&nbsp;pain&nbsp;and&nbsp;suffering&nbsp;with&nbsp;your&nbsp;attacker.&nbsp;Each&nbsp;time&nbsp;a&nbsp;creature&nbsp;strikes&nbsp;you&nbsp;in&nbsp;melee,&nbsp;it&nbsp;takes&nbsp;damage&nbsp;equal&nbsp;to&nbsp;one&nbsp;quarter&nbsp;the&nbsp;amount&nbsp;it&nbsp;dealt&nbsp;to&nbsp;you&nbsp;(rounded&nbsp;down,&nbsp;minimum&nbsp;1)&nbsp;unless&nbsp;it&nbsp;succeeds&nbsp;on&nbsp;a&nbsp;Will&nbsp;save.&nbsp;This&nbsp;damage&nbsp;is&nbsp;empathic&nbsp;in&nbsp;nature,&nbsp;so&nbsp;powers&nbsp;and&nbsp;abilities&nbsp;the&nbsp;attacker&nbsp;may&nbsp;have&nbsp;such&nbsp;as&nbsp;damage&nbsp;reduction&nbsp;and&nbsp;regeneration&nbsp;do&nbsp;not&nbsp;lessen&nbsp;or&nbsp;change&nbsp;this&nbsp;damage.&nbsp;The&nbsp;damage&nbsp;from&nbsp;empathic&nbsp;feedback&nbsp;has&nbsp;no&nbsp;type,&nbsp;so&nbsp;even&nbsp;if&nbsp;you&nbsp;took&nbsp;fire&nbsp;damage&nbsp;from&nbsp;a&nbsp;creature&nbsp;that&nbsp;has&nbsp;immunity&nbsp;to&nbsp;fire,&nbsp;empathic&nbsp;feedback&nbsp;will&nbsp;damage&nbsp;your&nbsp;attacker.&nbsp;The&nbsp;damage&nbsp;from&nbsp;empathic&nbsp;feedback&nbsp;is&nbsp;a&nbsp;mind-affecting&nbsp;effect,&nbsp;a&nbsp;successful&nbsp;Will&nbsp;save&nbsp;negates&nbsp;this&nbsp;damage,&nbsp;and&nbsp;the&nbsp;damage&nbsp;is&nbsp;subject&nbsp;to&nbsp;power&nbsp;resistance.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>By&nbsp;spending&nbsp;3&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;damage&nbsp;suffered&nbsp;by&nbsp;your&nbsp;attacker&nbsp;increases&nbsp;to&nbsp;one&nbsp;half&nbsp;the&nbsp;damage&nbsp;dealt&nbsp;to&nbsp;you.</li><li>By&nbsp;spending&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;damage&nbsp;suffered&nbsp;by&nbsp;your&nbsp;attacker&nbsp;is&nbsp;equal&nbsp;to&nbsp;the&nbsp;damage&nbsp;dealt&nbsp;to&nbsp;you.</li></ol>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: true
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      gambler: 4
+      gifted blade: 3
+      psion: 4
+      psychic warrior: 3
+      tactician: 4
+      vitalist: 4
+      wilder: 4
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '102'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '192'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '38'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,83 @@
+_id: B3mTkwSo1FkG9Lw0
+_key: '!items!B3mTkwSo1FkG9Lw0'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Empathy
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Empathy
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: line
+        units: ft
+        value: '30'
+      duration:
+        concentration: true
+        dismiss: true
+        units: conc
+        value: up to 1 min./level (D)
+      name: Use
+      range:
+        units: ft
+        value: 30 ft.
+      save:
+        description: None
+      target:
+        value: 30-ft.-radius spread centered on you
+  description:
+    value: >-
+      <p>You&nbsp;detect&nbsp;the&nbsp;surface&nbsp;emotions&nbsp;of&nbsp;any&nbsp;creature&nbsp;you&nbsp;can&nbsp;see&nbsp;that&nbsp;is&nbsp;in&nbsp;the&nbsp;power's&nbsp;area.&nbsp;You&nbsp;can&nbsp;sense&nbsp;basic&nbsp;needs,&nbsp;drives,&nbsp;and&nbsp;emotions.&nbsp;Thirst,&nbsp;hunger,&nbsp;fear,&nbsp;fatigue,&nbsp;pain,&nbsp;rage,&nbsp;hatred,&nbsp;uncertainty,&nbsp;curiosity,&nbsp;friendliness,&nbsp;and&nbsp;many&nbsp;other&nbsp;kinds&nbsp;of&nbsp;sensations&nbsp;and&nbsp;moods&nbsp;can&nbsp;all&nbsp;be&nbsp;perceived.
+
+      </p>
+
+      <p>You&nbsp;gain&nbsp;a&nbsp;+2&nbsp;insight&nbsp;bonus&nbsp;on&nbsp;any&nbsp;Bluff,&nbsp;Diplomacy,&nbsp;Intimidate,&nbsp;or&nbsp;Sense&nbsp;Motive&nbsp;checks&nbsp;that&nbsp;you&nbsp;make&nbsp;in&nbsp;the&nbsp;round&nbsp;when&nbsp;you&nbsp;cease&nbsp;concentrating&nbsp;on&nbsp;this&nbsp;power.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;range&nbsp;and&nbsp;the&nbsp;radius&nbsp;of&nbsp;its&nbsp;area&nbsp;increases&nbsp;by&nbsp;5&nbsp;feet.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power's&nbsp;maximum&nbsp;duration&nbsp;increases&nbsp;to&nbsp;1&nbsp;hour/level&nbsp;and&nbsp;you&nbsp;need&nbsp;only&nbsp;concentrate&nbsp;to&nbsp;gain&nbsp;the&nbsp;benefit&nbsp;of&nbsp;the&nbsp;power.</li></ol>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      cryptic: 0
+      dread: 0
+      empath: 0
+      gambler: 0
+      psion: 0
+      thug: 0
+      wilder: 0
+  level: 0
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '103'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 192–193
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

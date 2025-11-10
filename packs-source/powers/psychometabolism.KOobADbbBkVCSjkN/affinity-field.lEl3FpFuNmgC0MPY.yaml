@@ -1,0 +1,80 @@
+_id: lEl3FpFuNmgC0MPY
+_key: '!items!lEl3FpFuNmgC0MPY'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Affinity_Field
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Affinity Field
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '20'
+      duration:
+        dismiss: true
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: ft
+        value: 20 ft.
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude negates (potentially harmless);
+        harmless: true
+        type: fort
+      target:
+        value: 20-ft.-radius emanation, centered on you
+  description:
+    value: >-
+      <p>You&nbsp;create&nbsp;an&nbsp;affinity&nbsp;feedback&nbsp;loop&nbsp;with&nbsp;all&nbsp;creatures&nbsp;within&nbsp;the&nbsp;area.&nbsp;While&nbsp;the&nbsp;duration&nbsp;lasts,&nbsp;affected&nbsp;creatures&nbsp;take&nbsp;all&nbsp;damage&nbsp;(including&nbsp;ability&nbsp;damage)&nbsp;as&nbsp;you&nbsp;do&nbsp;and&nbsp;heal&nbsp;all&nbsp;wounds&nbsp;as&nbsp;you&nbsp;do.&nbsp;Hit&nbsp;points&nbsp;gained&nbsp;or&nbsp;lost&nbsp;persist&nbsp;after&nbsp;this&nbsp;power&nbsp;ends.
+
+      </p>
+
+      <p>Creatures&nbsp;in&nbsp;range&nbsp;are&nbsp;also&nbsp;subject&nbsp;to&nbsp;magical&nbsp;and&nbsp;psionic&nbsp;effects&nbsp;of&nbsp;3rd&nbsp;level&nbsp;or&nbsp;lower.&nbsp;Creatures&nbsp;that&nbsp;have&nbsp;an&nbsp;affinity&nbsp;to&nbsp;you&nbsp;gain&nbsp;a&nbsp;saving&nbsp;throw&nbsp;against&nbsp;each&nbsp;new&nbsp;power&nbsp;transferred&nbsp;through&nbsp;the&nbsp;affinity&nbsp;field&nbsp;as&nbsp;if&nbsp;the&nbsp;power&nbsp;were&nbsp;manifested&nbsp;upon&nbsp;them&nbsp;normally.&nbsp;All&nbsp;magical&nbsp;and&nbsp;psionic&nbsp;effects&nbsp;transferred&nbsp;to&nbsp;subjects&nbsp;fade&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;this&nbsp;power's&nbsp;duration,&nbsp;although&nbsp;instantaneous&nbsp;effects&nbsp;remain.&nbsp;If&nbsp;you&nbsp;suddenly&nbsp;become&nbsp;immune&nbsp;to&nbsp;a&nbsp;particular&nbsp;effect&nbsp;or&nbsp;power,&nbsp;the&nbsp;effect&nbsp;or&nbsp;power&nbsp;to&nbsp;which&nbsp;you&nbsp;are&nbsp;immune&nbsp;cannot&nbsp;be&nbsp;transferred&nbsp;to&nbsp;creatures&nbsp;that&nbsp;have&nbsp;affinity&nbsp;to&nbsp;you,&nbsp;although&nbsp;effects&nbsp;already&nbsp;on&nbsp;creatures&nbsp;that&nbsp;have&nbsp;affinity&nbsp;to&nbsp;you&nbsp;are&nbsp;not&nbsp;ended&nbsp;unless&nbsp;that&nbsp;creature&nbsp;also&nbsp;gains&nbsp;the&nbsp;same&nbsp;immunity.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      psion: 9
+      tactician: 9
+      vitalist: 9
+      wilder: 9
+  level: 9
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '75'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '159'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '28'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

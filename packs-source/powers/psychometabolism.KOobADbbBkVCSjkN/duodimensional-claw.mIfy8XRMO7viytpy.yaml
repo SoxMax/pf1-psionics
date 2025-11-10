@@ -1,0 +1,65 @@
+_id: mIfy8XRMO7viytpy
+_key: '!items!mIfy8XRMO7viytpy'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Duodimensional_Claw
+folder: KOobADbbBkVCSjkN
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Duodimensional Claw
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: 10 * @cl
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>If&nbsp;you&nbsp;have&nbsp;a&nbsp;claw&nbsp;attack&nbsp;(either&nbsp;from&nbsp;an&nbsp;actual&nbsp;natural&nbsp;weapon&nbsp;or&nbsp;from&nbsp;an&nbsp;effect&nbsp;such&nbsp;as&nbsp;claws&nbsp;of&nbsp;the&nbsp;beast),&nbsp;you&nbsp;can&nbsp;use&nbsp;this&nbsp;power&nbsp;to&nbsp;improve&nbsp;that&nbsp;weapon.&nbsp;One&nbsp;of&nbsp;your&nbsp;claws&nbsp;becomes&nbsp;two-dimensional,&nbsp;making&nbsp;it&nbsp;razor-sharp.&nbsp;The&nbsp;weapon&nbsp;is&nbsp;now&nbsp;psionically&nbsp;keen,&nbsp;increasing&nbsp;its&nbsp;threat&nbsp;range&nbsp;from&nbsp;20&nbsp;to&nbsp;19–20.&nbsp;This&nbsp;benefit&nbsp;does&nbsp;not&nbsp;stack&nbsp;with&nbsp;other&nbsp;effects&nbsp;that&nbsp;improve&nbsp;a&nbsp;weapon's&nbsp;threat&nbsp;range.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      psychic warrior: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '99'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '188'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '37'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

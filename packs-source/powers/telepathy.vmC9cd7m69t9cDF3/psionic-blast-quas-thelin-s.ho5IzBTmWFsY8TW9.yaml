@@ -1,0 +1,78 @@
+_id: ho5IzBTmWFsY8TW9
+_key: '!items!ho5IzBTmWFsY8TW9'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Blast,_Quas'thelin's
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Psionic Blast, Quas'thelin's
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: cone
+        units: ft
+        value: '30'
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: ft
+        value: 30 ft.
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: 30-ft. cone-shaped burst
+  description:
+    value: >-
+      <p>The&nbsp;air&nbsp;ripples&nbsp;with&nbsp;the&nbsp;force&nbsp;of&nbsp;your&nbsp;mental&nbsp;attack,&nbsp;which&nbsp;blasts&nbsp;the&nbsp;minds&nbsp;of&nbsp;all&nbsp;creatures&nbsp;in&nbsp;range.&nbsp;Psionic&nbsp;blast&nbsp;stuns&nbsp;all&nbsp;affected&nbsp;creatures&nbsp;for&nbsp;1&nbsp;round.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;stun&nbsp;effect&nbsp;increases&nbsp;by&nbsp;1&nbsp;round&nbsp;and&nbsp;the&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      gambler: 3
+      psion: 3
+      wilder: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '134'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '232'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '51'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,65 @@
+_id: s8hip8Boq8Nwk29z
+_key: '!items!s8hip8Boq8Nwk29z'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Banshee's_Hearing
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Banshee's Hearing
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: minute
+        value: 10 * @cl
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>Like&nbsp;the&nbsp;spectral&nbsp;undead,&nbsp;you&nbsp;attune&nbsp;your&nbsp;senses&nbsp;to&nbsp;the&nbsp;heartbeats&nbsp;of&nbsp;the&nbsp;living.&nbsp;You&nbsp;gain&nbsp;blindsight&nbsp;with&nbsp;a&nbsp;range&nbsp;of&nbsp;60&nbsp;ft.&nbsp;However,&nbsp;any&nbsp;target&nbsp;that&nbsp;does&nbsp;not&nbsp;have&nbsp;a&nbsp;heartbeat&nbsp;(undead,&nbsp;constructs,&nbsp;some&nbsp;aberrations,&nbsp;etc.)&nbsp;is&nbsp;treated&nbsp;as&nbsp;having&nbsp;total&nbsp;concealment&nbsp;from&nbsp;your&nbsp;blindsight.&nbsp;Your&nbsp;normal&nbsp;senses&nbsp;continue&nbsp;to&nbsp;function.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>You&nbsp;may&nbsp;spend&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;to&nbsp;increase&nbsp;the&nbsp;range&nbsp;of&nbsp;your&nbsp;blindsight&nbsp;from&nbsp;this&nbsp;power&nbsp;by&nbsp;10&nbsp;feet.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;becomes&nbsp;1&nbsp;hour/level.</li></ol>
+  discipline: athanatism
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      dread: 2
+      psion: 3
+      thug: 2
+      wilder: 3
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '23'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

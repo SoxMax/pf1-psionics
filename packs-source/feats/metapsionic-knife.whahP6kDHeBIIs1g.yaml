@@ -1,5 +1,7 @@
 _id: whahP6kDHeBIIs1g
 _key: '!items!whahP6kDHeBIIs1g'
+_stats:
+  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Metapsionic_Knife
@@ -35,15 +37,11 @@ system:
   showInQuickbar: false
   simple: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '5'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Soulknives 2'
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '39'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Compilation II'

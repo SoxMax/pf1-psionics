@@ -1,0 +1,84 @@
+_id: 97dSt5Q2clORQ8kZ
+_key: '!items!97dSt5Q2clORQ8kZ'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Telekinetic_Bola
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Telekinetic Bola
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      damage:
+        parts:
+          - - 1d3
+            - untyped
+      duration:
+        dismiss: true
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: ft
+        value: 5 feet
+      save:
+        description: None
+      target:
+        value: Up to three objects weighing no more than 5 pounds each
+  description:
+    value: >-
+      <p>A&nbsp;small&nbsp;number&nbsp;of&nbsp;items&nbsp;become&nbsp;animated,&nbsp;hurling&nbsp;about&nbsp;your&nbsp;person&nbsp;in&nbsp;a&nbsp;dizzying&nbsp;orbit,&nbsp;ready&nbsp;to&nbsp;act&nbsp;at&nbsp;your&nbsp;behest.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;you&nbsp;must&nbsp;choose&nbsp;one&nbsp;of&nbsp;two&nbsp;modes&nbsp;in&nbsp;which&nbsp;you&nbsp;intend&nbsp;it&nbsp;to&nbsp;be&nbsp;used.&nbsp;Once&nbsp;chosen,&nbsp;this&nbsp;choice&nbsp;cannot&nbsp;be&nbsp;altered&nbsp;until&nbsp;the&nbsp;power&nbsp;ends.
+
+      </p>
+
+      <p>In&nbsp;either&nbsp;case,&nbsp;you&nbsp;cause&nbsp;a&nbsp;set&nbsp;of&nbsp;objects&nbsp;to&nbsp;spin&nbsp;rapidly&nbsp;around&nbsp;you,&nbsp;primed&nbsp;to&nbsp;either&nbsp;defend&nbsp;you,&nbsp;or&nbsp;aid&nbsp;in&nbsp;your&nbsp;offense.&nbsp;These&nbsp;objects&nbsp;move&nbsp;quickly&nbsp;enough&nbsp;that&nbsp;they&nbsp;do&nbsp;not&nbsp;impair&nbsp;your&nbsp;vision,&nbsp;nor&nbsp;do&nbsp;they&nbsp;provide&nbsp;you&nbsp;cover&nbsp;or&nbsp;concealment.&nbsp;The&nbsp;objects&nbsp;so&nbsp;animated&nbsp;remain&nbsp;within&nbsp;your&nbsp;square&nbsp;at&nbsp;all&nbsp;times&nbsp;and&nbsp;if&nbsp;they&nbsp;are&nbsp;removed&nbsp;by&nbsp;any&nbsp;means,&nbsp;they&nbsp;cease&nbsp;being&nbsp;under&nbsp;the&nbsp;control&nbsp;of&nbsp;the&nbsp;power.
+
+      </p>
+
+      <p><em>Defensive</em>:&nbsp;In&nbsp;this&nbsp;mode,&nbsp;the&nbsp;objects&nbsp;you&nbsp;animate&nbsp;are&nbsp;prepared&nbsp;to&nbsp;intercept&nbsp;physical&nbsp;attacks&nbsp;against&nbsp;you.&nbsp;Once&nbsp;per&nbsp;animated&nbsp;object&nbsp;per&nbsp;round,&nbsp;you&nbsp;can&nbsp;direct&nbsp;an&nbsp;object&nbsp;to&nbsp;try&nbsp;to&nbsp;block&nbsp;such&nbsp;an&nbsp;attack&nbsp;as&nbsp;a&nbsp;free&nbsp;action&nbsp;that&nbsp;can&nbsp;be&nbsp;taken&nbsp;outside&nbsp;of&nbsp;your&nbsp;turn.&nbsp;The&nbsp;animated&nbsp;item&nbsp;moves&nbsp;to&nbsp;intercede,&nbsp;providing&nbsp;you&nbsp;a&nbsp;+1&nbsp;shield&nbsp;bonus&nbsp;against&nbsp;that&nbsp;attack.&nbsp;Unlike&nbsp;most&nbsp;cases,&nbsp;this&nbsp;bonus&nbsp;stacks&nbsp;with&nbsp;any&nbsp;shield&nbsp;bonus&nbsp;you&nbsp;have&nbsp;from&nbsp;another&nbsp;source.
+
+      </p>
+
+      <p><em>Offensive:&nbsp;</em>In&nbsp;this&nbsp;mode,&nbsp;the&nbsp;objects&nbsp;you&nbsp;animate&nbsp;can&nbsp;be&nbsp;used&nbsp;to&nbsp;make&nbsp;offensive&nbsp;attacks.&nbsp;Once&nbsp;per&nbsp;animated&nbsp;object&nbsp;per&nbsp;round,&nbsp;you&nbsp;can&nbsp;direct&nbsp;an&nbsp;object&nbsp;to&nbsp;attack&nbsp;a&nbsp;creature&nbsp;that&nbsp;is&nbsp;attacking&nbsp;you&nbsp;as&nbsp;a&nbsp;free&nbsp;action.&nbsp;This&nbsp;is&nbsp;resolved&nbsp;after&nbsp;the&nbsp;attack&nbsp;that&nbsp;you&nbsp;are&nbsp;reacting&nbsp;to.&nbsp;You&nbsp;make&nbsp;an&nbsp;attack&nbsp;roll&nbsp;using&nbsp;your&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;and&nbsp;adding&nbsp;your&nbsp;manifesting&nbsp;ability&nbsp;bonus.&nbsp;If&nbsp;you&nbsp;hit,&nbsp;the&nbsp;animated&nbsp;object&nbsp;deals&nbsp;1d3&nbsp;points&nbsp;of&nbsp;damage.&nbsp;You&nbsp;cannot&nbsp;react&nbsp;with&nbsp;more&nbsp;than&nbsp;one&nbsp;object&nbsp;per&nbsp;attack&nbsp;made&nbsp;against&nbsp;you.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>For&nbsp;every&nbsp;four&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;shield&nbsp;bonus&nbsp;granted&nbsp;increases&nbsp;by&nbsp;+1&nbsp;or&nbsp;the&nbsp;damage&nbsp;dealt&nbsp;increases&nbsp;by&nbsp;1d3.
+
+      </p>
+  discipline: psychokinesis
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      highlord: 2
+      kineticist: 2
+      psychic warrior: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '16'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: '2010-01-01'
+      pages: '83'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

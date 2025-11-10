@@ -1,0 +1,73 @@
+_id: 3p7vZjMzfs3YpadC
+_key: '!items!3p7vZjMzfs3YpadC'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Steadfast_Perception
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Steadfast Perception
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: minute
+        value: 10 * @cl
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>Your&nbsp;vision&nbsp;cannot&nbsp;be&nbsp;distracted&nbsp;or&nbsp;misled,&nbsp;granting&nbsp;you&nbsp;immunity&nbsp;to&nbsp;all&nbsp;figments&nbsp;and&nbsp;glamers&nbsp;(such&nbsp;as&nbsp;invisibility).&nbsp;Moreover,&nbsp;your&nbsp;visual-based&nbsp;Perception&nbsp;checks&nbsp;receive&nbsp;a&nbsp;+6&nbsp;enhancement&nbsp;bonus&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power.&nbsp;This&nbsp;power&nbsp;also&nbsp;grants&nbsp;you&nbsp;another&nbsp;saving&nbsp;throw&nbsp;against&nbsp;someone&nbsp;using&nbsp;false&nbsp;sensory&nbsp;input&nbsp;on&nbsp;you,&nbsp;but&nbsp;you&nbsp;must&nbsp;realize&nbsp;that&nbsp;that&nbsp;power&nbsp;has&nbsp;been&nbsp;used&nbsp;in&nbsp;order&nbsp;to&nbsp;know&nbsp;enough&nbsp;to&nbsp;manifest&nbsp;steadfast&nbsp;perception.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      cryptic: 4
+      empath: 5
+      gifted blade: 4
+      marksman: 4
+      psychic warrior: 4
+      sighted seeker: 4
+      thug: 4
+      voyager: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '146'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '247'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '56'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

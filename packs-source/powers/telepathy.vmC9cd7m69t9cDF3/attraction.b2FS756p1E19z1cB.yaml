@@ -1,0 +1,78 @@
+_id: b2FS756p1E19z1cB
+_key: '!items!b2FS756p1E19z1cB'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Attraction
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Attraction
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: hour
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>You&nbsp;plant&nbsp;a&nbsp;compelling&nbsp;attraction&nbsp;in&nbsp;the&nbsp;mind&nbsp;of&nbsp;the&nbsp;subject.&nbsp;The&nbsp;attraction&nbsp;can&nbsp;be&nbsp;toward&nbsp;a&nbsp;particular&nbsp;person&nbsp;or&nbsp;an&nbsp;object.&nbsp;The&nbsp;subject&nbsp;will&nbsp;take&nbsp;reasonable&nbsp;steps&nbsp;to&nbsp;meet,&nbsp;get&nbsp;close&nbsp;to,&nbsp;attend,&nbsp;or&nbsp;find&nbsp;the&nbsp;object&nbsp;of&nbsp;its&nbsp;implanted&nbsp;attraction.&nbsp;For&nbsp;the&nbsp;purpose&nbsp;of&nbsp;this&nbsp;power,&nbsp;"reasonable"&nbsp;means&nbsp;that,&nbsp;while&nbsp;attracted,&nbsp;the&nbsp;subject&nbsp;doesn't&nbsp;suffer&nbsp;from&nbsp;blind&nbsp;obsession.&nbsp;He&nbsp;will&nbsp;act&nbsp;on&nbsp;this&nbsp;attraction&nbsp;only&nbsp;when&nbsp;not&nbsp;engaged&nbsp;in&nbsp;combat.&nbsp;The&nbsp;subject&nbsp;won't&nbsp;perform&nbsp;obviously&nbsp;suicidal&nbsp;actions.&nbsp;He&nbsp;can&nbsp;still&nbsp;recognize&nbsp;danger&nbsp;but&nbsp;will&nbsp;not&nbsp;flee&nbsp;unless&nbsp;the&nbsp;threat&nbsp;is&nbsp;immediate.&nbsp;If&nbsp;you&nbsp;make&nbsp;the&nbsp;subject&nbsp;feel&nbsp;an&nbsp;attraction&nbsp;to&nbsp;yourself,&nbsp;you&nbsp;can't&nbsp;command&nbsp;him&nbsp;indiscriminately,&nbsp;although&nbsp;he&nbsp;will&nbsp;be&nbsp;willing&nbsp;to&nbsp;listen&nbsp;to&nbsp;you&nbsp;(even&nbsp;if&nbsp;he&nbsp;disagrees).&nbsp;This&nbsp;power&nbsp;grants&nbsp;you&nbsp;a&nbsp;+4&nbsp;bonus&nbsp;on&nbsp;any&nbsp;interaction&nbsp;checks&nbsp;you&nbsp;make&nbsp;involving&nbsp;the&nbsp;subject&nbsp;(such&nbsp;as&nbsp;Bluff,&nbsp;Diplomacy,&nbsp;Intimidate,&nbsp;and&nbsp;Sense&nbsp;Motive).
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1&nbsp;and&nbsp;the&nbsp;bonus&nbsp;on&nbsp;interaction&nbsp;checks&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      empath: 1
+      gambler: 1
+      psion: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: 78–79
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '163'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '29'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline:
+    - charm
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

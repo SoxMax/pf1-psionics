@@ -1,5 +1,7 @@
 _id: MdXPw2y2wHIfVDTS
 _key: '!items!MdXPw2y2wHIfVDTS'
+_stats:
+  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Advanced_Gladiator_Path
@@ -35,15 +37,11 @@ system:
   showInQuickbar: false
   simple: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: 6–7
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Psychic Warrior II'
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: 34–37
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Compilation II'

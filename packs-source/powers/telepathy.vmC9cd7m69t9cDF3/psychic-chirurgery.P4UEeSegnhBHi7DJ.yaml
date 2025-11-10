@@ -1,0 +1,77 @@
+_id: P4UEeSegnhBHi7DJ
+_key: '!items!P4UEeSegnhBHi7DJ'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Psychic_Chirurgery
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Psychic Chirurgery
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 10
+        type: minute
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;repair&nbsp;psychic&nbsp;damage&nbsp;or&nbsp;grant&nbsp;another&nbsp;creature&nbsp;knowledge&nbsp;of&nbsp;powers&nbsp;you&nbsp;know,&nbsp;depending&nbsp;on&nbsp;the&nbsp;version&nbsp;of&nbsp;this&nbsp;power&nbsp;you&nbsp;manifest.
+
+      </p><ul><li><em>Repair&nbsp;Psychic&nbsp;Damage:</em>&nbsp;You&nbsp;can&nbsp;remove&nbsp;any&nbsp;compulsions&nbsp;and&nbsp;charms&nbsp;affecting&nbsp;the&nbsp;subject.&nbsp;In&nbsp;fact,&nbsp;you&nbsp;can&nbsp;remove&nbsp;any&nbsp;instantaneous&nbsp;or&nbsp;permanent&nbsp;effect&nbsp;caused&nbsp;by&nbsp;a&nbsp;mindaffecting&nbsp;power&nbsp;or&nbsp;spell&nbsp;with&nbsp;psychic&nbsp;chirurgery.&nbsp;Unlike&nbsp;with&nbsp;aura&nbsp;alteration,&nbsp;these&nbsp;effects&nbsp;end&nbsp;or&nbsp;are&nbsp;negated&nbsp;as&nbsp;soon&nbsp;as&nbsp;this&nbsp;power&nbsp;is&nbsp;manifested,&nbsp;with&nbsp;no&nbsp;need&nbsp;for&nbsp;another&nbsp;saving&nbsp;throw.</li></ul>
+
+      <ul><li>You&nbsp;can&nbsp;remove&nbsp;all&nbsp;negative&nbsp;levels&nbsp;(but&nbsp;see&nbsp;below)&nbsp;affecting&nbsp;the&nbsp;subject,&nbsp;regardless&nbsp;of&nbsp;how&nbsp;it&nbsp;received&nbsp;them,&nbsp;restoring&nbsp;it&nbsp;to&nbsp;the&nbsp;highest&nbsp;level&nbsp;it&nbsp;had&nbsp;previously&nbsp;attained.&nbsp;Permanent&nbsp;negative&nbsp;levels&nbsp;caused&nbsp;by&nbsp;energy&nbsp;drain&nbsp;or&nbsp;a&nbsp;similar&nbsp;effect,&nbsp;however,&nbsp;may&nbsp;only&nbsp;be&nbsp;cured&nbsp;if&nbsp;the&nbsp;effect&nbsp;occurred&nbsp;within&nbsp;a&nbsp;number&nbsp;of&nbsp;hours&nbsp;equal&nbsp;to&nbsp;your&nbsp;manifester&nbsp;level.</li></ul>
+
+      <ul><li>You&nbsp;can&nbsp;also&nbsp;remove&nbsp;all&nbsp;psionic&nbsp;effects&nbsp;penalizing&nbsp;the&nbsp;subject's&nbsp;ability&nbsp;scores,&nbsp;heal&nbsp;all&nbsp;ability&nbsp;damage,&nbsp;and&nbsp;remove&nbsp;any&nbsp;ability&nbsp;drain&nbsp;affecting&nbsp;the&nbsp;subject.&nbsp;Psychic&nbsp;chirurgery&nbsp;negates&nbsp;all&nbsp;forms&nbsp;of&nbsp;insanity,&nbsp;confusion,&nbsp;the&nbsp;effect&nbsp;of&nbsp;such&nbsp;powers&nbsp;as&nbsp;microcosm,&nbsp;and&nbsp;so&nbsp;on,&nbsp;but&nbsp;it&nbsp;does&nbsp;not&nbsp;restore&nbsp;permanent&nbsp;negative&nbsp;levels&nbsp;due&nbsp;to&nbsp;death.</li></ul>
+
+      <ul><li><em>Transfer&nbsp;Knowledge:</em>&nbsp;If&nbsp;desired,&nbsp;you&nbsp;can&nbsp;use&nbsp;this&nbsp;power&nbsp;to&nbsp;directly&nbsp;transfer&nbsp;knowledge&nbsp;of&nbsp;a&nbsp;power&nbsp;you&nbsp;know&nbsp;to&nbsp;another&nbsp;psionic&nbsp;character.&nbsp;You&nbsp;can&nbsp;give&nbsp;a&nbsp;character&nbsp;knowledge&nbsp;of&nbsp;a&nbsp;power&nbsp;of&nbsp;any&nbsp;level&nbsp;that&nbsp;she&nbsp;can&nbsp;manifest,&nbsp;even&nbsp;if&nbsp;the&nbsp;power&nbsp;is&nbsp;not&nbsp;normally&nbsp;on&nbsp;the&nbsp;character's&nbsp;power&nbsp;list,&nbsp;but&nbsp;a&nbsp;character&nbsp;is&nbsp;limited&nbsp;to&nbsp;gaining&nbsp;a&nbsp;number&nbsp;of&nbsp;powers&nbsp;equal&nbsp;to&nbsp;her&nbsp;key&nbsp;ability&nbsp;modifier.&nbsp;Knowledge&nbsp;of&nbsp;powers&nbsp;gained&nbsp;through&nbsp;psychic&nbsp;chirurgery&nbsp;does&nbsp;not&nbsp;count&nbsp;toward&nbsp;the&nbsp;maximum&nbsp;number&nbsp;of&nbsp;powers&nbsp;a&nbsp;character&nbsp;can&nbsp;know&nbsp;per&nbsp;level.</li></ul>
+
+      <ul><li>Each&nbsp;time&nbsp;you&nbsp;use&nbsp;psychic&nbsp;chirurgery&nbsp;to&nbsp;implant&nbsp;knowledge&nbsp;of&nbsp;a&nbsp;power&nbsp;in&nbsp;another&nbsp;creature,&nbsp;you&nbsp;suffer&nbsp;ability&nbsp;burn&nbsp;to&nbsp;your&nbsp;key&nbsp;ability&nbsp;score&nbsp;equal&nbsp;to&nbsp;the&nbsp;level&nbsp;of&nbsp;the&nbsp;power&nbsp;implanted.&nbsp;If&nbsp;you&nbsp;and&nbsp;the&nbsp;subject&nbsp;are&nbsp;both&nbsp;willing&nbsp;to&nbsp;do&nbsp;so,&nbsp;you&nbsp;can&nbsp;split&nbsp;this&nbsp;damage&nbsp;evenly.&nbsp;You&nbsp;cannot&nbsp;manifest&nbsp;psychic&nbsp;chirurgery&nbsp;to&nbsp;bestow&nbsp;knowledge&nbsp;of&nbsp;a&nbsp;power&nbsp;if&nbsp;you&nbsp;are&nbsp;currently&nbsp;suffering&nbsp;ability&nbsp;burn&nbsp;to&nbsp;your&nbsp;key&nbsp;ability&nbsp;score,&nbsp;nor&nbsp;can&nbsp;psychic&nbsp;chirurgery&nbsp;be&nbsp;used&nbsp;to&nbsp;bestow&nbsp;knowledge&nbsp;of&nbsp;a&nbsp;power&nbsp;to&nbsp;a&nbsp;creature&nbsp;currently&nbsp;suffering&nbsp;from&nbsp;ability&nbsp;burn&nbsp;to&nbsp;their&nbsp;key&nbsp;ability&nbsp;score.</li></ul>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: true
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      telepath: 9
+      vitalist: 9
+  level: 9
+  manifestTime:
+    units: minute
+    value: 10
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '136'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 233–234
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '51'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

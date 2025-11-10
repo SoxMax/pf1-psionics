@@ -1,0 +1,77 @@
+_id: r37lGXXCF1csQzMO
+_key: '!items!r37lGXXCF1csQzMO'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Detect_Teleportation
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Detect Teleportation
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: line
+        units: ft
+        value: '40'
+      duration:
+        concentration: true
+        dismiss: true
+        units: conc
+        value: up to 1 minute (D)
+      name: Use
+      range:
+        units: ft
+        value: 40 ft.
+      save:
+        description: None
+      target:
+        value: 40-ft.-radius emanation centered on you
+  description:
+    value: >-
+      <p>You&nbsp;sense&nbsp;the&nbsp;use&nbsp;of&nbsp;any&nbsp;effects&nbsp;of&nbsp;the&nbsp;teleportation&nbsp;subdiscipline&nbsp;within&nbsp;the&nbsp;area.&nbsp;You&nbsp;sense&nbsp;the&nbsp;use&nbsp;of&nbsp;these&nbsp;powers&nbsp;whether&nbsp;or&nbsp;not&nbsp;you&nbsp;have&nbsp;line&nbsp;of&nbsp;sight&nbsp;or&nbsp;line&nbsp;of&nbsp;effect&nbsp;(although&nbsp;a&nbsp;force&nbsp;effect&nbsp;prevents&nbsp;this&nbsp;detection).
+
+      </p>
+
+      <p>When&nbsp;you&nbsp;sense&nbsp;the&nbsp;use&nbsp;of&nbsp;an&nbsp;appropriate&nbsp;power,&nbsp;you&nbsp;know&nbsp;the&nbsp;direction&nbsp;in&nbsp;which&nbsp;the&nbsp;power&nbsp;was&nbsp;used,&nbsp;though&nbsp;not&nbsp;the&nbsp;distance&nbsp;or&nbsp;the&nbsp;exact&nbsp;effect.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power's&nbsp;range&nbsp;increases&nbsp;to&nbsp;Medium&nbsp;(100&nbsp;ft.&nbsp;+&nbsp;10&nbsp;ft./level).
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      nomad: 1
+      sighted seeker: 1
+      voyager: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '95'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '183'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

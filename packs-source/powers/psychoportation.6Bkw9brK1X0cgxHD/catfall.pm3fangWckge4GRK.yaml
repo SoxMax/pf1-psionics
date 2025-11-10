@@ -1,0 +1,77 @@
+_id: pm3fangWckge4GRK
+_key: '!items!pm3fangWckge4GRK'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Catfall
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Catfall
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: immediate
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;recover&nbsp;instantly&nbsp;from&nbsp;a&nbsp;fall&nbsp;and&nbsp;can&nbsp;absorb&nbsp;some&nbsp;damage&nbsp;from&nbsp;falling.&nbsp;You&nbsp;land&nbsp;on&nbsp;your&nbsp;feet&nbsp;no&nbsp;matter&nbsp;how&nbsp;far&nbsp;you&nbsp;fall,&nbsp;and&nbsp;you&nbsp;take&nbsp;damage&nbsp;as&nbsp;if&nbsp;the&nbsp;fall&nbsp;were&nbsp;50&nbsp;feet&nbsp;shorter&nbsp;than&nbsp;it&nbsp;actually&nbsp;is.&nbsp;This&nbsp;power&nbsp;affects&nbsp;you&nbsp;and&nbsp;anything&nbsp;you&nbsp;carry&nbsp;or&nbsp;hold&nbsp;(up&nbsp;to&nbsp;your&nbsp;maximum&nbsp;load).&nbsp;You&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;with&nbsp;an&nbsp;instant&nbsp;thought,&nbsp;quickly&nbsp;enough&nbsp;to&nbsp;gain&nbsp;the&nbsp;benefit&nbsp;of&nbsp;the&nbsp;power&nbsp;while&nbsp;you&nbsp;fall.&nbsp;You
+
+      can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;even&nbsp;when&nbsp;it&nbsp;isn't&nbsp;your&nbsp;turn.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;reduces&nbsp;your&nbsp;damage&nbsp;as&nbsp;if&nbsp;the&nbsp;fall&nbsp;were&nbsp;an&nbsp;additional&nbsp;50&nbsp;feet&nbsp;shorter.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      gambler: 1
+      marksman: 1
+      psion: 1
+      psychic warrior: 1
+      thug: 1
+      voyager: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: immediate
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '84'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '170'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '32'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

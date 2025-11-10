@@ -1,0 +1,25 @@
+_id: t9WemcX7pi8NOh1I
+_key: '!items!t9WemcX7pi8NOh1I'
+_stats:
+  coreVersion: '13.350'
+folder: R7AoIomzfNGuWBKp
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Trap Foresight
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: >-
+      <p>A&nbsp;voyager&nbsp;can&nbsp;use&nbsp;Disable&nbsp;Device&nbsp;to&nbsp;disarm&nbsp;magic&nbsp;traps&nbsp;like&nbsp;a&nbsp;rogue,&nbsp;and&nbsp;whenever&nbsp;she&nbsp;uses&nbsp;the&nbsp;Disable&nbsp;Device&nbsp;skill,&nbsp;she&nbsp;can&nbsp;expend&nbsp;her&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;roll&nbsp;twice&nbsp;and&nbsp;take&nbsp;the&nbsp;higher&nbsp;of&nbsp;the&nbsp;two&nbsp;rolls.&nbsp;If&nbsp;the&nbsp;voyager&nbsp;could&nbsp;take&nbsp;10&nbsp;on&nbsp;the&nbsp;check,&nbsp;she&nbsp;can&nbsp;choose&nbsp;to&nbsp;use&nbsp;this&nbsp;ability&nbsp;to&nbsp;take&nbsp;10&nbsp;with&nbsp;one&nbsp;die&nbsp;and&nbsp;roll&nbsp;the&nbsp;other&nbsp;die&nbsp;(using&nbsp;the&nbsp;higher&nbsp;result).
+
+      </p><p></p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
+  subType: classFeat
+  tag: trap-foresight
+type: feat

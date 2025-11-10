@@ -1,0 +1,33 @@
+_id: Gnmdh2UzGcEwoPS5
+_key: '!items!Gnmdh2UzGcEwoPS5'
+_stats:
+  coreVersion: '13.350'
+folder: L0vW1FntHTBcf2PV
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Martial Power
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Psychic Warrior
+  description:
+    value: >-
+      <p>At&nbsp;6th&nbsp;level,&nbsp;if&nbsp;the&nbsp;psychic&nbsp;warrior&nbsp;makes&nbsp;an&nbsp;attack&nbsp;(but&nbsp;not&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack),&nbsp;he&nbsp;can&nbsp;manifest&nbsp;one&nbsp;of&nbsp;his&nbsp;path&nbsp;powers&nbsp;as&nbsp;part&nbsp;of&nbsp;that&nbsp;attack&nbsp;action.&nbsp;The&nbsp;power&nbsp;takes&nbsp;effect&nbsp;immediately&nbsp;after&nbsp;the&nbsp;attack&nbsp;has&nbsp;been&nbsp;finished.&nbsp;Touch&nbsp;range&nbsp;powers&nbsp;are&nbsp;transmitted&nbsp;through&nbsp;the&nbsp;melee&nbsp;attack&nbsp;to&nbsp;the&nbsp;attacked&nbsp;target.&nbsp;You&nbsp;gain&nbsp;the&nbsp;benefits&nbsp;of&nbsp;the&nbsp;power&nbsp;on&nbsp;the&nbsp;attack&nbsp;made,&nbsp;even&nbsp;if&nbsp;the&nbsp;power&nbsp;is&nbsp;what&nbsp;grants&nbsp;the&nbsp;weapon&nbsp;to&nbsp;make&nbsp;the&nbsp;attack.&nbsp;You&nbsp;may&nbsp;only&nbsp;activate&nbsp;a&nbsp;path&nbsp;power&nbsp;in&nbsp;this&nbsp;fashion&nbsp;once&nbsp;per&nbsp;round.
+
+      </p><p></p>
+  sources:
+    - date: '2010-08-01'
+      pages: 25–27
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2010-01-01'
+      pages: 29–31
+      publisher: Dreamscarred Press
+      title: 'Psionics Unleashed: Revised'
+    - date: '2013-12-24'
+      pages: 53–55
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: martial-power
+type: feat

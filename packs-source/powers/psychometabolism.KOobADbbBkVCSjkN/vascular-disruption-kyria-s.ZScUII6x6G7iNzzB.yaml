@@ -1,0 +1,81 @@
+_id: ZScUII6x6G7iNzzB
+_key: '!items!ZScUII6x6G7iNzzB'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Vascular_Disruption,_Kyria's
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Vascular Disruption, Kyria's
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '20'
+      damage:
+        parts:
+          - - 9d6
+            - force
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. plus 10 ft. per level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude partial
+        type: fort
+      target:
+        value: 1 creature
+  description:
+    value: >-
+      <p>You&nbsp;violently&nbsp;disturb&nbsp;your&nbsp;victim's&nbsp;vascular&nbsp;system,&nbsp;sending&nbsp;an&nbsp;eruption&nbsp;of&nbsp;gooey&nbsp;blood&nbsp;from&nbsp;their&nbsp;body.&nbsp;Your&nbsp;victim&nbsp;suffers&nbsp;9d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;and&nbsp;erupts&nbsp;in&nbsp;a&nbsp;20&nbsp;ft.&nbsp;burst&nbsp;of&nbsp;blood.&nbsp;Creatures&nbsp;within&nbsp;the&nbsp;burst&nbsp;(including&nbsp;the&nbsp;victim)&nbsp;become&nbsp;entangled&nbsp;for&nbsp;1&nbsp;round/level&nbsp;as&nbsp;the&nbsp;blood&nbsp;congeals&nbsp;into&nbsp;a&nbsp;web-like&nbsp;mass&nbsp;that&nbsp;constricts&nbsp;their&nbsp;movement.&nbsp;A&nbsp;successful&nbsp;Fortitude&nbsp;save&nbsp;halves&nbsp;the&nbsp;damage&nbsp;and&nbsp;prevents&nbsp;the&nbsp;burst&nbsp;of&nbsp;blood.&nbsp;Creatures&nbsp;without&nbsp;blood&nbsp;or&nbsp;an&nbsp;equivalent&nbsp;bodily&nbsp;fluid&nbsp;(including,&nbsp;but&nbsp;not&nbsp;limited&nbsp;to,&nbsp;most&nbsp;forms&nbsp;of&nbsp;undead,&nbsp;constructs,&nbsp;and&nbsp;elementals)&nbsp;are&nbsp;immune&nbsp;to&nbsp;the&nbsp;effects&nbsp;of&nbsp;this&nbsp;power.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;1&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;damage&nbsp;increases&nbsp;by&nbsp;one&nbsp;die&nbsp;(d6).&nbsp;For&nbsp;each&nbsp;two&nbsp;extra&nbsp;dice&nbsp;of&nbsp;damage,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;eruption&nbsp;of&nbsp;blood&nbsp;occurs&nbsp;even&nbsp;if&nbsp;the&nbsp;victim&nbsp;succeeds&nbsp;at&nbsp;their&nbsp;saving&nbsp;throw.</li></ol>
+
+      <p><strong>Surge&nbsp;Augmentation:</strong>&nbsp;If&nbsp;you&nbsp;invoke&nbsp;your&nbsp;wild&nbsp;surge&nbsp;while&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;you&nbsp;may&nbsp;affect&nbsp;creatures&nbsp;that&nbsp;do&nbsp;not&nbsp;have&nbsp;blood&nbsp;or&nbsp;equivalent&nbsp;bodily&nbsp;fluids;&nbsp;you&nbsp;convert&nbsp;part&nbsp;of&nbsp;their&nbsp;form&nbsp;to&nbsp;liquid&nbsp;and&nbsp;force&nbsp;it&nbsp;outward.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      cryptic: 5
+      dread: 5
+      psion: 6
+      wilder: 6
+  level: 5
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '53'
+      publisher: Dreamscarred Press
+      title: Lords of the Night
+    - date: '2010-01-01'
+      pages: '76'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,77 @@
+_id: ZKyjK8EyW1LH18ry
+_key: '!items!ZKyjK8EyW1LH18ry'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Chameleon
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Chameleon
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: minute
+        value: 10 * @cl
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>Your&nbsp;skin&nbsp;and&nbsp;equipment&nbsp;take&nbsp;on&nbsp;the&nbsp;color&nbsp;and&nbsp;texture&nbsp;of&nbsp;nearby&nbsp;objects,&nbsp;including&nbsp;floors&nbsp;and&nbsp;walls.&nbsp;You&nbsp;receive&nbsp;a&nbsp;+10&nbsp;enhancement&nbsp;bonus&nbsp;on&nbsp;Stealth&nbsp;checks.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;two&nbsp;additional&nbsp;power&nbsp;points&nbsp;spent,&nbsp;the&nbsp;enhancement&nbsp;bonus&nbsp;on&nbsp;Stealth&nbsp;checks&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: true
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      cryptic: 1
+      egoist: 2
+      gifted blade: 1
+      marksman: 1
+      psychic warrior: 1
+      sighted seeker: 1
+      thug: 1
+      voyager: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '84'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '170'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '32'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

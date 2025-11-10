@@ -45,16 +45,29 @@
       "sorting": "a",
       "color": "#6a5acd",
       "packs": [
-        "powers",
-        "feats"
+        "class-abilities",
+        "classes",
+        "feats",
+        "powers"
       ]
     }
   ],
   "packs": [
     {
-      "name": "powers",
-      "label": "Psionic Powers",
-      "path": "packs/powers",
+      "name": "class-abilities",
+      "label": "Psionic Class Abilities",
+      "path": "packs/class-abilities",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "classes",
+      "label": "Psionic Classes",
+      "path": "packs/classes",
       "type": "Item",
       "system": "pf1",
       "ownership": {
@@ -66,6 +79,17 @@
       "name": "feats",
       "label": "Psionic Feats",
       "path": "packs/feats",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "powers",
+      "label": "Psionic Powers",
+      "path": "packs/powers",
       "type": "Item",
       "system": "pf1",
       "ownership": {

@@ -1,0 +1,72 @@
+_id: 3lPDMzNaueXp431P
+_key: '!items!3lPDMzNaueXp431P'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Augured_Answer
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Augured Answer
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 10
+        type: minute
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;predict&nbsp;a&nbsp;useful&nbsp;piece&nbsp;of&nbsp;advice&nbsp;in&nbsp;reply&nbsp;to&nbsp;a&nbsp;question&nbsp;concerning&nbsp;a&nbsp;specific&nbsp;goal,&nbsp;event,&nbsp;or&nbsp;activity&nbsp;that&nbsp;is&nbsp;to&nbsp;occur&nbsp;within&nbsp;1&nbsp;week.&nbsp;The&nbsp;advice&nbsp;augured&nbsp;can&nbsp;be&nbsp;as&nbsp;simple&nbsp;as&nbsp;a&nbsp;short&nbsp;phrase,&nbsp;or&nbsp;it&nbsp;might&nbsp;take&nbsp;the&nbsp;form&nbsp;of&nbsp;a&nbsp;cryptic&nbsp;rhyme&nbsp;or&nbsp;omen.&nbsp;If&nbsp;your&nbsp;party&nbsp;doesn't&nbsp;act&nbsp;on&nbsp;the&nbsp;information,&nbsp;the&nbsp;conditions&nbsp;may&nbsp;change&nbsp;so&nbsp;that&nbsp;the&nbsp;information&nbsp;is&nbsp;no&nbsp;longer&nbsp;useful.&nbsp;The&nbsp;base&nbsp;chance&nbsp;for&nbsp;a&nbsp;correct&nbsp;answer&nbsp;is&nbsp;70%&nbsp;+&nbsp;1%&nbsp;per&nbsp;manifester&nbsp;level,&nbsp;to&nbsp;a&nbsp;maximum&nbsp;of&nbsp;90%.&nbsp;If&nbsp;the&nbsp;die&nbsp;roll&nbsp;fails,&nbsp;you&nbsp;know&nbsp;the&nbsp;attempt&nbsp;failed,&nbsp;unless&nbsp;specific&nbsp;effects&nbsp;yielding&nbsp;false&nbsp;information&nbsp;are&nbsp;at&nbsp;work.
+
+      </p>
+
+      <p>Multiple&nbsp;attempts&nbsp;about&nbsp;the&nbsp;same&nbsp;topic&nbsp;by&nbsp;the&nbsp;same&nbsp;manifester&nbsp;use&nbsp;the&nbsp;same&nbsp;dice&nbsp;result&nbsp;as&nbsp;the&nbsp;first&nbsp;attempt&nbsp;and&nbsp;yield&nbsp;the&nbsp;same&nbsp;answer&nbsp;each&nbsp;time.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      empath: 4
+      psion: 4
+      sighted seeker: 4
+      voyager: 4
+      wilder: 4
+  level: 4
+  manifestTime:
+    units: minute
+    value: 10
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '79'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '163'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '29'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

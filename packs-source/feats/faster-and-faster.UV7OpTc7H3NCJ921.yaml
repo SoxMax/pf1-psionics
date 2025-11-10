@@ -1,5 +1,7 @@
 _id: UV7OpTc7H3NCJ921
 _key: '!items!UV7OpTc7H3NCJ921'
+_stats:
+  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Faster_and_Faster
@@ -35,9 +37,7 @@ system:
   showInQuickbar: false
   simple: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '18'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Voyager'

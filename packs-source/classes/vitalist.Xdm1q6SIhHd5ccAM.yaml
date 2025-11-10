@@ -1,0 +1,136 @@
+_id: Xdm1q6SIhHd5ccAM
+_key: '!items!Xdm1q6SIhHd5ccAM'
+_stats:
+  coreVersion: '13.350'
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Vitalist
+system:
+  armorProf:
+    - lgt
+  bab: low
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: true
+    apr: false
+    art: false
+    blf: true
+    clm: false
+    crf: true
+    dev: false
+    dip: true
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: true
+    int: true
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: true
+    klo: true
+    kna: false
+    kno: false
+    kpl: false
+    kps: true
+    kre: false
+    lin: true
+    lor: false
+    per: true
+    prf: true
+    pro: true
+    rid: false
+    sen: true
+    slt: false
+    spl: true
+    ste: false
+    sur: true
+    swm: false
+    umd: false
+  description:
+    value: >-
+      </p><p>Where&nbsp;the&nbsp;egoist&nbsp;is&nbsp;the&nbsp;master&nbsp;of&nbsp;his&nbsp;own&nbsp;body&nbsp;through&nbsp;the&nbsp;power&nbsp;of&nbsp;psychometabolism,&nbsp;vitalists&nbsp;blend&nbsp;the&nbsp;disciplines&nbsp;of&nbsp;telepathy,&nbsp;psychometabolism,&nbsp;and&nbsp;clairsentience&nbsp;to&nbsp;pool&nbsp;multiple&nbsp;creatures&nbsp;into&nbsp;a&nbsp;larger&nbsp;collective&nbsp;of&nbsp;beings,&nbsp;sharing&nbsp;the&nbsp;health&nbsp;of&nbsp;the&nbsp;many&nbsp;to&nbsp;keep&nbsp;each&nbsp;individual&nbsp;well.&nbsp;They&nbsp;are&nbsp;the&nbsp;masters&nbsp;of&nbsp;psionic&nbsp;healing,&nbsp;distributing&nbsp;regenerative&nbsp;energy&nbsp;with&nbsp;the&nbsp;precision&nbsp;of&nbsp;a&nbsp;surgeon.&nbsp;A&nbsp;vitalist's&nbsp;psionic&nbsp;powers&nbsp;and&nbsp;his&nbsp;collective&nbsp;are&nbsp;his&nbsp;most&nbsp;vital&nbsp;abilities.&nbsp;</p><p><b>Role:</b>&nbsp;Regardless&nbsp;of&nbsp;their&nbsp;chosen&nbsp;method,&nbsp;all&nbsp;vitalists&nbsp;can&nbsp;act&nbsp;as&nbsp;the&nbsp;party&nbsp;medic:&nbsp;healing&nbsp;wounds,&nbsp;curing&nbsp;ailments,&nbsp;and&nbsp;augmenting&nbsp;the&nbsp;physical&nbsp;form.&nbsp;The&nbsp;method&nbsp;in&nbsp;which&nbsp;they&nbsp;perform&nbsp;this&nbsp;role&nbsp;varies&nbsp;from&nbsp;vitalist&nbsp;to&nbsp;vitalist.&nbsp;As&nbsp;light&nbsp;armor&nbsp;wearers&nbsp;with&nbsp;minimal&nbsp;combat&nbsp;skill,&nbsp;vitalists&nbsp;are&nbsp;typically&nbsp;not&nbsp;found&nbsp;on&nbsp;the&nbsp;front&nbsp;line&nbsp;of&nbsp;battle.&nbsp;Helping&nbsp;his&nbsp;allies&nbsp;–&nbsp;whether&nbsp;by&nbsp;healing&nbsp;them&nbsp;or&nbsp;making&nbsp;your&nbsp;enemies&nbsp;weaker&nbsp;–&nbsp;is&nbsp;what&nbsp;a&nbsp;vitalist&nbsp;does&nbsp;best.&nbsp;</p><p><b>Alignment:</b>&nbsp;Any.&nbsp;</p><p><b>Hit&nbsp;Die:</b>&nbsp;d6.&nbsp;</p><p><b>Starting&nbsp;Wealth:</b>&nbsp;4d4&nbsp;x&nbsp;10&nbsp;gp&nbsp;(average&nbsp;100&nbsp;gp.)&nbsp;In&nbsp;addition,&nbsp;each&nbsp;character&nbsp;begins&nbsp;play&nbsp;with&nbsp;an&nbsp;outfit&nbsp;worth&nbsp;10&nbsp;gp&nbsp;or&nbsp;less.&nbsp;</p><p><b>Class&nbsp;Skills:&nbsp;</b>The&nbsp;vitalist's&nbsp;class&nbsp;skills&nbsp;are&nbsp;Autohypnosis,&nbsp;Bluff,&nbsp;Craft,&nbsp;Diplomacy,&nbsp;Heal,&nbsp;Intimidate,&nbsp;Knowledge&nbsp;(history),&nbsp;Knowledge&nbsp;(local),&nbsp;Knowledge&nbsp;(psionics),&nbsp;Linguistics,&nbsp;Perception,&nbsp;Perform,&nbsp;Profession,&nbsp;Sense&nbsp;Motive,&nbsp;Spellcraft,&nbsp;and&nbsp;Survival.&nbsp;</p><p><b>Skill&nbsp;Ranks&nbsp;per&nbsp;Level:</b>&nbsp;2&nbsp;+&nbsp;Int&nbsp;modifier.&nbsp;</p>
+  fc:
+    alt:
+      value: 0
+    hp:
+      value: 0
+    skill:
+      value: 0
+  hd: 6
+  hp: 6
+  level: 1
+  links:
+    classAssociations:
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.7HTV8WKe9y0TuQBh
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.O5wydThxObTle9t5
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.gWn1nu9A0J8mO5iY
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.W3F0kt4PiWK0prNk
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.WVM5DkZ1kA3aA8Xy
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.0MiFhMuUbg8i9xfM
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.EyUSjihHsTUO3q4o
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.pFMIVq3xo22hOPqh
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.c0jAirjYfDDZxldq
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.2YTvZiMQWo23b4ep
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.lFAbUoMrJjqm0zPJ
+      - level: 5
+        uuid: Compendium.pf1-psionics.class-abilities.Item.uUVT8Uq6TGsFyxL2
+      - level: 6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.lsGbQFpM5Qb03nOb
+      - level: 8
+        uuid: Compendium.pf1-psionics.class-abilities.Item.qAH4OUxKseX2wQe6
+      - level: 9
+        uuid: Compendium.pf1-psionics.class-abilities.Item.6P9Euzk5vjaHCCY7
+      - level: 14
+        uuid: Compendium.pf1-psionics.class-abilities.Item.5Ec2QvQppLOhR9Er
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.P2b65bhJxQZ6ULK7
+  manifesting:
+    ability: wis
+    cantrips: true
+    progression: high
+  savingThrows:
+    fort:
+      value: high
+    ref:
+      value: low
+    will:
+      value: high
+  skillsPerLevel: 2
+  sources:
+    - date: '2012-07-23'
+      pages: 57–61
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 69–72
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: base
+  tag: vitalist
+  wealth: 4d4 * 10
+  weaponProf:
+    - simple
+type: class

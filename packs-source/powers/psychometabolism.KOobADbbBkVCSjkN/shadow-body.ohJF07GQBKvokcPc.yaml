@@ -1,0 +1,87 @@
+_id: ohJF07GQBKvokcPc
+_key: '!items!ohJF07GQBKvokcPc'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Shadow_Body
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Shadow Body
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>Your&nbsp;body&nbsp;and&nbsp;all&nbsp;your&nbsp;equipment&nbsp;are&nbsp;subsumed&nbsp;by&nbsp;your&nbsp;shadow.&nbsp;As&nbsp;a&nbsp;living&nbsp;shadow,&nbsp;you&nbsp;blend&nbsp;perfectly&nbsp;into&nbsp;any&nbsp;other&nbsp;shadow&nbsp;and&nbsp;vanish&nbsp;in&nbsp;darkness.&nbsp;You&nbsp;appear&nbsp;as&nbsp;an&nbsp;unattached&nbsp;shadow&nbsp;in&nbsp;areas&nbsp;of&nbsp;full&nbsp;light.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;move&nbsp;at&nbsp;your&nbsp;normal&nbsp;speed,&nbsp;on&nbsp;any&nbsp;surface,&nbsp;including&nbsp;walls&nbsp;and&nbsp;ceilings,&nbsp;as&nbsp;well&nbsp;as&nbsp;across&nbsp;the&nbsp;surfaces&nbsp;of&nbsp;liquids—even&nbsp;up&nbsp;the&nbsp;face&nbsp;of&nbsp;a&nbsp;waterfall.
+
+      </p>
+
+      <p>Your&nbsp;space&nbsp;does&nbsp;not&nbsp;change,&nbsp;so&nbsp;you&nbsp;cannot&nbsp;move&nbsp;into&nbsp;locations&nbsp;you&nbsp;would&nbsp;not&nbsp;normally&nbsp;be&nbsp;able&nbsp;to&nbsp;move&nbsp;into.
+
+      </p>
+
+      <p>While&nbsp;in&nbsp;your&nbsp;shadow&nbsp;body,&nbsp;you&nbsp;gain&nbsp;damage&nbsp;reduction&nbsp;10/magic&nbsp;and&nbsp;darkvision&nbsp;out&nbsp;to&nbsp;60&nbsp;feet.&nbsp;You&nbsp;are&nbsp;immune&nbsp;to&nbsp;extra&nbsp;damage&nbsp;from&nbsp;critical&nbsp;hits,&nbsp;ability&nbsp;damage,&nbsp;disease,&nbsp;drowning,&nbsp;and&nbsp;poison.&nbsp;You&nbsp;take&nbsp;only&nbsp;half&nbsp;damage&nbsp;from&nbsp;acid,&nbsp;electricity,&nbsp;and&nbsp;fire&nbsp;of&nbsp;all&nbsp;kinds.
+
+      </p>
+
+      <p>While&nbsp;affected&nbsp;by&nbsp;this&nbsp;power,&nbsp;you&nbsp;can&nbsp;be&nbsp;detected&nbsp;by&nbsp;powers&nbsp;that&nbsp;read&nbsp;thoughts,&nbsp;life,&nbsp;or&nbsp;presences&nbsp;(including&nbsp;true&nbsp;seeing),&nbsp;or&nbsp;if&nbsp;you&nbsp;make&nbsp;suspicious&nbsp;movements&nbsp;in&nbsp;lighted&nbsp;areas.
+
+      </p>
+
+      <p>You&nbsp;cannot&nbsp;harm&nbsp;anyone&nbsp;physically&nbsp;or&nbsp;manipulate&nbsp;any&nbsp;objects,&nbsp;but&nbsp;you&nbsp;can&nbsp;use&nbsp;your&nbsp;powers&nbsp;normally.&nbsp;Doing&nbsp;so&nbsp;may&nbsp;attract&nbsp;notice,&nbsp;but&nbsp;if&nbsp;you&nbsp;remain&nbsp;in&nbsp;a&nbsp;shadowed&nbsp;area,&nbsp;you&nbsp;get&nbsp;a&nbsp;+15&nbsp;bonus&nbsp;on&nbsp;your&nbsp;Stealth&nbsp;check&nbsp;to&nbsp;remain&nbsp;unnoticed.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      psion: 8
+      wilder: 8
+  level: 8
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '144'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '243'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '55'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

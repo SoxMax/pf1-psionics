@@ -1,0 +1,75 @@
+_id: XjFBnYGwGhBF8Prs
+_key: '!items!XjFBnYGwGhBF8Prs'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Collapse
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Collapse
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude negates
+        type: fort
+      target:
+        value: One living creature
+  description:
+    value: >-
+      <p>You&nbsp;disrupt&nbsp;the&nbsp;muscles&nbsp;and&nbsp;nerves&nbsp;of&nbsp;the&nbsp;target,&nbsp;causing&nbsp;it&nbsp;to&nbsp;be&nbsp;knocked&nbsp;prone&nbsp;on&nbsp;a&nbsp;failed&nbsp;save.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;on&nbsp;a&nbsp;failed&nbsp;save&nbsp;the&nbsp;target&nbsp;is&nbsp;fatigued,&nbsp;sickened,&nbsp;or&nbsp;staggered,&nbsp;at&nbsp;your&nbsp;choice,&nbsp;for&nbsp;1&nbsp;round&nbsp;/&nbsp;level,&nbsp;in&nbsp;addition&nbsp;to&nbsp;being&nbsp;knocked&nbsp;prone.&nbsp;Multiple&nbsp;applications&nbsp;of&nbsp;this&nbsp;power&nbsp;do&nbsp;not&nbsp;cause&nbsp;the&nbsp;target&nbsp;to&nbsp;become&nbsp;exhausted.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;on&nbsp;a&nbsp;failed&nbsp;save&nbsp;the&nbsp;target&nbsp;is&nbsp;nauseated&nbsp;for&nbsp;1&nbsp;round&nbsp;/&nbsp;level,&nbsp;in&nbsp;addition&nbsp;to&nbsp;being&nbsp;knocked&nbsp;prone.</li></ol>
+
+      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;spent&nbsp;augmenting&nbsp;this&nbsp;power,&nbsp;the&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      gambler: 1
+      vitalist: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '15'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Mind Over Body'
+    - date: '2012-07-23'
+      pages: '152'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: '173'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -31,6 +31,7 @@ import {
   extractDescription,
   extractNextPageLink,
   writeYAMLPack,
+  writeItemsWithDeduplication,
   delay,
   extractCategoryLinks,
   parseSourcebooks,
@@ -229,32 +230,6 @@ function selectPowerIcon(power) {
       // Default psionic power icon
       return 'icons/magic/symbols/runes-star-magenta.webp';
   }
-}
-
-/**
- * Find existing YAML file for a power by name
- *
- * @param {string} powerName - Name of the power to find
- * @param {string} packsSourceDir - Path to packs-source/powers directory
- * @returns {string|null} - Full path to existing YAML file, or null if not found
- */
-function findExistingPowerFile(powerName, packsSourceDir) {
-  if (!fs.existsSync(packsSourceDir)) {
-    return null;
-  }
-
-  const slug = sluggify(powerName);
-  const files = fs.readdirSync(packsSourceDir);
-
-  // Look for a file matching the pattern: slug.*.yaml
-  const regex = new RegExp(`^${slug}\\..*\\.yaml$`, 'i');
-  const matchingFile = files.find(file => regex.test(file));
-
-  if (matchingFile) {
-    return join(packsSourceDir, matchingFile);
-  }
-
-  return null;
 }
 
 /**
@@ -741,86 +716,6 @@ async function scrapePowers(urls) {
   return powers;
 }
 
-/**
- * Write powers to YAML files, updating existing files or creating new ones
- */
-function writePowersWithDeduplication(powers, rootDir) {
-  const packsSourceDir = join(rootDir, 'packs-source', 'powers');
-
-  // Ensure directory exists
-  if (!fs.existsSync(packsSourceDir)) {
-    fs.mkdirSync(packsSourceDir, { recursive: true });
-  }
-
-  const stats = {
-    written: 0,
-    updated: 0,
-    skipped: 0,
-    errors: []
-  };
-
-  // Collect existing IDs to prevent collisions
-  const existingIds = new Set();
-  if (fs.existsSync(packsSourceDir)) {
-    const files = fs.readdirSync(packsSourceDir);
-    for (const file of files) {
-      if (file.endsWith('.yaml')) {
-        const match = file.match(/\.([a-zA-Z0-9]{16})\.yaml$/);
-        if (match) {
-          existingIds.add(match[1]);
-        }
-      }
-    }
-  }
-
-  for (const power of powers) {
-    try {
-      // Check if a YAML file already exists for this power
-      const existingFile = findExistingPowerFile(power.name, packsSourceDir);
-
-      if (existingFile) {
-        // Read existing YAML to preserve the ID
-        const existingContent = fs.readFileSync(existingFile, 'utf8');
-        const existingPower = yaml.load(existingContent);
-
-        // Preserve the existing ID
-        power._id = existingPower._id;
-
-        // Update the file
-        const yamlContent = yaml.dump(power, {
-          sortKeys: true,
-          lineWidth: -1
-        });
-
-        fs.writeFileSync(existingFile, yamlContent, 'utf8');
-        stats.updated++;
-        console.log(`  📝 Updated: ${power.name}`);
-      } else {
-        // Create new file - generate a new Foundry-compatible ID
-        power._id = generateFoundryId(existingIds);
-        existingIds.add(power._id); // Add to set to prevent duplicates in same batch
-        const slug = sluggify(power.name);
-        const filename = `${slug}.${power._id}.yaml`;
-        const filepath = join(packsSourceDir, filename);
-
-        const yamlContent = yaml.dump(power, {
-          sortKeys: true,
-          lineWidth: -1
-        });
-
-        fs.writeFileSync(filepath, yamlContent, 'utf8');
-        stats.written++;
-        console.log(`  ✨ Created: ${power.name}`);
-      }
-    } catch (error) {
-      stats.errors.push({ item: power.name, error: error.message });
-      stats.skipped++;
-      console.error(`  ✗ Error writing ${power.name}: ${error.message}`);
-    }
-  }
-
-  return stats;
-}
 async function main() {
   const args = process.argv.slice(2);
 
@@ -880,7 +775,13 @@ async function main() {
 
   // Write as YAML files to packs-source/powers/ with deduplication
   const rootDir = join(TOOLS_DIR, '..');
-  const stats = writePowersWithDeduplication(powers, rootDir);
+  const stats = writeItemsWithDeduplication('powers', powers, rootDir, {
+    getSubdirectoryName: (power) => {
+      const discipline = power.system.discipline || 'athanatism';
+      // Capitalize first letter for display name
+      return discipline.charAt(0).toUpperCase() + discipline.slice(1);
+    }
+  });
 
   console.log('');
   console.log(`✓ Created ${stats.written} new YAML files`);

@@ -1,5 +1,7 @@
 _id: h1HVrbQ0fBY7uFRq
 _key: '!items!h1HVrbQ0fBY7uFRq'
+_stats:
+  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Mind_Blade_Knight
@@ -39,15 +41,11 @@ system:
   showInQuickbar: false
   simple: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2012-01-01'
       pages: '39'
       publisher: Dreamscarred Press
       title: Psionics Augmented
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2013-12-24'
       pages: 106–107
       publisher: Dreamscarred Press
       title: Ultimate Psionics

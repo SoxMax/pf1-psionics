@@ -1,5 +1,7 @@
 _id: PoralR7oQgBybtf2
 _key: '!items!PoralR7oQgBybtf2'
+_stats:
+  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Composite_Power
@@ -31,15 +33,11 @@ system:
   showInQuickbar: false
   simple: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '12'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Occult Kineticists'
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '79'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Occult Compilation'

@@ -1,5 +1,7 @@
 _id: rfbteVPPs7ukjtTO
 _key: '!items!rfbteVPPs7ukjtTO'
+_stats:
+  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Metapsionic_Animus
@@ -35,15 +37,11 @@ system:
   showInQuickbar: false
   simple: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '7'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Psychic Warriors II'
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '39'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Compilation II'

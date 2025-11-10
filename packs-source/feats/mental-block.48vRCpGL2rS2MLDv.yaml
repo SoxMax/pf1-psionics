@@ -1,5 +1,7 @@
 _id: 48vRCpGL2rS2MLDv
 _key: '!items!48vRCpGL2rS2MLDv'
+_stats:
+  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Mental_Block
@@ -39,9 +41,7 @@ system:
   showInQuickbar: false
   simple: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '80'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Occult Compilation'

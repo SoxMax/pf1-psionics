@@ -1,0 +1,70 @@
+_id: e1uyuoHYHehnImhM
+_key: '!items!e1uyuoHYHehnImhM'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Lift
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Lift
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        concentration: true
+        units: conc
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One Medium or smaller creature
+  description:
+    value: >-
+      <p>With&nbsp;a&nbsp;mental&nbsp;thrust&nbsp;you&nbsp;fling&nbsp;your&nbsp;foe&nbsp;upwards&nbsp;then&nbsp;suspend&nbsp;them&nbsp;there.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;<em>lift</em>,&nbsp;you&nbsp;cause&nbsp;a&nbsp;target&nbsp;to&nbsp;float&nbsp;unnaturally&nbsp;five&nbsp;feet&nbsp;above&nbsp;the&nbsp;ground.&nbsp;This&nbsp;typically&nbsp;prevents&nbsp;them&nbsp;from&nbsp;moving&nbsp;though&nbsp;creatures&nbsp;which&nbsp;can&nbsp;fly&nbsp;are&nbsp;unaffected&nbsp;by&nbsp;<em>lift</em>.&nbsp;Additionally,&nbsp;a&nbsp;creature&nbsp;that&nbsp;is&nbsp;able&nbsp;to&nbsp;react&nbsp;walls,&nbsp;items,&nbsp;or&nbsp;creatures&nbsp;nearby&nbsp;may&nbsp;be&nbsp;able&nbsp;to&nbsp;push&nbsp;themselves&nbsp;horizontally.&nbsp;This&nbsp;requires&nbsp;deliberate&nbsp;intent,&nbsp;so&nbsp;a&nbsp;target&nbsp;creature&nbsp;kicking&nbsp;or&nbsp;punching&nbsp;an&nbsp;adjacent&nbsp;foe&nbsp;does&nbsp;not&nbsp;float&nbsp;away&nbsp;unexpectedly.
+
+      </p>
+
+      <p>This&nbsp;power&nbsp;is&nbsp;inherently&nbsp;stable&nbsp;and&nbsp;being&nbsp;suspended&nbsp;in&nbsp;midair&nbsp;does&nbsp;not&nbsp;impose&nbsp;any&nbsp;penalty&nbsp;on&nbsp;actions&nbsp;the&nbsp;target&nbsp;creature&nbsp;might&nbsp;undertake&nbsp;excepting&nbsp;movement.&nbsp;Each&nbsp;round&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;its&nbsp;turn,&nbsp;the&nbsp;target&nbsp;creature&nbsp;makes&nbsp;an&nbsp;additional&nbsp;save&nbsp;at&nbsp;the&nbsp;original&nbsp;DC&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;terminate&nbsp;its&nbsp;effects.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: true
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      cryptic: 3
+      psion: 3
+      thug: 3
+      wilder: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: 11–12
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: '2010-01-01'
+      pages: '76'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

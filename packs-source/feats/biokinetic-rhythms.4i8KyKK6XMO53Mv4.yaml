@@ -1,5 +1,7 @@
 _id: 4i8KyKK6XMO53Mv4
 _key: '!items!4i8KyKK6XMO53Mv4'
+_stats:
+  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Biokinetic_Rhythms
@@ -35,15 +37,11 @@ system:
   showInQuickbar: false
   simple: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '10'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Wilders'
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '37'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Compilation II'

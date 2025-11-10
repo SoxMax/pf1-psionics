@@ -9,6 +9,7 @@ tools/
 ├── scrapers/          # Web scrapers (output YAML)
 │   ├── powers-scraper.mjs
 │   ├── feats-scraper.mjs
+│   ├── classes-scraper.mjs
 │   └── common.mjs
 ├── packs.mjs          # Extract/compile tool for YAML ↔ LevelDB
 ├── data/              # URL lists and reference data
@@ -34,11 +35,21 @@ cd ../..
 npm run packs:compile
 ```
 
+### Import Classes
+```bash
+cd tools/scrapers
+node classes-scraper.mjs
+cd ../..
+npm run packs:compile
+```
+
 ### Extract from Foundry
 ```bash
-npm run packs:extract powers
-npm run packs:extract feats
-npm run packs:extract  # Extract all
+npm run packs:extract:powers              # Extract powers only
+npm run packs:extract:feats               # Extract feats only
+npm run packs:extract:classes             # Extract classes only
+npm run packs:extract:class-abilities     # Extract class abilities only
+npm run packs:extract                     # Extract all packs
 ```
 
 ### Compile to LevelDB
@@ -54,9 +65,11 @@ The primary tool for converting between YAML source and LevelDB compendiums. Ada
 
 **Extract** - LevelDB → YAML
 ```bash
-npm run packs:extract           # Extract all compendiums
-npm run packs:extract powers    # Extract just powers
-npm run packs:extract feats     # Extract just feats
+npm run packs:extract                     # Extract all compendiums
+npm run packs:extract:powers              # Extract just powers
+npm run packs:extract:feats               # Extract just feats
+npm run packs:extract:classes             # Extract just classes
+npm run packs:extract:class-abilities     # Extract just class abilities
 ```
 
 **Compile** - YAML → LevelDB
@@ -69,6 +82,9 @@ npm run packs:compile           # Compile all compendiums
 - Validates against schemas
 - Preserves IDs across extract/compile cycles
 - Sorts keys for consistent diffs
+- **NEW:** Supports classes and class abilities with folder structure
+- **NEW:** Handles `classAssociations` links in class items
+- **NEW:** Preserves folder hierarchy for class abilities
 
 **When to use:**
 - After scraping new content → compile to LevelDB
@@ -179,6 +195,46 @@ git commit -m "Import new feats"
 npm run packs:compile
 ```
 
+### `scrapers/classes-scraper.mjs`
+
+Scrapes psionic classes and class abilities from metzo.miraheze.org and outputs YAML files.
+
+**Usage:**
+```bash
+cd tools/scrapers
+
+# Scrape all classes from Psionic (system) page
+node classes-scraper.mjs
+
+# Scrape single class
+node classes-scraper.mjs "https://metzo.miraheze.org/wiki/Psion"
+
+# Run tests
+node classes-scraper.mjs --test
+```
+
+**Output:** Creates YAML files in:
+- `../../packs-source/classes/` - Class items (flat structure)
+- `../../packs-source/class-abilities/` - Class ability items (organized in folders by class)
+
+**Features:**
+- Unified scraper outputs both classes and abilities
+- Automatic UUID linking via `classAssociations`
+- Progressive ability handling (single item, multiple levels)
+- Filters for Ultimate Psionics and Psionics Augmented sources
+- Parses class stats from infobox (HD, BAB, saves, skills)
+- Extracts class features from class table
+
+**After scraping:**
+```bash
+cd ../..
+git add packs-source/classes/ packs-source/class-abilities/
+git commit -m "Import new classes"
+npm run packs:compile
+```
+
+See `tools/scrapers/README-CLASSES.md` for detailed documentation.
+
 ## Data Files
 
 Located in `data/` directory:
@@ -288,15 +344,20 @@ git commit -m "Update power descriptions"
 ```
 pf1-psionics/
 ├── packs-source/           # YAML source (commit to git)
-│   ├── powers/            # 597 YAML files
-│   └── feats/             # 189 YAML files
+│   ├── powers/            # 597 YAML files (organized by discipline)
+│   ├── feats/             # 189 YAML files
+│   ├── classes/           # Class YAML files (flat)
+│   └── class-abilities/   # Class ability YAML files (with folder structure)
 ├── packs/                 # Compiled LevelDB (gitignored)
 │   ├── powers/
-│   └── feats/
+│   ├── feats/
+│   ├── classes/
+│   └── class-abilities/
 ├── tools/
 │   ├── scrapers/
 │   │   ├── powers-scraper.mjs
 │   │   ├── feats-scraper.mjs
+│   │   ├── classes-scraper.mjs
 │   │   └── common.mjs
 │   ├── packs.mjs          # Extract/compile tool
 │   ├── data/

@@ -1,0 +1,78 @@
+_id: NPcfZrWDbX9SLMan
+_key: '!items!NPcfZrWDbX9SLMan'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Ethereal_Passage
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Ethereal Passage
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: spec
+        value: One usage per two levels
+      name: Use
+      range:
+        units: ft
+        value: 0 ft.
+      save:
+        description: None
+      target:
+        value: >-
+          Ethereal 5-ft. by 8-ft. opening, 10 ft. deep + 5 ft. deep per three
+          levels
+  description:
+    value: >-
+      <p>You&nbsp;create&nbsp;an&nbsp;ethereal&nbsp;passage&nbsp;through&nbsp;wooden,&nbsp;plaster,&nbsp;or&nbsp;stone&nbsp;walls,&nbsp;but&nbsp;not&nbsp;other&nbsp;materials.&nbsp;The&nbsp;ethereal&nbsp;passage&nbsp;is&nbsp;invisible&nbsp;and&nbsp;inaccessible&nbsp;to&nbsp;all&nbsp;creatures&nbsp;except&nbsp;you,&nbsp;and&nbsp;only&nbsp;you&nbsp;can&nbsp;use&nbsp;the&nbsp;passage.&nbsp;You&nbsp;disappear&nbsp;when&nbsp;you&nbsp;enter&nbsp;the&nbsp;ethereal&nbsp;passage&nbsp;and&nbsp;appear&nbsp;when&nbsp;you&nbsp;exit.&nbsp;If&nbsp;you&nbsp;desire,&nbsp;you&nbsp;can&nbsp;take&nbsp;one&nbsp;other&nbsp;creature&nbsp;(Medium&nbsp;or&nbsp;smaller)&nbsp;through&nbsp;the&nbsp;passage.&nbsp;This&nbsp;counts&nbsp;as&nbsp;two&nbsp;uses&nbsp;of&nbsp;the&nbsp;passage.&nbsp;The&nbsp;passage&nbsp;does&nbsp;not&nbsp;allow&nbsp;light,&nbsp;sound,&nbsp;or&nbsp;power&nbsp;effects&nbsp;through&nbsp;it,&nbsp;nor&nbsp;can&nbsp;you&nbsp;see&nbsp;through&nbsp;it&nbsp;without&nbsp;using&nbsp;it.&nbsp;Thus,&nbsp;the&nbsp;power&nbsp;can&nbsp;provide&nbsp;an&nbsp;escape&nbsp;route,&nbsp;though&nbsp;certain&nbsp;creatures,&nbsp;such&nbsp;as&nbsp;phase&nbsp;spiders,&nbsp;can&nbsp;follow&nbsp;with&nbsp;ease.&nbsp;A&nbsp;gem&nbsp;of&nbsp;true&nbsp;seeing&nbsp;or&nbsp;similar&nbsp;ability&nbsp;reveals&nbsp;the&nbsp;presence&nbsp;of&nbsp;an&nbsp;ethereal&nbsp;passage&nbsp;but&nbsp;does&nbsp;not&nbsp;allow&nbsp;its&nbsp;use.
+
+      </p>
+
+      <p>An&nbsp;ethereal&nbsp;passage&nbsp;is&nbsp;subject&nbsp;to&nbsp;dispel&nbsp;psionics.&nbsp;If&nbsp;anyone&nbsp;is&nbsp;within&nbsp;the&nbsp;passage&nbsp;when&nbsp;it&nbsp;is&nbsp;dispelled,&nbsp;he&nbsp;is&nbsp;harmlessly&nbsp;ejected&nbsp;just&nbsp;as&nbsp;if&nbsp;he&nbsp;were&nbsp;inside&nbsp;a&nbsp;passwall&nbsp;effect.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;allow&nbsp;other&nbsp;creatures&nbsp;to&nbsp;use&nbsp;the&nbsp;ethereal&nbsp;passage&nbsp;by&nbsp;setting&nbsp;some&nbsp;triggering&nbsp;condition&nbsp;for&nbsp;the&nbsp;door.&nbsp;Such&nbsp;conditions&nbsp;can&nbsp;be&nbsp;as&nbsp;simple&nbsp;or&nbsp;elaborate&nbsp;as&nbsp;you&nbsp;desire.&nbsp;They&nbsp;can&nbsp;be&nbsp;based&nbsp;on&nbsp;a&nbsp;creature's&nbsp;name,&nbsp;identity,&nbsp;or&nbsp;alignment,&nbsp;but&nbsp;otherwise&nbsp;must&nbsp;be&nbsp;based&nbsp;on&nbsp;observable&nbsp;actions&nbsp;or&nbsp;qualities.&nbsp;Intangibles&nbsp;such&nbsp;as&nbsp;level,&nbsp;class,&nbsp;HD,&nbsp;and&nbsp;hit&nbsp;points&nbsp;don't&nbsp;qualify.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      cryptic: 6
+      psion: 7
+      voyager: 6
+      wilder: 7
+  level: 6
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '110'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '200'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '41'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

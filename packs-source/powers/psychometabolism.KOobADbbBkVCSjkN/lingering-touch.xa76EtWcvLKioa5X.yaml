@@ -1,0 +1,69 @@
+_id: xa76EtWcvLKioa5X
+_key: '!items!xa76EtWcvLKioa5X'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Lingering_Touch
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Lingering Touch
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: swift
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;charge&nbsp;your&nbsp;ability&nbsp;to&nbsp;channel&nbsp;fear&nbsp;and&nbsp;terror&nbsp;into&nbsp;your&nbsp;enemies,&nbsp;making&nbsp;it&nbsp;linger&nbsp;within&nbsp;them.&nbsp;Any&nbsp;devastating&nbsp;touch&nbsp;attacks&nbsp;made&nbsp;during&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;linger&nbsp;for&nbsp;an&nbsp;additional&nbsp;round,&nbsp;automatically&nbsp;dealing&nbsp;damage&nbsp;the&nbsp;following&nbsp;round.&nbsp;Any&nbsp;additional&nbsp;damage&nbsp;or&nbsp;affect&nbsp;applied&nbsp;to&nbsp;the&nbsp;devastating&nbsp;touch&nbsp;is&nbsp;not&nbsp;repeated.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;spent,&nbsp;this&nbsp;power&nbsp;lasts&nbsp;an&nbsp;additional&nbsp;round.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      dread: 1
+  level: 1
+  manifestTime:
+    units: swift
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '30'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+    - date: '2012-07-23'
+      pages: '169'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: '215'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

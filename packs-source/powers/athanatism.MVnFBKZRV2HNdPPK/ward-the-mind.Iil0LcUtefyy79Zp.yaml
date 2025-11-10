@@ -1,0 +1,74 @@
+_id: Iil0LcUtefyy79Zp
+_key: '!items!Iil0LcUtefyy79Zp'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Ward_the_Mind
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Ward the Mind
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '10'
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates (harmless)
+        harmless: true
+        type: will
+      target:
+        value: One living creature touched
+  description:
+    value: >-
+      <p>This&nbsp;power&nbsp;wards&nbsp;the&nbsp;mind&nbsp;and&nbsp;soul&nbsp;of&nbsp;the&nbsp;living&nbsp;from&nbsp;the&nbsp;predations&nbsp;of&nbsp;the&nbsp;undead.&nbsp;The&nbsp;target&nbsp;is&nbsp;immune&nbsp;to&nbsp;future&nbsp;possession&nbsp;and&nbsp;possession-like&nbsp;effects&nbsp;such&nbsp;as&nbsp;magic&nbsp;jar&nbsp;-&nbsp;if&nbsp;the&nbsp;target&nbsp;is&nbsp;already&nbsp;possessed,&nbsp;this&nbsp;power&nbsp;does&nbsp;not&nbsp;remove&nbsp;that&nbsp;effect.&nbsp;They&nbsp;also&nbsp;gain&nbsp;a&nbsp;+2&nbsp;deflection&nbsp;bonus&nbsp;to&nbsp;AC&nbsp;and&nbsp;a&nbsp;+2&nbsp;resistance&nbsp;bonus&nbsp;on&nbsp;saves,&nbsp;but&nbsp;only&nbsp;against&nbsp;attacks&nbsp;made&nbsp;or&nbsp;effects&nbsp;created&nbsp;by&nbsp;incorporeal&nbsp;creatures.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;spent,&nbsp;you&nbsp;can&nbsp;target&nbsp;an&nbsp;additional&nbsp;creature&nbsp;when&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;spent,&nbsp;you&nbsp;increase&nbsp;the&nbsp;bonuses&nbsp;granted&nbsp;by&nbsp;this&nbsp;power&nbsp;by&nbsp;1.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;affects&nbsp;a&nbsp;10-ft.-radius&nbsp;emanation&nbsp;from&nbsp;the&nbsp;target.&nbsp;Summoned&nbsp;incorporeal&nbsp;creatures&nbsp;cannot&nbsp;enter&nbsp;the&nbsp;area&nbsp;of&nbsp;this&nbsp;power.</li></ol>
+
+      <p>In&nbsp;addition,&nbsp;if&nbsp;you&nbsp;spend&nbsp;at&nbsp;least&nbsp;4&nbsp;power&nbsp;points&nbsp;augmenting&nbsp;this&nbsp;power,&nbsp;increase&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;10&nbsp;minutes/level.
+
+      </p>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      psion: 1
+      tactician: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '45'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

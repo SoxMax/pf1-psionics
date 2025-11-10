@@ -1,0 +1,79 @@
+_id: eWUQibsBRN3fUYfk
+_key: '!items!eWUQibsBRN3fUYfk'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Immovability
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Immovability
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        concentration: true
+        units: conc
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;are&nbsp;almost&nbsp;impossible&nbsp;to&nbsp;move.&nbsp;Your&nbsp;weight&nbsp;does&nbsp;not&nbsp;vary;&nbsp;instead,&nbsp;you&nbsp;mentally&nbsp;attach&nbsp;yourself&nbsp;to&nbsp;the&nbsp;underlying&nbsp;fabric&nbsp;of&nbsp;the&nbsp;plane.&nbsp;Thus,&nbsp;you&nbsp;could&nbsp;conceivably&nbsp;anchor&nbsp;yourself&nbsp;in&nbsp;midair.&nbsp;Any&nbsp;creature&nbsp;attempting&nbsp;to&nbsp;physically&nbsp;move&nbsp;you&nbsp;must&nbsp;succeed&nbsp;on&nbsp;an&nbsp;opposed&nbsp;Strength&nbsp;check,&nbsp;and&nbsp;you&nbsp;gain&nbsp;a&nbsp;+20&nbsp;bonus&nbsp;on&nbsp;the&nbsp;check.&nbsp;You&nbsp;can't&nbsp;voluntarily&nbsp;move&nbsp;to&nbsp;a&nbsp;new&nbsp;location&nbsp;unless&nbsp;you&nbsp;stop&nbsp;concentrating,&nbsp;which&nbsp;ends&nbsp;the&nbsp;power.
+
+      </p>
+
+      <p>You&nbsp;cannot&nbsp;apply&nbsp;your&nbsp;Dexterity&nbsp;bonus&nbsp;to&nbsp;Armor&nbsp;Class;&nbsp;however,&nbsp;your&nbsp;anchored&nbsp;body&nbsp;gains&nbsp;damage&nbsp;reduction&nbsp;15/–.
+
+      </p>
+
+      <p>You&nbsp;cannot&nbsp;make&nbsp;physical&nbsp;attacks&nbsp;or&nbsp;perform&nbsp;any&nbsp;other&nbsp;large-scale&nbsp;movements&nbsp;(you&nbsp;can&nbsp;make&nbsp;smallscale&nbsp;movements,&nbsp;such&nbsp;as&nbsp;breathing,&nbsp;turning&nbsp;your&nbsp;head,&nbsp;moving&nbsp;your&nbsp;eyes,&nbsp;talking,&nbsp;and&nbsp;so&nbsp;on).&nbsp;Powers&nbsp;with&nbsp;the&nbsp;teleportation&nbsp;descriptor,&nbsp;or&nbsp;any&nbsp;telekinetic&nbsp;effect,&nbsp;manifested&nbsp;on&nbsp;you&nbsp;automatically&nbsp;fail.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;8&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      gifted blade: 4
+      psychic warrior: 4
+      vitalist: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '118'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 211–212
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '44'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,76 @@
+_id: b66Dik2eFkdyuQvs
+_key: '!items!b66Dik2eFkdyuQvs'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Dazzling_Swordplay
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Dazzling Swordplay
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: swift
+      duration:
+        units: spec
+        value: 1 round; see text
+      name: Use
+      range:
+        units: ft
+        value: Melee
+      save:
+        description: None
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>Your&nbsp;next&nbsp;successful&nbsp;melee&nbsp;attack&nbsp;dazzles&nbsp;the&nbsp;struck&nbsp;creature.
+
+      </p>
+
+      <p><strong>Trigger:</strong>&nbsp;If&nbsp;your&nbsp;attack&nbsp;was&nbsp;successful&nbsp;and&nbsp;the&nbsp;struck&nbsp;creature&nbsp;moves&nbsp;or&nbsp;attacks&nbsp;before&nbsp;the&nbsp;end&nbsp;of&nbsp;its&nbsp;next&nbsp;turn,&nbsp;you&nbsp;can&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;blind&nbsp;it&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;its&nbsp;current&nbsp;turn.&nbsp;The&nbsp;blindness&nbsp;takes&nbsp;effect&nbsp;at&nbsp;the&nbsp;beginning&nbsp;of&nbsp;the&nbsp;creature's&nbsp;action&nbsp;which&nbsp;caused&nbsp;the&nbsp;trigger.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;instead&nbsp;manifest&nbsp;this&nbsp;power&nbsp;upon&nbsp;making&nbsp;a&nbsp;successful&nbsp;melee&nbsp;attack&nbsp;and&nbsp;have&nbsp;the&nbsp;effects&nbsp;of&nbsp;this&nbsp;power&nbsp;instead&nbsp;apply&nbsp;to&nbsp;that&nbsp;attack.&nbsp;Doing&nbsp;so&nbsp;still&nbsp;uses&nbsp;your&nbsp;swift&nbsp;action&nbsp;for&nbsp;the&nbsp;round.
+
+      </p>
+  descriptors:
+    - trigger
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      psychic warrior: 1
+      voyager: 1
+  level: 1
+  manifestTime:
+    units: swift
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: 24–25
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+    - date: '2012-07-23'
+      pages: '154'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 179–180
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

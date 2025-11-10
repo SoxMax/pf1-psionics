@@ -1,0 +1,154 @@
+_id: UWwih4a9wRemGvLZ
+_key: '!items!UWwih4a9wRemGvLZ'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Induce_Nightmare
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Induce Nightmare
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 10
+        type: minute
+      damage:
+        parts:
+          - - 1d10
+            - untyped
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: unlimited
+        value: Unlimited
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates; see text
+        type: will
+      target:
+        value: One living creature
+  description:
+    value: >-
+      <p>You&nbsp;send&nbsp;a&nbsp;hideous&nbsp;and&nbsp;unsettling&nbsp;phantasmal&nbsp;vision&nbsp;to&nbsp;a&nbsp;specific&nbsp;creature&nbsp;that&nbsp;you&nbsp;name&nbsp;or&nbsp;otherwise&nbsp;specifically&nbsp;designate.
+
+      </p>
+
+      <p>The&nbsp;nightmare&nbsp;prevents&nbsp;restful&nbsp;sleep&nbsp;and&nbsp;causes&nbsp;1d10&nbsp;points&nbsp;of&nbsp;damage.&nbsp;The&nbsp;nightmare&nbsp;leaves&nbsp;the&nbsp;subject&nbsp;fatigued&nbsp;and&nbsp;unable&nbsp;to&nbsp;regain&nbsp;power&nbsp;points&nbsp;and&nbsp;arcane&nbsp;spells&nbsp;for&nbsp;the&nbsp;next&nbsp;24&nbsp;hours.
+
+      </p>
+
+      <p>The&nbsp;difficulty&nbsp;of&nbsp;the&nbsp;save&nbsp;depends&nbsp;on&nbsp;your&nbsp;knowledge&nbsp;the&nbsp;subject&nbsp;and&nbsp;the&nbsp;physical&nbsp;connection&nbsp;(if&nbsp;any)&nbsp;you&nbsp;have&nbsp;to&nbsp;that&nbsp;creature.
+
+      </p><table><tr><th>Knowledge
+
+      </th><th>Will&nbsp;Save&nbsp;Modifier
+
+      </th></tr><tr><td>None*
+
+      </td><td>+10
+
+      </td></tr><tr><td>Secondhand&nbsp;(you&nbsp;have&nbsp;heard&nbsp;of&nbsp;the&nbsp;subject)
+
+      </td><td>+5
+
+      </td></tr><tr><td>Firsthand&nbsp;(you&nbsp;have&nbsp;met&nbsp;the&nbsp;subject)
+
+      </td><td>+0
+
+      </td></tr><tr><td>Familiar&nbsp;(you&nbsp;know&nbsp;the&nbsp;subject&nbsp;well)
+
+      </td><td>–5
+
+      </td></tr></table>
+
+      <table><tr><th>Connection
+
+      </th><th>Will&nbsp;Save&nbsp;Modifier
+
+      </th></tr><tr><td>Likeness&nbsp;or&nbsp;picture
+
+      </td><td>–2
+
+      </td></tr><tr><td>Possession&nbsp;or&nbsp;garment
+
+      </td><td>–4
+
+      </td></tr><tr><td>Body&nbsp;part,&nbsp;lock&nbsp;of&nbsp;hair,&nbsp;bit&nbsp;of&nbsp;nail,&nbsp;etc.
+
+      </td><td>–10
+
+      </td></tr></table>
+
+      <p>*You&nbsp;must&nbsp;have&nbsp;some&nbsp;sort&nbsp;of&nbsp;connection&nbsp;to&nbsp;a&nbsp;creature&nbsp;of&nbsp;which&nbsp;you&nbsp;have&nbsp;no&nbsp;knowledge.
+
+      </p>
+
+      <p>Dispel&nbsp;evil&nbsp;cast&nbsp;on&nbsp;the&nbsp;subject&nbsp;while&nbsp;you&nbsp;are&nbsp;manifesting&nbsp;the&nbsp;power&nbsp;dispels&nbsp;the&nbsp;nightmare&nbsp;and&nbsp;causes&nbsp;you&nbsp;to&nbsp;be&nbsp;stunned&nbsp;for&nbsp;10&nbsp;minutes&nbsp;per&nbsp;caster&nbsp;level&nbsp;of&nbsp;the&nbsp;dispel&nbsp;evil.
+
+      </p>
+
+      <p>If&nbsp;the&nbsp;recipient&nbsp;is&nbsp;awake&nbsp;when&nbsp;the&nbsp;power&nbsp;begins,&nbsp;you&nbsp;can&nbsp;choose&nbsp;to&nbsp;cease&nbsp;manifesting&nbsp;(ending&nbsp;the&nbsp;power)&nbsp;or&nbsp;to&nbsp;enter&nbsp;a&nbsp;trance&nbsp;until&nbsp;the&nbsp;recipient&nbsp;goes&nbsp;to&nbsp;sleep,&nbsp;whereupon&nbsp;you&nbsp;become&nbsp;alert&nbsp;again&nbsp;and&nbsp;complete&nbsp;the&nbsp;casting.&nbsp;If&nbsp;you&nbsp;are&nbsp;disturbed&nbsp;during&nbsp;the&nbsp;trance,&nbsp;you&nbsp;must&nbsp;succeed&nbsp;on&nbsp;a&nbsp;Concentration&nbsp;check&nbsp;as&nbsp;if&nbsp;you&nbsp;were&nbsp;in&nbsp;the&nbsp;midst&nbsp;of&nbsp;manifesting&nbsp;a&nbsp;power&nbsp;or&nbsp;the&nbsp;power&nbsp;ends.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;choose&nbsp;to&nbsp;enter&nbsp;a&nbsp;trance,&nbsp;you&nbsp;are&nbsp;not&nbsp;aware&nbsp;of&nbsp;your&nbsp;surroundings&nbsp;or&nbsp;the&nbsp;activities&nbsp;around&nbsp;you&nbsp;while&nbsp;in&nbsp;the&nbsp;trance.
+
+      </p>
+
+      <p>You&nbsp;are&nbsp;defenseless,&nbsp;both&nbsp;physically&nbsp;and&nbsp;mentally,&nbsp;while&nbsp;in&nbsp;the&nbsp;trance.&nbsp;(You&nbsp;always&nbsp;fail&nbsp;Reflex&nbsp;and&nbsp;Will&nbsp;saving&nbsp;throws,&nbsp;for&nbsp;example.)
+
+      </p>
+
+      <p>Creatures&nbsp;who&nbsp;don't&nbsp;sleep&nbsp;(such&nbsp;as&nbsp;elves,&nbsp;but&nbsp;not&nbsp;halfelves)&nbsp;or&nbsp;dream&nbsp;are&nbsp;immune&nbsp;to&nbsp;this&nbsp;effect.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;spent,&nbsp;this&nbsp;power&nbsp;causes&nbsp;an&nbsp;additional&nbsp;1d10&nbsp;points&nbsp;of&nbsp;damage&nbsp;when&nbsp;the&nbsp;sleeper&nbsp;wakes.
+
+      </p>
+  descriptors:
+    - evil
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      dread: 5
+      empath: 5
+      psion: 5
+      wilder: 5
+  level: 5
+  manifestTime:
+    units: minute
+    value: 10
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: 29–30
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+    - date: '2012-07-23'
+      pages: 167–168
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: '213'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '45'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

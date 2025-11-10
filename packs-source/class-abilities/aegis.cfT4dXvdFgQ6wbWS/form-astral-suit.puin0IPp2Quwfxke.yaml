@@ -1,0 +1,35 @@
+_id: puin0IPp2Quwfxke
+_key: '!items!puin0IPp2Quwfxke'
+_stats:
+  coreVersion: '13.350'
+folder: cfT4dXvdFgQ6wbWS
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Form Astral Suit
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Aegis
+  description:
+    value: >-
+      <p>Every&nbsp;aegis&nbsp;learns&nbsp;to&nbsp;draw&nbsp;forth&nbsp;ectoplasm&nbsp;and&nbsp;form&nbsp;an&nbsp;astral&nbsp;suit&nbsp;around&nbsp;their&nbsp;form.&nbsp;The&nbsp;aegis&nbsp;can&nbsp;select&nbsp;from&nbsp;three&nbsp;different&nbsp;types&nbsp;when&nbsp;forming&nbsp;his&nbsp;astral&nbsp;suit&nbsp;–&nbsp;skin,&nbsp;armor,&nbsp;or&nbsp;juggernaut.&nbsp;An&nbsp;aegis&nbsp;is&nbsp;always&nbsp;considered&nbsp;to&nbsp;be&nbsp;proficient&nbsp;with&nbsp;his&nbsp;astral&nbsp;suit,&nbsp;even&nbsp;if&nbsp;he&nbsp;does&nbsp;not&nbsp;have&nbsp;the&nbsp;appropriate&nbsp;armor&nbsp;proficiency.&nbsp;The&nbsp;amount&nbsp;of&nbsp;time&nbsp;forming&nbsp;this&nbsp;astral&nbsp;suit&nbsp;takes&nbsp;depends&nbsp;on&nbsp;the&nbsp;type&nbsp;of&nbsp;suit&nbsp;being&nbsp;formed.&nbsp;Different&nbsp;astral&nbsp;suit&nbsp;forms&nbsp;grant&nbsp;different&nbsp;free&nbsp;customizations.&nbsp;These&nbsp;free&nbsp;customizations&nbsp;never&nbsp;count&nbsp;against&nbsp;the&nbsp;aegis's&nbsp;total&nbsp;number&nbsp;of&nbsp;customization&nbsp;points&nbsp;spent&nbsp;on&nbsp;his&nbsp;astral&nbsp;suit.
+
+      </p><p>The&nbsp;aegis&nbsp;chooses&nbsp;the&nbsp;appearance&nbsp;of&nbsp;his&nbsp;astral&nbsp;suit,&nbsp;although&nbsp;its&nbsp;shape&nbsp;must&nbsp;reflect&nbsp;the&nbsp;selections&nbsp;the&nbsp;aegis&nbsp;has&nbsp;chosen:&nbsp;astral&nbsp;skin&nbsp;would&nbsp;cover&nbsp;the&nbsp;aegis&nbsp;like&nbsp;a&nbsp;psychoactive&nbsp;skin,&nbsp;astral&nbsp;juggernaut&nbsp;would&nbsp;appear&nbsp;to&nbsp;cover&nbsp;the&nbsp;aegis&nbsp;like&nbsp;plate&nbsp;armor,&nbsp;etc.&nbsp;An&nbsp;astral&nbsp;suit&nbsp;can&nbsp;be&nbsp;dismissed&nbsp;as&nbsp;a&nbsp;free&nbsp;action.
+
+      </p><p>An&nbsp;astral&nbsp;suit&nbsp;does&nbsp;not&nbsp;function&nbsp;in&nbsp;areas&nbsp;where&nbsp;psionics&nbsp;do&nbsp;not&nbsp;work,&nbsp;such&nbsp;as&nbsp;a&nbsp;null&nbsp;psionics&nbsp;field.&nbsp;Dismiss&nbsp;ectoplasm&nbsp;can&nbsp;be&nbsp;used&nbsp;against&nbsp;an&nbsp;astral&nbsp;suit;&nbsp;treat&nbsp;the&nbsp;manifester&nbsp;level&nbsp;as&nbsp;the&nbsp;aegis's&nbsp;class&nbsp;level,&nbsp;although&nbsp;the&nbsp;aegis&nbsp;can&nbsp;simply&nbsp;form&nbsp;his&nbsp;astral&nbsp;suit&nbsp;again&nbsp;on&nbsp;his&nbsp;next&nbsp;turn.
+
+      </p>
+
+      <dl><dd><div&nbsp;class="va-hatnote-text"><i></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 27–31
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 28–30
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: form-astral-suit
+type: feat

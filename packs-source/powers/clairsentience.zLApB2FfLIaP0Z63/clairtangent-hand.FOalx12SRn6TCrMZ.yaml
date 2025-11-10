@@ -1,0 +1,74 @@
+_id: FOalx12SRn6TCrMZ
+_key: '!items!FOalx12SRn6TCrMZ'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Clairtangent_Hand
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Clairtangent Hand
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: spec
+        value: Up to 1 min./level; see text (D)
+      name: Use
+      range:
+        units: ft
+        value: See text
+      save:
+        description: None
+      target:
+        value: See text
+  description:
+    value: >-
+      <p>You&nbsp;can&nbsp;emulate&nbsp;a&nbsp;<em><a&nbsp;href="/wiki/Far_Hand"&nbsp;title="Far&nbsp;Hand">far&nbsp;hand</a></em>&nbsp;effect&nbsp;at&nbsp;any&nbsp;distance&nbsp;while&nbsp;simultaneously&nbsp;emulating&nbsp;<em>[[</em><a&nbsp;href="/wiki/Clairvoyant_Sense,_Dyne%27s"&nbsp;title="Clairvoyant&nbsp;Sense,&nbsp;Dyne's">clairvoyant&nbsp;sense,&nbsp;dyne's</a><em>|]]</em>&nbsp;to&nbsp;target&nbsp;your&nbsp;far&nbsp;hand;&nbsp;see&nbsp;the&nbsp;appropriate&nbsp;power&nbsp;descriptions.&nbsp;Clairtangent&nbsp;hand's&nbsp;duration&nbsp;is&nbsp;up&nbsp;to&nbsp;1&nbsp;minute&nbsp;per&nbsp;level&nbsp;when&nbsp;used&nbsp;with&nbsp;a&nbsp;far&nbsp;hand&nbsp;effect.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;8&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;emulate&nbsp;clairvoyant&nbsp;sense&nbsp;in&nbsp;conjunction&nbsp;with&nbsp;either&nbsp;<em><a&nbsp;href="/wiki/Telekinetic_Force"&nbsp;title="Telekinetic&nbsp;Force">telekinetic&nbsp;force</a></em>&nbsp;or&nbsp;<em><a&nbsp;href="/wiki/Telekinetic_Maneuver"&nbsp;title="Telekinetic&nbsp;Maneuver">telekinetic&nbsp;maneuver</a></em>,&nbsp;but&nbsp;this&nbsp;power's&nbsp;duration&nbsp;expires&nbsp;as&nbsp;soon&nbsp;as&nbsp;any&nbsp;of&nbsp;the&nbsp;noted&nbsp;telekinetic&nbsp;powers&nbsp;deals&nbsp;damage.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: true
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      empath: 5
+      seer: 5
+      voyager: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '84'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '170'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '32'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  subdiscipline:
+    - scrying
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

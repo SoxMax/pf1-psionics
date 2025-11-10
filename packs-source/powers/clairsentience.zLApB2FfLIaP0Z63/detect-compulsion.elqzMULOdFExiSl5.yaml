@@ -1,0 +1,66 @@
+_id: elqzMULOdFExiSl5
+_key: '!items!elqzMULOdFExiSl5'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Detect_Compulsion
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Detect Compulsion
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: ft
+        value: 60 feet
+      save:
+        description: None
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>You&nbsp;detect&nbsp;if&nbsp;the&nbsp;target&nbsp;creature&nbsp;is&nbsp;under&nbsp;the&nbsp;effects&nbsp;of&nbsp;a&nbsp;compulsion&nbsp;or&nbsp;charm.&nbsp;Affected&nbsp;creatures&nbsp;appear&nbsp;to&nbsp;have&nbsp;an&nbsp;amber&nbsp;aura,&nbsp;though&nbsp;no&nbsp;one&nbsp;but&nbsp;you&nbsp;sees&nbsp;this&nbsp;visual&nbsp;effect.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      psion: 1
+      vitalist: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '16'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Mind Over Body'
+    - date: '2012-07-23'
+      pages: '156'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: '182'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

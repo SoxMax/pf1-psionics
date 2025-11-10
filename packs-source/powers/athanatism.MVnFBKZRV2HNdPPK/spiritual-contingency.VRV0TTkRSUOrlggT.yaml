@@ -1,0 +1,66 @@
+_id: VRV0TTkRSUOrlggT
+_key: '!items!VRV0TTkRSUOrlggT'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Spiritual_Contingency
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Spiritual Contingency
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 10
+        type: minute
+      duration:
+        dismiss: true
+        units: day
+        value: One day/level (D) or until discharged
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;link&nbsp;a&nbsp;power&nbsp;to&nbsp;your&nbsp;spiritual&nbsp;essence,&nbsp;causing&nbsp;it&nbsp;to&nbsp;trigger&nbsp;under&nbsp;some&nbsp;condition&nbsp;you&nbsp;dictate&nbsp;when&nbsp;manifesting&nbsp;spiritual&nbsp;contingency.&nbsp;The&nbsp;spiritual&nbsp;contingency&nbsp;power&nbsp;and&nbsp;the&nbsp;companion&nbsp;power&nbsp;are&nbsp;manifest&nbsp;at&nbsp;the&nbsp;same&nbsp;time.&nbsp;The&nbsp;10-minute&nbsp;manifesting&nbsp;time&nbsp;is&nbsp;the&nbsp;minimum&nbsp;total&nbsp;for&nbsp;both&nbsp;manifestations;&nbsp;if&nbsp;the&nbsp;companion&nbsp;power&nbsp;has&nbsp;a&nbsp;manifesting&nbsp;time&nbsp;longer&nbsp;than&nbsp;10&nbsp;minutes,&nbsp;use&nbsp;that&nbsp;instead.&nbsp;The&nbsp;power&nbsp;to&nbsp;be&nbsp;brought&nbsp;into&nbsp;effect&nbsp;by&nbsp;the&nbsp;spiritual&nbsp;contingency&nbsp;must&nbsp;be&nbsp;one&nbsp;that&nbsp;affects&nbsp;your&nbsp;person&nbsp;and&nbsp;be&nbsp;of&nbsp;a&nbsp;power&nbsp;level&nbsp;no&nbsp;higher&nbsp;than&nbsp;one-third&nbsp;your&nbsp;manifester&nbsp;level&nbsp;(rounded&nbsp;down,&nbsp;maximum&nbsp;6th&nbsp;level).
+
+      </p>
+
+      <p>The&nbsp;conditions&nbsp;needed&nbsp;to&nbsp;bring&nbsp;the&nbsp;power&nbsp;into&nbsp;effect&nbsp;must&nbsp;be&nbsp;clear&nbsp;and&nbsp;discernible,&nbsp;although&nbsp;they&nbsp;can&nbsp;be&nbsp;general.&nbsp;In&nbsp;all&nbsp;cases,&nbsp;the&nbsp;spiritual&nbsp;contingency&nbsp;immediately&nbsp;brings&nbsp;into&nbsp;effect&nbsp;the&nbsp;companion&nbsp;power,&nbsp;the&nbsp;latter&nbsp;being&nbsp;"manifested"&nbsp;instantaneously&nbsp;only&nbsp;when&nbsp;the&nbsp;prescribed&nbsp;circumstances&nbsp;occur.&nbsp;If&nbsp;complicated&nbsp;or&nbsp;convoluted&nbsp;conditions&nbsp;are&nbsp;prescribed,&nbsp;the&nbsp;power&nbsp;combination&nbsp;(spiritual&nbsp;contingency&nbsp;and&nbsp;the&nbsp;companion&nbsp;power)&nbsp;may&nbsp;fail&nbsp;when&nbsp;called&nbsp;on.&nbsp;The&nbsp;companion&nbsp;power&nbsp;may&nbsp;one&nbsp;that&nbsp;affects&nbsp;a&nbsp;dead&nbsp;creature,&nbsp;in&nbsp;which&nbsp;case&nbsp;the&nbsp;power&nbsp;combination&nbsp;manifests&nbsp;immediately&nbsp;upon&nbsp;your&nbsp;death.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;use&nbsp;only&nbsp;one&nbsp;spiritual&nbsp;contingency&nbsp;companion&nbsp;power&nbsp;at&nbsp;a&nbsp;time;&nbsp;if&nbsp;a&nbsp;second&nbsp;is&nbsp;manifested,&nbsp;the&nbsp;first&nbsp;one&nbsp;(if&nbsp;still&nbsp;active)&nbsp;is&nbsp;dismissed.
+
+      </p>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: true
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      conduit: 7
+  level: 7
+  manifestTime:
+    units: minute
+    value: 10
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '43'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

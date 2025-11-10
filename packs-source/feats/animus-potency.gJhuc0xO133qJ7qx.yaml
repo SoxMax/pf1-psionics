@@ -1,5 +1,7 @@
 _id: gJhuc0xO133qJ7qx
 _key: '!items!gJhuc0xO133qJ7qx'
+_stats:
+  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Animus_Potency
@@ -35,9 +37,7 @@ system:
   showInQuickbar: false
   simple: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '37'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Compilation II'

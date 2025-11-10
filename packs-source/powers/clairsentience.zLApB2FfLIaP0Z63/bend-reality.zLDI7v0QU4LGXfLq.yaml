@@ -1,0 +1,76 @@
+_id: zLDI7v0QU4LGXfLq
+_key: '!items!zLDI7v0QU4LGXfLq'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Bend_Reality
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Bend Reality
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: spec
+        value: See text
+      name: Use
+      range:
+        units: ft
+        value: See text
+      save:
+        description: None; see text
+      target:
+        value: See text
+  description:
+    value: >-
+      <p>Bend&nbsp;reality&nbsp;lets&nbsp;you&nbsp;create&nbsp;nearly&nbsp;any&nbsp;type&nbsp;of&nbsp;effect.&nbsp;For&nbsp;example,&nbsp;bend&nbsp;reality&nbsp;can&nbsp;do&nbsp;any&nbsp;of&nbsp;the&nbsp;following:
+
+      </p><ul><li>Duplicate&nbsp;any&nbsp;psion/wilder&nbsp;power&nbsp;of&nbsp;6th&nbsp;level&nbsp;or&nbsp;lower,&nbsp;provided&nbsp;the&nbsp;power&nbsp;is&nbsp;on&nbsp;the&nbsp;psion/wilder&nbsp;power&nbsp;list&nbsp;or&nbsp;your&nbsp;discipline&nbsp;power&nbsp;list&nbsp;(if&nbsp;any).</li><li>Duplicate&nbsp;any&nbsp;other&nbsp;power&nbsp;(but&nbsp;not&nbsp;a&nbsp;spell)&nbsp;of&nbsp;5th&nbsp;level&nbsp;or&nbsp;lower,&nbsp;provided&nbsp;the&nbsp;power&nbsp;is&nbsp;not&nbsp;of&nbsp;a&nbsp;discipline&nbsp;prohibited&nbsp;to&nbsp;you.</li><li>Duplicate&nbsp;any&nbsp;psion/wilder&nbsp;power&nbsp;of&nbsp;5th&nbsp;on&nbsp;a&nbsp;discipline&nbsp;power&nbsp;list.</li><li>Duplicate&nbsp;any&nbsp;other&nbsp;power&nbsp;(but&nbsp;not&nbsp;a&nbsp;spell)&nbsp;of&nbsp;4th&nbsp;level&nbsp;or&nbsp;lower,&nbsp;even&nbsp;if&nbsp;it's&nbsp;of&nbsp;a&nbsp;prohibited&nbsp;discipline.</li><li>Undo&nbsp;the&nbsp;harmful&nbsp;effects&nbsp;of&nbsp;many&nbsp;powers,&nbsp;such&nbsp;as&nbsp;mind&nbsp;control,&nbsp;geas/quest,&nbsp;or&nbsp;insanity.</li><li>Produce&nbsp;any&nbsp;other&nbsp;effect&nbsp;whose&nbsp;power&nbsp;level&nbsp;is&nbsp;in&nbsp;line&nbsp;with&nbsp;the&nbsp;above&nbsp;effects,&nbsp;such&nbsp;as&nbsp;a&nbsp;single&nbsp;creature&nbsp;automatically&nbsp;hitting&nbsp;on&nbsp;its&nbsp;next&nbsp;attack&nbsp;or&nbsp;taking&nbsp;a&nbsp;–7&nbsp;penalty&nbsp;on&nbsp;its&nbsp;next&nbsp;saving&nbsp;throw.</li></ul>
+
+      <p>A&nbsp;duplicated&nbsp;power&nbsp;allows&nbsp;saving&nbsp;throws&nbsp;and&nbsp;power&nbsp;resistance&nbsp;as&nbsp;normal&nbsp;(but&nbsp;the&nbsp;save&nbsp;DC&nbsp;is&nbsp;for&nbsp;a&nbsp;7th-level&nbsp;power).
+
+      </p>
+
+      <p>Manifesting&nbsp;bend&nbsp;reality&nbsp;requires&nbsp;channeling&nbsp;psionic&nbsp;power&nbsp;through&nbsp;specially-treated&nbsp;crystals&nbsp;similar&nbsp;to&nbsp;<em><a&nbsp;href="/wiki/Cognizance_Crystals"&nbsp;title="Cognizance&nbsp;Crystals">cognizance&nbsp;crystals</a></em>&nbsp;that&nbsp;cost&nbsp;1,500&nbsp;gp.&nbsp;The&nbsp;psionic&nbsp;energy&nbsp;in&nbsp;the&nbsp;crystal&nbsp;is&nbsp;consumed&nbsp;in&nbsp;the&nbsp;manifestation&nbsp;and&nbsp;the&nbsp;crystal&nbsp;becomes&nbsp;inert&nbsp;and&nbsp;has&nbsp;no&nbsp;value.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      psion: 7
+      tactician: 7
+      vitalist: 7
+      wilder: 7
+  level: 7
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: 80–81
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 165–166
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '30'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

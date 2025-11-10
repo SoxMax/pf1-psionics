@@ -1,0 +1,51 @@
+_id: vbydSnoP1uHbwaqJ
+_key: '!items!vbydSnoP1uHbwaqJ'
+_stats:
+  coreVersion: '13.350'
+folder: R7AoIomzfNGuWBKp
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Parallel Action
+system:
+  abilityType: su
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: >-
+      <p>A&nbsp;voyager's&nbsp;aid&nbsp;from&nbsp;her&nbsp;parallel&nbsp;selves&nbsp;manifests&nbsp;through&nbsp;parallel&nbsp;actions&nbsp;that&nbsp;she&nbsp;knows.&nbsp;Parallel&nbsp;actions&nbsp;come&nbsp;in&nbsp;several&nbsp;categories,&nbsp;each&nbsp;with&nbsp;a&nbsp;listed&nbsp;level.&nbsp;When&nbsp;a&nbsp;voyager&nbsp;reaches&nbsp;the&nbsp;listed&nbsp;level,&nbsp;she&nbsp;chooses&nbsp;a&nbsp;specified&nbsp;number&nbsp;of&nbsp;parallel&nbsp;actions&nbsp;of&nbsp;the&nbsp;category&nbsp;of&nbsp;that&nbsp;level&nbsp;to&nbsp;learn.&nbsp;In&nbsp;addition,&nbsp;all&nbsp;voyagers&nbsp;learn&nbsp;the&nbsp;helping&nbsp;hand&nbsp;parallel&nbsp;action&nbsp;at&nbsp;1st&nbsp;level&nbsp;for&nbsp;free.
+
+      </p><p>The&nbsp;categories&nbsp;of&nbsp;parallel&nbsp;actions&nbsp;are&nbsp;as&nbsp;follows:
+
+      </p>
+
+      <ul><li><i>Combat&nbsp;Assistance&nbsp;(1st&nbsp;level):</i>&nbsp;The&nbsp;voyager&nbsp;learns&nbsp;two&nbsp;parallel&nbsp;actions&nbsp;that&nbsp;support&nbsp;her&nbsp;in&nbsp;a&nbsp;fight&nbsp;or&nbsp;in&nbsp;a&nbsp;relatively&nbsp;mundane&nbsp;way.</li>
+
+      <li><i>Time&nbsp;Manipulation&nbsp;(3rd&nbsp;level):</i>&nbsp;The&nbsp;voyager&nbsp;learns&nbsp;two&nbsp;parallel&nbsp;actions&nbsp;that&nbsp;bend&nbsp;time&nbsp;to&nbsp;suit&nbsp;her&nbsp;needs.</li>
+
+      <li><i>Manifesting&nbsp;Support&nbsp;(7th&nbsp;level):</i>&nbsp;The&nbsp;voyager&nbsp;learns&nbsp;two&nbsp;parallel&nbsp;actions&nbsp;that&nbsp;assist&nbsp;her&nbsp;when&nbsp;manifesting&nbsp;powers.</li>
+
+      <li><i>Advanced&nbsp;Assistance&nbsp;(11th&nbsp;level):</i>&nbsp;The&nbsp;voyager&nbsp;learns&nbsp;one&nbsp;parallel&nbsp;action&nbsp;that&nbsp;influences&nbsp;the&nbsp;battlefield&nbsp;in&nbsp;unusual&nbsp;ways.</li>
+
+      <li><i>Backup&nbsp;Plans&nbsp;(15th&nbsp;level):</i>&nbsp;The&nbsp;voyager&nbsp;learns&nbsp;one&nbsp;parallel&nbsp;action&nbsp;that&nbsp;serves&nbsp;to&nbsp;get&nbsp;her&nbsp;out&nbsp;of&nbsp;tight&nbsp;situations.</li>
+
+      <li><i>Parallel&nbsp;Intrusion&nbsp;(19th&nbsp;level):</i>&nbsp;The&nbsp;voyager&nbsp;learns&nbsp;a&nbsp;parallel&nbsp;action&nbsp;that&nbsp;allows&nbsp;her&nbsp;to&nbsp;temporarily&nbsp;stop&nbsp;time&nbsp;and&nbsp;act&nbsp;as&nbsp;she&nbsp;wishes.&nbsp;Parallel&nbsp;actions&nbsp;are&nbsp;supernatural&nbsp;abilities&nbsp;that&nbsp;require&nbsp;the&nbsp;voyager's&nbsp;mental&nbsp;input&nbsp;to&nbsp;use,&nbsp;meaning&nbsp;if&nbsp;the&nbsp;voyager&nbsp;is&nbsp;under&nbsp;an&nbsp;effect&nbsp;that&nbsp;would&nbsp;impair&nbsp;her&nbsp;ability&nbsp;to&nbsp;think&nbsp;or&nbsp;remove&nbsp;her&nbsp;actions&nbsp;entirely&nbsp;(such&nbsp;as&nbsp;stunning&nbsp;or&nbsp;a&nbsp;<i>dominate&nbsp;person</i>&nbsp;spell),&nbsp;her&nbsp;parallel&nbsp;actions&nbsp;are&nbsp;likewise&nbsp;affected.</li></ul>
+
+      <p>Using&nbsp;a&nbsp;parallel&nbsp;action&nbsp;does&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity.&nbsp;Likewise,&nbsp;movement&nbsp;and&nbsp;teleportation&nbsp;made&nbsp;as&nbsp;part&nbsp;of&nbsp;a&nbsp;parallel&nbsp;action&nbsp;does&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity.&nbsp;Unless&nbsp;otherwise&nbsp;noted,&nbsp;parallel&nbsp;actions&nbsp;that&nbsp;target&nbsp;something&nbsp;or&nbsp;teleport&nbsp;the&nbsp;voyager&nbsp;require&nbsp;line&nbsp;of&nbsp;sight,&nbsp;though&nbsp;those&nbsp;that&nbsp;teleport&nbsp;do&nbsp;not&nbsp;require&nbsp;line&nbsp;of&nbsp;effect.
+
+      </p><p>Some&nbsp;of&nbsp;the&nbsp;voyager's&nbsp;parallel&nbsp;actions&nbsp;allow&nbsp;a&nbsp;save&nbsp;to&nbsp;resist&nbsp;their&nbsp;effects.&nbsp;The&nbsp;DC&nbsp;of&nbsp;saves&nbsp;against&nbsp;the&nbsp;voyager's&nbsp;parallel&nbsp;actions&nbsp;is&nbsp;DC&nbsp;10&nbsp;+&nbsp;1/2&nbsp;the&nbsp;voyager's&nbsp;class&nbsp;level&nbsp;+&nbsp;the&nbsp;voyager's&nbsp;Intelligence&nbsp;modifier).&nbsp;A&nbsp;voyager&nbsp;can&nbsp;take&nbsp;the&nbsp;Ability&nbsp;Focus&nbsp;(parallel&nbsp;action)&nbsp;feat,&nbsp;in&nbsp;which&nbsp;case&nbsp;it&nbsp;affects&nbsp;the&nbsp;DC&nbsp;of&nbsp;saving&nbsp;throws&nbsp;made&nbsp;against&nbsp;any&nbsp;of&nbsp;the&nbsp;parallel&nbsp;actions&nbsp;the&nbsp;voyager&nbsp;uses.
+
+      </p><p>Parallel&nbsp;actions&nbsp;are&nbsp;unique&nbsp;abilities&nbsp;that&nbsp;can&nbsp;only&nbsp;be&nbsp;used&nbsp;on&nbsp;a&nbsp;voyager's&nbsp;parallel&nbsp;turn.&nbsp;A&nbsp;voyager's&nbsp;parallel&nbsp;turn&nbsp;is&nbsp;not&nbsp;a&nbsp;true&nbsp;turn,&nbsp;and&nbsp;a&nbsp;voyager&nbsp;can&nbsp;not&nbsp;take&nbsp;normal&nbsp;actions&nbsp;during&nbsp;it.&nbsp;A&nbsp;voyager&nbsp;can&nbsp;use&nbsp;one&nbsp;parallel&nbsp;action&nbsp;on&nbsp;her&nbsp;parallel&nbsp;initiative.&nbsp;Each&nbsp;parallel&nbsp;action&nbsp;lists&nbsp;a&nbsp;minimum&nbsp;voyager&nbsp;level&nbsp;required&nbsp;to&nbsp;use&nbsp;it,&nbsp;and&nbsp;the&nbsp;voyager&nbsp;must&nbsp;choose&nbsp;which&nbsp;parallel&nbsp;action&nbsp;or&nbsp;actions&nbsp;she&nbsp;learns&nbsp;at&nbsp;each&nbsp;given&nbsp;level.
+
+      </p><p>Parallel&nbsp;actions&nbsp;that&nbsp;interact&nbsp;with&nbsp;creatures&nbsp;or&nbsp;objects&nbsp;within&nbsp;a&nbsp;certain&nbsp;range&nbsp;of&nbsp;the&nbsp;voyager&nbsp;can&nbsp;also&nbsp;be&nbsp;used&nbsp;on&nbsp;creatures&nbsp;or&nbsp;objects&nbsp;within&nbsp;that&nbsp;same&nbsp;range&nbsp;of&nbsp;her&nbsp;afterimage.&nbsp;For&nbsp;example,&nbsp;the&nbsp;helping&nbsp;hand&nbsp;parallel&nbsp;action&nbsp;allows&nbsp;the&nbsp;voyager&nbsp;to&nbsp;teleport&nbsp;an&nbsp;adjacent&nbsp;object&nbsp;to&nbsp;her.&nbsp;She&nbsp;can&nbsp;also&nbsp;teleport&nbsp;unattended&nbsp;objects&nbsp;that&nbsp;are&nbsp;adjacent&nbsp;to&nbsp;her&nbsp;afterimage.
+
+      </p>
+
+      <dl><dd><div&nbsp;class="va-hatnote-text"><i></p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
+  subType: classFeat
+  tag: parallel-action
+type: feat

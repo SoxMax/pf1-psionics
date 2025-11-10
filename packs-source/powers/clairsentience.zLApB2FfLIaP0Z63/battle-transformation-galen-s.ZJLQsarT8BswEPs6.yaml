@@ -1,0 +1,79 @@
+_id: ZJLQsarT8BswEPs6
+_key: '!items!ZJLQsarT8BswEPs6'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Battle_Transformation,_Galen's
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Battle Transformation, Galen's
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None; see text
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;become&nbsp;a&nbsp;paragon&nbsp;of&nbsp;battle—stronger,&nbsp;tougher,&nbsp;faster,&nbsp;and&nbsp;more&nbsp;skilled&nbsp;in&nbsp;combat.
+
+      </p>
+
+      <p>You&nbsp;gain&nbsp;a&nbsp;+2&nbsp;luck&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;rolls,&nbsp;weapon&nbsp;damage&nbsp;rolls,&nbsp;Strength&nbsp;checks,&nbsp;and&nbsp;Strength-based&nbsp;skill&nbsp;checks.&nbsp;You&nbsp;also&nbsp;gain&nbsp;1&nbsp;temporary&nbsp;hit&nbsp;point&nbsp;per&nbsp;manifester&nbsp;level.&nbsp;Whenever&nbsp;you&nbsp;make&nbsp;a&nbsp;full-attack&nbsp;action,&nbsp;you&nbsp;can&nbsp;make&nbsp;an&nbsp;additional&nbsp;attack&nbsp;at&nbsp;your&nbsp;full&nbsp;base&nbsp;attack&nbsp;bonus,&nbsp;plus&nbsp;any&nbsp;appropriate&nbsp;modifiers.&nbsp;This&nbsp;additional&nbsp;attack&nbsp;is&nbsp;not&nbsp;cumulative&nbsp;with&nbsp;similar&nbsp;effects,&nbsp;such&nbsp;as&nbsp;physical&nbsp;acceleration&nbsp;or&nbsp;weapons&nbsp;with&nbsp;the&nbsp;speed&nbsp;special&nbsp;ability.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;3&nbsp;additional&nbsp;power&nbsp;points&nbsp;spent,&nbsp;the&nbsp;luck&nbsp;bonus&nbsp;improves&nbsp;by&nbsp;1.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;power's&nbsp;duration&nbsp;becomes&nbsp;10&nbsp;minutes/level.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;gains&nbsp;the&nbsp;<a&nbsp;href="/wiki/Network_power"&nbsp;title="Network&nbsp;power">Network</a>&nbsp;descriptor.&nbsp;If&nbsp;used&nbsp;in&nbsp;this&nbsp;fashion,&nbsp;the&nbsp;power's&nbsp;saving&nbsp;throw&nbsp;becomes&nbsp;Will&nbsp;negates&nbsp;(harmless)&nbsp;and&nbsp;power&nbsp;resistance&nbsp;becomes&nbsp;Yes&nbsp;(harmless).</li></ol>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      empath: 4
+      psychic warrior: 4
+      tactician: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '16'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Pawns and Powers'
+    - date: '2012-07-23'
+      pages: '150'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: '165'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '30'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,29 @@
+_id: asaZVMFXakyp6JUu
+_key: '!items!asaZVMFXakyp6JUu'
+_stats:
+  coreVersion: '13.350'
+folder: R7AoIomzfNGuWBKp
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Parallel Initiative
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: >-
+      <p>A&nbsp;voyager's&nbsp;future&nbsp;and&nbsp;alternate&nbsp;selves&nbsp;can&nbsp;act&nbsp;in&nbsp;some&nbsp;capacity&nbsp;on&nbsp;their&nbsp;present&nbsp;self's&nbsp;reality.&nbsp;Their&nbsp;activities&nbsp;are&nbsp;represented&nbsp;through&nbsp;a&nbsp;unique&nbsp;turn&nbsp;known&nbsp;as&nbsp;a&nbsp;parallel&nbsp;turn.&nbsp;Whenever&nbsp;a&nbsp;voyager&nbsp;rolls&nbsp;initiative,&nbsp;she&nbsp;also&nbsp;rolls&nbsp;initiative&nbsp;for&nbsp;her&nbsp;parallel&nbsp;turn.&nbsp;She&nbsp;makes&nbsp;a&nbsp;second&nbsp;initiative&nbsp;roll&nbsp;at&nbsp;a&nbsp;–8&nbsp;penalty.&nbsp;This&nbsp;result&nbsp;is&nbsp;noted&nbsp;as&nbsp;the&nbsp;voyager's&nbsp;parallel&nbsp;turn.&nbsp;If&nbsp;the&nbsp;voyager&nbsp;has&nbsp;another&nbsp;ability&nbsp;that&nbsp;allows&nbsp;her&nbsp;to&nbsp;reroll&nbsp;initiative&nbsp;checks&nbsp;or&nbsp;roll&nbsp;additional&nbsp;dice,&nbsp;she&nbsp;can&nbsp;apply&nbsp;them&nbsp;to&nbsp;either&nbsp;roll.
+
+      </p><p>A&nbsp;voyager's&nbsp;parallel&nbsp;turn&nbsp;is&nbsp;not&nbsp;a&nbsp;true&nbsp;turn,&nbsp;and&nbsp;as&nbsp;such,&nbsp;the&nbsp;voyager&nbsp;herself&nbsp;does&nbsp;not&nbsp;act&nbsp;normally&nbsp;during&nbsp;it.&nbsp;Instead,&nbsp;on&nbsp;the&nbsp;parallel&nbsp;turn's&nbsp;initiative&nbsp;count&nbsp;each&nbsp;round,&nbsp;the&nbsp;voyager&nbsp;can&nbsp;use&nbsp;a&nbsp;single&nbsp;parallel&nbsp;action&nbsp;she&nbsp;knows&nbsp;(see&nbsp;below).&nbsp;If&nbsp;she&nbsp;wishes,&nbsp;the&nbsp;voyager&nbsp;can&nbsp;delay&nbsp;the&nbsp;initiative&nbsp;count&nbsp;of&nbsp;her&nbsp;parallel&nbsp;turn,&nbsp;just&nbsp;like&nbsp;a&nbsp;normal&nbsp;turn.&nbsp;At&nbsp;3rd&nbsp;level&nbsp;and&nbsp;every&nbsp;4&nbsp;levels&nbsp;thereafter,&nbsp;the&nbsp;voyager&nbsp;gains&nbsp;a&nbsp;+4&nbsp;bonus&nbsp;to&nbsp;her&nbsp;parallel&nbsp;initiative&nbsp;roll,&nbsp;up&nbsp;to&nbsp;a&nbsp;+12&nbsp;bonus&nbsp;at&nbsp;19th&nbsp;level.
+
+      </p><p>Outside&nbsp;of&nbsp;combat,&nbsp;when&nbsp;not&nbsp;tracking&nbsp;initiative&nbsp;orders,&nbsp;a&nbsp;voyager's&nbsp;parallel&nbsp;turn&nbsp;can&nbsp;be&nbsp;considered&nbsp;the&nbsp;same&nbsp;as&nbsp;her&nbsp;own&nbsp;(letting&nbsp;her&nbsp;freely&nbsp;use&nbsp;her&nbsp;parallel&nbsp;actions),&nbsp;but&nbsp;the&nbsp;confusion&nbsp;of&nbsp;combat&nbsp;quickly&nbsp;desynchronizes&nbsp;the&nbsp;voyager&nbsp;and&nbsp;her&nbsp;counterparts&nbsp;when&nbsp;initiative&nbsp;is&nbsp;rolled.
+
+      </p><p></p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
+  subType: classFeat
+  tag: parallel-initiative
+type: feat

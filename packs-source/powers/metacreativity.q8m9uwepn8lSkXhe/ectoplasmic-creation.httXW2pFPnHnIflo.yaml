@@ -1,0 +1,75 @@
+_id: httXW2pFPnHnIflo
+_key: '!items!httXW2pFPnHnIflo'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Ectoplasmic_Creation
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Ectoplasmic Creation
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: minute
+      duration:
+        dismiss: true
+        units: hour
+        value: '@cl'
+      name: Use
+      range:
+        units: ft
+        value: 0 ft.
+      save:
+        description: None
+      target:
+        value: >-
+          Unattended, nonpsionic, nonmagical object of nonliving matter, up to 1
+          cu. ft./level
+  description:
+    value: >-
+      <p>You&nbsp;shape&nbsp;raw&nbsp;ectoplasm&nbsp;into&nbsp;a&nbsp;nonmagical,&nbsp;unattended&nbsp;object&nbsp;of&nbsp;nonliving,&nbsp;organic&nbsp;matter.&nbsp;The&nbsp;volume&nbsp;of&nbsp;the&nbsp;item&nbsp;created&nbsp;cannot&nbsp;exceed&nbsp;1&nbsp;cubic&nbsp;foot&nbsp;per&nbsp;manifester&nbsp;level.&nbsp;You&nbsp;must&nbsp;succeed&nbsp;on&nbsp;an&nbsp;appropriate&nbsp;Craft&nbsp;skill&nbsp;check&nbsp;to&nbsp;make&nbsp;a&nbsp;complex&nbsp;item.
+
+      </p>
+
+      <p>Attempting&nbsp;to&nbsp;use&nbsp;any&nbsp;created&nbsp;object&nbsp;as&nbsp;a&nbsp;material&nbsp;component&nbsp;for&nbsp;spells&nbsp;causes&nbsp;the&nbsp;spell&nbsp;to&nbsp;fail.
+
+      </p>
+  discipline: metacreativity
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      empath: 1
+      shaper: 1
+  level: 1
+  manifestTime:
+    units: minute
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '100'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '188'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '37'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  subdiscipline:
+    - creation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

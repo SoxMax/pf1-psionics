@@ -1,0 +1,65 @@
+_id: HLSJDg6WCU1APPVT
+_key: '!items!HLSJDg6WCU1APPVT'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Collateral_Damage
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Collateral Damage
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: swift
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>Your&nbsp;arrows&nbsp;explode&nbsp;on&nbsp;impact,&nbsp;ejecting&nbsp;shards&nbsp;of&nbsp;ectoplasmic&nbsp;energy&nbsp;when&nbsp;they&nbsp;hit.&nbsp;Each&nbsp;attack&nbsp;you&nbsp;make&nbsp;with&nbsp;a&nbsp;ranged&nbsp;or&nbsp;thrown&nbsp;weapon&nbsp;this&nbsp;round&nbsp;causes&nbsp;3d6&nbsp;points&nbsp;of&nbsp;splash&nbsp;damage&nbsp;to&nbsp;the&nbsp;squares&nbsp;adjacent&nbsp;to&nbsp;your&nbsp;target&nbsp;if&nbsp;you&nbsp;hit.&nbsp;The&nbsp;damage&nbsp;dealt&nbsp;is&nbsp;piercing&nbsp;damage&nbsp;and&nbsp;it&nbsp;is&nbsp;treated&nbsp;as&nbsp;if&nbsp;it&nbsp;were&nbsp;of&nbsp;the&nbsp;same&nbsp;material&nbsp;as&nbsp;your&nbsp;ammunition.&nbsp;Thusly&nbsp;an&nbsp;alchemical&nbsp;silver&nbsp;arrow&nbsp;that&nbsp;strikes&nbsp;your&nbsp;target&nbsp;will&nbsp;deal&nbsp;splash&nbsp;damage&nbsp;that&nbsp;bypasses&nbsp;DR/silver.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;arrows&nbsp;miss&nbsp;your&nbsp;target,&nbsp;they&nbsp;do&nbsp;not&nbsp;deal&nbsp;any&nbsp;splash&nbsp;damage.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;two&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;splash&nbsp;damage&nbsp;dealt&nbsp;increases&nbsp;by&nbsp;1d6.
+
+      </p>
+  discipline: metacreativity
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      marksman: 4
+  level: 4
+  manifestTime:
+    units: swift
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '67'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,87 @@
+_id: ewEtsPD8Cj1isWh7
+_key: '!items!ewEtsPD8Cj1isWh7'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Create_Sound
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/sonic/projectile-sound-rings-wave.webp
+name: Create Sound
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      target:
+        value: Sounds; see text
+  description:
+    value: >-
+      <p>You&nbsp;create&nbsp;a&nbsp;volume&nbsp;of&nbsp;sound&nbsp;that&nbsp;rises,&nbsp;recedes,&nbsp;approaches,&nbsp;or&nbsp;remains&nbsp;at&nbsp;a&nbsp;fixed&nbsp;place.&nbsp;You&nbsp;choose&nbsp;what&nbsp;type&nbsp;of&nbsp;sound&nbsp;the&nbsp;power&nbsp;creates&nbsp;when&nbsp;manifesting&nbsp;it&nbsp;and&nbsp;cannot&nbsp;thereafter&nbsp;change&nbsp;its&nbsp;basic&nbsp;character.
+
+      </p>
+
+      <p>The&nbsp;volume&nbsp;of&nbsp;sound&nbsp;created,&nbsp;however,&nbsp;depends&nbsp;on&nbsp;your&nbsp;level.&nbsp;You&nbsp;can&nbsp;produce&nbsp;as&nbsp;much&nbsp;noise&nbsp;as&nbsp;four&nbsp;normal&nbsp;humans&nbsp;per&nbsp;manifester&nbsp;level&nbsp;(maximum&nbsp;twenty&nbsp;humans).&nbsp;Thus,&nbsp;talking,&nbsp;singing,&nbsp;shouting,&nbsp;walking,&nbsp;marching,&nbsp;or&nbsp;running&nbsp;sounds&nbsp;can&nbsp;be&nbsp;created.&nbsp;The&nbsp;noise&nbsp;produced&nbsp;can&nbsp;be&nbsp;virtually&nbsp;any&nbsp;type&nbsp;of&nbsp;sound&nbsp;within&nbsp;the&nbsp;volume&nbsp;limit.&nbsp;A&nbsp;horde&nbsp;of&nbsp;rats&nbsp;running&nbsp;and&nbsp;squeaking&nbsp;is&nbsp;about&nbsp;the&nbsp;same&nbsp;volume&nbsp;as&nbsp;eight&nbsp;humans&nbsp;running&nbsp;and&nbsp;shouting.&nbsp;A&nbsp;roaring&nbsp;lion&nbsp;is&nbsp;equal&nbsp;to&nbsp;the&nbsp;noise&nbsp;from&nbsp;sixteen&nbsp;humans,&nbsp;while&nbsp;a&nbsp;roaring&nbsp;dire&nbsp;lion&nbsp;is&nbsp;equal&nbsp;to&nbsp;the&nbsp;noise&nbsp;from&nbsp;twenty&nbsp;humans.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;wish&nbsp;to&nbsp;create&nbsp;a&nbsp;specific&nbsp;message,&nbsp;up&nbsp;to&nbsp;twenty-five&nbsp;words&nbsp;can&nbsp;be&nbsp;created,&nbsp;and&nbsp;those&nbsp;words&nbsp;repeat&nbsp;over&nbsp;and&nbsp;over&nbsp;until&nbsp;the&nbsp;duration&nbsp;expires&nbsp;or&nbsp;the&nbsp;power&nbsp;is&nbsp;dismissed.&nbsp;If&nbsp;you&nbsp;attempt&nbsp;to&nbsp;exactly&nbsp;duplicate&nbsp;the&nbsp;voice&nbsp;of&nbsp;a&nbsp;specific&nbsp;individual&nbsp;or&nbsp;an&nbsp;inherently&nbsp;terrifying&nbsp;sound&nbsp;(such&nbsp;as&nbsp;a&nbsp;dragon's&nbsp;roar),&nbsp;you&nbsp;must&nbsp;succeed&nbsp;on&nbsp;a&nbsp;Bluff&nbsp;check&nbsp;with&nbsp;a&nbsp;+2&nbsp;circumstance&nbsp;bonus&nbsp;opposed&nbsp;by&nbsp;the&nbsp;listener's&nbsp;Sense&nbsp;Motive&nbsp;check&nbsp;to&nbsp;avoid&nbsp;arousing&nbsp;suspicion.
+
+      </p>
+
+      <p>Create&nbsp;sound&nbsp;can&nbsp;be&nbsp;used&nbsp;to&nbsp;bring&nbsp;sounds&nbsp;into&nbsp;existence&nbsp;that&nbsp;you&nbsp;later&nbsp;manipulate&nbsp;by&nbsp;manifesting&nbsp;control&nbsp;sound.
+
+      </p>
+
+      <p><em>Librarian&nbsp;Note:</em>&nbsp;This&nbsp;had&nbsp;a&nbsp;1st-level&nbsp;power&nbsp;version&nbsp;in&nbsp;Psionics&nbsp;Unleashed,&nbsp;however&nbsp;the&nbsp;only&nbsp;difference&nbsp;is&nbsp;that&nbsp;it&nbsp;was&nbsp;a&nbsp;1st-level&nbsp;psion/wilder&nbsp;power.
+
+      </p>
+  descriptors:
+    - sonic
+  discipline: metacreativity
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      cryptic: 0
+      dread: 0
+      gambler: 0
+      psion: 0
+      thug: 0
+      wilder: 0
+  level: 0
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '91'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 177–178
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  subdiscipline:
+    - creation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

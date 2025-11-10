@@ -1,5 +1,7 @@
 _id: JSeRTM2GrJN4smSJ
 _key: '!items!JSeRTM2GrJN4smSJ'
+_stats:
+  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Ripple_in_Still_Water
@@ -35,15 +37,11 @@ system:
   showInQuickbar: false
   simple: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '6'
       publisher: Dreamscarred Press
       title: 'Divergent Paths: Roil Dancer'
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '81'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Occult Compilation'

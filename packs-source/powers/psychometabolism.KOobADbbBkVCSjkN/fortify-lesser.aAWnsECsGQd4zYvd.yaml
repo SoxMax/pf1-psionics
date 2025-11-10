@@ -1,0 +1,84 @@
+_id: aAWnsECsGQd4zYvd
+_key: '!items!aAWnsECsGQd4zYvd'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Fortify,_Lesser
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Fortify, Lesser
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: One minute
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;imbue&nbsp;yourself&nbsp;with&nbsp;psionic&nbsp;energy&nbsp;that&nbsp;protects&nbsp;you&nbsp;from&nbsp;harm,&nbsp;granting&nbsp;yourself&nbsp;a&nbsp;+1&nbsp;resistance&nbsp;bonus&nbsp;on&nbsp;saves.
+
+      </p>
+  descriptors:
+    - network
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      cryptic: 0
+      dread: 0
+      empath: 0
+      gambler: 0
+      guardian: 0
+      psion: 0
+      psychic warrior: 0
+      tactician: 0
+      thug: 0
+      wilder: 0
+  level: 0
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '36'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Hidden Intentions'
+    - date: '2010-01-01'
+      pages: '29'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+    - date: '2010-01-01'
+      pages: '29'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Pawns and Powers'
+    - date: '2012-07-23'
+      pages: '163'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: '206'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,65 @@
+_id: hebbT7H0yMyLheSS
+_key: '!items!hebbT7H0yMyLheSS'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Decerebrate
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Decerebrate
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude negates
+        type: fort
+      target:
+        value: One living creature
+  description:
+    value: >-
+      <p>With&nbsp;decerebrate,&nbsp;you&nbsp;selectively&nbsp;remove&nbsp;a&nbsp;portion&nbsp;of&nbsp;the&nbsp;subject's&nbsp;brain&nbsp;stem.&nbsp;The&nbsp;creature&nbsp;loses&nbsp;all&nbsp;cerebral&nbsp;function,&nbsp;vision,&nbsp;hearing,&nbsp;and&nbsp;other&nbsp;sensory&nbsp;abilities,&nbsp;and&nbsp;all&nbsp;voluntary&nbsp;motor&nbsp;activity.&nbsp;The&nbsp;subject&nbsp;becomes&nbsp;limp&nbsp;and&nbsp;unresponsive.&nbsp;Without&nbsp;extreme&nbsp;measures,&nbsp;such&nbsp;as&nbsp;greater&nbsp;restoration&nbsp;or&nbsp;some&nbsp;other&nbsp;suitable&nbsp;effect&nbsp;of&nbsp;7th&nbsp;level&nbsp;or&nbsp;higher,&nbsp;the&nbsp;creature&nbsp;perishes&nbsp;in&nbsp;1d4&nbsp;days.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      psion: 7
+      wilder: 7
+  level: 7
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '93'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '180'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  subdiscipline:
+    - teleportation
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

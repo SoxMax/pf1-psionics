@@ -1,5 +1,7 @@
 _id: vlGJFyURubGs2YrJ
 _key: '!items!vlGJFyURubGs2YrJ'
+_stats:
+  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Nightmare_Veil
@@ -35,21 +37,15 @@ system:
   showInQuickbar: false
   simple: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '18'
       publisher: Dreamscarred Press
       title: 'Psionics Expanded: Master the Battle'
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2012-07-23'
       pages: '117'
       publisher: Dreamscarred Press
       title: Psionics Expanded
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2013-12-24'
       pages: '107'
       publisher: Dreamscarred Press
       title: Ultimate Psionics

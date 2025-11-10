@@ -1,0 +1,65 @@
+_id: ngqZgErb5cTlzLFo
+_key: '!items!ngqZgErb5cTlzLFo'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Involuntary_Bodily_Function
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Involuntary Bodily Function
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude negates
+        type: fort
+      target:
+        value: One living creature
+  description:
+    value: >-
+      <p>You&nbsp;trigger&nbsp;a&nbsp;number&nbsp;of&nbsp;involuntary&nbsp;bodily&nbsp;functions&nbsp;in&nbsp;a&nbsp;living&nbsp;target,&nbsp;making&nbsp;them&nbsp;sickened&nbsp;unless&nbsp;they&nbsp;succeed&nbsp;on&nbsp;a&nbsp;Fortitude&nbsp;save.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;any&nbsp;of&nbsp;the&nbsp;following&nbsp;ways
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;3&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;target&nbsp;instead&nbsp;becomes&nbsp;nauseated&nbsp;on&nbsp;a&nbsp;failed&nbsp;save,&nbsp;and&nbsp;falls&nbsp;prone&nbsp;unless&nbsp;they&nbsp;make&nbsp;a&nbsp;successful&nbsp;Reflex&nbsp;save.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;designate&nbsp;one&nbsp;target&nbsp;per&nbsp;manifester&nbsp;level&nbsp;instead&nbsp;of&nbsp;just&nbsp;one.</li></ol>
+  discipline: psychometabolism
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: true
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      psion: 1
+      vitalist: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '75'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

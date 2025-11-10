@@ -1,0 +1,62 @@
+_id: Iv57EvvAO0lTBdmq
+_key: '!items!Iv57EvvAO0lTBdmq'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Autorecall
+folder: KOobADbbBkVCSjkN
+img: icons/magic/holy/angel-winged-humanoid-blue.webp
+name: Autorecall
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: hour
+        value: '@cl'
+      name: Use
+      range:
+        units: long
+        value: Long (400 ft. + 40 ft./level)
+      save:
+        description: None
+      target:
+        value: Your psicrystal
+  description:
+    value: >-
+      <p>You&nbsp;bind&nbsp;yourself&nbsp;to&nbsp;your&nbsp;psicrystal,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;recall&nbsp;the&nbsp;psicrystal&nbsp;to&nbsp;your&nbsp;side&nbsp;with&nbsp;but&nbsp;a&nbsp;thought.&nbsp;As&nbsp;a&nbsp;free&nbsp;action,&nbsp;while&nbsp;the&nbsp;power&nbsp;is&nbsp;in&nbsp;effect&nbsp;and&nbsp;within&nbsp;range,&nbsp;you&nbsp;can&nbsp;recall&nbsp;your&nbsp;psicrystal,&nbsp;instantly&nbsp;teleporting&nbsp;it&nbsp;to&nbsp;your&nbsp;side.&nbsp;When&nbsp;you&nbsp;do,&nbsp;the&nbsp;power&nbsp;ends.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;your&nbsp;psicrystal&nbsp;can&nbsp;trigger&nbsp;the&nbsp;recall&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      psion: 1
+      wilder: 1
+  level: 1
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '11'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Psicrystals'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

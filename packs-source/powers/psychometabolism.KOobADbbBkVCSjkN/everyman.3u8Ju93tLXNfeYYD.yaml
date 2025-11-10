@@ -1,0 +1,94 @@
+_id: 3u8Ju93tLXNfeYYD
+_key: '!items!3u8Ju93tLXNfeYYD'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Everyman
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Everyman
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: hour
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;subtly&nbsp;shift&nbsp;your&nbsp;features&nbsp;and&nbsp;voice,&nbsp;making&nbsp;you&nbsp;less&nbsp;noticeable&nbsp;and&nbsp;granting&nbsp;you&nbsp;a&nbsp;+10&nbsp;circumstance&nbsp;bonus&nbsp;to&nbsp;Disguise&nbsp;checks,&nbsp;although&nbsp;you&nbsp;may&nbsp;not&nbsp;attempt&nbsp;to&nbsp;appear&nbsp;as&nbsp;a&nbsp;certain&nbsp;individual&nbsp;or&nbsp;another&nbsp;race.
+
+      </p>
+
+      <p>This&nbsp;is&nbsp;a&nbsp;minor&nbsp;physical&nbsp;transformation,&nbsp;not&nbsp;an&nbsp;illusion,&nbsp;and&nbsp;as&nbsp;such&nbsp;fools&nbsp;touch&nbsp;as&nbsp;well&nbsp;as&nbsp;sight.
+
+      </p>
+
+      <p>You&nbsp;may&nbsp;alter&nbsp;any&nbsp;skin&nbsp;or&nbsp;facial&nbsp;features&nbsp;to&nbsp;be&nbsp;anything&nbsp;normally&nbsp;possible&nbsp;for&nbsp;the&nbsp;race&nbsp;you&nbsp;appear&nbsp;as.&nbsp;Birthmarks,&nbsp;moles,&nbsp;tattoos,&nbsp;piercings,&nbsp;and&nbsp;other&nbsp;distinguishing&nbsp;features&nbsp;are&nbsp;not&nbsp;visible&nbsp;unless&nbsp;you&nbsp;specifically&nbsp;will&nbsp;it.&nbsp;Psionic&nbsp;tattoos&nbsp;may&nbsp;still&nbsp;be&nbsp;tapped&nbsp;while&nbsp;hidden.
+
+      </p>
+
+      <p>At&nbsp;any&nbsp;point&nbsp;during&nbsp;the&nbsp;power's&nbsp;duration,&nbsp;you&nbsp;may&nbsp;concentrate&nbsp;as&nbsp;a&nbsp;standard&nbsp;action&nbsp;to&nbsp;change&nbsp;your&nbsp;appearance&nbsp;again,&nbsp;including&nbsp;to&nbsp;resemble&nbsp;yourself.
+
+      </p>
+
+      <p>Your&nbsp;clothing&nbsp;and&nbsp;gear&nbsp;are&nbsp;not&nbsp;changed.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;1&nbsp;additional&nbsp;power&nbsp;point,&nbsp;you&nbsp;may&nbsp;use&nbsp;this&nbsp;power&nbsp;to&nbsp;disguise&nbsp;yourself&nbsp;as&nbsp;particular&nbsp;individuals.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;alter&nbsp;your&nbsp;smell&nbsp;to&nbsp;blend&nbsp;in&nbsp;with&nbsp;creatures&nbsp;using&nbsp;the&nbsp;scent&nbsp;ability&nbsp;or&nbsp;who&nbsp;identify&nbsp;individuals&nbsp;by&nbsp;pheromones&nbsp;or&nbsp;other&nbsp;chemical&nbsp;senses.</li></ol>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      psion: 2
+      psychic warrior: 2
+      sighted seeker: 2
+      thug: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '36'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Hidden Intentions'
+    - date: '2012-07-23'
+      pages: '162'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: '201'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '42'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

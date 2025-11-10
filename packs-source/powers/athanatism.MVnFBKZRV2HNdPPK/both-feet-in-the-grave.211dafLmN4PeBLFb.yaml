@@ -1,0 +1,65 @@
+_id: 211dafLmN4PeBLFb
+_key: '!items!211dafLmN4PeBLFb'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Both_Feet_in_the_Grave
+folder: MVnFBKZRV2HNdPPK
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Both Feet in the Grave
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: minute
+      duration:
+        units: inst
+      name: Use
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates; see text
+        type: will
+  description:
+    value: >-
+      <p>As&nbsp;<em><a&nbsp;href="/wiki/Foot_in_the_Grave"&nbsp;title="Foot&nbsp;in&nbsp;the&nbsp;Grave">foot&nbsp;in&nbsp;the&nbsp;grave</a></em>,&nbsp;except&nbsp;as&nbsp;noted&nbsp;here.&nbsp;You&nbsp;permanently&nbsp;exchange&nbsp;bodies&nbsp;with&nbsp;the&nbsp;subject.&nbsp;Since&nbsp;this&nbsp;power's&nbsp;duration&nbsp;is&nbsp;instantaneous,&nbsp;you&nbsp;cannot&nbsp;be&nbsp;forced&nbsp;to&nbsp;return&nbsp;to&nbsp;your&nbsp;natural&nbsp;body&nbsp;by&nbsp;means&nbsp;of&nbsp;<em><a&nbsp;href="/wiki/Dispel_Psionics"&nbsp;title="Dispel&nbsp;Psionics">dispel&nbsp;psionics</a></em>,&nbsp;an&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/SpellDisplay.aspx?ItemName=antimagic%20field"><em>antimagic&nbsp;field</em></a>,&nbsp;or&nbsp;a&nbsp;similar&nbsp;effect.&nbsp;If&nbsp;the&nbsp;subject's&nbsp;body&nbsp;dies&nbsp;while&nbsp;you&nbsp;are&nbsp;in&nbsp;it,&nbsp;you&nbsp;are&nbsp;dead.&nbsp;The&nbsp;subject&nbsp;immediately&nbsp;suffers&nbsp;one&nbsp;permanent&nbsp;negative&nbsp;level,&nbsp;but&nbsp;otherwise&nbsp;survives&nbsp;the&nbsp;experience&nbsp;in&nbsp;your&nbsp;natural&nbsp;body.&nbsp;If&nbsp;your&nbsp;natural&nbsp;body&nbsp;dies&nbsp;while&nbsp;the&nbsp;subject&nbsp;is&nbsp;in&nbsp;it,&nbsp;you&nbsp;immediately&nbsp;suffer&nbsp;two&nbsp;permanent&nbsp;negative&nbsp;levels,&nbsp;but&nbsp;you&nbsp;likewise&nbsp;survive&nbsp;the&nbsp;experience&nbsp;in&nbsp;your&nbsp;new&nbsp;body.&nbsp;Negative&nbsp;levels&nbsp;gained&nbsp;in&nbsp;this&nbsp;way&nbsp;may&nbsp;only&nbsp;be&nbsp;cured&nbsp;by&nbsp;powerful&nbsp;healing,&nbsp;such&nbsp;as&nbsp;cleanse&nbsp;spirit,&nbsp;greater&nbsp;restoration&nbsp;or&nbsp;restoration;&nbsp;they&nbsp;do&nbsp;not&nbsp;fade&nbsp;over&nbsp;time.
+
+      </p>
+
+      <p>Your&nbsp;"natural"&nbsp;body&nbsp;is&nbsp;always&nbsp;considered&nbsp;to&nbsp;be&nbsp;the&nbsp;last&nbsp;one&nbsp;you&nbsp;switched&nbsp;out&nbsp;of.&nbsp;If&nbsp;you&nbsp;exchange&nbsp;bodies&nbsp;with&nbsp;a&nbsp;chain&nbsp;of&nbsp;multiple&nbsp;subjects,&nbsp;you&nbsp;need&nbsp;worry&nbsp;only&nbsp;about&nbsp;the&nbsp;welfare&nbsp;of&nbsp;the&nbsp;last&nbsp;body&nbsp;you&nbsp;switched&nbsp;with.&nbsp;In&nbsp;other&nbsp;words,&nbsp;if&nbsp;your&nbsp;mind&nbsp;is&nbsp;expelled&nbsp;from&nbsp;your&nbsp;current&nbsp;body,&nbsp;your&nbsp;mind&nbsp;returns&nbsp;to&nbsp;the&nbsp;last&nbsp;body&nbsp;you&nbsp;switched&nbsp;with,&nbsp;not&nbsp;to&nbsp;your&nbsp;original&nbsp;body.&nbsp;Similarly,&nbsp;if&nbsp;your&nbsp;original&nbsp;body&nbsp;dies&nbsp;but&nbsp;you&nbsp;have&nbsp;since&nbsp;switched&nbsp;minds&nbsp;with&nbsp;a&nbsp;second&nbsp;subject,&nbsp;you&nbsp;take&nbsp;no&nbsp;penalty.&nbsp;You&nbsp;suffer&nbsp;permanent&nbsp;negative&nbsp;levels&nbsp;only&nbsp;if&nbsp;the&nbsp;body&nbsp;you&nbsp;inhabited&nbsp;immediately&nbsp;prior&nbsp;to&nbsp;your&nbsp;current&nbsp;body&nbsp;is&nbsp;killed.
+
+      </p>
+
+      <p>You&nbsp;suffer&nbsp;two&nbsp;temporary&nbsp;negative&nbsp;levels&nbsp;upon&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;as&nbsp;your&nbsp;mind&nbsp;adjusts&nbsp;to&nbsp;controlling&nbsp;a&nbsp;new&nbsp;body.&nbsp;These&nbsp;negative&nbsp;levels&nbsp;cannot&nbsp;be&nbsp;cured,&nbsp;but&nbsp;fade&nbsp;at&nbsp;a&nbsp;rate&nbsp;of&nbsp;one&nbsp;every&nbsp;24&nbsp;hours.
+
+      </p>
+
+      <p>If&nbsp;you&nbsp;successfully&nbsp;use&nbsp;both&nbsp;feet&nbsp;in&nbsp;the&nbsp;grave&nbsp;while&nbsp;under&nbsp;the&nbsp;effect&nbsp;of&nbsp;foot&nbsp;in&nbsp;the&nbsp;grave,&nbsp;the&nbsp;original&nbsp;target&nbsp;of&nbsp;foot&nbsp;in&nbsp;the&nbsp;grave&nbsp;is&nbsp;returned&nbsp;to&nbsp;its&nbsp;original&nbsp;body,&nbsp;the&nbsp;new&nbsp;target&nbsp;of&nbsp;both&nbsp;feet&nbsp;in&nbsp;the&nbsp;grave&nbsp;occupies&nbsp;your&nbsp;original&nbsp;body,&nbsp;and&nbsp;you&nbsp;occupy&nbsp;the&nbsp;body&nbsp;of&nbsp;the&nbsp;target&nbsp;of&nbsp;both&nbsp;feet&nbsp;in&nbsp;the&nbsp;grave.
+
+      </p>
+  discipline: athanatism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      conduit: 9
+  level: 9
+  manifestTime:
+    units: minute
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: 24–25
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Seventh Path'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,115 @@
+_id: nJsAK1vlf43hcrVq
+_key: '!items!nJsAK1vlf43hcrVq'
+_stats:
+  coreVersion: '13.350'
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Cryptic
+system:
+  armorProf:
+    - lgt
+  bab: low
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      </p><p>The&nbsp;very&nbsp;fabric&nbsp;of&nbsp;the&nbsp;world&nbsp;is&nbsp;visible&nbsp;through&nbsp;the&nbsp;eyes&nbsp;of&nbsp;the&nbsp;cryptic,&nbsp;who&nbsp;sees&nbsp;all&nbsp;things&nbsp;as&nbsp;patterns&nbsp;of&nbsp;energies&nbsp;that&nbsp;can&nbsp;be&nbsp;understood&nbsp;and&nbsp;manipulated.&nbsp;This&nbsp;unique&nbsp;insight&nbsp;allows&nbsp;the&nbsp;cryptic&nbsp;the&nbsp;ability&nbsp;to&nbsp;foresee&nbsp;events&nbsp;and&nbsp;even&nbsp;manipulate&nbsp;the&nbsp;energy&nbsp;of&nbsp;her&nbsp;surroundings&nbsp;to&nbsp;accomplish&nbsp;her&nbsp;tasks.&nbsp;Whether&nbsp;it&nbsp;is&nbsp;knowing&nbsp;where&nbsp;to&nbsp;step&nbsp;to&nbsp;avoid&nbsp;being&nbsp;seen,&nbsp;where&nbsp;to&nbsp;place&nbsp;an&nbsp;attack&nbsp;for&nbsp;maximum&nbsp;effect,&nbsp;or&nbsp;how&nbsp;to&nbsp;temporarily&nbsp;alter&nbsp;the&nbsp;laws&nbsp;of&nbsp;physics,&nbsp;the&nbsp;cryptic&nbsp;is&nbsp;a&nbsp;master&nbsp;of&nbsp;any&nbsp;pattern&nbsp;she&nbsp;sees.&nbsp;</p><p><b>Role:</b>&nbsp;The&nbsp;cryptic&nbsp;excels&nbsp;as&nbsp;a&nbsp;finder&nbsp;of&nbsp;dangers&nbsp;and&nbsp;at&nbsp;remaining&nbsp;undetected&nbsp;even&nbsp;in&nbsp;the&nbsp;most&nbsp;difficult&nbsp;locations.&nbsp;With&nbsp;modest&nbsp;combat&nbsp;prowess,&nbsp;a&nbsp;cryptic&nbsp;can&nbsp;help&nbsp;her&nbsp;allies&nbsp;defeat&nbsp;enemies,&nbsp;although&nbsp;her&nbsp;limited&nbsp;defensive&nbsp;capabilities&nbsp;means&nbsp;she&nbsp;needs&nbsp;to&nbsp;avoid&nbsp;becoming&nbsp;the&nbsp;main&nbsp;target&nbsp;of&nbsp;her&nbsp;opponents.&nbsp;</p><p><b>Alignment</b>:&nbsp;Any.&nbsp;</p><p><b>Hit&nbsp;Die</b>:&nbsp;d8.&nbsp;</p><p><b>Starting&nbsp;Wealth</b>:&nbsp;3d6&nbsp;x&nbsp;10&nbsp;(average&nbsp;105gp)&nbsp;In&nbsp;addition,&nbsp;each&nbsp;character&nbsp;begins&nbsp;play&nbsp;with&nbsp;an&nbsp;outfit&nbsp;worth&nbsp;10&nbsp;gp&nbsp;or&nbsp;less.&nbsp;</p><p><b>Class&nbsp;Skills:&nbsp;</b>The&nbsp;cryptic's&nbsp;class&nbsp;skills&nbsp;are&nbsp;Acrobatics&nbsp;(Dex),&nbsp;Appraise&nbsp;(Int),&nbsp;Autohypnosis&nbsp;(Wis),&nbsp;Climb&nbsp;(Str),&nbsp;Craft&nbsp;(Int),&nbsp;Disable&nbsp;Device&nbsp;(Dex),&nbsp;Disguise&nbsp;(Cha),&nbsp;Escape&nbsp;Artist&nbsp;(Dex),&nbsp;Knowledge&nbsp;(all)&nbsp;(Int),&nbsp;Linguistics&nbsp;(Int),&nbsp;Perception&nbsp;(Wis),&nbsp;Perform&nbsp;(Cha),&nbsp;Profession&nbsp;(Wis),&nbsp;Sense&nbsp;Motive&nbsp;(Wis),&nbsp;Sleight&nbsp;of&nbsp;Hand&nbsp;(Dex),&nbsp;Spellcraft&nbsp;(Int),&nbsp;Stealth&nbsp;(Dex),&nbsp;Swim&nbsp;(Str),&nbsp;and&nbsp;Use&nbsp;Magic&nbsp;Device(Cha).&nbsp;</p><p><b>Skill&nbsp;Ranks&nbsp;per&nbsp;Level</b>:&nbsp;4&nbsp;+&nbsp;Int&nbsp;modifier.&nbsp;</p>
+  hd: 6
+  hp: 6
+  level: 1
+  links:
+    classAssociations:
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.EWyDoXO2YYbXJbP4
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.WJ6QtW6hOmZAw2Mg
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.6YhTQTB3CF5ZgKks
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.622idgsxJ3jO4qFR
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.OVypmaOzrCayrnIG
+      - level: 1
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Pf00WbbTGHaCi6JC
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.EyFJ2zzDiMRtqD6R
+      - level: 2
+        uuid: Compendium.pf1-psionics.class-abilities.Item.ClPYiCjptyJIG21N
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.RJoyTU9KFHyNlwrx
+      - level: 3
+        uuid: Compendium.pf1-psionics.class-abilities.Item.DCaBVimDZB8tgD3A
+      - level: 4
+        uuid: Compendium.pf1-psionics.class-abilities.Item.UYVn0EWdxc1VLk6b
+      - level: 6
+        uuid: Compendium.pf1-psionics.class-abilities.Item.rEDcLq707LjOYAfS
+      - level: 14
+        uuid: Compendium.pf1-psionics.class-abilities.Item.s96muA5NxHUQUIx9
+      - level: 18
+        uuid: Compendium.pf1-psionics.class-abilities.Item.cUOEYJWXNhlABszP
+      - level: 20
+        uuid: Compendium.pf1-psionics.class-abilities.Item.Fpmk7td5TrzUB3An
+  manifesting:
+    ability: wis
+    cantrips: true
+    progression: high
+  savingThrows:
+    fort:
+      value: low
+    ref:
+      value: high
+    will:
+      value: high
+  skillsPerLevel: 2
+  sources:
+    - date: '2012-07-23'
+      pages: 36–42
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 34–40
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: base
+  tag: cryptic
+  wealth: 2d6 * 10
+  weaponProf:
+    - simple
+type: class

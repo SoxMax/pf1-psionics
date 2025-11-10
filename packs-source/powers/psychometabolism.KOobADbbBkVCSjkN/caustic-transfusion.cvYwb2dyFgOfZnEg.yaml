@@ -1,0 +1,81 @@
+_id: cvYwb2dyFgOfZnEg
+_key: '!items!cvYwb2dyFgOfZnEg'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Caustic_Transfusion
+folder: KOobADbbBkVCSjkN
+img: icons/magic/unholy/projectile-missile-green.webp
+name: Caustic Transfusion
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      damage:
+        parts:
+          - - 2d6
+            - acid
+      duration:
+        concentration: true
+        units: conc
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude partial (see text)
+        type: fort
+      target:
+        value: One creature (see text)
+  description:
+    value: >-
+      <p>You&nbsp;convert&nbsp;large&nbsp;portions&nbsp;of&nbsp;your&nbsp;target's&nbsp;blood&nbsp;to&nbsp;a&nbsp;caustic&nbsp;fluid,&nbsp;wracking&nbsp;them&nbsp;with&nbsp;pain&nbsp;and&nbsp;misery.&nbsp;The&nbsp;target&nbsp;takes&nbsp;2d6&nbsp;acid&nbsp;damage&nbsp;at&nbsp;the&nbsp;start&nbsp;of&nbsp;their&nbsp;turn&nbsp;and&nbsp;becomes&nbsp;fatigued&nbsp;until&nbsp;the&nbsp;beginning&nbsp;of&nbsp;their&nbsp;text&nbsp;turn.&nbsp;A&nbsp;successful&nbsp;Fortitude&nbsp;save&nbsp;halves&nbsp;the&nbsp;damage&nbsp;and&nbsp;negates&nbsp;the&nbsp;fatigued&nbsp;condition.&nbsp;If&nbsp;the&nbsp;target&nbsp;is&nbsp;suffering&nbsp;bleed&nbsp;damage&nbsp;at&nbsp;the&nbsp;beginning&nbsp;of&nbsp;its&nbsp;turn,&nbsp;adjacent&nbsp;creatures&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Reflex&nbsp;save&nbsp;or&nbsp;suffer&nbsp;the&nbsp;damage&nbsp;dealt&nbsp;by&nbsp;this&nbsp;power&nbsp;as&nbsp;well.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;the&nbsp;following&nbsp;ways:
+
+      </p><ul><li>For&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;its&nbsp;damage&nbsp;increases&nbsp;by&nbsp;one&nbsp;die&nbsp;(d6).</li><li>If&nbsp;you&nbsp;spend&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;victims&nbsp;that&nbsp;fail&nbsp;their&nbsp;saving&nbsp;throws&nbsp;also&nbsp;become&nbsp;nauseated&nbsp;for&nbsp;1&nbsp;round.</li></ul>
+
+      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;spent&nbsp;to&nbsp;achieve&nbsp;either&nbsp;of&nbsp;these&nbsp;results,&nbsp;increase&nbsp;the&nbsp;save&nbsp;DC&nbsp;of&nbsp;this&nbsp;power&nbsp;by&nbsp;1.
+
+      </p>
+  descriptors:
+    - acid
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      dread: 3
+      psion: 3
+      thug: 3
+      vitalist: 3
+      wilder: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '52'
+      publisher: Dreamscarred Press
+      title: Lords of the Night
+    - date: '2010-01-01'
+      pages: 66–67
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

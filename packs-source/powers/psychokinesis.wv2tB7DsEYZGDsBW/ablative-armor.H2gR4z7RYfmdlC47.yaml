@@ -1,0 +1,68 @@
+_id: H2gR4z7RYfmdlC47
+_key: '!items!H2gR4z7RYfmdlC47'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Ablative_Armor
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+name: Ablative Armor
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: minute
+        value: 10 * @cl
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>A&nbsp;heat-haze&nbsp;of&nbsp;warped&nbsp;space&nbsp;surrounds&nbsp;your&nbsp;armor,&nbsp;hinting&nbsp;that&nbsp;it&nbsp;has&nbsp;been&nbsp;enhanced&nbsp;beyond&nbsp;expectations.&nbsp;You&nbsp;must&nbsp;be&nbsp;wearing&nbsp;a&nbsp;suit&nbsp;of&nbsp;armor&nbsp;(or&nbsp;benefiting&nbsp;from&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/SpellDisplay.aspx?ItemName=inertial%20armor"><em>inertial&nbsp;armor</em></a>&nbsp;or&nbsp;similar&nbsp;effect)&nbsp;or&nbsp;wearing&nbsp;bracers&nbsp;of&nbsp;armor&nbsp;(or&nbsp;similar&nbsp;item&nbsp;that&nbsp;grants&nbsp;an&nbsp;armor&nbsp;bonus&nbsp;to&nbsp;AC)&nbsp;to&nbsp;manifest&nbsp;this&nbsp;power.&nbsp;Your&nbsp;armor&nbsp;bonus&nbsp;to&nbsp;AC&nbsp;increases&nbsp;by&nbsp;two.&nbsp;Each&nbsp;time&nbsp;you&nbsp;are&nbsp;successfully&nbsp;hit&nbsp;by&nbsp;an&nbsp;attack&nbsp;(other&nbsp;than&nbsp;an&nbsp;attack&nbsp;that&nbsp;targets&nbsp;touch&nbsp;AC)&nbsp;the&nbsp;improvement&nbsp;granted&nbsp;by&nbsp;ablative&nbsp;armor&nbsp;is&nbsp;reduced&nbsp;by&nbsp;one.&nbsp;Once&nbsp;your&nbsp;improvement&nbsp;from&nbsp;ablative&nbsp;armor&nbsp;is&nbsp;reduced&nbsp;to&nbsp;zero,&nbsp;this&nbsp;power&nbsp;ends.
+
+      </p>
+
+      <p>While&nbsp;under&nbsp;the&nbsp;effect&nbsp;of&nbsp;this&nbsp;power,&nbsp;your&nbsp;armor&nbsp;is&nbsp;also&nbsp;treated&nbsp;as&nbsp;if&nbsp;it&nbsp;had&nbsp;the&nbsp;ghost&nbsp;touch&nbsp;property.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;three&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;improvement&nbsp;granted&nbsp;by&nbsp;this&nbsp;power&nbsp;increases&nbsp;by&nbsp;one.
+
+      </p>
+  descriptors:
+    - force
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      psychic warrior: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '60'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

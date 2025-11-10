@@ -1,0 +1,151 @@
+_id: 0mTqcH57gFX7d1UA
+_key: '!items!0mTqcH57gFX7d1UA'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Incarnate
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Incarnate
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 2
+        type: round
+      duration:
+        units: perm
+      name: Use
+      range:
+        units: ft
+        value: See text
+      save:
+        description: None
+      target:
+        value: See text
+  description:
+    value: >-
+      <p>This&nbsp;power&nbsp;makes&nbsp;certain&nbsp;other&nbsp;powers&nbsp;permanent&nbsp;by&nbsp;mimicking&nbsp;the&nbsp;qualities&nbsp;of&nbsp;psionic&nbsp;tattoos.&nbsp;Depending&nbsp;on&nbsp;the&nbsp;power&nbsp;to&nbsp;be&nbsp;affected,&nbsp;you&nbsp;must&nbsp;be&nbsp;of&nbsp;a&nbsp;minimum&nbsp;manifester&nbsp;level&nbsp;and&nbsp;must&nbsp;expend&nbsp;a&nbsp;specific&nbsp;gp&nbsp;value&nbsp;of&nbsp;diamond&nbsp;dust&nbsp;and&nbsp;tattoo&nbsp;ink.
+
+      </p>
+
+      <p>You&nbsp;can&nbsp;make&nbsp;the&nbsp;powers&nbsp;on&nbsp;the&nbsp;incarnate&nbsp;power&nbsp;list&nbsp;permanent&nbsp;only&nbsp;in&nbsp;regard&nbsp;to&nbsp;yourself,&nbsp;and&nbsp;must&nbsp;have&nbsp;a&nbsp;manifester&nbsp;level&nbsp;at&nbsp;least&nbsp;8&nbsp;higher&nbsp;than&nbsp;the&nbsp;level&nbsp;of&nbsp;the&nbsp;power&nbsp;to&nbsp;be&nbsp;made&nbsp;permanent.&nbsp;Powers&nbsp;made&nbsp;permanent&nbsp;in&nbsp;this&nbsp;way&nbsp;can&nbsp;be&nbsp;dispelled&nbsp;only&nbsp;by&nbsp;a&nbsp;manifester&nbsp;of&nbsp;higher&nbsp;level&nbsp;than&nbsp;you&nbsp;were&nbsp;when&nbsp;you&nbsp;manifested&nbsp;the&nbsp;power.&nbsp;Powers&nbsp;made&nbsp;permanent&nbsp;by&nbsp;incarnate&nbsp;are&nbsp;not&nbsp;shared&nbsp;through&nbsp;the&nbsp;fission&nbsp;power,&nbsp;and&nbsp;the&nbsp;effect&nbsp;does&nbsp;not&nbsp;end&nbsp;when&nbsp;fission&nbsp;ends.
+
+      </p>
+
+      <p>You&nbsp;manifest&nbsp;the&nbsp;desired&nbsp;power&nbsp;and&nbsp;then&nbsp;follow&nbsp;it&nbsp;with&nbsp;the&nbsp;incarnate&nbsp;manifestation.
+
+      </p>
+
+      <p>Additionally,&nbsp;at&nbsp;the&nbsp;GM's&nbsp;discretion,&nbsp;additional&nbsp;powers&nbsp;may&nbsp;be&nbsp;made&nbsp;permanent&nbsp;using&nbsp;the&nbsp;following&nbsp;formula:&nbsp;GP&nbsp;cost&nbsp;=&nbsp;(Minimum&nbsp;Manifester&nbsp;Level&nbsp;–&nbsp;8)&nbsp;x&nbsp;2,500&nbsp;GP.&nbsp;Should&nbsp;the&nbsp;power&nbsp;being&nbsp;made&nbsp;permanent&nbsp;be&nbsp;augmented,&nbsp;increase&nbsp;the&nbsp;GP&nbsp;cost&nbsp;by&nbsp;1,250&nbsp;GP&nbsp;for&nbsp;every&nbsp;power&nbsp;point&nbsp;spent&nbsp;on&nbsp;augmentation.
+
+      </p><table><caption>Incarnate&nbsp;Power&nbsp;List
+
+      </caption><tr><td>Power
+
+      </td><td>Minimum&nbsp;Manifester&nbsp;Level
+
+      </td><td>GP&nbsp;Cost
+
+      </td></tr><tr><td><em><a&nbsp;href="/wiki/Aura_Sight"&nbsp;title="Aura&nbsp;Sight">aura&nbsp;sight</a></em></td><td>15th
+
+      </td><td>17,500&nbsp;GP
+
+      </td></tr><tr><td><em><a&nbsp;href="/wiki/Compression"&nbsp;title="Compression">compression</a></em></td><td>9th
+
+      </td><td>2,500&nbsp;gp
+
+      </td></tr><tr><td><em><a&nbsp;href="/wiki/Conceal_Thoughts"&nbsp;title="Conceal&nbsp;Thoughts">conceal&nbsp;thoughts</a></em></td><td>9th
+
+      </td><td>2,500&nbsp;GP
+
+      </td></tr><tr><td><em><a&nbsp;href="/wiki/Correspond"&nbsp;title="Correspond">correspond</a></em></td><td>10th
+
+      </td><td>5,000&nbsp;GP
+
+      </td></tr><tr><td><em><a&nbsp;href="/wiki/Danger_Sense"&nbsp;title="Danger&nbsp;Sense">danger&nbsp;sense</a></em></td><td>13th
+
+      </td><td>12,500&nbsp;GP
+
+      </td></tr><tr><td><em><a&nbsp;href="/wiki/Detect_Psionics"&nbsp;title="Detect&nbsp;Psionics">detect&nbsp;psionics</a></em></td><td>9th
+
+      </td><td>2,500&nbsp;GP
+
+      </td></tr><tr><td><em><a&nbsp;href="/wiki/Detect_Remote_Viewing"&nbsp;title="Detect&nbsp;Remote&nbsp;Viewing">detect&nbsp;remote&nbsp;viewing</a></em></td><td>12th
+
+      </td><td>10,000&nbsp;GP
+
+      </td></tr><tr><td><em><a&nbsp;href="/wiki/Detect_Teleportation"&nbsp;title="Detect&nbsp;Teleportation">detect&nbsp;teleportation</a></em></td><td>9th
+
+      </td><td>2,500&nbsp;GP
+
+      </td></tr><tr><td><em><a&nbsp;href="/wiki/Elfsight"&nbsp;title="Elfsight">elfsight</a></em></td><td>10th
+
+      </td><td>5,000&nbsp;GP
+
+      </td></tr><tr><td><em><a&nbsp;href="/wiki/Expansion,_Karak%27s"&nbsp;title="Expansion,&nbsp;Karak's">expansion,&nbsp;karak's</a></em></td><td>9th
+
+      </td><td>2,500&nbsp;GP
+
+      </td></tr><tr><td><em><a&nbsp;href="/wiki/Heightened_Vision"&nbsp;title="Heightened&nbsp;Vision">heightened&nbsp;vision</a></em></td><td>11th
+
+      </td><td>12,500&nbsp;GP
+
+      </td></tr><tr><td><em><a&nbsp;href="/wiki/Know_Direction_and_Location"&nbsp;title="Know&nbsp;Direction&nbsp;and&nbsp;Location">know&nbsp;direction&nbsp;and&nbsp;location</a></em></td><td>9th
+
+      </td><td>2,500&nbsp;GP
+
+      </td></tr><tr><td><em><a&nbsp;href="/wiki/Metaphysical_Claw"&nbsp;title="Metaphysical&nbsp;Claw">metaphysical&nbsp;claw</a></em></td><td>9th
+
+      </td><td>2,500&nbsp;gp
+
+      </td></tr><tr><td><em><a&nbsp;href="/wiki/My_Light"&nbsp;title="My&nbsp;Light">my&nbsp;light</a></em></td><td>9th
+
+      </td><td>2,500&nbsp;GP
+
+      </td></tr><tr><td><em><a&nbsp;href="/wiki/Ubiquitous_Vision"&nbsp;title="Ubiquitous&nbsp;Vision">ubiquitous&nbsp;vision</a></em></td><td>11th
+
+      </td><td>7,500&nbsp;GP
+
+      </td></tr><tr><td><em><a&nbsp;href="/wiki/Wall_of_Ectoplasm"&nbsp;title="Wall&nbsp;of&nbsp;Ectoplasm">wall&nbsp;of&nbsp;ectoplasm</a></em></td><td>12th
+
+      </td><td>10,000&nbsp;GP
+
+      </td></tr></table>
+  discipline: metacreativity
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      psion: 5
+      tactician: 5
+      vitalist: 5
+      wilder: 5
+  level: 5
+  manifestTime:
+    units: round
+    value: 2
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '119'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '212'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: 44–45
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -1,0 +1,75 @@
+_id: ZUCaubQjdcOyDD5m
+_key: '!items!ZUCaubQjdcOyDD5m'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Bore
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Bore
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        concentration: true
+        units: conc
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        description: None
+      target:
+        value: One touched solid surface
+  description:
+    value: >-
+      <p>The&nbsp;seemingly&nbsp;impenetrable&nbsp;solid&nbsp;surface&nbsp;before&nbsp;you&nbsp;frosts&nbsp;over&nbsp;with&nbsp;a&nbsp;sheet&nbsp;of&nbsp;ice&nbsp;crystals&nbsp;which&nbsp;upon&nbsp;deeper&nbsp;inspection&nbsp;can&nbsp;be&nbsp;seen&nbsp;to&nbsp;hold&nbsp;images&nbsp;of&nbsp;another&nbsp;place.&nbsp;You&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;on&nbsp;a&nbsp;wall,&nbsp;door,&nbsp;or&nbsp;similar&nbsp;surface,&nbsp;creating&nbsp;a&nbsp;virtual&nbsp;pinhole&nbsp;through&nbsp;to&nbsp;the&nbsp;other&nbsp;side.&nbsp;This&nbsp;hole&nbsp;is&nbsp;up&nbsp;to&nbsp;one&nbsp;inch&nbsp;in&nbsp;diameter&nbsp;and&nbsp;is&nbsp;only&nbsp;visible&nbsp;from&nbsp;your&nbsp;side&nbsp;of&nbsp;the&nbsp;surface.&nbsp;You&nbsp;can&nbsp;see&nbsp;through&nbsp;this&nbsp;hole&nbsp;but&nbsp;not&nbsp;hear&nbsp;through&nbsp;it,&nbsp;nor&nbsp;can&nbsp;you&nbsp;pass&nbsp;items&nbsp;through&nbsp;the&nbsp;crystals.
+
+      </p>
+
+      <p>This&nbsp;power&nbsp;does&nbsp;not&nbsp;provide&nbsp;illumination&nbsp;to&nbsp;the&nbsp;other&nbsp;side,&nbsp;but&nbsp;alternate&nbsp;means&nbsp;of&nbsp;vision&nbsp;such&nbsp;as&nbsp;darkvision&nbsp;function&nbsp;as&nbsp;expected.&nbsp;Also,&nbsp;the&nbsp;vision&nbsp;of&nbsp;the&nbsp;other&nbsp;side&nbsp;is&nbsp;tuned&nbsp;to&nbsp;your&nbsp;psyche,&nbsp;providing&nbsp;only&nbsp;a&nbsp;scrambled&nbsp;blur&nbsp;of&nbsp;color&nbsp;to&nbsp;anyone&nbsp;other&nbsp;than&nbsp;you&nbsp;who&nbsp;attempts&nbsp;to&nbsp;see&nbsp;through.
+
+      </p>
+
+      <p><em>Bore&nbsp;</em>is&nbsp;blocked&nbsp;by&nbsp;stone&nbsp;thicker&nbsp;than&nbsp;1&nbsp;foot,&nbsp;common&nbsp;metal&nbsp;thicker&nbsp;than&nbsp;one&nbsp;inch,&nbsp;a&nbsp;thin&nbsp;sheet&nbsp;of&nbsp;lead,&nbsp;or&nbsp;by&nbsp;wood&nbsp;or&nbsp;dirt&nbsp;thicker&nbsp;than&nbsp;3&nbsp;feet.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>For&nbsp;each&nbsp;additional&nbsp;five&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;thickness&nbsp;of&nbsp;the&nbsp;materials&nbsp;<em>bore&nbsp;</em>can&nbsp;penetrate&nbsp;are&nbsp;doubled.
+
+      </p>
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      seer: 2
+      thug: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '7'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: '2010-01-01'
+      pages: '64'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

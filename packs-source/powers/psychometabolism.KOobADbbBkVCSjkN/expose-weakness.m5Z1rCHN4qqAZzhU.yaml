@@ -1,0 +1,74 @@
+_id: m5Z1rCHN4qqAZzhU
+_key: '!items!m5Z1rCHN4qqAZzhU'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Expose_Weakness
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Expose Weakness
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: '1'
+      name: Use
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude negates
+        type: fort
+      target:
+        value: One creature
+  description:
+    value: >-
+      <p>The&nbsp;target&nbsp;of&nbsp;the&nbsp;power&nbsp;becomes&nbsp;clumsy&nbsp;and&nbsp;moves&nbsp;in&nbsp;the&nbsp;worst&nbsp;possible&nbsp;way&nbsp;when&nbsp;attacked.&nbsp;The&nbsp;target&nbsp;is&nbsp;considered&nbsp;flanked&nbsp;to&nbsp;all&nbsp;attackers&nbsp;and&nbsp;all&nbsp;attacks&nbsp;on&nbsp;the&nbsp;subject&nbsp;gain&nbsp;a&nbsp;+4&nbsp;circumstance&nbsp;bonus&nbsp;to&nbsp;confirm&nbsp;critical&nbsp;hits.&nbsp;Any&nbsp;fortification&nbsp;against&nbsp;sneak&nbsp;attacks&nbsp;and&nbsp;critical&nbsp;hits&nbsp;must&nbsp;be&nbsp;rolled&nbsp;twice,&nbsp;with&nbsp;the&nbsp;worse&nbsp;roll&nbsp;used&nbsp;to&nbsp;determine&nbsp;if&nbsp;the&nbsp;extra&nbsp;damage&nbsp;is&nbsp;negated.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;the&nbsp;target&nbsp;is&nbsp;considered&nbsp;flat-footed&nbsp;rather&nbsp;than&nbsp;flanked.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      egoist: 3
+      psychic warrior: 3
+      tactician: 3
+      voyager: 3
+  level: 3
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '18'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Pawns and Powers'
+    - date: '2012-07-23'
+      pages: '162'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 201–202
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

@@ -129,12 +129,25 @@ function sanitizePackEntry(entry, documentType = "", { childDocument = false } =
     if (Object.keys(entry.flags).length === 0) delete entry.flags;
   }
 
-  // Sanitize HTML fields
-  if (entry.system?.description?.value) {
-    entry.system.description.value = sanitizeHTML(entry.system.description.value);
-  }
-  if (entry.system?.description?.augment) {
-    entry.system.description.augment = sanitizeHTML(entry.system.description.augment);
+  // Sanitize HTML fields based on document type
+  const htmlFields = {
+    class: ["system.description.value", "system.description.summary"],
+    feat: ["system.description.value"],
+    default: ["system.description.value", "system.description.augment"],
+  };
+
+  const fieldsToSanitize = htmlFields[entry.type] || htmlFields.default;
+  for (const fieldPath of fieldsToSanitize) {
+    const parts = fieldPath.split(".");
+    let obj = entry;
+    for (let i = 0; i < parts.length - 1; i++) {
+      if (!obj[parts[i]]) break;
+      obj = obj[parts[i]];
+    }
+    const lastPart = parts[parts.length - 1];
+    if (obj && obj[lastPart]) {
+      obj[lastPart] = sanitizeHTML(obj[lastPart]);
+    }
   }
 
   // Sanitize actions
@@ -148,8 +161,20 @@ function sanitizePackEntry(entry, documentType = "", { childDocument = false } =
       if (action.activation?.cost === null) {
         delete action.activation.cost;
       }
+      // Clean up unchained activation cost nulls
+      if (action.activation?.unchained?.cost === null) {
+        delete action.activation.unchained.cost;
+      }
       pruneObject(action);
     }
+  }
+
+  // For class items, sanitize the classAssociations links
+  if (entry.type === "class" && entry.system?.links?.classAssociations) {
+    // Ensure each association has level and uuid
+    entry.system.links.classAssociations = entry.system.links.classAssociations.filter(
+      assoc => assoc.level !== null && assoc.uuid
+    );
   }
 
   // Remove folder if null or is child document
@@ -160,26 +185,6 @@ function sanitizePackEntry(entry, documentType = "", { childDocument = false } =
   return entry;
 }
 
-/**
- * Get folder name for a power based on its discipline
- */
-function getFolderForPower(power) {
-  const discipline = power.system?.discipline;
-  if (!discipline) return null;
-
-  // Map discipline to folder name
-  const disciplineMap = {
-    "ath": "athanatism",
-    "clr": "clairsentience",
-    "met": "metacreativity",
-    "pki": "psychokinesis",
-    "pmb": "psychometabolism",
-    "ppo": "psychoportation",
-    "tel": "telepathy"
-  };
-
-  return disciplineMap[discipline] || null;
-}
 
 /**
  * Extract packs from LevelDB to YAML
@@ -258,61 +263,57 @@ async function extractPack(packName, options = {}) {
   // Track files before extraction
   const filesBefore = new Set();
   if (fs.existsSync(sourcePath)) {
-    const existing = fs.globSync(path.join(sourcePath, "**/*.yaml"));
-    existing.forEach((f) => filesBefore.add(normalizePath(f)));
+    const yamlFiles = fs.globSync(path.join(sourcePath, "**/*.yaml"));
+    const ymlFiles = fs.globSync(path.join(sourcePath, "**/*.yml"));
+    [...yamlFiles, ...ymlFiles].forEach((f) => filesBefore.add(normalizePath(f)));
   }
 
-  const touchedFiles = new Set();
-
-  // Extract using Foundry CLI
+  // Extract using Foundry CLI with folder structure preserved
   await fvtt.extractPack(distPath, sourcePath, {
     transformEntry: (entry) => {
       return sanitizePackEntry(entry, "Item");
     },
-    transformName: (entry) => {
-      let folder = null;
-
-      // For powers, organize by discipline
-      if (entry.type === "pf1-psionics.power") {
-        folder = getFolderForPower(entry);
+    transformName: (entry, { folder }) => {
+      // Check if this is a folder document itself
+      if (entry._key?.startsWith('!folders!')) {
+        // Place folder metadata inside the folder as _Folder.yaml
+        const folderName = `${sluggify(entry.name)}.${entry._id}`;
+        // If this folder has a parent folder, place it inside the parent
+        return folder ? `${folder}/${folderName}/_Folder.yaml` : `${folderName}/_Folder.yaml`;
       }
 
+      // Regular document
       const filename = `${sluggify(entry.name)}.${entry._id}.yaml`;
-
-      // Track touched file
-      let fullPath;
-      if (folder) {
-        fullPath = normalizePath(path.join(sourcePath, folder, filename));
-        touchedFiles.add(fullPath);
-        return path.join(folder, filename);
-      } else {
-        fullPath = normalizePath(path.join(sourcePath, filename));
-        touchedFiles.add(fullPath);
-        return filename;
-      }
+      return folder ? `${folder}/${filename}` : filename;
     },
+    transformFolderName: (entry) => {
+      return `${sluggify(entry.name)}.${entry._id}`;
+    },
+    folders: true,
     yaml: true,
     yamlOptions: {
       sortKeys: true,
     },
+    omitVolatile: true,
   });
 
   // Find files after extraction
   const filesAfter = [];
   if (fs.existsSync(sourcePath)) {
-    const existing = fs.globSync(path.join(sourcePath, "**/*.yaml"));
-    existing.forEach((f) => filesAfter.push(normalizePath(f)));
+    const yamlFiles = fs.globSync(path.join(sourcePath, "**/*.yaml"));
+    const ymlFiles = fs.globSync(path.join(sourcePath, "**/*.yml"));
+    [...yamlFiles, ...ymlFiles].forEach((f) => filesAfter.push(normalizePath(f)));
   }
 
   // Determine added and removed files
   const addedFiles = filesAfter.filter((f) => !filesBefore.has(f));
-  const removedFiles = [...filesBefore].filter((f) => !touchedFiles.has(f));
+  const removedFiles = [...filesBefore].filter((f) => !filesAfter.includes(f));
 
   // Remove files if reset option is set
   if (options.reset && removedFiles.length > 0) {
     await Promise.all(
       removedFiles.map((f) => {
-        if (f.endsWith(".yaml")) return fsp.unlink(f).catch(() => {});
+        if (f.endsWith(".yaml") || f.endsWith(".yml")) return fsp.unlink(f).catch(() => {});
       })
     );
   }
@@ -374,7 +375,7 @@ async function compilePack(name) {
   // Compile using Foundry CLI
   await fvtt.compilePack(sourcePath, distPath, {
     recursive: true,
-    yaml: true
+    yaml: true,
   });
 }
 

@@ -1,0 +1,91 @@
+_id: z6yoFpJscU3m9YUe
+_key: '!items!z6yoFpJscU3m9YUe'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Microcosm_(power)
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Microcosm
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '15'
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      target:
+        value: One creature; or one or more creatures within a 15-ft.-radius sphere
+  description:
+    value: >-
+      <p>This&nbsp;power&nbsp;enables&nbsp;you&nbsp;to&nbsp;warp&nbsp;the&nbsp;consciousness&nbsp;and&nbsp;senses&nbsp;of&nbsp;one&nbsp;or&nbsp;more&nbsp;creatures,&nbsp;sending&nbsp;the&nbsp;victim&nbsp;into&nbsp;a&nbsp;catatonic&nbsp;state.&nbsp;When&nbsp;microcosm&nbsp;is&nbsp;manifested,&nbsp;you&nbsp;can&nbsp;target&nbsp;either&nbsp;a&nbsp;single&nbsp;creature&nbsp;within&nbsp;range&nbsp;or&nbsp;a&nbsp;group&nbsp;of&nbsp;creatures&nbsp;all&nbsp;located&nbsp;within&nbsp;the&nbsp;power's&nbsp;area.
+
+      </p><ul><li><em>Single&nbsp;Target:</em>&nbsp;If&nbsp;microcosm&nbsp;targets&nbsp;a&nbsp;single&nbsp;creature,&nbsp;that&nbsp;creature's&nbsp;senses&nbsp;are&nbsp;pinched&nbsp;off&nbsp;from&nbsp;the&nbsp;real&nbsp;world&nbsp;if&nbsp;it&nbsp;currently&nbsp;has&nbsp;100&nbsp;or&nbsp;fewer&nbsp;hit&nbsp;points.&nbsp;The&nbsp;subject's&nbsp;senses&nbsp;are&nbsp;all&nbsp;completely&nbsp;fabricated&nbsp;from&nbsp;within&nbsp;its&nbsp;own&nbsp;mind,&nbsp;though&nbsp;it&nbsp;may&nbsp;not&nbsp;realize&nbsp;this.&nbsp;In&nbsp;reality,&nbsp;the&nbsp;subject&nbsp;sprawls&nbsp;limply,&nbsp;drooling&nbsp;and&nbsp;mewling,&nbsp;and&nbsp;eventually&nbsp;dies&nbsp;of&nbsp;thirst&nbsp;and&nbsp;starvation&nbsp;without&nbsp;care.&nbsp;The&nbsp;subject&nbsp;lives&nbsp;within&nbsp;its&nbsp;own&nbsp;made-up&nbsp;world&nbsp;until&nbsp;the&nbsp;time&nbsp;of&nbsp;its&nbsp;actual&nbsp;death.</li></ul>
+
+      <ul><li><em>Area&nbsp;Effect:</em>&nbsp;If&nbsp;microcosm&nbsp;is&nbsp;manifested&nbsp;on&nbsp;an&nbsp;area,&nbsp;it&nbsp;sends&nbsp;all&nbsp;affected&nbsp;creatures&nbsp;into&nbsp;a&nbsp;shared&nbsp;catatonia&nbsp;(the&nbsp;world&nbsp;is&nbsp;a&nbsp;construct,&nbsp;but&nbsp;within&nbsp;the&nbsp;world,&nbsp;the&nbsp;victims&nbsp;can&nbsp;interact&nbsp;with&nbsp;each&nbsp;other).&nbsp;It&nbsp;affects&nbsp;only&nbsp;creatures&nbsp;that&nbsp;currently&nbsp;have&nbsp;30&nbsp;or&nbsp;fewer&nbsp;hit&nbsp;points,&nbsp;and&nbsp;only&nbsp;up&nbsp;to&nbsp;a&nbsp;total&nbsp;of&nbsp;300&nbsp;hit&nbsp;points&nbsp;of&nbsp;such&nbsp;creatures.&nbsp;The&nbsp;power&nbsp;affects&nbsp;creatures&nbsp;with&nbsp;the&nbsp;lowest&nbsp;hit&nbsp;point&nbsp;totals&nbsp;first.&nbsp;(Creatures&nbsp;with&nbsp;negative&nbsp;hit&nbsp;points&nbsp;count&nbsp;as&nbsp;having&nbsp;0&nbsp;hit&nbsp;points.)</li></ul>
+
+      <p>Manifesting&nbsp;microcosm&nbsp;a&nbsp;second&nbsp;time&nbsp;on&nbsp;an&nbsp;affected&nbsp;creature&nbsp;turns&nbsp;its&nbsp;sensory&nbsp;pathways&nbsp;outward&nbsp;once&nbsp;more.&nbsp;Otherwise,&nbsp;only&nbsp;very&nbsp;potent&nbsp;powers&nbsp;(such&nbsp;as&nbsp;psychic&nbsp;chirurgery&nbsp;or&nbsp;reality&nbsp;revision)&nbsp;or&nbsp;similar&nbsp;effects&nbsp;(such&nbsp;as&nbsp;miracle&nbsp;or&nbsp;wish)&nbsp;can&nbsp;undo&nbsp;the&nbsp;mental&nbsp;crosswiring&nbsp;that&nbsp;this&nbsp;power&nbsp;brings&nbsp;about.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;the&nbsp;number&nbsp;of&nbsp;hit&nbsp;points&nbsp;for&nbsp;a&nbsp;single&nbsp;target&nbsp;the&nbsp;power&nbsp;can&nbsp;affect&nbsp;increases&nbsp;by&nbsp;10,&nbsp;and&nbsp;the&nbsp;number&nbsp;of&nbsp;hit&nbsp;points&nbsp;for&nbsp;an&nbsp;area&nbsp;effect&nbsp;increases&nbsp;by&nbsp;30,&nbsp;and&nbsp;the&nbsp;maximum&nbsp;individual&nbsp;hit&nbsp;point&nbsp;of&nbsp;the&nbsp;creatures&nbsp;in&nbsp;the&nbsp;area&nbsp;affected&nbsp;increases&nbsp;by&nbsp;3.
+
+      </p>
+
+      <p>If&nbsp;targeting&nbsp;a&nbsp;single&nbsp;creature,&nbsp;add&nbsp;ten&nbsp;times&nbsp;your&nbsp;tier&nbsp;to&nbsp;the&nbsp;maximum&nbsp;number&nbsp;of&nbsp;hit&nbsp;points&nbsp;that&nbsp;can&nbsp;be&nbsp;affected.&nbsp;If&nbsp;targeting&nbsp;an&nbsp;area,&nbsp;add&nbsp;twice&nbsp;your&nbsp;tier&nbsp;to&nbsp;the&nbsp;maximum&nbsp;number&nbsp;of&nbsp;hit&nbsp;points&nbsp;a&nbsp;particular&nbsp;creature&nbsp;can&nbsp;have&nbsp;to&nbsp;be&nbsp;affected,&nbsp;and&nbsp;ten&nbsp;times&nbsp;your&nbsp;tier&nbsp;to&nbsp;the&nbsp;total&nbsp;number&nbsp;of&nbsp;hit&nbsp;points&nbsp;of&nbsp;creatures&nbsp;that&nbsp;can&nbsp;be&nbsp;affected.&nbsp;This&nbsp;power&nbsp;bypasses&nbsp;non-mythic&nbsp;sources&nbsp;of&nbsp;power&nbsp;resistance,&nbsp;and&nbsp;you&nbsp;add&nbsp;your&nbsp;tier&nbsp;to&nbsp;checks&nbsp;to&nbsp;overcome&nbsp;mythic&nbsp;sources&nbsp;of&nbsp;power&nbsp;resistance.
+
+      </p>
+
+      <p><strong>Augmented:</strong>&nbsp;If&nbsp;you&nbsp;expend&nbsp;two&nbsp;uses&nbsp;of&nbsp;mythic&nbsp;power,&nbsp;you&nbsp;can&nbsp;double&nbsp;the&nbsp;number&nbsp;of&nbsp;hit&nbsp;points&nbsp;used&nbsp;to&nbsp;determine&nbsp;creatures&nbsp;eligible&nbsp;to&nbsp;be&nbsp;affected.
+
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      psion: 9
+      wilder: 9
+  level: 9
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '126'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '221'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: 47–48
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline:
+    - compulsion
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

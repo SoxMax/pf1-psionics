@@ -1,0 +1,85 @@
+_id: 8an8iWySLuFUpq6A
+_key: '!items!8an8iWySLuFUpq6A'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Sensory_Cascade
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Sensory Cascade
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      area:
+        shape: sphere
+        units: ft
+        value: '15'
+      duration:
+        units: round
+        value: '@cl'
+      name: Use
+      range:
+        units: med
+        value: Medium (100 feet + 10 feet/level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: All creatures in a 15-foot radius
+  description:
+    value: >-
+      <p>You&nbsp;overload&nbsp;the&nbsp;target's&nbsp;sensory&nbsp;system.&nbsp;In&nbsp;effect,&nbsp;the&nbsp;cascade&nbsp;buries&nbsp;the&nbsp;senses&nbsp;of&nbsp;the&nbsp;target&nbsp;creatures&nbsp;(even&nbsp;those&nbsp;with&nbsp;blindsight,&nbsp;tremorsense,&nbsp;touchsight,&nbsp;or&nbsp;other&nbsp;esoteric&nbsp;methods&nbsp;of&nbsp;sensing&nbsp;the&nbsp;environment)&nbsp;with&nbsp;random&nbsp;sensations&nbsp;for&nbsp;the&nbsp;duration.&nbsp;The&nbsp;creatures&nbsp;are&nbsp;treated&nbsp;as&nbsp;if&nbsp;blinded.&nbsp;However,&nbsp;from&nbsp;round&nbsp;to&nbsp;round,&nbsp;an&nbsp;affected&nbsp;creature&nbsp;has&nbsp;a&nbsp;chance&nbsp;to&nbsp;sense&nbsp;normally.&nbsp;Each&nbsp;round&nbsp;on&nbsp;the&nbsp;creature's&nbsp;action,&nbsp;roll&nbsp;1d4.&nbsp;On&nbsp;a&nbsp;roll&nbsp;of&nbsp;1-3,&nbsp;the&nbsp;target&nbsp;does&nbsp;nothing&nbsp;for&nbsp;1&nbsp;round&nbsp;as&nbsp;it&nbsp;stands&nbsp;attempting&nbsp;to&nbsp;re-establish&nbsp;contact&nbsp;with&nbsp;its&nbsp;senses.&nbsp;Rolling&nbsp;a&nbsp;4&nbsp;frees&nbsp;the&nbsp;creature&nbsp;of&nbsp;the&nbsp;effect&nbsp;for&nbsp;1&nbsp;round.
+
+      </p>
+
+      <p>Sense-blocked&nbsp;creatures&nbsp;that&nbsp;are&nbsp;attacked&nbsp;(and&nbsp;damaged)&nbsp;are&nbsp;shocked&nbsp;out&nbsp;of&nbsp;their&nbsp;sense&nbsp;deprivation&nbsp;for&nbsp;1&nbsp;round&nbsp;-&nbsp;they&nbsp;can&nbsp;attack&nbsp;or&nbsp;attempt&nbsp;to&nbsp;flee&nbsp;however&nbsp;they&nbsp;desire&nbsp;on&nbsp;their&nbsp;next&nbsp;action.&nbsp;The&nbsp;following&nbsp;round&nbsp;they&nbsp;are&nbsp;subject&nbsp;once&nbsp;again&nbsp;to&nbsp;the&nbsp;sensory&nbsp;cascade&nbsp;(unless&nbsp;they&nbsp;are&nbsp;continually&nbsp;attacked&nbsp;each&nbsp;round).
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;the&nbsp;condition&nbsp;lasts&nbsp;24&nbsp;hours.</li><li>If&nbsp;you&nbsp;spend&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;the&nbsp;condition&nbsp;is&nbsp;permanent.</li></ol>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      dread: 4
+      empath: 4
+      psion: 4
+      thug: 4
+      wilder: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '31'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+    - date: '2012-07-23'
+      pages: 178–179
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: '243'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

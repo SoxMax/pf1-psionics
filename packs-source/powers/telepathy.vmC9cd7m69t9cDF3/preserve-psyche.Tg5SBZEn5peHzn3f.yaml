@@ -1,0 +1,74 @@
+_id: Tg5SBZEn5peHzn3f
+_key: '!items!Tg5SBZEn5peHzn3f'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Preserve_Psyche
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Preserve Psyche
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: immediate
+      duration:
+        units: day
+        value: '@cl'
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: One slain creature
+  description:
+    value: >-
+      <p>You&nbsp;preserve&nbsp;the&nbsp;mind&nbsp;of&nbsp;the&nbsp;slain&nbsp;creature,&nbsp;keeping&nbsp;it&nbsp;from&nbsp;permanently&nbsp;departing&nbsp;from&nbsp;its&nbsp;body.&nbsp;This&nbsp;power&nbsp;must&nbsp;be&nbsp;manifested&nbsp;as&nbsp;soon&nbsp;as&nbsp;the&nbsp;creature&nbsp;is&nbsp;slain,&nbsp;although&nbsp;subsequent&nbsp;manifestations&nbsp;can&nbsp;be&nbsp;used&nbsp;to&nbsp;extend&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;effect.&nbsp;This&nbsp;effect&nbsp;takes&nbsp;place&nbsp;before&nbsp;the&nbsp;creature&nbsp;is&nbsp;removed&nbsp;from&nbsp;the&nbsp;collective&nbsp;due&nbsp;to&nbsp;the&nbsp;creature's&nbsp;death.&nbsp;For&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;effect,&nbsp;the&nbsp;slain&nbsp;creature&nbsp;can&nbsp;be&nbsp;affected&nbsp;by&nbsp;psionic&nbsp;revivify&nbsp;as&nbsp;if&nbsp;it&nbsp;had&nbsp;died&nbsp;within&nbsp;1&nbsp;round,&nbsp;but&nbsp;psionic&nbsp;revivify&nbsp;must&nbsp;be&nbsp;channeled&nbsp;through&nbsp;specially-treated&nbsp;crystals&nbsp;similar&nbsp;to&nbsp;cognizance&nbsp;crystals&nbsp;that&nbsp;cost&nbsp;5,000&nbsp;gp.&nbsp;The&nbsp;psionic&nbsp;energy&nbsp;in&nbsp;the&nbsp;crystal&nbsp;is&nbsp;consumed&nbsp;in&nbsp;the&nbsp;manifestation&nbsp;and&nbsp;the&nbsp;crystal&nbsp;becomes&nbsp;inert&nbsp;and&nbsp;has&nbsp;no&nbsp;value.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;affect&nbsp;a&nbsp;creature&nbsp;that&nbsp;was&nbsp;in&nbsp;your&nbsp;collective&nbsp;when&nbsp;it&nbsp;died&nbsp;for&nbsp;up&nbsp;to&nbsp;24&nbsp;hours&nbsp;after&nbsp;its&nbsp;death.
+
+      </p>
+  descriptors:
+    - mind-affecting
+    - network
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      vitalist: 2
+  level: 2
+  manifestTime:
+    units: immediate
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '39'
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Hidden Intentions'
+    - date: '2012-07-23'
+      pages: '173'
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: '231'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

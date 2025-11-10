@@ -1,0 +1,35 @@
+_id: EpVQB0vxObkLRede
+_key: '!items!EpVQB0vxObkLRede'
+_stats:
+  coreVersion: '13.350'
+folder: jq4sEFaGijf70pHa
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Surge Blast
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Wilder
+  description:
+    value: >-
+      <p>A&nbsp;wilder&nbsp;can&nbsp;channel&nbsp;her&nbsp;wild&nbsp;surge&nbsp;into&nbsp;a&nbsp;blast&nbsp;of&nbsp;uncontrolled&nbsp;phrenic&nbsp;energy.&nbsp;As&nbsp;a&nbsp;standard&nbsp;action&nbsp;and&nbsp;by&nbsp;expending&nbsp;psionic&nbsp;focus,&nbsp;the&nbsp;wilder&nbsp;can&nbsp;make&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;(range&nbsp;30')&nbsp;that&nbsp;deals&nbsp;1d6&nbsp;points&nbsp;of&nbsp;force&nbsp;damage&nbsp;for&nbsp;every&nbsp;+1&nbsp;to&nbsp;her&nbsp;wild&nbsp;surge.
+
+      </p><p><i>Example</i>:&nbsp;Amonai,&nbsp;a&nbsp;15th&nbsp;level&nbsp;wilder&nbsp;has&nbsp;wild&nbsp;surge&nbsp;+5,&nbsp;and&nbsp;thus&nbsp;deals&nbsp;5d6&nbsp;with&nbsp;his&nbsp;surge&nbsp;blast.&nbsp;Surge&nbsp;blasts&nbsp;do&nbsp;not&nbsp;trigger&nbsp;psychic&nbsp;enervation.
+
+      </p><p></p>
+  sources:
+    - date: '2010-08-01'
+      pages: 33–35
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2010-01-01'
+      pages: 38–41
+      publisher: Dreamscarred Press
+      title: 'Psionics Unleashed: Revised'
+    - date: '2013-12-24'
+      pages: 75–77
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: surge-blast
+type: feat

@@ -1,0 +1,90 @@
+_id: ZSE2tH9SWduK8Cb3
+_key: '!items!ZSE2tH9SWduK8Cb3'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Selective_Hearing
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Selective Hearing
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./level)
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude negates
+        type: fort
+      target:
+        value: One creature, see text
+  description:
+    value: >-
+      <p>With&nbsp;a&nbsp;sudden&nbsp;disturbing&nbsp;throb,&nbsp;your&nbsp;foes&nbsp;ears&nbsp;become&nbsp;exceptionally&nbsp;tuned,&nbsp;their&nbsp;drums&nbsp;refusing&nbsp;to&nbsp;vibrate&nbsp;in&nbsp;response&nbsp;to&nbsp;carefully&nbsp;chosen&nbsp;stimuli.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power&nbsp;on&nbsp;a&nbsp;creature&nbsp;that&nbsp;can&nbsp;hear&nbsp;normally,&nbsp;you&nbsp;specify&nbsp;one&nbsp;other&nbsp;creature&nbsp;that&nbsp;it&nbsp;will&nbsp;become&nbsp;unable&nbsp;to&nbsp;hear&nbsp;any&nbsp;longer.&nbsp;Once&nbsp;in&nbsp;place,&nbsp;<em>selective&nbsp;hearing&nbsp;</em>prevents&nbsp;its&nbsp;target&nbsp;from&nbsp;being&nbsp;able&nbsp;to&nbsp;hear&nbsp;the&nbsp;voice&nbsp;of&nbsp;the&nbsp;source&nbsp;creature&nbsp;you&nbsp;have&nbsp;chosen.&nbsp;The&nbsp;source&nbsp;creature&nbsp;does&nbsp;not&nbsp;need&nbsp;to&nbsp;be&nbsp;within&nbsp;range&nbsp;of&nbsp;this&nbsp;power&nbsp;when&nbsp;you&nbsp;manifest&nbsp;it,&nbsp;however&nbsp;you&nbsp;must&nbsp;have&nbsp;heard&nbsp;the&nbsp;source&nbsp;creature’s&nbsp;voice&nbsp;in&nbsp;the&nbsp;past.
+
+      </p>
+
+      <p>The&nbsp;target&nbsp;creature&nbsp;can&nbsp;still&nbsp;hear&nbsp;other&nbsp;sounds&nbsp;created&nbsp;by&nbsp;the&nbsp;source&nbsp;creature,&nbsp;allowing&nbsp;for&nbsp;simple&nbsp;communication&nbsp;through&nbsp;such&nbsp;means&nbsp;as&nbsp;banging&nbsp;two&nbsp;items&nbsp;together.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways:
+
+      </p><ul><li>For&nbsp;every&nbsp;additional&nbsp;three&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;choose&nbsp;a&nbsp;second&nbsp;target&nbsp;creature&nbsp;or&nbsp;a&nbsp;second&nbsp;source&nbsp;creature.&nbsp;For&nbsp;instance,&nbsp;this&nbsp;could&nbsp;allow&nbsp;you&nbsp;to&nbsp;have&nbsp;one&nbsp;creature&nbsp;that&nbsp;cannot&nbsp;hear&nbsp;two&nbsp;others,&nbsp;or&nbsp;to&nbsp;have&nbsp;two&nbsp;creatures&nbsp;that&nbsp;cannot&nbsp;hear&nbsp;a&nbsp;single&nbsp;common&nbsp;other.&nbsp;You&nbsp;can&nbsp;augment&nbsp;in&nbsp;both&nbsp;ways&nbsp;at&nbsp;once&nbsp;by&nbsp;spending&nbsp;appropriate&nbsp;power&nbsp;points.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;six&nbsp;power&nbsp;points,&nbsp;all&nbsp;sounds&nbsp;created&nbsp;by&nbsp;the&nbsp;source&nbsp;creature&nbsp;are&nbsp;inaudible&nbsp;to&nbsp;your&nbsp;target.</li></ul>
+
+      <p>For&nbsp;every&nbsp;two&nbsp;additional&nbsp;power&nbsp;points&nbsp;spent&nbsp;on&nbsp;either&nbsp;augment,&nbsp;the&nbsp;DC&nbsp;of&nbsp;this&nbsp;power&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+
+      <p><em><strong>Mythic&nbsp;Selective&nbsp;Hearing</strong></em></p>
+
+      <p>You&nbsp;can&nbsp;allow&nbsp;your&nbsp;target&nbsp;to&nbsp;hear&nbsp;the&nbsp;source&nbsp;creature&nbsp;as&nbsp;if&nbsp;not&nbsp;under&nbsp;the&nbsp;effects&nbsp;of&nbsp;this&nbsp;power.&nbsp;When&nbsp;so&nbsp;allowing,&nbsp;you&nbsp;can&nbsp;tap&nbsp;into&nbsp;the&nbsp;hearing&nbsp;of&nbsp;your&nbsp;target&nbsp;as&nbsp;long&nbsp;as&nbsp;they&nbsp;are&nbsp;on&nbsp;the&nbsp;same&nbsp;plane&nbsp;as&nbsp;you&nbsp;are,&nbsp;and&nbsp;hear&nbsp;the&nbsp;voice&nbsp;of&nbsp;the&nbsp;source&nbsp;creature&nbsp;you&nbsp;specified.&nbsp;You&nbsp;only&nbsp;hear&nbsp;that&nbsp;voice,&nbsp;not&nbsp;that&nbsp;of&nbsp;your&nbsp;source&nbsp;target&nbsp;or&nbsp;any&nbsp;other&nbsp;sounds.
+
+      </p>
+
+      <p>The&nbsp;duration&nbsp;of&nbsp;mythic&nbsp;selective&nbsp;hearing&nbsp;becomes&nbsp;1&nbsp;hour/level&nbsp;and&nbsp;its&nbsp;saving&nbsp;throw&nbsp;becomes&nbsp;a&nbsp;Will&nbsp;save.
+
+      [[Category:Mythic&nbsp;Powers]
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      psion: 2
+      thug: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: 14–15
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: '2010-01-01'
+      pages: '82'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

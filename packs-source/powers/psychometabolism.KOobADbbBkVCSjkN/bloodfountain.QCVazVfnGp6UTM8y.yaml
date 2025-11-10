@@ -1,0 +1,70 @@
+_id: QCVazVfnGp6UTM8y
+_key: '!items!QCVazVfnGp6UTM8y'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Bloodfountain
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Bloodfountain
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: round
+        value: One round/level
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Fortitude negates
+        type: fort
+      target:
+        value: Creature touched
+  description:
+    value: >-
+      <p>Your&nbsp;press&nbsp;your&nbsp;fingers&nbsp;against&nbsp;the&nbsp;pliant&nbsp;flesh&nbsp;of&nbsp;your&nbsp;enemy&nbsp;and&nbsp;through&nbsp;this&nbsp;contact&nbsp;tap&nbsp;into&nbsp;its&nbsp;bloodstream,&nbsp;overloading&nbsp;its&nbsp;capacity.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;your&nbsp;target’s&nbsp;blood&nbsp;pressure&nbsp;(or&nbsp;similar&nbsp;life-giving&nbsp;fluid)&nbsp;increases&nbsp;to&nbsp;the&nbsp;point&nbsp;that&nbsp;vessels&nbsp;begin&nbsp;to&nbsp;burst.&nbsp;A&nbsp;creature&nbsp;affected&nbsp;by&nbsp;<em>bloodfountain&nbsp;</em>begins&nbsp;to&nbsp;leak&nbsp;their&nbsp;precious&nbsp;fluids&nbsp;out&nbsp;of&nbsp;eyes,&nbsp;ears,&nbsp;or&nbsp;other&nbsp;openings.&nbsp;Such&nbsp;a&nbsp;creature&nbsp;bleeds&nbsp;2&nbsp;hit&nbsp;points&nbsp;of&nbsp;damage&nbsp;at&nbsp;the&nbsp;start&nbsp;of&nbsp;its&nbsp;turn&nbsp;each&nbsp;round.&nbsp;This&nbsp;bleed&nbsp;damage&nbsp;functions&nbsp;as&nbsp;normal,&nbsp;requiring&nbsp;a&nbsp;DC&nbsp;15&nbsp;Heal&nbsp;check&nbsp;or&nbsp;magical&nbsp;healing&nbsp;to&nbsp;stop.
+
+      </p>
+
+      <p><strong>Augment:&nbsp;</strong>For&nbsp;every&nbsp;two&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;bleed&nbsp;damage&nbsp;increases&nbsp;by&nbsp;one&nbsp;each&nbsp;round&nbsp;and&nbsp;the&nbsp;DC&nbsp;also&nbsp;increases&nbsp;by&nbsp;one.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      dread: 2
+      psion: 2
+      thug: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '6'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Powers'
+    - date: '2010-01-01'
+      pages: '64'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

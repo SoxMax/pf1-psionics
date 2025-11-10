@@ -1,5 +1,7 @@
 _id: vyMqfrc7vqNDp1Ui
 _key: '!items!vyMqfrc7vqNDp1Ui'
+_stats:
+  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Psicrystal_Reservoir
@@ -35,9 +37,7 @@ system:
   showInQuickbar: false
   simple: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '10'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Psicrystals'

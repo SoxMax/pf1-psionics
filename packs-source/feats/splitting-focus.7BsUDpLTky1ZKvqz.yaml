@@ -1,5 +1,7 @@
 _id: 7BsUDpLTky1ZKvqz
 _key: '!items!7BsUDpLTky1ZKvqz'
+_stats:
+  coreVersion: '13.350'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Splitting_Focus
@@ -35,9 +37,7 @@ system:
   showInQuickbar: false
   simple: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '6'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Feats and Powers'

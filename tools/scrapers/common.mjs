@@ -213,6 +213,252 @@ export function writeYAMLPack(packName, items, rootDir = join(dirname(dirname(fi
 }
 
 /**
+ * Find existing YAML file for an item by name (and optionally by class association)
+ * @param {object|string} item - Item object or item name string
+ * @param {string} packsSourceDir - Path to packs-source directory
+ * @returns {string|null} - Full path to existing YAML file, or null if not found
+ */
+function findExistingItemFile(item, packsSourceDir) {
+  if (!fs.existsSync(packsSourceDir)) {
+    return null;
+  }
+
+  // Support both item objects and plain strings for backward compatibility
+  const itemName = typeof item === 'string' ? item : item.name;
+  const slug = sluggify(itemName);
+  const files = fs.readdirSync(packsSourceDir);
+
+  // Look for files matching the pattern: slug.*.(yaml|yml)
+  const regex = new RegExp(`^${slug}\\..*\\.(yaml|yml)$`, 'i');
+  const matchingFiles = files.filter(file => regex.test(file));
+
+  if (matchingFiles.length === 0) {
+    return null;
+  }
+
+  // If only one match, return it immediately
+  if (matchingFiles.length === 1) {
+    return join(packsSourceDir, matchingFiles[0]);
+  }
+
+  // Multiple matches found - need to disambiguate for class abilities
+  // Check if this item has class associations (class abilities)
+  if (typeof item === 'object' && item.system?.associations?.classes) {
+    const targetClass = item.system.associations.classes[0];
+
+    for (const file of matchingFiles) {
+      try {
+        const filepath = join(packsSourceDir, file);
+        const content = fs.readFileSync(filepath, 'utf8');
+        const existingItem = yaml.load(content);
+
+        // Check if class association matches
+        if (existingItem.system?.associations?.classes?.[0] === targetClass) {
+          return filepath;
+        }
+      } catch (error) {
+        // Skip files that can't be read or parsed
+        continue;
+      }
+    }
+
+    // No match found with the same class - this is a new ability with same name
+    return null;
+  }
+
+  // For non-class-ability items with multiple matches, return the first
+  // (This shouldn't happen in practice, but provides a fallback)
+  return join(packsSourceDir, matchingFiles[0]);
+}
+
+/**
+ * Find or create folder directory with name.id format
+ * @param {string} baseDir - Base directory (e.g., packs-source/powers)
+ * @param {string} folderName - Display name for the folder
+ * @param {string} type - Foundry document type (e.g., 'Item')
+ * @param {Set<string>} existingIds - Set of existing IDs to avoid collisions
+ * @returns {object} - { path: folder directory path, folderId: folder ID }
+ */
+function ensureFolderDirectory(baseDir, folderName, type, existingIds) {
+  const slug = sluggify(folderName);
+
+  // Check if a folder directory already exists with this name
+  if (fs.existsSync(baseDir)) {
+    const entries = fs.readdirSync(baseDir, { withFileTypes: true });
+    for (const entry of entries) {
+      if (entry.isDirectory() && entry.name.startsWith(`${slug}.`)) {
+        // Found existing folder directory - check for _Folder.yml
+        const folderPath = join(baseDir, entry.name);
+        const folderMetadataPath = join(folderPath, '_Folder.yaml');
+
+        if (fs.existsSync(folderMetadataPath)) {
+          try {
+            const content = fs.readFileSync(folderMetadataPath, 'utf8');
+            const folderData = yaml.load(content);
+            return { path: folderPath, folderId: folderData._id };
+          } catch (error) {
+            // If we can't read it, we'll continue to create new
+          }
+        }
+      }
+    }
+  }
+
+  // Create new folder
+  const folderId = generateFoundryId(existingIds);
+  existingIds.add(folderId);
+
+  const folderDirName = `${slug}.${folderId}`;
+  const folderPath = join(baseDir, folderDirName);
+
+  // Create directory
+  if (!fs.existsSync(folderPath)) {
+    fs.mkdirSync(folderPath, { recursive: true });
+  }
+
+  // Create _Folder.yml metadata
+  const folderData = {
+    _id: folderId,
+    name: folderName,
+    type: type,
+    sorting: 'a',
+    _key: `!folders!${folderId}`,
+    _stats: { coreVersion: '13.350' }
+  };
+
+  const yamlContent = yaml.dump(folderData, {
+    sortKeys: true,
+    lineWidth: -1
+  });
+
+  const folderMetadataPath = join(folderPath, '_Folder.yaml');
+  fs.writeFileSync(folderMetadataPath, yamlContent, 'utf8');
+
+  return { path: folderPath, folderId };
+}
+
+/**
+ * Write items with deduplication (preserves existing IDs)
+ *
+ * This function handles writing items to YAML files with automatic deduplication:
+ * - Existing items (matched by name) have their IDs preserved and content updated
+ * - New items get fresh IDs generated
+ * - Supports optional subdirectory organization (e.g., powers by discipline)
+ *
+ * @param {string} packName - Name of the pack (e.g., 'classes', 'feats', 'powers')
+ * @param {Array} items - Array of items to write
+ * @param {string} rootDir - Root directory path
+ * @param {object} options - Optional configuration
+ * @param {Function} options.getSubdirectory - Function that returns subdirectory path for an item (e.g., item => item.system.discipline)
+ * @returns {object} - Stats object with written, updated, skipped, errors
+ */
+export function writeItemsWithDeduplication(packName, items, rootDir, options = {}) {
+  const basePacksDir = join(rootDir, 'packs-source', packName);
+
+  // Ensure base directory exists
+  if (!fs.existsSync(basePacksDir)) {
+    fs.mkdirSync(basePacksDir, { recursive: true });
+  }
+
+  const stats = {
+    written: 0,
+    updated: 0,
+    skipped: 0,
+    errors: []
+  };
+
+  // Collect existing IDs to prevent collisions (scan all subdirectories)
+  const existingIds = new Set();
+  if (fs.existsSync(basePacksDir)) {
+    const scanDirectory = (dir) => {
+      const items = fs.readdirSync(dir, { withFileTypes: true });
+      for (const item of items) {
+        if (item.isDirectory()) {
+          // Recursively scan subdirectories
+          scanDirectory(join(dir, item.name));
+        } else if (item.name.endsWith('.yaml') || item.name.endsWith('.yml')) {
+          const match = item.name.match(/\.([a-zA-Z0-9]{16})\.(yaml|yml)$/);
+          if (match) {
+            existingIds.add(match[1]);
+          }
+        }
+      }
+    };
+    scanDirectory(basePacksDir);
+  }
+
+  for (const item of items) {
+    try {
+      // Determine target directory (with optional subdirectory)
+      let targetDir = basePacksDir;
+      let folderId = null;
+
+      if (options.getSubdirectoryName) {
+        const folderName = options.getSubdirectoryName(item);
+        const folderInfo = ensureFolderDirectory(basePacksDir, folderName, 'Item', existingIds);
+        targetDir = folderInfo.path;
+        folderId = folderInfo.folderId;
+      }
+
+      // Check if a YAML file already exists for this item
+      const existingFile = findExistingItemFile(item, targetDir);
+
+      if (existingFile) {
+        // Read existing YAML to preserve the ID
+        const existingContent = fs.readFileSync(existingFile, 'utf8');
+        const existingItem = yaml.load(existingContent);
+
+        // Preserve the existing ID
+        item._id = existingItem._id;
+        stats.updated++;
+
+        const displayPath = options.getSubdirectoryName
+          ? `${item.name} (${options.getSubdirectoryName(item)})`
+          : item.name;
+        console.log(`  📝 Updating: ${displayPath}`);
+      } else {
+        // Generate a new Foundry-compatible ID
+        item._id = generateFoundryId(existingIds);
+        existingIds.add(item._id);
+        stats.written++;
+
+        const displayPath = options.getSubdirectoryName
+          ? `${item.name} (${options.getSubdirectoryName(item)})`
+          : item.name;
+        console.log(`  ✨ Creating: ${displayPath}`);
+      }
+
+      // Add required Foundry fields
+      item._key = `!items!${item._id}`;
+      item._stats = { coreVersion: '13.350' };
+
+      // Set folder reference if item is in a subdirectory
+      if (folderId) {
+        item.folder = folderId;
+      }
+
+      // Write YAML file with .yaml extension
+      const slug = sluggify(item.name);
+      const filename = `${slug}.${item._id}.yaml`;
+      const filepath = join(targetDir, filename);
+
+      const yamlContent = yaml.dump(item, {
+        sortKeys: true,
+        lineWidth: -1
+      });
+
+      fs.writeFileSync(filepath, yamlContent, 'utf8');
+    } catch (error) {
+      stats.errors.push({ item: item.name, error: error.message });
+      stats.skipped++;
+      console.error(`  ✗ Error writing ${item.name}: ${error.message}`);
+    }
+  }
+
+  return stats;
+}
+
+/**
  * Sluggify a string for use in filenames
  * @param {string} name - The string to sluggify
  * @returns {string} Sluggified string
@@ -302,11 +548,61 @@ export function extractCategoryLinks(html, options = {}) {
 }
 
 /**
- * Parse sourcebook HTML into sources array
+ * Known source metadata for Dreamscarred Press publications
+ * Maps book titles to publication dates and publishers
+ */
+export const SOURCE_METADATA = {
+  'Ultimate Psionics': {
+    date: '2013-12-24',
+    publisher: 'Dreamscarred Press'
+  },
+  'Psionics Expanded': {
+    date: '2012-07-23',
+    publisher: 'Dreamscarred Press'
+  },
+  'Psionics Augmented': {
+    date: '2012-01-01',
+    publisher: 'Dreamscarred Press'
+  },
+  'Psionics Unleashed': {
+    date: '2010-08-01',
+    publisher: 'Dreamscarred Press'
+  }
+};
+
+/**
+ * Parse a single source text into a structured object with metadata
+ * @param {string} sourceText - Source text (e.g., "Ultimate Psionics, pgs. 69–72")
+ * @returns {object|null} - Source object with title, pages, publisher, date
+ */
+export function parseSourceInfo(sourceText) {
+  // Match pattern: "Book Name, pg(s). page-numbers"
+  const match = sourceText.match(/^([^,]+?)(?:,\s*pgs?\.?\s*([\d–\-]+))?$/);
+
+  if (!match) return null;
+
+  const title = match[1].trim();
+  const pages = match[2] || '';
+
+  const metadata = SOURCE_METADATA[title] || {
+    date: '2010-01-01',
+    publisher: 'Dreamscarred Press'
+  };
+
+  return {
+    title: title,
+    pages: pages,
+    publisher: metadata.publisher,
+    date: metadata.date
+  };
+}
+
+/**
+ * Parse sourcebook HTML into sources array with metadata
  * Format: "<i>Psionics Unleashed</i>, pgs. 106–107<br /><i>Ultimate Psionics</i>, pg. 196"
  *
  * @param {string} html - Raw HTML from sourcebook field
- * @returns {Array} - Array of source objects with title, pages, and publisher
+ * @returns {Array} - Array of source objects with title, pages, publisher, and date
  */
 export function parseSourcebooks(html) {
   const sources = [];
@@ -321,20 +617,11 @@ export function parseSourcebooks(html) {
       .replace(/&amp;/g, '&')
       .trim();
 
-    // Match pattern: "Book Name, pg(s). page-numbers"
-    const match = cleanEntry.match(/^([^,]+),\s*pgs?\.\s*(.+)$/);
-    if (match) {
-      const title = decodeHTMLEntities(match[1].trim());
-      const pages = decodeHTMLEntities(match[2].trim());
+    if (!cleanEntry) continue;
 
-      sources.push({
-        title: title,
-        pages: pages,
-        id: '', // Could generate from title if needed
-        errata: '',
-        date: '',
-        publisher: 'Dreamscarred Press'
-      });
+    const sourceInfo = parseSourceInfo(cleanEntry);
+    if (sourceInfo) {
+      sources.push(sourceInfo);
     }
   }
 

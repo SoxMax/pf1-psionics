@@ -1,0 +1,89 @@
+_id: a9MzZyEwL2TLZ7Hc
+_key: '!items!a9MzZyEwL2TLZ7Hc'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Oak_Body
+folder: KOobADbbBkVCSjkN
+img: icons/magic/life/heart-glowing-red.webp
+name: Oak Body
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>This&nbsp;power&nbsp;transforms&nbsp;your&nbsp;body&nbsp;into&nbsp;living&nbsp;oak,&nbsp;which&nbsp;grants&nbsp;you&nbsp;several&nbsp;advantages.
+
+      </p>
+
+      <p>You&nbsp;gain&nbsp;damage&nbsp;reduction&nbsp;10/&nbsp;slashing&nbsp;and&nbsp;a&nbsp;+5&nbsp;bonus&nbsp;to&nbsp;natural&nbsp;armor&nbsp;that&nbsp;overlaps&nbsp;(does&nbsp;not&nbsp;stack&nbsp;with)&nbsp;any&nbsp;natural&nbsp;armor&nbsp;bonus&nbsp;you&nbsp;may&nbsp;already&nbsp;have.&nbsp;You&nbsp;are&nbsp;immune&nbsp;to&nbsp;ability&nbsp;damage,&nbsp;blindness,&nbsp;deafness,&nbsp;disease,&nbsp;drowning,&nbsp;poison,&nbsp;stunning,&nbsp;and&nbsp;all&nbsp;powers,&nbsp;spells,&nbsp;or&nbsp;attacks&nbsp;that&nbsp;affect&nbsp;your&nbsp;physiology&nbsp;or&nbsp;respiration,&nbsp;because&nbsp;you&nbsp;have&nbsp;no&nbsp;physiology&nbsp;or&nbsp;respiration&nbsp;while&nbsp;this&nbsp;power&nbsp;is&nbsp;in&nbsp;effect.
+
+      </p>
+
+      <p>You&nbsp;take&nbsp;half&nbsp;damage&nbsp;from&nbsp;cold&nbsp;effects&nbsp;of&nbsp;all&nbsp;kinds.&nbsp;However,&nbsp;you&nbsp;become&nbsp;susceptible&nbsp;to&nbsp;all&nbsp;special&nbsp;attacks&nbsp;that&nbsp;affect&nbsp;wood,&nbsp;and&nbsp;you&nbsp;gain&nbsp;vulnerability&nbsp;to&nbsp;fire.
+
+      </p>
+
+      <p>You&nbsp;gain&nbsp;a&nbsp;+4&nbsp;enhancement&nbsp;bonus&nbsp;to&nbsp;Strength,&nbsp;but&nbsp;you&nbsp;take&nbsp;a&nbsp;–2&nbsp;penalty&nbsp;to&nbsp;Dexterity&nbsp;(to&nbsp;a&nbsp;minimum&nbsp;Dexterity&nbsp;score&nbsp;of&nbsp;1),&nbsp;and&nbsp;your&nbsp;speed&nbsp;is&nbsp;reduced&nbsp;to&nbsp;half&nbsp;normal.&nbsp;You&nbsp;can&nbsp;speak&nbsp;but&nbsp;cannot&nbsp;drink&nbsp;(and&nbsp;thus&nbsp;can't&nbsp;use&nbsp;potions)&nbsp;or&nbsp;play&nbsp;wind&nbsp;instruments.&nbsp;You&nbsp;have&nbsp;an&nbsp;armor&nbsp;check&nbsp;penalty&nbsp;of&nbsp;–4&nbsp;and&nbsp;an&nbsp;arcane&nbsp;spell&nbsp;failure&nbsp;chance&nbsp;of&nbsp;25%.
+
+      </p>
+
+      <p>Your&nbsp;unarmed&nbsp;attacks&nbsp;deal&nbsp;damage&nbsp;equal&nbsp;to&nbsp;a&nbsp;club&nbsp;sized&nbsp;for&nbsp;you&nbsp;(1d4&nbsp;for&nbsp;Small&nbsp;characters,&nbsp;1d6&nbsp;for&nbsp;Medium&nbsp;characters),&nbsp;and&nbsp;you&nbsp;are&nbsp;considered&nbsp;armed&nbsp;when&nbsp;making&nbsp;unarmed&nbsp;attacks.&nbsp;When&nbsp;you&nbsp;make&nbsp;a&nbsp;full&nbsp;attack&nbsp;against&nbsp;an&nbsp;object&nbsp;or&nbsp;structure&nbsp;using&nbsp;your&nbsp;unarmed&nbsp;strike,&nbsp;you&nbsp;deal&nbsp;double&nbsp;damage.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;duration&nbsp;increases&nbsp;by&nbsp;1&nbsp;minute.
+
+      </p>
+  discipline: psychometabolism
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: false
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      psion: 7
+      psychic warrior: 5
+      vitalist: 7
+      wilder: 7
+  level: 5
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '131'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '227'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '49'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

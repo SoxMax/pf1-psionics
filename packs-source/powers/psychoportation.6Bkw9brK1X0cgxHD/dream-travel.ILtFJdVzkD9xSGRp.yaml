@@ -1,0 +1,82 @@
+_id: ILtFJdVzkD9xSGRp
+_key: '!items!ILtFJdVzkD9xSGRp'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Dream_Travel
+folder: 6Bkw9brK1X0cgxHD
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Dream Travel
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: hour
+        value: '@cl'
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        dc: 10 + @sl + @ablMod
+        description: Will negates
+        type: will
+      target:
+        value: You and touched creature or creatures (up to one/ level)
+  description:
+    value: >-
+      <p>You&nbsp;and&nbsp;any&nbsp;creature&nbsp;you&nbsp;touch&nbsp;are&nbsp;drawn&nbsp;along&nbsp;a&nbsp;crystal&nbsp;arc&nbsp;of&nbsp;reverie&nbsp;to&nbsp;the&nbsp;edge&nbsp;of&nbsp;conscious&nbsp;thought&nbsp;and&nbsp;into&nbsp;the&nbsp;region&nbsp;of&nbsp;dreams.&nbsp;You&nbsp;can&nbsp;take&nbsp;more&nbsp;than&nbsp;one&nbsp;creature&nbsp;along&nbsp;with&nbsp;you&nbsp;(subject&nbsp;to&nbsp;your&nbsp;level&nbsp;limit),&nbsp;but&nbsp;each&nbsp;one&nbsp;must&nbsp;be&nbsp;touching&nbsp;another&nbsp;one.&nbsp;You&nbsp;physically&nbsp;enter&nbsp;the&nbsp;land&nbsp;of&nbsp;dreams,&nbsp;leaving&nbsp;nothing&nbsp;behind.
+
+      </p>
+
+      <p>In&nbsp;the&nbsp;region&nbsp;of&nbsp;dreams,&nbsp;you&nbsp;move&nbsp;through&nbsp;a&nbsp;menagerie&nbsp;of&nbsp;thoughts,&nbsp;desires,&nbsp;and&nbsp;phantoms&nbsp;created&nbsp;by&nbsp;the&nbsp;minds&nbsp;of&nbsp;dreamers&nbsp;everywhere.&nbsp;For&nbsp;every&nbsp;minute&nbsp;you&nbsp;move&nbsp;through&nbsp;dream,&nbsp;you&nbsp;can&nbsp;"wake"&nbsp;to&nbsp;find&nbsp;yourself&nbsp;five&nbsp;miles&nbsp;displaced&nbsp;in&nbsp;the&nbsp;waking&nbsp;world.&nbsp;Thus,&nbsp;a&nbsp;character&nbsp;can&nbsp;use&nbsp;this&nbsp;power&nbsp;to&nbsp;travel&nbsp;rapidly&nbsp;by&nbsp;physically&nbsp;entering&nbsp;where&nbsp;only&nbsp;dreams&nbsp;normally&nbsp;prowl,&nbsp;moving&nbsp;the&nbsp;desired&nbsp;distance,&nbsp;and&nbsp;then&nbsp;stepping&nbsp;back&nbsp;into&nbsp;the&nbsp;waking&nbsp;world.&nbsp;You&nbsp;know&nbsp;where&nbsp;you&nbsp;will&nbsp;come&nbsp;out&nbsp;in&nbsp;the&nbsp;waking&nbsp;world.
+
+      </p>
+
+      <p>Dream&nbsp;travel&nbsp;can&nbsp;also&nbsp;be&nbsp;used&nbsp;to&nbsp;travel&nbsp;to&nbsp;the&nbsp;Dreamscape&nbsp;and&nbsp;other&nbsp;planes&nbsp;that&nbsp;contain&nbsp;creatures&nbsp;that&nbsp;dream,&nbsp;but&nbsp;doing&nbsp;this&nbsp;requires&nbsp;crossing&nbsp;into&nbsp;the&nbsp;dreams&nbsp;of&nbsp;outsiders,&nbsp;where&nbsp;you&nbsp;are&nbsp;subject&nbsp;to&nbsp;the&nbsp;vagaries&nbsp;of&nbsp;many&nbsp;dream&nbsp;realities—a&nbsp;potentially&nbsp;perilous&nbsp;proposition.&nbsp;Transferring&nbsp;to&nbsp;another&nbsp;plane&nbsp;of&nbsp;existence&nbsp;in&nbsp;this&nbsp;fashion&nbsp;requires&nbsp;1d4&nbsp;hours&nbsp;of&nbsp;uninterrupted&nbsp;travel.
+
+      </p>
+
+      <p>Any&nbsp;creatures&nbsp;that&nbsp;come&nbsp;along&nbsp;when&nbsp;dream&nbsp;travel&nbsp;is&nbsp;manifested&nbsp;also&nbsp;make&nbsp;the&nbsp;transition&nbsp;to&nbsp;the&nbsp;borders&nbsp;of&nbsp;unconscious&nbsp;thought.&nbsp;A&nbsp;creature&nbsp;separated&nbsp;from&nbsp;you&nbsp;wanders&nbsp;off&nbsp;into&nbsp;the&nbsp;dreamscape.&nbsp;When&nbsp;the&nbsp;duration&nbsp;ends,&nbsp;all&nbsp;affected&nbsp;creatures&nbsp;return&nbsp;to&nbsp;the&nbsp;waking&nbsp;world&nbsp;as&nbsp;much&nbsp;as&nbsp;1,000&nbsp;miles&nbsp;(d%x10)&nbsp;from&nbsp;their&nbsp;starting&nbsp;point.&nbsp;If&nbsp;a&nbsp;creature&nbsp;remains&nbsp;in&nbsp;the&nbsp;dreamscape,&nbsp;it&nbsp;is&nbsp;powerless&nbsp;to&nbsp;leave&nbsp;unless&nbsp;it&nbsp;can&nbsp;manifest&nbsp;the&nbsp;dream&nbsp;travel&nbsp;power&nbsp;itself&nbsp;or&nbsp;someone&nbsp;who&nbsp;manifests&nbsp;the&nbsp;power&nbsp;seeks&nbsp;out&nbsp;the&nbsp;lost&nbsp;creature.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+
+      </p>
+  discipline: psychoportation
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      dread: 6
+      nomad: 7
+      voyager: 6
+  level: 6
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: '99'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 187–188
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

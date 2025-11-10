@@ -1,0 +1,65 @@
+_id: HONKgVp98rUSyOlh
+_key: '!items!HONKgVp98rUSyOlh'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Ectoplasmic_Charged_Armor
+folder: q8m9uwepn8lSkXhe
+img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+name: Ectoplasmic Charged Armor
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal
+      save:
+        description: None
+      target:
+        value: You
+  description:
+    value: >-
+      <p>You&nbsp;cover&nbsp;yourself&nbsp;with&nbsp;charged&nbsp;ectoplasm&nbsp;that&nbsp;reacts&nbsp;to&nbsp;any&nbsp;physical&nbsp;attacks&nbsp;by&nbsp;transforming&nbsp;the&nbsp;kinetic&nbsp;energy&nbsp;into&nbsp;volatile&nbsp;crystal&nbsp;shards.&nbsp;Any&nbsp;creature&nbsp;striking&nbsp;you&nbsp;with&nbsp;its&nbsp;body,&nbsp;natural&nbsp;weapon,&nbsp;or&nbsp;a&nbsp;handheld&nbsp;weapon&nbsp;takes&nbsp;2d6&nbsp;points&nbsp;of&nbsp;piercing&nbsp;damage.&nbsp;Each&nbsp;time&nbsp;the&nbsp;power&nbsp;discharges,&nbsp;the&nbsp;number&nbsp;of&nbsp;dice&nbsp;is&nbsp;halved,&nbsp;down&nbsp;to&nbsp;a&nbsp;minimum&nbsp;of&nbsp;1d6.
+
+      </p>
+
+      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+
+      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;increase&nbsp;the&nbsp;base&nbsp;damage&nbsp;by&nbsp;+2d6.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;each&nbsp;discharge&nbsp;only&nbsp;removes&nbsp;1d6&nbsp;from&nbsp;the&nbsp;next&nbsp;damage,&nbsp;instead&nbsp;of&nbsp;halving&nbsp;it.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;also&nbsp;gain&nbsp;3&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;per&nbsp;die&nbsp;of&nbsp;base&nbsp;damage.</li></ol>
+  discipline: metacreativity
+  display:
+    auditory: true
+    material: false
+    mental: false
+    olfactory: true
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      cryptic: 2
+      psion: 2
+      psychic warrior: 2
+      thug: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-01-01'
+      pages: '70'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  sr: false
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

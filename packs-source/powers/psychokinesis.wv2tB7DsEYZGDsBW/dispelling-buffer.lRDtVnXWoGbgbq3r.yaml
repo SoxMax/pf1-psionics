@@ -1,0 +1,80 @@
+_id: lRDtVnXWoGbgbq3r
+_key: '!items!lRDtVnXWoGbgbq3r'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Dispelling_Buffer
+folder: wv2tB7DsEYZGDsBW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Dispelling Buffer
+system:
+  actions:
+    - actionType: other
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        dismiss: true
+        units: hour
+        value: '@cl'
+      name: Use
+      range:
+        units: personal
+        value: Personal or close (25 ft. + 5 ft./2 levels); see text
+      save:
+        description: None
+      target:
+        value: >-
+          You or one willing creature or one object (object weighing up to 100
+          lb./level); see text
+  description:
+    value: >-
+      <p>You&nbsp;create&nbsp;a&nbsp;psychokinetic&nbsp;shield&nbsp;around&nbsp;the&nbsp;subject&nbsp;that&nbsp;improves&nbsp;the&nbsp;chance&nbsp;that&nbsp;any&nbsp;powers&nbsp;affecting&nbsp;the&nbsp;subject&nbsp;will&nbsp;resist&nbsp;a&nbsp;dispel&nbsp;psionics&nbsp;power&nbsp;(or&nbsp;a&nbsp;dispel&nbsp;magic&nbsp;spell)&nbsp;or&nbsp;a&nbsp;negation&nbsp;effect&nbsp;that&nbsp;targets&nbsp;a&nbsp;specific&nbsp;power&nbsp;(such&nbsp;as&nbsp;shatter&nbsp;mind&nbsp;blank).&nbsp;When&nbsp;dispelling&nbsp;buffer&nbsp;is&nbsp;manifested&nbsp;on&nbsp;a&nbsp;creature&nbsp;or&nbsp;object,&nbsp;on&nbsp;each&nbsp;dispel&nbsp;check,&nbsp;add&nbsp;+5&nbsp;to&nbsp;the&nbsp;DC&nbsp;for&nbsp;the&nbsp;ongoing&nbsp;effect&nbsp;that&nbsp;is&nbsp;subject&nbsp;to&nbsp;being&nbsp;dispelled.
+
+      </p>
+
+      <p>Dispel&nbsp;psionics&nbsp;can&nbsp;negate&nbsp;dispelling&nbsp;buffer,&nbsp;but&nbsp;against&nbsp;a&nbsp;targeted&nbsp;dispel,&nbsp;dispelling&nbsp;buffer&nbsp;is&nbsp;always&nbsp;checked&nbsp;last&nbsp;(with&nbsp;the&nbsp;same&nbsp;+5&nbsp;bonus).&nbsp;Against&nbsp;an&nbsp;area&nbsp;dispel,&nbsp;dispelling&nbsp;buffer&nbsp;is&nbsp;checked&nbsp;in&nbsp;the&nbsp;order&nbsp;according&nbsp;to&nbsp;its&nbsp;level&nbsp;(with&nbsp;the&nbsp;same&nbsp;+5&nbsp;bonus).
+
+      </p>
+
+      <p><strong>Special:</strong>&nbsp;When&nbsp;a&nbsp;psychic&nbsp;warrior&nbsp;manifests&nbsp;this&nbsp;power,&nbsp;the&nbsp;range&nbsp;is&nbsp;personal&nbsp;and&nbsp;the&nbsp;target&nbsp;is&nbsp;the&nbsp;manifester.
+
+      </p>
+  discipline: psychokinesis
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: true
+    visual: false
+  known: false
+  learnedAt:
+    class:
+      gambler: 6
+      kineticist: 6
+      psychic warrior: 6
+      tactician: 6
+      voyager: 6
+  level: 6
+  manifestTime:
+    units: standard
+    value: 1
+  prepared: false
+  sources:
+    - date: '2010-08-01'
+      pages: 97–98
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '186'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2010-01-01'
+      pages: '37'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

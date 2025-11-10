@@ -1,0 +1,29 @@
+_id: Kra6Qlk9htBvTcnO
+_key: '!items!Kra6Qlk9htBvTcnO'
+_stats:
+  coreVersion: '13.350'
+folder: 8GrwKZgR1JXaU7Be
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Bonus Feat
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Soulknife
+  description:
+    value: >-
+      <p>The&nbsp;soulknife&nbsp;may&nbsp;choose&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Power%20Attack">Power&nbsp;Attack</a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Two-Weapon%20Fighting">Two-Weapon&nbsp;Fighting</a>,&nbsp;or&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Weapon%20Focus">Weapon&nbsp;Focus</a>&nbsp;(mind&nbsp;blade)&nbsp;as&nbsp;a&nbsp;bonus&nbsp;feat&nbsp;at&nbsp;1st&nbsp;level.
+
+      </p><p></p>
+  sources:
+    - date: '2010-08-01'
+      pages: 28–33
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 57–64
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: bonus-feat
+type: feat
