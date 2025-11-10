@@ -568,7 +568,7 @@ function extractClassFeatures(html) {
     // Store the feature with its full description
     features.set(featureName.toLowerCase(), {
       name: featureName,
-      description: `<p><b>${featureName}:</b>${content}</p>`
+      description: `<p>${content}</p>`
     });
   }
 
