@@ -7,14 +7,68 @@ img: icons/magic/symbols/runes-star-magenta.webp
 name: Request Aid
 system:
   abilityType: ex
+  acquired: false
   associations:
     classes:
       - Vitalist
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
   description:
     value: >-
-      <p>Starting&nbsp;at&nbsp;5th&nbsp;level,&nbsp;members&nbsp;of&nbsp;a&nbsp;vitalist's&nbsp;collective&nbsp;are&nbsp;able&nbsp;to&nbsp;request&nbsp;aid&nbsp;from&nbsp;the&nbsp;vitalist,&nbsp;should&nbsp;he&nbsp;not&nbsp;realize&nbsp;such&nbsp;aid&nbsp;is&nbsp;needed.&nbsp;As&nbsp;a&nbsp;standard&nbsp;action,&nbsp;any&nbsp;member&nbsp;of&nbsp;the&nbsp;collective&nbsp;can&nbsp;request&nbsp;healing&nbsp;from&nbsp;the&nbsp;vitalist.&nbsp;The&nbsp;vitalist&nbsp;can&nbsp;grant&nbsp;this&nbsp;request&nbsp;by&nbsp;spending&nbsp;up&nbsp;to&nbsp;his&nbsp;level&nbsp;in&nbsp;power&nbsp;points&nbsp;as&nbsp;a&nbsp;free&nbsp;action,&nbsp;even&nbsp;if&nbsp;it&nbsp;is&nbsp;not&nbsp;his&nbsp;turn.&nbsp;Each&nbsp;power&nbsp;point&nbsp;spent&nbsp;in&nbsp;this&nbsp;fashion&nbsp;heals&nbsp;3&nbsp;hit&nbsp;points&nbsp;to&nbsp;the&nbsp;target.&nbsp;A&nbsp;vitalist&nbsp;can&nbsp;even&nbsp;initiate&nbsp;this&nbsp;healing&nbsp;himself&nbsp;should&nbsp;he&nbsp;realize&nbsp;someone&nbsp;needs&nbsp;healing,&nbsp;by&nbsp;spending&nbsp;a&nbsp;standard&nbsp;action.&nbsp;A&nbsp;vitalist&nbsp;can&nbsp;do&nbsp;this&nbsp;a&nbsp;number&nbsp;of&nbsp;times&nbsp;per&nbsp;day&nbsp;equal&nbsp;to&nbsp;3&nbsp;+&nbsp;his&nbsp;Wisdom&nbsp;modifier.
-
-      </p><p></p>
+      <p>Starting&nbsp;at&nbsp;5th&nbsp;level,&nbsp;members&nbsp;of&nbsp;a&nbsp;vitalist's&nbsp;collective&nbsp;are&nbsp;able&nbsp;to&nbsp;request&nbsp;aid&nbsp;from&nbsp;the&nbsp;vitalist,&nbsp;should&nbsp;he&nbsp;not&nbsp;realize&nbsp;such&nbsp;aid&nbsp;is&nbsp;needed.&nbsp;As&nbsp;a&nbsp;standard&nbsp;action,&nbsp;any&nbsp;member&nbsp;of&nbsp;the&nbsp;collective&nbsp;can&nbsp;request&nbsp;healing&nbsp;from&nbsp;the&nbsp;vitalist.&nbsp;The&nbsp;vitalist&nbsp;can&nbsp;grant&nbsp;this&nbsp;request&nbsp;by&nbsp;spending&nbsp;up&nbsp;to&nbsp;his&nbsp;level&nbsp;in&nbsp;power&nbsp;points&nbsp;as&nbsp;a&nbsp;free&nbsp;action,&nbsp;even&nbsp;if&nbsp;it&nbsp;is&nbsp;not&nbsp;his&nbsp;turn.&nbsp;Each&nbsp;power&nbsp;point&nbsp;spent&nbsp;in&nbsp;this&nbsp;fashion&nbsp;heals&nbsp;3&nbsp;hit&nbsp;points&nbsp;to&nbsp;the&nbsp;target.&nbsp;A&nbsp;vitalist&nbsp;can&nbsp;even&nbsp;initiate&nbsp;this&nbsp;healing&nbsp;himself&nbsp;should&nbsp;he&nbsp;realize&nbsp;someone&nbsp;needs&nbsp;healing,&nbsp;by&nbsp;spending&nbsp;a&nbsp;standard&nbsp;action.&nbsp;A&nbsp;vitalist&nbsp;can&nbsp;do&nbsp;this&nbsp;a&nbsp;number&nbsp;of&nbsp;times&nbsp;per&nbsp;day&nbsp;equal&nbsp;to&nbsp;3&nbsp;+&nbsp;his&nbsp;Wisdom&nbsp;modifier.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
   sources:
     - date: '2012-07-23'
       pages: 57–61
@@ -25,5 +79,10 @@ system:
       publisher: Dreamscarred Press
       title: Ultimate Psionics
   subType: classFeat
-  tag: request-aid
+  summons: false
+  tag: requestaid
+  uses:
+    maxFormula: 3 + @abilities.wis.mod
+    per: charges
+    value: 3
 type: feat

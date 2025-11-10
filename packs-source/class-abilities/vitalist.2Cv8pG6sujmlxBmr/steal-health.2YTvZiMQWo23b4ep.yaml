@@ -7,9 +7,85 @@ img: icons/magic/symbols/runes-star-magenta.webp
 name: Steal Health
 system:
   abilityType: ex
+  acquired: false
+  actions:
+    - _id: DoomcdpubtsFy01q
+      ability:
+        damage: wis
+        damageMult: 1
+      actionType: other
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      ammo:
+        type: none
+      damage:
+        parts:
+          - formula: '@class.level'
+      duration:
+        units: inst
+      name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: touch
   associations:
     classes:
       - Vitalist
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
   description:
     value: >-
       <p>At&nbsp;3rd&nbsp;level,&nbsp;a&nbsp;vitalist&nbsp;has&nbsp;learned&nbsp;to&nbsp;siphon&nbsp;the&nbsp;health&nbsp;of&nbsp;a&nbsp;creature&nbsp;and&nbsp;use&nbsp;it&nbsp;for&nbsp;his&nbsp;own&nbsp;needs&nbsp;or&nbsp;the&nbsp;needs&nbsp;of&nbsp;his&nbsp;collective.&nbsp;As&nbsp;a&nbsp;touch&nbsp;attack,&nbsp;the&nbsp;vitalist&nbsp;may&nbsp;deal&nbsp;a&nbsp;number&nbsp;of&nbsp;hit&nbsp;points&nbsp;in&nbsp;damage&nbsp;to&nbsp;the&nbsp;target&nbsp;equal&nbsp;to&nbsp;his&nbsp;vitalist&nbsp;level&nbsp;+&nbsp;his&nbsp;Wisdom&nbsp;modifier&nbsp;and&nbsp;heal&nbsp;an&nbsp;equal&nbsp;amount&nbsp;of&nbsp;damage.&nbsp;The&nbsp;vitalist&nbsp;may&nbsp;share&nbsp;any&nbsp;healing&nbsp;from&nbsp;this&nbsp;effect&nbsp;over&nbsp;his&nbsp;collective,&nbsp;even&nbsp;if&nbsp;he&nbsp;himself&nbsp;would&nbsp;not&nbsp;be&nbsp;eligible&nbsp;for&nbsp;the&nbsp;healing.&nbsp;A&nbsp;vitalist&nbsp;may&nbsp;not&nbsp;heal&nbsp;more&nbsp;hit&nbsp;points&nbsp;than&nbsp;the&nbsp;touched&nbsp;creature&nbsp;had&nbsp;prior&nbsp;to&nbsp;using&nbsp;this&nbsp;ability.
@@ -21,6 +97,11 @@ system:
       </p><p>At&nbsp;7th&nbsp;level,&nbsp;a&nbsp;vitalist&nbsp;is&nbsp;able&nbsp;to&nbsp;use&nbsp;steal&nbsp;health&nbsp;as&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;with&nbsp;a&nbsp;range&nbsp;of&nbsp;30&nbsp;feet.
 
       </p><p></p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
   sources:
     - date: '2012-07-23'
       pages: 57–61
@@ -31,5 +112,6 @@ system:
       publisher: Dreamscarred Press
       title: Ultimate Psionics
   subType: classFeat
-  tag: steal-health
+  summons: false
+  tag: stealhealth
 type: feat

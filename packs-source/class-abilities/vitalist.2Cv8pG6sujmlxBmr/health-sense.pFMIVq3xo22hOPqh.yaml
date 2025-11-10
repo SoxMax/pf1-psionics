@@ -7,9 +7,60 @@ img: icons/magic/symbols/runes-star-magenta.webp
 name: Health Sense
 system:
   abilityType: ex
+  acquired: false
   associations:
     classes:
       - Vitalist
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
   description:
     value: >-
       <p>Beginning&nbsp;at&nbsp;2nd&nbsp;level,&nbsp;a&nbsp;vitalist&nbsp;may&nbsp;take&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;gauge&nbsp;the&nbsp;relative&nbsp;health&nbsp;level&nbsp;of&nbsp;collective&nbsp;members,&nbsp;determining&nbsp;the&nbsp;amount&nbsp;of&nbsp;damage,&nbsp;in&nbsp;hit&nbsp;points,&nbsp;that&nbsp;an&nbsp;ally&nbsp;has&nbsp;taken.&nbsp;In&nbsp;addition,&nbsp;the&nbsp;vitalist&nbsp;may&nbsp;make&nbsp;a&nbsp;Heal&nbsp;check&nbsp;as&nbsp;a&nbsp;standard&nbsp;action,&nbsp;with&nbsp;a&nbsp;DC&nbsp;of&nbsp;15,&nbsp;to&nbsp;determine&nbsp;if&nbsp;any&nbsp;of&nbsp;the&nbsp;members&nbsp;of&nbsp;his&nbsp;collective&nbsp;are&nbsp;afflicted&nbsp;by&nbsp;a&nbsp;disease&nbsp;or&nbsp;poison.
@@ -21,6 +72,11 @@ system:
       </p><p>When&nbsp;treating&nbsp;a&nbsp;target&nbsp;over&nbsp;a&nbsp;collective,&nbsp;the&nbsp;DC&nbsp;of&nbsp;the&nbsp;Heal&nbsp;check&nbsp;is&nbsp;the&nbsp;same&nbsp;as&nbsp;if&nbsp;the&nbsp;vitalist&nbsp;was&nbsp;treating&nbsp;the&nbsp;target&nbsp;normally.
 
       </p><p></p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
   sources:
     - date: '2012-07-23'
       pages: 57–61
@@ -31,5 +87,6 @@ system:
       publisher: Dreamscarred Press
       title: Ultimate Psionics
   subType: classFeat
-  tag: health-sense
+  summons: false
+  tag: healthsense
 type: feat

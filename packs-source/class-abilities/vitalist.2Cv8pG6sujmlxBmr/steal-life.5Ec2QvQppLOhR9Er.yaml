@@ -7,9 +7,95 @@ img: icons/magic/symbols/runes-star-magenta.webp
 name: Steal Life
 system:
   abilityType: ex
+  acquired: false
+  actions:
+    - _id: 7o9fP9cx02fauOOn
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: msak
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      ammo:
+        type: none
+      duration:
+        units: inst
+      held: 1h
+      name: Use
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: touch
+      save:
+        dc: 10 + (@class.level / 2) + @abilities.wis.mod
+        description: A successful save negates this effect
+        harmless: false
+        type: fort
+      target:
+        value: one creature with a Constitution score and 140 or less hit points
+      touch: true
   associations:
     classes:
       - Vitalist
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
   description:
     value: >-
       <p>Beginning&nbsp;at&nbsp;14th&nbsp;level,&nbsp;a&nbsp;vitalist&nbsp;can&nbsp;not&nbsp;only&nbsp;steal&nbsp;the&nbsp;health&nbsp;of&nbsp;a&nbsp;target,&nbsp;but&nbsp;steal&nbsp;their&nbsp;life&nbsp;itself.&nbsp;By&nbsp;making&nbsp;a&nbsp;successful&nbsp;melee&nbsp;touch&nbsp;attack&nbsp;and&nbsp;expending&nbsp;psionic&nbsp;focus,&nbsp;the&nbsp;vitalist&nbsp;can&nbsp;force&nbsp;the&nbsp;target&nbsp;to&nbsp;make&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;(DC&nbsp;10&nbsp;+&nbsp;half&nbsp;class&nbsp;level&nbsp;+&nbsp;Wisdom&nbsp;modifier)&nbsp;or&nbsp;die.&nbsp;A&nbsp;successful&nbsp;save&nbsp;negates&nbsp;this&nbsp;effect.&nbsp;Targets&nbsp;with&nbsp;more&nbsp;than&nbsp;140&nbsp;hit&nbsp;points&nbsp;are&nbsp;unaffected&nbsp;by&nbsp;this&nbsp;ability.
@@ -23,6 +109,11 @@ system:
       </p><p>A&nbsp;vitalist&nbsp;must&nbsp;wait&nbsp;10&nbsp;minutes&nbsp;after&nbsp;using&nbsp;this&nbsp;ability&nbsp;before&nbsp;he&nbsp;can&nbsp;attempt&nbsp;to&nbsp;use&nbsp;it&nbsp;again.&nbsp;This&nbsp;is&nbsp;considered&nbsp;a&nbsp;death&nbsp;effect.
 
       </p><p></p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
   sources:
     - date: '2012-07-23'
       pages: 57–61
@@ -33,5 +124,10 @@ system:
       publisher: Dreamscarred Press
       title: Ultimate Psionics
   subType: classFeat
-  tag: steal-life
+  summons: false
+  tag: steallife
+  uses:
+    maxFormula: '1'
+    per: minute
+    value: 1
 type: feat

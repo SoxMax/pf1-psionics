@@ -8,6 +8,16 @@ system:
   armorProf:
     - lgt
   bab: low
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   classSkills:
     acr: false
     ahp: true
@@ -51,6 +61,13 @@ system:
   description:
     value: >-
       </p><p>Where&nbsp;the&nbsp;egoist&nbsp;is&nbsp;the&nbsp;master&nbsp;of&nbsp;his&nbsp;own&nbsp;body&nbsp;through&nbsp;the&nbsp;power&nbsp;of&nbsp;psychometabolism,&nbsp;vitalists&nbsp;blend&nbsp;the&nbsp;disciplines&nbsp;of&nbsp;telepathy,&nbsp;psychometabolism,&nbsp;and&nbsp;clairsentience&nbsp;to&nbsp;pool&nbsp;multiple&nbsp;creatures&nbsp;into&nbsp;a&nbsp;larger&nbsp;collective&nbsp;of&nbsp;beings,&nbsp;sharing&nbsp;the&nbsp;health&nbsp;of&nbsp;the&nbsp;many&nbsp;to&nbsp;keep&nbsp;each&nbsp;individual&nbsp;well.&nbsp;They&nbsp;are&nbsp;the&nbsp;masters&nbsp;of&nbsp;psionic&nbsp;healing,&nbsp;distributing&nbsp;regenerative&nbsp;energy&nbsp;with&nbsp;the&nbsp;precision&nbsp;of&nbsp;a&nbsp;surgeon.&nbsp;A&nbsp;vitalist's&nbsp;psionic&nbsp;powers&nbsp;and&nbsp;his&nbsp;collective&nbsp;are&nbsp;his&nbsp;most&nbsp;vital&nbsp;abilities.&nbsp;</p><p><b>Role:</b>&nbsp;Regardless&nbsp;of&nbsp;their&nbsp;chosen&nbsp;method,&nbsp;all&nbsp;vitalists&nbsp;can&nbsp;act&nbsp;as&nbsp;the&nbsp;party&nbsp;medic:&nbsp;healing&nbsp;wounds,&nbsp;curing&nbsp;ailments,&nbsp;and&nbsp;augmenting&nbsp;the&nbsp;physical&nbsp;form.&nbsp;The&nbsp;method&nbsp;in&nbsp;which&nbsp;they&nbsp;perform&nbsp;this&nbsp;role&nbsp;varies&nbsp;from&nbsp;vitalist&nbsp;to&nbsp;vitalist.&nbsp;As&nbsp;light&nbsp;armor&nbsp;wearers&nbsp;with&nbsp;minimal&nbsp;combat&nbsp;skill,&nbsp;vitalists&nbsp;are&nbsp;typically&nbsp;not&nbsp;found&nbsp;on&nbsp;the&nbsp;front&nbsp;line&nbsp;of&nbsp;battle.&nbsp;Helping&nbsp;his&nbsp;allies&nbsp;–&nbsp;whether&nbsp;by&nbsp;healing&nbsp;them&nbsp;or&nbsp;making&nbsp;your&nbsp;enemies&nbsp;weaker&nbsp;–&nbsp;is&nbsp;what&nbsp;a&nbsp;vitalist&nbsp;does&nbsp;best.&nbsp;</p><p><b>Alignment:</b>&nbsp;Any.&nbsp;</p><p><b>Hit&nbsp;Die:</b>&nbsp;d6.&nbsp;</p><p><b>Starting&nbsp;Wealth:</b>&nbsp;4d4&nbsp;x&nbsp;10&nbsp;gp&nbsp;(average&nbsp;100&nbsp;gp.)&nbsp;In&nbsp;addition,&nbsp;each&nbsp;character&nbsp;begins&nbsp;play&nbsp;with&nbsp;an&nbsp;outfit&nbsp;worth&nbsp;10&nbsp;gp&nbsp;or&nbsp;less.&nbsp;</p><p><b>Class&nbsp;Skills:&nbsp;</b>The&nbsp;vitalist's&nbsp;class&nbsp;skills&nbsp;are&nbsp;Autohypnosis,&nbsp;Bluff,&nbsp;Craft,&nbsp;Diplomacy,&nbsp;Heal,&nbsp;Intimidate,&nbsp;Knowledge&nbsp;(history),&nbsp;Knowledge&nbsp;(local),&nbsp;Knowledge&nbsp;(psionics),&nbsp;Linguistics,&nbsp;Perception,&nbsp;Perform,&nbsp;Profession,&nbsp;Sense&nbsp;Motive,&nbsp;Spellcraft,&nbsp;and&nbsp;Survival.&nbsp;</p><p><b>Skill&nbsp;Ranks&nbsp;per&nbsp;Level:</b>&nbsp;2&nbsp;+&nbsp;Int&nbsp;modifier.&nbsp;</p>
+  fc:
+    alt:
+      value: 0
+    hp:
+      value: 0
+    skill:
+      value: 0
   hd: 6
   hp: 6
   level: 1
