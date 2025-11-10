@@ -11,8 +11,9 @@ system:
     classes:
       - Voyager
   description:
-    value: |-
-      <p>At 9th level and higher, a voyager can no longer be flanked. This defense denies a rogue the ability to sneak attack the voyager by flanking her, unless the attacker has at least four more rogue levels than the target has voyager levels. If a character already has uncanny dodge (see above) from another class, the levels from the classes that grant uncanny dodge stack to determine the minimum rogue level required to flank the character.
+    value: >-
+      <p>At&nbsp;9th&nbsp;level&nbsp;and&nbsp;higher,&nbsp;a&nbsp;voyager&nbsp;can&nbsp;no&nbsp;longer&nbsp;be&nbsp;flanked.&nbsp;This&nbsp;defense&nbsp;denies&nbsp;a&nbsp;rogue&nbsp;the&nbsp;ability&nbsp;to&nbsp;sneak&nbsp;attack&nbsp;the&nbsp;voyager&nbsp;by&nbsp;flanking&nbsp;her,&nbsp;unless&nbsp;the&nbsp;attacker&nbsp;has&nbsp;at&nbsp;least&nbsp;four&nbsp;more&nbsp;rogue&nbsp;levels&nbsp;than&nbsp;the&nbsp;target&nbsp;has&nbsp;voyager&nbsp;levels.&nbsp;If&nbsp;a&nbsp;character&nbsp;already&nbsp;has&nbsp;uncanny&nbsp;dodge&nbsp;(see&nbsp;above)&nbsp;from&nbsp;another&nbsp;class,&nbsp;the&nbsp;levels&nbsp;from&nbsp;the&nbsp;classes&nbsp;that&nbsp;grant&nbsp;uncanny&nbsp;dodge&nbsp;stack&nbsp;to&nbsp;determine&nbsp;the&nbsp;minimum&nbsp;rogue&nbsp;level&nbsp;required&nbsp;to&nbsp;flank&nbsp;the&nbsp;character.
+
       </p><p></p>
   sources:
     - date: '2010-01-01'

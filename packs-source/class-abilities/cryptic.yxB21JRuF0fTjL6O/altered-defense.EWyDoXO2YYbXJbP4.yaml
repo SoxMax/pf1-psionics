@@ -11,13 +11,19 @@ system:
     classes:
       - Cryptic
   description:
-    value: |-
-      <p>A cryptic learns early on to modify the patterns around her to grant her protection as a swift action. The cryptic chooses from the options below and may only have one such effect active at any given time. The cryptic can use this ability for a number of rounds per day equal to 4 + her Intelligence modifier. The cryptic can maintain this ability as long as she wants as long as she has rounds available, or dismiss it at any time as a free action.
+    value: >-
+      <p>A&nbsp;cryptic&nbsp;learns&nbsp;early&nbsp;on&nbsp;to&nbsp;modify&nbsp;the&nbsp;patterns&nbsp;around&nbsp;her&nbsp;to&nbsp;grant&nbsp;her&nbsp;protection&nbsp;as&nbsp;a&nbsp;swift&nbsp;action.&nbsp;The&nbsp;cryptic&nbsp;chooses&nbsp;from&nbsp;the&nbsp;options&nbsp;below&nbsp;and&nbsp;may&nbsp;only&nbsp;have&nbsp;one&nbsp;such&nbsp;effect&nbsp;active&nbsp;at&nbsp;any&nbsp;given&nbsp;time.&nbsp;The&nbsp;cryptic&nbsp;can&nbsp;use&nbsp;this&nbsp;ability&nbsp;for&nbsp;a&nbsp;number&nbsp;of&nbsp;rounds&nbsp;per&nbsp;day&nbsp;equal&nbsp;to&nbsp;4&nbsp;+&nbsp;her&nbsp;Intelligence&nbsp;modifier.&nbsp;The&nbsp;cryptic&nbsp;can&nbsp;maintain&nbsp;this&nbsp;ability&nbsp;as&nbsp;long&nbsp;as&nbsp;she&nbsp;wants&nbsp;as&nbsp;long&nbsp;as&nbsp;she&nbsp;has&nbsp;rounds&nbsp;available,&nbsp;or&nbsp;dismiss&nbsp;it&nbsp;at&nbsp;any&nbsp;time&nbsp;as&nbsp;a&nbsp;free&nbsp;action.
+
       </p>
-      <ul><li><i>Absorb: </i>The cryptic gains DR 1/-.</li>
-      <li><i>Deflect: </i>The cryptic gains a +1 dodge bonus to his AC.</li>
-      <li><i>Retaliate: </i>The cryptic gains a +1 bonus on his attack rolls against any opponent that successfully hit him since his last turn.</li></ul>
-      <p>Every four cryptic levels thereafter, this bonus increases by 1 (to 2 at 5th level, 3 at 9th level, 4 at 13th level, and 5 at 17th level).
+
+      <ul><li><i>Absorb:&nbsp;</i>The&nbsp;cryptic&nbsp;gains&nbsp;DR&nbsp;1/-.</li>
+
+      <li><i>Deflect:&nbsp;</i>The&nbsp;cryptic&nbsp;gains&nbsp;a&nbsp;+1&nbsp;dodge&nbsp;bonus&nbsp;to&nbsp;his&nbsp;AC.</li>
+
+      <li><i>Retaliate:&nbsp;</i>The&nbsp;cryptic&nbsp;gains&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;on&nbsp;his&nbsp;attack&nbsp;rolls&nbsp;against&nbsp;any&nbsp;opponent&nbsp;that&nbsp;successfully&nbsp;hit&nbsp;him&nbsp;since&nbsp;his&nbsp;last&nbsp;turn.</li></ul>
+
+      <p>Every&nbsp;four&nbsp;cryptic&nbsp;levels&nbsp;thereafter,&nbsp;this&nbsp;bonus&nbsp;increases&nbsp;by&nbsp;1&nbsp;(to&nbsp;2&nbsp;at&nbsp;5th&nbsp;level,&nbsp;3&nbsp;at&nbsp;9th&nbsp;level,&nbsp;4&nbsp;at&nbsp;13th&nbsp;level,&nbsp;and&nbsp;5&nbsp;at&nbsp;17th&nbsp;level).
+
       </p><p></p>
   sources:
     - date: '2012-07-23'

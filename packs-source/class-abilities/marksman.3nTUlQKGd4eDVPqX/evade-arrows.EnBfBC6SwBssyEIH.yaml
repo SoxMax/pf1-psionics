@@ -11,8 +11,9 @@ system:
     classes:
       - Marksman
   description:
-    value: |-
-      <p>At 2nd level, a Marksman's familiarity with ranged attacks and her natural intuition alerts her to danger from mundane ranged attacks. She gains a +1 Dodge bonus to Armor Class against ranged attacks (but not ranged touch attacks). At 6th level and every four Marksman levels thereafter, this Dodge bonus increases by 1.
+    value: >-
+      <p>At&nbsp;2nd&nbsp;level,&nbsp;a&nbsp;Marksman's&nbsp;familiarity&nbsp;with&nbsp;ranged&nbsp;attacks&nbsp;and&nbsp;her&nbsp;natural&nbsp;intuition&nbsp;alerts&nbsp;her&nbsp;to&nbsp;danger&nbsp;from&nbsp;mundane&nbsp;ranged&nbsp;attacks.&nbsp;She&nbsp;gains&nbsp;a&nbsp;+1&nbsp;Dodge&nbsp;bonus&nbsp;to&nbsp;Armor&nbsp;Class&nbsp;against&nbsp;ranged&nbsp;attacks&nbsp;(but&nbsp;not&nbsp;ranged&nbsp;touch&nbsp;attacks).&nbsp;At&nbsp;6th&nbsp;level&nbsp;and&nbsp;every&nbsp;four&nbsp;Marksman&nbsp;levels&nbsp;thereafter,&nbsp;this&nbsp;Dodge&nbsp;bonus&nbsp;increases&nbsp;by&nbsp;1.
+
       </p><p></p>
   sources:
     - date: '2012-07-23'

@@ -11,10 +11,12 @@ system:
     classes:
       - Tactician
   description:
-    value: |-
-      <p>Upon achieving 20th level, a tactician has learned how to turn his collective into a truly cohesive battle unit. The tactician may use two daily uses of his strategy ability and grant all of his allies an insight bonus on attack and damage rolls, armor class, and saving throws equal to his intelligence for two minutes. This ability may not be used if the tactician is not engaged in combat.
+    value: >-
+      <p>Upon&nbsp;achieving&nbsp;20th&nbsp;level,&nbsp;a&nbsp;tactician&nbsp;has&nbsp;learned&nbsp;how&nbsp;to&nbsp;turn&nbsp;his&nbsp;collective&nbsp;into&nbsp;a&nbsp;truly&nbsp;cohesive&nbsp;battle&nbsp;unit.&nbsp;The&nbsp;tactician&nbsp;may&nbsp;use&nbsp;two&nbsp;daily&nbsp;uses&nbsp;of&nbsp;his&nbsp;strategy&nbsp;ability&nbsp;and&nbsp;grant&nbsp;all&nbsp;of&nbsp;his&nbsp;allies&nbsp;an&nbsp;insight&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;and&nbsp;damage&nbsp;rolls,&nbsp;armor&nbsp;class,&nbsp;and&nbsp;saving&nbsp;throws&nbsp;equal&nbsp;to&nbsp;his&nbsp;intelligence&nbsp;for&nbsp;two&nbsp;minutes.&nbsp;This&nbsp;ability&nbsp;may&nbsp;not&nbsp;be&nbsp;used&nbsp;if&nbsp;the&nbsp;tactician&nbsp;is&nbsp;not&nbsp;engaged&nbsp;in&nbsp;combat.
+
       </p>
-      <div class="mw-heading mw-heading2"></p>
+
+      <div&nbsp;class="mw-heading&nbsp;mw-heading2"></p>
   sources:
     - date: '2012-07-23'
       pages: 52–57

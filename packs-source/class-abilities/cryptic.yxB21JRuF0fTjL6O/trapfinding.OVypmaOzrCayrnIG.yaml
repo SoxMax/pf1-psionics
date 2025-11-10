@@ -11,8 +11,9 @@ system:
     classes:
       - Cryptic
   description:
-    value: |-
-      <p>A cryptic adds 1/2 her level to Perception skill checks made to locate traps and to Disable Device skill checks (minimum +1). A cryptic can use Disable Device to disarm magic traps.
+    value: >-
+      <p>A&nbsp;cryptic&nbsp;adds&nbsp;1/2&nbsp;her&nbsp;level&nbsp;to&nbsp;Perception&nbsp;skill&nbsp;checks&nbsp;made&nbsp;to&nbsp;locate&nbsp;traps&nbsp;and&nbsp;to&nbsp;Disable&nbsp;Device&nbsp;skill&nbsp;checks&nbsp;(minimum&nbsp;+1).&nbsp;A&nbsp;cryptic&nbsp;can&nbsp;use&nbsp;Disable&nbsp;Device&nbsp;to&nbsp;disarm&nbsp;magic&nbsp;traps.
+
       </p><p></p>
   sources:
     - date: '2012-07-23'

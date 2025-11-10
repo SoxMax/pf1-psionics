@@ -11,8 +11,9 @@ system:
     classes:
       - Aegis
   description:
-    value: |-
-      <p>Beginning at 2nd level, an aegis gains a +1 bonus to one Craft skill of his choice. At 6th level and every four levels thereafter, this bonus increases by 1.
+    value: >-
+      <p>Beginning&nbsp;at&nbsp;2nd&nbsp;level,&nbsp;an&nbsp;aegis&nbsp;gains&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;to&nbsp;one&nbsp;Craft&nbsp;skill&nbsp;of&nbsp;his&nbsp;choice.&nbsp;At&nbsp;6th&nbsp;level&nbsp;and&nbsp;every&nbsp;four&nbsp;levels&nbsp;thereafter,&nbsp;this&nbsp;bonus&nbsp;increases&nbsp;by&nbsp;1.
+
       </p><p></p>
   sources:
     - date: '2012-07-23'
