@@ -14,7 +14,16 @@ Features
 	* Added Autohypnosis (Wis, Trained only) to Skills tab.
 	* Added Knowledge (Psionics) (Int, Trained only) to Skills tab.
 * Adds support for Psionic Powers as a distinct Item.
-* Includes compendium packs with 597 psionic powers and 189 psionic feats from Dreamscarred Press' Psionics Unleashed.
+* Includes compendium packs with 597 psionic powers and 189 psionic feats from Dreamscarred Press'.
+
+### Installing in FoundryVTT
+
+Users can install this module using:
+```
+https://github.com/SoxMax/pf1-psionics/releases/latest/download/module.json
+```
+
+This URL always points to the most recent release.
 
 Development
 ===========
@@ -79,31 +88,7 @@ For detailed documentation, see:
 
 ## Release Process
 
-This module uses GitHub Actions for automated releases.
-
-### Creating a Release
-
-1. Go to the [Actions tab](https://github.com/SoxMax/pf1-psionics/actions)
-2. Select "Create Release" workflow
-3. Click "Run workflow"
-4. Enter the version number (e.g., `1.0.0`)
-5. Click "Run workflow" button
-
-The workflow will:
-- Validate version format
-- Run ESLint checks
-- Compile compendiums
-- Update module.json with version-specific URLs
-- Create GitHub release with module.zip and module.json
-
-### Installing in FoundryVTT
-
-Users can install this module using:
-```
-https://github.com/SoxMax/pf1-psionics/releases/latest/download/module.json
-```
-
-This URL always points to the most recent release.
+This module uses GitHub Actions for automated releases. Anytime the module version is updated in `module.json` and pushed to the `main` branch, a new release is created.
 
 ### Legal Note:
 
