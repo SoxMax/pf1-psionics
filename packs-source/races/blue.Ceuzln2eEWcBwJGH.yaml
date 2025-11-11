@@ -1,0 +1,98 @@
+_id: Ceuzln2eEWcBwJGH
+_key: '!items!Ceuzln2eEWcBwJGH'
+_stats:
+  coreVersion: '13.350'
+img: systems/pf1/icons/races/goblin.png
+name: Blue
+system:
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: lA35i5k5
+      formula: '2'
+      operator: add
+      priority: 0
+      target: int
+      type: racial
+    - _id: SHw2jwDg
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: racial
+    - _id: qlcOGsqc
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: str
+      type: racial
+    - _id: 0Rtv0XiO
+      formula: '60'
+      operator: set
+      priority: 0
+      target: sensedv
+      type: racial
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  creatureSubtypes:
+    - goblinoid
+  creatureTypes:
+    - humanoid
+  description:
+    value: >-
+      <p>Once&nbsp;thought&nbsp;to&nbsp;be&nbsp;a&nbsp;subrace&nbsp;of&nbsp;the&nbsp;goblins,&nbsp;blues&nbsp;are&nbsp;related&nbsp;to&nbsp;goblins,&nbsp;being&nbsp;a&nbsp;goblinoid&nbsp;race,&nbsp;but&nbsp;are&nbsp;actually&nbsp;defined&nbsp;as&nbsp;their&nbsp;own&nbsp;race.&nbsp;Able&nbsp;to&nbsp;interbreed&nbsp;with&nbsp;goblins,&nbsp;similar&nbsp;to&nbsp;humans&nbsp;interbreeding&nbsp;with&nbsp;elves,&nbsp;blues&nbsp;often&nbsp;infiltrate&nbsp;goblin&nbsp;tribes&nbsp;to&nbsp;procreate&nbsp;with&nbsp;the&nbsp;females&nbsp;of&nbsp;the&nbsp;tribe,&nbsp;having&nbsp;a&nbsp;limited&nbsp;population&nbsp;of&nbsp;blue&nbsp;females&nbsp;to&nbsp;choose&nbsp;from.&nbsp;Many&nbsp;blues&nbsp;with&nbsp;strong&nbsp;psionic&nbsp;ability&nbsp;learn&nbsp;to&nbsp;control&nbsp;their&nbsp;physical&nbsp;form&nbsp;using&nbsp;psionics&nbsp;to&nbsp;assume&nbsp;the&nbsp;look&nbsp;of&nbsp;a&nbsp;normal&nbsp;goblin,&nbsp;thereby&nbsp;allowing&nbsp;easier&nbsp;integration&nbsp;into&nbsp;a&nbsp;goblin&nbsp;tribe.&nbsp;The&nbsp;blood&nbsp;of&nbsp;blues&nbsp;runs&nbsp;stronger&nbsp;than&nbsp;goblins,&nbsp;and&nbsp;therefore&nbsp;a&nbsp;tribe&nbsp;that&nbsp;knowingly&nbsp;or&nbsp;unknowingly&nbsp;allows&nbsp;blues&nbsp;to&nbsp;breed&nbsp;with&nbsp;them&nbsp;will&nbsp;over&nbsp;a&nbsp;matter&nbsp;of&nbsp;a&nbsp;few&nbsp;generations&nbsp;be&nbsp;composed&nbsp;completely&nbsp;of&nbsp;blues.&nbsp;Because&nbsp;of&nbsp;this,&nbsp;the&nbsp;blues&nbsp;were&nbsp;once&nbsp;hunted&nbsp;into&nbsp;near&nbsp;extinction&nbsp;by&nbsp;their&nbsp;goblin&nbsp;kin,&nbsp;prompting&nbsp;their&nbsp;stealthier&nbsp;and&nbsp;cautious&nbsp;ways.&nbsp;The&nbsp;blue&nbsp;elders&nbsp;will&nbsp;often&nbsp;breed&nbsp;and&nbsp;then&nbsp;leave&nbsp;a&nbsp;tribe,&nbsp;looking&nbsp;for&nbsp;a&nbsp;new&nbsp;place&nbsp;to&nbsp;spread&nbsp;their&nbsp;blood&nbsp;before&nbsp;it&nbsp;is&nbsp;destroyed.</p><p><strong>Physical&nbsp;Description:&nbsp;</strong>Short&nbsp;with&nbsp;leathery&nbsp;blue&nbsp;hide,&nbsp;large&nbsp;eyes&nbsp;and&nbsp;ears&nbsp;and&nbsp;a&nbsp;mouth&nbsp;filled&nbsp;with&nbsp;fangs,&nbsp;blues&nbsp;stand&nbsp;between&nbsp;3&nbsp;and&nbsp;4&nbsp;feet&nbsp;tall,&nbsp;with&nbsp;males&nbsp;slightly&nbsp;taller&nbsp;and&nbsp;heavier&nbsp;than&nbsp;females.&nbsp;Most&nbsp;blues&nbsp;have&nbsp;black&nbsp;hair&nbsp;on&nbsp;their&nbsp;heads,&nbsp;although&nbsp;some&nbsp;choose&nbsp;to&nbsp;go&nbsp;bald.&nbsp;To&nbsp;most,&nbsp;the&nbsp;blue&nbsp;is&nbsp;simply&nbsp;an&nbsp;oddly-colored&nbsp;goblin.&nbsp;Very&nbsp;few&nbsp;things&nbsp;make&nbsp;them&nbsp;stand&nbsp;out&nbsp;from&nbsp;their&nbsp;racial&nbsp;cousins,&nbsp;at&nbsp;least&nbsp;physically,&nbsp;aside&nbsp;from&nbsp;their&nbsp;skin&nbsp;tone.</p><p><strong>Society:&nbsp;</strong>Where&nbsp;goblins&nbsp;are&nbsp;disorganized,&nbsp;driven&nbsp;by&nbsp;their&nbsp;passions&nbsp;and&nbsp;need&nbsp;for&nbsp;activity,&nbsp;blues&nbsp;are&nbsp;quite&nbsp;the&nbsp;opposite.&nbsp;They&nbsp;are&nbsp;determined,&nbsp;focused,&nbsp;and&nbsp;driven&nbsp;to&nbsp;organization&nbsp;and&nbsp;structure.&nbsp;A&nbsp;tribe&nbsp;of&nbsp;goblins&nbsp;that&nbsp;doesn't&nbsp;kill&nbsp;a&nbsp;newborn&nbsp;blue&nbsp;will&nbsp;often&nbsp;come&nbsp;to&nbsp;be&nbsp;dominated&nbsp;by&nbsp;that&nbsp;blue,&nbsp;whose&nbsp;natural&nbsp;organizational&nbsp;skills&nbsp;and&nbsp;intelligence&nbsp;allows&nbsp;it&nbsp;to&nbsp;either&nbsp;rule&nbsp;the&nbsp;tribe&nbsp;outright,&nbsp;or&nbsp;manipulate&nbsp;the&nbsp;less&nbsp;intelligent&nbsp;goblins.&nbsp;These&nbsp;tribes&nbsp;tend&nbsp;to&nbsp;become&nbsp;focused&nbsp;and&nbsp;unified,&nbsp;whipped&nbsp;into&nbsp;structure&nbsp;not&nbsp;necessarily&nbsp;by&nbsp;the&nbsp;leadership&nbsp;qualities&nbsp;of&nbsp;the&nbsp;blue,&nbsp;but&nbsp;by&nbsp;his&nbsp;psionic&nbsp;power&nbsp;and&nbsp;intelligence.&nbsp;As&nbsp;a&nbsp;result,&nbsp;most&nbsp;of&nbsp;the&nbsp;dominant&nbsp;goblin&nbsp;societies&nbsp;are&nbsp;actually&nbsp;lead&nbsp;by&nbsp;a&nbsp;powerful&nbsp;blue;&nbsp;the&nbsp;few&nbsp;tribes&nbsp;of&nbsp;only&nbsp;blues&nbsp;that&nbsp;have&nbsp;popped&nbsp;up&nbsp;tend&nbsp;to&nbsp;welcome&nbsp;order&nbsp;and&nbsp;competition,&nbsp;finding&nbsp;common&nbsp;cause&nbsp;with&nbsp;the&nbsp;ophiduans.</p><p><strong>Relations:&nbsp;</strong>While&nbsp;driven&nbsp;and&nbsp;intelligent,&nbsp;most&nbsp;blues&nbsp;are&nbsp;colored&nbsp;by&nbsp;the&nbsp;dark&nbsp;ways&nbsp;of&nbsp;the&nbsp;tribes&nbsp;where&nbsp;they&nbsp;grew&nbsp;up.&nbsp;These&nbsp;blues&nbsp;tend&nbsp;to&nbsp;look&nbsp;down&nbsp;on&nbsp;all&nbsp;other&nbsp;races&nbsp;and&nbsp;wish&nbsp;to&nbsp;dominate&nbsp;and&nbsp;enslave&nbsp;them,&nbsp;which&nbsp;naturally&nbsp;makes&nbsp;them&nbsp;enemies&nbsp;to&nbsp;most&nbsp;races,&nbsp;but&nbsp;even&nbsp;a&nbsp;more&nbsp;mild-natured&nbsp;or&nbsp;civilized&nbsp;blue&nbsp;will&nbsp;be&nbsp;met&nbsp;by&nbsp;suspicion&nbsp;by&nbsp;half-giants,&nbsp;elves,&nbsp;dwarves,&nbsp;gnomes&nbsp;and&nbsp;dromites,&nbsp;while&nbsp;the&nbsp;maenad&nbsp;and&nbsp;ophiduan&nbsp;societies&nbsp;often&nbsp;find&nbsp;much&nbsp;in&nbsp;common&nbsp;with&nbsp;a&nbsp;blue's&nbsp;worldview,&nbsp;seeing&nbsp;the&nbsp;need&nbsp;for&nbsp;structure&nbsp;and&nbsp;order,&nbsp;which&nbsp;can&nbsp;equate&nbsp;to&nbsp;expansionistic&nbsp;and&nbsp;conquering&nbsp;tendencies.</p><p><strong>Alignment&nbsp;and&nbsp;Religion:&nbsp;</strong>Few&nbsp;blues&nbsp;are&nbsp;religious,&nbsp;believing&nbsp;themselves&nbsp;to&nbsp;be&nbsp;superior&nbsp;to&nbsp;the&nbsp;weak-willed&nbsp;people&nbsp;around&nbsp;them&nbsp;that&nbsp;need&nbsp;supernatural&nbsp;crutches&nbsp;to&nbsp;cope&nbsp;with&nbsp;a&nbsp;hostile&nbsp;world.&nbsp;Most&nbsp;blues&nbsp;tend&nbsp;to&nbsp;be&nbsp;lawful&nbsp;evil,&nbsp;tainted&nbsp;by&nbsp;their&nbsp;lives&nbsp;among&nbsp;the&nbsp;goblin&nbsp;tribes.&nbsp;Laws&nbsp;tend&nbsp;to&nbsp;protect&nbsp;the&nbsp;selfish&nbsp;more&nbsp;than&nbsp;the&nbsp;altruistic&nbsp;and&nbsp;therefore&nbsp;a&nbsp;blue&nbsp;would&nbsp;rather&nbsp;learn&nbsp;to&nbsp;use&nbsp;the&nbsp;rules&nbsp;than&nbsp;break&nbsp;them.</p><p><strong>Adventurers:&nbsp;</strong>Blues&nbsp;often&nbsp;become&nbsp;adventurers&nbsp;having&nbsp;been&nbsp;driven&nbsp;out&nbsp;by&nbsp;their&nbsp;home&nbsp;tribe,&nbsp;or&nbsp;they&nbsp;come&nbsp;from&nbsp;one&nbsp;of&nbsp;the&nbsp;few&nbsp;existing&nbsp;blue&nbsp;tribes.&nbsp;Even&nbsp;so,&nbsp;to&nbsp;wander&nbsp;means&nbsp;that&nbsp;they&nbsp;are&nbsp;either&nbsp;desperate&nbsp;(often&nbsp;for&nbsp;power)&nbsp;or&nbsp;cocky&nbsp;and&nbsp;unafraid.&nbsp;Blues&nbsp;find&nbsp;adventuring&nbsp;a&nbsp;means&nbsp;to&nbsp;an&nbsp;end,&nbsp;a&nbsp;way&nbsp;for&nbsp;them&nbsp;to&nbsp;become&nbsp;rich,&nbsp;powerful,&nbsp;and&nbsp;connected,&nbsp;with&nbsp;death&nbsp;one&nbsp;of&nbsp;the&nbsp;possible&nbsp;outcomes.&nbsp;To&nbsp;a&nbsp;blue,&nbsp;that&nbsp;is&nbsp;a&nbsp;fair&nbsp;bargain&nbsp;to&nbsp;be&nbsp;made.</p><p><strong>Names:&nbsp;</strong>Most&nbsp;blues&nbsp;outside&nbsp;of&nbsp;goblin&nbsp;society&nbsp;take&nbsp;a&nbsp;name&nbsp;from&nbsp;other&nbsp;humanoids,&nbsp;which&nbsp;means&nbsp;that&nbsp;their&nbsp;naming&nbsp;conventions&nbsp;are&nbsp;as&nbsp;varied&nbsp;as&nbsp;that&nbsp;of&nbsp;all&nbsp;other&nbsp;races&nbsp;combined.&nbsp;However,&nbsp;many&nbsp;often&nbsp;add&nbsp;a&nbsp;descriptive&nbsp;title,&nbsp;such&nbsp;as&nbsp;“Oman&nbsp;the&nbsp;Magnificent”&nbsp;or&nbsp;“Andra&nbsp;the&nbsp;Wild”&nbsp;to&nbsp;enhance&nbsp;their&nbsp;individuality.</p>
+  languages:
+    - common
+    - goblin
+  quadruped: false
+  size: sm
+  speeds:
+    flyManeuverability: average
+    land: 30
+type: race
