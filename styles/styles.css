@@ -5,3 +5,320 @@
 
   flex: 0;
 }
+
+/* Augments Tab Styles (Power Sheet) */
+.augments-section {
+  padding: 1em;
+}
+
+.augments-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid #7a7971;
+}
+
+.augments-header h2 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.augments-header .add-augment {
+  background: var(--color-button-primary);
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 0.9em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.augments-header .add-augment:hover {
+  background: var(--color-button-primary-hover);
+}
+
+.augments-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.augment-item {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid #7a7971;
+  border-radius: 4px;
+  padding: 1em;
+  margin-bottom: 0.75em;
+}
+
+.augment-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+.augment-name {
+  margin: 0;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.augment-name .augment-cost {
+  color: var(--color-text-dark-secondary);
+  font-weight: normal;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.augment-controls {
+  display: flex;
+  gap: 0.25em;
+}
+
+.augment-controls button {
+  background: transparent;
+  border: 1px solid #7a7971;
+  border-radius: 3px;
+  padding: 0.25em 0.5em;
+  cursor: pointer;
+  color: var(--color-text-dark-primary);
+}
+
+.augment-controls button:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.augment-controls .delete-augment:hover {
+  background: rgba(200, 0, 0, 0.2);
+  color: #c00;
+  border-color: #c00;
+}
+
+.augment-details {
+  font-size: 0.9em;
+}
+
+.augment-description {
+  margin: 0.5em 0;
+  color: var(--color-text-dark-secondary);
+}
+
+.augment-effects,
+.augment-conditions {
+  margin-top: 0.5em;
+}
+
+.effect-list,
+.condition-list {
+  list-style: none;
+  padding-left: 1em;
+  margin: 0.25em 0;
+}
+
+.effect-list li,
+.condition-list li {
+  padding: 0.125em 0;
+}
+
+.augment-focus,
+.augment-uses {
+  margin-top: 0.5em;
+  padding: 0.25em 0.5em;
+  background: rgba(100, 150, 200, 0.1);
+  border-left: 3px solid #4a90e2;
+  font-size: 0.85em;
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+.no-augments {
+  text-align: center;
+  padding: 2em;
+  color: var(--color-text-dark-secondary);
+  font-style: italic;
+}
+
+.augments-footer {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: 1px solid #7a7971;
+}
+
+.augments-footer .help-text {
+  color: var(--color-text-dark-secondary);
+  font-size: 0.9em;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+/* Augment Editor Dialog Styles */
+.augment-editor {
+  min-height: 400px;
+}
+
+.augment-editor .form-body {
+  padding: 1em;
+  overflow-y: auto;
+  max-height: 600px;
+}
+
+.augment-editor .form-section {
+  margin-bottom: 1.5em;
+  border: 1px solid #7a7971;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.augment-editor .section-header {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0.75em;
+  margin: 0;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  cursor: pointer;
+  user-select: none;
+}
+
+.augment-editor .section-header .toggle-icon {
+  margin-left: auto;
+  transition: transform 0.2s;
+}
+
+.augment-editor .form-section.collapsed .section-header .toggle-icon {
+  transform: rotate(-90deg);
+}
+
+.augment-editor .section-content {
+  padding: 1em;
+}
+
+.augment-editor .form-section.collapsed .section-content {
+  display: none;
+}
+
+.augment-editor .form-group.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5em;
+}
+
+.augment-editor .form-footer {
+  padding: 1em;
+  border-top: 1px solid #7a7971;
+  justify-content: flex-end;
+  gap: 0.5em;
+}
+
+.augment-editor .dialog-button {
+  padding: 0.5em 1em;
+  border-radius: 3px;
+  border: 1px solid #7a7971;
+  background: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.augment-editor .dialog-button:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.augment-editor .dialog-button.default {
+  background: var(--color-button-primary);
+  color: white;
+  border-color: var(--color-button-primary);
+}
+
+.augment-editor .dialog-button.default:hover {
+  background: var(--color-button-primary-hover);
+}
+
+/* Augment Selector Styles (Attack Dialog) */
+.augments {
+  margin-top: 0.5em;
+  padding: 0.5em;
+  border-top: 1px solid #7a7971;
+}
+
+.augments header h3 {
+  margin: 0 0 0.5em 0;
+  font-size: 1em;
+  font-weight: bold;
+  color: var(--color-text-dark-primary);
+}
+
+.augment-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.augment-option {
+  padding: 0.5em;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+}
+
+.augment-option label {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  cursor: pointer;
+  font-weight: normal;
+  margin: 0;
+}
+
+.augment-option input[type="checkbox"] {
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.augment-name {
+  font-weight: bold;
+  flex-grow: 1;
+}
+
+.augment-cost {
+  color: var(--color-text-dark-secondary);
+  font-style: italic;
+  margin-left: auto;
+}
+
+.augment-description {
+  margin-top: 0.25em;
+  margin-left: 1.5em;
+  font-size: 0.9em;
+  color: var(--color-text-dark-secondary);
+}
+
+.augment-condition {
+  margin-top: 0.25em;
+  margin-left: 1.5em;
+  font-size: 0.85em;
+  color: var(--color-text-dark-5);
+  font-style: italic;
+}
+
+.augment-special {
+  margin-top: 0.25em;
+  margin-left: 1.5em;
+  font-size: 0.85em;
+  color: var(--color-text-dark-primary);
+  background: rgba(150, 100, 50, 0.1);
+  padding: 0.25em;
+  border-radius: 3px;
+}
+

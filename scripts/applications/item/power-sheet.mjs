@@ -1,4 +1,5 @@
 import { MODULE_ID } from "../../_module.mjs";
+import { AugmentEditor } from "./augment-editor.mjs";
 
 export class PowerSheet extends pf1.applications.item.ItemSheetPF {
 
@@ -61,7 +62,16 @@ export class PowerSheet extends pf1.applications.item.ItemSheetPF {
 
       trait.active = !foundry.utils.isEmpty(trait.selected);
     }
-    
+
+    // Prepare augments data
+    context.augments = (item.system.augments || []).map(aug => ({
+      ...aug,
+      hasEffects: Object.values(aug.effects || {}).some(v => v && v !== 0 && v !== 1 && v !== ""),
+      hasConditions: (aug.conditions?.minLevel > 0) ||
+                     (aug.conditions?.maxLevel !== null) ||
+                     (aug.conditions?.requiresCondition !== "")
+    }));
+
     return context;
   }
 
@@ -76,6 +86,89 @@ export class PowerSheet extends pf1.applications.item.ItemSheetPF {
 
     game.tooltip.dismissLockedTooltip(el.closest(".locked-tooltip"));
     this.item.changes.get(changeId)?.delete();
+  }
+
+  /**
+   * Handle adding a new augment
+   * @param {Event} event
+   * @private
+   */
+  async _onAddAugment(event) {
+    event.preventDefault();
+
+    const augments = foundry.utils.deepClone(this.item.system.augments || []);
+    augments.push({
+      _id: foundry.utils.randomID(),
+      name: "New Augment",
+      description: "",
+      costFormula: "1",
+      maxUses: null,
+      requiresFocus: false,
+      effects: {
+        damageBonus: "",
+        damageMult: 1,
+        durationMultiplier: 1,
+        durationBonus: "",
+        rangeMultiplier: 1,
+        rangeBonus: "",
+        targetBonus: "",
+        dcBonus: 0,
+        clBonus: 0,
+        special: ""
+      },
+      conditions: {
+        minLevel: 0,
+        maxLevel: null,
+        requiresCondition: ""
+      }
+    });
+
+    await this.item.update({"system.augments": augments});
+  }
+
+  /**
+   * Handle deleting an augment
+   * @param {Event} event
+   * @private
+   */
+  async _onDeleteAugment(event) {
+    event.preventDefault();
+
+    const augmentId = event.currentTarget.closest(".augment-item").dataset.augmentId;
+    const augments = foundry.utils.deepClone(this.item.system.augments || []);
+    const index = augments.findIndex(a => a._id === augmentId);
+
+    if (index >= 0) {
+      augments.splice(index, 1);
+      await this.item.update({"system.augments": augments});
+    }
+  }
+
+  /**
+   * Handle editing an augment
+   * @param {Event} event
+   * @private
+   */
+  async _onEditAugment(event) {
+    event.preventDefault();
+
+    const augmentId = event.currentTarget.closest(".augment-item").dataset.augmentId;
+    const augment = (this.item.system.augments || []).find(a => a._id === augmentId);
+
+    if (!augment) return;
+
+    new AugmentEditor(this.item, augment).render(true);
+  }
+
+  activateListeners(html) {
+    super.activateListeners(html);
+
+    if (!this.isEditable) return;
+
+    // Augment controls
+    html.find(".add-augment").click(this._onAddAugment.bind(this));
+    html.find(".delete-augment").click(this._onDeleteAugment.bind(this));
+    html.find(".edit-augment").click(this._onEditAugment.bind(this));
   }
 
   /**

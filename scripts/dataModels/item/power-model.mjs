@@ -88,6 +88,31 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
       prepared: new BooleanField({initial: false}),
       manifestor: new StringField({initial: ""}),
       sr: new BooleanField({initial: true}),
+      augments: new ArrayField(new SchemaField({
+        _id: new StringField({required: true, initial: () => foundry.utils.randomID()}),
+        name: new StringField({required: true, initial: ""}),
+        description: new StringField({required: true, initial: ""}),
+        costFormula: new StringField({required: true, initial: "1"}),
+        maxUses: new NumberField({required: false, initial: null}),
+        requiresFocus: new BooleanField({initial: false}),
+        effects: new SchemaField({
+          damageBonus: new StringField({initial: ""}),
+          damageMult: new NumberField({initial: 1}),
+          durationMultiplier: new NumberField({initial: 1}),
+          durationBonus: new StringField({initial: ""}),
+          rangeMultiplier: new NumberField({initial: 1}),
+          rangeBonus: new StringField({initial: ""}),
+          targetBonus: new StringField({initial: ""}),
+          dcBonus: new NumberField({initial: 0}),
+          clBonus: new NumberField({initial: 0}),
+          special: new StringField({initial: ""}),
+        }),
+        conditions: new SchemaField({
+          minLevel: new NumberField({initial: 0}),
+          maxLevel: new NumberField({required: false, initial: null}),
+          requiresCondition: new StringField({initial: ""}),
+        }),
+      }), {initial: []}),
     };
   }
 
