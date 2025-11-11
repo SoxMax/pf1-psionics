@@ -30,51 +30,62 @@ export async function renderAttackDialogHook(app, html, data) {
       );
       controls.after(augmentControls);
 
-      // Handle augment selection
-      html.find('input[name="augment"]').on("change", function() {
-        const augmentId = $(this).val();
-        const checked = $(this).is(":checked");
+      // Initialize augment tracking
+      app.rollData.augmentCounts = app.rollData.augmentCounts || {};
 
-        // Initialize selected augments array if needed
-        app.rollData.selectedAugments = app.rollData.selectedAugments || [];
+      // Handle augment increase button
+      html.find(".augment-increase").on("click", function(event) {
+        event.preventDefault();
+        const augmentId = $(this).data("augment-id");
+        const augment = availableAugments.find(a => a._id === augmentId);
+        const $input = html.find(`input.augment-count[data-augment-id="${augmentId}"]`);
+        const currentCount = parseInt($input.val()) || 0;
+        const maxUses = augment.maxUses || Infinity;
 
-        if (checked) {
-          // Add augment
-          const augment = availableAugments.find(a => a._id === augmentId);
-          app.rollData.selectedAugments.push(augment);
+        if (currentCount < maxUses) {
+          const newCount = currentCount + 1;
+          $input.val(newCount);
 
-          // Calculate additional PP cost
-          const augmentCost = RollPF.safeRollSync(
-            augment.costFormula,
-            app.rollData
-          ).total;
+          // Update tracking
+          app.rollData.augmentCounts[augmentId] = newCount;
 
+          // Calculate and add PP cost
+          const augmentCost = RollPF.safeRollSync(augment.costFormula, app.rollData).total;
           app.rollData.chargeCostBonus = (app.rollData.chargeCostBonus || 0) + augmentCost;
-        } else {
-          // Remove augment
-          const idx = app.rollData.selectedAugments.findIndex(a => a._id === augmentId);
-          if (idx >= 0) {
-            const augment = app.rollData.selectedAugments[idx];
-            const augmentCost = RollPF.safeRollSync(
-              augment.costFormula,
-              app.rollData
-            ).total;
 
-            app.rollData.chargeCostBonus = (app.rollData.chargeCostBonus || 0) - augmentCost;
-            app.rollData.selectedAugments.splice(idx, 1);
-          }
+          // Update charge cost display
+          updateChargeCostDisplay(html, app);
         }
+      });
 
-        // Re-render to update displayed cost
-        app.render();
+      // Handle augment decrease button
+      html.find(".augment-decrease").on("click", function(event) {
+        event.preventDefault();
+        const augmentId = $(this).data("augment-id");
+        const augment = availableAugments.find(a => a._id === augmentId);
+        const $input = html.find(`input.augment-count[data-augment-id="${augmentId}"]`);
+        const currentCount = parseInt($input.val()) || 0;
+
+        if (currentCount > 0) {
+          const newCount = currentCount - 1;
+          $input.val(newCount);
+
+          // Update tracking
+          app.rollData.augmentCounts[augmentId] = newCount;
+
+          // Calculate and subtract PP cost
+          const augmentCost = RollPF.safeRollSync(augment.costFormula, app.rollData).total;
+          app.rollData.chargeCostBonus = (app.rollData.chargeCostBonus || 0) - augmentCost;
+
+          // Update charge cost display
+          updateChargeCostDisplay(html, app);
+        }
       });
     }
   }
 
   // Force the application to recalculate its dimensions.
-  app.setPosition({
-    height: "auto"
-  });
+  app.setPosition({height: "auto"});
 
   html.find('input.attribute[name="sl-offset"]').on("change", app._onChangeAttribute.bind(app));
   html.find('input.attribute[name="cl-offset"]').on("change", app._onChangeAttribute.bind(app));
@@ -96,4 +107,35 @@ function onChangeAttribute(event) {
   }
 
   this.render();
+}
+
+/**
+ * Update the charge cost display in the dialog
+ * @param {jQuery} html - The dialog HTML
+ * @param {Application} app - The dialog application
+ */
+function updateChargeCostDisplay(html, app) {
+  // Find the charge cost display element (if it exists in PF1's attack dialog)
+  const $chargeDisplay = html.find(".charge-cost, .power-point-cost");
+  if ($chargeDisplay.length) {
+    const totalCost = (app.rollData.chargeCost || 0) + (app.rollData.chargeCostBonus || 0);
+    $chargeDisplay.text(totalCost);
+  }
+
+  // Prepare selectedAugments array for action-use hook
+  const augmentCounts = app.rollData.augmentCounts || {};
+  app.rollData.selectedAugments = [];
+
+  // Build array of augments with their counts
+  for (const [augmentId, count] of Object.entries(augmentCounts)) {
+    if (count > 0) {
+      const augment = app.item.system.augments.find(a => a._id === augmentId);
+      if (augment) {
+        // Add the augment multiple times if count > 1
+        for (let i = 0; i < count; i++) {
+          app.rollData.selectedAugments.push(augment);
+        }
+      }
+    }
+  }
 }

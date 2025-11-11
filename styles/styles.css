@@ -272,18 +272,67 @@
   border-radius: 3px;
 }
 
-.augment-option label {
+.augment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.25em;
+}
+
+.augment-info {
   display: flex;
   align-items: center;
   gap: 0.5em;
-  cursor: pointer;
-  font-weight: normal;
-  margin: 0;
+  flex-grow: 1;
 }
 
-.augment-option input[type="checkbox"] {
-  margin: 0;
-  flex-shrink: 0;
+.augment-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.25em;
+}
+
+.augment-increase,
+.augment-decrease {
+  background: var(--color-button-primary);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8em;
+}
+
+.augment-increase:hover,
+.augment-decrease:hover {
+  background: var(--color-button-primary-hover);
+}
+
+.augment-increase:disabled,
+.augment-decrease:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.augment-count {
+  width: 40px;
+  text-align: center;
+  border: 1px solid #7a7971;
+  border-radius: 3px;
+  padding: 0.125em;
+  font-size: 1em;
+  background: white;
+}
+
+.augment-limit {
+  font-size: 0.85em;
+  color: var(--color-text-dark-5);
+  font-style: italic;
 }
 
 .augment-name {
