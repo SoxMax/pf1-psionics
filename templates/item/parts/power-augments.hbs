@@ -1,0 +1,118 @@
+<div class="augments-section">
+  <header class="augments-header">
+    <h2>{{localize "PF1-Psionics.Augments"}}</h2>
+    <button type="button" class="add-augment" title="{{localize 'PF1-Psionics.AddAugment'}}">
+      <i class="fas fa-plus"></i> {{localize "PF1-Psionics.AddAugment"}}
+    </button>
+  </header>
+
+  {{#if augments.length}}
+    <ol class="augments-list">
+      {{#each augments}}
+        <li class="augment-item" data-augment-id="{{this._id}}">
+          <div class="augment-summary">
+            <h4 class="augment-name">
+              <i class="fas fa-magic"></i>
+              {{this.name}}
+              <span class="augment-cost">({{this.costFormula}} PP)</span>
+            </h4>
+
+            <div class="augment-controls">
+              <button type="button" class="edit-augment" title="{{localize 'PF1-Psionics.EditAugment'}}">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button type="button" class="delete-augment" title="{{localize 'PF1-Psionics.DeleteAugment'}}">
+                <i class="fas fa-trash"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="augment-details">
+            {{#if this.description}}
+              <p class="augment-description">{{this.description}}</p>
+            {{/if}}
+
+            {{#if this.hasEffects}}
+              <div class="augment-effects">
+                <strong>{{localize "PF1-Psionics.Effects"}}:</strong>
+                <ul class="effect-list">
+                  {{#if this.effects.damageBonus}}
+                    <li>{{localize "PF1-Psionics.DamageBonus"}}: {{this.effects.damageBonus}}</li>
+                  {{/if}}
+                  {{#if (ne this.effects.damageMult 1)}}
+                    <li>{{localize "PF1-Psionics.DamageMult"}}: ×{{this.effects.damageMult}}</li>
+                  {{/if}}
+                  {{#if (ne this.effects.durationMultiplier 1)}}
+                    <li>{{localize "PF1-Psionics.DurationMult"}}: ×{{this.effects.durationMultiplier}}</li>
+                  {{/if}}
+                  {{#if this.effects.durationBonus}}
+                    <li>{{localize "PF1-Psionics.DurationBonus"}}: {{this.effects.durationBonus}}</li>
+                  {{/if}}
+                  {{#if (ne this.effects.rangeMultiplier 1)}}
+                    <li>{{localize "PF1-Psionics.RangeMult"}}: ×{{this.effects.rangeMultiplier}}</li>
+                  {{/if}}
+                  {{#if this.effects.rangeBonus}}
+                    <li>{{localize "PF1-Psionics.RangeBonus"}}: +{{this.effects.rangeBonus}} ft</li>
+                  {{/if}}
+                  {{#if this.effects.targetBonus}}
+                    <li>{{localize "PF1-Psionics.TargetBonus"}}: {{this.effects.targetBonus}}</li>
+                  {{/if}}
+                  {{#if (ne this.effects.dcBonus 0)}}
+                    <li>{{localize "PF1-Psionics.DCBonus"}}: +{{this.effects.dcBonus}}</li>
+                  {{/if}}
+                  {{#if (ne this.effects.clBonus 0)}}
+                    <li>{{localize "PF1-Psionics.CLBonus"}}: +{{this.effects.clBonus}}</li>
+                  {{/if}}
+                  {{#if this.effects.special}}
+                    <li>{{localize "PF1-Psionics.Special"}}: {{this.effects.special}}</li>
+                  {{/if}}
+                </ul>
+              </div>
+            {{/if}}
+
+            {{#if this.hasConditions}}
+              <div class="augment-conditions">
+                <strong>{{localize "PF1-Psionics.Conditions"}}:</strong>
+                <ul class="condition-list">
+                  {{#if (gt this.conditions.minLevel 0)}}
+                    <li>{{localize "PF1-Psionics.MinLevel"}}: {{this.conditions.minLevel}}</li>
+                  {{/if}}
+                  {{#if this.conditions.maxLevel}}
+                    <li>{{localize "PF1-Psionics.MaxLevel"}}: {{this.conditions.maxLevel}}</li>
+                  {{/if}}
+                  {{#if this.conditions.requiresCondition}}
+                    <li>{{this.conditions.requiresCondition}}</li>
+                  {{/if}}
+                </ul>
+              </div>
+            {{/if}}
+
+            {{#if this.requiresFocus}}
+              <div class="augment-focus">
+                <i class="fas fa-eye"></i> {{localize "PF1-Psionics.RequiresFocus"}}
+              </div>
+            {{/if}}
+
+            {{#if this.maxUses}}
+              <div class="augment-uses">
+                <i class="fas fa-repeat"></i> {{localize "PF1-Psionics.MaxUses"}}: {{this.maxUses}}
+              </div>
+            {{/if}}
+          </div>
+        </li>
+      {{/each}}
+    </ol>
+  {{else}}
+    <p class="no-augments">
+      <em>{{localize "PF1-Psionics.NoAugmentsDefined"}}</em>
+    </p>
+  {{/if}}
+
+  <footer class="augments-footer">
+    <p class="help-text">
+      <i class="fas fa-info-circle"></i>
+      {{localize "PF1-Psionics.AugmentsHelpText"}}
+    </p>
+  </footer>
+</div>
+

@@ -1,0 +1,39 @@
+<section class="augments">
+  <header>
+    <h3>{{localize "PF1-Psionics.Augments"}}</h3>
+  </header>
+
+  <div class="augment-list">
+    {{#each augments}}
+      <div class="augment-option">
+        <label>
+          <input type="checkbox"
+                 name="augment"
+                 value="{{this._id}}"
+                 {{#if this.requiresFocus}}data-requires-focus="true"{{/if}}
+                 {{#if this.maxUses}}data-max-uses="{{this.maxUses}}"{{/if}}>
+
+          <span class="augment-name">{{this.name}}</span>
+          <span class="augment-cost">(+{{this.costFormula}} PP)</span>
+        </label>
+
+        <div class="augment-description">
+          {{this.description}}
+        </div>
+
+        {{#if this.conditions.requiresCondition}}
+          <div class="augment-condition">
+            <em>{{this.conditions.requiresCondition}}</em>
+          </div>
+        {{/if}}
+
+        {{#if this.effects.special}}
+          <div class="augment-special">
+            {{this.effects.special}}
+          </div>
+        {{/if}}
+      </div>
+    {{/each}}
+  </div>
+</section>
+
