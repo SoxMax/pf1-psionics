@@ -48,7 +48,8 @@
         "class-abilities",
         "classes",
         "feats",
-        "powers"
+        "powers",
+        "races"
       ]
     }
   ],
@@ -90,6 +91,17 @@
       "name": "powers",
       "label": "Psionic Powers",
       "path": "packs/powers",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "races",
+      "label": "Psionic Races",
+      "path": "packs/races",
       "type": "Item",
       "system": "pf1",
       "ownership": {
