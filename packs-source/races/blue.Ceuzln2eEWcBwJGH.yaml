@@ -82,6 +82,7 @@ system:
     umd: false
   creatureSubtypes:
     - goblinoid
+    - psionic
   creatureTypes:
     - humanoid
   description:
