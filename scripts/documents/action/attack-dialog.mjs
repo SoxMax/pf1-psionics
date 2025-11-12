@@ -7,8 +7,7 @@ export async function renderAttackDialogHook(app, html, data) {
   controls.after(powerControls);
 
   // Add augment selector
-  const power = data.item;
-  const augments = power.system.augments || [];
+  const augments = data.item.system.augments || [];
   const manifestCL = data.rollData?.cl || 0;
 
   if (augments.length > 0) {
@@ -33,54 +32,8 @@ export async function renderAttackDialogHook(app, html, data) {
       // Initialize augment tracking
       app.rollData.augmentCounts = app.rollData.augmentCounts || {};
 
-      // Handle augment increase button
-      html.find(".augment-increase").on("click", function(event) {
-        event.preventDefault();
-        const augmentId = $(this).data("augment-id");
-        const augment = availableAugments.find(a => a._id === augmentId);
-        const $input = html.find(`input.augment-count[data-augment-id="${augmentId}"]`);
-        const currentCount = parseInt($input.val()) || 0;
-        const maxUses = augment.maxUses || Infinity;
-
-        if (currentCount < maxUses) {
-          const newCount = currentCount + 1;
-          $input.val(newCount);
-
-          // Update tracking
-          app.rollData.augmentCounts[augmentId] = newCount;
-
-          // Calculate and add PP cost
-          const augmentCost = RollPF.safeRollSync(augment.costFormula, app.rollData).total;
-          app.rollData.chargeCostBonus = (app.rollData.chargeCostBonus || 0) + augmentCost;
-
-          // Update charge cost display
-          updateChargeCostDisplay(html, app);
-        }
-      });
-
-      // Handle augment decrease button
-      html.find(".augment-decrease").on("click", function(event) {
-        event.preventDefault();
-        const augmentId = $(this).data("augment-id");
-        const augment = availableAugments.find(a => a._id === augmentId);
-        const $input = html.find(`input.augment-count[data-augment-id="${augmentId}"]`);
-        const currentCount = parseInt($input.val()) || 0;
-
-        if (currentCount > 0) {
-          const newCount = currentCount - 1;
-          $input.val(newCount);
-
-          // Update tracking
-          app.rollData.augmentCounts[augmentId] = newCount;
-
-          // Calculate and subtract PP cost
-          const augmentCost = RollPF.safeRollSync(augment.costFormula, app.rollData).total;
-          app.rollData.chargeCostBonus = (app.rollData.chargeCostBonus || 0) - augmentCost;
-
-          // Update charge cost display
-          updateChargeCostDisplay(html, app);
-        }
-      });
+      // Handle augment adjust buttons (both increase and decrease)
+      html.find(".augment-adjust").on("click", handleAugmentAdjust.bind(null, app, html, availableAugments));
     }
   }
 
@@ -107,6 +60,50 @@ function onChangeAttribute(event) {
   }
 
   this.render();
+}
+
+/**
+ * Handle augment count adjustment (increase or decrease)
+ * @param {Application} app - The dialog application
+ * @param {jQuery} html - The dialog HTML
+ * @param {Array} availableAugments - Array of available augments
+ * @param {Event} event - The click event
+ */
+function handleAugmentAdjust(app, html, availableAugments, event) {
+  event.preventDefault();
+  
+  const $button = $(event.currentTarget);
+  const augmentId = $button.data("augment-id");
+  const action = $button.data("action"); // 'increase' or 'decrease'
+  const augment = availableAugments.find(a => a._id === augmentId);
+  const $input = html.find(`input.augment-count[data-augment-id="${augmentId}"]`);
+  const currentCount = parseInt($input.val()) || 0;
+  const maxUses = augment.maxUses || Infinity;
+  
+  // Determine the new count based on action
+  let newCount = currentCount;
+  if (action === "increase" && currentCount < maxUses) {
+    newCount = currentCount + 1;
+  } else if (action === "decrease" && currentCount > 0) {
+    newCount = currentCount - 1;
+  } else {
+    // No valid action to take
+    return;
+  }
+  
+  // Update the input value
+  $input.val(newCount);
+  
+  // Update tracking
+  app.rollData.augmentCounts[augmentId] = newCount;
+  
+  // Calculate PP cost difference
+  const augmentCost = RollPF.safeRollSync(augment.costFormula, app.rollData).total;
+  const costDelta = action === "increase" ? augmentCost : -augmentCost;
+  app.rollData.chargeCostBonus = (app.rollData.chargeCostBonus || 0) + costDelta;
+  
+  // Update charge cost display
+  updateChargeCostDisplay(html, app);
 }
 
 /**

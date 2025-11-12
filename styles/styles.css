@@ -292,8 +292,7 @@
   gap: 0.25em;
 }
 
-.augment-increase,
-.augment-decrease {
+.augment-adjust {
   background: var(--color-button-primary);
   color: white;
   border: none;
@@ -308,13 +307,11 @@
   font-size: 0.8em;
 }
 
-.augment-increase:hover,
-.augment-decrease:hover {
+.augment-adjust:hover {
   background: var(--color-button-primary-hover);
 }
 
-.augment-increase:disabled,
-.augment-decrease:disabled {
+.augment-adjust:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
