@@ -108,7 +108,6 @@ export class PowerSheet extends pf1.applications.item.ItemSheetPF {
         damageBonus: "",
         damageMult: 1,
         durationMultiplier: 1,
-        durationBonus: "",
         dcBonus: 0,
         clBonus: 0,
         special: ""

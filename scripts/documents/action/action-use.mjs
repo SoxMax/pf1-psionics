@@ -45,7 +45,6 @@ function calculateAugmentTotals(augments, augmentCounts) {
     dcBonus: 0,
     clBonus: 0,
     durationMultiplier: 1,
-    durationBonuses: [],
     requiresFocus: false
   };
 
@@ -84,11 +83,6 @@ function calculateAugmentTotals(augments, augmentCounts) {
       // Sum CL bonus
       if (effects.clBonus) {
         totals.clBonus += effects.clBonus;
-      }
-
-      // Collect duration bonus
-      if (effects.durationBonus) {
-        totals.durationBonuses.push(effects.durationBonus);
       }
 
       // Multiply duration multipliers
@@ -145,11 +139,6 @@ function applyAugmentEffects(actionUse, augmentCounts) {
   if (action?.duration?.value) {
     let durationFormula = action.duration.value.toString();
 
-    // Apply duration bonuses (additive)
-    if (totals.durationBonuses.length > 0) {
-      const bonusFormula = totals.durationBonuses.join(") + (");
-      durationFormula = `(${durationFormula}) + (${bonusFormula})`;
-    }
 
     // Apply duration multiplier (multiplicative)
     if (totals.durationMultiplier !== 1) {

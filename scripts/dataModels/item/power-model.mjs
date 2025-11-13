@@ -99,7 +99,6 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
           damageBonus: new StringField({initial: ""}),
           damageMult: new NumberField({initial: 1}),
           durationMultiplier: new NumberField({initial: 1}),
-          durationBonus: new StringField({initial: ""}),
           dcBonus: new NumberField({initial: 0}),
           clBonus: new NumberField({initial: 0}),
           special: new StringField({initial: ""}),
