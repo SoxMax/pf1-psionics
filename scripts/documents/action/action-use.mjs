@@ -34,6 +34,87 @@ export function pf1PreActionUseHook(actionUse) {
 }
 
 /**
+ * Calculate the total effects from all augments
+ * @param {Array} augments - Available augments on the item
+ * @param {Object} augmentCounts - Object mapping augment IDs to their counts
+ * @param {Object} rollData - Roll data for evaluating formulas
+ * @param {Array} selectedAugments - Array to populate with selected augments for chat display
+ * @returns {Object} Object containing all calculated totals
+ */
+function calculateAugmentTotals(augments, augmentCounts, rollData, selectedAugments) {
+  // Initialize totals
+  const totals = {
+    chargeCostBonus: 0,
+    damageBonuses: [],
+    damageMult: 1,
+    dcBonus: 0,
+    clBonus: 0,
+    rangeMultiplier: 1,
+    durationMultiplier: 1,
+    requiresFocus: false
+  };
+
+  // Sum all augment effects
+  for (const [augmentId, count] of Object.entries(augmentCounts)) {
+    if (count <= 0) continue;
+
+    const augment = augments.find(a => a._id === augmentId);
+    if (!augment) continue;
+
+    const effects = augment.effects;
+
+    // Add to selectedAugments for chat card (once per augment, with count)
+    selectedAugments.push({ ...augment, count });
+
+    // Sum effects based on count
+    for (let i = 0; i < count; i++) {
+      // Sum PP cost for this augment
+      if (augment.costFormula) {
+        const augmentCost = RollPF.safeRollSync(augment.costFormula, rollData).total;
+        totals.chargeCostBonus += augmentCost;
+      }
+
+      // Collect damage bonuses
+      if (effects.damageBonus) {
+        totals.damageBonuses.push(effects.damageBonus);
+      }
+
+      // Multiply damage multipliers
+      if (effects.damageMult && effects.damageMult !== 1) {
+        totals.damageMult *= effects.damageMult;
+      }
+
+      // Sum DC bonus
+      if (effects.dcBonus) {
+        totals.dcBonus += effects.dcBonus;
+      }
+
+      // Sum CL bonus
+      if (effects.clBonus) {
+        totals.clBonus += effects.clBonus;
+      }
+
+      // Multiply range multipliers
+      if (effects.rangeMultiplier && effects.rangeMultiplier !== 1) {
+        totals.rangeMultiplier *= effects.rangeMultiplier;
+      }
+
+      // Multiply duration multipliers
+      if (effects.durationMultiplier && effects.durationMultiplier !== 1) {
+        totals.durationMultiplier *= effects.durationMultiplier;
+      }
+    }
+
+    // Check for psionic focus requirement (only once per augment, not per count)
+    if (augment.requiresFocus) {
+      totals.requiresFocus = true;
+    }
+  }
+
+  return totals;
+}
+
+/**
  * Apply augment effects to the action use
  * @param {ActionUse} actionUse - The action being used
  * @param {Object} augmentCounts - Object mapping augment IDs to their counts
@@ -46,76 +127,55 @@ function applyAugmentEffects(actionUse, augmentCounts) {
   // Build selectedAugments array for chat card display
   rollData.selectedAugments = [];
 
-  for (const [augmentId, count] of Object.entries(augmentCounts)) {
-    if (count <= 0) continue;
+  // Calculate all augment effect totals
+  const totals = calculateAugmentTotals(augments, augmentCounts, rollData, rollData.selectedAugments);
 
-    const augment = augments.find(a => a._id === augmentId);
-    if (!augment) continue;
+  // Apply all totals at once
+  if (totals.chargeCostBonus > 0) {
+    rollData.chargeCostBonus = (rollData.chargeCostBonus || 0) + totals.chargeCostBonus;
+  }
 
-    const effects = augment.effects;
+  for (const damageBonus of totals.damageBonuses) {
+    shared.damageBonus.push(damageBonus);
+  }
 
-    // Add to selectedAugments for chat card (once per augment, with count)
-    rollData.selectedAugments.push({ ...augment, count });
+  if (totals.damageMult !== 1) {
+    rollData.damageMult = (rollData.damageMult || 1) * totals.damageMult;
+  }
 
-    // Apply effects based on count
-    for (let i = 0; i < count; i++) {
-      // Calculate and apply PP cost for this augment
-      if (augment.costFormula) {
-        const augmentCost = RollPF.safeRollSync(augment.costFormula, rollData).total;
-        rollData.chargeCostBonus = (rollData.chargeCostBonus || 0) + augmentCost;
-      }
+  if (totals.dcBonus !== 0) {
+    rollData.dcBonus = (rollData.dcBonus || 0) + totals.dcBonus;
+  }
 
-      // Apply damage bonus
-      if (effects.damageBonus) {
-        // Add to damage formula
-        shared.damageBonus.push(effects.damageBonus);
-      }
+  if (totals.clBonus !== 0) {
+    rollData.cl = (rollData.cl || 0) + totals.clBonus;
+  }
 
-      // Apply damage multiplier
-      if (effects.damageMult && effects.damageMult !== 1) {
-        rollData.damageMult = (rollData.damageMult || 1) * effects.damageMult;
-      }
-
-      // Apply DC bonus
-      if (effects.dcBonus) {
-        rollData.dcBonus = (rollData.dcBonus || 0) + effects.dcBonus;
-      }
-
-      // Apply CL bonus
-      if (effects.clBonus) {
-        rollData.cl = (rollData.cl || 0) + effects.clBonus;
-      }
-
-      // Apply range multiplier
-      if (effects.rangeMultiplier && effects.rangeMultiplier !== 1) {
-        // Modify range in action data
-        const action = actionUse.action;
-        if (action?.range?.value) {
-          action.range.value = Math.floor(action.range.value * effects.rangeMultiplier);
-        }
-      }
-
-      // Apply duration multiplier
-      if (effects.durationMultiplier && effects.durationMultiplier !== 1) {
-        const action = actionUse.action;
-        if (action?.duration?.value) {
-          action.duration.value = Math.floor(action.duration.value * effects.durationMultiplier);
-        }
-      }
+  if (totals.rangeMultiplier !== 1) {
+    const action = actionUse.action;
+    if (action?.range?.value) {
+      action.range.value = Math.floor(action.range.value * totals.rangeMultiplier);
     }
+  }
 
-    // Check for psionic focus requirement (only once per augment, not per count)
-    if (augment.requiresFocus) {
-      const currentFocus = actionUse.actor.flags?.[MODULE_ID]?.focus?.current || 0;
-      if (currentFocus < 1) {
-        ui.notifications.warn(
-          game.i18n.localize("PF1-Psionics.Warning.AugmentRequiresFocus")
-        );
-        // Could optionally prevent the power use
-      } else {
-        // Expend focus
-        rollData.expendFocus = true;
-      }
+  if (totals.durationMultiplier !== 1) {
+    const action = actionUse.action;
+    if (action?.duration?.value) {
+      action.duration.value = Math.floor(action.duration.value * totals.durationMultiplier);
+    }
+  }
+
+  // Handle psionic focus requirement
+  if (totals.requiresFocus) {
+    const currentFocus = actionUse.actor.flags?.[MODULE_ID]?.focus?.current || 0;
+    if (currentFocus < 1) {
+      ui.notifications.warn(
+        game.i18n.localize("PF1-Psionics.Warning.AugmentRequiresFocus")
+      );
+      // Could optionally prevent the power use
+    } else {
+      // Expend focus
+      rollData.expendFocus = true;
     }
   }
 }
