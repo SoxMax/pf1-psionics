@@ -10,6 +10,15 @@ export function injectActionUse() {
       this.shared.templateData.augments = this.shared.rollData.selectedAugments || [];
     }
   }, "LISTENER");
+
+  libWrapper.register(MODULE_ID, "pf1.actionUse.ActionUse.prototype.alterRollData", function () {
+    if (this.item.type === `${MODULE_ID}.power`) {
+      const selectedAugments = this.shared.rollData.selectedAugments || [];
+      if (selectedAugments.length > 0) {
+        applyAugmentEffects(this, selectedAugments);
+      }
+    }
+  }, "LISTENER");
 }
 
 export function pf1PreActionUseHook(actionUse) {
@@ -21,12 +30,6 @@ export function pf1PreActionUseHook(actionUse) {
       ui.notifications.error(game.i18n.localize("PF1-Psionics.Error.PowerCostTooHigh"));
       return false;
     }
-
-    // Apply augment effects
-    const selectedAugments = actionUse.shared.rollData.selectedAugments || [];
-    if (selectedAugments.length > 0) {
-      applyAugmentEffects(actionUse, selectedAugments);
-    }
   }
 }
 
@@ -36,7 +39,8 @@ export function pf1PreActionUseHook(actionUse) {
  * @param {Array} augments - Selected augments
  */
 function applyAugmentEffects(actionUse, augments) {
-  const rollData = actionUse.shared.rollData;
+  const shared = actionUse.shared;
+  const rollData = shared.rollData;
 
   for (const augment of augments) {
     const effects = augment.effects;
@@ -44,7 +48,7 @@ function applyAugmentEffects(actionUse, augments) {
     // Apply damage bonus
     if (effects.damageBonus) {
       // Add to damage formula
-      rollData.damageBonus = (rollData.damageBonus || "") + " + " + effects.damageBonus;
+      shared.damageBonus.push(effects.damageBonus);
     }
 
     // Apply damage multiplier
