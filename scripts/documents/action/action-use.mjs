@@ -44,11 +44,8 @@ function calculateAugmentTotals(augments, augmentCounts) {
     damageMult: 1,
     dcBonus: 0,
     clBonus: 0,
-    rangeMultiplier: 1,
-    rangeBonuses: [],
     durationMultiplier: 1,
     durationBonuses: [],
-    targetBonuses: [],
     requiresFocus: false
   };
 
@@ -89,16 +86,6 @@ function calculateAugmentTotals(augments, augmentCounts) {
         totals.clBonus += effects.clBonus;
       }
 
-      // Collect range bonus
-      if (effects.rangeBonus) {
-        totals.rangeBonuses.push(effects.rangeBonus);
-      }
-
-      // Multiply range multipliers
-      if (effects.rangeMultiplier && effects.rangeMultiplier !== 1) {
-        totals.rangeMultiplier *= effects.rangeMultiplier;
-      }
-
       // Collect duration bonus
       if (effects.durationBonus) {
         totals.durationBonuses.push(effects.durationBonus);
@@ -107,11 +94,6 @@ function calculateAugmentTotals(augments, augmentCounts) {
       // Multiply duration multipliers
       if (effects.durationMultiplier && effects.durationMultiplier !== 1) {
         totals.durationMultiplier *= effects.durationMultiplier;
-      }
-
-      // Collect target bonus
-      if (effects.targetBonus) {
-        totals.targetBonuses.push(effects.targetBonus);
       }
     }
 
@@ -158,26 +140,8 @@ function applyAugmentEffects(actionUse, augmentCounts) {
     rollData.cl = (rollData.cl || 0) + totals.clBonus;
   }
 
-  // Apply range modifications
-  const action = actionUse.action;
-  if (action?.range?.value) {
-    let rangeFormula = action.range.value.toString();
-
-    // Apply range bonuses (additive)
-    if (totals.rangeBonuses.length > 0) {
-      const bonusFormula = totals.rangeBonuses.join(") + (");
-      rangeFormula = `(${rangeFormula}) + (${bonusFormula})`;
-    }
-
-    // Apply range multiplier (multiplicative)
-    if (totals.rangeMultiplier !== 1) {
-      rangeFormula = `floor((${rangeFormula}) * ${totals.rangeMultiplier})`;
-    }
-
-    action.range.value = rangeFormula;
-  }
-
   // Apply duration modifications
+  const action = actionUse.action;
   if (action?.duration?.value) {
     let durationFormula = action.duration.value.toString();
 
@@ -195,12 +159,6 @@ function applyAugmentEffects(actionUse, augmentCounts) {
     action.duration.value = durationFormula;
   }
 
-  // Apply target modifications
-  if (action?.target?.value && totals.targetBonuses.length > 0) {
-    const targetFormula = action.target.value.toString();
-    const bonusFormula = totals.targetBonuses.join(") + (");
-    action.target.value = `(${targetFormula}) + (${bonusFormula})`;
-  }
 
   // Handle psionic focus requirement
   if (totals.requiresFocus) {

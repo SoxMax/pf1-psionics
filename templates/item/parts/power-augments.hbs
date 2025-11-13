@@ -48,15 +48,6 @@
                   {{#if this.effects.durationBonus}}
                     <li>{{localize "PF1-Psionics.DurationBonus"}}: {{this.effects.durationBonus}}</li>
                   {{/if}}
-                  {{#if (ne this.effects.rangeMultiplier 1)}}
-                    <li>{{localize "PF1-Psionics.RangeMult"}}: ×{{this.effects.rangeMultiplier}}</li>
-                  {{/if}}
-                  {{#if this.effects.rangeBonus}}
-                    <li>{{localize "PF1-Psionics.RangeBonus"}}: +{{this.effects.rangeBonus}} ft</li>
-                  {{/if}}
-                  {{#if this.effects.targetBonus}}
-                    <li>{{localize "PF1-Psionics.TargetBonus"}}: {{this.effects.targetBonus}}</li>
-                  {{/if}}
                   {{#if (ne this.effects.dcBonus 0)}}
                     <li>{{localize "PF1-Psionics.DCBonus"}}: +{{this.effects.dcBonus}}</li>
                   {{/if}}
