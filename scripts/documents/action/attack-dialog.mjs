@@ -11,18 +11,10 @@ export async function renderAttackDialogHook(app, html, data) {
   const manifestCL = data.rollData?.cl || 0;
 
   if (augments.length > 0) {
-    // Filter augments by manifester level
-    const availableAugments = augments.filter(aug => {
-      const minLevel = aug.conditions?.minLevel || 0;
-      const maxLevel = aug.conditions?.maxLevel || Infinity;
-      return manifestCL >= minLevel && manifestCL <= maxLevel;
-    });
-
-    if (availableAugments.length > 0) {
       const augmentControls = await foundry.applications.handlebars.renderTemplate(
         "modules/pf1-psionics/templates/action/augment-selector.hbs",
         {
-          augments: availableAugments,
+          augments: augments,
           manifestCL: manifestCL,
           currentFocus: data.actor?.flags?.[MODULE_ID]?.focus?.current || 0
         }
@@ -33,7 +25,7 @@ export async function renderAttackDialogHook(app, html, data) {
       app.rollData.augmentCounts = app.rollData.augmentCounts || {};
 
       // Handle augment adjust buttons (both increase and decrease)
-      html.find(".augment-adjust").on("click", handleAugmentAdjust.bind(null, app, html, availableAugments));
+      html.find(".augment-adjust").on("click", handleAugmentAdjust.bind(null, app, html, augments));
     }
   }
 
