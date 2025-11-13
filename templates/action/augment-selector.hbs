@@ -9,7 +9,7 @@
         <div class="augment-header">
           <div class="augment-info">
             <span class="augment-name">{{this.name}}</span>
-            <span class="augment-cost">({{this.costFormula}} PP each)</span>
+            <span class="augment-cost">({{this.cost}} PP each)</span>
             {{#if this.maxUses}}
               <span class="augment-limit">(max {{this.maxUses}}×)</span>
             {{/if}}
@@ -25,7 +25,7 @@
                    min="0"
                    {{#if this.maxUses}}max="{{this.maxUses}}"{{/if}}
                    data-augment-id="{{this._id}}"
-                   data-cost-formula="{{this.costFormula}}"
+                   data-cost="{{this.cost}}"
                    {{#if this.requiresFocus}}data-requires-focus="true"{{/if}}
                    {{#if this.maxUses}}data-max-uses="{{this.maxUses}}"{{/if}}
                    readonly>

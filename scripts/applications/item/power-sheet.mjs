@@ -101,7 +101,7 @@ export class PowerSheet extends pf1.applications.item.ItemSheetPF {
       _id: foundry.utils.randomID(),
       name: "New Augment",
       description: "",
-      costFormula: "1",
+      cost: 2,
       maxUses: null,
       requiresFocus: false,
       effects: {

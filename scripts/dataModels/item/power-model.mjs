@@ -92,7 +92,7 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
         _id: new StringField({required: true, initial: () => foundry.utils.randomID()}),
         name: new StringField({required: true, initial: ""}),
         description: new StringField({required: true, initial: ""}),
-        costFormula: new StringField({required: true, initial: "1"}),
+        cost: new NumberField({required: true, initial: 1, integer: true, min: 0}),
         maxUses: new NumberField({required: false, initial: null}),
         requiresFocus: new BooleanField({initial: false}),
         effects: new SchemaField({

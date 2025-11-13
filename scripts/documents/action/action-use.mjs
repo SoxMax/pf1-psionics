@@ -69,9 +69,8 @@ function calculateAugmentTotals(augments, augmentCounts, rollData, selectedAugme
     // Sum effects based on count
     for (let i = 0; i < count; i++) {
       // Sum PP cost for this augment
-      if (augment.costFormula) {
-        const augmentCost = RollPF.safeRollSync(augment.costFormula, rollData).total;
-        totals.chargeCostBonus += augmentCost;
+      if (augment.cost) {
+        totals.chargeCostBonus += augment.cost;
       }
 
       // Collect damage bonuses
