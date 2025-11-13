@@ -5,9 +5,6 @@ export function injectActionUse() {
     if (this.item.type === `${MODULE_ID}.power`) {
       this.shared.templateData.casterLevelCheck = this.shared.casterLevelCheck;
       this.shared.templateData.concentrationCheck = this.shared.concentrationCheck;
-
-      // Add augment information to chat card
-      this.shared.templateData.augments = this.shared.rollData.selectedAugments || [];
     }
   }, "LISTENER");
 
@@ -37,11 +34,9 @@ export function pf1PreActionUseHook(actionUse) {
  * Calculate the total effects from all augments
  * @param {Array} augments - Available augments on the item
  * @param {Object} augmentCounts - Object mapping augment IDs to their counts
- * @param {Object} rollData - Roll data for evaluating formulas
- * @param {Array} selectedAugments - Array to populate with selected augments for chat display
  * @returns {Object} Object containing all calculated totals
  */
-function calculateAugmentTotals(augments, augmentCounts, rollData, selectedAugments) {
+function calculateAugmentTotals(augments, augmentCounts) {
   // Initialize totals
   const totals = {
     chargeCostBonus: 0,
@@ -63,8 +58,6 @@ function calculateAugmentTotals(augments, augmentCounts, rollData, selectedAugme
 
     const effects = augment.effects;
 
-    // Add to selectedAugments for chat card (once per augment, with count)
-    selectedAugments.push({ ...augment, count });
 
     // Sum effects based on count
     for (let i = 0; i < count; i++) {
@@ -123,11 +116,8 @@ function applyAugmentEffects(actionUse, augmentCounts) {
   const rollData = shared.rollData;
   const augments = actionUse.item.system.augments || [];
 
-  // Build selectedAugments array for chat card display
-  rollData.selectedAugments = [];
-
   // Calculate all augment effect totals
-  const totals = calculateAugmentTotals(augments, augmentCounts, rollData, rollData.selectedAugments);
+  const totals = calculateAugmentTotals(augments, augmentCounts);
 
   // Apply all totals at once
   if (totals.chargeCostBonus > 0) {
