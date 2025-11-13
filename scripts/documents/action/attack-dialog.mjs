@@ -11,22 +11,21 @@ export async function renderAttackDialogHook(app, html, data) {
   const manifestCL = data.rollData?.cl || 0;
 
   if (augments.length > 0) {
-      const augmentControls = await foundry.applications.handlebars.renderTemplate(
-        "modules/pf1-psionics/templates/action/augment-selector.hbs",
-        {
-          augments: augments,
-          manifestCL: manifestCL,
-          currentFocus: data.actor?.flags?.[MODULE_ID]?.focus?.current || 0
-        }
-      );
-      controls.after(augmentControls);
+    const augmentControls = await foundry.applications.handlebars.renderTemplate(
+      "modules/pf1-psionics/templates/action/augment-selector.hbs",
+      {
+        augments: augments,
+        manifestCL: manifestCL,
+        currentFocus: data.actor?.flags?.[MODULE_ID]?.focus?.current || 0
+      }
+    );
+    controls.after(augmentControls);
 
-      // Initialize augment tracking
-      app.rollData.augmentCounts = app.rollData.augmentCounts || {};
+    // Initialize augment tracking
+    app.rollData.augmentCounts = app.rollData.augmentCounts || {};
 
-      // Handle augment adjust buttons (both increase and decrease)
-      html.find(".augment-adjust").on("click", handleAugmentAdjust.bind(null, app, html, augments));
-    }
+    // Handle augment adjust buttons (both increase and decrease)
+    html.find(".augment-adjust").on("click", handleAugmentAdjust.bind(null, app, html, augments));
   }
 
   // Force the application to recalculate its dimensions.
@@ -88,43 +87,4 @@ function handleAugmentAdjust(app, html, availableAugments, event) {
   
   // Update tracking
   app.rollData.augmentCounts[augmentId] = newCount;
-  
-  // Calculate PP cost difference
-  const augmentCost = RollPF.safeRollSync(augment.costFormula, app.rollData).total;
-  const costDelta = action === "increase" ? augmentCost : -augmentCost;
-  app.rollData.chargeCostBonus = (app.rollData.chargeCostBonus || 0) + costDelta;
-  
-  // Update charge cost display
-  updateChargeCostDisplay(html, app);
-}
-
-/**
- * Update the charge cost display in the dialog
- * @param {jQuery} html - The dialog HTML
- * @param {Application} app - The dialog application
- */
-function updateChargeCostDisplay(html, app) {
-  // Find the charge cost display element (if it exists in PF1's attack dialog)
-  const $chargeDisplay = html.find(".charge-cost, .power-point-cost");
-  if ($chargeDisplay.length) {
-    const totalCost = (app.rollData.chargeCost || 0) + (app.rollData.chargeCostBonus || 0);
-    $chargeDisplay.text(totalCost);
-  }
-
-  // Prepare selectedAugments array for action-use hook
-  const augmentCounts = app.rollData.augmentCounts || {};
-  app.rollData.selectedAugments = [];
-
-  // Build array of augments with their counts
-  for (const [augmentId, count] of Object.entries(augmentCounts)) {
-    if (count > 0) {
-      const augment = app.item.system.augments.find(a => a._id === augmentId);
-      if (augment) {
-        // Add the augment multiple times if count > 1
-        for (let i = 0; i < count; i++) {
-          app.rollData.selectedAugments.push(augment);
-        }
-      }
-    }
-  }
 }
