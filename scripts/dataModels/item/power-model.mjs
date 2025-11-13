@@ -107,11 +107,6 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
           clBonus: new NumberField({initial: 0}),
           special: new StringField({initial: ""}),
         }),
-        conditions: new SchemaField({
-          minLevel: new NumberField({initial: 0}),
-          maxLevel: new NumberField({required: false, initial: null}),
-          requiresCondition: new StringField({initial: ""}),
-        }),
       }), {initial: []}),
     };
   }
