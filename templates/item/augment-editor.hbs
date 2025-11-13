@@ -137,40 +137,6 @@
         </div>
       </div>
     </div>
-
-    {{!-- Conditions --}}
-    <div class="form-section">
-      <h3 class="section-header section-toggle">
-        <i class="fas fa-filter"></i>
-        {{localize "PF1-Psionics.Conditions"}}
-        <i class="fas fa-chevron-down toggle-icon"></i>
-      </h3>
-
-      <div class="section-content">
-        <div class="form-group split">
-          <div>
-            <label>{{localize "PF1-Psionics.MinLevel"}}</label>
-            <div class="form-fields">
-              <input type="number" name="conditions.minLevel" value="{{augment.conditions.minLevel}}" placeholder="0" min="0" max="20" step="1">
-            </div>
-          </div>
-
-          <div>
-            <label>{{localize "PF1-Psionics.MaxLevel"}}</label>
-            <div class="form-fields">
-              <input type="number" name="conditions.maxLevel" value="{{augment.conditions.maxLevel}}" placeholder="{{localize 'PF1-Psionics.NoLimit'}}" min="0" max="20" step="1">
-            </div>
-          </div>
-        </div>
-
-        <div class="form-group stacked">
-          <label>{{localize "PF1-Psionics.RequiresCondition"}}</label>
-          <div class="form-fields">
-            <input type="text" name="conditions.requiresCondition" value="{{augment.conditions.requiresCondition}}" placeholder="{{localize 'PF1-Psionics.RequiresConditionPlaceholder'}}">
-          </div>
-        </div>
-      </div>
-    </div>
   </section>
 
   <footer class="form-footer flexrow">
