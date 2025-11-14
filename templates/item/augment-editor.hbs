@@ -1,6 +1,6 @@
 <form autocomplete="off" data-tooltip-class="pf1" class="flexcol {{cssClass}}">
   <header class="sheet-header flexrow">
-    <img class="profile" src="systems/pf1/icons/items/inventory/potion-vial-corked-labeled-white.webp" alt="{{localize 'PF1-Psionics.Augments.Icon'}}">
+    <img class="profile" src="{{img}}" data-edit="img">
     <div class="header-details flexrow">
       <h1 class="augment-name">
         <input name="name" type="text" value="{{data.name}}" placeholder="{{localize 'PF1-Psionics.Augments.NamePlaceholder'}}">
@@ -9,15 +9,15 @@
   </header>
 
   <nav class="sheet-navigation tabs" data-group="primary">
-    <a class="item" data-tab="basic" data-group="primary">{{localize "PF1-Psionics.Augments.BasicInformation"}}</a>
+    <a class="item" data-tab="description" data-group="primary">{{localize "PF1.Description"}}</a>
     <a class="item" data-tab="effects" data-group="primary">{{localize "PF1-Psionics.Augments.Effects.Label"}}</a>
     <a class="item" data-tab="conditions" data-group="primary">{{localize "PF1-Psionics.Augments.Conditions.Label"}}</a>
   </nav>
 
   <section class="primary-body">
 
-    {{!-- Basic Information Tab --}}
-    <div class="tab basic" data-group="primary" data-tab="basic">
+    {{!-- Description Information Tab --}}
+    <div class="tab description" data-group="primary" data-tab="description">
       {{!-- Description --}}
       <div class="form-group stacked">
         <label>{{localize "PF1.Description"}}</label>
