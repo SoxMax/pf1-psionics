@@ -1,14 +1,14 @@
-import { MODULE_ID } from "../../_module.mjs";
+import {MODULE_ID} from "../../_module.mjs";
 
 export function injectActionUse() {
-  libWrapper.register(MODULE_ID, "pf1.actionUse.ActionUse.prototype.getMessageData", function () {
+  libWrapper.register(MODULE_ID, "pf1.actionUse.ActionUse.prototype.getMessageData", function() {
     if (this.item.type === `${MODULE_ID}.power`) {
       this.shared.templateData.casterLevelCheck = this.shared.casterLevelCheck;
       this.shared.templateData.concentrationCheck = this.shared.concentrationCheck;
     }
   }, "LISTENER");
 
-  libWrapper.register(MODULE_ID, "pf1.actionUse.ActionUse.prototype.alterRollData", function () {
+  libWrapper.register(MODULE_ID, "pf1.actionUse.ActionUse.prototype.alterRollData", function() {
     if (this.item.type === `${MODULE_ID}.power`) {
       const augmentCounts = this.shared.rollData.augmentCounts || {};
       if (Object.keys(augmentCounts).length > 0) {
@@ -23,8 +23,14 @@ export function pf1PreActionUseHook(actionUse) {
     // Handle power cost too expensive.
     const chargeCost = actionUse.shared.rollData.chargeCost || 0;
     const cl = actionUse.shared.rollData.cl || 0;
-    if( chargeCost > cl ) {
+    if (chargeCost > cl) {
       ui.notifications.error(game.i18n.localize("PF1-Psionics.Error.PowerCostTooHigh"));
+      return false;
+    }
+    const currentFocus = actionUse.actor.flags?.[MODULE_ID]?.focus?.current || 0;
+    const focusCost =  actionUse.shared.rollData.focusCost || 0;
+    if (currentFocus < focusCost) {
+      ui.notifications.error(game.i18n.localize("PF1-Psionics.Error.NotEnoughFocus"));
       return false;
     }
   }
@@ -40,12 +46,12 @@ function calculateAugmentTotals(augments, augmentCounts) {
   // Initialize totals
   const totals = {
     chargeCostBonus: 0,
+    focusCostBonus: 0,
     damageBonuses: [],
     damageMult: 1,
     dcBonus: 0,
     clBonus: 0,
     durationMultiplier: 1,
-    requiresFocus: false
   };
 
   // Sum all augment effects
@@ -56,7 +62,6 @@ function calculateAugmentTotals(augments, augmentCounts) {
     if (!augment) continue;
 
     const effects = augment.effects;
-
 
     // Sum effects based on count
     for (let i = 0; i < count; i++) {
@@ -90,10 +95,8 @@ function calculateAugmentTotals(augments, augmentCounts) {
         totals.durationMultiplier *= effects.durationMultiplier;
       }
     }
-
-    // Check for psionic focus requirement (only once per augment, not per count)
     if (augment.requiresFocus) {
-      totals.requiresFocus = true;
+      totals.focusCostBonus += 1;
     }
   }
 
@@ -140,18 +143,8 @@ function applyAugmentEffects(actionUse, augmentCounts) {
     action.duration.value = `floor((${action.duration.value}) * ${totals.durationMultiplier})`;
   }
 
-
   // Handle psionic focus requirement
-  if (totals.requiresFocus) {
-    const currentFocus = actionUse.actor.flags?.[MODULE_ID]?.focus?.current || 0;
-    if (currentFocus < 1) {
-      ui.notifications.warn(
-        game.i18n.localize("PF1-Psionics.Warning.AugmentRequiresFocus")
-      );
-      // Could optionally prevent the power use
-    } else {
-      // Expend focus
-      rollData.expendFocus = true;
-    }
+  if (totals.focusCostBonus !== 0) {
+      rollData.focusCost = (rollData.focusCost || 0) + totals.focusCostBonus;
   }
 }

@@ -127,11 +127,9 @@
     "RequiresCondition": "Special Requirement",
     "RequiresConditionPlaceholder": "e.g., 'Only against undead' or 'Only outdoors'",
     "Error": {
-      "PowerCostTooHigh": "Power point cost exceeds current manifestor level.",
-      "CompendiumNotFound": "Psionic Powers compendium not found. Please ensure the module is properly installed."
-    },
-    "Warning": {
-      "AugmentRequiresFocus": "This augment requires psionic focus, which you do not have."
+      "CompendiumNotFound": "Psionic Powers compendium not found. Please ensure the module is properly installed.",
+      "NotEnoughFocus": "Not enough Psionic Focus to manifest to complete this action.",
+      "PowerCostTooHigh": "Power point cost exceeds current manifestor level."
     }
   }
 }
