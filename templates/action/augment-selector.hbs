@@ -1,6 +1,6 @@
 <section class="augments">
   <header>
-    <h3>{{localize "PF1-Psionics.Augments"}}</h3>
+    <h3>{{localize "PF1-Psionics.Augments.Plural"}}</h3>
   </header>
 
   <div class="augment-list">
@@ -15,7 +15,7 @@
             {{/if}}
           </div>
           <div class="augment-controls">
-            <button type="button" class="augment-adjust" data-augment-id="{{this._id}}" data-action="decrease" title="{{localize 'PF1-Psionics.DecreaseAugment'}}">
+            <button type="button" class="augment-adjust" data-augment-id="{{this._id}}" data-action="decrease" title="{{localize 'PF1-Psionics.Augments.Decrease'}}">
               <i class="fas fa-minus"></i>
             </button>
             <input type="number"
@@ -29,7 +29,7 @@
                    {{#if this.requiresFocus}}data-requires-focus="true"{{/if}}
                    {{#if this.maxUses}}data-max-uses="{{this.maxUses}}"{{/if}}
                    readonly>
-            <button type="button" class="augment-adjust" data-augment-id="{{this._id}}" data-action="increase" title="{{localize 'PF1-Psionics.IncreaseAugment'}}">
+            <button type="button" class="augment-adjust" data-augment-id="{{this._id}}" data-action="increase" title="{{localize 'PF1-Psionics.Augments.Increase'}}">
               <i class="fas fa-plus"></i>
             </button>
           </div>
