@@ -63,7 +63,7 @@
   margin-bottom: 0.5em;
 }
 
-.augment-name {
+.augments-section .augment-name {
   margin: 0;
   font-size: 1.1em;
   display: flex;
@@ -71,19 +71,19 @@
   gap: 0.5em;
 }
 
-.augment-name .augment-cost {
+.augments-section .augment-name .augment-cost {
   color: var(--color-text-dark-secondary);
   font-weight: normal;
   font-style: italic;
   font-size: 0.9em;
 }
 
-.augment-controls {
+.augments-section .augment-controls {
   display: flex;
   gap: 0.25em;
 }
 
-.augment-controls button {
+.augments-section .augment-controls button {
   background: transparent;
   border: 1px solid #7a7971;
   border-radius: 3px;
@@ -92,44 +92,44 @@
   color: var(--color-text-dark-primary);
 }
 
-.augment-controls button:hover {
+.augments-section .augment-controls button:hover {
   background: rgba(0, 0, 0, 0.1);
 }
 
-.augment-controls .delete-augment:hover {
+.augments-section .augment-controls .delete-augment:hover {
   background: rgba(200, 0, 0, 0.2);
   color: #c00;
   border-color: #c00;
 }
 
-.augment-details {
+.augments-section .augment-details {
   font-size: 0.9em;
 }
 
-.augment-description {
+.augments-section .augment-description {
   margin: 0.5em 0;
   color: var(--color-text-dark-secondary);
 }
 
-.augment-effects,
-.augment-conditions {
+.augments-section .augment-effects,
+.augments-section .augment-conditions {
   margin-top: 0.5em;
 }
 
-.effect-list,
-.condition-list {
+.augments-section .effect-list,
+.augments-section .condition-list {
   list-style: none;
   padding-left: 1em;
   margin: 0.25em 0;
 }
 
-.effect-list li,
-.condition-list li {
+.augments-section .effect-list li,
+.augments-section .condition-list li {
   padding: 0.125em 0;
 }
 
-.augment-focus,
-.augment-uses {
+.augments-section .augment-focus,
+.augments-section .augment-uses {
   margin-top: 0.5em;
   padding: 0.25em 0.5em;
   background: rgba(100, 150, 200, 0.1);
