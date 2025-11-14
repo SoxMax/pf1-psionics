@@ -10,6 +10,7 @@
 
   <nav class="sheet-navigation tabs" data-group="primary">
     <a class="item" data-tab="description" data-group="primary">{{localize "PF1.Description"}}</a>
+    <a class="item" data-tab="usage" data-group="primary">{{localize "PF1.Description"}}</a>
     <a class="item" data-tab="effects" data-group="primary">{{localize "PF1-Psionics.Augments.Effects.Label"}}</a>
   </nav>
 
@@ -24,35 +25,36 @@
           <textarea name="description" rows="4" placeholder="{{localize 'PF1-Psionics.Augments.DescriptionPlaceholder'}}">{{data.description}}</textarea>
         </div>
       </div>
+    </div>
 
-      <h3 class="form-header">{{localize "PF1-Psionics.Augments.Configuration"}}</h3>
-
-      {{!-- Power Point Cost --}}
-      <div class="form-group">
-        <label>{{localize "PF1-Psionics.Augments.Cost"}}</label>
-        <div class="form-fields">
-          <input type="number" name="cost" value="{{data.cost}}" placeholder="1" min="0" step="1" data-tooltip="PF1-Psionics.Augments.CostHint">
+    {{!-- Usage Tab --}}
+    <div class="tab usage" data-group="primary" data-tab="usage">
+        {{!-- Power Point Cost --}}
+        <div class="form-group">
+            <label>{{localize "PF1-Psionics.Augments.Cost"}}</label>
+            <div class="form-fields">
+                <input type="number" name="cost" value="{{data.cost}}" placeholder="1" min="0" step="1" data-tooltip="PF1-Psionics.Augments.CostHint">
+            </div>
         </div>
-      </div>
 
-      {{!-- Maximum Uses --}}
-      <div class="form-group">
-        <label>{{localize "PF1-Psionics.Augments.MaxUses"}}</label>
-        <div class="form-fields">
-          <input type="number" name="maxUses" value="{{data.maxUses}}" placeholder="{{localize 'PF1-Psionics.Augments.Unlimited'}}" min="1" step="1">
+        {{!-- Maximum Uses --}}
+        <div class="form-group">
+            <label>{{localize "PF1-Psionics.Augments.MaxUses"}}</label>
+            <div class="form-fields">
+                <input type="number" name="maxUses" value="{{data.maxUses}}" placeholder="{{localize 'PF1-Psionics.Augments.Unlimited'}}" min="1" step="1">
+            </div>
         </div>
-      </div>
 
-      {{!-- Requires Focus --}}
-      <div class="form-group">
-        <label></label>
-        <div class="form-fields">
-          <label class="checkbox">
-            <input type="checkbox" name="requiresFocus" {{checked data.requiresFocus}}>
-            {{localize "PF1-Psionics.Augments.RequiresFocus"}}
-          </label>
+        {{!-- Requires Focus --}}
+        <div class="form-group">
+            <label></label>
+            <div class="form-fields">
+                <label class="checkbox">
+                    <input type="checkbox" name="requiresFocus" {{checked data.requiresFocus}}>
+                    {{localize "PF1-Psionics.Augments.RequiresFocus"}}
+                </label>
+            </div>
         </div>
-      </div>
     </div>
 
     {{!-- Effects Tab --}}
