@@ -11,7 +11,6 @@
   <nav class="sheet-navigation tabs" data-group="primary">
     <a class="item" data-tab="description" data-group="primary">{{localize "PF1.Description"}}</a>
     <a class="item" data-tab="effects" data-group="primary">{{localize "PF1-Psionics.Augments.Effects.Label"}}</a>
-    <a class="item" data-tab="conditions" data-group="primary">{{localize "PF1-Psionics.Augments.Conditions.Label"}}</a>
   </nav>
 
   <section class="primary-body">
@@ -135,37 +134,6 @@
         <label>{{localize "PF1-Psionics.Augments.Effects.SpecialLabel"}}</label>
         <div class="form-fields">
           <textarea name="effects.special" rows="3" placeholder="{{localize 'PF1-Psionics.Augments.Effects.SpecialPlaceholder'}}">{{data.effects.special}}</textarea>
-        </div>
-      </div>
-    </div>
-
-    {{!-- Conditions Tab --}}
-    <div class="tab conditions" data-group="primary" data-tab="conditions">
-      <h3 class="form-header">{{localize "PF1-Psionics.Augments.Conditions.LevelRequirements"}}</h3>
-
-      {{!-- Minimum Manifester Level --}}
-      <div class="form-group">
-        <label>{{localize "PF1-Psionics.Augments.Conditions.MinLevel"}}</label>
-        <div class="form-fields">
-          <input type="number" name="conditions.minLevel" value="{{data.conditions.minLevel}}" placeholder="0" min="0" step="1">
-        </div>
-      </div>
-
-      {{!-- Maximum Manifester Level --}}
-      <div class="form-group">
-        <label>{{localize "PF1-Psionics.Augments.Conditions.MaxLevel"}}</label>
-        <div class="form-fields">
-          <input type="number" name="conditions.maxLevel" value="{{data.conditions.maxLevel}}" placeholder="{{localize 'PF1-Psionics.Augments.Conditions.NoLimit'}}" min="1" step="1">
-        </div>
-      </div>
-
-      <h3 class="form-header">{{localize "PF1-Psionics.Augments.Conditions.SpecialRequirements"}}</h3>
-
-      {{!-- Special Requirement --}}
-      <div class="form-group stacked">
-        <label>{{localize "PF1-Psionics.Augments.Conditions.RequiresCondition"}}</label>
-        <div class="form-fields">
-          <textarea name="conditions.requiresCondition" rows="2" placeholder="{{localize 'PF1-Psionics.Augments.Conditions.RequiresConditionPlaceholder'}}">{{data.conditions.requiresCondition}}</textarea>
         </div>
       </div>
     </div>
