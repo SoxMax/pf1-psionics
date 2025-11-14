@@ -26,7 +26,7 @@ export class AugmentEditor extends globalThis.FormApplication {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: ["pf1", "sheet", "augment-editor", "augment"],
-      template: `modules/${MODULE_ID}/templates/item/augment-editor.hbs`,
+      template: `modules/${MODULE_ID}/templates/app/item-augment.hbs`,
       width: 580,
       height: 600,
       closeOnSubmit: false,

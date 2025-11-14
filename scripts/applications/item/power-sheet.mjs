@@ -1,5 +1,5 @@
 import { MODULE_ID } from "../../_module.mjs";
-import { AugmentEditor } from "./augment-editor.mjs";
+import { AugmentEditor } from "./augment-sheet.mjs";
 
 export class PowerSheet extends pf1.applications.item.ItemSheetPF {
 
