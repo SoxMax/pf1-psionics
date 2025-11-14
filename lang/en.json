@@ -107,6 +107,8 @@
       "Unlimited": "Unlimited",
       "RequiresFocus": "Requires Psionic Focus",
       "BasicInformation": "Basic Information",
+      "Configuration": "Configuration",
+      "Icon": "Augment Icon",
       "Effects": {
         "Label": "Effects",
         "DamageMult": "Damage Multiplier",
@@ -122,6 +124,8 @@
       },
       "Conditions": {
         "Label": "Conditions",
+        "LevelRequirements": "Level Requirements",
+        "SpecialRequirements": "Special Requirements",
         "MinLevel": "Minimum Manifester Level",
         "MaxLevel": "Maximum Manifester Level",
         "NoLimit": "No Limit",

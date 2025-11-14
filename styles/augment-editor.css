@@ -131,6 +131,19 @@
   user-select: none;
 }
 
+.pf1.sheet.augment h3.form-header {
+  margin: 0.5em 0 0.25em 0;
+  padding: 0;
+  font-weight: bold;
+  line-height: var(--form-field-height);
+  color: var(--pf1-olive);
+  border: unset;
+}
+
+.pf1.sheet.augment h3.form-header:first-child {
+  margin-top: 0;
+}
+
 .pf1.sheet.augment hr {
   border: none;
   border-top: 1px solid #7a7971;
