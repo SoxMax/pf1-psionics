@@ -136,16 +136,8 @@ function applyAugmentEffects(actionUse, augmentCounts) {
 
   // Apply duration modifications
   const action = actionUse.action;
-  if (action?.duration?.value) {
-    let durationFormula = action.duration.value.toString();
-
-
-    // Apply duration multiplier (multiplicative)
-    if (totals.durationMultiplier !== 1) {
-      durationFormula = `floor((${durationFormula}) * ${totals.durationMultiplier})`;
-    }
-
-    action.duration.value = durationFormula;
+  if (action?.duration?.value && totals.durationMultiplier !== 1) {
+    action.duration.value = `floor((${action.duration.value}) * ${totals.durationMultiplier})`;
   }
 
 
