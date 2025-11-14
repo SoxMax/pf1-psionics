@@ -5,7 +5,7 @@
 
   <div class="augment-list">
     {{#each augments}}
-      <div class="augment-option" data-augment-id="{{this._id}}">
+      <div class="augment-option" data-augment-id="{{this._id}}" {{#if this.description}}title="{{this.description}}"{{/if}}>
         <div class="augment-header">
           <div class="augment-info">
             <span class="augment-name">{{this.name}}</span>
