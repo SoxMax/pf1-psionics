@@ -100,6 +100,12 @@ function calculateAugmentTotals(augments, augmentCounts) {
     }
   }
 
+  // Round bonuses appropriately
+  totals.clBonus = Math.floor(totals.clBonus);
+  totals.dcBonus = Math.floor(totals.dcBonus);
+  totals.chargeCostBonus = Math.ceil(totals.chargeCostBonus);
+  totals.focusCostBonus = Math.ceil(totals.focusCostBonus);
+
   return totals;
 }
 
