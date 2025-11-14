@@ -29,7 +29,7 @@ export function pf1PreActionUseHook(actionUse) {
     }
     const currentFocus = actionUse.actor.flags?.[MODULE_ID]?.focus?.current || 0;
     const focusCost =  actionUse.shared.rollData.focusCost || 0;
-    if (currentFocus < focusCost) {
+    if (focusCost > currentFocus) {
       ui.notifications.error(game.i18n.localize("PF1-Psionics.Error.NotEnoughFocus"));
       return false;
     }
