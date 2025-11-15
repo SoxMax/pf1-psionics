@@ -46,6 +46,7 @@
         </div>
 
         {{!-- Requires Focus --}}
+        {{#if (eq data.maxUses 1)}}
         <div class="form-group">
             <label></label>
             <div class="form-fields">
@@ -55,6 +56,7 @@
                 </label>
             </div>
         </div>
+        {{/if}}
     </div>
 
     {{!-- Effects Tab --}}
