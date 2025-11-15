@@ -291,7 +291,7 @@ export class AugmentEditor extends globalThis.FormApplication {
     const idLink = document.createElement("a");
     idLink.classList.add("document-id-link");
     idLink.ariaLabel = game.i18n.localize("SHEETS.CopyUuid");
-    idLink.dataset.tooltip = `SHEETS.CopyUuid`;
+    idLink.dataset.tooltip = "SHEETS.CopyUuid";
     idLink.dataset.tooltipDirection = "UP";
     idLink.innerHTML = '<i class="fa-solid fa-passport"></i>';
 
