@@ -53,7 +53,6 @@
 .pf1.sheet.augment form .primary-body {
   flex: 1;
   overflow: hidden;
-  padding: 1em;
 }
 
 .pf1.sheet.augment form .primary-body > .tab {
@@ -73,59 +72,8 @@
   min-height: 200px;
 }
 
-.pf1.sheet.augment .form-group {
-  display: flex;
-  align-items: center;
-  margin-bottom: 0.5em;
-  gap: 0.5em;
-}
-
-.pf1.sheet.augment .form-group.stacked {
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.pf1.sheet.augment .form-group label {
-  min-width: 200px;
-  font-weight: bold;
-  color: var(--color-text-dark-primary);
-}
-
-.pf1.sheet.augment .form-group.stacked label {
-  min-width: auto;
-  margin-bottom: 0.25em;
-}
-
-.pf1.sheet.augment .form-fields {
-  flex: 1;
-  display: flex;
-  gap: 0.25em;
-}
-
-.pf1.sheet.augment .form-group.stacked .form-fields {
-  width: 100%;
-}
-
-.pf1.sheet.augment input[type="text"],
-.pf1.sheet.augment input[type="number"],
-.pf1.sheet.augment textarea {
-  flex: 1;
-  padding: 0.375em;
-  border: 1px solid #7a7971;
-  border-radius: 3px;
-}
-
-.pf1.sheet.augment input[type="text"]:focus,
-.pf1.sheet.augment input[type="number"]:focus,
-.pf1.sheet.augment textarea:focus {
-  border-color: var(--color-button-primary);
-  outline: none;
-}
-
-.pf1.sheet.augment textarea {
-  resize: vertical;
-  font-family: inherit;
-}
+/* Remove custom form-group and input styling to use PF1 defaults */
+/* PF1 base styling from apps.less will apply automatically */
 
 .pf1.sheet.augment .checkbox {
   display: flex;
