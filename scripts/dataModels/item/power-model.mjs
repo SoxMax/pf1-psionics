@@ -1,3 +1,5 @@
+import { AugmentModel } from "./augment-model.mjs";
+
 export class PowerModel extends foundry.abstract.TypeDataModel {
   static defineSchema() {
     const {
@@ -8,6 +10,7 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
       ArrayField,
       ObjectField,
       TypedObjectField,
+      EmbeddedDataField,
     } = foundry.data.fields;
 
     const optional = {required: false, initial: undefined};
@@ -88,6 +91,7 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
       prepared: new BooleanField({initial: false}),
       manifestor: new StringField({initial: ""}),
       sr: new BooleanField({initial: true}),
+      augments: new ArrayField(new EmbeddedDataField(AugmentModel), { required: false, initial: [] }),
     };
   }
 
@@ -107,5 +111,22 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
    */
   prepareDerivedData() {
     super.prepareDerivedData();
+  }
+
+  /**
+   * Prune empty data from source
+   *
+   * @param {object} source - Source data to prune
+   * @override
+   */
+  static pruneData(source) {
+    // Prune augments
+    if (source.augments?.length) {
+      for (const augment of source.augments) {
+        AugmentModel.pruneData(augment);
+      }
+    } else {
+      delete source.augments;
+    }
   }
 }

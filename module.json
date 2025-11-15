@@ -37,7 +37,8 @@
     "scripts/psionics.mjs"
   ],
   "styles": [
-    "styles/styles.css"
+    "styles/styles.css",
+    "styles/augment-editor.css"
   ],
   "packFolders": [
     {

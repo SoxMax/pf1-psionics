@@ -1,0 +1,121 @@
+<form autocomplete="off" data-tooltip-class="pf1" class="flexcol {{cssClass}}">
+  <header class="sheet-header flexrow">
+    <img class="profile" src="{{img}}" data-edit="img">
+    <div class="header-details flexrow">
+      <h1 class="augment-name">
+        <input name="name" type="text" value="{{data.name}}" placeholder="{{localize 'PF1-Psionics.Augments.NamePlaceholder'}}">
+      </h1>
+    </div>
+  </header>
+
+  <nav class="sheet-navigation tabs" data-group="primary">
+    <a class="item" data-tab="description" data-group="primary">{{localize "PF1.Description"}}</a>
+    <a class="item" data-tab="usage" data-group="primary">{{localize "PF1.Usage"}}</a>
+    <a class="item" data-tab="effects" data-group="primary">{{localize "PF1-Psionics.Augments.Effects.Label"}}</a>
+  </nav>
+
+  <section class="primary-body">
+
+    {{!-- Description Information Tab --}}
+    <div class="tab description" data-group="primary" data-tab="description">
+      <div class="form-group">
+        <label>{{localize "PF1.Tag"}}</label>
+        <div class="form-fields">
+          <input type="text" value="{{data.tag}}" name="tag">
+        </div>
+      </div>
+      {{editor descriptionHTML target="description" button=_editorState.description engine="prosemirror" editable=@root.editable}}
+    </div>
+
+    {{!-- Usage Tab --}}
+    <div class="tab usage" data-group="primary" data-tab="usage">
+        {{!-- Power Point Cost --}}
+        <div class="form-group">
+            <label>{{localize "PF1-Psionics.Augments.Cost"}}</label>
+            <div class="form-fields">
+                <input type="number" name="cost" value="{{data.cost}}" placeholder="1" min="0" step="1" data-tooltip="PF1-Psionics.Augments.CostHint">
+            </div>
+        </div>
+
+        {{!-- Maximum Uses --}}
+        <div class="form-group">
+            <label>{{localize "PF1-Psionics.Augments.MaxUses"}}</label>
+            <div class="form-fields">
+                <input type="number" name="maxUses" value="{{data.maxUses}}" placeholder="{{localize 'PF1-Psionics.Augments.Unlimited'}}" min="1" step="1">
+            </div>
+        </div>
+
+        {{!-- Requires Focus --}}
+        {{#if (eq data.maxUses 1)}}
+        <div class="form-group">
+            <label></label>
+            <div class="form-fields">
+                <label class="checkbox">
+                    <input type="checkbox" name="requiresFocus" {{checked data.requiresFocus}}>
+                    {{localize "PF1-Psionics.Augments.RequiresFocus"}}
+                </label>
+            </div>
+        </div>
+        {{/if}}
+    </div>
+
+    {{!-- Effects Tab --}}
+    <div class="tab effects" data-group="primary" data-tab="effects">
+      <h3 class="form-header">{{localize "PF1.Damage"}}</h3>
+
+      {{!-- Damage Bonus --}}
+      <div class="form-group">
+        <label>{{localize "PF1.DamageBonus"}}</label>
+        <div class="form-fields">
+          <input type="text" name="effects.damageBonus" value="{{data.effects.damageBonus}}" placeholder="e.g. 1d6">
+        </div>
+      </div>
+
+      {{!-- Damage Multiplier --}}
+      <div class="form-group">
+        <label>{{localize "PF1-Psionics.Augments.Effects.DamageMult"}}</label>
+        <div class="form-fields">
+          <input type="number" name="effects.damageMult" value="{{data.effects.damageMult}}" placeholder="1" step="any" min="0">
+        </div>
+      </div>
+
+      <h3 class="form-header">{{localize "PF1.Duration"}}</h3>
+
+      {{!-- Duration Multiplier --}}
+      <div class="form-group">
+        <label>{{localize "PF1-Psionics.Augments.Effects.DurationMult"}}</label>
+        <div class="form-fields">
+          <input type="number" name="effects.durationMultiplier" value="{{data.effects.durationMultiplier}}" placeholder="1" step="any" min="0">
+        </div>
+      </div>
+
+      <h3 class="form-header">{{localize "PF1.Misc"}}</h3>
+
+      {{!-- DC Offset --}}
+      <div class="form-group">
+        <label>{{localize "PF1-Psionics.Augments.Effects.DCBonus"}}</label>
+        <div class="form-fields">
+          <input type="number" name="effects.dcBonus" value="{{data.effects.dcBonus}}" placeholder="0" step="any">
+        </div>
+      </div>
+
+      {{!-- Manifester Level Bonus --}}
+      <div class="form-group">
+        <label>{{localize "PF1-Psionics.Augments.Effects.CLBonus"}}</label>
+        <div class="form-fields">
+          <input type="number" name="effects.clBonus" value="{{data.effects.clBonus}}" placeholder="0" step="any">
+        </div>
+      </div>
+
+      {{!-- Special Effects --}}
+      <div class="form-group stacked">
+        <label>{{localize "PF1-Psionics.Augments.Effects.SpecialLabel"}}</label>
+        <div class="form-fields">
+          <input type="text" name="effects.special" value="{{data.effects.special}}" placeholder="{{localize 'PF1-Psionics.Augments.Effects.SpecialPlaceholder'}}">
+        </div>
+      </div>
+    </div>
+
+  </section>
+</form>
+
