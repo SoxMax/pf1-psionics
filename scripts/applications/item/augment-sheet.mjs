@@ -23,6 +23,19 @@ export class AugmentEditor extends globalThis.FormApplication {
     this.augment = augment;
   }
 
+  /**
+   * @internal
+   * @type {Record<string,string>}
+   */
+  _activeEdits = {};
+
+  /**
+   * Which fields to track edits for
+   *
+   * @internal
+   */
+  static EDIT_TRACKING = ["description"];
+
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: ["pf1", "sheet", "augment-editor", "augment"],
@@ -38,7 +51,7 @@ export class AugmentEditor extends globalThis.FormApplication {
         {
           navSelector: "nav.tabs[data-group='primary']",
           contentSelector: "section.primary-body",
-          initial: "basic",
+          initial: "description",
           group: "primary",
         },
       ],
@@ -71,18 +84,42 @@ export class AugmentEditor extends globalThis.FormApplication {
 
   getData() {
     const data = super.getData();
-    const augment = foundry.utils.deepClone(this.augment);
+    const augment = this.augment;
     const editable = this.isEditable;
 
+    // Convert to plain object if this is a DataModel
+    const source = augment.toObject ? augment.toObject(true, false) : augment;
+
     data.config = pf1.config;
-    data.augment = augment;
-    data.data = augment; // For form field compatibility
-    data.source = augment;
+    data.augment = augment; // Derived data (DataModel instance or plain object)
+    data.data = source; // Source data for form fields
+    data.source = source;
+
+    // Add schema fields if available
+    if (augment.schema?.fields) {
+      data.fields = augment.schema.fields;
+    }
+
     data.isNew = !augment.name || augment.name === game.i18n.localize("PF1-Psionics.Augments.New");
     data.editable = editable;
     data.cssClass = editable ? "editable" : "locked";
     data.item = this.item;
     data.user = game.user;
+
+    // Get fallback image
+    if (augment.constructor?.FALLBACK_IMAGE) {
+      data.img = augment.constructor.FALLBACK_IMAGE;
+    } else {
+      data.img = "icons/svg/upgrade.svg";
+    }
+
+    // Prepare description HTML for editor
+    if (augment.description) {
+      data.descriptionHTML = TextEditor.enrichHTML(augment.description, { async: false });
+    }
+
+    if (this.constructor.EDIT_TRACKING?.length)
+      data._editorState = pf1.applications.utils.restoreEditState(this, data.data);
 
     return data;
   }
@@ -172,18 +209,59 @@ export class AugmentEditor extends globalThis.FormApplication {
     // Expand formData to handle nested properties
     formData = foundry.utils.expandObject(formData);
 
-    // Get the current augments array
-    const augments = foundry.utils.deepClone(this.item.system.augments || []);
+    // Clean up empty values - remove them entirely so we only store what's actually being modified
+    // HTML forms send empty strings for empty inputs, so we need to clean those up
+    const removeIfEmpty = (obj, path) => {
+      const value = foundry.utils.getProperty(obj, path);
+      if (value === "" || value === null || value === undefined) {
+        const parts = path.split(".");
+        const key = parts.pop();
+        const parent = parts.length ? foundry.utils.getProperty(obj, parts.join(".")) : obj;
+        if (parent) {
+          delete parent[key];
+        }
+      }
+    };
+
+    // Clean up effects fields - only keep non-empty values
+    if (formData.effects) {
+      removeIfEmpty(formData, "effects.damageBonus");
+      removeIfEmpty(formData, "effects.damageMult");
+      removeIfEmpty(formData, "effects.durationMultiplier");
+      removeIfEmpty(formData, "effects.durationBonus");
+      removeIfEmpty(formData, "effects.dcBonus");
+      removeIfEmpty(formData, "effects.clBonus");
+      removeIfEmpty(formData, "effects.special");
+
+      // Remove effects object if empty
+      if (Object.keys(formData.effects).length === 0) {
+        delete formData.effects;
+      }
+    }
+
+    // Clean up other optional fields
+    removeIfEmpty(formData, "tag");
+    removeIfEmpty(formData, "maxUses");
+
+    // Get the current augments array and convert DataModels to plain objects
+    const augments = (this.item.system.augments || []).map(a => a.toObject ? a.toObject() : a);
 
     // Find the augment to update
     const index = augments.findIndex(a => a._id === this.augment._id);
 
     if (index >= 0) {
-      // Update existing augment - merge with existing data
-      augments[index] = foundry.utils.mergeObject(augments[index], formData);
+      // Replace the augment entirely with form data (preserving _id)
+      // This ensures deleted fields are actually removed, not merged over
+      augments[index] = {
+        _id: this.augment._id,
+        ...formData
+      };
     } else {
-      // Add new augment
-      augments.push(foundry.utils.mergeObject(this.augment, formData));
+      // Add new augment with a new ID
+      augments.push({
+        _id: this.augment._id || foundry.utils.randomID(),
+        ...formData
+      });
     }
 
     // Update the item (this will trigger a re-render via hooks)

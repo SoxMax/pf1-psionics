@@ -1,6 +1,6 @@
 import { MODULE_ID } from "../_module.mjs";
 import { PowerSheet } from "../applications/_module.mjs";
-import { PowerModel } from "../dataModels/_module.mjs";
+import { AugmentModel, PowerModel } from "../dataModels/_module.mjs";
 import { PowerItem } from "../documents/_module.mjs";
 
 

@@ -63,14 +63,18 @@ export class PowerSheet extends pf1.applications.item.ItemSheetPF {
       trait.active = !foundry.utils.isEmpty(trait.selected);
     }
 
-    // Prepare augments data
-    context.augments = (item.system.augments || []).map(aug => ({
-      ...aug,
-      hasEffects: Object.values(aug.effects || {}).some(v => v && v !== 0 && v !== 1 && v !== ""),
-      hasConditions: (aug.conditions?.minLevel > 0) ||
-                     (aug.conditions?.maxLevel !== null) ||
-                     (aug.conditions?.requiresCondition !== "")
-    }));
+    // Prepare augments data - convert DataModels to plain objects
+    context.augments = (item.system.augments || []).map(aug => {
+      // Convert DataModel to plain object if needed
+      const augObj = aug.toObject ? aug.toObject() : aug;
+      return {
+        ...augObj,
+        hasEffects: Object.values(augObj.effects || {}).some(v => v && v !== 0 && v !== 1 && v !== ""),
+        hasConditions: (augObj.conditions?.minLevel > 0) ||
+                       (augObj.conditions?.maxLevel !== null) ||
+                       (augObj.conditions?.requiresCondition !== "")
+      };
+    });
 
     return context;
   }
@@ -96,7 +100,8 @@ export class PowerSheet extends pf1.applications.item.ItemSheetPF {
   async _onAddAugment(event) {
     event.preventDefault();
 
-    const augments = foundry.utils.deepClone(this.item.system.augments || []);
+    // Convert DataModel instances to plain objects
+    const augments = (this.item.system.augments || []).map(a => a.toObject ? a.toObject() : a);
     augments.push({
       _id: foundry.utils.randomID(),
       name: "New Augment",
@@ -108,14 +113,10 @@ export class PowerSheet extends pf1.applications.item.ItemSheetPF {
         damageBonus: "",
         damageMult: 1,
         durationMultiplier: 1,
+        durationBonus: "",
         dcBonus: 0,
         clBonus: 0,
         special: ""
-      },
-      conditions: {
-        minLevel: 0,
-        maxLevel: null,
-        requiresCondition: ""
       }
     });
 
@@ -131,7 +132,8 @@ export class PowerSheet extends pf1.applications.item.ItemSheetPF {
     event.preventDefault();
 
     const augmentId = event.currentTarget.closest(".augment-item").dataset.augmentId;
-    const augments = foundry.utils.deepClone(this.item.system.augments || []);
+    // Convert DataModel instances to plain objects
+    const augments = (this.item.system.augments || []).map(a => a.toObject ? a.toObject() : a);
     const index = augments.findIndex(a => a._id === augmentId);
 
     if (index >= 0) {

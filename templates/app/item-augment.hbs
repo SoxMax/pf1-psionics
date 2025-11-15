@@ -18,13 +18,13 @@
 
     {{!-- Description Information Tab --}}
     <div class="tab description" data-group="primary" data-tab="description">
-      {{!-- Description --}}
-      <div class="form-group stacked">
-        <label>{{localize "PF1.Description"}}</label>
+      <div class="form-group">
+        <label>{{localize "PF1.Tag"}}</label>
         <div class="form-fields">
-          <textarea name="description" rows="4" placeholder="{{localize 'PF1-Psionics.Augments.DescriptionPlaceholder'}}">{{data.description}}</textarea>
+          <input type="text" value="{{data.tag}}" name="tag">
         </div>
       </div>
+      {{editor descriptionHTML target="description" button=_editorState.description engine="prosemirror" editable=@root.editable}}
     </div>
 
     {{!-- Usage Tab --}}
@@ -101,7 +101,7 @@
 
       {{!-- DC Offset --}}
       <div class="form-group">
-        <label>{{localize "PF1-Psionics.Augments.Effects.CLBonus"}}</label>
+        <label>{{localize "PF1-Psionics.Augments.Effects.DCBonus"}}</label>
         <div class="form-fields">
           <input type="number" name="effects.dcBonus" value="{{data.effects.dcBonus}}" placeholder="0" step="any">
         </div>
@@ -119,7 +119,7 @@
       <div class="form-group stacked">
         <label>{{localize "PF1-Psionics.Augments.Effects.SpecialLabel"}}</label>
         <div class="form-fields">
-          <input type="text" name="effects.clBonus" value="{{data.effects.special}}" placeholder="{{localize 'PF1-Psionics.Augments.Effects.SpecialPlaceholder'}}">
+          <input type="text" name="effects.special" value="{{data.effects.special}}" placeholder="{{localize 'PF1-Psionics.Augments.Effects.SpecialPlaceholder'}}">
         </div>
       </div>
     </div>
