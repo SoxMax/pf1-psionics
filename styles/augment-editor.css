@@ -52,12 +52,13 @@
 
 .pf1.sheet.augment form .primary-body {
   flex: 1;
-  overflow-y: auto;
+  overflow: hidden;
   padding: 1em;
 }
 
 .pf1.sheet.augment form .primary-body > .tab {
-  overflow: visible;
+  height: 100%;
+  overflow-y: auto;
 }
 
 .pf1.sheet.augment .tab {
@@ -68,13 +69,8 @@
   display: block;
 }
 
-.pf1.sheet.augment .tab .editor {
-  height: 100%;
-}
-
 .pf1.sheet.augment .tab .editor .editor-content {
-  height: 300px;
-  overflow-y: auto;
+  min-height: 200px;
 }
 
 .pf1.sheet.augment .form-group {
