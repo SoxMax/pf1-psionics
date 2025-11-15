@@ -82,7 +82,7 @@ export class AugmentEditor extends globalThis.FormApplication {
     return this;
   }
 
-  getData() {
+  async getData() {
     const data = super.getData();
     const augment = this.augment;
     const editable = this.isEditable;
@@ -110,9 +110,15 @@ export class AugmentEditor extends globalThis.FormApplication {
     data.img = augment.img || augment.constructor?.FALLBACK_IMAGE || "icons/svg/upgrade.svg";
 
     // Prepare description HTML for editor
-    if (augment.description) {
-      data.descriptionHTML = TextEditor.enrichHTML(augment.description, { async: false });
-    }
+    // Always set descriptionHTML so the editor renders even for empty descriptions
+    const noDesc = "<p>" + game.i18n.localize("PF1.NoDescription") + "</p>";
+    const description = augment.description;
+    data.descriptionHTML = description
+      ? await TextEditor.enrichHTML(description, {
+          secrets: editable,
+          async: true,
+        })
+      : noDesc;
 
     if (this.constructor.EDIT_TRACKING?.length)
       data._editorState = pf1.applications.utils.restoreEditState(this, data.data);
@@ -219,6 +225,18 @@ export class AugmentEditor extends globalThis.FormApplication {
       }
     };
 
+    // Clean up empty HTML (ProseMirror sends <p></p> or <p><br></p> for empty editors)
+    const isEmptyHTML = (html) => {
+      if (!html) return true;
+      const stripped = html.replace(/<p>\s*<\/p>/gi, "").replace(/<p><br><\/p>/gi, "").trim();
+      return stripped === "";
+    };
+
+    // Remove empty description HTML
+    if (formData.description && isEmptyHTML(formData.description)) {
+      delete formData.description;
+    }
+
     // Clean up effects fields - only keep non-empty values
     if (formData.effects) {
       removeIfEmpty(formData, "effects.damageBonus");
@@ -261,6 +279,11 @@ export class AugmentEditor extends globalThis.FormApplication {
 
     // Update the item (this will trigger a re-render via hooks)
     await this.item.update({"system.augments": augments});
+
+    // Update this.augment to point to the new DataModel instance
+    // The item update creates new DataModel instances, so we need to get the fresh reference
+    const augmentId = this.augment._id;
+    this.augment = this.item.system.augments.find(a => a._id === augmentId);
   }
 
   async close(options = {}) {
