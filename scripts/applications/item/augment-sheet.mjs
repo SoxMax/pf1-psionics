@@ -106,12 +106,8 @@ export class AugmentEditor extends globalThis.FormApplication {
     data.item = this.item;
     data.user = game.user;
 
-    // Get fallback image
-    if (augment.constructor?.FALLBACK_IMAGE) {
-      data.img = augment.constructor.FALLBACK_IMAGE;
-    } else {
-      data.img = "icons/svg/upgrade.svg";
-    }
+    // Use augment's img property (which inherits from parent or uses fallback)
+    data.img = augment.img || augment.constructor?.FALLBACK_IMAGE || "icons/svg/upgrade.svg";
 
     // Prepare description HTML for editor
     if (augment.description) {

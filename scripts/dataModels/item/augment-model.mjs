@@ -54,6 +54,7 @@ export class AugmentModel extends pf1.models.abstract.DocumentLikeModel {
 
     return {
       ...super.defineSchema({ name: () => game.i18n.localize("PF1-Psionics.Augments.New") }),
+      img: new fields.FilePathField({ categories: ["IMAGE"], ...optional }),
       description: new fields.HTMLField({ ...optional }),
       tag: new fields.StringField({ blank: false, nullable: true, ...optional }),
       cost: new fields.NumberField({ required: true, initial: 1, integer: true }),
@@ -68,6 +69,22 @@ export class AugmentModel extends pf1.models.abstract.DocumentLikeModel {
         special: new fields.StringField({ required: false }),
       }),
     };
+  }
+
+  /**
+   * Prepare augment data
+   * Inherits image from parent power if not set
+   *
+   * @override
+   */
+  prepareData() {
+    const item = this.item;
+    if (!item?.system) return; // Item has not been prepared yet
+
+    // Inherit image from parent power if not set
+    this.img ||= item?.img || this.constructor.FALLBACK_IMAGE;
+
+    this.tag ||= pf1.utils.createTag(this.name);
   }
 
   /**
@@ -190,9 +207,10 @@ export class AugmentModel extends pf1.models.abstract.DocumentLikeModel {
     if (source.maxUses === null) delete source.maxUses;
     if (source.requiresFocus === false) delete source.requiresFocus;
 
-    // Remove empty description
+    // Remove empty optional fields
     if (!source.description) delete source.description;
     if (!source.tag) delete source.tag;
+    if (!source.img) delete source.img;
 
     // Prune effects
     if (source.effects) {
