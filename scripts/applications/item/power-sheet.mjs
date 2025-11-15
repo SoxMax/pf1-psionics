@@ -69,10 +69,7 @@ export class PowerSheet extends pf1.applications.item.ItemSheetPF {
       const augObj = aug.toObject ? aug.toObject() : aug;
       return {
         ...augObj,
-        hasEffects: Object.values(augObj.effects || {}).some(v => v && v !== 0 && v !== 1 && v !== ""),
-        hasConditions: (augObj.conditions?.minLevel > 0) ||
-                       (augObj.conditions?.maxLevel !== null) ||
-                       (augObj.conditions?.requiresCondition !== "")
+        hasEffects: Object.values(augObj.effects || {}).some(v => v && v !== 0 && v !== 1 && v !== "")
       };
     });
 
