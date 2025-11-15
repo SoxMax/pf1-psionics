@@ -224,7 +224,6 @@ export class AugmentEditor extends globalThis.FormApplication {
       removeIfEmpty(formData, "effects.damageBonus");
       removeIfEmpty(formData, "effects.damageMult");
       removeIfEmpty(formData, "effects.durationMultiplier");
-      removeIfEmpty(formData, "effects.durationBonus");
       removeIfEmpty(formData, "effects.dcBonus");
       removeIfEmpty(formData, "effects.clBonus");
       removeIfEmpty(formData, "effects.special");

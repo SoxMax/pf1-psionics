@@ -178,12 +178,6 @@ export class AugmentModel extends pf1.models.abstract.DocumentLikeModel {
       actionData.duration.value = `(${currentValue}) * ${effects.durationMultiplier}`;
     }
 
-    // Apply duration bonus
-    if (effects.durationBonus && actionData.duration) {
-      const currentValue = actionData.duration.value || "0";
-      actionData.duration.value = `(${currentValue}) + (${effects.durationBonus})`;
-    }
-
     // Apply DC bonus (only if present and non-zero)
     if (effects.dcBonus != null && effects.dcBonus !== 0 && actionData.save) {
       const currentDC = actionData.save.dc || "0";
@@ -217,7 +211,6 @@ export class AugmentModel extends pf1.models.abstract.DocumentLikeModel {
       if (!source.effects.damageBonus) delete source.effects.damageBonus;
       if (source.effects.damageMult === 1) delete source.effects.damageMult;
       if (source.effects.durationMultiplier === 1) delete source.effects.durationMultiplier;
-      if (!source.effects.durationBonus) delete source.effects.durationBonus;
       if (source.effects.dcBonus === 0) delete source.effects.dcBonus;
       if (source.effects.clBonus === 0) delete source.effects.clBonus;
       if (!source.effects.special) delete source.effects.special;
