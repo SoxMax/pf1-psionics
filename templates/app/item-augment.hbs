@@ -95,29 +95,11 @@
         </div>
       </div>
 
-      <h3 class="form-header">{{localize "PF1.Range"}}</h3>
-
-      {{!-- Range Multiplier --}}
-      <div class="form-group">
-        <label>{{localize "PF1-Psionics.Augments.Effects.RangeMult"}}</label>
-        <div class="form-fields">
-          <input type="number" name="effects.rangeMult" value="{{data.effects.rangeMult}}" placeholder="1" step="any" min="0">
-        </div>
-      </div>
-
-      {{!-- Range Bonus --}}
-      <div class="form-group">
-        <label>{{localize "PF1-Psionics.Augments.Effects.RangeBonus"}}</label>
-        <div class="form-fields">
-          <input type="text" class="formula" name="effects.rangeBonus" value="{{data.effects.rangeBonus}}" placeholder="{{localize 'PF1.Formula'}}">
-        </div>
-      </div>
-
       <h3 class="form-header">{{localize "PF1.Misc"}}</h3>
 
       {{!-- DC Offset --}}
       <div class="form-group">
-        <label>{{localize "PF1.DCOffset"}}</label>
+        <label>{{localize "PF1-Psionics.Augments.Effects.CLBonus"}}</label>
         <div class="form-fields">
           <input type="number" name="effects.dcBonus" value="{{data.effects.dcBonus}}" placeholder="0" step="any">
         </div>
@@ -135,7 +117,7 @@
       <div class="form-group stacked">
         <label>{{localize "PF1-Psionics.Augments.Effects.SpecialLabel"}}</label>
         <div class="form-fields">
-          <textarea name="effects.special" rows="3" placeholder="{{localize 'PF1-Psionics.Augments.Effects.SpecialPlaceholder'}}">{{data.effects.special}}</textarea>
+          <input type="text" name="effects.clBonus" value="{{data.effects.special}}" placeholder="{{localize 'PF1-Psionics.Augments.Effects.SpecialPlaceholder'}}">
         </div>
       </div>
     </div>
