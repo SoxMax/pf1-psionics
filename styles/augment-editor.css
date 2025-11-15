@@ -1,104 +1,15 @@
 /**
  * Augment Editor Sheet Styles
- * Follows PF1 action sheet pattern
+ * Minimal overrides - relies on PF1 action sheet defaults
  */
 
+/* Match action sheet dimensions */
 .pf1.sheet.augment {
   min-width: 520px;
   min-height: 520px;
 }
 
-.pf1.sheet.augment form {
-  height: 100%;
-}
-
-.pf1.sheet.augment form > header {
-  padding: 0.5em 1em;
-  border-bottom: 2px solid #7a7971;
-  background: rgba(0, 0, 0, 0.05);
-}
-
-.pf1.sheet.augment form > header img.profile {
-  border: 1px solid black;
-  flex: 0 0 80px;
-  width: 80px;
-  height: 80px;
-  object-fit: contain;
-}
-
-.pf1.sheet.augment .header-details {
-  flex: 1;
-}
-
-.pf1.sheet.augment .augment-name {
-  margin: 0;
-  /* Don't override font-size - let h1 default apply */
-}
-
-.pf1.sheet.augment .augment-name input {
-  width: 100%;
-  border: none;
-  background: transparent;
-  /* Don't override font-size - let PF1's h1 input styling apply */
-  font-weight: bold;
-  padding: 0.25em;
-}
-
-.pf1.sheet.augment .augment-name input:focus {
-  background: white;
-  border: 1px solid var(--color-button-primary);
-  border-radius: 3px;
-}
-
-.pf1.sheet.augment form .primary-body {
-  flex: 1;
-  overflow: hidden;
-}
-
-.pf1.sheet.augment form .primary-body > .tab {
-  height: 100%;
-  overflow-y: auto;
-}
-
-.pf1.sheet.augment .tab {
-  display: none;
-}
-
-.pf1.sheet.augment .tab.active {
-  display: block;
-}
-
+/* Tab management - PF1 pattern for tab visibility */
 .pf1.sheet.augment .tab .editor .editor-content {
   min-height: 200px;
-}
-
-/* Remove custom form-group and input styling to use PF1 defaults */
-/* PF1 base styling from apps.less will apply automatically */
-
-.pf1.sheet.augment .checkbox {
-  display: flex;
-  align-items: center;
-  gap: 0.5em;
-  cursor: pointer;
-  user-select: none;
-}
-
-.pf1.sheet.augment h3.form-header {
-  margin: 0.5em 0 0.25em 0;
-  padding: 0;
-  font-weight: bold;
-  line-height: var(--form-field-height);
-  color: var(--pf1-olive);
-  border: unset;
-}
-
-.pf1.sheet.augment h3.form-header:first-child {
-  margin-top: 0;
-}
-
-.pf1.sheet.augment hr {
-  border: none;
-  border-top: 1px solid #7a7971;
-  margin: 1em 0;
-  opacity: 0.3;
 }

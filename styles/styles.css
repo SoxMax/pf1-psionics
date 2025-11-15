@@ -7,156 +7,7 @@
 }
 
 /* Augments Tab Styles (Power Sheet) */
-.augments-section {
-  padding: 1em;
-}
-
-.augments-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1em;
-  padding-bottom: 0.5em;
-  border-bottom: 2px solid #7a7971;
-}
-
-.augments-header h2 {
-  margin: 0;
-  font-size: 1.2em;
-}
-
-.augments-header .add-augment {
-  background: var(--color-button-primary);
-  color: white;
-  border: none;
-  padding: 0.5em 1em;
-  border-radius: 3px;
-  cursor: pointer;
-  font-size: 0.9em;
-  display: flex;
-  align-items: center;
-  gap: 0.5em;
-}
-
-.augments-header .add-augment:hover {
-  background: var(--color-button-primary-hover);
-}
-
-.augments-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.augment-item {
-  /* Minimal styling - rely on Foundry's .item and .flexrow classes */
-  margin-bottom: 2px;
-}
-
-.augment-summary {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 0.5em;
-}
-
-.augments-section .augment-name {
-  margin: 0;
-  font-size: 1.1em;
-  display: flex;
-  align-items: center;
-  gap: 0.5em;
-}
-
-.augments-section .augment-name .augment-cost {
-  color: var(--color-text-dark-secondary);
-  font-weight: normal;
-  font-style: italic;
-  font-size: 0.9em;
-}
-
-.augments-section .augment-controls {
-  display: flex;
-  gap: 0.25em;
-}
-
-.augments-section .augment-controls button {
-  background: transparent;
-  border: 1px solid #7a7971;
-  border-radius: 3px;
-  padding: 0.25em 0.5em;
-  cursor: pointer;
-  color: var(--color-text-dark-primary);
-}
-
-.augments-section .augment-controls button:hover {
-  background: rgba(0, 0, 0, 0.1);
-}
-
-.augments-section .augment-controls .delete-augment:hover {
-  background: rgba(200, 0, 0, 0.2);
-  color: #c00;
-  border-color: #c00;
-}
-
-.augments-section .augment-details {
-  font-size: 0.9em;
-}
-
-.augments-section .augment-description {
-  margin: 0.5em 0;
-  color: var(--color-text-dark-secondary);
-}
-
-.augments-section .augment-effects,
-.augments-section .augment-conditions {
-  margin-top: 0.5em;
-}
-
-.augments-section .effect-list,
-.augments-section .condition-list {
-  list-style: none;
-  padding-left: 1em;
-  margin: 0.25em 0;
-}
-
-.augments-section .effect-list li,
-.augments-section .condition-list li {
-  padding: 0.125em 0;
-}
-
-.augments-section .augment-focus,
-.augments-section .augment-uses {
-  margin-top: 0.5em;
-  padding: 0.25em 0.5em;
-  background: rgba(100, 150, 200, 0.1);
-  border-left: 3px solid #4a90e2;
-  font-size: 0.85em;
-  display: inline-block;
-  margin-right: 0.5em;
-}
-
-.no-augments {
-  text-align: center;
-  padding: 2em;
-  color: var(--color-text-dark-secondary);
-  font-style: italic;
-}
-
-.augments-footer {
-  margin-top: 1em;
-  padding-top: 1em;
-  border-top: 1px solid #7a7971;
-}
-
-.augments-footer .help-text {
-  color: var(--color-text-dark-secondary);
-  font-size: 0.9em;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  gap: 0.5em;
-}
+/* Relies on PF1's .item-list, .item, .flexrow patterns - no custom styling needed */
 
 /* Augment Selector Styles (Attack Dialog) */
 section.augments {
@@ -171,39 +22,39 @@ section.augments header h3 {
   color: var(--color-text-dark-primary);
 }
 
-.augment-list {
+section.augments .augment-list {
   display: flex;
   flex-direction: column;
   gap: 1px;
 }
 
-.augment-option {
+section.augments .augment-option {
   padding: 0 3px;
   background: rgba(0, 0, 0, 0.05);
   border-radius: 3px;
   min-height: 26px;
 }
 
-.augment-header {
+section.augments .augment-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.augment-info {
+section.augments .augment-info {
   display: flex;
   align-items: center;
   gap: 0.5em;
   flex-grow: 1;
 }
 
-.augment-controls {
+section.augments .augment-controls {
   display: flex;
   align-items: center;
   gap: 0.25em;
 }
 
-.augment-adjust {
+section.augments .augment-adjust {
   background: var(--color-button-primary);
   color: black;
   border: none;
@@ -218,16 +69,16 @@ section.augments header h3 {
   font-size: 0.8em;
 }
 
-.augment-adjust:hover {
+section.augments .augment-adjust:hover {
   background: var(--color-button-primary-hover);
 }
 
-.augment-adjust:disabled {
+section.augments .augment-adjust:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.augment-count {
+section.augments .augment-count {
   width: 40px;
   text-align: center;
   border: 1px solid #7a7971;
@@ -237,31 +88,31 @@ section.augments header h3 {
   background: white;
 }
 
-.augment-limit {
+section.augments .augment-limit {
   font-size: 0.85em;
   color: var(--color-text-dark-5);
   font-style: italic;
 }
 
-.augment-name {
+section.augments .augment-name {
   font-weight: bold;
   flex-grow: 1;
 }
 
-.augment-cost {
+section.augments .augment-cost {
   color: var(--color-text-dark-secondary);
   font-style: italic;
   margin-left: auto;
 }
 
-.augment-description {
+section.augments .augment-description {
   margin-top: 0.25em;
   margin-left: 1.5em;
   font-size: 0.9em;
   color: var(--color-text-dark-secondary);
 }
 
-.augment-condition {
+section.augments .augment-condition {
   margin-top: 2px;
   margin-left: 1.5em;
   font-size: 0.85em;
@@ -269,7 +120,7 @@ section.augments header h3 {
   font-style: italic;
 }
 
-.augment-special {
+section.augments .augment-special {
   margin-top: 2px;
   margin-left: 1.5em;
   font-size: 0.85em;
