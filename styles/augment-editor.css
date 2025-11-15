@@ -32,14 +32,14 @@
 
 .pf1.sheet.augment .augment-name {
   margin: 0;
-  font-size: 1.2em;
+  /* Don't override font-size - let h1 default apply */
 }
 
 .pf1.sheet.augment .augment-name input {
   width: 100%;
   border: none;
   background: transparent;
-  font-size: inherit;
+  /* Don't override font-size - let PF1's h1 input styling apply */
   font-weight: bold;
   padding: 0.25em;
 }
