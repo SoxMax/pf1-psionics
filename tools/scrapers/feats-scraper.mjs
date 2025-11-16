@@ -286,9 +286,9 @@ function parseFeatData(html, url) {
   feat.name = feat.name.replace(/\s*\([A-Z]+:[A-Z]+\)\s*$/i, '').trim();
   feat.name = feat.name.replace(/\s*\([A-Z]+\)\s*$/i, '').trim();
 
-  // Exclude Mythic feats
+  // Exclude Mythic feats entirely (those whose page title itself is Mythic)
   if (feat.name.includes('(Mythic)')) {
-    return null; // Skip Mythic feats
+    return null; // Skip Mythic feats page variants
   }
 
   // Extract page categories
@@ -343,6 +343,28 @@ function parseFeatData(html, url) {
 
   // Extract description using shared function
   feat.system.description.value = extractDescription(html);
+
+  // Enhanced Mythic section truncation:
+  // 1. Look for heading tags <h1>-<h6> containing "(Mythic)"
+  // 2. Also look for a paragraph-strong pattern produced by heading normalization: <p><strong>... (Mythic)</strong></p>
+  // Take the earliest occurrence (if any) and truncate everything from there onward.
+  const mythicHeadingRegex = /<h[1-6][^>]*>[\s\S]*?\(Mythic\)[\s\S]*?$/i;
+  const mythicStrongRegex = /<p>\s*<strong>[\s\S]*?\(Mythic\)[\s\S]*?$/i;
+
+  let mythicIndex = -1;
+  const headingMatch = feat.system.description.value.match(mythicHeadingRegex);
+  if (headingMatch) {
+    mythicIndex = feat.system.description.value.indexOf(headingMatch[0]);
+  }
+  const strongMatch = feat.system.description.value.match(mythicStrongRegex);
+  if (strongMatch) {
+    const strongIndex = feat.system.description.value.indexOf(strongMatch[0]);
+    if (mythicIndex === -1 || strongIndex < mythicIndex) mythicIndex = strongIndex;
+  }
+
+  if (mythicIndex !== -1) {
+    feat.system.description.value = feat.system.description.value.slice(0, mythicIndex).trim();
+  }
 
   // Note: Sources are already extracted from categories or sourcebook field above
 
@@ -425,7 +447,7 @@ async function extractAllFeatUrls(categoryUrl = CATEGORY_URL) {
     let nextUrl = null;
     if (categoryName) {
       // For custom categories, look for the specific category in the next link
-      const regex = new RegExp(`<a href="(\\/wiki\\/Category:${categoryName}[^"]*)"[^>]*>next page<\\/a>`, 'i');
+      const regex = new RegExp(`<a href="(\\/wiki\\/Category:${categoryName}[^\"]*)"[^>]*>next page<\\/a>`, 'i');
       const match = html.match(regex);
       if (match) {
         nextUrl = 'https://metzo.miraheze.org' + match[1];

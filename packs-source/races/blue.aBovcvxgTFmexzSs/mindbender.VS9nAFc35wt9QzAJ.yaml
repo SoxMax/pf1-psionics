@@ -1,0 +1,74 @@
+_id: VS9nAFc35wt9QzAJ
+_key: '!items!VS9nAFc35wt9QzAJ'
+_stats:
+  coreVersion: '13.351'
+folder: aBovcvxgTFmexzSs
+img: systems/pf1/icons/races/goblin.png
+name: Mindbender
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  contextNotes:
+    - target: dc.school.enc
+      text: +1 racial bonus to the DCs of compulsion powers
+  description:
+    value: "<p>The&nbsp;rare&nbsp;blue&nbsp;is&nbsp;able&nbsp;to&nbsp;tap&nbsp;into&nbsp;the&nbsp;minds&nbsp;of&nbsp;others&nbsp;to&nbsp;impose&nbsp;its&nbsp;will.&nbsp;Blues&nbsp;with&nbsp;this&nbsp;trait&nbsp;gain&nbsp;a&nbsp;+1\_racial&nbsp;bonus\_to&nbsp;the&nbsp;saving&nbsp;throw&nbsp;DCs&nbsp;of\_compulsion\_powers&nbsp;they&nbsp;manifest.</p><p>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;stealthy&nbsp;trait.</p>"
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+  traitCategory: magical
+type: feat

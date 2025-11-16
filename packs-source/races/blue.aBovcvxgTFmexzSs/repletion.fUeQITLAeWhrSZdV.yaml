@@ -1,0 +1,72 @@
+_id: fUeQITLAeWhrSZdV
+_key: '!items!fUeQITLAeWhrSZdV'
+_stats:
+  coreVersion: '13.351'
+folder: aBovcvxgTFmexzSs
+img: systems/pf1/icons/races/goblin.png
+name: Repletion
+system:
+  abilityType: su
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>A&nbsp;blue&nbsp;can&nbsp;sustain&nbsp;his&nbsp;body&nbsp;without&nbsp;need&nbsp;of&nbsp;food&nbsp;or&nbsp;water.&nbsp;If&nbsp;he&nbsp;spends&nbsp;1&nbsp;power&nbsp;point,&nbsp;a&nbsp;blue&nbsp;does&nbsp;not&nbsp;need&nbsp;to&nbsp;eat&nbsp;or&nbsp;drink&nbsp;for&nbsp;24&nbsp;hours.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+  traitCategory: magical
+type: feat

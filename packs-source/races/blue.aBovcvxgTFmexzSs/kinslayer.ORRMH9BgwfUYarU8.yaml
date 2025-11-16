@@ -1,0 +1,74 @@
+_id: ORRMH9BgwfUYarU8
+_key: '!items!ORRMH9BgwfUYarU8'
+_stats:
+  coreVersion: '13.351'
+folder: aBovcvxgTFmexzSs
+img: systems/pf1/icons/races/goblin.png
+name: Kinslayer
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  contextNotes:
+    - target: attack
+      text: +1 racial bonus on attack rolls against goblinoids
+  description:
+    value: "<p>Outcast&nbsp;blues&nbsp;must&nbsp;fight&nbsp;their&nbsp;own&nbsp;kind&nbsp;to&nbsp;survive.&nbsp;Blues&nbsp;with&nbsp;this&nbsp;trait&nbsp;gain&nbsp;a&nbsp;+1\_racial&nbsp;bonus\_on\_attack&nbsp;rolls\_against&nbsp;goblinoids.</p><p>This&nbsp;replaces&nbsp;the&nbsp;repletion&nbsp;racial&nbsp;trait.</p>"
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+  traitCategory: offense
+type: feat

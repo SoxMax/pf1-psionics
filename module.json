@@ -48,6 +48,7 @@
       "packs": [
         "feats",
         "powers",
+        "races",
         "rules"
       ],
       "folders": [
@@ -58,15 +59,6 @@
           "packs": [
             "classes",
             "class-abilities"
-          ]
-        },
-        {
-          "name": "Races",
-          "color": "#6a5acd",
-          "sorting": "a",
-          "packs": [
-            "races",
-            "race-abilities"
           ]
         }
       ]
@@ -110,17 +102,6 @@
       "name": "powers",
       "label": "Psionic Powers",
       "path": "packs/powers",
-      "type": "Item",
-      "system": "pf1",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "race-abilities",
-      "label": "Psionic Racial Abilities",
-      "path": "packs/race-abilities",
       "type": "Item",
       "system": "pf1",
       "ownership": {

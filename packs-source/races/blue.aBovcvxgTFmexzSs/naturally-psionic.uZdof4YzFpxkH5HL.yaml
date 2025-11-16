@@ -1,0 +1,85 @@
+_id: uZdof4YzFpxkH5HL
+_key: '!items!uZdof4YzFpxkH5HL'
+_stats:
+  coreVersion: '13.351'
+folder: aBovcvxgTFmexzSs
+img: systems/pf1/icons/races/goblin.png
+name: Naturally Psionic
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: SLbEWeyQ
+      formula: '1'
+      operator: add
+      priority: 0
+      target: bonusFeats
+      type: untyped
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>Blues&nbsp;gain&nbsp;the&nbsp;@UUID[Compendium.pf1-psionics.feats.Item.dtygVowbi3UPpTDb]{Wild&nbsp;Talent}&nbsp;feat&nbsp;as&nbsp;a&nbsp;bonus&nbsp;feat&nbsp;at&nbsp;1st&nbsp;level.&nbsp;If&nbsp;a&nbsp;blue&nbsp;takes&nbsp;levels&nbsp;in&nbsp;a&nbsp;psionic&nbsp;class,&nbsp;he&nbsp;instead&nbsp;gains&nbsp;the&nbsp;@UUID[Compendium.pf1-psionics.feats.Item.JpYoizsD3r5zjKcy]{Psionic&nbsp;Talent}&nbsp;feat.</p>
+  disabled: false
+  inherited: false
+  links:
+    supplements:
+      - name: Wild Talent
+        uuid: Compendium.pf1-psionics.feats.Item.dtygVowbi3UPpTDb
+      - name: Psionic Talent
+        uuid: Compendium.pf1-psionics.feats.Item.JpYoizsD3r5zjKcy
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+  traitCategory: magical
+type: feat

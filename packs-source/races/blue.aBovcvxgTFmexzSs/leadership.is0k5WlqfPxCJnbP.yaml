@@ -1,0 +1,78 @@
+_id: is0k5WlqfPxCJnbP
+_key: '!items!is0k5WlqfPxCJnbP'
+_stats:
+  coreVersion: '13.351'
+folder: aBovcvxgTFmexzSs
+img: systems/pf1/icons/races/goblin.png
+name: Leadership
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: jVL05QA1
+      formula: '2'
+      operator: add
+      priority: 0
+      target: skill.dip
+      type: racial
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: "<p>Some&nbsp;blues&nbsp;naturally&nbsp;take&nbsp;on&nbsp;leadership&nbsp;roles,&nbsp;either&nbsp;directly&nbsp;controlling&nbsp;a&nbsp;tribe,&nbsp;or&nbsp;as&nbsp;an&nbsp;important&nbsp;advisor&nbsp;to&nbsp;a&nbsp;leader.&nbsp;A&nbsp;blue&nbsp;with&nbsp;this&nbsp;trait&nbsp;gains&nbsp;a&nbsp;+2\_racial&nbsp;bonus\_to\_Diplomacy\_checks.</p><p>This&nbsp;trait&nbsp;replaces&nbsp;the\_Keen&nbsp;Senses\_trait.</p>"
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+  traitCategory: featSkills
+type: feat

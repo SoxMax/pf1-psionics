@@ -1,0 +1,84 @@
+_id: ga72GllaJ6UAvyA9
+_key: '!items!ga72GllaJ6UAvyA9'
+_stats:
+  coreVersion: '13.351'
+folder: aBovcvxgTFmexzSs
+img: systems/pf1/icons/races/goblin.png
+name: Self Reliant
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: 8PW9dfC5
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: skill.dip
+      type: racial
+    - _id: 3IZacKr8
+      formula: '3'
+      operator: add
+      priority: 0
+      target: skill.sur
+      type: racial
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: "<p>Blues&nbsp;outcast&nbsp;from&nbsp;their&nbsp;kin&nbsp;learn&nbsp;to&nbsp;survive&nbsp;on&nbsp;their&nbsp;own,&nbsp;but&nbsp;often&nbsp;lack&nbsp;in&nbsp;social&nbsp;graces.&nbsp;A&nbsp;blue&nbsp;with&nbsp;this&nbsp;trait&nbsp;gains&nbsp;a&nbsp;+3\_racial&nbsp;bonus\_to\_Survival\_checks,&nbsp;but&nbsp;suffers&nbsp;a&nbsp;-1&nbsp;penalty&nbsp;to&nbsp;all\_Diplomacy\_checks.</p><p>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;Pariah&nbsp;trait.</p>"
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+  traitCategory: featSkills
+type: feat

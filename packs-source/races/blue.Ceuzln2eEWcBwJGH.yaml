@@ -1,7 +1,7 @@
 _id: Ceuzln2eEWcBwJGH
 _key: '!items!Ceuzln2eEWcBwJGH'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 img: systems/pf1/icons/races/goblin.png
 name: Blue
 system:
@@ -33,12 +33,6 @@ system:
       operator: add
       priority: 0
       target: str
-      type: racial
-    - _id: 0Rtv0XiO
-      formula: '60'
-      operator: set
-      priority: 0
-      target: sensedv
       type: racial
   classSkills:
     acr: false
@@ -91,9 +85,25 @@ system:
   languages:
     - common
     - goblin
+  links:
+    supplements:
+      - name: Darkvision
+        uuid: Compendium.pf1-psionics.races.Item.9HqXWHEgToDC4doZ
+      - name: Keen Senses
+        uuid: Compendium.pf1-psionics.races.Item.pTQC9A02DkCMkfUP
+      - name: Naturally Psionic
+        uuid: Compendium.pf1-psionics.races.Item.uZdof4YzFpxkH5HL
+      - name: Pariah
+        uuid: Compendium.pf1-psionics.races.Item.idYK1EXjTGlzQebV
+      - name: Repletion
+        uuid: Compendium.pf1-psionics.races.Item.fUeQITLAeWhrSZdV
+      - name: Stealthy
+        uuid: Compendium.pf1-psionics.races.Item.7t5pq6ohKP1DBJMt
   quadruped: false
   size: sm
   speeds:
     flyManeuverability: average
     land: 30
+  weaponProf:
+    - Goblin
 type: race

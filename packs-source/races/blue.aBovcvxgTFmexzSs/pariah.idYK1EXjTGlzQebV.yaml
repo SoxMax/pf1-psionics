@@ -1,0 +1,77 @@
+_id: idYK1EXjTGlzQebV
+_key: '!items!idYK1EXjTGlzQebV'
+_stats:
+  coreVersion: '13.351'
+folder: aBovcvxgTFmexzSs
+img: systems/pf1/icons/races/goblin.png
+name: Pariah
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  contextNotes:
+    - target: chaSkills
+      text: '-1 penalty with non-goblinoid humanoids'
+    - target: chaSkills
+      text: +1 bonus with goblins
+  description:
+    value: >-
+      <p>The&nbsp;appearance&nbsp;of&nbsp;the&nbsp;blue&nbsp;can&nbsp;affect&nbsp;the&nbsp;reactions&nbsp;of&nbsp;those&nbsp;nearby.&nbsp;A&nbsp;blue&nbsp;takes&nbsp;a&nbsp;-1&nbsp;penalty&nbsp;to&nbsp;Charisma-based&nbsp;skill&nbsp;checks&nbsp;when&nbsp;dealing&nbsp;with&nbsp;non-goblinoid&nbsp;humanoids,&nbsp;but&nbsp;gains&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;to&nbsp;Charisma-based&nbsp;skill&nbsp;checks&nbsp;while&nbsp;interacting&nbsp;with&nbsp;goblins.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+  traitCategory: featSkills
+type: feat
