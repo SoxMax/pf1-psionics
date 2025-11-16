@@ -77,7 +77,7 @@ system:
   manifesting:
     ability: wis
     cantrips: true
-    progression: high
+    progression: med
   savingThrows:
     fort:
       value: high

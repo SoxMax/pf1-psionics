@@ -61,7 +61,7 @@ system:
       - level: 1
         uuid: Compendium.pf1-psionics.class-abilities.Item.vex5zB9t1i7cZaia
   manifesting:
-    ability: wis
+    ability: int
     cantrips: true
     progression: high
   savingThrows:

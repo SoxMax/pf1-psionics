@@ -245,8 +245,9 @@ function prepareManifestors(sheet, context) {
  *
  * @internal
  * @param {object} data - The Actor data being prepared
- * @param {Array} powers - The power data being prepared
  * @param {string} manifestorId - The key of the manifestor being prepared
+ * @param {object} manifestor - The manifestor data being prepared
+ * @param {Array} powers - The power data being prepared
  * @returns {object} - Manifestor data
  */
 function prepareManifestorPowerLevels(data, manifestorId, manifestor, powers) {

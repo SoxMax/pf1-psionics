@@ -11,7 +11,7 @@
     "AutoAttributePowerPoints": "Ability Score Bonus Points",
     "RequiresAutoLevelPowerPoints": "Requires auto power points to be enabled.",
     "AutoMaxPowerLevel": "Auto Calculate Maximum Power Level",
-    "HasCantrips": "Has Knacks",
+    "HasCantrips": "Has Talents",
     "Browse": "Browse Powers",
     "Skills": {
       "kps": "Knowledge (Psionics)",
@@ -36,7 +36,7 @@
       },
       "Level": "Power level",
       "Levels": {
-        "0": "Knacks",
+        "0": "Talents",
         "1": "1st Level",
         "2": "2nd Level",
         "3": "3rd Level",
