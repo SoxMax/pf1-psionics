@@ -10,7 +10,6 @@ export function onPreCreateActor(document, _data, _options, _userId) {
     system: {
       skills: {
         kps: {
-          name: game.i18n.localize("PF1-Psionics.Skills.kps"),
           ability: "int",
           rank: 0,
           rt: true,
@@ -25,7 +24,6 @@ export function onPreCreateActor(document, _data, _options, _userId) {
     system: {
       skills: {
         ahp: {
-          name: game.i18n.localize("PF1-Psionics.Skills.ahp"),
           ability: "wis",
           rt: false,
           rank: 0,
