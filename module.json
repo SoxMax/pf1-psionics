@@ -43,15 +43,32 @@
   "packFolders": [
     {
       "name": "Psionics",
-      "sorting": "a",
       "color": "#6a5acd",
+      "sorting": "a",
       "packs": [
-        "class-abilities",
-        "classes",
         "feats",
         "powers",
-        "races",
         "rules"
+      ],
+      "folders": [
+        {
+          "name": "Classes",
+          "color": "#6a5acd",
+          "sorting": "a",
+          "packs": [
+            "classes",
+            "class-abilities"
+          ]
+        },
+        {
+          "name": "Races",
+          "color": "#6a5acd",
+          "sorting": "a",
+          "packs": [
+            "races",
+            "race-abilities"
+          ]
+        }
       ]
     }
   ],
