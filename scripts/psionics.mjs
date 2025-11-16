@@ -1,7 +1,7 @@
-import { readyHook} from "./hooks/ready.mjs";
-import { i18nHook } from "./hooks/i18n.mjs";
-import { initHook } from "./hooks/init.mjs";
-import { setupHook } from "./hooks/setup.mjs";
+import {readyHook} from "./hooks/ready.mjs";
+import {i18nHook} from "./hooks/i18n.mjs";
+import {initHook} from "./hooks/init.mjs";
+import {setupHook} from "./hooks/setup.mjs";
 import {
   injectActorPF,
   onPreCreateActor,
@@ -9,17 +9,17 @@ import {
   pf1PrepareBaseActorData,
   pf1PrepareDerivedActorData,
 } from "./documents/actor/actor-pf.mjs";
-import { injectActorSheetPF, renderActorHook } from "./applications/actor/actor-sheet.mjs";
-import { renderItemHook, onCreatePsionicClassItem } from "./applications/item/item-sheet.mjs";
-import { injectItemAction } from "./documents/action/action.mjs";
-import { injectActionUse, pf1PreActionUseHook } from "./documents/action/action-use.mjs";
-import { renderAttackDialogHook } from "./documents/action/attack-dialog.mjs";
-import { onGetRollData } from "./utils.mjs";
+import {injectActorSheetPF, renderActorHook} from "./applications/actor/actor-sheet.mjs";
+import {renderItemHook} from "./applications/item/item-sheet.mjs";
+import {injectItemAction} from "./documents/action/action.mjs";
+import {injectActionUse, pf1PreActionUseHook} from "./documents/action/action-use.mjs";
+import {renderAttackDialogHook} from "./documents/action/attack-dialog.mjs";
+import {onCreateItemHook} from "./documents/item/item.mjs";
+import {onGetRollData} from "./utils.mjs";
 
 /**
  * Module hooks for initialization, localization, and rendering.
  */
-
 Hooks.once("setup", setupHook);
 
 /**
@@ -47,37 +47,19 @@ Hooks.on("pf1PrepareDerivedActorData", pf1PrepareDerivedActorData);
 
 Hooks.on("pf1ActorRest", pf1ActorRest);
 
-/**
- * Executes when the Actor sheet is rendered.
- * It adds a custom "Browse" button for powers to the Actor sheet UI.
- * This button allows users to quickly access the Power Browser from the Actor sheet.
- * The button is styled and configured to trigger the `powerBrowser` function when clicked.
- */
 Hooks.on("renderActorSheetPF", renderActorHook);
 
 Hooks.on("renderAttackDialog", renderAttackDialogHook);
 
-/**
- * Executes when the Item sheet is rendered.
- * It modifies the visibility of certain fields based on the type of power being edited.
- * Specifically, it hides or shows the save information and charges information based on the power type and save type.
- * It also adjusts the display of headers for save effects and charges.
- */
+Hooks.on("createItem", onCreateItemHook);
+
 Hooks.on("renderItemSheet", renderItemHook);
 
-/**
- * Executes when RollData is requested.
- * It adds the manifestation modifier to the roll data for actors using the Psionics system.
- * This allows for accurate calculations during combat and power rolls.
- *
- */
 Hooks.on("pf1GetRollData", onGetRollData);
 
 Hooks.on("pf1PreActionUse", pf1PreActionUseHook);
 
 Hooks.on("preCreateActor", onPreCreateActor);
-
-Hooks.on("createItem", onCreatePsionicClassItem);
 
 Hooks.once("libWrapper.Ready", () => {
   injectActorPF();
