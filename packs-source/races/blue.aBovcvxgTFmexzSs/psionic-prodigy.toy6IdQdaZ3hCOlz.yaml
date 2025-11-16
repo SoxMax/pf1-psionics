@@ -66,8 +66,7 @@ system:
     swm: false
     umd: false
   description:
-    value: >-
-      <p>It&nbsp;is&nbsp;not&nbsp;uncommon&nbsp;for&nbsp;blues&nbsp;to&nbsp;natively&nbsp;have&nbsp;the&nbsp;ability&nbsp;to&nbsp;manifest&nbsp;powers.&nbsp;Blues&nbsp;with&nbsp;this&nbsp;trait&nbsp;gain&nbsp;the&nbsp;@UUID[Compendium.pf1-psionics.feats.Item.JtjBpOomlvF1l4w8]{Unlocked&nbsp;Talent}&nbsp;feat&nbsp;as&nbsp;a&nbsp;bonus&nbsp;feat.</p><p>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;Repletion&nbsp;and&nbsp;stealthy&nbsp;traits.</p>
+    value: "<p>It\_is\_not\_uncommon\_for\_blues\_to\_natively\_have\_the\_ability\_to\_manifest\_powers.\_Blues\_with\_this\_trait\_gain\_the\_@UUID[Compendium.pf1-psionics.feats.Item.1PPq6uhjBd72laNS]{Unlocked&nbsp;Talent}&nbsp;feat\_as\_a\_bonus\_feat.</p><p>This\_trait\_replaces\_the\_Repletion\_and\_stealthy\_traits.</p>"
   disabled: false
   inherited: false
   links:

@@ -1,0 +1,70 @@
+_id: 1PPq6uhjBd72laNS
+_key: '!items!1PPq6uhjBd72laNS'
+_stats:
+  coreVersion: '13.351'
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Unlocked Talent
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p><em>You&nbsp;have&nbsp;discovered&nbsp;your&nbsp;psionic&nbsp;ability,&nbsp;granting&nbsp;you&nbsp;limited&nbsp;manifesting&nbsp;ability.</em></p><p><strong>Prerequisite:&nbsp;</strong>@UUID[Compendium.pf1-psionics.feats.Item.dtygVowbi3UPpTDb]{Wild&nbsp;Talent}.</p><p><strong>Benefit:&nbsp;</strong>You&nbsp;gain&nbsp;2&nbsp;power&nbsp;points.&nbsp;In&nbsp;addition,&nbsp;when&nbsp;you&nbsp;take&nbsp;this&nbsp;feat,&nbsp;select&nbsp;any&nbsp;one&nbsp;1st&nbsp;level&nbsp;power.&nbsp;You&nbsp;treat&nbsp;this&nbsp;power&nbsp;as&nbsp;a&nbsp;power&nbsp;known&nbsp;and&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;with&nbsp;a&nbsp;manifester&nbsp;level&nbsp;of&nbsp;1&nbsp;as&nbsp;long&nbsp;as&nbsp;you&nbsp;have&nbsp;a&nbsp;Charisma&nbsp;score&nbsp;of&nbsp;at&nbsp;least&nbsp;11.&nbsp;Use&nbsp;your&nbsp;Charisma&nbsp;modifier&nbsp;to&nbsp;determine&nbsp;any&nbsp;applicable&nbsp;save&nbsp;DCs.&nbsp;If&nbsp;you&nbsp;have&nbsp;manifester&nbsp;levels&nbsp;from&nbsp;a&nbsp;psionic&nbsp;class,&nbsp;you&nbsp;may&nbsp;instead&nbsp;use&nbsp;the&nbsp;manifester&nbsp;level&nbsp;from&nbsp;that&nbsp;class&nbsp;when&nbsp;manifesting&nbsp;the&nbsp;power&nbsp;gained&nbsp;from&nbsp;this&nbsp;feat,&nbsp;as&nbsp;well&nbsp;as&nbsp;the&nbsp;appropriate&nbsp;key&nbsp;ability&nbsp;modifier.</p><p><strong>Special:&nbsp;</strong>The&nbsp;manifester&nbsp;level&nbsp;when&nbsp;manifesting&nbsp;the&nbsp;power&nbsp;granted&nbsp;from&nbsp;this&nbsp;feat&nbsp;is&nbsp;not&nbsp;a&nbsp;true&nbsp;manifester&nbsp;level&nbsp;and&nbsp;does&nbsp;not&nbsp;count&nbsp;as&nbsp;a&nbsp;manifester&nbsp;level&nbsp;for&nbsp;purposes&nbsp;such&nbsp;as&nbsp;bonus&nbsp;power&nbsp;points,&nbsp;feat,&nbsp;item&nbsp;creation,&nbsp;or&nbsp;prestige&nbsp;class&nbsp;prerequisites.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: feat
+  summons: false
+type: feat

@@ -1,14 +1,14 @@
 _id: JpYoizsD3r5zjKcy
 _key: '!items!JpYoizsD3r5zjKcy'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Talent
 img: icons/magic/symbols/runes-star-magenta.webp
 name: Psionic Talent
 system:
-  abilityType: none
+  abilityType: na
   acquired: false
   changeFlags:
     heavyArmorFullSpeed: false
@@ -20,6 +20,46 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
   description:
     value: >-
       <p>You&nbsp;gain&nbsp;additional&nbsp;power&nbsp;points&nbsp;to&nbsp;supplement&nbsp;those
@@ -62,6 +102,7 @@ system:
   disabled: false
   featType: feat
   inherited: false
+  showInCombat: false
   showInQuickbar: false
   simple: false
   sources:
