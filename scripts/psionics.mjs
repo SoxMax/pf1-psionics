@@ -1,4 +1,4 @@
-import { readyHook } from "./hooks/ready.mjs";
+import { readyHook} from "./hooks/ready.mjs";
 import { i18nHook } from "./hooks/i18n.mjs";
 import { initHook } from "./hooks/init.mjs";
 import { setupHook } from "./hooks/setup.mjs";
@@ -10,7 +10,7 @@ import {
   pf1PrepareDerivedActorData,
 } from "./documents/actor/actor-pf.mjs";
 import { injectActorSheetPF, renderActorHook } from "./applications/actor/actor-sheet.mjs";
-import { renderItemHook } from "./applications/item/item-sheet.mjs";
+import { renderItemHook, onCreatePsionicClassItem } from "./applications/item/item-sheet.mjs";
 import { injectItemAction } from "./documents/action/action.mjs";
 import { injectActionUse, pf1PreActionUseHook } from "./documents/action/action-use.mjs";
 import { renderAttackDialogHook } from "./documents/action/attack-dialog.mjs";
@@ -76,6 +76,8 @@ Hooks.on("pf1GetRollData", onGetRollData);
 Hooks.on("pf1PreActionUse", pf1PreActionUseHook);
 
 Hooks.on("preCreateActor", onPreCreateActor);
+
+Hooks.on("createItem", onCreatePsionicClassItem);
 
 Hooks.once("libWrapper.Ready", () => {
   injectActorPF();
