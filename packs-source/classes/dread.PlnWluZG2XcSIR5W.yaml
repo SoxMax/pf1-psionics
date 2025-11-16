@@ -77,9 +77,9 @@ system:
       - level: 20
         uuid: Compendium.pf1-psionics.class-abilities.Item.iSfEsGtYh60C2R0n
   manifesting:
-    ability: wis
+    ability: cha
     cantrips: true
-    progression: high
+    progression: med
   savingThrows:
     fort:
       value: low

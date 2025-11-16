@@ -210,97 +210,22 @@ The module includes four compendium packs with content from Dreamscarred Press' 
 - LevelDB files in `packs/` are gitignored and generated via `npm run packs:compile`
 - Edit YAML directly or edit in Foundry and extract back to YAML via `npm run packs:extract`
 
-See `tools/README.md` and `tools/docs/IMPORT-GUIDE.md` for complete workflow documentation.
-
 ### Content Creation Tools (`tools/`)
 
-The `tools/` directory contains a comprehensive suite for scraping, importing, and managing psionic content:
+The `tools/` directory contains scrapers and utilities for managing compendium content. For detailed information about the tools:
 
-```
-tools/
-├── scrapers/              # Web scrapers (output YAML)
-│   ├── powers-scraper.mjs    # Scrape psionic powers
-│   ├── feats-scraper.mjs     # Scrape psionic feats
-│   ├── classes-scraper.mjs   # Scrape classes and abilities
-│   └── common.mjs            # Shared utilities
-├── packs.mjs              # Extract/compile tool for YAML ↔ LevelDB
-├── data/                  # URL lists and reference data
-│   ├── power-urls.txt        # 535+ power URLs
-│   └── feat-urls.txt         # Psionic feat URLs
-├── docs/                  # Documentation
-│   ├── IMPORT-GUIDE.md       # Complete workflow guide
-│   ├── AVAILABLE-ICONS.md    # Foundry icon reference
-│   └── PF1-Duration-Units-Reference.md
-└── README.md              # Tools documentation
-```
+- **`tools/CLAUDE.md`** - Comprehensive guide for Claude Code when working with tools
+- **`tools/README.md`** - User-facing documentation with quick reference
+- **`tools/docs/IMPORT-GUIDE.md`** - Step-by-step workflow for scraping and importing
+- **`tools/docs/AVAILABLE-ICONS.md`** - Foundry icon reference
+- **`tools/docs/PF1-Duration-Units-Reference.md`** - Valid duration units in PF1 system
 
-**Key Tools:**
-
-1. **`scrapers/common.mjs`** - Shared scraping utilities
-   - `fetchHTML(url)` - HTTP fetching with curl
-   - `extractInfoboxData(html, fieldName)` - MediaWiki infobox parsing
-   - `writeYAMLPack(packName, items, rootDir)` - YAML output
-   - HTML processing, entity decoding, slugification
-
-2. **`scrapers/powers-scraper.mjs`** - Psionic powers scraper
-   - Scrapes from metzo.miraheze.org (OGL-licensed)
-   - Outputs YAML directly to `packs-source/powers/`
-   - Usage: `node powers-scraper.mjs [URL]` or `node powers-scraper.mjs --list ../data/power-urls.txt`
-   - Extracts: discipline, subdiscipline, level, display components, manifesting time, range, duration, target, saves, power resistance, description, augment text
-   - Creates PF1-compatible Action objects with proper unit mappings
-   - Sets power point cost formula: `max(0, @sl * 2 - 1)`
-
-3. **`scrapers/feats-scraper.mjs`** - Psionic feats scraper
-   - Filters by Dreamscarred Press source books
-   - Outputs YAML to `packs-source/feats/`
-   - Usage: `node feats-scraper.mjs [URL]` or `node feats-scraper.mjs --list ../data/feat-urls.txt`
-   - Extracts: prerequisites, benefits, special text, feat types
-   - Auto-classifies feat types (Psionic, Metapsionic, Combat, etc.)
-
-4. **`scrapers/classes-scraper.mjs`** - Classes and abilities scraper
-   - Unified scraper for both classes and class features
-   - Outputs to `packs-source/classes/` and `packs-source/class-abilities/`
-   - Usage: `node classes-scraper.mjs [URL]` or `node classes-scraper.mjs` (scrapes all)
-   - Filters for Ultimate Psionics and Psionics Augmented sources
-   - Links abilities to classes via `classAssociations` UUIDs
-   - Handles progressive abilities (single item with multiple levels)
-
-5. **`packs.mjs`** - Compendium management tool (adapted from PF1 system)
-   - **Extract**: LevelDB → YAML (`npm run packs:extract`)
-   - **Compile**: YAML → LevelDB (`npm run packs:compile`)
-   - Features: data sanitization, schema validation, ID preservation, sorted keys for diffs
-   - Supports folder structure for class abilities
-
-**Workflow:**
+**Quick Workflow:**
 1. Scrape to YAML: `cd tools/scrapers && node powers-scraper.mjs --list ../data/power-urls.txt`
 2. Review YAML: `git diff packs-source/`
 3. Commit source: `git add packs-source/ && git commit -m "Import powers"`
 4. Compile to LevelDB: `npm run packs:compile`
 5. Refresh Foundry (F5)
-
-**Documentation:**
-- `tools/README.md` - Comprehensive tools guide with examples
-- `tools/docs/IMPORT-GUIDE.md` - Step-by-step scraping and import workflow
-- `tools/docs/AVAILABLE-ICONS.md` - Reference for Foundry VTT icons (prevents broken images)
-- `tools/docs/PF1-Duration-Units-Reference.md` - Valid duration units in PF1 system
-
-### Scraper Architecture
-
-All scrapers share a common architecture via `common.mjs`:
-
-1. **HTML Fetching** - Uses curl for reliable redirect handling
-2. **Infobox Parsing** - Extracts structured data from MediaWiki PortableInfobox format
-3. **PF1 Mapping** - Converts wiki data to PF1 system schema
-4. **Action Object Creation** - Powers and abilities include Action objects with:
-   - `activation` - Parsed manifesting time → PF1 action types (standard, swift, immediate, full)
-   - `range` - Units: personal, touch, close, med, long, unlimited, ft
-   - `duration` - Units: inst, conc, round, minute, hour, day, perm, spec
-   - `target` - What the power affects (prioritizes target, falls back to effect/area)
-   - `save` - Type (Fort/Ref/Will), DC formula, description, harmless flag
-   - `actionType` - Determines behavior (save, attack, other)
-5. **YAML Output** - Direct to `packs-source/` with format: `{slug}.{id}.yaml`
-6. **Rate Limiting** - 1-second delay between requests
-7. **Source Attribution** - Tracks source book and page numbers
 
 ## File Organization
 
@@ -330,6 +255,7 @@ pf1-psionics/
 │   ├── packs.mjs                  # Extract/compile tool
 │   ├── data/                      # URL lists
 │   ├── docs/                      # Tools documentation
+│   ├── CLAUDE.md                  # Claude Code guide for tools
 │   └── README.md
 ├── docs/                       # Project documentation
 │   └── plans/                     # Implementation plans
@@ -345,6 +271,7 @@ pf1-psionics/
 - `README.md` - User-facing module documentation
 
 **Tools Documentation:**
+- `tools/CLAUDE.md` - Guide for Claude Code when working with tools directory
 - `tools/README.md` - Comprehensive guide to scraping and compendium tools
 - `tools/docs/IMPORT-GUIDE.md` - Step-by-step workflow for importing content
 - `tools/docs/AVAILABLE-ICONS.md` - Reference of all Foundry VTT icons for scrapers

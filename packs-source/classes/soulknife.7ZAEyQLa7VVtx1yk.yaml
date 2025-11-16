@@ -75,9 +75,7 @@ system:
       - level: 20
         uuid: Compendium.pf1-psionics.class-abilities.Item.24oruwQppUroMyYM
   manifesting:
-    ability: wis
-    cantrips: true
-    progression: high
+    progression: none
   savingThrows:
     fort:
       value: low

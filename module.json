@@ -1,7 +1,7 @@
 {
   "id": "pf1-psionics",
   "title": "Psionics for PF1e",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "relationships": {
     "systems": [
       {
@@ -37,7 +37,8 @@
     "scripts/psionics.mjs"
   ],
   "styles": [
-    "styles/styles.css"
+    "styles/styles.css",
+    "styles/augment-editor.css"
   ],
   "packFolders": [
     {
@@ -49,7 +50,8 @@
         "classes",
         "feats",
         "powers",
-        "races"
+        "races",
+        "rules"
       ]
     }
   ],
@@ -103,6 +105,17 @@
       "label": "Psionic Races",
       "path": "packs/races",
       "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "rules",
+      "label": "Psionic Rules",
+      "path": "packs/rules",
+      "type": "JournalEntry",
       "system": "pf1",
       "ownership": {
         "PLAYER": "OBSERVER",

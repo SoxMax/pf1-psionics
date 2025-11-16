@@ -20,13 +20,18 @@ export default [
         process: "readonly",
         
         // Foundry VTT globals
+        AbortController: "readonly",
         Actor: "readonly",
+        Application: "readonly",
         CONFIG: "readonly",
         ChatMessage: "readonly",
         DocumentSheetConfig: "readonly",
+        FormApplication: "readonly",
+        HTMLInputElement: "readonly",
         Hooks: "readonly",
         Item: "readonly",
         RollPF: "readonly",
+        TextEditor: "readonly",
         canvas: "readonly",
         foundry: "readonly",
         fromUuid: "readonly",

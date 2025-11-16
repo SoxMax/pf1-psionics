@@ -75,6 +75,7 @@
   <nav class="sheet-navigation tabs" data-group="primary">
     <a class="item" data-tab="description">{{ localize "PF1.Description" }}</a>
     <a class="item" data-tab="details">{{ localize "PF1.Details" }}</a>
+    <a class="item" data-tab="augments">{{ localize "PF1-Psionics.Augments.Plural" }}</a>
     <a class="item" data-tab="links">{{localize "PF1.Links"}}</a>
     <a class="item" data-tab="advanced">{{localize "PF1.Advanced"}}</a>
   </nav>
@@ -255,6 +256,10 @@
 
       {{! Tags }}
       {{~> "systems/pf1/templates/items/parts/item-tags.hbs"}}
+    </div>
+
+    <div class="tab augments" data-group="primary" data-tab="augments">
+      {{> "modules/pf1-psionics/templates/item/parts/power-augments.hbs"}}
     </div>
 
     <div class="tab links" data-group="primary" data-tab="links">

@@ -11,7 +11,7 @@
     "AutoAttributePowerPoints": "Ability Score Bonus Points",
     "RequiresAutoLevelPowerPoints": "Requires auto power points to be enabled.",
     "AutoMaxPowerLevel": "Auto Calculate Maximum Power Level",
-    "HasCantrips": "Has Knacks",
+    "HasCantrips": "Has Talents",
     "Browse": "Browse Powers",
     "Skills": {
       "kps": "Knowledge (Psionics)",
@@ -36,7 +36,7 @@
       },
       "Level": "Power level",
       "Levels": {
-        "0": "Knacks",
+        "0": "Talents",
         "1": "1st Level",
         "2": "2nd Level",
         "3": "3rd Level",
@@ -87,9 +87,57 @@
       "Cost": "Power Point Cost",
       "Offset": "Power Point Offset"
     },
+    "Augments": {
+      "Plural": "Augments",
+      "NoAvailable": "No augments available at your manifester level",
+      "Add": "Add Augment",
+      "Edit": "Edit Augment",
+      "Delete": "Delete Augment",
+      "Duplicate": "Duplicate Augment",
+      "Increase": "Apply augment",
+      "Decrease": "Remove augment",
+      "New": "New Augment",
+      "NoneDefined": "No augments defined for this power. Click 'Add Augment' to create one.",
+      "HelpText": "Augments allow manifesters to spend additional power points to enhance the power's effects.",
+      "Name": "Augment Name",
+      "NamePlaceholder": "Enter augment name",
+      "DescriptionPlaceholder": "Describe what this augment does",
+      "Cost": "Power Point Cost",
+      "CostHint": "Additional PP cost per use",
+      "MaxUses": "Maximum Uses",
+      "Unlimited": "Unlimited",
+      "RequiresFocus": "Requires Psionic Focus",
+      "BasicInformation": "Basic Information",
+      "Configuration": "Configuration",
+      "Icon": "Augment Icon",
+      "Effects": {
+        "Label": "Effects",
+        "DamageMult": "Damage Multiplier",
+        "DurationMult": "Duration Multiplier",
+        "RangeMult": "Range Multiplier",
+        "RangeBonus": "Range Bonus",
+        "TargetBonus": "Target Bonus",
+        "CLBonus": "Manifester Level Bonus",
+        "DCBonus": "DC Bonus",
+        "Special": "Special",
+        "SpecialLabel": "Special Effects",
+        "SpecialPlaceholder": "Describe any special effects not covered by other fields"
+      },
+      "Conditions": {
+        "Label": "Conditions",
+        "LevelRequirements": "Level Requirements",
+        "SpecialRequirements": "Special Requirements",
+        "MinLevel": "Minimum Manifester Level",
+        "MaxLevel": "Maximum Manifester Level",
+        "NoLimit": "No Limit",
+        "RequiresCondition": "Special Requirement",
+        "RequiresConditionPlaceholder": "e.g., 'Only against undead' or 'Only outdoors'"
+      }
+    },
     "Error": {
-      "PowerCostTooHigh": "Power point cost exceeds current manifestor level.",
-      "CompendiumNotFound": "Psionic Powers compendium not found. Please ensure the module is properly installed."
+      "CompendiumNotFound": "Psionic Powers compendium not found. Please ensure the module is properly installed.",
+      "NotEnoughFocus": "Not enough Psionic Focus to manifest to complete this action.",
+      "PowerCostTooHigh": "Power point cost exceeds current manifestor level."
     }
   }
 }
