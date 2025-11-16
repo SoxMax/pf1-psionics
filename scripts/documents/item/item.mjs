@@ -1,12 +1,13 @@
 import {MODULE_ID} from "../../_module.mjs";
 
-export async function onCreateItemHook(item, options, userId) {
-  await onCreatePsionicClassItem(item)
+export async function onCreateItemHook(item, _options, _userId) {
+  if (item.type === "class") {
+    await onCreatePsionicClassItem(item)
+  }
 }
 
-async function onCreatePsionicClassItem(item) {
+export async function onCreatePsionicClassItem(item) {
   try {
-    if (item.type !== "class") return;
     const manifesting = item.system?.manifesting;
     if (!manifesting?.progression) return; // Not a psionic manifesting class
     const actor = item.parent;
