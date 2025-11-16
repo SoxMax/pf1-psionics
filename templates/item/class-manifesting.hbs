@@ -58,6 +58,7 @@
     </label>
 </div>
 
+{{ log this hasManifestor this.hasManifestor }}
 {{#unless hasManifestor}}
 <div class="form-group create-spellbook">
     <button name="create-manifestor" type="button" {{disabled (not @root.editable)}}>

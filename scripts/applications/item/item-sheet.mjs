@@ -9,6 +9,14 @@ export function renderItemHook(app, html, data) {
 }
 
 async function injectManifesting(app, html, data) {
+  if (app.document?.actor)
+    data.hasManifestor = Object.values(data.rollData.psionics ?? {}).some(
+        (manifestor) => !!manifestor.class && manifestor.class === app.document.system.tag && manifestor.inUse
+    );
+  else {
+    data.hasManifestor = true; // Not true, but avoids unwanted behaviour.
+  }
+
 	data.manifesting = {
 		progression: {
 			low: "PF1.Low",
@@ -23,7 +31,7 @@ async function injectManifesting(app, html, data) {
 
 export async function onCreatePsionicClassItem(item, _options, _userId) {
   try {
-    if (item.type !== "class") return; // removed stray 'f'
+    if (item.type !== "class") return;
     const manifesting = item.system?.manifesting;
     if (!manifesting?.progression) return; // Not a psionic manifesting class
     const actor = item.parent;
