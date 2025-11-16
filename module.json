@@ -101,6 +101,17 @@
       }
     },
     {
+      "name": "race-abilities",
+      "label": "Psionic Racial Abilities",
+      "path": "packs/race-abilities",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "races",
       "label": "Psionic Races",
       "path": "packs/races",
