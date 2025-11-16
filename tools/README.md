@@ -49,6 +49,7 @@ npm run packs:extract:powers              # Extract powers only
 npm run packs:extract:feats               # Extract feats only
 npm run packs:extract:classes             # Extract classes only
 npm run packs:extract:class-abilities     # Extract class abilities only
+npm run packs:extract:rules               # Extract rules/skills only
 npm run packs:extract                     # Extract all packs
 ```
 

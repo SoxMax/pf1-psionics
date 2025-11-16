@@ -18,7 +18,6 @@ async function migrateOldActors() {
 	game.actors.contents.forEach(async actor => {
 		if (!isValidActor(actor)) return;
 		addSkillIfMissing(actor, "kps", {
-			name: game.i18n.localize("PF1-Psionics.Skills.kps"),
 			ability: "int",
 			rank: 0,
 			rt: true,
@@ -26,7 +25,6 @@ async function migrateOldActors() {
 			background: true,
 		});
 		addSkillIfMissing(actor, "ahp", {
-			name: game.i18n.localize("PF1-Psionics.Skills.ahp"),
 			ability: "wis",
 			rank: 0,
 			rt: true,
