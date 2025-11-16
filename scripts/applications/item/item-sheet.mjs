@@ -16,7 +16,6 @@ async function injectManifesting(app, html, data) {
   else {
     data.hasManifestor = true; // Not true, but avoids unwanted behaviour.
   }
-
 	data.manifesting = {
 		progression: {
 			low: "PF1.Low",
@@ -24,6 +23,7 @@ async function injectManifesting(app, html, data) {
 			high: "PF1.High",
 		}
 	};
+
 	const manifestingConfig = await foundry.applications.handlebars.renderTemplate("modules/pf1-psionics/templates/item/class-manifesting.hbs", data);
 	let previousSelect = html.find("select[name='system.savingThrows.will.value']");
 	previousSelect.parent().after(manifestingConfig);
