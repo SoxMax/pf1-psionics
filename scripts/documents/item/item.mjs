@@ -2,7 +2,7 @@ import {MODULE_ID} from "../../_module.mjs";
 
 export async function onCreateItemHook(item, _options, _userId) {
   if (item.type === "class") {
-    await onCreatePsionicClassItem(item)
+    await onCreatePsionicClassItem(item);
   }
 }
 
