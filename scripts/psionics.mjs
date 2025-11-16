@@ -85,8 +85,3 @@ Hooks.once("libWrapper.Ready", () => {
 	injectItemAction();
 	injectActionUse();
 });
-
-// Hooks.on("createItem", (item, options, userId) => {
-// 	registerConditions();
-// });
-
