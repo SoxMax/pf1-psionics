@@ -22,9 +22,9 @@ function registerConfig() {
 
   // Skills
   pf1.config.skills["kps"] = "PF1-Psionics.Skills.kps"; // Knowledge (Psionics)
-  pf1.config.skillCompendiumEntries["kps"] = "Compendium.pf1-psionics.rules.JournalEntry.knowledgepsionics01";
+  pf1.config.skillCompendiumEntries["kps"] = "Compendium.pf1-psionics.rules.JournalEntry.GAyvdoGBfVM0oTpr.JournalEntryPage.UJB7wMetxEFQLbBY";
   pf1.config.skills["ahp"] = "PF1-Psionics.Skills.ahp"; // Autohypnosis
-  pf1.config.skillCompendiumEntries["ahp"] = "Compendium.pf1-psionics.rules.JournalEntry.autohypnosis0000001";
+  pf1.config.skillCompendiumEntries["ahp"] = "Compendium.pf1-psionics.rules.JournalEntry.GAyvdoGBfVM0oTpr.JournalEntryPage.5ZCSm0ReOpkRoSxj";
   // Traits
   pf1.config.traitTypes.psionic = "PF1-Psionics.Trait.Psionic";
   // Creature Traits
