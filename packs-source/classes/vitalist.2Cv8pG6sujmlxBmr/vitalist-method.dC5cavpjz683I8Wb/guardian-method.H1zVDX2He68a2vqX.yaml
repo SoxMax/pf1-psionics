@@ -59,7 +59,52 @@ system:
     swm: false
     umd: false
   description:
-    value: "<p><em>A guardian vitalist focuses his skill on keeping his allies from suffering wounds. He develops psionic abilities that deflect, absorb, and reflect damage proactively, rather than healing wounds after they are suffered.</em></p><p><strong>Guardian Power:</strong> A guardian vitalist adds <em>@UUID[Compendium.pf1-psionics.powers.Item.2bx0llDpiQ66ShPZ]{Biofeedback}</em> to his list of powers known. This does not count against his number of powers known.</p><p><strong>Guardian Knacks:</strong> A guardian can select one of the talents below as his method knack.</p><ul><li><em>@UUID[Compendium.pf1-psionics.powers.Item.aAWnsECsGQd4zYvd]{Fortify, Lesser}</em>: Gain a +1 bonus on saving throws.</li><li><em>@UUID[Compendium.pf1-psionics.powers.Item.2zGndi6SFDsb62cx]{Toughen}</em>: Grant +1 natural armor to collective members.</li></ul><p><strong>Guardian's Touch:</strong> A guardian vitalist of 2nd level who utilizes transfer wounds grants the target a number of temporary hit points equal to his class level. These temporary hit points last a number of rounds equal to the vitalist's Wisdom modifier (minimum 1) and do not stack with any other temporary hit points.</p><p><strong>Guardian's Pulse:</strong> As a free action, guardian of 6th level may project a pulse to all members of his collective by spending one power point, granting them DR 2/- for one round. Every three vitalist levels thereafter, this DR increases by 1.</p><p><strong>Swift Aid:</strong> A guardian of 8th level may, as an immediate action and by expending his psionic focus, grant a member of his collective a +1 insight bonus to AC or saves (guardian's choice) that lasts until the beginning of the target's next turn. This insight bonus increases by +1 every four vitalist levels thereafter.</p><p><strong>Guardian's Expertise:</strong> Upon achieving 11th level, anytime a guardian manifests <em>@UUID[Compendium.pf1-psionics.powers.Item.zylCrNW8B3cHQJ86]{Empathic Feedback}</em>, the power gains two additional augment options.</p><ul><li>If you spend 6 additional power points, this power may be manifested as an immediate action.</li><li>If you spend 4 additional power points, the damage dealt to the attacker is subtracted from the damage you take.</li></ul><p>In addition, any time a guardian manifests a power on a member of his collective (including himself) with a range of You and a duration measured in rounds, the guardian may expend his psionic focus to treat that power as if affected by the Extend Power feat.</p><p><strong>Master Guardian:</strong> A guardian of 20th level can, as a full-round action and by expending his psionic focus, give one member of the collective a psionic bubble of protection. This protective bubble grants DR 6/-, PR 27, resistance 20 against any attack that deals acid, cold, electricity, fire, or sonic damage, and a +6 deflection bonus to AC. This protective bubble lasts for one minute. The guardian can use this ability once every 10 minutes.</p>"
+    value: >-
+      <p><em>A guardian vitalist focuses his skill on keeping his allies from
+      suffering wounds. He develops psionic abilities that deflect, absorb, and
+      reflect damage proactively, rather than healing wounds after they are
+      suffered.</em></p><p><strong>Guardian Power:</strong> A guardian vitalist
+      adds
+      <em>@UUID[Compendium.pf1-psionics.powers.Item.2bx0llDpiQ66ShPZ]{Biofeedback}</em>
+      to his list of powers known. This does not count against his number of
+      powers known.</p><p><strong>Guardian Knacks:</strong> A guardian can
+      select one of the talents below as his method
+      knack.</p><ul><li><em>@UUID[Compendium.pf1-psionics.powers.Item.aAWnsECsGQd4zYvd]{Fortify,
+      Lesser}</em>: Gain a +1 bonus on saving
+      throws.</li><li><em>@UUID[Compendium.pf1-psionics.powers.Item.2zGndi6SFDsb62cx]{Toughen}</em>:
+      Grant +1 natural armor to collective
+      members.</li></ul><p><strong>Guardian's Touch:</strong> A guardian
+      vitalist of 2nd level who utilizes transfer wounds grants the target a
+      number of temporary hit points equal to his class level. These temporary
+      hit points last a number of rounds equal to the vitalist's Wisdom modifier
+      (minimum 1) and do not stack with any other temporary hit
+      points.</p><p><strong>Guardian's Pulse:</strong> As a free action,
+      guardian of 6th level may project a pulse to all members of his collective
+      by spending one power point, granting them DR 2/- for one round. Every
+      three vitalist levels thereafter, this DR increases by
+      1.</p><p><strong>Swift Aid:</strong> A guardian of 8th level may, as an
+      immediate action and by expending his psionic focus, grant a member of his
+      collective a +1 insight bonus to AC or saves (guardian's choice) that
+      lasts until the beginning of the target's next turn. This insight bonus
+      increases by +1 every four vitalist levels
+      thereafter.</p><p><strong>Guardian's Expertise:</strong> Upon achieving
+      11th level, anytime a guardian manifests
+      <em>@UUID[Compendium.pf1-psionics.powers.Item.zylCrNW8B3cHQJ86]{Empathic
+      Feedback}</em>, the power gains two additional augment
+      options.</p><ul><li>If you spend 6 additional power points, this power may
+      be manifested as an immediate action.</li><li>If you spend 4 additional
+      power points, the damage dealt to the attacker is subtracted from the
+      damage you take.</li></ul><p>In addition, any time a guardian manifests a
+      power on a member of his collective (including himself) with a range of
+      You and a duration measured in rounds, the guardian may expend his psionic
+      focus to treat that power as if affected by the Extend Power
+      feat.</p><p><strong>Master Guardian:</strong> A guardian of 20th level
+      can, as a full-round action and by expending his psionic focus, give one
+      member of the collective a psionic bubble of protection. This protective
+      bubble grants DR 6/-, PR 27, resistance 20 against any attack that deals
+      acid, cold, electricity, fire, or sonic damage, and a +6 deflection bonus
+      to AC. This protective bubble lasts for one minute. The guardian can use
+      this ability once every 10 minutes.</p>
   disabled: false
   inherited: false
   showInCombat: false
