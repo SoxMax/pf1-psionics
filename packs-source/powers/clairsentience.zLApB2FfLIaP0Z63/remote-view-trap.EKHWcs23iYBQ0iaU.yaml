@@ -26,7 +26,6 @@ system:
         units: personal
         value: Personal
       save:
-        dc: 10 + @sl + @ablMod
         description: Will half; see text
         type: will
       target:

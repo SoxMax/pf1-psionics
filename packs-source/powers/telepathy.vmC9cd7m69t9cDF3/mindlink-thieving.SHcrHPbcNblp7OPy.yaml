@@ -20,7 +20,6 @@ system:
         value: 10 * @cl
       name: Use
       save:
-        dc: 10 + @sl + @ablMod
         description: Will negates
         type: will
   description:

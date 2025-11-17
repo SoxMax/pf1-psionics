@@ -27,7 +27,6 @@ system:
         units: ft
         value: 5 ft.
       save:
-        dc: 10 + @sl + @ablMod
         description: Reflex half
         type: ref
       target:

@@ -21,8 +21,7 @@ system:
       range:
         units: personal
         value: Personal
-      save:
-        dc: 10 + @sl + @ablMod
+      save: 
         description: Will negates; see text
         type: will
       target:

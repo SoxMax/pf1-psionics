@@ -21,8 +21,7 @@ system:
       range:
         units: med
         value: Medium (100 ft. + 10 ft./level)
-      save:
-        dc: 10 + @sl + @ablMod
+      save: 
         description: Fortitude negates
         type: fort
       target:

@@ -22,7 +22,6 @@ system:
         units: ft
         value: Aura
       save:
-        dc: 10 + @sl + @ablMod
         description: Will save (see text)
         type: will
       target:

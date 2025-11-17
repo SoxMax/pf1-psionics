@@ -24,8 +24,7 @@ system:
       range:
         units: ft
         value: 30 ft.
-      save:
-        dc: 10 + @sl + @ablMod
+      save: 
         description: Will negates
         type: will
       target:

@@ -21,8 +21,7 @@ system:
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
-      save:
-        dc: 10 + @sl + @ablMod
+      save: 
         description: Will negates
         type: will
       target:

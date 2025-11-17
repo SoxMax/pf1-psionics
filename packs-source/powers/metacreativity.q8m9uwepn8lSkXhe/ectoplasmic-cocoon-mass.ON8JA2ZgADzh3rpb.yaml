@@ -23,8 +23,7 @@ system:
         units: hour
         value: '@cl'
       name: Use
-      save:
-        dc: 10 + @sl + @ablMod
+      save: 
         description: Reflex negates
         type: ref
       target:

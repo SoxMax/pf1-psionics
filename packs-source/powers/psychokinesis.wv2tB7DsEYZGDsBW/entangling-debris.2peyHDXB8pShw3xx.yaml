@@ -31,8 +31,7 @@ system:
       range:
         units: long
         value: Long (400 ft. + 40 ft./level)
-      save:
-        dc: 10 + @sl + @ablMod
+      save: 
         description: Reflex partial; see text
         type: ref
       target:

@@ -22,7 +22,6 @@ system:
         units: personal
         value: Personal
       save:
-        dc: 10 + @sl + @ablMod
         description: None and fortitude negates; see text
         type: fort
       target:

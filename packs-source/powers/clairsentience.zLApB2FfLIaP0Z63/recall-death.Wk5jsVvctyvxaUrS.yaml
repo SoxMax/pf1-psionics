@@ -19,8 +19,7 @@ system:
           - - 5d6
             - untyped
       name: Use
-      save:
-        dc: 10 + @sl + @ablMod
+      save: 
         description: Will partial; see text
         type: will
   description:

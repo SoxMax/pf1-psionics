@@ -22,8 +22,7 @@ system:
       range:
         units: touch
         value: Touch
-      save:
-        dc: 10 + @sl + @ablMod
+      save: 
         description: Will negates
         type: will
       target:

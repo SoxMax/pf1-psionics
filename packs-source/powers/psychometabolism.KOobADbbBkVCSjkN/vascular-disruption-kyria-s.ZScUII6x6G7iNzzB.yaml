@@ -29,7 +29,6 @@ system:
         units: med
         value: Medium (100 ft. plus 10 ft. per level)
       save:
-        dc: 10 + @sl + @ablMod
         description: Fortitude partial
         type: fort
       target:
