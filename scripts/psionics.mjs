@@ -50,7 +50,7 @@ Hooks.on("pf1ActorRest", pf1ActorRest);
 
 Hooks.on("renderActorSheetPF", renderActorHook);
 
-Hooks.on("renderItemActionSheet", renderItemActionSheetHook)
+Hooks.on("renderItemActionSheet", renderItemActionSheetHook);
 
 Hooks.on("renderAttackDialog", renderAttackDialogHook);
 
@@ -66,7 +66,7 @@ Hooks.on("preCreateActor", onPreCreateActor);
 
 Hooks.once("libWrapper.Ready", () => {
   injectActorPF();
-	injectActorSheetPF();
-	injectItemAction();
-	injectActionUse();
+  injectActorSheetPF();
+  injectItemAction();
+  injectActionUse();
 });
