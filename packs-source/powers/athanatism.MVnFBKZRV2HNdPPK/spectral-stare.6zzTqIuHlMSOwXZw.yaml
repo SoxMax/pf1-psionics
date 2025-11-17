@@ -25,7 +25,7 @@ system:
       range:
         units: personal
         value: Personal
-      save: 
+      save:
         description: Fortitude partial
         type: fort
       target:

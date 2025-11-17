@@ -21,7 +21,7 @@ system:
       range:
         units: touch
         value: Touch
-      save: 
+      save:
         description: Fortitude negates (harmless)
         harmless: true
         type: fort

@@ -21,7 +21,7 @@ system:
       range:
         units: personal
         value: Personal
-      save: 
+      save:
         description: None and Fortitude negates; see text;
         type: fort
       target:

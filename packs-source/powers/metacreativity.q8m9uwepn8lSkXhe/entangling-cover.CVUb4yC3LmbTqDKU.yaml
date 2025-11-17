@@ -21,7 +21,7 @@ system:
       range:
         units: ft
         value: special; see text
-      save: 
+      save:
         description: Reflex negates
         type: ref
       target:

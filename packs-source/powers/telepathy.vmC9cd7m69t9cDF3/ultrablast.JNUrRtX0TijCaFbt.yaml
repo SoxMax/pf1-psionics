@@ -28,7 +28,7 @@ system:
       range:
         units: ft
         value: 15 ft.
-      save: 
+      save:
         description: Will half
         type: will
       target:

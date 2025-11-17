@@ -19,7 +19,7 @@ system:
           - - 5d6
             - untyped
       name: Use
-      save: 
+      save:
         description: Will partial; see text
         type: will
   description:

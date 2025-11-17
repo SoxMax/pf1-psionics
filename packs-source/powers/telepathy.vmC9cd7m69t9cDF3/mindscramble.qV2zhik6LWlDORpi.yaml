@@ -21,7 +21,7 @@ system:
       range:
         units: ft
         value: Melee or ranged attack (see text)
-      save: 
+      save:
         description: Will (see text)
         type: will
       target:

@@ -20,7 +20,7 @@ system:
       range:
         units: touch
         value: Touch
-      save: 
+      save:
         description: Fortitude partial
         type: fort
       target:

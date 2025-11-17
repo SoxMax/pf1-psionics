@@ -24,7 +24,7 @@ system:
       range:
         units: long
         value: Long (400 ft. + 40 ft./level)
-      save: 
+      save:
         description: None and Will negates (object)
         type: will
       target:

@@ -20,7 +20,7 @@ system:
       range:
         units: ft
         value: 30 ft.
-      save: 
+      save:
         description: Will negates (harmless)
         harmless: true
         type: will

@@ -20,7 +20,7 @@ system:
       range:
         units: long
         value: Long (400 ft. + 40 ft./level)
-      save: 
+      save:
         description: Will negates (harmless)
         harmless: true
         type: will

@@ -24,7 +24,7 @@ system:
       range:
         units: ft
         value: 0 ft.
-      save: 
+      save:
         description: Will negates (harmless, object)
         harmless: true
         type: will

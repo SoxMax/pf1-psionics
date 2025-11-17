@@ -21,7 +21,7 @@ system:
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
-      save: 
+      save:
         description: Will negates; see text
         type: will
       target:

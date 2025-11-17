@@ -20,7 +20,7 @@ system:
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
-      save: 
+      save:
         description: Will negates; then Fortitude negates (seetext)
         type: fort
       target:

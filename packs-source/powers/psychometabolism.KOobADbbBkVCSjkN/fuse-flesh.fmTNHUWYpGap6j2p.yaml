@@ -21,7 +21,7 @@ system:
       range:
         units: touch
         value: Touch
-      save: 
+      save:
         description: Fortitude negates and Fortitude partial; see text
         type: fort
       target:

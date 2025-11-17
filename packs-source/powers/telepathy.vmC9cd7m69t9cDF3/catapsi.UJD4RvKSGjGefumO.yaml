@@ -25,7 +25,7 @@ system:
       range:
         units: ft
         value: 30 ft.
-      save: 
+      save:
         description: Will negates; see text
         type: will
       target:

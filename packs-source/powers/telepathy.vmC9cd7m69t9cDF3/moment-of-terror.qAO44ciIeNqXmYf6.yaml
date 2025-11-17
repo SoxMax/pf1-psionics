@@ -21,7 +21,7 @@ system:
       range:
         units: med
         value: Medium (100 feet + 10 feet/ level)
-      save: 
+      save:
         description: Will negates
         type: will
       target:

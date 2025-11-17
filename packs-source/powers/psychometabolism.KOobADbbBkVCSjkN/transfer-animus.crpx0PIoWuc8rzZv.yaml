@@ -18,7 +18,7 @@ system:
       range:
         units: touch
         value: Touch
-      save: 
+      save:
         description: Will (harmless)
         harmless: true
         type: will

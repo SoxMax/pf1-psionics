@@ -24,7 +24,7 @@ system:
       range:
         units: ft
         value: 120 ft.
-      save: 
+      save:
         description: Reflex half or Fortitude half; see text;
         type: fort
       target:

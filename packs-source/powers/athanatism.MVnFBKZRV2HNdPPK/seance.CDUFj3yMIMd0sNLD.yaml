@@ -21,7 +21,7 @@ system:
       range:
         units: unlimited
         value: Unlimited; see text
-      save: 
+      save:
         description: Will negates
         type: will
       target:

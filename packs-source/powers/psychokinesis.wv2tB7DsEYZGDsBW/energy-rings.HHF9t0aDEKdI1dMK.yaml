@@ -26,7 +26,7 @@ system:
       range:
         units: close
         value: Close (25 ft. + 5 ft./level)
-      save: 
+      save:
         description: Reflex half or Fortitude half; see text
         type: fort
       target:

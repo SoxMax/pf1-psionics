@@ -26,7 +26,7 @@ system:
       range:
         units: ft
         value: 20 ft.
-      save: 
+      save:
         description: Fortitude negates (potentially harmless);
         harmless: true
         type: fort

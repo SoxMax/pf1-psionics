@@ -21,7 +21,7 @@ system:
       range:
         units: personal
         value: Personal
-      save: 
+      save:
         description: Will negates; see text
         type: will
       target:

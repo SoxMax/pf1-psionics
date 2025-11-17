@@ -20,7 +20,7 @@ system:
       range:
         units: close
         value: Close (25 ft. plus 5 ft./2 levels)
-      save: 
+      save:
         description: Fortitude partial
         type: fort
       target:

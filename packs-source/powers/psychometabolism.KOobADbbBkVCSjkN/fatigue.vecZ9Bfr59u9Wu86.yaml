@@ -21,7 +21,7 @@ system:
       range:
         units: ft
         value: 30 ft.
-      save: 
+      save:
         description: Fortitude negates
         type: fort
       target:

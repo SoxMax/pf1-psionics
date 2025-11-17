@@ -24,7 +24,7 @@ system:
       range:
         units: personal
         value: Personal and touch
-      save: 
+      save:
         description: None or Will negates (object)
         type: will
       target:
