@@ -62,7 +62,10 @@ system:
     - target: attack
       text: +1 racial bonus on attack rolls against goblinoids
   description:
-    value: "<p>Outcast blues must fight their own kind to survive. Blues with this trait gain a +1 racial bonus on attack rolls against goblinoids.</p><p>This replaces the repletion racial trait.</p>"
+    value: >-
+      <p>Outcast blues must fight their own kind to survive. Blues with this
+      trait gain a +1 racial bonus on attack rolls against
+      goblinoids.</p><p>This replaces the repletion racial trait.</p>
   disabled: false
   inherited: false
   showInCombat: false
