@@ -102,18 +102,6 @@ export class PowerSheet extends pf1.applications.item.ItemSheetPF {
     augments.push({
       _id: foundry.utils.randomID(),
       name: "New Augment",
-      description: "",
-      cost: 2,
-      maxUses: null,
-      requiresFocus: false,
-      effects: {
-        damageBonus: "",
-        damageMult: 1,
-        durationMultiplier: 1,
-        dcBonus: 0,
-        clBonus: 0,
-        special: ""
-      }
     });
 
     await this.item.update({"system.augments": augments});
