@@ -29,15 +29,24 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;accelerate&nbsp;the&nbsp;reaction&nbsp;time&nbsp;of&nbsp;the&nbsp;target,&nbsp;allowing&nbsp;them&nbsp;to&nbsp;take&nbsp;this&nbsp;round's&nbsp;actions&nbsp;ahead&nbsp;of&nbsp;the&nbsp;creature&nbsp;who&nbsp;would&nbsp;have&nbsp;otherwise&nbsp;gone&nbsp;immediately&nbsp;before&nbsp;the&nbsp;target.&nbsp;If&nbsp;this&nbsp;would&nbsp;place&nbsp;the&nbsp;target&nbsp;before&nbsp;you&nbsp;and&nbsp;he&nbsp;has&nbsp;not&nbsp;already&nbsp;taken&nbsp;this&nbsp;round's&nbsp;actions,&nbsp;the&nbsp;target&nbsp;must&nbsp;immediately&nbsp;take&nbsp;this&nbsp;round's&nbsp;actions.&nbsp;If&nbsp;the&nbsp;target&nbsp;has&nbsp;already&nbsp;taken&nbsp;this&nbsp;round's&nbsp;actions,&nbsp;the&nbsp;power&nbsp;affects&nbsp;them&nbsp;on&nbsp;the&nbsp;next&nbsp;round.
+      <p>You accelerate the reaction time of the target, allowing them to take
+      this round's actions ahead of the creature who would have otherwise gone
+      immediately before the target. If this would place the target before you
+      and he has not already taken this round's actions, the target must
+      immediately take this round's actions. If the target has already taken
+      this round's actions, the power affects them on the next round.
 
       </p>
 
-      <p>A&nbsp;creature&nbsp;may&nbsp;only&nbsp;be&nbsp;affected&nbsp;by&nbsp;this&nbsp;power&nbsp;once&nbsp;per&nbsp;round.&nbsp;This&nbsp;power&nbsp;does&nbsp;not&nbsp;allow&nbsp;a&nbsp;creature&nbsp;to&nbsp;act&nbsp;in&nbsp;a&nbsp;round&nbsp;if&nbsp;he&nbsp;would&nbsp;not&nbsp;normally&nbsp;be&nbsp;allowed&nbsp;to&nbsp;(such&nbsp;as&nbsp;during&nbsp;the&nbsp;surprise&nbsp;round).
+      <p>A creature may only be affected by this power once per round. This
+      power does not allow a creature to act in a round if he would not normally
+      be allowed to (such as during the surprise round).
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;6&nbsp;power&nbsp;points&nbsp;spent,&nbsp;the&nbsp;target's&nbsp;place&nbsp;in&nbsp;the&nbsp;initiative&nbsp;order&nbsp;is&nbsp;improved&nbsp;by&nbsp;one&nbsp;additional&nbsp;step.
+      <p><strong>Augment:</strong> For every additional 6 power points spent,
+      the target's place in the initiative order is improved by one additional
+      step.
 
       </p>
   descriptors:

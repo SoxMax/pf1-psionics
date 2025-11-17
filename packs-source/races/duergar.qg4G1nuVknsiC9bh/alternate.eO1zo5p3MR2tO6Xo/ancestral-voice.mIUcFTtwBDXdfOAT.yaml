@@ -63,7 +63,11 @@ system:
     umd: false
   description:
     value: >-
-      <p>Duergars&nbsp;have&nbsp;a&nbsp;connection&nbsp;to&nbsp;their&nbsp;ancestors&nbsp;through&nbsp;the&nbsp;crystals&nbsp;they&nbsp;harvest&nbsp;deep&nbsp;beneath&nbsp;the&nbsp;earth.&nbsp;In&nbsp;some,&nbsp;their&nbsp;ancestors&nbsp;are&nbsp;able&nbsp;to&nbsp;speak&nbsp;to&nbsp;them&nbsp;directly.&nbsp;A&nbsp;duergar&nbsp;with&nbsp;this&nbsp;trait&nbsp;gains&nbsp;a&nbsp;+4&nbsp;racial&nbsp;bonus&nbsp;to&nbsp;Intimidate&nbsp;and&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;to&nbsp;a&nbsp;Knowledge&nbsp;skill.</p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;Stability&nbsp;trait.</em></p>
+      <p>Duergars have a connection to their ancestors through the crystals they
+      harvest deep beneath the earth. In some, their ancestors are able to speak
+      to them directly. A duergar with this trait gains a +4 racial bonus to
+      Intimidate and a +2 bonus to a Knowledge skill.</p><p><em>This trait
+      replaces the Stability trait.</em></p>
   disabled: false
   inherited: false
   showInQuickbar: false

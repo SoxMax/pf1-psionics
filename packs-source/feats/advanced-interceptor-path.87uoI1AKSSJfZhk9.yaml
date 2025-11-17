@@ -22,13 +22,21 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;defend&nbsp;your&nbsp;allies&nbsp;with&nbsp;uncanny&nbsp;expertise.</em></p>
+      <p><em>You defend your allies with uncanny expertise.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Combat%20Expertise">Combat&nbsp;Expertise</a>,&nbsp;interceptor&nbsp;path&nbsp;class&nbsp;feature,&nbsp;manifester&nbsp;level&nbsp;10th,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+6
+      <p><strong>Prerequisites:</strong><a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Combat%20Expertise">Combat
+      Expertise</a>, interceptor path class feature, manifester level 10th, base
+      attack bonus +6
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;When&nbsp;using&nbsp;the&nbsp;interceptor&nbsp;trance,&nbsp;you&nbsp;can&nbsp;take&nbsp;a&nbsp;penalty&nbsp;to&nbsp;your&nbsp;Armor&nbsp;Class&nbsp;equal&nbsp;to&nbsp;the&nbsp;competence&nbsp;bonus&nbsp;granted&nbsp;by&nbsp;the&nbsp;interceptor&nbsp;trance&nbsp;to&nbsp;grant&nbsp;a&nbsp;deflection&nbsp;bonus&nbsp;to&nbsp;Armor&nbsp;Class&nbsp;to&nbsp;one&nbsp;ally&nbsp;threatened&nbsp;by&nbsp;an&nbsp;enemy&nbsp;within&nbsp;your&nbsp;melee&nbsp;reach.&nbsp;In&nbsp;addition,&nbsp;when&nbsp;using&nbsp;the&nbsp;Interceptor&nbsp;maneuver,&nbsp;if&nbsp;your&nbsp;attack&nbsp;was&nbsp;successful,&nbsp;you&nbsp;can&nbsp;make&nbsp;a&nbsp;free&nbsp;disarm&nbsp;or&nbsp;trip&nbsp;attempt&nbsp;against&nbsp;the&nbsp;enemy&nbsp;struck.
+      <p><strong>Benefit:</strong> When using the interceptor trance, you can
+      take a penalty to your Armor Class equal to the competence bonus granted
+      by the interceptor trance to grant a deflection bonus to Armor Class to
+      one ally threatened by an enemy within your melee reach. In addition, when
+      using the Interceptor maneuver, if your attack was successful, you can
+      make a free disarm or trip attempt against the enemy struck.
 
       </p>
   disabled: false

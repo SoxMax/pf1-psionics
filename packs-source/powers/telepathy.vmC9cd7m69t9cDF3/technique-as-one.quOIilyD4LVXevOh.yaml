@@ -30,23 +30,38 @@ system:
         value: You plus one willing creature
   description:
     value: >-
-      <p>When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;pick&nbsp;one&nbsp;feat&nbsp;that&nbsp;either&nbsp;you&nbsp;or&nbsp;the&nbsp;target&nbsp;has.&nbsp;This&nbsp;feat&nbsp;cannot&nbsp;be&nbsp;one&nbsp;restricted&nbsp;to&nbsp;first-level&nbsp;characters,&nbsp;nor&nbsp;can&nbsp;it&nbsp;have&nbsp;a&nbsp;racial&nbsp;prerequisite.&nbsp;All&nbsp;willing&nbsp;targets&nbsp;of&nbsp;this&nbsp;power&nbsp;gain&nbsp;this&nbsp;feat&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;power,&nbsp;although&nbsp;they&nbsp;must&nbsp;meet&nbsp;all&nbsp;prerequisites&nbsp;of&nbsp;that&nbsp;feat&nbsp;to&nbsp;gain&nbsp;its&nbsp;benefits.
+      <p>When you manifest this power, pick one feat that either you or the
+      target has. This feat cannot be one restricted to first-level characters,
+      nor can it have a racial prerequisite. All willing targets of this power
+      gain this feat for the duration of the power, although they must meet all
+      prerequisites of that feat to gain its benefits.
 
       </p>
 
-      <p>Feats&nbsp;that&nbsp;directly&nbsp;modify&nbsp;hit&nbsp;points,&nbsp;power&nbsp;points,&nbsp;or&nbsp;spells&nbsp;per&nbsp;day&nbsp;cannot&nbsp;be&nbsp;chosen&nbsp;this&nbsp;way.&nbsp;If&nbsp;a&nbsp;feat&nbsp;requires&nbsp;a&nbsp;specific&nbsp;choice,&nbsp;that&nbsp;choice&nbsp;is&nbsp;also&nbsp;shared.
+      <p>Feats that directly modify hit points, power points, or spells per day
+      cannot be chosen this way. If a feat requires a specific choice, that
+      choice is also shared.
 
       </p>
 
-      <p>This&nbsp;power&nbsp;does&nbsp;not&nbsp;grant&nbsp;you&nbsp;any&nbsp;special&nbsp;knowledge&nbsp;of&nbsp;the&nbsp;target's&nbsp;feats&nbsp;(though&nbsp;it&nbsp;is&nbsp;generally&nbsp;assumed&nbsp;that&nbsp;a&nbsp;willing&nbsp;target&nbsp;has&nbsp;filled&nbsp;you&nbsp;in&nbsp;on&nbsp;them&nbsp;beforehand).&nbsp;If&nbsp;your&nbsp;target&nbsp;does&nbsp;not&nbsp;actually&nbsp;have&nbsp;the&nbsp;feat&nbsp;you&nbsp;named,&nbsp;then&nbsp;the&nbsp;power&nbsp;fails.
+      <p>This power does not grant you any special knowledge of the target's
+      feats (though it is generally assumed that a willing target has filled you
+      in on them beforehand). If your target does not actually have the feat you
+      named, then the power fails.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of
+      <p><strong>Augment:</strong> You can augment this power in one or more of
 
-      the&nbsp;following&nbsp;ways.
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;may&nbsp;share&nbsp;an&nbsp;additional&nbsp;feat&nbsp;from&nbsp;the&nbsp;same&nbsp;target.&nbsp;These&nbsp;feats&nbsp;can&nbsp;serve&nbsp;as&nbsp;prerequisites&nbsp;for&nbsp;other&nbsp;shared&nbsp;feats.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;power&nbsp;instead&nbsp;removes&nbsp;knowledge&nbsp;of&nbsp;the&nbsp;feat&nbsp;from&nbsp;the&nbsp;target&nbsp;and&nbsp;grants&nbsp;it&nbsp;to&nbsp;you.&nbsp;Targets&nbsp;of&nbsp;the&nbsp;power&nbsp;augmented&nbsp;in&nbsp;this&nbsp;way&nbsp;may&nbsp;attempt&nbsp;a&nbsp;Will&nbsp;saving&nbsp;throw&nbsp;each&nbsp;round&nbsp;to&nbsp;negate&nbsp;the&nbsp;effects&nbsp;of&nbsp;this&nbsp;power.</li></ol>
+      </p><ol><li>For every 2 additional power points you spend, you may share
+      an additional feat from the same target. These feats can serve as
+      prerequisites for other shared feats.</li><li>If you spend 2 additional
+      power points, the power instead removes knowledge of the feat from the
+      target and grants it to you. Targets of the power augmented in this way
+      may attempt a Will saving throw each round to negate the effects of this
+      power.</li></ol>
   descriptors:
     - mind-affecting
     - network

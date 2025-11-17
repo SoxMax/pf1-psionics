@@ -22,9 +22,12 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;have&nbsp;an&nbsp;in-born&nbsp;ability&nbsp;to&nbsp;move&nbsp;things&nbsp;with&nbsp;your&nbsp;mind.</em></p>
+      <p><em>You have an in-born ability to move things with your mind.</em></p>
 
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;gain&nbsp;<em><a&nbsp;href="/wiki/Far_Hand"&nbsp;title="Far&nbsp;Hand">far&nbsp;hand</a></em>&nbsp;as&nbsp;a&nbsp;psi-like&nbsp;ability,&nbsp;usable&nbsp;at&nbsp;will.&nbsp;However,&nbsp;the&nbsp;weight&nbsp;limit&nbsp;of&nbsp;this&nbsp;ability&nbsp;increases&nbsp;by&nbsp;5&nbsp;pound&nbsp;for&nbsp;every&nbsp;hit&nbsp;die&nbsp;you&nbsp;possess.
+      <p><strong>Benefit: </strong>You gain <em><a href="/wiki/Far_Hand"
+      title="Far Hand">far hand</a></em> as a psi-like ability, usable at will.
+      However, the weight limit of this ability increases by 5 pound for every
+      hit die you possess.
 
       </p>
   disabled: false

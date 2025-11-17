@@ -29,15 +29,23 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;see&nbsp;the&nbsp;flow&nbsp;of&nbsp;battle&nbsp;and&nbsp;are&nbsp;able&nbsp;to&nbsp;make&nbsp;a&nbsp;single&nbsp;correction&nbsp;to&nbsp;shift&nbsp;the&nbsp;outcome&nbsp;of&nbsp;events.&nbsp;You&nbsp;force&nbsp;one&nbsp;creature&nbsp;in&nbsp;range&nbsp;to&nbsp;reroll&nbsp;a&nbsp;single&nbsp;check.&nbsp;This&nbsp;could&nbsp;be&nbsp;an&nbsp;attack&nbsp;roll,&nbsp;saving&nbsp;throw,&nbsp;opposed&nbsp;check,&nbsp;skill&nbsp;check,&nbsp;or&nbsp;any&nbsp;other&nbsp;d20&nbsp;roll.&nbsp;The&nbsp;creature&nbsp;must&nbsp;take&nbsp;the&nbsp;result&nbsp;of&nbsp;the&nbsp;second&nbsp;roll.&nbsp;You&nbsp;can&nbsp;choose&nbsp;to&nbsp;use&nbsp;this&nbsp;power&nbsp;after&nbsp;the&nbsp;result&nbsp;of&nbsp;a&nbsp;roll&nbsp;has&nbsp;already&nbsp;been&nbsp;determined&nbsp;-&nbsp;such&nbsp;as&nbsp;to&nbsp;force&nbsp;an&nbsp;enemy&nbsp;who&nbsp;has&nbsp;hit&nbsp;an&nbsp;ally&nbsp;to&nbsp;reroll,&nbsp;or&nbsp;to&nbsp;allow&nbsp;an&nbsp;ally&nbsp;to&nbsp;reroll&nbsp;a&nbsp;failed&nbsp;saving&nbsp;throw.
+      <p>You see the flow of battle and are able to make a single correction to
+      shift the outcome of events. You force one creature in range to reroll a
+      single check. This could be an attack roll, saving throw, opposed check,
+      skill check, or any other d20 roll. The creature must take the result of
+      the second roll. You can choose to use this power after the result of a
+      roll has already been determined - such as to force an enemy who has hit
+      an ally to reroll, or to allow an ally to reroll a failed saving throw.
 
       </p>
 
-      <p>If&nbsp;you&nbsp;target&nbsp;an&nbsp;enemy&nbsp;who&nbsp;makes&nbsp;a&nbsp;successful&nbsp;Will&nbsp;save,&nbsp;their&nbsp;action&nbsp;is&nbsp;not&nbsp;altered,&nbsp;but&nbsp;they&nbsp;are&nbsp;instead&nbsp;staggered&nbsp;for&nbsp;one&nbsp;round.
+      <p>If you target an enemy who makes a successful Will save, their action
+      is not altered, but they are instead staggered for one round.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;two&nbsp;additional&nbsp;power&nbsp;points&nbsp;spent,&nbsp;the&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+      <p><strong>Augment:</strong> For every two additional power points spent,
+      the power's save DC increases by 1.
 
       </p>
   discipline: clairsentience

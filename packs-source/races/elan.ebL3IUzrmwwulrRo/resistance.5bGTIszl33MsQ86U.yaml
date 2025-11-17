@@ -63,7 +63,10 @@ system:
     umd: false
   description:
     value: >-
-      <p>Elans&nbsp;can&nbsp;use&nbsp;psionic&nbsp;energy&nbsp;to&nbsp;increase&nbsp;their&nbsp;resistance&nbsp;to&nbsp;various&nbsp;forms&nbsp;of&nbsp;attack.&nbsp;As&nbsp;an&nbsp;immediate&nbsp;action,&nbsp;an&nbsp;elan&nbsp;can&nbsp;spend&nbsp;1&nbsp;power&nbsp;point&nbsp;to&nbsp;gain&nbsp;a&nbsp;+4&nbsp;racial&nbsp;bonus&nbsp;on&nbsp;saving&nbsp;throws&nbsp;until&nbsp;the&nbsp;beginning&nbsp;of&nbsp;her&nbsp;next&nbsp;action.</li></p>
+      <p>Elans can use psionic energy to increase their resistance to various
+      forms of attack. As an immediate action, an elan can spend 1 power point
+      to gain a +4 racial bonus on saving throws until the beginning of her next
+      action.</li></p>
   disabled: false
   inherited: false
   showInCombat: false

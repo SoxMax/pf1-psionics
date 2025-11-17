@@ -30,13 +30,27 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;force&nbsp;a&nbsp;target&nbsp;to&nbsp;share&nbsp;in&nbsp;the&nbsp;pain&nbsp;felt&nbsp;by&nbsp;nearby&nbsp;spirits.&nbsp;While&nbsp;the&nbsp;duration&nbsp;lasts,&nbsp;the&nbsp;target&nbsp;takes&nbsp;all&nbsp;damage&nbsp;and&nbsp;heals&nbsp;all&nbsp;wounds&nbsp;that&nbsp;any&nbsp;incorporeal&nbsp;or&nbsp;ethereal&nbsp;creature&nbsp;within&nbsp;30&nbsp;feet&nbsp;of&nbsp;them&nbsp;takes.&nbsp;The&nbsp;target&nbsp;is&nbsp;also&nbsp;subject&nbsp;to&nbsp;magical&nbsp;and&nbsp;psionic&nbsp;effects&nbsp;of&nbsp;3rd&nbsp;level&nbsp;or&nbsp;lower&nbsp;that&nbsp;target&nbsp;or&nbsp;effect&nbsp;any&nbsp;incorporeal&nbsp;or&nbsp;ethereal&nbsp;creature&nbsp;within&nbsp;30&nbsp;feet&nbsp;of&nbsp;them.&nbsp;If&nbsp;the&nbsp;effect&nbsp;offers&nbsp;a&nbsp;saving&nbsp;throw,&nbsp;the&nbsp;target&nbsp;gains&nbsp;one&nbsp;as&nbsp;well.
+      <p>You force a target to share in the pain felt by nearby spirits. While
+      the duration lasts, the target takes all damage and heals all wounds that
+      any incorporeal or ethereal creature within 30 feet of them takes. The
+      target is also subject to magical and psionic effects of 3rd level or
+      lower that target or effect any incorporeal or ethereal creature within 30
+      feet of them. If the effect offers a saving throw, the target gains one as
+      well.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You may augment this power in one of the
+      following ways.
 
-      </p><ol><li>You&nbsp;may&nbsp;spend&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;to&nbsp;have&nbsp;this&nbsp;power&nbsp;affect&nbsp;one&nbsp;additional&nbsp;target&nbsp;and&nbsp;have&nbsp;its&nbsp;DC&nbsp;increased&nbsp;by&nbsp;1.</li><li>For&nbsp;every&nbsp;additional&nbsp;4&nbsp;power&nbsp;points&nbsp;spent,&nbsp;the&nbsp;maximum&nbsp;level&nbsp;of&nbsp;effects&nbsp;that&nbsp;are&nbsp;shared&nbsp;between&nbsp;the&nbsp;target&nbsp;and&nbsp;nearby&nbsp;incorporeal&nbsp;or&nbsp;ethereal&nbsp;creatures&nbsp;is&nbsp;increased&nbsp;by&nbsp;1.&nbsp;For&nbsp;example,&nbsp;if&nbsp;you&nbsp;augment&nbsp;this&nbsp;power&nbsp;twice&nbsp;in&nbsp;this&nbsp;way,&nbsp;the&nbsp;target&nbsp;will&nbsp;be&nbsp;subject&nbsp;to&nbsp;magical&nbsp;or&nbsp;psionic&nbsp;effects&nbsp;of&nbsp;5th&nbsp;level&nbsp;or&nbsp;lower&nbsp;that&nbsp;target&nbsp;or&nbsp;effect&nbsp;any&nbsp;incorporeal&nbsp;of&nbsp;ethereal&nbsp;creatures&nbsp;within&nbsp;30&nbsp;feet&nbsp;instead&nbsp;of&nbsp;3rd&nbsp;or&nbsp;lower.</li></ol>
+      </p><ol><li>You may spend an additional 2 power points to have this power
+      affect one additional target and have its DC increased by 1.</li><li>For
+      every additional 4 power points spent, the maximum level of effects that
+      are shared between the target and nearby incorporeal or ethereal creatures
+      is increased by 1. For example, if you augment this power twice in this
+      way, the target will be subject to magical or psionic effects of 5th level
+      or lower that target or effect any incorporeal of ethereal creatures
+      within 30 feet instead of 3rd or lower.</li></ol>
   discipline: athanatism
   display:
     auditory: true

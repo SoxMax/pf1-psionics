@@ -27,11 +27,15 @@ system:
         value: Two creatures within melee range
   description:
     value: >-
-      <p>As&nbsp;part&nbsp;of&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;make&nbsp;a&nbsp;single&nbsp;melee&nbsp;attack&nbsp;against&nbsp;two&nbsp;enemies&nbsp;within&nbsp;reach.&nbsp;Each&nbsp;hit&nbsp;deals&nbsp;damage&nbsp;normally.&nbsp;If&nbsp;both&nbsp;attacks&nbsp;are&nbsp;successful,&nbsp;the&nbsp;targets&nbsp;are&nbsp;empathically&nbsp;bound&nbsp;together.&nbsp;Until&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;next&nbsp;turn,&nbsp;all&nbsp;hit&nbsp;point&nbsp;damage&nbsp;applied&nbsp;to&nbsp;one&nbsp;target&nbsp;is&nbsp;automatically&nbsp;applied&nbsp;to&nbsp;the&nbsp;other&nbsp;target.
+      <p>As part of manifesting this power, make a single melee attack against
+      two enemies within reach. Each hit deals damage normally. If both attacks
+      are successful, the targets are empathically bound together. Until the end
+      of your next turn, all hit point damage applied to one target is
+      automatically applied to the other target.
 
       </p>
 
-      <p>Manifesting&nbsp;this&nbsp;power&nbsp;does&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity.
+      <p>Manifesting this power does not provoke attacks of opportunity.
 
       </p>
   descriptors:

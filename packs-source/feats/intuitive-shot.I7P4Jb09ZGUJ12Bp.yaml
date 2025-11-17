@@ -22,11 +22,19 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;intuition&nbsp;allows&nbsp;you&nbsp;to&nbsp;make&nbsp;deadly&nbsp;ranged&nbsp;attacks.</em></p>
+      <p><em>Your intuition allows you to make deadly ranged attacks.</em></p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Wis&nbsp;13,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank&nbsp;Shot</a>,&nbsp;<a&nbsp;href="/wiki/Psionic_Shot"&nbsp;title="Psionic&nbsp;Shot">Psionic&nbsp;Shot</a></p>
+      <p><strong>Prerequisites:</strong> Wis 13, <a rel="nofollow"
+      class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank
+      Shot</a>, <a href="/wiki/Psionic_Shot" title="Psionic Shot">Psionic
+      Shot</a></p>
 
-      <p><strong>Benefit:&nbsp;</strong>As&nbsp;long&nbsp;as&nbsp;you&nbsp;maintain&nbsp;psionic&nbsp;focus,&nbsp;as&nbsp;a&nbsp;standard&nbsp;action,&nbsp;you&nbsp;may&nbsp;make&nbsp;an&nbsp;attack&nbsp;with&nbsp;a&nbsp;ranged&nbsp;or&nbsp;thrown&nbsp;weapon&nbsp;and&nbsp;add&nbsp;your&nbsp;Wisdom&nbsp;modifier&nbsp;to&nbsp;the&nbsp;damage&nbsp;roll.&nbsp;You&nbsp;must&nbsp;be&nbsp;within&nbsp;30&nbsp;feet&nbsp;of&nbsp;your&nbsp;target&nbsp;to&nbsp;deal&nbsp;this&nbsp;extra&nbsp;damage.&nbsp;Creatures&nbsp;immune&nbsp;to&nbsp;critical&nbsp;hits&nbsp;and&nbsp;sneak&nbsp;attacks&nbsp;are&nbsp;immune&nbsp;to&nbsp;this&nbsp;extra&nbsp;damage.
+      <p><strong>Benefit: </strong>As long as you maintain psionic focus, as a
+      standard action, you may make an attack with a ranged or thrown weapon and
+      add your Wisdom modifier to the damage roll. You must be within 30 feet of
+      your target to deal this extra damage. Creatures immune to critical hits
+      and sneak attacks are immune to this extra damage.
 
       </p>
   disabled: false

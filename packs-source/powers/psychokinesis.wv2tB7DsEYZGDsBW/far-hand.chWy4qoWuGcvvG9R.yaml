@@ -28,15 +28,22 @@ system:
         value: A nonmagical, unattended object weighing up to 5 lb.
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;mentally&nbsp;lift&nbsp;and&nbsp;move&nbsp;an&nbsp;object&nbsp;at&nbsp;will&nbsp;from&nbsp;a&nbsp;distance.&nbsp;As&nbsp;a&nbsp;move&nbsp;action,&nbsp;you&nbsp;can&nbsp;propel&nbsp;the&nbsp;object&nbsp;as&nbsp;far&nbsp;as&nbsp;15&nbsp;feet&nbsp;in&nbsp;any&nbsp;direction,&nbsp;though&nbsp;the&nbsp;power&nbsp;ends&nbsp;if&nbsp;the&nbsp;distance&nbsp;between&nbsp;you&nbsp;and&nbsp;the&nbsp;object&nbsp;exceeds&nbsp;the&nbsp;power's&nbsp;range.
+      <p>You can mentally lift and move an object at will from a distance. As a
+      move action, you can propel the object as far as 15 feet in any direction,
+      though the power ends if the distance between you and the object exceeds
+      the power's range.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or both of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;range&nbsp;increases&nbsp;by&nbsp;5&nbsp;feet.</li><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;the&nbsp;weight&nbsp;limit&nbsp;of&nbsp;the&nbsp;target&nbsp;increases&nbsp;by&nbsp;2&nbsp;pounds.</li></ol>
+      </p><ol><li>For every 2 additional power points you spend, this power's
+      range increases by 5 feet.</li><li>For every additional power point you
+      spend, the weight limit of the target increases by 2 pounds.</li></ol>
 
-      <p><em>Librarian&nbsp;Note</em>:&nbsp;The&nbsp;Psionics&nbsp;Unleashed&nbsp;version&nbsp;lists&nbsp;this&nbsp;power&nbsp;as&nbsp;a&nbsp;1st-level&nbsp;psion/wilder&nbsp;power.&nbsp;Otherwise,&nbsp;it&nbsp;is&nbsp;identical.
+      <p><em>Librarian Note</em>: The Psionics Unleashed version lists this
+      power as a 1st-level psion/wilder power. Otherwise, it is identical.
 
       </p>
   discipline: psychokinesis

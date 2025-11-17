@@ -22,13 +22,24 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;have&nbsp;learned&nbsp;how&nbsp;to&nbsp;overwhelm&nbsp;your&nbsp;enemies&nbsp;with&nbsp;a&nbsp;burst&nbsp;of&nbsp;energy&nbsp;just&nbsp;before&nbsp;your&nbsp;strike&nbsp;hits,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;gain&nbsp;that&nbsp;final&nbsp;edge&nbsp;needed&nbsp;to&nbsp;strike&nbsp;a&nbsp;telling&nbsp;blow.</em></p>
+      <p><em>You have learned how to overwhelm your enemies with a burst of
+      energy just before your strike hits, allowing you to gain that final edge
+      needed to strike a telling blow.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Psicrystal_Affinity"&nbsp;title="Psicrystal&nbsp;Affinity">Psicrystal&nbsp;Affinity</a>,&nbsp;<a&nbsp;href="/wiki/Psionic_Weapon"&nbsp;title="Psionic&nbsp;Weapon">Psionic&nbsp;Weapon</a>,&nbsp;sneak&nbsp;attack&nbsp;+2d6,&nbsp;<a&nbsp;href="/wiki/Superior_Psicrystal"&nbsp;title="Superior&nbsp;Psicrystal">Superior&nbsp;Psicrystal</a>&nbsp;(<a&nbsp;href="/wiki/Psicrystal_Weapon"&nbsp;title="Psicrystal&nbsp;Weapon">Psicrystal&nbsp;Weapon</a>&nbsp;variant).
+      <p><strong>Prerequisites:</strong><a href="/wiki/Psicrystal_Affinity"
+      title="Psicrystal Affinity">Psicrystal Affinity</a>, <a
+      href="/wiki/Psionic_Weapon" title="Psionic Weapon">Psionic Weapon</a>,
+      sneak attack +2d6, <a href="/wiki/Superior_Psicrystal" title="Superior
+      Psicrystal">Superior Psicrystal</a> (<a href="/wiki/Psicrystal_Weapon"
+      title="Psicrystal Weapon">Psicrystal Weapon</a> variant).
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of&nbsp;your&nbsp;Psionic&nbsp;Weapon&nbsp;feat&nbsp;with&nbsp;a&nbsp;psicrystal&nbsp;weapon,&nbsp;you&nbsp;can&nbsp;add&nbsp;your&nbsp;sneak&nbsp;attack&nbsp;damage&nbsp;to&nbsp;the&nbsp;regular&nbsp;+2d6&nbsp;damage&nbsp;this&nbsp;feat&nbsp;provides,&nbsp;even&nbsp;if&nbsp;the&nbsp;creature&nbsp;isn’t&nbsp;denied&nbsp;its&nbsp;Dexterity&nbsp;bonus.&nbsp;This&nbsp;extra&nbsp;damage&nbsp;does&nbsp;not&nbsp;affect&nbsp;a&nbsp;creature&nbsp;immune&nbsp;to&nbsp;sneak&nbsp;attacks.
+      <p><strong>Benefit: </strong>When you expend your psionic focus for the
+      purpose of your Psionic Weapon feat with a psicrystal weapon, you can add
+      your sneak attack damage to the regular +2d6 damage this feat provides,
+      even if the creature isn’t denied its Dexterity bonus. This extra damage
+      does not affect a creature immune to sneak attacks.
 
       </p>
   disabled: false

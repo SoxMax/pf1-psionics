@@ -29,11 +29,21 @@ system:
         value: One creature touched
   description:
     value: >-
-      <p>You&nbsp;form&nbsp;a&nbsp;connection&nbsp;with&nbsp;the&nbsp;target's&nbsp;soul,&nbsp;seeing&nbsp;their&nbsp;surroundings&nbsp;at&nbsp;the&nbsp;moment&nbsp;of&nbsp;their&nbsp;death.&nbsp;If&nbsp;the&nbsp;target&nbsp;dies&nbsp;while&nbsp;this&nbsp;power&nbsp;is&nbsp;active,&nbsp;you&nbsp;immediately&nbsp;know&nbsp;it,&nbsp;and&nbsp;can&nbsp;see&nbsp;the&nbsp;events&nbsp;of&nbsp;the&nbsp;previous&nbsp;round&nbsp;in&nbsp;its&nbsp;immediate&nbsp;area,&nbsp;including&nbsp;who&nbsp;and&nbsp;what&nbsp;killed&nbsp;it.&nbsp;This&nbsp;is&nbsp;treated&nbsp;as&nbsp;a&nbsp;scrying&nbsp;sensor,&nbsp;so&nbsp;you&nbsp;can&nbsp;still&nbsp;be&nbsp;fooled&nbsp;by&nbsp;disguises,&nbsp;invisibility,&nbsp;stealth,&nbsp;or&nbsp;other&nbsp;similar&nbsp;effects.&nbsp;In&nbsp;addition,&nbsp;in&nbsp;the&nbsp;round&nbsp;immediately&nbsp;following&nbsp;the&nbsp;target's&nbsp;death,&nbsp;you&nbsp;may&nbsp;manifest&nbsp;any&nbsp;single&nbsp;athanatism&nbsp;power&nbsp;that&nbsp;requires&nbsp;a&nbsp;newly&nbsp;dead&nbsp;body&nbsp;or&nbsp;spirit,&nbsp;targeting&nbsp;them&nbsp;regardless&nbsp;of&nbsp;distance&nbsp;or&nbsp;line&nbsp;of&nbsp;effect.
+      <p>You form a connection with the target's soul, seeing their surroundings
+      at the moment of their death. If the target dies while this power is
+      active, you immediately know it, and can see the events of the previous
+      round in its immediate area, including who and what killed it. This is
+      treated as a scrying sensor, so you can still be fooled by disguises,
+      invisibility, stealth, or other similar effects. In addition, in the round
+      immediately following the target's death, you may manifest any single
+      athanatism power that requires a newly dead body or spirit, targeting them
+      regardless of distance or line of effect.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;place&nbsp;a&nbsp;sensor&nbsp;identical&nbsp;to&nbsp;the&nbsp;one&nbsp;created&nbsp;by&nbsp;clairvoyant&nbsp;sense&nbsp;at&nbsp;the&nbsp;location&nbsp;where&nbsp;the&nbsp;target&nbsp;died.&nbsp;This&nbsp;sensor&nbsp;lasts&nbsp;for&nbsp;1&nbsp;minute/level.
+      <p><strong>Augment:</strong> By spending an additional 4 power points, you
+      may place a sensor identical to the one created by clairvoyant sense at
+      the location where the target died. This sensor lasts for 1 minute/level.
 
       </p>
   discipline: athanatism

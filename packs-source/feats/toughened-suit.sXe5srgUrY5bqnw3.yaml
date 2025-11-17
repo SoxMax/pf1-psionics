@@ -21,29 +21,18 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>When&nbsp;you&nbsp;call&nbsp;your&nbsp;astral&nbsp;suit,&nbsp;you&nbsp;strengthen&nbsp;it&nbsp;with
-
-      a&nbsp;boost&nbsp;of&nbsp;energy.
-
+    value: |-
+      <p>When you call your astral suit, you strengthen it with
+      a boost of energy.
       </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Astral&nbsp;suit&nbsp;class&nbsp;feature.
-
+      <p><strong>Prerequisites: </strong>Astral suit class feature.
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>Any&nbsp;time&nbsp;you&nbsp;form&nbsp;your&nbsp;astral&nbsp;suit,&nbsp;you&nbsp;can
-
-      choose&nbsp;to&nbsp;pay&nbsp;1&nbsp;power&nbsp;point&nbsp;as&nbsp;part&nbsp;of&nbsp;the&nbsp;action&nbsp;to&nbsp;form
-
-      the&nbsp;astral&nbsp;suit&nbsp;to&nbsp;gain&nbsp;1&nbsp;temporary&nbsp;hit&nbsp;point&nbsp;per&nbsp;aegis
-
-      level&nbsp;you&nbsp;possess.&nbsp;These&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;last&nbsp;until
-
-      your&nbsp;astral&nbsp;suit&nbsp;is&nbsp;dismissed,&nbsp;destroyed,&nbsp;or&nbsp;otherwise
-
+      <p><strong>Benefit: </strong>Any time you form your astral suit, you can
+      choose to pay 1 power point as part of the action to form
+      the astral suit to gain 1 temporary hit point per aegis
+      level you possess. These temporary hit points last until
+      your astral suit is dismissed, destroyed, or otherwise
       ends.
-
       </p>
   disabled: false
   featType: feat

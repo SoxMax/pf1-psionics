@@ -32,11 +32,20 @@ system:
           each other at the time of manifestation
   description:
     value: >-
-      <p>You&nbsp;psionically&nbsp;make&nbsp;a&nbsp;weapon&nbsp;keen,&nbsp;improving&nbsp;its&nbsp;ability&nbsp;to&nbsp;deal&nbsp;telling&nbsp;blows.&nbsp;This&nbsp;doubles&nbsp;the&nbsp;threat&nbsp;range&nbsp;of&nbsp;the&nbsp;weapon.&nbsp;A&nbsp;threat&nbsp;range&nbsp;of&nbsp;20&nbsp;becomes&nbsp;19–20,&nbsp;a&nbsp;threat&nbsp;range&nbsp;of&nbsp;19–20&nbsp;becomes&nbsp;17–20,&nbsp;and&nbsp;a&nbsp;threat&nbsp;range&nbsp;of&nbsp;18–&nbsp;20&nbsp;becomes&nbsp;15–20.&nbsp;The&nbsp;power&nbsp;can&nbsp;be&nbsp;manifested&nbsp;only&nbsp;on&nbsp;piercing&nbsp;or&nbsp;slashing&nbsp;weapons.&nbsp;If&nbsp;used&nbsp;on&nbsp;arrows&nbsp;or&nbsp;crossbow&nbsp;bolts,&nbsp;the&nbsp;effect&nbsp;on&nbsp;a&nbsp;particular&nbsp;projectile&nbsp;ends&nbsp;after&nbsp;one&nbsp;use,&nbsp;whether&nbsp;or&nbsp;not&nbsp;the&nbsp;missile&nbsp;strikes&nbsp;its&nbsp;intended&nbsp;target.&nbsp;Treat&nbsp;shuriken&nbsp;as&nbsp;arrows,&nbsp;rather&nbsp;than&nbsp;as&nbsp;thrown&nbsp;weapons,&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of&nbsp;this&nbsp;power.
+      <p>You psionically make a weapon keen, improving its ability to deal
+      telling blows. This doubles the threat range of the weapon. A threat range
+      of 20 becomes 19–20, a threat range of 19–20 becomes 17–20, and a threat
+      range of 18– 20 becomes 15–20. The power can be manifested only on
+      piercing or slashing weapons. If used on arrows or crossbow bolts, the
+      effect on a particular projectile ends after one use, whether or not the
+      missile strikes its intended target. Treat shuriken as arrows, rather than
+      as thrown weapons, for the purpose of this power.
 
       </p>
 
-      <p>Multiple&nbsp;effects&nbsp;that&nbsp;increase&nbsp;a&nbsp;weapon's&nbsp;threat&nbsp;range&nbsp;(such&nbsp;as&nbsp;the&nbsp;keen&nbsp;special&nbsp;weapon&nbsp;property&nbsp;and&nbsp;the&nbsp;Improved&nbsp;Critical&nbsp;feat)&nbsp;don't&nbsp;stack.&nbsp;You&nbsp;can't&nbsp;manifest&nbsp;this&nbsp;power&nbsp;on&nbsp;a&nbsp;natural&nbsp;weapon,&nbsp;such&nbsp;as&nbsp;a&nbsp;claw.
+      <p>Multiple effects that increase a weapon's threat range (such as the
+      keen special weapon property and the Improved Critical feat) don't stack.
+      You can't manifest this power on a natural weapon, such as a claw.
 
       </p>
   discipline: metacreativity

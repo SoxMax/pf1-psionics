@@ -22,13 +22,17 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;twinned&nbsp;powers&nbsp;are&nbsp;twice&nbsp;as&nbsp;likely&nbsp;to&nbsp;affect&nbsp;the&nbsp;target.</em></p>
+      <p><em>Your twinned powers are twice as likely to affect the
+      target.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Twin_Power"&nbsp;title="Twin&nbsp;Power">Twin&nbsp;Power</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Twin_Power" title="Twin
+      Power">Twin Power</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;saving&nbsp;against&nbsp;a&nbsp;twinned&nbsp;power,&nbsp;the&nbsp;targets&nbsp;must&nbsp;make&nbsp;both&nbsp;saves&nbsp;or&nbsp;be&nbsp;affected&nbsp;by&nbsp;both&nbsp;powers&nbsp;as&nbsp;if&nbsp;both&nbsp;saves&nbsp;were&nbsp;failed.
+      <p><strong>Benefit: </strong>When saving against a twinned power, the
+      targets must make both saves or be affected by both powers as if both
+      saves were failed.
 
       </p>
   disabled: false

@@ -27,11 +27,19 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;move&nbsp;and&nbsp;attack&nbsp;normally&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;power,&nbsp;even&nbsp;under&nbsp;the&nbsp;influence&nbsp;of&nbsp;effects&nbsp;that&nbsp;usually&nbsp;impedes&nbsp;movement,&nbsp;such&nbsp;as&nbsp;paralysis,&nbsp;solid&nbsp;fog,&nbsp;slow,&nbsp;and&nbsp;web.&nbsp;All&nbsp;combat&nbsp;maneuver&nbsp;checks&nbsp;made&nbsp;to&nbsp;grapple&nbsp;you&nbsp;automatically&nbsp;fail.&nbsp;You&nbsp;automatically&nbsp;succeed&nbsp;on&nbsp;any&nbsp;combat&nbsp;maneuver&nbsp;checks&nbsp;and&nbsp;Escape&nbsp;Artist&nbsp;checks&nbsp;made&nbsp;to&nbsp;escape&nbsp;a&nbsp;grapple&nbsp;or&nbsp;a&nbsp;pin.
+      <p>You can move and attack normally for the duration of the power, even
+      under the influence of effects that usually impedes movement, such as
+      paralysis, solid fog, slow, and web. All combat maneuver checks made to
+      grapple you automatically fail. You automatically succeed on any combat
+      maneuver checks and Escape Artist checks made to escape a grapple or a
+      pin.
 
       </p>
 
-      <p>You&nbsp;can&nbsp;also&nbsp;move&nbsp;and&nbsp;attack&nbsp;normally&nbsp;while&nbsp;underwater,&nbsp;even&nbsp;with&nbsp;slashing&nbsp;weapons&nbsp;such&nbsp;as&nbsp;axes&nbsp;and&nbsp;swords&nbsp;or&nbsp;with&nbsp;bludgeoning&nbsp;weapons&nbsp;such&nbsp;as&nbsp;flails,&nbsp;hammers,&nbsp;and&nbsp;maces,&nbsp;provided&nbsp;that&nbsp;the&nbsp;weapon&nbsp;is&nbsp;wielded&nbsp;in&nbsp;the&nbsp;hand&nbsp;rather&nbsp;than&nbsp;hurled.&nbsp;This&nbsp;does&nbsp;not,&nbsp;however,&nbsp;grant&nbsp;water&nbsp;breathing.
+      <p>You can also move and attack normally while underwater, even with
+      slashing weapons such as axes and swords or with bludgeoning weapons such
+      as flails, hammers, and maces, provided that the weapon is wielded in the
+      hand rather than hurled. This does not, however, grant water breathing.
 
       </p>
   discipline: psychoportation

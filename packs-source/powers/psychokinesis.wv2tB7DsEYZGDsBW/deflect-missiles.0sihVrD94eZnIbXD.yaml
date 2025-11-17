@@ -28,13 +28,21 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;surround&nbsp;yourself&nbsp;in&nbsp;a&nbsp;field&nbsp;that&nbsp;slows&nbsp;ranged&nbsp;attacks.&nbsp;You&nbsp;gain&nbsp;damage&nbsp;reduction&nbsp;10/magic&nbsp;against&nbsp;ranged&nbsp;or&nbsp;thrown&nbsp;weapons.&nbsp;This&nbsp;effect&nbsp;ends&nbsp;once&nbsp;it&nbsp;has&nbsp;blocked&nbsp;10&nbsp;points&nbsp;of&nbsp;damage.&nbsp;You&nbsp;do&nbsp;not&nbsp;gain&nbsp;the&nbsp;ability&nbsp;to&nbsp;damage&nbsp;creatures&nbsp;with&nbsp;similar&nbsp;damage&nbsp;reduction.&nbsp;This&nbsp;ability&nbsp;does&nbsp;not&nbsp;work&nbsp;on&nbsp;weapon-like&nbsp;spells&nbsp;or&nbsp;powers.
+      <p>You surround yourself in a field that slows ranged attacks. You gain
+      damage reduction 10/magic against ranged or thrown weapons. This effect
+      ends once it has blocked 10 points of damage. You do not gain the ability
+      to damage creatures with similar damage reduction. This ability does not
+      work on weapon-like spells or powers.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power may be augmented in the following
+      ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;spent,&nbsp;the&nbsp;power&nbsp;can&nbsp;block&nbsp;an&nbsp;additional&nbsp;10&nbsp;points&nbsp;of&nbsp;damage&nbsp;before&nbsp;it&nbsp;ends.</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;manifest&nbsp;this&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action.</li></ol>
+      </p><ol><li>For every additional power point spent, the power can block an
+      additional 10 points of damage before it ends.</li><li>If you spend 6
+      additional power points, you may manifest this power as a swift
+      action.</li></ol>
   descriptors:
     - force
   discipline: psychokinesis

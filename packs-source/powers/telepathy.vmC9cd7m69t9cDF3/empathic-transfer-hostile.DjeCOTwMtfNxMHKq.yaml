@@ -32,21 +32,38 @@ system:
         value: Creature touched
   description:
     value: >-
-      <p>You&nbsp;transfer&nbsp;your&nbsp;hurt&nbsp;to&nbsp;another.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power&nbsp;and&nbsp;then&nbsp;make&nbsp;a&nbsp;successful&nbsp;touch&nbsp;attack,&nbsp;you&nbsp;can&nbsp;transfer&nbsp;50&nbsp;points&nbsp;of&nbsp;damage&nbsp;(or&nbsp;less,&nbsp;if&nbsp;you&nbsp;choose)&nbsp;from&nbsp;yourself&nbsp;to&nbsp;the&nbsp;touched&nbsp;creature.&nbsp;The&nbsp;damage&nbsp;you&nbsp;transfer&nbsp;may&nbsp;not&nbsp;exceed&nbsp;the&nbsp;damage&nbsp;you&nbsp;currently&nbsp;have.&nbsp;You&nbsp;immediately&nbsp;regain&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;the&nbsp;amount&nbsp;of&nbsp;damage&nbsp;you&nbsp;transfer.
+      <p>You transfer your hurt to another. When you manifest this power and
+      then make a successful touch attack, you can transfer 50 points of damage
+      (or less, if you choose) from yourself to the touched creature. The damage
+      you transfer may not exceed the damage you currently have. You immediately
+      regain hit points equal to the amount of damage you transfer.
 
       </p>
 
-      <p>You&nbsp;cannot&nbsp;use&nbsp;this&nbsp;power&nbsp;to&nbsp;gain&nbsp;hit&nbsp;points&nbsp;in&nbsp;excess&nbsp;of&nbsp;your&nbsp;full&nbsp;normal&nbsp;total.&nbsp;The&nbsp;transferred&nbsp;damage&nbsp;is&nbsp;empathic&nbsp;in&nbsp;nature,&nbsp;so&nbsp;powers&nbsp;and&nbsp;abilities&nbsp;the&nbsp;subject&nbsp;may&nbsp;have&nbsp;such&nbsp;as&nbsp;damage&nbsp;reduction&nbsp;and&nbsp;regeneration&nbsp;do&nbsp;not&nbsp;lessen&nbsp;or&nbsp;change&nbsp;this&nbsp;damage.
+      <p>You cannot use this power to gain hit points in excess of your full
+      normal total. The transferred damage is empathic in nature, so powers and
+      abilities the subject may have such as damage reduction and regeneration
+      do not lessen or change this damage.
 
       </p>
 
-      <p>The&nbsp;damage&nbsp;transferred&nbsp;by&nbsp;this&nbsp;power&nbsp;has&nbsp;no&nbsp;type,&nbsp;so&nbsp;even&nbsp;if&nbsp;the&nbsp;subject&nbsp;has&nbsp;immunity&nbsp;to&nbsp;the&nbsp;type&nbsp;of&nbsp;damage&nbsp;you&nbsp;originally&nbsp;took,&nbsp;the&nbsp;transfer&nbsp;occurs&nbsp;normally&nbsp;and&nbsp;deals&nbsp;hit&nbsp;point&nbsp;damage&nbsp;to&nbsp;the&nbsp;subject.
+      <p>The damage transferred by this power has no type, so even if the
+      subject has immunity to the type of damage you originally took, the
+      transfer occurs normally and deals hit point damage to the subject.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or both of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;transfer&nbsp;an&nbsp;additional&nbsp;5&nbsp;points&nbsp;of&nbsp;damage&nbsp;(maximum&nbsp;70&nbsp;points&nbsp;per&nbsp;manifestation),&nbsp;although&nbsp;you&nbsp;must&nbsp;still&nbsp;have&nbsp;that&nbsp;amount&nbsp;of&nbsp;actual&nbsp;damage&nbsp;to&nbsp;transfer.</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;affects&nbsp;all&nbsp;creatures&nbsp;in&nbsp;a&nbsp;20-foot-radius&nbsp;spread&nbsp;centered&nbsp;on&nbsp;you,&nbsp;transferring&nbsp;the&nbsp;full&nbsp;amount&nbsp;of&nbsp;damage&nbsp;to&nbsp;each&nbsp;creature,&nbsp;although&nbsp;no&nbsp;matter&nbsp;how&nbsp;many&nbsp;targets&nbsp;you&nbsp;affect,&nbsp;you&nbsp;only&nbsp;heal&nbsp;the&nbsp;highest&nbsp;amount&nbsp;transferred&nbsp;to&nbsp;any&nbsp;one&nbsp;target.</li></ol>
+      </p><ol><li>For every additional power point you spend, you can transfer
+      an additional 5 points of damage (maximum 70 points per manifestation),
+      although you must still have that amount of actual damage to
+      transfer.</li><li>If you spend 6 additional power points, this power
+      affects all creatures in a 20-foot-radius spread centered on you,
+      transferring the full amount of damage to each creature, although no
+      matter how many targets you affect, you only heal the highest amount
+      transferred to any one target.</li></ol>
   descriptors:
     - mind-affecting
   discipline: telepathy

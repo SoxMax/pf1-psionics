@@ -29,15 +29,29 @@ system:
         value: One creature, object, or location; see text
   description:
     value: >-
-      <p>You&nbsp;generate&nbsp;an&nbsp;increased&nbsp;gravity&nbsp;field&nbsp;at&nbsp;a&nbsp;single&nbsp;point&nbsp;within&nbsp;range,&nbsp;pulling&nbsp;creatures&nbsp;and&nbsp;objects&nbsp;downward.&nbsp;The&nbsp;targeted&nbsp;point&nbsp;can&nbsp;be&nbsp;a&nbsp;creature&nbsp;or&nbsp;unattended&nbsp;object,&nbsp;but&nbsp;if&nbsp;so,&nbsp;the&nbsp;target&nbsp;is&nbsp;allowed&nbsp;a&nbsp;Reflex&nbsp;save&nbsp;to&nbsp;negate&nbsp;the&nbsp;effect.
+      <p>You generate an increased gravity field at a single point within range,
+      pulling creatures and objects downward. The targeted point can be a
+      creature or unattended object, but if so, the target is allowed a Reflex
+      save to negate the effect.
 
       </p>
 
-      <p>Each&nbsp;creature&nbsp;moving&nbsp;or&nbsp;attacking&nbsp;within&nbsp;the&nbsp;affected&nbsp;area&nbsp;must&nbsp;make&nbsp;a&nbsp;Reflex&nbsp;Save&nbsp;each&nbsp;round&nbsp;or&nbsp;be&nbsp;affected&nbsp;by&nbsp;the&nbsp;effects&nbsp;of&nbsp;the&nbsp;gravity&nbsp;field&nbsp;for&nbsp;that&nbsp;round.&nbsp;The&nbsp;increased&nbsp;gravity&nbsp;field&nbsp;inflicts&nbsp;a&nbsp;-2&nbsp;penalty&nbsp;on&nbsp;all&nbsp;non-ray&nbsp;attack&nbsp;that&nbsp;pass&nbsp;through&nbsp;the&nbsp;affected&nbsp;area&nbsp;(even&nbsp;ranged&nbsp;attacks&nbsp;originated&nbsp;by&nbsp;or&nbsp;targeting&nbsp;creatures&nbsp;outside&nbsp;of&nbsp;the&nbsp;field),&nbsp;and&nbsp;all&nbsp;movement&nbsp;through&nbsp;the&nbsp;affected&nbsp;area&nbsp;counts&nbsp;as&nbsp;difficult&nbsp;terrain.&nbsp;Creatures&nbsp;attempting&nbsp;to&nbsp;fly&nbsp;or&nbsp;levitate&nbsp;in&nbsp;the&nbsp;field&nbsp;are&nbsp;forcibly&nbsp;dragged&nbsp;down&nbsp;20&nbsp;ft.&nbsp;per&nbsp;round&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;their&nbsp;turn.&nbsp;Any&nbsp;creature&nbsp;that&nbsp;falls&nbsp;more&nbsp;than&nbsp;10&nbsp;ft.&nbsp;in&nbsp;the&nbsp;field&nbsp;that&nbsp;strikes&nbsp;the&nbsp;ground&nbsp;takes&nbsp;double&nbsp;damage&nbsp;from&nbsp;the&nbsp;fall.&nbsp;In&nbsp;addition,&nbsp;trip&nbsp;attempts&nbsp;gain&nbsp;a&nbsp;+2&nbsp;circumstance&nbsp;bonus,&nbsp;rather&nbsp;than&nbsp;the&nbsp;-2&nbsp;penalty,&nbsp;against&nbsp;affected&nbsp;targets&nbsp;within&nbsp;the&nbsp;field.
+      <p>Each creature moving or attacking within the affected area must make a
+      Reflex Save each round or be affected by the effects of the gravity field
+      for that round. The increased gravity field inflicts a -2 penalty on all
+      non-ray attack that pass through the affected area (even ranged attacks
+      originated by or targeting creatures outside of the field), and all
+      movement through the affected area counts as difficult terrain. Creatures
+      attempting to fly or levitate in the field are forcibly dragged down 20
+      ft. per round at the end of their turn. Any creature that falls more than
+      10 ft. in the field that strikes the ground takes double damage from the
+      fall. In addition, trip attempts gain a +2 circumstance bonus, rather than
+      the -2 penalty, against affected targets within the field.
 
       </p>
 
-      <p>Creatures&nbsp;benefiting&nbsp;from&nbsp;Stability&nbsp;or&nbsp;Personal&nbsp;Gravity,&nbsp;such&nbsp;as&nbsp;an&nbsp;elocater,&nbsp;gain&nbsp;a&nbsp;+4&nbsp;bonus&nbsp;to&nbsp;their&nbsp;saving&nbsp;throw.
+      <p>Creatures benefiting from Stability or Personal Gravity, such as an
+      elocater, gain a +4 bonus to their saving throw.
 
       </p>
   discipline: psychoportation

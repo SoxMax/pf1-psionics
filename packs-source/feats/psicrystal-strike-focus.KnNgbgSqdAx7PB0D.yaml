@@ -22,15 +22,25 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>When&nbsp;you&nbsp;strike&nbsp;down&nbsp;an&nbsp;enemy&nbsp;your&nbsp;psicrystal&nbsp;weapon&nbsp;can&nbsp;siphon&nbsp;their&nbsp;mental&nbsp;energy&nbsp;to&nbsp;refocus&nbsp;itself&nbsp;without&nbsp;your&nbsp;assistance.</em></p>
+      <p><em>When you strike down an enemy your psicrystal weapon can siphon
+      their mental energy to refocus itself without your assistance.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Psicrystal_Affinity"&nbsp;title="Psicrystal&nbsp;Affinity">Psicrystal&nbsp;Affinity</a>,&nbsp;<a&nbsp;href="/wiki/Psicrystal_Containment"&nbsp;title="Psicrystal&nbsp;Containment">Psicrystal&nbsp;Containment</a>,&nbsp;<a&nbsp;href="/wiki/Superior_Psicrystal"&nbsp;title="Superior&nbsp;Psicrystal">Superior&nbsp;Psicrystal</a>&nbsp;(<a&nbsp;href="/wiki/Psicrystal_Weapon"&nbsp;title="Psicrystal&nbsp;Weapon">Psicrystal&nbsp;Weapon</a>&nbsp;variant),&nbsp;manifester&nbsp;level&nbsp;3rd.
+      <p><strong>Prerequisites:</strong><a href="/wiki/Psicrystal_Affinity"
+      title="Psicrystal Affinity">Psicrystal Affinity</a>, <a
+      href="/wiki/Psicrystal_Containment" title="Psicrystal
+      Containment">Psicrystal Containment</a>, <a
+      href="/wiki/Superior_Psicrystal" title="Superior Psicrystal">Superior
+      Psicrystal</a> (<a href="/wiki/Psicrystal_Weapon" title="Psicrystal
+      Weapon">Psicrystal Weapon</a> variant), manifester level 3rd.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>If&nbsp;you&nbsp;reduce&nbsp;a&nbsp;creature&nbsp;to&nbsp;0&nbsp;or&nbsp;less&nbsp;hit&nbsp;points&nbsp;with&nbsp;your&nbsp;psicrystal&nbsp;weapon,&nbsp;you&nbsp;drain&nbsp;off&nbsp;a&nbsp;portion&nbsp;of&nbsp;the&nbsp;creature’s&nbsp;liberated&nbsp;mental&nbsp;energy.&nbsp;The&nbsp;liberated
+      <p><strong>Benefit: </strong>If you reduce a creature to 0 or less hit
+      points with your psicrystal weapon, you drain off a portion of the
+      creature’s liberated mental energy. The liberated
 
-      energy&nbsp;allows&nbsp;you&nbsp;to&nbsp;focus&nbsp;the&nbsp;weapon&nbsp;as&nbsp;a&nbsp;free&nbsp;action&nbsp;that&nbsp;does&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity.
+      energy allows you to focus the weapon as a free action that does not
+      provoke attacks of opportunity.
 
       </p>
   disabled: false

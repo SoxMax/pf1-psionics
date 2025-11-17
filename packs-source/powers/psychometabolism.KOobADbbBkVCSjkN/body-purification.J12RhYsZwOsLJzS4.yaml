@@ -26,11 +26,13 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;restore&nbsp;up&nbsp;to&nbsp;2&nbsp;points&nbsp;of&nbsp;damage&nbsp;to&nbsp;a&nbsp;single&nbsp;ability&nbsp;score.&nbsp;You&nbsp;cannot&nbsp;use&nbsp;body&nbsp;purification&nbsp;to&nbsp;heal&nbsp;ability&nbsp;drain.
+      <p>You restore up to 2 points of damage to a single ability score. You
+      cannot use body purification to heal ability drain.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;heals&nbsp;1&nbsp;additional&nbsp;point&nbsp;of&nbsp;damage&nbsp;to&nbsp;the&nbsp;same&nbsp;ability&nbsp;score.
+      <p><strong>Augment:</strong> For every additional power point you spend,
+      this power heals 1 additional point of damage to the same ability score.
 
       </p>
   discipline: psychometabolism

@@ -34,7 +34,10 @@ system:
         value: One creature
   description:
     value: >-
-      <p>Creatures&nbsp;affected&nbsp;by&nbsp;this&nbsp;power&nbsp;are&nbsp;permanently&nbsp;confused&nbsp;and&nbsp;constantly&nbsp;behave&nbsp;randomly,&nbsp;making&nbsp;them&nbsp;unable&nbsp;to&nbsp;independently&nbsp;determine&nbsp;what&nbsp;they&nbsp;will&nbsp;do.&nbsp;Roll&nbsp;on&nbsp;the&nbsp;following&nbsp;table&nbsp;at&nbsp;the&nbsp;beginning&nbsp;the&nbsp;subject's&nbsp;turn&nbsp;each&nbsp;round&nbsp;to&nbsp;see&nbsp;what&nbsp;the&nbsp;subject&nbsp;does&nbsp;in&nbsp;that&nbsp;round.
+      <p>Creatures affected by this power are permanently confused and
+      constantly behave randomly, making them unable to independently determine
+      what they will do. Roll on the following table at the beginning the
+      subject's turn each round to see what the subject does in that round.
 
       </p><table><tr><th>d%
 
@@ -42,31 +45,44 @@ system:
 
       </th></tr><tr><td>01–25
 
-      </td><td>Act&nbsp;normally
+      </td><td>Act normally
 
       </td></tr><tr><td>26–50
 
-      </td><td>Do&nbsp;nothing&nbsp;but&nbsp;babble&nbsp;incoherently.
+      </td><td>Do nothing but babble incoherently.
 
       </td></tr><tr><td>51–75
 
-      </td><td>Deal&nbsp;1d8&nbsp;points&nbsp;of&nbsp;damage&nbsp;+&nbsp;Str&nbsp;modifier&nbsp;to&nbsp;self&nbsp;with&nbsp;item&nbsp;in&nbsp;hand
+      </td><td>Deal 1d8 points of damage + Str modifier to self with item in
+      hand
 
       </td></tr><tr><td>76–100
 
-      </td><td>Attack&nbsp;nearest&nbsp;creature&nbsp;(for&nbsp;this&nbsp;purpose,&nbsp;a&nbsp;psicrystal&nbsp;counts&nbsp;as&nbsp;part&nbsp;of&nbsp;the&nbsp;subject's&nbsp;self).
+      </td><td>Attack nearest creature (for this purpose, a psicrystal counts as
+      part of the subject's self).
 
       </td></tr></table>
 
-      <p>A&nbsp;confused&nbsp;character&nbsp;that&nbsp;can't&nbsp;carry&nbsp;out&nbsp;the&nbsp;indicated&nbsp;action&nbsp;does&nbsp;nothing&nbsp;but&nbsp;babble&nbsp;incoherently.&nbsp;Attackers&nbsp;are&nbsp;not&nbsp;at&nbsp;any&nbsp;special&nbsp;advantage&nbsp;when&nbsp;attacking&nbsp;a&nbsp;confused&nbsp;character.&nbsp;Any&nbsp;confused&nbsp;character&nbsp;that&nbsp;is&nbsp;attacked&nbsp;automatically&nbsp;attacks&nbsp;its&nbsp;attackers&nbsp;on&nbsp;its&nbsp;next&nbsp;turn,&nbsp;as&nbsp;long&nbsp;as&nbsp;it&nbsp;is&nbsp;still&nbsp;confused&nbsp;when&nbsp;its&nbsp;turn&nbsp;comes.&nbsp;Note&nbsp;that&nbsp;a&nbsp;confused&nbsp;character&nbsp;will&nbsp;not&nbsp;make&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;against&nbsp;any&nbsp;creature&nbsp;that&nbsp;it&nbsp;is&nbsp;not&nbsp;already&nbsp;devoted&nbsp;to&nbsp;attacking&nbsp;(either&nbsp;because&nbsp;of&nbsp;its&nbsp;most&nbsp;recent&nbsp;actions&nbsp;or&nbsp;because&nbsp;it&nbsp;has&nbsp;just&nbsp;been&nbsp;attacked).
+      <p>A confused character that can't carry out the indicated action does
+      nothing but babble incoherently. Attackers are not at any special
+      advantage when attacking a confused character. Any confused character that
+      is attacked automatically attacks its attackers on its next turn, as long
+      as it is still confused when its turn comes. Note that a confused
+      character will not make attacks of opportunity against any creature that
+      it is not already devoted to attacking (either because of its most recent
+      actions or because it has just been attacked).
 
       </p>
 
-      <p>Only&nbsp;psychic&nbsp;chirurgery,&nbsp;reality&nbsp;revision,&nbsp;and&nbsp;other&nbsp;similarly&nbsp;extreme&nbsp;measures&nbsp;can&nbsp;restore&nbsp;the&nbsp;subject's&nbsp;sanity.
+      <p>Only psychic chirurgery, reality revision, and other similarly extreme
+      measures can restore the subject's sanity.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1,&nbsp;and&nbsp;the&nbsp;power&nbsp;can&nbsp;affect&nbsp;an&nbsp;additional&nbsp;target.&nbsp;Any&nbsp;additional&nbsp;target&nbsp;cannot&nbsp;be&nbsp;more&nbsp;than&nbsp;15&nbsp;feet&nbsp;from&nbsp;another&nbsp;target&nbsp;of&nbsp;the&nbsp;power.
+      <p><strong>Augment:</strong> For every 2 additional power points you
+      spend, this power's save DC increases by 1, and the power can affect an
+      additional target. Any additional target cannot be more than 15 feet from
+      another target of the power.
 
       </p>
   descriptors:

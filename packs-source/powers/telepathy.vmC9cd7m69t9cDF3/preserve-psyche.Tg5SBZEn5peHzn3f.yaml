@@ -29,11 +29,22 @@ system:
         value: One slain creature
   description:
     value: >-
-      <p>You&nbsp;preserve&nbsp;the&nbsp;mind&nbsp;of&nbsp;the&nbsp;slain&nbsp;creature,&nbsp;keeping&nbsp;it&nbsp;from&nbsp;permanently&nbsp;departing&nbsp;from&nbsp;its&nbsp;body.&nbsp;This&nbsp;power&nbsp;must&nbsp;be&nbsp;manifested&nbsp;as&nbsp;soon&nbsp;as&nbsp;the&nbsp;creature&nbsp;is&nbsp;slain,&nbsp;although&nbsp;subsequent&nbsp;manifestations&nbsp;can&nbsp;be&nbsp;used&nbsp;to&nbsp;extend&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;effect.&nbsp;This&nbsp;effect&nbsp;takes&nbsp;place&nbsp;before&nbsp;the&nbsp;creature&nbsp;is&nbsp;removed&nbsp;from&nbsp;the&nbsp;collective&nbsp;due&nbsp;to&nbsp;the&nbsp;creature's&nbsp;death.&nbsp;For&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;effect,&nbsp;the&nbsp;slain&nbsp;creature&nbsp;can&nbsp;be&nbsp;affected&nbsp;by&nbsp;psionic&nbsp;revivify&nbsp;as&nbsp;if&nbsp;it&nbsp;had&nbsp;died&nbsp;within&nbsp;1&nbsp;round,&nbsp;but&nbsp;psionic&nbsp;revivify&nbsp;must&nbsp;be&nbsp;channeled&nbsp;through&nbsp;specially-treated&nbsp;crystals&nbsp;similar&nbsp;to&nbsp;cognizance&nbsp;crystals&nbsp;that&nbsp;cost&nbsp;5,000&nbsp;gp.&nbsp;The&nbsp;psionic&nbsp;energy&nbsp;in&nbsp;the&nbsp;crystal&nbsp;is&nbsp;consumed&nbsp;in&nbsp;the&nbsp;manifestation&nbsp;and&nbsp;the&nbsp;crystal&nbsp;becomes&nbsp;inert&nbsp;and&nbsp;has&nbsp;no&nbsp;value.
+      <p>You preserve the mind of the slain creature, keeping it from
+      permanently departing from its body. This power must be manifested as soon
+      as the creature is slain, although subsequent manifestations can be used
+      to extend the duration of the effect. This effect takes place before the
+      creature is removed from the collective due to the creature's death. For
+      the duration of this effect, the slain creature can be affected by psionic
+      revivify as if it had died within 1 round, but psionic revivify must be
+      channeled through specially-treated crystals similar to cognizance
+      crystals that cost 5,000 gp. The psionic energy in the crystal is consumed
+      in the manifestation and the crystal becomes inert and has no value.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;affect&nbsp;a&nbsp;creature&nbsp;that&nbsp;was&nbsp;in&nbsp;your&nbsp;collective&nbsp;when&nbsp;it&nbsp;died&nbsp;for&nbsp;up&nbsp;to&nbsp;24&nbsp;hours&nbsp;after&nbsp;its&nbsp;death.
+      <p><strong>Augment:</strong> If you spend 6 additional power points, you
+      can affect a creature that was in your collective when it died for up to
+      24 hours after its death.
 
       </p>
   descriptors:

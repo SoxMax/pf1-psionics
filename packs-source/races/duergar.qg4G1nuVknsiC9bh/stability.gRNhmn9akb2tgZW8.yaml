@@ -64,6 +64,8 @@ system:
     umd: false
   description:
     value: >-
-      <p>Duergar&nbsp;receive&nbsp;a&nbsp;+4&nbsp;racial&nbsp;bonus&nbsp;to&nbsp;their&nbsp;Combat&nbsp;Maneuver&nbsp;Defense&nbsp;when&nbsp;resisting&nbsp;a&nbsp;bull&nbsp;rush&nbsp;or&nbsp;trip&nbsp;attempt&nbsp;while&nbsp;standing&nbsp;on&nbsp;the&nbsp;ground.</li></p>
+      <p>Duergar receive a +4 racial bonus to their Combat Maneuver Defense when
+      resisting a bull rush or trip attempt while standing on the
+      ground.</li></p>
   subType: racial
 type: feat

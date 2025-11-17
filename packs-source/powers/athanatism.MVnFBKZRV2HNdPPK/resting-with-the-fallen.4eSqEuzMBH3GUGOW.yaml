@@ -27,19 +27,39 @@ system:
         value: One dead body
   description:
     value: >-
-      <p>You&nbsp;transfer&nbsp;your&nbsp;soul&nbsp;into&nbsp;a&nbsp;dead&nbsp;body,&nbsp;claiming&nbsp;their
+      <p>You transfer your soul into a dead body, claiming their
 
-      memories&nbsp;as&nbsp;your&nbsp;own.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;your&nbsp;body&nbsp;is&nbsp;emptied&nbsp;–&nbsp;you&nbsp;are&nbsp;treated&nbsp;as&nbsp;unconscious&nbsp;and&nbsp;helpless.&nbsp;However,&nbsp;as&nbsp;you&nbsp;are&nbsp;not&nbsp;within&nbsp;your&nbsp;body,&nbsp;you&nbsp;are&nbsp;immune&nbsp;to&nbsp;mind-affecting&nbsp;effects&nbsp;for&nbsp;this&nbsp;time.&nbsp;While&nbsp;this&nbsp;power&nbsp;is&nbsp;active,&nbsp;you&nbsp;may&nbsp;dredge&nbsp;through&nbsp;the&nbsp;target's&nbsp;most&nbsp;recent&nbsp;memories.&nbsp;For&nbsp;each&nbsp;round&nbsp;that&nbsp;you&nbsp;remain&nbsp;in&nbsp;the&nbsp;target's&nbsp;mind&nbsp;(up&nbsp;to&nbsp;1&nbsp;round/level),&nbsp;you&nbsp;access&nbsp;two&nbsp;rounds&nbsp;worth&nbsp;of&nbsp;memory.&nbsp;These&nbsp;memories&nbsp;start&nbsp;from&nbsp;immediately&nbsp;before&nbsp;the&nbsp;target&nbsp;died,&nbsp;and&nbsp;continue&nbsp;backwards&nbsp;from&nbsp;there&nbsp;(for&nbsp;example,&nbsp;if&nbsp;you&nbsp;were&nbsp;in&nbsp;their&nbsp;mind&nbsp;for&nbsp;4&nbsp;rounds,&nbsp;you&nbsp;would&nbsp;learn&nbsp;the&nbsp;last&nbsp;8&nbsp;rounds&nbsp;of&nbsp;their&nbsp;memories&nbsp;prior&nbsp;to&nbsp;death).&nbsp;You&nbsp;only&nbsp;learn&nbsp;anything&nbsp;they&nbsp;experienced&nbsp;or&nbsp;learned&nbsp;in&nbsp;that&nbsp;time&nbsp;period.
+      memories as your own. When you manifest this power, your body is emptied –
+      you are treated as unconscious and helpless. However, as you are not
+      within your body, you are immune to mind-affecting effects for this time.
+      While this power is active, you may dredge through the target's most
+      recent memories. For each round that you remain in the target's mind (up
+      to 1 round/level), you access two rounds worth of memory. These memories
+      start from immediately before the target died, and continue backwards from
+      there (for example, if you were in their mind for 4 rounds, you would
+      learn the last 8 rounds of their memories prior to death). You only learn
+      anything they experienced or learned in that time period.
 
       </p>
 
-      <p>If&nbsp;the&nbsp;target's&nbsp;body&nbsp;is&nbsp;destroyed,&nbsp;raised&nbsp;from&nbsp;the&nbsp;dead,&nbsp;or&nbsp;animated&nbsp;as&nbsp;undead&nbsp;while&nbsp;you&nbsp;are&nbsp;in&nbsp;it,&nbsp;this&nbsp;power&nbsp;immediately&nbsp;ends,&nbsp;and&nbsp;you&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Will&nbsp;save&nbsp;or&nbsp;be&nbsp;dazed&nbsp;for&nbsp;1d6&nbsp;rounds.
+      <p>If the target's body is destroyed, raised from the dead, or animated as
+      undead while you are in it, this power immediately ends, and you must
+      succeed at a Will save or be dazed for 1d6 rounds.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You may augment this power in one of the
+      following ways.
 
-      </p><ol><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;you&nbsp;instead&nbsp;gain&nbsp;access&nbsp;to&nbsp;1&nbsp;hour&nbsp;of&nbsp;memories&nbsp;for&nbsp;each&nbsp;round&nbsp;you&nbsp;spend&nbsp;in&nbsp;the&nbsp;target's&nbsp;mind.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;corrupt&nbsp;any&nbsp;memories&nbsp;you&nbsp;access,&nbsp;changing&nbsp;them&nbsp;subtly&nbsp;in&nbsp;ways&nbsp;you&nbsp;choose.&nbsp;This&nbsp;affects&nbsp;any&nbsp;future&nbsp;manifestations&nbsp;of&nbsp;this&nbsp;or&nbsp;other&nbsp;similar&nbsp;effects&nbsp;on&nbsp;the&nbsp;target,&nbsp;as&nbsp;well&nbsp;as&nbsp;affecting&nbsp;the&nbsp;target's&nbsp;memories&nbsp;should&nbsp;they&nbsp;be&nbsp;later&nbsp;raised&nbsp;or&nbsp;become&nbsp;undead.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;animate&nbsp;the&nbsp;body.&nbsp;While&nbsp;this&nbsp;power&nbsp;is&nbsp;active,&nbsp;the&nbsp;dead&nbsp;body&nbsp;is&nbsp;treated&nbsp;as&nbsp;a&nbsp;wight,&nbsp;completely&nbsp;under&nbsp;your&nbsp;control.</li></ol>
+      </p><ol><li>By spending an additional 6 power points, you instead gain
+      access to 1 hour of memories for each round you spend in the target's
+      mind.</li><li>By spending an additional 6 power points, you may corrupt
+      any memories you access, changing them subtly in ways you choose. This
+      affects any future manifestations of this or other similar effects on the
+      target, as well as affecting the target's memories should they be later
+      raised or become undead.</li><li>By spending an additional 4 power points,
+      you may animate the body. While this power is active, the dead body is
+      treated as a wight, completely under your control.</li></ol>
   discipline: athanatism
   display:
     auditory: true

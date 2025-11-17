@@ -28,13 +28,35 @@ system:
         value: One sentient creature without the psionic subtype
   description:
     value: >-
-      <p>Inside&nbsp;everyone&nbsp;there&nbsp;is&nbsp;a&nbsp;spark&nbsp;that&nbsp;can&nbsp;be&nbsp;fanned&nbsp;into&nbsp;true&nbsp;power.&nbsp;You&nbsp;trigger&nbsp;a&nbsp;temporary&nbsp;awakening&nbsp;of&nbsp;psionic&nbsp;power&nbsp;inside&nbsp;a&nbsp;creature&nbsp;that&nbsp;had&nbsp;none&nbsp;before,&nbsp;temporarily&nbsp;sharing&nbsp;some&nbsp;of&nbsp;your&nbsp;own&nbsp;insights&nbsp;and&nbsp;fueling&nbsp;their&nbsp;internal&nbsp;power.&nbsp;The&nbsp;more&nbsp;powerful&nbsp;the&nbsp;target&nbsp;is,&nbsp;the&nbsp;more&nbsp;power&nbsp;they&nbsp;can&nbsp;contain,&nbsp;but&nbsp;their&nbsp;knowledge&nbsp;is&nbsp;temporary,&nbsp;a&nbsp;gift&nbsp;from&nbsp;you.&nbsp;Choose&nbsp;one&nbsp;1st&nbsp;level&nbsp;power&nbsp;that&nbsp;you&nbsp;know,&nbsp;as&nbsp;long&nbsp;as&nbsp;this&nbsp;power&nbsp;is&nbsp;in&nbsp;effect,&nbsp;you&nbsp;cannot&nbsp;use&nbsp;the&nbsp;power.&nbsp;The&nbsp;target&nbsp;gains&nbsp;access&nbsp;to&nbsp;that&nbsp;1st&nbsp;level&nbsp;power,&nbsp;gains&nbsp;1&nbsp;power&nbsp;point&nbsp;and&nbsp;a&nbsp;manifester&nbsp;level&nbsp;of&nbsp;1,&nbsp;and&nbsp;a&nbsp;number&nbsp;of&nbsp;bonus&nbsp;power&nbsp;points&nbsp;as&nbsp;if&nbsp;his&nbsp;hit&nbsp;dice&nbsp;was&nbsp;his&nbsp;manifester&nbsp;level&nbsp;and&nbsp;his&nbsp;highest&nbsp;mental&nbsp;ability&nbsp;score&nbsp;was&nbsp;his&nbsp;primary&nbsp;manifesting&nbsp;ability&nbsp;score&nbsp;(which&nbsp;it&nbsp;also&nbsp;is&nbsp;for&nbsp;purposes&nbsp;of&nbsp;this&nbsp;granted&nbsp;power).&nbsp;Each&nbsp;morning&nbsp;the&nbsp;target&nbsp;can&nbsp;meditate&nbsp;to&nbsp;regain&nbsp;these&nbsp;power&nbsp;points&nbsp;as&nbsp;normal&nbsp;but&nbsp;if&nbsp;they&nbsp;ever&nbsp;are&nbsp;reduced&nbsp;to&nbsp;0&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;ends.&nbsp;The&nbsp;target&nbsp;can&nbsp;also&nbsp;recharge&nbsp;their&nbsp;power&nbsp;points&nbsp;from&nbsp;cognizance&nbsp;crystals&nbsp;as&nbsp;if&nbsp;he&nbsp;was&nbsp;a&nbsp;true&nbsp;manifester.&nbsp;Both&nbsp;the&nbsp;original&nbsp;manifester&nbsp;and&nbsp;the&nbsp;target&nbsp;can&nbsp;end&nbsp;this&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;at&nbsp;any&nbsp;time.
+      <p>Inside everyone there is a spark that can be fanned into true power.
+      You trigger a temporary awakening of psionic power inside a creature that
+      had none before, temporarily sharing some of your own insights and fueling
+      their internal power. The more powerful the target is, the more power they
+      can contain, but their knowledge is temporary, a gift from you. Choose one
+      1st level power that you know, as long as this power is in effect, you
+      cannot use the power. The target gains access to that 1st level power,
+      gains 1 power point and a manifester level of 1, and a number of bonus
+      power points as if his hit dice was his manifester level and his highest
+      mental ability score was his primary manifesting ability score (which it
+      also is for purposes of this granted power). Each morning the target can
+      meditate to regain these power points as normal but if they ever are
+      reduced to 0 power points, this power ends. The target can also recharge
+      their power points from cognizance crystals as if he was a true
+      manifester. Both the original manifester and the target can end this power
+      as a swift action at any time.
 
       </p>
 
-      <p><strong>Augment:&nbsp;</strong>This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment: </strong>This power may be augmented in one or both of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;choose&nbsp;another&nbsp;1st&nbsp;level&nbsp;power&nbsp;you&nbsp;know&nbsp;to&nbsp;gift&nbsp;the&nbsp;target,&nbsp;but&nbsp;you&nbsp;lose&nbsp;access&nbsp;to&nbsp;this&nbsp;power&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;target&nbsp;gains&nbsp;a&nbsp;2nd&nbsp;level&nbsp;power&nbsp;in&nbsp;addition&nbsp;to&nbsp;the&nbsp;1st&nbsp;level&nbsp;power&nbsp;and&nbsp;has&nbsp;an&nbsp;effective&nbsp;manifester&nbsp;level&nbsp;of&nbsp;3&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of&nbsp;manifesting&nbsp;these&nbsp;powers.&nbsp;You&nbsp;lose&nbsp;access&nbsp;to&nbsp;this&nbsp;2nd&nbsp;level&nbsp;power&nbsp;for&nbsp;the&nbsp;duration.</li></ol>
+      </p><ol><li>For every 2 additional power points you spend, you can choose
+      another 1st level power you know to gift the target, but you lose access
+      to this power for the duration of this power.</li><li>If you spend 4
+      additional power points, the target gains a 2nd level power in addition to
+      the 1st level power and has an effective manifester level of 3 for the
+      purposes of manifesting these powers. You lose access to this 2nd level
+      power for the duration.</li></ol>
   descriptors:
     - mind-affecting
   discipline: psychometabolism

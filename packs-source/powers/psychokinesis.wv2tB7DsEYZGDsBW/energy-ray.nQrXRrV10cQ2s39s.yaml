@@ -30,25 +30,37 @@ system:
         value: Ray
   description:
     value: >-
-      <p>You&nbsp;create&nbsp;a&nbsp;ray&nbsp;of&nbsp;energy&nbsp;of&nbsp;your&nbsp;active&nbsp;energy&nbsp;type&nbsp;(cold,&nbsp;electricity,&nbsp;fire,&nbsp;or&nbsp;sonic)&nbsp;that&nbsp;shoots&nbsp;forth&nbsp;from&nbsp;your&nbsp;fingertip&nbsp;and&nbsp;strikes&nbsp;a&nbsp;target&nbsp;within&nbsp;range,&nbsp;dealing&nbsp;1d6&nbsp;points&nbsp;of&nbsp;damage,&nbsp;if&nbsp;you&nbsp;succeed&nbsp;on&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;with&nbsp;the&nbsp;ray.
+      <p>You create a ray of energy of your active energy type (cold,
+      electricity, fire, or sonic) that shoots forth from your fingertip and
+      strikes a target within range, dealing 1d6 points of damage, if you
+      succeed on a ranged touch attack with the ray.
 
-      </p><ul><li><em>Cold:</em>&nbsp;A&nbsp;ray&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;+1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die.</li></ul>
+      </p><ul><li><em>Cold:</em> A ray of this energy type deals +1 point of
+      damage per die.</li></ul>
 
-      <ul><li><em>Electricity:</em>&nbsp;Manifesting&nbsp;a&nbsp;ray&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;provides&nbsp;a&nbsp;+3&nbsp;bonus&nbsp;on&nbsp;your&nbsp;attack&nbsp;roll&nbsp;if&nbsp;the&nbsp;target&nbsp;is&nbsp;wearing&nbsp;metal&nbsp;armor&nbsp;and&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;manifester&nbsp;level&nbsp;checks&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of&nbsp;overcoming&nbsp;power&nbsp;resistance.</li></ul>
+      <ul><li><em>Electricity:</em> Manifesting a ray of this energy type
+      provides a +3 bonus on your attack roll if the target is wearing metal
+      armor and a +2 bonus on manifester level checks for the purpose of
+      overcoming power resistance.</li></ul>
 
-      <ul><li><em>Fire:</em>&nbsp;A&nbsp;ray&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;+1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die.</li></ul>
+      <ul><li><em>Fire:</em> A ray of this energy type deals +1 point of damage
+      per die.</li></ul>
 
-      <ul><li><em>Sonic:</em>&nbsp;A&nbsp;ray&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;–1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die&nbsp;and&nbsp;ignores&nbsp;an&nbsp;object's&nbsp;hardness.</li></ul>
+      <ul><li><em>Sonic:</em> A ray of this energy type deals –1 point of damage
+      per die and ignores an object's hardness.</li></ul>
 
-      <p>This&nbsp;power's&nbsp;subtype&nbsp;is&nbsp;the&nbsp;same&nbsp;as&nbsp;the&nbsp;type&nbsp;of&nbsp;energy&nbsp;you&nbsp;manifest.
+      <p>This power's subtype is the same as the type of energy you manifest.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;damage&nbsp;increases&nbsp;by&nbsp;one&nbsp;die&nbsp;(d6).
+      <p><strong>Augment:</strong> For every additional power point you spend,
+      this power's damage increases by one die (d6).
 
       </p>
 
-      <p><strong>Special:</strong>&nbsp;A&nbsp;kineticist&nbsp;does&nbsp;not&nbsp;need&nbsp;to&nbsp;select&nbsp;an&nbsp;energy&nbsp;type&nbsp;for&nbsp;this&nbsp;power&nbsp;when&nbsp;he&nbsp;gains&nbsp;psionic&nbsp;focus.&nbsp;He&nbsp;may&nbsp;choose&nbsp;the&nbsp;type&nbsp;of&nbsp;damage&nbsp;at&nbsp;the&nbsp;time&nbsp;the&nbsp;power&nbsp;is&nbsp;manifested.
+      <p><strong>Special:</strong> A kineticist does not need to select an
+      energy type for this power when he gains psionic focus. He may choose the
+      type of damage at the time the power is manifested.
 
       </p>
   descriptors:

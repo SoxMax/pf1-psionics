@@ -64,7 +64,9 @@ system:
     umd: false
   description:
     value: >-
-      <p>When&nbsp;an&nbsp;elan&nbsp;takes&nbsp;damage,&nbsp;he&nbsp;can&nbsp;spend&nbsp;power&nbsp;points&nbsp;to&nbsp;reduce&nbsp;its&nbsp;severity.&nbsp;As&nbsp;an&nbsp;immediate&nbsp;action,&nbsp;he&nbsp;can&nbsp;reduce&nbsp;the&nbsp;damage&nbsp;he&nbsp;is&nbsp;about&nbsp;to&nbsp;take&nbsp;by&nbsp;2&nbsp;hit&nbsp;points&nbsp;for&nbsp;every&nbsp;1&nbsp;power&nbsp;point&nbsp;he&nbsp;spends.</li></p>
+      <p>When an elan takes damage, he can spend power points to reduce its
+      severity. As an immediate action, he can reduce the damage he is about to
+      take by 2 hit points for every 1 power point he spends.</li></p>
   subType: racial
   traitCategory: magical
 type: feat

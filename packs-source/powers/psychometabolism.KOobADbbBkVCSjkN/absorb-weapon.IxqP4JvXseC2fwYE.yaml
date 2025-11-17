@@ -27,17 +27,34 @@ system:
         value: One weapon weighing up to 15 lbs.
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;absorb&nbsp;one&nbsp;weapon&nbsp;of&nbsp;up&nbsp;to&nbsp;15&nbsp;lbs&nbsp;into&nbsp;your&nbsp;body&nbsp;and&nbsp;a&nbsp;small&nbsp;tattoo&nbsp;that&nbsp;resembles&nbsp;the&nbsp;item&nbsp;absorbed&nbsp;appears&nbsp;on&nbsp;the&nbsp;skin&nbsp;of&nbsp;your&nbsp;arm.&nbsp;The&nbsp;absorbed&nbsp;item&nbsp;is&nbsp;undetectable&nbsp;by&nbsp;normal&nbsp;means,&nbsp;although&nbsp;the&nbsp;effect&nbsp;is&nbsp;detectable&nbsp;via&nbsp;detect&nbsp;psionics.&nbsp;The&nbsp;item&nbsp;can&nbsp;be&nbsp;discharged&nbsp;as&nbsp;a&nbsp;standard&nbsp;action&nbsp;and&nbsp;the&nbsp;weapon&nbsp;is&nbsp;automatically&nbsp;equipped.&nbsp;You&nbsp;must&nbsp;be&nbsp;capable&nbsp;of&nbsp;holding&nbsp;the&nbsp;weapon&nbsp;or&nbsp;it&nbsp;falls&nbsp;to&nbsp;your&nbsp;feet&nbsp;(such&nbsp;as&nbsp;if&nbsp;you&nbsp;had&nbsp;no&nbsp;hands&nbsp;free).&nbsp;If&nbsp;the&nbsp;effect&nbsp;ends&nbsp;without&nbsp;being&nbsp;discharged,&nbsp;the&nbsp;item&nbsp;falls&nbsp;to&nbsp;your&nbsp;feet.
+      <p>You can absorb one weapon of up to 15 lbs into your body and a small
+      tattoo that resembles the item absorbed appears on the skin of your arm.
+      The absorbed item is undetectable by normal means, although the effect is
+      detectable via detect psionics. The item can be discharged as a standard
+      action and the weapon is automatically equipped. You must be capable of
+      holding the weapon or it falls to your feet (such as if you had no hands
+      free). If the effect ends without being discharged, the item falls to your
+      feet.
 
       </p>
 
-      <p>The&nbsp;weight&nbsp;of&nbsp;the&nbsp;item&nbsp;still&nbsp;counts&nbsp;toward&nbsp;your&nbsp;encumbrance&nbsp;even&nbsp;when&nbsp;absorbed.
+      <p>The weight of the item still counts toward your encumbrance even when
+      absorbed.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power can be augmented in one or more of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;spent&nbsp;the&nbsp;weight&nbsp;limit&nbsp;of&nbsp;the&nbsp;item&nbsp;to&nbsp;be&nbsp;absorbed&nbsp;increases&nbsp;by&nbsp;5&nbsp;lbs.</li><li>If&nbsp;you&nbsp;spend&nbsp;two&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;absorb&nbsp;a&nbsp;shield&nbsp;or&nbsp;armor&nbsp;instead&nbsp;of&nbsp;a&nbsp;weapon.&nbsp;You&nbsp;do&nbsp;not&nbsp;suffer&nbsp;any&nbsp;applicable&nbsp;armor&nbsp;check&nbsp;penalty&nbsp;of&nbsp;the&nbsp;shield&nbsp;or&nbsp;armor&nbsp;absorbed&nbsp;and&nbsp;when&nbsp;discharged,&nbsp;you&nbsp;automatically&nbsp;equip&nbsp;the&nbsp;shield&nbsp;or&nbsp;armor&nbsp;as&nbsp;long&nbsp;as&nbsp;you&nbsp;are&nbsp;capable&nbsp;of&nbsp;equipping&nbsp;the&nbsp;item.</li><li>If&nbsp;you&nbsp;spend&nbsp;two&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;store&nbsp;one&nbsp;additional&nbsp;item,&nbsp;although&nbsp;all&nbsp;stored&nbsp;items&nbsp;are&nbsp;discharged&nbsp;at&nbsp;the&nbsp;same&nbsp;time&nbsp;and&nbsp;are&nbsp;added&nbsp;together&nbsp;when&nbsp;determining&nbsp;the&nbsp;total&nbsp;weight.</li></ol>
+      </p><ol><li>For every additional power point spent the weight limit of the
+      item to be absorbed increases by 5 lbs.</li><li>If you spend two
+      additional power points, you can absorb a shield or armor instead of a
+      weapon. You do not suffer any applicable armor check penalty of the shield
+      or armor absorbed and when discharged, you automatically equip the shield
+      or armor as long as you are capable of equipping the item.</li><li>If you
+      spend two additional power points, you can store one additional item,
+      although all stored items are discharged at the same time and are added
+      together when determining the total weight.</li></ol>
   discipline: psychometabolism
   display:
     auditory: false

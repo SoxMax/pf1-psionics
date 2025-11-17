@@ -29,11 +29,19 @@ system:
         description: None
   description:
     value: >-
-      <p>You&nbsp;quickly&nbsp;channel&nbsp;energy&nbsp;from&nbsp;your&nbsp;power&nbsp;pool&nbsp;into&nbsp;your&nbsp;mind&nbsp;blade&nbsp;to&nbsp;create&nbsp;a&nbsp;psychokinetic&nbsp;charge&nbsp;which&nbsp;is&nbsp;released&nbsp;as&nbsp;a&nbsp;free&nbsp;action&nbsp;as&nbsp;part&nbsp;of&nbsp;an&nbsp;attack.&nbsp;This&nbsp;charge&nbsp;inflicts&nbsp;an&nbsp;additional&nbsp;1d8&nbsp;points&nbsp;of&nbsp;damage.This&nbsp;functions&nbsp;exactly&nbsp;like&nbsp;the&nbsp;psychic&nbsp;strike&nbsp;class&nbsp;feature&nbsp;and&nbsp;may&nbsp;be&nbsp;used&nbsp;to&nbsp;power&nbsp;blade&nbsp;skills&nbsp;or&nbsp;feats&nbsp;that&nbsp;require&nbsp;the&nbsp;expenditure&nbsp;of&nbsp;the&nbsp;gifted&nbsp;blade's&nbsp;psychic&nbsp;strike.
+      <p>You quickly channel energy from your power pool into your mind blade to
+      create a psychokinetic charge which is released as a free action as part
+      of an attack. This charge inflicts an additional 1d8 points of damage.This
+      functions exactly like the psychic strike class feature and may be used to
+      power blade skills or feats that require the expenditure of the gifted
+      blade's psychic strike.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;4&nbsp;power&nbsp;points&nbsp;spent,&nbsp;this&nbsp;psychokinetic&nbsp;charge&nbsp;inflicts&nbsp;an&nbsp;additional&nbsp;1d8&nbsp;points&nbsp;of&nbsp;damage.&nbsp;If&nbsp;you&nbsp;spend&nbsp;8&nbsp;or&nbsp;more&nbsp;power&nbsp;points&nbsp;on&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;you&nbsp;may&nbsp;manifest&nbsp;it&nbsp;as&nbsp;a&nbsp;swift&nbsp;action.
+      <p><strong>Augment:</strong> For every 4 power points spent, this
+      psychokinetic charge inflicts an additional 1d8 points of damage. If you
+      spend 8 or more power points on manifesting this power, you may manifest
+      it as a swift action.
 
       </p>
   discipline: psychokinesis

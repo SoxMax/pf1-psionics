@@ -34,37 +34,70 @@ system:
         value: Any two creatures no more than 15 ft. apart
   description:
     value: >-
-      <p>Your&nbsp;body's&nbsp;psionically&nbsp;fueled&nbsp;bioenergetic&nbsp;currents&nbsp;produce&nbsp;an&nbsp;arc&nbsp;of&nbsp;energy&nbsp;of&nbsp;your&nbsp;active&nbsp;energy&nbsp;type&nbsp;(cold,&nbsp;electricity,&nbsp;fire,&nbsp;or&nbsp;sonic)&nbsp;that&nbsp;targets&nbsp;a&nbsp;creature&nbsp;you&nbsp;designate&nbsp;as&nbsp;the&nbsp;primary&nbsp;foe&nbsp;for&nbsp;9d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;in&nbsp;every&nbsp;round&nbsp;when&nbsp;the&nbsp;power&nbsp;remains&nbsp;in&nbsp;effect.&nbsp;Energy&nbsp;also&nbsp;arcs&nbsp;off&nbsp;the&nbsp;primary&nbsp;foe&nbsp;to&nbsp;strike&nbsp;one&nbsp;additional&nbsp;foe&nbsp;that&nbsp;is&nbsp;initially&nbsp;within&nbsp;15&nbsp;feet&nbsp;of&nbsp;the&nbsp;primary&nbsp;foe,&nbsp;or&nbsp;that&nbsp;subsequently&nbsp;moves&nbsp;within&nbsp;15&nbsp;feet&nbsp;of&nbsp;the&nbsp;primary&nbsp;foe&nbsp;while&nbsp;the&nbsp;duration&nbsp;lasts.&nbsp;Secondary&nbsp;foes&nbsp;take&nbsp;the&nbsp;same&nbsp;damage&nbsp;that&nbsp;the&nbsp;primary&nbsp;foe&nbsp;takes&nbsp;in&nbsp;every&nbsp;round&nbsp;while&nbsp;the&nbsp;duration&nbsp;lasts.
+      <p>Your body's psionically fueled bioenergetic currents produce an arc of
+      energy of your active energy type (cold, electricity, fire, or sonic) that
+      targets a creature you designate as the primary foe for 9d6 points of
+      damage in every round when the power remains in effect. Energy also arcs
+      off the primary foe to strike one additional foe that is initially within
+      15 feet of the primary foe, or that subsequently moves within 15 feet of
+      the primary foe while the duration lasts. Secondary foes take the same
+      damage that the primary foe takes in every round while the duration lasts.
 
       </p>
 
-      <p>Should&nbsp;either&nbsp;the&nbsp;primary&nbsp;or&nbsp;secondary&nbsp;foe&nbsp;fall&nbsp;to&nbsp;less&nbsp;than&nbsp;0&nbsp;hit&nbsp;points&nbsp;(or&nbsp;should&nbsp;a&nbsp;target&nbsp;completely&nbsp;evade&nbsp;the&nbsp;effect&nbsp;with&nbsp;a&nbsp;special&nbsp;ability&nbsp;or&nbsp;power),&nbsp;or&nbsp;should&nbsp;the&nbsp;primary&nbsp;foe&nbsp;move&nbsp;out&nbsp;of&nbsp;range&nbsp;of&nbsp;the&nbsp;effect,&nbsp;the&nbsp;energy&nbsp;current's&nbsp;arc&nbsp;randomly&nbsp;retargets&nbsp;another&nbsp;primary&nbsp;and/or&nbsp;secondary&nbsp;foe&nbsp;while&nbsp;the&nbsp;duration&nbsp;lasts,&nbsp;depending&nbsp;on&nbsp;which&nbsp;foe&nbsp;or&nbsp;foes&nbsp;can&nbsp;no&nbsp;longer&nbsp;be&nbsp;targeted.&nbsp;Targeted&nbsp;foes&nbsp;can&nbsp;move&nbsp;normally,&nbsp;possibly&nbsp;moving&nbsp;out&nbsp;of&nbsp;range&nbsp;of&nbsp;the&nbsp;effect,&nbsp;but&nbsp;each&nbsp;round&nbsp;they&nbsp;are&nbsp;targeted&nbsp;and&nbsp;remain&nbsp;in&nbsp;range&nbsp;they&nbsp;must&nbsp;make&nbsp;a&nbsp;saving&nbsp;throw&nbsp;to&nbsp;avoid&nbsp;taking&nbsp;full&nbsp;damage&nbsp;in&nbsp;that&nbsp;round.
+      <p>Should either the primary or secondary foe fall to less than 0 hit
+      points (or should a target completely evade the effect with a special
+      ability or power), or should the primary foe move out of range of the
+      effect, the energy current's arc randomly retargets another primary and/or
+      secondary foe while the duration lasts, depending on which foe or foes can
+      no longer be targeted. Targeted foes can move normally, possibly moving
+      out of range of the effect, but each round they are targeted and remain in
+      range they must make a saving throw to avoid taking full damage in that
+      round.
 
       </p>
 
-      <p>Concentrating&nbsp;to&nbsp;maintain&nbsp;energy&nbsp;current&nbsp;is&nbsp;a&nbsp;full-round&nbsp;action.&nbsp;If&nbsp;you&nbsp;take&nbsp;damage&nbsp;while&nbsp;maintaining&nbsp;energy&nbsp;current,&nbsp;you&nbsp;must&nbsp;make&nbsp;a&nbsp;successful&nbsp;concentration&nbsp;check&nbsp;(DC&nbsp;10&nbsp;+&nbsp;damage&nbsp;dealt)&nbsp;to&nbsp;avoid&nbsp;losing&nbsp;your&nbsp;concentration&nbsp;on&nbsp;the&nbsp;power.
+      <p>Concentrating to maintain energy current is a full-round action. If you
+      take damage while maintaining energy current, you must make a successful
+      concentration check (DC 10 + damage dealt) to avoid losing your
+      concentration on the power.
 
       </p>
 
-      <p>The&nbsp;save&nbsp;DC&nbsp;to&nbsp;halve&nbsp;the&nbsp;damage&nbsp;for&nbsp;the&nbsp;secondary&nbsp;target&nbsp;is&nbsp;2&nbsp;lower&nbsp;than&nbsp;the&nbsp;DC&nbsp;for&nbsp;the&nbsp;primary&nbsp;target.
+      <p>The save DC to halve the damage for the secondary target is 2 lower
+      than the DC for the primary target.
 
-      </p><ul><li><em>Cold:</em>&nbsp;A&nbsp;current&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;+1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die.&nbsp;The&nbsp;saving&nbsp;throw&nbsp;to&nbsp;reduce&nbsp;damage&nbsp;from&nbsp;a&nbsp;cold&nbsp;current&nbsp;is&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;instead&nbsp;of&nbsp;a&nbsp;Reflex&nbsp;save.</li></ul>
+      </p><ul><li><em>Cold:</em> A current of this energy type deals +1 point of
+      damage per die. The saving throw to reduce damage from a cold current is a
+      Fortitude save instead of a Reflex save.</li></ul>
 
-      <ul><li><em>Electricity:</em>&nbsp;Manifesting&nbsp;a&nbsp;current&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;provides&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;to&nbsp;the&nbsp;save&nbsp;DC&nbsp;and&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;manifester&nbsp;level&nbsp;checks&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of&nbsp;overcoming&nbsp;power&nbsp;resistance.</li></ul>
+      <ul><li><em>Electricity:</em> Manifesting a current of this energy type
+      provides a +2 bonus to the save DC and a +2 bonus on manifester level
+      checks for the purpose of overcoming power resistance.</li></ul>
 
-      <ul><li><em>Fire:</em>&nbsp;A&nbsp;current&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;+1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die.</li></ul>
+      <ul><li><em>Fire:</em> A current of this energy type deals +1 point of
+      damage per die.</li></ul>
 
-      <ul><li><em>Sonic:</em>&nbsp;A&nbsp;current&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;–1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die&nbsp;and&nbsp;ignores&nbsp;an&nbsp;object's&nbsp;hardness.</li></ul>
+      <ul><li><em>Sonic:</em> A current of this energy type deals –1 point of
+      damage per die and ignores an object's hardness.</li></ul>
 
-      <p>This&nbsp;power's&nbsp;subtype&nbsp;is&nbsp;the&nbsp;same&nbsp;as&nbsp;the&nbsp;type&nbsp;of&nbsp;energy&nbsp;you&nbsp;manifest.
+      <p>This power's subtype is the same as the type of energy you manifest.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or both of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;damage&nbsp;increases&nbsp;by&nbsp;one&nbsp;die&nbsp;(d6).&nbsp;For&nbsp;each&nbsp;extra&nbsp;two&nbsp;dice&nbsp;of&nbsp;damage,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.</li><li>For&nbsp;every&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;can&nbsp;affect&nbsp;an&nbsp;additional&nbsp;secondary&nbsp;foe.&nbsp;Any&nbsp;additional&nbsp;secondary&nbsp;foe&nbsp;cannot&nbsp;be&nbsp;more&nbsp;than&nbsp;15&nbsp;feet&nbsp;from&nbsp;another&nbsp;target&nbsp;of&nbsp;the&nbsp;power.</li></ol>
+      </p><ol><li>For every additional power point you spend, this power's
+      damage increases by one die (d6). For each extra two dice of damage, this
+      power's save DC increases by 1.</li><li>For every 4 additional power
+      points you spend, this power can affect an additional secondary foe. Any
+      additional secondary foe cannot be more than 15 feet from another target
+      of the power.</li></ol>
 
-      <p><strong>Special:</strong>&nbsp;A&nbsp;kineticist&nbsp;does&nbsp;not&nbsp;need&nbsp;to&nbsp;select&nbsp;an&nbsp;energy&nbsp;type&nbsp;for&nbsp;this&nbsp;power&nbsp;when&nbsp;he&nbsp;gains&nbsp;psionic&nbsp;focus.&nbsp;He&nbsp;may&nbsp;choose&nbsp;the&nbsp;type&nbsp;of&nbsp;damage&nbsp;at&nbsp;the&nbsp;time&nbsp;the&nbsp;power&nbsp;is&nbsp;manifested.
+      <p><strong>Special:</strong> A kineticist does not need to select an
+      energy type for this power when he gains psionic focus. He may choose the
+      type of damage at the time the power is manifested.
 
       </p>
   descriptors:

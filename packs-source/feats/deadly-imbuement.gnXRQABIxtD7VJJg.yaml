@@ -21,27 +21,17 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;are&nbsp;able&nbsp;to&nbsp;siphon&nbsp;off&nbsp;residual&nbsp;psychic&nbsp;impressions
-
-      to&nbsp;recharge&nbsp;your&nbsp;psychic&nbsp;strike&nbsp;from&nbsp;fallen&nbsp;foes.
-
+    value: |-
+      <p>You are able to siphon off residual psychic impressions
+      to recharge your psychic strike from fallen foes.
       </p>
-
-      <p><strong>Prerequisites</strong>:&nbsp;Psychic&nbsp;Strike&nbsp;+1d8.
-
+      <p><strong>Prerequisites</strong>: Psychic Strike +1d8.
       </p>
-
-      <p><strong>Benefit</strong>:&nbsp;Whenever&nbsp;you&nbsp;reduce&nbsp;a&nbsp;foe&nbsp;to&nbsp;0&nbsp;hit&nbsp;points
-
-      or&nbsp;less,&nbsp;you&nbsp;may&nbsp;recharge&nbsp;your&nbsp;psychic&nbsp;strike&nbsp;as&nbsp;a&nbsp;free
-
-      action&nbsp;once&nbsp;per&nbsp;round.&nbsp;Foes&nbsp;slain&nbsp;in&nbsp;such&nbsp;a&nbsp;manner&nbsp;must
-
-      possess&nbsp;an&nbsp;Intelligence&nbsp;score&nbsp;of&nbsp;3&nbsp;or&nbsp;more&nbsp;for&nbsp;you&nbsp;to&nbsp;be
-
-      able&nbsp;to&nbsp;recharge&nbsp;your&nbsp;psychic&nbsp;strike.
-
+      <p><strong>Benefit</strong>: Whenever you reduce a foe to 0 hit points
+      or less, you may recharge your psychic strike as a free
+      action once per round. Foes slain in such a manner must
+      possess an Intelligence score of 3 or more for you to be
+      able to recharge your psychic strike.
       </p>
   disabled: false
   featType: feat

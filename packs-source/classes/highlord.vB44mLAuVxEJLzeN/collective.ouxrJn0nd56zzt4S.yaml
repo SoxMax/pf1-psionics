@@ -12,19 +12,51 @@ system:
       - Highlord
   description:
     value: >-
-      <p>A&nbsp;highlord&nbsp;learns&nbsp;to&nbsp;use&nbsp;psionic&nbsp;power&nbsp;to&nbsp;connect&nbsp;willing&nbsp;minds&nbsp;through&nbsp;an&nbsp;internal&nbsp;network&nbsp;that&nbsp;strengthens&nbsp;their&nbsp;psychic&nbsp;bonds.&nbsp;As&nbsp;a&nbsp;standard&nbsp;action,&nbsp;a&nbsp;highlord&nbsp;can&nbsp;join&nbsp;any&nbsp;number&nbsp;of&nbsp;willing&nbsp;targets&nbsp;into&nbsp;his&nbsp;collective&nbsp;(up&nbsp;to&nbsp;his&nbsp;limit,&nbsp;see&nbsp;below).&nbsp;The&nbsp;highlord&nbsp;must&nbsp;have&nbsp;line&nbsp;of&nbsp;sight&nbsp;to&nbsp;each&nbsp;target,&nbsp;each&nbsp;target&nbsp;must&nbsp;have&nbsp;a&nbsp;Wisdom&nbsp;score&nbsp;of&nbsp;at&nbsp;least&nbsp;1,&nbsp;and&nbsp;all&nbsp;targets&nbsp;must&nbsp;be&nbsp;within&nbsp;medium&nbsp;range&nbsp;(100&nbsp;feet&nbsp;+&nbsp;10&nbsp;feet&nbsp;per&nbsp;class&nbsp;level).&nbsp;The&nbsp;collective&nbsp;can&nbsp;contain&nbsp;up&nbsp;to&nbsp;his&nbsp;Charisma&nbsp;modifier&nbsp;or&nbsp;half&nbsp;his&nbsp;highlord&nbsp;level,&nbsp;whichever&nbsp;is&nbsp;higher.&nbsp;The&nbsp;highlord&nbsp;is&nbsp;always&nbsp;considered&nbsp;a&nbsp;member&nbsp;of&nbsp;his&nbsp;own&nbsp;collective,&nbsp;and&nbsp;does&nbsp;not&nbsp;count&nbsp;against&nbsp;this&nbsp;limit.
+      <p>A highlord learns to use psionic power to connect willing minds through
+      an internal network that strengthens their psychic bonds. As a standard
+      action, a highlord can join any number of willing targets into his
+      collective (up to his limit, see below). The highlord must have line of
+      sight to each target, each target must have a Wisdom score of at least 1,
+      and all targets must be within medium range (100 feet + 10 feet per class
+      level). The collective can contain up to his Charisma modifier or half his
+      highlord level, whichever is higher. The highlord is always considered a
+      member of his own collective, and does not count against this limit.
 
-      </p><p>The&nbsp;highlord&nbsp;can&nbsp;choose&nbsp;to&nbsp;remove&nbsp;a&nbsp;member&nbsp;as&nbsp;a&nbsp;free&nbsp;action&nbsp;on&nbsp;his&nbsp;turn,&nbsp;and&nbsp;any&nbsp;member&nbsp;can&nbsp;voluntarily&nbsp;leave&nbsp;the&nbsp;collective&nbsp;as&nbsp;a&nbsp;free&nbsp;action&nbsp;on&nbsp;their&nbsp;turn.&nbsp;Any&nbsp;member&nbsp;whose&nbsp;Wisdom&nbsp;drops&nbsp;to&nbsp;zero&nbsp;or&nbsp;who&nbsp;moves&nbsp;out&nbsp;of&nbsp;range&nbsp;of&nbsp;the&nbsp;collective&nbsp;is&nbsp;automatically&nbsp;removed.&nbsp;If&nbsp;a&nbsp;member&nbsp;enters&nbsp;a&nbsp;null&nbsp;psionics&nbsp;field,&nbsp;the&nbsp;connection&nbsp;to&nbsp;the&nbsp;collective&nbsp;is&nbsp;suppressed&nbsp;until&nbsp;the&nbsp;member&nbsp;leaves&nbsp;the&nbsp;field.&nbsp;A&nbsp;member&nbsp;who&nbsp;leaves&nbsp;the&nbsp;collective&nbsp;for&nbsp;any&nbsp;reason&nbsp;immediately&nbsp;loses&nbsp;any&nbsp;and&nbsp;all&nbsp;benefits&nbsp;they&nbsp;may&nbsp;have&nbsp;gained&nbsp;from&nbsp;being&nbsp;a&nbsp;member.&nbsp;A&nbsp;highlord&nbsp;is&nbsp;aware&nbsp;of&nbsp;the&nbsp;status&nbsp;of&nbsp;his&nbsp;collective&nbsp;and&nbsp;can,&nbsp;roughly,&nbsp;sense&nbsp;the&nbsp;presence&nbsp;of&nbsp;each&nbsp;member,&nbsp;although&nbsp;beyond&nbsp;telling&nbsp;if&nbsp;such&nbsp;a&nbsp;creature&nbsp;is&nbsp;still&nbsp;a&nbsp;member,&nbsp;this&nbsp;has&nbsp;no&nbsp;mechanical&nbsp;benefit&nbsp;until&nbsp;higher&nbsp;levels&nbsp;(see&nbsp;telepathy&nbsp;below).
+      </p><p>The highlord can choose to remove a member as a free action on his
+      turn, and any member can voluntarily leave the collective as a free action
+      on their turn. Any member whose Wisdom drops to zero or who moves out of
+      range of the collective is automatically removed. If a member enters a
+      null psionics field, the connection to the collective is suppressed until
+      the member leaves the field. A member who leaves the collective for any
+      reason immediately loses any and all benefits they may have gained from
+      being a member. A highlord is aware of the status of his collective and
+      can, roughly, sense the presence of each member, although beyond telling
+      if such a creature is still a member, this has no mechanical benefit until
+      higher levels (see telepathy below).
 
-      </p><p>A&nbsp;highlord&nbsp;can&nbsp;manifest&nbsp;certain&nbsp;powers&nbsp;through&nbsp;his&nbsp;collective.&nbsp;If&nbsp;a&nbsp;highlord&nbsp;power&nbsp;specifies&nbsp;one&nbsp;or&nbsp;more&nbsp;willing&nbsp;targets&nbsp;(or&nbsp;is&nbsp;harmless)&nbsp;and&nbsp;has&nbsp;a&nbsp;range&nbsp;greater&nbsp;than&nbsp;personal,&nbsp;he&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;on&nbsp;a&nbsp;member&nbsp;of&nbsp;his&nbsp;collective&nbsp;regardless&nbsp;of&nbsp;the&nbsp;range&nbsp;of&nbsp;the&nbsp;actual&nbsp;power.&nbsp;All&nbsp;other&nbsp;non-range&nbsp;restrictions&nbsp;still&nbsp;apply.&nbsp;He&nbsp;may&nbsp;manifest&nbsp;any&nbsp;power&nbsp;with&nbsp;the&nbsp;Network&nbsp;Descriptor&nbsp;this&nbsp;way,&nbsp;regardless&nbsp;of&nbsp;their&nbsp;actual&nbsp;ranges&nbsp;or&nbsp;targets.&nbsp;If&nbsp;he&nbsp;is&nbsp;capable&nbsp;of&nbsp;manifesting&nbsp;powers&nbsp;or&nbsp;casting&nbsp;spells&nbsp;from&nbsp;a&nbsp;different&nbsp;class&nbsp;(as&nbsp;is&nbsp;the&nbsp;case&nbsp;for&nbsp;a&nbsp;multiclass&nbsp;highlord),&nbsp;any&nbsp;compatible&nbsp;spell&nbsp;or&nbsp;power&nbsp;with&nbsp;a&nbsp;range&nbsp;greater&nbsp;than&nbsp;touch&nbsp;can&nbsp;also&nbsp;be&nbsp;used&nbsp;through&nbsp;the&nbsp;collective.
+      </p><p>A highlord can manifest certain powers through his collective. If a
+      highlord power specifies one or more willing targets (or is harmless) and
+      has a range greater than personal, he can manifest this power on a member
+      of his collective regardless of the range of the actual power. All other
+      non-range restrictions still apply. He may manifest any power with the
+      Network Descriptor this way, regardless of their actual ranges or targets.
+      If he is capable of manifesting powers or casting spells from a different
+      class (as is the case for a multiclass highlord), any compatible spell or
+      power with a range greater than touch can also be used through the
+      collective.
 
-      </p><p>If&nbsp;a&nbsp;member&nbsp;of&nbsp;the&nbsp;collective&nbsp;dies,&nbsp;the&nbsp;member&nbsp;is&nbsp;removed&nbsp;from&nbsp;the&nbsp;collective&nbsp;and&nbsp;the&nbsp;highlord&nbsp;must&nbsp;make&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;(DC&nbsp;15)&nbsp;or&nbsp;lose&nbsp;1&nbsp;power&nbsp;point&nbsp;for&nbsp;every&nbsp;Hit&nbsp;Die&nbsp;of&nbsp;the&nbsp;fallen&nbsp;member&nbsp;and&nbsp;be&nbsp;sickened&nbsp;for&nbsp;an&nbsp;equal&nbsp;number&nbsp;of&nbsp;rounds.
+      </p><p>If a member of the collective dies, the member is removed from the
+      collective and the highlord must make a Fortitude save (DC 15) or lose 1
+      power point for every Hit Die of the fallen member and be sickened for an
+      equal number of rounds.
 
-      </p><p>At&nbsp;15th&nbsp;level,&nbsp;a&nbsp;highlord's&nbsp;collective&nbsp;range&nbsp;is&nbsp;limitless&nbsp;on&nbsp;the&nbsp;same&nbsp;plane&nbsp;as&nbsp;the&nbsp;highlord.
+      </p><p>At 15th level, a highlord's collective range is limitless on the
+      same plane as the highlord.
 
-      </p><p>At&nbsp;19th&nbsp;level,&nbsp;a&nbsp;highlord's&nbsp;range&nbsp;reaches&nbsp;even&nbsp;across&nbsp;other&nbsp;planes&nbsp;and&nbsp;dimensions.
+      </p><p>At 19th level, a highlord's range reaches even across other planes
+      and dimensions.
 
-      </p><p></p>
+      </p>
   sources:
     - date: '2010-01-01'
       pages: 2–6

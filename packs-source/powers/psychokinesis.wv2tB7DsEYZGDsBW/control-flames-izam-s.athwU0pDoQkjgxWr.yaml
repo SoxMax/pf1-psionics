@@ -32,29 +32,66 @@ system:
         value: One nonmagical fire source; see text
   description:
     value: >-
-      <p>You&nbsp;pyrokinetically&nbsp;control&nbsp;the&nbsp;intensity&nbsp;or&nbsp;movements&nbsp;of&nbsp;one&nbsp;fire&nbsp;source.&nbsp;A&nbsp;nonmagical&nbsp;fire&nbsp;source&nbsp;can&nbsp;be&nbsp;controlled&nbsp;if&nbsp;it&nbsp;is&nbsp;equal&nbsp;to&nbsp;or&nbsp;smaller&nbsp;than&nbsp;the&nbsp;maximum&nbsp;size&nbsp;of&nbsp;fire&nbsp;you&nbsp;can&nbsp;control&nbsp;according&nbsp;to&nbsp;your&nbsp;manifester&nbsp;level,&nbsp;as&nbsp;noted&nbsp;on&nbsp;the&nbsp;accompanying&nbsp;table.&nbsp;You&nbsp;can&nbsp;freely&nbsp;switch&nbsp;control&nbsp;between&nbsp;fire&nbsp;sources,&nbsp;or&nbsp;change&nbsp;the&nbsp;nature&nbsp;of&nbsp;your&nbsp;control,&nbsp;while&nbsp;you&nbsp;maintain&nbsp;concentration,&nbsp;but&nbsp;only&nbsp;one&nbsp;specified&nbsp;change&nbsp;(keeping&nbsp;a&nbsp;fire&nbsp;burning,&nbsp;animating&nbsp;it,&nbsp;or&nbsp;altering&nbsp;its&nbsp;size)&nbsp;can&nbsp;be&nbsp;made&nbsp;to&nbsp;one&nbsp;fire&nbsp;source&nbsp;in&nbsp;a&nbsp;round.&nbsp;When&nbsp;your&nbsp;control&nbsp;over&nbsp;a&nbsp;fire&nbsp;source&nbsp;lapses,&nbsp;that&nbsp;fire&nbsp;immediately&nbsp;returns&nbsp;to&nbsp;its&nbsp;original&nbsp;state&nbsp;(or&nbsp;goes&nbsp;out&nbsp;if&nbsp;it&nbsp;has&nbsp;no&nbsp;fuel&nbsp;or&nbsp;has&nbsp;been&nbsp;moved&nbsp;away&nbsp;from&nbsp;its&nbsp;original&nbsp;location).&nbsp;With&nbsp;this&nbsp;power,&nbsp;you&nbsp;can&nbsp;artificially&nbsp;keep&nbsp;a&nbsp;fire&nbsp;burning&nbsp;that&nbsp;would&nbsp;normally&nbsp;expire&nbsp;for&nbsp;lack&nbsp;of&nbsp;fuel;&nbsp;even&nbsp;dousing&nbsp;a&nbsp;controlled&nbsp;flame&nbsp;with&nbsp;water&nbsp;does&nbsp;not&nbsp;put&nbsp;it&nbsp;out&nbsp;(though&nbsp;completely&nbsp;submerging&nbsp;the&nbsp;flame&nbsp;would).&nbsp;Normally,&nbsp;a&nbsp;creature&nbsp;at&nbsp;risk&nbsp;of&nbsp;catching&nbsp;on&nbsp;fire&nbsp;can&nbsp;avoid&nbsp;this&nbsp;fate&nbsp;by&nbsp;making&nbsp;a&nbsp;DC&nbsp;15&nbsp;Reflex&nbsp;saving&nbsp;throw,&nbsp;with&nbsp;success&nbsp;indicating&nbsp;that&nbsp;the&nbsp;fire&nbsp;has&nbsp;gone&nbsp;out.&nbsp;If&nbsp;the&nbsp;fire&nbsp;is&nbsp;one&nbsp;that&nbsp;has&nbsp;been&nbsp;kept&nbsp;burning&nbsp;by&nbsp;the&nbsp;use&nbsp;of&nbsp;control&nbsp;flames,&nbsp;then&nbsp;the&nbsp;DC&nbsp;of&nbsp;the&nbsp;Reflex&nbsp;save&nbsp;needed&nbsp;to&nbsp;put&nbsp;out&nbsp;the&nbsp;flames&nbsp;increases&nbsp;to&nbsp;25.
+      <p>You pyrokinetically control the intensity or movements of one fire
+      source. A nonmagical fire source can be controlled if it is equal to or
+      smaller than the maximum size of fire you can control according to your
+      manifester level, as noted on the accompanying table. You can freely
+      switch control between fire sources, or change the nature of your control,
+      while you maintain concentration, but only one specified change (keeping a
+      fire burning, animating it, or altering its size) can be made to one fire
+      source in a round. When your control over a fire source lapses, that fire
+      immediately returns to its original state (or goes out if it has no fuel
+      or has been moved away from its original location). With this power, you
+      can artificially keep a fire burning that would normally expire for lack
+      of fuel; even dousing a controlled flame with water does not put it out
+      (though completely submerging the flame would). Normally, a creature at
+      risk of catching on fire can avoid this fate by making a DC 15 Reflex
+      saving throw, with success indicating that the fire has gone out. If the
+      fire is one that has been kept burning by the use of control flames, then
+      the DC of the Reflex save needed to put out the flames increases to 25.
 
       </p>
 
-      <p>This&nbsp;power&nbsp;also&nbsp;enables&nbsp;you&nbsp;to&nbsp;make&nbsp;a&nbsp;fire&nbsp;move&nbsp;as&nbsp;if&nbsp;it&nbsp;were&nbsp;a&nbsp;living&nbsp;creature.&nbsp;You&nbsp;can&nbsp;animate&nbsp;only&nbsp;a&nbsp;naturally&nbsp;burning&nbsp;fire;&nbsp;if&nbsp;you&nbsp;attempt&nbsp;to&nbsp;animate&nbsp;one&nbsp;that&nbsp;has&nbsp;been&nbsp;increased&nbsp;or&nbsp;decreased&nbsp;in&nbsp;size&nbsp;by&nbsp;your&nbsp;augmentation&nbsp;of&nbsp;this&nbsp;power,&nbsp;the&nbsp;fire&nbsp;immediately&nbsp;returns&nbsp;to&nbsp;its&nbsp;original&nbsp;size.&nbsp;An&nbsp;animated&nbsp;fire&nbsp;moves&nbsp;at&nbsp;a&nbsp;speed&nbsp;of&nbsp;30&nbsp;feet.&nbsp;A&nbsp;fire&nbsp;that&nbsp;moves&nbsp;away&nbsp;from&nbsp;its&nbsp;fuel&nbsp;or&nbsp;its&nbsp;original&nbsp;location&nbsp;dies&nbsp;as&nbsp;soon&nbsp;as&nbsp;your&nbsp;control&nbsp;over&nbsp;it&nbsp;lapses.
+      <p>This power also enables you to make a fire move as if it were a living
+      creature. You can animate only a naturally burning fire; if you attempt to
+      animate one that has been increased or decreased in size by your
+      augmentation of this power, the fire immediately returns to its original
+      size. An animated fire moves at a speed of 30 feet. A fire that moves away
+      from its fuel or its original location dies as soon as your control over
+      it lapses.
 
       </p>
 
-      <p>An&nbsp;animated&nbsp;fire&nbsp;can&nbsp;enter&nbsp;any&nbsp;square,&nbsp;even&nbsp;if&nbsp;a&nbsp;creature&nbsp;already&nbsp;occupies&nbsp;it.&nbsp;If&nbsp;an&nbsp;animated&nbsp;fire&nbsp;enters&nbsp;a&nbsp;square&nbsp;occupied&nbsp;by&nbsp;a&nbsp;creature,&nbsp;that&nbsp;creature&nbsp;can&nbsp;make&nbsp;a&nbsp;Reflex&nbsp;save&nbsp;to&nbsp;get&nbsp;out&nbsp;of&nbsp;the&nbsp;way&nbsp;(DC&nbsp;11&nbsp;+&nbsp;the&nbsp;number&nbsp;of&nbsp;dice&nbsp;of&nbsp;damage&nbsp;the&nbsp;fire&nbsp;does&nbsp;+&nbsp;your&nbsp;key&nbsp;ability&nbsp;modifier).&nbsp;A&nbsp;successful&nbsp;Reflex&nbsp;save&nbsp;moves&nbsp;the&nbsp;creature&nbsp;to&nbsp;the&nbsp;nearest&nbsp;unoccupied&nbsp;square.&nbsp;The&nbsp;flames&nbsp;deal&nbsp;the&nbsp;indicated&nbsp;damage&nbsp;to&nbsp;any&nbsp;creature&nbsp;that&nbsp;is&nbsp;either&nbsp;on&nbsp;fire&nbsp;or&nbsp;surrounded&nbsp;by&nbsp;the&nbsp;flames&nbsp;(in&nbsp;the&nbsp;fire's&nbsp;space);&nbsp;see&nbsp;the&nbsp;accompanying&nbsp;table).
+      <p>An animated fire can enter any square, even if a creature already
+      occupies it. If an animated fire enters a square occupied by a creature,
+      that creature can make a Reflex save to get out of the way (DC 11 + the
+      number of dice of damage the fire does + your key ability modifier). A
+      successful Reflex save moves the creature to the nearest unoccupied
+      square. The flames deal the indicated damage to any creature that is
+      either on fire or surrounded by the flames (in the fire's space); see the
+      accompanying table).
 
       </p>
 
-      <p>At&nbsp;the&nbsp;start&nbsp;of&nbsp;your&nbsp;turn,&nbsp;the&nbsp;animated&nbsp;fire&nbsp;deals&nbsp;damage&nbsp;to&nbsp;any&nbsp;creature&nbsp;in&nbsp;its&nbsp;space,&nbsp;and&nbsp;the&nbsp;creature&nbsp;catches&nbsp;on&nbsp;fire&nbsp;unless&nbsp;it&nbsp;makes&nbsp;a&nbsp;Reflex&nbsp;save&nbsp;(DC&nbsp;as&nbsp;noted&nbsp;above).&nbsp;A&nbsp;victim&nbsp;on&nbsp;fire&nbsp;takes&nbsp;1d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;each&nbsp;round.&nbsp;Additional&nbsp;rounds&nbsp;in&nbsp;the&nbsp;same&nbsp;space&nbsp;as&nbsp;the&nbsp;animated&nbsp;fire&nbsp;occupies&nbsp;mean&nbsp;additional&nbsp;chances&nbsp;of&nbsp;ignition.&nbsp;The&nbsp;damage&nbsp;from&nbsp;multiple&nbsp;normal&nbsp;fires&nbsp;stacks,&nbsp;but&nbsp;the&nbsp;victim&nbsp;gets&nbsp;a&nbsp;saving&nbsp;throw&nbsp;each&nbsp;round&nbsp;to&nbsp;negate&nbsp;each&nbsp;fire.&nbsp;It&nbsp;is&nbsp;possible&nbsp;to&nbsp;switch&nbsp;control&nbsp;from&nbsp;the&nbsp;animated&nbsp;fire&nbsp;(causing&nbsp;it&nbsp;to&nbsp;disappear)&nbsp;to&nbsp;intensify&nbsp;flames&nbsp;that&nbsp;are&nbsp;already&nbsp;burning&nbsp;(thus&nbsp;denying&nbsp;the&nbsp;foe&nbsp;Reflex&nbsp;saves&nbsp;after&nbsp;the&nbsp;first).
+      <p>At the start of your turn, the animated fire deals damage to any
+      creature in its space, and the creature catches on fire unless it makes a
+      Reflex save (DC as noted above). A victim on fire takes 1d6 points of
+      damage each round. Additional rounds in the same space as the animated
+      fire occupies mean additional chances of ignition. The damage from
+      multiple normal fires stacks, but the victim gets a saving throw each
+      round to negate each fire. It is possible to switch control from the
+      animated fire (causing it to disappear) to intensify flames that are
+      already burning (thus denying the foe Reflex saves after the first).
 
-      </p><table><caption>Control&nbsp;Flames
+      </p><table><caption>Control Flames
 
-      </caption><tr><th>Manifester&nbsp;Level
+      </caption><tr><th>Manifester Level
 
-      </th><th>Fire&nbsp;Size
+      </th><th>Fire Size
 
       </th><th>Example
 
-      </th><th>Maximum&nbsp;Damage&nbsp;per&nbsp;Round&nbsp;Space
+      </th><th>Maximum Damage per Round Space
 
       </th></tr><tr><td>1st–2nd
 
@@ -64,7 +101,7 @@ system:
 
       </td><td>1
 
-      </td><td>1&nbsp;foot&nbsp;square
+      </td><td>1 foot square
 
       </td></tr><tr><td>3rd–4th
 
@@ -74,27 +111,27 @@ system:
 
       </td><td>1d3
 
-      </td><td>1&nbsp;foot&nbsp;square
+      </td><td>1 foot square
 
       </td></tr><tr><td>5th–6th
 
       </td><td>Tiny
 
-      </td><td>Small&nbsp;campfire
+      </td><td>Small campfire
 
       </td><td>1d6
 
-      </td><td>1&nbsp;foot&nbsp;square
+      </td><td>1 foot square
 
       </td></tr><tr><td>7th–8th
 
       </td><td>Small
 
-      </td><td>Large&nbsp;campfire
+      </td><td>Large campfire
 
       </td><td>2d6
 
-      </td><td>1&nbsp;foot&nbsp;square
+      </td><td>1 foot square
 
       </td></tr><tr><td>9th–10th
 
@@ -104,7 +141,7 @@ system:
 
       </td><td>3d6
 
-      </td><td>1&nbsp;foot&nbsp;square
+      </td><td>1 foot square
 
       </td></tr><tr><td>11th–12th
 
@@ -114,43 +151,49 @@ system:
 
       </td><td>4d6
 
-      </td><td>2-by-2-foot&nbsp;square
+      </td><td>2-by-2-foot square
 
       </td></tr><tr><td>13th–14th
 
       </td><td>Huge
 
-      </td><td>Burning&nbsp;shack
+      </td><td>Burning shack
 
       </td><td>5d6
 
-      </td><td>3-by-3-foot&nbsp;square
+      </td><td>3-by-3-foot square
 
       </td></tr><tr><td>15th–16th
 
       </td><td>Gargantuan
 
-      </td><td>Burning&nbsp;tavern
+      </td><td>Burning tavern
 
       </td><td>6d6
 
-      </td><td>4-by-4-foot&nbsp;square
+      </td><td>4-by-4-foot square
 
-      </td></tr><tr><td>17th&nbsp;or&nbsp;higher
+      </td></tr><tr><td>17th or higher
 
       </td><td>Colossal
 
-      </td><td>Burning&nbsp;inn
+      </td><td>Burning inn
 
       </td><td>7d6
 
-      </td><td>5-by-5-foot&nbsp;square
+      </td><td>5-by-5-foot square
 
       </td></tr></table>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or both of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;increase&nbsp;the&nbsp;size&nbsp;of&nbsp;a&nbsp;fire&nbsp;you&nbsp;want&nbsp;to&nbsp;control&nbsp;by&nbsp;one&nbsp;step,&nbsp;up&nbsp;to&nbsp;the&nbsp;maximum&nbsp;size&nbsp;of&nbsp;fire&nbsp;you&nbsp;can&nbsp;control&nbsp;according&nbsp;to&nbsp;your&nbsp;manifester&nbsp;level.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;decrease&nbsp;the&nbsp;size&nbsp;of&nbsp;a&nbsp;fire&nbsp;you&nbsp;want&nbsp;to&nbsp;control&nbsp;by&nbsp;one&nbsp;step.&nbsp;You&nbsp;can&nbsp;reduce&nbsp;a&nbsp;Tiny&nbsp;or&nbsp;smaller&nbsp;fire&nbsp;to&nbsp;nothing,&nbsp;extinguishing&nbsp;it.</li></ol>
+      </p><ol><li>For every 2 additional power points you spend, you can
+      increase the size of a fire you want to control by one step, up to the
+      maximum size of fire you can control according to your manifester
+      level.</li><li>For every 2 additional power points you spend, you can
+      decrease the size of a fire you want to control by one step. You can
+      reduce a Tiny or smaller fire to nothing, extinguishing it.</li></ol>
   descriptors:
     - fire
   discipline: psychokinesis

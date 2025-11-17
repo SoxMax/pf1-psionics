@@ -21,23 +21,15 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;can&nbsp;add&nbsp;psionic&nbsp;energy&nbsp;to&nbsp;a&nbsp;perfect&nbsp;weapon&nbsp;strike.
-
+    value: |-
+      <p>You can add psionic energy to a perfect weapon strike.
       </p>
-
-      <p><strong>Prerequisite:&nbsp;</strong>Improved&nbsp;Critical.
-
+      <p><strong>Prerequisite: </strong>Improved Critical.
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>While&nbsp;maintaining&nbsp;psionic&nbsp;focus,&nbsp;when&nbsp;you
-
-      successfully&nbsp;score&nbsp;a&nbsp;critical&nbsp;hit,&nbsp;you&nbsp;deal&nbsp;+1d8&nbsp;bonus
-
-      damage.&nbsp;If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus,&nbsp;you&nbsp;deal&nbsp;an
-
-      additional&nbsp;+1d8&nbsp;bonus&nbsp;damage.
-
+      <p><strong>Benefit: </strong>While maintaining psionic focus, when you
+      successfully score a critical hit, you deal +1d8 bonus
+      damage. If you expend your psionic focus, you deal an
+      additional +1d8 bonus damage.
       </p>
   disabled: false
   featType: feat

@@ -64,7 +64,11 @@ system:
     umd: false
   description:
     value: >-
-      <p>Half-giants&nbsp;gain&nbsp;the&nbsp;following&nbsp;spell-like&nbsp;ability:&nbsp;1/day—<em><a&nbsp;href="/wiki/Stomp"&nbsp;title="Stomp">stomp</a></em>.&nbsp;The&nbsp;manifester&nbsp;level&nbsp;for&nbsp;this&nbsp;effect&nbsp;is&nbsp;equal&nbsp;to&nbsp;1/2&nbsp;the&nbsp;half-giants&nbsp;level&nbsp;(minimum&nbsp;1st).&nbsp;The&nbsp;DC&nbsp;for&nbsp;this&nbsp;power&nbsp;is&nbsp;equal&nbsp;to&nbsp;10&nbsp;+&nbsp;the&nbsp;powers&nbsp;level&nbsp;+&nbsp;the&nbsp;half-giants&nbsp;Charisma&nbsp;modifier.</li></p>
+      <p>Half-giants gain the following spell-like ability: 1/day—<em><a
+      href="/wiki/Stomp" title="Stomp">stomp</a></em>. The manifester level for
+      this effect is equal to 1/2 the half-giants level (minimum 1st). The DC
+      for this power is equal to 10 + the powers level + the half-giants
+      Charisma modifier.</li></p>
   subType: racial
   traitCategory: magical
 type: feat

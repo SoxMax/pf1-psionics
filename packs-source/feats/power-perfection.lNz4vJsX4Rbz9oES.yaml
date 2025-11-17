@@ -21,43 +21,25 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;are&nbsp;unequaled&nbsp;at&nbsp;the&nbsp;manifesting&nbsp;of&nbsp;one&nbsp;particular
-
+    value: |-
+      <p>You are unequaled at the manifesting of one particular
       power.
-
       </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Spellcraft&nbsp;15&nbsp;ranks,&nbsp;at&nbsp;least&nbsp;three
-
-      metapsionic&nbsp;feats.
-
+      <p><strong>Prerequisites: </strong>Spellcraft 15 ranks, at least three
+      metapsionic feats.
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>Pick&nbsp;one&nbsp;power&nbsp;which&nbsp;you&nbsp;have&nbsp;the&nbsp;ability&nbsp;to
-
-      manifest.&nbsp;Whenever&nbsp;you&nbsp;manifest&nbsp;that&nbsp;power&nbsp;you&nbsp;may
-
-      apply&nbsp;any&nbsp;one&nbsp;metapsionic&nbsp;feat&nbsp;you&nbsp;have&nbsp;to&nbsp;that&nbsp;power
-
-      without&nbsp;expending&nbsp;psionic&nbsp;focus&nbsp;or&nbsp;affecting&nbsp;its&nbsp;level&nbsp;or
-
-      manifesting&nbsp;time,&nbsp;as&nbsp;long&nbsp;as&nbsp;the&nbsp;total&nbsp;power&nbsp;point&nbsp;cost
-
-      of&nbsp;the&nbsp;power,&nbsp;including&nbsp;the&nbsp;metapsionic&nbsp;feat&nbsp;cost&nbsp;and
-
-      any&nbsp;augmentation,&nbsp;does&nbsp;not&nbsp;exceed&nbsp;17&nbsp;power&nbsp;points.&nbsp;In
-
-      addition,&nbsp;if&nbsp;you&nbsp;have&nbsp;other&nbsp;feats&nbsp;which&nbsp;allow&nbsp;you&nbsp;to&nbsp;apply
-
-      a&nbsp;set&nbsp;numerical&nbsp;bonus&nbsp;to&nbsp;any&nbsp;aspect&nbsp;of&nbsp;this&nbsp;power&nbsp;(such
-
-      as&nbsp;Power&nbsp;Penetration,&nbsp;Psionic&nbsp;Endowment,&nbsp;Weapon
-
-      Focus&nbsp;[ray],&nbsp;and&nbsp;so&nbsp;on),&nbsp;double&nbsp;the&nbsp;bonus&nbsp;granted&nbsp;by&nbsp;that
-
-      feat&nbsp;when&nbsp;applied&nbsp;to&nbsp;this&nbsp;power.
-
+      <p><strong>Benefit: </strong>Pick one power which you have the ability to
+      manifest. Whenever you manifest that power you may
+      apply any one metapsionic feat you have to that power
+      without expending psionic focus or affecting its level or
+      manifesting time, as long as the total power point cost
+      of the power, including the metapsionic feat cost and
+      any augmentation, does not exceed 17 power points. In
+      addition, if you have other feats which allow you to apply
+      a set numerical bonus to any aspect of this power (such
+      as Power Penetration, Psionic Endowment, Weapon
+      Focus [ray], and so on), double the bonus granted by that
+      feat when applied to this power.
       </p>
   disabled: false
   featType: feat

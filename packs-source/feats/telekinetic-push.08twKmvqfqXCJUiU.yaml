@@ -22,13 +22,19 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;telekinetic&nbsp;ability&nbsp;includes&nbsp;the&nbsp;ability&nbsp;to&nbsp;knock&nbsp;enemies&nbsp;down.</em></p>
+      <p><em>Your telekinetic ability includes the ability to knock enemies
+      down.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Natural_Telekinetic"&nbsp;title="Natural&nbsp;Telekinetic">Natural&nbsp;Telekinetic</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Natural_Telekinetic"
+      title="Natural Telekinetic">Natural Telekinetic</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>Up&nbsp;to&nbsp;three&nbsp;times&nbsp;per&nbsp;day,&nbsp;you&nbsp;can&nbsp;focus&nbsp;your&nbsp;telekinetic&nbsp;powers&nbsp;into&nbsp;a&nbsp;single&nbsp;blow&nbsp;or&nbsp;ranged&nbsp;attack&nbsp;as&nbsp;a&nbsp;swift&nbsp;action,&nbsp;which&nbsp;can&nbsp;knock&nbsp;a&nbsp;foe&nbsp;over.&nbsp;When&nbsp;you&nbsp;do&nbsp;so,&nbsp;make&nbsp;a&nbsp;&nbsp;trip&nbsp;check,&nbsp;substituting&nbsp;your&nbsp;highest&nbsp;mental&nbsp;ability&nbsp;modifier&nbsp;for&nbsp;your&nbsp;Strength&nbsp;(if&nbsp;it&nbsp;is&nbsp;higher)&nbsp;and&nbsp;using&nbsp;your&nbsp;hit&nbsp;die&nbsp;instead&nbsp;of&nbsp;your&nbsp;base&nbsp;attack&nbsp;bonus.
+      <p><strong>Benefit: </strong>Up to three times per day, you can focus your
+      telekinetic powers into a single blow or ranged attack as a swift action,
+      which can knock a foe over. When you do so, make a  trip check,
+      substituting your highest mental ability modifier for your Strength (if it
+      is higher) and using your hit die instead of your base attack bonus.
 
       </p>
   disabled: false

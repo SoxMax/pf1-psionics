@@ -63,7 +63,15 @@ system:
     umd: false
   description:
     value: >-
-      <p>Some&nbsp;duergar&nbsp;are&nbsp;more&nbsp;deeply&nbsp;touched&nbsp;by&nbsp;their&nbsp;experiences&nbsp;underground&nbsp;than&nbsp;their&nbsp;fellows.&nbsp;A&nbsp;duergar&nbsp;with&nbsp;this&nbsp;trait&nbsp;is&nbsp;treated&nbsp;as&nbsp;an&nbsp;aberration&nbsp;rather&nbsp;than&nbsp;a&nbsp;humanoid&nbsp;whenever&nbsp;it&nbsp;would&nbsp;be&nbsp;beneficial&nbsp;(for&nbsp;example,&nbsp;harmful&nbsp;spells&nbsp;which&nbsp;target&nbsp;only&nbsp;humanoids&nbsp;such&nbsp;as&nbsp;Charm&nbsp;Person&nbsp;or&nbsp;Hold&nbsp;Person&nbsp;will&nbsp;automatically&nbsp;fail&nbsp;unless&nbsp;the&nbsp;duergar&nbsp;specifically&nbsp;chooses&nbsp;otherwise;&nbsp;rangers&nbsp;will&nbsp;not&nbsp;be&nbsp;able&nbsp;to&nbsp;use&nbsp;Favored&nbsp;Enemy&nbsp;against&nbsp;him&nbsp;unless&nbsp;they&nbsp;have&nbsp;both&nbsp;humanoids&nbsp;(dwarves)&nbsp;and&nbsp;aberrations&nbsp;as&nbsp;favored&nbsp;enemies,&nbsp;in&nbsp;which&nbsp;case&nbsp;the&nbsp;duergar&nbsp;suffers&nbsp;the&nbsp;lesser&nbsp;bonus&nbsp;of&nbsp;the&nbsp;two).</p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;Hardy&nbsp;trait.</em></p>
+      <p>Some duergar are more deeply touched by their experiences underground
+      than their fellows. A duergar with this trait is treated as an aberration
+      rather than a humanoid whenever it would be beneficial (for example,
+      harmful spells which target only humanoids such as Charm Person or Hold
+      Person will automatically fail unless the duergar specifically chooses
+      otherwise; rangers will not be able to use Favored Enemy against him
+      unless they have both humanoids (dwarves) and aberrations as favored
+      enemies, in which case the duergar suffers the lesser bonus of the
+      two).</p><p><em>This trait replaces the Hardy trait.</em></p>
   disabled: false
   inherited: false
   showInQuickbar: false

@@ -30,37 +30,108 @@ system:
         value: See text
   description:
     value: >-
-      <p>By&nbsp;binding&nbsp;spiritual&nbsp;essence&nbsp;into&nbsp;an&nbsp;area,&nbsp;you&nbsp;effectively&nbsp;create&nbsp;a&nbsp;haunt.&nbsp;When&nbsp;you&nbsp;create&nbsp;this&nbsp;haunt,&nbsp;you&nbsp;may&nbsp;create&nbsp;a&nbsp;haunt&nbsp;from&nbsp;the&nbsp;table&nbsp;below&nbsp;with&nbsp;a&nbsp;ML&nbsp;of&nbsp;7&nbsp;or&nbsp;lower.&nbsp;Regardless&nbsp;of&nbsp;the&nbsp;haunt,&nbsp;it&nbsp;always&nbsp;acts&nbsp;on&nbsp;an&nbsp;initiative&nbsp;count&nbsp;of&nbsp;0.&nbsp;When&nbsp;you&nbsp;haunt&nbsp;an&nbsp;area&nbsp;in&nbsp;this&nbsp;way,&nbsp;it&nbsp;takes&nbsp;on&nbsp;minor&nbsp;characteristics&nbsp;specific&nbsp;to&nbsp;the&nbsp;haunt&nbsp;(for&nbsp;example,&nbsp;ghostly&nbsp;hallways&nbsp;for&nbsp;the&nbsp;orbs&nbsp;haunt,&nbsp;or&nbsp;a&nbsp;spectral&nbsp;churchyard&nbsp;for&nbsp;the&nbsp;mad&nbsp;monk&nbsp;haunt).&nbsp;You&nbsp;are&nbsp;immune&nbsp;to&nbsp;all&nbsp;effects&nbsp;of&nbsp;this&nbsp;haunt.&nbsp;An&nbsp;area&nbsp;can&nbsp;receive&nbsp;only&nbsp;one&nbsp;corporeal&nbsp;haunt&nbsp;power&nbsp;at&nbsp;a&nbsp;time.
+      <p>By binding spiritual essence into an area, you effectively create a
+      haunt. When you create this haunt, you may create a haunt from the table
+      below with a ML of 7 or lower. Regardless of the haunt, it always acts on
+      an initiative count of 0. When you haunt an area in this way, it takes on
+      minor characteristics specific to the haunt (for example, ghostly hallways
+      for the orbs haunt, or a spectral churchyard for the mad monk haunt). You
+      are immune to all effects of this haunt. An area can receive only one
+      corporeal haunt power at a time.
 
-      </p><ul><li><em>Slamming&nbsp;Portal:</em>&nbsp;LE&nbsp;haunt&nbsp;(doors&nbsp;or&nbsp;shutters&nbsp;in&nbsp;5-ft.&nbsp;radius);&nbsp;ML&nbsp;1;&nbsp;Perception&nbsp;DC&nbsp;10&nbsp;(to&nbsp;see&nbsp;a&nbsp;portal&nbsp;closing);&nbsp;hp&nbsp;2;&nbsp;tricked&nbsp;by&nbsp;hide&nbsp;from&nbsp;undead.&nbsp;The&nbsp;haunted&nbsp;door&nbsp;or&nbsp;window&nbsp;slams&nbsp;shut,&nbsp;held&nbsp;fast&nbsp;as&nbsp;if&nbsp;by&nbsp;hold&nbsp;portal&nbsp;for&nbsp;1&nbsp;minute&nbsp;or&nbsp;until&nbsp;the&nbsp;haunt&nbsp;is&nbsp;destroyed.</li></ul>
+      </p><ul><li><em>Slamming Portal:</em> LE haunt (doors or shutters in 5-ft.
+      radius); ML 1; Perception DC 10 (to see a portal closing); hp 2; tricked
+      by hide from undead. The haunted door or window slams shut, held fast as
+      if by hold portal for 1 minute or until the haunt is destroyed.</li></ul>
 
-      <ul><li><em>Orbs:</em>&nbsp;CE&nbsp;haunt&nbsp;(10-ft.-by-20-ft;&nbsp;hallway);&nbsp;ML&nbsp;2;&nbsp;Perception&nbsp;DC&nbsp;10&nbsp;(to&nbsp;notice&nbsp;pulsating,&nbsp;glowing&nbsp;orbs);&nbsp;hp&nbsp;4;&nbsp;destroyed&nbsp;by&nbsp;slow&nbsp;effect.&nbsp;This&nbsp;swarm&nbsp;of&nbsp;glowing&nbsp;orbs,&nbsp;ranging&nbsp;in&nbsp;size&nbsp;from&nbsp;tiny&nbsp;peas&nbsp;to&nbsp;large&nbsp;melons,&nbsp;cause&nbsp;witnesses&nbsp;to&nbsp;be&nbsp;subjected&nbsp;to&nbsp;the&nbsp;effects&nbsp;of&nbsp;scare&nbsp;(DC&nbsp;13).</li></ul>
+      <ul><li><em>Orbs:</em> CE haunt (10-ft.-by-20-ft; hallway); ML 2;
+      Perception DC 10 (to notice pulsating, glowing orbs); hp 4; destroyed by
+      slow effect. This swarm of glowing orbs, ranging in size from tiny peas to
+      large melons, cause witnesses to be subjected to the effects of scare (DC
+      13).</li></ul>
 
-      <ul><li><em>Cold&nbsp;Spot:</em>&nbsp;NE&nbsp;persistent&nbsp;haunt&nbsp;(15-ft.&nbsp;radius);&nbsp;ML&nbsp;3;&nbsp;Perception&nbsp;DC&nbsp;10&nbsp;(to&nbsp;notice&nbsp;sudden&nbsp;temperature&nbsp;drop);&nbsp;hp&nbsp;13;&nbsp;damaged&nbsp;by&nbsp;fire.&nbsp;When&nbsp;the&nbsp;area&nbsp;is&nbsp;entered,&nbsp;the&nbsp;temperature&nbsp;immediately&nbsp;drops&nbsp;to&nbsp;freezing,&nbsp;drawing&nbsp;warmth&nbsp;from&nbsp;the&nbsp;living.&nbsp;This&nbsp;duplicates&nbsp;chill&nbsp;touch&nbsp;(DC&nbsp;11),&nbsp;automatically&nbsp;affecting&nbsp;all&nbsp;creatures&nbsp;in&nbsp;the&nbsp;area&nbsp;for&nbsp;each&nbsp;round&nbsp;they&nbsp;remain.</li></ul>
+      <ul><li><em>Cold Spot:</em> NE persistent haunt (15-ft. radius); ML 3;
+      Perception DC 10 (to notice sudden temperature drop); hp 13; damaged by
+      fire. When the area is entered, the temperature immediately drops to
+      freezing, drawing warmth from the living. This duplicates chill touch (DC
+      11), automatically affecting all creatures in the area for each round they
+      remain.</li></ul>
 
-      <ul><li><em>Choking&nbsp;Hands:</em>&nbsp;CE&nbsp;persistent&nbsp;haunt&nbsp;(15-ft.-by-30-ft.;&nbsp;alleyway);&nbsp;ML&nbsp;4;&nbsp;Perception&nbsp;DC&nbsp;20&nbsp;(to&nbsp;see&nbsp;coalescing&nbsp;vapor);&nbsp;hp&nbsp;18;&nbsp;tricked&nbsp;by&nbsp;hide&nbsp;from&nbsp;undead.&nbsp;This&nbsp;spirit&nbsp;manifests&nbsp;as&nbsp;a&nbsp;pair&nbsp;of&nbsp;spectral&nbsp;skeletal&nbsp;hands,&nbsp;latching&nbsp;on&nbsp;to&nbsp;the&nbsp;throats&nbsp;of&nbsp;the&nbsp;victim.&nbsp;This&nbsp;+4&nbsp;touch&nbsp;attack&nbsp;duplicates&nbsp;a&nbsp;vampiric&nbsp;touch&nbsp;each&nbsp;round,&nbsp;adding&nbsp;the&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;to&nbsp;the&nbsp;haunt's&nbsp;hp&nbsp;total.</li></ul>
+      <ul><li><em>Choking Hands:</em> CE persistent haunt (15-ft.-by-30-ft.;
+      alleyway); ML 4; Perception DC 20 (to see coalescing vapor); hp 18;
+      tricked by hide from undead. This spirit manifests as a pair of spectral
+      skeletal hands, latching on to the throats of the victim. This +4 touch
+      attack duplicates a vampiric touch each round, adding the temporary hit
+      points to the haunt's hp total.</li></ul>
 
-      <ul><li><em>Mad&nbsp;Monk:</em>&nbsp;CN&nbsp;haunt&nbsp;(25-ft.-radius;&nbsp;churchyard);&nbsp;ML&nbsp;5;&nbsp;Perception&nbsp;DC&nbsp;20&nbsp;(to&nbsp;hear&nbsp;pouring&nbsp;liquid);&nbsp;hp&nbsp;10.&nbsp;A&nbsp;robed&nbsp;monk&nbsp;materializes,&nbsp;offering&nbsp;a&nbsp;gold&nbsp;chalice&nbsp;to&nbsp;a&nbsp;target&nbsp;in&nbsp;the&nbsp;area.&nbsp;There&nbsp;is&nbsp;a&nbsp;50%&nbsp;chance&nbsp;that&nbsp;the&nbsp;liquid&nbsp;within&nbsp;functions&nbsp;as&nbsp;a&nbsp;cure&nbsp;critical&nbsp;wounds&nbsp;-&nbsp;otherwise,&nbsp;it&nbsp;functions&nbsp;as&nbsp;the&nbsp;poison&nbsp;spell&nbsp;(DC&nbsp;16).&nbsp;The&nbsp;haunt&nbsp;ends&nbsp;as&nbsp;soon&nbsp;as&nbsp;one&nbsp;creature&nbsp;drinks&nbsp;from&nbsp;the&nbsp;chalice.</li></ul>
+      <ul><li><em>Mad Monk:</em> CN haunt (25-ft.-radius; churchyard); ML 5;
+      Perception DC 20 (to hear pouring liquid); hp 10. A robed monk
+      materializes, offering a gold chalice to a target in the area. There is a
+      50% chance that the liquid within functions as a cure critical wounds -
+      otherwise, it functions as the poison spell (DC 16). The haunt ends as
+      soon as one creature drinks from the chalice.</li></ul>
 
-      <ul><li><em>Baleful&nbsp;Apparition:</em>&nbsp;CE&nbsp;haunt&nbsp;(30-ft.-by-30-ft.;&nbsp;chamber);&nbsp;ML&nbsp;6;&nbsp;Perception&nbsp;DC&nbsp;18&nbsp;(to&nbsp;feel&nbsp;an&nbsp;ominous&nbsp;presence);&nbsp;hp&nbsp;12.&nbsp;Victims&nbsp;of&nbsp;the&nbsp;haunt&nbsp;are&nbsp;subject&nbsp;to&nbsp;disturbing,&nbsp;phantasmal&nbsp;images.&nbsp;These&nbsp;unnatural&nbsp;sights&nbsp;and&nbsp;sounds&nbsp;cause&nbsp;all&nbsp;in&nbsp;the&nbsp;area&nbsp;to&nbsp;be&nbsp;affected&nbsp;as&nbsp;if&nbsp;by&nbsp;fear&nbsp;(DC&nbsp;16).</li></ul>
+      <ul><li><em>Baleful Apparition:</em> CE haunt (30-ft.-by-30-ft.; chamber);
+      ML 6; Perception DC 18 (to feel an ominous presence); hp 12. Victims of
+      the haunt are subject to disturbing, phantasmal images. These unnatural
+      sights and sounds cause all in the area to be affected as if by fear (DC
+      16).</li></ul>
 
-      <ul><li><em>Deathless&nbsp;Defenders:</em>&nbsp;CE&nbsp;haunt&nbsp;(30-ft.&nbsp;radius);&nbsp;ML&nbsp;7;&nbsp;Perception&nbsp;DC&nbsp;20&nbsp;(to&nbsp;see&nbsp;spectral&nbsp;image&nbsp;of&nbsp;a&nbsp;decayed&nbsp;regiment);&nbsp;hp&nbsp;14;&nbsp;tricked&nbsp;by&nbsp;hide&nbsp;from&nbsp;undead.&nbsp;Appearing&nbsp;as&nbsp;regiments&nbsp;of&nbsp;spectral,&nbsp;decaying&nbsp;warriors,&nbsp;these&nbsp;haunts&nbsp;charge&nbsp;those&nbsp;in&nbsp;the&nbsp;area&nbsp;bearing&nbsp;rusting&nbsp;arms&nbsp;and&nbsp;armor.&nbsp;These&nbsp;attacks&nbsp;mimic&nbsp;the&nbsp;effects&nbsp;of&nbsp;eyebite&nbsp;(DC&nbsp;19).</li></ul>
+      <ul><li><em>Deathless Defenders:</em> CE haunt (30-ft. radius); ML 7;
+      Perception DC 20 (to see spectral image of a decayed regiment); hp 14;
+      tricked by hide from undead. Appearing as regiments of spectral, decaying
+      warriors, these haunts charge those in the area bearing rusting arms and
+      armor. These attacks mimic the effects of eyebite (DC 19).</li></ul>
 
-      <ul><li><em>Ghastly&nbsp;Whispers:</em>&nbsp;CE&nbsp;haunt&nbsp;(up&nbsp;to&nbsp;40-ft.&nbsp;radius);&nbsp;ML&nbsp;8;&nbsp;Perception&nbsp;DC&nbsp;20&nbsp;(to&nbsp;hear&nbsp;whispers&nbsp;growing&nbsp;louder);&nbsp;hp&nbsp;16.&nbsp;Those&nbsp;in&nbsp;the&nbsp;area&nbsp;can&nbsp;hear&nbsp;a&nbsp;faint&nbsp;whispering,&nbsp;growing&nbsp;louder&nbsp;and&nbsp;louder.&nbsp;This&nbsp;maddening&nbsp;disorientation&nbsp;functions&nbsp;as&nbsp;an&nbsp;insanity&nbsp;(DC&nbsp;20).</li></ul>
+      <ul><li><em>Ghastly Whispers:</em> CE haunt (up to 40-ft. radius); ML 8;
+      Perception DC 20 (to hear whispers growing louder); hp 16. Those in the
+      area can hear a faint whispering, growing louder and louder. This
+      maddening disorientation functions as an insanity (DC 20).</li></ul>
 
-      <ul><li><em>Ectoplasmic&nbsp;Miasma:</em>&nbsp;CE&nbsp;persistent&nbsp;haunt&nbsp;(30-ft.&nbsp;radius;&nbsp;ethereal&nbsp;cloud);&nbsp;ML&nbsp;9;&nbsp;Perception&nbsp;DC&nbsp;15&nbsp;(to&nbsp;see&nbsp;congealing&nbsp;mist);&nbsp;hp&nbsp;40;&nbsp;tricked&nbsp;by&nbsp;hide&nbsp;from&nbsp;undead.&nbsp;Dozens&nbsp;of&nbsp;spectral&nbsp;visages&nbsp;appear,&nbsp;howling&nbsp;and&nbsp;twisting,&nbsp;in&nbsp;the&nbsp;fog,&nbsp;their&nbsp;limbs&nbsp;and&nbsp;faces&nbsp;mangled.&nbsp;These&nbsp;figures&nbsp;pass&nbsp;through&nbsp;those&nbsp;in&nbsp;the&nbsp;area,&nbsp;duplicating&nbsp;both&nbsp;solid&nbsp;fog&nbsp;and&nbsp;acid&nbsp;fog&nbsp;(DC&nbsp;17),&nbsp;except&nbsp;that&nbsp;they&nbsp;deal&nbsp;untyped&nbsp;damage.</li></ul>
+      <ul><li><em>Ectoplasmic Miasma:</em> CE persistent haunt (30-ft. radius;
+      ethereal cloud); ML 9; Perception DC 15 (to see congealing mist); hp 40;
+      tricked by hide from undead. Dozens of spectral visages appear, howling
+      and twisting, in the fog, their limbs and faces mangled. These figures
+      pass through those in the area, duplicating both solid fog and acid fog
+      (DC 17), except that they deal untyped damage.</li></ul>
 
-      <ul><li><em>Headless&nbsp;Horseman:</em>&nbsp;CE&nbsp;persistent&nbsp;haunt&nbsp;(10-ft.-by-50.&nbsp;ft.;&nbsp;bridge);&nbsp;ML&nbsp;10;&nbsp;Perception&nbsp;DC&nbsp;20&nbsp;(to&nbsp;hear&nbsp;the&nbsp;galloping&nbsp;of&nbsp;a&nbsp;phantom&nbsp;horse);&nbsp;hp&nbsp;45.&nbsp;This&nbsp;haunt&nbsp;appears&nbsp;as&nbsp;a&nbsp;headless,&nbsp;mounted&nbsp;rider,&nbsp;wearing&nbsp;ancient&nbsp;armor,&nbsp;head&nbsp;swinging&nbsp;from&nbsp;the&nbsp;saddle&nbsp;of&nbsp;its&nbsp;rotting&nbsp;horse.&nbsp;Every&nbsp;round,&nbsp;it&nbsp;gallops&nbsp;by,&nbsp;attacking&nbsp;a&nbsp;target&nbsp;within&nbsp;the&nbsp;area&nbsp;as&nbsp;if&nbsp;with&nbsp;mage's&nbsp;sword&nbsp;(with&nbsp;a&nbsp;+16&nbsp;attack&nbsp;bonus).</li></ul>
+      <ul><li><em>Headless Horseman:</em> CE persistent haunt (10-ft.-by-50.
+      ft.; bridge); ML 10; Perception DC 20 (to hear the galloping of a phantom
+      horse); hp 45. This haunt appears as a headless, mounted rider, wearing
+      ancient armor, head swinging from the saddle of its rotting horse. Every
+      round, it gallops by, attacking a target within the area as if with mage's
+      sword (with a +16 attack bonus).</li></ul>
 
-      <ul><li><em>Spectral&nbsp;Carriage:</em>&nbsp;CE&nbsp;haunt&nbsp;(15-ft.-by-60-ft.;&nbsp;roadway);&nbsp;ML&nbsp;11;&nbsp;Perception&nbsp;DC&nbsp;22&nbsp;(to&nbsp;hear&nbsp;galloping&nbsp;hooves);&nbsp;hp&nbsp;22.&nbsp;Appearing&nbsp;as&nbsp;a&nbsp;translucent&nbsp;horse-drawn&nbsp;carriage,&nbsp;full&nbsp;of&nbsp;laughing&nbsp;ghosts&nbsp;in&nbsp;rotting&nbsp;finery,&nbsp;this&nbsp;haunt&nbsp;swerves&nbsp;to&nbsp;run&nbsp;down&nbsp;all&nbsp;the&nbsp;area.&nbsp;This&nbsp;functions&nbsp;as&nbsp;a&nbsp;clenched&nbsp;fist&nbsp;(+25&nbsp;attack),&nbsp;affecting&nbsp;every&nbsp;target&nbsp;in&nbsp;the&nbsp;area.</li></ul>
+      <ul><li><em>Spectral Carriage:</em> CE haunt (15-ft.-by-60-ft.; roadway);
+      ML 11; Perception DC 22 (to hear galloping hooves); hp 22. Appearing as a
+      translucent horse-drawn carriage, full of laughing ghosts in rotting
+      finery, this haunt swerves to run down all the area. This functions as a
+      clenched fist (+25 attack), affecting every target in the area.</li></ul>
 
-      <ul><li><em>Hungry&nbsp;Earth:</em>&nbsp;CE&nbsp;haunt&nbsp;(80-ft.-radius;&nbsp;graveyard);&nbsp;ML&nbsp;12;&nbsp;Perception&nbsp;DC&nbsp;29&nbsp;(to&nbsp;feel&nbsp;the&nbsp;ground&nbsp;shift);&nbsp;hp&nbsp;24.&nbsp;Deep,&nbsp;yawning&nbsp;graves&nbsp;open&nbsp;in&nbsp;the&nbsp;earth&nbsp;beneath&nbsp;each&nbsp;target&nbsp;in&nbsp;the&nbsp;area,&nbsp;functioning&nbsp;as&nbsp;an&nbsp;earthquake&nbsp;cast&nbsp;on&nbsp;open&nbsp;ground&nbsp;(DC&nbsp;15&nbsp;or&nbsp;20).&nbsp;Victims&nbsp;that&nbsp;fall&nbsp;into&nbsp;the&nbsp;grave&nbsp;are&nbsp;buried&nbsp;as&nbsp;normal&nbsp;until&nbsp;they&nbsp;free&nbsp;themselves&nbsp;or&nbsp;are&nbsp;recovered.</li></ul>
+      <ul><li><em>Hungry Earth:</em> CE haunt (80-ft.-radius; graveyard); ML 12;
+      Perception DC 29 (to feel the ground shift); hp 24. Deep, yawning graves
+      open in the earth beneath each target in the area, functioning as an
+      earthquake cast on open ground (DC 15 or 20). Victims that fall into the
+      grave are buried as normal until they free themselves or are
+      recovered.</li></ul>
 
-      <ul><li><em>Gjenganger:</em>&nbsp;CE&nbsp;persistent&nbsp;haunt&nbsp;(up&nbsp;to&nbsp;65-ft.&nbsp;radius);&nbsp;ML&nbsp;13;&nbsp;Perception&nbsp;28&nbsp;(to&nbsp;see&nbsp;the&nbsp;haunt&nbsp;becoming&nbsp;corporeal);&nbsp;hp&nbsp;58.&nbsp;The&nbsp;gjenganger&nbsp;manifests&nbsp;corporeally,&nbsp;appearing&nbsp;as&nbsp;a&nbsp;twisted,&nbsp;stunted&nbsp;double&nbsp;of&nbsp;a&nbsp;target&nbsp;in&nbsp;the&nbsp;area.&nbsp;However&nbsp;it&nbsp;appears,&nbsp;the&nbsp;haunt&nbsp;relies&nbsp;on&nbsp;its&nbsp;"dead&nbsp;man's&nbsp;pinch",&nbsp;a&nbsp;+13&nbsp;melee&nbsp;touch&nbsp;attack&nbsp;that&nbsp;causes&nbsp;bubonic&nbsp;plague,&nbsp;as&nbsp;if&nbsp;by&nbsp;contagion&nbsp;(DC&nbsp;16).</li></ul>
+      <ul><li><em>Gjenganger:</em> CE persistent haunt (up to 65-ft. radius); ML
+      13; Perception 28 (to see the haunt becoming corporeal); hp 58. The
+      gjenganger manifests corporeally, appearing as a twisted, stunted double
+      of a target in the area. However it appears, the haunt relies on its "dead
+      man's pinch", a +13 melee touch attack that causes bubonic plague, as if
+      by contagion (DC 16).</li></ul>
 
-      <ul><li><em>Keening&nbsp;Suicides:</em>&nbsp;CE&nbsp;haunt&nbsp;(60-ft.-radius;&nbsp;tower);&nbsp;ML&nbsp;14;&nbsp;Perception&nbsp;DC&nbsp;30&nbsp;(to&nbsp;hear&nbsp;distant,&nbsp;plummeting&nbsp;screams);&nbsp;hp&nbsp;28.&nbsp;This&nbsp;haunt&nbsp;appears&nbsp;with&nbsp;the&nbsp;awful&nbsp;wails&nbsp;of&nbsp;those&nbsp;leaping&nbsp;to&nbsp;their&nbsp;deaths&nbsp;from&nbsp;high&nbsp;atop&nbsp;the&nbsp;tower.&nbsp;These&nbsp;wails&nbsp;overwhelm&nbsp;the&nbsp;living,&nbsp;filling&nbsp;them&nbsp;with&nbsp;lethal&nbsp;sorrow.&nbsp;This&nbsp;functions&nbsp;as&nbsp;a&nbsp;wail&nbsp;of&nbsp;the&nbsp;banshee&nbsp;(DC&nbsp;23)&nbsp;to&nbsp;all&nbsp;within&nbsp;the&nbsp;area.</li></ul>
+      <ul><li><em>Keening Suicides:</em> CE haunt (60-ft.-radius; tower); ML 14;
+      Perception DC 30 (to hear distant, plummeting screams); hp 28. This haunt
+      appears with the awful wails of those leaping to their deaths from high
+      atop the tower. These wails overwhelm the living, filling them with lethal
+      sorrow. This functions as a wail of the banshee (DC 23) to all within the
+      area.</li></ul>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;increase&nbsp;the&nbsp;possible&nbsp;ML&nbsp;of&nbsp;the&nbsp;haunt&nbsp;by&nbsp;1,&nbsp;to&nbsp;a&nbsp;maximum&nbsp;of&nbsp;your&nbsp;manifester&nbsp;level.
+      <p><strong>Augment:</strong> For every 2 additional power points you
+      spend, increase the possible ML of the haunt by 1, to a maximum of your
+      manifester level.
 
       </p>
   discipline: athanatism

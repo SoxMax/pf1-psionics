@@ -12,9 +12,12 @@ system:
       - Marksman
   description:
     value: >-
-      <p>At&nbsp;3rd&nbsp;level,&nbsp;a&nbsp;Marksman&nbsp;gains&nbsp;a&nbsp;mantra&nbsp;associated&nbsp;with&nbsp;her&nbsp;combat&nbsp;style&nbsp;that&nbsp;is&nbsp;active&nbsp;as&nbsp;long&nbsp;as&nbsp;she&nbsp;maintains&nbsp;psionic&nbsp;focus.&nbsp;A&nbsp;Marksman&nbsp;may&nbsp;not&nbsp;use&nbsp;her&nbsp;style&nbsp;mantra&nbsp;at&nbsp;the&nbsp;same&nbsp;time&nbsp;she&nbsp;uses&nbsp;Wind&nbsp;Reader;&nbsp;she&nbsp;may&nbsp;only&nbsp;gain&nbsp;the&nbsp;benefit&nbsp;of&nbsp;one&nbsp;or&nbsp;the&nbsp;other,&nbsp;not&nbsp;both.
+      <p>At 3rd level, a Marksman gains a mantra associated with her combat
+      style that is active as long as she maintains psionic focus. A Marksman
+      may not use her style mantra at the same time she uses Wind Reader; she
+      may only gain the benefit of one or the other, not both.
 
-      </p><p></p>
+      </p>
   sources:
     - date: '2012-07-23'
       pages: 47–50

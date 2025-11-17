@@ -22,21 +22,35 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;burn&nbsp;your&nbsp;mind&nbsp;and&nbsp;soul&nbsp;to&nbsp;preserve&nbsp;your&nbsp;life.</em></p>
+      <p><em>You can burn your mind and soul to preserve your life.</em></p>
 
-      <p><strong>Benefit:</strong>&nbsp;As&nbsp;a&nbsp;free&nbsp;action,&nbsp;when&nbsp;you&nbsp;are&nbsp;reduced&nbsp;to&nbsp;0&nbsp;or&nbsp;fewer&nbsp;hit&nbsp;points,&nbsp;you&nbsp;can&nbsp;heal&nbsp;1&nbsp;hit&nbsp;point&nbsp;by&nbsp;taking&nbsp;1&nbsp;ability&nbsp;burn&nbsp;damage&nbsp;to&nbsp;one&nbsp;of&nbsp;your&nbsp;three&nbsp;mental&nbsp;ability&nbsp;scores:&nbsp;Intelligence,&nbsp;Wisdom,&nbsp;and&nbsp;Charisma.&nbsp;For&nbsp;example,&nbsp;you&nbsp;may&nbsp;heal&nbsp;1&nbsp;hit&nbsp;point&nbsp;by&nbsp;taking&nbsp;1&nbsp;point&nbsp;of&nbsp;ability&nbsp;burn&nbsp;to&nbsp;your&nbsp;Intelligence.
-
-      </p>
-
-      <p>You&nbsp;can&nbsp;recover&nbsp;additional&nbsp;hit&nbsp;points&nbsp;for&nbsp;a&nbsp;proportional&nbsp;cost&nbsp;to&nbsp;Intelligence,&nbsp;Wisdom,&nbsp;or&nbsp;Charisma.&nbsp;If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when&nbsp;you&nbsp;use&nbsp;Feast&nbsp;of&nbsp;Folly,&nbsp;you&nbsp;heal&nbsp;2&nbsp;hit&nbsp;points&nbsp;for&nbsp;each&nbsp;point&nbsp;of&nbsp;ability&nbsp;burn&nbsp;you&nbsp;take.&nbsp;The&nbsp;amount&nbsp;you&nbsp;can&nbsp;heal&nbsp;this&nbsp;way&nbsp;in&nbsp;one&nbsp;use&nbsp;of&nbsp;Feast&nbsp;of&nbsp;Folly&nbsp;can&nbsp;not&nbsp;be&nbsp;higher&nbsp;than&nbsp;your&nbsp;HD&nbsp;and&nbsp;you&nbsp;cannot&nbsp;use&nbsp;this&nbsp;feat&nbsp;more&nbsp;than&nbsp;once&nbsp;per&nbsp;round.
-
-      </p>
-
-      <p>For&nbsp;example,&nbsp;Telthor&nbsp;is&nbsp;reduced&nbsp;to&nbsp;-5&nbsp;hp.&nbsp;He&nbsp;decides&nbsp;to&nbsp;take&nbsp;5&nbsp;points&nbsp;of&nbsp;ability&nbsp;burn&nbsp;and&nbsp;expends&nbsp;his&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;heal&nbsp;10&nbsp;hit&nbsp;points.&nbsp;He&nbsp;then&nbsp;takes&nbsp;3&nbsp;points&nbsp;of&nbsp;Intelligence&nbsp;burn&nbsp;and&nbsp;2&nbsp;points&nbsp;of&nbsp;Charisma&nbsp;burn,&nbsp;leaving&nbsp;his&nbsp;Wisdom&nbsp;untouched.
+      <p><strong>Benefit:</strong> As a free action, when you are reduced to 0
+      or fewer hit points, you can heal 1 hit point by taking 1 ability burn
+      damage to one of your three mental ability scores: Intelligence, Wisdom,
+      and Charisma. For example, you may heal 1 hit point by taking 1 point of
+      ability burn to your Intelligence.
 
       </p>
 
-      <p><strong>Special:</strong>&nbsp;Only&nbsp;intelligent,&nbsp;sentient&nbsp;creatures&nbsp;can&nbsp;use&nbsp;this&nbsp;feat.&nbsp;Any&nbsp;creature&nbsp;immune&nbsp;to&nbsp;ability&nbsp;damage&nbsp;or&nbsp;ability&nbsp;burn&nbsp;is&nbsp;unable&nbsp;to&nbsp;benefit&nbsp;from&nbsp;this&nbsp;feat.
+      <p>You can recover additional hit points for a proportional cost to
+      Intelligence, Wisdom, or Charisma. If you expend your psionic focus when
+      you use Feast of Folly, you heal 2 hit points for each point of ability
+      burn you take. The amount you can heal this way in one use of Feast of
+      Folly can not be higher than your HD and you cannot use this feat more
+      than once per round.
+
+      </p>
+
+      <p>For example, Telthor is reduced to -5 hp. He decides to take 5 points
+      of ability burn and expends his psionic focus to heal 10 hit points. He
+      then takes 3 points of Intelligence burn and 2 points of Charisma burn,
+      leaving his Wisdom untouched.
+
+      </p>
+
+      <p><strong>Special:</strong> Only intelligent, sentient creatures can use
+      this feat. Any creature immune to ability damage or ability burn is unable
+      to benefit from this feat.
 
       </p>
   disabled: false

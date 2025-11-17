@@ -29,37 +29,79 @@ system:
         value: You and one other corporeal undead creature
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;attempt&nbsp;to&nbsp;take&nbsp;control&nbsp;of&nbsp;a&nbsp;nearby&nbsp;corporeal&nbsp;undead&nbsp;creature,&nbsp;forcing&nbsp;your&nbsp;mind&nbsp;and&nbsp;soul&nbsp;into&nbsp;its&nbsp;body,&nbsp;and&nbsp;its&nbsp;mind&nbsp;into&nbsp;your&nbsp;body.&nbsp;You&nbsp;can&nbsp;target&nbsp;any&nbsp;creature&nbsp;whose&nbsp;Hit&nbsp;Dice&nbsp;are&nbsp;equal&nbsp;to&nbsp;or&nbsp;less&nbsp;than&nbsp;your&nbsp;manifester&nbsp;level.
+      <p>You can attempt to take control of a nearby corporeal undead creature,
+      forcing your mind and soul into its body, and its mind into your body. You
+      can target any creature whose Hit Dice are equal to or less than your
+      manifester level.
 
       </p>
 
-      <p>You&nbsp;possess&nbsp;the&nbsp;target's&nbsp;body&nbsp;and&nbsp;force&nbsp;the&nbsp;creature's&nbsp;mind&nbsp;into&nbsp;your&nbsp;body&nbsp;unless&nbsp;it&nbsp;succeeds&nbsp;on&nbsp;a&nbsp;Will&nbsp;save.&nbsp;You&nbsp;can&nbsp;move&nbsp;your&nbsp;mind&nbsp;back&nbsp;into&nbsp;your&nbsp;own&nbsp;body&nbsp;whenever&nbsp;you&nbsp;desire,&nbsp;which&nbsp;returns&nbsp;the&nbsp;subject's&nbsp;mind&nbsp;to&nbsp;its&nbsp;own&nbsp;body&nbsp;and&nbsp;ends&nbsp;the&nbsp;power.&nbsp;If&nbsp;the&nbsp;manifestation&nbsp;succeeds,&nbsp;your&nbsp;life&nbsp;force&nbsp;occupies&nbsp;the&nbsp;host&nbsp;body,&nbsp;and&nbsp;the&nbsp;host's&nbsp;life&nbsp;force&nbsp;takes&nbsp;over&nbsp;yours.
+      <p>You possess the target's body and force the creature's mind into your
+      body unless it succeeds on a Will save. You can move your mind back into
+      your own body whenever you desire, which returns the subject's mind to its
+      own body and ends the power. If the manifestation succeeds, your life
+      force occupies the host body, and the host's life force takes over yours.
 
       </p>
 
-      <p>You&nbsp;can&nbsp;call&nbsp;on&nbsp;rudimentary&nbsp;or&nbsp;instinctive&nbsp;knowledge&nbsp;of&nbsp;the&nbsp;subject&nbsp;creature,&nbsp;but&nbsp;not&nbsp;upon&nbsp;its&nbsp;acquired&nbsp;or&nbsp;learned&nbsp;knowledge&nbsp;(such&nbsp;as&nbsp;skills&nbsp;and&nbsp;feats&nbsp;it&nbsp;possesses).&nbsp;The&nbsp;same&nbsp;is&nbsp;true&nbsp;for&nbsp;the&nbsp;subject&nbsp;in&nbsp;your&nbsp;body&nbsp;-&nbsp;mindless&nbsp;undead&nbsp;or&nbsp;undead&nbsp;with&nbsp;no&nbsp;Intelligence&nbsp;score&nbsp;will&nbsp;usually&nbsp;take&nbsp;no&nbsp;actions&nbsp;unless&nbsp;ordered&nbsp;to.&nbsp;The&nbsp;mind&nbsp;switch&nbsp;brings&nbsp;about&nbsp;the&nbsp;following&nbsp;changes.
+      <p>You can call on rudimentary or instinctive knowledge of the subject
+      creature, but not upon its acquired or learned knowledge (such as skills
+      and feats it possesses). The same is true for the subject in your body -
+      mindless undead or undead with no Intelligence score will usually take no
+      actions unless ordered to. The mind switch brings about the following
+      changes.
 
-      </p><ul><li>You&nbsp;count&nbsp;as&nbsp;undead&nbsp;for&nbsp;all&nbsp;purposes,&nbsp;gaining&nbsp;standard&nbsp;undead&nbsp;immunities.</li><li>You&nbsp;gain&nbsp;the&nbsp;Strength&nbsp;and&nbsp;Dexterity&nbsp;scores&nbsp;of&nbsp;your&nbsp;assumed&nbsp;body.</li><li>You&nbsp;gain&nbsp;the&nbsp;natural&nbsp;armor,&nbsp;natural&nbsp;attacks,&nbsp;movement,&nbsp;and&nbsp;other&nbsp;simple&nbsp;physical&nbsp;characteristics&nbsp;of&nbsp;your&nbsp;assumed&nbsp;body.</li><li>You&nbsp;gain&nbsp;the&nbsp;extraordinary&nbsp;special&nbsp;attacks&nbsp;and&nbsp;qualities&nbsp;of&nbsp;your&nbsp;assumed&nbsp;body,&nbsp;but&nbsp;you&nbsp;do&nbsp;not&nbsp;gain&nbsp;supernatural&nbsp;or&nbsp;spell-like&nbsp;abilities.</li><li>You&nbsp;gain&nbsp;the&nbsp;possessions&nbsp;and&nbsp;equipment&nbsp;of&nbsp;your&nbsp;assumed&nbsp;body.</li><li>You&nbsp;retain&nbsp;your&nbsp;own&nbsp;hit&nbsp;points,&nbsp;saving&nbsp;throws&nbsp;(possibly&nbsp;modified&nbsp;by&nbsp;new&nbsp;ability&nbsp;scores),&nbsp;class&nbsp;abilities,&nbsp;supernatural&nbsp;and&nbsp;psi-like&nbsp;abilities,&nbsp;spells&nbsp;and&nbsp;powers,&nbsp;and&nbsp;skills&nbsp;and&nbsp;feats&nbsp;(although&nbsp;skill&nbsp;checks&nbsp;use&nbsp;your&nbsp;new&nbsp;ability&nbsp;scores,&nbsp;and&nbsp;you&nbsp;may&nbsp;be&nbsp;temporarily&nbsp;unable&nbsp;to&nbsp;use&nbsp;feats&nbsp;whose&nbsp;requirements&nbsp;you&nbsp;do&nbsp;not&nbsp;meet&nbsp;in&nbsp;your&nbsp;new&nbsp;body).</li><li>You&nbsp;suffer&nbsp;one&nbsp;negative&nbsp;level&nbsp;while&nbsp;in&nbsp;your&nbsp;assumed&nbsp;body.</li></ul>
+      </p><ul><li>You count as undead for all purposes, gaining standard undead
+      immunities.</li><li>You gain the Strength and Dexterity scores of your
+      assumed body.</li><li>You gain the natural armor, natural attacks,
+      movement, and other simple physical characteristics of your assumed
+      body.</li><li>You gain the extraordinary special attacks and qualities of
+      your assumed body, but you do not gain supernatural or spell-like
+      abilities.</li><li>You gain the possessions and equipment of your assumed
+      body.</li><li>You retain your own hit points, saving throws (possibly
+      modified by new ability scores), class abilities, supernatural and
+      psi-like abilities, spells and powers, and skills and feats (although
+      skill checks use your new ability scores, and you may be temporarily
+      unable to use feats whose requirements you do not meet in your new
+      body).</li><li>You suffer one negative level while in your assumed
+      body.</li></ul>
 
-      <p>Supernatural&nbsp;abilities&nbsp;that&nbsp;require&nbsp;a&nbsp;certain&nbsp;body&nbsp;part&nbsp;may&nbsp;be&nbsp;unavailable&nbsp;in&nbsp;your&nbsp;new&nbsp;form.
+      <p>Supernatural abilities that require a certain body part may be
+      unavailable in your new form.
 
       </p>
 
-      <p>If&nbsp;either&nbsp;body&nbsp;is&nbsp;killed&nbsp;while&nbsp;the&nbsp;power&nbsp;is&nbsp;in&nbsp;effect,&nbsp;the&nbsp;other&nbsp;participant&nbsp;also&nbsp;dies&nbsp;when&nbsp;the&nbsp;power&nbsp;ends.&nbsp;If&nbsp;one&nbsp;participant's&nbsp;body&nbsp;becomes&nbsp;petrified,&nbsp;imprisoned&nbsp;by&nbsp;temporal&nbsp;stasis&nbsp;or&nbsp;imprisonment,&nbsp;or&nbsp;incapacitated&nbsp;in&nbsp;some&nbsp;other&nbsp;way,&nbsp;the&nbsp;other&nbsp;participant&nbsp;will&nbsp;be&nbsp;incapacitated&nbsp;in&nbsp;that&nbsp;way&nbsp;when&nbsp;the&nbsp;power&nbsp;ends.
+      <p>If either body is killed while the power is in effect, the other
+      participant also dies when the power ends. If one participant's body
+      becomes petrified, imprisoned by temporal stasis or imprisonment, or
+      incapacitated in some other way, the other participant will be
+      incapacitated in that way when the power ends.
 
       </p>
 
-      <p>A&nbsp;targeted&nbsp;dispel&nbsp;psionics&nbsp;(or&nbsp;similar&nbsp;spells&nbsp;or&nbsp;effects)&nbsp;successfully&nbsp;manifested&nbsp;on&nbsp;either&nbsp;participant&nbsp;causes&nbsp;both&nbsp;minds&nbsp;to&nbsp;return&nbsp;to&nbsp;their&nbsp;original&nbsp;bodies.
+      <p>A targeted dispel psionics (or similar spells or effects) successfully
+      manifested on either participant causes both minds to return to their
+      original bodies.
 
       </p>
 
-      <p>If&nbsp;you&nbsp;successfully&nbsp;use&nbsp;foot&nbsp;in&nbsp;the&nbsp;grave&nbsp;while&nbsp;already&nbsp;under&nbsp;the&nbsp;effect&nbsp;of&nbsp;foot&nbsp;in&nbsp;the&nbsp;grave,&nbsp;the&nbsp;original&nbsp;target&nbsp;is&nbsp;returned&nbsp;to&nbsp;its&nbsp;original&nbsp;body,&nbsp;the&nbsp;new&nbsp;target&nbsp;occupies&nbsp;your&nbsp;original&nbsp;body,&nbsp;and&nbsp;you&nbsp;occupy&nbsp;the&nbsp;body&nbsp;of&nbsp;the&nbsp;new&nbsp;target.
+      <p>If you successfully use foot in the grave while already under the
+      effect of foot in the grave, the original target is returned to its
+      original body, the new target occupies your original body, and you occupy
+      the body of the new target.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power may be augmented in one of the
+      following ways.
 
-      </p><ol><li>By&nbsp;spending&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;while&nbsp;this&nbsp;power&nbsp;is&nbsp;active&nbsp;to&nbsp;attempt&nbsp;to&nbsp;take&nbsp;control&nbsp;of&nbsp;a&nbsp;different&nbsp;corporeal&nbsp;undead&nbsp;body.&nbsp;You&nbsp;may&nbsp;do&nbsp;this&nbsp;as&nbsp;many&nbsp;times&nbsp;as&nbsp;you&nbsp;wish&nbsp;while&nbsp;this&nbsp;power&nbsp;is&nbsp;active,&nbsp;but&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;each&nbsp;time&nbsp;to&nbsp;do&nbsp;so.&nbsp;Whenever&nbsp;you&nbsp;leave&nbsp;a&nbsp;body&nbsp;in&nbsp;this&nbsp;way,&nbsp;the&nbsp;original&nbsp;target&nbsp;is&nbsp;returned&nbsp;to&nbsp;its&nbsp;body.</li><li>By&nbsp;spending&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;increase&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;1&nbsp;hour/level.</li></ol>
+      </p><ol><li>By spending 6 additional power points, you may expend your
+      psionic focus while this power is active to attempt to take control of a
+      different corporeal undead body. You may do this as many times as you wish
+      while this power is active, but must expend your psionic focus each time
+      to do so. Whenever you leave a body in this way, the original target is
+      returned to its body.</li><li>By spending 4 additional power points,
+      increase the duration of this power to 1 hour/level.</li></ol>
   discipline: athanatism
   display:
     auditory: false

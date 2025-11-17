@@ -63,7 +63,8 @@ system:
     umd: false
   description:
     value: >-
-      <p>When&nbsp;a&nbsp;xeph&nbsp;takes&nbsp;a&nbsp;level&nbsp;in&nbsp;a&nbsp;favored&nbsp;class,&nbsp;he&nbsp;can&nbsp;choose&nbsp;to&nbsp;gain&nbsp;an&nbsp;additional&nbsp;power&nbsp;point&nbsp;instead&nbsp;of&nbsp;a&nbsp;hit&nbsp;point&nbsp;or&nbsp;skill&nbsp;point.</li></p>
+      <p>When a xeph takes a level in a favored class, he can choose to gain an
+      additional power point instead of a hit point or skill point.</li></p>
   disabled: false
   inherited: false
   showInCombat: false

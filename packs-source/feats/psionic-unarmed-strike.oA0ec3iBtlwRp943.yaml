@@ -22,13 +22,28 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;unarmed&nbsp;attacks&nbsp;sometimes&nbsp;bypass&nbsp;barriers.</em></p>
+      <p><em>Your unarmed attacks sometimes bypass barriers.</em></p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Dex&nbsp;13,&nbsp;Wis&nbsp;13,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Unarmed%20Strike">Improved&nbsp;Unarmed&nbsp;Strike</a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Stunning%20Fist">Stunning&nbsp;Fist</a>.
+      <p><strong>Prerequisites:</strong> Dex 13, Wis 13, <a rel="nofollow"
+      class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Unarmed%20Strike">Improved
+      Unarmed Strike</a>, <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Stunning%20Fist">Stunning
+      Fist</a>.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.&nbsp;You&nbsp;can&nbsp;attempt&nbsp;to&nbsp;make&nbsp;a&nbsp;single&nbsp;unarmed&nbsp;melee&nbsp;attack&nbsp;as&nbsp;a&nbsp;standard&nbsp;action&nbsp;against&nbsp;a&nbsp;target&nbsp;that&nbsp;is&nbsp;sheltered&nbsp;behind&nbsp;a&nbsp;wall,&nbsp;wall&nbsp;of&nbsp;force&nbsp;effect,&nbsp;or&nbsp;similar&nbsp;barrier.&nbsp;Your&nbsp;attack&nbsp;briefly&nbsp;skips&nbsp;through&nbsp;the&nbsp;<a&nbsp;href="/wiki/Astral_Plane"&nbsp;title="Astral&nbsp;Plane">Astral&nbsp;Plane</a>&nbsp;to&nbsp;bypass&nbsp;the&nbsp;barrier.&nbsp;This&nbsp;does&nbsp;not&nbsp;grant&nbsp;you&nbsp;line&nbsp;of&nbsp;sight&nbsp;or&nbsp;extra&nbsp;reach,&nbsp;requiring&nbsp;you&nbsp;to&nbsp;make&nbsp;the&nbsp;attack&nbsp;without&nbsp;being&nbsp;able&nbsp;to&nbsp;see&nbsp;the&nbsp;target&nbsp;or&nbsp;use&nbsp;some&nbsp;other&nbsp;method&nbsp;of&nbsp;seeing&nbsp;the&nbsp;target&nbsp;(such&nbsp;as&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/SpellDisplay.aspx?ItemName=clairaudience/clairvoyance"><em>clairaudience/clairvoyance</em></a>)&nbsp;and&nbsp;be&nbsp;within&nbsp;your&nbsp;normal&nbsp;reach&nbsp;for&nbsp;your&nbsp;unarmed&nbsp;attack.
+      <p><strong>Benefit:</strong> To use this feat, you must expend your
+      psionic focus. You can attempt to make a single unarmed melee attack as a
+      standard action against a target that is sheltered behind a wall, wall of
+      force effect, or similar barrier. Your attack briefly skips through the <a
+      href="/wiki/Astral_Plane" title="Astral Plane">Astral Plane</a> to bypass
+      the barrier. This does not grant you line of sight or extra reach,
+      requiring you to make the attack without being able to see the target or
+      use some other method of seeing the target (such as <a rel="nofollow"
+      class="external text"
+      href="https://www.aonprd.com/SpellDisplay.aspx?ItemName=clairaudience/clairvoyance"><em>clairaudience/clairvoyance</em></a>)
+      and be within your normal reach for your unarmed attack.
 
       </p>
   disabled: false

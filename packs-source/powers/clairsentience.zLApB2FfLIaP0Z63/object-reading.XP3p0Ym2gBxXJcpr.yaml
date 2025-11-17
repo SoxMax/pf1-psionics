@@ -29,37 +29,52 @@ system:
         value: Object touched
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;learn&nbsp;details&nbsp;of&nbsp;an&nbsp;inanimate&nbsp;object's&nbsp;previous&nbsp;owner.&nbsp;Objects&nbsp;accumulate&nbsp;psychic&nbsp;impressions&nbsp;left&nbsp;by&nbsp;their&nbsp;previous&nbsp;owners,&nbsp;which&nbsp;can&nbsp;be&nbsp;read&nbsp;by&nbsp;use&nbsp;of&nbsp;this&nbsp;power.&nbsp;The&nbsp;amount&nbsp;of&nbsp;information&nbsp;revealed&nbsp;depends&nbsp;on&nbsp;how&nbsp;long&nbsp;you&nbsp;study&nbsp;a&nbsp;particular&nbsp;object.
+      <p>You can learn details of an inanimate object's previous owner. Objects
+      accumulate psychic impressions left by their previous owners, which can be
+      read by use of this power. The amount of information revealed depends on
+      how long you study a particular object.
 
-      </p><ul><li><em>1st&nbsp;Minute:</em>&nbsp;Last&nbsp;owner's&nbsp;race.</li></ul>
+      </p><ul><li><em>1st Minute:</em> Last owner's race.</li></ul>
 
-      <ul><li><em>2nd&nbsp;Minute:</em>&nbsp;Last&nbsp;owner's&nbsp;gender.</li></ul>
+      <ul><li><em>2nd Minute:</em> Last owner's gender.</li></ul>
 
-      <ul><li><em>3rd&nbsp;Minute:</em>&nbsp;Last&nbsp;owner's&nbsp;age.</li></ul>
+      <ul><li><em>3rd Minute:</em> Last owner's age.</li></ul>
 
-      <ul><li><em>4th&nbsp;Minute:</em>&nbsp;Last&nbsp;owner's&nbsp;alignment.</li></ul>
+      <ul><li><em>4th Minute:</em> Last owner's alignment.</li></ul>
 
-      <ul><li><em>5th&nbsp;Minute:</em>&nbsp;How&nbsp;last&nbsp;owner&nbsp;gained&nbsp;and&nbsp;lost&nbsp;the&nbsp;object.</li></ul>
+      <ul><li><em>5th Minute:</em> How last owner gained and lost the
+      object.</li></ul>
 
-      <ul><li><em>6th+&nbsp;Minute:</em>&nbsp;Next-to-last&nbsp;owner's&nbsp;race,&nbsp;and&nbsp;so&nbsp;on.</li></ul>
+      <ul><li><em>6th+ Minute:</em> Next-to-last owner's race, and so
+      on.</li></ul>
 
-      <p>The&nbsp;power&nbsp;always&nbsp;correctly&nbsp;identifies&nbsp;the&nbsp;last&nbsp;owner&nbsp;of&nbsp;the&nbsp;item,&nbsp;and&nbsp;the&nbsp;original&nbsp;owner&nbsp;(if&nbsp;you&nbsp;keep&nbsp;the&nbsp;power&nbsp;active&nbsp;long&nbsp;enough).
-
-      </p>
-
-      <p>There&nbsp;is&nbsp;a&nbsp;90%&nbsp;chance&nbsp;that&nbsp;this&nbsp;power&nbsp;will&nbsp;successfully&nbsp;identify&nbsp;all&nbsp;other&nbsp;former&nbsp;owners&nbsp;in&nbsp;sequence,&nbsp;but&nbsp;there&nbsp;is&nbsp;a&nbsp;10%&nbsp;chance&nbsp;that&nbsp;one&nbsp;former&nbsp;owner&nbsp;will&nbsp;be&nbsp;skipped&nbsp;and&nbsp;thus&nbsp;not&nbsp;identified.
-
-      </p>
-
-      <p>This&nbsp;power&nbsp;will&nbsp;not&nbsp;identify&nbsp;casual&nbsp;users&nbsp;as&nbsp;owners.&nbsp;(Anyone&nbsp;who&nbsp;uses&nbsp;an&nbsp;object&nbsp;to&nbsp;attack&nbsp;someone&nbsp;or&nbsp;something&nbsp;is&nbsp;not&nbsp;thereafter&nbsp;considered&nbsp;a&nbsp;casual&nbsp;user.)
+      <p>The power always correctly identifies the last owner of the item, and
+      the original owner (if you keep the power active long enough).
 
       </p>
 
-      <p>An&nbsp;object&nbsp;without&nbsp;any&nbsp;previous&nbsp;owners&nbsp;reveals&nbsp;no&nbsp;information.&nbsp;You&nbsp;can&nbsp;continue&nbsp;to&nbsp;run&nbsp;through&nbsp;a&nbsp;list&nbsp;of&nbsp;previous&nbsp;owners&nbsp;and&nbsp;learn&nbsp;details&nbsp;about&nbsp;them&nbsp;as&nbsp;long&nbsp;as&nbsp;the&nbsp;power's&nbsp;duration&nbsp;lasts.&nbsp;If&nbsp;you&nbsp;use&nbsp;this&nbsp;power&nbsp;additional&nbsp;times&nbsp;on&nbsp;the&nbsp;same&nbsp;object,&nbsp;the&nbsp;information&nbsp;yielded&nbsp;is&nbsp;the&nbsp;same&nbsp;as&nbsp;if&nbsp;you&nbsp;were&nbsp;using&nbsp;the&nbsp;power&nbsp;on&nbsp;the&nbsp;object&nbsp;for&nbsp;the&nbsp;first&nbsp;time.
+      <p>There is a 90% chance that this power will successfully identify all
+      other former owners in sequence, but there is a 10% chance that one former
+      owner will be skipped and thus not identified.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;maximum&nbsp;duration&nbsp;increases&nbsp;by&nbsp;10&nbsp;minutes.
+      <p>This power will not identify casual users as owners. (Anyone who uses
+      an object to attack someone or something is not thereafter considered a
+      casual user.)
+
+      </p>
+
+      <p>An object without any previous owners reveals no information. You can
+      continue to run through a list of previous owners and learn details about
+      them as long as the power's duration lasts. If you use this power
+      additional times on the same object, the information yielded is the same
+      as if you were using the power on the object for the first time.
+
+      </p>
+
+      <p><strong>Augment:</strong> For every additional power point you spend,
+      this power's maximum duration increases by 10 minutes.
 
       </p>
   discipline: clairsentience

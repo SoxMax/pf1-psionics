@@ -64,7 +64,14 @@ system:
     umd: false
   description:
     value: >-
-      <p>Duergars&nbsp;gain&nbsp;the&nbsp;following&nbsp;psi-like&nbsp;abilities:&nbsp;1/day—<em><a&nbsp;href="/wiki/Expansion,_Karak%27s"&nbsp;title="Expansion,&nbsp;Karak's">expansion,&nbsp;karak's</a></em>&nbsp;and&nbsp;<em><a&nbsp;href="/wiki/Cloud_Mind"&nbsp;title="Cloud&nbsp;Mind">cloud&nbsp;mind</a></em>.&nbsp;These&nbsp;abilities&nbsp;affect&nbsp;only&nbsp;the&nbsp;duergar&nbsp;and&nbsp;his&nbsp;gear.&nbsp;The&nbsp;manifester&nbsp;level&nbsp;for&nbsp;these&nbsp;effects&nbsp;is&nbsp;equal&nbsp;to&nbsp;the&nbsp;duergar's&nbsp;level&nbsp;(minimum&nbsp;3rd).&nbsp;The&nbsp;DC&nbsp;for&nbsp;<em><a&nbsp;href="/wiki/Cloud_Mind"&nbsp;title="Cloud&nbsp;Mind">cloud&nbsp;mind</a></em>&nbsp;is&nbsp;equal&nbsp;to&nbsp;10&nbsp;+&nbsp;the&nbsp;power's&nbsp;level&nbsp;+&nbsp;the&nbsp;duergar's&nbsp;Charisma&nbsp;modifier.</li></p>
+      <p>Duergars gain the following psi-like abilities: 1/day—<em><a
+      href="/wiki/Expansion,_Karak%27s" title="Expansion, Karak's">expansion,
+      karak's</a></em> and <em><a href="/wiki/Cloud_Mind" title="Cloud
+      Mind">cloud mind</a></em>. These abilities affect only the duergar and his
+      gear. The manifester level for these effects is equal to the duergar's
+      level (minimum 3rd). The DC for <em><a href="/wiki/Cloud_Mind"
+      title="Cloud Mind">cloud mind</a></em> is equal to 10 + the power's level
+      + the duergar's Charisma modifier.</li></p>
   subType: racial
   traitCategory: magical
 type: feat

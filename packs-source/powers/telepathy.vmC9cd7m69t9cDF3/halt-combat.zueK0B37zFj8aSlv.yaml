@@ -33,11 +33,18 @@ system:
         value: 60 ft. radius burst centered on you
   description:
     value: >-
-      <p>You&nbsp;send&nbsp;out&nbsp;a&nbsp;powerful&nbsp;telepathic&nbsp;command,&nbsp;dazing&nbsp;all&nbsp;creatures&nbsp;in&nbsp;the&nbsp;area&nbsp;for&nbsp;one&nbsp;round&nbsp;unless&nbsp;they&nbsp;make&nbsp;a&nbsp;successful&nbsp;Will&nbsp;save.&nbsp;During&nbsp;this&nbsp;round,&nbsp;time&nbsp;continues&nbsp;for&nbsp;all&nbsp;creatures&nbsp;in&nbsp;the&nbsp;area&nbsp;as&nbsp;normal.
+      <p>You send out a powerful telepathic command, dazing all creatures in the
+      area for one round unless they make a successful Will save. During this
+      round, time continues for all creatures in the area as normal.
 
       </p>
 
-      <p>As&nbsp;part&nbsp;of&nbsp;the&nbsp;action&nbsp;of&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;you&nbsp;may&nbsp;attempt&nbsp;to&nbsp;convince&nbsp;some&nbsp;or&nbsp;all&nbsp;of&nbsp;the&nbsp;affected&nbsp;creatures&nbsp;to&nbsp;cease&nbsp;combat&nbsp;once&nbsp;the&nbsp;initial&nbsp;effect&nbsp;wears&nbsp;off.&nbsp;Each&nbsp;creature&nbsp;you&nbsp;target&nbsp;to&nbsp;cease&nbsp;combat&nbsp;must&nbsp;make&nbsp;a&nbsp;second&nbsp;Will&nbsp;save&nbsp;or&nbsp;they&nbsp;are&nbsp;incapable&nbsp;of&nbsp;taking&nbsp;an&nbsp;offensive&nbsp;action&nbsp;for&nbsp;the&nbsp;next&nbsp;ten&nbsp;minutes&nbsp;except&nbsp;against&nbsp;a&nbsp;creature&nbsp;who&nbsp;takes&nbsp;an&nbsp;offensive&nbsp;action&nbsp;against&nbsp;them.
+      <p>As part of the action of manifesting this power, you may attempt to
+      convince some or all of the affected creatures to cease combat once the
+      initial effect wears off. Each creature you target to cease combat must
+      make a second Will save or they are incapable of taking an offensive
+      action for the next ten minutes except against a creature who takes an
+      offensive action against them.
 
       </p>
   descriptors:

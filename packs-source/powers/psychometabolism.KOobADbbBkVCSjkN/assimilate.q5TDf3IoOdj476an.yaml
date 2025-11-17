@@ -32,49 +32,65 @@ system:
         value: One living creature touched
   description:
     value: >-
-      <p>Your&nbsp;pointing&nbsp;finger&nbsp;turns&nbsp;black&nbsp;as&nbsp;obsidian.&nbsp;A&nbsp;creature&nbsp;touched&nbsp;by&nbsp;you&nbsp;is&nbsp;partially&nbsp;assimilated&nbsp;into&nbsp;your&nbsp;form&nbsp;and&nbsp;takes&nbsp;20d6&nbsp;points&nbsp;of&nbsp;damage.&nbsp;Any&nbsp;creature&nbsp;reduced&nbsp;to&nbsp;0&nbsp;or&nbsp;fewer&nbsp;hit&nbsp;points&nbsp;by&nbsp;this&nbsp;power&nbsp;is&nbsp;killed,&nbsp;entirely&nbsp;assimilated&nbsp;into&nbsp;your&nbsp;form,&nbsp;leaving&nbsp;behind&nbsp;only&nbsp;a&nbsp;trace&nbsp;of&nbsp;fine&nbsp;dust.&nbsp;An&nbsp;assimilated&nbsp;creature's&nbsp;equipment&nbsp;is&nbsp;unaffected.
+      <p>Your pointing finger turns black as obsidian. A creature touched by you
+      is partially assimilated into your form and takes 20d6 points of damage.
+      Any creature reduced to 0 or fewer hit points by this power is killed,
+      entirely assimilated into your form, leaving behind only a trace of fine
+      dust. An assimilated creature's equipment is unaffected.
 
       </p>
 
-      <p>A&nbsp;creature&nbsp;that&nbsp;is&nbsp;partially&nbsp;assimilated&nbsp;into&nbsp;your&nbsp;form&nbsp;(that&nbsp;is,&nbsp;a&nbsp;creature&nbsp;that&nbsp;has&nbsp;at&nbsp;least&nbsp;1&nbsp;hit&nbsp;point&nbsp;following&nbsp;your&nbsp;use&nbsp;of&nbsp;this&nbsp;power)&nbsp;grants&nbsp;you&nbsp;a&nbsp;number&nbsp;of&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;half&nbsp;the&nbsp;damage&nbsp;you&nbsp;dealt&nbsp;for&nbsp;1&nbsp;hour.&nbsp;Temporary&nbsp;hit&nbsp;points&nbsp;gained&nbsp;by&nbsp;assimilating&nbsp;multiple&nbsp;creatures,&nbsp;like&nbsp;all
+      <p>A creature that is partially assimilated into your form (that is, a
+      creature that has at least 1 hit point following your use of this power)
+      grants you a number of temporary hit points equal to half the damage you
+      dealt for 1 hour. Temporary hit points gained by assimilating multiple
+      creatures, like all
 
-      temporary&nbsp;hit&nbsp;points,&nbsp;do&nbsp;not&nbsp;stack.
+      temporary hit points, do not stack.
 
       </p>
 
-      <p>A&nbsp;creature&nbsp;that&nbsp;is&nbsp;completely&nbsp;assimilated&nbsp;grants&nbsp;you&nbsp;a&nbsp;number&nbsp;of&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;the&nbsp;hit&nbsp;points&nbsp;it&nbsp;had&nbsp;prior&nbsp;to&nbsp;your&nbsp;attack.&nbsp;If&nbsp;the&nbsp;assimilated&nbsp;creature&nbsp;knows&nbsp;psionic&nbsp;powers,&nbsp;you&nbsp;gain&nbsp;knowledge&nbsp;of&nbsp;one&nbsp;of&nbsp;its&nbsp;powers&nbsp;for&nbsp;1&nbsp;hour&nbsp;(chosen&nbsp;randomly).&nbsp;You&nbsp;gain&nbsp;some&nbsp;semblance&nbsp;of&nbsp;a&nbsp;creature&nbsp;you&nbsp;completely&nbsp;assimilate&nbsp;for&nbsp;1&nbsp;hour,&nbsp;granting&nbsp;you&nbsp;a&nbsp;+10&nbsp;bonus&nbsp;on&nbsp;Disguise&nbsp;checks&nbsp;made&nbsp;to&nbsp;appear&nbsp;as&nbsp;that&nbsp;creature&nbsp;during&nbsp;that&nbsp;time.&nbsp;You&nbsp;also&nbsp;gain&nbsp;a&nbsp;bonus&nbsp;to&nbsp;your&nbsp;ability&nbsp;scores&nbsp;for&nbsp;1&nbsp;hour&nbsp;for&nbsp;completely&nbsp;assimilating&nbsp;creatures&nbsp;based&nbsp;upon&nbsp;the&nbsp;creature's&nbsp;relative&nbsp;hit&nbsp;dice&nbsp;related&nbsp;to&nbsp;yours&nbsp;as&nbsp;shown&nbsp;on&nbsp;the&nbsp;chart&nbsp;below.
+      <p>A creature that is completely assimilated grants you a number of
+      temporary hit points equal to the hit points it had prior to your attack.
+      If the assimilated creature knows psionic powers, you gain knowledge of
+      one of its powers for 1 hour (chosen randomly). You gain some semblance of
+      a creature you completely assimilate for 1 hour, granting you a +10 bonus
+      on Disguise checks made to appear as that creature during that time. You
+      also gain a bonus to your ability scores for 1 hour for completely
+      assimilating creatures based upon the creature's relative hit dice related
+      to yours as shown on the chart below.
 
-      </p><table><tr><th>Target's&nbsp;HD&nbsp;Compared&nbsp;to&nbsp;Manifester
+      </p><table><tr><th>Target's HD Compared to Manifester
 
       </th><th>Bonus
 
-      </th></tr><tr><td>9&nbsp;or&nbsp;more&nbsp;greater
+      </th></tr><tr><td>9 or more greater
 
-      </td><td>+4&nbsp;to&nbsp;all&nbsp;ability&nbsp;scores
+      </td><td>+4 to all ability scores
 
-      </td></tr><tr><td>5&nbsp;to&nbsp;8&nbsp;greater
+      </td></tr><tr><td>5 to 8 greater
 
-      </td><td>+4&nbsp;to&nbsp;5&nbsp;ability&nbsp;scores
+      </td><td>+4 to 5 ability scores
 
-      </td></tr><tr><td>1&nbsp;to&nbsp;4&nbsp;greater
+      </td></tr><tr><td>1 to 4 greater
 
-      </td><td>+4&nbsp;to&nbsp;4&nbsp;ability&nbsp;scores
+      </td><td>+4 to 4 ability scores
 
       </td></tr><tr><td>Equal
 
-      </td><td>+4&nbsp;to&nbsp;3&nbsp;ability&nbsp;scores
+      </td><td>+4 to 3 ability scores
 
-      </td></tr><tr><td>1&nbsp;to&nbsp;4&nbsp;lower
+      </td></tr><tr><td>1 to 4 lower
 
-      </td><td>+4&nbsp;to&nbsp;2&nbsp;ability&nbsp;scores
+      </td><td>+4 to 2 ability scores
 
-      </td></tr><tr><td>5&nbsp;to&nbsp;8&nbsp;lower
+      </td></tr><tr><td>5 to 8 lower
 
-      </td><td>+4&nbsp;to&nbsp;1&nbsp;ability&nbsp;score
+      </td><td>+4 to 1 ability score
 
-      </td></tr><tr><td>9&nbsp;or&nbsp;more&nbsp;lower
+      </td></tr><tr><td>9 or more lower
 
-      </td><td>No&nbsp;bonuses&nbsp;to&nbsp;ability&nbsp;scores
+      </td><td>No bonuses to ability scores
 
       </td></tr></table>
   discipline: psychometabolism

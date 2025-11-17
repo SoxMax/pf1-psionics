@@ -21,35 +21,21 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>Your&nbsp;insight&nbsp;into&nbsp;how&nbsp;fear&nbsp;affects&nbsp;creatures&nbsp;allows
-
-      you&nbsp;to&nbsp;paralyze&nbsp;an&nbsp;enemy&nbsp;with&nbsp;fear,&nbsp;instead&nbsp;of&nbsp;merely
-
-      shaking&nbsp;him.
-
+    value: |-
+      <p>Your insight into how fear affects creatures allows
+      you to paralyze an enemy with fear, instead of merely
+      shaking him.
       </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Fearsome&nbsp;insight&nbsp;class&nbsp;feature,
-
-      Intimidate&nbsp;9&nbsp;ranks.
-
+      <p><strong>Prerequisites: </strong>Fearsome insight class feature,
+      Intimidate 9 ranks.
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>As&nbsp;a&nbsp;standard&nbsp;action&nbsp;you&nbsp;can&nbsp;make&nbsp;an
-
-      Intimidate&nbsp;check&nbsp;to&nbsp;demoralize&nbsp;a&nbsp;single&nbsp;foe&nbsp;(within&nbsp;30&nbsp;ft).
-
-      If&nbsp;you&nbsp;succeed&nbsp;the&nbsp;target&nbsp;is&nbsp;paralyzed&nbsp;for&nbsp;one&nbsp;round.&nbsp;This
-
-      is&nbsp;a&nbsp;mind-affecting&nbsp;fear&nbsp;effect.
-
+      <p><strong>Benefit: </strong>As a standard action you can make an
+      Intimidate check to demoralize a single foe (within 30 ft).
+      If you succeed the target is paralyzed for one round. This
+      is a mind-affecting fear effect.
       </p>
-
-      <p><strong>Normal:&nbsp;</strong>A&nbsp;creature&nbsp;demoralized&nbsp;through&nbsp;Intimidate
-
-      is&nbsp;shaken.
-
+      <p><strong>Normal: </strong>A creature demoralized through Intimidate
+      is shaken.
       </p>
   disabled: false
   featType: feat

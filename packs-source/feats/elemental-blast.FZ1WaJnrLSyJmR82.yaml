@@ -22,25 +22,31 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>You&nbsp;have&nbsp;learned&nbsp;how&nbsp;to&nbsp;convert&nbsp;your&nbsp;surge&nbsp;blast&nbsp;into
+      <p>You have learned how to convert your surge blast into
 
-      elemental&nbsp;damage.
-
-      </p>
-
-      <p><strong>Prerequsite:&nbsp;</strong>Wild&nbsp;Surge&nbsp;+1,&nbsp;Surge&nbsp;Blast&nbsp;class&nbsp;feature
+      elemental damage.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>Your&nbsp;surge&nbsp;blast&nbsp;deals&nbsp;damage&nbsp;of&nbsp;your&nbsp;active
+      <p><strong>Prerequsite: </strong>Wild Surge +1, Surge Blast class feature
 
-      energy&nbsp;type&nbsp;instead&nbsp;of&nbsp;force&nbsp;damage.&nbsp;In&nbsp;addition,&nbsp;your
+      </p>
 
-      surge&nbsp;blast&nbsp;is&nbsp;modified&nbsp;based&nbsp;upon&nbsp;your&nbsp;active&nbsp;energy
+      <p><strong>Benefit: </strong>Your surge blast deals damage of your active
+
+      energy type instead of force damage. In addition, your
+
+      surge blast is modified based upon your active energy
 
       type.
 
-      </p><ul><li><em>Cold:&nbsp;</em>A&nbsp;surge&nbsp;blast&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;+1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die.</li><li><em>Electricity:&nbsp;</em>A&nbsp;surge&nbsp;blast&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;provides&nbsp;a&nbsp;+3&nbsp;bonus&nbsp;on&nbsp;your&nbsp;attack&nbsp;roll&nbsp;if&nbsp;the&nbsp;target&nbsp;is&nbsp;wearing&nbsp;metal&nbsp;armor.</li><li><em>Fire:&nbsp;</em>A&nbsp;surge&nbsp;blast&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;+1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die.</li><li><em>Sonic:&nbsp;</em>A&nbsp;surge&nbsp;blast&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;–1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die&nbsp;and&nbsp;ignores&nbsp;an&nbsp;object’s&nbsp;hardness.</li></ul>
+      </p><ul><li><em>Cold: </em>A surge blast of this energy type deals +1
+      point of damage per die.</li><li><em>Electricity: </em>A surge blast of
+      this energy type provides a +3 bonus on your attack roll if the target is
+      wearing metal armor.</li><li><em>Fire: </em>A surge blast of this energy
+      type deals +1 point of damage per die.</li><li><em>Sonic: </em>A surge
+      blast of this energy type deals –1 point of damage per die and ignores an
+      object’s hardness.</li></ul>
   disabled: false
   featType: feat
   inherited: false

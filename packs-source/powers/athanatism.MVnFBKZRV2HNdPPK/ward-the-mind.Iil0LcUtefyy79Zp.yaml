@@ -34,15 +34,27 @@ system:
         value: One living creature touched
   description:
     value: >-
-      <p>This&nbsp;power&nbsp;wards&nbsp;the&nbsp;mind&nbsp;and&nbsp;soul&nbsp;of&nbsp;the&nbsp;living&nbsp;from&nbsp;the&nbsp;predations&nbsp;of&nbsp;the&nbsp;undead.&nbsp;The&nbsp;target&nbsp;is&nbsp;immune&nbsp;to&nbsp;future&nbsp;possession&nbsp;and&nbsp;possession-like&nbsp;effects&nbsp;such&nbsp;as&nbsp;magic&nbsp;jar&nbsp;-&nbsp;if&nbsp;the&nbsp;target&nbsp;is&nbsp;already&nbsp;possessed,&nbsp;this&nbsp;power&nbsp;does&nbsp;not&nbsp;remove&nbsp;that&nbsp;effect.&nbsp;They&nbsp;also&nbsp;gain&nbsp;a&nbsp;+2&nbsp;deflection&nbsp;bonus&nbsp;to&nbsp;AC&nbsp;and&nbsp;a&nbsp;+2&nbsp;resistance&nbsp;bonus&nbsp;on&nbsp;saves,&nbsp;but&nbsp;only&nbsp;against&nbsp;attacks&nbsp;made&nbsp;or&nbsp;effects&nbsp;created&nbsp;by&nbsp;incorporeal&nbsp;creatures.
+      <p>This power wards the mind and soul of the living from the predations of
+      the undead. The target is immune to future possession and possession-like
+      effects such as magic jar - if the target is already possessed, this power
+      does not remove that effect. They also gain a +2 deflection bonus to AC
+      and a +2 resistance bonus on saves, but only against attacks made or
+      effects created by incorporeal creatures.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power may be augmented in one of the
+      following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;spent,&nbsp;you&nbsp;can&nbsp;target&nbsp;an&nbsp;additional&nbsp;creature&nbsp;when&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;spent,&nbsp;you&nbsp;increase&nbsp;the&nbsp;bonuses&nbsp;granted&nbsp;by&nbsp;this&nbsp;power&nbsp;by&nbsp;1.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;affects&nbsp;a&nbsp;10-ft.-radius&nbsp;emanation&nbsp;from&nbsp;the&nbsp;target.&nbsp;Summoned&nbsp;incorporeal&nbsp;creatures&nbsp;cannot&nbsp;enter&nbsp;the&nbsp;area&nbsp;of&nbsp;this&nbsp;power.</li></ol>
+      </p><ol><li>For every additional power point spent, you can target an
+      additional creature when you manifest this power.</li><li>For every 2
+      additional power points spent, you increase the bonuses granted by this
+      power by 1.</li><li>By spending an additional 4 power points, this power
+      affects a 10-ft.-radius emanation from the target. Summoned incorporeal
+      creatures cannot enter the area of this power.</li></ol>
 
-      <p>In&nbsp;addition,&nbsp;if&nbsp;you&nbsp;spend&nbsp;at&nbsp;least&nbsp;4&nbsp;power&nbsp;points&nbsp;augmenting&nbsp;this&nbsp;power,&nbsp;increase&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;10&nbsp;minutes/level.
+      <p>In addition, if you spend at least 4 power points augmenting this
+      power, increase the duration of this power to 10 minutes/level.
 
       </p>
   discipline: athanatism

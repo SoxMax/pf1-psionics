@@ -12,9 +12,12 @@ system:
       - Voyager
   description:
     value: >-
-      <p>At&nbsp;12th&nbsp;level,&nbsp;a&nbsp;voyager's&nbsp;evasion&nbsp;improves.&nbsp;While&nbsp;the&nbsp;voyager&nbsp;still&nbsp;takes&nbsp;no&nbsp;damage&nbsp;on&nbsp;a&nbsp;successful&nbsp;Reflex&nbsp;saving&nbsp;throw&nbsp;against&nbsp;attacks,&nbsp;she&nbsp;takes&nbsp;only&nbsp;half&nbsp;damage&nbsp;on&nbsp;a&nbsp;failed&nbsp;save.&nbsp;A&nbsp;helpless&nbsp;voyager&nbsp;does&nbsp;not&nbsp;gain&nbsp;the&nbsp;benefit&nbsp;of&nbsp;improved&nbsp;evasion.
+      <p>At 12th level, a voyager's evasion improves. While the voyager still
+      takes no damage on a successful Reflex saving throw against attacks, she
+      takes only half damage on a failed save. A helpless voyager does not gain
+      the benefit of improved evasion.
 
-      </p><p></p>
+      </p>
   sources:
     - date: '2010-01-01'
       pages: 2–8

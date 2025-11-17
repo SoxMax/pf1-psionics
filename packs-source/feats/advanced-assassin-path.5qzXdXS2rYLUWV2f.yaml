@@ -22,13 +22,22 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;attacks&nbsp;have&nbsp;become&nbsp;even&nbsp;deadlier.</em></p>
+      <p><em>Your attacks have become even deadlier.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Deep_Impact"&nbsp;title="Deep&nbsp;Impact">Deep&nbsp;Impact</a>,&nbsp;<a&nbsp;href="/wiki/Psionic_Weapon"&nbsp;title="Psionic&nbsp;Weapon">Psionic&nbsp;Weapon</a>,&nbsp;assassin&nbsp;path&nbsp;class&nbsp;feature,&nbsp;manifester&nbsp;level&nbsp;10th,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+6
+      <p><strong>Prerequisites:</strong><a href="/wiki/Deep_Impact" title="Deep
+      Impact">Deep Impact</a>, <a href="/wiki/Psionic_Weapon" title="Psionic
+      Weapon">Psionic Weapon</a>, assassin path class feature, manifester level
+      10th, base attack bonus +6
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;using&nbsp;the&nbsp;Assassin&nbsp;trance,&nbsp;you&nbsp;deal&nbsp;sneak&nbsp;attack&nbsp;as&nbsp;a&nbsp;rogue&nbsp;of&nbsp;half&nbsp;your&nbsp;psychic&nbsp;warrior&nbsp;level.&nbsp;Your&nbsp;target&nbsp;must&nbsp;be&nbsp;eligible&nbsp;for&nbsp;sneak&nbsp;attack&nbsp;(not&nbsp;immune&nbsp;to&nbsp;precision-based&nbsp;damage,&nbsp;flanked,&nbsp;denied&nbsp;a&nbsp;Dexterity&nbsp;bonus,&nbsp;etc).&nbsp;In&nbsp;addition,&nbsp;when&nbsp;using&nbsp;the&nbsp;Assassin&nbsp;maneuver,&nbsp;your&nbsp;opponent&nbsp;must&nbsp;make&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;(DC&nbsp;equal&nbsp;to&nbsp;10&nbsp;+&nbsp;your&nbsp;base&nbsp;attack&nbsp;bonus)&nbsp;or&nbsp;be&nbsp;staggered&nbsp;for&nbsp;a&nbsp;number&nbsp;of&nbsp;rounds&nbsp;equal&nbsp;to&nbsp;your&nbsp;Wisdom&nbsp;modifier.
+      <p><strong>Benefit: </strong>When using the Assassin trance, you deal
+      sneak attack as a rogue of half your psychic warrior level. Your target
+      must be eligible for sneak attack (not immune to precision-based damage,
+      flanked, denied a Dexterity bonus, etc). In addition, when using the
+      Assassin maneuver, your opponent must make a Fortitude save (DC equal to
+      10 + your base attack bonus) or be staggered for a number of rounds equal
+      to your Wisdom modifier.
 
       </p>
   disabled: false

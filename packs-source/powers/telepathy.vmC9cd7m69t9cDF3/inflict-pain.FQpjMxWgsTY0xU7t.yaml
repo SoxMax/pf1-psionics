@@ -29,11 +29,17 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;telepathically&nbsp;stab&nbsp;the&nbsp;mind&nbsp;of&nbsp;your&nbsp;foe,&nbsp;causing&nbsp;horrible&nbsp;agony.&nbsp;The&nbsp;subject&nbsp;suffers&nbsp;wracking&nbsp;pain&nbsp;that&nbsp;imposes&nbsp;a&nbsp;–4&nbsp;penalty&nbsp;on&nbsp;attack&nbsp;rolls,&nbsp;skill&nbsp;checks,&nbsp;and&nbsp;ability&nbsp;checks.&nbsp;If&nbsp;the&nbsp;target&nbsp;makes&nbsp;its&nbsp;save,&nbsp;it&nbsp;takes&nbsp;only&nbsp;a&nbsp;–2&nbsp;penalty.
+      <p>You telepathically stab the mind of your foe, causing horrible agony.
+      The subject suffers wracking pain that imposes a –4 penalty on attack
+      rolls, skill checks, and ability checks. If the target makes its save, it
+      takes only a –2 penalty.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1,&nbsp;and&nbsp;the&nbsp;power&nbsp;can&nbsp;affect&nbsp;an&nbsp;additional&nbsp;target.&nbsp;Any&nbsp;additional&nbsp;target&nbsp;cannot&nbsp;be&nbsp;more&nbsp;than&nbsp;15&nbsp;feet&nbsp;from&nbsp;another&nbsp;target&nbsp;of&nbsp;the&nbsp;power.
+      <p><strong>Augment:</strong> For every 2 additional power points you
+      spend, this power's save DC increases by 1, and the power can affect an
+      additional target. Any additional target cannot be more than 15 feet from
+      another target of the power.
 
       </p>
   descriptors:

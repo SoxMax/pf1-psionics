@@ -21,33 +21,20 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>Your&nbsp;aim&nbsp;is&nbsp;so&nbsp;precise&nbsp;that&nbsp;you&nbsp;find&nbsp;just&nbsp;the&nbsp;right&nbsp;spot
-
-      to&nbsp;maximize&nbsp;the&nbsp;damage&nbsp;of&nbsp;your&nbsp;attacks.
-
+    value: |-
+      <p>Your aim is so precise that you find just the right spot
+      to maximize the damage of your attacks.
       </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Base&nbsp;attack&nbsp;bonus&nbsp;+7,&nbsp;Dexterity&nbsp;17,
-
-      Weapon&nbsp;Focus&nbsp;(any&nbsp;crossbow&nbsp;or&nbsp;firearm),&nbsp;style&nbsp;ability
-
-      class&nbsp;feature.
-
+      <p><strong>Prerequisites: </strong>Base attack bonus +7, Dexterity 17,
+      Weapon Focus (any crossbow or firearm), style ability
+      class feature.
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>While&nbsp;maintaining&nbsp;psionic&nbsp;focus,&nbsp;you&nbsp;add
-
-      your&nbsp;Dexterity&nbsp;modifier&nbsp;to&nbsp;damage&nbsp;rolls&nbsp;made&nbsp;with&nbsp;a
-
-      crossbow&nbsp;or&nbsp;firearm&nbsp;for&nbsp;which&nbsp;you&nbsp;have&nbsp;the&nbsp;Weapon
-
-      Focus&nbsp;feat.&nbsp;Damage&nbsp;from&nbsp;this&nbsp;feat&nbsp;is&nbsp;precision-based
-
-      damage,&nbsp;so&nbsp;creatures&nbsp;immune&nbsp;to&nbsp;precision&nbsp;damage&nbsp;are
-
-      immune&nbsp;to&nbsp;this&nbsp;extra&nbsp;damage.
-
+      <p><strong>Benefit: </strong>While maintaining psionic focus, you add
+      your Dexterity modifier to damage rolls made with a
+      crossbow or firearm for which you have the Weapon
+      Focus feat. Damage from this feat is precision-based
+      damage, so creatures immune to precision damage are
+      immune to this extra damage.
       </p>
   disabled: false
   featType: feat

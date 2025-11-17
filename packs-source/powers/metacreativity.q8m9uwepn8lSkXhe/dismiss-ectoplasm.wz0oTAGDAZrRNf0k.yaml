@@ -32,19 +32,28 @@ system:
         value: 30-ft.-radius burst
   description:
     value: >-
-      <p>You&nbsp;dismiss&nbsp;creatures,&nbsp;objects,&nbsp;or&nbsp;effects&nbsp;composed&nbsp;of&nbsp;ectoplasm,&nbsp;such&nbsp;as&nbsp;astral&nbsp;constructs&nbsp;or&nbsp;the&nbsp;ectoplasmic&nbsp;cocoon&nbsp;power,&nbsp;or&nbsp;that&nbsp;were&nbsp;formerly&nbsp;composed&nbsp;of&nbsp;ectoplasm,&nbsp;such&nbsp;as&nbsp;items&nbsp;created&nbsp;by&nbsp;metacreativity&nbsp;(creation)&nbsp;powers.
+      <p>You dismiss creatures, objects, or effects composed of ectoplasm, such
+      as astral constructs or the ectoplasmic cocoon power, or that were
+      formerly composed of ectoplasm, such as items created by metacreativity
+      (creation) powers.
 
       </p>
 
-      <p>An&nbsp;ectoplasmic&nbsp;creature&nbsp;that&nbsp;fails&nbsp;its&nbsp;Will&nbsp;saving&nbsp;throw&nbsp;dissipates&nbsp;into&nbsp;so&nbsp;much&nbsp;constituent&nbsp;ectoplasm,&nbsp;which&nbsp;evaporates&nbsp;immediately.
+      <p>An ectoplasmic creature that fails its Will saving throw dissipates
+      into so much constituent ectoplasm, which evaporates immediately.
 
       </p>
 
-      <p>A&nbsp;creature&nbsp;under&nbsp;the&nbsp;effect&nbsp;of&nbsp;the&nbsp;ectoplasmic&nbsp;form&nbsp;power&nbsp;that&nbsp;fails&nbsp;its&nbsp;saving&nbsp;throw&nbsp;is&nbsp;either&nbsp;destroyed&nbsp;out&nbsp;right&nbsp;or&nbsp;physically&nbsp;shifted&nbsp;to&nbsp;a&nbsp;random&nbsp;location&nbsp;on&nbsp;the&nbsp;Astral&nbsp;Plane&nbsp;(50%&nbsp;chance&nbsp;for&nbsp;either&nbsp;result).
+      <p>A creature under the effect of the ectoplasmic form power that fails
+      its saving throw is either destroyed out right or physically shifted to a
+      random location on the Astral Plane (50% chance for either result).
 
       </p>
 
-      <p>Other&nbsp;ongoing&nbsp;powers&nbsp;that&nbsp;create&nbsp;ectoplasmic&nbsp;objects&nbsp;or&nbsp;effects,&nbsp;such&nbsp;as&nbsp;ectoplasmic&nbsp;cocoon,&nbsp;are&nbsp;dismissed&nbsp;if&nbsp;you&nbsp;succeed&nbsp;on&nbsp;a&nbsp;manifester&nbsp;level&nbsp;check&nbsp;(1d20&nbsp;+&nbsp;your&nbsp;manifester&nbsp;level,&nbsp;maximum&nbsp;+10)&nbsp;against&nbsp;a&nbsp;DC&nbsp;of&nbsp;11&nbsp;+&nbsp;the&nbsp;power's&nbsp;manifester&nbsp;level.
+      <p>Other ongoing powers that create ectoplasmic objects or effects, such
+      as ectoplasmic cocoon, are dismissed if you succeed on a manifester level
+      check (1d20 + your manifester level, maximum +10) against a DC of 11 + the
+      power's manifester level.
 
       </p>
   discipline: metacreativity

@@ -63,11 +63,18 @@ system:
     umd: false
   description:
     value: >-
-      <p>When&nbsp;a&nbsp;vitalist&nbsp;reaches&nbsp;3rd&nbsp;level,&nbsp;all&nbsp;willing&nbsp;members&nbsp;of&nbsp;his&nbsp;collective&nbsp;(including&nbsp;the&nbsp;vitalist&nbsp;himself)&nbsp;can&nbsp;communicate&nbsp;with&nbsp;each&nbsp;other&nbsp;telepathically,&nbsp;even&nbsp;if&nbsp;they&nbsp;do&nbsp;not&nbsp;share&nbsp;a&nbsp;common&nbsp;language.&nbsp;Psionic&nbsp;creatures&nbsp;who&nbsp;are&nbsp;willing&nbsp;members&nbsp;in&nbsp;a&nbsp;vitalist's&nbsp;collective&nbsp;(including&nbsp;the&nbsp;vitalist&nbsp;himself)&nbsp;may&nbsp;manifest&nbsp;unknown&nbsp;powers&nbsp;from&nbsp;powers&nbsp;known&nbsp;by&nbsp;another&nbsp;willing&nbsp;psionic&nbsp;creature&nbsp;in&nbsp;the&nbsp;collective&nbsp;as&nbsp;if&nbsp;they&nbsp;were&nbsp;making&nbsp;physical&nbsp;contact.
+      <p>When a vitalist reaches 3rd level, all willing members of his
+      collective (including the vitalist himself) can communicate with each
+      other telepathically, even if they do not share a common language. Psionic
+      creatures who are willing members in a vitalist's collective (including
+      the vitalist himself) may manifest unknown powers from powers known by
+      another willing psionic creature in the collective as if they were making
+      physical contact.
 
-      </p><p>A&nbsp;vitalist&nbsp;may&nbsp;temporarily&nbsp;deactivate,&nbsp;and&nbsp;reactivate,&nbsp;this&nbsp;ability&nbsp;as&nbsp;a&nbsp;swift&nbsp;action.
+      </p><p>A vitalist may temporarily deactivate, and reactivate, this ability
+      as a swift action.
 
-      </p><p></p>
+      </p>
   disabled: false
   inherited: false
   showInCombat: false

@@ -64,7 +64,17 @@ system:
     umd: false
   description:
     value: >-
-      <p>Duergar&nbsp;tyrants&nbsp;gain&nbsp;the&nbsp;following&nbsp;psi-like&nbsp;abilities&nbsp;usable&nbsp;at-will:&nbsp;<em><a&nbsp;href="/wiki/Cloud_Mind"&nbsp;title="Cloud&nbsp;Mind">cloud&nbsp;mind</a></em>,&nbsp;<em><a&nbsp;href="/wiki/False_Sensory_Input"&nbsp;title="False&nbsp;Sensory&nbsp;Input">false&nbsp;sensory&nbsp;input</a></em>,&nbsp;<em><a&nbsp;href="/wiki/Empathic_Transfer,_Hostile"&nbsp;title="Empathic&nbsp;Transfer,&nbsp;Hostile">empathic&nbsp;transfer,&nbsp;hostile</a></em>,&nbsp;and&nbsp;<em><a&nbsp;href="/wiki/Sustenance"&nbsp;title="Sustenance">sustenance</a></em>.&nbsp;In&nbsp;addition,&nbsp;duergar&nbsp;tyrants&nbsp;gain&nbsp;<em><a&nbsp;href="/wiki/Metamorphosis"&nbsp;title="Metamorphosis">metamorphosis</a></em>&nbsp;as&nbsp;a&nbsp;constant&nbsp;psi-like&nbsp;ability.&nbsp;The&nbsp;manifester&nbsp;level&nbsp;for&nbsp;these&nbsp;effects&nbsp;is&nbsp;equal&nbsp;to&nbsp;the&nbsp;duergar&nbsp;tyrant's&nbsp;level&nbsp;+2&nbsp;(minimum&nbsp;5th).&nbsp;The&nbsp;DC&nbsp;for&nbsp;these&nbsp;powers&nbsp;is&nbsp;Charisma-based.</p>
+      <p>Duergar tyrants gain the following psi-like abilities usable at-will:
+      <em><a href="/wiki/Cloud_Mind" title="Cloud Mind">cloud mind</a></em>,
+      <em><a href="/wiki/False_Sensory_Input" title="False Sensory Input">false
+      sensory input</a></em>, <em><a href="/wiki/Empathic_Transfer,_Hostile"
+      title="Empathic Transfer, Hostile">empathic transfer, hostile</a></em>,
+      and <em><a href="/wiki/Sustenance" title="Sustenance">sustenance</a></em>.
+      In addition, duergar tyrants gain <em><a href="/wiki/Metamorphosis"
+      title="Metamorphosis">metamorphosis</a></em> as a constant psi-like
+      ability. The manifester level for these effects is equal to the duergar
+      tyrant's level +2 (minimum 5th). The DC for these powers is
+      Charisma-based.</p>
   subType: racial
   traitCategory: alternate
 type: feat

@@ -30,11 +30,19 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;take&nbsp;over&nbsp;control&nbsp;of&nbsp;a&nbsp;power&nbsp;that&nbsp;was&nbsp;manifested&nbsp;by&nbsp;the&nbsp;subject&nbsp;and&nbsp;that&nbsp;must&nbsp;be&nbsp;maintained&nbsp;through&nbsp;concentration.&nbsp;Once&nbsp;you&nbsp;wrest&nbsp;control&nbsp;of&nbsp;the&nbsp;power&nbsp;from&nbsp;the&nbsp;subject,&nbsp;you&nbsp;have&nbsp;several&nbsp;options.
+      <p>You take over control of a power that was manifested by the subject and
+      that must be maintained through concentration. Once you wrest control of
+      the power from the subject, you have several options.
 
-      </p><ul><li>Allow&nbsp;the&nbsp;power&nbsp;to&nbsp;function&nbsp;as&nbsp;normal.</li><li>Keep&nbsp;the&nbsp;power&nbsp;targeted&nbsp;on&nbsp;the&nbsp;subject&nbsp;(if&nbsp;a&nbsp;personal&nbsp;power)&nbsp;but&nbsp;decide&nbsp;how&nbsp;the&nbsp;power&nbsp;fulfills&nbsp;its&nbsp;function&nbsp;each&nbsp;round.</li><li>Retarget&nbsp;the&nbsp;power&nbsp;on&nbsp;yourself&nbsp;(if&nbsp;a&nbsp;personal&nbsp;power).</li><li>Choose&nbsp;not&nbsp;to&nbsp;concentrate&nbsp;on&nbsp;the&nbsp;co-opted&nbsp;power&nbsp;in&nbsp;the&nbsp;next&nbsp;round,&nbsp;ending&nbsp;the&nbsp;power&nbsp;at&nbsp;that&nbsp;point.</li></ul>
+      </p><ul><li>Allow the power to function as normal.</li><li>Keep the power
+      targeted on the subject (if a personal power) but decide how the power
+      fulfills its function each round.</li><li>Retarget the power on yourself
+      (if a personal power).</li><li>Choose not to concentrate on the co-opted
+      power in the next round, ending the power at that point.</li></ul>
 
-      <p>When&nbsp;the&nbsp;duration&nbsp;of&nbsp;co-opt&nbsp;concentration&nbsp;expires,&nbsp;the&nbsp;power&nbsp;you&nbsp;took&nbsp;control&nbsp;of&nbsp;ends&nbsp;(even&nbsp;if&nbsp;this&nbsp;would&nbsp;mean&nbsp;that&nbsp;the&nbsp;power&nbsp;ends&nbsp;earlier&nbsp;than&nbsp;normal).
+      <p>When the duration of co-opt concentration expires, the power you took
+      control of ends (even if this would mean that the power ends earlier than
+      normal).
 
       </p>
   descriptors:

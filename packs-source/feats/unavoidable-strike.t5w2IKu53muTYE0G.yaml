@@ -22,13 +22,18 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;mythic&nbsp;power&nbsp;guides&nbsp;your&nbsp;unarmed&nbsp;strikes&nbsp;and&nbsp;natural&nbsp;attacks.</em></p>
+      <p><em>Your mythic power guides your unarmed strikes and natural
+      attacks.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Unavoidable_Strike"&nbsp;title="Unavoidable&nbsp;Strike">Unavoidable&nbsp;Strike</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Unavoidable_Strike"
+      title="Unavoidable Strike">Unavoidable Strike</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;make&nbsp;an&nbsp;attack&nbsp;using&nbsp;Unavoidable&nbsp;Strike,&nbsp;add&nbsp;half&nbsp;your&nbsp;tier&nbsp;(minimum&nbsp;1)&nbsp;to&nbsp;the&nbsp;attack&nbsp;roll.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;when&nbsp;using&nbsp;Unavoidable&nbsp;Strike&nbsp;to&nbsp;treat&nbsp;all&nbsp;attacks&nbsp;made&nbsp;during&nbsp;your&nbsp;turn&nbsp;as&nbsp;melee&nbsp;touch&nbsp;attacks
+      <p><strong>Benefit: </strong>When you make an attack using Unavoidable
+      Strike, add half your tier (minimum 1) to the attack roll. In addition,
+      you can expend a use of mythic power when using Unavoidable Strike to
+      treat all attacks made during your turn as melee touch attacks
 
       </p>
   disabled: false

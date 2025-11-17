@@ -63,7 +63,13 @@ system:
     umd: false
   description:
     value: >-
-      <p>While&nbsp;most&nbsp;ophiduans&nbsp;are&nbsp;resistant&nbsp;to&nbsp;poison,&nbsp;some&nbsp;are&nbsp;capable&nbsp;of&nbsp;excreting&nbsp;a&nbsp;poison&nbsp;from&nbsp;their&nbsp;skin.&nbsp;Ophiduans&nbsp;with&nbsp;this&nbsp;racial&nbsp;trait&nbsp;can&nbsp;use&nbsp;<em><a&nbsp;href="/wiki/Prevenom"&nbsp;title="Prevenom">prevenom</a></em>&nbsp;or&nbsp;<em><a&nbsp;href="/wiki/Prevenom_Weapon"&nbsp;title="Prevenom&nbsp;Weapon">prevenom&nbsp;weapon</a></em>&nbsp;as&nbsp;a&nbsp;psi-like&nbsp;ability&nbsp;once&nbsp;per&nbsp;day&nbsp;with&nbsp;a&nbsp;manifester&nbsp;level&nbsp;equal&nbsp;to&nbsp;character&nbsp;level.</p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;serpent’s&nbsp;bite&nbsp;racial&nbsp;trait.</em></p><p></li></p>
+      <p>While most ophiduans are resistant to poison, some are capable of
+      excreting a poison from their skin. Ophiduans with this racial trait can
+      use <em><a href="/wiki/Prevenom" title="Prevenom">prevenom</a></em> or
+      <em><a href="/wiki/Prevenom_Weapon" title="Prevenom Weapon">prevenom
+      weapon</a></em> as a psi-like ability once per day with a manifester level
+      equal to character level.</p><p><em>This trait replaces the serpent’s bite
+      racial trait.</em></p><p></li></p>
   disabled: false
   inherited: false
   showInQuickbar: false

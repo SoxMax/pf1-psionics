@@ -12,9 +12,14 @@ system:
       - Marksman
   description:
     value: >-
-      <p>A&nbsp;Marksman&nbsp;can&nbsp;use&nbsp;her&nbsp;heightened&nbsp;senses&nbsp;and&nbsp;awareness&nbsp;of&nbsp;her&nbsp;surroundings&nbsp;to&nbsp;read&nbsp;the&nbsp;wind&nbsp;and&nbsp;environment,&nbsp;allowing&nbsp;her&nbsp;to&nbsp;drastically&nbsp;improve&nbsp;her&nbsp;accuracy.&nbsp;While&nbsp;maintaining&nbsp;psionic&nbsp;focus,&nbsp;she&nbsp;can&nbsp;spend&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;gain&nbsp;a&nbsp;competence&nbsp;bonus&nbsp;equal&nbsp;to&nbsp;her&nbsp;Wisdom&nbsp;modifier&nbsp;on&nbsp;ranged&nbsp;attacks&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;round.&nbsp;She&nbsp;can&nbsp;do&nbsp;this&nbsp;a&nbsp;number&nbsp;of&nbsp;times&nbsp;per&nbsp;day&nbsp;equal&nbsp;to&nbsp;3&nbsp;+&nbsp;her&nbsp;class&nbsp;level.
+      <p>A Marksman can use her heightened senses and awareness of her
+      surroundings to read the wind and environment, allowing her to drastically
+      improve her accuracy. While maintaining psionic focus, she can spend a
+      swift action to gain a competence bonus equal to her Wisdom modifier on
+      ranged attacks until the end of the round. She can do this a number of
+      times per day equal to 3 + her class level.
 
-      </p><p></p>
+      </p>
   sources:
     - date: '2012-07-23'
       pages: 47–50

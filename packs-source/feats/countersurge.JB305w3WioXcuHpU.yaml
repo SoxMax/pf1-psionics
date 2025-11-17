@@ -22,13 +22,27 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;invoke&nbsp;your&nbsp;surge&nbsp;to&nbsp;disrupt&nbsp;powers&nbsp;and&nbsp;spells.</em></p>
+      <p><em>You can invoke your surge to disrupt powers and spells.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Initiative">Improved&nbsp;Initiative</a>,&nbsp;wild&nbsp;surge&nbsp;class&nbsp;feature,&nbsp;manifester&nbsp;level&nbsp;6th.
+      <p><strong>Prerequisites:</strong><a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Initiative">Improved
+      Initiative</a>, wild surge class feature, manifester level 6th.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;may&nbsp;invoke&nbsp;your&nbsp;wild&nbsp;surge&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action&nbsp;in&nbsp;response&nbsp;to&nbsp;a&nbsp;power&nbsp;being&nbsp;manifested,&nbsp;or&nbsp;a&nbsp;spell&nbsp;being&nbsp;cast,&nbsp;within&nbsp;100&nbsp;feet&nbsp;of&nbsp;you.&nbsp;If&nbsp;you&nbsp;do,&nbsp;the&nbsp;source&nbsp;of&nbsp;the&nbsp;power&nbsp;or&nbsp;spell&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Will&nbsp;save&nbsp;(DC&nbsp;10&nbsp;+&nbsp;1/2&nbsp;your&nbsp;manifester&nbsp;level&nbsp;+&nbsp;your&nbsp;Charisma&nbsp;modifier)&nbsp;or&nbsp;that&nbsp;power&nbsp;or&nbsp;spell&nbsp;has&nbsp;its&nbsp;caster&nbsp;or&nbsp;manifester&nbsp;level&nbsp;(and,&nbsp;as&nbsp;a&nbsp;result,&nbsp;all&nbsp;effects&nbsp;dependent&nbsp;on&nbsp;caster&nbsp;or&nbsp;manifester&nbsp;level,&nbsp;such&nbsp;as&nbsp;damage&nbsp;and&nbsp;range)&nbsp;reduced&nbsp;by&nbsp;an&nbsp;amount&nbsp;equal&nbsp;to&nbsp;your&nbsp;wild&nbsp;surge's&nbsp;intensity.&nbsp;If&nbsp;this&nbsp;would&nbsp;reduce&nbsp;the&nbsp;power&nbsp;or&nbsp;spell's&nbsp;level&nbsp;below&nbsp;the&nbsp;minimum&nbsp;needed&nbsp;to&nbsp;cast&nbsp;it,&nbsp;that&nbsp;power&nbsp;or&nbsp;spell&nbsp;is&nbsp;still&nbsp;cast,&nbsp;though&nbsp;a&nbsp;spell&nbsp;or&nbsp;power&nbsp;with&nbsp;its&nbsp;caster&nbsp;level&nbsp;reduced&nbsp;to&nbsp;0&nbsp;or&nbsp;lower&nbsp;is&nbsp;negated&nbsp;and&nbsp;has&nbsp;no&nbsp;effect.&nbsp;Using&nbsp;this&nbsp;feat&nbsp;increases&nbsp;your&nbsp;chance&nbsp;of&nbsp;psychic&nbsp;enervation&nbsp;by&nbsp;20%.&nbsp;You&nbsp;must&nbsp;declare&nbsp;that&nbsp;you&nbsp;are&nbsp;using&nbsp;this&nbsp;feat&nbsp;after&nbsp;the&nbsp;power&nbsp;is&nbsp;manifested&nbsp;or&nbsp;the&nbsp;spell&nbsp;is&nbsp;cast,&nbsp;but&nbsp;before&nbsp;its&nbsp;results&nbsp;are&nbsp;determined.
+      <p><strong>Benefit: </strong>You may invoke your wild surge as an
+      immediate action in response to a power being manifested, or a spell being
+      cast, within 100 feet of you. If you do, the source of the power or spell
+      must succeed at a Will save (DC 10 + 1/2 your manifester level + your
+      Charisma modifier) or that power or spell has its caster or manifester
+      level (and, as a result, all effects dependent on caster or manifester
+      level, such as damage and range) reduced by an amount equal to your wild
+      surge's intensity. If this would reduce the power or spell's level below
+      the minimum needed to cast it, that power or spell is still cast, though a
+      spell or power with its caster level reduced to 0 or lower is negated and
+      has no effect. Using this feat increases your chance of psychic enervation
+      by 20%. You must declare that you are using this feat after the power is
+      manifested or the spell is cast, but before its results are determined.
 
       </p>
   disabled: false

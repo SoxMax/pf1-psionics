@@ -22,13 +22,21 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;conduct&nbsp;your&nbsp;energies&nbsp;with&nbsp;a&nbsp;powerful&nbsp;rhythm.</em></p>
+      <p><em>You conduct your energies with a powerful rhythm.</em></p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Bardic&nbsp;performance&nbsp;or&nbsp;raging&nbsp;song&nbsp;class&nbsp;feature,&nbsp;kineticist&nbsp;level&nbsp;1st.
+      <p><strong>Prerequisites:</strong> Bardic performance or raging song class
+      feature, kineticist level 1st.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;Your&nbsp;kineticist&nbsp;levels&nbsp;and&nbsp;your&nbsp;levels&nbsp;in&nbsp;the&nbsp;class&nbsp;that&nbsp;granted&nbsp;you&nbsp;the&nbsp;bardic&nbsp;performance&nbsp;or&nbsp;raging&nbsp;song&nbsp;class&nbsp;feature&nbsp;stack&nbsp;for&nbsp;determining&nbsp;the&nbsp;number&nbsp;of&nbsp;performance&nbsp;rounds&nbsp;you&nbsp;have&nbsp;per&nbsp;day&nbsp;and&nbsp;the&nbsp;strength&nbsp;of&nbsp;your&nbsp;music&nbsp;effects&nbsp;(but&nbsp;not&nbsp;which&nbsp;effects&nbsp;you&nbsp;have&nbsp;access&nbsp;to).&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;activate&nbsp;a&nbsp;bardic&nbsp;performance&nbsp;or&nbsp;raging&nbsp;song&nbsp;ability&nbsp;that&nbsp;normally&nbsp;requires&nbsp;a&nbsp;standard&nbsp;action&nbsp;to&nbsp;start&nbsp;as&nbsp;part&nbsp;of&nbsp;using&nbsp;a&nbsp;kinetic&nbsp;blast.&nbsp;If&nbsp;you&nbsp;do,&nbsp;the&nbsp;ability&nbsp;takes&nbsp;effect&nbsp;before&nbsp;your&nbsp;attack&nbsp;roll.
+      <p><strong>Benefit:</strong> Your kineticist levels and your levels in the
+      class that granted you the bardic performance or raging song class feature
+      stack for determining the number of performance rounds you have per day
+      and the strength of your music effects (but not which effects you have
+      access to). In addition, you can activate a bardic performance or raging
+      song ability that normally requires a standard action to start as part of
+      using a kinetic blast. If you do, the ability takes effect before your
+      attack roll.
 
       </p>
   disabled: false

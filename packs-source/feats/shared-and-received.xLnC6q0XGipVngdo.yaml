@@ -22,13 +22,15 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>The&nbsp;range&nbsp;to&nbsp;share&nbsp;powers&nbsp;increases.</em></p>
+      <p><em>The range to share powers increases.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Shared_Power"&nbsp;title="Shared&nbsp;Power">Shared&nbsp;Power</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Shared_Power"
+      title="Shared Power">Shared Power</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;target&nbsp;a&nbsp;willing&nbsp;recipient&nbsp;of&nbsp;a&nbsp;shared&nbsp;power&nbsp;within&nbsp;60&nbsp;feet&nbsp;instead&nbsp;of&nbsp;30&nbsp;feet.
+      <p><strong>Benefit: </strong>You can target a willing recipient of a
+      shared power within 60 feet instead of 30 feet.
 
       </p>
   disabled: false

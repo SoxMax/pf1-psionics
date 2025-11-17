@@ -30,11 +30,14 @@ system:
         value: Ray
   description:
     value: >-
-      <p>You&nbsp;spit&nbsp;forth&nbsp;vitriolic&nbsp;acid,&nbsp;originating&nbsp;from&nbsp;your&nbsp;mouth,&nbsp;at&nbsp;your&nbsp;target.&nbsp;If&nbsp;you&nbsp;succeed&nbsp;on&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack,&nbsp;the&nbsp;target&nbsp;takes&nbsp;3d6&nbsp;points&nbsp;of&nbsp;acid&nbsp;damage.
+      <p>You spit forth vitriolic acid, originating from your mouth, at your
+      target. If you succeed on a ranged touch attack, the target takes 3d6
+      points of acid damage.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;damage&nbsp;increases&nbsp;by&nbsp;1d6&nbsp;points.
+      <p><strong>Augment:</strong> For every 2 additional power points you
+      spend, this power's damage increases by 1d6 points.
 
       </p>
   descriptors:

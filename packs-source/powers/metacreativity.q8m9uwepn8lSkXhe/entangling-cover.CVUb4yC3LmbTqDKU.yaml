@@ -29,7 +29,10 @@ system:
         value: One creature
   description:
     value: >-
-      <p>After&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;the&nbsp;next&nbsp;creature&nbsp;this&nbsp;round&nbsp;you&nbsp;successfully&nbsp;stagger&nbsp;with&nbsp;your&nbsp;cover&nbsp;fire&nbsp;class&nbsp;ability&nbsp;is&nbsp;also&nbsp;entangled&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;power.&nbsp;If&nbsp;you&nbsp;do&nbsp;not&nbsp;have&nbsp;the&nbsp;cover&nbsp;fire&nbsp;class&nbsp;feature,&nbsp;this&nbsp;power&nbsp;does&nbsp;nothing.
+      <p>After manifesting this power, the next creature this round you
+      successfully stagger with your cover fire class ability is also entangled
+      for the duration of the power. If you do not have the cover fire class
+      feature, this power does nothing.
 
       </p>
   discipline: metacreativity

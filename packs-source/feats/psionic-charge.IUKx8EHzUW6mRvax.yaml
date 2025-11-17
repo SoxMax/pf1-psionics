@@ -22,41 +22,46 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;charge&nbsp;in&nbsp;a&nbsp;crooked&nbsp;line.
+      <p>You can charge in a crooked line.
 
       </p>
 
-      <p><strong>Prerequisite:&nbsp;</strong>Dex&nbsp;13,&nbsp;<a&nbsp;href="/wiki/Speed_of_Thought"&nbsp;title="Speed&nbsp;of&nbsp;Thought">Speed&nbsp;of&nbsp;Thought</a>.
+      <p><strong>Prerequisite: </strong>Dex 13, <a href="/wiki/Speed_of_Thought"
+      title="Speed of Thought">Speed of Thought</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic
+      <p><strong>Benefit: </strong>To use this feat, you must expend your
+      psionic
 
-      focus.&nbsp;When&nbsp;you&nbsp;charge,&nbsp;you&nbsp;can&nbsp;make&nbsp;one&nbsp;turn&nbsp;of&nbsp;up&nbsp;to
+      focus. When you charge, you can make one turn of up to
 
-      90&nbsp;degrees&nbsp;during&nbsp;your&nbsp;movement.&nbsp;All&nbsp;other&nbsp;restrictions
+      90 degrees during your movement. All other restrictions
 
-      on&nbsp;charges&nbsp;still&nbsp;apply;&nbsp;for&nbsp;instance,&nbsp;you&nbsp;cannot&nbsp;pass
+      on charges still apply; for instance, you cannot pass
 
-      through&nbsp;a&nbsp;square&nbsp;that&nbsp;blocks&nbsp;or&nbsp;slows&nbsp;movement,&nbsp;or&nbsp;that
+      through a square that blocks or slows movement, or that
 
-      contains&nbsp;a&nbsp;creature.&nbsp;You&nbsp;must&nbsp;have&nbsp;line&nbsp;of&nbsp;sight&nbsp;to&nbsp;the
+      contains a creature. You must have line of sight to the
 
-      opponent&nbsp;at&nbsp;the&nbsp;start&nbsp;of&nbsp;your&nbsp;turn.
-
-      </p>
-
-      <p><br&nbsp;/></p>
-
-      <p>You&nbsp;have&nbsp;learned&nbsp;to&nbsp;charge&nbsp;a&nbsp;foe&nbsp;regardless&nbsp;of&nbsp;the&nbsp;path&nbsp;to&nbsp;reach&nbsp;him.
+      opponent at the start of your turn.
 
       </p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Psionic&nbsp;Charge.
+      <p><br /></p>
+
+      <p>You have learned to charge a foe regardless of the path to reach him.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;When&nbsp;using&nbsp;Psionic&nbsp;Charge,&nbsp;you&nbsp;can&nbsp;make&nbsp;a&nbsp;number&nbsp;of&nbsp;additional&nbsp;90&nbsp;degree&nbsp;turns&nbsp;equal&nbsp;to&nbsp;half&nbsp;your&nbsp;tier&nbsp;(minimum&nbsp;1).&nbsp;For&nbsp;example,&nbsp;at&nbsp;4th&nbsp;tier,&nbsp;you&nbsp;could&nbsp;make&nbsp;three&nbsp;90&nbsp;degree&nbsp;turns&nbsp;during&nbsp;a&nbsp;charge&nbsp;
+      <p><strong>Prerequisite:</strong> Psionic Charge.
+
+      </p>
+
+      <p><strong>Benefit:</strong> When using Psionic Charge, you can make a
+      number of additional 90 degree turns equal to half your tier (minimum 1).
+      For example, at 4th tier, you could make three 90 degree turns during a
+      charge 
 
       </p>
   disabled: false

@@ -22,17 +22,33 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;have&nbsp;learned&nbsp;how&nbsp;to&nbsp;erect&nbsp;walls&nbsp;in&nbsp;your&nbsp;mind,&nbsp;and&nbsp;potentially&nbsp;in&nbsp;those&nbsp;of&nbsp;your&nbsp;allies.</em></p>
+      <p><em>You have learned how to erect walls in your mind, and potentially
+      in those of your allies.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Autohypnosis&nbsp;5&nbsp;ranks.
-
-      </p>
-
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;can&nbsp;perform&nbsp;the&nbsp;suppress&nbsp;psyche&nbsp;occult&nbsp;skill&nbsp;unlock&nbsp;even&nbsp;if&nbsp;you&nbsp;can't&nbsp;cast&nbsp;psychic&nbsp;spells.&nbsp;If&nbsp;you&nbsp;can&nbsp;cast&nbsp;psychic&nbsp;spells&nbsp;or&nbsp;have&nbsp;the&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Psychic%20Sensitivity">Psychic&nbsp;Sensitivity</a>&nbsp;feat,&nbsp;you&nbsp;can&nbsp;use&nbsp;suppress&nbsp;psyche&nbsp;one&nbsp;additional&nbsp;time&nbsp;per&nbsp;day.
+      <p><strong>Prerequisite:</strong> Autohypnosis 5 ranks.
 
       </p>
 
-      <p>In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;use&nbsp;suppress&nbsp;psyche&nbsp;on&nbsp;another&nbsp;willing&nbsp;creature&nbsp;as&nbsp;long&nbsp;as&nbsp;your&nbsp;minds&nbsp;are&nbsp;somehow&nbsp;linked&nbsp;together&nbsp;(such&nbsp;as&nbsp;via&nbsp;<em><a&nbsp;href="/wiki/Mindlink"&nbsp;title="Mindlink">mindlink</a></em>,&nbsp;<em><a>geth's&nbsp;mind&nbsp;control</a></em>,&nbsp;or&nbsp;the&nbsp;collective&nbsp;class&nbsp;feature).&nbsp;In&nbsp;this&nbsp;case&nbsp;the&nbsp;DC&nbsp;for&nbsp;success&nbsp;is&nbsp;20&nbsp;+&nbsp;the&nbsp;subject's&nbsp;Will&nbsp;save&nbsp;modifier&nbsp;against&nbsp;mind-affecting&nbsp;enchantment&nbsp;(compulsion)&nbsp;effects.&nbsp;On&nbsp;any&nbsp;round&nbsp;where&nbsp;the&nbsp;subject's&nbsp;suppressed&nbsp;state&nbsp;could&nbsp;make&nbsp;them&nbsp;do&nbsp;something&nbsp;suicidal&nbsp;or&nbsp;against&nbsp;their&nbsp;nature&nbsp;(e.g.&nbsp;walking&nbsp;into&nbsp;lava&nbsp;they&nbsp;can't&nbsp;perceive,&nbsp;or&nbsp;attacking&nbsp;an&nbsp;ally&nbsp;they&nbsp;have&nbsp;forgotten),&nbsp;they&nbsp;are&nbsp;entitled&nbsp;to&nbsp;a&nbsp;Will&nbsp;save&nbsp;(DC&nbsp;=&nbsp;10&nbsp;+&nbsp;1/2&nbsp;your&nbsp;character&nbsp;level&nbsp;+&nbsp;your&nbsp;Charisma&nbsp;modifier).&nbsp;A&nbsp;successful&nbsp;save&nbsp;ends&nbsp;the&nbsp;suppression&nbsp;immediately.
+      <p><strong>Benefit:</strong> You can perform the suppress psyche occult
+      skill unlock even if you can't cast psychic spells. If you can cast
+      psychic spells or have the <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Psychic%20Sensitivity">Psychic
+      Sensitivity</a> feat, you can use suppress psyche one additional time per
+      day.
+
+      </p>
+
+      <p>In addition, you can use suppress psyche on another willing creature as
+      long as your minds are somehow linked together (such as via <em><a
+      href="/wiki/Mindlink" title="Mindlink">mindlink</a></em>, <em><a>geth's
+      mind control</a></em>, or the collective class feature). In this case the
+      DC for success is 20 + the subject's Will save modifier against
+      mind-affecting enchantment (compulsion) effects. On any round where the
+      subject's suppressed state could make them do something suicidal or
+      against their nature (e.g. walking into lava they can't perceive, or
+      attacking an ally they have forgotten), they are entitled to a Will save
+      (DC = 10 + 1/2 your character level + your Charisma modifier). A
+      successful save ends the suppression immediately.
 
       </p>
   disabled: false

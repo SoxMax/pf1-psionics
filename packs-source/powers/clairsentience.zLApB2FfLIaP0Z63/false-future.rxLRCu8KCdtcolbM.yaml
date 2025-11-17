@@ -29,15 +29,26 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;show&nbsp;the&nbsp;targeted&nbsp;creature&nbsp;a&nbsp;vision&nbsp;of&nbsp;the&nbsp;future&nbsp;that&nbsp;is&nbsp;slightly&nbsp;incorrect.&nbsp;At&nbsp;any&nbsp;point&nbsp;in&nbsp;the&nbsp;target's&nbsp;turn,&nbsp;you&nbsp;can&nbsp;reposition&nbsp;them&nbsp;5&nbsp;ft.&nbsp;to&nbsp;reflect&nbsp;their&nbsp;reaction&nbsp;to&nbsp;the&nbsp;false&nbsp;insight.&nbsp;The&nbsp;target&nbsp;may&nbsp;react&nbsp;after&nbsp;the&nbsp;reposition&nbsp;has&nbsp;occurred.&nbsp;This&nbsp;might&nbsp;make&nbsp;an&nbsp;action&nbsp;the&nbsp;creature&nbsp;was&nbsp;about&nbsp;to&nbsp;take&nbsp;invalid,&nbsp;such&nbsp;as&nbsp;repositioning&nbsp;them&nbsp;when&nbsp;they&nbsp;are&nbsp;about&nbsp;to&nbsp;make&nbsp;an&nbsp;attack,&nbsp;in&nbsp;which&nbsp;case&nbsp;the&nbsp;action&nbsp;is&nbsp;wasted.
+      <p>You show the targeted creature a vision of the future that is slightly
+      incorrect. At any point in the target's turn, you can reposition them 5
+      ft. to reflect their reaction to the false insight. The target may react
+      after the reposition has occurred. This might make an action the creature
+      was about to take invalid, such as repositioning them when they are about
+      to make an attack, in which case the action is wasted.
 
       </p>
 
-      <p>You&nbsp;cannot&nbsp;reposition&nbsp;the&nbsp;creature&nbsp;into&nbsp;a&nbsp;square&nbsp;which&nbsp;they&nbsp;could&nbsp;not&nbsp;occupy&nbsp;or&nbsp;where&nbsp;there&nbsp;is&nbsp;no&nbsp;ground&nbsp;(such&nbsp;as&nbsp;over&nbsp;a&nbsp;cliff,&nbsp;into&nbsp;a&nbsp;river,&nbsp;or&nbsp;a&nbsp;flow&nbsp;of&nbsp;lava).&nbsp;Repositions&nbsp;using&nbsp;this&nbsp;power&nbsp;do&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity.
+      <p>You cannot reposition the creature into a square which they could not
+      occupy or where there is no ground (such as over a cliff, into a river, or
+      a flow of lava). Repositions using this power do not provoke attacks of
+      opportunity.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;spent,&nbsp;this&nbsp;power&nbsp;lasts&nbsp;an&nbsp;additional&nbsp;round&nbsp;and&nbsp;the&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.&nbsp;The&nbsp;target&nbsp;gets&nbsp;a&nbsp;save&nbsp;on&nbsp;every&nbsp;round&nbsp;this&nbsp;effect&nbsp;is&nbsp;used&nbsp;upon&nbsp;them&nbsp;at&nbsp;the&nbsp;same&nbsp;save&nbsp;DC.
+      <p><strong>Augment:</strong> For every 2 additional power points spent,
+      this power lasts an additional round and the save DC increases by 1. The
+      target gets a save on every round this effect is used upon them at the
+      same save DC.
 
       </p>
   discipline: clairsentience

@@ -27,13 +27,26 @@ system:
         value: You plus one willing creature
   description:
     value: >-
-      <p>When&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;you&nbsp;must&nbsp;choose&nbsp;one&nbsp;skill.&nbsp;If&nbsp;your&nbsp;rank&nbsp;in&nbsp;that&nbsp;skill&nbsp;is&nbsp;higher,&nbsp;the&nbsp;target&nbsp;uses&nbsp;your&nbsp;ranks&nbsp;in&nbsp;place&nbsp;of&nbsp;his&nbsp;own&nbsp;ranks&nbsp;(maximum&nbsp;5&nbsp;ranks),&nbsp;and&nbsp;vice&nbsp;versa.&nbsp;If&nbsp;a&nbsp;target's&nbsp;skill&nbsp;ranks&nbsp;are&nbsp;replaced&nbsp;by&nbsp;this&nbsp;power,&nbsp;they&nbsp;are&nbsp;treated&nbsp;as&nbsp;though&nbsp;they&nbsp;actually&nbsp;had&nbsp;the&nbsp;shared&nbsp;ranks&nbsp;in&nbsp;the&nbsp;skill&nbsp;for&nbsp;all&nbsp;purposes&nbsp;(including&nbsp;class&nbsp;skill&nbsp;bonuses&nbsp;and&nbsp;the&nbsp;use&nbsp;of&nbsp;trained-only&nbsp;skills).
+      <p>When manifesting this power, you must choose one skill. If your rank in
+      that skill is higher, the target uses your ranks in place of his own ranks
+      (maximum 5 ranks), and vice versa. If a target's skill ranks are replaced
+      by this power, they are treated as though they actually had the shared
+      ranks in the skill for all purposes (including class skill bonuses and the
+      use of trained-only skills).
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or more of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;choose&nbsp;an&nbsp;additional&nbsp;skill&nbsp;to&nbsp;share.&nbsp;Compare&nbsp;each&nbsp;skill&nbsp;individually.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;maximum&nbsp;ranks&nbsp;you&nbsp;can&nbsp;share&nbsp;increases&nbsp;by&nbsp;5&nbsp;ranks.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;can&nbsp;affect&nbsp;an&nbsp;unwilling&nbsp;target,&nbsp;and&nbsp;the&nbsp;power's&nbsp;saving&nbsp;throw&nbsp;becomes&nbsp;"Will&nbsp;negates&nbsp;(harmless)".&nbsp;Unwilling&nbsp;targets&nbsp;do&nbsp;not&nbsp;gain&nbsp;the&nbsp;benefit&nbsp;of&nbsp;increased&nbsp;skill&nbsp;ranks,&nbsp;although&nbsp;their&nbsp;skill&nbsp;ranks&nbsp;may&nbsp;be&nbsp;shared&nbsp;with&nbsp;willing&nbsp;targets.</li></ol>
+      </p><ol><li>For every 2 additional power points you spend, you can choose
+      an additional skill to share. Compare each skill individually.</li><li>For
+      every 2 additional power points you spend, the maximum ranks you can share
+      increases by 5 ranks.</li><li>If you spend 2 additional power points, this
+      power can affect an unwilling target, and the power's saving throw becomes
+      "Will negates (harmless)". Unwilling targets do not gain the benefit of
+      increased skill ranks, although their skill ranks may be shared with
+      willing targets.</li></ol>
   descriptors:
     - mind-affecting
     - network

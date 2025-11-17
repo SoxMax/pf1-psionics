@@ -22,13 +22,16 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;persistent&nbsp;powers&nbsp;are&nbsp;more&nbsp;effective&nbsp;when&nbsp;used&nbsp;offensively.</em></p>
+      <p><em>Your persistent powers are more effective when used
+      offensively.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Persistent_Power"&nbsp;title="Persistent&nbsp;Power">Persistent&nbsp;Power</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Persistent_Power"
+      title="Persistent Power">Persistent Power</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>A&nbsp;target&nbsp;that&nbsp;has&nbsp;to&nbsp;make&nbsp;a&nbsp;second&nbsp;save&nbsp;due&nbsp;to&nbsp;the&nbsp;Persistent&nbsp;Power&nbsp;feat&nbsp;takes&nbsp;a&nbsp;–2&nbsp;penalty&nbsp;to&nbsp;the&nbsp;second&nbsp;save.
+      <p><strong>Benefit: </strong>A target that has to make a second save due
+      to the Persistent Power feat takes a –2 penalty to the second save.
 
       </p>
   disabled: false

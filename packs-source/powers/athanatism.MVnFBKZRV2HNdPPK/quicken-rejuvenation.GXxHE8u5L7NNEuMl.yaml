@@ -29,13 +29,25 @@ system:
         value: 1 ghost destroyed within the last round
   description:
     value: >-
-      <p>You&nbsp;infuse&nbsp;unnatural&nbsp;vitality&nbsp;into&nbsp;the&nbsp;target,&nbsp;returning&nbsp;it&nbsp;to&nbsp;unlife.&nbsp;The&nbsp;recently&nbsp;destroyed&nbsp;ghost&nbsp;immediately&nbsp;activates&nbsp;its&nbsp;rejuvenation&nbsp;ability,&nbsp;restoring&nbsp;itself&nbsp;completely.&nbsp;A&nbsp;ghost&nbsp;may&nbsp;not&nbsp;targeted&nbsp;by&nbsp;this&nbsp;power&nbsp;more&nbsp;than&nbsp;once&nbsp;in&nbsp;a&nbsp;given&nbsp;week.
+      <p>You infuse unnatural vitality into the target, returning it to unlife.
+      The recently destroyed ghost immediately activates its rejuvenation
+      ability, restoring itself completely. A ghost may not targeted by this
+      power more than once in a given week.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You may augment this power in one of the
+      following ways.
 
-      </p><ol><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;target&nbsp;a&nbsp;ghost&nbsp;that&nbsp;was&nbsp;destroyed&nbsp;a&nbsp;number&nbsp;of&nbsp;days&nbsp;ago&nbsp;equal&nbsp;to&nbsp;your&nbsp;manifester&nbsp;level&nbsp;(round&nbsp;down)&nbsp;or&nbsp;less.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points&nbsp;and&nbsp;expending&nbsp;your&nbsp;psionic&nbsp;focus,&nbsp;you&nbsp;may&nbsp;manifest&nbsp;this&nbsp;power&nbsp;on&nbsp;yourself&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action&nbsp;when&nbsp;you&nbsp;would&nbsp;be&nbsp;reduced&nbsp;to&nbsp;0&nbsp;or&nbsp;fewer&nbsp;hit&nbsp;points.&nbsp;When&nbsp;you&nbsp;do,&nbsp;you&nbsp;and&nbsp;your&nbsp;gear&nbsp;are&nbsp;immediately&nbsp;destroyed,&nbsp;returning&nbsp;to&nbsp;life&nbsp;2d4&nbsp;days&nbsp;unharmed&nbsp;with&nbsp;all&nbsp;gear&nbsp;intact.&nbsp;You&nbsp;must&nbsp;currently&nbsp;be&nbsp;incorporeal&nbsp;or&nbsp;under&nbsp;the&nbsp;effects&nbsp;of&nbsp;a&nbsp;power&nbsp;with&nbsp;the&nbsp;spirit&nbsp;subtype&nbsp;to&nbsp;augment&nbsp;the&nbsp;power&nbsp;in&nbsp;this&nbsp;way.</li></ol>
+      </p><ol><li>By spending an additional 6 power points, you may target a
+      ghost that was destroyed a number of days ago equal to your manifester
+      level (round down) or less.</li><li>By spending an additional 6 power
+      points and expending your psionic focus, you may manifest this power on
+      yourself as an immediate action when you would be reduced to 0 or fewer
+      hit points. When you do, you and your gear are immediately destroyed,
+      returning to life 2d4 days unharmed with all gear intact. You must
+      currently be incorporeal or under the effects of a power with the spirit
+      subtype to augment the power in this way.</li></ol>
   descriptors:
     - healing
   discipline: athanatism

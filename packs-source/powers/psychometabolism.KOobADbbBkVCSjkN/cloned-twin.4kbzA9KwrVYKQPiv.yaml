@@ -27,17 +27,39 @@ system:
         value: One cloned twin
   description:
     value: >-
-      <p>When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;your&nbsp;body&nbsp;creates&nbsp;a&nbsp;perfect&nbsp;copy&nbsp;of&nbsp;yourself&nbsp;into&nbsp;a&nbsp;single&nbsp;adjacent&nbsp;square.&nbsp;As&nbsp;long&nbsp;as&nbsp;the&nbsp;twin&nbsp;exists,&nbsp;whenever&nbsp;you&nbsp;take&nbsp;a&nbsp;move&nbsp;action&nbsp;to&nbsp;move,&nbsp;the&nbsp;twin&nbsp;can&nbsp;move&nbsp;as&nbsp;well,&nbsp;although&nbsp;it&nbsp;does&nbsp;not&nbsp;need&nbsp;to&nbsp;follow&nbsp;you&nbsp;and&nbsp;cannot&nbsp;take&nbsp;any&nbsp;other&nbsp;actions.&nbsp;On&nbsp;subsequent&nbsp;rounds,&nbsp;at&nbsp;the&nbsp;start&nbsp;of&nbsp;your&nbsp;turn,&nbsp;your&nbsp;mind&nbsp;can&nbsp;instantaneously&nbsp;exchange&nbsp;places&nbsp;with&nbsp;your&nbsp;twin,&nbsp;becoming&nbsp;the&nbsp;twin&nbsp;and&nbsp;your&nbsp;original&nbsp;body&nbsp;becoming&nbsp;the&nbsp;twin.&nbsp;This&nbsp;is&nbsp;not&nbsp;an&nbsp;action&nbsp;and&nbsp;does&nbsp;not&nbsp;provoke&nbsp;an&nbsp;attack&nbsp;of&nbsp;opportunity.
+      <p>When you manifest this power, your body creates a perfect copy of
+      yourself into a single adjacent square. As long as the twin exists,
+      whenever you take a move action to move, the twin can move as well,
+      although it does not need to follow you and cannot take any other actions.
+      On subsequent rounds, at the start of your turn, your mind can
+      instantaneously exchange places with your twin, becoming the twin and your
+      original body becoming the twin. This is not an action and does not
+      provoke an attack of opportunity.
 
       </p>
 
-      <p>The&nbsp;twin&nbsp;has&nbsp;a&nbsp;speed&nbsp;of&nbsp;30&nbsp;feet&nbsp;and&nbsp;provokes&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;from&nbsp;movement&nbsp;as&nbsp;normal.&nbsp;Your&nbsp;twin&nbsp;cannot&nbsp;speak&nbsp;while&nbsp;you&nbsp;are&nbsp;in&nbsp;your&nbsp;other&nbsp;body,&nbsp;and&nbsp;cannot&nbsp;flank,&nbsp;make&nbsp;attacks&nbsp;of&nbsp;opportunity,&nbsp;or&nbsp;otherwise&nbsp;threaten&nbsp;enemies.&nbsp;It&nbsp;has&nbsp;an&nbsp;AC&nbsp;equal&nbsp;to&nbsp;10&nbsp;+&nbsp;1/2&nbsp;your&nbsp;manifester&nbsp;level&nbsp;and&nbsp;a&nbsp;number&nbsp;of&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;your&nbsp;manifester&nbsp;level.&nbsp;If&nbsp;the&nbsp;twin&nbsp;is&nbsp;reduced&nbsp;to&nbsp;0&nbsp;hit&nbsp;points,&nbsp;it&nbsp;is&nbsp;destroyed,&nbsp;although&nbsp;you&nbsp;can&nbsp;create&nbsp;a&nbsp;new&nbsp;one&nbsp;on&nbsp;your&nbsp;turn&nbsp;as&nbsp;a&nbsp;standard&nbsp;action&nbsp;as&nbsp;long&nbsp;as&nbsp;the&nbsp;duration&nbsp;persists.
+      <p>The twin has a speed of 30 feet and provokes attacks of opportunity
+      from movement as normal. Your twin cannot speak while you are in your
+      other body, and cannot flank, make attacks of opportunity, or otherwise
+      threaten enemies. It has an AC equal to 10 + 1/2 your manifester level and
+      a number of hit points equal to your manifester level. If the twin is
+      reduced to 0 hit points, it is destroyed, although you can create a new
+      one on your turn as a standard action as long as the duration persists.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power can be augmented in one or more of
+      the following ways.
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;extends&nbsp;to&nbsp;1&nbsp;minute/lvl.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;create&nbsp;another&nbsp;cloned&nbsp;twin.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;twin&nbsp;uses&nbsp;your&nbsp;AC,&nbsp;movement&nbsp;speeds,&nbsp;movement&nbsp;modes&nbsp;and&nbsp;hit&nbsp;points&nbsp;at&nbsp;the&nbsp;time&nbsp;of&nbsp;the&nbsp;split,&nbsp;and&nbsp;retains&nbsp;any&nbsp;spells,&nbsp;powers&nbsp;or&nbsp;effects&nbsp;that&nbsp;were&nbsp;affecting&nbsp;you&nbsp;when&nbsp;you&nbsp;split.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;if&nbsp;you&nbsp;are&nbsp;reduced&nbsp;to&nbsp;0&nbsp;hit&nbsp;points,&nbsp;you&nbsp;can&nbsp;freely&nbsp;shift&nbsp;your&nbsp;consciousness&nbsp;into&nbsp;the&nbsp;twin,&nbsp;while&nbsp;the&nbsp;body&nbsp;you&nbsp;inhabited&nbsp;is&nbsp;destroyed.</li></ol>
+      </p><ol><li>If you spend 2 additional power points, the duration extends
+      to 1 minute/lvl.</li><li>For every 2 additional power points you spend,
+      you create another cloned twin.</li><li>If you spend 4 additional power
+      points, the twin uses your AC, movement speeds, movement modes and hit
+      points at the time of the split, and retains any spells, powers or effects
+      that were affecting you when you split.</li><li>If you spend 2 additional
+      power points, if you are reduced to 0 hit points, you can freely shift
+      your consciousness into the twin, while the body you inhabited is
+      destroyed.</li></ol>
   discipline: psychometabolism
   display:
     auditory: false

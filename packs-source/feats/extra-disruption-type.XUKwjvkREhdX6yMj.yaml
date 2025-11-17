@@ -21,21 +21,14 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;can&nbsp;have&nbsp;more&nbsp;active&nbsp;creature&nbsp;types&nbsp;with&nbsp;your
-
-      disrupt&nbsp;pattern.
-
+    value: |-
+      <p>You can have more active creature types with your
+      disrupt pattern.
       </p>
-
-      <p><strong>Prerequisite:&nbsp;</strong>Disrupt&nbsp;pattern&nbsp;class&nbsp;feature.
-
+      <p><strong>Prerequisite: </strong>Disrupt pattern class feature.
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;gain&nbsp;psionic&nbsp;focus,&nbsp;you&nbsp;can&nbsp;select
-
-      one&nbsp;additional&nbsp;creature&nbsp;type&nbsp;as&nbsp;your&nbsp;active&nbsp;type.
-
+      <p><strong>Benefit: </strong>When you gain psionic focus, you can select
+      one additional creature type as your active type.
       </p>
   disabled: false
   featType: feat

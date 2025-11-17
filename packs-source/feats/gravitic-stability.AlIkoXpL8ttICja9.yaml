@@ -21,37 +21,22 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;have&nbsp;an&nbsp;uncanny&nbsp;stability&nbsp;against&nbsp;attempts&nbsp;to
-
-      impede&nbsp;your&nbsp;movement.
-
+    value: |-
+      <p>You have an uncanny stability against attempts to
+      impede your movement.
       </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Elocater&nbsp;level&nbsp;1st
-
+      <p><strong>Prerequisites: </strong>Elocater level 1st
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>Any&nbsp;time&nbsp;your&nbsp;movement&nbsp;speed&nbsp;would&nbsp;be
-
-      reduced&nbsp;to&nbsp;10&nbsp;ft.&nbsp;as&nbsp;a&nbsp;result&nbsp;of&nbsp;using&nbsp;personal&nbsp;gravity
-
-      or&nbsp;scorn&nbsp;earth&nbsp;(such&nbsp;as&nbsp;from&nbsp;wearing&nbsp;heavy&nbsp;armor&nbsp;or
-
-      being&nbsp;more&nbsp;than&nbsp;1&nbsp;ft.&nbsp;away&nbsp;from&nbsp;a&nbsp;stable&nbsp;surface),&nbsp;your
-
-      speed&nbsp;is&nbsp;instead&nbsp;reduced&nbsp;to&nbsp;10&nbsp;ft.&nbsp;plus&nbsp;any&nbsp;bonuses&nbsp;to
-
-      your&nbsp;movement&nbsp;(such&nbsp;as&nbsp;from&nbsp;freerunning).&nbsp;You&nbsp;do&nbsp;not
-
-      take&nbsp;any&nbsp;penalty&nbsp;for&nbsp;attacking&nbsp;while&nbsp;using&nbsp;scorn&nbsp;earth&nbsp;at
-
-      distances&nbsp;greater&nbsp;than&nbsp;1&nbsp;ft.&nbsp;from&nbsp;the&nbsp;ground&nbsp;or&nbsp;a&nbsp;stable
-
-      surface.&nbsp;You&nbsp;gain&nbsp;a&nbsp;bonus&nbsp;to&nbsp;your&nbsp;CMD&nbsp;equal&nbsp;to&nbsp;your
-
-      elocater&nbsp;class&nbsp;level&nbsp;against&nbsp;any&nbsp;bull&nbsp;rush&nbsp;or&nbsp;trip&nbsp;attempt.
-
+      <p><strong>Benefit: </strong>Any time your movement speed would be
+      reduced to 10 ft. as a result of using personal gravity
+      or scorn earth (such as from wearing heavy armor or
+      being more than 1 ft. away from a stable surface), your
+      speed is instead reduced to 10 ft. plus any bonuses to
+      your movement (such as from freerunning). You do not
+      take any penalty for attacking while using scorn earth at
+      distances greater than 1 ft. from the ground or a stable
+      surface. You gain a bonus to your CMD equal to your
+      elocater class level against any bull rush or trip attempt.
       </p>
   disabled: false
   featType: feat

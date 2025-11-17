@@ -71,7 +71,12 @@ system:
     umd: false
   description:
     value: >-
-      <p>Duergars&nbsp;gain&nbsp;the&nbsp;@UUID[Compendium.pf1-psionics.feats.Item.dtygVowbi3UPpTDb]{Wild&nbsp;Talent}&nbsp;feat&nbsp;as&nbsp;a&nbsp;bonus&nbsp;feat&nbsp;at&nbsp;1st&nbsp;level.&nbsp;If&nbsp;a&nbsp;blue&nbsp;takes&nbsp;levels&nbsp;in&nbsp;a&nbsp;psionic&nbsp;class,&nbsp;he&nbsp;instead&nbsp;gains&nbsp;the&nbsp;@UUID[Compendium.pf1-psionics.feats.Item.JpYoizsD3r5zjKcy]{Psionic&nbsp;Talent}&nbsp;feat.</p>
+      <p>Duergars gain the
+      @UUID[Compendium.pf1-psionics.feats.Item.dtygVowbi3UPpTDb]{Wild Talent}
+      feat as a bonus feat at 1st level. If a blue takes levels in a psionic
+      class, he instead gains the
+      @UUID[Compendium.pf1-psionics.feats.Item.JpYoizsD3r5zjKcy]{Psionic Talent}
+      feat.</p>
   disabled: false
   inherited: false
   showInCombat: false

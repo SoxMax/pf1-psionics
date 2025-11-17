@@ -24,13 +24,22 @@ system:
         value: Personal or touch
   description:
     value: >-
-      <p>You&nbsp;surround&nbsp;yourself&nbsp;or&nbsp;the&nbsp;target&nbsp;with&nbsp;a&nbsp;telekinetic&nbsp;barrier&nbsp;that&nbsp;slows&nbsp;down&nbsp;all&nbsp;incoming&nbsp;projectiles,&nbsp;draining&nbsp;them&nbsp;of&nbsp;their&nbsp;energy&nbsp;and&nbsp;force,&nbsp;causing&nbsp;them&nbsp;to&nbsp;drop&nbsp;to&nbsp;the&nbsp;ground&nbsp;when&nbsp;entering&nbsp;the&nbsp;aura.&nbsp;You&nbsp;and&nbsp;all&nbsp;allies&nbsp;inside&nbsp;the&nbsp;aura&nbsp;gain&nbsp;Damage&nbsp;Reduction&nbsp;20/magic&nbsp;against&nbsp;all&nbsp;ranged&nbsp;projectile&nbsp;or&nbsp;thrown&nbsp;attacks.&nbsp;This&nbsp;power&nbsp;lasts&nbsp;until&nbsp;it&nbsp;has&nbsp;prevented&nbsp;a&nbsp;total&nbsp;of&nbsp;50&nbsp;points&nbsp;of&nbsp;damage.
+      <p>You surround yourself or the target with a telekinetic barrier that
+      slows down all incoming projectiles, draining them of their energy and
+      force, causing them to drop to the ground when entering the aura. You and
+      all allies inside the aura gain Damage Reduction 20/magic against all
+      ranged projectile or thrown attacks. This power lasts until it has
+      prevented a total of 50 points of damage.
 
       </p>
 
-      <p><strong>Augment:&nbsp;</strong>This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment: </strong>This power may be augmented in one or both of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend&nbsp;on&nbsp;this&nbsp;power,&nbsp;the&nbsp;pool&nbsp;of&nbsp;damage&nbsp;before&nbsp;it&nbsp;is&nbsp;discharged&nbsp;is&nbsp;increased&nbsp;by&nbsp;50.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;damage&nbsp;reduction&nbsp;changes&nbsp;to&nbsp;20/-&nbsp;instead&nbsp;of&nbsp;20/magic.</li></ol>
+      </p><ol><li>For every additional power point you spend on this power, the
+      pool of damage before it is discharged is increased by 50.</li><li>If you
+      spend 2 additional power points, the damage reduction changes to 20/-
+      instead of 20/magic.</li></ol>
   discipline: psychokinesis
   display:
     auditory: false

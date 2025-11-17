@@ -22,13 +22,19 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;utilize&nbsp;biokinetic&nbsp;techniques&nbsp;when&nbsp;you&nbsp;gain&nbsp;your&nbsp;focus.</em></p>
+      <p><em>You utilize biokinetic techniques when you gain your
+      focus.</em></p>
 
-      <p><strong>Prerequisites:&nbsp;</strong><a&nbsp;href="/wiki/Psionic_Meditation"&nbsp;title="Psionic&nbsp;Meditation">Psionic&nbsp;Meditation</a>,&nbsp;Con&nbsp;13.
+      <p><strong>Prerequisites: </strong><a href="/wiki/Psionic_Meditation"
+      title="Psionic Meditation">Psionic Meditation</a>, Con 13.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;may&nbsp;gain&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;1/2&nbsp;your&nbsp;manifester&nbsp;level&nbsp;whenever&nbsp;you&nbsp;gain&nbsp;your&nbsp;psionic&nbsp;focus.&nbsp;These&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;last&nbsp;for&nbsp;up&nbsp;to&nbsp;one&nbsp;minute&nbsp;per&nbsp;character&nbsp;level.&nbsp;You&nbsp;may&nbsp;gain&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;from&nbsp;this&nbsp;feat&nbsp;up&nbsp;to&nbsp;four&nbsp;times&nbsp;per&nbsp;day,&nbsp;and&nbsp;they&nbsp;do&nbsp;not&nbsp;stack&nbsp;with&nbsp;themselves.
+      <p><strong>Benefit: </strong>You may gain temporary hit points equal to
+      1/2 your manifester level whenever you gain your psionic focus. These
+      temporary hit points last for up to one minute per character level. You
+      may gain temporary hit points from this feat up to four times per day, and
+      they do not stack with themselves.
 
       </p>
   disabled: false

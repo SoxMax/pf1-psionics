@@ -33,11 +33,21 @@ system:
         value: One or more living creatures in a 10-foot-radius burst
   description:
     value: >-
-      <p>You&nbsp;cause&nbsp;a&nbsp;psionic&nbsp;slumber&nbsp;to&nbsp;come&nbsp;upon&nbsp;4&nbsp;HD&nbsp;of&nbsp;creatures.&nbsp;Creatures&nbsp;with&nbsp;the&nbsp;fewest&nbsp;HD&nbsp;are&nbsp;affected&nbsp;first.&nbsp;Among&nbsp;creatures&nbsp;with&nbsp;equal&nbsp;HD,&nbsp;those&nbsp;who&nbsp;are&nbsp;closest&nbsp;to&nbsp;the&nbsp;power's&nbsp;point&nbsp;of&nbsp;origin&nbsp;are&nbsp;affected&nbsp;first.&nbsp;HD&nbsp;that&nbsp;are&nbsp;not&nbsp;sufficient&nbsp;to&nbsp;affect&nbsp;a&nbsp;creature&nbsp;are&nbsp;wasted.&nbsp;Sleeping&nbsp;creatures&nbsp;are&nbsp;helpless.&nbsp;Slapping&nbsp;or&nbsp;wounding&nbsp;awakens&nbsp;an&nbsp;affected&nbsp;creature,&nbsp;but&nbsp;normal&nbsp;noise&nbsp;does&nbsp;not.&nbsp;Awakening&nbsp;a&nbsp;creature&nbsp;is&nbsp;a&nbsp;standard&nbsp;action&nbsp;(an&nbsp;application&nbsp;of&nbsp;the&nbsp;aid&nbsp;another&nbsp;action).&nbsp;Slumber&nbsp;does&nbsp;not&nbsp;target&nbsp;unconscious&nbsp;creatures,&nbsp;constructs,&nbsp;or&nbsp;undead&nbsp;creatures.
+      <p>You cause a psionic slumber to come upon 4 HD of creatures. Creatures
+      with the fewest HD are affected first. Among creatures with equal HD,
+      those who are closest to the power's point of origin are affected first.
+      HD that are not sufficient to affect a creature are wasted. Sleeping
+      creatures are helpless. Slapping or wounding awakens an affected creature,
+      but normal noise does not. Awakening a creature is a standard action (an
+      application of the aid another action). Slumber does not target
+      unconscious creatures, constructs, or undead creatures.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;you&nbsp;increase&nbsp;the&nbsp;number&nbsp;of&nbsp;Hit&nbsp;Dice&nbsp;affected&nbsp;by&nbsp;one.&nbsp;If&nbsp;you&nbsp;instead&nbsp;spend&nbsp;11&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;affect&nbsp;every&nbsp;creature&nbsp;within&nbsp;the&nbsp;power's&nbsp;area,&nbsp;regardless&nbsp;of&nbsp;individual&nbsp;or&nbsp;total&nbsp;Hit&nbsp;Dice.
+      <p><strong>Augment:</strong> For every additional power point you spend,
+      you increase the number of Hit Dice affected by one. If you instead spend
+      11 additional power points, you affect every creature within the power's
+      area, regardless of individual or total Hit Dice.
 
       </p>
   descriptors:

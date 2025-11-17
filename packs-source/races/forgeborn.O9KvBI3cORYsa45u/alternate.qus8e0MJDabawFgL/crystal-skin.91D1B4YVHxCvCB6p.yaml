@@ -63,7 +63,11 @@ system:
     umd: false
   description:
     value: >-
-      <p>Some&nbsp;forgeborn&nbsp;are&nbsp;made&nbsp;from&nbsp;shining&nbsp;crystal,&nbsp;which&nbsp;protects&nbsp;them&nbsp;against&nbsp;rays,&nbsp;but&nbsp;isn't&nbsp;as&nbsp;sturdy&nbsp;as&nbsp;other&nbsp;minerals.&nbsp;A&nbsp;forgeborn&nbsp;with&nbsp;this&nbsp;trait&nbsp;gains&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;to&nbsp;its&nbsp;AC&nbsp;against&nbsp;ray&nbsp;attacks.&nbsp;In&nbsp;addition,&nbsp;once&nbsp;per&nbsp;day&nbsp;it&nbsp;can&nbsp;deflect&nbsp;one&nbsp;ray&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action.&nbsp;This&nbsp;replaces&nbsp;natural&nbsp;armor.</li></p>
+      <p>Some forgeborn are made from shining crystal, which protects them
+      against rays, but isn't as sturdy as other minerals. A forgeborn with this
+      trait gains a +2 bonus to its AC against ray attacks. In addition, once
+      per day it can deflect one ray as an immediate action. This replaces
+      natural armor.</li></p>
   disabled: false
   inherited: false
   showInQuickbar: false

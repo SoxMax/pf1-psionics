@@ -22,15 +22,18 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;lengthen&nbsp;extended&nbsp;powers&nbsp;by&nbsp;concentrating.</em></p>
+      <p><em>You can lengthen extended powers by concentrating.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Extend_Power"&nbsp;title="Extend&nbsp;Power">Extend&nbsp;Power</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Extend_Power"
+      title="Extend Power">Extend Power</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;using&nbsp;the&nbsp;Extend&nbsp;Power&nbsp;feat,&nbsp;you&nbsp;can&nbsp;choose&nbsp;to&nbsp;concentrate&nbsp;on&nbsp;the&nbsp;power,&nbsp;and&nbsp;each&nbsp;round&nbsp;you&nbsp;concentrate&nbsp;on&nbsp;the&nbsp;power&nbsp;extends&nbsp;the&nbsp;time&nbsp;before&nbsp;the
+      <p><strong>Benefit: </strong>When using the Extend Power feat, you can
+      choose to concentrate on the power, and each round you concentrate on the
+      power extends the time before the
 
-      duration&nbsp;starts.
+      duration starts.
 
       </p>
   disabled: false

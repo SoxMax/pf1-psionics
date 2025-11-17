@@ -22,13 +22,19 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;steal&nbsp;the&nbsp;speed&nbsp;of&nbsp;those&nbsp;in&nbsp;your&nbsp;collective&nbsp;to&nbsp;move&nbsp;faster.</em></p>
+      <p><em>You can steal the speed of those in your collective to move
+      faster.</em></p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Collective&nbsp;class&nbsp;feature,&nbsp;<a&nbsp;href="/wiki/Mind_Parasite"&nbsp;title="Mind&nbsp;Parasite">Mind&nbsp;Parasite</a>.
+      <p><strong>Prerequisites:</strong> Collective class feature, <a
+      href="/wiki/Mind_Parasite" title="Mind Parasite">Mind Parasite</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>Up&nbsp;to&nbsp;3&nbsp;times&nbsp;per&nbsp;day,&nbsp;as&nbsp;a&nbsp;swift&nbsp;action,&nbsp;you&nbsp;can&nbsp;give&nbsp;every&nbsp;member&nbsp;of&nbsp;your&nbsp;Collective&nbsp;a&nbsp;–5&nbsp;feet&nbsp;penalty&nbsp;on&nbsp;their&nbsp;movement&nbsp;speeds&nbsp;and&nbsp;gain&nbsp;a&nbsp;bonus&nbsp;to&nbsp;your&nbsp;movement&nbsp;speeds&nbsp;equal&nbsp;to&nbsp;+5&nbsp;feet&nbsp;per&nbsp;member.&nbsp;Both&nbsp;the&nbsp;penalty&nbsp;and&nbsp;bonus&nbsp;last&nbsp;for&nbsp;a&nbsp;number&nbsp;of&nbsp;rounds&nbsp;equal&nbsp;to&nbsp;your&nbsp;key&nbsp;ability&nbsp;modifier.
+      <p><strong>Benefit: </strong>Up to 3 times per day, as a swift action, you
+      can give every member of your Collective a –5 feet penalty on their
+      movement speeds and gain a bonus to your movement speeds equal to +5 feet
+      per member. Both the penalty and bonus last for a number of rounds equal
+      to your key ability modifier.
 
       </p>
   disabled: false

@@ -5,7 +5,6 @@ import url from "node:url";
 import yargs from "yargs";
 import { Listr } from "listr2";
 import pc from "picocolors";
-import yaml from "js-yaml";
 import * as fvtt from "@foundryvtt/foundryvtt-cli";
 
 const __filename = url.fileURLToPath(import.meta.url);
@@ -57,7 +56,7 @@ function sluggify(name) {
  */
 function sanitizeHTML(text) {
   if (typeof text !== "string") return text;
-  return text.replaceAll(" ", "&nbsp;");
+  return text;
 }
 
 /**

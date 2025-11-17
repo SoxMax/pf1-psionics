@@ -34,23 +34,39 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;rip&nbsp;the&nbsp;body&nbsp;of&nbsp;the&nbsp;target&nbsp;creature&nbsp;apart&nbsp;with&nbsp;telekinetic&nbsp;force,&nbsp;rending&nbsp;it&nbsp;limb&nbsp;from&nbsp;limb.&nbsp;The&nbsp;target&nbsp;creature&nbsp;suffers&nbsp;9d6&nbsp;points&nbsp;of&nbsp;damage.&nbsp;If&nbsp;this&nbsp;damage&nbsp;reduces&nbsp;the&nbsp;target's&nbsp;hit&nbsp;point&nbsp;total&nbsp;by&nbsp;more&nbsp;than&nbsp;half,&nbsp;a&nbsp;limb&nbsp;is&nbsp;removed&nbsp;from&nbsp;the&nbsp;creature's&nbsp;body&nbsp;flies&nbsp;15&nbsp;feet&nbsp;in&nbsp;a&nbsp;random&nbsp;direction&nbsp;away&nbsp;from&nbsp;the&nbsp;creature&nbsp;and&nbsp;causes&nbsp;the&nbsp;affected&nbsp;creature&nbsp;to&nbsp;bleed.&nbsp;The&nbsp;creature&nbsp;suffers&nbsp;one&nbsp;additional&nbsp;5&nbsp;points&nbsp;of&nbsp;damage&nbsp;each&nbsp;round.&nbsp;The&nbsp;bleeding&nbsp;can&nbsp;be&nbsp;stopped&nbsp;by&nbsp;a&nbsp;DC&nbsp;15&nbsp;Heal&nbsp;check&nbsp;or&nbsp;the&nbsp;application&nbsp;of&nbsp;any&nbsp;effect&nbsp;that&nbsp;heals&nbsp;hit&nbsp;point&nbsp;damage,&nbsp;but&nbsp;the&nbsp;limb&nbsp;can&nbsp;only&nbsp;be&nbsp;restored&nbsp;by&nbsp;powerful&nbsp;healing&nbsp;effects&nbsp;such&nbsp;as&nbsp;regeneration&nbsp;or&nbsp;heal.
+      <p>You rip the body of the target creature apart with telekinetic force,
+      rending it limb from limb. The target creature suffers 9d6 points of
+      damage. If this damage reduces the target's hit point total by more than
+      half, a limb is removed from the creature's body flies 15 feet in a random
+      direction away from the creature and causes the affected creature to
+      bleed. The creature suffers one additional 5 points of damage each round.
+      The bleeding can be stopped by a DC 15 Heal check or the application of
+      any effect that heals hit point damage, but the limb can only be restored
+      by powerful healing effects such as regeneration or heal.
 
       </p>
 
-      <p>If&nbsp;the&nbsp;damage&nbsp;reduces&nbsp;the&nbsp;target's&nbsp;hit&nbsp;points&nbsp;to&nbsp;below&nbsp;zero,&nbsp;all&nbsp;of&nbsp;its&nbsp;limbs&nbsp;are&nbsp;affected&nbsp;in&nbsp;this&nbsp;fashion.
+      <p>If the damage reduces the target's hit points to below zero, all of its
+      limbs are affected in this fashion.
 
       </p>
 
-      <p>Creatures&nbsp;without&nbsp;a&nbsp;discernible&nbsp;anatomy&nbsp;or&nbsp;limbs&nbsp;are&nbsp;unaffected&nbsp;by&nbsp;rending&nbsp;force.
+      <p>Creatures without a discernible anatomy or limbs are unaffected by
+      rending force.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power can be augmented in one or more of
+      the following ways.
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;damage&nbsp;dealt&nbsp;uses&nbsp;d8&nbsp;instead&nbsp;of&nbsp;d6.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;a&nbsp;limb&nbsp;is&nbsp;removed&nbsp;if&nbsp;the&nbsp;damage&nbsp;reduces&nbsp;the&nbsp;target's&nbsp;hit&nbsp;point&nbsp;total&nbsp;by&nbsp;more&nbsp;than&nbsp;1/4.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;target&nbsp;is&nbsp;also&nbsp;sickened&nbsp;if&nbsp;a&nbsp;limb&nbsp;is&nbsp;removed.</li></ol>
+      </p><ol><li>If you spend 2 additional power points, the damage dealt uses
+      d8 instead of d6.</li><li>If you spend 2 additional power points, a limb
+      is removed if the damage reduces the target's hit point total by more than
+      1/4.</li><li>If you spend 2 additional power points, the target is also
+      sickened if a limb is removed.</li></ol>
 
-      <p>In&nbsp;addition,&nbsp;for&nbsp;each&nbsp;power&nbsp;point&nbsp;spent&nbsp;augmenting&nbsp;this&nbsp;power,&nbsp;the&nbsp;damage&nbsp;increases&nbsp;by&nbsp;an&nbsp;additional&nbsp;die&nbsp;of&nbsp;damage.
+      <p>In addition, for each power point spent augmenting this power, the
+      damage increases by an additional die of damage.
 
       </p>
   descriptors:

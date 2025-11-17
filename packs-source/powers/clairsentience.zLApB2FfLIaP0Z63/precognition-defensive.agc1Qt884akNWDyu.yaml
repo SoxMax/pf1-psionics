@@ -28,17 +28,23 @@ system:
         value: You
   description:
     value: >-
-      <p>Your&nbsp;awareness&nbsp;extends&nbsp;a&nbsp;fraction&nbsp;of&nbsp;a&nbsp;second&nbsp;into&nbsp;the&nbsp;future,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;better&nbsp;evade&nbsp;an&nbsp;opponent's&nbsp;blows.
+      <p>Your awareness extends a fraction of a second into the future, allowing
+      you to better evade an opponent's blows.
 
       </p>
 
-      <p>You&nbsp;gain&nbsp;a&nbsp;+1&nbsp;insight&nbsp;bonus&nbsp;to&nbsp;AC&nbsp;and&nbsp;on&nbsp;all&nbsp;saving&nbsp;throws.&nbsp;If&nbsp;caught&nbsp;in&nbsp;a&nbsp;situation&nbsp;where&nbsp;your&nbsp;Dexterity&nbsp;bonus&nbsp;isn't&nbsp;applied&nbsp;to&nbsp;your&nbsp;Armor&nbsp;Class,&nbsp;this&nbsp;bonus&nbsp;to&nbsp;AC&nbsp;and&nbsp;saving&nbsp;throws&nbsp;does&nbsp;not&nbsp;apply.
+      <p>You gain a +1 insight bonus to AC and on all saving throws. If caught
+      in a situation where your Dexterity bonus isn't applied to your Armor
+      Class, this bonus to AC and saving throws does not apply.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or both of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;3&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;insight&nbsp;bonus&nbsp;gained&nbsp;increases&nbsp;by&nbsp;1.</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action.</li></ol>
+      </p><ol><li>For every 3 additional power points you spend, the insight
+      bonus gained increases by 1.</li><li>If you spend 6 additional power
+      points, you can manifest this power as a swift action.</li></ol>
   discipline: clairsentience
   display:
     auditory: false

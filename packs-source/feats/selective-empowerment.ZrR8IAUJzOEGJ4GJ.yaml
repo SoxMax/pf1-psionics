@@ -22,15 +22,19 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;powers&nbsp;become&nbsp;more&nbsp;effective&nbsp;by&nbsp;excluding&nbsp;allies&nbsp;in&nbsp;the&nbsp;affected&nbsp;area.</em></p>
+      <p><em>Your powers become more effective by excluding allies in the
+      affected area.</em></p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Spellcraft&nbsp;10&nbsp;ranks,&nbsp;<a&nbsp;href="/wiki/Selective_Power"&nbsp;title="Selective&nbsp;Power">Selective&nbsp;Power</a>.
+      <p><strong>Prerequisites:</strong> Spellcraft 10 ranks, <a
+      href="/wiki/Selective_Power" title="Selective Power">Selective Power</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>For&nbsp;each&nbsp;ally&nbsp;you&nbsp;exclude&nbsp;with&nbsp;the&nbsp;Selective&nbsp;Power&nbsp;feat,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;to&nbsp;manifester&nbsp;checks&nbsp;to&nbsp;overcome&nbsp;Power&nbsp;Resistance&nbsp;or&nbsp;Spell&nbsp;Resistance&nbsp;against
+      <p><strong>Benefit: </strong>For each ally you exclude with the Selective
+      Power feat, you gain a +1 bonus to manifester checks to overcome Power
+      Resistance or Spell Resistance against
 
-      the&nbsp;other&nbsp;targets&nbsp;inside&nbsp;the&nbsp;area.
+      the other targets inside the area.
 
       </p>
   disabled: false

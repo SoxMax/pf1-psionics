@@ -22,13 +22,17 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Knocking&nbsp;a&nbsp;target&nbsp;over&nbsp;also&nbsp;causes&nbsp;them&nbsp;to&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity.</em></p>
+      <p><em>Knocking a target over also causes them to provoke attacks of
+      opportunity.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Toppling_Power"&nbsp;title="Toppling&nbsp;Power">Toppling&nbsp;Power</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Toppling_Power"
+      title="Toppling Power">Toppling Power</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>If&nbsp;you&nbsp;succeed&nbsp;at&nbsp;knocking&nbsp;a&nbsp;target&nbsp;prone&nbsp;when&nbsp;using&nbsp;the&nbsp;Toppling&nbsp;Power&nbsp;feat,&nbsp;that&nbsp;target&nbsp;provokes&nbsp;an&nbsp;attack&nbsp;of&nbsp;opportunity&nbsp;when&nbsp;falling.
+      <p><strong>Benefit: </strong>If you succeed at knocking a target prone
+      when using the Toppling Power feat, that target provokes an attack of
+      opportunity when falling.
 
       </p>
   disabled: false

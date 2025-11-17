@@ -29,15 +29,25 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;engorge&nbsp;the&nbsp;muscles&nbsp;of&nbsp;your&nbsp;target,&nbsp;shredding&nbsp;their&nbsp;skin&nbsp;and&nbsp;exposing&nbsp;the&nbsp;tissue&nbsp;beneath.&nbsp;The&nbsp;target&nbsp;gains&nbsp;a&nbsp;+4&nbsp;enhancement&nbsp;bonus&nbsp;to&nbsp;Strength&nbsp;and&nbsp;a&nbsp;+4&nbsp;enhancement&nbsp;bonus&nbsp;to&nbsp;Intimidate&nbsp;checks.&nbsp;Additionally,&nbsp;the&nbsp;target&nbsp;suffers&nbsp;2&nbsp;points&nbsp;of&nbsp;bleed&nbsp;damage&nbsp;at&nbsp;the&nbsp;start&nbsp;of&nbsp;their&nbsp;turns.
+      <p>You engorge the muscles of your target, shredding their skin and
+      exposing the tissue beneath. The target gains a +4 enhancement bonus to
+      Strength and a +4 enhancement bonus to Intimidate checks. Additionally,
+      the target suffers 2 points of bleed damage at the start of their turns.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;the&nbsp;following&nbsp;ways:
+      <p><strong>Augment:</strong> You may augment this power in the following
+      ways:
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;3&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;Strength&nbsp;and&nbsp;Intimidate&nbsp;bonuses&nbsp;increase&nbsp;by&nbsp;2.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;bleed&nbsp;damage&nbsp;increases&nbsp;by&nbsp;2.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;target&nbsp;suffers&nbsp;a&nbsp;–2&nbsp;penalty&nbsp;to&nbsp;their&nbsp;natural&nbsp;armor&nbsp;(this&nbsp;cannot&nbsp;reduce&nbsp;their&nbsp;natural&nbsp;armor&nbsp;below&nbsp;0).</li></ol>
+      </p><ol><li>If you spend 3 additional power points, the Strength and
+      Intimidate bonuses increase by 2.</li><li>For every 2 additional power
+      points you spend, the bleed damage increases by 2.</li><li>For every 2
+      additional power points you spend, the target suffers a –2 penalty to
+      their natural armor (this cannot reduce their natural armor below
+      0).</li></ol>
 
-      <p>Additionally,&nbsp;for&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;you&nbsp;spend&nbsp;to&nbsp;achieve&nbsp;the&nbsp;above&nbsp;results,&nbsp;increase&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;by&nbsp;1.
+      <p>Additionally, for every 2 power points you spend to achieve the above
+      results, increase this power's save DC by 1.
 
       </p>
   discipline: psychometabolism

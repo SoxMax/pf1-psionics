@@ -29,7 +29,10 @@ system:
         value: One living creature
   description:
     value: >-
-      <p>As&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack,&nbsp;you&nbsp;may&nbsp;cause&nbsp;a&nbsp;target&nbsp;to&nbsp;be&nbsp;fatigued&nbsp;for&nbsp;a&nbsp;number&nbsp;of&nbsp;rounds&nbsp;equal&nbsp;to&nbsp;your&nbsp;manifester&nbsp;level.&nbsp;A&nbsp;successful&nbsp;Fortitude&nbsp;save&nbsp;negates&nbsp;this&nbsp;effect.&nbsp;This&nbsp;ability&nbsp;has&nbsp;no&nbsp;effect&nbsp;on&nbsp;a&nbsp;creature&nbsp;that&nbsp;is&nbsp;already&nbsp;fatigued.
+      <p>As a ranged touch attack, you may cause a target to be fatigued for a
+      number of rounds equal to your manifester level. A successful Fortitude
+      save negates this effect. This ability has no effect on a creature that is
+      already fatigued.
 
       </p>
   discipline: psychometabolism

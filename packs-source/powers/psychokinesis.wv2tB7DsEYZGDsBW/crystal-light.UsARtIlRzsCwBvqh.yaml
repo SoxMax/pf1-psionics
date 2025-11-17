@@ -29,7 +29,17 @@ system:
         value: One crystalline creature or object
   description:
     value: >-
-      <p>Upon&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;you&nbsp;cause&nbsp;one&nbsp;crystalline&nbsp;creature&nbsp;or&nbsp;object&nbsp;(glass,&nbsp;crystal,&nbsp;gem,&nbsp;psicrystal,&nbsp;astral&nbsp;construct,&nbsp;etc.)&nbsp;to&nbsp;glow&nbsp;in&nbsp;one&nbsp;of&nbsp;two&nbsp;ways.&nbsp;You&nbsp;can&nbsp;cause&nbsp;it&nbsp;to&nbsp;glow&nbsp;with&nbsp;a&nbsp;steady&nbsp;light&nbsp;equivalent&nbsp;to&nbsp;a&nbsp;torch,&nbsp;in&nbsp;which&nbsp;case&nbsp;the&nbsp;duration&nbsp;lasts&nbsp;up&nbsp;to&nbsp;1&nbsp;minute&nbsp;per&nbsp;manifester&nbsp;level.&nbsp;Alternately,&nbsp;you&nbsp;can&nbsp;cause&nbsp;it&nbsp;to&nbsp;flash&nbsp;brightly&nbsp;once,&nbsp;causing&nbsp;one&nbsp;creature&nbsp;of&nbsp;your&nbsp;choice&nbsp;in&nbsp;that&nbsp;square&nbsp;or&nbsp;immediately&nbsp;adjacent&nbsp;to&nbsp;be&nbsp;dazzled&nbsp;for&nbsp;1&nbsp;minute&nbsp;unless&nbsp;it&nbsp;makes&nbsp;a&nbsp;successful&nbsp;Fortitude&nbsp;save.&nbsp;Crystalline&nbsp;creatures&nbsp;or&nbsp;objects&nbsp;which&nbsp;are&nbsp;targeted&nbsp;to&nbsp;glow&nbsp;are&nbsp;allowed&nbsp;a&nbsp;Will&nbsp;save&nbsp;to&nbsp;negate&nbsp;the&nbsp;power&nbsp;completely;&nbsp;if&nbsp;such&nbsp;is&nbsp;also&nbsp;the&nbsp;target&nbsp;of&nbsp;a&nbsp;dazzling&nbsp;flash,&nbsp;the&nbsp;creature&nbsp;being&nbsp;dazzled&nbsp;is&nbsp;also&nbsp;allowed&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;to&nbsp;avoid&nbsp;being&nbsp;dazzled.
+      <p>Upon manifesting this power, you cause one crystalline creature or
+      object (glass, crystal, gem, psicrystal, astral construct, etc.) to glow
+      in one of two ways. You can cause it to glow with a steady light
+      equivalent to a torch, in which case the duration lasts up to 1 minute per
+      manifester level. Alternately, you can cause it to flash brightly once,
+      causing one creature of your choice in that square or immediately adjacent
+      to be dazzled for 1 minute unless it makes a successful Fortitude save.
+      Crystalline creatures or objects which are targeted to glow are allowed a
+      Will save to negate the power completely; if such is also the target of a
+      dazzling flash, the creature being dazzled is also allowed a Fortitude
+      save to avoid being dazzled.
 
       </p>
   descriptors:

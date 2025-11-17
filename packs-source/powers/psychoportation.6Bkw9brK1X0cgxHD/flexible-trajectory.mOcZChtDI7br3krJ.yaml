@@ -27,13 +27,25 @@ system:
         value: You
   description:
     value: >-
-      <p>Your&nbsp;ranged&nbsp;attacks&nbsp;may&nbsp;follow&nbsp;a&nbsp;path&nbsp;you&nbsp;imagine&nbsp;instead&nbsp;of&nbsp;the&nbsp;path&nbsp;that&nbsp;physical&nbsp;laws&nbsp;would&nbsp;dictate.&nbsp;You&nbsp;ignore&nbsp;range&nbsp;increment&nbsp;penalties,&nbsp;and&nbsp;bonuses&nbsp;to&nbsp;Armor&nbsp;Class&nbsp;from&nbsp;cover,&nbsp;although&nbsp;total&nbsp;cover&nbsp;still&nbsp;blocks&nbsp;the&nbsp;attack.
+      <p>Your ranged attacks may follow a path you imagine instead of the path
+      that physical laws would dictate. You ignore range increment penalties,
+      and bonuses to Armor Class from cover, although total cover still blocks
+      the attack.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways:
+      <p><strong>Augment:</strong> You may augment this power in one or both of
+      the following ways:
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;3&nbsp;additional&nbsp;power&nbsp;points,&nbsp;your&nbsp;ranged&nbsp;attacks&nbsp;ignore&nbsp;concealment&nbsp;(but&nbsp;not&nbsp;total&nbsp;concealment).&nbsp;If&nbsp;you&nbsp;instead&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;your&nbsp;ranged&nbsp;attacks&nbsp;ignore&nbsp;all&nbsp;miss&nbsp;chances,&nbsp;including&nbsp;those&nbsp;from&nbsp;total&nbsp;concealment&nbsp;and&nbsp;effects&nbsp;such&nbsp;as&nbsp;mirror&nbsp;image&nbsp;(although&nbsp;you&nbsp;still&nbsp;must&nbsp;target&nbsp;the&nbsp;correct&nbsp;square&nbsp;for&nbsp;an&nbsp;invisible&nbsp;target).</li><li>For&nbsp;every&nbsp;3&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;your&nbsp;range&nbsp;increment&nbsp;and&nbsp;corresponding&nbsp;maximum&nbsp;range&nbsp;with&nbsp;ranged&nbsp;attacks&nbsp;and&nbsp;your&nbsp;range&nbsp;for&nbsp;spells&nbsp;and&nbsp;powers&nbsp;that&nbsp;require&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;increase&nbsp;by&nbsp;10&nbsp;feet.</li></ol>
+      </p><ol><li>If you spend 3 additional power points, your ranged attacks
+      ignore concealment (but not total concealment). If you instead spend 6
+      additional power points, your ranged attacks ignore all miss chances,
+      including those from total concealment and effects such as mirror image
+      (although you still must target the correct square for an invisible
+      target).</li><li>For every 3 additional power points you spend, your range
+      increment and corresponding maximum range with ranged attacks and your
+      range for spells and powers that require a ranged touch attack increase by
+      10 feet.</li></ol>
   discipline: psychoportation
   display:
     auditory: false

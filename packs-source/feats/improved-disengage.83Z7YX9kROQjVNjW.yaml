@@ -21,27 +21,17 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;are&nbsp;skilled&nbsp;at&nbsp;disengaging&nbsp;from&nbsp;enemies.
-
+    value: |-
+      <p>You are skilled at disengaging from enemies.
       </p>
-
-      <p><strong>Prerequisite:&nbsp;</strong>Disengage&nbsp;class&nbsp;feature
-
+      <p><strong>Prerequisite: </strong>Disengage class feature
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;to
-
-      activate&nbsp;your&nbsp;disengage&nbsp;class&nbsp;feature,&nbsp;you&nbsp;may&nbsp;move&nbsp;5
-
-      feet&nbsp;as&nbsp;a&nbsp;free&nbsp;action&nbsp;that&nbsp;does&nbsp;not&nbsp;provoke&nbsp;an&nbsp;attack&nbsp;of
-
-      opportunity.&nbsp;This&nbsp;movement&nbsp;does&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of
-
-      opportunity&nbsp;and&nbsp;does&nbsp;not&nbsp;count&nbsp;as&nbsp;a&nbsp;5-foot&nbsp;step.&nbsp;You&nbsp;may
-
-      only&nbsp;use&nbsp;this&nbsp;ability&nbsp;when&nbsp;leaving&nbsp;a&nbsp;threatened&nbsp;square.
-
+      <p><strong>Benefit: </strong>When you expend your psionic focus to
+      activate your disengage class feature, you may move 5
+      feet as a free action that does not provoke an attack of
+      opportunity. This movement does not provoke attacks of
+      opportunity and does not count as a 5-foot step. You may
+      only use this ability when leaving a threatened square.
       </p>
   disabled: false
   featType: feat

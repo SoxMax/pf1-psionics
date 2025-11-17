@@ -27,11 +27,16 @@ system:
         value: One willing animal companion or familiar touched with 3 HD or less
   description:
     value: >-
-      <p>You&nbsp;reinforce&nbsp;the&nbsp;bond&nbsp;between&nbsp;a&nbsp;master&nbsp;and&nbsp;servant,&nbsp;allowing&nbsp;them&nbsp;to&nbsp;join&nbsp;in&nbsp;undeath.&nbsp;If&nbsp;the&nbsp;target's&nbsp;master&nbsp;dies&nbsp;and&nbsp;is&nbsp;animated&nbsp;as&nbsp;any&nbsp;kind&nbsp;of&nbsp;intelligent&nbsp;undead,&nbsp;the&nbsp;target&nbsp;immediately&nbsp;dies.&nbsp;They&nbsp;reanimate&nbsp;as&nbsp;a&nbsp;ghost,&nbsp;retaining&nbsp;all&nbsp;of&nbsp;the&nbsp;same&nbsp;benefits&nbsp;they&nbsp;had&nbsp;in&nbsp;life&nbsp;as&nbsp;a&nbsp;familiar&nbsp;or&nbsp;animal&nbsp;companion,&nbsp;including&nbsp;the&nbsp;bond&nbsp;to&nbsp;their&nbsp;master.
+      <p>You reinforce the bond between a master and servant, allowing them to
+      join in undeath. If the target's master dies and is animated as any kind
+      of intelligent undead, the target immediately dies. They reanimate as a
+      ghost, retaining all of the same benefits they had in life as a familiar
+      or animal companion, including the bond to their master.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;spent,&nbsp;the&nbsp;maximum&nbsp;HD&nbsp;of&nbsp;creature&nbsp;that&nbsp;this&nbsp;power&nbsp;can&nbsp;target&nbsp;is&nbsp;increased&nbsp;by&nbsp;1.
+      <p><strong>Augment:</strong> For every additional power point spent, the
+      maximum HD of creature that this power can target is increased by 1.
 
       </p>
   discipline: athanatism

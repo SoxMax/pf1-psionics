@@ -68,7 +68,10 @@ system:
         effects.
   description:
     value: >-
-      <p>Although&nbsp;most&nbsp;half-giants&nbsp;reside&nbsp;in&nbsp;desert&nbsp;regions,&nbsp;some&nbsp;have&nbsp;grown&nbsp;toughened&nbsp;against&nbsp;colder&nbsp;extremes.&nbsp;Half-giants&nbsp;with&nbsp;this&nbsp;trait&nbsp;receive&nbsp;a&nbsp;+2&nbsp;racial&nbsp;bonus&nbsp;on&nbsp;saving&nbsp;throws&nbsp;against&nbsp;all&nbsp;cold&nbsp;spells,&nbsp;powers&nbsp;and&nbsp;effects.&nbsp;<em>This&nbsp;replaces&nbsp;the&nbsp;fire&nbsp;acclimated&nbsp;trait.</em></li></p>
+      <p>Although most half-giants reside in desert regions, some have grown
+      toughened against colder extremes. Half-giants with this trait receive a
+      +2 racial bonus on saving throws against all cold spells, powers and
+      effects. <em>This replaces the fire acclimated trait.</em></li></p>
   disabled: false
   inherited: false
   showInQuickbar: false

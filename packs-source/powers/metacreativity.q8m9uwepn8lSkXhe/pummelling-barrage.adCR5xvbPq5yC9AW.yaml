@@ -24,13 +24,19 @@ system:
         value: One or more creatures
   description:
     value: >-
-      <p>You&nbsp;pummel&nbsp;the&nbsp;creature&nbsp;with&nbsp;ectoplasm,&nbsp;possibly&nbsp;knocking&nbsp;them&nbsp;out&nbsp;without&nbsp;seriously&nbsp;injuring&nbsp;them.&nbsp;Make&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;to&nbsp;deal&nbsp;3d6&nbsp;nonlethal&nbsp;damage&nbsp;against&nbsp;a&nbsp;single&nbsp;creature.
+      <p>You pummel the creature with ectoplasm, possibly knocking them out
+      without seriously injuring them. Make a ranged touch attack to deal 3d6
+      nonlethal damage against a single creature.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power can be augmented in one or both of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;make&nbsp;another&nbsp;ranged&nbsp;touch&nbsp;attack.</li><li>If&nbsp;you&nbsp;spend&nbsp;3&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;ectoplasm&nbsp;sticks&nbsp;to&nbsp;the&nbsp;target&nbsp;if&nbsp;it&nbsp;hits&nbsp;and&nbsp;deals&nbsp;the&nbsp;same&nbsp;amount&nbsp;of&nbsp;nonlethal&nbsp;damage&nbsp;at&nbsp;the&nbsp;beginning&nbsp;of&nbsp;your&nbsp;next&nbsp;turn.</li></ol>
+      </p><ol><li>For every 2 power points you spend, you can make another
+      ranged touch attack.</li><li>If you spend 3 additional power points, the
+      ectoplasm sticks to the target if it hits and deals the same amount of
+      nonlethal damage at the beginning of your next turn.</li></ol>
   discipline: metacreativity
   display:
     auditory: false

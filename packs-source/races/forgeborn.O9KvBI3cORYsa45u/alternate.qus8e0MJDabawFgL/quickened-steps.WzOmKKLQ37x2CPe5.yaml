@@ -63,7 +63,9 @@ system:
     umd: false
   description:
     value: >-
-      <p>Although&nbsp;most&nbsp;forgeborn&nbsp;are&nbsp;steady&nbsp;in&nbsp;their&nbsp;gait,&nbsp;some&nbsp;are&nbsp;designed&nbsp;for&nbsp;speed.&nbsp;Forgeborn&nbsp;with&nbsp;this&nbsp;trait&nbsp;have&nbsp;a&nbsp;speed&nbsp;of&nbsp;30&nbsp;ft.&nbsp;This&nbsp;replaces&nbsp;slow&nbsp;and&nbsp;steady&nbsp;and&nbsp;fearless.</li></p>
+      <p>Although most forgeborn are steady in their gait, some are designed for
+      speed. Forgeborn with this trait have a speed of 30 ft. This replaces slow
+      and steady and fearless.</li></p>
   disabled: false
   inherited: false
   showInQuickbar: false

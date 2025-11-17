@@ -22,11 +22,16 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;weapon&nbsp;finds&nbsp;even&nbsp;the&nbsp;slightest&nbsp;of&nbsp;openings&nbsp;in&nbsp;an&nbsp;enemy's&nbsp;defenses.</em></p>
+      <p><em>Your weapon finds even the slightest of openings in an enemy's
+      defenses.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Deep_Impact"&nbsp;title="Deep&nbsp;Impact">Deep&nbsp;Impact</a></p>
+      <p><strong>Prerequisite:</strong><a href="/wiki/Deep_Impact" title="Deep
+      Impact">Deep Impact</a></p>
 
-      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;make&nbsp;an&nbsp;attack&nbsp;using&nbsp;Deep&nbsp;Impact,&nbsp;add&nbsp;half&nbsp;your&nbsp;tier&nbsp;(minimum&nbsp;1)&nbsp;to&nbsp;the&nbsp;attack&nbsp;roll.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;when&nbsp;using&nbsp;Deep&nbsp;Impact&nbsp;to&nbsp;treat&nbsp;all&nbsp;melee&nbsp;attacks&nbsp;made&nbsp;during&nbsp;your&nbsp;turn&nbsp;as&nbsp;melee&nbsp;touch&nbsp;attacks.
+      <p><strong>Benefit:</strong> When you make an attack using Deep Impact,
+      add half your tier (minimum 1) to the attack roll. In addition, you can
+      expend a use of mythic power when using Deep Impact to treat all melee
+      attacks made during your turn as melee touch attacks.
 
       </p>
   disabled: false

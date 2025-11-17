@@ -22,13 +22,17 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Augmenting&nbsp;your&nbsp;powers&nbsp;can&nbsp;increase&nbsp;the&nbsp;ability&nbsp;to&nbsp;overcome&nbsp;power&nbsp;resistance.</em></p>
+      <p><em>Augmenting your powers can increase the ability to overcome power
+      resistance.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Endowed_Mind"&nbsp;title="Endowed&nbsp;Mind">Endowed&nbsp;Mind</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Endowed_Mind"
+      title="Endowed Mind">Endowed Mind</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;gain&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;to&nbsp;overcome&nbsp;Power&nbsp;Resistance&nbsp;for&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;spent&nbsp;augmenting&nbsp;a&nbsp;power&nbsp;with&nbsp;the&nbsp;Endowed&nbsp;Mind&nbsp;feat&nbsp;(but&nbsp;not&nbsp;if&nbsp;you&nbsp;augment&nbsp;it&nbsp;normally).
+      <p><strong>Benefit: </strong>You gain a +1 bonus to overcome Power
+      Resistance for every 2 power points spent augmenting a power with the
+      Endowed Mind feat (but not if you augment it normally).
 
       </p>
   disabled: false

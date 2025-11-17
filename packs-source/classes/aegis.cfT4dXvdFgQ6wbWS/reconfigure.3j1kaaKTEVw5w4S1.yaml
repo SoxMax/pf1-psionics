@@ -12,9 +12,12 @@ system:
       - Aegis
   description:
     value: >-
-      <p>Starting&nbsp;at&nbsp;3rd&nbsp;level,&nbsp;an&nbsp;aegis&nbsp;can&nbsp;reconfigure&nbsp;up&nbsp;to&nbsp;his&nbsp;Intelligence&nbsp;modifier&nbsp;in&nbsp;customization&nbsp;points&nbsp;on&nbsp;his&nbsp;astral&nbsp;suit&nbsp;once&nbsp;per&nbsp;day&nbsp;as&nbsp;a&nbsp;standard&nbsp;action.&nbsp;Every&nbsp;two&nbsp;levels&nbsp;thereafter,&nbsp;he&nbsp;can&nbsp;use&nbsp;this&nbsp;ability&nbsp;an&nbsp;additional&nbsp;time&nbsp;per&nbsp;day.
+      <p>Starting at 3rd level, an aegis can reconfigure up to his Intelligence
+      modifier in customization points on his astral suit once per day as a
+      standard action. Every two levels thereafter, he can use this ability an
+      additional time per day.
 
-      </p><p></p>
+      </p>
   sources:
     - date: '2012-07-23'
       pages: 27–31

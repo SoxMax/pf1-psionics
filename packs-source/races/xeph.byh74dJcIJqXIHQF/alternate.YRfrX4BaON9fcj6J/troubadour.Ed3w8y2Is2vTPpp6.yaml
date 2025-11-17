@@ -63,7 +63,12 @@ system:
     umd: false
   description:
     value: >-
-      <p>Most&nbsp;xephs&nbsp;are&nbsp;charismatic&nbsp;and&nbsp;natural&nbsp;entertainers.&nbsp;Xephs&nbsp;with&nbsp;this&nbsp;racial&nbsp;trait&nbsp;gain&nbsp;a&nbsp;+1&nbsp;racial&nbsp;bonus&nbsp;on&nbsp;Diplomacy&nbsp;and&nbsp;Perform&nbsp;checks&nbsp;and,&nbsp;if&nbsp;they&nbsp;fail&nbsp;a&nbsp;Diplomacy&nbsp;check&nbsp;to&nbsp;change&nbsp;a&nbsp;creature’s&nbsp;attitude&nbsp;by&nbsp;less&nbsp;than&nbsp;5,&nbsp;they&nbsp;can&nbsp;try&nbsp;to&nbsp;influence&nbsp;the&nbsp;creature&nbsp;a&nbsp;second&nbsp;time&nbsp;even&nbsp;if&nbsp;24&nbsp;hours&nbsp;have&nbsp;not&nbsp;passed.</p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;Innate&nbsp;Resistance&nbsp;trait.</em></p><p></li></p>
+      <p>Most xephs are charismatic and natural entertainers. Xephs with this
+      racial trait gain a +1 racial bonus on Diplomacy and Perform checks and,
+      if they fail a Diplomacy check to change a creature’s attitude by less
+      than 5, they can try to influence the creature a second time even if 24
+      hours have not passed.</p><p><em>This trait replaces the Innate Resistance
+      trait.</em></p><p></li></p>
   disabled: false
   inherited: false
   showInCombat: false

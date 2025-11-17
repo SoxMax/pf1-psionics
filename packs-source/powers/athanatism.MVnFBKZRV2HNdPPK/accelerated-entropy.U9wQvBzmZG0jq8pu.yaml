@@ -28,15 +28,29 @@ system:
         value: Ray
   description:
     value: >-
-      <p>The&nbsp;smell&nbsp;of&nbsp;rancid,&nbsp;rotting&nbsp;vegetation&nbsp;suffuses&nbsp;the&nbsp;area&nbsp;as&nbsp;the&nbsp;object&nbsp;of&nbsp;your&nbsp;ire&nbsp;rapidly&nbsp;ages&nbsp;and&nbsp;falls&nbsp;apart.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;you&nbsp;must&nbsp;make&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;(typically&nbsp;AC&nbsp;10)&nbsp;against&nbsp;a&nbsp;single&nbsp;magical&nbsp;or&nbsp;psionic&nbsp;consumable&nbsp;item&nbsp;such&nbsp;as&nbsp;a&nbsp;potion,&nbsp;scroll,&nbsp;shard,&nbsp;or&nbsp;power&nbsp;stone.&nbsp;The&nbsp;object&nbsp;targeted&nbsp;must&nbsp;make&nbsp;a&nbsp;successful&nbsp;saving&nbsp;throw&nbsp;or&nbsp;it&nbsp;is&nbsp;immediately&nbsp;broken.&nbsp;If&nbsp;the&nbsp;item&nbsp;is&nbsp;unattended,&nbsp;use&nbsp;its&nbsp;manifester&nbsp;level&nbsp;as&nbsp;its&nbsp;Will&nbsp;saving&nbsp;throw&nbsp;bonus.&nbsp;If&nbsp;the&nbsp;item&nbsp;is&nbsp;attended,&nbsp;use&nbsp;the&nbsp;Will&nbsp;saving&nbsp;throw&nbsp;bonus&nbsp;of&nbsp;the&nbsp;creature&nbsp;holding&nbsp;it.
+      <p>The smell of rancid, rotting vegetation suffuses the area as the object
+      of your ire rapidly ages and falls apart. When you manifest this power,
+      you must make a ranged touch attack (typically AC 10) against a single
+      magical or psionic consumable item such as a potion, scroll, shard, or
+      power stone. The object targeted must make a successful saving throw or it
+      is immediately broken. If the item is unattended, use its manifester level
+      as its Will saving throw bonus. If the item is attended, use the Will
+      saving throw bonus of the creature holding it.
 
       </p>
 
-      <p>This&nbsp;power&nbsp;cannot&nbsp;be&nbsp;normally&nbsp;be&nbsp;used&nbsp;against&nbsp;items&nbsp;that&nbsp;contain&nbsp;more&nbsp;than&nbsp;one&nbsp;charge,&nbsp;such&nbsp;as&nbsp;wands&nbsp;or&nbsp;dorjes.&nbsp;In&nbsp;the&nbsp;case&nbsp;of&nbsp;items&nbsp;such&nbsp;as&nbsp;scrolls&nbsp;that&nbsp;are&nbsp;single-use&nbsp;but&nbsp;contain&nbsp;more&nbsp;than&nbsp;one&nbsp;spell&nbsp;or&nbsp;power,&nbsp;one&nbsp;randomly&nbsp;chosen&nbsp;spell&nbsp;or&nbsp;power&nbsp;can&nbsp;be&nbsp;ruined&nbsp;per&nbsp;manifestation&nbsp;of&nbsp;<em>accelerated&nbsp;entropy</em>.
+      <p>This power cannot be normally be used against items that contain more
+      than one charge, such as wands or dorjes. In the case of items such as
+      scrolls that are single-use but contain more than one spell or power, one
+      randomly chosen spell or power can be ruined per manifestation of
+      <em>accelerated entropy</em>.
 
       </p>
 
-      <p><strong>Augment:&nbsp;</strong>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;target&nbsp;a&nbsp;single,&nbsp;non-magical&nbsp;item&nbsp;weighing&nbsp;up&nbsp;to&nbsp;10&nbsp;pounds&nbsp;per&nbsp;manifester&nbsp;level.&nbsp;In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;two&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;saving&nbsp;throw&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+      <p><strong>Augment: </strong>If you spend 2 additional power points, you
+      can target a single, non-magical item weighing up to 10 pounds per
+      manifester level. In addition, for every two additional power points you
+      spend, the saving throw DC increases by 1.
 
       </p>
   discipline: athanatism

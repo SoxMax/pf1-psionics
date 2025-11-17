@@ -22,13 +22,22 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;intuition&nbsp;extends&nbsp;to&nbsp;multiple&nbsp;attacks.</em></p>
+      <p><em>Your intuition extends to multiple attacks.</em></p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Wis&nbsp;13,&nbsp;<a&nbsp;href="/wiki/Intuitive_Shot"&nbsp;title="Intuitive&nbsp;Shot">Intuitive&nbsp;Shot</a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank&nbsp;Shot</a>,&nbsp;<a&nbsp;href="/wiki/Psionic_Shot"&nbsp;title="Psionic&nbsp;Shot">Psionic&nbsp;Shot</a>,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+6
+      <p><strong>Prerequisites:</strong> Wis 13, <a href="/wiki/Intuitive_Shot"
+      title="Intuitive Shot">Intuitive Shot</a>, <a rel="nofollow"
+      class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank
+      Shot</a>, <a href="/wiki/Psionic_Shot" title="Psionic Shot">Psionic
+      Shot</a>, base attack bonus +6
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;can&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;part&nbsp;of&nbsp;a&nbsp;full&nbsp;attack&nbsp;made&nbsp;with&nbsp;a&nbsp;ranged&nbsp;or&nbsp;thrown&nbsp;weapon&nbsp;to&nbsp;add&nbsp;your&nbsp;Wisdom&nbsp;modifier&nbsp;to&nbsp;the&nbsp;damage&nbsp;roll&nbsp;of&nbsp;each&nbsp;attack&nbsp;made&nbsp;in&nbsp;the&nbsp;full&nbsp;attack.&nbsp;You&nbsp;must&nbsp;be&nbsp;within&nbsp;30&nbsp;feet&nbsp;of&nbsp;your&nbsp;target&nbsp;to&nbsp;deal&nbsp;this&nbsp;extra&nbsp;damage.&nbsp;Creatures&nbsp;immune&nbsp;to&nbsp;critical&nbsp;hits&nbsp;and&nbsp;sneak&nbsp;attacks&nbsp;are&nbsp;immune&nbsp;to&nbsp;this&nbsp;extra&nbsp;damage.
+      <p><strong>Benefit:</strong> You can expend your psionic focus as part of
+      a full attack made with a ranged or thrown weapon to add your Wisdom
+      modifier to the damage roll of each attack made in the full attack. You
+      must be within 30 feet of your target to deal this extra damage. Creatures
+      immune to critical hits and sneak attacks are immune to this extra damage.
 
       </p>
   disabled: false

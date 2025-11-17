@@ -28,11 +28,24 @@ system:
         value: Object or ghost touched
   description:
     value: >-
-      <p>You&nbsp;become&nbsp;attuned&nbsp;to&nbsp;the&nbsp;link&nbsp;between&nbsp;a&nbsp;ghost&nbsp;and&nbsp;its&nbsp;important&nbsp;possessions.&nbsp;If&nbsp;you&nbsp;target&nbsp;a&nbsp;ghost&nbsp;with&nbsp;this&nbsp;power,&nbsp;you&nbsp;learn&nbsp;what&nbsp;(if&nbsp;any)&nbsp;objects&nbsp;would&nbsp;be&nbsp;considered&nbsp;important&nbsp;to&nbsp;it,&nbsp;as&nbsp;well&nbsp;as&nbsp;their&nbsp;basic&nbsp;whereabouts.&nbsp;If&nbsp;you&nbsp;target&nbsp;an&nbsp;object&nbsp;with&nbsp;this&nbsp;power,&nbsp;you&nbsp;learn&nbsp;the&nbsp;name,&nbsp;alignment,&nbsp;and&nbsp;general&nbsp;location&nbsp;of&nbsp;a&nbsp;ghost&nbsp;that&nbsp;considers&nbsp;it&nbsp;important&nbsp;(if&nbsp;it&nbsp;is&nbsp;connected&nbsp;to&nbsp;a&nbsp;ghost).&nbsp;In&nbsp;the&nbsp;latter&nbsp;case,&nbsp;the&nbsp;ghost&nbsp;receives&nbsp;a&nbsp;Will&nbsp;save&nbsp;to&nbsp;negate&nbsp;the&nbsp;use&nbsp;of&nbsp;this&nbsp;power&nbsp;on&nbsp;its&nbsp;object.&nbsp;If&nbsp;it&nbsp;fails&nbsp;the&nbsp;Will&nbsp;save,&nbsp;it&nbsp;is&nbsp;not&nbsp;aware&nbsp;that&nbsp;anything&nbsp;has&nbsp;occurred.&nbsp;If&nbsp;the&nbsp;object&nbsp;or&nbsp;ghost&nbsp;is&nbsp;located&nbsp;on&nbsp;another&nbsp;plane,&nbsp;you&nbsp;learn&nbsp;which&nbsp;plane&nbsp;it&nbsp;is&nbsp;on&nbsp;in&nbsp;addition&nbsp;to&nbsp;its&nbsp;location.&nbsp;If&nbsp;more&nbsp;than&nbsp;one&nbsp;ghost&nbsp;considers&nbsp;the&nbsp;object&nbsp;equally&nbsp;important,&nbsp;you&nbsp;gain&nbsp;knowledge&nbsp;on&nbsp;a&nbsp;random&nbsp;one.
+      <p>You become attuned to the link between a ghost and its important
+      possessions. If you target a ghost with this power, you learn what (if
+      any) objects would be considered important to it, as well as their basic
+      whereabouts. If you target an object with this power, you learn the name,
+      alignment, and general location of a ghost that considers it important (if
+      it is connected to a ghost). In the latter case, the ghost receives a Will
+      save to negate the use of this power on its object. If it fails the Will
+      save, it is not aware that anything has occurred. If the object or ghost
+      is located on another plane, you learn which plane it is on in addition to
+      its location. If more than one ghost considers the object equally
+      important, you gain knowledge on a random one.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;spend&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points&nbsp;to&nbsp;instead&nbsp;gain&nbsp;knowledge&nbsp;on&nbsp;a&nbsp;living&nbsp;person&nbsp;that&nbsp;considers&nbsp;a&nbsp;targeted&nbsp;object&nbsp;important.&nbsp;If&nbsp;more&nbsp;than&nbsp;one&nbsp;living&nbsp;person&nbsp;considers&nbsp;the&nbsp;object&nbsp;equally&nbsp;important,&nbsp;you&nbsp;gain&nbsp;knowledge&nbsp;on&nbsp;a&nbsp;random&nbsp;one.
+      <p><strong>Augment:</strong> You may spend an additional 4 power points to
+      instead gain knowledge on a living person that considers a targeted object
+      important. If more than one living person considers the object equally
+      important, you gain knowledge on a random one.
 
       </p>
   discipline: athanatism

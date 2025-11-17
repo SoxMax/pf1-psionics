@@ -63,7 +63,11 @@ system:
     umd: false
   description:
     value: >-
-      <p>As&nbsp;a&nbsp;caste-based&nbsp;society,&nbsp;some&nbsp;dromites&nbsp;are&nbsp;bred&nbsp;to&nbsp;remove&nbsp;the&nbsp;rubble&nbsp;and&nbsp;debris&nbsp;as&nbsp;tunnels&nbsp;are&nbsp;dug.&nbsp;Dromites&nbsp;with&nbsp;this&nbsp;trait&nbsp;treat&nbsp;their&nbsp;Strength&nbsp;as&nbsp;4&nbsp;higher&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of&nbsp;carrying&nbsp;capacity&nbsp;and&nbsp;gain&nbsp;the&nbsp;Slow&nbsp;and&nbsp;Steady&nbsp;speed&nbsp;(as&nbsp;the&nbsp;dwarf&nbsp;racial&nbsp;ability).</p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;Dromite&nbsp;Psionics&nbsp;trait.</em></p>
+      <p>As a caste-based society, some dromites are bred to remove the rubble
+      and debris as tunnels are dug. Dromites with this trait treat their
+      Strength as 4 higher for the purposes of carrying capacity and gain the
+      Slow and Steady speed (as the dwarf racial ability).</p><p><em>This trait
+      replaces the Dromite Psionics trait.</em></p>
   disabled: false
   inherited: false
   showInQuickbar: false

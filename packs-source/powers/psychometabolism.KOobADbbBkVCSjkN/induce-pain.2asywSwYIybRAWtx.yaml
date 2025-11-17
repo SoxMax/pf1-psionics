@@ -30,7 +30,8 @@ system:
         value: One living creature
   description:
     value: >-
-      <p>You&nbsp;attempt&nbsp;to&nbsp;cause&nbsp;a&nbsp;creature&nbsp;to&nbsp;feel&nbsp;pain.&nbsp;If&nbsp;you&nbsp;make&nbsp;a&nbsp;successful&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;at&nbsp;the&nbsp;target,&nbsp;it&nbsp;takes&nbsp;1d3&nbsp;points&nbsp;of&nbsp;damage.
+      <p>You attempt to cause a creature to feel pain. If you make a successful
+      ranged touch attack at the target, it takes 1d3 points of damage.
 
       </p>
   discipline: psychometabolism

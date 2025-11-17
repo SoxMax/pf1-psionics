@@ -22,13 +22,18 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;imbue&nbsp;your&nbsp;unarmed&nbsp;attacks&nbsp;with&nbsp;your&nbsp;mythic&nbsp;power.</em></p>
+      <p><em>You imbue your unarmed attacks with your mythic power.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Psionic_Fist"&nbsp;title="Psionic&nbsp;Fist">Psionic&nbsp;Fist</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Psionic_Fist"
+      title="Psionic Fist">Psionic Fist</a>.
 
       </p>
 
-      <p>Double&nbsp;the&nbsp;damage&nbsp;added&nbsp;to&nbsp;your&nbsp;attacks&nbsp;when&nbsp;using&nbsp;Psionic&nbsp;Fist&nbsp;or&nbsp;<a&nbsp;href="/wiki/Greater_Psionic_Fist"&nbsp;title="Greater&nbsp;Psionic&nbsp;Fist">Greater&nbsp;Psionic&nbsp;Fist</a>.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;reroll&nbsp;any&nbsp;extra&nbsp;damage&nbsp;dice&nbsp;from&nbsp;Psionic&nbsp;Fist&nbsp;or&nbsp;Greater&nbsp;Psionic&nbsp;Fist&nbsp;and&nbsp;take&nbsp;the&nbsp;better&nbsp;result.
+      <p>Double the damage added to your attacks when using Psionic Fist or <a
+      href="/wiki/Greater_Psionic_Fist" title="Greater Psionic Fist">Greater
+      Psionic Fist</a>. In addition, you can expend a use of mythic power as a
+      swift action to reroll any extra damage dice from Psionic Fist or Greater
+      Psionic Fist and take the better result.
 
       </p>
   disabled: false

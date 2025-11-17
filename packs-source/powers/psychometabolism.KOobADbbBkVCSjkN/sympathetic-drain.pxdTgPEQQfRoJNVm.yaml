@@ -28,15 +28,23 @@ system:
         value: You and 1 other creature
   description:
     value: >-
-      <p>You&nbsp;establish&nbsp;a&nbsp;channel&nbsp;between&nbsp;you&nbsp;and&nbsp;a&nbsp;victim,&nbsp;through&nbsp;which&nbsp;you&nbsp;both&nbsp;bleed&nbsp;life&nbsp;force.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;sacrifice&nbsp;any&nbsp;number&nbsp;of&nbsp;hp&nbsp;up&nbsp;to&nbsp;1/2&nbsp;your&nbsp;full&nbsp;maximum&nbsp;total&nbsp;(you&nbsp;may&nbsp;not&nbsp;sacrifice&nbsp;temporary&nbsp;hp).&nbsp;Your&nbsp;victim&nbsp;loses&nbsp;an&nbsp;equal&nbsp;amount&nbsp;of&nbsp;hp&nbsp;and&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Will&nbsp;save&nbsp;or&nbsp;be&nbsp;sickened&nbsp;for&nbsp;1&nbsp;round.
+      <p>You establish a channel between you and a victim, through which you
+      both bleed life force. When you manifest this power, sacrifice any number
+      of hp up to 1/2 your full maximum total (you may not sacrifice temporary
+      hp). Your victim loses an equal amount of hp and must succeed at a Will
+      save or be sickened for 1 round.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend&nbsp;when&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;sickened&nbsp;effect&nbsp;increases&nbsp;by&nbsp;1&nbsp;round&nbsp;and&nbsp;its&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+      <p><strong>Augment:</strong> For every 2 additional power points you spend
+      when manifesting this power, the duration of the sickened effect increases
+      by 1 round and its save DC increases by 1.
 
       </p>
 
-      <p><strong>Surge&nbsp;Augmentation:</strong>&nbsp;If&nbsp;you&nbsp;invoke&nbsp;your&nbsp;wild&nbsp;surge&nbsp;when&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power&nbsp;your&nbsp;opponent&nbsp;loses&nbsp;2&nbsp;hp&nbsp;for&nbsp;each&nbsp;1&nbsp;hp&nbsp;you&nbsp;sacrifice.
+      <p><strong>Surge Augmentation:</strong> If you invoke your wild surge when
+      you manifest this power your opponent loses 2 hp for each 1 hp you
+      sacrifice.
 
       </p>
   discipline: psychometabolism

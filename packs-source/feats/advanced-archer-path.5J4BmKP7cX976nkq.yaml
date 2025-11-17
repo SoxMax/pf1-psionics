@@ -22,13 +22,22 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;have&nbsp;expanded&nbsp;expertise&nbsp;at&nbsp;ranged&nbsp;combat.</em></p>
+      <p><em>You have expanded expertise at ranged combat.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank&nbsp;Shot</a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Precise%20Shot">Precise&nbsp;Shot</a>,&nbsp;Archer&nbsp;path&nbsp;class&nbsp;feature,&nbsp;manifester&nbsp;level&nbsp;10th,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+6
+      <p><strong>Prerequisites:</strong><a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank
+      Shot</a>, <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Precise%20Shot">Precise
+      Shot</a>, Archer path class feature, manifester level 10th, base attack
+      bonus +6
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>Half&nbsp;of&nbsp;the&nbsp;competence&nbsp;bonus&nbsp;from&nbsp;your&nbsp;Archer&nbsp;trance&nbsp;is&nbsp;added&nbsp;to&nbsp;your&nbsp;damage&nbsp;rolls&nbsp;for&nbsp;attacks&nbsp;made&nbsp;with&nbsp;ranged&nbsp;or&nbsp;thrown&nbsp;weapons&nbsp;(natural&nbsp;weapons&nbsp;do&nbsp;not&nbsp;count&nbsp;for&nbsp;this&nbsp;benefit).&nbsp;In&nbsp;addition,&nbsp;when&nbsp;using&nbsp;the&nbsp;Archer&nbsp;maneuver,&nbsp;you&nbsp;may&nbsp;perform&nbsp;a&nbsp;bull&nbsp;rush&nbsp;attempt&nbsp;instead&nbsp;of&nbsp;a&nbsp;trip&nbsp;attempt.
+      <p><strong>Benefit: </strong>Half of the competence bonus from your Archer
+      trance is added to your damage rolls for attacks made with ranged or
+      thrown weapons (natural weapons do not count for this benefit). In
+      addition, when using the Archer maneuver, you may perform a bull rush
+      attempt instead of a trip attempt.
 
       </p>
   disabled: false

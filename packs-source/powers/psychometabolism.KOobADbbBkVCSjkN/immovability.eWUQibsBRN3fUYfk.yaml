@@ -27,19 +27,30 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;are&nbsp;almost&nbsp;impossible&nbsp;to&nbsp;move.&nbsp;Your&nbsp;weight&nbsp;does&nbsp;not&nbsp;vary;&nbsp;instead,&nbsp;you&nbsp;mentally&nbsp;attach&nbsp;yourself&nbsp;to&nbsp;the&nbsp;underlying&nbsp;fabric&nbsp;of&nbsp;the&nbsp;plane.&nbsp;Thus,&nbsp;you&nbsp;could&nbsp;conceivably&nbsp;anchor&nbsp;yourself&nbsp;in&nbsp;midair.&nbsp;Any&nbsp;creature&nbsp;attempting&nbsp;to&nbsp;physically&nbsp;move&nbsp;you&nbsp;must&nbsp;succeed&nbsp;on&nbsp;an&nbsp;opposed&nbsp;Strength&nbsp;check,&nbsp;and&nbsp;you&nbsp;gain&nbsp;a&nbsp;+20&nbsp;bonus&nbsp;on&nbsp;the&nbsp;check.&nbsp;You&nbsp;can't&nbsp;voluntarily&nbsp;move&nbsp;to&nbsp;a&nbsp;new&nbsp;location&nbsp;unless&nbsp;you&nbsp;stop&nbsp;concentrating,&nbsp;which&nbsp;ends&nbsp;the&nbsp;power.
+      <p>You are almost impossible to move. Your weight does not vary; instead,
+      you mentally attach yourself to the underlying fabric of the plane. Thus,
+      you could conceivably anchor yourself in midair. Any creature attempting
+      to physically move you must succeed on an opposed Strength check, and you
+      gain a +20 bonus on the check. You can't voluntarily move to a new
+      location unless you stop concentrating, which ends the power.
 
       </p>
 
-      <p>You&nbsp;cannot&nbsp;apply&nbsp;your&nbsp;Dexterity&nbsp;bonus&nbsp;to&nbsp;Armor&nbsp;Class;&nbsp;however,&nbsp;your&nbsp;anchored&nbsp;body&nbsp;gains&nbsp;damage&nbsp;reduction&nbsp;15/–.
+      <p>You cannot apply your Dexterity bonus to Armor Class; however, your
+      anchored body gains damage reduction 15/–.
 
       </p>
 
-      <p>You&nbsp;cannot&nbsp;make&nbsp;physical&nbsp;attacks&nbsp;or&nbsp;perform&nbsp;any&nbsp;other&nbsp;large-scale&nbsp;movements&nbsp;(you&nbsp;can&nbsp;make&nbsp;smallscale&nbsp;movements,&nbsp;such&nbsp;as&nbsp;breathing,&nbsp;turning&nbsp;your&nbsp;head,&nbsp;moving&nbsp;your&nbsp;eyes,&nbsp;talking,&nbsp;and&nbsp;so&nbsp;on).&nbsp;Powers&nbsp;with&nbsp;the&nbsp;teleportation&nbsp;descriptor,&nbsp;or&nbsp;any&nbsp;telekinetic&nbsp;effect,&nbsp;manifested&nbsp;on&nbsp;you&nbsp;automatically&nbsp;fail.
+      <p>You cannot make physical attacks or perform any other large-scale
+      movements (you can make smallscale movements, such as breathing, turning
+      your head, moving your eyes, talking, and so on). Powers with the
+      teleportation descriptor, or any telekinetic effect, manifested on you
+      automatically fail.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;8&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action.
+      <p><strong>Augment:</strong> If you spend 8 additional power points, you
+      can manifest this power as an immediate action.
 
       </p>
   discipline: psychometabolism

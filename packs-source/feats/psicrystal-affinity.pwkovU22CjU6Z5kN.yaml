@@ -22,13 +22,16 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;psicrystal&nbsp;is&nbsp;infused&nbsp;with&nbsp;your&nbsp;mythic&nbsp;power.</em></p>
+      <p><em>Your psicrystal is infused with your mythic power.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Psicrystal_Affinity"&nbsp;title="Psicrystal&nbsp;Affinity">Psicrystal&nbsp;Affinity</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Psicrystal_Affinity"
+      title="Psicrystal Affinity">Psicrystal Affinity</a>.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;Your&nbsp;psicrystal&nbsp;can&nbsp;use&nbsp;the&nbsp;surge&nbsp;ability&nbsp;a&nbsp;number&nbsp;of&nbsp;times&nbsp;per&nbsp;day&nbsp;equal&nbsp;to&nbsp;your&nbsp;tier.&nbsp;Its&nbsp;surge&nbsp;ability&nbsp;uses&nbsp;the&nbsp;same&nbsp;bonus&nbsp;die&nbsp;type&nbsp;as&nbsp;you&nbsp;do&nbsp;when&nbsp;you&nbsp;use&nbsp;your&nbsp;surge&nbsp;ability.
+      <p><strong>Benefit:</strong> Your psicrystal can use the surge ability a
+      number of times per day equal to your tier. Its surge ability uses the
+      same bonus die type as you do when you use your surge ability.
 
       </p>
   disabled: false

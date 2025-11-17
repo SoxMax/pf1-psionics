@@ -22,37 +22,38 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>Your&nbsp;ability&nbsp;to&nbsp;teleport&nbsp;short&nbsp;distances&nbsp;is&nbsp;not&nbsp;hindered
+      <p>Your ability to teleport short distances is not hindered
 
-      by&nbsp;your&nbsp;new&nbsp;studies.
-
-      </p>
-
-      <p><strong>Prerequisite:&nbsp;</strong>Aerial&nbsp;acrobatics&nbsp;class&nbsp;ability,&nbsp;nomad’s
-
-      step&nbsp;class&nbsp;ability
+      by your new studies.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>Your&nbsp;levels&nbsp;of&nbsp;elocator&nbsp;stack&nbsp;with&nbsp;your&nbsp;levels
+      <p><strong>Prerequisite: </strong>Aerial acrobatics class ability, nomad’s
 
-      of&nbsp;nomad&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of&nbsp;determining&nbsp;the&nbsp;range&nbsp;of
-
-      nomad’s&nbsp;step.
+      step class ability
 
       </p>
 
-      <p>In&nbsp;addition,&nbsp;when&nbsp;you&nbsp;use&nbsp;nomad’s&nbsp;step,&nbsp;you&nbsp;may&nbsp;split
+      <p><strong>Benefit: </strong>Your levels of elocator stack with your
+      levels
 
-      your&nbsp;distance&nbsp;traveled&nbsp;into&nbsp;two&nbsp;steps&nbsp;and&nbsp;determine
+      of nomad for the purposes of determining the range of
 
-      your&nbsp;line&nbsp;of&nbsp;sight&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;first&nbsp;step.&nbsp;The&nbsp;total
+      nomad’s step.
 
-      distance&nbsp;traveled&nbsp;must&nbsp;not&nbsp;exceed&nbsp;your&nbsp;maximum&nbsp;range
+      </p>
 
-      for&nbsp;nomad’s&nbsp;step&nbsp;and&nbsp;you&nbsp;may&nbsp;perform&nbsp;no&nbsp;other&nbsp;actions
+      <p>In addition, when you use nomad’s step, you may split
 
-      during&nbsp;the&nbsp;steps.
+      your distance traveled into two steps and determine
+
+      your line of sight at the end of the first step. The total
+
+      distance traveled must not exceed your maximum range
+
+      for nomad’s step and you may perform no other actions
+
+      during the steps.
 
       </p>
   disabled: false

@@ -27,11 +27,20 @@ system:
         value: One touched ranged weapon
   description:
     value: >-
-      <p>A&nbsp;shimmering&nbsp;pocket&nbsp;of&nbsp;space&nbsp;opens&nbsp;up&nbsp;near&nbsp;your&nbsp;bow,&nbsp;inviting&nbsp;the&nbsp;insertion&nbsp;of&nbsp;a&nbsp;small&nbsp;item.&nbsp;While&nbsp;this&nbsp;power&nbsp;is&nbsp;in&nbsp;effect,&nbsp;you&nbsp;can&nbsp;load&nbsp;an&nbsp;alchemical&nbsp;item&nbsp;such&nbsp;as&nbsp;an&nbsp;acid&nbsp;flask&nbsp;or&nbsp;holy&nbsp;water&nbsp;into&nbsp;the&nbsp;space,&nbsp;and&nbsp;your&nbsp;next&nbsp;shot&nbsp;will&nbsp;deliver&nbsp;that&nbsp;item&nbsp;in&nbsp;addition&nbsp;to&nbsp;its&nbsp;normal&nbsp;effects.&nbsp;Loading&nbsp;this&nbsp;pocket&nbsp;requires&nbsp;a&nbsp;move&nbsp;action&nbsp;but&nbsp;once&nbsp;loaded,&nbsp;the&nbsp;pocket&nbsp;remains&nbsp;ready&nbsp;to&nbsp;use&nbsp;until&nbsp;the&nbsp;power&nbsp;expires&nbsp;or&nbsp;you&nbsp;take&nbsp;a&nbsp;shot&nbsp;with&nbsp;your&nbsp;weapon.
+      <p>A shimmering pocket of space opens up near your bow, inviting the
+      insertion of a small item. While this power is in effect, you can load an
+      alchemical item such as an acid flask or holy water into the space, and
+      your next shot will deliver that item in addition to its normal effects.
+      Loading this pocket requires a move action but once loaded, the pocket
+      remains ready to use until the power expires or you take a shot with your
+      weapon.
 
       </p>
 
-      <p><strong>Augment:&nbsp;</strong>For&nbsp;every&nbsp;additional&nbsp;two&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;may&nbsp;place&nbsp;an&nbsp;additional&nbsp;alchemical&nbsp;item&nbsp;into&nbsp;the&nbsp;loading&nbsp;pocket&nbsp;when&nbsp;you&nbsp;load&nbsp;it,&nbsp;without&nbsp;requiring&nbsp;more&nbsp;time.&nbsp;Such&nbsp;items&nbsp;will&nbsp;still&nbsp;only&nbsp;attach&nbsp;one&nbsp;per&nbsp;projectile,&nbsp;so&nbsp;delivering&nbsp;two&nbsp;items&nbsp;requires&nbsp;two&nbsp;shots.
+      <p><strong>Augment: </strong>For every additional two power points you
+      spend, you may place an additional alchemical item into the loading pocket
+      when you load it, without requiring more time. Such items will still only
+      attach one per projectile, so delivering two items requires two shots.
 
       </p>
   discipline: psychokinesis

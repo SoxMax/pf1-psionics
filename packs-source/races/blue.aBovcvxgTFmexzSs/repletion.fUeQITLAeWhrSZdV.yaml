@@ -60,7 +60,8 @@ system:
     umd: false
   description:
     value: >-
-      <p>A&nbsp;blue&nbsp;can&nbsp;sustain&nbsp;his&nbsp;body&nbsp;without&nbsp;need&nbsp;of&nbsp;food&nbsp;or&nbsp;water.&nbsp;If&nbsp;he&nbsp;spends&nbsp;1&nbsp;power&nbsp;point,&nbsp;a&nbsp;blue&nbsp;does&nbsp;not&nbsp;need&nbsp;to&nbsp;eat&nbsp;or&nbsp;drink&nbsp;for&nbsp;24&nbsp;hours.</p>
+      <p>A blue can sustain his body without need of food or water. If he spends
+      1 power point, a blue does not need to eat or drink for 24 hours.</p>
   disabled: false
   inherited: false
   showInCombat: false

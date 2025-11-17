@@ -21,35 +21,21 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;learn&nbsp;another&nbsp;power.
-
+    value: |-
+      <p>You learn another power.
       </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Manifester&nbsp;level&nbsp;3rd.
-
+      <p><strong>Prerequisites: </strong>Manifester level 3rd.
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>Add&nbsp;to&nbsp;your&nbsp;powers&nbsp;known&nbsp;one&nbsp;additional
-
-      power&nbsp;of&nbsp;any&nbsp;level&nbsp;up&nbsp;to&nbsp;one&nbsp;level&nbsp;lower&nbsp;than&nbsp;the
-
-      highest-level&nbsp;power&nbsp;you&nbsp;can&nbsp;manifest.&nbsp;You&nbsp;can&nbsp;choose
-
-      any&nbsp;power,&nbsp;including&nbsp;powers&nbsp;from&nbsp;another&nbsp;discipline’s
-
-      list&nbsp;or&nbsp;even&nbsp;from&nbsp;another&nbsp;class’s&nbsp;list,&nbsp;even&nbsp;if&nbsp;that&nbsp;power
-
-      is&nbsp;already&nbsp;on&nbsp;your&nbsp;class’s&nbsp;power&nbsp;list.
-
+      <p><strong>Benefit: </strong>Add to your powers known one additional
+      power of any level up to one level lower than the
+      highest-level power you can manifest. You can choose
+      any power, including powers from another discipline’s
+      list or even from another class’s list, even if that power
+      is already on your class’s power list.
       </p>
-
-      <p><strong>Special:&nbsp;</strong>You&nbsp;can&nbsp;gain&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;times.&nbsp;Each
-
-      time,&nbsp;you&nbsp;learn&nbsp;one&nbsp;new&nbsp;power&nbsp;at&nbsp;any&nbsp;level&nbsp;up&nbsp;to&nbsp;one
-
-      less&nbsp;than&nbsp;the&nbsp;highest-level&nbsp;power&nbsp;you&nbsp;can&nbsp;manifest.
-
+      <p><strong>Special: </strong>You can gain this feat multiple times. Each
+      time, you learn one new power at any level up to one
+      less than the highest-level power you can manifest.
       </p>
   disabled: false
   featType: feat

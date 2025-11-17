@@ -29,13 +29,23 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;form&nbsp;a&nbsp;mental&nbsp;bond&nbsp;between&nbsp;yourself&nbsp;and&nbsp;an&nbsp;enemy,&nbsp;and&nbsp;use&nbsp;that&nbsp;bond&nbsp;to&nbsp;bombard&nbsp;their&nbsp;mind&nbsp;with&nbsp;horrifying&nbsp;images&nbsp;and&nbsp;incite&nbsp;fear.&nbsp;Targets&nbsp;of&nbsp;this&nbsp;power&nbsp;who&nbsp;fail&nbsp;their&nbsp;saving&nbsp;throws&nbsp;are&nbsp;shaken&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;power.
+      <p>You form a mental bond between yourself and an enemy, and use that bond
+      to bombard their mind with horrifying images and incite fear. Targets of
+      this power who fail their saving throws are shaken for the duration of the
+      power.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You may augment this power in one or more of
+      the following ways.
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;creatures&nbsp;that&nbsp;fail&nbsp;their&nbsp;save&nbsp;become&nbsp;frightened&nbsp;for&nbsp;the&nbsp;duration&nbsp;and&nbsp;those&nbsp;that&nbsp;succeed&nbsp;are&nbsp;considered&nbsp;shaken.</li><li>If&nbsp;you&nbsp;spend&nbsp;8&nbsp;additional&nbsp;power&nbsp;points,&nbsp;creatures&nbsp;that&nbsp;fail&nbsp;their&nbsp;saves&nbsp;become&nbsp;panicked&nbsp;for&nbsp;the&nbsp;duration,&nbsp;and&nbsp;those&nbsp;that&nbsp;succeed&nbsp;are&nbsp;shaken.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend&nbsp;(including&nbsp;those&nbsp;spent&nbsp;on&nbsp;the&nbsp;above&nbsp;augment&nbsp;options)&nbsp;increase&nbsp;the&nbsp;save&nbsp;DC&nbsp;by&nbsp;1.</li></ol>
+      </p><ol><li>If you spend 4 additional power points, creatures that fail
+      their save become frightened for the duration and those that succeed are
+      considered shaken.</li><li>If you spend 8 additional power points,
+      creatures that fail their saves become panicked for the duration, and
+      those that succeed are shaken.</li><li>For every 2 additional power points
+      you spend (including those spent on the above augment options) increase
+      the save DC by 1.</li></ol>
   descriptors:
     - fear
     - mind-affecting

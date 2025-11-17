@@ -22,13 +22,16 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;finely&nbsp;target&nbsp;your&nbsp;ectoplasmic&nbsp;powers.</em></p>
+      <p><em>You can finely target your ectoplasmic powers.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Ectoplasmic_Power"&nbsp;title="Ectoplasmic&nbsp;Power">Ectoplasmic&nbsp;Power</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Ectoplasmic_Power"
+      title="Ectoplasmic Power">Ectoplasmic Power</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;using&nbsp;the&nbsp;Ectoplasmic&nbsp;Power&nbsp;feat,&nbsp;you&nbsp;can&nbsp;choose&nbsp;to&nbsp;have&nbsp;it&nbsp;affect&nbsp;only&nbsp;incorporeal&nbsp;or&nbsp;ethereal&nbsp;creatures,&nbsp;even&nbsp;if&nbsp;it&nbsp;would&nbsp;normally&nbsp;affect&nbsp;material&nbsp;creatures.
+      <p><strong>Benefit: </strong>When using the Ectoplasmic Power feat, you
+      can choose to have it affect only incorporeal or ethereal creatures, even
+      if it would normally affect material creatures.
 
       </p>
   disabled: false

@@ -31,15 +31,23 @@ system:
         value: One creature
   description:
     value: >-
-      <p>The&nbsp;next&nbsp;successful&nbsp;melee&nbsp;attack&nbsp;you&nbsp;make&nbsp;this&nbsp;turn&nbsp;entangles&nbsp;the&nbsp;target&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;its&nbsp;next&nbsp;turn.
+      <p>The next successful melee attack you make this turn entangles the
+      target until the end of its next turn.
 
       </p>
 
-      <p><strong>Trigger:</strong>&nbsp;If&nbsp;your&nbsp;attack&nbsp;was&nbsp;successful&nbsp;and&nbsp;the&nbsp;target&nbsp;tries&nbsp;to&nbsp;make&nbsp;a&nbsp;concentration&nbsp;check&nbsp;before&nbsp;the&nbsp;end&nbsp;of&nbsp;its&nbsp;next&nbsp;turn,&nbsp;you&nbsp;can&nbsp;immediately&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;deal&nbsp;2d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;to&nbsp;it.&nbsp;The&nbsp;damage&nbsp;dealt&nbsp;causes&nbsp;the&nbsp;standard&nbsp;penalty&nbsp;to&nbsp;that&nbsp;concentration&nbsp;check.
+      <p><strong>Trigger:</strong> If your attack was successful and the target
+      tries to make a concentration check before the end of its next turn, you
+      can immediately expend your psionic focus to deal 2d6 points of damage to
+      it. The damage dealt causes the standard penalty to that concentration
+      check.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;instead&nbsp;manifest&nbsp;this&nbsp;power&nbsp;upon&nbsp;making&nbsp;a&nbsp;successful&nbsp;melee&nbsp;attack&nbsp;and&nbsp;have&nbsp;the&nbsp;effects&nbsp;of&nbsp;this&nbsp;power&nbsp;instead&nbsp;apply&nbsp;to&nbsp;that&nbsp;attack.&nbsp;Doing&nbsp;so&nbsp;still&nbsp;uses&nbsp;your&nbsp;swift&nbsp;action&nbsp;for&nbsp;the&nbsp;round.
+      <p><strong>Augment:</strong> If you spend 6 additional power points, you
+      can instead manifest this power upon making a successful melee attack and
+      have the effects of this power instead apply to that attack. Doing so
+      still uses your swift action for the round.
 
       </p>
   descriptors:

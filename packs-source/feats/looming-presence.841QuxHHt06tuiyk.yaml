@@ -22,13 +22,16 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;mental&nbsp;presence&nbsp;pressures&nbsp;those&nbsp;under&nbsp;your&nbsp;dominion.</em></p>
+      <p><em>Your mental presence pressures those under your dominion.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Unwilling_Participant"&nbsp;title="Unwilling&nbsp;Participant">Unwilling&nbsp;Participant</a>,&nbsp;collective&nbsp;class&nbsp;feature.
+      <p><strong>Prerequisites:</strong><a href="/wiki/Unwilling_Participant"
+      title="Unwilling Participant">Unwilling Participant</a>, collective class
+      feature.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>Members&nbsp;of&nbsp;your&nbsp;collective&nbsp;take&nbsp;a&nbsp;–2&nbsp;penalty&nbsp;to&nbsp;their&nbsp;attack&nbsp;rolls&nbsp;and&nbsp;AC&nbsp;against&nbsp;you.
+      <p><strong>Benefit: </strong>Members of your collective take a –2 penalty
+      to their attack rolls and AC against you.
 
       </p>
   disabled: false

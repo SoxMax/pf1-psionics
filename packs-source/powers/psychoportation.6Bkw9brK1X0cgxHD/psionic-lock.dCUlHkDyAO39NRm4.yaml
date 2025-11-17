@@ -26,7 +26,11 @@ system:
         value: Door, chest, or portal touched, up to 30 sq. ft./level in size
   description:
     value: >-
-      <p>A&nbsp;psionic&nbsp;lock&nbsp;manifested&nbsp;upon&nbsp;a&nbsp;door,&nbsp;chest,&nbsp;or&nbsp;portal&nbsp;psionically&nbsp;locks&nbsp;it.&nbsp;You&nbsp;can&nbsp;freely&nbsp;pass&nbsp;your&nbsp;own&nbsp;lock&nbsp;without&nbsp;affecting&nbsp;it;&nbsp;otherwise,&nbsp;a&nbsp;door&nbsp;or&nbsp;object&nbsp;secured&nbsp;with&nbsp;psionic&nbsp;lock&nbsp;can&nbsp;be&nbsp;opened&nbsp;only&nbsp;by&nbsp;breaking&nbsp;in&nbsp;or&nbsp;by&nbsp;a&nbsp;successful&nbsp;dispel&nbsp;psionics&nbsp;effect.&nbsp;Add&nbsp;+10&nbsp;to&nbsp;the&nbsp;normal&nbsp;DC&nbsp;to&nbsp;break&nbsp;open&nbsp;a&nbsp;door&nbsp;or&nbsp;portal&nbsp;affected&nbsp;by&nbsp;this&nbsp;power.
+      <p>A psionic lock manifested upon a door, chest, or portal psionically
+      locks it. You can freely pass your own lock without affecting it;
+      otherwise, a door or object secured with psionic lock can be opened only
+      by breaking in or by a successful dispel psionics effect. Add +10 to the
+      normal DC to break open a door or portal affected by this power.
 
       </p>
   discipline: psychoportation

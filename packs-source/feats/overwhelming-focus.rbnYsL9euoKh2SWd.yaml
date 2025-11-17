@@ -22,13 +22,17 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;focused&nbsp;powers&nbsp;are&nbsp;more&nbsp;likely&nbsp;to&nbsp;penetrate&nbsp;power&nbsp;resistance.</em></p>
+      <p><em>Your focused powers are more likely to penetrate power
+      resistance.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Focused_Power"&nbsp;title="Focused&nbsp;Power">Focused&nbsp;Power</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Focused_Power"
+      title="Focused Power">Focused Power</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;using&nbsp;the&nbsp;Focused&nbsp;Power&nbsp;feat,&nbsp;you&nbsp;also&nbsp;gain&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;to&nbsp;overcome&nbsp;any&nbsp;power&nbsp;resistance&nbsp;or&nbsp;spell&nbsp;resistance&nbsp;that&nbsp;the&nbsp;target&nbsp;has.
+      <p><strong>Benefit: </strong>When using the Focused Power feat, you also
+      gain a +2 bonus to overcome any power resistance or spell resistance that
+      the target has.
 
       </p>
   disabled: false

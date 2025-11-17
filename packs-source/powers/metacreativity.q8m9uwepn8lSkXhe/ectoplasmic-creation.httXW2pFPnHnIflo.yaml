@@ -30,11 +30,15 @@ system:
           cu. ft./level
   description:
     value: >-
-      <p>You&nbsp;shape&nbsp;raw&nbsp;ectoplasm&nbsp;into&nbsp;a&nbsp;nonmagical,&nbsp;unattended&nbsp;object&nbsp;of&nbsp;nonliving,&nbsp;organic&nbsp;matter.&nbsp;The&nbsp;volume&nbsp;of&nbsp;the&nbsp;item&nbsp;created&nbsp;cannot&nbsp;exceed&nbsp;1&nbsp;cubic&nbsp;foot&nbsp;per&nbsp;manifester&nbsp;level.&nbsp;You&nbsp;must&nbsp;succeed&nbsp;on&nbsp;an&nbsp;appropriate&nbsp;Craft&nbsp;skill&nbsp;check&nbsp;to&nbsp;make&nbsp;a&nbsp;complex&nbsp;item.
+      <p>You shape raw ectoplasm into a nonmagical, unattended object of
+      nonliving, organic matter. The volume of the item created cannot exceed 1
+      cubic foot per manifester level. You must succeed on an appropriate Craft
+      skill check to make a complex item.
 
       </p>
 
-      <p>Attempting&nbsp;to&nbsp;use&nbsp;any&nbsp;created&nbsp;object&nbsp;as&nbsp;a&nbsp;material&nbsp;component&nbsp;for&nbsp;spells&nbsp;causes&nbsp;the&nbsp;spell&nbsp;to&nbsp;fail.
+      <p>Attempting to use any created object as a material component for spells
+      causes the spell to fail.
 
       </p>
   discipline: metacreativity

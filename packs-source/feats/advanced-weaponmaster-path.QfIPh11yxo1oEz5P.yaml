@@ -22,13 +22,26 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;are&nbsp;a&nbsp;particularly&nbsp;dangerous&nbsp;opponent&nbsp;to&nbsp;duel.</em></p>
+      <p><em>You are a particularly dangerous opponent to duel.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Combat%20Expertise">Combat&nbsp;Expertise</a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Disarm">Improved&nbsp;Disarm</a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Weapon%20Focus">Weapon&nbsp;Focus</a>,&nbsp;weaponmaster&nbsp;path&nbsp;class&nbsp;feature,&nbsp;manifester&nbsp;level&nbsp;10th,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+6
+      <p><strong>Prerequisites:</strong><a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Combat%20Expertise">Combat
+      Expertise</a>, <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Disarm">Improved
+      Disarm</a>, <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Weapon%20Focus">Weapon
+      Focus</a>, weaponmaster path class feature, manifester level 10th, base
+      attack bonus +6
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>The&nbsp;competence&nbsp;bonus&nbsp;from&nbsp;your&nbsp;trance&nbsp;now&nbsp;also&nbsp;applies&nbsp;to&nbsp;damage&nbsp;rolls&nbsp;made&nbsp;with&nbsp;a&nbsp;weapon&nbsp;(natural&nbsp;attacks&nbsp;do&nbsp;not&nbsp;count&nbsp;for&nbsp;this&nbsp;purpose).&nbsp;In&nbsp;addition,&nbsp;when&nbsp;using&nbsp;the&nbsp;Weaponmaster&nbsp;maneuver,&nbsp;you&nbsp;can&nbsp;choose&nbsp;to&nbsp;make&nbsp;a&nbsp;free&nbsp;disarm&nbsp;attempt&nbsp;against&nbsp;your&nbsp;attacker&nbsp;in&nbsp;place&nbsp;of&nbsp;the&nbsp;single&nbsp;melee&nbsp;attack.&nbsp;If&nbsp;your&nbsp;disarm&nbsp;attempt&nbsp;is&nbsp;successful,&nbsp;you&nbsp;may&nbsp;then&nbsp;make&nbsp;a&nbsp;single&nbsp;melee&nbsp;attack&nbsp;against&nbsp;your&nbsp;opponent&nbsp;in&nbsp;place&nbsp;of&nbsp;the&nbsp;5-foot&nbsp;step.
+      <p><strong>Benefit: </strong>The competence bonus from your trance now
+      also applies to damage rolls made with a weapon (natural attacks do not
+      count for this purpose). In addition, when using the Weaponmaster
+      maneuver, you can choose to make a free disarm attempt against your
+      attacker in place of the single melee attack. If your disarm attempt is
+      successful, you may then make a single melee attack against your opponent
+      in place of the 5-foot step.
 
       </p>
   disabled: false

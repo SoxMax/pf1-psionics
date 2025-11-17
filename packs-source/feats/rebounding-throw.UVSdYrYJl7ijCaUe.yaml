@@ -22,13 +22,21 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;thrown&nbsp;attacks&nbsp;are&nbsp;capable&nbsp;of&nbsp;mowing&nbsp;down&nbsp;multiple&nbsp;enemies&nbsp;with&nbsp;a&nbsp;single&nbsp;throw.</em></p>
+      <p><em>Your thrown attacks are capable of mowing down multiple enemies
+      with a single throw.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Rebounding_Throw"&nbsp;title="Rebounding&nbsp;Throw">Rebounding&nbsp;Throw</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Rebounding_Throw"
+      title="Rebounding Throw">Rebounding Throw</a>.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;use&nbsp;Rebounding&nbsp;Throw,&nbsp;you&nbsp;may&nbsp;rebound&nbsp;the&nbsp;attack&nbsp;to&nbsp;a&nbsp;number&nbsp;of&nbsp;additional&nbsp;targets&nbsp;equal&nbsp;to&nbsp;half&nbsp;your&nbsp;mythic&nbsp;tier&nbsp;(minimum&nbsp;1.)&nbsp;Each&nbsp;rebound&nbsp;adds&nbsp;a&nbsp;cumulative&nbsp;-2&nbsp;penalty&nbsp;to&nbsp;the&nbsp;next&nbsp;attack.&nbsp;You&nbsp;cannot&nbsp;strike&nbsp;the&nbsp;same&nbsp;creature&nbsp;twice&nbsp;when&nbsp;using&nbsp;Rebounding&nbsp;Throw.&nbsp;If&nbsp;you&nbsp;expend&nbsp;one&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;while&nbsp;using&nbsp;Rebounding&nbsp;Throw,&nbsp;the&nbsp;additional&nbsp;attacks&nbsp;are&nbsp;made&nbsp;at&nbsp;the&nbsp;full&nbsp;attack&nbsp;bonus&nbsp;and&nbsp;there&nbsp;are&nbsp;no&nbsp;penalties&nbsp;for&nbsp;range&nbsp;increments.&nbsp;
+      <p><strong>Benefit:</strong> When you use Rebounding Throw, you may
+      rebound the attack to a number of additional targets equal to half your
+      mythic tier (minimum 1.) Each rebound adds a cumulative -2 penalty to the
+      next attack. You cannot strike the same creature twice when using
+      Rebounding Throw. If you expend one use of mythic power while using
+      Rebounding Throw, the additional attacks are made at the full attack bonus
+      and there are no penalties for range increments. 
 
       </p>
   disabled: false

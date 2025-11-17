@@ -22,35 +22,39 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>You&nbsp;have&nbsp;learned&nbsp;how&nbsp;to&nbsp;better&nbsp;handle&nbsp;psychic
+      <p>You have learned how to better handle psychic
 
       enervation.
 
       </p>
 
-      <p><strong>Prerequisite:&nbsp;</strong>Psychic&nbsp;enervation&nbsp;class&nbsp;feature.
+      <p><strong>Prerequisite: </strong>Psychic enervation class feature.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;suffer&nbsp;psychic&nbsp;enervation,&nbsp;the
+      <p><strong>Benefit: </strong>When you suffer psychic enervation, the
 
-      penalties&nbsp;are&nbsp;calculated&nbsp;as&nbsp;if&nbsp;your&nbsp;wilder&nbsp;level&nbsp;were
+      penalties are calculated as if your wilder level were
 
-      reduced&nbsp;by&nbsp;half&nbsp;(to&nbsp;a&nbsp;minimum&nbsp;of&nbsp;1).
-
-      </p>
-
-      <p><br&nbsp;/></p>
-
-      <p>You&nbsp;are&nbsp;extremely&nbsp;resilient&nbsp;against&nbsp;psychic&nbsp;enervation.
+      reduced by half (to a minimum of 1).
 
       </p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Enervation&nbsp;Fortitude.
+      <p><br /></p>
+
+      <p>You are extremely resilient against psychic enervation.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;suffer&nbsp;psychic&nbsp;enervation,&nbsp;you&nbsp;do&nbsp;not&nbsp;lose&nbsp;any&nbsp;hit&nbsp;points&nbsp;or&nbsp;power&nbsp;points,&nbsp;although&nbsp;you&nbsp;still&nbsp;suffer&nbsp;any&nbsp;additional&nbsp;effects&nbsp;like&nbsp;being&nbsp;stunned&nbsp;or&nbsp;sickened.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;one&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;when&nbsp;you&nbsp;would&nbsp;suffer&nbsp;psychic&nbsp;enervation&nbsp;to&nbsp;negate&nbsp;the&nbsp;psychic&nbsp;enervation&nbsp;and&nbsp;instead&nbsp;gain&nbsp;surging&nbsp;euphoria.&nbsp;
+      <p><strong>Prerequisite:</strong> Enervation Fortitude.
+
+      </p>
+
+      <p><strong>Benefit:</strong> When you suffer psychic enervation, you do
+      not lose any hit points or power points, although you still suffer any
+      additional effects like being stunned or sickened. In addition, you can
+      expend one use of mythic power when you would suffer psychic enervation to
+      negate the psychic enervation and instead gain surging euphoria. 
 
       </p>
   disabled: false

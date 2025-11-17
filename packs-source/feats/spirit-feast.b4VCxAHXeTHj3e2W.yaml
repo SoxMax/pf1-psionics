@@ -22,17 +22,23 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;have&nbsp;become&nbsp;far&nbsp;more&nbsp;efficient&nbsp;in&nbsp;your&nbsp;efforts&nbsp;to&nbsp;preserve&nbsp;your&nbsp;life.</em></p>
+      <p><em>You have become far more efficient in your efforts to preserve your
+      life.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Feast_of_Folly"&nbsp;title="Feast&nbsp;of&nbsp;Folly">Feast&nbsp;of&nbsp;Folly</a>,&nbsp;character&nbsp;level&nbsp;10th.
-
-      </p>
-
-      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;use&nbsp;the&nbsp;Feast&nbsp;of&nbsp;Folly&nbsp;feat,&nbsp;you&nbsp;heal&nbsp;2&nbsp;hit&nbsp;points&nbsp;for&nbsp;each&nbsp;point&nbsp;of&nbsp;ability&nbsp;burn&nbsp;taken&nbsp;instead&nbsp;of&nbsp;1.&nbsp;If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus,&nbsp;you&nbsp;heal&nbsp;3&nbsp;per&nbsp;point&nbsp;of&nbsp;ability&nbsp;burn&nbsp;instead.
+      <p><strong>Prerequisites:</strong><a href="/wiki/Feast_of_Folly"
+      title="Feast of Folly">Feast of Folly</a>, character level 10th.
 
       </p>
 
-      <p>The&nbsp;limit&nbsp;to&nbsp;the&nbsp;amount&nbsp;that&nbsp;you&nbsp;may&nbsp;heal&nbsp;through&nbsp;one&nbsp;use&nbsp;of&nbsp;Feast&nbsp;of&nbsp;Folly&nbsp;increases&nbsp;to&nbsp;twice&nbsp;your&nbsp;HD.
+      <p><strong>Benefit:</strong> When you use the Feast of Folly feat, you
+      heal 2 hit points for each point of ability burn taken instead of 1. If
+      you expend your psionic focus, you heal 3 per point of ability burn
+      instead.
+
+      </p>
+
+      <p>The limit to the amount that you may heal through one use of Feast of
+      Folly increases to twice your HD.
 
       </p>
   disabled: false

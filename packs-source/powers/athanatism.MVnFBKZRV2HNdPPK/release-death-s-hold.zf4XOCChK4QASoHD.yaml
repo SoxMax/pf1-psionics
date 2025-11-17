@@ -29,15 +29,35 @@ system:
         value: One undead creature
   description:
     value: >-
-      <p>You&nbsp;temporarily&nbsp;infuse&nbsp;an&nbsp;undead&nbsp;creature&nbsp;with&nbsp;life&nbsp;energy.&nbsp;The&nbsp;undead&nbsp;creature&nbsp;touched&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Will&nbsp;save&nbsp;or&nbsp;it&nbsp;becomes&nbsp;infused&nbsp;with&nbsp;life,&nbsp;no&nbsp;longer&nbsp;undead.&nbsp;The&nbsp;target&nbsp;loses&nbsp;the&nbsp;undead&nbsp;type&nbsp;(do&nbsp;not&nbsp;change&nbsp;its&nbsp;HD,&nbsp;skills,&nbsp;or&nbsp;saves),&nbsp;regaining&nbsp;whatever&nbsp;its&nbsp;type&nbsp;was&nbsp;in&nbsp;life&nbsp;(if&nbsp;its&nbsp;original&nbsp;type&nbsp;is&nbsp;uncertain,&nbsp;it&nbsp;instead&nbsp;becomes&nbsp;a&nbsp;magical&nbsp;beast).&nbsp;Its&nbsp;Constitution&nbsp;score&nbsp;becomes&nbsp;10&nbsp;temporarily,&nbsp;but&nbsp;it&nbsp;continues&nbsp;to&nbsp;use&nbsp;Charisma&nbsp;to&nbsp;determine&nbsp;hit&nbsp;points&nbsp;and&nbsp;bonus&nbsp;added&nbsp;to&nbsp;Fortitude&nbsp;saves.&nbsp;If&nbsp;it&nbsp;was&nbsp;mindless,&nbsp;it&nbsp;remains&nbsp;mindless.&nbsp;It&nbsp;also&nbsp;loses&nbsp;all&nbsp;undead&nbsp;immunities,&nbsp;channel&nbsp;resistance,&nbsp;and&nbsp;any&nbsp;energy&nbsp;drain&nbsp;abilities&nbsp;it&nbsp;may&nbsp;have&nbsp;possessed.&nbsp;If&nbsp;it&nbsp;was&nbsp;incorporeal,&nbsp;it&nbsp;loses&nbsp;the&nbsp;incorporeal&nbsp;subtype&nbsp;and&nbsp;grows&nbsp;a&nbsp;temporary&nbsp;body&nbsp;similar&nbsp;to&nbsp;the&nbsp;one&nbsp;it&nbsp;had&nbsp;in&nbsp;life,&nbsp;except&nbsp;that&nbsp;it&nbsp;has&nbsp;a&nbsp;Strength&nbsp;score&nbsp;of&nbsp;10.&nbsp;It&nbsp;also&nbsp;becomes&nbsp;sensitive&nbsp;to&nbsp;pain.&nbsp;Whenever&nbsp;is&nbsp;suffers&nbsp;an&nbsp;amount&nbsp;of&nbsp;damage&nbsp;equal&nbsp;to&nbsp;or&nbsp;greater&nbsp;than&nbsp;its&nbsp;HD,&nbsp;it&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Will&nbsp;save&nbsp;or&nbsp;become&nbsp;sickened&nbsp;for&nbsp;one&nbsp;round.
+      <p>You temporarily infuse an undead creature with life energy. The undead
+      creature touched must succeed at a Will save or it becomes infused with
+      life, no longer undead. The target loses the undead type (do not change
+      its HD, skills, or saves), regaining whatever its type was in life (if its
+      original type is uncertain, it instead becomes a magical beast). Its
+      Constitution score becomes 10 temporarily, but it continues to use
+      Charisma to determine hit points and bonus added to Fortitude saves. If it
+      was mindless, it remains mindless. It also loses all undead immunities,
+      channel resistance, and any energy drain abilities it may have possessed.
+      If it was incorporeal, it loses the incorporeal subtype and grows a
+      temporary body similar to the one it had in life, except that it has a
+      Strength score of 10. It also becomes sensitive to pain. Whenever is
+      suffers an amount of damage equal to or greater than its HD, it must
+      succeed at a Will save or become sickened for one round.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points&nbsp;and&nbsp;expending&nbsp;your&nbsp;psionic&nbsp;focus,&nbsp;you&nbsp;may&nbsp;allow&nbsp;this&nbsp;power&nbsp;to&nbsp;become&nbsp;contagious.&nbsp;The&nbsp;next&nbsp;undead&nbsp;creature&nbsp;that&nbsp;the&nbsp;target&nbsp;touches&nbsp;is&nbsp;subjected&nbsp;to&nbsp;a&nbsp;second&nbsp;manifestation&nbsp;of&nbsp;this&nbsp;power,&nbsp;including&nbsp;all&nbsp;augments&nbsp;and&nbsp;other&nbsp;enhancements.&nbsp;This&nbsp;second&nbsp;manifestation&nbsp;costs&nbsp;you&nbsp;no&nbsp;additional&nbsp;power&nbsp;points&nbsp;and&nbsp;does&nbsp;not&nbsp;require&nbsp;you&nbsp;to&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.
+      <p><strong>Augment:</strong> By spending an additional 6 power points and
+      expending your psionic focus, you may allow this power to become
+      contagious. The next undead creature that the target touches is subjected
+      to a second manifestation of this power, including all augments and other
+      enhancements. This second manifestation costs you no additional power
+      points and does not require you to expend your psionic focus.
 
       </p>
 
-      <p><strong>Special:</strong>&nbsp;If&nbsp;this&nbsp;power&nbsp;is&nbsp;manifested&nbsp;on&nbsp;a&nbsp;willing&nbsp;target,&nbsp;the&nbsp;duration&nbsp;becomes&nbsp;10&nbsp;min./level&nbsp;and&nbsp;they&nbsp;do&nbsp;not&nbsp;suffer&nbsp;the&nbsp;sensitivity&nbsp;to&nbsp;pain.
+      <p><strong>Special:</strong> If this power is manifested on a willing
+      target, the duration becomes 10 min./level and they do not suffer the
+      sensitivity to pain.
 
       </p>
   discipline: athanatism

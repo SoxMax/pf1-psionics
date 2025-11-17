@@ -27,13 +27,18 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;use&nbsp;telekinesis&nbsp;to&nbsp;make&nbsp;Disable&nbsp;Device&nbsp;checks&nbsp;without&nbsp;a&nbsp;toolkit&nbsp;without&nbsp;suffering&nbsp;the&nbsp;increase&nbsp;to&nbsp;the&nbsp;check&nbsp;DC.
+      <p>You can use telekinesis to make Disable Device checks without a toolkit
+      without suffering the increase to the check DC.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power can be augmented in one or both of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+1&nbsp;competence&nbsp;bonus&nbsp;on&nbsp;your&nbsp;Disable&nbsp;Device&nbsp;checks&nbsp;made&nbsp;with&nbsp;this&nbsp;power.</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;range&nbsp;changes&nbsp;to&nbsp;Close&nbsp;(25&nbsp;ft.&nbsp;+&nbsp;5&nbsp;ft./2&nbsp;levels)&nbsp;instead&nbsp;of&nbsp;Touch.</li></ol>
+      </p><ol><li>For every additional 2 power points you spend, you gain a +1
+      competence bonus on your Disable Device checks made with this
+      power.</li><li>If you spend 6 additional power points, the range changes
+      to Close (25 ft. + 5 ft./2 levels) instead of Touch.</li></ol>
   discipline: psychokinesis
   display:
     auditory: false

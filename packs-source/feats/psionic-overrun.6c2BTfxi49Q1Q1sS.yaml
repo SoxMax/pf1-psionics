@@ -21,37 +21,22 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;can&nbsp;draw&nbsp;on&nbsp;your&nbsp;psionic&nbsp;power&nbsp;to&nbsp;boost&nbsp;the
-
-      power&nbsp;of&nbsp;an&nbsp;overrun&nbsp;attack.
-
+    value: |-
+      <p>You can draw on your psionic power to boost the
+      power of an overrun attack.
       </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Str&nbsp;13,&nbsp;Improved&nbsp;Overrun,&nbsp;Power
-
-      Attack,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+1.
-
+      <p><strong>Prerequisites: </strong>Str 13, Improved Overrun, Power
+      Attack, base attack bonus +1.
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>While&nbsp;maintaining&nbsp;psionic&nbsp;focus,&nbsp;when&nbsp;you
-
-      successfully&nbsp;perform&nbsp;an&nbsp;overrun&nbsp;combat&nbsp;maneuver,&nbsp;you
-
-      also&nbsp;deal&nbsp;damage&nbsp;equal&nbsp;to&nbsp;half&nbsp;your&nbsp;level&nbsp;to&nbsp;the&nbsp;creature
-
-      you&nbsp;overrun.
-
+      <p><strong>Benefit: </strong>While maintaining psionic focus, when you
+      successfully perform an overrun combat maneuver, you
+      also deal damage equal to half your level to the creature
+      you overrun.
       </p>
-
-      <p>If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when&nbsp;you&nbsp;perform&nbsp;a
-
-      successful&nbsp;overrun&nbsp;combat&nbsp;maneuver,&nbsp;you&nbsp;can&nbsp;also&nbsp;push
-
-      your&nbsp;target&nbsp;up&nbsp;to&nbsp;5&nbsp;feet,&nbsp;+5&nbsp;feet&nbsp;for&nbsp;every&nbsp;four&nbsp;levels&nbsp;you
-
+      <p>If you expend your psionic focus when you perform a
+      successful overrun combat maneuver, you can also push
+      your target up to 5 feet, +5 feet for every four levels you
       possess.
-
       </p>
   disabled: false
   featType: feat

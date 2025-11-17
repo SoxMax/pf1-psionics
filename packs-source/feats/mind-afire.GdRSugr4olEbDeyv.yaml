@@ -22,13 +22,22 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;fuel&nbsp;your&nbsp;psychic&nbsp;powers&nbsp;with&nbsp;the&nbsp;same&nbsp;mental&nbsp;fortitude&nbsp;that&nbsp;strengthens&nbsp;your&nbsp;body.</em></p>
+      <p><em>You can fuel your psychic powers with the same mental fortitude
+      that strengthens your body.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Kineticist"&nbsp;title="Kineticist">Kineticist</a>&nbsp;level&nbsp;1st,&nbsp;must&nbsp;use&nbsp;an&nbsp;ability&nbsp;score&nbsp;other&nbsp;than&nbsp;Constitution&nbsp;to&nbsp;determine&nbsp;your&nbsp;hit&nbsp;points&nbsp;(such&nbsp;as&nbsp;by&nbsp;possessing&nbsp;the&nbsp;<a&nbsp;href="/wiki/Altered_Life"&nbsp;title="Altered&nbsp;Life">Altered&nbsp;Life</a>&nbsp;feat).
+      <p><strong>Prerequisites:</strong><a href="/wiki/Kineticist"
+      title="Kineticist">Kineticist</a> level 1st, must use an ability score
+      other than Constitution to determine your hit points (such as by
+      possessing the <a href="/wiki/Altered_Life" title="Altered Life">Altered
+      Life</a> feat).
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;use&nbsp;the&nbsp;ability&nbsp;score&nbsp;you&nbsp;use&nbsp;to&nbsp;determine&nbsp;your&nbsp;hit&nbsp;points&nbsp;instead&nbsp;of&nbsp;your&nbsp;Constitution&nbsp;for&nbsp;determining&nbsp;how&nbsp;much&nbsp;burn&nbsp;you&nbsp;can&nbsp;possess,&nbsp;the&nbsp;save&nbsp;DCs&nbsp;of&nbsp;your&nbsp;kineticist&nbsp;class&nbsp;features,&nbsp;the&nbsp;bonus&nbsp;damage&nbsp;of&nbsp;your&nbsp;<em>kinetic&nbsp;blasts</em>,&nbsp;and&nbsp;any&nbsp;wild&nbsp;talent&nbsp;that&nbsp;uses&nbsp;your&nbsp;Constitution&nbsp;modifier&nbsp;to&nbsp;determine&nbsp;its&nbsp;effect.
+      <p><strong>Benefit: </strong>You can use the ability score you use to
+      determine your hit points instead of your Constitution for determining how
+      much burn you can possess, the save DCs of your kineticist class features,
+      the bonus damage of your <em>kinetic blasts</em>, and any wild talent that
+      uses your Constitution modifier to determine its effect.
 
       </p>
   disabled: false

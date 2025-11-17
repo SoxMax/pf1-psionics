@@ -22,13 +22,21 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;ability&nbsp;to&nbsp;sense&nbsp;aggression&nbsp;in&nbsp;your&nbsp;enemies&nbsp;has&nbsp;developed&nbsp;into&nbsp;a&nbsp;sixth&nbsp;sense.</em></p>
+      <p><em>Your ability to sense aggression in your enemies has developed into
+      a sixth sense.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Detect_Hostility"&nbsp;title="Detect&nbsp;Hostility">Detect&nbsp;Hostility</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Detect_Hostility"
+      title="Detect Hostility">Detect Hostility</a>.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;Whenever&nbsp;you&nbsp;come&nbsp;within&nbsp;30&nbsp;feet&nbsp;of&nbsp;a&nbsp;creature&nbsp;feeling&nbsp;hostility,&nbsp;you&nbsp;are&nbsp;entitled&nbsp;to&nbsp;a&nbsp;Knowledge&nbsp;(martial)&nbsp;check&nbsp;to&nbsp;notice&nbsp;it&nbsp;as&nbsp;if&nbsp;you&nbsp;were&nbsp;actively&nbsp;searching&nbsp;for&nbsp;it.&nbsp;You&nbsp;can&nbsp;detect&nbsp;hostility&nbsp;aimed&nbsp;at&nbsp;yourself&nbsp;from&nbsp;any&nbsp;range&nbsp;as&nbsp;long&nbsp;as&nbsp;the&nbsp;target&nbsp;is&nbsp;observing&nbsp;you&nbsp;in&nbsp;some&nbsp;way,&nbsp;even&nbsp;through&nbsp;divination&nbsp;magic,&nbsp;but&nbsp;you&nbsp;cannot&nbsp;determine&nbsp;where&nbsp;it&nbsp;is&nbsp;coming&nbsp;from&nbsp;unless&nbsp;you&nbsp;can&nbsp;see&nbsp;the&nbsp;source&nbsp;(which&nbsp;may&nbsp;require&nbsp;a&nbsp;Perception&nbsp;check)&nbsp;or&nbsp;the&nbsp;source&nbsp;is&nbsp;within&nbsp;30&nbsp;feet.
+      <p><strong>Benefit:</strong> Whenever you come within 30 feet of a
+      creature feeling hostility, you are entitled to a Knowledge (martial)
+      check to notice it as if you were actively searching for it. You can
+      detect hostility aimed at yourself from any range as long as the target is
+      observing you in some way, even through divination magic, but you cannot
+      determine where it is coming from unless you can see the source (which may
+      require a Perception check) or the source is within 30 feet.
 
       </p>
   disabled: false

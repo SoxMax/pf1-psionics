@@ -26,11 +26,24 @@ system:
         value: Willing, living creature touched
   description:
     value: >-
-      <p>You&nbsp;muddle&nbsp;that&nbsp;which&nbsp;affects&nbsp;a&nbsp;soul,&nbsp;switching&nbsp;them&nbsp;between&nbsp;different&nbsp;souls.&nbsp;You&nbsp;and&nbsp;the&nbsp;target&nbsp;exchange&nbsp;all&nbsp;soul-based&nbsp;curses,&nbsp;blessings,&nbsp;or&nbsp;effects.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;exchange&nbsp;all&nbsp;mental&nbsp;ability&nbsp;damage&nbsp;and&nbsp;drain,&nbsp;as&nbsp;well&nbsp;as&nbsp;negative&nbsp;levels.&nbsp;If&nbsp;any&nbsp;of&nbsp;these&nbsp;effects&nbsp;could&nbsp;be&nbsp;reduced&nbsp;or&nbsp;removed&nbsp;with&nbsp;a&nbsp;save,&nbsp;their&nbsp;new&nbsp;owner&nbsp;may&nbsp;attempt&nbsp;a&nbsp;new&nbsp;save&nbsp;against&nbsp;each&nbsp;such&nbsp;effect.&nbsp;This&nbsp;does&nbsp;not&nbsp;count&nbsp;as&nbsp;if&nbsp;you&nbsp;gained&nbsp;a&nbsp;new&nbsp;version&nbsp;of&nbsp;whatever&nbsp;effect&nbsp;you&nbsp;receive&nbsp;–&nbsp;instead,&nbsp;the&nbsp;duration&nbsp;on&nbsp;any&nbsp;of&nbsp;these&nbsp;effects&nbsp;continues&nbsp;as&nbsp;normal,&nbsp;just&nbsp;as&nbsp;if&nbsp;nothing&nbsp;had&nbsp;happened.&nbsp;If&nbsp;either&nbsp;target&nbsp;is&nbsp;possessed&nbsp;when&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;the&nbsp;possessing&nbsp;entity&nbsp;may&nbsp;succeed&nbsp;on&nbsp;a&nbsp;Will&nbsp;save&nbsp;to&nbsp;choose&nbsp;one&nbsp;of&nbsp;the&nbsp;targets&nbsp;to&nbsp;transfer&nbsp;to&nbsp;-&nbsp;otherwise,&nbsp;they&nbsp;remain&nbsp;with&nbsp;the&nbsp;body&nbsp;they&nbsp;were&nbsp;originally&nbsp;possessing.
+      <p>You muddle that which affects a soul, switching them between different
+      souls. You and the target exchange all soul-based curses, blessings, or
+      effects. In addition, you exchange all mental ability damage and drain, as
+      well as negative levels. If any of these effects could be reduced or
+      removed with a save, their new owner may attempt a new save against each
+      such effect. This does not count as if you gained a new version of
+      whatever effect you receive – instead, the duration on any of these
+      effects continues as normal, just as if nothing had happened. If either
+      target is possessed when you manifest this power, the possessing entity
+      may succeed on a Will save to choose one of the targets to transfer to -
+      otherwise, they remain with the body they were originally possessing.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;may&nbsp;target&nbsp;an&nbsp;unwilling,&nbsp;living&nbsp;creature&nbsp;touched,&nbsp;unless&nbsp;they&nbsp;succeed&nbsp;on&nbsp;a&nbsp;Will&nbsp;save.&nbsp;Power&nbsp;resistance&nbsp;provides&nbsp;protection&nbsp;from&nbsp;this&nbsp;use&nbsp;as&nbsp;normal.
+      <p><strong>Augment:</strong> By spending an additional 4 power points,
+      this power may target an unwilling, living creature touched, unless they
+      succeed on a Will save. Power resistance provides protection from this use
+      as normal.
 
       </p>
   discipline: athanatism

@@ -22,13 +22,16 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;concussive&nbsp;powers&nbsp;also&nbsp;affect&nbsp;those&nbsp;near&nbsp;the&nbsp;target.</em></p>
+      <p><em>Your concussive powers also affect those near the target.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Concussive_Power"&nbsp;title="Concussive&nbsp;Power">Concussive&nbsp;Power</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Concussive_Power"
+      title="Concussive Power">Concussive Power</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;using&nbsp;the&nbsp;Concussive&nbsp;Power&nbsp;feat,&nbsp;you&nbsp;can&nbsp;choose&nbsp;to&nbsp;have&nbsp;anyone&nbsp;adjacent&nbsp;to&nbsp;the&nbsp;initial&nbsp;target&nbsp;also&nbsp;be&nbsp;affected&nbsp;by&nbsp;the&nbsp;Concussive&nbsp;Power&nbsp;feat.
+      <p><strong>Benefit: </strong>When using the Concussive Power feat, you can
+      choose to have anyone adjacent to the initial target also be affected by
+      the Concussive Power feat.
 
       </p>
   disabled: false

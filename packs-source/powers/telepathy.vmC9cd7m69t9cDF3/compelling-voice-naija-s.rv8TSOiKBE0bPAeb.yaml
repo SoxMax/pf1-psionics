@@ -29,19 +29,32 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;tune&nbsp;your&nbsp;voice&nbsp;to&nbsp;the&nbsp;empathic&nbsp;vibrations&nbsp;of&nbsp;your&nbsp;target,&nbsp;making&nbsp;the&nbsp;next&nbsp;words&nbsp;you&nbsp;speak&nbsp;seem&nbsp;very&nbsp;convincing&nbsp;(limited&nbsp;to&nbsp;a&nbsp;sentence&nbsp;or&nbsp;two).&nbsp;The&nbsp;suggestion&nbsp;must&nbsp;be&nbsp;worded&nbsp;in&nbsp;such&nbsp;a&nbsp;manner&nbsp;as&nbsp;to&nbsp;make&nbsp;the&nbsp;activity&nbsp;sound&nbsp;reasonable.&nbsp;Asking&nbsp;the&nbsp;creature&nbsp;to&nbsp;do&nbsp;some&nbsp;obviously&nbsp;harmful&nbsp;act&nbsp;automatically&nbsp;negates&nbsp;the&nbsp;effect&nbsp;of&nbsp;the&nbsp;power.
+      <p>You tune your voice to the empathic vibrations of your target, making
+      the next words you speak seem very convincing (limited to a sentence or
+      two). The suggestion must be worded in such a manner as to make the
+      activity sound reasonable. Asking the creature to do some obviously
+      harmful act automatically negates the effect of the power.
 
       </p>
 
-      <p>The&nbsp;suggested&nbsp;course&nbsp;of&nbsp;activity&nbsp;can&nbsp;continue&nbsp;for&nbsp;the&nbsp;entire&nbsp;duration.&nbsp;If&nbsp;the&nbsp;suggested&nbsp;activity&nbsp;can&nbsp;be&nbsp;completed&nbsp;in&nbsp;a&nbsp;shorter&nbsp;time,&nbsp;the&nbsp;power&nbsp;ends&nbsp;when&nbsp;the&nbsp;subject&nbsp;finishes&nbsp;what&nbsp;it&nbsp;was&nbsp;asked&nbsp;to&nbsp;do.&nbsp;You&nbsp;can&nbsp;instead&nbsp;specify&nbsp;conditions&nbsp;that&nbsp;will&nbsp;trigger&nbsp;a&nbsp;special&nbsp;activity&nbsp;during&nbsp;the&nbsp;duration.&nbsp;If&nbsp;the&nbsp;condition&nbsp;is&nbsp;not&nbsp;met&nbsp;before&nbsp;the&nbsp;power&nbsp;duration&nbsp;expires,&nbsp;the&nbsp;activity&nbsp;is&nbsp;not&nbsp;performed.
+      <p>The suggested course of activity can continue for the entire duration.
+      If the suggested activity can be completed in a shorter time, the power
+      ends when the subject finishes what it was asked to do. You can instead
+      specify conditions that will trigger a special activity during the
+      duration. If the condition is not met before the power duration expires,
+      the activity is not performed.
 
       </p>
 
-      <p>A&nbsp;very&nbsp;reasonable&nbsp;suggestion&nbsp;causes&nbsp;the&nbsp;save&nbsp;to&nbsp;be&nbsp;made&nbsp;with&nbsp;a&nbsp;penalty&nbsp;(such&nbsp;as&nbsp;–1&nbsp;or&nbsp;–2).
+      <p>A very reasonable suggestion causes the save to be made with a penalty
+      (such as –1 or –2).
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;can&nbsp;affect&nbsp;an&nbsp;additional&nbsp;target&nbsp;and&nbsp;the&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.&nbsp;Any&nbsp;additional&nbsp;target&nbsp;cannot&nbsp;be&nbsp;more&nbsp;than&nbsp;15&nbsp;feet&nbsp;from&nbsp;another&nbsp;target&nbsp;of&nbsp;the&nbsp;power.
+      <p><strong>Augment:</strong> For every 2 additional power points you
+      spend, this power can affect an additional target and the power's save DC
+      increases by 1. Any additional target cannot be more than 15 feet from
+      another target of the power.
 
       </p>
   descriptors:

@@ -22,21 +22,28 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Even&nbsp;after&nbsp;you&nbsp;die&nbsp;and&nbsp;return&nbsp;from&nbsp;death,&nbsp;your&nbsp;psicrystal&nbsp;remains&nbsp;bonded&nbsp;to&nbsp;you.</em></p>
+      <p><em>Even after you die and return from death, your psicrystal remains
+      bonded to you.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Psicrystal_Affinity"&nbsp;title="Psicrystal&nbsp;Affinity">Psicrystal&nbsp;Affinity</a>,&nbsp;manifester&nbsp;level&nbsp;5th.
-
-      </p>
-
-      <p><strong>Benefit:</strong>&nbsp;Whenever&nbsp;you&nbsp;die&nbsp;and&nbsp;are&nbsp;returned&nbsp;to&nbsp;life,&nbsp;your&nbsp;psicrystal&nbsp;automatically&nbsp;reforms&nbsp;immediately.&nbsp;When&nbsp;it&nbsp;reforms,&nbsp;it&nbsp;must&nbsp;have&nbsp;the&nbsp;same&nbsp;personality&nbsp;as&nbsp;the&nbsp;original.
+      <p><strong>Prerequisites:</strong><a href="/wiki/Psicrystal_Affinity"
+      title="Psicrystal Affinity">Psicrystal Affinity</a>, manifester level 5th.
 
       </p>
 
-      <p>In&nbsp;addition,&nbsp;having&nbsp;this&nbsp;extra&nbsp;bond&nbsp;strengthens&nbsp;you&nbsp;against&nbsp;further&nbsp;peril.&nbsp;While&nbsp;your&nbsp;psicrystal&nbsp;is&nbsp;active,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;saves&nbsp;against&nbsp;death&nbsp;effects&nbsp;and&nbsp;on&nbsp;checks&nbsp;made&nbsp;to&nbsp;stabilize&nbsp;while&nbsp;you&nbsp;are&nbsp;dying.
+      <p><strong>Benefit:</strong> Whenever you die and are returned to life,
+      your psicrystal automatically reforms immediately. When it reforms, it
+      must have the same personality as the original.
 
       </p>
 
-      <p><strong>Normal:</strong>&nbsp;When&nbsp;you&nbsp;die,&nbsp;your&nbsp;psicrystal&nbsp;is&nbsp;destroyed.&nbsp;When&nbsp;your&nbsp;psicrystal&nbsp;is&nbsp;destroyed,&nbsp;it&nbsp;reforms&nbsp;after&nbsp;24&nbsp;hours.
+      <p>In addition, having this extra bond strengthens you against further
+      peril. While your psicrystal is active, you gain a +2 bonus on saves
+      against death effects and on checks made to stabilize while you are dying.
+
+      </p>
+
+      <p><strong>Normal:</strong> When you die, your psicrystal is destroyed.
+      When your psicrystal is destroyed, it reforms after 24 hours.
 
       </p>
   disabled: false

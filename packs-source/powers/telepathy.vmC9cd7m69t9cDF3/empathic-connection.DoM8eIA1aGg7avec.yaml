@@ -29,17 +29,39 @@ system:
         value: One humanoid
   description:
     value: >-
-      <p>You&nbsp;reach&nbsp;out&nbsp;with&nbsp;your&nbsp;mind,&nbsp;finding&nbsp;the&nbsp;emotional&nbsp;strings&nbsp;that&nbsp;most&nbsp;apply&nbsp;to&nbsp;your&nbsp;target.&nbsp;With&nbsp;delicate&nbsp;influences,&nbsp;you&nbsp;twist&nbsp;those&nbsp;emotional&nbsp;strings,&nbsp;making&nbsp;your&nbsp;target&nbsp;view&nbsp;you&nbsp;as&nbsp;a&nbsp;friend&nbsp;(treat&nbsp;the&nbsp;target's&nbsp;attitude&nbsp;as&nbsp;friendly).&nbsp;If&nbsp;the&nbsp;creature&nbsp;is&nbsp;currently&nbsp;being&nbsp;threatened&nbsp;or&nbsp;attacked&nbsp;by&nbsp;you&nbsp;or&nbsp;your&nbsp;allies,&nbsp;however,&nbsp;it&nbsp;receives&nbsp;a&nbsp;+5&nbsp;bonus&nbsp;on&nbsp;its&nbsp;saving&nbsp;throw.
+      <p>You reach out with your mind, finding the emotional strings that most
+      apply to your target. With delicate influences, you twist those emotional
+      strings, making your target view you as a friend (treat the target's
+      attitude as friendly). If the creature is currently being threatened or
+      attacked by you or your allies, however, it receives a +5 bonus on its
+      saving throw.
 
       </p>
 
-      <p>This&nbsp;does&nbsp;not&nbsp;enable&nbsp;you&nbsp;to&nbsp;control&nbsp;the&nbsp;affected&nbsp;person&nbsp;as&nbsp;if&nbsp;it&nbsp;was&nbsp;an&nbsp;automaton,&nbsp;but&nbsp;it&nbsp;perceives&nbsp;your&nbsp;words&nbsp;and&nbsp;actions&nbsp;in&nbsp;the&nbsp;most&nbsp;favorable&nbsp;way.&nbsp;You&nbsp;can&nbsp;try&nbsp;to&nbsp;give&nbsp;the&nbsp;subject&nbsp;orders,&nbsp;but&nbsp;you&nbsp;must&nbsp;win&nbsp;an&nbsp;opposed&nbsp;Charisma&nbsp;check&nbsp;to&nbsp;convince&nbsp;it&nbsp;to&nbsp;do&nbsp;anything&nbsp;it&nbsp;wouldn't&nbsp;ordinarily&nbsp;do.&nbsp;(Retries&nbsp;are&nbsp;not&nbsp;allowed.)&nbsp;An&nbsp;affected&nbsp;creature&nbsp;never&nbsp;obeys&nbsp;suicidal&nbsp;or&nbsp;obviously&nbsp;harmful&nbsp;orders,&nbsp;but&nbsp;it&nbsp;might&nbsp;be&nbsp;convinced&nbsp;that&nbsp;something&nbsp;very&nbsp;dangerous&nbsp;is&nbsp;worth&nbsp;doing.&nbsp;Any&nbsp;act&nbsp;by&nbsp;you&nbsp;or&nbsp;your&nbsp;apparent&nbsp;allies&nbsp;that&nbsp;threatens&nbsp;the&nbsp;charmed&nbsp;person&nbsp;breaks&nbsp;the&nbsp;effect.&nbsp;You&nbsp;must&nbsp;speak&nbsp;the&nbsp;person's&nbsp;language&nbsp;to&nbsp;communicate&nbsp;your&nbsp;commands,&nbsp;be&nbsp;good&nbsp;at&nbsp;pantomiming,&nbsp;or&nbsp;have&nbsp;some&nbsp;other&nbsp;method&nbsp;to&nbsp;communicate,&nbsp;such&nbsp;as&nbsp;mindlink.
+      <p>This does not enable you to control the affected person as if it was an
+      automaton, but it perceives your words and actions in the most favorable
+      way. You can try to give the subject orders, but you must win an opposed
+      Charisma check to convince it to do anything it wouldn't ordinarily do.
+      (Retries are not allowed.) An affected creature never obeys suicidal or
+      obviously harmful orders, but it might be convinced that something very
+      dangerous is worth doing. Any act by you or your apparent allies that
+      threatens the charmed person breaks the effect. You must speak the
+      person's language to communicate your commands, be good at pantomiming, or
+      have some other method to communicate, such as mindlink.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or more of
+      the following ways.
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;can&nbsp;also&nbsp;affect&nbsp;an&nbsp;animal,&nbsp;fey,&nbsp;magical&nbsp;beast,&nbsp;or&nbsp;monstrous&nbsp;humanoid.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;can&nbsp;also&nbsp;affect&nbsp;an&nbsp;aberration,&nbsp;dragon,&nbsp;elemental,&nbsp;or&nbsp;outsider&nbsp;in&nbsp;addition&nbsp;to&nbsp;the&nbsp;creature&nbsp;types&nbsp;mentioned&nbsp;above.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power's&nbsp;duration&nbsp;increases&nbsp;to&nbsp;one&nbsp;day&nbsp;per&nbsp;level.&nbsp;In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend&nbsp;to&nbsp;achieve&nbsp;any&nbsp;of&nbsp;these&nbsp;effects,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.</li></ol>
+      </p><ol><li>If you spend 2 additional power points, this power can also
+      affect an animal, fey, magical beast, or monstrous humanoid.</li><li>If
+      you spend 4 additional power points, this power can also affect an
+      aberration, dragon, elemental, or outsider in addition to the creature
+      types mentioned above.</li><li>If you spend 4 additional power points,
+      this power's duration increases to one day per level. In addition, for
+      every 2 additional power points you spend to achieve any of these effects,
+      this power's save DC increases by 1.</li></ol>
   descriptors:
     - mind-affecting
   discipline: telepathy

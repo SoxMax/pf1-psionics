@@ -33,15 +33,24 @@ system:
         value: 10-ft.-radius spread
   description:
     value: >-
-      <p>The&nbsp;sounds&nbsp;of&nbsp;the&nbsp;tortured&nbsp;dead&nbsp;cause&nbsp;each&nbsp;living&nbsp;creature&nbsp;in&nbsp;the&nbsp;area&nbsp;to&nbsp;become&nbsp;frightened&nbsp;unless&nbsp;it&nbsp;succeeds&nbsp;on&nbsp;a&nbsp;Will&nbsp;save.&nbsp;Upon&nbsp;success,&nbsp;the&nbsp;creature&nbsp;is&nbsp;shaken&nbsp;for&nbsp;1&nbsp;round.
+      <p>The sounds of the tortured dead cause each living creature in the area
+      to become frightened unless it succeeds on a Will save. Upon success, the
+      creature is shaken for 1 round.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power may be augmented in one of the
+      following ways.
 
-      </p><ol><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;any&nbsp;target&nbsp;that&nbsp;fails&nbsp;its&nbsp;Will&nbsp;save&nbsp;is&nbsp;panicked&nbsp;instead&nbsp;of&nbsp;frightened.</li><li>You&nbsp;may&nbsp;spend&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points&nbsp;to&nbsp;have&nbsp;any&nbsp;target&nbsp;that&nbsp;succeeds&nbsp;on&nbsp;its&nbsp;Will&nbsp;save&nbsp;be&nbsp;shaken&nbsp;for&nbsp;an&nbsp;additional&nbsp;round.</li><li>For&nbsp;every&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;increase&nbsp;the&nbsp;radius&nbsp;of&nbsp;this&nbsp;power&nbsp;by&nbsp;5&nbsp;feet.</li></ol>
+      </p><ol><li>By spending an additional 4 power points, any target that
+      fails its Will save is panicked instead of frightened.</li><li>You may
+      spend an additional 4 power points to have any target that succeeds on its
+      Will save be shaken for an additional round.</li><li>For every 4
+      additional power points you spend, you increase the radius of this power
+      by 5 feet.</li></ol>
 
-      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;two&nbsp;power&nbsp;points&nbsp;spent&nbsp;augmenting&nbsp;this&nbsp;power,&nbsp;increase&nbsp;the&nbsp;power's&nbsp;save&nbsp;DC&nbsp;by&nbsp;1.
+      <p>In addition, for every two power points spent augmenting this power,
+      increase the power's save DC by 1.
 
       </p>
   descriptors:

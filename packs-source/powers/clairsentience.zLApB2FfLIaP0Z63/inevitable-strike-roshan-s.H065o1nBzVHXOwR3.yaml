@@ -27,13 +27,21 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;gain&nbsp;temporary,&nbsp;intuitive&nbsp;insight&nbsp;into&nbsp;the&nbsp;immediate&nbsp;future&nbsp;during&nbsp;your&nbsp;next&nbsp;attack.&nbsp;Your&nbsp;next&nbsp;single&nbsp;attack&nbsp;roll&nbsp;(if&nbsp;it&nbsp;is&nbsp;made&nbsp;before&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;next&nbsp;round)&nbsp;gains&nbsp;a&nbsp;+5&nbsp;insight&nbsp;bonus.&nbsp;Additionally,&nbsp;you&nbsp;are&nbsp;not&nbsp;affected&nbsp;by&nbsp;the&nbsp;miss&nbsp;chance&nbsp;that&nbsp;applies&nbsp;to&nbsp;attackers&nbsp;trying&nbsp;to&nbsp;strike&nbsp;a&nbsp;concealed&nbsp;target.
+      <p>You gain temporary, intuitive insight into the immediate future during
+      your next attack. Your next single attack roll (if it is made before the
+      end of the next round) gains a +5 insight bonus. Additionally, you are not
+      affected by the miss chance that applies to attackers trying to strike a
+      concealed target.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power may be augmented in one or both of
+      the following ways.
 
-      </p><ol><li>You&nbsp;can&nbsp;increase&nbsp;the&nbsp;manifesting&nbsp;time&nbsp;to&nbsp;1&nbsp;standard&nbsp;action&nbsp;and&nbsp;increase&nbsp;the&nbsp;insight&nbsp;bonus&nbsp;to&nbsp;+20.</li><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;spent,&nbsp;the&nbsp;insight&nbsp;bonus&nbsp;increases&nbsp;by&nbsp;2,&nbsp;but&nbsp;the&nbsp;total&nbsp;bonus&nbsp;may&nbsp;not&nbsp;exceed&nbsp;+25.</li></ol>
+      </p><ol><li>You can increase the manifesting time to 1 standard action and
+      increase the insight bonus to +20.</li><li>For every additional power
+      point spent, the insight bonus increases by 2, but the total bonus may not
+      exceed +25.</li></ol>
   discipline: clairsentience
   display:
     auditory: false

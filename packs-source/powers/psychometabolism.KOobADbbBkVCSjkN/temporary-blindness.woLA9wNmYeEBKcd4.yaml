@@ -29,15 +29,28 @@ system:
         value: One target
   description:
     value: >-
-      <p>You&nbsp;temporarily&nbsp;disconnect&nbsp;the&nbsp;body's&nbsp;sight&nbsp;from&nbsp;whatever&nbsp;processes&nbsp;the&nbsp;images&nbsp;in&nbsp;them,&nbsp;causing&nbsp;them&nbsp;to&nbsp;suffer&nbsp;temporary&nbsp;blindness.&nbsp;The&nbsp;target&nbsp;must&nbsp;make&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;or&nbsp;become&nbsp;blinded.&nbsp;The&nbsp;target&nbsp;can&nbsp;make&nbsp;a&nbsp;new&nbsp;save&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;each&nbsp;round&nbsp;to&nbsp;remove&nbsp;the&nbsp;blindness.
+      <p>You temporarily disconnect the body's sight from whatever processes the
+      images in them, causing them to suffer temporary blindness. The target
+      must make a Fortitude save or become blinded. The target can make a new
+      save at the end of each round to remove the blindness.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power can be augmented in one or more of
+      the following ways.
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;extends&nbsp;to&nbsp;1&nbsp;minute&nbsp;per&nbsp;level.&nbsp;The&nbsp;target&nbsp;gets&nbsp;to&nbsp;make&nbsp;a&nbsp;new&nbsp;save&nbsp;every&nbsp;minute&nbsp;instead&nbsp;of&nbsp;every&nbsp;round.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;extends&nbsp;to&nbsp;1&nbsp;day&nbsp;per&nbsp;level.&nbsp;The&nbsp;target&nbsp;gets&nbsp;to&nbsp;make&nbsp;a&nbsp;new&nbsp;save&nbsp;every&nbsp;day&nbsp;instead&nbsp;of&nbsp;every&nbsp;round.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;target&nbsp;does&nbsp;not&nbsp;gain&nbsp;any&nbsp;additional&nbsp;saves&nbsp;if&nbsp;they&nbsp;fail&nbsp;the&nbsp;first.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;target&nbsp;one&nbsp;target&nbsp;per&nbsp;manifester&nbsp;level.</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;becomes&nbsp;Permanent&nbsp;instead&nbsp;of&nbsp;1&nbsp;round/lvl.</li></ol>
+      </p><ol><li>If you spend 2 additional power points, the duration extends
+      to 1 minute per level. The target gets to make a new save every minute
+      instead of every round.</li><li>If you spend 4 additional power points,
+      the duration extends to 1 day per level. The target gets to make a new
+      save every day instead of every round.</li><li>If you spend 4 additional
+      power points, the target does not gain any additional saves if they fail
+      the first.</li><li>If you spend 4 additional power points, you can target
+      one target per manifester level.</li><li>If you spend 6 additional power
+      points, the duration becomes Permanent instead of 1 round/lvl.</li></ol>
 
-      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;you&nbsp;spend&nbsp;to&nbsp;augment&nbsp;this&nbsp;power,&nbsp;increase&nbsp;the&nbsp;DC&nbsp;by&nbsp;+1.
+      <p>In addition, for every 2 power points you spend to augment this power,
+      increase the DC by +1.
 
       </p>
   discipline: psychometabolism

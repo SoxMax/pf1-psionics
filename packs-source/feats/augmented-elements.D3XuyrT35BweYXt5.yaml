@@ -22,13 +22,22 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;have&nbsp;the&nbsp;spark&nbsp;of&nbsp;psionic&nbsp;power,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;broaden&nbsp;your&nbsp;elemental&nbsp;abilities.</em></p>
+      <p><em>You have the spark of psionic power, allowing you to broaden your
+      elemental abilities.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Kineticist"&nbsp;title="Kineticist">Kineticist</a>&nbsp;level&nbsp;1st.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Kineticist"
+      title="Kineticist">Kineticist</a> level 1st.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;learn&nbsp;a&nbsp;simple&nbsp;blast&nbsp;from&nbsp;any&nbsp;element&nbsp;(including&nbsp;your&nbsp;primary&nbsp;element,&nbsp;if&nbsp;there&nbsp;is&nbsp;another&nbsp;blast&nbsp;for&nbsp;you&nbsp;to&nbsp;choose).&nbsp;Unless&nbsp;you&nbsp;later&nbsp;gain&nbsp;access&nbsp;to&nbsp;this&nbsp;blast&nbsp;through&nbsp;another&nbsp;method,&nbsp;you&nbsp;increase&nbsp;its&nbsp;burn&nbsp;cost&nbsp;by&nbsp;1&nbsp;whenever&nbsp;you&nbsp;use&nbsp;it.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;gain&nbsp;the&nbsp;psionic&nbsp;subtype,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;take&nbsp;psionic&nbsp;feats,&nbsp;metapsionic&nbsp;feats,&nbsp;and&nbsp;psionic&nbsp;item&nbsp;creation&nbsp;feats.&nbsp;If&nbsp;you&nbsp;do&nbsp;not&nbsp;have&nbsp;your&nbsp;primary&nbsp;element's&nbsp;basic&nbsp;utility&nbsp;talent&nbsp;(for&nbsp;example,&nbsp;if&nbsp;you&nbsp;have&nbsp;traded&nbsp;it&nbsp;away&nbsp;with&nbsp;an&nbsp;archetype),&nbsp;you&nbsp;also&nbsp;gain&nbsp;that&nbsp;wild&nbsp;talent.
+      <p><strong>Benefit:</strong> You learn a simple blast from any element
+      (including your primary element, if there is another blast for you to
+      choose). Unless you later gain access to this blast through another
+      method, you increase its burn cost by 1 whenever you use it. In addition,
+      you gain the psionic subtype, allowing you to take psionic feats,
+      metapsionic feats, and psionic item creation feats. If you do not have
+      your primary element's basic utility talent (for example, if you have
+      traded it away with an archetype), you also gain that wild talent.
 
       </p>
   disabled: false

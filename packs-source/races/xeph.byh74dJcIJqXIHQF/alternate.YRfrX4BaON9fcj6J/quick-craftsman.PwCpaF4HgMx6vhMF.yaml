@@ -63,7 +63,10 @@ system:
     umd: false
   description:
     value: >-
-      <p>Some&nbsp;xephs&nbsp;are&nbsp;swifter&nbsp;with&nbsp;their&nbsp;hands&nbsp;than&nbsp;their&nbsp;feet.&nbsp;A&nbsp;xeph&nbsp;with&nbsp;this&nbsp;trait&nbsp;reduces&nbsp;the&nbsp;time&nbsp;required&nbsp;for&nbsp;all&nbsp;item&nbsp;creation&nbsp;(whether&nbsp;via&nbsp;skill&nbsp;or&nbsp;feat)&nbsp;by&nbsp;half.</p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;two&nbsp;daily&nbsp;uses&nbsp;of&nbsp;the&nbsp;Burst&nbsp;trait.</em></p><p></li></p>
+      <p>Some xephs are swifter with their hands than their feet. A xeph with
+      this trait reduces the time required for all item creation (whether via
+      skill or feat) by half.</p><p><em>This trait replaces two daily uses of
+      the Burst trait.</em></p><p></li></p>
   disabled: false
   inherited: false
   showInCombat: false

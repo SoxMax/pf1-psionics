@@ -64,7 +64,9 @@ system:
     umd: false
   description:
     value: >-
-      <p>The&nbsp;symbiotic&nbsp;bond&nbsp;between&nbsp;the&nbsp;noral&nbsp;and&nbsp;the&nbsp;erliss&nbsp;grants&nbsp;all&nbsp;bonded&nbsp;norals&nbsp;a&nbsp;+2&nbsp;racial&nbsp;bonus&nbsp;on&nbsp;saving&nbsp;throws&nbsp;against&nbsp;disease&nbsp;and&nbsp;mind-affecting&nbsp;effects.</li></p>
+      <p>The symbiotic bond between the noral and the erliss grants all bonded
+      norals a +2 racial bonus on saving throws against disease and
+      mind-affecting effects.</li></p>
   subType: racial
   traitCategory: defensive
 type: feat

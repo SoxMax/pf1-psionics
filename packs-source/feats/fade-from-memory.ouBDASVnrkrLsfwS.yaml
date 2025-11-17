@@ -22,13 +22,24 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;vanish&nbsp;from&nbsp;the&nbsp;immediate&nbsp;memory&nbsp;of&nbsp;those&nbsp;around&nbsp;you.</em></p>
+      <p><em>You can vanish from the immediate memory of those around
+      you.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Divert_Perception"&nbsp;title="Divert&nbsp;Perception">Divert&nbsp;Perception</a>&nbsp;feat,&nbsp;Stealth&nbsp;8&nbsp;ranks.
+      <p><strong>Prerequisites:</strong><a href="/wiki/Divert_Perception"
+      title="Divert Perception">Divert Perception</a> feat, Stealth 8 ranks.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;use&nbsp;Stealth&nbsp;to&nbsp;hide,&nbsp;you&nbsp;can&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;cause&nbsp;creatures&nbsp;within&nbsp;close&nbsp;range&nbsp;(25&nbsp;feet&nbsp;+&nbsp;5&nbsp;feet&nbsp;per&nbsp;two&nbsp;character&nbsp;levels)&nbsp;to&nbsp;forget&nbsp;about&nbsp;you&nbsp;until&nbsp;you&nbsp;reappear.&nbsp;Only&nbsp;creatures&nbsp;who&nbsp;failed&nbsp;to&nbsp;see&nbsp;through&nbsp;your&nbsp;initial&nbsp;Stealth&nbsp;check&nbsp;are&nbsp;affected,&nbsp;and&nbsp;an&nbsp;affected&nbsp;creature&nbsp;can&nbsp;make&nbsp;a&nbsp;Will&nbsp;save&nbsp;(DC&nbsp;10&nbsp;+&nbsp;1/2&nbsp;your&nbsp;character&nbsp;level&nbsp;+&nbsp;your&nbsp;highest&nbsp;mental&nbsp;ability&nbsp;score&nbsp;modifier)&nbsp;to&nbsp;resist&nbsp;this&nbsp;effect.&nbsp;When&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;in&nbsp;order&nbsp;to&nbsp;hide&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;movement&nbsp;using&nbsp;the&nbsp;Divert&nbsp;Perception&nbsp;feat,&nbsp;you&nbsp;can&nbsp;also&nbsp;use&nbsp;this&nbsp;one&nbsp;as&nbsp;part&nbsp;of&nbsp;the&nbsp;same&nbsp;action,&nbsp;without&nbsp;having&nbsp;to&nbsp;expend&nbsp;psionic&nbsp;focus&nbsp;a&nbsp;second&nbsp;time.
+      <p><strong>Benefit:</strong> When you use Stealth to hide, you can expend
+      your psionic focus to cause creatures within close range (25 feet + 5 feet
+      per two character levels) to forget about you until you reappear. Only
+      creatures who failed to see through your initial Stealth check are
+      affected, and an affected creature can make a Will save (DC 10 + 1/2 your
+      character level + your highest mental ability score modifier) to resist
+      this effect. When you expend your psionic focus in order to hide at the
+      end of your movement using the Divert Perception feat, you can also use
+      this one as part of the same action, without having to expend psionic
+      focus a second time.
 
       </p>
   disabled: false

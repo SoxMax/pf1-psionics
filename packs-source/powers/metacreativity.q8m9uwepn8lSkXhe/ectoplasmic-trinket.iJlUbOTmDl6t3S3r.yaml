@@ -30,7 +30,16 @@ system:
           cu. ft.
   description:
     value: >-
-      <p>You&nbsp;shape&nbsp;raw&nbsp;ectoplasm&nbsp;into&nbsp;a&nbsp;nonmagical,&nbsp;unattended&nbsp;object&nbsp;of&nbsp;nonliving&nbsp;matter.&nbsp;The&nbsp;item&nbsp;created&nbsp;cannot&nbsp;exceed&nbsp;1&nbsp;cubic&nbsp;foot&nbsp;in&nbsp;volume&nbsp;or&nbsp;1&nbsp;gp&nbsp;in&nbsp;value.&nbsp;You&nbsp;must&nbsp;succeed&nbsp;on&nbsp;an&nbsp;appropriate&nbsp;Craft&nbsp;skill&nbsp;check&nbsp;to&nbsp;make&nbsp;a&nbsp;complex&nbsp;item.&nbsp;Coins&nbsp;and&nbsp;other&nbsp;objects&nbsp;of&nbsp;rare&nbsp;and&nbsp;precious&nbsp;materials&nbsp;(such&nbsp;as&nbsp;adamantine,&nbsp;cold&nbsp;iron,&nbsp;silver,&nbsp;etc.)&nbsp;cannot&nbsp;be&nbsp;created.&nbsp;Objects&nbsp;created&nbsp;in&nbsp;this&nbsp;manner&nbsp;may&nbsp;be&nbsp;used&nbsp;as&nbsp;tools,&nbsp;but&nbsp;have&nbsp;1&nbsp;hp&nbsp;and&nbsp;0&nbsp;hardness;&nbsp;they&nbsp;are&nbsp;too&nbsp;fragile&nbsp;to&nbsp;be&nbsp;used&nbsp;as&nbsp;weapons&nbsp;except&nbsp;for&nbsp;arrows,&nbsp;bolts,&nbsp;bullets,&nbsp;darts,&nbsp;and&nbsp;shuriken&nbsp;(manifesting&nbsp;this&nbsp;power&nbsp;will&nbsp;create&nbsp;up&nbsp;to&nbsp;three&nbsp;of&nbsp;such&nbsp;at&nbsp;once).&nbsp;Attempting&nbsp;to&nbsp;use&nbsp;any&nbsp;created&nbsp;object&nbsp;as&nbsp;a&nbsp;material&nbsp;component&nbsp;for&nbsp;spells&nbsp;causes&nbsp;the&nbsp;spell&nbsp;to&nbsp;fail.
+      <p>You shape raw ectoplasm into a nonmagical, unattended object of
+      nonliving matter. The item created cannot exceed 1 cubic foot in volume or
+      1 gp in value. You must succeed on an appropriate Craft skill check to
+      make a complex item. Coins and other objects of rare and precious
+      materials (such as adamantine, cold iron, silver, etc.) cannot be created.
+      Objects created in this manner may be used as tools, but have 1 hp and 0
+      hardness; they are too fragile to be used as weapons except for arrows,
+      bolts, bullets, darts, and shuriken (manifesting this power will create up
+      to three of such at once). Attempting to use any created object as a
+      material component for spells causes the spell to fail.
 
       </p>
   discipline: metacreativity

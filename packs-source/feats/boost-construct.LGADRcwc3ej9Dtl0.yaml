@@ -22,33 +22,38 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>Your&nbsp;astral&nbsp;constructs&nbsp;have&nbsp;more&nbsp;abilities.
+      <p>Your astral constructs have more abilities.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;create&nbsp;an&nbsp;astral&nbsp;construct,&nbsp;you&nbsp;can
+      <p><strong>Benefit: </strong>When you create an astral construct, you can
 
-      give&nbsp;it&nbsp;one&nbsp;additional&nbsp;special&nbsp;ability&nbsp;from&nbsp;any&nbsp;menu&nbsp;that
+      give it one additional special ability from any menu that
 
-      the&nbsp;construct&nbsp;currently&nbsp;has&nbsp;an&nbsp;ability&nbsp;from.
-
-      </p>
-
-      <p><strong>Special:&nbsp;</strong>This&nbsp;effect&nbsp;stacks&nbsp;with&nbsp;the&nbsp;Summoner’s&nbsp;Call
-
-      ability&nbsp;of&nbsp;the&nbsp;shaper.
+      the construct currently has an ability from.
 
       </p>
 
-      <p>Your&nbsp;astral&nbsp;constructs&nbsp;are&nbsp;creatures&nbsp;of&nbsp;legendary&nbsp;might&nbsp;and&nbsp;toughness.
+      <p><strong>Special: </strong>This effect stacks with the Summoner’s Call
+
+      ability of the shaper.
 
       </p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Boost&nbsp;Construct.
+      <p>Your astral constructs are creatures of legendary might and toughness.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;Any&nbsp;astral&nbsp;construct&nbsp;you&nbsp;create&nbsp;is&nbsp;considered&nbsp;mythic&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of&nbsp;interacting&nbsp;with&nbsp;other&nbsp;mythic&nbsp;creatures.&nbsp;It&nbsp;doesn’t&nbsp;gain&nbsp;any&nbsp;mythic&nbsp;abilities&nbsp;or&nbsp;powers,&nbsp;but&nbsp;is&nbsp;affected&nbsp;by&nbsp;mythic&nbsp;powers,&nbsp;spells,&nbsp;and&nbsp;abilities&nbsp;as&nbsp;if&nbsp;it&nbsp;were&nbsp;a&nbsp;1st-tier&nbsp;mythic&nbsp;creature.&nbsp;Additionally,&nbsp;if&nbsp;the&nbsp;astral&nbsp;construct&nbsp;has&nbsp;damage&nbsp;reduction,&nbsp;its&nbsp;damage&nbsp;reduction&nbsp;becomes&nbsp;DR/epic.&nbsp;&nbsp;
+      <p><strong>Prerequisite:</strong> Boost Construct.
+
+      </p>
+
+      <p><strong>Benefit:</strong> Any astral construct you create is considered
+      mythic for the purpose of interacting with other mythic creatures. It
+      doesn’t gain any mythic abilities or powers, but is affected by mythic
+      powers, spells, and abilities as if it were a 1st-tier mythic creature.
+      Additionally, if the astral construct has damage reduction, its damage
+      reduction becomes DR/epic.  
 
       </p>
   disabled: false

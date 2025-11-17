@@ -22,13 +22,15 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;body&nbsp;recovers&nbsp;quickly&nbsp;from&nbsp;ability&nbsp;damage.</em></p>
+      <p><em>Your body recovers quickly from ability damage.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Mind_Over_Body"&nbsp;title="Mind&nbsp;Over&nbsp;Body">Mind&nbsp;Over&nbsp;Body</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Mind_Over_Body"
+      title="Mind Over Body">Mind Over Body</a>.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;heal&nbsp;ability&nbsp;damage&nbsp;for&nbsp;the&nbsp;day,&nbsp;you&nbsp;heal&nbsp;all&nbsp;ability&nbsp;damage&nbsp;and&nbsp;ability&nbsp;burn&nbsp;damage.
+      <p><strong>Benefit:</strong> When you heal ability damage for the day, you
+      heal all ability damage and ability burn damage.
 
       </p>
   disabled: false

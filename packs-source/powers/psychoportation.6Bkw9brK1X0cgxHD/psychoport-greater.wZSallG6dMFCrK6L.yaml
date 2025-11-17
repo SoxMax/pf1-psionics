@@ -17,7 +17,14 @@ system:
       name: Use
   description:
     value: >-
-      <p>As&nbsp;<em><a&nbsp;href="/wiki/Psychoport"&nbsp;title="Psychoport">psychoport</a></em>,&nbsp;except&nbsp;that&nbsp;there&nbsp;is&nbsp;no&nbsp;range&nbsp;limit&nbsp;and&nbsp;there&nbsp;is&nbsp;no&nbsp;chance&nbsp;you&nbsp;arrive&nbsp;off&nbsp;target.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;need&nbsp;not&nbsp;have&nbsp;seen&nbsp;the&nbsp;destination,&nbsp;but&nbsp;in&nbsp;that&nbsp;case&nbsp;you&nbsp;must&nbsp;have&nbsp;at&nbsp;least&nbsp;a&nbsp;reliable&nbsp;description&nbsp;of&nbsp;the&nbsp;place&nbsp;to&nbsp;which&nbsp;you&nbsp;are&nbsp;teleporting.&nbsp;If&nbsp;you&nbsp;attempt&nbsp;to&nbsp;teleport&nbsp;with&nbsp;insufficient&nbsp;information&nbsp;(or&nbsp;with&nbsp;misleading&nbsp;information),&nbsp;you&nbsp;disappear&nbsp;and&nbsp;simply&nbsp;reappear&nbsp;in&nbsp;your&nbsp;original&nbsp;location.&nbsp;Interplanar&nbsp;travel&nbsp;is&nbsp;not&nbsp;possible.
+      <p>As <em><a href="/wiki/Psychoport"
+      title="Psychoport">psychoport</a></em>, except that there is no range
+      limit and there is no chance you arrive off target. In addition, you need
+      not have seen the destination, but in that case you must have at least a
+      reliable description of the place to which you are teleporting. If you
+      attempt to teleport with insufficient information (or with misleading
+      information), you disappear and simply reappear in your original location.
+      Interplanar travel is not possible.
 
       </p>
   discipline: psychoportation

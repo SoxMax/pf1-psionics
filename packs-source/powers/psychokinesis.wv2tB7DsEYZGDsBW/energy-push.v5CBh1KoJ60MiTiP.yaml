@@ -32,25 +32,47 @@ system:
         value: Ray
   description:
     value: >-
-      <p>You&nbsp;project&nbsp;a&nbsp;solid&nbsp;blast&nbsp;of&nbsp;energy&nbsp;of&nbsp;your&nbsp;active&nbsp;energy&nbsp;type&nbsp;(cold,&nbsp;electricity,&nbsp;fire,&nbsp;or&nbsp;sonic)&nbsp;at&nbsp;a&nbsp;target,&nbsp;dealing&nbsp;it&nbsp;2d6&nbsp;points&nbsp;of&nbsp;damage.&nbsp;In&nbsp;addition,&nbsp;if&nbsp;a&nbsp;subject&nbsp;of&nbsp;up&nbsp;to&nbsp;one&nbsp;size&nbsp;category&nbsp;larger&nbsp;than&nbsp;you&nbsp;fails&nbsp;a&nbsp;Strength&nbsp;check&nbsp;(DC&nbsp;equal&nbsp;to&nbsp;the&nbsp;save&nbsp;DC&nbsp;of&nbsp;this&nbsp;power),&nbsp;the&nbsp;driving&nbsp;force&nbsp;of&nbsp;the&nbsp;energy&nbsp;blast&nbsp;pushes&nbsp;it&nbsp;back&nbsp;5&nbsp;feet&nbsp;plus&nbsp;another&nbsp;5&nbsp;feet&nbsp;for&nbsp;every&nbsp;5&nbsp;points&nbsp;of&nbsp;damage&nbsp;it&nbsp;takes.&nbsp;If&nbsp;a&nbsp;wall&nbsp;or&nbsp;other&nbsp;solid&nbsp;object&nbsp;prevents&nbsp;the&nbsp;subject&nbsp;from&nbsp;being&nbsp;pushed&nbsp;back,&nbsp;the&nbsp;subject&nbsp;instead&nbsp;slams&nbsp;into&nbsp;the&nbsp;object&nbsp;and&nbsp;takes&nbsp;an&nbsp;extra&nbsp;2d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;from&nbsp;the&nbsp;impact&nbsp;(no&nbsp;save).&nbsp;The&nbsp;movement&nbsp;caused&nbsp;by&nbsp;energy&nbsp;push&nbsp;does&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity.
+      <p>You project a solid blast of energy of your active energy type (cold,
+      electricity, fire, or sonic) at a target, dealing it 2d6 points of damage.
+      In addition, if a subject of up to one size category larger than you fails
+      a Strength check (DC equal to the save DC of this power), the driving
+      force of the energy blast pushes it back 5 feet plus another 5 feet for
+      every 5 points of damage it takes. If a wall or other solid object
+      prevents the subject from being pushed back, the subject instead slams
+      into the object and takes an extra 2d6 points of damage from the impact
+      (no save). The movement caused by energy push does not provoke attacks of
+      opportunity.
 
-      </p><ul><li><em>Cold:</em>&nbsp;A&nbsp;blast&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;+1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die&nbsp;(damage&nbsp;from&nbsp;impact&nbsp;remains&nbsp;at&nbsp;2d6&nbsp;points).&nbsp;The&nbsp;saving&nbsp;throw&nbsp;to&nbsp;reduce&nbsp;damage&nbsp;from&nbsp;a&nbsp;cold&nbsp;push&nbsp;is&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;instead&nbsp;of&nbsp;a&nbsp;Reflex&nbsp;save.</li></ul>
+      </p><ul><li><em>Cold:</em> A blast of this energy type deals +1 point of
+      damage per die (damage from impact remains at 2d6 points). The saving
+      throw to reduce damage from a cold push is a Fortitude save instead of a
+      Reflex save.</li></ul>
 
-      <ul><li><em>Electricity:</em>&nbsp;Manifesting&nbsp;a&nbsp;blast&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;provides&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;to&nbsp;the&nbsp;save&nbsp;DC&nbsp;and&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;manifester&nbsp;level&nbsp;checks&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of&nbsp;overcoming&nbsp;power&nbsp;resistance.</li></ul>
+      <ul><li><em>Electricity:</em> Manifesting a blast of this energy type
+      provides a +2 bonus to the save DC and a +2 bonus on manifester level
+      checks for the purpose of overcoming power resistance.</li></ul>
 
-      <ul><li><em>Fire:</em>&nbsp;A&nbsp;blast&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;+1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die&nbsp;(damage&nbsp;from&nbsp;impact&nbsp;remains&nbsp;at&nbsp;2d6&nbsp;points).</li></ul>
+      <ul><li><em>Fire:</em> A blast of this energy type deals +1 point of
+      damage per die (damage from impact remains at 2d6 points).</li></ul>
 
-      <ul><li><em>Sonic:</em>&nbsp;A&nbsp;blast&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;–1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die&nbsp;(damage&nbsp;from&nbsp;impact&nbsp;remains&nbsp;at&nbsp;2d6&nbsp;points)&nbsp;and&nbsp;ignores&nbsp;an&nbsp;object's&nbsp;hardness.</li></ul>
+      <ul><li><em>Sonic:</em> A blast of this energy type deals –1 point of
+      damage per die (damage from impact remains at 2d6 points) and ignores an
+      object's hardness.</li></ul>
 
-      <p>This&nbsp;power's&nbsp;subtype&nbsp;is&nbsp;the&nbsp;same&nbsp;as&nbsp;the&nbsp;type&nbsp;of&nbsp;energy&nbsp;you&nbsp;manifest.
+      <p>This power's subtype is the same as the type of energy you manifest.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;damage&nbsp;increases&nbsp;by&nbsp;one&nbsp;die&nbsp;(d6)&nbsp;and&nbsp;its&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.&nbsp;The&nbsp;damage&nbsp;increase&nbsp;applies&nbsp;to&nbsp;both&nbsp;the&nbsp;initial&nbsp;blast&nbsp;and&nbsp;any&nbsp;damage&nbsp;from&nbsp;impact&nbsp;with&nbsp;an&nbsp;object.
+      <p><strong>Augment:</strong> For every 2 additional power points you
+      spend, this power's damage increases by one die (d6) and its save DC
+      increases by 1. The damage increase applies to both the initial blast and
+      any damage from impact with an object.
 
       </p>
 
-      <p><strong>Special:</strong>&nbsp;A&nbsp;kineticist&nbsp;does&nbsp;not&nbsp;need&nbsp;to&nbsp;select&nbsp;an&nbsp;energy&nbsp;type&nbsp;for&nbsp;this&nbsp;power&nbsp;when&nbsp;he&nbsp;gains&nbsp;psionic&nbsp;focus.&nbsp;He&nbsp;may&nbsp;choose&nbsp;the&nbsp;type&nbsp;of&nbsp;damage&nbsp;at&nbsp;the&nbsp;time&nbsp;the&nbsp;power&nbsp;is&nbsp;manifested.
+      <p><strong>Special:</strong> A kineticist does not need to select an
+      energy type for this power when he gains psionic focus. He may choose the
+      type of damage at the time the power is manifested.
 
       </p>
   descriptors:

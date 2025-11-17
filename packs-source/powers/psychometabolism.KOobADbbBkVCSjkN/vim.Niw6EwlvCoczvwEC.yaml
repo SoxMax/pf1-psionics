@@ -27,7 +27,9 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;suffuse&nbsp;yourself&nbsp;with&nbsp;power,&nbsp;gaining&nbsp;1&nbsp;temporary&nbsp;hit&nbsp;point.&nbsp;This&nbsp;temporary&nbsp;hit&nbsp;point&nbsp;overlaps&nbsp;(does&nbsp;not&nbsp;stack)&nbsp;with&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;from&nbsp;any&nbsp;source,&nbsp;including&nbsp;previous&nbsp;manifestations&nbsp;of&nbsp;this&nbsp;power.
+      <p>You suffuse yourself with power, gaining 1 temporary hit point. This
+      temporary hit point overlaps (does not stack) with temporary hit points
+      from any source, including previous manifestations of this power.
 
       </p>
   discipline: psychometabolism

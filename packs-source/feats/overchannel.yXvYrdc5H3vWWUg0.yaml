@@ -22,55 +22,58 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>You&nbsp;burn&nbsp;your&nbsp;life&nbsp;force&nbsp;to&nbsp;strengthen&nbsp;your&nbsp;powers.
+      <p>You burn your life force to strengthen your powers.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>While&nbsp;manifesting&nbsp;a&nbsp;power,&nbsp;you&nbsp;can&nbsp;increase
+      <p><strong>Benefit: </strong>While manifesting a power, you can increase
 
-      your&nbsp;effective&nbsp;manifester&nbsp;level&nbsp;by&nbsp;one,&nbsp;but&nbsp;in&nbsp;so&nbsp;doing
+      your effective manifester level by one, but in so doing
 
-      you&nbsp;take&nbsp;1d8&nbsp;points&nbsp;of&nbsp;damage.&nbsp;At&nbsp;8th&nbsp;level,&nbsp;you&nbsp;can
+      you take 1d8 points of damage. At 8th level, you can
 
-      choose&nbsp;to&nbsp;increase&nbsp;your&nbsp;effective&nbsp;manifester&nbsp;level&nbsp;by
+      choose to increase your effective manifester level by
 
-      two,&nbsp;but&nbsp;you&nbsp;take&nbsp;3d8&nbsp;points&nbsp;of&nbsp;damage.&nbsp;At&nbsp;15th&nbsp;level,
+      two, but you take 3d8 points of damage. At 15th level,
 
-      you&nbsp;can&nbsp;increase&nbsp;your&nbsp;effective&nbsp;manifester&nbsp;level&nbsp;by
+      you can increase your effective manifester level by
 
-      three,&nbsp;but&nbsp;you&nbsp;take&nbsp;5d8&nbsp;points&nbsp;of&nbsp;damage.
-
-      </p>
-
-      <p>The&nbsp;effective&nbsp;increase&nbsp;in&nbsp;manifester&nbsp;level&nbsp;increases
-
-      the&nbsp;number&nbsp;of&nbsp;power&nbsp;points&nbsp;you&nbsp;can&nbsp;expend&nbsp;on&nbsp;a&nbsp;single
-
-      power&nbsp;manifestation,&nbsp;as&nbsp;well&nbsp;as&nbsp;increasing&nbsp;all&nbsp;manifester
-
-      level-dependent&nbsp;effects,&nbsp;such&nbsp;as&nbsp;range,&nbsp;duration,&nbsp;and
-
-      overcoming&nbsp;power&nbsp;resistance.
+      three, but you take 5d8 points of damage.
 
       </p>
 
-      <p><strong>Normal:&nbsp;</strong>Your&nbsp;manifester&nbsp;level&nbsp;is&nbsp;equal&nbsp;to&nbsp;your&nbsp;total
+      <p>The effective increase in manifester level increases
 
-      levels&nbsp;in&nbsp;classes&nbsp;that&nbsp;manifest&nbsp;powers.
+      the number of power points you can expend on a single
 
-      </p>
+      power manifestation, as well as increasing all manifester
 
-      <p><br&nbsp;/></p>
+      level-dependent effects, such as range, duration, and
 
-      <p>You&nbsp;have&nbsp;learned&nbsp;to&nbsp;push&nbsp;yourself&nbsp;harder&nbsp;to&nbsp;increase&nbsp;your&nbsp;manifesting&nbsp;power.
-
-      </p>
-
-      <p><strong>Prerequisite:</strong>&nbsp;Overchannel.
+      overcoming power resistance.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;can&nbsp;increase&nbsp;your&nbsp;manifester&nbsp;level&nbsp;when&nbsp;using&nbsp;Overchannel&nbsp;by&nbsp;half&nbsp;your&nbsp;tier&nbsp;(minimum&nbsp;1),&nbsp;but&nbsp;doing&nbsp;so&nbsp;adds&nbsp;an&nbsp;additional&nbsp;1d8&nbsp;points&nbsp;of&nbsp;damage&nbsp;per&nbsp;manifester&nbsp;level&nbsp;added&nbsp;
+      <p><strong>Normal: </strong>Your manifester level is equal to your total
+
+      levels in classes that manifest powers.
+
+      </p>
+
+      <p><br /></p>
+
+      <p>You have learned to push yourself harder to increase your manifesting
+      power.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong> Overchannel.
+
+      </p>
+
+      <p><strong>Benefit:</strong> You can increase your manifester level when
+      using Overchannel by half your tier (minimum 1), but doing so adds an
+      additional 1d8 points of damage per manifester level added 
 
       </p>
   disabled: false

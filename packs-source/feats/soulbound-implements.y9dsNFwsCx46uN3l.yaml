@@ -22,17 +22,33 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;form&nbsp;your&nbsp;mind&nbsp;blade&nbsp;with&nbsp;a&nbsp;touch&nbsp;of&nbsp;psychic&nbsp;power,&nbsp;warping&nbsp;its&nbsp;function&nbsp;to&nbsp;match&nbsp;your&nbsp;implement's.</em></p>
+      <p><em>You form your mind blade with a touch of psychic power, warping its
+      function to match your implement's.</em></p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Enhanced&nbsp;mind&nbsp;blade&nbsp;class&nbsp;feature,&nbsp;<a&nbsp;href="/wiki/Occultist"&nbsp;title="Occultist">occultist</a>&nbsp;level&nbsp;1st.
-
-      </p>
-
-      <p><strong>Benefit:</strong>&nbsp;Your&nbsp;occultist&nbsp;levels&nbsp;and&nbsp;your&nbsp;soulknife&nbsp;levels&nbsp;stack&nbsp;to&nbsp;determine&nbsp;the&nbsp;enhancement&nbsp;bonus&nbsp;granted&nbsp;by&nbsp;your&nbsp;enhanced&nbsp;mind&nbsp;blade&nbsp;class&nbsp;feature&nbsp;and&nbsp;the&nbsp;maximum&nbsp;enhancement&nbsp;bonus&nbsp;of&nbsp;your&nbsp;mind&nbsp;blade.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;channel&nbsp;your&nbsp;mind&nbsp;blade&nbsp;with&nbsp;the&nbsp;power&nbsp;of&nbsp;one&nbsp;of&nbsp;the&nbsp;implement&nbsp;on&nbsp;your&nbsp;person,&nbsp;reducing&nbsp;its&nbsp;enhancement&nbsp;bonus&nbsp;by&nbsp;+1&nbsp;to&nbsp;tie&nbsp;it&nbsp;to&nbsp;that&nbsp;implement's&nbsp;school.&nbsp;Once&nbsp;per&nbsp;round,&nbsp;when&nbsp;you&nbsp;hit&nbsp;an&nbsp;opponent&nbsp;with&nbsp;your&nbsp;mind&nbsp;blade,&nbsp;you&nbsp;can&nbsp;activate&nbsp;one&nbsp;of&nbsp;that&nbsp;implement's&nbsp;focus&nbsp;powers&nbsp;that&nbsp;is&nbsp;normally&nbsp;used&nbsp;as&nbsp;a&nbsp;standard&nbsp;action&nbsp;as&nbsp;a&nbsp;free&nbsp;action,&nbsp;paying&nbsp;1&nbsp;extra&nbsp;point&nbsp;of&nbsp;mental&nbsp;focus&nbsp;to&nbsp;do&nbsp;so.&nbsp;If&nbsp;the&nbsp;focus&nbsp;power&nbsp;is&nbsp;an&nbsp;effect&nbsp;that&nbsp;targets&nbsp;an&nbsp;opponent,&nbsp;it&nbsp;must&nbsp;target&nbsp;the&nbsp;opponent&nbsp;you&nbsp;hit.&nbsp;Your&nbsp;mind&nbsp;blade&nbsp;can&nbsp;be&nbsp;reduced&nbsp;to&nbsp;a&nbsp;+0&nbsp;enhancement&nbsp;bonus&nbsp;by&nbsp;this&nbsp;feat&nbsp;without&nbsp;needing&nbsp;to&nbsp;reshape&nbsp;it,&nbsp;and&nbsp;you&nbsp;can&nbsp;return&nbsp;it&nbsp;to&nbsp;its&nbsp;normal&nbsp;enhancement&nbsp;bonus&nbsp;(breaking&nbsp;its&nbsp;link&nbsp;with&nbsp;the&nbsp;implement)&nbsp;as&nbsp;a&nbsp;free&nbsp;action.
+      <p><strong>Prerequisites:</strong> Enhanced mind blade class feature, <a
+      href="/wiki/Occultist" title="Occultist">occultist</a> level 1st.
 
       </p>
 
-      <p><strong>Normal:</strong>&nbsp;If&nbsp;your&nbsp;mind&nbsp;blade&nbsp;is&nbsp;reduced&nbsp;to&nbsp;a&nbsp;+0&nbsp;enhancement&nbsp;bonus,&nbsp;you&nbsp;must&nbsp;reshape&nbsp;it&nbsp;to&nbsp;have&nbsp;a&nbsp;valid&nbsp;combination&nbsp;of&nbsp;enhancement&nbsp;bonus&nbsp;and&nbsp;weapon&nbsp;special&nbsp;abilities.
+      <p><strong>Benefit:</strong> Your occultist levels and your soulknife
+      levels stack to determine the enhancement bonus granted by your enhanced
+      mind blade class feature and the maximum enhancement bonus of your mind
+      blade. In addition, you can channel your mind blade with the power of one
+      of the implement on your person, reducing its enhancement bonus by +1 to
+      tie it to that implement's school. Once per round, when you hit an
+      opponent with your mind blade, you can activate one of that implement's
+      focus powers that is normally used as a standard action as a free action,
+      paying 1 extra point of mental focus to do so. If the focus power is an
+      effect that targets an opponent, it must target the opponent you hit. Your
+      mind blade can be reduced to a +0 enhancement bonus by this feat without
+      needing to reshape it, and you can return it to its normal enhancement
+      bonus (breaking its link with the implement) as a free action.
+
+      </p>
+
+      <p><strong>Normal:</strong> If your mind blade is reduced to a +0
+      enhancement bonus, you must reshape it to have a valid combination of
+      enhancement bonus and weapon special abilities.
 
       </p>
   disabled: false

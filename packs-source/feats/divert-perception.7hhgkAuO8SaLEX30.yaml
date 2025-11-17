@@ -22,21 +22,31 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;movement&nbsp;itself&nbsp;obscures&nbsp;your&nbsp;presence,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;hide&nbsp;more&nbsp;easily.</em></p>
+      <p><em>Your movement itself obscures your presence, allowing you to hide
+      more easily.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Stealth&nbsp;5&nbsp;ranks.
-
-      </p>
-
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;can&nbsp;move&nbsp;up&nbsp;to&nbsp;your&nbsp;speed&nbsp;and&nbsp;use&nbsp;Stealth&nbsp;at&nbsp;no&nbsp;penalty.&nbsp;You&nbsp;can&nbsp;use&nbsp;Stealth&nbsp;while&nbsp;running&nbsp;or&nbsp;charging&nbsp;with&nbsp;a&nbsp;–5&nbsp;penalty.
+      <p><strong>Prerequisite:</strong> Stealth 5 ranks.
 
       </p>
 
-      <p>In&nbsp;addition,&nbsp;whenever&nbsp;you&nbsp;take&nbsp;a&nbsp;move&nbsp;action&nbsp;to&nbsp;move&nbsp;while&nbsp;psionically&nbsp;focused,&nbsp;you&nbsp;can&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;in&nbsp;order&nbsp;to&nbsp;make&nbsp;a&nbsp;Stealth&nbsp;check&nbsp;to&nbsp;hide&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;movement,&nbsp;even&nbsp;if&nbsp;you&nbsp;do&nbsp;not&nbsp;have&nbsp;concealment&nbsp;or&nbsp;are&nbsp;observed.&nbsp;You&nbsp;remain&nbsp;hidden&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;next&nbsp;turn&nbsp;or&nbsp;until&nbsp;you&nbsp;break&nbsp;Stealth,&nbsp;whichever&nbsp;comes&nbsp;first.
+      <p><strong>Benefit:</strong> You can move up to your speed and use Stealth
+      at no penalty. You can use Stealth while running or charging with a –5
+      penalty.
 
       </p>
 
-      <p><strong>Normal:&nbsp;</strong>You&nbsp;can&nbsp;move&nbsp;up&nbsp;to&nbsp;half&nbsp;your&nbsp;normal&nbsp;speed&nbsp;and&nbsp;use&nbsp;Stealth&nbsp;at&nbsp;no&nbsp;penalty.&nbsp;When&nbsp;moving&nbsp;at&nbsp;a&nbsp;speed&nbsp;greater&nbsp;than&nbsp;half&nbsp;but&nbsp;less&nbsp;than&nbsp;your&nbsp;normal&nbsp;speed,&nbsp;you&nbsp;take&nbsp;a&nbsp;–5&nbsp;penalty.&nbsp;It’s&nbsp;impossible&nbsp;to&nbsp;use&nbsp;Stealth&nbsp;while&nbsp;attacking,&nbsp;running,&nbsp;or&nbsp;charging.
+      <p>In addition, whenever you take a move action to move while psionically
+      focused, you can expend your psionic focus in order to make a Stealth
+      check to hide at the end of the movement, even if you do not have
+      concealment or are observed. You remain hidden until the end of your next
+      turn or until you break Stealth, whichever comes first.
+
+      </p>
+
+      <p><strong>Normal: </strong>You can move up to half your normal speed and
+      use Stealth at no penalty. When moving at a speed greater than half but
+      less than your normal speed, you take a –5 penalty. It’s impossible to use
+      Stealth while attacking, running, or charging.
 
       </p>
   disabled: false

@@ -28,11 +28,19 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;force&nbsp;the&nbsp;target&nbsp;to&nbsp;delay&nbsp;their&nbsp;action&nbsp;until&nbsp;after&nbsp;the&nbsp;next&nbsp;creature&nbsp;in&nbsp;the&nbsp;initiative&nbsp;order&nbsp;takes&nbsp;their&nbsp;action&nbsp;unless&nbsp;the&nbsp;target&nbsp;makes&nbsp;a&nbsp;successful&nbsp;Will&nbsp;save.&nbsp;You&nbsp;must&nbsp;manifest&nbsp;this&nbsp;power&nbsp;before&nbsp;the&nbsp;results&nbsp;of&nbsp;the&nbsp;creature's&nbsp;actions&nbsp;are&nbsp;determined.&nbsp;This&nbsp;may&nbsp;result&nbsp;in&nbsp;the&nbsp;creature's&nbsp;action&nbsp;being&nbsp;invalid,&nbsp;such&nbsp;as&nbsp;attacking&nbsp;a&nbsp;target&nbsp;that&nbsp;has&nbsp;moved,&nbsp;in&nbsp;which&nbsp;case&nbsp;the&nbsp;action&nbsp;is&nbsp;wasted.&nbsp;If&nbsp;the&nbsp;target&nbsp;was&nbsp;manifesting&nbsp;a&nbsp;power&nbsp;or&nbsp;casting&nbsp;a&nbsp;spell,&nbsp;they&nbsp;do&nbsp;not&nbsp;need&nbsp;to&nbsp;make&nbsp;a&nbsp;concentration&nbsp;check.
+      <p>You force the target to delay their action until after the next
+      creature in the initiative order takes their action unless the target
+      makes a successful Will save. You must manifest this power before the
+      results of the creature's actions are determined. This may result in the
+      creature's action being invalid, such as attacking a target that has
+      moved, in which case the action is wasted. If the target was manifesting a
+      power or casting a spell, they do not need to make a concentration check.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;3&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;target's&nbsp;action&nbsp;is&nbsp;delayed&nbsp;until&nbsp;after&nbsp;an&nbsp;additional&nbsp;creature&nbsp;in&nbsp;the&nbsp;initiative&nbsp;order.
+      <p><strong>Augment:</strong> For every 3 additional power points you
+      spend, the target's action is delayed until after an additional creature
+      in the initiative order.
 
       </p>
   discipline: psychoportation

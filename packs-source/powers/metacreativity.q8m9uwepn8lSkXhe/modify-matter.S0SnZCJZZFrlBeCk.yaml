@@ -26,15 +26,22 @@ system:
         value: Up to 10 cu. ft./level; see power text
   description:
     value: >-
-      <p>You&nbsp;convert&nbsp;material&nbsp;of&nbsp;one&nbsp;sort&nbsp;into&nbsp;a&nbsp;product&nbsp;that&nbsp;is&nbsp;of&nbsp;the&nbsp;same&nbsp;material.&nbsp;Creatures&nbsp;or&nbsp;psionic&nbsp;items&nbsp;cannot&nbsp;be&nbsp;created&nbsp;or&nbsp;transmuted&nbsp;by&nbsp;this&nbsp;effect.&nbsp;The&nbsp;quality&nbsp;of&nbsp;items&nbsp;made&nbsp;by&nbsp;this&nbsp;power&nbsp;is&nbsp;commensurate&nbsp;with&nbsp;the&nbsp;quality&nbsp;of&nbsp;material&nbsp;used&nbsp;as&nbsp;the&nbsp;basis&nbsp;for&nbsp;the&nbsp;new&nbsp;fabrication.&nbsp;If&nbsp;you&nbsp;work&nbsp;with&nbsp;a&nbsp;mineral,&nbsp;the&nbsp;target&nbsp;is&nbsp;reduced&nbsp;to&nbsp;1&nbsp;cubic&nbsp;foot&nbsp;per&nbsp;level&nbsp;instead&nbsp;of&nbsp;10&nbsp;cubic&nbsp;feet.
+      <p>You convert material of one sort into a product that is of the same
+      material. Creatures or psionic items cannot be created or transmuted by
+      this effect. The quality of items made by this power is commensurate with
+      the quality of material used as the basis for the new fabrication. If you
+      work with a mineral, the target is reduced to 1 cubic foot per level
+      instead of 10 cubic feet.
 
       </p>
 
-      <p>You&nbsp;must&nbsp;make&nbsp;an&nbsp;appropriate&nbsp;Craft&nbsp;check&nbsp;to&nbsp;fabricate&nbsp;articles&nbsp;requiring&nbsp;a&nbsp;high&nbsp;degree&nbsp;of&nbsp;craftsmanship.
+      <p>You must make an appropriate Craft check to fabricate articles
+      requiring a high degree of craftsmanship.
 
       </p>
 
-      <p>Manifesting&nbsp;requires&nbsp;1&nbsp;round&nbsp;per&nbsp;10&nbsp;cubic&nbsp;feet&nbsp;of&nbsp;material&nbsp;to&nbsp;be&nbsp;affected&nbsp;by&nbsp;the&nbsp;power.&nbsp;This&nbsp;power&nbsp;may&nbsp;not&nbsp;be&nbsp;used&nbsp;on&nbsp;attended&nbsp;items.
+      <p>Manifesting requires 1 round per 10 cubic feet of material to be
+      affected by the power. This power may not be used on attended items.
 
       </p>
   discipline: metacreativity

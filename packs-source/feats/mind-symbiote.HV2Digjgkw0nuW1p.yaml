@@ -22,13 +22,19 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;draw&nbsp;on&nbsp;the&nbsp;members&nbsp;of&nbsp;your&nbsp;collective&nbsp;to&nbsp;gain&nbsp;nourishment&nbsp;and&nbsp;to&nbsp;grant&nbsp;yourself&nbsp;abilities.</em></p>
+      <p><em>You can draw on the members of your collective to gain nourishment
+      and to grant yourself abilities.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Collective&nbsp;class&nbsp;feature.
+      <p><strong>Prerequisite:</strong> Collective class feature.
 
       </p>
 
-      <p><strong>Benefit:&#160;</strong>As&nbsp;long&nbsp;as&nbsp;you&nbsp;have&nbsp;the&nbsp;maximum&nbsp;number&nbsp;of&nbsp;members&nbsp;in&nbsp;your&nbsp;collective&nbsp;for&nbsp;at&nbsp;least&nbsp;24&nbsp;hours,&nbsp;you&nbsp;do&nbsp;not&nbsp;need&nbsp;to&nbsp;eat&nbsp;or&nbsp;drink&nbsp;for&nbsp;as&nbsp;long&nbsp;as&nbsp;those&nbsp;members&nbsp;remain&nbsp;in&nbsp;the&nbsp;collective.&nbsp;In&nbsp;addition,&nbsp;up&nbsp;to&nbsp;3&nbsp;times&nbsp;per&nbsp;day,&nbsp;as&nbsp;a&nbsp;swift&nbsp;action,&nbsp;you&nbsp;can&nbsp;gain&nbsp;1&nbsp;temporary&nbsp;hit&nbsp;point&nbsp;per&nbsp;member&nbsp;of&nbsp;your&nbsp;collective.&nbsp;These&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;stack&nbsp;with&nbsp;themselves.
+      <p><strong>Benefit:&#160;</strong>As long as you have the maximum number
+      of members in your collective for at least 24 hours, you do not need to
+      eat or drink for as long as those members remain in the collective. In
+      addition, up to 3 times per day, as a swift action, you can gain 1
+      temporary hit point per member of your collective. These temporary hit
+      points stack with themselves.
 
       </p>
   disabled: false

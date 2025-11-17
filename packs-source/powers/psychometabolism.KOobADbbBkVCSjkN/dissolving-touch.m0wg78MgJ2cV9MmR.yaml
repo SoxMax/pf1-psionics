@@ -30,11 +30,16 @@ system:
         value: Creature or object touched
   description:
     value: >-
-      <p>Your&nbsp;touch,&nbsp;claw,&nbsp;or&nbsp;bite&nbsp;is&nbsp;corrosive,&nbsp;and&nbsp;sizzling&nbsp;moisture&nbsp;visibly&nbsp;oozes&nbsp;from&nbsp;your&nbsp;natural&nbsp;weapon&nbsp;or&nbsp;hand.&nbsp;You&nbsp;deal&nbsp;4d6&nbsp;points&nbsp;of&nbsp;acid&nbsp;damage&nbsp;to&nbsp;any&nbsp;creature&nbsp;or&nbsp;object&nbsp;you&nbsp;touch&nbsp;with&nbsp;your&nbsp;successful&nbsp;melee&nbsp;touch&nbsp;attack.&nbsp;Acid&nbsp;you&nbsp;secrete&nbsp;denatures&nbsp;1&nbsp;round&nbsp;after&nbsp;use,&nbsp;losing&nbsp;all&nbsp;efficacy&nbsp;and&nbsp;ability&nbsp;to&nbsp;deal&nbsp;damage.&nbsp;You&nbsp;are&nbsp;immune&nbsp;to&nbsp;your&nbsp;own&nbsp;acid.
+      <p>Your touch, claw, or bite is corrosive, and sizzling moisture visibly
+      oozes from your natural weapon or hand. You deal 4d6 points of acid damage
+      to any creature or object you touch with your successful melee touch
+      attack. Acid you secrete denatures 1 round after use, losing all efficacy
+      and ability to deal damage. You are immune to your own acid.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;damage&nbsp;increases&nbsp;by&nbsp;1d6&nbsp;points.
+      <p><strong>Augment:</strong> For every 2 additional power points you
+      spend, this power's damage increases by 1d6 points.
 
       </p>
   descriptors:

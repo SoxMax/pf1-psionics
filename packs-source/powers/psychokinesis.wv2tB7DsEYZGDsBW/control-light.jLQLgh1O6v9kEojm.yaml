@@ -28,15 +28,32 @@ system:
         value: Nine 10-ft. cubes + three 10-ft. cubes/level (S)
   description:
     value: >-
-      <p>By&nbsp;manipulating&nbsp;the&nbsp;ambient&nbsp;light&nbsp;level,&nbsp;you&nbsp;can&nbsp;decrease&nbsp;or&nbsp;increase&nbsp;the&nbsp;illumination&nbsp;of&nbsp;an&nbsp;area.&nbsp;The&nbsp;change&nbsp;in&nbsp;illumination&nbsp;can&nbsp;be&nbsp;gradual&nbsp;(taking&nbsp;as&nbsp;long&nbsp;as&nbsp;1&nbsp;minute)&nbsp;or&nbsp;sudden&nbsp;(occurring&nbsp;immediately&nbsp;when&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power).&nbsp;You&nbsp;can&nbsp;alter&nbsp;the&nbsp;level&nbsp;of&nbsp;illumination&nbsp;from&nbsp;its&nbsp;original&nbsp;level&nbsp;at&nbsp;any&nbsp;time&nbsp;during&nbsp;the&nbsp;power's&nbsp;duration.
+      <p>By manipulating the ambient light level, you can decrease or increase
+      the illumination of an area. The change in illumination can be gradual
+      (taking as long as 1 minute) or sudden (occurring immediately when you
+      manifest this power). You can alter the level of illumination from its
+      original level at any time during the power's duration.
 
-      </p><ul><li><em>Decrease:</em>&nbsp;You&nbsp;can&nbsp;decrease&nbsp;the&nbsp;light&nbsp;level&nbsp;of&nbsp;an&nbsp;area&nbsp;by&nbsp;one&nbsp;step&nbsp;(from&nbsp;bright&nbsp;light&nbsp;to&nbsp;normal&nbsp;light,&nbsp;from&nbsp;normal&nbsp;light&nbsp;to&nbsp;dim&nbsp;light,&nbsp;or&nbsp;from&nbsp;dim&nbsp;light&nbsp;to&nbsp;darkness.&nbsp;Creatures&nbsp;with&nbsp;darkvision&nbsp;can&nbsp;see&nbsp;in&nbsp;an&nbsp;area&nbsp;of&nbsp;dim&nbsp;light&nbsp;or&nbsp;darkness&nbsp;without&nbsp;penalty.&nbsp;You&nbsp;cannot&nbsp;create&nbsp;supernatural&nbsp;dark.</li></ul>
+      </p><ul><li><em>Decrease:</em> You can decrease the light level of an area
+      by one step (from bright light to normal light, from normal light to dim
+      light, or from dim light to darkness. Creatures with darkvision can see in
+      an area of dim light or darkness without penalty. You cannot create
+      supernatural dark.</li></ul>
 
-      <ul><li><em>Increase:</em>&nbsp;You&nbsp;can&nbsp;increase&nbsp;the&nbsp;light&nbsp;level&nbsp;of&nbsp;an&nbsp;area&nbsp;by&nbsp;one&nbsp;step&nbsp;(from&nbsp;darkness&nbsp;to&nbsp;dim&nbsp;light,&nbsp;from&nbsp;dim&nbsp;light&nbsp;to&nbsp;normal&nbsp;light,&nbsp;or&nbsp;from&nbsp;normal&nbsp;light&nbsp;to&nbsp;bright&nbsp;light).</li></ul>
+      <ul><li><em>Increase:</em> You can increase the light level of an area by
+      one step (from darkness to dim light, from dim light to normal light, or
+      from normal light to bright light).</li></ul>
 
-      <ul><li><em>Burst&nbsp;Increase:</em>&nbsp;You&nbsp;can&nbsp;use&nbsp;this&nbsp;power&nbsp;to&nbsp;increase&nbsp;the&nbsp;light&nbsp;level&nbsp;of&nbsp;an&nbsp;area&nbsp;by&nbsp;two&nbsp;steps&nbsp;(from&nbsp;darkness&nbsp;to&nbsp;normal&nbsp;light,&nbsp;or&nbsp;from&nbsp;dim&nbsp;light&nbsp;to&nbsp;bright&nbsp;light),&nbsp;but&nbsp;in&nbsp;such&nbsp;a&nbsp;case&nbsp;the&nbsp;power's&nbsp;duration&nbsp;is&nbsp;only&nbsp;1&nbsp;round.</li></ul>
+      <ul><li><em>Burst Increase:</em> You can use this power to increase the
+      light level of an area by two steps (from darkness to normal light, or
+      from dim light to bright light), but in such a case the power's duration
+      is only 1 round.</li></ul>
 
-      <p>This&nbsp;power&nbsp;cannot&nbsp;stack&nbsp;with&nbsp;itself,&nbsp;even&nbsp;when&nbsp;manifested&nbsp;by&nbsp;another&nbsp;psionic&nbsp;creature,&nbsp;if&nbsp;manifested&nbsp;into&nbsp;the&nbsp;same&nbsp;area.&nbsp;If&nbsp;multiple&nbsp;manifestations&nbsp;of&nbsp;the&nbsp;control&nbsp;light&nbsp;power&nbsp;overlaps&nbsp;in&nbsp;an&nbsp;area,&nbsp;the&nbsp;light&nbsp;level&nbsp;is&nbsp;decreased&nbsp;or&nbsp;increased&nbsp;by&nbsp;only&nbsp;one&nbsp;step&nbsp;(or&nbsp;two&nbsp;steps&nbsp;in&nbsp;case&nbsp;of&nbsp;the&nbsp;Burst&nbsp;Increase&nbsp;manifestation).
+      <p>This power cannot stack with itself, even when manifested by another
+      psionic creature, if manifested into the same area. If multiple
+      manifestations of the control light power overlaps in an area, the light
+      level is decreased or increased by only one step (or two steps in case of
+      the Burst Increase manifestation).
 
       </p>
   descriptors:

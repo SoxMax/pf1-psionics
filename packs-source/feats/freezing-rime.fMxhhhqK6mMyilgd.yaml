@@ -22,13 +22,15 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;cold&nbsp;powers&nbsp;further&nbsp;impair&nbsp;the&nbsp;target.</em></p>
+      <p><em>Your cold powers further impair the target.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Rime_Power"&nbsp;title="Rime&nbsp;Power">Rime&nbsp;Power</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Rime_Power" title="Rime
+      Power">Rime Power</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;using&nbsp;the&nbsp;Rime&nbsp;Power&nbsp;feat,&nbsp;any&nbsp;target&nbsp;that&nbsp;is&nbsp;entangled&nbsp;is&nbsp;also&nbsp;<em>slowed&nbsp;</em>while&nbsp;they&nbsp;are&nbsp;entangled.
+      <p><strong>Benefit: </strong>When using the Rime Power feat, any target
+      that is entangled is also <em>slowed </em>while they are entangled.
 
       </p>
   disabled: false

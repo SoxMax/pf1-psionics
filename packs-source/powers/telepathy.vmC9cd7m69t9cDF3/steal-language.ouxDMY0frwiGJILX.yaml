@@ -29,13 +29,22 @@ system:
         value: One creature with at least one language
   description:
     value: >-
-      <p>You&nbsp;rip&nbsp;knowledege&nbsp;of&nbsp;a&nbsp;language&nbsp;out&nbsp;of&nbsp;the&nbsp;mind&nbsp;of&nbsp;the&nbsp;target&nbsp;and&nbsp;implant&nbsp;it&nbsp;into&nbsp;your&nbsp;own&nbsp;mind.&nbsp;Unless&nbsp;the&nbsp;target&nbsp;succeeds&nbsp;on&nbsp;its&nbsp;saving&nbsp;throw,&nbsp;you&nbsp;add&nbsp;the&nbsp;language&nbsp;to&nbsp;your&nbsp;languages&nbsp;known&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;effect&nbsp;and&nbsp;your&nbsp;target&nbsp;loses&nbsp;access&nbsp;to&nbsp;this&nbsp;language&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;effect.
+      <p>You rip knowledege of a language out of the mind of the target and
+      implant it into your own mind. Unless the target succeeds on its saving
+      throw, you add the language to your languages known for the duration of
+      the effect and your target loses access to this language for the duration
+      of the effect.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power can be augmented in one or more of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;choose&nbsp;one&nbsp;more&nbsp;language&nbsp;that&nbsp;your&nbsp;target&nbsp;knows&nbsp;that&nbsp;it&nbsp;will&nbsp;lose&nbsp;and&nbsp;you&nbsp;will&nbsp;gain&nbsp;on&nbsp;a&nbsp;failed&nbsp;save.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;extends&nbsp;to&nbsp;1&nbsp;hour/level.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;extends&nbsp;to&nbsp;1&nbsp;day/level.</li></ol>
+      </p><ol><li>For every additional power point you spend, choose one more
+      language that your target knows that it will lose and you will gain on a
+      failed save.</li><li>If you spend 2 additional power points, the duration
+      extends to 1 hour/level.</li><li>If you spend 4 additional power points,
+      the duration extends to 1 day/level.</li></ol>
   discipline: telepathy
   display:
     auditory: true

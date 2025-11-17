@@ -63,7 +63,11 @@ system:
     umd: false
   description:
     value: >-
-      <p>Half-giants&nbsp;have&nbsp;an&nbsp;affinity&nbsp;for&nbsp;heat&nbsp;and&nbsp;fire.&nbsp;Half-giants&nbsp;with&nbsp;this&nbsp;trait&nbsp;gain&nbsp;a&nbsp;+1&nbsp;racial&nbsp;bonus&nbsp;to&nbsp;their&nbsp;manifester&nbsp;level&nbsp;on&nbsp;powers&nbsp;with&nbsp;the&nbsp;[fire]&nbsp;descriptor.&nbsp;This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;@UUID[Compendium.world.racial-traits.Item.aqg4hGzdKihwtmjy]{half-giant&nbsp;psionics}&nbsp;trait.</p>
+      <p>Half-giants have an affinity for heat and fire. Half-giants with this
+      trait gain a +1 racial bonus to their manifester level on powers with the
+      [fire] descriptor. This trait replaces the
+      @UUID[Compendium.world.racial-traits.Item.aqg4hGzdKihwtmjy]{half-giant
+      psionics} trait.</p>
   disabled: false
   inherited: false
   showInQuickbar: false

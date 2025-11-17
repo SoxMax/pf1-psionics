@@ -22,13 +22,18 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;innate&nbsp;connection&nbsp;to&nbsp;your&nbsp;psicrystal&nbsp;is&nbsp;more&nbsp;powerful&nbsp;than&nbsp;that&nbsp;of&nbsp;an&nbsp;ordinary&nbsp;manifester,&nbsp;thus&nbsp;it&nbsp;can&nbsp;take&nbsp;more&nbsp;damage&nbsp;before&nbsp;being&nbsp;destroyed.</em></p>
+      <p><em>Your innate connection to your psicrystal is more powerful than
+      that of an ordinary manifester, thus it can take more damage before being
+      destroyed.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Psicrystal_Affinity"&nbsp;title="Psicrystal&nbsp;Affinity">Psicrystal&nbsp;Affinity</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Psicrystal_Affinity"
+      title="Psicrystal Affinity">Psicrystal Affinity</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>Your&nbsp;psicrystal’s&nbsp;hit&nbsp;point&nbsp;total&nbsp;increases&nbsp;to&nbsp;be&nbsp;equal&nbsp;to&nbsp;your&nbsp;own,&nbsp;plus&nbsp;an&nbsp;additional&nbsp;2&nbsp;HP&nbsp;for&nbsp;each&nbsp;psionic&nbsp;feat&nbsp;you&nbsp;possess&nbsp;(including&nbsp;this&nbsp;one).
+      <p><strong>Benefit: </strong>Your psicrystal’s hit point total increases
+      to be equal to your own, plus an additional 2 HP for each psionic feat you
+      possess (including this one).
 
       </p>
   disabled: false

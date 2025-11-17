@@ -59,7 +59,21 @@ system:
     umd: false
   description:
     value: >-
-      <p><em>You&nbsp;have&nbsp;discovered&nbsp;your&nbsp;psionic&nbsp;ability,&nbsp;granting&nbsp;you&nbsp;limited&nbsp;manifesting&nbsp;ability.</em></p><p><strong>Prerequisite:&nbsp;</strong>@UUID[Compendium.pf1-psionics.feats.Item.dtygVowbi3UPpTDb]{Wild&nbsp;Talent}.</p><p><strong>Benefit:&nbsp;</strong>You&nbsp;gain&nbsp;2&nbsp;power&nbsp;points.&nbsp;In&nbsp;addition,&nbsp;when&nbsp;you&nbsp;take&nbsp;this&nbsp;feat,&nbsp;select&nbsp;any&nbsp;one&nbsp;1st&nbsp;level&nbsp;power.&nbsp;You&nbsp;treat&nbsp;this&nbsp;power&nbsp;as&nbsp;a&nbsp;power&nbsp;known&nbsp;and&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;with&nbsp;a&nbsp;manifester&nbsp;level&nbsp;of&nbsp;1&nbsp;as&nbsp;long&nbsp;as&nbsp;you&nbsp;have&nbsp;a&nbsp;Charisma&nbsp;score&nbsp;of&nbsp;at&nbsp;least&nbsp;11.&nbsp;Use&nbsp;your&nbsp;Charisma&nbsp;modifier&nbsp;to&nbsp;determine&nbsp;any&nbsp;applicable&nbsp;save&nbsp;DCs.&nbsp;If&nbsp;you&nbsp;have&nbsp;manifester&nbsp;levels&nbsp;from&nbsp;a&nbsp;psionic&nbsp;class,&nbsp;you&nbsp;may&nbsp;instead&nbsp;use&nbsp;the&nbsp;manifester&nbsp;level&nbsp;from&nbsp;that&nbsp;class&nbsp;when&nbsp;manifesting&nbsp;the&nbsp;power&nbsp;gained&nbsp;from&nbsp;this&nbsp;feat,&nbsp;as&nbsp;well&nbsp;as&nbsp;the&nbsp;appropriate&nbsp;key&nbsp;ability&nbsp;modifier.</p><p><strong>Special:&nbsp;</strong>The&nbsp;manifester&nbsp;level&nbsp;when&nbsp;manifesting&nbsp;the&nbsp;power&nbsp;granted&nbsp;from&nbsp;this&nbsp;feat&nbsp;is&nbsp;not&nbsp;a&nbsp;true&nbsp;manifester&nbsp;level&nbsp;and&nbsp;does&nbsp;not&nbsp;count&nbsp;as&nbsp;a&nbsp;manifester&nbsp;level&nbsp;for&nbsp;purposes&nbsp;such&nbsp;as&nbsp;bonus&nbsp;power&nbsp;points,&nbsp;feat,&nbsp;item&nbsp;creation,&nbsp;or&nbsp;prestige&nbsp;class&nbsp;prerequisites.</p>
+      <p><em>You have discovered your psionic ability, granting you limited
+      manifesting ability.</em></p><p><strong>Prerequisite:
+      </strong>@UUID[Compendium.pf1-psionics.feats.Item.dtygVowbi3UPpTDb]{Wild
+      Talent}.</p><p><strong>Benefit: </strong>You gain 2 power points. In
+      addition, when you take this feat, select any one 1st level power. You
+      treat this power as a power known and can manifest this power with a
+      manifester level of 1 as long as you have a Charisma score of at least 11.
+      Use your Charisma modifier to determine any applicable save DCs. If you
+      have manifester levels from a psionic class, you may instead use the
+      manifester level from that class when manifesting the power gained from
+      this feat, as well as the appropriate key ability
+      modifier.</p><p><strong>Special: </strong>The manifester level when
+      manifesting the power granted from this feat is not a true manifester
+      level and does not count as a manifester level for purposes such as bonus
+      power points, feat, item creation, or prestige class prerequisites.</p>
   disabled: false
   inherited: false
   showInCombat: false

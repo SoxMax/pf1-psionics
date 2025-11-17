@@ -28,13 +28,25 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;reach&nbsp;out&nbsp;with&nbsp;your&nbsp;mind&nbsp;and&nbsp;seize&nbsp;control&nbsp;of&nbsp;another&nbsp;creature’s&nbsp;body&nbsp;–&nbsp;either&nbsp;through&nbsp;manipulating&nbsp;their&nbsp;body,&nbsp;using&nbsp;direct&nbsp;force&nbsp;on&nbsp;their&nbsp;limbs,&nbsp;or&nbsp;by&nbsp;hijacking&nbsp;their&nbsp;mind.&nbsp;Regardless,&nbsp;if&nbsp;the&nbsp;target&nbsp;fails&nbsp;their&nbsp;save&nbsp;(Fortitude&nbsp;if&nbsp;this&nbsp;is&nbsp;a&nbsp;psychometabolism&nbsp;or&nbsp;psychokinesis&nbsp;power,&nbsp;Will&nbsp;if&nbsp;this&nbsp;is&nbsp;a&nbsp;telepathy&nbsp;power),&nbsp;you&nbsp;can&nbsp;have&nbsp;them&nbsp;do&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;actions&nbsp;immediately:
+      <p>You reach out with your mind and seize control of another creature’s
+      body – either through manipulating their body, using direct force on their
+      limbs, or by hijacking their mind. Regardless, if the target fails their
+      save (Fortitude if this is a psychometabolism or psychokinesis power, Will
+      if this is a telepathy power), you can have them do one of the following
+      actions immediately:
 
-      </p><ul><li>Move&nbsp;up&nbsp;to&nbsp;their&nbsp;speed&nbsp;(this&nbsp;movement&nbsp;provokes&nbsp;attacks&nbsp;of&nbsp;opportunity)</li><li>Make&nbsp;a&nbsp;single&nbsp;attack&nbsp;with&nbsp;a&nbsp;held&nbsp;weapon&nbsp;or&nbsp;a&nbsp;natural&nbsp;attack</li><li>Prohibit&nbsp;movement&nbsp;for&nbsp;one&nbsp;round</li><li>Prohibit&nbsp;attacks&nbsp;with&nbsp;one&nbsp;held&nbsp;weapon&nbsp;or&nbsp;one&nbsp;natural&nbsp;attack&nbsp;for&nbsp;one&nbsp;round</li></ul>
+      </p><ul><li>Move up to their speed (this movement provokes attacks of
+      opportunity)</li><li>Make a single attack with a held weapon or a natural
+      attack</li><li>Prohibit movement for one round</li><li>Prohibit attacks
+      with one held weapon or one natural attack for one round</li></ul>
 
-      <p><strong>Augment:&nbsp;</strong>This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment: </strong>This power may be augmented in one or more of
+      the following ways.
 
-      </p><ul><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;choose&nbsp;another&nbsp;target.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;range&nbsp;becomes&nbsp;Medium&nbsp;(100&nbsp;ft.&nbsp;+&nbsp;10ft./lvl).</li><li>For&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;spent&nbsp;on&nbsp;the&nbsp;above&nbsp;augments,&nbsp;increase&nbsp;the&nbsp;save&nbsp;DC&nbsp;by&nbsp;1.</li></ul>
+      </p><ul><li>For every 2 additional power points you spend, you can choose
+      another target.</li><li>If you spend 2 additional power points, the range
+      becomes Medium (100 ft. + 10ft./lvl).</li><li>For every 2 power points
+      spent on the above augments, increase the save DC by 1.</li></ul>
   descriptors:
     - mind-affecting
   discipline: psychokinesis

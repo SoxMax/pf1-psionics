@@ -22,15 +22,19 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;gain&nbsp;some&nbsp;control&nbsp;over&nbsp;the&nbsp;effects&nbsp;of&nbsp;your&nbsp;dazing&nbsp;powers.</em></p>
+      <p><em>You gain some control over the effects of your dazing
+      powers.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Dazing_Power"&nbsp;title="Dazing&nbsp;Power">Dazing&nbsp;Power</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Dazing_Power"
+      title="Dazing Power">Dazing Power</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;using&nbsp;the&nbsp;Dazing&nbsp;Power&nbsp;feat,&nbsp;you&nbsp;can&nbsp;choose&nbsp;to&nbsp;have&nbsp;it&nbsp;take&nbsp;effect&nbsp;only&nbsp;if&nbsp;the&nbsp;target&nbsp;succeeds&nbsp;on&nbsp;their&nbsp;initial&nbsp;save&nbsp;against&nbsp;the&nbsp;dazing&nbsp;power,&nbsp;instead&nbsp;of
+      <p><strong>Benefit: </strong>When using the Dazing Power feat, you can
+      choose to have it take effect only if the target succeeds on their initial
+      save against the dazing power, instead of
 
-      always&nbsp;taking&nbsp;effect.
+      always taking effect.
 
       </p>
   disabled: false

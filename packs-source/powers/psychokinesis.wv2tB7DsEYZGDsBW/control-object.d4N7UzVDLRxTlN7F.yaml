@@ -28,21 +28,37 @@ system:
         value: One unattended object weighing up to 100 lb.
   description:
     value: >-
-      <p>You&nbsp;telekinetically&nbsp;"bring&nbsp;to&nbsp;life"&nbsp;an&nbsp;inanimate&nbsp;object.&nbsp;Though&nbsp;it&nbsp;is&nbsp;not&nbsp;actually&nbsp;alive,&nbsp;the&nbsp;object&nbsp;moves&nbsp;under&nbsp;your&nbsp;control.&nbsp;Live&nbsp;vegetation&nbsp;cannot&nbsp;be&nbsp;controlled&nbsp;in&nbsp;this&nbsp;fashion,&nbsp;nor&nbsp;can&nbsp;already&nbsp;animated&nbsp;objects&nbsp;or&nbsp;undead.&nbsp;The&nbsp;controlled&nbsp;object&nbsp;moves&nbsp;like&nbsp;a&nbsp;puppet,&nbsp;with&nbsp;jerky&nbsp;and&nbsp;clumsy&nbsp;movements,&nbsp;at&nbsp;a&nbsp;speed&nbsp;of&nbsp;up&nbsp;to&nbsp;20&nbsp;feet.&nbsp;If&nbsp;its&nbsp;form&nbsp;is&nbsp;rigid,&nbsp;it&nbsp;makes&nbsp;creaking,&nbsp;groaning,&nbsp;or&nbsp;grating&nbsp;sounds&nbsp;as&nbsp;you&nbsp;control&nbsp;it.
+      <p>You telekinetically "bring to life" an inanimate object. Though it is
+      not actually alive, the object moves under your control. Live vegetation
+      cannot be controlled in this fashion, nor can already animated objects or
+      undead. The controlled object moves like a puppet, with jerky and clumsy
+      movements, at a speed of up to 20 feet. If its form is rigid, it makes
+      creaking, groaning, or grating sounds as you control it.
 
       </p>
 
-      <p>A&nbsp;controlled&nbsp;object&nbsp;can&nbsp;attack&nbsp;an&nbsp;opponent&nbsp;if&nbsp;you&nbsp;direct&nbsp;it&nbsp;to&nbsp;do&nbsp;so.&nbsp;It&nbsp;has&nbsp;one&nbsp;slam&nbsp;attack,&nbsp;at&nbsp;a&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;equal&nbsp;to&nbsp;your&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;plus&nbsp;your&nbsp;Intelligence&nbsp;modifier.&nbsp;If&nbsp;the&nbsp;attack&nbsp;hits,&nbsp;it&nbsp;deals&nbsp;points&nbsp;of&nbsp;damage&nbsp;equal&nbsp;to&nbsp;1d6&nbsp;plus&nbsp;your&nbsp;primary&nbsp;ability&nbsp;modifier.&nbsp;A&nbsp;controlled&nbsp;object&nbsp;has&nbsp;its&nbsp;usual&nbsp;hardness&nbsp;and&nbsp;hit&nbsp;points.
+      <p>A controlled object can attack an opponent if you direct it to do so.
+      It has one slam attack, at a base attack bonus equal to your base attack
+      bonus plus your Intelligence modifier. If the attack hits, it deals points
+      of damage equal to 1d6 plus your primary ability modifier. A controlled
+      object has its usual hardness and hit points.
 
       </p>
 
-      <p>You&nbsp;can&nbsp;use&nbsp;this&nbsp;power&nbsp;on&nbsp;a&nbsp;nonmagical&nbsp;lock,&nbsp;making&nbsp;it&nbsp;move&nbsp;in&nbsp;such&nbsp;a&nbsp;way&nbsp;as&nbsp;to&nbsp;attempt&nbsp;to&nbsp;unlock&nbsp;itself.&nbsp;If&nbsp;another&nbsp;character&nbsp;makes&nbsp;a&nbsp;Disable&nbsp;Device&nbsp;check&nbsp;to&nbsp;open&nbsp;a&nbsp;lock&nbsp;in&nbsp;the&nbsp;device&nbsp;that&nbsp;you&nbsp;are&nbsp;concentrating&nbsp;on&nbsp;controlling,&nbsp;the&nbsp;character&nbsp;gains&nbsp;a&nbsp;+4&nbsp;bonus&nbsp;on&nbsp;the&nbsp;check.
+      <p>You can use this power on a nonmagical lock, making it move in such a
+      way as to attempt to unlock itself. If another character makes a Disable
+      Device check to open a lock in the device that you are concentrating on
+      controlling, the character gains a +4 bonus on the check.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or both of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;control&nbsp;another&nbsp;object&nbsp;at&nbsp;the&nbsp;same&nbsp;time.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;weight&nbsp;of&nbsp;the&nbsp;object&nbsp;you&nbsp;can&nbsp;control&nbsp;increases&nbsp;by&nbsp;100&nbsp;lb.</li></ol>
+      </p><ol><li>For every 2 additional power points you spend, you can control
+      another object at the same time.</li><li>For every 2 additional power
+      points you spend, the weight of the object you can control increases by
+      100 lb.</li></ol>
   discipline: psychokinesis
   display:
     auditory: false

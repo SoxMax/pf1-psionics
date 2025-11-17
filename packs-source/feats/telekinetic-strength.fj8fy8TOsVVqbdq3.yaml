@@ -22,13 +22,19 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>When&nbsp;subjected&nbsp;to&nbsp;combat&nbsp;maneuvers,&nbsp;your&nbsp;telekinetic&nbsp;abilities&nbsp;augment&nbsp;your&nbsp;physical&nbsp;strength.</em></p>
+      <p><em>When subjected to combat maneuvers, your telekinetic abilities
+      augment your physical strength.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Natural_Telekinetic"&nbsp;title="Natural&nbsp;Telekinetic">Natural&nbsp;Telekinetic</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Natural_Telekinetic"
+      title="Natural Telekinetic">Natural Telekinetic</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;use&nbsp;your&nbsp;telekinesis&nbsp;to&nbsp;bolster&nbsp;yourself&nbsp;against&nbsp;certain&nbsp;combat&nbsp;maneuvers,&nbsp;giving&nbsp;you&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;to&nbsp;CMD&nbsp;against&nbsp;Bull&nbsp;Rush,&nbsp;Trip,&nbsp;Reposition&nbsp;and&nbsp;Pull&nbsp;combat&nbsp;maneuvers.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;to&nbsp;CMB&nbsp;when&nbsp;attempting&nbsp;to&nbsp;break&nbsp;out&nbsp;of&nbsp;a&nbsp;Grapple.
+      <p><strong>Benefit: </strong>You can use your telekinesis to bolster
+      yourself against certain combat maneuvers, giving you a +2 bonus to CMD
+      against Bull Rush, Trip, Reposition and Pull combat maneuvers. In
+      addition, you gain a +2 bonus to CMB when attempting to break out of a
+      Grapple.
 
       </p>
   disabled: false

@@ -22,31 +22,35 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>You&nbsp;are&nbsp;able&nbsp;to&nbsp;teleport&nbsp;more&nbsp;easily.
+      <p>You are able to teleport more easily.
 
       </p>
 
-      <p><strong>Prerequisite:&nbsp;</strong>Nomad’s&nbsp;Step&nbsp;class&nbsp;feature.
+      <p><strong>Prerequisite: </strong>Nomad’s Step class feature.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;may&nbsp;use&nbsp;Nomad’s&nbsp;Step&nbsp;as&nbsp;a&nbsp;move&nbsp;action,
+      <p><strong>Benefit: </strong>You may use Nomad’s Step as a move action,
 
-      instead&nbsp;of&nbsp;as&nbsp;a&nbsp;standard&nbsp;action.
-
-      </p>
-
-      <p><br&nbsp;/></p>
-
-      <p>You&nbsp;can&nbsp;rapidly&nbsp;alter&nbsp;your&nbsp;location.
+      instead of as a standard action.
 
       </p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Fast&nbsp;Step.
+      <p><br /></p>
+
+      <p>You can rapidly alter your location.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;can&nbsp;use&nbsp;the&nbsp;nomad’s&nbsp;step&nbsp;class&nbsp;feature&nbsp;as&nbsp;a&nbsp;swift&nbsp;action.&nbsp;Alternatively,&nbsp;you&nbsp;can&nbsp;spend&nbsp;one&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;to&nbsp;use&nbsp;nomad’s&nbsp;step&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;add&nbsp;your&nbsp;mythic&nbsp;tier&nbsp;to&nbsp;your&nbsp;psion&nbsp;class&nbsp;level&nbsp;when&nbsp;determining&nbsp;the&nbsp;distance&nbsp;you&nbsp;can&nbsp;travel&nbsp;while&nbsp;using&nbsp;nomad’s&nbsp;step.&nbsp;
+      <p><strong>Prerequisite:</strong> Fast Step.
+
+      </p>
+
+      <p><strong>Benefit:</strong> You can use the nomad’s step class feature as
+      a swift action. Alternatively, you can spend one use of mythic power to
+      use nomad’s step as an immediate action. In addition, you add your mythic
+      tier to your psion class level when determining the distance you can
+      travel while using nomad’s step. 
 
       </p>
   disabled: false

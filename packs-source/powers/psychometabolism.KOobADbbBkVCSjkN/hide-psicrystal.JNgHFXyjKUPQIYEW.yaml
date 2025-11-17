@@ -25,7 +25,12 @@ system:
         description: None
   description:
     value: >-
-      <p>You&nbsp;merge&nbsp;your&nbsp;biokinetic&nbsp;aura&nbsp;with&nbsp;that&nbsp;of&nbsp;your&nbsp;psicrystal,&nbsp;allowing&nbsp;your&nbsp;psicrystal&nbsp;to&nbsp;merge&nbsp;into&nbsp;your&nbsp;body.&nbsp;For&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;power,&nbsp;the&nbsp;psicrystal&nbsp;cannot&nbsp;be&nbsp;targeted&nbsp;in&nbsp;any&nbsp;way&nbsp;and&nbsp;cannot&nbsp;use&nbsp;any&nbsp;of&nbsp;its&nbsp;powers,&nbsp;but&nbsp;still&nbsp;gives&nbsp;you&nbsp;the&nbsp;benefits&nbsp;of&nbsp;having&nbsp;it&nbsp;close,&nbsp;such&nbsp;as&nbsp;Alertness.&nbsp;It&nbsp;cannot&nbsp;be&nbsp;detected&nbsp;in&nbsp;any&nbsp;way,&nbsp;but&nbsp;the&nbsp;effect&nbsp;can&nbsp;still&nbsp;be&nbsp;detected.&nbsp;The&nbsp;psicrystal&nbsp;can&nbsp;be&nbsp;discharged&nbsp;as&nbsp;a&nbsp;standard&nbsp;action.
+      <p>You merge your biokinetic aura with that of your psicrystal, allowing
+      your psicrystal to merge into your body. For the duration of the power,
+      the psicrystal cannot be targeted in any way and cannot use any of its
+      powers, but still gives you the benefits of having it close, such as
+      Alertness. It cannot be detected in any way, but the effect can still be
+      detected. The psicrystal can be discharged as a standard action.
 
       </p>
   discipline: psychometabolism

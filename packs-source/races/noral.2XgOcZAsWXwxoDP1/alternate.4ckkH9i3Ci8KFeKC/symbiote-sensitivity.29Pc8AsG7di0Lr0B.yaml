@@ -63,7 +63,12 @@ system:
     umd: false
   description:
     value: >-
-      <p>Some&nbsp;norals&nbsp;have&nbsp;an&nbsp;erliss&nbsp;that&nbsp;can&nbsp;grant&nbsp;the&nbsp;ability&nbsp;to&nbsp;detect&nbsp;nearby&nbsp;psionic&nbsp;activity.&nbsp;A&nbsp;noral&nbsp;with&nbsp;this&nbsp;trait&nbsp;gains&nbsp;<em><a&nbsp;href="/wiki/Detect_psionics"&nbsp;class="mw-redirect"&nbsp;title="Detect&nbsp;psionics">detect&nbsp;psionics</a></em>&nbsp;as&nbsp;a&nbsp;psi-like&nbsp;ability&nbsp;usable&nbsp;at&nbsp;will&nbsp;(manifester&nbsp;level&nbsp;is&nbsp;equal&nbsp;to&nbsp;the&nbsp;noral’s&nbsp;character&nbsp;level).&nbsp;This&nbsp;replaces&nbsp;noral&nbsp;psionics.</li></p>
+      <p>Some norals have an erliss that can grant the ability to detect nearby
+      psionic activity. A noral with this trait gains <em><a
+      href="/wiki/Detect_psionics" class="mw-redirect" title="Detect
+      psionics">detect psionics</a></em> as a psi-like ability usable at will
+      (manifester level is equal to the noral’s character level). This replaces
+      noral psionics.</li></p>
   disabled: false
   inherited: false
   showInQuickbar: false

@@ -63,7 +63,17 @@ system:
     umd: false
   description:
     value: >-
-      <p>Some&nbsp;erliss&nbsp;take&nbsp;a&nbsp;more&nbsp;passive&nbsp;role&nbsp;in&nbsp;protecting&nbsp;the&nbsp;noral,&nbsp;warning&nbsp;their&nbsp;host&nbsp;when&nbsp;subject&nbsp;to&nbsp;psychic&nbsp;attack.&nbsp;When&nbsp;the&nbsp;noral&nbsp;fails&nbsp;a&nbsp;Save&nbsp;against&nbsp;a&nbsp;mind-affecting&nbsp;effect,&nbsp;he&nbsp;may&nbsp;immediately&nbsp;roll&nbsp;a&nbsp;second&nbsp;Save;&nbsp;if&nbsp;the&nbsp;second&nbsp;Save&nbsp;is&nbsp;successful,&nbsp;he&nbsp;is&nbsp;still&nbsp;affected&nbsp;by&nbsp;the&nbsp;effect,&nbsp;but&nbsp;he&nbsp;is&nbsp;at&nbsp;least&nbsp;aware&nbsp;of&nbsp;a&nbsp;psychic&nbsp;attack&nbsp;and&nbsp;his&nbsp;failure&nbsp;to&nbsp;block&nbsp;it,&nbsp;even&nbsp;if&nbsp;he&nbsp;does&nbsp;not&nbsp;know&nbsp;the&nbsp;exact&nbsp;attack&nbsp;or&nbsp;its&nbsp;consequences&nbsp;(thus,&nbsp;he&nbsp;may&nbsp;take&nbsp;defensive&nbsp;precautions,&nbsp;such&nbsp;as&nbsp;manifesting&nbsp;dispel&nbsp;psionics&nbsp;on&nbsp;himself&nbsp;or&nbsp;casting&nbsp;protection&nbsp;from&nbsp;evil,&nbsp;if&nbsp;possible).&nbsp;Once&nbsp;per&nbsp;day,&nbsp;if&nbsp;the&nbsp;second&nbsp;save&nbsp;is&nbsp;successful&nbsp;the&nbsp;noral&nbsp;may&nbsp;choose&nbsp;to&nbsp;use&nbsp;that&nbsp;result&nbsp;in&nbsp;place&nbsp;of&nbsp;the&nbsp;first&nbsp;roll.&nbsp;This&nbsp;replaces&nbsp;symbiotic&nbsp;resistance&nbsp;and&nbsp;symbiotic&nbsp;surge.</li></p>
+      <p>Some erliss take a more passive role in protecting the noral, warning
+      their host when subject to psychic attack. When the noral fails a Save
+      against a mind-affecting effect, he may immediately roll a second Save; if
+      the second Save is successful, he is still affected by the effect, but he
+      is at least aware of a psychic attack and his failure to block it, even if
+      he does not know the exact attack or its consequences (thus, he may take
+      defensive precautions, such as manifesting dispel psionics on himself or
+      casting protection from evil, if possible). Once per day, if the second
+      save is successful the noral may choose to use that result in place of the
+      first roll. This replaces symbiotic resistance and symbiotic
+      surge.</li></p>
   disabled: false
   inherited: false
   showInQuickbar: false

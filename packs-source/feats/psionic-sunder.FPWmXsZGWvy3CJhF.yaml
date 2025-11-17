@@ -21,35 +21,21 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;can&nbsp;draw&nbsp;on&nbsp;your&nbsp;psionic&nbsp;power&nbsp;to&nbsp;boost&nbsp;the
-
-      power&nbsp;of&nbsp;a&nbsp;sunder&nbsp;attack.
-
+    value: |-
+      <p>You can draw on your psionic power to boost the
+      power of a sunder attack.
       </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Str&nbsp;13,&nbsp;Improved&nbsp;Sunder,&nbsp;Power&nbsp;Attack,
-
-      base&nbsp;attack&nbsp;bonus&nbsp;+1.
-
+      <p><strong>Prerequisites: </strong>Str 13, Improved Sunder, Power Attack,
+      base attack bonus +1.
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>While&nbsp;maintaining&nbsp;psionic&nbsp;focus,&nbsp;when&nbsp;you
-
-      successfully&nbsp;perform&nbsp;a&nbsp;sunder&nbsp;combat&nbsp;maneuver,&nbsp;you
-
-      also&nbsp;deal&nbsp;damage&nbsp;equal&nbsp;to&nbsp;half&nbsp;your&nbsp;level&nbsp;to&nbsp;the&nbsp;creature
-
-      holding&nbsp;the&nbsp;item&nbsp;sundered.
-
+      <p><strong>Benefit: </strong>While maintaining psionic focus, when you
+      successfully perform a sunder combat maneuver, you
+      also deal damage equal to half your level to the creature
+      holding the item sundered.
       </p>
-
-      <p>If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when&nbsp;you&nbsp;perform
-
-      a&nbsp;successful&nbsp;sunder&nbsp;maneuver,&nbsp;you&nbsp;ignore&nbsp;half&nbsp;the
-
-      hardness&nbsp;of&nbsp;the&nbsp;object&nbsp;you&nbsp;are&nbsp;sundering.
-
+      <p>If you expend your psionic focus when you perform
+      a successful sunder maneuver, you ignore half the
+      hardness of the object you are sundering.
       </p>
   disabled: false
   featType: feat

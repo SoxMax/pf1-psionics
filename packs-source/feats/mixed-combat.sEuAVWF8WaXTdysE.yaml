@@ -22,17 +22,26 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;are&nbsp;trained&nbsp;at&nbsp;using&nbsp;ranged&nbsp;and&nbsp;melee&nbsp;attacks&nbsp;at&nbsp;the&nbsp;same&nbsp;time.</em></p>
+      <p><em>You are trained at using ranged and melee attacks at the same
+      time.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Quick%20Draw">Quick&nbsp;Draw</a>,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+6.
+      <p><strong>Prerequisites:</strong><a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Quick%20Draw">Quick
+      Draw</a>, base attack bonus +6.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;can&nbsp;sheathe&nbsp;a&nbsp;weapon&nbsp;as&nbsp;a&nbsp;free&nbsp;action&nbsp;that&nbsp;does&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity,&nbsp;even&nbsp;if&nbsp;it&nbsp;isn't&nbsp;your&nbsp;turn.&nbsp;If&nbsp;you&nbsp;hit&nbsp;a&nbsp;creature&nbsp;with&nbsp;a&nbsp;melee&nbsp;attack,&nbsp;your&nbsp;attacks&nbsp;with&nbsp;ranged&nbsp;weapons&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;turn&nbsp;do&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;from&nbsp;that&nbsp;creature.
+      <p><strong>Benefit:</strong> You can sheathe a weapon as a free action
+      that does not provoke attacks of opportunity, even if it isn't your turn.
+      If you hit a creature with a melee attack, your attacks with ranged
+      weapons until the end of your turn do not provoke attacks of opportunity
+      from that creature.
 
       </p>
 
-      <p><strong>Normal:</strong>&nbsp;Sheathing&nbsp;a&nbsp;weapon&nbsp;is&nbsp;a&nbsp;move&nbsp;action&nbsp;that&nbsp;provokes&nbsp;attacks&nbsp;of&nbsp;opportunity.&nbsp;Ranged&nbsp;attacks&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity.
+      <p><strong>Normal:</strong> Sheathing a weapon is a move action that
+      provokes attacks of opportunity. Ranged attacks provoke attacks of
+      opportunity.
 
       </p>
   disabled: false

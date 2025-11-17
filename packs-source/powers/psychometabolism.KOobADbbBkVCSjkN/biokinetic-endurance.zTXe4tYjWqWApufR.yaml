@@ -28,17 +28,27 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;alter&nbsp;your&nbsp;body's&nbsp;rhythms,&nbsp;defending&nbsp;yourself&nbsp;against&nbsp;crippling&nbsp;attacks&nbsp;and&nbsp;turning&nbsp;your&nbsp;skin&nbsp;(as&nbsp;well&nbsp;as&nbsp;fur,&nbsp;feathers,&nbsp;or&nbsp;scales)&nbsp;a&nbsp;pale&nbsp;gray&nbsp;color.&nbsp;Whenever&nbsp;damage&nbsp;would&nbsp;be&nbsp;dealt&nbsp;to&nbsp;one&nbsp;of&nbsp;your&nbsp;physical&nbsp;ability&nbsp;scores&nbsp;by&nbsp;a&nbsp;source&nbsp;other&nbsp;than&nbsp;you,&nbsp;reduce&nbsp;that&nbsp;damage&nbsp;by&nbsp;2&nbsp;points,&nbsp;to&nbsp;a&nbsp;minimum&nbsp;of&nbsp;0.&nbsp;Once&nbsp;this&nbsp;power&nbsp;as&nbsp;prevented&nbsp;an&nbsp;amount&nbsp;of&nbsp;ability&nbsp;damage&nbsp;equal&nbsp;to&nbsp;your&nbsp;manifester&nbsp;level,&nbsp;it&nbsp;ends&nbsp;immediately.
+      <p>You alter your body's rhythms, defending yourself against crippling
+      attacks and turning your skin (as well as fur, feathers, or scales) a pale
+      gray color. Whenever damage would be dealt to one of your physical ability
+      scores by a source other than you, reduce that damage by 2 points, to a
+      minimum of 0. Once this power as prevented an amount of ability damage
+      equal to your manifester level, it ends immediately.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;ability&nbsp;damage&nbsp;reduced&nbsp;by&nbsp;this&nbsp;power,&nbsp;as&nbsp;well&nbsp;as&nbsp;the&nbsp;maximum&nbsp;amount&nbsp;of&nbsp;damage&nbsp;that&nbsp;can&nbsp;be&nbsp;prevented,&nbsp;increases&nbsp;by&nbsp;1&nbsp;point.
+      <p><strong>Augment:</strong> For every 2 additional power points you
+      spend, the ability damage reduced by this power, as well as the maximum
+      amount of damage that can be prevented, increases by 1 point.
 
       </p>
 
-      <p><strong>Surge&nbsp;Augmentation:</strong>&nbsp;If&nbsp;you&nbsp;invoke&nbsp;your&nbsp;wild&nbsp;surge&nbsp;while&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;choose&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;augmentations:&nbsp;
+      <p><strong>Surge Augmentation:</strong> If you invoke your wild surge
+      while manifesting this power, choose one of the following augmentations: 
 
-      </p><ol><li>The&nbsp;power's&nbsp;range&nbsp;changes&nbsp;to&nbsp;close&nbsp;(25&nbsp;ft.&nbsp;plus&nbsp;5&nbsp;ft.&nbsp;per&nbsp;2&nbsp;levels)&nbsp;and&nbsp;its&nbsp;target&nbsp;changes&nbsp;to&nbsp;'one&nbsp;creature.'</li><li>.&nbsp;You&nbsp;gain&nbsp;DR&nbsp;X/—,&nbsp;where&nbsp;X&nbsp;is&nbsp;equal&nbsp;to&nbsp;your&nbsp;wild&nbsp;surge's&nbsp;intensity.</li></ol>
+      </p><ol><li>The power's range changes to close (25 ft. plus 5 ft. per 2
+      levels) and its target changes to 'one creature.'</li><li>. You gain DR
+      X/—, where X is equal to your wild surge's intensity.</li></ol>
   discipline: psychometabolism
   display:
     auditory: false

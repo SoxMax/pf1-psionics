@@ -65,7 +65,10 @@ system:
       text: +1 bonus with goblins
   description:
     value: >-
-      <p>The&nbsp;appearance&nbsp;of&nbsp;the&nbsp;blue&nbsp;can&nbsp;affect&nbsp;the&nbsp;reactions&nbsp;of&nbsp;those&nbsp;nearby.&nbsp;A&nbsp;blue&nbsp;takes&nbsp;a&nbsp;-1&nbsp;penalty&nbsp;to&nbsp;Charisma-based&nbsp;skill&nbsp;checks&nbsp;when&nbsp;dealing&nbsp;with&nbsp;non-goblinoid&nbsp;humanoids,&nbsp;but&nbsp;gains&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;to&nbsp;Charisma-based&nbsp;skill&nbsp;checks&nbsp;while&nbsp;interacting&nbsp;with&nbsp;goblins.</p>
+      <p>The appearance of the blue can affect the reactions of those nearby. A
+      blue takes a -1 penalty to Charisma-based skill checks when dealing with
+      non-goblinoid humanoids, but gains a +1 bonus to Charisma-based skill
+      checks while interacting with goblins.</p>
   disabled: false
   inherited: false
   showInCombat: false

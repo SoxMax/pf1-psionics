@@ -31,15 +31,25 @@ system:
         value: One creature
   description:
     value: >-
-      <p>Until&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;turn,&nbsp;the&nbsp;next&nbsp;successful&nbsp;melee&nbsp;attack&nbsp;you&nbsp;make&nbsp;deals&nbsp;an&nbsp;additional&nbsp;+1d4&nbsp;points&nbsp;of&nbsp;damage&nbsp;and&nbsp;temporarily&nbsp;attunes&nbsp;you&nbsp;to&nbsp;the&nbsp;creature&nbsp;struck.&nbsp;A&nbsp;creature&nbsp;with&nbsp;power&nbsp;resistance&nbsp;may&nbsp;attempt&nbsp;to&nbsp;block&nbsp;you&nbsp;attuning&nbsp;to&nbsp;it,&nbsp;but&nbsp;power&nbsp;resistance&nbsp;does&nbsp;not&nbsp;affect&nbsp;the&nbsp;additional&nbsp;damage&nbsp;to&nbsp;your&nbsp;attack.
+      <p>Until the end of your turn, the next successful melee attack you make
+      deals an additional +1d4 points of damage and temporarily attunes you to
+      the creature struck. A creature with power resistance may attempt to block
+      you attuning to it, but power resistance does not affect the additional
+      damage to your attack.
 
       </p>
 
-      <p><strong>Trigger:</strong>&nbsp;If&nbsp;the&nbsp;target&nbsp;is&nbsp;not&nbsp;adjacent&nbsp;to&nbsp;you&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;its&nbsp;next&nbsp;turn,&nbsp;you&nbsp;can&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;a&nbsp;free&nbsp;action&nbsp;to&nbsp;teleport&nbsp;adjacent&nbsp;to&nbsp;it,&nbsp;as&nbsp;long&nbsp;as&nbsp;it&nbsp;is&nbsp;within&nbsp;Close&nbsp;range&nbsp;(25&nbsp;ft.&nbsp;+&nbsp;5&nbsp;ft./2&nbsp;levels).
+      <p><strong>Trigger:</strong> If the target is not adjacent to you at the
+      end of its next turn, you can expend your psionic focus as a free action
+      to teleport adjacent to it, as long as it is within Close range (25 ft. +
+      5 ft./2 levels).
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;instead&nbsp;manifest&nbsp;this&nbsp;power&nbsp;upon&nbsp;making&nbsp;a&nbsp;successful&nbsp;melee&nbsp;attack&nbsp;and&nbsp;have&nbsp;the&nbsp;effects&nbsp;of&nbsp;this&nbsp;power&nbsp;instead&nbsp;apply&nbsp;to&nbsp;that&nbsp;attack.&nbsp;Doing&nbsp;so&nbsp;still&nbsp;uses&nbsp;your&nbsp;swift&nbsp;action&nbsp;for&nbsp;the&nbsp;round.
+      <p><strong>Augment:</strong> If you spend 6 additional power points, you
+      can instead manifest this power upon making a successful melee attack and
+      have the effects of this power instead apply to that attack. Doing so
+      still uses your swift action for the round.
 
       </p>
   descriptors:

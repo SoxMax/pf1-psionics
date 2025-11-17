@@ -64,7 +64,11 @@ system:
     umd: false
   description:
     value: >-
-      <p>Norals&nbsp;gain&nbsp;the&nbsp;following&nbsp;psi-like&nbsp;ability:&nbsp;1/day—<em><a&nbsp;href="/wiki/Mind_thrust"&nbsp;class="mw-redirect"&nbsp;title="Mind&nbsp;thrust">mind&nbsp;thrust</a></em>.&nbsp;The&nbsp;manifester&nbsp;level&nbsp;for&nbsp;this&nbsp;effect&nbsp;is&nbsp;equal&nbsp;to&nbsp;1/2&nbsp;the&nbsp;noral’s&nbsp;level&nbsp;(minimum&nbsp;1st).&nbsp;The&nbsp;DC&nbsp;for&nbsp;this&nbsp;power&nbsp;is&nbsp;equal&nbsp;to&nbsp;10&nbsp;+&nbsp;the&nbsp;power’s&nbsp;level&nbsp;+&nbsp;the&nbsp;noral’s&nbsp;Charisma&nbsp;modifier.</li></p>
+      <p>Norals gain the following psi-like ability: 1/day—<em><a
+      href="/wiki/Mind_thrust" class="mw-redirect" title="Mind thrust">mind
+      thrust</a></em>. The manifester level for this effect is equal to 1/2 the
+      noral’s level (minimum 1st). The DC for this power is equal to 10 + the
+      power’s level + the noral’s Charisma modifier.</li></p>
   subType: racial
   traitCategory: magical
 type: feat

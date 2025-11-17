@@ -22,7 +22,10 @@ system:
         value: Weapon touched
   description:
     value: >-
-      <p>As&nbsp;<em><a&nbsp;href="/wiki/Truevenom"&nbsp;title="Truevenom">truevenom</a></em>,&nbsp;except&nbsp;your&nbsp;weapon&nbsp;gains&nbsp;the&nbsp;poison&nbsp;coating&nbsp;as&nbsp;long&nbsp;as&nbsp;it&nbsp;remains&nbsp;in&nbsp;your&nbsp;grip,&nbsp;until&nbsp;the&nbsp;effect&nbsp;is&nbsp;discharged,&nbsp;or&nbsp;until&nbsp;the&nbsp;duration&nbsp;expires,&nbsp;whichever&nbsp;occurs&nbsp;first.
+      <p>As <em><a href="/wiki/Truevenom" title="Truevenom">truevenom</a></em>,
+      except your weapon gains the poison coating as long as it remains in your
+      grip, until the effect is discharged, or until the duration expires,
+      whichever occurs first.
 
       </p>
   discipline: psychometabolism

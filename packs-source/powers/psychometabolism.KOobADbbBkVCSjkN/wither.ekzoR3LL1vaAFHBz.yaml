@@ -28,11 +28,14 @@ system:
         value: Creature touched
   description:
     value: >-
-      <p>Your&nbsp;touch&nbsp;disrupts&nbsp;the&nbsp;target's&nbsp;physical&nbsp;form,&nbsp;draining&nbsp;the&nbsp;strength&nbsp;from&nbsp;its&nbsp;muscles.&nbsp;The&nbsp;creature&nbsp;suffers&nbsp;2d4&nbsp;points&nbsp;of&nbsp;Strength&nbsp;damage.&nbsp;A&nbsp;successful&nbsp;Fortitude&nbsp;save&nbsp;halves&nbsp;the&nbsp;Strength&nbsp;damage&nbsp;taken.
+      <p>Your touch disrupts the target's physical form, draining the strength
+      from its muscles. The creature suffers 2d4 points of Strength damage. A
+      successful Fortitude save halves the Strength damage taken.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;each&nbsp;additional&nbsp;4&nbsp;power&nbsp;points&nbsp;spent,&nbsp;this&nbsp;power&nbsp;causes&nbsp;an&nbsp;additional&nbsp;1d4&nbsp;points&nbsp;of&nbsp;Strength&nbsp;damage.
+      <p><strong>Augment:</strong> For each additional 4 power points spent,
+      this power causes an additional 1d4 points of Strength damage.
 
       </p>
   discipline: psychometabolism

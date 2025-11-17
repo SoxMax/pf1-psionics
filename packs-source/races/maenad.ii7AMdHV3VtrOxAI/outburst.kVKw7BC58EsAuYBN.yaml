@@ -64,7 +64,11 @@ system:
     umd: false
   description:
     value: >-
-      <p>Maenads&nbsp;can&nbsp;dampen&nbsp;their&nbsp;mental&nbsp;processes&nbsp;for&nbsp;an&nbsp;increase&nbsp;in&nbsp;raw&nbsp;power&nbsp;called&nbsp;an&nbsp;outburst.&nbsp;As&nbsp;a&nbsp;result,&nbsp;they&nbsp;take&nbsp;a&nbsp;-2&nbsp;penalty&nbsp;to&nbsp;Intelligence&nbsp;and&nbsp;Wisdom&nbsp;but&nbsp;gain&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;to&nbsp;Strength.&nbsp;The&nbsp;character&nbsp;must&nbsp;spend&nbsp;one&nbsp;power&nbsp;point&nbsp;at&nbsp;the&nbsp;beginning&nbsp;of&nbsp;each&nbsp;round&nbsp;during&nbsp;an&nbsp;outburst&nbsp;and&nbsp;may&nbsp;stop&nbsp;an&nbsp;outburst&nbsp;at&nbsp;any&nbsp;time.</li></p>
+      <p>Maenads can dampen their mental processes for an increase in raw power
+      called an outburst. As a result, they take a -2 penalty to Intelligence
+      and Wisdom but gain a +2 bonus to Strength. The character must spend one
+      power point at the beginning of each round during an outburst and may stop
+      an outburst at any time.</li></p>
   subType: racial
   traitCategory: magical
 type: feat

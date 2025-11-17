@@ -28,11 +28,16 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;create&nbsp;an&nbsp;invisible&nbsp;mobile&nbsp;disk&nbsp;of&nbsp;force&nbsp;that&nbsp;hovers&nbsp;in&nbsp;front&nbsp;of&nbsp;you.&nbsp;The&nbsp;force&nbsp;screen&nbsp;provides&nbsp;a&nbsp;+4&nbsp;shield&nbsp;bonus&nbsp;to&nbsp;Armor&nbsp;Class&nbsp;(which&nbsp;applies&nbsp;against&nbsp;incorporeal&nbsp;touch&nbsp;attacks,&nbsp;since&nbsp;the&nbsp;force&nbsp;screen&nbsp;is&nbsp;a&nbsp;force&nbsp;effect).&nbsp;Since&nbsp;it&nbsp;hovers&nbsp;in&nbsp;front&nbsp;of&nbsp;you,&nbsp;the&nbsp;effect&nbsp;has&nbsp;no&nbsp;armor&nbsp;check&nbsp;penalty&nbsp;associated&nbsp;with&nbsp;it.
+      <p>You create an invisible mobile disk of force that hovers in front of
+      you. The force screen provides a +4 shield bonus to Armor Class (which
+      applies against incorporeal touch attacks, since the force screen is a
+      force effect). Since it hovers in front of you, the effect has no armor
+      check penalty associated with it.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;shield&nbsp;bonus&nbsp;to&nbsp;Armor&nbsp;Class&nbsp;improves&nbsp;by&nbsp;1.
+      <p><strong>Augment:</strong> For every 4 additional power points you
+      spend, the shield bonus to Armor Class improves by 1.
 
       </p>
   descriptors:

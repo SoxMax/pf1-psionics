@@ -29,13 +29,26 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;empathically&nbsp;share&nbsp;your&nbsp;pain&nbsp;and&nbsp;suffering&nbsp;with&nbsp;your&nbsp;attacker.&nbsp;Each&nbsp;time&nbsp;a&nbsp;creature&nbsp;strikes&nbsp;you&nbsp;in&nbsp;melee,&nbsp;it&nbsp;takes&nbsp;damage&nbsp;equal&nbsp;to&nbsp;one&nbsp;quarter&nbsp;the&nbsp;amount&nbsp;it&nbsp;dealt&nbsp;to&nbsp;you&nbsp;(rounded&nbsp;down,&nbsp;minimum&nbsp;1)&nbsp;unless&nbsp;it&nbsp;succeeds&nbsp;on&nbsp;a&nbsp;Will&nbsp;save.&nbsp;This&nbsp;damage&nbsp;is&nbsp;empathic&nbsp;in&nbsp;nature,&nbsp;so&nbsp;powers&nbsp;and&nbsp;abilities&nbsp;the&nbsp;attacker&nbsp;may&nbsp;have&nbsp;such&nbsp;as&nbsp;damage&nbsp;reduction&nbsp;and&nbsp;regeneration&nbsp;do&nbsp;not&nbsp;lessen&nbsp;or&nbsp;change&nbsp;this&nbsp;damage.&nbsp;The&nbsp;damage&nbsp;from&nbsp;empathic&nbsp;feedback&nbsp;has&nbsp;no&nbsp;type,&nbsp;so&nbsp;even&nbsp;if&nbsp;you&nbsp;took&nbsp;fire&nbsp;damage&nbsp;from&nbsp;a&nbsp;creature&nbsp;that&nbsp;has&nbsp;immunity&nbsp;to&nbsp;fire,&nbsp;empathic&nbsp;feedback&nbsp;will&nbsp;damage&nbsp;your&nbsp;attacker.&nbsp;The&nbsp;damage&nbsp;from&nbsp;empathic&nbsp;feedback&nbsp;is&nbsp;a&nbsp;mind-affecting&nbsp;effect,&nbsp;a&nbsp;successful&nbsp;Will&nbsp;save&nbsp;negates&nbsp;this&nbsp;damage,&nbsp;and&nbsp;the&nbsp;damage&nbsp;is&nbsp;subject&nbsp;to&nbsp;power&nbsp;resistance.
+      <p>You empathically share your pain and suffering with your attacker. Each
+      time a creature strikes you in melee, it takes damage equal to one quarter
+      the amount it dealt to you (rounded down, minimum 1) unless it succeeds on
+      a Will save. This damage is empathic in nature, so powers and abilities
+      the attacker may have such as damage reduction and regeneration do not
+      lessen or change this damage. The damage from empathic feedback has no
+      type, so even if you took fire damage from a creature that has immunity to
+      fire, empathic feedback will damage your attacker. The damage from
+      empathic feedback is a mind-affecting effect, a successful Will save
+      negates this damage, and the damage is subject to power resistance.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power may be augmented in one of the
+      following ways.
 
-      </p><ol><li>By&nbsp;spending&nbsp;3&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;damage&nbsp;suffered&nbsp;by&nbsp;your&nbsp;attacker&nbsp;increases&nbsp;to&nbsp;one&nbsp;half&nbsp;the&nbsp;damage&nbsp;dealt&nbsp;to&nbsp;you.</li><li>By&nbsp;spending&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;damage&nbsp;suffered&nbsp;by&nbsp;your&nbsp;attacker&nbsp;is&nbsp;equal&nbsp;to&nbsp;the&nbsp;damage&nbsp;dealt&nbsp;to&nbsp;you.</li></ol>
+      </p><ol><li>By spending 3 additional power points, the damage suffered by
+      your attacker increases to one half the damage dealt to you.</li><li>By
+      spending 6 additional power points, the damage suffered by your attacker
+      is equal to the damage dealt to you.</li></ol>
   descriptors:
     - mind-affecting
   discipline: telepathy

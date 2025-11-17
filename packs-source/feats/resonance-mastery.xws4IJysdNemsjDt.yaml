@@ -21,63 +21,35 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>Through&nbsp;practiced&nbsp;effort,&nbsp;you&nbsp;have&nbsp;mastered&nbsp;the&nbsp;art&nbsp;of
-
-      resonating&nbsp;powers&nbsp;through&nbsp;your&nbsp;psicrystal.
-
+    value: |-
+      <p>Through practiced effort, you have mastered the art of
+      resonating powers through your psicrystal.
       </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Psicrystal&nbsp;imprinter&nbsp;5th,&nbsp;any
-
-      metapsionic&nbsp;feat.
-
+      <p><strong>Prerequisites: </strong>Psicrystal imprinter 5th, any
+      metapsionic feat.
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;use&nbsp;the&nbsp;psicrystal&nbsp;resonance&nbsp;class
-
-      feature,&nbsp;choose&nbsp;any&nbsp;single&nbsp;metapsionic&nbsp;feat&nbsp;that&nbsp;you
-
-      posses&nbsp;that&nbsp;increases&nbsp;the&nbsp;power&nbsp;point&nbsp;cost&nbsp;of&nbsp;a&nbsp;power
-
-      by&nbsp;your&nbsp;psicrystal&nbsp;imprinter&nbsp;level&nbsp;minus&nbsp;3&nbsp;or&nbsp;less.&nbsp;Feats
-
-      which&nbsp;reduce&nbsp;manifesting&nbsp;time,&nbsp;such&nbsp;as&nbsp;Hustle&nbsp;PowerPE
-
-      or&nbsp;Quicken&nbsp;Power,&nbsp;may&nbsp;not&nbsp;be&nbsp;chosen.&nbsp;Instead&nbsp;of&nbsp;gaining
-
-      one&nbsp;of&nbsp;the&nbsp;normal&nbsp;benefits&nbsp;of&nbsp;psicrystal&nbsp;resonance,
-
-      you&nbsp;may&nbsp;choose&nbsp;to&nbsp;instead&nbsp;apply&nbsp;the&nbsp;effects&nbsp;of&nbsp;that
-
-      metapsionic&nbsp;feat&nbsp;to&nbsp;the&nbsp;power&nbsp;being&nbsp;manifested.
-
+      <p><strong>Benefit: </strong>When you use the psicrystal resonance class
+      feature, choose any single metapsionic feat that you
+      posses that increases the power point cost of a power
+      by your psicrystal imprinter level minus 3 or less. Feats
+      which reduce manifesting time, such as Hustle PowerPE
+      or Quicken Power, may not be chosen. Instead of gaining
+      one of the normal benefits of psicrystal resonance,
+      you may choose to instead apply the effects of that
+      metapsionic feat to the power being manifested.
       </p>
-
-      <p>The&nbsp;power&nbsp;is&nbsp;treated&nbsp;as&nbsp;if&nbsp;manifested&nbsp;with&nbsp;the
-
-      selected&nbsp;metapsionic&nbsp;feat,&nbsp;but&nbsp;the&nbsp;power&nbsp;point&nbsp;cost&nbsp;is&nbsp;not
-
-      increased&nbsp;nor&nbsp;are&nbsp;you&nbsp;required&nbsp;to&nbsp;expend&nbsp;your&nbsp;psionic
-
-      focus.&nbsp;Instead,&nbsp;the&nbsp;manifestation&nbsp;time&nbsp;is&nbsp;increased.&nbsp;If
-
-      the&nbsp;power&nbsp;has&nbsp;a&nbsp;manifestation&nbsp;time&nbsp;of&nbsp;less&nbsp;than&nbsp;one
-
-      round,&nbsp;increase&nbsp;the&nbsp;manifesting&nbsp;time&nbsp;to&nbsp;one&nbsp;full&nbsp;round;
-
-      otherwise,&nbsp;increase&nbsp;the&nbsp;manifesting&nbsp;time&nbsp;by&nbsp;one&nbsp;full
-
-      round.&nbsp;If&nbsp;the&nbsp;metapsionic&nbsp;feat&nbsp;would&nbsp;normally&nbsp;increase
-
-      the&nbsp;power&nbsp;point&nbsp;cost&nbsp;of&nbsp;the&nbsp;power&nbsp;by&nbsp;more&nbsp;than&nbsp;2&nbsp;power
-
-      points,&nbsp;add&nbsp;one&nbsp;round&nbsp;to&nbsp;the&nbsp;manifesting&nbsp;time&nbsp;for&nbsp;every
-
-      2&nbsp;power&nbsp;points&nbsp;that&nbsp;the&nbsp;metapsionic&nbsp;feat&nbsp;would&nbsp;have
-
-      increased&nbsp;the&nbsp;power&nbsp;cost&nbsp;beyond&nbsp;the&nbsp;first&nbsp;2.
-
+      <p>The power is treated as if manifested with the
+      selected metapsionic feat, but the power point cost is not
+      increased nor are you required to expend your psionic
+      focus. Instead, the manifestation time is increased. If
+      the power has a manifestation time of less than one
+      round, increase the manifesting time to one full round;
+      otherwise, increase the manifesting time by one full
+      round. If the metapsionic feat would normally increase
+      the power point cost of the power by more than 2 power
+      points, add one round to the manifesting time for every
+      2 power points that the metapsionic feat would have
+      increased the power cost beyond the first 2.
       </p>
   disabled: false
   featType: feat

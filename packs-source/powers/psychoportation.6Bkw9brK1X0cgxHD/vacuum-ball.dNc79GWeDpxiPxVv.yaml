@@ -33,21 +33,46 @@ system:
         value: One creature
   description:
     value: >-
-      <p>A&nbsp;skin&nbsp;of&nbsp;force&nbsp;abruptly&nbsp;surrounds&nbsp;your&nbsp;foe,&nbsp;then&nbsp;the&nbsp;environment&nbsp;within&nbsp;changes&nbsp;to&nbsp;mimic&nbsp;the&nbsp;hostile&nbsp;space&nbsp;between&nbsp;worlds.&nbsp;When&nbsp;you&nbsp;target&nbsp;a&nbsp;creature&nbsp;with&nbsp;this&nbsp;power,&nbsp;you&nbsp;transport&nbsp;the&nbsp;atmosphere&nbsp;and&nbsp;environment&nbsp;that&nbsp;surrounds&nbsp;them&nbsp;to&nbsp;space,&nbsp;leaving&nbsp;behind&nbsp;an&nbsp;area&nbsp;of&nbsp;vacuum.&nbsp;An&nbsp;affected&nbsp;creature&nbsp;immediately&nbsp;takes&nbsp;3d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;from&nbsp;sudden&nbsp;decompression.&nbsp;Additionally,&nbsp;the&nbsp;area&nbsp;within&nbsp;a&nbsp;<em>vacuum&nbsp;ball&nbsp;</em>does&nbsp;not&nbsp;support&nbsp;the&nbsp;transmission&nbsp;of&nbsp;sound,&nbsp;so&nbsp;is&nbsp;treated&nbsp;as&nbsp;if&nbsp;under&nbsp;the&nbsp;effects&nbsp;of&nbsp;<em>silence</em>.&nbsp;Finally,&nbsp;a&nbsp;creature&nbsp;within&nbsp;a&nbsp;<em>vacuum&nbsp;ball&nbsp;</em>begins&nbsp;suffocating&nbsp;if&nbsp;they&nbsp;need&nbsp;to&nbsp;breathe.
+      <p>A skin of force abruptly surrounds your foe, then the environment
+      within changes to mimic the hostile space between worlds. When you target
+      a creature with this power, you transport the atmosphere and environment
+      that surrounds them to space, leaving behind an area of vacuum. An
+      affected creature immediately takes 3d6 points of damage from sudden
+      decompression. Additionally, the area within a <em>vacuum ball </em>does
+      not support the transmission of sound, so is treated as if under the
+      effects of <em>silence</em>. Finally, a creature within a <em>vacuum ball
+      </em>begins suffocating if they need to breathe.
 
       </p>
 
-      <p>A&nbsp;creature&nbsp;cannot&nbsp;escape&nbsp;from&nbsp;a&nbsp;<em>vacuum&nbsp;ball&nbsp;</em>by&nbsp;means&nbsp;of&nbsp;movement;&nbsp;the&nbsp;hostile&nbsp;area&nbsp;follows&nbsp;them&nbsp;as&nbsp;they&nbsp;move.&nbsp;This&nbsp;does&nbsp;not&nbsp;prevent&nbsp;escape&nbsp;by&nbsp;means&nbsp;of&nbsp;psychoportive&nbsp;travel&nbsp;such&nbsp;as&nbsp;<em>fold&nbsp;space</em>.&nbsp;If&nbsp;a&nbsp;creature&nbsp;does&nbsp;manage&nbsp;to&nbsp;escape&nbsp;the&nbsp;confines&nbsp;of&nbsp;a&nbsp;<em>vacuum&nbsp;ball</em>,&nbsp;the&nbsp;power&nbsp;immediately&nbsp;ends.
+      <p>A creature cannot escape from a <em>vacuum ball </em>by means of
+      movement; the hostile area follows them as they move. This does not
+      prevent escape by means of psychoportive travel such as <em>fold
+      space</em>. If a creature does manage to escape the confines of a
+      <em>vacuum ball</em>, the power immediately ends.
 
       </p>
 
-      <p>The&nbsp;membrane&nbsp;surrounding&nbsp;a&nbsp;<em>vacuum&nbsp;ball&nbsp;</em>is&nbsp;semipermeable,&nbsp;allowing&nbsp;the&nbsp;surrounded&nbsp;creature&nbsp;to&nbsp;act&nbsp;normally&nbsp;in&nbsp;most&nbsp;ways.&nbsp;They&nbsp;are&nbsp;still&nbsp;able&nbsp;to&nbsp;make&nbsp;melee&nbsp;and&nbsp;ranged&nbsp;attacks&nbsp;(though&nbsp;items&nbsp;and&nbsp;abilities&nbsp;relying&nbsp;on&nbsp;air&nbsp;such&nbsp;as&nbsp;firearms&nbsp;may&nbsp;not&nbsp;function).&nbsp;Fire&nbsp;does&nbsp;not&nbsp;function&nbsp;within&nbsp;a&nbsp;<em>vacuum&nbsp;ball</em>,&nbsp;so&nbsp;carried&nbsp;torches&nbsp;will&nbsp;be&nbsp;immediately&nbsp;extinguished,&nbsp;but&nbsp;this&nbsp;does&nbsp;not&nbsp;interfere&nbsp;with&nbsp;powers&nbsp;with&nbsp;a&nbsp;duration&nbsp;of&nbsp;instantaneous&nbsp;from&nbsp;harming&nbsp;a&nbsp;creature&nbsp;within&nbsp;if&nbsp;they&nbsp;deal&nbsp;fire&nbsp;damage.&nbsp;A&nbsp;<em>flaming&nbsp;</em>weapon&nbsp;is&nbsp;suppressed&nbsp;while&nbsp;its&nbsp;wielder&nbsp;is&nbsp;within&nbsp;a&nbsp;<em>vacuum&nbsp;ball</em>.
+      <p>The membrane surrounding a <em>vacuum ball </em>is semipermeable,
+      allowing the surrounded creature to act normally in most ways. They are
+      still able to make melee and ranged attacks (though items and abilities
+      relying on air such as firearms may not function). Fire does not function
+      within a <em>vacuum ball</em>, so carried torches will be immediately
+      extinguished, but this does not interfere with powers with a duration of
+      instantaneous from harming a creature within if they deal fire damage. A
+      <em>flaming </em>weapon is suppressed while its wielder is within a
+      <em>vacuum ball</em>.
 
       </p>
 
-      <p><em><strong>Mythic&nbsp;Vacuum&nbsp;Ball</strong></em></p>
+      <p><em><strong>Mythic Vacuum Ball</strong></em></p>
 
-      <p>A&nbsp;creature&nbsp;within&nbsp;the&nbsp;confines&nbsp;of&nbsp;a&nbsp;<em>mythic&nbsp;vacuum&nbsp;ball&nbsp;</em>takes&nbsp;an&nbsp;additional&nbsp;3d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;each&nbsp;round&nbsp;that&nbsp;you&nbsp;maintain&nbsp;concentration.&nbsp;After&nbsp;five&nbsp;rounds&nbsp;of&nbsp;being&nbsp;contained&nbsp;with&nbsp;a&nbsp;<em>mythic&nbsp;vacuum&nbsp;ball</em>,&nbsp;such&nbsp;a&nbsp;creature’s&nbsp;blood&nbsp;vessels&nbsp;begin&nbsp;to&nbsp;rupture.&nbsp;Such&nbsp;a&nbsp;creature&nbsp;must&nbsp;make&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;(DC&nbsp;same&nbsp;as&nbsp;the&nbsp;power’s)&nbsp;or&nbsp;become&nbsp;temporarily&nbsp;blind.&nbsp;This&nbsp;blindness&nbsp;ends&nbsp;two&nbsp;rounds&nbsp;after&nbsp;this&nbsp;power&nbsp;ends.
+      <p>A creature within the confines of a <em>mythic vacuum ball </em>takes
+      an additional 3d6 points of damage each round that you maintain
+      concentration. After five rounds of being contained with a <em>mythic
+      vacuum ball</em>, such a creature’s blood vessels begin to rupture. Such a
+      creature must make a Fortitude save (DC same as the power’s) or become
+      temporarily blind. This blindness ends two rounds after this power ends.
 
       </p>
   discipline: psychoportation

@@ -22,17 +22,27 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;words&nbsp;can&nbsp;cause&nbsp;fear&nbsp;and&nbsp;hope&nbsp;in&nbsp;even&nbsp;the&nbsp;dead,&nbsp;promising&nbsp;peace&nbsp;or&nbsp;judgment.</em></p>
+      <p><em>Your words can cause fear and hope in even the dead, promising
+      peace or judgment.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Athanatism_(Psion_Discipline)"&nbsp;title="Athanatism&nbsp;(Psion&nbsp;Discipline)">Conduit</a>&nbsp;level&nbsp;5th.
+      <p><strong>Prerequisite:</strong><a
+      href="/wiki/Athanatism_(Psion_Discipline)" title="Athanatism (Psion
+      Discipline)">Conduit</a> level 5th.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;gain&nbsp;a&nbsp;+5&nbsp;bonus&nbsp;on&nbsp;the&nbsp;first&nbsp;check&nbsp;you&nbsp;make&nbsp;to&nbsp;control&nbsp;or&nbsp;deceive&nbsp;a&nbsp;given&nbsp;spirit&nbsp;each&nbsp;day.&nbsp;If&nbsp;you&nbsp;succeed&nbsp;on&nbsp;this&nbsp;check,&nbsp;that&nbsp;spirit&nbsp;suffers&nbsp;a&nbsp;-2&nbsp;penalty&nbsp;on&nbsp;saving&nbsp;throws&nbsp;against&nbsp;conduit&nbsp;powers&nbsp;and&nbsp;effects&nbsp;that&nbsp;you&nbsp;create&nbsp;for&nbsp;24&nbsp;hours.&nbsp;If&nbsp;you&nbsp;fail&nbsp;this&nbsp;check,&nbsp;any&nbsp;attempts&nbsp;you&nbsp;make&nbsp;to&nbsp;influence&nbsp;that&nbsp;ghost&nbsp;or&nbsp;spirit&nbsp;for&nbsp;the&nbsp;next&nbsp;week&nbsp;instead&nbsp;suffer&nbsp;a&nbsp;-5&nbsp;penalty.
+      <p><strong>Benefit:</strong> You gain a +5 bonus on the first check you
+      make to control or deceive a given spirit each day. If you succeed on this
+      check, that spirit suffers a -2 penalty on saving throws against conduit
+      powers and effects that you create for 24 hours. If you fail this check,
+      any attempts you make to influence that ghost or spirit for the next week
+      instead suffer a -5 penalty.
 
       </p>
 
-      <p>This&nbsp;penalty&nbsp;for&nbsp;a&nbsp;given&nbsp;spirit&nbsp;decreases&nbsp;by&nbsp;one&nbsp;for&nbsp;each&nbsp;day&nbsp;that&nbsp;passes&nbsp;in&nbsp;which&nbsp;you&nbsp;do&nbsp;not&nbsp;attempt&nbsp;to&nbsp;control&nbsp;or&nbsp;deceive&nbsp;that&nbsp;spirit,&nbsp;to&nbsp;a&nbsp;minimum&nbsp;of&nbsp;0.
+      <p>This penalty for a given spirit decreases by one for each day that
+      passes in which you do not attempt to control or deceive that spirit, to a
+      minimum of 0.
 
       </p>
   disabled: false

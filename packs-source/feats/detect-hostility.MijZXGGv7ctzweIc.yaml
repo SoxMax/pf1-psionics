@@ -22,75 +22,111 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;know&nbsp;how&nbsp;to&nbsp;search&nbsp;for&nbsp;the&nbsp;"killing&nbsp;intent"&nbsp;that&nbsp;creatures&nbsp;subconsciously&nbsp;aim&nbsp;at&nbsp;their&nbsp;enemies.</em></p>
+      <p><em>You know how to search for the "killing intent" that creatures
+      subconsciously aim at their enemies.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Blind-Fight">Blind-Fight</a>&nbsp;feat&nbsp;or&nbsp;the&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/UMR.aspx?ItemName=Scent">Scent</a>&nbsp;ability,&nbsp;Knowledge&nbsp;(martial)&nbsp;5&nbsp;ranks.
+      <p><strong>Prerequisites:</strong><a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Blind-Fight">Blind-Fight</a>
+      feat or the <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/UMR.aspx?ItemName=Scent">Scent</a> ability,
+      Knowledge (martial) 5 ranks.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;can&nbsp;perform&nbsp;the&nbsp;anticipate&nbsp;ambush&nbsp;occult&nbsp;skill&nbsp;unlock&nbsp;even&nbsp;if&nbsp;you&nbsp;can't&nbsp;cast&nbsp;psychic&nbsp;spells.&nbsp;If&nbsp;you&nbsp;can&nbsp;cast&nbsp;psychic&nbsp;spells&nbsp;or&nbsp;have&nbsp;the&nbsp;Psychic&nbsp;Sensitivity&nbsp;feat,&nbsp;you&nbsp;can&nbsp;use&nbsp;anticipate&nbsp;ambush&nbsp;one&nbsp;additional&nbsp;time&nbsp;per&nbsp;day.
+      <p><strong>Benefit:</strong> You can perform the anticipate ambush occult
+      skill unlock even if you can't cast psychic spells. If you can cast
+      psychic spells or have the Psychic Sensitivity feat, you can use
+      anticipate ambush one additional time per day.
 
       </p>
 
-      <p>At&nbsp;any&nbsp;time&nbsp;as&nbsp;a&nbsp;standard&nbsp;action,&nbsp;you&nbsp;can&nbsp;attempt&nbsp;a&nbsp;Knowledge&nbsp;(martial)&nbsp;check&nbsp;to&nbsp;detect&nbsp;whether&nbsp;any&nbsp;creatures&nbsp;within&nbsp;30&nbsp;feet&nbsp;carry&nbsp;a&nbsp;desire&nbsp;to&nbsp;fight,&nbsp;kill&nbsp;or&nbsp;otherwise&nbsp;defeat&nbsp;someone&nbsp;they&nbsp;can&nbsp;see.&nbsp;Using&nbsp;this&nbsp;ability&nbsp;does&nbsp;not&nbsp;require&nbsp;you&nbsp;to&nbsp;be&nbsp;aware&nbsp;of&nbsp;the&nbsp;creatures&nbsp;in&nbsp;question,&nbsp;but&nbsp;you&nbsp;cannot&nbsp;sense&nbsp;hostility&nbsp;from&nbsp;a&nbsp;creature&nbsp;immune&nbsp;to&nbsp;mind-affecting&nbsp;effects&nbsp;unless&nbsp;they&nbsp;are&nbsp;actively&nbsp;focusing&nbsp;it&nbsp;onto&nbsp;another&nbsp;creature&nbsp;in&nbsp;some&nbsp;way&nbsp;(such&nbsp;as&nbsp;via&nbsp;the&nbsp;Intimidate&nbsp;skill,&nbsp;the&nbsp;paladin's&nbsp;smite&nbsp;evil,&nbsp;the&nbsp;cavalier's&nbsp;challenge&nbsp;or&nbsp;the&nbsp;harbinger's&nbsp;dark&nbsp;claim).&nbsp;If&nbsp;you&nbsp;succeed&nbsp;then&nbsp;you&nbsp;learn&nbsp;the&nbsp;locations&nbsp;of&nbsp;each&nbsp;source&nbsp;of&nbsp;hostility,&nbsp;as&nbsp;well&nbsp;as&nbsp;the&nbsp;type&nbsp;of&nbsp;hostility&nbsp;involved&nbsp;(friendly,&nbsp;adversarial&nbsp;or&nbsp;malicious).&nbsp;If&nbsp;you&nbsp;succeed&nbsp;by&nbsp;5&nbsp;or&nbsp;more&nbsp;then&nbsp;you&nbsp;can&nbsp;determine&nbsp;who&nbsp;these&nbsp;hostile&nbsp;feelings&nbsp;are&nbsp;directed&nbsp;at,&nbsp;as&nbsp;long&nbsp;as&nbsp;both&nbsp;the&nbsp;target&nbsp;and&nbsp;the&nbsp;aggressor&nbsp;are&nbsp;within&nbsp;your&nbsp;line&nbsp;of&nbsp;sight.&nbsp;You&nbsp;always&nbsp;know&nbsp;if&nbsp;hostility&nbsp;is&nbsp;directed&nbsp;at&nbsp;you,&nbsp;even&nbsp;if&nbsp;you&nbsp;cannot&nbsp;see&nbsp;the&nbsp;target.
+      <p>At any time as a standard action, you can attempt a Knowledge (martial)
+      check to detect whether any creatures within 30 feet carry a desire to
+      fight, kill or otherwise defeat someone they can see. Using this ability
+      does not require you to be aware of the creatures in question, but you
+      cannot sense hostility from a creature immune to mind-affecting effects
+      unless they are actively focusing it onto another creature in some way
+      (such as via the Intimidate skill, the paladin's smite evil, the
+      cavalier's challenge or the harbinger's dark claim). If you succeed then
+      you learn the locations of each source of hostility, as well as the type
+      of hostility involved (friendly, adversarial or malicious). If you succeed
+      by 5 or more then you can determine who these hostile feelings are
+      directed at, as long as both the target and the aggressor are within your
+      line of sight. You always know if hostility is directed at you, even if
+      you cannot see the target.
 
-      </p><table><tr><th>Type&nbsp;of&nbsp;Hostility
+      </p><table><tr><th>Type of Hostility
 
       </th><th>DC
 
-      </th></tr><tr><td>Friendly&nbsp;(wants&nbsp;to&nbsp;spar&nbsp;with&nbsp;the&nbsp;target)
+      </th></tr><tr><td>Friendly (wants to spar with the target)
 
-      </td><td>15&nbsp;+&nbsp;the&nbsp;aggressor's&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+&nbsp;the&nbsp;aggressor's&nbsp;Wisdom&nbsp;modifier
+      </td><td>15 + the aggressor's base attack bonus + the aggressor's Wisdom
+      modifier
 
-      </td></tr><tr><td>Adversarial&nbsp;(wants&nbsp;to&nbsp;stop&nbsp;the&nbsp;target)
+      </td></tr><tr><td>Adversarial (wants to stop the target)
 
-      </td><td>10&nbsp;+&nbsp;the&nbsp;aggressor's&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+&nbsp;the&nbsp;aggressor's&nbsp;Wisdom&nbsp;modifier
+      </td><td>10 + the aggressor's base attack bonus + the aggressor's Wisdom
+      modifier
 
-      </td></tr><tr><td>Malicious&nbsp;(wants&nbsp;to&nbsp;make&nbsp;the&nbsp;target&nbsp;suffer)
+      </td></tr><tr><td>Malicious (wants to make the target suffer)
 
-      </td><td>5&nbsp;+&nbsp;the&nbsp;aggressor's&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+&nbsp;the&nbsp;aggressor's&nbsp;Wisdom&nbsp;modifier
+      </td><td>5 + the aggressor's base attack bonus + the aggressor's Wisdom
+      modifier
 
       </td></tr></table>
 
-      <table><tr><th>DC&nbsp;Modifiers
+      <table><tr><th>DC Modifiers
 
       </th><th>DC
 
-      </th></tr><tr><td>Aggressor&nbsp;is&nbsp;attacking&nbsp;the&nbsp;target
+      </th></tr><tr><td>Aggressor is attacking the target
 
       </td><td>–10
 
-      </td></tr><tr><td>You&nbsp;are&nbsp;the&nbsp;target&nbsp;of&nbsp;the&nbsp;aggressor's&nbsp;feelings
+      </td></tr><tr><td>You are the target of the aggressor's feelings
 
       </td><td>–5
 
-      </td></tr><tr><td>Aggressor&nbsp;is&nbsp;shaken,&nbsp;frightened&nbsp;or&nbsp;panicked
+      </td></tr><tr><td>Aggressor is shaken, frightened or panicked
 
       </td><td>+5
 
-      </td></tr><tr><td>Aggressor&nbsp;is&nbsp;using&nbsp;the&nbsp;Intimidate&nbsp;skill&nbsp;on&nbsp;target
+      </td></tr><tr><td>Aggressor is using the Intimidate skill on target
 
       </td><td>–5
 
-      </td></tr><tr><td>Aggressor&nbsp;has&nbsp;placed&nbsp;a&nbsp;smite,&nbsp;challenge&nbsp;or&nbsp;Claim&nbsp;on&nbsp;target.
+      </td></tr><tr><td>Aggressor has placed a smite, challenge or Claim on
+      target.
 
       </td><td>–5
 
-      </td></tr><tr><td>Aggressor&nbsp;is&nbsp;under&nbsp;the&nbsp;effects&nbsp;of&nbsp;a&nbsp;nondetection&nbsp;spell&nbsp;or&nbsp;similar&nbsp;effect
+      </td></tr><tr><td>Aggressor is under the effects of a nondetection spell
+      or similar effect
 
       </td><td>+10
 
       </td></tr></table>
 
-      <p>If&nbsp;an&nbsp;aggressor&nbsp;is&nbsp;concerned&nbsp;of&nbsp;its&nbsp;hostility&nbsp;being&nbsp;noticed&nbsp;and&nbsp;wants&nbsp;to&nbsp;hide&nbsp;it,&nbsp;then&nbsp;the&nbsp;Knowledge&nbsp;(martial)&nbsp;DC&nbsp;is&nbsp;instead&nbsp;equal&nbsp;to&nbsp;10&nbsp;+&nbsp;their&nbsp;Bluff&nbsp;modifier&nbsp;(if&nbsp;higher&nbsp;than&nbsp;the&nbsp;normal&nbsp;DC).&nbsp;Creatures&nbsp;using&nbsp;the&nbsp;Stealth&nbsp;skill&nbsp;are&nbsp;assumed&nbsp;to&nbsp;be&nbsp;hiding&nbsp;their&nbsp;hostility&nbsp;unless&nbsp;stated&nbsp;otherwise.
+      <p>If an aggressor is concerned of its hostility being noticed and wants
+      to hide it, then the Knowledge (martial) DC is instead equal to 10 + their
+      Bluff modifier (if higher than the normal DC). Creatures using the Stealth
+      skill are assumed to be hiding their hostility unless stated otherwise.
 
       </p>
 
-      <p><strong>Special:</strong>&nbsp;Outsiders&nbsp;with&nbsp;the&nbsp;evil&nbsp;subtype&nbsp;are&nbsp;considered&nbsp;to&nbsp;radiate&nbsp;malicious&nbsp;hostility&nbsp;towards&nbsp;all&nbsp;creatures&nbsp;they&nbsp;can&nbsp;see,&nbsp;regardless&nbsp;of&nbsp;the&nbsp;personality&nbsp;and&nbsp;goals&nbsp;of&nbsp;the&nbsp;outsider&nbsp;in&nbsp;question.&nbsp;At&nbsp;your&nbsp;GM's&nbsp;option,&nbsp;other&nbsp;kinds&nbsp;of&nbsp;creatures&nbsp;might&nbsp;radiate&nbsp;hostility&nbsp;of&nbsp;different&nbsp;kinds&nbsp;(such&nbsp;as&nbsp;celestials&nbsp;radiating&nbsp;friendly&nbsp;hostility,&nbsp;or&nbsp;ghosts&nbsp;radiating&nbsp;adversarial&nbsp;hostility).
+      <p><strong>Special:</strong> Outsiders with the evil subtype are
+      considered to radiate malicious hostility towards all creatures they can
+      see, regardless of the personality and goals of the outsider in question.
+      At your GM's option, other kinds of creatures might radiate hostility of
+      different kinds (such as celestials radiating friendly hostility, or
+      ghosts radiating adversarial hostility).
 
       </p>
 
-      <p>A&nbsp;warder&nbsp;with&nbsp;the&nbsp;sworn&nbsp;protector&nbsp;archetype&nbsp;(or&nbsp;a&nbsp;character&nbsp;with&nbsp;a&nbsp;similar&nbsp;ability)&nbsp;may&nbsp;treat&nbsp;hostility&nbsp;aimed&nbsp;at&nbsp;their&nbsp;ward&nbsp;as&nbsp;hostility&nbsp;aimed&nbsp;at&nbsp;themselves&nbsp;for&nbsp;determining&nbsp;their&nbsp;ability&nbsp;to&nbsp;sense&nbsp;it.
+      <p>A warder with the sworn protector archetype (or a character with a
+      similar ability) may treat hostility aimed at their ward as hostility
+      aimed at themselves for determining their ability to sense it.
 
       </p>
   disabled: false

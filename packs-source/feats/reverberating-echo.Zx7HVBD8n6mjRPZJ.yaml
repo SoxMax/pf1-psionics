@@ -22,15 +22,18 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;gain&nbsp;a&nbsp;bonus&nbsp;when&nbsp;echoing&nbsp;powers.</em></p>
+      <p><em>You gain a bonus when echoing powers.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Echoing_Power"&nbsp;title="Echoing&nbsp;Power">Echoing&nbsp;Power</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Echoing_Power"
+      title="Echoing Power">Echoing Power</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;have&nbsp;learned&nbsp;how&nbsp;to&nbsp;strengthen&nbsp;the&nbsp;echo&nbsp;of&nbsp;your&nbsp;power.&nbsp;When&nbsp;using&nbsp;the&nbsp;Echoing&nbsp;Power&nbsp;feat,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;to&nbsp;your&nbsp;manifester&nbsp;level&nbsp;the&nbsp;second&nbsp;time
+      <p><strong>Benefit: </strong>You have learned how to strengthen the echo
+      of your power. When using the Echoing Power feat, you gain a +2 bonus to
+      your manifester level the second time
 
-      you&nbsp;manifest&nbsp;this&nbsp;power.
+      you manifest this power.
 
       </p>
   disabled: false

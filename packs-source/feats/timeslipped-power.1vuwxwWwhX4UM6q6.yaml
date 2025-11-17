@@ -22,13 +22,21 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;shift&nbsp;powers&nbsp;out&nbsp;of&nbsp;the&nbsp;timestream&nbsp;before&nbsp;they&nbsp;take&nbsp;effect,&nbsp;delaying&nbsp;their&nbsp;effect&nbsp;until&nbsp;needed.</em></p>
+      <p><em>You can shift powers out of the timestream before they take effect,
+      delaying their effect until needed.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Manifester&nbsp;level&nbsp;10th.
+      <p><strong>Prerequisite:</strong> Manifester level 10th.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.&nbsp;You&nbsp;manifest&nbsp;a&nbsp;personal&nbsp;psionic&nbsp;power&nbsp;and&nbsp;slip&nbsp;it&nbsp;out&nbsp;of&nbsp;the&nbsp;timestream,&nbsp;which&nbsp;means&nbsp;it&nbsp;stops&nbsp;existing&nbsp;just&nbsp;before&nbsp;activating.&nbsp;Activating&nbsp;a&nbsp;timeslipped&nbsp;power&nbsp;takes&nbsp;a&nbsp;swift&nbsp;action,&nbsp;at&nbsp;which&nbsp;point&nbsp;the&nbsp;power&nbsp;acts&nbsp;as&nbsp;if&nbsp;you&nbsp;had&nbsp;just&nbsp;manifest&nbsp;it.&nbsp;Using&nbsp;this&nbsp;feat&nbsp;increases&nbsp;the&nbsp;power&nbsp;point&nbsp;cost&nbsp;of&nbsp;the&nbsp;power&nbsp;by&nbsp;8.&nbsp;You&nbsp;can&nbsp;only&nbsp;have&nbsp;one&nbsp;timeslipped&nbsp;power&nbsp;per&nbsp;five&nbsp;manifester&nbsp;levels.&nbsp;The&nbsp;power’s&nbsp;total&nbsp;cost&nbsp;cannot&nbsp;exceed&nbsp;your&nbsp;manifester&nbsp;level.
+      <p><strong>Benefit: </strong>To use this feat, you must expend your
+      psionic focus. You manifest a personal psionic power and slip it out of
+      the timestream, which means it stops existing just before activating.
+      Activating a timeslipped power takes a swift action, at which point the
+      power acts as if you had just manifest it. Using this feat increases the
+      power point cost of the power by 8. You can only have one timeslipped
+      power per five manifester levels. The power’s total cost cannot exceed
+      your manifester level.
 
       </p>
   disabled: false

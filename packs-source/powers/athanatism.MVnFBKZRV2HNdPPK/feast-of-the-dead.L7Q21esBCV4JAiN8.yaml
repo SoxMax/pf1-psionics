@@ -27,11 +27,30 @@ system:
         value: Personal plus one creature/level
   description:
     value: >-
-      <p>You&nbsp;transform&nbsp;phantasmal&nbsp;remains&nbsp;into&nbsp;a&nbsp;sumptuous,&nbsp;macabre&nbsp;banquet,&nbsp;which&nbsp;you&nbsp;may&nbsp;share&nbsp;with&nbsp;one&nbsp;creature/level.&nbsp;The&nbsp;feast&nbsp;takes&nbsp;1&nbsp;hour&nbsp;to&nbsp;consume,&nbsp;and&nbsp;the&nbsp;beneficial&nbsp;effects&nbsp;do&nbsp;not&nbsp;set&nbsp;in&nbsp;until&nbsp;this&nbsp;hour&nbsp;is&nbsp;over.&nbsp;Every&nbsp;creature&nbsp;partaking&nbsp;of&nbsp;the&nbsp;feast&nbsp;gains&nbsp;1d8&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;+&nbsp;1&nbsp;point&nbsp;per&nbsp;two&nbsp;manifester&nbsp;levels&nbsp;(maximum&nbsp;+10).&nbsp;The&nbsp;meat&nbsp;of&nbsp;the&nbsp;feast&nbsp;grants&nbsp;each&nbsp;target&nbsp;that&nbsp;partakes&nbsp;a&nbsp;+2&nbsp;morale&nbsp;bonus&nbsp;on&nbsp;saving&nbsp;throws&nbsp;against&nbsp;curses&nbsp;and&nbsp;effects&nbsp;that&nbsp;sicken&nbsp;or&nbsp;nauseate&nbsp;for&nbsp;12&nbsp;hours.&nbsp;If&nbsp;the&nbsp;feast&nbsp;is&nbsp;interrupted&nbsp;for&nbsp;any&nbsp;reason,&nbsp;the&nbsp;power&nbsp;is&nbsp;ruined&nbsp;and&nbsp;all&nbsp;effects&nbsp;of&nbsp;the&nbsp;power&nbsp;are&nbsp;negated.
+      <p>You transform phantasmal remains into a sumptuous, macabre banquet,
+      which you may share with one creature/level. The feast takes 1 hour to
+      consume, and the beneficial effects do not set in until this hour is over.
+      Every creature partaking of the feast gains 1d8 temporary hit points + 1
+      point per two manifester levels (maximum +10). The meat of the feast
+      grants each target that partakes a +2 morale bonus on saving throws
+      against curses and effects that sicken or nauseate for 12 hours. If the
+      feast is interrupted for any reason, the power is ruined and all effects
+      of the power are negated.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;spend&nbsp;an&nbsp;6&nbsp;additional&nbsp;power&nbsp;points&nbsp;to&nbsp;grant&nbsp;all&nbsp;who&nbsp;join&nbsp;in&nbsp;the&nbsp;feast&nbsp;a&nbsp;+1&nbsp;morale&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;rolls.&nbsp;It&nbsp;also&nbsp;increases&nbsp;the&nbsp;granted&nbsp;bonus&nbsp;on&nbsp;saves&nbsp;against&nbsp;curses&nbsp;and&nbsp;effects&nbsp;that&nbsp;sicken&nbsp;or&nbsp;nauseate&nbsp;to&nbsp;+4.&nbsp;In&nbsp;addition,&nbsp;if&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;you&nbsp;may&nbsp;provide&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;benefits&nbsp;to&nbsp;any&nbsp;that&nbsp;partake&nbsp;in&nbsp;the&nbsp;feast:&nbsp;dispel&nbsp;any&nbsp;magical&nbsp;or&nbsp;psionic&nbsp;effects&nbsp;reducing&nbsp;one&nbsp;of&nbsp;the&nbsp;subject's&nbsp;ability&nbsp;scores,&nbsp;cures&nbsp;1d4&nbsp;points&nbsp;of&nbsp;temporary&nbsp;ability&nbsp;damage&nbsp;to&nbsp;one&nbsp;of&nbsp;the&nbsp;subject's&nbsp;ability&nbsp;scores,&nbsp;eliminates&nbsp;fatigue,&nbsp;improves&nbsp;an&nbsp;exhausted&nbsp;condition&nbsp;to&nbsp;fatigued,&nbsp;and&nbsp;attempts&nbsp;to&nbsp;remove&nbsp;any&nbsp;curses&nbsp;currently&nbsp;affecting&nbsp;the&nbsp;creature.&nbsp;You&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;manifester&nbsp;level&nbsp;check&nbsp;against&nbsp;the&nbsp;DC&nbsp;of&nbsp;each&nbsp;curse,&nbsp;with&nbsp;success&nbsp;meaning&nbsp;that&nbsp;the&nbsp;curse&nbsp;is&nbsp;removed.
+      <p><strong>Augment:</strong> You may spend an 6 additional power points to
+      grant all who join in the feast a +1 morale bonus on attack rolls. It also
+      increases the granted bonus on saves against curses and effects that
+      sicken or nauseate to +4. In addition, if you expend your psionic focus
+      when manifesting this power, you may provide both of the following
+      benefits to any that partake in the feast: dispel any magical or psionic
+      effects reducing one of the subject's ability scores, cures 1d4 points of
+      temporary ability damage to one of the subject's ability scores,
+      eliminates fatigue, improves an exhausted condition to fatigued, and
+      attempts to remove any curses currently affecting the creature. You must
+      succeed at a manifester level check against the DC of each curse, with
+      success meaning that the curse is removed.
 
       </p>
   discipline: athanatism

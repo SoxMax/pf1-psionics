@@ -64,7 +64,9 @@ system:
     umd: false
   description:
     value: >-
-      <p>An&nbsp;elan&nbsp;can&nbsp;sustain&nbsp;his&nbsp;body&nbsp;without&nbsp;need&nbsp;of&nbsp;food&nbsp;or&nbsp;water.&nbsp;If&nbsp;he&nbsp;spends&nbsp;1&nbsp;power&nbsp;point,&nbsp;an&nbsp;elan&nbsp;does&nbsp;not&nbsp;need&nbsp;to&nbsp;eat&nbsp;or&nbsp;drink&nbsp;for&nbsp;24&nbsp;hours.</li></p>
+      <p>An elan can sustain his body without need of food or water. If he
+      spends 1 power point, an elan does not need to eat or drink for 24
+      hours.</li></p>
   subType: racial
   traitCategory: magical
 type: feat

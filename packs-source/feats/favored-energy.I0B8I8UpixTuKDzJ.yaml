@@ -22,39 +22,42 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>You&nbsp;prefer&nbsp;a&nbsp;certain&nbsp;energy&nbsp;type&nbsp;over&nbsp;all&nbsp;others.
+      <p>You prefer a certain energy type over all others.
 
       </p>
 
-      <p><strong>Prerequisite:&nbsp;</strong>Ability&nbsp;to&nbsp;manifest&nbsp;any&nbsp;power&nbsp;that
+      <p><strong>Prerequisite: </strong>Ability to manifest any power that
 
-      deals&nbsp;fire,&nbsp;cold,&nbsp;electricity,&nbsp;or&nbsp;sonic&nbsp;damage,&nbsp;manifester
+      deals fire, cold, electricity, or sonic damage, manifester
 
-      level&nbsp;3rd.
-
-      </p>
-
-      <p><strong>Benefit:&nbsp;</strong>Choose&nbsp;one&nbsp;type&nbsp;of&nbsp;energy&nbsp;to&nbsp;become&nbsp;your
-
-      favored&nbsp;energy:&nbsp;cold,&nbsp;electricity,&nbsp;fire,&nbsp;or&nbsp;sonic.&nbsp;Any&nbsp;time
-
-      you&nbsp;manifest&nbsp;a&nbsp;power&nbsp;that&nbsp;deals&nbsp;damage&nbsp;of&nbsp;your&nbsp;favored
-
-      energy&nbsp;type,&nbsp;the&nbsp;damage&nbsp;is&nbsp;increased&nbsp;by&nbsp;+1&nbsp;per&nbsp;die.
+      level 3rd.
 
       </p>
 
-      <p><br&nbsp;/></p>
+      <p><strong>Benefit: </strong>Choose one type of energy to become your
 
-      <p>Powers&nbsp;using&nbsp;your&nbsp;favored&nbsp;energy&nbsp;are&nbsp;particularly&nbsp;damaging.
+      favored energy: cold, electricity, fire, or sonic. Any time
+
+      you manifest a power that deals damage of your favored
+
+      energy type, the damage is increased by +1 per die.
 
       </p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Favored&nbsp;Energy.
+      <p><br /></p>
+
+      <p>Powers using your favored energy are particularly damaging.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;When&nbsp;manifesting&nbsp;a&nbsp;power&nbsp;that&nbsp;deals&nbsp;damage&nbsp;of&nbsp;your&nbsp;favored&nbsp;energy&nbsp;type,&nbsp;the&nbsp;power’s&nbsp;damage&nbsp;is&nbsp;increased&nbsp;by&nbsp;an&nbsp;additional&nbsp;50%&nbsp;(round&nbsp;down.)&nbsp;This&nbsp;stacks&nbsp;with&nbsp;the&nbsp;effects&nbsp;of&nbsp;Empower&nbsp;Power&nbsp;to&nbsp;increase&nbsp;the&nbsp;damage&nbsp;by&nbsp;100%.&nbsp;
+      <p><strong>Prerequisite:</strong> Favored Energy.
+
+      </p>
+
+      <p><strong>Benefit:</strong> When manifesting a power that deals damage of
+      your favored energy type, the power’s damage is increased by an additional
+      50% (round down.) This stacks with the effects of Empower Power to
+      increase the damage by 100%. 
 
       </p>
   disabled: false

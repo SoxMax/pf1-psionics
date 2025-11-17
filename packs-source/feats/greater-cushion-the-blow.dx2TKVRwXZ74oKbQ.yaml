@@ -22,23 +22,26 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>Your&nbsp;damage&nbsp;prevention&nbsp;protects&nbsp;your&nbsp;ally&nbsp;for&nbsp;longer.
+      <p>Your damage prevention protects your ally for longer.
 
       </p>
 
-      <p><strong>Prerequisite:&nbsp;</strong>Wisdom&nbsp;17,&nbsp;<a&nbsp;href="/wiki/Cushion_the_Blow"&nbsp;title="Cushion&nbsp;the&nbsp;Blow">Cushion&nbsp;the&nbsp;Blow</a>,
+      <p><strong>Prerequisite: </strong>Wisdom 17, <a
+      href="/wiki/Cushion_the_Blow" title="Cushion the Blow">Cushion the
+      Blow</a>,
 
-      <a&nbsp;href="/wiki/Improved_Cushion_the_Blow"&nbsp;title="Improved&nbsp;Cushion&nbsp;the&nbsp;Blow">Improved&nbsp;Cushion&nbsp;the&nbsp;Blow</a>,&nbsp;Collective&nbsp;class&nbsp;feature,
+      <a href="/wiki/Improved_Cushion_the_Blow" title="Improved Cushion the
+      Blow">Improved Cushion the Blow</a>, Collective class feature,
 
-      manifester&nbsp;level&nbsp;18th.
+      manifester level 18th.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;using&nbsp;the&nbsp;Cushion&nbsp;the&nbsp;Blow&nbsp;feat,&nbsp;the
+      <p><strong>Benefit: </strong>When using the Cushion the Blow feat, the
 
-      effect&nbsp;applies&nbsp;to&nbsp;all&nbsp;damage&nbsp;for&nbsp;that&nbsp;collective&nbsp;member
+      effect applies to all damage for that collective member
 
-      until&nbsp;the&nbsp;beginning&nbsp;of&nbsp;your&nbsp;next&nbsp;turn.
+      until the beginning of your next turn.
 
       </p>
   disabled: false

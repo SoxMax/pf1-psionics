@@ -22,31 +22,37 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>You&nbsp;are&nbsp;able&nbsp;to&nbsp;modify&nbsp;your&nbsp;astral&nbsp;suit&nbsp;more&nbsp;often.
+      <p>You are able to modify your astral suit more often.
 
       </p>
 
-      <p><strong>Prerequisites:&nbsp;</strong>Astral&nbsp;suit&nbsp;class&nbsp;ability,&nbsp;reconfigure
+      <p><strong>Prerequisites: </strong>Astral suit class ability, reconfigure
 
-      class&nbsp;ability
-
-      </p>
-
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;gain&nbsp;one&nbsp;additional&nbsp;daily&nbsp;use&nbsp;of&nbsp;your
-
-      reconfigure&nbsp;class&nbsp;ability.
+      class ability
 
       </p>
 
-      <p><br&nbsp;/></p>
+      <p><strong>Benefit: </strong>You gain one additional daily use of your
 
-      <p>Your&nbsp;mythic&nbsp;energies&nbsp;grant&nbsp;you&nbsp;additional&nbsp;opportunities&nbsp;to&nbsp;reconfigure&nbsp;your&nbsp;astral&nbsp;suit.
+      reconfigure class ability.
 
       </p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Extra&nbsp;Reconfiguration.
+      <p><br /></p>
 
-      <strong>Benefit:</strong>&nbsp;You&nbsp;gain&nbsp;one&nbsp;additional&nbsp;daily&nbsp;use&nbsp;of&nbsp;your&nbsp;reconfigure&nbsp;ability.&nbsp;Additionally,&nbsp;if&nbsp;you&nbsp;have&nbsp;no&nbsp;uses&nbsp;of&nbsp;reconfigure&nbsp;remaining,&nbsp;you&nbsp;may&nbsp;expend&nbsp;two&nbsp;uses&nbsp;of&nbsp;mythic&nbsp;power&nbsp;to&nbsp;use&nbsp;your&nbsp;reconfigure&nbsp;ability&nbsp;&nbsp;Additionally,&nbsp;if&nbsp;you&nbsp;have&nbsp;no&nbsp;uses&nbsp;of&nbsp;reconfigure&nbsp;remaining,&nbsp;you&nbsp;may&nbsp;expend&nbsp;two&nbsp;uses&nbsp;of&nbsp;mythic&nbsp;power&nbsp;to&nbsp;use&nbsp;your&nbsp;reconfigure&nbsp;ability&nbsp;<br&nbsp;/></p>
+      <p>Your mythic energies grant you additional opportunities to reconfigure
+      your astral suit.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong> Extra Reconfiguration.
+
+      <strong>Benefit:</strong> You gain one additional daily use of your
+      reconfigure ability. Additionally, if you have no uses of reconfigure
+      remaining, you may expend two uses of mythic power to use your reconfigure
+      ability  Additionally, if you have no uses of reconfigure remaining, you
+      may expend two uses of mythic power to use your reconfigure ability <br
+      /></p>
   disabled: false
   featType: feat
   inherited: false

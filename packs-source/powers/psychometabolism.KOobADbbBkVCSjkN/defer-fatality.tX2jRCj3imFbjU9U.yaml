@@ -26,15 +26,30 @@ system:
         value: You
   description:
     value: >-
-      <p>When&nbsp;death&nbsp;is&nbsp;about&nbsp;to&nbsp;claim&nbsp;you&nbsp;because&nbsp;of&nbsp;a&nbsp;lethal&nbsp;attack&nbsp;of&nbsp;any&nbsp;sort,&nbsp;you&nbsp;instead&nbsp;enter&nbsp;a&nbsp;state&nbsp;of&nbsp;suspended&nbsp;animation.&nbsp;While&nbsp;fatality&nbsp;is&nbsp;deferred,&nbsp;you&nbsp;do&nbsp;not&nbsp;age,&nbsp;breathe,&nbsp;grow&nbsp;hungry,&nbsp;sleep,&nbsp;or&nbsp;regain&nbsp;power&nbsp;points.&nbsp;You&nbsp;are&nbsp;unaware&nbsp;of&nbsp;your&nbsp;surroundings&nbsp;and&nbsp;cannot&nbsp;use&nbsp;subconscious&nbsp;powers.&nbsp;Outside&nbsp;forces&nbsp;can&nbsp;damage&nbsp;your&nbsp;body,&nbsp;but&nbsp;as&nbsp;long&nbsp;as&nbsp;your&nbsp;head&nbsp;remains&nbsp;attached&nbsp;to&nbsp;your&nbsp;torso&nbsp;and&nbsp;your&nbsp;brain&nbsp;remains&nbsp;intact,&nbsp;the&nbsp;physical&nbsp;damage&nbsp;can&nbsp;be&nbsp;healed.&nbsp;A&nbsp;coup&nbsp;de'grace&nbsp;still&nbsp;forces&nbsp;you&nbsp;to&nbsp;make&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;or&nbsp;die.
+      <p>When death is about to claim you because of a lethal attack of any
+      sort, you instead enter a state of suspended animation. While fatality is
+      deferred, you do not age, breathe, grow hungry, sleep, or regain power
+      points. You are unaware of your surroundings and cannot use subconscious
+      powers. Outside forces can damage your body, but as long as your head
+      remains attached to your torso and your brain remains intact, the physical
+      damage can be healed. A coup de'grace still forces you to make a Fortitude
+      save or die.
 
       </p>
 
-      <p>You&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;quickly&nbsp;enough&nbsp;to&nbsp;avoid&nbsp;complete&nbsp;destruction&nbsp;if&nbsp;you&nbsp;are&nbsp;unexpectedly&nbsp;affected&nbsp;by&nbsp;a&nbsp;lethal&nbsp;melee&nbsp;or&nbsp;ranged&nbsp;attack&nbsp;or&nbsp;effect.&nbsp;You&nbsp;cannot&nbsp;manifest&nbsp;this&nbsp;power&nbsp;if&nbsp;you&nbsp;are&nbsp;unconscious.
+      <p>You can manifest this power quickly enough to avoid complete
+      destruction if you are unexpectedly affected by a lethal melee or ranged
+      attack or effect. You cannot manifest this power if you are unconscious.
 
       </p>
 
-      <p>You&nbsp;remain&nbsp;in&nbsp;a&nbsp;state&nbsp;of&nbsp;deferred&nbsp;fatality&nbsp;until&nbsp;some&nbsp;third&nbsp;party&nbsp;provides&nbsp;you&nbsp;with&nbsp;magical&nbsp;or&nbsp;psionic&nbsp;healing&nbsp;in&nbsp;the&nbsp;amount&nbsp;equal&nbsp;to&nbsp;10&nbsp;points&nbsp;+&nbsp;the&nbsp;amount&nbsp;of&nbsp;damage&nbsp;your&nbsp;body&nbsp;originally&nbsp;(and&nbsp;subsequently)&nbsp;sustained&nbsp;which&nbsp;dropped&nbsp;you&nbsp;into&nbsp;this&nbsp;deferred&nbsp;state.&nbsp;When&nbsp;so&nbsp;cured,&nbsp;you&nbsp;become&nbsp;conscious,&nbsp;possess&nbsp;1&nbsp;hp,&nbsp;1&nbsp;power&nbsp;point,&nbsp;and&nbsp;sustain&nbsp;1d4+1&nbsp;points&nbsp;of&nbsp;temporary&nbsp;ability&nbsp;damage&nbsp;on&nbsp;each&nbsp;of&nbsp;your&nbsp;six&nbsp;ability&nbsp;scores.&nbsp;(If&nbsp;this&nbsp;brings&nbsp;your&nbsp;Constitution&nbsp;score&nbsp;to&nbsp;0,&nbsp;you&nbsp;die&nbsp;normally.)
+      <p>You remain in a state of deferred fatality until some third party
+      provides you with magical or psionic healing in the amount equal to 10
+      points + the amount of damage your body originally (and subsequently)
+      sustained which dropped you into this deferred state. When so cured, you
+      become conscious, possess 1 hp, 1 power point, and sustain 1d4+1 points of
+      temporary ability damage on each of your six ability scores. (If this
+      brings your Constitution score to 0, you die normally.)
 
       </p>
   discipline: psychometabolism

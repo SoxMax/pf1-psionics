@@ -22,15 +22,19 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;quickly&nbsp;exploit&nbsp;any&nbsp;weakness&nbsp;in&nbsp;the&nbsp;mental&nbsp;state&nbsp;of&nbsp;your&nbsp;enemies.</em></p>
+      <p><em>You can quickly exploit any weakness in the mental state of your
+      enemies.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Unwilling_Participant"&nbsp;title="Unwilling&nbsp;Participant">Unwilling&nbsp;Participant</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Unwilling_Participant"
+      title="Unwilling Participant">Unwilling Participant</a>.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;When&nbsp;a&nbsp;creature&nbsp;within&nbsp;the&nbsp;range&nbsp;of&nbsp;your&nbsp;Unwilling&nbsp;Participant&nbsp;feat&nbsp;fails&nbsp;a&nbsp;save&nbsp;against&nbsp;an&nbsp;effect&nbsp;created&nbsp;by&nbsp;another&nbsp;member&nbsp;of&nbsp;your&nbsp;collective,&nbsp;you
+      <p><strong>Benefit:</strong> When a creature within the range of your
+      Unwilling Participant feat fails a save against an effect created by
+      another member of your collective, you
 
-      can&nbsp;use&nbsp;the&nbsp;Unwilling&nbsp;Participant&nbsp;feat&nbsp;on&nbsp;them&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action.
+      can use the Unwilling Participant feat on them as an immediate action.
 
       </p>
   disabled: false

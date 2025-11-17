@@ -21,33 +21,20 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;can&nbsp;use&nbsp;psionic&nbsp;energy&nbsp;to&nbsp;carry&nbsp;the&nbsp;force&nbsp;of&nbsp;a&nbsp;bull
-
-      rush&nbsp;through&nbsp;your&nbsp;foe.
-
+    value: |-
+      <p>You can use psionic energy to carry the force of a bull
+      rush through your foe.
       </p>
-
-      <p><strong>Prerequisite:&nbsp;</strong>Improved&nbsp;Bull&nbsp;Rush.
-
+      <p><strong>Prerequisite: </strong>Improved Bull Rush.
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>While&nbsp;maintaining&nbsp;psionic&nbsp;focus,&nbsp;when&nbsp;you
-
-      successfully&nbsp;perform&nbsp;a&nbsp;bull&nbsp;rush&nbsp;combat&nbsp;maneuver,&nbsp;you
-
-      also&nbsp;deal&nbsp;damage&nbsp;equal&nbsp;to&nbsp;half&nbsp;your&nbsp;level&nbsp;to&nbsp;the&nbsp;creature
-
-      bull&nbsp;rushed.
-
+      <p><strong>Benefit: </strong>While maintaining psionic focus, when you
+      successfully perform a bull rush combat maneuver, you
+      also deal damage equal to half your level to the creature
+      bull rushed.
       </p>
-
-      <p>If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when&nbsp;you&nbsp;successfully
-
-      make&nbsp;a&nbsp;bull&nbsp;rush&nbsp;maneuver,&nbsp;you&nbsp;can&nbsp;also&nbsp;knock&nbsp;the
-
-      target&nbsp;of&nbsp;your&nbsp;bull&nbsp;rush&nbsp;prone.
-
+      <p>If you expend your psionic focus when you successfully
+      make a bull rush maneuver, you can also knock the
+      target of your bull rush prone.
       </p>
   disabled: false
   featType: feat

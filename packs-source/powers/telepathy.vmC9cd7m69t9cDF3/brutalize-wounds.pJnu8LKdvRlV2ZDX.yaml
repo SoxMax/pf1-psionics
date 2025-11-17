@@ -33,11 +33,22 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;invade&nbsp;the&nbsp;target's&nbsp;mind&nbsp;and&nbsp;temporarily&nbsp;reduce&nbsp;its&nbsp;ability&nbsp;to&nbsp;ward&nbsp;off&nbsp;attacks.&nbsp;If&nbsp;the&nbsp;target&nbsp;succeeds&nbsp;at&nbsp;its&nbsp;saving&nbsp;throw,&nbsp;its&nbsp;hardiness&nbsp;is&nbsp;still&nbsp;depleted;&nbsp;the&nbsp;target&nbsp;takes&nbsp;1&nbsp;extra&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die&nbsp;of&nbsp;damage&nbsp;it&nbsp;is&nbsp;dealt&nbsp;from&nbsp;melee&nbsp;or&nbsp;ranged&nbsp;attacks&nbsp;while&nbsp;the&nbsp;duration&nbsp;lasts.&nbsp;If&nbsp;it&nbsp;fails&nbsp;its&nbsp;save,&nbsp;it&nbsp;takes&nbsp;maximum&nbsp;damage&nbsp;plus&nbsp;1&nbsp;point&nbsp;of&nbsp;extra&nbsp;damage&nbsp;per&nbsp;die&nbsp;of&nbsp;damage&nbsp;it&nbsp;is&nbsp;dealt&nbsp;from&nbsp;melee&nbsp;or&nbsp;ranged&nbsp;attacks&nbsp;while&nbsp;the&nbsp;duration&nbsp;lasts.&nbsp;For&nbsp;instance,&nbsp;if&nbsp;a&nbsp;greatsword&nbsp;that&nbsp;normally&nbsp;deals&nbsp;2d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;hits&nbsp;the&nbsp;target,&nbsp;they&nbsp;take&nbsp;14&nbsp;points&nbsp;of&nbsp;damage&nbsp;from&nbsp;the&nbsp;hit&nbsp;automatically.
+      <p>You invade the target's mind and temporarily reduce its ability to ward
+      off attacks. If the target succeeds at its saving throw, its hardiness is
+      still depleted; the target takes 1 extra point of damage per die of damage
+      it is dealt from melee or ranged attacks while the duration lasts. If it
+      fails its save, it takes maximum damage plus 1 point of extra damage per
+      die of damage it is dealt from melee or ranged attacks while the duration
+      lasts. For instance, if a greatsword that normally deals 2d6 points of
+      damage hits the target, they take 14 points of damage from the hit
+      automatically.
 
       </p>
 
-      <p>A&nbsp;target&nbsp;that&nbsp;knows&nbsp;that&nbsp;it&nbsp;is&nbsp;under&nbsp;the&nbsp;effect&nbsp;may&nbsp;spend&nbsp;a&nbsp;move&nbsp;action&nbsp;to&nbsp;make&nbsp;an&nbsp;additional&nbsp;Will&nbsp;save&nbsp;at&nbsp;the&nbsp;original&nbsp;save&nbsp;DC&nbsp;to&nbsp;attempt&nbsp;to&nbsp;reduce&nbsp;the&nbsp;effect&nbsp;to&nbsp;only&nbsp;taking&nbsp;1&nbsp;extra&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die&nbsp;of&nbsp;damage&nbsp;it&nbsp;is&nbsp;dealt.
+      <p>A target that knows that it is under the effect may spend a move action
+      to make an additional Will save at the original save DC to attempt to
+      reduce the effect to only taking 1 extra point of damage per die of damage
+      it is dealt.
 
       </p>
   descriptors:

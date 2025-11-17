@@ -27,17 +27,33 @@ system:
         value: One creature
   description:
     value: >-
-      <p>The&nbsp;power&nbsp;overwhelms&nbsp;the&nbsp;target's&nbsp;mind&nbsp;and&nbsp;ability&nbsp;to&nbsp;concentrate,&nbsp;making&nbsp;manifesting&nbsp;powers&nbsp;or&nbsp;casting&nbsp;spells&nbsp;extremely&nbsp;hard.&nbsp;The&nbsp;subject&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;concentration&nbsp;check&nbsp;(DC&nbsp;equal&nbsp;to&nbsp;the&nbsp;save&nbsp;DC&nbsp;of&nbsp;this&nbsp;power)&nbsp;in&nbsp;order&nbsp;to&nbsp;cast&nbsp;a&nbsp;spell,&nbsp;manifest&nbsp;a&nbsp;power,&nbsp;use&nbsp;any&nbsp;spell-like&nbsp;ability&nbsp;use&nbsp;any&nbsp;psi-like&nbsp;ability,&nbsp;or&nbsp;use&nbsp;any&nbsp;spell&nbsp;completion,&nbsp;power&nbsp;completion,&nbsp;power&nbsp;trigger&nbsp;or&nbsp;spell&nbsp;trigger&nbsp;magic&nbsp;items.
+      <p>The power overwhelms the target's mind and ability to concentrate,
+      making manifesting powers or casting spells extremely hard. The subject
+      must succeed at a concentration check (DC equal to the save DC of this
+      power) in order to cast a spell, manifest a power, use any spell-like
+      ability use any psi-like ability, or use any spell completion, power
+      completion, power trigger or spell trigger magic items.
 
       </p>
 
-      <p>While&nbsp;under&nbsp;the&nbsp;effect&nbsp;of&nbsp;this&nbsp;power,&nbsp;if&nbsp;the&nbsp;subject&nbsp;must&nbsp;attempt&nbsp;a&nbsp;concentration&nbsp;check&nbsp;to&nbsp;cast&nbsp;a&nbsp;spell,&nbsp;manifest&nbsp;a&nbsp;power,&nbsp;use&nbsp;a&nbsp;psi-like&nbsp;ability&nbsp;or&nbsp;a&nbsp;spell-like&nbsp;ability&nbsp;for&nbsp;any&nbsp;reason&nbsp;other&nbsp;than&nbsp;the&nbsp;effect&nbsp;of&nbsp;this&nbsp;spell&nbsp;(such&nbsp;as&nbsp;manifesting&nbsp;defensively,&nbsp;being&nbsp;injured&nbsp;while&nbsp;manifesting,&nbsp;and&nbsp;so&nbsp;on),&nbsp;it&nbsp;takes&nbsp;a&nbsp;penalty&nbsp;on&nbsp;that&nbsp;check&nbsp;equal&nbsp;to&nbsp;1/2&nbsp;its&nbsp;caster&nbsp;or&nbsp;manifester&nbsp;level.
+      <p>While under the effect of this power, if the subject must attempt a
+      concentration check to cast a spell, manifest a power, use a psi-like
+      ability or a spell-like ability for any reason other than the effect of
+      this spell (such as manifesting defensively, being injured while
+      manifesting, and so on), it takes a penalty on that check equal to 1/2 its
+      caster or manifester level.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power can be augmented in one or more of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;choose&nbsp;another&nbsp;target.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;range&nbsp;increases&nbsp;to&nbsp;Medium&nbsp;instead&nbsp;of&nbsp;Close.</li><li>If&nbsp;you&nbsp;spend&nbsp;3&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;target&nbsp;takes&nbsp;a&nbsp;penalty&nbsp;to&nbsp;all&nbsp;concentration&nbsp;checks&nbsp;equal&nbsp;to&nbsp;your&nbsp;manifesting&nbsp;ability&nbsp;stat,&nbsp;in&nbsp;addition&nbsp;to&nbsp;any&nbsp;other&nbsp;penalties&nbsp;it&nbsp;might&nbsp;suffer.</li></ol>
+      </p><ol><li>For every 2 additional power points you spend, you can choose
+      another target.</li><li>If you spend 2 additional power points, the range
+      increases to Medium instead of Close.</li><li>If you spend 3 additional
+      power points, the target takes a penalty to all concentration checks equal
+      to your manifesting ability stat, in addition to any other penalties it
+      might suffer.</li></ol>
   descriptors:
     - mind-affecting
   discipline: telepathy

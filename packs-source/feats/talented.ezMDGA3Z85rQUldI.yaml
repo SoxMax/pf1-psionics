@@ -22,33 +22,37 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;overchannel&nbsp;powers&nbsp;with&nbsp;less&nbsp;cost&nbsp;to&nbsp;yourself.
+      <p>You can overchannel powers with less cost to yourself.
 
       </p>
 
-      <p><strong>Prerequisite:&nbsp;</strong><a&nbsp;href="/wiki/Overchannel"&nbsp;title="Overchannel">Overchannel</a>.
+      <p><strong>Prerequisite: </strong><a href="/wiki/Overchannel"
+      title="Overchannel">Overchannel</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic
+      <p><strong>Benefit: </strong>To use this feat, you must expend your
+      psionic
 
-      focus.&nbsp;When&nbsp;manifesting&nbsp;a&nbsp;power&nbsp;of&nbsp;3rd&nbsp;level&nbsp;or&nbsp;lower,
+      focus. When manifesting a power of 3rd level or lower,
 
-      you&nbsp;do&nbsp;not&nbsp;take&nbsp;damage&nbsp;from&nbsp;overchanneling.
-
-      </p>
-
-      <p><br&nbsp;/></p>
-
-      <p>You&nbsp;are&nbsp;incredibly&nbsp;skilled&nbsp;at&nbsp;pushing&nbsp;yourself&nbsp;beyond&nbsp;normal&nbsp;limits.
+      you do not take damage from overchanneling.
 
       </p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Talented.
+      <p><br /></p>
+
+      <p>You are incredibly skilled at pushing yourself beyond normal limits.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;Add&nbsp;half&nbsp;your&nbsp;tier&nbsp;(minimum&nbsp;1)&nbsp;to&nbsp;the&nbsp;maximum&nbsp;power&nbsp;level&nbsp;you&nbsp;can&nbsp;use&nbsp;Talented&nbsp;on&nbsp;to&nbsp;not&nbsp;take&nbsp;damage&nbsp;from&nbsp;when&nbsp;overchanneling.&nbsp;
+      <p><strong>Prerequisite:</strong> Talented.
+
+      </p>
+
+      <p><strong>Benefit:</strong> Add half your tier (minimum 1) to the maximum
+      power level you can use Talented on to not take damage from when
+      overchanneling. 
 
       </p>
   disabled: false

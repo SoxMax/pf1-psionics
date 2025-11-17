@@ -28,7 +28,10 @@ system:
         value: One extraplanar creature
   description:
     value: >-
-      <p>You&nbsp;force&nbsp;an&nbsp;extraplanar&nbsp;creature&nbsp;back&nbsp;to&nbsp;its&nbsp;proper&nbsp;plane&nbsp;if&nbsp;it&nbsp;fails&nbsp;a&nbsp;Will&nbsp;save.&nbsp;If&nbsp;the&nbsp;manifestation&nbsp;is&nbsp;successful,&nbsp;the&nbsp;creature&nbsp;is&nbsp;instantly&nbsp;whisked&nbsp;away,&nbsp;but&nbsp;there&nbsp;is&nbsp;a&nbsp;20%&nbsp;chance&nbsp;of&nbsp;actually&nbsp;sending&nbsp;the&nbsp;subject&nbsp;to&nbsp;a&nbsp;plane&nbsp;other&nbsp;than&nbsp;its&nbsp;own.
+      <p>You force an extraplanar creature back to its proper plane if it fails
+      a Will save. If the manifestation is successful, the creature is instantly
+      whisked away, but there is a 20% chance of actually sending the subject to
+      a plane other than its own.
 
       </p>
   discipline: psychoportation

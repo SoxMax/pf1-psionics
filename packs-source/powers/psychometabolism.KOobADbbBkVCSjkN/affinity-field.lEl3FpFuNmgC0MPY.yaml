@@ -35,11 +35,23 @@ system:
         value: 20-ft.-radius emanation, centered on you
   description:
     value: >-
-      <p>You&nbsp;create&nbsp;an&nbsp;affinity&nbsp;feedback&nbsp;loop&nbsp;with&nbsp;all&nbsp;creatures&nbsp;within&nbsp;the&nbsp;area.&nbsp;While&nbsp;the&nbsp;duration&nbsp;lasts,&nbsp;affected&nbsp;creatures&nbsp;take&nbsp;all&nbsp;damage&nbsp;(including&nbsp;ability&nbsp;damage)&nbsp;as&nbsp;you&nbsp;do&nbsp;and&nbsp;heal&nbsp;all&nbsp;wounds&nbsp;as&nbsp;you&nbsp;do.&nbsp;Hit&nbsp;points&nbsp;gained&nbsp;or&nbsp;lost&nbsp;persist&nbsp;after&nbsp;this&nbsp;power&nbsp;ends.
+      <p>You create an affinity feedback loop with all creatures within the
+      area. While the duration lasts, affected creatures take all damage
+      (including ability damage) as you do and heal all wounds as you do. Hit
+      points gained or lost persist after this power ends.
 
       </p>
 
-      <p>Creatures&nbsp;in&nbsp;range&nbsp;are&nbsp;also&nbsp;subject&nbsp;to&nbsp;magical&nbsp;and&nbsp;psionic&nbsp;effects&nbsp;of&nbsp;3rd&nbsp;level&nbsp;or&nbsp;lower.&nbsp;Creatures&nbsp;that&nbsp;have&nbsp;an&nbsp;affinity&nbsp;to&nbsp;you&nbsp;gain&nbsp;a&nbsp;saving&nbsp;throw&nbsp;against&nbsp;each&nbsp;new&nbsp;power&nbsp;transferred&nbsp;through&nbsp;the&nbsp;affinity&nbsp;field&nbsp;as&nbsp;if&nbsp;the&nbsp;power&nbsp;were&nbsp;manifested&nbsp;upon&nbsp;them&nbsp;normally.&nbsp;All&nbsp;magical&nbsp;and&nbsp;psionic&nbsp;effects&nbsp;transferred&nbsp;to&nbsp;subjects&nbsp;fade&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;this&nbsp;power's&nbsp;duration,&nbsp;although&nbsp;instantaneous&nbsp;effects&nbsp;remain.&nbsp;If&nbsp;you&nbsp;suddenly&nbsp;become&nbsp;immune&nbsp;to&nbsp;a&nbsp;particular&nbsp;effect&nbsp;or&nbsp;power,&nbsp;the&nbsp;effect&nbsp;or&nbsp;power&nbsp;to&nbsp;which&nbsp;you&nbsp;are&nbsp;immune&nbsp;cannot&nbsp;be&nbsp;transferred&nbsp;to&nbsp;creatures&nbsp;that&nbsp;have&nbsp;affinity&nbsp;to&nbsp;you,&nbsp;although&nbsp;effects&nbsp;already&nbsp;on&nbsp;creatures&nbsp;that&nbsp;have&nbsp;affinity&nbsp;to&nbsp;you&nbsp;are&nbsp;not&nbsp;ended&nbsp;unless&nbsp;that&nbsp;creature&nbsp;also&nbsp;gains&nbsp;the&nbsp;same&nbsp;immunity.
+      <p>Creatures in range are also subject to magical and psionic effects of
+      3rd level or lower. Creatures that have an affinity to you gain a saving
+      throw against each new power transferred through the affinity field as if
+      the power were manifested upon them normally. All magical and psionic
+      effects transferred to subjects fade at the end of this power's duration,
+      although instantaneous effects remain. If you suddenly become immune to a
+      particular effect or power, the effect or power to which you are immune
+      cannot be transferred to creatures that have affinity to you, although
+      effects already on creatures that have affinity to you are not ended
+      unless that creature also gains the same immunity.
 
       </p>
   discipline: psychometabolism

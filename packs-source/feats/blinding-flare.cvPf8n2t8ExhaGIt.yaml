@@ -22,13 +22,15 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;flaring&nbsp;powers&nbsp;are&nbsp;blinding.</em></p>
+      <p><em>Your flaring powers are blinding.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Flaring_Power"&nbsp;title="Flaring&nbsp;Power">Flaring&nbsp;Power</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Flaring_Power"
+      title="Flaring Power">Flaring Power</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;using&nbsp;the&nbsp;Flaring&nbsp;Power&nbsp;feat,&nbsp;all&nbsp;targets&nbsp;that&nbsp;are&nbsp;affected&nbsp;are&nbsp;blinded&nbsp;the&nbsp;first&nbsp;round&nbsp;instead&nbsp;of&nbsp;dazzled.
+      <p><strong>Benefit: </strong>When using the Flaring Power feat, all
+      targets that are affected are blinded the first round instead of dazzled.
 
       </p>
   disabled: false

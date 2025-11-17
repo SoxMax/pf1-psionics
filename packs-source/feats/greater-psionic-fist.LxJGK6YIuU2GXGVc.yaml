@@ -22,13 +22,19 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;charge&nbsp;your&nbsp;unarmed&nbsp;strike&nbsp;or&nbsp;natural&nbsp;weapon&nbsp;with&nbsp;additional&nbsp;damage&nbsp;potential.</em></p>
+      <p><em>You can charge your unarmed strike or natural weapon with
+      additional damage potential.</em></p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Str&nbsp;13,&nbsp;<a&nbsp;href="/wiki/Psionic_Fist"&nbsp;title="Psionic&nbsp;Fist">Psionic&nbsp;Fist</a>,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+6.
+      <p><strong>Prerequisites:</strong> Str 13, <a href="/wiki/Psionic_Fist"
+      title="Psionic Fist">Psionic Fist</a>, base attack bonus +6.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;use&nbsp;the&nbsp;Psionic&nbsp;Fist&nbsp;feat,&nbsp;your&nbsp;unarmed&nbsp;attack&nbsp;or&nbsp;attack&nbsp;with&nbsp;a&nbsp;natural&nbsp;weapon&nbsp;deals&nbsp;an&nbsp;extra&nbsp;2&nbsp;points&nbsp;of&nbsp;damage&nbsp;instead&nbsp;of&nbsp;1&nbsp;point&nbsp;of&nbsp;damage&nbsp;while&nbsp;you&nbsp;maintain&nbsp;psionic&nbsp;focus,&nbsp;and&nbsp;deal&nbsp;an&nbsp;extra&nbsp;4d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;instead&nbsp;of&nbsp;an&nbsp;extra&nbsp;2d6&nbsp;points&nbsp;when&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.
+      <p><strong>Benefit:</strong> When you use the Psionic Fist feat, your
+      unarmed attack or attack with a natural weapon deals an extra 2 points of
+      damage instead of 1 point of damage while you maintain psionic focus, and
+      deal an extra 4d6 points of damage instead of an extra 2d6 points when you
+      expend your psionic focus.
 
       </p>
   disabled: false

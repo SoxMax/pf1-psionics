@@ -22,9 +22,17 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;fuse&nbsp;elements&nbsp;together.</em></p>
+      <p><em>You can fuse elements together.</em></p>
 
-      <p><strong>Benefit:</strong>&nbsp;To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.&nbsp;You&nbsp;can&nbsp;mix&nbsp;a&nbsp;second&nbsp;element&nbsp;into&nbsp;any&nbsp;power&nbsp;that&nbsp;deals&nbsp;cold,&nbsp;electricity,&nbsp;fire,&nbsp;or&nbsp;sonic&nbsp;damage.&nbsp;Choose&nbsp;one&nbsp;other&nbsp;energy&nbsp;type&nbsp;from&nbsp;that&nbsp;list;&nbsp;half&nbsp;of&nbsp;the&nbsp;power's&nbsp;damage&nbsp;is&nbsp;that&nbsp;element&nbsp;rather&nbsp;than&nbsp;its&nbsp;normal&nbsp;type.&nbsp;If&nbsp;the&nbsp;power&nbsp;has&nbsp;additional&nbsp;effects&nbsp;based&nbsp;on&nbsp;the&nbsp;type&nbsp;of&nbsp;damage&nbsp;it&nbsp;deals,&nbsp;then&nbsp;both&nbsp;the&nbsp;effect&nbsp;of&nbsp;the&nbsp;original&nbsp;element&nbsp;and&nbsp;the&nbsp;effect&nbsp;of&nbsp;the&nbsp;second&nbsp;element&nbsp;are&nbsp;applied&nbsp;to&nbsp;the&nbsp;targets.&nbsp;Using&nbsp;this&nbsp;feat&nbsp;increases&nbsp;the&nbsp;power&nbsp;point&nbsp;cost&nbsp;of&nbsp;the&nbsp;power&nbsp;by&nbsp;2.&nbsp;The&nbsp;power's&nbsp;total&nbsp;cost&nbsp;cannot&nbsp;exceed&nbsp;your&nbsp;manifester&nbsp;level.
+      <p><strong>Benefit:</strong> To use this feat, you must expend your
+      psionic focus. You can mix a second element into any power that deals
+      cold, electricity, fire, or sonic damage. Choose one other energy type
+      from that list; half of the power's damage is that element rather than its
+      normal type. If the power has additional effects based on the type of
+      damage it deals, then both the effect of the original element and the
+      effect of the second element are applied to the targets. Using this feat
+      increases the power point cost of the power by 2. The power's total cost
+      cannot exceed your manifester level.
 
       </p>
   disabled: false

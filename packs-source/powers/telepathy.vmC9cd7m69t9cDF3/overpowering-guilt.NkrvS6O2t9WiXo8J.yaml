@@ -29,13 +29,23 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;viciously&nbsp;pound&nbsp;on&nbsp;the&nbsp;mind&nbsp;of&nbsp;the&nbsp;target,&nbsp;triggering&nbsp;their&nbsp;inner&nbsp;guilt,&nbsp;allowing&nbsp;it&nbsp;to&nbsp;wash&nbsp;over&nbsp;them.&nbsp;This&nbsp;guilt&nbsp;takes&nbsp;on&nbsp;a&nbsp;different&nbsp;aspect&nbsp;for&nbsp;every&nbsp;target,&nbsp;from&nbsp;what&nbsp;they&nbsp;wish&nbsp;they&nbsp;had&nbsp;done,&nbsp;to&nbsp;guilt&nbsp;over&nbsp;what&nbsp;they&nbsp;actually&nbsp;did.&nbsp;Regardless,&nbsp;if&nbsp;they&nbsp;make&nbsp;their&nbsp;save,&nbsp;they&nbsp;take&nbsp;a&nbsp;–1&nbsp;penalty&nbsp;to&nbsp;all&nbsp;their&nbsp;d20&nbsp;rolls&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;duration.&nbsp;If&nbsp;they&nbsp;fail,&nbsp;they&nbsp;are&nbsp;also&nbsp;staggered&nbsp;during&nbsp;this&nbsp;time.
+      <p>You viciously pound on the mind of the target, triggering their inner
+      guilt, allowing it to wash over them. This guilt takes on a different
+      aspect for every target, from what they wish they had done, to guilt over
+      what they actually did. Regardless, if they make their save, they take a
+      –1 penalty to all their d20 rolls until the end of the duration. If they
+      fail, they are also staggered during this time.
 
       </p>
 
-      <p><strong>Augment:&nbsp;</strong>This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment: </strong>This power may be augmented in one or more of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;penalty&nbsp;increases&nbsp;by&nbsp;1.</li><li>If&nbsp;you&nbsp;spend&nbsp;an&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;can&nbsp;target&nbsp;one&nbsp;creature&nbsp;per&nbsp;level.</li><li>If&nbsp;you&nbsp;spend&nbsp;an&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;range&nbsp;increases&nbsp;to&nbsp;Medium&nbsp;(100&nbsp;ft.&nbsp;+&nbsp;10&nbsp;ft./lvl)</li></ol>
+      </p><ol><li>For every 2 additional power points you spend, the penalty
+      increases by 1.</li><li>If you spend an 2 additional power points, this
+      power can target one creature per level.</li><li>If you spend an 2
+      additional power points, the range increases to Medium (100 ft. + 10
+      ft./lvl)</li></ol>
   descriptors:
     - mind-affecting
   discipline: telepathy

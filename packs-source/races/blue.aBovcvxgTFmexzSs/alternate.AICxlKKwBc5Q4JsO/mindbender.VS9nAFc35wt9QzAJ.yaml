@@ -62,7 +62,7 @@ system:
     - target: dc.school.enc
       text: +1 racial bonus to the DCs of compulsion powers
   description:
-    value: "<p>The&nbsp;rare&nbsp;blue&nbsp;is&nbsp;able&nbsp;to&nbsp;tap&nbsp;into&nbsp;the&nbsp;minds&nbsp;of&nbsp;others&nbsp;to&nbsp;impose&nbsp;its&nbsp;will.&nbsp;Blues&nbsp;with&nbsp;this&nbsp;trait&nbsp;gain&nbsp;a&nbsp;+1\_racial&nbsp;bonus\_to&nbsp;the&nbsp;saving&nbsp;throw&nbsp;DCs&nbsp;of\_compulsion\_powers&nbsp;they&nbsp;manifest.</p><p>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;stealthy&nbsp;trait.</p>"
+    value: "<p>The rare blue is able to tap into the minds of others to impose its will. Blues with this trait gain a +1 racial bonus to the saving throw DCs of compulsion powers they manifest.</p><p>This trait replaces the stealthy trait.</p>"
   disabled: false
   inherited: false
   showInCombat: false

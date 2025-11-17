@@ -29,15 +29,25 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;plant&nbsp;a&nbsp;powerful&nbsp;aversion&nbsp;in&nbsp;the&nbsp;mind&nbsp;of&nbsp;the&nbsp;subject.&nbsp;If&nbsp;the&nbsp;object&nbsp;of&nbsp;the&nbsp;implanted&nbsp;aversion&nbsp;is&nbsp;an&nbsp;individual&nbsp;or&nbsp;a&nbsp;physical&nbsp;object,&nbsp;she&nbsp;will&nbsp;prefer&nbsp;not&nbsp;to&nbsp;approach&nbsp;within&nbsp;30&nbsp;feet&nbsp;of&nbsp;it.&nbsp;If&nbsp;it&nbsp;is&nbsp;a&nbsp;word,&nbsp;she&nbsp;will&nbsp;try&nbsp;not&nbsp;to&nbsp;utter&nbsp;it;&nbsp;if&nbsp;it&nbsp;is&nbsp;an&nbsp;action,&nbsp;she&nbsp;will&nbsp;not&nbsp;willingly&nbsp;attempt&nbsp;to&nbsp;perform&nbsp;it;&nbsp;and&nbsp;if&nbsp;it&nbsp;is&nbsp;an&nbsp;event,&nbsp;she&nbsp;will&nbsp;not&nbsp;willingly&nbsp;attend&nbsp;it.&nbsp;The&nbsp;subject&nbsp;will&nbsp;take&nbsp;reasonable&nbsp;steps&nbsp;to&nbsp;avoid&nbsp;the&nbsp;object&nbsp;of&nbsp;its&nbsp;aversion,&nbsp;but&nbsp;will&nbsp;not&nbsp;put&nbsp;herself&nbsp;in&nbsp;jeopardy&nbsp;by&nbsp;doing&nbsp;so.
+      <p>You plant a powerful aversion in the mind of the subject. If the object
+      of the implanted aversion is an individual or a physical object, she will
+      prefer not to approach within 30 feet of it. If it is a word, she will try
+      not to utter it; if it is an action, she will not willingly attempt to
+      perform it; and if it is an event, she will not willingly attend it. The
+      subject will take reasonable steps to avoid the object of its aversion,
+      but will not put herself in jeopardy by doing so.
 
       </p>
 
-      <p>If&nbsp;the&nbsp;subject&nbsp;is&nbsp;forced&nbsp;into&nbsp;taking&nbsp;an&nbsp;action&nbsp;she&nbsp;has&nbsp;an&nbsp;aversion&nbsp;to,&nbsp;she&nbsp;takes&nbsp;a&nbsp;–2&nbsp;penalty&nbsp;on&nbsp;any&nbsp;attack&nbsp;rolls,&nbsp;ability&nbsp;checks,&nbsp;or&nbsp;skill&nbsp;checks&nbsp;involved.
+      <p>If the subject is forced into taking an action she has an aversion to,
+      she takes a –2 penalty on any attack rolls, ability checks, or skill
+      checks involved.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1&nbsp;and&nbsp;the&nbsp;duration&nbsp;increases&nbsp;by&nbsp;1&nbsp;hour.
+      <p><strong>Augment:</strong> For every 2 additional power points you
+      spend, this power's save DC increases by 1 and the duration increases by 1
+      hour.
 
       </p>
   descriptors:

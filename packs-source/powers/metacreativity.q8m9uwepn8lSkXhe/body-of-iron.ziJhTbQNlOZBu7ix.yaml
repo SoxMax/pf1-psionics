@@ -28,19 +28,35 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;transform&nbsp;your&nbsp;body&nbsp;into&nbsp;living&nbsp;iron,&nbsp;which&nbsp;grants&nbsp;you&nbsp;several&nbsp;powerful&nbsp;resistances&nbsp;and&nbsp;abilities.&nbsp;You&nbsp;gain&nbsp;damage&nbsp;reduction&nbsp;15/adamantine.&nbsp;You&nbsp;are&nbsp;immune&nbsp;to&nbsp;blindness,&nbsp;critical&nbsp;hits,&nbsp;ability&nbsp;score&nbsp;damage,&nbsp;deafness,&nbsp;disease,&nbsp;drowning,&nbsp;electricity,&nbsp;poison,&nbsp;stunning,&nbsp;and&nbsp;all&nbsp;powers&nbsp;or&nbsp;attacks&nbsp;that&nbsp;affect&nbsp;your&nbsp;physiology&nbsp;or&nbsp;respiration,&nbsp;because&nbsp;you&nbsp;have&nbsp;no&nbsp;physiology&nbsp;or&nbsp;respiration&nbsp;while&nbsp;this&nbsp;power&nbsp;is&nbsp;in&nbsp;effect.&nbsp;You&nbsp;take&nbsp;only&nbsp;half&nbsp;damage&nbsp;from&nbsp;acid&nbsp;and&nbsp;fire.&nbsp;However,&nbsp;you&nbsp;also&nbsp;become&nbsp;vulnerable&nbsp;to&nbsp;all&nbsp;special&nbsp;attacks&nbsp;that&nbsp;affect&nbsp;iron&nbsp;golems.
+      <p>You transform your body into living iron, which grants you several
+      powerful resistances and abilities. You gain damage reduction
+      15/adamantine. You are immune to blindness, critical hits, ability score
+      damage, deafness, disease, drowning, electricity, poison, stunning, and
+      all powers or attacks that affect your physiology or respiration, because
+      you have no physiology or respiration while this power is in effect. You
+      take only half damage from acid and fire. However, you also become
+      vulnerable to all special attacks that affect iron golems.
 
       </p>
 
-      <p>You&nbsp;gain&nbsp;a&nbsp;+6&nbsp;enhancement&nbsp;bonus&nbsp;to&nbsp;your&nbsp;Strength&nbsp;score,&nbsp;but&nbsp;you&nbsp;take&nbsp;a&nbsp;–6&nbsp;penalty&nbsp;to&nbsp;Dexterity&nbsp;as&nbsp;well&nbsp;(to&nbsp;a&nbsp;minimum&nbsp;Dexterity&nbsp;score&nbsp;of&nbsp;1),&nbsp;and&nbsp;your&nbsp;speed&nbsp;is&nbsp;reduced&nbsp;to&nbsp;half&nbsp;normal.&nbsp;You&nbsp;have&nbsp;an&nbsp;arcane&nbsp;spell&nbsp;failure&nbsp;chance&nbsp;of&nbsp;35%&nbsp;and&nbsp;a&nbsp;–6&nbsp;armor&nbsp;check&nbsp;penalty,&nbsp;just&nbsp;as&nbsp;if&nbsp;you&nbsp;were&nbsp;clad&nbsp;in&nbsp;full&nbsp;plate&nbsp;armor.&nbsp;You&nbsp;cannot&nbsp;drink&nbsp;(and&nbsp;thus&nbsp;can't&nbsp;use&nbsp;potions)&nbsp;or&nbsp;play&nbsp;wind&nbsp;instruments.
+      <p>You gain a +6 enhancement bonus to your Strength score, but you take a
+      –6 penalty to Dexterity as well (to a minimum Dexterity score of 1), and
+      your speed is reduced to half normal. You have an arcane spell failure
+      chance of 35% and a –6 armor check penalty, just as if you were clad in
+      full plate armor. You cannot drink (and thus can't use potions) or play
+      wind instruments.
 
       </p>
 
-      <p>Your&nbsp;unarmed&nbsp;attack&nbsp;deals&nbsp;damage&nbsp;equal&nbsp;to&nbsp;a&nbsp;club&nbsp;sized&nbsp;for&nbsp;you&nbsp;(1d4&nbsp;for&nbsp;Small&nbsp;characters&nbsp;or&nbsp;1d6&nbsp;for&nbsp;Medium&nbsp;characters),&nbsp;and&nbsp;you&nbsp;are&nbsp;considered&nbsp;armed&nbsp;when&nbsp;making&nbsp;unarmed&nbsp;attacks.
+      <p>Your unarmed attack deals damage equal to a club sized for you (1d4 for
+      Small characters or 1d6 for Medium characters), and you are considered
+      armed when making unarmed attacks.
 
       </p>
 
-      <p>Your&nbsp;weight&nbsp;increases&nbsp;by&nbsp;a&nbsp;factor&nbsp;of&nbsp;10,&nbsp;causing&nbsp;you&nbsp;to&nbsp;sink&nbsp;in&nbsp;water&nbsp;like&nbsp;a&nbsp;stone.&nbsp;However,&nbsp;you&nbsp;could&nbsp;survive&nbsp;the&nbsp;lack&nbsp;of&nbsp;air&nbsp;at&nbsp;the&nbsp;bottom&nbsp;of&nbsp;the&nbsp;ocean—at&nbsp;least&nbsp;until&nbsp;the&nbsp;duration&nbsp;expires.
+      <p>Your weight increases by a factor of 10, causing you to sink in water
+      like a stone. However, you could survive the lack of air at the bottom of
+      the ocean—at least until the duration expires.
 
       </p>
   discipline: metacreativity

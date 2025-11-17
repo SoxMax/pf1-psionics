@@ -28,15 +28,22 @@ system:
         value: You and one willing creature
   description:
     value: >-
-      <p>You&nbsp;form&nbsp;a&nbsp;mental&nbsp;bond&nbsp;with&nbsp;a&nbsp;creature&nbsp;within&nbsp;range&nbsp;and&nbsp;use&nbsp;that&nbsp;bond&nbsp;to&nbsp;coordinate&nbsp;your&nbsp;attacks&nbsp;to&nbsp;throw&nbsp;your&nbsp;foes&nbsp;off&nbsp;balance.
+      <p>You form a mental bond with a creature within range and use that bond
+      to coordinate your attacks to throw your foes off balance.
 
       </p>
 
-      <p>Creatures&nbsp;affected&nbsp;by&nbsp;this&nbsp;power&nbsp;may&nbsp;designate&nbsp;their&nbsp;own&nbsp;square&nbsp;or&nbsp;any&nbsp;square&nbsp;adjacent&nbsp;to&nbsp;them&nbsp;as&nbsp;the&nbsp;square&nbsp;they&nbsp;occupy&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of&nbsp;flanking&nbsp;on&nbsp;their&nbsp;turn.&nbsp;If&nbsp;they&nbsp;occupy&nbsp;the&nbsp;designated&nbsp;square,&nbsp;they&nbsp;gain&nbsp;an&nbsp;additional&nbsp;+2&nbsp;bonus&nbsp;from&nbsp;flanking.
+      <p>Creatures affected by this power may designate their own square or any
+      square adjacent to them as the square they occupy for the purposes of
+      flanking on their turn. If they occupy the designated square, they gain an
+      additional +2 bonus from flanking.
 
       </p>
 
-      <p>All&nbsp;targets&nbsp;gain&nbsp;some&nbsp;measure&nbsp;of&nbsp;awareness&nbsp;from&nbsp;other&nbsp;targets,&nbsp;guarding&nbsp;each&nbsp;other&nbsp;from&nbsp;external&nbsp;threats.&nbsp;If&nbsp;any&nbsp;target&nbsp;is&nbsp;aware&nbsp;of&nbsp;danger,&nbsp;all&nbsp;targets&nbsp;are.&nbsp;No&nbsp;target&nbsp;may&nbsp;be&nbsp;flat-footed&nbsp;or&nbsp;flanked&nbsp;unless&nbsp;all&nbsp;targets&nbsp;are.
+      <p>All targets gain some measure of awareness from other targets, guarding
+      each other from external threats. If any target is aware of danger, all
+      targets are. No target may be flat-footed or flanked unless all targets
+      are.
 
       </p>
   descriptors:

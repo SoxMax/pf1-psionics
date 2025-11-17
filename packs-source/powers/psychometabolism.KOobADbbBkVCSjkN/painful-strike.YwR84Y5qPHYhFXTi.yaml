@@ -27,11 +27,14 @@ system:
         value: You
   description:
     value: >-
-      <p>Your&nbsp;natural&nbsp;weapons&nbsp;cause&nbsp;additional&nbsp;pain.&nbsp;Each&nbsp;successful&nbsp;attack&nbsp;you&nbsp;make&nbsp;with&nbsp;a&nbsp;natural&nbsp;weapon&nbsp;deals&nbsp;an&nbsp;extra&nbsp;1d6&nbsp;points&nbsp;of&nbsp;nonlethal&nbsp;damage&nbsp;to&nbsp;the&nbsp;target.
+      <p>Your natural weapons cause additional pain. Each successful attack you
+      make with a natural weapon deals an extra 1d6 points of nonlethal damage
+      to the target.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action.
+      <p><strong>Augment:</strong> If you spend 6 additional power points, you
+      can manifest this power as a swift action.
 
       </p>
   discipline: psychometabolism

@@ -30,19 +30,47 @@ system:
         value: You plus one other creature
   description:
     value: >-
-      <p>When&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;you&nbsp;must&nbsp;choose&nbsp;one&nbsp;kind&nbsp;of&nbsp;saving&nbsp;throw:&nbsp;Fortitude,&nbsp;Reflex,&nbsp;or&nbsp;Will.&nbsp;For&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;power,&nbsp;all&nbsp;willing&nbsp;targets&nbsp;share&nbsp;the&nbsp;highest&nbsp;base&nbsp;bonus&nbsp;to&nbsp;that&nbsp;save.&nbsp;This&nbsp;only&nbsp;includes&nbsp;bonus&nbsp;to&nbsp;saves&nbsp;from&nbsp;hit&nbsp;dice&nbsp;(including&nbsp;racial&nbsp;hit&nbsp;dice&nbsp;and&nbsp;class&nbsp;levels),&nbsp;not&nbsp;any&nbsp;bonuses&nbsp;from&nbsp;ability&nbsp;scores,&nbsp;racial&nbsp;traits,&nbsp;class&nbsp;features,&nbsp;temporary&nbsp;effects&nbsp;such&nbsp;as&nbsp;powers,&nbsp;spells,&nbsp;and&nbsp;items,&nbsp;or&nbsp;such.&nbsp;You&nbsp;and&nbsp;all&nbsp;willing&nbsp;targets&nbsp;may&nbsp;use&nbsp;the&nbsp;highest&nbsp;save&nbsp;between&nbsp;you&nbsp;in&nbsp;place&nbsp;of&nbsp;their&nbsp;original&nbsp;values.
+      <p>When manifesting this power, you must choose one kind of saving throw:
+      Fortitude, Reflex, or Will. For the duration of the power, all willing
+      targets share the highest base bonus to that save. This only includes
+      bonus to saves from hit dice (including racial hit dice and class levels),
+      not any bonuses from ability scores, racial traits, class features,
+      temporary effects such as powers, spells, and items, or such. You and all
+      willing targets may use the highest save between you in place of their
+      original values.
 
       </p>
 
-      <p>Alternatively,&nbsp;you&nbsp;may&nbsp;force&nbsp;all&nbsp;targets&nbsp;to&nbsp;use&nbsp;the&nbsp;lowest&nbsp;save&nbsp;bonus&nbsp;between&nbsp;you&nbsp;in&nbsp;place&nbsp;of&nbsp;their&nbsp;original&nbsp;base&nbsp;save.&nbsp;If&nbsp;this&nbsp;decreases&nbsp;the&nbsp;target's&nbsp;bonus,&nbsp;then&nbsp;the&nbsp;target&nbsp;may&nbsp;attempt&nbsp;a&nbsp;Will&nbsp;save&nbsp;(with&nbsp;his&nbsp;normal&nbsp;Will&nbsp;saving&nbsp;throw&nbsp;modifier)&nbsp;every&nbsp;round&nbsp;to&nbsp;ignore&nbsp;the&nbsp;effects&nbsp;of&nbsp;this&nbsp;power&nbsp;for&nbsp;that&nbsp;round.
+      <p>Alternatively, you may force all targets to use the lowest save bonus
+      between you in place of their original base save. If this decreases the
+      target's bonus, then the target may attempt a Will save (with his normal
+      Will saving throw modifier) every round to ignore the effects of this
+      power for that round.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or more of
+      the following ways.
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;choose&nbsp;a&nbsp;second&nbsp;kind&nbsp;of&nbsp;saving&nbsp;throw&nbsp;to&nbsp;share.&nbsp;If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;choose&nbsp;to&nbsp;share&nbsp;all&nbsp;three&nbsp;kinds&nbsp;of&nbsp;saves&nbsp;with&nbsp;all&nbsp;targets.&nbsp;Compare&nbsp;each&nbsp;new&nbsp;save&nbsp;individually&nbsp;with&nbsp;each&nbsp;target's&nbsp;original,&nbsp;and&nbsp;use&nbsp;the&nbsp;favorable&nbsp;choice&nbsp;for&nbsp;the&nbsp;version&nbsp;of&nbsp;the&nbsp;power&nbsp;you&nbsp;are&nbsp;using.</li><li>For&nbsp;every&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;may&nbsp;also&nbsp;select&nbsp;one&nbsp;class&nbsp;feature&nbsp;belonging&nbsp;to&nbsp;you&nbsp;or&nbsp;a&nbsp;target&nbsp;that&nbsp;directly&nbsp;modifies&nbsp;the&nbsp;saving&nbsp;throw(s)&nbsp;you&nbsp;share,&nbsp;either&nbsp;by&nbsp;providing&nbsp;a&nbsp;bonus&nbsp;or&nbsp;by&nbsp;altering&nbsp;the&nbsp;effects&nbsp;of&nbsp;successful&nbsp;and/or&nbsp;failed&nbsp;saves.&nbsp;Example&nbsp;class&nbsp;features&nbsp;include&nbsp;evasion&nbsp;and&nbsp;improved&nbsp;evasion,&nbsp;still&nbsp;mind,&nbsp;divine&nbsp;grace,&nbsp;and&nbsp;slippery&nbsp;mind.&nbsp;The&nbsp;GM&nbsp;may&nbsp;allow&nbsp;additional&nbsp;abilities&nbsp;at&nbsp;his&nbsp;discretion.&nbsp;You&nbsp;may&nbsp;effectively&nbsp;grant&nbsp;this&nbsp;class&nbsp;feature&nbsp;to&nbsp;any&nbsp;or&nbsp;all&nbsp;willing&nbsp;targets&nbsp;of&nbsp;your&nbsp;choice;&nbsp;treat&nbsp;them&nbsp;as&nbsp;if&nbsp;they&nbsp;actually&nbsp;had&nbsp;the&nbsp;class&nbsp;feature&nbsp;in&nbsp;question,&nbsp;with&nbsp;one&nbsp;exception:&nbsp;if&nbsp;a&nbsp;class&nbsp;feature&nbsp;has&nbsp;additional&nbsp;benefits&nbsp;besides&nbsp;directly&nbsp;modifying&nbsp;the&nbsp;saving&nbsp;throw&nbsp;(such&nbsp;as&nbsp;fear&nbsp;immunity&nbsp;from&nbsp;Aura&nbsp;of&nbsp;Courage),&nbsp;then&nbsp;they&nbsp;are&nbsp;not&nbsp;included.</li></ol>
+      </p><ol><li>If you spend 2 additional power points, you may choose a
+      second kind of saving throw to share. If you spend 6 additional power
+      points, you may choose to share all three kinds of saves with all targets.
+      Compare each new save individually with each target's original, and use
+      the favorable choice for the version of the power you are
+      using.</li><li>For every 4 additional power points you spend, you may also
+      select one class feature belonging to you or a target that directly
+      modifies the saving throw(s) you share, either by providing a bonus or by
+      altering the effects of successful and/or failed saves. Example class
+      features include evasion and improved evasion, still mind, divine grace,
+      and slippery mind. The GM may allow additional abilities at his
+      discretion. You may effectively grant this class feature to any or all
+      willing targets of your choice; treat them as if they actually had the
+      class feature in question, with one exception: if a class feature has
+      additional benefits besides directly modifying the saving throw (such as
+      fear immunity from Aura of Courage), then they are not included.</li></ol>
 
-      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;spent&nbsp;to&nbsp;achieve&nbsp;either&nbsp;of&nbsp;these&nbsp;effects,&nbsp;the&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+      <p>In addition, for every 2 power points spent to achieve either of these
+      effects, the save DC increases by 1.
 
       </p>
   descriptors:

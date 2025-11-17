@@ -28,15 +28,23 @@ system:
         value: One living creature
   description:
     value: >-
-      <p>You&nbsp;disrupt&nbsp;the&nbsp;muscles&nbsp;and&nbsp;nerves&nbsp;of&nbsp;the&nbsp;target,&nbsp;causing&nbsp;it&nbsp;to&nbsp;be&nbsp;knocked&nbsp;prone&nbsp;on&nbsp;a&nbsp;failed&nbsp;save.
+      <p>You disrupt the muscles and nerves of the target, causing it to be
+      knocked prone on a failed save.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or more of
+      the following ways.
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;on&nbsp;a&nbsp;failed&nbsp;save&nbsp;the&nbsp;target&nbsp;is&nbsp;fatigued,&nbsp;sickened,&nbsp;or&nbsp;staggered,&nbsp;at&nbsp;your&nbsp;choice,&nbsp;for&nbsp;1&nbsp;round&nbsp;/&nbsp;level,&nbsp;in&nbsp;addition&nbsp;to&nbsp;being&nbsp;knocked&nbsp;prone.&nbsp;Multiple&nbsp;applications&nbsp;of&nbsp;this&nbsp;power&nbsp;do&nbsp;not&nbsp;cause&nbsp;the&nbsp;target&nbsp;to&nbsp;become&nbsp;exhausted.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;on&nbsp;a&nbsp;failed&nbsp;save&nbsp;the&nbsp;target&nbsp;is&nbsp;nauseated&nbsp;for&nbsp;1&nbsp;round&nbsp;/&nbsp;level,&nbsp;in&nbsp;addition&nbsp;to&nbsp;being&nbsp;knocked&nbsp;prone.</li></ol>
+      </p><ol><li>If you spend 2 additional power points, on a failed save the
+      target is fatigued, sickened, or staggered, at your choice, for 1 round /
+      level, in addition to being knocked prone. Multiple applications of this
+      power do not cause the target to become exhausted.</li><li>If you spend 4
+      additional power points, on a failed save the target is nauseated for 1
+      round / level, in addition to being knocked prone.</li></ol>
 
-      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;spent&nbsp;augmenting&nbsp;this&nbsp;power,&nbsp;the&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+      <p>In addition, for every 2 power points spent augmenting this power, the
+      save DC increases by 1.
 
       </p>
   discipline: psychometabolism

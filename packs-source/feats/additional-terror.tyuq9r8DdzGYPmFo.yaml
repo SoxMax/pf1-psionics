@@ -21,23 +21,15 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;have&nbsp;unlocked&nbsp;an&nbsp;additional&nbsp;form&nbsp;of&nbsp;fear.
-
+    value: |-
+      <p>You have unlocked an additional form of fear.
       </p>
-
-      <p><strong>Prerequisite:&nbsp;</strong>Terror&nbsp;class&nbsp;feature
-
+      <p><strong>Prerequisite: </strong>Terror class feature
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;gain&nbsp;an&nbsp;additional&nbsp;terror.
-
+      <p><strong>Benefit: </strong>You gain an additional terror.
       </p>
-
-      <p><strong>Special:&nbsp;</strong>You&nbsp;may&nbsp;take&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;times.&nbsp;Each
-
-      time,&nbsp;you&nbsp;gain&nbsp;a&nbsp;new&nbsp;terror.
-
+      <p><strong>Special: </strong>You may take this feat multiple times. Each
+      time, you gain a new terror.
       </p>
   disabled: false
   featType: feat

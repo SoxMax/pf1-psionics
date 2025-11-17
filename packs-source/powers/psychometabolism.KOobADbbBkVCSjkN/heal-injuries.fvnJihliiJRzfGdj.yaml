@@ -27,13 +27,19 @@ system:
         value: Living creature touched
   description:
     value: >-
-      <p>You&nbsp;psionically&nbsp;augment&nbsp;the&nbsp;healing&nbsp;ability&nbsp;of&nbsp;the&nbsp;targets&nbsp;with&nbsp;your&nbsp;power.&nbsp;The&nbsp;targets&nbsp;heal&nbsp;110&nbsp;points&nbsp;of&nbsp;damage&nbsp;total,&nbsp;divided&nbsp;among&nbsp;the&nbsp;targets&nbsp;at&nbsp;your&nbsp;discretion.
+      <p>You psionically augment the healing ability of the targets with your
+      power. The targets heal 110 points of damage total, divided among the
+      targets at your discretion.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or both of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;the&nbsp;total&nbsp;amount&nbsp;healed&nbsp;increases&nbsp;by&nbsp;10&nbsp;points&nbsp;of&nbsp;damage.</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;heal&nbsp;all&nbsp;living&nbsp;creatures&nbsp;within&nbsp;20&nbsp;feet&nbsp;of&nbsp;you.</li></ol>
+      </p><ol><li>For every additional power point you spend, the total amount
+      healed increases by 10 points of damage.</li><li>If you spend 6 additional
+      power points, you can heal all living creatures within 20 feet of
+      you.</li></ol>
   discipline: psychometabolism
   display:
     auditory: false

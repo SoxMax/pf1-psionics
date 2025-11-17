@@ -22,17 +22,31 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;afterimage&nbsp;and&nbsp;parallel&nbsp;actions&nbsp;can&nbsp;function&nbsp;somewhat&nbsp;independently&nbsp;from&nbsp;your&nbsp;own&nbsp;thoughts,&nbsp;pursuing&nbsp;your&nbsp;goals&nbsp;even&nbsp;when&nbsp;your&nbsp;attention&nbsp;is&nbsp;elsewhere&nbsp;or&nbsp;your&nbsp;will&nbsp;is&nbsp;subverted.</em></p>
+      <p><em>Your afterimage and parallel actions can function somewhat
+      independently from your own thoughts, pursuing your goals even when your
+      attention is elsewhere or your will is subverted.</em></p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Parallel&nbsp;action&nbsp;class&nbsp;feature,&nbsp;afterimage&nbsp;class&nbsp;feature.
+      <p><strong>Prerequisites:</strong> Parallel action class feature,
+      afterimage class feature.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;If&nbsp;your&nbsp;ability&nbsp;to&nbsp;think&nbsp;is&nbsp;impaired&nbsp;or&nbsp;your&nbsp;actions&nbsp;are&nbsp;removed&nbsp;entirely&nbsp;(such&nbsp;as&nbsp;by&nbsp;being&nbsp;stunned&nbsp;or&nbsp;affected&nbsp;by&nbsp;a&nbsp;<em>dominate&nbsp;person&nbsp;</em>spell),&nbsp;you&nbsp;can&nbsp;still&nbsp;move&nbsp;your&nbsp;afterimage&nbsp;and&nbsp;take&nbsp;parallel&nbsp;actions&nbsp;according&nbsp;to&nbsp;your&nbsp;best&nbsp;interests,&nbsp;even&nbsp;if&nbsp;an&nbsp;effect&nbsp;would&nbsp;normally&nbsp;prevent&nbsp;you&nbsp;from&nbsp;doing&nbsp;so&nbsp;or&nbsp;control&nbsp;your&nbsp;choices.&nbsp;This&nbsp;does&nbsp;not&nbsp;give&nbsp;your&nbsp;afterimages&nbsp;abilities&nbsp;they&nbsp;otherwise&nbsp;didn’t&nbsp;have,&nbsp;though—they&nbsp;still&nbsp;use&nbsp;your&nbsp;senses&nbsp;(they&nbsp;do&nbsp;not&nbsp;have&nbsp;their&nbsp;own),&nbsp;do&nbsp;not&nbsp;have&nbsp;minds&nbsp;of&nbsp;their&nbsp;own,&nbsp;and&nbsp;so&nbsp;on.&nbsp;This&nbsp;feat&nbsp;merely&nbsp;allows&nbsp;you&nbsp;to&nbsp;continue&nbsp;to&nbsp;use&nbsp;parallel&nbsp;actions&nbsp;when&nbsp;you&nbsp;otherwise&nbsp;couldn’t.
+      <p><strong>Benefit:</strong> If your ability to think is impaired or your
+      actions are removed entirely (such as by being stunned or affected by a
+      <em>dominate person </em>spell), you can still move your afterimage and
+      take parallel actions according to your best interests, even if an effect
+      would normally prevent you from doing so or control your choices. This
+      does not give your afterimages abilities they otherwise didn’t have,
+      though—they still use your senses (they do not have their own), do not
+      have minds of their own, and so on. This feat merely allows you to
+      continue to use parallel actions when you otherwise couldn’t.
 
       </p>
 
-      <p>In&nbsp;addition,&nbsp;when&nbsp;you&nbsp;are&nbsp;affected&nbsp;by&nbsp;an&nbsp;ongoing&nbsp;mind-affecting&nbsp;effect&nbsp;that&nbsp;allows&nbsp;a&nbsp;saving&nbsp;throw&nbsp;such&nbsp;as&nbsp;<em>charm&nbsp;person&nbsp;</em>or&nbsp;<em>crushing&nbsp;despair</em>),&nbsp;you&nbsp;can&nbsp;use&nbsp;your&nbsp;parallel&nbsp;action&nbsp;to&nbsp;make&nbsp;another&nbsp;save&nbsp;against&nbsp;it.
+      <p>In addition, when you are affected by an ongoing mind-affecting effect
+      that allows a saving throw such as <em>charm person </em>or <em>crushing
+      despair</em>), you can use your parallel action to make another save
+      against it.
 
       </p>
   disabled: false

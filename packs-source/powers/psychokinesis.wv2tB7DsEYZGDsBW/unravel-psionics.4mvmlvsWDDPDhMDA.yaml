@@ -35,15 +35,34 @@ system:
           one psionic item (see text)
   description:
     value: >-
-      <p>All&nbsp;psionic&nbsp;effects&nbsp;and&nbsp;psionic&nbsp;items&nbsp;within&nbsp;the&nbsp;radius&nbsp;of&nbsp;the&nbsp;power,&nbsp;except&nbsp;for&nbsp;those&nbsp;that&nbsp;you&nbsp;carry&nbsp;or&nbsp;touch,&nbsp;are&nbsp;disjoined.&nbsp;That&nbsp;is,&nbsp;powers&nbsp;and&nbsp;psi-like&nbsp;effects&nbsp;are&nbsp;unraveled&nbsp;and&nbsp;destroyed&nbsp;completely&nbsp;(ending&nbsp;the&nbsp;effect&nbsp;as&nbsp;a&nbsp;dispel&nbsp;psionics&nbsp;power&nbsp;does),&nbsp;and&nbsp;each&nbsp;permanent&nbsp;psionic&nbsp;item&nbsp;must&nbsp;make&nbsp;a&nbsp;successful&nbsp;Will&nbsp;save&nbsp;or&nbsp;be&nbsp;turned&nbsp;into&nbsp;a&nbsp;normal&nbsp;item&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power.&nbsp;An&nbsp;item&nbsp;in&nbsp;a&nbsp;creature's&nbsp;possession&nbsp;uses&nbsp;its&nbsp;own&nbsp;Will&nbsp;save&nbsp;bonus&nbsp;or&nbsp;its&nbsp;possessor's&nbsp;Will&nbsp;save&nbsp;bonus,&nbsp;whichever&nbsp;is&nbsp;higher.&nbsp;If&nbsp;an&nbsp;item's&nbsp;saving&nbsp;throw&nbsp;results&nbsp;in&nbsp;a&nbsp;natural&nbsp;1&nbsp;on&nbsp;the&nbsp;die,&nbsp;the&nbsp;item&nbsp;is&nbsp;destroyed&nbsp;instead&nbsp;of&nbsp;being&nbsp;suppressed.
+      <p>All psionic effects and psionic items within the radius of the power,
+      except for those that you carry or touch, are disjoined. That is, powers
+      and psi-like effects are unraveled and destroyed completely (ending the
+      effect as a dispel psionics power does), and each permanent psionic item
+      must make a successful Will save or be turned into a normal item for the
+      duration of this power. An item in a creature's possession uses its own
+      Will save bonus or its possessor's Will save bonus, whichever is higher.
+      If an item's saving throw results in a natural 1 on the die, the item is
+      destroyed instead of being suppressed.
 
       </p>
 
-      <p>You&nbsp;also&nbsp;have&nbsp;a&nbsp;1%&nbsp;chance&nbsp;per&nbsp;manifester&nbsp;level&nbsp;of&nbsp;destroying&nbsp;a&nbsp;null&nbsp;psionics&nbsp;field.&nbsp;If&nbsp;the&nbsp;null&nbsp;psionics&nbsp;field&nbsp;survives&nbsp;the&nbsp;disjunction,&nbsp;no&nbsp;items&nbsp;within&nbsp;it&nbsp;are&nbsp;disjoined.
+      <p>You also have a 1% chance per manifester level of destroying a null
+      psionics field. If the null psionics field survives the disjunction, no
+      items within it are disjoined.
 
       </p>
 
-      <p>You&nbsp;can&nbsp;also&nbsp;use&nbsp;this&nbsp;power&nbsp;to&nbsp;target&nbsp;a&nbsp;single&nbsp;item.&nbsp;The&nbsp;item&nbsp;gets&nbsp;a&nbsp;Will&nbsp;save&nbsp;at&nbsp;a&nbsp;–5&nbsp;penalty&nbsp;to&nbsp;avoid&nbsp;being&nbsp;permanently&nbsp;destroyed.&nbsp;Even&nbsp;artifacts&nbsp;are&nbsp;subject&nbsp;to&nbsp;disjunction,&nbsp;though&nbsp;there&nbsp;is&nbsp;only&nbsp;a&nbsp;1%&nbsp;chance&nbsp;per&nbsp;manifester&nbsp;level&nbsp;of&nbsp;actually&nbsp;affecting&nbsp;such&nbsp;powerful&nbsp;items.&nbsp;If&nbsp;successful,&nbsp;the&nbsp;artifact's&nbsp;power&nbsp;unravels,&nbsp;and&nbsp;it&nbsp;is&nbsp;destroyed&nbsp;(with&nbsp;no&nbsp;save).&nbsp;If&nbsp;an&nbsp;artifact&nbsp;is&nbsp;destroyed,&nbsp;you&nbsp;must&nbsp;make&nbsp;a&nbsp;DC&nbsp;25&nbsp;Will&nbsp;save&nbsp;or&nbsp;permanently&nbsp;lose&nbsp;all&nbsp;manifesting&nbsp;abilities.&nbsp;These&nbsp;abilities&nbsp;cannot&nbsp;be&nbsp;recovered&nbsp;by&nbsp;mortal&nbsp;power,&nbsp;not&nbsp;even&nbsp;reality&nbsp;revision,&nbsp;miracle,&nbsp;or&nbsp;wish.&nbsp;Destroying&nbsp;artifacts&nbsp;is&nbsp;a&nbsp;dangerous&nbsp;business,&nbsp;and&nbsp;it&nbsp;is&nbsp;95%&nbsp;likely&nbsp;to&nbsp;attract&nbsp;the&nbsp;attention&nbsp;of&nbsp;some&nbsp;powerful&nbsp;being&nbsp;who&nbsp;has&nbsp;an&nbsp;interest&nbsp;in&nbsp;or&nbsp;connection&nbsp;with&nbsp;the&nbsp;device.
+      <p>You can also use this power to target a single item. The item gets a
+      Will save at a –5 penalty to avoid being permanently destroyed. Even
+      artifacts are subject to disjunction, though there is only a 1% chance per
+      manifester level of actually affecting such powerful items. If successful,
+      the artifact's power unravels, and it is destroyed (with no save). If an
+      artifact is destroyed, you must make a DC 25 Will save or permanently lose
+      all manifesting abilities. These abilities cannot be recovered by mortal
+      power, not even reality revision, miracle, or wish. Destroying artifacts
+      is a dangerous business, and it is 95% likely to attract the attention of
+      some powerful being who has an interest in or connection with the device.
 
       </p>
   discipline: psychokinesis

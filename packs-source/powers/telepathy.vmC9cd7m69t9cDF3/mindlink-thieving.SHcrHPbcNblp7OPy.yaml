@@ -25,15 +25,30 @@ system:
         type: will
   description:
     value: >-
-      <p>As&nbsp;<em><a&nbsp;href="/wiki/Mindlink"&nbsp;title="Mindlink">mindlink</a></em>,&nbsp;except&nbsp;that&nbsp;if&nbsp;the&nbsp;target&nbsp;is&nbsp;a&nbsp;psionic&nbsp;character&nbsp;or&nbsp;creature&nbsp;that&nbsp;knows&nbsp;powers,&nbsp;you&nbsp;can&nbsp;temporarily&nbsp;borrow&nbsp;a&nbsp;power&nbsp;of&nbsp;your&nbsp;choice&nbsp;(you&nbsp;are&nbsp;aware&nbsp;of&nbsp;what&nbsp;powers&nbsp;the&nbsp;subject&nbsp;knows,&nbsp;up&nbsp;to&nbsp;the&nbsp;highest&nbsp;level&nbsp;of&nbsp;power&nbsp;you&nbsp;can&nbsp;manifest).
+      <p>As <em><a href="/wiki/Mindlink" title="Mindlink">mindlink</a></em>,
+      except that if the target is a psionic character or creature that knows
+      powers, you can temporarily borrow a power of your choice (you are aware
+      of what powers the subject knows, up to the highest level of power you can
+      manifest).
 
       </p>
 
-      <p>Borrowing&nbsp;the&nbsp;subject's&nbsp;power&nbsp;is&nbsp;a&nbsp;separate&nbsp;standard&nbsp;action&nbsp;that&nbsp;provokes&nbsp;an&nbsp;attack&nbsp;of&nbsp;opportunity.&nbsp;If&nbsp;the&nbsp;attack&nbsp;to&nbsp;borrow&nbsp;a&nbsp;power&nbsp;succeeds,&nbsp;the&nbsp;mental&nbsp;communication&nbsp;provided&nbsp;by&nbsp;this&nbsp;power&nbsp;ends&nbsp;immediately.&nbsp;The&nbsp;borrowed&nbsp;power&nbsp;fades&nbsp;from&nbsp;the&nbsp;subject's&nbsp;awareness&nbsp;and&nbsp;appears&nbsp;within&nbsp;your&nbsp;own.&nbsp;You&nbsp;can&nbsp;now&nbsp;spend&nbsp;power&nbsp;points&nbsp;to&nbsp;manifest&nbsp;the&nbsp;borrowed&nbsp;power&nbsp;just&nbsp;as&nbsp;if&nbsp;it&nbsp;were&nbsp;one&nbsp;of&nbsp;your&nbsp;powers&nbsp;known.&nbsp;You&nbsp;maintain&nbsp;knowledge&nbsp;of&nbsp;the&nbsp;borrowed&nbsp;power&nbsp;until&nbsp;the&nbsp;duration&nbsp;of&nbsp;your&nbsp;thieving&nbsp;mindlink&nbsp;expires,&nbsp;at&nbsp;which&nbsp;time&nbsp;you&nbsp;lose&nbsp;knowledge&nbsp;of&nbsp;the&nbsp;power&nbsp;and&nbsp;the&nbsp;power&nbsp;reappears&nbsp;in&nbsp;the&nbsp;mind&nbsp;of&nbsp;the&nbsp;subject,&nbsp;no&nbsp;matter&nbsp;how&nbsp;far&nbsp;from&nbsp;you&nbsp;the&nbsp;subject&nbsp;is.&nbsp;Even&nbsp;if&nbsp;the&nbsp;subject&nbsp;is&nbsp;slain,&nbsp;you&nbsp;lose&nbsp;knowledge&nbsp;of&nbsp;the&nbsp;borrowed&nbsp;power&nbsp;when&nbsp;this&nbsp;power's&nbsp;duration&nbsp;expires.
+      <p>Borrowing the subject's power is a separate standard action that
+      provokes an attack of opportunity. If the attack to borrow a power
+      succeeds, the mental communication provided by this power ends
+      immediately. The borrowed power fades from the subject's awareness and
+      appears within your own. You can now spend power points to manifest the
+      borrowed power just as if it were one of your powers known. You maintain
+      knowledge of the borrowed power until the duration of your thieving
+      mindlink expires, at which time you lose knowledge of the power and the
+      power reappears in the mind of the subject, no matter how far from you the
+      subject is. Even if the subject is slain, you lose knowledge of the
+      borrowed power when this power's duration expires.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+      <p><strong>Augment:</strong> For every 2 additional power points you
+      spend, this power's save DC increases by 1.
 
       </p>
   descriptors:

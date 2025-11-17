@@ -70,7 +70,11 @@ system:
     umd: false
   description:
     value: >-
-      <p>Skilled&nbsp;vitalists&nbsp;understand&nbsp;that&nbsp;there&nbsp;is&nbsp;merit&nbsp;in&nbsp;expanding&nbsp;their&nbsp;arsenal.&nbsp;At&nbsp;9th&nbsp;level,&nbsp;a&nbsp;vitalist&nbsp;gains&nbsp;@UUID[Compendium.pf1-psionics.feats.Item.c0UEsI7FACYLayaw]{Expanded&nbsp;Knowledge}&nbsp;as&nbsp;a&nbsp;bonus&nbsp;feat.&nbsp;He&nbsp;gains&nbsp;this&nbsp;feat&nbsp;again&nbsp;at&nbsp;18th&nbsp;level.</p><p></p>
+      <p>Skilled vitalists understand that there is merit in expanding their
+      arsenal. At 9th level, a vitalist gains
+      @UUID[Compendium.pf1-psionics.feats.Item.c0UEsI7FACYLayaw]{Expanded
+      Knowledge} as a bonus feat. He gains this feat again at 18th
+      level.</p>
   disabled: false
   inherited: false
   showInCombat: false

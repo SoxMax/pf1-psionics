@@ -21,23 +21,15 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;are&nbsp;able&nbsp;to&nbsp;recharge&nbsp;your&nbsp;psychic&nbsp;strike&nbsp;through
-
-      truly&nbsp;potent&nbsp;attacks&nbsp;invigorating&nbsp;your&nbsp;confidence.
-
+    value: |-
+      <p>You are able to recharge your psychic strike through
+      truly potent attacks invigorating your confidence.
       </p>
-
-      <p><strong>Prerequisites</strong>:&nbsp;Psychic&nbsp;Strike&nbsp;+1d8
-
+      <p><strong>Prerequisites</strong>: Psychic Strike +1d8
       </p>
-
-      <p><strong>Benefit</strong>:&nbsp;One&nbsp;per&nbsp;round&nbsp;when&nbsp;you&nbsp;make&nbsp;a&nbsp;successful
-
-      critical&nbsp;hit&nbsp;you&nbsp;may&nbsp;recharge&nbsp;your&nbsp;psychic&nbsp;strike&nbsp;as&nbsp;a
-
-      free&nbsp;action&nbsp;(even&nbsp;if&nbsp;it&nbsp;is&nbsp;not&nbsp;your&nbsp;turn).
-
+      <p><strong>Benefit</strong>: One per round when you make a successful
+      critical hit you may recharge your psychic strike as a
+      free action (even if it is not your turn).
       </p>
   disabled: false
   featType: feat

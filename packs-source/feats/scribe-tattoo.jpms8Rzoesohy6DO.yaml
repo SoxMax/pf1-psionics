@@ -22,21 +22,30 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;have&nbsp;mastered&nbsp;the&nbsp;art&nbsp;of&nbsp;scribing&nbsp;psionic&nbsp;tattoos.</em></p>
+      <p><em>You have mastered the art of scribing psionic tattoos.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Scribe_Tattoo"&nbsp;title="Scribe&nbsp;Tattoo">Scribe&nbsp;Tattoo</a>,&nbsp;manifester&nbsp;level&nbsp;3rd.
-
-      </p>
-
-      <p><strong>Benefit:</strong>&nbsp;At&nbsp;the&nbsp;beginning&nbsp;of&nbsp;each&nbsp;day&nbsp;when&nbsp;you&nbsp;regain&nbsp;your&nbsp;uses&nbsp;of&nbsp;mythic&nbsp;power,&nbsp;you&nbsp;can&nbsp;expend&nbsp;one&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;to&nbsp;accomplish&nbsp;eight&nbsp;hours&nbsp;of&nbsp;work&nbsp;on&nbsp;one&nbsp;psionic&nbsp;tattoo&nbsp;you&nbsp;are&nbsp;scribing.&nbsp;You&nbsp;can&nbsp;only&nbsp;do&nbsp;this&nbsp;once&nbsp;per&nbsp;day&nbsp;per&nbsp;tattoo&nbsp;you&nbsp;are&nbsp;scribing,&nbsp;though&nbsp;you&nbsp;may&nbsp;also&nbsp;add&nbsp;an&nbsp;actual&nbsp;eighthour&nbsp;work&nbsp;day&nbsp;toward&nbsp;the&nbsp;scribing&nbsp;of&nbsp;such&nbsp;a&nbsp;tattoo.
+      <p><strong>Prerequisites:</strong><a href="/wiki/Scribe_Tattoo"
+      title="Scribe Tattoo">Scribe Tattoo</a>, manifester level 3rd.
 
       </p>
 
-      <p>Unlike&nbsp;normal&nbsp;tattoo&nbsp;scribing,&nbsp;work&nbsp;accomplished&nbsp;by&nbsp;expending&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;does&nbsp;not&nbsp;require&nbsp;any&nbsp;special&nbsp;work&nbsp;space&nbsp;or&nbsp;quiet&nbsp;(though&nbsp;the&nbsp;cost&nbsp;of&nbsp;making&nbsp;magic&nbsp;items&nbsp;created&nbsp;this&nbsp;way&nbsp;is&nbsp;normal).
+      <p><strong>Benefit:</strong> At the beginning of each day when you regain
+      your uses of mythic power, you can expend one use of mythic power to
+      accomplish eight hours of work on one psionic tattoo you are scribing. You
+      can only do this once per day per tattoo you are scribing, though you may
+      also add an actual eighthour work day toward the scribing of such a
+      tattoo.
 
       </p>
 
-      <p>Additionally,&nbsp;there&nbsp;is&nbsp;no&nbsp;limit&nbsp;to&nbsp;the&nbsp;level&nbsp;of&nbsp;power&nbsp;you&nbsp;can&nbsp;imbue&nbsp;into&nbsp;a&nbsp;tattoo.
+      <p>Unlike normal tattoo scribing, work accomplished by expending a use of
+      mythic power does not require any special work space or quiet (though the
+      cost of making magic items created this way is normal).
+
+      </p>
+
+      <p>Additionally, there is no limit to the level of power you can imbue
+      into a tattoo.
 
       </p>
   disabled: false

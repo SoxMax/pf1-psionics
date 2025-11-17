@@ -22,25 +22,26 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>Your&nbsp;powers&nbsp;are&nbsp;especially&nbsp;potent&nbsp;at&nbsp;breaking&nbsp;through
+      <p>Your powers are especially potent at breaking through
 
-      power&nbsp;resistance.
-
-      </p>
-
-      <p><strong>Prerequisite:&nbsp;</strong><a&nbsp;href="/wiki/Power_Penetration"&nbsp;title="Power&nbsp;Penetration">Power&nbsp;Penetration</a>.
+      power resistance.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;use&nbsp;the&nbsp;Power&nbsp;Penetration&nbsp;feat,
+      <p><strong>Prerequisite: </strong><a href="/wiki/Power_Penetration"
+      title="Power Penetration">Power Penetration</a>.
 
-      the&nbsp;bonus&nbsp;on&nbsp;manifester&nbsp;level&nbsp;checks&nbsp;to&nbsp;overcome&nbsp;a
+      </p>
 
-      creature’s&nbsp;power&nbsp;resistance&nbsp;increases&nbsp;to&nbsp;+4&nbsp;when&nbsp;you
+      <p><strong>Benefit: </strong>When you use the Power Penetration feat,
 
-      maintain&nbsp;psionic&nbsp;focus,&nbsp;and&nbsp;+8&nbsp;when&nbsp;you&nbsp;expend&nbsp;you
+      the bonus on manifester level checks to overcome a
 
-      psionic&nbsp;focus.
+      creature’s power resistance increases to +4 when you
+
+      maintain psionic focus, and +8 when you expend you
+
+      psionic focus.
 
       </p>
   disabled: false

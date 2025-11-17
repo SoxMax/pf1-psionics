@@ -22,45 +22,48 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>Your&nbsp;vicious&nbsp;attacks&nbsp;wound&nbsp;your&nbsp;foe.
+      <p>Your vicious attacks wound your foe.
 
       </p>
 
-      <p><strong>Prerequisite:&nbsp;</strong>Base&nbsp;attack&nbsp;bonus&nbsp;+8.
+      <p><strong>Prerequisite: </strong>Base attack bonus +8.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your
+      <p><strong>Benefit: </strong>To use this feat, you must expend your
 
-      psionic&nbsp;focus.&nbsp;You&nbsp;can&nbsp;make&nbsp;an&nbsp;attack&nbsp;with&nbsp;such&nbsp;vicious
+      psionic focus. You can make an attack with such vicious
 
-      force&nbsp;that&nbsp;you&nbsp;wound&nbsp;your&nbsp;opponent.&nbsp;A&nbsp;wound&nbsp;deals&nbsp;1
+      force that you wound your opponent. A wound deals 1
 
-      point&nbsp;of&nbsp;Constitution&nbsp;damage&nbsp;to&nbsp;your&nbsp;foe&nbsp;in&nbsp;addition&nbsp;to
+      point of Constitution damage to your foe in addition to
 
-      the&nbsp;usual&nbsp;damage&nbsp;dealt.
-
-      </p>
-
-      <p>You&nbsp;must&nbsp;decide&nbsp;whether&nbsp;or&nbsp;not&nbsp;to&nbsp;use&nbsp;this&nbsp;feat&nbsp;prior&nbsp;to
-
-      making&nbsp;an&nbsp;attack.&nbsp;If&nbsp;your&nbsp;attack&nbsp;misses,&nbsp;you&nbsp;still&nbsp;expend
-
-      your&nbsp;psionic&nbsp;focus.
+      the usual damage dealt.
 
       </p>
 
-      <p><br&nbsp;/></p>
+      <p>You must decide whether or not to use this feat prior to
 
-      <p>Your&nbsp;attacks&nbsp;are&nbsp;particularly&nbsp;debilitating.
+      making an attack. If your attack misses, you still expend
 
-      </p>
-
-      <p><strong>Prerequisite:</strong>&nbsp;Wounding&nbsp;Attack.
+      your psionic focus.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;The&nbsp;Constitution&nbsp;damage&nbsp;dealt&nbsp;from&nbsp;Wounding&nbsp;Attack&nbsp;is&nbsp;doubled.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;when&nbsp;an&nbsp;attack&nbsp;made&nbsp;with&nbsp;Wounding&nbsp;Attack&nbsp;misses&nbsp;to&nbsp;reroll&nbsp;the&nbsp;attack&nbsp;roll.&nbsp;
+      <p><br /></p>
+
+      <p>Your attacks are particularly debilitating.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong> Wounding Attack.
+
+      </p>
+
+      <p><strong>Benefit:</strong> The Constitution damage dealt from Wounding
+      Attack is doubled. In addition, you can expend a use of mythic power as a
+      swift action when an attack made with Wounding Attack misses to reroll the
+      attack roll. 
 
       </p>
   disabled: false

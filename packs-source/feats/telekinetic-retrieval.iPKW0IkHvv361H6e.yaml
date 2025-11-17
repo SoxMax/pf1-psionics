@@ -22,13 +22,18 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;are&nbsp;able&nbsp;to&nbsp;use&nbsp;your&nbsp;telekinetic&nbsp;ability&nbsp;to&nbsp;bring&nbsp;things&nbsp;back&nbsp;to&nbsp;your&nbsp;hand&nbsp;after&nbsp;you&nbsp;throw&nbsp;them.</em></p>
+      <p><em>You are able to use your telekinetic ability to bring things back
+      to your hand after you throw them.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Natural_Telekinetic"&nbsp;title="Natural&nbsp;Telekinetic">Natural&nbsp;Telekinetic</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Natural_Telekinetic"
+      title="Natural Telekinetic">Natural Telekinetic</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;throwing&nbsp;a&nbsp;thrown&nbsp;weapon,&nbsp;you&nbsp;can&nbsp;use&nbsp;your&nbsp;<em>far&nbsp;hand&nbsp;</em>psi-like&nbsp;ability&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;recall&nbsp;your&nbsp;thrown&nbsp;weapon&nbsp;in&nbsp;the&nbsp;same&nbsp;round&nbsp;as&nbsp;you&nbsp;threw&nbsp;it,&nbsp;provided&nbsp;the&nbsp;weight&nbsp;of&nbsp;the&nbsp;thrown&nbsp;weapon&nbsp;is&nbsp;within&nbsp;your&nbsp;weight&nbsp;limits&nbsp;for&nbsp;the&nbsp;ability.
+      <p><strong>Benefit: </strong>When throwing a thrown weapon, you can use
+      your <em>far hand </em>psi-like ability as a swift action to recall your
+      thrown weapon in the same round as you threw it, provided the weight of
+      the thrown weapon is within your weight limits for the ability.
 
       </p>
   disabled: false

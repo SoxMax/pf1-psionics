@@ -28,11 +28,19 @@ system:
         value: One living creature
   description:
     value: >-
-      <p>You&nbsp;rip&nbsp;the&nbsp;soul&nbsp;from&nbsp;another,&nbsp;killing&nbsp;them&nbsp;and&nbsp;turning&nbsp;the&nbsp;stolen&nbsp;essence&nbsp;into&nbsp;a&nbsp;ghost.&nbsp;This&nbsp;power&nbsp;deals&nbsp;10&nbsp;points&nbsp;of&nbsp;damage&nbsp;per&nbsp;manifester&nbsp;level&nbsp;to&nbsp;the&nbsp;target.&nbsp;If&nbsp;the&nbsp;target's&nbsp;Fortitude&nbsp;save&nbsp;succeeds,&nbsp;it&nbsp;instead&nbsp;takes&nbsp;3d6&nbsp;+&nbsp;1&nbsp;point/manifester&nbsp;level.&nbsp;If&nbsp;damage&nbsp;from&nbsp;this&nbsp;power&nbsp;kills&nbsp;the&nbsp;target,&nbsp;you&nbsp;may&nbsp;immediately&nbsp;animate&nbsp;their&nbsp;soul&nbsp;as&nbsp;a&nbsp;ghost&nbsp;that&nbsp;shares&nbsp;your&nbsp;alignment&nbsp;and&nbsp;motivations&nbsp;(and&nbsp;will&nbsp;generally&nbsp;be&nbsp;friendly&nbsp;towards&nbsp;you).&nbsp;In&nbsp;addition,&nbsp;the&nbsp;ghost&nbsp;suffers&nbsp;a&nbsp;permanent&nbsp;-2&nbsp;penalty&nbsp;on&nbsp;saves&nbsp;against&nbsp;athanatism&nbsp;powers&nbsp;or&nbsp;effects&nbsp;that&nbsp;you&nbsp;manifest
+      <p>You rip the soul from another, killing them and turning the stolen
+      essence into a ghost. This power deals 10 points of damage per manifester
+      level to the target. If the target's Fortitude save succeeds, it instead
+      takes 3d6 + 1 point/manifester level. If damage from this power kills the
+      target, you may immediately animate their soul as a ghost that shares your
+      alignment and motivations (and will generally be friendly towards you). In
+      addition, the ghost suffers a permanent -2 penalty on saves against
+      athanatism powers or effects that you manifest
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;two&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;increase&nbsp;the&nbsp;save&nbsp;DC&nbsp;of&nbsp;this&nbsp;power&nbsp;by&nbsp;1.
+      <p><strong>Augment:</strong> For every two additional power points you
+      spend, increase the save DC of this power by 1.
 
       </p>
   descriptors:

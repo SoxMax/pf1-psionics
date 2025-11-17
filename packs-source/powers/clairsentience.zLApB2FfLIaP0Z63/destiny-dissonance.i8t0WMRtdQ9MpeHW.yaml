@@ -27,7 +27,10 @@ system:
         value: Creature touched
   description:
     value: >-
-      <p>Your&nbsp;mere&nbsp;touch&nbsp;grants&nbsp;your&nbsp;foe&nbsp;an&nbsp;imperfect,&nbsp;unfocused&nbsp;glimpse&nbsp;of&nbsp;the&nbsp;many&nbsp;possible&nbsp;futures&nbsp;in&nbsp;store.&nbsp;Unaccustomed&nbsp;to&nbsp;and&nbsp;unable&nbsp;to&nbsp;process&nbsp;the&nbsp;information,&nbsp;the&nbsp;subject&nbsp;becomes&nbsp;sickened&nbsp;for&nbsp;1&nbsp;round&nbsp;per&nbsp;level&nbsp;of&nbsp;the&nbsp;manifester&nbsp;if&nbsp;you&nbsp;succeed&nbsp;on&nbsp;a&nbsp;melee&nbsp;touch&nbsp;attack.
+      <p>Your mere touch grants your foe an imperfect, unfocused glimpse of the
+      many possible futures in store. Unaccustomed to and unable to process the
+      information, the subject becomes sickened for 1 round per level of the
+      manifester if you succeed on a melee touch attack.
 
       </p>
   discipline: clairsentience

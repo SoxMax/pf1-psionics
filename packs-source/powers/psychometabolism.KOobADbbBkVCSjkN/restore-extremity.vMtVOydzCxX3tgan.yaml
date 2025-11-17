@@ -29,7 +29,13 @@ system:
         value: Creature touched
   description:
     value: >-
-      <p>You&nbsp;restore&nbsp;a&nbsp;severed&nbsp;extremity&nbsp;to&nbsp;a&nbsp;creature&nbsp;that&nbsp;has&nbsp;lost&nbsp;a&nbsp;digit,&nbsp;hand,&nbsp;arm,&nbsp;leg,&nbsp;or&nbsp;even&nbsp;its&nbsp;head.&nbsp;This&nbsp;power&nbsp;does&nbsp;not&nbsp;restore&nbsp;life,&nbsp;but&nbsp;it&nbsp;returns&nbsp;a&nbsp;lost&nbsp;extremity&nbsp;to&nbsp;a&nbsp;living&nbsp;or&nbsp;dead&nbsp;creature&nbsp;if&nbsp;the&nbsp;creature&nbsp;is&nbsp;otherwise&nbsp;mostly&nbsp;intact.&nbsp;The&nbsp;original&nbsp;extremity&nbsp;need&nbsp;not&nbsp;be&nbsp;present&nbsp;when&nbsp;this&nbsp;power&nbsp;is&nbsp;manifested;&nbsp;a&nbsp;new&nbsp;extremity&nbsp;is&nbsp;created&nbsp;by&nbsp;the&nbsp;power.&nbsp;If&nbsp;a&nbsp;head&nbsp;is&nbsp;restored&nbsp;to&nbsp;a&nbsp;body,&nbsp;the&nbsp;original&nbsp;head&nbsp;(if&nbsp;not&nbsp;already&nbsp;destroyed)&nbsp;loses&nbsp;all&nbsp;spark&nbsp;of&nbsp;identity,&nbsp;and&nbsp;can&nbsp;be&nbsp;considered&nbsp;dead&nbsp;tissue.
+      <p>You restore a severed extremity to a creature that has lost a digit,
+      hand, arm, leg, or even its head. This power does not restore life, but it
+      returns a lost extremity to a living or dead creature if the creature is
+      otherwise mostly intact. The original extremity need not be present when
+      this power is manifested; a new extremity is created by the power. If a
+      head is restored to a body, the original head (if not already destroyed)
+      loses all spark of identity, and can be considered dead tissue.
 
       </p>
   discipline: psychometabolism

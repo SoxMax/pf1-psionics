@@ -32,13 +32,16 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;mend&nbsp;your&nbsp;own&nbsp;wounds,&nbsp;healing&nbsp;3d8&nbsp;points&nbsp;of&nbsp;damage.
+      <p>You mend your own wounds, healing 3d8 points of damage.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power may be augmented in one or both of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;spent,&nbsp;the&nbsp;power&nbsp;heals&nbsp;an&nbsp;additional&nbsp;1d8&nbsp;points&nbsp;of&nbsp;damage.</li><li>By&nbsp;expending&nbsp;your&nbsp;psionic&nbsp;focus,&nbsp;each&nbsp;1d8&nbsp;points&nbsp;of&nbsp;damage&nbsp;healed&nbsp;is&nbsp;instead&nbsp;2d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;healed.</li></ol>
+      </p><ol><li>For every 2 power points spent, the power heals an additional
+      1d8 points of damage.</li><li>By expending your psionic focus, each 1d8
+      points of damage healed is instead 2d6 points of damage healed.</li></ol>
   discipline: psychometabolism
   display:
     auditory: true

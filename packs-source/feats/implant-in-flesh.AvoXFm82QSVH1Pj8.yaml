@@ -22,13 +22,18 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;mental&nbsp;powers&nbsp;more&nbsp;effectively&nbsp;follow&nbsp;your&nbsp;physical&nbsp;powers.</em></p>
+      <p><em>Your mental powers more effectively follow your physical
+      powers.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Through_the_Flesh"&nbsp;title="Through&nbsp;the&nbsp;Flesh">Through&nbsp;the&nbsp;Flesh</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Through_the_Flesh"
+      title="Through the Flesh">Through the Flesh</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;using&nbsp;the&nbsp;Through&nbsp;the&nbsp;Flesh&nbsp;metapsionic&nbsp;feat,&nbsp;the&nbsp;target&nbsp;does&nbsp;not&nbsp;gain&nbsp;a&nbsp;save&nbsp;against&nbsp;the&nbsp;telepathy&nbsp;power&nbsp;if&nbsp;they&nbsp;fail&nbsp;their&nbsp;save&nbsp;against&nbsp;the&nbsp;psychometabolism&nbsp;power,&nbsp;or&nbsp;if&nbsp;that&nbsp;power&nbsp;does&nbsp;not&nbsp;allow&nbsp;a&nbsp;save.
+      <p><strong>Benefit: </strong>When using the Through the Flesh metapsionic
+      feat, the target does not gain a save against the telepathy power if they
+      fail their save against the psychometabolism power, or if that power does
+      not allow a save.
 
       </p>
   disabled: false

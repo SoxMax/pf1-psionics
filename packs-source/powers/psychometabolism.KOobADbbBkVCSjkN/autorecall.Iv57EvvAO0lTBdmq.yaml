@@ -27,11 +27,16 @@ system:
         value: Your psicrystal
   description:
     value: >-
-      <p>You&nbsp;bind&nbsp;yourself&nbsp;to&nbsp;your&nbsp;psicrystal,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;recall&nbsp;the&nbsp;psicrystal&nbsp;to&nbsp;your&nbsp;side&nbsp;with&nbsp;but&nbsp;a&nbsp;thought.&nbsp;As&nbsp;a&nbsp;free&nbsp;action,&nbsp;while&nbsp;the&nbsp;power&nbsp;is&nbsp;in&nbsp;effect&nbsp;and&nbsp;within&nbsp;range,&nbsp;you&nbsp;can&nbsp;recall&nbsp;your&nbsp;psicrystal,&nbsp;instantly&nbsp;teleporting&nbsp;it&nbsp;to&nbsp;your&nbsp;side.&nbsp;When&nbsp;you&nbsp;do,&nbsp;the&nbsp;power&nbsp;ends.
+      <p>You bind yourself to your psicrystal, allowing you to recall the
+      psicrystal to your side with but a thought. As a free action, while the
+      power is in effect and within range, you can recall your psicrystal,
+      instantly teleporting it to your side. When you do, the power ends.
 
       </p>
 
-      <p><strong>Augment:&nbsp;</strong>If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;your&nbsp;psicrystal&nbsp;can&nbsp;trigger&nbsp;the&nbsp;recall&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action.
+      <p><strong>Augment: </strong>If you expend your psionic focus when
+      manifesting this power, your psicrystal can trigger the recall as an
+      immediate action.
 
       </p>
   discipline: psychometabolism

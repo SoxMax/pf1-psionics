@@ -28,21 +28,41 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;exhale&nbsp;your&nbsp;life&nbsp;force&nbsp;temporarily,&nbsp;unbinding&nbsp;your&nbsp;spirit&nbsp;from&nbsp;your&nbsp;body.&nbsp;For&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power,&nbsp;you&nbsp;lay&nbsp;in&nbsp;a&nbsp;deathlike&nbsp;comatose&nbsp;state.
+      <p>You exhale your life force temporarily, unbinding your spirit from your
+      body. For the duration of this power, you lay in a deathlike comatose
+      state.
 
       </p>
 
-      <p>While&nbsp;this&nbsp;power&nbsp;is&nbsp;active,&nbsp;you&nbsp;gain&nbsp;a&nbsp;shadow's&nbsp;&nbsp;darkvision,&nbsp;defensive&nbsp;abilities&nbsp;(including&nbsp;incorporeal),&nbsp;fly&nbsp;speed,&nbsp;racial&nbsp;Stealth&nbsp;modifier,&nbsp;and&nbsp;Strength&nbsp;damage&nbsp;attack.&nbsp;You&nbsp;do&nbsp;not&nbsp;gain&nbsp;the&nbsp;creature's&nbsp;create&nbsp;spawn&nbsp;ability,&nbsp;nor&nbsp;its&nbsp;skill&nbsp;ranks&nbsp;or&nbsp;Hit&nbsp;Dice.&nbsp;Your&nbsp;spirit&nbsp;has&nbsp;Hit&nbsp;Dice&nbsp;and&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;your&nbsp;own.&nbsp;Your&nbsp;spirit&nbsp;has&nbsp;the&nbsp;undead&nbsp;type&nbsp;and&nbsp;may&nbsp;be&nbsp;turned&nbsp;or&nbsp;affected&nbsp;as&nbsp;undead.&nbsp;If&nbsp;your&nbsp;spirit&nbsp;is&nbsp;slain,&nbsp;you&nbsp;return&nbsp;to&nbsp;your&nbsp;physical&nbsp;body&nbsp;and&nbsp;are&nbsp;immediately&nbsp;reduced&nbsp;to&nbsp;-1&nbsp;hit&nbsp;points.&nbsp;Your&nbsp;condition&nbsp;becomes&nbsp;dying,&nbsp;and&nbsp;you&nbsp;must&nbsp;begin&nbsp;making&nbsp;Constitution&nbsp;checks&nbsp;to&nbsp;stabilize.
+      <p>While this power is active, you gain a shadow's  darkvision, defensive
+      abilities (including incorporeal), fly speed, racial Stealth modifier, and
+      Strength damage attack. You do not gain the creature's create spawn
+      ability, nor its skill ranks or Hit Dice. Your spirit has Hit Dice and hit
+      points equal to your own. Your spirit has the undead type and may be
+      turned or affected as undead. If your spirit is slain, you return to your
+      physical body and are immediately reduced to -1 hit points. Your condition
+      becomes dying, and you must begin making Constitution checks to stabilize.
 
       </p>
 
-      <p>When&nbsp;this&nbsp;power&nbsp;ends,&nbsp;as&nbsp;long&nbsp;as&nbsp;your&nbsp;body&nbsp;has&nbsp;not&nbsp;been&nbsp;completely&nbsp;destroyed&nbsp;(such&nbsp;as&nbsp;through&nbsp;the&nbsp;effects&nbsp;of&nbsp;disintegrate)&nbsp;and&nbsp;is&nbsp;on&nbsp;the&nbsp;same&nbsp;plane&nbsp;of&nbsp;existence,&nbsp;you&nbsp;automatically&nbsp;return&nbsp;to&nbsp;it.&nbsp;If&nbsp;it&nbsp;is&nbsp;not,&nbsp;this&nbsp;power&nbsp;remains&nbsp;active&nbsp;except&nbsp;that&nbsp;if&nbsp;you&nbsp;have&nbsp;not&nbsp;reached&nbsp;your&nbsp;body&nbsp;after&nbsp;a&nbsp;number&nbsp;of&nbsp;minutes&nbsp;equal&nbsp;to&nbsp;your&nbsp;manifester&nbsp;level,&nbsp;your&nbsp;spirit&nbsp;dies&nbsp;instantly.
+      <p>When this power ends, as long as your body has not been completely
+      destroyed (such as through the effects of disintegrate) and is on the same
+      plane of existence, you automatically return to it. If it is not, this
+      power remains active except that if you have not reached your body after a
+      number of minutes equal to your manifester level, your spirit dies
+      instantly.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power may be augmented in one of the
+      following ways.
 
-      </p><ol><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;manifest&nbsp;this&nbsp;power&nbsp;on&nbsp;a&nbsp;willing&nbsp;creature&nbsp;that&nbsp;you&nbsp;touch.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;manifest&nbsp;this&nbsp;power&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action&nbsp;in&nbsp;response&nbsp;to&nbsp;being&nbsp;attacked.&nbsp;This&nbsp;has&nbsp;the&nbsp;added&nbsp;effect&nbsp;of&nbsp;making&nbsp;it&nbsp;appear&nbsp;that&nbsp;the&nbsp;triggering&nbsp;attack&nbsp;killed&nbsp;you.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;doubles.</li></ol>
+      </p><ol><li>By spending an additional 2 power points, you may manifest
+      this power on a willing creature that you touch.</li><li>By spending an
+      additional 4 power points, you may manifest this power as an immediate
+      action in response to being attacked. This has the added effect of making
+      it appear that the triggering attack killed you.</li><li>By spending an
+      additional 4 power points, the duration of this power doubles.</li></ol>
   discipline: athanatism
   display:
     auditory: false

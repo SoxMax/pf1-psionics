@@ -73,7 +73,8 @@ system:
     umd: false
   description:
     value: >-
-      <p>Blues&nbsp;receive&nbsp;a&nbsp;+2&nbsp;racial&nbsp;bonus&nbsp;on&nbsp;Stealth&nbsp;and&nbsp;Ride&nbsp;checks,&nbsp;and&nbsp;blues&nbsp;always&nbsp;treat&nbsp;Stealth&nbsp;as&nbsp;a&nbsp;class&nbsp;skill.</p>
+      <p>Blues receive a +2 racial bonus on Stealth and Ride checks, and blues
+      always treat Stealth as a class skill.</p>
   disabled: false
   inherited: false
   showInCombat: false

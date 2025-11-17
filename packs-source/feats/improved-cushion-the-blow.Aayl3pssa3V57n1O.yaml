@@ -22,21 +22,23 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>Your&nbsp;damage&nbsp;prevention&nbsp;blocks&nbsp;multiple&nbsp;attacks.
+      <p>Your damage prevention blocks multiple attacks.
 
       </p>
 
-      <p><strong>Prerequisite:&nbsp;</strong>Wisdom&nbsp;15,&nbsp;<a&nbsp;href="/wiki/Cushion_the_Blow"&nbsp;title="Cushion&nbsp;the&nbsp;Blow">Cushion&nbsp;the&nbsp;Blow</a>,
+      <p><strong>Prerequisite: </strong>Wisdom 15, <a
+      href="/wiki/Cushion_the_Blow" title="Cushion the Blow">Cushion the
+      Blow</a>,
 
-      Collective&nbsp;class&nbsp;feature,&nbsp;manifester&nbsp;level&nbsp;12th.
+      Collective class feature, manifester level 12th.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;using&nbsp;the&nbsp;Cushion&nbsp;the&nbsp;Blow&nbsp;feat,&nbsp;the
+      <p><strong>Benefit: </strong>When using the Cushion the Blow feat, the
 
-      effect&nbsp;can&nbsp;be&nbsp;applied&nbsp;to&nbsp;an&nbsp;additional&nbsp;attack&nbsp;with&nbsp;a&nbsp;melee,
+      effect can be applied to an additional attack with a melee,
 
-      ranged,&nbsp;or&nbsp;natural&nbsp;weapon&nbsp;in&nbsp;the&nbsp;same&nbsp;round.
+      ranged, or natural weapon in the same round.
 
       </p>
   disabled: false

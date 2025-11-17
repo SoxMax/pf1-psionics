@@ -21,39 +21,23 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>Your&nbsp;shield&nbsp;bash&nbsp;attacks&nbsp;can&nbsp;strike&nbsp;both&nbsp;the&nbsp;body&nbsp;and
-
-      mind&nbsp;of&nbsp;a&nbsp;foe.
-
+    value: |-
+      <p>Your shield bash attacks can strike both the body and
+      mind of a foe.
       </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Improved&nbsp;Shield&nbsp;Bash,&nbsp;Shield
-
+      <p><strong>Prerequisites: </strong>Improved Shield Bash, Shield
       Proficiency.
-
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>While&nbsp;maintaining&nbsp;psionic&nbsp;focus,&nbsp;when&nbsp;you
-
-      successfully&nbsp;strike&nbsp;a&nbsp;foe&nbsp;with&nbsp;a&nbsp;shield&nbsp;bash&nbsp;attack,&nbsp;the&nbsp;foe
-
-      must&nbsp;also&nbsp;make&nbsp;a&nbsp;Will&nbsp;save&nbsp;(DC&nbsp;10&nbsp;+&nbsp;one-half&nbsp;your&nbsp;base
-
-      attack&nbsp;bonus&nbsp;+&nbsp;your&nbsp;Wisdom&nbsp;modifier)&nbsp;or&nbsp;be&nbsp;shaken&nbsp;for
-
-      1&nbsp;round.&nbsp;This&nbsp;is&nbsp;a&nbsp;mind-affecting&nbsp;fear&nbsp;effect.
-
+      <p><strong>Benefit: </strong>While maintaining psionic focus, when you
+      successfully strike a foe with a shield bash attack, the foe
+      must also make a Will save (DC 10 + one-half your base
+      attack bonus + your Wisdom modifier) or be shaken for
+      1 round. This is a mind-affecting fear effect.
       </p>
-
-      <p>If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when&nbsp;you&nbsp;make&nbsp;a
-
-      shield&nbsp;bash,&nbsp;on&nbsp;a&nbsp;successful&nbsp;attack&nbsp;roll&nbsp;you&nbsp;can&nbsp;instead
-
-      force&nbsp;the&nbsp;target&nbsp;to&nbsp;make&nbsp;a&nbsp;Will&nbsp;saving&nbsp;throw&nbsp;or&nbsp;be
-
-      stunned&nbsp;for&nbsp;1&nbsp;round.
-
+      <p>If you expend your psionic focus when you make a
+      shield bash, on a successful attack roll you can instead
+      force the target to make a Will saving throw or be
+      stunned for 1 round.
       </p>
   disabled: false
   featType: feat

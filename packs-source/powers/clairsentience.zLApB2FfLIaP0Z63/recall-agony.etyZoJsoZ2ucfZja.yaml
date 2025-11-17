@@ -32,11 +32,15 @@ system:
         value: One creature
   description:
     value: >-
-      <p>The&nbsp;fabric&nbsp;of&nbsp;time&nbsp;parts&nbsp;to&nbsp;your&nbsp;will,&nbsp;revealing&nbsp;wounds&nbsp;your&nbsp;foe&nbsp;has&nbsp;received&nbsp;in&nbsp;the&nbsp;past&nbsp;(or&nbsp;has&nbsp;yet&nbsp;to&nbsp;receive).&nbsp;That&nbsp;foe&nbsp;takes&nbsp;2d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;as&nbsp;the&nbsp;past&nbsp;(or&nbsp;future)&nbsp;impinges&nbsp;briefly&nbsp;on&nbsp;the&nbsp;present.
+      <p>The fabric of time parts to your will, revealing wounds your foe has
+      received in the past (or has yet to receive). That foe takes 2d6 points of
+      damage as the past (or future) impinges briefly on the present.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;damage&nbsp;increases&nbsp;by&nbsp;1d6&nbsp;points.&nbsp;For&nbsp;each&nbsp;extra&nbsp;2d6&nbsp;points&nbsp;of&nbsp;damage,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+      <p><strong>Augment:</strong> For every additional power point you spend,
+      this power's damage increases by 1d6 points. For each extra 2d6 points of
+      damage, this power's save DC increases by 1.
 
       </p>
   descriptors:

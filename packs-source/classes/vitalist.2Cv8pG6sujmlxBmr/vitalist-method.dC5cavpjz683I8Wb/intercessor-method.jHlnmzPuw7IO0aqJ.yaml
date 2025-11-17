@@ -60,7 +60,86 @@ system:
     umd: false
   description:
     value: >-
-      <p><span&nbsp;class="va-quotation-text"><em>An&nbsp;intercessor&nbsp;tries&nbsp;to&nbsp;find&nbsp;a&nbsp;solution&nbsp;to&nbsp;every&nbsp;problem&nbsp;through&nbsp;communication.&nbsp;The&nbsp;intercessor&nbsp;likely&nbsp;finds&nbsp;a&nbsp;peaceful&nbsp;solution&nbsp;instead&nbsp;of&nbsp;preventing,&nbsp;healing,&nbsp;or&nbsp;dealing&nbsp;harm.</em></span></p><p><strong>Intercessor&nbsp;Power:</strong>&nbsp;An&nbsp;intercessor&nbsp;vitalist&nbsp;adds&nbsp;<em>@UUID[Compendium.pf1-psionics.powers.Item.a36rIe5mlkREIaFR]{Telempathic&nbsp;Projection}</em>&nbsp;to&nbsp;his&nbsp;list&nbsp;of&nbsp;powers&nbsp;known.&nbsp;This&nbsp;does&nbsp;not&nbsp;count&nbsp;against&nbsp;his&nbsp;number&nbsp;of&nbsp;powers&nbsp;known.</p><p><strong>Intercessor&nbsp;Knacks:</strong>&nbsp;An&nbsp;intercessor&nbsp;gains&nbsp;the&nbsp;talent&nbsp;below&nbsp;as&nbsp;his&nbsp;method&nbsp;knack.</p><ul><li><em>@UUID[Compendium.pf1-psionics.powers.Item.B3mTkwSo1FkG9Lw0]{Empathy}</em>:&nbsp;You&nbsp;know&nbsp;the&nbsp;subject's&nbsp;surface&nbsp;emotions.</li></ul><p><strong>Intercessor's&nbsp;Touch:</strong>&nbsp;An&nbsp;intercessor&nbsp;vitalist&nbsp;of&nbsp;2nd&nbsp;level&nbsp;who&nbsp;utilizes&nbsp;transfer&nbsp;wounds&nbsp;shares&nbsp;an&nbsp;empathic&nbsp;bond&nbsp;with&nbsp;the&nbsp;healed&nbsp;target.&nbsp;The&nbsp;intercessor&nbsp;gains&nbsp;an&nbsp;insight&nbsp;bonus&nbsp;on&nbsp;Bluff,&nbsp;Diplomacy,&nbsp;Intimidate,&nbsp;and&nbsp;Sense&nbsp;Motive&nbsp;checks&nbsp;equal&nbsp;to&nbsp;his&nbsp;class&nbsp;level&nbsp;for&nbsp;all&nbsp;checks&nbsp;with&nbsp;that&nbsp;target.</p><p>This&nbsp;effect&nbsp;lasts&nbsp;for&nbsp;a&nbsp;number&nbsp;of&nbsp;minutes&nbsp;equal&nbsp;to&nbsp;the&nbsp;vitalist's&nbsp;Wisdom&nbsp;modifier&nbsp;(minimum&nbsp;1).&nbsp;The&nbsp;vitalist&nbsp;may&nbsp;only&nbsp;have&nbsp;one&nbsp;such&nbsp;empathic&nbsp;bond&nbsp;active&nbsp;at&nbsp;any&nbsp;time,&nbsp;should&nbsp;he&nbsp;use&nbsp;transfer&nbsp;wounds&nbsp;on&nbsp;another&nbsp;target&nbsp;while&nbsp;he&nbsp;has&nbsp;an&nbsp;active&nbsp;empathic&nbsp;bond,&nbsp;the&nbsp;first&nbsp;bond&nbsp;immediately&nbsp;ends&nbsp;and&nbsp;he&nbsp;establishes&nbsp;an&nbsp;empathic&nbsp;bond&nbsp;with&nbsp;the&nbsp;new&nbsp;target.</p><p><strong>Intercessor's&nbsp;Pulse:</strong>&nbsp;As&nbsp;a&nbsp;free&nbsp;action,&nbsp;an&nbsp;intercessor&nbsp;of&nbsp;6th&nbsp;level&nbsp;may&nbsp;project&nbsp;a&nbsp;pulse&nbsp;to&nbsp;all&nbsp;members&nbsp;of&nbsp;his&nbsp;collective&nbsp;by&nbsp;spending&nbsp;one&nbsp;power&nbsp;point,&nbsp;granting&nbsp;them&nbsp;one&nbsp;of&nbsp;the&nbsp;effects&nbsp;below&nbsp;at&nbsp;the&nbsp;intercessor's&nbsp;choice.&nbsp;The&nbsp;effect&nbsp;lasts&nbsp;for&nbsp;one&nbsp;round.</p><dl><dd><p><em>Inspire&nbsp;Courage:</em>&nbsp;The&nbsp;vitalist&nbsp;inspires&nbsp;courage&nbsp;in&nbsp;the&nbsp;members&nbsp;of&nbsp;his&nbsp;collective&nbsp;(including&nbsp;himself),&nbsp;bolstering&nbsp;them&nbsp;against&nbsp;fear&nbsp;and&nbsp;improving&nbsp;their&nbsp;combat&nbsp;abilities.&nbsp;To&nbsp;be&nbsp;affected,&nbsp;an&nbsp;ally&nbsp;must&nbsp;be&nbsp;in&nbsp;the&nbsp;vitalist's&nbsp;collective.&nbsp;An&nbsp;affected&nbsp;ally&nbsp;receives&nbsp;a&nbsp;+2&nbsp;morale&nbsp;bonus&nbsp;on&nbsp;saving&nbsp;throws&nbsp;against&nbsp;charm&nbsp;and&nbsp;fear&nbsp;effects&nbsp;and&nbsp;a&nbsp;+2&nbsp;competence&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;and&nbsp;weapon&nbsp;damage&nbsp;rolls.&nbsp;At&nbsp;12th&nbsp;level&nbsp;and&nbsp;18th&nbsp;level,&nbsp;this&nbsp;bonus&nbsp;increases&nbsp;by&nbsp;+1,&nbsp;to&nbsp;a&nbsp;maximum&nbsp;of&nbsp;+4&nbsp;at&nbsp;18th&nbsp;level.&nbsp;Inspire&nbsp;courage&nbsp;is&nbsp;a&nbsp;mind-affecting&nbsp;ability.</p></dd></dl><dl><dd><p><em>Inspire&nbsp;Competence:</em>&nbsp;All&nbsp;members&nbsp;of&nbsp;the&nbsp;collective&nbsp;get&nbsp;a&nbsp;+2&nbsp;competence&nbsp;bonus&nbsp;on&nbsp;skill&nbsp;checks&nbsp;with&nbsp;a&nbsp;particular&nbsp;skill&nbsp;as&nbsp;long&nbsp;as&nbsp;they&nbsp;stay&nbsp;in&nbsp;the&nbsp;collective.&nbsp;This&nbsp;bonus&nbsp;increases&nbsp;by&nbsp;+1&nbsp;for&nbsp;every&nbsp;four&nbsp;levels&nbsp;the&nbsp;vitalist&nbsp;has&nbsp;attained&nbsp;beyond&nbsp;6th&nbsp;(+3&nbsp;at&nbsp;10th,&nbsp;+4&nbsp;at&nbsp;14th,&nbsp;and&nbsp;+5&nbsp;at&nbsp;18th).&nbsp;Unlike&nbsp;the&nbsp;bardic&nbsp;performance&nbsp;of&nbsp;the&nbsp;same&nbsp;name,&nbsp;skills&nbsp;such&nbsp;as&nbsp;Stealth&nbsp;can&nbsp;be&nbsp;used.&nbsp;The&nbsp;vitalist&nbsp;can't&nbsp;inspire&nbsp;competence&nbsp;in&nbsp;himself.</p></dd></dl><dl><dd><p><em>Sanctuary:</em>&nbsp;All&nbsp;members&nbsp;of&nbsp;the&nbsp;collective&nbsp;are&nbsp;treated&nbsp;as&nbsp;if&nbsp;under&nbsp;the&nbsp;effects&nbsp;of&nbsp;the&nbsp;<em>@UUID[Compendium.pf1.spells.Item.yk5bgi6j9kbtigof]{Sanctuary}</em>&nbsp;spell&nbsp;for&nbsp;one&nbsp;round,&nbsp;with&nbsp;a&nbsp;caster&nbsp;level&nbsp;equal&nbsp;to&nbsp;the&nbsp;vitalist's&nbsp;manifester&nbsp;level.&nbsp;If&nbsp;a&nbsp;member&nbsp;of&nbsp;the&nbsp;collective&nbsp;performs&nbsp;an&nbsp;action&nbsp;that&nbsp;would&nbsp;break&nbsp;the&nbsp;effect,&nbsp;it&nbsp;breaks&nbsp;the&nbsp;effect&nbsp;only&nbsp;for&nbsp;that&nbsp;member&nbsp;of&nbsp;the&nbsp;collective.</p></dd></dl><p><strong>Swift&nbsp;Aid:</strong>&nbsp;If&nbsp;a&nbsp;member&nbsp;of&nbsp;his&nbsp;collective&nbsp;fails&nbsp;a&nbsp;Will&nbsp;saving&nbsp;throw,&nbsp;an&nbsp;intercessor&nbsp;of&nbsp;8th&nbsp;level&nbsp;may,&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action&nbsp;and&nbsp;by&nbsp;expending&nbsp;his&nbsp;psionic&nbsp;focus,&nbsp;make&nbsp;an&nbsp;additional&nbsp;Will&nbsp;saving&nbsp;throw&nbsp;for&nbsp;the&nbsp;member&nbsp;of&nbsp;his&nbsp;collective.&nbsp;The&nbsp;intercessor&nbsp;gains&nbsp;a&nbsp;+1&nbsp;insight&nbsp;bonus&nbsp;to&nbsp;this&nbsp;save.&nbsp;This&nbsp;insight&nbsp;bonus&nbsp;increases&nbsp;by&nbsp;+1&nbsp;every&nbsp;four&nbsp;vitalist&nbsp;levels&nbsp;thereafter.</p><p>If&nbsp;the&nbsp;intercessor&nbsp;fails&nbsp;the&nbsp;saving&nbsp;throw,&nbsp;his&nbsp;ally&nbsp;suffers&nbsp;the&nbsp;consequences&nbsp;of&nbsp;the&nbsp;effect&nbsp;that&nbsp;forced&nbsp;the&nbsp;Will&nbsp;save.</p><p><strong>Intercessor's&nbsp;Expertise:</strong>&nbsp;Upon&nbsp;reaching&nbsp;11th&nbsp;level,&nbsp;the&nbsp;intercessor&nbsp;gains&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;to&nbsp;the&nbsp;save&nbsp;DC&nbsp;of&nbsp;any&nbsp;mind-affecting&nbsp;power&nbsp;that&nbsp;he&nbsp;manifests.&nbsp;This&nbsp;bonus&nbsp;stacks&nbsp;with&nbsp;any&nbsp;other&nbsp;bonus&nbsp;to&nbsp;the&nbsp;save&nbsp;DCs&nbsp;from&nbsp;his&nbsp;powers,&nbsp;including&nbsp;those&nbsp;from&nbsp;augmentation&nbsp;or&nbsp;feats&nbsp;such&nbsp;as&nbsp;Psionic&nbsp;Endowment.</p><p>In&nbsp;addition,&nbsp;the&nbsp;intercessor&nbsp;can&nbsp;now&nbsp;read&nbsp;and&nbsp;speak&nbsp;any&nbsp;language.</p><p><strong>Master&nbsp;Intercessor:</strong>&nbsp;The&nbsp;intercessor&nbsp;of&nbsp;20th&nbsp;level&nbsp;has&nbsp;learned&nbsp;to&nbsp;emit&nbsp;a&nbsp;telepathic&nbsp;aura&nbsp;that&nbsp;causes&nbsp;enemies&nbsp;to&nbsp;prefer&nbsp;to&nbsp;attack&nbsp;one&nbsp;member&nbsp;of&nbsp;the&nbsp;collective&nbsp;over&nbsp;the&nbsp;others&nbsp;should&nbsp;a&nbsp;peaceful&nbsp;solution&nbsp;not&nbsp;be&nbsp;possible.&nbsp;The&nbsp;intercessor&nbsp;chooses&nbsp;one&nbsp;member&nbsp;of&nbsp;the&nbsp;collective&nbsp;as&nbsp;the&nbsp;preferred&nbsp;target&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;with&nbsp;a&nbsp;duration&nbsp;of&nbsp;one&nbsp;minute.&nbsp;Changing&nbsp;the&nbsp;preferred&nbsp;target&nbsp;is&nbsp;a&nbsp;full-round&nbsp;action&nbsp;that&nbsp;provokes&nbsp;attacks&nbsp;of&nbsp;opportunity.&nbsp;At&nbsp;the&nbsp;start&nbsp;of&nbsp;the&nbsp;enemy's&nbsp;turn,&nbsp;it&nbsp;feels&nbsp;a&nbsp;mental&nbsp;inclination&nbsp;to&nbsp;avoid&nbsp;attacking&nbsp;all&nbsp;but&nbsp;one&nbsp;of&nbsp;the&nbsp;collective&nbsp;members.&nbsp;Any&nbsp;time&nbsp;an&nbsp;enemy&nbsp;makes&nbsp;an&nbsp;attack&nbsp;against&nbsp;any&nbsp;member&nbsp;of&nbsp;the&nbsp;collective&nbsp;other&nbsp;than&nbsp;the&nbsp;preferred&nbsp;target,&nbsp;they&nbsp;suffer&nbsp;a&nbsp;penalty&nbsp;to&nbsp;their&nbsp;attack&nbsp;and&nbsp;damage&nbsp;rolls&nbsp;and&nbsp;to&nbsp;rolls&nbsp;to&nbsp;breach&nbsp;power&nbsp;resistance&nbsp;equal&nbsp;to&nbsp;the&nbsp;intercessor's&nbsp;Wisdom&nbsp;modifier&nbsp;(minimum&nbsp;1)&nbsp;and&nbsp;a&nbsp;penalty&nbsp;to&nbsp;the&nbsp;save&nbsp;DCs&nbsp;of&nbsp;effects&nbsp;that&nbsp;do&nbsp;not&nbsp;target&nbsp;the&nbsp;preferred&nbsp;target&nbsp;equal&nbsp;to&nbsp;half&nbsp;the&nbsp;intercessor's&nbsp;Wisdom&nbsp;modifier&nbsp;(minimum&nbsp;1)&nbsp;and&nbsp;feel&nbsp;a&nbsp;mental&nbsp;inclination&nbsp;to&nbsp;instead&nbsp;attack&nbsp;the&nbsp;preferred&nbsp;target.&nbsp;Effects&nbsp;that&nbsp;target&nbsp;an&nbsp;area&nbsp;that&nbsp;include&nbsp;the&nbsp;preferred&nbsp;target&nbsp;are&nbsp;not&nbsp;subject&nbsp;to&nbsp;this&nbsp;penalty,&nbsp;even&nbsp;if&nbsp;other&nbsp;members&nbsp;of&nbsp;the&nbsp;collective&nbsp;are&nbsp;in&nbsp;the&nbsp;affected&nbsp;area.</p><p>A&nbsp;member&nbsp;of&nbsp;the&nbsp;intercessor's&nbsp;collective&nbsp;may&nbsp;request&nbsp;to&nbsp;become&nbsp;the&nbsp;preferred&nbsp;target&nbsp;as&nbsp;a&nbsp;move&nbsp;action,&nbsp;at&nbsp;which&nbsp;time&nbsp;the&nbsp;intercessor&nbsp;may&nbsp;expend&nbsp;his&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action&nbsp;to&nbsp;allow&nbsp;the&nbsp;change&nbsp;in&nbsp;preferred&nbsp;targets.</p><p>If&nbsp;the&nbsp;enemy&nbsp;cannot&nbsp;see&nbsp;the&nbsp;preferred&nbsp;target,&nbsp;the&nbsp;enemy&nbsp;does&nbsp;not&nbsp;suffer&nbsp;the&nbsp;effects&nbsp;of&nbsp;this&nbsp;ability.&nbsp;Should&nbsp;the&nbsp;preferred&nbsp;target&nbsp;be&nbsp;reduced&nbsp;to&nbsp;0&nbsp;or&nbsp;fewer&nbsp;hit&nbsp;points,&nbsp;this&nbsp;effect&nbsp;immediately&nbsp;ends.</p><p>This&nbsp;is&nbsp;a&nbsp;mind-affecting&nbsp;effect.</p>
+      <p><span class="va-quotation-text"><em>An intercessor tries to find a
+      solution to every problem through communication. The intercessor likely
+      finds a peaceful solution instead of preventing, healing, or dealing
+      harm.</em></span></p><p><strong>Intercessor Power:</strong> An intercessor
+      vitalist adds
+      <em>@UUID[Compendium.pf1-psionics.powers.Item.a36rIe5mlkREIaFR]{Telempathic
+      Projection}</em> to his list of powers known. This does not count against
+      his number of powers known.</p><p><strong>Intercessor Knacks:</strong> An
+      intercessor gains the talent below as his method
+      knack.</p><ul><li><em>@UUID[Compendium.pf1-psionics.powers.Item.B3mTkwSo1FkG9Lw0]{Empathy}</em>:
+      You know the subject's surface emotions.</li></ul><p><strong>Intercessor's
+      Touch:</strong> An intercessor vitalist of 2nd level who utilizes transfer
+      wounds shares an empathic bond with the healed target. The intercessor
+      gains an insight bonus on Bluff, Diplomacy, Intimidate, and Sense Motive
+      checks equal to his class level for all checks with that
+      target.</p><p>This effect lasts for a number of minutes equal to the
+      vitalist's Wisdom modifier (minimum 1). The vitalist may only have one
+      such empathic bond active at any time, should he use transfer wounds on
+      another target while he has an active empathic bond, the first bond
+      immediately ends and he establishes an empathic bond with the new
+      target.</p><p><strong>Intercessor's Pulse:</strong> As a free action, an
+      intercessor of 6th level may project a pulse to all members of his
+      collective by spending one power point, granting them one of the effects
+      below at the intercessor's choice. The effect lasts for one
+      round.</p><dl><dd><p><em>Inspire Courage:</em> The vitalist inspires
+      courage in the members of his collective (including himself), bolstering
+      them against fear and improving their combat abilities. To be affected, an
+      ally must be in the vitalist's collective. An affected ally receives a +2
+      morale bonus on saving throws against charm and fear effects and a +2
+      competence bonus on attack and weapon damage rolls. At 12th level and 18th
+      level, this bonus increases by +1, to a maximum of +4 at 18th level.
+      Inspire courage is a mind-affecting
+      ability.</p></dd></dl><dl><dd><p><em>Inspire Competence:</em> All members
+      of the collective get a +2 competence bonus on skill checks with a
+      particular skill as long as they stay in the collective. This bonus
+      increases by +1 for every four levels the vitalist has attained beyond 6th
+      (+3 at 10th, +4 at 14th, and +5 at 18th). Unlike the bardic performance of
+      the same name, skills such as Stealth can be used. The vitalist can't
+      inspire competence in himself.</p></dd></dl><dl><dd><p><em>Sanctuary:</em>
+      All members of the collective are treated as if under the effects of the
+      <em>@UUID[Compendium.pf1.spells.Item.yk5bgi6j9kbtigof]{Sanctuary}</em>
+      spell for one round, with a caster level equal to the vitalist's
+      manifester level. If a member of the collective performs an action that
+      would break the effect, it breaks the effect only for that member of the
+      collective.</p></dd></dl><p><strong>Swift Aid:</strong> If a member of his
+      collective fails a Will saving throw, an intercessor of 8th level may, as
+      an immediate action and by expending his psionic focus, make an additional
+      Will saving throw for the member of his collective. The intercessor gains
+      a +1 insight bonus to this save. This insight bonus increases by +1 every
+      four vitalist levels thereafter.</p><p>If the intercessor fails the saving
+      throw, his ally suffers the consequences of the effect that forced the
+      Will save.</p><p><strong>Intercessor's Expertise:</strong> Upon reaching
+      11th level, the intercessor gains a +2 bonus to the save DC of any
+      mind-affecting power that he manifests. This bonus stacks with any other
+      bonus to the save DCs from his powers, including those from augmentation
+      or feats such as Psionic Endowment.</p><p>In addition, the intercessor can
+      now read and speak any language.</p><p><strong>Master
+      Intercessor:</strong> The intercessor of 20th level has learned to emit a
+      telepathic aura that causes enemies to prefer to attack one member of the
+      collective over the others should a peaceful solution not be possible. The
+      intercessor chooses one member of the collective as the preferred target
+      as a swift action with a duration of one minute. Changing the preferred
+      target is a full-round action that provokes attacks of opportunity. At the
+      start of the enemy's turn, it feels a mental inclination to avoid
+      attacking all but one of the collective members. Any time an enemy makes
+      an attack against any member of the collective other than the preferred
+      target, they suffer a penalty to their attack and damage rolls and to
+      rolls to breach power resistance equal to the intercessor's Wisdom
+      modifier (minimum 1) and a penalty to the save DCs of effects that do not
+      target the preferred target equal to half the intercessor's Wisdom
+      modifier (minimum 1) and feel a mental inclination to instead attack the
+      preferred target. Effects that target an area that include the preferred
+      target are not subject to this penalty, even if other members of the
+      collective are in the affected area.</p><p>A member of the intercessor's
+      collective may request to become the preferred target as a move action, at
+      which time the intercessor may expend his psionic focus as an immediate
+      action to allow the change in preferred targets.</p><p>If the enemy cannot
+      see the preferred target, the enemy does not suffer the effects of this
+      ability. Should the preferred target be reduced to 0 or fewer hit points,
+      this effect immediately ends.</p><p>This is a mind-affecting effect.</p>
   disabled: false
   inherited: false
   showInCombat: false

@@ -22,13 +22,19 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;empower&nbsp;your&nbsp;ranged&nbsp;attacks,&nbsp;sending&nbsp;them&nbsp;farther.</em></p>
+      <p><em>You can empower your ranged attacks, sending them farther.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank&nbsp;Shot</a>.
+      <p><strong>Prerequisite:</strong><a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank
+      Shot</a>.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;As&nbsp;long&nbsp;as&nbsp;you&nbsp;maintain&nbsp;psionic&nbsp;focus,&nbsp;the&nbsp;range&nbsp;of&nbsp;your&nbsp;ranged&nbsp;weapons&nbsp;doubles.&nbsp;You&nbsp;may&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;part&nbsp;of&nbsp;a&nbsp;ranged&nbsp;attack&nbsp;(but&nbsp;not&nbsp;ranged&nbsp;touch&nbsp;attack)&nbsp;to&nbsp;ignore&nbsp;any&nbsp;penalties&nbsp;for&nbsp;range&nbsp;increment&nbsp;for&nbsp;that&nbsp;single&nbsp;attack.&nbsp;That&nbsp;attack&nbsp;still&nbsp;has&nbsp;its&nbsp;range&nbsp;doubled&nbsp;as&nbsp;if&nbsp;you&nbsp;were&nbsp;maintaining&nbsp;psionic&nbsp;focus.
+      <p><strong>Benefit:</strong> As long as you maintain psionic focus, the
+      range of your ranged weapons doubles. You may expend your psionic focus as
+      part of a ranged attack (but not ranged touch attack) to ignore any
+      penalties for range increment for that single attack. That attack still
+      has its range doubled as if you were maintaining psionic focus.
 
       </p>
   disabled: false

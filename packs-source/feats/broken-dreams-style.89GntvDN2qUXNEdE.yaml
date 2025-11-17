@@ -22,13 +22,17 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;unarmed&nbsp;strikes&nbsp;are&nbsp;empowered&nbsp;by&nbsp;nightmares.</em></p>
+      <p><em>Your unarmed strikes are empowered by nightmares.</em></p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Devastating&nbsp;touch&nbsp;class&nbsp;feature,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Unarmed%20Strike">Improved&nbsp;Unarmed&nbsp;Strike</a>,&nbsp;Intimidate&nbsp;3&nbsp;ranks.
+      <p><strong>Prerequisites:</strong> Devastating touch class feature, <a
+      rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Unarmed%20Strike">Improved
+      Unarmed Strike</a>, Intimidate 3 ranks.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;performing&nbsp;an&nbsp;unarmed&nbsp;attack,&nbsp;you&nbsp;can&nbsp;choose&nbsp;to&nbsp;also&nbsp;deliver&nbsp;your&nbsp;devastating&nbsp;touch&nbsp;damage&nbsp;through&nbsp;that&nbsp;attack.
+      <p><strong>Benefit: </strong>When performing an unarmed attack, you can
+      choose to also deliver your devastating touch damage through that attack.
 
       </p>
   disabled: false

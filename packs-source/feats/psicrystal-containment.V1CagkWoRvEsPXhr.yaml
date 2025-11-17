@@ -22,53 +22,59 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>Your&nbsp;psicrystal&nbsp;has&nbsp;advanced&nbsp;enough&nbsp;that&nbsp;it&nbsp;can&nbsp;hold&nbsp;a
+      <p>Your psicrystal has advanced enough that it can hold a
 
-      psionic&nbsp;focus&nbsp;that&nbsp;you&nbsp;store&nbsp;within&nbsp;it.
+      psionic focus that you store within it.
 
       </p>
 
-      <p><strong>Prerequisites:&nbsp;</strong><a&nbsp;href="/wiki/Psicrystal_Affinity"&nbsp;title="Psicrystal&nbsp;Affinity">Psicrystal&nbsp;Affinity</a>,&nbsp;manifester&nbsp;level
+      <p><strong>Prerequisites: </strong><a href="/wiki/Psicrystal_Affinity"
+      title="Psicrystal Affinity">Psicrystal Affinity</a>, manifester level
 
       3rd.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;psionically&nbsp;focus&nbsp;your&nbsp;psicrystal&nbsp;in
+      <p><strong>Benefit: </strong>You can psionically focus your psicrystal in
 
-      the&nbsp;same&nbsp;manner&nbsp;in&nbsp;which&nbsp;you&nbsp;gain&nbsp;psionic&nbsp;focus.&nbsp;At
+      the same manner in which you gain psionic focus. At
 
-      any&nbsp;time&nbsp;when&nbsp;you&nbsp;need&nbsp;to&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus,
+      any time when you need to expend your psionic focus,
 
-      you&nbsp;can&nbsp;expend&nbsp;your&nbsp;psicrystal’s&nbsp;psionic&nbsp;focus&nbsp;instead,
+      you can expend your psicrystal’s psionic focus instead,
 
-      as&nbsp;long&nbsp;as&nbsp;the&nbsp;crystal&nbsp;is&nbsp;within&nbsp;5&nbsp;feet&nbsp;of&nbsp;you.&nbsp;At&nbsp;any&nbsp;time
+      as long as the crystal is within 5 feet of you. At any time
 
-      when&nbsp;you&nbsp;need&nbsp;to&nbsp;maintain&nbsp;psionic&nbsp;focus&nbsp;for&nbsp;an&nbsp;effect,
+      when you need to maintain psionic focus for an effect,
 
-      you&nbsp;can&nbsp;use&nbsp;your&nbsp;psicrysta’s&nbsp;psionic&nbsp;focus&nbsp;instead,&nbsp;as&nbsp;long
+      you can use your psicrysta’s psionic focus instead, as long
 
-      as&nbsp;the&nbsp;crystal&nbsp;is&nbsp;within&nbsp;5&nbsp;feet&nbsp;of&nbsp;you.&nbsp;Psionically&nbsp;focusing
+      as the crystal is within 5 feet of you. Psionically focusing
 
-      your&nbsp;psicrystal&nbsp;works&nbsp;just&nbsp;like&nbsp;focusing&nbsp;yourself.&nbsp;The
+      your psicrystal works just like focusing yourself. The
 
-      psicrystal&nbsp;cannot&nbsp;focus&nbsp;itself—only&nbsp;the&nbsp;owner&nbsp;can&nbsp;spend
+      psicrystal cannot focus itself—only the owner can spend
 
-      the&nbsp;time&nbsp;to&nbsp;focus&nbsp;the&nbsp;crystal.
-
-      </p>
-
-      <p><br&nbsp;/></p>
-
-      <p>Your&nbsp;psicrystal’s&nbsp;presence&nbsp;grants&nbsp;you&nbsp;focus.
+      the time to focus the crystal.
 
       </p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Psicrystal&nbsp;Containment.
+      <p><br /></p>
+
+      <p>Your psicrystal’s presence grants you focus.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;So&nbsp;long&nbsp;as&nbsp;your&nbsp;psicrystal&nbsp;is&nbsp;within&nbsp;5&nbsp;feet&nbsp;of&nbsp;you,&nbsp;you&nbsp;are&nbsp;always&nbsp;treated&nbsp;as&nbsp;if&nbsp;you&nbsp;are&nbsp;maintaining&nbsp;psionic&nbsp;focus&nbsp;for&nbsp;abilities&nbsp;powered&nbsp;by&nbsp;maintaining&nbsp;psionic&nbsp;focus.&nbsp;You&nbsp;may&nbsp;still&nbsp;only&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;if&nbsp;you&nbsp;are&nbsp;actually&nbsp;maintaining&nbsp;psionic&nbsp;focus.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;regain&nbsp;both&nbsp;your&nbsp;own&nbsp;and&nbsp;your&nbsp;psicrystal’s&nbsp;psionic&nbsp;focus.&nbsp;
+      <p><strong>Prerequisite:</strong> Psicrystal Containment.
+
+      </p>
+
+      <p><strong>Benefit:</strong> So long as your psicrystal is within 5 feet
+      of you, you are always treated as if you are maintaining psionic focus for
+      abilities powered by maintaining psionic focus. You may still only expend
+      your psionic focus if you are actually maintaining psionic focus. In
+      addition, you can expend a use of mythic power as a swift action to regain
+      both your own and your psicrystal’s psionic focus. 
 
       </p>
   disabled: false

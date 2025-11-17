@@ -21,21 +21,14 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You’ve&nbsp;learned&nbsp;how&nbsp;to&nbsp;use&nbsp;your&nbsp;martial&nbsp;path&nbsp;talents&nbsp;at
-
+    value: |-
+      <p>You’ve learned how to use your martial path talents at
       range.
-
       </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Martial&nbsp;power&nbsp;class&nbsp;feature.
-
+      <p><strong>Prerequisites: </strong>Martial power class feature.
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;use&nbsp;your&nbsp;martial&nbsp;power&nbsp;class&nbsp;feature
-
-      when&nbsp;making&nbsp;ranged&nbsp;attacks.
-
+      <p><strong>Benefit: </strong>You can use your martial power class feature
+      when making ranged attacks.
       </p>
   disabled: false
   featType: feat

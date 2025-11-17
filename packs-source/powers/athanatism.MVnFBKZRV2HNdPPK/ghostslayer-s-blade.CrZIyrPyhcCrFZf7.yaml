@@ -30,13 +30,19 @@ system:
         value: Weapon touched
   description:
     value: >-
-      <p>You&nbsp;summon&nbsp;forth&nbsp;ancient&nbsp;slayers&nbsp;of&nbsp;ghosts,&nbsp;binding&nbsp;them&nbsp;into&nbsp;your&nbsp;weapons.&nbsp;The&nbsp;weapon&nbsp;touched&nbsp;gains&nbsp;the&nbsp;undead&nbsp;bane&nbsp;and&nbsp;ghost&nbsp;touch&nbsp;special&nbsp;properties.
+      <p>You summon forth ancient slayers of ghosts, binding them into your
+      weapons. The weapon touched gains the undead bane and ghost touch special
+      properties.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power may be augmented in one of the
+      following ways.
 
-      </p><ol><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;any&nbsp;enemy&nbsp;you&nbsp;critically&nbsp;hit&nbsp;with&nbsp;this&nbsp;weapon&nbsp;loses&nbsp;the&nbsp;incorporeal&nbsp;trait&nbsp;for&nbsp;one&nbsp;minute.</li><li>For&nbsp;every&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;may&nbsp;affect&nbsp;one&nbsp;additional&nbsp;weapon&nbsp;or&nbsp;natural&nbsp;weapon.</li></ol>
+      </p><ol><li>By spending an additional 6 power points, any enemy you
+      critically hit with this weapon loses the incorporeal trait for one
+      minute.</li><li>For every 4 additional power points you spend, you may
+      affect one additional weapon or natural weapon.</li></ol>
   discipline: athanatism
   display:
     auditory: false

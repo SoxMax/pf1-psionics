@@ -21,39 +21,23 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;can&nbsp;draw&nbsp;on&nbsp;your&nbsp;psionic&nbsp;power&nbsp;to&nbsp;boost&nbsp;the
-
-      power&nbsp;of&nbsp;a&nbsp;trip&nbsp;attack.
-
+    value: |-
+      <p>You can draw on your psionic power to boost the
+      power of a trip attack.
       </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Int&nbsp;13,&nbsp;Combat&nbsp;Expertise,&nbsp;Improved
-
+      <p><strong>Prerequisites: </strong>Int 13, Combat Expertise, Improved
       Trip.
-
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>While&nbsp;maintaining&nbsp;psionic&nbsp;focus,&nbsp;when&nbsp;you
-
-      successfully&nbsp;perform&nbsp;a&nbsp;trip&nbsp;combat&nbsp;maneuver,&nbsp;you&nbsp;also
-
-      deal&nbsp;damage&nbsp;equal&nbsp;to&nbsp;half&nbsp;your&nbsp;level&nbsp;to&nbsp;the&nbsp;creature
-
+      <p><strong>Benefit: </strong>While maintaining psionic focus, when you
+      successfully perform a trip combat maneuver, you also
+      deal damage equal to half your level to the creature
       tripped.
-
       </p>
-
-      <p>If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when&nbsp;you&nbsp;perform
-
-      a&nbsp;successful&nbsp;trip&nbsp;combat&nbsp;maneuver,&nbsp;you&nbsp;can&nbsp;also&nbsp;throw
-
-      your&nbsp;target&nbsp;up&nbsp;to&nbsp;5&nbsp;feet,&nbsp;+5&nbsp;feet&nbsp;for&nbsp;every&nbsp;four&nbsp;levels&nbsp;you
-
-      possess,&nbsp;although&nbsp;the&nbsp;creature&nbsp;thrown&nbsp;may&nbsp;not&nbsp;be&nbsp;more
-
-      than&nbsp;one&nbsp;size&nbsp;category&nbsp;larger&nbsp;than&nbsp;you.
-
+      <p>If you expend your psionic focus when you perform
+      a successful trip combat maneuver, you can also throw
+      your target up to 5 feet, +5 feet for every four levels you
+      possess, although the creature thrown may not be more
+      than one size category larger than you.
       </p>
   disabled: false
   featType: feat

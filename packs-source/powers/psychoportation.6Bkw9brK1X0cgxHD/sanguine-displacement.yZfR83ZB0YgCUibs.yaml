@@ -28,11 +28,20 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;teleport&nbsp;blood&nbsp;and&nbsp;vital&nbsp;fluids&nbsp;from&nbsp;your&nbsp;target's&nbsp;body.&nbsp;The&nbsp;target&nbsp;suffers&nbsp;1d4&nbsp;points&nbsp;of&nbsp;Constitution&nbsp;damage&nbsp;(save&nbsp;for&nbsp;half).&nbsp;If&nbsp;you&nbsp;feed&nbsp;on&nbsp;blood&nbsp;or&nbsp;life&nbsp;force&nbsp;(such&nbsp;as&nbsp;if&nbsp;you&nbsp;are&nbsp;a&nbsp;vampire&nbsp;or&nbsp;a&nbsp;wight),&nbsp;you&nbsp;may&nbsp;teleport&nbsp;the&nbsp;removed&nbsp;fluids&nbsp;into&nbsp;your&nbsp;own&nbsp;body,&nbsp;gaining&nbsp;3&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;per&nbsp;point&nbsp;of&nbsp;Constitution&nbsp;damage&nbsp;dealt&nbsp;by&nbsp;this&nbsp;power;&nbsp;these&nbsp;do&nbsp;not&nbsp;stack&nbsp;with&nbsp;other&nbsp;uses&nbsp;of&nbsp;this&nbsp;power,&nbsp;and&nbsp;last&nbsp;for&nbsp;up&nbsp;to&nbsp;1&nbsp;hour.&nbsp;These&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;may&nbsp;be&nbsp;used&nbsp;to&nbsp;satisfy&nbsp;feeding&nbsp;requirements,&nbsp;if&nbsp;applicable.
+      <p>You teleport blood and vital fluids from your target's body. The target
+      suffers 1d4 points of Constitution damage (save for half). If you feed on
+      blood or life force (such as if you are a vampire or a wight), you may
+      teleport the removed fluids into your own body, gaining 3 temporary hit
+      points per point of Constitution damage dealt by this power; these do not
+      stack with other uses of this power, and last for up to 1 hour. These
+      temporary hit points may be used to satisfy feeding requirements, if
+      applicable.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;4&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;damage&nbsp;of&nbsp;this&nbsp;power&nbsp;increases&nbsp;by&nbsp;one&nbsp;die&nbsp;(d4)&nbsp;and&nbsp;its&nbsp;save&nbsp;DC&nbsp;is&nbsp;increased&nbsp;by&nbsp;2.
+      <p><strong>Augment:</strong> For every 4 power points you spend, the
+      damage of this power increases by one die (d4) and its save DC is
+      increased by 2.
 
       </p>
   discipline: psychoportation

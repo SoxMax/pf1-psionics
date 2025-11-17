@@ -22,27 +22,28 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;charge&nbsp;your&nbsp;melee&nbsp;weapon&nbsp;with&nbsp;additional
+      <p>You can charge your melee weapon with additional
 
-      damage&nbsp;potential.
-
-      </p>
-
-      <p><strong>Prerequisite:&nbsp;</strong>Str&nbsp;13,&nbsp;<a&nbsp;href="/wiki/Psionic_Weapon"&nbsp;title="Psionic&nbsp;Weapon">Psionic&nbsp;Weapon</a>,&nbsp;base&nbsp;attack
-
-      bonus&nbsp;+6.
+      damage potential.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;use&nbsp;the&nbsp;Psionic&nbsp;Weapon&nbsp;feat,&nbsp;your
+      <p><strong>Prerequisite: </strong>Str 13, <a href="/wiki/Psionic_Weapon"
+      title="Psionic Weapon">Psionic Weapon</a>, base attack
 
-      attack&nbsp;deals&nbsp;an&nbsp;extra&nbsp;2&nbsp;points&nbsp;of&nbsp;damage&nbsp;instead&nbsp;of&nbsp;1
+      bonus +6.
 
-      point&nbsp;of&nbsp;damage&nbsp;while&nbsp;you&nbsp;maintain&nbsp;psionic&nbsp;focus,&nbsp;and
+      </p>
 
-      deal&nbsp;an&nbsp;extra&nbsp;4d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;instead&nbsp;of&nbsp;an&nbsp;extra
+      <p><strong>Benefit: </strong>When you use the Psionic Weapon feat, your
 
-      2d6&nbsp;points&nbsp;when&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.
+      attack deals an extra 2 points of damage instead of 1
+
+      point of damage while you maintain psionic focus, and
+
+      deal an extra 4d6 points of damage instead of an extra
+
+      2d6 points when you expend your psionic focus.
 
       </p>
   disabled: false

@@ -33,17 +33,32 @@ system:
         value: All creatures in a 15-foot radius
   description:
     value: >-
-      <p>You&nbsp;overload&nbsp;the&nbsp;target's&nbsp;sensory&nbsp;system.&nbsp;In&nbsp;effect,&nbsp;the&nbsp;cascade&nbsp;buries&nbsp;the&nbsp;senses&nbsp;of&nbsp;the&nbsp;target&nbsp;creatures&nbsp;(even&nbsp;those&nbsp;with&nbsp;blindsight,&nbsp;tremorsense,&nbsp;touchsight,&nbsp;or&nbsp;other&nbsp;esoteric&nbsp;methods&nbsp;of&nbsp;sensing&nbsp;the&nbsp;environment)&nbsp;with&nbsp;random&nbsp;sensations&nbsp;for&nbsp;the&nbsp;duration.&nbsp;The&nbsp;creatures&nbsp;are&nbsp;treated&nbsp;as&nbsp;if&nbsp;blinded.&nbsp;However,&nbsp;from&nbsp;round&nbsp;to&nbsp;round,&nbsp;an&nbsp;affected&nbsp;creature&nbsp;has&nbsp;a&nbsp;chance&nbsp;to&nbsp;sense&nbsp;normally.&nbsp;Each&nbsp;round&nbsp;on&nbsp;the&nbsp;creature's&nbsp;action,&nbsp;roll&nbsp;1d4.&nbsp;On&nbsp;a&nbsp;roll&nbsp;of&nbsp;1-3,&nbsp;the&nbsp;target&nbsp;does&nbsp;nothing&nbsp;for&nbsp;1&nbsp;round&nbsp;as&nbsp;it&nbsp;stands&nbsp;attempting&nbsp;to&nbsp;re-establish&nbsp;contact&nbsp;with&nbsp;its&nbsp;senses.&nbsp;Rolling&nbsp;a&nbsp;4&nbsp;frees&nbsp;the&nbsp;creature&nbsp;of&nbsp;the&nbsp;effect&nbsp;for&nbsp;1&nbsp;round.
+      <p>You overload the target's sensory system. In effect, the cascade buries
+      the senses of the target creatures (even those with blindsight,
+      tremorsense, touchsight, or other esoteric methods of sensing the
+      environment) with random sensations for the duration. The creatures are
+      treated as if blinded. However, from round to round, an affected creature
+      has a chance to sense normally. Each round on the creature's action, roll
+      1d4. On a roll of 1-3, the target does nothing for 1 round as it stands
+      attempting to re-establish contact with its senses. Rolling a 4 frees the
+      creature of the effect for 1 round.
 
       </p>
 
-      <p>Sense-blocked&nbsp;creatures&nbsp;that&nbsp;are&nbsp;attacked&nbsp;(and&nbsp;damaged)&nbsp;are&nbsp;shocked&nbsp;out&nbsp;of&nbsp;their&nbsp;sense&nbsp;deprivation&nbsp;for&nbsp;1&nbsp;round&nbsp;-&nbsp;they&nbsp;can&nbsp;attack&nbsp;or&nbsp;attempt&nbsp;to&nbsp;flee&nbsp;however&nbsp;they&nbsp;desire&nbsp;on&nbsp;their&nbsp;next&nbsp;action.&nbsp;The&nbsp;following&nbsp;round&nbsp;they&nbsp;are&nbsp;subject&nbsp;once&nbsp;again&nbsp;to&nbsp;the&nbsp;sensory&nbsp;cascade&nbsp;(unless&nbsp;they&nbsp;are&nbsp;continually&nbsp;attacked&nbsp;each&nbsp;round).
+      <p>Sense-blocked creatures that are attacked (and damaged) are shocked out
+      of their sense deprivation for 1 round - they can attack or attempt to
+      flee however they desire on their next action. The following round they
+      are subject once again to the sensory cascade (unless they are continually
+      attacked each round).
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power can be augmented in one of the
+      following ways.
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;the&nbsp;condition&nbsp;lasts&nbsp;24&nbsp;hours.</li><li>If&nbsp;you&nbsp;spend&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;the&nbsp;condition&nbsp;is&nbsp;permanent.</li></ol>
+      </p><ol><li>If you spend an additional 4 power points, the condition lasts
+      24 hours.</li><li>If you spend an additional 6 power points, the condition
+      is permanent.</li></ol>
   descriptors:
     - mind-affecting
   discipline: telepathy

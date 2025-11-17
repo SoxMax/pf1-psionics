@@ -26,7 +26,9 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;detect&nbsp;if&nbsp;the&nbsp;target&nbsp;creature&nbsp;is&nbsp;under&nbsp;the&nbsp;effects&nbsp;of&nbsp;a&nbsp;compulsion&nbsp;or&nbsp;charm.&nbsp;Affected&nbsp;creatures&nbsp;appear&nbsp;to&nbsp;have&nbsp;an&nbsp;amber&nbsp;aura,&nbsp;though&nbsp;no&nbsp;one&nbsp;but&nbsp;you&nbsp;sees&nbsp;this&nbsp;visual&nbsp;effect.
+      <p>You detect if the target creature is under the effects of a compulsion
+      or charm. Affected creatures appear to have an amber aura, though no one
+      but you sees this visual effect.
 
       </p>
   discipline: clairsentience

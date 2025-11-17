@@ -27,29 +27,42 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;subtly&nbsp;shift&nbsp;your&nbsp;features&nbsp;and&nbsp;voice,&nbsp;making&nbsp;you&nbsp;less&nbsp;noticeable&nbsp;and&nbsp;granting&nbsp;you&nbsp;a&nbsp;+10&nbsp;circumstance&nbsp;bonus&nbsp;to&nbsp;Disguise&nbsp;checks,&nbsp;although&nbsp;you&nbsp;may&nbsp;not&nbsp;attempt&nbsp;to&nbsp;appear&nbsp;as&nbsp;a&nbsp;certain&nbsp;individual&nbsp;or&nbsp;another&nbsp;race.
+      <p>You subtly shift your features and voice, making you less noticeable
+      and granting you a +10 circumstance bonus to Disguise checks, although you
+      may not attempt to appear as a certain individual or another race.
 
       </p>
 
-      <p>This&nbsp;is&nbsp;a&nbsp;minor&nbsp;physical&nbsp;transformation,&nbsp;not&nbsp;an&nbsp;illusion,&nbsp;and&nbsp;as&nbsp;such&nbsp;fools&nbsp;touch&nbsp;as&nbsp;well&nbsp;as&nbsp;sight.
+      <p>This is a minor physical transformation, not an illusion, and as such
+      fools touch as well as sight.
 
       </p>
 
-      <p>You&nbsp;may&nbsp;alter&nbsp;any&nbsp;skin&nbsp;or&nbsp;facial&nbsp;features&nbsp;to&nbsp;be&nbsp;anything&nbsp;normally&nbsp;possible&nbsp;for&nbsp;the&nbsp;race&nbsp;you&nbsp;appear&nbsp;as.&nbsp;Birthmarks,&nbsp;moles,&nbsp;tattoos,&nbsp;piercings,&nbsp;and&nbsp;other&nbsp;distinguishing&nbsp;features&nbsp;are&nbsp;not&nbsp;visible&nbsp;unless&nbsp;you&nbsp;specifically&nbsp;will&nbsp;it.&nbsp;Psionic&nbsp;tattoos&nbsp;may&nbsp;still&nbsp;be&nbsp;tapped&nbsp;while&nbsp;hidden.
+      <p>You may alter any skin or facial features to be anything normally
+      possible for the race you appear as. Birthmarks, moles, tattoos,
+      piercings, and other distinguishing features are not visible unless you
+      specifically will it. Psionic tattoos may still be tapped while hidden.
 
       </p>
 
-      <p>At&nbsp;any&nbsp;point&nbsp;during&nbsp;the&nbsp;power's&nbsp;duration,&nbsp;you&nbsp;may&nbsp;concentrate&nbsp;as&nbsp;a&nbsp;standard&nbsp;action&nbsp;to&nbsp;change&nbsp;your&nbsp;appearance&nbsp;again,&nbsp;including&nbsp;to&nbsp;resemble&nbsp;yourself.
+      <p>At any point during the power's duration, you may concentrate as a
+      standard action to change your appearance again, including to resemble
+      yourself.
 
       </p>
 
-      <p>Your&nbsp;clothing&nbsp;and&nbsp;gear&nbsp;are&nbsp;not&nbsp;changed.
+      <p>Your clothing and gear are not changed.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or more of
+      the following ways.
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;1&nbsp;additional&nbsp;power&nbsp;point,&nbsp;you&nbsp;may&nbsp;use&nbsp;this&nbsp;power&nbsp;to&nbsp;disguise&nbsp;yourself&nbsp;as&nbsp;particular&nbsp;individuals.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;alter&nbsp;your&nbsp;smell&nbsp;to&nbsp;blend&nbsp;in&nbsp;with&nbsp;creatures&nbsp;using&nbsp;the&nbsp;scent&nbsp;ability&nbsp;or&nbsp;who&nbsp;identify&nbsp;individuals&nbsp;by&nbsp;pheromones&nbsp;or&nbsp;other&nbsp;chemical&nbsp;senses.</li></ol>
+      </p><ol><li>If you spend 1 additional power point, you may use this power
+      to disguise yourself as particular individuals.</li><li>If you spend 2
+      additional power points, you may alter your smell to blend in with
+      creatures using the scent ability or who identify individuals by
+      pheromones or other chemical senses.</li></ol>
   discipline: psychometabolism
   display:
     auditory: false

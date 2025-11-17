@@ -36,11 +36,15 @@ system:
         value: 15-ft.-radius spread centered on you
   description:
     value: >-
-      <p>You&nbsp;"grumble"&nbsp;psychically&nbsp;(which&nbsp;both&nbsp;psionic&nbsp;and&nbsp;non-psionic&nbsp;creatures&nbsp;can&nbsp;detect),&nbsp;then&nbsp;release&nbsp;a&nbsp;horrid&nbsp;shriek&nbsp;from&nbsp;your&nbsp;subconscious&nbsp;that&nbsp;disrupts&nbsp;the&nbsp;brains&nbsp;of&nbsp;all&nbsp;enemies&nbsp;in&nbsp;the&nbsp;power's&nbsp;area,&nbsp;dealing&nbsp;13d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;to&nbsp;each&nbsp;enemy.
+      <p>You "grumble" psychically (which both psionic and non-psionic creatures
+      can detect), then release a horrid shriek from your subconscious that
+      disrupts the brains of all enemies in the power's area, dealing 13d6
+      points of damage to each enemy.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;damage&nbsp;increases&nbsp;by&nbsp;1d6&nbsp;points.
+      <p><strong>Augment:</strong> For every additional power point you spend,
+      this power's damage increases by 1d6 points.
 
       </p>
   descriptors:

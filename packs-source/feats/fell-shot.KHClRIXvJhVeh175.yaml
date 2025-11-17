@@ -22,13 +22,17 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;ranged&nbsp;attacks&nbsp;are&nbsp;exceptionally&nbsp;accurate.</em></p>
+      <p><em>Your ranged attacks are exceptionally accurate.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Fell_Shot"&nbsp;title="Fell&nbsp;Shot">Fell&nbsp;Shot</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Fell_Shot" title="Fell
+      Shot">Fell Shot</a>.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;make&nbsp;an&nbsp;attack&nbsp;using&nbsp;Fell&nbsp;Shot,&nbsp;add&nbsp;half&nbsp;your&nbsp;tier&nbsp;(minimum&nbsp;1)&nbsp;to&nbsp;the&nbsp;attack&nbsp;roll.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;when&nbsp;using&nbsp;Fell&nbsp;Shot&nbsp;to&nbsp;treat&nbsp;all&nbsp;ranged&nbsp;attacks&nbsp;made&nbsp;during&nbsp;your&nbsp;turn&nbsp;as&nbsp;ranged&nbsp;touch&nbsp;attacks.
+      <p><strong>Benefit:</strong> When you make an attack using Fell Shot, add
+      half your tier (minimum 1) to the attack roll. In addition, you can expend
+      a use of mythic power when using Fell Shot to treat all ranged attacks
+      made during your turn as ranged touch attacks.
 
       </p>
   disabled: false

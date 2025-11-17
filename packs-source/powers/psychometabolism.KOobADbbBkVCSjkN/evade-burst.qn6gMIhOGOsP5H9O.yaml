@@ -26,11 +26,15 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;throw&nbsp;off&nbsp;a&nbsp;faux&nbsp;ectoplasmic&nbsp;shell,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;slide&nbsp;out&nbsp;of&nbsp;range&nbsp;of&nbsp;a&nbsp;damaging&nbsp;effect.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power&nbsp;in&nbsp;conjunction&nbsp;with&nbsp;making&nbsp;a&nbsp;successful&nbsp;Reflex&nbsp;save&nbsp;against&nbsp;an&nbsp;attack&nbsp;that&nbsp;normally&nbsp;deals&nbsp;half&nbsp;damage&nbsp;on&nbsp;a&nbsp;successful&nbsp;save,&nbsp;you&nbsp;instead&nbsp;take&nbsp;no&nbsp;damage.
+      <p>You throw off a faux ectoplasmic shell, allowing you to slide out of
+      range of a damaging effect. When you manifest this power in conjunction
+      with making a successful Reflex save against an attack that normally deals
+      half damage on a successful save, you instead take no damage.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;take&nbsp;only&nbsp;half&nbsp;damage&nbsp;on&nbsp;a&nbsp;failed&nbsp;Reflex&nbsp;save.
+      <p><strong>Augment:</strong> If you spend 4 additional power points, you
+      take only half damage on a failed Reflex save.
 
       </p>
   discipline: psychometabolism

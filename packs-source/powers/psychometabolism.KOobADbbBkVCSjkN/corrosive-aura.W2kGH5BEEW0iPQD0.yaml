@@ -34,11 +34,15 @@ system:
         value: All squares adjacent to you
   description:
     value: >-
-      <p>You&nbsp;surround&nbsp;yourself&nbsp;with&nbsp;a&nbsp;corrosive&nbsp;aura,&nbsp;damaging&nbsp;all&nbsp;who&nbsp;come&nbsp;near.&nbsp;Each&nbsp;creature&nbsp;that&nbsp;ends&nbsp;its&nbsp;turn&nbsp;in&nbsp;your&nbsp;square&nbsp;or&nbsp;adjacent&nbsp;to&nbsp;you&nbsp;takes&nbsp;1d6&nbsp;points&nbsp;of&nbsp;acid&nbsp;damage.
+      <p>You surround yourself with a corrosive aura, damaging all who come
+      near. Each creature that ends its turn in your square or adjacent to you
+      takes 1d6 points of acid damage.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;spent,&nbsp;the&nbsp;damage&nbsp;increases&nbsp;by&nbsp;1d6.&nbsp;For&nbsp;every&nbsp;two&nbsp;additional&nbsp;dice&nbsp;of&nbsp;damage,&nbsp;the&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+      <p><strong>Augment:</strong> For every additional power point spent, the
+      damage increases by 1d6. For every two additional dice of damage, the save
+      DC increases by 1.
 
       </p>
   descriptors:

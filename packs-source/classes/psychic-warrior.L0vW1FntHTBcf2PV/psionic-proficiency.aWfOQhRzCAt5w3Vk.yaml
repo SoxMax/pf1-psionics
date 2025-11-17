@@ -12,9 +12,12 @@ system:
       - Psychic Warrior
   description:
     value: >-
-      <p>A&nbsp;psychic&nbsp;warrior&nbsp;treats&nbsp;his&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;as&nbsp;equal&nbsp;to&nbsp;his&nbsp;psychic&nbsp;warrior&nbsp;level&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of&nbsp;requirements&nbsp;for&nbsp;psionic&nbsp;feats.&nbsp;Base&nbsp;attack&nbsp;bonuses&nbsp;granted&nbsp;from&nbsp;other&nbsp;classes&nbsp;are&nbsp;unaffected&nbsp;and&nbsp;are&nbsp;added&nbsp;normally.
+      <p>A psychic warrior treats his base attack bonus as equal to his psychic
+      warrior level for the purposes of requirements for psionic feats. Base
+      attack bonuses granted from other classes are unaffected and are added
+      normally.
 
-      </p><p></p>
+      </p>
   sources:
     - date: '2010-08-01'
       pages: 25–27

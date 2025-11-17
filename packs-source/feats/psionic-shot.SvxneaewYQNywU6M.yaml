@@ -22,13 +22,18 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;ranged&nbsp;attacks&nbsp;are&nbsp;infused&nbsp;with&nbsp;your&nbsp;mythic&nbsp;power.</em></p>
+      <p><em>Your ranged attacks are infused with your mythic power.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Psionic_Shot"&nbsp;title="Psionic&nbsp;Shot">Psionic&nbsp;Shot</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Psionic_Shot"
+      title="Psionic Shot">Psionic Shot</a>.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;Double&nbsp;the&nbsp;damage&nbsp;added&nbsp;to&nbsp;your&nbsp;attacks&nbsp;when&nbsp;using&nbsp;Psionic&nbsp;Shot&nbsp;or&nbsp;<a&nbsp;href="/wiki/Greater_Psionic_Shot"&nbsp;title="Greater&nbsp;Psionic&nbsp;Shot">Greater&nbsp;Psionic&nbsp;Shot</a>.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;reroll&nbsp;any&nbsp;extra&nbsp;damage&nbsp;dice&nbsp;from&nbsp;Psionic&nbsp;Shot&nbsp;or&nbsp;Greater&nbsp;Psionic&nbsp;Shot&nbsp;and&nbsp;take&nbsp;the&nbsp;better&nbsp;result.
+      <p><strong>Benefit:</strong> Double the damage added to your attacks when
+      using Psionic Shot or <a href="/wiki/Greater_Psionic_Shot" title="Greater
+      Psionic Shot">Greater Psionic Shot</a>. In addition, you can expend a use
+      of mythic power as a swift action to reroll any extra damage dice from
+      Psionic Shot or Greater Psionic Shot and take the better result.
 
       </p>
   disabled: false

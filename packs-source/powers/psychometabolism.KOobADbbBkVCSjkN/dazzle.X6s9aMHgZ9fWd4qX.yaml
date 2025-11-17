@@ -27,7 +27,9 @@ system:
         value: One living creature
   description:
     value: >-
-      <p>You&nbsp;attempt&nbsp;to&nbsp;disrupt&nbsp;the&nbsp;vision&nbsp;of&nbsp;the&nbsp;targeted&nbsp;creature&nbsp;by&nbsp;making&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack.&nbsp;If&nbsp;the&nbsp;attack&nbsp;is&nbsp;successful,&nbsp;the&nbsp;creature&nbsp;is&nbsp;dazzled&nbsp;until&nbsp;the&nbsp;beginning&nbsp;of&nbsp;your&nbsp;next&nbsp;turn.
+      <p>You attempt to disrupt the vision of the targeted creature by making a
+      ranged touch attack. If the attack is successful, the creature is dazzled
+      until the beginning of your next turn.
 
       </p>
   discipline: psychometabolism

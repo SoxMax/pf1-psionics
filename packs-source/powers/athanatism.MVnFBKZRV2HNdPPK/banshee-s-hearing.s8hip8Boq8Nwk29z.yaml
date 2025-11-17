@@ -28,13 +28,21 @@ system:
         value: You
   description:
     value: >-
-      <p>Like&nbsp;the&nbsp;spectral&nbsp;undead,&nbsp;you&nbsp;attune&nbsp;your&nbsp;senses&nbsp;to&nbsp;the&nbsp;heartbeats&nbsp;of&nbsp;the&nbsp;living.&nbsp;You&nbsp;gain&nbsp;blindsight&nbsp;with&nbsp;a&nbsp;range&nbsp;of&nbsp;60&nbsp;ft.&nbsp;However,&nbsp;any&nbsp;target&nbsp;that&nbsp;does&nbsp;not&nbsp;have&nbsp;a&nbsp;heartbeat&nbsp;(undead,&nbsp;constructs,&nbsp;some&nbsp;aberrations,&nbsp;etc.)&nbsp;is&nbsp;treated&nbsp;as&nbsp;having&nbsp;total&nbsp;concealment&nbsp;from&nbsp;your&nbsp;blindsight.&nbsp;Your&nbsp;normal&nbsp;senses&nbsp;continue&nbsp;to&nbsp;function.
+      <p>Like the spectral undead, you attune your senses to the heartbeats of
+      the living. You gain blindsight with a range of 60 ft. However, any target
+      that does not have a heartbeat (undead, constructs, some aberrations,
+      etc.) is treated as having total concealment from your blindsight. Your
+      normal senses continue to function.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You may augment this power in one of the
+      following ways.
 
-      </p><ol><li>You&nbsp;may&nbsp;spend&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;to&nbsp;increase&nbsp;the&nbsp;range&nbsp;of&nbsp;your&nbsp;blindsight&nbsp;from&nbsp;this&nbsp;power&nbsp;by&nbsp;10&nbsp;feet.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;becomes&nbsp;1&nbsp;hour/level.</li></ol>
+      </p><ol><li>You may spend an additional 2 power points to increase the
+      range of your blindsight from this power by 10 feet.</li><li>By spending
+      an additional 4 power points, the duration of this power becomes 1
+      hour/level.</li></ol>
   discipline: athanatism
   display:
     auditory: true

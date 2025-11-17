@@ -29,13 +29,22 @@ system:
           Intelligence score of 3 or higher
   description:
     value: >-
-      <p>You&nbsp;forge&nbsp;a&nbsp;telepathic&nbsp;bond&nbsp;with&nbsp;your&nbsp;target.&nbsp;You&nbsp;can&nbsp;communicate&nbsp;telepathically&nbsp;through&nbsp;the&nbsp;bond&nbsp;even&nbsp;if&nbsp;you&nbsp;do&nbsp;not&nbsp;share&nbsp;a&nbsp;common&nbsp;language.&nbsp;No&nbsp;special&nbsp;power&nbsp;or&nbsp;influence&nbsp;is&nbsp;established&nbsp;as&nbsp;a&nbsp;result&nbsp;of&nbsp;the&nbsp;bond.&nbsp;Once&nbsp;the&nbsp;bond&nbsp;is&nbsp;formed,&nbsp;it&nbsp;works&nbsp;over&nbsp;any&nbsp;distance&nbsp;(although&nbsp;not&nbsp;from&nbsp;one&nbsp;plane&nbsp;to&nbsp;another).
+      <p>You forge a telepathic bond with your target. You can communicate
+      telepathically through the bond even if you do not share a common
+      language. No special power or influence is established as a result of the
+      bond. Once the bond is formed, it works over any distance (although not
+      from one plane to another).
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or both of
+      the following ways.
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;attempt&nbsp;to&nbsp;create&nbsp;a&nbsp;telepathic&nbsp;bond&nbsp;with&nbsp;a&nbsp;creature&nbsp;that&nbsp;is&nbsp;not&nbsp;willing&nbsp;(Will&nbsp;save&nbsp;negates).</li><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;can&nbsp;affect&nbsp;an&nbsp;additional&nbsp;target.&nbsp;Any&nbsp;additional&nbsp;target&nbsp;cannot&nbsp;be&nbsp;more&nbsp;than&nbsp;15&nbsp;feet&nbsp;from&nbsp;another&nbsp;target&nbsp;of&nbsp;the&nbsp;power.</li></ol>
+      </p><ol><li>If you spend 4 additional power points, you can attempt to
+      create a telepathic bond with a creature that is not willing (Will save
+      negates).</li><li>For every additional power point you spend, this power
+      can affect an additional target. Any additional target cannot be more than
+      15 feet from another target of the power.</li></ol>
   descriptors:
     - mind-affecting
   discipline: telepathy

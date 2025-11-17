@@ -28,13 +28,24 @@ system:
         value: One unattended object, weighing up to 1 lb./level
   description:
     value: >-
-      <p>You&nbsp;transfer&nbsp;one&nbsp;touched&nbsp;object&nbsp;to&nbsp;an&nbsp;extradimensional&nbsp;pocket&nbsp;of&nbsp;space&nbsp;in&nbsp;the&nbsp;palm&nbsp;of&nbsp;your&nbsp;hand.&nbsp;This&nbsp;extradimensional&nbsp;space&nbsp;is&nbsp;invisible&nbsp;and&nbsp;weightless,&nbsp;regardless&nbsp;of&nbsp;the&nbsp;weight&nbsp;of&nbsp;the&nbsp;item&nbsp;inside&nbsp;it.&nbsp;When&nbsp;the&nbsp;power&nbsp;ends,&nbsp;the&nbsp;object&nbsp;returns&nbsp;to&nbsp;your&nbsp;hand,&nbsp;although&nbsp;if&nbsp;your&nbsp;hand&nbsp;is&nbsp;not&nbsp;free,&nbsp;the&nbsp;object&nbsp;instead&nbsp;falls&nbsp;to&nbsp;the&nbsp;ground&nbsp;at&nbsp;your&nbsp;feet.&nbsp;You&nbsp;may&nbsp;only&nbsp;have&nbsp;one&nbsp;such&nbsp;extradimensional&nbsp;pocket&nbsp;active&nbsp;at&nbsp;any&nbsp;given&nbsp;time.
+      <p>You transfer one touched object to an extradimensional pocket of space
+      in the palm of your hand. This extradimensional space is invisible and
+      weightless, regardless of the weight of the item inside it. When the power
+      ends, the object returns to your hand, although if your hand is not free,
+      the object instead falls to the ground at your feet. You may only have one
+      such extradimensional pocket active at any given time.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or both of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;object&nbsp;being&nbsp;stored&nbsp;can&nbsp;weigh&nbsp;an&nbsp;additional&nbsp;pound&nbsp;per&nbsp;level.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;have&nbsp;one&nbsp;additional&nbsp;item&nbsp;in&nbsp;your&nbsp;extradimensional&nbsp;pocket,&nbsp;although&nbsp;you&nbsp;are&nbsp;still&nbsp;restricted&nbsp;to&nbsp;the&nbsp;weight&nbsp;limit&nbsp;for&nbsp;all&nbsp;of&nbsp;the&nbsp;items&nbsp;combined.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;increases&nbsp;to&nbsp;one&nbsp;day.</li></ol>
+      </p><ol><li>For every 2 additional power points you spend, the object
+      being stored can weigh an additional pound per level.</li><li>For every 2
+      additional power points you spend, you can have one additional item in
+      your extradimensional pocket, although you are still restricted to the
+      weight limit for all of the items combined.</li><li>If you spend 4
+      additional power points, the duration increases to one day.</li></ol>
   discipline: psychoportation
   display:
     auditory: false

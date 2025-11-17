@@ -27,11 +27,21 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;forge&nbsp;a&nbsp;psychometabolic&nbsp;affinity&nbsp;with&nbsp;an&nbsp;idealized&nbsp;animal&nbsp;form,&nbsp;thereby&nbsp;boosting&nbsp;one&nbsp;of&nbsp;your&nbsp;ability&nbsp;scores&nbsp;(choose&nbsp;Strength,&nbsp;Dexterity,&nbsp;Constitution,&nbsp;Intelligence,&nbsp;Wisdom,&nbsp;or&nbsp;Charisma).&nbsp;The&nbsp;power&nbsp;grants&nbsp;a&nbsp;+4&nbsp;enhancement&nbsp;bonus&nbsp;to&nbsp;the&nbsp;ability&nbsp;score&nbsp;you&nbsp;choose,&nbsp;adding&nbsp;the&nbsp;usual&nbsp;benefits&nbsp;provided&nbsp;by&nbsp;a&nbsp;high&nbsp;ability&nbsp;bonus.&nbsp;Because&nbsp;you&nbsp;are&nbsp;emulating&nbsp;the&nbsp;idealized&nbsp;form&nbsp;of&nbsp;an&nbsp;animal,&nbsp;you&nbsp;also&nbsp;take&nbsp;on&nbsp;minor&nbsp;aspects&nbsp;of&nbsp;the&nbsp;animal&nbsp;you&nbsp;choose.&nbsp;If&nbsp;you&nbsp;choose&nbsp;to&nbsp;increase&nbsp;the&nbsp;ability&nbsp;you&nbsp;use&nbsp;to&nbsp;manifest&nbsp;powers,&nbsp;you&nbsp;do&nbsp;not&nbsp;gain&nbsp;the&nbsp;benefit&nbsp;of&nbsp;an&nbsp;increased&nbsp;ability&nbsp;score&nbsp;long&nbsp;enough&nbsp;to&nbsp;gain&nbsp;any&nbsp;bonus&nbsp;power&nbsp;points&nbsp;for&nbsp;a&nbsp;high&nbsp;ability&nbsp;score,&nbsp;but&nbsp;the&nbsp;save&nbsp;DCs&nbsp;of&nbsp;your&nbsp;powers&nbsp;increase&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power.
+      <p>You forge a psychometabolic affinity with an idealized animal form,
+      thereby boosting one of your ability scores (choose Strength, Dexterity,
+      Constitution, Intelligence, Wisdom, or Charisma). The power grants a +4
+      enhancement bonus to the ability score you choose, adding the usual
+      benefits provided by a high ability bonus. Because you are emulating the
+      idealized form of an animal, you also take on minor aspects of the animal
+      you choose. If you choose to increase the ability you use to manifest
+      powers, you do not gain the benefit of an increased ability score long
+      enough to gain any bonus power points for a high ability score, but the
+      save DCs of your powers increase for the duration of this power.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;5&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;grants&nbsp;a&nbsp;+4&nbsp;enhancement&nbsp;bonus&nbsp;to&nbsp;another&nbsp;ability&nbsp;score.
+      <p><strong>Augment:</strong> For every 5 additional power points you
+      spend, this power grants a +4 enhancement bonus to another ability score.
 
       </p>
   discipline: psychometabolism

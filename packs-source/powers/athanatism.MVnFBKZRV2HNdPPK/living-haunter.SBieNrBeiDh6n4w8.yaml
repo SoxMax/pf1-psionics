@@ -28,19 +28,54 @@ system:
         value: 100 sq. ft./level (S)
   description:
     value: >-
-      <p>You&nbsp;haunt&nbsp;an&nbsp;area&nbsp;by&nbsp;binding&nbsp;your&nbsp;soul&nbsp;to&nbsp;it.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;your&nbsp;soul&nbsp;leaves&nbsp;your&nbsp;body&nbsp;–&nbsp;you&nbsp;count&nbsp;as&nbsp;both&nbsp;unconscious&nbsp;and&nbsp;helpless,&nbsp;but&nbsp;you&nbsp;are&nbsp;also&nbsp;immune&nbsp;to&nbsp;mind-affecting&nbsp;effects.&nbsp;While&nbsp;this&nbsp;power&nbsp;is&nbsp;active,&nbsp;you&nbsp;may&nbsp;spend&nbsp;a&nbsp;standard&nbsp;action&nbsp;each&nbsp;turn&nbsp;to&nbsp;do&nbsp;one&nbsp;of&nbsp;the&nbsp;following.
+      <p>You haunt an area by binding your soul to it. When you manifest this
+      power, your soul leaves your body – you count as both unconscious and
+      helpless, but you are also immune to mind-affecting effects. While this
+      power is active, you may spend a standard action each turn to do one of
+      the following.
 
-      </p><ul><li><em>Animate:</em>&nbsp;You&nbsp;may&nbsp;animate&nbsp;a&nbsp;Small&nbsp;or&nbsp;smaller&nbsp;object&nbsp;within&nbsp;the&nbsp;area&nbsp;as&nbsp;the&nbsp;control&nbsp;object&nbsp;power.&nbsp;If&nbsp;you&nbsp;do&nbsp;not&nbsp;maintain&nbsp;this&nbsp;effect&nbsp;as&nbsp;a&nbsp;standard&nbsp;action,&nbsp;this&nbsp;animation&nbsp;ends.</li></ul>
+      </p><ul><li><em>Animate:</em> You may animate a Small or smaller object
+      within the area as the control object power. If you do not maintain this
+      effect as a standard action, this animation ends.</li></ul>
 
-      <ul><li><em>Hallucinations:</em>&nbsp;You&nbsp;create&nbsp;vivid&nbsp;hallucinations,&nbsp;creating&nbsp;the&nbsp;visual&nbsp;illusion&nbsp;of&nbsp;an&nbsp;object,&nbsp;creature,&nbsp;or&nbsp;force,&nbsp;as&nbsp;visualized&nbsp;by&nbsp;you.&nbsp;You&nbsp;may&nbsp;also&nbsp;create&nbsp;sounds,&nbsp;but&nbsp;not&nbsp;coherent&nbsp;speech.&nbsp;You&nbsp;can&nbsp;move&nbsp;the&nbsp;image&nbsp;within&nbsp;the&nbsp;limits&nbsp;of&nbsp;the&nbsp;size&nbsp;of&nbsp;the&nbsp;effect&nbsp;whenever&nbsp;you&nbsp;maintain&nbsp;this&nbsp;effect&nbsp;as&nbsp;a&nbsp;standard&nbsp;action.&nbsp;If&nbsp;you&nbsp;do&nbsp;not&nbsp;maintain&nbsp;this&nbsp;effect&nbsp;as&nbsp;a&nbsp;standard&nbsp;action,&nbsp;this&nbsp;effect&nbsp;ends.</li></ul>
+      <ul><li><em>Hallucinations:</em> You create vivid hallucinations, creating
+      the visual illusion of an object, creature, or force, as visualized by
+      you. You may also create sounds, but not coherent speech. You can move the
+      image within the limits of the size of the effect whenever you maintain
+      this effect as a standard action. If you do not maintain this effect as a
+      standard action, this effect ends.</li></ul>
 
-      <ul><li><em>Movement:</em>&nbsp;You&nbsp;may&nbsp;alter&nbsp;the&nbsp;speed&nbsp;of&nbsp;any&nbsp;single&nbsp;creature&nbsp;in&nbsp;the&nbsp;area&nbsp;of&nbsp;this&nbsp;power.&nbsp;If&nbsp;you&nbsp;choose&nbsp;to&nbsp;accelerate&nbsp;them,&nbsp;they&nbsp;gain&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;rolls,&nbsp;a&nbsp;+1&nbsp;dodge&nbsp;bonus&nbsp;to&nbsp;AC,&nbsp;an&nbsp;increase&nbsp;in&nbsp;all&nbsp;modes&nbsp;of&nbsp;movement&nbsp;of&nbsp;30&nbsp;feet&nbsp;(to&nbsp;a&nbsp;maximum&nbsp;of&nbsp;twice&nbsp;the&nbsp;subject's&nbsp;normal&nbsp;speed&nbsp;using&nbsp;that&nbsp;mode),&nbsp;and&nbsp;an&nbsp;additional&nbsp;attack&nbsp;with&nbsp;a&nbsp;natural&nbsp;or&nbsp;manufactured&nbsp;weapon&nbsp;whenever&nbsp;the&nbsp;subject&nbsp;makes&nbsp;a&nbsp;full&nbsp;attack&nbsp;action,&nbsp;using&nbsp;the&nbsp;subject's&nbsp;full&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;and&nbsp;other&nbsp;applicable&nbsp;modifiers.&nbsp;This&nbsp;effect&nbsp;is&nbsp;not&nbsp;cumulative&nbsp;with&nbsp;similar&nbsp;effects,&nbsp;such&nbsp;as&nbsp;haste&nbsp;or&nbsp;a&nbsp;speed&nbsp;weapon.&nbsp;If&nbsp;you&nbsp;choose&nbsp;to&nbsp;decelerate&nbsp;them,&nbsp;they&nbsp;are&nbsp;staggered,&nbsp;may&nbsp;take&nbsp;only&nbsp;a&nbsp;single&nbsp;move&nbsp;action&nbsp;or&nbsp;standard&nbsp;action&nbsp;each&nbsp;turn,&nbsp;take&nbsp;a&nbsp;-1&nbsp;penalty&nbsp;on&nbsp;attack&nbsp;rolls,&nbsp;AC,&nbsp;and&nbsp;Reflex&nbsp;saves,&nbsp;and&nbsp;move&nbsp;at&nbsp;half&nbsp;their&nbsp;normal&nbsp;speed.&nbsp;If&nbsp;you&nbsp;do&nbsp;not&nbsp;maintain&nbsp;this&nbsp;effect&nbsp;as&nbsp;a&nbsp;standard&nbsp;action,&nbsp;this&nbsp;effect&nbsp;ends.&nbsp;A&nbsp;creature&nbsp;targeted&nbsp;by&nbsp;this&nbsp;use&nbsp;may&nbsp;attempt&nbsp;a&nbsp;Will&nbsp;save&nbsp;to&nbsp;resist&nbsp;it&nbsp;(power&nbsp;resistance&nbsp;applies).</li></ul>
+      <ul><li><em>Movement:</em> You may alter the speed of any single creature
+      in the area of this power. If you choose to accelerate them, they gain a
+      +1 bonus on attack rolls, a +1 dodge bonus to AC, an increase in all modes
+      of movement of 30 feet (to a maximum of twice the subject's normal speed
+      using that mode), and an additional attack with a natural or manufactured
+      weapon whenever the subject makes a full attack action, using the
+      subject's full base attack bonus and other applicable modifiers. This
+      effect is not cumulative with similar effects, such as haste or a speed
+      weapon. If you choose to decelerate them, they are staggered, may take
+      only a single move action or standard action each turn, take a -1 penalty
+      on attack rolls, AC, and Reflex saves, and move at half their normal
+      speed. If you do not maintain this effect as a standard action, this
+      effect ends. A creature targeted by this use may attempt a Will save to
+      resist it (power resistance applies).</li></ul>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You may augment this power in one of the
+      following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;you&nbsp;may&nbsp;target&nbsp;one&nbsp;additional&nbsp;creature&nbsp;with&nbsp;the&nbsp;movement&nbsp;ability&nbsp;of&nbsp;this&nbsp;power.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;include&nbsp;full&nbsp;sound,&nbsp;smell,&nbsp;and&nbsp;thermal&nbsp;elements&nbsp;with&nbsp;the&nbsp;hallucinations&nbsp;ability&nbsp;of&nbsp;this&nbsp;power.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;animate&nbsp;one&nbsp;additional&nbsp;Small&nbsp;object&nbsp;with&nbsp;the&nbsp;animate&nbsp;ability&nbsp;of&nbsp;this&nbsp;power.&nbsp;You&nbsp;may&nbsp;instead&nbsp;animate&nbsp;fewer,&nbsp;larger&nbsp;objects,&nbsp;as&nbsp;per&nbsp;control&nbsp;object.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;increase&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;1&nbsp;min./level.</li></ol>
+      </p><ol><li>For every additional power point you spend, you may target one
+      additional creature with the movement ability of this power.</li><li>By
+      spending an additional 4 power points, you may include full sound, smell,
+      and thermal elements with the hallucinations ability of this
+      power.</li><li>For every 2 additional power points you spend, you can
+      animate one additional Small object with the animate ability of this
+      power. You may instead animate fewer, larger objects, as per control
+      object.</li><li>By spending an additional 6 power points, increase the
+      duration of this power to 1 min./level.</li></ol>
 
-      <p>If&nbsp;you&nbsp;spend&nbsp;at&nbsp;least&nbsp;6&nbsp;power&nbsp;points&nbsp;augmenting&nbsp;this&nbsp;power,&nbsp;you&nbsp;may&nbsp;sustain&nbsp;any&nbsp;of&nbsp;its&nbsp;effects&nbsp;as&nbsp;a&nbsp;move&nbsp;action,&nbsp;instead&nbsp;of&nbsp;a&nbsp;standard.&nbsp;This&nbsp;allows&nbsp;you&nbsp;to&nbsp;maintain&nbsp;more&nbsp;than&nbsp;one&nbsp;effect&nbsp;each&nbsp;turn.
+      <p>If you spend at least 6 power points augmenting this power, you may
+      sustain any of its effects as a move action, instead of a standard. This
+      allows you to maintain more than one effect each turn.
 
       </p>
   descriptors:

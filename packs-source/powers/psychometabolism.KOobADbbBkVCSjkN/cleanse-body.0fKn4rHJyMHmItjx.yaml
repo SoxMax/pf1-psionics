@@ -29,7 +29,11 @@ system:
         value: Living creature touched
   description:
     value: >-
-      <p>You&nbsp;dispel&nbsp;any&nbsp;psionic&nbsp;effects&nbsp;reducing&nbsp;one&nbsp;of&nbsp;the&nbsp;subject's&nbsp;ability&nbsp;scores&nbsp;or&nbsp;cure&nbsp;1d4&nbsp;points&nbsp;of&nbsp;temporary&nbsp;ability&nbsp;damage&nbsp;to&nbsp;one&nbsp;of&nbsp;the&nbsp;subject's&nbsp;ability&nbsp;scores.&nbsp;You&nbsp;also&nbsp;eliminate&nbsp;any&nbsp;fatigue&nbsp;suffered&nbsp;by&nbsp;the&nbsp;character,&nbsp;and&nbsp;improves&nbsp;an&nbsp;exhausted&nbsp;condition&nbsp;to&nbsp;fatigued.&nbsp;You&nbsp;do&nbsp;not&nbsp;restore&nbsp;permanent&nbsp;ability&nbsp;drain.
+      <p>You dispel any psionic effects reducing one of the subject's ability
+      scores or cure 1d4 points of temporary ability damage to one of the
+      subject's ability scores. You also eliminate any fatigue suffered by the
+      character, and improves an exhausted condition to fatigued. You do not
+      restore permanent ability drain.
 
       </p>
   discipline: psychometabolism

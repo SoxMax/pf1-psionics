@@ -29,11 +29,17 @@ system:
         value: One creature
   description:
     value: >-
-      <p>The&nbsp;target&nbsp;of&nbsp;the&nbsp;power&nbsp;becomes&nbsp;clumsy&nbsp;and&nbsp;moves&nbsp;in&nbsp;the&nbsp;worst&nbsp;possible&nbsp;way&nbsp;when&nbsp;attacked.&nbsp;The&nbsp;target&nbsp;is&nbsp;considered&nbsp;flanked&nbsp;to&nbsp;all&nbsp;attackers&nbsp;and&nbsp;all&nbsp;attacks&nbsp;on&nbsp;the&nbsp;subject&nbsp;gain&nbsp;a&nbsp;+4&nbsp;circumstance&nbsp;bonus&nbsp;to&nbsp;confirm&nbsp;critical&nbsp;hits.&nbsp;Any&nbsp;fortification&nbsp;against&nbsp;sneak&nbsp;attacks&nbsp;and&nbsp;critical&nbsp;hits&nbsp;must&nbsp;be&nbsp;rolled&nbsp;twice,&nbsp;with&nbsp;the&nbsp;worse&nbsp;roll&nbsp;used&nbsp;to&nbsp;determine&nbsp;if&nbsp;the&nbsp;extra&nbsp;damage&nbsp;is&nbsp;negated.
+      <p>The target of the power becomes clumsy and moves in the worst possible
+      way when attacked. The target is considered flanked to all attackers and
+      all attacks on the subject gain a +4 circumstance bonus to confirm
+      critical hits. Any fortification against sneak attacks and critical hits
+      must be rolled twice, with the worse roll used to determine if the extra
+      damage is negated.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;the&nbsp;target&nbsp;is&nbsp;considered&nbsp;flat-footed&nbsp;rather&nbsp;than&nbsp;flanked.
+      <p><strong>Augment:</strong> By spending an additional 6 power points, the
+      target is considered flat-footed rather than flanked.
 
       </p>
   discipline: psychometabolism

@@ -22,13 +22,15 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;powers&nbsp;that&nbsp;deal&nbsp;nonlethal&nbsp;damage&nbsp;are&nbsp;more&nbsp;potent.</em></p>
+      <p><em>Your powers that deal nonlethal damage are more potent.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Merciful_Power"&nbsp;title="Merciful&nbsp;Power">Merciful&nbsp;Power</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Merciful_Power"
+      title="Merciful Power">Merciful Power</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;using&nbsp;the&nbsp;Merciful&nbsp;Power&nbsp;feat,&nbsp;increase&nbsp;the&nbsp;total&nbsp;damage&nbsp;by&nbsp;50%.
+      <p><strong>Benefit: </strong>When using the Merciful Power feat, increase
+      the total damage by 50%.
 
       </p>
   disabled: false

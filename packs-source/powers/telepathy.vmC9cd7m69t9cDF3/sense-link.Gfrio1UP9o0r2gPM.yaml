@@ -28,25 +28,45 @@ system:
         value: One willing creature
   description:
     value: >-
-      <p>You&nbsp;perceive&nbsp;what&nbsp;the&nbsp;subject&nbsp;creature&nbsp;perceives&nbsp;using&nbsp;its&nbsp;sight,&nbsp;hearing,&nbsp;taste,&nbsp;or&nbsp;smell.&nbsp;Only&nbsp;one&nbsp;sense&nbsp;is&nbsp;linked,&nbsp;and&nbsp;you&nbsp;cannot&nbsp;switch&nbsp;between&nbsp;senses&nbsp;with&nbsp;the&nbsp;same&nbsp;manifestation.
+      <p>You perceive what the subject creature perceives using its sight,
+      hearing, taste, or smell. Only one sense is linked, and you cannot switch
+      between senses with the same manifestation.
 
       </p>
 
-      <p>You&nbsp;make&nbsp;any&nbsp;skill&nbsp;checks&nbsp;involving&nbsp;senses,&nbsp;such&nbsp;as&nbsp;Perception,&nbsp;as&nbsp;the&nbsp;subject,&nbsp;and&nbsp;only&nbsp;within&nbsp;the&nbsp;subject's&nbsp;field&nbsp;of&nbsp;view.&nbsp;You&nbsp;lose&nbsp;your&nbsp;Dexterity&nbsp;bonus&nbsp;to&nbsp;AC&nbsp;while&nbsp;directly&nbsp;sensing&nbsp;what&nbsp;the&nbsp;subject&nbsp;senses.
+      <p>You make any skill checks involving senses, such as Perception, as the
+      subject, and only within the subject's field of view. You lose your
+      Dexterity bonus to AC while directly sensing what the subject senses.
 
       </p>
 
-      <p>Once&nbsp;sense&nbsp;link&nbsp;is&nbsp;manifested,&nbsp;the&nbsp;link&nbsp;persists&nbsp;even&nbsp;if&nbsp;the&nbsp;subject&nbsp;moves&nbsp;out&nbsp;of&nbsp;the&nbsp;range&nbsp;of&nbsp;the&nbsp;original&nbsp;manifestation&nbsp;(but&nbsp;the&nbsp;link&nbsp;does&nbsp;not&nbsp;work&nbsp;across&nbsp;planes).&nbsp;You&nbsp;do&nbsp;not&nbsp;control&nbsp;the&nbsp;subject,&nbsp;nor&nbsp;can&nbsp;you&nbsp;communicate&nbsp;with&nbsp;it&nbsp;by&nbsp;means&nbsp;of&nbsp;this&nbsp;power.
+      <p>Once sense link is manifested, the link persists even if the subject
+      moves out of the range of the original manifestation (but the link does
+      not work across planes). You do not control the subject, nor can you
+      communicate with it by means of this power.
 
       </p>
 
-      <p>The&nbsp;strength&nbsp;of&nbsp;the&nbsp;subject's&nbsp;linked&nbsp;sense&nbsp;could&nbsp;be&nbsp;enhanced&nbsp;by&nbsp;other&nbsp;powers&nbsp;or&nbsp;items,&nbsp;allowing&nbsp;you&nbsp;the&nbsp;same&nbsp;enhanced&nbsp;sense.&nbsp;You&nbsp;are&nbsp;subject&nbsp;to&nbsp;any&nbsp;gaze&nbsp;attack&nbsp;affecting&nbsp;the&nbsp;subject&nbsp;creature&nbsp;(if&nbsp;you&nbsp;linked&nbsp;vision).&nbsp;If&nbsp;you&nbsp;are&nbsp;blinded&nbsp;or&nbsp;deafened,&nbsp;or&nbsp;suffer&nbsp;some&nbsp;other&nbsp;sensory&nbsp;deprivation,&nbsp;the&nbsp;linked&nbsp;creature&nbsp;functions&nbsp;as&nbsp;an&nbsp;independent&nbsp;sensory&nbsp;organ,&nbsp;and&nbsp;provides&nbsp;you&nbsp;the&nbsp;benefit&nbsp;of&nbsp;the&nbsp;linked&nbsp;sense&nbsp;from&nbsp;its&nbsp;perspective&nbsp;while&nbsp;this&nbsp;power's&nbsp;duration&nbsp;lasts.
+      <p>The strength of the subject's linked sense could be enhanced by other
+      powers or items, allowing you the same enhanced sense. You are subject to
+      any gaze attack affecting the subject creature (if you linked vision). If
+      you are blinded or deafened, or suffer some other sensory deprivation, the
+      linked creature functions as an independent sensory organ, and provides
+      you the benefit of the linked sense from its perspective while this
+      power's duration lasts.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or more of
+      the following ways.
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;have&nbsp;the&nbsp;subject&nbsp;perceive&nbsp;one&nbsp;of&nbsp;your&nbsp;senses&nbsp;instead&nbsp;of&nbsp;the&nbsp;other&nbsp;way&nbsp;around.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;link&nbsp;to&nbsp;a&nbsp;second&nbsp;sense&nbsp;of&nbsp;the&nbsp;same&nbsp;subject.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;target&nbsp;an&nbsp;unwilling&nbsp;creature&nbsp;(Will&nbsp;save&nbsp;negates),&nbsp;but&nbsp;cannot&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;any&nbsp;other&nbsp;way.&nbsp;Treat&nbsp;the&nbsp;power&nbsp;as&nbsp;a&nbsp;2nd&nbsp;level&nbsp;power&nbsp;when&nbsp;determining&nbsp;the&nbsp;save&nbsp;DC.</li></ol>
+      </p><ol><li>If you spend 2 additional power points, you can have the
+      subject perceive one of your senses instead of the other way
+      around.</li><li>If you spend 4 additional power points, you can link to a
+      second sense of the same subject.</li><li>If you spend 2 additional power
+      points, you can target an unwilling creature (Will save negates), but
+      cannot augment this power in any other way. Treat the power as a 2nd level
+      power when determining the save DC.</li></ol>
   descriptors:
     - mind-affecting
   discipline: telepathy

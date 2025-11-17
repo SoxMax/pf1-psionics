@@ -22,19 +22,20 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;use&nbsp;meditation&nbsp;to&nbsp;focus&nbsp;your&nbsp;powers.
+      <p>You can use meditation to focus your powers.
 
       </p>
 
-      <p><strong>Prerequisite:&nbsp;</strong><a&nbsp;href="/wiki/Psionic_Endowment"&nbsp;title="Psionic&nbsp;Endowment">Psionic&nbsp;Endowment</a>.
+      <p><strong>Prerequisite: </strong><a href="/wiki/Psionic_Endowment"
+      title="Psionic Endowment">Psionic Endowment</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;use&nbsp;the&nbsp;Psionic&nbsp;Endowment&nbsp;feat,
+      <p><strong>Benefit: </strong>When you use the Psionic Endowment feat,
 
-      you&nbsp;add&nbsp;+2&nbsp;to&nbsp;the&nbsp;save&nbsp;DC&nbsp;of&nbsp;a&nbsp;power&nbsp;you&nbsp;manifest
+      you add +2 to the save DC of a power you manifest
 
-      instead&nbsp;of&nbsp;+1.
+      instead of +1.
 
       </p>
   disabled: false

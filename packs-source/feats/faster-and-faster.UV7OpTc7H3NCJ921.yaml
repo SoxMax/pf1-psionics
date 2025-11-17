@@ -22,13 +22,16 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;are&nbsp;truly&nbsp;dedicated&nbsp;to&nbsp;the&nbsp;concept&nbsp;of&nbsp;speed.</em></p>
+      <p><em>You are truly dedicated to the concept of speed.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Accelerate&nbsp;class&nbsp;feature.
+      <p><strong>Prerequisite:</strong> Accelerate class feature.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;Each&nbsp;time&nbsp;you&nbsp;gain&nbsp;a&nbsp;10&nbsp;feet&nbsp;insight&nbsp;bonus&nbsp;to&nbsp;speed&nbsp;from&nbsp;the&nbsp;accelerate&nbsp;class&nbsp;feature&nbsp;(including&nbsp;the&nbsp;initial&nbsp;10&nbsp;feet&nbsp;from&nbsp;the&nbsp;<a&nbsp;href="/wiki/Speed_of_Thought"&nbsp;title="Speed&nbsp;of&nbsp;Thought">Speed&nbsp;of&nbsp;Thought</a>&nbsp;feat),&nbsp;you&nbsp;instead&nbsp;gain&nbsp;15&nbsp;feet&nbsp;of&nbsp;additional&nbsp;speed.
+      <p><strong>Benefit:</strong> Each time you gain a 10 feet insight bonus to
+      speed from the accelerate class feature (including the initial 10 feet
+      from the <a href="/wiki/Speed_of_Thought" title="Speed of Thought">Speed
+      of Thought</a> feat), you instead gain 15 feet of additional speed.
 
       </p>
   disabled: false

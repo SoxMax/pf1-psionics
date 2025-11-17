@@ -21,39 +21,23 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;can&nbsp;sense&nbsp;the&nbsp;stress&nbsp;points&nbsp;on&nbsp;others’&nbsp;weapons.
-
+    value: |-
+      <p>You can sense the stress points on others’ weapons.
       </p>
-
-      <p><strong>Prerequisite:&nbsp;</strong>Str&nbsp;13,&nbsp;Power&nbsp;Attack,&nbsp;Improved&nbsp;Sunder.
-
+      <p><strong>Prerequisite: </strong>Str 13, Power Attack, Improved Sunder.
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your
-
-      psionic&nbsp;focus.&nbsp;When&nbsp;you&nbsp;strike&nbsp;at&nbsp;an&nbsp;opponent’s&nbsp;weapon,
-
-      you&nbsp;ignore&nbsp;half&nbsp;of&nbsp;the&nbsp;weapon’s&nbsp;total&nbsp;hardness&nbsp;(round
-
-      down).&nbsp;Total&nbsp;hardness&nbsp;includes&nbsp;any&nbsp;magical&nbsp;or&nbsp;psionic
-
-      enhancements&nbsp;possessed&nbsp;by&nbsp;the&nbsp;weapon&nbsp;that&nbsp;increase
-
-      its&nbsp;hardness.
-
+      <p><strong>Benefit: </strong>To use this feat, you must expend your
+      psionic focus. When you strike at an opponent’s weapon,
+      you ignore half of the weapon’s total hardness (round
+      down). Total hardness includes any magical or psionic
+      enhancements possessed by the weapon that increase
+      its hardness.
       </p>
-
-      <p><strong>Special:&nbsp;</strong>You&nbsp;can&nbsp;also&nbsp;sense&nbsp;the&nbsp;stress&nbsp;points&nbsp;in&nbsp;any
-
-      hard&nbsp;construction,&nbsp;such&nbsp;as&nbsp;wooden&nbsp;doors&nbsp;or&nbsp;stone&nbsp;walls,
-
-      and&nbsp;can&nbsp;ignore&nbsp;half&nbsp;of&nbsp;the&nbsp;object’s&nbsp;total&nbsp;hardness&nbsp;(round
-
-      down)&nbsp;when&nbsp;attacking&nbsp;that&nbsp;object.&nbsp;You&nbsp;must&nbsp;still&nbsp;expend
-
-      your&nbsp;psionic&nbsp;focus&nbsp;when&nbsp;using&nbsp;this&nbsp;special&nbsp;option.
-
+      <p><strong>Special: </strong>You can also sense the stress points in any
+      hard construction, such as wooden doors or stone walls,
+      and can ignore half of the object’s total hardness (round
+      down) when attacking that object. You must still expend
+      your psionic focus when using this special option.
       </p>
   disabled: false
   featType: feat
