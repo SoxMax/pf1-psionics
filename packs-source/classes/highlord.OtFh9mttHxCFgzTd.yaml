@@ -57,29 +57,29 @@ system:
   links:
     classAssociations:
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.ouxrJn0nd56zzt4S
+        uuid: Compendium.pf1-psionics.classes.Item.ouxrJn0nd56zzt4S
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.Sel6goaCFTxfounU
+        uuid: Compendium.pf1-psionics.classes.Item.Sel6goaCFTxfounU
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.RI6v9wkndQDI3RI9
+        uuid: Compendium.pf1-psionics.classes.Item.RI6v9wkndQDI3RI9
       - level: 2
-        uuid: Compendium.pf1-psionics.class-abilities.Item.qCEglnWnqcPbV1N8
+        uuid: Compendium.pf1-psionics.classes.Item.qCEglnWnqcPbV1N8
       - level: 3
-        uuid: Compendium.pf1-psionics.class-abilities.Item.M8XGtQHDs24dyNjK
+        uuid: Compendium.pf1-psionics.classes.Item.M8XGtQHDs24dyNjK
       - level: 3
-        uuid: Compendium.pf1-psionics.class-abilities.Item.jutf8lAk4HRRg3SQ
+        uuid: Compendium.pf1-psionics.classes.Item.jutf8lAk4HRRg3SQ
       - level: 4
-        uuid: Compendium.pf1-psionics.class-abilities.Item.b5WbUeVt7C5G1VWD
+        uuid: Compendium.pf1-psionics.classes.Item.b5WbUeVt7C5G1VWD
       - level: 5
-        uuid: Compendium.pf1-psionics.class-abilities.Item.WoxLcauUvrZbJTk9
+        uuid: Compendium.pf1-psionics.classes.Item.WoxLcauUvrZbJTk9
       - level: 5
-        uuid: Compendium.pf1-psionics.class-abilities.Item.QBwW0xkjjxxwNIK4
+        uuid: Compendium.pf1-psionics.classes.Item.QBwW0xkjjxxwNIK4
       - level: 6
-        uuid: Compendium.pf1-psionics.class-abilities.Item.TQVOnufKappxaNNh
+        uuid: Compendium.pf1-psionics.classes.Item.TQVOnufKappxaNNh
       - level: 10
-        uuid: Compendium.pf1-psionics.class-abilities.Item.SK61mFpMBDbIMOfz
+        uuid: Compendium.pf1-psionics.classes.Item.SK61mFpMBDbIMOfz
       - level: 20
-        uuid: Compendium.pf1-psionics.class-abilities.Item.aXK08eTE3JfiuYbs
+        uuid: Compendium.pf1-psionics.classes.Item.aXK08eTE3JfiuYbs
   manifesting:
     ability: cha
     cantrips: true

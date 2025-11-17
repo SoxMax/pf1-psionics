@@ -55,27 +55,27 @@ system:
   links:
     classAssociations:
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.hLltom1ZTAl8hfHW
+        uuid: Compendium.pf1-psionics.classes.Item.hLltom1ZTAl8hfHW
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.S27So1eEl4S2os4u
+        uuid: Compendium.pf1-psionics.classes.Item.S27So1eEl4S2os4u
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.4yKVlWn0XRdfoUbR
+        uuid: Compendium.pf1-psionics.classes.Item.4yKVlWn0XRdfoUbR
       - level: 2
-        uuid: Compendium.pf1-psionics.class-abilities.Item.mECSpyfGFDSKoQyr
+        uuid: Compendium.pf1-psionics.classes.Item.mECSpyfGFDSKoQyr
       - level: 3
-        uuid: Compendium.pf1-psionics.class-abilities.Item.4oV0TSDfsouHMXeL
+        uuid: Compendium.pf1-psionics.classes.Item.4oV0TSDfsouHMXeL
       - level: 3
-        uuid: Compendium.pf1-psionics.class-abilities.Item.ZlLfQFhcQTFjwTYu
+        uuid: Compendium.pf1-psionics.classes.Item.ZlLfQFhcQTFjwTYu
       - level: 5
-        uuid: Compendium.pf1-psionics.class-abilities.Item.OYd5QiXGy1Yj3lOO
+        uuid: Compendium.pf1-psionics.classes.Item.OYd5QiXGy1Yj3lOO
       - level: 7
-        uuid: Compendium.pf1-psionics.class-abilities.Item.kmMtzhM3KM8V4Y2N
+        uuid: Compendium.pf1-psionics.classes.Item.kmMtzhM3KM8V4Y2N
       - level: 11
-        uuid: Compendium.pf1-psionics.class-abilities.Item.8bniDbf25ryXxuDw
+        uuid: Compendium.pf1-psionics.classes.Item.8bniDbf25ryXxuDw
       - level: 11
-        uuid: Compendium.pf1-psionics.class-abilities.Item.c1550Omo9i1udB7T
+        uuid: Compendium.pf1-psionics.classes.Item.c1550Omo9i1udB7T
       - level: 20
-        uuid: Compendium.pf1-psionics.class-abilities.Item.iSfEsGtYh60C2R0n
+        uuid: Compendium.pf1-psionics.classes.Item.iSfEsGtYh60C2R0n
   manifesting:
     ability: cha
     cantrips: true

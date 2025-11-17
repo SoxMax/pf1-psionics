@@ -55,11 +55,11 @@ system:
   links:
     classAssociations:
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.DagZqeZyWB9hu4S0
+        uuid: Compendium.pf1-psionics.classes.Item.DagZqeZyWB9hu4S0
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.kCywUn5mg5xjqiJ0
+        uuid: Compendium.pf1-psionics.classes.Item.kCywUn5mg5xjqiJ0
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.vex5zB9t1i7cZaia
+        uuid: Compendium.pf1-psionics.classes.Item.vex5zB9t1i7cZaia
   manifesting:
     ability: int
     cantrips: true

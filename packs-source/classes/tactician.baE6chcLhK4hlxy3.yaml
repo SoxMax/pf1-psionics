@@ -57,29 +57,29 @@ system:
   links:
     classAssociations:
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.wI3oFU0MCQbZoJV2
+        uuid: Compendium.pf1-psionics.classes.Item.wI3oFU0MCQbZoJV2
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.JMDkPHnsVL6E5Us5
+        uuid: Compendium.pf1-psionics.classes.Item.JMDkPHnsVL6E5Us5
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.0FSAEwqWCym7DgsT
+        uuid: Compendium.pf1-psionics.classes.Item.0FSAEwqWCym7DgsT
       - level: 2
-        uuid: Compendium.pf1-psionics.class-abilities.Item.jFNGwr7RBjtNscek
+        uuid: Compendium.pf1-psionics.classes.Item.jFNGwr7RBjtNscek
       - level: 3
-        uuid: Compendium.pf1-psionics.class-abilities.Item.TtbLtecB6drsYnC8
+        uuid: Compendium.pf1-psionics.classes.Item.TtbLtecB6drsYnC8
       - level: 4
-        uuid: Compendium.pf1-psionics.class-abilities.Item.PqaYSj32NeCDdBWm
+        uuid: Compendium.pf1-psionics.classes.Item.PqaYSj32NeCDdBWm
       - level: 5
-        uuid: Compendium.pf1-psionics.class-abilities.Item.w8FhgnGnLlz0Hak6
+        uuid: Compendium.pf1-psionics.classes.Item.w8FhgnGnLlz0Hak6
       - level: 6
-        uuid: Compendium.pf1-psionics.class-abilities.Item.Xbd3MDE9xcLOBzvx
+        uuid: Compendium.pf1-psionics.classes.Item.Xbd3MDE9xcLOBzvx
       - level: 6
-        uuid: Compendium.pf1-psionics.class-abilities.Item.mWQ0B08PBUumHsdK
+        uuid: Compendium.pf1-psionics.classes.Item.mWQ0B08PBUumHsdK
       - level: 8
-        uuid: Compendium.pf1-psionics.class-abilities.Item.NzIuWuxgshBSIfyn
+        uuid: Compendium.pf1-psionics.classes.Item.NzIuWuxgshBSIfyn
       - level: 14
-        uuid: Compendium.pf1-psionics.class-abilities.Item.DSTX6yfgLHbFgC1S
+        uuid: Compendium.pf1-psionics.classes.Item.DSTX6yfgLHbFgC1S
       - level: 20
-        uuid: Compendium.pf1-psionics.class-abilities.Item.obTDSo5JuAEdHXxo
+        uuid: Compendium.pf1-psionics.classes.Item.obTDSo5JuAEdHXxo
   manifesting:
     ability: int
     cantrips: true

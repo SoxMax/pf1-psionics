@@ -9,7 +9,6 @@
     "packs:extract:powers": "node ./tools/packs.mjs extract powers",
     "packs:extract:feats": "node ./tools/packs.mjs extract feats",
     "packs:extract:classes": "node ./tools/packs.mjs extract classes",
-    "packs:extract:class-abilities": "node ./tools/packs.mjs extract class-abilities",
     "packs:extract:rules": "node ./tools/packs.mjs extract rules",
     "packs:compile": "node ./tools/packs.mjs compile",
     "scrape:powers": "node ./tools/scrapers/powers-scraper.mjs",

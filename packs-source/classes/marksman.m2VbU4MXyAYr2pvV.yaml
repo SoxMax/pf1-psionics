@@ -57,31 +57,31 @@ system:
   links:
     classAssociations:
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.HaFnsm9gyJ0ieVDK
+        uuid: Compendium.pf1-psionics.classes.Item.HaFnsm9gyJ0ieVDK
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.7TUrWpjD22vDWDYB
+        uuid: Compendium.pf1-psionics.classes.Item.7TUrWpjD22vDWDYB
       - level: 2
-        uuid: Compendium.pf1-psionics.class-abilities.Item.EnBfBC6SwBssyEIH
+        uuid: Compendium.pf1-psionics.classes.Item.EnBfBC6SwBssyEIH
       - level: 2
-        uuid: Compendium.pf1-psionics.class-abilities.Item.n7Zl4gmndfDSy2bS
+        uuid: Compendium.pf1-psionics.classes.Item.n7Zl4gmndfDSy2bS
       - level: 2
-        uuid: Compendium.pf1-psionics.class-abilities.Item.8Ombw8QcRpRur2St
+        uuid: Compendium.pf1-psionics.classes.Item.8Ombw8QcRpRur2St
       - level: 3
-        uuid: Compendium.pf1-psionics.class-abilities.Item.pFGX6xsu7tesVPOv
+        uuid: Compendium.pf1-psionics.classes.Item.pFGX6xsu7tesVPOv
       - level: 3
-        uuid: Compendium.pf1-psionics.class-abilities.Item.kSiZTxTAZ7AYQBKb
+        uuid: Compendium.pf1-psionics.classes.Item.kSiZTxTAZ7AYQBKb
       - level: 4
-        uuid: Compendium.pf1-psionics.class-abilities.Item.1McVIDeGZvllPKk5
+        uuid: Compendium.pf1-psionics.classes.Item.1McVIDeGZvllPKk5
       - level: 4
-        uuid: Compendium.pf1-psionics.class-abilities.Item.4xDTSVcIxE89Lc4d
+        uuid: Compendium.pf1-psionics.classes.Item.4xDTSVcIxE89Lc4d
       - level: 5
-        uuid: Compendium.pf1-psionics.class-abilities.Item.LC3TRBLAk84rjDW7
+        uuid: Compendium.pf1-psionics.classes.Item.LC3TRBLAk84rjDW7
       - level: 7
-        uuid: Compendium.pf1-psionics.class-abilities.Item.MtHpwb5VtxOMY7hx
+        uuid: Compendium.pf1-psionics.classes.Item.MtHpwb5VtxOMY7hx
       - level: 13
-        uuid: Compendium.pf1-psionics.class-abilities.Item.7gz4W01En9UwEPzV
+        uuid: Compendium.pf1-psionics.classes.Item.7gz4W01En9UwEPzV
       - level: 19
-        uuid: Compendium.pf1-psionics.class-abilities.Item.UVWw0Na1sBX1TLcO
+        uuid: Compendium.pf1-psionics.classes.Item.UVWw0Na1sBX1TLcO
   manifesting:
     ability: wis
     cantrips: true

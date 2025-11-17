@@ -46,36 +46,15 @@
       "color": "#6a5acd",
       "sorting": "a",
       "packs": [
+        "classes",
         "feats",
         "powers",
         "races",
         "rules"
-      ],
-      "folders": [
-        {
-          "name": "Classes",
-          "color": "#6a5acd",
-          "sorting": "a",
-          "packs": [
-            "classes",
-            "class-abilities"
-          ]
-        }
       ]
     }
   ],
   "packs": [
-    {
-      "name": "class-abilities",
-      "label": "Psionic Class Abilities",
-      "path": "packs/class-abilities",
-      "type": "Item",
-      "system": "pf1",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
     {
       "name": "classes",
       "label": "Psionic Classes",
