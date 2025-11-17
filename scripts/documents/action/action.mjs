@@ -8,7 +8,7 @@ export function injectItemAction() {
       // Get conditional save DC bonus
       /** @type {number} */
       const dcBonus = rollData.dcBonus ?? 0;
-      debugger;
+
       /** @type {object} */
       const manifestor = this.item.manifestor;
       if ( manifestor) {
