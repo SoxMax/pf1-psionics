@@ -72,7 +72,7 @@
 
       <div class="spell-settings">
         <div class="form-group spellcasting-class">
-          <h3>{{localize "PF1.SpellcastingClass"}}</h3>
+          <h3>{{localize "PF1-Psionics.ManifestingClass"}}</h3>
           <div class="form-fields">
             <select name="flags.pf1-psionics.manifestors.{{bookId}}.class">
               <option value="">{{localize "PF1.None"}}</option>
@@ -82,7 +82,7 @@
         </div>
 
         <div class="form-group spellcasting-ability">
-          <h3>{{localize "PF1.SpellcastingAbility"}}</h3>
+          <h3>{{localize "PF1-Psionics.ManifestingAbility"}}</h3>
           <div class="form-fields">
             <select name="flags.pf1-psionics.manifestors.{{bookId}}.ability">
               {{selectOptions @root.config.abilities selected=ability}}
