@@ -1,8 +1,7 @@
 _id: BAGo5THf84pn8mnO
 _key: '!items!BAGo5THf84pn8mnO'
-_raceName: Xeph
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     fromRace: Xeph
@@ -22,7 +21,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,6 +62,13 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Fleet of foot and nimble, some xephs are more adept at avoiding physical dangers rather than psionic ones. A xeph with this racial trait gains a +1 dodge bonus to his armor class.</p><p><em>This trait replaces the Innate Resistance trait.</em></p><p></li></p>
+    value: >-
+      <p>Fleet&nbsp;of&nbsp;foot&nbsp;and&nbsp;nimble,&nbsp;some&nbsp;xephs&nbsp;are&nbsp;more&nbsp;adept&nbsp;at&nbsp;avoiding&nbsp;physical&nbsp;dangers&nbsp;rather&nbsp;than&nbsp;psionic&nbsp;ones.&nbsp;A&nbsp;xeph&nbsp;with&nbsp;this&nbsp;racial&nbsp;trait&nbsp;gains&nbsp;a&nbsp;+1&nbsp;dodge&nbsp;bonus&nbsp;to&nbsp;his&nbsp;armor&nbsp;class.</p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;Innate&nbsp;Resistance&nbsp;trait.</em></p><p></li></p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
   subType: racial
+  summons: false
 type: feat

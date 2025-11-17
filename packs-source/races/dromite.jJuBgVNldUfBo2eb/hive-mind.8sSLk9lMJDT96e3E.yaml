@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Dromite hive living can result in a mental link among the members. A dromite with this trait gains mindlink as a psi-like ability usable at will.</p><p><em>This trait replaces the Dromite Psionics and Scent traits.</em></p>
+    value: >-
+      <p>Dromite&nbsp;hive&nbsp;living&nbsp;can&nbsp;result&nbsp;in&nbsp;a&nbsp;mental&nbsp;link&nbsp;among&nbsp;the&nbsp;members.&nbsp;A&nbsp;dromite&nbsp;with&nbsp;this&nbsp;trait&nbsp;gains&nbsp;mindlink&nbsp;as&nbsp;a&nbsp;psi-like&nbsp;ability&nbsp;usable&nbsp;at&nbsp;will.</p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;Dromite&nbsp;Psionics&nbsp;and&nbsp;Scent&nbsp;traits.</em></p>
   subType: racial
   traitCategory: alternate
 type: feat

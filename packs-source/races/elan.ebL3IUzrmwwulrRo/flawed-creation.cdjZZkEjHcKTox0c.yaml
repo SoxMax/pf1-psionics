@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: '<p><em>(Source: Book of Heroic Races: Advanced Compendium)</em> On rare occasions, an elan becomes flawed during the creation ceremony. Though still psionically enhanced, the elan is left marred and imperfect. An elan with this trait shows visible signs of aberrant heritage and suffers a –2 racial penalty to Charisma, but gains a +4 racial bonus to either Strength, Dexterity, or Constitution, chosen at character creation. Common visible signs of this trait include rubbery skin, solid white eyes, crystalline teeth, or an eerie resonance to the elan''s speech. Flawed creations are generally looked upon with mild horror by other elans.</p><p><em>This racial trait replaces the elan''s normal bonus to one ability score.</em></p>'
+    value: >-
+      <p><em>(Source:&nbsp;Book&nbsp;of&nbsp;Heroic&nbsp;Races:&nbsp;Advanced&nbsp;Compendium)</em>&nbsp;On&nbsp;rare&nbsp;occasions,&nbsp;an&nbsp;elan&nbsp;becomes&nbsp;flawed&nbsp;during&nbsp;the&nbsp;creation&nbsp;ceremony.&nbsp;Though&nbsp;still&nbsp;psionically&nbsp;enhanced,&nbsp;the&nbsp;elan&nbsp;is&nbsp;left&nbsp;marred&nbsp;and&nbsp;imperfect.&nbsp;An&nbsp;elan&nbsp;with&nbsp;this&nbsp;trait&nbsp;shows&nbsp;visible&nbsp;signs&nbsp;of&nbsp;aberrant&nbsp;heritage&nbsp;and&nbsp;suffers&nbsp;a&nbsp;–2&nbsp;racial&nbsp;penalty&nbsp;to&nbsp;Charisma,&nbsp;but&nbsp;gains&nbsp;a&nbsp;+4&nbsp;racial&nbsp;bonus&nbsp;to&nbsp;either&nbsp;Strength,&nbsp;Dexterity,&nbsp;or&nbsp;Constitution,&nbsp;chosen&nbsp;at&nbsp;character&nbsp;creation.&nbsp;Common&nbsp;visible&nbsp;signs&nbsp;of&nbsp;this&nbsp;trait&nbsp;include&nbsp;rubbery&nbsp;skin,&nbsp;solid&nbsp;white&nbsp;eyes,&nbsp;crystalline&nbsp;teeth,&nbsp;or&nbsp;an&nbsp;eerie&nbsp;resonance&nbsp;to&nbsp;the&nbsp;elan's&nbsp;speech.&nbsp;Flawed&nbsp;creations&nbsp;are&nbsp;generally&nbsp;looked&nbsp;upon&nbsp;with&nbsp;mild&nbsp;horror&nbsp;by&nbsp;other&nbsp;elans.</p><p><em>This&nbsp;racial&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;elan's&nbsp;normal&nbsp;bonus&nbsp;to&nbsp;one&nbsp;ability&nbsp;score.</em></p>
   subType: racial
   traitCategory: alternate
 type: feat

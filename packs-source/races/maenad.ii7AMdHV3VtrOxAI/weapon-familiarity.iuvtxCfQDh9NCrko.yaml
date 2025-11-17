@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Maenads are proficient with flails. Maenads treat any weapon with the word “maenad” in the name as a martial weapon rather than an exotic one.</li></p>
+    value: >-
+      <p>Maenads&nbsp;are&nbsp;proficient&nbsp;with&nbsp;flails.&nbsp;Maenads&nbsp;treat&nbsp;any&nbsp;weapon&nbsp;with&nbsp;the&nbsp;word&nbsp;“maenad”&nbsp;in&nbsp;the&nbsp;name&nbsp;as&nbsp;a&nbsp;martial&nbsp;weapon&nbsp;rather&nbsp;than&nbsp;an&nbsp;exotic&nbsp;one.</li></p>
   subType: racial
   traitCategory: offense
 type: feat

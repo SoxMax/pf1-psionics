@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The bonding process with an erliss can sometimes unlock a psionic ability to protect instead of attack. A noral with this trait gains the ability to use <em><a href="/wiki/Vigor" title="Vigor">vigor</a></em> as a psi-like ability once per day (manifester level equal to noral’s character level.) This replaces noral psionics.</li></p>
+    value: >-
+      <p>The&nbsp;bonding&nbsp;process&nbsp;with&nbsp;an&nbsp;erliss&nbsp;can&nbsp;sometimes&nbsp;unlock&nbsp;a&nbsp;psionic&nbsp;ability&nbsp;to&nbsp;protect&nbsp;instead&nbsp;of&nbsp;attack.&nbsp;A&nbsp;noral&nbsp;with&nbsp;this&nbsp;trait&nbsp;gains&nbsp;the&nbsp;ability&nbsp;to&nbsp;use&nbsp;<em><a&nbsp;href="/wiki/Vigor"&nbsp;title="Vigor">vigor</a></em>&nbsp;as&nbsp;a&nbsp;psi-like&nbsp;ability&nbsp;once&nbsp;per&nbsp;day&nbsp;(manifester&nbsp;level&nbsp;equal&nbsp;to&nbsp;noral’s&nbsp;character&nbsp;level.)&nbsp;This&nbsp;replaces&nbsp;noral&nbsp;psionics.</li></p>
   subType: racial
   traitCategory: magical
 type: feat

@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Forgeborn are sturdier than other races and gain a +1 natural armor bonus to their AC.</li></p>
+    value: >-
+      <p>Forgeborn&nbsp;are&nbsp;sturdier&nbsp;than&nbsp;other&nbsp;races&nbsp;and&nbsp;gain&nbsp;a&nbsp;+1&nbsp;natural&nbsp;armor&nbsp;bonus&nbsp;to&nbsp;their&nbsp;AC.</li></p>
   subType: racial
   traitCategory: defensive
 type: feat

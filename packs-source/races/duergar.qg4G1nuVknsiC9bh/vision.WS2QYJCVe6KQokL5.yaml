@@ -1,5 +1,5 @@
-_id: ZHlH3r7wsE8vRcyO
-_key: '!items!ZHlH3r7wsE8vRcyO'
+_id: WS2QYJCVe6KQokL5
+_key: '!items!WS2QYJCVe6KQokL5'
 _raceName: Duergar (Psionic)
 _stats:
   coreVersion: '13.350'
@@ -8,7 +8,7 @@ flags:
     fromRace: Duergar (Psionic)
 folder: qg4G1nuVknsiC9bh
 img: icons/environment/people/group.webp
-name: Psionic Mastery
+name: Vision
 system:
   abilityType: na
   acquired: false
@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,7 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The duergar tyrant's manifester level for all psionic powers increases by 2.</p>
+    value: <p>Duergar&nbsp;have&nbsp;darkvision&nbsp;60&nbsp;ft.</li></p>
   subType: racial
-  traitCategory: alternate
+  traitCategory: senses
 type: feat

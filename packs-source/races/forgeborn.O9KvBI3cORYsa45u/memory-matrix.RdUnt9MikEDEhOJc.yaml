@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,6 +63,7 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>There are some forgeborn who are created with an intuitive knack for knowledge or industry. A forgeborn with this trait picks a single Craft, Knowledge, or Profession skill. The forgeborn gains a +2 bonus to this skill and it is always a class skill. This ability replaces fearless.</li></p>
+    value: >-
+      <p>There&nbsp;are&nbsp;some&nbsp;forgeborn&nbsp;who&nbsp;are&nbsp;created&nbsp;with&nbsp;an&nbsp;intuitive&nbsp;knack&nbsp;for&nbsp;knowledge&nbsp;or&nbsp;industry.&nbsp;A&nbsp;forgeborn&nbsp;with&nbsp;this&nbsp;trait&nbsp;picks&nbsp;a&nbsp;single&nbsp;Craft,&nbsp;Knowledge,&nbsp;or&nbsp;Profession&nbsp;skill.&nbsp;The&nbsp;forgeborn&nbsp;gains&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;to&nbsp;this&nbsp;skill&nbsp;and&nbsp;it&nbsp;is&nbsp;always&nbsp;a&nbsp;class&nbsp;skill.&nbsp;This&nbsp;ability&nbsp;replaces&nbsp;fearless.</li></p>
   subType: racial
 type: feat

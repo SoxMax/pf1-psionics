@@ -1,5 +1,5 @@
-_id: mIUcFTtwBDXdfOAT
-_key: '!items!mIUcFTtwBDXdfOAT'
+_id: RizLheN5mk6F4ZtX
+_key: '!items!RizLheN5mk6F4ZtX'
 _raceName: Duergar (Psionic)
 _stats:
   coreVersion: '13.350'
@@ -8,7 +8,7 @@ flags:
     fromRace: Duergar (Psionic)
 folder: qg4G1nuVknsiC9bh
 img: icons/environment/people/group.webp
-name: Ancestral Voice
+name: Psi-like Abilities
 system:
   abilityType: na
   acquired: false
@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Duergars have a connection to their ancestors through the crystals they harvest deep beneath the earth. In some, their ancestors are able to speak to them directly. A duergar with this trait gains a +4 racial bonus to Intimidate and a +2 bonus to a Knowledge skill.</p><p><em>This trait replaces the Stability trait.</em></p>
+    value: >-
+      <p>Duergar&nbsp;tyrants&nbsp;gain&nbsp;the&nbsp;following&nbsp;psi-like&nbsp;abilities&nbsp;usable&nbsp;at-will:&nbsp;<em><a&nbsp;href="/wiki/Cloud_Mind"&nbsp;title="Cloud&nbsp;Mind">cloud&nbsp;mind</a></em>,&nbsp;<em><a&nbsp;href="/wiki/False_Sensory_Input"&nbsp;title="False&nbsp;Sensory&nbsp;Input">false&nbsp;sensory&nbsp;input</a></em>,&nbsp;<em><a&nbsp;href="/wiki/Empathic_Transfer,_Hostile"&nbsp;title="Empathic&nbsp;Transfer,&nbsp;Hostile">empathic&nbsp;transfer,&nbsp;hostile</a></em>,&nbsp;and&nbsp;<em><a&nbsp;href="/wiki/Sustenance"&nbsp;title="Sustenance">sustenance</a></em>.&nbsp;In&nbsp;addition,&nbsp;duergar&nbsp;tyrants&nbsp;gain&nbsp;<em><a&nbsp;href="/wiki/Metamorphosis"&nbsp;title="Metamorphosis">metamorphosis</a></em>&nbsp;as&nbsp;a&nbsp;constant&nbsp;psi-like&nbsp;ability.&nbsp;The&nbsp;manifester&nbsp;level&nbsp;for&nbsp;these&nbsp;effects&nbsp;is&nbsp;equal&nbsp;to&nbsp;the&nbsp;duergar&nbsp;tyrant's&nbsp;level&nbsp;+2&nbsp;(minimum&nbsp;5th).&nbsp;The&nbsp;DC&nbsp;for&nbsp;these&nbsp;powers&nbsp;is&nbsp;Charisma-based.</p>
   subType: racial
   traitCategory: alternate
 type: feat

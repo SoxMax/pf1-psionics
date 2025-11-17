@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: '<p>Dromites receive a +1 natural armor bonus and one of the following kinds of energy resistance of their choice at creation: cold 5, electricity 5, fire 5, or sonic 5. This choice is permanent and stacks with any future energy resistance gained through other effects.</li></p>'
+    value: >-
+      <p>Dromites&nbsp;receive&nbsp;a&nbsp;+1&nbsp;natural&nbsp;armor&nbsp;bonus&nbsp;and&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;kinds&nbsp;of&nbsp;energy&nbsp;resistance&nbsp;of&nbsp;their&nbsp;choice&nbsp;at&nbsp;creation:&nbsp;cold&nbsp;5,&nbsp;electricity&nbsp;5,&nbsp;fire&nbsp;5,&nbsp;or&nbsp;sonic&nbsp;5.&nbsp;This&nbsp;choice&nbsp;is&nbsp;permanent&nbsp;and&nbsp;stacks&nbsp;with&nbsp;any&nbsp;future&nbsp;energy&nbsp;resistance&nbsp;gained&nbsp;through&nbsp;other&nbsp;effects.</li></p>
   subType: racial
   traitCategory: defensive
 type: feat

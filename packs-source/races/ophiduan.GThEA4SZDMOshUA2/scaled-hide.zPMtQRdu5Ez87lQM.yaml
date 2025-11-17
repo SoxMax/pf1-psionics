@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,6 +63,7 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>An ophiduan’s skin is hardened scales and grants the character a +1 natural armor bonus to AC.</li></p>
+    value: >-
+      <p>An&nbsp;ophiduan’s&nbsp;skin&nbsp;is&nbsp;hardened&nbsp;scales&nbsp;and&nbsp;grants&nbsp;the&nbsp;character&nbsp;a&nbsp;+1&nbsp;natural&nbsp;armor&nbsp;bonus&nbsp;to&nbsp;AC.</li></p>
   subType: racial
 type: feat

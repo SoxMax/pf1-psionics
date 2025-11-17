@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Maenad gain the following psi-like ability. 1/day—<em><a href="/wiki/Energy_ray" class="mw-redirect" title="Energy ray">energy ray</a></em>. A maenad can deal only sonic damage with this ability. It is accompanied by a tremendous scream of rage. The manifester level is equal to 1/2 Hit Dice (minimum 1st). The DC for this power is equal to 10 + the power’s level + the maenad’s Charisma modifier.</li></p>
+    value: >-
+      <p>Maenad&nbsp;gain&nbsp;the&nbsp;following&nbsp;psi-like&nbsp;ability.&nbsp;1/day—<em><a&nbsp;href="/wiki/Energy_ray"&nbsp;class="mw-redirect"&nbsp;title="Energy&nbsp;ray">energy&nbsp;ray</a></em>.&nbsp;A&nbsp;maenad&nbsp;can&nbsp;deal&nbsp;only&nbsp;sonic&nbsp;damage&nbsp;with&nbsp;this&nbsp;ability.&nbsp;It&nbsp;is&nbsp;accompanied&nbsp;by&nbsp;a&nbsp;tremendous&nbsp;scream&nbsp;of&nbsp;rage.&nbsp;The&nbsp;manifester&nbsp;level&nbsp;is&nbsp;equal&nbsp;to&nbsp;1/2&nbsp;Hit&nbsp;Dice&nbsp;(minimum&nbsp;1st).&nbsp;The&nbsp;DC&nbsp;for&nbsp;this&nbsp;power&nbsp;is&nbsp;equal&nbsp;to&nbsp;10&nbsp;+&nbsp;the&nbsp;power’s&nbsp;level&nbsp;+&nbsp;the&nbsp;maenad’s&nbsp;Charisma&nbsp;modifier.</li></p>
   subType: racial
   traitCategory: magical
 type: feat

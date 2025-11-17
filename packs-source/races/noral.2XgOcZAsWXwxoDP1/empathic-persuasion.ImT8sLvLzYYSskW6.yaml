@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Some norals are skilled at subtle psychic manipulation, despite their fellow norals’ dislike of such. Once per day, the noral may manifest <em><a href="/wiki/Empathic_Connection" title="Empathic Connection">empathic connection</a></em> as a psi-like ability (manifester level equal to 1/2 the noral’s Hit Dice, minimum 1). This replaces noral psionics.</li></p>
+    value: >-
+      <p>Some&nbsp;norals&nbsp;are&nbsp;skilled&nbsp;at&nbsp;subtle&nbsp;psychic&nbsp;manipulation,&nbsp;despite&nbsp;their&nbsp;fellow&nbsp;norals’&nbsp;dislike&nbsp;of&nbsp;such.&nbsp;Once&nbsp;per&nbsp;day,&nbsp;the&nbsp;noral&nbsp;may&nbsp;manifest&nbsp;<em><a&nbsp;href="/wiki/Empathic_Connection"&nbsp;title="Empathic&nbsp;Connection">empathic&nbsp;connection</a></em>&nbsp;as&nbsp;a&nbsp;psi-like&nbsp;ability&nbsp;(manifester&nbsp;level&nbsp;equal&nbsp;to&nbsp;1/2&nbsp;the&nbsp;noral’s&nbsp;Hit&nbsp;Dice,&nbsp;minimum&nbsp;1).&nbsp;This&nbsp;replaces&nbsp;noral&nbsp;psionics.</li></p>
   subType: racial
   traitCategory: magical
 type: feat

@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Duergar tyrants are strong, hardy, and willful. These ability score modifiers replace the standard duergar ability score modifiers.</p>
+    value: >-
+      <p>Duergar&nbsp;tyrants&nbsp;are&nbsp;strong,&nbsp;hardy,&nbsp;and&nbsp;willful.&nbsp;These&nbsp;ability&nbsp;score&nbsp;modifiers&nbsp;replace&nbsp;the&nbsp;standard&nbsp;duergar&nbsp;ability&nbsp;score&nbsp;modifiers.</p>
   subType: racial
   traitCategory: alternate
 type: feat

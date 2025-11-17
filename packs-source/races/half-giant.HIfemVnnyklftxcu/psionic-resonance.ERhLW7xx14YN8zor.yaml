@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Although considered by the uninformed to be violent and primitive as a race, many half-giants have a natural affinity to handling psionic items. Half-giants with this trait gain a +2 racial bonus to Use Magic Device checks to activate an item or to use a power stone. <em></p><p><em>This trait replaces the survivor trait.</em></p><p></em></li></p>
+    value: >-
+      <p>Although&nbsp;considered&nbsp;by&nbsp;the&nbsp;uninformed&nbsp;to&nbsp;be&nbsp;violent&nbsp;and&nbsp;primitive&nbsp;as&nbsp;a&nbsp;race,&nbsp;many&nbsp;half-giants&nbsp;have&nbsp;a&nbsp;natural&nbsp;affinity&nbsp;to&nbsp;handling&nbsp;psionic&nbsp;items.&nbsp;Half-giants&nbsp;with&nbsp;this&nbsp;trait&nbsp;gain&nbsp;a&nbsp;+2&nbsp;racial&nbsp;bonus&nbsp;to&nbsp;Use&nbsp;Magic&nbsp;Device&nbsp;checks&nbsp;to&nbsp;activate&nbsp;an&nbsp;item&nbsp;or&nbsp;to&nbsp;use&nbsp;a&nbsp;power&nbsp;stone.&nbsp;<em></p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;survivor&nbsp;trait.</em></p><p></em></li></p>
   subType: racial
   traitCategory: magical
 type: feat

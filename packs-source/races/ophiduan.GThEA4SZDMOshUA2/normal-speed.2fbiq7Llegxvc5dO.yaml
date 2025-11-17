@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,6 +63,7 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Ophiduans have a base speed of 30 feet.</li></p>
+    value: >-
+      <p>Ophiduans&nbsp;have&nbsp;a&nbsp;base&nbsp;speed&nbsp;of&nbsp;30&nbsp;feet.</li></p>
   subType: racial
 type: feat

@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,6 +63,7 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Although human in appearance, elans suffer from a nature slightly off from the rest of the non-elan society. They suffer a -1 penalty to Charisma-based skill checks when dealing with non-elans.</li></p>
+    value: >-
+      <p>Although&nbsp;human&nbsp;in&nbsp;appearance,&nbsp;elans&nbsp;suffer&nbsp;from&nbsp;a&nbsp;nature&nbsp;slightly&nbsp;off&nbsp;from&nbsp;the&nbsp;rest&nbsp;of&nbsp;the&nbsp;non-elan&nbsp;society.&nbsp;They&nbsp;suffer&nbsp;a&nbsp;-1&nbsp;penalty&nbsp;to&nbsp;Charisma-based&nbsp;skill&nbsp;checks&nbsp;when&nbsp;dealing&nbsp;with&nbsp;non-elans.</li></p>
   subType: racial
 type: feat

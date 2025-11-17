@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,6 +63,7 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Although most forgeborn are steady in their gait, some are designed for speed. Forgeborn with this trait have a speed of 30 ft. This replaces slow and steady and fearless.</li></p>
+    value: >-
+      <p>Although&nbsp;most&nbsp;forgeborn&nbsp;are&nbsp;steady&nbsp;in&nbsp;their&nbsp;gait,&nbsp;some&nbsp;are&nbsp;designed&nbsp;for&nbsp;speed.&nbsp;Forgeborn&nbsp;with&nbsp;this&nbsp;trait&nbsp;have&nbsp;a&nbsp;speed&nbsp;of&nbsp;30&nbsp;ft.&nbsp;This&nbsp;replaces&nbsp;slow&nbsp;and&nbsp;steady&nbsp;and&nbsp;fearless.</li></p>
   subType: racial
 type: feat

@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,6 +63,7 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Unlike most half-constructs, forgeborn can be raised and resurrected.</li></p>
+    value: >-
+      <p>Unlike&nbsp;most&nbsp;half-constructs,&nbsp;forgeborn&nbsp;can&nbsp;be&nbsp;raised&nbsp;and&nbsp;resurrected.</li></p>
   subType: racial
 type: feat

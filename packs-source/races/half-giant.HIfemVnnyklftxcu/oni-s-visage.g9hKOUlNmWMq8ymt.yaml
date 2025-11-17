@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,6 +63,7 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The blood of the ogres that torment souls and haunt sacred mountains flows through you. The oni-kin gains the ability to shape the <a href="/wiki/Hannya_Mask_of_the_Oni" title="Hannya Mask of the Oni">Hannya Mask of the Oni</a> veil, removing its [ <a href="/wiki/Polymorph_veil" title="Polymorph veil">polymorph</a> ] descriptor and granting it the [ <a href="/wiki/Fleshwarp_veil" title="Fleshwarp veil">fleshwarp</a> ] descriptor. They are always treated as having this veil shaped, and it does not count against their veils shaped or their veil slots. They use their highest mental ability score as their veilweaving modifier, their character level as their veilweaving level with this veil.</li></p>
+    value: >-
+      <p>The&nbsp;blood&nbsp;of&nbsp;the&nbsp;ogres&nbsp;that&nbsp;torment&nbsp;souls&nbsp;and&nbsp;haunt&nbsp;sacred&nbsp;mountains&nbsp;flows&nbsp;through&nbsp;you.&nbsp;The&nbsp;oni-kin&nbsp;gains&nbsp;the&nbsp;ability&nbsp;to&nbsp;shape&nbsp;the&nbsp;<a&nbsp;href="/wiki/Hannya_Mask_of_the_Oni"&nbsp;title="Hannya&nbsp;Mask&nbsp;of&nbsp;the&nbsp;Oni">Hannya&nbsp;Mask&nbsp;of&nbsp;the&nbsp;Oni</a>&nbsp;veil,&nbsp;removing&nbsp;its&nbsp;[&nbsp;<a&nbsp;href="/wiki/Polymorph_veil"&nbsp;title="Polymorph&nbsp;veil">polymorph</a>&nbsp;]&nbsp;descriptor&nbsp;and&nbsp;granting&nbsp;it&nbsp;the&nbsp;[&nbsp;<a&nbsp;href="/wiki/Fleshwarp_veil"&nbsp;title="Fleshwarp&nbsp;veil">fleshwarp</a>&nbsp;]&nbsp;descriptor.&nbsp;They&nbsp;are&nbsp;always&nbsp;treated&nbsp;as&nbsp;having&nbsp;this&nbsp;veil&nbsp;shaped,&nbsp;and&nbsp;it&nbsp;does&nbsp;not&nbsp;count&nbsp;against&nbsp;their&nbsp;veils&nbsp;shaped&nbsp;or&nbsp;their&nbsp;veil&nbsp;slots.&nbsp;They&nbsp;use&nbsp;their&nbsp;highest&nbsp;mental&nbsp;ability&nbsp;score&nbsp;as&nbsp;their&nbsp;veilweaving&nbsp;modifier,&nbsp;their&nbsp;character&nbsp;level&nbsp;as&nbsp;their&nbsp;veilweaving&nbsp;level&nbsp;with&nbsp;this&nbsp;veil.</li></p>
   subType: racial
 type: feat

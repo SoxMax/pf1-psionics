@@ -1,5 +1,5 @@
-_id: P348tpVQOAjSmDMK
-_key: '!items!P348tpVQOAjSmDMK'
+_id: ZHlH3r7wsE8vRcyO
+_key: '!items!ZHlH3r7wsE8vRcyO'
 _raceName: Duergar (Psionic)
 _stats:
   coreVersion: '13.350'
@@ -8,7 +8,7 @@ flags:
     fromRace: Duergar (Psionic)
 folder: qg4G1nuVknsiC9bh
 img: icons/environment/people/group.webp
-name: Psionic Aptitude
+name: Psionic Mastery
 system:
   abilityType: na
   acquired: false
@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>When a duergar takes a level in a favored class, he can choose to gain an additional power point instead of a hit point or skill point.</li></p>
+    value: >-
+      <p>The&nbsp;duergar&nbsp;tyrant's&nbsp;manifester&nbsp;level&nbsp;for&nbsp;all&nbsp;psionic&nbsp;powers&nbsp;increases&nbsp;by&nbsp;2.</p>
   subType: racial
-  traitCategory: magical
+  traitCategory: alternate
 type: feat

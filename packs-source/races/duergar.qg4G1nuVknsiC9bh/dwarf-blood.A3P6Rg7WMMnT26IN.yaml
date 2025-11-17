@@ -1,5 +1,5 @@
-_id: 3E5uH8GgEumyvihX
-_key: '!items!3E5uH8GgEumyvihX'
+_id: A3P6Rg7WMMnT26IN
+_key: '!items!A3P6Rg7WMMnT26IN'
 _raceName: Duergar (Psionic)
 _stats:
   coreVersion: '13.350'
@@ -8,9 +8,9 @@ flags:
     fromRace: Duergar (Psionic)
 folder: qg4G1nuVknsiC9bh
 img: icons/environment/people/group.webp
-name: Light Sensitivity
+name: Dwarf Blood
 system:
-  abilityType: ex
+  abilityType: na
   acquired: false
   changeFlags:
     heavyArmorFullSpeed: false
@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,7 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Duergars are dazzled in an area of bright light.</li></p>
+    value: >-
+      <p>Duergars&nbsp;count&nbsp;as&nbsp;dwarves&nbsp;for&nbsp;any&nbsp;effect&nbsp;related&nbsp;to&nbsp;race.</li></p>
   subType: racial
-  traitCategory: extraordinary
 type: feat

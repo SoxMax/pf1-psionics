@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,6 +63,7 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Elans are of the humanoid (aberrant) subtype.</li></p>
+    value: >-
+      <p>Elans&nbsp;are&nbsp;of&nbsp;the&nbsp;humanoid&nbsp;(aberrant)&nbsp;subtype.</li></p>
   subType: racial
 type: feat

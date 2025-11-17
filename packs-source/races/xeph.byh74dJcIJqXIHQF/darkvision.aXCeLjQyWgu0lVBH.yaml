@@ -1,8 +1,7 @@
 _id: aXCeLjQyWgu0lVBH
 _key: '!items!aXCeLjQyWgu0lVBH'
-_raceName: Xeph
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     fromRace: Xeph
@@ -22,7 +21,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +62,13 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Xephs have darkvision 60 ft.</li></p>
+    value: <p>Xephs&nbsp;have&nbsp;darkvision&nbsp;60&nbsp;ft.</li></p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
   subType: racial
+  summons: false
   traitCategory: senses
 type: feat

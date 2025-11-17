@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>It is incredibly rare, but sometimes, the transformation into an elan does not complete as expected. Elans with this trait gain the following benefit based upon their original race and lose the repletion, resilience, and resistance traits. In addition, the elan suffers a -2 penalty to Charisma-based skills and checks against elans.</p>
+    value: >-
+      <p>It&nbsp;is&nbsp;incredibly&nbsp;rare,&nbsp;but&nbsp;sometimes,&nbsp;the&nbsp;transformation&nbsp;into&nbsp;an&nbsp;elan&nbsp;does&nbsp;not&nbsp;complete&nbsp;as&nbsp;expected.&nbsp;Elans&nbsp;with&nbsp;this&nbsp;trait&nbsp;gain&nbsp;the&nbsp;following&nbsp;benefit&nbsp;based&nbsp;upon&nbsp;their&nbsp;original&nbsp;race&nbsp;and&nbsp;lose&nbsp;the&nbsp;repletion,&nbsp;resilience,&nbsp;and&nbsp;resistance&nbsp;traits.&nbsp;In&nbsp;addition,&nbsp;the&nbsp;elan&nbsp;suffers&nbsp;a&nbsp;-2&nbsp;penalty&nbsp;to&nbsp;Charisma-based&nbsp;skills&nbsp;and&nbsp;checks&nbsp;against&nbsp;elans.</p>
   subType: racial
   traitCategory: alternate
 type: feat

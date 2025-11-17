@@ -1,5 +1,5 @@
-_id: RizLheN5mk6F4ZtX
-_key: '!items!RizLheN5mk6F4ZtX'
+_id: 3dNyPw8Hod16Gdqa
+_key: '!items!3dNyPw8Hod16Gdqa'
 _raceName: Duergar (Psionic)
 _stats:
   coreVersion: '13.350'
@@ -8,7 +8,7 @@ flags:
     fromRace: Duergar (Psionic)
 folder: qg4G1nuVknsiC9bh
 img: icons/environment/people/group.webp
-name: Psi-like Abilities
+name: Hardy
 system:
   abilityType: na
   acquired: false
@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: '<p>Duergar tyrants gain the following psi-like abilities usable at-will: <em><a href="/wiki/Cloud_Mind" title="Cloud Mind">cloud mind</a></em>, <em><a href="/wiki/False_Sensory_Input" title="False Sensory Input">false sensory input</a></em>, <em><a href="/wiki/Empathic_Transfer,_Hostile" title="Empathic Transfer, Hostile">empathic transfer, hostile</a></em>, and <em><a href="/wiki/Sustenance" title="Sustenance">sustenance</a></em>. In addition, duergar tyrants gain <em><a href="/wiki/Metamorphosis" title="Metamorphosis">metamorphosis</a></em> as a constant psi-like ability. The manifester level for these effects is equal to the duergar tyrant''s level +2 (minimum 5th). The DC for these powers is Charisma-based.</p>'
+    value: >-
+      <p>This&nbsp;bonus&nbsp;increases&nbsp;by&nbsp;2&nbsp;and&nbsp;applies&nbsp;against&nbsp;psionic&nbsp;powers&nbsp;and&nbsp;psi-like&nbsp;abilities.</p>
   subType: racial
   traitCategory: alternate
 type: feat

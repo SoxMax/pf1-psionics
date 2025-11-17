@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: '<p><em>(Source: Book of Heroic Races: Advanced Compendium)</em> Some elans can use psionic energy to protect their corporeal body. By spending 1 power point, their skin transforms into reflective crystal, granting a +2 racial bonus to Armor Class, which improves to +4 against rays. Using this ability is a swift action and the effect lasts for one round per manifester level. A number of times per day equal to the elan''s Dexterity modifier, elans with this racial trait can deflect a single ray attack as if using the Deflect Arrows feat. Elans with this racial trait suffer a –2 penalty on saving throws against sonic effects that cause damage.</p><p><em>This racial trait replaces resistance.</em></p>'
+    value: >-
+      <p><em>(Source:&nbsp;Book&nbsp;of&nbsp;Heroic&nbsp;Races:&nbsp;Advanced&nbsp;Compendium)</em>&nbsp;Some&nbsp;elans&nbsp;can&nbsp;use&nbsp;psionic&nbsp;energy&nbsp;to&nbsp;protect&nbsp;their&nbsp;corporeal&nbsp;body.&nbsp;By&nbsp;spending&nbsp;1&nbsp;power&nbsp;point,&nbsp;their&nbsp;skin&nbsp;transforms&nbsp;into&nbsp;reflective&nbsp;crystal,&nbsp;granting&nbsp;a&nbsp;+2&nbsp;racial&nbsp;bonus&nbsp;to&nbsp;Armor&nbsp;Class,&nbsp;which&nbsp;improves&nbsp;to&nbsp;+4&nbsp;against&nbsp;rays.&nbsp;Using&nbsp;this&nbsp;ability&nbsp;is&nbsp;a&nbsp;swift&nbsp;action&nbsp;and&nbsp;the&nbsp;effect&nbsp;lasts&nbsp;for&nbsp;one&nbsp;round&nbsp;per&nbsp;manifester&nbsp;level.&nbsp;A&nbsp;number&nbsp;of&nbsp;times&nbsp;per&nbsp;day&nbsp;equal&nbsp;to&nbsp;the&nbsp;elan's&nbsp;Dexterity&nbsp;modifier,&nbsp;elans&nbsp;with&nbsp;this&nbsp;racial&nbsp;trait&nbsp;can&nbsp;deflect&nbsp;a&nbsp;single&nbsp;ray&nbsp;attack&nbsp;as&nbsp;if&nbsp;using&nbsp;the&nbsp;Deflect&nbsp;Arrows&nbsp;feat.&nbsp;Elans&nbsp;with&nbsp;this&nbsp;racial&nbsp;trait&nbsp;suffer&nbsp;a&nbsp;–2&nbsp;penalty&nbsp;on&nbsp;saving&nbsp;throws&nbsp;against&nbsp;sonic&nbsp;effects&nbsp;that&nbsp;cause&nbsp;damage.</p><p><em>This&nbsp;racial&nbsp;trait&nbsp;replaces&nbsp;resistance.</em></p>
   subType: racial
   traitCategory: alternate
 type: feat

@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>As a seafaring race, some maenads seem to be bred to be a captain or admiral. Maenads with this trait gain a +2 racial bonus to Diplomacy and Knowledge (Nobility) checks. In addition, he gains proficiency with the rapier and whip, weapons used by the leaders of the maenad fleets.</p><p><em>This trait replaces the Natural Sailor, Sonic Affinity, and Weapon Familiarity traits.</em></p>
+    value: >-
+      <p>As&nbsp;a&nbsp;seafaring&nbsp;race,&nbsp;some&nbsp;maenads&nbsp;seem&nbsp;to&nbsp;be&nbsp;bred&nbsp;to&nbsp;be&nbsp;a&nbsp;captain&nbsp;or&nbsp;admiral.&nbsp;Maenads&nbsp;with&nbsp;this&nbsp;trait&nbsp;gain&nbsp;a&nbsp;+2&nbsp;racial&nbsp;bonus&nbsp;to&nbsp;Diplomacy&nbsp;and&nbsp;Knowledge&nbsp;(Nobility)&nbsp;checks.&nbsp;In&nbsp;addition,&nbsp;he&nbsp;gains&nbsp;proficiency&nbsp;with&nbsp;the&nbsp;rapier&nbsp;and&nbsp;whip,&nbsp;weapons&nbsp;used&nbsp;by&nbsp;the&nbsp;leaders&nbsp;of&nbsp;the&nbsp;maenad&nbsp;fleets.</p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;Natural&nbsp;Sailor,&nbsp;Sonic&nbsp;Affinity,&nbsp;and&nbsp;Weapon&nbsp;Familiarity&nbsp;traits.</em></p>
   subType: racial
   traitCategory: alternate
 type: feat

@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Some maenads are able to arrange the crystals embedded in their skin to form resonating frameworks for their psionic circuits. A maenad with this trait gains a +1 racial bonus to the effective manifester level of any psionic tattoo he activates. He may also apply the bonus from Sonic Affinity to any psionic tattoo he uses which has the Sonic descriptor.</p><p><em>This trait replaces the Maenad Psionics trait.</em></p>
+    value: >-
+      <p>Some&nbsp;maenads&nbsp;are&nbsp;able&nbsp;to&nbsp;arrange&nbsp;the&nbsp;crystals&nbsp;embedded&nbsp;in&nbsp;their&nbsp;skin&nbsp;to&nbsp;form&nbsp;resonating&nbsp;frameworks&nbsp;for&nbsp;their&nbsp;psionic&nbsp;circuits.&nbsp;A&nbsp;maenad&nbsp;with&nbsp;this&nbsp;trait&nbsp;gains&nbsp;a&nbsp;+1&nbsp;racial&nbsp;bonus&nbsp;to&nbsp;the&nbsp;effective&nbsp;manifester&nbsp;level&nbsp;of&nbsp;any&nbsp;psionic&nbsp;tattoo&nbsp;he&nbsp;activates.&nbsp;He&nbsp;may&nbsp;also&nbsp;apply&nbsp;the&nbsp;bonus&nbsp;from&nbsp;Sonic&nbsp;Affinity&nbsp;to&nbsp;any&nbsp;psionic&nbsp;tattoo&nbsp;he&nbsp;uses&nbsp;which&nbsp;has&nbsp;the&nbsp;Sonic&nbsp;descriptor.</p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;Maenad&nbsp;Psionics&nbsp;trait.</em></p>
   subType: racial
   traitCategory: alternate
 type: feat

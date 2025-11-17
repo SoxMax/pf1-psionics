@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Some dromites still have traces of their ancestral hive-mind link, making them more receptive to telepathic communication. Although a dromite with this trait cannot directly initiate telepathic contact via this trait (it still may normally via any other telepathic powers or abilities), it is easier for another to telepathically communicate with the dromite. Any use of a mind-affecting power by someone else which targets only the dromite costs 1 power point less for the manifester (to a minimum of 0). This reduction in cost applies even to hostile mind-affecting powers targeting the dromite. The dromite may also be added to a Collective without counting against the Collective's membership limit.</p><p><em>This trait replaces the Dromite Psionics trait.</em></p>
+    value: >-
+      <p>Some&nbsp;dromites&nbsp;still&nbsp;have&nbsp;traces&nbsp;of&nbsp;their&nbsp;ancestral&nbsp;hive-mind&nbsp;link,&nbsp;making&nbsp;them&nbsp;more&nbsp;receptive&nbsp;to&nbsp;telepathic&nbsp;communication.&nbsp;Although&nbsp;a&nbsp;dromite&nbsp;with&nbsp;this&nbsp;trait&nbsp;cannot&nbsp;directly&nbsp;initiate&nbsp;telepathic&nbsp;contact&nbsp;via&nbsp;this&nbsp;trait&nbsp;(it&nbsp;still&nbsp;may&nbsp;normally&nbsp;via&nbsp;any&nbsp;other&nbsp;telepathic&nbsp;powers&nbsp;or&nbsp;abilities),&nbsp;it&nbsp;is&nbsp;easier&nbsp;for&nbsp;another&nbsp;to&nbsp;telepathically&nbsp;communicate&nbsp;with&nbsp;the&nbsp;dromite.&nbsp;Any&nbsp;use&nbsp;of&nbsp;a&nbsp;mind-affecting&nbsp;power&nbsp;by&nbsp;someone&nbsp;else&nbsp;which&nbsp;targets&nbsp;only&nbsp;the&nbsp;dromite&nbsp;costs&nbsp;1&nbsp;power&nbsp;point&nbsp;less&nbsp;for&nbsp;the&nbsp;manifester&nbsp;(to&nbsp;a&nbsp;minimum&nbsp;of&nbsp;0).&nbsp;This&nbsp;reduction&nbsp;in&nbsp;cost&nbsp;applies&nbsp;even&nbsp;to&nbsp;hostile&nbsp;mind-affecting&nbsp;powers&nbsp;targeting&nbsp;the&nbsp;dromite.&nbsp;The&nbsp;dromite&nbsp;may&nbsp;also&nbsp;be&nbsp;added&nbsp;to&nbsp;a&nbsp;Collective&nbsp;without&nbsp;counting&nbsp;against&nbsp;the&nbsp;Collective's&nbsp;membership&nbsp;limit.</p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;Dromite&nbsp;Psionics&nbsp;trait.</em></p>
   subType: racial
   traitCategory: alternate
 type: feat

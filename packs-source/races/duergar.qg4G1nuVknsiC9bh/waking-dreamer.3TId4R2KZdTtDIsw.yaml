@@ -1,5 +1,5 @@
-_id: A3P6Rg7WMMnT26IN
-_key: '!items!A3P6Rg7WMMnT26IN'
+_id: 3TId4R2KZdTtDIsw
+_key: '!items!3TId4R2KZdTtDIsw'
 _raceName: Duergar (Psionic)
 _stats:
   coreVersion: '13.350'
@@ -8,7 +8,7 @@ flags:
     fromRace: Duergar (Psionic)
 folder: qg4G1nuVknsiC9bh
 img: icons/environment/people/group.webp
-name: Dwarf Blood
+name: Waking Dreamer
 system:
   abilityType: na
   acquired: false
@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,6 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Duergars count as dwarves for any effect related to race.</li></p>
+    value: >-
+      <p>You&nbsp;have&nbsp;adapted&nbsp;to&nbsp;always&nbsp;humming&nbsp;to&nbsp;keep&nbsp;That&nbsp;Which&nbsp;Sleeps&nbsp;Beneath&nbsp;from&nbsp;waking.&nbsp;You&nbsp;do&nbsp;not&nbsp;need&nbsp;to&nbsp;sleep&nbsp;at&nbsp;all&nbsp;and&nbsp;can&nbsp;meditate,&nbsp;fully&nbsp;awake&nbsp;and&nbsp;aware,&nbsp;for&nbsp;4&nbsp;hours&nbsp;to&nbsp;gain&nbsp;all&nbsp;the&nbsp;benefits&nbsp;of&nbsp;sleep,&nbsp;including&nbsp;regaining&nbsp;power&nbsp;points.</p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;Duergar&nbsp;Psionics&nbsp;trait.</em></p>
   subType: racial
+  traitCategory: alternate
 type: feat

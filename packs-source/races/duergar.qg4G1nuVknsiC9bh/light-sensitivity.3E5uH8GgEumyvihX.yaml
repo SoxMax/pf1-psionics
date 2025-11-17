@@ -1,5 +1,5 @@
-_id: 4JheI4ilbJjOFV9a
-_key: '!items!4JheI4ilbJjOFV9a'
+_id: 3E5uH8GgEumyvihX
+_key: '!items!3E5uH8GgEumyvihX'
 _raceName: Duergar (Psionic)
 _stats:
   coreVersion: '13.350'
@@ -8,9 +8,9 @@ flags:
     fromRace: Duergar (Psionic)
 folder: qg4G1nuVknsiC9bh
 img: icons/environment/people/group.webp
-name: Method to the Madness
+name: Light Sensitivity
 system:
-  abilityType: na
+  abilityType: ex
   acquired: false
   changeFlags:
     heavyArmorFullSpeed: false
@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>While you might appear to be mad, there is a mental order to your actions. You gain a +2 racial bonus to Will saves and gain <em><a href="/wiki/Call_to_Mind,_Lanis%27s" title="Call to Mind, Lanis's">call to mind, lanis's</a></em> as a psi-like ability usable once per day with a manifester level equal to your character level.</p><p><em>This trait replaces the Hardy trait.</em></p>
+    value: >-
+      <p>Duergars&nbsp;are&nbsp;dazzled&nbsp;in&nbsp;an&nbsp;area&nbsp;of&nbsp;bright&nbsp;light.</li></p>
   subType: racial
-  traitCategory: alternate
+  traitCategory: extraordinary
 type: feat

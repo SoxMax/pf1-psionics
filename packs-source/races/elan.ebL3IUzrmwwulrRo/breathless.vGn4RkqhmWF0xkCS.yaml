@@ -1,8 +1,7 @@
 _id: vGn4RkqhmWF0xkCS
 _key: '!items!vGn4RkqhmWF0xkCS'
-_raceName: Elan
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     fromRace: Elan
@@ -22,7 +21,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +62,13 @@ system:
     swm: false
     umd: false
   description:
-    value: '<p><em>(Source: Book of Heroic Races: Advanced Compendium)</em> Elans with this racial trait can sustain their bodies even without breathing. They can spend 2 power points to survive without breathing for 24 hours.</p><p><em>This racial trait replaces repletion.</em></p>'
+    value: >-
+      <p><em>(Source:&nbsp;Book&nbsp;of&nbsp;Heroic&nbsp;Races:&nbsp;Advanced&nbsp;Compendium)</em>&nbsp;Elans&nbsp;with&nbsp;this&nbsp;racial&nbsp;trait&nbsp;can&nbsp;sustain&nbsp;their&nbsp;bodies&nbsp;even&nbsp;without&nbsp;breathing.&nbsp;They&nbsp;can&nbsp;spend&nbsp;2&nbsp;power&nbsp;points&nbsp;to&nbsp;survive&nbsp;without&nbsp;breathing&nbsp;for&nbsp;24&nbsp;hours.</p><p><em>This&nbsp;racial&nbsp;trait&nbsp;replaces&nbsp;repletion.</em></p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
   subType: racial
-  traitCategory: alternate
+  summons: false
 type: feat

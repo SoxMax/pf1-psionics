@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>While most maenads are natural sailors, some maenads are more at ease on solid ground. Maenads with this trait gain a +2 bonus to Acrobatics checks as long as he is standing on the ground. This ability replaces Natural Sailor.</p>
+    value: >-
+      <p>While&nbsp;most&nbsp;maenads&nbsp;are&nbsp;natural&nbsp;sailors,&nbsp;some&nbsp;maenads&nbsp;are&nbsp;more&nbsp;at&nbsp;ease&nbsp;on&nbsp;solid&nbsp;ground.&nbsp;Maenads&nbsp;with&nbsp;this&nbsp;trait&nbsp;gain&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;to&nbsp;Acrobatics&nbsp;checks&nbsp;as&nbsp;long&nbsp;as&nbsp;he&nbsp;is&nbsp;standing&nbsp;on&nbsp;the&nbsp;ground.&nbsp;This&nbsp;ability&nbsp;replaces&nbsp;Natural&nbsp;Sailor.</p>
   subType: racial
   traitCategory: alternate
 type: feat

@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Some elans are more adept at psionically rebuilding bodies than preserving them. These elans may spend 1 or more pp as a swift action to gain Fast Healing 2 for a number of rounds equal to the number of pp spent; this can be used even when unconscious. The elan also gains a +1 bonus to its manifester level when manifesting powers of the Healing subdiscipline. This replaces resistance and resilience.</p>
+    value: >-
+      <p>Some&nbsp;elans&nbsp;are&nbsp;more&nbsp;adept&nbsp;at&nbsp;psionically&nbsp;rebuilding&nbsp;bodies&nbsp;than&nbsp;preserving&nbsp;them.&nbsp;These&nbsp;elans&nbsp;may&nbsp;spend&nbsp;1&nbsp;or&nbsp;more&nbsp;pp&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;gain&nbsp;Fast&nbsp;Healing&nbsp;2&nbsp;for&nbsp;a&nbsp;number&nbsp;of&nbsp;rounds&nbsp;equal&nbsp;to&nbsp;the&nbsp;number&nbsp;of&nbsp;pp&nbsp;spent;&nbsp;this&nbsp;can&nbsp;be&nbsp;used&nbsp;even&nbsp;when&nbsp;unconscious.&nbsp;The&nbsp;elan&nbsp;also&nbsp;gains&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;to&nbsp;its&nbsp;manifester&nbsp;level&nbsp;when&nbsp;manifesting&nbsp;powers&nbsp;of&nbsp;the&nbsp;Healing&nbsp;subdiscipline.&nbsp;This&nbsp;replaces&nbsp;resistance&nbsp;and&nbsp;resilience.</p>
   subType: racial
   traitCategory: alternate
 type: feat

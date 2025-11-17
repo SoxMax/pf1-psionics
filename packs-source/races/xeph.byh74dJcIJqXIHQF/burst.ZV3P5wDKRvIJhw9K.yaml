@@ -1,8 +1,7 @@
 _id: ZV3P5wDKRvIJhw9K
 _key: '!items!ZV3P5wDKRvIJhw9K'
-_raceName: Xeph
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     fromRace: Xeph
@@ -22,7 +21,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +62,14 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Three times per day as a swift action, a xeph can put on a burst of speed to increase his speed by 10 feet, plus 10 feet per four character levels beyond 1st, to a maximum increase of 30 feet at 9th character level and higher. These bursts of speed are considered a competence bonus to the xeph’s base speed. A burst of speed lasts 3 rounds.</li></p>
+    value: >-
+      <p>Three&nbsp;times&nbsp;per&nbsp;day&nbsp;as&nbsp;a&nbsp;swift&nbsp;action,&nbsp;a&nbsp;xeph&nbsp;can&nbsp;put&nbsp;on&nbsp;a&nbsp;burst&nbsp;of&nbsp;speed&nbsp;to&nbsp;increase&nbsp;his&nbsp;speed&nbsp;by&nbsp;10&nbsp;feet,&nbsp;plus&nbsp;10&nbsp;feet&nbsp;per&nbsp;four&nbsp;character&nbsp;levels&nbsp;beyond&nbsp;1st,&nbsp;to&nbsp;a&nbsp;maximum&nbsp;increase&nbsp;of&nbsp;30&nbsp;feet&nbsp;at&nbsp;9th&nbsp;character&nbsp;level&nbsp;and&nbsp;higher.&nbsp;These&nbsp;bursts&nbsp;of&nbsp;speed&nbsp;are&nbsp;considered&nbsp;a&nbsp;competence&nbsp;bonus&nbsp;to&nbsp;the&nbsp;xeph’s&nbsp;base&nbsp;speed.&nbsp;A&nbsp;burst&nbsp;of&nbsp;speed&nbsp;lasts&nbsp;3&nbsp;rounds.</li></p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
   subType: racial
+  summons: false
   traitCategory: magical
 type: feat

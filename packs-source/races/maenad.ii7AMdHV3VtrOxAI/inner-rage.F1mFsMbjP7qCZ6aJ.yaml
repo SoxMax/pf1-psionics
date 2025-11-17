@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Maenads are able to rage one additional round per day should they have the rage ability and they gain an additional round per day every odd character level. In addition to using these rounds for rage, maenads may use them to fuel their outburst, instead of power points.</li></p>
+    value: >-
+      <p>Maenads&nbsp;are&nbsp;able&nbsp;to&nbsp;rage&nbsp;one&nbsp;additional&nbsp;round&nbsp;per&nbsp;day&nbsp;should&nbsp;they&nbsp;have&nbsp;the&nbsp;rage&nbsp;ability&nbsp;and&nbsp;they&nbsp;gain&nbsp;an&nbsp;additional&nbsp;round&nbsp;per&nbsp;day&nbsp;every&nbsp;odd&nbsp;character&nbsp;level.&nbsp;In&nbsp;addition&nbsp;to&nbsp;using&nbsp;these&nbsp;rounds&nbsp;for&nbsp;rage,&nbsp;maenads&nbsp;may&nbsp;use&nbsp;them&nbsp;to&nbsp;fuel&nbsp;their&nbsp;outburst,&nbsp;instead&nbsp;of&nbsp;power&nbsp;points.</li></p>
   subType: racial
   traitCategory: magical
 type: feat

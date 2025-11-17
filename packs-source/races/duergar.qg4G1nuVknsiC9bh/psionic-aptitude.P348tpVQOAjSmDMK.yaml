@@ -1,5 +1,5 @@
-_id: 3TId4R2KZdTtDIsw
-_key: '!items!3TId4R2KZdTtDIsw'
+_id: P348tpVQOAjSmDMK
+_key: '!items!P348tpVQOAjSmDMK'
 _raceName: Duergar (Psionic)
 _stats:
   coreVersion: '13.350'
@@ -8,7 +8,7 @@ flags:
     fromRace: Duergar (Psionic)
 folder: qg4G1nuVknsiC9bh
 img: icons/environment/people/group.webp
-name: Waking Dreamer
+name: Psionic Aptitude
 system:
   abilityType: na
   acquired: false
@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>You have adapted to always humming to keep That Which Sleeps Beneath from waking. You do not need to sleep at all and can meditate, fully awake and aware, for 4 hours to gain all the benefits of sleep, including regaining power points.</p><p><em>This trait replaces the Duergar Psionics trait.</em></p>
+    value: >-
+      <p>When&nbsp;a&nbsp;duergar&nbsp;takes&nbsp;a&nbsp;level&nbsp;in&nbsp;a&nbsp;favored&nbsp;class,&nbsp;he&nbsp;can&nbsp;choose&nbsp;to&nbsp;gain&nbsp;an&nbsp;additional&nbsp;power&nbsp;point&nbsp;instead&nbsp;of&nbsp;a&nbsp;hit&nbsp;point&nbsp;or&nbsp;skill&nbsp;point.</li></p>
   subType: racial
-  traitCategory: alternate
+  traitCategory: magical
 type: feat

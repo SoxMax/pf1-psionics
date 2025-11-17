@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Some dromites have a gender, allowing them to become a Hive Queen or Consort. Dromites with this racial trait gain a +3 bonus to Diplomacy checks on dromites.</p><p><em>This trait replaces the Dromite Psionics trait.</em></p>
+    value: >-
+      <p>Some&nbsp;dromites&nbsp;have&nbsp;a&nbsp;gender,&nbsp;allowing&nbsp;them&nbsp;to&nbsp;become&nbsp;a&nbsp;Hive&nbsp;Queen&nbsp;or&nbsp;Consort.&nbsp;Dromites&nbsp;with&nbsp;this&nbsp;racial&nbsp;trait&nbsp;gain&nbsp;a&nbsp;+3&nbsp;bonus&nbsp;to&nbsp;Diplomacy&nbsp;checks&nbsp;on&nbsp;dromites.</p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;Dromite&nbsp;Psionics&nbsp;trait.</em></p>
   subType: racial
   traitCategory: alternate
 type: feat

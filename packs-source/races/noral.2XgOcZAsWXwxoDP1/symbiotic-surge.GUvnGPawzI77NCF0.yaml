@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,6 +63,7 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>A noral is able to tap into the power of the symbiote to gain a temporary boost. Once per day, a noral can exhaust the symbiote to add 1d6 to a single d20 roll. This decision must be made prior to the result of the roll is determined.</li></p>
+    value: >-
+      <p>A&nbsp;noral&nbsp;is&nbsp;able&nbsp;to&nbsp;tap&nbsp;into&nbsp;the&nbsp;power&nbsp;of&nbsp;the&nbsp;symbiote&nbsp;to&nbsp;gain&nbsp;a&nbsp;temporary&nbsp;boost.&nbsp;Once&nbsp;per&nbsp;day,&nbsp;a&nbsp;noral&nbsp;can&nbsp;exhaust&nbsp;the&nbsp;symbiote&nbsp;to&nbsp;add&nbsp;1d6&nbsp;to&nbsp;a&nbsp;single&nbsp;d20&nbsp;roll.&nbsp;This&nbsp;decision&nbsp;must&nbsp;be&nbsp;made&nbsp;prior&nbsp;to&nbsp;the&nbsp;result&nbsp;of&nbsp;the&nbsp;roll&nbsp;is&nbsp;determined.</li></p>
   subType: racial
 type: feat

@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,6 +63,7 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Although most xephs are quick on their feet, some are lightning fast with their hands. A xeph with this racial trait gains the Quick Draw and Weapon Proficiency (Xephyr Knife) feats as bonus feats.</p><p><em>This trait replaces the Burst trait.</em></p><p></li></p>
+    value: >-
+      <p>Although&nbsp;most&nbsp;xephs&nbsp;are&nbsp;quick&nbsp;on&nbsp;their&nbsp;feet,&nbsp;some&nbsp;are&nbsp;lightning&nbsp;fast&nbsp;with&nbsp;their&nbsp;hands.&nbsp;A&nbsp;xeph&nbsp;with&nbsp;this&nbsp;racial&nbsp;trait&nbsp;gains&nbsp;the&nbsp;Quick&nbsp;Draw&nbsp;and&nbsp;Weapon&nbsp;Proficiency&nbsp;(Xephyr&nbsp;Knife)&nbsp;feats&nbsp;as&nbsp;bonus&nbsp;feats.</p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;Burst&nbsp;trait.</em></p><p></li></p>
   subType: racial
 type: feat

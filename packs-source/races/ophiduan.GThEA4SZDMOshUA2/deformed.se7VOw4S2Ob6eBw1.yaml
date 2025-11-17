@@ -1,8 +1,7 @@
 _id: se7VOw4S2Ob6eBw1
 _key: '!items!se7VOw4S2Ob6eBw1'
-_raceName: Ophiduan
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     fromRace: Ophiduan
@@ -22,7 +21,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,6 +62,13 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Part of the ophiduan history involved experimenting on their physical form to create a superior caste. Unfortunate bloodlines of ophiduans are instead twisted versions of the race, when the improvement caused an unexpected side-effect. Ophiduans with this trait have the Slow and Steady speed (as the dwarf racial ability) and gain a +2 natural armor bonus to AC, but suffer a -2 penalty on all Diplomacy checks.</p><p><em>This racial trait replaces the normal speed and scaled hide traits.</em></p><p></li></p>
+    value: >-
+      <p>Part&nbsp;of&nbsp;the&nbsp;ophiduan&nbsp;history&nbsp;involved&nbsp;experimenting&nbsp;on&nbsp;their&nbsp;physical&nbsp;form&nbsp;to&nbsp;create&nbsp;a&nbsp;superior&nbsp;caste.&nbsp;Unfortunate&nbsp;bloodlines&nbsp;of&nbsp;ophiduans&nbsp;are&nbsp;instead&nbsp;twisted&nbsp;versions&nbsp;of&nbsp;the&nbsp;race,&nbsp;when&nbsp;the&nbsp;improvement&nbsp;caused&nbsp;an&nbsp;unexpected&nbsp;side-effect.&nbsp;Ophiduans&nbsp;with&nbsp;this&nbsp;trait&nbsp;have&nbsp;the&nbsp;Slow&nbsp;and&nbsp;Steady&nbsp;speed&nbsp;(as&nbsp;the&nbsp;dwarf&nbsp;racial&nbsp;ability)&nbsp;and&nbsp;gain&nbsp;a&nbsp;+2&nbsp;natural&nbsp;armor&nbsp;bonus&nbsp;to&nbsp;AC,&nbsp;but&nbsp;suffer&nbsp;a&nbsp;-2&nbsp;penalty&nbsp;on&nbsp;all&nbsp;Diplomacy&nbsp;checks.</p><p><em>This&nbsp;racial&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;normal&nbsp;speed&nbsp;and&nbsp;scaled&nbsp;hide&nbsp;traits.</em></p><p></li></p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
   subType: racial
+  summons: false
 type: feat

@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,6 +63,7 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Maenads may take levels in the barbarian class even if they are of the lawful alignment.</li></p>
+    value: >-
+      <p>Maenads&nbsp;may&nbsp;take&nbsp;levels&nbsp;in&nbsp;the&nbsp;barbarian&nbsp;class&nbsp;even&nbsp;if&nbsp;they&nbsp;are&nbsp;of&nbsp;the&nbsp;lawful&nbsp;alignment.</li></p>
   subType: racial
 type: feat

@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,6 +63,7 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>These half-giants have a natural connection to akashic energy and start play with 1 bonus essence point in their pool.</li></p>
+    value: >-
+      <p>These&nbsp;half-giants&nbsp;have&nbsp;a&nbsp;natural&nbsp;connection&nbsp;to&nbsp;akashic&nbsp;energy&nbsp;and&nbsp;start&nbsp;play&nbsp;with&nbsp;1&nbsp;bonus&nbsp;essence&nbsp;point&nbsp;in&nbsp;their&nbsp;pool.</li></p>
   subType: racial
 type: feat

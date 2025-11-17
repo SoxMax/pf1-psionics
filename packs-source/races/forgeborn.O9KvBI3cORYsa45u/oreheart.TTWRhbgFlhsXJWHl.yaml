@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,6 +63,7 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>A forgeborn with this trait can be raised and resurrected, but can also be healed by repair effects such as reconstruction as if it were a construct. The forgeborn heals only half as much from healing effects (other than effects which work on constructs, such as fast healing and repair effects) and takes only half damage from negative energy effects. This ability replaces source crystal.</li></p>
+    value: >-
+      <p>A&nbsp;forgeborn&nbsp;with&nbsp;this&nbsp;trait&nbsp;can&nbsp;be&nbsp;raised&nbsp;and&nbsp;resurrected,&nbsp;but&nbsp;can&nbsp;also&nbsp;be&nbsp;healed&nbsp;by&nbsp;repair&nbsp;effects&nbsp;such&nbsp;as&nbsp;reconstruction&nbsp;as&nbsp;if&nbsp;it&nbsp;were&nbsp;a&nbsp;construct.&nbsp;The&nbsp;forgeborn&nbsp;heals&nbsp;only&nbsp;half&nbsp;as&nbsp;much&nbsp;from&nbsp;healing&nbsp;effects&nbsp;(other&nbsp;than&nbsp;effects&nbsp;which&nbsp;work&nbsp;on&nbsp;constructs,&nbsp;such&nbsp;as&nbsp;fast&nbsp;healing&nbsp;and&nbsp;repair&nbsp;effects)&nbsp;and&nbsp;takes&nbsp;only&nbsp;half&nbsp;damage&nbsp;from&nbsp;negative&nbsp;energy&nbsp;effects.&nbsp;This&nbsp;ability&nbsp;replaces&nbsp;source&nbsp;crystal.</li></p>
   subType: racial
 type: feat

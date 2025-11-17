@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Norals gain the <a href="/wiki/Wild_Talent" title="Wild Talent">Wild Talent</a> feat as a bonus feat at 1st level. If a noral takes levels in a psionic class, he instead gains the <a href="/wiki/Psionic_Talent" title="Psionic Talent">Psionic Talent</a> feat.</li></p>
+    value: >-
+      <p>Norals&nbsp;gain&nbsp;the&nbsp;<a&nbsp;href="/wiki/Wild_Talent"&nbsp;title="Wild&nbsp;Talent">Wild&nbsp;Talent</a>&nbsp;feat&nbsp;as&nbsp;a&nbsp;bonus&nbsp;feat&nbsp;at&nbsp;1st&nbsp;level.&nbsp;If&nbsp;a&nbsp;noral&nbsp;takes&nbsp;levels&nbsp;in&nbsp;a&nbsp;psionic&nbsp;class,&nbsp;he&nbsp;instead&nbsp;gains&nbsp;the&nbsp;<a&nbsp;href="/wiki/Psionic_Talent"&nbsp;title="Psionic&nbsp;Talent">Psionic&nbsp;Talent</a>&nbsp;feat.</li></p>
   subType: racial
   traitCategory: magical
 type: feat

@@ -1,8 +1,7 @@
 _id: nBx64nGxXVAkmGzW
 _key: '!items!nBx64nGxXVAkmGzW'
-_raceName: Dromite
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     fromRace: Dromite
@@ -22,7 +21,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +62,13 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>This special quality allows a dromite to detect approaching enemies, sniff out hidden foes, and track by sense of smell. Dromites with the scent ability can identify familiar odors just as humans do familiar sights. Dromites can detect opponents within 30 feet by sense of smell. If the opponent is upwind, the range increases to 60 feet; if downwind, it drops to 15 feet. Strong scents, such as smoke or rotting garbage, can be detected at twice the ranges noted above. Overpowering scents, such as skunk musk or troglodyte stench, can be detected at triple normal range. When a dromite detects a scent, the exact location of the source is not revealed—only its presence somewhere within range. The dromite can take a move action to note the direction of the scent. When the dromite is within 5 feet of the source, it pinpoints the source's location. A dromite with the scent ability can follow tracks by smell, making a Wisdom (or Survival) check to find or follow a track. The typical DC for a fresh trail is 10 (no matter what kind of surface holds the scent). This DC increases or decreases depending on how strong the quarry's odor is, the number of creatures, and the age of the trail. For each hour that the trail is cold, the DC increases by 2. The ability otherwise follows the rules for the Survival skill. Dromites tracking by scent ignore the effects of surface conditions and poor visibility.</li></p>
+    value: >-
+      <p>This&nbsp;special&nbsp;quality&nbsp;allows&nbsp;a&nbsp;dromite&nbsp;to&nbsp;detect&nbsp;approaching&nbsp;enemies,&nbsp;sniff&nbsp;out&nbsp;hidden&nbsp;foes,&nbsp;and&nbsp;track&nbsp;by&nbsp;sense&nbsp;of&nbsp;smell.&nbsp;Dromites&nbsp;with&nbsp;the&nbsp;scent&nbsp;ability&nbsp;can&nbsp;identify&nbsp;familiar&nbsp;odors&nbsp;just&nbsp;as&nbsp;humans&nbsp;do&nbsp;familiar&nbsp;sights.&nbsp;Dromites&nbsp;can&nbsp;detect&nbsp;opponents&nbsp;within&nbsp;30&nbsp;feet&nbsp;by&nbsp;sense&nbsp;of&nbsp;smell.&nbsp;If&nbsp;the&nbsp;opponent&nbsp;is&nbsp;upwind,&nbsp;the&nbsp;range&nbsp;increases&nbsp;to&nbsp;60&nbsp;feet;&nbsp;if&nbsp;downwind,&nbsp;it&nbsp;drops&nbsp;to&nbsp;15&nbsp;feet.&nbsp;Strong&nbsp;scents,&nbsp;such&nbsp;as&nbsp;smoke&nbsp;or&nbsp;rotting&nbsp;garbage,&nbsp;can&nbsp;be&nbsp;detected&nbsp;at&nbsp;twice&nbsp;the&nbsp;ranges&nbsp;noted&nbsp;above.&nbsp;Overpowering&nbsp;scents,&nbsp;such&nbsp;as&nbsp;skunk&nbsp;musk&nbsp;or&nbsp;troglodyte&nbsp;stench,&nbsp;can&nbsp;be&nbsp;detected&nbsp;at&nbsp;triple&nbsp;normal&nbsp;range.&nbsp;When&nbsp;a&nbsp;dromite&nbsp;detects&nbsp;a&nbsp;scent,&nbsp;the&nbsp;exact&nbsp;location&nbsp;of&nbsp;the&nbsp;source&nbsp;is&nbsp;not&nbsp;revealed—only&nbsp;its&nbsp;presence&nbsp;somewhere&nbsp;within&nbsp;range.&nbsp;The&nbsp;dromite&nbsp;can&nbsp;take&nbsp;a&nbsp;move&nbsp;action&nbsp;to&nbsp;note&nbsp;the&nbsp;direction&nbsp;of&nbsp;the&nbsp;scent.&nbsp;When&nbsp;the&nbsp;dromite&nbsp;is&nbsp;within&nbsp;5&nbsp;feet&nbsp;of&nbsp;the&nbsp;source,&nbsp;it&nbsp;pinpoints&nbsp;the&nbsp;source's&nbsp;location.&nbsp;A&nbsp;dromite&nbsp;with&nbsp;the&nbsp;scent&nbsp;ability&nbsp;can&nbsp;follow&nbsp;tracks&nbsp;by&nbsp;smell,&nbsp;making&nbsp;a&nbsp;Wisdom&nbsp;(or&nbsp;Survival)&nbsp;check&nbsp;to&nbsp;find&nbsp;or&nbsp;follow&nbsp;a&nbsp;track.&nbsp;The&nbsp;typical&nbsp;DC&nbsp;for&nbsp;a&nbsp;fresh&nbsp;trail&nbsp;is&nbsp;10&nbsp;(no&nbsp;matter&nbsp;what&nbsp;kind&nbsp;of&nbsp;surface&nbsp;holds&nbsp;the&nbsp;scent).&nbsp;This&nbsp;DC&nbsp;increases&nbsp;or&nbsp;decreases&nbsp;depending&nbsp;on&nbsp;how&nbsp;strong&nbsp;the&nbsp;quarry's&nbsp;odor&nbsp;is,&nbsp;the&nbsp;number&nbsp;of&nbsp;creatures,&nbsp;and&nbsp;the&nbsp;age&nbsp;of&nbsp;the&nbsp;trail.&nbsp;For&nbsp;each&nbsp;hour&nbsp;that&nbsp;the&nbsp;trail&nbsp;is&nbsp;cold,&nbsp;the&nbsp;DC&nbsp;increases&nbsp;by&nbsp;2.&nbsp;The&nbsp;ability&nbsp;otherwise&nbsp;follows&nbsp;the&nbsp;rules&nbsp;for&nbsp;the&nbsp;Survival&nbsp;skill.&nbsp;Dromites&nbsp;tracking&nbsp;by&nbsp;scent&nbsp;ignore&nbsp;the&nbsp;effects&nbsp;of&nbsp;surface&nbsp;conditions&nbsp;and&nbsp;poor&nbsp;visibility.</li></p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
   subType: racial
-  traitCategory: extraordinary
+  summons: false
 type: feat

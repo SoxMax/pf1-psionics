@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,6 +63,7 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Ophiduans are Medium creatures and have no bonuses or penalties due to their size.</li></p>
+    value: >-
+      <p>Ophiduans&nbsp;are&nbsp;Medium&nbsp;creatures&nbsp;and&nbsp;have&nbsp;no&nbsp;bonuses&nbsp;or&nbsp;penalties&nbsp;due&nbsp;to&nbsp;their&nbsp;size.</li></p>
   subType: racial
 type: feat

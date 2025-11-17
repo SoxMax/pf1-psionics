@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>There are many predators within the bowels of the earth. A dromite with this trait has chitin with sharpened edges instead of being hardened, granting two claw attacks. These are primary natural attacks that deal 1d3 points points of slashing damage.</p><p><em>This trait replaces the Chitin trait.</em></p>
+    value: >-
+      <p>There&nbsp;are&nbsp;many&nbsp;predators&nbsp;within&nbsp;the&nbsp;bowels&nbsp;of&nbsp;the&nbsp;earth.&nbsp;A&nbsp;dromite&nbsp;with&nbsp;this&nbsp;trait&nbsp;has&nbsp;chitin&nbsp;with&nbsp;sharpened&nbsp;edges&nbsp;instead&nbsp;of&nbsp;being&nbsp;hardened,&nbsp;granting&nbsp;two&nbsp;claw&nbsp;attacks.&nbsp;These&nbsp;are&nbsp;primary&nbsp;natural&nbsp;attacks&nbsp;that&nbsp;deal&nbsp;1d3&nbsp;points&nbsp;points&nbsp;of&nbsp;slashing&nbsp;damage.</p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;Chitin&nbsp;trait.</em></p>
   subType: racial
   traitCategory: alternate
 type: feat

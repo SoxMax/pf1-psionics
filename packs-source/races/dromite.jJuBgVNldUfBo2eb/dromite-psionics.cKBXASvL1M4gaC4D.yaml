@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: '<p>Dromites gain the following psi-like ability: 1/day—<em><a href="/wiki/Energy_Ray" title="Energy Ray">energy ray</a></em>. A dromite always deals the kind of energy damage that its chitin has resistance to (for example, a dromite who has resistance to cold 5 deals cold damage with its energy ray). The manifester level for this effect is equal to 1/2 the dromite''s level (minimum 1st).</li></p>'
+    value: >-
+      <p>Dromites&nbsp;gain&nbsp;the&nbsp;following&nbsp;psi-like&nbsp;ability:&nbsp;1/day—<em><a&nbsp;href="/wiki/Energy_Ray"&nbsp;title="Energy&nbsp;Ray">energy&nbsp;ray</a></em>.&nbsp;A&nbsp;dromite&nbsp;always&nbsp;deals&nbsp;the&nbsp;kind&nbsp;of&nbsp;energy&nbsp;damage&nbsp;that&nbsp;its&nbsp;chitin&nbsp;has&nbsp;resistance&nbsp;to&nbsp;(for&nbsp;example,&nbsp;a&nbsp;dromite&nbsp;who&nbsp;has&nbsp;resistance&nbsp;to&nbsp;cold&nbsp;5&nbsp;deals&nbsp;cold&nbsp;damage&nbsp;with&nbsp;its&nbsp;energy&nbsp;ray).&nbsp;The&nbsp;manifester&nbsp;level&nbsp;for&nbsp;this&nbsp;effect&nbsp;is&nbsp;equal&nbsp;to&nbsp;1/2&nbsp;the&nbsp;dromite's&nbsp;level&nbsp;(minimum&nbsp;1st).</li></p>
   subType: racial
   traitCategory: magical
 type: feat

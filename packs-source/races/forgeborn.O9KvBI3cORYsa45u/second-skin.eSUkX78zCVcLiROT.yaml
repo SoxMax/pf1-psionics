@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,6 +63,7 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Not all forgeborn have a natrually tough exterior, but instead are extremely comfortable in armor. A forgeborn with this trait reduces any armor check penalty from armor worn by 1 (to a minimum of 0) and can sleep in medium or heavy metal armor without suffering ill effects from sleeping in armor. This replaces natural armor.</li></p>
+    value: >-
+      <p>Not&nbsp;all&nbsp;forgeborn&nbsp;have&nbsp;a&nbsp;natrually&nbsp;tough&nbsp;exterior,&nbsp;but&nbsp;instead&nbsp;are&nbsp;extremely&nbsp;comfortable&nbsp;in&nbsp;armor.&nbsp;A&nbsp;forgeborn&nbsp;with&nbsp;this&nbsp;trait&nbsp;reduces&nbsp;any&nbsp;armor&nbsp;check&nbsp;penalty&nbsp;from&nbsp;armor&nbsp;worn&nbsp;by&nbsp;1&nbsp;(to&nbsp;a&nbsp;minimum&nbsp;of&nbsp;0)&nbsp;and&nbsp;can&nbsp;sleep&nbsp;in&nbsp;medium&nbsp;or&nbsp;heavy&nbsp;metal&nbsp;armor&nbsp;without&nbsp;suffering&nbsp;ill&nbsp;effects&nbsp;from&nbsp;sleeping&nbsp;in&nbsp;armor.&nbsp;This&nbsp;replaces&nbsp;natural&nbsp;armor.</li></p>
   subType: racial
 type: feat

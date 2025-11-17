@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>There are the rare maenads who have skin where the crystalline flecks are more advanced than others of their race. A maenad with this trait gains a +1 natural armor bonus to his Armor Class.</p><p><em>This trait replaces the Outburst trait.</em></p>
+    value: >-
+      <p>There&nbsp;are&nbsp;the&nbsp;rare&nbsp;maenads&nbsp;who&nbsp;have&nbsp;skin&nbsp;where&nbsp;the&nbsp;crystalline&nbsp;flecks&nbsp;are&nbsp;more&nbsp;advanced&nbsp;than&nbsp;others&nbsp;of&nbsp;their&nbsp;race.&nbsp;A&nbsp;maenad&nbsp;with&nbsp;this&nbsp;trait&nbsp;gains&nbsp;a&nbsp;+1&nbsp;natural&nbsp;armor&nbsp;bonus&nbsp;to&nbsp;his&nbsp;Armor&nbsp;Class.</p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;Outburst&nbsp;trait.</em></p>
   subType: racial
   traitCategory: alternate
 type: feat

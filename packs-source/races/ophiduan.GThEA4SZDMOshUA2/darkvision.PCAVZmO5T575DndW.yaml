@@ -1,8 +1,7 @@
 _id: PCAVZmO5T575DndW
 _key: '!items!PCAVZmO5T575DndW'
-_raceName: Ophiduan
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     fromRace: Ophiduan
@@ -22,7 +21,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +62,14 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Ophiduans can see in the dark up to 60 feet.</li></p>
+    value: >-
+      <p>Ophiduans&nbsp;can&nbsp;see&nbsp;in&nbsp;the&nbsp;dark&nbsp;up&nbsp;to&nbsp;60&nbsp;feet.</li></p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
   subType: racial
+  summons: false
   traitCategory: senses
 type: feat

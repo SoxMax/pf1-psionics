@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +63,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Some elans have a small portion of their original racial characteristics survive the transformation process. Elans with this racial trait gain the following benefit based upon their original race and lose the resilience trait.</p>
+    value: >-
+      <p>Some&nbsp;elans&nbsp;have&nbsp;a&nbsp;small&nbsp;portion&nbsp;of&nbsp;their&nbsp;original&nbsp;racial&nbsp;characteristics&nbsp;survive&nbsp;the&nbsp;transformation&nbsp;process.&nbsp;Elans&nbsp;with&nbsp;this&nbsp;racial&nbsp;trait&nbsp;gain&nbsp;the&nbsp;following&nbsp;benefit&nbsp;based&nbsp;upon&nbsp;their&nbsp;original&nbsp;race&nbsp;and&nbsp;lose&nbsp;the&nbsp;resilience&nbsp;trait.</p>
   subType: racial
   traitCategory: alternate
 type: feat

@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,6 +63,7 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Choose one piece of psibertech. The forgeborn starts life with this piece's basic augmentation. This ability replaces fearless.</li></p>
+    value: >-
+      <p>Choose&nbsp;one&nbsp;piece&nbsp;of&nbsp;psibertech.&nbsp;The&nbsp;forgeborn&nbsp;starts&nbsp;life&nbsp;with&nbsp;this&nbsp;piece's&nbsp;basic&nbsp;augmentation.&nbsp;This&nbsp;ability&nbsp;replaces&nbsp;fearless.</li></p>
   subType: racial
 type: feat

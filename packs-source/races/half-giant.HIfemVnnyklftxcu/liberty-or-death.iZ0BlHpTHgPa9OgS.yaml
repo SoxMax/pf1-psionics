@@ -22,7 +22,6 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes: []
   classSkills:
     acr: false
     ahp: false
@@ -64,6 +63,7 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The history of the half-giants speaks of them once being an enslaved race. Some half-giants have a built-in defense against being subjugated against their will. Half-giants with this bonus gain a +2 racial bonus on saving throws against mind-affecting effects. <em></p><p><em>This trait replaces the fire acclimated trait.</em></p><p></em></li></p>
+    value: >-
+      <p>The&nbsp;history&nbsp;of&nbsp;the&nbsp;half-giants&nbsp;speaks&nbsp;of&nbsp;them&nbsp;once&nbsp;being&nbsp;an&nbsp;enslaved&nbsp;race.&nbsp;Some&nbsp;half-giants&nbsp;have&nbsp;a&nbsp;built-in&nbsp;defense&nbsp;against&nbsp;being&nbsp;subjugated&nbsp;against&nbsp;their&nbsp;will.&nbsp;Half-giants&nbsp;with&nbsp;this&nbsp;bonus&nbsp;gain&nbsp;a&nbsp;+2&nbsp;racial&nbsp;bonus&nbsp;on&nbsp;saving&nbsp;throws&nbsp;against&nbsp;mind-affecting&nbsp;effects.&nbsp;<em></p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;fire&nbsp;acclimated&nbsp;trait.</em></p><p></em></li></p>
   subType: racial
 type: feat
