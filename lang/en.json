@@ -83,9 +83,12 @@
       "Current": "Current",
       "Maximum": "Maximum",
       "Temporary": "Temporary",
-      "Formula": "Power Point Maximum",
       "Cost": "Power Point Cost",
-      "Offset": "Power Point Offset"
+      "Offset": "Power Point Offset",
+      "FormulaLabel": {
+        "Maximum": "Power Point Maximum",
+        "Bonus": "Power Point Bonus"
+      }
     },
     "Augments": {
       "Plural": "Augments",
