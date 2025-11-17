@@ -1,8 +1,7 @@
 _id: 5bGTIszl33MsQ86U
 _key: '!items!5bGTIszl33MsQ86U'
-_raceName: Elan
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     fromRace: Elan
@@ -65,6 +64,12 @@ system:
   description:
     value: >-
       <p>Elans&nbsp;can&nbsp;use&nbsp;psionic&nbsp;energy&nbsp;to&nbsp;increase&nbsp;their&nbsp;resistance&nbsp;to&nbsp;various&nbsp;forms&nbsp;of&nbsp;attack.&nbsp;As&nbsp;an&nbsp;immediate&nbsp;action,&nbsp;an&nbsp;elan&nbsp;can&nbsp;spend&nbsp;1&nbsp;power&nbsp;point&nbsp;to&nbsp;gain&nbsp;a&nbsp;+4&nbsp;racial&nbsp;bonus&nbsp;on&nbsp;saving&nbsp;throws&nbsp;until&nbsp;the&nbsp;beginning&nbsp;of&nbsp;her&nbsp;next&nbsp;action.</li></p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
   subType: racial
+  summons: false
   traitCategory: magical
 type: feat
