@@ -2,11 +2,11 @@ import {MODULE_ID} from "../../_module.mjs";
 
 export async function onCreateItemHook(item, _options, _userId) {
   if (item.type === "class") {
-    await onCreatePsionicClassItem(item);
+    await addClassManifester(item);
   }
 }
 
-export async function onCreatePsionicClassItem(item) {
+export async function addClassManifester(item) {
   try {
     const manifesting = item.system?.manifesting;
     if (!manifesting?.progression) return; // Not a psionic manifesting class

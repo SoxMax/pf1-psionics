@@ -1,4 +1,4 @@
-import {onCreatePsionicClassItem} from "../../documents/item/item.mjs";
+import {addClassManifester} from "../../documents/item/item.mjs";
 
 export function renderItemHook(app, html, data) {
 	let item = app.object;
@@ -31,6 +31,6 @@ async function injectManifesting(app, html, data) {
 	// Add event listener for create-manifestor button
 	html.find("button[name='create-manifestor']").on("click", async (event) => {
 		event.preventDefault();
-		await onCreatePsionicClassItem(app.document);
+		await addClassManifester(app.document);
 	});
 }
