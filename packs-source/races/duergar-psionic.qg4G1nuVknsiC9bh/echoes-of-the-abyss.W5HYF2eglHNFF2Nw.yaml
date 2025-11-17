@@ -1,0 +1,70 @@
+_id: W5HYF2eglHNFF2Nw
+_key: '!items!W5HYF2eglHNFF2Nw'
+_raceName: Duergar (Psionic)
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    fromRace: Duergar (Psionic)
+folder: qg4G1nuVknsiC9bh
+img: icons/environment/people/group.webp
+name: Echoes of the Abyss
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: <p>Some duergar are more deeply touched by their experiences underground than their fellows. A duergar with this trait is treated as an aberration rather than a humanoid whenever it would be beneficial (for example, harmful spells which target only humanoids such as Charm Person or Hold Person will automatically fail unless the duergar specifically chooses otherwise; rangers will not be able to use Favored Enemy against him unless they have both humanoids (dwarves) and aberrations as favored enemies, in which case the duergar suffers the lesser bonus of the two).</p><p><em>This trait replaces the Hardy trait.</em></p>
+  subType: racial
+  traitCategory: alternate
+type: feat

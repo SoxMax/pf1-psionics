@@ -1,0 +1,70 @@
+_id: ooIbiUJySTmAwifq
+_key: '!items!ooIbiUJySTmAwifq'
+_raceName: Dromite
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    fromRace: Dromite
+folder: jJuBgVNldUfBo2eb
+img: icons/environment/people/group.webp
+name: Chitin
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: '<p>Dromites receive a +1 natural armor bonus and one of the following kinds of energy resistance of their choice at creation: cold 5, electricity 5, fire 5, or sonic 5. This choice is permanent and stacks with any future energy resistance gained through other effects.</li></p>'
+  subType: racial
+  traitCategory: defensive
+type: feat

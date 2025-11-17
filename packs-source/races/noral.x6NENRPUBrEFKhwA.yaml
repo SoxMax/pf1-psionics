@@ -1,0 +1,151 @@
+_id: x6NENRPUBrEFKhwA
+_key: '!items!x6NENRPUBrEFKhwA'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Noral
+img: icons/environment/people/group.webp
+name: Noral
+system:
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  creatureSubtypes:
+    - noral
+    - psionic
+  creatureTypes:
+    - humanoid
+  description:
+    value: |-
+      <p>The norals are a race of humanoids with a symbiotic bond with the erliss, a small psionic creature also referred to as a dreamscar. Norals that have bonded with an erliss no longer dream, giving the creature its nickname, as well as giving the bonded norals the nickname of the dreamscarred. The symbiotic joining process has left the noral race open to the benefit of other creatures on their society, making them more likely to seek out information on other cultures and talented at social interactions.
+      </p>
+      <p>Known for being physically clumsier than most, some surmise that norals lack agility because the bonding process has impacted their natural reflexes. Others argue it is because the race has a naturally stocky frame that simply does not lend itself well to precise movements. Despite this, the natural resiliency of their mental and physical forms has helped them overcome what is otherwise a liability for surviving the harsh lands near their settlements. However, their ability to block such assaults, combined with their natural ability to assault the minds of others, has given some a fear of the race as a potential subjugator of free will, a notion the norals find ludicrous for their views on free will as something to be nurtured and never to be threatened.
+      </p>
+      <p>While some norals choose not to bond with an erliss, this is the exception, rather than the rule. The bonding process itself is done as a ceremony once a noral has reached adulthood and is considered an important step in the maturation of their younger generations. This ceremony is typically done in private, usually with only the noral’s parents in attendance. Upon completion, the newly-dreamscarred noral is considered an adult and afforded all privileges as such.
+      </p>
+      <p><strong>Physical Description</strong>: Norals stand about as tall as humans, but are typically stockier in form. They have skin tones, eye color, and hair pigments of a similar range as humans, but a noral who has undergone the bonding process to become dreamscarred loses all skin and hair pigmentation, becoming an albino with pure white hair. A dreamscarred noral’s eyes turn pure black, and the erliss at the base of their neck rapidly grows into its mature form, with four tentacles coming out of the base of the noral’s neck, usually draping over the noral’s shoulders. In addition, a dreamscarred noral’s forehead and skull takes on a ridged and plated look, rather than the typical humanoid appearance. The erliss is a tentacled creature that looks something like a sea star, with four or five arms that stretch out from the central core. Most often white, pale pink, pale blue, the erliss can exist comfortably in both water and on land. The small ridges across their appendages can quickly change color, which is often used to scare away lesser predators. On the underside of the creature, there is a small mouth. One of the tentacles has a small reddish opening that can extrude the romon, a slithering tentacle used to collect food, paralyze prey and, perhaps most importantly, initiate the psychic bridge that begins the melding process. The bonding is initiated by placing the erliss on the noral’s neck, with its mouth flush against the exposed skin of the noral, and the tentacle placed at the base of the skull.
+      </p>
+      <p><strong>Society</strong>: The societal structure of the norals is one of a democratic republic. In their society, only norals who have gone through the bonding process may vote for the Ruling Council, which then governs. Unbonded norals do not get to vote, as they are seen as still being children or outcasts, causing most young norals to seek to complete the bonding ritual or to leave for lands where such a distinction does not matter. The resistance that norals have against mental intrusion gives them a strong sense of morality when it comes to the use of compulsions or domination – be it mental or physical. This leads few to seek the use of such tactics, although those who work as mediators push the envelope by using powers that only read thoughts, arguing that since they are not compelling the subject, it is simply a better way to achieve amicable solutions, while their natural ability to attack the minds of others is viewed as a to be used only in self-defense and never as a means to impose their will.
+      </p>
+      <p><strong>Relations</strong>: The benefits the noral race derive from the erliss make them naturally inclined to seek out new cultures that might grant them improvements to their own. Their natural inclination to understand other cultures and to easily interact with other races has helped them to take on a role of mediator for conflicts, while they try to maintain neutrality. When such attempts are unsuccessful, or when the norals are cast as favoring one side over another, the norals will instead withdraw and allow the other races to resolve matters on their own, even if it results in brutal combat.
+      </p>
+      <p>Among the other races, the norals have the most difficulty working with the psionocratic ophiduan race, for they see the serpentine race’s ruling style as barbarism wrapped in a supposed enlightened form of government. In addition, some cultures, such as dwarves, view the norals’ preference to stay out of conflicts as passively condoning the actions of their enemies, earning enmity on more than one occasion. One area where norals dislike the interactions with other races is in the proclivity of other races to kiss in public. Kissing for the norals is their means to breed more erliss, so they view such public displays as unseemly.
+      </p>
+      <p><strong>Alignment and Religion</strong>: Norals worship a pantheon of deities which reflect the many facets of daily life. While they have the full spectrum of alignments within their society, the general tendency of the race is toward lawful over chaotic, as the structure of the society and the bonding process and the responsibility of breeding the erliss leads most norals to respect the rule of law and the needs for organized social structure.
+      </p>
+      <p><strong>Adventurers</strong>: Norals who adventure are often those seeking the perceived glory of combat heard of from the other cultures they work with, or to rise in the view of society. Worldly experience, especially with other races, is prized within noral society for those seeking leadership roles. Conversely, others might go off on adventures to get away from the structure of noral society.
+      </p>
+      <p><strong>Male Names</strong>: Merixal, Deridal, Codinal, Soletal.
+      </p>
+      <p><strong>Female Names</strong>: Miliac, Antiac, Carinac, Olniac.
+      </p><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><h2 id="mw-toc-heading">Contents</h2><label class="toctogglelabel" for="toctogglecheckbox"></label><ul><li><a href="#Rejecting_the_Dreamscar">1 Rejecting the Dreamscar</a></li><li><a href="#Standard_Racial_Traits">2 Standard Racial Traits</a></li><li><a href="#Racial_Variant">3 Racial Variant</a></li><li><a href="#Alternate_Racial_Traits">4 Alternate Racial Traits</a></li><li><a href="#Favored_Class_Options">5 Favored Class Options</a></li><li><a href="#Archetypes">6 Archetypes</a></li><li><a href="#Notes">7 Notes</a></li></ul>
+      <p>Most every noral bonds with an erliss, gaining all the benefits of the symbiotic link in what is known as the dreamscar. A rare few, however, choose to live a life without ever bonding with an erliss.
+      </p>
+      <p>These norals who live without the bond lose the following racial traits:
+      </p><ul><li>Symbiotic resistance</li><li>Symbiotic surge</li></ul>
+      <ul><li><strong>Ability Score Modifiers</strong>: Norals are resilient in mind and body, but tend to be stocky and clumsy in their movements. They gain +2 Constitution and +2 Wisdom but suffer –2 Dexterity.</li><li><strong>Size</strong>: Norals are Medium creatures and have no bonuses or penalties due to their size.</li><li><strong>Type</strong>: Norals are of the humanoid type with the noral subtype.</li></ul>
+      <ul><li><strong>Symbiotic Resistance</strong>: The symbiotic bond between the noral and the erliss grants all bonded norals a +2 racial bonus on saving throws against disease and mind-affecting effects.</li><li><strong>Symbiotic Surge</strong>: A noral is able to tap into the power of the symbiote to gain a temporary boost. Once per day, a noral can exhaust the symbiote to add 1d6 to a single d20 roll. This decision must be made prior to the result of the roll is determined.</li><li><strong>Noral Psionics</strong>: Norals gain the following psi-like ability: 1/day—<em><a href="/wiki/Mind_thrust" class="mw-redirect" title="Mind thrust">mind thrust</a></em>. The manifester level for this effect is equal to 1/2 the noral’s level (minimum 1st). The DC for this power is equal to 10 + the power’s level + the noral’s Charisma modifier.</li><li><strong>Gift of Tongues</strong>: Norals are naturally skilled at social interactions and understanding other cultures. Norals gain a +1 racial bonus on Bluff and Diplomacy checks, and they learn one additional language every time they put a rank in the Linguistics skill.</li><li><strong>Vision</strong>: Norals have low-light vision (they can see twice as far as humans in conditions of dim light.)</li><li><strong>Naturally Psionic</strong>: Norals gain the <a href="/wiki/Wild_Talent" title="Wild Talent">Wild Talent</a> feat as a bonus feat at 1st level. If a noral takes levels in a psionic class, he instead gains the <a href="/wiki/Psionic_Talent" title="Psionic Talent">Psionic Talent</a> feat.</li><li><strong>Psionic Aptitude</strong>: When a noral takes a level in a favored class, he can choose to gain an additional power point instead of a hit point or skill point.</li><li><strong>Languages</strong>: Norals begin play speaking Common and Noral. Norals with high Intelligence scores can choose can choose any languages they want (except secret languages, such as Druidic).</li></ul>
+      <p><strong>Interfacer (Noral)</strong></p>
+      <p>Interfacers imbue themselves with technological components to augment their combat and perceptive abilities. However, the cybertech imbued within an interfacer is more a partner than a tool, an artificial companion with its own impressions that supports its host using its directive abilities.
+      </p><ul><li>+2 Intelligence, +2 Wisdom, -2 Charisma. Interfacers are conscientious and scholarly, but they are not always the most present or socially aware due to constant communication with their interface. This racial trait replaces the Noral’s usual ability modifiers</li><li>Akashic Entity: Interfacers lose the psionic subtype, but gain the akashic subtype</li><li>Bonus Essence: Interfacers gain an akashic connection as a result of their symbiote, and start play with 1 bonus essence point. This ability replaces naturally psionic and psionic aptitude</li><li>Akashic Surge: The Interfacer may invest essence in his symbiotic surge ability, gaining an additional use per day for each point of essence invested and increasing the bonus for each point of essence invested. This ability replaces noral psionics and modifies symbiotic resistance.</li></ul>
+      <p><strong>Psiborg</strong></p>
+      <p>Beyond the normal cyborgs of the world, there are those who are bred and raised to be masters of cybernetics. With supreme bodies and extremely stable systems that welcome cybertech of all sorts and bring out the best possible function of it, psiborgs are a vision of life that looks towards an immense and potent future.
+      </p><ul><li>+2 Constitution, +2 Intelligence, -2 Wisdom. Psiborgs are durable and calculating, but not particularly aware, relying mostly upon their augmentations to get by. This replaces the noral’s normal ability score modifications.</li></ul>
+      <ul><li>Psibertech Mastery: Choose one piece of psibertech. The psiborg starts life with this piece’s basic augmentation, and treats their level as 1 higher for the purpose of all psibertech and for meeting the prerequisites for psibertech. This ability replaces symbiotic resistance.</li><li>Accepting Body: Psiborgs increase their maximum implantation value by half their character level (minimum 1) and decrease the heal DC for installing cybertech within them by 10. This ability replaces symbiotic surge.</li></ul>
+      <p>The following racial traits replace existing noral racial traits. Consult your GM before selecting any of these new options.
+      </p><ul><li><strong>Empathic Persuasion</strong>: Some norals are skilled at subtle psychic manipulation, despite their fellow norals’ dislike of such. Once per day, the noral may manifest <em><a href="/wiki/Empathic_Connection" title="Empathic Connection">empathic connection</a></em> as a psi-like ability (manifester level equal to 1/2 the noral’s Hit Dice, minimum 1). This replaces noral psionics.</li><li><strong>Feral Erliss</strong>: While a noral bonding with an erliss typically results in improved mental abilities, sometimes it results in the noral taking on more feral aspects. A noral with this trait gains two claw attacks that deal 1d4 points of damage and gains a +2 racial bonus on Survival checks. This replaces gift of tongues and symbiotic resistance.</li><li><strong>Master of Deception</strong>: All norals are skilled at interacting with other races, but some are unusually skilled in subterfuge. A noral with this trait gains a +4 racial bonus on Bluff checks to convince an opponent that what they are saying is true when they tell a lie. In addition, once per day, the noral can roll twice when making a Bluff or Diplomacy check and take the better roll. This replaces noral psionics.</li><li><strong>Resilient Symbiote</strong>: The bonding process with an erliss can sometimes unlock a psionic ability to protect instead of attack. A noral with this trait gains the ability to use <em><a href="/wiki/Vigor" title="Vigor">vigor</a></em> as a psi-like ability once per day (manifester level equal to noral’s character level.) This replaces noral psionics.</li><li><strong>Symbiote Sensitivity</strong>: Some norals have an erliss that can grant the ability to detect nearby psionic activity. A noral with this trait gains <em><a href="/wiki/Detect_psionics" class="mw-redirect" title="Detect psionics">detect psionics</a></em> as a psi-like ability usable at will (manifester level is equal to the noral’s character level). This replaces noral psionics.</li><li><strong>Symbiotic Sentry</strong>: Some erliss take a more passive role in protecting the noral, warning their host when subject to psychic attack. When the noral fails a Save against a mind-affecting effect, he may immediately roll a second Save; if the second Save is successful, he is still affected by the effect, but he is at least aware of a psychic attack and his failure to block it, even if he does not know the exact attack or its consequences (thus, he may take defensive precautions, such as manifesting dispel psionics on himself or casting protection from evil, if possible). Once per day, if the second save is successful the noral may choose to use that result in place of the first roll. This replaces symbiotic resistance and symbiotic surge.</li></ul>
+      <p>The following favored class options are available to all characters of this race who have the listed favored class, and unless otherwise stated, the bonus applies each time you select the favored class reward.
+      <br />• <strong><a href="/wiki/Bard" title="Bard">Bard</a>:</strong> Add 1 to the total number of bardic performance rounds per day. <em>([[]])</em><br />• <strong><a href="/wiki/Cryptic" title="Cryptic">Cryptic</a>:</strong> Add +1/2 to the damage of disrupt pattern. <em>([[]])</em><br />• <strong><a href="/wiki/Dread" title="Dread">Dread</a>:</strong> Add +1/2 to daily use of terrors. <em>([[]])</em><br />• <strong><a href="/wiki/Druid" title="Druid">Druid</a>:</strong> Add +1/2 to Handle Animal and wild empathy checks. <em>([[]])</em><br />• <strong><a href="/wiki/Paladin" title="Paladin">Paladin</a>:</strong> Add +2.5’ to the range of detect evil when focusing on a single target. <em>([[]])</em><br />• <strong><a href="/wiki/Psion" title="Psion">Psion</a>:</strong> Add +1/2 to concentration checks when manifesting psion powers. <em>([[]])</em><br />• <strong><a href="/wiki/Ranger" title="Ranger">Ranger</a>:</strong> Add +1/2 to Bluff, Perception, and Sense Motive checks against one of his favored enemy types. <em>([[]])</em><br />• <strong><a href="/wiki/Rogue" title="Rogue">Rogue</a>:</strong> Add +1/3 to Bluff and Sense Motive checks. <em>([[]])</em><br />• <strong><a href="/wiki/Soulknife" title="Soulknife">Soulknife</a>:</strong> Add +1/2 to psychic strike damage. <em>([[]])</em><br />• <strong><a href="/wiki/Tactician" title="Tactician">Tactician</a>:</strong> Add +1/2 to the maximum number of creatures allowed in the collective. <em>([[]])</em><br />• <strong><a href="/wiki/Vitalist" title="Vitalist">Vitalist</a>:</strong> Add +1/2 to the maximum number of creatures allowed in the collective. <em>([[]])</em></p><table><tr><th>Name
+      </th><th>Archetype of
+      </th><th>System
+      </th><th>Flavor
+      </th><th>Source
+      </th></tr><tr><td><a href="/wiki/Pacifist_(Noral_archetype)" title="Pacifist (Noral archetype)">Pacifist (Noral archetype)</a></td><td><ul><li><a href="/wiki/Vitalist" title="Vitalist">Vitalist</a></li></ul>
+      </td><td><ul><li><a href="/wiki/Psionic_(system)" title="Psionic (system)">Psionic</a></li></ul>
+      </td><td><em>Nothing will turn a confrontation from a disagreement to an outright brawl like someone dying. Pacifists are focused on keeping people alive, softening blows to allow peacekeepers a chance to bring the combatants back to the negotiating table.</em></td><td><em><ul><li><a href="/wiki/Ultimate_Psionics" title="Ultimate Psionics">Ultimate Psionics</a></li><li><a href="/wiki/Psionics_Augmented" title="Psionics Augmented">Psionics Augmented</a></li></ul>
+      </em></td></tr><tr><td><a href="/wiki/Peacekeeper_(Noral_archetype)" title="Peacekeeper (Noral archetype)">Peacekeeper (Noral archetype)</a></td><td><ul><li><a href="/wiki/Psion" title="Psion">Psion</a></li></ul>
+      </td><td><ul><li><a href="/wiki/Psionic_(system)" title="Psionic (system)">Psionic</a></li></ul>
+      </td><td><em>For norals, standing neutral as other races and nations go to war has long been a viable strategy. But over time, war drains resources and affects even neutral parties, so more and more the norals turn to "peacekeeping", seeking to diffuse hostility and end conflicts.</em></td><td><em><ul><li><a href="/wiki/Ultimate_Psionics" title="Ultimate Psionics">Ultimate Psionics</a></li><li><a href="/wiki/Psionics_Augmented" title="Psionics Augmented">Psionics Augmented</a></li></ul>
+      </em></td></tr><tr><td><a href="/wiki/Shadow_Hunter_(Noral_archetype)" title="Shadow Hunter (Noral archetype)">Shadow Hunter (Noral archetype)</a></td><td><ul><li><a href="/wiki/Inquisitor" title="Inquisitor">Inquisitor</a></li></ul>
+      </td><td><ul><li><a href="/wiki/Psionic_(system)" title="Psionic (system)">Psionic</a></li></ul>
+      </td><td><em>When wars erupt, they claim victim after victim, but sometimes the vilest of conflict's participants escape justice for their reprehensible actions against others. The noral shadow hunters work to track these criminals of war down and punish them for their offenses. Some shadow hunters even act proactively, disposing of potential criminals and threats before they have a chance to hurt anyone.</em></td><td><em><ul><li><a href="/wiki/Ultimate_Psionics" title="Ultimate Psionics">Ultimate Psionics</a></li><li><a href="/wiki/Psionics_Augmented" title="Psionics Augmented">Psionics Augmented</a></li></ul>
+      </em></td></tr></table>
+  languages: []
+  links:
+    supplements:
+      - name: Empathic Persuasion
+        uuid: Compendium.pf1-psionics.races.Item.ImT8sLvLzYYSskW6
+      - name: Feral Erliss
+        uuid: Compendium.pf1-psionics.races.Item.W3eyz0rjCKZzkiBa
+      - name: Gift of Tongues
+        uuid: Compendium.pf1-psionics.races.Item.YWogqToS7HvzVO9z
+      - name: Master of Deception
+        uuid: Compendium.pf1-psionics.races.Item.HHydyjYsv9JQQccm
+      - name: Naturally Psionic
+        uuid: Compendium.pf1-psionics.races.Item.HWE1fpTqsvLTGGcB
+      - name: Noral Psionics
+        uuid: Compendium.pf1-psionics.races.Item.fnB7WOMC3Qgai5kT
+      - name: Psionic Aptitude
+        uuid: Compendium.pf1-psionics.races.Item.D28n19hO0XDwKMeu
+      - name: Resilient Symbiote
+        uuid: Compendium.pf1-psionics.races.Item.FehNbV5Zm2ycgGB1
+      - name: Symbiote Sensitivity
+        uuid: Compendium.pf1-psionics.races.Item.29Pc8AsG7di0Lr0B
+      - name: Symbiotic Resistance
+        uuid: Compendium.pf1-psionics.races.Item.SKqrvQrzF2gMuJY4
+      - name: Symbiotic Sentry
+        uuid: Compendium.pf1-psionics.races.Item.cV9LO2WmOWH1U080
+      - name: Symbiotic Surge
+        uuid: Compendium.pf1-psionics.races.Item.GUvnGPawzI77NCF0
+      - name: Vision
+        uuid: Compendium.pf1-psionics.races.Item.dSvsYScOSiyaP903
+type: race

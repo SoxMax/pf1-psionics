@@ -1,0 +1,70 @@
+_id: hHsemenDZUpgfrPZ
+_key: '!items!hHsemenDZUpgfrPZ'
+_raceName: Elan
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    fromRace: Elan
+folder: ebL3IUzrmwwulrRo
+img: icons/environment/people/group.webp
+name: Reconstruction
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: <p>Some elans are more adept at psionically rebuilding bodies than preserving them. These elans may spend 1 or more pp as a swift action to gain Fast Healing 2 for a number of rounds equal to the number of pp spent; this can be used even when unconscious. The elan also gains a +1 bonus to its manifester level when manifesting powers of the Healing subdiscipline. This replaces resistance and resilience.</p>
+  subType: racial
+  traitCategory: alternate
+type: feat

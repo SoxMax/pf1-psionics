@@ -1,0 +1,70 @@
+_id: 9BMgZDVXMiE1PXke
+_key: '!items!9BMgZDVXMiE1PXke'
+_raceName: Forgeborn
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    fromRace: Forgeborn
+folder: O9KvBI3cORYsa45u
+img: icons/environment/people/group.webp
+name: Naturally Psionic
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: <p>Forgeborn gain the <a href="/wiki/Wild_Talent" title="Wild Talent">Wild Talent</a> feat as a bonus feat at 1st level. If a forgeborn takes levels in a psionic class, he instead gains the <a href="/wiki/Psionic_Talent" title="Psionic Talent">Psionic Talent</a> feat.</li></p>
+  subType: racial
+  traitCategory: magical
+type: feat

@@ -1,0 +1,145 @@
+_id: kyuvRCVHDcQPfZCm
+_key: '!items!kyuvRCVHDcQPfZCm'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Forgeborn
+img: icons/environment/people/group.webp
+name: Forgeborn
+system:
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  creatureSubtypes:
+    - forgeborn
+    - half-construct
+    - psionic
+  creatureTypes:
+    - humanoid
+  description:
+    value: |-
+      <p>Believed to have been created centuries ago during a great war between psionic nations, the race of creatures referred to as the forgeborn were left to their own devices within the barren wasteland the war left behind. A hybridization of flesh and minerals, the forgeborn are varied in appearance and form, but were all created by merging psionically-empowered materials with the body of a humanoid to fashion a new creature.
+      </p>
+      <p>The race seeks out humanoids to transform in order to increase their numbers and some say resume the conflict for which they were created. Although little is known about the creation process by non-forgeborn, rumors say that they take those critically wounded in combat and repair their bodies, wiping the new forgeborn's memories and giving new life to the otherwise-fallen. Some darker rumors say that the race has learned not only how to alter the living, but potentially the recently deceased, but there has been little proof of this.
+      </p>
+      <p>Although they may appear as some sort of bizarre construct, the forgeborn are intelligent and capable of thought, emotion, and reasoning. While much of their time is spent working out combat strategies and ways to harness the psionic energy that powers their forms, they are avid students of history.
+      </p>
+      <p>Forgeborn benefit from longer lifespans than the human bodies that most of them were made from, but their inclination for combat means many never actually reach middle age. Among the forgeborn, such a fate is not mourned, for the fallen can sometimes be reclaimed and rebuilt into a new member of the race, resulting in a theology very similar to reincarnation.
+      </p>
+      <p><strong>Physical Description</strong>: Forgeborn are a tall and thick race, and stand a few inches taller than most humans, with their bodies flowing from well-muscled flesh to mineral components and back. The exact nature of the forgeborn's mineral varies between members of the race, from crystal, to steel, to darkwood, or even mithral.
+      </p>
+      <p>All forgeborn have small glowing orbs embedded within their skull and chest, which are the psionic power source that animates their form. Although both male and female versions of forgeborn exist, such distinctions do not matter in forgeborn society, since there is no need for copulation. While most forgeborn come from human bodies, members from other races are not uncommon.
+      </p>
+      <p><strong>Society</strong>: The origins of the forgeborn have led them to have a social structure not unlike an army, where forgeborn tend to cluster based upon role, rather than from a family or tribal structure. While the race tends to prefer combat over negotiations, they are not vicious nor aggressive; they view combat as the best means to victory, rather than as a desired activity. All members of forgeborn society are given a role to benefit the civilization, and skill in that role is what measures a forgeborn's worth among his peers. There is an aesthetic element to some forgeborn, particularly in artwork depicting great battles, so forgeborn artisans are respected within their society.
+      </p>
+      <p><strong>Relations</strong>: Most races are uncomfortable with the unnatural form of the forgeborn, while the forgeborn view other races as inferior due to their reliance on sustenance and rest. Most members of the elan race, however, view the forgeborn as abominations that are a disgusting perversion of the elan transformation process.
+      </p>
+      <p><strong>Alignment and Religion</strong>: Forgeborn view victory as the most important outcome and put no stock in honor. They fight to win, not to be honorable, although they do accept surrender. The structure of command is integral to the proper functioning of an army, so few forgeborn go against the defined chain of command. Most forgeborn are lawful neutral.
+      </p>
+      <p><strong>Adventurers</strong>: Those forgeborn who choose to visit new lands are often seeking to find new potential recruits for the ranks or want to study new combat tactics and the war histories of other nations. With little in the way of familial ties, few forgeborn get homesick, but feel an urge to return to share new information.
+      </p>
+      <p><strong>Names</strong>: Because forgeborn are built from members of other races, the names of forgeborn are varied and do not have common traditional names. Forgeborn names are drawn from any of the cultures around them.
+      </p><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><h2 id="mw-toc-heading">Contents</h2><label class="toctogglelabel" for="toctogglecheckbox"></label><ul><li><a href="#Half-Constructs">1 Half-Constructs</a></li><li><a href="#Forgeborn_Racial_Traits">2 Forgeborn Racial Traits</a><ul><li><a href="#Racial_Variants">2.1 Racial Variants</a><ul><li><a href="#Champion">2.1.1 Champion</a></li><li><a href="#Processor">2.1.2 Processor</a></li></ul>
+      </li><li><a href="#Alternate_Racial_Traits">2.2 Alternate Racial Traits</a><ul><li><a href="#Ultimate_Psionics">2.2.1 Ultimate Psionics</a></li><li><a href="#The_Destroyer's_Handbook">2.2.2 The Destroyer's Handbook</a></li></ul>
+      </li></ul>
+      </li><li><a href="#Favored_Class_Options">3 Favored Class Options</a></li><li><a href="#Archetypes">4 Archetypes</a></li></ul>
+      <p>A half-construct is a group of creatures that are artificially enhanced or have parts replaced by constructed mechanisms, be they magical or mechanical. A half-construct race has the following features.
+      </p><ul><li>Half-constructs gain a +2 racial bonus on saving throws against disease, mind-affecting effects, poison, and effects that cause either exhaustion or fatigue.</li><li>Half-constructs cannot be raised or resurrected.</li><li>Half-constructs do not breathe, eat, or sleep, unless they want to gain some beneficial effect from one of these activities. This means that a half-construct can drink potions to benefit from their effects and can sleep in order to regain spells, but neither of these activities is required for the construct to survive or stay in good health.</li></ul>
+      <ul><li><strong>Ability Score Modifiers</strong>: Forgeborn are strong and have quick minds, but are monstrous in appearance and have difficulty relating to other races. They gain +2 Strength and +2 Intelligence but suffer –4 Charisma.</li><li><strong>Size</strong>: Forgeborn are Medium creatures and have no bonuses or penalties due to their size.</li><li><strong>Type</strong>: Forgeborn are of the humanoid type, with the half-construct and forgeborn subtypes.</li><li><strong>Speed</strong>: Forgeborn have a base speed of 20 feet, but their speed is never modified by armor or encumbrance. They have the slow and steady racial trait.</li><li><strong>Fearless</strong>: Forgeborn gain a +2 bonus to saving throws against fear effects.</li><li><strong>Natural Armor</strong>: Forgeborn are sturdier than other races and gain a +1 natural armor bonus to their AC.</li><li><strong>Source Crystal</strong>: Unlike most half-constructs, forgeborn can be raised and resurrected.</li><li><strong>Naturally Psionic</strong>: Forgeborn gain the <a href="/wiki/Wild_Talent" title="Wild Talent">Wild Talent</a> feat as a bonus feat at 1st level. If a forgeborn takes levels in a psionic class, he instead gains the <a href="/wiki/Psionic_Talent" title="Psionic Talent">Psionic Talent</a> feat.</li><li><strong>Psionic Aptitude</strong>: When a forgeborn takes a level in a favored class, he can choose to gain an additional power point instead of a hit point or skill point.</li><li><strong>Languages</strong>: Forgeborn begin play speaking Common and Forgeborn. Forgeborn with high Intelligence scores can choose from the following: Dwarven, Elven, Maenad, Ophiduan, Xeph. See the Linguistics skill page for more information about these languages.</li></ul>
+      <p>When deciding upon the perfect soldier, it is common for many to look towards inspiration rather than martial skill. Champions are the icons of this philosophy, machine warriors designed to be the ultimate beacon of hope for a force that will remain strong even in truly dire situations. Utilized as performers, guards, and commanders, these Champions are the faces of many a mechanical force.
+      </p><ul><li>+2 Constitution, +2 Charisma, -2 Intelligence. Champions do not have much regarding information programming but compensate for it with their indomitable bodies and spirits. This replaces the forgeborn's normal ability score modifications.</li><li>Incredible Resolve: The Champion's bonuses to saving throws vs. fear, exhaustion, fatigue, and mind-affecting effects increases by 1. This ability replaces natural armor.</li><li>Beacon of Hope: Once per day, a champion may increase all morale bonuses it provides by 1 for a number of rounds equal to its charisma modifier (minimum 1). This ability replaces Naturally Psionic and Psionic Aptitude.</li></ul>
+      <p>To a wise man, a potent scholastic is a valuable tool, more versatile and dangerous than any weapon. Hence, many wealthy individuals enlist the greatest artificers of their realm to create servitors with flawless memories and expert learning capacity, artificial marvels that can always discern what lies around the corner.
+      </p><ul><li>+4 Intelligence, -2 Dexterity, -2 Constitution. Processors are unrivaled in brilliance but were not designed for combat or movement. This replaces the forgeborn's normal ability score modifiers.</li><li>Slow Speed: Processors are not agile or flexible and have a base speed of 20 feet. This ability replaces slow and steady</li><li>Lorekeeper: Processors possess perfect recall and can invoke any sort of information with ease. They treat all knowledge skills as class skills and can take 10 on any intelligence-based skill checks. This ability replaces natural armor.</li></ul>
+      <p>The following racial traits replace existing forgeborn racial traits. Consult your GM before selecting these options.
+      </p><ul><li><strong>Crystal Skin</strong>: Some forgeborn are made from shining crystal, which protects them against rays, but isn't as sturdy as other minerals. A forgeborn with this trait gains a +2 bonus to its AC against ray attacks. In addition, once per day it can deflect one ray as an immediate action. This replaces natural armor.</li><li><strong>Memory Matrix</strong>: There are some forgeborn who are created with an intuitive knack for knowledge or industry. A forgeborn with this trait picks a single Craft, Knowledge, or Profession skill. The forgeborn gains a +2 bonus to this skill and it is always a class skill. This ability replaces fearless.</li><li><strong>Oreheart</strong>: A forgeborn with this trait can be raised and resurrected, but can also be healed by repair effects such as reconstruction as if it were a construct. The forgeborn heals only half as much from healing effects (other than effects which work on constructs, such as fast healing and repair effects) and takes only half damage from negative energy effects. This ability replaces source crystal.</li><li><strong>Psibertech Entity</strong>: Choose one piece of psibertech. The forgeborn starts life with this piece's basic augmentation. This ability replaces fearless.</li><li><strong>Quickened Steps</strong>: Although most forgeborn are steady in their gait, some are designed for speed. Forgeborn with this trait have a speed of 30 ft. This replaces slow and steady and fearless.</li><li><strong>Second Skin</strong>: Not all forgeborn have a natrually tough exterior, but instead are extremely comfortable in armor. A forgeborn with this trait reduces any armor check penalty from armor worn by 1 (to a minimum of 0) and can sleep in medium or heavy metal armor without suffering ill effects from sleeping in armor. This replaces natural armor.</li><li><strong>Strange Mind</strong>: The process of death and rebirth as a forgeborn can sometimes warp the mind of the new forgeborn. A forgeborn with this trait gains a +2 bonus to Will-saves and an additional +2 bonus against illusion spells or effects. This replaces natural armor.</li></ul>
+      <p><strong>Energy Cannon:</strong> A few forgeborn are capable of reconfiguring one of their arms into a barrel-like structure that can produce blasts of energy. Treat this as a basic wand keyed to the <a href="/wiki/Destruction_sphere" title="Destruction sphere">Destruction sphere</a> which cannot be disarmed or destroyed - the forgeborn may use it at any time as long as they have a free hand. The forgeborn (and no other creature) can add additional enchantments to the cannon as if they possessed the <a rel="nofollow" class="external text" href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Craft%20Wand">Craft Wand</a> feat and a caster level equal to their character level. <em>This replaces Naturally Psionic and Psionic Aptitude.</em></p>
+      <p>The following favored class options are available to all characters of this race who have the listed favored class, and unless otherwise stated, the bonus applies each time you select the favored class reward.
+      <br />• <strong><a href="/wiki/Aegis" title="Aegis">Aegis</a>:</strong> Add +1/4 to customization points. <em>([[]])</em><br />• <strong><a href="/wiki/Barbarian" title="Barbarian">Barbarian</a>:</strong> Add 1 to the total number of rage rounds per day. <em>([[]])</em><br />• <strong><a href="/wiki/Cryptic" title="Cryptic">Cryptic</a>:</strong> Add +1/4 to the damage reduction gained from altered defense. <em>([[]])</em><br />• <strong><a href="/wiki/Dread" title="Dread">Dread</a>:</strong> Add +1/2 to Intimidate checks. <em>([[]])</em><br />• <strong><a href="/wiki/Fighter" title="Fighter">Fighter</a>:</strong> Add +1 to CMD against disarm and sunder attempts. <em>([[]])</em><br />• <strong><a href="/wiki/Helmsman" title="Helmsman">Helmsman</a>:</strong> Bonded vessel gains +1 additional hit points. <em>(<a href="/wiki/Arcforge:_Technology_Expanded" title="Arcforge: Technology Expanded">Arcforge: Technology Expanded</a>)</em><br />• <strong><a href="/wiki/Mystic" title="Mystic">Mystic</a>:</strong> Add +1/5 to the mystic's arcane defense bonus. <em>([[]])</em><br />• <strong><a href="/wiki/Paladin" title="Paladin">Paladin</a>:</strong> Add +1 to saves against negative energy effects. <em>([[]])</em><br />• <strong><a href="/wiki/Psychic_Warrior" title="Psychic Warrior">Psychic Warrior</a>:</strong> Add +1/2 to concentration checks when manifesting psychic warrior powers. <em>([[]])</em><br />• <strong><a href="/wiki/Rogue" title="Rogue">Rogue</a>:</strong> Add +1/2 to Disable Device checks. <em>([[]])</em><br />• <strong><a href="/wiki/Soulknife" title="Soulknife">Soulknife</a>:</strong> Add +1/2 to CMB when attempting a disarm or sunder. <em>([[]])</em><br />• <strong><a href="/wiki/Tactician" title="Tactician">Tactician</a>:</strong> Add +1/2 to concentration checks when manifesting tactician powers. <em>([[]])</em><br />• <strong><a href="/wiki/Warder" title="Warder">Warder</a>:</strong> Add +1/4 to the bonus to AC granted by the warder's aegis. <em>([[]])</em><br />• <strong><a href="/wiki/Zealot" title="Zealot">Zealot</a>:</strong> Increase the forgeborn's natural armor bonus by + 1/4. <em>([[]])</em></p><table><tr><th>Name
+      </th><th>Archetype of
+      </th><th>System
+      </th><th>Flavor
+      </th><th>Source
+      </th></tr><tr><td><a href="/wiki/Forgesteed_Rider" title="Forgesteed Rider">Forgesteed Rider</a></td><td><ul><li><a href="/wiki/Cavalier" title="Cavalier">Cavalier</a></li></ul>
+      </td><td><ul><li><a href="/wiki/Psionic_(system)" title="Psionic (system)">Psionic</a></li></ul>
+      </td><td><em>The study of warfare among the forgeborn has lead to the rise of a group of half-flesh, half-construct warriors that ride on the backs of mounts of similar origins.</em></td><td><em><ul><li><a href="/wiki/Ultimate_Psionics" title="Ultimate Psionics">Ultimate Psionics</a></li><li><a href="/wiki/Psionics_Augmented" title="Psionics Augmented">Psionics Augmented</a></li></ul>
+      </em></td></tr><tr><td><a href="/wiki/Unifier_(Forgeborn)" title="Unifier (Forgeborn)">Unifier (Forgeborn)</a></td><td><ul><li><a href="/wiki/Tactician" title="Tactician">Tactician</a></li></ul>
+      </td><td><ul><li><a href="/wiki/Psionic_(system)" title="Psionic (system)">Psionic</a></li></ul>
+      </td><td><em>Amongst the forgeborn, there are those that are reborn on the battlefields, rather than after combat has ended. These unusual forgeborn have an innate understanding and appreciation for the theater of war.</em></td><td><em><ul><li><a href="/wiki/Ultimate_Psionics" title="Ultimate Psionics">Ultimate Psionics</a></li><li><a href="/wiki/Psionics_Augmented" title="Psionics Augmented">Psionics Augmented</a></li></ul>
+      </em></td></tr></table>
+  languages: []
+  links:
+    supplements:
+      - name: Crystal Skin
+        uuid: Compendium.pf1-psionics.races.Item.91D1B4YVHxCvCB6p
+      - name: Fearless
+        uuid: Compendium.pf1-psionics.races.Item.YK68DzZyvldrsXo8
+      - name: Memory Matrix
+        uuid: Compendium.pf1-psionics.races.Item.RdUnt9MikEDEhOJc
+      - name: Natural Armor
+        uuid: Compendium.pf1-psionics.races.Item.PHObA1pT5FuKp9yM
+      - name: Naturally Psionic
+        uuid: Compendium.pf1-psionics.races.Item.9BMgZDVXMiE1PXke
+      - name: Oreheart
+        uuid: Compendium.pf1-psionics.races.Item.TTWRhbgFlhsXJWHl
+      - name: Psibertech Entity
+        uuid: Compendium.pf1-psionics.races.Item.ibWnH3w5GVk08uJy
+      - name: Psionic Aptitude
+        uuid: Compendium.pf1-psionics.races.Item.bgdDw23ouLeQEPRY
+      - name: Quickened Steps
+        uuid: Compendium.pf1-psionics.races.Item.WzOmKKLQ37x2CPe5
+      - name: Second Skin
+        uuid: Compendium.pf1-psionics.races.Item.eSUkX78zCVcLiROT
+      - name: Source Crystal
+        uuid: Compendium.pf1-psionics.races.Item.Pjih0LVG89AJtDPv
+      - name: Strange Mind
+        uuid: Compendium.pf1-psionics.races.Item.xOWyqVlEWGZWwuHB
+type: race

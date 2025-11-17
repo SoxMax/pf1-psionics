@@ -1,0 +1,70 @@
+_id: cdjZZkEjHcKTox0c
+_key: '!items!cdjZZkEjHcKTox0c'
+_raceName: Elan
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    fromRace: Elan
+folder: ebL3IUzrmwwulrRo
+img: icons/environment/people/group.webp
+name: Flawed Creation
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: '<p><em>(Source: Book of Heroic Races: Advanced Compendium)</em> On rare occasions, an elan becomes flawed during the creation ceremony. Though still psionically enhanced, the elan is left marred and imperfect. An elan with this trait shows visible signs of aberrant heritage and suffers a –2 racial penalty to Charisma, but gains a +4 racial bonus to either Strength, Dexterity, or Constitution, chosen at character creation. Common visible signs of this trait include rubbery skin, solid white eyes, crystalline teeth, or an eerie resonance to the elan''s speech. Flawed creations are generally looked upon with mild horror by other elans.</p><p><em>This racial trait replaces the elan''s normal bonus to one ability score.</em></p>'
+  subType: racial
+  traitCategory: alternate
+type: feat

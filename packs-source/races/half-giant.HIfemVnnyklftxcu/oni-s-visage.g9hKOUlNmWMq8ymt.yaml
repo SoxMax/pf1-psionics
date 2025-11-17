@@ -1,0 +1,69 @@
+_id: g9hKOUlNmWMq8ymt
+_key: '!items!g9hKOUlNmWMq8ymt'
+_raceName: Half-giant
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    fromRace: Half-giant
+folder: HIfemVnnyklftxcu
+img: icons/environment/people/group.webp
+name: Oni's Visage
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: <p>The blood of the ogres that torment souls and haunt sacred mountains flows through you. The oni-kin gains the ability to shape the <a href="/wiki/Hannya_Mask_of_the_Oni" title="Hannya Mask of the Oni">Hannya Mask of the Oni</a> veil, removing its [ <a href="/wiki/Polymorph_veil" title="Polymorph veil">polymorph</a> ] descriptor and granting it the [ <a href="/wiki/Fleshwarp_veil" title="Fleshwarp veil">fleshwarp</a> ] descriptor. They are always treated as having this veil shaped, and it does not count against their veils shaped or their veil slots. They use their highest mental ability score as their veilweaving modifier, their character level as their veilweaving level with this veil.</li></p>
+  subType: racial
+type: feat

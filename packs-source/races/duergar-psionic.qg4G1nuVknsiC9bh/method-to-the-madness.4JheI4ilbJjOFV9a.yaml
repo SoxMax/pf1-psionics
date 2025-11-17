@@ -1,0 +1,70 @@
+_id: 4JheI4ilbJjOFV9a
+_key: '!items!4JheI4ilbJjOFV9a'
+_raceName: Duergar (Psionic)
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    fromRace: Duergar (Psionic)
+folder: qg4G1nuVknsiC9bh
+img: icons/environment/people/group.webp
+name: Method to the Madness
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: <p>While you might appear to be mad, there is a mental order to your actions. You gain a +2 racial bonus to Will saves and gain <em><a href="/wiki/Call_to_Mind,_Lanis%27s" title="Call to Mind, Lanis's">call to mind, lanis's</a></em> as a psi-like ability usable once per day with a manifester level equal to your character level.</p><p><em>This trait replaces the Hardy trait.</em></p>
+  subType: racial
+  traitCategory: alternate
+type: feat

@@ -1,0 +1,70 @@
+_id: FehNbV5Zm2ycgGB1
+_key: '!items!FehNbV5Zm2ycgGB1'
+_raceName: Noral
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    fromRace: Noral
+folder: 2XgOcZAsWXwxoDP1
+img: icons/environment/people/group.webp
+name: Resilient Symbiote
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: <p>The bonding process with an erliss can sometimes unlock a psionic ability to protect instead of attack. A noral with this trait gains the ability to use <em><a href="/wiki/Vigor" title="Vigor">vigor</a></em> as a psi-like ability once per day (manifester level equal to noral’s character level.) This replaces noral psionics.</li></p>
+  subType: racial
+  traitCategory: magical
+type: feat

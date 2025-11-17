@@ -1,0 +1,70 @@
+_id: ZeTpZePduCcSjF1s
+_key: '!items!ZeTpZePduCcSjF1s'
+_raceName: Maenad
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    fromRace: Maenad
+folder: ii7AMdHV3VtrOxAI
+img: icons/environment/people/group.webp
+name: Tempestuous Temper
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: <p>Some maenads are less disciplined than their brethren, constantly losing control of their emotions and suffering frequent mood swings. Whenever a maenad with this trait maintains psionic focus (including via such means as Psicrystal Containment), he is treated as Lawful for the purposes of any spells, magic items, etc. that he may be using or that may affect him; whenever he does not have psionic focus, he is treated as Chaotic for such purposes. In addition, the maenad may expend psionic focus as a swift action to gain a +2 bonus to Strength, but suffer a -2 penalty to Intelligence and Wisdom, until the end of his turn. This replaces Outburst and Inner Rage.</p>
+  subType: racial
+  traitCategory: alternate
+type: feat

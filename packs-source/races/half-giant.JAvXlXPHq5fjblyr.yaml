@@ -1,0 +1,140 @@
+_id: JAvXlXPHq5fjblyr
+_key: '!items!JAvXlXPHq5fjblyr'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Half-giant
+img: systems/pf1/icons/races/half-orc.png
+name: Half-giant
+system:
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  creatureSubtypes:
+    - giant
+    - psionic
+  creatureTypes:
+    - humanoid
+  description:
+    value: |-
+      <p>Far back in their ancient history, half-giants were slaves to some form of king. Their stories vary from tribe to tribe, but their former status as slaves is one thread that is common in the lore of every half-giant tribe. As slaves, they fought their oppressors and earned their freedom. As a result, nothing is more important to half-giants than their liberty. They will fight and even kill to stay free, and few things are capable of breaking a half-giants will to live like slavery. Indeed, most half-giants would prefer to commit suicide rather than face incarceration or enslavement. For these reasons, most half-giants tend to be law-abiding and respectful, but they can have a tendency to solve problems by resorting to violence rather than risk being apprehended. Some myths claim that they were spawned from fire giants, while others say that they worked in volcanic forges. Regardless of the truth, half-giants are more resilient to heat, a trait that serves them well in the present, as they have a tendency to dwell in arid lands and deserts.
+      </p>
+      <p><strong>Physical Description:</strong> Standing over eight feet tall, half-giants are the largest of the common races, towering above even half-orcs, with males slightly taller and heavier than females. Their size makes them imposing but slow to react. Their skin ranges from nearly complete black to a deep tan, while their hair is almost always black. Their eyes typically range from blue to green, but a fair number have red eyes, making them stand out against other races. Most half-giants tend to wear little clothing, or very heavy armor, depending on the situation; in a social gathering, their tribal clothing covers very little to account for their tendency to reside in hot lands, and most half-giants are proud of their bodies and physical looks and prowess. In combat, they prefer to wear heavy armor, taking advantage of their natural strength and stature.
+      </p>
+      <p><strong>Society:</strong> Half-giants most commonly organize themselves into nomadic and shifting tribes, following charismatic and wise leaders for brief periods. Many half-giants have a tendency to drift into and out of tribes over time, while a portion of a tribe may split out and start a new tribe, which may later merge with a larger tribe. When enemies gather, empires rise, or war looms, the half-giant tribes might unite under their strongest and wisest leaders, protecting each other from the threat of oppression. In times of peace, they splinter into hundreds of individual tribes, enjoying the freedom they hold so dear. As societies go, the half-giants are generally composed of nomadic hunters, taking down the giant sandworms of the desert or hunting elephants across the savannah and plains. Half-giants enjoy dancing, drinking and games of physical prowess such as wrestling, running, and spear throwing.
+      </p>
+      <p><strong>Relations:</strong> Half-giants appreciate the open nature of humans and half-elves and can sympathize with how half-orcs sometimes feel outside of society. Elves with their slow pace, dwarves and maenads with their rigid societies, and ophiduans with their expansionist behavior generally make the half-giants uncomfortable. Most of the other races are welcomed based on their behavior, although the carelessness of halflings, dromites, and gnomes worry the half-giants, who believe that it will lead to these smaller races being taken advantage of and, therefore, possible subservience and slavery. Half-giants keep duergars at arms length due to the use of slavery.
+      </p>
+      <p><strong>Alignment and Religion:</strong> Worshiping gods relating to freedom, nature, summer, and the hunt, half-giants are devout but very naturalistic. They manifest their worship with totem poles, believing the gods to be pleased with depictions of their power, thus protecting the tribe from evil. Most half-giants tend to be neutral or chaotic good, striving to help both the tribe and others as well as they can, although their belief in following the law to avoid incarceration can result in lawful half-giants. This does not mean that a half-giant wont resort to violence at the slightest sign of evil. Indeed, to most half-giants, jail, incarceration, and slavery are all seen as equally evil and to be fought to the last breath.
+      </p>
+      <p><strong>Adventurers:</strong> Most half-giants are driven into adventuring by wanderlust and a wish to learn more about the world around them. Some are driven by religious conviction, while others understand that they will help their tribe the most by making the world a safer place. Very few adventure to make money, greed is a strange concept to most half-giants.
+      </p>
+      <p><strong>Male Names:</strong> Adoett, Abaque, Amayeta, Chumani, Donama, Maka, Macawi, Nashota, Odakota.
+      </p>
+      <p><strong>Female Names:</strong> Hurit, Huyana, Awentia, Cholena, Kimella, Mika, Nadie, Dabun, Pahana.
+      </p><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><h2 id="mw-toc-heading">Contents</h2><label class="toctogglelabel" for="toctogglecheckbox"></label><ul><li><a href="#Standard_Racial_Traits">1 Standard Racial Traits</a></li><li><a href="#Alternate_Racial_Traits">2 Alternate Racial Traits</a><ul><li><a href="#Oni-kin">2.1 Oni-kin</a></li></ul>
+      </li><li><a href="#Favored_Class_Options">3 Favored Class Options</a></li><li><a href="#Archetypes">4 Archetypes</a></li></ul>
+      <ul><li><strong>Ability Score Modifiers</strong>: +2 Wisdom, +2 Strength, –2 Dexterity: Half-giants are tough and intuitive, but not too nimble.</li><li><strong>Size</strong>: Half-giants are Medium creatures and have no bonuses or penalties due to their size.</li><li><strong>Type</strong>: Half-giants count as both human and humanoid (giant) for any effect related to race.</li><li><strong>Speed</strong>: Half-giants have a base speed of 30 feet.</li><li><strong>Vision</strong>: Half-giants have low-light vision (they can see twice as far as humans in conditions of dim light.)</li><li><strong>Fire Acclimated</strong>: Half-giants receive a +2 racial bonus on saving throws against all fire spells and effects.</li><li><strong>Powerful Build</strong>: The physical stature of half-giants lets them function in many ways as if they were one size category larger. Whenever a half-giant is subject to a size modifier or special size modifier for a Combat Maneuver Bonus or Combat Maneuver Defense (such as during grapple checks, bull rush attempts, and trip attempts), the half-giant is treated as one size larger if doing so is advantageous to him. A half-giant is also considered to be one size larger when determining whether a creatures special attacks based on size (such as grab or swallow whole) can affect him. A half-giant can use weapons designed for a creature one size larger without penalty. However, his space and reach remain those of a creature of his actual size. The benefits of this racial trait stack with the effects of powers, abilities, and spells that change the subject's size category.</li><li><strong>Naturally Psionic</strong>: Half-giants receive <a href="/wiki/Wild_Talent" title="Wild Talent">Wild Talent</a> as a bonus feat at 1st level. If a half-giant takes levels in a psionic class, he instead gains the <a href="/wiki/Psionic_Talent" title="Psionic Talent">Psionic Talent</a> feat.</li><li><strong>Half-Giant Psionics</strong>: Half-giants gain the following spell-like ability: 1/day—<em><a href="/wiki/Stomp" title="Stomp">stomp</a></em>. The manifester level for this effect is equal to 1/2 the half-giants level (minimum 1st). The DC for this power is equal to 10 + the powers level + the half-giants Charisma modifier.</li><li><strong>Psionic Aptitude</strong>: When a half-giant takes a level in a favored class, he can choose to gain an additional power point instead of a hit point or skill point.</li><li><strong>Survivor</strong>: Half-giants gain a +4 racial bonus to Survival checks.</li><li><strong>Languages</strong>: Half-giants begin play speaking Common. Half-giants with high Intelligence scores can choose from the following: Draconic, Giant, Gnoll, and Ignan.</li></ul>
+      <p>The following racial traits replace existing half-giant racial traits. Consult your GM before selecting any of these new options.
+      </p><ul><li><strong>Cold Acclimated</strong>: Although most half-giants reside in desert regions, some have grown toughened against colder extremes. Half-giants with this trait receive a +2 racial bonus on saving throws against all cold spells, powers and effects. <em>This replaces the fire acclimated trait.</em></li><li><strong>Flame of Freedom</strong>: Half-giants have an affinity for heat and fire. Half-giants with this trait gain a +1 racial bonus to their manifester level on powers with the [fire] descriptor. <em>This trait replaces the half-giant psionics trait.</em></li><li><strong>Juggernaut</strong>: Physically imposing, some half-giants are especially gifted at manhandling opponents in combat. Half-giants with this trait gain a +1 racial bonus to their CMB on bull rush, overrun, and trip attempts. <em>This trait replaces the half-giant psionics and survivor traits.</em></li><li><strong>Liberty or Death</strong>: The history of the half-giants speaks of them once being an enslaved race. Some half-giants have a built-in defense against being subjugated against their will. Half-giants with this bonus gain a +2 racial bonus on saving throws against mind-affecting effects. <em>This trait replaces the fire acclimated trait.</em></li><li><strong>Psionic Resonance</strong>: Although considered by the uninformed to be violent and primitive as a race, many half-giants have a natural affinity to handling psionic items. Half-giants with this trait gain a +2 racial bonus to Use Magic Device checks to activate an item or to use a power stone. <em>This trait replaces the survivor trait.</em></li></ul>
+      <p><em>The oni straddle a strange line in folk-tales and songs. In some they are demons, in others spirits, and in some they are the kin of ogres. In all they are seen as beings of vengeance and retribution, whether it be righteous or terrible. Some half-giants carry the blood of these strange beings.</em></p>
+      <p><strong>Oni Blood:</strong> Oni-kin half-giants gain the <a href="/wiki/Akashic_(subtype)" title="Akashic (subtype)">akashic</a> and shapechanger subtypes and the following abilities:
+      </p><ul><li><strong>Oni's Visage:</strong> The blood of the ogres that torment souls and haunt sacred mountains flows through you. The oni-kin gains the ability to shape the <a href="/wiki/Hannya_Mask_of_the_Oni" title="Hannya Mask of the Oni">Hannya Mask of the Oni</a> veil, removing its [ <a href="/wiki/Polymorph_veil" title="Polymorph veil">polymorph</a> ] descriptor and granting it the [ <a href="/wiki/Fleshwarp_veil" title="Fleshwarp veil">fleshwarp</a> ] descriptor. They are always treated as having this veil shaped, and it does not count against their veils shaped or their veil slots. They use their highest mental ability score as their veilweaving modifier, their character level as their veilweaving level with this veil.</li><li><strong>Bonus Essence:</strong> These half-giants have a natural connection to akashic energy and start play with 1 bonus essence point in their pool.</li></ul>
+      <p><em>This replaces the half-giant's Vision, Fire Acclimated, Naturally Psionic, and Half-Giant Psionics racial traits.</em></p>
+      <p>The following favored class options are available to all characters of this race who have the listed favored class, and unless otherwise stated, the bonus applies each time you select the favored class reward.
+      <br />• <strong><a href="/wiki/Aegis" title="Aegis">Aegis</a>:</strong> Add +1 to the aegiss CMD when resisting a bull rush or grapple. <em>([[]])</em><br />• <strong><a href="/wiki/Barbarian" title="Barbarian">Barbarian</a>:</strong> Add 1 to the half giants total number of rage rounds per day. <em>([[]])</em><br />• <strong><a href="/wiki/Cryptic" title="Cryptic">Cryptic</a>:</strong> Add +1 to the cryptics CMD when resisting a grapple or trip. <em>([[]])</em><br />• <strong><a href="/wiki/Gestrati" title="Gestrati">Gestrati</a>:</strong> Add +1/2 to Intimidate and Sense Motive checks. <em>(<a href="/wiki/Hybrid_Class:_Gestrati" title="Hybrid Class: Gestrati">Hybrid Class: Gestrati</a>)</em><br />• <strong><a href="/wiki/Medic" title="Medic">Medic</a>:</strong> Half-giant medics are quick to react to any danger to their friends or allies, often rushing headlong into danger to protect their companions. Gain +1/4 dodge bonus to AC when moving through threatened squares while using triage. <em>([[</em><a href="/wiki/Divergent_Paths:_Medic" title="Divergent Paths: Medic">Divergent Paths: Medic</a><em>]])</em><br />• <strong><a href="/wiki/Paladin" title="Paladin">Paladin</a>:</strong> Add +1/2 to the paladins smite evil damage rolls. <em>([[]])</em><br />• <strong><a href="/wiki/Psychic_Warrior" title="Psychic Warrior">Psychic Warrior</a>:</strong> Add +1/2 to the psychic warriors manifester level when manifesting a path power. <em>([[]])</em><br />• <strong><a href="/wiki/Sorcerer" title="Sorcerer">Sorcerer</a>:</strong> Add +1/2 to fire spell damage. <em>([[]])</em><br />• <strong><a href="/wiki/Soulknife" title="Soulknife">Soulknife</a>:</strong> Add +1/2 to the soulknifes CMB when attempting a sunder or overrun. <em>([[]])</em><br />• <strong><a href="/wiki/Vitalist" title="Vitalist">Vitalist</a>:</strong> Add +1/2 to the half-giants Heal checks. <em>([[]])</em><br />• <strong><a href="/wiki/Warder" title="Warder">Warder</a>:</strong> Add +1/5 to the number of uses per day of the warders extended defense ability. <em>([[]])</em><br />• <strong><a href="/wiki/Warlord" title="Warlord">Warlord</a>:</strong> Add +1/4 of a maneuver known from the <a href="/wiki/Golden_Lion" title="Golden Lion">Golden Lion</a> or <a href="/wiki/Primal_Fury" title="Primal Fury">Primal Fury</a> disciplines <em>([[]])</em><br />• <strong><a href="/wiki/Wilder" title="Wilder">Wilder</a>:</strong> The wilder gains 1 psionic talent. <em>([[]])</em><br />• <strong><a href="/wiki/Zealot" title="Zealot">Zealot</a>:</strong> Gain 1/4 of a new zealot conviction. <em>([[]])</em></p><table><tr><th>Name
+      </th><th>Archetype of
+      </th><th>System
+      </th><th>Flavor
+      </th><th>Source
+      </th></tr><tr><td><a href="/wiki/Kinslayer" title="Kinslayer">Kinslayer</a></td><td><ul><li><a href="/wiki/Ranger" title="Ranger">Ranger</a></li></ul>
+      </td><td><ul><li><a href="/wiki/Psionic_(system)" title="Psionic (system)">Psionic</a></li></ul>
+      </td><td><em>In their distant past, half-giants were made from human and giant stock. In the centuries since, they have become a culture unto themselves, yet some among them view their giant heritage as an affront to their civilized nature. These half-giants see their giant cousins as savages who must be eliminated for the greater good.</em></td><td><em><ul><li><a href="/wiki/Ultimate_Psionics" title="Ultimate Psionics">Ultimate Psionics</a></li><li><a href="/wiki/Psionics_Augmented" title="Psionics Augmented">Psionics Augmented</a></li></ul>
+      </em></td></tr><tr><td><a href="/wiki/Thunderjarl" title="Thunderjarl">Thunderjarl</a></td><td><ul><li><a href="/wiki/Psychic_Warrior" title="Psychic Warrior">Psychic Warrior</a></li></ul>
+      </td><td><ul><li><a href="/wiki/Psionic_(system)" title="Psionic (system)">Psionic</a></li></ul>
+      </td><td><em>None are as respected amongst the half-giants as is the thunderjarl, for it is said that he holds the thunder of the storm in his hand. Few can withstand his terrifying wrath, which summons the rumble and crack of thunder, striking down his enemies and laying them bare before him.</em></td><td><em><ul><li><a href="/wiki/Psionics_Augmented" title="Psionics Augmented">Psionics Augmented</a></li><li><a href="/wiki/Ultimate_Psionics" title="Ultimate Psionics">Ultimate Psionics</a></li></ul>
+      </em></td></tr><tr><td><a href="/wiki/Warhulk" title="Warhulk">Warhulk</a></td><td><ul><li><a href="/wiki/Aegis" title="Aegis">Aegis</a></li></ul>
+      </td><td><ul><li><a href="/wiki/Psionic_(system)" title="Psionic (system)">Psionic</a></li></ul>
+      </td><td><em>With their naturally imposing physique and strength, many half-giants accept the role of being a powerhouse that uses size and muscle to obliterate enemies, adding the defensive properties of the astral suit to further augment their inborn abilities.</em></td><td><em><ul><li><a href="/wiki/Ultimate_Psionics" title="Ultimate Psionics">Ultimate Psionics</a></li><li><a href="/wiki/Psionics_Augmented" title="Psionics Augmented">Psionics Augmented</a></li></ul>
+      </em></td></tr></table>
+  languages: []
+  links:
+    supplements:
+      - name: Bonus Essence
+        uuid: Compendium.pf1-psionics.races.Item.cmkS8V3ftjBfVBQu
+      - name: Cold Acclimated
+        uuid: Compendium.pf1-psionics.races.Item.nanU835UowPJx9UR
+      - name: Fire Acclimated
+        uuid: Compendium.pf1-psionics.races.Item.NJ1mRosicT8NMQSX
+      - name: Flame of Freedom
+        uuid: Compendium.pf1-psionics.races.Item.s9dIHOCX4I3PXejc
+      - name: Half-Giant Psionics
+        uuid: Compendium.pf1-psionics.races.Item.2h7bSUM1EBM1itkA
+      - name: Juggernaut
+        uuid: Compendium.pf1-psionics.races.Item.YBWZfKphfl8Mqfvs
+      - name: Liberty or Death
+        uuid: Compendium.pf1-psionics.races.Item.iZ0BlHpTHgPa9OgS
+      - name: Naturally Psionic
+        uuid: Compendium.pf1-psionics.races.Item.2EgtzLPWuAMqGvGD
+      - name: Oni's Visage
+        uuid: Compendium.pf1-psionics.races.Item.g9hKOUlNmWMq8ymt
+      - name: Powerful Build
+        uuid: Compendium.pf1-psionics.races.Item.eK5SQFqhejGgYPkb
+      - name: Psionic Aptitude
+        uuid: Compendium.pf1-psionics.races.Item.mjvunfpCXzzj9RGB
+      - name: Psionic Resonance
+        uuid: Compendium.pf1-psionics.races.Item.ERhLW7xx14YN8zor
+      - name: Survivor
+        uuid: Compendium.pf1-psionics.races.Item.emLOdMcm0Gjnp9HU
+      - name: Vision
+        uuid: Compendium.pf1-psionics.races.Item.SIVfMz6yRTFptMhG
+type: race

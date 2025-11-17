@@ -1,0 +1,147 @@
+_id: EW72ej4tfc0Ilw3X
+_key: '!items!EW72ej4tfc0Ilw3X'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Maenad
+img: icons/magic/perception/silhouette-profile-purple.webp
+name: Maenad
+system:
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  creatureSubtypes:
+    - human
+    - psionic
+  creatureTypes:
+    - humanoid
+  description:
+    value: |-
+      <p>A primarily sea-faring race, maenads are a dichotomy. To outsiders, they appear to be extremely reserved, yet they are rumored to be exceptionally emotional. Both sides are actually true. As a race, maenads must maintain control over their internal emotional turmoil, except when they unleash these bottled-up emotions in powerful displays. Born with raging emotions that threaten to tear their psyche apart unless properly controlled, maenads do not know why they have these powerful emotions warring within them. Their legends speak of being wronged by an ancient deity that the maenads revolted against and overthrew, resulting in the emotional curse they maintain to date. Maenads have a proclivity to martial studies, as it gives an outlet for their bottled emotions.
+      </p>
+      <p><strong>Physical Description:</strong> Standing slightly taller than humans, roughly shoulder to shoulder with half-orcs, maenads are physically impressive. Male maenads are usually equal in height, but slightly heavier than females. They have thick, dark hair on their heads, but lack any other hair on their body; instead their skin is covered in flecks of sparkling crystals, giving them a peculiar sparkle. The coloration of these crystals define the look for each individual maenad, ranging from pale white to jet black, and many believe that the coloration is determined by their most powerful emotion. Maenads are naturally graceful and have fine features, possessing an elf-like beauty. They prefer heavier clothing, and wear armor if available, but tend to go barefoot, especially when aboard a ship.
+      </p>
+      <p><strong>Society:</strong> As a primarily sea-faring race, maenads tend to live either in coastal regions, or on islands and archipelagos. The nature of the ocean tends to soothe the internal turmoil of the maenad mind, for the calm waters that can turn to a deadly tidal wave are something to which a maenad can relate. As a result, much of maenad society revolves around the ocean: fishing, sailing, and swimming are the main activities of a maenad society. Most maenad villages tend to be no larger than a few hundred residents. Many maenads turn to tradition and ritual as ways to control their emotions. In some villages, this ritualization can take over, where every aspect of life is defined by a ritual that must be followed, although this sort of extreme situation is uncommon among the race as a whole.
+      </p>
+      <p><strong>Relations:</strong> Maenads are typically distant towards other races, although they are most comfortable with humans, who have various temperaments that are not very different from their own. The open emotions of halflings, gnomes, and xephs confuse maenads, who have a hard time understanding living in such a capricious and carefree fashion. Elven society flows at a good pace for most maenads, and the lightness of being soothes a maenad’s spirit. While the dwarves are often civilized, their brazen ways, physical tendencies, and love of drink tend to be off-putting for maenaeds, although they respect the dwarves‘ ability to hold a grudge. Maenads view the violent dispositions of half-orcs and half-giantsas a good excuse to channel their emotions in combat, but recognize that they should partake in such events sparingly.
+      </p>
+      <p><strong>Alignment and Religion:</strong> Maenads prefer to worship gods of dichotomy to represent the dual nature of the maenads’ emotion. Most maenads are lawful, seeing the structure of rules as helpful toward maintaining composure and self-control. Generally, they seek to help others also maintain their own self-control, and have a tendency toward good alignment as a result.
+      </p>
+      <p><strong>Male Names:</strong> Adrian, Idonas, Alyx, Kristobal, Dymien, Dannis, Mixamis, Philisophos.
+      </p>
+      <p><strong>Female Names:</strong> Alyxia, Dayanara, Dimiris, Kaia, Kalli, Kyte, Mylissa, Panalope.
+      </p><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><h2 id="mw-toc-heading">Contents</h2><label class="toctogglelabel" for="toctogglecheckbox"></label><ul><li><a href="#Maenad_Racial_Traits">1 Maenad Racial Traits</a><ul><li><a href="#Alternate_Racial_Traits">1.1 Alternate Racial Traits</a><ul><li><a href="#Ultimate_Psionics">1.1.1 Ultimate Psionics</a></li><li><a href="#The_Destroyer's_Handbook">1.1.2 The Destroyer's Handbook</a></li></ul>
+      </li></ul>
+      </li><li><a href="#Favored_Class_Options">2 Favored Class Options</a></li><li><a href="#Archetypes">3 Archetypes</a></li></ul>
+      <ul><li><strong>Ability Score Modifiers</strong>: Maenads gain a +2 bonus to one ability score chosen at creation, to represent their varied nature.</li><li><strong>Size</strong>: Maenads are Medium creatures and have no bonuses or penalties due to their size.</li><li><strong>Type</strong>: Maenad are of the humanoid (human) subtype.</li><li><strong>Speed</strong>: Maenads have a base speed of 30 feet.</li><li><strong>Naturally Psionic</strong>: Maenads gain the <a href="/wiki/Wild_Talent" title="Wild Talent">Wild Talent</a> feat as a bonus feat at 1st level. If a maenad takes levels in a psionic class, he instead gains the <a href="/wiki/Psionic_Talent" title="Psionic Talent">Psionic Talent</a> feat.</li><li><strong>Maenad Psionics</strong>: Maenad gain the following psi-like ability. 1/day—<em><a href="/wiki/Energy_ray" class="mw-redirect" title="Energy ray">energy ray</a></em>. A maenad can deal only sonic damage with this ability. It is accompanied by a tremendous scream of rage. The manifester level is equal to 1/2 Hit Dice (minimum 1st). The DC for this power is equal to 10 + the power’s level + the maenad’s Charisma modifier.</li><li><strong>Sonic Affinity</strong>: Maenads add a +1 to the DC of any spell or power with the sonic descriptor.</li><li><strong>Outburst</strong>: Maenads can dampen their mental processes for an increase in raw power called an outburst. As a result, they take a -2 penalty to Intelligence and Wisdom but gain a +2 bonus to Strength. The character must spend one power point at the beginning of each round during an outburst and may stop an outburst at any time.</li><li><strong>Inner Rage</strong>: Maenads are able to rage one additional round per day should they have the rage ability and they gain an additional round per day every odd character level. In addition to using these rounds for rage, maenads may use them to fuel their outburst, instead of power points.</li><li><strong>Ordered Rage</strong>: Maenads may take levels in the barbarian class even if they are of the lawful alignment.</li><li><strong>Natural Sailors</strong>: Maenads have a +2 bonus to Swim and Profession(sailor) checks. In addition, they gain a +2 bonus to Acrobatics and Climb checks made on sailing ships.</li><li><strong>Weapon Familiarity</strong>: Maenads are proficient with flails. Maenads treat any weapon with the word “maenad” in the name as a martial weapon rather than an exotic one.</li><li><strong>Psionic Aptitude</strong>: When a maenad takes a level in a favored class, he can choose to gain an additional power point instead of a hit point or skill point.</li><li><strong>Languages</strong>: Maenads begin play speaking Common and Maenad. Maenads with high Intelligence scores can choose can choose from the following: Aquan, Draconic, Dwarven, Elven, and Goblin.</li></ul>
+      <p>The following racial traits replace existing maenad racial traits. Consult your GM before selecting any of these new options.
+      </p>
+      <p><strong>Born to Lead</strong>: As a seafaring race, some maenads seem to be bred to be a captain or admiral. Maenads with this trait gain a +2 racial bonus to Diplomacy and Knowledge (Nobility) checks. In addition, he gains proficiency with the rapier and whip, weapons used by the leaders of the maenad fleets. This trait replaces the Natural Sailor, Sonic Affinity, and Weapon Familiarity traits.
+      </p>
+      <p><strong>Crystal Resonance</strong>: Some maenads are able to arrange the crystals embedded in their skin to form resonating frameworks for their psionic circuits. A maenad with this trait gains a +1 racial bonus to the effective manifester level of any psionic tattoo he activates. He may also apply the bonus from Sonic Affinity to any psionic tattoo he uses which has the Sonic descriptor. This trait replaces the Maenad Psionics trait.
+      </p>
+      <p><strong>Crystallized Skin</strong>: There are the rare maenads who have skin where the crystalline flecks are more advanced than others of their race. A maenad with this trait gains a +1 natural armor bonus to his Armor Class. This trait replaces the Outburst trait.
+      </p>
+      <p><strong>Shore-Bound</strong>: While most maenads are natural sailors, some maenads are more at ease on solid ground. Maenads with this trait gain a +2 bonus to Acrobatics checks as long as he is standing on the ground. This ability replaces Natural Sailor.
+      </p>
+      <p><strong>Tempestuous Temper</strong>: Some maenads are less disciplined than their brethren, constantly losing control of their emotions and suffering frequent mood swings. Whenever a maenad with this trait maintains psionic focus (including via such means as Psicrystal Containment), he is treated as Lawful for the purposes of any spells, magic items, etc. that he may be using or that may affect him; whenever he does not have psionic focus, he is treated as Chaotic for such purposes. In addition, the maenad may expend psionic focus as a swift action to gain a +2 bonus to Strength, but suffer a -2 penalty to Intelligence and Wisdom, until the end of his turn. This replaces Outburst and Inner Rage.
+      </p>
+      <p><strong>Sonic Boom:</strong> Not all maenads carry a natural affinity for psionics; some are instead gifted in sphere magic. They gain <a href="/wiki/Basic_Magic_Training" title="Basic Magic Training">Basic Magic Training</a> in the <a href="/wiki/Destruction_sphere" title="Destruction sphere">Destruction sphere</a> as a bonus feat at 1st level with the <a href="/wiki/Destruction_sphere#Energy_Focus" title="Destruction sphere">Energy Focus</a> drawback for a blast type with the sonic descriptor, receiving a bonus talent as normal. <em>This replaces Maenad Psionics and Naturally Psionic.</em></p>
+      <p><strong>Spell Rage:</strong> Sphere-casting Maenads have learned to fuel their outbursts differently. The maenad may spend a spell point as a free action to begin an outburst, as a result, they take a -2 penalty to Intelligence and Wisdom but gain a +2 bonus to Strength. This bonus lasts for a number of rounds equal to the maenad’s HD and may be ended as a free action. If possessing the rage ability, they gain an additional round of rage each odd level and may instead spend a round of rage to gain these benefits for one round. <em>This replaces Outburst and Inner Rage</em></p>
+      <p>The following favored class options are available to all characters of this race who have the listed favored class, and unless otherwise stated, the bonus applies each time you select the favored class reward.
+      <br />• <strong><a href="/wiki/Ardent" title="Ardent">Ardent</a>:</strong> Gain a +1/3 bonus on critical hit confirmation rolls made while maintaining psionic focus (maximum bonus of +5). This bonus does not stack with those gained through Critical Focus and similar effects. <em>(<a href="/wiki/Name%27s_Games_December_2023" title="Name's Games December 2023">Name's Games December 2023</a>)</em><br />• <strong><a href="/wiki/Barbarian" title="Barbarian">Barbarian</a>:</strong> Add 1 to the maenad’s total number of rage rounds per day. <em>([[]])</em><br />• <strong><a href="/wiki/Bard" title="Bard">Bard</a>:</strong> Add 1 to the maenad’s total number of bardic performance rounds per day. <em>([[]])</em><br />• <strong><a href="/wiki/Cryptic" title="Cryptic">Cryptic</a>:</strong> Add +1 ft. to the range of the cryptic’s disrupt patternability. <em>([[]])</em><br />• <strong><a href="/wiki/Fighter" title="Fighter">Fighter</a>:</strong> Add +1/3 to the maenad’s saving throws against powers with the sonic descriptor. <em>([[]])</em><br />• <strong><a href="/wiki/Harbinger" title="Harbinger">Harbinger</a>:</strong> Gain a +1/4 bonus on damage rolls when using strikes from the harbinger’s dark focus disciplines. <em>([[]])</em><br />• <strong><a href="/wiki/Helmsman" title="Helmsman">Helmsman</a>:</strong> Increase the bonuses from natural sailor by +1/2. <em>(<a href="/wiki/Arcforge:_Technology_Expanded" title="Arcforge: Technology Expanded">Arcforge: Technology Expanded</a>)</em><br />• <strong><a href="/wiki/Highlord" title="Highlord">Highlord</a>:</strong> The highlord gains a +1/2 on damage rolls against members of his collective. <em>(<a href="/wiki/Psionics_Augmented:_Highlord" title="Psionics Augmented: Highlord">Psionics Augmented: Highlord</a>)</em><br />• <strong><a href="/wiki/Medic" title="Medic">Medic</a>:</strong> Maenad medics are used to dealing with difficult to restrain patients and often have to resort to extreme measures to ensure they can administer proper treatment. Gain +1/3 of a new maneuver known from the <a href="/wiki/Broken_Blade" title="Broken Blade">Broken Blade</a> or <a href="/wiki/Sleeping_Goddess" title="Sleeping Goddess">Sleeping Goddess</a> disciplines. <em>(<a href="/wiki/Divergent_Paths:_Medic" title="Divergent Paths: Medic">Divergent Paths: Medic</a>)</em><br />• <strong><a href="/wiki/Mystic" title="Mystic">Mystic</a>:</strong> Add +1/4 of a maneuver known from the <a href="/wiki/Elemental_Flux" title="Elemental Flux">Elemental Flux</a> or <a href="/wiki/Mithral_Current" title="Mithral Current">Mithral Current</a> discipline. <em>([[]])</em><br />• <strong><a href="/wiki/Rajah" title="Rajah">Rajah</a>:</strong> Raise the essence capacity of your ‘The Stormbringer’ title by 1/5. <em>([[]])</em><br />• <strong><a href="/wiki/Soulknife" title="Soulknife">Soulknife</a>:</strong> Add +1 to the soulknife’s CMD against disarm or trip attempts. <em>([[]])</em><br />• <strong><a href="/wiki/Voyager" title="Voyager">Voyager</a>:</strong> The voyager deals +1/2 additional sonic damage on attacks when she gains bonus damage from momentum. The maximum bonus this ability can grant to a given attack is equal to the amount of momentum consumed by that attack. <em>(<a href="/wiki/Psionics_Augmented:_Voyager" title="Psionics Augmented: Voyager">Psionics Augmented: Voyager</a>)</em><br />• <strong><a href="/wiki/Warder" title="Warder">Warder</a>:</strong> Gain a +1/4 bonus on damage rolls when making attacks of opportunity while using the warder’s defensive focus. <em>([[]])</em><br />• <strong><a href="/wiki/Warlord" title="Warlord">Warlord</a>:</strong> Gain 1/5 of a new combat feat. <em>([[]])</em><br />• <strong><a href="/wiki/Wilder" title="Wilder">Wilder</a>:</strong> Add +1/4 round to the duration of the wilder’s surging euphoria. <em>([[]])</em><br />• <strong><a href="/wiki/Zealot" title="Zealot">Zealot</a>:</strong> Add +1/4 of a maneuver known from the <a href="/wiki/Elemental_Flux" title="Elemental Flux">Elemental Flux</a> or <a href="/wiki/Sleeping_Goddess" title="Sleeping Goddess">Sleeping Goddess</a> disciplines. <em>([[]])</em></p><table><tr><th>Name
+      </th><th>Archetype of
+      </th><th>System
+      </th><th>Flavor
+      </th><th>Source
+      </th></tr><tr><td><a href="/wiki/Banshee" title="Banshee">Banshee</a></td><td><ul><li><a href="/wiki/Wilder" title="Wilder">Wilder</a></li></ul>
+      </td><td><ul><li><a href="/wiki/Psionic_(system)" title="Psionic (system)">Psionic</a></li></ul>
+      </td><td><em>Where most maenads learn to internalize their raging emotions, there are those that master it another way, expressing it through a terrible wail that brings people to their knees and breaks the sturdiest wood. Banshees are dangerous individuals, capable of melding their racial abilities with the emotional tide of the wilder.</em></td><td><em><ul><li><a href="/wiki/Ultimate_Psionics" title="Ultimate Psionics">Ultimate Psionics</a></li><li><a href="/wiki/Psionics_Augmented" title="Psionics Augmented">Psionics Augmented</a></li></ul>
+      </em></td></tr><tr><td><a href="/wiki/Disciple_of_the_Raging_Sea" title="Disciple of the Raging Sea">Disciple of the Raging Sea</a></td><td><ul><li><a href="/wiki/Monk" title="Monk">Monk</a></li></ul>
+      </td><td><ul><li><a href="/wiki/Psionic_(system)" title="Psionic (system)">Psionic</a></li></ul>
+      </td><td><em>Every maenad learns to control their emotions, only allowing their inner rage to spill forth in controlled outbursts, but for the disciple of the raging sea, their intense meditations and discipline also allows them to unleash a terrifying rage when needed.</em></td><td><em><ul><li><a href="/wiki/Ultimate_Psionics" title="Ultimate Psionics">Ultimate Psionics</a></li><li><a href="/wiki/Psionics_Augmented" title="Psionics Augmented">Psionics Augmented</a></li></ul>
+      </em></td></tr><tr><td><a href="/wiki/Reaving_Raider" title="Reaving Raider">Reaving Raider</a></td><td><ul><li><a href="/wiki/Rogue" title="Rogue">Rogue</a></li></ul>
+      </td><td><ul><li><a href="/wiki/Psionic_(system)" title="Psionic (system)">Psionic</a></li></ul>
+      </td><td><em>Some maenads choose the life of the pirate over that of more reputable work. These reavers are known for taking enemies hostage for ransom, boarding enemy vessels by using their racial ability to knock enemies away from the ship's edge, and doing it all while wearing heavier armor than one would expect of a pirate.</em></td><td><em><ul><li><a href="/wiki/Ultimate_Psionics" title="Ultimate Psionics">Ultimate Psionics</a></li><li><a href="/wiki/Psionics_Augmented" title="Psionics Augmented">Psionics Augmented</a></li></ul>
+      </em></td></tr></table>
+  languages: []
+  links:
+    supplements:
+      - name: Born to Lead
+        uuid: Compendium.pf1-psionics.races.Item.rSDrGgta6kVZGsae
+      - name: Crystal Resonance
+        uuid: Compendium.pf1-psionics.races.Item.vArAmY7IUSFMSRJl
+      - name: Crystallized Skin
+        uuid: Compendium.pf1-psionics.races.Item.vp9gnReDrXQcOZNv
+      - name: Inner Rage
+        uuid: Compendium.pf1-psionics.races.Item.F1mFsMbjP7qCZ6aJ
+      - name: Maenad Psionics
+        uuid: Compendium.pf1-psionics.races.Item.83D0zVSLIUov8zP2
+      - name: Natural Sailors
+        uuid: Compendium.pf1-psionics.races.Item.kwuduWW5kiki7Ims
+      - name: Naturally Psionic
+        uuid: Compendium.pf1-psionics.races.Item.UMoSrdSujTobhqt1
+      - name: Ordered Rage
+        uuid: Compendium.pf1-psionics.races.Item.bCPyAnuBwvqm4kQD
+      - name: Outburst
+        uuid: Compendium.pf1-psionics.races.Item.kVKw7BC58EsAuYBN
+      - name: Psionic Aptitude
+        uuid: Compendium.pf1-psionics.races.Item.9hXskdnj9ZTfV4FU
+      - name: Shore-Bound
+        uuid: Compendium.pf1-psionics.races.Item.97jeEt4qDwOhcxyH
+      - name: Sonic Affinity
+        uuid: Compendium.pf1-psionics.races.Item.Kv4qfPJ3J1ygEg8E
+      - name: Tempestuous Temper
+        uuid: Compendium.pf1-psionics.races.Item.ZeTpZePduCcSjF1s
+      - name: Weapon Familiarity
+        uuid: Compendium.pf1-psionics.races.Item.iuvtxCfQDh9NCrko
+type: race

@@ -1,0 +1,70 @@
+_id: fnB7WOMC3Qgai5kT
+_key: '!items!fnB7WOMC3Qgai5kT'
+_raceName: Noral
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    fromRace: Noral
+folder: 2XgOcZAsWXwxoDP1
+img: icons/environment/people/group.webp
+name: Noral Psionics
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: '<p>Norals gain the following psi-like ability: 1/day—<em><a href="/wiki/Mind_thrust" class="mw-redirect" title="Mind thrust">mind thrust</a></em>. The manifester level for this effect is equal to 1/2 the noral’s level (minimum 1st). The DC for this power is equal to 10 + the power’s level + the noral’s Charisma modifier.</li></p>'
+  subType: racial
+  traitCategory: magical
+type: feat

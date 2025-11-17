@@ -1,0 +1,109 @@
+_id: nGfTDYLBkvR5ng86
+_key: '!items!nGfTDYLBkvR5ng86'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Xeph
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+name: Xeph
+system:
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  creatureSubtypes:
+    - xeph
+    - psionic
+  creatureTypes:
+    - humanoid
+  description:
+    value: |-
+      <p>Known for their fleetness of foot and natural agility, xephs have a quick wit and the ability to find humor in nearly anything. This disposition can result in others viewing them as carefree or whimsical, but in truth, there is a deep philosophy behind their world view. To a xeph, the world is what you perceive, and their preference is to perceive it in a fun or humorous way, rather than as a morose place. Xephs are known for creating pieces of art of subtle beauty, and their racial homeland is said to be a great rift in the ground, where forests grow and the xephs thrive, using their ability to generate intense bursts of speed to travel the world.
+      </p>
+      <p><strong>Physical Description:</strong> Standing about a hand shorter than a standard human, with males typically taller and heavier than females, xephs have deep olive or brown skin and pupil-less, amber-yellow eyes. While some find their lack of pupils unnerving, there is something about their attitude and world view that win over most people if given the opportunity. Most xephs prefer to fashion their dark black hair into a long braid. Xeph facial features have a tendency to be more angular and elongated than other humanoids, which along with their eyes, gives them a distinct look.
+      </p>
+      <p><strong>Society:</strong> The xephs tend toward creating tightly-knit societies, often small in size and unassuming. When a xeph doesn’t feel at home, they are encouraged to find their ‘home of the heart’ in the wider world, or helped to integrate better with the village. Most xeph societies tend to be ruled by community consensus and on giving the xeph time to define their own life and world. Many find joy in the simplest of manual labors, often preferring to shy away from more advanced tools, loving what they see as a more in-touch experience. Craftsmen extraordinaire, the xephs enjoy creating, preferably with others, which means that their crafts are often sought by traders and merchants, providing the villages with sufficient resources that cannot be easily found or created by the xephs.
+      </p>
+      <p><strong>Relations:</strong> Xephs tend to get along better with humans, gnomes, and halflings, much because they tend to share a positive outlook on the world. They share a love of artwork and craftsmanship with elves and dwarves, meaning they generally also get along with them. Elans unnerve most xephs, as if they can feel that something is wrong with elans, while they find the strange logic of the dromite and maenad societies to be confusing. Half-orcs and half-giants tend to grate on xephs, with their war-like ways and brusque behavior.
+      </p>
+      <p><strong>Alignment and Religion:</strong> Tending more towards a unifying philosophy rather than a true religion, xephs believe that what one individual views as a god, another manifests in their life as a philosophy. As a result, xephs tend to be accepting of others’ religions, even if they do not themselves believe the same. Xephs tend to be good, with the race as a whole tending toward chaotic.
+      </p>
+      <p><strong>Adventurers:</strong> Learning more about the world is a way to learn about the self to a xeph, and thus a journey is as much spiritual and internal as physical and external. Adventuring is exploring the mind, challenging morals, and defining who you are. Many don’t catch onto this metaphysical and philosophical aspect of adventuring for xephs, and instead view them as jovial or humorous, even when faced with adversity.
+      </p>
+      <p><strong>Male Names:</strong> Idrian, Earon, Ubiel, Ivraham, Yli, Ylijah, Alish, Ormak.
+      </p>
+      <p><strong>Female Names:</strong> Uda, Udiva, Ymira, Hadyri, Chyrmona, Nyri, Nerith.</p>
+  languages: []
+  links:
+    supplements:
+      - name: Bladeborn
+        uuid: Compendium.pf1-psionics.races.Item.LhTh1w5jujfzLZlT
+      - name: Burst (Su)
+        uuid: Compendium.pf1-psionics.races.Item.ZV3P5wDKRvIJhw9K
+      - name: Call Blade
+        uuid: Compendium.pf1-psionics.races.Item.7oqrtexGPymBXr4a
+      - name: Darkvision
+        uuid: Compendium.pf1-psionics.races.Item.aXCeLjQyWgu0lVBH
+      - name: Explorer
+        uuid: Compendium.pf1-psionics.races.Item.oI0j4DkGJc11HWGQ
+      - name: Innate Resistance
+        uuid: Compendium.pf1-psionics.races.Item.DpRgKRmPzV07BuEl
+      - name: Naturally Psionic
+        uuid: Compendium.pf1-psionics.races.Item.aNXqpkkLvaJkbtey
+      - name: Psionic Aptitude
+        uuid: Compendium.pf1-psionics.races.Item.9GLXCGQOVNLJ0pMy
+      - name: Quick Craftsman (Ex)
+        uuid: Compendium.pf1-psionics.races.Item.PwCpaF4HgMx6vhMF
+      - name: Troubadour
+        uuid: Compendium.pf1-psionics.races.Item.Ed3w8y2Is2vTPpp6
+      - name: Windweaver
+        uuid: Compendium.pf1-psionics.races.Item.BAGo5THf84pn8mnO
+type: race

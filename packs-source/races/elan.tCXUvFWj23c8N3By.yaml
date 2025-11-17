@@ -1,0 +1,326 @@
+_id: tCXUvFWj23c8N3By
+_key: '!items!tCXUvFWj23c8N3By'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Elan
+img: icons/environment/people/group.webp
+name: Elan
+system:
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  creatureSubtypes:
+    - aberrant
+    - psionic
+  creatureTypes:
+    - humanoid
+  description:
+    value: |-
+      <p>Born not of a mother or father, but created, elans were once mortal beings. Built by a shadowy council to live as psionically awakened superior life forms, elans are capable of sustaining themselves with nothing but the power of the mind. Elans are no longer true mortals, having been unfettered by a secret ritual that created this new race and reborn anew, with but wisps and fragments of memories of their previous lives. Incapable of breeding, elans expand their numbers by choosing members of other races, most often humans, and transforming them into new elans. This would pose a problem for the continuation of the race, except elans do not die of old age. The secrets of the transformation ritual are typically limited to the elite members of the elan secret society that exists, and they take these secrets to the grave before sharing them with lesser beings. Elans are often chosen for being exceptional in some way: sometimes it is because they excel in physical challenges, other times it is because of their quick wit or sharp intellect, or in some cases a natural ability to work with the psionic arts. But none of the elans could ever be described as normal, mediocre, or standard. While most elans, even those of non-human origin, physically resemble humans, there is usually something that stands out about every elan.
+      </p>
+      <p><strong>Physical Description:</strong> With a diverse physical makeup, dependent on the will and whim of the council, there is one thing in common amongst all elans: they are literally brimming with energy, psionic energy. Their eyes seem to shine, their skin seems to sparkle, and their hair seems to be made of strands of color in the wind. Elans typically resemble humans in size and weight, with males typically slightly taller and heavier than females. Even those elans who were selected from other races will be transformed to more closely match humans in size and shape, at the direction of the council. Elans under a particular council will tend to have similar physical appearance, with the previous council favoring pale skin, red hair, and young in appearance, while the current council has started to favor darker hair and tanned skin. Elans will adopt the type of dress and physical style of whatever society they are insinuating, the better to avoid detection.
+      </p>
+      <p>Elans do not sleep as mortals do, instead entering a deep meditative trance for 4 hours a day. Resting in this fashion grants the elan the same benefits that other races gain from 8 hours of sleep. The elan spends the time in this trance renewing her body by suffusing it with psionic energy, repairing wounds, and keeping the tissues and organs healthy.
+      </p>
+      <p><strong>Society:</strong> While few and far between, there is indeed an elan society, but it is more akin to the structure of a secret society. Elans tend to recognize one another at sight, but others can have a hard time separating them from normal races. In cities and places where many people gather, elans will generally strive to find a way to meet each other, often in secret to avoid implicating each other or raising suspicions. Elans come together to share wisdom, to learn, and to help their peers. Often this learning is defined into layers, circles, strata, or other forms of separation, which leads to a mysticism surrounding the societies of elans. Sometimes elans name their order after something symbolical, such as the Brotherhood of the Heavenly Lantern; at other times it is more direct, such as the Enlightened Order of Ksaren. Elans, if anything, are infiltrators, preferring to live within the societies of others, striving to become part of their culture and ways, avoiding standing out and gaining unwanted attention. Many elans become wanderers because over time, others may take notice that the elan does not age and start to ask questions. For this reason, elans can be said to be nomadic, albeit at a very long cycle. Little is known to non-elans about the council that selects and transforms mortals into new elans, even new elans may not know all the members of the council, as a precaution from discovery from outsiders. New elans are typically chosen, although rare cases of mortals petitioning the elan council for transformation have occurred.
+      </p>
+      <p><strong>Relations:</strong> Coming from a diverse range of races, the elans will look for the individual rather than the race. They know that they, as a race, are created for their individual characteristics rather than their racial background, and because of this, they can seem to treat members of other races unevenly, being friendly to half-orcs, joking with dwarves, and stern and distant towards halflings and gnomes. This is only an illusion of perception, for it is the individual that is treated, not the race itself. For this reason, elans are both loved and despised; they break stereotypes in ways that often make them stand out like a sore thumb.
+      </p>
+      <p><strong>Alignment and Religion:</strong> Those elans who do embrace a religion tend to revere gods of psionics or the mind. Being composed and enlightened does not necessarily carry with it any specific moral views, and for this reason, there are elans of every kind of alignment. Many tend over time to drift towards lawful neutral, finding an ease with laws and regulations, but not caring deeply for or against other people, preferring solitude. Younger elans embrace everything on the alignment spectrum, sometimes radically changing moral compass in an attempt to find their way on their new journey on the road of immortality.
+      </p>
+      <p><strong>Adventurers:</strong> As natural nomads, and often culled from a naturally inquisitive and curious mindset, elans are explorers. Exploring allows them to challenge themselves and therefore grow and develop in their abilities. If anything, elans can fear becoming placid, for that will calcify their thinking, leading them to wallow in stasis. Many who are caught in this break the cycle by adventuring, pitching themselves against all manner of monsters and quests to find a better path.
+      </p>
+      <p><strong>Male Names:</strong> Armend, Absylon, Edam, Odolph, Yime, Ylderic, Irnad, Christaph.
+      </p>
+      <p><strong>Female Names:</strong> Adyel, Ydeline, Edrienne, Eimee, Eelis, Irnadette, Chirlot.
+      </p><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><h2 id="mw-toc-heading">Contents</h2><label class="toctogglelabel" for="toctogglecheckbox"></label><ul><li><a href="#Racial_Traits">1 Racial Traits</a></li><li><a href="#Alternate_Racial_Traits">2 Alternate Racial Traits</a></li><li><a href="#Favored_Class_Options">3 Favored Class Options</a></li><li><a href="#Book_of_Heroic_Races_Favored_Class_Options">4 Book of Heroic Races Favored Class Options</a></li><li><a href="#Book_of_Heroic_Races_Lore">5 Book of Heroic Races Lore</a><ul><li><a href="#Society_and_Lands">5.1 Society and Lands</a></li></ul>
+      </li><li><a href="#Archetypes">6 Archetypes</a></li></ul>
+      <ul><li><strong>Ability Score Modifiers</strong>: Elans gain a +2 bonus to one ability score chosen at creation to represent their varied nature.</li><li><strong>Aberrant Blood</strong>: Elans are of the humanoid (aberrant) subtype.</li><li><strong>Size</strong>: Elan are Medium creatures and have no bonuses or penalties due to their size.</li><li><strong>Speed</strong>: Elans have a base speed of 30 feet.</li><li><strong>Aberrant Nature</strong>: Although human in appearance, elans suffer from a nature slightly off from the rest of the non-elan society. They suffer a -1 penalty to Charisma-based skill checks when dealing with non-elans.</li><li><strong>Naturally Psionic</strong>: Elans gain the <a href="/wiki/Wild_Talent" title="Wild Talent">Wild Talent</a> feat as a bonus feat at 1st level. If an elan takes levels in a psionic class, she instead gains the <a href="/wiki/Psionic_Talent" title="Psionic Talent">Psionic Talent</a> feat.</li><li><strong>Resistance (Su)</strong>: Elans can use psionic energy to increase their resistance to various forms of attack. As an immediate action, an elan can spend 1 power point to gain a +4 racial bonus on saving throws until the beginning of her next action.</li><li><strong>Resilience (Su)</strong>: When an elan takes damage, he can spend power points to reduce its severity. As an immediate action, he can reduce the damage he is about to take by 2 hit points for every 1 power point he spends.</li><li><strong>Repletion (Su)</strong>: An elan can sustain his body without need of food or water. If he spends 1 power point, an elan does not need to eat or drink for 24 hours.</li><li><strong>Psionic Aptitude</strong>: When an elan takes a level in a favored class, he can choose to gain an additional power point instead of a hit point or skill point.</li><li><strong>Languages</strong>: Elans begin play speaking Common. Elans with high Intelligence scores can choose any languages they want (except secret languages, such as Druidic).</li></ul>
+      <p>The following racial traits replace existing elan racial traits. Consult your GM before selecting these options.
+      </p>
+      <p><strong>Breathless (Su)</strong>: <em>(Source: Book of Heroic Races: Advanced Compendium)</em> Elans with this racial trait can sustain their bodies even without breathing. They can spend 2 power points to survive without breathing for 24 hours. This racial trait replaces repletion.
+      </p>
+      <p><strong>Crystal Aspect (Su)</strong>: <em>(Source: Book of Heroic Races: Advanced Compendium)</em> Some elans can use psionic energy to protect their corporeal body. By spending 1 power point, their skin transforms into reflective crystal, granting a +2 racial bonus to Armor Class, which improves to +4 against rays. Using this ability is a swift action and the effect lasts for one round per manifester level. A number of times per day equal to the elan's Dexterity modifier, elans with this racial trait can deflect a single ray attack as if using the Deflect Arrows feat. Elans with this racial trait suffer a –2 penalty on saving throws against sonic effects that cause damage. This racial trait replaces resistance.
+      </p>
+      <p><strong>Failed Transformation</strong>: It is incredibly rare, but sometimes, the transformation into an elan does not complete as expected. Elans with this trait gain the following benefit based upon their original race and lose the repletion, resilience, and resistance traits. In addition, the elan suffers a -2 penalty to Charisma-based skills and checks against elans.
+      </p><ul><li><em>Blue</em> The elan gains the darkvision and small traits of the blue, but retains the normal speed of the elan.</li><li><em>Dromite</em>: The elan gains the chitin trait of the dromite.</li><li><em>Duergar</em>: The elan gains the darkvision and slow and steady traits of the duergar.</li><li><em>Dwarf</em>: The elan gains the darkvision and slow and steady traits of the dwarf.</li><li><em>Elf</em>: The elan gains the low-light vision and Elven Immunities traits of the elf.</li><li><em>Gnome</em>: The elan gains the low-light vision and Keen Senses traits of the gnome.</li><li><em>Half-Elf</em>: The elan gains the adaptability and low-light vision traits of the half-elf.</li><li><em>Half-Giant</em>: The elan gains the fire Acclimated and low-light vision traits of the half-giant.</li><li><em>Half-orc</em>: The elan gains the darkvision and Ferocity traits of the half-orc.</li><li><em>Halfling</em>: The elan gains the halfling luck and keen senses traits of the halfling.</li><li><em>Human</em>: The elan gains the skilled trait of the human.</li><li><em>Maenad</em>: The elan gains the sonic affinity and outburst traits of the maenad.</li><li><em>Ophiduan</em>: The elan gains the scaled hide and Poison Resistant traits of the ophiduan.</li><li><em>Xeph</em>: The elan gains the darkvision and Burst traits of the xeph, but may only use Burst once per day.</li></ul>
+      <p><strong>Flawed Creation (Su)</strong>: <em>(Source: Book of Heroic Races: Advanced Compendium)</em> On rare occasions, an elan becomes flawed during the creation ceremony. Though still psionically enhanced, the elan is left marred and imperfect. An elan with this trait shows visible signs of aberrant heritage and suffers a –2 racial penalty to Charisma, but gains a +4 racial bonus to either Strength, Dexterity, or Constitution, chosen at character creation. Common visible signs of this trait include rubbery skin, solid white eyes, crystalline teeth, or an eerie resonance to the elan's speech. Flawed creations are generally looked upon with mild horror by other elans. This racial trait replaces the elan's normal bonus to one ability score.
+      </p>
+      <p><strong>Haughty</strong>: As psionically-endowed beings, some elans consider themselves better than non-elans. This arrogance grants them a toughened will. An elan with this trait gains a +2 racial bonus to saves against mind-affecting effects but suffers a -2 penalty to Charisma-based skill checks when dealing with non-elans. This trait replaces the Aberrant Nature and Resistance traits.
+      </p>
+      <p><strong>Impervious (Su)</strong>: <em>(Source: Book of Heroic Races: Advanced Compendium)</em> Some elans can reflexively use psionic energy to deflect blows. As an immediate action, an elan with this trait can spend 1 power point to gain a +2 natural armor bonus until the beginning of his next action. This racial trait replaces resistance.
+      </p>
+      <p><strong>In Tune (Su)</strong>: <em>(Source: Book of Heroic Races: Advanced Compendium)</em> The elan creation ritual sometimes produces elans that are greatly in tune with the psionic fields that permeate the world. Such elans receive a +2 racial bonus on all Knowledge (psionics) and Spellcraft checks. This bonus improves to +4 while maintaining psionic focus. This racial trait replaces repletion.
+      </p>
+      <p><strong>Reconstruction (Su)</strong>: Some elans are more adept at psionically rebuilding bodies than preserving them. These elans may spend 1 or more pp as a swift action to gain Fast Healing 2 for a number of rounds equal to the number of pp spent; this can be used even when unconscious. The elan also gains a +1 bonus to its manifester level when manifesting powers of the Healing subdiscipline. This replaces resistance and resilience.
+      </p>
+      <p><strong>Regenerating Focus (Su)</strong>: <em>(Source: Book of Heroic Races: Advanced Compendium)</em> Once per day when an elan with this racial trait expends his psionic focus, he regains a number of power points equal to half his level. This racial trait replaces resistance.
+      </p>
+      <p><strong>Second Wind (Su)</strong>: <em>(Source: Book of Heroic Races: Advanced Compendium)</em> An elan with this racial trait can rejuvenate himself with psionic energy. He can spend 1 power point to recover from the fatigued condition or 3 power points to recover from exhaustion. This racial trait replaces repletion.
+      </p>
+      <p><strong>Smooth Talker</strong>: Elans seek to hide their nature from others. Some may have been created for the purpose of hiding their nature and achieving positions of power or trust. Elans with this trait gain a +2 racial bonus to Charisma-based skill checks against non-mindless creatures. This trait replaces the aberrant nature and repletion traits.
+      </p>
+      <p><strong>Strong Blooded</strong>: Some elans have a small portion of their original racial characteristics survive the transformation process. Elans with this racial trait gain the following benefit based upon their original race and lose the resilience trait.
+      </p><ul><li><em>Blue</em>: The elan can spend one power point as a swift action to gain a +2 bonus on Stealth checks for one round.</li><li><em>Dromite</em>: The elan can spend one power point as a swift action to gain energy resistance 5 against his active energy type for one round.</li><li><em>Duergar</em>: The elan can spend one power point as a swift action to gain a +2 bonus to his CMD when resisting a bull rush or trip attempt while standing on the ground.</li><li><em>Dwarf</em>: The elan can spend one power point as a swift action to gain the Stonecunning trait for one minute.</li><li><em>Elf</em>: The elan can spend one power point as a swift action to gain low-light vision for one minute.</li><li><em>Gnome</em>: The elan can spend one power point as a swift action to a +2 bonus against illusions for one minute.</li><li><em>Half-Elf</em>: The elan can spend one power point as a swift action to gain a +2 bonus on Perception checks for one round.</li><li><em>Half-Giant</em>: The elan can spend one power point as a swift action to be treated as having the Powerful Build trait for one round.</li><li><em>Half-orc</em>: The elan can spend one power point as a swift action to gain a +2 racial bonus to Intimidate checks made in the same round.</li><li><em>Halfling</em>: The elan can spend one power point as a swift action to gain a +2 racial bonus on Acrobatics checks made for one round.</li><li><em>Human</em>: The elan can spend one power point as a swift action to gain a +1 bonus on any one skill check made in the same round.</li><li><em>Maenad</em>: The elan can spend one power point as a swift action to gain a +2 bonus to Strength and suffering a -2 penalty to Intelligence and Wisdom for one round.</li><li><em>Ophiduan</em>: The elan can spend one power point as a swift action to gain a +1 natural armor bonus to his armor class for one round.</li><li><em>Xeph</em>: The elan can spend one power point as a swift action to increase his base speed by 10 feet for one round.</li></ul>
+      <p>The following favored class options are available to all characters of this race who have the listed favored class, and unless otherwise stated, the bonus applies each time you select the favored class reward.
+      <br />• <strong><a href="/wiki/Alchemist" title="Alchemist">Alchemist</a>:</strong> Gain energy resistance 1 against acid, cold, electricity, or fire. Each time the alchemist selects this reward, increase her resistance to one of these energy types by 1 (maximum 10 for any one type). <em>([[]])</em><br />• <strong><a href="/wiki/Cryptic" title="Cryptic">Cryptic</a>:</strong> Add +1/2 to the damage of the cryptic's disrupt pattern ability. <em>([[]])</em><br />• <strong><a href="/wiki/Dread" title="Dread">Dread</a>:</strong> Add +1/2 to Intimidate checks. <em>([[]])</em><br />• <strong><a href="/wiki/Highlord" title="Highlord">Highlord</a>:</strong> Whenever the highlord manifests and augments his tenet power, he regains 1/6 of a power point. He cannot regain more power points than he spent augmenting the power. <em>([[]])</em><br />• <strong><a href="/wiki/Mystic" title="Mystic">Mystic</a>:</strong> Add +1/4 point of animus to the mystic's starting animus pool at the beginning of combat. <em>([[]])</em><br />• <strong><a href="/wiki/Pactbound" title="Pactbound">Pactbound</a>:</strong> Add +1/4 of a new veil of the <a href="/wiki/Mind-affecting_veil" title="Mind-affecting veil">Mind-affecting</a> descriptor to your list of pact veils known. <em>(<a href="/wiki/Pactbound_(PF1e)" title="Pactbound (PF1e)">Pactbound (PF1e)</a>)</em><br />• <strong><a href="/wiki/Psion" title="Psion">Psion</a>:</strong> Add a +1/2 bonus on concentration checks when manifesting psion powers. <em>([[]])</em><br />• <strong><a href="/wiki/Rajah" title="Rajah">Rajah</a>:</strong> Gain 1/4 of a maneuver known from the <a href="/wiki/Sleeping_Goddess" title="Sleeping Goddess">Sleeping Goddess</a> discipline. <em>([[]])</em><br />• <strong><a href="/wiki/Rajah_Retold" title="Rajah Retold">Rajah Retold</a>:</strong> +1/6 of a <a href="/wiki/Psionic_feat" title="Psionic feat">psionic feat</a>. <em>(<a href="/wiki/Akasha_Retold_%E2%80%94_Rajah_Retold" title="Akasha Retold — Rajah Retold">Akasha Retold — Rajah Retold</a>)</em><br />• <strong><a href="/wiki/Rogue" title="Rogue">Rogue</a>:</strong> Add a +1 bonus on Disguise checks to appear as a human (or their original race if they have the Failed Transformation or Strong Blooded trait), and a +1/2 bonus on Stealth checks. <em>([[]])</em><br />• <strong><a href="/wiki/Soulknife" title="Soulknife">Soulknife</a>:</strong> Add a +1/2 circumstance bonus on critical hit confirmation rolls with the mind blade. This bonus does not stack with Critical Focus. <em>([[]])</em><br />• <strong><a href="/wiki/Voyager" title="Voyager">Voyager</a>:</strong> Add +1/4 power known from any class's list. This power must be at least one level below the highest power the voyager can manifest. <em>([[</em><a href="/wiki/Psionics_Augmented:_Voyager" title="Psionics Augmented: Voyager">Psionics Augmented: Voyager</a><em>]])</em><br />• <strong><a href="/wiki/Warder" title="Warder">Warder</a>:</strong> Add +1/4 to the bonus to AC granted by the warder's aegis. <em>([[]])</em><br />• <strong><a href="/wiki/Warlord" title="Warlord">Warlord</a>:</strong> Add +1/4 to the number of uses per day of the warlord's warleader ability. <em>([[]])</em><br />• <strong><a href="/wiki/Wilder" title="Wilder">Wilder</a>:</strong> Add 1/4 power known from the wilder power list. This power must be at least one level below the highest power level the wilder can manifest. <em>([[]])</em><br />• <strong><a href="/wiki/Wizard" title="Wizard">Wizard</a>:</strong> Gain a +1/3 bonus to saving throws against spells of the transmutation school. <em>([[]])</em><br />• <strong><a href="/wiki/Zealot" title="Zealot">Zealot</a>:</strong> Add +1/4 of a maneuver known from the <a href="/wiki/Sleeping_Goddess" title="Sleeping Goddess">Sleeping Goddess</a> or <a href="/wiki/Eternal_Guardian" title="Eternal Guardian">Eternal Guardian</a> disciplines. <em>([[]])</em></p><ul><li><strong>Aegis</strong>: Add +1/3 to the aegis's customization points.</li><li><strong>Alchemist</strong>: Gain energy resistance 1 against acid, cold, electricity, or fire. Each time the alchemist selects this reward, increase her resistance to one of these energy types by 1 (maximum 10 for any one type).</li><li><strong>Antipaladin</strong>: Add +1/2 hit point to the antipaladin's touch of corruption ability (whether using it to heal or harm).</li><li><strong>Arcanist</strong>: When casting arcanist evocation spells, add +1/3 to the effective caster level, but only for the purpose of determining duration.</li><li><strong>Barbarian</strong>: Add +1 to the barbarian's total number of rage rounds per day.</li><li><strong>Bard</strong>: Add +1 to the bard's total number of bardic performance rounds per day.</li><li><strong>Bloodrager</strong>: Add +1 to the bloodrager's total number of bloodrage rounds per day.</li><li><strong>Brawler</strong>: Add a +1/2 bonus to the brawler's CMD when resisting two combat maneuvers of the brawler's choice.</li><li><strong>Cavalier</strong>: Add +1/4 to the cavalier's banner bonus.</li><li><strong>Cleric</strong>: Add a +1 bonus to the cleric's caster level checks made to overcome the spell resistance of aberrations.</li><li><strong>Cryptic</strong>: Add +1/2 to the damage of the cryptic's disrupt pattern ability.</li><li><strong>Dread</strong>: Add a +1/2 bonus to Intimidate checks.</li><li><strong>Druid</strong>: Add +1/3 to the druid's natural armor bonus when using wild shape.</li><li><strong>Fighter</strong>: Add a +2 bonus on rolls to stabilize when dying.</li><li><strong>Gunslinger</strong>: Add +1/3 on critical hit confirmation rolls made with firearms (maximum bonus of +5). This bonus does not stack with Critical Focus.</li><li><strong>Hunter</strong>: Add 1 foot to the hunter's companion's base speed. In combat this option has no effect unless the hunter has selected it 5 times (or another increment of 5); a speed of 24 feet is effectively the same as 20 feet, for example.</li><li><strong>Inquisitor</strong>: Add one spell known from the inquisitor spell list. This spell must be at least one level below the highest spell level the inquisitor can cast.</li><li><strong>Investigator</strong>: Gain a +1/3 bonus on all inspiration rolls.</li><li><strong>Magus</strong>: Gains +1/6 of a new magus arcana.</li><li><strong>Marksman</strong>: Add a +1/4 circumstance bonus to DCs to resist marksman powers.</li><li><strong>Monk</strong>: Add a +1/2 circumstance bonus on the monk's saving throws to resist death attacks.</li><li><strong>Ninja</strong>: Add a +1 bonus on Disguise checks to appear as a human (or their original race if the ninja has the Failed Transformation or Strong Blooded trait), and a +1/2 bonus on Stealth checks.</li><li><strong>Oracle</strong>: Add one spell known from the oracle spell list. This spell must be at least one level below the highest spell level the oracle can cast.</li><li><strong>Paladin</strong>: Add +1/2 hit point to the paladin's lay on hands ability (whether using it to heal or harm).</li><li><strong>Psion</strong>: Add a +1 bonus to the psion's manifester level checks made to overcome the power resistance of aberrations.</li><li><strong>Psychic Warrior</strong>: Add +1/3 to the psychic warrior's manifester level when manifesting a psychometabolism power.</li><li><strong>Ranger</strong>: Add +1 skill rank to the ranger's animal companion. If the ranger ever replaces his companion, the new companion gains these bonus skill ranks.</li><li><strong>Rogue</strong>: Add a +1 bonus on Disguise checks to appear as a human (or their original race if the rogue has the Failed Transformation or Strong Blooded trait), and a +1/2 bonus on Stealth checks.</li><li><strong>Samurai</strong>: Add +1/4 to the samurai's banner bonus.</li><li><strong>Shaman</strong>: Add one spell from the cleric spell list that isn't on the shaman spell list to the list of spells the shaman knows. This spell must be at least 1 level below the highest spell level the shaman can cast.</li><li><strong>Skald</strong>: Increase the skald's total number of raging song rounds per day by 1.</li><li><strong>Slayer</strong>: Add a +1 bonus on Disguise checks to appear as a human (or their original race if the slayer has the Failed Transformation or Strong Blooded trait), and a +1/2 bonus on Stealth checks.</li><li><strong>Sorcerer</strong>: Add a +1 bonus to the sorcerer's caster level checks made to overcome the spell resistance of aberrations.</li><li><strong>Soulknife</strong>: Add a +1/2 circumstance bonus on critical hit confirmation rolls with the mind blade. This bonus does not stack with Critical Focus.</li><li><strong>Summoner</strong>: Add +1/3 to the eidolon's evolution pool.</li><li><strong>Swashbuckler</strong>: Increase the total number of points in the swashbuckler's panache pool by +1/4.</li><li><strong>Tactician</strong>: Add +1/2 to the tactician's strategy daily uses.</li><li><strong><a href="/wiki/Time_Thief" title="Time Thief">Time Thief</a></strong>: Add 1/6 of an additional d4 to one skill check or ability check when you spend a mote to boost such a check.</li><li><strong>Vitalist</strong>: Gain +1/2 additional daily use of transfer wounds.</li><li><strong>Warpriest</strong>: Gain +1/4 of a bonus combat feat.</li><li><strong>Wilder</strong>: Add 1/4 power known from the wilder power list. This power must be at least one level below the highest power level the wilder can manifest.</li><li><strong>Witch</strong>: Add one spell from the witch spell list to the witch's familiar. This spell must be at least one level below the highest spell level she can cast. If the witch ever replaces her familiar, the new familiar knows these bonus spells.</li><li><strong>Wizard</strong>: Add a +1 bonus to the wizard's caster level checks made to overcome the spell resistance of aberrations.</li></ul>
+      <p>Elans are created rather than born. Those chosen by the secretive elan councils come from a variety of races, all of whom shed their prior form to become psionically awakened, superior life forms. Drawing sustenance from their own inherent psionic energy, they do not age or require sleep. (Elan spend four hours a night in a trance state which is the equivalent of eight hours of sleep for most humanoids). They are incapable of breeding, instead “uplifting” other sentient beings to create more of their race. Among the psionic races they are sometimes referred to as the Created, which can be used as praise or an insult depending on the source.
+      </p>
+      <p>Little is known of the ritual used to create new elans. It is a jealously guarded secret known only to the inner circle of a few of the oldest councils. These groups, called triads, are composed of three of the eldest elans. Each one has two thirds of the ritual, known only to that individual and his apprentice. These six elans are guarded by elite psychic warriors and creche defenders.
+      </p>
+      <p><strong>Physical Description</strong>: No matter what the base humanoid stock was, an elan's final form resembles that of a human in height and weight. Unlike humans, they seem to brim with energy, with sparkling eyes, shining skin, and hair that at times seems to almost have a life of its own. Elans can often pass for humans if not observed too closely or if they keep their features shrouded.
+      </p>
+      <p><strong>Society</strong>: While its enclaves are few and far between, there is indeed an elan society, though it is more akin to the structure of a secret society. Elans tend to recognize one another on sight, but others can have a hard time separating them from normal races. In cities and places where many people gather, elans will generally strive to find a way to meet each other, often in secret to avoid implicating each other or raising suspicions. Elans come together to share wisdom, to learn, and to help their peers. Often this learning is divided into layers, circles, strata, or other forms of separation, which leads to a mysticism surrounding the societies of elans. Sometimes elans name their order after something symbolic, such as the Brotherhood of the Heavenly Lantern; at other times a society's name is more direct, such as with the Enlightened Order of Ksaren. Elans, if anything, are infiltrators, preferring to live within the societies of others, striving to become part of their culture and ways, avoiding standing out and gaining unwanted attention.
+      </p>
+      <p>Little is known to non-elans about the councils that select and transform mortals into new elans. Even new elans may not know all the members of the council that created them, as a precaution against discovery from outsiders. New elans are typically chosen, although rare cases of mortals petitioning an elan council for transformation have occurred.
+      </p>
+      <p><strong>Alignment and Religion</strong>: Elans do not often embrace religion, and when they do it is either to worship deities with the Knowledge domain, a psionic Godmind, or a deity known as the Prodigy. Elans do not tend to favor any particular alignment in their younger days and elans exist across all points of the moral compass. As the centuries drag on they often drift towards lawful outlooks and favor neutrality between good and evil.
+      </p>
+      <p><strong>Names</strong>: An elan's name is something that is chosen when he first becomes an elan. As a result, while there are similarities in names among elans of a common generation, the names themselves can vary extensively. It is said that in exceedingly rare cases an elan will keep the name from his or her former life, although there are none known who have done so. No living elan has ever been documented using his or her former name.
+      </p>
+      <p>Elans do not have family names unless they have adopted one appropriate for the culture they live in.
+      </p>
+      <p><em>Male Names</em>: Armallo, Edalph, Ederic, Grith, Relloquin, Seldred, Vir, Zattred
+      </p>
+      <p><em>Female Names</em>: Asatra, Ciadara, Jelinka, Nelida, Quira, Tarrin, Vialle, Xian
+      </p>
+      <p><strong>Aging and Death</strong>: Elans do not age, so when an elan dies, it is usually due to accident or intentional violence. Since death is so rare among them, elans are normally shocked by even an acquaintance's death.
+      </p>
+      <p><strong>Clans and Families</strong>: Not being born in the traditional sense means that the elan idea of family is a bit different from that of most humanoids. Elans tend to identify with a particular “generation” of their kindred. A generation in this case means a group of elans with similar characteristics that were created by the same council. The first elan generation, of which a few still walk the worlds, was denoted by red, curly hair and a pale complexion coupled with vibrant green eyes.
+      </p>
+      <p>Likewise, instead of clans, elans congregate in orders and societies based on common interests and geographic proximity. While an individual elan can be of any alignment, these orders tend to be composed of elans who only differ from each other by one alignment step, two at most. This means a lawful good order might have chaotic or neutral good members, but usually not evil ones. These groups are usually kept secret from non-elans, but there are recorded exceptions. The Verdant Order, for instance, lives in harmony with forest elves and local druids, bound together by their intense bond to the forces of nature.
+      </p>
+      <p><strong>Language and Script</strong>: Elans use the Common tongue as their native language, since their numbers come from members of all the humanoid races.
+      </p>
+      <p><strong>Relations</strong>: Because elans are created from a wide variety of races they generally do not have preferences about the races they associate with. Instead, they judge each individual by the content of their character and not by physical form. It is worth noting that this attitude combined with their aberrant nature can sometimes land them in hot water for associating with those deemed racially inferior by the surrounding population. As they grow older, elans do tend to associate more with those of lawful or neutral alignments, while in their younger days associates are often within a step or two of the elan's own alignment.
+      </p>
+      <p><strong>Adventurers</strong>: Those selected to become elans are often naturally inquisitive and curious, making them ready nomads and explorers. Exploration allows them to challenge themselves and therefore grow and develop in their abilities. If anything, elans can fear becoming placid, for that will calcify their thinking, leading them to wallow in stasis. Many elans avoid this by adventuring, pitching themselves against all manner of monsters and quests to find a better path.
+      </p>
+      <p><em>Aegis</em>: Some elans devote their psionic energy to evolving their physical form. These elans embrace the aberrant archetype of the aegis, which dispenses with the astral suit and allows its practitioner to make changes directly to his own body.
+      </p>
+      <p><em>Cryptic</em>: Being closer to the patterns of energy that make up the multiverse, elans make excellent cryptics. They see the exploration of patterns as a continuation of the journey begun with their transformation.
+      </p>
+      <p><em>Monk</em>: The discipline and focus of the monk's lifestyle is a natural fit for many elans, as there are many similarities in the methods used to harness both <em>ki</em> and psionic power. Most elan monks are also psionicists, eventually becoming psychic fists.
+      </p>
+      <p><em>Oracle</em>: Divine magic is not an intuitive course for beings as steeped in psionics as elans, but it is not an unknown path for them. Some elans have the path of the oracle thrust on them by fate. In doctrine, such a fate is referred to as “the divine and considered imbalance.”
+      </p>
+      <p><em>Psion</em>: Becoming a psion is a natural choice for any elan thanks to their natural psionic energies, and so elans embrace the psion's path more than they do any other. Elan psions see their arts as the organic evolution of their new state of being.
+      </p>
+      <p><em>Psychic Warrior</em>: Martially-inclined elans most often pursue the path of the psychic warrior. A blend of physical and mental training has great appeal to them, especially among the followers of the Prodigy.
+      </p>
+      <p><em>Soulknife</em>: An elan's body is suffused with psionic energy at the most basic level. When in a trance these energies wash through the elan, repairing and retuning her physical form. Some elans experiment with these energy flows, developing new abilities that allow them to form psionic weapons. Starkly physical, elan soulknives are a wonder to behold in combat.
+      </p>
+      <p><em>Vitalist</em>: Some elans expand upon their natural resilience by learning to use their powers to heal others through the creation of a joint psionic field that encompasses their chosen companions, which represents a natural extension of their natural ability for self-repletion. Elan vitalists are considered some of the best in the known world.
+      </p>
+      <p><em>Wilder</em>: Some elans, particularly those of red-haired, fair-skinned generations and the dark-haired, olive-skinned generation, are more volatile in temperament. For those elans whose passions rule their intellects, the wilder's talents are a more suitable fit than those of the psion.
+      </p><table><tr><th>Name
+      </th><th>Archetype of
+      </th><th>System
+      </th><th>Flavor
+      </th><th>Source
+      </th></tr><tr><td><a href="/wiki/Ascendant_Psion" title="Ascendant Psion">Ascendant Psion</a></td><td><ul><li><a href="/wiki/Psion" title="Psion">Psion</a></li></ul>
+      </td><td><ul><li><a href="/wiki/Psionic_(system)" title="Psionic (system)">Psionic</a></li></ul>
+      </td><td><em>The transformation to become an elan is a complex secret process that has been meticulously guarded by the members of the elan race. Yet some elans have discovered that this process can be continued, where the physical body composed of psionic energy can be transformed into one of pure energy. These ascendant psions learn how to use the power of their mind to interact with the world without the need for physical form.</em></td><td><em><ul><li><a href="/wiki/Ultimate_Psionics" title="Ultimate Psionics">Ultimate Psionics</a></li><li><a href="/wiki/Psionics_Augmented" title="Psionics Augmented">Psionics Augmented</a></li></ul>
+      </em></td></tr><tr><td><a href="/wiki/Menteur" title="Menteur">Menteur</a></td><td><ul><li><a href="/wiki/Rogue" title="Rogue">Rogue</a></li></ul>
+      </td><td><ul><li><a href="/wiki/Psionic_(system)" title="Psionic (system)">Psionic</a></li></ul>
+      </td><td><em>Going undetected by the other races and moving unnoticed through their societies is a trick that is diligently studied by many elan rogues. These menteurs learn to use their psionic power to alter their appearance, abscond to a safe location, and talk their way out of most any situation.</em></td><td><em><ul><li><a href="/wiki/Ultimate_Psionics" title="Ultimate Psionics">Ultimate Psionics</a></li><li><a href="/wiki/Psionics_Augmented" title="Psionics Augmented">Psionics Augmented</a></li></ul>
+      </em></td></tr><tr><td><a href="/wiki/Pattern_Wielder" title="Pattern Wielder">Pattern Wielder</a></td><td><ul><li><a href="/wiki/Cryptic" title="Cryptic">Cryptic</a></li></ul>
+      </td><td><ul><li><a href="/wiki/Psionic_(system)" title="Psionic (system)">Psionic</a></li></ul>
+      </td><td><em>Many elan cryptics view the process of creating an elan out of another race as simply another example of bending the patterns of reality to suit their needs. Some of these elans recognize that the patterns from tattoos can similarly be used to alter the physical world and even the effects of psionic power, and form a more powerful bond with their tattoos, blending the psionic energy of their very being with that locked inside of the tattoo. This blending allows them to alter the nature of weapons, other creatures, and even psionic power itself.</em></td><td><em><ul><li><a href="/wiki/Ultimate_Psionics" title="Ultimate Psionics">Ultimate Psionics</a></li><li><a href="/wiki/Psionics_Augmented" title="Psionics Augmented">Psionics Augmented</a></li></ul>
+      </em></td></tr></table>
+  languages: []
+  links:
+    supplements:
+      - name: Aberrant Blood
+        uuid: Compendium.pf1-psionics.races.Item.BXT7y4RrMHRATtP0
+      - name: Aberrant Nature
+        uuid: Compendium.pf1-psionics.races.Item.1ghwh1t7Q377iV3x
+      - name: Adventurers
+        uuid: Compendium.pf1-psionics.races.Item.Gx5wcEcrA0RdaoGN
+      - name: Aegis
+        uuid: Compendium.pf1-psionics.races.Item.bwmhrQ7KHhyHSr4T
+      - name: Aging and Death
+        uuid: Compendium.pf1-psionics.races.Item.mdUP3o6smfY5YGLW
+      - name: Alchemist
+        uuid: Compendium.pf1-psionics.races.Item.lvjt5FGOonezTSVZ
+      - name: Alignment and Religion
+        uuid: Compendium.pf1-psionics.races.Item.BWwaMtoEh3kcxRkW
+      - name: Antipaladin
+        uuid: Compendium.pf1-psionics.races.Item.00Z17slamX6FxvAN
+      - name: Arcanist
+        uuid: Compendium.pf1-psionics.races.Item.KOJwp1jloECq4YuT
+      - name: Barbarian
+        uuid: Compendium.pf1-psionics.races.Item.P1b7xR1N0IniGvPr
+      - name: Bard
+        uuid: Compendium.pf1-psionics.races.Item.8o0OQBsA9m21muJ6
+      - name: Bloodrager
+        uuid: Compendium.pf1-psionics.races.Item.XBs39LILcOsoKtyh
+      - name: Brawler
+        uuid: Compendium.pf1-psionics.races.Item.LM19wDuAfBig5jSc
+      - name: Breathless
+        uuid: Compendium.pf1-psionics.races.Item.vGn4RkqhmWF0xkCS
+      - name: Cavalier
+        uuid: Compendium.pf1-psionics.races.Item.hVUnnTKRcjOUsnQs
+      - name: Clans and Families
+        uuid: Compendium.pf1-psionics.races.Item.nGP5c94Pqfavnkx2
+      - name: Cleric
+        uuid: Compendium.pf1-psionics.races.Item.1AqPnz6d95DixhMi
+      - name: Cryptic
+        uuid: Compendium.pf1-psionics.races.Item.nAWqQHIRcLST14QB
+      - name: Crystal Aspect
+        uuid: Compendium.pf1-psionics.races.Item.maukhkJycedwmSA0
+      - name: Dread
+        uuid: Compendium.pf1-psionics.races.Item.eXFXyShhqkCTSdxc
+      - name: Druid
+        uuid: Compendium.pf1-psionics.races.Item.Omgn8Ea4MC8Galn9
+      - name: Failed Transformation
+        uuid: Compendium.pf1-psionics.races.Item.kMknSFkfyvawXa92
+      - name: Favored Class Options
+        uuid: Compendium.pf1-psionics.races.Item.hINKFFlPdqmP3y5Z
+      - name: Fighter
+        uuid: Compendium.pf1-psionics.races.Item.4Bs0vDUcBTL1wEBE
+      - name: Flawed Creation
+        uuid: Compendium.pf1-psionics.races.Item.cdjZZkEjHcKTox0c
+      - name: Gunslinger
+        uuid: Compendium.pf1-psionics.races.Item.UnByVCqRJ2MRDaqv
+      - name: Haughty
+        uuid: Compendium.pf1-psionics.races.Item.ZvKG5VAs846sJgl4
+      - name: Hunter
+        uuid: Compendium.pf1-psionics.races.Item.sNTKctWqMvzNpj7D
+      - name: Impervious
+        uuid: Compendium.pf1-psionics.races.Item.6lsWs0bFYk3jx0T7
+      - name: In Tune
+        uuid: Compendium.pf1-psionics.races.Item.Q9ZmPtQV28EVEZY5
+      - name: Inquisitor
+        uuid: Compendium.pf1-psionics.races.Item.WM7cvdUvnWtxWlWN
+      - name: Investigator
+        uuid: Compendium.pf1-psionics.races.Item.pmaenvopkCSzY4JA
+      - name: Language and Script
+        uuid: Compendium.pf1-psionics.races.Item.jbEy7c3UlDy9IPnt
+      - name: Magus
+        uuid: Compendium.pf1-psionics.races.Item.w8A68XWnpLDtB5A9
+      - name: Marksman
+        uuid: Compendium.pf1-psionics.races.Item.EBV1zg0ZuhM9Bmj3
+      - name: Monk
+        uuid: Compendium.pf1-psionics.races.Item.I8tqZqnIVWHlE87c
+      - name: Names
+        uuid: Compendium.pf1-psionics.races.Item.YP8yRhxCNhBSk6bh
+      - name: Naturally Psionic
+        uuid: Compendium.pf1-psionics.races.Item.xPt58rLiasJiu5nV
+      - name: Ninja
+        uuid: Compendium.pf1-psionics.races.Item.gbyVViKA9oUANBCE
+      - name: Oracle
+        uuid: Compendium.pf1-psionics.races.Item.tCl5F8kEkHd5xqWd
+      - name: Paladin
+        uuid: Compendium.pf1-psionics.races.Item.ZQt5jYtnUIZVxSjq
+      - name: Physical Description
+        uuid: Compendium.pf1-psionics.races.Item.J7PP8rvr369FYihz
+      - name: Psion
+        uuid: Compendium.pf1-psionics.races.Item.Ct8OhhiYZjSG9bvZ
+      - name: Psionic Aptitude
+        uuid: Compendium.pf1-psionics.races.Item.8jWWilETE1Q3R00d
+      - name: Psychic Warrior
+        uuid: Compendium.pf1-psionics.races.Item.T0kfDnTGskWyK95P
+      - name: Ranger
+        uuid: Compendium.pf1-psionics.races.Item.oK9E5oSbJYhbs5ss
+      - name: Reconstruction
+        uuid: Compendium.pf1-psionics.races.Item.hHsemenDZUpgfrPZ
+      - name: Regenerating Focus
+        uuid: Compendium.pf1-psionics.races.Item.Q0HNxD0UFNhMQtWA
+      - name: Relations
+        uuid: Compendium.pf1-psionics.races.Item.rRq5oy1rlIkP2MPf
+      - name: Repletion (Su)
+        uuid: Compendium.pf1-psionics.races.Item.LmuXjgoOe1mlGEIy
+      - name: Resilience (Su)
+        uuid: Compendium.pf1-psionics.races.Item.hRPK9YXKfV6MAc74
+      - name: Resistance (Su)
+        uuid: Compendium.pf1-psionics.races.Item.5bGTIszl33MsQ86U
+      - name: Rogue
+        uuid: Compendium.pf1-psionics.races.Item.0XkkTcygMEOY9Q8N
+      - name: Samurai
+        uuid: Compendium.pf1-psionics.races.Item.RoxVfQromlaizMIp
+      - name: Second Wind
+        uuid: Compendium.pf1-psionics.races.Item.66OFoQS2QLn2LFET
+      - name: Shaman
+        uuid: Compendium.pf1-psionics.races.Item.KGPZkIjnsRi62L8S
+      - name: Skald
+        uuid: Compendium.pf1-psionics.races.Item.rRrdlEYfgpPNsUfM
+      - name: Slayer
+        uuid: Compendium.pf1-psionics.races.Item.OlYX3OEpiO0bKzty
+      - name: Smooth Talker
+        uuid: Compendium.pf1-psionics.races.Item.y6GUYV09bqKnHvdB
+      - name: Society
+        uuid: Compendium.pf1-psionics.races.Item.f1wzaIB6I77Cmtd8
+      - name: Sorcerer
+        uuid: Compendium.pf1-psionics.races.Item.327WWF6SJFTP02qn
+      - name: Soulknife
+        uuid: Compendium.pf1-psionics.races.Item.HJdNj5UEYEsbXTNP
+      - name: Strong Blooded
+        uuid: Compendium.pf1-psionics.races.Item.y5delzhHxSRwsBTA
+      - name: Summoner
+        uuid: Compendium.pf1-psionics.races.Item.6tiY6lEzS8MNhOTv
+      - name: Swashbuckler
+        uuid: Compendium.pf1-psionics.races.Item.eGUWBGUTBZOcJWXG
+      - name: Tactician
+        uuid: Compendium.pf1-psionics.races.Item.7D9ppnLKrWHvTMKn
+      - name: Vitalist
+        uuid: Compendium.pf1-psionics.races.Item.HXlcJ3lwndnabcGD
+      - name: Warpriest
+        uuid: Compendium.pf1-psionics.races.Item.5nkr0a0XN9kWgbEZ
+      - name: Wilder
+        uuid: Compendium.pf1-psionics.races.Item.DQtaRMziR9UlnLBa
+      - name: Witch
+        uuid: Compendium.pf1-psionics.races.Item.W54FKQMhFfzh8z08
+      - name: Wizard
+        uuid: Compendium.pf1-psionics.races.Item.8HWaXNK4pmhaitul
+type: race

@@ -1,0 +1,69 @@
+_id: GUvnGPawzI77NCF0
+_key: '!items!GUvnGPawzI77NCF0'
+_raceName: Noral
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    fromRace: Noral
+folder: 2XgOcZAsWXwxoDP1
+img: icons/environment/people/group.webp
+name: Symbiotic Surge
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: <p>A noral is able to tap into the power of the symbiote to gain a temporary boost. Once per day, a noral can exhaust the symbiote to add 1d6 to a single d20 roll. This decision must be made prior to the result of the roll is determined.</li></p>
+  subType: racial
+type: feat

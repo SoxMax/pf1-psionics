@@ -1,0 +1,70 @@
+_id: wybe3d6d7gmqLLSc
+_key: '!items!wybe3d6d7gmqLLSc'
+_raceName: Dromite
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    fromRace: Dromite
+folder: jJuBgVNldUfBo2eb
+img: icons/environment/people/group.webp
+name: Hive Soldier
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: <p>There are many predators within the bowels of the earth. A dromite with this trait has chitin with sharpened edges instead of being hardened, granting two claw attacks. These are primary natural attacks that deal 1d3 points points of slashing damage.</p><p><em>This trait replaces the Chitin trait.</em></p>
+  subType: racial
+  traitCategory: alternate
+type: feat

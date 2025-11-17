@@ -1,0 +1,70 @@
+_id: nGP5c94Pqfavnkx2
+_key: '!items!nGP5c94Pqfavnkx2'
+_raceName: Elan
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    fromRace: Elan
+folder: ebL3IUzrmwwulrRo
+img: icons/environment/people/group.webp
+name: Clans and Families
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: <p>Not being born in the traditional sense means that the elan idea of family is a bit different from that of most humanoids. Elans tend to identify with a particular “generation” of their kindred. A generation in this case means a group of elans with similar characteristics that were created by the same council. The first elan generation, of which a few still walk the worlds, was denoted by red, curly hair and a pale complexion coupled with vibrant green eyes.</p>
+  subType: racial
+  traitCategory: alternate
+type: feat

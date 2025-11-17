@@ -1,0 +1,69 @@
+_id: TTWRhbgFlhsXJWHl
+_key: '!items!TTWRhbgFlhsXJWHl'
+_raceName: Forgeborn
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    fromRace: Forgeborn
+folder: O9KvBI3cORYsa45u
+img: icons/environment/people/group.webp
+name: Oreheart
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: <p>A forgeborn with this trait can be raised and resurrected, but can also be healed by repair effects such as reconstruction as if it were a construct. The forgeborn heals only half as much from healing effects (other than effects which work on constructs, such as fast healing and repair effects) and takes only half damage from negative energy effects. This ability replaces source crystal.</li></p>
+  subType: racial
+type: feat

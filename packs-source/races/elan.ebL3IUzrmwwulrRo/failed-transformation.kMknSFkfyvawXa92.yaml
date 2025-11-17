@@ -1,0 +1,70 @@
+_id: kMknSFkfyvawXa92
+_key: '!items!kMknSFkfyvawXa92'
+_raceName: Elan
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    fromRace: Elan
+folder: ebL3IUzrmwwulrRo
+img: icons/environment/people/group.webp
+name: Failed Transformation
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: <p>It is incredibly rare, but sometimes, the transformation into an elan does not complete as expected. Elans with this trait gain the following benefit based upon their original race and lose the repletion, resilience, and resistance traits. In addition, the elan suffers a -2 penalty to Charisma-based skills and checks against elans.</p>
+  subType: racial
+  traitCategory: alternate
+type: feat

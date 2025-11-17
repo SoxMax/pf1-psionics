@@ -1,0 +1,70 @@
+_id: OBZvFwL9gAUAAyBg
+_key: '!items!OBZvFwL9gAUAAyBg'
+_raceName: Duergar (Psionic)
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    fromRace: Duergar (Psionic)
+folder: qg4G1nuVknsiC9bh
+img: icons/environment/people/group.webp
+name: Duergar Psionics
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: '<p>Duergars gain the following psi-like abilities: 1/day—<em><a href="/wiki/Expansion,_Karak%27s" title="Expansion, Karak''s">expansion, karak''s</a></em> and <em><a href="/wiki/Cloud_Mind" title="Cloud Mind">cloud mind</a></em>. These abilities affect only the duergar and his gear. The manifester level for these effects is equal to the duergar''s level (minimum 3rd). The DC for <em><a href="/wiki/Cloud_Mind" title="Cloud Mind">cloud mind</a></em> is equal to 10 + the power''s level + the duergar''s Charisma modifier.</li></p>'
+  subType: racial
+  traitCategory: magical
+type: feat

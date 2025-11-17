@@ -1,0 +1,134 @@
+_id: MgvkP5KX7eLwbKmN
+_key: '!items!MgvkP5KX7eLwbKmN'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Ophiduan
+img: icons/creatures/reptiles/serpent-horned-green.webp
+name: Ophiduan
+system:
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  creatureSubtypes:
+    - reptilian
+    - psionic
+  creatureTypes:
+    - humanoid
+  description:
+    value: |-
+      <p>Confused with lizardfolk by the ignorant, ophiduans stand out among the other civilized nations in a fashion similar to the dromites, having a more monstrous and distinct appearance than most humanoids. Where other races share soft skin, flat teeth, protruding ears, and a tendency to be partially or fully covered in hair, ophiduans are distinct and very proud of it. Organized and expansionistic in nature, ophiduans view talent and skill, especially with psionics, as the key component for social station, rather than wealth, heritage, or influence.
+      </p>
+      <p><strong>Physical Description:</strong> Reptilian scales cover the ophiduans’ hairless bodies, and their yellow, slitted eyes and sharp teeth give them a striking appearance. They stand tall, often a head above most humans, but are typically slimmer than humans, being lithe in build. Ophiduans have no ears, and their ridged brows are often what define their face. Most ophiduans are green-scaled, but there are those of blue, purple, black, or yellow in tone, a trait which is passed along to progeny. The only common color among all ophiduans is the dull grey of their stomachs, which reflects their common ancestry.
+      </p>
+      <p><strong>Society:</strong> Ophiduans are sometimes viewed as being cold in personality because they are reptilian in nature, but that does not define their society. Rather, a strong meritocracy defines them; to an ophiduan, leadership is constantly earned, as are most things in life. Respect, money, and friends, all are earned and the ophiduan society reflects this. There is very little compassion towards strangers, even within a society, but friends and family are expected to sacrifice for one another. Ophiduans tend not to be satisfied with themselves, feeling a drive to become better, seeking the elusive state of perfection. A leader amongst the ophiduans is often a very capable politician, a warrior, and psionically gifted, for otherwise he or she would not have risen to such a position, as he or she would not have proven capable of leading. This results in the ophiduan societies tendency to become organized and expansionistic in nature, as they strive to improve their cities, lands, and surrounding areas. Sometimes they expand by war, sometimes by politics, but never does an ophiduan society find any form of calm or stability, for it is always seeking to become better, trying to become perfect.
+      </p>
+      <p><strong>Relations:</strong> Ophiduans view most other races as strange, sometimes even soft. The whimsical ways of gnomes and halflings tend to irritate them, humans seem to constantly shift between their goals, and half-elves seem to be confused about who they are. Ophiduans can respect the dedication of the elves, but cannot relate to their perceived inactivity and slow-acting ways. Dwarves impress the ophiduans with their ability to build lasting empires and their perfection of the crafts, but their inability to adapt and to strive forward annoys them. Half-orcs and half-giants, strangely enough, are often appreciated, for if anything they tend to be direct and strive towards action, something ophiduans can appreciate. Xeph are valued for their individual philosophy, but disdained as a society for their seeming acceptance to maintain what they have and not to improve or expand. Dromites are appreciated for they too have a constant drive towards a goal. Few ophiduans know what elans are and thus have no specific relations to them.
+      </p>
+      <p><strong>Alignment and Religion:</strong> Ophiduans tend to revere their greatest leaders as gods in the flesh, although they never go so far as to actually worship them; rather an ophiduan will follow the great leader and be inspired. The gods of other races and religions are therefore also viewed like this, as representations of great individuals to be admired, aspired towards, and emulated. However, ophiduans also believe that each individual carries within them the seed of divinity if they strive hard enough, and thus ophiduans typically do not bow before any gods. While varying between good and evil, almost every ophiduan tend towards lawful, for the structure of a stable society is necessary to achieve perfection.
+      </p>
+      <p><strong>Adventurers:</strong> Striving for perfection is the typical reason an ophiduan begins adventuring. What other way to train yourself, test yourself, and raise yourself up towards divinity, than to meet and overcome challenges.
+      </p>
+      <p><strong>Male Names:</strong> Mixal, Xiphoter, Maxev, Ioxua, Iaxot, Nixokas, Antax, Tanix, Tyxor, Kraxan.
+      </p>
+      <p><strong>Female Names:</strong> Azlei, Iezi, Sazari, Krizani, Emizi, Samazi, Amazi, Kazeri, Mezan, Kriza.
+      </p><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><h2 id="mw-toc-heading">Contents</h2><label class="toctogglelabel" for="toctogglecheckbox"></label><ul><li><a href="#Racial_Traits">1 Racial Traits</a></li><li><a href="#Alternate_Racial_Traits">2 Alternate Racial Traits</a></li><li><a href="#Favored_Class_Options">3 Favored Class Options</a></li><li><a href="#Archetypes">4 Archetypes</a></li></ul>
+      <ul><li><strong>Ability Score Modifiers</strong>: +2 Dexterity, +2 Wisdom, –2 Charisma: Ophiduans are lithe, quick, and intuitive, but cold in demeanor and monstrous in appearance.</li><li><strong>Reptilian Blood</strong>: Ophiduans are of the humanoid (reptilian) subtype</li><li><strong>Medium</strong>: Ophiduans are Medium creatures and have no bonuses or penalties due to their size.</li><li><strong>Normal Speed</strong>: Ophiduans have a base speed of 30 feet.</li><li><strong>Scaled Hide</strong>: An ophiduan’s skin is hardened scales and grants the character a +1 natural armor bonus to AC.</li><li><strong>Naturally Psionic</strong>: Ophiduans gain the <a href="/wiki/Wild_Talent" title="Wild Talent">Wild Talent</a> feat as a bonus feat at 1st level. If an ophiduan takes levels in a psionic class, he instead gains the <a href="/wiki/Psionic_Talent" title="Psionic Talent">Psionic Talent</a> feat.</li><li><strong>Serpent’s Bite (Ps)</strong>: Once per day, an ophiduan can alter his jaws, gaining a bite attack that deals 1d8 points of damage, plus an extra 1d8 points of damage per five character levels beyond 1st. This effect lasts for 1 minute. The manifester level is equal to the ophiduan’s level.</li><li><strong>Darkvision</strong>: Ophiduans can see in the dark up to 60 feet.</li><li><strong>Poison Resistant</strong>: Ophiduans gain a +2 racial bonus on saving throws against poison.</li><li><strong>Psionic Aptitude</strong>: When an ophiduan takes a level in a favored class, he can choose to gain an additional power point instead of a hit point or skill point.</li><li><strong>Weapon Familiarity</strong>: Ophiduans treat any weapon with the word “ophiduan” in the name as a martial weapon rather than an exotic one.</li><li><strong>Languages</strong>: Ophiduans begin play speaking Common and Ophiduan. Ophiduans with high Intelligence scores can choose can choose from the following: Aquan, Draconic, Dwarven, Elven, and Goblin.</li></ul>
+      <p>The following racial traits replace existing ophiduan racial traits. Consult your GM before selecting any of these new options.
+      </p><ul><li><strong>Deformed</strong>: Part of the ophiduan history involved experimenting on their physical form to create a superior caste. Unfortunate bloodlines of ophiduans are instead twisted versions of the race, when the improvement caused an unexpected side-effect. Ophiduans with this trait have the Slow and Steady speed (as the dwarf racial ability) and gain a +2 natural armor bonus to AC, but suffer a -2 penalty on all Diplomacy checks. This racial trait replaces the normal speed and scaled hide traits.</li><li><strong>Metabolist</strong>: Ophiduans are ever seeking to improve their form. Ophiduans with this racial trait are treated as one level higher when manifesting powers of the psychometabolism discipline with a range of personal. This racial trait replaces the serpent’s bite and poison resistant racial traits.</li><li><strong>Poisonous Flesh</strong>: While most ophiduans are resistant to poison, some are capable of excreting a poison from their skin. Ophiduans with this racial trait can use <em><a href="/wiki/Prevenom" title="Prevenom">prevenom</a></em> or <em><a href="/wiki/Prevenom_Weapon" title="Prevenom Weapon">prevenom weapon</a></em> as a psi-like ability once per day with a manifester level equal to character level. This trait replaces the serpent’s bite racial trait.</li><li><strong>Scholar</strong>: All ophiduans seek to better themselves; some choose to do so by studying. Ophiduans with this racial trait gain a +2 bonus on any one Knowledge skill and this Knowledge skill is always considered a class skill. This racial trait replaces the serpent’s bite racial trait.</li><li><strong>Slippery Hide</strong>: Some ophiduans have more flexible scales than their brethren. Ophiduans with this racial trait gain a +2 racial bonus his CMD to against grapple attempts, to Escape Artist checks, and to escape a grapple. This racial trait replaces the scaly hide racial trait.</li></ul>
+      <p>The following favored class options are available to all characters of this race who have the listed favored class, and unless otherwise stated, the bonus applies each time you select the favored class reward.
+      <br />• <strong><a href="/wiki/Aegis" title="Aegis">Aegis</a>:</strong> Add +1/4 to the maximum dexterity bonus of the aegis's astral suit. <em>([[]])</em><br />• <strong><a href="/wiki/Dread" title="Dread">Dread</a>:</strong> Add +1/2 to Intimidate checks. <em>([[]])</em><br />• <strong><a href="/wiki/Harbinger" title="Harbinger">Harbinger</a>:</strong> Add +1/4 of a maneuver known from the <a href="/wiki/Shattered_Mirror" title="Shattered Mirror">Shattered Mirror</a> or <a href="/wiki/Steel_Serpent" title="Steel Serpent">Steel Serpent</a> disciplines. <em>([[]])</em><br />• <strong><a href="/wiki/Highlord" title="Highlord">Highlord</a>:</strong> The highlord's Charisma is treated as 1 point higher when calculating bonus power points. <em>(<a href="/wiki/Psionics_Augmented:_Highlord" title="Psionics Augmented: Highlord">Psionics Augmented: Highlord</a>)</em><br />• <strong><a href="/wiki/Medic" title="Medic">Medic</a>:</strong> Ophiduan medics are calm and precise in their actions. Gain +1/3 of a new maneuver known from the <a href="/wiki/Sleeping_Goddess" title="Sleeping Goddess">Sleeping Goddess</a> or <a href="/wiki/Steel_Serpent" title="Steel Serpent">Steel Serpent</a> disciplines. <em>(<a href="/wiki/Divergent_Paths:_Medic" title="Divergent Paths: Medic">Divergent Paths: Medic</a>)</em><br />• <strong><a href="/wiki/Psion" title="Psion">Psion</a>:</strong> Add +1/4 on manifester level checks to overcome power resistance. <em>([[]])</em><br />• <strong><a href="/wiki/Psychic_Warrior" title="Psychic Warrior">Psychic Warrior</a>:</strong> Add 1/2 round to the duration of any psychometabolism powers the psychic warrior manifests with a range of Personal and a target of You with a normal duration of 1 round / level. <em>([[]])</em><br />• <strong><a href="/wiki/Soulknife" title="Soulknife">Soulknife</a>:</strong> Add +1 to the soulknife's CMD when resisting a grapple or trip. <em>([[]])</em><br />• <strong><a href="/wiki/Stalker" title="Stalker">Stalker</a>:</strong> Add +1/4 of a maneuver known from the <a href="/wiki/Steel_Serpent" title="Steel Serpent">Steel Serpent</a> or <a href="/wiki/Veiled_Moon" title="Veiled Moon">Veiled Moon</a> disciplines. <em>([[]])</em><br />• <strong><a href="/wiki/Tactician" title="Tactician">Tactician</a>:</strong> The tactician's level is treated as 1 higher for the purposes of his strategy's benefits when using strategies against flat-footed opponents. <em>([[]])</em><br />• <strong><a href="/wiki/Voyager" title="Voyager">Voyager</a>:</strong> The voyager can ignore 2 foot of difficult terrain each round, moving across it unhindered (but still is affected by other effects of that terrain, if any). This option has no effect unless the voyager has selected it 5 times (or another increment of 5); this effect at +4 feet is effectively the same as the effect at +0 feet. <em>(<a href="/wiki/Psionics_Augmented:_Voyager" title="Psionics Augmented: Voyager">Psionics Augmented: Voyager</a>)</em><br />• <strong><a href="/wiki/Zealot" title="Zealot">Zealot</a>:</strong> Add +1/2 to the maximum number of creatures in the zealot's collective. <em>([[]])</em></p><table><tr><th>Name
+      </th><th>Archetype of
+      </th><th>System
+      </th><th>Flavor
+      </th><th>Source
+      </th></tr><tr><td><a href="/wiki/Fleshbinder" title="Fleshbinder">Fleshbinder</a></td><td><ul><li><a href="/wiki/Psion" title="Psion">Psion</a></li></ul>
+      </td><td><ul><li><a href="/wiki/Psionic_(system)" title="Psionic (system)">Psionic</a></li></ul>
+      </td><td><em>For ophiduans, their bodies and bloodlines are but stepping stones to greater power. Their experiments have yielded many variations on their own strain, as well as changing the templates that make up other races. First and foremost among those who perform these experiments are the fleshbinders, their mastery over the physical form unparalleled. Rumors say that these fleshbinders have even learned to use their abilities upon the unborn, granting them psionic powers in utero.</em></td><td><em><ul><li><a href="/wiki/Ultimate_Psionics" title="Ultimate Psionics">Ultimate Psionics</a></li><li><a href="/wiki/Psionics_Augmented" title="Psionics Augmented">Psionics Augmented</a></li></ul>
+      </em></td></tr><tr><td><a href="/wiki/Scaled_Rider" title="Scaled Rider">Scaled Rider</a></td><td><ul><li><a href="/wiki/Psychic_Warrior" title="Psychic Warrior">Psychic Warrior</a></li></ul>
+      </td><td><ul><li><a href="/wiki/Psionic_(system)" title="Psionic (system)">Psionic</a></li></ul>
+      </td><td><em>The scaled rider forges a strong psychic link with a karaan, the serpentine mounts bred by the ophiduan race, utilizing the common blood that is shared between ophiduans and all reptiles to bind a loyal steed to his side.</em></td><td><em><ul><li><a href="/wiki/Ultimate_Psionics" title="Ultimate Psionics">Ultimate Psionics</a></li><li><a href="/wiki/Psionics_Augmented" title="Psionics Augmented">Psionics Augmented</a></li></ul>
+      </em></td></tr></table>
+  languages: []
+  links:
+    supplements:
+      - name: Darkvision
+        uuid: Compendium.pf1-psionics.races.Item.PCAVZmO5T575DndW
+      - name: Deformed
+        uuid: Compendium.pf1-psionics.races.Item.se7VOw4S2Ob6eBw1
+      - name: Medium
+        uuid: Compendium.pf1-psionics.races.Item.HkfByLNH6RhBGoe1
+      - name: Metabolist
+        uuid: Compendium.pf1-psionics.races.Item.qh7oCDLiuYRq3e4y
+      - name: Naturally Psionic
+        uuid: Compendium.pf1-psionics.races.Item.mTCKcW7JRT3BXjv0
+      - name: Normal Speed
+        uuid: Compendium.pf1-psionics.races.Item.2fbiq7Llegxvc5dO
+      - name: Poison Resistant
+        uuid: Compendium.pf1-psionics.races.Item.ILDFHUfu1E2t2tLI
+      - name: Poisonous Flesh
+        uuid: Compendium.pf1-psionics.races.Item.enK9KeK5rqmeErOC
+      - name: Psionic Aptitude
+        uuid: Compendium.pf1-psionics.races.Item.1SFh9CCnEjQqjknM
+      - name: Reptilian Blood
+        uuid: Compendium.pf1-psionics.races.Item.rpXWHbhbD8EP5kci
+      - name: Scaled Hide
+        uuid: Compendium.pf1-psionics.races.Item.zPMtQRdu5Ez87lQM
+      - name: Scholar
+        uuid: Compendium.pf1-psionics.races.Item.Yb0bQWGjVDLFFMpl
+      - name: Serpent’s Bite (Ps)
+        uuid: Compendium.pf1-psionics.races.Item.2xwRGP4syS0Z5Rn9
+      - name: Slippery Hide
+        uuid: Compendium.pf1-psionics.races.Item.VVnbP81Y4mTe4R77
+      - name: Weapon Familiarity
+        uuid: Compendium.pf1-psionics.races.Item.gNMGMxl3vaqwW3cf
+type: race

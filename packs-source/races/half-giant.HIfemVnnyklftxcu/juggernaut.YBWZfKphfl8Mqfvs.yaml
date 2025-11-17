@@ -1,0 +1,69 @@
+_id: YBWZfKphfl8Mqfvs
+_key: '!items!YBWZfKphfl8Mqfvs'
+_raceName: Half-giant
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    fromRace: Half-giant
+folder: HIfemVnnyklftxcu
+img: icons/environment/people/group.webp
+name: Juggernaut
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: <p>Physically imposing, some half-giants are especially gifted at manhandling opponents in combat. Half-giants with this trait gain a +1 racial bonus to their CMB on bull rush, overrun, and trip attempts. <em></p><p><em>This trait replaces the half-giant psionics and survivor traits.</em></p><p></em></li></p>
+  subType: racial
+type: feat
