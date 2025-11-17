@@ -12,24 +12,15 @@ system:
       - Aegis
   description:
     value: >-
-      <p>
-      An aegis learns how to infuse his astral suit with his psionic power,
+      <p> An aegis learns how to infuse his astral suit with his psionic power,
       augmenting the capacity of his suit. Beginning at 4th level, the aegis may
       spend up to one power point per four class levels to customize his Astral
       Suit, gaining one temporary customization point for each power point
-      spent.
-      </p>
-      <p>
-      This ability, activated as a standard action, lasts for a number of
-      rounds equal to the aegis' Intelligence modifier.
-      </p>
-      <p>
-      Activating this ability again, while already in use, immediately
-      causes the previous duration to end.
-      </p>
-      <p>
-      An aegis may end the duration as a free action at any time.
-      </p>
+      spent. </p> <p> This ability, activated as a standard action, lasts for a
+      number of rounds equal to the aegis' Intelligence modifier. </p> <p>
+      Activating this ability again, while already in use, immediately causes
+      the previous duration to end. </p> <p> An aegis may end the duration as a
+      free action at any time. </p>
   sources:
     - date: '2012-07-23'
       pages: 27–31
