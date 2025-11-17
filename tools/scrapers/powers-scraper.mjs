@@ -526,7 +526,8 @@ function parsePowerData(html, url) {
     // Set action type based on save
     if (action.save.type) {
       action.actionType = 'save';
-      action.save.dc = '10 + @sl + @ablMod'; // Standard psionic DC formula
+      // Removed default base DC formula; base now comes from manifestor (psibook)
+      // action.save.dc = '10 + @sl + @ablMod';
     }
 
     // Check for harmless
