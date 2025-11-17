@@ -1,14 +1,13 @@
-_id: s9dIHOCX4I3PXejc
-_key: '!items!s9dIHOCX4I3PXejc'
-_raceName: Half-giant
+_id: iZ0BlHpTHgPa9OgS
+_key: '!items!iZ0BlHpTHgPa9OgS'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     fromRace: Half-giant
-folder: HIfemVnnyklftxcu
-img: icons/magic/fire/blast-jet-stream-embers-orange.webp
-name: Flame of Freedom
+folder: wMuU5K47Nd3ByXWb
+img: systems/pf1/icons/skills/red_05.jpg
+name: Liberty or Death
 system:
   abilityType: na
   acquired: false
@@ -62,9 +61,16 @@ system:
     sur: false
     swm: false
     umd: false
+  contextNotes:
+    - target: allSavingThrows
+      text: +2 racial bonus on saving throws against mind-affecting effects.
   description:
     value: >-
-      <p>Half-giants&nbsp;have&nbsp;an&nbsp;affinity&nbsp;for&nbsp;heat&nbsp;and&nbsp;fire.&nbsp;Half-giants&nbsp;with&nbsp;this&nbsp;trait&nbsp;gain&nbsp;a&nbsp;+1&nbsp;racial&nbsp;bonus&nbsp;to&nbsp;their&nbsp;manifester&nbsp;level&nbsp;on&nbsp;powers&nbsp;with&nbsp;the&nbsp;[fire]&nbsp;descriptor.&nbsp;This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;@UUID[Compendium.world.racial-traits.Item.aqg4hGzdKihwtmjy]{half-giant&nbsp;psionics}&nbsp;trait.</p>
+      <p>The&nbsp;history&nbsp;of&nbsp;the&nbsp;half-giants&nbsp;speaks&nbsp;of&nbsp;them&nbsp;once&nbsp;being&nbsp;an&nbsp;enslaved&nbsp;race.&nbsp;Some&nbsp;half-giants&nbsp;have&nbsp;a&nbsp;built-in&nbsp;defense&nbsp;against&nbsp;being&nbsp;subjugated&nbsp;against&nbsp;their&nbsp;will.&nbsp;Half-giants&nbsp;with&nbsp;this&nbsp;bonus&nbsp;gain&nbsp;a&nbsp;+2&nbsp;racial&nbsp;bonus&nbsp;on&nbsp;saving&nbsp;throws&nbsp;against&nbsp;mind-affecting&nbsp;effects.&nbsp;This&nbsp;trait&nbsp;replaces&nbsp;the@UUID[Item.SapplsNxdaU0uX1e]{&nbsp;fire&nbsp;acclimated}&nbsp;trait.</p>
+  disabled: false
+  inherited: false
+  showInQuickbar: false
+  simple: false
   subType: racial
-  traitCategory: magical
+  summons: false
 type: feat

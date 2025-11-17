@@ -1,14 +1,13 @@
-_id: nanU835UowPJx9UR
-_key: '!items!nanU835UowPJx9UR'
-_raceName: Half-giant
+_id: s9dIHOCX4I3PXejc
+_key: '!items!s9dIHOCX4I3PXejc'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     fromRace: Half-giant
-folder: HIfemVnnyklftxcu
-img: systems/pf1/icons/feats/gorgons-fist.jpg
-name: Cold Acclimated
+folder: wMuU5K47Nd3ByXWb
+img: icons/magic/fire/blast-jet-stream-embers-orange.webp
+name: Flame of Freedom
 system:
   abilityType: na
   acquired: false
@@ -62,13 +61,14 @@ system:
     sur: false
     swm: false
     umd: false
-  contextNotes:
-    - target: allSavingThrows
-      text: >-
-        +2 racial bonus on saving throws against all cold spells, powers and
-        effects.
   description:
     value: >-
-      <p>Although&nbsp;most&nbsp;half-giants&nbsp;reside&nbsp;in&nbsp;desert&nbsp;regions,&nbsp;some&nbsp;have&nbsp;grown&nbsp;toughened&nbsp;against&nbsp;colder&nbsp;extremes.&nbsp;Half-giants&nbsp;with&nbsp;this&nbsp;trait&nbsp;receive&nbsp;a&nbsp;+2&nbsp;racial&nbsp;bonus&nbsp;on&nbsp;saving&nbsp;throws&nbsp;against&nbsp;all&nbsp;cold&nbsp;spells,&nbsp;powers&nbsp;and&nbsp;effects.&nbsp;<em>This&nbsp;replaces&nbsp;the&nbsp;fire&nbsp;acclimated&nbsp;trait.</em></li></p>
+      <p>Half-giants&nbsp;have&nbsp;an&nbsp;affinity&nbsp;for&nbsp;heat&nbsp;and&nbsp;fire.&nbsp;Half-giants&nbsp;with&nbsp;this&nbsp;trait&nbsp;gain&nbsp;a&nbsp;+1&nbsp;racial&nbsp;bonus&nbsp;to&nbsp;their&nbsp;manifester&nbsp;level&nbsp;on&nbsp;powers&nbsp;with&nbsp;the&nbsp;[fire]&nbsp;descriptor.&nbsp;This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;@UUID[Compendium.world.racial-traits.Item.aqg4hGzdKihwtmjy]{half-giant&nbsp;psionics}&nbsp;trait.</p>
+  disabled: false
+  inherited: false
+  showInQuickbar: false
+  simple: false
   subType: racial
+  summons: false
+  traitCategory: magical
 type: feat

@@ -1,14 +1,13 @@
-_id: ERhLW7xx14YN8zor
-_key: '!items!ERhLW7xx14YN8zor'
-_raceName: Half-giant
+_id: nanU835UowPJx9UR
+_key: '!items!nanU835UowPJx9UR'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     fromRace: Half-giant
-folder: HIfemVnnyklftxcu
-img: icons/magic/symbols/runes-star-magenta.webp
-name: Psionic Resonance
+folder: wMuU5K47Nd3ByXWb
+img: systems/pf1/icons/feats/gorgons-fist.jpg
+name: Cold Acclimated
 system:
   abilityType: na
   acquired: false
@@ -63,11 +62,17 @@ system:
     swm: false
     umd: false
   contextNotes:
-    - target: skill.umd
-      text: +2 racial bonus to Use Magic Device checks to activate an item or to use a power stone
+    - target: allSavingThrows
+      text: >-
+        +2 racial bonus on saving throws against all cold spells, powers and
+        effects.
   description:
     value: >-
-      <p>Although&nbsp;considered&nbsp;by&nbsp;the&nbsp;uninformed&nbsp;to&nbsp;be&nbsp;violent&nbsp;and&nbsp;primitive&nbsp;as&nbsp;a&nbsp;race,&nbsp;many&nbsp;half-giants&nbsp;have&nbsp;a&nbsp;natural&nbsp;affinity&nbsp;to&nbsp;handling&nbsp;psionic&nbsp;items.&nbsp;Half-giants&nbsp;with&nbsp;this&nbsp;trait&nbsp;gain&nbsp;a&nbsp;+2&nbsp;racial&nbsp;bonus&nbsp;to&nbsp;Use&nbsp;Magic&nbsp;Device&nbsp;checks&nbsp;to&nbsp;activate&nbsp;an&nbsp;item&nbsp;or&nbsp;to&nbsp;use&nbsp;a&nbsp;power&nbsp;stone.&nbsp;This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;@UUID[Compendium.world.racial-traits.Item.RwcCfLeKBB7rva0c]{survivor}&nbsp;trait.</p>
+      <p>Although&nbsp;most&nbsp;half-giants&nbsp;reside&nbsp;in&nbsp;desert&nbsp;regions,&nbsp;some&nbsp;have&nbsp;grown&nbsp;toughened&nbsp;against&nbsp;colder&nbsp;extremes.&nbsp;Half-giants&nbsp;with&nbsp;this&nbsp;trait&nbsp;receive&nbsp;a&nbsp;+2&nbsp;racial&nbsp;bonus&nbsp;on&nbsp;saving&nbsp;throws&nbsp;against&nbsp;all&nbsp;cold&nbsp;spells,&nbsp;powers&nbsp;and&nbsp;effects.&nbsp;<em>This&nbsp;replaces&nbsp;the&nbsp;fire&nbsp;acclimated&nbsp;trait.</em></li></p>
+  disabled: false
+  inherited: false
+  showInQuickbar: false
+  simple: false
   subType: racial
-  traitCategory: magical
+  summons: false
 type: feat

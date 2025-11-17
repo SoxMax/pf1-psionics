@@ -1,14 +1,13 @@
-_id: iZ0BlHpTHgPa9OgS
-_key: '!items!iZ0BlHpTHgPa9OgS'
-_raceName: Half-giant
+_id: YBWZfKphfl8Mqfvs
+_key: '!items!YBWZfKphfl8Mqfvs'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     fromRace: Half-giant
-folder: HIfemVnnyklftxcu
-img: systems/pf1/icons/skills/red_05.jpg
-name: Liberty or Death
+folder: wMuU5K47Nd3ByXWb
+img: systems/pf1/icons/skills/yellow_37.jpg
+name: Juggernaut
 system:
   abilityType: na
   acquired: false
@@ -63,10 +62,17 @@ system:
     swm: false
     umd: false
   contextNotes:
-    - target: allSavingThrows
-      text: +2 racial bonus on saving throws against mind-affecting effects.
+    - target: cmb
+      text: +1 racial bonus to their CMB on bull rush, overrun, and trip attempts.
+    - target: attack
+      text: +1 racial bonus to their CMB on bull rush, overrun, and trip attempts.
   description:
     value: >-
-      <p>The&nbsp;history&nbsp;of&nbsp;the&nbsp;half-giants&nbsp;speaks&nbsp;of&nbsp;them&nbsp;once&nbsp;being&nbsp;an&nbsp;enslaved&nbsp;race.&nbsp;Some&nbsp;half-giants&nbsp;have&nbsp;a&nbsp;built-in&nbsp;defense&nbsp;against&nbsp;being&nbsp;subjugated&nbsp;against&nbsp;their&nbsp;will.&nbsp;Half-giants&nbsp;with&nbsp;this&nbsp;bonus&nbsp;gain&nbsp;a&nbsp;+2&nbsp;racial&nbsp;bonus&nbsp;on&nbsp;saving&nbsp;throws&nbsp;against&nbsp;mind-affecting&nbsp;effects.&nbsp;This&nbsp;trait&nbsp;replaces&nbsp;the@UUID[Item.SapplsNxdaU0uX1e]{&nbsp;fire&nbsp;acclimated}&nbsp;trait.</p>
+      <p>Physically&nbsp;imposing,&nbsp;some&nbsp;half-giants&nbsp;are&nbsp;especially&nbsp;gifted&nbsp;at&nbsp;manhandling&nbsp;opponents&nbsp;in&nbsp;combat.&nbsp;Half-giants&nbsp;with&nbsp;this&nbsp;trait&nbsp;gain&nbsp;a&nbsp;+1&nbsp;racial&nbsp;bonus&nbsp;to&nbsp;their&nbsp;CMB&nbsp;on&nbsp;bull&nbsp;rush,&nbsp;overrun,&nbsp;and&nbsp;trip&nbsp;attempts.&nbsp;<em></p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;half-giant&nbsp;psionics&nbsp;and&nbsp;survivor&nbsp;traits.</em></p><p></em></li></p>
+  disabled: false
+  inherited: false
+  showInQuickbar: false
+  simple: false
   subType: racial
+  summons: false
 type: feat
