@@ -1,13 +1,13 @@
-_id: WS2QYJCVe6KQokL5
-_key: '!items!WS2QYJCVe6KQokL5'
+_id: 2xwRGP4syS0Z5Rn9
+_key: '!items!2xwRGP4syS0Z5Rn9'
 _stats:
   coreVersion: '13.351'
 flags:
   pf1-psionics:
-    fromRace: Duergar (Psionic)
-folder: qg4G1nuVknsiC9bh
+    fromRace: Ophiduan
+folder: GThEA4SZDMOshUA2
 img: icons/environment/people/group.webp
-name: Vision
+name: Serpent’s Bite
 system:
   abilityType: na
   acquired: false
@@ -62,7 +62,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Duergar&nbsp;have&nbsp;darkvision&nbsp;60&nbsp;ft.</li></p>
+    value: >-
+      <p>Once&nbsp;per&nbsp;day,&nbsp;an&nbsp;ophiduan&nbsp;can&nbsp;alter&nbsp;his&nbsp;jaws,&nbsp;gaining&nbsp;a&nbsp;bite&nbsp;attack&nbsp;that&nbsp;deals&nbsp;1d8&nbsp;points&nbsp;of&nbsp;damage,&nbsp;plus&nbsp;an&nbsp;extra&nbsp;1d8&nbsp;points&nbsp;of&nbsp;damage&nbsp;per&nbsp;five&nbsp;character&nbsp;levels&nbsp;beyond&nbsp;1st.&nbsp;This&nbsp;effect&nbsp;lasts&nbsp;for&nbsp;1&nbsp;minute.&nbsp;The&nbsp;manifester&nbsp;level&nbsp;is&nbsp;equal&nbsp;to&nbsp;the&nbsp;ophiduan’s&nbsp;level.</li></p>
   disabled: false
   inherited: false
   showInCombat: false
@@ -70,5 +71,5 @@ system:
   simple: false
   subType: racial
   summons: false
-  traitCategory: senses
+  traitCategory: magical
 type: feat

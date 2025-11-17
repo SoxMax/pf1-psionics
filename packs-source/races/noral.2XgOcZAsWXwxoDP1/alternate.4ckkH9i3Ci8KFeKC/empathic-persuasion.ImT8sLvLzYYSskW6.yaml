@@ -1,13 +1,13 @@
-_id: WS2QYJCVe6KQokL5
-_key: '!items!WS2QYJCVe6KQokL5'
+_id: ImT8sLvLzYYSskW6
+_key: '!items!ImT8sLvLzYYSskW6'
 _stats:
   coreVersion: '13.351'
 flags:
   pf1-psionics:
-    fromRace: Duergar (Psionic)
-folder: qg4G1nuVknsiC9bh
+    fromRace: Noral
+folder: 4ckkH9i3Ci8KFeKC
 img: icons/environment/people/group.webp
-name: Vision
+name: Empathic Persuasion
 system:
   abilityType: na
   acquired: false
@@ -62,13 +62,13 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Duergar&nbsp;have&nbsp;darkvision&nbsp;60&nbsp;ft.</li></p>
+    value: >-
+      <p>Some&nbsp;norals&nbsp;are&nbsp;skilled&nbsp;at&nbsp;subtle&nbsp;psychic&nbsp;manipulation,&nbsp;despite&nbsp;their&nbsp;fellow&nbsp;norals’&nbsp;dislike&nbsp;of&nbsp;such.&nbsp;Once&nbsp;per&nbsp;day,&nbsp;the&nbsp;noral&nbsp;may&nbsp;manifest&nbsp;<em><a&nbsp;href="/wiki/Empathic_Connection"&nbsp;title="Empathic&nbsp;Connection">empathic&nbsp;connection</a></em>&nbsp;as&nbsp;a&nbsp;psi-like&nbsp;ability&nbsp;(manifester&nbsp;level&nbsp;equal&nbsp;to&nbsp;1/2&nbsp;the&nbsp;noral’s&nbsp;Hit&nbsp;Dice,&nbsp;minimum&nbsp;1).&nbsp;This&nbsp;replaces&nbsp;noral&nbsp;psionics.</li></p>
   disabled: false
   inherited: false
-  showInCombat: false
   showInQuickbar: false
   simple: false
   subType: racial
   summons: false
-  traitCategory: senses
+  traitCategory: magical
 type: feat

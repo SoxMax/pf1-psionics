@@ -1,13 +1,10 @@
-_id: WS2QYJCVe6KQokL5
-_key: '!items!WS2QYJCVe6KQokL5'
+_id: ORRMH9BgwfUYarU8
+_key: '!items!ORRMH9BgwfUYarU8'
 _stats:
   coreVersion: '13.351'
-flags:
-  pf1-psionics:
-    fromRace: Duergar (Psionic)
-folder: qg4G1nuVknsiC9bh
-img: icons/environment/people/group.webp
-name: Vision
+folder: AICxlKKwBc5Q4JsO
+img: systems/pf1/icons/races/goblin.png
+name: Kinslayer
 system:
   abilityType: na
   acquired: false
@@ -61,8 +58,11 @@ system:
     sur: false
     swm: false
     umd: false
+  contextNotes:
+    - target: attack
+      text: +1 racial bonus on attack rolls against goblinoids
   description:
-    value: <p>Duergar&nbsp;have&nbsp;darkvision&nbsp;60&nbsp;ft.</li></p>
+    value: "<p>Outcast&nbsp;blues&nbsp;must&nbsp;fight&nbsp;their&nbsp;own&nbsp;kind&nbsp;to&nbsp;survive.&nbsp;Blues&nbsp;with&nbsp;this&nbsp;trait&nbsp;gain&nbsp;a&nbsp;+1\_racial&nbsp;bonus\_on\_attack&nbsp;rolls\_against&nbsp;goblinoids.</p><p>This&nbsp;replaces&nbsp;the&nbsp;repletion&nbsp;racial&nbsp;trait.</p>"
   disabled: false
   inherited: false
   showInCombat: false
@@ -70,5 +70,5 @@ system:
   simple: false
   subType: racial
   summons: false
-  traitCategory: senses
+  traitCategory: offense
 type: feat

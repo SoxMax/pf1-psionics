@@ -1,13 +1,13 @@
-_id: WS2QYJCVe6KQokL5
-_key: '!items!WS2QYJCVe6KQokL5'
+_id: 3TId4R2KZdTtDIsw
+_key: '!items!3TId4R2KZdTtDIsw'
 _stats:
   coreVersion: '13.351'
 flags:
   pf1-psionics:
     fromRace: Duergar (Psionic)
-folder: qg4G1nuVknsiC9bh
+folder: eO1zo5p3MR2tO6Xo
 img: icons/environment/people/group.webp
-name: Vision
+name: Waking Dreamer
 system:
   abilityType: na
   acquired: false
@@ -62,13 +62,13 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Duergar&nbsp;have&nbsp;darkvision&nbsp;60&nbsp;ft.</li></p>
+    value: >-
+      <p>You&nbsp;have&nbsp;adapted&nbsp;to&nbsp;always&nbsp;humming&nbsp;to&nbsp;keep&nbsp;That&nbsp;Which&nbsp;Sleeps&nbsp;Beneath&nbsp;from&nbsp;waking.&nbsp;You&nbsp;do&nbsp;not&nbsp;need&nbsp;to&nbsp;sleep&nbsp;at&nbsp;all&nbsp;and&nbsp;can&nbsp;meditate,&nbsp;fully&nbsp;awake&nbsp;and&nbsp;aware,&nbsp;for&nbsp;4&nbsp;hours&nbsp;to&nbsp;gain&nbsp;all&nbsp;the&nbsp;benefits&nbsp;of&nbsp;sleep,&nbsp;including&nbsp;regaining&nbsp;power&nbsp;points.</p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;Duergar&nbsp;Psionics&nbsp;trait.</em></p>
   disabled: false
   inherited: false
-  showInCombat: false
   showInQuickbar: false
   simple: false
   subType: racial
   summons: false
-  traitCategory: senses
+  traitCategory: alternate
 type: feat

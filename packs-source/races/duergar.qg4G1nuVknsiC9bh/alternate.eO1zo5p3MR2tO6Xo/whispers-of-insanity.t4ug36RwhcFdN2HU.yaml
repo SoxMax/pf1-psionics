@@ -1,13 +1,13 @@
-_id: WS2QYJCVe6KQokL5
-_key: '!items!WS2QYJCVe6KQokL5'
+_id: t4ug36RwhcFdN2HU
+_key: '!items!t4ug36RwhcFdN2HU'
 _stats:
   coreVersion: '13.351'
 flags:
   pf1-psionics:
     fromRace: Duergar (Psionic)
-folder: qg4G1nuVknsiC9bh
+folder: eO1zo5p3MR2tO6Xo
 img: icons/environment/people/group.webp
-name: Vision
+name: Whispers of Insanity
 system:
   abilityType: na
   acquired: false
@@ -62,13 +62,13 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Duergar&nbsp;have&nbsp;darkvision&nbsp;60&nbsp;ft.</li></p>
+    value: >-
+      <p>Some&nbsp;duergar&nbsp;hum&nbsp;insane&nbsp;lullabies&nbsp;mentally,&nbsp;rather&nbsp;than&nbsp;vocally,&nbsp;in&nbsp;a&nbsp;subconscious&nbsp;attempt&nbsp;to&nbsp;keep&nbsp;That&nbsp;Which&nbsp;Sleeps&nbsp;Beneath&nbsp;asleep,&nbsp;while&nbsp;they&nbsp;themselves&nbsp;suffer&nbsp;from&nbsp;insomnia.&nbsp;Duergar&nbsp;with&nbsp;this&nbsp;trait&nbsp;gain&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;Perception&nbsp;and&nbsp;Stealth&nbsp;checks,&nbsp;and&nbsp;the&nbsp;DC&nbsp;to&nbsp;make&nbsp;Perception&nbsp;checks&nbsp;while&nbsp;sleeping&nbsp;is&nbsp;only&nbsp;+5&nbsp;(rather&nbsp;than&nbsp;+10).</p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;Duergar&nbsp;Psionics&nbsp;trait.</em></p>
   disabled: false
   inherited: false
-  showInCombat: false
   showInQuickbar: false
   simple: false
   subType: racial
   summons: false
-  traitCategory: senses
+  traitCategory: alternate
 type: feat

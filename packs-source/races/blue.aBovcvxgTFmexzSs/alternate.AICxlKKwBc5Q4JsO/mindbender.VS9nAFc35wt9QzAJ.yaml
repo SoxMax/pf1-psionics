@@ -1,13 +1,10 @@
-_id: WS2QYJCVe6KQokL5
-_key: '!items!WS2QYJCVe6KQokL5'
+_id: VS9nAFc35wt9QzAJ
+_key: '!items!VS9nAFc35wt9QzAJ'
 _stats:
   coreVersion: '13.351'
-flags:
-  pf1-psionics:
-    fromRace: Duergar (Psionic)
-folder: qg4G1nuVknsiC9bh
-img: icons/environment/people/group.webp
-name: Vision
+folder: AICxlKKwBc5Q4JsO
+img: systems/pf1/icons/races/goblin.png
+name: Mindbender
 system:
   abilityType: na
   acquired: false
@@ -61,8 +58,11 @@ system:
     sur: false
     swm: false
     umd: false
+  contextNotes:
+    - target: dc.school.enc
+      text: +1 racial bonus to the DCs of compulsion powers
   description:
-    value: <p>Duergar&nbsp;have&nbsp;darkvision&nbsp;60&nbsp;ft.</li></p>
+    value: "<p>The&nbsp;rare&nbsp;blue&nbsp;is&nbsp;able&nbsp;to&nbsp;tap&nbsp;into&nbsp;the&nbsp;minds&nbsp;of&nbsp;others&nbsp;to&nbsp;impose&nbsp;its&nbsp;will.&nbsp;Blues&nbsp;with&nbsp;this&nbsp;trait&nbsp;gain&nbsp;a&nbsp;+1\_racial&nbsp;bonus\_to&nbsp;the&nbsp;saving&nbsp;throw&nbsp;DCs&nbsp;of\_compulsion\_powers&nbsp;they&nbsp;manifest.</p><p>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;stealthy&nbsp;trait.</p>"
   disabled: false
   inherited: false
   showInCombat: false
@@ -70,5 +70,5 @@ system:
   simple: false
   subType: racial
   summons: false
-  traitCategory: senses
+  traitCategory: magical
 type: feat

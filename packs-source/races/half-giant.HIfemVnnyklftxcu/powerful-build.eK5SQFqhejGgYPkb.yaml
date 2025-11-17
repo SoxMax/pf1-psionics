@@ -1,8 +1,7 @@
 _id: eK5SQFqhejGgYPkb
 _key: '!items!eK5SQFqhejGgYPkb'
-_raceName: Half-giant
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     fromRace: Half-giant
@@ -62,8 +61,27 @@ system:
     sur: false
     swm: false
     umd: false
+  contextNotes:
+    - target: cmd
+      text: >-
+        Treated as one size larger if doing so is advantageous to him.
+
+        Treated as one size larger when determining whether a creature’s special
+        attacks based on size
+    - target: cmb
+      text: >-
+        Treated as one size larger if doing so is advantageous to him.
+
+        Treated as one size larger when determining whether a creature’s special
+        attacks based on size
   description:
     value: >-
       <p>The&nbsp;physical&nbsp;stature&nbsp;of&nbsp;half-giants&nbsp;lets&nbsp;them&nbsp;function&nbsp;in&nbsp;many&nbsp;ways&nbsp;as&nbsp;if&nbsp;they&nbsp;were&nbsp;one&nbsp;size&nbsp;category&nbsp;larger.&nbsp;Whenever&nbsp;a&nbsp;half-giant&nbsp;is&nbsp;subject&nbsp;to&nbsp;a&nbsp;size&nbsp;modifier&nbsp;or&nbsp;special&nbsp;size&nbsp;modifier&nbsp;for&nbsp;a&nbsp;Combat&nbsp;Maneuver&nbsp;Bonus&nbsp;or&nbsp;Combat&nbsp;Maneuver&nbsp;Defense&nbsp;(such&nbsp;as&nbsp;during&nbsp;grapple&nbsp;checks,&nbsp;bull&nbsp;rush&nbsp;attempts,&nbsp;and&nbsp;trip&nbsp;attempts),&nbsp;the&nbsp;half-giant&nbsp;is&nbsp;treated&nbsp;as&nbsp;one&nbsp;size&nbsp;larger&nbsp;if&nbsp;doing&nbsp;so&nbsp;is&nbsp;advantageous&nbsp;to&nbsp;him.&nbsp;A&nbsp;half-giant&nbsp;is&nbsp;also&nbsp;considered&nbsp;to&nbsp;be&nbsp;one&nbsp;size&nbsp;larger&nbsp;when&nbsp;determining&nbsp;whether&nbsp;a&nbsp;creature’s&nbsp;special&nbsp;attacks&nbsp;based&nbsp;on&nbsp;size&nbsp;(such&nbsp;as&nbsp;grab&nbsp;or&nbsp;swallow&nbsp;whole)&nbsp;can&nbsp;affect&nbsp;him.&nbsp;A&nbsp;half-giant&nbsp;can&nbsp;use&nbsp;weapons&nbsp;designed&nbsp;for&nbsp;a&nbsp;creature&nbsp;one&nbsp;size&nbsp;larger&nbsp;without&nbsp;penalty.&nbsp;However,&nbsp;his&nbsp;space&nbsp;and&nbsp;reach&nbsp;remain&nbsp;those&nbsp;of&nbsp;a&nbsp;creature&nbsp;of&nbsp;his&nbsp;actual&nbsp;size.&nbsp;The&nbsp;benefts&nbsp;of&nbsp;this&nbsp;racial&nbsp;trait&nbsp;stack&nbsp;with&nbsp;the&nbsp;effects&nbsp;of&nbsp;powers,&nbsp;abilities,&nbsp;and&nbsp;spells&nbsp;that&nbsp;change&nbsp;the&nbsp;subject’s&nbsp;size&nbsp;category.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
   subType: racial
+  summons: false
 type: feat

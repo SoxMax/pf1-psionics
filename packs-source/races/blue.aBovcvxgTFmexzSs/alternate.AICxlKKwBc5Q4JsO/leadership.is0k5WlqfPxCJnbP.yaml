@@ -1,13 +1,10 @@
-_id: WS2QYJCVe6KQokL5
-_key: '!items!WS2QYJCVe6KQokL5'
+_id: is0k5WlqfPxCJnbP
+_key: '!items!is0k5WlqfPxCJnbP'
 _stats:
   coreVersion: '13.351'
-flags:
-  pf1-psionics:
-    fromRace: Duergar (Psionic)
-folder: qg4G1nuVknsiC9bh
-img: icons/environment/people/group.webp
-name: Vision
+folder: AICxlKKwBc5Q4JsO
+img: systems/pf1/icons/races/goblin.png
+name: Leadership
 system:
   abilityType: na
   acquired: false
@@ -21,6 +18,13 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
+  changes:
+    - _id: jVL05QA1
+      formula: '2'
+      operator: add
+      priority: 0
+      target: skill.dip
+      type: racial
   classSkills:
     acr: false
     ahp: false
@@ -62,7 +66,7 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Duergar&nbsp;have&nbsp;darkvision&nbsp;60&nbsp;ft.</li></p>
+    value: "<p>Some&nbsp;blues&nbsp;naturally&nbsp;take&nbsp;on&nbsp;leadership&nbsp;roles,&nbsp;either&nbsp;directly&nbsp;controlling&nbsp;a&nbsp;tribe,&nbsp;or&nbsp;as&nbsp;an&nbsp;important&nbsp;advisor&nbsp;to&nbsp;a&nbsp;leader.&nbsp;A&nbsp;blue&nbsp;with&nbsp;this&nbsp;trait&nbsp;gains&nbsp;a&nbsp;+2\_racial&nbsp;bonus\_to\_Diplomacy\_checks.</p><p>This&nbsp;trait&nbsp;replaces&nbsp;the\_Keen&nbsp;Senses\_trait.</p>"
   disabled: false
   inherited: false
   showInCombat: false
@@ -70,5 +74,5 @@ system:
   simple: false
   subType: racial
   summons: false
-  traitCategory: senses
+  traitCategory: featSkills
 type: feat

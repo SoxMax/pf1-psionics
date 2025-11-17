@@ -1,13 +1,13 @@
-_id: WS2QYJCVe6KQokL5
-_key: '!items!WS2QYJCVe6KQokL5'
+_id: HHydyjYsv9JQQccm
+_key: '!items!HHydyjYsv9JQQccm'
 _stats:
   coreVersion: '13.351'
 flags:
   pf1-psionics:
-    fromRace: Duergar (Psionic)
-folder: qg4G1nuVknsiC9bh
+    fromRace: Noral
+folder: 4ckkH9i3Ci8KFeKC
 img: icons/environment/people/group.webp
-name: Vision
+name: Master of Deception
 system:
   abilityType: na
   acquired: false
@@ -62,13 +62,12 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Duergar&nbsp;have&nbsp;darkvision&nbsp;60&nbsp;ft.</li></p>
+    value: >-
+      <p>All&nbsp;norals&nbsp;are&nbsp;skilled&nbsp;at&nbsp;interacting&nbsp;with&nbsp;other&nbsp;races,&nbsp;but&nbsp;some&nbsp;are&nbsp;unusually&nbsp;skilled&nbsp;in&nbsp;subterfuge.&nbsp;A&nbsp;noral&nbsp;with&nbsp;this&nbsp;trait&nbsp;gains&nbsp;a&nbsp;+4&nbsp;racial&nbsp;bonus&nbsp;on&nbsp;Bluff&nbsp;checks&nbsp;to&nbsp;convince&nbsp;an&nbsp;opponent&nbsp;that&nbsp;what&nbsp;they&nbsp;are&nbsp;saying&nbsp;is&nbsp;true&nbsp;when&nbsp;they&nbsp;tell&nbsp;a&nbsp;lie.&nbsp;In&nbsp;addition,&nbsp;once&nbsp;per&nbsp;day,&nbsp;the&nbsp;noral&nbsp;can&nbsp;roll&nbsp;twice&nbsp;when&nbsp;making&nbsp;a&nbsp;Bluff&nbsp;or&nbsp;Diplomacy&nbsp;check&nbsp;and&nbsp;take&nbsp;the&nbsp;better&nbsp;roll.&nbsp;This&nbsp;replaces&nbsp;noral&nbsp;psionics.</li></p>
   disabled: false
   inherited: false
-  showInCombat: false
   showInQuickbar: false
   simple: false
   subType: racial
   summons: false
-  traitCategory: senses
 type: feat

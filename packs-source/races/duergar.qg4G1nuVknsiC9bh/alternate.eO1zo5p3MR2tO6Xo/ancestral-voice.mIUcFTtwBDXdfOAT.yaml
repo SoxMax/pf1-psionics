@@ -1,13 +1,13 @@
-_id: WS2QYJCVe6KQokL5
-_key: '!items!WS2QYJCVe6KQokL5'
+_id: mIUcFTtwBDXdfOAT
+_key: '!items!mIUcFTtwBDXdfOAT'
 _stats:
   coreVersion: '13.351'
 flags:
   pf1-psionics:
     fromRace: Duergar (Psionic)
-folder: qg4G1nuVknsiC9bh
+folder: eO1zo5p3MR2tO6Xo
 img: icons/environment/people/group.webp
-name: Vision
+name: Ancestral Voice
 system:
   abilityType: na
   acquired: false
@@ -62,13 +62,13 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Duergar&nbsp;have&nbsp;darkvision&nbsp;60&nbsp;ft.</li></p>
+    value: >-
+      <p>Duergars&nbsp;have&nbsp;a&nbsp;connection&nbsp;to&nbsp;their&nbsp;ancestors&nbsp;through&nbsp;the&nbsp;crystals&nbsp;they&nbsp;harvest&nbsp;deep&nbsp;beneath&nbsp;the&nbsp;earth.&nbsp;In&nbsp;some,&nbsp;their&nbsp;ancestors&nbsp;are&nbsp;able&nbsp;to&nbsp;speak&nbsp;to&nbsp;them&nbsp;directly.&nbsp;A&nbsp;duergar&nbsp;with&nbsp;this&nbsp;trait&nbsp;gains&nbsp;a&nbsp;+4&nbsp;racial&nbsp;bonus&nbsp;to&nbsp;Intimidate&nbsp;and&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;to&nbsp;a&nbsp;Knowledge&nbsp;skill.</p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;Stability&nbsp;trait.</em></p>
   disabled: false
   inherited: false
-  showInCombat: false
   showInQuickbar: false
   simple: false
   subType: racial
   summons: false
-  traitCategory: senses
+  traitCategory: alternate
 type: feat

@@ -1,0 +1,74 @@
+_id: y5delzhHxSRwsBTA
+_key: '!items!y5delzhHxSRwsBTA'
+_stats:
+  coreVersion: '13.351'
+flags:
+  pf1-psionics:
+    fromRace: Elan
+folder: xKWdbIbACBGBSQq6
+img: icons/environment/people/group.webp
+name: Strong Blooded
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>Some&nbsp;elans&nbsp;have&nbsp;a&nbsp;small&nbsp;portion&nbsp;of&nbsp;their&nbsp;original&nbsp;racial&nbsp;characteristics&nbsp;survive&nbsp;the&nbsp;transformation&nbsp;process.&nbsp;Elans&nbsp;with&nbsp;this&nbsp;racial&nbsp;trait&nbsp;gain&nbsp;the&nbsp;following&nbsp;benefit&nbsp;based&nbsp;upon&nbsp;their&nbsp;original&nbsp;race&nbsp;and&nbsp;lose&nbsp;the&nbsp;resilience&nbsp;trait.</p><ul><li><em>Blue</em>:&nbsp;The&nbsp;elan&nbsp;can&nbsp;spend&nbsp;one&nbsp;power&nbsp;point&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;gain&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;Stealth&nbsp;checks&nbsp;for&nbsp;one&nbsp;round.</li><li><em>Dromite</em>:&nbsp;The&nbsp;elan&nbsp;can&nbsp;spend&nbsp;one&nbsp;power&nbsp;point&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;gain&nbsp;energy&nbsp;resistance&nbsp;5&nbsp;against&nbsp;his&nbsp;active&nbsp;energy&nbsp;type&nbsp;for&nbsp;one&nbsp;round.</li><li><em>Duergar</em>:&nbsp;The&nbsp;elan&nbsp;can&nbsp;spend&nbsp;one&nbsp;power&nbsp;point&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;gain&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;to&nbsp;his&nbsp;CMD&nbsp;when&nbsp;resisting&nbsp;a&nbsp;bull&nbsp;rush&nbsp;or&nbsp;trip&nbsp;attempt&nbsp;while&nbsp;standing&nbsp;on&nbsp;the&nbsp;ground.</li><li><em>Dwarf</em>:&nbsp;The&nbsp;elan&nbsp;can&nbsp;spend&nbsp;one&nbsp;power&nbsp;point&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;gain&nbsp;the&nbsp;Stonecunning&nbsp;trait&nbsp;for&nbsp;one&nbsp;minute.</li><li><em>Elf</em>:&nbsp;The&nbsp;elan&nbsp;can&nbsp;spend&nbsp;one&nbsp;power&nbsp;point&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;gain&nbsp;low-light&nbsp;vision&nbsp;for&nbsp;one&nbsp;minute.</li><li><em>Gnome</em>:&nbsp;The&nbsp;elan&nbsp;can&nbsp;spend&nbsp;one&nbsp;power&nbsp;point&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;against&nbsp;illusions&nbsp;for&nbsp;one&nbsp;minute.</li><li><em>Half-Elf</em>:&nbsp;The&nbsp;elan&nbsp;can&nbsp;spend&nbsp;one&nbsp;power&nbsp;point&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;gain&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;Perception&nbsp;checks&nbsp;for&nbsp;one&nbsp;round.</li><li><em>Half-Giant</em>:&nbsp;The&nbsp;elan&nbsp;can&nbsp;spend&nbsp;one&nbsp;power&nbsp;point&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;be&nbsp;treated&nbsp;as&nbsp;having&nbsp;the&nbsp;Powerful&nbsp;Build&nbsp;trait&nbsp;for&nbsp;one&nbsp;round.</li><li><em>Half-orc</em>:&nbsp;The&nbsp;elan&nbsp;can&nbsp;spend&nbsp;one&nbsp;power&nbsp;point&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;gain&nbsp;a&nbsp;+2&nbsp;racial&nbsp;bonus&nbsp;to&nbsp;Intimidate&nbsp;checks&nbsp;made&nbsp;in&nbsp;the&nbsp;same&nbsp;round.</li><li><em>Halfling</em>:&nbsp;The&nbsp;elan&nbsp;can&nbsp;spend&nbsp;one&nbsp;power&nbsp;point&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;gain&nbsp;a&nbsp;+2&nbsp;racial&nbsp;bonus&nbsp;on&nbsp;Acrobatics&nbsp;checks&nbsp;made&nbsp;for&nbsp;one&nbsp;round.</li><li><em>Human</em>:&nbsp;The&nbsp;elan&nbsp;can&nbsp;spend&nbsp;one&nbsp;power&nbsp;point&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;gain&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;on&nbsp;any&nbsp;one&nbsp;skill&nbsp;check&nbsp;made&nbsp;in&nbsp;the&nbsp;same&nbsp;round.</li><li><em>Maenad</em>:&nbsp;The&nbsp;elan&nbsp;can&nbsp;spend&nbsp;one&nbsp;power&nbsp;point&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;gain&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;to&nbsp;Strength&nbsp;and&nbsp;suffering&nbsp;a&nbsp;-2&nbsp;penalty&nbsp;to&nbsp;Intelligence&nbsp;and&nbsp;Wisdom&nbsp;for&nbsp;one&nbsp;round.</li><li><em>Ophiduan</em>:&nbsp;The&nbsp;elan&nbsp;can&nbsp;spend&nbsp;one&nbsp;power&nbsp;point&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;gain&nbsp;a&nbsp;+1&nbsp;natural&nbsp;armor&nbsp;bonus&nbsp;to&nbsp;his&nbsp;armor&nbsp;class&nbsp;for&nbsp;one&nbsp;round.</li><li><em>Xeph</em>:&nbsp;The&nbsp;elan&nbsp;can&nbsp;spend&nbsp;one&nbsp;power&nbsp;point&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;increase&nbsp;his&nbsp;base&nbsp;speed&nbsp;by&nbsp;10&nbsp;feet&nbsp;for&nbsp;one&nbsp;round.</li></ul>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+type: feat

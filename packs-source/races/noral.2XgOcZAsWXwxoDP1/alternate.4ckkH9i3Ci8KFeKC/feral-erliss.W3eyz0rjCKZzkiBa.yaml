@@ -1,13 +1,13 @@
-_id: WS2QYJCVe6KQokL5
-_key: '!items!WS2QYJCVe6KQokL5'
+_id: W3eyz0rjCKZzkiBa
+_key: '!items!W3eyz0rjCKZzkiBa'
 _stats:
   coreVersion: '13.351'
 flags:
   pf1-psionics:
-    fromRace: Duergar (Psionic)
-folder: qg4G1nuVknsiC9bh
+    fromRace: Noral
+folder: 4ckkH9i3Ci8KFeKC
 img: icons/environment/people/group.webp
-name: Vision
+name: Feral Erliss
 system:
   abilityType: na
   acquired: false
@@ -62,13 +62,12 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Duergar&nbsp;have&nbsp;darkvision&nbsp;60&nbsp;ft.</li></p>
+    value: >-
+      <p>While&nbsp;a&nbsp;noral&nbsp;bonding&nbsp;with&nbsp;an&nbsp;erliss&nbsp;typically&nbsp;results&nbsp;in&nbsp;improved&nbsp;mental&nbsp;abilities,&nbsp;sometimes&nbsp;it&nbsp;results&nbsp;in&nbsp;the&nbsp;noral&nbsp;taking&nbsp;on&nbsp;more&nbsp;feral&nbsp;aspects.&nbsp;A&nbsp;noral&nbsp;with&nbsp;this&nbsp;trait&nbsp;gains&nbsp;two&nbsp;claw&nbsp;attacks&nbsp;that&nbsp;deal&nbsp;1d4&nbsp;points&nbsp;of&nbsp;damage&nbsp;and&nbsp;gains&nbsp;a&nbsp;+2&nbsp;racial&nbsp;bonus&nbsp;on&nbsp;Survival&nbsp;checks.&nbsp;This&nbsp;replaces&nbsp;gift&nbsp;of&nbsp;tongues&nbsp;and&nbsp;symbiotic&nbsp;resistance.</li></p>
   disabled: false
   inherited: false
-  showInCombat: false
   showInQuickbar: false
   simple: false
   subType: racial
   summons: false
-  traitCategory: senses
 type: feat

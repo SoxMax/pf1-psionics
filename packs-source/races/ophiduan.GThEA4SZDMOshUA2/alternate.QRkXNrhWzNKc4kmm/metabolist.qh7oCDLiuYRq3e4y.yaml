@@ -1,13 +1,13 @@
-_id: WS2QYJCVe6KQokL5
-_key: '!items!WS2QYJCVe6KQokL5'
+_id: qh7oCDLiuYRq3e4y
+_key: '!items!qh7oCDLiuYRq3e4y'
 _stats:
   coreVersion: '13.351'
 flags:
   pf1-psionics:
-    fromRace: Duergar (Psionic)
-folder: qg4G1nuVknsiC9bh
+    fromRace: Ophiduan
+folder: QRkXNrhWzNKc4kmm
 img: icons/environment/people/group.webp
-name: Vision
+name: Metabolist
 system:
   abilityType: na
   acquired: false
@@ -62,7 +62,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Duergar&nbsp;have&nbsp;darkvision&nbsp;60&nbsp;ft.</li></p>
+    value: >-
+      <p>Ophiduans&nbsp;are&nbsp;ever&nbsp;seeking&nbsp;to&nbsp;improve&nbsp;their&nbsp;form.&nbsp;Ophiduans&nbsp;with&nbsp;this&nbsp;racial&nbsp;trait&nbsp;are&nbsp;treated&nbsp;as&nbsp;one&nbsp;level&nbsp;higher&nbsp;when&nbsp;manifesting&nbsp;powers&nbsp;of&nbsp;the&nbsp;psychometabolism&nbsp;discipline&nbsp;with&nbsp;a&nbsp;range&nbsp;of&nbsp;personal.</p><p><em>This&nbsp;racial&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;serpent’s&nbsp;bite&nbsp;and&nbsp;poison&nbsp;resistant&nbsp;racial&nbsp;traits.</em></p><p></li></p>
   disabled: false
   inherited: false
   showInCombat: false
@@ -70,5 +71,4 @@ system:
   simple: false
   subType: racial
   summons: false
-  traitCategory: senses
 type: feat

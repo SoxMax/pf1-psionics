@@ -1,13 +1,13 @@
-_id: WS2QYJCVe6KQokL5
-_key: '!items!WS2QYJCVe6KQokL5'
+_id: pakXXpUZs2E8sfBF
+_key: '!items!pakXXpUZs2E8sfBF'
 _stats:
   coreVersion: '13.351'
 flags:
   pf1-psionics:
-    fromRace: Duergar (Psionic)
-folder: qg4G1nuVknsiC9bh
+    fromRace: Dromite
+folder: xqDmqFpNt3xNB5Qr
 img: icons/environment/people/group.webp
-name: Vision
+name: Gendered
 system:
   abilityType: na
   acquired: false
@@ -62,13 +62,13 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Duergar&nbsp;have&nbsp;darkvision&nbsp;60&nbsp;ft.</li></p>
+    value: >-
+      <p>Some&nbsp;dromites&nbsp;have&nbsp;a&nbsp;gender,&nbsp;allowing&nbsp;them&nbsp;to&nbsp;become&nbsp;a&nbsp;Hive&nbsp;Queen&nbsp;or&nbsp;Consort.&nbsp;Dromites&nbsp;with&nbsp;this&nbsp;racial&nbsp;trait&nbsp;gain&nbsp;a&nbsp;+3&nbsp;bonus&nbsp;to&nbsp;Diplomacy&nbsp;checks&nbsp;on&nbsp;dromites.</p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;Dromite&nbsp;Psionics&nbsp;trait.</em></p>
   disabled: false
   inherited: false
-  showInCombat: false
   showInQuickbar: false
   simple: false
   subType: racial
   summons: false
-  traitCategory: senses
+  traitCategory: alternate
 type: feat

@@ -1,13 +1,13 @@
-_id: WS2QYJCVe6KQokL5
-_key: '!items!WS2QYJCVe6KQokL5'
+_id: 49LhH3xqYodUDUo1
+_key: '!items!49LhH3xqYodUDUo1'
 _stats:
   coreVersion: '13.351'
 flags:
   pf1-psionics:
     fromRace: Duergar (Psionic)
-folder: qg4G1nuVknsiC9bh
+folder: eO1zo5p3MR2tO6Xo
 img: icons/environment/people/group.webp
-name: Vision
+name: Reborn Ancestor
 system:
   abilityType: na
   acquired: false
@@ -62,13 +62,13 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Duergar&nbsp;have&nbsp;darkvision&nbsp;60&nbsp;ft.</li></p>
+    value: >-
+      <p>While&nbsp;most&nbsp;duergar&nbsp;are&nbsp;influenced&nbsp;by&nbsp;the&nbsp;spirits&nbsp;of&nbsp;their&nbsp;ancestors,&nbsp;some&nbsp;are&nbsp;the&nbsp;spirits&nbsp;of&nbsp;their&nbsp;ancestors&nbsp;reborn.&nbsp;The&nbsp;insights&nbsp;and&nbsp;experience&nbsp;of&nbsp;their&nbsp;previous&nbsp;life&nbsp;allows&nbsp;a&nbsp;duergar&nbsp;with&nbsp;this&nbsp;trait&nbsp;to&nbsp;re-roll&nbsp;any&nbsp;d20&nbsp;roll&nbsp;made&nbsp;once&nbsp;per&nbsp;day.</p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;Hardy&nbsp;trait.</em></p>
   disabled: false
   inherited: false
-  showInCombat: false
   showInQuickbar: false
   simple: false
   subType: racial
   summons: false
-  traitCategory: senses
+  traitCategory: alternate
 type: feat

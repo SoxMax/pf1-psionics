@@ -1,13 +1,13 @@
-_id: WS2QYJCVe6KQokL5
-_key: '!items!WS2QYJCVe6KQokL5'
+_id: y6GUYV09bqKnHvdB
+_key: '!items!y6GUYV09bqKnHvdB'
 _stats:
   coreVersion: '13.351'
 flags:
   pf1-psionics:
-    fromRace: Duergar (Psionic)
-folder: qg4G1nuVknsiC9bh
+    fromRace: Elan
+folder: xKWdbIbACBGBSQq6
 img: icons/environment/people/group.webp
-name: Vision
+name: Smooth Talker
 system:
   abilityType: na
   acquired: false
@@ -62,13 +62,13 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Duergar&nbsp;have&nbsp;darkvision&nbsp;60&nbsp;ft.</li></p>
+    value: >-
+      <p>Elans&nbsp;seek&nbsp;to&nbsp;hide&nbsp;their&nbsp;nature&nbsp;from&nbsp;others.&nbsp;Some&nbsp;may&nbsp;have&nbsp;been&nbsp;created&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of&nbsp;hiding&nbsp;their&nbsp;nature&nbsp;and&nbsp;achieving&nbsp;positions&nbsp;of&nbsp;power&nbsp;or&nbsp;trust.&nbsp;Elans&nbsp;with&nbsp;this&nbsp;trait&nbsp;gain&nbsp;a&nbsp;+2&nbsp;racial&nbsp;bonus&nbsp;to&nbsp;Charisma-based&nbsp;skill&nbsp;checks&nbsp;against&nbsp;non-mindless&nbsp;creatures.</p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;aberrant&nbsp;nature&nbsp;and&nbsp;repletion&nbsp;traits.</em></p>
   disabled: false
   inherited: false
-  showInCombat: false
   showInQuickbar: false
   simple: false
   subType: racial
   summons: false
-  traitCategory: senses
+  traitCategory: alternate
 type: feat

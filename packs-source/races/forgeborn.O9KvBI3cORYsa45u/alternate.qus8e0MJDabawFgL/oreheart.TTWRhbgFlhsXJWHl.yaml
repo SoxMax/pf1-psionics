@@ -1,13 +1,13 @@
-_id: WS2QYJCVe6KQokL5
-_key: '!items!WS2QYJCVe6KQokL5'
+_id: TTWRhbgFlhsXJWHl
+_key: '!items!TTWRhbgFlhsXJWHl'
 _stats:
   coreVersion: '13.351'
 flags:
   pf1-psionics:
-    fromRace: Duergar (Psionic)
-folder: qg4G1nuVknsiC9bh
+    fromRace: Forgeborn
+folder: qus8e0MJDabawFgL
 img: icons/environment/people/group.webp
-name: Vision
+name: Oreheart
 system:
   abilityType: na
   acquired: false
@@ -62,13 +62,12 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Duergar&nbsp;have&nbsp;darkvision&nbsp;60&nbsp;ft.</li></p>
+    value: >-
+      <p>A&nbsp;forgeborn&nbsp;with&nbsp;this&nbsp;trait&nbsp;can&nbsp;be&nbsp;raised&nbsp;and&nbsp;resurrected,&nbsp;but&nbsp;can&nbsp;also&nbsp;be&nbsp;healed&nbsp;by&nbsp;repair&nbsp;effects&nbsp;such&nbsp;as&nbsp;reconstruction&nbsp;as&nbsp;if&nbsp;it&nbsp;were&nbsp;a&nbsp;construct.&nbsp;The&nbsp;forgeborn&nbsp;heals&nbsp;only&nbsp;half&nbsp;as&nbsp;much&nbsp;from&nbsp;healing&nbsp;effects&nbsp;(other&nbsp;than&nbsp;effects&nbsp;which&nbsp;work&nbsp;on&nbsp;constructs,&nbsp;such&nbsp;as&nbsp;fast&nbsp;healing&nbsp;and&nbsp;repair&nbsp;effects)&nbsp;and&nbsp;takes&nbsp;only&nbsp;half&nbsp;damage&nbsp;from&nbsp;negative&nbsp;energy&nbsp;effects.&nbsp;This&nbsp;ability&nbsp;replaces&nbsp;source&nbsp;crystal.</li></p>
   disabled: false
   inherited: false
-  showInCombat: false
   showInQuickbar: false
   simple: false
   subType: racial
   summons: false
-  traitCategory: senses
 type: feat

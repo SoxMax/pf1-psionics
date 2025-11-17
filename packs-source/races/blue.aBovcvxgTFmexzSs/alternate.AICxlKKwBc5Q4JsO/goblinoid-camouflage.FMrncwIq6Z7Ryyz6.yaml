@@ -1,0 +1,71 @@
+_id: FMrncwIq6Z7Ryyz6
+_key: '!items!FMrncwIq6Z7Ryyz6'
+_stats:
+  coreVersion: '13.351'
+folder: AICxlKKwBc5Q4JsO
+img: systems/pf1/icons/races/goblin.png
+name: Goblinoid Camouflage
+system:
+  abilityType: su
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: "<p>Some&nbsp;blues&nbsp;have&nbsp;learned&nbsp;to&nbsp;make&nbsp;subtle,&nbsp;but&nbsp;long-lasting,&nbsp;psionic&nbsp;changes&nbsp;to&nbsp;their&nbsp;body&nbsp;structure&nbsp;–&nbsp;the&nbsp;most&nbsp;notable&nbsp;being&nbsp;the&nbsp;change&nbsp;of&nbsp;skin&nbsp;color&nbsp;from&nbsp;their&nbsp;eponymous&nbsp;blue&nbsp;to&nbsp;a&nbsp;more&nbsp;common\_goblin\_color,&nbsp;typically&nbsp;green.&nbsp;They&nbsp;also&nbsp;get&nbsp;into&nbsp;the&nbsp;habit&nbsp;of&nbsp;eating&nbsp;regularly&nbsp;so&nbsp;as&nbsp;to&nbsp;avoid&nbsp;suspicion.&nbsp;By&nbsp;spending&nbsp;1&nbsp;power&nbsp;point&nbsp;as&nbsp;a\_swift&nbsp;action,&nbsp;a&nbsp;blue&nbsp;with&nbsp;this&nbsp;trait&nbsp;gains&nbsp;a&nbsp;+10&nbsp;bonus&nbsp;on\_Disguise\_checks&nbsp;to&nbsp;appear&nbsp;as&nbsp;a&nbsp;normal&nbsp;goblin&nbsp;rather&nbsp;than&nbsp;a&nbsp;blue;&nbsp;this&nbsp;bonus&nbsp;lasts&nbsp;for&nbsp;24&nbsp;hours&nbsp;and&nbsp;is&nbsp;dismissible&nbsp;as&nbsp;a\_free&nbsp;action.</p><p>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;Repletion&nbsp;trait.</p>"
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+  traitCategory: magical
+type: feat

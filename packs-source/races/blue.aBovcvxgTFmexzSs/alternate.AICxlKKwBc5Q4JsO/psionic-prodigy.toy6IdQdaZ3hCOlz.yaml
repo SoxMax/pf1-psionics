@@ -1,13 +1,10 @@
-_id: WS2QYJCVe6KQokL5
-_key: '!items!WS2QYJCVe6KQokL5'
+_id: toy6IdQdaZ3hCOlz
+_key: '!items!toy6IdQdaZ3hCOlz'
 _stats:
   coreVersion: '13.351'
-flags:
-  pf1-psionics:
-    fromRace: Duergar (Psionic)
-folder: qg4G1nuVknsiC9bh
-img: icons/environment/people/group.webp
-name: Vision
+folder: AICxlKKwBc5Q4JsO
+img: systems/pf1/icons/races/goblin.png
+name: Psionic Prodigy
 system:
   abilityType: na
   acquired: false
@@ -21,6 +18,13 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
+  changes:
+    - _id: xjmlW2kz
+      formula: '1'
+      operator: add
+      priority: 0
+      target: bonusFeats
+      type: untyped
   classSkills:
     acr: false
     ahp: false
@@ -62,13 +66,17 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Duergar&nbsp;have&nbsp;darkvision&nbsp;60&nbsp;ft.</li></p>
+    value: "<p>It\_is\_not\_uncommon\_for\_blues\_to\_natively\_have\_the\_ability\_to\_manifest\_powers.\_Blues\_with\_this\_trait\_gain\_the\_@UUID[Compendium.pf1-psionics.feats.Item.1PPq6uhjBd72laNS]{Unlocked&nbsp;Talent}&nbsp;feat\_as\_a\_bonus\_feat.</p><p>This\_trait\_replaces\_the\_Repletion\_and\_stealthy\_traits.</p>"
   disabled: false
   inherited: false
+  links:
+    supplements:
+      - name: Unlocked Talent
+        uuid: Compendium.pf1-psionics.feats.Item.JtjBpOomlvF1l4w8
   showInCombat: false
   showInQuickbar: false
   simple: false
   subType: racial
   summons: false
-  traitCategory: senses
+  traitCategory: featSkills
 type: feat

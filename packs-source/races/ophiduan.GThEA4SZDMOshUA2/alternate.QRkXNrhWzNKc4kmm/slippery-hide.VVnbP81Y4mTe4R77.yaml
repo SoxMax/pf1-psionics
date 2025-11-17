@@ -1,13 +1,13 @@
-_id: WS2QYJCVe6KQokL5
-_key: '!items!WS2QYJCVe6KQokL5'
+_id: VVnbP81Y4mTe4R77
+_key: '!items!VVnbP81Y4mTe4R77'
 _stats:
   coreVersion: '13.351'
 flags:
   pf1-psionics:
-    fromRace: Duergar (Psionic)
-folder: qg4G1nuVknsiC9bh
+    fromRace: Ophiduan
+folder: QRkXNrhWzNKc4kmm
 img: icons/environment/people/group.webp
-name: Vision
+name: Slippery Hide
 system:
   abilityType: na
   acquired: false
@@ -62,13 +62,12 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Duergar&nbsp;have&nbsp;darkvision&nbsp;60&nbsp;ft.</li></p>
+    value: >-
+      <p>Some&nbsp;ophiduans&nbsp;have&nbsp;more&nbsp;flexible&nbsp;scales&nbsp;than&nbsp;their&nbsp;brethren.&nbsp;Ophiduans&nbsp;with&nbsp;this&nbsp;racial&nbsp;trait&nbsp;gain&nbsp;a&nbsp;+2&nbsp;racial&nbsp;bonus&nbsp;his&nbsp;CMD&nbsp;to&nbsp;against&nbsp;grapple&nbsp;attempts,&nbsp;to&nbsp;Escape&nbsp;Artist&nbsp;checks,&nbsp;and&nbsp;to&nbsp;escape&nbsp;a&nbsp;grapple.</p><p><em>This&nbsp;racial&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;scaly&nbsp;hide&nbsp;racial&nbsp;trait.</em></p><p></li></p>
   disabled: false
   inherited: false
-  showInCombat: false
   showInQuickbar: false
   simple: false
   subType: racial
   summons: false
-  traitCategory: senses
 type: feat

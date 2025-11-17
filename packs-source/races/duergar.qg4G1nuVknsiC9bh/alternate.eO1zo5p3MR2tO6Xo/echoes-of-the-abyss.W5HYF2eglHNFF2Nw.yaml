@@ -1,0 +1,74 @@
+_id: W5HYF2eglHNFF2Nw
+_key: '!items!W5HYF2eglHNFF2Nw'
+_stats:
+  coreVersion: '13.351'
+flags:
+  pf1-psionics:
+    fromRace: Duergar (Psionic)
+folder: eO1zo5p3MR2tO6Xo
+img: icons/environment/people/group.webp
+name: Echoes of the Abyss
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>Some&nbsp;duergar&nbsp;are&nbsp;more&nbsp;deeply&nbsp;touched&nbsp;by&nbsp;their&nbsp;experiences&nbsp;underground&nbsp;than&nbsp;their&nbsp;fellows.&nbsp;A&nbsp;duergar&nbsp;with&nbsp;this&nbsp;trait&nbsp;is&nbsp;treated&nbsp;as&nbsp;an&nbsp;aberration&nbsp;rather&nbsp;than&nbsp;a&nbsp;humanoid&nbsp;whenever&nbsp;it&nbsp;would&nbsp;be&nbsp;beneficial&nbsp;(for&nbsp;example,&nbsp;harmful&nbsp;spells&nbsp;which&nbsp;target&nbsp;only&nbsp;humanoids&nbsp;such&nbsp;as&nbsp;Charm&nbsp;Person&nbsp;or&nbsp;Hold&nbsp;Person&nbsp;will&nbsp;automatically&nbsp;fail&nbsp;unless&nbsp;the&nbsp;duergar&nbsp;specifically&nbsp;chooses&nbsp;otherwise;&nbsp;rangers&nbsp;will&nbsp;not&nbsp;be&nbsp;able&nbsp;to&nbsp;use&nbsp;Favored&nbsp;Enemy&nbsp;against&nbsp;him&nbsp;unless&nbsp;they&nbsp;have&nbsp;both&nbsp;humanoids&nbsp;(dwarves)&nbsp;and&nbsp;aberrations&nbsp;as&nbsp;favored&nbsp;enemies,&nbsp;in&nbsp;which&nbsp;case&nbsp;the&nbsp;duergar&nbsp;suffers&nbsp;the&nbsp;lesser&nbsp;bonus&nbsp;of&nbsp;the&nbsp;two).</p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;Hardy&nbsp;trait.</em></p>
+  disabled: false
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+  traitCategory: alternate
+type: feat

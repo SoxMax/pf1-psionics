@@ -1,13 +1,13 @@
-_id: WS2QYJCVe6KQokL5
-_key: '!items!WS2QYJCVe6KQokL5'
+_id: eSUkX78zCVcLiROT
+_key: '!items!eSUkX78zCVcLiROT'
 _stats:
   coreVersion: '13.351'
 flags:
   pf1-psionics:
-    fromRace: Duergar (Psionic)
-folder: qg4G1nuVknsiC9bh
+    fromRace: Forgeborn
+folder: qus8e0MJDabawFgL
 img: icons/environment/people/group.webp
-name: Vision
+name: Second Skin
 system:
   abilityType: na
   acquired: false
@@ -62,13 +62,12 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Duergar&nbsp;have&nbsp;darkvision&nbsp;60&nbsp;ft.</li></p>
+    value: >-
+      <p>Not&nbsp;all&nbsp;forgeborn&nbsp;have&nbsp;a&nbsp;natrually&nbsp;tough&nbsp;exterior,&nbsp;but&nbsp;instead&nbsp;are&nbsp;extremely&nbsp;comfortable&nbsp;in&nbsp;armor.&nbsp;A&nbsp;forgeborn&nbsp;with&nbsp;this&nbsp;trait&nbsp;reduces&nbsp;any&nbsp;armor&nbsp;check&nbsp;penalty&nbsp;from&nbsp;armor&nbsp;worn&nbsp;by&nbsp;1&nbsp;(to&nbsp;a&nbsp;minimum&nbsp;of&nbsp;0)&nbsp;and&nbsp;can&nbsp;sleep&nbsp;in&nbsp;medium&nbsp;or&nbsp;heavy&nbsp;metal&nbsp;armor&nbsp;without&nbsp;suffering&nbsp;ill&nbsp;effects&nbsp;from&nbsp;sleeping&nbsp;in&nbsp;armor.&nbsp;This&nbsp;replaces&nbsp;natural&nbsp;armor.</li></p>
   disabled: false
   inherited: false
-  showInCombat: false
   showInQuickbar: false
   simple: false
   subType: racial
   summons: false
-  traitCategory: senses
 type: feat

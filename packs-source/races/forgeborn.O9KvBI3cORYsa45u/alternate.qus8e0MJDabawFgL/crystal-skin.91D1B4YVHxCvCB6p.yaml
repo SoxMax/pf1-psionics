@@ -1,13 +1,13 @@
-_id: WS2QYJCVe6KQokL5
-_key: '!items!WS2QYJCVe6KQokL5'
+_id: 91D1B4YVHxCvCB6p
+_key: '!items!91D1B4YVHxCvCB6p'
 _stats:
   coreVersion: '13.351'
 flags:
   pf1-psionics:
-    fromRace: Duergar (Psionic)
-folder: qg4G1nuVknsiC9bh
+    fromRace: Forgeborn
+folder: qus8e0MJDabawFgL
 img: icons/environment/people/group.webp
-name: Vision
+name: Crystal Skin
 system:
   abilityType: na
   acquired: false
@@ -62,13 +62,12 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Duergar&nbsp;have&nbsp;darkvision&nbsp;60&nbsp;ft.</li></p>
+    value: >-
+      <p>Some&nbsp;forgeborn&nbsp;are&nbsp;made&nbsp;from&nbsp;shining&nbsp;crystal,&nbsp;which&nbsp;protects&nbsp;them&nbsp;against&nbsp;rays,&nbsp;but&nbsp;isn't&nbsp;as&nbsp;sturdy&nbsp;as&nbsp;other&nbsp;minerals.&nbsp;A&nbsp;forgeborn&nbsp;with&nbsp;this&nbsp;trait&nbsp;gains&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;to&nbsp;its&nbsp;AC&nbsp;against&nbsp;ray&nbsp;attacks.&nbsp;In&nbsp;addition,&nbsp;once&nbsp;per&nbsp;day&nbsp;it&nbsp;can&nbsp;deflect&nbsp;one&nbsp;ray&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action.&nbsp;This&nbsp;replaces&nbsp;natural&nbsp;armor.</li></p>
   disabled: false
   inherited: false
-  showInCombat: false
   showInQuickbar: false
   simple: false
   subType: racial
   summons: false
-  traitCategory: senses
 type: feat

@@ -1,15 +1,15 @@
-_id: WS2QYJCVe6KQokL5
-_key: '!items!WS2QYJCVe6KQokL5'
+_id: PwCpaF4HgMx6vhMF
+_key: '!items!PwCpaF4HgMx6vhMF'
 _stats:
   coreVersion: '13.351'
 flags:
   pf1-psionics:
-    fromRace: Duergar (Psionic)
-folder: qg4G1nuVknsiC9bh
+    fromRace: Xeph
+folder: YRfrX4BaON9fcj6J
 img: icons/environment/people/group.webp
-name: Vision
+name: Quick Craftsman
 system:
-  abilityType: na
+  abilityType: ex
   acquired: false
   changeFlags:
     heavyArmorFullSpeed: false
@@ -62,7 +62,8 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Duergar&nbsp;have&nbsp;darkvision&nbsp;60&nbsp;ft.</li></p>
+    value: >-
+      <p>Some&nbsp;xephs&nbsp;are&nbsp;swifter&nbsp;with&nbsp;their&nbsp;hands&nbsp;than&nbsp;their&nbsp;feet.&nbsp;A&nbsp;xeph&nbsp;with&nbsp;this&nbsp;trait&nbsp;reduces&nbsp;the&nbsp;time&nbsp;required&nbsp;for&nbsp;all&nbsp;item&nbsp;creation&nbsp;(whether&nbsp;via&nbsp;skill&nbsp;or&nbsp;feat)&nbsp;by&nbsp;half.</p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;two&nbsp;daily&nbsp;uses&nbsp;of&nbsp;the&nbsp;Burst&nbsp;trait.</em></p><p></li></p>
   disabled: false
   inherited: false
   showInCombat: false
@@ -70,5 +71,4 @@ system:
   simple: false
   subType: racial
   summons: false
-  traitCategory: senses
 type: feat
