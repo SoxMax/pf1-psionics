@@ -7,7 +7,7 @@ flags:
   pf1-psionics:
     fromRace: Half-giant
 folder: HIfemVnnyklftxcu
-img: icons/environment/people/group.webp
+img: icons/magic/fire/blast-jet-stream-embers-orange.webp
 name: Flame of Freedom
 system:
   abilityType: na
@@ -64,7 +64,7 @@ system:
     umd: false
   description:
     value: >-
-      <p>Half-giants&nbsp;have&nbsp;an&nbsp;affinity&nbsp;for&nbsp;heat&nbsp;and&nbsp;fire.&nbsp;Half-giants&nbsp;with&nbsp;this&nbsp;trait&nbsp;gain&nbsp;a&nbsp;+1&nbsp;racial&nbsp;bonus&nbsp;to&nbsp;their&nbsp;manifester&nbsp;level&nbsp;on&nbsp;powers&nbsp;with&nbsp;the&nbsp;[fire]&nbsp;descriptor.&nbsp;<em></p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;half-giant&nbsp;psionics&nbsp;trait.</em></p><p></em></li></p>
+      <p>Half-giants&nbsp;have&nbsp;an&nbsp;affinity&nbsp;for&nbsp;heat&nbsp;and&nbsp;fire.&nbsp;Half-giants&nbsp;with&nbsp;this&nbsp;trait&nbsp;gain&nbsp;a&nbsp;+1&nbsp;racial&nbsp;bonus&nbsp;to&nbsp;their&nbsp;manifester&nbsp;level&nbsp;on&nbsp;powers&nbsp;with&nbsp;the&nbsp;[fire]&nbsp;descriptor.&nbsp;This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;@UUID[Compendium.world.racial-traits.Item.aqg4hGzdKihwtmjy]{half-giant&nbsp;psionics}&nbsp;trait.</p>
   subType: racial
   traitCategory: magical
 type: feat

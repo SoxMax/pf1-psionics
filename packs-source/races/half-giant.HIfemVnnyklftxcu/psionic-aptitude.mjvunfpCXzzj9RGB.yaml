@@ -7,7 +7,7 @@ flags:
   pf1-psionics:
     fromRace: Half-giant
 folder: HIfemVnnyklftxcu
-img: icons/environment/people/group.webp
+img: icons/magic/symbols/runes-star-magenta.webp
 name: Psionic Aptitude
 system:
   abilityType: na
@@ -64,7 +64,7 @@ system:
     umd: false
   description:
     value: >-
-      <p>When&nbsp;a&nbsp;half-giant&nbsp;takes&nbsp;a&nbsp;level&nbsp;in&nbsp;a&nbsp;favored&nbsp;class,&nbsp;he&nbsp;can&nbsp;choose&nbsp;to&nbsp;gain&nbsp;an&nbsp;additional&nbsp;power&nbsp;point&nbsp;instead&nbsp;of&nbsp;a&nbsp;hit&nbsp;point&nbsp;or&nbsp;skill&nbsp;point.</li></p>
+      <p>When&nbsp;a&nbsp;half-giant&nbsp;takes&nbsp;a&nbsp;level&nbsp;in&nbsp;a&nbsp;favored&nbsp;class,&nbsp;he&nbsp;can&nbsp;choose&nbsp;to&nbsp;gain&nbsp;an&nbsp;additional&nbsp;power&nbsp;point&nbsp;instead&nbsp;of&nbsp;a&nbsp;hit&nbsp;point&nbsp;or&nbsp;skill&nbsp;point.</p>
   subType: racial
   traitCategory: magical
 type: feat

@@ -5,8 +5,8 @@ _stats:
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Half-giant
-img: systems/pf1/icons/races/half-orc.png
-name: Half-giant
+img: systems/pf1/icons/skills/blue_34.jpg
+name: Half-Giant
 system:
   changeFlags:
     heavyArmorFullSpeed: false
@@ -18,6 +18,25 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
+  changes:
+    - _id: xA9OvGBj
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: racial
+    - _id: GoC0FOQt
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: racial
+    - _id: vYAiPOTe
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: dex
+      type: racial
   classSkills:
     acr: false
     ahp: false
@@ -58,8 +77,24 @@ system:
     sur: false
     swm: false
     umd: false
+  contextNotes:
+    - target: cmd
+      text: >-
+        Treated as one size larger if doing so is advantageous to him.
+
+
+        Treated as one size larger when determining whether a creature’s special
+        attacks based on size
+    - target: cmb
+      text: >-
+        Treated as one size larger if doing so is advantageous to him.
+
+
+        Treated as one size larger when determining whether a creature’s special
+        attacks based on size
   creatureSubtypes:
     - giant
+    - human
     - psionic
   creatureTypes:
     - humanoid
@@ -88,4 +123,7 @@ system:
         uuid: Compendium.pf1-psionics.races.Item.SIVfMz6yRTFptMhG
   quadruped: false
   size: med
+  speeds:
+    flyManeuverability: average
+    land: 30
 type: race

@@ -7,7 +7,7 @@ flags:
   pf1-psionics:
     fromRace: Half-giant
 folder: HIfemVnnyklftxcu
-img: icons/environment/people/group.webp
+img: icons/magic/symbols/runes-star-magenta.webp
 name: Naturally Psionic
 system:
   abilityType: na
@@ -22,6 +22,13 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
+  changes:
+    - _id: uXEVxVQX
+      formula: '1'
+      operator: add
+      priority: 0
+      target: bonusFeats
+      type: untyped
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +71,7 @@ system:
     umd: false
   description:
     value: >-
-      <p>Half-giants&nbsp;receive&nbsp;<a&nbsp;href="/wiki/Wild_Talent"&nbsp;title="Wild&nbsp;Talent">Wild&nbsp;Talent</a>&nbsp;as&nbsp;a&nbsp;bonus&nbsp;feat&nbsp;at&nbsp;1st&nbsp;level.&nbsp;If&nbsp;a&nbsp;half-giant&nbsp;takes&nbsp;levels&nbsp;in&nbsp;a&nbsp;psionic&nbsp;class,&nbsp;he&nbsp;instead&nbsp;gains&nbsp;the&nbsp;<a&nbsp;href="/wiki/Psionic_Talent"&nbsp;title="Psionic&nbsp;Talent">Psionic&nbsp;Talent</a>&nbsp;feat.</li></p>
+      <p>Half-giants&nbsp;receive&nbsp;@UUID[Compendium.pf1-psionics.class-abilities.Item.uEP25jjI15ajH2wJ]{Wild&nbsp;Talent&nbsp;}as&nbsp;a&nbsp;bonus&nbsp;feat&nbsp;at&nbsp;1st&nbsp;level.&nbsp;If&nbsp;a&nbsp;half-giant&nbsp;takes&nbsp;levels&nbsp;in&nbsp;a&nbsp;psionic&nbsp;class,&nbsp;he&nbsp;instead&nbsp;gains&nbsp;the&nbsp;@UUID[Compendium.pf1-psionics.feats.Item.JpYoizsD3r5zjKcy]{Psionic&nbsp;Talent}&nbsp;feat.</p>
   subType: racial
   traitCategory: magical
 type: feat

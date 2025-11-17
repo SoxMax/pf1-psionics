@@ -7,7 +7,7 @@ flags:
   pf1-psionics:
     fromRace: Half-giant
 folder: HIfemVnnyklftxcu
-img: icons/environment/people/group.webp
+img: systems/pf1/icons/races/ifrit.png
 name: Fire Acclimated
 system:
   abilityType: na
@@ -62,6 +62,9 @@ system:
     sur: false
     swm: false
     umd: false
+  contextNotes:
+    - target: allSavingThrows
+      text: +2 racial bonus on saving throws against all fire spells and effects.
   description:
     value: >-
       <p>Half-giants&nbsp;receive&nbsp;a&nbsp;+2&nbsp;racial&nbsp;bonus&nbsp;on&nbsp;saving&nbsp;throws&nbsp;against&nbsp;all&nbsp;fire&nbsp;spells&nbsp;and&nbsp;effects.</li></p>

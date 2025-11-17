@@ -7,10 +7,10 @@ flags:
   pf1-psionics:
     fromRace: Half-giant
 folder: HIfemVnnyklftxcu
-img: icons/environment/people/group.webp
+img: systems/pf1/icons/races/android.png
 name: Half-Giant Psionics
 system:
-  abilityType: sp
+  abilityType: na
   acquired: false
   changeFlags:
     heavyArmorFullSpeed: false

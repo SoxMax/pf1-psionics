@@ -7,7 +7,7 @@ flags:
   pf1-psionics:
     fromRace: Half-giant
 folder: HIfemVnnyklftxcu
-img: icons/environment/people/group.webp
+img: systems/pf1/icons/skills/red_05.jpg
 name: Liberty or Death
 system:
   abilityType: na
@@ -62,8 +62,11 @@ system:
     sur: false
     swm: false
     umd: false
+  contextNotes:
+    - target: allSavingThrows
+      text: +2 racial bonus on saving throws against mind-affecting effects.
   description:
     value: >-
-      <p>The&nbsp;history&nbsp;of&nbsp;the&nbsp;half-giants&nbsp;speaks&nbsp;of&nbsp;them&nbsp;once&nbsp;being&nbsp;an&nbsp;enslaved&nbsp;race.&nbsp;Some&nbsp;half-giants&nbsp;have&nbsp;a&nbsp;built-in&nbsp;defense&nbsp;against&nbsp;being&nbsp;subjugated&nbsp;against&nbsp;their&nbsp;will.&nbsp;Half-giants&nbsp;with&nbsp;this&nbsp;bonus&nbsp;gain&nbsp;a&nbsp;+2&nbsp;racial&nbsp;bonus&nbsp;on&nbsp;saving&nbsp;throws&nbsp;against&nbsp;mind-affecting&nbsp;effects.&nbsp;<em></p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;fire&nbsp;acclimated&nbsp;trait.</em></p><p></em></li></p>
+      <p>The&nbsp;history&nbsp;of&nbsp;the&nbsp;half-giants&nbsp;speaks&nbsp;of&nbsp;them&nbsp;once&nbsp;being&nbsp;an&nbsp;enslaved&nbsp;race.&nbsp;Some&nbsp;half-giants&nbsp;have&nbsp;a&nbsp;built-in&nbsp;defense&nbsp;against&nbsp;being&nbsp;subjugated&nbsp;against&nbsp;their&nbsp;will.&nbsp;Half-giants&nbsp;with&nbsp;this&nbsp;bonus&nbsp;gain&nbsp;a&nbsp;+2&nbsp;racial&nbsp;bonus&nbsp;on&nbsp;saving&nbsp;throws&nbsp;against&nbsp;mind-affecting&nbsp;effects.&nbsp;This&nbsp;trait&nbsp;replaces&nbsp;the@UUID[Item.SapplsNxdaU0uX1e]{&nbsp;fire&nbsp;acclimated}&nbsp;trait.</p>
   subType: racial
 type: feat

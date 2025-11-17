@@ -7,7 +7,7 @@ flags:
   pf1-psionics:
     fromRace: Half-giant
 folder: HIfemVnnyklftxcu
-img: icons/environment/people/group.webp
+img: icons/magic/symbols/runes-star-magenta.webp
 name: Psionic Resonance
 system:
   abilityType: na
@@ -62,9 +62,12 @@ system:
     sur: false
     swm: false
     umd: false
+  contextNotes:
+    - target: skill.umd
+      text: +2 racial bonus to Use Magic Device checks to activate an item or to use a power stone
   description:
     value: >-
-      <p>Although&nbsp;considered&nbsp;by&nbsp;the&nbsp;uninformed&nbsp;to&nbsp;be&nbsp;violent&nbsp;and&nbsp;primitive&nbsp;as&nbsp;a&nbsp;race,&nbsp;many&nbsp;half-giants&nbsp;have&nbsp;a&nbsp;natural&nbsp;affinity&nbsp;to&nbsp;handling&nbsp;psionic&nbsp;items.&nbsp;Half-giants&nbsp;with&nbsp;this&nbsp;trait&nbsp;gain&nbsp;a&nbsp;+2&nbsp;racial&nbsp;bonus&nbsp;to&nbsp;Use&nbsp;Magic&nbsp;Device&nbsp;checks&nbsp;to&nbsp;activate&nbsp;an&nbsp;item&nbsp;or&nbsp;to&nbsp;use&nbsp;a&nbsp;power&nbsp;stone.&nbsp;<em></p><p><em>This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;survivor&nbsp;trait.</em></p><p></em></li></p>
+      <p>Although&nbsp;considered&nbsp;by&nbsp;the&nbsp;uninformed&nbsp;to&nbsp;be&nbsp;violent&nbsp;and&nbsp;primitive&nbsp;as&nbsp;a&nbsp;race,&nbsp;many&nbsp;half-giants&nbsp;have&nbsp;a&nbsp;natural&nbsp;affinity&nbsp;to&nbsp;handling&nbsp;psionic&nbsp;items.&nbsp;Half-giants&nbsp;with&nbsp;this&nbsp;trait&nbsp;gain&nbsp;a&nbsp;+2&nbsp;racial&nbsp;bonus&nbsp;to&nbsp;Use&nbsp;Magic&nbsp;Device&nbsp;checks&nbsp;to&nbsp;activate&nbsp;an&nbsp;item&nbsp;or&nbsp;to&nbsp;use&nbsp;a&nbsp;power&nbsp;stone.&nbsp;This&nbsp;trait&nbsp;replaces&nbsp;the&nbsp;@UUID[Compendium.world.racial-traits.Item.RwcCfLeKBB7rva0c]{survivor}&nbsp;trait.</p>
   subType: racial
   traitCategory: magical
 type: feat

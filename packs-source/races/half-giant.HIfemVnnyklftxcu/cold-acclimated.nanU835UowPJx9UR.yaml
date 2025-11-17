@@ -7,7 +7,7 @@ flags:
   pf1-psionics:
     fromRace: Half-giant
 folder: HIfemVnnyklftxcu
-img: icons/environment/people/group.webp
+img: systems/pf1/icons/feats/gorgons-fist.jpg
 name: Cold Acclimated
 system:
   abilityType: na
@@ -62,6 +62,11 @@ system:
     sur: false
     swm: false
     umd: false
+  contextNotes:
+    - target: allSavingThrows
+      text: >-
+        +2 racial bonus on saving throws against all cold spells, powers and
+        effects.
   description:
     value: >-
       <p>Although&nbsp;most&nbsp;half-giants&nbsp;reside&nbsp;in&nbsp;desert&nbsp;regions,&nbsp;some&nbsp;have&nbsp;grown&nbsp;toughened&nbsp;against&nbsp;colder&nbsp;extremes.&nbsp;Half-giants&nbsp;with&nbsp;this&nbsp;trait&nbsp;receive&nbsp;a&nbsp;+2&nbsp;racial&nbsp;bonus&nbsp;on&nbsp;saving&nbsp;throws&nbsp;against&nbsp;all&nbsp;cold&nbsp;spells,&nbsp;powers&nbsp;and&nbsp;effects.&nbsp;<em>This&nbsp;replaces&nbsp;the&nbsp;fire&nbsp;acclimated&nbsp;trait.</em></li></p>

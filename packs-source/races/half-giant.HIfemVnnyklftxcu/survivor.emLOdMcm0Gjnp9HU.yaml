@@ -7,7 +7,7 @@ flags:
   pf1-psionics:
     fromRace: Half-giant
 folder: HIfemVnnyklftxcu
-img: icons/environment/people/group.webp
+img: systems/pf1/icons/races/human.jpg
 name: Survivor
 system:
   abilityType: na
@@ -22,6 +22,13 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
+  changes:
+    - _id: AhQ5k5sF
+      formula: '4'
+      operator: add
+      priority: 0
+      target: skill.sur
+      type: racial
   classSkills:
     acr: false
     ahp: false
@@ -64,6 +71,6 @@ system:
     umd: false
   description:
     value: >-
-      <p>Half-giants&nbsp;gain&nbsp;a&nbsp;+4&nbsp;racial&nbsp;bonus&nbsp;to&nbsp;Survival&nbsp;checks.</li></p>
+      <p>Half-giants&nbsp;gain&nbsp;a&nbsp;+4&nbsp;racial&nbsp;bonus&nbsp;to&nbsp;Survival&nbsp;checks.</p>
   subType: racial
 type: feat
