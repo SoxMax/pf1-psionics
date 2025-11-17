@@ -19,7 +19,6 @@ system:
         units: touch
         value: Touch
       save:
-        dc: 10 + @sl + @ablMod
         description: Will (harmless)
         harmless: true
         type: will

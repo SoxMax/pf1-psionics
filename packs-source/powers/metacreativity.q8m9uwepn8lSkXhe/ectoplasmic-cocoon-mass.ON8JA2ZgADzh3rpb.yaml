@@ -24,7 +24,6 @@ system:
         value: '@cl'
       name: Use
       save:
-        dc: 10 + @sl + @ablMod
         description: Reflex negates
         type: ref
       target:

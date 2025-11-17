@@ -143,54 +143,6 @@ export class AugmentModel extends pf1.models.abstract.DocumentLikeModel {
   }
 
   /**
-   * Apply this augment's effects to an action
-   *
-   * @param {ItemAction} action - The action to modify
-   * @param {object} _rollData - Roll data for formula evaluation (currently unused)
-   * @returns {object} Modified action data
-   */
-  applyToAction(action, _rollData = {}) {
-    const actionData = action.toObject();
-    const effects = this.effects || {};
-
-    // Apply damage bonus
-    if (effects.damageBonus) {
-      actionData.damage = actionData.damage || { parts: [] };
-      actionData.damage.parts = actionData.damage.parts || [];
-      actionData.damage.parts.push({
-        formula: effects.damageBonus,
-        types: {},
-      });
-    }
-
-    // Apply damage multiplier (only if present and different from neutral value)
-    if (effects.damageMult != null && effects.damageMult !== 1) {
-      actionData.damage = actionData.damage || { parts: [] };
-      actionData.damage.parts = (actionData.damage.parts || []).map((part) => ({
-        ...part,
-        formula: `(${part.formula}) * ${effects.damageMult}`,
-      }));
-    }
-
-    // Apply duration multiplier (only if present and different from neutral value)
-    if (effects.durationMultiplier != null && effects.durationMultiplier !== 1 && actionData.duration?.value) {
-      const currentValue = actionData.duration.value;
-      actionData.duration.value = `(${currentValue}) * ${effects.durationMultiplier}`;
-    }
-
-    // Apply DC bonus (only if present and non-zero)
-    if (effects.dcBonus != null && effects.dcBonus !== 0 && actionData.save) {
-      const currentDC = actionData.save.dc || "0";
-      actionData.save.dc = `(${currentDC}) + ${effects.dcBonus}`;
-    }
-
-    // Apply CL bonus (stored in item context for manifester level calculations)
-    // This would be handled by the power item during use
-
-    return actionData;
-  }
-
-  /**
    * Prune empty data from source
    *
    * @param {object} source - Source data to prune

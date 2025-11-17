@@ -29,7 +29,6 @@ system:
         units: ft
         value: 30 ft.
       save:
-        dc: 10 + @sl + @ablMod
         description: Fortitude half
         type: fort
       target:

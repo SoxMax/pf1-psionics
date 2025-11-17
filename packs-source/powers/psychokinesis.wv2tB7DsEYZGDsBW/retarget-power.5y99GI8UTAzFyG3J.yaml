@@ -22,7 +22,6 @@ system:
         units: touch
         value: Close (25 ft. + 5 ft./level) and touch
       save:
-        dc: 10 + @sl + @ablMod
         description: Will negates; see text
         type: will
       target:

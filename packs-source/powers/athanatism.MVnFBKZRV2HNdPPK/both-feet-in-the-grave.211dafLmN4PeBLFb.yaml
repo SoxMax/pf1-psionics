@@ -18,7 +18,6 @@ system:
         units: inst
       name: Use
       save:
-        dc: 10 + @sl + @ablMod
         description: Will negates; see text
         type: will
   description:

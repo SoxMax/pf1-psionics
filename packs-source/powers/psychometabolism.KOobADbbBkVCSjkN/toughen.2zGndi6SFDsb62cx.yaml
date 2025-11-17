@@ -22,7 +22,6 @@ system:
         units: ft
         value: 30 ft.
       save:
-        dc: 10 + @sl + @ablMod
         description: Will negates (harmless)
         harmless: true
         type: will

@@ -27,7 +27,6 @@ system:
         units: ft
         value: 20 ft.
       save:
-        dc: 10 + @sl + @ablMod
         description: Fortitude negates (potentially harmless);
         harmless: true
         type: fort

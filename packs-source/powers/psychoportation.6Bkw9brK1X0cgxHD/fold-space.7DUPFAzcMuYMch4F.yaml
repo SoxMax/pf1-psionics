@@ -25,7 +25,6 @@ system:
         units: long
         value: Long (400 ft. + 40 ft./level)
       save:
-        dc: 10 + @sl + @ablMod
         description: None and Will negates (object)
         type: will
       target:

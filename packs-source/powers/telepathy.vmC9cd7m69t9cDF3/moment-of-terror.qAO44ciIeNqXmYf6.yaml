@@ -22,7 +22,6 @@ system:
         units: med
         value: Medium (100 feet + 10 feet/ level)
       save:
-        dc: 10 + @sl + @ablMod
         description: Will negates
         type: will
       target:

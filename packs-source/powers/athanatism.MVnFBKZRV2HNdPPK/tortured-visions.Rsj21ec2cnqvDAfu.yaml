@@ -25,7 +25,6 @@ system:
         units: unlimited
         value: Unlimited
       save:
-        dc: 10 + @sl + @ablMod
         description: Will negates; see text
         type: will
       target:

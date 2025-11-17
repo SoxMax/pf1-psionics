@@ -26,7 +26,6 @@ system:
         units: ft
         value: special; see text
       save:
-        dc: 10 + @sl + @ablMod
         description: Reflex negates
         type: ref
       target:

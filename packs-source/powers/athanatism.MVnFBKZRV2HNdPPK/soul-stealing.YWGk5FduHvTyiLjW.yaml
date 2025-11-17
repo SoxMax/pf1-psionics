@@ -21,7 +21,6 @@ system:
         units: touch
         value: Touch
       save:
-        dc: 10 + @sl + @ablMod
         description: Fortitude partial
         type: fort
       target:

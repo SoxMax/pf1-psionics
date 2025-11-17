@@ -29,7 +29,6 @@ system:
         units: long
         value: Long (400 ft. + 40 ft./level)
       save:
-        dc: 10 + @sl + @ablMod
         description: Reflex half or Fortitude half; see text;
         type: fort
       target:

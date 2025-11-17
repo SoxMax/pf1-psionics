@@ -21,7 +21,6 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./level)
       save:
-        dc: 10 + @sl + @ablMod
         description: Will negates, see text
         type: will
       target:

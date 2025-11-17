@@ -25,7 +25,6 @@ system:
         units: ft
         value: 10 ft.
       save:
-        dc: 10 + @sl + @ablMod
         description: Will negates
         type: will
       target:

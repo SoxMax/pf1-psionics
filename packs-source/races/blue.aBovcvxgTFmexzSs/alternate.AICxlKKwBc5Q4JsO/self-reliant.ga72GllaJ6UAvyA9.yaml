@@ -72,7 +72,11 @@ system:
     swm: false
     umd: false
   description:
-    value: "<p>Blues outcast from their kin learn to survive on their own, but often lack in social graces. A blue with this trait gains a +3 racial bonus to Survival checks, but suffers a -1 penalty to all Diplomacy checks.</p><p>This trait replaces the Pariah trait.</p>"
+    value: >-
+      <p>Blues outcast from their kin learn to survive on their own, but often
+      lack in social graces. A blue with this trait gains a +3 racial bonus to
+      Survival checks, but suffers a -1 penalty to all Diplomacy
+      checks.</p><p>This trait replaces the Pariah trait.</p>
   disabled: false
   inherited: false
   showInCombat: false

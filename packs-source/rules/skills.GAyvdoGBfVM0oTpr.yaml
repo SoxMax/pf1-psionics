@@ -118,7 +118,28 @@ pages:
     src: null
     system: {}
     text:
-      content: "<p><span style=\"color:rgb(239, 230, 216);font-family:Signika, 'Palatino Linotype', sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(11, 10, 19, 0.9);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Like the @UUID[Compendium.pf1.rules.JournalEntry.x175kVqUfLGPt8tC.JournalEntryPage.3E8pxbjI8MD3JbfQ]{Craft}, @UUID[Compendium.pf1.rules.JournalEntry.x175kVqUfLGPt8tC.JournalEntryPage.emzBKDFNkNnC7N8u]{Perform}, and @UUID[Compendium.pf1.rules.JournalEntry.x175kVqUfLGPt8tC.JournalEntryPage.224EaK0K72NhCeRi]{Profession} skills</span>, @UUID[Compendium.pf1.rules.JournalEntry.x175kVqUfLGPt8tC.JournalEntryPage.BWeqgXSZvUQl68vt]{Knowledge} actually encompasses a number of unrelated skills. This entry specifically relates to the body of lore dealing with the phenomena of psionics in all its many manifestations.</p><p>Knowledge (psionics) covers ancient mysteries, psionic traditions, psychic symbols, cryptic phrases, astral constructs, and psionic races. You can use this skill to identify psionic monsters and their special powers or vulnerabilities.</p><p><strong>Untrained: </strong>An untrained Knowledge (psionics) check is simply an Intelligence check. Without actual training, you know only common knowledge (DC 10 or lower).</p>"
+      content: >-
+        <p><span style="color:rgb(239, 230, 216);font-family:Signika, 'Palatino
+        Linotype',
+        sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(11,
+        10, 19,
+        0.9);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline
+        !important;float:none">Like the
+        @UUID[Compendium.pf1.rules.JournalEntry.x175kVqUfLGPt8tC.JournalEntryPage.3E8pxbjI8MD3JbfQ]{Craft},
+        @UUID[Compendium.pf1.rules.JournalEntry.x175kVqUfLGPt8tC.JournalEntryPage.emzBKDFNkNnC7N8u]{Perform},
+        and
+        @UUID[Compendium.pf1.rules.JournalEntry.x175kVqUfLGPt8tC.JournalEntryPage.224EaK0K72NhCeRi]{Profession}
+        skills</span>,
+        @UUID[Compendium.pf1.rules.JournalEntry.x175kVqUfLGPt8tC.JournalEntryPage.BWeqgXSZvUQl68vt]{Knowledge}
+        actually encompasses a number of unrelated skills. This entry
+        specifically relates to the body of lore dealing with the phenomena of
+        psionics in all its many manifestations.</p><p>Knowledge (psionics)
+        covers ancient mysteries, psionic traditions, psychic symbols, cryptic
+        phrases, astral constructs, and psionic races. You can use this skill to
+        identify psionic monsters and their special powers or
+        vulnerabilities.</p><p><strong>Untrained: </strong>An untrained
+        Knowledge (psionics) check is simply an Intelligence check. Without
+        actual training, you know only common knowledge (DC 10 or lower).</p>
       format: 1
     title:
       level: 1

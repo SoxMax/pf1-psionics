@@ -72,7 +72,7 @@
 
       <div class="spell-settings">
         <div class="form-group spellcasting-class">
-          <h3>{{localize "PF1.SpellcastingClass"}}</h3>
+          <h3>{{localize "PF1-Psionics.ManifestingClass"}}</h3>
           <div class="form-fields">
             <select name="flags.pf1-psionics.manifestors.{{bookId}}.class">
               <option value="">{{localize "PF1.None"}}</option>
@@ -82,7 +82,7 @@
         </div>
 
         <div class="form-group spellcasting-ability">
-          <h3>{{localize "PF1.SpellcastingAbility"}}</h3>
+          <h3>{{localize "PF1-Psionics.ManifestingAbility"}}</h3>
           <div class="form-fields">
             <select name="flags.pf1-psionics.manifestors.{{bookId}}.ability">
               {{selectOptions @root.config.abilities selected=ability}}
@@ -99,7 +99,7 @@
         </div>
 
         <div class="form-group power-point-formula">
-          <h3>{{localize "PF1-Psionics.PowerPoints.Formula"}}</h3>
+          <h3>{{#if autoLevelPowerPoints}} {{localize "PF1-Psionics.PowerPoints.FormulaLabel.Bonus"}} {{else}} {{localize "PF1-Psionics.PowerPoints.FormulaLabel.Maximum"}} {{/if}}</h3>
           <div class="form-fields">
             <input class="formula" type="text" name="flags.pf1-psionics.manifestors.{{bookId}}.powerPoints.formula"
               value="{{powerPoints.formula}}" placeholder="{{localize "PF1.Formula"}}">
@@ -107,7 +107,7 @@
         </div>
 
         <div class="form-group alt-name">
-          <h3>{{localize "PF1.SpellbookName"}}</h3>
+          <h3>{{localize "PF1-Psionics.ManifesterName"}}</h3>
           <div class="form-fields">
             <input type="text" name="flags.pf1-psionics.manifestors.{{bookId}}.name"
               value="{{name}}" placeholder="{{label}}">

@@ -13,6 +13,9 @@
     "AutoMaxPowerLevel": "Auto Calculate Maximum Power Level",
     "HasCantrips": "Has Talents",
     "Browse": "Browse Powers",
+    "ManifesterName": "Manifester Name",
+    "ManifestingClass": "Manifesting Class",
+    "ManifestingAbility": "Manifesting Ability",
     "Skills": {
       "kps": "Knowledge (Psionics)",
       "ahp": "Autohypnosis"
@@ -83,9 +86,12 @@
       "Current": "Current",
       "Maximum": "Maximum",
       "Temporary": "Temporary",
-      "Formula": "Power Point Maximum",
       "Cost": "Power Point Cost",
-      "Offset": "Power Point Offset"
+      "Offset": "Power Point Offset",
+      "FormulaLabel": {
+        "Maximum": "Power Point Maximum",
+        "Bonus": "Power Point Bonus"
+      }
     },
     "Augments": {
       "Plural": "Augments",
@@ -112,6 +118,7 @@
       "Icon": "Augment Icon",
       "Effects": {
         "Label": "Effects",
+        "DamageBonus": "Damage/Healing Bonus",
         "DamageMult": "Damage Multiplier",
         "DurationMult": "Duration Multiplier",
         "RangeMult": "Range Multiplier",

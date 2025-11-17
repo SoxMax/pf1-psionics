@@ -20,7 +20,6 @@ system:
             - untyped
       name: Use
       save:
-        dc: 10 + @sl + @ablMod
         description: Will partial; see text
         type: will
   description:

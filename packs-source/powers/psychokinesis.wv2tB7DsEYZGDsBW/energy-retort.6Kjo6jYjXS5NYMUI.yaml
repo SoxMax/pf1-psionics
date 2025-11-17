@@ -26,7 +26,6 @@ system:
         units: personal
         value: Personal and close (25 ft. + 5 ft./2 levels); see text
       save:
-        dc: 10 + @sl + @ablMod
         description: Reflex half or Fortitude half; see text;
         type: fort
       target:

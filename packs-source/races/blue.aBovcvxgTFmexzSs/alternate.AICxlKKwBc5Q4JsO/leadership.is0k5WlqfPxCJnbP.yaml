@@ -66,7 +66,11 @@ system:
     swm: false
     umd: false
   description:
-    value: "<p>Some blues naturally take on leadership roles, either directly controlling a tribe, or as an important advisor to a leader. A blue with this trait gains a +2 racial bonus to Diplomacy checks.</p><p>This trait replaces the Keen Senses trait.</p>"
+    value: >-
+      <p>Some blues naturally take on leadership roles, either directly
+      controlling a tribe, or as an important advisor to a leader. A blue with
+      this trait gains a +2 racial bonus to Diplomacy checks.</p><p>This trait
+      replaces the Keen Senses trait.</p>
   disabled: false
   inherited: false
   showInCombat: false

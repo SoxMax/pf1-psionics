@@ -26,7 +26,6 @@ system:
         units: inst
       name: Use
       save:
-        dc: 10 + @sl + @ablMod
         description: Reflex half
         type: ref
       target:

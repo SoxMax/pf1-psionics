@@ -1,7 +1,7 @@
 _id: Cnx8bMkrtofPQDRJ
 _key: '!items!Cnx8bMkrtofPQDRJ'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Natural_Healing
@@ -10,13 +10,30 @@ img: icons/magic/life/heart-cross-strong-blue.webp
 name: Natural Healing
 system:
   actions:
-    - actionType: other
+    - _id: FM9cFgGKdrzn40V9
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: heal
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      ammo:
+        type: none
+      damage:
+        parts:
+          - formula: '3'
+            types:
+              - untyped
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -24,6 +41,15 @@ system:
         description: None
       target:
         value: You
+  augments:
+    - _id: 7gZVsb2ULGw5iFcL
+      cost: 1
+      effects:
+        damageBonus: '3'
+      img: icons/magic/life/heart-cross-strong-blue.webp
+      maxUses: null
+      name: Improve Healing
+      requiresFocus: false
   description:
     value: >-
       <p>You rapidly accelerate your natural healing ability. You heal 3 hit
@@ -42,6 +68,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

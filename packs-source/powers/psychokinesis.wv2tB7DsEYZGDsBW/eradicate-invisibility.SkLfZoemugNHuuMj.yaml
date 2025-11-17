@@ -25,7 +25,6 @@ system:
         units: ft
         value: 50 ft.
       save:
-        dc: 10 + @sl + @ablMod
         description: Reflex negates
         type: ref
       target:

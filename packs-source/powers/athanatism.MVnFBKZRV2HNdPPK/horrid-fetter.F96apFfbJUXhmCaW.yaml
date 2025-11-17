@@ -1,7 +1,7 @@
 _id: F96apFfbJUXhmCaW
 _key: '!items!F96apFfbJUXhmCaW'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Horrid_Fetter
@@ -10,19 +10,28 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Horrid Fetter
 system:
   actions:
-    - actionType: save
+    - _id: m8zFNYlQjUfohfxO
+      actionType: save
       activation:
         cost: 10
         type: minute
+        unchained:
+          cost: 1
+          type: nonaction
+      ammo:
+        type: none
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels); see text
       save:
-        dc: 10 + @sl + @ablMod
         description: Will negates
+        harmless: false
         type: will
       target:
         value: One incorporeal creature with 6 HD or less
@@ -141,6 +150,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:
