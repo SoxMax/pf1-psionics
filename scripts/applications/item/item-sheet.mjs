@@ -1,9 +1,7 @@
 import {addClassManifester} from "../../documents/item/item.mjs";
 
 export function renderItemHook(app, html, data) {
-	let item = app.object;
-
-	if (item.type === "class") {
+  if (app.object.type === "class") {
 		injectManifesting(app, html, data);
 	}
 }

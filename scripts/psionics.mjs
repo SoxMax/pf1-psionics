@@ -16,6 +16,7 @@ import {injectActionUse, pf1PreActionUseHook} from "./documents/action/action-us
 import {renderAttackDialogHook} from "./documents/action/attack-dialog.mjs";
 import {onCreateItemHook} from "./documents/item/item.mjs";
 import {onGetRollData} from "./utils.mjs";
+import {renderItemActionSheetHook} from "./applications/item/action-sheet.mjs";
 
 /**
  * Module hooks for initialization, localization, and rendering.
@@ -48,6 +49,8 @@ Hooks.on("pf1PrepareDerivedActorData", pf1PrepareDerivedActorData);
 Hooks.on("pf1ActorRest", pf1ActorRest);
 
 Hooks.on("renderActorSheetPF", renderActorHook);
+
+Hooks.on("renderItemActionSheet", renderItemActionSheetHook)
 
 Hooks.on("renderAttackDialog", renderAttackDialogHook);
 
