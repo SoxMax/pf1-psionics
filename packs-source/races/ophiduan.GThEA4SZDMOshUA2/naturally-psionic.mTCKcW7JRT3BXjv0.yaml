@@ -22,6 +22,13 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
+  changes:
+    - _id: SLbEWeyQ
+      formula: '1'
+      operator: add
+      priority: 0
+      target: bonusFeats
+      type: untyped
   classSkills:
     acr: false
     ahp: false
@@ -64,7 +71,12 @@ system:
     umd: false
   description:
     value: >-
-      <p>Ophiduans&nbsp;gain&nbsp;the&nbsp;<a&nbsp;href="/wiki/Wild_Talent"&nbsp;title="Wild&nbsp;Talent">Wild&nbsp;Talent</a>&nbsp;feat&nbsp;as&nbsp;a&nbsp;bonus&nbsp;feat&nbsp;at&nbsp;1st&nbsp;level.&nbsp;If&nbsp;an&nbsp;ophiduan&nbsp;takes&nbsp;levels&nbsp;in&nbsp;a&nbsp;psionic&nbsp;class,&nbsp;he&nbsp;instead&nbsp;gains&nbsp;the&nbsp;<a&nbsp;href="/wiki/Psionic_Talent"&nbsp;title="Psionic&nbsp;Talent">Psionic&nbsp;Talent</a>&nbsp;feat.</li></p>
+      <p>Ophiduans&nbsp;gain&nbsp;the&nbsp;@UUID[Compendium.pf1-psionics.feats.Item.dtygVowbi3UPpTDb]{Wild&nbsp;Talent}&nbsp;feat&nbsp;as&nbsp;a&nbsp;bonus&nbsp;feat&nbsp;at&nbsp;1st&nbsp;level.&nbsp;If&nbsp;a&nbsp;blue&nbsp;takes&nbsp;levels&nbsp;in&nbsp;a&nbsp;psionic&nbsp;class,&nbsp;he&nbsp;instead&nbsp;gains&nbsp;the&nbsp;@UUID[Compendium.pf1-psionics.feats.Item.JpYoizsD3r5zjKcy]{Psionic&nbsp;Talent}&nbsp;feat.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
   subType: racial
   traitCategory: magical
 type: feat

@@ -70,12 +70,6 @@ system:
       <p>Blues&nbsp;gain&nbsp;the&nbsp;@UUID[Compendium.pf1-psionics.feats.Item.dtygVowbi3UPpTDb]{Wild&nbsp;Talent}&nbsp;feat&nbsp;as&nbsp;a&nbsp;bonus&nbsp;feat&nbsp;at&nbsp;1st&nbsp;level.&nbsp;If&nbsp;a&nbsp;blue&nbsp;takes&nbsp;levels&nbsp;in&nbsp;a&nbsp;psionic&nbsp;class,&nbsp;he&nbsp;instead&nbsp;gains&nbsp;the&nbsp;@UUID[Compendium.pf1-psionics.feats.Item.JpYoizsD3r5zjKcy]{Psionic&nbsp;Talent}&nbsp;feat.</p>
   disabled: false
   inherited: false
-  links:
-    supplements:
-      - name: Wild Talent
-        uuid: Compendium.pf1-psionics.feats.Item.dtygVowbi3UPpTDb
-      - name: Psionic Talent
-        uuid: Compendium.pf1-psionics.feats.Item.JpYoizsD3r5zjKcy
   showInCombat: false
   showInQuickbar: false
   simple: false
