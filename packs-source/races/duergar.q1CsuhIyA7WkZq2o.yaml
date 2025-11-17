@@ -18,6 +18,25 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
+  changes:
+    - _id: MewzNNkV
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: racial
+    - _id: ZoZSqrlF
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: racial
+    - _id: z5nKaOYZ
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: cha
+      type: racial
   classSkills:
     acr: false
     ahp: false
@@ -92,4 +111,7 @@ system:
         uuid: Compendium.pf1-psionics.races.Item.WS2QYJCVe6KQokL5
   quadruped: false
   size: med
+  speeds:
+    flyManeuverability: average
+    land: 20
 type: race

@@ -18,6 +18,25 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
+  changes:
+    - _id: MewzNNkV
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: racial
+    - _id: ZoZSqrlF
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: racial
+    - _id: z5nKaOYZ
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: cha
+      type: racial
   classSkills:
     acr: false
     ahp: false
@@ -70,12 +89,8 @@ system:
     supplements:
       - name: Darkvision
         uuid: Compendium.pf1-psionics.races.Item.PCAVZmO5T575DndW
-      - name: Medium
-        uuid: Compendium.pf1-psionics.races.Item.HkfByLNH6RhBGoe1
       - name: Naturally Psionic
         uuid: Compendium.pf1-psionics.races.Item.mTCKcW7JRT3BXjv0
-      - name: Normal Speed
-        uuid: Compendium.pf1-psionics.races.Item.2fbiq7Llegxvc5dO
       - name: Poison Resistant
         uuid: Compendium.pf1-psionics.races.Item.ILDFHUfu1E2t2tLI
       - name: Psionic Aptitude
@@ -90,4 +105,7 @@ system:
         uuid: Compendium.pf1-psionics.races.Item.gNMGMxl3vaqwW3cf
   quadruped: false
   size: med
+  speeds:
+    flyManeuverability: average
+    land: 30
 type: race

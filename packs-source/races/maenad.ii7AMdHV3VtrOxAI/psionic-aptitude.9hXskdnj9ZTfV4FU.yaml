@@ -1,8 +1,7 @@
 _id: 9hXskdnj9ZTfV4FU
 _key: '!items!9hXskdnj9ZTfV4FU'
-_raceName: Maenad
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     fromRace: Maenad
@@ -65,6 +64,12 @@ system:
   description:
     value: >-
       <p>When&nbsp;a&nbsp;maenad&nbsp;takes&nbsp;a&nbsp;level&nbsp;in&nbsp;a&nbsp;favored&nbsp;class,&nbsp;he&nbsp;can&nbsp;choose&nbsp;to&nbsp;gain&nbsp;an&nbsp;additional&nbsp;power&nbsp;point&nbsp;instead&nbsp;of&nbsp;a&nbsp;hit&nbsp;point&nbsp;or&nbsp;skill&nbsp;point.</li></p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
   subType: racial
+  summons: false
   traitCategory: magical
 type: feat

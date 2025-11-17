@@ -88,4 +88,7 @@ system:
         uuid: Compendium.pf1-psionics.races.Item.iuvtxCfQDh9NCrko
   quadruped: false
   size: med
+  speeds:
+    flyManeuverability: average
+    land: 30
 type: race
