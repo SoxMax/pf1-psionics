@@ -26,13 +26,23 @@ system:
         value: One living creature
   description:
     value: >-
-      <p>Using&nbsp;special&nbsp;oils&nbsp;and&nbsp;powdered&nbsp;crystals&nbsp;(worth&nbsp;1000&nbsp;gp),&nbsp;you&nbsp;draw&nbsp;out&nbsp;the&nbsp;impurities&nbsp;and&nbsp;heal&nbsp;the&nbsp;ravages&nbsp;of&nbsp;time&nbsp;on&nbsp;a&nbsp;single&nbsp;living&nbsp;creature.&nbsp;You&nbsp;reverse&nbsp;the&nbsp;effects&nbsp;of&nbsp;aging,&nbsp;returning&nbsp;the&nbsp;target&nbsp;to&nbsp;the&nbsp;youngest&nbsp;mature&nbsp;age&nbsp;for&nbsp;their&nbsp;race,&nbsp;removing&nbsp;any&nbsp;and&nbsp;all&nbsp;physical&nbsp;penalties&nbsp;for&nbsp;age.&nbsp;However,&nbsp;this&nbsp;transformation&nbsp;is&nbsp;draining&nbsp;and&nbsp;the&nbsp;target&nbsp;takes&nbsp;2&nbsp;permanent&nbsp;negative&nbsp;levels&nbsp;after&nbsp;this&nbsp;process&nbsp;is&nbsp;complete.
+      <p>Using special oils and powdered crystals (worth 1000 gp), you draw out
+      the impurities and heal the ravages of time on a single living creature.
+      You reverse the effects of aging, returning the target to the youngest
+      mature age for their race, removing any and all physical penalties for
+      age. However, this transformation is draining and the target takes 2
+      permanent negative levels after this process is complete.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power may be augmented in one or more of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;and&nbsp;an&nbsp;extra&nbsp;1000&nbsp;gp,&nbsp;the&nbsp;target&nbsp;takes&nbsp;1&nbsp;less&nbsp;permanent&nbsp;negative&nbsp;level.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;and&nbsp;an&nbsp;additional&nbsp;5000&nbsp;gp,&nbsp;you&nbsp;can&nbsp;target&nbsp;a&nbsp;creature&nbsp;that&nbsp;died&nbsp;in&nbsp;the&nbsp;last&nbsp;week,&nbsp;bringing&nbsp;them&nbsp;back&nbsp;to&nbsp;life&nbsp;at&nbsp;their&nbsp;youngest&nbsp;state.</li></ol>
+      </p><ol><li>For every 2 additional power points and an extra 1000 gp, the
+      target takes 1 less permanent negative level.</li><li>If you spend 4
+      additional power points and an additional 5000 gp, you can target a
+      creature that died in the last week, bringing them back to life at their
+      youngest state.</li></ol>
   discipline: psychometabolism
   display:
     auditory: false

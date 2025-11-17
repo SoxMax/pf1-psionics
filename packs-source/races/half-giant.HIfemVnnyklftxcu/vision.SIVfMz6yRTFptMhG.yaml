@@ -1,0 +1,71 @@
+_id: SIVfMz6yRTFptMhG
+_key: '!items!SIVfMz6yRTFptMhG'
+_raceName: Half-giant
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    fromRace: Half-giant
+folder: HIfemVnnyklftxcu
+img: icons/environment/people/group.webp
+name: Vision
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>Half-giants have low-light vision (they can see twice as far as humans
+      in conditions of dim light.)</li></p>
+  subType: racial
+  traitCategory: senses
+type: feat

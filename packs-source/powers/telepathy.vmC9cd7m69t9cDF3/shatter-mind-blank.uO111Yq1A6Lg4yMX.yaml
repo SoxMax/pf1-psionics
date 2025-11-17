@@ -32,11 +32,20 @@ system:
         value: 30-ft.-radius burst centered on you
   description:
     value: >-
-      <p>This&nbsp;power&nbsp;can&nbsp;negate&nbsp;a&nbsp;barred&nbsp;mind,&nbsp;mind&nbsp;blank,&nbsp;or&nbsp;a&nbsp;personal&nbsp;barred&nbsp;mind&nbsp;affecting&nbsp;all&nbsp;creatures&nbsp;within&nbsp;range.&nbsp;If&nbsp;the&nbsp;affected&nbsp;creatures&nbsp;fail&nbsp;their&nbsp;saves&nbsp;and&nbsp;do&nbsp;not&nbsp;overcome&nbsp;your&nbsp;attempt&nbsp;with&nbsp;power&nbsp;resistance,&nbsp;you&nbsp;can&nbsp;shatter&nbsp;the&nbsp;effects&nbsp;by&nbsp;making&nbsp;a&nbsp;successful&nbsp;check&nbsp;(1d20&nbsp;+&nbsp;your&nbsp;manifester&nbsp;level,&nbsp;maximum&nbsp;+20)&nbsp;against&nbsp;a&nbsp;DC&nbsp;equal&nbsp;to&nbsp;11&nbsp;+&nbsp;the&nbsp;manifester&nbsp;level&nbsp;of&nbsp;the&nbsp;creator&nbsp;of&nbsp;each&nbsp;of&nbsp;the&nbsp;effects.&nbsp;If&nbsp;you&nbsp;succeed,&nbsp;the&nbsp;barred&nbsp;mind&nbsp;or&nbsp;mind&nbsp;blank&nbsp;effect&nbsp;ends.&nbsp;Use&nbsp;the&nbsp;same&nbsp;check&nbsp;against&nbsp;each&nbsp;barred&nbsp;mind,&nbsp;mind&nbsp;blank,&nbsp;or&nbsp;personal&nbsp;barred&nbsp;mind&nbsp;effect.
+      <p>This power can negate a barred mind, mind blank, or a personal barred
+      mind affecting all creatures within range. If the affected creatures fail
+      their saves and do not overcome your attempt with power resistance, you
+      can shatter the effects by making a successful check (1d20 + your
+      manifester level, maximum +20) against a DC equal to 11 + the manifester
+      level of the creator of each of the effects. If you succeed, the barred
+      mind or mind blank effect ends. Use the same check against each barred
+      mind, mind blank, or personal barred mind effect.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;designate&nbsp;creatures&nbsp;within&nbsp;the&nbsp;affected&nbsp;area&nbsp;who&nbsp;are&nbsp;not&nbsp;affected&nbsp;by&nbsp;your&nbsp;manifestation&nbsp;of&nbsp;shatter&nbsp;mind&nbsp;blank.
+      <p><strong>Augment:</strong> By spending an additional 4 power points, you
+      may designate creatures within the affected area who are not affected by
+      your manifestation of shatter mind blank.
 
       </p>
   discipline: telepathy

@@ -1,0 +1,39 @@
+_id: lLcSLxljNIYPjIWn
+_key: '!items!lLcSLxljNIYPjIWn'
+_stats:
+  coreVersion: '13.350'
+folder: 8GrwKZgR1JXaU7Be
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Shape Mind Blade
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Soulknife
+  description:
+    value: >-
+      <p>The soulknife's mind blade retains the last chosen form every time it
+      is formed until the soulknife reshapes it. If the soulknife chooses to
+      reshape her blade, it requires a full-round action to do so. She may also
+      re-assign the type of damage dealt as part of reshaping her mind blade if
+      she so chooses.
+
+      </p><p>A soulknife can reassign the ability or abilities she has added to
+      her mind blade; see below. To do so, she must first spend 8 hours in
+      concentration. These cannot be the normal 8 hours used for rest, even if
+      the soulknife does not require sleep. After that period, the mind blade
+      materializes with the new ability or abilities selected by the soulknife.
+
+      </p>
+  sources:
+    - date: '2010-08-01'
+      pages: 28–33
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 57–64
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: shape-mind-blade
+type: feat

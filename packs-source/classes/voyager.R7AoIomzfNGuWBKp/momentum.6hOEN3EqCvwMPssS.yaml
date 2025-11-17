@@ -1,0 +1,45 @@
+_id: 6hOEN3EqCvwMPssS
+_key: '!items!6hOEN3EqCvwMPssS'
+_stats:
+  coreVersion: '13.350'
+folder: R7AoIomzfNGuWBKp
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Momentum
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: >-
+      <p>A voyager generates kinetic energy that amplifies her dodging ability,
+      but can also be channeled into an attack. Whenever the voyager moves, she
+      generates 1 point of momentum for every 10 feet she moved. If the voyager
+      teleports, she can treat the distance between her origin and arrival
+      points as distance moved for the purposes of this effect. Effects that
+      move or teleport the voyager unwillingly, such as a bull rush or a hostile
+      teleport effect do not cause the voyager to generate momentum.
+
+      </p><p>The maximum amount of momentum a voyager can have at once is equal
+      to her class level, no matter how far she moves. A voyager gains a +1
+      dodge bonus to her AC and Reflex saves for each point of momentum she
+      currently has, up to a maximum bonus equal to her Intelligence modifier
+      (minimum +1). When the voyager makes an attack against a single target,
+      she can spend points of momentum to deal an additional 1d6 points of
+      damage per point consumed. On any attack that the voyager spent at least 1
+      point of momentum on, she gains a +2 bonus on her attack roll (even if
+      momentum was spent in other ways, such as powering an augmented attack).
+
+      </p><p>Momentum is not entirely retained from round to round—a voyager
+      loses half of her gathered points of momentum at the start of each of her
+      turns.
+
+      </p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
+  subType: classFeat
+  tag: momentum
+type: feat

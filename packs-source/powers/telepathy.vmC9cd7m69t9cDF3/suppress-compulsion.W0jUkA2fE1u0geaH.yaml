@@ -27,13 +27,31 @@ system:
         value: One dominated or controlled creature
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;attempt&nbsp;to&nbsp;suppress&nbsp;a&nbsp;compulsion&nbsp;or&nbsp;charm&nbsp;effect&nbsp;on&nbsp;another&nbsp;creature&nbsp;by&nbsp;overwhelming&nbsp;the&nbsp;creature&nbsp;with&nbsp;conflicting&nbsp;telepathic&nbsp;signals,&nbsp;temporarily&nbsp;canceling&nbsp;the&nbsp;domination.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;make&nbsp;a&nbsp;manifester&nbsp;level&nbsp;check&nbsp;against&nbsp;the&nbsp;ongoing&nbsp;controlling&nbsp;power&nbsp;currently&nbsp;in&nbsp;effect&nbsp;on&nbsp;the&nbsp;creature.&nbsp;The&nbsp;manifester&nbsp;level&nbsp;check&nbsp;is&nbsp;1d20&nbsp;+&nbsp;your&nbsp;manifester&nbsp;level&nbsp;against&nbsp;a&nbsp;Difficulty&nbsp;Class&nbsp;of&nbsp;11&nbsp;+&nbsp;the&nbsp;manifester&nbsp;level&nbsp;of&nbsp;the&nbsp;entity&nbsp;that&nbsp;originally&nbsp;manifested&nbsp;the&nbsp;controlling&nbsp;power.&nbsp;On&nbsp;a&nbsp;successful&nbsp;check,&nbsp;the&nbsp;control&nbsp;is&nbsp;suppressed&nbsp;for&nbsp;1&nbsp;full&nbsp;round.&nbsp;Even&nbsp;though&nbsp;suppressed,&nbsp;the&nbsp;compulsion&nbsp;or&nbsp;charm&nbsp;is&nbsp;still&nbsp;considered&nbsp;to&nbsp;be&nbsp;running&nbsp;off&nbsp;its&nbsp;duration.
+      <p>You can attempt to suppress a compulsion or charm effect on another
+      creature by overwhelming the creature with conflicting telepathic signals,
+      temporarily canceling the domination. When you manifest this power, make a
+      manifester level check against the ongoing controlling power currently in
+      effect on the creature. The manifester level check is 1d20 + your
+      manifester level against a Difficulty Class of 11 + the manifester level
+      of the entity that originally manifested the controlling power. On a
+      successful check, the control is suppressed for 1 full round. Even though
+      suppressed, the compulsion or charm is still considered to be running off
+      its duration.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or more of
+      the following ways.
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;attempt&nbsp;to&nbsp;permanently&nbsp;terminate&nbsp;a&nbsp;compulsion&nbsp;or&nbsp;charm&nbsp;effect&nbsp;on&nbsp;another&nbsp;creature,&nbsp;including&nbsp;mind&nbsp;control.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;make&nbsp;a&nbsp;manifester&nbsp;level&nbsp;check&nbsp;against&nbsp;the&nbsp;ongoing&nbsp;controlling&nbsp;power&nbsp;currently&nbsp;in&nbsp;effect&nbsp;on&nbsp;the&nbsp;creature&nbsp;against&nbsp;a&nbsp;Difficulty&nbsp;Class&nbsp;of&nbsp;11&nbsp;+&nbsp;the&nbsp;manifester&nbsp;level&nbsp;of&nbsp;the&nbsp;entity&nbsp;that&nbsp;originally&nbsp;manifested&nbsp;the&nbsp;controlling&nbsp;power.&nbsp;On&nbsp;a&nbsp;successful&nbsp;check,&nbsp;you&nbsp;terminate&nbsp;the&nbsp;effect.</li><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;you&nbsp;increase&nbsp;your&nbsp;check&nbsp;result&nbsp;by&nbsp;+1&nbsp;and&nbsp;extend&nbsp;the&nbsp;duration&nbsp;by&nbsp;1&nbsp;round.</li></ol>
+      </p><ol><li>If you spend 4 additional power points, you can attempt to
+      permanently terminate a compulsion or charm effect on another creature,
+      including mind control. When you manifest this power, make a manifester
+      level check against the ongoing controlling power currently in effect on
+      the creature against a Difficulty Class of 11 + the manifester level of
+      the entity that originally manifested the controlling power. On a
+      successful check, you terminate the effect.</li><li>For every additional
+      power point you spend, you increase your check result by +1 and extend the
+      duration by 1 round.</li></ol>
   descriptors:
     - mind-affecting
   discipline: telepathy

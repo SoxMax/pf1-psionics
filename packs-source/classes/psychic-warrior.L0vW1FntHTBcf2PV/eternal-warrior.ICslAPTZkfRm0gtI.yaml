@@ -1,0 +1,41 @@
+_id: ICslAPTZkfRm0gtI
+_key: '!items!ICslAPTZkfRm0gtI'
+_stats:
+  coreVersion: '13.350'
+folder: L0vW1FntHTBcf2PV
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Eternal Warrior
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Psychic Warrior
+  description:
+    value: >-
+      <p>At 20th level, once per day as a free action, the psychic warrior can
+      enter into a very powerful trance. As long as he maintains psionic focus,
+      for up to 5 minutes the psychic warrior adds his Wisdom modifier to his
+      attack rolls, damage rolls, AC, skill checks, ability checks, saves, and
+      initiative, and he increases his speed by +5 feet for every point of his
+      Wisdom modifier. These benefits stack with those that might be granted by
+      his active path's trance (or both paths, if using pathweaving).
+
+      </p>
+
+      <div class="mw-heading mw-heading2"></p>
+  sources:
+    - date: '2010-08-01'
+      pages: 25–27
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2010-01-01'
+      pages: 29–31
+      publisher: Dreamscarred Press
+      title: 'Psionics Unleashed: Revised'
+    - date: '2013-12-24'
+      pages: 53–55
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: eternal-warrior
+type: feat

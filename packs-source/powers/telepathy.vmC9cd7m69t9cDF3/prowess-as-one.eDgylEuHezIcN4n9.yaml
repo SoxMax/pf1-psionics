@@ -30,17 +30,42 @@ system:
         value: You plus one creature
   description:
     value: >-
-      <p>This&nbsp;power&nbsp;links&nbsp;the&nbsp;fighting&nbsp;prowess&nbsp;of&nbsp;one&nbsp;to&nbsp;another.&nbsp;Treat&nbsp;all&nbsp;targets&nbsp;of&nbsp;this&nbsp;power&nbsp;in&nbsp;all&nbsp;ways&nbsp;as&nbsp;if&nbsp;they&nbsp;have&nbsp;a&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;equal&nbsp;to&nbsp;the&nbsp;highest&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;amongst&nbsp;all&nbsp;willing&nbsp;targets&nbsp;affected&nbsp;(this&nbsp;can&nbsp;grant&nbsp;additional&nbsp;attacks&nbsp;per&nbsp;round&nbsp;as&nbsp;usual&nbsp;for&nbsp;a&nbsp;high&nbsp;base&nbsp;attack&nbsp;bonus).
+      <p>This power links the fighting prowess of one to another. Treat all
+      targets of this power in all ways as if they have a base attack bonus
+      equal to the highest base attack bonus amongst all willing targets
+      affected (this can grant additional attacks per round as usual for a high
+      base attack bonus).
 
       </p>
 
-      <p>Temporary&nbsp;effects&nbsp;that&nbsp;alter&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;are&nbsp;ignored&nbsp;by&nbsp;this&nbsp;power.&nbsp;While&nbsp;subjects&nbsp;still&nbsp;gain&nbsp;the&nbsp;benefit&nbsp;of&nbsp;both&nbsp;effects,&nbsp;prowess&nbsp;as&nbsp;one&nbsp;only&nbsp;deals&nbsp;with&nbsp;their&nbsp;regular&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;before&nbsp;other&nbsp;temporary&nbsp;effects&nbsp;are&nbsp;applied.
+      <p>Temporary effects that alter base attack bonus are ignored by this
+      power. While subjects still gain the benefit of both effects, prowess as
+      one only deals with their regular base attack bonus before other temporary
+      effects are applied.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You may augment this power in one or both of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;3&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;share&nbsp;one&nbsp;of&nbsp;the&nbsp;target's&nbsp;weapon&nbsp;proficiencies&nbsp;with&nbsp;every&nbsp;other&nbsp;willing&nbsp;target.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;instead&nbsp;share&nbsp;the&nbsp;lowest&nbsp;base&nbsp;attack&nbsp;amongst&nbsp;any&nbsp;targets&nbsp;you&nbsp;choose&nbsp;instead&nbsp;of&nbsp;the&nbsp;highest.&nbsp;This&nbsp;can&nbsp;cause&nbsp;a&nbsp;loss&nbsp;of&nbsp;melee&nbsp;attacks&nbsp;or&nbsp;deny&nbsp;use&nbsp;of&nbsp;feats&nbsp;or&nbsp;class&nbsp;abilities.&nbsp;If&nbsp;a&nbsp;recipient's&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;would&nbsp;be&nbsp;lowered&nbsp;through&nbsp;the&nbsp;use&nbsp;of&nbsp;this&nbsp;power,&nbsp;they&nbsp;may&nbsp;attempt&nbsp;a&nbsp;Will&nbsp;saving&nbsp;throw&nbsp;each&nbsp;round&nbsp;to&nbsp;ignore&nbsp;its&nbsp;effects.</li><li>For&nbsp;every&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;may&nbsp;also&nbsp;select&nbsp;one&nbsp;class&nbsp;feature&nbsp;belonging&nbsp;to&nbsp;you&nbsp;or&nbsp;a&nbsp;target&nbsp;that&nbsp;directly&nbsp;modifies&nbsp;the&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;you&nbsp;share,&nbsp;either&nbsp;by&nbsp;providing&nbsp;a&nbsp;bonus&nbsp;or&nbsp;by&nbsp;altering&nbsp;the&nbsp;base&nbsp;attack&nbsp;bonus.&nbsp;Example&nbsp;class&nbsp;features&nbsp;include&nbsp;the&nbsp;monk's&nbsp;Flurry&nbsp;of&nbsp;Blows&nbsp;class&nbsp;feature.&nbsp;The&nbsp;GM&nbsp;may&nbsp;allow&nbsp;additional&nbsp;abilities&nbsp;at&nbsp;his&nbsp;discretion.&nbsp;You&nbsp;may&nbsp;effectively&nbsp;grant&nbsp;this&nbsp;class&nbsp;feature&nbsp;to&nbsp;any&nbsp;or&nbsp;all&nbsp;willing&nbsp;targets&nbsp;of&nbsp;your&nbsp;choice;&nbsp;treat&nbsp;them&nbsp;as&nbsp;if&nbsp;they&nbsp;actually&nbsp;had&nbsp;the&nbsp;class&nbsp;feature&nbsp;in&nbsp;question,&nbsp;with&nbsp;one&nbsp;exception:&nbsp;if&nbsp;a&nbsp;class&nbsp;feature&nbsp;has&nbsp;additional&nbsp;benefits&nbsp;besides&nbsp;directly&nbsp;modifying&nbsp;the&nbsp;base&nbsp;attack&nbsp;bonus,&nbsp;those&nbsp;additional&nbsp;benefits&nbsp;are&nbsp;not&nbsp;included.</li></ol>
+      </p><ol><li>For every 3 additional power points you spend, you can share
+      one of the target's weapon proficiencies with every other willing
+      target.</li><li>If you spend 4 additional power points, you can instead
+      share the lowest base attack amongst any targets you choose instead of the
+      highest. This can cause a loss of melee attacks or deny use of feats or
+      class abilities. If a recipient's base attack bonus would be lowered
+      through the use of this power, they may attempt a Will saving throw each
+      round to ignore its effects.</li><li>For every 4 additional power points
+      you spend, you may also select one class feature belonging to you or a
+      target that directly modifies the base attack bonus you share, either by
+      providing a bonus or by altering the base attack bonus. Example class
+      features include the monk's Flurry of Blows class feature. The GM may
+      allow additional abilities at his discretion. You may effectively grant
+      this class feature to any or all willing targets of your choice; treat
+      them as if they actually had the class feature in question, with one
+      exception: if a class feature has additional benefits besides directly
+      modifying the base attack bonus, those additional benefits are not
+      included.</li></ol>
   descriptors:
     - mind-affecting
     - network

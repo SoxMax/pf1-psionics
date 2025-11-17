@@ -1,0 +1,61 @@
+_id: NzIuWuxgshBSIfyn
+_key: '!items!NzIuWuxgshBSIfyn'
+_stats:
+  coreVersion: '13.350'
+folder: 1eB0rnnz4sKJdi7L
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Echo Effect
+system:
+  abilityType: su
+  associations:
+    classes:
+      - Tactician
+  description:
+    value: >-
+      <p>At 8th level, the tactician gains the ability to copy non-permanent
+      magical and psionic effects within his collective. If a member of the
+      collective is affected by a magical or psionic effect with a duration
+      greater than 1 round, the tactician can echo it onto another member of his
+      collective. To do so the tactician must first identify the power properly
+      (see the Spellcraft skill description).
+
+      </p><p>Echoing a magical or psionic effect is a standard action that
+      provokes attacks of opportunity and costs the tactician a number of power
+      points equal to the original effect's caster or manifester level
+      (whichever applies). As a supernatural ability, a tactician is permitted
+      to spend more power points than his manifest level on this effect. The new
+      target must be legal for the effect in question (for instance, if you
+      attempt to echo an unaugmented Empathic Connection on a dog, the echo will
+      fail). If the effect allows a saving throw, the new target is entitled to
+      a saving throwwhen the effect is echoed (same DC as the original power).
+
+      </p><p>Only the basic effect and augmentation are echoed: metamagic and
+      metapsionic feats do not echo. The echo has all the same decisions made as
+      the original. For example, Specified Energy Adaption echoes would guard
+      against the same energy type, while a 5pp Empathic Connection (extended
+      duration) could not be echoed as a 5pp Empathic Connection (affects
+      aberrations). The echo takes effect at the same caster or manifester level
+      as the originator. When the original ends or leaves the collective, all
+      echoes of it also end. An echo can be dispelled as normal without
+      terminating the original.
+
+      </p><p>A tactician can spend power points to augment this supernatural
+      ability. For every 4 additional power points spent, the echo may reach an
+      additional target. If the augment would raise the cost of the echo above
+      the tactician's manifester level, the echo attempt fail (although he may
+      still attempt to echo it onto a single target). The tactician knows if an
+      effect is beyond his ability to echo this way when he identifies it.
+
+      </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 52–57
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 64–69
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: echo-effect
+type: feat

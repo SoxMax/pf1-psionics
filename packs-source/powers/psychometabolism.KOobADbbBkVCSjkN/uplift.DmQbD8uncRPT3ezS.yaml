@@ -30,25 +30,48 @@ system:
         value: One animal
   description:
     value: >-
-      <p>A&nbsp;sphere&nbsp;of&nbsp;psychic&nbsp;static&nbsp;emanates&nbsp;from&nbsp;you,&nbsp;hinting&nbsp;at&nbsp;a&nbsp;furious&nbsp;transmission&nbsp;of&nbsp;mental&nbsp;identity.&nbsp;By&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;you&nbsp;attempt&nbsp;to&nbsp;raise&nbsp;the&nbsp;Intelligence&nbsp;of&nbsp;the&nbsp;target&nbsp;animal&nbsp;by&nbsp;gifting&nbsp;some&nbsp;of&nbsp;your&nbsp;own.&nbsp;When&nbsp;you&nbsp;use&nbsp;<em>uplift</em>,&nbsp;your&nbsp;Intelligence&nbsp;score&nbsp;is&nbsp;reduced&nbsp;as&nbsp;if&nbsp;by&nbsp;ability&nbsp;score&nbsp;damage&nbsp;by&nbsp;an&nbsp;amount&nbsp;you&nbsp;select.&nbsp;This&nbsp;reduction&nbsp;cannot&nbsp;be&nbsp;healed,&nbsp;repaired,&nbsp;or&nbsp;negated&nbsp;in&nbsp;any&nbsp;way&nbsp;until&nbsp;<em>uplift&nbsp;</em>ends,&nbsp;at&nbsp;which&nbsp;point&nbsp;your&nbsp;Intelligence&nbsp;score&nbsp;returns&nbsp;to&nbsp;its&nbsp;normal&nbsp;level&nbsp;(applying&nbsp;any&nbsp;actual&nbsp;damage&nbsp;or&nbsp;drain&nbsp;you&nbsp;might&nbsp;have).&nbsp;You&nbsp;cannot&nbsp;reduce&nbsp;your&nbsp;Intelligence&nbsp;score&nbsp;below&nbsp;1&nbsp;using&nbsp;this&nbsp;power.
+      <p>A sphere of psychic static emanates from you, hinting at a furious
+      transmission of mental identity. By manifesting this power, you attempt to
+      raise the Intelligence of the target animal by gifting some of your own.
+      When you use <em>uplift</em>, your Intelligence score is reduced as if by
+      ability score damage by an amount you select. This reduction cannot be
+      healed, repaired, or negated in any way until <em>uplift </em>ends, at
+      which point your Intelligence score returns to its normal level (applying
+      any actual damage or drain you might have). You cannot reduce your
+      Intelligence score below 1 using this power.
 
       </p>
 
-      <p>At&nbsp;the&nbsp;same&nbsp;time&nbsp;that&nbsp;your&nbsp;intellect&nbsp;is&nbsp;reduced,&nbsp;the&nbsp;mental&nbsp;capacity&nbsp;of&nbsp;the&nbsp;target&nbsp;creature&nbsp;is&nbsp;increased&nbsp;by&nbsp;the&nbsp;same&nbsp;amount.&nbsp;The&nbsp;cogitation&nbsp;thus&nbsp;granted&nbsp;is&nbsp;your&nbsp;own&nbsp;and&nbsp;some&nbsp;of&nbsp;your&nbsp;knowledge&nbsp;is&nbsp;gifted&nbsp;along&nbsp;with&nbsp;it.&nbsp;A&nbsp;target&nbsp;subject&nbsp;to&nbsp;<em>uplift&nbsp;</em>learns&nbsp;Common&nbsp;or&nbsp;one&nbsp;other&nbsp;language&nbsp;you&nbsp;know&nbsp;(though&nbsp;they&nbsp;may&nbsp;not&nbsp;have&nbsp;the&nbsp;physical&nbsp;ability&nbsp;to&nbsp;speak&nbsp;it).
+      <p>At the same time that your intellect is reduced, the mental capacity of
+      the target creature is increased by the same amount. The cogitation thus
+      granted is your own and some of your knowledge is gifted along with it. A
+      target subject to <em>uplift </em>learns Common or one other language you
+      know (though they may not have the physical ability to speak it).
 
       </p>
 
-      <p>This&nbsp;power&nbsp;does&nbsp;not&nbsp;place&nbsp;the&nbsp;target&nbsp;animal&nbsp;under&nbsp;your&nbsp;control&nbsp;or&nbsp;influence&nbsp;it&nbsp;in&nbsp;any&nbsp;way,&nbsp;but&nbsp;it&nbsp;may&nbsp;provide&nbsp;the&nbsp;creature&nbsp;sufficient&nbsp;intelligence&nbsp;that&nbsp;it&nbsp;can&nbsp;be&nbsp;bargained&nbsp;with,&nbsp;or&nbsp;convinced&nbsp;to&nbsp;provide&nbsp;assistance&nbsp;by&nbsp;reasoned&nbsp;use&nbsp;of&nbsp;Diplomacy.&nbsp;Perversely,&nbsp;as&nbsp;the&nbsp;mental&nbsp;capacity&nbsp;of&nbsp;the&nbsp;target&nbsp;animal&nbsp;increases,&nbsp;yours&nbsp;reduces,&nbsp;potentially&nbsp;rendering&nbsp;you&nbsp;unable&nbsp;to&nbsp;effectively&nbsp;reason&nbsp;with&nbsp;it.
+      <p>This power does not place the target animal under your control or
+      influence it in any way, but it may provide the creature sufficient
+      intelligence that it can be bargained with, or convinced to provide
+      assistance by reasoned use of Diplomacy. Perversely, as the mental
+      capacity of the target animal increases, yours reduces, potentially
+      rendering you unable to effectively reason with it.
 
       </p>
 
-      <p>The&nbsp;target&nbsp;creature&nbsp;type&nbsp;for&nbsp;<em>uplift&nbsp;</em>cannot&nbsp;be&nbsp;altered&nbsp;by&nbsp;any&nbsp;other&nbsp;spell,&nbsp;power,&nbsp;feat,&nbsp;class&nbsp;feature&nbsp;or&nbsp;other&nbsp;ability.
+      <p>The target creature type for <em>uplift </em>cannot be altered by any
+      other spell, power, feat, class feature or other ability.
 
       </p>
 
-      <p><strong>Augment:&nbsp;</strong>This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways:
+      <p><strong>Augment: </strong>This power may be augmented in one or more of
+      the following ways:
 
-      </p><ul><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;you&nbsp;may&nbsp;transfer&nbsp;all&nbsp;of&nbsp;your&nbsp;ranks&nbsp;in&nbsp;one&nbsp;skill&nbsp;you&nbsp;possess&nbsp;to&nbsp;the&nbsp;target&nbsp;creature.&nbsp;Using&nbsp;this&nbsp;augment&nbsp;temporarily&nbsp;removes&nbsp;your&nbsp;access&nbsp;to&nbsp;those&nbsp;ranks&nbsp;until&nbsp;the&nbsp;power&nbsp;ends.</li><li>For&nbsp;every&nbsp;two&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;DC&nbsp;of&nbsp;this&nbsp;power&nbsp;increases&nbsp;by&nbsp;one.</li></ul>
+      </p><ul><li>For every additional power point you spend, you may transfer
+      all of your ranks in one skill you possess to the target creature. Using
+      this augment temporarily removes your access to those ranks until the
+      power ends.</li><li>For every two additional power points you spend, the
+      DC of this power increases by one.</li></ul>
   discipline: psychometabolism
   display:
     auditory: false

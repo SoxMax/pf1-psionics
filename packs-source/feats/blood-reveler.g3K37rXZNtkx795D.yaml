@@ -22,13 +22,18 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;delight&nbsp;in&nbsp;the&nbsp;pain&nbsp;inflicted&nbsp;by&nbsp;your&nbsp;lifeblood&nbsp;resonance.</em></p>
+      <p><em>You delight in the pain inflicted by your lifeblood
+      resonance.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Lifeblood&nbsp;resonance&nbsp;class&nbsp;feature.
+      <p><strong>Prerequisite:</strong> Lifeblood resonance class feature.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;Once&nbsp;per&nbsp;round,&nbsp;when&nbsp;you&nbsp;deal&nbsp;damage&nbsp;to&nbsp;a&nbsp;creature&nbsp;with&nbsp;your&nbsp;lifeblood&nbsp;resonance,&nbsp;you&nbsp;may&nbsp;add&nbsp;your&nbsp;Charisma&nbsp;modifier&nbsp;to&nbsp;the&nbsp;damage&nbsp;of&nbsp;the&nbsp;ability&nbsp;and&nbsp;gain&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;the&nbsp;damage&nbsp;dealt&nbsp;by&nbsp;it.&nbsp;At&nbsp;8th&nbsp;and&nbsp;15th&nbsp;levels,&nbsp;you&nbsp;can&nbsp;apply&nbsp;this&nbsp;effect&nbsp;to&nbsp;an&nbsp;additional&nbsp;use&nbsp;of&nbsp;your&nbsp;lifeblood&nbsp;resonance&nbsp;each&nbsp;round.
+      <p><strong>Benefit:</strong> Once per round, when you deal damage to a
+      creature with your lifeblood resonance, you may add your Charisma modifier
+      to the damage of the ability and gain temporary hit points equal to the
+      damage dealt by it. At 8th and 15th levels, you can apply this effect to
+      an additional use of your lifeblood resonance each round.
 
       </p>
   disabled: false

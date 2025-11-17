@@ -22,39 +22,44 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>Your&nbsp;ability&nbsp;to&nbsp;heal&nbsp;others&nbsp;at&nbsp;their&nbsp;request&nbsp;is&nbsp;more
+      <p>Your ability to heal others at their request is more
 
       efficient.
 
       </p>
 
-      <p><strong>Prerequisites:&nbsp;</strong>Heal&nbsp;7&nbsp;ranks,&nbsp;request&nbsp;aid&nbsp;class&nbsp;feature.
+      <p><strong>Prerequisites: </strong>Heal 7 ranks, request aid class
+      feature.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>The&nbsp;damage&nbsp;healed&nbsp;through&nbsp;the&nbsp;use&nbsp;of
+      <p><strong>Benefit: </strong>The damage healed through the use of
 
-      request&nbsp;aid&nbsp;is&nbsp;4&nbsp;hit&nbsp;points&nbsp;per&nbsp;power&nbsp;point&nbsp;spent.
-
-      </p>
-
-      <p><strong>Normal:&nbsp;</strong>The&nbsp;damage&nbsp;healed&nbsp;through&nbsp;the&nbsp;use&nbsp;of
-
-      request&nbsp;aid&nbsp;is&nbsp;3&nbsp;hit&nbsp;points&nbsp;per&nbsp;power&nbsp;point&nbsp;spent.
+      request aid is 4 hit points per power point spent.
 
       </p>
 
-      <p><br&nbsp;/></p>
+      <p><strong>Normal: </strong>The damage healed through the use of
 
-      <p>Your&nbsp;ability&nbsp;to&nbsp;heal&nbsp;others&nbsp;is&nbsp;significantly&nbsp;increased.
-
-      </p>
-
-      <p><strong>Prerequisite:</strong>&nbsp;Efficient&nbsp;Aid.
+      request aid is 3 hit points per power point spent.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;The&nbsp;damage&nbsp;healed&nbsp;through&nbsp;the&nbsp;use&nbsp;of&nbsp;request&nbsp;aid&nbsp;is&nbsp;increased&nbsp;by&nbsp;50%.&nbsp;In&nbsp;addition,&nbsp;if&nbsp;you&nbsp;expend&nbsp;one&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power,&nbsp;you&nbsp;can&nbsp;cure&nbsp;a&nbsp;number&nbsp;of&nbsp;points&nbsp;of&nbsp;ability&nbsp;damage&nbsp;equal&nbsp;to&nbsp;your&nbsp;mythic&nbsp;tier&nbsp;to&nbsp;the&nbsp;target.&nbsp;The&nbsp;target&nbsp;creature&nbsp;specifies&nbsp;which&nbsp;ability&nbsp;damage&nbsp;to&nbsp;heal.&nbsp;
+      <p><br /></p>
+
+      <p>Your ability to heal others is significantly increased.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong> Efficient Aid.
+
+      </p>
+
+      <p><strong>Benefit:</strong> The damage healed through the use of request
+      aid is increased by 50%. In addition, if you expend one use of mythic
+      power, you can cure a number of points of ability damage equal to your
+      mythic tier to the target. The target creature specifies which ability
+      damage to heal. 
 
       </p>
   disabled: false

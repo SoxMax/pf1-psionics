@@ -29,13 +29,19 @@ system:
         value: One living creature
   description:
     value: >-
-      <p>You&nbsp;trigger&nbsp;a&nbsp;number&nbsp;of&nbsp;involuntary&nbsp;bodily&nbsp;functions&nbsp;in&nbsp;a&nbsp;living&nbsp;target,&nbsp;making&nbsp;them&nbsp;sickened&nbsp;unless&nbsp;they&nbsp;succeed&nbsp;on&nbsp;a&nbsp;Fortitude&nbsp;save.
+      <p>You trigger a number of involuntary bodily functions in a living
+      target, making them sickened unless they succeed on a Fortitude save.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;any&nbsp;of&nbsp;the&nbsp;following&nbsp;ways
+      <p><strong>Augment:</strong> You can augment this power in any of the
+      following ways
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;3&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;target&nbsp;instead&nbsp;becomes&nbsp;nauseated&nbsp;on&nbsp;a&nbsp;failed&nbsp;save,&nbsp;and&nbsp;falls&nbsp;prone&nbsp;unless&nbsp;they&nbsp;make&nbsp;a&nbsp;successful&nbsp;Reflex&nbsp;save.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;designate&nbsp;one&nbsp;target&nbsp;per&nbsp;manifester&nbsp;level&nbsp;instead&nbsp;of&nbsp;just&nbsp;one.</li></ol>
+      </p><ol><li>If you spend 3 additional power points, the target instead
+      becomes nauseated on a failed save, and falls prone unless they make a
+      successful Reflex save.</li><li>If you spend 2 additional power points,
+      you can designate one target per manifester level instead of just
+      one.</li></ol>
   discipline: psychometabolism
   display:
     auditory: true

@@ -28,7 +28,10 @@ system:
         value: One creature or unattended object
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;mentally&nbsp;punch&nbsp;a&nbsp;creature&nbsp;or&nbsp;object&nbsp;from&nbsp;a&nbsp;distance.&nbsp;This&nbsp;power&nbsp;deals&nbsp;1&nbsp;point&nbsp;of&nbsp;force&nbsp;damage;&nbsp;creatures&nbsp;and&nbsp;objects&nbsp;in&nbsp;their&nbsp;possession&nbsp;are&nbsp;allowed&nbsp;a&nbsp;Will&nbsp;save&nbsp;to&nbsp;negate&nbsp;the&nbsp;effect.&nbsp;You&nbsp;cannot&nbsp;push&nbsp;anything&nbsp;into&nbsp;another&nbsp;square&nbsp;using&nbsp;this&nbsp;power.
+      <p>You can mentally punch a creature or object from a distance. This power
+      deals 1 point of force damage; creatures and objects in their possession
+      are allowed a Will save to negate the effect. You cannot push anything
+      into another square using this power.
 
       </p>
   descriptors:

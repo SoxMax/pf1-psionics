@@ -1,0 +1,41 @@
+_id: 5pFFA7NyjP7hhlez
+_key: '!items!5pFFA7NyjP7hhlez'
+_stats:
+  coreVersion: '13.350'
+folder: R7AoIomzfNGuWBKp
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Momentous Maneuvers
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: >-
+      <p>At 5th level, the voyager can use her momentum for more than just
+      direct damage, channeling it to enhance her tactical maneuvers. When she
+      makes a combat maneuver check, she can expend momentum to augment her
+      action and avoid provoking attacks of opportunity with the maneuver. She
+      gains a +2 bonus on the combat maneuver roll for each point of momentum
+      spent. The maximum bonus granted by this ability is 2 + 1/2 her voyager
+      level.
+
+      </p><p>The voyager can also spend momentum on damaging applications of
+      combat maneuvers, such as on a sunder attempt or the damage option in a
+      grapple. This deals damage equal to the damage she could normally deal
+      with momentum (normally 1d6 per point of momentum spent in this way).
+
+      </p><p>The voyager is treated as having Dex 13, Int 13, Combat Expertise,
+      and Improved Unarmed Strike for the purposes of meeting the prerequisites
+      of improved combat maneuver feats or feats that require those improved
+      combat maneuver feats as prerequisites.
+
+      </p><p></p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
+  subType: classFeat
+  tag: momentous-maneuvers
+type: feat

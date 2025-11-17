@@ -22,13 +22,16 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;redirections&nbsp;can&nbsp;be&nbsp;redirected.</em></p>
+      <p><em>Your redirections can be redirected.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Redirect_Power"&nbsp;title="Redirect&nbsp;Power">Redirect&nbsp;Power</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Redirect_Power"
+      title="Redirect Power">Redirect Power</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>If&nbsp;the&nbsp;second&nbsp;target&nbsp;is&nbsp;successfully&nbsp;affected&nbsp;by&nbsp;the&nbsp;power&nbsp;through&nbsp;the&nbsp;use&nbsp;of&nbsp;the&nbsp;Redirect&nbsp;Power&nbsp;feat,&nbsp;you&nbsp;can&nbsp;target&nbsp;the&nbsp;first&nbsp;target&nbsp;with&nbsp;the&nbsp;power&nbsp;again&nbsp;as&nbsp;a&nbsp;free&nbsp;action&nbsp;at&nbsp;no&nbsp;cost
+      <p><strong>Benefit: </strong>If the second target is successfully affected
+      by the power through the use of the Redirect Power feat, you can target
+      the first target with the power again as a free action at no cost
 
       </p>
   disabled: false

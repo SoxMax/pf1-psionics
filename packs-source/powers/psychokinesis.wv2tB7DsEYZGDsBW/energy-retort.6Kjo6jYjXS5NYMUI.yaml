@@ -33,25 +33,45 @@ system:
         value: You and creature or object attacking you; see text
   description:
     value: >-
-      <p>You&nbsp;weave&nbsp;a&nbsp;field&nbsp;of&nbsp;potential&nbsp;energy&nbsp;of&nbsp;your&nbsp;active&nbsp;energy&nbsp;type&nbsp;(cold,&nbsp;electricity,&nbsp;fire,&nbsp;or&nbsp;sonic)&nbsp;around&nbsp;your&nbsp;body.&nbsp;The&nbsp;first&nbsp;successful&nbsp;attack&nbsp;made&nbsp;against&nbsp;you&nbsp;in&nbsp;each&nbsp;round&nbsp;during&nbsp;the&nbsp;power's&nbsp;duration&nbsp;prompts&nbsp;a&nbsp;response&nbsp;from&nbsp;the&nbsp;field&nbsp;without&nbsp;any&nbsp;effort&nbsp;on&nbsp;your&nbsp;part.&nbsp;The&nbsp;attack&nbsp;may&nbsp;be&nbsp;physical,&nbsp;the&nbsp;effect&nbsp;of&nbsp;a&nbsp;power,&nbsp;or&nbsp;the&nbsp;effect&nbsp;of&nbsp;a&nbsp;spell&nbsp;(including&nbsp;spell-like,&nbsp;supernatural,&nbsp;and&nbsp;extraordinary&nbsp;abilities).&nbsp;An&nbsp;"ectoburst"&nbsp;discharges&nbsp;from&nbsp;the&nbsp;field,&nbsp;targeting&nbsp;the&nbsp;source&nbsp;of&nbsp;the&nbsp;attack&nbsp;and&nbsp;dealing&nbsp;4d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;of&nbsp;the&nbsp;active&nbsp;energy&nbsp;type.&nbsp;To&nbsp;be&nbsp;affected,&nbsp;a&nbsp;target&nbsp;must&nbsp;be&nbsp;within&nbsp;close&nbsp;range,&nbsp;you&nbsp;must&nbsp;have&nbsp;line&nbsp;of&nbsp;sight&nbsp;and&nbsp;line&nbsp;of&nbsp;effect&nbsp;to&nbsp;it,&nbsp;and&nbsp;you&nbsp;must&nbsp;be&nbsp;able&nbsp;to&nbsp;identify&nbsp;the&nbsp;source&nbsp;of&nbsp;the&nbsp;attack.&nbsp;The&nbsp;ectoburst&nbsp;automatically&nbsp;strikes&nbsp;the&nbsp;enemy&nbsp;who&nbsp;successfully&nbsp;attacked&nbsp;you,&nbsp;so&nbsp;long&nbsp;as&nbsp;it&nbsp;meets&nbsp;the&nbsp;above&nbsp;criteria.
+      <p>You weave a field of potential energy of your active energy type (cold,
+      electricity, fire, or sonic) around your body. The first successful attack
+      made against you in each round during the power's duration prompts a
+      response from the field without any effort on your part. The attack may be
+      physical, the effect of a power, or the effect of a spell (including
+      spell-like, supernatural, and extraordinary abilities). An "ectoburst"
+      discharges from the field, targeting the source of the attack and dealing
+      4d6 points of damage of the active energy type. To be affected, a target
+      must be within close range, you must have line of sight and line of effect
+      to it, and you must be able to identify the source of the attack. The
+      ectoburst automatically strikes the enemy who successfully attacked you,
+      so long as it meets the above criteria.
 
-      </p><ul><li><em>Cold:</em>&nbsp;A&nbsp;field&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;+1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die.&nbsp;The&nbsp;saving&nbsp;throw&nbsp;to&nbsp;reduce&nbsp;damage&nbsp;from&nbsp;a&nbsp;cold&nbsp;retort&nbsp;is&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;instead&nbsp;of&nbsp;a&nbsp;Reflex&nbsp;save.</li></ul>
+      </p><ul><li><em>Cold:</em> A field of this energy type deals +1 point of
+      damage per die. The saving throw to reduce damage from a cold retort is a
+      Fortitude save instead of a Reflex save.</li></ul>
 
-      <ul><li><em>Electricity:</em>&nbsp;Manifesting&nbsp;a&nbsp;field&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;provides&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;to&nbsp;the&nbsp;save&nbsp;DC&nbsp;and&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;manifester&nbsp;level&nbsp;checks&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of&nbsp;overcoming&nbsp;power&nbsp;resistance.</li></ul>
+      <ul><li><em>Electricity:</em> Manifesting a field of this energy type
+      provides a +2 bonus to the save DC and a +2 bonus on manifester level
+      checks for the purpose of overcoming power resistance.</li></ul>
 
-      <ul><li><em>Fire:</em>&nbsp;A&nbsp;field&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;+1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die.</li></ul>
+      <ul><li><em>Fire:</em> A field of this energy type deals +1 point of
+      damage per die.</li></ul>
 
-      <ul><li><em>Sonic:</em>&nbsp;A&nbsp;field&nbsp;of&nbsp;this&nbsp;energy&nbsp;type&nbsp;deals&nbsp;–1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die&nbsp;and&nbsp;ignores&nbsp;an&nbsp;object's&nbsp;hardness.</li></ul>
+      <ul><li><em>Sonic:</em> A field of this energy type deals –1 point of
+      damage per die and ignores an object's hardness.</li></ul>
 
-      <p>This&nbsp;power's&nbsp;subtype&nbsp;is&nbsp;the&nbsp;same&nbsp;as&nbsp;the&nbsp;type&nbsp;of&nbsp;energy&nbsp;you&nbsp;manifest.
+      <p>This power's subtype is the same as the type of energy you manifest.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;duration&nbsp;increases&nbsp;by&nbsp;1&nbsp;minute.
+      <p><strong>Augment:</strong> For every additional power point you spend,
+      this power's duration increases by 1 minute.
 
       </p>
 
-      <p><strong>Special:</strong>&nbsp;A&nbsp;kineticist&nbsp;does&nbsp;not&nbsp;need&nbsp;to&nbsp;select&nbsp;an&nbsp;energy&nbsp;type&nbsp;for&nbsp;this&nbsp;power&nbsp;when&nbsp;he&nbsp;gains&nbsp;psionic&nbsp;focus.&nbsp;He&nbsp;may&nbsp;choose&nbsp;the&nbsp;type&nbsp;of&nbsp;damage&nbsp;at&nbsp;the&nbsp;time&nbsp;the&nbsp;power&nbsp;is&nbsp;manifested.
+      <p><strong>Special:</strong> A kineticist does not need to select an
+      energy type for this power when he gains psionic focus. He may choose the
+      type of damage at the time the power is manifested.
 
       </p>
   descriptors:

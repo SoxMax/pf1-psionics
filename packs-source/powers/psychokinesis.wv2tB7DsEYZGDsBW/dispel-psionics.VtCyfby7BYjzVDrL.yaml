@@ -30,43 +30,102 @@ system:
         value: One manifester, creature, or object; or 20-ft.-radius burst
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;use&nbsp;dispel&nbsp;psionics&nbsp;to&nbsp;end&nbsp;one&nbsp;ongoing&nbsp;power&nbsp;that&nbsp;has&nbsp;been&nbsp;manifest&nbsp;on&nbsp;a&nbsp;creature&nbsp;or&nbsp;object&nbsp;or&nbsp;to&nbsp;temporarily&nbsp;suppress&nbsp;the&nbsp;psionic&nbsp;abilities&nbsp;of&nbsp;a&nbsp;psionic&nbsp;item.&nbsp;A&nbsp;dispelled&nbsp;power&nbsp;ends&nbsp;as&nbsp;if&nbsp;its&nbsp;duration&nbsp;had&nbsp;expired.&nbsp;Some&nbsp;powers,&nbsp;as&nbsp;detailed&nbsp;in&nbsp;their&nbsp;descriptions,&nbsp;can't&nbsp;be&nbsp;defeated&nbsp;by&nbsp;dispel&nbsp;psionics.&nbsp;Dispel&nbsp;psionics&nbsp;can&nbsp;dispel&nbsp;(but&nbsp;not&nbsp;counter)&nbsp;psi-like&nbsp;effects&nbsp;just&nbsp;as&nbsp;it&nbsp;does&nbsp;powers.&nbsp;The&nbsp;effect&nbsp;of&nbsp;a&nbsp;power&nbsp;with&nbsp;an&nbsp;instantaneous&nbsp;duration&nbsp;can't&nbsp;be&nbsp;dispelled,&nbsp;because&nbsp;the&nbsp;psionic&nbsp;effect&nbsp;is&nbsp;already&nbsp;over&nbsp;before&nbsp;the&nbsp;dispel&nbsp;psionics&nbsp;can&nbsp;take&nbsp;effect.
+      <p>You can use dispel psionics to end one ongoing power that has been
+      manifest on a creature or object or to temporarily suppress the psionic
+      abilities of a psionic item. A dispelled power ends as if its duration had
+      expired. Some powers, as detailed in their descriptions, can't be defeated
+      by dispel psionics. Dispel psionics can dispel (but not counter) psi-like
+      effects just as it does powers. The effect of a power with an
+      instantaneous duration can't be dispelled, because the psionic effect is
+      already over before the dispel psionics can take effect.
 
-      </p><ul><li><em>Targeted&nbsp;Dispel:</em>&nbsp;One&nbsp;object,&nbsp;creature,&nbsp;or&nbsp;power&nbsp;is&nbsp;the&nbsp;target&nbsp;of&nbsp;the&nbsp;dispel&nbsp;psionics&nbsp;power.&nbsp;You&nbsp;make&nbsp;one&nbsp;dispel&nbsp;check&nbsp;(1d20&nbsp;+&nbsp;your&nbsp;manifester&nbsp;level)&nbsp;and&nbsp;compare&nbsp;that&nbsp;to&nbsp;the&nbsp;power&nbsp;with&nbsp;highest&nbsp;manifester&nbsp;level&nbsp;(DC&nbsp;=&nbsp;11&nbsp;+&nbsp;the&nbsp;power's&nbsp;manifester&nbsp;level).&nbsp;If&nbsp;successful,&nbsp;that&nbsp;power&nbsp;ends.&nbsp;If&nbsp;not,&nbsp;compare&nbsp;the&nbsp;same&nbsp;result&nbsp;to&nbsp;the&nbsp;power&nbsp;with&nbsp;the&nbsp;next&nbsp;highest&nbsp;manifester&nbsp;level.&nbsp;Repeat&nbsp;this&nbsp;process&nbsp;until&nbsp;you&nbsp;have&nbsp;dispelled&nbsp;one&nbsp;power&nbsp;affecting&nbsp;the&nbsp;target,&nbsp;or&nbsp;you&nbsp;have&nbsp;failed&nbsp;to&nbsp;dispel&nbsp;every&nbsp;power.</li></ul>
+      </p><ul><li><em>Targeted Dispel:</em> One object, creature, or power is
+      the target of the dispel psionics power. You make one dispel check (1d20 +
+      your manifester level) and compare that to the power with highest
+      manifester level (DC = 11 + the power's manifester level). If successful,
+      that power ends. If not, compare the same result to the power with the
+      next highest manifester level. Repeat this process until you have
+      dispelled one power affecting the target, or you have failed to dispel
+      every power.</li></ul>
 
-      <p>For&nbsp;example,&nbsp;a&nbsp;7th-level&nbsp;manifester&nbsp;manifests&nbsp;dispel&nbsp;psionics,&nbsp;targeting&nbsp;a&nbsp;creature&nbsp;affected&nbsp;by&nbsp;biofeedback&nbsp;(manifester&nbsp;level&nbsp;12th)&nbsp;and&nbsp;flight&nbsp;(manifester&nbsp;level&nbsp;7th).&nbsp;The&nbsp;manifester&nbsp;level&nbsp;check&nbsp;results&nbsp;in&nbsp;a&nbsp;19.&nbsp;This&nbsp;check&nbsp;is&nbsp;not&nbsp;high&nbsp;enough&nbsp;to&nbsp;end&nbsp;the&nbsp;biofeedback&nbsp;(which&nbsp;would&nbsp;have&nbsp;required&nbsp;a&nbsp;23&nbsp;or&nbsp;higher),&nbsp;but&nbsp;it&nbsp;is&nbsp;high&nbsp;enough&nbsp;to&nbsp;end&nbsp;the&nbsp;flight&nbsp;(which&nbsp;only&nbsp;required&nbsp;a&nbsp;18).&nbsp;Had&nbsp;the&nbsp;dispel&nbsp;check&nbsp;resulted&nbsp;in&nbsp;a&nbsp;23&nbsp;or&nbsp;higher,&nbsp;the&nbsp;biofeedback&nbsp;would&nbsp;have&nbsp;been&nbsp;dispelled,&nbsp;leaving&nbsp;the&nbsp;flight&nbsp;intact.&nbsp;Had&nbsp;the&nbsp;dispel&nbsp;check&nbsp;been&nbsp;a&nbsp;17&nbsp;or&nbsp;less,&nbsp;no&nbsp;powers&nbsp;would&nbsp;have&nbsp;been&nbsp;affected.
-
-      </p>
-
-      <p>You&nbsp;can&nbsp;also&nbsp;use&nbsp;a&nbsp;targeted&nbsp;dispel&nbsp;to&nbsp;specifically&nbsp;end&nbsp;one&nbsp;power&nbsp;affecting&nbsp;the&nbsp;target&nbsp;or&nbsp;one&nbsp;power&nbsp;affecting&nbsp;an&nbsp;area&nbsp;(such&nbsp;as&nbsp;a&nbsp;wall&nbsp;of&nbsp;fire).&nbsp;You&nbsp;must&nbsp;name&nbsp;the&nbsp;specific&nbsp;power&nbsp;effect&nbsp;to&nbsp;be&nbsp;targeted&nbsp;in&nbsp;this&nbsp;way.&nbsp;If&nbsp;your&nbsp;manifester&nbsp;level&nbsp;check&nbsp;is&nbsp;equal&nbsp;to&nbsp;or&nbsp;higher&nbsp;than&nbsp;the&nbsp;DC&nbsp;of&nbsp;that&nbsp;power,&nbsp;it&nbsp;ends.&nbsp;No&nbsp;other&nbsp;powers&nbsp;or&nbsp;effects&nbsp;on&nbsp;the&nbsp;target&nbsp;are&nbsp;dispelled&nbsp;if&nbsp;your&nbsp;check&nbsp;is&nbsp;not&nbsp;high&nbsp;enough&nbsp;to&nbsp;end&nbsp;the&nbsp;targeted&nbsp;effect.&nbsp;If&nbsp;you&nbsp;target&nbsp;an&nbsp;object&nbsp;or&nbsp;creature&nbsp;that&nbsp;is&nbsp;the&nbsp;effect&nbsp;of&nbsp;an&nbsp;ongoing&nbsp;power&nbsp;(such&nbsp;as&nbsp;a&nbsp;monster&nbsp;summoned&nbsp;by&nbsp;summon&nbsp;monster),&nbsp;you&nbsp;make&nbsp;a&nbsp;dispel&nbsp;check&nbsp;to&nbsp;end&nbsp;the&nbsp;power&nbsp;that&nbsp;conjured&nbsp;the&nbsp;object&nbsp;or&nbsp;creature.
-
-      </p>
-
-      <p>If&nbsp;the&nbsp;object&nbsp;that&nbsp;you&nbsp;target&nbsp;is&nbsp;a&nbsp;psionic&nbsp;item,&nbsp;you&nbsp;make&nbsp;a&nbsp;dispel&nbsp;check&nbsp;against&nbsp;the&nbsp;item's&nbsp;manifester&nbsp;level&nbsp;(DC&nbsp;=&nbsp;11&nbsp;+&nbsp;the&nbsp;item's&nbsp;manifester&nbsp;level).&nbsp;If&nbsp;you&nbsp;succeed,&nbsp;all&nbsp;the&nbsp;item's&nbsp;psionic&nbsp;properties&nbsp;are&nbsp;suppressed&nbsp;for&nbsp;1d4&nbsp;rounds,&nbsp;after&nbsp;which&nbsp;the&nbsp;item&nbsp;recovers&nbsp;its&nbsp;psionic&nbsp;properties.&nbsp;A&nbsp;suppressed&nbsp;item&nbsp;becomes&nbsp;nonpsionic&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;effect.&nbsp;An&nbsp;interdimensional&nbsp;opening&nbsp;(such&nbsp;as&nbsp;a&nbsp;bag&nbsp;of&nbsp;holding)&nbsp;is&nbsp;temporarily&nbsp;closed.&nbsp;A&nbsp;psionic&nbsp;item's&nbsp;physical&nbsp;properties&nbsp;are&nbsp;unchanged:&nbsp;A&nbsp;suppressed&nbsp;psionic&nbsp;sword&nbsp;is&nbsp;still&nbsp;a&nbsp;sword&nbsp;(a&nbsp;masterwork&nbsp;sword,&nbsp;in&nbsp;fact).&nbsp;Artifacts&nbsp;and&nbsp;deities&nbsp;are&nbsp;unaffected&nbsp;by&nbsp;mortal&nbsp;psionics&nbsp;such&nbsp;as&nbsp;this.
-
-      </p>
-
-      <p>You&nbsp;automatically&nbsp;succeed&nbsp;on&nbsp;your&nbsp;dispel&nbsp;check&nbsp;against&nbsp;any&nbsp;power&nbsp;that&nbsp;you&nbsp;manifest&nbsp;yourself.
-
-      </p>
-
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
-
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;your&nbsp;targeted&nbsp;dispel&nbsp;can&nbsp;dispel&nbsp;one&nbsp;power&nbsp;for&nbsp;every&nbsp;four&nbsp;manifester&nbsp;levels&nbsp;you&nbsp;possess,&nbsp;starting&nbsp;with&nbsp;the&nbsp;highest&nbsp;level&nbsp;powers&nbsp;and&nbsp;proceeding&nbsp;to&nbsp;lower&nbsp;level&nbsp;powers.&nbsp;It&nbsp;also&nbsp;has&nbsp;a&nbsp;chance&nbsp;to&nbsp;dispel&nbsp;any&nbsp;effect&nbsp;that&nbsp;remove&nbsp;curse&nbsp;can&nbsp;remove,&nbsp;even&nbsp;if&nbsp;an&nbsp;unaugmented&nbsp;dispel&nbsp;psionics&nbsp;can't&nbsp;dispel&nbsp;that&nbsp;effect.&nbsp;The&nbsp;DC&nbsp;of&nbsp;this&nbsp;check&nbsp;is&nbsp;equal&nbsp;to&nbsp;the&nbsp;curse's&nbsp;DC.</li><li>If&nbsp;you&nbsp;spend&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;you&nbsp;may</li></ol>
-
-      <p>choose&nbsp;to&nbsp;make&nbsp;an&nbsp;area&nbsp;dispel&nbsp;instead&nbsp;of&nbsp;a&nbsp;targeted&nbsp;dispel.
-
-      </p><ul><li><em>Area&nbsp;Dispel:</em>&nbsp;When&nbsp;dispel&nbsp;psionics&nbsp;is&nbsp;used&nbsp;in&nbsp;this&nbsp;way,&nbsp;the&nbsp;power&nbsp;affects&nbsp;everything&nbsp;within&nbsp;a&nbsp;20-foot-radius&nbsp;burst.&nbsp;Roll&nbsp;one&nbsp;dispel&nbsp;check&nbsp;and&nbsp;apply&nbsp;that&nbsp;check&nbsp;to&nbsp;each&nbsp;creature&nbsp;in&nbsp;the&nbsp;area,&nbsp;as&nbsp;if&nbsp;targeted&nbsp;by&nbsp;dispel&nbsp;psionics.&nbsp;For&nbsp;each&nbsp;object&nbsp;within&nbsp;the&nbsp;area&nbsp;that&nbsp;is&nbsp;the&nbsp;target&nbsp;of&nbsp;one&nbsp;or&nbsp;more&nbsp;powers,&nbsp;apply&nbsp;the&nbsp;dispel&nbsp;check&nbsp;as&nbsp;with&nbsp;creatures.&nbsp;Psionic&nbsp;items&nbsp;are&nbsp;not&nbsp;affected&nbsp;by&nbsp;an&nbsp;area&nbsp;dispel.</li></ul>
-
-      <p>For&nbsp;each&nbsp;ongoing&nbsp;area&nbsp;or&nbsp;effect&nbsp;power&nbsp;whose&nbsp;point&nbsp;of&nbsp;origin&nbsp;is&nbsp;within&nbsp;the&nbsp;area&nbsp;of&nbsp;the&nbsp;dispel&nbsp;psionics&nbsp;power,&nbsp;apply&nbsp;the&nbsp;dispel&nbsp;check&nbsp;to&nbsp;dispel&nbsp;the&nbsp;power.&nbsp;For&nbsp;each&nbsp;ongoing&nbsp;power&nbsp;whose&nbsp;area&nbsp;overlaps&nbsp;that&nbsp;of&nbsp;the&nbsp;dispel&nbsp;psionics&nbsp;power,&nbsp;apply&nbsp;the&nbsp;dispel&nbsp;check&nbsp;to&nbsp;end&nbsp;the&nbsp;effect,&nbsp;but&nbsp;only&nbsp;within&nbsp;the&nbsp;overlapping&nbsp;area.
+      <p>For example, a 7th-level manifester manifests dispel psionics,
+      targeting a creature affected by biofeedback (manifester level 12th) and
+      flight (manifester level 7th). The manifester level check results in a 19.
+      This check is not high enough to end the biofeedback (which would have
+      required a 23 or higher), but it is high enough to end the flight (which
+      only required a 18). Had the dispel check resulted in a 23 or higher, the
+      biofeedback would have been dispelled, leaving the flight intact. Had the
+      dispel check been a 17 or less, no powers would have been affected.
 
       </p>
 
-      <p>If&nbsp;an&nbsp;object&nbsp;or&nbsp;creature&nbsp;that&nbsp;is&nbsp;the&nbsp;effect&nbsp;of&nbsp;an&nbsp;ongoing&nbsp;power&nbsp;(such&nbsp;as&nbsp;a&nbsp;weapon&nbsp;summoned&nbsp;by&nbsp;call&nbsp;weaponry)&nbsp;is&nbsp;in&nbsp;the&nbsp;area,&nbsp;apply&nbsp;the&nbsp;dispel&nbsp;check&nbsp;to&nbsp;end&nbsp;the&nbsp;power&nbsp;that&nbsp;conjured&nbsp;that&nbsp;object&nbsp;or&nbsp;creature&nbsp;(returning&nbsp;it&nbsp;whence&nbsp;it&nbsp;came)&nbsp;in&nbsp;addition&nbsp;to&nbsp;attempting&nbsp;to&nbsp;dispel&nbsp;one&nbsp;power&nbsp;targeting&nbsp;the&nbsp;creature&nbsp;or&nbsp;object.
+      <p>You can also use a targeted dispel to specifically end one power
+      affecting the target or one power affecting an area (such as a wall of
+      fire). You must name the specific power effect to be targeted in this way.
+      If your manifester level check is equal to or higher than the DC of that
+      power, it ends. No other powers or effects on the target are dispelled if
+      your check is not high enough to end the targeted effect. If you target an
+      object or creature that is the effect of an ongoing power (such as a
+      monster summoned by summon monster), you make a dispel check to end the
+      power that conjured the object or creature.
 
       </p>
 
-      <p>You&nbsp;may&nbsp;choose&nbsp;to&nbsp;automatically&nbsp;succeed&nbsp;on&nbsp;dispel&nbsp;checks&nbsp;against&nbsp;any&nbsp;power&nbsp;that&nbsp;you&nbsp;have&nbsp;manifested.
+      <p>If the object that you target is a psionic item, you make a dispel
+      check against the item's manifester level (DC = 11 + the item's manifester
+      level). If you succeed, all the item's psionic properties are suppressed
+      for 1d4 rounds, after which the item recovers its psionic properties. A
+      suppressed item becomes nonpsionic for the duration of the effect. An
+      interdimensional opening (such as a bag of holding) is temporarily closed.
+      A psionic item's physical properties are unchanged: A suppressed psionic
+      sword is still a sword (a masterwork sword, in fact). Artifacts and
+      deities are unaffected by mortal psionics such as this.
+
+      </p>
+
+      <p>You automatically succeed on your dispel check against any power that
+      you manifest yourself.
+
+      </p>
+
+      <p><strong>Augment:</strong> This power may be augmented in one of the
+      following ways.
+
+      </p><ol><li>If you spend an additional 6 power points, your targeted
+      dispel can dispel one power for every four manifester levels you possess,
+      starting with the highest level powers and proceeding to lower level
+      powers. It also has a chance to dispel any effect that remove curse can
+      remove, even if an unaugmented dispel psionics can't dispel that effect.
+      The DC of this check is equal to the curse's DC.</li><li>If you spend an
+      additional 6 power points, you may</li></ol>
+
+      <p>choose to make an area dispel instead of a targeted dispel.
+
+      </p><ul><li><em>Area Dispel:</em> When dispel psionics is used in this
+      way, the power affects everything within a 20-foot-radius burst. Roll one
+      dispel check and apply that check to each creature in the area, as if
+      targeted by dispel psionics. For each object within the area that is the
+      target of one or more powers, apply the dispel check as with creatures.
+      Psionic items are not affected by an area dispel.</li></ul>
+
+      <p>For each ongoing area or effect power whose point of origin is within
+      the area of the dispel psionics power, apply the dispel check to dispel
+      the power. For each ongoing power whose area overlaps that of the dispel
+      psionics power, apply the dispel check to end the effect, but only within
+      the overlapping area.
+
+      </p>
+
+      <p>If an object or creature that is the effect of an ongoing power (such
+      as a weapon summoned by call weaponry) is in the area, apply the dispel
+      check to end the power that conjured that object or creature (returning it
+      whence it came) in addition to attempting to dispel one power targeting
+      the creature or object.
+
+      </p>
+
+      <p>You may choose to automatically succeed on dispel checks against any
+      power that you have manifested.
 
       </p>
   discipline: psychokinesis

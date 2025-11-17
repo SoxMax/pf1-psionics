@@ -31,17 +31,27 @@ system:
         value: 20-ft.-radius spread centered on you
   description:
     value: >-
-      <p>You&nbsp;encase&nbsp;yourself&nbsp;and&nbsp;your&nbsp;allies&nbsp;in&nbsp;a&nbsp;shimmering&nbsp;fortress&nbsp;of&nbsp;telekinetic&nbsp;force.&nbsp;All&nbsp;damage&nbsp;from&nbsp;powers&nbsp;and&nbsp;psi-like&nbsp;abilities&nbsp;taken&nbsp;by&nbsp;subjects&nbsp;inside&nbsp;the&nbsp;area&nbsp;of&nbsp;the&nbsp;intellect&nbsp;fortress,&nbsp;including&nbsp;ability&nbsp;damage,&nbsp;is&nbsp;halved.&nbsp;This&nbsp;lowering&nbsp;takes&nbsp;place&nbsp;prior&nbsp;to&nbsp;the&nbsp;effects&nbsp;of&nbsp;other&nbsp;powers&nbsp;or&nbsp;abilities&nbsp;that&nbsp;lessen&nbsp;damage,&nbsp;such&nbsp;as&nbsp;damage&nbsp;reduction&nbsp;and&nbsp;evasion.
+      <p>You encase yourself and your allies in a shimmering fortress of
+      telekinetic force. All damage from powers and psi-like abilities taken by
+      subjects inside the area of the intellect fortress, including ability
+      damage, is halved. This lowering takes place prior to the effects of other
+      powers or abilities that lessen damage, such as damage reduction and
+      evasion.
 
       </p>
 
-      <p>Powers&nbsp;that&nbsp;are&nbsp;not&nbsp;subject&nbsp;to&nbsp;power&nbsp;resistance&nbsp;are&nbsp;not&nbsp;affected&nbsp;by&nbsp;an&nbsp;intellect&nbsp;fortress.
+      <p>Powers that are not subject to power resistance are not affected by an
+      intellect fortress.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power may be augmented in one or both of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;duration&nbsp;increases&nbsp;by&nbsp;1&nbsp;round.</li><li>By&nbsp;spending&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;may&nbsp;also&nbsp;affect&nbsp;breath&nbsp;weapons&nbsp;that&nbsp;deal&nbsp;damage.</li></ol>
+      </p><ol><li>For every additional power point you spend, this power's
+      duration increases by 1 round.</li><li>By spending 4 additional power
+      points, this power may also affect breath weapons that deal
+      damage.</li></ol>
   discipline: psychokinesis
   display:
     auditory: true

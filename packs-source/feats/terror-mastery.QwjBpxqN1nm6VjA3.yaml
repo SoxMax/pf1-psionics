@@ -21,23 +21,15 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;have&nbsp;learned&nbsp;to&nbsp;activate&nbsp;multiple&nbsp;terrors&nbsp;at&nbsp;a&nbsp;time.
-
+    value: |-
+      <p>You have learned to activate multiple terrors at a time.
       </p>
-
-      <p><strong>Prerequisite:&nbsp;</strong>8&nbsp;terrors&nbsp;known.
-
+      <p><strong>Prerequisite: </strong>8 terrors known.
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;use&nbsp;your&nbsp;terrors&nbsp;class&nbsp;feature,&nbsp;you
-
-      can&nbsp;activate&nbsp;two&nbsp;terrors&nbsp;in&nbsp;a&nbsp;single&nbsp;swift&nbsp;action.
-
+      <p><strong>Benefit: </strong>When you use your terrors class feature, you
+      can activate two terrors in a single swift action.
       </p>
-
-      <p><strong>Normal:&nbsp;</strong>You&nbsp;can&nbsp;only&nbsp;activate&nbsp;one&nbsp;terror&nbsp;at&nbsp;a&nbsp;time.
-
+      <p><strong>Normal: </strong>You can only activate one terror at a time.
       </p>
   disabled: false
   featType: feat

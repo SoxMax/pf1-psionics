@@ -32,11 +32,21 @@ system:
         value: Psionic sensor
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;see&nbsp;and&nbsp;hear&nbsp;a&nbsp;distant&nbsp;location&nbsp;almost&nbsp;as&nbsp;if&nbsp;you&nbsp;were&nbsp;there.&nbsp;You&nbsp;don't&nbsp;need&nbsp;line&nbsp;of&nbsp;sight&nbsp;or&nbsp;line&nbsp;of&nbsp;effect,&nbsp;but&nbsp;the&nbsp;locale&nbsp;must&nbsp;be&nbsp;known—a&nbsp;place&nbsp;familiar&nbsp;to&nbsp;you&nbsp;or&nbsp;an&nbsp;obvious&nbsp;one,&nbsp;such&nbsp;as&nbsp;behind&nbsp;a&nbsp;door,&nbsp;around&nbsp;a&nbsp;corner,&nbsp;or&nbsp;in&nbsp;a&nbsp;grove&nbsp;of&nbsp;trees.&nbsp;Once&nbsp;you&nbsp;have&nbsp;selected&nbsp;the&nbsp;locale,&nbsp;the&nbsp;focus&nbsp;of&nbsp;your&nbsp;clairvoyant&nbsp;sense&nbsp;doesn't&nbsp;move,&nbsp;but&nbsp;you&nbsp;can&nbsp;rotate&nbsp;it&nbsp;in&nbsp;all&nbsp;directions&nbsp;to&nbsp;view&nbsp;the&nbsp;area&nbsp;as&nbsp;desired.&nbsp;Unlike&nbsp;other&nbsp;scrying&nbsp;powers,&nbsp;this&nbsp;power&nbsp;does&nbsp;not&nbsp;allow&nbsp;psionically&nbsp;or&nbsp;supernaturally&nbsp;enhanced&nbsp;senses&nbsp;to&nbsp;work&nbsp;through&nbsp;it.
+      <p>You can see and hear a distant location almost as if you were there.
+      You don't need line of sight or line of effect, but the locale must be
+      known—a place familiar to you or an obvious one, such as behind a door,
+      around a corner, or in a grove of trees. Once you have selected the
+      locale, the focus of your clairvoyant sense doesn't move, but you can
+      rotate it in all directions to view the area as desired. Unlike other
+      scrying powers, this power does not allow psionically or supernaturally
+      enhanced senses to work through it.
 
       </p>
 
-      <p>If&nbsp;the&nbsp;chosen&nbsp;locale&nbsp;is&nbsp;magically&nbsp;or&nbsp;psionically&nbsp;dark,&nbsp;you&nbsp;see&nbsp;nothing.&nbsp;If&nbsp;it&nbsp;is&nbsp;naturally&nbsp;pitch&nbsp;black,&nbsp;you&nbsp;can&nbsp;see&nbsp;in&nbsp;a&nbsp;10foot&nbsp;radius&nbsp;around&nbsp;the&nbsp;center&nbsp;of&nbsp;the&nbsp;power's&nbsp;effect&nbsp;or&nbsp;out&nbsp;to&nbsp;the&nbsp;extent&nbsp;of&nbsp;your&nbsp;natural&nbsp;darkvision.&nbsp;The&nbsp;power&nbsp;does&nbsp;not&nbsp;work&nbsp;across&nbsp;planes.
+      <p>If the chosen locale is magically or psionically dark, you see nothing.
+      If it is naturally pitch black, you can see in a 10foot radius around the
+      center of the power's effect or out to the extent of your natural
+      darkvision. The power does not work across planes.
 
       </p>
   discipline: clairsentience

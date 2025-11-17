@@ -1,0 +1,77 @@
+_id: 91D1B4YVHxCvCB6p
+_key: '!items!91D1B4YVHxCvCB6p'
+_stats:
+  coreVersion: '13.351'
+flags:
+  pf1-psionics:
+    fromRace: Forgeborn
+folder: qus8e0MJDabawFgL
+img: icons/environment/people/group.webp
+name: Crystal Skin
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>Some forgeborn are made from shining crystal, which protects them
+      against rays, but isn't as sturdy as other minerals. A forgeborn with this
+      trait gains a +2 bonus to its AC against ray attacks. In addition, once
+      per day it can deflect one ray as an immediate action. This replaces
+      natural armor.</li></p>
+  disabled: false
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+type: feat

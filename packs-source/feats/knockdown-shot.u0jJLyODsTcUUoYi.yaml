@@ -22,13 +22,21 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;are&nbsp;capable&nbsp;of&nbsp;knocking&nbsp;down&nbsp;your&nbsp;enemies&nbsp;by&nbsp;psionically&nbsp;empowering&nbsp;your&nbsp;attacks.</em></p>
+      <p><em>You are capable of knocking down your enemies by psionically
+      empowering your attacks.</em></p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Dex&nbsp;15,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank&nbsp;Shot</a>,&nbsp;<a&nbsp;href="/wiki/Psionic_Shot"&nbsp;title="Psionic&nbsp;Shot">Psionic&nbsp;Shot</a>.
+      <p><strong>Prerequisites:</strong> Dex 15, <a rel="nofollow"
+      class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank
+      Shot</a>, <a href="/wiki/Psionic_Shot" title="Psionic Shot">Psionic
+      Shot</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;and&nbsp;make&nbsp;a&nbsp;single&nbsp;ranged&nbsp;attack&nbsp;as&nbsp;a&nbsp;standard&nbsp;action.&nbsp;If&nbsp;your&nbsp;attack&nbsp;hits,&nbsp;it&nbsp;deals&nbsp;damage&nbsp;normally&nbsp;and&nbsp;the&nbsp;target&nbsp;must&nbsp;make&nbsp;a&nbsp;Reflex&nbsp;save&nbsp;(DC&nbsp;10&nbsp;+&nbsp;half&nbsp;your&nbsp;character&nbsp;level&nbsp;+&nbsp;your&nbsp;Wisdom&nbsp;modifier)&nbsp;or&nbsp;be&nbsp;knocked&nbsp;prone.
+      <p><strong>Benefit: </strong>You can expend your psionic focus and make a
+      single ranged attack as a standard action. If your attack hits, it deals
+      damage normally and the target must make a Reflex save (DC 10 + half your
+      character level + your Wisdom modifier) or be knocked prone.
 
       </p>
   disabled: false

@@ -1,0 +1,78 @@
+_id: mIUcFTtwBDXdfOAT
+_key: '!items!mIUcFTtwBDXdfOAT'
+_stats:
+  coreVersion: '13.351'
+flags:
+  pf1-psionics:
+    fromRace: Duergar (Psionic)
+folder: eO1zo5p3MR2tO6Xo
+img: icons/environment/people/group.webp
+name: Ancestral Voice
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>Duergars have a connection to their ancestors through the crystals they
+      harvest deep beneath the earth. In some, their ancestors are able to speak
+      to them directly. A duergar with this trait gains a +4 racial bonus to
+      Intimidate and a +2 bonus to a Knowledge skill.</p><p><em>This trait
+      replaces the Stability trait.</em></p>
+  disabled: false
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+  traitCategory: alternate
+type: feat

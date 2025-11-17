@@ -1,0 +1,118 @@
+_id: O5wydThxObTle9t5
+_key: '!items!O5wydThxObTle9t5'
+_stats:
+  coreVersion: '13.350'
+folder: 2Cv8pG6sujmlxBmr
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Collective
+system:
+  abilityType: ex
+  acquired: false
+  associations:
+    classes:
+      - Vitalist
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>A vitalist learns to use psionic power to connect willing minds through
+      an internal network that strengthens their psychic bonds. As a standard
+      action, a vitalist can join a number willing targets into his collective
+      equal to his key ability modifier or half his vitalist level, whichever is
+      higher. The vitalist must have line of sight to each target, each target
+      must have a Wisdom score of at least 1, and all targets must be within
+      Medium range (100 ft. + 10 ft. per class level). The vitalist is always
+      considered a member of his own collective, and does not count against this
+      limit.</p><p>The vitalist can choose to remove a member as a free action
+      on his turn, and any member can voluntarily leave the collective as a free
+      action on their turn. Any member whose Wisdom drops to zero or who moves
+      out of range of the collective is automatically removed. If a member
+      enters a null psionics field, the connection to the collective is
+      suppressed until that member leaves the field. A member who leaves the
+      collective for any reason immediately loses any and all benefits they may
+      have gained from being a member. A vitalist is aware of the status of his
+      collective and can, roughly, sense the presence of each member, although
+      beyond telling if such a creature is still a member, this has no
+      mechanical benefit until higher levels (see telepathy and health sense,
+      below).</p><p>A vitalist can manifest certain powers through his
+      collective. If a vitalist power specifies one or more willing targets (or
+      is harmless) and has a range greater than personal, he can manifest this
+      power on a member of his collective regardless of the range of the actual
+      power. All other non-range restrictions still apply. He may also manifest
+      any power with the Network descriptor this way, regardless of their actual
+      ranges or targets. If he is capable of manifesting powers or casting
+      spells from a different class (as is the case for a multiclass vitalist),
+      any compatible spell or power with a range greater than touch can also be
+      used through the collective.</p><p>If a member of the collective dies, the
+      member is removed from the collective and the vitalist must make a
+      Fortitude save (DC 15) or lose 1 power point for every Hit Die of the
+      fallen member and be sickened for an equal number of rounds.</p><ul><li>At
+      15th level, a vitalist's collective range is limitless on the same plane
+      as the vitalist.</li><li>At 19th level, a vitalist's collective reaches
+      even across to other planes and dimensions.</li></ul>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2012-07-23'
+      pages: 57–61
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 69–72
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  summons: false
+  tag: collective
+type: feat

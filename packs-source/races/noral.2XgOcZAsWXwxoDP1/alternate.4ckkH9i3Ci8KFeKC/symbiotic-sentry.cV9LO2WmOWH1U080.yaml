@@ -1,0 +1,83 @@
+_id: cV9LO2WmOWH1U080
+_key: '!items!cV9LO2WmOWH1U080'
+_stats:
+  coreVersion: '13.351'
+flags:
+  pf1-psionics:
+    fromRace: Noral
+folder: 4ckkH9i3Ci8KFeKC
+img: icons/environment/people/group.webp
+name: Symbiotic Sentry
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>Some erliss take a more passive role in protecting the noral, warning
+      their host when subject to psychic attack. When the noral fails a Save
+      against a mind-affecting effect, he may immediately roll a second Save; if
+      the second Save is successful, he is still affected by the effect, but he
+      is at least aware of a psychic attack and his failure to block it, even if
+      he does not know the exact attack or its consequences (thus, he may take
+      defensive precautions, such as manifesting dispel psionics on himself or
+      casting protection from evil, if possible). Once per day, if the second
+      save is successful the noral may choose to use that result in place of the
+      first roll. This replaces symbiotic resistance and symbiotic
+      surge.</li></p>
+  disabled: false
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+type: feat

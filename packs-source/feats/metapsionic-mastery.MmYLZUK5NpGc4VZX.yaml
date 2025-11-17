@@ -21,39 +21,23 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;have&nbsp;mastered&nbsp;applying&nbsp;a&nbsp;metapsionic&nbsp;feat&nbsp;to&nbsp;a
-
-      particular&nbsp;power.
-
+    value: |-
+      <p>You have mastered applying a metapsionic feat to a
+      particular power.
       </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Manifester&nbsp;level&nbsp;3rd,&nbsp;one&nbsp;metapsionic
-
+      <p><strong>Prerequisites: </strong>Manifester level 3rd, one metapsionic
       feat
-
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>Select&nbsp;one&nbsp;psionic&nbsp;power&nbsp;you&nbsp;can&nbsp;manifest.
-
-      You&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;while&nbsp;applying&nbsp;any&nbsp;number
-
-      of&nbsp;metapsionic&nbsp;feats&nbsp;you&nbsp;possess&nbsp;without&nbsp;having&nbsp;to
-
-      expend&nbsp;your&nbsp;psionic&nbsp;focus,&nbsp;but&nbsp;for&nbsp;each&nbsp;metapsionic
-
-      feat&nbsp;you&nbsp;apply&nbsp;without&nbsp;expending&nbsp;your&nbsp;psionic&nbsp;focus,
-
-      the&nbsp;power’s&nbsp;cost&nbsp;is&nbsp;increased&nbsp;by&nbsp;2&nbsp;power&nbsp;points.&nbsp;The
-
-      power’s&nbsp;total&nbsp;cost&nbsp;cannot&nbsp;exceed&nbsp;your&nbsp;manifester&nbsp;level.
-
+      <p><strong>Benefit: </strong>Select one psionic power you can manifest.
+      You can manifest this power while applying any number
+      of metapsionic feats you possess without having to
+      expend your psionic focus, but for each metapsionic
+      feat you apply without expending your psionic focus,
+      the power’s cost is increased by 2 power points. The
+      power’s total cost cannot exceed your manifester level.
       </p>
-
-      <p><strong>Special:&nbsp;</strong>You&nbsp;can&nbsp;select&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;times.&nbsp;Each
-
-      time,&nbsp;it&nbsp;applies&nbsp;to&nbsp;a&nbsp;different&nbsp;psionic&nbsp;power.
-
+      <p><strong>Special: </strong>You can select this feat multiple times. Each
+      time, it applies to a different psionic power.
       </p>
   disabled: false
   featType: feat

@@ -30,13 +30,18 @@ system:
         value: Creature or creatures touched (see text)
   description:
     value: >-
-      <p>This&nbsp;power&nbsp;charges&nbsp;your&nbsp;touch&nbsp;with&nbsp;the&nbsp;force&nbsp;of&nbsp;a&nbsp;sledgehammer.&nbsp;Your&nbsp;melee&nbsp;touch&nbsp;attack&nbsp;deals&nbsp;1d8&nbsp;points&nbsp;of&nbsp;damage.&nbsp;This&nbsp;damage&nbsp;is&nbsp;not&nbsp;increased&nbsp;or&nbsp;decreased&nbsp;by&nbsp;your&nbsp;Strength&nbsp;modifier.
+      <p>This power charges your touch with the force of a sledgehammer. Your
+      melee touch attack deals 1d8 points of damage. This damage is not
+      increased or decreased by your Strength modifier.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;the&nbsp;following&nbsp;ways:
+      <p><strong>Augment:</strong> You can augment this power in the following
+      ways:
 
-      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;use&nbsp;this&nbsp;melee&nbsp;touch&nbsp;attack&nbsp;one&nbsp;additional&nbsp;time.</li><li>For&nbsp;every&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;damage&nbsp;increases&nbsp;by&nbsp;1d8&nbsp;damage.</li></ol>
+      </p><ol><li>For every additional power point you spend, you can use this
+      melee touch attack one additional time.</li><li>For every additional 2
+      power points you spend, the damage increases by 1d8 damage.</li></ol>
   discipline: psychometabolism
   display:
     auditory: true

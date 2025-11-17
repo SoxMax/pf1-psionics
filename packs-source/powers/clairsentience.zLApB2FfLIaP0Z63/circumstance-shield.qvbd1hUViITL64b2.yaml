@@ -27,11 +27,17 @@ system:
         value: You
   description:
     value: >-
-      <p>Your&nbsp;shield&nbsp;of&nbsp;insight&nbsp;alerts&nbsp;you&nbsp;to&nbsp;potential&nbsp;dangers&nbsp;and&nbsp;supercharges&nbsp;your&nbsp;reaction&nbsp;time.&nbsp;You&nbsp;gain&nbsp;a&nbsp;+1&nbsp;insight&nbsp;bonus&nbsp;on&nbsp;your&nbsp;Initiative&nbsp;checks&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;effect.&nbsp;As&nbsp;an&nbsp;immediate&nbsp;action,&nbsp;even&nbsp;if&nbsp;you&nbsp;are&nbsp;caught&nbsp;flatfooted&nbsp;(an&nbsp;exception&nbsp;to&nbsp;the&nbsp;rule&nbsp;that&nbsp;you&nbsp;cannot&nbsp;normally&nbsp;take&nbsp;immediate&nbsp;actions&nbsp;while&nbsp;flat-footed),&nbsp;you&nbsp;may&nbsp;add&nbsp;this&nbsp;bonus&nbsp;to&nbsp;a&nbsp;single&nbsp;Reflex&nbsp;save&nbsp;as&nbsp;a&nbsp;resistance&nbsp;bonus;&nbsp;doing&nbsp;so&nbsp;ends&nbsp;the&nbsp;effect.
+      <p>Your shield of insight alerts you to potential dangers and supercharges
+      your reaction time. You gain a +1 insight bonus on your Initiative checks
+      for the duration of the effect. As an immediate action, even if you are
+      caught flatfooted (an exception to the rule that you cannot normally take
+      immediate actions while flat-footed), you may add this bonus to a single
+      Reflex save as a resistance bonus; doing so ends the effect.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;5&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;insight&nbsp;bonus&nbsp;increases&nbsp;by&nbsp;+1.
+      <p><strong>Augment:</strong> For every 5 additional power points you
+      spend, the insight bonus increases by +1.
 
       </p>
   discipline: clairsentience

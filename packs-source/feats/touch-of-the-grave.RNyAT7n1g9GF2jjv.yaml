@@ -22,17 +22,22 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You've&nbsp;become&nbsp;more&nbsp;like&nbsp;the&nbsp;undead&nbsp;that&nbsp;you&nbsp;spend&nbsp;so&nbsp;much&nbsp;time&nbsp;with.</em></p>
+      <p><em>You've become more like the undead that you spend so much time
+      with.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Must&nbsp;be&nbsp;living.
-
-      </p>
-
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;gain&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;all&nbsp;saving&nbsp;throws&nbsp;against&nbsp;pain&nbsp;and&nbsp;cold&nbsp;effects&nbsp;(including&nbsp;effects&nbsp;that&nbsp;deal&nbsp;cold&nbsp;damage&nbsp;and&nbsp;allow&nbsp;a&nbsp;save)&nbsp;however&nbsp;your&nbsp;skin&nbsp;becomes&nbsp;ice&nbsp;cold&nbsp;and&nbsp;your&nbsp;complexion&nbsp;sallow&nbsp;and&nbsp;sunken.&nbsp;You&nbsp;suffer&nbsp;a&nbsp;-4&nbsp;penalty&nbsp;on&nbsp;Disguise&nbsp;checks&nbsp;to&nbsp;pose&nbsp;as&nbsp;anything&nbsp;living.
+      <p><strong>Prerequisite:</strong> Must be living.
 
       </p>
 
-      <p><br&nbsp;/></p>
+      <p><strong>Benefit:</strong> You gain a +2 bonus on all saving throws
+      against pain and cold effects (including effects that deal cold damage and
+      allow a save) however your skin becomes ice cold and your complexion
+      sallow and sunken. You suffer a -4 penalty on Disguise checks to pose as
+      anything living.
+
+      </p>
+
+      <p><br /></p>
   disabled: false
   featType: feat
   inherited: false

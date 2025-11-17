@@ -22,13 +22,19 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;move&nbsp;yourself&nbsp;more&nbsp;quickly&nbsp;through&nbsp;sheer&nbsp;willpower.</em></p>
+      <p><em>You can move yourself more quickly through sheer
+      willpower.</em></p>
 
-      <p><strong>Benefit:&nbsp;</strong>At&nbsp;the&nbsp;beginning&nbsp;of&nbsp;a&nbsp;surprise&nbsp;round,&nbsp;if&nbsp;you&nbsp;would&nbsp;not&nbsp;normally&nbsp;take&nbsp;an&nbsp;action,&nbsp;you&nbsp;can&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;roll&nbsp;initiative&nbsp;and&nbsp;take&nbsp;a&nbsp;standard&nbsp;action&nbsp;or&nbsp;a&nbsp;move&nbsp;action.&nbsp;If&nbsp;you&nbsp;do&nbsp;move&nbsp;normally&nbsp;in&nbsp;a&nbsp;surprise&nbsp;round,&nbsp;you&nbsp;can&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;take&nbsp;a&nbsp;full-round&nbsp;of&nbsp;action,&nbsp;rather&nbsp;than&nbsp;only&nbsp;a&nbsp;standard&nbsp;or&nbsp;move&nbsp;action.
+      <p><strong>Benefit: </strong>At the beginning of a surprise round, if you
+      would not normally take an action, you can expend your psionic focus to
+      roll initiative and take a standard action or a move action. If you do
+      move normally in a surprise round, you can expend your psionic focus to
+      take a full-round of action, rather than only a standard or move action.
 
       </p>
 
-      <p><strong>Normal:&nbsp;</strong>A&nbsp;character&nbsp;that&nbsp;is&nbsp;allowed&nbsp;to&nbsp;act&nbsp;in&nbsp;a&nbsp;surprise&nbsp;round&nbsp;can&nbsp;take&nbsp;only&nbsp;a&nbsp;standard&nbsp;action&nbsp;or&nbsp;a&nbsp;move&nbsp;action,&nbsp;not&nbsp;both.
+      <p><strong>Normal: </strong>A character that is allowed to act in a
+      surprise round can take only a standard action or a move action, not both.
 
       </p>
   disabled: false

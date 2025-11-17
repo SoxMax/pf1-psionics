@@ -29,11 +29,15 @@ system:
         value: One weapon
   description:
     value: >-
-      <p>You&nbsp;coat&nbsp;a&nbsp;single&nbsp;manufactured&nbsp;weapon&nbsp;within&nbsp;range&nbsp;in&nbsp;a&nbsp;sheen&nbsp;of&nbsp;springy&nbsp;ectoplasm.&nbsp;The&nbsp;manufactured&nbsp;weapon&nbsp;deals&nbsp;nonlethal&nbsp;damage&nbsp;instead&nbsp;of&nbsp;lethal&nbsp;damage&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;effect.&nbsp;Ranged&nbsp;weapons&nbsp;transmit&nbsp;this&nbsp;effect&nbsp;to&nbsp;ammunition&nbsp;fired.
+      <p>You coat a single manufactured weapon within range in a sheen of
+      springy ectoplasm. The manufactured weapon deals nonlethal damage instead
+      of lethal damage for the duration of the effect. Ranged weapons transmit
+      this effect to ammunition fired.
 
       </p>
 
-      <p>If&nbsp;you&nbsp;attempt&nbsp;to&nbsp;manifest&nbsp;this&nbsp;power&nbsp;on&nbsp;an&nbsp;attended&nbsp;weapon&nbsp;not&nbsp;in&nbsp;your&nbsp;possession,&nbsp;the&nbsp;owner&nbsp;may&nbsp;attempt&nbsp;a&nbsp;Will&nbsp;save&nbsp;to&nbsp;resist&nbsp;the&nbsp;effect.
+      <p>If you attempt to manifest this power on an attended weapon not in your
+      possession, the owner may attempt a Will save to resist the effect.
 
       </p>
   discipline: metacreativity

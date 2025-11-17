@@ -28,7 +28,9 @@ system:
         value: One creature
   description:
     value: >-
-      <p>As&nbsp;part&nbsp;of&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;you&nbsp;make&nbsp;a&nbsp;ranged&nbsp;attack&nbsp;with&nbsp;a&nbsp;ranged&nbsp;or&nbsp;thrown&nbsp;weapon&nbsp;against&nbsp;the&nbsp;target.&nbsp;If&nbsp;the&nbsp;attack&nbsp;hits,&nbsp;the&nbsp;target&nbsp;is&nbsp;knocked&nbsp;prone&nbsp;unless&nbsp;they&nbsp;succeed&nbsp;on&nbsp;a&nbsp;Reflex&nbsp;save.
+      <p>As part of manifesting this power, you make a ranged attack with a
+      ranged or thrown weapon against the target. If the attack hits, the target
+      is knocked prone unless they succeed on a Reflex save.
 
       </p>
   discipline: psychokinesis

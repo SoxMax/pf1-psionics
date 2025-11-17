@@ -22,13 +22,25 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;have&nbsp;learned&nbsp;how&nbsp;to&nbsp;couple&nbsp;your&nbsp;psionic&nbsp;power&nbsp;with&nbsp;your&nbsp;trained&nbsp;insight&nbsp;into&nbsp;striking&nbsp;a&nbsp;telling&nbsp;blow&nbsp;against&nbsp;an&nbsp;unprepared&nbsp;enemy,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;siphon&nbsp;their&nbsp;strength&nbsp;away.</em></p>
+      <p><em>You have learned how to couple your psionic power with your trained
+      insight into striking a telling blow against an unprepared enemy, allowing
+      you to siphon their strength away.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Psicrystal_Affinity"&nbsp;title="Psicrystal&nbsp;Affinity">Psicrystal&nbsp;Affinity</a>,&nbsp;<a&nbsp;href="/wiki/Psionic_Weapon"&nbsp;title="Psionic&nbsp;Weapon">Psionic&nbsp;Weapon</a>,&nbsp;<a&nbsp;href="/wiki/Cortex_Strike"&nbsp;title="Cortex&nbsp;Strike">Cortex&nbsp;Strike</a>,&nbsp;<a&nbsp;href="/wiki/Superior_Psicrystal"&nbsp;title="Superior&nbsp;Psicrystal">Superior&nbsp;Psicrystal</a>&nbsp;(<a&nbsp;href="/wiki/Psicrystal_Weapon"&nbsp;title="Psicrystal&nbsp;Weapon">Psicrystal&nbsp;Weapon</a>&nbsp;variant),&nbsp;sneak&nbsp;attack&nbsp;+3d6.
+      <p><strong>Prerequisites:</strong><a href="/wiki/Psicrystal_Affinity"
+      title="Psicrystal Affinity">Psicrystal Affinity</a>, <a
+      href="/wiki/Psionic_Weapon" title="Psionic Weapon">Psionic Weapon</a>, <a
+      href="/wiki/Cortex_Strike" title="Cortex Strike">Cortex Strike</a>, <a
+      href="/wiki/Superior_Psicrystal" title="Superior Psicrystal">Superior
+      Psicrystal</a> (<a href="/wiki/Psicrystal_Weapon" title="Psicrystal
+      Weapon">Psicrystal Weapon</a> variant), sneak attack +3d6.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of&nbsp;your&nbsp;Psionic&nbsp;Weapon&nbsp;feat&nbsp;with&nbsp;a&nbsp;psicrystal&nbsp;weapon,&nbsp;you&nbsp;can&nbsp;choose&nbsp;to&nbsp;not&nbsp;deal&nbsp;any&nbsp;damage&nbsp;and&nbsp;for&nbsp;every&nbsp;1d6&nbsp;points&nbsp;of&nbsp;sneak&nbsp;attack&nbsp;damage&nbsp;you&nbsp;could&nbsp;do,&nbsp;the&nbsp;enemy&nbsp;takes&nbsp;1&nbsp;point&nbsp;of&nbsp;Strength&nbsp;damage&nbsp;instead.&nbsp;This&nbsp;can&nbsp;be&nbsp;used&nbsp;even&nbsp;on&nbsp;creatures&nbsp;immune&nbsp;to&nbsp;sneak&nbsp;attacks.
+      <p><strong>Benefit: </strong>When you expend your psionic focus for the
+      purpose of your Psionic Weapon feat with a psicrystal weapon, you can
+      choose to not deal any damage and for every 1d6 points of sneak attack
+      damage you could do, the enemy takes 1 point of Strength damage instead.
+      This can be used even on creatures immune to sneak attacks.
 
       </p>
   disabled: false

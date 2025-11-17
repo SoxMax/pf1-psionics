@@ -27,11 +27,21 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;gain&nbsp;a&nbsp;sixth&nbsp;sense.&nbsp;Once&nbsp;during&nbsp;the&nbsp;power's&nbsp;duration,&nbsp;you&nbsp;may&nbsp;choose&nbsp;to&nbsp;use&nbsp;its&nbsp;effect.&nbsp;This&nbsp;grants&nbsp;you&nbsp;an&nbsp;insight&nbsp;bonus&nbsp;equal&nbsp;to&nbsp;your&nbsp;manifester&nbsp;level&nbsp;(maximum&nbsp;+25)&nbsp;on&nbsp;any&nbsp;single&nbsp;attack&nbsp;roll,&nbsp;combat&nbsp;maneuver&nbsp;check,&nbsp;opposed&nbsp;ability&nbsp;or&nbsp;skill&nbsp;check,&nbsp;or&nbsp;saving&nbsp;throw.&nbsp;Alternatively,&nbsp;you&nbsp;can&nbsp;apply&nbsp;the&nbsp;insight&nbsp;bonus&nbsp;to&nbsp;your&nbsp;AC&nbsp;against&nbsp;a&nbsp;single&nbsp;attack&nbsp;(even&nbsp;if&nbsp;flat-footed).&nbsp;Activating&nbsp;the&nbsp;effect&nbsp;doesn't&nbsp;take&nbsp;an&nbsp;action;&nbsp;you&nbsp;can&nbsp;even&nbsp;activate&nbsp;it&nbsp;on&nbsp;another&nbsp;character's&nbsp;turn.&nbsp;You&nbsp;must&nbsp;choose&nbsp;to&nbsp;use&nbsp;the&nbsp;cosmic&nbsp;awareness&nbsp;before&nbsp;you&nbsp;make&nbsp;the&nbsp;roll&nbsp;it&nbsp;is&nbsp;to&nbsp;modify,&nbsp;or&nbsp;before&nbsp;the&nbsp;attack&nbsp;roll&nbsp;if&nbsp;applying&nbsp;the&nbsp;bonus&nbsp;to&nbsp;your&nbsp;AC.&nbsp;Once&nbsp;used,&nbsp;the&nbsp;power&nbsp;ends.&nbsp;You&nbsp;can't&nbsp;have&nbsp;more&nbsp;than&nbsp;one&nbsp;cosmic&nbsp;awareness&nbsp;active&nbsp;on&nbsp;you&nbsp;at&nbsp;the&nbsp;same&nbsp;time.
+      <p>You gain a sixth sense. Once during the power's duration, you may
+      choose to use its effect. This grants you an insight bonus equal to your
+      manifester level (maximum +25) on any single attack roll, combat maneuver
+      check, opposed ability or skill check, or saving throw. Alternatively, you
+      can apply the insight bonus to your AC against a single attack (even if
+      flat-footed). Activating the effect doesn't take an action; you can even
+      activate it on another character's turn. You must choose to use the cosmic
+      awareness before you make the roll it is to modify, or before the attack
+      roll if applying the bonus to your AC. Once used, the power ends. You
+      can't have more than one cosmic awareness active on you at the same time.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;By&nbsp;spending&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power's&nbsp;duration&nbsp;increases&nbsp;to&nbsp;"1&nbsp;hour/level&nbsp;or&nbsp;until&nbsp;discharged".
+      <p><strong>Augment:</strong> By spending 2 additional power points, this
+      power's duration increases to "1 hour/level or until discharged".
 
       </p>
   discipline: clairsentience

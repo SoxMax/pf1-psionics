@@ -1,0 +1,35 @@
+_id: Xbd3MDE9xcLOBzvx
+_key: '!items!Xbd3MDE9xcLOBzvx'
+_stats:
+  coreVersion: '13.350'
+folder: 1eB0rnnz4sKJdi7L
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Coordinate
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Tactician
+  description:
+    value: >-
+      <p>At 6th level, as long as the tactician maintains psionic focus, he may
+      share any one teamwork feat he has with one member of his collective
+      within line of sight and line of effect. Declaring which member of the
+      collective gains the teamwork feat is a free action that can only be done
+      once per round. The ally's positioning and actions must still meet the
+      prerequisites listed in the teamwork feat to receive the listed bonus, but
+      the ally need not meet the feat prerequisites to gain the benefit.
+
+      </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 52–57
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 64–69
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: coordinate
+type: feat

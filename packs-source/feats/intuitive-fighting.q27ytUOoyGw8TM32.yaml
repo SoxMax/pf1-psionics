@@ -21,23 +21,15 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>Your&nbsp;intuition&nbsp;guides&nbsp;your&nbsp;strikes&nbsp;to&nbsp;be&nbsp;more
-
+    value: |-
+      <p>Your intuition guides your strikes to be more
       devastating.
-
       </p>
-
-      <p><strong>Prerequisite:&nbsp;</strong>Blind-Fight.
-
+      <p><strong>Prerequisite: </strong>Blind-Fight.
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>To&nbsp;use&nbsp;this&nbsp;feat&nbsp;you&nbsp;must&nbsp;maintain&nbsp;psionic
-
-      focus.&nbsp;You&nbsp;add&nbsp;your&nbsp;Wisdom&nbsp;modifier&nbsp;to&nbsp;your&nbsp;melee
-
-      attack&nbsp;rolls&nbsp;instead&nbsp;of&nbsp;your&nbsp;Strength&nbsp;modifier.
-
+      <p><strong>Benefit: </strong>To use this feat you must maintain psionic
+      focus. You add your Wisdom modifier to your melee
+      attack rolls instead of your Strength modifier.
       </p>
   disabled: false
   featType: feat

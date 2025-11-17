@@ -1,0 +1,32 @@
+_id: kSiZTxTAZ7AYQBKb
+_key: '!items!kSiZTxTAZ7AYQBKb'
+_stats:
+  coreVersion: '13.350'
+folder: 3nTUlQKGd4eDVPqX
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Style Mantra
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Marksman
+  description:
+    value: >-
+      <p>At 3rd level, a Marksman gains a mantra associated with her combat
+      style that is active as long as she maintains psionic focus. A Marksman
+      may not use her style mantra at the same time she uses Wind Reader; she
+      may only gain the benefit of one or the other, not both.
+
+      </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 47–50
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 44–46
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: style-mantra
+type: feat

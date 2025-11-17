@@ -1,0 +1,72 @@
+_id: wI3oFU0MCQbZoJV2
+_key: '!items!wI3oFU0MCQbZoJV2'
+_stats:
+  coreVersion: '13.350'
+folder: 1eB0rnnz4sKJdi7L
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Collective
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Tactician
+  description:
+    value: >-
+      <p>A tactician learns to use psionic power to connect willing minds
+      through an internal network that strengthens their psychic bonds. As a
+      standard action, a tactician can join any number of willing targets into
+      his collective (up to his limit, see below). The tactician must have line
+      of sight to each target, each target must have a Wisdom score of at least
+      1, and all targets must be within Medium range (100 ft. + 10 ft. per class
+      level). The collective can contain up to his key ability modifier or half
+      his tactician level, whichever is higher. The tactician is always
+      considered a member of his own collective, and does not count against this
+      limit.
+
+      </p><p>The tactician can choose to remove a member as a free action on his
+      turn, and any member can voluntarily leave the collective as a free action
+      on their turn. Any member whose Wisdom drops to zero or who moves out of
+      range of the collective is automatically removed. If a member enters a
+      null psionics field, the connection to the collective is suppressed until
+      the member leaves the field. A member who leaves the collective for any
+      reason immediately loses any and all benefits they may have gained from
+      being a member. A tactician is aware of the status of his collective and
+      can, roughly, sense the presence of each member, although beyond telling
+      if such a creature is still a member, this has no mechanical benefit until
+      higher levels (see telepathy below).
+
+      </p><p>A tactician can manifest certain powers through his collective. If
+      a tactician power specifies one or more willing targets (or is harmless)
+      and has a range greater than personal, he can manifest this power on a
+      member of his collective regardless of the range of the actual power. All
+      other non-range restrictions still apply. He may manifest any power with
+      the Network Descriptor this way, regardless of their actual ranges or
+      targets. If he is capable of manifesting powers or casting spells from a
+      different class (as is the case for a multiclass tactician), any
+      compatible spell or power with a range greater than touch can also be used
+      through the collective.
+
+      </p><p>If a member of the collective dies, the member is removed from the
+      collective and the tactician must make a Fortitude save (DC 15) or lose 1
+      power point for every Hit Die of the fallen member or be sickened for an
+      equal number of rounds.
+
+      </p><p>At 15th level, a tactician's collective range is limitless on the
+      same plane as the tactician
+
+      </p><p>At 19th level, a tactician's range reaches even across other planes
+      and dimensions.
+
+      </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 52–57
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 64–69
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: collective
+type: feat

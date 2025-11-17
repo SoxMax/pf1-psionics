@@ -30,11 +30,16 @@ system:
         value: 1 piece of ammunition
   description:
     value: >-
-      <p>You&nbsp;charge&nbsp;a&nbsp;piece&nbsp;of&nbsp;ammunition&nbsp;(arrow,&nbsp;bolt,&nbsp;or&nbsp;slingstone)&nbsp;with&nbsp;psychokinetic&nbsp;energy&nbsp;that,&nbsp;when&nbsp;used&nbsp;in&nbsp;a&nbsp;successful&nbsp;ranged&nbsp;attack,&nbsp;releases&nbsp;a&nbsp;blinding&nbsp;burst&nbsp;of&nbsp;light.&nbsp;The&nbsp;creature&nbsp;struck&nbsp;when&nbsp;you&nbsp;fire&nbsp;the&nbsp;charged&nbsp;piece&nbsp;of&nbsp;ammunition&nbsp;must&nbsp;make&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;or&nbsp;be&nbsp;blinded&nbsp;for&nbsp;one&nbsp;day.
+      <p>You charge a piece of ammunition (arrow, bolt, or slingstone) with
+      psychokinetic energy that, when used in a successful ranged attack,
+      releases a blinding burst of light. The creature struck when you fire the
+      charged piece of ammunition must make a Fortitude save or be blinded for
+      one day.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;spent,&nbsp;you&nbsp;can&nbsp;charge&nbsp;an&nbsp;additional&nbsp;piece&nbsp;of&nbsp;ammunition.
+      <p><strong>Augment:</strong> For every 2 additional power points spent,
+      you can charge an additional piece of ammunition.
 
       </p>
   descriptors:

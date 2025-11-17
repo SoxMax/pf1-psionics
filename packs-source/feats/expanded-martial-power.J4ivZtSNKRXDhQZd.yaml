@@ -22,21 +22,27 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;are&nbsp;able&nbsp;to&nbsp;use&nbsp;a&nbsp;wider&nbsp;selection&nbsp;of&nbsp;powers&nbsp;while&nbsp;making&nbsp;attacks.</em></p>
+      <p><em>You are able to use a wider selection of powers while making
+      attacks.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Martial&nbsp;power&nbsp;class&nbsp;feature
-
-      </p>
-
-      <p><strong>Benefit:</strong>&nbsp;To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.&nbsp;When&nbsp;using&nbsp;the&nbsp;martial&nbsp;power&nbsp;ability,&nbsp;you&nbsp;can&nbsp;manifest&nbsp;any&nbsp;power&nbsp;you&nbsp;know,&nbsp;provided&nbsp;it&nbsp;is&nbsp;at&nbsp;least&nbsp;one&nbsp;lever&nbsp;lower&nbsp;than&nbsp;the&nbsp;highest&nbsp;level&nbsp;power&nbsp;you&nbsp;can&nbsp;manifest.
+      <p><strong>Prerequisite:</strong> Martial power class feature
 
       </p>
 
-      <p><strong>Normal:</strong>&nbsp;When&nbsp;using&nbsp;martial&nbsp;power,&nbsp;you&nbsp;may&nbsp;only&nbsp;manifest&nbsp;path&nbsp;powers.
+      <p><strong>Benefit:</strong> To use this feat, you must expend your
+      psionic focus. When using the martial power ability, you can manifest any
+      power you know, provided it is at least one lever lower than the highest
+      level power you can manifest.
 
       </p>
 
-      <p><strong>Special:</strong>&nbsp;You&nbsp;may&nbsp;still&nbsp;manifest&nbsp;path&nbsp;powers&nbsp;with&nbsp;martial&nbsp;power&nbsp;without&nbsp;expending&nbsp;psionic&nbsp;focus.
+      <p><strong>Normal:</strong> When using martial power, you may only
+      manifest path powers.
+
+      </p>
+
+      <p><strong>Special:</strong> You may still manifest path powers with
+      martial power without expending psionic focus.
 
       </p>
   disabled: false

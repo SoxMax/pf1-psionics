@@ -1,0 +1,77 @@
+_id: eSUkX78zCVcLiROT
+_key: '!items!eSUkX78zCVcLiROT'
+_stats:
+  coreVersion: '13.351'
+flags:
+  pf1-psionics:
+    fromRace: Forgeborn
+folder: qus8e0MJDabawFgL
+img: icons/environment/people/group.webp
+name: Second Skin
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>Not all forgeborn have a natrually tough exterior, but instead are
+      extremely comfortable in armor. A forgeborn with this trait reduces any
+      armor check penalty from armor worn by 1 (to a minimum of 0) and can sleep
+      in medium or heavy metal armor without suffering ill effects from sleeping
+      in armor. This replaces natural armor.</li></p>
+  disabled: false
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+type: feat

@@ -1,0 +1,87 @@
+_id: vbydSnoP1uHbwaqJ
+_key: '!items!vbydSnoP1uHbwaqJ'
+_stats:
+  coreVersion: '13.350'
+folder: R7AoIomzfNGuWBKp
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Parallel Action
+system:
+  abilityType: su
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: >-
+      <p>A voyager's aid from her parallel selves manifests through parallel
+      actions that she knows. Parallel actions come in several categories, each
+      with a listed level. When a voyager reaches the listed level, she chooses
+      a specified number of parallel actions of the category of that level to
+      learn. In addition, all voyagers learn the helping hand parallel action at
+      1st level for free.
+
+      </p><p>The categories of parallel actions are as follows:
+
+      </p>
+
+      <ul><li><i>Combat Assistance (1st level):</i> The voyager learns two
+      parallel actions that support her in a fight or in a relatively mundane
+      way.</li>
+
+      <li><i>Time Manipulation (3rd level):</i> The voyager learns two parallel
+      actions that bend time to suit her needs.</li>
+
+      <li><i>Manifesting Support (7th level):</i> The voyager learns two
+      parallel actions that assist her when manifesting powers.</li>
+
+      <li><i>Advanced Assistance (11th level):</i> The voyager learns one
+      parallel action that influences the battlefield in unusual ways.</li>
+
+      <li><i>Backup Plans (15th level):</i> The voyager learns one parallel
+      action that serves to get her out of tight situations.</li>
+
+      <li><i>Parallel Intrusion (19th level):</i> The voyager learns a parallel
+      action that allows her to temporarily stop time and act as she wishes.
+      Parallel actions are supernatural abilities that require the voyager's
+      mental input to use, meaning if the voyager is under an effect that would
+      impair her ability to think or remove her actions entirely (such as
+      stunning or a <i>dominate person</i> spell), her parallel actions are
+      likewise affected.</li></ul>
+
+      <p>Using a parallel action does not provoke attacks of opportunity.
+      Likewise, movement and teleportation made as part of a parallel action
+      does not provoke attacks of opportunity. Unless otherwise noted, parallel
+      actions that target something or teleport the voyager require line of
+      sight, though those that teleport do not require line of effect.
+
+      </p><p>Some of the voyager's parallel actions allow a save to resist their
+      effects. The DC of saves against the voyager's parallel actions is DC 10 +
+      1/2 the voyager's class level + the voyager's Intelligence modifier). A
+      voyager can take the Ability Focus (parallel action) feat, in which case
+      it affects the DC of saving throws made against any of the parallel
+      actions the voyager uses.
+
+      </p><p>Parallel actions are unique abilities that can only be used on a
+      voyager's parallel turn. A voyager's parallel turn is not a true turn, and
+      a voyager can not take normal actions during it. A voyager can use one
+      parallel action on her parallel initiative. Each parallel action lists a
+      minimum voyager level required to use it, and the voyager must choose
+      which parallel action or actions she learns at each given level.
+
+      </p><p>Parallel actions that interact with creatures or objects within a
+      certain range of the voyager can also be used on creatures or objects
+      within that same range of her afterimage. For example, the helping hand
+      parallel action allows the voyager to teleport an adjacent object to her.
+      She can also teleport unattended objects that are adjacent to her
+      afterimage.
+
+      </p>
+
+      <dl><dd><div class="va-hatnote-text"><i></p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
+  subType: classFeat
+  tag: parallel-action
+type: feat

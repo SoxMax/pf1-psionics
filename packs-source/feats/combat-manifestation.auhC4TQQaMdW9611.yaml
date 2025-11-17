@@ -22,29 +22,35 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>You&nbsp;are&nbsp;adept&nbsp;at&nbsp;manifesting&nbsp;powers&nbsp;in&nbsp;combat.
+      <p>You are adept at manifesting powers in combat.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;get&nbsp;a&nbsp;+4&nbsp;bonus&nbsp;on&nbsp;concentration&nbsp;checks
+      <p><strong>Benefit: </strong>You get a +4 bonus on concentration checks
 
-      made&nbsp;to&nbsp;manifest&nbsp;a&nbsp;power&nbsp;or&nbsp;use&nbsp;a&nbsp;psi-like&nbsp;ability&nbsp;when
+      made to manifest a power or use a psi-like ability when
 
-      manifesting&nbsp;on&nbsp;the&nbsp;defensive&nbsp;or&nbsp;while&nbsp;grappled.
-
-      </p>
-
-      <p><br&nbsp;/></p>
-
-      <p>You&nbsp;rarely&nbsp;lose&nbsp;concentration&nbsp;in&nbsp;combat.
+      manifesting on the defensive or while grappled.
 
       </p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Combat&nbsp;Manifestation.
+      <p><br /></p>
+
+      <p>You rarely lose concentration in combat.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;The&nbsp;bonus&nbsp;from&nbsp;Combat&nbsp;Manifestation&nbsp;increases&nbsp;to&nbsp;+8.&nbsp;Anytime&nbsp;you&nbsp;fail&nbsp;a&nbsp;concentration&nbsp;check,&nbsp;you&nbsp;do&nbsp;not&nbsp;lose&nbsp;the&nbsp;power&nbsp;points&nbsp;you&nbsp;were&nbsp;attempting&nbsp;to&nbsp;use.&nbsp;You&nbsp;do&nbsp;not&nbsp;manage&nbsp;to&nbsp;manifest&nbsp;the&nbsp;power,&nbsp;but&nbsp;the&nbsp;power&nbsp;points&nbsp;remains&nbsp;available&nbsp;for&nbsp;you&nbsp;to&nbsp;use&nbsp;at&nbsp;a&nbsp;later&nbsp;time.&nbsp;Additionally&nbsp;if&nbsp;you&nbsp;successfully&nbsp;make&nbsp;a&nbsp;check&nbsp;to&nbsp;manifest&nbsp;a&nbsp;power&nbsp;defensively&nbsp;and&nbsp;the&nbsp;power&nbsp;requires&nbsp;a&nbsp;ranged&nbsp;attack&nbsp;roll,&nbsp;that&nbsp;ranged&nbsp;attack&nbsp;does&nbsp;not&nbsp;provoke&nbsp;an&nbsp;attack&nbsp;of&nbsp;opportunity.&nbsp;
+      <p><strong>Prerequisites:</strong> Combat Manifestation.
+
+      </p>
+
+      <p><strong>Benefit:</strong> The bonus from Combat Manifestation increases
+      to +8. Anytime you fail a concentration check, you do not lose the power
+      points you were attempting to use. You do not manage to manifest the
+      power, but the power points remains available for you to use at a later
+      time. Additionally if you successfully make a check to manifest a power
+      defensively and the power requires a ranged attack roll, that ranged
+      attack does not provoke an attack of opportunity. 
 
       </p>
   disabled: false

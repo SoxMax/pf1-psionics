@@ -29,13 +29,31 @@ system:
         value: Willing living creature touched
   description:
     value: >-
-      <p>You&nbsp;meld&nbsp;into&nbsp;the&nbsp;touched&nbsp;creature,&nbsp;psionically&nbsp;fusing&nbsp;with&nbsp;their&nbsp;form.&nbsp;At&nbsp;the&nbsp;time&nbsp;of&nbsp;manifesting,&nbsp;it&nbsp;is&nbsp;decided&nbsp;if&nbsp;you&nbsp;or&nbsp;the&nbsp;creature&nbsp;touched&nbsp;are&nbsp;the&nbsp;host&nbsp;and&nbsp;the&nbsp;other&nbsp;is&nbsp;the&nbsp;passenger.&nbsp;While&nbsp;fused,&nbsp;the&nbsp;passenger&nbsp;is&nbsp;dormant&nbsp;and&nbsp;unaware.&nbsp;Any&nbsp;other&nbsp;effects&nbsp;that&nbsp;were&nbsp;on&nbsp;the&nbsp;passenger&nbsp;do&nbsp;not&nbsp;affect&nbsp;the&nbsp;host,&nbsp;and&nbsp;vice&nbsp;versa,&nbsp;while&nbsp;the&nbsp;power&nbsp;is&nbsp;in&nbsp;effect.&nbsp;The&nbsp;passenger&nbsp;does&nbsp;not&nbsp;need&nbsp;to&nbsp;eat,&nbsp;drink,&nbsp;or&nbsp;sleep,&nbsp;has&nbsp;no&nbsp;concept&nbsp;of&nbsp;time,&nbsp;and&nbsp;is&nbsp;not&nbsp;aware&nbsp;of&nbsp;surroundings&nbsp;or&nbsp;anything&nbsp;that&nbsp;occurs&nbsp;to&nbsp;the&nbsp;host.&nbsp;The&nbsp;host&nbsp;can&nbsp;discharge&nbsp;the&nbsp;passenger&nbsp;as&nbsp;a&nbsp;standard&nbsp;action&nbsp;that&nbsp;does&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity.&nbsp;If&nbsp;the&nbsp;host&nbsp;is&nbsp;killed&nbsp;or&nbsp;the&nbsp;power&nbsp;ends,&nbsp;the&nbsp;passenger&nbsp;is&nbsp;immediately&nbsp;discharged&nbsp;adjacent&nbsp;to&nbsp;the&nbsp;host&nbsp;(or&nbsp;the&nbsp;host's&nbsp;last&nbsp;location&nbsp;for&nbsp;effects&nbsp;such&nbsp;as&nbsp;disintegration).&nbsp;You&nbsp;cannot&nbsp;be&nbsp;under&nbsp;the&nbsp;effect&nbsp;of&nbsp;hidden&nbsp;body&nbsp;and&nbsp;fusion&nbsp;at&nbsp;the&nbsp;same&nbsp;time.
+      <p>You meld into the touched creature, psionically fusing with their form.
+      At the time of manifesting, it is decided if you or the creature touched
+      are the host and the other is the passenger. While fused, the passenger is
+      dormant and unaware. Any other effects that were on the passenger do not
+      affect the host, and vice versa, while the power is in effect. The
+      passenger does not need to eat, drink, or sleep, has no concept of time,
+      and is not aware of surroundings or anything that occurs to the host. The
+      host can discharge the passenger as a standard action that does not
+      provoke attacks of opportunity. If the host is killed or the power ends,
+      the passenger is immediately discharged adjacent to the host (or the
+      host's last location for effects such as disintegration). You cannot be
+      under the effect of hidden body and fusion at the same time.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power can be augmented in one of the
+      following ways.
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;passenger&nbsp;is&nbsp;aware&nbsp;of&nbsp;everything&nbsp;the&nbsp;host&nbsp;is&nbsp;aware&nbsp;of,&nbsp;although&nbsp;the&nbsp;passenger&nbsp;can&nbsp;still&nbsp;take&nbsp;no&nbsp;actions&nbsp;while&nbsp;fused.</li><li>If&nbsp;you&nbsp;spend&nbsp;8&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;passenger&nbsp;is&nbsp;aware&nbsp;of&nbsp;everything&nbsp;the&nbsp;host&nbsp;is&nbsp;aware&nbsp;of&nbsp;and&nbsp;can&nbsp;take&nbsp;purely&nbsp;mental&nbsp;actions&nbsp;such&nbsp;as&nbsp;manifesting&nbsp;powers,&nbsp;although&nbsp;the&nbsp;passenger&nbsp;is&nbsp;restricted&nbsp;to&nbsp;the&nbsp;senses&nbsp;of&nbsp;the&nbsp;host&nbsp;unless&nbsp;using&nbsp;some&nbsp;other&nbsp;means&nbsp;of&nbsp;senses.&nbsp;The&nbsp;power's&nbsp;duration&nbsp;changes&nbsp;to&nbsp;1&nbsp;round&nbsp;/&nbsp;level&nbsp;(D).</li></ol>
+      </p><ol><li>If you spend 4 additional power points, the passenger is aware
+      of everything the host is aware of, although the passenger can still take
+      no actions while fused.</li><li>If you spend 8 additional power points,
+      the passenger is aware of everything the host is aware of and can take
+      purely mental actions such as manifesting powers, although the passenger
+      is restricted to the senses of the host unless using some other means of
+      senses. The power's duration changes to 1 round / level (D).</li></ol>
   discipline: psychometabolism
   display:
     auditory: false

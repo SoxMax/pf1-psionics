@@ -22,69 +22,71 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>Your&nbsp;melee&nbsp;or&nbsp;ranged&nbsp;attack&nbsp;overcomes&nbsp;your
+      <p>Your melee or ranged attack overcomes your
 
-      opponent’s&nbsp;alignment-based&nbsp;damage&nbsp;reduction&nbsp;and
+      opponent’s alignment-based damage reduction and
 
-      deals&nbsp;additional&nbsp;damage.
-
-      </p>
-
-      <p><strong>Prerequisite:&nbsp;</strong>Base&nbsp;attack&nbsp;bonus&nbsp;+6.
+      deals additional damage.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;take&nbsp;this&nbsp;feat,&nbsp;choose&nbsp;either
-
-      chaos,&nbsp;good,&nbsp;evil&nbsp;or&nbsp;law.&nbsp;(Your&nbsp;choice&nbsp;must&nbsp;match&nbsp;one
-
-      of&nbsp;your&nbsp;alignment&nbsp;components.)&nbsp;Once&nbsp;you’ve&nbsp;made&nbsp;this
-
-      alignment&nbsp;choice,&nbsp;it&nbsp;cannot&nbsp;be&nbsp;changed.
+      <p><strong>Prerequisite: </strong>Base attack bonus +6.
 
       </p>
 
-      <p>As&nbsp;long&nbsp;as&nbsp;you&nbsp;maintain&nbsp;psionic&nbsp;focus,&nbsp;your&nbsp;attack&nbsp;is
+      <p><strong>Benefit: </strong>When you take this feat, choose either
 
-      treated&nbsp;as&nbsp;either&nbsp;a&nbsp;good,&nbsp;evil,&nbsp;chaotic,&nbsp;or&nbsp;lawful&nbsp;attack
+      chaos, good, evil or law. (Your choice must match one
 
-      (depending&nbsp;on&nbsp;your&nbsp;original&nbsp;choice)&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of
+      of your alignment components.) Once you’ve made this
 
-      overcoming&nbsp;damage&nbsp;reduction.
-
-      </p>
-
-      <p>You&nbsp;may&nbsp;choose&nbsp;to&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when
-
-      making&nbsp;an&nbsp;attack&nbsp;to&nbsp;power&nbsp;this&nbsp;feat’s&nbsp;secondary&nbsp;ability.
-
-      When&nbsp;you&nbsp;make&nbsp;a&nbsp;successful&nbsp;melee&nbsp;or&nbsp;ranged&nbsp;attack&nbsp;in
-
-      this&nbsp;fashion,&nbsp;you&nbsp;deal&nbsp;an&nbsp;extra&nbsp;2d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;of
-
-      the&nbsp;type&nbsp;you&nbsp;originally&nbsp;selected&nbsp;if&nbsp;your&nbsp;target&nbsp;is&nbsp;of&nbsp;the
-
-      opposed&nbsp;alignment.&nbsp;This&nbsp;attack&nbsp;is&nbsp;still&nbsp;treated&nbsp;as&nbsp;the
-
-      appropriate&nbsp;alignment&nbsp;type.&nbsp;You&nbsp;must&nbsp;decide&nbsp;whether
-
-      or&nbsp;not&nbsp;to&nbsp;use&nbsp;this&nbsp;ability&nbsp;prior&nbsp;to&nbsp;making&nbsp;an&nbsp;attack.&nbsp;If
-
-      your&nbsp;attack&nbsp;misses,&nbsp;you&nbsp;still&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.
+      alignment choice, it cannot be changed.
 
       </p>
 
-      <p><br&nbsp;/></p>
+      <p>As long as you maintain psionic focus, your attack is
 
-      <p>You&nbsp;can&nbsp;switch&nbsp;the&nbsp;alignment&nbsp;of&nbsp;your&nbsp;attacks.
+      treated as either a good, evil, chaotic, or lawful attack
+
+      (depending on your original choice) for the purpose of
+
+      overcoming damage reduction.
 
       </p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Aligned&nbsp;Attack.&nbsp;
+      <p>You may choose to expend your psionic focus when
+
+      making an attack to power this feat’s secondary ability.
+
+      When you make a successful melee or ranged attack in
+
+      this fashion, you deal an extra 2d6 points of damage of
+
+      the type you originally selected if your target is of the
+
+      opposed alignment. This attack is still treated as the
+
+      appropriate alignment type. You must decide whether
+
+      or not to use this ability prior to making an attack. If
+
+      your attack misses, you still expend your psionic focus.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;change&nbsp;the&nbsp;alignment&nbsp;choice&nbsp;for&nbsp;the&nbsp;Aligned&nbsp;Attack&nbsp;feat.&nbsp;The&nbsp;alignment&nbsp;chosen&nbsp;must&nbsp;still&nbsp;match&nbsp;one&nbsp;of&nbsp;your&nbsp;alignment&nbsp;components.&nbsp;
+      <p><br /></p>
+
+      <p>You can switch the alignment of your attacks.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong> Aligned Attack. 
+
+      </p>
+
+      <p><strong>Benefit:</strong> You can expend a use of mythic power as a
+      swift action to change the alignment choice for the Aligned Attack feat.
+      The alignment chosen must still match one of your alignment components. 
 
       </p>
   disabled: false

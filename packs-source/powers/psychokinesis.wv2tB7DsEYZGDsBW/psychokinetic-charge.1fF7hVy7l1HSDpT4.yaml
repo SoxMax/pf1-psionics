@@ -29,7 +29,14 @@ system:
         value: one willing creature
   description:
     value: >-
-      <p>You&nbsp;telekinetically&nbsp;launch&nbsp;an&nbsp;ally&nbsp;(or&nbsp;yourself)&nbsp;across&nbsp;the&nbsp;battlefield&nbsp;to&nbsp;anywhere&nbsp;within&nbsp;this&nbsp;power's&nbsp;range.&nbsp;While&nbsp;moving,&nbsp;your&nbsp;ally&nbsp;is&nbsp;flying&nbsp;just&nbsp;above&nbsp;the&nbsp;ground&nbsp;unless&nbsp;you&nbsp;wish&nbsp;otherwise.&nbsp;Movement&nbsp;from&nbsp;this&nbsp;power&nbsp;provokes&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;as&nbsp;normal,&nbsp;although&nbsp;you&nbsp;can&nbsp;lift&nbsp;your&nbsp;ally&nbsp;over&nbsp;objects&nbsp;or&nbsp;out&nbsp;of&nbsp;enemy&nbsp;reach,&nbsp;as&nbsp;long&nbsp;as&nbsp;your&nbsp;ally&nbsp;remains&nbsp;within&nbsp;range.&nbsp;If&nbsp;your&nbsp;ally&nbsp;lands&nbsp;adjacent&nbsp;to&nbsp;an&nbsp;opponent,&nbsp;he&nbsp;can&nbsp;spend&nbsp;an&nbsp;immediate&nbsp;action&nbsp;to&nbsp;make&nbsp;a&nbsp;melee&nbsp;attack&nbsp;against&nbsp;that&nbsp;opponent&nbsp;with&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;the&nbsp;attack&nbsp;roll.
+      <p>You telekinetically launch an ally (or yourself) across the battlefield
+      to anywhere within this power's range. While moving, your ally is flying
+      just above the ground unless you wish otherwise. Movement from this power
+      provokes attacks of opportunity as normal, although you can lift your ally
+      over objects or out of enemy reach, as long as your ally remains within
+      range. If your ally lands adjacent to an opponent, he can spend an
+      immediate action to make a melee attack against that opponent with a +2
+      bonus on the attack roll.
 
       </p>
   descriptors:

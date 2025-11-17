@@ -22,13 +22,15 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;rays&nbsp;strike&nbsp;better&nbsp;at&nbsp;the&nbsp;same&nbsp;target.</em></p>
+      <p><em>Your rays strike better at the same target.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Split_Psionic_Ray"&nbsp;title="Split&nbsp;Psionic&nbsp;Ray">Split&nbsp;Psionic&nbsp;Ray</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Split_Psionic_Ray"
+      title="Split Psionic Ray">Split Psionic Ray</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>If&nbsp;you&nbsp;target&nbsp;the&nbsp;same&nbsp;target&nbsp;with&nbsp;both&nbsp;rays,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;your&nbsp;ranged&nbsp;touch&nbsp;attacks.
+      <p><strong>Benefit: </strong>If you target the same target with both rays,
+      you gain a +2 bonus on your ranged touch attacks.
 
       </p>
   disabled: false

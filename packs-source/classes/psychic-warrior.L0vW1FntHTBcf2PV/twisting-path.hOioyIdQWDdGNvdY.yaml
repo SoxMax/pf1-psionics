@@ -1,0 +1,35 @@
+_id: hOioyIdQWDdGNvdY
+_key: '!items!hOioyIdQWDdGNvdY'
+_stats:
+  coreVersion: '13.350'
+folder: L0vW1FntHTBcf2PV
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Twisting Path
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Psychic Warrior
+  description:
+    value: >-
+      <p>At 12th level, as a swift action while maintaining psionic focus and
+      using a trance, the psychic warrior can change to the trance of his other
+      path.
+
+      </p>
+  sources:
+    - date: '2010-08-01'
+      pages: 25–27
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2010-01-01'
+      pages: 29–31
+      publisher: Dreamscarred Press
+      title: 'Psionics Unleashed: Revised'
+    - date: '2013-12-24'
+      pages: 53–55
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: twisting-path
+type: feat

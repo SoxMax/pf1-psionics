@@ -30,15 +30,27 @@ system:
           lb./level); see text
   description:
     value: >-
-      <p>You&nbsp;gain&nbsp;the&nbsp;ability&nbsp;move&nbsp;yourself,&nbsp;another&nbsp;creature,&nbsp;or&nbsp;an&nbsp;object&nbsp;up&nbsp;and&nbsp;down&nbsp;as&nbsp;you&nbsp;wish.&nbsp;A&nbsp;creature&nbsp;must&nbsp;be&nbsp;willing&nbsp;to&nbsp;be&nbsp;affected,&nbsp;and&nbsp;an&nbsp;object&nbsp;must&nbsp;be&nbsp;unattended&nbsp;or&nbsp;possessed&nbsp;by&nbsp;a&nbsp;willing&nbsp;creature.&nbsp;You&nbsp;can&nbsp;mentally&nbsp;direct&nbsp;the&nbsp;recipient&nbsp;to&nbsp;move&nbsp;up&nbsp;or&nbsp;down&nbsp;as&nbsp;much&nbsp;as&nbsp;20&nbsp;feet&nbsp;each&nbsp;round;&nbsp;doing&nbsp;so&nbsp;is&nbsp;a&nbsp;move&nbsp;action.&nbsp;You&nbsp;cannot&nbsp;move&nbsp;the&nbsp;recipient&nbsp;horizontally,&nbsp;but&nbsp;the&nbsp;recipient&nbsp;could&nbsp;clamber&nbsp;along&nbsp;the&nbsp;face&nbsp;of&nbsp;a&nbsp;cliff,&nbsp;for&nbsp;example,&nbsp;or&nbsp;push&nbsp;against&nbsp;a&nbsp;ceiling&nbsp;to&nbsp;move&nbsp;laterally&nbsp;(generally&nbsp;at&nbsp;half&nbsp;its&nbsp;base&nbsp;land&nbsp;speed).
+      <p>You gain the ability move yourself, another creature, or an object up
+      and down as you wish. A creature must be willing to be affected, and an
+      object must be unattended or possessed by a willing creature. You can
+      mentally direct the recipient to move up or down as much as 20 feet each
+      round; doing so is a move action. You cannot move the recipient
+      horizontally, but the recipient could clamber along the face of a cliff,
+      for example, or push against a ceiling to move laterally (generally at
+      half its base land speed).
 
       </p>
 
-      <p>An&nbsp;affected&nbsp;creature&nbsp;that&nbsp;attacks&nbsp;with&nbsp;a&nbsp;melee&nbsp;or&nbsp;ranged&nbsp;weapon&nbsp;finds&nbsp;itself&nbsp;increasingly&nbsp;unstable;&nbsp;the&nbsp;first&nbsp;attack&nbsp;has&nbsp;a&nbsp;–1&nbsp;penalty&nbsp;on&nbsp;attack&nbsp;rolls,&nbsp;the&nbsp;second&nbsp;–2,&nbsp;and&nbsp;so&nbsp;on,&nbsp;to&nbsp;a&nbsp;maximum&nbsp;penalty&nbsp;of&nbsp;–5.&nbsp;A&nbsp;full&nbsp;round&nbsp;spent&nbsp;stabilizing&nbsp;allows&nbsp;the&nbsp;creature&nbsp;to&nbsp;begin&nbsp;again&nbsp;at&nbsp;–1.
+      <p>An affected creature that attacks with a melee or ranged weapon finds
+      itself increasingly unstable; the first attack has a –1 penalty on attack
+      rolls, the second –2, and so on, to a maximum penalty of –5. A full round
+      spent stabilizing allows the creature to begin again at –1.
 
       </p>
 
-      <p><strong>Special:</strong>&nbsp;When&nbsp;a&nbsp;manifester&nbsp;other&nbsp;than&nbsp;a&nbsp;nomad&nbsp;manifests&nbsp;this&nbsp;power,&nbsp;the&nbsp;target&nbsp;is&nbsp;the&nbsp;manifester&nbsp;(not&nbsp;a&nbsp;willing&nbsp;creature&nbsp;or&nbsp;an&nbsp;object).
+      <p><strong>Special:</strong> When a manifester other than a nomad
+      manifests this power, the target is the manifester (not a willing creature
+      or an object).
 
       </p>
   discipline: psychoportation

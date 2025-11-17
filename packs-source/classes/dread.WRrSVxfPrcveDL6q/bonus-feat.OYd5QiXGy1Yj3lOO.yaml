@@ -1,0 +1,49 @@
+_id: OYd5QiXGy1Yj3lOO
+_key: '!items!OYd5QiXGy1Yj3lOO'
+_stats:
+  coreVersion: '13.350'
+folder: WRrSVxfPrcveDL6q
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Bonus Feat
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Dread
+  description:
+    value: >-
+      <p>At 5th level, the dread gains a bonus feat from the following list. The
+      dread must still meet all prerequisites for the bonus feat, including
+      ability score and base attack bonus minimums as well as class requirements
+      (like levels in another specific class).
+
+      </p><p>These bonus feats are in addition to the feats that a character of
+      any class gains every two levels. A dread is not limited to the list of
+      feats below when choosing these other feats.
+
+      </p><p><a href="/wiki/Additional_Terror" title="Additional
+      Terror">Additional Terror</a>, <a href="/wiki/Disciple_of_Fear"
+      title="Disciple of Fear">Disciple of Fear</a>, <a
+      href="/wiki/Extra_Terrors" title="Extra Terrors">Extra Terrors</a>, <a
+      href="/wiki/Fear_Mastery" title="Fear Mastery">Fear Mastery</a>, <a
+      href="/wiki/Multiple_Connections" title="Multiple Connections">Multiple
+      Connections</a>, <a href="/wiki/Open_Door" title="Open Door">Open
+      Door</a>, <a href="/wiki/Touch_of_Terror" title="Touch of Terror">Touch of
+      Terror</a>.
+
+      </p><p>The dread gains an additional bonus feat from the same list every 4
+      levels thereafter (9th, 13th, and 17th).
+
+      </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 43–47
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 40–44
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: bonus-feat
+type: feat

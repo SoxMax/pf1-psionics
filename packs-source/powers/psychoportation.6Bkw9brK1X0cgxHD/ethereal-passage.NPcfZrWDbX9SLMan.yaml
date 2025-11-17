@@ -29,15 +29,32 @@ system:
           levels
   description:
     value: >-
-      <p>You&nbsp;create&nbsp;an&nbsp;ethereal&nbsp;passage&nbsp;through&nbsp;wooden,&nbsp;plaster,&nbsp;or&nbsp;stone&nbsp;walls,&nbsp;but&nbsp;not&nbsp;other&nbsp;materials.&nbsp;The&nbsp;ethereal&nbsp;passage&nbsp;is&nbsp;invisible&nbsp;and&nbsp;inaccessible&nbsp;to&nbsp;all&nbsp;creatures&nbsp;except&nbsp;you,&nbsp;and&nbsp;only&nbsp;you&nbsp;can&nbsp;use&nbsp;the&nbsp;passage.&nbsp;You&nbsp;disappear&nbsp;when&nbsp;you&nbsp;enter&nbsp;the&nbsp;ethereal&nbsp;passage&nbsp;and&nbsp;appear&nbsp;when&nbsp;you&nbsp;exit.&nbsp;If&nbsp;you&nbsp;desire,&nbsp;you&nbsp;can&nbsp;take&nbsp;one&nbsp;other&nbsp;creature&nbsp;(Medium&nbsp;or&nbsp;smaller)&nbsp;through&nbsp;the&nbsp;passage.&nbsp;This&nbsp;counts&nbsp;as&nbsp;two&nbsp;uses&nbsp;of&nbsp;the&nbsp;passage.&nbsp;The&nbsp;passage&nbsp;does&nbsp;not&nbsp;allow&nbsp;light,&nbsp;sound,&nbsp;or&nbsp;power&nbsp;effects&nbsp;through&nbsp;it,&nbsp;nor&nbsp;can&nbsp;you&nbsp;see&nbsp;through&nbsp;it&nbsp;without&nbsp;using&nbsp;it.&nbsp;Thus,&nbsp;the&nbsp;power&nbsp;can&nbsp;provide&nbsp;an&nbsp;escape&nbsp;route,&nbsp;though&nbsp;certain&nbsp;creatures,&nbsp;such&nbsp;as&nbsp;phase&nbsp;spiders,&nbsp;can&nbsp;follow&nbsp;with&nbsp;ease.&nbsp;A&nbsp;gem&nbsp;of&nbsp;true&nbsp;seeing&nbsp;or&nbsp;similar&nbsp;ability&nbsp;reveals&nbsp;the&nbsp;presence&nbsp;of&nbsp;an&nbsp;ethereal&nbsp;passage&nbsp;but&nbsp;does&nbsp;not&nbsp;allow&nbsp;its&nbsp;use.
+      <p>You create an ethereal passage through wooden, plaster, or stone walls,
+      but not other materials. The ethereal passage is invisible and
+      inaccessible to all creatures except you, and only you can use the
+      passage. You disappear when you enter the ethereal passage and appear when
+      you exit. If you desire, you can take one other creature (Medium or
+      smaller) through the passage. This counts as two uses of the passage. The
+      passage does not allow light, sound, or power effects through it, nor can
+      you see through it without using it. Thus, the power can provide an escape
+      route, though certain creatures, such as phase spiders, can follow with
+      ease. A gem of true seeing or similar ability reveals the presence of an
+      ethereal passage but does not allow its use.
 
       </p>
 
-      <p>An&nbsp;ethereal&nbsp;passage&nbsp;is&nbsp;subject&nbsp;to&nbsp;dispel&nbsp;psionics.&nbsp;If&nbsp;anyone&nbsp;is&nbsp;within&nbsp;the&nbsp;passage&nbsp;when&nbsp;it&nbsp;is&nbsp;dispelled,&nbsp;he&nbsp;is&nbsp;harmlessly&nbsp;ejected&nbsp;just&nbsp;as&nbsp;if&nbsp;he&nbsp;were&nbsp;inside&nbsp;a&nbsp;passwall&nbsp;effect.
+      <p>An ethereal passage is subject to dispel psionics. If anyone is within
+      the passage when it is dispelled, he is harmlessly ejected just as if he
+      were inside a passwall effect.
 
       </p>
 
-      <p>You&nbsp;can&nbsp;allow&nbsp;other&nbsp;creatures&nbsp;to&nbsp;use&nbsp;the&nbsp;ethereal&nbsp;passage&nbsp;by&nbsp;setting&nbsp;some&nbsp;triggering&nbsp;condition&nbsp;for&nbsp;the&nbsp;door.&nbsp;Such&nbsp;conditions&nbsp;can&nbsp;be&nbsp;as&nbsp;simple&nbsp;or&nbsp;elaborate&nbsp;as&nbsp;you&nbsp;desire.&nbsp;They&nbsp;can&nbsp;be&nbsp;based&nbsp;on&nbsp;a&nbsp;creature's&nbsp;name,&nbsp;identity,&nbsp;or&nbsp;alignment,&nbsp;but&nbsp;otherwise&nbsp;must&nbsp;be&nbsp;based&nbsp;on&nbsp;observable&nbsp;actions&nbsp;or&nbsp;qualities.&nbsp;Intangibles&nbsp;such&nbsp;as&nbsp;level,&nbsp;class,&nbsp;HD,&nbsp;and&nbsp;hit&nbsp;points&nbsp;don't&nbsp;qualify.
+      <p>You can allow other creatures to use the ethereal passage by setting
+      some triggering condition for the door. Such conditions can be as simple
+      or elaborate as you desire. They can be based on a creature's name,
+      identity, or alignment, but otherwise must be based on observable actions
+      or qualities. Intangibles such as level, class, HD, and hit points don't
+      qualify.
 
       </p>
   discipline: psychoportation

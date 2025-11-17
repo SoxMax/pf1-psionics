@@ -1,0 +1,45 @@
+_id: mECSpyfGFDSKoQyr
+_key: '!items!mECSpyfGFDSKoQyr'
+_stats:
+  coreVersion: '13.350'
+folder: WRrSVxfPrcveDL6q
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Terror
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Dread
+  description:
+    value: >-
+      <p>Beginning at 2nd level, a dread learns to harness the power of fear in
+      a variety of ways called terrors. Using a terror is a swift action. Some
+      terrors are channelled through her devastating touch class feature. These
+      terrors charge a dread's touch (and later her weapon) until her next
+      successful attack that round.
+
+      </p><p>Some terrors can be augmented by spending power points, similar to
+      manifesting powers, to increase their effect. When augmenting her terrors
+      with power points, the dread cannot spend more power points than her
+      manifester level on any single use of a terror.
+
+      </p><p>A dread can use her terrors a total number of times per day equal
+      to her dread level + her Charisma modifier.
+
+      </p><p>All terrors may only be chosen once unless otherwise specified.
+
+      </p>
+
+      <dl><dd><div class="va-hatnote-text"><i></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 43–47
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 40–44
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: terror
+type: feat

@@ -29,7 +29,13 @@ system:
         value: You
   description:
     value: >-
-      <p>If&nbsp;you&nbsp;have&nbsp;a&nbsp;claw&nbsp;attack&nbsp;(either&nbsp;from&nbsp;an&nbsp;actual&nbsp;natural&nbsp;weapon&nbsp;or&nbsp;from&nbsp;an&nbsp;effect&nbsp;such&nbsp;as&nbsp;claws&nbsp;of&nbsp;the&nbsp;beast),&nbsp;you&nbsp;can&nbsp;use&nbsp;this&nbsp;power&nbsp;to&nbsp;produce&nbsp;a&nbsp;horrible&nbsp;poison&nbsp;that&nbsp;coats&nbsp;one&nbsp;of&nbsp;your&nbsp;claws.&nbsp;On&nbsp;your&nbsp;next&nbsp;successful&nbsp;melee&nbsp;attack&nbsp;with&nbsp;the&nbsp;claw&nbsp;during&nbsp;the&nbsp;power's&nbsp;duration,&nbsp;the&nbsp;poison&nbsp;deals&nbsp;1d3&nbsp;points&nbsp;of&nbsp;Constitution&nbsp;damage&nbsp;per&nbsp;round&nbsp;for&nbsp;6&nbsp;rounds.&nbsp;Poisoned&nbsp;creatures&nbsp;can&nbsp;make&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;each&nbsp;round&nbsp;to&nbsp;negate&nbsp;the&nbsp;damage&nbsp;and&nbsp;end&nbsp;the&nbsp;affliction.
+      <p>If you have a claw attack (either from an actual natural weapon or from
+      an effect such as claws of the beast), you can use this power to produce a
+      horrible poison that coats one of your claws. On your next successful
+      melee attack with the claw during the power's duration, the poison deals
+      1d3 points of Constitution damage per round for 6 rounds. Poisoned
+      creatures can make a Fortitude save each round to negate the damage and
+      end the affliction.
 
       </p>
   discipline: psychometabolism

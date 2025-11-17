@@ -21,27 +21,17 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;apply&nbsp;your&nbsp;surging&nbsp;emotions&nbsp;to&nbsp;skill&nbsp;checks.
-
+    value: |-
+      <p>You apply your surging emotions to skill checks.
       </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Wild&nbsp;surge&nbsp;class&nbsp;feature.
-
+      <p><strong>Prerequisites: </strong>Wild surge class feature.
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;take&nbsp;this&nbsp;feat,&nbsp;select&nbsp;a&nbsp;number
-
-      of&nbsp;skills&nbsp;equal&nbsp;to&nbsp;your&nbsp;Charisma&nbsp;modifier.&nbsp;You&nbsp;gain&nbsp;an
-
-      insight&nbsp;bonus&nbsp;equal&nbsp;to&nbsp;your&nbsp;wild&nbsp;surge’s&nbsp;intensity&nbsp;on
-
-      checks&nbsp;made&nbsp;with&nbsp;those&nbsp;skills.
-
+      <p><strong>Benefit: </strong>When you take this feat, select a number
+      of skills equal to your Charisma modifier. You gain an
+      insight bonus equal to your wild surge’s intensity on
+      checks made with those skills.
       </p>
-
-      <p><strong>Special:&nbsp;</strong>You&nbsp;may&nbsp;select&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;times.
-
+      <p><strong>Special: </strong>You may select this feat multiple times.
       </p>
   disabled: false
   featType: feat

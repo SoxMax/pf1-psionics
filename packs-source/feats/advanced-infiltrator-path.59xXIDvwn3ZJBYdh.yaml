@@ -22,13 +22,22 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;have&nbsp;a&nbsp;talent&nbsp;for&nbsp;getting&nbsp;wherever&nbsp;you&nbsp;need&nbsp;to&nbsp;go.</em></p>
+      <p><em>You have a talent for getting wherever you need to go.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Deceitful">Deceitful</a>,&nbsp;infiltrator&nbsp;path&nbsp;class&nbsp;feature,&nbsp;manifester&nbsp;level&nbsp;10th,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+6
+      <p><strong>Prerequisites:</strong><a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Deceitful">Deceitful</a>,
+      infiltrator path class feature, manifester level 10th, base attack bonus
+      +6
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;using&nbsp;the&nbsp;infiltrator&nbsp;trance,&nbsp;the&nbsp;competence&nbsp;bonus&nbsp;to&nbsp;Disguise&nbsp;checks&nbsp;also&nbsp;applies&nbsp;to&nbsp;Bluff&nbsp;and&nbsp;Sense&nbsp;Motive&nbsp;checks.&nbsp;In&nbsp;addition,&nbsp;when&nbsp;using&nbsp;the&nbsp;infiltrator&nbsp;maneuver,&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;your&nbsp;<a&nbsp;href="/wiki/Metamorphosis"&nbsp;title="Metamorphosis">metamorphosis</a>&nbsp;power,&nbsp;you&nbsp;gain&nbsp;the&nbsp;scent&nbsp;extraordinary&nbsp;ability&nbsp;and&nbsp;the&nbsp;competence&nbsp;bonus&nbsp;to&nbsp;Intimidate&nbsp;checks&nbsp;also&nbsp;applies&nbsp;to&nbsp;Survival&nbsp;checks.
+      <p><strong>Benefit: </strong>When using the infiltrator trance, the
+      competence bonus to Disguise checks also applies to Bluff and Sense Motive
+      checks. In addition, when using the infiltrator maneuver, for the duration
+      of your <a href="/wiki/Metamorphosis"
+      title="Metamorphosis">metamorphosis</a> power, you gain the scent
+      extraordinary ability and the competence bonus to Intimidate checks also
+      applies to Survival checks.
 
       </p>
   disabled: false

@@ -28,13 +28,22 @@ system:
         value: One undead creature
   description:
     value: >-
-      <p>Your&nbsp;power&nbsp;threatens&nbsp;to&nbsp;tear&nbsp;the&nbsp;target's&nbsp;body&nbsp;down&nbsp;to&nbsp;the&nbsp;spirit.&nbsp;This&nbsp;power&nbsp;instantly&nbsp;deals&nbsp;150&nbsp;points&nbsp;of&nbsp;damage.&nbsp;If&nbsp;the&nbsp;target&nbsp;succeeds&nbsp;on&nbsp;its&nbsp;save,&nbsp;it&nbsp;instead&nbsp;takes&nbsp;3d6&nbsp;+&nbsp;15&nbsp;damage.&nbsp;If&nbsp;this&nbsp;damage&nbsp;destroys&nbsp;the&nbsp;target,&nbsp;it&nbsp;cannot&nbsp;return&nbsp;or&nbsp;reform,&nbsp;such&nbsp;as&nbsp;through&nbsp;a&nbsp;ghost's&nbsp;rejuvenation&nbsp;ability.
+      <p>Your power threatens to tear the target's body down to the spirit. This
+      power instantly deals 150 points of damage. If the target succeeds on its
+      save, it instead takes 3d6 + 15 damage. If this damage destroys the
+      target, it cannot return or reform, such as through a ghost's rejuvenation
+      ability.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You may augment this power in one of the
+      following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;spent,&nbsp;power&nbsp;deals&nbsp;an&nbsp;additional&nbsp;10&nbsp;points&nbsp;of&nbsp;damage&nbsp;on&nbsp;a&nbsp;failed&nbsp;save.&nbsp;For&nbsp;every&nbsp;two&nbsp;points&nbsp;you&nbsp;spend&nbsp;augmenting&nbsp;this&nbsp;power,&nbsp;increase&nbsp;the&nbsp;save&nbsp;DC&nbsp;by&nbsp;1.</li><li>By&nbsp;expending&nbsp;your&nbsp;psionic&nbsp;focus,&nbsp;you&nbsp;may&nbsp;target&nbsp;a&nbsp;living&nbsp;creature&nbsp;touched&nbsp;with&nbsp;this&nbsp;power.</li></ol>
+      </p><ol><li>For every additional power point spent, power deals an
+      additional 10 points of damage on a failed save. For every two points you
+      spend augmenting this power, increase the save DC by 1.</li><li>By
+      expending your psionic focus, you may target a living creature touched
+      with this power.</li></ol>
   discipline: athanatism
   display:
     auditory: false

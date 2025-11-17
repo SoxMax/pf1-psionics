@@ -29,13 +29,29 @@ system:
         value: Creature touched
   description:
     value: >-
-      <p>You&nbsp;cleanse&nbsp;the&nbsp;subject's&nbsp;body&nbsp;of&nbsp;unhealthy&nbsp;influences&nbsp;and&nbsp;relieve&nbsp;1d2+1&nbsp;rounds'&nbsp;worth&nbsp;of&nbsp;debilitating&nbsp;conditions&nbsp;-&nbsp;dazed,&nbsp;confused,&nbsp;nauseated,&nbsp;shaken,&nbsp;and/or&nbsp;stunned.&nbsp;The&nbsp;subject&nbsp;gains&nbsp;instant&nbsp;relief&nbsp;if&nbsp;she&nbsp;is&nbsp;dazed,&nbsp;confused,&nbsp;nauseated,&nbsp;shaken,&nbsp;and/or&nbsp;stunned.&nbsp;If&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;debilitating&nbsp;condition&nbsp;is&nbsp;longer&nbsp;than&nbsp;the&nbsp;relief&nbsp;provided&nbsp;by&nbsp;this&nbsp;power,&nbsp;the&nbsp;subject&nbsp;can&nbsp;either,&nbsp;at&nbsp;your&nbsp;choice,&nbsp;remain&nbsp;affected&nbsp;by&nbsp;the&nbsp;debilitating&nbsp;condition,&nbsp;but&nbsp;for&nbsp;a&nbsp;reduced&nbsp;time,&nbsp;or&nbsp;gain&nbsp;1d2+1&nbsp;rounds&nbsp;unaffected&nbsp;by&nbsp;the&nbsp;condition.&nbsp;So,&nbsp;if&nbsp;the&nbsp;subject&nbsp;is&nbsp;dazed&nbsp;for&nbsp;10&nbsp;rounds,&nbsp;using&nbsp;this&nbsp;power&nbsp;can&nbsp;either&nbsp;grant&nbsp;them&nbsp;1d2+1&nbsp;rounds&nbsp;not&nbsp;being&nbsp;dazed&nbsp;or&nbsp;shorten&nbsp;that&nbsp;period&nbsp;by&nbsp;1d2+1&nbsp;rounds.&nbsp;You&nbsp;could&nbsp;manifest&nbsp;this&nbsp;power&nbsp;again&nbsp;to&nbsp;relieve&nbsp;the&nbsp;additional&nbsp;rounds&nbsp;of&nbsp;the&nbsp;specified&nbsp;debilitating&nbsp;conditions.
+      <p>You cleanse the subject's body of unhealthy influences and relieve
+      1d2+1 rounds' worth of debilitating conditions - dazed, confused,
+      nauseated, shaken, and/or stunned. The subject gains instant relief if she
+      is dazed, confused, nauseated, shaken, and/or stunned. If the duration of
+      the debilitating condition is longer than the relief provided by this
+      power, the subject can either, at your choice, remain affected by the
+      debilitating condition, but for a reduced time, or gain 1d2+1 rounds
+      unaffected by the condition. So, if the subject is dazed for 10 rounds,
+      using this power can either grant them 1d2+1 rounds not being dazed or
+      shorten that period by 1d2+1 rounds. You could manifest this power again
+      to relieve the additional rounds of the specified debilitating conditions.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power can be augmented in one or more of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;number&nbsp;of&nbsp;rounds&nbsp;of&nbsp;relief&nbsp;extends&nbsp;by&nbsp;1.</li><li>If&nbsp;you&nbsp;spend&nbsp;8&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;restore&nbsp;a&nbsp;petrified&nbsp;creature&nbsp;back&nbsp;to&nbsp;its&nbsp;normal&nbsp;state,&nbsp;although&nbsp;the&nbsp;subject&nbsp;must&nbsp;make&nbsp;a&nbsp;successful&nbsp;DC&nbsp;15&nbsp;Fortitude&nbsp;save&nbsp;to&nbsp;survive&nbsp;the&nbsp;process.&nbsp;Any&nbsp;petrified&nbsp;creature,&nbsp;regardless&nbsp;of&nbsp;size,&nbsp;can&nbsp;be&nbsp;restored.</li></ol>
+      </p><ol><li>For every 2 additional power points you spend, the number of
+      rounds of relief extends by 1.</li><li>If you spend 8 additional power
+      points, you can restore a petrified creature back to its normal state,
+      although the subject must make a successful DC 15 Fortitude save to
+      survive the process. Any petrified creature, regardless of size, can be
+      restored.</li></ol>
   discipline: psychometabolism
   display:
     auditory: false

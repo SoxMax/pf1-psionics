@@ -1,0 +1,176 @@
+_id: MgvkP5KX7eLwbKmN
+_key: '!items!MgvkP5KX7eLwbKmN'
+_stats:
+  coreVersion: '13.351'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Ophiduan
+img: icons/creatures/reptiles/serpent-horned-green.webp
+name: Ophiduan
+system:
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: MewzNNkV
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: racial
+    - _id: ZoZSqrlF
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: racial
+    - _id: z5nKaOYZ
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: cha
+      type: racial
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  creatureSubtypes:
+    - reptilian
+    - psionic
+  creatureTypes:
+    - humanoid
+  description:
+    value: >-
+      <p>Confused with lizardfolk by the ignorant, ophiduans stand out among the
+      other civilized nations in a fashion similar to the dromites, having a
+      more monstrous and distinct appearance than most humanoids. Where other
+      races share soft skin, flat teeth, protruding ears, and a tendency to be
+      partially or fully covered in hair, ophiduans are distinct and very proud
+      of it. Organized and expansionistic in nature, ophiduans view talent and
+      skill, especially with psionics, as the key component for social station,
+      rather than wealth, heritage, or influence.</p><p><strong>Physical
+      Description:</strong> Reptilian scales cover the ophiduans’ hairless
+      bodies, and their yellow, slitted eyes and sharp teeth give them a
+      striking appearance. They stand tall, often a head above most humans, but
+      are typically slimmer than humans, being lithe in build. Ophiduans have no
+      ears, and their ridged brows are often what define their face. Most
+      ophiduans are green-scaled, but there are those of blue, purple, black, or
+      yellow in tone, a trait which is passed along to progeny. The only common
+      color among all ophiduans is the dull grey of their stomachs, which
+      reflects their common ancestry.</p><p><strong>Society:</strong> Ophiduans
+      are sometimes viewed as being cold in personality because they are
+      reptilian in nature, but that does not define their society. Rather, a
+      strong meritocracy defines them; to an ophiduan, leadership is constantly
+      earned, as are most things in life. Respect, money, and friends, all are
+      earned and the ophiduan society reflects this. There is very little
+      compassion towards strangers, even within a society, but friends and
+      family are expected to sacrifice for one another. Ophiduans tend not to be
+      satisfied with themselves, feeling a drive to become better, seeking the
+      elusive state of perfection. A leader amongst the ophiduans is often a
+      very capable politician, a warrior, and psionically gifted, for otherwise
+      he or she would not have risen to such a position, as he or she would not
+      have proven capable of leading. This results in the ophiduan societies
+      tendency to become organized and expansionistic in nature, as they strive
+      to improve their cities, lands, and surrounding areas. Sometimes they
+      expand by war, sometimes by politics, but never does an ophiduan society
+      find any form of calm or stability, for it is always seeking to become
+      better, trying to become perfect.</p><p><strong>Relations:</strong>
+      Ophiduans view most other races as strange, sometimes even soft. The
+      whimsical ways of gnomes and halflings tend to irritate them, humans seem
+      to constantly shift between their goals, and half-elves seem to be
+      confused about who they are. Ophiduans can respect the dedication of the
+      elves, but cannot relate to their perceived inactivity and slow-acting
+      ways. Dwarves impress the ophiduans with their ability to build lasting
+      empires and their perfection of the crafts, but their inability to adapt
+      and to strive forward annoys them. Half-orcs and half-giants, strangely
+      enough, are often appreciated, for if anything they tend to be direct and
+      strive towards action, something ophiduans can appreciate. Xeph are valued
+      for their individual philosophy, but disdained as a society for their
+      seeming acceptance to maintain what they have and not to improve or
+      expand. Dromites are appreciated for they too have a constant drive
+      towards a goal. Few ophiduans know what elans are and thus have no
+      specific relations to them.</p><p><strong>Alignment and Religion:</strong>
+      Ophiduans tend to revere their greatest leaders as gods in the flesh,
+      although they never go so far as to actually worship them; rather an
+      ophiduan will follow the great leader and be inspired. The gods of other
+      races and religions are therefore also viewed like this, as
+      representations of great individuals to be admired, aspired towards, and
+      emulated. However, ophiduans also believe that each individual carries
+      within them the seed of divinity if they strive hard enough, and thus
+      ophiduans typically do not bow before any gods. While varying between good
+      and evil, almost every ophiduan tend towards lawful, for the structure of
+      a stable society is necessary to achieve
+      perfection.</p><p><strong>Adventurers:</strong> Striving for perfection is
+      the typical reason an ophiduan begins adventuring. What other way to train
+      yourself, test yourself, and raise yourself up towards divinity, than to
+      meet and overcome challenges.</p><p><strong>Male Names:</strong> Mixal,
+      Xiphoter, Maxev, Ioxua, Iaxot, Nixokas, Antax, Tanix, Tyxor,
+      Kraxan.</p><p><strong>Female Names:</strong> Azlei, Iezi, Sazari, Krizani,
+      Emizi, Samazi, Amazi, Kazeri, Mezan, Kriza.</p>
+  links:
+    supplements:
+      - name: Darkvision
+        uuid: Compendium.pf1-psionics.races.Item.PCAVZmO5T575DndW
+      - name: Naturally Psionic
+        uuid: Compendium.pf1-psionics.races.Item.mTCKcW7JRT3BXjv0
+      - name: Poison Resistant
+        uuid: Compendium.pf1-psionics.races.Item.ILDFHUfu1E2t2tLI
+      - name: Psionic Aptitude
+        uuid: Compendium.pf1-psionics.races.Item.1SFh9CCnEjQqjknM
+      - name: Reptilian Blood
+        uuid: Compendium.pf1-psionics.races.Item.rpXWHbhbD8EP5kci
+      - name: Scaled Hide
+        uuid: Compendium.pf1-psionics.races.Item.zPMtQRdu5Ez87lQM
+      - name: Serpent’s Bite
+        uuid: Compendium.pf1-psionics.races.Item.2xwRGP4syS0Z5Rn9
+      - name: Weapon Familiarity
+        uuid: Compendium.pf1-psionics.races.Item.gNMGMxl3vaqwW3cf
+  quadruped: false
+  size: med
+  speeds:
+    flyManeuverability: average
+    land: 30
+type: race

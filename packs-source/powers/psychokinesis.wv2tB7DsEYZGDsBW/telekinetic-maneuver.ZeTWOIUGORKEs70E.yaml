@@ -28,11 +28,20 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;affect&nbsp;a&nbsp;foe&nbsp;by&nbsp;concentrating&nbsp;your&nbsp;mind&nbsp;upon&nbsp;its&nbsp;current&nbsp;status&nbsp;and&nbsp;the&nbsp;status&nbsp;you&nbsp;desire,&nbsp;once&nbsp;per&nbsp;round.&nbsp;You&nbsp;can&nbsp;perform&nbsp;a&nbsp;bull&nbsp;rush,&nbsp;a&nbsp;disarm,&nbsp;a&nbsp;grapple&nbsp;(including&nbsp;a&nbsp;pin),&nbsp;or&nbsp;a&nbsp;trip.&nbsp;Resolve&nbsp;these&nbsp;attempts&nbsp;as&nbsp;normal,&nbsp;except&nbsp;that&nbsp;they&nbsp;don't&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity,&nbsp;you&nbsp;use&nbsp;your&nbsp;manifester&nbsp;level&nbsp;in&nbsp;place&nbsp;of&nbsp;your&nbsp;base&nbsp;attack&nbsp;bonus,&nbsp;you&nbsp;use&nbsp;your&nbsp;key&nbsp;ability&nbsp;modifier&nbsp;in&nbsp;place&nbsp;of&nbsp;your&nbsp;Strength&nbsp;modifier&nbsp;or&nbsp;Dexterity&nbsp;modifier,&nbsp;and&nbsp;a&nbsp;failed&nbsp;attempt&nbsp;doesn't&nbsp;result&nbsp;in&nbsp;you&nbsp;being&nbsp;disarmed&nbsp;or&nbsp;knocked&nbsp;prone&nbsp;(if&nbsp;attempting&nbsp;a&nbsp;disarm&nbsp;or&nbsp;trip).&nbsp;No&nbsp;save&nbsp;is&nbsp;allowed&nbsp;against&nbsp;these&nbsp;attempts,&nbsp;but&nbsp;power&nbsp;resistance&nbsp;applies&nbsp;normally.
+      <p>You can affect a foe by concentrating your mind upon its current status
+      and the status you desire, once per round. You can perform a bull rush, a
+      disarm, a grapple (including a pin), or a trip. Resolve these attempts as
+      normal, except that they don't provoke attacks of opportunity, you use
+      your manifester level in place of your base attack bonus, you use your key
+      ability modifier in place of your Strength modifier or Dexterity modifier,
+      and a failed attempt doesn't result in you being disarmed or knocked prone
+      (if attempting a disarm or trip). No save is allowed against these
+      attempts, but power resistance applies normally.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;grants&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;on&nbsp;your&nbsp;CMB.
+      <p><strong>Augment:</strong> For every 2 additional power points you
+      spend, this power grants a +1 bonus on your CMB.
 
       </p>
   descriptors:

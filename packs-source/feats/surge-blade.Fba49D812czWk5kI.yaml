@@ -22,13 +22,18 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;enhance&nbsp;your&nbsp;mind&nbsp;blade&nbsp;with&nbsp;your&nbsp;wild&nbsp;surge.</em></p>
+      <p><em>You can enhance your mind blade with your wild surge.</em></p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Mind&nbsp;blade&nbsp;class&nbsp;feature,&nbsp;wild&nbsp;surge&nbsp;class&nbsp;feature.
+      <p><strong>Prerequisites:</strong> Mind blade class feature, wild surge
+      class feature.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;may&nbsp;invoke&nbsp;your&nbsp;wild&nbsp;surge&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;increase&nbsp;your&nbsp;mind&nbsp;blade’s&nbsp;damage&nbsp;by&nbsp;one&nbsp;die&nbsp;step,&nbsp;as&nbsp;well&nbsp;as&nbsp;gain&nbsp;an&nbsp;insight&nbsp;bonus&nbsp;equal&nbsp;to&nbsp;your&nbsp;wild&nbsp;surge’s&nbsp;intensity&nbsp;on&nbsp;attack&nbsp;and&nbsp;damage&nbsp;rolls&nbsp;made&nbsp;with&nbsp;your&nbsp;mind&nbsp;blade.&nbsp;These&nbsp;benefits&nbsp;persist&nbsp;until&nbsp;the&nbsp;beginning&nbsp;of&nbsp;your&nbsp;next&nbsp;turn.
+      <p><strong>Benefit:</strong> You may invoke your wild surge as a swift
+      action to increase your mind blade’s damage by one die step, as well as
+      gain an insight bonus equal to your wild surge’s intensity on attack and
+      damage rolls made with your mind blade. These benefits persist until the
+      beginning of your next turn.
 
       </p>
   disabled: false

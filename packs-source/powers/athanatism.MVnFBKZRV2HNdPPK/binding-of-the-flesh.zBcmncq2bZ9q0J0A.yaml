@@ -27,11 +27,25 @@ system:
         value: Dead creature touched
   description:
     value: >-
-      <p>You&nbsp;bind&nbsp;pieces&nbsp;of&nbsp;the&nbsp;spirit&nbsp;world&nbsp;to&nbsp;the&nbsp;body&nbsp;of&nbsp;the&nbsp;fallen,&nbsp;granting&nbsp;it&nbsp;a&nbsp;new&nbsp;(if&nbsp;temporary)&nbsp;lease&nbsp;on&nbsp;life.&nbsp;The&nbsp;subject&nbsp;cannot&nbsp;be&nbsp;a&nbsp;construct,&nbsp;an&nbsp;elemental,&nbsp;an&nbsp;outsider,&nbsp;or&nbsp;undead,&nbsp;must&nbsp;have&nbsp;its&nbsp;soul&nbsp;free&nbsp;and&nbsp;willing&nbsp;to&nbsp;return,&nbsp;must&nbsp;have&nbsp;been&nbsp;dead&nbsp;no&nbsp;more&nbsp;than&nbsp;1&nbsp;round/level,&nbsp;must&nbsp;not&nbsp;have&nbsp;been&nbsp;killed&nbsp;by&nbsp;a&nbsp;death&nbsp;effect&nbsp;or&nbsp;turned&nbsp;into&nbsp;an&nbsp;undead&nbsp;creature,&nbsp;and&nbsp;its&nbsp;body&nbsp;must&nbsp;be&nbsp;whole.&nbsp;Any&nbsp;normal&nbsp;poison&nbsp;or&nbsp;diseases&nbsp;affecting&nbsp;the&nbsp;target&nbsp;are&nbsp;cured&nbsp;when&nbsp;it&nbsp;returns&nbsp;to&nbsp;life,&nbsp;but&nbsp;missing&nbsp;limbs,&nbsp;magical&nbsp;diseases,&nbsp;and&nbsp;curses&nbsp;remain&nbsp;unchanged.&nbsp;Your&nbsp;target&nbsp;returns&nbsp;to&nbsp;life&nbsp;with&nbsp;half&nbsp;of&nbsp;their&nbsp;full&nbsp;normal&nbsp;hit&nbsp;points,&nbsp;with&nbsp;any&nbsp;powers&nbsp;points&nbsp;or&nbsp;spells&nbsp;it&nbsp;had&nbsp;previously&nbsp;expended&nbsp;still&nbsp;expended.&nbsp;The&nbsp;target&nbsp;dies&nbsp;immediately&nbsp;when&nbsp;this&nbsp;power&nbsp;ends.&nbsp;When&nbsp;they&nbsp;do&nbsp;so,&nbsp;their&nbsp;bodies&nbsp;rot&nbsp;away&nbsp;to&nbsp;nothing&nbsp;in&nbsp;an&nbsp;instant,&nbsp;leaving&nbsp;their&nbsp;gear&nbsp;and&nbsp;possessions&nbsp;behind.&nbsp;They&nbsp;may&nbsp;not&nbsp;be&nbsp;the&nbsp;target&nbsp;of&nbsp;any&nbsp;power&nbsp;that&nbsp;expressly&nbsp;requires&nbsp;remains,&nbsp;such&nbsp;as&nbsp;raise&nbsp;dead,&nbsp;binding&nbsp;of&nbsp;the&nbsp;flesh,&nbsp;etc.
+      <p>You bind pieces of the spirit world to the body of the fallen, granting
+      it a new (if temporary) lease on life. The subject cannot be a construct,
+      an elemental, an outsider, or undead, must have its soul free and willing
+      to return, must have been dead no more than 1 round/level, must not have
+      been killed by a death effect or turned into an undead creature, and its
+      body must be whole. Any normal poison or diseases affecting the target are
+      cured when it returns to life, but missing limbs, magical diseases, and
+      curses remain unchanged. Your target returns to life with half of their
+      full normal hit points, with any powers points or spells it had previously
+      expended still expended. The target dies immediately when this power ends.
+      When they do so, their bodies rot away to nothing in an instant, leaving
+      their gear and possessions behind. They may not be the target of any power
+      that expressly requires remains, such as raise dead, binding of the flesh,
+      etc.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;becomes&nbsp;1&nbsp;day/level.
+      <p><strong>Augment:</strong> By spending an additional 4 power points, the
+      duration of this power becomes 1 day/level.
 
       </p>
   descriptors:

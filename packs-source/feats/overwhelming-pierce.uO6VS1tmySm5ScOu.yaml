@@ -22,13 +22,16 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;augment&nbsp;your&nbsp;powers&nbsp;to&nbsp;penetrate&nbsp;power&nbsp;resistance.</em></p>
+      <p><em>You can augment your powers to penetrate power resistance.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Piercing_Power"&nbsp;title="Piercing&nbsp;Power">Piercing&nbsp;Power</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Piercing_Power"
+      title="Piercing Power">Piercing Power</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;using&nbsp;the&nbsp;Piercing&nbsp;Power&nbsp;feat,&nbsp;you&nbsp;can&nbsp;choose&nbsp;to&nbsp;expend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points.&nbsp;If&nbsp;you&nbsp;do,&nbsp;the&nbsp;target’s&nbsp;power&nbsp;resistance&nbsp;counts&nbsp;as&nbsp;if&nbsp;it&nbsp;was&nbsp;10&nbsp;points
+      <p><strong>Benefit: </strong>When using the Piercing Power feat, you can
+      choose to expend 2 additional power points. If you do, the target’s power
+      resistance counts as if it was 10 points
 
       lower.
 

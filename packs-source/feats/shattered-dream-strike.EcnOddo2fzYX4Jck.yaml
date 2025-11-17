@@ -22,13 +22,19 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;sap&nbsp;your&nbsp;opponent’s&nbsp;will&nbsp;with&nbsp;your&nbsp;attacks.</em></p>
+      <p><em>You sap your opponent’s will with your attacks.</em></p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Devastating&nbsp;touch&nbsp;class&nbsp;feature,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Unarmed%20Strike">Improved&nbsp;Unarmed&nbsp;Strike</a>,&nbsp;<a&nbsp;href="/wiki/Broken_Dreams_Style"&nbsp;title="Broken&nbsp;Dreams&nbsp;Style">Broken&nbsp;Dreams&nbsp;Style</a>,&nbsp;Intimidate&nbsp;6&nbsp;ranks
+      <p><strong>Prerequisites:</strong> Devastating touch class feature, <a
+      rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Unarmed%20Strike">Improved
+      Unarmed Strike</a>, <a href="/wiki/Broken_Dreams_Style" title="Broken
+      Dreams Style">Broken Dreams Style</a>, Intimidate 6 ranks
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>While&nbsp;in&nbsp;the&nbsp;broken&nbsp;dreams&nbsp;style,&nbsp;after&nbsp;making&nbsp;a&nbsp;successful&nbsp;unarmed&nbsp;strike&nbsp;empowered&nbsp;with&nbsp;your&nbsp;devastating&nbsp;touch,&nbsp;you&nbsp;can&nbsp;make&nbsp;a&nbsp;free&nbsp;Intimidate&nbsp;check&nbsp;against&nbsp;the&nbsp;target.
+      <p><strong>Benefit: </strong>While in the broken dreams style, after
+      making a successful unarmed strike empowered with your devastating touch,
+      you can make a free Intimidate check against the target.
 
       </p>
   disabled: false
@@ -37,21 +43,15 @@ system:
   showInQuickbar: false
   simple: false
   sources:
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2010-01-01'
       pages: '20'
       publisher: Dreamscarred Press
       title: 'Psionics Expanded: Master the Battle'
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2012-07-23'
       pages: '121'
       publisher: Dreamscarred Press
       title: Psionics Expanded
-    - date: ''
-      errata: ''
-      id: ''
+    - date: '2013-12-24'
       pages: '116'
       publisher: Dreamscarred Press
       title: Ultimate Psionics

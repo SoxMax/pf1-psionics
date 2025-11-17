@@ -1,0 +1,75 @@
+_id: cKBXASvL1M4gaC4D
+_key: '!items!cKBXASvL1M4gaC4D'
+_raceName: Dromite
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    fromRace: Dromite
+folder: jJuBgVNldUfBo2eb
+img: icons/environment/people/group.webp
+name: Dromite Psionics
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>Dromites gain the following psi-like ability: 1/day—<em><a
+      href="/wiki/Energy_Ray" title="Energy Ray">energy ray</a></em>. A dromite
+      always deals the kind of energy damage that its chitin has resistance to
+      (for example, a dromite who has resistance to cold 5 deals cold damage
+      with its energy ray). The manifester level for this effect is equal to 1/2
+      the dromite's level (minimum 1st).</li></p>
+  subType: racial
+  traitCategory: magical
+type: feat

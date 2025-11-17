@@ -1,0 +1,31 @@
+_id: Fx0UYRGyasYIqkOc
+_key: '!items!Fx0UYRGyasYIqkOc'
+_stats:
+  coreVersion: '13.350'
+folder: R7AoIomzfNGuWBKp
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Improved Uncanny Dodge
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: >-
+      <p>At 9th level and higher, a voyager can no longer be flanked. This
+      defense denies a rogue the ability to sneak attack the voyager by flanking
+      her, unless the attacker has at least four more rogue levels than the
+      target has voyager levels. If a character already has uncanny dodge (see
+      above) from another class, the levels from the classes that grant uncanny
+      dodge stack to determine the minimum rogue level required to flank the
+      character.
+
+      </p><p></p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
+  subType: classFeat
+  tag: improved-uncanny-dodge
+type: feat

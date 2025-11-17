@@ -9,7 +9,7 @@
     "packs:extract:powers": "node ./tools/packs.mjs extract powers",
     "packs:extract:feats": "node ./tools/packs.mjs extract feats",
     "packs:extract:classes": "node ./tools/packs.mjs extract classes",
-    "packs:extract:class-abilities": "node ./tools/packs.mjs extract class-abilities",
+    "packs:extract:races": "node ./tools/packs.mjs extract races",
     "packs:extract:rules": "node ./tools/packs.mjs extract rules",
     "packs:compile": "node ./tools/packs.mjs compile",
     "scrape:powers": "node ./tools/scrapers/powers-scraper.mjs",
@@ -18,6 +18,8 @@
     "scrape:feats:single": "node ./tools/scrapers/feats-scraper.mjs",
     "scrape:classes": "node ./tools/scrapers/classes-scraper.mjs",
     "scrape:classes:single": "node ./tools/scrapers/classes-scraper.mjs",
+    "scrape:races": "node ./tools/scrapers/races-scraper.mjs",
+    "scrape:races:single": "node ./tools/scrapers/races-scraper.mjs",
     "lint": "eslint \"scripts/**/*.mjs\"",
     "lint:fix": "eslint \"scripts/**/*.mjs\" --fix"
   },

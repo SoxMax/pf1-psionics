@@ -30,15 +30,24 @@ system:
           lb./level); see text
   description:
     value: >-
-      <p>You&nbsp;create&nbsp;a&nbsp;psychokinetic&nbsp;shield&nbsp;around&nbsp;the&nbsp;subject&nbsp;that&nbsp;improves&nbsp;the&nbsp;chance&nbsp;that&nbsp;any&nbsp;powers&nbsp;affecting&nbsp;the&nbsp;subject&nbsp;will&nbsp;resist&nbsp;a&nbsp;dispel&nbsp;psionics&nbsp;power&nbsp;(or&nbsp;a&nbsp;dispel&nbsp;magic&nbsp;spell)&nbsp;or&nbsp;a&nbsp;negation&nbsp;effect&nbsp;that&nbsp;targets&nbsp;a&nbsp;specific&nbsp;power&nbsp;(such&nbsp;as&nbsp;shatter&nbsp;mind&nbsp;blank).&nbsp;When&nbsp;dispelling&nbsp;buffer&nbsp;is&nbsp;manifested&nbsp;on&nbsp;a&nbsp;creature&nbsp;or&nbsp;object,&nbsp;on&nbsp;each&nbsp;dispel&nbsp;check,&nbsp;add&nbsp;+5&nbsp;to&nbsp;the&nbsp;DC&nbsp;for&nbsp;the&nbsp;ongoing&nbsp;effect&nbsp;that&nbsp;is&nbsp;subject&nbsp;to&nbsp;being&nbsp;dispelled.
+      <p>You create a psychokinetic shield around the subject that improves the
+      chance that any powers affecting the subject will resist a dispel psionics
+      power (or a dispel magic spell) or a negation effect that targets a
+      specific power (such as shatter mind blank). When dispelling buffer is
+      manifested on a creature or object, on each dispel check, add +5 to the DC
+      for the ongoing effect that is subject to being dispelled.
 
       </p>
 
-      <p>Dispel&nbsp;psionics&nbsp;can&nbsp;negate&nbsp;dispelling&nbsp;buffer,&nbsp;but&nbsp;against&nbsp;a&nbsp;targeted&nbsp;dispel,&nbsp;dispelling&nbsp;buffer&nbsp;is&nbsp;always&nbsp;checked&nbsp;last&nbsp;(with&nbsp;the&nbsp;same&nbsp;+5&nbsp;bonus).&nbsp;Against&nbsp;an&nbsp;area&nbsp;dispel,&nbsp;dispelling&nbsp;buffer&nbsp;is&nbsp;checked&nbsp;in&nbsp;the&nbsp;order&nbsp;according&nbsp;to&nbsp;its&nbsp;level&nbsp;(with&nbsp;the&nbsp;same&nbsp;+5&nbsp;bonus).
+      <p>Dispel psionics can negate dispelling buffer, but against a targeted
+      dispel, dispelling buffer is always checked last (with the same +5 bonus).
+      Against an area dispel, dispelling buffer is checked in the order
+      according to its level (with the same +5 bonus).
 
       </p>
 
-      <p><strong>Special:</strong>&nbsp;When&nbsp;a&nbsp;psychic&nbsp;warrior&nbsp;manifests&nbsp;this&nbsp;power,&nbsp;the&nbsp;range&nbsp;is&nbsp;personal&nbsp;and&nbsp;the&nbsp;target&nbsp;is&nbsp;the&nbsp;manifester.
+      <p><strong>Special:</strong> When a psychic warrior manifests this power,
+      the range is personal and the target is the manifester.
 
       </p>
   discipline: psychokinesis

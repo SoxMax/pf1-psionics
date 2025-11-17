@@ -22,53 +22,76 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>You&nbsp;have&nbsp;learned&nbsp;to&nbsp;alter&nbsp;the&nbsp;nature&nbsp;of&nbsp;your&nbsp;surge
+      <p>You have learned to alter the nature of your surge
 
-      blast&nbsp;by&nbsp;spending&nbsp;your&nbsp;psionic&nbsp;power.
-
-      </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Surge&nbsp;blast&nbsp;class&nbsp;feature,&nbsp;manifester
-
-      level&nbsp;3rd.
+      blast by spending your psionic power.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;activate&nbsp;your&nbsp;surge&nbsp;blast,&nbsp;you
+      <p><strong>Prerequisites: </strong>Surge blast class feature, manifester
 
-      gain&nbsp;the&nbsp;following&nbsp;augment&nbsp;options.&nbsp;Like&nbsp;augmenting
-
-      a&nbsp;power,&nbsp;augmenting&nbsp;a&nbsp;surge&nbsp;blast&nbsp;is&nbsp;limited&nbsp;to&nbsp;your
-
-      manifester&nbsp;level.&nbsp;You&nbsp;can&nbsp;also&nbsp;choose&nbsp;to&nbsp;invoke&nbsp;a&nbsp;wild
-
-      surge&nbsp;when&nbsp;using&nbsp;your&nbsp;surge&nbsp;blast,&nbsp;using&nbsp;the&nbsp;power
-
-      from&nbsp;the&nbsp;wild&nbsp;surge&nbsp;to&nbsp;pay&nbsp;for&nbsp;augments&nbsp;to&nbsp;the&nbsp;surge
-
-      blast,&nbsp;but&nbsp;suffer&nbsp;the&nbsp;standard&nbsp;risk&nbsp;of&nbsp;psychic&nbsp;enervation
-
-      for&nbsp;invoking&nbsp;a&nbsp;wild&nbsp;surge.
+      level 3rd.
 
       </p>
 
-      <p><strong>Augment:&nbsp;</strong>You&nbsp;can&nbsp;augment&nbsp;your&nbsp;surge&nbsp;blast&nbsp;in&nbsp;one&nbsp;of
+      <p><strong>Benefit: </strong>When you activate your surge blast, you
 
-      the&nbsp;following&nbsp;ways.
+      gain the following augment options. Like augmenting
 
-      </p><ul><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;your&nbsp;surge&nbsp;blast&nbsp;deals&nbsp;splash&nbsp;damage.</li><li>If&nbsp;you&nbsp;spend&nbsp;3&nbsp;additional&nbsp;power&nbsp;points,&nbsp;your&nbsp;surge&nbsp;blast&nbsp;is&nbsp;instead&nbsp;a&nbsp;5&nbsp;ft.&nbsp;emanation&nbsp;centered&nbsp;on&nbsp;you&nbsp;and&nbsp;creatures&nbsp;in&nbsp;the&nbsp;affected&nbsp;area&nbsp;gain&nbsp;a&nbsp;Reflex&nbsp;save&nbsp;(DC&nbsp;10&nbsp;+&nbsp;1/2&nbsp;your&nbsp;manifester&nbsp;level&nbsp;+&nbsp;your&nbsp;Charisma&nbsp;modifier)&nbsp;to&nbsp;take&nbsp;half&nbsp;damage.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;your&nbsp;surge&nbsp;blast&nbsp;deals&nbsp;half&nbsp;damage,&nbsp;but&nbsp;damages&nbsp;all&nbsp;creatures&nbsp;in&nbsp;a&nbsp;30&nbsp;ft.&nbsp;line.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;your&nbsp;surge&nbsp;blast&nbsp;is&nbsp;empowered,&nbsp;dealing&nbsp;50%&nbsp;additional&nbsp;damage.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;your&nbsp;surge&nbsp;blast&nbsp;is&nbsp;a&nbsp;15&nbsp;ft.&nbsp;cone&nbsp;effect&nbsp;instead&nbsp;of&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack,&nbsp;and&nbsp;creatures&nbsp;in&nbsp;the&nbsp;affected&nbsp;area&nbsp;gain&nbsp;a&nbsp;Reflex&nbsp;save&nbsp;(DC&nbsp;10&nbsp;+&nbsp;1/2&nbsp;your&nbsp;manifester&nbsp;level&nbsp;+&nbsp;your&nbsp;Charisma&nbsp;modifier)&nbsp;to&nbsp;take&nbsp;half&nbsp;damage.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;your&nbsp;surge&nbsp;blast&nbsp;affects&nbsp;all&nbsp;creatures&nbsp;within&nbsp;a&nbsp;10&nbsp;ft.&nbsp;radius&nbsp;of&nbsp;the&nbsp;targeted&nbsp;creature&nbsp;and&nbsp;creatures&nbsp;in&nbsp;the&nbsp;affected&nbsp;area&nbsp;gain&nbsp;a&nbsp;Reflex&nbsp;save&nbsp;(DC&nbsp;10&nbsp;+&nbsp;1/2&nbsp;your&nbsp;manifester&nbsp;level&nbsp;+&nbsp;your&nbsp;Charisma&nbsp;modifier)&nbsp;to&nbsp;take&nbsp;half&nbsp;damage.</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;your&nbsp;surge&nbsp;blast&nbsp;is&nbsp;instead&nbsp;a&nbsp;10&nbsp;ft.&nbsp;emanation&nbsp;centered&nbsp;on&nbsp;you&nbsp;andcreatures&nbsp;in&nbsp;the&nbsp;affected&nbsp;area&nbsp;gain&nbsp;a&nbsp;Reflex&nbsp;save&nbsp;(DC&nbsp;10&nbsp;+&nbsp;1/2&nbsp;your&nbsp;manifester&nbsp;level&nbsp;+&nbsp;your&nbsp;Charisma&nbsp;modifier)&nbsp;to&nbsp;take&nbsp;half&nbsp;damage.</li></ul>
+      a power, augmenting a surge blast is limited to your
 
-      <p><br&nbsp;/></p>
+      manifester level. You can also choose to invoke a wild
 
-      <p>Your&nbsp;surge&nbsp;blasts&nbsp;are&nbsp;more&nbsp;dangerous&nbsp;than&nbsp;others.
+      surge when using your surge blast, using the power
+
+      from the wild surge to pay for augments to the surge
+
+      blast, but suffer the standard risk of psychic enervation
+
+      for invoking a wild surge.
 
       </p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Modified&nbsp;Blast.
+      <p><strong>Augment: </strong>You can augment your surge blast in one of
+
+      the following ways.
+
+      </p><ul><li>If you spend 2 additional power points, your surge blast deals
+      splash damage.</li><li>If you spend 3 additional power points, your surge
+      blast is instead a 5 ft. emanation centered on you and creatures in the
+      affected area gain a Reflex save (DC 10 + 1/2 your manifester level + your
+      Charisma modifier) to take half damage.</li><li>If you spend 4 additional
+      power points, your surge blast deals half damage, but damages all
+      creatures in a 30 ft. line.</li><li>If you spend 4 additional power
+      points, your surge blast is empowered, dealing 50% additional
+      damage.</li><li>If you spend 4 additional power points, your surge blast
+      is a 15 ft. cone effect instead of a ranged touch attack, and creatures in
+      the affected area gain a Reflex save (DC 10 + 1/2 your manifester level +
+      your Charisma modifier) to take half damage.</li><li>If you spend 4
+      additional power points, your surge blast affects all creatures within a
+      10 ft. radius of the targeted creature and creatures in the affected area
+      gain a Reflex save (DC 10 + 1/2 your manifester level + your Charisma
+      modifier) to take half damage.</li><li>If you spend 6 additional power
+      points, your surge blast is instead a 10 ft. emanation centered on you
+      andcreatures in the affected area gain a Reflex save (DC 10 + 1/2 your
+      manifester level + your Charisma modifier) to take half damage.</li></ul>
+
+      <p><br /></p>
+
+      <p>Your surge blasts are more dangerous than others.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;augment&nbsp;your&nbsp;surge&nbsp;blast,&nbsp;you&nbsp;add&nbsp;your&nbsp;mythic&nbsp;tier&nbsp;to&nbsp;the&nbsp;number&nbsp;of&nbsp;power&nbsp;points&nbsp;spent.&nbsp;These&nbsp;points&nbsp;can&nbsp;exceed&nbsp;the&nbsp;normal&nbsp;limit&nbsp;of&nbsp;power&nbsp;points&nbsp;spent&nbsp;augmenting&nbsp;your&nbsp;surge&nbsp;blast.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;one&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;while&nbsp;augmenting&nbsp;a&nbsp;surge&nbsp;blast&nbsp;to&nbsp;have&nbsp;the&nbsp;damage&nbsp;of&nbsp;the&nbsp;surge&nbsp;blast&nbsp;maximized&nbsp;and&nbsp;the&nbsp;DC&nbsp;(if&nbsp;any)&nbsp;increased&nbsp;by&nbsp;half&nbsp;your&nbsp;mythic&nbsp;tier&nbsp;(minimum&nbsp;1.)&nbsp;
+      <p><strong>Prerequisite:</strong> Modified Blast.
+
+      </p>
+
+      <p><strong>Benefit:</strong> When you augment your surge blast, you add
+      your mythic tier to the number of power points spent. These points can
+      exceed the normal limit of power points spent augmenting your surge blast.
+      In addition, you can expend one use of mythic power while augmenting a
+      surge blast to have the damage of the surge blast maximized and the DC (if
+      any) increased by half your mythic tier (minimum 1.) 
 
       </p>
   disabled: false

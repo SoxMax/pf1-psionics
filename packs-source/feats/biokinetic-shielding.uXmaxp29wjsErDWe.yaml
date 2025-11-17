@@ -22,13 +22,18 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>While&nbsp;focused,&nbsp;you&nbsp;enhance&nbsp;your&nbsp;form&nbsp;with&nbsp;biokinetic&nbsp;techniques.</em></p>
+      <p><em>While focused, you enhance your form with biokinetic
+      techniques.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Biokinetic_Adept"&nbsp;title="Biokinetic&nbsp;Adept">Biokinetic&nbsp;Adept</a>,&nbsp;<a&nbsp;href="/wiki/Psionic_Meditation"&nbsp;title="Psionic&nbsp;Meditation">Psionic&nbsp;Meditation</a>,&nbsp;Con&nbsp;13.
+      <p><strong>Prerequisites:</strong><a href="/wiki/Biokinetic_Adept"
+      title="Biokinetic Adept">Biokinetic Adept</a>, <a
+      href="/wiki/Psionic_Meditation" title="Psionic Meditation">Psionic
+      Meditation</a>, Con 13.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;gain&nbsp;a&nbsp;natural&nbsp;armor&nbsp;bonus&nbsp;to&nbsp;your&nbsp;AC&nbsp;equal&nbsp;to&nbsp;your&nbsp;Constitution&nbsp;modifier&nbsp;while&nbsp;psionically&nbsp;focused.
+      <p><strong>Benefit: </strong>You gain a natural armor bonus to your AC
+      equal to your Constitution modifier while psionically focused.
 
       </p>
   disabled: false

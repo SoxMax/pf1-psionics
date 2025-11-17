@@ -27,15 +27,19 @@ system:
         value: You; see text
   description:
     value: >-
-      <p>Make&nbsp;a&nbsp;single&nbsp;melee&nbsp;attack&nbsp;as&nbsp;part&nbsp;of&nbsp;manifesting&nbsp;this&nbsp;power.&nbsp;If&nbsp;the&nbsp;attack&nbsp;hits,&nbsp;the&nbsp;target&nbsp;is&nbsp;immobilized&nbsp;and&nbsp;cannot&nbsp;physically&nbsp;move&nbsp;from&nbsp;the&nbsp;spot&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;their&nbsp;next&nbsp;turn.
+      <p>Make a single melee attack as part of manifesting this power. If the
+      attack hits, the target is immobilized and cannot physically move from the
+      spot until the end of their next turn.
 
       </p>
 
-      <p>In&nbsp;addition,&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;next&nbsp;turn,&nbsp;all&nbsp;of&nbsp;your&nbsp;attacks&nbsp;instead&nbsp;deal&nbsp;cold&nbsp;damage.
+      <p>In addition, until the end of your next turn, all of your attacks
+      instead deal cold damage.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;4&nbsp;power&nbsp;points&nbsp;spent,&nbsp;the&nbsp;effects&nbsp;of&nbsp;this&nbsp;power&nbsp;last&nbsp;an&nbsp;additional&nbsp;round.
+      <p><strong>Augment:</strong> For every additional 4 power points spent,
+      the effects of this power last an additional round.
 
       </p>
   descriptors:

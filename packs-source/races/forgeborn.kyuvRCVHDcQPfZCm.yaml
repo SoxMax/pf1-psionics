@@ -1,0 +1,167 @@
+_id: kyuvRCVHDcQPfZCm
+_key: '!items!kyuvRCVHDcQPfZCm'
+_stats:
+  coreVersion: '13.351'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Forgeborn
+img: icons/environment/people/group.webp
+name: Forgeborn
+system:
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: MewzNNkV
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: racial
+    - _id: ZoZSqrlF
+      formula: '2'
+      operator: add
+      priority: 0
+      target: int
+      type: racial
+    - _id: z5nKaOYZ
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: racial
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  creatureSubtypes:
+    - forgeborn
+    - half-construct
+    - psionic
+  creatureTypes:
+    - humanoid
+  description:
+    value: >-
+      <p>Believed to have been created centuries ago during a great war between
+      psionic nations, the race of creatures referred to as the forgeborn were
+      left to their own devices within the barren wasteland the war left behind.
+      A hybridization of flesh and minerals, the forgeborn are varied in
+      appearance and form, but were all created by merging psionically-empowered
+      materials with the body of a humanoid to fashion a new creature.</p><p>The
+      race seeks out humanoids to transform in order to increase their numbers
+      and some say resume the conflict for which they were created. Although
+      little is known about the creation process by non-forgeborn, rumors say
+      that they take those critically wounded in combat and repair their bodies,
+      wiping the new forgeborn's memories and giving new life to the
+      otherwise-fallen. Some darker rumors say that the race has learned not
+      only how to alter the living, but potentially the recently deceased, but
+      there has been little proof of this.</p><p>Although they may appear as
+      some sort of bizarre construct, the forgeborn are intelligent and capable
+      of thought, emotion, and reasoning. While much of their time is spent
+      working out combat strategies and ways to harness the psionic energy that
+      powers their forms, they are avid students of history.</p><p>Forgeborn
+      benefit from longer lifespans than the human bodies that most of them were
+      made from, but their inclination for combat means many never actually
+      reach middle age. Among the forgeborn, such a fate is not mourned, for the
+      fallen can sometimes be reclaimed and rebuilt into a new member of the
+      race, resulting in a theology very similar to
+      reincarnation.</p><p><strong>Physical Description</strong>: Forgeborn are
+      a tall and thick race, and stand a few inches taller than most humans,
+      with their bodies flowing from well-muscled flesh to mineral components
+      and back. The exact nature of the forgeborn's mineral varies between
+      members of the race, from crystal, to steel, to darkwood, or even
+      mithral.</p><p>All forgeborn have small glowing orbs embedded within their
+      skull and chest, which are the psionic power source that animates their
+      form. Although both male and female versions of forgeborn exist, such
+      distinctions do not matter in forgeborn society, since there is no need
+      for copulation. While most forgeborn come from human bodies, members from
+      other races are not uncommon.</p><p><strong>Society</strong>: The origins
+      of the forgeborn have led them to have a social structure not unlike an
+      army, where forgeborn tend to cluster based upon role, rather than from a
+      family or tribal structure. While the race tends to prefer combat over
+      negotiations, they are not vicious nor aggressive; they view combat as the
+      best means to victory, rather than as a desired activity. All members of
+      forgeborn society are given a role to benefit the civilization, and skill
+      in that role is what measures a forgeborn's worth among his peers. There
+      is an aesthetic element to some forgeborn, particularly in artwork
+      depicting great battles, so forgeborn artisans are respected within their
+      society.</p><p><strong>Relations</strong>: Most races are uncomfortable
+      with the unnatural form of the forgeborn, while the forgeborn view other
+      races as inferior due to their reliance on sustenance and rest. Most
+      members of the elan race, however, view the forgeborn as abominations that
+      are a disgusting perversion of the elan transformation
+      process.</p><p><strong>Alignment and Religion</strong>: Forgeborn view
+      victory as the most important outcome and put no stock in honor. They
+      fight to win, not to be honorable, although they do accept surrender. The
+      structure of command is integral to the proper functioning of an army, so
+      few forgeborn go against the defined chain of command. Most forgeborn are
+      lawful neutral.</p><p><strong>Adventurers</strong>: Those forgeborn who
+      choose to visit new lands are often seeking to find new potential recruits
+      for the ranks or want to study new combat tactics and the war histories of
+      other nations. With little in the way of familial ties, few forgeborn get
+      homesick, but feel an urge to return to share new
+      information.</p><p><strong>Names</strong>: Because forgeborn are built
+      from members of other races, the names of forgeborn are varied and do not
+      have common traditional names. Forgeborn names are drawn from any of the
+      cultures around them.</p>
+  links:
+    supplements:
+      - name: Fearless
+        uuid: Compendium.pf1-psionics.races.Item.YK68DzZyvldrsXo8
+      - name: Natural Armor
+        uuid: Compendium.pf1-psionics.races.Item.PHObA1pT5FuKp9yM
+      - name: Naturally Psionic
+        uuid: Compendium.pf1-psionics.races.Item.9BMgZDVXMiE1PXke
+      - name: Psionic Aptitude
+        uuid: Compendium.pf1-psionics.races.Item.bgdDw23ouLeQEPRY
+      - name: Source Crystal
+        uuid: Compendium.pf1-psionics.races.Item.Pjih0LVG89AJtDPv
+  quadruped: false
+  size: med
+  speeds:
+    flyManeuverability: average
+    land: 30
+type: race

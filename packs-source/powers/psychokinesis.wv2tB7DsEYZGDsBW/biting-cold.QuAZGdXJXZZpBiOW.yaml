@@ -31,15 +31,26 @@ system:
         value: One creature
   description:
     value: >-
-      <p>The&nbsp;next&nbsp;successful&nbsp;melee&nbsp;attack&nbsp;you&nbsp;make&nbsp;this&nbsp;round&nbsp;deals&nbsp;an&nbsp;additional&nbsp;+1d10&nbsp;points&nbsp;of&nbsp;cold&nbsp;damage&nbsp;to&nbsp;the&nbsp;struck&nbsp;creature&nbsp;and&nbsp;the&nbsp;target&nbsp;is&nbsp;staggered&nbsp;from&nbsp;the&nbsp;cold.&nbsp;Power&nbsp;resistance&nbsp;does&nbsp;not&nbsp;apply&nbsp;to&nbsp;this&nbsp;additional&nbsp;damage,&nbsp;but&nbsp;does&nbsp;apply&nbsp;to&nbsp;the&nbsp;staggered&nbsp;condition.
+      <p>The next successful melee attack you make this round deals an
+      additional +1d10 points of cold damage to the struck creature and the
+      target is staggered from the cold. Power resistance does not apply to this
+      additional damage, but does apply to the staggered condition.
 
       </p>
 
-      <p><strong>Trigger:</strong>&nbsp;If&nbsp;your&nbsp;attack&nbsp;was&nbsp;successful,&nbsp;you&nbsp;can&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;infuse&nbsp;the&nbsp;target&nbsp;with&nbsp;chilling&nbsp;cold.&nbsp;Power&nbsp;resistance&nbsp;applies&nbsp;to&nbsp;infusing&nbsp;the&nbsp;target&nbsp;with&nbsp;chilling&nbsp;cold.&nbsp;Until&nbsp;the&nbsp;end&nbsp;of&nbsp;its&nbsp;next&nbsp;turn,&nbsp;if&nbsp;the&nbsp;creature&nbsp;struck&nbsp;makes&nbsp;an&nbsp;attack,&nbsp;manifests&nbsp;a&nbsp;power,&nbsp;or&nbsp;casts&nbsp;a&nbsp;spell,&nbsp;it&nbsp;takes&nbsp;1d10&nbsp;points&nbsp;of&nbsp;cold&nbsp;damage&nbsp;and&nbsp;is&nbsp;paralyzed&nbsp;for&nbsp;one&nbsp;round.
+      <p><strong>Trigger:</strong> If your attack was successful, you can expend
+      your psionic focus to infuse the target with chilling cold. Power
+      resistance applies to infusing the target with chilling cold. Until the
+      end of its next turn, if the creature struck makes an attack, manifests a
+      power, or casts a spell, it takes 1d10 points of cold damage and is
+      paralyzed for one round.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;instead&nbsp;manifest&nbsp;this&nbsp;power&nbsp;upon&nbsp;making&nbsp;a&nbsp;successful&nbsp;melee&nbsp;attack&nbsp;and&nbsp;have&nbsp;the&nbsp;effects&nbsp;of&nbsp;this&nbsp;power&nbsp;instead&nbsp;apply&nbsp;to&nbsp;that&nbsp;attack.&nbsp;Doing&nbsp;so&nbsp;still&nbsp;uses&nbsp;your&nbsp;swift&nbsp;action&nbsp;for&nbsp;the&nbsp;round.
+      <p><strong>Augment:</strong> If you spend 6 additional power points, you
+      can instead manifest this power upon making a successful melee attack and
+      have the effects of this power instead apply to that attack. Doing so
+      still uses your swift action for the round.
 
       </p>
   descriptors:

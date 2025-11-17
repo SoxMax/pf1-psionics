@@ -1,14 +1,14 @@
 _id: uemwtcRhAV3LYWmR
 _key: '!items!uemwtcRhAV3LYWmR'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Adrenal_Overchannel
 img: icons/magic/symbols/runes-star-magenta.webp
 name: Adrenal Overchannel
 system:
-  abilityType: none
+  abilityType: na
   acquired: false
   changeFlags:
     heavyArmorFullSpeed: false
@@ -20,42 +20,84 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
   description:
     value: >-
-      <p>You&nbsp;are&nbsp;able&nbsp;to&nbsp;channel&nbsp;your&nbsp;very&nbsp;life&nbsp;force&nbsp;into&nbsp;a&nbsp;psychic
+      <p>You are able to channel your very life force into a psychic
 
-      edge&nbsp;with&nbsp;which&nbsp;to&nbsp;defeat&nbsp;your&nbsp;opponents.
-
-      </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong><a&nbsp;href="/wiki/Overchannel"&nbsp;title="Overchannel">Overchannel</a>,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+4.
+      edge with which to defeat your opponents.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;use&nbsp;the&nbsp;Overchannel&nbsp;feat&nbsp;to&nbsp;gain&nbsp;a&nbsp;+1
+      <p><strong>Prerequisites: </strong><a href="/wiki/Overchannel"
+      title="Overchannel">Overchannel</a>, base attack bonus +4.
 
-      insight&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;rolls&nbsp;and&nbsp;a&nbsp;+2&nbsp;insight&nbsp;bonus&nbsp;on
+      </p>
 
-      damage&nbsp;rolls&nbsp;for&nbsp;one&nbsp;round&nbsp;instead&nbsp;of&nbsp;gaining&nbsp;a&nbsp;bonus
+      <p><strong>Benefit: </strong>You can use the Overchannel feat to gain a +1
 
-      to&nbsp;your&nbsp;manifester&nbsp;level.&nbsp;At&nbsp;8th&nbsp;level,&nbsp;these&nbsp;bonuses
+      insight bonus on attack rolls and a +2 insight bonus on
 
-      increase&nbsp;to&nbsp;+2&nbsp;on&nbsp;attack&nbsp;rolls&nbsp;and&nbsp;+4&nbsp;on&nbsp;damage&nbsp;rolls&nbsp;(and
+      damage rolls for one round instead of gaining a bonus
 
-      the&nbsp;damage&nbsp;taken&nbsp;increases&nbsp;to&nbsp;3d8),&nbsp;and&nbsp;at&nbsp;15th&nbsp;level,
+      to your manifester level. At 8th level, these bonuses
 
-      they&nbsp;improve&nbsp;to&nbsp;+3&nbsp;on&nbsp;attack&nbsp;rolls&nbsp;and&nbsp;+6&nbsp;on&nbsp;damage
+      increase to +2 on attack rolls and +4 on damage rolls (and
 
-      rolls&nbsp;(and&nbsp;the&nbsp;damage&nbsp;taken&nbsp;increases&nbsp;to&nbsp;5d8).&nbsp;You&nbsp;must
+      the damage taken increases to 3d8), and at 15th level,
 
-      choose&nbsp;to&nbsp;use&nbsp;this&nbsp;feat&nbsp;before&nbsp;making&nbsp;an&nbsp;attack&nbsp;roll,&nbsp;and
+      they improve to +3 on attack rolls and +6 on damage
 
-      its&nbsp;effects&nbsp;last&nbsp;until&nbsp;your&nbsp;next&nbsp;turn.
+      rolls (and the damage taken increases to 5d8). You must
+
+      choose to use this feat before making an attack roll, and
+
+      its effects last until your next turn.
 
       </p>
   disabled: false
   featType: feat
   inherited: false
+  showInCombat: false
   showInQuickbar: false
   simple: false
   sources:

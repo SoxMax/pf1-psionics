@@ -1,0 +1,186 @@
+_id: q1CsuhIyA7WkZq2o
+_key: '!items!q1CsuhIyA7WkZq2o'
+_stats:
+  coreVersion: '13.351'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Duergar_(Psionic)
+img: systems/pf1/icons/races/dwarf.png
+name: Duergar
+system:
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: MewzNNkV
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: racial
+    - _id: ZoZSqrlF
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: racial
+    - _id: z5nKaOYZ
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: cha
+      type: racial
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  creatureSubtypes:
+    - dwarf
+    - psionic
+  creatureTypes:
+    - humanoid
+  description:
+    value: >-
+      <p>There are stories of those who dug too deep into the bowels of the
+      earth, spelunkers who opened ancient cities and awakened things from
+      beyond our worst nightmares. There these miners discovered creatures more
+      akin to gods sleeping beneath the earth, beings neither demonic nor
+      angelic in their forms and minds. There was a clan of dwarves who cast all
+      caution aside, tunneling deep, following richer and richer mineral veins
+      until they found something that shattered their minds, broke their bodies,
+      and remade them in a new image. What returned from that unknown place
+      where logic no longer made sense, where the laws of physics did not always
+      hold sway, and the weak minds of the current races couldn't fathom were
+      the duergars, who warned of a slumbering deity who would rule over all
+      other deities if awakened. Duergars are reminiscent of the dwarves they
+      once were, in that they are short and broad, of powerful stature, but that
+      is where any likeness is lost. Their ways can seem to be callous and
+      cruel, but it is from their experience deep in the earth that they are
+      motivated. Even actions such as slavery are not only acceptable but
+      encouraged if it helps to continue the projects that keep That Which
+      Sleeps Beneath from arising.</p><p><strong>Physical Description:</strong>
+      Duergars' eyes shine with a madness that has touched their entire
+      bloodline. Their ashen skin is devoid of nearly all hair, except on their
+      head and face, although male duergars tend to have a bald pate. While
+      short and broad, standing roughly 4 1/2 feet tall, the rippling muscles of
+      the duergars make most people uneasy, for beneath their skin, the muscles
+      move of their own accord, snaking and twisting. Many duergars have long
+      scars, often caused by their own
+      delusions.</p><p><strong>Society:</strong> Having witnessed what they
+      perceive to be the truth of this world, there is no joy amongst the
+      duergars, only eternal toil. Deep underground, deeper than the dwarven
+      kingdoms, they toil on deranged constructions that twist and turn in ways
+      that give others headaches and nightmares. Driven by an intense need to
+      create and build, those who stop to listen hear the duergars humming and
+      singing while building. The duergars themselves claim they are saving the
+      world by distracting the terrible deity that slumbers beneath the earth,
+      keeping it asleep for the sake of all life. Their society has no joys, no
+      color, no individuality. Everyone wears the same clothes, the same armor,
+      the same weapons, and by birth they seem to know the lullaby chants of the
+      mentally unbalanced.</p><p><strong>Relations:</strong> To the duergars, it
+      is the other races who are mad. As a terrible monster that is beyond what
+      words can describe threatens to awaken and devour the world and the gods
+      themselves, the other races squander their lives away, playing useless
+      games and waging meaningless war. Xephs, dromites, halflings and gnomes
+      can provoke the insane rage of the duergars, for their constant activity
+      threatens the duergar view of how to keep the titanic god sleeping. Other
+      races are most often ignored or disdained for their failure to recognize
+      the truth and the deadly threat. Most other races avoid the mad duergars,
+      but there are those who wonder if the duergars might not be insane, and
+      might actually be correct, and how terrifying that possibility might
+      be.</p><p><strong>Alignment and Religion:</strong> Almost all duergars
+      worship the sleeping horror by working, building, constructing, and
+      redefining, while humming and singing the twisted lullaby that runs
+      through their minds. All other gods are inconsequential, for the horrid
+      thing, That Which Sleeps Beneath, will consume all if it awakens. Lawful
+      neutral, or perhaps lawful evil, tend to be the natural tendencies of the
+      duergars, for they see no use in helping others with their pointless daily
+      problems when they are busy saving the world from the threat of imminent
+      destruction.</p><p><strong>Adventurers:</strong> Duergars only become
+      adventurers because their unique brand of insanity plagues them with
+      visions and whispers of the peace that others have in their heads. Driven
+      by a need to fulfill these visions and quiet the voices within, duergars
+      often seem obsessed with what they are doing. While capable companions,
+      many are scared to adventure with duergars, for their tendency to whisper
+      in their sleep and their skin's unusual undulations can be
+      unnerving.</p><p><strong>Note On Names:</strong> Duergars abstain from
+      traditional naming conventions, often viewing names as a pointless
+      exercise in a doomed world. When young, they are ‘child,' and then become
+      ‘woman' and ‘man'. Amongst the other races, they often take on a name
+      because their companions ask them to; this name is often matter-of-fact
+      and describes their perceived role in the
+      world.</p><p><strong>Names:</strong> Hammer, Smith, War, Hunter, Tailor,
+      Shieldbearer, Slayer, Hatemonger</p>
+  links:
+    supplements:
+      - name: Duergar Psionics
+        uuid: Compendium.pf1-psionics.races.Item.OBZvFwL9gAUAAyBg
+      - name: Dwarf Blood
+        uuid: Compendium.pf1-psionics.races.Item.A3P6Rg7WMMnT26IN
+      - name: Hardy
+        uuid: Compendium.pf1-psionics.races.Item.3dNyPw8Hod16Gdqa
+      - name: Light Sensitivity
+        uuid: Compendium.pf1-psionics.races.Item.3E5uH8GgEumyvihX
+      - name: Naturally Psionic
+        uuid: Compendium.pf1-psionics.races.Item.0UVComC60DGjThey
+      - name: Power Resistance
+        uuid: Compendium.pf1-psionics.races.Item.cJAS3gbve6qP8j4M
+      - name: Psi-like Abilities
+        uuid: Compendium.pf1-psionics.races.Item.RizLheN5mk6F4ZtX
+      - name: Psionic Aptitude
+        uuid: Compendium.pf1-psionics.races.Item.P348tpVQOAjSmDMK
+      - name: Psionic Mastery
+        uuid: Compendium.pf1-psionics.races.Item.ZHlH3r7wsE8vRcyO
+      - name: Stability
+        uuid: Compendium.pf1-psionics.races.Item.gRNhmn9akb2tgZW8
+      - name: Vision
+        uuid: Compendium.pf1-psionics.races.Item.WS2QYJCVe6KQokL5
+  quadruped: false
+  size: med
+  speeds:
+    flyManeuverability: average
+    land: 20
+type: race

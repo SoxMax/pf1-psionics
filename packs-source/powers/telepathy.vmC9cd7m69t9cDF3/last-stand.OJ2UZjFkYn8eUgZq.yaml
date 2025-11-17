@@ -30,11 +30,19 @@ system:
         value: 1 creature / level
   description:
     value: >-
-      <p>You&nbsp;send&nbsp;a&nbsp;powerful&nbsp;morale&nbsp;boost&nbsp;to&nbsp;the&nbsp;targets,&nbsp;a&nbsp;telepathic&nbsp;equivalent&nbsp;of&nbsp;an&nbsp;epic&nbsp;battle&nbsp;speech,&nbsp;preparing&nbsp;them&nbsp;to&nbsp;overcome&nbsp;a&nbsp;difficult&nbsp;challenge.&nbsp;Each&nbsp;affected&nbsp;creature&nbsp;gains&nbsp;a&nbsp;+5&nbsp;morale&nbsp;bonus&nbsp;to&nbsp;attack&nbsp;rolls,&nbsp;Armor&nbsp;Class,&nbsp;and&nbsp;saving&nbsp;throws,&nbsp;as&nbsp;well&nbsp;as&nbsp;50&nbsp;temporary&nbsp;hit&nbsp;points.
+      <p>You send a powerful morale boost to the targets, a telepathic
+      equivalent of an epic battle speech, preparing them to overcome a
+      difficult challenge. Each affected creature gains a +5 morale bonus to
+      attack rolls, Armor Class, and saving throws, as well as 50 temporary hit
+      points.
 
       </p>
 
-      <p>In&nbsp;addition,&nbsp;each&nbsp;affected&nbsp;creature&nbsp;gains&nbsp;immunity&nbsp;to&nbsp;fear&nbsp;effects&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;power&nbsp;and&nbsp;if&nbsp;brought&nbsp;below&nbsp;0&nbsp;hit&nbsp;points&nbsp;but&nbsp;not&nbsp;killed,&nbsp;the&nbsp;target&nbsp;can&nbsp;fight&nbsp;on&nbsp;for&nbsp;one&nbsp;more&nbsp;round&nbsp;as&nbsp;if&nbsp;disabled.&nbsp;At&nbsp;the&nbsp;end&nbsp;of&nbsp;his&nbsp;next&nbsp;turn,&nbsp;unless&nbsp;brought&nbsp;to&nbsp;above&nbsp;0&nbsp;hit&nbsp;points,&nbsp;the&nbsp;affected&nbsp;creature&nbsp;immediately&nbsp;falls&nbsp;unconscious&nbsp;and&nbsp;begins&nbsp;dying.
+      <p>In addition, each affected creature gains immunity to fear effects for
+      the duration of the power and if brought below 0 hit points but not
+      killed, the target can fight on for one more round as if disabled. At the
+      end of his next turn, unless brought to above 0 hit points, the affected
+      creature immediately falls unconscious and begins dying.
 
       </p>
   descriptors:

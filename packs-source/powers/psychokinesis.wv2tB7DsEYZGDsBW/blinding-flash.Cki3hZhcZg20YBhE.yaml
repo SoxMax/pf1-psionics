@@ -29,15 +29,21 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;create&nbsp;a&nbsp;blinding&nbsp;flash&nbsp;of&nbsp;light&nbsp;to&nbsp;momentarily&nbsp;distract&nbsp;an&nbsp;opponent.&nbsp;The&nbsp;target&nbsp;of&nbsp;this&nbsp;power&nbsp;must&nbsp;make&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;or&nbsp;be&nbsp;dazzled&nbsp;for&nbsp;one&nbsp;round.
+      <p>You create a blinding flash of light to momentarily distract an
+      opponent. The target of this power must make a Fortitude save or be
+      dazzled for one round.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways:
+      <p><strong>Augment:</strong> You may augment this power in one or both of
+      the following ways:
 
-      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;the&nbsp;power's&nbsp;duration&nbsp;increases&nbsp;by&nbsp;one&nbsp;round.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;target&nbsp;is&nbsp;blinded&nbsp;instead&nbsp;of&nbsp;dazzled.</li></ol>
+      </p><ol><li>For every additional power point you spend, the power's
+      duration increases by one round.</li><li>If you spend 4 additional power
+      points, the target is blinded instead of dazzled.</li></ol>
 
-      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;spent&nbsp;to&nbsp;achieve&nbsp;either&nbsp;of&nbsp;these&nbsp;effects,&nbsp;increase&nbsp;the&nbsp;save&nbsp;DC&nbsp;by&nbsp;1.
+      <p>In addition, for every 2 power points spent to achieve either of these
+      effects, increase the save DC by 1.
 
       </p>
   descriptors:

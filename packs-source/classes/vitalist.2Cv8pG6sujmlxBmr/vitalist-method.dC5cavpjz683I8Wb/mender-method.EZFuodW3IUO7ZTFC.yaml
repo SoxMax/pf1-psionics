@@ -1,0 +1,113 @@
+_id: EZFuodW3IUO7ZTFC
+_key: '!items!EZFuodW3IUO7ZTFC'
+_stats:
+  coreVersion: '13.350'
+folder: dC5cavpjz683I8Wb
+img: icons/svg/book.svg
+name: Mender Method
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p><span class="va-quotation-text"><em>A mender vitalist is the most
+      common found, as he focuses on healing wounds more efficiently, even
+      bringing back life to the dead. The mender vitalist learns how to boost
+      the body's natural healing ability to unimaginable regenerative
+      levels.</em></span></p><p><strong>Mender Power:</strong> A mender vitalist
+      adds
+      <em>@UUID[Compendium.pf1-psionics.powers.Item.Cnx8bMkrtofPQDRJ]{Natural
+      Healing}</em> to his list of powers known. This does not count against his
+      number of powers known.</p><p><strong>Mender Knacks:</strong> A mender
+      gains the talent below as his method
+      knack.</p><ul><li><em>@UUID[Compendium.pf1-psionics.powers.Item.1eq5n08zT8gK9tni]{Halt
+      Death}</em>: Automatically stabilize a dying
+      creature.</li></ul><p><strong>Mender's Touch:</strong> A mender vitalist
+      of 2nd level who utilizes transfer wounds heals the target an additional
+      number of hit points equal to his class level. This additional healing is
+      not transferred to the mender like the normal amount
+      healed.</p><p><strong>Mender's Pulse:</strong> As a free action, a mender
+      of 6th level may project a pulse to all members of his collective by
+      spending one power point, granting fast healing 1 for one round. Every
+      three vitalist levels thereafter, this fast healing increases by 1. This
+      healing is not eligible to be redirected using collective
+      healing.</p><p><strong>Swift Aid:</strong> A mender of 8th level may, as
+      an immediate action and by expending his psionic focus, heal a member of
+      his collective as if he had used transfer wounds.</p><p><strong>Mender's
+      Expertise:</strong> Upon achieving 11th level, a mender is skilled at
+      restoring the psyche of the recently deceased and efficiently healing his
+      collective members. Any time a mender manifests
+      @UUID[Compendium.pf1-psionics.powers.Item.hCEb5OhGt8ph780v]{Psionic
+      Revivify}, the maximum number of rounds after the target's death allowed
+      increases by his Wisdom modifier (minimum 1) without the need to suffer
+      additional negative levels.</p><p>In addition, anytime a mender manifests
+      a power with the [Healing] descriptor, it heals an additional 50% hit
+      points (round down).</p><p><strong>Master Mender:</strong> A mender of
+      20th level is capable of healing even the most grievous of injuries. As a
+      full-round action and by expending his psionic focus, the mender can heal
+      a member of his collective to full health, including restoring any ability
+      drain, removing fatigue or exhaustion, and curing any poisons or diseases.
+      The mender can use this ability once every 10 minutes.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2013-12-24'
+      pages: '74'
+      publisher: ' Dreamscarred Press'
+      title: Ultimate Psionics
+  subType: classFeat
+  summons: false
+type: feat

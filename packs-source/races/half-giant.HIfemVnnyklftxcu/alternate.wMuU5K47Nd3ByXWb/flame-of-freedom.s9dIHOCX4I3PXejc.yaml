@@ -1,0 +1,78 @@
+_id: s9dIHOCX4I3PXejc
+_key: '!items!s9dIHOCX4I3PXejc'
+_stats:
+  coreVersion: '13.351'
+flags:
+  pf1-psionics:
+    fromRace: Half-giant
+folder: wMuU5K47Nd3ByXWb
+img: icons/magic/fire/blast-jet-stream-embers-orange.webp
+name: Flame of Freedom
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>Half-giants have an affinity for heat and fire. Half-giants with this
+      trait gain a +1 racial bonus to their manifester level on powers with the
+      [fire] descriptor. This trait replaces the
+      @UUID[Compendium.world.racial-traits.Item.aqg4hGzdKihwtmjy]{half-giant
+      psionics} trait.</p>
+  disabled: false
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+  traitCategory: magical
+type: feat

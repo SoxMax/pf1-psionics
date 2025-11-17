@@ -1,0 +1,45 @@
+_id: asaZVMFXakyp6JUu
+_key: '!items!asaZVMFXakyp6JUu'
+_stats:
+  coreVersion: '13.350'
+folder: R7AoIomzfNGuWBKp
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Parallel Initiative
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: >-
+      <p>A voyager's future and alternate selves can act in some capacity on
+      their present self's reality. Their activities are represented through a
+      unique turn known as a parallel turn. Whenever a voyager rolls initiative,
+      she also rolls initiative for her parallel turn. She makes a second
+      initiative roll at a –8 penalty. This result is noted as the voyager's
+      parallel turn. If the voyager has another ability that allows her to
+      reroll initiative checks or roll additional dice, she can apply them to
+      either roll.
+
+      </p><p>A voyager's parallel turn is not a true turn, and as such, the
+      voyager herself does not act normally during it. Instead, on the parallel
+      turn's initiative count each round, the voyager can use a single parallel
+      action she knows (see below). If she wishes, the voyager can delay the
+      initiative count of her parallel turn, just like a normal turn. At 3rd
+      level and every 4 levels thereafter, the voyager gains a +4 bonus to her
+      parallel initiative roll, up to a +12 bonus at 19th level.
+
+      </p><p>Outside of combat, when not tracking initiative orders, a voyager's
+      parallel turn can be considered the same as her own (letting her freely
+      use her parallel actions), but the confusion of combat quickly
+      desynchronizes the voyager and her counterparts when initiative is rolled.
+
+      </p><p></p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
+  subType: classFeat
+  tag: parallel-initiative
+type: feat

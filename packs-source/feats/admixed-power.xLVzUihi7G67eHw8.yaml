@@ -22,9 +22,15 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;combine&nbsp;energy&nbsp;types&nbsp;in&nbsp;your&nbsp;powers.</em></p>
+      <p><em>You can combine energy types in your powers.</em></p>
 
-      <p><strong>Benefit:&nbsp;</strong>To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;a&nbsp;power&nbsp;that&nbsp;deals&nbsp;cold,&nbsp;electricity,&nbsp;fire,&nbsp;or&nbsp;sonic&nbsp;damage&nbsp;using&nbsp;this&nbsp;feat,&nbsp;choose&nbsp;an&nbsp;additional&nbsp;energy&nbsp;type.&nbsp;The&nbsp;power&nbsp;counts&nbsp;as&nbsp;being&nbsp;both&nbsp;energy&nbsp;types&nbsp;and&nbsp;only&nbsp;the&nbsp;lowest&nbsp;resistance&nbsp;works&nbsp;against&nbsp;the&nbsp;admixed&nbsp;power.&nbsp;Using&nbsp;this&nbsp;feat&nbsp;increases&nbsp;the&nbsp;power&nbsp;point&nbsp;cost&nbsp;of&nbsp;the&nbsp;power&nbsp;by&nbsp;2.&nbsp;The&nbsp;power’s&nbsp;total&nbsp;cost&nbsp;cannot&nbsp;exceed&nbsp;your&nbsp;manifester&nbsp;level.
+      <p><strong>Benefit: </strong>To use this feat, you must expend your
+      psionic focus. When you manifest a power that deals cold, electricity,
+      fire, or sonic damage using this feat, choose an additional energy type.
+      The power counts as being both energy types and only the lowest resistance
+      works against the admixed power. Using this feat increases the power point
+      cost of the power by 2. The power’s total cost cannot exceed your
+      manifester level.
 
       </p>
   disabled: false

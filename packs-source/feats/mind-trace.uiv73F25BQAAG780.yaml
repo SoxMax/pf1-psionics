@@ -22,13 +22,23 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;create&nbsp;an&nbsp;imprint&nbsp;of&nbsp;the&nbsp;abilities&nbsp;of&nbsp;a&nbsp;member&nbsp;of&nbsp;your&nbsp;collective&nbsp;within&nbsp;your&nbsp;mind.</em></p>
+      <p><em>You can create an imprint of the abilities of a member of your
+      collective within your mind.</em></p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Collective&nbsp;class&nbsp;feature,&nbsp;tribute&nbsp;class&nbsp;feature.
+      <p><strong>Prerequisites:</strong> Collective class feature, tribute class
+      feature.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;Once&nbsp;per&nbsp;day,&nbsp;as&nbsp;a&nbsp;full-round&nbsp;action,&nbsp;you&nbsp;can&nbsp;select&nbsp;a&nbsp;feat&nbsp;possessed&nbsp;or&nbsp;power&nbsp;known&nbsp;by&nbsp;another&nbsp;member&nbsp;of&nbsp;your&nbsp;collective.&nbsp;You&nbsp;must&nbsp;meet&nbsp;the&nbsp;prerequisites&nbsp;for&nbsp;a&nbsp;feat&nbsp;chosen&nbsp;this&nbsp;way.&nbsp;You&nbsp;gain&nbsp;that&nbsp;feat&nbsp;or&nbsp;learn&nbsp;that&nbsp;power&nbsp;until&nbsp;you&nbsp;use&nbsp;this&nbsp;feat&nbsp;again,&nbsp;in&nbsp;which&nbsp;case&nbsp;you&nbsp;switch&nbsp;the&nbsp;feat&nbsp;or&nbsp;power&nbsp;previously&nbsp;gained&nbsp;by&nbsp;mind&nbsp;trace&nbsp;for&nbsp;the&nbsp;new&nbsp;one.&nbsp;Unlike&nbsp;feats&nbsp;granted&nbsp;through&nbsp;the&nbsp;tribute&nbsp;ability,&nbsp;or&nbsp;powers&nbsp;usable&nbsp;through&nbsp;contact&nbsp;in&nbsp;the&nbsp;collective,&nbsp;you&nbsp;retain&nbsp;feats&nbsp;or&nbsp;powers&nbsp;known&nbsp;from&nbsp;mind&nbsp;trace&nbsp;even&nbsp;if&nbsp;all&nbsp;other&nbsp;creatures&nbsp;that&nbsp;possess&nbsp;them&nbsp;leave&nbsp;your&nbsp;collective.
+      <p><strong>Benefit:</strong> Once per day, as a full-round action, you can
+      select a feat possessed or power known by another member of your
+      collective. You must meet the prerequisites for a feat chosen this way.
+      You gain that feat or learn that power until you use this feat again, in
+      which case you switch the feat or power previously gained by mind trace
+      for the new one. Unlike feats granted through the tribute ability, or
+      powers usable through contact in the collective, you retain feats or
+      powers known from mind trace even if all other creatures that possess them
+      leave your collective.
 
       </p>
   disabled: false

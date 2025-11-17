@@ -22,21 +22,33 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;are&nbsp;able&nbsp;to&nbsp;make&nbsp;your&nbsp;thrown&nbsp;weapons&nbsp;return&nbsp;to&nbsp;your&nbsp;hand.</em></p>
+      <p><em>You are able to make your thrown weapons return to your
+      hand.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank&nbsp;Shot</a>,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+1.
-
-      </p>
-
-      <p><strong>Benefit:</strong>&nbsp;As&nbsp;long&nbsp;as&nbsp;you&nbsp;maintain&nbsp;psionic&nbsp;focus,&nbsp;weapons&nbsp;you&nbsp;throw&nbsp;return&nbsp;to&nbsp;the&nbsp;square&nbsp;from&nbsp;which&nbsp;they&nbsp;were&nbsp;thrown&nbsp;just&nbsp;before&nbsp;your&nbsp;next&nbsp;turn.&nbsp;Catching&nbsp;any&nbsp;returning&nbsp;weapons&nbsp;is&nbsp;a&nbsp;free&nbsp;action.&nbsp;If&nbsp;you&nbsp;can’t&nbsp;catch&nbsp;the&nbsp;weapon,&nbsp;it&nbsp;drops&nbsp;to&nbsp;the&nbsp;ground.
-
-      </p>
-
-      <p>You&nbsp;may&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;part&nbsp;of&nbsp;a&nbsp;thrown&nbsp;attack&nbsp;to&nbsp;make&nbsp;the&nbsp;weapon&nbsp;you&nbsp;throw&nbsp;return&nbsp;to&nbsp;your&nbsp;hand&nbsp;immediately&nbsp;after&nbsp;any&nbsp;thrown&nbsp;attack&nbsp;resolves.&nbsp;This&nbsp;effect&nbsp;lasts&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;turn,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;attack&nbsp;multiple&nbsp;times&nbsp;with&nbsp;the&nbsp;same&nbsp;thrown&nbsp;weapon&nbsp;if&nbsp;multiple&nbsp;attacks&nbsp;are&nbsp;otherwise&nbsp;available.
+      <p><strong>Prerequisites:</strong><a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank
+      Shot</a>, base attack bonus +1.
 
       </p>
 
-      <p>If&nbsp;the&nbsp;weapon&nbsp;(or&nbsp;shield)&nbsp;being&nbsp;thrown&nbsp;has&nbsp;the&nbsp;ranged,&nbsp;returning,&nbsp;or&nbsp;teleporting&nbsp;special&nbsp;ability,&nbsp;your&nbsp;attacks&nbsp;are&nbsp;treated&nbsp;as&nbsp;if&nbsp;you&nbsp;had&nbsp;expended&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;power&nbsp;this&nbsp;feat.
+      <p><strong>Benefit:</strong> As long as you maintain psionic focus,
+      weapons you throw return to the square from which they were thrown just
+      before your next turn. Catching any returning weapons is a free action. If
+      you can’t catch the weapon, it drops to the ground.
+
+      </p>
+
+      <p>You may expend your psionic focus as part of a thrown attack to make
+      the weapon you throw return to your hand immediately after any thrown
+      attack resolves. This effect lasts until the end of your turn, allowing
+      you to attack multiple times with the same thrown weapon if multiple
+      attacks are otherwise available.
+
+      </p>
+
+      <p>If the weapon (or shield) being thrown has the ranged, returning, or
+      teleporting special ability, your attacks are treated as if you had
+      expended psionic focus to power this feat.
 
       </p>
   disabled: false

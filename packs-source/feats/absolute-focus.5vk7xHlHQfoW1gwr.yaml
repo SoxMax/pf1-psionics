@@ -22,13 +22,16 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;convert&nbsp;psionic&nbsp;power&nbsp;into&nbsp;mental&nbsp;focus.</em></p>
+      <p><em>You can convert psionic power into mental focus.</em></p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Autohypnosis&nbsp;3&nbsp;ranks,&nbsp;focus&nbsp;powers&nbsp;class&nbsp;feature.
+      <p><strong>Prerequisites:</strong> Autohypnosis 3 ranks, focus powers
+      class feature.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;Choose&nbsp;one&nbsp;focus&nbsp;power&nbsp;you&nbsp;know.&nbsp;You&nbsp;can&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when&nbsp;using&nbsp;the&nbsp;chosen&nbsp;focus&nbsp;power&nbsp;to&nbsp;reduce&nbsp;its&nbsp;cost&nbsp;in&nbsp;mental&nbsp;focus&nbsp;points&nbsp;by&nbsp;1&nbsp;(to&nbsp;a&nbsp;minimum&nbsp;of&nbsp;0).
+      <p><strong>Benefit:</strong> Choose one focus power you know. You can
+      expend your psionic focus when using the chosen focus power to reduce its
+      cost in mental focus points by 1 (to a minimum of 0).
 
       </p>
   disabled: false

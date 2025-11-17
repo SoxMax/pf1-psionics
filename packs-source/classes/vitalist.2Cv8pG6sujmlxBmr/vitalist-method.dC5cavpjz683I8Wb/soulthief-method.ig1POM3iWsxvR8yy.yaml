@@ -1,0 +1,75 @@
+_id: ig1POM3iWsxvR8yy
+_key: '!items!ig1POM3iWsxvR8yy'
+_stats:
+  coreVersion: '13.350'
+folder: dC5cavpjz683I8Wb
+img: icons/svg/book.svg
+name: Soulthief Method
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: "<p><em>A soulthief vitalist develops techniques that focus on harnessing the energy of enemies, siphoning it off and using it to heal himself and his allies.</em></p><p><strong>Soulthief Power:</strong> A soulthief vitalist adds <em>@UUID[Compendium.pf1-psionics.powers.Item.XjFBnYGwGhBF8Prs]{Collapse}</em> to his list of powers known. This does not count against his number of powers known.</p><p><strong>Soulthief Knacks:</strong> A soulthief can select one of the talents below as his method knack.</p><ul><li><em>@UUID[Compendium.pf1-psionics.powers.Item.vecZ9Bfr59u9Wu86]{Fatigue}</em>: Cause a creature to be fatigued.</li><li><em>@UUID[Compendium.pf1-psionics.powers.Item.lkTPtnYxbzQtO3vb]{Siphon}</em>: Deal 1d3 points of damage and gain 1 temporary hit point.</li></ul><p><strong>Soulthief's Touch:</strong> A soulthief vitalist of 2nd level who utilizes transfer wounds can choose to instead deal the amount of damage that transfer wounds would normally heal plus the soulthief's class level to the target, healing himself a number of hit points equal to the damage dealt. A soulthief may not heal more hit points than the touched creature had prior to using this ability.</p><p>This ability may only be used on creatures with a Constitution score and may not be used against creatures in the soulthief's collective. A soulthief may use this ability on creatures with a total number of hit dice less than half his vitalist level, but he gains no healing from it.</p><p><strong>Soulthief's Pulse:</strong> As a free action, a soulthief of 6th level may project a pulse to all members of his collective by spending one power point, which empowers the attacks of the members of the collective for one round. Any successful damaging attack made with an attack roll made by a member of the collective heals the attacker for the damage dealt, up to 2 hit points of damage. Every three vitalist levels thereafter, the maximum healing granted by this aura increases by 1.</p><p><strong>Swift Aid:</strong> A soulthief of 8th level may, as an immediate action and by expending his psionic focus, transfer the wounds of a member of his collective to an enemy within 15 ft. of the ally for an amount of damage equal to the soulthief's transfer wounds ability. A successful Fortitude save (DC 10 + 1/2 class level + Wisdom modifier) negates the effect.</p><p><strong>Soulthief's Expertise:</strong> Upon achieving 11th level, anytime a soulthief manifests <em>@UUID[Compendium.pf1-psionics.powers.Item.DjeCOTwMtfNxMHKq]{Empathic Transfer, Hostile}</em>, the attack can be made as a ranged touch attack with a range of 30 feet instead of as a melee touch attack. In addition, every additional power point spent augmenting hostile empathic transfer increases the additional damage transferred by 7, rather than by 5, and the maximum number of points of damage transferred increases to 85.</p><p>In addition, any time a soulthief manifests a power or psi-like ability that deals hit point damage, it heals him for 50% of the damage dealt. If the power does hit point damage to multiple targets, the soulthief only heals 50% of the damage to the target dealt the highest damage.</p><p><strong>Master Soulthief:</strong> A soulthief of 20th level learns how to siphon the life out of a creature. Once every 10 minutes, the soulthief can choose one target to which he has line of sight and, as a full-round action and by expending his psionic focus, begin draining the target of health (12d6 points of empathic damage) which is then transferred to the collective and heals an equal amount of damage. A successful Will save (DC 20 + Wis modifier) negates the effect. Each round, the target may attempt another Will save to negate the effect. The soulthief can maintain concentration to continue the damage each round, for up to one minute. Any damage done after all members of the collective are healed completely instead grants temporary hit points to any member of the collective (soulthief's choice) for 10 minutes. The soulthief may divide these temporary hit points as he so chooses among members of the collective.</p>"
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2013-12-24'
+      pages: 74–75
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  summons: false
+type: feat

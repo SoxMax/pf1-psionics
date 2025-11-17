@@ -1,0 +1,146 @@
+_id: 5Ec2QvQppLOhR9Er
+_key: '!items!5Ec2QvQppLOhR9Er'
+_stats:
+  coreVersion: '13.350'
+folder: 2Cv8pG6sujmlxBmr
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Steal Life
+system:
+  abilityType: ex
+  acquired: false
+  actions:
+    - _id: 7o9fP9cx02fauOOn
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: msak
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      ammo:
+        type: none
+      duration:
+        units: inst
+      held: 1h
+      name: Use
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: touch
+      save:
+        dc: 10 + (@class.level / 2) + @abilities.wis.mod
+        description: A successful save negates this effect
+        harmless: false
+        type: fort
+      target:
+        value: one creature with a Constitution score and 140 or less hit points
+      touch: true
+  associations:
+    classes:
+      - Vitalist
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>Beginning at 14th level, a vitalist can not only steal the health of a
+      target, but steal their life itself. By making a successful melee touch
+      attack and expending psionic focus, the vitalist can force the target to
+      make a Fortitude save (DC 10 + half class level + Wisdom modifier) or die.
+      A successful save negates this effect. Targets with more than 140 hit
+      points are unaffected by this ability.
+
+      </p><p>If the target fails the save, the vitalist is able to channel the
+      stolen life force through his collective, healing any number of the
+      members of his collective for a combined total of 5 hit points per hit die
+      the original target had.
+
+      </p><p>This ability may only be used on creatures with a Constitution
+      score and may not be used against creatures in the vitalist's collective.
+
+      </p><p>For example, Jorus is a level 14 vitalist and he uses steal life on
+      a thought slayer, which has 11 hit dice. The thought slayer fails the
+      Fortitude save, so Jorus can heal up to 55 hit points over his collective,
+      divided among the members as he sees fit.
+
+      </p><p>A vitalist must wait 10 minutes after using this ability before he
+      can attempt to use it again. This is considered a death effect.
+
+      </p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2012-07-23'
+      pages: 57–61
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 69–72
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  summons: false
+  tag: steallife
+  uses:
+    maxFormula: '1'
+    per: minute
+    value: 1
+type: feat

@@ -28,13 +28,19 @@ system:
         value: You
   description:
     value: >-
-      <p>Your&nbsp;awareness&nbsp;extends&nbsp;a&nbsp;fraction&nbsp;of&nbsp;a&nbsp;second&nbsp;into&nbsp;the&nbsp;future,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;better&nbsp;land&nbsp;blows&nbsp;against&nbsp;your&nbsp;opponent.&nbsp;You&nbsp;gain&nbsp;a&nbsp;+1&nbsp;insight&nbsp;bonus&nbsp;on&nbsp;your&nbsp;attack&nbsp;rolls.
+      <p>Your awareness extends a fraction of a second into the future, allowing
+      you to better land blows against your opponent. You gain a +1 insight
+      bonus on your attack rolls.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or both of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;3&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;insight&nbsp;bonus&nbsp;gained&nbsp;on&nbsp;your&nbsp;attack&nbsp;rolls&nbsp;increases&nbsp;by&nbsp;1.</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action.</li></ol>
+      </p><ol><li>For every 3 additional power points you spend, the insight
+      bonus gained on your attack rolls increases by 1.</li><li>If you spend 6
+      additional power points, you can manifest this power as a swift
+      action.</li></ol>
   discipline: clairsentience
   display:
     auditory: false

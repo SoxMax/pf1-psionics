@@ -22,13 +22,19 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Enemies&nbsp;find&nbsp;it&nbsp;incredibly&nbsp;difficult&nbsp;to&nbsp;strike&nbsp;you&nbsp;with&nbsp;ranged&nbsp;attacks.</em></p>
+      <p><em>Enemies find it incredibly difficult to strike you with ranged
+      attacks.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Return_Shot"&nbsp;title="Return&nbsp;Shot">Return&nbsp;Shot</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Return_Shot" title="Return
+      Shot">Return Shot</a>.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;can&nbsp;use&nbsp;Return&nbsp;Shot&nbsp;once&nbsp;per&nbsp;round&nbsp;without&nbsp;having&nbsp;to&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;when&nbsp;using&nbsp;Return&nbsp;Shot&nbsp;to&nbsp;redirect&nbsp;the&nbsp;attack&nbsp;at&nbsp;another&nbsp;enemy&nbsp;within&nbsp;one&nbsp;range&nbsp;increment&nbsp;of&nbsp;you&nbsp;instead&nbsp;of&nbsp;at&nbsp;the&nbsp;attacker.
+      <p><strong>Benefit:</strong> You can use Return Shot once per round
+      without having to expend your psionic focus. In addition, you can expend a
+      use of mythic power when using Return Shot to redirect the attack at
+      another enemy within one range increment of you instead of at the
+      attacker.
 
       </p>
   disabled: false

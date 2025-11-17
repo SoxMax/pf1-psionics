@@ -27,13 +27,25 @@ system:
         value: One creature
   description:
     value: >-
-      <p>Your&nbsp;next&nbsp;single&nbsp;melee&nbsp;attack&nbsp;is&nbsp;imbued&nbsp;to&nbsp;distract&nbsp;the&nbsp;opponent.&nbsp;If&nbsp;the&nbsp;attack&nbsp;is&nbsp;successful,&nbsp;you&nbsp;deal&nbsp;damage&nbsp;normally&nbsp;and,&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;its&nbsp;next&nbsp;turn,&nbsp;your&nbsp;target&nbsp;takes&nbsp;a&nbsp;-2&nbsp;penalty&nbsp;to&nbsp;attack&nbsp;rolls&nbsp;and&nbsp;can't&nbsp;make&nbsp;attacks&nbsp;of&nbsp;opportunity.&nbsp;If&nbsp;your&nbsp;attack&nbsp;misses,&nbsp;the&nbsp;target&nbsp;instead&nbsp;takes&nbsp;a&nbsp;-1&nbsp;penalty&nbsp;to&nbsp;attack&nbsp;rolls&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;its&nbsp;next&nbsp;turn,&nbsp;but&nbsp;can&nbsp;make&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;as&nbsp;normal.&nbsp;Any&nbsp;power&nbsp;resistance&nbsp;your&nbsp;target&nbsp;has&nbsp;is&nbsp;applicable&nbsp;against&nbsp;this&nbsp;effect.
+      <p>Your next single melee attack is imbued to distract the opponent. If
+      the attack is successful, you deal damage normally and, until the end of
+      its next turn, your target takes a -2 penalty to attack rolls and can't
+      make attacks of opportunity. If your attack misses, the target instead
+      takes a -1 penalty to attack rolls until the end of its next turn, but can
+      make attacks of opportunity as normal. Any power resistance your target
+      has is applicable against this effect.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or both of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;four&nbsp;additional&nbsp;power&nbsp;points&nbsp;spent,&nbsp;this&nbsp;power&nbsp;affects&nbsp;one&nbsp;additional&nbsp;melee&nbsp;attack&nbsp;during&nbsp;this&nbsp;round.&nbsp;Effects&nbsp;from&nbsp;multiple&nbsp;attacks&nbsp;do&nbsp;not&nbsp;stack.</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;instead&nbsp;manifest&nbsp;this&nbsp;power&nbsp;upon&nbsp;making&nbsp;a&nbsp;successful&nbsp;melee&nbsp;attack&nbsp;and&nbsp;have&nbsp;the&nbsp;effects&nbsp;of&nbsp;this&nbsp;power&nbsp;instead&nbsp;apply&nbsp;to&nbsp;that&nbsp;attack.&nbsp;Doing&nbsp;so&nbsp;still&nbsp;uses&nbsp;your&nbsp;swift&nbsp;action&nbsp;for&nbsp;the&nbsp;round.</li></ol>
+      </p><ol><li>For every four additional power points spent, this power
+      affects one additional melee attack during this round. Effects from
+      multiple attacks do not stack.</li><li>If you spend 6 additional power
+      points, you can instead manifest this power upon making a successful melee
+      attack and have the effects of this power instead apply to that attack.
+      Doing so still uses your swift action for the round.</li></ol>
   descriptors:
     - mind-affecting
   discipline: telepathy

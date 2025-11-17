@@ -1,0 +1,83 @@
+_id: 1QvHKa1seDr4sGGY
+_key: '!items!1QvHKa1seDr4sGGY'
+_stats:
+  coreVersion: '13.350'
+folder: jq4sEFaGijf70pHa
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Wild Surge
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Wilder
+  description:
+    value: >-
+      <p>A wilder can let her passion and emotion rise to the surface in a wild
+      surge when she manifests a power. During a wild surge, a wilder gains
+      phenomenal psionic strength, but may harm herself by the reckless use of
+      her power (see psychic enervation, below).
+
+      </p><p>A wilder can choose to invoke a wild surge whenever she manifests a
+      power. When she does so, she gains +1 to her manifester level with that
+      manifestation of the power. The manifester level boost gives her the
+      ability to augment her powers to a higher degree than she otherwise could;
+      however, she pays no extra power point for this wild surge. Instead, the
+      additional 1 power point that would normally be required to augment the
+      power is effectively supplied by the wild surge.
+
+      </p><p>Level-dependent power effects are also improved, depending on the
+      power a wilder manifests with her wild surge.
+
+      </p><p>This improvement in manifester level does not grant her any other
+      benefits outside of the manifestation (she gains no higher-level class
+      abilities, for instance).
+
+      </p><p>She cannot use the <a href="/wiki/Overchannel"
+      title="Overchannel">Overchannel</a> psionic feat and invoke her wild surge
+      at the same time.
+
+      </p><p>At 3rd level, a wilder boosts her manifester level by two instead
+      of one. At 7th level, she boosts her manifester level by three; at 11th
+      level, by four; at 15th level, by five; and at 19th level, by six. The
+      wilder always wild surges for the maximum amount possible, for unleashing
+      emotions in the fashion of a wild surge does not lend itself to using
+      finesse.
+
+      </p><p>In all cases, the wild surge effectively pays the extra power point
+      cost that is normally required to augment the power by this additional
+      amount; only the standard power point cost is subtracted from the wilder's
+      power point reserve. For example, if Alrik the 8th level wilder were to
+      invoke his wild surge when manifesting a power, he would spend between 1
+      and 8 power points as normal, but the power would manifest at 11th
+      manifester level and behave as if he had spent 3 more on it than normal.
+
+      </p><p>The wilder can expend her psionic focus to manifest a psionic power
+      without expending any power points, powering the manifestation with only
+      her wild surge. She manifests this power as if all power points were paid
+      by her wild surge ability. This results in the power being manifested as
+      if the base power point cost of the power was paid, along with
+      augmentation equal to her wild surge amount, but she may not augment the
+      power beyond the amount of her wild surge, and when checking for psychic
+      enervation, the chance to be overcome doubles to 30%. A wilder must wait
+      10 minutes after wild surging in this fashion before she can do so again.
+      If the wilder suffers psychic enervation and loses more power points than
+      she has available, she instead loses 3 hit points for every power point
+      lost.
+
+      </p><p></p>
+  sources:
+    - date: '2010-08-01'
+      pages: 33–35
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2010-01-01'
+      pages: 38–41
+      publisher: Dreamscarred Press
+      title: 'Psionics Unleashed: Revised'
+    - date: '2013-12-24'
+      pages: 75–77
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: wild-surge
+type: feat

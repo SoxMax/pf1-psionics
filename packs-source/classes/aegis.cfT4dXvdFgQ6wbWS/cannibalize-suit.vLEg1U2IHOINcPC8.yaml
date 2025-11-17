@@ -1,0 +1,35 @@
+_id: vLEg1U2IHOINcPC8
+_key: '!items!vLEg1U2IHOINcPC8'
+_stats:
+  coreVersion: '13.350'
+folder: cfT4dXvdFgQ6wbWS
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Cannibalize Suit
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Aegis
+  description:
+    value: >-
+      <p>Starting at 12th level, an aegis learns to convert the psionic energy
+      used to create his suit into healing power. Once per day as a standard
+      action, he can dismiss his astral suit and heal a number of hit points
+      equal to his customization pool. The aegis cannot reform his suit again
+      for one minute after using this ability. Every two levels thereafter, the
+      aegis can use this ability an additional time per day. Additional
+      customization points gained from Augment Suit are not counted for this
+      ability.
+      </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 27–31
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 28–30
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: cannibalize-suit
+type: feat

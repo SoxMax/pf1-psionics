@@ -31,11 +31,19 @@ system:
         value: 40-ft.-radius emanation centered on you
   description:
     value: >-
-      <p>You&nbsp;immediately&nbsp;become&nbsp;aware&nbsp;of&nbsp;any&nbsp;attempt&nbsp;to&nbsp;observe&nbsp;you&nbsp;by&nbsp;means&nbsp;of&nbsp;a&nbsp;scrying&nbsp;power&nbsp;or&nbsp;spell.&nbsp;The&nbsp;power's&nbsp;effect&nbsp;radiates&nbsp;from&nbsp;you&nbsp;and&nbsp;moves&nbsp;as&nbsp;you&nbsp;move.&nbsp;You&nbsp;know&nbsp;the&nbsp;location&nbsp;of&nbsp;every&nbsp;psionic&nbsp;or&nbsp;magical&nbsp;sensor&nbsp;within&nbsp;the&nbsp;power's&nbsp;area.
+      <p>You immediately become aware of any attempt to observe you by means of
+      a scrying power or spell. The power's effect radiates from you and moves
+      as you move. You know the location of every psionic or magical sensor
+      within the power's area.
 
       </p>
 
-      <p>If&nbsp;the&nbsp;viewing&nbsp;attempt&nbsp;originates&nbsp;within&nbsp;the&nbsp;area,&nbsp;you&nbsp;also&nbsp;know&nbsp;the&nbsp;viewer's&nbsp;location.&nbsp;Otherwise,&nbsp;you&nbsp;and&nbsp;the&nbsp;remote&nbsp;viewer&nbsp;immediately&nbsp;make&nbsp;opposed&nbsp;manifester&nbsp;level&nbsp;checks&nbsp;(1d20&nbsp;+&nbsp;manifester&nbsp;level,&nbsp;or&nbsp;viewer's&nbsp;caster&nbsp;level&nbsp;as&nbsp;appropriate).&nbsp;If&nbsp;you&nbsp;at&nbsp;least&nbsp;match&nbsp;the&nbsp;remote&nbsp;viewer's&nbsp;result,&nbsp;you&nbsp;get&nbsp;a&nbsp;visual&nbsp;image&nbsp;of&nbsp;the&nbsp;remote&nbsp;viewer&nbsp;and&nbsp;an&nbsp;accurate&nbsp;sense&nbsp;of&nbsp;the&nbsp;remote&nbsp;viewer's&nbsp;direction&nbsp;and&nbsp;distance&nbsp;from&nbsp;you.
+      <p>If the viewing attempt originates within the area, you also know the
+      viewer's location. Otherwise, you and the remote viewer immediately make
+      opposed manifester level checks (1d20 + manifester level, or viewer's
+      caster level as appropriate). If you at least match the remote viewer's
+      result, you get a visual image of the remote viewer and an accurate sense
+      of the remote viewer's direction and distance from you.
 
       </p>
   discipline: clairsentience

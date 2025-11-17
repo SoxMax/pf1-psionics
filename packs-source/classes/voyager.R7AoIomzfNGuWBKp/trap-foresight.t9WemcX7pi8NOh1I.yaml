@@ -1,0 +1,29 @@
+_id: t9WemcX7pi8NOh1I
+_key: '!items!t9WemcX7pi8NOh1I'
+_stats:
+  coreVersion: '13.350'
+folder: R7AoIomzfNGuWBKp
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Trap Foresight
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: >-
+      <p>A voyager can use Disable Device to disarm magic traps like a rogue,
+      and whenever she uses the Disable Device skill, she can expend her psionic
+      focus to roll twice and take the higher of the two rolls. If the voyager
+      could take 10 on the check, she can choose to use this ability to take 10
+      with one die and roll the other die (using the higher result).
+
+      </p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
+  subType: classFeat
+  tag: trap-foresight
+type: feat

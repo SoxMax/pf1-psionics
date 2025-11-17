@@ -1,0 +1,81 @@
+_id: se7VOw4S2Ob6eBw1
+_key: '!items!se7VOw4S2Ob6eBw1'
+_stats:
+  coreVersion: '13.351'
+flags:
+  pf1-psionics:
+    fromRace: Ophiduan
+folder: QRkXNrhWzNKc4kmm
+img: icons/environment/people/group.webp
+name: Deformed
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>Part of the ophiduan history involved experimenting on their physical
+      form to create a superior caste. Unfortunate bloodlines of ophiduans are
+      instead twisted versions of the race, when the improvement caused an
+      unexpected side-effect. Ophiduans with this trait have the Slow and Steady
+      speed (as the dwarf racial ability) and gain a +2 natural armor bonus to
+      AC, but suffer a -2 penalty on all Diplomacy checks.</p><p><em>This racial
+      trait replaces the normal speed and scaled hide
+      traits.</em></p><p></li></p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+type: feat

@@ -1,0 +1,31 @@
+_id: 4xDTSVcIxE89Lc4d
+_key: '!items!4xDTSVcIxE89Lc4d'
+_stats:
+  coreVersion: '13.350'
+folder: 3nTUlQKGd4eDVPqX
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Style Ability
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Marksman
+  description:
+    value: >-
+      <p>Starting at 4th level, a Marksman gains an ability associated with her
+      combat style. Every four levels thereafter (8th, 12th, 16th, 20th), she
+      gains a new style ability.
+
+      </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 47–50
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 44–46
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: style-ability
+type: feat

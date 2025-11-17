@@ -22,39 +22,42 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>Your&nbsp;training&nbsp;with&nbsp;a&nbsp;mind&nbsp;blade&nbsp;allows&nbsp;you&nbsp;to&nbsp;perform
+      <p>Your training with a mind blade allows you to perform
 
-      additional&nbsp;abilities.
-
-      </p>
-
-      <p><strong>Prerequisite:&nbsp;</strong>Blade&nbsp;skill&nbsp;class&nbsp;feature,&nbsp;base&nbsp;attack
-
-      bonus&nbsp;+2.
+      additional abilities.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;gain&nbsp;an&nbsp;additional&nbsp;blade&nbsp;skill.
+      <p><strong>Prerequisite: </strong>Blade skill class feature, base attack
+
+      bonus +2.
 
       </p>
 
-      <p><strong>Special:&nbsp;</strong>You&nbsp;may&nbsp;take&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;times.&nbsp;Each
-
-      time,&nbsp;you&nbsp;gain&nbsp;a&nbsp;new&nbsp;blade&nbsp;skill.
+      <p><strong>Benefit: </strong>You gain an additional blade skill.
 
       </p>
 
-      <p><br&nbsp;/></p>
+      <p><strong>Special: </strong>You may take this feat multiple times. Each
 
-      <p>You&nbsp;can&nbsp;meditate&nbsp;to&nbsp;gain&nbsp;a&nbsp;blade&nbsp;skill.
-
-      </p>
-
-      <p><strong>Prerequisite:</strong>&nbsp;Extra&nbsp;Blade&nbsp;Skill.
+      time, you gain a new blade skill.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;Each&nbsp;day,&nbsp;you&nbsp;can&nbsp;take&nbsp;1&nbsp;hour&nbsp;of&nbsp;meditation&nbsp;to&nbsp;decide&nbsp;how&nbsp;to&nbsp;focus&nbsp;your&nbsp;mythic&nbsp;energies.&nbsp;At&nbsp;the&nbsp;end&nbsp;of&nbsp;this&nbsp;time,&nbsp;select&nbsp;1&nbsp;blade&nbsp;skill&nbsp;for&nbsp;which&nbsp;you&nbsp;meet&nbsp;all&nbsp;the&nbsp;prerequisites.&nbsp;You&nbsp;retain&nbsp;this&nbsp;blade&nbsp;skill&nbsp;until&nbsp;you&nbsp;next&nbsp;meditate&nbsp;on&nbsp;your&nbsp;mythic&nbsp;blade&nbsp;skill.&nbsp;
+      <p><br /></p>
+
+      <p>You can meditate to gain a blade skill.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong> Extra Blade Skill.
+
+      </p>
+
+      <p><strong>Benefit:</strong> Each day, you can take 1 hour of meditation
+      to decide how to focus your mythic energies. At the end of this time,
+      select 1 blade skill for which you meet all the prerequisites. You retain
+      this blade skill until you next meditate on your mythic blade skill. 
 
       </p>
   disabled: false

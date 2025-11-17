@@ -33,11 +33,16 @@ system:
         value: Construct touched
   description:
     value: >-
-      <p>When&nbsp;laying&nbsp;your&nbsp;hands&nbsp;upon&nbsp;a&nbsp;construct&nbsp;that&nbsp;has&nbsp;at&nbsp;least&nbsp;1&nbsp;hit&nbsp;point&nbsp;remaining,&nbsp;you&nbsp;reknit&nbsp;its&nbsp;structure&nbsp;to&nbsp;repair&nbsp;damage&nbsp;it&nbsp;has&nbsp;taken.&nbsp;The&nbsp;power&nbsp;repairs&nbsp;3d8&nbsp;points&nbsp;of&nbsp;damage&nbsp;+1&nbsp;point&nbsp;per&nbsp;manifester&nbsp;level.&nbsp;Constructs&nbsp;that&nbsp;are&nbsp;immune&nbsp;to&nbsp;psionics&nbsp;or&nbsp;magic&nbsp;cannot&nbsp;be&nbsp;repaired&nbsp;in&nbsp;this&nbsp;fashion.
+      <p>When laying your hands upon a construct that has at least 1 hit point
+      remaining, you reknit its structure to repair damage it has taken. The
+      power repairs 3d8 points of damage +1 point per manifester level.
+      Constructs that are immune to psionics or magic cannot be repaired in this
+      fashion.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;repairs&nbsp;an&nbsp;additional&nbsp;1d8&nbsp;points&nbsp;of&nbsp;damage.
+      <p><strong>Augment:</strong> For every 2 additional power points you
+      spend, this power repairs an additional 1d8 points of damage.
 
       </p>
   discipline: metacreativity

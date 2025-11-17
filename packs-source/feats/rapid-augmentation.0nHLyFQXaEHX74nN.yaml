@@ -21,25 +21,16 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>With&nbsp;a&nbsp;quick&nbsp;burst&nbsp;of&nbsp;psionic&nbsp;power,&nbsp;you&nbsp;can&nbsp;make
-
-      slight&nbsp;alterations&nbsp;in&nbsp;your&nbsp;astral&nbsp;suit.
-
+    value: |-
+      <p>With a quick burst of psionic power, you can make
+      slight alterations in your astral suit.
       </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Augment&nbsp;suit&nbsp;class&nbsp;feature.
-
+      <p><strong>Prerequisites: </strong>Augment suit class feature.
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;activate&nbsp;your&nbsp;augment&nbsp;suit&nbsp;class
-
-      feature&nbsp;as&nbsp;a&nbsp;swift&nbsp;action.
-
+      <p><strong>Benefit: </strong>You can activate your augment suit class
+      feature as a swift action.
       </p>
-
-      <p><strong>Normal:&nbsp;</strong>Activating&nbsp;augment&nbsp;suit&nbsp;is&nbsp;a&nbsp;standard&nbsp;action.
-
+      <p><strong>Normal: </strong>Activating augment suit is a standard action.
       </p>
   disabled: false
   featType: feat

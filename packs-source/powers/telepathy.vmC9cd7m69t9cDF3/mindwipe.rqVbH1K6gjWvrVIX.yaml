@@ -28,17 +28,26 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;partially&nbsp;wipe&nbsp;your&nbsp;victim's&nbsp;mind&nbsp;of&nbsp;past&nbsp;experiences,&nbsp;bestowing&nbsp;two&nbsp;negative&nbsp;levels&nbsp;upon&nbsp;it.&nbsp;If&nbsp;the&nbsp;subject&nbsp;has&nbsp;at&nbsp;least&nbsp;as&nbsp;many&nbsp;negative&nbsp;levels&nbsp;as&nbsp;Hit&nbsp;Dice,&nbsp;it&nbsp;dies.&nbsp;The&nbsp;effects&nbsp;of&nbsp;multiple&nbsp;negative&nbsp;levels&nbsp;stack.
+      <p>You partially wipe your victim's mind of past experiences, bestowing
+      two negative levels upon it. If the subject has at least as many negative
+      levels as Hit Dice, it dies. The effects of multiple negative levels
+      stack.
 
       </p>
 
-      <p>If&nbsp;the&nbsp;subject&nbsp;survives,&nbsp;it&nbsp;loses&nbsp;all&nbsp;negative&nbsp;levels&nbsp;after&nbsp;1&nbsp;hour.&nbsp;(No&nbsp;Fortitude&nbsp;save&nbsp;is&nbsp;necessary&nbsp;to&nbsp;avoid&nbsp;gaining&nbsp;the&nbsp;negative&nbsp;level&nbsp;permanently.)
+      <p>If the subject survives, it loses all negative levels after 1 hour. (No
+      Fortitude save is necessary to avoid gaining the negative level
+      permanently.)
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can manifest this power in one or both of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.</li><li>For&nbsp;every&nbsp;3&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;bestows&nbsp;an&nbsp;additional&nbsp;negative&nbsp;level&nbsp;on&nbsp;the&nbsp;subject.</li></ol>
+      </p><ol><li>For every 2 additional power points you spend, this power's
+      save DC increases by 1.</li><li>For every 3 additional power points you
+      spend, this power bestows an additional negative level on the
+      subject.</li></ol>
   descriptors:
     - mind-affecting
   discipline: telepathy

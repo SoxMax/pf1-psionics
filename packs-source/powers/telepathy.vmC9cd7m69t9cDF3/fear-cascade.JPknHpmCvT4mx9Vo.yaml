@@ -29,17 +29,26 @@ system:
         value: One creature and any number within 20 ft.
   description:
     value: >-
-      <p>You&nbsp;overload&nbsp;the&nbsp;target&nbsp;creature's&nbsp;mental&nbsp;and&nbsp;physical&nbsp;faculties&nbsp;with&nbsp;fear,&nbsp;a&nbsp;fear&nbsp;so&nbsp;powerful&nbsp;that&nbsp;even&nbsp;creatures&nbsp;near&nbsp;the&nbsp;original&nbsp;target&nbsp;are&nbsp;affected&nbsp;by&nbsp;the&nbsp;residual&nbsp;energy.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;the&nbsp;target&nbsp;is&nbsp;cowering&nbsp;unless&nbsp;it&nbsp;makes&nbsp;a&nbsp;successful&nbsp;Will&nbsp;save.
+      <p>You overload the target creature's mental and physical faculties with
+      fear, a fear so powerful that even creatures near the original target are
+      affected by the residual energy. When you manifest this power, the target
+      is cowering unless it makes a successful Will save.
 
       </p>
 
-      <p>In&nbsp;addition,&nbsp;all&nbsp;enemies&nbsp;within&nbsp;20&nbsp;feet&nbsp;of&nbsp;the&nbsp;target,&nbsp;including&nbsp;the&nbsp;target,&nbsp;are&nbsp;shaken&nbsp;for&nbsp;1&nbsp;round.
+      <p>In addition, all enemies within 20 feet of the target, including the
+      target, are shaken for 1 round.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or more of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;shaken&nbsp;condition&nbsp;increases&nbsp;by&nbsp;1&nbsp;round.</li><li>For&nbsp;every&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;radius&nbsp;for&nbsp;nearby&nbsp;affected&nbsp;creatures&nbsp;increases&nbsp;by&nbsp;10&nbsp;feet.&nbsp;In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;you&nbsp;spend&nbsp;augmenting&nbsp;this&nbsp;power,&nbsp;the&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;+1.</li></ol>
+      </p><ol><li>For every 2 additional power points you spend, the duration of
+      the shaken condition increases by 1 round.</li><li>For every 4 additional
+      power points you spend, the radius for nearby affected creatures increases
+      by 10 feet. In addition, for every 2 power points you spend augmenting
+      this power, the save DC increases by +1.</li></ol>
   descriptors:
     - fear
     - mind-affecting

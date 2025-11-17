@@ -26,29 +26,54 @@ system:
         value: One creature
   description:
     value: >-
-      <p>When&nbsp;this&nbsp;power&nbsp;is&nbsp;manifested,&nbsp;the&nbsp;subject&nbsp;can&nbsp;choose&nbsp;to&nbsp;spend&nbsp;its&nbsp;most&nbsp;recently&nbsp;gained&nbsp;skill&nbsp;ranks&nbsp;differently&nbsp;(picking&nbsp;new&nbsp;skills&nbsp;and&nbsp;abandoning&nbsp;old&nbsp;ones&nbsp;if&nbsp;it&nbsp;chooses)&nbsp;and&nbsp;to&nbsp;choose&nbsp;a&nbsp;different&nbsp;feat&nbsp;from&nbsp;the&nbsp;one&nbsp;it&nbsp;selected&nbsp;when&nbsp;advancing&nbsp;from&nbsp;its&nbsp;previous&nbsp;level&nbsp;to&nbsp;its&nbsp;current&nbsp;level.
+      <p>When this power is manifested, the subject can choose to spend its most
+      recently gained skill ranks differently (picking new skills and abandoning
+      old ones if it chooses) and to choose a different feat from the one it
+      selected when advancing from its previous level to its current level.
 
       </p>
 
-      <p>The&nbsp;subject&nbsp;can&nbsp;also&nbsp;choose&nbsp;to&nbsp;forget&nbsp;powers&nbsp;or&nbsp;spells&nbsp;it&nbsp;acquired&nbsp;when&nbsp;advancing&nbsp;to&nbsp;its&nbsp;current&nbsp;level,&nbsp;replacing&nbsp;them&nbsp;with&nbsp;new&nbsp;ones.
+      <p>The subject can also choose to forget powers or spells it acquired when
+      advancing to its current level, replacing them with new ones.
 
       </p>
 
-      <p>The&nbsp;subject&nbsp;can&nbsp;undo&nbsp;decisions&nbsp;of&nbsp;these&nbsp;sorts&nbsp;that&nbsp;were&nbsp;made&nbsp;at&nbsp;lower&nbsp;levels,&nbsp;although&nbsp;he&nbsp;suffers&nbsp;increased&nbsp;penalties&nbsp;the&nbsp;farther&nbsp;back&nbsp;he&nbsp;goes&nbsp;to&nbsp;undo&nbsp;decisions.&nbsp;The&nbsp;subject&nbsp;must&nbsp;abide&nbsp;by&nbsp;the&nbsp;standard&nbsp;rules&nbsp;for&nbsp;selecting&nbsp;skills&nbsp;and&nbsp;feats,&nbsp;and&nbsp;so&nbsp;it&nbsp;cannot&nbsp;take&nbsp;feats&nbsp;for&nbsp;which&nbsp;it&nbsp;doesn't&nbsp;qualify.&nbsp;Any&nbsp;change&nbsp;made&nbsp;must&nbsp;have&nbsp;been&nbsp;available&nbsp;at&nbsp;the&nbsp;level&nbsp;selected.&nbsp;For&nbsp;example,&nbsp;a&nbsp;7th&nbsp;level&nbsp;psion&nbsp;who&nbsp;uses&nbsp;this&nbsp;power&nbsp;to&nbsp;change&nbsp;a&nbsp;2nd&nbsp;level&nbsp;power&nbsp;gained&nbsp;at&nbsp;3rd&nbsp;level&nbsp;psion&nbsp;cannot&nbsp;select&nbsp;a&nbsp;4th&nbsp;level&nbsp;power&nbsp;to&nbsp;replace&nbsp;it&nbsp;–&nbsp;he&nbsp;must&nbsp;choose&nbsp;a&nbsp;1st&nbsp;or&nbsp;2nd&nbsp;level&nbsp;power.
+      <p>The subject can undo decisions of these sorts that were made at lower
+      levels, although he suffers increased penalties the farther back he goes
+      to undo decisions. The subject must abide by the standard rules for
+      selecting skills and feats, and so it cannot take feats for which it
+      doesn't qualify. Any change made must have been available at the level
+      selected. For example, a 7th level psion who uses this power to change a
+      2nd level power gained at 3rd level psion cannot select a 4th level power
+      to replace it – he must choose a 1st or 2nd level power.
 
       </p>
 
-      <p>The&nbsp;subject&nbsp;is&nbsp;not&nbsp;limited&nbsp;to&nbsp;changing&nbsp;only&nbsp;a&nbsp;single&nbsp;level's&nbsp;choices&nbsp;should&nbsp;he&nbsp;decide&nbsp;to&nbsp;undo&nbsp;decisions&nbsp;from&nbsp;prior&nbsp;levels.&nbsp;Every&nbsp;level&nbsp;between&nbsp;his&nbsp;current&nbsp;level&nbsp;and&nbsp;the&nbsp;earliest&nbsp;level&nbsp;may&nbsp;be&nbsp;altered,&nbsp;so&nbsp;long&nbsp;as&nbsp;the&nbsp;choices&nbsp;made&nbsp;were&nbsp;valid&nbsp;at&nbsp;the&nbsp;appropriate&nbsp;level.
+      <p>The subject is not limited to changing only a single level's choices
+      should he decide to undo decisions from prior levels. Every level between
+      his current level and the earliest level may be altered, so long as the
+      choices made were valid at the appropriate level.
 
       </p>
 
-      <p>If&nbsp;the&nbsp;subject&nbsp;goes&nbsp;farther&nbsp;back&nbsp;than&nbsp;the&nbsp;changes&nbsp;from&nbsp;the&nbsp;previous&nbsp;level&nbsp;to&nbsp;its&nbsp;current&nbsp;level,&nbsp;the&nbsp;subject&nbsp;suffers&nbsp;a&nbsp;cumulative&nbsp;–1&nbsp;penalty&nbsp;on&nbsp;all&nbsp;ability&nbsp;checks,&nbsp;attack&nbsp;rolls,&nbsp;combat&nbsp;maneuver&nbsp;checks,&nbsp;Combat&nbsp;Maneuver&nbsp;Defense,&nbsp;saving&nbsp;throws,&nbsp;and&nbsp;skill&nbsp;checks&nbsp;for&nbsp;each&nbsp;level&nbsp;back&nbsp;the&nbsp;power&nbsp;changes.&nbsp;In&nbsp;addition,&nbsp;the&nbsp;creature&nbsp;reduces&nbsp;its&nbsp;current&nbsp;and&nbsp;total&nbsp;hit&nbsp;points&nbsp;by&nbsp;5&nbsp;for&nbsp;each&nbsp;level&nbsp;back&nbsp;the&nbsp;power&nbsp;changes.&nbsp;The&nbsp;creature&nbsp;is&nbsp;also&nbsp;treated&nbsp;as&nbsp;one&nbsp;level&nbsp;lower&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of&nbsp;level-dependent&nbsp;variables&nbsp;(such&nbsp;as&nbsp;spellcasting&nbsp;or&nbsp;manifesting)&nbsp;for&nbsp;each&nbsp;level&nbsp;back&nbsp;the&nbsp;power&nbsp;changes.&nbsp;These&nbsp;penalties&nbsp;last&nbsp;for&nbsp;24&nbsp;hours.
+      <p>If the subject goes farther back than the changes from the previous
+      level to its current level, the subject suffers a cumulative –1 penalty on
+      all ability checks, attack rolls, combat maneuver checks, Combat Maneuver
+      Defense, saving throws, and skill checks for each level back the power
+      changes. In addition, the creature reduces its current and total hit
+      points by 5 for each level back the power changes. The creature is also
+      treated as one level lower for the purpose of level-dependent variables
+      (such as spellcasting or manifesting) for each level back the power
+      changes. These penalties last for 24 hours.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;either&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power may be augmented in either of the
+      following ways.
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;penalties&nbsp;end&nbsp;after&nbsp;the&nbsp;subject&nbsp;rests&nbsp;for&nbsp;8&nbsp;hours.</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;subject&nbsp;does&nbsp;not&nbsp;suffer&nbsp;any&nbsp;penalties.</li></ol>
+      </p><ol><li>If you spend 2 additional power points, the penalties end
+      after the subject rests for 8 hours.</li><li>If you spend 6 additional
+      power points, the subject does not suffer any penalties.</li></ol>
   descriptors:
     - mind-affecting
   discipline: telepathy

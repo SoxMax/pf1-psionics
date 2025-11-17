@@ -22,13 +22,21 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;know&nbsp;how&nbsp;to&nbsp;heal&nbsp;your&nbsp;body&nbsp;with&nbsp;biokinetic&nbsp;techniques.</em></p>
+      <p><em>You know how to heal your body with biokinetic techniques.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Biokinetic_Adept"&nbsp;title="Biokinetic&nbsp;Adept">Biokinetic&nbsp;Adept</a>,&nbsp;<a&nbsp;href="/wiki/Psionic_Meditation"&nbsp;title="Psionic&nbsp;Meditation">Psionic&nbsp;Meditation</a>,&nbsp;Con&nbsp;15.
+      <p><strong>Prerequisites:</strong><a href="/wiki/Biokinetic_Adept"
+      title="Biokinetic Adept">Biokinetic Adept</a>, <a
+      href="/wiki/Psionic_Meditation" title="Psionic Meditation">Psionic
+      Meditation</a>, Con 15.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;may&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;a&nbsp;standard&nbsp;action&nbsp;to&nbsp;gain&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/UMR.aspx?ItemName=Fast%20Healing">fast&nbsp;healing</a>&nbsp;equal&nbsp;to&nbsp;your&nbsp;Constitution&nbsp;modifier&nbsp;for&nbsp;5&nbsp;rounds.&nbsp;Using&nbsp;this&nbsp;feat&nbsp;drains&nbsp;your&nbsp;body’s&nbsp;natural&nbsp;biorhythms;&nbsp;after&nbsp;activating&nbsp;this&nbsp;feat&nbsp;you&nbsp;must&nbsp;wait&nbsp;10&nbsp;minutes&nbsp;before&nbsp;activating&nbsp;it&nbsp;again.
+      <p><strong>Benefit:</strong> You may expend your psionic focus as a
+      standard action to gain <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/UMR.aspx?ItemName=Fast%20Healing">fast
+      healing</a> equal to your Constitution modifier for 5 rounds. Using this
+      feat drains your body’s natural biorhythms; after activating this feat you
+      must wait 10 minutes before activating it again.
 
       </p>
   disabled: false

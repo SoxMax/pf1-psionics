@@ -1,0 +1,42 @@
+_id: Qt1HPXFIOndN1BAb
+_key: '!items!Qt1HPXFIOndN1BAb'
+_stats:
+  coreVersion: '13.350'
+folder: R7AoIomzfNGuWBKp
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Eternity Awaits
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: >-
+      <p>At 20th level, when a voyager dies, a future version of herself
+      manifests to carry on her tasks. This does not happen if the voyager dies
+      of old age. The future self appears in an unoccupied space within 50 feet
+      of the present voyager's passing, and possess all of the voyager's
+      statistics and abilities except for her swapped selves and eternity awaits
+      class features. The voyager's magical items and equipment are transferred
+      to her future self as she appears.The voyager's future self appears with
+      maximum hit points, the same amount of power points as the voyager had
+      when she passed, and 20 points of momentum that do not disappear at the
+      start of her first turn. Should this future self die, their body vanishes
+      and they cannot be raised from the dead.
+
+      </p><p>The voyager's future self carries on with the voyager's tasks as
+      she would have. After a night's rest, the future self is able to reverse
+      the voyager's death and restore her body and soul to life. After doing so,
+      she departs to her own time with a stern warning to her past self.
+
+      </p>
+
+      <div class="mw-heading mw-heading2"></p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
+  subType: classFeat
+  tag: eternity-awaits
+type: feat

@@ -1,14 +1,14 @@
 _id: dtygVowbi3UPpTDb
 _key: '!items!dtygVowbi3UPpTDb'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Wild_Talent
 img: icons/sundries/books/book-embossed-blue.webp
 name: Wild Talent
 system:
-  abilityType: none
+  abilityType: na
   acquired: false
   changeFlags:
     heavyArmorFullSpeed: false
@@ -20,16 +20,63 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
   description:
     value: >-
-      <p><em>Your&nbsp;mind&nbsp;wakes&nbsp;to&nbsp;a&nbsp;previously&nbsp;unrealized&nbsp;talent&nbsp;for&nbsp;psionics.</em></p>
+      <p><em>Your mind wakes to a previously unrealized talent for
+      psionics.</em></p>
 
-      <p><strong>Benefit:</strong>&nbsp;Your&nbsp;latent&nbsp;power&nbsp;of&nbsp;psionics&nbsp;flares&nbsp;to&nbsp;life,&nbsp;conferring&nbsp;upon&nbsp;you&nbsp;the&nbsp;designation&nbsp;of&nbsp;a&nbsp;psionic&nbsp;character.&nbsp;As&nbsp;a&nbsp;psionic&nbsp;character,&nbsp;you&nbsp;gain&nbsp;a&nbsp;reserve&nbsp;of&nbsp;2&nbsp;power&nbsp;points&nbsp;and&nbsp;can&nbsp;take&nbsp;psionic&nbsp;feats,&nbsp;metapsionic&nbsp;feats,&nbsp;and&nbsp;psionic&nbsp;item&nbsp;creation&nbsp;feats.&nbsp;You&nbsp;do&nbsp;not,&nbsp;however,&nbsp;gain&nbsp;the&nbsp;ability&nbsp;to&nbsp;manifest&nbsp;powers&nbsp;simply&nbsp;by&nbsp;virtue&nbsp;of&nbsp;having&nbsp;this&nbsp;feat.
+      <p><strong>Benefit:</strong> Your latent power of psionics flares to life,
+      conferring upon you the designation of a psionic character. As a psionic
+      character, you gain a reserve of 2 power points and can take psionic
+      feats, metapsionic feats, and psionic item creation feats. You do not,
+      however, gain the ability to manifest powers simply by virtue of having
+      this feat.
 
       </p>
   disabled: false
   featType: feat
   inherited: false
+  showInCombat: false
   showInQuickbar: false
   simple: false
   sources:

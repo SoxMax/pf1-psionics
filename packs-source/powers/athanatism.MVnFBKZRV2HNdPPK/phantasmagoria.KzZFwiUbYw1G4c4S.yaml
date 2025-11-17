@@ -30,15 +30,32 @@ system:
         value: One 10-ft. cube/level (S)
   description:
     value: >-
-      <p>You&nbsp;draw&nbsp;on&nbsp;ghostly&nbsp;essences&nbsp;to&nbsp;cause&nbsp;horrific&nbsp;apparent&nbsp;changes&nbsp;to&nbsp;take&nbsp;place&nbsp;in&nbsp;the&nbsp;environment,&nbsp;such&nbsp;as&nbsp;people&nbsp;appearing&nbsp;dead&nbsp;or&nbsp;rotting,&nbsp;walls&nbsp;peeling&nbsp;or&nbsp;bleeding,&nbsp;and&nbsp;food&nbsp;decaying.&nbsp;This&nbsp;power&nbsp;has&nbsp;different&nbsp;effects&nbsp;based&nbsp;on&nbsp;how&nbsp;close&nbsp;creatures&nbsp;are&nbsp;to&nbsp;the&nbsp;affected&nbsp;area.&nbsp;Multiple&nbsp;effects&nbsp;stack&nbsp;-&nbsp;for&nbsp;example,&nbsp;if&nbsp;a&nbsp;creature&nbsp;is&nbsp;inside&nbsp;the&nbsp;area,&nbsp;they&nbsp;are&nbsp;also&nbsp;affected&nbsp;as&nbsp;if&nbsp;they&nbsp;were&nbsp;within&nbsp;30&nbsp;feet,&nbsp;10&nbsp;feet,&nbsp;and&nbsp;inside&nbsp;the&nbsp;area.&nbsp;If&nbsp;a&nbsp;creature&nbsp;would&nbsp;be&nbsp;affected&nbsp;by&nbsp;more&nbsp;than&nbsp;one&nbsp;if&nbsp;the&nbsp;following&nbsp;effects,&nbsp;it&nbsp;makes&nbsp;saves&nbsp;against&nbsp;each&nbsp;effect&nbsp;separately,&nbsp;in&nbsp;order.
+      <p>You draw on ghostly essences to cause horrific apparent changes to take
+      place in the environment, such as people appearing dead or rotting, walls
+      peeling or bleeding, and food decaying. This power has different effects
+      based on how close creatures are to the affected area. Multiple effects
+      stack - for example, if a creature is inside the area, they are also
+      affected as if they were within 30 feet, 10 feet, and inside the area. If
+      a creature would be affected by more than one if the following effects, it
+      makes saves against each effect separately, in order.
 
-      </p><ul><li><em>Within&nbsp;30&nbsp;feet:</em>&nbsp;Creatures&nbsp;within&nbsp;30&nbsp;feet&nbsp;of&nbsp;the&nbsp;affected&nbsp;area&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Will&nbsp;save&nbsp;or&nbsp;suffer&nbsp;a&nbsp;-2&nbsp;penalty&nbsp;on&nbsp;saves&nbsp;against&nbsp;any&nbsp;of&nbsp;your&nbsp;other&nbsp;mind-affecting&nbsp;powers&nbsp;for&nbsp;as&nbsp;long&nbsp;as&nbsp;they&nbsp;remain&nbsp;within&nbsp;30&nbsp;feet&nbsp;of&nbsp;the&nbsp;affected&nbsp;area,&nbsp;and&nbsp;one&nbsp;minute&nbsp;thereafter.</li></ul>
+      </p><ul><li><em>Within 30 feet:</em> Creatures within 30 feet of the
+      affected area must succeed at a Will save or suffer a -2 penalty on saves
+      against any of your other mind-affecting powers for as long as they remain
+      within 30 feet of the affected area, and one minute thereafter.</li></ul>
 
-      <ul><li><em>Within&nbsp;10&nbsp;feet:</em>&nbsp;Creatures&nbsp;within&nbsp;10&nbsp;feet&nbsp;of&nbsp;the&nbsp;affected&nbsp;area&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Will&nbsp;save&nbsp;or&nbsp;become&nbsp;shaken&nbsp;for&nbsp;as&nbsp;long&nbsp;as&nbsp;they&nbsp;remain&nbsp;within&nbsp;10&nbsp;feet&nbsp;of&nbsp;the&nbsp;affected&nbsp;area,&nbsp;and&nbsp;one&nbsp;minute&nbsp;thereafter.</li></ul>
+      <ul><li><em>Within 10 feet:</em> Creatures within 10 feet of the affected
+      area must succeed at a Will save or become shaken for as long as they
+      remain within 10 feet of the affected area, and one minute
+      thereafter.</li></ul>
 
-      <ul><li><em>Inside:</em>&nbsp;Creatures&nbsp;that&nbsp;are&nbsp;inside&nbsp;the&nbsp;affected&nbsp;area&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Will&nbsp;save&nbsp;or&nbsp;be&nbsp;frightened&nbsp;for&nbsp;as&nbsp;long&nbsp;as&nbsp;they&nbsp;remain&nbsp;within&nbsp;the&nbsp;affected&nbsp;area,&nbsp;and&nbsp;5&nbsp;rounds&nbsp;thereafter.</li></ul>
+      <ul><li><em>Inside:</em> Creatures that are inside the affected area must
+      succeed at a Will save or be frightened for as long as they remain within
+      the affected area, and 5 rounds thereafter.</li></ul>
 
-      <p><strong>Augment:</strong>&nbsp;By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;all&nbsp;creatures&nbsp;within&nbsp;the&nbsp;area&nbsp;that&nbsp;fail&nbsp;their&nbsp;save&nbsp;also&nbsp;become&nbsp;confused&nbsp;for&nbsp;as&nbsp;long&nbsp;as&nbsp;they&nbsp;remain&nbsp;within&nbsp;the&nbsp;affected&nbsp;area.
+      <p><strong>Augment:</strong> By spending an additional 6 power points, all
+      creatures within the area that fail their save also become confused for as
+      long as they remain within the affected area.
 
       </p>
   descriptors:

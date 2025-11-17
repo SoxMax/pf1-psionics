@@ -26,17 +26,35 @@ system:
         value: One willing creature
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;use&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;two&nbsp;ways:&nbsp;to&nbsp;disguise&nbsp;the&nbsp;subject's&nbsp;aura&nbsp;(alignment)&nbsp;and&nbsp;level,&nbsp;or&nbsp;to&nbsp;remove&nbsp;a&nbsp;compulsion&nbsp;or&nbsp;charm&nbsp;effect&nbsp;from&nbsp;the&nbsp;subject.
+      <p>You can use this power in one of two ways: to disguise the subject's
+      aura (alignment) and level, or to remove a compulsion or charm effect from
+      the subject.
 
-      </p><ul><li><em>Disguise:</em>&nbsp;If&nbsp;you&nbsp;use&nbsp;this&nbsp;power&nbsp;to&nbsp;disguise&nbsp;the&nbsp;subject's&nbsp;alignment&nbsp;and&nbsp;level,&nbsp;the&nbsp;power&nbsp;has&nbsp;a&nbsp;duration&nbsp;of&nbsp;10&nbsp;minutes&nbsp;per&nbsp;level.&nbsp;You&nbsp;can&nbsp;change&nbsp;the&nbsp;subject's&nbsp;alignment&nbsp;by&nbsp;only&nbsp;one&nbsp;step.&nbsp;You&nbsp;can&nbsp;adjust&nbsp;the&nbsp;subject's&nbsp;apparent&nbsp;level&nbsp;up&nbsp;or&nbsp;down&nbsp;by&nbsp;a&nbsp;number&nbsp;equal&nbsp;to&nbsp;1/2&nbsp;your&nbsp;own&nbsp;level&nbsp;(rounded&nbsp;down)&nbsp;or&nbsp;less.</li></ul>
+      </p><ul><li><em>Disguise:</em> If you use this power to disguise the
+      subject's alignment and level, the power has a duration of 10 minutes per
+      level. You can change the subject's alignment by only one step. You can
+      adjust the subject's apparent level up or down by a number equal to 1/2
+      your own level (rounded down) or less.</li></ul>
 
-      <ul><li><em>Remove&nbsp;Compulsion:</em>&nbsp;If&nbsp;you&nbsp;use&nbsp;this&nbsp;power&nbsp;to&nbsp;attempt&nbsp;to&nbsp;cleanse&nbsp;the&nbsp;subject's&nbsp;aura&nbsp;of&nbsp;a&nbsp;baleful&nbsp;or&nbsp;controlling&nbsp;effect,&nbsp;the&nbsp;duration&nbsp;is&nbsp;instantaneous.&nbsp;This&nbsp;power&nbsp;can&nbsp;remove&nbsp;the&nbsp;compulsion&nbsp;of&nbsp;a&nbsp;curse&nbsp;or&nbsp;a&nbsp;geas/quest&nbsp;effect.&nbsp;It&nbsp;can&nbsp;also&nbsp;negate&nbsp;any&nbsp;charm&nbsp;and&nbsp;compulsion&nbsp;powers&nbsp;or&nbsp;spells&nbsp;of&nbsp;6th&nbsp;level&nbsp;or&nbsp;lower,&nbsp;such&nbsp;as&nbsp;crisis&nbsp;of&nbsp;breath&nbsp;or&nbsp;death&nbsp;urge.&nbsp;When&nbsp;aura&nbsp;alteration&nbsp;is&nbsp;manifested&nbsp;for&nbsp;this&nbsp;purpose,&nbsp;the&nbsp;subject&nbsp;gains&nbsp;another&nbsp;saving&nbsp;throw&nbsp;to&nbsp;remove&nbsp;the&nbsp;compulsion&nbsp;afflicting&nbsp;it&nbsp;against&nbsp;the&nbsp;original&nbsp;save&nbsp;DC,&nbsp;but&nbsp;with&nbsp;a&nbsp;+2&nbsp;bonus.</li></ul>
+      <ul><li><em>Remove Compulsion:</em> If you use this power to attempt to
+      cleanse the subject's aura of a baleful or controlling effect, the
+      duration is instantaneous. This power can remove the compulsion of a curse
+      or a geas/quest effect. It can also negate any charm and compulsion powers
+      or spells of 6th level or lower, such as crisis of breath or death urge.
+      When aura alteration is manifested for this purpose, the subject gains
+      another saving throw to remove the compulsion afflicting it against the
+      original save DC, but with a +2 bonus.</li></ul>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;the
+      <p><strong>Augment:</strong> You can augment this power in one of the
 
-      following&nbsp;ways.
+      following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;disguise&nbsp;aura&nbsp;increases&nbsp;by&nbsp;10&nbsp;minutes.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;subject's&nbsp;alignment&nbsp;shifts&nbsp;an&nbsp;additional&nbsp;step;&nbsp;if&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;subject's&nbsp;alignment&nbsp;changes&nbsp;to&nbsp;its&nbsp;opposite.</li><li>For&nbsp;every&nbsp;3&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;bonus&nbsp;against&nbsp;the&nbsp;original&nbsp;save&nbsp;is&nbsp;increased&nbsp;by&nbsp;1.</li></ol>
+      </p><ol><li>For every additional power point you spend, the duration of
+      the disguise aura increases by 10 minutes.</li><li>If you spend 2
+      additional power points, the subject's alignment shifts an additional
+      step; if you spend 4 additional power points, the subject's alignment
+      changes to its opposite.</li><li>For every 3 additional power points you
+      spend, the bonus against the original save is increased by 1.</li></ol>
   descriptors:
     - mind-affecting
   discipline: telepathy

@@ -27,7 +27,13 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;(plus&nbsp;all&nbsp;your&nbsp;gear&nbsp;and&nbsp;any&nbsp;objects&nbsp;you&nbsp;carry)&nbsp;become&nbsp;difficult&nbsp;to&nbsp;detect&nbsp;by&nbsp;clairsentience&nbsp;powers&nbsp;such&nbsp;as&nbsp;clairvoyant&nbsp;sense,&nbsp;remote&nbsp;viewing,&nbsp;and&nbsp;psionic&nbsp;true&nbsp;seeing,&nbsp;and&nbsp;similar&nbsp;magical&nbsp;effects.&nbsp;If&nbsp;a&nbsp;clairsentience&nbsp;power&nbsp;or&nbsp;similar&nbsp;effect&nbsp;is&nbsp;attempted&nbsp;against&nbsp;you,&nbsp;the&nbsp;manifester&nbsp;of&nbsp;the&nbsp;power&nbsp;must&nbsp;succeed&nbsp;on&nbsp;a&nbsp;manifester&nbsp;level&nbsp;check&nbsp;(1d20&nbsp;+&nbsp;manifester&nbsp;level,&nbsp;or&nbsp;caster&nbsp;level&nbsp;if&nbsp;the&nbsp;opponent&nbsp;is&nbsp;not&nbsp;a&nbsp;manifester)&nbsp;against&nbsp;a&nbsp;DC&nbsp;of&nbsp;13&nbsp;+&nbsp;your&nbsp;manifester&nbsp;level&nbsp;(maximum&nbsp;+10).
+      <p>You (plus all your gear and any objects you carry) become difficult to
+      detect by clairsentience powers such as clairvoyant sense, remote viewing,
+      and psionic true seeing, and similar magical effects. If a clairsentience
+      power or similar effect is attempted against you, the manifester of the
+      power must succeed on a manifester level check (1d20 + manifester level,
+      or caster level if the opponent is not a manifester) against a DC of 13 +
+      your manifester level (maximum +10).
 
       </p>
   discipline: clairsentience

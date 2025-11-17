@@ -1,0 +1,73 @@
+_id: fUeQITLAeWhrSZdV
+_key: '!items!fUeQITLAeWhrSZdV'
+_stats:
+  coreVersion: '13.351'
+folder: aBovcvxgTFmexzSs
+img: systems/pf1/icons/races/goblin.png
+name: Repletion
+system:
+  abilityType: su
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>A blue can sustain his body without need of food or water. If he spends
+      1 power point, a blue does not need to eat or drink for 24 hours.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+  traitCategory: magical
+type: feat

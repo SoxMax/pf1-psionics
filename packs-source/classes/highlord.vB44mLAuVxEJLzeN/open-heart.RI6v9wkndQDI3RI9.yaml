@@ -1,0 +1,35 @@
+_id: RI6v9wkndQDI3RI9
+_key: '!items!RI6v9wkndQDI3RI9'
+_stats:
+  coreVersion: '13.350'
+folder: vB44mLAuVxEJLzeN
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Open Heart
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Highlord
+  description:
+    value: >-
+      <p>A highlord's collective is more than just a link; when he touches the
+      mind of another, he shares a part of himself, his core, driving goals and
+      desires. To members of his collective, a highlord's psionic powers are
+      unmistakably <i>his</i>, bearing sensory displays unique to the highlord
+      instead of their normal appearances. The appearance of a highlord's powers
+      is tied to what the highlord values—common displays are flowing streams of
+      blood, coins, or other materials, sounds of the highlord's home and those
+      he cares about, or similarly important things. Though these displays don't
+      grant the highlord's collective members any unique insight into the
+      effects of his powers, they do share knowledge of something important to
+      the highlord.
+
+      </p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–6
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: classFeat
+  tag: open-heart
+type: feat

@@ -22,13 +22,17 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;thrown&nbsp;attacks&nbsp;inflict&nbsp;additional&nbsp;damage.</em></p>
+      <p><em>Your thrown attacks inflict additional damage.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Deadly_Throw"&nbsp;title="Deadly&nbsp;Throw">Deadly&nbsp;Throw</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Deadly_Throw"
+      title="Deadly Throw">Deadly Throw</a>.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;do&nbsp;not&nbsp;need&nbsp;to&nbsp;maintain&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;gain&nbsp;the&nbsp;benefits&nbsp;of&nbsp;Deadly&nbsp;Throw.&nbsp;If&nbsp;you&nbsp;are&nbsp;maintaining&nbsp;psionic&nbsp;focus&nbsp;while&nbsp;using&nbsp;Deadly&nbsp;Throw,&nbsp;you&nbsp;add&nbsp;half&nbsp;your&nbsp;mythic&nbsp;tier&nbsp;(round&nbsp;down,&nbsp;minimum&nbsp;1)&nbsp;to&nbsp;your&nbsp;damage&nbsp;rolls&nbsp;made&nbsp;with&nbsp;thrown&nbsp;weapons.&nbsp;
+      <p><strong>Benefit:</strong> You do not need to maintain psionic focus to
+      gain the benefits of Deadly Throw. If you are maintaining psionic focus
+      while using Deadly Throw, you add half your mythic tier (round down,
+      minimum 1) to your damage rolls made with thrown weapons. 
 
       </p>
   disabled: false

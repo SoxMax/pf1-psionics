@@ -28,13 +28,21 @@ system:
         value: Item touched
   description:
     value: >-
-      <p>You&nbsp;force&nbsp;spiritual&nbsp;essence&nbsp;into&nbsp;an&nbsp;object&nbsp;you&nbsp;are&nbsp;touching,&nbsp;granting&nbsp;that&nbsp;object&nbsp;the&nbsp;ghost&nbsp;touch&nbsp;property.
+      <p>You force spiritual essence into an object you are touching, granting
+      that object the ghost touch property.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power may be augmented in one of the
+      following ways.
 
-      </p><ol><li>You&nbsp;may&nbsp;spend&nbsp;an&nbsp;additional&nbsp;power&nbsp;point&nbsp;to&nbsp;(if&nbsp;the&nbsp;object&nbsp;is&nbsp;a&nbsp;weapon)&nbsp;grant&nbsp;it&nbsp;one&nbsp;of&nbsp;the&nbsp;following:&nbsp;any&nbsp;one&nbsp;of&nbsp;the&nbsp;+1&nbsp;weapon&nbsp;special&nbsp;abilities&nbsp;suitable&nbsp;for&nbsp;its&nbsp;weapon&nbsp;type,&nbsp;or&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;on&nbsp;one&nbsp;type&nbsp;of&nbsp;combat&nbsp;maneuver&nbsp;that&nbsp;can&nbsp;normally&nbsp;be&nbsp;used&nbsp;with&nbsp;that&nbsp;weapon&nbsp;type.</li><li>You&nbsp;may&nbsp;spend&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;to&nbsp;(if&nbsp;the&nbsp;object&nbsp;is&nbsp;armor&nbsp;or&nbsp;a&nbsp;shield)&nbsp;grant&nbsp;it&nbsp;any&nbsp;one&nbsp;of&nbsp;the&nbsp;+1&nbsp;armor&nbsp;or&nbsp;shield&nbsp;special&nbsp;abilities&nbsp;suitable&nbsp;for&nbsp;the&nbsp;object.</li></ol>
+      </p><ol><li>You may spend an additional power point to (if the object is a
+      weapon) grant it one of the following: any one of the +1 weapon special
+      abilities suitable for its weapon type, or a +1 bonus on one type of
+      combat maneuver that can normally be used with that weapon
+      type.</li><li>You may spend an additional 2 power points to (if the object
+      is armor or a shield) grant it any one of the +1 armor or shield special
+      abilities suitable for the object.</li></ol>
   discipline: athanatism
   display:
     auditory: false

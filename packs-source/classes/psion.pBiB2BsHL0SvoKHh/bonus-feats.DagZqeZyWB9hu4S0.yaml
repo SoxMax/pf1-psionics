@@ -1,0 +1,39 @@
+_id: DagZqeZyWB9hu4S0
+_key: '!items!DagZqeZyWB9hu4S0'
+_stats:
+  coreVersion: '13.350'
+folder: pBiB2BsHL0SvoKHh
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Bonus Feats
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Psion
+  description:
+    value: >-
+      <p>A psion gains a bonus feat at 1st level, 5th level, 10th level, 15th
+      level, and 20th level. This feat must be a <a href="/wiki/Psionic_feat"
+      title="Psionic feat">psionic feat</a>, a <a href="/wiki/Metapsionic_feat"
+      title="Metapsionic feat">metapsionic feat</a>, or a psionic <a
+      href="/wiki/Item_Creation_feat" title="Item Creation feat">item creation
+      feat</a>.
+
+      </p><p>These bonus feats are in addition to the feats that a character of
+      any class gains every other level. A psion is not limited to psionic
+      feats, metapsionic feats, and psionic item creation feats when choosing
+      these other feats.
+
+      </p>
+  sources:
+    - date: '2010-08-01'
+      pages: 20–25
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 49–53
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: bonus-feats
+type: feat

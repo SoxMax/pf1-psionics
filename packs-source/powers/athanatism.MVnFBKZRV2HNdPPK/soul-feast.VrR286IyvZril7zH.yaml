@@ -26,17 +26,39 @@ system:
         value: One corpse
   description:
     value: >-
-      <p>You&nbsp;devour&nbsp;the&nbsp;most&nbsp;delectable&nbsp;parts&nbsp;of&nbsp;the&nbsp;souls&nbsp;of&nbsp;the&nbsp;fallen.&nbsp;The&nbsp;target&nbsp;must&nbsp;have&nbsp;been&nbsp;dead&nbsp;no&nbsp;more&nbsp;than&nbsp;1&nbsp;round&nbsp;per&nbsp;manifester&nbsp;level.&nbsp;You&nbsp;gain&nbsp;a&nbsp;soul&nbsp;pool,&nbsp;with&nbsp;soul&nbsp;points&nbsp;equal&nbsp;to&nbsp;the&nbsp;target's&nbsp;HD&nbsp;plus&nbsp;its&nbsp;Charisma&nbsp;modifier.&nbsp;You&nbsp;may&nbsp;spend&nbsp;one&nbsp;or&nbsp;more&nbsp;soul&nbsp;points&nbsp;from&nbsp;this&nbsp;pool&nbsp;to&nbsp;grant&nbsp;yourself&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;bonuses:&nbsp;heal&nbsp;a&nbsp;point&nbsp;of&nbsp;ability&nbsp;damage&nbsp;(this&nbsp;costs&nbsp;3&nbsp;soul&nbsp;points),&nbsp;heal&nbsp;a&nbsp;point&nbsp;of&nbsp;ability&nbsp;drain&nbsp;(this&nbsp;costs&nbsp;5&nbsp;soul&nbsp;points),&nbsp;heal&nbsp;a&nbsp;negative&nbsp;level&nbsp;(7&nbsp;soul&nbsp;points),&nbsp;or&nbsp;gain&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;the&nbsp;target's&nbsp;HD&nbsp;(1&nbsp;soul&nbsp;point).&nbsp;Spending&nbsp;soul&nbsp;points&nbsp;from&nbsp;a&nbsp;soul&nbsp;pool&nbsp;is&nbsp;always&nbsp;a&nbsp;free&nbsp;action.
+      <p>You devour the most delectable parts of the souls of the fallen. The
+      target must have been dead no more than 1 round per manifester level. You
+      gain a soul pool, with soul points equal to the target's HD plus its
+      Charisma modifier. You may spend one or more soul points from this pool to
+      grant yourself one of the following bonuses: heal a point of ability
+      damage (this costs 3 soul points), heal a point of ability drain (this
+      costs 5 soul points), heal a negative level (7 soul points), or gain
+      temporary hit points equal to the target's HD (1 soul point). Spending
+      soul points from a soul pool is always a free action.
 
       </p>
 
-      <p>The&nbsp;soul&nbsp;pool&nbsp;and&nbsp;any&nbsp;bonuses&nbsp;or&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;granted&nbsp;by&nbsp;this&nbsp;power&nbsp;vanish&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;day.&nbsp;In&nbsp;addition,&nbsp;anyone&nbsp;attempting&nbsp;to&nbsp;return&nbsp;a&nbsp;target&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;life&nbsp;or&nbsp;raise&nbsp;a&nbsp;target&nbsp;of&nbsp;this&nbsp;power&nbsp;as&nbsp;an&nbsp;undead&nbsp;creature&nbsp;must&nbsp;succeed&nbsp;on&nbsp;an&nbsp;opposed&nbsp;manifester&nbsp;level&nbsp;check&nbsp;with&nbsp;you&nbsp;–&nbsp;if&nbsp;they&nbsp;fail,&nbsp;the&nbsp;attempt&nbsp;fails.&nbsp;If&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power&nbsp;while&nbsp;you&nbsp;have&nbsp;soul&nbsp;points&nbsp;in&nbsp;your&nbsp;soul&nbsp;pool&nbsp;(such&nbsp;as&nbsp;from&nbsp;a&nbsp;previous&nbsp;manifestation&nbsp;of&nbsp;this&nbsp;power),&nbsp;the&nbsp;previous&nbsp;soul&nbsp;pool&nbsp;is&nbsp;emptied,&nbsp;and&nbsp;all&nbsp;bonuses&nbsp;or&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;gained&nbsp;from&nbsp;it&nbsp;are&nbsp;immediately&nbsp;lost.
+      <p>The soul pool and any bonuses or temporary hit points granted by this
+      power vanish at the end of the day. In addition, anyone attempting to
+      return a target of this power to life or raise a target of this power as
+      an undead creature must succeed on an opposed manifester level check with
+      you – if they fail, the attempt fails. If you manifest this power while
+      you have soul points in your soul pool (such as from a previous
+      manifestation of this power), the previous soul pool is emptied, and all
+      bonuses or temporary hit points gained from it are immediately lost.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You may augment this power in one of the
+      following ways.
 
-      </p><ol><li>You&nbsp;may&nbsp;spend&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;to&nbsp;share&nbsp;this&nbsp;feast&nbsp;with&nbsp;one&nbsp;ally&nbsp;that&nbsp;is&nbsp;also&nbsp;adjacent&nbsp;to&nbsp;the&nbsp;target.&nbsp;That&nbsp;ally&nbsp;gains&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;the&nbsp;target's&nbsp;HD.&nbsp;These&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;vanish&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;day.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points,&nbsp;while&nbsp;you&nbsp;have&nbsp;one&nbsp;or&nbsp;more&nbsp;soul&nbsp;points&nbsp;from&nbsp;this&nbsp;power,&nbsp;you&nbsp;gain&nbsp;a&nbsp;bonus&nbsp;on&nbsp;saves&nbsp;against&nbsp;negative&nbsp;energy,&nbsp;death&nbsp;effects,&nbsp;and&nbsp;energy&nbsp;drain&nbsp;equal&nbsp;to&nbsp;the&nbsp;target's&nbsp;Charisma&nbsp;modifier.</li></ol>
+      </p><ol><li>You may spend an additional 2 power points to share this feast
+      with one ally that is also adjacent to the target. That ally gains
+      temporary hit points equal to the target's HD. These temporary hit points
+      vanish at the end of the day.</li><li>By spending an additional 2 power
+      points, while you have one or more soul points from this power, you gain a
+      bonus on saves against negative energy, death effects, and energy drain
+      equal to the target's Charisma modifier.</li></ol>
   discipline: athanatism
   display:
     auditory: false

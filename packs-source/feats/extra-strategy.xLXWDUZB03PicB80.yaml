@@ -22,37 +22,39 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>You&nbsp;gain&nbsp;extra&nbsp;daily&nbsp;uses&nbsp;of&nbsp;your&nbsp;strategy&nbsp;ability.
+      <p>You gain extra daily uses of your strategy ability.
 
       </p>
 
-      <p><strong>Prerequisite:&nbsp;</strong>Strategy&nbsp;class&nbsp;feature
+      <p><strong>Prerequisite: </strong>Strategy class feature
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;gain&nbsp;two&nbsp;additional&nbsp;daily&nbsp;uses&nbsp;of&nbsp;your
+      <p><strong>Benefit: </strong>You gain two additional daily uses of your
 
-      strategy&nbsp;class&nbsp;feature.
-
-      </p>
-
-      <p><strong>Special:&nbsp;</strong>You&nbsp;can&nbsp;gain&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;times.&nbsp;Its
-
-      effects&nbsp;stack.
+      strategy class feature.
 
       </p>
 
-      <p><br&nbsp;/></p>
+      <p><strong>Special: </strong>You can gain this feat multiple times. Its
 
-      <p>You&nbsp;are&nbsp;able&nbsp;to&nbsp;use&nbsp;your&nbsp;mythic&nbsp;energy&nbsp;to&nbsp;gain&nbsp;strategic&nbsp;opportunities.
-
-      </p>
-
-      <p><strong>Prerequisite:</strong>&nbsp;Extra&nbsp;Strategy.
+      effects stack.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;gain&nbsp;two&nbsp;additional&nbsp;daily&nbsp;uses&nbsp;of&nbsp;your&nbsp;strategy&nbsp;ability.&nbsp;Additionally,&nbsp;if&nbsp;you&nbsp;have&nbsp;no&nbsp;uses&nbsp;of&nbsp;strategy&nbsp;remaining,&nbsp;you&nbsp;may&nbsp;expend&nbsp;one&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;to&nbsp;use&nbsp;your&nbsp;strategy&nbsp;ability.&nbsp;
+      <p><br /></p>
+
+      <p>You are able to use your mythic energy to gain strategic opportunities.
+
+      </p>
+
+      <p><strong>Prerequisite:</strong> Extra Strategy.
+
+      </p>
+
+      <p><strong>Benefit:</strong> You gain two additional daily uses of your
+      strategy ability. Additionally, if you have no uses of strategy remaining,
+      you may expend one use of mythic power to use your strategy ability. 
 
       </p>
   disabled: false

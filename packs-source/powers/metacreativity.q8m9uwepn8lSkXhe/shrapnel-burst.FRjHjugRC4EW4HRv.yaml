@@ -33,11 +33,14 @@ system:
         value: 40 ft. burst
   description:
     value: >-
-      <p>You&nbsp;emit&nbsp;a&nbsp;burst&nbsp;of&nbsp;crystalline&nbsp;shrapnel,&nbsp;dealing&nbsp;9d6&nbsp;points&nbsp;of&nbsp;piercing&nbsp;damage&nbsp;to&nbsp;all&nbsp;creatures&nbsp;within&nbsp;a&nbsp;40&nbsp;ft.&nbsp;burst&nbsp;centered&nbsp;on&nbsp;you.
+      <p>You emit a burst of crystalline shrapnel, dealing 9d6 points of
+      piercing damage to all creatures within a 40 ft. burst centered on you.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;the&nbsp;power&nbsp;deals&nbsp;an&nbsp;additional&nbsp;1d6&nbsp;points&nbsp;of&nbsp;damage.&nbsp;For&nbsp;every&nbsp;two&nbsp;additional&nbsp;dice&nbsp;of&nbsp;damage,&nbsp;the&nbsp;save&nbsp;DC&nbsp;is&nbsp;increased&nbsp;by&nbsp;1.
+      <p><strong>Augment:</strong> For every additional power point you spend,
+      the power deals an additional 1d6 points of damage. For every two
+      additional dice of damage, the save DC is increased by 1.
 
       </p>
   discipline: metacreativity

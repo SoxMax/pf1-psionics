@@ -29,13 +29,29 @@ system:
         value: One object no larger than 2 cubic feet/level
   description:
     value: >-
-      <p>You&nbsp;send&nbsp;an&nbsp;object&nbsp;into&nbsp;the&nbsp;Ethereal&nbsp;Plane,&nbsp;making&nbsp;it&nbsp;ethereal.&nbsp;While&nbsp;it&nbsp;is&nbsp;ethereal,&nbsp;the&nbsp;object&nbsp;cannot&nbsp;affect&nbsp;or&nbsp;be&nbsp;affected&nbsp;by&nbsp;any&nbsp;force&nbsp;on&nbsp;the&nbsp;Material&nbsp;Plane,&nbsp;except&nbsp;those&nbsp;that&nbsp;can&nbsp;normally&nbsp;interact&nbsp;with&nbsp;the&nbsp;ethereal&nbsp;(such&nbsp;as&nbsp;through&nbsp;ghost&nbsp;touch).&nbsp;Any&nbsp;creatures&nbsp;inside&nbsp;the&nbsp;object&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Will&nbsp;save,&nbsp;or&nbsp;be&nbsp;transported&nbsp;along&nbsp;with&nbsp;it.&nbsp;Any&nbsp;creatures&nbsp;transported&nbsp;this&nbsp;way&nbsp;become&nbsp;fully&nbsp;ethereal,&nbsp;not&nbsp;incorporeal&nbsp;until&nbsp;they&nbsp;leave&nbsp;the&nbsp;object&nbsp;-&nbsp;at&nbsp;which&nbsp;time&nbsp;they&nbsp;immediately&nbsp;return&nbsp;to&nbsp;the&nbsp;Material&nbsp;Plane.&nbsp;If&nbsp;the&nbsp;object&nbsp;was&nbsp;part&nbsp;of&nbsp;a&nbsp;larger&nbsp;object,&nbsp;or&nbsp;interacted&nbsp;with&nbsp;another&nbsp;object&nbsp;in&nbsp;a&nbsp;significant&nbsp;way&nbsp;(such&nbsp;as&nbsp;the&nbsp;support&nbsp;beam&nbsp;or&nbsp;keystone&nbsp;for&nbsp;a&nbsp;building,&nbsp;or&nbsp;a&nbsp;single&nbsp;part&nbsp;of&nbsp;a&nbsp;complex&nbsp;weapon),&nbsp;the&nbsp;structure&nbsp;of&nbsp;the&nbsp;other&nbsp;objects&nbsp;that&nbsp;interact&nbsp;with&nbsp;the&nbsp;target&nbsp;is&nbsp;unchanged.
+      <p>You send an object into the Ethereal Plane, making it ethereal. While
+      it is ethereal, the object cannot affect or be affected by any force on
+      the Material Plane, except those that can normally interact with the
+      ethereal (such as through ghost touch). Any creatures inside the object
+      must succeed at a Will save, or be transported along with it. Any
+      creatures transported this way become fully ethereal, not incorporeal
+      until they leave the object - at which time they immediately return to the
+      Material Plane. If the object was part of a larger object, or interacted
+      with another object in a significant way (such as the support beam or
+      keystone for a building, or a single part of a complex weapon), the
+      structure of the other objects that interact with the target is unchanged.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You may augment this power in one of the
+      following ways.
 
-      </p><ol><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;shift&nbsp;an&nbsp;area&nbsp;instead&nbsp;of&nbsp;an&nbsp;object.&nbsp;You&nbsp;may&nbsp;shift&nbsp;up&nbsp;to&nbsp;3,000&nbsp;sq.&nbsp;ft./level&nbsp;with&nbsp;this&nbsp;augmented&nbsp;use&nbsp;of&nbsp;this&nbsp;power.&nbsp;Any&nbsp;creatures&nbsp;inside&nbsp;the&nbsp;area&nbsp;to&nbsp;be&nbsp;transported&nbsp;gain&nbsp;Will&nbsp;saves&nbsp;as&nbsp;described&nbsp;above.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;increase&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;1&nbsp;hour/level.</li></ol>
+      </p><ol><li>By spending an additional 6 power points, you may shift an
+      area instead of an object. You may shift up to 3,000 sq. ft./level with
+      this augmented use of this power. Any creatures inside the area to be
+      transported gain Will saves as described above.</li><li>By spending an
+      additional 4 power points, increase the duration of this power to 1
+      hour/level.</li></ol>
   discipline: athanatism
   display:
     auditory: false

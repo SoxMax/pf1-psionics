@@ -22,17 +22,22 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;spirit&nbsp;is&nbsp;unusually&nbsp;tenacious,&nbsp;and&nbsp;death&nbsp;does&nbsp;not&nbsp;become&nbsp;you.</em></p>
+      <p><em>Your spirit is unusually tenacious, and death does not become
+      you.</em></p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Con&nbsp;13,&nbsp;character&nbsp;level&nbsp;5th.
-
-      </p>
-
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;do&nbsp;not&nbsp;die&nbsp;until&nbsp;reduced&nbsp;to&nbsp;twice&nbsp;your&nbsp;Constitution&nbsp;score,&nbsp;expressed&nbsp;as&nbsp;a&nbsp;negative&nbsp;number&nbsp;(for&nbsp;example,&nbsp;a&nbsp;character&nbsp;with&nbsp;a&nbsp;13&nbsp;Constitution&nbsp;does&nbsp;not&nbsp;die&nbsp;until&nbsp;they&nbsp;are&nbsp;reduced&nbsp;to&nbsp;-26&nbsp;hit&nbsp;points&nbsp;or&nbsp;lower).
+      <p><strong>Prerequisites:</strong> Con 13, character level 5th.
 
       </p>
 
-      <p><strong>Normal:</strong>&nbsp;A&nbsp;character&nbsp;without&nbsp;this&nbsp;feat&nbsp;dies&nbsp;when&nbsp;reduced&nbsp;to&nbsp;their&nbsp;Constitution&nbsp;score,&nbsp;expressed&nbsp;as&nbsp;a&nbsp;negative&nbsp;number.
+      <p><strong>Benefit:</strong> You do not die until reduced to twice your
+      Constitution score, expressed as a negative number (for example, a
+      character with a 13 Constitution does not die until they are reduced to
+      -26 hit points or lower).
+
+      </p>
+
+      <p><strong>Normal:</strong> A character without this feat dies when
+      reduced to their Constitution score, expressed as a negative number.
 
       </p>
   disabled: false

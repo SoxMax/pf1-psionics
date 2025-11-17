@@ -1,0 +1,106 @@
+_id: y5delzhHxSRwsBTA
+_key: '!items!y5delzhHxSRwsBTA'
+_stats:
+  coreVersion: '13.351'
+flags:
+  pf1-psionics:
+    fromRace: Elan
+folder: xKWdbIbACBGBSQq6
+img: icons/environment/people/group.webp
+name: Strong Blooded
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>Some elans have a small portion of their original racial
+      characteristics survive the transformation process. Elans with this racial
+      trait gain the following benefit based upon their original race and lose
+      the resilience trait.</p><ul><li><em>Blue</em>: The elan can spend one
+      power point as a swift action to gain a +2 bonus on Stealth checks for one
+      round.</li><li><em>Dromite</em>: The elan can spend one power point as a
+      swift action to gain energy resistance 5 against his active energy type
+      for one round.</li><li><em>Duergar</em>: The elan can spend one power
+      point as a swift action to gain a +2 bonus to his CMD when resisting a
+      bull rush or trip attempt while standing on the
+      ground.</li><li><em>Dwarf</em>: The elan can spend one power point as a
+      swift action to gain the Stonecunning trait for one
+      minute.</li><li><em>Elf</em>: The elan can spend one power point as a
+      swift action to gain low-light vision for one
+      minute.</li><li><em>Gnome</em>: The elan can spend one power point as a
+      swift action to a +2 bonus against illusions for one
+      minute.</li><li><em>Half-Elf</em>: The elan can spend one power point as a
+      swift action to gain a +2 bonus on Perception checks for one
+      round.</li><li><em>Half-Giant</em>: The elan can spend one power point as
+      a swift action to be treated as having the Powerful Build trait for one
+      round.</li><li><em>Half-orc</em>: The elan can spend one power point as a
+      swift action to gain a +2 racial bonus to Intimidate checks made in the
+      same round.</li><li><em>Halfling</em>: The elan can spend one power point
+      as a swift action to gain a +2 racial bonus on Acrobatics checks made for
+      one round.</li><li><em>Human</em>: The elan can spend one power point as a
+      swift action to gain a +1 bonus on any one skill check made in the same
+      round.</li><li><em>Maenad</em>: The elan can spend one power point as a
+      swift action to gain a +2 bonus to Strength and suffering a -2 penalty to
+      Intelligence and Wisdom for one round.</li><li><em>Ophiduan</em>: The elan
+      can spend one power point as a swift action to gain a +1 natural armor
+      bonus to his armor class for one round.</li><li><em>Xeph</em>: The elan
+      can spend one power point as a swift action to increase his base speed by
+      10 feet for one round.</li></ul>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+type: feat

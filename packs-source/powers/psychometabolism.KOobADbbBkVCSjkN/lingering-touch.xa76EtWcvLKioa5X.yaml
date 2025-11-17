@@ -27,11 +27,16 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;charge&nbsp;your&nbsp;ability&nbsp;to&nbsp;channel&nbsp;fear&nbsp;and&nbsp;terror&nbsp;into&nbsp;your&nbsp;enemies,&nbsp;making&nbsp;it&nbsp;linger&nbsp;within&nbsp;them.&nbsp;Any&nbsp;devastating&nbsp;touch&nbsp;attacks&nbsp;made&nbsp;during&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;linger&nbsp;for&nbsp;an&nbsp;additional&nbsp;round,&nbsp;automatically&nbsp;dealing&nbsp;damage&nbsp;the&nbsp;following&nbsp;round.&nbsp;Any&nbsp;additional&nbsp;damage&nbsp;or&nbsp;affect&nbsp;applied&nbsp;to&nbsp;the&nbsp;devastating&nbsp;touch&nbsp;is&nbsp;not&nbsp;repeated.
+      <p>You charge your ability to channel fear and terror into your enemies,
+      making it linger within them. Any devastating touch attacks made during
+      the duration of this power linger for an additional round, automatically
+      dealing damage the following round. Any additional damage or affect
+      applied to the devastating touch is not repeated.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;spent,&nbsp;this&nbsp;power&nbsp;lasts&nbsp;an&nbsp;additional&nbsp;round.
+      <p><strong>Augment:</strong> For every 2 additional power points spent,
+      this power lasts an additional round.
 
       </p>
   discipline: psychometabolism

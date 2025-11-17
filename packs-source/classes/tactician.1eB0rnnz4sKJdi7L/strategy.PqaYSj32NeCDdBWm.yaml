@@ -1,0 +1,40 @@
+_id: PqaYSj32NeCDdBWm
+_key: '!items!PqaYSj32NeCDdBWm'
+_stats:
+  coreVersion: '13.350'
+folder: 1eB0rnnz4sKJdi7L
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Strategy
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Tactician
+  description:
+    value: >-
+      <p>At 4th level, and every three tactician levels thereafter, a tactician
+      learns a new tactical strategy, granting him special abilities in combat.
+      Unless specified otherwise, using a strategy is a swift action that does
+      not provoke attacks of opportunity. Strategies are often orders or
+      suggestions that the tactician issues to members of his collective. A
+      tactician may not direct a strategy at himself unless a strategy specifies
+      otherwise.
+
+      </p><p>Strategies may be used a number of times per day equal to 3 + the
+      tactician's Charisma modifier.
+
+      </p>
+
+      <dl><dd><div class="va-hatnote-text"><i></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 52–57
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 64–69
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: strategy
+type: feat

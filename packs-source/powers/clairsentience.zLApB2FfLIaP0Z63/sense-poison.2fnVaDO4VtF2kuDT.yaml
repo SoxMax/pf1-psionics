@@ -26,7 +26,13 @@ system:
         value: One creature, one object, or a 5-ft. cube
   description:
     value: >-
-      <p>You&nbsp;determine&nbsp;whether&nbsp;a&nbsp;creature,&nbsp;object,&nbsp;or&nbsp;area&nbsp;has&nbsp;been&nbsp;poisoned&nbsp;or&nbsp;is&nbsp;poisonous.&nbsp;You&nbsp;can&nbsp;determine&nbsp;the&nbsp;exact&nbsp;type&nbsp;of&nbsp;poison&nbsp;with&nbsp;a&nbsp;DC&nbsp;20&nbsp;Wisdom&nbsp;check.&nbsp;A&nbsp;character&nbsp;with&nbsp;the&nbsp;Craft&nbsp;(alchemy)&nbsp;skill&nbsp;may&nbsp;try&nbsp;a&nbsp;DC&nbsp;20&nbsp;Craft&nbsp;(alchemy)&nbsp;check&nbsp;if&nbsp;the&nbsp;Wisdom&nbsp;check&nbsp;fails,&nbsp;or&nbsp;may&nbsp;try&nbsp;the&nbsp;Craft&nbsp;(alchemy)&nbsp;check&nbsp;prior&nbsp;to&nbsp;the&nbsp;Wisdom&nbsp;check.&nbsp;The&nbsp;power&nbsp;can&nbsp;penetrate&nbsp;barriers,&nbsp;but&nbsp;1&nbsp;foot&nbsp;of&nbsp;stone,&nbsp;1&nbsp;inch&nbsp;of&nbsp;common&nbsp;metal,&nbsp;a&nbsp;thin&nbsp;sheet&nbsp;of&nbsp;lead,&nbsp;or&nbsp;3&nbsp;feet&nbsp;of&nbsp;wood&nbsp;or&nbsp;dirt&nbsp;blocks&nbsp;it.
+      <p>You determine whether a creature, object, or area has been poisoned or
+      is poisonous. You can determine the exact type of poison with a DC 20
+      Wisdom check. A character with the Craft (alchemy) skill may try a DC 20
+      Craft (alchemy) check if the Wisdom check fails, or may try the Craft
+      (alchemy) check prior to the Wisdom check. The power can penetrate
+      barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of
+      lead, or 3 feet of wood or dirt blocks it.
 
       </p>
   discipline: clairsentience

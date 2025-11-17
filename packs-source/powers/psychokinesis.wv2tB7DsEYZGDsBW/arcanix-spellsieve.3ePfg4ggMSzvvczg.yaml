@@ -28,17 +28,34 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;interweave&nbsp;your&nbsp;mind&nbsp;and&nbsp;power&nbsp;with&nbsp;that&nbsp;of&nbsp;another&nbsp;creature,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;either&nbsp;empower&nbsp;their&nbsp;spells&nbsp;or&nbsp;to&nbsp;draw&nbsp;power&nbsp;from&nbsp;the&nbsp;spells&nbsp;they&nbsp;cast.&nbsp;Whenever&nbsp;the&nbsp;target&nbsp;casts&nbsp;a&nbsp;spell,&nbsp;you&nbsp;can&nbsp;augment&nbsp;that&nbsp;spell&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action.&nbsp;For&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;you&nbsp;spend&nbsp;augmenting&nbsp;it,&nbsp;increase&nbsp;the&nbsp;effective&nbsp;caster&nbsp;level&nbsp;of&nbsp;that&nbsp;spell&nbsp;by&nbsp;1.&nbsp;For&nbsp;every&nbsp;3&nbsp;power&nbsp;points&nbsp;you&nbsp;spend&nbsp;augmenting&nbsp;it,&nbsp;increase&nbsp;its&nbsp;effective&nbsp;spell&nbsp;level&nbsp;by&nbsp;1.&nbsp;Both&nbsp;of&nbsp;these&nbsp;uses&nbsp;stack&nbsp;with&nbsp;each&nbsp;other,&nbsp;but&nbsp;you&nbsp;cannot&nbsp;spend&nbsp;more&nbsp;than&nbsp;your&nbsp;manifester&nbsp;level&nbsp;on&nbsp;a&nbsp;single&nbsp;augment.&nbsp;(For&nbsp;example,&nbsp;if&nbsp;you&nbsp;spend&nbsp;6&nbsp;power&nbsp;points&nbsp;to&nbsp;augment&nbsp;a&nbsp;spell,&nbsp;the&nbsp;caster&nbsp;level&nbsp;increases&nbsp;by&nbsp;3&nbsp;and&nbsp;the&nbsp;spell&nbsp;level&nbsp;by&nbsp;2).
+      <p>You interweave your mind and power with that of another creature,
+      allowing you to either empower their spells or to draw power from the
+      spells they cast. Whenever the target casts a spell, you can augment that
+      spell as an immediate action. For every 2 power points you spend
+      augmenting it, increase the effective caster level of that spell by 1. For
+      every 3 power points you spend augmenting it, increase its effective spell
+      level by 1. Both of these uses stack with each other, but you cannot spend
+      more than your manifester level on a single augment. (For example, if you
+      spend 6 power points to augment a spell, the caster level increases by 3
+      and the spell level by 2).
 
       </p>
 
-      <p>The&nbsp;other&nbsp;use&nbsp;of&nbsp;this&nbsp;power&nbsp;allows&nbsp;you&nbsp;to&nbsp;siphon&nbsp;some&nbsp;of&nbsp;the&nbsp;power&nbsp;of&nbsp;a&nbsp;spell&nbsp;into&nbsp;your&nbsp;own&nbsp;power&nbsp;reserves.&nbsp;As&nbsp;an&nbsp;immediate&nbsp;action&nbsp;when&nbsp;the&nbsp;target&nbsp;casts&nbsp;a&nbsp;spell,&nbsp;you&nbsp;regain&nbsp;1&nbsp;power&nbsp;point&nbsp;for&nbsp;every&nbsp;2&nbsp;spell&nbsp;levels&nbsp;of&nbsp;the&nbsp;spell&nbsp;they&nbsp;cast.&nbsp;This&nbsp;use&nbsp;of&nbsp;the&nbsp;power&nbsp;immediately&nbsp;ends&nbsp;the&nbsp;effect.
+      <p>The other use of this power allows you to siphon some of the power of a
+      spell into your own power reserves. As an immediate action when the target
+      casts a spell, you regain 1 power point for every 2 spell levels of the
+      spell they cast. This use of the power immediately ends the effect.
 
       </p>
 
-      <p><strong>Augment:&nbsp;</strong>This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment: </strong>This power may be augmented in one or more of
+      the following ways.
 
-      </p><ul><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;increases&nbsp;to&nbsp;10&nbsp;minutes&nbsp;/&nbsp;level.</li><li>For&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;choose&nbsp;another&nbsp;target&nbsp;for&nbsp;this&nbsp;power.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;augment&nbsp;the&nbsp;spells&nbsp;of&nbsp;your&nbsp;target&nbsp;as&nbsp;a&nbsp;free&nbsp;action.</li></ul>
+      </p><ul><li>If you spend 2 additional power points, the duration increases
+      to 10 minutes / level.</li><li>For every 2 power points you spend, you can
+      choose another target for this power.</li><li>If you spend 2 additional
+      power points, you can augment the spells of your target as a free
+      action.</li></ul>
   discipline: psychokinesis
   display:
     auditory: false

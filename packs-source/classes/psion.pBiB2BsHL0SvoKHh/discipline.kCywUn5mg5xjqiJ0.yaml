@@ -1,0 +1,39 @@
+_id: kCywUn5mg5xjqiJ0
+_key: '!items!kCywUn5mg5xjqiJ0'
+_stats:
+  coreVersion: '13.350'
+folder: pBiB2BsHL0SvoKHh
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Discipline
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Psion
+  description:
+    value: >-
+      <p>Every psion must decide at 1st level which psionic discipline he will
+      specialize in. Choosing a discipline provides a psion with access to the
+      class skills associated with that discipline, as well as the powers
+      restricted to that discipline, and the special abilities associated with
+      that discipline (detailed below). However, choosing a discipline also
+      means that the psion cannot learn powers that are restricted to the other
+      disciplines (generalist psions cannot learn powers on any of the
+      discipline power lists). He can't even use such powers by employing
+      psionic items.
+
+      </p>
+
+      <dl><dd><div class="va-hatnote-text"><i></p>
+  sources:
+    - date: '2010-08-01'
+      pages: 20–25
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 49–53
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: discipline
+type: feat

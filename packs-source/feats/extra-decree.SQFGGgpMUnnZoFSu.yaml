@@ -22,17 +22,18 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You've&nbsp;expanded&nbsp;your&nbsp;highlord&nbsp;abilities.</em></p>
+      <p><em>You've expanded your highlord abilities.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Highlord's&nbsp;decree&nbsp;class&nbsp;feature.
-
-      </p>
-
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;learn&nbsp;a&nbsp;decree&nbsp;you&nbsp;qualify&nbsp;for.
+      <p><strong>Prerequisite:</strong> Highlord's decree class feature.
 
       </p>
 
-      <p><strong>Special:</strong>&nbsp;You&nbsp;may&nbsp;take&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;times.&nbsp;Each&nbsp;time,&nbsp;you&nbsp;learn&nbsp;a&nbsp;new&nbsp;decree.
+      <p><strong>Benefit:</strong> You learn a decree you qualify for.
+
+      </p>
+
+      <p><strong>Special:</strong> You may take this feat multiple times. Each
+      time, you learn a new decree.
 
       </p>
   disabled: false

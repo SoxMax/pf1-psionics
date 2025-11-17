@@ -1,0 +1,48 @@
+_id: EWyDoXO2YYbXJbP4
+_key: '!items!EWyDoXO2YYbXJbP4'
+_stats:
+  coreVersion: '13.350'
+folder: yxB21JRuF0fTjL6O
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Altered Defense
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: >-
+      <p>A cryptic learns early on to modify the patterns around her to grant
+      her protection as a swift action. The cryptic chooses from the options
+      below and may only have one such effect active at any given time. The
+      cryptic can use this ability for a number of rounds per day equal to 4 +
+      her Intelligence modifier. The cryptic can maintain this ability as long
+      as she wants as long as she has rounds available, or dismiss it at any
+      time as a free action.
+
+      </p>
+
+      <ul><li><i>Absorb: </i>The cryptic gains DR 1/-.</li>
+
+      <li><i>Deflect: </i>The cryptic gains a +1 dodge bonus to his AC.</li>
+
+      <li><i>Retaliate: </i>The cryptic gains a +1 bonus on his attack rolls
+      against any opponent that successfully hit him since his last
+      turn.</li></ul>
+
+      <p>Every four cryptic levels thereafter, this bonus increases by 1 (to 2
+      at 5th level, 3 at 9th level, 4 at 13th level, and 5 at 17th level).
+
+      </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 36–42
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 34–40
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: altered-defense
+type: feat

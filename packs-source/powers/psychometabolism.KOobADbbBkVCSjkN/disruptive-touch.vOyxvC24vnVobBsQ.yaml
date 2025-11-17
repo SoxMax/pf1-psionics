@@ -29,7 +29,8 @@ system:
         value: One living creature touched
   description:
     value: >-
-      <p>Your&nbsp;touch&nbsp;disrupts&nbsp;the&nbsp;natural&nbsp;energy&nbsp;of&nbsp;the&nbsp;creature's&nbsp;body,&nbsp;causing&nbsp;them&nbsp;to&nbsp;be&nbsp;staggered&nbsp;unless&nbsp;they&nbsp;make&nbsp;a&nbsp;successful&nbsp;Fortitude&nbsp;save.
+      <p>Your touch disrupts the natural energy of the creature's body, causing
+      them to be staggered unless they make a successful Fortitude save.
 
       </p>
   discipline: psychometabolism

@@ -37,11 +37,26 @@ system:
         value: One living creature
   description:
     value: >-
-      <p>By&nbsp;binding&nbsp;the&nbsp;soul&nbsp;of&nbsp;another&nbsp;to&nbsp;yourself,&nbsp;you&nbsp;form&nbsp;a&nbsp;protective&nbsp;bond.&nbsp;The&nbsp;subject&nbsp;gains&nbsp;a&nbsp;+1&nbsp;deflection&nbsp;bonus&nbsp;to&nbsp;AC&nbsp;and&nbsp;a&nbsp;+1&nbsp;resistance&nbsp;bonus&nbsp;on&nbsp;saves.&nbsp;While&nbsp;this&nbsp;power&nbsp;is&nbsp;active,&nbsp;you&nbsp;or&nbsp;the&nbsp;target&nbsp;may&nbsp;choose&nbsp;to&nbsp;gain&nbsp;any&nbsp;morale&nbsp;bonuses&nbsp;granted&nbsp;to&nbsp;the&nbsp;other,&nbsp;just&nbsp;as&nbsp;if&nbsp;you&nbsp;were&nbsp;both&nbsp;targeted.&nbsp;In&nbsp;addition,&nbsp;if&nbsp;you&nbsp;or&nbsp;the&nbsp;target&nbsp;are&nbsp;subjected&nbsp;to&nbsp;an&nbsp;emotion&nbsp;effect&nbsp;that&nbsp;allows&nbsp;a&nbsp;saving&nbsp;throw,&nbsp;one&nbsp;of&nbsp;you&nbsp;may&nbsp;attempt&nbsp;the&nbsp;saving&nbsp;throw,&nbsp;applying&nbsp;the&nbsp;result&nbsp;to&nbsp;both&nbsp;of&nbsp;you.&nbsp;You&nbsp;must&nbsp;decide&nbsp;to&nbsp;use&nbsp;this&nbsp;effect&nbsp;before&nbsp;the&nbsp;save&nbsp;is&nbsp;made.
+      <p>By binding the soul of another to yourself, you form a protective bond.
+      The subject gains a +1 deflection bonus to AC and a +1 resistance bonus on
+      saves. While this power is active, you or the target may choose to gain
+      any morale bonuses granted to the other, just as if you were both
+      targeted. In addition, if you or the target are subjected to an emotion
+      effect that allows a saving throw, one of you may attempt the saving
+      throw, applying the result to both of you. You must decide to use this
+      effect before the save is made.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;you&nbsp;may,&nbsp;as&nbsp;a&nbsp;standard&nbsp;action,&nbsp;end&nbsp;this&nbsp;power&nbsp;to&nbsp;heal&nbsp;the&nbsp;target&nbsp;3d8&nbsp;points&nbsp;of&nbsp;damage&nbsp;+&nbsp;1&nbsp;point&nbsp;per&nbsp;manifester&nbsp;level&nbsp;(maximum&nbsp;+25).&nbsp;This&nbsp;healing&nbsp;can&nbsp;return&nbsp;a&nbsp;recently&nbsp;dead&nbsp;target&nbsp;to&nbsp;life,&nbsp;as&nbsp;long&nbsp;as&nbsp;its&nbsp;hit&nbsp;points&nbsp;after&nbsp;the&nbsp;healing&nbsp;are&nbsp;at&nbsp;least&nbsp;equal&nbsp;to&nbsp;the&nbsp;hit&nbsp;points&nbsp;at&nbsp;which&nbsp;it&nbsp;would&nbsp;die.&nbsp;If&nbsp;you&nbsp;return&nbsp;a&nbsp;recently&nbsp;dead&nbsp;target&nbsp;to&nbsp;life&nbsp;this&nbsp;way,&nbsp;you&nbsp;suffer&nbsp;damage&nbsp;equal&nbsp;to&nbsp;the&nbsp;amount&nbsp;healed.&nbsp;You&nbsp;must&nbsp;touch&nbsp;the&nbsp;target&nbsp;to&nbsp;trigger&nbsp;this&nbsp;effect,&nbsp;and&nbsp;no&nbsp;more&nbsp;than&nbsp;one&nbsp;round&nbsp;may&nbsp;have&nbsp;passed&nbsp;since&nbsp;their&nbsp;death.&nbsp;This&nbsp;power&nbsp;gains&nbsp;the&nbsp;healing&nbsp;subtype.
+      <p><strong>Augment:</strong> By spending an additional 6 power points, you
+      may, as a standard action, end this power to heal the target 3d8 points of
+      damage + 1 point per manifester level (maximum +25). This healing can
+      return a recently dead target to life, as long as its hit points after the
+      healing are at least equal to the hit points at which it would die. If you
+      return a recently dead target to life this way, you suffer damage equal to
+      the amount healed. You must touch the target to trigger this effect, and
+      no more than one round may have passed since their death. This power gains
+      the healing subtype.
 
       </p>
   discipline: athanatism

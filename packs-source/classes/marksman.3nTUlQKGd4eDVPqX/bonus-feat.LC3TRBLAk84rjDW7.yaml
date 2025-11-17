@@ -1,0 +1,57 @@
+_id: LC3TRBLAk84rjDW7
+_key: '!items!LC3TRBLAk84rjDW7'
+_stats:
+  coreVersion: '13.350'
+folder: 3nTUlQKGd4eDVPqX
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Bonus Feat
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Marksman
+  description:
+    value: >-
+      <p>A Marksman of 5th level gains a bonus feat chosen from his combat style
+      feat list, <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Deadly%20Aim">Deadly
+      Aim</a>, <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Far%20Shot">Far
+      Shot</a>, <a href="/wiki/Fell_Shot" title="Fell Shot">Fell Shot</a>, <a
+      href="/wiki/Greater_Psionic_Shot" title="Greater Psionic Shot">Greater
+      Psionic Shot</a>, <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Parting%20Shot">Parting
+      Shot</a>, <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Precise%20Shot">Precise
+      Shot</a>, <a href="/wiki/Psionic_Meditation" title="Psionic
+      Meditation">Psionic Meditation</a>, <a href="/wiki/Psionic_Shot"
+      title="Psionic Shot">Psionic Shot</a>, <a rel="nofollow" class="external
+      text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Quick%20Draw">Quick
+      Draw</a>, <a href="/wiki/Return_Shot" title="Return Shot">Return Shot</a>,
+      <a href="/wiki/Returning_Throw" title="Returning Throw">Returning
+      Throw</a>, or a feat that requires a particular weapon when it is
+      selected, such as <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Weapon%20Focus">Weapon
+      Focus</a> or <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Critical">Improved
+      Critical</a>. If the Marksman chooses a feat that requires a particular
+      weapon, she must select a weapon from her selected ranged weapon group.
+      The Marksman must still meet all prerequisites for the feat to select it.
+
+      </p><p>At 8th level and every three Marksman levels thereafter, the
+      Marksman gains another bonus feat from the same list.
+
+      </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 47–50
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 44–46
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: bonus-feat
+type: feat

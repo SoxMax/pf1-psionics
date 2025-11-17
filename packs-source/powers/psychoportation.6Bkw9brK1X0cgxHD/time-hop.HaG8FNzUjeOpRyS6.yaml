@@ -29,21 +29,37 @@ system:
         value: One Medium or smaller creature, or one object weighing 300 lb. or less
   description:
     value: >-
-      <p>The&nbsp;subject&nbsp;of&nbsp;the&nbsp;power&nbsp;hops&nbsp;forward&nbsp;in&nbsp;time&nbsp;1&nbsp;round&nbsp;for&nbsp;every&nbsp;manifester&nbsp;level&nbsp;you&nbsp;have.&nbsp;In&nbsp;effect,&nbsp;the&nbsp;subject&nbsp;seems&nbsp;to&nbsp;disappear&nbsp;in&nbsp;a&nbsp;shimmer&nbsp;of&nbsp;silver&nbsp;energy,&nbsp;then&nbsp;reappear&nbsp;after&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;expires.&nbsp;The&nbsp;subject&nbsp;reappears&nbsp;in&nbsp;exactly&nbsp;the&nbsp;same&nbsp;orientation&nbsp;and&nbsp;condition&nbsp;as&nbsp;before.&nbsp;From&nbsp;the&nbsp;subject's&nbsp;point&nbsp;of&nbsp;view,&nbsp;no&nbsp;time&nbsp;has&nbsp;passed&nbsp;at&nbsp;all.
+      <p>The subject of the power hops forward in time 1 round for every
+      manifester level you have. In effect, the subject seems to disappear in a
+      shimmer of silver energy, then reappear after the duration of this power
+      expires. The subject reappears in exactly the same orientation and
+      condition as before. From the subject's point of view, no time has passed
+      at all.
 
       </p>
 
-      <p>In&nbsp;each&nbsp;round&nbsp;of&nbsp;the&nbsp;power's&nbsp;duration,&nbsp;on&nbsp;what&nbsp;would&nbsp;have&nbsp;been&nbsp;the&nbsp;subject's&nbsp;turn,&nbsp;it&nbsp;can&nbsp;attempt&nbsp;a&nbsp;DC&nbsp;15&nbsp;Wisdom&nbsp;check.&nbsp;Success&nbsp;allows&nbsp;the&nbsp;subject&nbsp;to&nbsp;return.&nbsp;The&nbsp;subject&nbsp;can&nbsp;act&nbsp;normally&nbsp;on&nbsp;its&nbsp;next&nbsp;turn&nbsp;after&nbsp;this&nbsp;power&nbsp;ends.
+      <p>In each round of the power's duration, on what would have been the
+      subject's turn, it can attempt a DC 15 Wisdom check. Success allows the
+      subject to return. The subject can act normally on its next turn after
+      this power ends.
 
       </p>
 
-      <p>If&nbsp;the&nbsp;space&nbsp;from&nbsp;which&nbsp;the&nbsp;subject&nbsp;departed&nbsp;is&nbsp;occupied&nbsp;upon&nbsp;his&nbsp;return&nbsp;to&nbsp;the&nbsp;time&nbsp;stream,&nbsp;he&nbsp;appears&nbsp;in&nbsp;the&nbsp;closest&nbsp;unoccupied&nbsp;space,&nbsp;still&nbsp;in&nbsp;his&nbsp;original&nbsp;orientation.&nbsp;Determine&nbsp;the&nbsp;closest&nbsp;space&nbsp;randomly&nbsp;if&nbsp;necessary.
+      <p>If the space from which the subject departed is occupied upon his
+      return to the time stream, he appears in the closest unoccupied space,
+      still in his original orientation. Determine the closest space randomly if
+      necessary.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or both of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;affect&nbsp;a&nbsp;creature&nbsp;of&nbsp;one&nbsp;size&nbsp;category&nbsp;larger,&nbsp;or&nbsp;double&nbsp;the&nbsp;weight&nbsp;of&nbsp;an&nbsp;object&nbsp;to&nbsp;be&nbsp;affected.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;can&nbsp;affect&nbsp;an&nbsp;additional&nbsp;target.&nbsp;Any&nbsp;additional&nbsp;target&nbsp;cannot&nbsp;be&nbsp;more&nbsp;than&nbsp;15&nbsp;feet&nbsp;from&nbsp;another&nbsp;target&nbsp;of&nbsp;the&nbsp;power.</li></ol>
+      </p><ol><li>For every 2 additional power points you spend, you can affect
+      a creature of one size category larger, or double the weight of an object
+      to be affected.</li><li>For every 2 additional power points you spend,
+      this power can affect an additional target. Any additional target cannot
+      be more than 15 feet from another target of the power.</li></ol>
   discipline: psychoportation
   display:
     auditory: true

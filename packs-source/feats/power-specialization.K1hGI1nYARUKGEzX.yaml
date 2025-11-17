@@ -21,29 +21,18 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;deal&nbsp;more&nbsp;damage&nbsp;with&nbsp;your&nbsp;powers.
-
+    value: |-
+      <p>You deal more damage with your powers.
       </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Weapon&nbsp;Focus&nbsp;(ray),&nbsp;manifester&nbsp;level
-
+      <p><strong>Prerequisites: </strong>Weapon Focus (ray), manifester level
       4th.
-
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>With&nbsp;rays&nbsp;and&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;powers
-
-      that&nbsp;deal&nbsp;damage,&nbsp;you&nbsp;deal&nbsp;an&nbsp;extra&nbsp;2&nbsp;hit&nbsp;points&nbsp;of
-
-      damage.&nbsp;If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when&nbsp;you
-
-      manifest&nbsp;a&nbsp;ray&nbsp;or&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;power&nbsp;that&nbsp;deals
-
-      damage,&nbsp;you&nbsp;add&nbsp;your&nbsp;key&nbsp;ability&nbsp;bonus&nbsp;to&nbsp;the&nbsp;damage
-
-      (instead&nbsp;of&nbsp;adding&nbsp;2).
-
+      <p><strong>Benefit: </strong>With rays and ranged touch attack powers
+      that deal damage, you deal an extra 2 hit points of
+      damage. If you expend your psionic focus when you
+      manifest a ray or a ranged touch attack power that deals
+      damage, you add your key ability bonus to the damage
+      (instead of adding 2).
       </p>
   disabled: false
   featType: feat

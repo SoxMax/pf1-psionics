@@ -1,0 +1,40 @@
+_id: WJ6QtW6hOmZAw2Mg
+_key: '!items!WJ6QtW6hOmZAw2Mg'
+_stats:
+  coreVersion: '13.350'
+folder: yxB21JRuF0fTjL6O
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Disrupt Pattern
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: >-
+      <p>All cryptics are able to disrupt the patterns they can perceive,
+      although the potency of this disruption is based on the cryptic's focus.
+      When a cryptic gains psionic focus, she selects one creature type as her
+      active type (she does not need to select a subtype). As a standard action,
+      the cryptic can make a ranged touch attack with a range of 30 feet, firing
+      a ray of black energy at the target. If the attack is successful, the
+      cryptic deals 1d6 points of damage + additional damage equal to the
+      cryptic's Intelligence modifier. This attack deals half damage if the
+      target's type is not of the cryptic's active type. Like some other rays,
+      if the attack roll of this ability would indicate a critical hit, the
+      damage is doubled. This ability can only be used once per round, even if
+      an item or other effect would duplicate it.
+
+      </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 36–42
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 34–40
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: disrupt-pattern
+type: feat

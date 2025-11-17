@@ -1,0 +1,38 @@
+_id: 24oruwQppUroMyYM
+_key: '!items!24oruwQppUroMyYM'
+_stats:
+  coreVersion: '13.350'
+folder: 8GrwKZgR1JXaU7Be
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Mind Blade Mastery
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Soulknife
+  description:
+    value: >-
+      <p>At 20th level, a soulknife reaches the pinnacle of her art and her
+      connection to her blade is so strong it cannot be severed. She no longer
+      requires a Will save to maintain her mind blade in a {{lcil|Null Psionics
+      Field<i>, although it still loses any enhancement bonus and special
+      abilities. In addition, she may change the configurations of her mind
+      blade's special abilities at will as a full-round action, which also
+      resets any penalties that may have accrued from the Fluid Form and
+      Improved Fluid Form blade skills.</i>
+
+      </p>
+
+      <div class="mw-heading mw-heading2"></p>
+  sources:
+    - date: '2010-08-01'
+      pages: 28–33
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 57–64
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: mind-blade-mastery
+type: feat

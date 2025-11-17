@@ -28,25 +28,41 @@ system:
         value: One living creature&#160;
   description:
     value: >-
-      <p>You&nbsp;accelerate&nbsp;the&nbsp;body&nbsp;of&nbsp;the&nbsp;touched&nbsp;target&nbsp;and&nbsp;you&nbsp;can&nbsp;choose&nbsp;to&nbsp;affect&nbsp;only&nbsp;detrimental&nbsp;effects,&nbsp;only&nbsp;positive&nbsp;effects&nbsp;or&nbsp;all&nbsp;effects.
+      <p>You accelerate the body of the touched target and you can choose to
+      affect only detrimental effects, only positive effects or all effects.
 
       </p>
 
-      <p><em>Detrimental:&nbsp;</em>Every&nbsp;poison,&nbsp;disease,&nbsp;ongoing&nbsp;spell&nbsp;effect&nbsp;with&nbsp;a&nbsp;negative&nbsp;effect&nbsp;over&nbsp;time&nbsp;triggers&nbsp;once&nbsp;more&nbsp;as&nbsp;if&nbsp;at&nbsp;least&nbsp;one&nbsp;day&nbsp;had&nbsp;passed&nbsp;(reducing&nbsp;onset&nbsp;time,&nbsp;triggering&nbsp;more&nbsp;saves&nbsp;against&nbsp;diseases&nbsp;or&nbsp;poisons,&nbsp;but&nbsp;only&nbsp;one&nbsp;and&nbsp;so&nbsp;on).&nbsp;A&nbsp;successful&nbsp;saving&nbsp;throw&nbsp;does&nbsp;not&nbsp;count&nbsp;toward&nbsp;ending&nbsp;the&nbsp;affliction,&nbsp;and&nbsp;this&nbsp;extra&nbsp;save&nbsp;does&nbsp;not&nbsp;change&nbsp;the&nbsp;timing&nbsp;of&nbsp;the&nbsp;next&nbsp;save&nbsp;against&nbsp;the&nbsp;affliction.&nbsp;The&nbsp;target&nbsp;can&nbsp;make&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;to&nbsp;negate&nbsp;this&nbsp;effect.
+      <p><em>Detrimental: </em>Every poison, disease, ongoing spell effect with
+      a negative effect over time triggers once more as if at least one day had
+      passed (reducing onset time, triggering more saves against diseases or
+      poisons, but only one and so on). A successful saving throw does not count
+      toward ending the affliction, and this extra save does not change the
+      timing of the next save against the affliction. The target can make a
+      Fortitude save to negate this effect.
 
       </p>
 
-      <p><em>Positive:&nbsp;</em>The&nbsp;target&nbsp;heals&nbsp;physical&nbsp;ability&nbsp;damage&nbsp;as&nbsp;if&nbsp;they&nbsp;had&nbsp;rested&nbsp;for&nbsp;a&nbsp;day,&nbsp;gain&nbsp;a&nbsp;new&nbsp;save&nbsp;against&nbsp;any&nbsp;ongoing&nbsp;effects&nbsp;or&nbsp;spells&nbsp;that&nbsp;give&nbsp;new&nbsp;saves&nbsp;after&nbsp;a&nbsp;day&nbsp;and&nbsp;heal&nbsp;their&nbsp;hit&nbsp;dice&nbsp;in&nbsp;hit&nbsp;point&nbsp;damage.&nbsp;No&nbsp;save.
+      <p><em>Positive: </em>The target heals physical ability damage as if they
+      had rested for a day, gain a new save against any ongoing effects or
+      spells that give new saves after a day and heal their hit dice in hit
+      point damage. No save.
 
       </p>
 
-      <p><em>All:</em>&nbsp;Both&nbsp;of&nbsp;the&nbsp;above&nbsp;effects&nbsp;trigger&nbsp;at&nbsp;the&nbsp;same&nbsp;time.&nbsp;The&nbsp;target&nbsp;gains&nbsp;no&nbsp;save.
+      <p><em>All:</em> Both of the above effects trigger at the same time. The
+      target gains no save.
 
       </p>
 
-      <p><strong>Augment:&nbsp;</strong>This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment: </strong>This power may be augmented in one or more of
+      the following ways.
 
-      </p><ul><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;range&nbsp;changes&nbsp;from&nbsp;Touch&nbsp;to&nbsp;Close&nbsp;(25&nbsp;ft.&nbsp;+&nbsp;5&nbsp;ft./2&nbsp;levels).</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;effects&nbsp;trigger&nbsp;as&nbsp;if&nbsp;another&nbsp;day&nbsp;had&nbsp;passed.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;affect&nbsp;another&nbsp;target&nbsp;with&nbsp;this&nbsp;power.</li></ul>
+      </p><ul><li>If you spend 2 additional power points, the range changes from
+      Touch to Close (25 ft. + 5 ft./2 levels).</li><li>For every 2 additional
+      power points you spend, the effects trigger as if another day had
+      passed.</li><li>For every 2 additional power points you spend, you can
+      affect another target with this power.</li></ul>
   discipline: psychometabolism
   display:
     auditory: false

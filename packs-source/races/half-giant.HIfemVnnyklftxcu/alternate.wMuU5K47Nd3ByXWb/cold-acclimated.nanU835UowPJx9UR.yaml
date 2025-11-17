@@ -1,0 +1,81 @@
+_id: nanU835UowPJx9UR
+_key: '!items!nanU835UowPJx9UR'
+_stats:
+  coreVersion: '13.351'
+flags:
+  pf1-psionics:
+    fromRace: Half-giant
+folder: wMuU5K47Nd3ByXWb
+img: systems/pf1/icons/feats/gorgons-fist.jpg
+name: Cold Acclimated
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  contextNotes:
+    - target: allSavingThrows
+      text: >-
+        +2 racial bonus on saving throws against all cold spells, powers and
+        effects.
+  description:
+    value: >-
+      <p>Although most half-giants reside in desert regions, some have grown
+      toughened against colder extremes. Half-giants with this trait receive a
+      +2 racial bonus on saving throws against all cold spells, powers and
+      effects. <em>This replaces the fire acclimated trait.</em></li></p>
+  disabled: false
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+type: feat

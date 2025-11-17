@@ -29,19 +29,31 @@ system:
         value: 1 creature or object
   description:
     value: >-
-      <p>You&nbsp;brutally&nbsp;rewrite&nbsp;the&nbsp;pattern&nbsp;of&nbsp;your&nbsp;target,&nbsp;leaving&nbsp;them&nbsp;vulnerable&nbsp;to&nbsp;further&nbsp;attack.&nbsp;If&nbsp;your&nbsp;target&nbsp;fails&nbsp;its&nbsp;saving&nbsp;throw,&nbsp;choose&nbsp;bludgeoning,&nbsp;cold,&nbsp;fire,&nbsp;electricity,&nbsp;piercing,&nbsp;slashing,&nbsp;or&nbsp;sonic&nbsp;damage.&nbsp;Your&nbsp;victim&nbsp;suffers&nbsp;50%&nbsp;additional&nbsp;damage&nbsp;from&nbsp;sources&nbsp;that&nbsp;deal&nbsp;damage&nbsp;of&nbsp;the&nbsp;chosen&nbsp;type&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power.
+      <p>You brutally rewrite the pattern of your target, leaving them
+      vulnerable to further attack. If your target fails its saving throw,
+      choose bludgeoning, cold, fire, electricity, piercing, slashing, or sonic
+      damage. Your victim suffers 50% additional damage from sources that deal
+      damage of the chosen type for the duration of this power.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You may augment this power in one or both of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;your&nbsp;target&nbsp;suffers&nbsp;1d6&nbsp;points&nbsp;of&nbsp;untyped&nbsp;damage&nbsp;as&nbsp;their&nbsp;pattern&nbsp;is&nbsp;violently&nbsp;rent&nbsp;by&nbsp;your&nbsp;will.</li><li>For&nbsp;every&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;affects&nbsp;an&nbsp;additional&nbsp;target&nbsp;within&nbsp;range.</li></ol>
+      </p><ol><li>For every 2 additional power points you spend, your target
+      suffers 1d6 points of untyped damage as their pattern is violently rent by
+      your will.</li><li>For every 4 additional power points you spend, this
+      power affects an additional target within range.</li></ol>
 
-      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;spent&nbsp;on&nbsp;either&nbsp;of&nbsp;the&nbsp;above&nbsp;options,&nbsp;the&nbsp;power's&nbsp;save&nbsp;DC&nbsp;is&nbsp;increased&nbsp;by&nbsp;1.
+      <p>In addition, for every 2 power points spent on either of the above
+      options, the power's save DC is increased by 1.
 
       </p>
 
-      <p><strong>Surge&nbsp;Augmentation:</strong>&nbsp;If&nbsp;you&nbsp;invoke&nbsp;your&nbsp;wild&nbsp;surge&nbsp;when&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;the&nbsp;damage&nbsp;dealt&nbsp;by&nbsp;its&nbsp;first&nbsp;augment&nbsp;option&nbsp;is&nbsp;of&nbsp;the&nbsp;type&nbsp;chosen&nbsp;when&nbsp;your&nbsp;victim&nbsp;failed&nbsp;their&nbsp;saving&nbsp;throw&nbsp;(and&nbsp;therefore&nbsp;deals&nbsp;50%&nbsp;more&nbsp;damage).
+      <p><strong>Surge Augmentation:</strong> If you invoke your wild surge when
+      manifesting this power, the damage dealt by its first augment option is of
+      the type chosen when your victim failed their saving throw (and therefore
+      deals 50% more damage).
 
       </p>
   discipline: psychometabolism

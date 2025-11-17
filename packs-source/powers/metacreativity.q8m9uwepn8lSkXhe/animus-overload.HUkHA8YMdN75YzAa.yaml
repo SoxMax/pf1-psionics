@@ -26,15 +26,28 @@ system:
         type: fort
   description:
     value: >-
-      <p>This&nbsp;power&nbsp;allows&nbsp;the&nbsp;manifester&nbsp;to&nbsp;cause&nbsp;the&nbsp;power&nbsp;of&nbsp;the&nbsp;already-unstable&nbsp;animus&nbsp;within&nbsp;a&nbsp;target&nbsp;to&nbsp;lose&nbsp;containment&nbsp;and&nbsp;become&nbsp;explosive&nbsp;within&nbsp;the&nbsp;target's&nbsp;body.&nbsp;When&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;the&nbsp;manifester&nbsp;makes&nbsp;a&nbsp;touch&nbsp;attack&nbsp;against&nbsp;the&nbsp;target&nbsp;and&nbsp;he&nbsp;may&nbsp;cause&nbsp;1d4&nbsp;points&nbsp;of&nbsp;animus&nbsp;in&nbsp;the&nbsp;target&nbsp;to&nbsp;erupt&nbsp;within&nbsp;them&nbsp;(consuming&nbsp;the&nbsp;point&nbsp;of&nbsp;animus),&nbsp;causing&nbsp;5&nbsp;points&nbsp;of&nbsp;damage&nbsp;per&nbsp;animus&nbsp;point&nbsp;consumed&nbsp;with&nbsp;this&nbsp;ability.&nbsp;The&nbsp;target&nbsp;of&nbsp;this&nbsp;ability&nbsp;may&nbsp;make&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;to&nbsp;negate&nbsp;the&nbsp;damage&nbsp;while&nbsp;they&nbsp;release&nbsp;the&nbsp;dangerous&nbsp;animus&nbsp;from&nbsp;their&nbsp;body,&nbsp;but&nbsp;the&nbsp;animus&nbsp;targeted&nbsp;by&nbsp;this&nbsp;power&nbsp;is&nbsp;consumed.&nbsp;If&nbsp;the&nbsp;target&nbsp;does&nbsp;not&nbsp;possess&nbsp;animus,&nbsp;this&nbsp;power&nbsp;has&nbsp;no&nbsp;effct.
+      <p>This power allows the manifester to cause the power of the
+      already-unstable animus within a target to lose containment and become
+      explosive within the target's body. When manifesting this power, the
+      manifester makes a touch attack against the target and he may cause 1d4
+      points of animus in the target to erupt within them (consuming the point
+      of animus), causing 5 points of damage per animus point consumed with this
+      ability. The target of this ability may make a Fortitude save to negate
+      the damage while they release the dangerous animus from their body, but
+      the animus targeted by this power is consumed. If the target does not
+      possess animus, this power has no effct.
 
       </p>
 
-      <p><strong>Augment:&nbsp;</strong>If&nbsp;you&nbsp;spend&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;points,&nbsp;you&nbsp;may&nbsp;alter&nbsp;the&nbsp;range&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;close&nbsp;range&nbsp;(25&nbsp;feet&nbsp;+&nbsp;5&nbsp;feet&nbsp;per&nbsp;two&nbsp;manifester&nbsp;levels)&nbsp;and&nbsp;make&nbsp;the&nbsp;attack&nbsp;as&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack.
+      <p><strong>Augment: </strong>If you spend an additional 2 power points
+      points, you may alter the range of this power to close range (25 feet + 5
+      feet per two manifester levels) and make the attack as a ranged touch
+      attack.
 
       </p>
 
-      <p>If&nbsp;you&nbsp;spend&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;consume&nbsp;and&nbsp;explode&nbsp;an&nbsp;additional&nbsp;1d4&nbsp;points&nbsp;of&nbsp;animus&nbsp;within&nbsp;the&nbsp;target.
+      <p>If you spend an additional 2 power points, you may consume and explode
+      an additional 1d4 points of animus within the target.
 
       </p>
   discipline: metacreativity

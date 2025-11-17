@@ -22,17 +22,21 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;force&nbsp;of&nbsp;will&nbsp;is&nbsp;heightened&nbsp;against&nbsp;the&nbsp;predations&nbsp;of&nbsp;ghosts&nbsp;and&nbsp;spirits.</em></p>
+      <p><em>Your force of will is heightened against the predations of ghosts
+      and spirits.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Wis&nbsp;13.
-
-      </p>
-
-      <p><strong>Benefit:</strong>&nbsp;While&nbsp;you&nbsp;maintain&nbsp;psionic&nbsp;focus,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;on&nbsp;saves&nbsp;against&nbsp;the&nbsp;abilities&nbsp;of&nbsp;any&nbsp;incorporeal&nbsp;creature.
+      <p><strong>Prerequisite:</strong> Wis 13.
 
       </p>
 
-      <p>Additionally,&nbsp;if&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;part&nbsp;of&nbsp;a&nbsp;save&nbsp;against&nbsp;one&nbsp;of&nbsp;these&nbsp;effects,&nbsp;you&nbsp;instead&nbsp;gain&nbsp;a&nbsp;bonus&nbsp;of&nbsp;+4&nbsp;on&nbsp;that&nbsp;saving&nbsp;throw.
+      <p><strong>Benefit:</strong> While you maintain psionic focus, you gain a
+      +1 bonus on saves against the abilities of any incorporeal creature.
+
+      </p>
+
+      <p>Additionally, if you expend your psionic focus as part of a save
+      against one of these effects, you instead gain a bonus of +4 on that
+      saving throw.
 
       </p>
   disabled: false

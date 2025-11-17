@@ -21,63 +21,35 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>Your&nbsp;experience&nbsp;with&nbsp;joining&nbsp;minds&nbsp;has&nbsp;progressed&nbsp;to
-
-      the&nbsp;point&nbsp;that&nbsp;you&nbsp;are&nbsp;now&nbsp;able&nbsp;to&nbsp;maintain&nbsp;a&nbsp;permanent
-
-      telepathic&nbsp;connection&nbsp;with&nbsp;others.
-
+    value: |-
+      <p>Your experience with joining minds has progressed to
+      the point that you are now able to maintain a permanent
+      telepathic connection with others.
       </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Manifester&nbsp;level&nbsp;3rd,&nbsp;ability&nbsp;to
-
-      manifest&nbsp;<em><a&nbsp;href="/wiki/Mindlink"&nbsp;title="Mindlink">mindlink</a></em>.
-
+      <p><strong>Prerequisites: </strong>Manifester level 3rd, ability to
+      manifest <em><a href="/wiki/Mindlink" title="Mindlink">mindlink</a></em>.
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>As&nbsp;long&nbsp;as&nbsp;you&nbsp;maintain&nbsp;psionic&nbsp;focus,&nbsp;you
-
-      may&nbsp;maintain&nbsp;a&nbsp;telepathic&nbsp;connection&nbsp;between&nbsp;yourself
-
-      and&nbsp;other&nbsp;willing&nbsp;creatures.&nbsp;Creatures&nbsp;so&nbsp;connected&nbsp;may
-
-      communicate&nbsp;with&nbsp;you&nbsp;and&nbsp;each&nbsp;other&nbsp;telepathically,
-
-      even&nbsp;if&nbsp;they&nbsp;do&nbsp;not&nbsp;share&nbsp;a&nbsp;common&nbsp;language.
-
+      <p><strong>Benefit: </strong>As long as you maintain psionic focus, you
+      may maintain a telepathic connection between yourself
+      and other willing creatures. Creatures so connected may
+      communicate with you and each other telepathically,
+      even if they do not share a common language.
       </p>
-
-      <p>As&nbsp;a&nbsp;standard&nbsp;action,&nbsp;you&nbsp;may&nbsp;add&nbsp;any&nbsp;number&nbsp;of
-
-      creatures&nbsp;in&nbsp;line&nbsp;of&nbsp;sight&nbsp;to&nbsp;this&nbsp;link;&nbsp;however&nbsp;the&nbsp;link
-
-      may&nbsp;never&nbsp;contain&nbsp;more&nbsp;creatures&nbsp;than&nbsp;your&nbsp;key&nbsp;ability
-
-      modifier&nbsp;(minimum&nbsp;1).&nbsp;You&nbsp;are&nbsp;always&nbsp;a&nbsp;member&nbsp;of&nbsp;the
-
-      link&nbsp;and&nbsp;do&nbsp;not&nbsp;count&nbsp;against&nbsp;this&nbsp;limit.&nbsp;You&nbsp;may&nbsp;remove
-
-      any&nbsp;number&nbsp;of&nbsp;creatures&nbsp;from&nbsp;the&nbsp;link&nbsp;as&nbsp;a&nbsp;free&nbsp;action,
-
-      and&nbsp;any&nbsp;creature&nbsp;within&nbsp;the&nbsp;link&nbsp;may&nbsp;remove&nbsp;itself&nbsp;as
-
-      a&nbsp;free&nbsp;action.&nbsp;Any&nbsp;creature&nbsp;in&nbsp;the&nbsp;link&nbsp;which&nbsp;moves
-
-      beyond&nbsp;medium&nbsp;range&nbsp;(100&nbsp;ft.&nbsp;+&nbsp;10&nbsp;ft./manifester&nbsp;level)
-
-      from&nbsp;you&nbsp;or&nbsp;falls&nbsp;unconscious&nbsp;or&nbsp;dies&nbsp;is&nbsp;automatically
-
-      removed&nbsp;from&nbsp;the&nbsp;link.
-
+      <p>As a standard action, you may add any number of
+      creatures in line of sight to this link; however the link
+      may never contain more creatures than your key ability
+      modifier (minimum 1). You are always a member of the
+      link and do not count against this limit. You may remove
+      any number of creatures from the link as a free action,
+      and any creature within the link may remove itself as
+      a free action. Any creature in the link which moves
+      beyond medium range (100 ft. + 10 ft./manifester level)
+      from you or falls unconscious or dies is automatically
+      removed from the link.
       </p>
-
-      <p><strong>Special:&nbsp;</strong>You&nbsp;may&nbsp;take&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;times.&nbsp;Each
-
-      additional&nbsp;time,&nbsp;the&nbsp;maximum&nbsp;number&nbsp;of&nbsp;creatures&nbsp;in
-
-      the&nbsp;link&nbsp;is&nbsp;increased&nbsp;by&nbsp;2.
-
+      <p><strong>Special: </strong>You may take this feat multiple times. Each
+      additional time, the maximum number of creatures in
+      the link is increased by 2.
       </p>
   disabled: false
   featType: feat

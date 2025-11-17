@@ -22,53 +22,56 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>Your&nbsp;deadly&nbsp;strikes&nbsp;against&nbsp;incorporeal&nbsp;foes&nbsp;more
+      <p>Your deadly strikes against incorporeal foes more
 
-      frequently&nbsp;find&nbsp;their&nbsp;mark.
-
-      </p>
-
-      <p><strong>Prerequisite:&nbsp;</strong>Base&nbsp;attack&nbsp;bonus&nbsp;+3.
+      frequently find their mark.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;must&nbsp;be&nbsp;psionically&nbsp;focused&nbsp;to&nbsp;use&nbsp;this
+      <p><strong>Prerequisite: </strong>Base attack bonus +3.
 
-      feat.&nbsp;When&nbsp;you&nbsp;make&nbsp;a&nbsp;successful&nbsp;melee&nbsp;attack&nbsp;or&nbsp;a
+      </p>
 
-      ranged&nbsp;attack&nbsp;against&nbsp;an&nbsp;incorporeal&nbsp;creature,&nbsp;your
+      <p><strong>Benefit: </strong>You must be psionically focused to use this
 
-      attack&nbsp;deals&nbsp;75%&nbsp;damage&nbsp;instead&nbsp;of&nbsp;the&nbsp;standard&nbsp;50%
+      feat. When you make a successful melee attack or a
+
+      ranged attack against an incorporeal creature, your
+
+      attack deals 75% damage instead of the standard 50%
 
       damage.
 
       </p>
 
-      <p>If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;part&nbsp;of&nbsp;the&nbsp;attack,
+      <p>If you expend your psionic focus as part of the attack,
 
-      your&nbsp;attack&nbsp;deals&nbsp;full&nbsp;damage.&nbsp;&nbsp;You&nbsp;must&nbsp;decide&nbsp;whether
+      your attack deals full damage.  You must decide whether
 
-      or&nbsp;not&nbsp;to&nbsp;use&nbsp;this&nbsp;option&nbsp;prior&nbsp;to&nbsp;making&nbsp;an&nbsp;attack.&nbsp;If
+      or not to use this option prior to making an attack. If
 
-      your&nbsp;attack&nbsp;misses,&nbsp;you&nbsp;still&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.
+      your attack misses, you still expend your psionic focus.
 
-      Your&nbsp;weapon&nbsp;or&nbsp;natural&nbsp;weapon&nbsp;actually&nbsp;appears&nbsp;to
+      Your weapon or natural weapon actually appears to
 
-      become&nbsp;briefly&nbsp;incorporeal&nbsp;as&nbsp;the&nbsp;attack&nbsp;is&nbsp;made.
-
-      </p>
-
-      <p><br&nbsp;/></p>
-
-      <p>Your&nbsp;attacks&nbsp;against&nbsp;the&nbsp;incorporeal&nbsp;are&nbsp;more&nbsp;especially&nbsp;effective.
+      become briefly incorporeal as the attack is made.
 
       </p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Ghost&nbsp;Attack.
+      <p><br /></p>
+
+      <p>Your attacks against the incorporeal are more especially effective.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;Your&nbsp;attacks&nbsp;against&nbsp;incorporeal&nbsp;creatures&nbsp;always&nbsp;deal&nbsp;full&nbsp;damage.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;when&nbsp;you&nbsp;make&nbsp;a&nbsp;successful&nbsp;attack&nbsp;against&nbsp;an&nbsp;incorporeal&nbsp;creature&nbsp;to&nbsp;deal&nbsp;an&nbsp;additional&nbsp;amount&nbsp;of&nbsp;damage&nbsp;equal&nbsp;to&nbsp;your&nbsp;tier.&nbsp;
+      <p><strong>Prerequisite:</strong> Ghost Attack.
+
+      </p>
+
+      <p><strong>Benefit:</strong> Your attacks against incorporeal creatures
+      always deal full damage. In addition, you can expend a use of mythic power
+      as a swift action when you make a successful attack against an incorporeal
+      creature to deal an additional amount of damage equal to your tier. 
 
       </p>
   disabled: false

@@ -1,0 +1,79 @@
+_id: t4ug36RwhcFdN2HU
+_key: '!items!t4ug36RwhcFdN2HU'
+_stats:
+  coreVersion: '13.351'
+flags:
+  pf1-psionics:
+    fromRace: Duergar (Psionic)
+folder: eO1zo5p3MR2tO6Xo
+img: icons/environment/people/group.webp
+name: Whispers of Insanity
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>Some duergar hum insane lullabies mentally, rather than vocally, in a
+      subconscious attempt to keep That Which Sleeps Beneath asleep, while they
+      themselves suffer from insomnia. Duergar with this trait gain a +2 bonus
+      on Perception and Stealth checks, and the DC to make Perception checks
+      while sleeping is only +5 (rather than +10).</p><p><em>This trait replaces
+      the Duergar Psionics trait.</em></p>
+  disabled: false
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+  traitCategory: alternate
+type: feat

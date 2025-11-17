@@ -29,11 +29,18 @@ system:
         value: One creature
   description:
     value: >-
-      <p>Your&nbsp;mental&nbsp;impulse&nbsp;forces&nbsp;the&nbsp;subject&nbsp;to&nbsp;repeat&nbsp;the&nbsp;actions&nbsp;it&nbsp;took&nbsp;on&nbsp;its&nbsp;previous&nbsp;turn.&nbsp;If&nbsp;the&nbsp;situation&nbsp;has&nbsp;changed&nbsp;in&nbsp;such&nbsp;a&nbsp;way&nbsp;that&nbsp;the&nbsp;subject&nbsp;can't&nbsp;take&nbsp;the&nbsp;same&nbsp;actions&nbsp;again&nbsp;(if&nbsp;its&nbsp;foe&nbsp;is&nbsp;dead,&nbsp;or&nbsp;the&nbsp;subject&nbsp;has&nbsp;run&nbsp;out&nbsp;of&nbsp;power&nbsp;points,&nbsp;and&nbsp;so&nbsp;on),&nbsp;the&nbsp;subject&nbsp;stands&nbsp;still&nbsp;and&nbsp;takes&nbsp;no&nbsp;actions&nbsp;for&nbsp;1&nbsp;round.&nbsp;In&nbsp;any&nbsp;event,&nbsp;the&nbsp;subject&nbsp;can&nbsp;still&nbsp;defend&nbsp;itself,&nbsp;and&nbsp;it&nbsp;retains&nbsp;its&nbsp;Dexterity&nbsp;bonus&nbsp;to&nbsp;AC&nbsp;even&nbsp;if&nbsp;it&nbsp;stands&nbsp;still.
+      <p>Your mental impulse forces the subject to repeat the actions it took on
+      its previous turn. If the situation has changed in such a way that the
+      subject can't take the same actions again (if its foe is dead, or the
+      subject has run out of power points, and so on), the subject stands still
+      and takes no actions for 1 round. In any event, the subject can still
+      defend itself, and it retains its Dexterity bonus to AC even if it stands
+      still.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+      <p><strong>Augment:</strong> For every 2 additional power points you
+      spend, this power's save DC increases by 1.
 
       </p>
   descriptors:

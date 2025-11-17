@@ -30,11 +30,17 @@ system:
         value: Creature touched; see text
   description:
     value: >-
-      <p>A&nbsp;fluttering&nbsp;of&nbsp;your&nbsp;eyelashes&nbsp;reveals&nbsp;your&nbsp;concentration&nbsp;as&nbsp;you&nbsp;expend&nbsp;extraordinary&nbsp;effort&nbsp;restructuring&nbsp;the&nbsp;biological&nbsp;makeup&nbsp;of&nbsp;your&nbsp;ally,&nbsp;granting&nbsp;them&nbsp;extra&nbsp;ability.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power&nbsp;upon&nbsp;an&nbsp;ally&nbsp;with&nbsp;the&nbsp;ability&nbsp;to&nbsp;form&nbsp;an&nbsp;astral&nbsp;suit,&nbsp;they&nbsp;gain&nbsp;an&nbsp;extra&nbsp;customization&nbsp;point&nbsp;which&nbsp;they&nbsp;can&nbsp;spend&nbsp;on&nbsp;their&nbsp;turn&nbsp;as&nbsp;a&nbsp;free&nbsp;action.&nbsp;When&nbsp;this&nbsp;power&nbsp;expires,&nbsp;the&nbsp;customization&nbsp;invested&nbsp;is&nbsp;removed&nbsp;automatically.
+      <p>A fluttering of your eyelashes reveals your concentration as you expend
+      extraordinary effort restructuring the biological makeup of your ally,
+      granting them extra ability. When you manifest this power upon an ally
+      with the ability to form an astral suit, they gain an extra customization
+      point which they can spend on their turn as a free action. When this power
+      expires, the customization invested is removed automatically.
 
       </p>
 
-      <p><strong>Augment:&nbsp;</strong>For&nbsp;every&nbsp;four&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;recipient&nbsp;is&nbsp;granted&nbsp;an&nbsp;additional&nbsp;customization&nbsp;point.
+      <p><strong>Augment: </strong>For every four additional power points you
+      spend, the recipient is granted an additional customization point.
 
       </p>
   discipline: psychometabolism

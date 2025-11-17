@@ -32,19 +32,38 @@ system:
         value: You and touched objects or other touched willing creatures
   description:
     value: >-
-      <p>You&nbsp;instantly&nbsp;transfer&nbsp;yourself&nbsp;from&nbsp;your&nbsp;current&nbsp;location&nbsp;to&nbsp;any&nbsp;other&nbsp;spot&nbsp;within&nbsp;range.&nbsp;You&nbsp;always&nbsp;arrive&nbsp;at&nbsp;exactly&nbsp;the&nbsp;spot&nbsp;desired—whether&nbsp;by&nbsp;simply&nbsp;visualizing&nbsp;the&nbsp;area&nbsp;or&nbsp;by&nbsp;stating&nbsp;direction.&nbsp;After&nbsp;using&nbsp;this&nbsp;power,&nbsp;you&nbsp;can't&nbsp;take&nbsp;any&nbsp;other&nbsp;actions&nbsp;until&nbsp;your&nbsp;next&nbsp;turn.&nbsp;You&nbsp;can&nbsp;bring&nbsp;along&nbsp;objects&nbsp;as&nbsp;long&nbsp;as&nbsp;their&nbsp;weight&nbsp;doesn't&nbsp;exceed&nbsp;your&nbsp;maximum&nbsp;load.&nbsp;You&nbsp;may&nbsp;also&nbsp;bring&nbsp;one&nbsp;additional&nbsp;willing&nbsp;Medium&nbsp;or&nbsp;smaller&nbsp;creature&nbsp;(carrying&nbsp;gear&nbsp;or&nbsp;objects&nbsp;up&nbsp;to&nbsp;its&nbsp;maximum&nbsp;load)&nbsp;or&nbsp;its&nbsp;equivalent&nbsp;per&nbsp;three&nbsp;manifester&nbsp;levels.&nbsp;A&nbsp;Large&nbsp;creature&nbsp;counts&nbsp;as&nbsp;two&nbsp;Medium&nbsp;creatures,&nbsp;a&nbsp;Huge&nbsp;creature&nbsp;counts&nbsp;as&nbsp;two&nbsp;Large&nbsp;creatures,&nbsp;and&nbsp;so&nbsp;forth.&nbsp;All&nbsp;creatures&nbsp;to&nbsp;be&nbsp;transported&nbsp;must&nbsp;be&nbsp;in&nbsp;contact&nbsp;with&nbsp;one&nbsp;another,&nbsp;and&nbsp;at&nbsp;least&nbsp;one&nbsp;of&nbsp;those&nbsp;creatures&nbsp;must&nbsp;be&nbsp;in&nbsp;contact&nbsp;with&nbsp;you.
+      <p>You instantly transfer yourself from your current location to any other
+      spot within range. You always arrive at exactly the spot desired—whether
+      by simply visualizing the area or by stating direction. After using this
+      power, you can't take any other actions until your next turn. You can
+      bring along objects as long as their weight doesn't exceed your maximum
+      load. You may also bring one additional willing Medium or smaller creature
+      (carrying gear or objects up to its maximum load) or its equivalent per
+      three manifester levels. A Large creature counts as two Medium creatures,
+      a Huge creature counts as two Large creatures, and so forth. All creatures
+      to be transported must be in contact with one another, and at least one of
+      those creatures must be in contact with you.
 
       </p>
 
-      <p>If&nbsp;you&nbsp;arrive&nbsp;in&nbsp;a&nbsp;place&nbsp;that&nbsp;is&nbsp;already&nbsp;occupied&nbsp;by&nbsp;a&nbsp;solid&nbsp;body,&nbsp;you&nbsp;and&nbsp;each&nbsp;creature&nbsp;traveling&nbsp;with&nbsp;you&nbsp;take&nbsp;1d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;and&nbsp;are&nbsp;shunted&nbsp;to&nbsp;a&nbsp;random&nbsp;open&nbsp;space&nbsp;on&nbsp;a&nbsp;suitable&nbsp;surface&nbsp;within&nbsp;100&nbsp;feet&nbsp;of&nbsp;the&nbsp;intended&nbsp;location.
+      <p>If you arrive in a place that is already occupied by a solid body, you
+      and each creature traveling with you take 1d6 points of damage and are
+      shunted to a random open space on a suitable surface within 100 feet of
+      the intended location.
 
       </p>
 
-      <p>If&nbsp;there&nbsp;is&nbsp;no&nbsp;free&nbsp;space&nbsp;within&nbsp;100&nbsp;feet,&nbsp;you&nbsp;and&nbsp;each&nbsp;creature&nbsp;traveling&nbsp;with&nbsp;you&nbsp;take&nbsp;an&nbsp;additional&nbsp;2d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;and&nbsp;are&nbsp;shunted&nbsp;to&nbsp;a&nbsp;free&nbsp;space&nbsp;within&nbsp;1,000&nbsp;feet.&nbsp;If&nbsp;there&nbsp;is&nbsp;no&nbsp;free&nbsp;space&nbsp;within&nbsp;1,000&nbsp;feet,&nbsp;you&nbsp;and&nbsp;each&nbsp;creature&nbsp;travelling&nbsp;with&nbsp;you&nbsp;take&nbsp;an&nbsp;additional&nbsp;4d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;and&nbsp;the&nbsp;power&nbsp;simply&nbsp;fails.
+      <p>If there is no free space within 100 feet, you and each creature
+      traveling with you take an additional 2d6 points of damage and are shunted
+      to a free space within 1,000 feet. If there is no free space within 1,000
+      feet, you and each creature travelling with you take an additional 4d6
+      points of damage and the power simply fails.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;as&nbsp;a&nbsp;move&nbsp;action,&nbsp;although&nbsp;you&nbsp;still&nbsp;cannot&nbsp;take&nbsp;any&nbsp;other&nbsp;actions&nbsp;until&nbsp;your&nbsp;next&nbsp;turn.
+      <p><strong>Augment:</strong> If you spend 6 additional power points, you
+      can manifest this power as a move action, although you still cannot take
+      any other actions until your next turn.
 
       </p>
   discipline: psychoportation

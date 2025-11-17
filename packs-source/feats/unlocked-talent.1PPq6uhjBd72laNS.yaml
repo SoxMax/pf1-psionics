@@ -1,0 +1,84 @@
+_id: 1PPq6uhjBd72laNS
+_key: '!items!1PPq6uhjBd72laNS'
+_stats:
+  coreVersion: '13.351'
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Unlocked Talent
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p><em>You have discovered your psionic ability, granting you limited
+      manifesting ability.</em></p><p><strong>Prerequisite:
+      </strong>@UUID[Compendium.pf1-psionics.feats.Item.dtygVowbi3UPpTDb]{Wild
+      Talent}.</p><p><strong>Benefit: </strong>You gain 2 power points. In
+      addition, when you take this feat, select any one 1st level power. You
+      treat this power as a power known and can manifest this power with a
+      manifester level of 1 as long as you have a Charisma score of at least 11.
+      Use your Charisma modifier to determine any applicable save DCs. If you
+      have manifester levels from a psionic class, you may instead use the
+      manifester level from that class when manifesting the power gained from
+      this feat, as well as the appropriate key ability
+      modifier.</p><p><strong>Special: </strong>The manifester level when
+      manifesting the power granted from this feat is not a true manifester
+      level and does not count as a manifester level for purposes such as bonus
+      power points, feat, item creation, or prestige class prerequisites.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: feat
+  summons: false
+type: feat

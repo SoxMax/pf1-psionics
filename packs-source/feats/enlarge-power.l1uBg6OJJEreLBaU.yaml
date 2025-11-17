@@ -22,53 +22,64 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;manifest&nbsp;powers&nbsp;farther&nbsp;than&nbsp;normal.
+      <p>You can manifest powers farther than normal.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your
+      <p><strong>Benefit: </strong>To use this feat, you must expend your
 
-      psionic&nbsp;focus.&nbsp;You&nbsp;can&nbsp;alter&nbsp;a&nbsp;power&nbsp;with&nbsp;a&nbsp;range&nbsp;of
+      psionic focus. You can alter a power with a range of
 
-      close,&nbsp;medium,&nbsp;or&nbsp;long&nbsp;to&nbsp;increase&nbsp;its&nbsp;range&nbsp;by&nbsp;100%.
+      close, medium, or long to increase its range by 100%.
 
-      An&nbsp;enlarged&nbsp;power&nbsp;with&nbsp;a&nbsp;range&nbsp;of&nbsp;close&nbsp;has&nbsp;a&nbsp;range&nbsp;of
+      An enlarged power with a range of close has a range of
 
-      50&nbsp;feet&nbsp;+&nbsp;5&nbsp;feet&nbsp;per&nbsp;level,&nbsp;a&nbsp;medium-range&nbsp;power&nbsp;has&nbsp;a
+      50 feet + 5 feet per level, a medium-range power has a
 
-      range&nbsp;of&nbsp;200&nbsp;feet&nbsp;+&nbsp;20&nbsp;feet&nbsp;per&nbsp;level,&nbsp;and&nbsp;a&nbsp;long-range
+      range of 200 feet + 20 feet per level, and a long-range
 
-      power&nbsp;has&nbsp;a&nbsp;range&nbsp;of&nbsp;800&nbsp;feet&nbsp;+&nbsp;80&nbsp;feet&nbsp;per&nbsp;level.
+      power has a range of 800 feet + 80 feet per level.
 
-      Powers&nbsp;whose&nbsp;ranges&nbsp;are&nbsp;not&nbsp;defined&nbsp;by&nbsp;distance,&nbsp;as
+      Powers whose ranges are not defined by distance, as
 
-      well&nbsp;as&nbsp;powers&nbsp;whose&nbsp;ranges&nbsp;are&nbsp;not&nbsp;close,&nbsp;medium,&nbsp;or
+      well as powers whose ranges are not close, medium, or
 
-      long,&nbsp;are&nbsp;not&nbsp;affected.
-
-      </p>
-
-      <p>Using&nbsp;this&nbsp;feat&nbsp;does&nbsp;not&nbsp;increase&nbsp;the&nbsp;power&nbsp;point&nbsp;cost
-
-      of&nbsp;the&nbsp;power.
+      long, are not affected.
 
       </p>
 
-      <p><br&nbsp;/></p>
+      <p>Using this feat does not increase the power point cost
 
-      <p>You&nbsp;can&nbsp;triple&nbsp;the&nbsp;range&nbsp;of&nbsp;a&nbsp;power.
-
-      </p>
-
-      <p><strong>Prerequisite:</strong>&nbsp;Enlarge&nbsp;Power.
+      of the power.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;manifest&nbsp;a&nbsp;power&nbsp;with&nbsp;a&nbsp;range&nbsp;of&nbsp;close,&nbsp;medium,&nbsp;or&nbsp;long&nbsp;affected&nbsp;by&nbsp;Enlarge&nbsp;Power,&nbsp;its&nbsp;range&nbsp;is&nbsp;increased&nbsp;by&nbsp;+200%.&nbsp;An&nbsp;enlarged&nbsp;power&nbsp;with&nbsp;a&nbsp;range&nbsp;of&nbsp;close&nbsp;now&nbsp;has&nbsp;a&nbsp;range&nbsp;of&nbsp;75&nbsp;ft.&nbsp;+&nbsp;15&nbsp;ft./2&nbsp;levels,&nbsp;while&nbsp;medium-range&nbsp;powers&nbsp;have&nbsp;a&nbsp;range&nbsp;of&nbsp;300&nbsp;ft.&nbsp;+&nbsp;30&nbsp;ft./level&nbsp;and&nbsp;long-range&nbsp;powers&nbsp;have&nbsp;a&nbsp;range&nbsp;of&nbsp;1,200&nbsp;ft.&nbsp;+&nbsp;120&nbsp;ft./level.&nbsp;Alternatively,&nbsp;you&nbsp;may&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;to&nbsp;manifest&nbsp;a&nbsp;power&nbsp;as&nbsp;an&nbsp;enlarged&nbsp;power&nbsp;(gaining&nbsp;only&nbsp;the&nbsp;normal&nbsp;benefits&nbsp;of&nbsp;an&nbsp;enlarged&nbsp;power,&nbsp;rather&nbsp;than&nbsp;the&nbsp;increased&nbsp;benefits&nbsp;outlined&nbsp;above)&nbsp;without&nbsp;increasing&nbsp;the&nbsp;number&nbsp;of&nbsp;power&nbsp;points&nbsp;spent&nbsp;or&nbsp;expending&nbsp;psionic&nbsp;focus.&nbsp;
+      <p><br /></p>
+
+      <p>You can triple the range of a power.
 
       </p>
 
-      <p><strong>Normal:</strong>&nbsp;An&nbsp;enlarged&nbsp;power&nbsp;with&nbsp;a&nbsp;range&nbsp;of&nbsp;close&nbsp;has&nbsp;a&nbsp;range&nbsp;of&nbsp;50&nbsp;ft.&nbsp;+&nbsp;5&nbsp;ft./level,&nbsp;while&nbsp;medium-range&nbsp;powers&nbsp;have&nbsp;a&nbsp;range&nbsp;of&nbsp;200&nbsp;ft.&nbsp;+&nbsp;20&nbsp;ft./level&nbsp;and&nbsp;longrange&nbsp;powers&nbsp;have&nbsp;a&nbsp;range&nbsp;of&nbsp;800&nbsp;ft.&nbsp;+&nbsp;80&nbsp;ft./level.&nbsp;
+      <p><strong>Prerequisite:</strong> Enlarge Power.
+
+      </p>
+
+      <p><strong>Benefit:</strong> When you manifest a power with a range of
+      close, medium, or long affected by Enlarge Power, its range is increased
+      by +200%. An enlarged power with a range of close now has a range of 75
+      ft. + 15 ft./2 levels, while medium-range powers have a range of 300 ft. +
+      30 ft./level and long-range powers have a range of 1,200 ft. + 120
+      ft./level. Alternatively, you may expend a use of mythic power to manifest
+      a power as an enlarged power (gaining only the normal benefits of an
+      enlarged power, rather than the increased benefits outlined above) without
+      increasing the number of power points spent or expending psionic focus. 
+
+      </p>
+
+      <p><strong>Normal:</strong> An enlarged power with a range of close has a
+      range of 50 ft. + 5 ft./level, while medium-range powers have a range of
+      200 ft. + 20 ft./level and longrange powers have a range of 800 ft. + 80
+      ft./level. 
 
       </p>
   disabled: false

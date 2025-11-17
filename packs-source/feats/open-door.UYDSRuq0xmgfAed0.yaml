@@ -21,37 +21,22 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>Once&nbsp;you&nbsp;have&nbsp;pried&nbsp;the&nbsp;gates&nbsp;open&nbsp;into&nbsp;another&nbsp;mind,
-
-      you&nbsp;can&nbsp;always&nbsp;return&nbsp;there&nbsp;no&nbsp;matter&nbsp;how&nbsp;long&nbsp;it&nbsp;has
-
+    value: |-
+      <p>Once you have pried the gates open into another mind,
+      you can always return there no matter how long it has
       been.
-
       </p>
-
-      <p><strong>Prerequisite:&nbsp;</strong>Mindlock&nbsp;class&nbsp;feature.
-
+      <p><strong>Prerequisite: </strong>Mindlock class feature.
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>Once&nbsp;an&nbsp;individual&nbsp;has&nbsp;failed&nbsp;a&nbsp;Will&nbsp;save&nbsp;to
-
-      avoid&nbsp;being&nbsp;mindlocked&nbsp;by&nbsp;you,&nbsp;you&nbsp;can&nbsp;attune&nbsp;yourself
-
-      to&nbsp;that&nbsp;creature.&nbsp;You&nbsp;can&nbsp;only&nbsp;be&nbsp;attuned&nbsp;to&nbsp;one&nbsp;creature
-
-      in&nbsp;such&nbsp;a&nbsp;way&nbsp;at&nbsp;any&nbsp;given&nbsp;time.&nbsp;You&nbsp;can&nbsp;reactivate
-
-      the&nbsp;mindlock&nbsp;to&nbsp;your&nbsp;attuned&nbsp;creature&nbsp;at&nbsp;any&nbsp;time&nbsp;by
-
-      spending&nbsp;1&nbsp;power&nbsp;point&nbsp;as&nbsp;a&nbsp;free&nbsp;action,&nbsp;regardless&nbsp;of
-
-      the&nbsp;time&nbsp;since&nbsp;you&nbsp;first&nbsp;mindlocked&nbsp;the&nbsp;target.&nbsp;This
-
-      means&nbsp;that&nbsp;they&nbsp;count&nbsp;as&nbsp;having&nbsp;failed&nbsp;their&nbsp;Will&nbsp;save
-
+      <p><strong>Benefit: </strong>Once an individual has failed a Will save to
+      avoid being mindlocked by you, you can attune yourself
+      to that creature. You can only be attuned to one creature
+      in such a way at any given time. You can reactivate
+      the mindlock to your attuned creature at any time by
+      spending 1 power point as a free action, regardless of
+      the time since you first mindlocked the target. This
+      means that they count as having failed their Will save
       again.
-
       </p>
   disabled: false
   featType: feat

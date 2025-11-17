@@ -1,0 +1,32 @@
+_id: kuC9sbprrCxPkPAF
+_key: '!items!kuC9sbprrCxPkPAF'
+_stats:
+  coreVersion: '13.350'
+folder: R7AoIomzfNGuWBKp
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Fate in Flux
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: >-
+      <p>At 16th level, a voyager gains unique insight into the nonlinear nature
+      of time, and can reach back to adjust one of the decisions she made in the
+      past. Once per day, by meditating for 10 minutes, the voyager can use <a
+      href="/wiki/Psychic_Reformation" title="Psychic Reformation">psychic
+      reformation</a> as a psi-like ability. She can only target herself with
+      this effect, takes no penalties from it. In addition to the power's normal
+      effect, the voyager can also change her parallel actions known when she
+      uses this ability.
+
+      </p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
+  subType: classFeat
+  tag: fate-in-flux
+type: feat

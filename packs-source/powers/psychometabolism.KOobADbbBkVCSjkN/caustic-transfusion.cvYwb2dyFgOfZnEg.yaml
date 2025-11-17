@@ -33,15 +33,25 @@ system:
         value: One creature (see text)
   description:
     value: >-
-      <p>You&nbsp;convert&nbsp;large&nbsp;portions&nbsp;of&nbsp;your&nbsp;target's&nbsp;blood&nbsp;to&nbsp;a&nbsp;caustic&nbsp;fluid,&nbsp;wracking&nbsp;them&nbsp;with&nbsp;pain&nbsp;and&nbsp;misery.&nbsp;The&nbsp;target&nbsp;takes&nbsp;2d6&nbsp;acid&nbsp;damage&nbsp;at&nbsp;the&nbsp;start&nbsp;of&nbsp;their&nbsp;turn&nbsp;and&nbsp;becomes&nbsp;fatigued&nbsp;until&nbsp;the&nbsp;beginning&nbsp;of&nbsp;their&nbsp;text&nbsp;turn.&nbsp;A&nbsp;successful&nbsp;Fortitude&nbsp;save&nbsp;halves&nbsp;the&nbsp;damage&nbsp;and&nbsp;negates&nbsp;the&nbsp;fatigued&nbsp;condition.&nbsp;If&nbsp;the&nbsp;target&nbsp;is&nbsp;suffering&nbsp;bleed&nbsp;damage&nbsp;at&nbsp;the&nbsp;beginning&nbsp;of&nbsp;its&nbsp;turn,&nbsp;adjacent&nbsp;creatures&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Reflex&nbsp;save&nbsp;or&nbsp;suffer&nbsp;the&nbsp;damage&nbsp;dealt&nbsp;by&nbsp;this&nbsp;power&nbsp;as&nbsp;well.
+      <p>You convert large portions of your target's blood to a caustic fluid,
+      wracking them with pain and misery. The target takes 2d6 acid damage at
+      the start of their turn and becomes fatigued until the beginning of their
+      text turn. A successful Fortitude save halves the damage and negates the
+      fatigued condition. If the target is suffering bleed damage at the
+      beginning of its turn, adjacent creatures must succeed at a Reflex save or
+      suffer the damage dealt by this power as well.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;the&nbsp;following&nbsp;ways:
+      <p><strong>Augment:</strong> You may augment this power in the following
+      ways:
 
-      </p><ul><li>For&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;its&nbsp;damage&nbsp;increases&nbsp;by&nbsp;one&nbsp;die&nbsp;(d6).</li><li>If&nbsp;you&nbsp;spend&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;victims&nbsp;that&nbsp;fail&nbsp;their&nbsp;saving&nbsp;throws&nbsp;also&nbsp;become&nbsp;nauseated&nbsp;for&nbsp;1&nbsp;round.</li></ul>
+      </p><ul><li>For every 2 power points you spend, its damage increases by
+      one die (d6).</li><li>If you spend an additional 4 power points, victims
+      that fail their saving throws also become nauseated for 1 round.</li></ul>
 
-      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;spent&nbsp;to&nbsp;achieve&nbsp;either&nbsp;of&nbsp;these&nbsp;results,&nbsp;increase&nbsp;the&nbsp;save&nbsp;DC&nbsp;of&nbsp;this&nbsp;power&nbsp;by&nbsp;1.
+      <p>In addition, for every 2 power points spent to achieve either of these
+      results, increase the save DC of this power by 1.
 
       </p>
   descriptors:

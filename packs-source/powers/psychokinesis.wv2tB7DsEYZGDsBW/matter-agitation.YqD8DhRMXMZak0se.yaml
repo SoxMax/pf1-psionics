@@ -32,13 +32,22 @@ system:
         value: 2 sq. ft. of surface area of an object or creature
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;excite&nbsp;the&nbsp;structure&nbsp;of&nbsp;a&nbsp;nonpsionic,&nbsp;nonmagical&nbsp;object,&nbsp;heating&nbsp;it&nbsp;to&nbsp;the&nbsp;point&nbsp;of&nbsp;combustion&nbsp;over&nbsp;time.&nbsp;The&nbsp;agitation&nbsp;grows&nbsp;more&nbsp;intense&nbsp;in&nbsp;the&nbsp;second&nbsp;and&nbsp;third&nbsp;rounds&nbsp;after&nbsp;you&nbsp;manifest&nbsp;the&nbsp;power,&nbsp;as&nbsp;described&nbsp;below.
+      <p>You can excite the structure of a nonpsionic, nonmagical object,
+      heating it to the point of combustion over time. The agitation grows more
+      intense in the second and third rounds after you manifest the power, as
+      described below.
 
-      </p><ul><li><em>1st&nbsp;Round:</em>&nbsp;Readily&nbsp;flammable&nbsp;material&nbsp;(paper,&nbsp;dry&nbsp;grass,&nbsp;tinder,&nbsp;torches)&nbsp;ignites.&nbsp;Skin&nbsp;reddens&nbsp;(1&nbsp;point&nbsp;of&nbsp;damage).</li></ul>
+      </p><ul><li><em>1st Round:</em> Readily flammable material (paper, dry
+      grass, tinder, torches) ignites. Skin reddens (1 point of
+      damage).</li></ul>
 
-      <ul><li><em>2nd&nbsp;Round:</em>&nbsp;Wood&nbsp;smolders&nbsp;and&nbsp;smokes,&nbsp;metal&nbsp;becomes&nbsp;hot&nbsp;to&nbsp;the&nbsp;touch,&nbsp;skin&nbsp;blisters&nbsp;(1d4&nbsp;points&nbsp;of&nbsp;damage),&nbsp;hair&nbsp;smolders,&nbsp;paint&nbsp;shrivels,&nbsp;water&nbsp;boils.</li></ul>
+      <ul><li><em>2nd Round:</em> Wood smolders and smokes, metal becomes hot to
+      the touch, skin blisters (1d4 points of damage), hair smolders, paint
+      shrivels, water boils.</li></ul>
 
-      <ul><li><em>3rd&nbsp;and&nbsp;Subsequent&nbsp;Rounds:</em>&nbsp;Wood&nbsp;ignites,&nbsp;metal&nbsp;scorches&nbsp;(1d4&nbsp;points&nbsp;of&nbsp;damage&nbsp;for&nbsp;those&nbsp;holding&nbsp;metallic&nbsp;objects).&nbsp;Skin&nbsp;burns&nbsp;and&nbsp;hair&nbsp;ignites&nbsp;(1d6&nbsp;points&nbsp;of&nbsp;damage),&nbsp;lead&nbsp;melts.</li></ul>
+      <ul><li><em>3rd and Subsequent Rounds:</em> Wood ignites, metal scorches
+      (1d4 points of damage for those holding metallic objects). Skin burns and
+      hair ignites (1d6 points of damage), lead melts.</li></ul>
   discipline: psychokinesis
   display:
     auditory: true

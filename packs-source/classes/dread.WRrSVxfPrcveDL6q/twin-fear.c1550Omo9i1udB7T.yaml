@@ -1,0 +1,40 @@
+_id: c1550Omo9i1udB7T
+_key: '!items!c1550Omo9i1udB7T'
+_stats:
+  coreVersion: '13.350'
+folder: WRrSVxfPrcveDL6q
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Twin Fear
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Dread
+  description:
+    value: >-
+      <p>When a dread of at least 11th level has a shadow twin active, if any
+      creature within 30 ft. of the dread or the shadow twin suffers from the
+      shaken, frightened, or panicked condition at the start of the dread's
+      turn, the shadow twin uses a separate action pool instead of sharing the
+      round's actions with the dread for that round. This means that it and the
+      dread could both make attacks in the same round.
+
+      </p><p>At 15th level, if any creature within 30 ft. of the dread or shadow
+      twin suffers from the frightened or panicked condition, the shadow twin is
+      treated as if under the affect of the <a href="/wiki/Form_of_Doom"
+      class="mw-redirect" title="Form of Doom">form of doom</a> power. Unlike
+      other effects, the dread is not also under this effect.
+
+      </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 43–47
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 40–44
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: twin-fear
+type: feat

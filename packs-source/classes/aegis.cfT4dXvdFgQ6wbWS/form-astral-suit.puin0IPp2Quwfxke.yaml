@@ -1,0 +1,50 @@
+_id: puin0IPp2Quwfxke
+_key: '!items!puin0IPp2Quwfxke'
+_stats:
+  coreVersion: '13.350'
+folder: cfT4dXvdFgQ6wbWS
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Form Astral Suit
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Aegis
+  description:
+    value: >-
+      <p>Every aegis learns to draw forth ectoplasm and form an astral suit
+      around their form. The aegis can select from three different types when
+      forming his astral suit – skin, armor, or juggernaut. An aegis is always
+      considered to be proficient with his astral suit, even if he does not have
+      the appropriate armor proficiency. The amount of time forming this astral
+      suit takes depends on the type of suit being formed. Different astral suit
+      forms grant different free customizations. These free customizations never
+      count against the aegis's total number of customization points spent on
+      his astral suit.
+
+      </p><p>The aegis chooses the appearance of his astral suit, although its
+      shape must reflect the selections the aegis has chosen: astral skin would
+      cover the aegis like a psychoactive skin, astral juggernaut would appear
+      to cover the aegis like plate armor, etc. An astral suit can be dismissed
+      as a free action.
+
+      </p><p>An astral suit does not function in areas where psionics do not
+      work, such as a null psionics field. Dismiss ectoplasm can be used against
+      an astral suit; treat the manifester level as the aegis's class level,
+      although the aegis can simply form his astral suit again on his next turn.
+
+      </p>
+
+      <dl><dd><div class="va-hatnote-text"><i></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 27–31
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 28–30
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: form-astral-suit
+type: feat

@@ -1,0 +1,36 @@
+_id: Fpmk7td5TrzUB3An
+_key: '!items!Fpmk7td5TrzUB3An'
+_stats:
+  coreVersion: '13.350'
+folder: yxB21JRuF0fTjL6O
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Supreme Insight
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: >-
+      <p>At 20th level, the cryptic makes astounding leaps of insight. She
+      immediately learns two normal insights, but also learns a third insight
+      chosen from the list to the right, representing a truly astounding
+      breakthrough in understanding how patterns work. For many cryptics, the
+      possibility of this sort of discoveries is the driving force for their
+      studying of patterns. 
+
+      </p>
+
+      <dl><dd><div class="va-hatnote-text"><i></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 36–42
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 34–40
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: supreme-insight
+type: feat

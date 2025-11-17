@@ -21,27 +21,17 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>Your&nbsp;devastating&nbsp;touch&nbsp;deals&nbsp;additional&nbsp;damage.
-
+    value: |-
+      <p>Your devastating touch deals additional damage.
       </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Devastating&nbsp;touch&nbsp;class&nbsp;feature
-
+      <p><strong>Prerequisites: </strong>Devastating touch class feature
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>Your&nbsp;devastating&nbsp;touch&nbsp;ability&nbsp;deals&nbsp;1d6
-
-      points&nbsp;of&nbsp;damage&nbsp;plus&nbsp;your&nbsp;class&nbsp;level&nbsp;and&nbsp;your
-
-      Charisma&nbsp;modifier.
-
+      <p><strong>Benefit: </strong>Your devastating touch ability deals 1d6
+      points of damage plus your class level and your
+      Charisma modifier.
       </p>
-
-      <p><strong>Normal:&nbsp;</strong>Devastating&nbsp;touch&nbsp;deals&nbsp;1d6&nbsp;points&nbsp;of
-
-      damage&nbsp;plus&nbsp;your&nbsp;class&nbsp;level.
-
+      <p><strong>Normal: </strong>Devastating touch deals 1d6 points of
+      damage plus your class level.
       </p>
   disabled: false
   featType: feat

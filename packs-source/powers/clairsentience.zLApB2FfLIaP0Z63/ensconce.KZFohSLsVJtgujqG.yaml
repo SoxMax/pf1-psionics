@@ -30,11 +30,19 @@ system:
         value: One willing creature or one object (up to a 2-ft. cube/level) touched
   description:
     value: >-
-      <p>When&nbsp;manifested,&nbsp;this&nbsp;power&nbsp;prevents&nbsp;clairsentience&nbsp;or&nbsp;divination&nbsp;effects&nbsp;from&nbsp;detecting&nbsp;or&nbsp;locating&nbsp;the&nbsp;target&nbsp;and&nbsp;also&nbsp;renders&nbsp;the&nbsp;affected&nbsp;target&nbsp;invisible&nbsp;(as&nbsp;the&nbsp;invisibility&nbsp;spell).&nbsp;The&nbsp;power&nbsp;does&nbsp;not&nbsp;prevent&nbsp;the&nbsp;subject&nbsp;from&nbsp;being&nbsp;discovered&nbsp;through&nbsp;tactile&nbsp;means&nbsp;or&nbsp;through&nbsp;the&nbsp;use&nbsp;of&nbsp;devices.&nbsp;Creatures&nbsp;affected&nbsp;by&nbsp;ensconce&nbsp;become&nbsp;comatose&nbsp;and&nbsp;are&nbsp;effectively&nbsp;in&nbsp;a&nbsp;state&nbsp;of&nbsp;suspended&nbsp;animation&nbsp;until&nbsp;the&nbsp;effect&nbsp;ends.
+      <p>When manifested, this power prevents clairsentience or divination
+      effects from detecting or locating the target and also renders the
+      affected target invisible (as the invisibility spell). The power does not
+      prevent the subject from being discovered through tactile means or through
+      the use of devices. Creatures affected by ensconce become comatose and are
+      effectively in a state of suspended animation until the effect ends.
 
       </p>
 
-      <p><strong>Note:</strong>&nbsp;The&nbsp;Will&nbsp;save&nbsp;prevents&nbsp;an&nbsp;attended&nbsp;or&nbsp;magical&nbsp;object&nbsp;from&nbsp;being&nbsp;ensconced.&nbsp;There&nbsp;is&nbsp;no&nbsp;save&nbsp;to&nbsp;see&nbsp;the&nbsp;ensconced&nbsp;creature&nbsp;or&nbsp;object&nbsp;or&nbsp;to&nbsp;detect&nbsp;it&nbsp;with&nbsp;a&nbsp;clairsentience&nbsp;power&nbsp;or&nbsp;divination&nbsp;spell,&nbsp;such&nbsp;an&nbsp;attempt&nbsp;automatically&nbsp;fails.
+      <p><strong>Note:</strong> The Will save prevents an attended or magical
+      object from being ensconced. There is no save to see the ensconced
+      creature or object or to detect it with a clairsentience power or
+      divination spell, such an attempt automatically fails.
 
       </p>
   discipline: clairsentience

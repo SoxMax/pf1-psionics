@@ -22,55 +22,60 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>You&nbsp;reduce&nbsp;the&nbsp;damage&nbsp;of&nbsp;an&nbsp;attack&nbsp;on&nbsp;an&nbsp;ally.
+      <p>You reduce the damage of an attack on an ally.
 
       </p>
 
-      <p><strong>Prerequisite:&nbsp;</strong>Wisdom&nbsp;15,&nbsp;collective&nbsp;class&nbsp;feature,
+      <p><strong>Prerequisite: </strong>Wisdom 15, collective class feature,
 
-      manifester&nbsp;level&nbsp;6th.
-
-      </p>
-
-      <p><strong>Benefit:&nbsp;</strong>As&nbsp;long&nbsp;as&nbsp;you&nbsp;are&nbsp;maintaining&nbsp;psionic&nbsp;focus,
-
-      as&nbsp;an&nbsp;immediate&nbsp;action,&nbsp;you&nbsp;can&nbsp;minimize&nbsp;the&nbsp;damage
-
-      of&nbsp;a&nbsp;single&nbsp;attack&nbsp;with&nbsp;a&nbsp;ranged,&nbsp;melee,&nbsp;or&nbsp;natural
-
-      weapon&nbsp;or&nbsp;unarmed&nbsp;strike&nbsp;(treat&nbsp;all&nbsp;dice&nbsp;rolled&nbsp;as&nbsp;1s)&nbsp;on
-
-      any&nbsp;member&nbsp;of&nbsp;the&nbsp;collective.&nbsp;This&nbsp;ability&nbsp;must&nbsp;be&nbsp;used
-
-      in&nbsp;response&nbsp;to&nbsp;an&nbsp;attack&nbsp;on&nbsp;a&nbsp;member&nbsp;of&nbsp;the&nbsp;collective.
+      manifester level 6th.
 
       </p>
 
-      <p>In&nbsp;addition,&nbsp;if&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus,&nbsp;you
+      <p><strong>Benefit: </strong>As long as you are maintaining psionic focus,
 
-      can&nbsp;reduce&nbsp;any&nbsp;additional&nbsp;damage&nbsp;on&nbsp;the&nbsp;attack&nbsp;(such
+      as an immediate action, you can minimize the damage
 
-      as&nbsp;bonus&nbsp;damage&nbsp;from&nbsp;a&nbsp;high&nbsp;Strength&nbsp;or&nbsp;sneak&nbsp;attack
+      of a single attack with a ranged, melee, or natural
 
-      damage)&nbsp;by&nbsp;your&nbsp;key&nbsp;ability&nbsp;modifier.
+      weapon or unarmed strike (treat all dice rolled as 1s) on
 
-      </p>
+      any member of the collective. This ability must be used
 
-      <p><br&nbsp;/></p>
-
-      <p>You&nbsp;are&nbsp;able&nbsp;to&nbsp;block&nbsp;damage&nbsp;to&nbsp;multiple&nbsp;targets&nbsp;at&nbsp;once.
+      in response to an attack on a member of the collective.
 
       </p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Cushion&nbsp;the&nbsp;Blow.
+      <p>In addition, if you expend your psionic focus, you
+
+      can reduce any additional damage on the attack (such
+
+      as bonus damage from a high Strength or sneak attack
+
+      damage) by your key ability modifier.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;can&nbsp;share&nbsp;the&nbsp;effect&nbsp;of&nbsp;Cushion&nbsp;the&nbsp;Blow,&nbsp;Greater&nbsp;Cushion&nbsp;the&nbsp;Blow,&nbsp;and&nbsp;Improved&nbsp;Cushion&nbsp;the&nbsp;Blow&nbsp;to&nbsp;a&nbsp;number&nbsp;of&nbsp;members&nbsp;of&nbsp;your&nbsp;collective&nbsp;equal&nbsp;to&nbsp;your&nbsp;mythic&nbsp;tier.&nbsp;In&nbsp;addition,&nbsp;if&nbsp;you&nbsp;expend&nbsp;one&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power,&nbsp;you&nbsp;can&nbsp;use&nbsp;Cushion&nbsp;the&nbsp;Blow&nbsp;as&nbsp;a&nbsp;free&nbsp;action&nbsp;even&nbsp;if&nbsp;it&nbsp;is&nbsp;not&nbsp;your&nbsp;turn.
+      <p><br /></p>
+
+      <p>You are able to block damage to multiple targets at once.
 
       </p>
 
-      <p><strong>Normal:</strong>&nbsp;Using&nbsp;Cushion&nbsp;the&nbsp;Blow&nbsp;is&nbsp;an&nbsp;immediate&nbsp;action&nbsp;and&nbsp;only&nbsp;applies&nbsp;to&nbsp;a&nbsp;single&nbsp;member&nbsp;of&nbsp;your&nbsp;collective&nbsp;
+      <p><strong>Prerequisite:</strong> Cushion the Blow.
+
+      </p>
+
+      <p><strong>Benefit:</strong> You can share the effect of Cushion the Blow,
+      Greater Cushion the Blow, and Improved Cushion the Blow to a number of
+      members of your collective equal to your mythic tier. In addition, if you
+      expend one use of mythic power, you can use Cushion the Blow as a free
+      action even if it is not your turn.
+
+      </p>
+
+      <p><strong>Normal:</strong> Using Cushion the Blow is an immediate action
+      and only applies to a single member of your collective 
 
       </p>
   disabled: false

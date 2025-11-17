@@ -21,31 +21,19 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;have&nbsp;learned&nbsp;how&nbsp;to&nbsp;efficiently&nbsp;charge&nbsp;your&nbsp;mind
-
-      blade’s&nbsp;psychic&nbsp;strike&nbsp;to&nbsp;make&nbsp;it&nbsp;more&nbsp;available&nbsp;in
-
+    value: |-
+      <p>You have learned how to efficiently charge your mind
+      blade’s psychic strike to make it more available in
       combat.
-
       </p>
-
-      <p><strong>Prerequisites</strong>:&nbsp;Ability&nbsp;to&nbsp;generate&nbsp;a&nbsp;mind&nbsp;blade,
-
-      psychic&nbsp;strike&nbsp;+1d8.
-
+      <p><strong>Prerequisites</strong>: Ability to generate a mind blade,
+      psychic strike +1d8.
       </p>
-
-      <p><strong>Benefit</strong>:&nbsp;You&nbsp;may&nbsp;charge&nbsp;your&nbsp;psychic&nbsp;strike&nbsp;as&nbsp;a&nbsp;swift
-
+      <p><strong>Benefit</strong>: You may charge your psychic strike as a swift
       action.
-
       </p>
-
-      <p><strong>Normal</strong>:&nbsp;You&nbsp;charge&nbsp;your&nbsp;psychic&nbsp;strike&nbsp;as&nbsp;a&nbsp;move
-
+      <p><strong>Normal</strong>: You charge your psychic strike as a move
       action.
-
       </p>
   disabled: false
   featType: feat

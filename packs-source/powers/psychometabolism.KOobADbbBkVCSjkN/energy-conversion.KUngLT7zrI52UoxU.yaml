@@ -27,11 +27,26 @@ system:
         value: Ray; see text
   description:
     value: >-
-      <p>As&nbsp;<em><a&nbsp;href="/wiki/Energy_Adaptation"&nbsp;title="Energy&nbsp;Adaptation">energy&nbsp;adaptation</a></em>,&nbsp;except&nbsp;that&nbsp;instead&nbsp;of&nbsp;radiating&nbsp;away&nbsp;energy&nbsp;as&nbsp;light,&nbsp;you&nbsp;store&nbsp;up&nbsp;the&nbsp;energy&nbsp;and&nbsp;can&nbsp;later&nbsp;discharge&nbsp;it&nbsp;as&nbsp;a&nbsp;ray.&nbsp;To&nbsp;discharge&nbsp;a&nbsp;ray&nbsp;requires&nbsp;a&nbsp;standard&nbsp;action.&nbsp;You&nbsp;can&nbsp;choose&nbsp;to&nbsp;fire&nbsp;any&nbsp;number&nbsp;of&nbsp;rays&nbsp;during&nbsp;the&nbsp;power's&nbsp;duration.&nbsp;The&nbsp;ray&nbsp;you&nbsp;fire&nbsp;must&nbsp;be&nbsp;of&nbsp;one&nbsp;of&nbsp;the&nbsp;energy&nbsp;types&nbsp;you&nbsp;have&nbsp;stored&nbsp;(if&nbsp;you&nbsp;have&nbsp;stored&nbsp;more&nbsp;than&nbsp;one&nbsp;type,&nbsp;you&nbsp;can&nbsp;choose&nbsp;what&nbsp;kind&nbsp;of&nbsp;energy&nbsp;to&nbsp;use&nbsp;for&nbsp;each&nbsp;ray).&nbsp;If&nbsp;a&nbsp;ray&nbsp;successfully&nbsp;strikes&nbsp;its&nbsp;target&nbsp;(requiring&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack),&nbsp;the&nbsp;target&nbsp;takes&nbsp;damage&nbsp;equal&nbsp;to&nbsp;the&nbsp;amount&nbsp;of&nbsp;energy&nbsp;damage&nbsp;of&nbsp;that&nbsp;type&nbsp;you&nbsp;have&nbsp;stored,&nbsp;up&nbsp;to&nbsp;a&nbsp;maximum&nbsp;of&nbsp;three&nbsp;times&nbsp;your&nbsp;manifester&nbsp;level.&nbsp;As&nbsp;long&nbsp;as&nbsp;this&nbsp;power&nbsp;remains&nbsp;in&nbsp;effect,&nbsp;you&nbsp;can&nbsp;continue&nbsp;to&nbsp;absorb&nbsp;energy&nbsp;damage&nbsp;and&nbsp;fire&nbsp;additional&nbsp;rays&nbsp;using&nbsp;the&nbsp;stored&nbsp;damage.&nbsp;Damage&nbsp;you&nbsp;fire&nbsp;in&nbsp;rays&nbsp;is&nbsp;subtracted&nbsp;from&nbsp;the&nbsp;damage&nbsp;you&nbsp;have&nbsp;absorbed,&nbsp;so&nbsp;you&nbsp;may&nbsp;not&nbsp;fire&nbsp;off&nbsp;rays&nbsp;if&nbsp;you&nbsp;have&nbsp;depleted&nbsp;the&nbsp;energy&nbsp;you&nbsp;have&nbsp;absorbed.
+      <p>As <em><a href="/wiki/Energy_Adaptation" title="Energy
+      Adaptation">energy adaptation</a></em>, except that instead of radiating
+      away energy as light, you store up the energy and can later discharge it
+      as a ray. To discharge a ray requires a standard action. You can choose to
+      fire any number of rays during the power's duration. The ray you fire must
+      be of one of the energy types you have stored (if you have stored more
+      than one type, you can choose what kind of energy to use for each ray). If
+      a ray successfully strikes its target (requiring a ranged touch attack),
+      the target takes damage equal to the amount of energy damage of that type
+      you have stored, up to a maximum of three times your manifester level. As
+      long as this power remains in effect, you can continue to absorb energy
+      damage and fire additional rays using the stored damage. Damage you fire
+      in rays is subtracted from the damage you have absorbed, so you may not
+      fire off rays if you have depleted the energy you have absorbed.
 
       </p>
 
-      <p>This&nbsp;power's&nbsp;subtype&nbsp;is&nbsp;the&nbsp;same&nbsp;as&nbsp;the&nbsp;type&nbsp;of&nbsp;energy&nbsp;you&nbsp;discharge&nbsp;in&nbsp;a&nbsp;ray;&nbsp;thus,&nbsp;its&nbsp;subtype&nbsp;can&nbsp;change&nbsp;during&nbsp;the&nbsp;course&nbsp;of&nbsp;the&nbsp;power's&nbsp;duration.
+      <p>This power's subtype is the same as the type of energy you discharge in
+      a ray; thus, its subtype can change during the course of the power's
+      duration.
 
       </p>
   descriptors:

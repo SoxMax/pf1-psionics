@@ -22,21 +22,38 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;music&nbsp;carries&nbsp;the&nbsp;fury&nbsp;of&nbsp;the&nbsp;elements.</em></p>
+      <p><em>Your music carries the fury of the elements.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Fire_Starter"&nbsp;title="Fire&nbsp;Starter">Fire&nbsp;Starter</a>,&nbsp;inspire&nbsp;courage&nbsp;class&nbsp;feature.
-
-      </p>
-
-      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;use&nbsp;your&nbsp;inspire&nbsp;courage&nbsp;ability,&nbsp;you&nbsp;can&nbsp;choose&nbsp;to&nbsp;imbue&nbsp;the&nbsp;attacks&nbsp;of&nbsp;affected&nbsp;allies&nbsp;with&nbsp;elemental&nbsp;energy,&nbsp;rather&nbsp;than&nbsp;giving&nbsp;them&nbsp;a&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;and&nbsp;weapon&nbsp;damage&nbsp;rolls.&nbsp;This&nbsp;choice&nbsp;is&nbsp;made&nbsp;when&nbsp;you&nbsp;activate&nbsp;the&nbsp;ability,&nbsp;and&nbsp;choice&nbsp;applies&nbsp;to&nbsp;affected&nbsp;allies.
+      <p><strong>Prerequisites:</strong><a href="/wiki/Fire_Starter" title="Fire
+      Starter">Fire Starter</a>, inspire courage class feature.
 
       </p>
 
-      <p>An&nbsp;affected&nbsp;ally&nbsp;does&nbsp;not&nbsp;gain&nbsp;the&nbsp;normal&nbsp;competence&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;and&nbsp;weapon&nbsp;damage&nbsp;rolls,&nbsp;and&nbsp;instead&nbsp;deals&nbsp;additional&nbsp;1d6&nbsp;damage&nbsp;with&nbsp;their&nbsp;weapons&nbsp;for&nbsp;each&nbsp;point&nbsp;of&nbsp;competence&nbsp;bonus&nbsp;that&nbsp;your&nbsp;inspire&nbsp;courage&nbsp;would&nbsp;normally&nbsp;grant.&nbsp;The&nbsp;type&nbsp;of&nbsp;this&nbsp;damage&nbsp;depends&nbsp;on&nbsp;your&nbsp;primary&nbsp;element.&nbsp;This&nbsp;feat&nbsp;is&nbsp;a&nbsp;supernatural&nbsp;ability.
+      <p><strong>Benefit:</strong> When you use your inspire courage ability,
+      you can choose to imbue the attacks of affected allies with elemental
+      energy, rather than giving them a bonus on attack and weapon damage rolls.
+      This choice is made when you activate the ability, and choice applies to
+      affected allies.
 
-      </p><ul><li><em>Aether:</em>&nbsp;The&nbsp;weapon's&nbsp;normal&nbsp;damage&nbsp;type.</li><li><em>Air:</em>&nbsp;Electricity.</li><li><em>Earth:</em>&nbsp;Sonic.</li><li><em>Fire:</em>&nbsp;Fire.</li><li><em>Water:</em>&nbsp;Cold.</li><li><em>Void:</em>&nbsp;Bludgeoning.</li><li><em>Wood:</em>&nbsp;Positive&nbsp;energy.</li></ul>
+      </p>
 
-      <p><strong>Special:</strong>&nbsp;If&nbsp;you&nbsp;do&nbsp;not&nbsp;have&nbsp;a&nbsp;primary&nbsp;element&nbsp;or&nbsp;if&nbsp;your&nbsp;primary&nbsp;element&nbsp;is&nbsp;not&nbsp;on&nbsp;the&nbsp;above&nbsp;list,&nbsp;then&nbsp;this&nbsp;feat's&nbsp;additional&nbsp;damage&nbsp;type&nbsp;defaults&nbsp;to&nbsp;electricity.&nbsp;At&nbsp;the&nbsp;GM's&nbsp;option,&nbsp;you&nbsp;can&nbsp;use&nbsp;a&nbsp;different&nbsp;damage&nbsp;type&nbsp;from&nbsp;the&nbsp;list&nbsp;(or&nbsp;an&nbsp;entirely&nbsp;new&nbsp;one)&nbsp;based&nbsp;on&nbsp;your&nbsp;primary&nbsp;element.
+      <p>An affected ally does not gain the normal competence bonus on attack
+      and weapon damage rolls, and instead deals additional 1d6 damage with
+      their weapons for each point of competence bonus that your inspire courage
+      would normally grant. The type of this damage depends on your primary
+      element. This feat is a supernatural ability.
+
+      </p><ul><li><em>Aether:</em> The weapon's normal damage
+      type.</li><li><em>Air:</em> Electricity.</li><li><em>Earth:</em>
+      Sonic.</li><li><em>Fire:</em> Fire.</li><li><em>Water:</em>
+      Cold.</li><li><em>Void:</em> Bludgeoning.</li><li><em>Wood:</em> Positive
+      energy.</li></ul>
+
+      <p><strong>Special:</strong> If you do not have a primary element or if
+      your primary element is not on the above list, then this feat's additional
+      damage type defaults to electricity. At the GM's option, you can use a
+      different damage type from the list (or an entirely new one) based on your
+      primary element.
 
       </p>
   disabled: false

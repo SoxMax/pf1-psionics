@@ -22,17 +22,24 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;surprise&nbsp;foes&nbsp;with&nbsp;your&nbsp;teleportation&nbsp;abilities.</em></p>
+      <p><em>You can surprise foes with your teleportation abilities.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Feint">Improved&nbsp;Feint</a>,&nbsp;Slipstream&nbsp;Feint
-
-      </p>
-
-      <p><strong>Benefits:</strong>&nbsp;Once&nbsp;per&nbsp;round,&nbsp;when&nbsp;you&nbsp;teleport&nbsp;to&nbsp;or&nbsp;from&nbsp;a&nbsp;location&nbsp;within&nbsp;10&nbsp;feet&nbsp;of&nbsp;a&nbsp;creature,&nbsp;you&nbsp;can&nbsp;make&nbsp;a&nbsp;feint&nbsp;attempt&nbsp;against&nbsp;that&nbsp;creature&nbsp;as&nbsp;a&nbsp;free&nbsp;action&nbsp;(even&nbsp;if&nbsp;it&nbsp;isn’t&nbsp;your&nbsp;turn).&nbsp;If&nbsp;your&nbsp;feint&nbsp;succeeds,&nbsp;you&nbsp;can&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;cause&nbsp;the&nbsp;target&nbsp;to&nbsp;become&nbsp;flat-footed&nbsp;for&nbsp;1&nbsp;round.
+      <p><strong>Prerequisites:</strong><a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Feint">Improved
+      Feint</a>, Slipstream Feint
 
       </p>
 
-      <p><em>(Editor's&nbsp;Note:&nbsp;"Slipstream&nbsp;Feint"&nbsp;does&nbsp;not&nbsp;exist.&nbsp;This&nbsp;was&nbsp;likely&nbsp;a&nbsp;feat&nbsp;that&nbsp;was&nbsp;removed&nbsp;before&nbsp;publishing)</em></p>
+      <p><strong>Benefits:</strong> Once per round, when you teleport to or from
+      a location within 10 feet of a creature, you can make a feint attempt
+      against that creature as a free action (even if it isn’t your turn). If
+      your feint succeeds, you can expend your psionic focus to cause the target
+      to become flat-footed for 1 round.
+
+      </p>
+
+      <p><em>(Editor's Note: "Slipstream Feint" does not exist. This was likely
+      a feat that was removed before publishing)</em></p>
   disabled: false
   featType: feat
   inherited: false

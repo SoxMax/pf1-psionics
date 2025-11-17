@@ -1,0 +1,42 @@
+_id: UoF7zxQMREzkbTJ8
+_key: '!items!UoF7zxQMREzkbTJ8'
+_stats:
+  coreVersion: '13.350'
+folder: cfT4dXvdFgQ6wbWS
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Perfect Merger
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Aegis
+  description:
+    value: >-
+      <p>An aegis of 20th level has learned to become one with his suit. His
+      suit cannot be dispelled or removed against his will by any means,
+      although his astral suit ability still does not function within areas
+      where psionics do not work, such as a null psionics field.
+
+      </p><p>In addition, the aegis can spend two daily uses of his reconfigure
+      ability, to alter all of the customizations on his astral suit.
+
+      </p><p>Finally, once per day, the aegis can boost his cannibalize suit
+      ability, healing all of his hit point damage, although he cannot reform
+      his suit for ten minutes after using this ability, rather than the
+      standard one minute.
+
+      </p>
+
+      <div class="mw-heading mw-heading2"></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 27–31
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 28–30
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: perfect-merger
+type: feat

@@ -1,0 +1,33 @@
+_id: SL32ZCNG4QmodWH1
+_key: '!items!SL32ZCNG4QmodWH1'
+_stats:
+  coreVersion: '13.350'
+folder: cfT4dXvdFgQ6wbWS
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Master Craftsman
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Aegis
+  description:
+    value: >-
+      <p>At 5th level, an aegis gains the <a rel="nofollow" class="external
+      text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Master%20Craftsman">Master
+      Craftsman</a> feat as a bonus feat. He must still meet the prerequisites
+      of the feat in order to gain its benefits.
+
+      </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 27–31
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 28–30
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: master-craftsman
+type: feat

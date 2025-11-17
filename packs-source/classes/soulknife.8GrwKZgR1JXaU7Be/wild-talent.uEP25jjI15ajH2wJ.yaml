@@ -1,0 +1,33 @@
+_id: uEP25jjI15ajH2wJ
+_key: '!items!uEP25jjI15ajH2wJ'
+_stats:
+  coreVersion: '13.350'
+folder: 8GrwKZgR1JXaU7Be
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Wild Talent
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Soulknife
+  description:
+    value: >-
+      <p>The soulknife gains <a href="/wiki/Wild_Talent" title="Wild
+      Talent">Wild Talent</a> as a bonus feat at 1st level. This provides her
+      with the psionic power necessary to manifest her mind blade. A character
+      who is already psionic instead gains the <a href="/wiki/Psionic_Talent"
+      title="Psionic Talent">Psionic Talent</a> feat.
+
+      </p>
+  sources:
+    - date: '2010-08-01'
+      pages: 28–33
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: 57–64
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: wild-talent
+type: feat

@@ -24,7 +24,9 @@ system:
         value: Weapon touched
   description:
     value: >-
-      <p>As&nbsp;<em><a&nbsp;href="/wiki/Prevenom"&nbsp;title="Prevenom">prevenom</a></em>,&nbsp;except&nbsp;your&nbsp;weapon&nbsp;gains&nbsp;the&nbsp;poison&nbsp;coating&nbsp;as&nbsp;long&nbsp;as&nbsp;it&nbsp;remains&nbsp;in&nbsp;your&nbsp;grip.
+      <p>As <em><a href="/wiki/Prevenom" title="Prevenom">prevenom</a></em>,
+      except your weapon gains the poison coating as long as it remains in your
+      grip.
 
       </p>
   discipline: psychometabolism

@@ -27,19 +27,36 @@ system:
         value: You
   description:
     value: >-
-      <p>Your&nbsp;arrows&nbsp;glisten&nbsp;with&nbsp;a&nbsp;thin&nbsp;layer&nbsp;of&nbsp;what&nbsp;appears&nbsp;to&nbsp;be&nbsp;an&nbsp;exotic&nbsp;psionic&nbsp;adhesive.&nbsp;While&nbsp;you&nbsp;have&nbsp;this&nbsp;power&nbsp;manifested,&nbsp;you&nbsp;fire&nbsp;shots&nbsp;that&nbsp;can&nbsp;bind&nbsp;targets&nbsp;in&nbsp;a&nbsp;number&nbsp;of&nbsp;ways.&nbsp;You&nbsp;can&nbsp;use&nbsp;this&nbsp;to&nbsp;make&nbsp;it&nbsp;difficult&nbsp;to&nbsp;open&nbsp;a&nbsp;door&nbsp;or&nbsp;similar&nbsp;portal,&nbsp;or&nbsp;to&nbsp;make&nbsp;it&nbsp;difficult&nbsp;for&nbsp;a&nbsp;creature&nbsp;to&nbsp;move.
+      <p>Your arrows glisten with a thin layer of what appears to be an exotic
+      psionic adhesive. While you have this power manifested, you fire shots
+      that can bind targets in a number of ways. You can use this to make it
+      difficult to open a door or similar portal, or to make it difficult for a
+      creature to move.
 
       </p>
 
-      <p><em>Creature:&nbsp;</em>To&nbsp;use&nbsp;this&nbsp;binding&nbsp;method,&nbsp;you&nbsp;must&nbsp;first&nbsp;successfully&nbsp;make&nbsp;a&nbsp;shot&nbsp;with&nbsp;a&nbsp;ranged&nbsp;weapon&nbsp;against&nbsp;your&nbsp;target.&nbsp;If&nbsp;you&nbsp;hit,&nbsp;instead&nbsp;of&nbsp;dealing&nbsp;damage&nbsp;as&nbsp;normal,&nbsp;you&nbsp;may&nbsp;choose&nbsp;to&nbsp;pin&nbsp;them&nbsp;to&nbsp;an&nbsp;adjacent&nbsp;object,&nbsp;including&nbsp;the&nbsp;floor.&nbsp;If&nbsp;there&nbsp;is&nbsp;no&nbsp;suitable&nbsp;adjacent&nbsp;object&nbsp;(such&nbsp;as&nbsp;in&nbsp;the&nbsp;case&nbsp;of&nbsp;a&nbsp;flying&nbsp;creature),&nbsp;this&nbsp;method&nbsp;has&nbsp;no&nbsp;effect.&nbsp;A&nbsp;target&nbsp;pinned&nbsp;to&nbsp;a&nbsp;solid&nbsp;object&nbsp;is&nbsp;unable&nbsp;to&nbsp;move&nbsp;from&nbsp;their&nbsp;location&nbsp;without&nbsp;succeeding&nbsp;at&nbsp;a&nbsp;Strength&nbsp;check&nbsp;with&nbsp;a&nbsp;DC&nbsp;equal&nbsp;to&nbsp;13&nbsp;+&nbsp;your&nbsp;key&nbsp;ability&nbsp;modifier.
+      <p><em>Creature: </em>To use this binding method, you must first
+      successfully make a shot with a ranged weapon against your target. If you
+      hit, instead of dealing damage as normal, you may choose to pin them to an
+      adjacent object, including the floor. If there is no suitable adjacent
+      object (such as in the case of a flying creature), this method has no
+      effect. A target pinned to a solid object is unable to move from their
+      location without succeeding at a Strength check with a DC equal to 13 +
+      your key ability modifier.
 
       </p>
 
-      <p><em>Door:&nbsp;</em>To&nbsp;use&nbsp;this&nbsp;binding&nbsp;method,&nbsp;you&nbsp;must&nbsp;first&nbsp;successfully&nbsp;make&nbsp;a&nbsp;shot&nbsp;with&nbsp;a&nbsp;ranged&nbsp;weapon&nbsp;against&nbsp;your&nbsp;target.&nbsp;A&nbsp;door,&nbsp;chest,&nbsp;or&nbsp;similar&nbsp;items&nbsp;typically&nbsp;have&nbsp;AC&nbsp;10.&nbsp;If&nbsp;you&nbsp;hit,&nbsp;your&nbsp;projectile&nbsp;binds&nbsp;the&nbsp;portal&nbsp;shut,&nbsp;rendering&nbsp;it&nbsp;difficult&nbsp;to&nbsp;open.&nbsp;Opening&nbsp;such&nbsp;a&nbsp;bound&nbsp;item&nbsp;requires&nbsp;a&nbsp;Strength&nbsp;check&nbsp;with&nbsp;a&nbsp;DC&nbsp;equal&nbsp;to&nbsp;13&nbsp;+&nbsp;your&nbsp;key&nbsp;ability&nbsp;modifier.
+      <p><em>Door: </em>To use this binding method, you must first successfully
+      make a shot with a ranged weapon against your target. A door, chest, or
+      similar items typically have AC 10. If you hit, your projectile binds the
+      portal shut, rendering it difficult to open. Opening such a bound item
+      requires a Strength check with a DC equal to 13 + your key ability
+      modifier.
 
       </p>
 
-      <p><strong>Augment:&nbsp;</strong>For&nbsp;every&nbsp;additional&nbsp;two&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power’s&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+      <p><strong>Augment: </strong>For every additional two power points you
+      spend, this power’s DC increases by 1.
 
       </p>
   discipline: psychokinesis

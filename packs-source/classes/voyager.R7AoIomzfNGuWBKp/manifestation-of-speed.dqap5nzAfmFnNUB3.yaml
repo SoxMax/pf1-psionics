@@ -1,0 +1,204 @@
+_id: dqap5nzAfmFnNUB3
+_key: '!items!dqap5nzAfmFnNUB3'
+_stats:
+  coreVersion: '13.350'
+folder: R7AoIomzfNGuWBKp
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Manifestation of Speed
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: >-
+      <p>At 2nd level, a voyager gains the ability to combine her kinetic and
+      psionic energy into special types of attacks called augmented attacks.
+      Making an augmented attack is a standard action and is made like a normal
+      attack with a weapon, but is prefaced by the expenditure of points of
+      momentum, power points, or both.
+
+      </p><p>When making an augmented attack, the voyager first chooses how many
+      points of momentum and power points she spends on augmented attack
+      abilities, listed below. At this point, she also determines how many
+      points of momentum she uses on the attack. The maximum combined total
+      amount of power points and points of momentum spent on this ability
+      (including the normal use of momentum) is equal to her manifester level.
+
+      </p><p>Once this is decided, she then makes an attack with a weapon she is
+      wielding, activating each applicable effect in the order specified by the
+      ability. In addition to whatever effects she is paying for, the voyager
+      can use the blink and dash abilities based on the power points and points
+      of momentum spent on the augmented attack. Momentum is gained from the
+      combined movement of these abilities after the augmented attack is made,
+      meaning it cannot be used to enhance the attack or pay the augmented
+      attack's other costs.
+
+      </p>
+
+      <ul><li><i>Blink:</i> When the voyager spends power points on an augmented
+      attack, she can teleport up to 5 feet per power point spent, either before
+      or after her attack. This teleportation must bring her to an unoccupied
+      space she can see.</li>
+
+      <li><i>Dash:</i> When the voyager spends points of momentum on an
+      augmented attack (including from the normal use of momentum to enhance an
+      attack's damage), she can move up to 5 feet per point of momentum spent,
+      either before or after her attack. This movement provokes attacks of
+      opportunity.</li></ul>
+
+      <p>Each ability listed below can only be applied once per augmented
+      attack, though some allow the voyager to spend additional power points or
+      momentum to enhance the ability. Powers manifested as part of an augmented
+      attack do not provoke attacks of opportunity, and powers learned through
+      Expanded Knowledge count as voyager powers for the purposes of this
+      ability.
+
+      </p><p>In addition to enhancing her attack with momentum, the voyager can
+      spend power points on her augmented attack in the following way:
+
+      </p>
+
+      <ul><li><i>Power Channel:</i> The voyager can bend time to attack and
+      manifest a power at once. When making her augmented attack, she can
+      manifest a voyager power (spending power points normally) with a
+      manifesting time of 1 standard action or less. The power manifested must
+      be either a personal power or a non-personal power that normally has a
+      single target, including touch powers and rays. Powers with a variable
+      number of targets (such as <i>energy missile</i>, or an <i>energy ray</i>
+      with Split Psionic Ray) cannot be used with power channel. For powers
+      targeting the voyager, the power can be manifested before or after her
+      attack (allowing her to choose whether the power may affect the attack
+      before it is delivered).
+
+      <ul><li>For non-personal powers, the effect is channeled through her
+      augmented attack. If her weapon attack hits, it applies the power's normal
+      effect (if the power normally involves an attack roll and has effects on a
+      miss, it will likewise apply them on a miss). If the weapon attack made as
+      part of an augmented attack targets multiple creatures, the voyager
+      chooses one target to affect with the power out of those that the attack
+      hit.</li>
+
+      <li>Powers that would normally apply to the voyager's next attack (such as
+      sonic blast) can be manifested with power channel, applying their effects
+      to the augmented attack. A critical hit with her weapon attack does not
+      cause the power to also critical hit.</li></ul></li></ul>
+
+      <p>At 5th level, the voyager adds the following abilities to her list of
+      augmented attack options.
+
+      </p>
+
+      <ul><li><i>Maneuver Augmentation:</i> When the voyager makes an augmented
+      attack, instead of making a weapon attack, she can attempt a combat
+      maneuver that takes a standard action. If she expends momentum for this
+      combat maneuver with Momentous Maneuvers (see below), it counts towards
+      her augmented attack (contributing to dash and counting towards the limit
+      of her manifester level). If she attempts to deliver a power through power
+      channel with such an augmented attack, it applies the power's normal
+      effect. If the power normally involves an attack roll, it will apply them
+      if she succeeds on the combat maneuver attempt. If it has effects on a
+      miss, it will apply them if she fails.</li></ul>
+
+      <p>At 9th level, the voyager adds the following ability to her list of
+      augmented attack options.
+
+      </p>
+
+      <ul><li><i>Multitask:</i> The voyager can manifest a voyager power
+      (spending power points normally, though within the limits of manifestation
+      of speed) with a manifesting time of 1 standard action or less, before or
+      after her augmented attack. This may be any power she knows as a voyager;
+      it need not target herself or the creature she is attacking, nor is it
+      delivered through her weapon.</li></ul>
+
+      <p>At 13th level, the voyager adds the following ability to her list of
+      augmented attack options.
+
+      </p>
+
+      <ul><li><i>Speeding Strike:</i> The voyager can expend her psionic focus
+      in addition to power points and points of momentum. If she does so,
+      instead of making a normal augmented attack, she can teleport a distance
+      equal to the distance she could have moved with blink and dash, and make
+      an augmented attack that strikes at every creature directly between the
+      start and end points of her teleportation. She makes one attack and damage
+      roll, and uses these rolls against each target (momentum, if spent,
+      applies damage to each target). The voyager takes a –2 penalty to damage
+      on the attack for each target damaged by this attack beyond the first.
+
+      <ul><li>When manifesting a power with a single target with power channel,
+      the voyager chooses one creature out of the ones struck to affect with the
+      power. However, when using this ability, the voyager can manifest a power
+      that normally affects an area or multiple targets with power channel and
+      apply its effects to every creature struck by this
+      attack.</li></ul></li></ul>
+
+      <p>Finally, at 17th level, the voyager adds the following ability to her
+      list of augmented attack options.
+
+      </p>
+
+      <ul><li><i>Greater Multitask:</i> The voyager can manifest a voyager power
+      (spending power points normally, though within the limits of manifestation
+      of speed) with a manifesting time of 1 round or less, before or after her
+      augmented attack. This may be any power she knows as a voyager; it need
+      not target herself or the creature she is attacking, nor is it delivered
+      through her weapon.</li></ul>
+
+      <p>The voyager can potentially manifest multiple powers as part of her
+      augmented attack (such as by using any combination of power channel,
+      multitask, and greater multitask), but the combined costs are still
+      limited by her manifester level, as noted above. If she uses Overchannel
+      or a similar effect that would increase her manifester level for one of
+      the powers, its benefits apply to all of them, as well as the ML bonus
+      increases the total maximum spent on the augmented attack.
+
+      </p>
+
+      <table class="article-table">
+
+      <tbody><tr>
+
+      <td><b>Sample Augmented Attacks</b>
+
+      <p>Within the limits of her manifester level, the voyager has a
+      significant amount of flexibility with her use of manifestation of speed.
+      She can mix manifestation, use of momentum, and movement to perform
+      hit-and-run strikes with a unique flair.
+
+      </p><p>For example, an 8th-level, melee-focused voyager could spend 5
+      points of momentum to enhance her attack, and 3 power points on <i>power
+      channel</i>. This would allow her the following abilities:
+
+      </p>
+
+      <ul><li>25 feet of movement from <i>dash</i>.</li>
+
+      <li>15 feet of teleportation from <i>blink</i>.</li>
+
+      <li>A single weapon attack, taken at the same time as the power she
+      manifested with <i>power channel</i>.</li></ul>
+
+      <p>She can use these abilities in any order; for example, she could move
+      25 feet towards her target, make her attack and use her power, then
+      teleport 15 feet away. Or she could do the inverse, teleporting to her
+      target before moving away. She could even combine the teleportation and
+      movement, to attack a target 40 feet away.
+
+      </p><p>In each case, after the entire action and movement takes place, the
+      voyager would regain 4 points of momentum.
+
+      </p>
+
+      </td></tr></tbody></table>
+
+      <p></p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
+  subType: classFeat
+  tag: manifestation-of-speed
+type: feat

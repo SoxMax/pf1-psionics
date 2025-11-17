@@ -22,13 +22,18 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;are&nbsp;skilled&nbsp;at&nbsp;using&nbsp;optical&nbsp;tricks&nbsp;to&nbsp;make&nbsp;yourself&nbsp;seem&nbsp;to&nbsp;be&nbsp;where&nbsp;you&nbsp;are&nbsp;not.</em></p>
+      <p><em>You are skilled at using optical tricks to make yourself seem to be
+      where you are not.</em></p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Perform&nbsp;(dance)&nbsp;2&nbsp;ranks,&nbsp;Stealth&nbsp;7&nbsp;ranks.
+      <p><strong>Prerequisites:</strong> Perform (dance) 2 ranks, Stealth 7
+      ranks.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;take&nbsp;a&nbsp;move&nbsp;action&nbsp;to&nbsp;obscure&nbsp;your&nbsp;exact&nbsp;position.&nbsp;Until&nbsp;your&nbsp;next&nbsp;turn,&nbsp;you&nbsp;have&nbsp;concealment.&nbsp;Alternatively,&nbsp;you&nbsp;can&nbsp;take&nbsp;a&nbsp;full-round&nbsp;action&nbsp;to&nbsp;entirely&nbsp;obscure&nbsp;your&nbsp;exact&nbsp;position.&nbsp;Until&nbsp;your&nbsp;next&nbsp;action,&nbsp;you&nbsp;have&nbsp;total&nbsp;concealment.
+      <p><strong>Benefit: </strong>You can take a move action to obscure your
+      exact position. Until your next turn, you have concealment. Alternatively,
+      you can take a full-round action to entirely obscure your exact position.
+      Until your next action, you have total concealment.
 
       </p>
   disabled: false

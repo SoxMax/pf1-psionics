@@ -28,7 +28,14 @@ system:
         value: You
   description:
     value: >-
-      <p>This&nbsp;power&nbsp;functions&nbsp;like&nbsp;the&nbsp;nomad&nbsp;power&nbsp;flight,&nbsp;except&nbsp;you&nbsp;can&nbsp;fly&nbsp;at&nbsp;a&nbsp;speed&nbsp;of&nbsp;40&nbsp;feet&nbsp;(30&nbsp;feet&nbsp;if&nbsp;wearing&nbsp;medium&nbsp;or&nbsp;heavy&nbsp;armor,&nbsp;or&nbsp;if&nbsp;carrying&nbsp;a&nbsp;medium&nbsp;or&nbsp;heavy&nbsp;load)&nbsp;with&nbsp;a&nbsp;competence&nbsp;bonus&nbsp;on&nbsp;Fly&nbsp;skill&nbsp;checks&nbsp;equal&nbsp;to&nbsp;half&nbsp;your&nbsp;manifester&nbsp;level.&nbsp;When&nbsp;using&nbsp;this&nbsp;power&nbsp;for&nbsp;long-distance&nbsp;movement,&nbsp;you&nbsp;can&nbsp;hustle&nbsp;without&nbsp;taking&nbsp;nonlethal&nbsp;damage&nbsp;(a&nbsp;forced&nbsp;march&nbsp;still&nbsp;requires&nbsp;Constitution&nbsp;checks).&nbsp;This&nbsp;means&nbsp;you&nbsp;can&nbsp;cover&nbsp;64&nbsp;miles&nbsp;in&nbsp;an&nbsp;8-hour&nbsp;period&nbsp;of&nbsp;flight&nbsp;(or&nbsp;48&nbsp;miles&nbsp;at&nbsp;a&nbsp;speed&nbsp;of&nbsp;30&nbsp;feet).
+      <p>This power functions like the nomad power flight, except you can fly at
+      a speed of 40 feet (30 feet if wearing medium or heavy armor, or if
+      carrying a medium or heavy load) with a competence bonus on Fly skill
+      checks equal to half your manifester level. When using this power for
+      long-distance movement, you can hustle without taking nonlethal damage (a
+      forced march still requires Constitution checks). This means you can cover
+      64 miles in an 8-hour period of flight (or 48 miles at a speed of 30
+      feet).
 
       </p>
   discipline: psychoportation

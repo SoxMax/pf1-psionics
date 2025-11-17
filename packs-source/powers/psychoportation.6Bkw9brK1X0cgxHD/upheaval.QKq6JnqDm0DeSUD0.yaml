@@ -32,15 +32,22 @@ system:
         value: 20 ft. radius burst
   description:
     value: >-
-      <p>You&nbsp;translocate&nbsp;entire&nbsp;chunks&nbsp;of&nbsp;the&nbsp;earth&nbsp;50&nbsp;ft.&nbsp;into&nbsp;the&nbsp;air,&nbsp;where&nbsp;they&nbsp;fall&nbsp;onto&nbsp;the&nbsp;targets&nbsp;below.&nbsp;Each&nbsp;creature&nbsp;in&nbsp;the&nbsp;area&nbsp;affected&nbsp;takes&nbsp;9d6&nbsp;points&nbsp;of&nbsp;bludgeoning&nbsp;damage&nbsp;as&nbsp;the&nbsp;earth&nbsp;falls&nbsp;back&nbsp;to&nbsp;the&nbsp;ground.&nbsp;Unlike&nbsp;normal&nbsp;damage&nbsp;from&nbsp;powers,&nbsp;this&nbsp;damage&nbsp;is&nbsp;subject&nbsp;to&nbsp;damage&nbsp;reduction&nbsp;that&nbsp;would&nbsp;affect&nbsp;mundane&nbsp;bludgeoning&nbsp;damage.
+      <p>You translocate entire chunks of the earth 50 ft. into the air, where
+      they fall onto the targets below. Each creature in the area affected takes
+      9d6 points of bludgeoning damage as the earth falls back to the ground.
+      Unlike normal damage from powers, this damage is subject to damage
+      reduction that would affect mundane bludgeoning damage.
 
       </p>
 
-      <p>In&nbsp;addition,&nbsp;the&nbsp;ground&nbsp;in&nbsp;the&nbsp;affected&nbsp;area&nbsp;becomes&nbsp;difficult&nbsp;terrain,&nbsp;making&nbsp;movement&nbsp;through&nbsp;it&nbsp;harder.
+      <p>In addition, the ground in the affected area becomes difficult terrain,
+      making movement through it harder.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;each&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;spent,&nbsp;this&nbsp;power&nbsp;can&nbsp;affect&nbsp;an&nbsp;area&nbsp;5&nbsp;ft.&nbsp;larger&nbsp;in&nbsp;radius&nbsp;and&nbsp;the&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+      <p><strong>Augment:</strong> For each additional 2 power points spent,
+      this power can affect an area 5 ft. larger in radius and the save DC
+      increases by 1.
 
       </p>
   discipline: psychoportation

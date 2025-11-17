@@ -22,13 +22,19 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>A&nbsp;permanent&nbsp;sigil&nbsp;on&nbsp;your&nbsp;body&nbsp;enhances&nbsp;your&nbsp;manifesting&nbsp;ability.</em></p>
+      <p><em>A permanent sigil on your body enhances your manifesting
+      ability.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Sigilist"&nbsp;title="Sigilist">Sigilist</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Sigilist"
+      title="Sigilist">Sigilist</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;have&nbsp;one&nbsp;or&nbsp;more&nbsp;scars,&nbsp;tattoos&nbsp;or&nbsp;other&nbsp;markings&nbsp;that&nbsp;are&nbsp;bound&nbsp;to&nbsp;you&nbsp;and&nbsp;your&nbsp;power.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;powers,&nbsp;these&nbsp;glow&nbsp;and&nbsp;pulsate,&nbsp;making&nbsp;it&nbsp;impossible&nbsp;for&nbsp;you&nbsp;to&nbsp;manifest&nbsp;a&nbsp;power&nbsp;without&nbsp;drawing&nbsp;attention.&nbsp;However,&nbsp;any&nbsp;power&nbsp;you&nbsp;manifest&nbsp;on&nbsp;yourself&nbsp;has&nbsp;double&nbsp;the&nbsp;duration,&nbsp;and&nbsp;the&nbsp;DC&nbsp;to&nbsp;dispel&nbsp;them&nbsp;is&nbsp;5&nbsp;higher.
+      <p><strong>Benefit: </strong>You have one or more scars, tattoos or other
+      markings that are bound to you and your power. When you manifest powers,
+      these glow and pulsate, making it impossible for you to manifest a power
+      without drawing attention. However, any power you manifest on yourself has
+      double the duration, and the DC to dispel them is 5 higher.
 
       </p>
   disabled: false

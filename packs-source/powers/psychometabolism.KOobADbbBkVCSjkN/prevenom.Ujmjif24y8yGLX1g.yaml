@@ -29,11 +29,17 @@ system:
         value: You
   description:
     value: >-
-      <p>If&nbsp;you&nbsp;have&nbsp;a&nbsp;claw&nbsp;attack&nbsp;(either&nbsp;from&nbsp;an&nbsp;actual&nbsp;natural&nbsp;weapon&nbsp;or&nbsp;from&nbsp;an&nbsp;effect&nbsp;such&nbsp;as&nbsp;claws&nbsp;of&nbsp;the&nbsp;beast),&nbsp;you&nbsp;can&nbsp;use&nbsp;this&nbsp;power&nbsp;to&nbsp;produce&nbsp;a&nbsp;mild&nbsp;venom&nbsp;that&nbsp;coats&nbsp;one&nbsp;of&nbsp;your&nbsp;claws.&nbsp;On&nbsp;your&nbsp;next&nbsp;successful&nbsp;melee&nbsp;attack,&nbsp;the&nbsp;venom&nbsp;deals&nbsp;1&nbsp;point&nbsp;of&nbsp;Constitution&nbsp;damage&nbsp;per&nbsp;round&nbsp;for&nbsp;2&nbsp;rounds.&nbsp;A&nbsp;target&nbsp;struck&nbsp;by&nbsp;the&nbsp;poison&nbsp;can&nbsp;make&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;each&nbsp;round&nbsp;to&nbsp;negate&nbsp;the&nbsp;damage&nbsp;and&nbsp;end&nbsp;the&nbsp;affliction.
+      <p>If you have a claw attack (either from an actual natural weapon or from
+      an effect such as claws of the beast), you can use this power to produce a
+      mild venom that coats one of your claws. On your next successful melee
+      attack, the venom deals 1 point of Constitution damage per round for 2
+      rounds. A target struck by the poison can make a Fortitude save each round
+      to negate the damage and end the affliction.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;3&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;poison's&nbsp;duration&nbsp;increases&nbsp;by&nbsp;1&nbsp;round.
+      <p><strong>Augment:</strong> For every 3 additional power points you
+      spend, the poison's duration increases by 1 round.
 
       </p>
   discipline: psychometabolism

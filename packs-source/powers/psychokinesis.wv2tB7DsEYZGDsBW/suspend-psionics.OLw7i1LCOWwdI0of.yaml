@@ -27,11 +27,20 @@ system:
         value: You
   description:
     value: >-
-      <p>The&nbsp;visible&nbsp;auras&nbsp;of&nbsp;magic&nbsp;surrounding&nbsp;you&nbsp;dampen&nbsp;noticeably,&nbsp;signifying&nbsp;some&nbsp;reduction&nbsp;in&nbsp;effect.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;you&nbsp;select&nbsp;one&nbsp;ongoing&nbsp;power&nbsp;in&nbsp;that&nbsp;is&nbsp;currently&nbsp;manifested&nbsp;upon&nbsp;you.&nbsp;While&nbsp;you&nbsp;concentrate,&nbsp;the&nbsp;selected&nbsp;power&nbsp;is&nbsp;suppressed,&nbsp;its&nbsp;benefits&nbsp;cease&nbsp;and&nbsp;its&nbsp;remaining&nbsp;duration&nbsp;stops&nbsp;decreasing.&nbsp;Once&nbsp;you&nbsp;cease&nbsp;concentrating,&nbsp;the&nbsp;power&nbsp;immediately&nbsp;springs&nbsp;back&nbsp;into&nbsp;effect&nbsp;and&nbsp;resumes&nbsp;its&nbsp;normal&nbsp;duration.
+      <p>The visible auras of magic surrounding you dampen noticeably,
+      signifying some reduction in effect. When you manifest this power, you
+      select one ongoing power in that is currently manifested upon you. While
+      you concentrate, the selected power is suppressed, its benefits cease and
+      its remaining duration stops decreasing. Once you cease concentrating, the
+      power immediately springs back into effect and resumes its normal
+      duration.
 
       </p>
 
-      <p>You&nbsp;can&nbsp;only&nbsp;specify&nbsp;powers&nbsp;that&nbsp;you&nbsp;have&nbsp;manifested&nbsp;upon&nbsp;yourself&nbsp;and&nbsp;powers&nbsp;you&nbsp;have&nbsp;voluntarily&nbsp;failed&nbsp;your&nbsp;saving&nbsp;throws&nbsp;against;&nbsp;<em>suspend&nbsp;psionics&nbsp;</em>cannot&nbsp;be&nbsp;used&nbsp;upon&nbsp;powers&nbsp;that&nbsp;were&nbsp;placed&nbsp;upon&nbsp;you&nbsp;by&nbsp;enemies.
+      <p>You can only specify powers that you have manifested upon yourself and
+      powers you have voluntarily failed your saving throws against; <em>suspend
+      psionics </em>cannot be used upon powers that were placed upon you by
+      enemies.
 
       </p>
   discipline: psychokinesis

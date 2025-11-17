@@ -22,13 +22,19 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;burn&nbsp;the&nbsp;life&nbsp;force&nbsp;of&nbsp;others&nbsp;to&nbsp;strengthen&nbsp;your&nbsp;powers.</em></p>
+      <p><em>You burn the life force of others to strengthen your
+      powers.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Overchannel"&nbsp;title="Overchannel">Overchannel</a>,&nbsp;collective&nbsp;class&nbsp;feature.
+      <p><strong>Prerequisites:</strong><a href="/wiki/Overchannel"
+      title="Overchannel">Overchannel</a>, collective class feature.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;use&nbsp;the&nbsp;Overchannel&nbsp;feat,&nbsp;you&nbsp;can&nbsp;instead&nbsp;have&nbsp;a&nbsp;member&nbsp;of&nbsp;your&nbsp;collective&nbsp;take&nbsp;the&nbsp;damage.&nbsp;They&nbsp;are&nbsp;allowed&nbsp;a&nbsp;Will&nbsp;save&nbsp;to&nbsp;resist&nbsp;this&nbsp;effect&nbsp;(DC&nbsp;10&nbsp;+&nbsp;1/2&nbsp;manifester&nbsp;level&nbsp;+&nbsp;your&nbsp;manifesting&nbsp;ability&nbsp;modifier),&nbsp;in&nbsp;which&nbsp;case&nbsp;you&nbsp;take&nbsp;the&nbsp;damage&nbsp;as&nbsp;normal.
+      <p><strong>Benefit:</strong> When you use the Overchannel feat, you can
+      instead have a member of your collective take the damage. They are allowed
+      a Will save to resist this effect (DC 10 + 1/2 manifester level + your
+      manifesting ability modifier), in which case you take the damage as
+      normal.
 
       </p>
   disabled: false

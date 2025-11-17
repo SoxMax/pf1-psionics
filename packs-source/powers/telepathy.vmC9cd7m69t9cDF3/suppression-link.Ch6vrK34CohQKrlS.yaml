@@ -29,33 +29,82 @@ system:
         value: one creature
   description:
     value: >-
-      <p>You&nbsp;must&nbsp;be&nbsp;a&nbsp;<a&nbsp;href="/wiki/Highlord"&nbsp;title="Highlord">Highlord</a>&nbsp;following&nbsp;the&nbsp;<a&nbsp;href="/wiki/Despot_(Tenets_of_Oppression)"&nbsp;title="Despot&nbsp;(Tenets&nbsp;of&nbsp;Oppression)">Despot&nbsp;(Tenets&nbsp;of&nbsp;Oppression)</a>&nbsp;to&nbsp;manifest&nbsp;this&nbsp;power.&nbsp;You&nbsp;cannot&nbsp;learn&nbsp;this&nbsp;power&nbsp;with&nbsp;the&nbsp;<a&nbsp;href="/wiki/Expanded_Knowledge"&nbsp;title="Expanded&nbsp;Knowledge">Expanded&nbsp;Knowledge</a>&nbsp;feat&nbsp;or&nbsp;similar&nbsp;abilities.
+      <p>You must be a <a href="/wiki/Highlord" title="Highlord">Highlord</a>
+      following the <a href="/wiki/Despot_(Tenets_of_Oppression)" title="Despot
+      (Tenets of Oppression)">Despot (Tenets of Oppression)</a> to manifest this
+      power. You cannot learn this power with the <a
+      href="/wiki/Expanded_Knowledge" title="Expanded Knowledge">Expanded
+      Knowledge</a> feat or similar abilities.
 
       </p>
 
-      <p>You&nbsp;establish&nbsp;a&nbsp;short-lived&nbsp;telepathic&nbsp;bond&nbsp;with&nbsp;a&nbsp;creature&nbsp;within&nbsp;range,&nbsp;concentrating&nbsp;on&nbsp;shutting&nbsp;of&nbsp;the&nbsp;creature’s&nbsp;ability&nbsp;to&nbsp;act&nbsp;against&nbsp;you&nbsp;or&nbsp;escape&nbsp;from&nbsp;you.&nbsp;You&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;as&nbsp;either&nbsp;a&nbsp;standard&nbsp;action&nbsp;or&nbsp;a&nbsp;move&nbsp;action;&nbsp;if&nbsp;you&nbsp;manifest&nbsp;it&nbsp;as&nbsp;a&nbsp;move&nbsp;action,&nbsp;concentrating&nbsp;on&nbsp;it&nbsp;is&nbsp;likewise&nbsp;a&nbsp;move&nbsp;action.
+      <p>You establish a short-lived telepathic bond with a creature within
+      range, concentrating on shutting of the creature’s ability to act against
+      you or escape from you. You can manifest this power as either a standard
+      action or a move action; if you manifest it as a move action,
+      concentrating on it is likewise a move action.
 
-      </p><ul><li><strong>Standard&nbsp;Action:&nbsp;</strong>The&nbsp;target&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Will&nbsp;save&nbsp;or&nbsp;become&nbsp;entangled&nbsp;as&nbsp;long&nbsp;as&nbsp;you&nbsp;concentrate&nbsp;+&nbsp;1&nbsp;round&nbsp;thereafter.&nbsp;On&nbsp;a&nbsp;successful&nbsp;save,&nbsp;they&nbsp;become&nbsp;entangled&nbsp;for&nbsp;1&nbsp;round&nbsp;instead.</li><li><strong>Move&nbsp;Action:&nbsp;</strong>The&nbsp;target&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Will&nbsp;save&nbsp;or&nbsp;become&nbsp;entangled&nbsp;as&nbsp;long&nbsp;as&nbsp;you&nbsp;concentrate.</li></ul>
+      </p><ul><li><strong>Standard Action: </strong>The target must succeed at a
+      Will save or become entangled as long as you concentrate + 1 round
+      thereafter. On a successful save, they become entangled for 1 round
+      instead.</li><li><strong>Move Action: </strong>The target must succeed at
+      a Will save or become entangled as long as you concentrate.</li></ul>
 
-      <p>Creatures&nbsp;entangled&nbsp;by&nbsp;this&nbsp;power&nbsp;cannot&nbsp;willingly&nbsp;move&nbsp;in&nbsp;directions&nbsp;that&nbsp;would&nbsp;increase&nbsp;the&nbsp;distance&nbsp;between&nbsp;them&nbsp;and&nbsp;your&nbsp;location&nbsp;(including&nbsp;using&nbsp;abilities&nbsp;that&nbsp;would&nbsp;increase&nbsp;the&nbsp;distance&nbsp;between&nbsp;you&nbsp;and&nbsp;them,&nbsp;such&nbsp;as&nbsp;teleportation).&nbsp;Each&nbsp;turn&nbsp;you&nbsp;maintain&nbsp;this&nbsp;power,&nbsp;you&nbsp;can&nbsp;choose&nbsp;to&nbsp;drag&nbsp;creatures&nbsp;entangled&nbsp;by&nbsp;the&nbsp;power&nbsp;up&nbsp;to&nbsp;10&nbsp;feet&nbsp;(or&nbsp;5&nbsp;feet,&nbsp;if&nbsp;you&nbsp;are&nbsp;maintaining&nbsp;it&nbsp;as&nbsp;a&nbsp;move&nbsp;action)&nbsp;towards&nbsp;you.
+      <p>Creatures entangled by this power cannot willingly move in directions
+      that would increase the distance between them and your location (including
+      using abilities that would increase the distance between you and them,
+      such as teleportation). Each turn you maintain this power, you can choose
+      to drag creatures entangled by the power up to 10 feet (or 5 feet, if you
+      are maintaining it as a move action) towards you.
 
       </p>
 
-      <p>You&nbsp;can&nbsp;drag&nbsp;entangled&nbsp;creatures&nbsp;when&nbsp;you&nbsp;move,&nbsp;by&nbsp;halving&nbsp;the&nbsp;distance&nbsp;you&nbsp;would&nbsp;normally&nbsp;move&nbsp;(to&nbsp;a&nbsp;minimum&nbsp;of&nbsp;5&nbsp;feet,&nbsp;even&nbsp;if&nbsp;halving&nbsp;it&nbsp;would&nbsp;result&nbsp;in&nbsp;a&nbsp;lower&nbsp;distance).&nbsp;You&nbsp;must&nbsp;still&nbsp;follow&nbsp;all&nbsp;the&nbsp;restrictions&nbsp;of&nbsp;your&nbsp;movement&nbsp;(such&nbsp;as&nbsp;where&nbsp;you&nbsp;can&nbsp;move,&nbsp;or&nbsp;where&nbsp;you&nbsp;must&nbsp;end&nbsp;your&nbsp;movement).
+      <p>You can drag entangled creatures when you move, by halving the distance
+      you would normally move (to a minimum of 5 feet, even if halving it would
+      result in a lower distance). You must still follow all the restrictions of
+      your movement (such as where you can move, or where you must end your
+      movement).
 
       </p>
 
-      <p>In&nbsp;both&nbsp;cases,&nbsp;if&nbsp;you&nbsp;would&nbsp;drag&nbsp;them&nbsp;into&nbsp;a&nbsp;space&nbsp;they&nbsp;cannot&nbsp;enter&nbsp;(such&nbsp;as&nbsp;a&nbsp;wall&nbsp;or&nbsp;that&nbsp;of&nbsp;another&nbsp;creature),&nbsp;you&nbsp;must&nbsp;either&nbsp;end&nbsp;this&nbsp;power’s&nbsp;effect&nbsp;on&nbsp;them,&nbsp;change&nbsp;direction,&nbsp;or&nbsp;stop&nbsp;moving.&nbsp;Otherwise,&nbsp;you&nbsp;can&nbsp;freely&nbsp;drag&nbsp;them&nbsp;along&nbsp;with&nbsp;you.
+      <p>In both cases, if you would drag them into a space they cannot enter
+      (such as a wall or that of another creature), you must either end this
+      power’s effect on them, change direction, or stop moving. Otherwise, you
+      can freely drag them along with you.
 
       </p>
 
-      <p>The&nbsp;movement&nbsp;of&nbsp;dragged&nbsp;creatures&nbsp;does&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity,&nbsp;and&nbsp;your&nbsp;movement&nbsp;does&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;from&nbsp;creatures&nbsp;you’re&nbsp;dragging.&nbsp;If&nbsp;you&nbsp;would&nbsp;drag&nbsp;a&nbsp;creature&nbsp;into&nbsp;a&nbsp;space&nbsp;that&nbsp;can’t&nbsp;support&nbsp;them&nbsp;or&nbsp;a&nbsp;hazardous&nbsp;location&nbsp;(such&nbsp;as&nbsp;the&nbsp;air&nbsp;for&nbsp;a&nbsp;nonflying&nbsp;creature&nbsp;or&nbsp;a&nbsp;pit&nbsp;of&nbsp;lava),&nbsp;they&nbsp;may&nbsp;make&nbsp;another&nbsp;saving&nbsp;throw&nbsp;against&nbsp;the&nbsp;power.&nbsp;If&nbsp;they&nbsp;succeed,&nbsp;they&nbsp;are&nbsp;not&nbsp;dragged,&nbsp;end&nbsp;the&nbsp;effects&nbsp;of&nbsp;the&nbsp;power&nbsp;upon&nbsp;them,&nbsp;and&nbsp;fall&nbsp;prone&nbsp;in&nbsp;their&nbsp;space.
+      <p>The movement of dragged creatures does not provoke attacks of
+      opportunity, and your movement does not provoke attacks of opportunity
+      from creatures you’re dragging. If you would drag a creature into a space
+      that can’t support them or a hazardous location (such as the air for a
+      nonflying creature or a pit of lava), they may make another saving throw
+      against the power. If they succeed, they are not dragged, end the effects
+      of the power upon them, and fall prone in their space.
 
       </p>
 
-      <p><strong>Augment:&nbsp;</strong>This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.&nbsp;Every&nbsp;2&nbsp;power&nbsp;points&nbsp;you&nbsp;spend&nbsp;augmenting&nbsp;this&nbsp;power&nbsp;adds&nbsp;+1&nbsp;to&nbsp;the&nbsp;power’s&nbsp;save&nbsp;DC&nbsp;(if&nbsp;any).&nbsp;This&nbsp;is&nbsp;in&nbsp;addition&nbsp;to&nbsp;the&nbsp;effects&nbsp;of&nbsp;the&nbsp;augments&nbsp;themselves.
+      <p><strong>Augment: </strong>This power can be augmented in one or more of
+      the following ways. Every 2 power points you spend augmenting this power
+      adds +1 to the power’s save DC (if any). This is in addition to the
+      effects of the augments themselves.
 
-      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;on&nbsp;concentration&nbsp;checks&nbsp;made&nbsp;for&nbsp;this&nbsp;power,&nbsp;except&nbsp;to&nbsp;manifest&nbsp;it&nbsp;defensively.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;target&nbsp;becomes&nbsp;staggered&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;power.</li><li>For&nbsp;every&nbsp;3&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;drag&nbsp;creatures&nbsp;10&nbsp;additional&nbsp;feet&nbsp;(or&nbsp;5&nbsp;feet,&nbsp;if&nbsp;you&nbsp;are&nbsp;maintaining&nbsp;the&nbsp;power&nbsp;as&nbsp;a&nbsp;move&nbsp;action)&nbsp;each&nbsp;turn&nbsp;you&nbsp;maintain&nbsp;this&nbsp;power.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;target&nbsp;becomes&nbsp;dazed&nbsp;(standard&nbsp;action&nbsp;manifestation)&nbsp;or&nbsp;nauseated&nbsp;(move&nbsp;action&nbsp;manifestation)&nbsp;for&nbsp;1&nbsp;round&nbsp;on&nbsp;a&nbsp;failed&nbsp;saving&nbsp;throw.</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;target&nbsp;becomes&nbsp;blinded&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;power&nbsp;(if&nbsp;the&nbsp;power&nbsp;ends&nbsp;or&nbsp;has&nbsp;its&nbsp;duration&nbsp;reduced&nbsp;thanks&nbsp;to&nbsp;a&nbsp;successful&nbsp;save,&nbsp;so&nbsp;does&nbsp;the&nbsp;blind).</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;if&nbsp;you&nbsp;would&nbsp;have&nbsp;used&nbsp;a&nbsp;standard&nbsp;action&nbsp;to&nbsp;manifest&nbsp;and&nbsp;maintain&nbsp;the&nbsp;power,&nbsp;you&nbsp;can&nbsp;instead&nbsp;do&nbsp;so&nbsp;as&nbsp;a&nbsp;move&nbsp;action.&nbsp;If&nbsp;you&nbsp;would&nbsp;have&nbsp;used&nbsp;a&nbsp;move&nbsp;action&nbsp;to&nbsp;manifest&nbsp;and&nbsp;maintain&nbsp;the&nbsp;power,&nbsp;you&nbsp;can&nbsp;instead&nbsp;do&nbsp;so&nbsp;as&nbsp;a&nbsp;swift&nbsp;action.</li></ol>
+      </p><ol><li>For every additional power point you spend, you gain a +1
+      bonus on concentration checks made for this power, except to manifest it
+      defensively.</li><li>If you spend 2 additional power points, the target
+      becomes staggered for the duration of the power.</li><li>For every 3
+      additional power points you spend, you can drag creatures 10 additional
+      feet (or 5 feet, if you are maintaining the power as a move action) each
+      turn you maintain this power.</li><li>If you spend 4 additional power
+      points, the target becomes dazed (standard action manifestation) or
+      nauseated (move action manifestation) for 1 round on a failed saving
+      throw.</li><li>If you spend 6 additional power points, the target becomes
+      blinded for the duration of the power (if the power ends or has its
+      duration reduced thanks to a successful save, so does the
+      blind).</li><li>If you spend 6 additional power points, if you would have
+      used a standard action to manifest and maintain the power, you can instead
+      do so as a move action. If you would have used a move action to manifest
+      and maintain the power, you can instead do so as a swift action.</li></ol>
   discipline: telepathy
   display:
     auditory: false

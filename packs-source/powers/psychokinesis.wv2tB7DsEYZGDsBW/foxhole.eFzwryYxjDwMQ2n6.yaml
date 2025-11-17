@@ -28,25 +28,45 @@ system:
           terrain (S)
   description:
     value: >-
-      <p>A&nbsp;quick&nbsp;burst&nbsp;of&nbsp;psychokinetic&nbsp;force&nbsp;rearranges&nbsp;the&nbsp;land&nbsp;nearby&nbsp;you,&nbsp;providing&nbsp;an&nbsp;emergency&nbsp;source&nbsp;of&nbsp;cover.&nbsp;By&nbsp;pushing&nbsp;the&nbsp;terrain&nbsp;away&nbsp;from&nbsp;a&nbsp;central&nbsp;point&nbsp;and&nbsp;piling&nbsp;it&nbsp;at&nbsp;the&nbsp;outer&nbsp;edges&nbsp;of&nbsp;the&nbsp;area&nbsp;of&nbsp;effect,&nbsp;you&nbsp;can&nbsp;rapidly&nbsp;create&nbsp;a&nbsp;mundane&nbsp;safe-zone&nbsp;for&nbsp;sudden&nbsp;combat.
+      <p>A quick burst of psychokinetic force rearranges the land nearby you,
+      providing an emergency source of cover. By pushing the terrain away from a
+      central point and piling it at the outer edges of the area of effect, you
+      can rapidly create a mundane safe-zone for sudden combat.
 
       </p>
 
-      <p>This&nbsp;power&nbsp;creates&nbsp;a&nbsp;small&nbsp;burrow&nbsp;three&nbsp;to&nbsp;five&nbsp;feet&nbsp;deep&nbsp;in&nbsp;the&nbsp;land,&nbsp;with&nbsp;a&nbsp;small&nbsp;wall&nbsp;that&nbsp;surrounds&nbsp;it&nbsp;which&nbsp;can&nbsp;provide&nbsp;cover&nbsp;for&nbsp;creatures&nbsp;within.
+      <p>This power creates a small burrow three to five feet deep in the land,
+      with a small wall that surrounds it which can provide cover for creatures
+      within.
 
       </p>
 
-      <p>Multiple&nbsp;manifestations&nbsp;of&nbsp;this&nbsp;power&nbsp;can&nbsp;dig&nbsp;deeper&nbsp;into&nbsp;the&nbsp;ground,&nbsp;providing&nbsp;a&nbsp;quick&nbsp;underground&nbsp;burrow,&nbsp;or&nbsp;can&nbsp;be&nbsp;used&nbsp;to&nbsp;extend&nbsp;an&nbsp;existing&nbsp;burrow&nbsp;into&nbsp;a&nbsp;trench.&nbsp;Foxhole&nbsp;cannot&nbsp;be&nbsp;used&nbsp;to&nbsp;dig&nbsp;through&nbsp;walls&nbsp;or&nbsp;foundations&nbsp;(although&nbsp;it&nbsp;could&nbsp;burrow&nbsp;around&nbsp;them)&nbsp;nor&nbsp;can&nbsp;it&nbsp;rearrange&nbsp;magically&nbsp;treated&nbsp;terrain.
+      <p>Multiple manifestations of this power can dig deeper into the ground,
+      providing a quick underground burrow, or can be used to extend an existing
+      burrow into a trench. Foxhole cannot be used to dig through walls or
+      foundations (although it could burrow around them) nor can it rearrange
+      magically treated terrain.
 
       </p>
 
-      <p>If&nbsp;the&nbsp;area&nbsp;of&nbsp;effect&nbsp;completely&nbsp;contains&nbsp;a&nbsp;creature's&nbsp;space,&nbsp;including&nbsp;the&nbsp;manifester,&nbsp;that&nbsp;creature&nbsp;must&nbsp;make&nbsp;a&nbsp;Reflex&nbsp;save&nbsp;or&nbsp;fall&nbsp;prone&nbsp;in&nbsp;the&nbsp;burrow.&nbsp;If&nbsp;a&nbsp;creature&nbsp;happens&nbsp;to&nbsp;be&nbsp;burrowing&nbsp;in&nbsp;the&nbsp;area&nbsp;of&nbsp;effect&nbsp;and&nbsp;would&nbsp;be&nbsp;exposed&nbsp;by&nbsp;this&nbsp;power,&nbsp;it&nbsp;emerges,&nbsp;prone&nbsp;but&nbsp;unharmed,&nbsp;in&nbsp;the&nbsp;trench.
+      <p>If the area of effect completely contains a creature's space, including
+      the manifester, that creature must make a Reflex save or fall prone in the
+      burrow. If a creature happens to be burrowing in the area of effect and
+      would be exposed by this power, it emerges, prone but unharmed, in the
+      trench.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways:
+      <p><strong>Augment:</strong> You may augment this power in one or more of
+      the following ways:
 
-      </p><ol><li>For&nbsp;each&nbsp;additional&nbsp;power&nbsp;point&nbsp;spend,&nbsp;you&nbsp;can&nbsp;burrow&nbsp;one&nbsp;5-ft,&nbsp;cube&nbsp;instead&nbsp;of&nbsp;affecting&nbsp;four&nbsp;5ft.&nbsp;squares.&nbsp;Only&nbsp;one&nbsp;of&nbsp;these&nbsp;cubes&nbsp;need&nbsp;be&nbsp;in&nbsp;contact&nbsp;with&nbsp;the&nbsp;surface&nbsp;when&nbsp;you&nbsp;start&nbsp;manifesting.</li><li>For&nbsp;each&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;spend,&nbsp;you&nbsp;can&nbsp;affect&nbsp;substances&nbsp;with&nbsp;an&nbsp;hardness&nbsp;of&nbsp;2&nbsp;additional&nbsp;points&nbsp;(such&nbsp;as&nbsp;stone&nbsp;or&nbsp;ice)&nbsp;starting&nbsp;at&nbsp;hardness&nbsp;0.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;may&nbsp;manifest&nbsp;this&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action.</li></ol>
+      </p><ol><li>For each additional power point spend, you can burrow one
+      5-ft, cube instead of affecting four 5ft. squares. Only one of these cubes
+      need be in contact with the surface when you start
+      manifesting.</li><li>For each 2 additional power points spend, you can
+      affect substances with an hardness of 2 additional points (such as stone
+      or ice) starting at hardness 0.</li><li>If you spend 2 additional power
+      points you may manifest this power as a swift action.</li></ol>
   discipline: psychokinesis
   display:
     auditory: false

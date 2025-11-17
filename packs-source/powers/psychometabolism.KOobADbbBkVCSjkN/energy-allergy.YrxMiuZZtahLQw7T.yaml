@@ -30,15 +30,23 @@ system:
         value: One creature
   description:
     value: >-
-      <p>The&nbsp;skin&nbsp;of&nbsp;your&nbsp;foe&nbsp;begins&nbsp;to&nbsp;discolor&nbsp;as&nbsp;its&nbsp;very&nbsp;nature&nbsp;changes,&nbsp;introducing&nbsp;a&nbsp;potentially&nbsp;fatal&nbsp;flaw&nbsp;in&nbsp;its&nbsp;defenses.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;the&nbsp;target&nbsp;gains&nbsp;vulnerability&nbsp;to&nbsp;the&nbsp;energy&nbsp;type&nbsp;you&nbsp;selected&nbsp;when&nbsp;you&nbsp;last&nbsp;gained&nbsp;psionic&nbsp;focus.&nbsp;Such&nbsp;a&nbsp;creature&nbsp;takes&nbsp;an&nbsp;additional&nbsp;50%&nbsp;damage&nbsp;from&nbsp;that&nbsp;energy&nbsp;type&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;<em>energy&nbsp;allergy</em>.
+      <p>The skin of your foe begins to discolor as its very nature changes,
+      introducing a potentially fatal flaw in its defenses. When you manifest
+      this power, the target gains vulnerability to the energy type you selected
+      when you last gained psionic focus. Such a creature takes an additional
+      50% damage from that energy type for the duration of <em>energy
+      allergy</em>.
 
       </p>
 
-      <p>Resistance&nbsp;and&nbsp;immunity&nbsp;to&nbsp;the&nbsp;energy&nbsp;type&nbsp;you&nbsp;specify&nbsp;remain&nbsp;unaffected&nbsp;by&nbsp;this&nbsp;power.
+      <p>Resistance and immunity to the energy type you specify remain
+      unaffected by this power.
 
       </p>
 
-      <p><strong>Augment:&nbsp;</strong>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;four&nbsp;power&nbsp;points&nbsp;you&nbsp;can&nbsp;specify&nbsp;a&nbsp;second&nbsp;energy&nbsp;type&nbsp;or&nbsp;specify&nbsp;an&nbsp;energy&nbsp;type&nbsp;other&nbsp;than&nbsp;the&nbsp;type&nbsp;you&nbsp;chose&nbsp;when&nbsp;last&nbsp;gaining&nbsp;psionic&nbsp;focus.
+      <p><strong>Augment: </strong>By spending an additional four power points
+      you can specify a second energy type or specify an energy type other than
+      the type you chose when last gaining psionic focus.
 
       </p>
   discipline: psychometabolism

@@ -29,13 +29,25 @@ system:
         value: One living creature touched
   description:
     value: >-
-      <p>You&nbsp;bind&nbsp;a&nbsp;spirit&nbsp;to&nbsp;a&nbsp;living&nbsp;creature,&nbsp;goading&nbsp;it&nbsp;into&nbsp;tormenting&nbsp;and&nbsp;torturing&nbsp;them.&nbsp;They&nbsp;are&nbsp;constantly&nbsp;harassed&nbsp;by&nbsp;ghostly&nbsp;hallucinations,&nbsp;suffering&nbsp;a&nbsp;-2&nbsp;penalty&nbsp;on&nbsp;Reflex&nbsp;saves&nbsp;and&nbsp;AC&nbsp;against&nbsp;attacks&nbsp;of&nbsp;opportunity.&nbsp;During&nbsp;your&nbsp;turn,&nbsp;as&nbsp;a&nbsp;swift&nbsp;action,&nbsp;you&nbsp;may&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;empower&nbsp;the&nbsp;spirit,&nbsp;haunting&nbsp;the&nbsp;creature&nbsp;more&nbsp;intensely.&nbsp;It&nbsp;is&nbsp;shaken&nbsp;for&nbsp;a&nbsp;number&nbsp;of&nbsp;rounds&nbsp;equal&nbsp;to&nbsp;your&nbsp;Charisma&nbsp;modifier.
+      <p>You bind a spirit to a living creature, goading it into tormenting and
+      torturing them. They are constantly harassed by ghostly hallucinations,
+      suffering a -2 penalty on Reflex saves and AC against attacks of
+      opportunity. During your turn, as a swift action, you may expend your
+      psionic focus to empower the spirit, haunting the creature more intensely.
+      It is shaken for a number of rounds equal to your Charisma modifier.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You may augment this power in one of the
+      following ways.
 
-      </p><ol><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;any&nbsp;incorporeal&nbsp;creature&nbsp;that&nbsp;attacks&nbsp;the&nbsp;target&nbsp;gains&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;rolls,&nbsp;damage&nbsp;rolls,&nbsp;and&nbsp;save&nbsp;DCs&nbsp;of&nbsp;powers&nbsp;it&nbsp;manifests&nbsp;or&nbsp;effects&nbsp;it&nbsp;creates.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points,&nbsp;increase&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;1&nbsp;day/level.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;increase&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;1&nbsp;week/level.</li></ol>
+      </p><ol><li>By spending an additional 4 power points, any incorporeal
+      creature that attacks the target gains a +2 bonus on attack rolls, damage
+      rolls, and save DCs of powers it manifests or effects it
+      creates.</li><li>By spending an additional 2 power points, increase the
+      duration of this power to 1 day/level.</li><li>By spending an additional 4
+      power points, increase the duration of this power to 1
+      week/level.</li></ol>
   descriptors:
     - mind-affecting
     - fear

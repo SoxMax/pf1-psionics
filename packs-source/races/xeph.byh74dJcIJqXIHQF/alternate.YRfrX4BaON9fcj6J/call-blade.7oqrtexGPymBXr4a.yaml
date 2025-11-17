@@ -1,0 +1,85 @@
+_id: 7oqrtexGPymBXr4a
+_key: '!items!7oqrtexGPymBXr4a'
+_stats:
+  coreVersion: '13.351'
+flags:
+  pf1-psionics:
+    fromRace: Xeph
+folder: YRfrX4BaON9fcj6J
+img: icons/environment/people/group.webp
+name: Call Blade
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>Xephs are perhaps the race that most commonly chooses the path of the
+      soulknife. Some xephs have an innate tie to summoning a weapon from thin
+      air. A xeph with this racial trait gains the ability to use <em><a
+      href="/wiki/Call_weaponry" class="mw-redirect" title="Call weaponry">call
+      weaponry</a></em> as a psi-like ability once per day with a manifester
+      level equal to the xeph’s character level.</p><p><em>This trait replaces
+      one daily use of the Burst trait and can be taken multiple
+      times.</em></p><p> Each time, it replaces one daily use of the Burst trait
+      and increases the daily uses of the <em><a href="/wiki/Call_weaponry"
+      class="mw-redirect" title="Call weaponry">call weaponry</a></em> psi-like
+      ability by one.</li></p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+  traitCategory: magical
+type: feat

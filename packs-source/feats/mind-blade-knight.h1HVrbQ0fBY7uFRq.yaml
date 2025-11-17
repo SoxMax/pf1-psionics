@@ -22,17 +22,33 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;have&nbsp;gained&nbsp;additional&nbsp;flexibility&nbsp;with&nbsp;your&nbsp;summoned&nbsp;weapons.</em></p>
+      <p><em>You have gained additional flexibility with your summoned
+      weapons.</em></p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Mind&nbsp;knight&nbsp;warrior&nbsp;path,&nbsp;expanded&nbsp;path&nbsp;class&nbsp;feature.
-
-      </p>
-
-      <p><strong>Benefit:&nbsp;</strong>As&nbsp;long&nbsp;as&nbsp;you&nbsp;maintain&nbsp;focus,&nbsp;when&nbsp;you&nbsp;wield&nbsp;a&nbsp;weapon&nbsp;created&nbsp;by&nbsp;<em><a&nbsp;href="/wiki/Call_Weaponry"&nbsp;title="Call&nbsp;Weaponry">call&nbsp;weaponry</a></em>,&nbsp;you&nbsp;may&nbsp;choose&nbsp;to&nbsp;forgo&nbsp;some&nbsp;or&nbsp;all&nbsp;of&nbsp;the&nbsp;mind&nbsp;knight&nbsp;trance&nbsp;bonus&nbsp;to&nbsp;attack&nbsp;and&nbsp;damage&nbsp;rolls,&nbsp;and&nbsp;instead&nbsp;add&nbsp;an&nbsp;equal&nbsp;value&nbsp;of&nbsp;weapon&nbsp;special&nbsp;abilities&nbsp;to&nbsp;the&nbsp;weapon.&nbsp;These&nbsp;special&nbsp;abilities&nbsp;must&nbsp;be&nbsp;selected&nbsp;from&nbsp;the&nbsp;soulknife’s&nbsp;list&nbsp;of&nbsp;weapon&nbsp;special&nbsp;abilities,&nbsp;and&nbsp;your&nbsp;effective&nbsp;soulknife&nbsp;level&nbsp;for&nbsp;determining&nbsp;which&nbsp;abilities&nbsp;you&nbsp;can&nbsp;select&nbsp;is&nbsp;equal&nbsp;to&nbsp;half&nbsp;your&nbsp;psychic&nbsp;warrior&nbsp;level&nbsp;(rounded&nbsp;down).&nbsp;Once&nbsp;you&nbsp;have&nbsp;selected&nbsp;weapon&nbsp;special&nbsp;abilities&nbsp;to&nbsp;apply,&nbsp;you&nbsp;must&nbsp;spend&nbsp;8&nbsp;hours&nbsp;in&nbsp;meditation&nbsp;to&nbsp;change&nbsp;the&nbsp;selected&nbsp;special&nbsp;abilities,&nbsp;or&nbsp;to&nbsp;dismiss&nbsp;the&nbsp;special&nbsp;abilities&nbsp;and&nbsp;keep&nbsp;the&nbsp;normal&nbsp;trance&nbsp;bonus.
+      <p><strong>Prerequisites:</strong> Mind knight warrior path, expanded path
+      class feature.
 
       </p>
 
-      <p>If&nbsp;you&nbsp;have&nbsp;levels&nbsp;in&nbsp;a&nbsp;class&nbsp;that&nbsp;grants&nbsp;you&nbsp;a&nbsp;mind&nbsp;blade&nbsp;or&nbsp;similar&nbsp;weapon&nbsp;(such&nbsp;as&nbsp;a&nbsp;mind&nbsp;bolt&nbsp;or&nbsp;mind&nbsp;arrow),&nbsp;you&nbsp;may&nbsp;add&nbsp;those&nbsp;class&nbsp;levels&nbsp;to&nbsp;your&nbsp;psychic&nbsp;warrior&nbsp;levels&nbsp;to&nbsp;determine&nbsp;your&nbsp;manifester&nbsp;level&nbsp;for&nbsp;<em>call&nbsp;weaponry</em>&nbsp;and&nbsp;your&nbsp;mind&nbsp;knight&nbsp;trance&nbsp;bonus.
+      <p><strong>Benefit: </strong>As long as you maintain focus, when you wield
+      a weapon created by <em><a href="/wiki/Call_Weaponry" title="Call
+      Weaponry">call weaponry</a></em>, you may choose to forgo some or all of
+      the mind knight trance bonus to attack and damage rolls, and instead add
+      an equal value of weapon special abilities to the weapon. These special
+      abilities must be selected from the soulknife’s list of weapon special
+      abilities, and your effective soulknife level for determining which
+      abilities you can select is equal to half your psychic warrior level
+      (rounded down). Once you have selected weapon special abilities to apply,
+      you must spend 8 hours in meditation to change the selected special
+      abilities, or to dismiss the special abilities and keep the normal trance
+      bonus.
+
+      </p>
+
+      <p>If you have levels in a class that grants you a mind blade or similar
+      weapon (such as a mind bolt or mind arrow), you may add those class levels
+      to your psychic warrior levels to determine your manifester level for
+      <em>call weaponry</em> and your mind knight trance bonus.
 
       </p>
   disabled: false

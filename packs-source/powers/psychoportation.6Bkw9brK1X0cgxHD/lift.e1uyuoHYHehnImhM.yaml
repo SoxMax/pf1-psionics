@@ -29,11 +29,22 @@ system:
         value: One Medium or smaller creature
   description:
     value: >-
-      <p>With&nbsp;a&nbsp;mental&nbsp;thrust&nbsp;you&nbsp;fling&nbsp;your&nbsp;foe&nbsp;upwards&nbsp;then&nbsp;suspend&nbsp;them&nbsp;there.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;<em>lift</em>,&nbsp;you&nbsp;cause&nbsp;a&nbsp;target&nbsp;to&nbsp;float&nbsp;unnaturally&nbsp;five&nbsp;feet&nbsp;above&nbsp;the&nbsp;ground.&nbsp;This&nbsp;typically&nbsp;prevents&nbsp;them&nbsp;from&nbsp;moving&nbsp;though&nbsp;creatures&nbsp;which&nbsp;can&nbsp;fly&nbsp;are&nbsp;unaffected&nbsp;by&nbsp;<em>lift</em>.&nbsp;Additionally,&nbsp;a&nbsp;creature&nbsp;that&nbsp;is&nbsp;able&nbsp;to&nbsp;react&nbsp;walls,&nbsp;items,&nbsp;or&nbsp;creatures&nbsp;nearby&nbsp;may&nbsp;be&nbsp;able&nbsp;to&nbsp;push&nbsp;themselves&nbsp;horizontally.&nbsp;This&nbsp;requires&nbsp;deliberate&nbsp;intent,&nbsp;so&nbsp;a&nbsp;target&nbsp;creature&nbsp;kicking&nbsp;or&nbsp;punching&nbsp;an&nbsp;adjacent&nbsp;foe&nbsp;does&nbsp;not&nbsp;float&nbsp;away&nbsp;unexpectedly.
+      <p>With a mental thrust you fling your foe upwards then suspend them
+      there. When you manifest <em>lift</em>, you cause a target to float
+      unnaturally five feet above the ground. This typically prevents them from
+      moving though creatures which can fly are unaffected by <em>lift</em>.
+      Additionally, a creature that is able to react walls, items, or creatures
+      nearby may be able to push themselves horizontally. This requires
+      deliberate intent, so a target creature kicking or punching an adjacent
+      foe does not float away unexpectedly.
 
       </p>
 
-      <p>This&nbsp;power&nbsp;is&nbsp;inherently&nbsp;stable&nbsp;and&nbsp;being&nbsp;suspended&nbsp;in&nbsp;midair&nbsp;does&nbsp;not&nbsp;impose&nbsp;any&nbsp;penalty&nbsp;on&nbsp;actions&nbsp;the&nbsp;target&nbsp;creature&nbsp;might&nbsp;undertake&nbsp;excepting&nbsp;movement.&nbsp;Each&nbsp;round&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;its&nbsp;turn,&nbsp;the&nbsp;target&nbsp;creature&nbsp;makes&nbsp;an&nbsp;additional&nbsp;save&nbsp;at&nbsp;the&nbsp;original&nbsp;DC&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;terminate&nbsp;its&nbsp;effects.
+      <p>This power is inherently stable and being suspended in midair does not
+      impose any penalty on actions the target creature might undertake
+      excepting movement. Each round at the end of its turn, the target creature
+      makes an additional save at the original DC of this power to terminate its
+      effects.
 
       </p>
   discipline: psychoportation

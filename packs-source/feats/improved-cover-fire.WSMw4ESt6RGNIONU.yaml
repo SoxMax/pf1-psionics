@@ -22,31 +22,32 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>You&nbsp;are&nbsp;more&nbsp;dangerous&nbsp;when&nbsp;providing&nbsp;cover&nbsp;fire.
+      <p>You are more dangerous when providing cover fire.
 
       </p>
 
-      <p><strong>Prerequisite:&nbsp;</strong>Cover&nbsp;fire&nbsp;class&nbsp;feature
+      <p><strong>Prerequisite: </strong>Cover fire class feature
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;gain&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;rolls&nbsp;to&nbsp;activate
+      <p><strong>Benefit: </strong>You gain a +1 bonus on attack rolls to
+      activate
 
-      your&nbsp;cover&nbsp;fire&nbsp;class&nbsp;feature&nbsp;and&nbsp;the&nbsp;Reflex&nbsp;save&nbsp;DC
+      your cover fire class feature and the Reflex save DC
 
-      increases&nbsp;by&nbsp;1.&nbsp;When&nbsp;you&nbsp;confirm&nbsp;a&nbsp;critical&nbsp;hit&nbsp;when
+      increases by 1. When you confirm a critical hit when
 
-      using&nbsp;your&nbsp;cover&nbsp;fire&nbsp;ability,&nbsp;you&nbsp;can&nbsp;expend&nbsp;your
+      using your cover fire ability, you can expend your
 
-      psionic&nbsp;focus&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action;&nbsp;if&nbsp;you&nbsp;do&nbsp;and
+      psionic focus as an immediate action; if you do and
 
-      the&nbsp;opponent&nbsp;fails&nbsp;their&nbsp;Reflex&nbsp;save,&nbsp;they&nbsp;are&nbsp;stunned
+      the opponent fails their Reflex save, they are stunned
 
-      for&nbsp;one&nbsp;round&nbsp;instead&nbsp;of&nbsp;staggered.&nbsp;You&nbsp;must&nbsp;choose
+      for one round instead of staggered. You must choose
 
-      to&nbsp;use&nbsp;this&nbsp;ability&nbsp;before&nbsp;the&nbsp;Reflex&nbsp;save&nbsp;and&nbsp;critical
+      to use this ability before the Reflex save and critical
 
-      confirmation&nbsp;roll.
+      confirmation roll.
 
       </p>
   disabled: false

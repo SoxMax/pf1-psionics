@@ -22,13 +22,23 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;ranged&nbsp;and&nbsp;thrown&nbsp;attacks&nbsp;stagger&nbsp;fearful&nbsp;opponents.</em></p>
+      <p><em>Your ranged and thrown attacks stagger fearful opponents.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Intimidating_Shot"&nbsp;title="Intimidating&nbsp;Shot">Intimidating&nbsp;Shot</a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank&nbsp;Shot</a>,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+6.
+      <p><strong>Prerequisites:</strong><a href="/wiki/Intimidating_Shot"
+      title="Intimidating Shot">Intimidating Shot</a>, <a rel="nofollow"
+      class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank
+      Shot</a>, base attack bonus +6.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;As&nbsp;long&nbsp;as&nbsp;you&nbsp;maintain&nbsp;psionic&nbsp;focus,&nbsp;as&nbsp;a&nbsp;standard&nbsp;action,&nbsp;you&nbsp;may&nbsp;make&nbsp;a&nbsp;single&nbsp;ranged&nbsp;or&nbsp;thrown&nbsp;attack&nbsp;against&nbsp;an&nbsp;enemy&nbsp;that&nbsp;is&nbsp;frightened,&nbsp;panicked,&nbsp;or&nbsp;shaken.&nbsp;If&nbsp;the&nbsp;attack&nbsp;hits,&nbsp;you&nbsp;deal&nbsp;damage&nbsp;normally&nbsp;and&nbsp;the&nbsp;target&nbsp;is&nbsp;staggered&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;next&nbsp;turn&nbsp;unless&nbsp;it&nbsp;makes&nbsp;a&nbsp;Fortitude&nbsp;saving&nbsp;throw&nbsp;(DC&nbsp;10&nbsp;+&nbsp;1/2&nbsp;your&nbsp;character&nbsp;level&nbsp;+&nbsp;your&nbsp;Wis&nbsp;modifier).&nbsp;This&nbsp;feat&nbsp;has&nbsp;no&nbsp;effect&nbsp;on&nbsp;targets&nbsp;that&nbsp;are&nbsp;staggered.
+      <p><strong>Benefit:</strong> As long as you maintain psionic focus, as a
+      standard action, you may make a single ranged or thrown attack against an
+      enemy that is frightened, panicked, or shaken. If the attack hits, you
+      deal damage normally and the target is staggered until the end of your
+      next turn unless it makes a Fortitude saving throw (DC 10 + 1/2 your
+      character level + your Wis modifier). This feat has no effect on targets
+      that are staggered.
 
       </p>
   disabled: false

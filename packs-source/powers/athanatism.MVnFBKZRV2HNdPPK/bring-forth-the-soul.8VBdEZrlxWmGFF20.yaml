@@ -30,15 +30,47 @@ system:
         value: One dead creature
   description:
     value: >-
-      <p>You&nbsp;bring&nbsp;back&nbsp;the&nbsp;soul&nbsp;of&nbsp;one&nbsp;that&nbsp;is&nbsp;recently&nbsp;dead,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;question&nbsp;them&nbsp;freely&nbsp;or&nbsp;raise&nbsp;them&nbsp;more&nbsp;easily.&nbsp;A&nbsp;soul&nbsp;brought&nbsp;back&nbsp;in&nbsp;this&nbsp;way&nbsp;is&nbsp;treated&nbsp;as&nbsp;a&nbsp;shadow,&nbsp;except&nbsp;that&nbsp;they&nbsp;cannot&nbsp;create&nbsp;spawn&nbsp;and&nbsp;do&nbsp;not&nbsp;deal&nbsp;ability&nbsp;damage&nbsp;with&nbsp;their&nbsp;attacks.&nbsp;This&nbsp;soul&nbsp;is&nbsp;not&nbsp;obliged&nbsp;to&nbsp;stay&nbsp;or&nbsp;serve,&nbsp;and&nbsp;may&nbsp;attempt&nbsp;a&nbsp;Will&nbsp;saving&nbsp;throw&nbsp;to&nbsp;resist&nbsp;being&nbsp;brought&nbsp;back.&nbsp;The&nbsp;soul&nbsp;suffers&nbsp;a&nbsp;penalty&nbsp;on&nbsp;saves&nbsp;equal&nbsp;to&nbsp;your&nbsp;Charisma&nbsp;modifier&nbsp;against&nbsp;any&nbsp;Athanatism&nbsp;powers&nbsp;or&nbsp;effects&nbsp;that&nbsp;you&nbsp;manifest&nbsp;in&nbsp;the&nbsp;future.&nbsp;A&nbsp;soul&nbsp;that&nbsp;succeeds&nbsp;on&nbsp;this&nbsp;saving&nbsp;throw&nbsp;may&nbsp;not&nbsp;be&nbsp;targeted&nbsp;again&nbsp;by&nbsp;this&nbsp;power&nbsp;by&nbsp;the&nbsp;same&nbsp;manifester&nbsp;for&nbsp;24&nbsp;hours.&nbsp;If&nbsp;the&nbsp;targeted&nbsp;creature&nbsp;has&nbsp;been&nbsp;dead&nbsp;for&nbsp;longer&nbsp;than&nbsp;a&nbsp;week,&nbsp;or&nbsp;died&nbsp;due&nbsp;to&nbsp;negative&nbsp;energy&nbsp;or&nbsp;soul-draining&nbsp;effects,&nbsp;this&nbsp;power&nbsp;fails.&nbsp;This&nbsp;power&nbsp;does&nbsp;not&nbsp;affect&nbsp;a&nbsp;corpse&nbsp;that&nbsp;has&nbsp;been&nbsp;turned&nbsp;into&nbsp;an&nbsp;undead&nbsp;creature.&nbsp;Each&nbsp;corpse&nbsp;can&nbsp;only&nbsp;be&nbsp;affected&nbsp;by&nbsp;one&nbsp;instance&nbsp;of&nbsp;this&nbsp;power&nbsp;at&nbsp;a&nbsp;time.
+      <p>You bring back the soul of one that is recently dead, allowing you to
+      question them freely or raise them more easily. A soul brought back in
+      this way is treated as a shadow, except that they cannot create spawn and
+      do not deal ability damage with their attacks. This soul is not obliged to
+      stay or serve, and may attempt a Will saving throw to resist being brought
+      back. The soul suffers a penalty on saves equal to your Charisma modifier
+      against any Athanatism powers or effects that you manifest in the future.
+      A soul that succeeds on this saving throw may not be targeted again by
+      this power by the same manifester for 24 hours. If the targeted creature
+      has been dead for longer than a week, or died due to negative energy or
+      soul-draining effects, this power fails. This power does not affect a
+      corpse that has been turned into an undead creature. Each corpse can only
+      be affected by one instance of this power at a time.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power may be augmented in one of the
+      following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;corpse&nbsp;targeted&nbsp;by&nbsp;this&nbsp;power&nbsp;may&nbsp;have&nbsp;been&nbsp;dead&nbsp;for&nbsp;one&nbsp;additional&nbsp;week.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;increase&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;1&nbsp;hour/level.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;increase&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;1&nbsp;day/level.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;10&nbsp;power&nbsp;points,&nbsp;you&nbsp;may</li></ol>
+      </p><ol><li>For every 2 additional power points you spend, the corpse
+      targeted by this power may have been dead for one additional
+      week.</li><li>By spending an additional 4 power points, increase the
+      duration of this power to 1 hour/level.</li><li>By spending an additional
+      6 power points, increase the duration of this power to 1
+      day/level.</li><li>By spending an additional 10 power points, you
+      may</li></ol>
 
-      <p>raise&nbsp;the&nbsp;soul&nbsp;from&nbsp;the&nbsp;dead.&nbsp;The&nbsp;soul&nbsp;must&nbsp;be&nbsp;willing&nbsp;to&nbsp;return.&nbsp;It&nbsp;returns&nbsp;to&nbsp;life&nbsp;with&nbsp;two&nbsp;permanent&nbsp;negative&nbsp;levels.&nbsp;If&nbsp;it&nbsp;is&nbsp;1st&nbsp;level,&nbsp;it&nbsp;takes&nbsp;2&nbsp;points&nbsp;of&nbsp;Constitution&nbsp;drain&nbsp;instead&nbsp;(if&nbsp;this&nbsp;would&nbsp;reduce&nbsp;its&nbsp;Con&nbsp;to&nbsp;0&nbsp;or&nbsp;less,&nbsp;it&nbsp;can't&nbsp;be&nbsp;raised).&nbsp;A&nbsp;target&nbsp;that&nbsp;died&nbsp;with&nbsp;spells&nbsp;prepared&nbsp;has&nbsp;a&nbsp;50%&nbsp;chance&nbsp;of&nbsp;losing&nbsp;any&nbsp;given&nbsp;spell&nbsp;upon&nbsp;being&nbsp;raised.&nbsp;A&nbsp;spellcasting&nbsp;creature&nbsp;that&nbsp;doesn't&nbsp;prepare&nbsp;spells&nbsp;has&nbsp;a&nbsp;50%&nbsp;chance&nbsp;of&nbsp;losing&nbsp;any&nbsp;given&nbsp;unused&nbsp;spell&nbsp;slot&nbsp;as&nbsp;if&nbsp;it&nbsp;had&nbsp;been&nbsp;used&nbsp;to&nbsp;cast&nbsp;a&nbsp;spell.&nbsp;A&nbsp;manifester&nbsp;that&nbsp;died&nbsp;with&nbsp;power&nbsp;points&nbsp;is&nbsp;raised&nbsp;with&nbsp;half&nbsp;its&nbsp;maximum&nbsp;power&nbsp;points,&nbsp;round&nbsp;up.&nbsp;A&nbsp;raised&nbsp;creature&nbsp;has&nbsp;a&nbsp;number&nbsp;of&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;its&nbsp;current&nbsp;HD.&nbsp;Any&nbsp;normal&nbsp;poison&nbsp;or&nbsp;diseases&nbsp;affecting&nbsp;the&nbsp;target&nbsp;are&nbsp;cured&nbsp;when&nbsp;it&nbsp;returns&nbsp;to&nbsp;life,&nbsp;but&nbsp;missing&nbsp;limbs,&nbsp;magical&nbsp;diseases,&nbsp;and&nbsp;curses&nbsp;remain&nbsp;unchanged.&nbsp;It&nbsp;retains&nbsp;the&nbsp;penalty&nbsp;to&nbsp;saves&nbsp;against&nbsp;your&nbsp;athanatism&nbsp;effects.&nbsp;When&nbsp;you&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;this&nbsp;way,&nbsp;you&nbsp;suffer&nbsp;a&nbsp;permanent&nbsp;negative&nbsp;level.&nbsp;This&nbsp;power&nbsp;gains&nbsp;the&nbsp;healing&nbsp;subtype.
+      <p>raise the soul from the dead. The soul must be willing to return. It
+      returns to life with two permanent negative levels. If it is 1st level, it
+      takes 2 points of Constitution drain instead (if this would reduce its Con
+      to 0 or less, it can't be raised). A target that died with spells prepared
+      has a 50% chance of losing any given spell upon being raised. A
+      spellcasting creature that doesn't prepare spells has a 50% chance of
+      losing any given unused spell slot as if it had been used to cast a spell.
+      A manifester that died with power points is raised with half its maximum
+      power points, round up. A raised creature has a number of hit points equal
+      to its current HD. Any normal poison or diseases affecting the target are
+      cured when it returns to life, but missing limbs, magical diseases, and
+      curses remain unchanged. It retains the penalty to saves against your
+      athanatism effects. When you augment this power in this way, you suffer a
+      permanent negative level. This power gains the healing subtype.
 
       </p>
   discipline: athanatism

@@ -22,25 +22,26 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>You&nbsp;deal&nbsp;more&nbsp;damage&nbsp;with&nbsp;your&nbsp;powers.
+      <p>You deal more damage with your powers.
 
       </p>
 
-      <p><strong>Prerequisites:&nbsp;</strong><a&nbsp;href="/wiki/Power_Specialization"&nbsp;title="Power&nbsp;Specialization">Power&nbsp;Specialization</a>,&nbsp;Weapon&nbsp;Focus
+      <p><strong>Prerequisites: </strong><a href="/wiki/Power_Specialization"
+      title="Power Specialization">Power Specialization</a>, Weapon Focus
 
-      (ray),&nbsp;manifester&nbsp;level&nbsp;12th.
+      (ray), manifester level 12th.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>Your&nbsp;powers&nbsp;that&nbsp;deal&nbsp;damage&nbsp;deal&nbsp;an&nbsp;extra
+      <p><strong>Benefit: </strong>Your powers that deal damage deal an extra
 
-      2&nbsp;points&nbsp;of&nbsp;damage.&nbsp;This&nbsp;damage&nbsp;stacks&nbsp;with&nbsp;other
+      2 points of damage. This damage stacks with other
 
-      bonuses&nbsp;on&nbsp;damage&nbsp;rolls&nbsp;to&nbsp;powers,&nbsp;including&nbsp;the&nbsp;one
+      bonuses on damage rolls to powers, including the one
 
-      from&nbsp;Power&nbsp;Specialization.&nbsp;The&nbsp;damage&nbsp;bonus&nbsp;applies
+      from Power Specialization. The damage bonus applies
 
-      only&nbsp;if&nbsp;the&nbsp;target&nbsp;or&nbsp;targets&nbsp;are&nbsp;within&nbsp;30&nbsp;feet.
+      only if the target or targets are within 30 feet.
 
       </p>
   disabled: false

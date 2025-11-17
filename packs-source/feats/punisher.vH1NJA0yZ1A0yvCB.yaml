@@ -22,13 +22,16 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;are&nbsp;quick&nbsp;to&nbsp;spot&nbsp;and&nbsp;punish&nbsp;the&nbsp;failures&nbsp;of&nbsp;those&nbsp;who&nbsp;fall&nbsp;under&nbsp;your&nbsp;dominion.</em></p>
+      <p><em>You are quick to spot and punish the failures of those who fall
+      under your dominion.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Highlord&nbsp;tenet&nbsp;class&nbsp;feature.
+      <p><strong>Prerequisite:</strong> Highlord tenet class feature.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>Whenever&nbsp;a&nbsp;member&nbsp;of&nbsp;your&nbsp;collective&nbsp;attacks&nbsp;and&nbsp;misses,&nbsp;you&nbsp;may&nbsp;deal&nbsp;your&nbsp;lifeblood&nbsp;resonance&nbsp;damage&nbsp;to&nbsp;them&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action.
+      <p><strong>Benefit: </strong>Whenever a member of your collective attacks
+      and misses, you may deal your lifeblood resonance damage to them as an
+      immediate action.
 
       </p>
   disabled: false

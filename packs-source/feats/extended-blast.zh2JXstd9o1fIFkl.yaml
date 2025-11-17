@@ -21,21 +21,14 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>Your&nbsp;surge&nbsp;blast&nbsp;has&nbsp;a&nbsp;farther&nbsp;reach.
-
+    value: |-
+      <p>Your surge blast has a farther reach.
       </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Surge&nbsp;blast&nbsp;class&nbsp;feature.
-
+      <p><strong>Prerequisites: </strong>Surge blast class feature.
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>Your&nbsp;surge&nbsp;blast&nbsp;has&nbsp;a&nbsp;range&nbsp;of&nbsp;60&nbsp;feet.
-
+      <p><strong>Benefit: </strong>Your surge blast has a range of 60 feet.
       </p>
-
-      <p><strong>Normal:&nbsp;</strong>Your&nbsp;surge&nbsp;blast&nbsp;has&nbsp;a&nbsp;range&nbsp;of&nbsp;30&nbsp;feet.
-
+      <p><strong>Normal: </strong>Your surge blast has a range of 30 feet.
       </p>
   disabled: false
   featType: feat

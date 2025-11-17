@@ -32,11 +32,17 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;interrupt&nbsp;the&nbsp;subject's&nbsp;autonomic&nbsp;heart&nbsp;rhythm,&nbsp;killing&nbsp;it&nbsp;instantly&nbsp;on&nbsp;a&nbsp;failed&nbsp;saving&nbsp;throw&nbsp;if&nbsp;it&nbsp;has&nbsp;11&nbsp;Hit&nbsp;Dice&nbsp;or&nbsp;less.&nbsp;If&nbsp;the&nbsp;target&nbsp;makes&nbsp;its&nbsp;saving&nbsp;throw&nbsp;or&nbsp;has&nbsp;more&nbsp;than&nbsp;11&nbsp;Hit&nbsp;Dice,&nbsp;it&nbsp;takes&nbsp;7d6&nbsp;points&nbsp;of&nbsp;damage.
+      <p>You interrupt the subject's autonomic heart rhythm, killing it
+      instantly on a failed saving throw if it has 11 Hit Dice or less. If the
+      target makes its saving throw or has more than 11 Hit Dice, it takes 7d6
+      points of damage.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;can&nbsp;kill&nbsp;a&nbsp;subject&nbsp;that&nbsp;has&nbsp;Hit&nbsp;Dice&nbsp;equal&nbsp;to&nbsp;11&nbsp;+&nbsp;the&nbsp;number&nbsp;of&nbsp;additional&nbsp;points.&nbsp;For&nbsp;every&nbsp;two&nbsp;additional&nbsp;points&nbsp;spent,&nbsp;the&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+      <p><strong>Augment:</strong> For every additional power point you spend,
+      this power can kill a subject that has Hit Dice equal to 11 + the number
+      of additional points. For every two additional points spent, the power's
+      save DC increases by 1.
 
       </p>
   descriptors:

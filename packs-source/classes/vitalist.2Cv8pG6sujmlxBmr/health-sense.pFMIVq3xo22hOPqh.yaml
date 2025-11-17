@@ -1,0 +1,103 @@
+_id: pFMIVq3xo22hOPqh
+_key: '!items!pFMIVq3xo22hOPqh'
+_stats:
+  coreVersion: '13.350'
+folder: 2Cv8pG6sujmlxBmr
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Health Sense
+system:
+  abilityType: ex
+  acquired: false
+  associations:
+    classes:
+      - Vitalist
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>Beginning at 2nd level, a vitalist may take a swift action to gauge the
+      relative health level of collective members, determining the amount of
+      damage, in hit points, that an ally has taken. In addition, the vitalist
+      may make a Heal check as a standard action, with a DC of 15, to determine
+      if any of the members of his collective are afflicted by a disease or
+      poison.
+
+      </p><p>Starting at 7th level, the vitalist can make a Heal check over his
+      collective to stabilize a dying target or treat a wound from a caltrop,
+      spike growth, spike stones, or similar. This ability improves at 12th
+      level, and the vitalist may make a Heal check over his collective to treat
+      a poisoned creature.
+
+      </p><p>At 17th level, the vitalist is able to treat diseases in the same
+      fashion, making a Heal check over his collective.
+
+      </p><p>When treating a target over a collective, the DC of the Heal check
+      is the same as if the vitalist was treating the target normally.
+
+      </p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2012-07-23'
+      pages: 57–61
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 69–72
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  summons: false
+  tag: healthsense
+type: feat

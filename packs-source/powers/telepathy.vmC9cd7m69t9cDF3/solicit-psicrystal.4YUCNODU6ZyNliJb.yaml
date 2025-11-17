@@ -28,15 +28,26 @@ system:
         value: Your psicrystal
   description:
     value: >-
-      <p>Your&nbsp;<a&nbsp;href="/wiki/Psicrystal"&nbsp;title="Psicrystal">psicrystal</a>&nbsp;takes&nbsp;over&nbsp;the&nbsp;responsibility&nbsp;of&nbsp;maintaining&nbsp;concentration&nbsp;on&nbsp;any&nbsp;single&nbsp;power&nbsp;you&nbsp;have&nbsp;manifested&nbsp;and&nbsp;are&nbsp;concentrating&nbsp;on.&nbsp;While&nbsp;maintaining&nbsp;this&nbsp;concentration,&nbsp;the&nbsp;psicrystal&nbsp;is&nbsp;limited&nbsp;to&nbsp;move&nbsp;actions&nbsp;in&nbsp;each&nbsp;round,&nbsp;as&nbsp;normal,&nbsp;unless&nbsp;the&nbsp;maintaining&nbsp;concentration&nbsp;on&nbsp;the&nbsp;power&nbsp;would&nbsp;not&nbsp;allow&nbsp;a&nbsp;move&nbsp;action.&nbsp;When&nbsp;the&nbsp;duration&nbsp;of&nbsp;solicit&nbsp;psicrystal&nbsp;expires,&nbsp;the&nbsp;power&nbsp;you&nbsp;transferred&nbsp;to&nbsp;the&nbsp;psicrystal&nbsp;ends&nbsp;(even&nbsp;if&nbsp;this&nbsp;would&nbsp;mean&nbsp;that&nbsp;the&nbsp;power&nbsp;ends&nbsp;earlier&nbsp;than&nbsp;normal).&nbsp;If&nbsp;necessary,&nbsp;the&nbsp;psicrystal&nbsp;makes&nbsp;concentration&nbsp;checks&nbsp;using&nbsp;your&nbsp;modifier.
+      <p>Your <a href="/wiki/Psicrystal" title="Psicrystal">psicrystal</a> takes
+      over the responsibility of maintaining concentration on any single power
+      you have manifested and are concentrating on. While maintaining this
+      concentration, the psicrystal is limited to move actions in each round, as
+      normal, unless the maintaining concentration on the power would not allow
+      a move action. When the duration of solicit psicrystal expires, the power
+      you transferred to the psicrystal ends (even if this would mean that the
+      power ends earlier than normal). If necessary, the psicrystal makes
+      concentration checks using your modifier.
 
       </p>
 
-      <p>You&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;(and&nbsp;transfer&nbsp;the&nbsp;responsibility)&nbsp;with&nbsp;an&nbsp;instant&nbsp;thought,&nbsp;quickly&nbsp;enough&nbsp;to&nbsp;gain&nbsp;the&nbsp;benefit&nbsp;of&nbsp;the&nbsp;power&nbsp;before&nbsp;you&nbsp;take&nbsp;any&nbsp;other&nbsp;actions&nbsp;in&nbsp;a&nbsp;round.
+      <p>You can manifest this power (and transfer the responsibility) with an
+      instant thought, quickly enough to gain the benefit of the power before
+      you take any other actions in a round.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;maximum&nbsp;duration&nbsp;increases&nbsp;by&nbsp;1&nbsp;round.
+      <p><strong>Augment:</strong> For every additional power point you spend,
+      this power's maximum duration increases by 1 round.
 
       </p>
   discipline: telepathy

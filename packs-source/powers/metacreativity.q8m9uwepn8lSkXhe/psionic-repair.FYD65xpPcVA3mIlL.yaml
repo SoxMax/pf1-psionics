@@ -33,7 +33,17 @@ system:
         value: one object of up to 1 lb./level
   description:
     value: >-
-      <p>This&nbsp;power&nbsp;repairs&nbsp;damaged&nbsp;objects,&nbsp;restoring&nbsp;1d4&nbsp;hit&nbsp;points&nbsp;to&nbsp;the&nbsp;object.&nbsp;If&nbsp;the&nbsp;object&nbsp;has&nbsp;the&nbsp;broken&nbsp;condition,&nbsp;this&nbsp;condition&nbsp;is&nbsp;removed&nbsp;if&nbsp;the&nbsp;object&nbsp;is&nbsp;restored&nbsp;to&nbsp;at&nbsp;least&nbsp;half&nbsp;its&nbsp;original&nbsp;hit&nbsp;points.&nbsp;All&nbsp;of&nbsp;the&nbsp;pieces&nbsp;of&nbsp;an&nbsp;object&nbsp;must&nbsp;be&nbsp;present&nbsp;for&nbsp;this&nbsp;power&nbsp;to&nbsp;function.&nbsp;Magic&nbsp;items&nbsp;can&nbsp;be&nbsp;repaired&nbsp;by&nbsp;this&nbsp;power,&nbsp;but&nbsp;you&nbsp;must&nbsp;have&nbsp;a&nbsp;manifester&nbsp;level&nbsp;equal&nbsp;to&nbsp;or&nbsp;higher&nbsp;than&nbsp;that&nbsp;of&nbsp;the&nbsp;object.&nbsp;Magic&nbsp;items&nbsp;that&nbsp;are&nbsp;destroyed&nbsp;(at&nbsp;0&nbsp;hit&nbsp;points&nbsp;or&nbsp;less)&nbsp;can&nbsp;be&nbsp;repaired&nbsp;with&nbsp;this&nbsp;power,&nbsp;but&nbsp;this&nbsp;power&nbsp;does&nbsp;not&nbsp;restore&nbsp;their&nbsp;magic&nbsp;abilities.&nbsp;This&nbsp;power&nbsp;does&nbsp;not&nbsp;affect&nbsp;creatures&nbsp;(including&nbsp;constructs).&nbsp;This&nbsp;power&nbsp;has&nbsp;no&nbsp;effect&nbsp;on&nbsp;objects&nbsp;that&nbsp;have&nbsp;been&nbsp;warped&nbsp;or&nbsp;otherwise&nbsp;transmuted,&nbsp;but&nbsp;it&nbsp;can&nbsp;still&nbsp;repair&nbsp;damage&nbsp;done&nbsp;to&nbsp;such&nbsp;items.
+      <p>This power repairs damaged objects, restoring 1d4 hit points to the
+      object. If the object has the broken condition, this condition is removed
+      if the object is restored to at least half its original hit points. All of
+      the pieces of an object must be present for this power to function. Magic
+      items can be repaired by this power, but you must have a manifester level
+      equal to or higher than that of the object. Magic items that are destroyed
+      (at 0 hit points or less) can be repaired with this power, but this power
+      does not restore their magic abilities. This power does not affect
+      creatures (including constructs). This power has no effect on objects that
+      have been warped or otherwise transmuted, but it can still repair damage
+      done to such items.
 
       </p>
   discipline: metacreativity

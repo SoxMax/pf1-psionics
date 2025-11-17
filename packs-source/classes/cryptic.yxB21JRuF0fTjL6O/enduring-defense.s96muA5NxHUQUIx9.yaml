@@ -1,0 +1,32 @@
+_id: s96muA5NxHUQUIx9
+_key: '!items!s96muA5NxHUQUIx9'
+_stats:
+  coreVersion: '13.350'
+folder: yxB21JRuF0fTjL6O
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Enduring Defense
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: >-
+      <p>A cryptic of 14th level can choose any option from the altered defense
+      ability and always be under that effect. The cryptic can still change the
+      effect as a swift action, but she is no longer limited to how many rounds
+      per day she can have Altered Defense active.
+
+      </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 36–42
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 34–40
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: enduring-defense
+type: feat

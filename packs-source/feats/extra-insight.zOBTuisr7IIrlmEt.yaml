@@ -22,35 +22,38 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>You&nbsp;have&nbsp;unlocked&nbsp;a&nbsp;new&nbsp;insight.
+      <p>You have unlocked a new insight.
 
       </p>
 
-      <p><strong>Prerequisite:&nbsp;</strong>Insight&nbsp;class&nbsp;feature.
+      <p><strong>Prerequisite: </strong>Insight class feature.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;gain&nbsp;one&nbsp;additional&nbsp;insight.&nbsp;You&nbsp;must
+      <p><strong>Benefit: </strong>You gain one additional insight. You must
 
-      meet&nbsp;all&nbsp;of&nbsp;the&nbsp;prerequisites&nbsp;for&nbsp;this&nbsp;insight.
-
-      </p>
-
-      <p><strong>Special:&nbsp;</strong>You&nbsp;can&nbsp;gain&nbsp;Extra&nbsp;Insight&nbsp;multiple&nbsp;times.
+      meet all of the prerequisites for this insight.
 
       </p>
 
-      <p><br&nbsp;/></p>
-
-      <p>You&nbsp;can&nbsp;meditate&nbsp;to&nbsp;gain&nbsp;additional&nbsp;insights.
+      <p><strong>Special: </strong>You can gain Extra Insight multiple times.
 
       </p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Extra&nbsp;Insight.
+      <p><br /></p>
+
+      <p>You can meditate to gain additional insights.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;Each&nbsp;day,&nbsp;you&nbsp;can&nbsp;take&nbsp;1&nbsp;hour&nbsp;of&nbsp;meditation&nbsp;to&nbsp;decide&nbsp;how&nbsp;to&nbsp;focus&nbsp;your&nbsp;mythic&nbsp;energies.&nbsp;At&nbsp;the&nbsp;end&nbsp;of&nbsp;this&nbsp;time,&nbsp;you&nbsp;gain&nbsp;one&nbsp;additional&nbsp;insight&nbsp;for&nbsp;which&nbsp;you&nbsp;meet&nbsp;all&nbsp;the&nbsp;prerequisites.&nbsp;You&nbsp;retain&nbsp;this&nbsp;insight&nbsp;until&nbsp;you&nbsp;next&nbsp;meditate&nbsp;on&nbsp;your&nbsp;mythic&nbsp;insights.&nbsp;
+      <p><strong>Prerequisite:</strong> Extra Insight.
+
+      </p>
+
+      <p><strong>Benefit:</strong> Each day, you can take 1 hour of meditation
+      to decide how to focus your mythic energies. At the end of this time, you
+      gain one additional insight for which you meet all the prerequisites. You
+      retain this insight until you next meditate on your mythic insights. 
 
       </p>
   disabled: false

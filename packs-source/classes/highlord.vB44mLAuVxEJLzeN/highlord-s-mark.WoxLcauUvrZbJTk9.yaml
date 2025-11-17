@@ -1,0 +1,78 @@
+_id: WoxLcauUvrZbJTk9
+_key: '!items!WoxLcauUvrZbJTk9'
+_stats:
+  coreVersion: '13.350'
+folder: vB44mLAuVxEJLzeN
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Highlord's Mark
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Highlord
+  description:
+    value: >-
+      <p>At 5th level, willingly or unwillingly, a highlord's charismatic and
+      psionic nature bleeds into the environment around him. The highlord can
+      establish a location as his territory, after spending at least a week in
+      the area around it. This location must be an area no larger in volume than
+      a cube that is a number of feet per side equal to 10 feet per highlord
+      level. If it is a public (or at least well known) area, it becomes widely
+      regarded by others that the highlord controls or own it in some way. The
+      highlord's power influences the appearance of the area through his open
+      heart ability, though objects within it are not changed as to become
+      unrecognizable.
+
+      </p><p>If another creature is already considered the controller or owner
+      of the area, that creature and the highlord make opposed Charisma checks.
+      The character who succeeds in this check is considered the owner or
+      controller of the area the highlord designates, though the original owner
+      is free to contest this claim by confronting the highlord directly. After
+      establishing an area as his territory, the highlord must return to it at
+      least once every three days to renew his claim upon it. Otherwise, the
+      effect disappears and other creatures may become considered the owner or
+      controller of the area, as normal.
+
+      </p><p>The highlord can also channel this power into one of his subjects.
+      As a full-round action, the highlord can designate a willing member of his
+      collective to bear his mark. As a result, that creature remains within the
+      collective and can communicate with the highlord through telepathy, even
+      if they were to leave the collective's normal range. As long as the
+      creature is designated by the highlord's mark, the highlord can
+      communicate through that creature and use Charisma based skills as if he
+      were occupying that creature's space, using his skill ranks and bonuses in
+      place of the marked creature.
+
+      </p><p>These marks can be dismissed as a free action. The highlord can
+      only mark a single location or creature at a time. Affecting a location or
+      a creature with his mark means he is unable to use this ability until he
+      dismisses the first mark.
+
+      </p><p>At 8th level, the highlord can maintain a mark on both a location
+      and a creature at the same time. His followers also grow more vigilant in
+      their defense of the highlord's territory. Members of the collective
+      within the area of a marked location gain a +3 bonus to Perception, and
+      creatures marked by the highlord gain a +3 bonus to Sense Motive.
+
+      </p><p>At 14th level, while within areas the highlord controls, the
+      highlord and his allies within the collective gain a +2 morale bonus to
+      attack rolls and saves, and the DC to resist being forced into the
+      collective increases by 2. In addition, the highlord can use his powers
+      and class abilities from creatures that he has marked, treating the range
+      and effects of such effects as if he were the marked creature. Doing this
+      requires the highlord and the creature he has marked to use the same
+      action required to manifest the power or use the ability.
+
+      </p><p>At 18th level, the highlord can maintain a number of marks equal to
+      his Charisma modifier (minimum 1) at the same time. These marks can be on
+      any combination of locations and creatures.
+
+      </p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–6
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: classFeat
+  tag: highlord-s-mark
+type: feat

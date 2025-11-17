@@ -26,11 +26,20 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;gain&nbsp;a&nbsp;flash&nbsp;of&nbsp;foresight,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;strike&nbsp;back&nbsp;at&nbsp;an&nbsp;enemy.&nbsp;As&nbsp;part&nbsp;of&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;you&nbsp;can&nbsp;make&nbsp;a&nbsp;full-attack&nbsp;action&nbsp;against&nbsp;a&nbsp;creature&nbsp;that&nbsp;has&nbsp;damaged&nbsp;you,&nbsp;so&nbsp;long&nbsp;as&nbsp;the&nbsp;creature&nbsp;is&nbsp;within&nbsp;range.&nbsp;However,&nbsp;this&nbsp;foresight&nbsp;overloads&nbsp;your&nbsp;senses&nbsp;after&nbsp;your&nbsp;attack,&nbsp;and&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;next&nbsp;turn,&nbsp;you&nbsp;are&nbsp;dazed.&nbsp;This&nbsp;dazed&nbsp;effect&nbsp;cannot&nbsp;be&nbsp;removed&nbsp;by&nbsp;any&nbsp;means&nbsp;except&nbsp;its&nbsp;normal&nbsp;expiration&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;next&nbsp;turn.&nbsp;You&nbsp;can&nbsp;only&nbsp;use&nbsp;this&nbsp;power&nbsp;immediately&nbsp;in&nbsp;response&nbsp;to&nbsp;being&nbsp;damaged&nbsp;by&nbsp;a&nbsp;creature&nbsp;and&nbsp;must&nbsp;target&nbsp;the&nbsp;creature&nbsp;that&nbsp;caused&nbsp;the&nbsp;damage.
+      <p>You gain a flash of foresight, allowing you to strike back at an enemy.
+      As part of manifesting this power, you can make a full-attack action
+      against a creature that has damaged you, so long as the creature is within
+      range. However, this foresight overloads your senses after your attack,
+      and until the end of your next turn, you are dazed. This dazed effect
+      cannot be removed by any means except its normal expiration at the end of
+      your next turn. You can only use this power immediately in response to
+      being damaged by a creature and must target the creature that caused the
+      damage.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;8&nbsp;power&nbsp;points,&nbsp;you&nbsp;are&nbsp;not&nbsp;dazed&nbsp;after&nbsp;making&nbsp;your&nbsp;attack.
+      <p><strong>Augment:</strong> By spending an additional 8 power points, you
+      are not dazed after making your attack.
 
       </p>
   discipline: clairsentience

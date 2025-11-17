@@ -1,0 +1,37 @@
+_id: w8FhgnGnLlz0Hak6
+_key: '!items!w8FhgnGnLlz0Hak6'
+_stats:
+  coreVersion: '13.350'
+folder: 1eB0rnnz4sKJdi7L
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Improved Share
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Tactician
+  description:
+    value: >-
+      <p>A tactician learns special techniques when manifesting powers with the
+      Shared descriptor. Beginning at 5th level, the tactician may maintain two
+      powers with the Shared descriptor at any time instead of only one. Should
+      he manifest a third power with the Shared descriptor, the tactician can
+      choose which of the maintained Shared powers ends immediately.
+
+      </p><p>Every six tactician levels thereafter (11th, 17th), the tactician
+      may maintain an additional power with the Shared descriptor before a
+      maintained power with the Shared descriptor expires.
+
+      </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 52–57
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 64–69
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: improved-share
+type: feat

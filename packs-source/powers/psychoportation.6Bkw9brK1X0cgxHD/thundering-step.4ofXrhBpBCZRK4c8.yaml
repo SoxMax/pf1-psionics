@@ -30,11 +30,20 @@ system:
         value: One creature
   description:
     value: >-
-      <p>Manifesting&nbsp;this&nbsp;power&nbsp;does&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity.&nbsp;As&nbsp;part&nbsp;of&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;make&nbsp;a&nbsp;single&nbsp;melee&nbsp;attack.&nbsp;If&nbsp;your&nbsp;attack&nbsp;is&nbsp;successful,&nbsp;you&nbsp;deal&nbsp;an&nbsp;additional&nbsp;+3d6&nbsp;points&nbsp;of&nbsp;sonic&nbsp;damage&nbsp;and&nbsp;the&nbsp;target&nbsp;is&nbsp;dazed&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;its&nbsp;next&nbsp;turn.&nbsp;Power&nbsp;resistance&nbsp;applies&nbsp;to&nbsp;the&nbsp;dazed&nbsp;effect,&nbsp;but&nbsp;does&nbsp;not&nbsp;apply&nbsp;to&nbsp;the&nbsp;additional&nbsp;damage&nbsp;to&nbsp;your&nbsp;attack.
+      <p>Manifesting this power does not provoke attacks of opportunity. As part
+      of manifesting this power, make a single melee attack. If your attack is
+      successful, you deal an additional +3d6 points of sonic damage and the
+      target is dazed until the end of its next turn. Power resistance applies
+      to the dazed effect, but does not apply to the additional damage to your
+      attack.
 
       </p>
 
-      <p>After&nbsp;the&nbsp;attack,&nbsp;regardless&nbsp;of&nbsp;if&nbsp;it&nbsp;is&nbsp;successful,&nbsp;you&nbsp;can&nbsp;teleport&nbsp;up&nbsp;to&nbsp;30&nbsp;feet&nbsp;from&nbsp;your&nbsp;current&nbsp;location.&nbsp;Each&nbsp;enemy&nbsp;you&nbsp;end&nbsp;up&nbsp;adjacent&nbsp;to&nbsp;must&nbsp;make&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;or&nbsp;become&nbsp;dazed&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;next&nbsp;turn.&nbsp;Your&nbsp;initial&nbsp;target&nbsp;is&nbsp;immune&nbsp;to&nbsp;this&nbsp;effect&nbsp;if&nbsp;you&nbsp;teleport&nbsp;adjacent&nbsp;to&nbsp;it.&nbsp;Power&nbsp;resistance&nbsp;applies&nbsp;to&nbsp;this&nbsp;effect.
+      <p>After the attack, regardless of if it is successful, you can teleport
+      up to 30 feet from your current location. Each enemy you end up adjacent
+      to must make a Fortitude save or become dazed until the end of your next
+      turn. Your initial target is immune to this effect if you teleport
+      adjacent to it. Power resistance applies to this effect.
 
       </p>
   descriptors:

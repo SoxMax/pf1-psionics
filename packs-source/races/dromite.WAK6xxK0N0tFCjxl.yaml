@@ -1,0 +1,159 @@
+_id: WAK6xxK0N0tFCjxl
+_key: '!items!WAK6xxK0N0tFCjxl'
+_stats:
+  coreVersion: '13.351'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Dromite
+img: icons/creatures/mammals/elk-moose-marked-green.webp
+name: Dromite
+system:
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: MewzNNkV
+      formula: '2'
+      operator: add
+      priority: 0
+      target: cha
+      type: racial
+    - _id: ZoZSqrlF
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: racial
+    - _id: z5nKaOYZ
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: str
+      type: racial
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  creatureSubtypes:
+    - insectoid
+    - psionic
+  creatureTypes:
+    - humanoid
+  description:
+    value: >-
+      <p>Small and insectoid in appearance, dromites stand out in most crowds of
+      humanoids. Their antennae, faceted eyes, carapace, and small stature make
+      them visibly different from most. Hailing from a hivemind-like history,
+      dromites have come to love and appreciate individuality while still
+      continuing to live in a hive and collective environment. This
+      individuality, together with a strong liberal view on life, means that
+      while different, dromites rarely have a problem making friends or finding
+      a place to live or work.</p><p><strong>Physical Description:</strong>
+      Around the height of gnomes and halflings, dromites stand between 3 and 4
+      feet tall, but tend to be sturdier in nature. Dromites have a natural
+      resistance towards the energy of their caste granted by the chitin that
+      covers parts of their body. The caste of a dromite is easily recognized by
+      the coloration of the carapace: red for Fire Caste, pale blue for Ice
+      Caste, white for Voice Caste, and green for Glimmer Caste. The skin of the
+      dromite not covered by chitin ranges from a pale white to a dark tan.
+      Dromites have faceted eyes which often shine with a psionic energy, and
+      large antennae that constantly quiver. Their small mouths are devoid of
+      external mandibles, but when eating, small internal mandibles are used to
+      help eat. Dromites have three fingers and a thumb, each covered in a
+      pointed carapace, with the same for their four toes. This gives the
+      dromites a look very different from other humanoids. Dromites are asexual,
+      being neither female nor male, except in the case of the Hive Queen and
+      Hive Consorts. In this situation, rituals are performed that grant gender
+      and reproductive capabilities.</p><p><strong>Society:</strong> Most
+      dromites organize themselves into hive cities – giant towers that are as
+      much subterranean as they are exposed above ground. Here they embrace
+      their caste as well as their individuality, striving to find their path in
+      life. For some, this means striving to become a Hive Queen or Consort, the
+      elected leaders of a hive, while for others it means learning a craft or
+      toiling in a mine to make ends meet. While externally very idealistic, a
+      society with very few laws and defining aspects also tends to become
+      chaotic and disorganized. Most hive cities tend to walk the line between
+      individual freedoms and communal responsibility. while there are a few
+      zealots amongst the dromites who dream of a better time, when they were
+      all united as one mind.</p><p><strong>Relations:</strong> The dromites get
+      along splendidly with halflings and gnomesmost of all, and the jovial ways
+      of both xephs and half-elves tends to put dromites at ease. The cold,
+      distant, ways of ophiduans and maenads make the dromites curious, wishing
+      to prod and experiment with them, to find out the reasons for their
+      demeanors. Most other races are viewed by their individual means, but most
+      dromites find the dwarves to be dull, boring and when drunk – gruff and
+      coarse.</p><p><strong>Alignment and Religion:</strong> Most dromites are
+      religiously indiscriminate, finding grace and faith in a number of gods,
+      sometimes part of the same pantheon, sometimes creating their own mixes of
+      gods and faiths. Dromites tend toward no particular alignment, not even
+      neutral. The best and the worst are found among them.</p><p><strong>A Note
+      on Names:</strong> Dromites have no gender, and thus their names are not
+      divided between male and female. Generally, a dromite has a personal name,
+      a caste name, and a homestead name – typically a hive
+      city.</p><p><strong>Personal Names:</strong> Niks, Rask, Sask, Neksak,
+      Leksa, Heneks, Seleks, Seksa, Aksa, Olak, Leik, Svek,
+      Hakkor.</p><p><strong>Caste Names:</strong> Fire, Glimmer, Ice, Shatter,
+      Thunder, Flash, Lightning, Sunspark, Icespear, Stormstrike.</p>
+  links:
+    supplements:
+      - name: Chitin
+        uuid: Compendium.pf1-psionics.races.Item.ooIbiUJySTmAwifq
+      - name: Compound Eyes
+        uuid: Compendium.pf1-psionics.races.Item.QECTtjyo89lDW7Xm
+      - name: Dromite Psionics
+        uuid: Compendium.pf1-psionics.races.Item.cKBXASvL1M4gaC4D
+      - name: Naturally Psionic
+        uuid: Compendium.pf1-psionics.races.Item.Vv3IU5rn3OnrJcba
+      - name: Psionic Aptitude
+        uuid: Compendium.pf1-psionics.races.Item.VLDj4y1SimUQhg1a
+      - name: Scent
+        uuid: Compendium.pf1-psionics.races.Item.nBx64nGxXVAkmGzW
+  quadruped: false
+  size: med
+  speeds:
+    flyManeuverability: average
+    land: 30
+type: race

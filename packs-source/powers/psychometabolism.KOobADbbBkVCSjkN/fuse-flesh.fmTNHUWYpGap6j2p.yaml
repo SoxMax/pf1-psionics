@@ -29,19 +29,36 @@ system:
         value: Creature touched
   description:
     value: >-
-      <p>You&nbsp;cause&nbsp;the&nbsp;touched&nbsp;subject's&nbsp;flesh&nbsp;to&nbsp;ripple,&nbsp;grow&nbsp;together,&nbsp;and&nbsp;fuse&nbsp;into&nbsp;a&nbsp;nearly&nbsp;seamless&nbsp;whole.&nbsp;The&nbsp;subject&nbsp;is&nbsp;forced&nbsp;into&nbsp;a&nbsp;fetal&nbsp;position&nbsp;(if&nbsp;humanoid),&nbsp;with&nbsp;only&nbsp;the&nbsp;vaguest&nbsp;outline&nbsp;of&nbsp;its&nbsp;folded&nbsp;arms&nbsp;and&nbsp;legs&nbsp;visible&nbsp;below&nbsp;the&nbsp;all-encompassing&nbsp;wave&nbsp;of&nbsp;flesh.&nbsp;The&nbsp;subject&nbsp;retains&nbsp;the&nbsp;ability&nbsp;to&nbsp;breathe,&nbsp;eat,&nbsp;and&nbsp;excrete,&nbsp;but&nbsp;may&nbsp;lose&nbsp;the&nbsp;use&nbsp;of&nbsp;its&nbsp;senses&nbsp;(see&nbsp;below).&nbsp;If&nbsp;the&nbsp;sudden&nbsp;transformation&nbsp;would&nbsp;prove&nbsp;fatal&nbsp;to&nbsp;the&nbsp;creature&nbsp;(such&nbsp;as&nbsp;fusing&nbsp;a&nbsp;swimming&nbsp;airbreathing&nbsp;subject,&nbsp;or&nbsp;a&nbsp;flying&nbsp;subject),&nbsp;the&nbsp;subject&nbsp;gets&nbsp;a&nbsp;+4&nbsp;bonus&nbsp;on&nbsp;the&nbsp;save.&nbsp;Unless&nbsp;it&nbsp;loses&nbsp;the&nbsp;use&nbsp;of&nbsp;its&nbsp;senses&nbsp;(see&nbsp;below),&nbsp;the&nbsp;creature&nbsp;can&nbsp;still&nbsp;perform&nbsp;purely&nbsp;mental&nbsp;actions,&nbsp;such&nbsp;as&nbsp;manifesting&nbsp;powers.
+      <p>You cause the touched subject's flesh to ripple, grow together, and
+      fuse into a nearly seamless whole. The subject is forced into a fetal
+      position (if humanoid), with only the vaguest outline of its folded arms
+      and legs visible below the all-encompassing wave of flesh. The subject
+      retains the ability to breathe, eat, and excrete, but may lose the use of
+      its senses (see below). If the sudden transformation would prove fatal to
+      the creature (such as fusing a swimming airbreathing subject, or a flying
+      subject), the subject gets a +4 bonus on the save. Unless it loses the use
+      of its senses (see below), the creature can still perform purely mental
+      actions, such as manifesting powers.
 
       </p>
 
-      <p>If&nbsp;the&nbsp;target&nbsp;fails&nbsp;its&nbsp;Fortitude&nbsp;save&nbsp;to&nbsp;avoid&nbsp;the&nbsp;power's&nbsp;effect,&nbsp;the&nbsp;subject&nbsp;must&nbsp;immediately&nbsp;attempt&nbsp;a&nbsp;second&nbsp;Fortitude&nbsp;save.&nbsp;If&nbsp;this&nbsp;second&nbsp;save&nbsp;is&nbsp;failed,&nbsp;the&nbsp;creature's&nbsp;eyes&nbsp;and&nbsp;ears&nbsp;fuse&nbsp;over,&nbsp;effectively&nbsp;blinding&nbsp;and&nbsp;deafening&nbsp;it.&nbsp;Moreover,&nbsp;it&nbsp;loses&nbsp;its&nbsp;extraordinary,&nbsp;supernatural,&nbsp;and&nbsp;spell-like&nbsp;abilities,&nbsp;as&nbsp;well&nbsp;as&nbsp;its&nbsp;ability&nbsp;to&nbsp;manifest&nbsp;powers&nbsp;(if&nbsp;any),&nbsp;and&nbsp;is&nbsp;generally&nbsp;in&nbsp;sorry&nbsp;shape.
+      <p>If the target fails its Fortitude save to avoid the power's effect, the
+      subject must immediately attempt a second Fortitude save. If this second
+      save is failed, the creature's eyes and ears fuse over, effectively
+      blinding and deafening it. Moreover, it loses its extraordinary,
+      supernatural, and spell-like abilities, as well as its ability to manifest
+      powers (if any), and is generally in sorry shape.
 
       </p>
 
-      <p>Incorporeal&nbsp;or&nbsp;gaseous&nbsp;creatures&nbsp;and&nbsp;creatures&nbsp;not&nbsp;composed&nbsp;of&nbsp;flesh&nbsp;are&nbsp;immune&nbsp;to&nbsp;fuse&nbsp;flesh,&nbsp;and&nbsp;a&nbsp;shapechanger&nbsp;can&nbsp;revert&nbsp;to&nbsp;its&nbsp;unfused&nbsp;form&nbsp;as&nbsp;a&nbsp;standard&nbsp;action.
+      <p>Incorporeal or gaseous creatures and creatures not composed of flesh
+      are immune to fuse flesh, and a shapechanger can revert to its unfused
+      form as a standard action.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+      <p><strong>Augment:</strong> For every 2 additional power points you
+      spend, this power's save DC increases by 1.
 
       </p>
   discipline: psychometabolism

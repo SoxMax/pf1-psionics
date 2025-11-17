@@ -22,13 +22,19 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;burn&nbsp;away&nbsp;long-term&nbsp;damage&nbsp;to&nbsp;your&nbsp;body.</em></p>
+      <p><em>You can burn away long-term damage to your body.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Biokinetic_Adept"&nbsp;title="Biokinetic&nbsp;Adept">Biokinetic&nbsp;Adept</a>,&nbsp;Con&nbsp;13,&nbsp;wild&nbsp;surge&nbsp;class&nbsp;feature.
+      <p><strong>Prerequisites:</strong><a href="/wiki/Biokinetic_Adept"
+      title="Biokinetic Adept">Biokinetic Adept</a>, Con 13, wild surge class
+      feature.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;may&nbsp;invoke&nbsp;your&nbsp;wild&nbsp;surge&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;to&nbsp;heal&nbsp;an&nbsp;amount&nbsp;of&nbsp;ability&nbsp;damage&nbsp;to&nbsp;your&nbsp;Strength,&nbsp;Dexterity,&nbsp;or&nbsp;Constitution&nbsp;equal&nbsp;to&nbsp;your&nbsp;wild&nbsp;surge's&nbsp;intensity.&nbsp;The&nbsp;first&nbsp;time&nbsp;per&nbsp;day&nbsp;that&nbsp;you&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;do&nbsp;not&nbsp;need&nbsp;to&nbsp;check&nbsp;for&nbsp;psychic&nbsp;enervation.&nbsp;You&nbsp;check&nbsp;for&nbsp;psychic&nbsp;enervation&nbsp;as&nbsp;normal&nbsp;for&nbsp;each&nbsp;use&nbsp;thereafter.
+      <p><strong>Benefit:</strong> You may invoke your wild surge as a swift
+      action to heal an amount of ability damage to your Strength, Dexterity, or
+      Constitution equal to your wild surge's intensity. The first time per day
+      that you use this feat, you do not need to check for psychic enervation.
+      You check for psychic enervation as normal for each use thereafter.
 
       </p>
   disabled: false

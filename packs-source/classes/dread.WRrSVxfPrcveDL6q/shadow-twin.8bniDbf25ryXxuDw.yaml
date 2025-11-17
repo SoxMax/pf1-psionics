@@ -1,0 +1,62 @@
+_id: 8bniDbf25ryXxuDw
+_key: '!items!8bniDbf25ryXxuDw'
+_stats:
+  coreVersion: '13.350'
+folder: WRrSVxfPrcveDL6q
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Shadow Twin
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Dread
+  description:
+    value: >-
+      <p>A dread of 11th level is able to draw forth a replica of herself formed
+      from fears and nightmares. The shadow twin appears at a location chosen by
+      the dread that is within 30 ft. and lasts for one round per class level.
+      The dread and this shadow twin are, for all intents and purposes, one
+      person - including only having one round's worth of actions to use between
+      the two, sharing attacks of opportunity, sharing a single pool of hit
+      points and power points, and having access to all of the same abilities
+      and daily uses of those abilities. If the shadow twin is damaged or
+      healed, the dread takes the damage or healing, and vice versa. If both the
+      dread and the shadow twin are affected by the same area of effect, damage
+      is only counted once.
+
+      </p><p>If the shadow twin attacks, it uses the dread's attack values. The
+      shadow twin can threaten squares and has all the same equipment as the
+      dread, but charged items or items with limited uses per day have their
+      uses shared between the two. Any permanent magic items are also active on
+      the shadow twin.
+
+      </p><p>The shadow twin can allow the dread to flank an enemy, make attacks
+      of opportunity she wouldn't normally be able to do, extend the range for a
+      power or mindlock, or just scout ahead.
+
+      </p><p>Effects, both beneficial and detrimental, that affect the dread
+      also affect the shadow twin, and vice versa. The shadow twin must stay
+      within 30 ft. of the dread or the effect immediately ends.
+
+      </p><p>A dread can use shadow twin a number of times per day equal to his
+      Charisma modifier.
+
+      </p><p>At 15th level, the shadow twin must stay within 100 ft. of the
+      dread before the effect ends.
+
+      </p><p>At 19th level, the shadow twin must stay within 400 ft. of the
+      dread before the effect ends.
+
+      </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 43–47
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 40–44
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: shadow-twin
+type: feat

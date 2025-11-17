@@ -22,13 +22,18 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;thrown&nbsp;and&nbsp;ranged&nbsp;attacks&nbsp;strike&nbsp;fear&nbsp;into&nbsp;the&nbsp;hearts&nbsp;of&nbsp;your&nbsp;enemies.</em></p>
+      <p><em>Your thrown and ranged attacks strike fear into the hearts of your
+      enemies.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Intimidating_Shot"&nbsp;title="Intimidating&nbsp;Shot">Intimidating&nbsp;Shot</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Intimidating_Shot"
+      title="Intimidating Shot">Intimidating Shot</a>.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;Any&nbsp;ranged&nbsp;or&nbsp;thrown&nbsp;attack&nbsp;you&nbsp;make&nbsp;while&nbsp;maintaining&nbsp;psionic&nbsp;focus&nbsp;grants&nbsp;you&nbsp;a&nbsp;free&nbsp;Intimidate&nbsp;check&nbsp;to&nbsp;demoralize&nbsp;the&nbsp;target.&nbsp;You&nbsp;can&nbsp;expend&nbsp;one&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;while&nbsp;making&nbsp;an&nbsp;Intimidate&nbsp;check&nbsp;to&nbsp;cause&nbsp;the&nbsp;target&nbsp;to&nbsp;be&nbsp;frightened&nbsp;instead&nbsp;of&nbsp;shaken.&nbsp;
+      <p><strong>Benefit:</strong> Any ranged or thrown attack you make while
+      maintaining psionic focus grants you a free Intimidate check to demoralize
+      the target. You can expend one use of mythic power while making an
+      Intimidate check to cause the target to be frightened instead of shaken. 
 
       </p>
   disabled: false

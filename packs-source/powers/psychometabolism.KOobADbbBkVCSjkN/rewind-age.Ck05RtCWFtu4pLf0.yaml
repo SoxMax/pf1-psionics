@@ -27,13 +27,24 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;ignore&nbsp;the&nbsp;physical&nbsp;detriments&nbsp;of&nbsp;being&nbsp;middle-aged.&nbsp;This&nbsp;spell&nbsp;does&nbsp;not&nbsp;cause&nbsp;you&nbsp;to&nbsp;look&nbsp;younger,&nbsp;nor&nbsp;does&nbsp;it&nbsp;prevent&nbsp;you&nbsp;from&nbsp;dying&nbsp;of&nbsp;old&nbsp;age,&nbsp;but&nbsp;as&nbsp;long&nbsp;as&nbsp;the&nbsp;spell&nbsp;is&nbsp;in&nbsp;effect,&nbsp;you&nbsp;ignore&nbsp;the&nbsp;–1&nbsp;penalties&nbsp;to&nbsp;Strength,&nbsp;Dexterity,&nbsp;and&nbsp;Constitution&nbsp;that&nbsp;accrue&nbsp;once&nbsp;you&nbsp;become&nbsp;middle-aged.&nbsp;You&nbsp;retain&nbsp;the&nbsp;age-related&nbsp;bonuses&nbsp;to&nbsp;Intelligence,&nbsp;Wisdom,&nbsp;and&nbsp;Charisma&nbsp;while&nbsp;under&nbsp;the&nbsp;effects&nbsp;of&nbsp;this&nbsp;spell.&nbsp;Additional&nbsp;penalties&nbsp;that&nbsp;you&nbsp;accrue&nbsp;upon&nbsp;becoming&nbsp;old&nbsp;or&nbsp;venerable&nbsp;apply&nbsp;in&nbsp;full.
+      <p>You ignore the physical detriments of being middle-aged. This spell
+      does not cause you to look younger, nor does it prevent you from dying of
+      old age, but as long as the spell is in effect, you ignore the –1
+      penalties to Strength, Dexterity, and Constitution that accrue once you
+      become middle-aged. You retain the age-related bonuses to Intelligence,
+      Wisdom, and Charisma while under the effects of this spell. Additional
+      penalties that you accrue upon becoming old or venerable apply in full.
 
       </p>
 
-      <p><strong>Augment:&nbsp;</strong>This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment: </strong>This power may be augmented in one or more of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;3&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;ignore&nbsp;the&nbsp;penalties&nbsp;of&nbsp;another,&nbsp;higher,&nbsp;age&nbsp;category&nbsp;(old,&nbsp;venerable).</li><li>If&nbsp;you&nbsp;spend&nbsp;3&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;becomes&nbsp;1&nbsp;day/level.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;range&nbsp;becomes&nbsp;Touch&nbsp;and&nbsp;the&nbsp;target&nbsp;becomes:&nbsp;One&nbsp;living&nbsp;creature.</li></ol>
+      </p><ol><li>For every 3 power points you spend, you ignore the penalties
+      of another, higher, age category (old, venerable).</li><li>If you spend 3
+      additional power points, the duration becomes 1 day/level.</li><li>If you
+      spend 2 additional power points, the range becomes Touch and the target
+      becomes: One living creature.</li></ol>
   discipline: psychometabolism
   display:
     auditory: false

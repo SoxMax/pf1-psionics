@@ -1,0 +1,39 @@
+_id: TQVOnufKappxaNNh
+_key: '!items!TQVOnufKappxaNNh'
+_stats:
+  coreVersion: '13.350'
+folder: vB44mLAuVxEJLzeN
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Lifeblood Siphon
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Highlord
+  description:
+    value: >-
+      <p>At 6th level, a highlord can siphon mental energy from the members of
+      his collective, drawing on their goals and desires that they and he share.
+      Whenever the highlord manifests a power, he may also designate another
+      member of his collective to drain energy from. That member of the
+      collective takes damage equal to the number of power points used on the
+      power and becomes staggered until the highlord's next turn. In addition,
+      the highlord regains half the total power points he spent on the power.
+      The target can resist the staggering effect and deny the highlord the
+      regained power points by succeeding at a Fortitude save (DC 10 + the power
+      points that would be refunded + the highlord's Charisma modifier). This
+      ability can only be used once per round, even if the highlord manifests
+      multiple powers during that round.
+
+      </p><p>In addition, a highlord's tenet grants him a specialized version of
+      this ability, as listed in the tenet's description.
+
+      </p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–6
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: classFeat
+  tag: lifeblood-siphon
+type: feat

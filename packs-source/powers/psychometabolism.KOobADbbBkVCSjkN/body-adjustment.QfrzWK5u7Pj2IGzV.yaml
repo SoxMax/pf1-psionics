@@ -32,11 +32,14 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;take&nbsp;control&nbsp;of&nbsp;your&nbsp;body's&nbsp;healing&nbsp;process,&nbsp;curing&nbsp;yourself&nbsp;of&nbsp;1d12&nbsp;points&nbsp;of&nbsp;damage.&nbsp;As&nbsp;usual,&nbsp;when&nbsp;regular&nbsp;damage&nbsp;is&nbsp;healed,&nbsp;an&nbsp;equal&nbsp;amount&nbsp;of&nbsp;nonlethal&nbsp;damage&nbsp;is&nbsp;also&nbsp;healed.
+      <p>You take control of your body's healing process, curing yourself of
+      1d12 points of damage. As usual, when regular damage is healed, an equal
+      amount of nonlethal damage is also healed.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;heals&nbsp;an&nbsp;additional&nbsp;1d12&nbsp;points&nbsp;of&nbsp;damage.
+      <p><strong>Augment:</strong> For every 2 additional power points you
+      spend, this power heals an additional 1d12 points of damage.
 
       </p>
   discipline: psychometabolism

@@ -27,17 +27,30 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;elongate&nbsp;either&nbsp;your&nbsp;arms&nbsp;(or&nbsp;whatever&nbsp;extremities&nbsp;are&nbsp;equivalent)&nbsp;or&nbsp;your&nbsp;legs&nbsp;to&nbsp;gain&nbsp;an&nbsp;advantage&nbsp;over&nbsp;your&nbsp;enemies.
+      <p>You elongate either your arms (or whatever extremities are equivalent)
+      or your legs to gain an advantage over your enemies.
 
-      </p><ul><li><em>Arms:</em>&nbsp;Increase&nbsp;your&nbsp;reach&nbsp;by&nbsp;5&nbsp;ft&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power.</li></ul>
+      </p><ul><li><em>Arms:</em> Increase your reach by 5 ft for the duration of
+      this power.</li></ul>
 
-      <ul><li><em>Legs:</em>&nbsp;Increase&nbsp;your&nbsp;speed&nbsp;by&nbsp;5&nbsp;ft&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;end&nbsp;your&nbsp;turn&nbsp;in&nbsp;the&nbsp;same&nbsp;square&nbsp;as&nbsp;any&nbsp;creature&nbsp;that&nbsp;is&nbsp;the&nbsp;same&nbsp;size&nbsp;or&nbsp;smaller&nbsp;as&nbsp;you.</li></ul>
+      <ul><li><em>Legs:</em> Increase your speed by 5 ft for the duration of
+      this power. In addition, you can end your turn in the same square as any
+      creature that is the same size or smaller as you.</li></ul>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of
+      <p><strong>Augment:</strong> You can augment this power in one or more of
 
-      the&nbsp;following&nbsp;ways.
+      the following ways.
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;becomes&nbsp;10&nbsp;minutes&nbsp;per&nbsp;level.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;speed&nbsp;increase&nbsp;becomes&nbsp;+15&nbsp;ft&nbsp;instead&nbsp;of&nbsp;+5&nbsp;ft&nbsp;and&nbsp;you&nbsp;can&nbsp;end&nbsp;your&nbsp;turn&nbsp;in&nbsp;the&nbsp;same&nbsp;square&nbsp;as&nbsp;a&nbsp;creature&nbsp;that&nbsp;is&nbsp;up&nbsp;to&nbsp;two&nbsp;sizes&nbsp;larger&nbsp;than&nbsp;you.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;elongate&nbsp;both&nbsp;arms&nbsp;and&nbsp;legs&nbsp;at&nbsp;the&nbsp;same&nbsp;time.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;your&nbsp;reach&nbsp;increases&nbsp;by&nbsp;10&nbsp;ft&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power.</li><li>If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus,&nbsp;you&nbsp;can&nbsp;double&nbsp;the&nbsp;bonus&nbsp;and&nbsp;manifest&nbsp;it&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;but&nbsp;the&nbsp;power&nbsp;only&nbsp;lasts&nbsp;for&nbsp;1&nbsp;round,&nbsp;and&nbsp;the&nbsp;duration&nbsp;cannot&nbsp;be&nbsp;augmented&nbsp;in&nbsp;any&nbsp;way.</li></ol>
+      </p><ol><li>If you spend 2 additional power points, the duration becomes
+      10 minutes per level.</li><li>If you spend 2 additional power points, the
+      speed increase becomes +15 ft instead of +5 ft and you can end your turn
+      in the same square as a creature that is up to two sizes larger than
+      you.</li><li>If you spend 2 additional power points, you can elongate both
+      arms and legs at the same time.</li><li>If you spend 2 additional power
+      points, your reach increases by 10 ft for the duration of this
+      power.</li><li>If you expend your psionic focus, you can double the bonus
+      and manifest it as a swift action but the power only lasts for 1 round,
+      and the duration cannot be augmented in any way.</li></ol>
   discipline: psychometabolism
   display:
     auditory: false

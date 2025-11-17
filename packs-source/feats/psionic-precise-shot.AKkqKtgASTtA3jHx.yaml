@@ -22,13 +22,25 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;ranged&nbsp;attacks&nbsp;sometimes&nbsp;bypass&nbsp;barriers.</em></p>
+      <p><em>Your ranged attacks sometimes bypass barriers.</em></p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Dex&nbsp;19,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Precise%20Shot">Improved&nbsp;Precise&nbsp;Shot</a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank&nbsp;Shot</a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Precise%20Shot">Precise&nbsp;Shot</a>,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+11.
+      <p><strong>Prerequisites:</strong> Dex 19, <a rel="nofollow"
+      class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Precise%20Shot">Improved
+      Precise Shot</a>, <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank
+      Shot</a>, <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Precise%20Shot">Precise
+      Shot</a>, base attack bonus +11.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.&nbsp;You&nbsp;can&nbsp;attempt&nbsp;to&nbsp;make&nbsp;a&nbsp;single&nbsp;ranged&nbsp;attack&nbsp;as&nbsp;a&nbsp;standard&nbsp;action&nbsp;against&nbsp;a&nbsp;target&nbsp;that&nbsp;is&nbsp;sheltered&nbsp;behind&nbsp;a&nbsp;wall,&nbsp;wall&nbsp;of&nbsp;force&nbsp;effect,&nbsp;or&nbsp;similar&nbsp;barrier.&nbsp;Your&nbsp;attack&nbsp;briefly&nbsp;skips&nbsp;through&nbsp;the&nbsp;Astral&nbsp;Plane&nbsp;to&nbsp;bypass&nbsp;the&nbsp;barrier.&nbsp;You&nbsp;must&nbsp;still&nbsp;have&nbsp;line&nbsp;of&nbsp;sight&nbsp;to&nbsp;the&nbsp;target.
+      <p><strong>Benefit:</strong> To use this feat, you must expend your
+      psionic focus. You can attempt to make a single ranged attack as a
+      standard action against a target that is sheltered behind a wall, wall of
+      force effect, or similar barrier. Your attack briefly skips through the
+      Astral Plane to bypass the barrier. You must still have line of sight to
+      the target.
 
       </p>
   disabled: false

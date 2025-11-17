@@ -22,13 +22,18 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;terrifying&nbsp;presence&nbsp;precedes&nbsp;you.</em></p>
+      <p><em>Your terrifying presence precedes you.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Intimidate&nbsp;5&nbsp;ranks.
+      <p><strong>Prerequisite:</strong> Intimidate 5 ranks.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;Other&nbsp;creatures&nbsp;take&nbsp;a&nbsp;–2&nbsp;penalty&nbsp;on&nbsp;Intimidate&nbsp;checks&nbsp;against&nbsp;you,&nbsp;and&nbsp;you&nbsp;can&nbsp;perform&nbsp;the&nbsp;project&nbsp;hostility&nbsp;occult&nbsp;skill&nbsp;unlock&nbsp;even&nbsp;if&nbsp;you&nbsp;can't&nbsp;cast&nbsp;psychic&nbsp;spells.&nbsp;If&nbsp;you&nbsp;can&nbsp;cast&nbsp;psychic&nbsp;spells&nbsp;or&nbsp;have&nbsp;the&nbsp;Psychic&nbsp;Sensitivity&nbsp;feat,&nbsp;then&nbsp;creatures&nbsp;do&nbsp;not&nbsp;become&nbsp;immune&nbsp;to&nbsp;your&nbsp;project&nbsp;hostility&nbsp;for&nbsp;24&nbsp;hours&nbsp;after&nbsp;being&nbsp;targeted&nbsp;with&nbsp;it.
+      <p><strong>Benefit:</strong> Other creatures take a –2 penalty on
+      Intimidate checks against you, and you can perform the project hostility
+      occult skill unlock even if you can't cast psychic spells. If you can cast
+      psychic spells or have the Psychic Sensitivity feat, then creatures do not
+      become immune to your project hostility for 24 hours after being targeted
+      with it.
 
       </p>
   disabled: false

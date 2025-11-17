@@ -1,0 +1,107 @@
+_id: gWn1nu9A0J8mO5iY
+_key: '!items!gWn1nu9A0J8mO5iY'
+_stats:
+  coreVersion: '13.350'
+folder: 2Cv8pG6sujmlxBmr
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Collective Healing
+system:
+  abilityType: ex
+  acquired: false
+  associations:
+    classes:
+      - Vitalist
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>Whenever a willing member of the vitalist's collective could regain
+      lost hit points or ability damage, the vitalist may choose to redirect any
+      or all of that healing to one or more other willing members of the
+      collective as a free action. This can transfer instantaneous healing (such
+      as a body adjustment power), healing from ongoing healing effects, such as
+      fast healing, and even hit points gained from rest (in which case, a
+      member of the collective would rest for a period of time as normal, and
+      the amount of hit points and ability damage healed would go to
+      another).</p><p>In any case, the original recipient of the healing effect
+      chooses whether to allow the diverted healing, and does not gain the
+      benefits of any healing he grants to another. The type of healing
+      (positive energy, negative energy, construct repair, etc.) is unchanged
+      from the original source for determining who or what can be
+      healed.</p><p><em>Example</em>: Darius the soulknife is a willing member
+      of Jorus the vitalist's collective. He drinks a potion of cure light
+      wounds that would normally heal him for 6 hit points, but Jorus decides to
+      redirect 4 of those points to himself. Darius agrees and, as a result,
+      Darius is healed for 2 hit points, and Jorus is healed for 4. If there
+      were more members in Jorus's collective, Jorus could spread the healing
+      from that potion out even more as long as the sum of hit points healed was
+      no greater than 6.</p><p>A vitalist may even heal wounds through
+      collective healing if at full health. This may only be used with healing
+      effects such as potions, powers, or other such effects. [Healing] from
+      long term care or natural healing cannot be transferred in this way.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2012-07-23'
+      pages: 57–61
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 69–72
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  summons: false
+  tag: collectivehealing
+type: feat

@@ -29,21 +29,38 @@ system:
         value: 1 willing creature / 2 levels
   description:
     value: >-
-      <table><caption>Reposition&nbsp;and&nbsp;Network
+      <table><caption>Reposition and Network
 
-      </caption><tr><td>Because&nbsp;reposition&nbsp;carries&nbsp;the&nbsp;Network&nbsp;descriptor,&nbsp;willing&nbsp;targets&nbsp;within&nbsp;the&nbsp;manifester’s&nbsp;collective,&nbsp;but&nbsp;outside&nbsp;of&nbsp;the&nbsp;range&nbsp;of&nbsp;the&nbsp;power&nbsp;may&nbsp;be&nbsp;repositioned,&nbsp;but&nbsp;their&nbsp;final&nbsp;destination&nbsp;must&nbsp;be&nbsp;within&nbsp;the&nbsp;power’s&nbsp;stated&nbsp;range&nbsp;(100&nbsp;ft.&nbsp;+&nbsp;10&nbsp;ft./level.)&nbsp;from&nbsp;the&nbsp;manifester’s&nbsp;initial&nbsp;location.
+      </caption><tr><td>Because reposition carries the Network descriptor,
+      willing targets within the manifester’s collective, but outside of the
+      range of the power may be repositioned, but their final destination must
+      be within the power’s stated range (100 ft. + 10 ft./level.) from the
+      manifester’s initial location.
 
-      <p>Additionally,&nbsp;the&nbsp;manifester&nbsp;himself&nbsp;can&nbsp;be&nbsp;affected&nbsp;by&nbsp;reposition&nbsp;if&nbsp;he&nbsp;has&nbsp;the&nbsp;collective&nbsp;class&nbsp;feature,&nbsp;but&nbsp;all&nbsp;range&nbsp;measurements&nbsp;are&nbsp;made&nbsp;from&nbsp;the&nbsp;manifester’s&nbsp;starting&nbsp;location,&nbsp;not&nbsp;his&nbsp;final&nbsp;location
+      <p>Additionally, the manifester himself can be affected by reposition if
+      he has the collective class feature, but all range measurements are made
+      from the manifester’s starting location, not his final location
 
       </p></td></tr></table>
 
-      <p>You&nbsp;instantly&nbsp;reposition&nbsp;each&nbsp;willing&nbsp;target&nbsp;anywhere&nbsp;within&nbsp;Medium&nbsp;range&nbsp;(100&nbsp;ft.&nbsp;+&nbsp;10&nbsp;ft./level)&nbsp;from&nbsp;your&nbsp;location&nbsp;to&nbsp;which&nbsp;you&nbsp;have&nbsp;line&nbsp;of&nbsp;effect.&nbsp;This&nbsp;does&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;for&nbsp;the&nbsp;creatures&nbsp;moved.&nbsp;The&nbsp;destination&nbsp;must&nbsp;be&nbsp;a&nbsp;valid&nbsp;space;&nbsp;this&nbsp;power&nbsp;cannot&nbsp;reposition&nbsp;creatures&nbsp;inside&nbsp;of&nbsp;another&nbsp;creature,&nbsp;a&nbsp;boulder,&nbsp;or&nbsp;some&nbsp;other&nbsp;solid&nbsp;structure,&nbsp;etc.,&nbsp;although&nbsp;it&nbsp;could&nbsp;reposition&nbsp;a&nbsp;creature&nbsp;through&nbsp;a&nbsp;wall,&nbsp;as&nbsp;long&nbsp;as&nbsp;the&nbsp;manifester&nbsp;has&nbsp;line&nbsp;of&nbsp;effect&nbsp;to&nbsp;the&nbsp;destination,&nbsp;or&nbsp;reposition&nbsp;a&nbsp;creature&nbsp;underwater,&nbsp;midair,&nbsp;or&nbsp;over&nbsp;a&nbsp;bonfire.&nbsp;Attempts&nbsp;to&nbsp;reposition&nbsp;a&nbsp;creature&nbsp;into&nbsp;a&nbsp;harmful&nbsp;situation&nbsp;allow&nbsp;the&nbsp;creature&nbsp;a&nbsp;save.
+      <p>You instantly reposition each willing target anywhere within Medium
+      range (100 ft. + 10 ft./level) from your location to which you have line
+      of effect. This does not provoke attacks of opportunity for the creatures
+      moved. The destination must be a valid space; this power cannot reposition
+      creatures inside of another creature, a boulder, or some other solid
+      structure, etc., although it could reposition a creature through a wall,
+      as long as the manifester has line of effect to the destination, or
+      reposition a creature underwater, midair, or over a bonfire. Attempts to
+      reposition a creature into a harmful situation allow the creature a save.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power may be augmented in the following
+      ways.
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;target&nbsp;unwilling&nbsp;creatures.</li><li>If&nbsp;you&nbsp;spend&nbsp;8&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;manifest&nbsp;this&nbsp;power&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action.</li></ol>
+      </p><ol><li>If you spend 6 additional power points, you may target
+      unwilling creatures.</li><li>If you spend 8 additional power points, you
+      may manifest this power as an immediate action.</li></ol>
   descriptors:
     - network
   discipline: psychoportation

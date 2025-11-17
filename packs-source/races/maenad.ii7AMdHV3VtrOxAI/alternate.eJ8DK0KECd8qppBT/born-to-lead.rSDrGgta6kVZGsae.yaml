@@ -1,0 +1,79 @@
+_id: rSDrGgta6kVZGsae
+_key: '!items!rSDrGgta6kVZGsae'
+_stats:
+  coreVersion: '13.351'
+flags:
+  pf1-psionics:
+    fromRace: Maenad
+folder: eJ8DK0KECd8qppBT
+img: icons/environment/people/group.webp
+name: Born to Lead
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>As a seafaring race, some maenads seem to be bred to be a captain or
+      admiral. Maenads with this trait gain a +2 racial bonus to Diplomacy and
+      Knowledge (Nobility) checks. In addition, he gains proficiency with the
+      rapier and whip, weapons used by the leaders of the maenad
+      fleets.</p><p><em>This trait replaces the Natural Sailor, Sonic Affinity,
+      and Weapon Familiarity traits.</em></p>
+  disabled: false
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+  traitCategory: alternate
+type: feat

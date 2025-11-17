@@ -22,13 +22,16 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;manifest&nbsp;powers&nbsp;even&nbsp;when&nbsp;you&nbsp;become&nbsp;unconscious.</em></p>
+      <p><em>You can manifest powers even when you become unconscious.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Unconditional_Power"&nbsp;title="Unconditional&nbsp;Power">Unconditional&nbsp;Power</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Unconditional_Power"
+      title="Unconditional Power">Unconditional Power</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>The&nbsp;first&nbsp;round&nbsp;after&nbsp;you&nbsp;become&nbsp;unconscious,&nbsp;you&nbsp;can&nbsp;use&nbsp;the&nbsp;Unconditional&nbsp;Power&nbsp;feat&nbsp;to&nbsp;manifest&nbsp;a&nbsp;power&nbsp;as&nbsp;if&nbsp;you&nbsp;were&nbsp;stunned.
+      <p><strong>Benefit: </strong>The first round after you become unconscious,
+      you can use the Unconditional Power feat to manifest a power as if you
+      were stunned.
 
       </p>
   disabled: false

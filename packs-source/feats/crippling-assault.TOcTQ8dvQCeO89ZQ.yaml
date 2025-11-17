@@ -22,13 +22,26 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;are&nbsp;able&nbsp;to&nbsp;paralyze&nbsp;the&nbsp;targets&nbsp;of&nbsp;your&nbsp;ranged&nbsp;and&nbsp;thrown&nbsp;attacks.</em></p>
+      <p><em>You are able to paralyze the targets of your ranged and thrown
+      attacks.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Intimidating_Shot"&nbsp;title="Intimidating&nbsp;Shot">Intimidating&nbsp;Shot</a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank&nbsp;Shot</a>,&nbsp;<a&nbsp;href="/wiki/Staggering_Shot"&nbsp;title="Staggering&nbsp;Shot">Staggering&nbsp;Shot</a>,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+11.
+      <p><strong>Prerequisites:</strong><a href="/wiki/Intimidating_Shot"
+      title="Intimidating Shot">Intimidating Shot</a>, <a rel="nofollow"
+      class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank
+      Shot</a>, <a href="/wiki/Staggering_Shot" title="Staggering
+      Shot">Staggering Shot</a>, base attack bonus +11.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.&nbsp;As&nbsp;a&nbsp;standard&nbsp;action,&nbsp;you&nbsp;can&nbsp;make&nbsp;a&nbsp;ranged&nbsp;attack&nbsp;with&nbsp;a&nbsp;ranged&nbsp;or&nbsp;thrown&nbsp;weapon.&nbsp;If&nbsp;the&nbsp;attack&nbsp;is&nbsp;successful,&nbsp;it&nbsp;deals&nbsp;damage&nbsp;normally&nbsp;and&nbsp;forces&nbsp;the&nbsp;target&nbsp;to&nbsp;make&nbsp;a&nbsp;Fortitude&nbsp;saving&nbsp;throw&nbsp;(DC&nbsp;10&nbsp;+&nbsp;1/2&nbsp;your&nbsp;character&nbsp;level&nbsp;+&nbsp;your&nbsp;Wis&nbsp;modifier)&nbsp;or&nbsp;be&nbsp;paralyzed&nbsp;until&nbsp;the&nbsp;beginning&nbsp;of&nbsp;your&nbsp;next&nbsp;turn.&nbsp;This&nbsp;paralysis&nbsp;is&nbsp;only&nbsp;effective&nbsp;against&nbsp;dazed,&nbsp;flat-footed,&nbsp;paralyzed,&nbsp;staggered,&nbsp;stunned,&nbsp;or&nbsp;unconscious&nbsp;foes.&nbsp;If&nbsp;your&nbsp;attack&nbsp;misses,&nbsp;you&nbsp;still&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.
+      <p><strong>Benefit:</strong> To use this feat, you must expend your
+      psionic focus. As a standard action, you can make a ranged attack with a
+      ranged or thrown weapon. If the attack is successful, it deals damage
+      normally and forces the target to make a Fortitude saving throw (DC 10 +
+      1/2 your character level + your Wis modifier) or be paralyzed until the
+      beginning of your next turn. This paralysis is only effective against
+      dazed, flat-footed, paralyzed, staggered, stunned, or unconscious foes. If
+      your attack misses, you still expend your psionic focus.
 
       </p>
   disabled: false

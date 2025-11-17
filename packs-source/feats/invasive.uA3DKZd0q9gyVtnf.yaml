@@ -22,13 +22,17 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Once&nbsp;you&nbsp;have&nbsp;broken&nbsp;a&nbsp;creature’s&nbsp;mental&nbsp;barriers,&nbsp;you&nbsp;find&nbsp;it&nbsp;easier&nbsp;to&nbsp;do&nbsp;so&nbsp;again&nbsp;and&nbsp;again.</em></p>
+      <p><em>Once you have broken a creature’s mental barriers, you find it
+      easier to do so again and again.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Capable&nbsp;of&nbsp;manifesting&nbsp;at&nbsp;least&nbsp;two&nbsp;mind-affecting&nbsp;powers.
+      <p><strong>Prerequisite:</strong> Capable of manifesting at least two
+      mind-affecting powers.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;If&nbsp;a&nbsp;creature&nbsp;has&nbsp;failed&nbsp;a&nbsp;save&nbsp;against&nbsp;one&nbsp;of&nbsp;your&nbsp;mind-affecting&nbsp;powers,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;to&nbsp;the&nbsp;save&nbsp;DCs&nbsp;of&nbsp;all&nbsp;your&nbsp;mind-affecting&nbsp;powers&nbsp;against&nbsp;that&nbsp;target.
+      <p><strong>Benefit:</strong> If a creature has failed a save against one
+      of your mind-affecting powers, you gain a +1 bonus to the save DCs of all
+      your mind-affecting powers against that target.
 
       </p>
   disabled: false

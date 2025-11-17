@@ -27,13 +27,28 @@ system:
         value: Temporarily real statue up to 5-ft. square
   description:
     value: >-
-      <p>Expanding&nbsp;from&nbsp;a&nbsp;mid-air&nbsp;spec&nbsp;of&nbsp;colorful&nbsp;ectoplasm,&nbsp;a&nbsp;massive&nbsp;statue&nbsp;forms&nbsp;in&nbsp;space&nbsp;where&nbsp;you&nbsp;designate&nbsp;it,&nbsp;blocking&nbsp;travel&nbsp;and&nbsp;sight.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;you&nbsp;must&nbsp;specify&nbsp;an&nbsp;unoccupied&nbsp;square,&nbsp;which&nbsp;then&nbsp;becomes&nbsp;filled&nbsp;by&nbsp;a&nbsp;simple&nbsp;ectoplasmic&nbsp;statue&nbsp;of&nbsp;your&nbsp;design.&nbsp;This&nbsp;statue&nbsp;impedes&nbsp;movement&nbsp;as&nbsp;would&nbsp;one&nbsp;of&nbsp;the&nbsp;same&nbsp;size&nbsp;carved&nbsp;out&nbsp;of&nbsp;stone.&nbsp;An&nbsp;ectoplasmic&nbsp;obelisk&nbsp;has&nbsp;hardness&nbsp;10&nbsp;and&nbsp;30&nbsp;hit&nbsp;points.&nbsp;The&nbsp;created&nbsp;obelisk&nbsp;is&nbsp;newly&nbsp;created&nbsp;and&nbsp;thus&nbsp;has&nbsp;not&nbsp;yet&nbsp;made&nbsp;any&nbsp;impression&nbsp;in&nbsp;the&nbsp;floor&nbsp;below&nbsp;it,&nbsp;so&nbsp;it&nbsp;may&nbsp;be&nbsp;possible&nbsp;to&nbsp;push&nbsp;it&nbsp;one&nbsp;square&nbsp;with&nbsp;a&nbsp;DC&nbsp;15&nbsp;Strength&nbsp;check.
+      <p>Expanding from a mid-air spec of colorful ectoplasm, a massive statue
+      forms in space where you designate it, blocking travel and sight. When you
+      manifest this power, you must specify an unoccupied square, which then
+      becomes filled by a simple ectoplasmic statue of your design. This statue
+      impedes movement as would one of the same size carved out of stone. An
+      ectoplasmic obelisk has hardness 10 and 30 hit points. The created obelisk
+      is newly created and thus has not yet made any impression in the floor
+      below it, so it may be possible to push it one square with a DC 15
+      Strength check.
 
       </p>
 
-      <p><strong>Augment:&nbsp;</strong>You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment: </strong>You may augment this power in one or more of
+      the following ways.
 
-      </p><ul><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend&nbsp;on&nbsp;this&nbsp;power,&nbsp;the&nbsp;hardness&nbsp;of&nbsp;the&nbsp;obelisk&nbsp;is&nbsp;increased&nbsp;by&nbsp;1&nbsp;and&nbsp;its&nbsp;hit&nbsp;points&nbsp;increase&nbsp;by&nbsp;2.&nbsp;Additionally,&nbsp;the&nbsp;weight&nbsp;of&nbsp;the&nbsp;obelisk&nbsp;increases,&nbsp;adding&nbsp;1&nbsp;to&nbsp;the&nbsp;Strength&nbsp;DC&nbsp;required&nbsp;to&nbsp;push&nbsp;it.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;make&nbsp;an&nbsp;ectoplasmic&nbsp;obelisk&nbsp;up&nbsp;to&nbsp;one&nbsp;10-ft.&nbsp;square&nbsp;in&nbsp;size.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;10&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;becomes&nbsp;Permanent.</li></ul>
+      </p><ul><li>For every additional power point you spend on this power, the
+      hardness of the obelisk is increased by 1 and its hit points increase by
+      2. Additionally, the weight of the obelisk increases, adding 1 to the
+      Strength DC required to push it.</li><li>By spending an additional 6 power
+      points, you may make an ectoplasmic obelisk up to one 10-ft. square in
+      size.</li><li>By spending an additional 10 power points, the duration of
+      this power becomes Permanent.</li></ul>
   discipline: metacreativity
   display:
     auditory: false

@@ -30,11 +30,17 @@ system:
         value: Object held
   description:
     value: >-
-      <p>You&nbsp;cause&nbsp;a&nbsp;held&nbsp;object&nbsp;to&nbsp;serve&nbsp;as&nbsp;a&nbsp;bridge&nbsp;between&nbsp;planes.&nbsp;The&nbsp;object&nbsp;counts&nbsp;as&nbsp;both&nbsp;ethereal&nbsp;and&nbsp;material,&nbsp;and&nbsp;can&nbsp;be&nbsp;interacted&nbsp;with&nbsp;equally&nbsp;by&nbsp;each&nbsp;side.&nbsp;This&nbsp;functions&nbsp;exactly&nbsp;like&nbsp;the&nbsp;ghost&nbsp;touch&nbsp;special&nbsp;item&nbsp;property,&nbsp;except&nbsp;that&nbsp;it&nbsp;can&nbsp;be&nbsp;applied&nbsp;to&nbsp;any&nbsp;object&nbsp;that&nbsp;can&nbsp;be&nbsp;reasonably&nbsp;held&nbsp;by&nbsp;the&nbsp;manifester.
+      <p>You cause a held object to serve as a bridge between planes. The object
+      counts as both ethereal and material, and can be interacted with equally
+      by each side. This functions exactly like the ghost touch special item
+      property, except that it can be applied to any object that can be
+      reasonably held by the manifester.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;to&nbsp;instead&nbsp;affect&nbsp;part&nbsp;of&nbsp;any&nbsp;object&nbsp;touched,&nbsp;up&nbsp;to&nbsp;5&nbsp;square&nbsp;ft./level.&nbsp;This&nbsp;can&nbsp;include&nbsp;parts&nbsp;of&nbsp;buildings,&nbsp;ground,&nbsp;or&nbsp;other&nbsp;similar&nbsp;objects.
+      <p><strong>Augment:</strong> You may spend 4 additional power points to
+      instead affect part of any object touched, up to 5 square ft./level. This
+      can include parts of buildings, ground, or other similar objects.
 
       </p>
   discipline: athanatism

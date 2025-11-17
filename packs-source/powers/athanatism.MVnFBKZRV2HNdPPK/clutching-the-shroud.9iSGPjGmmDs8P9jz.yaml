@@ -28,11 +28,18 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;bridge&nbsp;the&nbsp;gap&nbsp;between&nbsp;life&nbsp;and&nbsp;death,&nbsp;counting&nbsp;temporarily&nbsp;as&nbsp;one&nbsp;of&nbsp;the&nbsp;undead.&nbsp;You&nbsp;detect&nbsp;as&nbsp;an&nbsp;undead&nbsp;creature&nbsp;(such&nbsp;as&nbsp;with&nbsp;detect&nbsp;undead,&nbsp;but&nbsp;not&nbsp;with&nbsp;magic&nbsp;that&nbsp;reveals&nbsp;your&nbsp;true&nbsp;form)&nbsp;and&nbsp;are&nbsp;treated&nbsp;as&nbsp;undead&nbsp;for&nbsp;the&nbsp;purposes&nbsp;of&nbsp;channeled&nbsp;energy,&nbsp;cure&nbsp;spells,&nbsp;and&nbsp;inflict&nbsp;spells,&nbsp;but&nbsp;not&nbsp;for&nbsp;other&nbsp;effects&nbsp;that&nbsp;specifically&nbsp;target&nbsp;or&nbsp;react&nbsp;differently&nbsp;to&nbsp;undead.
+      <p>You bridge the gap between life and death, counting temporarily as one
+      of the undead. You detect as an undead creature (such as with detect
+      undead, but not with magic that reveals your true form) and are treated as
+      undead for the purposes of channeled energy, cure spells, and inflict
+      spells, but not for other effects that specifically target or react
+      differently to undead.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;spend&nbsp;an&nbsp;additional&nbsp;2&nbsp;power&nbsp;points&nbsp;to&nbsp;gain&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;saves&nbsp;against&nbsp;mind-affecting&nbsp;effects,&nbsp;disease,&nbsp;poison,&nbsp;sleep,&nbsp;and&nbsp;stunning.
+      <p><strong>Augment:</strong> You may spend an additional 2 power points to
+      gain a +2 bonus on saves against mind-affecting effects, disease, poison,
+      sleep, and stunning.
 
       </p>
   discipline: athanatism

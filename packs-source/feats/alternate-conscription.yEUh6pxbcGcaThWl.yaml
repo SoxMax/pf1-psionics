@@ -22,13 +22,17 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You've&nbsp;broadened&nbsp;your&nbsp;methods&nbsp;of&nbsp;conscripting&nbsp;enemies.</em></p>
+      <p><em>You've broadened your methods of conscripting enemies.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Conscription&nbsp;class&nbsp;feature.
+      <p><strong>Prerequisite:</strong> Conscription class feature.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;take&nbsp;this&nbsp;feat,&nbsp;you&nbsp;choose&nbsp;a&nbsp;method&nbsp;of&nbsp;conscription&nbsp;from&nbsp;a&nbsp;different&nbsp;set&nbsp;of&nbsp;highlord&nbsp;tenets.&nbsp;By&nbsp;expending&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;a&nbsp;free&nbsp;action,&nbsp;even&nbsp;if&nbsp;it&nbsp;isn't&nbsp;your&nbsp;turn,&nbsp;you&nbsp;may&nbsp;use&nbsp;the&nbsp;conscription&nbsp;ability&nbsp;of&nbsp;that&nbsp;tenet&nbsp;as&nbsp;if&nbsp;you&nbsp;were&nbsp;a&nbsp;highlord&nbsp;of&nbsp;that&nbsp;tenet&nbsp;for&nbsp;a&nbsp;round.
+      <p><strong>Benefit: </strong>When you take this feat, you choose a method
+      of conscription from a different set of highlord tenets. By expending your
+      psionic focus as a free action, even if it isn't your turn, you may use
+      the conscription ability of that tenet as if you were a highlord of that
+      tenet for a round.
 
       </p>
   disabled: false

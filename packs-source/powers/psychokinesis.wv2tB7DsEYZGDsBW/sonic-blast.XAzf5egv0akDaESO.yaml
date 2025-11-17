@@ -31,11 +31,18 @@ system:
         value: One creature
   description:
     value: >-
-      <p>The&nbsp;next&nbsp;successful&nbsp;attack&nbsp;you&nbsp;make&nbsp;this&nbsp;turn&nbsp;deals&nbsp;an&nbsp;additional&nbsp;+1d6&nbsp;points&nbsp;of&nbsp;sonic&nbsp;damage.
+      <p>The next successful attack you make this turn deals an additional +1d6
+      points of sonic damage.
 
       </p>
 
-      <p><strong>Trigger:</strong>&nbsp;If&nbsp;your&nbsp;attack&nbsp;was&nbsp;successful&nbsp;and&nbsp;the&nbsp;target&nbsp;makes&nbsp;an&nbsp;attack&nbsp;during&nbsp;its&nbsp;next&nbsp;turn,&nbsp;you&nbsp;can&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;make&nbsp;a&nbsp;free&nbsp;trip&nbsp;attempt&nbsp;against&nbsp;the&nbsp;target&nbsp;before&nbsp;it&nbsp;makes&nbsp;the&nbsp;attack.&nbsp;This&nbsp;trip&nbsp;attempt&nbsp;does&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;and&nbsp;you&nbsp;are&nbsp;not&nbsp;knocked&nbsp;prone&nbsp;if&nbsp;you&nbsp;fail&nbsp;by&nbsp;more&nbsp;than&nbsp;10.&nbsp;Power&nbsp;resistance&nbsp;applies&nbsp;to&nbsp;this&nbsp;triggered&nbsp;effect&nbsp;only;&nbsp;it&nbsp;does&nbsp;not&nbsp;apply&nbsp;to&nbsp;the&nbsp;additional&nbsp;damage&nbsp;on&nbsp;your&nbsp;attack.
+      <p><strong>Trigger:</strong> If your attack was successful and the target
+      makes an attack during its next turn, you can expend your psionic focus to
+      make a free trip attempt against the target before it makes the attack.
+      This trip attempt does not provoke attacks of opportunity and you are not
+      knocked prone if you fail by more than 10. Power resistance applies to
+      this triggered effect only; it does not apply to the additional damage on
+      your attack.
 
       </p>
   descriptors:

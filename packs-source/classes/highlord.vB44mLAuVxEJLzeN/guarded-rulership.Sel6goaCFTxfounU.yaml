@@ -1,0 +1,30 @@
+_id: Sel6goaCFTxfounU
+_key: '!items!Sel6goaCFTxfounU'
+_stats:
+  coreVersion: '13.350'
+folder: vB44mLAuVxEJLzeN
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Guarded Rulership
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Highlord
+  description:
+    value: >-
+      <p>At 1st level, a highlord gains <a href="/wiki/Unwilling_Participant"
+      title="Unwilling Participant">Unwilling Participant</a> as a bonus feat,
+      except that its save DC is equal to 10 + 1/2 the highlord's manifester
+      level + the highlord's Charisma modifier. When an unwilling member of the
+      highlord's collective dies, the highlord does not need to make a save to
+      avoid losing power points and being sickened.
+
+      </p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–6
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: classFeat
+  tag: guarded-rulership
+type: feat

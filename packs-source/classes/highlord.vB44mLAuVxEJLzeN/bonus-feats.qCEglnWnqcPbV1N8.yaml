@@ -1,0 +1,27 @@
+_id: qCEglnWnqcPbV1N8
+_key: '!items!qCEglnWnqcPbV1N8'
+_stats:
+  coreVersion: '13.350'
+folder: vB44mLAuVxEJLzeN
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Bonus Feats
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Highlord
+  description:
+    value: >-
+      <p>At 2nd, 9th, and 16th levels, a highlord gains a <a
+      href="/wiki/Psionic_feat" title="Psionic feat">psionic feat</a> he
+      qualifies for as a bonus feat.
+
+      </p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–6
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: classFeat
+  tag: bonus-feats
+type: feat

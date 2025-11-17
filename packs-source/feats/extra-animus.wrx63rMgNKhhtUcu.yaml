@@ -22,17 +22,21 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;reserves&nbsp;of&nbsp;animus&nbsp;are&nbsp;stronger.</em></p>
+      <p><em>Your reserves of animus are stronger.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Must&nbsp;possess&nbsp;an&nbsp;<a&nbsp;href="/wiki/Animus_(system)"&nbsp;title="Animus&nbsp;(system)">animus&nbsp;pool</a>.
-
-      </p>
-
-      <p><strong>Benefits:</strong>&nbsp;Your&nbsp;initial&nbsp;animus&nbsp;pool&nbsp;at&nbsp;the&nbsp;start&nbsp;of&nbsp;each&nbsp;combat&nbsp;increases&nbsp;by&nbsp;2&nbsp;points
+      <p><strong>Prerequisite:</strong> Must possess an <a
+      href="/wiki/Animus_(system)" title="Animus (system)">animus pool</a>.
 
       </p>
 
-      <p><strong>Special:</strong>You&nbsp;can&nbsp;take&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;times.&nbsp;Each&nbsp;additional&nbsp;time&nbsp;you&nbsp;take&nbsp;the&nbsp;feat,&nbsp;your&nbsp;initial&nbsp;animus&nbsp;pool&nbsp;increases&nbsp;by&nbsp;1&nbsp;point&nbsp;instead&nbsp;of&nbsp;2.
+      <p><strong>Benefits:</strong> Your initial animus pool at the start of
+      each combat increases by 2 points
+
+      </p>
+
+      <p><strong>Special:</strong>You can take this feat multiple times. Each
+      additional time you take the feat, your initial animus pool increases by 1
+      point instead of 2.
 
       </p>
   disabled: false

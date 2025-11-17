@@ -28,13 +28,25 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;distort&nbsp;the&nbsp;way&nbsp;others&nbsp;perceive&nbsp;and&nbsp;remember&nbsp;you,&nbsp;making&nbsp;it&nbsp;hard&nbsp;for&nbsp;creatures&nbsp;to&nbsp;recall&nbsp;knowledge&nbsp;of&nbsp;you&nbsp;and&nbsp;your&nbsp;kind.&nbsp;Creatures&nbsp;attempting&nbsp;Knowledge&nbsp;checks&nbsp;to&nbsp;identify&nbsp;you&nbsp;and&nbsp;your&nbsp;traits&nbsp;(such&nbsp;as&nbsp;abilities&nbsp;or&nbsp;weaknesses)&nbsp;suffer&nbsp;a&nbsp;-4&nbsp;penalty&nbsp;to&nbsp;do&nbsp;so.&nbsp;This&nbsp;does&nbsp;not&nbsp;affect&nbsp;Knowledge&nbsp;checks&nbsp;made&nbsp;to&nbsp;research&nbsp;you&nbsp;or&nbsp;information&nbsp;related&nbsp;to&nbsp;you&nbsp;(such&nbsp;as&nbsp;at&nbsp;a&nbsp;public&nbsp;library)&nbsp;or&nbsp;other&nbsp;forms&nbsp;of&nbsp;information-gathering&nbsp;related&nbsp;to&nbsp;you&nbsp;(such&nbsp;as&nbsp;Sense&nbsp;Motive&nbsp;or&nbsp;Diplomacy&nbsp;checks).&nbsp;Creatures&nbsp;that&nbsp;fail&nbsp;Knowledge&nbsp;checks&nbsp;to&nbsp;identify&nbsp;you&nbsp;and&nbsp;your&nbsp;traits&nbsp;learn&nbsp;false&nbsp;information&nbsp;instead&nbsp;of&nbsp;learning&nbsp;nothing.
+      <p>You distort the way others perceive and remember you, making it hard
+      for creatures to recall knowledge of you and your kind. Creatures
+      attempting Knowledge checks to identify you and your traits (such as
+      abilities or weaknesses) suffer a -4 penalty to do so. This does not
+      affect Knowledge checks made to research you or information related to you
+      (such as at a public library) or other forms of information-gathering
+      related to you (such as Sense Motive or Diplomacy checks). Creatures that
+      fail Knowledge checks to identify you and your traits learn false
+      information instead of learning nothing.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;the&nbsp;following&nbsp;ways:
+      <p><strong>Augment:</strong> You may augment this power in the following
+      ways:
 
-      </p><ol><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;the&nbsp;penalty&nbsp;to&nbsp;Knowledge&nbsp;checks&nbsp;increases&nbsp;by&nbsp;2.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;may&nbsp;determine&nbsp;the&nbsp;form&nbsp;of&nbsp;misinformation&nbsp;learned&nbsp;by&nbsp;creatures&nbsp;failing&nbsp;their&nbsp;Knowledge&nbsp;checks.</li></ol>
+      </p><ol><li>For every additional power point you spend, the penalty to
+      Knowledge checks increases by 2.</li><li>If you spend 2 additional power
+      points, you may determine the form of misinformation learned by creatures
+      failing their Knowledge checks.</li></ol>
   descriptors:
     - mind-affecting
   discipline: telepathy

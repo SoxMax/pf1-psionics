@@ -28,21 +28,46 @@ system:
         value: You
   description:
     value: >-
-      <p>This&nbsp;power&nbsp;causes&nbsp;instant&nbsp;diminution,&nbsp;halving&nbsp;your&nbsp;height,&nbsp;length,&nbsp;and&nbsp;width&nbsp;and&nbsp;dividing&nbsp;your&nbsp;weight&nbsp;by&nbsp;8.&nbsp;This&nbsp;decrease&nbsp;changes&nbsp;your&nbsp;size&nbsp;category&nbsp;to&nbsp;the&nbsp;next&nbsp;smaller&nbsp;one.&nbsp;You&nbsp;gain&nbsp;a&nbsp;+2&nbsp;size&nbsp;bonus&nbsp;to&nbsp;Dexterity,&nbsp;a&nbsp;–2&nbsp;size&nbsp;penalty&nbsp;to&nbsp;Strength&nbsp;(to&nbsp;a&nbsp;minimum&nbsp;of&nbsp;1),&nbsp;a&nbsp;+1&nbsp;size&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;rolls&nbsp;and&nbsp;AC&nbsp;due&nbsp;to&nbsp;your&nbsp;reduced&nbsp;size.
+      <p>This power causes instant diminution, halving your height, length, and
+      width and dividing your weight by 8. This decrease changes your size
+      category to the next smaller one. You gain a +2 size bonus to Dexterity, a
+      –2 size penalty to Strength (to a minimum of 1), a +1 size bonus on attack
+      rolls and AC due to your reduced size.
 
       </p>
 
-      <p>If&nbsp;your&nbsp;new&nbsp;size&nbsp;is&nbsp;Tiny,&nbsp;you&nbsp;have&nbsp;a&nbsp;space&nbsp;of&nbsp;2&nbsp;1/2&nbsp;feet&nbsp;and&nbsp;a&nbsp;natural&nbsp;reach&nbsp;of&nbsp;0&nbsp;feet&nbsp;(meaning&nbsp;that&nbsp;you&nbsp;must&nbsp;enter&nbsp;an&nbsp;opponent's&nbsp;square&nbsp;to&nbsp;attack).&nbsp;If&nbsp;your&nbsp;new&nbsp;size&nbsp;is&nbsp;Diminutive,&nbsp;you&nbsp;have&nbsp;a&nbsp;space&nbsp;of&nbsp;1&nbsp;foot&nbsp;and&nbsp;a&nbsp;natural&nbsp;reach&nbsp;of&nbsp;0&nbsp;feet.&nbsp;If&nbsp;your&nbsp;size&nbsp;decreases&nbsp;to&nbsp;Medium,&nbsp;you&nbsp;have&nbsp;a&nbsp;space&nbsp;of&nbsp;5&nbsp;feet&nbsp;and&nbsp;a&nbsp;natural&nbsp;reach&nbsp;of&nbsp;5&nbsp;feet.&nbsp;This&nbsp;power&nbsp;doesn't&nbsp;change&nbsp;your&nbsp;speed.
+      <p>If your new size is Tiny, you have a space of 2 1/2 feet and a natural
+      reach of 0 feet (meaning that you must enter an opponent's square to
+      attack). If your new size is Diminutive, you have a space of 1 foot and a
+      natural reach of 0 feet. If your size decreases to Medium, you have a
+      space of 5 feet and a natural reach of 5 feet. This power doesn't change
+      your speed.
 
       </p>
 
-      <p>All&nbsp;your&nbsp;equipment,&nbsp;worn&nbsp;or&nbsp;carried,&nbsp;is&nbsp;similarly&nbsp;reduced&nbsp;by&nbsp;the&nbsp;power.&nbsp;Melee&nbsp;and&nbsp;projectile&nbsp;weapons&nbsp;deal&nbsp;less&nbsp;damage.&nbsp;Other&nbsp;psionic&nbsp;or&nbsp;magical&nbsp;properties&nbsp;are&nbsp;not&nbsp;affected&nbsp;by&nbsp;this&nbsp;power.&nbsp;Any&nbsp;affected&nbsp;item&nbsp;that&nbsp;leaves&nbsp;your&nbsp;possession&nbsp;(including&nbsp;a&nbsp;projectile&nbsp;or&nbsp;thrown&nbsp;weapon)&nbsp;instantly&nbsp;returns&nbsp;to&nbsp;its&nbsp;normal&nbsp;size.&nbsp;This&nbsp;means&nbsp;that&nbsp;thrown&nbsp;weapons&nbsp;deal&nbsp;their&nbsp;normal&nbsp;damage&nbsp;(projectiles&nbsp;deal&nbsp;damage&nbsp;based&nbsp;on&nbsp;the&nbsp;size&nbsp;of&nbsp;the&nbsp;weapon&nbsp;that&nbsp;fired&nbsp;them).&nbsp;Multiple&nbsp;effects&nbsp;that&nbsp;reduce&nbsp;size&nbsp;do&nbsp;not&nbsp;stack,&nbsp;which&nbsp;means&nbsp;(among&nbsp;other&nbsp;things)&nbsp;that&nbsp;you&nbsp;can't&nbsp;use&nbsp;a&nbsp;second&nbsp;manifestation&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;further&nbsp;reduce&nbsp;yourself.
+      <p>All your equipment, worn or carried, is similarly reduced by the power.
+      Melee and projectile weapons deal less damage. Other psionic or magical
+      properties are not affected by this power. Any affected item that leaves
+      your possession (including a projectile or thrown weapon) instantly
+      returns to its normal size. This means that thrown weapons deal their
+      normal damage (projectiles deal damage based on the size of the weapon
+      that fired them). Multiple effects that reduce size do not stack, which
+      means (among other things) that you can't use a second manifestation of
+      this power to further reduce yourself.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or more of
+      the following ways.
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power&nbsp;decreases&nbsp;your&nbsp;size&nbsp;by&nbsp;two&nbsp;size&nbsp;categories.&nbsp;You&nbsp;gain&nbsp;a&nbsp;+4&nbsp;size&nbsp;bonus&nbsp;to&nbsp;Dexterity,&nbsp;a&nbsp;–4&nbsp;size&nbsp;penalty&nbsp;to&nbsp;Strength&nbsp;(to&nbsp;a&nbsp;minimum&nbsp;effective&nbsp;Strength&nbsp;score&nbsp;of&nbsp;1),&nbsp;a&nbsp;+2&nbsp;size&nbsp;bonus&nbsp;on&nbsp;attack&nbsp;rolls,&nbsp;and&nbsp;a&nbsp;+2&nbsp;size&nbsp;bonus&nbsp;to&nbsp;Armor&nbsp;Class&nbsp;due&nbsp;to&nbsp;your&nbsp;reduced&nbsp;size.</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action&nbsp;instead&nbsp;of&nbsp;a&nbsp;standard&nbsp;action.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;this&nbsp;power's&nbsp;duration&nbsp;is&nbsp;10&nbsp;minutes&nbsp;per&nbsp;level&nbsp;rather&nbsp;than&nbsp;1&nbsp;minute&nbsp;per&nbsp;level.</li></ol>
+      </p><ol><li>If you spend 6 additional power points, this power decreases
+      your size by two size categories. You gain a +4 size bonus to Dexterity, a
+      –4 size penalty to Strength (to a minimum effective Strength score of 1),
+      a +2 size bonus on attack rolls, and a +2 size bonus to Armor Class due to
+      your reduced size.</li><li>If you spend 6 additional power points, you can
+      manifest this power as a swift action instead of a standard
+      action.</li><li>If you spend 2 additional power points, this power's
+      duration is 10 minutes per level rather than 1 minute per level.</li></ol>
   discipline: psychometabolism
   display:
     auditory: false

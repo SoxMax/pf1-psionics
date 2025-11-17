@@ -34,17 +34,27 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;alter&nbsp;a&nbsp;creature's&nbsp;blood&nbsp;into&nbsp;a&nbsp;caustic&nbsp;fluid&nbsp;and&nbsp;adjust&nbsp;their&nbsp;veins&nbsp;and&nbsp;arteries&nbsp;to&nbsp;accommodate&nbsp;it.&nbsp;The&nbsp;target&nbsp;gains&nbsp;acid&nbsp;resistance&nbsp;10.&nbsp;Additionally,&nbsp;when&nbsp;the&nbsp;target&nbsp;is&nbsp;damaged&nbsp;by&nbsp;a&nbsp;melee&nbsp;attack,&nbsp;its&nbsp;attacker&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Reflex&nbsp;save&nbsp;or&nbsp;take&nbsp;3d6&nbsp;points&nbsp;of&nbsp;acid&nbsp;damage.&nbsp;Attackers&nbsp;using&nbsp;a&nbsp;natural&nbsp;weapon&nbsp;suffer&nbsp;a&nbsp;–4&nbsp;penalty&nbsp;to&nbsp;their&nbsp;save.
+      <p>You alter a creature's blood into a caustic fluid and adjust their
+      veins and arteries to accommodate it. The target gains acid resistance 10.
+      Additionally, when the target is damaged by a melee attack, its attacker
+      must succeed at a Reflex save or take 3d6 points of acid damage. Attackers
+      using a natural weapon suffer a –4 penalty to their save.
 
       </p>
 
-      <p>Whenever&nbsp;the&nbsp;target&nbsp;takes&nbsp;damage&nbsp;from&nbsp;a&nbsp;bleed&nbsp;effect,&nbsp;creatures&nbsp;adjacent&nbsp;to&nbsp;the&nbsp;target&nbsp;must&nbsp;succeed&nbsp;at&nbsp;a&nbsp;Reflex&nbsp;save&nbsp;or&nbsp;suffer&nbsp;3d6&nbsp;points&nbsp;of&nbsp;acid&nbsp;damage.
+      <p>Whenever the target takes damage from a bleed effect, creatures
+      adjacent to the target must succeed at a Reflex save or suffer 3d6 points
+      of acid damage.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;the&nbsp;following&nbsp;ways:
+      <p><strong>Augment:</strong> You may augment this power in the following
+      ways:
 
-      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;its&nbsp;damage&nbsp;increases&nbsp;by&nbsp;one&nbsp;die&nbsp;(d6).</li><li>If&nbsp;you&nbsp;spend&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;creatures&nbsp;damaged&nbsp;by&nbsp;this&nbsp;power&nbsp;who&nbsp;fail&nbsp;their&nbsp;saves&nbsp;are&nbsp;also&nbsp;blinded&nbsp;until&nbsp;the&nbsp;beginning&nbsp;of&nbsp;their&nbsp;next&nbsp;turn.</li></ol>
+      </p><ol><li>For every 2 power points you spend, its damage increases by
+      one die (d6).</li><li>If you spend an additional 4 power points, creatures
+      damaged by this power who fail their saves are also blinded until the
+      beginning of their next turn.</li></ol>
   descriptors:
     - acid
   discipline: psychometabolism

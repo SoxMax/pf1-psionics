@@ -1,0 +1,126 @@
+_id: 0MiFhMuUbg8i9xfM
+_key: '!items!0MiFhMuUbg8i9xfM'
+_stats:
+  coreVersion: '13.350'
+folder: 2Cv8pG6sujmlxBmr
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Transfer Wounds
+system:
+  abilityType: ex
+  acquired: false
+  actions:
+    - _id: AdgubjwDhOdjtbDk
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: heal
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      ammo:
+        type: none
+      damage:
+        parts:
+          - formula: (1 + floor((@class.level - 1) / 3), 0)d6
+      duration:
+        units: inst
+      name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: touch
+      target:
+        value: one target not self
+      touch: true
+  associations:
+    classes:
+      - Vitalist
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>All vitalists learn how to transfer wounds with but a touch. As a
+      standard action that does not provoke attacks of opportunity, a vitalist
+      may touch a target and heal it for 1d6 points of damage. The vitalist
+      suffers the same number of points of non-lethal damage (up to the amount
+      the target is actually healed) At 4th level and every 3 levels thereafter,
+      the damage healed to the target and non-lethal damage taken by the
+      vitalist increases by 1d6. A vitalist may use this ability a number of
+      times per day equal to 3 + his Wisdom modifier. A vitalist may not use
+      this ability upon himself.
+
+      </p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2012-07-23'
+      pages: 57–61
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 69–72
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  summons: false
+  tag: transferwounds
+  uses:
+    maxFormula: 3 + @abilities.wis.mod
+    per: charges
+    value: 3
+type: feat

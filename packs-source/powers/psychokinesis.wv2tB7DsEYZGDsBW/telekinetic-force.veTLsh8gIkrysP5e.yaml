@@ -30,27 +30,65 @@ system:
           less
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;use&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;of&nbsp;two&nbsp;ways:
+      <p>You can use this power in one of two ways:
 
-      </p><ul><li><em>Move:</em>&nbsp;You&nbsp;move&nbsp;an&nbsp;object,&nbsp;or&nbsp;even&nbsp;a&nbsp;creature,&nbsp;by&nbsp;concentrating&nbsp;your&nbsp;mind&nbsp;upon&nbsp;its&nbsp;current&nbsp;location&nbsp;and&nbsp;then&nbsp;the&nbsp;location&nbsp;you&nbsp;desire,&nbsp;creating&nbsp;a&nbsp;sustained&nbsp;force.&nbsp;You&nbsp;can&nbsp;move&nbsp;an&nbsp;object&nbsp;weighing&nbsp;no&nbsp;more&nbsp;than&nbsp;250&nbsp;pounds&nbsp;up&nbsp;to&nbsp;20&nbsp;feet&nbsp;per&nbsp;round.&nbsp;A&nbsp;creature&nbsp;can&nbsp;negate&nbsp;the&nbsp;effect&nbsp;on&nbsp;an&nbsp;object&nbsp;it&nbsp;possesses&nbsp;or&nbsp;itself&nbsp;with&nbsp;a&nbsp;successful&nbsp;Will&nbsp;save&nbsp;or&nbsp;with&nbsp;power&nbsp;resistance.&nbsp;The&nbsp;weight&nbsp;can&nbsp;be&nbsp;moved&nbsp;across&nbsp;the&nbsp;ground&nbsp;or&nbsp;through&nbsp;the&nbsp;air.&nbsp;This&nbsp;power&nbsp;ends&nbsp;if&nbsp;the&nbsp;object&nbsp;is&nbsp;forced&nbsp;out&nbsp;of&nbsp;range.&nbsp;If&nbsp;you&nbsp;cease&nbsp;concentration,&nbsp;the&nbsp;object&nbsp;falls&nbsp;or&nbsp;stops.</li></ul>
+      </p><ul><li><em>Move:</em> You move an object, or even a creature, by
+      concentrating your mind upon its current location and then the location
+      you desire, creating a sustained force. You can move an object weighing no
+      more than 250 pounds up to 20 feet per round. A creature can negate the
+      effect on an object it possesses or itself with a successful Will save or
+      with power resistance. The weight can be moved across the ground or
+      through the air. This power ends if the object is forced out of range. If
+      you cease concentration, the object falls or stops.</li></ul>
 
-      <ul><li>You&nbsp;can&nbsp;drop&nbsp;a&nbsp;weight&nbsp;and&nbsp;pick&nbsp;up&nbsp;another&nbsp;during&nbsp;the&nbsp;power's&nbsp;duration,&nbsp;as&nbsp;long&nbsp;as&nbsp;you&nbsp;don't&nbsp;stop&nbsp;concentrating&nbsp;on&nbsp;maintaining&nbsp;the&nbsp;power.&nbsp;An&nbsp;object&nbsp;can&nbsp;be&nbsp;telekinetically&nbsp;manipulated&nbsp;as&nbsp;if&nbsp;you&nbsp;were&nbsp;moving&nbsp;it&nbsp;with&nbsp;one&nbsp;hand.</li></ul>
+      <ul><li>You can drop a weight and pick up another during the power's
+      duration, as long as you don't stop concentrating on maintaining the
+      power. An object can be telekinetically manipulated as if you were moving
+      it with one hand.</li></ul>
 
-      <ul><li>If&nbsp;you&nbsp;spend&nbsp;at&nbsp;least&nbsp;5&nbsp;rounds&nbsp;concentrating&nbsp;on&nbsp;an&nbsp;unattended&nbsp;object,&nbsp;you&nbsp;can&nbsp;attempt&nbsp;to&nbsp;break&nbsp;or&nbsp;burst&nbsp;it&nbsp;as&nbsp;if&nbsp;making&nbsp;a&nbsp;Strength&nbsp;check,&nbsp;except&nbsp;that&nbsp;you&nbsp;apply&nbsp;your&nbsp;key&nbsp;ability&nbsp;modifier&nbsp;to&nbsp;the&nbsp;check&nbsp;instead&nbsp;of&nbsp;your&nbsp;Strength&nbsp;&nbsp;modifier.</li></ul>
+      <ul><li>If you spend at least 5 rounds concentrating on an unattended
+      object, you can attempt to break or burst it as if making a Strength
+      check, except that you apply your key ability modifier to the check
+      instead of your Strength  modifier.</li></ul>
 
-      <ul><li>If&nbsp;a&nbsp;creature&nbsp;succeeds&nbsp;on&nbsp;its&nbsp;Will&nbsp;save&nbsp;against&nbsp;this&nbsp;effect,&nbsp;either&nbsp;to&nbsp;prevent&nbsp;you&nbsp;moving&nbsp;the&nbsp;creature&nbsp;or&nbsp;an&nbsp;object&nbsp;in&nbsp;its&nbsp;possession,&nbsp;you&nbsp;cannot&nbsp;target&nbsp;another&nbsp;item&nbsp;in&nbsp;that&nbsp;creature's&nbsp;possession&nbsp;nor&nbsp;the&nbsp;creature&nbsp;itself&nbsp;unless&nbsp;you&nbsp;manifest&nbsp;the&nbsp;power&nbsp;again.&nbsp;If&nbsp;the&nbsp;creature&nbsp;fails&nbsp;its&nbsp;Will&nbsp;save,&nbsp;it&nbsp;may&nbsp;still&nbsp;take&nbsp;its&nbsp;normal&nbsp;actions,&nbsp;except&nbsp;it&nbsp;cannot&nbsp;move&nbsp;from&nbsp;its&nbsp;current&nbsp;location.</li></ul>
+      <ul><li>If a creature succeeds on its Will save against this effect,
+      either to prevent you moving the creature or an object in its possession,
+      you cannot target another item in that creature's possession nor the
+      creature itself unless you manifest the power again. If the creature fails
+      its Will save, it may still take its normal actions, except it cannot move
+      from its current location.</li></ul>
 
-      <ul><li><em>Thrust:</em>&nbsp;You&nbsp;can&nbsp;affect&nbsp;one&nbsp;or&nbsp;more&nbsp;objects&nbsp;or&nbsp;creatures&nbsp;by&nbsp;concentrating&nbsp;your&nbsp;mind&nbsp;upon,&nbsp;sending&nbsp;them&nbsp;in&nbsp;a&nbsp;deadly&nbsp;hail&nbsp;at&nbsp;your&nbsp;foes—or&nbsp;simply&nbsp;by&nbsp;hurling&nbsp;your&nbsp;foe!&nbsp;You&nbsp;can&nbsp;hurl&nbsp;one&nbsp;object&nbsp;or&nbsp;creature&nbsp;per&nbsp;manifester&nbsp;level&nbsp;(maximum&nbsp;fifteen&nbsp;separate&nbsp;targets),&nbsp;as&nbsp;long&nbsp;as&nbsp;all&nbsp;are&nbsp;within&nbsp;the&nbsp;power's&nbsp;range&nbsp;and&nbsp;each&nbsp;is&nbsp;no&nbsp;more&nbsp;than&nbsp;10&nbsp;feet&nbsp;away&nbsp;from&nbsp;another&nbsp;one.&nbsp;Each&nbsp;object&nbsp;or&nbsp;creature&nbsp;can&nbsp;be&nbsp;hurled&nbsp;a&nbsp;maximum&nbsp;distance&nbsp;of&nbsp;10&nbsp;feet&nbsp;per&nbsp;level.</li></ul>
+      <ul><li><em>Thrust:</em> You can affect one or more objects or creatures
+      by concentrating your mind upon, sending them in a deadly hail at your
+      foes—or simply by hurling your foe! You can hurl one object or creature
+      per manifester level (maximum fifteen separate targets), as long as all
+      are within the power's range and each is no more than 10 feet away from
+      another one. Each object or creature can be hurled a maximum distance of
+      10 feet per level.</li></ul>
 
-      <ul><li>You&nbsp;must&nbsp;succeed&nbsp;on&nbsp;ranged&nbsp;attack&nbsp;rolls&nbsp;(one&nbsp;per&nbsp;creature&nbsp;or&nbsp;object&nbsp;thrown)&nbsp;to&nbsp;hit&nbsp;the&nbsp;target&nbsp;of&nbsp;the&nbsp;hurled&nbsp;items&nbsp;with&nbsp;the&nbsp;items,&nbsp;applying&nbsp;your&nbsp;key&nbsp;ability&nbsp;modifier&nbsp;to&nbsp;the&nbsp;attack&nbsp;roll&nbsp;instead&nbsp;of&nbsp;your&nbsp;Dexterity&nbsp;modifier.&nbsp;Hurled&nbsp;weapons&nbsp;deal&nbsp;their&nbsp;standard&nbsp;damage&nbsp;(your&nbsp;Strength&nbsp;bonus&nbsp;does&nbsp;not&nbsp;apply;&nbsp;arrows&nbsp;or&nbsp;bolts&nbsp;deal&nbsp;damage&nbsp;as&nbsp;daggers&nbsp;of&nbsp;their&nbsp;size&nbsp;when&nbsp;used&nbsp;in&nbsp;this&nbsp;manner).&nbsp;Other&nbsp;objects&nbsp;deal&nbsp;damage&nbsp;ranging&nbsp;from&nbsp;1&nbsp;point&nbsp;per&nbsp;25&nbsp;pounds&nbsp;of&nbsp;weight&nbsp;(for&nbsp;less&nbsp;dangerous&nbsp;objects&nbsp;such&nbsp;as&nbsp;an&nbsp;empty&nbsp;barrel)&nbsp;to&nbsp;1d6&nbsp;points&nbsp;per&nbsp;25&nbsp;pounds&nbsp;of&nbsp;weight&nbsp;(for&nbsp;hard,&nbsp;dense&nbsp;objects&nbsp;such&nbsp;as&nbsp;a&nbsp;boulder).</li></ul>
+      <ul><li>You must succeed on ranged attack rolls (one per creature or
+      object thrown) to hit the target of the hurled items with the items,
+      applying your key ability modifier to the attack roll instead of your
+      Dexterity modifier. Hurled weapons deal their standard damage (your
+      Strength bonus does not apply; arrows or bolts deal damage as daggers of
+      their size when used in this manner). Other objects deal damage ranging
+      from 1 point per 25 pounds of weight (for less dangerous objects such as
+      an empty barrel) to 1d6 points per 25 pounds of weight (for hard, dense
+      objects such as a boulder).</li></ul>
 
-      <ul><li>Creatures&nbsp;are&nbsp;allowed&nbsp;Will&nbsp;saves&nbsp;(and&nbsp;power&nbsp;resistance)&nbsp;to&nbsp;negate&nbsp;the&nbsp;effect,&nbsp;as&nbsp;are&nbsp;those&nbsp;whose&nbsp;held&nbsp;possessions&nbsp;are&nbsp;targeted&nbsp;by&nbsp;this&nbsp;power.&nbsp;Creatures&nbsp;are&nbsp;not&nbsp;allowed&nbsp;a&nbsp;Will&nbsp;save&nbsp;if&nbsp;an&nbsp;object&nbsp;is&nbsp;thrust&nbsp;at&nbsp;them&nbsp;through&nbsp;the&nbsp;use&nbsp;of&nbsp;this&nbsp;power.</li></ul>
+      <ul><li>Creatures are allowed Will saves (and power resistance) to negate
+      the effect, as are those whose held possessions are targeted by this
+      power. Creatures are not allowed a Will save if an object is thrust at
+      them through the use of this power.</li></ul>
 
-      <ul><li>If&nbsp;you&nbsp;use&nbsp;this&nbsp;power&nbsp;to&nbsp;hurl&nbsp;a&nbsp;creature&nbsp;against&nbsp;a&nbsp;solid&nbsp;surface,&nbsp;it&nbsp;takes&nbsp;damage&nbsp;as&nbsp;if&nbsp;it&nbsp;had&nbsp;fallen&nbsp;10&nbsp;feet&nbsp;(1d6&nbsp;points).</li></ul>
+      <ul><li>If you use this power to hurl a creature against a solid surface,
+      it takes damage as if it had fallen 10 feet (1d6 points).</li></ul>
 
-      <ul><li>If&nbsp;you&nbsp;use&nbsp;the&nbsp;thrust&nbsp;option&nbsp;of&nbsp;this&nbsp;power,&nbsp;the&nbsp;duration&nbsp;is&nbsp;instantaneous.</li></ul>
+      <ul><li>If you use the thrust option of this power, the duration is
+      instantaneous.</li></ul>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;the&nbsp;weight&nbsp;limit&nbsp;of&nbsp;the&nbsp;target&nbsp;increases&nbsp;by&nbsp;25&nbsp;pounds.
+      <p><strong>Augment:</strong> For every additional power point you spend,
+      the weight limit of the target increases by 25 pounds.
 
       </p>
   descriptors:

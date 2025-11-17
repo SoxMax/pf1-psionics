@@ -22,13 +22,19 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Gaining&nbsp;psionic&nbsp;focus&nbsp;comes&nbsp;second&nbsp;nature&nbsp;to&nbsp;you.</em></p>
+      <p><em>Gaining psionic focus comes second nature to you.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Psionic_Meditation"&nbsp;title="Psionic&nbsp;Meditation">Psionic&nbsp;Meditation</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Psionic_Meditation"
+      title="Psionic Meditation">Psionic Meditation</a>.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;no&nbsp;longer&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity&nbsp;when&nbsp;meditating&nbsp;to&nbsp;gain&nbsp;psionic&nbsp;focus.&nbsp;Should&nbsp;you&nbsp;have&nbsp;multiple&nbsp;psionic&nbsp;foci,&nbsp;such&nbsp;as&nbsp;from&nbsp;<a&nbsp;href="/wiki/Deep_Focus"&nbsp;title="Deep&nbsp;Focus">Deep&nbsp;Focus</a>,&nbsp;you&nbsp;regain&nbsp;any&nbsp;psionic&nbsp;focus&nbsp;you&nbsp;are&nbsp;not&nbsp;currently&nbsp;maintaining&nbsp;anytime&nbsp;you&nbsp;meditate&nbsp;to&nbsp;gain&nbsp;psionic&nbsp;focus.&nbsp;In&nbsp;addition,&nbsp;you&nbsp;can&nbsp;expend&nbsp;a&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;to&nbsp;regain&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;a&nbsp;free&nbsp;action.
+      <p><strong>Benefit:</strong> You no longer provoke attacks of opportunity
+      when meditating to gain psionic focus. Should you have multiple psionic
+      foci, such as from <a href="/wiki/Deep_Focus" title="Deep Focus">Deep
+      Focus</a>, you regain any psionic focus you are not currently maintaining
+      anytime you meditate to gain psionic focus. In addition, you can expend a
+      use of mythic power to regain your psionic focus as a free action.
 
       </p>
   disabled: false

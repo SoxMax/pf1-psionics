@@ -22,13 +22,20 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;manifest&nbsp;powers&nbsp;that&nbsp;deal&nbsp;damage&nbsp;of&nbsp;the&nbsp;void&nbsp;instead&nbsp;of&nbsp;an&nbsp;energy&nbsp;type.</em></p>
+      <p><em>You manifest powers that deal damage of the void instead of an
+      energy type.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Manifester&nbsp;level&nbsp;5th.
+      <p><strong>Prerequisite:</strong> Manifester level 5th.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;a&nbsp;power&nbsp;that&nbsp;deals&nbsp;damage&nbsp;of&nbsp;your&nbsp;active&nbsp;energy&nbsp;type,&nbsp;but&nbsp;instead&nbsp;of&nbsp;using&nbsp;your&nbsp;active&nbsp;energy&nbsp;type,&nbsp;it&nbsp;draws&nbsp;upon&nbsp;the&nbsp;void&nbsp;itself,&nbsp;creating&nbsp;an&nbsp;inverse&nbsp;of&nbsp;energy.&nbsp;The&nbsp;power&nbsp;deals&nbsp;the&nbsp;same&nbsp;amount&nbsp;of&nbsp;damage,&nbsp;but&nbsp;this&nbsp;damage&nbsp;is&nbsp;untyped&nbsp;and&nbsp;not&nbsp;subject&nbsp;to&nbsp;energy&nbsp;resistance.&nbsp;Using&nbsp;this&nbsp;feat&nbsp;increases&nbsp;the&nbsp;power&nbsp;point&nbsp;cost&nbsp;of&nbsp;the&nbsp;power&nbsp;by&nbsp;4.&nbsp;The&nbsp;power’s&nbsp;total&nbsp;cost&nbsp;cannot&nbsp;exceed&nbsp;your&nbsp;manifester&nbsp;level.
+      <p><strong>Benefit: </strong>To use this feat, you must expend your
+      psionic focus. When you manifest a power that deals damage of your active
+      energy type, but instead of using your active energy type, it draws upon
+      the void itself, creating an inverse of energy. The power deals the same
+      amount of damage, but this damage is untyped and not subject to energy
+      resistance. Using this feat increases the power point cost of the power by
+      4. The power’s total cost cannot exceed your manifester level.
 
       </p>
   disabled: false

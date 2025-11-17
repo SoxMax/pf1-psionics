@@ -1,0 +1,34 @@
+_id: 7TUrWpjD22vDWDYB
+_key: '!items!7TUrWpjD22vDWDYB'
+_stats:
+  coreVersion: '13.350'
+folder: 3nTUlQKGd4eDVPqX
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Wind Reader
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Marksman
+  description:
+    value: >-
+      <p>A Marksman can use her heightened senses and awareness of her
+      surroundings to read the wind and environment, allowing her to drastically
+      improve her accuracy. While maintaining psionic focus, she can spend a
+      swift action to gain a competence bonus equal to her Wisdom modifier on
+      ranged attacks until the end of the round. She can do this a number of
+      times per day equal to 3 + her class level.
+
+      </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 47–50
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 44–46
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: wind-reader
+type: feat

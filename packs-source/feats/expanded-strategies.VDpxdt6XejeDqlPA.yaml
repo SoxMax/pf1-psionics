@@ -21,27 +21,17 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;develop&nbsp;new&nbsp;strategies&nbsp;at&nbsp;a&nbsp;faster&nbsp;rate&nbsp;than&nbsp;most
-
+    value: |-
+      <p>You develop new strategies at a faster rate than most
       tacticians.
-
       </p>
-
-      <p><strong>Prerequisite:&nbsp;</strong>Strategy&nbsp;class&nbsp;feature.
-
+      <p><strong>Prerequisite: </strong>Strategy class feature.
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;gain&nbsp;an&nbsp;additional&nbsp;strategy.&nbsp;You&nbsp;must
-
-      meet&nbsp;all&nbsp;the&nbsp;prerequisites&nbsp;of&nbsp;that&nbsp;strategy.
-
+      <p><strong>Benefit: </strong>You gain an additional strategy. You must
+      meet all the prerequisites of that strategy.
       </p>
-
-      <p><strong>Special:&nbsp;</strong>You&nbsp;may&nbsp;take&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;times.&nbsp;Each
-
-      time,&nbsp;you&nbsp;gain&nbsp;a&nbsp;new&nbsp;strategy.
-
+      <p><strong>Special: </strong>You may take this feat multiple times. Each
+      time, you gain a new strategy.
       </p>
   disabled: false
   featType: feat

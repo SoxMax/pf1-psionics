@@ -1,0 +1,82 @@
+_id: toy6IdQdaZ3hCOlz
+_key: '!items!toy6IdQdaZ3hCOlz'
+_stats:
+  coreVersion: '13.351'
+folder: AICxlKKwBc5Q4JsO
+img: systems/pf1/icons/races/goblin.png
+name: Psionic Prodigy
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: xjmlW2kz
+      formula: '1'
+      operator: add
+      priority: 0
+      target: bonusFeats
+      type: untyped
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: "<p>It is not uncommon for blues to natively have the ability to manifest powers. Blues with this trait gain the @UUID[Compendium.pf1-psionics.feats.Item.1PPq6uhjBd72laNS]{Unlocked Talent} feat as a bonus feat.</p><p>This trait replaces the Repletion and stealthy traits.</p>"
+  disabled: false
+  inherited: false
+  links:
+    supplements:
+      - name: Unlocked Talent
+        uuid: Compendium.pf1-psionics.feats.Item.JtjBpOomlvF1l4w8
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+  traitCategory: featSkills
+type: feat

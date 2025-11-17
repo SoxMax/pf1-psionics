@@ -28,19 +28,28 @@ system:
         value: Creature touched
   description:
     value: >-
-      <p>This&nbsp;power&nbsp;shrouds&nbsp;your&nbsp;hand&nbsp;or&nbsp;a&nbsp;natural&nbsp;weapon&nbsp;you&nbsp;possess&nbsp;with&nbsp;darkness&nbsp;that&nbsp;you&nbsp;can&nbsp;use&nbsp;to&nbsp;drain&nbsp;an&nbsp;opponent's&nbsp;power.
+      <p>This power shrouds your hand or a natural weapon you possess with
+      darkness that you can use to drain an opponent's power.
 
       </p>
 
-      <p>If&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power&nbsp;to&nbsp;affect&nbsp;your&nbsp;hand,&nbsp;the&nbsp;next&nbsp;successful&nbsp;melee&nbsp;touch&nbsp;attack&nbsp;you&nbsp;make&nbsp;(if&nbsp;the&nbsp;victim&nbsp;fails&nbsp;its&nbsp;Fortitude&nbsp;save)&nbsp;drains&nbsp;2&nbsp;power&nbsp;points&nbsp;from&nbsp;your&nbsp;foe&nbsp;for&nbsp;every&nbsp;manifester&nbsp;level&nbsp;you&nbsp;have.&nbsp;The&nbsp;drained&nbsp;points&nbsp;simply&nbsp;dissipate.&nbsp;Your&nbsp;touch&nbsp;attack,&nbsp;charged&nbsp;with&nbsp;psionic&nbsp;power,&nbsp;is&nbsp;treated&nbsp;as&nbsp;an&nbsp;armed&nbsp;attack.
+      <p>If you manifest this power to affect your hand, the next successful
+      melee touch attack you make (if the victim fails its Fortitude save)
+      drains 2 power points from your foe for every manifester level you have.
+      The drained points simply dissipate. Your touch attack, charged with
+      psionic power, is treated as an armed attack.
 
       </p>
 
-      <p>If&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power&nbsp;to&nbsp;affect&nbsp;a&nbsp;natural&nbsp;weapon&nbsp;you&nbsp;possess,&nbsp;you&nbsp;must&nbsp;make&nbsp;a&nbsp;successful&nbsp;melee&nbsp;attack&nbsp;with&nbsp;the&nbsp;weapon&nbsp;to&nbsp;gain&nbsp;the&nbsp;power's&nbsp;benefit.
+      <p>If you manifest this power to affect a natural weapon you possess, you
+      must make a successful melee attack with the weapon to gain the power's
+      benefit.
 
       </p>
 
-      <p>Against&nbsp;a&nbsp;psionic&nbsp;being&nbsp;that&nbsp;has&nbsp;no&nbsp;power&nbsp;points&nbsp;or&nbsp;a&nbsp;nonpsionic&nbsp;foe,&nbsp;your&nbsp;attack&nbsp;instead&nbsp;deals&nbsp;2&nbsp;points&nbsp;of&nbsp;Intelligence,&nbsp;Wisdom,&nbsp;or&nbsp;Charisma&nbsp;damage&nbsp;(your&nbsp;choice).
+      <p>Against a psionic being that has no power points or a nonpsionic foe,
+      your attack instead deals 2 points of Intelligence, Wisdom, or Charisma
+      damage (your choice).
 
       </p>
   discipline: psychometabolism

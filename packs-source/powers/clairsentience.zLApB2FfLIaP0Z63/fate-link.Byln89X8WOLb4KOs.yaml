@@ -29,15 +29,23 @@ system:
         value: Any two living creatures that are initially no more than 30 ft. apart.
   description:
     value: >-
-      <p>You&nbsp;temporarily&nbsp;link&nbsp;the&nbsp;fates&nbsp;of&nbsp;any&nbsp;two&nbsp;creatures,&nbsp;if&nbsp;both&nbsp;fail&nbsp;their&nbsp;saving&nbsp;throws.&nbsp;If&nbsp;either&nbsp;linked&nbsp;creature&nbsp;experiences&nbsp;pain,&nbsp;both&nbsp;feel&nbsp;it.&nbsp;When&nbsp;one&nbsp;loses&nbsp;hit&nbsp;points,&nbsp;the&nbsp;other&nbsp;loses&nbsp;the&nbsp;same&nbsp;amount.&nbsp;If&nbsp;one&nbsp;takes&nbsp;nonlethal&nbsp;damage,&nbsp;so&nbsp;does&nbsp;the&nbsp;other.&nbsp;If&nbsp;one&nbsp;creature&nbsp;is&nbsp;subjected&nbsp;to&nbsp;an&nbsp;effect&nbsp;to&nbsp;which&nbsp;it&nbsp;is&nbsp;immune&nbsp;(such&nbsp;as&nbsp;a&nbsp;type&nbsp;of&nbsp;energy&nbsp;damage),&nbsp;the&nbsp;linked&nbsp;creature&nbsp;is&nbsp;not&nbsp;subjected&nbsp;to&nbsp;it&nbsp;either.&nbsp;If&nbsp;one&nbsp;dies,&nbsp;the&nbsp;other&nbsp;must&nbsp;immediately&nbsp;succeed&nbsp;on&nbsp;a&nbsp;Fortitude&nbsp;save&nbsp;against&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;or&nbsp;gain&nbsp;two&nbsp;negative&nbsp;levels.
+      <p>You temporarily link the fates of any two creatures, if both fail their
+      saving throws. If either linked creature experiences pain, both feel it.
+      When one loses hit points, the other loses the same amount. If one takes
+      nonlethal damage, so does the other. If one creature is subjected to an
+      effect to which it is immune (such as a type of energy damage), the linked
+      creature is not subjected to it either. If one dies, the other must
+      immediately succeed on a Fortitude save against this power's save DC or
+      gain two negative levels.
 
       </p>
 
-      <p>No&nbsp;other&nbsp;effects&nbsp;are&nbsp;transferred&nbsp;by&nbsp;the&nbsp;fate&nbsp;link.
+      <p>No other effects are transferred by the fate link.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+      <p><strong>Augment:</strong> For every 2 additional power points you
+      spend, this power's save DC increases by 1.
 
       </p>
   discipline: clairsentience

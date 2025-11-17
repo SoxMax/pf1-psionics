@@ -22,13 +22,23 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;create&nbsp;a&nbsp;second&nbsp;kinetic&nbsp;blade.</em></p>
+      <p><em>You can create a second kinetic blade.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Two-Weapon%20Fighting">Two-Weapon&nbsp;Fighting</a>,&nbsp;<em>kinetic&nbsp;blade</em>&nbsp;wild&nbsp;talent.
+      <p><strong>Prerequisites:</strong><a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Two-Weapon%20Fighting">Two-Weapon
+      Fighting</a>, <em>kinetic blade</em> wild talent.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;use&nbsp;the&nbsp;<em>kinetic&nbsp;blade</em>&nbsp;wild&nbsp;talent,&nbsp;you&nbsp;may&nbsp;make&nbsp;a&nbsp;second&nbsp;<em>kinetic&nbsp;blade&nbsp;</em>in&nbsp;your&nbsp;off&nbsp;hand.&nbsp;You&nbsp;can&nbsp;only&nbsp;make&nbsp;one&nbsp;attack&nbsp;with&nbsp;this&nbsp;second&nbsp;kinetic&nbsp;blade,&nbsp;regardless&nbsp;of&nbsp;how&nbsp;many&nbsp;off-hand&nbsp;attacks&nbsp;you&nbsp;would&nbsp;normally&nbsp;receive.&nbsp;You&nbsp;pay&nbsp;burn&nbsp;costs&nbsp;for&nbsp;the&nbsp;second&nbsp;<em>kinetic&nbsp;blade</em>&nbsp;as&nbsp;normal,&nbsp;and&nbsp;can&nbsp;make&nbsp;the&nbsp;second&nbsp;<em>kinetic&nbsp;blade</em>&nbsp;using&nbsp;a&nbsp;different&nbsp;<em>kinetic&nbsp;blast</em>&nbsp;than&nbsp;the&nbsp;first,&nbsp;if&nbsp;you&nbsp;wish.&nbsp;If&nbsp;you&nbsp;used&nbsp;gather&nbsp;power&nbsp;to&nbsp;reduce&nbsp;the&nbsp;cost&nbsp;of&nbsp;the&nbsp;first&nbsp;<em>kinetic&nbsp;blade</em>,&nbsp;the&nbsp;reduction&nbsp;from&nbsp;gather&nbsp;power&nbsp;does&nbsp;not&nbsp;apply&nbsp;to&nbsp;the&nbsp;second&nbsp;blade's&nbsp;cost&nbsp;as&nbsp;well.
+      <p><strong>Benefit:</strong> When you use the <em>kinetic blade</em> wild
+      talent, you may make a second <em>kinetic blade </em>in your off hand. You
+      can only make one attack with this second kinetic blade, regardless of how
+      many off-hand attacks you would normally receive. You pay burn costs for
+      the second <em>kinetic blade</em> as normal, and can make the second
+      <em>kinetic blade</em> using a different <em>kinetic blast</em> than the
+      first, if you wish. If you used gather power to reduce the cost of the
+      first <em>kinetic blade</em>, the reduction from gather power does not
+      apply to the second blade's cost as well.
 
       </p>
   disabled: false

@@ -29,19 +29,39 @@ system:
         value: One creature touched and one creature; see text
   description:
     value: >-
-      <p>A&nbsp;bridge&nbsp;of&nbsp;coruscating&nbsp;multi-hued&nbsp;light&nbsp;builds&nbsp;between&nbsp;two&nbsp;creatures,&nbsp;photonic&nbsp;evidence&nbsp;of&nbsp;magical&nbsp;redirection.&nbsp;<em>Retarget&nbsp;power&nbsp;</em>can&nbsp;be&nbsp;used&nbsp;to&nbsp;move&nbsp;an&nbsp;ongoing&nbsp;magical&nbsp;spell&nbsp;or&nbsp;psionic&nbsp;power&nbsp;from&nbsp;one&nbsp;creature&nbsp;to&nbsp;another.&nbsp;Prior&nbsp;to&nbsp;its&nbsp;use,&nbsp;you&nbsp;must&nbsp;have&nbsp;identified&nbsp;the&nbsp;specific&nbsp;single&nbsp;spell&nbsp;or&nbsp;power&nbsp;you&nbsp;intend&nbsp;to&nbsp;move&nbsp;either&nbsp;through&nbsp;the&nbsp;use&nbsp;of&nbsp;Spellcraft,&nbsp;or&nbsp;by&nbsp;having&nbsp;been&nbsp;the&nbsp;original&nbsp;caster&nbsp;or&nbsp;manifester&nbsp;of&nbsp;the&nbsp;spell&nbsp;or&nbsp;power.&nbsp;Simply&nbsp;being&nbsp;told,&nbsp;even&nbsp;by&nbsp;the&nbsp;original&nbsp;caster&nbsp;is&nbsp;insufficient&nbsp;for&nbsp;this&nbsp;purpose&nbsp;though&nbsp;any&nbsp;experience&nbsp;equivalent&nbsp;to&nbsp;first-hand&nbsp;knowledge&nbsp;(such&nbsp;as&nbsp;by&nbsp;means&nbsp;of&nbsp;mind-reading)&nbsp;is.
+      <p>A bridge of coruscating multi-hued light builds between two creatures,
+      photonic evidence of magical redirection. <em>Retarget power </em>can be
+      used to move an ongoing magical spell or psionic power from one creature
+      to another. Prior to its use, you must have identified the specific single
+      spell or power you intend to move either through the use of Spellcraft, or
+      by having been the original caster or manifester of the spell or power.
+      Simply being told, even by the original caster is insufficient for this
+      purpose though any experience equivalent to first-hand knowledge (such as
+      by means of mind-reading) is.
 
       </p>
 
-      <p>You&nbsp;must&nbsp;touch&nbsp;the&nbsp;creature&nbsp;that&nbsp;is&nbsp;currently&nbsp;under&nbsp;the&nbsp;effects&nbsp;of&nbsp;the&nbsp;ongoing&nbsp;spell&nbsp;or&nbsp;power.&nbsp;That&nbsp;creature&nbsp;is&nbsp;entitled&nbsp;to&nbsp;a&nbsp;Will&nbsp;saving&nbsp;throw&nbsp;to&nbsp;resist&nbsp;your&nbsp;transfer&nbsp;though&nbsp;they&nbsp;may&nbsp;choose&nbsp;to&nbsp;voluntarily&nbsp;fail&nbsp;their&nbsp;save&nbsp;as&nbsp;usual.&nbsp;If&nbsp;this&nbsp;condition&nbsp;is&nbsp;satisfied,&nbsp;the&nbsp;target&nbsp;creature&nbsp;you&nbsp;select&nbsp;may&nbsp;also&nbsp;make&nbsp;a&nbsp;saving&nbsp;throw&nbsp;to&nbsp;resist&nbsp;accepting&nbsp;the&nbsp;transfer.&nbsp;If&nbsp;either&nbsp;creature&nbsp;succeeds&nbsp;at&nbsp;its&nbsp;saving&nbsp;throw,&nbsp;<em>retarget&nbsp;power&nbsp;</em>has&nbsp;no&nbsp;effect&nbsp;and&nbsp;the&nbsp;spell&nbsp;or&nbsp;power&nbsp;remains&nbsp;active&nbsp;on&nbsp;its&nbsp;original&nbsp;target.&nbsp;Spell&nbsp;resistance&nbsp;applies&nbsp;to&nbsp;both&nbsp;the&nbsp;source&nbsp;and&nbsp;target&nbsp;creatures.
+      <p>You must touch the creature that is currently under the effects of the
+      ongoing spell or power. That creature is entitled to a Will saving throw
+      to resist your transfer though they may choose to voluntarily fail their
+      save as usual. If this condition is satisfied, the target creature you
+      select may also make a saving throw to resist accepting the transfer. If
+      either creature succeeds at its saving throw, <em>retarget power </em>has
+      no effect and the spell or power remains active on its original target.
+      Spell resistance applies to both the source and target creatures.
 
       </p>
 
-      <p>This&nbsp;power&nbsp;cannot&nbsp;be&nbsp;used&nbsp;to&nbsp;transfer&nbsp;a&nbsp;power&nbsp;that&nbsp;cannot&nbsp;apply&nbsp;to&nbsp;the&nbsp;target&nbsp;creature.&nbsp;For&nbsp;instance,&nbsp;<em>hold&nbsp;person&nbsp;</em>cannot&nbsp;be&nbsp;moved&nbsp;to&nbsp;an&nbsp;outsider&nbsp;(because&nbsp;<em>hold&nbsp;person&nbsp;</em>can&nbsp;only&nbsp;target&nbsp;humanoids).&nbsp;<em>Retarget&nbsp;power&nbsp;</em>is,&nbsp;however,&nbsp;usable&nbsp;in&nbsp;cases&nbsp;of&nbsp;immunity,&nbsp;for&nbsp;instance&nbsp;allowing&nbsp;you&nbsp;to&nbsp;move&nbsp;mind-affecting&nbsp;spells&nbsp;or&nbsp;powers&nbsp;onto&nbsp;undead.
+      <p>This power cannot be used to transfer a power that cannot apply to the
+      target creature. For instance, <em>hold person </em>cannot be moved to an
+      outsider (because <em>hold person </em>can only target humanoids).
+      <em>Retarget power </em>is, however, usable in cases of immunity, for
+      instance allowing you to move mind-affecting spells or powers onto undead.
 
       </p>
 
-      <p><strong>Augment:&nbsp;</strong>For&nbsp;every&nbsp;additional&nbsp;two&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;DC&nbsp;of&nbsp;this&nbsp;power&nbsp;is&nbsp;increased&nbsp;by&nbsp;1.
+      <p><strong>Augment: </strong>For every additional two power points you
+      spend, the DC of this power is increased by 1.
 
       </p>
   discipline: psychokinesis

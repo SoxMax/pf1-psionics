@@ -22,15 +22,24 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;can&nbsp;amplify&nbsp;your&nbsp;augmented&nbsp;strikes&nbsp;with&nbsp;momentum,&nbsp;or&nbsp;recycle&nbsp;it&nbsp;into&nbsp;your&nbsp;evasiveness.</em></p>
+      <p><em>You can amplify your augmented strikes with momentum, or recycle it
+      into your evasiveness.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Momentum&nbsp;class&nbsp;feature.
+      <p><strong>Prerequisite:</strong> Momentum class feature.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;spend&nbsp;momentum&nbsp;to&nbsp;amplify&nbsp;an&nbsp;attack,&nbsp;you&nbsp;choose&nbsp;to&nbsp;gain&nbsp;one&nbsp;of&nbsp;the&nbsp;following:
+      <p><strong>Benefit: </strong>When you spend momentum to amplify an attack,
+      you choose to gain one of the following:
 
-      </p><ul><li>Your&nbsp;momentum&nbsp;deals&nbsp;an&nbsp;additional&nbsp;1&nbsp;point&nbsp;of&nbsp;damage&nbsp;per&nbsp;die&nbsp;added&nbsp;to&nbsp;the&nbsp;attack.&nbsp;Like&nbsp;momentum,&nbsp;the&nbsp;additional&nbsp;damage&nbsp;from&nbsp;this&nbsp;feat&nbsp;is&nbsp;not&nbsp;multiplied&nbsp;by&nbsp;critical&nbsp;hits&nbsp;and&nbsp;similar&nbsp;effects.</li><li>You&nbsp;gain&nbsp;a&nbsp;+1&nbsp;dodge&nbsp;bonus&nbsp;to&nbsp;AC&nbsp;and&nbsp;on&nbsp;Reflex&nbsp;saves&nbsp;for&nbsp;1&nbsp;round,&nbsp;that&nbsp;increases&nbsp;by&nbsp;1&nbsp;for&nbsp;every&nbsp;point&nbsp;of&nbsp;momentum&nbsp;you&nbsp;spent&nbsp;(to&nbsp;a&nbsp;maximum&nbsp;of&nbsp;your&nbsp;Intelligence&nbsp;modifier).&nbsp;These&nbsp;bonuses&nbsp;stack&nbsp;with&nbsp;the&nbsp;dodge&nbsp;bonuses&nbsp;you&nbsp;gain&nbsp;from&nbsp;momentum&nbsp;normally,&nbsp;but&nbsp;their&nbsp;total&nbsp;cannot&nbsp;exceed&nbsp;a&nbsp;maximum&nbsp;of&nbsp;your&nbsp;Intelligence&nbsp;modifier&nbsp;+&nbsp;2.</li></ul>
+      </p><ul><li>Your momentum deals an additional 1 point of damage per die
+      added to the attack. Like momentum, the additional damage from this feat
+      is not multiplied by critical hits and similar effects.</li><li>You gain a
+      +1 dodge bonus to AC and on Reflex saves for 1 round, that increases by 1
+      for every point of momentum you spent (to a maximum of your Intelligence
+      modifier). These bonuses stack with the dodge bonuses you gain from
+      momentum normally, but their total cannot exceed a maximum of your
+      Intelligence modifier + 2.</li></ul>
   disabled: false
   featType: feat
   inherited: false

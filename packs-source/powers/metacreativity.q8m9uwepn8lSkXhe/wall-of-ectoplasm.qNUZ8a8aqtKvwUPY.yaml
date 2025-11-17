@@ -30,19 +30,36 @@ system:
           hemisphere with a radius of up to 1 ft./level
   description:
     value: >-
-      <p>You&nbsp;fashion&nbsp;a&nbsp;roiling&nbsp;wall&nbsp;of&nbsp;ectoplasm,&nbsp;imbuing&nbsp;it&nbsp;with&nbsp;solidity.&nbsp;The&nbsp;wall&nbsp;cannot&nbsp;move&nbsp;once&nbsp;it&nbsp;is&nbsp;formed.&nbsp;It&nbsp;is&nbsp;1&nbsp;inch&nbsp;thick&nbsp;per&nbsp;four&nbsp;manifester&nbsp;levels&nbsp;and&nbsp;occupies&nbsp;up&nbsp;to&nbsp;one&nbsp;5-foot&nbsp;square&nbsp;per&nbsp;level.&nbsp;Each&nbsp;5-foot&nbsp;square&nbsp;of&nbsp;the&nbsp;wall&nbsp;has&nbsp;10&nbsp;hit&nbsp;points&nbsp;per&nbsp;inch&nbsp;of&nbsp;thickness&nbsp;and&nbsp;hardness&nbsp;5.&nbsp;A&nbsp;section&nbsp;of&nbsp;the&nbsp;wall&nbsp;whose&nbsp;hit&nbsp;points&nbsp;drop&nbsp;to&nbsp;0&nbsp;is&nbsp;breached.&nbsp;If&nbsp;a&nbsp;creature&nbsp;tries&nbsp;to&nbsp;break&nbsp;through&nbsp;the&nbsp;wall,&nbsp;the&nbsp;DC&nbsp;for&nbsp;the&nbsp;Strength&nbsp;check&nbsp;is&nbsp;15&nbsp;+&nbsp;2&nbsp;per&nbsp;inch&nbsp;of&nbsp;thickness.
+      <p>You fashion a roiling wall of ectoplasm, imbuing it with solidity. The
+      wall cannot move once it is formed. It is 1 inch thick per four manifester
+      levels and occupies up to one 5-foot square per level. Each 5-foot square
+      of the wall has 10 hit points per inch of thickness and hardness 5. A
+      section of the wall whose hit points drop to 0 is breached. If a creature
+      tries to break through the wall, the DC for the Strength check is 15 + 2
+      per inch of thickness.
 
       </p>
 
-      <p>The&nbsp;wall&nbsp;of&nbsp;ectoplasm&nbsp;is&nbsp;susceptible&nbsp;to&nbsp;dispel&nbsp;psionics,&nbsp;but&nbsp;it&nbsp;gains&nbsp;a&nbsp;+4&nbsp;bonus&nbsp;on&nbsp;any&nbsp;check&nbsp;to&nbsp;determine&nbsp;whether&nbsp;the&nbsp;wall&nbsp;is&nbsp;negated.&nbsp;Spells,&nbsp;powers,&nbsp;and&nbsp;breath&nbsp;weapons&nbsp;cannot&nbsp;pass&nbsp;through&nbsp;the&nbsp;wall&nbsp;in&nbsp;either&nbsp;direction&nbsp;(though&nbsp;they&nbsp;could&nbsp;damage&nbsp;it).&nbsp;It&nbsp;blocks&nbsp;ethereal&nbsp;creatures&nbsp;as&nbsp;well&nbsp;as&nbsp;material&nbsp;creatures&nbsp;(though&nbsp;ethereal&nbsp;creatures&nbsp;can&nbsp;usually&nbsp;get&nbsp;around&nbsp;the&nbsp;wall&nbsp;by&nbsp;floating&nbsp;under&nbsp;or&nbsp;over&nbsp;it&nbsp;through&nbsp;material&nbsp;floors&nbsp;and&nbsp;ceilings).&nbsp;The&nbsp;wall&nbsp;is&nbsp;opaque,&nbsp;so&nbsp;neither&nbsp;vision&nbsp;nor&nbsp;gaze&nbsp;attacks&nbsp;operate&nbsp;through&nbsp;it.&nbsp;The&nbsp;wall&nbsp;does&nbsp;not&nbsp;block&nbsp;psychoportive&nbsp;travel,&nbsp;such&nbsp;as&nbsp;that&nbsp;provided&nbsp;by&nbsp;the&nbsp;psychoport&nbsp;power.
+      <p>The wall of ectoplasm is susceptible to dispel psionics, but it gains a
+      +4 bonus on any check to determine whether the wall is negated. Spells,
+      powers, and breath weapons cannot pass through the wall in either
+      direction (though they could damage it). It blocks ethereal creatures as
+      well as material creatures (though ethereal creatures can usually get
+      around the wall by floating under or over it through material floors and
+      ceilings). The wall is opaque, so neither vision nor gaze attacks operate
+      through it. The wall does not block psychoportive travel, such as that
+      provided by the psychoport power.
 
       </p>
 
-      <p>You&nbsp;can&nbsp;form&nbsp;the&nbsp;wall&nbsp;into&nbsp;a&nbsp;flat&nbsp;plane&nbsp;whose&nbsp;area&nbsp;is&nbsp;up&nbsp;to&nbsp;one&nbsp;10-foot&nbsp;square&nbsp;per&nbsp;level&nbsp;or&nbsp;into&nbsp;a&nbsp;sphere&nbsp;or&nbsp;hemisphere&nbsp;with&nbsp;a&nbsp;radius&nbsp;of&nbsp;up&nbsp;to&nbsp;1&nbsp;foot&nbsp;per&nbsp;level.
+      <p>You can form the wall into a flat plane whose area is up to one 10-foot
+      square per level or into a sphere or hemisphere with a radius of up to 1
+      foot per level.
 
       </p>
 
-      <p>The&nbsp;wall&nbsp;of&nbsp;ectoplasm&nbsp;must&nbsp;be&nbsp;continuous&nbsp;and&nbsp;unbroken&nbsp;when&nbsp;manifested.&nbsp;If&nbsp;its&nbsp;surface&nbsp;is&nbsp;interrupted&nbsp;by&nbsp;any&nbsp;object&nbsp;or&nbsp;creature,&nbsp;the&nbsp;power&nbsp;fails.
+      <p>The wall of ectoplasm must be continuous and unbroken when manifested.
+      If its surface is interrupted by any object or creature, the power fails.
 
       </p>
   discipline: metacreativity

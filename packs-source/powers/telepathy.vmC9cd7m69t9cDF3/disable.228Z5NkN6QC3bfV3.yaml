@@ -30,25 +30,44 @@ system:
         value: Cone-shaped emanation centered on you
   description:
     value: >-
-      <p>You&nbsp;broadcast&nbsp;a&nbsp;mental&nbsp;compulsion&nbsp;that&nbsp;convinces&nbsp;one&nbsp;or&nbsp;more&nbsp;creatures&nbsp;of&nbsp;a&nbsp;combined&nbsp;total&nbsp;of&nbsp;4&nbsp;Hit&nbsp;Dice&nbsp;or&nbsp;less&nbsp;that&nbsp;they&nbsp;are&nbsp;disabled.&nbsp;Creatures&nbsp;with&nbsp;the&nbsp;fewest&nbsp;HD&nbsp;are&nbsp;affected&nbsp;first.&nbsp;Among&nbsp;creatures&nbsp;with&nbsp;equal&nbsp;Hit&nbsp;Dice,&nbsp;those&nbsp;who&nbsp;are&nbsp;closest&nbsp;to&nbsp;the&nbsp;power's&nbsp;point&nbsp;of&nbsp;origin&nbsp;are&nbsp;affected&nbsp;first.&nbsp;Hit&nbsp;Dice&nbsp;that&nbsp;are&nbsp;not&nbsp;sufficient&nbsp;to&nbsp;affect&nbsp;a&nbsp;creature&nbsp;are&nbsp;wasted.
+      <p>You broadcast a mental compulsion that convinces one or more creatures
+      of a combined total of 4 Hit Dice or less that they are disabled.
+      Creatures with the fewest HD are affected first. Among creatures with
+      equal Hit Dice, those who are closest to the power's point of origin are
+      affected first. Hit Dice that are not sufficient to affect a creature are
+      wasted.
 
       </p>
 
-      <p>Creatures&nbsp;that&nbsp;are&nbsp;rendered&nbsp;helpless&nbsp;or&nbsp;are&nbsp;destroyed&nbsp;when&nbsp;they&nbsp;reach&nbsp;0&nbsp;hit&nbsp;points&nbsp;cannot&nbsp;be&nbsp;affected.&nbsp;Creatures&nbsp;affected&nbsp;by&nbsp;this&nbsp;power&nbsp;believe&nbsp;that&nbsp;they&nbsp;have&nbsp;somehow&nbsp;been&nbsp;brought&nbsp;to&nbsp;the&nbsp;brink&nbsp;of&nbsp;unconsciousness&nbsp;and&nbsp;must&nbsp;act&nbsp;accordingly.&nbsp;While&nbsp;it's&nbsp;possible&nbsp;for&nbsp;an&nbsp;important&nbsp;nonplayer&nbsp;character&nbsp;to&nbsp;attempt&nbsp;some&nbsp;sort&nbsp;of&nbsp;"heroic"&nbsp;action,&nbsp;common&nbsp;NPCs&nbsp;and&nbsp;creatures&nbsp;under&nbsp;the&nbsp;effect&nbsp;of&nbsp;this&nbsp;power
+      <p>Creatures that are rendered helpless or are destroyed when they reach 0
+      hit points cannot be affected. Creatures affected by this power believe
+      that they have somehow been brought to the brink of unconsciousness and
+      must act accordingly. While it's possible for an important nonplayer
+      character to attempt some sort of "heroic" action, common NPCs and
+      creatures under the effect of this power
 
-      typically&nbsp;cower&nbsp;or&nbsp;retreat.
-
-      </p>
-
-      <p>Any&nbsp;creature&nbsp;that&nbsp;attempts&nbsp;to&nbsp;take&nbsp;a&nbsp;standard&nbsp;action&nbsp;immediately&nbsp;breaks&nbsp;the&nbsp;compulsion&nbsp;and&nbsp;can&nbsp;act&nbsp;normally.&nbsp;A&nbsp;creature&nbsp;that&nbsp;attempts&nbsp;to&nbsp;heal&nbsp;itself&nbsp;or&nbsp;that&nbsp;receives&nbsp;healing&nbsp;is&nbsp;likewise&nbsp;freed&nbsp;of&nbsp;the&nbsp;compulsion,&nbsp;and&nbsp;if&nbsp;it&nbsp;is&nbsp;not&nbsp;actually&nbsp;wounded,&nbsp;the&nbsp;healing&nbsp;is&nbsp;wasted.&nbsp;A&nbsp;creature&nbsp;that&nbsp;takes&nbsp;damage&nbsp;is&nbsp;also&nbsp;instantly&nbsp;freed&nbsp;of&nbsp;the&nbsp;compulsion&nbsp;(although&nbsp;the&nbsp;damage&nbsp;still&nbsp;counts&nbsp;against&nbsp;its&nbsp;actual&nbsp;current&nbsp;hit&nbsp;points).
-
-      </p>
-
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;range&nbsp;increases&nbsp;by&nbsp;5&nbsp;feet&nbsp;and&nbsp;its&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+      typically cower or retreat.
 
       </p>
 
-      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend&nbsp;to&nbsp;increase&nbsp;the&nbsp;range&nbsp;and&nbsp;the&nbsp;save&nbsp;DC,&nbsp;this&nbsp;power&nbsp;can&nbsp;affect&nbsp;targets&nbsp;that&nbsp;have&nbsp;Hit&nbsp;Dice&nbsp;equal&nbsp;to&nbsp;4&nbsp;+&nbsp;the&nbsp;number&nbsp;of&nbsp;additional&nbsp;points.
+      <p>Any creature that attempts to take a standard action immediately breaks
+      the compulsion and can act normally. A creature that attempts to heal
+      itself or that receives healing is likewise freed of the compulsion, and
+      if it is not actually wounded, the healing is wasted. A creature that
+      takes damage is also instantly freed of the compulsion (although the
+      damage still counts against its actual current hit points).
+
+      </p>
+
+      <p><strong>Augment:</strong> For every 2 additional power points you
+      spend, this power's range increases by 5 feet and its save DC increases by
+      1.
+
+      </p>
+
+      <p>In addition, for every additional power point you spend to increase the
+      range and the save DC, this power can affect targets that have Hit Dice
+      equal to 4 + the number of additional points.
 
       </p>
   descriptors:

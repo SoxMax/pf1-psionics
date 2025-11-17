@@ -22,13 +22,18 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;burning&nbsp;powers&nbsp;last&nbsp;longer&nbsp;than&nbsp;normal.</em></p>
+      <p><em>Your burning powers last longer than normal.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Burning_Power"&nbsp;title="Burning&nbsp;Power">Burning&nbsp;Power</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Burning_Power"
+      title="Burning Power">Burning Power</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;using&nbsp;the&nbsp;Burning&nbsp;Power&nbsp;<a&nbsp;href="/wiki/Metapsionic_feat"&nbsp;title="Metapsionic&nbsp;feat">metapsionic&nbsp;feat</a>,&nbsp;any&nbsp;target&nbsp;affected&nbsp;by&nbsp;the&nbsp;feat&nbsp;continues&nbsp;to&nbsp;take&nbsp;damage&nbsp;at&nbsp;the&nbsp;beginning&nbsp;of&nbsp;their&nbsp;turn,&nbsp;however&nbsp;all&nbsp;targets&nbsp;can&nbsp;take&nbsp;a&nbsp;standard&nbsp;action&nbsp;to&nbsp;put&nbsp;out&nbsp;the&nbsp;burning
+      <p><strong>Benefit: </strong>When using the Burning Power <a
+      href="/wiki/Metapsionic_feat" title="Metapsionic feat">metapsionic
+      feat</a>, any target affected by the feat continues to take damage at the
+      beginning of their turn, however all targets can take a standard action to
+      put out the burning
 
       </p>
   disabled: false

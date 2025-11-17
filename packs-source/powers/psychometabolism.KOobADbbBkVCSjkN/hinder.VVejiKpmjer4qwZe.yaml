@@ -27,7 +27,11 @@ system:
         value: One living creature
   description:
     value: >-
-      <p>If&nbsp;you&nbsp;make&nbsp;a&nbsp;successful&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;against&nbsp;the&nbsp;target,&nbsp;it&nbsp;takes&nbsp;a&nbsp;-1&nbsp;penalty&nbsp;on&nbsp;the&nbsp;next&nbsp;attack&nbsp;roll,&nbsp;saving&nbsp;throw,&nbsp;or&nbsp;skill&nbsp;check.&nbsp;You&nbsp;must&nbsp;choose&nbsp;which&nbsp;type&nbsp;of&nbsp;roll&nbsp;the&nbsp;penalty&nbsp;applies&nbsp;to&nbsp;at&nbsp;the&nbsp;time&nbsp;you&nbsp;manifest&nbsp;the&nbsp;power.&nbsp;If&nbsp;the&nbsp;target&nbsp;does&nbsp;not&nbsp;make&nbsp;that&nbsp;type&nbsp;of&nbsp;roll&nbsp;before&nbsp;the&nbsp;power&nbsp;ends,&nbsp;it&nbsp;has&nbsp;no&nbsp;effect.
+      <p>If you make a successful ranged touch attack against the target, it
+      takes a -1 penalty on the next attack roll, saving throw, or skill check.
+      You must choose which type of roll the penalty applies to at the time you
+      manifest the power. If the target does not make that type of roll before
+      the power ends, it has no effect.
 
       </p>
   discipline: psychometabolism

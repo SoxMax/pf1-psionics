@@ -28,13 +28,24 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;gain&nbsp;the&nbsp;ability&nbsp;to&nbsp;siphon&nbsp;away&nbsp;your&nbsp;enemy's&nbsp;strength&nbsp;for&nbsp;your&nbsp;own&nbsp;use.&nbsp;One&nbsp;of&nbsp;your&nbsp;natural&nbsp;or&nbsp;manufactured&nbsp;weapons&nbsp;becomes&nbsp;the&nbsp;instrument&nbsp;of&nbsp;your&nbsp;desire,&nbsp;and&nbsp;deals&nbsp;1&nbsp;point&nbsp;of&nbsp;Strength&nbsp;damage&nbsp;on&nbsp;each&nbsp;successful&nbsp;hit.&nbsp;You&nbsp;gain&nbsp;that&nbsp;point&nbsp;of&nbsp;Strength&nbsp;as&nbsp;an&nbsp;enhancement&nbsp;bonus&nbsp;to&nbsp;your&nbsp;Strength&nbsp;score.&nbsp;Strength&nbsp;you&nbsp;siphon&nbsp;from&nbsp;different&nbsp;foes&nbsp;is&nbsp;tracked&nbsp;separately—the&nbsp;total&nbsp;siphoned&nbsp;from&nbsp;each&nbsp;individual&nbsp;foe&nbsp;is&nbsp;considered&nbsp;a&nbsp;separate&nbsp;enhancement&nbsp;bonus&nbsp;to&nbsp;your&nbsp;Strength&nbsp;(maximum&nbsp;+8),&nbsp;and&nbsp;you&nbsp;gain&nbsp;only&nbsp;the&nbsp;highest&nbsp;total.
+      <p>You gain the ability to siphon away your enemy's strength for your own
+      use. One of your natural or manufactured weapons becomes the instrument of
+      your desire, and deals 1 point of Strength damage on each successful hit.
+      You gain that point of Strength as an enhancement bonus to your Strength
+      score. Strength you siphon from different foes is tracked separately—the
+      total siphoned from each individual foe is considered a separate
+      enhancement bonus to your Strength (maximum +8), and you gain only the
+      highest total.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or both of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;3&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;maximum&nbsp;enhancement&nbsp;bonus&nbsp;you&nbsp;can&nbsp;add&nbsp;to&nbsp;your&nbsp;Strength&nbsp;increases&nbsp;by&nbsp;2.</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action.</li></ol>
+      </p><ol><li>For every 3 additional power points you spend, the maximum
+      enhancement bonus you can add to your Strength increases by 2.</li><li>If
+      you spend 6 additional power points, you can manifest this power as a
+      swift action.</li></ol>
   discipline: psychometabolism
   display:
     auditory: false

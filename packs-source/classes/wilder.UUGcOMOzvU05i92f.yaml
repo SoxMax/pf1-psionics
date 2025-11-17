@@ -50,30 +50,47 @@ system:
     umd: false
   description:
     value: >-
-      </p><p>Unlike&nbsp;the&nbsp;psion,&nbsp;who&nbsp;studies&nbsp;his&nbsp;psionic&nbsp;ability&nbsp;and&nbsp;potential&nbsp;to&nbsp;unlock&nbsp;its&nbsp;secrets,&nbsp;or&nbsp;the&nbsp;psychic&nbsp;warrior,&nbsp;who&nbsp;uses&nbsp;his&nbsp;psionic&nbsp;ability&nbsp;to&nbsp;enhance&nbsp;his&nbsp;physical&nbsp;form,&nbsp;the&nbsp;wilder&nbsp;taps&nbsp;into&nbsp;her&nbsp;emotions&nbsp;to&nbsp;unlock&nbsp;and&nbsp;unleash&nbsp;her&nbsp;innate&nbsp;psionic&nbsp;power.&nbsp;By&nbsp;channeling&nbsp;her&nbsp;emotions&nbsp;in&nbsp;such&nbsp;a&nbsp;fashion,&nbsp;the&nbsp;wilder&nbsp;greatly&nbsp;enhances&nbsp;her&nbsp;psionic&nbsp;powers,&nbsp;but&nbsp;runs&nbsp;the&nbsp;risk&nbsp;of&nbsp;suffering&nbsp;backlash,&nbsp;as&nbsp;emotions&nbsp;are&nbsp;unstable.&nbsp;</p><p><b>Role:</b>&nbsp;The&nbsp;wilder&nbsp;traditionally&nbsp;fills&nbsp;the&nbsp;role&nbsp;of&nbsp;dealing&nbsp;large&nbsp;amounts&nbsp;of&nbsp;damage,&nbsp;while&nbsp;running&nbsp;the&nbsp;risk&nbsp;of&nbsp;suffering&nbsp;backlash.&nbsp;Depending&nbsp;on&nbsp;the&nbsp;path&nbsp;a&nbsp;wilder&nbsp;chooses,&nbsp;she&nbsp;can&nbsp;also&nbsp;give&nbsp;her&nbsp;nearby&nbsp;allies&nbsp;a&nbsp;boost&nbsp;in&nbsp;efficiency.&nbsp;</p><p><b>Alignment:</b>&nbsp;Any.&nbsp;</p><p><b>Hit&nbsp;Die:</b>&nbsp;d8.&nbsp;</p><p><b>Starting&nbsp;Wealth:</b>&nbsp;4d4&nbsp;x&nbsp;10&nbsp;gp&nbsp;(average&nbsp;100&nbsp;gp).&nbsp;In&nbsp;addition,&nbsp;each&nbsp;character&nbsp;begins&nbsp;play&nbsp;with&nbsp;an&nbsp;outfit&nbsp;worth&nbsp;10&nbsp;gp&nbsp;or&nbsp;less.&nbsp;</p><p><b>Class&nbsp;Skills:&nbsp;</b>The&nbsp;wilder's&nbsp;class&nbsp;skills&nbsp;are&nbsp;Acrobatics&nbsp;(Dex),&nbsp;Autohypnosis&nbsp;(Wis),&nbsp;Bluff&nbsp;(Cha),&nbsp;Climb&nbsp;(Str),&nbsp;Craft&nbsp;(Int),&nbsp;Diplomacy&nbsp;(Cha),&nbsp;Escape&nbsp;Artist&nbsp;(Dex),&nbsp;Intimidate&nbsp;(Cha),&nbsp;Knowledge&nbsp;(psionics)&nbsp;(Int),&nbsp;Perception&nbsp;(Wis),&nbsp;Profession&nbsp;(Int),&nbsp;Sense&nbsp;Motive&nbsp;(Wis),&nbsp;Spellcraft&nbsp;(Int),&nbsp;Swim&nbsp;(Str),&nbsp;and&nbsp;Use&nbsp;Magic&nbsp;Device&nbsp;(Cha).&nbsp;</p><p><b>Skill&nbsp;Ranks&nbsp;at&nbsp;Each&nbsp;Level:</b>&nbsp;4&nbsp;+&nbsp;Int&nbsp;modifier&nbsp;</p>
+      </p><p>Unlike the psion, who studies his psionic ability and potential to
+      unlock its secrets, or the psychic warrior, who uses his psionic ability
+      to enhance his physical form, the wilder taps into her emotions to unlock
+      and unleash her innate psionic power. By channeling her emotions in such a
+      fashion, the wilder greatly enhances her psionic powers, but runs the risk
+      of suffering backlash, as emotions are unstable. </p><p><b>Role:</b> The
+      wilder traditionally fills the role of dealing large amounts of damage,
+      while running the risk of suffering backlash. Depending on the path a
+      wilder chooses, she can also give her nearby allies a boost in efficiency.
+      </p><p><b>Alignment:</b> Any. </p><p><b>Hit Die:</b> d8.
+      </p><p><b>Starting Wealth:</b> 4d4 x 10 gp (average 100 gp). In addition,
+      each character begins play with an outfit worth 10 gp or less.
+      </p><p><b>Class Skills: </b>The wilder's class skills are Acrobatics
+      (Dex), Autohypnosis (Wis), Bluff (Cha), Climb (Str), Craft (Int),
+      Diplomacy (Cha), Escape Artist (Dex), Intimidate (Cha), Knowledge
+      (psionics) (Int), Perception (Wis), Profession (Int), Sense Motive (Wis),
+      Spellcraft (Int), Swim (Str), and Use Magic Device (Cha). </p><p><b>Skill
+      Ranks at Each Level:</b> 4 + Int modifier </p>
   hd: 6
   hp: 6
   level: 1
   links:
     classAssociations:
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.1QvHKa1seDr4sGGY
+        uuid: Compendium.pf1-psionics.classes.Item.1QvHKa1seDr4sGGY
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.DmpIXP09H5FL1LiG
+        uuid: Compendium.pf1-psionics.classes.Item.DmpIXP09H5FL1LiG
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.EpVQB0vxObkLRede
+        uuid: Compendium.pf1-psionics.classes.Item.EpVQB0vxObkLRede
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.QJKC1iPMFSDtsfwp
+        uuid: Compendium.pf1-psionics.classes.Item.QJKC1iPMFSDtsfwp
       - level: 1
-        uuid: Compendium.pf1-psionics.class-abilities.Item.z0hunLo2Md0qgIda
+        uuid: Compendium.pf1-psionics.classes.Item.z0hunLo2Md0qgIda
       - level: 2
-        uuid: Compendium.pf1-psionics.class-abilities.Item.Vr22CUBeJ0CMh7vF
+        uuid: Compendium.pf1-psionics.classes.Item.Vr22CUBeJ0CMh7vF
       - level: 4
-        uuid: Compendium.pf1-psionics.class-abilities.Item.Kd1Uj2cY9Z4ccQYW
+        uuid: Compendium.pf1-psionics.classes.Item.Kd1Uj2cY9Z4ccQYW
       - level: 5
-        uuid: Compendium.pf1-psionics.class-abilities.Item.0yTVFub8FYmoTlC0
+        uuid: Compendium.pf1-psionics.classes.Item.0yTVFub8FYmoTlC0
       - level: 20
-        uuid: Compendium.pf1-psionics.class-abilities.Item.MDSMgTMupr51B0Uv
+        uuid: Compendium.pf1-psionics.classes.Item.MDSMgTMupr51B0Uv
   manifesting:
     ability: cha
     cantrips: true

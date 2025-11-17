@@ -31,15 +31,23 @@ system:
         value: One creature
   description:
     value: >-
-      <p>The&nbsp;next&nbsp;successful&nbsp;melee&nbsp;attack&nbsp;you&nbsp;make&nbsp;this&nbsp;turn&nbsp;deals&nbsp;an&nbsp;additional&nbsp;+1d6&nbsp;points&nbsp;of&nbsp;cold&nbsp;damage.
+      <p>The next successful melee attack you make this turn deals an additional
+      +1d6 points of cold damage.
 
       </p>
 
-      <p><strong>Trigger:</strong>&nbsp;If&nbsp;your&nbsp;attack&nbsp;was&nbsp;successful&nbsp;and&nbsp;the&nbsp;target&nbsp;makes&nbsp;an&nbsp;attack&nbsp;during&nbsp;its&nbsp;next&nbsp;turn,&nbsp;you&nbsp;can&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;give&nbsp;it&nbsp;a&nbsp;-2&nbsp;penalty&nbsp;to&nbsp;that&nbsp;attack&nbsp;and&nbsp;all&nbsp;other&nbsp;attacks&nbsp;it&nbsp;makes&nbsp;during&nbsp;that&nbsp;turn.&nbsp;Power&nbsp;resistance&nbsp;applies&nbsp;to&nbsp;this&nbsp;triggered&nbsp;effect&nbsp;only;&nbsp;it&nbsp;does&nbsp;not&nbsp;apply&nbsp;to&nbsp;the&nbsp;additional&nbsp;damage&nbsp;on&nbsp;your&nbsp;attack.
+      <p><strong>Trigger:</strong> If your attack was successful and the target
+      makes an attack during its next turn, you can expend your psionic focus to
+      give it a -2 penalty to that attack and all other attacks it makes during
+      that turn. Power resistance applies to this triggered effect only; it does
+      not apply to the additional damage on your attack.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;instead&nbsp;manifest&nbsp;this&nbsp;power&nbsp;upon&nbsp;making&nbsp;a&nbsp;successful&nbsp;melee&nbsp;attack&nbsp;and&nbsp;have&nbsp;the&nbsp;effects&nbsp;of&nbsp;this&nbsp;power&nbsp;instead&nbsp;apply&nbsp;to&nbsp;that&nbsp;attack.&nbsp;Doing&nbsp;so&nbsp;still&nbsp;uses&nbsp;your&nbsp;swift&nbsp;action&nbsp;for&nbsp;the&nbsp;round.
+      <p><strong>Augment:</strong> If you spend 6 additional power points, you
+      can instead manifest this power upon making a successful melee attack and
+      have the effects of this power instead apply to that attack. Doing so
+      still uses your swift action for the round.
 
       </p>
   descriptors:

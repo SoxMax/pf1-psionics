@@ -31,23 +31,52 @@ system:
         value: One dagger
   description:
     value: >-
-      <p>You&nbsp;focus&nbsp;your&nbsp;mental&nbsp;energy&nbsp;into&nbsp;the&nbsp;form&nbsp;of&nbsp;a&nbsp;dagger&nbsp;wreathed&nbsp;in&nbsp;psionic&nbsp;energy.&nbsp;This&nbsp;dagger&nbsp;deals&nbsp;damage&nbsp;like&nbsp;a&nbsp;normal&nbsp;dagger&nbsp;for&nbsp;your&nbsp;size&nbsp;and&nbsp;has&nbsp;an&nbsp;additional&nbsp;effect&nbsp;depending&nbsp;on&nbsp;your&nbsp;active&nbsp;energy&nbsp;type.&nbsp;If&nbsp;the&nbsp;dagger&nbsp;leaves&nbsp;your&nbsp;hand,&nbsp;it&nbsp;disappears&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;round.
+      <p>You focus your mental energy into the form of a dagger wreathed in
+      psionic energy. This dagger deals damage like a normal dagger for your
+      size and has an additional effect depending on your active energy type. If
+      the dagger leaves your hand, it disappears at the end of the round.
 
-      </p><ul><li><em>Cold:</em>&nbsp;+1&nbsp;point&nbsp;of&nbsp;cold&nbsp;damage&nbsp;and&nbsp;anyone&nbsp;damaged&nbsp;by&nbsp;this&nbsp;takes&nbsp;a&nbsp;-1&nbsp;penalty&nbsp;to&nbsp;saves&nbsp;against&nbsp;cold&nbsp;effects.</li></ul>
+      </p><ul><li><em>Cold:</em> +1 point of cold damage and anyone damaged by
+      this takes a -1 penalty to saves against cold effects.</li></ul>
 
-      <ul><li><em>Fire:</em>&nbsp;+1d4&nbsp;fire&nbsp;damage.</li></ul>
+      <ul><li><em>Fire:</em> +1d4 fire damage.</li></ul>
 
-      <ul><li><em>Electricity:</em>&nbsp;+1&nbsp;point&nbsp;of&nbsp;electricity&nbsp;damage&nbsp;and&nbsp;a&nbsp;+3&nbsp;bonus&nbsp;to&nbsp;attacks&nbsp;against&nbsp;enemies&nbsp;in&nbsp;metal&nbsp;armor.</li></ul>
+      <ul><li><em>Electricity:</em> +1 point of electricity damage and a +3
+      bonus to attacks against enemies in metal armor.</li></ul>
 
-      <ul><li><em>Sonic</em>:&nbsp;–1&nbsp;point&nbsp;of&nbsp;damage&nbsp;and&nbsp;ignores&nbsp;an&nbsp;object's&nbsp;hardness.</li></ul>
+      <ul><li><em>Sonic</em>: –1 point of damage and ignores an object's
+      hardness.</li></ul>
 
-      <p>This&nbsp;power's&nbsp;subtype&nbsp;is&nbsp;the&nbsp;same&nbsp;as&nbsp;the&nbsp;type&nbsp;of&nbsp;energy&nbsp;you&nbsp;manifest.
+      <p>This power's subtype is the same as the type of energy you manifest.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or more of
+      the following ways.
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;dagger&nbsp;becomes&nbsp;a&nbsp;+1&nbsp;weapon.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;it&nbsp;becomes&nbsp;a&nbsp;+1&nbsp;weapon&nbsp;with&nbsp;the&nbsp;corresponding&nbsp;energy&nbsp;enhancement&nbsp;(<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Flaming"><em>flaming</em></a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Frost"><em>frost</em></a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shock"><em>shock</em></a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Thundering"><em>thundering</em></a>)&nbsp;in&nbsp;addition&nbsp;to&nbsp;its&nbsp;energy&nbsp;bonus.</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;it&nbsp;becomes&nbsp;a&nbsp;+1&nbsp;weapon&nbsp;with&nbsp;the&nbsp;corresponding&nbsp;energy&nbsp;enhancement&nbsp;(<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Flaming%20Burst"><em>flaming&nbsp;burst</em></a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Icy%20Burst"><em>icy&nbsp;burst</em></a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shocking%20Burst"><em>shocking&nbsp;burst</em></a>,&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Keen"><em>keen</em></a><a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Thundering"><em>thundering</em></a>).</li></ol>
+      </p><ol><li>If you spend 2 additional power points, the dagger becomes a
+      +1 weapon.</li><li>If you spend 4 additional power points, it becomes a +1
+      weapon with the corresponding energy enhancement (<a rel="nofollow"
+      class="external text"
+      href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Flaming"><em>flaming</em></a>,
+      <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Frost"><em>frost</em></a>,
+      <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shock"><em>shock</em></a>,
+      <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Thundering"><em>thundering</em></a>)
+      in addition to its energy bonus.</li><li>If you spend 6 additional power
+      points, it becomes a +1 weapon with the corresponding energy enhancement
+      (<a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Flaming%20Burst"><em>flaming
+      burst</em></a>, <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Icy%20Burst"><em>icy
+      burst</em></a>, <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shocking%20Burst"><em>shocking
+      burst</em></a>, <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Keen"><em>keen</em></a><a
+      rel="nofollow" class="external text"
+      href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Thundering"><em>thundering</em></a>).</li></ol>
   descriptors:
     - see text
   discipline: psychokinesis

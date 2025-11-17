@@ -28,11 +28,18 @@ system:
         value: One medium-sized or smaller creature
   description:
     value: >-
-      <p>You&nbsp;attempt&nbsp;to&nbsp;teleport&nbsp;one&nbsp;creature&nbsp;within&nbsp;range&nbsp;to&nbsp;a&nbsp;space&nbsp;adjacent&nbsp;to&nbsp;you&nbsp;unless&nbsp;it&nbsp;makes&nbsp;a&nbsp;successful&nbsp;Will&nbsp;saving&nbsp;throw.&nbsp;On&nbsp;a&nbsp;failed&nbsp;save,&nbsp;the&nbsp;target&nbsp;is&nbsp;teleported&nbsp;to&nbsp;an&nbsp;open&nbsp;space&nbsp;adjacent&nbsp;to&nbsp;you&nbsp;and&nbsp;you&nbsp;may&nbsp;make&nbsp;a&nbsp;single&nbsp;melee&nbsp;attack&nbsp;against&nbsp;the&nbsp;target.&nbsp;If&nbsp;there&nbsp;is&nbsp;no&nbsp;space&nbsp;adjacent&nbsp;to&nbsp;you&nbsp;where&nbsp;the&nbsp;target&nbsp;can&nbsp;stand,&nbsp;or&nbsp;where&nbsp;there&nbsp;is&nbsp;not&nbsp;firm&nbsp;ground,&nbsp;the&nbsp;power&nbsp;fails.
+      <p>You attempt to teleport one creature within range to a space adjacent
+      to you unless it makes a successful Will saving throw. On a failed save,
+      the target is teleported to an open space adjacent to you and you may make
+      a single melee attack against the target. If there is no space adjacent to
+      you where the target can stand, or where there is not firm ground, the
+      power fails.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;4&nbsp;power&nbsp;points&nbsp;spent,&nbsp;the&nbsp;maximum&nbsp;size&nbsp;of&nbsp;the&nbsp;target&nbsp;is&nbsp;increased&nbsp;by&nbsp;one&nbsp;step&nbsp;(large,&nbsp;huge,&nbsp;etc)&nbsp;and&nbsp;the&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;2.
+      <p><strong>Augment:</strong> For every additional 4 power points spent,
+      the maximum size of the target is increased by one step (large, huge, etc)
+      and the save DC increases by 2.
 
       </p>
   discipline: psychoportation

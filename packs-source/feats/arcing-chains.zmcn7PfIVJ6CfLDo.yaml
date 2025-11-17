@@ -22,13 +22,20 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>The&nbsp;primary&nbsp;target&nbsp;of&nbsp;a&nbsp;chained&nbsp;power&nbsp;takes&nbsp;extra&nbsp;damage&nbsp;for&nbsp;each&nbsp;subsequent&nbsp;target&nbsp;who&nbsp;takes&nbsp;damage.</em></p>
+      <p><em>The primary target of a chained power takes extra damage for each
+      subsequent target who takes damage.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Chain_Power"&nbsp;title="Chain&nbsp;Power">Chain&nbsp;Power</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Chain_Power" title="Chain
+      Power">Chain Power</a>.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;When&nbsp;using&nbsp;the&nbsp;Chain&nbsp;Power&nbsp;feat,&nbsp;the&nbsp;chains&nbsp;create&nbsp;an&nbsp;arcing&nbsp;feedback&nbsp;loop,&nbsp;which&nbsp;means&nbsp;that&nbsp;for&nbsp;every&nbsp;secondary&nbsp;chain&nbsp;target&nbsp;that&nbsp;is&nbsp;damaged,&nbsp;the&nbsp;original&nbsp;target&nbsp;takes&nbsp;additional&nbsp;damage&nbsp;equal&nbsp;to&nbsp;the&nbsp;minimum&nbsp;damage&nbsp;the&nbsp;original&nbsp;power&nbsp;could&nbsp;cause&nbsp;(for&nbsp;example,&nbsp;an&nbsp;Acid&nbsp;Energy&nbsp;Ray&nbsp;that&nbsp;would&nbsp;deal&nbsp;5d6&nbsp;acid&nbsp;damage&nbsp;would&nbsp;deal&nbsp;5&nbsp;acid&nbsp;damage&nbsp;to&nbsp;the&nbsp;original&nbsp;target&nbsp;for&nbsp;each&nbsp;secondary&nbsp;target).
+      <p><strong>Benefit:</strong> When using the Chain Power feat, the chains
+      create an arcing feedback loop, which means that for every secondary chain
+      target that is damaged, the original target takes additional damage equal
+      to the minimum damage the original power could cause (for example, an Acid
+      Energy Ray that would deal 5d6 acid damage would deal 5 acid damage to the
+      original target for each secondary target).
 
       </p>
   disabled: false

@@ -29,11 +29,16 @@ system:
         value: One Medium or smaller creature
   description:
     value: >-
-      <p>You&nbsp;warp&nbsp;space&nbsp;around&nbsp;an&nbsp;individual,&nbsp;hindering&nbsp;the&nbsp;subject's&nbsp;ability&nbsp;to&nbsp;move.&nbsp;The&nbsp;subject's&nbsp;speed&nbsp;(in&nbsp;any&nbsp;movement&nbsp;mode&nbsp;it&nbsp;possesses)&nbsp;is&nbsp;halved.&nbsp;A&nbsp;subsequent&nbsp;manifestation&nbsp;of&nbsp;deceleration&nbsp;on&nbsp;the&nbsp;subject&nbsp;does&nbsp;not&nbsp;further&nbsp;decrease&nbsp;its&nbsp;speed.
+      <p>You warp space around an individual, hindering the subject's ability to
+      move. The subject's speed (in any movement mode it possesses) is halved. A
+      subsequent manifestation of deceleration on the subject does not further
+      decrease its speed.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;can&nbsp;affect&nbsp;a&nbsp;target&nbsp;one&nbsp;size&nbsp;category&nbsp;larger&nbsp;and&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+      <p><strong>Augment:</strong> For every 2 additional power points you
+      spend, this power can affect a target one size category larger and this
+      power's save DC increases by 1.
 
       </p>
   discipline: psychoportation

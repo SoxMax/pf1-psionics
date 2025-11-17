@@ -30,7 +30,10 @@ system:
         value: Weapon touched
   description:
     value: >-
-      <p>As&nbsp;<em><a&nbsp;href="/wiki/Claw_of_Energy"&nbsp;title="Claw&nbsp;of&nbsp;Energy">claw&nbsp;of&nbsp;energy</a></em>,&nbsp;except&nbsp;this&nbsp;power&nbsp;can&nbsp;be&nbsp;manifested&nbsp;on&nbsp;a&nbsp;touched&nbsp;weapon.&nbsp;This&nbsp;power's&nbsp;subtype&nbsp;is&nbsp;the&nbsp;same&nbsp;as&nbsp;the&nbsp;type&nbsp;of&nbsp;energy&nbsp;infused&nbsp;in&nbsp;the&nbsp;touched&nbsp;weapon.
+      <p>As <em><a href="/wiki/Claw_of_Energy" title="Claw of Energy">claw of
+      energy</a></em>, except this power can be manifested on a touched weapon.
+      This power's subtype is the same as the type of energy infused in the
+      touched weapon.
 
       </p>
   descriptors:

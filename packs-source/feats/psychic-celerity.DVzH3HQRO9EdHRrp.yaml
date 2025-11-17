@@ -22,13 +22,17 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;psionically-enhanced&nbsp;movement&nbsp;evolves&nbsp;further.</em></p>
+      <p><em>Your psionically-enhanced movement evolves further.</em></p>
 
-      <p><strong>Prerequisites:&nbsp;</strong><a&nbsp;href="/wiki/Psionic_Meditation"&nbsp;title="Psionic&nbsp;Meditation">Psionic&nbsp;Meditation</a>,&nbsp;<a&nbsp;href="/wiki/Speed_of_Thought"&nbsp;title="Speed&nbsp;of&nbsp;Thought">Speed&nbsp;of&nbsp;Thought</a>.
+      <p><strong>Prerequisites: </strong><a href="/wiki/Psionic_Meditation"
+      title="Psionic Meditation">Psionic Meditation</a>, <a
+      href="/wiki/Speed_of_Thought" title="Speed of Thought">Speed of
+      Thought</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;may&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;to&nbsp;move&nbsp;up&nbsp;to&nbsp;your&nbsp;speed&nbsp;as&nbsp;a&nbsp;swift&nbsp;action.
+      <p><strong>Benefit: </strong>You may expend your psionic focus to move up
+      to your speed as a swift action.
 
       </p>
   disabled: false

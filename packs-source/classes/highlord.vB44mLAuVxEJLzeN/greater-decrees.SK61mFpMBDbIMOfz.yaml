@@ -1,0 +1,32 @@
+_id: SK61mFpMBDbIMOfz
+_key: '!items!SK61mFpMBDbIMOfz'
+_stats:
+  coreVersion: '13.350'
+folder: vB44mLAuVxEJLzeN
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Greater Decrees
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Highlord
+  description:
+    value: >-
+      <p>At 10th level, and every three levels thereafter, a highlord can choose
+      one of the following greater decrees in place of a decree. Some greater
+      decrees require the expenditure of power points in order to be used. The
+      highlord cannot spend more power points on a single decree at once than
+      his manifester level. Unless stated otherwise, greater decrees are treated
+      as decrees for the purposes of abilities and feats such as Ability Focus.
+
+      </p>
+
+      <dl><dd><div class="va-hatnote-text"><i></p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–6
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: classFeat
+  tag: greater-decrees
+type: feat

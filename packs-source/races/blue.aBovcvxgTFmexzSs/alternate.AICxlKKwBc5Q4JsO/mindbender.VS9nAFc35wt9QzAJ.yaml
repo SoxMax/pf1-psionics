@@ -1,0 +1,74 @@
+_id: VS9nAFc35wt9QzAJ
+_key: '!items!VS9nAFc35wt9QzAJ'
+_stats:
+  coreVersion: '13.351'
+folder: AICxlKKwBc5Q4JsO
+img: systems/pf1/icons/races/goblin.png
+name: Mindbender
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  contextNotes:
+    - target: dc.school.enc
+      text: +1 racial bonus to the DCs of compulsion powers
+  description:
+    value: "<p>The rare blue is able to tap into the minds of others to impose its will. Blues with this trait gain a +1 racial bonus to the saving throw DCs of compulsion powers they manifest.</p><p>This trait replaces the stealthy trait.</p>"
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+  traitCategory: magical
+type: feat

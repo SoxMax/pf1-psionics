@@ -34,19 +34,32 @@ system:
         value: One Medium or smaller creature
   description:
     value: >-
-      <p>You&nbsp;create&nbsp;rope-like&nbsp;coils&nbsp;of&nbsp;crystal&nbsp;that&nbsp;encircle&nbsp;your&nbsp;foe,&nbsp;gagging&nbsp;and&nbsp;immobilizing&nbsp;him,&nbsp;dealing&nbsp;3d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;and&nbsp;1d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;every&nbsp;round&nbsp;thereafter,&nbsp;as&nbsp;the&nbsp;crystal&nbsp;tightens&nbsp;against&nbsp;the&nbsp;target.
+      <p>You create rope-like coils of crystal that encircle your foe, gagging
+      and immobilizing him, dealing 3d6 points of damage and 1d6 points of
+      damage every round thereafter, as the crystal tightens against the target.
 
       </p>
 
-      <p>A&nbsp;creature&nbsp;caught&nbsp;by&nbsp;the&nbsp;crystal&nbsp;can&nbsp;attempt&nbsp;purely&nbsp;mental&nbsp;actions,&nbsp;but&nbsp;must&nbsp;make&nbsp;a&nbsp;concentration&nbsp;check&nbsp;(DC&nbsp;20&nbsp;+&nbsp;half&nbsp;the&nbsp;continuous&nbsp;damage&nbsp;dealt)&nbsp;to&nbsp;manifest&nbsp;powers.&nbsp;The&nbsp;creature&nbsp;can&nbsp;attempt&nbsp;to&nbsp;break&nbsp;free&nbsp;by&nbsp;spending&nbsp;1&nbsp;round&nbsp;and&nbsp;making&nbsp;a&nbsp;DC&nbsp;20&nbsp;Strength&nbsp;or&nbsp;Escape&nbsp;Artist&nbsp;check.&nbsp;The&nbsp;bond&nbsp;can&nbsp;alternatively&nbsp;be&nbsp;cut&nbsp;to&nbsp;break&nbsp;the&nbsp;target&nbsp;free.&nbsp;The&nbsp;crystal&nbsp;has&nbsp;AC&nbsp;5,&nbsp;hardness&nbsp;12,&nbsp;and&nbsp;30&nbsp;hit&nbsp;points.
+      <p>A creature caught by the crystal can attempt purely mental actions, but
+      must make a concentration check (DC 20 + half the continuous damage dealt)
+      to manifest powers. The creature can attempt to break free by spending 1
+      round and making a DC 20 Strength or Escape Artist check. The bond can
+      alternatively be cut to break the target free. The crystal has AC 5,
+      hardness 12, and 30 hit points.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;can&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power can be augmented in one or more of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;spent,&nbsp;this&nbsp;power&nbsp;can&nbsp;affect&nbsp;a&nbsp;target&nbsp;of&nbsp;one&nbsp;size&nbsp;category&nbsp;larger.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;spent,&nbsp;the&nbsp;continuous&nbsp;damage&nbsp;increases&nbsp;by&nbsp;1d6&nbsp;points&nbsp;of&nbsp;damage.</li></ol>
+      </p><ol><li>For every 2 additional power points spent, this power can
+      affect a target of one size category larger.</li><li>For every 2
+      additional power points spent, the continuous damage increases by 1d6
+      points of damage.</li></ol>
 
-      <p>In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;spent&nbsp;on&nbsp;either&nbsp;of&nbsp;the&nbsp;above&nbsp;options,&nbsp;the&nbsp;power's&nbsp;save&nbsp;DC&nbsp;and&nbsp;the&nbsp;DCs&nbsp;to&nbsp;break&nbsp;free&nbsp;increase&nbsp;by&nbsp;1.
+      <p>In addition, for every 2 additional power points spent on either of the
+      above options, the power's save DC and the DCs to break free increase by
+      1.
 
       </p>
   discipline: metacreativity

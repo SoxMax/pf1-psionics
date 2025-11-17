@@ -1,0 +1,49 @@
+_id: QBwW0xkjjxxwNIK4
+_key: '!items!QBwW0xkjjxxwNIK4'
+_stats:
+  coreVersion: '13.350'
+folder: vB44mLAuVxEJLzeN
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Tribute
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Highlord
+  description:
+    value: >-
+      <p>At 5th level, a highlord can draw upon the talents of his collective
+      and use them as his own. As a move action, the highlord designates a
+      single feat, item enhancement, power effect, or spell effect from among
+      those belonging or affecting willing members of his collective as tribute.
+      The highlord gains the effects of the selected tribute until he designates
+      a new tribute, for as long as the effect remains active on the member that
+      possessed. In addition, if a member of the collective leaves the
+      collective, the highlord loses the effects of tributes from that member.
+
+      </p><p>When he gains this ability, the highlord may only have one tribute
+      designated at once. At 11th level, the highlord may have up to two
+      tributes designated, and at 17th level, he may have up to three. Once the
+      highlord gains the ability to have multiple tributes at once, he may
+      choose his tributes from either the same or different members of the
+      collective, and can choose a different type of effect for each tribute.
+
+      </p><p>If the highlord selects a feat as one of his designated tributes,
+      he must meet the prerequisites of that feat. He may use feats gained
+      through other designated tributes to meet these prerequisites. If the
+      highlord selects an item enhancement, he applies that item enhancement to
+      a single qualifying item (such as a ranged weapon gaining the <i>distant
+      </i>enhancement) that he is carrying or wielding. The normal caps on an
+      item's enhancement bonus and special properties still apply. The item
+      loses the designated property if the highlord ceases to carry and/or use
+      it.
+
+      </p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–6
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: classFeat
+  tag: tribute
+type: feat

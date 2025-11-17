@@ -30,11 +30,14 @@ system:
           lb./level
   description:
     value: >-
-      <p>You&nbsp;automatically&nbsp;teleport&nbsp;an&nbsp;item&nbsp;you&nbsp;can&nbsp;see&nbsp;within&nbsp;range&nbsp;directly&nbsp;to&nbsp;your&nbsp;hand.&nbsp;If&nbsp;the&nbsp;object&nbsp;is&nbsp;in&nbsp;the&nbsp;possession&nbsp;of&nbsp;an&nbsp;opponent,&nbsp;it&nbsp;comes&nbsp;to&nbsp;your&nbsp;hand&nbsp;if&nbsp;your&nbsp;opponent&nbsp;fails&nbsp;a&nbsp;Will&nbsp;save.
+      <p>You automatically teleport an item you can see within range directly to
+      your hand. If the object is in the possession of an opponent, it comes to
+      your hand if your opponent fails a Will save.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;the&nbsp;weight&nbsp;limit&nbsp;of&nbsp;the&nbsp;target&nbsp;increases&nbsp;by&nbsp;10&nbsp;pounds.
+      <p><strong>Augment:</strong> For every additional power point you spend,
+      the weight limit of the target increases by 10 pounds.
 
       </p>
   discipline: psychoportation

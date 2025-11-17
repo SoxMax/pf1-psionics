@@ -21,23 +21,15 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;are&nbsp;always&nbsp;present&nbsp;in&nbsp;the&nbsp;mind&nbsp;of&nbsp;your&nbsp;thrall.
-
+    value: |-
+      <p>You are always present in the mind of your thrall.
       </p>
-
-      <p><strong>Prerequisite:&nbsp;</strong>Thrallherd&nbsp;class&nbsp;feature
-
+      <p><strong>Prerequisite: </strong>Thrallherd class feature
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>Each&nbsp;of&nbsp;your&nbsp;thralls&nbsp;is&nbsp;always&nbsp;under&nbsp;the
-
-      effect&nbsp;of&nbsp;a&nbsp;permanent&nbsp;<em>mindlink&nbsp;</em>with&nbsp;you.&nbsp;You&nbsp;can&nbsp;always
-
-      communicate&nbsp;instantly&nbsp;with&nbsp;them&nbsp;and&nbsp;you&nbsp;do&nbsp;not&nbsp;need
-
-      to&nbsp;spend&nbsp;power&nbsp;points&nbsp;to&nbsp;manifest&nbsp;this&nbsp;power.
-
+      <p><strong>Benefit: </strong>Each of your thralls is always under the
+      effect of a permanent <em>mindlink </em>with you. You can always
+      communicate instantly with them and you do not need
+      to spend power points to manifest this power.
       </p>
   disabled: false
   featType: feat

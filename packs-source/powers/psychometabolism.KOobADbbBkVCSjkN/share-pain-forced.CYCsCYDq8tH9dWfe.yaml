@@ -30,15 +30,19 @@ system:
         value: One creature
   description:
     value: >-
-      <p>As&nbsp;<em><a&nbsp;href="/wiki/Share_Pain"&nbsp;title="Share&nbsp;Pain">share&nbsp;pain</a></em>,&nbsp;except&nbsp;as&nbsp;noted&nbsp;here.
+      <p>As <em><a href="/wiki/Share_Pain" title="Share Pain">share
+      pain</a></em>, except as noted here.
 
       </p>
 
-      <p>You&nbsp;attempt&nbsp;to&nbsp;force&nbsp;the&nbsp;sharing&nbsp;of&nbsp;your&nbsp;wounds&nbsp;with&nbsp;an&nbsp;unwilling&nbsp;creature&nbsp;for&nbsp;less&nbsp;time.&nbsp;If&nbsp;you&nbsp;are&nbsp;immune&nbsp;to&nbsp;the&nbsp;type&nbsp;of&nbsp;damage&nbsp;dealt,&nbsp;or&nbsp;if&nbsp;you&nbsp;convert&nbsp;lethal&nbsp;damage&nbsp;into&nbsp;nonlethal,&nbsp;the&nbsp;target&nbsp;takes&nbsp;no&nbsp;damage.
+      <p>You attempt to force the sharing of your wounds with an unwilling
+      creature for less time. If you are immune to the type of damage dealt, or
+      if you convert lethal damage into nonlethal, the target takes no damage.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+      <p><strong>Augment:</strong> For every 2 additional power points you
+      spend, this power's save DC increases by 1.
 
       </p>
   discipline: psychometabolism

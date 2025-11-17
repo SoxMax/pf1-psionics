@@ -1,0 +1,84 @@
+_id: 5Phqki5b6t2D4XGO
+_key: '!items!5Phqki5b6t2D4XGO'
+_stats:
+  coreVersion: '13.351'
+flags:
+  pf1-psionics:
+    fromRace: Dromite
+folder: xqDmqFpNt3xNB5Qr
+img: icons/environment/people/group.webp
+name: Atavistic Link
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>Some dromites still have traces of their ancestral hive-mind link,
+      making them more receptive to telepathic communication. Although a dromite
+      with this trait cannot directly initiate telepathic contact via this trait
+      (it still may normally via any other telepathic powers or abilities), it
+      is easier for another to telepathically communicate with the dromite. Any
+      use of a mind-affecting power by someone else which targets only the
+      dromite costs 1 power point less for the manifester (to a minimum of 0).
+      This reduction in cost applies even to hostile mind-affecting powers
+      targeting the dromite. The dromite may also be added to a Collective
+      without counting against the Collective's membership limit.</p><p><em>This
+      trait replaces the Dromite Psionics trait.</em></p>
+  disabled: false
+  inherited: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+  traitCategory: alternate
+type: feat

@@ -22,15 +22,23 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;tattoos&nbsp;blend&nbsp;together&nbsp;into&nbsp;a&nbsp;greater&nbsp;pattern.</em></p>
+      <p><em>Your tattoos blend together into a greater pattern.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Merge_Designs"&nbsp;title="Merge&nbsp;Designs">Merge&nbsp;Designs</a></p>
+      <p><strong>Prerequisite:</strong><a href="/wiki/Merge_Designs"
+      title="Merge Designs">Merge Designs</a></p>
 
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;can&nbsp;wear&nbsp;a&nbsp;number&nbsp;of&nbsp;additional&nbsp;psionic&nbsp;tattoos&nbsp;equal&nbsp;to&nbsp;your&nbsp;mythic&nbsp;tier.&nbsp;In&nbsp;addition,&nbsp;your&nbsp;psionic&nbsp;tattoos&nbsp;are&nbsp;never&nbsp;at&nbsp;risk&nbsp;of&nbsp;simultaneously&nbsp;activating&nbsp;due&nbsp;to&nbsp;having&nbsp;too&nbsp;many&nbsp;tattoos&nbsp;on&nbsp;your&nbsp;body;&nbsp;tattoos&nbsp;beyond&nbsp;your&nbsp;limit&nbsp;are&nbsp;simply&nbsp;inert&nbsp;until&nbsp;such&nbsp;time&nbsp;as&nbsp;you&nbsp;remove&nbsp;or&nbsp;tap&nbsp;other&nbsp;tattoos.&nbsp;You&nbsp;can&nbsp;expend&nbsp;one&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;while&nbsp;tapping&nbsp;a&nbsp;psionic&nbsp;tattoo&nbsp;to&nbsp;add&nbsp;your&nbsp;mythic&nbsp;tier&nbsp;to&nbsp;the&nbsp;manifester&nbsp;level&nbsp;of&nbsp;the&nbsp;tattoo&nbsp;tapped.
+      <p><strong>Benefit:</strong> You can wear a number of additional psionic
+      tattoos equal to your mythic tier. In addition, your psionic tattoos are
+      never at risk of simultaneously activating due to having too many tattoos
+      on your body; tattoos beyond your limit are simply inert until such time
+      as you remove or tap other tattoos. You can expend one use of mythic power
+      while tapping a psionic tattoo to add your mythic tier to the manifester
+      level of the tattoo tapped.
 
       </p>
 
-      <p><strong>Normal:</strong>&nbsp;A&nbsp;character&nbsp;can&nbsp;only&nbsp;safely&nbsp;wear&nbsp;twenty&nbsp;psionic&nbsp;tattoos.
+      <p><strong>Normal:</strong> A character can only safely wear twenty
+      psionic tattoos.
 
       </p>
   disabled: false

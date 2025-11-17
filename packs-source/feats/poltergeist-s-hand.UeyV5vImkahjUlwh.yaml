@@ -22,13 +22,17 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;phantom's&nbsp;reach&nbsp;extends&nbsp;past&nbsp;dimensions.</em></p>
+      <p><em>Your phantom's reach extends past dimensions.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;You&nbsp;must&nbsp;be&nbsp;a&nbsp;<a&nbsp;href="/wiki/Phantom"&nbsp;title="Phantom">phantom</a>.
+      <p><strong>Prerequisite:</strong> You must be a <a href="/wiki/Phantom"
+      title="Phantom">phantom</a>.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;While&nbsp;you&nbsp;are&nbsp;incorporeal&nbsp;or&nbsp;confined&nbsp;in&nbsp;a&nbsp;spiritualist's&nbsp;consciousness,&nbsp;you&nbsp;can&nbsp;use&nbsp;<em><a&nbsp;href="/wiki/Far_Hand"&nbsp;title="Far&nbsp;Hand">far&nbsp;hand</a></em>&nbsp;as&nbsp;a&nbsp;psi-like&nbsp;ability&nbsp;at&nbsp;will,&nbsp;with&nbsp;a&nbsp;manifester&nbsp;level&nbsp;equal&nbsp;to&nbsp;your&nbsp;Hit&nbsp;Dice.
+      <p><strong>Benefit:</strong> While you are incorporeal or confined in a
+      spiritualist's consciousness, you can use <em><a href="/wiki/Far_Hand"
+      title="Far Hand">far hand</a></em> as a psi-like ability at will, with a
+      manifester level equal to your Hit Dice.
 
       </p>
   disabled: false

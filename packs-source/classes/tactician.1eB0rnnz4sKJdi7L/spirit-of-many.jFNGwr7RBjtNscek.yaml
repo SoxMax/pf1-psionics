@@ -1,0 +1,43 @@
+_id: jFNGwr7RBjtNscek
+_key: '!items!jFNGwr7RBjtNscek'
+_stats:
+  coreVersion: '13.350'
+folder: 1eB0rnnz4sKJdi7L
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Spirit of Many
+system:
+  abilityType: su
+  associations:
+    classes:
+      - Tactician
+  description:
+    value: >-
+      <p>A tactician of 2nd level gains special abilities when manifesting
+      powers with the Network descriptor. He can manifest these powers on any
+      member of his collective, even if they are out of the power's range or
+      would normally be immune to the power. Whenever a tactician manifests a
+      power with the Network descriptor targeting only members of his
+      collective, the power loses the mind-affecting descriptor (if it had it)
+      and is treated as a supernatural ability (bypassing Power Resistance and
+      becoming immune to dispel attempts), although it still provokes an attacks
+      of opportunity to manifest as normal. Network powers manifest only on
+      members of the collective never allow saving throws – their saving throw
+      entry becomes “None,” although if the power specifies a subsequent saving
+      throw, subjects attempt those saves normally. The tactician also adds the
+      following augment to all powers with the network descriptor:
+
+      </p>
+
+      <ul><li></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 52–57
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 64–69
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: spirit-of-many
+type: feat

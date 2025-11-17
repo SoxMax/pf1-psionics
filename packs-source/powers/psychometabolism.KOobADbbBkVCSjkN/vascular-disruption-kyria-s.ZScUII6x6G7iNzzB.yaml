@@ -36,15 +36,31 @@ system:
         value: 1 creature
   description:
     value: >-
-      <p>You&nbsp;violently&nbsp;disturb&nbsp;your&nbsp;victim's&nbsp;vascular&nbsp;system,&nbsp;sending&nbsp;an&nbsp;eruption&nbsp;of&nbsp;gooey&nbsp;blood&nbsp;from&nbsp;their&nbsp;body.&nbsp;Your&nbsp;victim&nbsp;suffers&nbsp;9d6&nbsp;points&nbsp;of&nbsp;damage&nbsp;and&nbsp;erupts&nbsp;in&nbsp;a&nbsp;20&nbsp;ft.&nbsp;burst&nbsp;of&nbsp;blood.&nbsp;Creatures&nbsp;within&nbsp;the&nbsp;burst&nbsp;(including&nbsp;the&nbsp;victim)&nbsp;become&nbsp;entangled&nbsp;for&nbsp;1&nbsp;round/level&nbsp;as&nbsp;the&nbsp;blood&nbsp;congeals&nbsp;into&nbsp;a&nbsp;web-like&nbsp;mass&nbsp;that&nbsp;constricts&nbsp;their&nbsp;movement.&nbsp;A&nbsp;successful&nbsp;Fortitude&nbsp;save&nbsp;halves&nbsp;the&nbsp;damage&nbsp;and&nbsp;prevents&nbsp;the&nbsp;burst&nbsp;of&nbsp;blood.&nbsp;Creatures&nbsp;without&nbsp;blood&nbsp;or&nbsp;an&nbsp;equivalent&nbsp;bodily&nbsp;fluid&nbsp;(including,&nbsp;but&nbsp;not&nbsp;limited&nbsp;to,&nbsp;most&nbsp;forms&nbsp;of&nbsp;undead,&nbsp;constructs,&nbsp;and&nbsp;elementals)&nbsp;are&nbsp;immune&nbsp;to&nbsp;the&nbsp;effects&nbsp;of&nbsp;this&nbsp;power.
+      <p>You violently disturb your victim's vascular system, sending an
+      eruption of gooey blood from their body. Your victim suffers 9d6 points of
+      damage and erupts in a 20 ft. burst of blood. Creatures within the burst
+      (including the victim) become entangled for 1 round/level as the blood
+      congeals into a web-like mass that constricts their movement. A successful
+      Fortitude save halves the damage and prevents the burst of blood.
+      Creatures without blood or an equivalent bodily fluid (including, but not
+      limited to, most forms of undead, constructs, and elementals) are immune
+      to the effects of this power.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You may augment this power in the following
+      ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;1&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;damage&nbsp;increases&nbsp;by&nbsp;one&nbsp;die&nbsp;(d6).&nbsp;For&nbsp;each&nbsp;two&nbsp;extra&nbsp;dice&nbsp;of&nbsp;damage,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;eruption&nbsp;of&nbsp;blood&nbsp;occurs&nbsp;even&nbsp;if&nbsp;the&nbsp;victim&nbsp;succeeds&nbsp;at&nbsp;their&nbsp;saving&nbsp;throw.</li></ol>
+      </p><ol><li>For every 1 additional power point you spend, this power's
+      damage increases by one die (d6). For each two extra dice of damage, this
+      power's save DC increases by 1.</li><li>If you spend 4 additional power
+      points, the eruption of blood occurs even if the victim succeeds at their
+      saving throw.</li></ol>
 
-      <p><strong>Surge&nbsp;Augmentation:</strong>&nbsp;If&nbsp;you&nbsp;invoke&nbsp;your&nbsp;wild&nbsp;surge&nbsp;while&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;you&nbsp;may&nbsp;affect&nbsp;creatures&nbsp;that&nbsp;do&nbsp;not&nbsp;have&nbsp;blood&nbsp;or&nbsp;equivalent&nbsp;bodily&nbsp;fluids;&nbsp;you&nbsp;convert&nbsp;part&nbsp;of&nbsp;their&nbsp;form&nbsp;to&nbsp;liquid&nbsp;and&nbsp;force&nbsp;it&nbsp;outward.
+      <p><strong>Surge Augmentation:</strong> If you invoke your wild surge
+      while manifesting this power, you may affect creatures that do not have
+      blood or equivalent bodily fluids; you convert part of their form to
+      liquid and force it outward.
 
       </p>
   discipline: psychometabolism

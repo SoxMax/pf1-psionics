@@ -1,0 +1,38 @@
+_id: mWQ0B08PBUumHsdK
+_key: '!items!mWQ0B08PBUumHsdK'
+_stats:
+  coreVersion: '13.350'
+folder: 1eB0rnnz4sKJdi7L
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Teamwork Feat
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Tactician
+  description:
+    value: >-
+      <p>At 6th level, and every six levels thereafter, the tactician gains a
+      bonus feat in addition to those gained from normal advancement. These
+      bonus feats must be selected from those listed as <a
+      href="/wiki/Teamwork_feat" title="Teamwork feat">teamwork feats</a>. The
+      tactician must meet the prerequisites of the selected bonus feat.
+
+      </p><p>By spending one hour in meditation, the tactician can change anyone
+      teamwork feat he has already learned for another teamwork feat whose
+      prerequisites he meets. In effect, the tactician loses the bonus feat in
+      exchange for a new one.
+
+      </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 52–57
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 64–69
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: teamwork-feat
+type: feat

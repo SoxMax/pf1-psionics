@@ -29,15 +29,20 @@ system:
         value: You and one ally in range, or any two allies in range; see text
   description:
     value: >-
-      <p>You&nbsp;instantly&nbsp;swap&nbsp;positions&nbsp;between&nbsp;your&nbsp;current&nbsp;position&nbsp;and&nbsp;that&nbsp;of&nbsp;a&nbsp;designated&nbsp;ally&nbsp;in&nbsp;range.&nbsp;Alternatively,&nbsp;you&nbsp;can&nbsp;swap&nbsp;the&nbsp;positions&nbsp;of&nbsp;any&nbsp;two&nbsp;allies&nbsp;in&nbsp;range.&nbsp;This&nbsp;power&nbsp;affects&nbsp;creatures&nbsp;of&nbsp;Large&nbsp;or&nbsp;smaller&nbsp;size.&nbsp;You&nbsp;can&nbsp;bring&nbsp;along&nbsp;objects,&nbsp;but&nbsp;not&nbsp;other&nbsp;creatures.
+      <p>You instantly swap positions between your current position and that of
+      a designated ally in range. Alternatively, you can swap the positions of
+      any two allies in range. This power affects creatures of Large or smaller
+      size. You can bring along objects, but not other creatures.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;can&nbsp;affect&nbsp;a&nbsp;target&nbsp;one&nbsp;size&nbsp;category&nbsp;larger.
+      <p><strong>Augment:</strong> For every 2 additional power points you
+      spend, this power can affect a target one size category larger.
 
       </p>
 
-      <p><strong>Special:</strong>&nbsp;A&nbsp;psychic&nbsp;warrior&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;to&nbsp;swap&nbsp;positions&nbsp;with&nbsp;an&nbsp;ally,&nbsp;but&nbsp;not&nbsp;to&nbsp;swap&nbsp;the&nbsp;positions&nbsp;of&nbsp;two&nbsp;allies.
+      <p><strong>Special:</strong> A psychic warrior can manifest this power to
+      swap positions with an ally, but not to swap the positions of two allies.
 
       </p>
   discipline: psychoportation

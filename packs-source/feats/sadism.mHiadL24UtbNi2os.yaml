@@ -22,13 +22,20 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>The&nbsp;pain&nbsp;of&nbsp;your&nbsp;collective&nbsp;reinvigorates&nbsp;you.</em></p>
+      <p><em>The pain of your collective reinvigorates you.</em></p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Collective&nbsp;class&nbsp;feature,&nbsp;character&nbsp;level&nbsp;5th.
+      <p><strong>Prerequisites:</strong> Collective class feature, character
+      level 5th.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;Whenever&nbsp;another&nbsp;member&nbsp;of&nbsp;your&nbsp;collective&nbsp;takes&nbsp;damage,&nbsp;you&nbsp;may&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action&nbsp;in&nbsp;order&nbsp;to&nbsp;gain&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;equal&nbsp;to&nbsp;half&nbsp;the&nbsp;damage&nbsp;dealt.&nbsp;These&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;fade&nbsp;at&nbsp;a&nbsp;rate&nbsp;of&nbsp;1&nbsp;per&nbsp;round,&nbsp;and&nbsp;stack&nbsp;with&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;gained&nbsp;from&nbsp;this&nbsp;feat.&nbsp;You&nbsp;may&nbsp;only&nbsp;gain&nbsp;temporary&nbsp;hit&nbsp;points&nbsp;in&nbsp;this&nbsp;way&nbsp;to&nbsp;a&nbsp;limit&nbsp;of&nbsp;up&nbsp;to&nbsp;half&nbsp;of&nbsp;your&nbsp;normal&nbsp;maximum&nbsp;hit&nbsp;points.
+      <p><strong>Benefit:</strong> Whenever another member of your collective
+      takes damage, you may expend your psionic focus as an immediate action in
+      order to gain temporary hit points equal to half the damage dealt. These
+      temporary hit points fade at a rate of 1 per round, and stack with
+      temporary hit points gained from this feat. You may only gain temporary
+      hit points in this way to a limit of up to half of your normal maximum hit
+      points.
 
       </p>
   disabled: false

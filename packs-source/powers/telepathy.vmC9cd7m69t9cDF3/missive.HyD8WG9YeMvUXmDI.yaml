@@ -26,11 +26,15 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;send&nbsp;a&nbsp;telepathic&nbsp;message&nbsp;of&nbsp;up&nbsp;to&nbsp;ten&nbsp;words&nbsp;to&nbsp;any&nbsp;living&nbsp;creature&nbsp;within&nbsp;range.&nbsp;Missive&nbsp;is&nbsp;strictly&nbsp;a&nbsp;one-way&nbsp;exchange&nbsp;from&nbsp;you&nbsp;to&nbsp;the&nbsp;subject.&nbsp;If&nbsp;you&nbsp;do&nbsp;not&nbsp;share&nbsp;a&nbsp;common&nbsp;language,&nbsp;the&nbsp;subject&nbsp;"hears"&nbsp;meaningless&nbsp;mental&nbsp;syllables.
+      <p>You send a telepathic message of up to ten words to any living creature
+      within range. Missive is strictly a one-way exchange from you to the
+      subject. If you do not share a common language, the subject "hears"
+      meaningless mental syllables.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;range&nbsp;increases&nbsp;by&nbsp;5&nbsp;feet.
+      <p><strong>Augment:</strong> For every 2 additional power points you
+      spend, this power's range increases by 5 feet.
 
       </p>
   descriptors:

@@ -28,21 +28,34 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;readjust&nbsp;your&nbsp;body&nbsp;to&nbsp;boost&nbsp;one&nbsp;physical&nbsp;ability&nbsp;score&nbsp;at&nbsp;the&nbsp;expense&nbsp;of&nbsp;one&nbsp;or&nbsp;more&nbsp;other&nbsp;scores.&nbsp;Select&nbsp;one&nbsp;physical&nbsp;ability&nbsp;score&nbsp;you&nbsp;would&nbsp;like&nbsp;to&nbsp;boost,&nbsp;and&nbsp;increase&nbsp;it&nbsp;by&nbsp;the&nbsp;same&nbsp;amount&nbsp;that&nbsp;you&nbsp;decrease&nbsp;one&nbsp;or&nbsp;more&nbsp;other&nbsp;scores.&nbsp;All&nbsp;score&nbsp;decreases&nbsp;are&nbsp;treated&nbsp;as&nbsp;ability&nbsp;damage.
+      <p>You can readjust your body to boost one physical ability score at the
+      expense of one or more other scores. Select one physical ability score you
+      would like to boost, and increase it by the same amount that you decrease
+      one or more other scores. All score decreases are treated as ability
+      damage.
 
       </p>
 
-      <p>You&nbsp;can&nbsp;boost&nbsp;your&nbsp;Strength,&nbsp;Dexterity&nbsp;or&nbsp;Constitution&nbsp;score&nbsp;by&nbsp;an&nbsp;amount&nbsp;equal&nbsp;to&nbsp;your&nbsp;manifester&nbsp;level&nbsp;(or&nbsp;any&nbsp;lesser&nbsp;amount),&nbsp;assuming&nbsp;you&nbsp;can&nbsp;afford&nbsp;to&nbsp;burn&nbsp;your&nbsp;other&nbsp;ability&nbsp;scores&nbsp;to&nbsp;such&nbsp;an&nbsp;extent.
+      <p>You can boost your Strength, Dexterity or Constitution score by an
+      amount equal to your manifester level (or any lesser amount), assuming you
+      can afford to burn your other ability scores to such an extent.
 
       </p>
 
-      <p>When&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;expires,&nbsp;your&nbsp;ability&nbsp;boost&nbsp;also&nbsp;ends,&nbsp;but&nbsp;your&nbsp;ability&nbsp;damage&nbsp;remains&nbsp;until&nbsp;it&nbsp;is&nbsp;healed.
+      <p>When the duration of this power expires, your ability boost also ends,
+      but your ability damage remains until it is healed.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or more of
+      the following ways.
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;ability&nbsp;damage&nbsp;you&nbsp;suffer&nbsp;to&nbsp;increase&nbsp;another&nbsp;score&nbsp;is&nbsp;delayed&nbsp;until&nbsp;the&nbsp;power&nbsp;fades.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;power's&nbsp;duration&nbsp;increases&nbsp;to&nbsp;1&nbsp;minute/level&nbsp;(D).</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;ability&nbsp;damage&nbsp;you&nbsp;suffer&nbsp;to&nbsp;increase&nbsp;another&nbsp;score&nbsp;fades&nbsp;when&nbsp;the&nbsp;power's&nbsp;duration&nbsp;expires.</li></ol>
+      </p><ol><li>If you spend 2 additional power points, the ability damage you
+      suffer to increase another score is delayed until the power
+      fades.</li><li>If you spend 4 additional power points, the power's
+      duration increases to 1 minute/level (D).</li><li>If you spend 6
+      additional power points, the ability damage you suffer to increase another
+      score fades when the power's duration expires.</li></ol>
   discipline: psychometabolism
   display:
     auditory: false

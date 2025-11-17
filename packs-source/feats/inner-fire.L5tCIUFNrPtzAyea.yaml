@@ -22,13 +22,19 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;use&nbsp;psionic&nbsp;power&nbsp;to&nbsp;augment&nbsp;your&nbsp;rampaging&nbsp;elemental&nbsp;abilities.</em></p>
+      <p><em>You use psionic power to augment your rampaging elemental
+      abilities.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Gather&nbsp;power&nbsp;class&nbsp;feature.
+      <p><strong>Prerequisite:</strong> Gather power class feature.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;can&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;while&nbsp;gathering&nbsp;power&nbsp;to&nbsp;reduce&nbsp;the&nbsp;action&nbsp;needed&nbsp;to&nbsp;alleviate&nbsp;burn.&nbsp;If&nbsp;you&nbsp;take&nbsp;a&nbsp;swift&nbsp;action,&nbsp;you&nbsp;are&nbsp;treated&nbsp;as&nbsp;if&nbsp;you&nbsp;had&nbsp;gathered&nbsp;power&nbsp;as&nbsp;a&nbsp;move&nbsp;action.&nbsp;If&nbsp;you&nbsp;take&nbsp;a&nbsp;move&nbsp;action,&nbsp;you&nbsp;are&nbsp;treated&nbsp;as&nbsp;if&nbsp;you&nbsp;gathered&nbsp;power&nbsp;for&nbsp;a&nbsp;full&nbsp;round.&nbsp;You&nbsp;cannot&nbsp;gather&nbsp;power&nbsp;in&nbsp;another&nbsp;way&nbsp;in&nbsp;the&nbsp;same&nbsp;turn&nbsp;you&nbsp;use&nbsp;this&nbsp;feat.
+      <p><strong>Benefit:</strong> You can expend your psionic focus while
+      gathering power to reduce the action needed to alleviate burn. If you take
+      a swift action, you are treated as if you had gathered power as a move
+      action. If you take a move action, you are treated as if you gathered
+      power for a full round. You cannot gather power in another way in the same
+      turn you use this feat.
 
       </p>
   disabled: false

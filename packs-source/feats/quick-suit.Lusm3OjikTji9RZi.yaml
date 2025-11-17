@@ -22,25 +22,28 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>You&nbsp;have&nbsp;learned&nbsp;to&nbsp;quickly&nbsp;form&nbsp;your&nbsp;astral&nbsp;suit.
+      <p>You have learned to quickly form your astral suit.
 
       </p>
 
-      <p><strong>Prerequisites:&nbsp;</strong>Astral&nbsp;suit&nbsp;class&nbsp;feature,&nbsp;reconfigure
+      <p><strong>Prerequisites: </strong>Astral suit class feature, reconfigure
 
-      class&nbsp;feature.
-
-      </p>
-
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;form&nbsp;your&nbsp;astral&nbsp;suit&nbsp;as&nbsp;a&nbsp;free&nbsp;action
-
-      once&nbsp;per&nbsp;turn.
+      class feature.
 
       </p>
 
-      <p><strong>Normal:&nbsp;</strong>Forming&nbsp;an&nbsp;astral&nbsp;suit&nbsp;takes&nbsp;a&nbsp;swift&nbsp;action&nbsp;for
+      <p><strong>Benefit: </strong>You can form your astral suit as a free
+      action
 
-      astral&nbsp;skin,&nbsp;a&nbsp;standard&nbsp;action&nbsp;for&nbsp;astral&nbsp;armor,&nbsp;and&nbsp;a&nbsp;full-round&nbsp;action&nbsp;for&nbsp;astral&nbsp;juggernaut.
+      once per turn.
+
+      </p>
+
+      <p><strong>Normal: </strong>Forming an astral suit takes a swift action
+      for
+
+      astral skin, a standard action for astral armor, and a full-round action
+      for astral juggernaut.
 
       </p>
   disabled: false

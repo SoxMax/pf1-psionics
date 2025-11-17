@@ -1,0 +1,33 @@
+_id: HaFnsm9gyJ0ieVDK
+_key: '!items!HaFnsm9gyJ0ieVDK'
+_stats:
+  coreVersion: '13.350'
+folder: 3nTUlQKGd4eDVPqX
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Combat Style
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Marksman
+  description:
+    value: >-
+      <p>A Marksman of 1st level chooses a type of ranged combat that is her
+      preferred style. This style determines certain class features, skills, and
+      abilities, as described in the different styles.
+
+      </p>
+
+      <dl><dd><div class="va-hatnote-text"><i></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 47–50
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 44–46
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: combat-style
+type: feat

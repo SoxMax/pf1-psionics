@@ -1,0 +1,31 @@
+_id: 0FSAEwqWCym7DgsT
+_key: '!items!0FSAEwqWCym7DgsT'
+_stats:
+  coreVersion: '13.350'
+folder: 1eB0rnnz4sKJdi7L
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Lesser Strategies
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Tactician
+  description:
+    value: >-
+      <p>Tacticians learn minor powers they can use at will to aid them in
+      coordination and tactics. The tactician gains 3 talents from the tactician
+      talent list.
+
+      </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 52–57
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 64–69
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: lesser-strategies
+type: feat

@@ -22,9 +22,15 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;manifest&nbsp;a&nbsp;personal&nbsp;power&nbsp;so&nbsp;that&nbsp;it&nbsp;takes&nbsp;effect&nbsp;at&nbsp;a&nbsp;later&nbsp;time.</em></p>
+      <p><em>You manifest a personal power so that it takes effect at a later
+      time.</em></p>
 
-      <p><strong>Benefit:&nbsp;</strong>To&nbsp;use&nbsp;this&nbsp;feat,&nbsp;you&nbsp;must&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus.&nbsp;You&nbsp;manifest&nbsp;a&nbsp;personal&nbsp;psionic&nbsp;power&nbsp;that&nbsp;instead&nbsp;of&nbsp;triggering&nbsp;immediately,&nbsp;instead&nbsp;triggers&nbsp;the&nbsp;next&nbsp;time&nbsp;you&nbsp;are&nbsp;attacked&nbsp;(someone&nbsp;makes&nbsp;a&nbsp;successful&nbsp;attack&nbsp;roll,&nbsp;or&nbsp;you&nbsp;fail&nbsp;a&nbsp;saving&nbsp;throw).&nbsp;Using&nbsp;this&nbsp;feat&nbsp;increases&nbsp;the&nbsp;power&nbsp;point&nbsp;cost&nbsp;of&nbsp;the&nbsp;power&nbsp;by&nbsp;2.&nbsp;The&nbsp;power’s&nbsp;total&nbsp;cost&nbsp;cannot&nbsp;exceed&nbsp;your&nbsp;manifester&nbsp;level.
+      <p><strong>Benefit: </strong>To use this feat, you must expend your
+      psionic focus. You manifest a personal psionic power that instead of
+      triggering immediately, instead triggers the next time you are attacked
+      (someone makes a successful attack roll, or you fail a saving throw).
+      Using this feat increases the power point cost of the power by 2. The
+      power’s total cost cannot exceed your manifester level.
 
       </p>
   disabled: false

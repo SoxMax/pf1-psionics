@@ -27,13 +27,24 @@ system:
         value: You
   description:
     value: >-
-      <p>Your&nbsp;awareness&nbsp;extends&nbsp;a&nbsp;fraction&nbsp;of&nbsp;a&nbsp;second&nbsp;into&nbsp;the&nbsp;future,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;better&nbsp;perform&nbsp;a&nbsp;particular&nbsp;combat&nbsp;maneuver.&nbsp;Select&nbsp;one&nbsp;type&nbsp;of&nbsp;combat&nbsp;maneuver,&nbsp;such&nbsp;as&nbsp;bull&nbsp;rush&nbsp;or&nbsp;reposition,&nbsp;when&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power.&nbsp;You&nbsp;gain&nbsp;a&nbsp;+2&nbsp;enhancement&nbsp;bonus&nbsp;to&nbsp;combat&nbsp;maneuver&nbsp;checks&nbsp;of&nbsp;that&nbsp;type&nbsp;for&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;effect.
+      <p>Your awareness extends a fraction of a second into the future, allowing
+      you to better perform a particular combat maneuver. Select one type of
+      combat maneuver, such as bull rush or reposition, when you manifest this
+      power. You gain a +2 enhancement bonus to combat maneuver checks of that
+      type for the duration of the effect.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power may be augmented in one or both of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;enhancement&nbsp;bonus&nbsp;increases&nbsp;by&nbsp;1.</li><li>For&nbsp;every&nbsp;3&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;select&nbsp;an&nbsp;additional&nbsp;type&nbsp;of&nbsp;combat&nbsp;maneuver.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;using&nbsp;the&nbsp;combat&nbsp;maneuver&nbsp;selected&nbsp;does&nbsp;not&nbsp;provoke&nbsp;attacks&nbsp;of&nbsp;opportunity.</li><li>If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action.</li></ol>
+      </p><ol><li>For every 2 additional power points you spend, the enhancement
+      bonus increases by 1.</li><li>For every 3 additional power points you
+      spend, you can select an additional type of combat maneuver.</li><li>If
+      you spend 4 additional power points, using the combat maneuver selected
+      does not provoke attacks of opportunity.</li><li>If you spend 6 additional
+      power points, you can manifest this power as an immediate
+      action.</li></ol>
   discipline: clairsentience
   display:
     auditory: true

@@ -27,15 +27,37 @@ system:
         value: 1 cu. ft./level of inanimate material
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;weaken&nbsp;or&nbsp;strengthen&nbsp;the&nbsp;substance&nbsp;of&nbsp;an&nbsp;object&nbsp;or&nbsp;structure.&nbsp;You&nbsp;can&nbsp;affect&nbsp;both&nbsp;mundane&nbsp;and&nbsp;magical&nbsp;inanimate&nbsp;material.&nbsp;Weakening&nbsp;an&nbsp;object's&nbsp;substance&nbsp;decreases&nbsp;its&nbsp;hardness&nbsp;and&nbsp;hit&nbsp;points,&nbsp;and&nbsp;strengthening&nbsp;it&nbsp;increases&nbsp;its&nbsp;hardness&nbsp;and&nbsp;hit&nbsp;points.&nbsp;You&nbsp;can&nbsp;increase&nbsp;or&nbsp;decrease&nbsp;an&nbsp;object's&nbsp;hardness&nbsp;by&nbsp;up&nbsp;to&nbsp;5&nbsp;from&nbsp;its&nbsp;original&nbsp;hardness.&nbsp;When&nbsp;hardness&nbsp;increases,&nbsp;the&nbsp;object&nbsp;(or&nbsp;portion&nbsp;of&nbsp;an&nbsp;object)&nbsp;gains&nbsp;3&nbsp;hit&nbsp;points&nbsp;per&nbsp;inch&nbsp;of&nbsp;thickness&nbsp;for&nbsp;every&nbsp;point&nbsp;of&nbsp;increased&nbsp;hardness.&nbsp;When&nbsp;hardness&nbsp;decreases,&nbsp;the&nbsp;object&nbsp;(or&nbsp;portion&nbsp;of&nbsp;an&nbsp;object)&nbsp;loses&nbsp;2&nbsp;hit&nbsp;points&nbsp;per&nbsp;inch&nbsp;of&nbsp;thickness&nbsp;for&nbsp;every&nbsp;point&nbsp;of&nbsp;decreased&nbsp;hardness&nbsp;(to&nbsp;a&nbsp;minimum&nbsp;of&nbsp;1&nbsp;hit&nbsp;point&nbsp;per&nbsp;inch&nbsp;of&nbsp;thickness).
+      <p>You can weaken or strengthen the substance of an object or structure.
+      You can affect both mundane and magical inanimate material. Weakening an
+      object's substance decreases its hardness and hit points, and
+      strengthening it increases its hardness and hit points. You can increase
+      or decrease an object's hardness by up to 5 from its original hardness.
+      When hardness increases, the object (or portion of an object) gains 3 hit
+      points per inch of thickness for every point of increased hardness. When
+      hardness decreases, the object (or portion of an object) loses 2 hit
+      points per inch of thickness for every point of decreased hardness (to a
+      minimum of 1 hit point per inch of thickness).
 
       </p>
 
-      <p>You&nbsp;can't&nbsp;decrease&nbsp;the&nbsp;hardness&nbsp;of&nbsp;an&nbsp;object&nbsp;that&nbsp;already&nbsp;has&nbsp;hardness&nbsp;0.&nbsp;You&nbsp;cannot&nbsp;increase&nbsp;an&nbsp;object's&nbsp;hardness&nbsp;by&nbsp;more&nbsp;than&nbsp;5&nbsp;from&nbsp;the&nbsp;hardness&nbsp;of&nbsp;the&nbsp;original&nbsp;base&nbsp;object,&nbsp;nor&nbsp;decrease&nbsp;it&nbsp;by&nbsp;more&nbsp;than&nbsp;5&nbsp;from&nbsp;the&nbsp;hardness&nbsp;of&nbsp;the&nbsp;original&nbsp;base&nbsp;object.&nbsp;For&nbsp;example,&nbsp;you&nbsp;could&nbsp;not&nbsp;manifest&nbsp;this&nbsp;power&nbsp;twice&nbsp;to&nbsp;increase&nbsp;an&nbsp;object's&nbsp;hardness&nbsp;by&nbsp;10,&nbsp;but&nbsp;could&nbsp;decrease&nbsp;the&nbsp;hardness&nbsp;by&nbsp;5,&nbsp;then&nbsp;manifest&nbsp;again&nbsp;to&nbsp;increase&nbsp;the&nbsp;hardness&nbsp;by&nbsp;5,&nbsp;and&nbsp;then&nbsp;manifest&nbsp;again&nbsp;to&nbsp;increase&nbsp;the&nbsp;hardness&nbsp;again&nbsp;by&nbsp;5,&nbsp;because&nbsp;the&nbsp;change&nbsp;from&nbsp;the&nbsp;original&nbsp;base&nbsp;object's&nbsp;hardness&nbsp;is&nbsp;only&nbsp;5.
+      <p>You can't decrease the hardness of an object that already has hardness
+      0. You cannot increase an object's hardness by more than 5 from the
+      hardness of the original base object, nor decrease it by more than 5 from
+      the hardness of the original base object. For example, you could not
+      manifest this power twice to increase an object's hardness by 10, but
+      could decrease the hardness by 5, then manifest again to increase the
+      hardness by 5, and then manifest again to increase the hardness again by
+      5, because the change from the original base object's hardness is only 5.
 
-      </p><ul><li><em>Working&nbsp;Manipulated&nbsp;Metals:</em>&nbsp;An&nbsp;object&nbsp;or&nbsp;portion&nbsp;thereof&nbsp;whose&nbsp;hardness&nbsp;is&nbsp;decreased&nbsp;or&nbsp;increased&nbsp;is&nbsp;permanently&nbsp;changed.&nbsp;Even&nbsp;hardening&nbsp;adamantine&nbsp;to&nbsp;25&nbsp;is&nbsp;possible.&nbsp;You&nbsp;can&nbsp;also&nbsp;harden&nbsp;or&nbsp;weaken&nbsp;a&nbsp;preforged&nbsp;weapon,&nbsp;a&nbsp;suit&nbsp;of&nbsp;armor,&nbsp;or&nbsp;some&nbsp;other&nbsp;finished&nbsp;item.</li></ul>
+      </p><ul><li><em>Working Manipulated Metals:</em> An object or portion
+      thereof whose hardness is decreased or increased is permanently changed.
+      Even hardening adamantine to 25 is possible. You can also harden or weaken
+      a preforged weapon, a suit of armor, or some other finished
+      item.</li></ul>
 
-      <p>You&nbsp;may&nbsp;choose&nbsp;to&nbsp;spend&nbsp;one&nbsp;hour&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;rather&nbsp;than&nbsp;a&nbsp;standard&nbsp;action.&nbsp;This&nbsp;results&nbsp;in&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;power&nbsp;changing&nbsp;to&nbsp;"Instantaneous"&nbsp;instead&nbsp;of&nbsp;1&nbsp;minute&nbsp;/&nbsp;level,&nbsp;making&nbsp;the&nbsp;change&nbsp;permanent.
+      <p>You may choose to spend one hour manifesting this power, rather than a
+      standard action. This results in the duration of the power changing to
+      "Instantaneous" instead of 1 minute / level, making the change permanent.
 
       </p>
   discipline: metacreativity

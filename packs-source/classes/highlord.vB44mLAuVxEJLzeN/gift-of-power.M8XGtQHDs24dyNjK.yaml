@@ -1,0 +1,33 @@
+_id: M8XGtQHDs24dyNjK
+_key: '!items!M8XGtQHDs24dyNjK'
+_stats:
+  coreVersion: '13.350'
+folder: vB44mLAuVxEJLzeN
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Gift of Power
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Highlord
+  description:
+    value: >-
+      <p>At 3rd level, the highlord is capable of sharing a portion of his power
+      with his allies. The highlord chooses a power that he can manifest. This
+      power gains the Network descriptor when manifested by the highlord. At 6th
+      level, and every three levels thereafter, the highlord can choose an
+      additional power of a different level that he can manifest to give the
+      Network descriptor to. Whenever the highlord gains a level, he may change
+      which powers to grant the Network descriptor to. However, any power that
+      the highlord chooses must be the same level as the power he is changing it
+      from.
+
+      </p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–6
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: classFeat
+  tag: gift-of-power
+type: feat

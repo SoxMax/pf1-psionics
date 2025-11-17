@@ -1,0 +1,166 @@
+_id: Ceuzln2eEWcBwJGH
+_key: '!items!Ceuzln2eEWcBwJGH'
+_stats:
+  coreVersion: '13.351'
+img: systems/pf1/icons/races/goblin.png
+name: Blue
+system:
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: lA35i5k5
+      formula: '2'
+      operator: add
+      priority: 0
+      target: int
+      type: racial
+    - _id: SHw2jwDg
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: racial
+    - _id: qlcOGsqc
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: str
+      type: racial
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  creatureSubtypes:
+    - goblinoid
+    - psionic
+  creatureTypes:
+    - humanoid
+  description:
+    value: >-
+      <p>Once thought to be a subrace of the goblins, blues are related to
+      goblins, being a goblinoid race, but are actually defined as their own
+      race. Able to interbreed with goblins, similar to humans interbreeding
+      with elves, blues often infiltrate goblin tribes to procreate with the
+      females of the tribe, having a limited population of blue females to
+      choose from. Many blues with strong psionic ability learn to control their
+      physical form using psionics to assume the look of a normal goblin,
+      thereby allowing easier integration into a goblin tribe. The blood of
+      blues runs stronger than goblins, and therefore a tribe that knowingly or
+      unknowingly allows blues to breed with them will over a matter of a few
+      generations be composed completely of blues. Because of this, the blues
+      were once hunted into near extinction by their goblin kin, prompting their
+      stealthier and cautious ways. The blue elders will often breed and then
+      leave a tribe, looking for a new place to spread their blood before it is
+      destroyed.</p><p><strong>Physical Description: </strong>Short with
+      leathery blue hide, large eyes and ears and a mouth filled with fangs,
+      blues stand between 3 and 4 feet tall, with males slightly taller and
+      heavier than females. Most blues have black hair on their heads, although
+      some choose to go bald. To most, the blue is simply an oddly-colored
+      goblin. Very few things make them stand out from their racial cousins, at
+      least physically, aside from their skin tone.</p><p><strong>Society:
+      </strong>Where goblins are disorganized, driven by their passions and need
+      for activity, blues are quite the opposite. They are determined, focused,
+      and driven to organization and structure. A tribe of goblins that doesn't
+      kill a newborn blue will often come to be dominated by that blue, whose
+      natural organizational skills and intelligence allows it to either rule
+      the tribe outright, or manipulate the less intelligent goblins. These
+      tribes tend to become focused and unified, whipped into structure not
+      necessarily by the leadership qualities of the blue, but by his psionic
+      power and intelligence. As a result, most of the dominant goblin societies
+      are actually lead by a powerful blue; the few tribes of only blues that
+      have popped up tend to welcome order and competition, finding common cause
+      with the ophiduans.</p><p><strong>Relations: </strong>While driven and
+      intelligent, most blues are colored by the dark ways of the tribes where
+      they grew up. These blues tend to look down on all other races and wish to
+      dominate and enslave them, which naturally makes them enemies to most
+      races, but even a more mild-natured or civilized blue will be met by
+      suspicion by half-giants, elves, dwarves, gnomes and dromites, while the
+      maenad and ophiduan societies often find much in common with a blue's
+      worldview, seeing the need for structure and order, which can equate to
+      expansionistic and conquering tendencies.</p><p><strong>Alignment and
+      Religion: </strong>Few blues are religious, believing themselves to be
+      superior to the weak-willed people around them that need supernatural
+      crutches to cope with a hostile world. Most blues tend to be lawful evil,
+      tainted by their lives among the goblin tribes. Laws tend to protect the
+      selfish more than the altruistic and therefore a blue would rather learn
+      to use the rules than break them.</p><p><strong>Adventurers:
+      </strong>Blues often become adventurers having been driven out by their
+      home tribe, or they come from one of the few existing blue tribes. Even
+      so, to wander means that they are either desperate (often for power) or
+      cocky and unafraid. Blues find adventuring a means to an end, a way for
+      them to become rich, powerful, and connected, with death one of the
+      possible outcomes. To a blue, that is a fair bargain to be
+      made.</p><p><strong>Names: </strong>Most blues outside of goblin society
+      take a name from other humanoids, which means that their naming
+      conventions are as varied as that of all other races combined. However,
+      many often add a descriptive title, such as “Oman the Magnificent” or
+      “Andra the Wild” to enhance their individuality.</p>
+  languages:
+    - common
+    - goblin
+  links:
+    supplements:
+      - name: Darkvision
+        uuid: Compendium.pf1-psionics.races.Item.9HqXWHEgToDC4doZ
+      - name: Keen Senses
+        uuid: Compendium.pf1-psionics.races.Item.pTQC9A02DkCMkfUP
+      - name: Naturally Psionic
+        uuid: Compendium.pf1-psionics.races.Item.uZdof4YzFpxkH5HL
+      - name: Pariah
+        uuid: Compendium.pf1-psionics.races.Item.idYK1EXjTGlzQebV
+      - name: Repletion
+        uuid: Compendium.pf1-psionics.races.Item.fUeQITLAeWhrSZdV
+      - name: Stealthy
+        uuid: Compendium.pf1-psionics.races.Item.7t5pq6ohKP1DBJMt
+      - name: Weapon Familiarity
+        uuid: Compendium.pf1-psionics.races.Item.LR6uXyoF6ivK6wcd
+  quadruped: false
+  size: sm
+  speeds:
+    flyManeuverability: average
+    land: 30
+type: race

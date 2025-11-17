@@ -1,0 +1,71 @@
+_id: FMrncwIq6Z7Ryyz6
+_key: '!items!FMrncwIq6Z7Ryyz6'
+_stats:
+  coreVersion: '13.351'
+folder: AICxlKKwBc5Q4JsO
+img: systems/pf1/icons/races/goblin.png
+name: Goblinoid Camouflage
+system:
+  abilityType: su
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: "<p>Some blues have learned to make subtle, but long-lasting, psionic changes to their body structure – the most notable being the change of skin color from their eponymous blue to a more common goblin color, typically green. They also get into the habit of eating regularly so as to avoid suspicion. By spending 1 power point as a swift action, a blue with this trait gains a +10 bonus on Disguise checks to appear as a normal goblin rather than a blue; this bonus lasts for 24 hours and is dismissible as a free action.</p><p>This trait replaces the Repletion trait.</p>"
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+  traitCategory: magical
+type: feat

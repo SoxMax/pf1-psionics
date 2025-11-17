@@ -1,0 +1,78 @@
+_id: is0k5WlqfPxCJnbP
+_key: '!items!is0k5WlqfPxCJnbP'
+_stats:
+  coreVersion: '13.351'
+folder: AICxlKKwBc5Q4JsO
+img: systems/pf1/icons/races/goblin.png
+name: Leadership
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: jVL05QA1
+      formula: '2'
+      operator: add
+      priority: 0
+      target: skill.dip
+      type: racial
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: "<p>Some blues naturally take on leadership roles, either directly controlling a tribe, or as an important advisor to a leader. A blue with this trait gains a +2 racial bonus to Diplomacy checks.</p><p>This trait replaces the Keen Senses trait.</p>"
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: racial
+  summons: false
+  traitCategory: featSkills
+type: feat

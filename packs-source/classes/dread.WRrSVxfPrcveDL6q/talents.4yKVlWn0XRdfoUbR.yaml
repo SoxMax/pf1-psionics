@@ -1,0 +1,30 @@
+_id: 4yKVlWn0XRdfoUbR
+_key: '!items!4yKVlWn0XRdfoUbR'
+_stats:
+  coreVersion: '13.350'
+folder: WRrSVxfPrcveDL6q
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Talents
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Dread
+  description:
+    value: >-
+      <p>Dreads learn minor powers they can use at will to aid them in a variety
+      of ways. The dread gains 2 talents from the dread talent list.
+
+      </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 43–47
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 40–44
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: talents
+type: feat

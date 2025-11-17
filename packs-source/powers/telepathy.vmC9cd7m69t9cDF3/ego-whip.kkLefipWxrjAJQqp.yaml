@@ -28,11 +28,16 @@ system:
         value: One creature
   description:
     value: >-
-      <p>Your&nbsp;rapid&nbsp;mental&nbsp;lashings&nbsp;assault&nbsp;the&nbsp;ego&nbsp;of&nbsp;your&nbsp;enemy,&nbsp;debilitating&nbsp;its&nbsp;confidence.&nbsp;The&nbsp;target&nbsp;takes&nbsp;1d4&nbsp;points&nbsp;of&nbsp;Charisma&nbsp;damage,&nbsp;or&nbsp;half&nbsp;that&nbsp;amount&nbsp;(minimum&nbsp;1&nbsp;point)&nbsp;on&nbsp;a&nbsp;successful&nbsp;save.&nbsp;A&nbsp;target&nbsp;that&nbsp;fails&nbsp;its&nbsp;save&nbsp;is&nbsp;also&nbsp;dazed&nbsp;for&nbsp;1&nbsp;round.
+      <p>Your rapid mental lashings assault the ego of your enemy, debilitating
+      its confidence. The target takes 1d4 points of Charisma damage, or half
+      that amount (minimum 1 point) on a successful save. A target that fails
+      its save is also dazed for 1 round.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;Charisma&nbsp;damage&nbsp;increases&nbsp;by&nbsp;1d4&nbsp;points&nbsp;and&nbsp;its&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;2.
+      <p><strong>Augment:</strong> For every 4 additional power points you
+      spend, this power's Charisma damage increases by 1d4 points and its save
+      DC increases by 2.
 
       </p>
   descriptors:

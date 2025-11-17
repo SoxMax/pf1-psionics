@@ -29,7 +29,10 @@ system:
         value: One living creature
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;target&nbsp;one&nbsp;member&nbsp;of&nbsp;your&nbsp;collective&nbsp;that&nbsp;is&nbsp;dying&nbsp;(at&nbsp;-1&nbsp;hp&nbsp;or&nbsp;less).&nbsp;That&nbsp;creature&nbsp;is&nbsp;automatically&nbsp;stabilized&nbsp;and&nbsp;does&nbsp;not&nbsp;lose&nbsp;any&nbsp;further&nbsp;hit&nbsp;points.&nbsp;If&nbsp;the&nbsp;creature&nbsp;later&nbsp;takes&nbsp;damage,&nbsp;it&nbsp;continues&nbsp;dying&nbsp;normally.
+      <p>You can target one member of your collective that is dying (at -1 hp or
+      less). That creature is automatically stabilized and does not lose any
+      further hit points. If the creature later takes damage, it continues dying
+      normally.
 
       </p>
   discipline: psychometabolism

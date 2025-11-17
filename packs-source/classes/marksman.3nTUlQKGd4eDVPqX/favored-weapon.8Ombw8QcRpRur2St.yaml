@@ -1,0 +1,52 @@
+_id: 8Ombw8QcRpRur2St
+_key: '!items!8Ombw8QcRpRur2St'
+_stats:
+  coreVersion: '13.350'
+folder: 3nTUlQKGd4eDVPqX
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Favored Weapon
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Marksman
+  description:
+    value: >-
+      <p>Marksmen of 2nd level select a group of ranged weapons from the list
+      below as their preferred weapons and gain a +1 competence bonus to ranged
+      attack rolls made with any weapon of that group. Every four Marksman
+      levels thereafter, this bonus increases by 1.
+
+      </p>
+
+      <ul><li><i>Bows:</i> composite longbow, composite shortbow, orc hornbow,
+      longbow, and shortbow.</li>
+
+      <li><i>Crossbows:</i> double crossbow, hand crossbow, heavy crossbow,
+      light crossbow, repeating heavy crossbow, and repeating light
+      crossbow.</li>
+
+      <li><i>Spears:</i> javelin, lance, pilum, shortspear, spear, and
+      trident.</li>
+
+      <li><i>Thrown:</i> blowgun, bolas, boomerang, chakram, club, dagger, dart,
+      halfling sling staff, javelin, light hammer, net, shortspear, shuriken,
+      sling, spear, starknife, throwing axe, trident, wooden stake.</li></ul>
+
+      <p>Note: Additional weapons can be added to these groups or additional
+      weapon groups can be created at your GM's discretion. Some weapons may
+      belong to multiple weapon groups at your GM's discretion.
+
+      </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 47–50
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 44–46
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: favored-weapon
+type: feat

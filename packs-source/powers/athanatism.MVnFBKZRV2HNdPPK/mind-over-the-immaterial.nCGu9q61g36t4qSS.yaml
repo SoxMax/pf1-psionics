@@ -30,11 +30,15 @@ system:
         value: One incorporeal creature
   description:
     value: >-
-      <p>Your&nbsp;mastery&nbsp;of&nbsp;the&nbsp;immaterial&nbsp;weakens&nbsp;the&nbsp;mind&nbsp;of&nbsp;those&nbsp;once&nbsp;protected&nbsp;by&nbsp;it.&nbsp;The&nbsp;target&nbsp;loses&nbsp;any&nbsp;immunity&nbsp;it&nbsp;has&nbsp;to&nbsp;mind-affecting&nbsp;effects,&nbsp;spells,&nbsp;and&nbsp;powers.&nbsp;However,&nbsp;it&nbsp;gains&nbsp;a&nbsp;+4&nbsp;inherent&nbsp;bonus&nbsp;on&nbsp;saves&nbsp;against&nbsp;mind-affecting&nbsp;effects&nbsp;not&nbsp;created&nbsp;by&nbsp;you.
+      <p>Your mastery of the immaterial weakens the mind of those once protected
+      by it. The target loses any immunity it has to mind-affecting effects,
+      spells, and powers. However, it gains a +4 inherent bonus on saves against
+      mind-affecting effects not created by you.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;4&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;as&nbsp;a&nbsp;swift&nbsp;action.
+      <p><strong>Augment:</strong> By spending an additional 4 power points, you
+      can manifest this power as a swift action.
 
       </p>
   discipline: athanatism

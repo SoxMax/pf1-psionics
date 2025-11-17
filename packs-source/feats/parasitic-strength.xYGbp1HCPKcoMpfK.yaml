@@ -22,17 +22,24 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;are&nbsp;able&nbsp;to&nbsp;siphon&nbsp;the&nbsp;physical&nbsp;strength&nbsp;from&nbsp;members&nbsp;of&nbsp;your&nbsp;collective.</em></p>
+      <p><em>You are able to siphon the physical strength from members of your
+      collective.</em></p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Collective&nbsp;class&nbsp;feature,&nbsp;<a&nbsp;href="/wiki/Mind_Parasite"&nbsp;title="Mind&nbsp;Parasite">Mind&nbsp;Parasite</a>.
+      <p><strong>Prerequisites:</strong> Collective class feature, <a
+      href="/wiki/Mind_Parasite" title="Mind Parasite">Mind Parasite</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>For&nbsp;short&nbsp;bursts&nbsp;of&nbsp;time,&nbsp;you&nbsp;can&nbsp;drain&nbsp;strength&nbsp;from&nbsp;those&nbsp;in&nbsp;your&nbsp;collective&nbsp;to&nbsp;enhance&nbsp;your&nbsp;own&nbsp;strength.&nbsp;Up&nbsp;to&nbsp;3&nbsp;times&nbsp;per&nbsp;day,&nbsp;as&nbsp;a&nbsp;swift&nbsp;action,&nbsp;you
+      <p><strong>Benefit: </strong>For short bursts of time, you can drain
+      strength from those in your collective to enhance your own strength. Up to
+      3 times per day, as a swift action, you
 
-      can&nbsp;give&nbsp;every&nbsp;member&nbsp;of&nbsp;your&nbsp;collective&nbsp;a&nbsp;–1&nbsp;penalty&nbsp;on&nbsp;Strength&nbsp;checks,&nbsp;melee&nbsp;attacks&nbsp;and&nbsp;damage&nbsp;rolls&nbsp;and&nbsp;gain&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;per&nbsp;member&nbsp;to&nbsp;your&nbsp;Strength&nbsp;checks,
+      can give every member of your collective a –1 penalty on Strength checks,
+      melee attacks and damage rolls and gain a +1 bonus per member to your
+      Strength checks,
 
-      melee&nbsp;attacks&nbsp;and&nbsp;damage&nbsp;rolls.&nbsp;Both&nbsp;the&nbsp;penalty&nbsp;and&nbsp;bonus&nbsp;last&nbsp;for&nbsp;a&nbsp;number&nbsp;of&nbsp;rounds&nbsp;equal&nbsp;to&nbsp;your&nbsp;key&nbsp;ability&nbsp;modifier.
+      melee attacks and damage rolls. Both the penalty and bonus last for a
+      number of rounds equal to your key ability modifier.
 
       </p>
   disabled: false

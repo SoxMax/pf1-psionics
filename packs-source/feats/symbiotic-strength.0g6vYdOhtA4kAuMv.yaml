@@ -22,13 +22,17 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;collective&nbsp;allows&nbsp;you&nbsp;to&nbsp;gain&nbsp;a&nbsp;brief&nbsp;burst&nbsp;of&nbsp;strength.</em></p>
+      <p><em>Your collective allows you to gain a brief burst of
+      strength.</em></p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Collective&nbsp;class&nbsp;feature,&nbsp;<a&nbsp;href="/wiki/Mind_Symbiote"&nbsp;title="Mind&nbsp;Symbiote">Mind&nbsp;Symbiote</a>.
+      <p><strong>Prerequisites:</strong> Collective class feature, <a
+      href="/wiki/Mind_Symbiote" title="Mind Symbiote">Mind Symbiote</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>Up&nbsp;to&nbsp;3&nbsp;times&nbsp;per&nbsp;day,&nbsp;as&nbsp;a&nbsp;swift&nbsp;action,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+1&nbsp;bonus&nbsp;per&nbsp;member&nbsp;to&nbsp;your&nbsp;next&nbsp;Strength&nbsp;check&nbsp;or&nbsp;your&nbsp;next&nbsp;melee&nbsp;attack&nbsp;and&nbsp;damage&nbsp;roll.
+      <p><strong>Benefit: </strong>Up to 3 times per day, as a swift action, you
+      gain a +1 bonus per member to your next Strength check or your next melee
+      attack and damage roll.
 
       </p>
   disabled: false

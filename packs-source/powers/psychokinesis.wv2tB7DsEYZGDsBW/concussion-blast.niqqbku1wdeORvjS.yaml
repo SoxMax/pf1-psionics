@@ -30,17 +30,28 @@ system:
         value: One creature or object
   description:
     value: >-
-      <p>A&nbsp;subject&nbsp;you&nbsp;select&nbsp;is&nbsp;pummeled&nbsp;with&nbsp;telekinetic&nbsp;force&nbsp;for&nbsp;1d6&nbsp;points&nbsp;of&nbsp;force&nbsp;damage.&nbsp;You&nbsp;can&nbsp;choose&nbsp;to&nbsp;instead&nbsp;have&nbsp;the&nbsp;power&nbsp;deal&nbsp;an&nbsp;equal&nbsp;amount&nbsp;of&nbsp;nonlethal&nbsp;damage.&nbsp;Concussion&nbsp;blast&nbsp;always&nbsp;affects&nbsp;a&nbsp;subject&nbsp;within&nbsp;range&nbsp;that&nbsp;you&nbsp;can&nbsp;see,&nbsp;even&nbsp;if&nbsp;the&nbsp;subject&nbsp;is&nbsp;in&nbsp;melee&nbsp;or&nbsp;has&nbsp;cover&nbsp;or&nbsp;concealment&nbsp;(you&nbsp;cannot&nbsp;use&nbsp;this&nbsp;power&nbsp;against&nbsp;creatures&nbsp;with&nbsp;total&nbsp;cover&nbsp;or&nbsp;total&nbsp;concealment).
+      <p>A subject you select is pummeled with telekinetic force for 1d6 points
+      of force damage. You can choose to instead have the power deal an equal
+      amount of nonlethal damage. Concussion blast always affects a subject
+      within range that you can see, even if the subject is in melee or has
+      cover or concealment (you cannot use this power against creatures with
+      total cover or total concealment).
 
       </p>
 
-      <p>Nonmagical,&nbsp;unattended&nbsp;objects&nbsp;(including&nbsp;doors,&nbsp;walls,&nbsp;locks,&nbsp;and&nbsp;so&nbsp;on)&nbsp;may&nbsp;also&nbsp;be&nbsp;damaged&nbsp;by&nbsp;this&nbsp;power.
+      <p>Nonmagical, unattended objects (including doors, walls, locks, and so
+      on) may also be damaged by this power.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;can&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You can augment this power in one or both of
+      the following ways.
 
-      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;damage&nbsp;increases&nbsp;by&nbsp;1d6&nbsp;points.</li><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power&nbsp;can&nbsp;affect&nbsp;an&nbsp;additional&nbsp;target.&nbsp;Any&nbsp;additional&nbsp;target&nbsp;cannot&nbsp;be&nbsp;more&nbsp;than&nbsp;15&nbsp;feet&nbsp;from&nbsp;another&nbsp;target&nbsp;of&nbsp;the&nbsp;power.</li></ol>
+      </p><ol><li>For every 2 additional power points you spend, this power's
+      damage increases by 1d6 points.</li><li>For every 2 additional power
+      points you spend, this power can affect an additional target. Any
+      additional target cannot be more than 15 feet from another target of the
+      power.</li></ol>
   descriptors:
     - force
   discipline: psychokinesis

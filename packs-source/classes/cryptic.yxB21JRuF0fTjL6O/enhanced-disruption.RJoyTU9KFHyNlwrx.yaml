@@ -1,0 +1,33 @@
+_id: RJoyTU9KFHyNlwrx
+_key: '!items!RJoyTU9KFHyNlwrx'
+_stats:
+  coreVersion: '13.350'
+folder: yxB21JRuF0fTjL6O
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Enhanced Disruption
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Cryptic
+  description:
+    value: >-
+      <p>At 3rd level and every two levels thereafter, the cryptic's disrupt
+      pattern deals an additional 1d6 points of damage. This additional damage
+      is not multiplied on a critical hit or by using feats such as Vital
+      Strike, but it is halved if the creature struck is not of the cryptic's
+      active creature type.
+
+      </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 36–42
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 34–40
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: enhanced-disruption
+type: feat

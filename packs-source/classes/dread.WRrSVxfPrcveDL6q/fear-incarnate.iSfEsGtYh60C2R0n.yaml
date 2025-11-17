@@ -1,0 +1,37 @@
+_id: iSfEsGtYh60C2R0n
+_key: '!items!iSfEsGtYh60C2R0n'
+_stats:
+  coreVersion: '13.350'
+folder: WRrSVxfPrcveDL6q
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Fear Incarnate
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Dread
+  description:
+    value: >-
+      <p>At 20th level the dread no longer acts as a simple conduit between the
+      realm of nightmares and the Material Plane, but becomes the embodiment of
+      nightmares. The dread's type changes to Outsider (native), she gains DR
+      10/psionic, and she gains the ability to turn ethereal at will. In
+      addition, the dread can use the Nightmare Form terror at will, even if she
+      does not already have it. Using Nightmare Form no longer consumes a use of
+      her terrors for the day.
+
+      </p>
+
+      <div class="mw-heading mw-heading2"></p>
+  sources:
+    - date: '2012-07-23'
+      pages: 43–47
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 40–44
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: fear-incarnate
+type: feat

@@ -1,0 +1,39 @@
+_id: aXK08eTE3JfiuYbs
+_key: '!items!aXK08eTE3JfiuYbs'
+_stats:
+  coreVersion: '13.350'
+folder: vB44mLAuVxEJLzeN
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Supremacy
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Highlord
+  description:
+    value: >-
+      <p>Once per round, when a 20th level highlord would die or be destroyed,
+      he may choose to have a member of his collective die or be destroyed in
+      his stead. Loss of hit points and death effects simply fail to kill him,
+      he suffers no change in Constitution score, and he ignores ongoing damage
+      for a round. The highlord is healed for an amount equal to the current hit
+      points of the member who died for him. If this amount of hit points is not
+      enough to bring the highlord back above the threshold of death, then the
+      highlord still dies. This is a death effect, and he may not choose a
+      creature immune to death effects to die in his stead.
+
+      </p><p>A member of the collective may attempt to resist this effect with a
+      Will save (DC 20 + the highlord's Charisma modifier). If they succeed, the
+      highlord dies as normal.
+
+      </p>
+
+      <div class="mw-heading mw-heading2"></p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–6
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: classFeat
+  tag: supremacy
+type: feat

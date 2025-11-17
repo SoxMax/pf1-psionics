@@ -30,7 +30,9 @@ system:
         value: One living creature
   description:
     value: >-
-      <p>You&nbsp;direct&nbsp;a&nbsp;ray&nbsp;of&nbsp;psionic&nbsp;energy&nbsp;at&nbsp;a&nbsp;target&nbsp;as&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack.&nbsp;If&nbsp;it&nbsp;hits,&nbsp;the&nbsp;target&nbsp;suffers&nbsp;1d3&nbsp;points&nbsp;of&nbsp;damage,&nbsp;and&nbsp;you,&nbsp;or&nbsp;a&nbsp;member&nbsp;of&nbsp;your&nbsp;collective,&nbsp;gain&nbsp;1&nbsp;temporary&nbsp;hit&nbsp;point&nbsp;for&nbsp;1&nbsp;minute.
+      <p>You direct a ray of psionic energy at a target as a ranged touch
+      attack. If it hits, the target suffers 1d3 points of damage, and you, or a
+      member of your collective, gain 1 temporary hit point for 1 minute.
 
       </p>
   discipline: psychometabolism

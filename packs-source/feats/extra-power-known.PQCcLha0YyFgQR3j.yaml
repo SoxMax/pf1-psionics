@@ -21,31 +21,19 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;know&nbsp;an&nbsp;additional&nbsp;psionic&nbsp;power.
-
+    value: |-
+      <p>You know an additional psionic power.
       </p>
-
-      <p><strong>Prerequisite:&nbsp;</strong>Manifester&nbsp;level&nbsp;1st.
-
+      <p><strong>Prerequisite: </strong>Manifester level 1st.
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>Add&nbsp;one&nbsp;additional&nbsp;power&nbsp;known&nbsp;of&nbsp;any&nbsp;level
-
-      up&nbsp;to&nbsp;the&nbsp;highest-level&nbsp;power&nbsp;you&nbsp;can&nbsp;manifest&nbsp;to&nbsp;your
-
-      powers&nbsp;known.&nbsp;You&nbsp;can&nbsp;only&nbsp;choose&nbsp;the&nbsp;power&nbsp;from
-
-      your&nbsp;class&nbsp;power&nbsp;list.
-
+      <p><strong>Benefit: </strong>Add one additional power known of any level
+      up to the highest-level power you can manifest to your
+      powers known. You can only choose the power from
+      your class power list.
       </p>
-
-      <p><strong>Special:&nbsp;</strong>You&nbsp;can&nbsp;gain&nbsp;this&nbsp;feat&nbsp;multiple&nbsp;times.&nbsp;Each
-
-      time,&nbsp;you&nbsp;learn&nbsp;one&nbsp;new&nbsp;power&nbsp;from&nbsp;your&nbsp;class&nbsp;power
-
-      list&nbsp;up&nbsp;to&nbsp;the&nbsp;highest-level&nbsp;power&nbsp;you&nbsp;can&nbsp;manifest.
-
+      <p><strong>Special: </strong>You can gain this feat multiple times. Each
+      time, you learn one new power from your class power
+      list up to the highest-level power you can manifest.
       </p>
   disabled: false
   featType: feat

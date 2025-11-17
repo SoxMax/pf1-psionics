@@ -22,39 +22,40 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;cause&nbsp;dispelled&nbsp;effects&nbsp;to&nbsp;make&nbsp;the&nbsp;target
+      <p>You can cause dispelled effects to make the target
 
-      more&nbsp;prone&nbsp;to&nbsp;your&nbsp;powers.
-
-      </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Spellcraft&nbsp;5&nbsp;ranks.
+      more prone to your powers.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>If&nbsp;you&nbsp;make&nbsp;a&nbsp;successful&nbsp;targeted&nbsp;dispel&nbsp;check,
-
-      you&nbsp;may&nbsp;choose&nbsp;to&nbsp;have&nbsp;the&nbsp;effect&nbsp;unravel&nbsp;violently,
-
-      lashing&nbsp;the&nbsp;target&nbsp;of&nbsp;the&nbsp;dispel&nbsp;with&nbsp;psychic&nbsp;static&nbsp;that
-
-      imposes&nbsp;a&nbsp;-1&nbsp;penalty&nbsp;on&nbsp;saves&nbsp;against&nbsp;any&nbsp;power&nbsp;you
-
-      manifest&nbsp;until&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;next&nbsp;turn.&nbsp;The&nbsp;penalty
-
-      increases&nbsp;by&nbsp;1&nbsp;for&nbsp;each&nbsp;effect&nbsp;dispelled.&nbsp;The&nbsp;target&nbsp;also
-
-      loses&nbsp;any&nbsp;psionic&nbsp;focus&nbsp;it&nbsp;has&nbsp;and&nbsp;cannot&nbsp;regain&nbsp;psionic
-
-      focus&nbsp;for&nbsp;1&nbsp;round.
+      <p><strong>Prerequisites: </strong>Spellcraft 5 ranks.
 
       </p>
 
-      <p>This&nbsp;does&nbsp;not&nbsp;affect&nbsp;psionic&nbsp;focus&nbsp;contained&nbsp;in
+      <p><strong>Benefit: </strong>If you make a successful targeted dispel
+      check,
 
-      psicrystals&nbsp;via&nbsp;Psicrystal&nbsp;Containment,&nbsp;unless&nbsp;the
+      you may choose to have the effect unravel violently,
 
-      psicrystal&nbsp;is&nbsp;the&nbsp;target&nbsp;of&nbsp;the&nbsp;targeted&nbsp;dispel&nbsp;attempt.
+      lashing the target of the dispel with psychic static that
+
+      imposes a -1 penalty on saves against any power you
+
+      manifest until the end of your next turn. The penalty
+
+      increases by 1 for each effect dispelled. The target also
+
+      loses any psionic focus it has and cannot regain psionic
+
+      focus for 1 round.
+
+      </p>
+
+      <p>This does not affect psionic focus contained in
+
+      psicrystals via Psicrystal Containment, unless the
+
+      psicrystal is the target of the targeted dispel attempt.
 
       </p>
   disabled: false

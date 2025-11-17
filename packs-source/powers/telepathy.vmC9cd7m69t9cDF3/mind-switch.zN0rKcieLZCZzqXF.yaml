@@ -29,35 +29,73 @@ system:
         value: You and one other creature
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;attempt&nbsp;to&nbsp;take&nbsp;control&nbsp;of&nbsp;a&nbsp;nearby&nbsp;living&nbsp;creature,&nbsp;forcing&nbsp;your&nbsp;mind&nbsp;(and&nbsp;soul)&nbsp;into&nbsp;its&nbsp;body,&nbsp;and&nbsp;its&nbsp;mind&nbsp;into&nbsp;your&nbsp;body.&nbsp;You&nbsp;can&nbsp;target&nbsp;any&nbsp;creature&nbsp;whose&nbsp;Hit&nbsp;Dice&nbsp;are&nbsp;equal&nbsp;to&nbsp;or&nbsp;less&nbsp;than&nbsp;your&nbsp;manifester&nbsp;level.
+      <p>You can attempt to take control of a nearby living creature, forcing
+      your mind (and soul) into its body, and its mind into your body. You can
+      target any creature whose Hit Dice are equal to or less than your
+      manifester level.
 
       </p>
 
-      <p>You&nbsp;possess&nbsp;the&nbsp;target's&nbsp;body&nbsp;and&nbsp;force&nbsp;the&nbsp;creature's&nbsp;mind&nbsp;into&nbsp;your&nbsp;body&nbsp;unless&nbsp;it&nbsp;succeeds&nbsp;on&nbsp;a&nbsp;Will&nbsp;save.&nbsp;You&nbsp;can&nbsp;move&nbsp;your&nbsp;mind&nbsp;back&nbsp;into&nbsp;your&nbsp;own&nbsp;body&nbsp;whenever&nbsp;you&nbsp;desire,&nbsp;which&nbsp;returns&nbsp;the&nbsp;subject's&nbsp;mind&nbsp;to&nbsp;its&nbsp;own&nbsp;body&nbsp;and&nbsp;ends&nbsp;the&nbsp;power.&nbsp;If&nbsp;the&nbsp;manifestation&nbsp;succeeds,&nbsp;your&nbsp;life&nbsp;force&nbsp;occupies&nbsp;the&nbsp;host&nbsp;body,&nbsp;and&nbsp;the&nbsp;host's&nbsp;life&nbsp;force&nbsp;takes&nbsp;over&nbsp;yours.
+      <p>You possess the target's body and force the creature's mind into your
+      body unless it succeeds on a Will save. You can move your mind back into
+      your own body whenever you desire, which returns the subject's mind to its
+      own body and ends the power. If the manifestation succeeds, your life
+      force occupies the host body, and the host's life force takes over yours.
 
       </p>
 
-      <p>You&nbsp;can&nbsp;call&nbsp;on&nbsp;rudimentary&nbsp;or&nbsp;instinctive&nbsp;knowledge&nbsp;of&nbsp;the&nbsp;subject&nbsp;creature,&nbsp;but&nbsp;not&nbsp;upon&nbsp;its&nbsp;acquired&nbsp;or&nbsp;learned&nbsp;knowledge&nbsp;(such&nbsp;as&nbsp;skills&nbsp;and&nbsp;feats&nbsp;it&nbsp;possesses).&nbsp;The&nbsp;same&nbsp;is&nbsp;true&nbsp;for&nbsp;the&nbsp;subject&nbsp;in&nbsp;your&nbsp;body.&nbsp;The&nbsp;mind&nbsp;switch&nbsp;brings&nbsp;about&nbsp;the&nbsp;following&nbsp;changes.
+      <p>You can call on rudimentary or instinctive knowledge of the subject
+      creature, but not upon its acquired or learned knowledge (such as skills
+      and feats it possesses). The same is true for the subject in your body.
+      The mind switch brings about the following changes.
 
-      </p><ul><li>You&nbsp;gain&nbsp;the&nbsp;type&nbsp;of&nbsp;your&nbsp;assumed&nbsp;body.</li><li>You&nbsp;gain&nbsp;the&nbsp;Strength,&nbsp;Dexterity,&nbsp;and&nbsp;Constitution&nbsp;scores&nbsp;of&nbsp;your&nbsp;assumed&nbsp;body.</li><li>You&nbsp;gain&nbsp;the&nbsp;natural&nbsp;armor,&nbsp;natural&nbsp;attacks,&nbsp;movement,&nbsp;and&nbsp;other&nbsp;simple&nbsp;physical&nbsp;characteristics&nbsp;of&nbsp;your&nbsp;assumed&nbsp;body.</li><li>You&nbsp;gain&nbsp;the&nbsp;extraordinary&nbsp;special&nbsp;attacks&nbsp;and&nbsp;qualities&nbsp;of&nbsp;your&nbsp;assumed&nbsp;body,&nbsp;but&nbsp;you&nbsp;do&nbsp;not&nbsp;gain&nbsp;supernatural&nbsp;or&nbsp;spell-like&nbsp;abilities,&nbsp;nor&nbsp;do&nbsp;you&nbsp;gain&nbsp;any&nbsp;class&nbsp;abilities&nbsp;of&nbsp;the&nbsp;assumed&nbsp;body.&nbsp;Any&nbsp;racial&nbsp;trait&nbsp;which&nbsp;relies&nbsp;upon&nbsp;power&nbsp;points,&nbsp;such&nbsp;as&nbsp;the&nbsp;elan's&nbsp;resilience&nbsp;trait,&nbsp;is&nbsp;considered&nbsp;to&nbsp;be&nbsp;a&nbsp;supernatural&nbsp;ability.</li><li>You&nbsp;gain&nbsp;the&nbsp;possessions&nbsp;and&nbsp;equipment&nbsp;of&nbsp;your&nbsp;assumed&nbsp;body.</li><li>You&nbsp;retain&nbsp;your&nbsp;own&nbsp;hit&nbsp;points&nbsp;and&nbsp;saving&nbsp;throws&nbsp;(both&nbsp;possibly&nbsp;modified&nbsp;by&nbsp;new&nbsp;ability&nbsp;scores),&nbsp;class&nbsp;abilities,&nbsp;supernatural&nbsp;and&nbsp;spell-like&nbsp;abilities,&nbsp;spells&nbsp;and&nbsp;powers,&nbsp;and&nbsp;skills&nbsp;and&nbsp;feats&nbsp;(although&nbsp;skill&nbsp;checks&nbsp;use&nbsp;your&nbsp;new&nbsp;ability&nbsp;scores,&nbsp;and&nbsp;you&nbsp;may&nbsp;be&nbsp;temporarily&nbsp;unable&nbsp;to&nbsp;use&nbsp;feats&nbsp;whose&nbsp;requirements&nbsp;you&nbsp;do&nbsp;not&nbsp;meet&nbsp;in&nbsp;your&nbsp;new&nbsp;body).&nbsp;You&nbsp;retain&nbsp;any&nbsp;racial&nbsp;abilities,&nbsp;so&nbsp;long&nbsp;as&nbsp;they&nbsp;are&nbsp;not&nbsp;based&nbsp;upon&nbsp;your&nbsp;original&nbsp;form&nbsp;(for&nbsp;example,&nbsp;the&nbsp;dromite's&nbsp;chitin&nbsp;is&nbsp;based&nbsp;upon&nbsp;his&nbsp;physical&nbsp;body,&nbsp;so&nbsp;would&nbsp;not&nbsp;be&nbsp;retained).</li><li>You&nbsp;suffer&nbsp;one&nbsp;negative&nbsp;level&nbsp;while&nbsp;in&nbsp;your&nbsp;assumed&nbsp;body.</li></ul>
+      </p><ul><li>You gain the type of your assumed body.</li><li>You gain the
+      Strength, Dexterity, and Constitution scores of your assumed
+      body.</li><li>You gain the natural armor, natural attacks, movement, and
+      other simple physical characteristics of your assumed body.</li><li>You
+      gain the extraordinary special attacks and qualities of your assumed body,
+      but you do not gain supernatural or spell-like abilities, nor do you gain
+      any class abilities of the assumed body. Any racial trait which relies
+      upon power points, such as the elan's resilience trait, is considered to
+      be a supernatural ability.</li><li>You gain the possessions and equipment
+      of your assumed body.</li><li>You retain your own hit points and saving
+      throws (both possibly modified by new ability scores), class abilities,
+      supernatural and spell-like abilities, spells and powers, and skills and
+      feats (although skill checks use your new ability scores, and you may be
+      temporarily unable to use feats whose requirements you do not meet in your
+      new body). You retain any racial abilities, so long as they are not based
+      upon your original form (for example, the dromite's chitin is based upon
+      his physical body, so would not be retained).</li><li>You suffer one
+      negative level while in your assumed body.</li></ul>
 
-      <p>Supernatural&nbsp;abilities&nbsp;that&nbsp;require&nbsp;a&nbsp;certain&nbsp;body&nbsp;part&nbsp;may&nbsp;be&nbsp;unavailable&nbsp;in&nbsp;your&nbsp;new&nbsp;form.
+      <p>Supernatural abilities that require a certain body part may be
+      unavailable in your new form.
 
       </p>
 
-      <p>If&nbsp;either&nbsp;body&nbsp;is&nbsp;killed&nbsp;while&nbsp;the&nbsp;power&nbsp;is&nbsp;in&nbsp;effect,&nbsp;the&nbsp;other&nbsp;participant&nbsp;also&nbsp;dies&nbsp;when&nbsp;the&nbsp;power&nbsp;ends.&nbsp;If&nbsp;one&nbsp;participant's&nbsp;body&nbsp;becomes&nbsp;petrified,&nbsp;imprisoned&nbsp;by&nbsp;temporal&nbsp;stasis&nbsp;or&nbsp;imprisonment,&nbsp;or&nbsp;incapacitated&nbsp;in&nbsp;some&nbsp;other&nbsp;way,&nbsp;the&nbsp;other&nbsp;participant&nbsp;will&nbsp;be&nbsp;incapacitated&nbsp;in&nbsp;that&nbsp;way&nbsp;when&nbsp;the&nbsp;power&nbsp;ends.
+      <p>If either body is killed while the power is in effect, the other
+      participant also dies when the power ends. If one participant's body
+      becomes petrified, imprisoned by temporal stasis or imprisonment, or
+      incapacitated in some other way, the other participant will be
+      incapacitated in that way when the power ends.
 
       </p>
 
-      <p>A&nbsp;targeted&nbsp;dispel&nbsp;psionics&nbsp;(or&nbsp;similar&nbsp;spells&nbsp;or&nbsp;effects)&nbsp;successfully&nbsp;manifested&nbsp;on&nbsp;either&nbsp;participant&nbsp;causes&nbsp;both&nbsp;minds&nbsp;to&nbsp;return&nbsp;to&nbsp;their&nbsp;original&nbsp;bodies.
+      <p>A targeted dispel psionics (or similar spells or effects) successfully
+      manifested on either participant causes both minds to return to their
+      original bodies.
 
       </p>
 
-      <p>If&nbsp;you&nbsp;successfully&nbsp;use&nbsp;mind&nbsp;switch&nbsp;while&nbsp;already&nbsp;under&nbsp;the&nbsp;effect&nbsp;of&nbsp;mind&nbsp;switch,&nbsp;the&nbsp;original&nbsp;target&nbsp;is&nbsp;returned&nbsp;to&nbsp;its&nbsp;original&nbsp;body,&nbsp;the&nbsp;new&nbsp;target&nbsp;occupies&nbsp;your&nbsp;original&nbsp;body,&nbsp;and&nbsp;you&nbsp;occupy&nbsp;the&nbsp;body&nbsp;of&nbsp;the&nbsp;new&nbsp;target.
+      <p>If you successfully use mind switch while already under the effect of
+      mind switch, the original target is returned to its original body, the new
+      target occupies your original body, and you occupy the body of the new
+      target.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;save&nbsp;DC&nbsp;increases&nbsp;by&nbsp;1.
+      <p><strong>Augment:</strong> For every 2 additional power points you
+      spend, this power's save DC increases by 1.
 
       </p>
   descriptors:

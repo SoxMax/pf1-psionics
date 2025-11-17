@@ -22,17 +22,30 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;pretended&nbsp;judgments&nbsp;gain&nbsp;some&nbsp;true&nbsp;weight,&nbsp;promising&nbsp;true&nbsp;condemnation.</em></p>
+      <p><em>Your pretended judgments gain some true weight, promising true
+      condemnation.</em></p>
 
-      <p><strong>Prerequisites:</strong><a&nbsp;href="/wiki/Divine_Judgment"&nbsp;title="Divine&nbsp;Judgment">Divine&nbsp;Judgment</a>,&nbsp;<a&nbsp;href="/wiki/Athanatism_(Psion_Discipline)"&nbsp;title="Athanatism&nbsp;(Psion&nbsp;Discipline)">conduit</a>&nbsp;level&nbsp;5th.
+      <p><strong>Prerequisites:</strong><a href="/wiki/Divine_Judgment"
+      title="Divine Judgment">Divine Judgment</a>, <a
+      href="/wiki/Athanatism_(Psion_Discipline)" title="Athanatism (Psion
+      Discipline)">conduit</a> level 5th.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;succeed&nbsp;on&nbsp;a&nbsp;check&nbsp;to&nbsp;use&nbsp;the&nbsp;Divine&nbsp;Judgment&nbsp;feat,&nbsp;you&nbsp;may&nbsp;also&nbsp;attempt&nbsp;to&nbsp;use&nbsp;Intimidate&nbsp;to&nbsp;demoralize&nbsp;the&nbsp;target&nbsp;as&nbsp;a&nbsp;free&nbsp;action&nbsp;(including&nbsp;the&nbsp;bonus&nbsp;from&nbsp;Divine&nbsp;Judgment).&nbsp;You&nbsp;may&nbsp;demoralize&nbsp;a&nbsp;creature&nbsp;normally&nbsp;immune&nbsp;to&nbsp;fear&nbsp;or&nbsp;mind-affecting&nbsp;effects&nbsp;in&nbsp;this&nbsp;way.&nbsp;Once&nbsp;per&nbsp;day,&nbsp;while&nbsp;the&nbsp;target&nbsp;is&nbsp;demoralized&nbsp;by&nbsp;this&nbsp;effect,&nbsp;you&nbsp;may&nbsp;manifest&nbsp;aversion&nbsp;on&nbsp;that&nbsp;target&nbsp;as&nbsp;a&nbsp;psilike&nbsp;ability,&nbsp;with&nbsp;a&nbsp;DC&nbsp;equal&nbsp;to&nbsp;12&nbsp;+&nbsp;your&nbsp;Charisma&nbsp;modifier&nbsp;and&nbsp;a&nbsp;manifester&nbsp;level&nbsp;equal&nbsp;to&nbsp;your&nbsp;HD,&nbsp;ignoring&nbsp;normal&nbsp;immunities&nbsp;to&nbsp;mind-affecting&nbsp;effects.
+      <p><strong>Benefit:</strong> When you succeed on a check to use the Divine
+      Judgment feat, you may also attempt to use Intimidate to demoralize the
+      target as a free action (including the bonus from Divine Judgment). You
+      may demoralize a creature normally immune to fear or mind-affecting
+      effects in this way. Once per day, while the target is demoralized by this
+      effect, you may manifest aversion on that target as a psilike ability,
+      with a DC equal to 12 + your Charisma modifier and a manifester level
+      equal to your HD, ignoring normal immunities to mind-affecting effects.
 
       </p>
 
-      <p><strong>Special:</strong>&nbsp;You&nbsp;may&nbsp;not&nbsp;use&nbsp;both&nbsp;Condemning&nbsp;Glare&nbsp;and&nbsp;<a&nbsp;href="/wiki/Words_of_Salvation"&nbsp;title="Words&nbsp;of&nbsp;Salvation">Words&nbsp;of&nbsp;Salvation</a>&nbsp;on&nbsp;the&nbsp;same&nbsp;target&nbsp;within&nbsp;a&nbsp;24-hour&nbsp;period.
+      <p><strong>Special:</strong> You may not use both Condemning Glare and <a
+      href="/wiki/Words_of_Salvation" title="Words of Salvation">Words of
+      Salvation</a> on the same target within a 24-hour period.
 
       </p>
   disabled: false

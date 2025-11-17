@@ -28,19 +28,31 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;track&nbsp;creatures&nbsp;with&nbsp;an&nbsp;Intelligence&nbsp;score&nbsp;of&nbsp;3&nbsp;or&nbsp;greater&nbsp;by&nbsp;following&nbsp;the&nbsp;trails&nbsp;of&nbsp;mental&nbsp;energy&nbsp;they&nbsp;leave&nbsp;behind.&nbsp;Pass&nbsp;without&nbsp;trace&nbsp;and&nbsp;similar&nbsp;effects&nbsp;provide&nbsp;no&nbsp;protection&nbsp;from&nbsp;this&nbsp;power;&nbsp;however,&nbsp;creatures&nbsp;immune&nbsp;to&nbsp;mind-affecting&nbsp;effects&nbsp;leave&nbsp;no&nbsp;perceptible&nbsp;psychic&nbsp;tracks,&nbsp;and&nbsp;cannot&nbsp;be&nbsp;followed&nbsp;this&nbsp;way.
+      <p>You can track creatures with an Intelligence score of 3 or greater by
+      following the trails of mental energy they leave behind. Pass without
+      trace and similar effects provide no protection from this power; however,
+      creatures immune to mind-affecting effects leave no perceptible psychic
+      tracks, and cannot be followed this way.
 
       </p>
 
-      <p>Finding&nbsp;psychic&nbsp;tracks&nbsp;or&nbsp;following&nbsp;them&nbsp;for&nbsp;1&nbsp;mile&nbsp;requires&nbsp;a&nbsp;DC&nbsp;20&nbsp;Spellcraft&nbsp;check.&nbsp;Every&nbsp;time&nbsp;the&nbsp;tracks&nbsp;become&nbsp;difficult&nbsp;to&nbsp;follow&nbsp;(such&nbsp;as&nbsp;when&nbsp;they&nbsp;intersect&nbsp;with&nbsp;other&nbsp;psychic&nbsp;tracks,&nbsp;enter&nbsp;an&nbsp;area&nbsp;of&nbsp;heavy&nbsp;traffic&nbsp;such&nbsp;as&nbsp;a&nbsp;market,&nbsp;or&nbsp;backtrack&nbsp;and&nbsp;diverge),&nbsp;you&nbsp;must&nbsp;make&nbsp;another&nbsp;check.&nbsp;If&nbsp;you&nbsp;fail&nbsp;a&nbsp;Spellcraft&nbsp;check,&nbsp;you&nbsp;can&nbsp;retry&nbsp;by&nbsp;meditating&nbsp;for&nbsp;10&nbsp;minutes&nbsp;(low&nbsp;traffic)&nbsp;1&nbsp;hour&nbsp;(high&nbsp;traffic)&nbsp;.
+      <p>Finding psychic tracks or following them for 1 mile requires a DC 20
+      Spellcraft check. Every time the tracks become difficult to follow (such
+      as when they intersect with other psychic tracks, enter an area of heavy
+      traffic such as a market, or backtrack and diverge), you must make another
+      check. If you fail a Spellcraft check, you can retry by meditating for 10
+      minutes (low traffic) 1 hour (high traffic) .
 
       </p>
 
-      <p>While&nbsp;tracking,&nbsp;you&nbsp;move&nbsp;at&nbsp;half&nbsp;your&nbsp;normal&nbsp;speed.&nbsp;You&nbsp;may&nbsp;move&nbsp;up&nbsp;to&nbsp;your&nbsp;normal&nbsp;speed&nbsp;by&nbsp;taking&nbsp;a&nbsp;-5&nbsp;penalty&nbsp;on&nbsp;the&nbsp;Spellcraft&nbsp;check,&nbsp;or&nbsp;double&nbsp;your&nbsp;speed&nbsp;by&nbsp;taking&nbsp;a&nbsp;-20&nbsp;penalty&nbsp;on&nbsp;the&nbsp;Spellcraft&nbsp;check.
+      <p>While tracking, you move at half your normal speed. You may move up to
+      your normal speed by taking a -5 penalty on the Spellcraft check, or
+      double your speed by taking a -20 penalty on the Spellcraft check.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;on&nbsp;your&nbsp;Spellcraft&nbsp;checks&nbsp;to&nbsp;follow&nbsp;psychic&nbsp;tracks.
+      <p><strong>Augment:</strong> For every additional power point you spend,
+      you gain a +2 bonus on your Spellcraft checks to follow psychic tracks.
 
       </p>
   discipline: clairsentience

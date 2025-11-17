@@ -1,0 +1,148 @@
+_id: EW72ej4tfc0Ilw3X
+_key: '!items!EW72ej4tfc0Ilw3X'
+_stats:
+  coreVersion: '13.351'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Maenad
+img: systems/pf1/icons/races/half-elf.png
+name: Maenad
+system:
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  creatureSubtypes:
+    - human
+    - psionic
+  creatureTypes:
+    - humanoid
+  description:
+    value: >-
+      <p>A primarily sea-faring race, maenads are a dichotomy. To outsiders,
+      they appear to be extremely reserved, yet they are rumored to be
+      exceptionally emotional. Both sides are actually true. As a race, maenads
+      must maintain control over their internal emotional turmoil, except when
+      they unleash these bottled-up emotions in powerful displays. Born with
+      raging emotions that threaten to tear their psyche apart unless properly
+      controlled, maenads do not know why they have these powerful emotions
+      warring within them. Their legends speak of being wronged by an ancient
+      deity that the maenads revolted against and overthrew, resulting in the
+      emotional curse they maintain to date. Maenads have a proclivity to
+      martial studies, as it gives an outlet for their bottled
+      emotions.</p><p><strong>Physical Description:</strong> Standing slightly
+      taller than humans, roughly shoulder to shoulder with half-orcs, maenads
+      are physically impressive. Male maenads are usually equal in height, but
+      slightly heavier than females. They have thick, dark hair on their heads,
+      but lack any other hair on their body; instead their skin is covered in
+      flecks of sparkling crystals, giving them a peculiar sparkle. The
+      coloration of these crystals define the look for each individual maenad,
+      ranging from pale white to jet black, and many believe that the coloration
+      is determined by their most powerful emotion. Maenads are naturally
+      graceful and have fine features, possessing an elf-like beauty. They
+      prefer heavier clothing, and wear armor if available, but tend to go
+      barefoot, especially when aboard a ship.</p><p><strong>Society:</strong>
+      As a primarily sea-faring race, maenads tend to live either in coastal
+      regions, or on islands and archipelagos. The nature of the ocean tends to
+      soothe the internal turmoil of the maenad mind, for the calm waters that
+      can turn to a deadly tidal wave are something to which a maenad can
+      relate. As a result, much of maenad society revolves around the ocean:
+      fishing, sailing, and swimming are the main activities of a maenad
+      society. Most maenad villages tend to be no larger than a few hundred
+      residents. Many maenads turn to tradition and ritual as ways to control
+      their emotions. In some villages, this ritualization can take over, where
+      every aspect of life is defined by a ritual that must be followed,
+      although this sort of extreme situation is uncommon among the race as a
+      whole.</p><p><strong>Relations:</strong> Maenads are typically distant
+      towards other races, although they are most comfortable with humans, who
+      have various temperaments that are not very different from their own. The
+      open emotions of halflings, gnomes, and xephs confuse maenads, who have a
+      hard time understanding living in such a capricious and carefree fashion.
+      Elven society flows at a good pace for most maenads, and the lightness of
+      being soothes a maenad’s spirit. While the dwarves are often civilized,
+      their brazen ways, physical tendencies, and love of drink tend to be
+      off-putting for maenaeds, although they respect the dwarves‘ ability to
+      hold a grudge. Maenads view the violent dispositions of half-orcs and
+      half-giantsas a good excuse to channel their emotions in combat, but
+      recognize that they should partake in such events
+      sparingly.</p><p><strong>Alignment and Religion:</strong> Maenads prefer
+      to worship gods of dichotomy to represent the dual nature of the maenads’
+      emotion. Most maenads are lawful, seeing the structure of rules as helpful
+      toward maintaining composure and self-control. Generally, they seek to
+      help others also maintain their own self-control, and have a tendency
+      toward good alignment as a result.</p><p><strong>Male Names:</strong>
+      Adrian, Idonas, Alyx, Kristobal, Dymien, Dannis, Mixamis,
+      Philisophos.</p><p><strong>Female Names:</strong> Alyxia, Dayanara,
+      Dimiris, Kaia, Kalli, Kyte, Mylissa, Panalope.</p>
+  links:
+    supplements:
+      - name: Inner Rage
+        uuid: Compendium.pf1-psionics.races.Item.F1mFsMbjP7qCZ6aJ
+      - name: Maenad Psionics
+        uuid: Compendium.pf1-psionics.races.Item.83D0zVSLIUov8zP2
+      - name: Natural Sailors
+        uuid: Compendium.pf1-psionics.races.Item.kwuduWW5kiki7Ims
+      - name: Naturally Psionic
+        uuid: Compendium.pf1-psionics.races.Item.UMoSrdSujTobhqt1
+      - name: Ordered Rage
+        uuid: Compendium.pf1-psionics.races.Item.bCPyAnuBwvqm4kQD
+      - name: Outburst
+        uuid: Compendium.pf1-psionics.races.Item.kVKw7BC58EsAuYBN
+      - name: Psionic Aptitude
+        uuid: Compendium.pf1-psionics.races.Item.9hXskdnj9ZTfV4FU
+      - name: Sonic Affinity
+        uuid: Compendium.pf1-psionics.races.Item.Kv4qfPJ3J1ygEg8E
+      - name: Weapon Familiarity
+        uuid: Compendium.pf1-psionics.races.Item.iuvtxCfQDh9NCrko
+  quadruped: false
+  size: med
+  speeds:
+    flyManeuverability: average
+    land: 30
+type: race

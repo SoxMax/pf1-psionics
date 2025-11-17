@@ -25,39 +25,44 @@ system:
         description: None
   description:
     value: >-
-      <p>This&nbsp;power&nbsp;functions&nbsp;like&nbsp;ectoplasmic&nbsp;creation,&nbsp;except&nbsp;that&nbsp;you&nbsp;can&nbsp;also&nbsp;create&nbsp;an&nbsp;object&nbsp;of&nbsp;mineral&nbsp;nature:&nbsp;stone,&nbsp;crystal,&nbsp;metal,&nbsp;or&nbsp;the&nbsp;like.&nbsp;The&nbsp;duration&nbsp;of&nbsp;the&nbsp;created&nbsp;item&nbsp;varies&nbsp;with&nbsp;its&nbsp;relative&nbsp;hardness&nbsp;and&nbsp;rarity,&nbsp;as&nbsp;indicated&nbsp;on&nbsp;the&nbsp;following&nbsp;table.
+      <p>This power functions like ectoplasmic creation, except that you can
+      also create an object of mineral nature: stone, crystal, metal, or the
+      like. The duration of the created item varies with its relative hardness
+      and rarity, as indicated on the following table.
 
-      </p><table><tr><th>Hardness&nbsp;and&nbsp;Rarity&nbsp;Examples
+      </p><table><tr><th>Hardness and Rarity Examples
 
       </th><th>Duration
 
-      </th></tr><tr><td>Vegetable&nbsp;matter
+      </th></tr><tr><td>Vegetable matter
 
-      </td><td>2&nbsp;hr./level
+      </td><td>2 hr./level
 
-      </td></tr><tr><td>Stone,&nbsp;crystal,&nbsp;base&nbsp;metals
+      </td></tr><tr><td>Stone, crystal, base metals
 
-      </td><td>1&nbsp;hr./level
+      </td><td>1 hr./level
 
-      </td></tr><tr><td>Precious&nbsp;metals
+      </td></tr><tr><td>Precious metals
 
-      </td><td>20&nbsp;min./level
+      </td><td>20 min./level
 
       </td></tr><tr><td>Gems
 
-      </td><td>10&nbsp;min./level
+      </td><td>10 min./level
 
-      </td></tr><tr><td>Rare&nbsp;metal*
+      </td></tr><tr><td>Rare metal*
 
-      </td><td>1&nbsp;round/level
+      </td><td>1 round/level
 
       </td></tr></table>
 
-      <p>*&nbsp;Includes&nbsp;adamantine,&nbsp;alchemical&nbsp;silver,&nbsp;and&nbsp;mithral.
+      <p>* Includes adamantine, alchemical silver, and mithral.
 
       </p>
 
-      <p>You&nbsp;can't&nbsp;use&nbsp;major&nbsp;ectoplasmic&nbsp;creation&nbsp;to&nbsp;create&nbsp;a&nbsp;cold&nbsp;iron&nbsp;item.&nbsp;Additional&nbsp;rare&nbsp;items&nbsp;are&nbsp;possible&nbsp;at&nbsp;the&nbsp;GM's&nbsp;discretion,&nbsp;but&nbsp;should&nbsp;typically&nbsp;be&nbsp;limited&nbsp;to&nbsp;1&nbsp;round/level.
+      <p>You can't use major ectoplasmic creation to create a cold iron item.
+      Additional rare items are possible at the GM's discretion, but should
+      typically be limited to 1 round/level.
 
       </p>
   discipline: metacreativity

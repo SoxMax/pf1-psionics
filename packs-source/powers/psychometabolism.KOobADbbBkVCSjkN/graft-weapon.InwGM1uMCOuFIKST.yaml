@@ -28,23 +28,46 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;attach&nbsp;any&nbsp;melee&nbsp;weapon&nbsp;you&nbsp;can&nbsp;use&nbsp;in&nbsp;one&nbsp;hand—&nbsp;mundane,&nbsp;psionic,&nbsp;or&nbsp;magical—onto&nbsp;the&nbsp;end&nbsp;of&nbsp;one&nbsp;of&nbsp;your&nbsp;arms.&nbsp;The&nbsp;weapon&nbsp;becomes&nbsp;a&nbsp;natural&nbsp;extension&nbsp;of&nbsp;your&nbsp;arm,&nbsp;and&nbsp;that&nbsp;hand&nbsp;blends&nbsp;seamlessly&nbsp;into&nbsp;the&nbsp;shaft,&nbsp;hilt,&nbsp;or&nbsp;head&nbsp;of&nbsp;the&nbsp;weapon.&nbsp;Now&nbsp;that&nbsp;the&nbsp;weapon&nbsp;and&nbsp;you&nbsp;are&nbsp;one,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+1&nbsp;competence&nbsp;bonus&nbsp;on&nbsp;all&nbsp;attack&nbsp;and&nbsp;damage&nbsp;rolls&nbsp;while&nbsp;using&nbsp;the&nbsp;weapon.
+      <p>You attach any melee weapon you can use in one hand— mundane, psionic,
+      or magical—onto the end of one of your arms. The weapon becomes a natural
+      extension of your arm, and that hand blends seamlessly into the shaft,
+      hilt, or head of the weapon. Now that the weapon and you are one, you gain
+      a +1 competence bonus on all attack and damage rolls while using the
+      weapon.
 
       </p>
 
-      <p>The&nbsp;grafted&nbsp;weapon&nbsp;is&nbsp;considered&nbsp;both&nbsp;a&nbsp;standard&nbsp;weapon&nbsp;and&nbsp;a&nbsp;natural&nbsp;weapon&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of&nbsp;effects&nbsp;that&nbsp;distinguish&nbsp;between&nbsp;either&nbsp;weapon&nbsp;type.&nbsp;For&nbsp;instance,&nbsp;the&nbsp;grafted&nbsp;weapon&nbsp;is&nbsp;treated&nbsp;as&nbsp;a&nbsp;natural&nbsp;weapon&nbsp;for&nbsp;the&nbsp;purpose&nbsp;of&nbsp;delivering&nbsp;a&nbsp;touch&nbsp;attack&nbsp;with&nbsp;a&nbsp;power&nbsp;in&nbsp;conjunction&nbsp;with&nbsp;the&nbsp;weapon&nbsp;attack.&nbsp;As&nbsp;with&nbsp;any&nbsp;power&nbsp;(or&nbsp;spell)&nbsp;melee&nbsp;touch&nbsp;attack&nbsp;made&nbsp;in&nbsp;conjunction&nbsp;with&nbsp;a&nbsp;natural&nbsp;weapon&nbsp;attack,&nbsp;the&nbsp;touch&nbsp;attack&nbsp;effect&nbsp;is&nbsp;not&nbsp;delivered&nbsp;unless&nbsp;the&nbsp;natural&nbsp;weapon&nbsp;strikes&nbsp;normally;&nbsp;on&nbsp;a&nbsp;failed&nbsp;attack,&nbsp;the&nbsp;touch&nbsp;power&nbsp;(or&nbsp;spell)&nbsp;is&nbsp;wasted.
+      <p>The grafted weapon is considered both a standard weapon and a natural
+      weapon for the purpose of effects that distinguish between either weapon
+      type. For instance, the grafted weapon is treated as a natural weapon for
+      the purpose of delivering a touch attack with a power in conjunction with
+      the weapon attack. As with any power (or spell) melee touch attack made in
+      conjunction with a natural weapon attack, the touch attack effect is not
+      delivered unless the natural weapon strikes normally; on a failed attack,
+      the touch power (or spell) is wasted.
 
       </p>
 
-      <p>For&nbsp;a&nbsp;creature&nbsp;under&nbsp;the&nbsp;effect&nbsp;of&nbsp;the&nbsp;claws&nbsp;of&nbsp;the&nbsp;beast&nbsp;power,&nbsp;grafting&nbsp;a&nbsp;weapon&nbsp;means&nbsp;that&nbsp;attacks&nbsp;with&nbsp;this&nbsp;hand&nbsp;deal&nbsp;the&nbsp;base&nbsp;damage&nbsp;of&nbsp;the&nbsp;weapon,&nbsp;instead&nbsp;of&nbsp;the&nbsp;claw&nbsp;upon&nbsp;which&nbsp;the&nbsp;creature&nbsp;normally&nbsp;relies.
+      <p>For a creature under the effect of the claws of the beast power,
+      grafting a weapon means that attacks with this hand deal the base damage
+      of the weapon, instead of the claw upon which the creature normally
+      relies.
 
       </p>
 
-      <p>While&nbsp;your&nbsp;hand&nbsp;is&nbsp;grafted&nbsp;to&nbsp;a&nbsp;weapon,&nbsp;you&nbsp;lose&nbsp;the&nbsp;use&nbsp;of&nbsp;that&nbsp;hand&nbsp;and&nbsp;take&nbsp;a&nbsp;–2&nbsp;penalty&nbsp;on&nbsp;all&nbsp;skill&nbsp;checks&nbsp;requiring&nbsp;the&nbsp;use&nbsp;of&nbsp;hands.&nbsp;Powers&nbsp;that&nbsp;temporarily&nbsp;polymorph&nbsp;or&nbsp;metamorph&nbsp;you&nbsp;can&nbsp;ignore&nbsp;the&nbsp;grafted&nbsp;weapon&nbsp;or&nbsp;alter&nbsp;it&nbsp;normally,&nbsp;at&nbsp;your&nbsp;discretion.&nbsp;If&nbsp;the&nbsp;weapon&nbsp;takes&nbsp;damage,&nbsp;you&nbsp;take&nbsp;damage&nbsp;as&nbsp;well.&nbsp;If&nbsp;you&nbsp;are&nbsp;healed,&nbsp;so&nbsp;is&nbsp;your&nbsp;grafted&nbsp;weapon.&nbsp;If&nbsp;your&nbsp;weapon&nbsp;is&nbsp;destroyed,&nbsp;you&nbsp;permanently&nbsp;lose&nbsp;2&nbsp;points&nbsp;of&nbsp;Constitution;&nbsp;the&nbsp;ability&nbsp;drain&nbsp;persists&nbsp;until&nbsp;you&nbsp;can&nbsp;restore&nbsp;your&nbsp;natural&nbsp;anatomy&nbsp;(by&nbsp;means&nbsp;of&nbsp;regenerate&nbsp;or&nbsp;a&nbsp;similar&nbsp;effect).
+      <p>While your hand is grafted to a weapon, you lose the use of that hand
+      and take a –2 penalty on all skill checks requiring the use of hands.
+      Powers that temporarily polymorph or metamorph you can ignore the grafted
+      weapon or alter it normally, at your discretion. If the weapon takes
+      damage, you take damage as well. If you are healed, so is your grafted
+      weapon. If your weapon is destroyed, you permanently lose 2 points of
+      Constitution; the ability drain persists until you can restore your
+      natural anatomy (by means of regenerate or a similar effect).
 
       </p>
 
-      <p>When&nbsp;this&nbsp;power's&nbsp;duration&nbsp;expires,&nbsp;the&nbsp;grafted&nbsp;weapon&nbsp;falls&nbsp;to&nbsp;the&nbsp;ground&nbsp;and&nbsp;your&nbsp;hand&nbsp;returns.
+      <p>When this power's duration expires, the grafted weapon falls to the
+      ground and your hand returns.
 
       </p>
   discipline: psychometabolism

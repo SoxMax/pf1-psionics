@@ -28,27 +28,43 @@ system:
         value: You
   description:
     value: >-
-      <p>This&nbsp;power&nbsp;transforms&nbsp;your&nbsp;body&nbsp;into&nbsp;living&nbsp;oak,&nbsp;which&nbsp;grants&nbsp;you&nbsp;several&nbsp;advantages.
+      <p>This power transforms your body into living oak, which grants you
+      several advantages.
 
       </p>
 
-      <p>You&nbsp;gain&nbsp;damage&nbsp;reduction&nbsp;10/&nbsp;slashing&nbsp;and&nbsp;a&nbsp;+5&nbsp;bonus&nbsp;to&nbsp;natural&nbsp;armor&nbsp;that&nbsp;overlaps&nbsp;(does&nbsp;not&nbsp;stack&nbsp;with)&nbsp;any&nbsp;natural&nbsp;armor&nbsp;bonus&nbsp;you&nbsp;may&nbsp;already&nbsp;have.&nbsp;You&nbsp;are&nbsp;immune&nbsp;to&nbsp;ability&nbsp;damage,&nbsp;blindness,&nbsp;deafness,&nbsp;disease,&nbsp;drowning,&nbsp;poison,&nbsp;stunning,&nbsp;and&nbsp;all&nbsp;powers,&nbsp;spells,&nbsp;or&nbsp;attacks&nbsp;that&nbsp;affect&nbsp;your&nbsp;physiology&nbsp;or&nbsp;respiration,&nbsp;because&nbsp;you&nbsp;have&nbsp;no&nbsp;physiology&nbsp;or&nbsp;respiration&nbsp;while&nbsp;this&nbsp;power&nbsp;is&nbsp;in&nbsp;effect.
+      <p>You gain damage reduction 10/ slashing and a +5 bonus to natural armor
+      that overlaps (does not stack with) any natural armor bonus you may
+      already have. You are immune to ability damage, blindness, deafness,
+      disease, drowning, poison, stunning, and all powers, spells, or attacks
+      that affect your physiology or respiration, because you have no physiology
+      or respiration while this power is in effect.
 
       </p>
 
-      <p>You&nbsp;take&nbsp;half&nbsp;damage&nbsp;from&nbsp;cold&nbsp;effects&nbsp;of&nbsp;all&nbsp;kinds.&nbsp;However,&nbsp;you&nbsp;become&nbsp;susceptible&nbsp;to&nbsp;all&nbsp;special&nbsp;attacks&nbsp;that&nbsp;affect&nbsp;wood,&nbsp;and&nbsp;you&nbsp;gain&nbsp;vulnerability&nbsp;to&nbsp;fire.
+      <p>You take half damage from cold effects of all kinds. However, you
+      become susceptible to all special attacks that affect wood, and you gain
+      vulnerability to fire.
 
       </p>
 
-      <p>You&nbsp;gain&nbsp;a&nbsp;+4&nbsp;enhancement&nbsp;bonus&nbsp;to&nbsp;Strength,&nbsp;but&nbsp;you&nbsp;take&nbsp;a&nbsp;–2&nbsp;penalty&nbsp;to&nbsp;Dexterity&nbsp;(to&nbsp;a&nbsp;minimum&nbsp;Dexterity&nbsp;score&nbsp;of&nbsp;1),&nbsp;and&nbsp;your&nbsp;speed&nbsp;is&nbsp;reduced&nbsp;to&nbsp;half&nbsp;normal.&nbsp;You&nbsp;can&nbsp;speak&nbsp;but&nbsp;cannot&nbsp;drink&nbsp;(and&nbsp;thus&nbsp;can't&nbsp;use&nbsp;potions)&nbsp;or&nbsp;play&nbsp;wind&nbsp;instruments.&nbsp;You&nbsp;have&nbsp;an&nbsp;armor&nbsp;check&nbsp;penalty&nbsp;of&nbsp;–4&nbsp;and&nbsp;an&nbsp;arcane&nbsp;spell&nbsp;failure&nbsp;chance&nbsp;of&nbsp;25%.
+      <p>You gain a +4 enhancement bonus to Strength, but you take a –2 penalty
+      to Dexterity (to a minimum Dexterity score of 1), and your speed is
+      reduced to half normal. You can speak but cannot drink (and thus can't use
+      potions) or play wind instruments. You have an armor check penalty of –4
+      and an arcane spell failure chance of 25%.
 
       </p>
 
-      <p>Your&nbsp;unarmed&nbsp;attacks&nbsp;deal&nbsp;damage&nbsp;equal&nbsp;to&nbsp;a&nbsp;club&nbsp;sized&nbsp;for&nbsp;you&nbsp;(1d4&nbsp;for&nbsp;Small&nbsp;characters,&nbsp;1d6&nbsp;for&nbsp;Medium&nbsp;characters),&nbsp;and&nbsp;you&nbsp;are&nbsp;considered&nbsp;armed&nbsp;when&nbsp;making&nbsp;unarmed&nbsp;attacks.&nbsp;When&nbsp;you&nbsp;make&nbsp;a&nbsp;full&nbsp;attack&nbsp;against&nbsp;an&nbsp;object&nbsp;or&nbsp;structure&nbsp;using&nbsp;your&nbsp;unarmed&nbsp;strike,&nbsp;you&nbsp;deal&nbsp;double&nbsp;damage.
+      <p>Your unarmed attacks deal damage equal to a club sized for you (1d4 for
+      Small characters, 1d6 for Medium characters), and you are considered armed
+      when making unarmed attacks. When you make a full attack against an object
+      or structure using your unarmed strike, you deal double damage.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;duration&nbsp;increases&nbsp;by&nbsp;1&nbsp;minute.
+      <p><strong>Augment:</strong> For every additional power point you spend,
+      this power's duration increases by 1 minute.
 
       </p>
   discipline: psychometabolism

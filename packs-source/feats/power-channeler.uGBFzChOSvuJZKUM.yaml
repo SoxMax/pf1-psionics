@@ -21,33 +21,20 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;have&nbsp;learned&nbsp;how&nbsp;to&nbsp;channel&nbsp;your&nbsp;powers&nbsp;through
-
-      your&nbsp;weaponry,&nbsp;allowing&nbsp;you&nbsp;to&nbsp;make&nbsp;melee&nbsp;attacks&nbsp;and
-
-      channel&nbsp;offensive&nbsp;powers&nbsp;at&nbsp;the&nbsp;same&nbsp;time.
-
+    value: |-
+      <p>You have learned how to channel your powers through
+      your weaponry, allowing you to make melee attacks and
+      channel offensive powers at the same time.
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;channel&nbsp;a&nbsp;touch&nbsp;range&nbsp;power
-
-      through&nbsp;a&nbsp;melee&nbsp;weapon.&nbsp;You&nbsp;can&nbsp;make&nbsp;a&nbsp;single&nbsp;melee
-
-      attack&nbsp;during&nbsp;the&nbsp;same&nbsp;action&nbsp;in&nbsp;which&nbsp;you&nbsp;manifest&nbsp;a
-
-      touch&nbsp;power&nbsp;with&nbsp;a&nbsp;manifesting&nbsp;time&nbsp;of&nbsp;one&nbsp;standard
-
-      action;&nbsp;if&nbsp;this&nbsp;melee&nbsp;attack&nbsp;hits,&nbsp;it&nbsp;triggers&nbsp;the&nbsp;power&nbsp;as&nbsp;if
-
-      you&nbsp;had&nbsp;succeeded&nbsp;on&nbsp;a&nbsp;touch&nbsp;attack&nbsp;and&nbsp;deals&nbsp;damage
-
-      as&nbsp;normal.&nbsp;If&nbsp;you&nbsp;miss,&nbsp;the&nbsp;power&nbsp;fizzles&nbsp;and&nbsp;the&nbsp;charge
-
-      is&nbsp;lost.&nbsp;The&nbsp;attack&nbsp;made&nbsp;is&nbsp;against&nbsp;standard&nbsp;AC&nbsp;and&nbsp;not
-
-      touch&nbsp;AC.
-
+      <p><strong>Benefit: </strong>You can channel a touch range power
+      through a melee weapon. You can make a single melee
+      attack during the same action in which you manifest a
+      touch power with a manifesting time of one standard
+      action; if this melee attack hits, it triggers the power as if
+      you had succeeded on a touch attack and deals damage
+      as normal. If you miss, the power fizzles and the charge
+      is lost. The attack made is against standard AC and not
+      touch AC.
       </p>
   disabled: false
   featType: feat

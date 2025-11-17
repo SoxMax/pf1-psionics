@@ -27,11 +27,17 @@ system:
         value: You
   description:
     value: >-
-      <p>Your&nbsp;ability&nbsp;to&nbsp;form&nbsp;and&nbsp;implement&nbsp;a&nbsp;plan&nbsp;rapidly&nbsp;is&nbsp;improved.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;you&nbsp;can&nbsp;use&nbsp;the&nbsp;Readying&nbsp;An&nbsp;Action&nbsp;special&nbsp;initiative&nbsp;action&nbsp;without&nbsp;specifying&nbsp;the&nbsp;conditions&nbsp;that&nbsp;will&nbsp;trigger&nbsp;your&nbsp;readied&nbsp;action.&nbsp;You&nbsp;must&nbsp;still&nbsp;specify&nbsp;what&nbsp;action&nbsp;you&nbsp;will&nbsp;take&nbsp;as&nbsp;your&nbsp;readied&nbsp;action.
+      <p>Your ability to form and implement a plan rapidly is improved. When you
+      manifest this power, you can use the Readying An Action special initiative
+      action without specifying the conditions that will trigger your readied
+      action. You must still specify what action you will take as your readied
+      action.
 
       </p>
 
-      <p><strong>Augment:&nbsp;</strong>If&nbsp;you&nbsp;spend&nbsp;six&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;increases&nbsp;to&nbsp;1&nbsp;round&nbsp;per&nbsp;level,&nbsp;but&nbsp;once&nbsp;you&nbsp;take&nbsp;the&nbsp;readied&nbsp;action,&nbsp;the&nbsp;power&nbsp;ends.
+      <p><strong>Augment: </strong>If you spend six additional power points, the
+      duration increases to 1 round per level, but once you take the readied
+      action, the power ends.
 
       </p>
   discipline: clairsentience

@@ -1,0 +1,33 @@
+_id: 4oV0TSDfsouHMXeL
+_key: '!items!4oV0TSDfsouHMXeL'
+_stats:
+  coreVersion: '13.350'
+folder: WRrSVxfPrcveDL6q
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Aura of Fear
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Dread
+  description:
+    value: >-
+      <p>At 3rd level, a dread radiates a palpably daunting aura that causes all
+      enemies within 10 feet to take a –4 penalty on saving throws against fear
+      effects. Creatures that are normally immune to fear lose that immunity
+      while within 10 feet of a dread with this ability. This ability functions
+      only while the dread remains conscious, not if she is unconscious or dead.
+
+      </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 43–47
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 40–44
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: aura-of-fear
+type: feat

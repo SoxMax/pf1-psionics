@@ -32,23 +32,46 @@ system:
         value: Up to three objects weighing no more than 5 pounds each
   description:
     value: >-
-      <p>A&nbsp;small&nbsp;number&nbsp;of&nbsp;items&nbsp;become&nbsp;animated,&nbsp;hurling&nbsp;about&nbsp;your&nbsp;person&nbsp;in&nbsp;a&nbsp;dizzying&nbsp;orbit,&nbsp;ready&nbsp;to&nbsp;act&nbsp;at&nbsp;your&nbsp;behest.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;you&nbsp;must&nbsp;choose&nbsp;one&nbsp;of&nbsp;two&nbsp;modes&nbsp;in&nbsp;which&nbsp;you&nbsp;intend&nbsp;it&nbsp;to&nbsp;be&nbsp;used.&nbsp;Once&nbsp;chosen,&nbsp;this&nbsp;choice&nbsp;cannot&nbsp;be&nbsp;altered&nbsp;until&nbsp;the&nbsp;power&nbsp;ends.
+      <p>A small number of items become animated, hurling about your person in a
+      dizzying orbit, ready to act at your behest. When you manifest this power,
+      you must choose one of two modes in which you intend it to be used. Once
+      chosen, this choice cannot be altered until the power ends.
 
       </p>
 
-      <p>In&nbsp;either&nbsp;case,&nbsp;you&nbsp;cause&nbsp;a&nbsp;set&nbsp;of&nbsp;objects&nbsp;to&nbsp;spin&nbsp;rapidly&nbsp;around&nbsp;you,&nbsp;primed&nbsp;to&nbsp;either&nbsp;defend&nbsp;you,&nbsp;or&nbsp;aid&nbsp;in&nbsp;your&nbsp;offense.&nbsp;These&nbsp;objects&nbsp;move&nbsp;quickly&nbsp;enough&nbsp;that&nbsp;they&nbsp;do&nbsp;not&nbsp;impair&nbsp;your&nbsp;vision,&nbsp;nor&nbsp;do&nbsp;they&nbsp;provide&nbsp;you&nbsp;cover&nbsp;or&nbsp;concealment.&nbsp;The&nbsp;objects&nbsp;so&nbsp;animated&nbsp;remain&nbsp;within&nbsp;your&nbsp;square&nbsp;at&nbsp;all&nbsp;times&nbsp;and&nbsp;if&nbsp;they&nbsp;are&nbsp;removed&nbsp;by&nbsp;any&nbsp;means,&nbsp;they&nbsp;cease&nbsp;being&nbsp;under&nbsp;the&nbsp;control&nbsp;of&nbsp;the&nbsp;power.
+      <p>In either case, you cause a set of objects to spin rapidly around you,
+      primed to either defend you, or aid in your offense. These objects move
+      quickly enough that they do not impair your vision, nor do they provide
+      you cover or concealment. The objects so animated remain within your
+      square at all times and if they are removed by any means, they cease being
+      under the control of the power.
 
       </p>
 
-      <p><em>Defensive</em>:&nbsp;In&nbsp;this&nbsp;mode,&nbsp;the&nbsp;objects&nbsp;you&nbsp;animate&nbsp;are&nbsp;prepared&nbsp;to&nbsp;intercept&nbsp;physical&nbsp;attacks&nbsp;against&nbsp;you.&nbsp;Once&nbsp;per&nbsp;animated&nbsp;object&nbsp;per&nbsp;round,&nbsp;you&nbsp;can&nbsp;direct&nbsp;an&nbsp;object&nbsp;to&nbsp;try&nbsp;to&nbsp;block&nbsp;such&nbsp;an&nbsp;attack&nbsp;as&nbsp;a&nbsp;free&nbsp;action&nbsp;that&nbsp;can&nbsp;be&nbsp;taken&nbsp;outside&nbsp;of&nbsp;your&nbsp;turn.&nbsp;The&nbsp;animated&nbsp;item&nbsp;moves&nbsp;to&nbsp;intercede,&nbsp;providing&nbsp;you&nbsp;a&nbsp;+1&nbsp;shield&nbsp;bonus&nbsp;against&nbsp;that&nbsp;attack.&nbsp;Unlike&nbsp;most&nbsp;cases,&nbsp;this&nbsp;bonus&nbsp;stacks&nbsp;with&nbsp;any&nbsp;shield&nbsp;bonus&nbsp;you&nbsp;have&nbsp;from&nbsp;another&nbsp;source.
+      <p><em>Defensive</em>: In this mode, the objects you animate are prepared
+      to intercept physical attacks against you. Once per animated object per
+      round, you can direct an object to try to block such an attack as a free
+      action that can be taken outside of your turn. The animated item moves to
+      intercede, providing you a +1 shield bonus against that attack. Unlike
+      most cases, this bonus stacks with any shield bonus you have from another
+      source.
 
       </p>
 
-      <p><em>Offensive:&nbsp;</em>In&nbsp;this&nbsp;mode,&nbsp;the&nbsp;objects&nbsp;you&nbsp;animate&nbsp;can&nbsp;be&nbsp;used&nbsp;to&nbsp;make&nbsp;offensive&nbsp;attacks.&nbsp;Once&nbsp;per&nbsp;animated&nbsp;object&nbsp;per&nbsp;round,&nbsp;you&nbsp;can&nbsp;direct&nbsp;an&nbsp;object&nbsp;to&nbsp;attack&nbsp;a&nbsp;creature&nbsp;that&nbsp;is&nbsp;attacking&nbsp;you&nbsp;as&nbsp;a&nbsp;free&nbsp;action.&nbsp;This&nbsp;is&nbsp;resolved&nbsp;after&nbsp;the&nbsp;attack&nbsp;that&nbsp;you&nbsp;are&nbsp;reacting&nbsp;to.&nbsp;You&nbsp;make&nbsp;an&nbsp;attack&nbsp;roll&nbsp;using&nbsp;your&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;and&nbsp;adding&nbsp;your&nbsp;manifesting&nbsp;ability&nbsp;bonus.&nbsp;If&nbsp;you&nbsp;hit,&nbsp;the&nbsp;animated&nbsp;object&nbsp;deals&nbsp;1d3&nbsp;points&nbsp;of&nbsp;damage.&nbsp;You&nbsp;cannot&nbsp;react&nbsp;with&nbsp;more&nbsp;than&nbsp;one&nbsp;object&nbsp;per&nbsp;attack&nbsp;made&nbsp;against&nbsp;you.
+      <p><em>Offensive: </em>In this mode, the objects you animate can be used
+      to make offensive attacks. Once per animated object per round, you can
+      direct an object to attack a creature that is attacking you as a free
+      action. This is resolved after the attack that you are reacting to. You
+      make an attack roll using your base attack bonus and adding your
+      manifesting ability bonus. If you hit, the animated object deals 1d3
+      points of damage. You cannot react with more than one object per attack
+      made against you.
 
       </p>
 
-      <p><strong>Augment:&nbsp;</strong>For&nbsp;every&nbsp;four&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;shield&nbsp;bonus&nbsp;granted&nbsp;increases&nbsp;by&nbsp;+1&nbsp;or&nbsp;the&nbsp;damage&nbsp;dealt&nbsp;increases&nbsp;by&nbsp;1d3.
+      <p><strong>Augment: </strong>For every four additional power points you
+      spend, the shield bonus granted increases by +1 or the damage dealt
+      increases by 1d3.
 
       </p>
   discipline: psychokinesis

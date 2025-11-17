@@ -32,19 +32,30 @@ system:
         value: 20-ft.-radius burst
   description:
     value: >-
-      <p>A&nbsp;tiny&nbsp;ectoplasmic&nbsp;crystal&nbsp;emanates&nbsp;from&nbsp;your&nbsp;outstretched&nbsp;hand&nbsp;and&nbsp;rapidly&nbsp;expands&nbsp;to&nbsp;a&nbsp;2-foot-diameter&nbsp;ball&nbsp;of&nbsp;crystal&nbsp;as&nbsp;it&nbsp;speeds&nbsp;toward&nbsp;the&nbsp;location&nbsp;you&nbsp;designate.&nbsp;You&nbsp;can&nbsp;choose&nbsp;to&nbsp;aim&nbsp;this&nbsp;crystal&nbsp;at&nbsp;a&nbsp;single&nbsp;target&nbsp;or&nbsp;at&nbsp;a&nbsp;specific&nbsp;point&nbsp;in&nbsp;space&nbsp;(a&nbsp;grid&nbsp;intersection).
+      <p>A tiny ectoplasmic crystal emanates from your outstretched hand and
+      rapidly expands to a 2-foot-diameter ball of crystal as it speeds toward
+      the location you designate. You can choose to aim this crystal at a single
+      target or at a specific point in space (a grid intersection).
 
       </p>
 
-      <p>If&nbsp;you&nbsp;aim&nbsp;the&nbsp;crystal&nbsp;at&nbsp;a&nbsp;single&nbsp;target,&nbsp;you&nbsp;must&nbsp;make&nbsp;a&nbsp;ranged&nbsp;touch&nbsp;attack&nbsp;to&nbsp;strike&nbsp;the&nbsp;target.&nbsp;Any&nbsp;creature&nbsp;or&nbsp;object&nbsp;struck&nbsp;by&nbsp;the&nbsp;ball&nbsp;of&nbsp;crystal&nbsp;takes&nbsp;5d4&nbsp;points&nbsp;of&nbsp;bludgeoning&nbsp;damage.
+      <p>If you aim the crystal at a single target, you must make a ranged touch
+      attack to strike the target. Any creature or object struck by the ball of
+      crystal takes 5d4 points of bludgeoning damage.
 
       </p>
 
-      <p>Whether&nbsp;the&nbsp;crystal&nbsp;hits&nbsp;its&nbsp;target,&nbsp;misses,&nbsp;or&nbsp;was&nbsp;aimed&nbsp;at&nbsp;a&nbsp;point&nbsp;in&nbsp;space,&nbsp;it&nbsp;explodes&nbsp;upon&nbsp;arrival&nbsp;at&nbsp;the&nbsp;location&nbsp;you&nbsp;designated.&nbsp;Anyone&nbsp;within&nbsp;20&nbsp;feet&nbsp;of&nbsp;the&nbsp;explosion&nbsp;takes&nbsp;9d4&nbsp;points&nbsp;of&nbsp;slashing&nbsp;damage&nbsp;from&nbsp;the&nbsp;thousands&nbsp;of&nbsp;crystal&nbsp;shards&nbsp;that&nbsp;spray&nbsp;forth,&nbsp;although&nbsp;the&nbsp;damage&nbsp;is&nbsp;halved&nbsp;on&nbsp;a&nbsp;successful&nbsp;Reflex&nbsp;save.
+      <p>Whether the crystal hits its target, misses, or was aimed at a point in
+      space, it explodes upon arrival at the location you designated. Anyone
+      within 20 feet of the explosion takes 9d4 points of slashing damage from
+      the thousands of crystal shards that spray forth, although the damage is
+      halved on a successful Reflex save.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;this&nbsp;power's&nbsp;damage&nbsp;from&nbsp;the&nbsp;explosion&nbsp;of&nbsp;the&nbsp;crystal&nbsp;increases&nbsp;by&nbsp;1d4&nbsp;points.
+      <p><strong>Augment:</strong> For every additional power point you spend,
+      this power's damage from the explosion of the crystal increases by 1d4
+      points.
 
       </p>
   discipline: metacreativity

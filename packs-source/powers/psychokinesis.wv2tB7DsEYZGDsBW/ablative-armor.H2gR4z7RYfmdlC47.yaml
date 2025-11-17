@@ -28,15 +28,26 @@ system:
         value: You
   description:
     value: >-
-      <p>A&nbsp;heat-haze&nbsp;of&nbsp;warped&nbsp;space&nbsp;surrounds&nbsp;your&nbsp;armor,&nbsp;hinting&nbsp;that&nbsp;it&nbsp;has&nbsp;been&nbsp;enhanced&nbsp;beyond&nbsp;expectations.&nbsp;You&nbsp;must&nbsp;be&nbsp;wearing&nbsp;a&nbsp;suit&nbsp;of&nbsp;armor&nbsp;(or&nbsp;benefiting&nbsp;from&nbsp;<a&nbsp;rel="nofollow"&nbsp;class="external&nbsp;text"&nbsp;href="https://www.aonprd.com/SpellDisplay.aspx?ItemName=inertial%20armor"><em>inertial&nbsp;armor</em></a>&nbsp;or&nbsp;similar&nbsp;effect)&nbsp;or&nbsp;wearing&nbsp;bracers&nbsp;of&nbsp;armor&nbsp;(or&nbsp;similar&nbsp;item&nbsp;that&nbsp;grants&nbsp;an&nbsp;armor&nbsp;bonus&nbsp;to&nbsp;AC)&nbsp;to&nbsp;manifest&nbsp;this&nbsp;power.&nbsp;Your&nbsp;armor&nbsp;bonus&nbsp;to&nbsp;AC&nbsp;increases&nbsp;by&nbsp;two.&nbsp;Each&nbsp;time&nbsp;you&nbsp;are&nbsp;successfully&nbsp;hit&nbsp;by&nbsp;an&nbsp;attack&nbsp;(other&nbsp;than&nbsp;an&nbsp;attack&nbsp;that&nbsp;targets&nbsp;touch&nbsp;AC)&nbsp;the&nbsp;improvement&nbsp;granted&nbsp;by&nbsp;ablative&nbsp;armor&nbsp;is&nbsp;reduced&nbsp;by&nbsp;one.&nbsp;Once&nbsp;your&nbsp;improvement&nbsp;from&nbsp;ablative&nbsp;armor&nbsp;is&nbsp;reduced&nbsp;to&nbsp;zero,&nbsp;this&nbsp;power&nbsp;ends.
+      <p>A heat-haze of warped space surrounds your armor, hinting that it has
+      been enhanced beyond expectations. You must be wearing a suit of armor (or
+      benefiting from <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/SpellDisplay.aspx?ItemName=inertial%20armor"><em>inertial
+      armor</em></a> or similar effect) or wearing bracers of armor (or similar
+      item that grants an armor bonus to AC) to manifest this power. Your armor
+      bonus to AC increases by two. Each time you are successfully hit by an
+      attack (other than an attack that targets touch AC) the improvement
+      granted by ablative armor is reduced by one. Once your improvement from
+      ablative armor is reduced to zero, this power ends.
 
       </p>
 
-      <p>While&nbsp;under&nbsp;the&nbsp;effect&nbsp;of&nbsp;this&nbsp;power,&nbsp;your&nbsp;armor&nbsp;is&nbsp;also&nbsp;treated&nbsp;as&nbsp;if&nbsp;it&nbsp;had&nbsp;the&nbsp;ghost&nbsp;touch&nbsp;property.
+      <p>While under the effect of this power, your armor is also treated as if
+      it had the ghost touch property.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;For&nbsp;every&nbsp;three&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;the&nbsp;improvement&nbsp;granted&nbsp;by&nbsp;this&nbsp;power&nbsp;increases&nbsp;by&nbsp;one.
+      <p><strong>Augment:</strong> For every three additional power points you
+      spend, the improvement granted by this power increases by one.
 
       </p>
   descriptors:

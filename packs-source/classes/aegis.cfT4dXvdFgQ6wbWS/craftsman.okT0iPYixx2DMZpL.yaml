@@ -1,0 +1,31 @@
+_id: okT0iPYixx2DMZpL
+_key: '!items!okT0iPYixx2DMZpL'
+_stats:
+  coreVersion: '13.350'
+folder: cfT4dXvdFgQ6wbWS
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Craftsman
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Aegis
+  description:
+    value: >-
+      <p>Beginning at 2nd level, an aegis gains a +1 bonus to one Craft skill of
+      his choice. At 6th level and every four levels thereafter, this bonus
+      increases by 1.
+
+      </p>
+  sources:
+    - date: '2012-07-23'
+      pages: 27–31
+      publisher: Dreamscarred Press
+      title: Psionics Expanded
+    - date: '2013-12-24'
+      pages: 28–30
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: craftsman
+type: feat

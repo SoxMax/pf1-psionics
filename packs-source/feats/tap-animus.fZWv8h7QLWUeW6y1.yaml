@@ -22,17 +22,32 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>You&nbsp;gain&nbsp;the&nbsp;ability&nbsp;to&nbsp;tap&nbsp;a&nbsp;small&nbsp;wellspring&nbsp;of&nbsp;animus&nbsp;within&nbsp;you.</em></p>
+      <p><em>You gain the ability to tap a small wellspring of animus within
+      you.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;You&nbsp;may&nbsp;not&nbsp;possess&nbsp;the&nbsp;animus&nbsp;class&nbsp;feature.
-
-      </p>
-
-      <p><strong>Benefit:</strong>&nbsp;When&nbsp;you&nbsp;enter&nbsp;combat,&nbsp;you&nbsp;gain&nbsp;an&nbsp;<a&nbsp;href="/wiki/Animus_(system)"&nbsp;title="Animus&nbsp;(system)">animus&nbsp;pool</a>&nbsp;with&nbsp;one&nbsp;point&nbsp;of&nbsp;animus&nbsp;at&nbsp;the&nbsp;start&nbsp;of&nbsp;your&nbsp;first&nbsp;turn,&nbsp;and&nbsp;add&nbsp;one&nbsp;point&nbsp;of&nbsp;animus&nbsp;to&nbsp;your&nbsp;animus&nbsp;pool&nbsp;at&nbsp;the&nbsp;start&nbsp;of&nbsp;each&nbsp;of&nbsp;your&nbsp;turns&nbsp;thereafter.&nbsp;Your&nbsp;animus&nbsp;pool&nbsp;persists&nbsp;for&nbsp;one&nbsp;minute&nbsp;after&nbsp;the&nbsp;last&nbsp;enemy&nbsp;combatant&nbsp;is&nbsp;defeated&nbsp;or&nbsp;the&nbsp;encounter&nbsp;otherwise&nbsp;ends.&nbsp;At&nbsp;the&nbsp;end&nbsp;of&nbsp;any&nbsp;round&nbsp;in&nbsp;which&nbsp;you&nbsp;initiate&nbsp;a&nbsp;maneuver&nbsp;(a&nbsp;strike,&nbsp;boost,&nbsp;or&nbsp;counter;&nbsp;see&nbsp;<em><a&nbsp;href="/wiki/Path_of_War"&nbsp;title="Path&nbsp;of&nbsp;War">Path&nbsp;of&nbsp;War</a></em>&nbsp;and&nbsp;<em><a&nbsp;href="/wiki/Path_of_War_Expanded"&nbsp;title="Path&nbsp;of&nbsp;War&nbsp;Expanded">Path&nbsp;of&nbsp;War&nbsp;Expanded</a></em>),&nbsp;you&nbsp;add&nbsp;an&nbsp;additional&nbsp;point&nbsp;of&nbsp;animus&nbsp;to&nbsp;you&nbsp;pool.&nbsp;You&nbsp;can&nbsp;use&nbsp;this&nbsp;animus&nbsp;pool&nbsp;to&nbsp;augment&nbsp;maneuvers&nbsp;or&nbsp;power&nbsp;animus-related&nbsp;feats&nbsp;and&nbsp;abilities&nbsp;as&nbsp;normal.
+      <p><strong>Prerequisite:</strong> You may not possess the animus class
+      feature.
 
       </p>
 
-      <p><strong>Special:</strong>&nbsp;If&nbsp;you&nbsp;ever&nbsp;gain&nbsp;the&nbsp;animus&nbsp;class&nbsp;feature,&nbsp;this&nbsp;feat&nbsp;is&nbsp;immediately&nbsp;exchanged&nbsp;for&nbsp;the&nbsp;<a&nbsp;href="/wiki/Extra_Animus"&nbsp;title="Extra&nbsp;Animus">Extra&nbsp;Animus</a>&nbsp;feat.
+      <p><strong>Benefit:</strong> When you enter combat, you gain an <a
+      href="/wiki/Animus_(system)" title="Animus (system)">animus pool</a> with
+      one point of animus at the start of your first turn, and add one point of
+      animus to your animus pool at the start of each of your turns thereafter.
+      Your animus pool persists for one minute after the last enemy combatant is
+      defeated or the encounter otherwise ends. At the end of any round in which
+      you initiate a maneuver (a strike, boost, or counter; see <em><a
+      href="/wiki/Path_of_War" title="Path of War">Path of War</a></em> and
+      <em><a href="/wiki/Path_of_War_Expanded" title="Path of War Expanded">Path
+      of War Expanded</a></em>), you add an additional point of animus to you
+      pool. You can use this animus pool to augment maneuvers or power
+      animus-related feats and abilities as normal.
+
+      </p>
+
+      <p><strong>Special:</strong> If you ever gain the animus class feature,
+      this feat is immediately exchanged for the <a href="/wiki/Extra_Animus"
+      title="Extra Animus">Extra Animus</a> feat.
 
       </p>
   disabled: false

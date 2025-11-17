@@ -1,0 +1,57 @@
+_id: DulHovNmFdKGhmzw
+_key: '!items!DulHovNmFdKGhmzw'
+_stats:
+  coreVersion: '13.350'
+folder: R7AoIomzfNGuWBKp
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Afterimage
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: >-
+      <p>At 3rd level, the voyager gains some reach with her parallel actions
+      beyond her body. Once per round, as a free action that can be taken at any
+      point during her turn, the voyager can create an afterimage of herself
+      occupying her space, that remains for as long as it is medium range (100
+      feet + 10 feet per class level) of herself. An afterimage does nothing by
+      itself but denote the location its source occupied, and provide a vector
+      for the voyager's parallel actions. Afterimages do not block creatures
+      from passing through or occupying the space they occupy. The voyager can
+      dismiss her afterimage as a free action. A voyager can only have one
+      afterimage of herself at a time, and creating a new one causes older
+      afterimages to disappear. Leaving the range of an afterimage also causes
+      it to disappear.
+
+      </p><p>Afterimages serve as an additional vector for the voyager's
+      parallel actions, besides her own position. She can treat her afterimage's
+      position as if it were her own for the purposes of determining her range
+      with parallel actions. For example, this would allow her to use a parallel
+      action that normally affects a creature adjacent to her, to affect a
+      creature adjacent to her afterimage.
+
+      </p><p>At the beginning of her parallel turn, the voyager can move her
+      afterimage a distance up to 15 feet + 5 feet per 3 additional class levels
+      past 3rd level. Her afterimage can move in any direction, and is not
+      impaired by difficult terrain. However, it cannot pass through obstacles
+      that the voyager could not pass through.
+
+      </p><p>An afterimage usually resembles a ghostly form of the voyager
+      (though due to her nature, they may appear different from herself). In all
+      cases, afterimages are translucent and allow viewers to see through them,
+      displaying their unreal nature like a disbelieved phantom or figment. If
+      the voyager is currently using Stealth, she can have her afterimages do so
+      as well, so long as they are in positions where they could hide. If she
+      does, they use the same roll and result as the voyager's Stealth check.
+
+      </p><p></p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
+  subType: classFeat
+  tag: afterimage
+type: feat

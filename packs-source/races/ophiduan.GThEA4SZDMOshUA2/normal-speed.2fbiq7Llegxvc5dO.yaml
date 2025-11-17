@@ -1,0 +1,68 @@
+_id: 2fbiq7Llegxvc5dO
+_key: '!items!2fbiq7Llegxvc5dO'
+_raceName: Ophiduan
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    fromRace: Ophiduan
+folder: GThEA4SZDMOshUA2
+img: icons/environment/people/group.webp
+name: Normal Speed
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: <p>Ophiduans have a base speed of 30 feet.</li></p>
+  subType: racial
+type: feat

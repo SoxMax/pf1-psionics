@@ -21,25 +21,16 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;have&nbsp;learned&nbsp;to&nbsp;focus&nbsp;your&nbsp;anger&nbsp;to&nbsp;fuel&nbsp;your&nbsp;wild
-
+    value: |-
+      <p>You have learned to focus your anger to fuel your wild
       surges.
-
       </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Wild&nbsp;surge&nbsp;class&nbsp;feature,&nbsp;rage&nbsp;class
-
+      <p><strong>Prerequisites: </strong>Wild surge class feature, rage class
       feature.
-
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;choose&nbsp;to&nbsp;power&nbsp;a&nbsp;manifestation
-
-      with&nbsp;only&nbsp;your&nbsp;wild&nbsp;surge,&nbsp;you&nbsp;may&nbsp;spend&nbsp;1&nbsp;round&nbsp;of
-
-      your&nbsp;rage&nbsp;instead&nbsp;of&nbsp;expending&nbsp;your&nbsp;psionic&nbsp;focus.
-
+      <p><strong>Benefit: </strong>When you choose to power a manifestation
+      with only your wild surge, you may spend 1 round of
+      your rage instead of expending your psionic focus.
       </p>
   disabled: false
   featType: feat

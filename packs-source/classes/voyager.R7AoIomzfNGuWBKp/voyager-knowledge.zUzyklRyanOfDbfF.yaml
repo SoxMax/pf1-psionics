@@ -1,0 +1,71 @@
+_id: zUzyklRyanOfDbfF
+_key: '!items!zUzyklRyanOfDbfF'
+_stats:
+  coreVersion: '13.350'
+folder: R7AoIomzfNGuWBKp
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Voyager Knowledge
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: >-
+      <p>At 4th level and each time voyager gains access to a new level of
+      voyager powers afterwards, she also adds a special trick to her psionic
+      repertoire, gaining <a href="/wiki/Expanded_Knowledge" title="Expanded
+      Knowledge">Expanded Knowledge</a> as a bonus feat.
+
+      </p><p>In addition, when she gains a voyager level, the voyager can choose
+      to gain one of the feats in place of a power known. The feats she has
+      access to is determined by the level of the power she could have learned,
+      and she does not need to meet its prerequisites. The voyager is limited in
+      the number of feats she can gain in place of powers. At 4th level through
+      6th level, she can gain a total of 1 feat in this way. At 7th level and
+      every three voyager levels thereafter, the maximum number of feats she can
+      gain increases by 1.
+
+      </p>
+
+      <ul><li>1st- and 2nd-level powers: <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Acrobatic%20Steps">Acrobatic
+      Steps</a>, <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Blind-Fight">Blind-Fight</a>,
+      <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Mobility">Mobility</a>,
+      <a rel="nofollow" class="external autonumber"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Quick%20Draw">[1]</a>
+      Quick Draw]], and <a href="/wiki/Up_the_Walls" title="Up the Walls">Up the
+      Walls</a>.</li>
+
+      <li>3rd- and 4th-level powers: <a href="/wiki/Cloak_Dance" title="Cloak
+      Dance">Cloak Dance</a>, <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Deflect%20Arrows">Deflect
+      Arrows</a>, <a href="/wiki/Mixed_Combat" title="Mixed Combat">Mixed
+      Combat</a>,<a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Shot%20on%20the%20Run">Shot
+      on the Run</a>, <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Sliding%20Dash">Sliding
+      Dash</a>, and <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Spring%20Attack">Spring
+      Attack</a>.</li>
+
+      <li>5th- and 6th-level powers: <a href="/wiki/Burrowing_Power"
+      title="Burrowing Power">Burrowing Power</a>, <a rel="nofollow"
+      class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Cartwheel%20Dodge">Cartwheel
+      Dodge</a>, <a href="/wiki/Ready_Response" title="Ready Response">Ready
+      Response</a>, and <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Stunning%20Irruption">Stunning
+      Irruption</a>.</li></ul>
+
+      <p></p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
+  subType: classFeat
+  tag: voyager-knowledge
+type: feat

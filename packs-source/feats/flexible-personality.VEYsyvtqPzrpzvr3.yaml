@@ -22,13 +22,17 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Whether&nbsp;because&nbsp;of&nbsp;a&nbsp;fluid&nbsp;personality&nbsp;or&nbsp;great&nbsp;power,&nbsp;you&nbsp;can&nbsp;shift&nbsp;the&nbsp;shard&nbsp;of&nbsp;your&nbsp;personality&nbsp;that&nbsp;resides&nbsp;inside&nbsp;your&nbsp;psicrystal.</em></p>
+      <p><em>Whether because of a fluid personality or great power, you can
+      shift the shard of your personality that resides inside your
+      psicrystal.</em></p>
 
-      <p><strong>Prerequisite:</strong><a&nbsp;href="/wiki/Psicrystal_Affinity"&nbsp;title="Psicrystal&nbsp;Affinity">Psicrystal&nbsp;Affinity</a>.
+      <p><strong>Prerequisite:</strong><a href="/wiki/Psicrystal_Affinity"
+      title="Psicrystal Affinity">Psicrystal Affinity</a>.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>As&nbsp;a&nbsp;standard&nbsp;action,&nbsp;once&nbsp;per&nbsp;day,&nbsp;you&nbsp;can&nbsp;exchange&nbsp;your&nbsp;current&nbsp;psicrystal&nbsp;personality&nbsp;for&nbsp;another.
+      <p><strong>Benefit: </strong>As a standard action, once per day, you can
+      exchange your current psicrystal personality for another.
 
       </p>
   disabled: false

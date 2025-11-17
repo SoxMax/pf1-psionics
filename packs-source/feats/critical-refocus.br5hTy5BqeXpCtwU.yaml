@@ -21,25 +21,16 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>Your&nbsp;critical&nbsp;hits&nbsp;recharge&nbsp;your&nbsp;expended&nbsp;focus.
-
+    value: |-
+      <p>Your critical hits recharge your expended focus.
       </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Improved&nbsp;Critical,&nbsp;proficiency&nbsp;with
-
-      weapon,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+8.
-
+      <p><strong>Prerequisites: </strong>Improved Critical, proficiency with
+      weapon, base attack bonus +8.
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;confirm&nbsp;a&nbsp;critical&nbsp;hit&nbsp;on&nbsp;an&nbsp;attack
-
-      where&nbsp;you&nbsp;expended&nbsp;psionic&nbsp;focus,&nbsp;you&nbsp;automatically
-
-      regain&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;after&nbsp;the&nbsp;results&nbsp;of&nbsp;the&nbsp;attack
-
-      are&nbsp;determined.
-
+      <p><strong>Benefit: </strong>When you confirm a critical hit on an attack
+      where you expended psionic focus, you automatically
+      regain your psionic focus after the results of the attack
+      are determined.
       </p>
   disabled: false
   featType: feat

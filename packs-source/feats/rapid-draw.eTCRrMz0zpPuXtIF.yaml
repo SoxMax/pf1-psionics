@@ -21,31 +21,19 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>You&nbsp;are&nbsp;able&nbsp;to&nbsp;form&nbsp;your&nbsp;blade&nbsp;more&nbsp;frequently&nbsp;each
-
+    value: |-
+      <p>You are able to form your blade more frequently each
       round.
-
       </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Alter&nbsp;blade&nbsp;blade&nbsp;skill,&nbsp;quick&nbsp;draw
-
-      class&nbsp;feature,&nbsp;base&nbsp;attack&nbsp;bonus&nbsp;+6
-
+      <p><strong>Prerequisites: </strong>Alter blade blade skill, quick draw
+      class feature, base attack bonus +6
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;may&nbsp;form&nbsp;your&nbsp;mind&nbsp;blade&nbsp;as&nbsp;a&nbsp;free
-
-      action&nbsp;an&nbsp;additional&nbsp;number&nbsp;of&nbsp;times&nbsp;per&nbsp;round&nbsp;equal&nbsp;to
-
-      your&nbsp;Wisdom&nbsp;modifier&nbsp;(minimum&nbsp;+1).
-
+      <p><strong>Benefit: </strong>You may form your mind blade as a free
+      action an additional number of times per round equal to
+      your Wisdom modifier (minimum +1).
       </p>
-
-      <p><strong>Normal:&nbsp;</strong>You&nbsp;may&nbsp;form&nbsp;your&nbsp;mind&nbsp;blade&nbsp;as&nbsp;a&nbsp;free
-
-      action&nbsp;once&nbsp;per&nbsp;round.
-
+      <p><strong>Normal: </strong>You may form your mind blade as a free
+      action once per round.
       </p>
   disabled: false
   featType: feat

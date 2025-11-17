@@ -22,39 +22,43 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>You&nbsp;make&nbsp;it&nbsp;more&nbsp;difficult&nbsp;for&nbsp;others&nbsp;to&nbsp;resist&nbsp;you
+      <p>You make it more difficult for others to resist you
 
-      stealing&nbsp;their&nbsp;life.
-
-      </p>
-
-      <p><strong>Prerequisites:&nbsp;</strong>Steal&nbsp;life&nbsp;class&nbsp;feature.
+      stealing their life.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>When&nbsp;you&nbsp;use&nbsp;your&nbsp;steal&nbsp;life&nbsp;class&nbsp;feature,
-
-      you&nbsp;can&nbsp;channel&nbsp;power&nbsp;points&nbsp;into&nbsp;it&nbsp;to&nbsp;increase&nbsp;the&nbsp;DC
-
-      of&nbsp;the&nbsp;save.&nbsp;For&nbsp;every&nbsp;three&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,
-
-      the&nbsp;save&nbsp;DC&nbsp;is&nbsp;increased&nbsp;by&nbsp;1.&nbsp;You&nbsp;may&nbsp;not&nbsp;spend&nbsp;more
-
-      power&nbsp;points&nbsp;in&nbsp;this&nbsp;fashion&nbsp;than&nbsp;your&nbsp;manifester&nbsp;level.
+      <p><strong>Prerequisites: </strong>Steal life class feature.
 
       </p>
 
-      <p><br&nbsp;/></p>
+      <p><strong>Benefit: </strong>When you use your steal life class feature,
 
-      <p>You&nbsp;are&nbsp;skilled&nbsp;at&nbsp;extracting&nbsp;the&nbsp;life&nbsp;force&nbsp;out&nbsp;of&nbsp;other&nbsp;creatures.
+      you can channel power points into it to increase the DC
+
+      of the save. For every three power points you spend,
+
+      the save DC is increased by 1. You may not spend more
+
+      power points in this fashion than your manifester level.
 
       </p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Enhanced&nbsp;Steal&nbsp;Life.
+      <p><br /></p>
+
+      <p>You are skilled at extracting the life force out of other creatures.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;The&nbsp;number&nbsp;of&nbsp;hit&nbsp;points&nbsp;gained&nbsp;when&nbsp;using&nbsp;steal&nbsp;life&nbsp;is&nbsp;increased&nbsp;by&nbsp;50%&nbsp;(round&nbsp;down.)&nbsp;When&nbsp;using&nbsp;the&nbsp;steal&nbsp;life&nbsp;class&nbsp;feature,&nbsp;you&nbsp;can&nbsp;expend&nbsp;one&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power.&nbsp;If&nbsp;the&nbsp;target&nbsp;makes&nbsp;a&nbsp;successful&nbsp;save&nbsp;against&nbsp;the&nbsp;attempt,&nbsp;you&nbsp;instead&nbsp;steal&nbsp;hit&nbsp;points&nbsp;as&nbsp;if&nbsp;you&nbsp;had&nbsp;used&nbsp;the&nbsp;steal&nbsp;health&nbsp;class&nbsp;feature&nbsp;
+      <p><strong>Prerequisite:</strong> Enhanced Steal Life.
+
+      </p>
+
+      <p><strong>Benefit:</strong> The number of hit points gained when using
+      steal life is increased by 50% (round down.) When using the steal life
+      class feature, you can expend one use of mythic power. If the target makes
+      a successful save against the attempt, you instead steal hit points as if
+      you had used the steal health class feature 
 
       </p>
   disabled: false

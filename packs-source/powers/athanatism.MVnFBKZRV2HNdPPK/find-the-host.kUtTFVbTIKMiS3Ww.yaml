@@ -27,11 +27,16 @@ system:
         value: Circle, centered on you, with a radius of 400 ft. + 40 ft./level
   description:
     value: >-
-      <p>You&nbsp;sense&nbsp;the&nbsp;direction&nbsp;of&nbsp;the&nbsp;nearest&nbsp;dead,&nbsp;mostly&nbsp;intact&nbsp;body.&nbsp;This&nbsp;power&nbsp;is&nbsp;blocked&nbsp;by&nbsp;even&nbsp;a&nbsp;thin&nbsp;sheet&nbsp;of&nbsp;lead.&nbsp;Undead&nbsp;creatures&nbsp;cannot&nbsp;be&nbsp;found&nbsp;by&nbsp;this&nbsp;power.&nbsp;Magical&nbsp;or&nbsp;psionic&nbsp;attempts&nbsp;to&nbsp;conceal&nbsp;the&nbsp;body&nbsp;fool&nbsp;this&nbsp;power.
+      <p>You sense the direction of the nearest dead, mostly intact body. This
+      power is blocked by even a thin sheet of lead. Undead creatures cannot be
+      found by this power. Magical or psionic attempts to conceal the body fool
+      this power.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;spend&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points&nbsp;to&nbsp;find&nbsp;the&nbsp;dead&nbsp;body&nbsp;of&nbsp;a&nbsp;specific&nbsp;creature,&nbsp;instead&nbsp;of&nbsp;just&nbsp;the&nbsp;closest&nbsp;dead&nbsp;body.
+      <p><strong>Augment:</strong> You may spend an additional 6 power points to
+      find the dead body of a specific creature, instead of just the closest
+      dead body.
 
       </p>
   discipline: athanatism

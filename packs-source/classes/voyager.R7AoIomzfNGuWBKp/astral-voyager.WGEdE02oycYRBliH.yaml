@@ -1,0 +1,53 @@
+_id: WGEdE02oycYRBliH
+_key: '!items!WGEdE02oycYRBliH'
+_stats:
+  coreVersion: '13.350'
+folder: R7AoIomzfNGuWBKp
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Astral Voyager
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: >-
+      <p>At 5th level, a voyager's journey can extend to the Astral Plane and
+      beyond. The voyager gains <a href="/wiki/Astral_Traveler" title="Astral
+      Traveler">astral traveler</a> as a bonus power known, if she does not know
+      it already. In addition, voyager can use <a href="/wiki/Astral_Caravan"
+      title="Astral Caravan">astral caravan</a> at will as a psi-like ability.
+      Unlike a normal psi-like ability, the manifesting time for this effect is
+      1 hour (like a normal <i>astral caravan</i> power).
+
+      </p><p>Unlike with a normal astral caravan, the voyager can start and lead
+      a caravan even if her companions are not maintaining hand to hand contact.
+      As long as her companions remain within close range (25 feet + 5 feet per
+      2 class levels), the voyager can maintain the astral caravan and move them
+      along with her as if she were maintaining hand to hand contact with them.
+
+      </p><p>At 10th level, a voyager grows more accurate in navigating the
+      Astral Plane. On a successful navigation to a plane, the voyager is able
+      to choose what direction the caravan appears in relation to her intended
+      destination.She also reduces the distance her group appears from her
+      intended destination by a degree of 10 (so if she would have appeared
+      1,000 miles from her destination, she would instead appear 100 miles from
+      it).
+
+      </p><p>At 15th level, a voyager can locate her destination with greater
+      precision. On a successful navigation to a plane, the voyager can reduce
+      the distance her caravan appears from her intended destination to 1 mile.
+      In addition, she halves the time it takes to make a Knowledge (Planes)
+      check while traveling through this ability. This ability stacks with time
+      saver, potentially reducing the time it takes to make each Knowledge
+      (Planes) check to 3 hours.
+
+      </p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
+  subType: classFeat
+  tag: astral-voyager
+type: feat

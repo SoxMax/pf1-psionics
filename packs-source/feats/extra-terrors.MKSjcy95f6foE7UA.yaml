@@ -22,39 +22,42 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;use&nbsp;your&nbsp;terrors&nbsp;more&nbsp;than&nbsp;normal.
+      <p>You can use your terrors more than normal.
 
       </p>
 
-      <p><strong>Prerequisite:&nbsp;</strong>Terrors&nbsp;class&nbsp;feature.
+      <p><strong>Prerequisite: </strong>Terrors class feature.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;gain&nbsp;3&nbsp;additional&nbsp;daily&nbsp;uses&nbsp;of&nbsp;your
+      <p><strong>Benefit: </strong>You gain 3 additional daily uses of your
 
       terrors.
 
       </p>
 
-      <p><strong>Special:&nbsp;</strong>You&nbsp;can&nbsp;gain&nbsp;Extra&nbsp;Terrors&nbsp;multiple&nbsp;times.&nbsp;Its
+      <p><strong>Special: </strong>You can gain Extra Terrors multiple times.
+      Its
 
-      effects&nbsp;stack.&nbsp;Each&nbsp;time&nbsp;you&nbsp;take&nbsp;the&nbsp;feat,&nbsp;you&nbsp;gain&nbsp;three
+      effects stack. Each time you take the feat, you gain three
 
-      additional&nbsp;daily&nbsp;uses&nbsp;of&nbsp;your&nbsp;terrors.
-
-      </p>
-
-      <p><br&nbsp;/></p>
-
-      <p>Your&nbsp;mythic&nbsp;power&nbsp;allows&nbsp;you&nbsp;to&nbsp;inflict&nbsp;additional&nbsp;terrors.
+      additional daily uses of your terrors.
 
       </p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Extra&nbsp;Terrors.
+      <p><br /></p>
+
+      <p>Your mythic power allows you to inflict additional terrors.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;gain&nbsp;three&nbsp;additional&nbsp;daily&nbsp;uses&nbsp;of&nbsp;your&nbsp;terrors&nbsp;ability.&nbsp;Additionally,&nbsp;if&nbsp;you&nbsp;have&nbsp;no&nbsp;uses&nbsp;of&nbsp;terrors&nbsp;remaining,&nbsp;you&nbsp;may&nbsp;expend&nbsp;one&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;to&nbsp;use&nbsp;your&nbsp;terrors&nbsp;ability.&nbsp;
+      <p><strong>Prerequisite:</strong> Extra Terrors.
+
+      </p>
+
+      <p><strong>Benefit:</strong> You gain three additional daily uses of your
+      terrors ability. Additionally, if you have no uses of terrors remaining,
+      you may expend one use of mythic power to use your terrors ability. 
 
       </p>
   disabled: false

@@ -33,7 +33,10 @@ system:
         value: One creature
   description:
     value: >-
-      <p>After&nbsp;manifesting&nbsp;this&nbsp;power,&nbsp;the&nbsp;next&nbsp;time&nbsp;you&nbsp;use&nbsp;your&nbsp;cover&nbsp;fire&nbsp;class&nbsp;ability,&nbsp;it&nbsp;affects&nbsp;all&nbsp;creatures&nbsp;within&nbsp;a&nbsp;10&nbsp;ft.&nbsp;radius&nbsp;burst&nbsp;from&nbsp;the&nbsp;target&nbsp;creature.&nbsp;If&nbsp;you&nbsp;do&nbsp;not&nbsp;have&nbsp;the&nbsp;cover&nbsp;fire&nbsp;class&nbsp;feature,&nbsp;this&nbsp;power&nbsp;does&nbsp;nothing.
+      <p>After manifesting this power, the next time you use your cover fire
+      class ability, it affects all creatures within a 10 ft. radius burst from
+      the target creature. If you do not have the cover fire class feature, this
+      power does nothing.
 
       </p>
   discipline: psychokinesis

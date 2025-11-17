@@ -26,11 +26,20 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;can&nbsp;predict&nbsp;a&nbsp;useful&nbsp;piece&nbsp;of&nbsp;advice&nbsp;in&nbsp;reply&nbsp;to&nbsp;a&nbsp;question&nbsp;concerning&nbsp;a&nbsp;specific&nbsp;goal,&nbsp;event,&nbsp;or&nbsp;activity&nbsp;that&nbsp;is&nbsp;to&nbsp;occur&nbsp;within&nbsp;1&nbsp;week.&nbsp;The&nbsp;advice&nbsp;augured&nbsp;can&nbsp;be&nbsp;as&nbsp;simple&nbsp;as&nbsp;a&nbsp;short&nbsp;phrase,&nbsp;or&nbsp;it&nbsp;might&nbsp;take&nbsp;the&nbsp;form&nbsp;of&nbsp;a&nbsp;cryptic&nbsp;rhyme&nbsp;or&nbsp;omen.&nbsp;If&nbsp;your&nbsp;party&nbsp;doesn't&nbsp;act&nbsp;on&nbsp;the&nbsp;information,&nbsp;the&nbsp;conditions&nbsp;may&nbsp;change&nbsp;so&nbsp;that&nbsp;the&nbsp;information&nbsp;is&nbsp;no&nbsp;longer&nbsp;useful.&nbsp;The&nbsp;base&nbsp;chance&nbsp;for&nbsp;a&nbsp;correct&nbsp;answer&nbsp;is&nbsp;70%&nbsp;+&nbsp;1%&nbsp;per&nbsp;manifester&nbsp;level,&nbsp;to&nbsp;a&nbsp;maximum&nbsp;of&nbsp;90%.&nbsp;If&nbsp;the&nbsp;die&nbsp;roll&nbsp;fails,&nbsp;you&nbsp;know&nbsp;the&nbsp;attempt&nbsp;failed,&nbsp;unless&nbsp;specific&nbsp;effects&nbsp;yielding&nbsp;false&nbsp;information&nbsp;are&nbsp;at&nbsp;work.
+      <p>You can predict a useful piece of advice in reply to a question
+      concerning a specific goal, event, or activity that is to occur within 1
+      week. The advice augured can be as simple as a short phrase, or it might
+      take the form of a cryptic rhyme or omen. If your party doesn't act on the
+      information, the conditions may change so that the information is no
+      longer useful. The base chance for a correct answer is 70% + 1% per
+      manifester level, to a maximum of 90%. If the die roll fails, you know the
+      attempt failed, unless specific effects yielding false information are at
+      work.
 
       </p>
 
-      <p>Multiple&nbsp;attempts&nbsp;about&nbsp;the&nbsp;same&nbsp;topic&nbsp;by&nbsp;the&nbsp;same&nbsp;manifester&nbsp;use&nbsp;the&nbsp;same&nbsp;dice&nbsp;result&nbsp;as&nbsp;the&nbsp;first&nbsp;attempt&nbsp;and&nbsp;yield&nbsp;the&nbsp;same&nbsp;answer&nbsp;each&nbsp;time.
+      <p>Multiple attempts about the same topic by the same manifester use the
+      same dice result as the first attempt and yield the same answer each time.
 
       </p>
   discipline: clairsentience

@@ -29,13 +29,28 @@ system:
         value: One creature
   description:
     value: >-
-      <p>You&nbsp;numb&nbsp;the&nbsp;mind&nbsp;of&nbsp;the&nbsp;target,&nbsp;making&nbsp;their&nbsp;thoughts&nbsp;unfocused&nbsp;and&nbsp;imprecise.&nbsp;This&nbsp;makes&nbsp;the&nbsp;target&nbsp;harder&nbsp;to&nbsp;affect&nbsp;with&nbsp;any&nbsp;mind-affecting&nbsp;abilities,&nbsp;but&nbsp;if&nbsp;they&nbsp;are&nbsp;casters&nbsp;or&nbsp;manifesters,&nbsp;they&nbsp;can’t&nbsp;use&nbsp;their&nbsp;mind&nbsp;to&nbsp;its&nbsp;fullest&nbsp;potential.&nbsp;The&nbsp;target&nbsp;gains&nbsp;a&nbsp;+4&nbsp;bonus&nbsp;to&nbsp;saves&nbsp;against&nbsp;any&nbsp;mind-affecting&nbsp;abilities,&nbsp;spells&nbsp;or&nbsp;powers,&nbsp;but&nbsp;lose&nbsp;access&nbsp;to&nbsp;the&nbsp;highest&nbsp;level&nbsp;of&nbsp;spells,&nbsp;powers,&nbsp;spell-like&nbsp;abilities&nbsp;or&nbsp;psi-like&nbsp;abilities&nbsp;they&nbsp;possess.&nbsp;For&nbsp;example:&nbsp;Wayana,&nbsp;a&nbsp;6th&nbsp;level&nbsp;sorcerer&nbsp;is&nbsp;targeted&nbsp;by&nbsp;<em>numbed&nbsp;mind&nbsp;</em>and&nbsp;fails&nbsp;her&nbsp;Will-save.&nbsp;For&nbsp;the&nbsp;duration&nbsp;of&nbsp;the&nbsp;power,&nbsp;she&nbsp;gains&nbsp;a&nbsp;+4&nbsp;bonus&nbsp;to&nbsp;her&nbsp;saves&nbsp;against&nbsp;other&nbsp;mind-affecting&nbsp;abilities&nbsp;but&nbsp;cannot&nbsp;cast&nbsp;her&nbsp;3rd&nbsp;level&nbsp;spells.
+      <p>You numb the mind of the target, making their thoughts unfocused and
+      imprecise. This makes the target harder to affect with any mind-affecting
+      abilities, but if they are casters or manifesters, they can’t use their
+      mind to its fullest potential. The target gains a +4 bonus to saves
+      against any mind-affecting abilities, spells or powers, but lose access to
+      the highest level of spells, powers, spell-like abilities or psi-like
+      abilities they possess. For example: Wayana, a 6th level sorcerer is
+      targeted by <em>numbed mind </em>and fails her Will-save. For the duration
+      of the power, she gains a +4 bonus to her saves against other
+      mind-affecting abilities but cannot cast her 3rd level spells.
 
       </p>
 
-      <p><strong>Augment:&nbsp;</strong>This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment: </strong>This power may be augmented in one or more of
+      the following ways.
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;becomes&nbsp;1&nbsp;minute&nbsp;/&nbsp;level.</li><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;target&nbsp;another&nbsp;creature.</li><li>If&nbsp;you&nbsp;spend&nbsp;8&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;becomes&nbsp;permanent,&nbsp;but&nbsp;the&nbsp;target&nbsp;gets&nbsp;a&nbsp;new&nbsp;save&nbsp;(without&nbsp;the&nbsp;bonus)&nbsp;after&nbsp;having&nbsp;slept&nbsp;for&nbsp;at&nbsp;least&nbsp;8&nbsp;hours&nbsp;for&nbsp;as&nbsp;long&nbsp;as&nbsp;the&nbsp;power&nbsp;is&nbsp;in&nbsp;effect.</li></ol>
+      </p><ol><li>If you spend 4 additional power points, the duration becomes 1
+      minute / level.</li><li>For every additional power point you spend, you
+      can target another creature.</li><li>If you spend 8 additional power
+      points, the duration becomes permanent, but the target gets a new save
+      (without the bonus) after having slept for at least 8 hours for as long as
+      the power is in effect.</li></ol>
   descriptors:
     - mind-affecting
   discipline: telepathy

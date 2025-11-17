@@ -27,11 +27,14 @@ system:
         value: You
   description:
     value: >-
-      <p>As&nbsp;<em><a&nbsp;href="/wiki/Precognition"&nbsp;title="Precognition">precognition</a></em>,&nbsp;except&nbsp;as&nbsp;noted&nbsp;here.
+      <p>As <em><a href="/wiki/Precognition"
+      title="Precognition">precognition</a></em>, except as noted here.
 
       </p>
 
-      <p>You&nbsp;gain&nbsp;a&nbsp;+4&nbsp;insight&nbsp;bonus&nbsp;instead&nbsp;of&nbsp;a&nbsp;+2&nbsp;bonus,&nbsp;and&nbsp;the&nbsp;effect&nbsp;is&nbsp;not&nbsp;discharged&nbsp;when&nbsp;used.&nbsp;You&nbsp;may&nbsp;only&nbsp;gain&nbsp;a&nbsp;number&nbsp;of&nbsp;precognitive&nbsp;edges&nbsp;per&nbsp;manifestation&nbsp;equal&nbsp;to&nbsp;your&nbsp;manifester&nbsp;level.
+      <p>You gain a +4 insight bonus instead of a +2 bonus, and the effect is
+      not discharged when used. You may only gain a number of precognitive edges
+      per manifestation equal to your manifester level.
 
       </p>
   discipline: clairsentience

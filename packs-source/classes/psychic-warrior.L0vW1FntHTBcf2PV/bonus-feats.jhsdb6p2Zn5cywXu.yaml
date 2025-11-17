@@ -1,0 +1,45 @@
+_id: jhsdb6p2Zn5cywXu
+_key: '!items!jhsdb6p2Zn5cywXu'
+_stats:
+  coreVersion: '13.350'
+folder: L0vW1FntHTBcf2PV
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Bonus Feats
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Psychic Warrior
+  description:
+    value: >-
+      <p>At 1st level, a psychic warrior gets a bonus combat-oriented feat in
+      addition to the feat that any 1st level character gets and the bonus feat
+      granted to a human character. The psychic warrior gains an additional
+      bonus feat at 2nd level and every three levels thereafter (5th, 8th,
+      etc.). These bonus feats must be drawn from the feats noted as combat
+      feats or psionic feats. The psychic warrior must still meet all
+      prerequisites for the bonus feat, including ability score and base attack
+      bonus minimums as well as class requirements (like levels in another
+      specific class).
+
+      </p><p>These bonus feats are in addition to the feats that a character of
+      any class gains every two levels. A psychic warrior is not limited to
+      combat feats and psionic feats when choosing these other feats.
+
+      </p>
+  sources:
+    - date: '2010-08-01'
+      pages: 25–27
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2010-01-01'
+      pages: 29–31
+      publisher: Dreamscarred Press
+      title: 'Psionics Unleashed: Revised'
+    - date: '2013-12-24'
+      pages: 53–55
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  tag: bonus-feats
+type: feat

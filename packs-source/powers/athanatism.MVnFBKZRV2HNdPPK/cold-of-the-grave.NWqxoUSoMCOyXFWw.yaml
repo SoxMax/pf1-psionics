@@ -28,13 +28,26 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;lock&nbsp;off&nbsp;your&nbsp;pain&nbsp;receptors,&nbsp;becoming&nbsp;like&nbsp;one&nbsp;of&nbsp;the&nbsp;dead.&nbsp;While&nbsp;this&nbsp;power&nbsp;is&nbsp;active,&nbsp;you&nbsp;are&nbsp;immune&nbsp;to&nbsp;pain&nbsp;and&nbsp;emotion&nbsp;effects&nbsp;and&nbsp;reduce&nbsp;all&nbsp;mental&nbsp;ability&nbsp;damage&nbsp;you&nbsp;would&nbsp;take&nbsp;by&nbsp;two.&nbsp;In&nbsp;addition,&nbsp;whenever&nbsp;you&nbsp;are&nbsp;subjected&nbsp;to&nbsp;a&nbsp;morale&nbsp;effect,&nbsp;you&nbsp;may&nbsp;choose&nbsp;whether&nbsp;or&nbsp;not&nbsp;it&nbsp;affects&nbsp;you.&nbsp;If&nbsp;you&nbsp;choose&nbsp;to&nbsp;not&nbsp;be&nbsp;affected,&nbsp;you&nbsp;are&nbsp;immune&nbsp;to&nbsp;that&nbsp;instance&nbsp;of&nbsp;the&nbsp;particular&nbsp;effect.&nbsp;When&nbsp;this&nbsp;power&nbsp;ends,&nbsp;any&nbsp;such&nbsp;effects&nbsp;resume,&nbsp;provided&nbsp;that&nbsp;their&nbsp;duration&nbsp;has&nbsp;not&nbsp;expired&nbsp;in&nbsp;the&nbsp;meantime.&nbsp;However,&nbsp;any&nbsp;ability&nbsp;damage&nbsp;reduced&nbsp;by&nbsp;the&nbsp;use&nbsp;of&nbsp;this&nbsp;power&nbsp;remains&nbsp;reduced.
+      <p>You lock off your pain receptors, becoming like one of the dead. While
+      this power is active, you are immune to pain and emotion effects and
+      reduce all mental ability damage you would take by two. In addition,
+      whenever you are subjected to a morale effect, you may choose whether or
+      not it affects you. If you choose to not be affected, you are immune to
+      that instance of the particular effect. When this power ends, any such
+      effects resume, provided that their duration has not expired in the
+      meantime. However, any ability damage reduced by the use of this power
+      remains reduced.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> This power may be augmented in one of the
+      following ways.
 
-      </p><ol><li>You&nbsp;may&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;to&nbsp;increase&nbsp;the&nbsp;amount&nbsp;you&nbsp;reduce&nbsp;mental&nbsp;damage&nbsp;you&nbsp;would&nbsp;take&nbsp;by&nbsp;1.</li><li>You&nbsp;may&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points&nbsp;to&nbsp;reduce&nbsp;any&nbsp;physical&nbsp;damage&nbsp;you&nbsp;would&nbsp;take&nbsp;by&nbsp;2.</li><li>By&nbsp;spending&nbsp;an&nbsp;additional&nbsp;6&nbsp;power&nbsp;points,&nbsp;increase&nbsp;the&nbsp;duration&nbsp;of&nbsp;this&nbsp;power&nbsp;to&nbsp;1&nbsp;hour/level.</li></ol>
+      </p><ol><li>You may spend 4 additional power points to increase the amount
+      you reduce mental damage you would take by 1.</li><li>You may spend 4
+      additional power points to reduce any physical damage you would take by
+      2.</li><li>By spending an additional 6 power points, increase the duration
+      of this power to 1 hour/level.</li></ol>
   discipline: athanatism
   display:
     auditory: false

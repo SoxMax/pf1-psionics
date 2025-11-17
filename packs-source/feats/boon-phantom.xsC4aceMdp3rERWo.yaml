@@ -22,13 +22,17 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p><em>Your&nbsp;phantom's&nbsp;connection&nbsp;with&nbsp;you&nbsp;is&nbsp;exceptionally&nbsp;strong.</em></p>
+      <p><em>Your phantom's connection with you is exceptionally
+      strong.</em></p>
 
-      <p><strong>Prerequisite:</strong>&nbsp;Phantom&nbsp;class&nbsp;feature.
+      <p><strong>Prerequisite:</strong> Phantom class feature.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;The&nbsp;abilities&nbsp;of&nbsp;your&nbsp;phantom&nbsp;are&nbsp;calculated&nbsp;as&nbsp;though&nbsp;your&nbsp;class&nbsp;were&nbsp;4&nbsp;levels&nbsp;higher,&nbsp;to&nbsp;a&nbsp;maximum&nbsp;effective&nbsp;<a&nbsp;href="/wiki/Spiritualist"&nbsp;title="Spiritualist">spiritualist</a>&nbsp;level&nbsp;equal&nbsp;to&nbsp;your&nbsp;character&nbsp;level.
+      <p><strong>Benefit:</strong> The abilities of your phantom are calculated
+      as though your class were 4 levels higher, to a maximum effective <a
+      href="/wiki/Spiritualist" title="Spiritualist">spiritualist</a> level
+      equal to your character level.
 
       </p>
   disabled: false

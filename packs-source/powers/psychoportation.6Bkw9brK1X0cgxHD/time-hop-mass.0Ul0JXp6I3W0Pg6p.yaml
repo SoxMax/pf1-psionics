@@ -22,11 +22,17 @@ system:
         value: All willing creatures in range
   description:
     value: >-
-      <p>As&nbsp;<em><a&nbsp;href="/wiki/Time_Hop"&nbsp;title="Time&nbsp;Hop">time&nbsp;hop</a></em>,&nbsp;except&nbsp;you&nbsp;can&nbsp;affect&nbsp;any&nbsp;number&nbsp;of&nbsp;willing&nbsp;subjects&nbsp;in&nbsp;range,&nbsp;including&nbsp;yourself.&nbsp;You&nbsp;can&nbsp;choose&nbsp;which&nbsp;creatures&nbsp;are&nbsp;affected&nbsp;by&nbsp;the&nbsp;power.&nbsp;The&nbsp;subjects&nbsp;hop&nbsp;forward&nbsp;in&nbsp;time&nbsp;a&nbsp;number&nbsp;of&nbsp;hours&nbsp;equal&nbsp;to&nbsp;your&nbsp;manifester&nbsp;level,&nbsp;or&nbsp;some&nbsp;shorter&nbsp;number&nbsp;of&nbsp;hours;&nbsp;you&nbsp;decide&nbsp;how&nbsp;many&nbsp;hours&nbsp;the&nbsp;mass&nbsp;time&nbsp;hop&nbsp;lasts&nbsp;when&nbsp;you&nbsp;manifest&nbsp;the&nbsp;power.
+      <p>As <em><a href="/wiki/Time_Hop" title="Time Hop">time hop</a></em>,
+      except you can affect any number of willing subjects in range, including
+      yourself. You can choose which creatures are affected by the power. The
+      subjects hop forward in time a number of hours equal to your manifester
+      level, or some shorter number of hours; you decide how many hours the mass
+      time hop lasts when you manifest the power.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;If&nbsp;you&nbsp;spend&nbsp;6&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;manifest&nbsp;this&nbsp;power&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action.
+      <p><strong>Augment:</strong> If you spend 6 additional power points, you
+      can manifest this power as an immediate action.
 
       </p>
   discipline: psychoportation

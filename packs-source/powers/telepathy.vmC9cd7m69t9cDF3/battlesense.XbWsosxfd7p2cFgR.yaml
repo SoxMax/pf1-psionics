@@ -27,17 +27,35 @@ system:
         value: 1 willing creature/level
   description:
     value: >-
-      <p>You&nbsp;link&nbsp;the&nbsp;minds&nbsp;of&nbsp;your&nbsp;allies,&nbsp;dramatically&nbsp;improving&nbsp;their&nbsp;coordination.&nbsp;When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;a&nbsp;type&nbsp;of&nbsp;heads-up&nbsp;display&nbsp;appears&nbsp;in&nbsp;each&nbsp;target's&nbsp;mind,&nbsp;improving&nbsp;their&nbsp;coordination&nbsp;and&nbsp;group&nbsp;awareness.&nbsp;Each&nbsp;affected&nbsp;target&nbsp;can&nbsp;use&nbsp;the&nbsp;Aid&nbsp;Another&nbsp;action&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action.&nbsp;Creatures&nbsp;that&nbsp;move&nbsp;out&nbsp;of&nbsp;the&nbsp;30&nbsp;foot&nbsp;range&nbsp;after&nbsp;the&nbsp;power&nbsp;is&nbsp;manifested&nbsp;are&nbsp;still&nbsp;affected&nbsp;by&nbsp;the&nbsp;power.
+      <p>You link the minds of your allies, dramatically improving their
+      coordination. When you manifest this power, a type of heads-up display
+      appears in each target's mind, improving their coordination and group
+      awareness. Each affected target can use the Aid Another action as an
+      immediate action. Creatures that move out of the 30 foot range after the
+      power is manifested are still affected by the power.
 
       </p>
 
-      <p>Additionally,&nbsp;all&nbsp;targets&nbsp;that&nbsp;are&nbsp;also&nbsp;willing&nbsp;members&nbsp;of&nbsp;your&nbsp;collective&nbsp;(if&nbsp;any)&nbsp;gain&nbsp;one&nbsp;special&nbsp;ability&nbsp;of&nbsp;your&nbsp;choice&nbsp;from&nbsp;this&nbsp;list.&nbsp;Your&nbsp;choice&nbsp;affects&nbsp;all&nbsp;members&nbsp;equally.
+      <p>Additionally, all targets that are also willing members of your
+      collective (if any) gain one special ability of your choice from this
+      list. Your choice affects all members equally.
 
-      </p><ul><li>+1&nbsp;circumstance&nbsp;bonus&nbsp;to&nbsp;attack&nbsp;rolls</li><li>+1&nbsp;circumstance&nbsp;bonus&nbsp;to&nbsp;AC</li><li>+2&nbsp;circumstance&nbsp;bonus&nbsp;to&nbsp;weapon&nbsp;damage</li><li>+5&nbsp;circumstance&nbsp;bonus&nbsp;to&nbsp;speed</li></ul>
+      </p><ul><li>+1 circumstance bonus to attack rolls</li><li>+1 circumstance
+      bonus to AC</li><li>+2 circumstance bonus to weapon damage</li><li>+5
+      circumstance bonus to speed</li></ul>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;both&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment:</strong> You may augment this power in one or both of
+      the following ways.
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;choose&nbsp;a&nbsp;second&nbsp;special&nbsp;ability&nbsp;from&nbsp;the&nbsp;collective&nbsp;bonus&nbsp;list.&nbsp;You&nbsp;may&nbsp;choose&nbsp;the&nbsp;same&nbsp;benefit&nbsp;again;&nbsp;if&nbsp;you&nbsp;do,&nbsp;it&nbsp;stacks&nbsp;with&nbsp;itself&nbsp;(up&nbsp;to&nbsp;+5&nbsp;for&nbsp;attack&nbsp;rolls&nbsp;or&nbsp;AC,&nbsp;+10&nbsp;for&nbsp;weapon&nbsp;damage,&nbsp;or&nbsp;+25&nbsp;for&nbsp;bonus&nbsp;to&nbsp;speed).</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;you&nbsp;can&nbsp;use&nbsp;this&nbsp;power&nbsp;as&nbsp;if&nbsp;you&nbsp;had&nbsp;the&nbsp;collective&nbsp;class&nbsp;feature,&nbsp;treating&nbsp;creatures&nbsp;with&nbsp;which&nbsp;you&nbsp;have&nbsp;established&nbsp;a&nbsp;mental&nbsp;link,&nbsp;such&nbsp;as&nbsp;the&nbsp;mindlink&nbsp;power,&nbsp;as&nbsp;members.&nbsp;Creatures&nbsp;that&nbsp;would&nbsp;not&nbsp;consider&nbsp;you&nbsp;an&nbsp;ally&nbsp;if&nbsp;not&nbsp;for&nbsp;the&nbsp;link&nbsp;do&nbsp;not&nbsp;count&nbsp;as&nbsp;willing&nbsp;members.</li></ol>
+      </p><ol><li>If you spend 2 additional power points, you can choose a
+      second special ability from the collective bonus list. You may choose the
+      same benefit again; if you do, it stacks with itself (up to +5 for attack
+      rolls or AC, +10 for weapon damage, or +25 for bonus to speed).</li><li>If
+      you spend 2 additional power points, you can use this power as if you had
+      the collective class feature, treating creatures with which you have
+      established a mental link, such as the mindlink power, as members.
+      Creatures that would not consider you an ally if not for the link do not
+      count as willing members.</li></ol>
   descriptors:
     - mind-affecting
   discipline: telepathy

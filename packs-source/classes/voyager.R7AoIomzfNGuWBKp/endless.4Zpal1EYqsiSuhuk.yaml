@@ -1,0 +1,28 @@
+_id: 4Zpal1EYqsiSuhuk
+_key: '!items!4Zpal1EYqsiSuhuk'
+_stats:
+  coreVersion: '13.350'
+folder: R7AoIomzfNGuWBKp
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Endless
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Voyager
+  description:
+    value: >-
+      <p>At 11th level, a voyager can continue their exploration of time for as
+      long as she desires. A voyager ceases to age, though she may begin aging
+      normally if she wishes to. This is a decision that the voyager can change
+      at any time. The voyager cannot be magically aged, unless she allows it.
+
+      </p>
+  sources:
+    - date: '2010-01-01'
+      pages: 2–8
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Voyager'
+  subType: classFeat
+  tag: endless
+type: feat

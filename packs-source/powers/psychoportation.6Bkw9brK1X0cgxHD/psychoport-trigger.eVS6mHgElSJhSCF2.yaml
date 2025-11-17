@@ -28,11 +28,18 @@ system:
         value: You
   description:
     value: >-
-      <p>You&nbsp;specify&nbsp;a&nbsp;situation&nbsp;that&nbsp;triggers&nbsp;your&nbsp;automatic&nbsp;manifestation&nbsp;of&nbsp;a&nbsp;<em><a&nbsp;href="/wiki/Psychoport"&nbsp;title="Psychoport">psychoport</a></em>,&nbsp;taking&nbsp;you&nbsp;to&nbsp;a&nbsp;predetermined&nbsp;location.&nbsp;You&nbsp;must&nbsp;know&nbsp;the&nbsp;psychoport&nbsp;power&nbsp;and&nbsp;have&nbsp;sufficient&nbsp;power&nbsp;points&nbsp;to&nbsp;manifest&nbsp;it&nbsp;when&nbsp;the&nbsp;specified&nbsp;situation&nbsp;occurs.
+      <p>You specify a situation that triggers your automatic manifestation of a
+      <em><a href="/wiki/Psychoport" title="Psychoport">psychoport</a></em>,
+      taking you to a predetermined location. You must know the psychoport power
+      and have sufficient power points to manifest it when the specified
+      situation occurs.
 
       </p>
 
-      <p>The&nbsp;psychoport&nbsp;trigger&nbsp;goes&nbsp;off&nbsp;on&nbsp;the&nbsp;initiative&nbsp;count&nbsp;immediately&nbsp;after&nbsp;the&nbsp;specified&nbsp;situation&nbsp;occurs,&nbsp;even&nbsp;if&nbsp;you&nbsp;are&nbsp;flat-footed&nbsp;or&nbsp;you&nbsp;have&nbsp;already&nbsp;taken&nbsp;your&nbsp;turn&nbsp;in&nbsp;the&nbsp;current&nbsp;round.&nbsp;The&nbsp;specified&nbsp;situation&nbsp;can&nbsp;be&nbsp;described&nbsp;in&nbsp;general&nbsp;terms&nbsp;or&nbsp;specific&nbsp;terms.
+      <p>The psychoport trigger goes off on the initiative count immediately
+      after the specified situation occurs, even if you are flat-footed or you
+      have already taken your turn in the current round. The specified situation
+      can be described in general terms or specific terms.
 
       </p>
   discipline: psychoportation

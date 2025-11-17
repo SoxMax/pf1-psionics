@@ -21,25 +21,16 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p>Your&nbsp;terrors&nbsp;are&nbsp;able&nbsp;to&nbsp;affect&nbsp;those&nbsp;normally&nbsp;immune.
-
+    value: |-
+      <p>Your terrors are able to affect those normally immune.
       </p>
-
-      <p><strong>Prerequisite:&nbsp;</strong>Terrors&nbsp;class&nbsp;feature,&nbsp;10th&nbsp;level&nbsp;dread
-
+      <p><strong>Prerequisite: </strong>Terrors class feature, 10th level dread
       </p>
-
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;can&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;when
-
-      activating&nbsp;a&nbsp;terror&nbsp;to&nbsp;allow&nbsp;it&nbsp;to&nbsp;affect&nbsp;those&nbsp;normally
-
-      immune&nbsp;to&nbsp;fear&nbsp;effects&nbsp;or&nbsp;mind-affecting&nbsp;effects.&nbsp;The
-
-      target&nbsp;gets&nbsp;a&nbsp;+4&nbsp;bonus&nbsp;to&nbsp;any&nbsp;applicable&nbsp;save&nbsp;against&nbsp;the
-
+      <p><strong>Benefit: </strong>You can expend your psionic focus when
+      activating a terror to allow it to affect those normally
+      immune to fear effects or mind-affecting effects. The
+      target gets a +4 bonus to any applicable save against the
       effect.
-
       </p>
   disabled: false
   featType: feat

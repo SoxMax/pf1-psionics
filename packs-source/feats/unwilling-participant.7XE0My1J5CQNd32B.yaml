@@ -22,71 +22,75 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>You&nbsp;are&nbsp;able&nbsp;to&nbsp;force&nbsp;others&nbsp;into&nbsp;your&nbsp;collective.
+      <p>You are able to force others into your collective.
 
       </p>
 
-      <p><strong>Prerequisite:&nbsp;</strong>Collective&nbsp;class&nbsp;feature.
+      <p><strong>Prerequisite: </strong>Collective class feature.
 
       </p>
 
-      <p><strong>Benefit:&nbsp;</strong>You&nbsp;may&nbsp;attempt&nbsp;to&nbsp;force&nbsp;a&nbsp;living&nbsp;creature
+      <p><strong>Benefit: </strong>You may attempt to force a living creature
 
-      into&nbsp;your&nbsp;collective&nbsp;as&nbsp;a&nbsp;standard&nbsp;action.&nbsp;The&nbsp;target&nbsp;may
+      into your collective as a standard action. The target may
 
-      attempt&nbsp;a&nbsp;Will&nbsp;save&nbsp;(DC&nbsp;10&nbsp;+&nbsp;half&nbsp;manifester&nbsp;level&nbsp;level
+      attempt a Will save (DC 10 + half manifester level level
 
-      +&nbsp;Wisdom&nbsp;modifier)&nbsp;to&nbsp;resist.&nbsp;If&nbsp;the&nbsp;target&nbsp;fails&nbsp;the&nbsp;save,
+      + Wisdom modifier) to resist. If the target fails the save,
 
-      it&nbsp;may&nbsp;attempt&nbsp;another&nbsp;Will&nbsp;save&nbsp;at&nbsp;the&nbsp;same&nbsp;DC&nbsp;every
+      it may attempt another Will save at the same DC every
 
-      24&nbsp;hours&nbsp;thereafter,&nbsp;but&nbsp;is&nbsp;otherwise&nbsp;unable&nbsp;to&nbsp;leave&nbsp;the
+      24 hours thereafter, but is otherwise unable to leave the
 
-      collective&nbsp;unless&nbsp;you&nbsp;allow&nbsp;it.
-
-      </p>
-
-      <p>If&nbsp;you&nbsp;expend&nbsp;your&nbsp;psionic&nbsp;focus&nbsp;while&nbsp;using&nbsp;this&nbsp;feat,
-
-      the&nbsp;action&nbsp;required&nbsp;to&nbsp;attempt&nbsp;to&nbsp;force&nbsp;a&nbsp;living&nbsp;creature
-
-      into&nbsp;your&nbsp;collective&nbsp;is&nbsp;instead&nbsp;a&nbsp;move&nbsp;action.
+      collective unless you allow it.
 
       </p>
 
-      <p><strong>Normal:&nbsp;</strong>Only&nbsp;willing&nbsp;creatures&nbsp;may&nbsp;be&nbsp;added&nbsp;to&nbsp;a
+      <p>If you expend your psionic focus while using this feat,
 
-      collective.&nbsp;Creatures&nbsp;may&nbsp;leave&nbsp;the&nbsp;collective&nbsp;as&nbsp;a&nbsp;free
+      the action required to attempt to force a living creature
+
+      into your collective is instead a move action.
+
+      </p>
+
+      <p><strong>Normal: </strong>Only willing creatures may be added to a
+
+      collective. Creatures may leave the collective as a free
 
       action.
 
       </p>
 
-      <p><strong>Special:&nbsp;</strong>Creatures&nbsp;forced&nbsp;into&nbsp;your&nbsp;collective&nbsp;using
+      <p><strong>Special: </strong>Creatures forced into your collective using
 
-      Unwilling&nbsp;Participant&nbsp;are&nbsp;considered&nbsp;willing&nbsp;members
+      Unwilling Participant are considered willing members
 
-      for&nbsp;any&nbsp;collective-related&nbsp;effects&nbsp;unless&nbsp;they&nbsp;succeed&nbsp;on
+      for any collective-related effects unless they succeed on
 
-      another&nbsp;Will&nbsp;save&nbsp;at&nbsp;the&nbsp;same&nbsp;DC&nbsp;to&nbsp;resist&nbsp;being&nbsp;forced
+      another Will save at the same DC to resist being forced
 
-      into&nbsp;the&nbsp;collective.&nbsp;A&nbsp;successful&nbsp;save&nbsp;means&nbsp;the&nbsp;creature
+      into the collective. A successful save means the creature
 
-      resisted&nbsp;the&nbsp;specific&nbsp;effect&nbsp;but&nbsp;is&nbsp;still&nbsp;a&nbsp;member&nbsp;of&nbsp;the
+      resisted the specific effect but is still a member of the
 
       collective.
 
       </p>
 
-      <p>Creatures&nbsp;find&nbsp;it&nbsp;difficult&nbsp;to&nbsp;resist&nbsp;joining&nbsp;your&nbsp;collective.
+      <p>Creatures find it difficult to resist joining your collective.
 
       </p>
 
-      <p><strong>Prerequisites:</strong>&nbsp;Unwilling&nbsp;Participant,&nbsp;2nd&nbsp;mythic&nbsp;tier.
+      <p><strong>Prerequisites:</strong> Unwilling Participant, 2nd mythic tier.
 
       </p>
 
-      <p><strong>Benefit:</strong>&nbsp;You&nbsp;add&nbsp;half&nbsp;your&nbsp;tier&nbsp;to&nbsp;the&nbsp;save&nbsp;DC&nbsp;when&nbsp;forcing&nbsp;an&nbsp;unwilling&nbsp;creature&nbsp;into&nbsp;your&nbsp;collective.&nbsp;Additionally,&nbsp;you&nbsp;can&nbsp;expend&nbsp;one&nbsp;use&nbsp;of&nbsp;mythic&nbsp;power&nbsp;when&nbsp;a&nbsp;creature&nbsp;succeeds&nbsp;on&nbsp;its&nbsp;saving&nbsp;throw&nbsp;against&nbsp;being&nbsp;added&nbsp;to&nbsp;your&nbsp;collective&nbsp;to&nbsp;force&nbsp;that&nbsp;creature&nbsp;to&nbsp;roll&nbsp;a&nbsp;second&nbsp;time&nbsp;and&nbsp;take&nbsp;the&nbsp;lower&nbsp;result.&nbsp;
+      <p><strong>Benefit:</strong> You add half your tier to the save DC when
+      forcing an unwilling creature into your collective. Additionally, you can
+      expend one use of mythic power when a creature succeeds on its saving
+      throw against being added to your collective to force that creature to
+      roll a second time and take the lower result. 
 
       </p>
   disabled: false

@@ -26,13 +26,26 @@ system:
         harmless: true
   description:
     value: >-
-      <p>When&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;choose&nbsp;either&nbsp;divine,&nbsp;arcane&nbsp;or&nbsp;psychic&nbsp;spells&nbsp;as&nbsp;the&nbsp;vibration&nbsp;your&nbsp;aura&nbsp;is&nbsp;aligned&nbsp;with.&nbsp;Whenever&nbsp;you&nbsp;are&nbsp;the&nbsp;target&nbsp;of&nbsp;a&nbsp;spell&nbsp;of&nbsp;this&nbsp;kind,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+2&nbsp;bonus&nbsp;to&nbsp;saves&nbsp;against&nbsp;it.&nbsp;If&nbsp;you&nbsp;successfully&nbsp;save&nbsp;against&nbsp;the&nbsp;effect,&nbsp;you&nbsp;siphon&nbsp;off&nbsp;the&nbsp;energies&nbsp;from&nbsp;it&nbsp;to&nbsp;empower&nbsp;yourself.&nbsp;If&nbsp;you&nbsp;manifested&nbsp;this&nbsp;as&nbsp;a&nbsp;psychokinesis&nbsp;power,&nbsp;you&nbsp;gain&nbsp;1&nbsp;temporary&nbsp;hit&nbsp;point&nbsp;per&nbsp;spell&nbsp;level&nbsp;of&nbsp;the&nbsp;spell&nbsp;you&nbsp;saved&nbsp;against,&nbsp;and&nbsp;if&nbsp;you&nbsp;manifested&nbsp;this&nbsp;as&nbsp;a&nbsp;clairsentience&nbsp;power,&nbsp;you&nbsp;gain&nbsp;a&nbsp;+1&nbsp;insight&nbsp;bonus&nbsp;to&nbsp;your&nbsp;next&nbsp;d20&nbsp;roll&nbsp;for&nbsp;every&nbsp;3&nbsp;spell&nbsp;levels.&nbsp;If&nbsp;the&nbsp;spell&nbsp;doesn’t&nbsp;require&nbsp;a&nbsp;save,&nbsp;or&nbsp;is&nbsp;harmless,&nbsp;you&nbsp;gain&nbsp;half&nbsp;this&nbsp;bonus.&nbsp;These&nbsp;bonuses&nbsp;stack&nbsp;with&nbsp;themselves&nbsp;and&nbsp;lasts&nbsp;while&nbsp;the&nbsp;aura&nbsp;is&nbsp;in&nbsp;effect.
+      <p>When you manifest this power, choose either divine, arcane or psychic
+      spells as the vibration your aura is aligned with. Whenever you are the
+      target of a spell of this kind, you gain a +2 bonus to saves against it.
+      If you successfully save against the effect, you siphon off the energies
+      from it to empower yourself. If you manifested this as a psychokinesis
+      power, you gain 1 temporary hit point per spell level of the spell you
+      saved against, and if you manifested this as a clairsentience power, you
+      gain a +1 insight bonus to your next d20 roll for every 3 spell levels. If
+      the spell doesn’t require a save, or is harmless, you gain half this
+      bonus. These bonuses stack with themselves and lasts while the aura is in
+      effect.
 
       </p>
 
-      <p><strong>Augment:&nbsp;</strong>This&nbsp;power&nbsp;may&nbsp;be&nbsp;augmented&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways.
+      <p><strong>Augment: </strong>This power may be augmented in one or more of
+      the following ways.
 
-      </p><ul><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;increases&nbsp;to&nbsp;1&nbsp;minute&nbsp;/&nbsp;level.</li><li>If&nbsp;you&nbsp;spend&nbsp;4&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;increases&nbsp;to&nbsp;10&nbsp;minutes&nbsp;/&nbsp;level.</li></ul>
+      </p><ul><li>If you spend 2 additional power points, the duration increases
+      to 1 minute / level.</li><li>If you spend 4 additional power points, the
+      duration increases to 10 minutes / level.</li></ul>
   descriptors:
     - network
   discipline: psychokinesis

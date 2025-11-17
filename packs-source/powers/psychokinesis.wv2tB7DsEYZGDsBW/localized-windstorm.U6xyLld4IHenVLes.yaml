@@ -28,33 +28,78 @@ system:
         value: Wall up to 10 ft./level long and 5 ft./level high (S)
   description:
     value: >-
-      <p>Through&nbsp;force&nbsp;of&nbsp;will&nbsp;alone,&nbsp;you&nbsp;generate&nbsp;a&nbsp;small&nbsp;storm&nbsp;of&nbsp;psychokinetic&nbsp;turbulence&nbsp;in&nbsp;the&nbsp;air.&nbsp;The&nbsp;storm&nbsp;itself&nbsp;manifests&nbsp;as&nbsp;a&nbsp;wall&nbsp;which&nbsp;can&nbsp;intensify&nbsp;the&nbsp;existing&nbsp;winds&nbsp;in&nbsp;a&nbsp;small&nbsp;area,&nbsp;or&nbsp;can&nbsp;instead&nbsp;be&nbsp;set&nbsp;to&nbsp;exactly&nbsp;counter&nbsp;such&nbsp;winds,&nbsp;generating&nbsp;a&nbsp;peaceful&nbsp;area&nbsp;of&nbsp;calm.&nbsp;While&nbsp;the&nbsp;wall&nbsp;must&nbsp;be&nbsp;vertical,&nbsp;you&nbsp;can&nbsp;shape&nbsp;it&nbsp;in&nbsp;any&nbsp;continuous&nbsp;path&nbsp;along&nbsp;the&nbsp;ground&nbsp;that&nbsp;you&nbsp;like.&nbsp;It&nbsp;is&nbsp;possible&nbsp;to&nbsp;create&nbsp;cylindrical&nbsp;or&nbsp;square&nbsp;walls&nbsp;to&nbsp;enclose&nbsp;specific&nbsp;points.
+      <p>Through force of will alone, you generate a small storm of
+      psychokinetic turbulence in the air. The storm itself manifests as a wall
+      which can intensify the existing winds in a small area, or can instead be
+      set to exactly counter such winds, generating a peaceful area of calm.
+      While the wall must be vertical, you can shape it in any continuous path
+      along the ground that you like. It is possible to create cylindrical or
+      square walls to enclose specific points.
 
       </p>
 
-      <p>Choose&nbsp;to&nbsp;intensify&nbsp;or&nbsp;pacify&nbsp;the&nbsp;winds&nbsp;when&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power&nbsp;(although&nbsp;the&nbsp;decision&nbsp;can&nbsp;be&nbsp;changed&nbsp;when&nbsp;you&nbsp;reshape&nbsp;the&nbsp;effect,&nbsp;see&nbsp;below).
+      <p>Choose to intensify or pacify the winds when you manifest this power
+      (although the decision can be changed when you reshape the effect, see
+      below).
 
       </p>
 
-      <p>Intensifying&nbsp;the&nbsp;winds&nbsp;creates&nbsp;an&nbsp;invisible&nbsp;vertical&nbsp;curtain&nbsp;of&nbsp;wind.&nbsp;It&nbsp;is&nbsp;2&nbsp;feet&nbsp;thick&nbsp;and&nbsp;of&nbsp;considerable&nbsp;strength.&nbsp;It&nbsp;is&nbsp;a&nbsp;roaring&nbsp;blast&nbsp;sufficient&nbsp;to&nbsp;blow&nbsp;away&nbsp;any&nbsp;bird&nbsp;smaller&nbsp;than&nbsp;an&nbsp;eagle,&nbsp;or&nbsp;tear&nbsp;papers&nbsp;and&nbsp;similar&nbsp;materials&nbsp;from&nbsp;unsuspecting&nbsp;hands.&nbsp;(A&nbsp;Reflex&nbsp;save&nbsp;allows&nbsp;a&nbsp;creature&nbsp;to&nbsp;maintain&nbsp;its&nbsp;grasp&nbsp;on&nbsp;an&nbsp;object.)&nbsp;Flying&nbsp;creatures&nbsp;smaller&nbsp;than&nbsp;Medium&nbsp;size&nbsp;cannot&nbsp;pass&nbsp;through&nbsp;the&nbsp;barrier.&nbsp;Loose&nbsp;materials&nbsp;and&nbsp;cloth&nbsp;garments&nbsp;fly&nbsp;upward&nbsp;when&nbsp;caught&nbsp;in&nbsp;a&nbsp;wind&nbsp;wall.&nbsp;Projectiles&nbsp;of&nbsp;1&nbsp;pound&nbsp;or&nbsp;less&nbsp;passing&nbsp;through&nbsp;the&nbsp;wind&nbsp;wall&nbsp;are&nbsp;deflected&nbsp;upward&nbsp;and&nbsp;miss.&nbsp;For&nbsp;every&nbsp;pound&nbsp;above&nbsp;1&nbsp;of&nbsp;the&nbsp;projectile's&nbsp;weight,&nbsp;it&nbsp;has&nbsp;a&nbsp;10%&nbsp;chance&nbsp;to&nbsp;not&nbsp;be&nbsp;blown&nbsp;off&nbsp;course.&nbsp;Projectiles&nbsp;weighing&nbsp;10&nbsp;lbs&nbsp;or&nbsp;more&nbsp;are&nbsp;unaffected&nbsp;by&nbsp;the&nbsp;wind&nbsp;wall.&nbsp;Gases,&nbsp;most&nbsp;gaseous&nbsp;breath&nbsp;weapons,&nbsp;and&nbsp;creatures&nbsp;in&nbsp;gaseous&nbsp;form&nbsp;cannot&nbsp;pass&nbsp;through&nbsp;the&nbsp;wall&nbsp;(although&nbsp;it&nbsp;is&nbsp;no&nbsp;barrier&nbsp;to&nbsp;incorporeal&nbsp;creatures).
+      <p>Intensifying the winds creates an invisible vertical curtain of wind.
+      It is 2 feet thick and of considerable strength. It is a roaring blast
+      sufficient to blow away any bird smaller than an eagle, or tear papers and
+      similar materials from unsuspecting hands. (A Reflex save allows a
+      creature to maintain its grasp on an object.) Flying creatures smaller
+      than Medium size cannot pass through the barrier. Loose materials and
+      cloth garments fly upward when caught in a wind wall. Projectiles of 1
+      pound or less passing through the wind wall are deflected upward and miss.
+      For every pound above 1 of the projectile's weight, it has a 10% chance to
+      not be blown off course. Projectiles weighing 10 lbs or more are
+      unaffected by the wind wall. Gases, most gaseous breath weapons, and
+      creatures in gaseous form cannot pass through the wall (although it is no
+      barrier to incorporeal creatures).
 
       </p>
 
-      <p>Pacifying&nbsp;the&nbsp;winds&nbsp;allows&nbsp;you&nbsp;to&nbsp;generate&nbsp;a&nbsp;region&nbsp;of&nbsp;calm&nbsp;that&nbsp;consists&nbsp;of&nbsp;every&nbsp;5&nbsp;ft.&nbsp;cube&nbsp;that&nbsp;shares&nbsp;an&nbsp;edge&nbsp;or&nbsp;space&nbsp;with&nbsp;where&nbsp;the&nbsp;wind&nbsp;wall&nbsp;would&nbsp;otherwise&nbsp;be.&nbsp;These&nbsp;regions&nbsp;are&nbsp;treated&nbsp;as&nbsp;if&nbsp;their&nbsp;wind&nbsp;conditions&nbsp;were&nbsp;two&nbsp;categories&nbsp;fairer&nbsp;than&nbsp;they&nbsp;would&nbsp;naturally&nbsp;be,&nbsp;to&nbsp;a&nbsp;minimum&nbsp;of&nbsp;no&nbsp;winds.&nbsp;Additionally,&nbsp;if&nbsp;these&nbsp;areas&nbsp;of&nbsp;calm&nbsp;overlap&nbsp;an&nbsp;existing&nbsp;wind&nbsp;wall&nbsp;or&nbsp;an&nbsp;intensifying&nbsp;localized&nbsp;windstorm,&nbsp;the&nbsp;two&nbsp;effects&nbsp;cancel,&nbsp;letting&nbsp;normal&nbsp;wind&nbsp;conditions&nbsp;prevail&nbsp;in&nbsp;the&nbsp;square.
+      <p>Pacifying the winds allows you to generate a region of calm that
+      consists of every 5 ft. cube that shares an edge or space with where the
+      wind wall would otherwise be. These regions are treated as if their wind
+      conditions were two categories fairer than they would naturally be, to a
+      minimum of no winds. Additionally, if these areas of calm overlap an
+      existing wind wall or an intensifying localized windstorm, the two effects
+      cancel, letting normal wind conditions prevail in the square.
 
       </p>
 
-      <p>At&nbsp;any&nbsp;point&nbsp;during&nbsp;the&nbsp;duration,&nbsp;you&nbsp;may&nbsp;extend&nbsp;your&nbsp;concentration&nbsp;to&nbsp;a&nbsp;full-round&nbsp;action.&nbsp;Doing&nbsp;so&nbsp;allows&nbsp;you&nbsp;reshape&nbsp;the&nbsp;wall&nbsp;into&nbsp;any&nbsp;other&nbsp;configuration&nbsp;you&nbsp;could&nbsp;have&nbsp;chosen&nbsp;when&nbsp;you&nbsp;manifest&nbsp;this&nbsp;power,&nbsp;including&nbsp;the&nbsp;choice&nbsp;to&nbsp;intensify&nbsp;or&nbsp;pacify.
+      <p>At any point during the duration, you may extend your concentration to
+      a full-round action. Doing so allows you reshape the wall into any other
+      configuration you could have chosen when you manifest this power,
+      including the choice to intensify or pacify.
 
       </p>
 
-      <p><strong>Augment:</strong>&nbsp;You&nbsp;may&nbsp;augment&nbsp;this&nbsp;power&nbsp;in&nbsp;one&nbsp;or&nbsp;more&nbsp;of&nbsp;the&nbsp;following&nbsp;ways:
+      <p><strong>Augment:</strong> You may augment this power in one or more of
+      the following ways:
 
-      </p><ol><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;duration&nbsp;increases&nbsp;to&nbsp;1&nbsp;round/level.&nbsp;You&nbsp;no&nbsp;longer&nbsp;need&nbsp;to&nbsp;maintain&nbsp;concentration.&nbsp;You&nbsp;may&nbsp;reshape&nbsp;the&nbsp;wall&nbsp;by&nbsp;spending&nbsp;a&nbsp;standard&nbsp;action&nbsp;in&nbsp;concentration.</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;the&nbsp;range&nbsp;of&nbsp;this&nbsp;power&nbsp;increases&nbsp;to&nbsp;Medium&nbsp;(100&nbsp;ft.&nbsp;+10&nbsp;ft./level).</li><li>If&nbsp;you&nbsp;spend&nbsp;2&nbsp;additional&nbsp;power&nbsp;points,&nbsp;your&nbsp;control&nbsp;over&nbsp;the&nbsp;localized&nbsp;windstorm&nbsp;increases&nbsp;greatly.&nbsp;You&nbsp;may&nbsp;reshape&nbsp;the&nbsp;wall&nbsp;as&nbsp;normal&nbsp;or&nbsp;as&nbsp;an&nbsp;immediate&nbsp;action.&nbsp;You&nbsp;may&nbsp;also&nbsp;generate&nbsp;pockets&nbsp;of&nbsp;calm&nbsp;interspersed&nbsp;with&nbsp;pockets&nbsp;of&nbsp;intense&nbsp;winds&nbsp;when&nbsp;you&nbsp;shape&nbsp;the&nbsp;wall&nbsp;(effectively,&nbsp;this&nbsp;is&nbsp;the&nbsp;intensify&nbsp;option&nbsp;except&nbsp;that&nbsp;the&nbsp;wall&nbsp;may&nbsp;be&nbsp;broken&nbsp;with&nbsp;as&nbsp;many&nbsp;5-foot&nbsp;cubes&nbsp;of&nbsp;calm&nbsp;that&nbsp;you&nbsp;choose,&nbsp;as&nbsp;per</li></ol>
+      </p><ol><li>If you spend 2 additional power points, the duration increases
+      to 1 round/level. You no longer need to maintain concentration. You may
+      reshape the wall by spending a standard action in
+      concentration.</li><li>If you spend 2 additional power points, the range
+      of this power increases to Medium (100 ft. +10 ft./level).</li><li>If you
+      spend 2 additional power points, your control over the localized windstorm
+      increases greatly. You may reshape the wall as normal or as an immediate
+      action. You may also generate pockets of calm interspersed with pockets of
+      intense winds when you shape the wall (effectively, this is the intensify
+      option except that the wall may be broken with as many 5-foot cubes of
+      calm that you choose, as per</li></ol>
 
-      <p>the&nbsp;pacify&nbsp;option).
+      <p>the pacify option).
 
-      </p><ol><li>For&nbsp;every&nbsp;2&nbsp;additional&nbsp;power&nbsp;points&nbsp;you&nbsp;spend,&nbsp;you&nbsp;can&nbsp;reduce&nbsp;the&nbsp;wind&nbsp;conditions&nbsp;an&nbsp;additional&nbsp;category&nbsp;when&nbsp;using&nbsp;the&nbsp;pacify&nbsp;option.</li><li>For&nbsp;every&nbsp;additional&nbsp;power&nbsp;point,&nbsp;the&nbsp;weight&nbsp;limit&nbsp;of&nbsp;projectiles&nbsp;that&nbsp;are&nbsp;deflected&nbsp;increases&nbsp;by&nbsp;1&nbsp;lb.&nbsp;In&nbsp;addition,&nbsp;for&nbsp;every&nbsp;2&nbsp;power&nbsp;points&nbsp;spent&nbsp;achieving&nbsp;any&nbsp;of&nbsp;these&nbsp;effects,&nbsp;increase&nbsp;the&nbsp;save&nbsp;DC&nbsp;by&nbsp;1.</li></ol>
+      </p><ol><li>For every 2 additional power points you spend, you can reduce
+      the wind conditions an additional category when using the pacify
+      option.</li><li>For every additional power point, the weight limit of
+      projectiles that are deflected increases by 1 lb. In addition, for every 2
+      power points spent achieving any of these effects, increase the save DC by
+      1.</li></ol>
   descriptors:
     - air
   discipline: psychokinesis
