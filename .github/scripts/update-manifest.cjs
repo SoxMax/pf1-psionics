@@ -38,7 +38,6 @@ try {
 
 // Update version and URLs
 manifest.version = version;
-manifest.manifest = `https://github.com/${repository}/releases/download/v${version}/module.json`;
 manifest.download = `https://github.com/${repository}/releases/download/v${version}/module.zip`;
 
 // Write updated module.json
