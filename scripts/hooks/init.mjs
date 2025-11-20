@@ -77,6 +77,29 @@ function registerConfig() {
     8: "PF1-Psionics.Powers.Levels.8",
     9: "PF1-Psionics.Powers.Levels.9",
   };
+
+  const baseActorFilters = () => ({actor: {exclude: ["haunt", "vehicle", "trap"]}});
+
+  pf1.config.buffTargetCategories.psionics = {
+    label: "PF1.PF1-Psionics.TabName",
+    filters: {...baseActorFilters()},
+  };
+
+  pf1.config.buffTargets[MODULE_ID] = {
+    focus: {
+      label: "PF1-Psionics.Focus.Singular",
+      category: "psionics",
+      sort: 260000,
+      filters: {...baseActorFilters()},
+    },
+    powerPoints: {
+      label: "PF1-Psionics.PowerPoints.Singular",
+      category: "psionics",
+      sort: 261000,
+      filters: {...baseActorFilters()},
+    },
+  };
+
 }
 
 /**
