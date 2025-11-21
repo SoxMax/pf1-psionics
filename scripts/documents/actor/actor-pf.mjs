@@ -37,8 +37,8 @@ export function onPreCreateActor(document, _data, _options, _userId) {
   const psionicsFlags = {
     [`flags.${MODULE_ID}`]: {
       manifestors: MANIFESTORS,
-      powerPoints: {current: 0, temporary: 0, maximum: 0}, // added maximum for buff modifications
-      focus: {current: 0, maximum: 0}, // added maximum for buff modifications
+      powerPoints: {current: 0, temporary: 0, maximum: 0},
+      focus: {current: 0, maximum: 0},
     },
   };
   // Can't use setFlag here
