@@ -1,7 +1,7 @@
 import { MODULE_ID } from "../_module.mjs";
 import { MANIFESTORS } from "../data/manifestors.mjs";
-import { addSkillIfMissing, addFlagIfMissing, migrateAllActors } from "./helpers.mjs";
-import {POWER_POINTS_FLAG, PSIONIC_FOCUS_FLAG} from "../data/powerpoints.mjs";
+import { addFlagIfMissing, addSkillIfMissing, migrateAllActors } from "./helpers.mjs";
+import { POWER_POINTS_FLAG, PSIONIC_FOCUS_FLAG } from "../data/powerpoints.mjs";
 
 /**
  * Migration for version 0.3.1
