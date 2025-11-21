@@ -1,5 +1,5 @@
 import {MODULE_ID} from "../../_module.mjs";
-import {POINTS_PER_LEVEL} from "../../data/powerpoints.mjs";
+import {POINTS_PER_LEVEL, POWER_POINTS_FLAG, PSIONIC_FOCUS_FLAG} from "../../data/powerpoints.mjs";
 import {MANIFESTORS} from "../../data/manifestors.mjs";
 import {SpellRanges} from "./utils/manifestor.mjs";
 
@@ -37,8 +37,8 @@ export function onPreCreateActor(document, _data, _options, _userId) {
   const psionicsFlags = {
     [`flags.${MODULE_ID}`]: {
       manifestors: MANIFESTORS,
-      powerPoints: {current: 0, temporary: 0, maximum: 0},
-      focus: {current: 0, maximum: 0},
+      powerPoints: POWER_POINTS_FLAG,
+      focus: PSIONIC_FOCUS_FLAG,
     },
   };
   // Can't use setFlag here
@@ -234,7 +234,7 @@ function calculatePowerPoints(actor, rollData, bookId, book) {
 }
 
 function deriveTotalPowerPoints(actor) {
-  const powerPoints = actor.getFlag(MODULE_ID, "powerPoints") ?? {current: 0, temporary: 0, maximum: 0};
+  const powerPoints = actor.getFlag(MODULE_ID, "powerPoints") ?? POWER_POINTS_FLAG;
   const manifestors = actor.getFlag(MODULE_ID, "manifestors") ?? {};
   // Preserve any bonus already applied to maximum via buffs; recompute base then add existing bonus difference
   const baseMax = Object.values(manifestors).
@@ -245,7 +245,7 @@ function deriveTotalPowerPoints(actor) {
 }
 
 function deriveTotalFocus(actor) {
-  const focus = actor.getFlag(MODULE_ID, "focus") ?? {current: 0, maximum: 0};
+  const focus = actor.getFlag(MODULE_ID, "focus") ?? PSIONIC_FOCUS_FLAG;
   const maxPowerPoints = actor.getFlag(MODULE_ID, "powerPoints")?.maximum ?? 0;
   const baseFocus = maxPowerPoints > 0 ? 1 : 0;
   focus.maximum = (focus.maximum || 0) + baseFocus;

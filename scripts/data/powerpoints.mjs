@@ -1,3 +1,14 @@
+export const POWER_POINTS_FLAG = {
+  current: 0,
+  temporary: 0,
+  maximum: 0
+};
+
+export const PSIONIC_FOCUS_FLAG = {
+  current: 0,
+  maximum: 0
+};
+
 export const POINTS_PER_LEVEL = {
     low: {
         1: 1,

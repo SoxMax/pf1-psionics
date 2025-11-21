@@ -4,9 +4,28 @@ import { PowerModel } from "../dataModels/_module.mjs";
 import { PowerItem } from "../documents/_module.mjs";
 
 export function initHook() {
+  registerSettings();
   registerConfig();
   registerItems();
   console.log(`${MODULE_ID} | Initialized`);
+}
+
+/**
+ * Registers module settings.
+ * This includes the schema version used for data migrations.
+ *
+ * @returns {void}
+ */
+function registerSettings() {
+  // Register schema version setting for migrations
+  game.settings.register(MODULE_ID, "schemaVersion", {
+    name: "Schema Version",
+    hint: "Internal setting used to track data migrations. Do not modify manually.",
+    scope: "world",
+    config: false,
+    type: String,
+    default: "0.0.0"
+  });
 }
 
 /**
