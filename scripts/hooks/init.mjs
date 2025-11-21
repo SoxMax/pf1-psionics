@@ -1,7 +1,7 @@
-import {MODULE_ID} from "../_module.mjs";
-import {PowerSheet} from "../applications/_module.mjs";
-import {PowerModel} from "../dataModels/_module.mjs";
-import {PowerItem} from "../documents/_module.mjs";
+import { MODULE_ID } from "../_module.mjs";
+import { PowerSheet } from "../applications/_module.mjs";
+import { PowerModel } from "../dataModels/_module.mjs";
+import { PowerItem } from "../documents/_module.mjs";
 
 export function initHook() {
   registerConfig();
@@ -77,6 +77,28 @@ function registerConfig() {
     8: "PF1-Psionics.Powers.Levels.8",
     9: "PF1-Psionics.Powers.Levels.9",
   };
+
+  const baseActorFilters = () => ({ actor: { exclude: ["haunt", "vehicle", "trap"] } });
+
+  pf1.config.buffTargetCategories.psionics = {
+    label: "PF1-Psionics.TabName",
+    filters: { ...baseActorFilters() },
+  };
+
+  pf1.config.buffTargets[`${MODULE_ID}.focus`] = {
+    label: "PF1-Psionics.Focus.Singular",
+    category: "psionics",
+    sort: 260000,
+    filters: { ...baseActorFilters() },
+  };
+
+  pf1.config.buffTargets[`${MODULE_ID}.powerPoints`] = {
+    label: "PF1-Psionics.PowerPoints.Singular",
+    category: "psionics",
+    sort: 261000,
+    filters: { ...baseActorFilters() },
+  };
+
 }
 
 /**
@@ -104,3 +126,16 @@ function registerItems() {
     makeDefault: true,
   });
 }
+
+// Map custom psionics buff targets to concrete actor data paths
+// These paths point to the maximum values; using maximum avoids refilling current values each refresh.
+Hooks.on("pf1GetChangeFlat", (result, target, _modifierType, _value, _actor) => {
+  switch (target){
+    case `${MODULE_ID}.powerPoints`:
+      result.push(`flags.${MODULE_ID}.powerPoints.maximum`);
+      break;
+    case `${MODULE_ID}.focus`:
+      result.push(`flags.${MODULE_ID}.focus.maximum`);
+      break;
+  }
+});
