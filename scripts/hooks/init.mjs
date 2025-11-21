@@ -126,3 +126,16 @@ function registerItems() {
     makeDefault: true,
   });
 }
+
+// Map custom psionics buff targets to concrete actor data paths
+// These paths point to the maximum values; using maximum avoids refilling current values each refresh.
+Hooks.on("pf1GetChangeFlat", (result, target, _modifierType, _value, _actor) => {
+  switch (target){
+    case `${MODULE_ID}.powerPoints`:
+      result.push(`flags.${MODULE_ID}.powerPoints.maximum`);
+      break;
+    case `${MODULE_ID}.focus`:
+      result.push(`flags.${MODULE_ID}.focus.maximum`);
+      break;
+  }
+});
