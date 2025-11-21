@@ -81,7 +81,7 @@ function registerConfig() {
   const baseActorFilters = () => ({ actor: { exclude: ["haunt", "vehicle", "trap"] } });
 
   pf1.config.buffTargetCategories.psionics = {
-    label: "PF1.PF1-Psionics.TabName",
+    label: "PF1-Psionics.TabName",
     filters: { ...baseActorFilters() },
   };
 
