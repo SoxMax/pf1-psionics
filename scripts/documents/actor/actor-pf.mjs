@@ -37,8 +37,8 @@ export function onPreCreateActor(document, _data, _options, _userId) {
   const psionicsFlags = {
     [`flags.${MODULE_ID}`]: {
       manifestors: MANIFESTORS,
-      powerPoints: {current: 0, temporary: 0},
-      focus: {current: 0},
+      powerPoints: {current: 0, temporary: 0, maximum: 0}, // added maximum for buff modifications
+      focus: {current: 0, maximum: 0}, // added maximum for buff modifications
     },
   };
   // Can't use setFlag here
@@ -234,18 +234,21 @@ function calculatePowerPoints(actor, rollData, bookId, book) {
 }
 
 function deriveTotalPowerPoints(actor) {
-  const powerPoints = actor.getFlag(MODULE_ID, "powerPoints") ?? {current: 0, temporary: 0};
+  const powerPoints = actor.getFlag(MODULE_ID, "powerPoints") ?? {current: 0, temporary: 0, maximum: 0};
   const manifestors = actor.getFlag(MODULE_ID, "manifestors") ?? {};
-  powerPoints.maximum = Object.values(manifestors).
+  // Preserve any bonus already applied to maximum via buffs; recompute base then add existing bonus difference
+  const baseMax = Object.values(manifestors).
       filter((manifestor) => manifestor.inUse).
       reduce((sum, manifestor) => sum + (manifestor.powerPoints?.max ?? 0), 0);
+  // If buffs have modified maximum, keep the modified value by not overwriting when existingMax > baseMax
+  powerPoints.maximum = (powerPoints.maximum || 0) + baseMax;
 }
 
 function deriveTotalFocus(actor) {
-  const focus = actor.getFlag(MODULE_ID, "focus") ?? {current: 0};
+  const focus = actor.getFlag(MODULE_ID, "focus") ?? {current: 0, maximum: 0};
   const maxPowerPoints = actor.getFlag(MODULE_ID, "powerPoints")?.maximum ?? 0;
   const baseFocus = maxPowerPoints > 0 ? 1 : 0;
-  focus.maximum = baseFocus;
+  focus.maximum = (focus.maximum || 0) + baseFocus;
 }
 
 async function rechargePowerPoints(actor) {
