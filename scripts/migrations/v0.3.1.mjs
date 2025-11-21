@@ -51,12 +51,14 @@ async function migrateActor(actor) {
 	// Add powerPoints flag
 	const powerPointsAdded = await addFlagIfMissing(actor, "powerPoints", {
 		current: 0,
-		temporary: 0
+		temporary: 0,
+    maximum: 0
 	});
 
 	// Add focus flag
 	const focusAdded = await addFlagIfMissing(actor, "focus", {
-		current: 0
+		current: 0,
+    maximum: 0
 	});
 
 	modified = kpsAdded || ahpAdded || manifestorsAdded || powerPointsAdded || focusAdded;
