@@ -206,39 +206,6 @@ export class PowerItem extends pf1.documents.item.ItemPF {
   }
 
   /**
-   * Add charges to the spell or its relevant resource pool (spell points or spontaneous spells).
-   *
-   * @override
-   * @param {number} value - Number of charges to add
-   * @param {object} [data=null] - Additional data to pass to the update
-   * @returns {Promise<this | void>} Updated document or undefined if no update is possible or required.
-   */
-  async addCharges(value, _data = null) {
-    if (!this.actor) return;
-    if (this.system.atWill) return;
-    if (value === 0) return this;
-
-    const powerPoints = this.actor.flags?.[MODULE_ID].powerPoints;
-
-    const updateData = {};
-    if (value > 0) {
-      updateData[`flags.${MODULE_ID}.powerPoints.current`] = Math.min(powerPoints.maximum, powerPoints.current + value);
-    } else {
-      let toRemove = Math.abs(value);
-      if (toRemove < powerPoints.temporary) {
-        updateData[`flags.${MODULE_ID}.powerPoints.temporary`] = powerPoints.temporary - toRemove;
-      } else {
-        toRemove -= powerPoints.temporary;
-        updateData[`flags.${MODULE_ID}.powerPoints.temporary`] = 0;
-        updateData[`flags.${MODULE_ID}.powerPoints.current`] = powerPoints.current - toRemove;
-      }
-    }
-
-    await this.actor.update(updateData);
-    return this;
-  }
-
-  /**
    * Number of remaining uses, or max.
    *
    * @param {boolean} max - Return max uses.
@@ -248,22 +215,17 @@ export class PowerItem extends pf1.documents.item.ItemPF {
     const itemData = this.system;
     if (itemData.atWill) return Number.POSITIVE_INFINITY;
 
-    // const prepared = itemData.preparation?.value ?? 0;
-    const prepared = 1;
+    const resource = this.actor?.system.resources?.["powerPoints"];
+    if (!resource) return 0;
 
-    if (prepared > 0) {
-      const powerPoints = this.actor?.flags["pf1-psionics"]?.powerPoints;
-      if (max) return powerPoints?.maximum ?? 0;
-      return (powerPoints?.current ?? 0) + (powerPoints?.temp ?? 0);
-    }
-
-    return 0;
+    return max ? resource.max : resource.value;
   }
 
   /** @inheritDoc */
   get isCharged() {
-    if (this.system.atWill) return false;
-    return true;
+    // Powers use actor-level power points via resourceCosts, not item-level charges
+    // Returning false prevents PF1 from auto-creating Resource instances for powers
+    return false;
   }
 
   /** @inheritdoc */

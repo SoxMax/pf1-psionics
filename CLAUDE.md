@@ -142,6 +142,13 @@ The module extends PF1 system documents:
 - Characters with power points have 1 psionic focus
 - Recharged on rest
 
+**Resource Costs**
+- Items can define `system.resourceCosts` array for additional costs beyond own uses
+- Format: `[{ tag: "powerPoints", formula: "@sl * 2 - 1" }]`
+- Actions can override item-level costs via `action.uses.resourceCosts`
+- ActorFlagResource wraps actor flag pools to work with PF1's resource system
+- Power points and psionic focus available in `actor.system.resources`
+
 **Skills**
 - Adds `kps` (Knowledge Psionics) - Int-based, trained only
 - Adds `ahp` (Autohypnosis) - Wis-based, trained only

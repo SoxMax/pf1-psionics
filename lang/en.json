@@ -95,6 +95,19 @@
         "Bonus": "Power Point Bonus"
       }
     },
+    "ResourceCosts": {
+      "Label": "Resource Costs",
+      "Tag": "Resource Tag",
+      "Formula": "Cost Formula"
+    },
+    "Error": {
+      "ResourceNotFound": "Resource '{tag}' not found",
+      "InsufficientResource": "Insufficient {resource}: requires {required}, have {available}"
+    },
+    "Resources": {
+      "powerPoints": "Power Points",
+      "psionicFocus": "Psionic Focus"
+    },
     "Augments": {
       "Plural": "Augments",
       "NoAvailable": "No augments available at your manifester level",

@@ -92,6 +92,23 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
       manifestor: new StringField({initial: ""}),
       sr: new BooleanField({initial: true}),
       augments: new ArrayField(new EmbeddedDataField(AugmentModel), { required: false, initial: [] }),
+      resourceCosts: new ArrayField(
+        new SchemaField({
+          tag: new StringField({
+            required: true,
+            blank: false,
+            label: "PF1-Psionics.ResourceCosts.Tag"
+          }),
+          formula: new StringField({
+            required: true,
+            blank: false,
+            label: "PF1-Psionics.ResourceCosts.Formula"
+          }),
+        }),
+        {
+          label: "PF1-Psionics.ResourceCosts.Label"
+        }
+      ),
     };
   }
 
@@ -111,6 +128,13 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
    */
   prepareDerivedData() {
     super.prepareDerivedData();
+
+    // Set default power point cost if not specified
+    if (!this.resourceCosts || this.resourceCosts.length === 0) {
+      this.resourceCosts = [
+        { tag: "powerPoints", formula: "max(0, @sl * 2 - 1)" }
+      ];
+    }
   }
 
   /**

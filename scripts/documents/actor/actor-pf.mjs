@@ -2,6 +2,7 @@ import {MODULE_ID} from "../../_module.mjs";
 import {POINTS_PER_LEVEL, POWER_POINTS_FLAG, PSIONIC_FOCUS_FLAG} from "../../data/powerpoints.mjs";
 import {MANIFESTORS} from "../../data/manifestors.mjs";
 import {SpellRanges} from "./utils/manifestor.mjs";
+import { ActorFlagResource } from "./components/_module.mjs";
 
 export function onPreCreateActor(document, _data, _options, _userId) {
   if (!["character", "npc"].includes(document.type)) return;
@@ -53,6 +54,33 @@ export function pf1PrepareDerivedActorData(actor) {
     deriveManifestorsInfo(actor);
     deriveTotalPowerPoints(actor);
     deriveTotalFocus(actor);
+
+    // Ensure resources object exists
+    actor.system.resources ??= {};
+
+    // Remove any power item resources that PF1 may have auto-created
+    // Powers use actor-level pools via ActorFlagResource, not item-level Resource instances
+    for (const [tag, resource] of Object.entries(actor.system.resources)) {
+      if (resource.item?.type === `${MODULE_ID}.power`) {
+        delete actor.system.resources[tag];
+      }
+    }
+
+    try {
+      // Register power points resource
+      actor.system.resources["powerPoints"] = new ActorFlagResource(actor, {
+        tag: "powerPoints",
+        flagPath: `flags.${MODULE_ID}.powerPoints`
+      });
+
+      // Register psionic focus resource
+      actor.system.resources["psionicFocus"] = new ActorFlagResource(actor, {
+        tag: "psionicFocus",
+        flagPath: `flags.${MODULE_ID}.focus`
+      });
+    } catch (error) {
+      console.error(`${MODULE_ID} | Error registering resources:`, error);
+    }
   }
 }
 
