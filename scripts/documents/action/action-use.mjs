@@ -62,20 +62,8 @@ function checkResourceCosts(options) {
   const rawCosts = action?.uses?.resourceCosts || this.system?.resourceCosts;
   const resourceCosts = normalizeResourceCosts(rawCosts);
 
-  console.log(`${MODULE_ID} | Checking resource costs for ${this.name}`, {
-    hasAction: !!action,
-    actionCosts: action?.uses?.resourceCosts,
-    itemCosts: this.system?.resourceCosts,
-    rawCosts: rawCosts,
-    normalizedCosts: resourceCosts,
-    isArray: Array.isArray(resourceCosts)
-  });
-
   // Ensure resourceCosts has entries
-  if (resourceCosts.length === 0) {
-    console.log(`${MODULE_ID} | No resource costs found`);
-    return 0;
-  }
+  if (resourceCosts.length === 0) return 0;
 
   const rollData = this.getRollData();
   const ERR_REQUIREMENT = {
@@ -84,13 +72,6 @@ function checkResourceCosts(options) {
 
   for (const cost of resourceCosts) {
     const resource = this.actor.system.resources?.[cost.tag];
-    console.log(`${MODULE_ID} | Checking resource ${cost.tag}`, {
-      found: !!resource,
-      value: resource?.value,
-      max: resource?.max,
-      formula: cost.formula,
-      rollData
-    });
 
     if (!resource) {
       console.warn(`${MODULE_ID} | Resource ${cost.tag} not found on actor ${this.actor.name}`);
@@ -101,7 +82,6 @@ function checkResourceCosts(options) {
     }
 
     const requiredAmount = RollPF.safeRollSync(cost.formula, rollData).total;
-    console.log(`${MODULE_ID} | Required ${cost.tag}: ${requiredAmount}, Available: ${resource.value}`);
 
     if (resource.value < requiredAmount) {
       const resourceLabel = game.i18n.localize(`PF1-Psionics.Resources.${cost.tag}`) || cost.tag;
@@ -116,7 +96,6 @@ function checkResourceCosts(options) {
     }
   }
 
-  console.log(`${MODULE_ID} | Resource check passed`);
   return 0;
 }
 
@@ -130,20 +109,8 @@ async function deductResourceCosts(options) {
   const rawCosts = action?.uses?.resourceCosts || this.system?.resourceCosts;
   const resourceCosts = normalizeResourceCosts(rawCosts);
 
-  console.log(`${MODULE_ID} | Deducting resource costs for ${this.name}`, {
-    hasAction: !!action,
-    actionCosts: action?.uses?.resourceCosts,
-    itemCosts: this.system?.resourceCosts,
-    rawCosts: rawCosts,
-    normalizedCosts: resourceCosts,
-    isArray: Array.isArray(resourceCosts)
-  });
-
   // Ensure resourceCosts has entries
-  if (resourceCosts.length === 0) {
-    console.log(`${MODULE_ID} | No resource costs to deduct`);
-    return;
-  }
+  if (resourceCosts.length === 0) return;
 
   const rollData = this.getRollData();
 
@@ -151,12 +118,9 @@ async function deductResourceCosts(options) {
     const resource = this.actor.system.resources?.[cost.tag];
     if (resource) {
       const amount = RollPF.safeRollSync(cost.formula, rollData).total;
-      console.log(`${MODULE_ID} | Deducting ${amount} ${cost.tag} (before: ${resource.value})`);
       await resource.add(-amount);
-      console.log(`${MODULE_ID} | After deduction: ${resource.value}`);
     } else {
       console.warn(`${MODULE_ID} | Resource ${cost.tag} not found during deduction`);
     }
   }
-  console.log(`${MODULE_ID} | Resource deduction complete`);
 }
