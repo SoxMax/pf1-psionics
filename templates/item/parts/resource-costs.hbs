@@ -1,0 +1,49 @@
+<div class="psionic-resource-costs">
+  <ol class="item-list resource-cost-list">
+    {{!-- Header Row --}}
+    <li class="item-list-header flexrow">
+      <div class="item-name resource-name-header">
+        <h4>{{localize "PF1-Psionics.ResourceCosts.ResourceName"}}</h4>
+      </div>
+      <div class="item-detail resource-formula-header">
+        <h4>{{localize "PF1-Psionics.ResourceCosts.CostFormula"}}</h4>
+      </div>
+      <div class="item-controls resource-controls">
+        <a class="resource-control resource-cost-add" data-tooltip="PF1.Add">
+          <i class="fa-solid fa-plus" inert></i>
+        </a>
+      </div>
+    </li>
+
+    {{!-- Resource Cost Entries --}}
+    {{#if system.resourceCosts}}
+      {{#each system.resourceCosts as |cost index|}}
+        <li class="item resource-cost-entry flexrow" data-index="{{index}}">
+          <div class="item-name resource-name-field">
+            <input type="text"
+                   name="system.resourceCosts.{{index}}.tag"
+                   value="{{cost.tag}}"
+                   placeholder="{{localize 'PF1-Psionics.ResourceCosts.TagPlaceholder'}}"
+                   data-dtype="String" />
+          </div>
+          <div class="item-detail resource-formula-field">
+            <input type="text"
+                   name="system.resourceCosts.{{index}}.formula"
+                   value="{{cost.formula}}"
+                   placeholder="{{localize 'PF1-Psionics.ResourceCosts.FormulaPlaceholder'}}"
+                   data-dtype="String" />
+          </div>
+          <div class="item-controls resource-controls">
+            <a class="resource-control resource-cost-clone" data-index="{{index}}" data-tooltip="PF1.Duplicate">
+              <i class="fa-solid fa-copy" inert></i>
+            </a>
+            <a class="resource-control resource-cost-delete" data-index="{{index}}" data-tooltip="PF1.Delete">
+              <i class="fa-solid fa-trash" inert></i>
+            </a>
+          </div>
+        </li>
+      {{/each}}
+    {{/if}}
+  </ol>
+  <p class="notes hint">{{localize "PF1-Psionics.ResourceCosts.Help"}}</p>
+</div>

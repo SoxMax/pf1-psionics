@@ -97,8 +97,15 @@
     },
     "ResourceCosts": {
       "Label": "Resource Costs",
+      "ResourceName": "Resource Name",
+      "CostFormula": "Cost Formula",
       "Tag": "Resource Tag",
-      "Formula": "Cost Formula"
+      "Formula": "Cost Formula",
+      "TagPlaceholder": "powerPoints",
+      "FormulaPlaceholder": "1",
+      "Add": "Add Resource Cost",
+      "Delete": "Remove Resource Cost",
+      "Help": "Additional resources required to use this item. Common tags: powerPoints, psionicFocus. Formula can use @variables like @sl (power level) or fixed numbers."
     },
     "Error": {
       "ResourceNotFound": "Resource '{tag}' not found",

@@ -130,7 +130,7 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
     super.prepareDerivedData();
 
     // Set default power point cost if not specified
-    if (!this.resourceCosts || this.resourceCosts.length === 0) {
+    if (!Array.isArray(this.resourceCosts) || this.resourceCosts.length === 0) {
       this.resourceCosts = [
         { tag: "powerPoints", formula: "max(0, @sl * 2 - 1)" }
       ];

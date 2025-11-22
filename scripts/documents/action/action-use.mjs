@@ -1,6 +1,20 @@
 import { MODULE_ID } from "../../_module.mjs";
 
 /**
+ * Normalize resource costs to ensure it's always an array
+ * @param {*} costs - Resource costs from item or action
+ * @returns {Array} Normalized array of costs
+ */
+function normalizeResourceCosts(costs) {
+  if (Array.isArray(costs)) return costs;
+  if (costs && typeof costs === 'object' && Object.keys(costs).length > 0) {
+    // Convert object to array (e.g., {0: {tag: "powerPoints", formula: "1"}})
+    return Object.values(costs);
+  }
+  return [];
+}
+
+/**
  * Inject resource cost checking into PF1's action use system
  */
 export function injectActionUse() {
@@ -45,8 +59,23 @@ function checkResourceCosts(options) {
 
   // Get costs from action (priority) or item
   const action = this.actions?.get(options.actionId);
-  const resourceCosts = action?.uses?.resourceCosts || this.system?.resourceCosts;
-  if (!resourceCosts || resourceCosts.length === 0) return 0;
+  const rawCosts = action?.uses?.resourceCosts || this.system?.resourceCosts;
+  const resourceCosts = normalizeResourceCosts(rawCosts);
+
+  console.log(`${MODULE_ID} | Checking resource costs for ${this.name}`, {
+    hasAction: !!action,
+    actionCosts: action?.uses?.resourceCosts,
+    itemCosts: this.system?.resourceCosts,
+    rawCosts: rawCosts,
+    normalizedCosts: resourceCosts,
+    isArray: Array.isArray(resourceCosts)
+  });
+
+  // Ensure resourceCosts has entries
+  if (resourceCosts.length === 0) {
+    console.log(`${MODULE_ID} | No resource costs found`);
+    return 0;
+  }
 
   const rollData = this.getRollData();
   const ERR_REQUIREMENT = {
@@ -55,6 +84,14 @@ function checkResourceCosts(options) {
 
   for (const cost of resourceCosts) {
     const resource = this.actor.system.resources?.[cost.tag];
+    console.log(`${MODULE_ID} | Checking resource ${cost.tag}`, {
+      found: !!resource,
+      value: resource?.value,
+      max: resource?.max,
+      formula: cost.formula,
+      rollData
+    });
+
     if (!resource) {
       console.warn(`${MODULE_ID} | Resource ${cost.tag} not found on actor ${this.actor.name}`);
       ui.notifications.warn(
@@ -64,6 +101,7 @@ function checkResourceCosts(options) {
     }
 
     const requiredAmount = RollPF.safeRollSync(cost.formula, rollData).total;
+    console.log(`${MODULE_ID} | Required ${cost.tag}: ${requiredAmount}, Available: ${resource.value}`);
 
     if (resource.value < requiredAmount) {
       const resourceLabel = game.i18n.localize(`PF1-Psionics.Resources.${cost.tag}`) || cost.tag;
@@ -78,6 +116,7 @@ function checkResourceCosts(options) {
     }
   }
 
+  console.log(`${MODULE_ID} | Resource check passed`);
   return 0;
 }
 
@@ -88,9 +127,23 @@ function checkResourceCosts(options) {
  */
 async function deductResourceCosts(options) {
   const action = this.actions?.get(options.actionId);
-  const resourceCosts = action?.uses?.resourceCosts || this.system?.resourceCosts;
+  const rawCosts = action?.uses?.resourceCosts || this.system?.resourceCosts;
+  const resourceCosts = normalizeResourceCosts(rawCosts);
 
-  if (!resourceCosts || resourceCosts.length === 0) return;
+  console.log(`${MODULE_ID} | Deducting resource costs for ${this.name}`, {
+    hasAction: !!action,
+    actionCosts: action?.uses?.resourceCosts,
+    itemCosts: this.system?.resourceCosts,
+    rawCosts: rawCosts,
+    normalizedCosts: resourceCosts,
+    isArray: Array.isArray(resourceCosts)
+  });
+
+  // Ensure resourceCosts has entries
+  if (resourceCosts.length === 0) {
+    console.log(`${MODULE_ID} | No resource costs to deduct`);
+    return;
+  }
 
   const rollData = this.getRollData();
 
@@ -98,7 +151,12 @@ async function deductResourceCosts(options) {
     const resource = this.actor.system.resources?.[cost.tag];
     if (resource) {
       const amount = RollPF.safeRollSync(cost.formula, rollData).total;
+      console.log(`${MODULE_ID} | Deducting ${amount} ${cost.tag} (before: ${resource.value})`);
       await resource.add(-amount);
+      console.log(`${MODULE_ID} | After deduction: ${resource.value}`);
+    } else {
+      console.warn(`${MODULE_ID} | Resource ${cost.tag} not found during deduction`);
     }
   }
+  console.log(`${MODULE_ID} | Resource deduction complete`);
 }
