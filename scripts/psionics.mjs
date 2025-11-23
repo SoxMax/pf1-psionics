@@ -12,7 +12,7 @@ import {
 import {injectActorSheetPF, renderActorHook} from "./applications/actor/actor-sheet.mjs";
 import {renderItemHook} from "./applications/item/item-sheet.mjs";
 import {injectItemAction} from "./documents/action/action.mjs";
-import {injectActionUse} from "./documents/action/action-use.mjs";
+import {injectActionUse, pf1PreActionUseHook} from "./documents/action/action-use.mjs";
 import {renderAttackDialogHook} from "./documents/action/attack-dialog.mjs";
 import {onCreateItemHook} from "./documents/item/item.mjs";
 import {onGetRollData} from "./utils.mjs";
@@ -59,6 +59,8 @@ Hooks.on("createItem", onCreateItemHook);
 Hooks.on("renderItemSheet", renderItemHook);
 
 Hooks.on("pf1GetRollData", onGetRollData);
+
+Hooks.on("pf1PreActionUse", pf1PreActionUseHook);
 
 Hooks.on("preCreateActor", onPreCreateActor);
 

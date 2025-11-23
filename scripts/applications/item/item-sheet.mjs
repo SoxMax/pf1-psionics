@@ -68,18 +68,18 @@ async function injectResourceCosts(app, html, data) {
 	}
 
 	// Add event listeners
-	html.find('.resource-cost-add').on('click', (event) => {
+	html.find(".resource-cost-add").on("click", (event) => {
 		event.preventDefault();
 		addResourceCost(app);
 	});
 
-	html.find('.resource-cost-delete').on('click', (event) => {
+	html.find(".resource-cost-delete").on("click", (event) => {
 		event.preventDefault();
 		const index = parseInt(event.currentTarget.dataset.index);
 		deleteResourceCost(app, index);
 	});
 
-	html.find('.resource-cost-clone').on('click', (event) => {
+	html.find(".resource-cost-clone").on("click", (event) => {
 		event.preventDefault();
 		const index = parseInt(event.currentTarget.dataset.index);
 		cloneResourceCost(app, index);
