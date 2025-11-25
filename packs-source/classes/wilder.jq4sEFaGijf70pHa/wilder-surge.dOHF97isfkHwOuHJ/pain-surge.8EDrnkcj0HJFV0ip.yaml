@@ -1,0 +1,75 @@
+_id: 8EDrnkcj0HJFV0ip
+_key: '!items!8EDrnkcj0HJFV0ip'
+_stats:
+  coreVersion: '13.351'
+folder: dOHF97isfkHwOuHJ
+img: icons/svg/book.svg
+name: Pain Surge
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Wilder
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: "<p><strong>Wild Surge and Psychic Enervation:</strong> The pain wilder draws strength from pain, but can only wild surge if she is experiencing physical pain. The pain wilder must have suffered hit point damage within a number of rounds equal to the number of points in her wild surge. If the wilder is injured while manifesting a power, such as by an\_attack of opportunity, she may use that damage to qualify to activate the wild surge on the power being manifested, as long as she makes a successful\_concentration\_check as normal. Because a pain wilder embraces pain, it acts as a focus for her manifesting ability, not as a distraction. If the pain wilder is injured while manifesting a power, the number of points of damage are halved to determine the DC of the\_concentration\_check. If a pain wilder is taking continuous damage, she does not need to make a\_concentration\_check for the continuous damage. When a pain wilder suffers psychic enervation, she is\_sickened\_until the end of her next turn and loses a number of power points equal to her normal manifester level (the increase in manifester level from her wild surge does not increase the number of power points lost).</p><p><strong>Surge Bond:</strong> The pain wilder gains the precise harm ability, as follows:</p><p><em>Precise Harm (Ex):</em> The pain wilder can determine exactly how much damage she wishes to inflict on a willing or\_helpless\_subject. This ability cannot be used on creatures that are unwilling or not\_helpless. Whenever they have a minimum to maximum amount of damage to inflict – such as with a weapon – they can choose the amount of damage they deliver within those limits, including foregoing\_Strength\_or other bonuses to damage. For example, if a pain wilder with a\_Strength\_of 12 and a\_dagger\_wishes to inflict damage on a target that is willing or\_helpless, she could inflict any amount of damage between 1 hit point and 5\_hit points. This can make the pain wilder an expert surgeon or an expert torturer. As such,\_Heal\_is added as a class skill for pain wilders, and they gain a +4\_competence bonus\_on any use of the skill that involves surgery. Likewise, if a pain wilder makes any use of\_Intimidate\_that involves inflicting pain on the target, she also gains a +4\_competence bonus on the check. The pain wilder’s ability to choose how much damage is inflicted applies in these circumstances. For example, a pain wilder attempting to remove a barbed sting that will inflict 1d6 damage on withdrawal would gain a +4 advantage to her\_Heal\_check to\_withdraw it, and could choose how much damage to inflict if successful or not.</p><p><strong>Improved Surge Bond:</strong> At 5th level, the pain wilder gains the\_Diehard feat as a bonus feat; at 9th level, she also gains the\_Body Fuel\_feat as a bonus feat, at 13th level she gains the\_Fight On\_feat as a bonus feat and at 17th level she gains the\_Mind Over Body\_feat as a bonus feat. The pain wilder gains the benefits of these feats even if she does not meet the prerequisites.</p>"
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: classFeat
+  summons: false
+  tags:
+    - Wild Surge
+type: feat

@@ -1,0 +1,75 @@
+_id: Vlm3iGtuh5LTQre3
+_key: '!items!Vlm3iGtuh5LTQre3'
+_stats:
+  coreVersion: '13.351'
+folder: dOHF97isfkHwOuHJ
+img: icons/svg/book.svg
+name: Free Surge
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Wilder
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: "<p><strong>Wild Surge and Psychic Enervation:</strong> The free wilder rides every emotion, taking them to heights unbelievable by others and finding her power in the moment of each encounter. Regardless of the emotion, embracing them to such a degree can sometimes be draining and cause her to be lost inside the experience. A free wilder overcome by\_psychic enervation\_is\_dazed\_until the end of her next turn and loses a number of power points equal to her normal manifester level (the increase in manifester level from her wild surge does not increase the number of power points lost).</p><p><strong>Surge Bond:</strong> The free wilder gains the\_Psionic Talent feat as a bonus feat.</p><p><strong>Improved Surge Bond:</strong> At 5th level, the free wilder gains the Volatile Mind ability.</p><p><em>Volatile Mind (Ex)</em>: A free wilder’s temperamental mind is hard to affect with telepathy or enchantment. Beginning at 5th level, the wilder gains a +1 bonus to\_saving throwsagainst\_telepathy\_powers or\_enchantment\_spells. Every four levels beyond 5th (9th, 13th, and 17th level), this bonus improves by +1.</p><p>Whenever any\_telepathy\_power is manifested or any\_enchantment spell is cast on a wilder of 17th level or higher, the wilder receives a\_Will\_save to negate the effect in addition to any save the effect may allow; if the spell or power already allows a\_Will\_save to negate, the wilder makes a second one, and would need to fail both to be affected.</p>"
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: classFeat
+  summons: false
+  tags:
+    - Wild Surge
+type: feat

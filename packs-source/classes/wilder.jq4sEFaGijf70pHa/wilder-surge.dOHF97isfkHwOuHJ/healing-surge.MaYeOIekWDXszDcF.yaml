@@ -1,0 +1,75 @@
+_id: MaYeOIekWDXszDcF
+_key: '!items!MaYeOIekWDXszDcF'
+_stats:
+  coreVersion: '13.351'
+folder: dOHF97isfkHwOuHJ
+img: icons/svg/book.svg
+name: Healing Surge
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Wilder
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: "<p><strong>Wild Surge and Psychic Enervation:</strong> A healing wilder utilizes empathy and compassion to boost her psionic power. When the healing wilder suffers psychic enervation, she is\_sickened\_for one round per point of wild surge, and if the power manifested with the wild surge healed another creature, that creature must make a\_Fortitude\_save (DC 10 + 1/2 wilder level + wilder’s\_Charisma\_modifier) or also be\_sickened\_for one round. She also loses power points equal to her normal manifester level (the increase in manifester level from her wild surge does not increase the number of power points lost).</p><p><strong>Surge Bond:</strong> Any power the healing wilder manifests of the Healing subdiscipline heals any ally within 15 ft. of her for a number of\_hit points\_equal to the wild surge. In addition, she adds\_<em>@UUID[Compendium.pf1-psionics.powers.Item.Cnx8bMkrtofPQDRJ]{Natural Healing}</em> to her list of powers known. This does not count against her limit of powers known and cannot be changed with effects such as psychic reformation.</p><p><strong>Improved Surge Bond:</strong> At 5th, 9th, 13th and 17th level the healing wilder gains her choice of either the\_Expanded Knowledge\_or\_Extra Power Known\_feat, but must choose a power of the Healing subdiscipline.</p>"
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: classFeat
+  summons: false
+  tags:
+    - Wild Surge
+type: feat

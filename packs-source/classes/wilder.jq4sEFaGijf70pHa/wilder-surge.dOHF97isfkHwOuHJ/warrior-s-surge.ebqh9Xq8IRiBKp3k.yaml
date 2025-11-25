@@ -1,0 +1,75 @@
+_id: ebqh9Xq8IRiBKp3k
+_key: '!items!ebqh9Xq8IRiBKp3k'
+_stats:
+  coreVersion: '13.351'
+folder: dOHF97isfkHwOuHJ
+img: icons/svg/book.svg
+name: Warrior’s Surge
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Wilder
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: "<p><strong>Wild Surge and Psychic Enervation:</strong> A warrior wilder embraces the surge of adrenaline, the rush of combat and melee and thus her connection to her body is far more intense. When she rides the wave of her combat-driven emotions, rage and fear foremost, the strain can sometimes be too high for her body to bear. A warrior wilder overcome by\_psychic enervation\_is\_staggered\_until the end of her next turn and loses a number of\_hit points\_equal to her normal manifester level (the increase in manifester level from her wild surge does not increase the number of\_hit points\_lost). The warrior wilder may expend her\_psionic focus\_as a\_free action\_when she would suffer\_psychic enervation\_to convert this damage into power point loss, although she is still\_staggered\_as normal.</p><p><strong>Surge Bond:</strong> The warrior wilder gains the\_Toughness\_feat as a bonus feat.</p><p><strong>Improved Surge Bond:</strong> At 5th level, the warrior wilder gains the Hardened Body ability.</p><p><em>Hardened Body (Ex)</em>: A warrior wilder’s deep and intense connection to her body means that when her mind surges with power, her body grows more powerful. Beginning at 5th level, the wilder gains 5\_temporary hit points\_whenever they gain the benefits of surging euphoria. These\_temporary hit points\_last for the duration of the warrior wilder’s surging euphoria. Every four levels beyond 5th (9th, 13th, and 17th level), these\_temporary hit points\_increase by 5 (to 10 at 9th level, etc.).</p>"
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: classFeat
+  summons: false
+  tags:
+    - Wild Surge
+type: feat

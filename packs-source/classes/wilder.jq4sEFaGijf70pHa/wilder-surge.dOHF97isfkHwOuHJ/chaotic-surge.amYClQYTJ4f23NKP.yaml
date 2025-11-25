@@ -1,0 +1,75 @@
+_id: amYClQYTJ4f23NKP
+_key: '!items!amYClQYTJ4f23NKP'
+_stats:
+  coreVersion: '13.351'
+folder: dOHF97isfkHwOuHJ
+img: icons/svg/book.svg
+name: Chaotic Surge
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Wilder
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: "<p><strong>Wild Surge and Psychic Enervation:</strong> The chaotic wilder unlocks ways to increase her manifester level beyond the dreams of most wilders, but doing so is even more dangerous. When the chaotic wilder invokes a wild surge, she rolls a d4. If the result is a 1, the chaotic wilder’s power manifests at one manifester level lower than normal. If this would result in a manifester level too low to manifest the power, the wilder is\_shaken\_until the start of her next turn and the power fails, although the chaotic wilder does not spend any power points. If the result is a 2 or 3, the chaotic wilder’s manifester level is improved by 1. If the result is a 4, the chaotic wilder’s manifester level is improved by 2. When the chaotic wilder’s wild surge improves (3rd, 7th, 11th, 15th, and 19th levels) or when using perfect surge, treat each bonus the same way. For example, at 7th level, a result of 1 would mean the manifester level is reduced by 3, a result of 2-3 would mean the manifester level is increased by 3, while a result of 4 would mean the manifester level is increased by 6. Because the chaotic wilder has less control over her wild surge than most wilders, she has a 25% chance of triggering psychic enervation. When the chaotic wilder triggers psychic enervation, she is affected based upon her wild surge roll. On a 1, she is\_dazed\_until the start of her next turn. On a 2-3, she is\_dazed\_until the end of her next turn and loses a number of power points equal to her manifester level. On a 4, she is\_dazed\_until the end of her next turn and loses a number of power points equal to twice her manifester level. The increase in manifester level from her wild surge does not increase the number of power points lost.</p><p><strong>Surge Bond:</strong> The chaotic wilder gains\_Endowed Mind\_as a bonus feat.</p><p><strong>Improved Surge Bond:</strong> A chaotic wilder of 5th level or higher that is targeted by a\_mind-affecting\_power can expend her psionic focus to gain a bonus to the\_Will\_save equal to 1d3-1 (minimum 0). At 9th level and every four levels thereafter, the wilder gains an additional 1d3-1 (minimum 0) to the\_Will\_save.</p>"
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: classFeat
+  summons: false
+  tags:
+    - Wild Surge
+type: feat
