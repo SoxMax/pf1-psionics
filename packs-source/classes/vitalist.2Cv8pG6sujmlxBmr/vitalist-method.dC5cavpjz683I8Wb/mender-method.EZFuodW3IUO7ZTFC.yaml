@@ -8,6 +8,9 @@ name: Mender Method
 system:
   abilityType: na
   acquired: false
+  associations:
+    classes:
+      - Vitalist
   changeFlags:
     heavyArmorFullSpeed: false
     immuneToMorale: false
@@ -110,4 +113,6 @@ system:
       title: Ultimate Psionics
   subType: classFeat
   summons: false
+  tags:
+    - Vitalist Method
 type: feat

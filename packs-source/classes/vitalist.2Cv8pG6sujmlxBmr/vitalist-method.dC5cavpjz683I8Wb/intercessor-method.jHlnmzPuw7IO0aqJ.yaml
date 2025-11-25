@@ -8,6 +8,9 @@ name: Intercessor Method
 system:
   abilityType: na
   acquired: false
+  associations:
+    classes:
+      - Vitalist
   changeFlags:
     heavyArmorFullSpeed: false
     immuneToMorale: false
@@ -156,4 +159,6 @@ system:
       title: Psionics Augmented
   subType: classFeat
   summons: false
+  tags:
+    - Vitalist Method
 type: feat
