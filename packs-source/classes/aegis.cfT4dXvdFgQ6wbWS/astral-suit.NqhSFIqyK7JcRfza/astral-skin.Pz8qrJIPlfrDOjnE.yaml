@@ -1,0 +1,90 @@
+_id: Pz8qrJIPlfrDOjnE
+_key: '!items!Pz8qrJIPlfrDOjnE'
+_stats:
+  coreVersion: '13.351'
+folder: NqhSFIqyK7JcRfza
+img: systems/pf1/icons/items/armor/dancing-scarves.png
+name: Astral Skin
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>When formed in this way, an astral suit resembles a psychoactive
+      skin.</p><p>Forming an astral suit into this form takes a swift
+      action.</p><p>The aegis gains no armor bonus from his astral suit when
+      worn in this fashion, but he gains the following free customizations: <a
+      href="https://metzo.miraheze.org/wiki/Aegis_Astral_Suit_Customization#Speed"
+      title="Aegis Astral Suit Customization">speed</a> (2), <a
+      href="https://metzo.miraheze.org/wiki/Aegis_Astral_Suit_Customization#Nimble"
+      title="Aegis Astral Suit Customization">nimble</a>.</p><p>At 2nd level,
+      the aegis gains the <a
+      href="https://metzo.miraheze.org/wiki/Aegis_Astral_Suit_Customization#Evasion"
+      title="Aegis Astral Suit Customization">evasion</a> customization as a
+      free customization when the astral suit is in astral skin form.</p><p>At
+      12th level, the aegis gains the <a
+      href="https://metzo.miraheze.org/wiki/Aegis_Astral_Suit_Customization#Improved_Evasion"
+      title="Aegis Astral Suit Customization">improved evasion</a> customization
+      as a free customization when the astral suit is in astral skin
+      form.</p><p>An astral suit in this form does not count as any type of
+      armor, but does count as a psychoactive skin and follows all the rules of
+      a <a href="https://metzo.miraheze.org/wiki/Psychoactive_Skin"
+      title="Psychoactive Skin">psychoactive skin</a>.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: classFeat
+  summons: false
+type: feat

@@ -1,0 +1,88 @@
+_id: iew9DSL4Z880IDKJ
+_key: '!items!iew9DSL4Z880IDKJ'
+_stats:
+  coreVersion: '13.351'
+folder: NqhSFIqyK7JcRfza
+img: systems/pf1/icons/items/armor/half-plate.png
+name: Astral Juggernaut
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>When formed into astral juggernaut, an astral suit resembles masterwork
+      half-plate and is treated as such for all mechanical purposes. Should the
+      aegis be wearing armor when forming his astral suit in this fashion, the
+      astral suit encloses the armor and the aegis gains the benefits of only
+      his astral suit and not that from his armor, even if his armor would
+      confer better benefits.</p><p>Forming an astral suit into this form takes
+      a full-round action.</p><p>The aegis gains the following free
+      customizations: <a
+      href="https://metzo.miraheze.org/wiki/Aegis_Astral_Suit_Customization#Fortification"
+      title="Aegis Astral Suit Customization">fortification</a>, <a
+      href="https://metzo.miraheze.org/wiki/Aegis_Astral_Suit_Customization#Hardy"
+      title="Aegis Astral Suit Customization">hardy</a>.</p><p>At 2nd level, the
+      aegis gains the <a
+      href="https://metzo.miraheze.org/wiki/Aegis_Astral_Suit_Customization#Stalwart"
+      title="Aegis Astral Suit Customization">stalwart</a> customization as a
+      free customization when the astral suit is in astral juggernaut
+      form.</p><p>At 7th level, the astral suit resembles and is treated as
+      masterwork full plate for all mechanical purposes.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: classFeat
+  summons: false
+type: feat
