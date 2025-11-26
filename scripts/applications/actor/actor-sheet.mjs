@@ -207,7 +207,9 @@ function prepareManifestors(sheet, context) {
   const powers = context.items.filter((item) => item.type === `${MODULE_ID}.power`);
 
   const manifestors = Object.entries(context.actor.getFlag(MODULE_ID, "manifestors"))
-    .map(([manifestorId, manifestor]) => {
+    .map(([manifestorId, manifestorData]) => {
+      // Create a shallow copy to avoid mutating the original flag data
+      const manifestor = { ...manifestorData };
       if (!manifestor.inUse) return [manifestorId, manifestor];
       const manifestorPowers = powers.filter((obj) => obj.manifestor === manifestorId);
       manifestor.sections = prepareManifestorPowerLevels(context, manifestorId, manifestor, manifestorPowers);
