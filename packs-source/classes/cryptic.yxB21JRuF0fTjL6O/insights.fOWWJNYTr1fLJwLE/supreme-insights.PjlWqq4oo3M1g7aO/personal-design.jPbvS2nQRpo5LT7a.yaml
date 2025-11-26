@@ -1,0 +1,80 @@
+_id: jPbvS2nQRpo5LT7a
+_key: '!items!jPbvS2nQRpo5LT7a'
+_stats:
+  coreVersion: '13.351'
+folder: PjlWqq4oo3M1g7aO
+img: icons/svg/book.svg
+name: Personal Design
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Cryptic
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>The cryptic increases the maximum number of psionic tattoos she can
+      have on her body to thirty. In addition, the cryptic automatically
+      identifies any visible psionic tattoos on other creatures. Finally, as an
+      immediate action that does not provoke attacks of opportunity, the cryptic
+      can activate any psionic tattoo on her body.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: classFeat
+  summons: false
+  tags:
+    - Supreme Insight
+type: feat

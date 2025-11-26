@@ -1,0 +1,86 @@
+_id: wgpZZqnaS7vsh6iG
+_key: '!items!wgpZZqnaS7vsh6iG'
+_stats:
+  coreVersion: '13.351'
+folder: fOWWJNYTr1fLJwLE
+img: icons/svg/book.svg
+name: Bypass Pattern (Su)
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Cryptic
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>The cryptic learns how to temporarily displace a pattern without
+      damaging it. As a standard action, the cryptic can treat one trap or lock
+      as if it did not exist for a number of rounds equal to her Intelligence
+      modifier, although the object to be affected must have a weight under 100
+      lbs and the cryptic must make a successful Disable Device check on the
+      trap or lock to be affected. When the cryptic successfully uses this
+      ability, her allies also ignore that trap or lock. After the effect
+      expires, the lock or trap functions as normal, although if the trap would
+      have been triggered due to the cryptic not returning everything to its
+      original state, such as a trap triggered by a door opening, the trap
+      immediately activates. Otherwise, the trap is left untriggered.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: classFeat
+  summons: false
+  tags:
+    - Insights
+type: feat

@@ -1,0 +1,85 @@
+_id: 5Fx3NtCCw1es2qcu
+_key: '!items!5Fx3NtCCw1es2qcu'
+_stats:
+  coreVersion: '13.351'
+folder: fOWWJNYTr1fLJwLE
+img: icons/svg/book.svg
+name: Steal Pattern (Su)
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Cryptic
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>The cryptic can attempt to steal a pattern from a creature by making a
+      touch attack. If the attack is successful, the cryptic can choose one
+      psionic tattoo or one spell-like, psi-like, or supernatural ability the
+      target has and makes a manifester level check against the target (DC 11 +
+      the target's manifester level or hit die, whichever is higher). If the
+      cryptic succeeds on the manifester level check, the target loses the
+      tattoo permanently or the ability for 1 minute and a daily use of the
+      ability and the cryptic gains the tattoo or one use of the ability stolen.
+      Powerful abilities like a creature with a spell-like ability of wish
+      cannot be stolen in this fashion.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: classFeat
+  summons: false
+  tags:
+    - Insights
+type: feat

@@ -1,0 +1,81 @@
+_id: RwT1VjL7keEWyHU6
+_key: '!items!RwT1VjL7keEWyHU6'
+_stats:
+  coreVersion: '13.351'
+folder: PjlWqq4oo3M1g7aO
+img: icons/svg/book.svg
+name: Greater Disruption
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Cryptic
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>The cryptic's ability to disrupt patterns has become exceptionally
+      advanced. When using the disrupt pattern ability, the cryptic adds 1
+      additional damage per die of damage rolled. In addition, the cryptic has
+      learned how to channel her psionic power into the disruption, allowing her
+      to spend 4 power points and expend her psionic focus when using her
+      disrupt pattern ability to maximize the damage of that attack.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: classFeat
+  summons: false
+  tags:
+    - Supreme Insight
+type: feat

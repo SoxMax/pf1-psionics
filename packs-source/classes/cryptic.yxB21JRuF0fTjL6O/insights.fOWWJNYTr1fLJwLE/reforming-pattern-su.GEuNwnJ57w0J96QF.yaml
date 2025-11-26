@@ -1,0 +1,85 @@
+_id: GEuNwnJ57w0J96QF
+_key: '!items!GEuNwnJ57w0J96QF'
+_stats:
+  coreVersion: '13.351'
+folder: fOWWJNYTr1fLJwLE
+img: icons/svg/book.svg
+name: Reforming Pattern (Su)
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Cryptic
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>A cryptic with this insight has learned to modify her own pattern so it
+      will reform if she is killed. The cryptic must make an anchor pattern to
+      activate this ability, a process which takes 24 hours of uninterrupted
+      concentration. When the cryptic is slain, she can reform as if affected by
+      astral seed, although she suffers two permanent negative levels once her
+      physical body is reformed and the storage crystal is formed at the site of
+      the anchor pattern. The cryptic may only have one such anchor pattern at
+      any given time and it lasts a number of days equal to her Intelligence
+      modifier. A cryptic must be at least 16th level before selecting this
+      insight.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: classFeat
+  summons: false
+  tags:
+    - Insights
+type: feat

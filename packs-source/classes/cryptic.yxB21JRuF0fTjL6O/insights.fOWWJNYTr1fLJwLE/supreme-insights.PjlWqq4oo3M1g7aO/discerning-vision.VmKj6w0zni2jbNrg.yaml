@@ -1,0 +1,80 @@
+_id: VmKj6w0zni2jbNrg
+_key: '!items!VmKj6w0zni2jbNrg'
+_stats:
+  coreVersion: '13.351'
+folder: PjlWqq4oo3M1g7aO
+img: icons/svg/book.svg
+name: Discerning Vision
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Cryptic
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>The cryptic sees all things as they truly are and is always treated as
+      if under the effect of pierce the veils. In addition, the cryptic
+      automatically succeeds on any saving throw against spells or powers of 8th
+      level or lower that deal with modifying vision or some sort of visual
+      pattern, such as symbol of pain.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: classFeat
+  summons: false
+  tags:
+    - Supreme Insight
+type: feat
