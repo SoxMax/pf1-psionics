@@ -1,0 +1,80 @@
+_id: OQKeyIe6e6m4kQUA
+_key: '!items!OQKeyIe6e6m4kQUA'
+_stats:
+  coreVersion: '13.351'
+folder: nDufp0ojUeISqS8y
+img: icons/svg/book.svg
+name: Reposition
+system:
+  abilityType: su
+  acquired: false
+  associations:
+    classes:
+      - Tactician
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: <p>The tactician directs each ally in his collective to take a 5-foot step as a free action immediately. The tactician may also immediately take a 5-foot step. This does not count against the number of 5-foot steps allowed in the tactician's or each ally's turn. If all directed allies take their 5-foot step, the tactician may immediately make a full attack against any target within range and gain a +1 competence bonus on the attack and damage rolls. Selecting this strategy requires the tactician to be at least a 13th level tactician. At 16th level and every four tactician levels thereafter, the competence bonus increases by 1.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2013-12-24'
+      pages: 67–68
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  summons: false
+  tags:
+    - Strategy
+type: feat

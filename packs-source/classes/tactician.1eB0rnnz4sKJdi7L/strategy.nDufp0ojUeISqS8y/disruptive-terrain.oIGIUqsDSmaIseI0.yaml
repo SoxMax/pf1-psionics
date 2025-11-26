@@ -1,0 +1,80 @@
+_id: oIGIUqsDSmaIseI0
+_key: '!items!oIGIUqsDSmaIseI0'
+_stats:
+  coreVersion: '13.351'
+folder: nDufp0ojUeISqS8y
+img: icons/svg/book.svg
+name: Disruptive Terrain
+system:
+  abilityType: su
+  acquired: false
+  associations:
+    classes:
+      - Tactician
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: <p>The tactician charges the terrain around him with psychokinetic energy. Any creature not in the tactician's collective treats the terrain as difficult terrain for a number of rounds equal to the tactician's Charisma modifier. The area of terrain affected is a burst effect centered on the tactician with a range of 5 feet per three tactician levels. The affected area does not change if the tactician moves after using this strategy. Selecting this strategy requires the tactician to be at least 10th level.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2013-12-24'
+      pages: 67–68
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  summons: false
+  tags:
+    - Strategy
+type: feat
