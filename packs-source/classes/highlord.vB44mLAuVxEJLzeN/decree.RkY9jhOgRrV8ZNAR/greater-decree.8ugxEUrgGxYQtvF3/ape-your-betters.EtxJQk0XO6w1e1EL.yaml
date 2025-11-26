@@ -1,0 +1,80 @@
+_id: EtxJQk0XO6w1e1EL
+_key: '!items!EtxJQk0XO6w1e1EL'
+_stats:
+  coreVersion: '13.351'
+folder: 8ugxEUrgGxYQtvF3
+img: icons/svg/book.svg
+name: Ape Your Betters
+system:
+  abilityType: su
+  acquired: false
+  associations:
+    classes:
+      - Highlord
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: <p>As a swift action, the highlord can share some of his exclusive power with one of his underlings for a number of rounds equal to the highlord’s Charisma modifier (minimum 1 round). Select a tribute or power effect affecting the highlord. A member of the collective gains the benefits of the selected tribute or power effect as well, for as long as the highlord is affected by it. This decree can only affect one member of the collective at the time. Additional uses of this decree end any previously existing uses of it. </p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2017-08-28'
+      pages: 10–14
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: classFeat
+  summons: false
+  tags:
+    - Greater Decree
+type: feat

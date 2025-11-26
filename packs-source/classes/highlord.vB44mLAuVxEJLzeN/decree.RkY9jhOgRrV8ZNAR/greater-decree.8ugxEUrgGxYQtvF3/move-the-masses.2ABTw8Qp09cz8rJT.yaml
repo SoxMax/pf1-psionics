@@ -1,0 +1,80 @@
+_id: 2ABTw8Qp09cz8rJT
+_key: '!items!2ABTw8Qp09cz8rJT'
+_stats:
+  coreVersion: '13.351'
+folder: 8ugxEUrgGxYQtvF3
+img: icons/svg/book.svg
+name: Move the Masses
+system:
+  abilityType: su
+  acquired: false
+  associations:
+    classes:
+      - Highlord
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: <p>When the highlord gives a command through the movement command decree, the highlord can expend power points to direct additional members of the collective to move by spending power points. For every 2 power points that the highlord spends, he can command an additional member of the collective with his swift action. A highlord must know the movement command decree to learn this decree. </p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2017-08-28'
+      pages: 10–14
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: classFeat
+  summons: false
+  tags:
+    - Greater Decree
+type: feat

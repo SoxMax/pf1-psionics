@@ -1,0 +1,80 @@
+_id: nHKtC5HOJPQLLjul
+_key: '!items!nHKtC5HOJPQLLjul'
+_stats:
+  coreVersion: '13.351'
+folder: RkY9jhOgRrV8ZNAR
+img: icons/svg/book.svg
+name: Menacing Presence
+system:
+  abilityType: su
+  acquired: false
+  associations:
+    classes:
+      - Highlord
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: <p>Activating this decree is a swift action, and it lasts for a number of rounds equal to the highlord’s Charisma modifier (minimum 1 round). While this decree is active, the highlord gains a bonus on attack rolls equal to his Charisma modifier (minimum 1) against other members of the collective. In addition, whenever the highlord damages a member of his collective with a melee attack, he can make a Intimidate check to demoralize the target as a free action. If he succeeds, the target is shaken for the duration of this decree. This decree overlaps with other fear effects. It cannot increase a creature's fear level, nor can another effect be combined with it to increase a creature's fear level. </p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2017-08-28'
+      pages: 10–14
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: classFeat
+  summons: false
+  tags:
+    - Decree
+type: feat

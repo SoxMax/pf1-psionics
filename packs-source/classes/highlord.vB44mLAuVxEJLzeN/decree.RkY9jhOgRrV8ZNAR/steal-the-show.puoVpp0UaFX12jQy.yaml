@@ -1,0 +1,80 @@
+_id: puoVpp0UaFX12jQy
+_key: '!items!puoVpp0UaFX12jQy'
+_stats:
+  coreVersion: '13.351'
+folder: RkY9jhOgRrV8ZNAR
+img: icons/svg/book.svg
+name: Steal the Show
+system:
+  abilityType: su
+  acquired: false
+  associations:
+    classes:
+      - Highlord
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: <p>The highlord can demand the attention of a creature attempting to focus on a member of his collective, shifting their gaze from that member to the highlord. Activating this decree is an immediate action, and it lasts for a number of rounds equal to the highlord’s Charisma modifier (minimum 1 round). The highlord can activate this decree when a creature attempts to target a member of his collective with an attack or ability. The attack or ability is instead made against the highlord if he is an eligible target. The protected member can make a Will save to resist this decree, recapturing the attention of the attack or ability. As long as this decree is active, the highlord can continue to redirect attacks or abilities made against a member of his collective towards himself as immediate actions. The highlord gains a +2 circumstance bonus to AC and his saves against attacks redirected in this way. At 4th level, and every 3 levels thereafter, these bonuses increase by +1. </p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2017-08-28'
+      pages: 10–14
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: classFeat
+  summons: false
+  tags:
+    - Decree
+type: feat

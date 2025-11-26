@@ -1,0 +1,80 @@
+_id: Fw4ecrYehGYZc1P6
+_key: '!items!Fw4ecrYehGYZc1P6'
+_stats:
+  coreVersion: '13.351'
+folder: RkY9jhOgRrV8ZNAR
+img: icons/svg/book.svg
+name: Stand Together
+system:
+  abilityType: su
+  acquired: false
+  associations:
+    classes:
+      - Highlord
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: <p>The highlord can activate this decree as an immediate action when a member of the collective is subject to an effect that allows a saving throw. The highlord designates two members of the collective to link together temporarily. Both members of the collective can attempt a saving throw against the effect, applying the more favorable result. When rolling, each subject uses their own save bonus and modifiers. If both saving throws fail, both members of the collective suffer the consequences of a failed save, even if the effect that prompted the saving throw only affected one of the members of the collective. </p><p>Alternatively, both members of the collective can choose to accept an effect even if it does not require a saving throw, and share it for its normal duration. Unlike other decrees, this decree does not last beyond its initial use (and as such, cannot be dismissed to refund the highlord’s psionic focus). </p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2017-08-28'
+      pages: 10–14
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: classFeat
+  summons: false
+  tags:
+    - Decree
+type: feat

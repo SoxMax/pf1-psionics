@@ -1,0 +1,80 @@
+_id: o04puVjjf645kt0o
+_key: '!items!o04puVjjf645kt0o'
+_stats:
+  coreVersion: '13.351'
+folder: RkY9jhOgRrV8ZNAR
+img: icons/svg/book.svg
+name: Forceful Tribute
+system:
+  abilityType: su
+  acquired: false
+  associations:
+    classes:
+      - Highlord
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: <p>The highlord gains the ability to choose tribute from unwilling members of the collective. In order to do so, he must properly identify the nature of the feat, item enhancement, power effect, or spell effect that he wishes to declare tribute through either a successful Knowledge check, or by scanning that member of the collective with this decree. </p><p>As a move action, the highlord can analyze an unwilling member of the collective. If they fail their Will save against this decree, the highlord becomes aware of the available feats, item enhancements, power effects, or spell effect belonging to them. He does not need to make checks in order to understand their use and effects. This means, among other things, that he knows the prerequisites of the feats possessed by that member of his collective. A highlord must be 7th level or higher and possess the tribute class feature to choose this decree. </p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2017-08-28'
+      pages: 10–14
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: classFeat
+  summons: false
+  tags:
+    - Decree
+type: feat
