@@ -1,0 +1,86 @@
+_id: 2YyWauAgyEo6K2ca
+_key: '!items!2YyWauAgyEo6K2ca'
+_stats:
+  coreVersion: '13.351'
+folder: kCzMf2CZkQ5U9OFx
+img: icons/svg/book.svg
+name: Consuming Nightmare
+system:
+  abilityType: su
+  acquired: false
+  associations:
+    classes:
+      - Dread
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p><b>Consuming Nightmare:</b> The dread's next attack infects the target
+      with nightmare so overwhelming it threatens to strike the creature dead.
+      The target must make a Will save (DC 10 + 1/2 the dread's class level +
+      the dread's Charisma modifier) or die. If the target succeeds, it becomes
+      immune to this terror for 24 hours. This is a mind-affecting fear death
+      effect. The dread must be at least 16th level to select this option.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2013-12-24'
+      pages: 40–43
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  summons: false
+  tags:
+    - Terror
+type: feat

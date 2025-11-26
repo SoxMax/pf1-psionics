@@ -1,0 +1,88 @@
+_id: WW86Ky8OAiKkmW8o
+_key: '!items!WW86Ky8OAiKkmW8o'
+_stats:
+  coreVersion: '13.351'
+folder: kCzMf2CZkQ5U9OFx
+img: icons/svg/book.svg
+name: Mind Rend
+system:
+  abilityType: su
+  acquired: false
+  associations:
+    classes:
+      - Dread
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p><b>Mind Rend:</b> The dread's attack deals 1d8 additional damage if his
+      target would be denied a Dexterity bonus to AC (whether the target
+      actually has a Dexterity bonus or not). If the dread spends a power point
+      when activating this terror, the damage increases to 1d10. This extra
+      damage is not multiplied on a critical hit. The dread must be 4th level to
+      take this terror. This terror can be taken one additional time every three
+      levels thereafter (7th, 10th, etc). Each time, it increases the additional
+      damage by one die.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2013-12-24'
+      pages: 40–43
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  summons: false
+  tags:
+    - Terror
+type: feat

@@ -1,0 +1,86 @@
+_id: koMmy8wug8SkgQ04
+_key: '!items!koMmy8wug8SkgQ04'
+_stats:
+  coreVersion: '13.351'
+folder: kCzMf2CZkQ5U9OFx
+img: icons/svg/book.svg
+name: Ranged Mindlock
+system:
+  abilityType: su
+  acquired: false
+  associations:
+    classes:
+      - Dread
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p><b>Ranged Mindlock:</b> The dread can initiate the mindlock terror at a
+      range of 10 ft. per class level instead of as a touch attack as a standard
+      action, but she still requires initial line of sight and line of effect.
+      The target still gets a Will save as normal to resist the mindlock. The
+      dread must be at least 10th level and have the Mindlock terror to select
+      this option.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2013-12-24'
+      pages: 40–43
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  summons: false
+  tags:
+    - Terror
+type: feat
