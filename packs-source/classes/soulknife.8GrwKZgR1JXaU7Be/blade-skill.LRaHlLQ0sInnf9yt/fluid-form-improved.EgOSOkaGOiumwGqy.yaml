@@ -62,7 +62,12 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>When the soulknife uses the Fluid Form blade skill, she may change all of her mind blade's weapon special abilities simultaneously. The mind blade still suffers a cumulative -1 penalty to its enhancement bonus when the Fluid Form blade skill is used. A soulknife must have the Fluid Form blade skill to choose this blade skill.</p>
+    value: >-
+      <p>When the soulknife uses the Fluid Form blade skill, she may change all
+      of her mind blade's weapon special abilities simultaneously. The mind
+      blade still suffers a cumulative -1 penalty to its enhancement bonus when
+      the Fluid Form blade skill is used. A soulknife must have the Fluid Form
+      blade skill to choose this blade skill.</p>
   disabled: false
   inherited: false
   showInCombat: false

@@ -62,7 +62,20 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The highlord can enhance his collective’s skill at working together to take down their enemies. Activating this decree is a free action, and it lasts for a number of rounds equal to the highlord’s Charisma modifier (minimum 1 round). If two or more allies within the highlord’s collective are threatening the same opponent, they can be treated as flanking that opponent. The collective can gain this benefit against multiple opponents at the same time. When an allied collective member (including the highlord) successfully uses the aid another action on another allied collective member, the bonus granted is increased by +1. If multiple allies aid the same creature, this increase is only added once. At 7th level and every six highlord levels thereafter, the bonuses increase by a further +1, to a maximum increase of +3 at 19th level. This decree is not a mind-affecting effect </p>
+    value: >-
+      <p>The highlord can enhance his collective’s skill at working together to
+      take down their enemies. Activating this decree is a free action, and it
+      lasts for a number of rounds equal to the highlord’s Charisma modifier
+      (minimum 1 round). If two or more allies within the highlord’s collective
+      are threatening the same opponent, they can be treated as flanking that
+      opponent. The collective can gain this benefit against multiple opponents
+      at the same time. When an allied collective member (including the
+      highlord) successfully uses the aid another action on another allied
+      collective member, the bonus granted is increased by +1. If multiple
+      allies aid the same creature, this increase is only added once. At 7th
+      level and every six highlord levels thereafter, the bonuses increase by a
+      further +1, to a maximum increase of +3 at 19th level. This decree is not
+      a mind-affecting effect </p>
   disabled: false
   inherited: false
   showInCombat: false

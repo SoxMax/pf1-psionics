@@ -62,7 +62,11 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The deadly fist may treat any natural attacks she possesses as unarmed strikes for the purposes of class features that affect unarmed strikes and for the Flurry of Fists blade skill, as well as blade skills that require it as a prerequisite.</p>
+    value: >-
+      <p>The deadly fist may treat any natural attacks she possesses as unarmed
+      strikes for the purposes of class features that affect unarmed strikes and
+      for the Flurry of Fists blade skill, as well as blade skills that require
+      it as a prerequisite.</p>
   disabled: false
   inherited: false
   showInCombat: false

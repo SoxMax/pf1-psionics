@@ -62,7 +62,12 @@ system:
     swm: false
     umd: false
   description:
-    value: '<p>The soulknife may assign one of the following specials to her mind blade when she shapes her mind blade: brace, trip, or disarm. She may change the assigned ability by reshaping her mind blade. This blade skill may be taken more than once, allowing the soulknife to assign multiple abilities at once.</p>'
+    value: >-
+      <p>The soulknife may assign one of the following specials to her mind
+      blade when she shapes her mind blade: brace, trip, or disarm. She may
+      change the assigned ability by reshaping her mind blade. This blade skill
+      may be taken more than once, allowing the soulknife to assign multiple
+      abilities at once.</p>
   disabled: false
   inherited: false
   showInCombat: false

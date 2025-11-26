@@ -62,7 +62,20 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>When a member of the highlord’s collective fails a saving throw against a mind-affecting effect, the highlord can activate this decree as an immediate action. The collective member can reroll their save with a bonus equal to the highlord’s Charisma modifier (minimum +1). If they succeed, this decree ends, and the highlord’s psionic focus is expended as normal. If they fail, then this decree continues to affect them; in the highlord’s first turn after using the decree, maintaining it is a move action, and the collective member can make another save at the end of the highlord’s turn. Maintaining this decree in further rounds is a swift action, and it ends when the collective member succeeds on their save or the highlord fails to maintain it. If the highlord is under a mental control effect, he may still spend the actions to maintain the decree and continue to make saves, even if ordered not to. </p>
+    value: >-
+      <p>When a member of the highlord’s collective fails a saving throw against
+      a mind-affecting effect, the highlord can activate this decree as an
+      immediate action. The collective member can reroll their save with a bonus
+      equal to the highlord’s Charisma modifier (minimum +1). If they succeed,
+      this decree ends, and the highlord’s psionic focus is expended as normal.
+      If they fail, then this decree continues to affect them; in the highlord’s
+      first turn after using the decree, maintaining it is a move action, and
+      the collective member can make another save at the end of the highlord’s
+      turn. Maintaining this decree in further rounds is a swift action, and it
+      ends when the collective member succeeds on their save or the highlord
+      fails to maintain it. If the highlord is under a mental control effect, he
+      may still spend the actions to maintain the decree and continue to make
+      saves, even if ordered not to. </p>
   disabled: false
   inherited: false
   showInCombat: false

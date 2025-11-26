@@ -62,7 +62,16 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The highlord can use his tactical upload to sow the seeds of betrayal. Creatures who receive a betrayal feat through the highlord’s tactical upload decree can be treated as abettors for betrayal feats for the duration of the decree (unlike other effects, which normally only allow granted betrayal feats to be used as initiators, not abettors). Each member of the collective who receives a betrayal feat in this manner are allowed a Will save to nullify this effect. The highlord must know the tactical upload decree and at least one betrayal feat in order to choose this decree. </p>
+    value: >-
+      <p>The highlord can use his tactical upload to sow the seeds of betrayal.
+      Creatures who receive a betrayal feat through the highlord’s tactical
+      upload decree can be treated as abettors for betrayal feats for the
+      duration of the decree (unlike other effects, which normally only allow
+      granted betrayal feats to be used as initiators, not abettors). Each
+      member of the collective who receives a betrayal feat in this manner are
+      allowed a Will save to nullify this effect. The highlord must know the
+      tactical upload decree and at least one betrayal feat in order to choose
+      this decree. </p>
   disabled: false
   inherited: false
   showInCombat: false

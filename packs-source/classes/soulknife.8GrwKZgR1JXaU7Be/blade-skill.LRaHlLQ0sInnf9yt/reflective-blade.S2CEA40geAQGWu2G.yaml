@@ -62,7 +62,15 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>A soulknife may expend her psychic strike as an immediate action to reflect a spell or power that would strike her back at the caster. The spell or power must be a touch attack spell or power, either ranged or melee, and the level of the spell or power reflected cannot exceed the number of dice of damage expended by psychic strike. The soulknife makes a ranged touch attack to determine if the spell successfully strikes the target. The soulknife must be at least 14th level and have the Absorbing Blade blade skill to select this blade skill.</p>
+    value: >-
+      <p>A soulknife may expend her psychic strike as an immediate action to
+      reflect a spell or power that would strike her back at the caster. The
+      spell or power must be a touch attack spell or power, either ranged or
+      melee, and the level of the spell or power reflected cannot exceed the
+      number of dice of damage expended by psychic strike. The soulknife makes a
+      ranged touch attack to determine if the spell successfully strikes the
+      target. The soulknife must be at least 14th level and have the Absorbing
+      Blade blade skill to select this blade skill.</p>
   disabled: false
   inherited: false
   showInCombat: false

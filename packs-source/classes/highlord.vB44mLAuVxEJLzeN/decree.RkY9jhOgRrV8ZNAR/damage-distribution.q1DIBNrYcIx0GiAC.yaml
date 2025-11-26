@@ -62,7 +62,18 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The highlord can activate this decree as an immediate action when a member of the collective takes hit point damage. When he does so, each member of his collective can make a Will save to avoid having damage distributed to them (either by the initial effect or its later duration). The highlord then transfers up to half of the damage that would have been dealt to that member of the collective to other members of his collective, distributed however he wishes. After activating this decree, it continues to last for a number of rounds equal to the highlord’s Charisma modifier (minimum 1 round). Whenever the chosen member of the collective is damaged during this duration, he can distribute half of it as an immediate action, just like the initial activation. </p>
+    value: >-
+      <p>The highlord can activate this decree as an immediate action when a
+      member of the collective takes hit point damage. When he does so, each
+      member of his collective can make a Will save to avoid having damage
+      distributed to them (either by the initial effect or its later duration).
+      The highlord then transfers up to half of the damage that would have been
+      dealt to that member of the collective to other members of his collective,
+      distributed however he wishes. After activating this decree, it continues
+      to last for a number of rounds equal to the highlord’s Charisma modifier
+      (minimum 1 round). Whenever the chosen member of the collective is damaged
+      during this duration, he can distribute half of it as an immediate action,
+      just like the initial activation. </p>
   disabled: false
   inherited: false
   showInCombat: false

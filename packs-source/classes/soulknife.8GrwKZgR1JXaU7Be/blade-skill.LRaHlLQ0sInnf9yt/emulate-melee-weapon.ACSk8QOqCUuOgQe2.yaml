@@ -62,7 +62,14 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The soulknife can form her mind blade to replicate any single melee weapon, chosen at the time she takes this blade skill. The soulknife is proficient with her mind blade in this form and it functions in all ways as the chosen weapon. This blade skill may be taken multiple times; each time, it allows the soulknife to form her mind blade to replicate a different melee weapon. This blade skill may not be used with the mind bolt.</p>
+    value: >-
+      <p>The soulknife can form her mind blade to replicate any single melee
+      weapon, chosen at the time she takes this blade skill. The soulknife is
+      proficient with her mind blade in this form and it functions in all ways
+      as the chosen weapon. This blade skill may be taken multiple times; each
+      time, it allows the soulknife to form her mind blade to replicate a
+      different melee weapon. This blade skill may not be used with the mind
+      bolt.</p>
   disabled: false
   inherited: false
   showInCombat: false

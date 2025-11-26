@@ -62,7 +62,12 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The soulknife can select an advanced rogue talent from the following list. Confounding Blades, Crippling Strike, Stealthy Sniper. The soulknife can select this blade skill multiple times. The soulknife must have the Covert Training class feature and be at least 10th level before selecting this blade skill.</p>
+    value: >-
+      <p>The soulknife can select an advanced rogue talent from the following
+      list. Confounding Blades, Crippling Strike, Stealthy Sniper. The soulknife
+      can select this blade skill multiple times. The soulknife must have the
+      Covert Training class feature and be at least 10th level before selecting
+      this blade skill.</p>
   disabled: false
   inherited: false
   showInCombat: false

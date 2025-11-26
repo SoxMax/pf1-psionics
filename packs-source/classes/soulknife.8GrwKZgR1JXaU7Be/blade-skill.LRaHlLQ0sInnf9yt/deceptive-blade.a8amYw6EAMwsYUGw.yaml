@@ -62,7 +62,13 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>When the soulknife feints in combat, she may also form her mind blade in the same action as the feint. Additionally, Bluff is now a class skill for the soulknife. If the soulknife has the Improved Feint feat and the psychic strike class feature, once per round she may also charge her psychic strike when performing a feint and forming her mind blade in the same action. This blade skill may not be used with the mind bolt.</p>
+    value: >-
+      <p>When the soulknife feints in combat, she may also form her mind blade
+      in the same action as the feint. Additionally, Bluff is now a class skill
+      for the soulknife. If the soulknife has the Improved Feint feat and the
+      psychic strike class feature, once per round she may also charge her
+      psychic strike when performing a feint and forming her mind blade in the
+      same action. This blade skill may not be used with the mind bolt.</p>
   disabled: false
   inherited: false
   showInCombat: false

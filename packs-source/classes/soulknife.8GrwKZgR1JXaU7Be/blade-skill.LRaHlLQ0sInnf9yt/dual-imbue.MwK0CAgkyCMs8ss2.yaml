@@ -62,7 +62,12 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>When utilizing multiple mind blades, the soulknife may charge both blades with her psychic strike ability at the same time (including when expending her focus to charge her psychic strike). However, her psychic strike damage is reduced by 1d8 when using this option. Damage remains normal when each weapon is charged separately.</p>
+    value: >-
+      <p>When utilizing multiple mind blades, the soulknife may charge both
+      blades with her psychic strike ability at the same time (including when
+      expending her focus to charge her psychic strike). However, her psychic
+      strike damage is reduced by 1d8 when using this option. Damage remains
+      normal when each weapon is charged separately.</p>
   disabled: false
   inherited: false
   showInCombat: false

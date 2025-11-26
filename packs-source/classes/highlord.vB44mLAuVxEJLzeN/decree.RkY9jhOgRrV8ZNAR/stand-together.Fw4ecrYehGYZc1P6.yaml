@@ -62,7 +62,20 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The highlord can activate this decree as an immediate action when a member of the collective is subject to an effect that allows a saving throw. The highlord designates two members of the collective to link together temporarily. Both members of the collective can attempt a saving throw against the effect, applying the more favorable result. When rolling, each subject uses their own save bonus and modifiers. If both saving throws fail, both members of the collective suffer the consequences of a failed save, even if the effect that prompted the saving throw only affected one of the members of the collective. </p><p>Alternatively, both members of the collective can choose to accept an effect even if it does not require a saving throw, and share it for its normal duration. Unlike other decrees, this decree does not last beyond its initial use (and as such, cannot be dismissed to refund the highlord’s psionic focus). </p>
+    value: >-
+      <p>The highlord can activate this decree as an immediate action when a
+      member of the collective is subject to an effect that allows a saving
+      throw. The highlord designates two members of the collective to link
+      together temporarily. Both members of the collective can attempt a saving
+      throw against the effect, applying the more favorable result. When
+      rolling, each subject uses their own save bonus and modifiers. If both
+      saving throws fail, both members of the collective suffer the consequences
+      of a failed save, even if the effect that prompted the saving throw only
+      affected one of the members of the collective. </p><p>Alternatively, both
+      members of the collective can choose to accept an effect even if it does
+      not require a saving throw, and share it for its normal duration. Unlike
+      other decrees, this decree does not last beyond its initial use (and as
+      such, cannot be dismissed to refund the highlord’s psionic focus). </p>
   disabled: false
   inherited: false
   showInCombat: false

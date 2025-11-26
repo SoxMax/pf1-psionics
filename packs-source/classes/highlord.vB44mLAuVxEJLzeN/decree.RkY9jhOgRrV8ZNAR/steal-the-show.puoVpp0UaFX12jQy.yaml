@@ -62,7 +62,21 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The highlord can demand the attention of a creature attempting to focus on a member of his collective, shifting their gaze from that member to the highlord. Activating this decree is an immediate action, and it lasts for a number of rounds equal to the highlord’s Charisma modifier (minimum 1 round). The highlord can activate this decree when a creature attempts to target a member of his collective with an attack or ability. The attack or ability is instead made against the highlord if he is an eligible target. The protected member can make a Will save to resist this decree, recapturing the attention of the attack or ability. As long as this decree is active, the highlord can continue to redirect attacks or abilities made against a member of his collective towards himself as immediate actions. The highlord gains a +2 circumstance bonus to AC and his saves against attacks redirected in this way. At 4th level, and every 3 levels thereafter, these bonuses increase by +1. </p>
+    value: >-
+      <p>The highlord can demand the attention of a creature attempting to focus
+      on a member of his collective, shifting their gaze from that member to the
+      highlord. Activating this decree is an immediate action, and it lasts for
+      a number of rounds equal to the highlord’s Charisma modifier (minimum 1
+      round). The highlord can activate this decree when a creature attempts to
+      target a member of his collective with an attack or ability. The attack or
+      ability is instead made against the highlord if he is an eligible target.
+      The protected member can make a Will save to resist this decree,
+      recapturing the attention of the attack or ability. As long as this decree
+      is active, the highlord can continue to redirect attacks or abilities made
+      against a member of his collective towards himself as immediate actions.
+      The highlord gains a +2 circumstance bonus to AC and his saves against
+      attacks redirected in this way. At 4th level, and every 3 levels
+      thereafter, these bonuses increase by +1. </p>
   disabled: false
   inherited: false
   showInCombat: false

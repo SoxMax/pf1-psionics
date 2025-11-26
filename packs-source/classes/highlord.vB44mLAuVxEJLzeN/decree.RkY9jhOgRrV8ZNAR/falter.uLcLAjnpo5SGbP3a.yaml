@@ -62,7 +62,10 @@ system:
     swm: false
     umd: false
   description:
-    value: '<p>As a swift action, the highlord chooses a member of the collective to suffer one of the following penalties for a number of rounds equal to the highlord’s Charisma modifier (minimum 1 round): </p>'
+    value: >-
+      <p>As a swift action, the highlord chooses a member of the collective to
+      suffer one of the following penalties for a number of rounds equal to the
+      highlord’s Charisma modifier (minimum 1 round): </p>
   disabled: false
   inherited: false
   showInCombat: false

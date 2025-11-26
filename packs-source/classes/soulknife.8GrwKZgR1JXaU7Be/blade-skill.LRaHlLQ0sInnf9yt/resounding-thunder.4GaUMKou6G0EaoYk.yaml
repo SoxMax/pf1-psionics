@@ -62,7 +62,12 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>When the soulknife expends her psionic focus to stagger an enemy via the Thunder Blade blade skill, she gains an additional benefit. If the target ends its next turn adjacent to the soulknife, it takes 2d6+2 sonic damage. The soulknife must have the Thunder Blade blade skill to select this blade skill.</p>
+    value: >-
+      <p>When the soulknife expends her psionic focus to stagger an enemy via
+      the Thunder Blade blade skill, she gains an additional benefit. If the
+      target ends its next turn adjacent to the soulknife, it takes 2d6+2 sonic
+      damage. The soulknife must have the Thunder Blade blade skill to select
+      this blade skill.</p>
   disabled: false
   inherited: false
   showInCombat: false

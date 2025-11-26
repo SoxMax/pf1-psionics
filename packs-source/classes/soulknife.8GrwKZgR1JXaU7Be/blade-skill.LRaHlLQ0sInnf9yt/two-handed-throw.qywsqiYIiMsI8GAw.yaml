@@ -62,7 +62,9 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The soulknife gains the ability to throw her mind blade if it is in two-handed form, with a range increment of 10 ft.</p>
+    value: >-
+      <p>The soulknife gains the ability to throw her mind blade if it is in
+      two-handed form, with a range increment of 10 ft.</p>
   disabled: false
   inherited: false
   showInCombat: false

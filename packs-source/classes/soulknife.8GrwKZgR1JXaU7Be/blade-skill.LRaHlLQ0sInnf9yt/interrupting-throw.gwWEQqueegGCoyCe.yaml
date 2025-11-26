@@ -62,7 +62,15 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>If an enemy within 10 feet of the soulknife performs an action that would provoke an attack of opportunity, such as casting a spell without casting on the defensive, she may, as an immediate action and by expending psionic focus, throw her mind shield at that enemy as an attack of opportunity. The soulknife may not use this blade skill if her mind shield is in the form of a tower shield. The soulknife must be at least 12th level and have the form mind shield class feature to choose this blade skill.</p>
+    value: >-
+      <p>If an enemy within 10 feet of the soulknife performs an action that
+      would provoke an attack of opportunity, such as casting a spell without
+      casting on the defensive, she may, as an immediate action and by expending
+      psionic focus, throw her mind shield at that enemy as an attack of
+      opportunity. The soulknife may not use this blade skill if her mind shield
+      is in the form of a tower shield. The soulknife must be at least 12th
+      level and have the form mind shield class feature to choose this blade
+      skill.</p>
   disabled: false
   inherited: false
   showInCombat: false

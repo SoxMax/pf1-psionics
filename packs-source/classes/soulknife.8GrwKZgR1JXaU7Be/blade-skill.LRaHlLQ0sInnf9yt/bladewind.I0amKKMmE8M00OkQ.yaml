@@ -62,7 +62,10 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The soulknife gains the ability to momentarily fragment her mind blade into numerous identical blades, each of which strikes at a nearby opponent.</p>
+    value: >-
+      <p>The soulknife gains the ability to momentarily fragment her mind blade
+      into numerous identical blades, each of which strikes at a nearby
+      opponent.</p>
   disabled: false
   inherited: false
   showInCombat: false

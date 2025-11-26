@@ -62,7 +62,11 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The soulknife rushes forward with a dash of incredible speed. As a swift action, the soulknife may expend her psionic focus and move up to her speed without provoking attacks of opportunity. The soulknife must be at least 6th level in order to select this blade skill.</p>
+    value: >-
+      <p>The soulknife rushes forward with a dash of incredible speed. As a
+      swift action, the soulknife may expend her psionic focus and move up to
+      her speed without provoking attacks of opportunity. The soulknife must be
+      at least 6th level in order to select this blade skill.</p>
   disabled: false
   inherited: false
   showInCombat: false

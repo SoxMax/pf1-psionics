@@ -62,7 +62,20 @@ system:
     swm: false
     umd: false
   description:
-    value: '<p>In order to use this decree, the highlord must expend 8 power points. The highlord can issue a mental command to all those within range as a standard action. They may declare one of the following action to be forbidden to others. All creatures within 60 feet of the highlord must make a Will save (DC 10 + 1/2 the highlord’s class level + the highlord’s Charisma modifier) or become unable to perform the specified action. This decree lasts for a number of rounds equal to the highlord’s Charisma modifier (minimum 1). If an affected creature is currently involved in the action (such as grappling, or casting a spell), they are unable to continue the action on later turns. At the end of each turn after the first, creatures that failed the initial save is allowed another Will save at the same DC to free themselves from the effect. The following are forbiddable actions: </p>'
+    value: >-
+      <p>In order to use this decree, the highlord must expend 8 power points.
+      The highlord can issue a mental command to all those within range as a
+      standard action. They may declare one of the following action to be
+      forbidden to others. All creatures within 60 feet of the highlord must
+      make a Will save (DC 10 + 1/2 the highlord’s class level + the highlord’s
+      Charisma modifier) or become unable to perform the specified action. This
+      decree lasts for a number of rounds equal to the highlord’s Charisma
+      modifier (minimum 1). If an affected creature is currently involved in the
+      action (such as grappling, or casting a spell), they are unable to
+      continue the action on later turns. At the end of each turn after the
+      first, creatures that failed the initial save is allowed another Will save
+      at the same DC to free themselves from the effect. The following are
+      forbiddable actions: </p>
   disabled: false
   inherited: false
   showInCombat: false

@@ -62,7 +62,12 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Whenever the soulknife forms mind armor using her mind armaments class feature (or the Psychokinetic Armor blade skill), her mind armor gains the appearance and benefits of a mundane outfit worth 200 gp or less. The soulknife must possess the ability to form mind armor to select this blade skill.</p>
+    value: >-
+      <p>Whenever the soulknife forms mind armor using her mind armaments class
+      feature (or the Psychokinetic Armor blade skill), her mind armor gains the
+      appearance and benefits of a mundane outfit worth 200 gp or less. The
+      soulknife must possess the ability to form mind armor to select this blade
+      skill.</p>
   disabled: false
   inherited: false
   showInCombat: false

@@ -62,7 +62,17 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The highlord can command his collective to protect him from assault at any cost. Activating this decree is an immediate action, and it lasts for a number of rounds equal to the highlord’s Charisma modifier (minimum 1 round). The highlord can activate this decree when an attack roll is made against him. He must also designate a member of the collective that is adjacent to him. The attack is instead made against that member of the collective, even if they were not in range of the attack before. As long as this decree is active, the highlord can continue to redirect attacks that are made against him as immediate actions, just like when he first activated the decree. </p>
+    value: >-
+      <p>The highlord can command his collective to protect him from assault at
+      any cost. Activating this decree is an immediate action, and it lasts for
+      a number of rounds equal to the highlord’s Charisma modifier (minimum 1
+      round). The highlord can activate this decree when an attack roll is made
+      against him. He must also designate a member of the collective that is
+      adjacent to him. The attack is instead made against that member of the
+      collective, even if they were not in range of the attack before. As long
+      as this decree is active, the highlord can continue to redirect attacks
+      that are made against him as immediate actions, just like when he first
+      activated the decree. </p>
   disabled: false
   inherited: false
   showInCombat: false

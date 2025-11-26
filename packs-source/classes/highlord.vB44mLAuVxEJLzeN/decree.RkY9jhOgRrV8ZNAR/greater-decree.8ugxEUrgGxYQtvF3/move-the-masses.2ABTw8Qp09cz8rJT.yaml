@@ -62,7 +62,13 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>When the highlord gives a command through the movement command decree, the highlord can expend power points to direct additional members of the collective to move by spending power points. For every 2 power points that the highlord spends, he can command an additional member of the collective with his swift action. A highlord must know the movement command decree to learn this decree. </p>
+    value: >-
+      <p>When the highlord gives a command through the movement command decree,
+      the highlord can expend power points to direct additional members of the
+      collective to move by spending power points. For every 2 power points that
+      the highlord spends, he can command an additional member of the collective
+      with his swift action. A highlord must know the movement command decree to
+      learn this decree. </p>
   disabled: false
   inherited: false
   showInCombat: false

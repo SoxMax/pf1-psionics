@@ -62,7 +62,15 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>As an immediate action when the soulknife is attacked in melee and by expending her psionic focus, she may charge her mind shield with one of the energy types she could normally make her mind blade deal, dealing additional points of the appropriate type of energy damage equal to her normal psychic strike damage to her attacker. This effect lasts only for one attack. The soulknife must be at least 8th level and have the mind shield blade skill and one of the fire blade, ice blade, lightning blade, or thunder blade blade skills to choose this blade skill.</p>
+    value: >-
+      <p>As an immediate action when the soulknife is attacked in melee and by
+      expending her psionic focus, she may charge her mind shield with one of
+      the energy types she could normally make her mind blade deal, dealing
+      additional points of the appropriate type of energy damage equal to her
+      normal psychic strike damage to her attacker. This effect lasts only for
+      one attack. The soulknife must be at least 8th level and have the mind
+      shield blade skill and one of the fire blade, ice blade, lightning blade,
+      or thunder blade blade skills to choose this blade skill.</p>
   disabled: false
   inherited: false
   showInCombat: false

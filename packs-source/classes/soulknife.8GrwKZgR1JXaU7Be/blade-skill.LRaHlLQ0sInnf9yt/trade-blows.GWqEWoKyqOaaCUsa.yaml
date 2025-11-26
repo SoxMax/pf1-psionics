@@ -62,7 +62,17 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>When the soulknife uses the total defense action, she may make a melee attack at her normal attack bonus on anyone that makes a melee attack against her, regardless of whether the opponent's attack hits. This attack is resolved immediately after the opponent's attack. The soulknife may make one such attack for each attack made against her. If multiple opponents attack the soulknife, each attack she makes must be against the enemy that triggered it. All such attacks are made with a -4 penalty on the attack roll, and are an exception to the rule that you cannot attack during the total defense action. A soulknife must be at least 10th level to choose this blade skill.</p>
+    value: >-
+      <p>When the soulknife uses the total defense action, she may make a melee
+      attack at her normal attack bonus on anyone that makes a melee attack
+      against her, regardless of whether the opponent's attack hits. This attack
+      is resolved immediately after the opponent's attack. The soulknife may
+      make one such attack for each attack made against her. If multiple
+      opponents attack the soulknife, each attack she makes must be against the
+      enemy that triggered it. All such attacks are made with a -4 penalty on
+      the attack roll, and are an exception to the rule that you cannot attack
+      during the total defense action. A soulknife must be at least 10th level
+      to choose this blade skill.</p>
   disabled: false
   inherited: false
   showInCombat: false

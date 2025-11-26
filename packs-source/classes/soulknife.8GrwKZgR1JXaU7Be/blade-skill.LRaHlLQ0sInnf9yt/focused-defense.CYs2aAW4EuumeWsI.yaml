@@ -62,7 +62,11 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>When fighting defensively or using Combat Expertise or the total defense action, the soulknife adds her Wisdom modifier as a dodge bonus to her AC so long as she maintains psionic focus. The soulknife must be at least 4th level in order to select this blade skill.</p>
+    value: >-
+      <p>When fighting defensively or using Combat Expertise or the total
+      defense action, the soulknife adds her Wisdom modifier as a dodge bonus to
+      her AC so long as she maintains psionic focus. The soulknife must be at
+      least 4th level in order to select this blade skill.</p>
   disabled: false
   inherited: false
   showInCombat: false

@@ -62,7 +62,14 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>When the highlord uses the forceful tribute decree, the member of the collective targeted by the decree loses the effects of the designated tribute unless they make a Will save (DC 10 + 1/2 the highlord’s class level + the highlord’s Charisma modifier). The member of the collective regains the effects of the tribute if the forceful tribute decree ends. A highlord must know the forceful tribute decree to learn this greater decree. </p>
+    value: >-
+      <p>When the highlord uses the forceful tribute decree, the member of the
+      collective targeted by the decree loses the effects of the designated
+      tribute unless they make a Will save (DC 10 + 1/2 the highlord’s class
+      level + the highlord’s Charisma modifier). The member of the collective
+      regains the effects of the tribute if the forceful tribute decree ends. A
+      highlord must know the forceful tribute decree to learn this greater
+      decree. </p>
   disabled: false
   inherited: false
   showInCombat: false

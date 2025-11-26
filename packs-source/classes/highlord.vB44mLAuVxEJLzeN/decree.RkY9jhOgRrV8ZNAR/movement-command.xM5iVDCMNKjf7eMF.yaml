@@ -62,7 +62,15 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Activating this decree is a free action, and it lasts for a number of rounds equal to the highlord’s Charisma modifier (minimum 1 round). During this duration, as a swift action, the highlord can direct a member of the collective to move. That collective member may immediately move up to their speed as a free action, even though it isn’t their turn. </p><p>The highlord determines the direction of the movement. A creature unwilling to follow the highlord’s orders can make a Will save to resist the orders and forgo actions granted by the highlord. </p>
+    value: >-
+      <p>Activating this decree is a free action, and it lasts for a number of
+      rounds equal to the highlord’s Charisma modifier (minimum 1 round). During
+      this duration, as a swift action, the highlord can direct a member of the
+      collective to move. That collective member may immediately move up to
+      their speed as a free action, even though it isn’t their turn. </p><p>The
+      highlord determines the direction of the movement. A creature unwilling to
+      follow the highlord’s orders can make a Will save to resist the orders and
+      forgo actions granted by the highlord. </p>
   disabled: false
   inherited: false
   showInCombat: false

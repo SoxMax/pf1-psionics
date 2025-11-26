@@ -62,7 +62,13 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>When making a single standard attack and wielding two mind blades, the soulknife may attack with both of her mind blades at the normal penalties for two-weapon fighting. She may also utilize this ability when making attacks of opportunity, but not for any other special attacks, unless specifically stated otherwise. The soulknife must be at least 8th level to choose this blade skill.</p>
+    value: >-
+      <p>When making a single standard attack and wielding two mind blades, the
+      soulknife may attack with both of her mind blades at the normal penalties
+      for two-weapon fighting. She may also utilize this ability when making
+      attacks of opportunity, but not for any other special attacks, unless
+      specifically stated otherwise. The soulknife must be at least 8th level to
+      choose this blade skill.</p>
   disabled: false
   inherited: false
   showInCombat: false

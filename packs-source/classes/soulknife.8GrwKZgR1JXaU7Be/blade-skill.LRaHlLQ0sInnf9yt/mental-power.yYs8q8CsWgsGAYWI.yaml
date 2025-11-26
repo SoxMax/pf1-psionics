@@ -62,7 +62,14 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The soulknife gains an additional power known from the gifted blade power list, up to the maximum power level she can manifest. In addition, the soulknife gains an additional 2 power points. This blade skill can be selected multiple times. Each time, the soulknife gains another power known and 2 additional power points. The soulknife must have manifesting ability from her levels in soulknife in order to select this blade skill.</p>
+    value: >-
+      <p>The soulknife gains an additional power known from the gifted blade
+      power list, up to the maximum power level she can manifest. In addition,
+      the soulknife gains an additional 2 power points. This blade skill can be
+      selected multiple times. Each time, the soulknife gains another power
+      known and 2 additional power points. The soulknife must have manifesting
+      ability from her levels in soulknife in order to select this blade
+      skill.</p>
   disabled: false
   inherited: false
   showInCombat: false

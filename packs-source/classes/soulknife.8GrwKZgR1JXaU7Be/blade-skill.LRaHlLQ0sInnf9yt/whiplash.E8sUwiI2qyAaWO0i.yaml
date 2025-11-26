@@ -62,7 +62,17 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The soulknife can throw her mind shield as a thrown weapon with a range increment of 10. In addition, by expending psionic focus as a free action after making a ranged attack with her mind shield, the soulknife can cause the shield to return back to her hand, hitting any enemy in line of effect from her target and dealing damage as a light shield. Soulknives with the Form Mind Shield class feature instead deal damage as a heavy shield. The soulknife makes a ranged attack roll for each enemy in the line of effect. The soulknife may not use this blade skill if her mind shield is in the form of a tower shield. The soulknife must be at least 8th level and have the form mind shield class feature to choose this blade skill.</p>
+    value: >-
+      <p>The soulknife can throw her mind shield as a thrown weapon with a range
+      increment of 10. In addition, by expending psionic focus as a free action
+      after making a ranged attack with her mind shield, the soulknife can cause
+      the shield to return back to her hand, hitting any enemy in line of effect
+      from her target and dealing damage as a light shield. Soulknives with the
+      Form Mind Shield class feature instead deal damage as a heavy shield. The
+      soulknife makes a ranged attack roll for each enemy in the line of effect.
+      The soulknife may not use this blade skill if her mind shield is in the
+      form of a tower shield. The soulknife must be at least 8th level and have
+      the form mind shield class feature to choose this blade skill.</p>
   disabled: false
   inherited: false
   showInCombat: false

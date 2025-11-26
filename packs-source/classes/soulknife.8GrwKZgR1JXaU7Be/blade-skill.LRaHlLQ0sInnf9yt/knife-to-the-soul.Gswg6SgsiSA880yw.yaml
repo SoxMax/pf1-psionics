@@ -62,7 +62,15 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The soulknife gains the knife to the soul ability. When a soulknife with knife to the soul executes a psychic strike, she can choose to substitute Intelligence, Wisdom, or Charisma damage (her choice) for extra dice of damage. For each die of extra damage she gives up, she deals 1 point of damage to the ability score she chooses. A soulknife can combine extra dice of damage and ability damage in any combination, so long as no more than half of the soulknife's extra dice of damage are converted to ability damage. Knife to the soul may only be used once per round.</p>
+    value: >-
+      <p>The soulknife gains the knife to the soul ability. When a soulknife
+      with knife to the soul executes a psychic strike, she can choose to
+      substitute Intelligence, Wisdom, or Charisma damage (her choice) for extra
+      dice of damage. For each die of extra damage she gives up, she deals 1
+      point of damage to the ability score she chooses. A soulknife can combine
+      extra dice of damage and ability damage in any combination, so long as no
+      more than half of the soulknife's extra dice of damage are converted to
+      ability damage. Knife to the soul may only be used once per round.</p>
   disabled: false
   inherited: false
   showInCombat: false

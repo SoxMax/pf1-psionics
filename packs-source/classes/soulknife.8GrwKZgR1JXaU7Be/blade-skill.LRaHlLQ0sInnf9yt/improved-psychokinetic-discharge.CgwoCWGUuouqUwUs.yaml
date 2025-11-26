@@ -62,7 +62,15 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The deadly fist is capable of launching volleys of discharged psychokinetic energy more efficiently, allowing her empowered strikes class feature to remain empowered to allow for full attack actions to be made at range. The range of these attacks increases to 30 feet and may be used with the deadly fist's Flurry of Fists blade skill (and subsequent blade skills that improve it). The soulknife must be at least 6th level and possess the empowered strikes class feature in order to select this blade skill.</p>
+    value: >-
+      <p>The deadly fist is capable of launching volleys of discharged
+      psychokinetic energy more efficiently, allowing her empowered strikes
+      class feature to remain empowered to allow for full attack actions to be
+      made at range. The range of these attacks increases to 30 feet and may be
+      used with the deadly fist's Flurry of Fists blade skill (and subsequent
+      blade skills that improve it). The soulknife must be at least 6th level
+      and possess the empowered strikes class feature in order to select this
+      blade skill.</p>
   disabled: false
   inherited: false
   showInCombat: false

@@ -62,7 +62,11 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The soulknife may, as a standard action, channel psionic energy into her mind blade, dazzling all creatures within 30 feet. A successful Fortitude save negates this effect. The save DC is 10 + the soulknife's base attack bonus.</p>
+    value: >-
+      <p>The soulknife may, as a standard action, channel psionic energy into
+      her mind blade, dazzling all creatures within 30 feet. A successful
+      Fortitude save negates this effect. The save DC is 10 + the soulknife's
+      base attack bonus.</p>
   disabled: false
   inherited: false
   showInCombat: false

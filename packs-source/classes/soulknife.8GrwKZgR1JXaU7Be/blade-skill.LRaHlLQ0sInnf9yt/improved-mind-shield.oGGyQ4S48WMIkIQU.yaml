@@ -62,7 +62,10 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The shield bonus to AC granted by the soulknife's mind shield increases by 1. The soulknife must have the mind shield blade skill in order to select this blade skill.</p>
+    value: >-
+      <p>The shield bonus to AC granted by the soulknife's mind shield increases
+      by 1. The soulknife must have the mind shield blade skill in order to
+      select this blade skill.</p>
   disabled: false
   inherited: false
   showInCombat: false

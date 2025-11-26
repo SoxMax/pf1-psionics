@@ -62,7 +62,17 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>As a swift action, the highlord chooses a member of the collective to gain a +1 competence bonus to attack rolls and damage rolls for a number of rounds equal to the highlord’s Charisma modifier (minimum 1 round). In addition, while this decree is active, the member of the collective affected gains temporary hit points equal to 4 + the highlord’s class level at the beginning of each of their turns. These temporary hit points do not stack with themselves; only the newest number applies. All the temporary hit points gained from this decree vanish when the decree ends. At 7th level and every six highlord levels thereafter, the competence bonuses increase by +1, to a maximum of +4 at 19th level. </p>
+    value: >-
+      <p>As a swift action, the highlord chooses a member of the collective to
+      gain a +1 competence bonus to attack rolls and damage rolls for a number
+      of rounds equal to the highlord’s Charisma modifier (minimum 1 round). In
+      addition, while this decree is active, the member of the collective
+      affected gains temporary hit points equal to 4 + the highlord’s class
+      level at the beginning of each of their turns. These temporary hit points
+      do not stack with themselves; only the newest number applies. All the
+      temporary hit points gained from this decree vanish when the decree ends.
+      At 7th level and every six highlord levels thereafter, the competence
+      bonuses increase by +1, to a maximum of +4 at 19th level. </p>
   disabled: false
   inherited: false
   showInCombat: false

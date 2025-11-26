@@ -62,7 +62,12 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>A soulknife with this ability automatically recharges her psychic strike ability if she reduces an enemy's hit points to below 0 with a melee attack using her mind blade. If her blade was already charged, her next psychic strike deals 1.5 times the damage rolled. A soulknife must be at least 10th level to choose this blade skill.</p>
+    value: >-
+      <p>A soulknife with this ability automatically recharges her psychic
+      strike ability if she reduces an enemy's hit points to below 0 with a
+      melee attack using her mind blade. If her blade was already charged, her
+      next psychic strike deals 1.5 times the damage rolled. A soulknife must be
+      at least 10th level to choose this blade skill.</p>
   disabled: false
   inherited: false
   showInCombat: false

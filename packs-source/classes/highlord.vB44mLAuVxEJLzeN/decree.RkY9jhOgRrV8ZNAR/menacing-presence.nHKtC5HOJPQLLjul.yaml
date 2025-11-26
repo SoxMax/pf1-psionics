@@ -62,7 +62,17 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Activating this decree is a swift action, and it lasts for a number of rounds equal to the highlord’s Charisma modifier (minimum 1 round). While this decree is active, the highlord gains a bonus on attack rolls equal to his Charisma modifier (minimum 1) against other members of the collective. In addition, whenever the highlord damages a member of his collective with a melee attack, he can make a Intimidate check to demoralize the target as a free action. If he succeeds, the target is shaken for the duration of this decree. This decree overlaps with other fear effects. It cannot increase a creature's fear level, nor can another effect be combined with it to increase a creature's fear level. </p>
+    value: >-
+      <p>Activating this decree is a swift action, and it lasts for a number of
+      rounds equal to the highlord’s Charisma modifier (minimum 1 round). While
+      this decree is active, the highlord gains a bonus on attack rolls equal to
+      his Charisma modifier (minimum 1) against other members of the collective.
+      In addition, whenever the highlord damages a member of his collective with
+      a melee attack, he can make a Intimidate check to demoralize the target as
+      a free action. If he succeeds, the target is shaken for the duration of
+      this decree. This decree overlaps with other fear effects. It cannot
+      increase a creature's fear level, nor can another effect be combined with
+      it to increase a creature's fear level. </p>
   disabled: false
   inherited: false
   showInCombat: false

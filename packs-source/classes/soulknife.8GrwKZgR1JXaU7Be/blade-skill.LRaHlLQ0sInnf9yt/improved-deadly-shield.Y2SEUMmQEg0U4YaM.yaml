@@ -62,7 +62,12 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The soulknife retains her enhancement bonus and shield special defensive properties on her mind shield while still gaining weapon-like traits from the Deadly Shield blade skill. The soulknife must be at least 6th level and possess the Deadly Shield blade skill in order to select this blade skill.</p>
+    value: >-
+      <p>The soulknife retains her enhancement bonus and shield special
+      defensive properties on her mind shield while still gaining weapon-like
+      traits from the Deadly Shield blade skill. The soulknife must be at least
+      6th level and possess the Deadly Shield blade skill in order to select
+      this blade skill.</p>
   disabled: false
   inherited: false
   showInCombat: false

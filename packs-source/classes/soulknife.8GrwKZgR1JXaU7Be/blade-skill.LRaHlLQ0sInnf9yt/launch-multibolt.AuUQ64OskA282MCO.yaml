@@ -62,7 +62,12 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The soulknife gains the benefits of the <a rel="nofollow" class="external text" href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Manyshot">Manyshot</a> feat with her mindbolt. The soulknife must possess the Launch Mindbolt class feature to select this blade skill.</p>
+    value: >-
+      <p>The soulknife gains the benefits of the <a rel="nofollow"
+      class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Manyshot">Manyshot</a>
+      feat with her mindbolt. The soulknife must possess the Launch Mindbolt
+      class feature to select this blade skill.</p>
   disabled: false
   inherited: false
   showInCombat: false

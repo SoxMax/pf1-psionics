@@ -62,7 +62,22 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>As a standard action, highlord can make a coup de grace attempt against a member of the collective. This still provokes attacks of opportunity, and must follow the normal rules of a coup de grace, such as being made with a melee weapon. If this kills a creature, the highlord heals an amount of hit points equal to triple the total Hit Dice of the slain target, and gains temporary power points equal to the number of Hit Dice the slain target had. These power points last a number of rounds equal to the highlord’s Charisma modifier (minimum 1 round) and do not stack with each other or other temporary power points. The duration of any power manifested with these power points is equal to the remaining time on the power points, or that power's original duration, whichever is shorter. A highlord must be 7th level or higher to choose this decree, and unlike other decrees, it does not last beyond its initial use (and as such, cannot be dismissed to refund the highlord’s psionic focus). This decree is not a mind-affecting effect. </p>
+    value: >-
+      <p>As a standard action, highlord can make a coup de grace attempt against
+      a member of the collective. This still provokes attacks of opportunity,
+      and must follow the normal rules of a coup de grace, such as being made
+      with a melee weapon. If this kills a creature, the highlord heals an
+      amount of hit points equal to triple the total Hit Dice of the slain
+      target, and gains temporary power points equal to the number of Hit Dice
+      the slain target had. These power points last a number of rounds equal to
+      the highlord’s Charisma modifier (minimum 1 round) and do not stack with
+      each other or other temporary power points. The duration of any power
+      manifested with these power points is equal to the remaining time on the
+      power points, or that power's original duration, whichever is shorter. A
+      highlord must be 7th level or higher to choose this decree, and unlike
+      other decrees, it does not last beyond its initial use (and as such,
+      cannot be dismissed to refund the highlord’s psionic focus). This decree
+      is not a mind-affecting effect. </p>
   disabled: false
   inherited: false
   showInCombat: false

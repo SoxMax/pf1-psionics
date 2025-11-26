@@ -62,7 +62,17 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>As a swift action, the highlord can quickly distribute his knowledge of tactics directly to chosen members of his collective. Each chosen member of the collective temporarily gains a teamwork feat known by the highlord, even if they don’t qualify for them normally. At 5th level and every 4 class levels thereafter, the highlord can share an additional teamwork feat that he knows with each chosen member of the collective. This decree lasts for a number of rounds equal to the highlord’s Charisma modifier. When the decree ends, the highlord's teamwork feats cease being shared. The highlord must know at least one teamwork feat in order to choose this decree. </p>
+    value: >-
+      <p>As a swift action, the highlord can quickly distribute his knowledge of
+      tactics directly to chosen members of his collective. Each chosen member
+      of the collective temporarily gains a teamwork feat known by the highlord,
+      even if they don’t qualify for them normally. At 5th level and every 4
+      class levels thereafter, the highlord can share an additional teamwork
+      feat that he knows with each chosen member of the collective. This decree
+      lasts for a number of rounds equal to the highlord’s Charisma modifier.
+      When the decree ends, the highlord's teamwork feats cease being shared.
+      The highlord must know at least one teamwork feat in order to choose this
+      decree. </p>
   disabled: false
   inherited: false
   showInCombat: false

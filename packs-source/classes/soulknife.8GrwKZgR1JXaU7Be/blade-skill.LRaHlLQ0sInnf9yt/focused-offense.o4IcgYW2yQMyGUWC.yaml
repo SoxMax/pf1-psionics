@@ -62,7 +62,10 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>As long as the soulknife maintains psionic focus, she adds her Wisdom modifier to her attack and damage rolls instead of her Strength modifier.</p>
+    value: >-
+      <p>As long as the soulknife maintains psionic focus, she adds her Wisdom
+      modifier to her attack and damage rolls instead of her Strength
+      modifier.</p>
   disabled: false
   inherited: false
   showInCombat: false

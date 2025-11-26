@@ -62,7 +62,23 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The soulknife gains the ability to have a separate configuration for her mind blade's enhancement bonus and special abilities. When she forms her mind blade, the soulknife may choose either configuration. Creating this extra configuration functions just as reassigning the enhancement of her mind blade, typically 8 hours of concentration, and when the soulknife reassigns her mind blade configuration, she must reassign each configuration separately, taking the normal 8 hours of concentration per configuration. Additionally, the soulknife may configure the off-hand light weapon form of her mind blade separately from the main hand configuration, if she chooses to form two mind blades and spends the normal 8 hours of concentration. The off-hand mind blade in both configurations can be separately configured in this way. If a soulknife with a separate off-hand configuration forms a one-handed or two-handed mind blade, it always uses the current configuration set for the main hand, never the off-hand configuration. The soulknife must be at least 6th level in order to select this blade skill.</p>
+    value: >-
+      <p>The soulknife gains the ability to have a separate configuration for
+      her mind blade's enhancement bonus and special abilities. When she forms
+      her mind blade, the soulknife may choose either configuration. Creating
+      this extra configuration functions just as reassigning the enhancement of
+      her mind blade, typically 8 hours of concentration, and when the soulknife
+      reassigns her mind blade configuration, she must reassign each
+      configuration separately, taking the normal 8 hours of concentration per
+      configuration. Additionally, the soulknife may configure the off-hand
+      light weapon form of her mind blade separately from the main hand
+      configuration, if she chooses to form two mind blades and spends the
+      normal 8 hours of concentration. The off-hand mind blade in both
+      configurations can be separately configured in this way. If a soulknife
+      with a separate off-hand configuration forms a one-handed or two-handed
+      mind blade, it always uses the current configuration set for the main
+      hand, never the off-hand configuration. The soulknife must be at least 6th
+      level in order to select this blade skill.</p>
   disabled: false
   inherited: false
   showInCombat: false

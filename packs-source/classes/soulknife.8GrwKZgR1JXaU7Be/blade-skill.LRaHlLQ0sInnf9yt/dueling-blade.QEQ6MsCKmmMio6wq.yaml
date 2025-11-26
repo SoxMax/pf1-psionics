@@ -62,7 +62,12 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>When a soulknife is fighting defensively, or using the Combat Expertise feat, with a mind blade, and an opponent misses her in melee, she may expend her psionic focus to make an attack of opportunity against that opponent with her mind blade. The soulknife ignores the penalty to attack rolls from fighting defensively for this attack.</p>
+    value: >-
+      <p>When a soulknife is fighting defensively, or using the Combat Expertise
+      feat, with a mind blade, and an opponent misses her in melee, she may
+      expend her psionic focus to make an attack of opportunity against that
+      opponent with her mind blade. The soulknife ignores the penalty to attack
+      rolls from fighting defensively for this attack.</p>
   disabled: false
   inherited: false
   showInCombat: false

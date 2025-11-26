@@ -62,7 +62,16 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The soulknife may expend her psychic strike to have her mind blade absorb a spell, spell-like ability, power, or psi-like ability that would affect her. Effects that are not subjected to spell resistance or power resistance cannot be absorbed in this fashion. Effects that target an area or multiple targets are only absorbed for the soulknife; other affected targets are still affected normally. The level of the effect cannot exceed the number of dice of psychic strike expended. The soulknife must be 8th level to select this blade skill. This blade skill may not be used with the mind bolt.</p>
+    value: >-
+      <p>The soulknife may expend her psychic strike to have her mind blade
+      absorb a spell, spell-like ability, power, or psi-like ability that would
+      affect her. Effects that are not subjected to spell resistance or power
+      resistance cannot be absorbed in this fashion. Effects that target an area
+      or multiple targets are only absorbed for the soulknife; other affected
+      targets are still affected normally. The level of the effect cannot exceed
+      the number of dice of psychic strike expended. The soulknife must be 8th
+      level to select this blade skill. This blade skill may not be used with
+      the mind bolt.</p>
   disabled: false
   inherited: false
   showInCombat: false

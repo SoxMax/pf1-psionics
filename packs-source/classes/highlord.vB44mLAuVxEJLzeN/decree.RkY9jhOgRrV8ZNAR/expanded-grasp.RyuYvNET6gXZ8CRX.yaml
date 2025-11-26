@@ -62,7 +62,20 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>Activating this decree is a free action, and it lasts for a number of rounds equal to the highlord’s Charisma modifier (minimum 1 round). During this duration, the highlord can empower a use of his conscription ability or Unwilling Participant feat by expending a swift or immediate action as part of it. That conscription attempt can target an additional creature; if the ability adds a creature within a certain range to the highlord’s collective, then the highlord affects a second creature within range. If the ability adds a creature to the highlord’s collective as part of an attack, then the highlord affects a creature within the reach of the attack (whether the attack comes from him or another collective member). At 7th level, the highlord can affect up to two additional creatures with his empowered conscriptions, at 13th level, he can affect up to three, and at 19th level, he can affect up to four. </p>
+    value: >-
+      <p>Activating this decree is a free action, and it lasts for a number of
+      rounds equal to the highlord’s Charisma modifier (minimum 1 round). During
+      this duration, the highlord can empower a use of his conscription ability
+      or Unwilling Participant feat by expending a swift or immediate action as
+      part of it. That conscription attempt can target an additional creature;
+      if the ability adds a creature within a certain range to the highlord’s
+      collective, then the highlord affects a second creature within range. If
+      the ability adds a creature to the highlord’s collective as part of an
+      attack, then the highlord affects a creature within the reach of the
+      attack (whether the attack comes from him or another collective member).
+      At 7th level, the highlord can affect up to two additional creatures with
+      his empowered conscriptions, at 13th level, he can affect up to three, and
+      at 19th level, he can affect up to four. </p>
   disabled: false
   inherited: false
   showInCombat: false

@@ -62,7 +62,13 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>When using the total defense action or attacking defensively, as a free action on her turn the soulknife can transform her mind shield into a tower shield until the start of her next turn. All of the standard penalties for having a mind shield shaped as a tower shield apply. The soulknife must have the Mind Shield blade skill to choose this blade skill.</p>
+    value: >-
+      <p>When using the total defense action or attacking defensively, as a free
+      action on her turn the soulknife can transform her mind shield into a
+      tower shield until the start of her next turn. All of the standard
+      penalties for having a mind shield shaped as a tower shield apply. The
+      soulknife must have the Mind Shield blade skill to choose this blade
+      skill.</p>
   disabled: false
   inherited: false
   showInCombat: false

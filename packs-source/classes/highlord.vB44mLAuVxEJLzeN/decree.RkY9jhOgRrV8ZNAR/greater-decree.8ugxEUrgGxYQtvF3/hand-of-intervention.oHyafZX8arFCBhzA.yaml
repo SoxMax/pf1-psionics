@@ -62,7 +62,11 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>As an immediate action, the highlord can prevent a member of his collective from dying. Any damage that would have killed them is prevented, and any death effects are nullified. Their hit points become –1, and they stabilize automatically. </p>
+    value: >-
+      <p>As an immediate action, the highlord can prevent a member of his
+      collective from dying. Any damage that would have killed them is
+      prevented, and any death effects are nullified. Their hit points become
+      –1, and they stabilize automatically. </p>
   disabled: false
   inherited: false
   showInCombat: false
