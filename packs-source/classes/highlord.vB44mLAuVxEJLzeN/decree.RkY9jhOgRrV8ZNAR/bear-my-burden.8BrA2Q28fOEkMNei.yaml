@@ -1,0 +1,99 @@
+_id: 8BrA2Q28fOEkMNei
+_key: '!items!8BrA2Q28fOEkMNei'
+_stats:
+  coreVersion: '13.351'
+folder: RkY9jhOgRrV8ZNAR
+img: icons/svg/book.svg
+name: Bear My Burden
+system:
+  abilityType: su
+  acquired: false
+  associations:
+    classes:
+      - Highlord
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>Whenever the highlord suffers from any of the following conditions, he
+      may activate this decree as an immediate action, even if the condition
+      would prevent him from taking an immediate action.</p><p>Bleed, Blinded,
+      Confused, Cowering, Dazed, Dazzled, Deafened, Energy Drained, Exhausted,
+      Fascinated, Fatigued, Frightened, Nauseated, Panicked, Paralyzed,
+      Petrified, Shaken, Sickened, Staggered, Stunned</p><p>The highlord
+      designates another member of the collective who has at least half the Hit
+      Dice of the highlord and is not immune to the condition. This member of
+      the collective begins to suffer the effects of the condition instead of
+      the highlord. If the member of the collective succeeds at resisting the
+      decree, the highlord suffers the condition as normal.</p><p>However, if
+      they accept the exchange or fail to resist it, the highlord is no longer
+      affected by the condition and the member of the collective suffers it in
+      the highlord’s place for its remaining duration. The duration of the
+      decree is identical to the duration of the condition. If they leave the
+      collective or the highlord ends this decree, they are freed from the
+      condition, and the highlord suffers the condition for the remainder of its
+      duration. A highlord must be 7th level or higher to choose this
+      decree.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2017-08-28'
+      pages: 10–14
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: classFeat
+  summons: false
+  tags:
+    - Decree
+type: feat

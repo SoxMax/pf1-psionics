@@ -1,0 +1,89 @@
+_id: OuQkRSzOxQpLOzkE
+_key: '!items!OuQkRSzOxQpLOzkE'
+_stats:
+  coreVersion: '13.351'
+folder: 8ugxEUrgGxYQtvF3
+img: icons/svg/book.svg
+name: Absolute Command
+system:
+  abilityType: su
+  acquired: false
+  associations:
+    classes:
+      - Highlord
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>To use this decree, the highlord must expend 10 power points as a
+      standard action. This decree acts like
+      @UUID[Compendium.pf1-psionics.powers.Item.mqvC6RdWJ4BaaYSD]{Mind Control,
+      Geth's}, targeting a member of his collective. Unlike that power, he can
+      target the collective member regardless of line of sight, line of effect,
+      or range. This decree ends if the creature leaves the highlord’s
+      collective. A highlord must know the
+      @UUID[Compendium.pf1-psionics.classes.Item.VP4kBGlWX2ZY4QNf]{Highlord’s
+      Command} decree in order to learn this decree.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2017-08-28'
+      pages: 10–14
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: classFeat
+  summons: false
+  tags:
+    - Greater Decree
+type: feat
