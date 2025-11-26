@@ -62,7 +62,14 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The tactician can direct a member of his collective to attack a single enemy. If the directed member performs the attack, all subsequent attacks on that target for the next round by anyone in the collective deal an additional 1d6 points of damage. An individual gains this additional damage on only one successful attack per round, even if they make multiple successful attacks on the targeted enemy. At 8th level and every four tactician levels thereafter, this damage increases by 1d6.</p>
+    value: >-
+      <p>The tactician can direct a member of his collective to attack a single
+      enemy. If the directed member performs the attack, all subsequent attacks
+      on that target for the next round by anyone in the collective deal an
+      additional 1d6 points of damage. An individual gains this additional
+      damage on only one successful attack per round, even if they make multiple
+      successful attacks on the targeted enemy. At 8th level and every four
+      tactician levels thereafter, this damage increases by 1d6.</p>
   disabled: false
   inherited: false
   showInCombat: false

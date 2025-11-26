@@ -62,7 +62,24 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The tactician directs a member of his collective to guard a specific target (which may be the tactician, but not the directed member), granting the directed member a +1 competence bonus to attack rolls. In addition, the directed member can spend an attack of opportunity to redirect an attack made at the target as if it was made at him, even if the attack itself would not normally have provoked an attack of opportunity. Any time the directed member redirects an attack in this fashion, the tactician gains a cumulative +1 bonus to his next attack against the source of the redirected attack. This effect lasts a number of rounds equal to the tactician's Charisma modifier, although the tactician's bonus resets at the end of his turn. If the directed member would not normally be able to make an attack of opportunity, for example, if they already made one and do not possess the <a rel="nofollow" class="external text" href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Combat%20Reflexes">Combat Reflexes</a> feat, they may not redirect attacks. At 8th level and every four tactician levels thereafter, the competence bonus on attack rolls increases by 1.</p>
+    value: >-
+      <p>The tactician directs a member of his collective to guard a specific
+      target (which may be the tactician, but not the directed member), granting
+      the directed member a +1 competence bonus to attack rolls. In addition,
+      the directed member can spend an attack of opportunity to redirect an
+      attack made at the target as if it was made at him, even if the attack
+      itself would not normally have provoked an attack of opportunity. Any time
+      the directed member redirects an attack in this fashion, the tactician
+      gains a cumulative +1 bonus to his next attack against the source of the
+      redirected attack. This effect lasts a number of rounds equal to the
+      tactician's Charisma modifier, although the tactician's bonus resets at
+      the end of his turn. If the directed member would not normally be able to
+      make an attack of opportunity, for example, if they already made one and
+      do not possess the <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Combat%20Reflexes">Combat
+      Reflexes</a> feat, they may not redirect attacks. At 8th level and every
+      four tactician levels thereafter, the competence bonus on attack rolls
+      increases by 1.</p>
   disabled: false
   inherited: false
   showInCombat: false

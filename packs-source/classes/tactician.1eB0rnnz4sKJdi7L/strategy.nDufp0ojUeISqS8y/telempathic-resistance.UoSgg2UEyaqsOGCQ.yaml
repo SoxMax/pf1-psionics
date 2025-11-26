@@ -62,7 +62,12 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The tactician shares not only thoughts, but also resilience to members of his collective. For a number of rounds equal to the tactician's Charisma modifier, all members of the tactician's collective gain a +1 insight bonus to saving throws. At 8th level and every four tactician levels thereafter, the insight bonus increases by 1.</p>
+    value: >-
+      <p>The tactician shares not only thoughts, but also resilience to members
+      of his collective. For a number of rounds equal to the tactician's
+      Charisma modifier, all members of the tactician's collective gain a +1
+      insight bonus to saving throws. At 8th level and every four tactician
+      levels thereafter, the insight bonus increases by 1.</p>
   disabled: false
   inherited: false
   showInCombat: false

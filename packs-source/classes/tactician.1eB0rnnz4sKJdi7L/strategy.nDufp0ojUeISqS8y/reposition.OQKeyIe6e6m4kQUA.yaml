@@ -62,7 +62,16 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The tactician directs each ally in his collective to take a 5-foot step as a free action immediately. The tactician may also immediately take a 5-foot step. This does not count against the number of 5-foot steps allowed in the tactician's or each ally's turn. If all directed allies take their 5-foot step, the tactician may immediately make a full attack against any target within range and gain a +1 competence bonus on the attack and damage rolls. Selecting this strategy requires the tactician to be at least a 13th level tactician. At 16th level and every four tactician levels thereafter, the competence bonus increases by 1.</p>
+    value: >-
+      <p>The tactician directs each ally in his collective to take a 5-foot step
+      as a free action immediately. The tactician may also immediately take a
+      5-foot step. This does not count against the number of 5-foot steps
+      allowed in the tactician's or each ally's turn. If all directed allies
+      take their 5-foot step, the tactician may immediately make a full attack
+      against any target within range and gain a +1 competence bonus on the
+      attack and damage rolls. Selecting this strategy requires the tactician to
+      be at least a 13th level tactician. At 16th level and every four tactician
+      levels thereafter, the competence bonus increases by 1.</p>
   disabled: false
   inherited: false
   showInCombat: false

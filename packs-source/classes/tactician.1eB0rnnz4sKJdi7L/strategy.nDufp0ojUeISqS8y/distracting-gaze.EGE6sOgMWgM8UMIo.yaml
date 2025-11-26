@@ -62,7 +62,14 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The tactician can target one enemy within 30 feet and make a ranged touch attack against that enemy. If the attack is successful, that enemy is treated as if the tactician was adjacent to him for the purposes of determining if he is flanked for a number of rounds equal to the tactician's Charisma modifier. Treat the direction for flanking as the direction of the tactician. Selecting this strategy requires the tactician to be at least 7th level.</p>
+    value: >-
+      <p>The tactician can target one enemy within 30 feet and make a ranged
+      touch attack against that enemy. If the attack is successful, that enemy
+      is treated as if the tactician was adjacent to him for the purposes of
+      determining if he is flanked for a number of rounds equal to the
+      tactician's Charisma modifier. Treat the direction for flanking as the
+      direction of the tactician. Selecting this strategy requires the tactician
+      to be at least 7th level.</p>
   disabled: false
   inherited: false
   showInCombat: false

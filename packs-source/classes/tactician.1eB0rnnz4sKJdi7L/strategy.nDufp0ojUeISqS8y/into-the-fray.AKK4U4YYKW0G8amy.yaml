@@ -62,7 +62,13 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The tactician directs a member of his collective to charge a particular enemy, granting the ally a +1 competence bonus on the damage roll. If the charge is performed, the tactician may charge the same enemy as an immediate action, gaining a +1 competence bonus on the damage roll. At 8th level and every four tactician levels thereafter, the competence bonus increases by 1.</p>
+    value: >-
+      <p>The tactician directs a member of his collective to charge a particular
+      enemy, granting the ally a +1 competence bonus on the damage roll. If the
+      charge is performed, the tactician may charge the same enemy as an
+      immediate action, gaining a +1 competence bonus on the damage roll. At 8th
+      level and every four tactician levels thereafter, the competence bonus
+      increases by 1.</p>
   disabled: false
   inherited: false
   showInCombat: false

@@ -62,7 +62,14 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The tactician directs a member of his collective to attack a particular target, granting the ally a +1 competence bonus on the attack roll for a number of rounds equal to the tactician's Charisma modifier. If the attack is made, the tactician may immediately make a single attack at any target within range as an immediate action. This attack does not count as an attack action, so does not qualify At 8th level and every four tactician levels thereafter, the competence bonus increases by 1.</p>
+    value: >-
+      <p>The tactician directs a member of his collective to attack a particular
+      target, granting the ally a +1 competence bonus on the attack roll for a
+      number of rounds equal to the tactician's Charisma modifier. If the attack
+      is made, the tactician may immediately make a single attack at any target
+      within range as an immediate action. This attack does not count as an
+      attack action, so does not qualify At 8th level and every four tactician
+      levels thereafter, the competence bonus increases by 1.</p>
   disabled: false
   inherited: false
   showInCombat: false

@@ -62,7 +62,15 @@ system:
     swm: false
     umd: false
   description:
-    value: <p>The tactician can sense when opponents have become vulnerable to different kinds of attack and direct his allies to capitalize on these weaknesses, granting members of his collective a +1 insight bonus on one type of combat maneuver attempts, such as bull rushes or repositions, for a number of rounds equaling his Charisma modifier. The tactician chooses the kind of maneuver this benefit applies to when he activates this strategy. At 8th level and every four levels thereafter, the insight bonus increases by 1.</p>
+    value: >-
+      <p>The tactician can sense when opponents have become vulnerable to
+      different kinds of attack and direct his allies to capitalize on these
+      weaknesses, granting members of his collective a +1 insight bonus on one
+      type of combat maneuver attempts, such as bull rushes or repositions, for
+      a number of rounds equaling his Charisma modifier. The tactician chooses
+      the kind of maneuver this benefit applies to when he activates this
+      strategy. At 8th level and every four levels thereafter, the insight bonus
+      increases by 1.</p>
   disabled: false
   inherited: false
   showInCombat: false
