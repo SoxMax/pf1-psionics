@@ -1,12 +1,12 @@
-_id: Fpmk7td5TrzUB3An
-_key: '!items!Fpmk7td5TrzUB3An'
+_id: HMW8afCkQSDb8bib
+_key: '!items!HMW8afCkQSDb8bib'
 _stats:
   coreVersion: '13.351'
-folder: yxB21JRuF0fTjL6O
-img: icons/magic/symbols/runes-star-magenta.webp
-name: Supreme Insight
+folder: PjlWqq4oo3M1g7aO
+img: icons/svg/book.svg
+name: Awakened Insight
 system:
-  abilityType: ex
+  abilityType: na
   acquired: false
   associations:
     classes:
@@ -21,6 +21,13 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
+  changes:
+    - _id: 1Nn0jIAd
+      formula: '2'
+      operator: add
+      priority: 0
+      target: int
+      type: untyped
   classSkills:
     acr: false
     ahp: false
@@ -63,27 +70,16 @@ system:
     umd: false
   description:
     value: >-
-      <p>At 20th level, the cryptic makes astounding leaps of insight. She
-      immediately learns two normal insights, but also learns a third insight
-      chosen from the Supreme Insights list, representing a truly astounding
-      breakthrough in understanding how patterns work. For many cryptics, the
-      possibility of this sort of discoveries is the driving force for their
-      studying of patterns.</p>
+      <p>The cryptic's constant efforts to understand the patterns of the world
+      around her expanded her mind. Her Intelligence score permanently increases
+      by 2 points.</p>
   disabled: false
   inherited: false
   showInCombat: false
   showInQuickbar: false
   simple: false
-  sources:
-    - date: '2012-07-23'
-      pages: 36–42
-      publisher: Dreamscarred Press
-      title: Psionics Expanded
-    - date: '2013-12-24'
-      pages: 34–40
-      publisher: Dreamscarred Press
-      title: Ultimate Psionics
   subType: classFeat
   summons: false
-  tag: supremeinsight
+  tags:
+    - Supreme Insight
 type: feat

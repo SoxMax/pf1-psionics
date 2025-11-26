@@ -1,12 +1,12 @@
-_id: Fpmk7td5TrzUB3An
-_key: '!items!Fpmk7td5TrzUB3An'
+_id: pmy6FNwD2eLY2XlH
+_key: '!items!pmy6FNwD2eLY2XlH'
 _stats:
   coreVersion: '13.351'
-folder: yxB21JRuF0fTjL6O
-img: icons/magic/symbols/runes-star-magenta.webp
-name: Supreme Insight
+folder: fOWWJNYTr1fLJwLE
+img: icons/svg/book.svg
+name: Binding Pattern
 system:
-  abilityType: ex
+  abilityType: su
   acquired: false
   associations:
     classes:
@@ -63,27 +63,21 @@ system:
     umd: false
   description:
     value: >-
-      <p>At 20th level, the cryptic makes astounding leaps of insight. She
-      immediately learns two normal insights, but also learns a third insight
-      chosen from the Supreme Insights list, representing a truly astounding
-      breakthrough in understanding how patterns work. For many cryptics, the
-      possibility of this sort of discoveries is the driving force for their
-      studying of patterns.</p>
+      <p>A cryptic with this insight can cause creatures struck with her disrupt
+      pattern ability to become entangled for a number of rounds equal to the
+      cryptic's Intelligence modifier, although the disrupt pattern damage is
+      minimized (all dice rolls are treated as 1s). Entangled creatures can
+      attempt to break free as a move action, making a Strength or Escape Artist
+      check. The DC for this check is equal to the 10 + 1/2 the cryptic's level
+      + the cryptic's Intelligence modifier. A cryptic must be at least 4th
+      level before selecting this insight.</p>
   disabled: false
   inherited: false
   showInCombat: false
   showInQuickbar: false
   simple: false
-  sources:
-    - date: '2012-07-23'
-      pages: 36–42
-      publisher: Dreamscarred Press
-      title: Psionics Expanded
-    - date: '2013-12-24'
-      pages: 34–40
-      publisher: Dreamscarred Press
-      title: Ultimate Psionics
   subType: classFeat
   summons: false
-  tag: supremeinsight
+  tags:
+    - Insights
 type: feat
