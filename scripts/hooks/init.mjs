@@ -25,7 +25,7 @@ function registerSettings() {
     scope: "world",
     config: false,
     type: String,
-    default: "0.0.0"
+    default: "0.0.0",
   });
 }
 
@@ -119,6 +119,28 @@ function registerConfig() {
     filters: { ...baseActorFilters() },
   };
 
+  // General psionic bonuses
+  pf1.config.buffTargets[`${MODULE_ID}.concentration`] = {
+    label: "PF1.Concentration",
+    category: "psionics",
+    sort: 261100,
+    filters: { ...baseActorFilters() },
+  };
+
+  pf1.config.buffTargets[`${MODULE_ID}.manifesterLevel`] = {
+    label: "PF1-Psionics.ManifesterLevel",
+    category: "psionics",
+    sort: 261200,
+    filters: { ...baseActorFilters() },
+  };
+
+  pf1.config.buffTargets[`${MODULE_ID}.psionicDC`] = {
+    label: "PF1-Psionics.PsionicDC",
+    category: "psionics",
+    sort: 261300,
+    filters: { ...baseActorFilters() },
+  };
+
   // Discipline DC and CL bonuses for Psionics-Magic Transparency
   for (const disciplineKey of Object.keys(pf1.config.psionics.disciplines)) {
     // Capitalize first letter for localization key
@@ -170,13 +192,63 @@ function registerItems() {
 // Map custom psionics buff targets to concrete actor data paths
 // These paths point to the maximum values; using maximum avoids refilling current values each refresh.
 Hooks.on("pf1GetChangeFlat", (result, target, _modifierType, _value, _actor) => {
-  switch (target){
+  switch (target) {
     case `${MODULE_ID}.powerPoints`:
       result.push(`flags.${MODULE_ID}.powerPoints.maximum`);
       break;
     case `${MODULE_ID}.focus`:
       result.push(`flags.${MODULE_ID}.focus.maximum`);
       break;
+    case `${MODULE_ID}.concentration`:
+      // Apply to both manifestors AND spellbooks for Psionics-Magic Transparency
+      result.push(
+        `flags.${MODULE_ID}.manifestors.primary.concentration.total`,
+        `flags.${MODULE_ID}.manifestors.secondary.concentration.total`,
+        `flags.${MODULE_ID}.manifestors.tertiary.concentration.total`,
+        `flags.${MODULE_ID}.manifestors.spelllike.concentration.total`,
+        "system.attributes.spells.spellbooks.primary.concentration.total",
+        "system.attributes.spells.spellbooks.secondary.concentration.total",
+        "system.attributes.spells.spellbooks.tertiary.concentration.total",
+        "system.attributes.spells.spellbooks.spelllike.concentration.total"
+      );
+      break;
+    case `${MODULE_ID}.manifesterLevel`:
+      // Apply to both manifestors AND spellbooks for Psionics-Magic Transparency
+      result.push(
+        `flags.${MODULE_ID}.manifestors.primary.cl.total`,
+        `flags.${MODULE_ID}.manifestors.secondary.cl.total`,
+        `flags.${MODULE_ID}.manifestors.tertiary.cl.total`,
+        `flags.${MODULE_ID}.manifestors.spelllike.cl.total`,
+        "system.attributes.spells.spellbooks.primary.cl.total",
+        "system.attributes.spells.spellbooks.secondary.cl.total",
+        "system.attributes.spells.spellbooks.tertiary.cl.total",
+        "system.attributes.spells.spellbooks.spelllike.cl.total"
+      );
+      break;
+    case `${MODULE_ID}.psionicDC`:
+      // Universal DC bonus affects all powers and spells
+      result.push(`system.attributes.spells.school.all.dc`);
+      break;
+  // Bidirectional transparency: spell bonuses also apply to manifestors
+    case "concentration":
+      // Spell concentration also applies to manifestors
+      result.push(
+        `flags.${MODULE_ID}.manifestors.primary.concentration.total`,
+        `flags.${MODULE_ID}.manifestors.secondary.concentration.total`,
+        `flags.${MODULE_ID}.manifestors.tertiary.concentration.total`,
+        `flags.${MODULE_ID}.manifestors.spelllike.concentration.total`
+      );
+      break;
+    case "cl":
+      // Spell CL also applies to manifestors
+      result.push(
+        `flags.${MODULE_ID}.manifestors.primary.cl.total`,
+        `flags.${MODULE_ID}.manifestors.secondary.cl.total`,
+        `flags.${MODULE_ID}.manifestors.tertiary.cl.total`,
+        `flags.${MODULE_ID}.manifestors.spelllike.cl.total`
+      );
+      break;
+    // Note: "dc" already applies to all via system.attributes.spells.school.all.dc
   }
 
   // Map discipline buff targets to spell school paths for Psionics-Magic Transparency
