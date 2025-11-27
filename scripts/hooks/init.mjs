@@ -235,7 +235,7 @@ Hooks.on("pf1GetChangeFlat", (result, target, _modifierType, _value, _actor) => 
       break;
     case `${MODULE_ID}.psionicDC`:
       // Universal DC bonus affects all powers and spells
-      result.push(`system.attributes.spells.school.all.dc`);
+      result.push("system.attributes.spells.school.all.dc");
       break;
     case `${MODULE_ID}.psionicResistance`:
       // Psionic Resistance maps to same location as Spell Resistance for transparency
@@ -261,7 +261,7 @@ Hooks.on("pf1GetChangeFlat", (result, target, _modifierType, _value, _actor) => 
       );
       break;
     // Note: "dc" already applies to all via system.attributes.spells.school.all.dc
-    default:
+    default: {
       // Map discipline buff targets to spell school paths for Psionics-Magic Transparency
       const disciplineMatch = target.match(/^pf1-psionics\.discipline\.(\w+)\.(dc|cl)$/);
       if (disciplineMatch) {
@@ -275,5 +275,6 @@ Hooks.on("pf1GetChangeFlat", (result, target, _modifierType, _value, _actor) => 
         result.push(`system.attributes.spells.school.${schoolKey}.${stat}`);
       }
       break;
+    }
   }
 });
