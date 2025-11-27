@@ -105,6 +105,14 @@ function registerConfig() {
     filters: { ...baseActorFilters() },
   };
 
+  // Psionic Resistance in Defense category (transparent with Spell Resistance)
+  pf1.config.buffTargets[`${MODULE_ID}.psionicResistance`] = {
+    label: "PF1-Psionics.PsionicResistance",
+    category: "defense",
+    sort: 0,
+    filters: { ...baseActorFilters() },
+  };
+
   pf1.config.buffTargets[`${MODULE_ID}.focus`] = {
     label: "PF1-Psionics.Focus.Singular",
     category: "psionics",
@@ -228,6 +236,10 @@ Hooks.on("pf1GetChangeFlat", (result, target, _modifierType, _value, _actor) => 
     case `${MODULE_ID}.psionicDC`:
       // Universal DC bonus affects all powers and spells
       result.push(`system.attributes.spells.school.all.dc`);
+      break;
+    case `${MODULE_ID}.psionicResistance`:
+      // Psionic Resistance maps to same location as Spell Resistance for transparency
+      result.push("system.attributes.sr.total");
       break;
   // Bidirectional transparency: spell bonuses also apply to manifestors
     case "concentration":
