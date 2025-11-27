@@ -3,6 +3,22 @@ import { PowerSheet } from "../applications/_module.mjs";
 import { PowerModel } from "../dataModels/_module.mjs";
 import { PowerItem } from "../documents/_module.mjs";
 
+/**
+ * Mapping of psionic disciplines to their equivalent spell schools
+ * for Psionics-Magic Transparency.
+ *
+ * @type {Object<string, string|null>}
+ */
+const DISCIPLINE_TO_SCHOOL = {
+  athanatism: "nec",
+  clairsentience: "div",
+  metacreativity: "con",
+  psychokinesis: "evo",
+  psychometabolism: "trs",
+  psychoportation: null, // No spell school equivalent
+  telepathy: "enc"
+};
+
 export function initHook() {
   registerSettings();
   registerConfig();
@@ -118,6 +134,26 @@ function registerConfig() {
     filters: { ...baseActorFilters() },
   };
 
+  // Discipline DC and CL bonuses for Psionics-Magic Transparency
+  for (const disciplineKey of Object.keys(pf1.config.psionics.disciplines)) {
+    // Capitalize first letter for localization key
+    const disciplineName = disciplineKey.charAt(0).toUpperCase() + disciplineKey.slice(1);
+
+    pf1.config.buffTargets[`${MODULE_ID}.discipline.${disciplineKey}.dc`] = {
+      label: `PF1-Psionics.Discipline.DC.${disciplineName}`,
+      category: "psionics",
+      sort: 262000,
+      filters: { ...baseActorFilters() },
+    };
+
+    pf1.config.buffTargets[`${MODULE_ID}.discipline.${disciplineKey}.cl`] = {
+      label: `PF1-Psionics.Discipline.CL.${disciplineName}`,
+      category: "psionics",
+      sort: 263000,
+      filters: { ...baseActorFilters() },
+    };
+  }
+
 }
 
 /**
@@ -156,5 +192,30 @@ Hooks.on("pf1GetChangeFlat", (result, target, _modifierType, _value, _actor) => 
     case `${MODULE_ID}.focus`:
       result.push(`flags.${MODULE_ID}.focus.maximum`);
       break;
+  }
+
+  // Map discipline buff targets to spell school paths for Psionics-Magic Transparency
+  const disciplineMatch = target.match(/^pf1-psionics\.discipline\.(\w+)\.(dc|cl)$/);
+  if (disciplineMatch) {
+    const [, discipline, stat] = disciplineMatch;
+    const schoolKey = DISCIPLINE_TO_SCHOOL[discipline];
+
+    // Psychoportation has no school equivalent
+    if (!schoolKey) return;
+
+    // Map to the equivalent school path
+    result.push(`system.attributes.spells.school.${schoolKey}.${stat}`);
+  }
+});
+
+// Add school CL bonus for powers (Psionics-Magic Transparency)
+// The PF1 system only adds this for spells, so we need to add it for powers
+Hooks.on("pf1GetRollData", (action, rollData) => {
+  const item = action.item;
+
+  // Check if this is a power with a school
+  if (item?.type === `${MODULE_ID}.power` && item.system.school) {
+    // Add per school CL bonus (same as PF1 does for spells)
+    rollData.cl += rollData.attributes?.spells?.school?.[item.system.school]?.cl ?? 0;
   }
 });

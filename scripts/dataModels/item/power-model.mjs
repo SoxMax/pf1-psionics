@@ -1,5 +1,21 @@
 import { AugmentModel } from "./augment-model.mjs";
 
+/**
+ * Mapping of psionic disciplines to their equivalent spell schools
+ * for Psionics-Magic Transparency.
+ *
+ * @type {Object<string, string|null>}
+ */
+const DISCIPLINE_TO_SCHOOL = {
+  athanatism: "nec",
+  clairsentience: "div",
+  metacreativity: "con",
+  psychokinesis: "evo",
+  psychometabolism: "trs",
+  psychoportation: null, // No spell school equivalent
+  telepathy: "enc"
+};
+
 export class PowerModel extends foundry.abstract.TypeDataModel {
   static defineSchema() {
     const {
@@ -111,6 +127,17 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
    */
   prepareDerivedData() {
     super.prepareDerivedData();
+  }
+
+  /**
+   * Equivalent spell school for this power's discipline.
+   * Implements Psionics-Magic Transparency by exposing a school property
+   * that PF1 system uses for spell school bonuses.
+   *
+   * @type {string|null}
+   */
+  get school() {
+    return DISCIPLINE_TO_SCHOOL[this.discipline];
   }
 
   /**

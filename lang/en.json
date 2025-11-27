@@ -61,7 +61,25 @@
       "Psychokinesis": "Psychokinesis",
       "Psychometabolism": "Psychometabolism",
       "Psychoportation": "Psychoportation",
-      "Telepathy": "Telepathy"
+      "Telepathy": "Telepathy",
+      "DC": {
+        "Athanatism": "Athanatism DC",
+        "Clairsentience": "Clairsentience DC",
+        "Metacreativity": "Metacreativity DC",
+        "Psychokinesis": "Psychokinesis DC",
+        "Psychometabolism": "Psychometabolism DC",
+        "Psychoportation": "Psychoportation DC",
+        "Telepathy": "Telepathy DC"
+      },
+      "CL": {
+        "Athanatism": "Athanatism CL",
+        "Clairsentience": "Clairsentience CL",
+        "Metacreativity": "Metacreativity CL",
+        "Psychokinesis": "Psychokinesis CL",
+        "Psychometabolism": "Psychometabolism CL",
+        "Psychoportation": "Psychoportation CL",
+        "Telepathy": "Telepathy CL"
+      }
     },
     "Manifestors": {
       "BrowsePowers": "Browse Powers",
