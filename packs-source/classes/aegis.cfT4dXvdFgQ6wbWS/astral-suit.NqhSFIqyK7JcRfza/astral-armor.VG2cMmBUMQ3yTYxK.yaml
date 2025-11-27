@@ -1,0 +1,87 @@
+_id: VG2cMmBUMQ3yTYxK
+_key: '!items!VG2cMmBUMQ3yTYxK'
+_stats:
+  coreVersion: '13.351'
+folder: NqhSFIqyK7JcRfza
+img: systems/pf1/icons/items/armor/chain-mail.png
+name: Astral Armor
+system:
+  abilityType: na
+  acquired: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>When formed into astral armor, an astral suit resembles masterwork
+      chainmail and is treated as such for all mechanical purposes. Should the
+      aegis be wearing armor when forming his astral suit in this fashion, the
+      astral suit encloses the armor and the aegis gains the benefits of only
+      his astral suit and not that from his armor, even if his armor would
+      confer better benefits.</p><p>Forming an astral suit into this form takes
+      a move action.</p><p>The aegis gains the following free customizations: <a
+      href="https://metzo.miraheze.org/wiki/Aegis_Astral_Suit_Customization#Brawn"
+      title="Aegis Astral Suit Customization">brawn</a>, <a
+      href="https://metzo.miraheze.org/wiki/Aegis_Astral_Suit_Customization#Improved_Damage"
+      title="Aegis Astral Suit Customization">improved damage</a>.</p><p>At 2nd
+      level, the aegis gains the <a
+      href="https://metzo.miraheze.org/wiki/Aegis_Astral_Suit_Customization#Flexible_Suit"
+      title="Aegis Astral Suit Customization">flexible suit</a> customization as
+      a free customization when the astral suit is in astral armor
+      form.</p><p>At 8th level, the astral suit resembles and is treated as a
+      masterwork breastplate for all mechanical purposes.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: classFeat
+  summons: false
+type: feat

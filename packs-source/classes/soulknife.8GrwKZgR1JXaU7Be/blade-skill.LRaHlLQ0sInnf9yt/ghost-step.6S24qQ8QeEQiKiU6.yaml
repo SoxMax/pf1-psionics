@@ -1,0 +1,98 @@
+_id: 6S24qQ8QeEQiKiU6
+_key: '!items!6S24qQ8QeEQiKiU6'
+_stats:
+  coreVersion: '13.351'
+folder: LRaHlLQ0sInnf9yt
+img: systems/pf1/icons/skills/weapon_25.jpg
+name: Ghost Step
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Soulknife
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>The soulknife has learned a potent trick that some call the ‘ghost
+      step'; a teleportation-based principle that allows the soulknife to slip
+      between nearby places at great speed. As a move action, the soulknife can
+      expend her psionic focus to teleport to any location she can see within
+      close range (25 feet + 5 feet per 2 soulknife levels). She can carry no
+      more than 50 lbs. of additional gear, and cannot bring creatures other
+      than her psicrystal (if she has one) with her. The use of this ability
+      ends the soulknife's turn. At 10th level, the this ability can be used to
+      teleport up to medium range (100 feet + 10 feet per soulknife level), and
+      she may teleport as a swift action instead of a move action. This is a
+      teleportation effect. This blade skill meets the prerequisites for and
+      functions with Dimensional Agility and feats that require it as a
+      prerequisite. The soulknife must be at least 4th level in order to select
+      this blade skill.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2013-03-01'
+      pages: 3–7
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Soulknives'
+    - date: '2018-05-01'
+      pages: 17–21
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: classFeat
+  summons: false
+  tags:
+    - Blade Skill
+type: feat

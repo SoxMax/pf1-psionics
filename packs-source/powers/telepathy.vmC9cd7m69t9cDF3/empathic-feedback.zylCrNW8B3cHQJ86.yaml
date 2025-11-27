@@ -1,7 +1,7 @@
 _id: zylCrNW8B3cHQJ86
 _key: '!items!zylCrNW8B3cHQJ86'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Empathic_Feedback
@@ -57,6 +57,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

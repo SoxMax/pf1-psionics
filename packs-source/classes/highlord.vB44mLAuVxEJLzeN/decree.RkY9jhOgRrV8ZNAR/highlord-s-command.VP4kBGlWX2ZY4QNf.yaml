@@ -1,0 +1,90 @@
+_id: VP4kBGlWX2ZY4QNf
+_key: '!items!VP4kBGlWX2ZY4QNf'
+_stats:
+  coreVersion: '13.351'
+folder: RkY9jhOgRrV8ZNAR
+img: icons/svg/book.svg
+name: Highlord’s Command
+system:
+  abilityType: su
+  acquired: false
+  associations:
+    classes:
+      - Highlord
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>Activating this decree is a free action, and it lasts for a number of
+      rounds equal to the highlord’s Charisma modifier (minimum 1 round). When
+      the highlord activates this decree, he chooses a member of his collective,
+      and during this duration, he can give that creature orders as a standard
+      action.</p><p>When the highlord gives an order, he specifies a course of
+      action (such as “attack your leader!”). Then the affected collective
+      member takes a standard or move action to fulfill that order to the best
+      of their abilities, even though it isn’t their turn. A creature unwilling
+      to follow the highlord’s order can make a Will save to resist the orders
+      and forgo actions granted by the highlord, ignoring the order and ending
+      the decree on a success. Even if they fail the save against this ability,
+      such a creature cannot be forced to use abilities with daily usages during
+      this action, such as spells or class abilities such as wild shape. After
+      taking an ordered action, the collective member becomes staggered until
+      the start of the highlord’s next turn.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: classFeat
+  summons: false
+  tags:
+    - Decree
+type: feat

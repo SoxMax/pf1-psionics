@@ -1,0 +1,95 @@
+_id: KMIWoISOuOGkcUg2
+_key: '!items!KMIWoISOuOGkcUg2'
+_stats:
+  coreVersion: '13.351'
+folder: LRaHlLQ0sInnf9yt
+img: systems/pf1/icons/skills/weapon_25.jpg
+name: Mindflayer
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Soulknife
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>The soulknife with this blade skill may channel her psionic energies
+      into a long, thin mind whip of mental strength that is capable of both
+      flaying body and mind. The whip functions in all respects as whip or
+      scorpion whip (chosen when manifesting a mind blade using this blade
+      skill). While in this form, the soulknife is considered to be proficient
+      with both weapons. Mindflayer is compatible with the Whip Mastery feat
+      (and subsequent feats). The soulknife may expend her psionic focus when
+      making an attack using her psychic strike to cause intense levels of pain
+      with her mind whip. The target must make a Fortitude save (DC 10 + 1/2
+      soulknife level + Wisdom modifier) or become dazed for one round. The
+      soulknife must be 6th level to select this blade skill.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2013-03-01'
+      pages: 3–7
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Soulknives'
+    - date: '2018-05-01'
+      pages: 17–21
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: classFeat
+  summons: false
+  tags:
+    - Blade Skill
+type: feat

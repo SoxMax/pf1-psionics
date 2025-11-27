@@ -1,0 +1,89 @@
+_id: UM73vPTin1r9uBWu
+_key: '!items!UM73vPTin1r9uBWu'
+_stats:
+  coreVersion: '13.351'
+folder: fOWWJNYTr1fLJwLE
+img: icons/svg/book.svg
+name: Fold Trap (Su)
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Cryptic
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>A cryptic can 'fold' the pattern of a trap she has personally crafted,
+      compressing the trap into a light-weight projectile which can be thrown at
+      a later time. As a standard action, the cryptic can throw the folded trap
+      at an unoccupied square up to 30 feet away. No attack roll is necessary
+      and the trap is immediately 'unfolded' and ready to be triggered as
+      normal. The trap affected must have a CR no greater than half the
+      cryptic's level (minimum 1). A trap that has been folded cannot be folded
+      again, even if it was not triggered after being thrown. The cryptic must
+      have the Quick Trapsmith insight before selecting this insight.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2013-12-24'
+      pages: 37–40
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  summons: false
+  tags:
+    - Insights
+type: feat

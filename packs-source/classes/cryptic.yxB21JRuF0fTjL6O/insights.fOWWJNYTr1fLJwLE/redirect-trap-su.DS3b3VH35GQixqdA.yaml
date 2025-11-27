@@ -1,0 +1,88 @@
+_id: DS3b3VH35GQixqdA
+_key: '!items!DS3b3VH35GQixqdA'
+_stats:
+  coreVersion: '13.351'
+folder: fOWWJNYTr1fLJwLE
+img: icons/svg/book.svg
+name: Redirect Trap (Su)
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Cryptic
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>A cryptic with this pattern has learned how to alter the pattern of
+      reality to psychoportively redirect the effect of a trap. As a standard
+      action, the cryptic can redirect the effect of a trap that the cryptic has
+      claimed by Claim Pattern. The effect can be redirected up 60 ft. away from
+      the location of the trap. The destination must still be in the cryptic's
+      line of sight and this insight cannot be used on pit traps. A cryptic must
+      have the Claim Pattern insight and be at least 10th level before selecting
+      this insight.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2013-12-24'
+      pages: 37–40
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  summons: false
+  tags:
+    - Insights
+type: feat

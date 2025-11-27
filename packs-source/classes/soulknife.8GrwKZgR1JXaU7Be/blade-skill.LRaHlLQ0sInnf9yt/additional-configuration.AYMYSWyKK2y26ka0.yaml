@@ -1,0 +1,96 @@
+_id: AYMYSWyKK2y26ka0
+_key: '!items!AYMYSWyKK2y26ka0'
+_stats:
+  coreVersion: '13.351'
+folder: LRaHlLQ0sInnf9yt
+img: systems/pf1/icons/skills/weapon_25.jpg
+name: Additional Configuration
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Soulknife
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>The soulknife gains the ability to have a separate configuration for
+      her mind blade's enhancement bonus and special abilities. When she forms
+      her mind blade, the soulknife may choose either configuration. Creating
+      this extra configuration functions just as reassigning the enhancement of
+      her mind blade, typically 8 hours of concentration, and when the soulknife
+      reassigns her mind blade configuration, she must reassign each
+      configuration separately, taking the normal 8 hours of concentration per
+      configuration. Additionally, the soulknife may configure the off-hand
+      light weapon form of her mind blade separately from the main hand
+      configuration, if she chooses to form two mind blades and spends the
+      normal 8 hours of concentration. The off-hand mind blade in both
+      configurations can be separately configured in this way. If a soulknife
+      with a separate off-hand configuration forms a one-handed or two-handed
+      mind blade, it always uses the current configuration set for the main
+      hand, never the off-hand configuration. The soulknife must be at least 6th
+      level in order to select this blade skill.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2012-06-01'
+      pages: 9–12
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+  subType: classFeat
+  summons: false
+  tags:
+    - Blade Skill
+type: feat

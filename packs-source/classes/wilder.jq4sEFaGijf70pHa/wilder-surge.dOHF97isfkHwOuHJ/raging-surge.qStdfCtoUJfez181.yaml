@@ -1,0 +1,75 @@
+_id: qStdfCtoUJfez181
+_key: '!items!qStdfCtoUJfez181'
+_stats:
+  coreVersion: '13.351'
+folder: dOHF97isfkHwOuHJ
+img: icons/svg/book.svg
+name: Raging Surge
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Wilder
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: "<p><strong>Wild Surge and Psychic Enervation:</strong> A raging wilder unleashes pure, raw rage to boost her psionic power. A raging wilder cannot invoke wild surge unless in a\_rage, but any time a raging wilder manifests a power and uses wild surge, that round does not count toward her number of rounds per day she may\_rage. When the raging wilder suffers psychic enervation, she loses\_hit points\_equal to her normal manifester level (the increase in manifester level from her wild surge does not increase the number of\_hit points\_lost).</p><p><strong>Surge Bond:</strong> You gain the\_rage\_class feature, as the\_barbarian, except as follows: the number of rounds per day you may\_rage\_is equal to 3 + your\_Charisma\_modifier, +1 per level of wilder you possess. If you have levels of\_barbarian, you do not stack your total rounds of\_rage\_together; instead you may add your\_Charisma\_bonus and your wilder level to the total number of rounds of\_rage\_available to you through\_barbarian. In addition, you gain the ability to manifest while in a\_rage, unlike other manifesters.</p><p><strong>Improved Surge Bond:</strong> At 5th, 9th, 13th and 17th level the raging wilder gains a\_rage power\_as if a\_barbarian\_of the same level. If you have levels of\_barbarian, add your wilder levels to your\_barbarian level to determine which\_rage power\_you can select.</p>"
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: classFeat
+  summons: false
+  tags:
+    - Wild Surge
+type: feat

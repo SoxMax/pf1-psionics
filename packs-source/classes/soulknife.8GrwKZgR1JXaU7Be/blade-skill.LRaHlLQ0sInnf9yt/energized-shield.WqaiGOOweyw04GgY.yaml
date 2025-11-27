@@ -1,0 +1,88 @@
+_id: WqaiGOOweyw04GgY
+_key: '!items!WqaiGOOweyw04GgY'
+_stats:
+  coreVersion: '13.351'
+folder: LRaHlLQ0sInnf9yt
+img: systems/pf1/icons/skills/weapon_25.jpg
+name: Energized Shield
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Soulknife
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>As an immediate action when the soulknife is attacked in melee and by
+      expending her psionic focus, she may charge her mind shield with one of
+      the energy types she could normally make her mind blade deal, dealing
+      additional points of the appropriate type of energy damage equal to her
+      normal psychic strike damage to her attacker. This effect lasts only for
+      one attack. The soulknife must be at least 8th level and have the mind
+      shield blade skill and one of the fire blade, ice blade, lightning blade,
+      or thunder blade blade skills to choose this blade skill.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2012-06-01'
+      pages: 9–12
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+  subType: classFeat
+  summons: false
+  tags:
+    - Blade Skill
+type: feat

@@ -1,0 +1,96 @@
+_id: hAw9GlD6dNcXP9SP
+_key: '!items!hAw9GlD6dNcXP9SP'
+_stats:
+  coreVersion: '13.351'
+folder: 8ugxEUrgGxYQtvF3
+img: icons/svg/book.svg
+name: Formal Challenge
+system:
+  abilityType: su
+  acquired: false
+  associations:
+    classes:
+      - Highlord
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>As an immediate action, the highlord can cause a successful melee
+      attack by a member of his collective to become an insult that must be
+      answered. Both the member of the collective and the recipient of the
+      attack must make a Will save or be forced into one on one combat with one
+      another. If both creatures fail their saves against this decree, the only
+      creatures either of them are able to attack or affect with harmful
+      abilities are each other. They cannot knowingly attack or affect another
+      creature with abilities for the duration of the decree. This decree lasts
+      for a number of rounds equal the highlord’s Charisma modifier (minimum 1
+      round) or until one of the creatures becomes helpless. </p><p>This decree
+      becomes inactive if a creature affected moves out of close range (25 feet
+      + 5 feet per 2 class levels) from their opponent. If the highlord
+      maintains the decree in spite of this, the decree’s effect resumes if the
+      creature re-enters the range of their opponent. A creature under the
+      effect of this decree cannot be affected by another use of it (either from
+      the highlord or another creature capable of using decrees). </p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2017-08-28'
+      pages: 10–14
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: classFeat
+  summons: false
+  tags:
+    - Greater Decree
+type: feat

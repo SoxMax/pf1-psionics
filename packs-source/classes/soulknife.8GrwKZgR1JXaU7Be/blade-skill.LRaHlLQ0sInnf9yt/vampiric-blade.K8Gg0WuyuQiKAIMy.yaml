@@ -1,0 +1,91 @@
+_id: K8Gg0WuyuQiKAIMy
+_key: '!items!K8Gg0WuyuQiKAIMy'
+_stats:
+  coreVersion: '13.351'
+folder: LRaHlLQ0sInnf9yt
+img: systems/pf1/icons/skills/weapon_25.jpg
+name: Vampiric Blade
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Soulknife
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>The soulknife with knowledge of this art has learned that staying power
+      is sometimes more important than a faster kill. Armed with this skill, the
+      psychic strike of the soulknife's mind blade is capable of being a
+      life-draining conduit to restore the vital energy of the wielder. When the
+      soulknife expends her psychic strike ability on an attack against a
+      living, corporeal creature she may choose to inflict only 1/2 her psychic
+      strike damage and heal an equal amount of hit points.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2013-03-01'
+      pages: 3–7
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Soulknives'
+    - date: '2018-05-01'
+      pages: 17–21
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: classFeat
+  summons: false
+  tags:
+    - Blade Skill
+type: feat

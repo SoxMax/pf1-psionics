@@ -1,0 +1,88 @@
+_id: o6O0cWI0aCMiE4I0
+_key: '!items!o6O0cWI0aCMiE4I0'
+_stats:
+  coreVersion: '13.351'
+folder: nDufp0ojUeISqS8y
+img: icons/svg/book.svg
+name: Coordinated Maneuvers
+system:
+  abilityType: su
+  acquired: false
+  associations:
+    classes:
+      - Tactician
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>The tactician can sense when opponents have become vulnerable to
+      different kinds of attack and direct his allies to capitalize on these
+      weaknesses, granting members of his collective a +1 insight bonus on one
+      type of combat maneuver attempts, such as bull rushes or repositions, for
+      a number of rounds equaling his Charisma modifier. The tactician chooses
+      the kind of maneuver this benefit applies to when he activates this
+      strategy. At 8th level and every four levels thereafter, the insight bonus
+      increases by 1.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2013-12-24'
+      pages: 67–68
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  summons: false
+  tags:
+    - Strategy
+type: feat

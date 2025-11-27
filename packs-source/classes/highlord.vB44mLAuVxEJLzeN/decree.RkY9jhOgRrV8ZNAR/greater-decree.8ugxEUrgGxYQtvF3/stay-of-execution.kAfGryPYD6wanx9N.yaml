@@ -1,0 +1,98 @@
+_id: kAfGryPYD6wanx9N
+_key: '!items!kAfGryPYD6wanx9N'
+_stats:
+  coreVersion: '13.351'
+folder: 8ugxEUrgGxYQtvF3
+img: icons/svg/book.svg
+name: Stay of Execution
+system:
+  abilityType: su
+  acquired: false
+  associations:
+    classes:
+      - Highlord
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>Activating this decree is an immediate action, and it lasts for a
+      number of rounds equal to the highlord’s Charisma modifier (minimum 1
+      round). The highlord can activate this decree when a member of the
+      collective would deal an amount of damage to a creature that would slay it
+      outright. After taking the damage, the creature enters a state of
+      suspended animation for one minute. </p><p>While in this state, the
+      creature is unaware of its surroundings. Outside forces can damage their
+      body, but as long as their head remains attached to their torso and their
+      brain remains intact, the physical damage can be healed. A coup de grace
+      still forces them to make a Fortitude save or die. Healing can still
+      affect them, but the stasis will remain even after they have been healed.
+      </p><p>If the creature has negative hit points equal to or exceeding their
+      Constitution score when the effect ends, they die. Otherwise, they
+      stabilize. This effect can continue even after the highlord ends this
+      decree, but he can dismiss this effect as a free action. As long as this
+      decree is active, the highlord can continue to use this decree as an
+      immediate action, sending defeated creatures into stasis instead of death.
+      </p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2017-08-28'
+      pages: 10–14
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: classFeat
+  summons: false
+  tags:
+    - Greater Decree
+type: feat

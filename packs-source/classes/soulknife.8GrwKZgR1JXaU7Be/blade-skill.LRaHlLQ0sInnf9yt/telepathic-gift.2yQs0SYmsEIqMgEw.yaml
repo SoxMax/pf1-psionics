@@ -1,0 +1,94 @@
+_id: 2yQs0SYmsEIqMgEw
+_key: '!items!2yQs0SYmsEIqMgEw'
+_stats:
+  coreVersion: '13.351'
+folder: LRaHlLQ0sInnf9yt
+img: systems/pf1/icons/skills/weapon_25.jpg
+name: Telepathic Gift
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Soulknife
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>The psychic potential within the soulknife opens up telepathic pathways
+      in her mind, allowing her to reach out and connect to the minds of others.
+      She gains telepathy out to a range of 200 feet and can communicate with
+      any creature, regardless of language, so long as they have an Intelligence
+      of 1 or higher. The range of her telepathy increases by 10 feet for every
+      two soulknife levels after. Additionally, as long as she maintains psionic
+      focus, she can detect other creatures within 30 feet using telepathy to
+      communicate, although she cannot determine the content of the
+      communication. The soulknife must be at least 6th level to select this
+      blade skill.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2013-03-01'
+      pages: 3–7
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Soulknives'
+    - date: '2018-05-01'
+      pages: 17–21
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: classFeat
+  summons: false
+  tags:
+    - Blade Skill
+type: feat

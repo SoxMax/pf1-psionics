@@ -1,0 +1,96 @@
+_id: kUAAiOIsIqgkS2wG
+_key: '!items!kUAAiOIsIqgkS2wG'
+_stats:
+  coreVersion: '13.351'
+folder: LRaHlLQ0sInnf9yt
+img: systems/pf1/icons/skills/weapon_25.jpg
+name: Power Reserve
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Soulknife
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>The soulknife's innate psychic essence is stronger than others of her
+      kind, growing more powerful as she advances in level. The power point pool
+      granted by the Wild Talent (or Psionic Talent) feat that the soulknife
+      receives at 1st level increases in size by two points per soulknife level
+      (the soulknife does not gain bonus power points for having a high ability
+      score from this ability). If the soulknife possesses a power pool from
+      another source (such as a manifesting class or the gifted blade
+      archetype), this feature adds to that power pool instead. These points may
+      be used to manifest powers (if any are known) and support other abilities
+      that require use of a power point pool. Once selected, the soulknife must
+      rest for 8 hours every day to gain or recover these power points. This
+      blade skill may only be selected once.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2013-03-01'
+      pages: 3–7
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Soulknives'
+    - date: '2018-05-01'
+      pages: 17–21
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: classFeat
+  summons: false
+  tags:
+    - Blade Skill
+type: feat

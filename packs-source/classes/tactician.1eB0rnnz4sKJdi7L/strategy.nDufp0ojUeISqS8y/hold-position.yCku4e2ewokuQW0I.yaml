@@ -1,0 +1,89 @@
+_id: yCku4e2ewokuQW0I
+_key: '!items!yCku4e2ewokuQW0I'
+_stats:
+  coreVersion: '13.351'
+folder: nDufp0ojUeISqS8y
+img: icons/svg/book.svg
+name: Hold Position
+system:
+  abilityType: su
+  acquired: false
+  associations:
+    classes:
+      - Tactician
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>The tactician can direct a member of his collective to hold their
+      ground, granting the directed member a +1 dodge bonus to AC and a +1
+      competence bonus to attack rolls for a number of rounds equal to the
+      tactician's Charisma modifier. For each round the directed member does not
+      move from the spot, the tactician may immediately take a free move action
+      on the same round, but must move toward the directed member in as direct a
+      manner as possible. The tactician gains a +1 dodge bonus to his AC during
+      this move. At 8th level and every four tactician levels thereafter, the
+      dodge bonuses and the competence bonus to attack rolls increase by 1.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2013-12-24'
+      pages: 67–68
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  summons: false
+  tags:
+    - Strategy
+type: feat

@@ -1,0 +1,87 @@
+_id: 3uuRxGR4REdUMc5T
+_key: '!items!3uuRxGR4REdUMc5T'
+_stats:
+  coreVersion: '13.351'
+folder: fOWWJNYTr1fLJwLE
+img: icons/svg/book.svg
+name: Recognize Pattern (Ex)
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Cryptic
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>A cryptic with this insight can recognize and prepare against the same
+      behavior from creatures. Any time the cryptic is subjected to the same
+      effect or combat maneuver by the same creature, she gains a bonus against
+      that effect's saving throw (if any) or to her CMD equal to half her class
+      level (minimum 1). The effect or combat maneuver must have previously been
+      used against the cryptic within a number of rounds equal to her
+      Intelligence modifier (minimum 1).</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2013-12-24'
+      pages: 37–40
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  summons: false
+  tags:
+    - Insights
+type: feat

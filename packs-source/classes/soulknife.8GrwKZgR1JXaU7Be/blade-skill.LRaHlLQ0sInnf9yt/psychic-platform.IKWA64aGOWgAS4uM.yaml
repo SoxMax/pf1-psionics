@@ -1,0 +1,103 @@
+_id: IKWA64aGOWgAS4uM
+_key: '!items!IKWA64aGOWgAS4uM'
+_stats:
+  coreVersion: '13.351'
+folder: LRaHlLQ0sInnf9yt
+img: systems/pf1/icons/skills/weapon_25.jpg
+name: Psychic Platform
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Soulknife
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>The soulknife produces a disk of solid, barely luminous force beneath
+      her feet on which to stand. As an immediate action, the soulknife expends
+      her psionic focus to generate this psychic construct which acts as a
+      5-foot circle of force that exists for a number of rounds equal to her
+      Wisdom modifier (minimum of 1) or until the soulknife is no longer
+      standing on it. This platform is either stationary and may float in
+      mid-air or in liquid, or it is subject to gravity as normal (the soulknife
+      chooses upon manifesting the platform) and has a hardness of 5 and 10 hit
+      points. This platform can be elastic (allowing for the soulknife to be
+      treated as if she had a running start for checks made to jump), slick (to
+      allow for sliding down surfaces such as hills or staircases), and/or
+      ‘sticky', where the soulknife may stick to it at an otherwise impossible
+      angles (such as upside down or at 90 degree or more angles) at her will.
+      Many uses of this platform are subject to GM decision (Acrobatics checks
+      for jumping or balancing, for example). Actions related to the use of this
+      platform gain a competence bonus on checks equal to the soulknife's
+      enhancement bonus on her mind blade. The soulknife must be at least 6th
+      level and possess the Telekinetic Athletics blade skill in order to select
+      this blade skill.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2013-03-01'
+      pages: 3–7
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Soulknives'
+    - date: '2018-05-01'
+      pages: 17–21
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: classFeat
+  summons: false
+  tags:
+    - Blade Skill
+type: feat

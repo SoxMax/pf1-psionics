@@ -1,0 +1,89 @@
+_id: Ykeg42c2WEA0aKG0
+_key: '!items!Ykeg42c2WEA0aKG0'
+_stats:
+  coreVersion: '13.351'
+folder: LRaHlLQ0sInnf9yt
+img: systems/pf1/icons/skills/weapon_25.jpg
+name: Absorbing Blade
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Soulknife
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>The soulknife may expend her psychic strike to have her mind blade
+      absorb a spell, spell-like ability, power, or psi-like ability that would
+      affect her. Effects that are not subjected to spell resistance or power
+      resistance cannot be absorbed in this fashion. Effects that target an area
+      or multiple targets are only absorbed for the soulknife; other affected
+      targets are still affected normally. The level of the effect cannot exceed
+      the number of dice of psychic strike expended. The soulknife must be 8th
+      level to select this blade skill. This blade skill may not be used with
+      the mind bolt.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2012-06-01'
+      pages: 9–12
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+  subType: classFeat
+  summons: false
+  tags:
+    - Blade Skill
+type: feat

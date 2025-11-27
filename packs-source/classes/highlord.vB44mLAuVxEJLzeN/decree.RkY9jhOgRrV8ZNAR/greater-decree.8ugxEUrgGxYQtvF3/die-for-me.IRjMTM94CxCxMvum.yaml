@@ -1,0 +1,95 @@
+_id: IRjMTM94CxCxMvum
+_key: '!items!IRjMTM94CxCxMvum'
+_stats:
+  coreVersion: '13.351'
+folder: 8ugxEUrgGxYQtvF3
+img: icons/svg/book.svg
+name: Die for Me
+system:
+  abilityType: su
+  acquired: false
+  associations:
+    classes:
+      - Highlord
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>To use this decree, the highlord must expend 8 power points. As a
+      standard action, the highlord can attempt to kill a living member of his
+      collective. That creature must make a Will save (DC 10 + 1/2 the
+      highlord’s class level + the highlord’s Charisma modifier) or die
+      instantly. This is a death effect. If this kills a creature, the highlord
+      heals an amount of hit points equal to triple the total Hit Dice of the
+      slain target, and gains temporary power points equal to the Hit Dice the
+      slain target had.These power points last a number of rounds equal to the
+      highlord’s Charisma modifier (minimum 1 round) and do not stack with each
+      other or other temporary power points. The duration of any power
+      manifested with these power points is equal to the remaining time on the
+      power points, or that power's original duration, whichever is shorter.
+      Unlike other decrees, this decree does not last beyond its initial use
+      (and as such, cannot be dismissed to refund the highlord’s psionic focus).
+      </p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2017-08-28'
+      pages: 10–14
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Highlord'
+  subType: classFeat
+  summons: false
+  tags:
+    - Greater Decree
+type: feat

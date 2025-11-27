@@ -1,0 +1,90 @@
+_id: HMW8afCkQSDb8bib
+_key: '!items!HMW8afCkQSDb8bib'
+_stats:
+  coreVersion: '13.351'
+folder: PjlWqq4oo3M1g7aO
+img: icons/svg/book.svg
+name: Awakened Insight
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Cryptic
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: 1Nn0jIAd
+      formula: '2'
+      operator: add
+      priority: 0
+      target: int
+      type: untyped
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>The cryptic's constant efforts to understand the patterns of the world
+      around her expanded her mind. Her Intelligence score permanently increases
+      by 2 points.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2013-12-24'
+      pages: 37–40
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  summons: false
+  tags:
+    - Supreme Insight
+type: feat

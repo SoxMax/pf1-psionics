@@ -1,0 +1,87 @@
+_id: iLSNtz9976QONBrf
+_key: '!items!iLSNtz9976QONBrf'
+_stats:
+  coreVersion: '13.351'
+folder: fOWWJNYTr1fLJwLE
+img: icons/svg/book.svg
+name: Shatter Pattern (Su)
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Cryptic
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>The cryptic learns how to break a minor pattern with her touch,
+      allowing her to destroy a non-magical unattended item with hit points
+      equal to double the cryptic's level. This effect ignores any hardness the
+      object might have. The cryptic may attempt to use this insight on an
+      attended object, but doing so provokes attacks of opportunity and she must
+      make a successful touch attack with a -4 penalty against the target's
+      touch AC.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2013-12-24'
+      pages: 37–40
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  summons: false
+  tags:
+    - Insights
+type: feat

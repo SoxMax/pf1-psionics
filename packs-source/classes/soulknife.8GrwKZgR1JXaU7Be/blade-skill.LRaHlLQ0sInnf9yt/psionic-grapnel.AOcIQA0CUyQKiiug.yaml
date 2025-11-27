@@ -1,0 +1,96 @@
+_id: AOcIQA0CUyQKiiug
+_key: '!items!AOcIQA0CUyQKiiug'
+_stats:
+  coreVersion: '13.351'
+folder: LRaHlLQ0sInnf9yt
+img: systems/pf1/icons/skills/weapon_25.jpg
+name: Psionic Grapnel
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Soulknife
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>The soulknife's Psychic Net gains new versatility, gaining the ability
+      to reel her opponent in towards her reach: or she can use this connection
+      to her psychic net to vault herself towards her target instead. This
+      functions as as a psi-like ability of the power ectoplasmic grapnel, using
+      the character's soulknife level as her manifester level. When using this
+      blade skill, the soulknife may substitute her Wisdom score for her
+      Strength score when making CMB checks for this ability. If choosing to
+      launch herself towards her target, she may move along her connection to
+      the target as a free action that does not provoke attacks of opportunity
+      due to how swiftly she moves. The soulknife must be at least 6th level and
+      possess the Psychic Net blade skill in order to select this blade
+      skill.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2013-03-01'
+      pages: 3–7
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Soulknives'
+    - date: '2018-05-01'
+      pages: 17–21
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: classFeat
+  summons: false
+  tags:
+    - Blade Skill
+type: feat

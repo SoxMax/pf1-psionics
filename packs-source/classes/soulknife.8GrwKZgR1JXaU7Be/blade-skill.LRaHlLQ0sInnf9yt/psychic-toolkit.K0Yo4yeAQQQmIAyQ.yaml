@@ -1,0 +1,96 @@
+_id: K0Yo4yeAQQQmIAyQ
+_key: '!items!K0Yo4yeAQQQmIAyQ'
+_stats:
+  coreVersion: '13.351'
+folder: LRaHlLQ0sInnf9yt
+img: systems/pf1/icons/skills/weapon_25.jpg
+name: Psychic Toolkit
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Soulknife
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>By concentrating her mind blade down into tiny slivers of hardened
+      thought, the soulknife can create tools with which to perform a variety of
+      tasks that she otherwise would need to use specialized tools for. With
+      this blade skill, the soulknife may manifest her mind blade into different
+      tools (artisans tools, a blanket, a mess kit, a thief's toolkit, a
+      10-foot. pole, the form of a 50-foot silk rope with grappling hook, or
+      more with GM discretion) as a move action. These tools add the mind
+      blade's enhancement bonus as a competence bonus on skill checks when using
+      these tools, and if relevant they possess the standard hardness, hit
+      points, and break DC of items of these types. The soulknife must maintain
+      contact with these tools for them to remain cohesive. Upon reaching 5th
+      level, these tools can be generated as a swift action.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2013-03-01'
+      pages: 3–7
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Soulknives'
+    - date: '2018-05-01'
+      pages: 17–21
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Compilation II'
+  subType: classFeat
+  summons: false
+  tags:
+    - Blade Skill
+type: feat

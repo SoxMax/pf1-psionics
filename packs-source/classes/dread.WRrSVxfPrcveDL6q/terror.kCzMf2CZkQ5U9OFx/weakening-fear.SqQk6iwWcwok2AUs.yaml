@@ -1,0 +1,86 @@
+_id: SqQk6iwWcwok2AUs
+_key: '!items!SqQk6iwWcwok2AUs'
+_stats:
+  coreVersion: '13.351'
+folder: kCzMf2CZkQ5U9OFx
+img: icons/svg/book.svg
+name: Weakening Fear
+system:
+  abilityType: su
+  acquired: false
+  associations:
+    classes:
+      - Dread
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p><b>Weakening Fear:</b> The dread's attack causes the target to be
+      fatigued for one round per dread level unless it makes a successful Will
+      save (DC 10 + 1/2 the dread's class level + the dread's Charisma
+      modifier). This is a mind-affecting fear effect. This terror has no effect
+      on a creature that is already fatigued. Unlike with normal fatigue, the
+      effect ends as soon as the terror's duration expires.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2013-12-24'
+      pages: 40–43
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  summons: false
+  tags:
+    - Terror
+type: feat

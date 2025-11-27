@@ -1,0 +1,97 @@
+_id: c6MoU8Q6OiukKOc0
+_key: '!items!c6MoU8Q6OiukKOc0'
+_stats:
+  coreVersion: '13.351'
+folder: LRaHlLQ0sInnf9yt
+img: systems/pf1/icons/skills/weapon_25.jpg
+name: Fluid Form
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Soulknife
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>The soulknife may expend her psychic strike as a swift action, but deal
+      no psychic strike damage, to make a minor modification to her mind blade.
+      She may remove up to one weapon special ability (if any) from her mind
+      blade's configuration, and add the ability's value to the mind blade's
+      enhancement bonus. She may also add up to one weapon special ability to
+      her mind blade's configuration, and subtract the ability's value from the
+      mind blade's enhancement bonus. Once she had made either or both of these
+      changes, the mind blade suffers a -1 penalty to its enhancement bonus;
+      this penalty is cumulative with each time this blade skill is used, and
+      lasts until the soulknife rests for 8 hours or spends 8 hours in
+      concentration to reconfigure her mind blade. This blade skill may not be
+      used if this would reduce the mind blade's enhancement bonus below +1, or
+      if the final enhancement bonus would be above the soulknife's maximum.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2015-06-01'
+      pages: 35–37
+      publisher: Dreamscarred Press
+      title: 'Psionics Unleashed: Revised'
+    - date: '2013-12-24'
+      pages: 59–63
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  summons: false
+  tags:
+    - Blade Skill
+type: feat

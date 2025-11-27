@@ -1,13 +1,16 @@
 _id: ig1POM3iWsxvR8yy
 _key: '!items!ig1POM3iWsxvR8yy'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 folder: dC5cavpjz683I8Wb
-img: icons/svg/book.svg
+img: systems/pf1/icons/spells/link-blue-2.jpg
 name: Soulthief Method
 system:
   abilityType: na
   acquired: false
+  associations:
+    classes:
+      - Vitalist
   changeFlags:
     heavyArmorFullSpeed: false
     immuneToMorale: false
@@ -68,11 +71,11 @@ system:
       to his list of powers known. This does not count against his number of
       powers known.</p><p><strong>Soulthief Knacks:</strong> A soulthief can
       select one of the talents below as his method
-      knack.</p><ul><li><em>@UUID[Compendium.pf1-psionics.powers.Item.vecZ9Bfr59u9Wu86]{Fatigue}</em>:
+      knack.</p><ul><li><p><em>@UUID[Compendium.pf1-psionics.powers.Item.vecZ9Bfr59u9Wu86]{Fatigue}</em>:
       Cause a creature to be
-      fatigued.</li><li><em>@UUID[Compendium.pf1-psionics.powers.Item.lkTPtnYxbzQtO3vb]{Siphon}</em>:
+      fatigued.</p></li><li><p><em>@UUID[Compendium.pf1-psionics.powers.Item.lkTPtnYxbzQtO3vb]{Siphon}</em>:
       Deal 1d3 points of damage and gain 1 temporary hit
-      point.</li></ul><p><strong>Soulthief's Touch:</strong> A soulthief
+      point.</p></li></ul><p><strong>Soulthief's Touch:</strong> A soulthief
       vitalist of 2nd level who utilizes transfer wounds can choose to instead
       deal the amount of damage that transfer wounds would normally heal plus
       the soulthief's class level to the target, healing himself a number of hit
@@ -133,4 +136,6 @@ system:
       title: Ultimate Psionics
   subType: classFeat
   summons: false
+  tags:
+    - Vitalist Method
 type: feat

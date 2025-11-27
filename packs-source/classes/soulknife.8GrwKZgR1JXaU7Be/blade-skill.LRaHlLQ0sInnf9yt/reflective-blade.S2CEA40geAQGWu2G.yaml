@@ -1,0 +1,88 @@
+_id: S2CEA40geAQGWu2G
+_key: '!items!S2CEA40geAQGWu2G'
+_stats:
+  coreVersion: '13.351'
+folder: LRaHlLQ0sInnf9yt
+img: systems/pf1/icons/skills/weapon_25.jpg
+name: Reflective Blade
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Soulknife
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>A soulknife may expend her psychic strike as an immediate action to
+      reflect a spell or power that would strike her back at the caster. The
+      spell or power must be a touch attack spell or power, either ranged or
+      melee, and the level of the spell or power reflected cannot exceed the
+      number of dice of damage expended by psychic strike. The soulknife makes a
+      ranged touch attack to determine if the spell successfully strikes the
+      target. The soulknife must be at least 14th level and have the Absorbing
+      Blade blade skill to select this blade skill.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2012-06-01'
+      pages: 9–12
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+  subType: classFeat
+  summons: false
+  tags:
+    - Blade Skill
+type: feat

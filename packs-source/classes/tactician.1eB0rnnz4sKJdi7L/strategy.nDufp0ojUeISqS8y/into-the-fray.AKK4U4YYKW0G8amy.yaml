@@ -1,0 +1,86 @@
+_id: AKK4U4YYKW0G8amy
+_key: '!items!AKK4U4YYKW0G8amy'
+_stats:
+  coreVersion: '13.351'
+folder: nDufp0ojUeISqS8y
+img: icons/svg/book.svg
+name: Into the Fray
+system:
+  abilityType: su
+  acquired: false
+  associations:
+    classes:
+      - Tactician
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>The tactician directs a member of his collective to charge a particular
+      enemy, granting the ally a +1 competence bonus on the damage roll. If the
+      charge is performed, the tactician may charge the same enemy as an
+      immediate action, gaining a +1 competence bonus on the damage roll. At 8th
+      level and every four tactician levels thereafter, the competence bonus
+      increases by 1.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2013-12-24'
+      pages: 67–68
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  summons: false
+  tags:
+    - Strategy
+type: feat

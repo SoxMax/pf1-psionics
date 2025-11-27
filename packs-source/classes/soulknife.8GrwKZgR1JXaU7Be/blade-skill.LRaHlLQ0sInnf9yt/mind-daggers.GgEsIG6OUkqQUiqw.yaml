@@ -1,0 +1,95 @@
+_id: GgEsIG6OUkqQUiqw
+_key: '!items!GgEsIG6OUkqQUiqw'
+_stats:
+  coreVersion: '13.351'
+folder: LRaHlLQ0sInnf9yt
+img: systems/pf1/icons/skills/weapon_25.jpg
+name: Mind Daggers
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Soulknife
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>The soulknife may form one or a pair of mind daggers in place of her
+      normal forms. Mind daggers have a range increment of 30 ft when thrown,
+      deal 1d4 points of damage (type assigned in the same manner as other
+      forms) and have a critical range of 19-20/x2. She may switch between mind
+      daggers and her chosen blade form at will as a free action, including in
+      the middle of full attacks, and it can be done more than once per round
+      (this is an exception to the full-round action normally required to shape
+      a mind blade). She cannot switch between the daggers and the two-handed
+      mind blade form unless only forming a single dagger. Mind daggers have the
+      same enhancement configuration as the soulknife's current mind blade
+      configuration.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2015-06-01'
+      pages: 35–37
+      publisher: Dreamscarred Press
+      title: 'Psionics Unleashed: Revised'
+    - date: '2013-12-24'
+      pages: 59–63
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+  subType: classFeat
+  summons: false
+  tags:
+    - Blade Skill
+type: feat

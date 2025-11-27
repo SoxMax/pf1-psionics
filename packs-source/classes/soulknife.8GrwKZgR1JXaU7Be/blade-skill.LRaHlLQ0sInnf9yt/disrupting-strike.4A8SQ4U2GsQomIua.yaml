@@ -1,0 +1,85 @@
+_id: 4A8SQ4U2GsQomIua
+_key: '!items!4A8SQ4U2GsQomIua'
+_stats:
+  coreVersion: '13.351'
+folder: LRaHlLQ0sInnf9yt
+img: systems/pf1/icons/skills/weapon_25.jpg
+name: Disrupting Strike
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Soulknife
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: >-
+      <p>As a full-round action, a soulknife can make one melee attack against
+      each enemy adjacent to her. If she hits, the attack deals no damage, but
+      each enemy hit takes a -5 penalty to all melee and ranged damage rolls
+      until the start of the soulknife's next turn. This blade skill may not be
+      used with the mind bolt.</p>
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  sources:
+    - date: '2012-06-01'
+      pages: 9–12
+      publisher: Dreamscarred Press
+      title: 'Psionics Expanded: Master the Battle'
+  subType: classFeat
+  summons: false
+  tags:
+    - Blade Skill
+type: feat

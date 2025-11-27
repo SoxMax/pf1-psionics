@@ -1,0 +1,75 @@
+_id: naqBHKmfnNo2IM2o
+_key: '!items!naqBHKmfnNo2IM2o'
+_stats:
+  coreVersion: '13.351'
+folder: dOHF97isfkHwOuHJ
+img: icons/svg/book.svg
+name: Student’s Surge
+system:
+  abilityType: na
+  acquired: false
+  associations:
+    classes:
+      - Wilder
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  classSkills:
+    acr: false
+    ahp: false
+    apr: false
+    art: false
+    blf: false
+    clm: false
+    crf: false
+    dev: false
+    dip: false
+    dis: false
+    esc: false
+    fly: false
+    han: false
+    hea: false
+    int: false
+    kar: false
+    kdu: false
+    ken: false
+    kge: false
+    khi: false
+    klo: false
+    kna: false
+    kno: false
+    kpl: false
+    kps: false
+    kre: false
+    lin: false
+    lor: false
+    per: false
+    prf: false
+    pro: false
+    rid: false
+    sen: false
+    slt: false
+    spl: false
+    ste: false
+    sur: false
+    swm: false
+    umd: false
+  description:
+    value: "<p><strong>Wild Surge and Psychic Enervation:</strong> A student wilder has received some formal training in psionics, but still uses raw emotions to empower her abilities. The student wilder uses any emotion much like a free wilder, but with more focus and control. A student wilder overcome by\_psychic enervation\_is\_dazzled\_for a number of rounds equal to the level of wild surge used and loses a number of power points equal to her normal manifester level (the increase in manifester level from her wild surge does not increase the number of power points lost). If the student wilder suffers\_psychic enervation again while still suffering from a previous\_psychic enervation, the penalties stack (-1 to\_attack rolls\_and sight-based\_Perception\_checks) and the duration resets.</p><p><strong>Surge Bond:</strong> The student wilder gains the\_Psicrystal Affinity feat as a bonus feat.</p><p><strong>Improved Surge Bond:</strong> A student wilder gains the\_Expanded Knowledge\_feat as a bonus feat at 5th level and every four levels thereafter (9th, 13th, etc).</p>"
+  disabled: false
+  inherited: false
+  showInCombat: false
+  showInQuickbar: false
+  simple: false
+  subType: classFeat
+  summons: false
+  tags:
+    - Wild Surge
+type: feat
