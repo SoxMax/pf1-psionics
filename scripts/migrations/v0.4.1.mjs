@@ -8,12 +8,12 @@ import { migrateAllActors, migrateAllItems } from "./helpers.mjs";
  * - Updates power items to use "manifester" instead of "manifestor"
  */
 export async function migrateToVersion041() {
-	console.log(`${MODULE_ID} | Running migration to 0.4.1`);
+  console.log(`${MODULE_ID} | Running migration to 0.4.1`);
 
-	await migrateAllActors(migrateActor, "actors to v0.4.1");
-	await migrateAllItems(migratePowerItem, "power items to v0.4.1");
+  await migrateAllActors(migrateActor, "actors to v0.4.1");
+  await migrateAllItems(migratePowerItem, "power items to v0.4.1");
 
-	console.log(`${MODULE_ID} | Migration to 0.4.1 complete`);
+  console.log(`${MODULE_ID} | Migration to 0.4.1 complete`);
 }
 
 /**
@@ -23,22 +23,22 @@ export async function migrateToVersion041() {
  * @returns {Promise<boolean>} - True if actor was modified
  */
 async function migrateActor(actor) {
-	const oldManifestors = actor.getFlag(MODULE_ID, "manifestors");
+  const oldManifestors = actor.getFlag(MODULE_ID, "manifestors");
 
-	// Skip if already migrated (no old flag or already has new flag)
-	if (!oldManifestors || actor.getFlag(MODULE_ID, "manifesters")) {
-		return false;
-	}
+  // Skip if already migrated (no old flag or already has new flag)
+  if (!oldManifestors || actor.getFlag(MODULE_ID, "manifesters")) {
+    return false;
+  }
 
-	console.log(`${MODULE_ID} | Migrating actor "${actor.name}" manifestors -> manifesters`);
+  console.log(`${MODULE_ID} | Migrating actor "${actor.name}" manifestors -> manifesters`);
 
-	// Copy old flag to new name
-	await actor.setFlag(MODULE_ID, "manifesters", oldManifestors);
+  // Copy old flag to new name
+  await actor.setFlag(MODULE_ID, "manifesters", oldManifestors);
 
-	// Remove old flag
-	await actor.unsetFlag(MODULE_ID, "manifestors");
+  // Remove old flag
+  await actor.unsetFlag(MODULE_ID, "manifestors");
 
-	return true;
+  return true;
 }
 
 /**
@@ -48,26 +48,25 @@ async function migrateActor(actor) {
  * @returns {Promise<boolean>} - True if item was modified
  */
 async function migratePowerItem(item) {
-	// Only migrate power items
-	if (item.type !== `${MODULE_ID}.power`) {
-		return false;
-	}
+  // Only migrate power items
+  if (item.type !== `${MODULE_ID}.power`) {
+    return false;
+  }
 
-	// Check the raw source data for the old field name
-	const oldManifestor = item._source.system?.manifestor;
+  // Check the raw source data for the old field name
+  const oldManifestor = item._source.system?.manifestor;
 
-	// Skip if no old field exists (already migrated or never had the field)
-	if (oldManifestor === undefined) {
-		return false;
-	}
+  // Skip if no old field exists (already migrated or never had the field)
+  if (oldManifestor === undefined) {
+    return false;
+  }
 
-	console.log(`${MODULE_ID} | Migrating power item "${item.name}" manifestor -> manifester (value: ${oldManifestor})`);
+  console.log(`${MODULE_ID} | Migrating power item "${item.name}" manifestor -> manifester (value: ${oldManifestor})`);
 
-	// Update: copy old field to new field name and remove old field
-	await item.update({
-		"system.manifester": oldManifestor,
-		"system.-=manifestor": null // Remove old field
-	});
+  // Update: copy old field to new field name
+  await item.update({
+    "system.manifester": oldManifestor || "primary",
+  });
 
-	return true;
+  return true;
 }
