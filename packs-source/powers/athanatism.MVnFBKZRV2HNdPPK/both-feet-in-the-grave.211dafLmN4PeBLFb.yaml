@@ -1,7 +1,7 @@
 _id: 211dafLmN4PeBLFb
 _key: '!items!211dafLmN4PeBLFb'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Both_Feet_in_the_Grave
@@ -10,15 +10,23 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Both Feet in the Grave
 system:
   actions:
-    - actionType: save
+    - _id: 1Hm5YtFH09l88o5N
+      actionType: save
       activation:
         cost: 1
         type: minute
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       save:
         description: Will negates; see text
+        harmless: false
         type: will
   description:
     value: >-
@@ -72,6 +80,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

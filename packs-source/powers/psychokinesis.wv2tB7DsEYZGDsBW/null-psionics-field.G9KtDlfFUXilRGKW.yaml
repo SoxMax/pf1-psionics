@@ -1,7 +1,7 @@
 _id: G9KtDlfFUXilRGKW
 _key: '!items!G9KtDlfFUXilRGKW'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Null_Psionics_Field
@@ -10,19 +10,23 @@ img: icons/magic/unholy/projectile-fireball-green.webp
 name: Null Psionics Field
 system:
   actions:
-    - actionType: other
+    - _id: INSYuiHl7DTVSjP2
+      actionType: other
       activation:
         cost: 1
         type: standard
-      area:
-        shape: sphere
-        units: ft
-        value: '10'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       duration:
         dismiss: true
         units: minute
         value: 10 * @cl
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 10 ft.
@@ -87,6 +91,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

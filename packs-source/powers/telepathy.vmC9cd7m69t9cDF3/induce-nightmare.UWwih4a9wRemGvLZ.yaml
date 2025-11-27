@@ -1,7 +1,7 @@
 _id: UWwih4a9wRemGvLZ
 _key: '!items!UWwih4a9wRemGvLZ'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Induce_Nightmare
@@ -10,22 +10,29 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Induce Nightmare
 system:
   actions:
-    - actionType: save
+    - _id: nr7wreJmUe9CdG0w
+      actionType: save
       activation:
         cost: 10
         type: minute
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 1d10
-            - untyped
+          - formula: 1d10
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: unlimited
         value: Unlimited
       save:
         description: Will negates; see text
+        harmless: false
         type: will
       target:
         value: One living creature
@@ -135,6 +142,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

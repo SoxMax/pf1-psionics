@@ -1,7 +1,7 @@
 _id: D8j5a0CFw7sQXRS3
 _key: '!items!D8j5a0CFw7sQXRS3'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Bonding_Strike
@@ -10,14 +10,21 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Bonding Strike
 system:
   actions:
-    - actionType: other
+    - _id: gwH5UFSjYUjIh1ty
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: round
         value: '1'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: Melee
@@ -47,6 +54,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

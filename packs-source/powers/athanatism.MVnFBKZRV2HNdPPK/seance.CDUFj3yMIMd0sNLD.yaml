@@ -1,7 +1,7 @@
 _id: CDUFj3yMIMd0sNLD
 _key: '!items!CDUFj3yMIMd0sNLD'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Seance
@@ -10,19 +10,27 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Seance
 system:
   actions:
-    - actionType: save
+    - _id: WpShh1ENUosbB65n
+      actionType: save
       activation:
         cost: 1
         type: hour
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: hour
         value: '1'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: unlimited
         value: Unlimited; see text
       save:
         description: Will negates
+        harmless: false
         type: will
       target:
         value: One specific departed soul
@@ -57,6 +65,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

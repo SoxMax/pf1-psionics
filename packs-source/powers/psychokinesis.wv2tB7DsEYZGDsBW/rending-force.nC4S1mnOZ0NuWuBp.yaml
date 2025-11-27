@@ -1,7 +1,7 @@
 _id: nC4S1mnOZ0NuWuBp
 _key: '!items!nC4S1mnOZ0NuWuBp'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Rending_Force
@@ -10,24 +10,33 @@ img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
 name: Rending Force
 system:
   actions:
-    - actionType: heal
+    - _id: 0y7YnXsAM3kPQH2a
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: heal
       activation:
         cost: 1
         type: fullRound
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 9d6
-            - force
-          - - 9d6
-            - heal
+          - formula: 9d6
+          - formula: 9d6
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
         description: Fortitude partial (see text)
+        harmless: false
         type: fort
       target:
         value: One creature
@@ -77,6 +86,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

@@ -1,7 +1,7 @@
 _id: lRDtVnXWoGbgbq3r
 _key: '!items!lRDtVnXWoGbgbq3r'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Dispelling_Buffer
@@ -10,15 +10,22 @@ img: icons/magic/unholy/projectile-fireball-green.webp
 name: Dispelling Buffer
 system:
   actions:
-    - actionType: other
+    - _id: YrmMdHg29gerTOo2
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: hour
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal or close (25 ft. + 5 ft./2 levels); see text
@@ -57,6 +64,11 @@ system:
     mental: false
     olfactory: true
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

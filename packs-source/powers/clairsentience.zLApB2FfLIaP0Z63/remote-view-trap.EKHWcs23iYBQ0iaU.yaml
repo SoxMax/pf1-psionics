@@ -1,7 +1,7 @@
 _id: EKHWcs23iYBQ0iaU
 _key: '!items!EKHWcs23iYBQ0iaU'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Remote_View_Trap
@@ -10,23 +10,30 @@ img: icons/magic/lightning/bolt-strike-blue-white.webp
 name: Remote View Trap
 system:
   actions:
-    - actionType: save
+    - _id: EB25w1RL6BBAjAFT
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 8d6
-            - electricity
+          - formula: 8d6
       duration:
         units: hour
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
       save:
         description: Will half; see text
+        harmless: false
         type: will
       target:
         value: You
@@ -53,6 +60,11 @@ system:
     mental: true
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

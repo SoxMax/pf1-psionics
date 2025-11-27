@@ -1,7 +1,7 @@
 _id: mKwv0yUhNDMMZgZb
 _key: '!items!mKwv0yUhNDMMZgZb'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Psychic_Reformation
@@ -10,13 +10,20 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Psychic Reformation
 system:
   actions:
-    - actionType: other
+    - _id: 4TZpeESDsegRk4Hb
+      actionType: other
       activation:
         cost: 10
         type: minute
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
@@ -83,6 +90,11 @@ system:
     mental: true
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

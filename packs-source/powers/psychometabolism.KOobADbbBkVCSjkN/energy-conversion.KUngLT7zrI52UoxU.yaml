@@ -1,7 +1,7 @@
 _id: KUngLT7zrI52UoxU
 _key: '!items!KUngLT7zrI52UoxU'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Energy_Conversion
@@ -10,14 +10,24 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Energy Conversion
 system:
   actions:
-    - actionType: rsak
+    - _id: HX5rdmGtqcxw12lQ
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: rsak
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: minute
         value: 10 * @cl
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal and close (25 ft. + 5 ft./2 levels); see text
@@ -58,6 +68,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

@@ -1,7 +1,7 @@
 _id: 3lPDMzNaueXp431P
 _key: '!items!3lPDMzNaueXp431P'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Augured_Answer
@@ -10,13 +10,20 @@ img: icons/magic/perception/third-eye-blue-red.webp
 name: Augured Answer
 system:
   actions:
-    - actionType: other
+    - _id: YDMoUAGhhYgl7VC2
+      actionType: other
       activation:
         cost: 10
         type: minute
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -49,6 +56,11 @@ system:
     mental: true
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

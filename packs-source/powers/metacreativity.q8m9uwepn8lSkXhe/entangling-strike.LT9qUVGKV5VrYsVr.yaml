@@ -1,7 +1,7 @@
 _id: LT9qUVGKV5VrYsVr
 _key: '!items!LT9qUVGKV5VrYsVr'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Entangling_Strike
@@ -10,18 +10,24 @@ img: icons/magic/symbols/runes-star-magenta.webp
 name: Entangling Strike
 system:
   actions:
-    - actionType: other
+    - _id: 7zzZlfVBepU2UTQU
+      actionType: other
       activation:
         cost: 1
         type: swift
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 2d6
-            - untyped
+          - formula: 2d6
       duration:
         units: spec
         value: 1 round; see text
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: Melee
@@ -59,6 +65,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

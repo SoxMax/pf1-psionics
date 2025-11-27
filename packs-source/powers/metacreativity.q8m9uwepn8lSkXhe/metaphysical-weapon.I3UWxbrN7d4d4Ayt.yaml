@@ -1,7 +1,7 @@
 _id: I3UWxbrN7d4d4Ayt
 _key: '!items!I3UWxbrN7d4d4Ayt'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Metaphysical_Weapon
@@ -10,14 +10,21 @@ img: icons/magic/symbols/runes-star-magenta.webp
 name: Metaphysical Weapon
 system:
   actions:
-    - actionType: save
+    - _id: tfFcVexvrmCq9X6s
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: minute
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
@@ -64,6 +71,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

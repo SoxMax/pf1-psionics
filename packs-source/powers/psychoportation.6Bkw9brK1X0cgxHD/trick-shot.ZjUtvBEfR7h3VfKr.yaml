@@ -1,7 +1,7 @@
 _id: ZjUtvBEfR7h3VfKr
 _key: '!items!ZjUtvBEfR7h3VfKr'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Trick_Shot
@@ -10,14 +10,21 @@ img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 name: Trick Shot
 system:
   actions:
-    - actionType: other
+    - _id: GF3Ivc1TsDuDWfA1
+      actionType: other
       activation:
         cost: 1
         type: immediate
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: round
         value: '1'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
@@ -93,6 +100,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

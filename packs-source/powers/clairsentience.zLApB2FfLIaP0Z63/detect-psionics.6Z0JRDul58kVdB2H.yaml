@@ -1,7 +1,7 @@
 _id: 6Z0JRDul58kVdB2H
 _key: '!items!6Z0JRDul58kVdB2H'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Detect_Psionics
@@ -10,16 +10,23 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Detect Psionics
 system:
   actions:
-    - actionType: other
+    - _id: FeUusDWIkEAflgnq
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         concentration: true
         dismiss: true
         units: conc
         value: up to 1 min./level (D)
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 60 ft.
@@ -154,6 +161,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

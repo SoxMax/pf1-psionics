@@ -1,7 +1,7 @@
 _id: v5CBh1KoJ60MiTiP
 _key: '!items!v5CBh1KoJ60MiTiP'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Energy_Push
@@ -10,22 +10,29 @@ img: icons/magic/unholy/projectile-fireball-green.webp
 name: Energy Push
 system:
   actions:
-    - actionType: save
+    - _id: UtoO73t6azmN3FGy
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 2d6
-            - untyped
+          - formula: 2d6
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: med
         value: Medium (100 ft. + 10 ft./level)
       save:
         description: Reflex half or Fortitude half; see text;
+        harmless: false
         type: fort
       target:
         value: Ray
@@ -83,6 +90,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

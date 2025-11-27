@@ -1,7 +1,7 @@
 _id: 0FnL5S4H6MPd2F8l
 _key: '!items!0FnL5S4H6MPd2F8l'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Crystalline_Bonds
@@ -10,24 +10,31 @@ img: icons/magic/symbols/runes-star-magenta.webp
 name: Crystalline Bonds
 system:
   actions:
-    - actionType: save
+    - _id: FAClrDu0pc01x5xP
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 3d6
-            - untyped
+          - formula: 3d6
       duration:
         dismiss: true
         units: round
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: med
         value: Medium (100 ft. + 10 ft./level)
       save:
         description: Reflex negates
+        harmless: false
         type: ref
       target:
         value: One Medium or smaller creature
@@ -68,6 +75,11 @@ system:
     mental: true
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

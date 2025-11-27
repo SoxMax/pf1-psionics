@@ -1,7 +1,7 @@
 _id: QKq6JnqDm0DeSUD0
 _key: '!items!QKq6JnqDm0DeSUD0'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Upheaval
@@ -10,22 +10,27 @@ img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 name: Upheaval
 system:
   actions:
-    - actionType: save
+    - _id: EloS6tdrUgHga6fw
+      actionType: save
       activation:
         cost: 1
         type: standard
-      area:
-        shape: sphere
-        units: ft
-        value: '20'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: med
         value: Medium (100 ft. + 10 ft./level)
       save:
         description: Reflex half
+        harmless: false
         type: ref
       target:
         value: 20 ft. radius burst
@@ -56,6 +61,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

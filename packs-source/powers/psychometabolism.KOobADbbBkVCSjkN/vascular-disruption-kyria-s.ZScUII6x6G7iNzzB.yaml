@@ -1,7 +1,7 @@
 _id: ZScUII6x6G7iNzzB
 _key: '!items!ZScUII6x6G7iNzzB'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Vascular_Disruption,_Kyria's
@@ -10,26 +10,30 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Vascular Disruption, Kyria's
 system:
   actions:
-    - actionType: save
+    - _id: ZnLIFVOIYJ3YvBkF
+      actionType: save
       activation:
         cost: 1
         type: standard
-      area:
-        shape: sphere
-        units: ft
-        value: '20'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       damage:
         parts:
-          - - 9d6
-            - force
+          - formula: 9d6
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: med
         value: Medium (100 ft. plus 10 ft. per level)
       save:
         description: Fortitude partial
+        harmless: false
         type: fort
       target:
         value: 1 creature
@@ -69,6 +73,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

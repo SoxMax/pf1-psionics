@@ -1,7 +1,7 @@
 _id: J12RhYsZwOsLJzS4
 _key: '!items!J12RhYsZwOsLJzS4'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Body_Purification
@@ -10,13 +10,20 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Body Purification
 system:
   actions:
-    - actionType: other
+    - _id: p7PVvLnWyYuSknOr
+      actionType: other
       activation:
         cost: 1
         type: round
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -42,6 +49,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

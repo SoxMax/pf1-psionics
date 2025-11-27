@@ -1,7 +1,7 @@
 _id: txZMPlZKLbWYyPiR
 _key: '!items!txZMPlZKLbWYyPiR'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Precognition,_Offensive
@@ -10,15 +10,22 @@ img: icons/magic/perception/third-eye-blue-red.webp
 name: Precognition, Offensive
 system:
   actions:
-    - actionType: other
+    - _id: vgutLcHTyDyCjV5o
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: minute
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -48,6 +55,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

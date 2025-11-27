@@ -1,7 +1,7 @@
 _id: P10Glt6USfn8MZBz
 _key: '!items!P10Glt6USfn8MZBz'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Prophetic_Song,_Euterpe's
@@ -10,18 +10,22 @@ img: icons/magic/sonic/projectile-sound-rings-wave.webp
 name: Prophetic Song, Euterpe's
 system:
   actions:
-    - actionType: other
+    - _id: 0IMeYpiAwiReuATL
+      actionType: other
       activation:
         cost: 1
         type: standard
-      area:
-        shape: sphere
-        units: ft
-        value: '60'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       duration:
         concentration: true
         units: conc
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 60 ft.
@@ -73,6 +77,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

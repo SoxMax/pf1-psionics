@@ -1,7 +1,7 @@
 _id: yzvcqO0PWTT94XV1
 _key: '!items!yzvcqO0PWTT94XV1'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Body_Slam
@@ -10,22 +10,29 @@ img: icons/magic/unholy/projectile-fireball-green.webp
 name: Body Slam
 system:
   actions:
-    - actionType: save
+    - _id: ei43prnj4kjDUZMD
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 2d6
-            - untyped
+          - formula: 2d6
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./level)
       save:
         description: Reflex half
+        harmless: false
         type: ref
       target:
         value: Two creatures adjacent to one another
@@ -55,6 +62,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

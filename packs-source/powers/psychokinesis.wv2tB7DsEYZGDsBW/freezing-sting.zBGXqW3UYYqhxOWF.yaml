@@ -1,7 +1,7 @@
 _id: zBGXqW3UYYqhxOWF
 _key: '!items!zBGXqW3UYYqhxOWF'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Freezing_Sting
@@ -10,18 +10,24 @@ img: icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp
 name: Freezing Sting
 system:
   actions:
-    - actionType: other
+    - _id: fD0LDm3fQr1E7dPI
+      actionType: other
       activation:
         cost: 1
         type: swift
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 1d6
-            - cold
+          - formula: 1d6
       duration:
         units: spec
         value: 1 round; see text
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: Melee
@@ -60,6 +66,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

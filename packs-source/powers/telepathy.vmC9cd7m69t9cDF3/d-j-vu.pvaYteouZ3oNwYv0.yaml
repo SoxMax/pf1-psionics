@@ -1,7 +1,7 @@
 _id: pvaYteouZ3oNwYv0
 _key: '!items!pvaYteouZ3oNwYv0'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Déjà_Vu
@@ -10,19 +10,27 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Déjà Vu
 system:
   actions:
-    - actionType: save
+    - _id: RPujuJiEP2FhBkvW
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: round
         value: '1'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: med
         value: Medium (100 ft. + 10 ft./level)
       save:
         description: Will negates
+        harmless: false
         type: will
       target:
         value: One creature
@@ -51,6 +59,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

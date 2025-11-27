@@ -1,7 +1,7 @@
 _id: jL3bI2DP4lo9Wltc
 _key: '!items!jL3bI2DP4lo9Wltc'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Form_Astral_Armor
@@ -10,15 +10,22 @@ img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
 name: Form Astral Armor
 system:
   actions:
-    - actionType: other
+    - _id: JlgmX8CmgZoZEQ37
+      actionType: other
       activation:
         cost: 1
         type: fullRound
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: spec
         value: 1 min./level; see text (D)
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -54,6 +61,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

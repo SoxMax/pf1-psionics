@@ -1,7 +1,7 @@
 _id: NpVog9rnAB98I1qO
 _key: '!items!NpVog9rnAB98I1qO'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Skate
@@ -10,15 +10,22 @@ img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 name: Skate
 system:
   actions:
-    - actionType: other
+    - _id: uk4Twzt8cbmYxwrH
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: minute
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal or touch; see text
@@ -66,6 +73,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

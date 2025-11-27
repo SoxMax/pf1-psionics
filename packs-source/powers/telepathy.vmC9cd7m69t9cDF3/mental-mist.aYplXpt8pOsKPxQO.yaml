@@ -1,7 +1,7 @@
 _id: aYplXpt8pOsKPxQO
 _key: '!items!aYplXpt8pOsKPxQO'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Mental_Mist
@@ -10,27 +10,31 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Mental Mist
 system:
   actions:
-    - actionType: save
+    - _id: olyx6Bdox3CcZ6E9
+      actionType: save
       activation:
         cost: 1
         type: standard
-      area:
-        shape: sphere
-        units: ft
-        value: '20'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       damage:
         parts:
-          - - 1d6
-            - untyped
+          - formula: 1d6
       duration:
         units: minute
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: med
         value: Medium (100 ft. + 10 ft./level)
       save:
         description: Will negates
+        harmless: false
         type: will
       target:
         value: 20 ft radius
@@ -70,6 +74,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

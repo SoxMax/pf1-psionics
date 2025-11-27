@@ -1,7 +1,7 @@
 _id: iD2pymBm6IwOPJxT
 _key: '!items!iD2pymBm6IwOPJxT'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Psychokinetic_Cannon
@@ -10,17 +10,23 @@ img: icons/magic/unholy/projectile-fireball-green.webp
 name: Psychokinetic Cannon
 system:
   actions:
-    - actionType: save
+    - _id: uaP6493gMtb0lgB8
+      actionType: save
       activation:
         cost: 1
         type: swift
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 1d8
-            - fire
+          - formula: 1d8
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 0 ft.
@@ -67,6 +73,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

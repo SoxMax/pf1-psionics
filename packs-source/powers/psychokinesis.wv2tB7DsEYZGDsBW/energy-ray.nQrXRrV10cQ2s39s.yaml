@@ -1,7 +1,7 @@
 _id: nQrXRrV10cQ2s39s
 _key: '!items!nQrXRrV10cQ2s39s'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Energy_Ray
@@ -10,17 +10,26 @@ img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
 name: Energy Ray
 system:
   actions:
-    - actionType: rsak
+    - _id: cuz2rDTlH2QViFrl
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: rsak
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 1d6
-            - untyped
+          - formula: 1d6
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
@@ -72,6 +81,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

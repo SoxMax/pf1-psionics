@@ -1,7 +1,7 @@
 _id: DjeCOTwMtfNxMHKq
 _key: '!items!DjeCOTwMtfNxMHKq'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Empathic_Transfer,_Hostile
@@ -10,22 +10,30 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Empathic Transfer, Hostile
 system:
   actions:
-    - actionType: msak
+    - _id: TIbYKKUmHhAuBdV0
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: msak
       activation:
         cost: 1
         type: standard
-      area:
-        shape: sphere
-        units: ft
-        value: '20'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
       save:
         description: Will half
+        harmless: false
         type: will
       target:
         value: Creature touched
@@ -72,6 +80,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

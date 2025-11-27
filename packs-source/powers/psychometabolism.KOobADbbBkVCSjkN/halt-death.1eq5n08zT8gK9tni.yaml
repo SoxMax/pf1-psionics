@@ -1,7 +1,7 @@
 _id: 1eq5n08zT8gK9tni
 _key: '!items!1eq5n08zT8gK9tni'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Halt_Death
@@ -10,13 +10,20 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Halt Death
 system:
   actions:
-    - actionType: save
+    - _id: 58M4BDyEX5JtvgAO
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 30 ft.
@@ -41,6 +48,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

@@ -1,7 +1,7 @@
 _id: 2R75uGqdCCSm5W5I
 _key: '!items!2R75uGqdCCSm5W5I'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Delayed_Response
@@ -10,18 +10,26 @@ img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 name: Delayed Response
 system:
   actions:
-    - actionType: save
+    - _id: SFvYX5t0EZXeRvIm
+      actionType: save
       activation:
         cost: 1
         type: immediate
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
         description: Will negates
+        harmless: false
         type: will
       target:
         value: One creature
@@ -49,6 +57,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

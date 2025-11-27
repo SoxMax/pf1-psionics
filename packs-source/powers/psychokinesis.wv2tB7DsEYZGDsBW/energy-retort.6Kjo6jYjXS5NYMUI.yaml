@@ -1,7 +1,7 @@
 _id: 6Kjo6jYjXS5NYMUI
 _key: '!items!6Kjo6jYjXS5NYMUI'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Energy_Retort
@@ -10,23 +10,30 @@ img: icons/magic/unholy/projectile-fireball-green.webp
 name: Energy Retort
 system:
   actions:
-    - actionType: save
+    - _id: clw3RPO2PlY1wIoF
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 4d6
-            - untyped
+          - formula: 4d6
       duration:
         units: minute
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal and close (25 ft. + 5 ft./2 levels); see text
       save:
         description: Reflex half or Fortitude half; see text;
+        harmless: false
         type: fort
       target:
         value: You and creature or object attacking you; see text
@@ -82,6 +89,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

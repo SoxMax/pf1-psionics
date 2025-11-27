@@ -1,7 +1,7 @@
 _id: nocaiab0RKaIezBI
 _key: '!items!nocaiab0RKaIezBI'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Blackest_Shade
@@ -10,14 +10,21 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Blackest Shade
 system:
   actions:
-    - actionType: other
+    - _id: 2b5fUQLPmkE323Nl
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: minute
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
@@ -51,6 +58,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

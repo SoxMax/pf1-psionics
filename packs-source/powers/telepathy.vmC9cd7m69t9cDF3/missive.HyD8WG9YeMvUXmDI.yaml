@@ -1,7 +1,7 @@
 _id: HyD8WG9YeMvUXmDI
 _key: '!items!HyD8WG9YeMvUXmDI'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Missive
@@ -10,13 +10,20 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Missive
 system:
   actions:
-    - actionType: other
+    - _id: ZUbk1Z0rr1ROhC6j
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
@@ -47,6 +54,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

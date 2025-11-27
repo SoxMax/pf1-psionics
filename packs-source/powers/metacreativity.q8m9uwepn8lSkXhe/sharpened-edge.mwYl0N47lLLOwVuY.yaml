@@ -1,7 +1,7 @@
 _id: mwYl0N47lLLOwVuY
 _key: '!items!mwYl0N47lLLOwVuY'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Sharpened_Edge
@@ -10,14 +10,21 @@ img: icons/magic/symbols/runes-star-magenta.webp
 name: Sharpened Edge
 system:
   actions:
-    - actionType: save
+    - _id: y8sdnx4wZWHo7c8L
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: minute
         value: 10 * @cl
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
@@ -54,6 +61,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

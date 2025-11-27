@@ -1,7 +1,7 @@
 _id: SHcrHPbcNblp7OPy
 _key: '!items!SHcrHPbcNblp7OPy'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Mindlink,_Thieving
@@ -10,17 +10,25 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Mindlink, Thieving
 system:
   actions:
-    - actionType: save
+    - _id: 8cz59oUovoE4t1ax
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: minute
         value: 10 * @cl
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       save:
         description: Will negates
+        harmless: false
         type: will
   description:
     value: >-
@@ -59,6 +67,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

@@ -1,7 +1,7 @@
 _id: WLfmnFGowhikA0Kn
 _key: '!items!WLfmnFGowhikA0Kn'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Mindhunter
@@ -10,13 +10,20 @@ img: icons/magic/perception/third-eye-blue-red.webp
 name: Mindhunter
 system:
   actions:
-    - actionType: other
+    - _id: cNHAqOOuDszZjNXQ
+      actionType: other
       activation:
         cost: 8
         type: hour
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: One plane
@@ -62,6 +69,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

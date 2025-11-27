@@ -1,7 +1,7 @@
 _id: 6zzTqIuHlMSOwXZw
 _key: '!items!6zzTqIuHlMSOwXZw'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Spectral_Stare
@@ -10,23 +10,30 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Spectral Stare
 system:
   actions:
-    - actionType: save
+    - _id: rY1k6sRI83wR8YrA
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 2d10
-            - untyped
+          - formula: 2d10
       duration:
         units: round
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
       save:
         description: Fortitude partial
+        harmless: false
         type: fort
       target:
         value: You
@@ -63,6 +70,11 @@ system:
     mental: false
     olfactory: true
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

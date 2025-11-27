@@ -1,7 +1,7 @@
 _id: vMtVOydzCxX3tgan
 _key: '!items!vMtVOydzCxX3tgan'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Restore_Extremity
@@ -10,13 +10,20 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Restore Extremity
 system:
   actions:
-    - actionType: save
+    - _id: ScnuozA31R9FqRhd
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
@@ -44,6 +51,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

@@ -1,7 +1,7 @@
 _id: 8VBdEZrlxWmGFF20
 _key: '!items!8VBdEZrlxWmGFF20'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Bring_Forth_the_Soul
@@ -10,20 +10,28 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Bring Forth the Soul
 system:
   actions:
-    - actionType: save
+    - _id: Jqkg3sDwm1m0KKZu
+      actionType: save
       activation:
         cost: 5
         type: minute
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: minute
         value: 10 * @cl
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 10 ft.
       save:
         description: Will negates; see text
+        harmless: false
         type: will
       target:
         value: One dead creature
@@ -79,6 +87,11 @@ system:
     mental: false
     olfactory: true
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

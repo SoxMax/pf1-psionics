@@ -1,7 +1,7 @@
 _id: xzWIRh5b2vg30GHC
 _key: '!items!xzWIRh5b2vg30GHC'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Lifeless_Tongues
@@ -10,20 +10,28 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Lifeless Tongues
 system:
   actions:
-    - actionType: save
+    - _id: u28SLyBPdtzzNq3B
+      actionType: save
       activation:
         cost: 10
         type: minute
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: minute
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 10 ft.
       save:
         description: Will negates; see text
+        harmless: false
         type: will
       target:
         value: One dead creature
@@ -78,6 +86,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

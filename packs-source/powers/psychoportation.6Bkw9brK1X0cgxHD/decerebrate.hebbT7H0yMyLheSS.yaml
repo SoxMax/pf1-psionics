@@ -1,7 +1,7 @@
 _id: hebbT7H0yMyLheSS
 _key: '!items!hebbT7H0yMyLheSS'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Decerebrate
@@ -10,18 +10,26 @@ img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 name: Decerebrate
 system:
   actions:
-    - actionType: save
+    - _id: T0E844FpGaUFR758
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./level)
       save:
         description: Fortitude negates
+        harmless: false
         type: fort
       target:
         value: One living creature
@@ -42,6 +50,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

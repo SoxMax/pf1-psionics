@@ -1,7 +1,7 @@
 _id: 2xJLOnP5L5juxec2
 _key: '!items!2xJLOnP5L5juxec2'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Danger_Sense
@@ -10,15 +10,22 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Danger Sense
 system:
   actions:
-    - actionType: other
+    - _id: sIJR8ga251HMN6ju
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: hour
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -48,6 +55,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

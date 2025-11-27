@@ -1,7 +1,7 @@
 _id: DDIuVDIvxv6wB3nJ
 _key: '!items!DDIuVDIvxv6wB3nJ'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Hammer
@@ -10,17 +10,26 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Hammer
 system:
   actions:
-    - actionType: msak
+    - _id: 43KEJL91g3xHqZ76
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: msak
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 1d8
-            - force
+          - formula: 1d8
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
@@ -49,6 +58,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

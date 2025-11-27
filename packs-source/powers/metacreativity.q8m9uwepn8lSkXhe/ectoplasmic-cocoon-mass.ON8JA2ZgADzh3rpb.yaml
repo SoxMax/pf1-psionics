@@ -1,7 +1,7 @@
 _id: ON8JA2ZgADzh3rpb
 _key: '!items!ON8JA2ZgADzh3rpb'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Ectoplasmic_Cocoon,_Mass
@@ -10,21 +10,26 @@ img: icons/magic/symbols/runes-star-magenta.webp
 name: Ectoplasmic Cocoon, Mass
 system:
   actions:
-    - actionType: save
+    - _id: EECK6bGiy8mwPGP3
+      actionType: save
       activation:
         cost: 1
         type: standard
-      area:
-        shape: sphere
-        units: ft
-        value: '20'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       duration:
         dismiss: true
         units: hour
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       save:
         description: Reflex negates
+        harmless: false
         type: ref
       target:
         value: 20-ft.-radius burst
@@ -51,6 +56,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

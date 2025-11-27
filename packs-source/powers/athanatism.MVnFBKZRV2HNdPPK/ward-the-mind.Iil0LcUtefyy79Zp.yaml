@@ -1,7 +1,7 @@
 _id: Iil0LcUtefyy79Zp
 _key: '!items!Iil0LcUtefyy79Zp'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Ward_the_Mind
@@ -10,18 +10,22 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Ward the Mind
 system:
   actions:
-    - actionType: save
+    - _id: GVrWph7p6flA1fJU
+      actionType: save
       activation:
         cost: 1
         type: standard
-      area:
-        shape: sphere
-        units: ft
-        value: '10'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       duration:
         units: minute
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
@@ -63,6 +67,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

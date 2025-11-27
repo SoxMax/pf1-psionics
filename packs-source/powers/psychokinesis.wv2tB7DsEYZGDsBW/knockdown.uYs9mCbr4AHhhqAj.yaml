@@ -1,7 +1,7 @@
 _id: uYs9mCbr4AHhhqAj
 _key: '!items!uYs9mCbr4AHhhqAj'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Knockdown
@@ -10,18 +10,26 @@ img: icons/magic/unholy/projectile-fireball-green.webp
 name: Knockdown
 system:
   actions:
-    - actionType: save
+    - _id: 5ngDJoZx9bOBaCrb
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: See text
       save:
         description: Reflex negates; see text
+        harmless: false
         type: ref
       target:
         value: One creature
@@ -39,6 +47,11 @@ system:
     mental: true
     olfactory: true
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

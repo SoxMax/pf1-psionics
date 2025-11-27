@@ -1,7 +1,7 @@
 _id: dQdOmQHXByRKXZT5
 _key: '!items!dQdOmQHXByRKXZT5'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Energy_Current
@@ -10,24 +10,31 @@ img: icons/magic/unholy/projectile-fireball-green.webp
 name: Energy Current
 system:
   actions:
-    - actionType: save
+    - _id: SrBuCYJnHvFV8LQd
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 9d6
-            - untyped
+          - formula: 9d6
       duration:
         concentration: true
         units: conc
         value: up to 1 round/level
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
         description: Reflex half or Fortitude half; see text;
+        harmless: false
         type: fort
       target:
         value: Any two creatures no more than 15 ft. apart
@@ -108,6 +115,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

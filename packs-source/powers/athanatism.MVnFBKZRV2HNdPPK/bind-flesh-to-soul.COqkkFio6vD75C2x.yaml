@@ -1,7 +1,7 @@
 _id: COqkkFio6vD75C2x
 _key: '!items!COqkkFio6vD75C2x'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Bind_Flesh_to_Soul
@@ -10,20 +10,28 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Bind Flesh to Soul
 system:
   actions:
-    - actionType: save
+    - _id: UaHCSaIadKEr1NqH
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: round
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
         description: Will negates
+        harmless: false
         type: will
       target:
         value: One creature
@@ -57,6 +65,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

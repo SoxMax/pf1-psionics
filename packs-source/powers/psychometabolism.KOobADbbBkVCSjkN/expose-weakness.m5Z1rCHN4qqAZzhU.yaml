@@ -1,7 +1,7 @@
 _id: m5Z1rCHN4qqAZzhU
 _key: '!items!m5Z1rCHN4qqAZzhU'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Expose_Weakness
@@ -10,19 +10,27 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Expose Weakness
 system:
   actions:
-    - actionType: save
+    - _id: X0sdTC9At1fmpaC7
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: round
         value: '1'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: med
         value: Medium (100 ft. + 10 ft./level)
       save:
         description: Fortitude negates
+        harmless: false
         type: fort
       target:
         value: One creature
@@ -48,6 +56,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

@@ -1,7 +1,7 @@
 _id: 4eSqEuzMBH3GUGOW
 _key: '!items!4eSqEuzMBH3GUGOW'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Resting_with_the_Fallen
@@ -10,14 +10,21 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Resting with the Fallen
 system:
   actions:
-    - actionType: other
+    - _id: IddztwCo1ENbB7oF
+      actionType: other
       activation:
         cost: 1
         type: round
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: spec
         value: See text
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
@@ -67,6 +74,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

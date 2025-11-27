@@ -1,7 +1,7 @@
 _id: M6U93TZJ7S9yQHAq
 _key: '!items!M6U93TZJ7S9yQHAq'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Proximity_Strike
@@ -10,18 +10,24 @@ img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 name: Proximity Strike
 system:
   actions:
-    - actionType: other
+    - _id: CfA8B7CgSBTWdSzs
+      actionType: other
       activation:
         cost: 1
         type: swift
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 1d4
-            - untyped
+          - formula: 1d4
       duration:
         units: spec
         value: 1 round; see text
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: Melee
@@ -61,6 +67,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

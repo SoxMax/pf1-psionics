@@ -1,7 +1,7 @@
 _id: wQeDF0fQvFLMwlaJ
 _key: '!items!wQeDF0fQvFLMwlaJ'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Wintry_Grasp
@@ -10,14 +10,21 @@ img: icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp
 name: Wintry Grasp
 system:
   actions:
-    - actionType: other
+    - _id: xQfUD1jlzIb7KK3T
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: spec
         value: 1 round; see text
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -51,6 +58,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

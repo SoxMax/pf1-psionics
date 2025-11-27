@@ -1,7 +1,7 @@
 _id: guz3vQYMlP9FTG3k
 _key: '!items!guz3vQYMlP9FTG3k'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Ectoplasmic_Creation,_Major
@@ -10,14 +10,21 @@ img: icons/magic/symbols/runes-star-magenta.webp
 name: Ectoplasmic Creation, Major
 system:
   actions:
-    - actionType: other
+    - _id: VWHrgoTd8QIhr8or
+      actionType: other
       activation:
         cost: 10
         type: minute
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: spec
         value: See text
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
@@ -72,6 +79,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

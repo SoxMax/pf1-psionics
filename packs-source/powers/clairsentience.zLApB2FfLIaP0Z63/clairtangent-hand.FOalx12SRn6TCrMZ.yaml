@@ -1,7 +1,7 @@
 _id: FOalx12SRn6TCrMZ
 _key: '!items!FOalx12SRn6TCrMZ'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Clairtangent_Hand
@@ -10,15 +10,22 @@ img: icons/magic/perception/third-eye-blue-red.webp
 name: Clairtangent Hand
 system:
   actions:
-    - actionType: other
+    - _id: 6EIauOAnjfMooN7P
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: spec
         value: Up to 1 min./level; see text (D)
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: See text
@@ -53,6 +60,11 @@ system:
     mental: true
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

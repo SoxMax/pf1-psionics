@@ -1,7 +1,7 @@
 _id: 6BAIS0vHIvaFfpkC
 _key: '!items!6BAIS0vHIvaFfpkC'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/True_Awakening
@@ -10,13 +10,20 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: True Awakening
 system:
   actions:
-    - actionType: other
+    - _id: AoUm0Y5mC95DjxPH
+      actionType: other
       activation:
         cost: 10
         type: minute
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
@@ -44,6 +51,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

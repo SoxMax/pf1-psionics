@@ -1,7 +1,7 @@
 _id: rv8TSOiKBE0bPAeb
 _key: '!items!rv8TSOiKBE0bPAeb'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Compelling_Voice,_Naija's
@@ -10,19 +10,27 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Compelling Voice, Naija's
 system:
   actions:
-    - actionType: save
+    - _id: N1oRloiFPSVIpDUW
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: hour
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
         description: Will negates
+        harmless: false
         type: will
       target:
         value: One creature
@@ -66,6 +74,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

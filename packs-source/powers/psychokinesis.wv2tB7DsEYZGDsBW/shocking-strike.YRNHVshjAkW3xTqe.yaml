@@ -1,7 +1,7 @@
 _id: YRNHVshjAkW3xTqe
 _key: '!items!YRNHVshjAkW3xTqe'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Shocking_Strike
@@ -10,18 +10,24 @@ img: icons/magic/lightning/bolt-strike-blue-white.webp
 name: Shocking Strike
 system:
   actions:
-    - actionType: other
+    - _id: MMX58J9NRAbN8vhU
+      actionType: other
       activation:
         cost: 1
         type: swift
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 1d6
-            - electricity
+          - formula: 1d6
       duration:
         units: spec
         value: 1 round; see text
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: Melee
@@ -59,6 +65,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

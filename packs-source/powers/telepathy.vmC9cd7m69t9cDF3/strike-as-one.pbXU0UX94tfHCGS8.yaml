@@ -1,7 +1,7 @@
 _id: pbXU0UX94tfHCGS8
 _key: '!items!pbXU0UX94tfHCGS8'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Strike_as_One
@@ -10,14 +10,21 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Strike as One
 system:
   actions:
-    - actionType: other
+    - _id: eJD6jp0y4TpYXbRD
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: round
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
@@ -57,6 +64,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

@@ -1,7 +1,7 @@
 _id: gSRGruBen3IPuM7O
 _key: '!items!gSRGruBen3IPuM7O'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Psychic_Bodyguard
@@ -10,15 +10,25 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Psychic Bodyguard
 system:
   actions:
-    - actionType: rsak
+    - _id: cavnET1sEth2RjjY
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: rsak
       activation:
         cost: 1
         type: round
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: spec
         value: One hour/level (D) or until discharged; see text
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: med
         value: Medium (100 feet + 10 feet/level)
@@ -60,6 +70,11 @@ system:
     mental: true
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

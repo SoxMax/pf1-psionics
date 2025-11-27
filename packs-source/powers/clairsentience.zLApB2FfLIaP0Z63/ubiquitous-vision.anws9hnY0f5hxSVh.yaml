@@ -1,7 +1,7 @@
 _id: anws9hnY0f5hxSVh
 _key: '!items!anws9hnY0f5hxSVh'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Ubiquitous_Vision
@@ -10,15 +10,22 @@ img: icons/magic/perception/third-eye-blue-red.webp
 name: Ubiquitous Vision
 system:
   actions:
-    - actionType: other
+    - _id: phv7l4UDa2FGHJNS
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: minute
         value: 10 * @cl
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -50,6 +57,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

@@ -1,7 +1,7 @@
 _id: LJSK9LRnyfUhUzW5
 _key: '!items!LJSK9LRnyfUhUzW5'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Fortify
@@ -10,14 +10,21 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Fortify
 system:
   actions:
-    - actionType: other
+    - _id: nkrG2IWxFnStxPlh
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: minute
         value: One minute/level
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -43,6 +50,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

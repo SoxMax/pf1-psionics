@@ -1,7 +1,7 @@
 _id: Ck05RtCWFtu4pLf0
 _key: '!items!Ck05RtCWFtu4pLf0'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Rewind_Age
@@ -10,14 +10,24 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Rewind Age
 system:
   actions:
-    - actionType: msak
+    - _id: xj8EgHPizexZ1XiB
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: msak
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: hour
         value: '24'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -52,6 +62,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

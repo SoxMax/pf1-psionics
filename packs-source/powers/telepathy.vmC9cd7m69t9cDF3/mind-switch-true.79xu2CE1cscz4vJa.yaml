@@ -1,7 +1,7 @@
 _id: 79xu2CE1cscz4vJa
 _key: '!items!79xu2CE1cscz4vJa'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Mind_Switch,_True
@@ -10,15 +10,23 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Mind Switch, True
 system:
   actions:
-    - actionType: save
+    - _id: arDhNv1y3kRbZMOz
+      actionType: save
       activation:
         cost: 1
         type: minute
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       save:
         description: Will negates; see text
+        harmless: false
         type: will
   description:
     value: >-
@@ -73,6 +81,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

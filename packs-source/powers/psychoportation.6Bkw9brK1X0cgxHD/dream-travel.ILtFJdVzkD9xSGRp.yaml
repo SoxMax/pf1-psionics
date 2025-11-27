@@ -1,7 +1,7 @@
 _id: ILtFJdVzkD9xSGRp
 _key: '!items!ILtFJdVzkD9xSGRp'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Dream_Travel
@@ -10,20 +10,31 @@ img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 name: Dream Travel
 system:
   actions:
-    - actionType: msak
+    - _id: y7XN3ZJstL7vXuMh
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: msak
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: hour
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
       save:
         description: Will negates
+        harmless: false
         type: will
       target:
         value: You and touched creature or creatures (up to one/ level)
@@ -78,6 +89,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

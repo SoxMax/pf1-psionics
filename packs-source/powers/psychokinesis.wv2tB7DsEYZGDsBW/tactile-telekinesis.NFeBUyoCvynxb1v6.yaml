@@ -1,7 +1,7 @@
 _id: NFeBUyoCvynxb1v6
 _key: '!items!NFeBUyoCvynxb1v6'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Tactile_Telekinesis
@@ -10,15 +10,22 @@ img: icons/magic/unholy/projectile-fireball-green.webp
 name: Tactile Telekinesis
 system:
   actions:
-    - actionType: other
+    - _id: VCzsm41UFTxqUcVW
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: spec
         value: 1 min./level; see text (D)
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -48,6 +55,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

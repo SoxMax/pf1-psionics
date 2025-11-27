@@ -1,7 +1,7 @@
 _id: g7MPVMIyeypl2ynw
 _key: '!items!g7MPVMIyeypl2ynw'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Spasm
@@ -10,22 +10,29 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Spasm
 system:
   actions:
-    - actionType: save
+    - _id: sic3wAuo6tCdgpfL
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 5d6
-            - untyped
+          - formula: 5d6
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
         description: Fortitude OR Will (see text)
+        harmless: false
         type: fort
       target:
         value: One living creature
@@ -66,6 +73,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

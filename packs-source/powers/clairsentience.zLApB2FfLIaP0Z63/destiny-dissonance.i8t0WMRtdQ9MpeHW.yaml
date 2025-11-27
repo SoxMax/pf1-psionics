@@ -1,7 +1,7 @@
 _id: i8t0WMRtdQ9MpeHW
 _key: '!items!i8t0WMRtdQ9MpeHW'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Destiny_Dissonance
@@ -10,14 +10,24 @@ img: icons/magic/perception/third-eye-blue-red.webp
 name: Destiny Dissonance
 system:
   actions:
-    - actionType: msak
+    - _id: WQJoYnlLn0ooWp0K
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: msak
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: round
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
@@ -40,6 +50,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

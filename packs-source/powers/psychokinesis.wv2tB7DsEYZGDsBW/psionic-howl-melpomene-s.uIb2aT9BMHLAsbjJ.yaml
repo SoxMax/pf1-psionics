@@ -1,7 +1,7 @@
 _id: uIb2aT9BMHLAsbjJ
 _key: '!items!uIb2aT9BMHLAsbjJ'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Howl,_Melpomene's
@@ -10,26 +10,30 @@ img: icons/magic/sonic/projectile-sound-rings-wave.webp
 name: Psionic Howl, Melpomene's
 system:
   actions:
-    - actionType: save
+    - _id: GGv8chZ4fuHl7C9I
+      actionType: save
       activation:
         cost: 1
         type: standard
-      area:
-        shape: sphere
-        units: ft
-        value: '30'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       damage:
         parts:
-          - - 3d4
-            - sonic
+          - formula: 3d4
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 30 ft.
       save:
         description: Fortitude half
+        harmless: false
         type: fort
       target:
         value: 30 ft. radius burst centered on you
@@ -66,6 +70,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

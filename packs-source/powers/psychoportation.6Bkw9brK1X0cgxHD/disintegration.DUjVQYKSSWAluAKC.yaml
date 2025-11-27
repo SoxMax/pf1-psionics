@@ -1,7 +1,7 @@
 _id: DUjVQYKSSWAluAKC
 _key: '!items!DUjVQYKSSWAluAKC'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Disintegration
@@ -10,22 +10,32 @@ img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 name: Disintegration
 system:
   actions:
-    - actionType: rsak
+    - _id: HXcOqcUTFwFaVCx7
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: rsak
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 22d6
-            - force
+          - formula: 22d6
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: med
         value: Medium (100 ft. + 10 ft./level)
       save:
         description: Fortitude partial (object)
+        harmless: false
         type: fort
       target:
         value: Ray
@@ -70,6 +80,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

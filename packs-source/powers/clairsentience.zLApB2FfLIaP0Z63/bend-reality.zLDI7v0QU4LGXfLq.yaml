@@ -1,7 +1,7 @@
 _id: zLDI7v0QU4LGXfLq
 _key: '!items!zLDI7v0QU4LGXfLq'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Bend_Reality
@@ -10,14 +10,21 @@ img: icons/magic/perception/third-eye-blue-red.webp
 name: Bend Reality
 system:
   actions:
-    - actionType: other
+    - _id: uEwqHk2RqFZS3wX0
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: spec
         value: See text
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: See text
@@ -63,6 +70,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

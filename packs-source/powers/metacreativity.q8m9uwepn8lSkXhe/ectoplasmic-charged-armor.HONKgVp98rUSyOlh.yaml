@@ -1,7 +1,7 @@
 _id: HONKgVp98rUSyOlh
 _key: '!items!HONKgVp98rUSyOlh'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Ectoplasmic_Charged_Armor
@@ -10,14 +10,21 @@ img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
 name: Ectoplasmic Charged Armor
 system:
   actions:
-    - actionType: other
+    - _id: dZnnGJ97Tufdl7qb
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: minute
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -50,6 +57,11 @@ system:
     mental: false
     olfactory: true
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

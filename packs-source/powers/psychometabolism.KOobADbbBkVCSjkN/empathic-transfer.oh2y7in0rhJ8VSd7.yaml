@@ -1,7 +1,7 @@
 _id: oh2y7in0rhJ8VSd7
 _key: '!items!oh2y7in0rhJ8VSd7'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Empathic_Transfer
@@ -10,19 +10,27 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Empathic Transfer
 system:
   actions:
-    - actionType: heal
+    - _id: t4C6c04HcFGtUwg0
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: heal
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 2d10
-            - untyped
-          - - 2d10
-            - heal
+          - formula: 2d10
+          - formula: 2d10
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
@@ -70,6 +78,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

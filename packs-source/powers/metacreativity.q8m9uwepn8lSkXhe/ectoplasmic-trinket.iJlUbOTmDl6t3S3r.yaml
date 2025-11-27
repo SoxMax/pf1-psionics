@@ -1,7 +1,7 @@
 _id: iJlUbOTmDl6t3S3r
 _key: '!items!iJlUbOTmDl6t3S3r'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Ectoplasmic_Trinket
@@ -10,15 +10,22 @@ img: icons/magic/symbols/runes-star-magenta.webp
 name: Ectoplasmic Trinket
 system:
   actions:
-    - actionType: other
+    - _id: xERuX0QbzVmCcKcx
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: minute
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 0 ft.
@@ -49,6 +56,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

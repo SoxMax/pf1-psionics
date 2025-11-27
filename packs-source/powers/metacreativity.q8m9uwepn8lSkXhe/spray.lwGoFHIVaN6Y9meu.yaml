@@ -1,7 +1,7 @@
 _id: lwGoFHIVaN6Y9meu
 _key: '!items!lwGoFHIVaN6Y9meu'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Spray_(power)
@@ -10,14 +10,24 @@ img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
 name: Spray
 system:
   actions:
-    - actionType: rsak
+    - _id: 3ONw5aGXLRdoxj0c
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: rsak
       activation:
         cost: 1
         type: swift
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: spec
         value: Immediate
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -63,6 +73,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

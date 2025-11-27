@@ -1,7 +1,7 @@
 _id: aNGuA94fIzHMtDB5
 _key: '!items!aNGuA94fIzHMtDB5'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Cleanse_Spirit
@@ -10,13 +10,20 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Cleanse Spirit
 system:
   actions:
-    - actionType: save
+    - _id: ijg39tA9n4HHJJyV
+      actionType: save
       activation:
         cost: 3
         type: round
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
@@ -62,6 +69,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

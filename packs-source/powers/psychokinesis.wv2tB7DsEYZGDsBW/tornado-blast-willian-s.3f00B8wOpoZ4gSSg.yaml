@@ -1,7 +1,7 @@
 _id: 3f00B8wOpoZ4gSSg
 _key: '!items!3f00B8wOpoZ4gSSg'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Tornado_Blast,_Willian's
@@ -10,26 +10,33 @@ img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
 name: Tornado Blast, Willian's
 system:
   actions:
-    - actionType: rsak
+    - _id: Jow0qr6TTC2V4J2C
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: rsak
       activation:
         cost: 1
         type: round
-      area:
-        shape: sphere
-        units: ft
-        value: '40'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       damage:
         parts:
-          - - 8d6
-            - untyped
+          - formula: 8d6
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: long
         value: Long (400 ft. + 40 ft./level)
       save:
         description: Reflex half; see text
+        harmless: false
         type: ref
       target:
         value: 40-ft.-radius spread
@@ -75,6 +82,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

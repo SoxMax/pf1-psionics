@@ -1,7 +1,7 @@
 _id: pVn2j69NPdk42tDT
 _key: '!items!pVn2j69NPdk42tDT'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Waters_of_Lethe
@@ -10,18 +10,26 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Waters of Lethe
 system:
   actions:
-    - actionType: save
+    - _id: TYtO63f5r0a0pjUz
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
       save:
         description: Will negates
+        harmless: false
         type: will
       target:
         value: One incorporeal creature
@@ -42,6 +50,11 @@ system:
     mental: false
     olfactory: true
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

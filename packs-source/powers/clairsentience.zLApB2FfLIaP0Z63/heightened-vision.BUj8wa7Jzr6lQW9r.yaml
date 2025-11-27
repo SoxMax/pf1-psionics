@@ -1,7 +1,7 @@
 _id: BUj8wa7Jzr6lQW9r
 _key: '!items!BUj8wa7Jzr6lQW9r'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Heightened_Vision
@@ -10,14 +10,21 @@ img: icons/magic/perception/third-eye-blue-red.webp
 name: Heightened Vision
 system:
   actions:
-    - actionType: other
+    - _id: SlcWE2ZHA6MH0WWr
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: hour
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -39,6 +46,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

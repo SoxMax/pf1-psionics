@@ -1,7 +1,7 @@
 _id: LMaNJNjq4w6tvMJj
 _key: '!items!LMaNJNjq4w6tvMJj'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Quintessence
@@ -10,17 +10,21 @@ img: icons/magic/symbols/runes-star-magenta.webp
 name: Quintessence
 system:
   actions:
-    - actionType: other
+    - _id: bOErX0OsQqCruqtx
+      actionType: other
       activation:
         cost: 1
         type: round
-      area:
-        shape: sphere
-        units: ft
-        value: '5'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 0 ft.
@@ -75,6 +79,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

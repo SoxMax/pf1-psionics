@@ -1,7 +1,7 @@
 _id: x35aMaylCbwr0Gdk
 _key: '!items!x35aMaylCbwr0Gdk'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Anchored_Navigation
@@ -10,18 +10,22 @@ img: icons/magic/perception/third-eye-blue-red.webp
 name: Anchored Navigation
 system:
   actions:
-    - actionType: other
+    - _id: 5NVqqqTnM8KqFPBt
+      actionType: other
       activation:
         cost: 1
         type: standard
-      area:
-        shape: sphere
-        units: ft
-        value: '60'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       duration:
         units: hour
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -64,6 +68,11 @@ system:
     mental: false
     olfactory: true
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

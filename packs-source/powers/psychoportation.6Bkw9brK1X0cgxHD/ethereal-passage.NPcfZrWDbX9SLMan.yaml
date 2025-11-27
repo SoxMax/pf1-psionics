@@ -1,7 +1,7 @@
 _id: NPcfZrWDbX9SLMan
 _key: '!items!NPcfZrWDbX9SLMan'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Ethereal_Passage
@@ -10,14 +10,21 @@ img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 name: Ethereal Passage
 system:
   actions:
-    - actionType: other
+    - _id: 8f43qNj6NjZKeKIx
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: spec
         value: One usage per two levels
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 0 ft.
@@ -64,6 +71,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

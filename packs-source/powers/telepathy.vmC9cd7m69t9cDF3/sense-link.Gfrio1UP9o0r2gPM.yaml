@@ -1,7 +1,7 @@
 _id: Gfrio1UP9o0r2gPM
 _key: '!items!Gfrio1UP9o0r2gPM'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Sense_Link
@@ -10,15 +10,22 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Sense Link
 system:
   actions:
-    - actionType: other
+    - _id: SCboz9IcTlflj8Ve
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         concentration: true
         units: conc
         value: up to 1min./level
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: med
         value: Medium (100 ft. + 10 ft./level)
@@ -76,6 +83,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

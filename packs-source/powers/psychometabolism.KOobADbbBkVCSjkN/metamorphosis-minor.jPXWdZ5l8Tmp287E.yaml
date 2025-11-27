@@ -1,7 +1,7 @@
 _id: jPXWdZ5l8Tmp287E
 _key: '!items!jPXWdZ5l8Tmp287E'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Metamorphosis,_Minor
@@ -10,19 +10,25 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Metamorphosis, Minor
 system:
   actions:
-    - actionType: other
+    - _id: 1Ayu13Xs7Jm6AdCz
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 1d8
-            - untyped
+          - formula: 1d8
       duration:
         dismiss: true
         units: minute
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -82,6 +88,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

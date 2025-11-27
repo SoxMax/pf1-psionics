@@ -1,7 +1,7 @@
 _id: u1cbCuJJ43p3R3DY
 _key: '!items!u1cbCuJJ43p3R3DY'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Time_Regression
@@ -10,13 +10,20 @@ img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 name: Time Regression
 system:
   actions:
-    - actionType: other
+    - _id: 338Z7sheO1aRhJSB
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -53,6 +60,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

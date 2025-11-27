@@ -1,7 +1,7 @@
 _id: zVsVMX1LOELqc8DK
 _key: '!items!zVsVMX1LOELqc8DK'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Distracting_Strikes
@@ -10,14 +10,21 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Distracting Strikes
 system:
   actions:
-    - actionType: other
+    - _id: UmIyxqx5ORhl9Ys5
+      actionType: other
       activation:
         cost: 1
         type: swift
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: spec
         value: 1 round; see text
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: Melee
@@ -55,6 +62,11 @@ system:
     mental: false
     olfactory: true
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

@@ -1,7 +1,7 @@
 _id: eGEBJOwcb4BwlGm4
 _key: '!items!eGEBJOwcb4BwlGm4'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Burst
@@ -10,14 +10,21 @@ img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 name: Burst
 system:
   actions:
-    - actionType: other
+    - _id: 7Cowd9anfZkdVPUx
+      actionType: other
       activation:
         cost: 1
         type: swift
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: round
         value: '1'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -43,6 +50,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:
