@@ -250,7 +250,7 @@ function prepareManifesters(sheet, context) {
  * @param {string} manifesterId - The key of the manifester being prepared
  * @param {object} manifester - The manifester data being prepared
  * @param {Array} powers - The power data being prepared
- * @returns {object} - Manifestor data
+ * @returns {object} - Manifester data
  */
 function prepareManifesterPowerLevels(data, manifesterId, manifester, powers) {
   if (!manifester) return;

@@ -10,10 +10,10 @@ export function injectItemAction() {
       const dcBonus = rollData.dcBonus ?? 0;
 
       /** @type {object} */
-      const manifestor = this.item.manifestor;
-      if ( manifestor) {
+      const manifester = this.item.manifester;
+      if ( manifester) {
         /** @type {string} */
-        let formula =  manifestor.baseDCFormula;
+        let formula =  manifester.baseDCFormula;
 
         /** @type {object} - Item action "data" */
         const data = rollData.action;

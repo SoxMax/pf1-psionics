@@ -208,12 +208,12 @@ Hooks.on("pf1GetChangeFlat", (result, target, _modifierType, _value, _actor) => 
       result.push(`flags.${MODULE_ID}.focus.maximum`);
       break;
     case `${MODULE_ID}.concentration`:
-      // Apply to both manifestors AND spellbooks for Psionics-Magic Transparency
+      // Apply to both manifesters AND spellbooks for Psionics-Magic Transparency
       result.push(
-        `flags.${MODULE_ID}.manifestors.primary.concentration.total`,
-        `flags.${MODULE_ID}.manifestors.secondary.concentration.total`,
-        `flags.${MODULE_ID}.manifestors.tertiary.concentration.total`,
-        `flags.${MODULE_ID}.manifestors.spelllike.concentration.total`,
+        `flags.${MODULE_ID}.manifesters.primary.concentration.total`,
+        `flags.${MODULE_ID}.manifesters.secondary.concentration.total`,
+        `flags.${MODULE_ID}.manifesters.tertiary.concentration.total`,
+        `flags.${MODULE_ID}.manifesters.spelllike.concentration.total`,
         "system.attributes.spells.spellbooks.primary.concentration.total",
         "system.attributes.spells.spellbooks.secondary.concentration.total",
         "system.attributes.spells.spellbooks.tertiary.concentration.total",
@@ -221,12 +221,12 @@ Hooks.on("pf1GetChangeFlat", (result, target, _modifierType, _value, _actor) => 
       );
       break;
     case `${MODULE_ID}.manifesterLevel`:
-      // Apply to both manifestors AND spellbooks for Psionics-Magic Transparency
+      // Apply to both manifesters AND spellbooks for Psionics-Magic Transparency
       result.push(
-        `flags.${MODULE_ID}.manifestors.primary.cl.total`,
-        `flags.${MODULE_ID}.manifestors.secondary.cl.total`,
-        `flags.${MODULE_ID}.manifestors.tertiary.cl.total`,
-        `flags.${MODULE_ID}.manifestors.spelllike.cl.total`,
+        `flags.${MODULE_ID}.manifesters.primary.cl.total`,
+        `flags.${MODULE_ID}.manifesters.secondary.cl.total`,
+        `flags.${MODULE_ID}.manifesters.tertiary.cl.total`,
+        `flags.${MODULE_ID}.manifesters.spelllike.cl.total`,
         "system.attributes.spells.spellbooks.primary.cl.total",
         "system.attributes.spells.spellbooks.secondary.cl.total",
         "system.attributes.spells.spellbooks.tertiary.cl.total",
@@ -241,23 +241,23 @@ Hooks.on("pf1GetChangeFlat", (result, target, _modifierType, _value, _actor) => 
       // Psionic Resistance maps to same location as Spell Resistance for transparency
       result.push("system.attributes.sr.total");
       break;
-  // Bidirectional transparency: spell bonuses also apply to manifestors
+  // Bidirectional transparency: spell bonuses also apply to manifesters
     case "concentration":
-      // Spell concentration also applies to manifestors
+      // Spell concentration also applies to manifesters
       result.push(
-        `flags.${MODULE_ID}.manifestors.primary.concentration.total`,
-        `flags.${MODULE_ID}.manifestors.secondary.concentration.total`,
-        `flags.${MODULE_ID}.manifestors.tertiary.concentration.total`,
-        `flags.${MODULE_ID}.manifestors.spelllike.concentration.total`
+        `flags.${MODULE_ID}.manifesters.primary.concentration.total`,
+        `flags.${MODULE_ID}.manifesters.secondary.concentration.total`,
+        `flags.${MODULE_ID}.manifesters.tertiary.concentration.total`,
+        `flags.${MODULE_ID}.manifesters.spelllike.concentration.total`
       );
       break;
     case "cl":
-      // Spell CL also applies to manifestors
+      // Spell CL also applies to manifesters
       result.push(
-        `flags.${MODULE_ID}.manifestors.primary.cl.total`,
-        `flags.${MODULE_ID}.manifestors.secondary.cl.total`,
-        `flags.${MODULE_ID}.manifestors.tertiary.cl.total`,
-        `flags.${MODULE_ID}.manifestors.spelllike.cl.total`
+        `flags.${MODULE_ID}.manifesters.primary.cl.total`,
+        `flags.${MODULE_ID}.manifesters.secondary.cl.total`,
+        `flags.${MODULE_ID}.manifesters.tertiary.cl.total`,
+        `flags.${MODULE_ID}.manifesters.spelllike.cl.total`
       );
       break;
     // Note: "dc" already applies to all via system.attributes.spells.school.all.dc

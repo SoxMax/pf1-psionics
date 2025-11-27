@@ -216,7 +216,7 @@ export async function migrateToVersion030() {
         if (!isValidActor(actor)) continue;
 
         if (!actor.getFlag("pf1-psionics", "manifesters")) {
-            await actor.setFlag("pf1-psionics", "manifesters", MANIFESTORS);
+            await actor.setFlag("pf1-psionics", "manifesters", MANIFESTERS);
         }
     }
 }

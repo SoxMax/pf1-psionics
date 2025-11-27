@@ -25,7 +25,7 @@ export async function migrateToVersion041() {
 async function migrateActor(actor) {
 	const oldManifestors = actor.getFlag(MODULE_ID, "manifestors");
 
-	// Skip if already migrated (has manifesters flag) or no old flag
+	// Skip if already migrated (no old flag or already has new flag)
 	if (!oldManifestors || actor.getFlag(MODULE_ID, "manifesters")) {
 		return false;
 	}
@@ -53,16 +53,17 @@ async function migratePowerItem(item) {
 		return false;
 	}
 
-	const oldManifestor = item.system.manifestor;
+	// Check the raw source data for the old field name
+	const oldManifestor = item._source.system?.manifestor;
 
-	// Skip if already migrated or no old field
-	if (oldManifestor === undefined || item.system.manifester !== undefined) {
+	// Skip if no old field exists (already migrated or never had the field)
+	if (oldManifestor === undefined) {
 		return false;
 	}
 
-	console.log(`${MODULE_ID} | Migrating power item "${item.name}" manifestor -> manifester`);
+	console.log(`${MODULE_ID} | Migrating power item "${item.name}" manifestor -> manifester (value: ${oldManifestor})`);
 
-	// Update the field name
+	// Update: copy old field to new field name and remove old field
 	await item.update({
 		"system.manifester": oldManifestor,
 		"system.-=manifestor": null // Remove old field
