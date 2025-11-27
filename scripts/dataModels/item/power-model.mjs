@@ -120,6 +120,10 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
     // Alias manifestor as spellbook for PF1 chat button compatibility
     // This allows PF1's concentration chat button to work with powers
     this.spellbook = this.manifestor;
+
+    // Set school for Psionics-Magic Transparency
+    // Maps psionic discipline to equivalent spell school
+    this.school = DISCIPLINE_TO_SCHOOL[this.discipline];
   }
 
   /**
@@ -127,17 +131,6 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
    */
   prepareDerivedData() {
     super.prepareDerivedData();
-  }
-
-  /**
-   * Equivalent spell school for this power's discipline.
-   * Implements Psionics-Magic Transparency by exposing a school property
-   * that PF1 system uses for spell school bonuses.
-   *
-   * @type {string|null}
-   */
-  get school() {
-    return DISCIPLINE_TO_SCHOOL[this.discipline];
   }
 
   /**
