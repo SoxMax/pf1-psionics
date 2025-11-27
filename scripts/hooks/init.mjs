@@ -249,18 +249,19 @@ Hooks.on("pf1GetChangeFlat", (result, target, _modifierType, _value, _actor) => 
       );
       break;
     // Note: "dc" already applies to all via system.attributes.spells.school.all.dc
-  }
+    default:
+      // Map discipline buff targets to spell school paths for Psionics-Magic Transparency
+      const disciplineMatch = target.match(/^pf1-psionics\.discipline\.(\w+)\.(dc|cl)$/);
+      if (disciplineMatch) {
+        const [, discipline, stat] = disciplineMatch;
+        const schoolKey = DISCIPLINE_TO_SCHOOL[discipline];
 
-  // Map discipline buff targets to spell school paths for Psionics-Magic Transparency
-  const disciplineMatch = target.match(/^pf1-psionics\.discipline\.(\w+)\.(dc|cl)$/);
-  if (disciplineMatch) {
-    const [, discipline, stat] = disciplineMatch;
-    const schoolKey = DISCIPLINE_TO_SCHOOL[discipline];
+        // Psychoportation has no school equivalent
+        if (!schoolKey) return;
 
-    // Psychoportation has no school equivalent
-    if (!schoolKey) return;
-
-    // Map to the equivalent school path
-    result.push(`system.attributes.spells.school.${schoolKey}.${stat}`);
+        // Map to the equivalent school path
+        result.push(`system.attributes.spells.school.${schoolKey}.${stat}`);
+      }
+      break;
   }
 });
