@@ -7,14 +7,29 @@ This module aims to incorporate Dreamscarred Press' Psionics system into the Pat
 Features
 ========
 
-* Adds a new tab to the character sheet for managing Psionic Manifesting.
-	* This tab can be enabled similarly to enabling spellcasting in the PF1 ruleset.
-	* The tab also functions similarly to the spells tab of the PF1 ruleset.
-* Adds new skills to characters
-	* Added Autohypnosis (Wis, Trained only) to Skills tab.
-	* Added Knowledge (Psionics) (Int, Trained only) to Skills tab.
-* Adds support for Psionic Powers as a distinct Item.
-* Includes compendium packs with 597 psionic powers and 189 psionic feats from Dreamscarred Press'.
+### Core Mechanics
+
+* **Psionic Manifesting Tab** - Multiple classes per character, auto-calculated manifester level/concentration/power points, focus tracking, browse compendium
+* **Power Points** - Auto-calculated from class and ability, temporary points/offsets/bonuses, auto-recharge on rest, custom buff targets
+* **Psionic Focus** - Track current/max, feat/power integration, automatic management, custom buff targets
+
+### Powers & Augmentation
+
+* **Psionic Powers** - 7 disciplines (Athanatism, Clairsentience, Metacreativity, Psychokinesis, Psychometabolism, Psychoportation, Telepathy), subdisciplines, power levels 0-9, displays/descriptors/SR
+* **Augmentation System** - Visual editor with multiple augments per power, damage/DC/CL bonuses, duration multipliers, focus requirements, in-dialog selection
+
+### System Integration
+
+* **New Skills** - Autohypnosis (Wis), Knowledge (Psionics) (Int)
+* **PF1 Compatibility** - Psionic trait/subtype, buff system, concentration/CL checks
+
+### Content Packs
+
+* **597 Powers** with full mechanics
+* **309 Feats**
+* **12 Classes**: Aegis, Cryptic, Dread, Highlord, Marksman, Psion, Psychic Warrior, Soulknife, Tactician, Vitalist, Voyager, Wilder
+* **161 Races** and variants
+* **Rules** documentation
 
 ### Installing in FoundryVTT
 
