@@ -11,7 +11,7 @@ export async function migrateToVersion041() {
   console.log(`${MODULE_ID} | Running migration to 0.4.1`);
 
   await migrateAllActors(migrateActor, "actors to v0.4.1");
-  await migrateAllItems(migratePowerItem, "power items to v0.4.1");
+  await migrateAllItems(`${MODULE_ID}.power`, migratePowerItem, "power items to v0.4.1");
 
   console.log(`${MODULE_ID} | Migration to 0.4.1 complete`);
 }
