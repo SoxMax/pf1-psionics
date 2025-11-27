@@ -1,7 +1,7 @@
 import {MODULE_ID} from "../../_module.mjs";
 import {POINTS_PER_LEVEL, POWER_POINTS_FLAG, PSIONIC_FOCUS_FLAG} from "../../data/powerpoints.mjs";
-import {MANIFESTORS} from "../../data/manifestors.mjs";
-import {SpellRanges} from "./utils/manifestor.mjs";
+import {MANIFESTERS} from "../../data/manifesters.mjs";
+import {SpellRanges} from "./utils/manifester.mjs";
 
 export function onPreCreateActor(document, _data, _options, _userId) {
   if (!["character", "npc"].includes(document.type)) return;
@@ -36,7 +36,7 @@ export function onPreCreateActor(document, _data, _options, _userId) {
 
   const psionicsFlags = {
     [`flags.${MODULE_ID}`]: {
-      manifestors: MANIFESTORS,
+      manifesters: MANIFESTERS,
       powerPoints: POWER_POINTS_FLAG,
       focus: PSIONIC_FOCUS_FLAG,
     },

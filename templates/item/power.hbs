@@ -122,13 +122,13 @@
       <div class="form-group">
         <label>{{localize "PF1-Psionics.Class.Manifestor"}}</label>
         <div class="form-fields">
-          <select name="system.manifestor">
-            {{selectOptions manifestorChoices selected=system.manifestor}}
+          <select name="system.manifester">
+            {{selectOptions manifesterChoices selected=system.manifester}}
           </select>
         </div>
       </div>
       {{else}}
-      <input type="hidden" name="system.manifestor" value="">
+      <input type="hidden" name="system.manifester" value="">
       {{/if}}
 
       {{!-- Spell Level --}}

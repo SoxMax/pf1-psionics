@@ -1,4 +1,4 @@
-export const MANIFESTOR =  {
+export const MANIFESTER =  {
         name: "",
         inUse: false,
         showConfig: false,
@@ -25,11 +25,11 @@ export const MANIFESTOR =  {
         },
     };
 
-export const MANIFESTORS = {
-    primary: foundry.utils.deepClone(MANIFESTOR),
-    secondary: foundry.utils.deepClone(MANIFESTOR),
-    tertiary: foundry.utils.deepClone(MANIFESTOR),
-    spelllike: Object.assign(foundry.utils.deepClone(MANIFESTOR), {
+export const MANIFESTERS = {
+    primary: foundry.utils.deepClone(MANIFESTER),
+    secondary: foundry.utils.deepClone(MANIFESTER),
+    tertiary: foundry.utils.deepClone(MANIFESTER),
+    spelllike: Object.assign(foundry.utils.deepClone(MANIFESTER), {
         class: "_hd",
         ability: "cha",
     })

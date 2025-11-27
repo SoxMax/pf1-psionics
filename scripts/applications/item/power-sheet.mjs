@@ -25,9 +25,9 @@ export class PowerSheet extends pf1.applications.item.ItemSheetPF {
 
     context.isSpell = true;
     context.canUseAmmo = false;
-    context.manifestors = item.actor?.getFlag(MODULE_ID, "manifestors") ?? {};
-    context.manifestorChoices = Object.fromEntries(
-      Object.entries(context.manifestors)
+    context.manifesters = item.actor?.getFlag(MODULE_ID, "manifesters") ?? {};
+    context.manifesterChoices = Object.fromEntries(
+      Object.entries(context.manifesters)
         .filter(([_, { inUse }]) => inUse)
         .map(([key, { label }]) => [key, label])
         .sort(([_0, n0], [_1, n1]) => n0.localeCompare(n1, lang))

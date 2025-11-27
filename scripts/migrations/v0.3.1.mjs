@@ -1,5 +1,5 @@
 import { MODULE_ID } from "../_module.mjs";
-import { MANIFESTORS } from "../data/manifestors.mjs";
+import { MANIFESTERS } from "../data/manifesters.mjs";
 import { addFlagIfMissing, addSkillIfMissing, migrateAllActors } from "./helpers.mjs";
 import { POWER_POINTS_FLAG, PSIONIC_FOCUS_FLAG } from "../data/powerpoints.mjs";
 
@@ -8,7 +8,7 @@ import { POWER_POINTS_FLAG, PSIONIC_FOCUS_FLAG } from "../data/powerpoints.mjs";
  * Ensures all actors have:
  * - Knowledge (Psionics) skill
  * - Autohypnosis skill
- * - manifestors flag
+ * - manifesters flag
  * - powerPoints flag
  * - focus flag
  */
@@ -46,8 +46,8 @@ async function migrateActor(actor) {
 		background: true,
 	});
 
-	// Add manifestors flag
-	const manifestorsAdded = await addFlagIfMissing(actor, "manifestors", MANIFESTORS);
+	// Add manifesters flag
+	const manifestersAdded = await addFlagIfMissing(actor, "manifesters", MANIFESTERS);
 
 	// Add powerPoints flag
 	const powerPointsAdded = await addFlagIfMissing(actor, "powerPoints", POWER_POINTS_FLAG);
@@ -55,7 +55,7 @@ async function migrateActor(actor) {
 	// Add focus flag
 	const focusAdded = await addFlagIfMissing(actor, "focus", PSIONIC_FOCUS_FLAG);
 
-	modified = kpsAdded || ahpAdded || manifestorsAdded || powerPointsAdded || focusAdded;
+	modified = kpsAdded || ahpAdded || manifestersAdded || powerPointsAdded || focusAdded;
 
 	return modified;
 }

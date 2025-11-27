@@ -1,4 +1,5 @@
 import { migrateToVersion031 } from "./v0.3.1.mjs";
+import { migrateToVersion041 } from "./v0.4.1.mjs";
 
 /**
  * Registry of all migration functions mapped to their target version.
@@ -12,8 +13,8 @@ import { migrateToVersion031 } from "./v0.3.1.mjs";
  */
 export const MIGRATIONS = {
 	"0.3.1": migrateToVersion031,
+	"0.4.1": migrateToVersion041,
 	// Add new migrations here as needed
-	// "0.4.0": migrateToVersion040,
 	// "1.0.0": migrateToVersion100,
 };
 

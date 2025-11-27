@@ -84,7 +84,7 @@
         "Telepathy": "Telepathy CL"
       }
     },
-    "Manifestors": {
+    "Manifesters": {
       "BrowsePowers": "Browse Powers",
       "CreatePower": "Create Power",
       "Spelllike": "Psi-like"
@@ -94,7 +94,7 @@
       "Current": "Uses left"
     },
     "Class": {
-      "Manifestor": "Manifestor",
+      "Manifester": "Manifester",
       "ManifestingHeader": "Psionic Manifesting"
     },
     "Focus": {
@@ -167,7 +167,7 @@
     "Error": {
       "CompendiumNotFound": "Psionic Powers compendium not found. Please ensure the module is properly installed.",
       "NotEnoughFocus": "Not enough Psionic Focus to manifest to complete this action.",
-      "PowerCostTooHigh": "Power point cost exceeds current manifestor level."
+      "PowerCostTooHigh": "Power point cost exceeds current manifester level."
     }
   }
 }

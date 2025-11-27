@@ -9,8 +9,8 @@ export function onGetRollData(doc, rollData) {
 		if (doc instanceof pf1.documents.actor.ActorPF) {
 			const actor = doc;
 
-			// Add manifestor info
-			rollData.psionics = foundry.utils.deepClone(actor.getFlag(MODULE_ID, "manifestors") || {});
+			// Add manifester info
+			rollData.psionics = foundry.utils.deepClone(actor.getFlag(MODULE_ID, "manifesters") || {});
 			for (const book of Object.values(rollData.psionics)) {
 				book.abilityMod = rollData.abilities[book.ability]?.mod ?? 0;
 				// Add alias
