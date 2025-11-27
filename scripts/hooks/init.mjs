@@ -207,15 +207,3 @@ Hooks.on("pf1GetChangeFlat", (result, target, _modifierType, _value, _actor) => 
     result.push(`system.attributes.spells.school.${schoolKey}.${stat}`);
   }
 });
-
-// Add school CL bonus for powers (Psionics-Magic Transparency)
-// The PF1 system only adds this for spells, so we need to add it for powers
-Hooks.on("pf1GetRollData", (action, rollData) => {
-  const item = action.item;
-
-  // Check if this is a power with a school
-  if (item?.type === `${MODULE_ID}.power` && item.system.school) {
-    // Add per school CL bonus (same as PF1 does for spells)
-    rollData.cl += rollData.attributes?.spells?.school?.[item.system.school]?.cl ?? 0;
-  }
-});

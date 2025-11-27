@@ -16,6 +16,16 @@ export function onGetRollData(doc, rollData) {
 				// Add alias
 				if (book.class && book.class !== "_hd") rollData.psionics[book.class] ??= book;
 			}
+		} else if (doc instanceof pf1.components.ItemAction) {
+			const action = doc;
+			const item = action.item;
+
+			// Add school CL bonus for powers (Psionics-Magic Transparency)
+			// The PF1 system only adds this for spells, so we need to add it for powers
+			if (item?.type === `${MODULE_ID}.power` && item.system.school) {
+				// Add per school CL bonus (same as PF1 does for spells)
+				rollData.cl += rollData.attributes?.spells?.school?.[item.system.school]?.cl ?? 0;
+			}
 		}
 	} catch (_error) {
 		return;
