@@ -2,22 +2,7 @@ import { MODULE_ID } from "../_module.mjs";
 import { PowerSheet } from "../applications/_module.mjs";
 import { PowerModel } from "../dataModels/_module.mjs";
 import { PowerItem } from "../documents/_module.mjs";
-
-/**
- * Mapping of psionic disciplines to their equivalent spell schools
- * for Psionics-Magic Transparency.
- *
- * @type {Object<string, string|null>}
- */
-const DISCIPLINE_TO_SCHOOL = {
-  athanatism: "nec",
-  clairsentience: "div",
-  metacreativity: "con",
-  psychokinesis: "evo",
-  psychometabolism: "trs",
-  psychoportation: null, // No spell school equivalent
-  telepathy: "enc"
-};
+import { DISCIPLINE_TO_SCHOOL } from "../data/disciplines.mjs";
 
 export function initHook() {
   registerSettings();

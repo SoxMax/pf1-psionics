@@ -1,20 +1,5 @@
 import { AugmentModel } from "./augment-model.mjs";
-
-/**
- * Mapping of psionic disciplines to their equivalent spell schools
- * for Psionics-Magic Transparency.
- *
- * @type {Object<string, string|null>}
- */
-const DISCIPLINE_TO_SCHOOL = {
-  athanatism: "nec",
-  clairsentience: "div",
-  metacreativity: "con",
-  psychokinesis: "evo",
-  psychometabolism: "trs",
-  psychoportation: null, // No spell school equivalent
-  telepathy: "enc"
-};
+import { DISCIPLINE_TO_SCHOOL } from "../../data/disciplines.mjs";
 
 export class PowerModel extends foundry.abstract.TypeDataModel {
   static defineSchema() {
