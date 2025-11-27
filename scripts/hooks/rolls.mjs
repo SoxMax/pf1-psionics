@@ -1,4 +1,4 @@
-import { MODULE_ID } from "./_module.mjs";
+import { MODULE_ID } from "../_module.mjs";
 
 /**
  * @param {ActorPF | ItemPF | ItemAction} doc
