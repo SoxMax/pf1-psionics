@@ -28,7 +28,7 @@ Features
 * **597 Powers** with full mechanics
 * **309 Feats**
 * **12 Classes**: Aegis, Cryptic, Dread, Highlord, Marksman, Psion, Psychic Warrior, Soulknife, Tactician, Vitalist, Voyager, Wilder
-* **161 Races** and variants
+* **10 Races** with racial traits
 * **Rules** documentation
 
 ### Installing in FoundryVTT

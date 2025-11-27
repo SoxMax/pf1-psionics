@@ -1,4 +1,5 @@
 import { AugmentModel } from "./augment-model.mjs";
+import { DISCIPLINE_TO_SCHOOL } from "../../data/disciplines.mjs";
 
 export class PowerModel extends foundry.abstract.TypeDataModel {
   static defineSchema() {
@@ -104,6 +105,10 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
     // Alias manifestor as spellbook for PF1 chat button compatibility
     // This allows PF1's concentration chat button to work with powers
     this.spellbook = this.manifestor;
+
+    // Set school for Psionics-Magic Transparency
+    // Maps psionic discipline to equivalent spell school
+    this.school = DISCIPLINE_TO_SCHOOL[this.discipline];
   }
 
   /**

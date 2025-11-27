@@ -2,6 +2,7 @@ import {readyHook} from "./hooks/ready.mjs";
 import {i18nHook} from "./hooks/i18n.mjs";
 import {initHook} from "./hooks/init.mjs";
 import {setupHook} from "./hooks/setup.mjs";
+import {onGetRollData} from "./hooks/rolls.mjs";
 import {
   injectActorPF,
   onPreCreateActor,
@@ -15,7 +16,6 @@ import {injectItemAction} from "./documents/action/action.mjs";
 import {injectActionUse, pf1PreActionUseHook} from "./documents/action/action-use.mjs";
 import {renderAttackDialogHook} from "./documents/action/attack-dialog.mjs";
 import {onCreateItemHook} from "./documents/item/item.mjs";
-import {onGetRollData} from "./utils.mjs";
 import {renderItemActionSheetHook} from "./applications/item/action-sheet.mjs";
 
 /**
