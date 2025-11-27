@@ -1,7 +1,7 @@
 import {MODULE_ID} from "../../_module.mjs";
 import {POINTS_PER_LEVEL, POWER_POINTS_FLAG, PSIONIC_FOCUS_FLAG} from "../../data/powerpoints.mjs";
-import {MANIFESTORS} from "../../data/manifestors.mjs";
-import {SpellRanges} from "./utils/manifestor.mjs";
+import {MANIFESTERS} from "../../data/manifesters.mjs";
+import {SpellRanges} from "./utils/manifester.mjs";
 
 export function onPreCreateActor(document, _data, _options, _userId) {
   if (!["character", "npc"].includes(document.type)) return;
@@ -36,7 +36,7 @@ export function onPreCreateActor(document, _data, _options, _userId) {
 
   const psionicsFlags = {
     [`flags.${MODULE_ID}`]: {
-      manifestors: MANIFESTORS,
+      manifesters: MANIFESTERS,
       powerPoints: POWER_POINTS_FLAG,
       focus: PSIONIC_FOCUS_FLAG,
     },
@@ -49,8 +49,8 @@ export function pf1PrepareBaseActorData(_actor) {
 }
 
 export function pf1PrepareDerivedActorData(actor) {
-  if (actor.getFlag(MODULE_ID, "manifestors")) {
-    deriveManifestorsInfo(actor);
+  if (actor.getFlag(MODULE_ID, "manifesters")) {
+    deriveManifestersInfo(actor);
     deriveTotalPowerPoints(actor);
     deriveTotalFocus(actor);
   }
@@ -61,11 +61,11 @@ export function pf1ActorRest(actor, _options, _updateData, _itemUpdates) {
   rechargeFocus(actor);
 }
 
-function deriveManifestorsInfo(actor) {
+function deriveManifestersInfo(actor) {
   const rollData = actor.getRollData({refresh: true});
-  const manifestors = actor.getFlag(MODULE_ID, "manifestors");
-  for (const [bookId, manifestor] of Object.entries(manifestors)) {
-    deriveManifestorInfo(actor, rollData, bookId, manifestor);
+  const manifesters = actor.getFlag(MODULE_ID, "manifesters");
+  for (const [bookId, manifester] of Object.entries(manifesters)) {
+    deriveManifesterInfo(actor, rollData, bookId, manifester);
     delete rollData.class;
     delete rollData.classLevel;
     delete rollData.cl;
@@ -74,7 +74,7 @@ function deriveManifestorsInfo(actor) {
   }
 }
 
-function deriveManifestorInfo(actor, rollData, bookId, book) {
+function deriveManifesterInfo(actor, rollData, bookId, book) {
   book.label = getBookLabel(actor, bookId, book);
   // Stop calculating data for unused books
   if (!book.inUse) return;
@@ -88,7 +88,7 @@ function deriveManifestorInfo(actor, rollData, bookId, book) {
   calculateConcentration(actor, rollData, bookId, book);
   calculatePowerPoints(actor, rollData, bookId, book);
 
-  // Set manifestor ranges
+  // Set manifester ranges
   book.range = new SpellRanges(book.cl.total);
 }
 
@@ -100,7 +100,7 @@ function getBookLabel(actor, bookId, book) {
   // If the book has a class associated use that
   if (book.class) {
     if (book.class === "_hd") {
-      return game.i18n.localize("PF1-Psionics.Manifestors.Spelllike");
+      return game.i18n.localize("PF1-Psionics.Manifesters.Spelllike");
     } else {
       const bookClassId = actor.classes[book.class]?._id;
       const bookClass = actor.items.get(bookClassId);
@@ -116,7 +116,7 @@ function getBookLabel(actor, bookId, book) {
 
 function calculateCasterLevel(actor, rollData, bookId, book) {
   let clTotal = 0;
-  const key = `flags.${MODULE_ID}.manifestors.${bookId}.cl.total`;
+  const key = `flags.${MODULE_ID}.manifesters.${bookId}.cl.total`;
   const formula = book.cl.formula || "0";
   let classLevelTotal = 0;
 
@@ -188,7 +188,7 @@ function calculateConcentration(actor, rollData, bookId, book) {
 
   // Set source info function
   const setSourceInfoByName = pf1.documents.actor.changes.setSourceInfoByName;
-  const key = `flags.${MODULE_ID}.manifestors.${bookId}.concentration.total`;
+  const key = `flags.${MODULE_ID}.manifesters.${bookId}.concentration.total`;
   setSourceInfoByName(
       actor.sourceInfo,
       key,
@@ -235,11 +235,11 @@ function calculatePowerPoints(actor, rollData, bookId, book) {
 
 function deriveTotalPowerPoints(actor) {
   const powerPoints = actor.getFlag(MODULE_ID, "powerPoints") ?? POWER_POINTS_FLAG;
-  const manifestors = actor.getFlag(MODULE_ID, "manifestors") ?? {};
+  const manifesters = actor.getFlag(MODULE_ID, "manifesters") ?? {};
   // Preserve any bonus already applied to maximum via buffs; recompute base then add existing bonus difference
-  const baseMax = Object.values(manifestors).
-      filter((manifestor) => manifestor.inUse).
-      reduce((sum, manifestor) => sum + (manifestor.powerPoints?.max ?? 0), 0);
+  const baseMax = Object.values(manifesters).
+      filter((manifester) => manifester.inUse).
+      reduce((sum, manifester) => sum + (manifester.powerPoints?.max ?? 0), 0);
   // If buffs have modified maximum, keep the modified value by not overwriting when existingMax > baseMax
   powerPoints.maximum = (powerPoints.maximum || 0) + baseMax;
 }
@@ -293,14 +293,14 @@ export function injectActorPF() {
       }, "MIXED");
 }
 
-async function rollPsionicConcentration(manifestorId, options = {}) {
-  const manifestor = this.getFlag(MODULE_ID, "manifestors")?.[manifestorId];
+async function rollPsionicConcentration(manifesterId, options = {}) {
+  const manifester = this.getFlag(MODULE_ID, "manifesters")?.[manifesterId];
   const rollData = options.rollData ?? this.getRollData();
-  rollData.cl = manifestor.cl.total;
-  rollData.mod = this.system.abilities[manifestor.ability]?.mod ?? 0;
+  rollData.cl = manifester.cl.total;
+  rollData.mod = this.system.abilities[manifester.ability]?.mod ?? 0;
 
   if (
-      Hooks.call("actorRoll", "pf1PreActorRollConcentration", undefined, this, "concentration", manifestorId, options) ===
+      Hooks.call("actorRoll", "pf1PreActorRollConcentration", undefined, this, "concentration", manifesterId, options) ===
       false
   )
     return;
@@ -310,10 +310,10 @@ async function rollPsionicConcentration(manifestorId, options = {}) {
 
   const describePart = (value, label) => parts.push(`${value}[${label}]`);
   const srcDetails = (s) => s?.reverse().forEach((d) => describePart(d.value, d.name, -10));
-  srcDetails(this.getSourceDetails(`flags.${MODULE_ID}.manifestors.${manifestorId}.concentration.total`));
+  srcDetails(this.getSourceDetails(`flags.${MODULE_ID}.manifesters.${manifesterId}.concentration.total`));
 
   // Add contextual concentration string
-  const notes = await this.getContextNotesParsed(`spell.concentration.${manifestorId}`, { rollData });
+  const notes = await this.getContextNotesParsed(`spell.concentration.${manifesterId}`, { rollData });
 
   // Wound Threshold penalty
   const wT = this.getWoundThresholdData();
@@ -329,30 +329,30 @@ async function rollPsionicConcentration(manifestorId, options = {}) {
     ...options,
     parts,
     rollData,
-    subject: { core: "concentration", spellbook: manifestorId },
+    subject: { core: "concentration", spellbook: manifesterId },
     flavor: game.i18n.localize("PF1.ConcentrationCheck"),
     chatTemplateData: { properties: props },
     speaker: ChatMessage.implementation.getSpeaker({ actor: this, token }),
   };
-  if (Hooks.call("pf1PreActorRollConcentration", this, rollOptions, manifestorId) === false) return;
+  if (Hooks.call("pf1PreActorRollConcentration", this, rollOptions, manifesterId) === false) return;
   const result = await pf1.dice.d20Roll(rollOptions);
-  Hooks.callAll("pf1ActorRollConcentration", this, result, manifestorId);
+  Hooks.callAll("pf1ActorRollConcentration", this, result, manifesterId);
   return result;
 }
 
-async function rollPsionicCL(manifestorId, options = {}) {
-  const manifestor = this.getFlag(MODULE_ID, "manifestors")?.[manifestorId];
+async function rollPsionicCL(manifesterId, options = {}) {
+  const manifester = this.getFlag(MODULE_ID, "manifesters")?.[manifesterId];
   const rollData = options.rollData ?? this.getRollData();
-  rollData.cl = manifestor.cl.total;
+  rollData.cl = manifester.cl.total;
 
   // Set up roll parts
   const parts = [];
 
-  const sources = this.getSourceDetails(`flags.${MODULE_ID}.manifestors.${manifestorId}.cl.total`);
+  const sources = this.getSourceDetails(`flags.${MODULE_ID}.manifesters.${manifesterId}.cl.total`);
   for (const src of sources.reverse()) {
     if (src.id === "woundThreshold") {
       // Adjust WT part to how much WT actually adjusted CL, to account for minimum CL
-      const wt = manifestor.cl.woundPenalty || 0;
+      const wt = manifester.cl.woundPenalty || 0;
       if (wt) parts.push(`${wt}[${src.name}]`);
       continue;
     }
@@ -360,7 +360,7 @@ async function rollPsionicCL(manifestorId, options = {}) {
   }
 
   // Add contextual caster level string
-  const notes = await this.getContextNotesParsed(`spell.cl.${manifestorId}`, { rollData });
+  const notes = await this.getContextNotesParsed(`spell.cl.${manifesterId}`, { rollData });
 
   // Wound Threshold penalty
   const wT = this.getWoundThresholdData();
@@ -375,13 +375,13 @@ async function rollPsionicCL(manifestorId, options = {}) {
     ...options,
     parts,
     rollData,
-    subject: { core: "cl", spellbook: manifestorId },
+    subject: { core: "cl", spellbook: manifesterId },
     flavor: game.i18n.localize("PF1.CasterLevelCheck"),
     chatTemplateData: { properties: props },
     speaker: ChatMessage.implementation.getSpeaker({ actor: this, token }),
   };
-  if (Hooks.call("pf1PreActorRollCl", this, rollOptions, manifestorId) === false) return;
+  if (Hooks.call("pf1PreActorRollCl", this, rollOptions, manifesterId) === false) return;
   const result = await pf1.dice.d20Roll(rollOptions);
-  Hooks.callAll("pf1ActorRollCl", this, result, manifestorId);
+  Hooks.callAll("pf1ActorRollCl", this, result, manifesterId);
   return result;
 }

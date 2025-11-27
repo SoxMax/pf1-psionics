@@ -268,7 +268,7 @@ function parsePowerData(html, url) {
       sr: true,
       known: false,
       prepared: false,
-      manifestor: '',
+      manifester: '',
       uses: {
         autoDeductChargesCost: 'max(0, @sl * 2 - 1)' // Default power point formula
       }
@@ -526,7 +526,7 @@ function parsePowerData(html, url) {
     // Set action type based on save
     if (action.save.type) {
       action.actionType = 'save';
-      // Removed default base DC formula; base now comes from manifestor (psibook)
+      // Removed default base DC formula; base now comes from manifester (psibook)
       // action.save.dc = '10 + @sl + @ablMod';
     }
 

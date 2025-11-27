@@ -117,18 +117,18 @@
 
       <h3 class="form-header">{{localize "PF1.SpellBook"}}</h3>
 
-      {{!-- Manifestor --}}
+      {{!-- Manifester --}}
       {{#if owned}}
       <div class="form-group">
-        <label>{{localize "PF1-Psionics.Class.Manifestor"}}</label>
+        <label>{{localize "PF1-Psionics.Class.Manifester"}}</label>
         <div class="form-fields">
-          <select name="system.manifestor">
-            {{selectOptions manifestorChoices selected=system.manifestor}}
+          <select name="system.manifester">
+            {{selectOptions manifesterChoices selected=system.manifester}}
           </select>
         </div>
       </div>
       {{else}}
-      <input type="hidden" name="system.manifestor" value="">
+      <input type="hidden" name="system.manifester" value="">
       {{/if}}
 
       {{!-- Spell Level --}}
@@ -145,8 +145,8 @@
 
       <div class="form-group">
         <div class="data-selector">
-          <a class="entry-selector" data-for="system.learnedAt.class" data-fields="PF1-Psionics.Class.Manifestor;PF1.Level" data-dtypes="String;Number" data-flag="true" data-title="PF1.LearnedAt"><i class="fa-solid fa-edit" inert></i></a>
-          <label>{{localize "PF1-Psionics.Class.Manifestor"}}</label>
+          <a class="entry-selector" data-for="system.learnedAt.class" data-fields="PF1-Psionics.Class.Manifester;PF1.Level" data-dtypes="String;Number" data-flag="true" data-title="PF1.LearnedAt"><i class="fa-solid fa-edit" inert></i></a>
+          <label>{{localize "PF1-Psionics.Class.Manifester"}}</label>
         </div>
       </div>
 

@@ -6,7 +6,7 @@ export async function renderActorHook(app, html, data) {
   if (actor.flags?.core?.sheetClass !== "pf1alt.AltActorSheetPFCharacter") {
     // Inject Settings
     injectSettings(app, html, data);
-    // Inject Psionics Manifestors Tab
+    // Inject Psionics Manifesters Tab
     await injectPsionicsTab(app, html, data);
     adjustActiveTab(app);
   }
@@ -16,7 +16,7 @@ export function injectActorSheetPF() {
   libWrapper.register(MODULE_ID, "pf1.applications.actor.ActorSheetPF.prototype._prepareItems", function (wrapped, context) {
     wrapped(context);
     context.psionics = {};
-    prepareManifestors(this, context);
+    prepareManifesters(this, context);
     context.psionics.powerPoints = this.actor.getFlag(MODULE_ID, "powerPoints");
     context.psionics.focus = this.actor.getFlag(MODULE_ID, "focus");
   }, "WRAPPER");
@@ -29,23 +29,23 @@ export function injectActorSheetPF() {
   // Handle drag and drop for powers
   libWrapper.register(MODULE_ID, "pf1.applications.actor.ActorSheetPF.prototype._alterDropItemData", async function (wrapped, data, source) {
       wrapped(data, source);
-      // Set manifestor to currently viewed one
+      // Set manifester to currently viewed one
       if (data.type === `${MODULE_ID}.power`) {
-          data.system.manifestor = this._tabs.find((t) => t.group === "manifestors")?.active || "primary";
+          data.system.manifester = this._tabs.find((t) => t.group === "manifesters")?.active || "primary";
       }
   }, "WRAPPER");
 }
 
 function adjustActiveTab(app) {
   // If we saved an active tab name, re-activate it.
-  if (app._activeTab === "manifestor") {
+  if (app._activeTab === "manifester") {
     app.activateTab(app._activeTab);
   }
 }
 
 function injectSettings(app, html, data) {
   injectPsionicsDiv(app, html);
-  injectManifestorCheckboxes(app, html, data);
+  injectManifesterCheckboxes(app, html, data);
 }
 
 function injectPsionicsDiv(app, html) {
@@ -65,51 +65,51 @@ function injectPsionicsDiv(app, html) {
   div.append(formGroup);
 }
 
-function getManifestorName(bookId, manifestor) {
-  if (manifestor.label) {
-    return manifestor.label;
+function getManifesterName(bookId, manifester) {
+  if (manifester.label) {
+    return manifester.label;
   }
-  return game.i18n.localize(`PF1-Psionics.Manifestors.${bookId.capitalize()}`);
+  return game.i18n.localize(`PF1-Psionics.Manifesters.${bookId.capitalize()}`);
 }
 
-function injectManifestorCheckboxes(app, html, data) {
+function injectManifesterCheckboxes(app, html, data) {
   const controls = html.find(".pf1-psionics-div .stacked")[0];
-  for (const [bookId, manifestor] of Object.entries(data.actor.getFlag(MODULE_ID, "manifestors"))) {
+  for (const [bookId, manifester] of Object.entries(data.actor.getFlag(MODULE_ID, "manifesters"))) {
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
-    checkbox.name = `flags.${MODULE_ID}.manifestors.${bookId}.inUse`;
+    checkbox.name = `flags.${MODULE_ID}.manifesters.${bookId}.inUse`;
     checkbox.id = checkbox.name;
-    if (manifestor.inUse)
+    if (manifester.inUse)
       checkbox.checked = true;
     const label = document.createElement("label");
     label.append(checkbox);
-    label.append(getManifestorName(bookId, manifestor));
+    label.append(getManifesterName(bookId, manifester));
     label.classList.add("checkbox");
     controls.append(label);
   }
 }
 
 async function injectPsionicsTab(app, html, data) {
-  if (Object.values(data.manifestorData).some((manifestor) => manifestor.inUse)) {
+  if (Object.values(data.manifesterData).some((manifester) => manifester.inUse)) {
     const tabSelector = html.find("a[data-tab=skills]");
     const psionicsTab = document.createElement("a");
     psionicsTab.classList.add("item");
-    psionicsTab.dataset["tab"] = "manifestor";
+    psionicsTab.dataset["tab"] = "manifester";
     psionicsTab.dataset["group"] = "primary";
     psionicsTab.innerHTML = game.i18n.localize("PF1-Psionics.TabName");
     tabSelector.after(psionicsTab);
 
-    const psionicsBody = await foundry.applications.handlebars.renderTemplate("modules/pf1-psionics/templates/actor/actor-manifestor-front.hbs", data);
+    const psionicsBody = await foundry.applications.handlebars.renderTemplate("modules/pf1-psionics/templates/actor/actor-manifester-front.hbs", data);
     const bodySelector = html.find("div.tab[data-tab=skills]");
     bodySelector.after(psionicsBody);
 
-    var tab = app._tabs.find((element) => element.group == "manifestors");
+    var tab = app._tabs.find((element) => element.group == "manifesters");
     if (!tab) {
       tab = new foundry.applications.ux.Tabs({
-        navSelector: "nav.tabs[data-group='manifestors']",
-        contentSelector: "section.manifestors-body",
+        navSelector: "nav.tabs[data-group='manifesters']",
+        contentSelector: "section.manifesters-body",
         initial: "primary",
-        group: "manifestors",
+        group: "manifesters",
       });
     }
     tab.bind(html[0]);
@@ -122,23 +122,23 @@ async function injectPsionicsTab(app, html, data) {
 function onRollConcentration(event) {
   event.preventDefault();
 
-  const manifestorKey = $(event.currentTarget).closest(".manifestor-group").data("tab");
-  this.actor.rollConcentration(manifestorKey, { token: this.token, isPsionic: true });
+  const manifesterKey = $(event.currentTarget).closest(".manifester-group").data("tab");
+  this.actor.rollConcentration(manifesterKey, { token: this.token, isPsionic: true });
 }
 
 function onRollCL(event) {
   event.preventDefault();
 
-  const manifestorKey = $(event.currentTarget).closest(".manifestor-group").data("tab");
-  this.actor.rollCL(manifestorKey, { token: this.token, isPsionic: true });
+  const manifesterKey = $(event.currentTarget).closest(".manifester-group").data("tab");
+  this.actor.rollCL(manifesterKey, { token: this.token, isPsionic: true });
 }
 
 function onToggleConfig(event) {
   const element = event.currentTarget;
   const dataset = element.dataset;
-  const manifestors = this.actor.getFlag(MODULE_ID, "manifestors");
-  const currentToggle = manifestors[dataset.manifestor].showConfig;
-  const configFlag = { [`flags.${MODULE_ID}.manifestors.${dataset.manifestor}.showConfig`]: !currentToggle };
+  const manifesters = this.actor.getFlag(MODULE_ID, "manifesters");
+  const currentToggle = manifesters[dataset.manifester].showConfig;
+  const configFlag = { [`flags.${MODULE_ID}.manifesters.${dataset.manifester}.showConfig`]: !currentToggle };
   this.actor.update(configFlag);
   this._forceShowPowerTab = true;
 }
@@ -157,7 +157,7 @@ function onItemCreate(event) {
     type: type,
     system: {
       level: parseInt(dataset.level),
-      manifestor: dataset.book,
+      manifester: dataset.book,
     }
   };
   PowerItem.create(powerData, { parent: actor, renderSheet: true });
@@ -179,52 +179,52 @@ async function onBrowsePowers(event) {
 }
 
 function injectEventListeners(app, html, _data) {
-  const psionicsTabBody = html.find("div.tab[data-tab=manifestor]");
+  const psionicsTabBody = html.find("div.tab[data-tab=manifester]");
   psionicsTabBody.find("span.text-box.direct").on("click", (event) => {
     app._onSpanTextInput(event, app._adjustActorPropertyBySpan.bind(app));
   });
 
-  const manifestorsBodyElement = psionicsTabBody.find(".manifestors-body");
+  const manifestersBodyElement = psionicsTabBody.find(".manifesters-body");
 
-  manifestorsBodyElement.find(".spellcasting-concentration.rollable").click(onRollConcentration.bind(app));
-  manifestorsBodyElement.find(".spellcasting-cl.rollable").click(onRollCL.bind(app));
+  manifestersBodyElement.find(".spellcasting-concentration.rollable").click(onRollConcentration.bind(app));
+  manifestersBodyElement.find(".spellcasting-cl.rollable").click(onRollCL.bind(app));
 
   // Bind Events
-  // manifestorsBodyElement.find("a.hide-show").click(app._hideShowElement.bind(app));
-  manifestorsBodyElement.find("a.toggle-config").click(onToggleConfig.bind(app));
+  // manifestersBodyElement.find("a.hide-show").click(app._hideShowElement.bind(app));
+  manifestersBodyElement.find("a.toggle-config").click(onToggleConfig.bind(app));
 
-  manifestorsBodyElement.find(".item-create").click(onItemCreate.bind(app));
-  manifestorsBodyElement.find(".item-edit").click(app._onItemEdit.bind(app));
-  manifestorsBodyElement.find(".item-duplicate").click(app._duplicateItem.bind(app));
-  manifestorsBodyElement.find(".item-delete").click(app._onItemDelete.bind(app));
+  manifestersBodyElement.find(".item-create").click(onItemCreate.bind(app));
+  manifestersBodyElement.find(".item-edit").click(app._onItemEdit.bind(app));
+  manifestersBodyElement.find(".item-duplicate").click(app._duplicateItem.bind(app));
+  manifestersBodyElement.find(".item-delete").click(app._onItemDelete.bind(app));
   // Item Action control
-  manifestorsBodyElement.find(".item-actions a.item-action").click(app._itemActivationControl.bind(app));
+  manifestersBodyElement.find(".item-actions a.item-action").click(app._itemActivationControl.bind(app));
   // Browse powers compendium
-  manifestorsBodyElement.find("a[data-action='browse']").click(onBrowsePowers.bind(app));
+  manifestersBodyElement.find("a[data-action='browse']").click(onBrowsePowers.bind(app));
 }
 
-function prepareManifestors(sheet, context) {
+function prepareManifesters(sheet, context) {
   const powers = context.items.filter((item) => item.type === `${MODULE_ID}.power`);
 
-  const manifestors = Object.entries(context.actor.getFlag(MODULE_ID, "manifestors"))
-    .map(([manifestorId, manifestorData]) => {
+  const manifesters = Object.entries(context.actor.getFlag(MODULE_ID, "manifesters"))
+    .map(([manifesterId, manifesterData]) => {
       // Create a shallow copy to avoid mutating the original flag data
-      const manifestor = { ...manifestorData };
-      if (!manifestor.inUse) return [manifestorId, manifestor];
-      const manifestorPowers = powers.filter((obj) => obj.manifestor === manifestorId);
-      manifestor.sections = prepareManifestorPowerLevels(context, manifestorId, manifestor, manifestorPowers);
-      manifestor.rollData = context.rollData.psionics[manifestorId];
-      manifestor.classId = manifestor.class;
-      manifestor.class = context.rollData.classes[manifestor.class];
-      return [manifestorId, manifestor];
+      const manifester = { ...manifesterData };
+      if (!manifester.inUse) return [manifesterId, manifester];
+      const manifesterPowers = powers.filter((obj) => obj.manifester === manifesterId);
+      manifester.sections = prepareManifesterPowerLevels(context, manifesterId, manifester, manifesterPowers);
+      manifester.rollData = context.rollData.psionics[manifesterId];
+      manifester.classId = manifester.class;
+      manifester.class = context.rollData.classes[manifester.class];
+      return [manifesterId, manifester];
     });
-  const isManifestor = manifestors.some(([_manifestorId, manifestor]) => manifestor.inUse);
+  const isManifester = manifesters.some(([_manifesterId, manifester]) => manifester.inUse);
 
-  context.manifestorData = Object.fromEntries(manifestors);
-  context.usesAnyManifestor = isManifestor;
+  context.manifesterData = Object.fromEntries(manifesters);
+  context.usesAnyManifester = isManifester;
 
-  // Class selection list, only used by manifestors
-  if (isManifestor) {
+  // Class selection list, only used by manifesters
+  if (isManifester) {
     const lang = game.settings.get("core", "language");
     const allClasses = sheet.actor.itemTypes.class
       .map((cls) => [cls.system.tag, cls.name])
@@ -232,7 +232,7 @@ function prepareManifestors(sheet, context) {
     allClasses.unshift(["_hd", game.i18n.localize("PF1.HitDie")]);
     context.classList = Object.fromEntries(allClasses);
   }
-  if (isManifestor) {
+  if (isManifester) {
     context.choices.casterProgression = Object.fromEntries(
       Object.entries(pf1.config.caster.progression).map(([key, data]) => [key, data.label])
     );
@@ -243,46 +243,46 @@ function prepareManifestors(sheet, context) {
 }
 
 /**
- * Insert a power into the manifestor object when rendering the character sheet
+ * Insert a power into the manifester object when rendering the character sheet
  *
  * @internal
  * @param {object} data - The Actor data being prepared
- * @param {string} manifestorId - The key of the manifestor being prepared
- * @param {object} manifestor - The manifestor data being prepared
+ * @param {string} manifesterId - The key of the manifester being prepared
+ * @param {object} manifester - The manifester data being prepared
  * @param {Array} powers - The power data being prepared
- * @returns {object} - Manifestor data
+ * @returns {object} - Manifester data
  */
-function prepareManifestorPowerLevels(data, manifestorId, manifestor, powers) {
-  if (!manifestor) return;
+function prepareManifesterPowerLevels(data, manifesterId, manifester, powers) {
+  if (!manifester) return;
 
-  const minPowerLevel = manifestor.hasCantrips ? 0 : 1;
+  const minPowerLevel = manifester.hasCantrips ? 0 : 1;
   const maxPowerLevel = (() => {
     let casterTypeMax = 9;
-    if (manifestor.casterType === "med") casterTypeMax = 6;
-    else if (manifestor.casterType === "low") casterTypeMax = 4;
-    if (manifestor.autoMaxPowerLevel) {
-      const cl = manifestor.cl?.classLevelTotal ?? 0;
+    if (manifester.casterType === "med") casterTypeMax = 6;
+    else if (manifester.casterType === "low") casterTypeMax = 4;
+    if (manifester.autoMaxPowerLevel) {
+      const cl = manifester.cl?.classLevelTotal ?? 0;
       let divisor = 2;
-      if (manifestor.casterType === "med") divisor = 3;
-      else if (manifestor.casterType === "low") divisor = 4;
+      if (manifester.casterType === "med") divisor = 3;
+      else if (manifester.casterType === "low") divisor = 4;
       return Math.clamp(1 + Math.floor((cl - 1) / divisor), minPowerLevel, casterTypeMax);
     }
     return casterTypeMax;
   })();
 
   /** @type {AbilityScoreData} */
-  const manifestorAbility = data.actor.system.abilities[manifestor.ability];
-  const maxLevelByAblScore = (manifestorAbility?.total ?? 0) - 10;
-  const maxPowerPoints = manifestor.powerPoints.max ?? 0;
+  const manifesterAbility = data.actor.system.abilities[manifester.ability];
+  const maxLevelByAblScore = (manifesterAbility?.total ?? 0) - 10;
+  const maxPowerPoints = manifester.powerPoints.max ?? 0;
 
-  // Reduce spells to the nested manifestor structure
-  const manifestorLevels = [];
+  // Reduce spells to the nested manifester structure
+  const manifesterLevels = [];
   for (let level = 0; level < 10; level++) {
     const lowAbilityScore = level > maxLevelByAblScore;
     const valid = (level * 2) - 1 <= maxPowerPoints;
     const hasIssues = valid && lowAbilityScore;
 
-    manifestorLevels[level] = {
+    manifesterLevels[level] = {
       id: `level-${level}`,
       level,
       label: game.i18n.localize(`PF1-Psionics.Powers.Levels.${level}`),
@@ -306,19 +306,19 @@ function prepareManifestorPowerLevels(data, manifestorId, manifestor, powers) {
   // Sort spells into their respective levels
   for (const power of powers) {
     const lvl = power.level ?? minPowerLevel;
-    const levelData = manifestorLevels[lvl] ?? invalidLevelData;
+    const levelData = manifesterLevels[lvl] ?? invalidLevelData;
 
     levelData.items.push(power);
   }
 
   // Mark cantrips as invalid if it shouldn't exist
-  if (!manifestor.hasCantrips) manifestorLevels[0].valid = false;
+  if (!manifester.hasCantrips) manifesterLevels[0].valid = false;
 
   // Append invalid level if it has anything
-  if (invalidLevelData.items.length) manifestorLevels.push(invalidLevelData);
+  if (invalidLevelData.items.length) manifesterLevels.push(invalidLevelData);
 
   // Return only levels with something
-  return manifestorLevels.filter((levelData) => {
+  return manifesterLevels.filter((levelData) => {
     if (!levelData) return false;
     if (levelData.items.length > 0) return true;
     const { level } = levelData;

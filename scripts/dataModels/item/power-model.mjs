@@ -90,7 +90,7 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
       }),
       known: new BooleanField({initial: false}),
       prepared: new BooleanField({initial: false}),
-      manifestor: new StringField({initial: ""}),
+      manifester: new StringField({initial: ""}),
       sr: new BooleanField({initial: true}),
       augments: new ArrayField(new EmbeddedDataField(AugmentModel), { required: false, initial: [] }),
     };
@@ -102,9 +102,9 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
   prepareBaseData() {
     super.prepareBaseData();
 
-    // Alias manifestor as spellbook for PF1 chat button compatibility
+    // Alias manifester as spellbook for PF1 chat button compatibility
     // This allows PF1's concentration chat button to work with powers
-    this.spellbook = this.manifestor;
+    this.spellbook = this.manifester;
 
     // Set school for Psionics-Magic Transparency
     // Maps psionic discipline to equivalent spell school

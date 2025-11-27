@@ -8,11 +8,11 @@ export function renderItemHook(app, html, data) {
 
 async function injectManifesting(app, html, data) {
   if (app.document?.actor)
-    data.hasManifestor = Object.values(data.rollData.psionics ?? {}).some(
-        (manifestor) => !!manifestor.class && manifestor.class === app.document.system.tag && manifestor.inUse
+    data.hasManifester = Object.values(data.rollData.psionics ?? {}).some(
+        (manifester) => !!manifester.class && manifester.class === app.document.system.tag && manifester.inUse
     );
   else {
-    data.hasManifestor = true; // Not true, but avoids unwanted behaviour.
+    data.hasManifester = true; // Not true, but avoids unwanted behaviour.
   }
 	data.manifesting = {
 		progression: {
@@ -26,8 +26,8 @@ async function injectManifesting(app, html, data) {
 	let previousSelect = html.find("select[name='system.savingThrows.will.value']");
 	previousSelect.parent().after(manifestingConfig);
 
-	// Add event listener for create-manifestor button
-	html.find("button[name='create-manifestor']").on("click", async (event) => {
+	// Add event listener for create-manifester button
+	html.find("button[name='create-manifester']").on("click", async (event) => {
 		event.preventDefault();
 		await addClassManifester(app.document);
 	});

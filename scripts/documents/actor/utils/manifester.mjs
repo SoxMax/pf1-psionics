@@ -1,7 +1,7 @@
 /**
- * Manifestor details.
+ * Manifester details.
  */
-export class Manifestor {
+export class Manifester {
   /**
    * Book key.
    */
@@ -13,7 +13,7 @@ export class Manifestor {
   actor;
 
   /**
-   * Raw manifestor data.
+   * Raw manifester data.
    */
   data;
 
@@ -36,7 +36,7 @@ export class Manifestor {
   }
 
   /**
-   * Add spell to the manifestor and to its appropriate level.
+   * Add spell to the manifester and to its appropriate level.
    *
    * @param {ItemSpellPF} spell
    */
@@ -51,7 +51,7 @@ export class Manifestor {
     }
 
     // Ensure appropriate spell level exists
-    this.level[level] ??= new ManifestorLevel(this);
+    this.level[level] ??= new ManifesterLevel(this);
 
     // Add spell to the spell level also
     this.level[level].spells.push(spell);
@@ -59,9 +59,9 @@ export class Manifestor {
 }
 
 /**
- * Manifestor leveled details.
+ * Manifester leveled details.
  */
-export class ManifestorLevel {
+export class ManifesterLevel {
   /**
    * Owning book.
    */
@@ -77,7 +77,7 @@ export class ManifestorLevel {
   }
 }
 
-export class ManifestorSlots {
+export class ManifesterSlots {
   level = 0;
   max = 0;
   value = 0;
@@ -125,7 +125,7 @@ export class SpellRanges {
   }
 }
 
-export class ManifestorMode {
+export class ManifesterMode {
   raw;
 
   #spontaneous = false;

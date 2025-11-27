@@ -208,15 +208,15 @@ export const MIGRATIONS = {
 
 ### Adding a New Flag (v0.3.0)
 
-This migration added the `manifestors` flag to all actors:
+This migration added the `manifesters` flag to all actors:
 
 ```javascript
 export async function migrateToVersion030() {
     for (const actor of game.actors.contents) {
         if (!isValidActor(actor)) continue;
 
-        if (!actor.getFlag("pf1-psionics", "manifestors")) {
-            await actor.setFlag("pf1-psionics", "manifestors", MANIFESTORS);
+        if (!actor.getFlag("pf1-psionics", "manifesters")) {
+            await actor.setFlag("pf1-psionics", "manifesters", MANIFESTERS);
         }
     }
 }
