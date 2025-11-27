@@ -1,7 +1,7 @@
 _id: G4DM7cYq2nH1QlP5
 _key: '!items!G4DM7cYq2nH1QlP5'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Dream_Message
@@ -10,14 +10,24 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Dream Message
 system:
   actions:
-    - actionType: msak
+    - _id: tZaTIjY9rEntuywI
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: msak
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: spec
         value: See text
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: unlimited
         value: Unlimited
@@ -80,6 +90,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

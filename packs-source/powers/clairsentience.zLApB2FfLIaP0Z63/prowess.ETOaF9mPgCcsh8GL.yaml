@@ -1,7 +1,7 @@
 _id: ETOaF9mPgCcsh8GL
 _key: '!items!ETOaF9mPgCcsh8GL'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Prowess
@@ -10,13 +10,20 @@ img: icons/magic/perception/third-eye-blue-red.webp
 name: Prowess
 system:
   actions:
-    - actionType: other
+    - _id: 75feDdkRKx05Csp7
+      actionType: other
       activation:
         cost: 1
         type: immediate
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -43,6 +50,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

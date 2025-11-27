@@ -1,7 +1,7 @@
 _id: u2Lbl6heEjoynD3T
 _key: '!items!u2Lbl6heEjoynD3T'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Energy_Bolt,_Lanis's
@@ -10,26 +10,30 @@ img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
 name: Energy Bolt, Lanis's
 system:
   actions:
-    - actionType: save
+    - _id: B9qWYiuy8swGpNgn
+      actionType: save
       activation:
         cost: 1
         type: standard
-      area:
-        shape: line
-        units: ft
-        value: '120'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       damage:
         parts:
-          - - 5d6
-            - untyped
+          - formula: 5d6
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 120 ft.
       save:
         description: Reflex half or Fortitude half; see text;
+        harmless: false
         type: fort
       target:
         value: 120-ft. line
@@ -78,6 +82,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

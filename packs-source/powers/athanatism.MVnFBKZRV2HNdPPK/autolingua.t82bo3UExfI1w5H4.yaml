@@ -1,7 +1,7 @@
 _id: t82bo3UExfI1w5H4
 _key: '!items!t82bo3UExfI1w5H4'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Autolingua
@@ -10,14 +10,21 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Autolingua
 system:
   actions:
-    - actionType: other
+    - _id: 8WPdT6sihaKc33Kr
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: spec
         value: See text
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -74,6 +81,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

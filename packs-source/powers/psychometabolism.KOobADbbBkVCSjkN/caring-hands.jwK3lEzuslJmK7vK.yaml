@@ -1,7 +1,7 @@
 _id: jwK3lEzuslJmK7vK
 _key: '!items!jwK3lEzuslJmK7vK'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Caring_Hands
@@ -10,13 +10,20 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Caring Hands
 system:
   actions:
-    - actionType: other
+    - _id: T2PtS78DtZ4bIb70
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: Collective (see text)
@@ -100,6 +107,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

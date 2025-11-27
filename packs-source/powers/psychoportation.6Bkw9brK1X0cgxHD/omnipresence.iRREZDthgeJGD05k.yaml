@@ -1,7 +1,7 @@
 _id: iRREZDthgeJGD05k
 _key: '!items!iRREZDthgeJGD05k'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Omnipresence
@@ -10,14 +10,21 @@ img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 name: Omnipresence
 system:
   actions:
-    - actionType: other
+    - _id: YyQ3KxxJD0f7qkIV
+      actionType: other
       activation:
         cost: 1
         type: swift
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: round
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: personal (see text)
@@ -90,6 +97,11 @@ system:
     mental: true
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

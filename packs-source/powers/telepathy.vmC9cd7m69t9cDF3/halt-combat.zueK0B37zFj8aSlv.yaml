@@ -1,7 +1,7 @@
 _id: zueK0B37zFj8aSlv
 _key: '!items!zueK0B37zFj8aSlv'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Halt_Combat
@@ -10,23 +10,28 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Halt Combat
 system:
   actions:
-    - actionType: save
+    - _id: Z9gA9FcgJ5HAuS80
+      actionType: save
       activation:
         cost: 1
         type: standard
-      area:
-        shape: sphere
-        units: ft
-        value: '60'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       duration:
         units: spec
         value: 1 round (see text)
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 60 ft.
       save:
         description: Will negates
+        harmless: false
         type: will
       target:
         value: 60 ft. radius burst centered on you
@@ -55,6 +60,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

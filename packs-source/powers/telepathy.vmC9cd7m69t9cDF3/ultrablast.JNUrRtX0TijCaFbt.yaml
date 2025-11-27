@@ -1,7 +1,7 @@
 _id: JNUrRtX0TijCaFbt
 _key: '!items!JNUrRtX0TijCaFbt'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Ultrablast
@@ -10,26 +10,30 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Ultrablast
 system:
   actions:
-    - actionType: save
+    - _id: pXMCBMkToeXGJR2I
+      actionType: save
       activation:
         cost: 1
         type: standard
-      area:
-        shape: sphere
-        units: ft
-        value: '15'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       damage:
         parts:
-          - - 13d6
-            - untyped
+          - formula: 13d6
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 15 ft.
       save:
         description: Will half
+        harmless: false
         type: will
       target:
         value: 15-ft.-radius spread centered on you
@@ -55,6 +59,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

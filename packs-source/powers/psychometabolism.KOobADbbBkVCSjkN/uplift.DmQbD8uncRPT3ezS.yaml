@@ -1,7 +1,7 @@
 _id: DmQbD8uncRPT3ezS
 _key: '!items!DmQbD8uncRPT3ezS'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Uplift
@@ -10,20 +10,28 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Uplift
 system:
   actions:
-    - actionType: save
+    - _id: z8LX3kSG9PkolDvU
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: day
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./level)
       save:
         description: Will negates
+        harmless: false
         type: will
       target:
         value: One animal
@@ -78,6 +86,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

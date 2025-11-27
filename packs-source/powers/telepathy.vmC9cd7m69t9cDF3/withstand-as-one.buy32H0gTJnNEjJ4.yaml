@@ -1,7 +1,7 @@
 _id: buy32H0gTJnNEjJ4
 _key: '!items!buy32H0gTJnNEjJ4'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Withstand_as_One
@@ -10,14 +10,21 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Withstand as One
 system:
   actions:
-    - actionType: save
+    - _id: 2yYWWUHv3bwUMs2e
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: round
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft/2 levels)
@@ -83,6 +90,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

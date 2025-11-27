@@ -1,7 +1,7 @@
 _id: mfuOpvstDwYNtJ7M
 _key: '!items!mfuOpvstDwYNtJ7M'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Crisis_of_Breath,_Kozak's
@@ -10,23 +10,28 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Crisis of Breath, Kozak's
 system:
   actions:
-    - actionType: save
+    - _id: Q1aay7DA04e5SHxm
+      actionType: save
       activation:
         cost: 1
         type: standard
-      area:
-        shape: sphere
-        units: ft
-        value: '20'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       duration:
         units: round
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: med
         value: Medium (100 ft. + 10 ft./level)
       save:
         description: Will negates, Fortitude partial; see text;
+        harmless: false
         type: fort
       target:
         value: One breathing humanoid
@@ -90,6 +95,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

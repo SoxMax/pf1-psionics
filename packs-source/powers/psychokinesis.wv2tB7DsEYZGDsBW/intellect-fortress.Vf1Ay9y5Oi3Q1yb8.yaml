@@ -1,7 +1,7 @@
 _id: Vf1Ay9y5Oi3Q1yb8
 _key: '!items!Vf1Ay9y5Oi3Q1yb8'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Intellect_Fortress
@@ -10,18 +10,22 @@ img: icons/magic/unholy/projectile-fireball-green.webp
 name: Intellect Fortress
 system:
   actions:
-    - actionType: other
+    - _id: uvJXvLuXX8kxhMtD
+      actionType: other
       activation:
         cost: 1
         type: immediate
-      area:
-        shape: sphere
-        units: ft
-        value: '20'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       duration:
         units: round
         value: '1'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 20 ft.
@@ -59,6 +63,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

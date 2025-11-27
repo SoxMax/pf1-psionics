@@ -1,7 +1,7 @@
 _id: JH1DGENBgNUiXEfG
 _key: '!items!JH1DGENBgNUiXEfG'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Reddopsi
@@ -10,15 +10,25 @@ img: icons/magic/unholy/projectile-fireball-green.webp
 name: Reddopsi
 system:
   actions:
-    - actionType: msak
+    - _id: RKhgImXnPwxgS9R9
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: msak
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: minute
         value: 10 * @cl
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -77,6 +87,11 @@ system:
     mental: true
     olfactory: true
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

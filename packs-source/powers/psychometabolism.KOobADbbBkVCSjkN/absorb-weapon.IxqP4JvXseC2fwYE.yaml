@@ -1,7 +1,7 @@
 _id: IxqP4JvXseC2fwYE
 _key: '!items!IxqP4JvXseC2fwYE'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Absorb_Weapon
@@ -10,14 +10,21 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Absorb Weapon
 system:
   actions:
-    - actionType: other
+    - _id: otMiv3eGwD0RmyXZ
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: hour
         value: '24'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
@@ -62,6 +69,11 @@ system:
     mental: false
     olfactory: true
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

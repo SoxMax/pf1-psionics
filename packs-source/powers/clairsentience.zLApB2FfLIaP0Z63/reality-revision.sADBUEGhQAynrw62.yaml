@@ -1,7 +1,7 @@
 _id: sADBUEGhQAynrw62
 _key: '!items!sADBUEGhQAynrw62'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Reality_Revision
@@ -10,11 +10,18 @@ img: icons/magic/perception/third-eye-blue-red.webp
 name: Reality Revision
 system:
   actions:
-    - actionType: other
+    - _id: dgFoyVbySXya06n9
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       save:
         description: See text
   description:
@@ -86,6 +93,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

@@ -1,7 +1,7 @@
 _id: Iv57EvvAO0lTBdmq
 _key: '!items!Iv57EvvAO0lTBdmq'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Autorecall
@@ -10,14 +10,21 @@ img: icons/magic/holy/angel-winged-humanoid-blue.webp
 name: Autorecall
 system:
   actions:
-    - actionType: other
+    - _id: lPpjHAMEpSse04gO
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: hour
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: long
         value: Long (400 ft. + 40 ft./level)
@@ -46,6 +53,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

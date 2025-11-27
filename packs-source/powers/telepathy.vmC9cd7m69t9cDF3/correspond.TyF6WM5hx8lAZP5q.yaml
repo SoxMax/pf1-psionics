@@ -1,7 +1,7 @@
 _id: TyF6WM5hx8lAZP5q
 _key: '!items!TyF6WM5hx8lAZP5q'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Correspond
@@ -10,14 +10,21 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Correspond
 system:
   actions:
-    - actionType: other
+    - _id: s70p5LCy5YzYAD9l
+      actionType: other
       activation:
         cost: 10
         type: minute
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: round
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: See text
@@ -52,6 +59,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

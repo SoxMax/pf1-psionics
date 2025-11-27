@@ -1,7 +1,7 @@
 _id: CVUb4yC3LmbTqDKU
 _key: '!items!CVUb4yC3LmbTqDKU'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Entangling_Cover
@@ -10,19 +10,27 @@ img: icons/magic/symbols/runes-star-magenta.webp
 name: Entangling Cover
 system:
   actions:
-    - actionType: save
+    - _id: YBTYP7nFmTmBDZE6
+      actionType: save
       activation:
         cost: 1
         type: swift
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: round
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: special; see text
       save:
         description: Reflex negates
+        harmless: false
         type: ref
       target:
         value: One creature
@@ -41,6 +49,11 @@ system:
     mental: false
     olfactory: true
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

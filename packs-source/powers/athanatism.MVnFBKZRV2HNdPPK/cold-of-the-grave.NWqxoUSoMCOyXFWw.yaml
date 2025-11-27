@@ -1,7 +1,7 @@
 _id: NWqxoUSoMCOyXFWw
 _key: '!items!NWqxoUSoMCOyXFWw'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Cold_of_the_Grave
@@ -10,15 +10,22 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Cold of the Grave
 system:
   actions:
-    - actionType: other
+    - _id: N8EUC0MdtMF3u09T
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: minute
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -55,6 +62,11 @@ system:
     mental: true
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

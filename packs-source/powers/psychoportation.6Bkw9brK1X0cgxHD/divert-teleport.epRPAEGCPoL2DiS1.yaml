@@ -1,7 +1,7 @@
 _id: epRPAEGCPoL2DiS1
 _key: '!items!epRPAEGCPoL2DiS1'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Divert_Teleport
@@ -10,20 +10,28 @@ img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 name: Divert Teleport
 system:
   actions:
-    - actionType: save
+    - _id: mppIJsLs6o85qF9K
+      actionType: save
       activation:
         cost: 1
         type: immediate
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: minute
         value: 10 * @cl
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: med
         value: Medium (100 ft. + 10 ft./level)
       save:
         description: Will negates (foils diversion)
+        harmless: false
         type: will
       target:
         value: >-
@@ -60,6 +68,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

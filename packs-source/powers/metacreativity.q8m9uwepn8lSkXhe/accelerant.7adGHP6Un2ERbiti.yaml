@@ -1,7 +1,7 @@
 _id: 7adGHP6Un2ERbiti
 _key: '!items!7adGHP6Un2ERbiti'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Accelerant
@@ -10,19 +10,25 @@ img: icons/magic/symbols/runes-star-magenta.webp
 name: Accelerant
 system:
   actions:
-    - actionType: other
+    - _id: 95H9f5A04IcazPGr
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 1d6
-            - fire
+          - formula: 1d6
       duration:
         dismiss: true
         units: round
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./level)
@@ -75,6 +81,11 @@ system:
     mental: false
     olfactory: true
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

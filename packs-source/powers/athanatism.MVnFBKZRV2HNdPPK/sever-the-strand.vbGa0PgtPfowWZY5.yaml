@@ -1,7 +1,7 @@
 _id: vbGa0PgtPfowWZY5
 _key: '!items!vbGa0PgtPfowWZY5'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Sever_the_Strand
@@ -10,13 +10,20 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Sever the Strand
 system:
   actions:
-    - actionType: other
+    - _id: oE2Xmf3hUGJGSwxO
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: perm
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
@@ -43,6 +50,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

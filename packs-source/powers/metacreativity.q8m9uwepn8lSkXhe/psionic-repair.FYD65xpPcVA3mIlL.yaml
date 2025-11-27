@@ -1,7 +1,7 @@
 _id: FYD65xpPcVA3mIlL
 _key: '!items!FYD65xpPcVA3mIlL'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Repair
@@ -10,17 +10,26 @@ img: icons/magic/symbols/runes-star-magenta.webp
 name: Psionic Repair
 system:
   actions:
-    - actionType: heal
+    - _id: hlyT8SSJ5YLSx7t7
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: heal
       activation:
         cost: 10
         type: minute
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 1d4
-            - heal
+          - formula: 1d4
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 10 ft.
@@ -52,6 +61,11 @@ system:
     mental: false
     olfactory: true
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

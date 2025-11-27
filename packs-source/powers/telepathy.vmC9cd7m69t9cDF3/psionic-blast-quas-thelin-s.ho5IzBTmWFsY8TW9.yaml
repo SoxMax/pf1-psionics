@@ -1,7 +1,7 @@
 _id: ho5IzBTmWFsY8TW9
 _key: '!items!ho5IzBTmWFsY8TW9'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Psionic_Blast,_Quas'thelin's
@@ -10,22 +10,27 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Psionic Blast, Quas'thelin's
 system:
   actions:
-    - actionType: save
+    - _id: IPpAhpZG1saOe3Rr
+      actionType: save
       activation:
         cost: 1
         type: standard
-      area:
-        shape: cone
-        units: ft
-        value: '30'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 30 ft.
       save:
         description: Will negates
+        harmless: false
         type: will
       target:
         value: 30-ft. cone-shaped burst
@@ -51,6 +56,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

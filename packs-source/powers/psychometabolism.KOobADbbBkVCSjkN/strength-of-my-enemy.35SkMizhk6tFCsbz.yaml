@@ -1,7 +1,7 @@
 _id: 35SkMizhk6tFCsbz
 _key: '!items!35SkMizhk6tFCsbz'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Strength_of_My_Enemy
@@ -10,15 +10,22 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Strength of My Enemy
 system:
   actions:
-    - actionType: other
+    - _id: ZfihluMOKmOVQ92S
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: round
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -53,6 +60,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

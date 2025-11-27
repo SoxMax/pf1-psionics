@@ -1,7 +1,7 @@
 _id: 1fF7hVy7l1HSDpT4
 _key: '!items!1fF7hVy7l1HSDpT4'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Psychokinetic_Charge
@@ -10,13 +10,20 @@ img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
 name: Psychokinetic Charge
 system:
   actions:
-    - actionType: save
+    - _id: H4idN5YWglkVG272
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
@@ -47,6 +54,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

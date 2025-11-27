@@ -1,7 +1,7 @@
 _id: 0Ul0JXp6I3W0Pg6p
 _key: '!items!0Ul0JXp6I3W0Pg6p'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Time_Hop,_Mass
@@ -10,14 +10,21 @@ img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 name: Time Hop, Mass
 system:
   actions:
-    - actionType: other
+    - _id: lgiyPEwLV5iZrLgB
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: spec
         value: Up to 1 hour/level; see text
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       target:
         value: All willing creatures in range
   description:
@@ -42,6 +49,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

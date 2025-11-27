@@ -1,7 +1,7 @@
 _id: nsiC3KVzIvP9I9vb
 _key: '!items!nsiC3KVzIvP9I9vb'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Metaconcert
@@ -10,15 +10,22 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Metaconcert
 system:
   actions:
-    - actionType: other
+    - _id: JkEKFz9tpCJh33Bv
+      actionType: other
       activation:
         cost: 1
         type: minute
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: minute
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 20 ft.
@@ -134,6 +141,11 @@ system:
     mental: true
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

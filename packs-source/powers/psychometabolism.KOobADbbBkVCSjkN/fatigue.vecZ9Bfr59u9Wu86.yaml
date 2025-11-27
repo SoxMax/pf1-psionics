@@ -1,7 +1,7 @@
 _id: vecZ9Bfr59u9Wu86
 _key: '!items!vecZ9Bfr59u9Wu86'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Fatigue
@@ -10,19 +10,30 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Fatigue
 system:
   actions:
-    - actionType: rsak
+    - _id: 2N7NvXtdpHxj5WQM
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: rsak
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: round
         value: '1'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 30 ft.
       save:
         description: Fortitude negates
+        harmless: false
         type: fort
       target:
         value: One living creature
@@ -41,6 +52,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

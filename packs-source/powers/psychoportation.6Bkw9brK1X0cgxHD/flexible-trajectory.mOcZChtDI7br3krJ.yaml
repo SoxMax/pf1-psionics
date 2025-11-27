@@ -1,7 +1,7 @@
 _id: mOcZChtDI7br3krJ
 _key: '!items!mOcZChtDI7br3krJ'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Flexible_Trajectory
@@ -10,14 +10,24 @@ img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 name: Flexible Trajectory
 system:
   actions:
-    - actionType: rsak
+    - _id: d9ACSF5BLKOGHtBt
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: rsak
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: round
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -53,6 +63,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

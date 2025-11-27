@@ -1,7 +1,7 @@
 _id: kUtTFVbTIKMiS3Ww
 _key: '!items!kUtTFVbTIKMiS3Ww'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Find_the_Host
@@ -10,14 +10,21 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Find the Host
 system:
   actions:
-    - actionType: other
+    - _id: rH4jq2Rjpir9mOpj
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: minute
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: long
         value: Long (400 ft. + 40 ft./level)
@@ -46,6 +53,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

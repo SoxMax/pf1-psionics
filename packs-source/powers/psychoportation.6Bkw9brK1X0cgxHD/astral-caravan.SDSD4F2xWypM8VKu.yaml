@@ -1,7 +1,7 @@
 _id: SDSD4F2xWypM8VKu
 _key: '!items!SDSD4F2xWypM8VKu'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Astral_Caravan
@@ -10,14 +10,24 @@ img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 name: Astral Caravan
 system:
   actions:
-    - actionType: rsak
+    - _id: egSq5mZZwQfK6YJI
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: rsak
       activation:
         cost: 1
         type: hour
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: spec
         value: See text
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -155,6 +165,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

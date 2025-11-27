@@ -1,7 +1,7 @@
 _id: c3ZoWHmGlrWKocNp
 _key: '!items!c3ZoWHmGlrWKocNp'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Ghostly_Possession
@@ -10,20 +10,28 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Ghostly Possession
 system:
   actions:
-    - actionType: save
+    - _id: yyquHHpmBUZ7PFoI
+      actionType: save
       activation:
         cost: 1
         type: round
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: minute
         value: 10 * @cl
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
       save:
         description: Will negates; see text
+        harmless: false
         type: will
       target:
         value: You
@@ -57,6 +65,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

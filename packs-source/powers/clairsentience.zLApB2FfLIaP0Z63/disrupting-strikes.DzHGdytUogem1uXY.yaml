@@ -1,7 +1,7 @@
 _id: DzHGdytUogem1uXY
 _key: '!items!DzHGdytUogem1uXY'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Disrupting_Strikes
@@ -10,14 +10,21 @@ img: icons/magic/perception/third-eye-blue-red.webp
 name: Disrupting Strikes
 system:
   actions:
-    - actionType: other
+    - _id: cGYWPPXccfMVUDxL
+      actionType: other
       activation:
         cost: 1
         type: swift
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: round
         value: '1'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -41,6 +48,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

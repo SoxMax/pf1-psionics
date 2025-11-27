@@ -1,7 +1,7 @@
 _id: KZFohSLsVJtgujqG
 _key: '!items!KZFohSLsVJtgujqG'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Ensconce
@@ -10,20 +10,28 @@ img: icons/magic/perception/third-eye-blue-red.webp
 name: Ensconce
 system:
   actions:
-    - actionType: save
+    - _id: ObBdmBl0GoSk2aiG
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: day
         value: One day/level (D)
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
       save:
         description: None or Will negates (object)
+        harmless: false
         type: will
       target:
         value: One willing creature or one object (up to a 2-ft. cube/level) touched
@@ -51,6 +59,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

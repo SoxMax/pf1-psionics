@@ -1,7 +1,7 @@
 _id: ECmQKPvmuwZnpsNN
 _key: '!items!ECmQKPvmuwZnpsNN'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Raise_the_Shroud
@@ -10,24 +10,29 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Raise the Shroud
 system:
   actions:
-    - actionType: save
+    - _id: yekM057k0WkgghfO
+      actionType: save
       activation:
         cost: 1
         type: standard
-      area:
-        shape: sphere
-        units: ft
-        value: '20'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       duration:
         dismiss: true
         units: round
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: med
         value: Medium (100 ft. + 10 ft./level)
       save:
         description: Will negates
+        harmless: false
         type: will
       target:
         value: 20-ft.-radius spread
@@ -61,6 +66,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

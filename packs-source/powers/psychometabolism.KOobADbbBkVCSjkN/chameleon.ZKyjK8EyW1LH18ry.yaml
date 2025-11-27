@@ -1,7 +1,7 @@
 _id: ZKyjK8EyW1LH18ry
 _key: '!items!ZKyjK8EyW1LH18ry'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Chameleon
@@ -10,15 +10,22 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Chameleon
 system:
   actions:
-    - actionType: other
+    - _id: yn9F0ToGtbJg9l0r
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: minute
         value: 10 * @cl
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -45,6 +52,11 @@ system:
     mental: false
     olfactory: true
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

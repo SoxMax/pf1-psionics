@@ -1,7 +1,7 @@
 _id: kz8FIGAkbq273RtK
 _key: '!items!kz8FIGAkbq273RtK'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Tormenting_the_Dead
@@ -10,26 +10,30 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Tormenting the Dead
 system:
   actions:
-    - actionType: save
+    - _id: xe6gTSfnWdS6mNxM
+      actionType: save
       activation:
         cost: 1
         type: standard
-      area:
-        shape: sphere
-        units: ft
-        value: '20'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       damage:
         parts:
-          - - 5d8
-            - untyped
+          - formula: 5d8
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: med
         value: Medium (100 ft. + 10 ft./level)
       save:
         description: Fortitude half
+        harmless: false
         type: fort
       target:
         value: One incorporeal creature
@@ -64,6 +68,11 @@ system:
     mental: false
     olfactory: true
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

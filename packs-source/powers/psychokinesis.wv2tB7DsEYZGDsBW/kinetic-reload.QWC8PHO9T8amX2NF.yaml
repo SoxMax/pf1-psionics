@@ -1,7 +1,7 @@
 _id: QWC8PHO9T8amX2NF
 _key: '!items!QWC8PHO9T8amX2NF'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Kinetic_Reload
@@ -10,13 +10,20 @@ img: icons/magic/unholy/projectile-fireball-green.webp
 name: Kinetic Reload
 system:
   actions:
-    - actionType: other
+    - _id: xLBRJgTvETMkcT41
+      actionType: other
       activation:
         cost: 1
         type: swift
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
@@ -43,6 +50,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

@@ -1,7 +1,7 @@
 _id: YWGk5FduHvTyiLjW
 _key: '!items!YWGk5FduHvTyiLjW'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Soul_Stealing
@@ -10,18 +10,26 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Soul Stealing
 system:
   actions:
-    - actionType: save
+    - _id: Q1S37YhIcZ62IF05
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
       save:
         description: Fortitude partial
+        harmless: false
         type: fort
       target:
         value: One living creature
@@ -51,6 +59,11 @@ system:
     mental: false
     olfactory: true
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

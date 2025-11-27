@@ -1,7 +1,7 @@
 _id: P7udhj8Ey4FyqfZB
 _key: '!items!P7udhj8Ey4FyqfZB'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Caustic_Retribution
@@ -10,18 +10,24 @@ img: icons/magic/unholy/projectile-missile-green.webp
 name: Caustic Retribution
 system:
   actions:
-    - actionType: save
+    - _id: bJqCBgJBbiwZGDvF
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 3d6
-            - acid
+          - formula: 3d6
       duration:
         units: round
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
@@ -63,6 +69,11 @@ system:
     mental: false
     olfactory: true
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

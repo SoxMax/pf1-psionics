@@ -1,7 +1,7 @@
 _id: W2kGH5BEEW0iPQD0
 _key: '!items!W2kGH5BEEW0iPQD0'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Corrosive_Aura
@@ -10,24 +10,31 @@ img: icons/magic/unholy/projectile-missile-green.webp
 name: Corrosive Aura
 system:
   actions:
-    - actionType: save
+    - _id: lfmg6KPQNCl7SDs2
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 1d6
-            - acid
+          - formula: 1d6
       duration:
         dismiss: true
         units: round
         value: '1'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 5 ft.
       save:
         description: Reflex half
+        harmless: false
         type: ref
       target:
         value: All squares adjacent to you
@@ -53,6 +60,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

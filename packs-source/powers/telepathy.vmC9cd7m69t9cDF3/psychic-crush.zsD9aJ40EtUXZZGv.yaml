@@ -1,7 +1,7 @@
 _id: zsD9aJ40EtUXZZGv
 _key: '!items!zsD9aJ40EtUXZZGv'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Psychic_Crush
@@ -10,22 +10,29 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Psychic Crush
 system:
   actions:
-    - actionType: save
+    - _id: VdyzMS9PU6xMFrtU
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 3d6
-            - untyped
+          - formula: 3d6
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. +5 ft./2 levels)
       save:
         description: Will partial; see text
+        harmless: false
         type: will
       target:
         value: One creature
@@ -52,6 +59,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

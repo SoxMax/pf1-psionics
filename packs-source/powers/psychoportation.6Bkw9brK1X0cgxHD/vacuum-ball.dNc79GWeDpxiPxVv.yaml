@@ -1,7 +1,7 @@
 _id: dNc79GWeDpxiPxVv
 _key: '!items!dNc79GWeDpxiPxVv'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Vacuum_Ball
@@ -10,23 +10,30 @@ img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 name: Vacuum Ball
 system:
   actions:
-    - actionType: save
+    - _id: fXs7HQNZh1V4jiEc
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 3d6
-            - fire
+          - formula: 3d6
       duration:
         concentration: true
         units: conc
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./level)
       save:
         description: Reflex negates; see text
+        harmless: false
         type: ref
       target:
         value: One creature
@@ -81,6 +88,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

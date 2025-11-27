@@ -1,7 +1,7 @@
 _id: aZtlYlIu4ejIeYSu
 _key: '!items!aZtlYlIu4ejIeYSu'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Metamorphosis
@@ -10,21 +10,29 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Metamorphosis
 system:
   actions:
-    - actionType: heal
+    - _id: JZbacynfWF3V68fG
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: heal
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 1d8
-            - untyped
-          - - 1d8
-            - heal
+          - formula: 1d8
+          - formula: 1d8
       duration:
         dismiss: true
         units: minute
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -89,6 +97,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

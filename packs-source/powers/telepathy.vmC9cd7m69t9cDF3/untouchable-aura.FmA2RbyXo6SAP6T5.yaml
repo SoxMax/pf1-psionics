@@ -1,7 +1,7 @@
 _id: FmA2RbyXo6SAP6T5
 _key: '!items!FmA2RbyXo6SAP6T5'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Untouchable_Aura
@@ -10,19 +10,27 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Untouchable Aura
 system:
   actions:
-    - actionType: save
+    - _id: 5ffNKPkdm2TwPSVt
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: round
         value: '1'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: Aura
       save:
         description: Will save (see text)
+        harmless: false
         type: will
       target:
         value: You
@@ -66,6 +74,11 @@ system:
     mental: true
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

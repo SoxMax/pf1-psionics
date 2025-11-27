@@ -1,7 +1,7 @@
 _id: VtCyfby7BYjzVDrL
 _key: '!items!VtCyfby7BYjzVDrL'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Dispel_Psionics
@@ -10,17 +10,21 @@ img: icons/magic/unholy/projectile-fireball-green.webp
 name: Dispel Psionics
 system:
   actions:
-    - actionType: other
+    - _id: uK9kbs7OIpF8PK4k
+      actionType: other
       activation:
         cost: 1
         type: standard
-      area:
-        shape: sphere
-        units: ft
-        value: '20'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: med
         value: Medium (100 ft. + 10 ft./level)
@@ -135,6 +139,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

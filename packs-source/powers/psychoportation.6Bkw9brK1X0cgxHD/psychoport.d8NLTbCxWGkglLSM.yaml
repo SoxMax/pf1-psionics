@@ -1,7 +1,7 @@
 _id: d8NLTbCxWGkglLSM
 _key: '!items!d8NLTbCxWGkglLSM'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Psychoport
@@ -10,22 +10,29 @@ img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 name: Psychoport
 system:
   actions:
-    - actionType: save
+    - _id: yq7CMyTD5ru7g4bA
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 1d10
-            - untyped
+          - formula: 1d10
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal and touch
       save:
         description: None or Will negates (object)
+        harmless: false
         type: will
       target:
         value: You and touched objects or other touched willing creatures
@@ -160,6 +167,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

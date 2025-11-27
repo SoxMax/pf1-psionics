@@ -1,7 +1,7 @@
 _id: 8VnCpCKWmWeAhCZW
 _key: '!items!8VnCpCKWmWeAhCZW'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Fettering_the_Shade
@@ -10,15 +10,25 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Fettering the Shade
 system:
   actions:
-    - actionType: msak
+    - _id: pQXIMRZv6Vgd508J
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: msak
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: minute
         value: 10 * @cl
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
@@ -50,6 +60,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

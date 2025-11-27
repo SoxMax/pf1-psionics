@@ -1,7 +1,7 @@
 _id: 60yYthZ0TIMQwCDh
 _key: '!items!60yYthZ0TIMQwCDh'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Deadly_Fear
@@ -10,22 +10,32 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Deadly Fear
 system:
   actions:
-    - actionType: msak
+    - _id: VGiQloXBxCHHxwP0
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: msak
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 3d6
-            - untyped
+          - formula: 3d6
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: med
         value: Medium (100 feet + 10 feet/level)
       save:
         description: Will disbelief (if interacted with), then Fortitude partial; see text
+        harmless: false
         type: fort
       target:
         value: One living creature
@@ -65,6 +75,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

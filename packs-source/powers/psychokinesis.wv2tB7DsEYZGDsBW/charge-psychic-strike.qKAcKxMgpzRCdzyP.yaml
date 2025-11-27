@@ -1,7 +1,7 @@
 _id: qKAcKxMgpzRCdzyP
 _key: '!items!qKAcKxMgpzRCdzyP'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Charge_Psychic_Strike
@@ -10,18 +10,24 @@ img: icons/magic/unholy/projectile-fireball-green.webp
 name: Charge Psychic Strike
 system:
   actions:
-    - actionType: other
+    - _id: pQMHLldqE07m3Wuq
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 1d8
-            - untyped
+          - formula: 1d8
       duration:
         units: spec
         value: Instant
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -51,6 +57,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

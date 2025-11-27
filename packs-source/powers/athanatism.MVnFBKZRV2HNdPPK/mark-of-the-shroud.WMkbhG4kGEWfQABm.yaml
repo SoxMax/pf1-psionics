@@ -1,7 +1,7 @@
 _id: WMkbhG4kGEWfQABm
 _key: '!items!WMkbhG4kGEWfQABm'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Mark_of_the_Shroud
@@ -10,19 +10,27 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Mark of the Shroud
 system:
   actions:
-    - actionType: save
+    - _id: oh9R37oPj2wwE2hN
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: minute
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. +5 ft./2 levels)
       save:
         description: Will negates
+        harmless: false
         type: will
       target:
         value: One living creature touched per three levels
@@ -63,6 +71,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

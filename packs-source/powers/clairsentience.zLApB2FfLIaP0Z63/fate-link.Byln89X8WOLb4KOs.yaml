@@ -1,7 +1,7 @@
 _id: Byln89X8WOLb4KOs
 _key: '!items!Byln89X8WOLb4KOs'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Fate_Link
@@ -10,19 +10,27 @@ img: icons/magic/perception/third-eye-blue-red.webp
 name: Fate Link
 system:
   actions:
-    - actionType: save
+    - _id: nLvSj5t5k3SBRsRH
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: minute
         value: 10 * @cl
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
         description: Will negates
+        harmless: false
         type: will
       target:
         value: Any two living creatures that are initially no more than 30 ft. apart.
@@ -54,6 +62,11 @@ system:
     mental: false
     olfactory: true
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

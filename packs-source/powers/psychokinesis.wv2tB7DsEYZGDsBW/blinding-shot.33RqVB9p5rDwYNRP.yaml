@@ -1,7 +1,7 @@
 _id: 33RqVB9p5rDwYNRP
 _key: '!items!33RqVB9p5rDwYNRP'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Blinding_Shot
@@ -10,14 +10,21 @@ img: icons/magic/light/explosion-star-glow-silhouette.webp
 name: Blinding Shot
 system:
   actions:
-    - actionType: save
+    - _id: Snvejiiv9VStGXVV
+      actionType: save
       activation:
         cost: 1
         type: swift
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: spec
         value: 1 round / level; see text
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
@@ -50,6 +57,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

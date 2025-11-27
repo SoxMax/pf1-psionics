@@ -1,7 +1,7 @@
 _id: 7DUPFAzcMuYMch4F
 _key: '!items!7DUPFAzcMuYMch4F'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Fold_Space
@@ -10,22 +10,29 @@ img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 name: Fold Space
 system:
   actions:
-    - actionType: save
+    - _id: ZDAhY4gCFUjJsoz0
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 1d6
-            - untyped
+          - formula: 1d6
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: long
         value: Long (400 ft. + 40 ft./level)
       save:
         description: None and Will negates (object)
+        harmless: false
         type: will
       target:
         value: You and touched objects or other touched willing creatures
@@ -72,6 +79,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

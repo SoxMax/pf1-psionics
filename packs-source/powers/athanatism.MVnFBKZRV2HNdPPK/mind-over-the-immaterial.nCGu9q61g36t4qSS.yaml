@@ -1,7 +1,7 @@
 _id: nCGu9q61g36t4qSS
 _key: '!items!nCGu9q61g36t4qSS'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Mind_over_the_Immaterial
@@ -10,20 +10,28 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Mind over the Immaterial
 system:
   actions:
-    - actionType: save
+    - _id: bFUpBVRe7bGYujS4
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: round
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
         description: Will negates
+        harmless: false
         type: will
       target:
         value: One incorporeal creature
@@ -47,6 +55,11 @@ system:
     mental: false
     olfactory: true
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

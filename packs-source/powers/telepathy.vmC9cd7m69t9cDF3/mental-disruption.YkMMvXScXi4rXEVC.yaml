@@ -1,7 +1,7 @@
 _id: YkMMvXScXi4rXEVC
 _key: '!items!YkMMvXScXi4rXEVC'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Mental_Disruption
@@ -10,22 +10,27 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Mental Disruption
 system:
   actions:
-    - actionType: save
+    - _id: NsUtxt7eo5fl2FM4
+      actionType: save
       activation:
         cost: 1
         type: standard
-      area:
-        shape: sphere
-        units: ft
-        value: '10'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 10 ft.
       save:
         description: Will negates
+        harmless: false
         type: will
       target:
         value: 10-ft.-radius spread centered on you
@@ -56,6 +61,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

@@ -1,7 +1,7 @@
 _id: gU1P9lhiJd96MnKc
 _key: '!items!gU1P9lhiJd96MnKc'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Share_Pain
@@ -10,15 +10,22 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Share Pain
 system:
   actions:
-    - actionType: other
+    - _id: DvJniOh1kOKDztyH
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: hour
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch; see text
@@ -55,6 +62,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

@@ -1,7 +1,7 @@
 _id: lG50pBc6F7F6iXw8
 _key: '!items!lG50pBc6F7F6iXw8'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Payload
@@ -10,14 +10,21 @@ img: icons/magic/unholy/projectile-fireball-green.webp
 name: Payload
 system:
   actions:
-    - actionType: other
+    - _id: QNT8AL2eL9wZErQR
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: round
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
@@ -50,6 +57,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

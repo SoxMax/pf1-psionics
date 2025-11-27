@@ -1,7 +1,7 @@
 _id: DKGYooQaLFJ29JRf
 _key: '!items!DKGYooQaLFJ29JRf'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Apathetic_Aura
@@ -10,23 +10,28 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Apathetic Aura
 system:
   actions:
-    - actionType: save
+    - _id: v52yKWOl6Dxbt6k9
+      actionType: save
       activation:
         cost: 1
         type: standard
-      area:
-        shape: sphere
-        units: ft
-        value: '20'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       duration:
         units: round
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 20 ft.
       save:
         description: Will negates
+        harmless: false
         type: will
       target:
         value: 20 ft. radius centered on you
@@ -56,6 +61,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

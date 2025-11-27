@@ -1,7 +1,7 @@
 _id: OwFSNHdMmO8Ve6Q1
 _key: '!items!OwFSNHdMmO8Ve6Q1'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Subconscious_Banishment
@@ -10,18 +10,26 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Subconscious Banishment
 system:
   actions:
-    - actionType: save
+    - _id: jPZKiOQfXF1M94bF
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
         description: Will negates; then Fortitude negates (seetext)
+        harmless: false
         type: fort
       target:
         value: One creature with an Intelligence of 3 or more.
@@ -59,6 +67,11 @@ system:
     mental: true
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

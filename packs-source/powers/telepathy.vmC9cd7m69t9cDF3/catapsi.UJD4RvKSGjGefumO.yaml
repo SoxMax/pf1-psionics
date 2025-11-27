@@ -1,7 +1,7 @@
 _id: UJD4RvKSGjGefumO
 _key: '!items!UJD4RvKSGjGefumO'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Catapsi
@@ -10,23 +10,28 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Catapsi
 system:
   actions:
-    - actionType: save
+    - _id: aAMOHzYRrt5sEjkv
+      actionType: save
       activation:
         cost: 1
         type: standard
-      area:
-        shape: sphere
-        units: ft
-        value: '30'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       duration:
         units: round
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 30 ft.
       save:
         description: Will negates; see text
+        harmless: false
         type: will
       target:
         value: 30-ft.-radius emanation centered on you
@@ -65,6 +70,11 @@ system:
     mental: true
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

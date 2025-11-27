@@ -1,7 +1,7 @@
 _id: 6PG9iO5rz45iIXB4
 _key: '!items!6PG9iO5rz45iIXB4'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Detect_Remote_Viewing
@@ -10,18 +10,22 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Detect Remote Viewing
 system:
   actions:
-    - actionType: other
+    - _id: 2BgPOaXtgKtX8huJ
+      actionType: other
       activation:
         cost: 1
         type: standard
-      area:
-        shape: sphere
-        units: ft
-        value: '40'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       duration:
         units: hour
         value: '24'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 40 ft.
@@ -53,6 +57,11 @@ system:
     mental: true
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

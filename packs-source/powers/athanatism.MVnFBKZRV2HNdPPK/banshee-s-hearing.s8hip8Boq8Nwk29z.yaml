@@ -1,7 +1,7 @@
 _id: s8hip8Boq8Nwk29z
 _key: '!items!s8hip8Boq8Nwk29z'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Banshee's_Hearing
@@ -10,15 +10,22 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Banshee's Hearing
 system:
   actions:
-    - actionType: other
+    - _id: dspX1eiLVmbjBodX
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: minute
         value: 10 * @cl
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -50,6 +57,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

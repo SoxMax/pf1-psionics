@@ -1,7 +1,7 @@
 _id: 2fnVaDO4VtF2kuDT
 _key: '!items!2fnVaDO4VtF2kuDT'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Sense_Poison
@@ -10,13 +10,20 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Sense Poison
 system:
   actions:
-    - actionType: other
+    - _id: JCXjqiyRyVWuLZPz
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
@@ -42,6 +49,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

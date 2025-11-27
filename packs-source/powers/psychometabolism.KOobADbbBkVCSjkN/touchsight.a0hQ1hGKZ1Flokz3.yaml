@@ -1,7 +1,7 @@
 _id: a0hQ1hGKZ1Flokz3
 _key: '!items!a0hQ1hGKZ1Flokz3'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Touchsight
@@ -10,15 +10,25 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Touchsight
 system:
   actions:
-    - actionType: msak
+    - _id: aeKM9UjzvTg8UAlE
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: msak
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: minute
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal; see text
@@ -52,6 +62,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

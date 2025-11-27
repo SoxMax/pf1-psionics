@@ -1,7 +1,7 @@
 _id: LcdeH0i8b8Ed6ceb
 _key: '!items!LcdeH0i8b8Ed6ceb'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Pinning_Shot
@@ -10,14 +10,21 @@ img: icons/magic/unholy/projectile-fireball-green.webp
 name: Pinning Shot
 system:
   actions:
-    - actionType: other
+    - _id: PgBqTb5Rcl2Qp630
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: round
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -66,6 +73,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

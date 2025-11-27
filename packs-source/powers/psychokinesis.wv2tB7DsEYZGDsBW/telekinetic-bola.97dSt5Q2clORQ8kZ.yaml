@@ -1,7 +1,7 @@
 _id: 97dSt5Q2clORQ8kZ
 _key: '!items!97dSt5Q2clORQ8kZ'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Telekinetic_Bola
@@ -10,19 +10,25 @@ img: icons/magic/unholy/projectile-fireball-green.webp
 name: Telekinetic Bola
 system:
   actions:
-    - actionType: other
+    - _id: ri71f2i0khfj1hZX
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 1d3
-            - untyped
+          - formula: 1d3
       duration:
         dismiss: true
         units: minute
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 5 feet
@@ -81,6 +87,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

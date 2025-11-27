@@ -1,7 +1,7 @@
 _id: SMunfYFAISh2p1BA
 _key: '!items!SMunfYFAISh2p1BA'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Death_Pact_(power)
@@ -10,13 +10,23 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Death Pact
 system:
   actions:
-    - actionType: msak
+    - _id: UVFP3m09PBWRQ12Q
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: msak
       activation:
         cost: 10
         type: minute
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: perm
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
@@ -60,6 +70,11 @@ system:
     mental: true
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

@@ -1,7 +1,7 @@
 _id: lk5k4I9hxCUckf8s
 _key: '!items!lk5k4I9hxCUckf8s'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Distract
@@ -10,21 +10,29 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Distract
 system:
   actions:
-    - actionType: save
+    - _id: zfZTgG8ujctcJFGf
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         concentration: true
         dismiss: true
         units: conc
         value: up to 1 min./level (D)
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
         description: Will negates
+        harmless: false
         type: will
       target:
         value: One creature
@@ -49,6 +57,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

@@ -1,7 +1,7 @@
 _id: H3nTS3ADvNgmVAQo
 _key: '!items!H3nTS3ADvNgmVAQo'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Dead_Hand
@@ -10,20 +10,31 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Dead Hand
 system:
   actions:
-    - actionType: msak
+    - _id: XlxrlVm6z7pV0Jnm
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: msak
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: minute
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
       save:
         description: Will negates; see text
+        harmless: false
         type: will
       target:
         value: You
@@ -63,6 +74,11 @@ system:
     mental: false
     olfactory: true
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

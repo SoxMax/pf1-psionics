@@ -1,7 +1,7 @@
 _id: SkLfZoemugNHuuMj
 _key: '!items!SkLfZoemugNHuuMj'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Eradicate_Invisibility
@@ -10,22 +10,27 @@ img: icons/magic/unholy/projectile-fireball-green.webp
 name: Eradicate Invisibility
 system:
   actions:
-    - actionType: save
+    - _id: BYHWi446nOQvPMZ1
+      actionType: save
       activation:
         cost: 1
         type: standard
-      area:
-        shape: line
-        units: ft
-        value: '50'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 50 ft.
       save:
         description: Reflex negates
+        harmless: false
         type: ref
       target:
         value: >-
@@ -59,6 +64,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

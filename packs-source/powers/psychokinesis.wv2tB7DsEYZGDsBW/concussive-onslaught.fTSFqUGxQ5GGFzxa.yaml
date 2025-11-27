@@ -1,7 +1,7 @@
 _id: fTSFqUGxQ5GGFzxa
 _key: '!items!fTSFqUGxQ5GGFzxa'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Concussive_Onslaught
@@ -10,27 +10,31 @@ img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
 name: Concussive Onslaught
 system:
   actions:
-    - actionType: save
+    - _id: 5B5ApH2Cpu7NIpUj
+      actionType: save
       activation:
         cost: 1
         type: standard
-      area:
-        shape: sphere
-        units: ft
-        value: '30'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       damage:
         parts:
-          - - 3d6
-            - force
+          - formula: 3d6
       duration:
         units: round
         value: '1'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: long
         value: Long (400 ft. + 40 ft./level)
       save:
         description: Fortitude half
+        harmless: false
         type: fort
       target:
         value: 30 ft. radius burst
@@ -62,6 +66,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

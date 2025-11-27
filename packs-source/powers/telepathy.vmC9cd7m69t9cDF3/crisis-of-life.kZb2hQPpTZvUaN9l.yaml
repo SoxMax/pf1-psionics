@@ -1,7 +1,7 @@
 _id: kZb2hQPpTZvUaN9l
 _key: '!items!kZb2hQPpTZvUaN9l'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Crisis_of_Life
@@ -10,22 +10,29 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Crisis of Life
 system:
   actions:
-    - actionType: save
+    - _id: yKL3LuMjFi5erXfU
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 7d6
-            - untyped
+          - formula: 7d6
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: med
         value: Medium (100 ft. + 10 ft./level)
       save:
         description: Fortitude partial; see text
+        harmless: false
         type: fort
       target:
         value: One creature
@@ -54,6 +61,11 @@ system:
     mental: true
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

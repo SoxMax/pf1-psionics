@@ -1,7 +1,7 @@
 _id: fmTNHUWYpGap6j2p
 _key: '!items!fmTNHUWYpGap6j2p'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Fuse_Flesh
@@ -10,19 +10,30 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Fuse Flesh
 system:
   actions:
-    - actionType: msak
+    - _id: LxzVIOaleOyjfiOi
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: msak
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: round
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
       save:
         description: Fortitude negates and Fortitude partial; see text
+        harmless: false
         type: fort
       target:
         value: Creature touched
@@ -67,6 +78,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

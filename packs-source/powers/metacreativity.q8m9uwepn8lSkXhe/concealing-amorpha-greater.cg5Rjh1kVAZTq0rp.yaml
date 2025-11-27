@@ -1,7 +1,7 @@
 _id: cg5Rjh1kVAZTq0rp
 _key: '!items!cg5Rjh1kVAZTq0rp'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Concealing_Amorpha,_Greater
@@ -10,15 +10,22 @@ img: icons/magic/symbols/runes-star-magenta.webp
 name: Concealing Amorpha, Greater
 system:
   actions:
-    - actionType: other
+    - _id: uUvbCSmPSPVRdi5u
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: round
         value: '@cl'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
   description:
     value: >-
       <p>As <em><a href="/wiki/Concealing_Amorpha" title="Concealing
@@ -34,6 +41,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

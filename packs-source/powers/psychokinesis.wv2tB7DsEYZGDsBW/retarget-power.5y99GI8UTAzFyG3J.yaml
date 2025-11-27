@@ -1,7 +1,7 @@
 _id: 5y99GI8UTAzFyG3J
 _key: '!items!5y99GI8UTAzFyG3J'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Retarget_Power
@@ -10,19 +10,30 @@ img: icons/magic/unholy/projectile-fireball-green.webp
 name: Retarget Power
 system:
   actions:
-    - actionType: msak
+    - _id: Oj9Gq580D5siR2p2
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: msak
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: spec
         value: Immediate
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Close (25 ft. + 5 ft./level) and touch
       save:
         description: Will negates; see text
+        harmless: false
         type: will
       target:
         value: One creature touched and one creature; see text
@@ -70,6 +81,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

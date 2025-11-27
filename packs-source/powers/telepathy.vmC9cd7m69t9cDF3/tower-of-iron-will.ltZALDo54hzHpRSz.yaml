@@ -1,7 +1,7 @@
 _id: ltZALDo54hzHpRSz
 _key: '!items!ltZALDo54hzHpRSz'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Tower_of_Iron_Will
@@ -10,18 +10,22 @@ img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Tower of Iron Will
 system:
   actions:
-    - actionType: other
+    - _id: JX0IYbjfw1QJqL8M
+      actionType: other
       activation:
         cost: 1
         type: immediate
-      area:
-        shape: sphere
-        units: ft
-        value: '10'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       duration:
         units: round
         value: '1'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 10 ft.
@@ -62,6 +66,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

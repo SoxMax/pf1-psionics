@@ -1,7 +1,7 @@
 _id: 4ofXrhBpBCZRK4c8
 _key: '!items!4ofXrhBpBCZRK4c8'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Thundering_Step
@@ -10,17 +10,23 @@ img: icons/magic/sonic/projectile-sound-rings-wave.webp
 name: Thundering Step
 system:
   actions:
-    - actionType: other
+    - _id: Du6Z1jNxhLtAhzaf
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 3d6
-            - sonic
+          - formula: 3d6
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal and one creature damaged
@@ -55,6 +61,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

@@ -1,7 +1,7 @@
 _id: VsadsCyyUJuZ8qjO
 _key: '!items!VsadsCyyUJuZ8qjO'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Memories_of_Flesh
@@ -10,14 +10,21 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Memories of Flesh
 system:
   actions:
-    - actionType: save
+    - _id: AoWKmsS7szLCKcgd
+      actionType: save
       activation:
         cost: 1
         type: round
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: hour
         value: One hour
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
@@ -51,6 +58,11 @@ system:
     mental: false
     olfactory: true
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

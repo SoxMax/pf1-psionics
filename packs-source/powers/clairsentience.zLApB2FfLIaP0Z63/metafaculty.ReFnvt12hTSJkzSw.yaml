@@ -1,7 +1,7 @@
 _id: ReFnvt12hTSJkzSw
 _key: '!items!ReFnvt12hTSJkzSw'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Metafaculty
@@ -10,14 +10,21 @@ img: icons/magic/perception/third-eye-blue-red.webp
 name: Metafaculty
 system:
   actions:
-    - actionType: other
+    - _id: fni8SwRlJ8dZoJgL
+      actionType: other
       activation:
         cost: 1
         type: hour
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -76,6 +83,11 @@ system:
     mental: true
     olfactory: true
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

@@ -1,7 +1,7 @@
 _id: 0fKn4rHJyMHmItjx
 _key: '!items!0fKn4rHJyMHmItjx'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Cleanse_Body
@@ -10,13 +10,20 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Cleanse Body
 system:
   actions:
-    - actionType: save
+    - _id: xRyIjSM8JFPOdYOq
+      actionType: save
       activation:
         cost: 3
         type: round
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
@@ -42,6 +49,11 @@ system:
     mental: true
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

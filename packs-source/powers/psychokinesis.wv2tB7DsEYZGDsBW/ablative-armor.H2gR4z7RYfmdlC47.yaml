@@ -1,7 +1,7 @@
 _id: H2gR4z7RYfmdlC47
 _key: '!items!H2gR4z7RYfmdlC47'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Ablative_Armor
@@ -10,15 +10,25 @@ img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
 name: Ablative Armor
 system:
   actions:
-    - actionType: msak
+    - _id: K9BDH9R0iplrKI3i
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: msak
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: minute
         value: 10 * @cl
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -59,6 +69,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

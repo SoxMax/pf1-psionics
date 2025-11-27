@@ -1,7 +1,7 @@
 _id: NfDYZCoMZDse7Dkb
 _key: '!items!NfDYZCoMZDse7Dkb'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Graft_Armor
@@ -10,15 +10,22 @@ img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
 name: Graft Armor
 system:
   actions:
-    - actionType: other
+    - _id: ydQiDNJrVVsMY6of
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: hour
         value: '24'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -48,6 +55,11 @@ system:
     mental: false
     olfactory: true
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

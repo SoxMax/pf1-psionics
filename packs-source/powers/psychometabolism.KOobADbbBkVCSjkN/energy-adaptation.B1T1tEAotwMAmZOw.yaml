@@ -1,7 +1,7 @@
 _id: B1T1tEAotwMAmZOw
 _key: '!items!B1T1tEAotwMAmZOw'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Energy_Adaptation
@@ -10,18 +10,22 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Energy Adaptation
 system:
   actions:
-    - actionType: other
+    - _id: gxTj9cCngTnA3kLI
+      actionType: other
       activation:
         cost: 1
         type: standard
-      area:
-        shape: sphere
-        units: ft
-        value: '60'
+        unchained:
+          cost: 1
+          type: nonaction
+      area: '[object Object]'
       duration:
         units: minute
         value: 10 * @cl
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -69,6 +73,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

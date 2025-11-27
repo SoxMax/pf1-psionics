@@ -1,7 +1,7 @@
 _id: tRg7bpMQfFm2PtiQ
 _key: '!items!tRg7bpMQfFm2PtiQ'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Accelerate_Body
@@ -10,18 +10,29 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Accelerate Body
 system:
   actions:
-    - actionType: msak
+    - _id: Ae2brF4tPks1VEIu
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: msak
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
       save:
         description: Fortitude (see text)
+        harmless: false
         type: fort
       target:
         value: One living creature&#160;
@@ -69,6 +80,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

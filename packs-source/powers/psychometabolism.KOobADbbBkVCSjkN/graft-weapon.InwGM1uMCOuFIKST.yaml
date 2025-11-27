@@ -1,7 +1,7 @@
 _id: InwGM1uMCOuFIKST
 _key: '!items!InwGM1uMCOuFIKST'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Graft_Weapon
@@ -10,15 +10,25 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Graft Weapon
 system:
   actions:
-    - actionType: msak
+    - _id: TKEmTu4CxZEQ7ysz
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: msak
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         dismiss: true
         units: hour
         value: '24'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -77,6 +87,11 @@ system:
     mental: false
     olfactory: true
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

@@ -1,7 +1,7 @@
 _id: 0h1YfxF71jhFwd4w
 _key: '!items!0h1YfxF71jhFwd4w'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Wardrobe_Malfunction
@@ -10,20 +10,28 @@ img: icons/magic/unholy/projectile-fireball-green.webp
 name: Wardrobe Malfunction
 system:
   actions:
-    - actionType: save
+    - _id: peQTm07g6veny1EW
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         concentration: true
         units: conc
         value: up to 1 round/level
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./level)
       save:
         description: Reflex negates
+        harmless: false
         type: ref
       target:
         value: One worn suit of armor or clothing
@@ -73,6 +81,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

@@ -1,7 +1,7 @@
 _id: U9wQvBzmZG0jq8pu
 _key: '!items!U9wQvBzmZG0jq8pu'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Accelerated_Entropy
@@ -10,18 +10,35 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Accelerated Entropy
 system:
   actions:
-    - actionType: rsak
+    - _id: DQMkjliGhctrGilF
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: rsak
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      ammo:
+        type: none
       duration:
         units: inst
       name: Use
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: close
         value: Close (25 ft. + 5 ft./level)
       save:
         description: Will negates, see text
+        harmless: false
         type: will
       target:
         value: Ray
@@ -59,6 +76,11 @@ system:
     mental: false
     olfactory: true
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

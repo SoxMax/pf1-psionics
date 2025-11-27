@@ -1,7 +1,7 @@
 _id: lkTPtnYxbzQtO3vb
 _key: '!items!lkTPtnYxbzQtO3vb'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Siphon
@@ -10,17 +10,26 @@ img: icons/magic/life/heart-glowing-red.webp
 name: Siphon
 system:
   actions:
-    - actionType: rsak
+    - _id: 84SHhFcblszRCTKB
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: rsak
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 1d3
-            - untyped
+          - formula: 1d3
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: 30 ft.
@@ -42,6 +51,11 @@ system:
     mental: false
     olfactory: true
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

@@ -1,7 +1,7 @@
 _id: kzLI3OL5RzKu3sWw
 _key: '!items!kzLI3OL5RzKu3sWw'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Insubstantial
@@ -10,18 +10,27 @@ img: icons/magic/death/skull-energy-light-purple.webp
 name: Insubstantial
 system:
   actions:
-    - actionType: msak
+    - _id: 50QdvyIqaPCpuHuJ
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: msak
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 1d6
-            - force
+          - formula: 1d6
       duration:
         units: round
         value: '1'
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: personal
         value: Personal
@@ -75,6 +84,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

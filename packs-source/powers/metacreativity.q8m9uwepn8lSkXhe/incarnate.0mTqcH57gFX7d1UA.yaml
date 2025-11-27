@@ -1,7 +1,7 @@
 _id: 0mTqcH57gFX7d1UA
 _key: '!items!0mTqcH57gFX7d1UA'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Incarnate
@@ -10,13 +10,20 @@ img: icons/magic/symbols/runes-star-magenta.webp
 name: Incarnate
 system:
   actions:
-    - actionType: other
+    - _id: qBWxq9xPBlyu16GR
+      actionType: other
       activation:
         cost: 2
         type: round
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         units: perm
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: ft
         value: See text
@@ -151,6 +158,11 @@ system:
     mental: false
     olfactory: false
     visual: false
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

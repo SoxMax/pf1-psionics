@@ -1,7 +1,7 @@
 _id: fkooZFvWoh1G1Vps
 _key: '!items!fkooZFvWoh1G1Vps'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Reconstruction
@@ -10,17 +10,23 @@ img: icons/magic/symbols/runes-star-magenta.webp
 name: Reconstruction
 system:
   actions:
-    - actionType: save
+    - _id: oJKLjr8i6eb7HCp6
+      actionType: save
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       damage:
         parts:
-          - - 3d8
-            - untyped
+          - formula: 3d8
       duration:
         units: inst
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: touch
         value: Touch
@@ -51,6 +57,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:

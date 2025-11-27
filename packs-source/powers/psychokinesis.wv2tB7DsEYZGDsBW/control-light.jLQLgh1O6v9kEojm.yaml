@@ -1,7 +1,7 @@
 _id: jLQLgh1O6v9kEojm
 _key: '!items!jLQLgh1O6v9kEojm'
 _stats:
-  coreVersion: '13.350'
+  coreVersion: '13.351'
 flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Control_Light
@@ -10,15 +10,22 @@ img: icons/magic/light/explosion-star-glow-silhouette.webp
 name: Control Light
 system:
   actions:
-    - actionType: other
+    - _id: AHXxMseQ4laYOcof
+      actionType: other
       activation:
         cost: 1
         type: standard
+        unchained:
+          cost: 1
+          type: nonaction
       duration:
         concentration: true
         units: conc
         value: up to 1 min./level, or 1 round; see text
       name: Use
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
       range:
         units: med
         value: Medium (100 ft. + 10 ft./level)
@@ -65,6 +72,11 @@ system:
     mental: false
     olfactory: false
     visual: true
+  filePathFields:
+    img:
+      - IMAGE
+  htmlFields:
+    - description.value
   known: false
   learnedAt:
     class:
