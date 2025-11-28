@@ -31,7 +31,8 @@ Features
 * **10 Races** with racial traits
 * **Rules** documentation
 
-### Installing in FoundryVTT
+Installing in FoundryVTT
+===========
 
 Users can install this module using:
 ```

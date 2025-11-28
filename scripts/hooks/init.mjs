@@ -197,6 +197,27 @@ function registerItems() {
   });
 }
 
+/**
+ * Registers script call support for power items.
+ * Powers should have the same script call categories as spells (use, postUse).
+ * This hooks into the PF1 registry system to add the power item type to these categories.
+ *
+ * @returns {void}
+ */
+Hooks.on("pf1RegisterScriptCalls", (registry) => {
+  // Add power item type to "use" category
+  const useCategory = registry.get("use");
+  if (useCategory && !useCategory.itemTypes.includes(`${MODULE_ID}.power`)) {
+    useCategory.itemTypes.push(`${MODULE_ID}.power`);
+  }
+
+  // Add power item type to "postUse" category
+  const postUseCategory = registry.get("postUse");
+  if (postUseCategory && !postUseCategory.itemTypes.includes(`${MODULE_ID}.power`)) {
+    postUseCategory.itemTypes.push(`${MODULE_ID}.power`);
+  }
+});
+
 // Map custom psionics buff targets to concrete actor data paths
 // These paths point to the maximum values; using maximum avoids refilling current values each refresh.
 Hooks.on("pf1GetChangeFlat", (result, target, _modifierType, _value, _actor) => {
