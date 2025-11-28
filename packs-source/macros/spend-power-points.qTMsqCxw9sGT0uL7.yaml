@@ -8,7 +8,7 @@ command: |-
   // Designed to be attached to an item's "use" script call category
   // This will spend power points when an item is used
   
-  const MODULE_ID = "pf1-psionics";
+  const cost = 1; // Power Point cost to spend
   
   // Validate we have an actor
   if (!actor) {
@@ -18,32 +18,10 @@ command: |-
   }
   
   // Get power points from actor flags
-  const powerPoints = actor.flags?.[MODULE_ID]?.powerPoints;
+  const powerPoints = actor.flags?.["pf1-psionics"]?.powerPoints;
   if (!powerPoints) {
     ui.notifications.error("This actor does not have power points. Ensure the PF1-Psionics module is active and the actor has manifesting capability.");
     shared.reject = true;
-    return;
-  }
-  
-  // Get the cost from the item's action or use a default
-  // You can customize this to read from item.system.powerPointCost or similar
-  let cost = 1; // Default cost
-  
-  // Check if the item has a custom power point cost in its data
-  if (item.system.powerPointCost !== undefined) {
-    cost = item.system.powerPointCost;
-  }
-  // Or check for a charge cost (for powers)
-  else if (action?.system?.uses?.chargesPerUse) {
-    cost = action.system.uses.chargesPerUse;
-  }
-  // Or check rollData for chargeCost (used by powers)
-  else if (shared.rollData?.chargeCost) {
-    cost = shared.rollData.chargeCost;
-  }
-  
-  // If cost is 0 or less, no need to spend anything
-  if (cost <= 0) {
     return;
   }
   
