@@ -193,14 +193,20 @@ function injectEventListeners(app, html, _data) {
   // manifestersBodyElement.find("a.hide-show").click(app._hideShowElement.bind(app));
   manifestersBodyElement.find("a.toggle-config").click(onToggleConfig.bind(app));
 
+  // Create new Power
   manifestersBodyElement.find(".item-create").click(onItemCreate.bind(app));
+  // Browse Powers compendium
+  manifestersBodyElement.find("a[data-action='browse']").click(onBrowsePowers.bind(app));
+  // Expand Power with summary
+  manifestersBodyElement.find(".item .item-name").click((event) => app._onItemSummary(event));
+  // Post Power to chat
+  manifestersBodyElement.find(".item .item-image").click((event) => app._onItemCard(event));
+  // Item Action control
+  manifestersBodyElement.find(".item-actions a.item-action").click(app._itemActivationControl.bind(app));
+  // Power Edit/Duplicate/Delete
   manifestersBodyElement.find(".item-edit").click(app._onItemEdit.bind(app));
   manifestersBodyElement.find(".item-duplicate").click(app._duplicateItem.bind(app));
   manifestersBodyElement.find(".item-delete").click(app._onItemDelete.bind(app));
-  // Item Action control
-  manifestersBodyElement.find(".item-actions a.item-action").click(app._itemActivationControl.bind(app));
-  // Browse powers compendium
-  manifestersBodyElement.find("a[data-action='browse']").click(onBrowsePowers.bind(app));
 }
 
 function prepareManifesters(sheet, context) {
