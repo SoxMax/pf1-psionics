@@ -52,6 +52,7 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
         target: new StringField({initial: ""}),
         text: new StringField({initial: ""}),
       })),
+      scriptCalls: new ArrayField(new ObjectField({required: true, initial: {}})),
       sources: new ArrayField(new SchemaField({
         title: new StringField({initial: ""}),
         pages: new StringField({initial: ""}),
