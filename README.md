@@ -98,239 +98,67 @@ You can share your edited compendiums without cloning the repo or using Git. Jus
 
 ---
 
-## For Developers: Setting Up a Local Development Environment
+## For Developers: Local Development Setup
 
-If you're comfortable with Git and want to make more extensive changes, you can set up a full development environment by checking out this repository directly into your Foundry modules directory.
+**Prerequisites:** Git, Node.js 18+, Foundry VTT
 
-### Step 1: Find Your Foundry User Data Directory
+### Quick Start
 
-First, locate your Foundry VTT user data directory:
-
-- **Windows**: `%localappdata%/FoundryVTT/Data/modules/`
-- **macOS**: `~/Library/Application Support/FoundryVTT/Data/modules/`
-- **Linux**: `~/.local/share/FoundryVTT/Data/modules/` or `~/FoundryVTT/Data/modules/`
-
-You can also find this in Foundry VTT:
-1. Launch Foundry
-2. Go to **Configuration** tab
-3. Look for **User Data Path**
-4. Navigate to the `Data/modules/` subdirectory
-
-### Step 2: Check Out the Repository
-
-Open a terminal in your Foundry modules directory and clone the repository:
-
-```bash
-cd /path/to/FoundryVTT/Data/modules/
-git clone https://github.com/SoxMax/pf1-psionics.git
-cd pf1-psionics
-```
-
-If you plan to submit a pull request, fork the repository first and clone your fork:
+Fork and clone into your Foundry modules directory (`Data/modules/`):
 
 ```bash
 cd /path/to/FoundryVTT/Data/modules/
 git clone https://github.com/YOUR-USERNAME/pf1-psionics.git
 cd pf1-psionics
-```
-
-### Step 3: Install Dependencies and Compile
-
-The module stores compendium data as human-readable YAML files in `packs-source/` but Foundry needs them compiled to LevelDB format in `packs/`.
-
-```bash
-# Install Node.js dependencies
 npm install
-
-# Compile the YAML source files to LevelDB
 npm run packs:compile
 ```
 
-**Important**: The `packs/` folder is gitignored. You must run `npm run packs:compile` after checking out the repository to generate the actual compendium databases that Foundry can read.
+**Note:** The `packs/` directory is gitignored. Run `npm run packs:compile` after checkout to generate LevelDB databases from YAML source in `packs-source/`.
 
-### Step 4: Enable the Module in Foundry
+Enable the module in Foundry (**Game Settings → Manage Modules → Psionics for PF1e**).
 
-1. **Restart Foundry VTT** (or return to setup if already running)
-2. Create or open a world
-3. Go to **Game Settings → Manage Modules**
-4. Find and enable **Psionics for PF1e**
-5. Save and launch your world
+### Editing Compendiums
 
-The module should now be running from your local development checkout!
+**Option 1: Edit in Foundry (Recommended)**
 
-## Editing Content
+1. Unlock compendium (right-click → Toggle Edit Lock)
+2. Make changes in Foundry UI
+3. Extract to YAML: `npm run packs:extract [pack-name]`
+4. Review changes: `git diff packs-source/`
 
-You can edit compendium content in two ways:
+**Option 2: Edit YAML Directly**
 
-### Method 1: Edit in Foundry (Recommended)
-
-This is the easiest way to make changes and test them immediately.
-
-1. **Unlock the Compendium for Editing:**
-   - In Foundry's sidebar, **right-click** on the compendium you want to edit
-   - Select **"Toggle Edit Lock"** (or **"Unlock Compendium"**)
-   - The padlock icon should change to indicate it's unlocked
-
-2. **Make Your Edits:**
-   - Open the compendium as normal
-   - **Edit existing items**: Click on any item to open and edit it
-   - **Add new items**: Click **"Create Item"** button at the top
-   - **Organize with folders**: Click **"Create Folder"** button at the top
-   - Use Foundry's built-in editor to make your changes
-   - Changes are automatically saved
-
-3. **Test Your Changes:**
-   - Drag items to a test actor to verify they work correctly
-   - Test formulas, rolls, and automation features
-   - Make sure everything functions as expected
-
-4. **Extract Your Changes:**
-   ```bash
-   # Extract ALL compendiums to YAML
-   npm run packs:extract
-   
-   # Or extract specific compendiums
-   npm run packs:extract powers    # Just powers
-   npm run packs:extract feats     # Just feats
-   npm run packs:extract classes   # Just classes
-   npm run packs:extract races     # Just races
-   npm run packs:extract rules     # Just rules
-   ```
-
-5. **Review What Changed:**
-   ```bash
-   git status                 # See which files were modified
-   git diff packs-source/     # Review the actual changes
-   ```
-
-### Method 2: Edit YAML Files Directly
-
-If you prefer to edit the source files directly (useful for bulk changes or if you're comfortable with YAML):
-
-1. **Edit YAML Files:**
-   - Navigate to `packs-source/` directory
-   - Find the compendium folder you want to edit
-   - Edit the `.yaml` files directly in your text editor
-   - YAML structure follows Foundry's document format
-
-2. **Compile Your Changes:**
-   ```bash
-   npm run packs:compile
-   ```
-
-3. **Test in Foundry:**
-   - Refresh Foundry (F5) or restart it
-   - Open the compendium and verify your changes
-   - Test functionality
-
-4. **Repeat as Needed:**
-   - Edit YAML → Compile → Test → Repeat
-
-**Note**: When editing YAML directly, be careful with:
-- Indentation (use spaces, not tabs)
-- YAML syntax (colons, dashes, quotes)
-- Required fields for each document type
-
-## Submitting Your Changes
-
-Once you've made and tested your changes:
-
-1. **Create a branch for your changes:**
-   ```bash
-   git checkout -b my-feature-branch
-   ```
-
-2. **Commit your changes:**
-   ```bash
-   git add packs-source/
-   git commit -m "Description of your changes"
-   ```
-
-3. **Push to your fork:**
-   ```bash
-   git push origin my-feature-branch
-   ```
-
-4. **Create a Pull Request:**
-   - Go to GitHub and create a PR from your branch
-   - Describe what you changed and why
-   - Wait for review and feedback
-
-## Common Workflows
-
-### Adding a New Power
-
-1. Unlock the **Psionic Powers** compendium
-2. Click **"Create Item"** at the top
-3. Fill in the power details:
-   - Name, level, discipline
-   - Description and mechanics  
-   - Augmentations (if any)
-   - Actions and formulas
-4. Test the power on an actor
-5. Extract: `npm run packs:extract powers`
-6. Commit and submit
-
-### Fixing a Typo or Error
-
-1. Unlock the relevant compendium
-2. Find and open the item
-3. Make your correction
-4. Extract: `npm run packs:extract [compendium-name]`
-5. Review: `git diff packs-source/`
-6. Commit and submit
-
-### Adding Missing Class Features
-
-1. Unlock the **Psionic Classes** compendium
-2. Find and open the class item
-3. Add the missing features/abilities
-4. Test by adding the class to an actor
-5. Extract: `npm run packs:extract classes`
-6. Commit and submit
-
-### Bulk Editing (Advanced)
-
-1. Extract current data: `npm run packs:extract`
-2. Edit multiple YAML files in `packs-source/`
-3. Compile: `npm run packs:compile`
-4. Test in Foundry (F5 to refresh)
-5. If issues found, edit YAML and recompile
-6. When satisfied, commit the YAML changes
-
-## For Developers
-
-### Technical Setup
-
-This module uses a YAML-based workflow for compendium management, matching the approach used by the official PF1 system.
-
-```bash
-# Install dependencies
-npm install
-
-# Extract compendiums from LevelDB to YAML
-npm run packs:extract
-
-# Compile YAML source to LevelDB
-npm run packs:compile
-```
-
-### Workflow Details
-
-The module stores human-readable YAML source files in `packs-source/` and compiles them to LevelDB format in `packs/`.
-
-- **Source files** (`packs-source/`) are committed to git
-- **Compiled files** (`packs/`) are gitignored and generated at build time
-
-**Editing in Foundry:**
-1. Make changes in Foundry's UI
-2. Run `npm run packs:extract [compendium-name]`
-3. Commit the YAML files in `packs-source/`
-
-**Editing YAML directly:**
 1. Edit files in `packs-source/`
-2. Run `npm run packs:compile`
-3. Restart Foundry to test
+2. Compile to LevelDB: `npm run packs:compile`
+3. Test in Foundry (F5 to refresh)
+
+### Submitting Changes
+
+Standard GitHub workflow:
+
+```bash
+git checkout -b my-feature-branch
+git add packs-source/
+git commit -m "Description of changes"
+git push origin my-feature-branch
+```
+
+Open a PR on GitHub with a description of your changes.
+
+### Common Workflows
+
+**Adding/Editing Content:**
+- Unlock compendium → Edit in Foundry → `npm run packs:extract [pack]` → Commit
+- May need to quit Foundry to avoid lock issues
+
+**Bulk YAML Edits:**
+- Edit files in `packs-source/` → `npm run packs:compile` → Test → Commit
+- Restart Foundry to ensure changes load
+
+### Architecture
+
+YAML source (`packs-source/`) is committed to git. LevelDB (`packs/`) is gitignored and generated at build time.
 
 ### Advanced: Scraping Content
 
@@ -338,25 +166,16 @@ For bulk imports from online sources:
 
 ```bash
 cd tools/scrapers
-
-# Scrape powers from metzo.miraheze.org
 node powers-scraper.mjs --list ../data/power-urls.txt
-
-# Scrape feats
 node feats-scraper.mjs --list ../data/feat-urls.txt
-
-# Return to root and compile
 cd ../..
 npm run packs:compile
 ```
 
 ### Documentation
 
-For more technical details:
-- [tools/README.md](tools/README.md) - Tools documentation
+- [tools/README.md](tools/README.md) - Tools and scrapers documentation
 - [tools/docs/IMPORT-GUIDE.md](tools/docs/IMPORT-GUIDE.md) - Complete import workflow
-- [docs/manifester-items.md](docs/manifester-items.md) - New Manifester Item system
-- [docs/manifester-quick-start.md](docs/manifester-quick-start.md) - Quick reference for Manifester Items
 
 ## Release Process
 
