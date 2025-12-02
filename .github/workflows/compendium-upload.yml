@@ -1,0 +1,156 @@
+name: Compendium Upload to PR
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: write
+  issues: read
+  pull-requests: write
+
+jobs:
+  process-upload:
+    if: contains(github.event.issue.labels.*.name, 'compendium-upload')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Parse issue for attachments
+        id: parse
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const body = issue.body || '';
+            // Find .zip file links (GitHub uploads become https://user-images or attachment links)
+            const urlRegex = /(https?:\/\/[^\s)]+\.zip)/gi;
+            const urls = [...body.matchAll(urlRegex)].map(m => m[1] || m[0]);
+            core.setOutput('urls', JSON.stringify(urls));
+
+      - name: Fail if no attachments found
+        if: steps.parse.outputs.urls == '[]'
+        run: |
+          echo "No .zip attachments found in the issue body. Please attach pack directories as .zip files by editing the issue." && exit 1
+
+      - name: Download attachments
+        id: download
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { Octokit } = require('@octokit/rest');
+            const fetch = require('node-fetch');
+            const urls = JSON.parse(core.getInput('urls'));
+            const fs = require('fs');
+            const path = require('path');
+            fs.mkdirSync('uploads', { recursive: true });
+            for (const url of urls) {
+              const res = await fetch(url);
+              if (!res.ok) throw new Error(`Failed to download ${url}: ${res.status}`);
+              const ext = url.split('.').pop().toLowerCase();
+              const name = path.join('uploads', path.basename(url.split('?')[0]));
+              const buf = await res.buffer();
+              fs.writeFileSync(name, buf);
+              console.log(`Downloaded ${name}`);
+            }
+            return 'ok';
+
+      - name: Unpack and place pack directories
+        run: |
+          mkdir -p packs
+          shopt -s nullglob
+          
+          # Unzip each file
+          for zipfile in uploads/*.zip; do
+            if [ ! -f "$zipfile" ]; then continue; fi
+            
+            echo "Processing $zipfile"
+            # Extract to temp location
+            temp_dir=$(mktemp -d)
+            unzip -q "$zipfile" -d "$temp_dir"
+            
+            # Find pack directories (contain MANIFEST-* and .ldb files)
+            # Handle both "powers/" structure and nested structures
+            find "$temp_dir" -type f -name "MANIFEST-*" | while read manifest; do
+              pack_dir=$(dirname "$manifest")
+              pack_name=$(basename "$pack_dir")
+              
+              echo "Found pack: $pack_name at $pack_dir"
+              
+              # Copy entire pack directory
+              mkdir -p "packs/$pack_name"
+              cp -r "$pack_dir"/* "packs/$pack_name/"
+              
+              echo "Copied pack $pack_name to packs/"
+            done
+            
+            rm -rf "$temp_dir"
+          done
+          
+          # Verify we have valid packs
+          if [ -z "$(find packs -name 'MANIFEST-*' 2>/dev/null)" ]; then
+            echo "Error: No valid LevelDB pack directories found in uploads."
+            echo "Please ensure you're uploading complete pack directories (not just .ldb files)."
+            exit 1
+          fi
+
+      - name: Run packs:extract (all packs)
+        run: npm run packs:extract
+
+      - name: Create branch, commit YAMLs, and open PR
+        id: pr
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { execSync } = require('child_process');
+            const fs = require('fs');
+            const path = require('path');
+            const { Octokit } = require('@octokit/rest');
+
+            const branch = `compendium-upload-${context.issue.number}-${Date.now()}`;
+            execSync(`git checkout -b ${branch}`);
+            // Stage packs-source changes
+            execSync('git add packs-source');
+            // Add a summary file
+            const summaryPath = path.join('packs-source', 'UPLOAD_SUMMARY.md');
+            fs.writeFileSync(summaryPath, `Uploaded via issue #${context.issue.number} by @${context.actor}.\n\nFiles processed from attachments.`);
+            execSync(`git add ${summaryPath}`);
+            execSync(`git commit -m "Compendium upload from issue #${context.issue.number}: extract YAML"`);
+            execSync(`git push origin ${branch}`);
+
+            const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+            const { owner, repo } = context.repo;
+            const pr = await octokit.pulls.create({
+              owner,
+              repo,
+              title: `Compendium upload: issue #${context.issue.number}`,
+              head: branch,
+              base: context.payload.repository.default_branch,
+              body: `Automated YAML extraction from uploaded compendium files in issue #${context.issue.number}.\n\nPlease review the changes in packs-source.`
+            });
+            core.setOutput('pr', pr.data.number);
+
+      - name: Comment PR link
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const prNum = core.getInput('pr');
+            const { Octokit } = require('@octokit/rest');
+            const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+            const { owner, repo } = context.repo;
+            await octokit.issues.createComment({
+              owner,
+              repo,
+              issue_number: context.issue.number,
+              body: `Thanks! I created PR #${prNum} with the extracted YAMLs.`
+            });
+

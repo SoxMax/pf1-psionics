@@ -1,0 +1,33 @@
+name: Compendium Upload
+description: Attach a Foundry Compendium (.ldb or .zip of the pack folder) to be converted into YAML and submitted via PR
+labels:
+  - compendium-upload
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please attach your compendium pack(s) as .zip files. Each pack should be the entire directory from your Foundry `Data/modules/pf1-psionics/packs/` folder (e.g., zip the entire `powers/`, `feats/`, etc. directory).
+        
+        **How to prepare your upload:**
+        1. Navigate to your Foundry VTT data folder: `Data/modules/pf1-psionics/packs/`
+        2. Zip the entire pack directory (e.g., right-click `powers/` → "Compress" or "Send to compressed folder")
+        3. Rename the zip to indicate the pack name (e.g., `powers.zip`, `feats.zip`)
+        4. Drag and drop the .zip file(s) into this issue
+        
+        **Important:** Upload the entire pack directory (not just the .ldb file). LevelDB requires multiple files (MANIFEST, CURRENT, .ldb, etc.) to extract properly.
+  - type: input
+    id: pack_hint
+    attributes:
+      label: Pack names (optional)
+      description: If you know which pack(s) this upload corresponds to (e.g., powers, feats, classes, races, rules), list them here.
+      placeholder: powers
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything we should know about your edits (sources, scope, special instructions)
+    validations:
+      required: false
+
