@@ -1,0 +1,47 @@
+_id: 3wXpKm7vNqR2sYtL
+_key: '!macros!3wXpKm7vNqR2sYtL'
+_stats:
+  coreVersion: '13.351'
+author: N8Qq94zyfscJUwL4
+command: |-
+  // Require Psionic Focus Script Call for PF1-Psionics
+  // Designed to be attached to an item's "use" script call category
+  // This checks if the actor is focused WITHOUT expending focus
+  //
+  // SETUP: Simply drag this macro onto a feat or class feature's script calls.
+  // No additional configuration is needed.
+  //
+  // Use this for abilities that require you to be psionically focused
+  // but do NOT consume the focus when used (e.g., Psionic Weapon, many psionic feats).
+  //
+  // If you need to EXPEND focus, use the "Spend Psionic Focus" macro instead.
+  
+  // Validate we have an actor
+  if (!actor) {
+    ui.notifications.error("No actor found for this item.");
+    shared.reject = true;
+    return;
+  }
+  
+  // Get psionic focus helper from actor
+  const focus = actor.psionics?.focus;
+  if (!focus?.inUse) {
+    ui.notifications.error("This actor cannot use psionic focus. Ensure the PF1-Psionics module is active and the actor has manifesting capability.");
+    shared.reject = true;
+    return;
+  }
+  
+  // Check if actor is currently focused
+  if (!focus.isFocused) {
+    ui.notifications.error(`Cannot use ${item.name}. ${actor.name} must be psionically focused.`);
+    shared.reject = true;
+    return;
+  }
+  
+  // Actor is focused - allow the action to proceed
+  // Focus is NOT expended
+img: systems/pf1/icons/feats/spell-focus.jpg
+name: Require Psionic Focus
+scope: global
+type: script
+

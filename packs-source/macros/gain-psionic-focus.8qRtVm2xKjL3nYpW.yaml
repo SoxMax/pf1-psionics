@@ -1,0 +1,54 @@
+_id: 8qRtVm2xKjL3nYpW
+_key: '!macros!8qRtVm2xKjL3nYpW'
+_stats:
+  coreVersion: '13.351'
+author: N8Qq94zyfscJUwL4
+command: |-
+  // Gain Psionic Focus Script Call for PF1-Psionics
+  // Designed to be attached to an item's "use" script call category
+  // This will grant psionic focus when an item is used
+  //
+  // SETUP: Simply drag this macro onto a feat or class feature's script calls.
+  // No additional configuration is needed.
+  //
+  // Use this for abilities that let you regain psionic focus as a swift action,
+  // move action, or other non-standard action (e.g., Psionic Meditation feat).
+  
+  // Validate we have an actor
+  if (!actor) {
+    ui.notifications.error("No actor found for this item.");
+    shared.reject = true;
+    return;
+  }
+  
+  // Get psionic focus helper from actor
+  const focus = actor.psionics?.focus;
+  if (!focus?.inUse) {
+    ui.notifications.error("This actor cannot use psionic focus. Ensure the PF1-Psionics module is active and the actor has manifesting capability.");
+    shared.reject = true;
+    return;
+  }
+  
+  // Check if actor is already focused
+  if (focus.isFocused) {
+    ui.notifications.warn(`${actor.name} is already psionically focused.`);
+    return;
+  }
+  
+  // Gain psionic focus using the helper
+  try {
+    await focus.gain();
+    
+    // Success notification
+    ui.notifications.info(`${actor.name} became psionically focused.`);
+  } catch (error) {
+    console.error("Failed to gain psionic focus:", error);
+    ui.notifications.error(`Failed to gain psionic focus for ${item.name}.`);
+    shared.reject = true;
+    return;
+  }
+img: systems/pf1/icons/feats/combat-casting.jpg
+name: Gain Psionic Focus
+scope: global
+type: script
+

@@ -1,0 +1,78 @@
+_id: 5hNvQw9xPjK4mZrS
+_key: '!macros!5hNvQw9xPjK4mZrS'
+_stats:
+  coreVersion: '13.351'
+author: N8Qq94zyfscJUwL4
+command: |-
+  // Add Temporary Power Points Script Call for PF1-Psionics
+  // Designed to be attached to an item's "use" script call category
+  // This grants temporary power points when an item is used
+  //
+  // SETUP: Add a Dictionary Flag to your feat/class feature:
+  //   Key: tempPP
+  //   Value: The temporary power points to grant (number or formula)
+  //
+  // Examples:
+  //   tempPP = 5           (grant 5 temporary PP)
+  //   tempPP = @cl         (grant PP equal to caster level)
+  //   tempPP = @cl * 2     (grant PP equal to double caster level)
+  //
+  // If no tempPP flag is set, defaults to 1 temporary power point.
+  //
+  // Note: Temporary power points are spent before regular power points
+  // and are typically lost after resting.
+  
+  // Validate we have an actor
+  if (!actor) {
+    ui.notifications.error("No actor found for this item.");
+    shared.reject = true;
+    return;
+  }
+  
+  // Get power points helper from actor
+  const pp = actor.psionics?.powerPoints;
+  if (!pp?.inUse) {
+    ui.notifications.error("This actor does not have power points. Ensure the PF1-Psionics module is active and the actor has manifesting capability.");
+    shared.reject = true;
+    return;
+  }
+  
+  // Get amount from item's dictionary flag, default to 1
+  const amountValue = item.getItemDictionaryFlag("tempPP") ?? 1;
+  
+  // Evaluate amount - supports formulas like "@cl" or "@attributes.hd.total"
+  let amount;
+  if (typeof amountValue === "number") {
+    amount = amountValue;
+  } else {
+    // It's a formula string - evaluate it with rollData
+    const rollData = item.getRollData();
+    const roll = RollPF.safeRollSync(String(amountValue), rollData);
+    amount = roll.total;
+  }
+  
+  // Ensure amount is a valid positive number
+  amount = Math.max(0, Math.floor(amount));
+  
+  if (amount === 0) {
+    // Zero amount - nothing to add
+    return;
+  }
+  
+  // Add temporary power points using the helper
+  try {
+    await pp.addTemporary(amount);
+    
+    // Success notification
+    ui.notifications.info(`${actor.name} gained ${amount} temporary power point${amount !== 1 ? 's' : ''} from ${item.name}. (${pp.temporary} temp, ${pp.available} total available)`);
+  } catch (error) {
+    console.error("Failed to add temporary power points:", error);
+    ui.notifications.error(`Failed to add temporary power points for ${item.name}.`);
+    shared.reject = true;
+    return;
+  }
+img: icons/magic/symbols/runes-star-blue.webp
+name: Add Temporary Power Points
+scope: global
+type: script
+
