@@ -1,0 +1,100 @@
+_id: Lm9nPqRs3xYwZa5M
+_key: '!macros!Lm9nPqRs3xYwZa5M'
+_stats:
+  coreVersion: '13.351'
+author: N8Qq94zyfscJUwL4
+command: |-
+  // Power Point Manager Dialog Macro
+  // Opens a dialog to manually adjust power points (for GMs or special abilities)
+  //
+  // EXAMPLE MACRO: Demonstrates using dialogs with the psionics API
+  // This is a standalone macro - run it from the hotbar with a token selected
+  
+  // Get the selected actor
+  const actor = canvas.tokens.controlled[0]?.actor ?? game.user.character;
+  if (!actor) {
+    ui.notifications.warn("Please select a token or set a default character.");
+    return;
+  }
+  
+  // Get power points helper
+  const pp = actor.psionics?.powerPoints;
+  if (!pp?.inUse) {
+    ui.notifications.warn(`${actor.name} does not have power points.`);
+    return;
+  }
+  
+  // Build dialog content
+  const content = `
+    <form>
+      <p><strong>Current:</strong> ${pp.current} / ${pp.maximum}</p>
+      <p><strong>Temporary:</strong> ${pp.temporary}</p>
+      <p><strong>Available:</strong> ${pp.available}</p>
+      <hr>
+      <div class="form-group">
+        <label>Action:</label>
+        <select name="action">
+          <option value="spend">Spend Power Points</option>
+          <option value="add">Add Power Points</option>
+          <option value="addTemp">Add Temporary Power Points</option>
+          <option value="setCurrent">Set Current Power Points</option>
+          <option value="restore">Restore to Maximum</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Amount:</label>
+        <input type="number" name="amount" value="1" min="0">
+      </div>
+    </form>
+  `;
+  
+  new Dialog({
+    title: `Power Point Manager - ${actor.name}`,
+    content: content,
+    buttons: {
+      apply: {
+        icon: '<i class="fas fa-check"></i>',
+        label: "Apply",
+        callback: async (html) => {
+          const action = html.find('[name="action"]').val();
+          const amount = parseInt(html.find('[name="amount"]').val()) || 0;
+          
+          switch (action) {
+            case "spend":
+              if (await pp.spend(amount)) {
+                ui.notifications.info(`${actor.name} spent ${amount} power points.`);
+              } else {
+                ui.notifications.error(`Not enough power points to spend ${amount}.`);
+              }
+              break;
+            case "add":
+              await pp.add(amount);
+              ui.notifications.info(`${actor.name} gained ${amount} power points.`);
+              break;
+            case "addTemp":
+              await pp.addTemporary(amount);
+              ui.notifications.info(`${actor.name} gained ${amount} temporary power points.`);
+              break;
+            case "setCurrent":
+              await pp.setCurrent(amount);
+              ui.notifications.info(`${actor.name}'s power points set to ${amount}.`);
+              break;
+            case "restore":
+              await pp.restore();
+              ui.notifications.info(`${actor.name}'s power points restored to maximum.`);
+              break;
+          }
+        }
+      },
+      cancel: {
+        icon: '<i class="fas fa-times"></i>',
+        label: "Cancel"
+      }
+    },
+    default: "apply"
+  }).render(true);
+img: icons/magic/control/energy-stream-link-large-blue.webp
+name: Power Point Manager
+scope: global
+type: script
+

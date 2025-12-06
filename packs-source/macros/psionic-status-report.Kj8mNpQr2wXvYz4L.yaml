@@ -1,0 +1,73 @@
+_id: Kj8mNpQr2wXvYz4L
+_key: '!macros!Kj8mNpQr2wXvYz4L'
+_stats:
+  coreVersion: '13.351'
+author: N8Qq94zyfscJUwL4
+command: |-
+  // Psionic Status Report Macro
+  // Displays a summary of the selected actor's psionic resources in chat
+  //
+  // EXAMPLE MACRO: Demonstrates how to read psionic data from an actor
+  // This is a standalone macro - run it from the hotbar with a token selected
+  
+  // Get the selected actor
+  const actor = canvas.tokens.controlled[0]?.actor ?? game.user.character;
+  if (!actor) {
+    ui.notifications.warn("Please select a token or set a default character.");
+    return;
+  }
+  
+  // Get psionics helper
+  const psionics = actor.psionics;
+  if (!psionics?.hasPsionics) {
+    ui.notifications.warn(`${actor.name} has no psionic capabilities.`);
+    return;
+  }
+  
+  // Gather power points info
+  const pp = psionics.powerPoints;
+  const focus = psionics.focus;
+  
+  // Build chat message content
+  let content = `<h2>${actor.name}'s Psionic Status</h2>`;
+  
+  // Power Points section
+  content += `<h3>Power Points</h3>`;
+  content += `<ul>`;
+  content += `<li><strong>Current:</strong> ${pp.current} / ${pp.maximum}</li>`;
+  if (pp.temporary > 0) {
+    content += `<li><strong>Temporary:</strong> ${pp.temporary}</li>`;
+  }
+  content += `<li><strong>Total Available:</strong> ${pp.available}</li>`;
+  content += `</ul>`;
+  
+  // Psionic Focus section
+  content += `<h3>Psionic Focus</h3>`;
+  content += `<p><strong>Status:</strong> ${focus.isFocused ? "✓ Focused" : "✗ Not Focused"}</p>`;
+  
+  // Manifesters section
+  const manifesters = psionics.manifesters;
+  if (manifesters) {
+    const activeBooks = Object.entries(manifesters).filter(([_, m]) => m.inUse);
+    if (activeBooks.length > 0) {
+      content += `<h3>Manifesters</h3>`;
+      content += `<ul>`;
+      for (const [bookId, manifester] of activeBooks) {
+        content += `<li><strong>${manifester.label || bookId}:</strong> ML ${manifester.cl?.total ?? 0}</li>`;
+      }
+      content += `</ul>`;
+    }
+  }
+  
+  // Send to chat
+  ChatMessage.create({
+    user: game.user.id,
+    speaker: ChatMessage.getSpeaker({ actor }),
+    content: content,
+    type: CONST.CHAT_MESSAGE_STYLES.OTHER
+  });
+img: icons/magic/perception/eye-ringed-glow-angry-large-teal.webp
+name: Psionic Status Report
+scope: global
+type: script
+
