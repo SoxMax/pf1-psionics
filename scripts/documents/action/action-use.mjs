@@ -27,8 +27,8 @@ export function pf1PreActionUseHook(actionUse) {
       ui.notifications.error(game.i18n.localize("PF1-Psionics.Error.PowerCostTooHigh"));
       return false;
     }
-    const currentFocus = actionUse.actor.flags?.[MODULE_ID]?.focus?.current || 0;
-    const focusCost =  actionUse.shared.rollData?.focusCost || 0;
+    const currentFocus = actionUse.actor.psionics?.focus?.current ?? 0;
+    const focusCost = actionUse.shared.rollData?.focusCost || 0;
     if (focusCost > currentFocus) {
       ui.notifications.error(game.i18n.localize("PF1-Psionics.Error.NotEnoughFocus"));
       return false;

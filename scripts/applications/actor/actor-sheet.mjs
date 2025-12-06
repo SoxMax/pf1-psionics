@@ -17,8 +17,13 @@ export function injectActorSheetPF() {
     wrapped(context);
     context.psionics = {};
     prepareManifesters(this, context);
-    context.psionics.powerPoints = this.actor.getFlag(MODULE_ID, "powerPoints");
-    context.psionics.focus = this.actor.getFlag(MODULE_ID, "focus");
+
+    // Use helpers to get power points and focus data for template
+    const ppHelper = this.actor.psionics?.powerPoints;
+    const focusHelper = this.actor.psionics?.focus;
+
+    context.psionics.powerPoints = ppHelper?.toObject() ?? { current: 0, temporary: 0, maximum: 0, available: 0, inUse: false };
+    context.psionics.focus = focusHelper?.toObject() ?? { current: 0, maximum: 0, isFocused: false, inUse: false };
   }, "WRAPPER");
 
   // Track the currently active tab

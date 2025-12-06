@@ -1,5 +1,3 @@
-import {MODULE_ID} from "../../_module.mjs";
-
 export class PowerItem extends pf1.documents.item.ItemPF {
 
   /** @inheritDoc */
@@ -9,7 +7,7 @@ export class PowerItem extends pf1.documents.item.ItemPF {
     // Assign level if undefined
     if (!Number.isFinite(data?.system?.level) || override) {
       const book = item.system.manifester;
-      const cls = item.actor.flags?.[MODULE_ID]?.manifesters?.[book]?.classId;
+      const cls = item.actor.psionics?.manifesters?.[book]?.classId;
       const level = item.system.learnedAt?.class?.[cls];
       if (Number.isFinite(level)) {
         foundry.utils.setProperty(item._source, "system.level", Math.clamp(level, 0, 9));
@@ -218,23 +216,16 @@ export class PowerItem extends pf1.documents.item.ItemPF {
     if (this.system.atWill) return;
     if (value === 0) return this;
 
-    const powerPoints = this.actor.flags?.[MODULE_ID].powerPoints;
+    const powerPointsHelper = this.actor.psionics?.powerPoints;
+    if (!powerPointsHelper) return;
 
-    const updateData = {};
     if (value > 0) {
-      updateData[`flags.${MODULE_ID}.powerPoints.current`] = Math.min(powerPoints.maximum, powerPoints.current + value);
+      await powerPointsHelper.add(value);
     } else {
-      let toRemove = Math.abs(value);
-      if (toRemove < powerPoints.temporary) {
-        updateData[`flags.${MODULE_ID}.powerPoints.temporary`] = powerPoints.temporary - toRemove;
-      } else {
-        toRemove -= powerPoints.temporary;
-        updateData[`flags.${MODULE_ID}.powerPoints.temporary`] = 0;
-        updateData[`flags.${MODULE_ID}.powerPoints.current`] = powerPoints.current - toRemove;
-      }
+      // Negative value means spending - use spend() which handles temporary first
+      await powerPointsHelper.spend(Math.abs(value));
     }
 
-    await this.actor.update(updateData);
     return this;
   }
 
@@ -248,13 +239,13 @@ export class PowerItem extends pf1.documents.item.ItemPF {
     const itemData = this.system;
     if (itemData.atWill) return Number.POSITIVE_INFINITY;
 
-    // const prepared = itemData.preparation?.value ?? 0;
     const prepared = 1;
 
     if (prepared > 0) {
-      const powerPoints = this.actor?.flags["pf1-psionics"]?.powerPoints;
-      if (max) return powerPoints?.maximum ?? 0;
-      return (powerPoints?.current ?? 0) + (powerPoints?.temp ?? 0);
+      const powerPointsHelper = this.actor?.psionics?.powerPoints;
+      if (!powerPointsHelper) return 0;
+      if (max) return powerPointsHelper.maximum;
+      return powerPointsHelper.available;
     }
 
     return 0;

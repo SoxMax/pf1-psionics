@@ -41,66 +41,141 @@ https://github.com/SoxMax/pf1-psionics/releases/latest/download/module.json
 
 This URL always points to the most recent release.
 
-Development
-===========
+Contributing to the Module
+==========================
 
-This module uses a YAML-based workflow for compendium management, matching the approach used by the official PF1 system.
+We welcome contributions! Whether you're fixing typos, adding missing powers, or improving existing content, your help is appreciated.
 
-## Quick Start
+## For Non-Technical Contributors: Upload via GitHub (No Git Required!)
+
+**The easiest way to contribute if you've edited compendiums in Foundry!**
+
+You can share your edited compendiums without cloning the repo or using Git. Just attach your pack files to a GitHub issue and our automation will handle the rest.
+
+### How It Works
+
+1. **Edit in Foundry VTT:**
+   - Install the pf1-psionics module in your Foundry
+   - Open the compendium you want to edit
+   - Right-click and select "Toggle Edit Lock" to unlock it
+   - Make your changes (add items, fix typos, update mechanics, etc.)
+   - Close Foundry completely when done
+
+2. **Prepare Your Upload:**
+   - Navigate to your Foundry VTT data folder: `Data/modules/pf1-psionics/packs/`
+   - Find the pack you edited (e.g., `powers/`, `feats/`, `classes/`)
+   - **Zip the entire pack directory**:
+     - **Windows**: Right-click folder → "Send to" → "Compressed (zipped) folder"
+     - **macOS**: Right-click folder → "Compress"
+     - **Linux**: Right-click folder → "Compress..." or `zip -r powers.zip powers/`
+   - Rename the zip to indicate the pack (e.g., `powers.zip`, `feats.zip`)
+
+3. **Upload to GitHub:**
+   - Open a new Issue using the ["Compendium Upload" template](../../issues/new/choose)
+   - Drag and drop your .zip file(s) into the issue description box
+   - Add a note about what you changed (e.g., "Fixed typos in 5 powers" or "Added missing Telepath class features")
+   - Submit the issue
+
+4. **Wait for Automation:**
+   - Our GitHub Action will automatically:
+     - Extract your pack files
+     - Convert them to human-readable YAML
+     - Create a new branch
+     - Open a Pull Request for review
+   - You'll get a comment on your issue with a link to the PR
+   - A maintainer will review and merge your changes
+
+### Important Notes
+
+- **Upload the entire pack directory**, not just individual `.ldb` files
+  - LevelDB needs `MANIFEST-*`, `CURRENT`, `LOG`, and `.ldb` files to work
+- If uploading multiple packs, zip each directory separately
+- Make sure Foundry is fully closed before zipping to avoid lock issues
+
+### Need Help?
+
+**Troubleshooting:** See the [Compendium Upload Troubleshooting Guide](docs/compendium-upload-troubleshooting.md) for solutions to common issues.
+
+---
+
+## For Developers: Local Development Setup
+
+**Prerequisites:** Git, Node.js 18+, Foundry VTT
+
+### Quick Start
+
+Fork and clone into your Foundry modules directory (`Data/modules/`):
 
 ```bash
-# Install dependencies
+cd /path/to/FoundryVTT/Data/modules/
+git clone https://github.com/YOUR-USERNAME/pf1-psionics.git
+cd pf1-psionics
 npm install
-
-# Extract compendiums from LevelDB to YAML
-npm run packs:extract
-
-# Compile YAML source to LevelDB
 npm run packs:compile
 ```
 
-## Compendium Workflow
+**Note:** The `packs/` directory is gitignored. Run `npm run packs:compile` after checkout to generate LevelDB databases from YAML source in `packs-source/`.
 
-The module stores human-readable YAML source files in `packs-source/` and compiles them to LevelDB format in `packs/`.
+Enable the module in Foundry (**Game Settings → Manage Modules → Psionics for PF1e**).
 
-**Source files** (`packs-source/`) are committed to git.
-**Compiled files** (`packs/`) are gitignored and generated at build time.
+### Editing Compendiums
 
-### After editing in Foundry:
+**Option 1: Edit in Foundry (Recommended)**
+
+1. Unlock compendium (right-click → Toggle Edit Lock)
+2. Make changes in Foundry UI
+3. Extract to YAML: `npm run packs:extract [pack-name]`
+4. Review changes: `git diff packs-source/`
+
+**Option 2: Edit YAML Directly**
+
+1. Edit files in `packs-source/`
+2. Compile to LevelDB: `npm run packs:compile`
+3. Test in Foundry (F5 to refresh)
+
+### Submitting Changes
+
+Standard GitHub workflow:
 
 ```bash
-npm run packs:extract powers
-npm run packs:extract feats
+git checkout -b my-feature-branch
 git add packs-source/
-git commit -m "Update powers"
+git commit -m "Description of changes"
+git push origin my-feature-branch
 ```
 
-### After editing YAML files:
+Open a PR on GitHub with a description of your changes.
+
+### Common Workflows
+
+**Adding/Editing Content:**
+- Unlock compendium → Edit in Foundry → `npm run packs:extract [pack]` → Commit
+- May need to quit Foundry to avoid lock issues
+
+**Bulk YAML Edits:**
+- Edit files in `packs-source/` → `npm run packs:compile` → Test → Commit
+- Restart Foundry to ensure changes load
+
+### Architecture
+
+YAML source (`packs-source/`) is committed to git. LevelDB (`packs/`) is gitignored and generated at build time.
+
+### Advanced: Scraping Content
+
+For bulk imports from online sources:
 
 ```bash
-npm run packs:compile
-# Refresh Foundry (F5)
-```
-
-### Adding new content:
-
-```bash
-# Scrape powers from metzo.miraheze.org
 cd tools/scrapers
 node powers-scraper.mjs --list ../data/power-urls.txt
-
-# Scrape feats
 node feats-scraper.mjs --list ../data/feat-urls.txt
-
-# Compile to LevelDB
 cd ../..
 npm run packs:compile
 ```
 
-For detailed documentation, see:
-- [tools/README.md](tools/README.md) - Tools documentation
+### Documentation
+
+- [tools/README.md](tools/README.md) - Tools and scrapers documentation
 - [tools/docs/IMPORT-GUIDE.md](tools/docs/IMPORT-GUIDE.md) - Complete import workflow
-- [COMPENDIUM-WORKFLOW.md](COMPENDIUM-WORKFLOW.md) - Architecture documentation
 
 ## Release Process
 
