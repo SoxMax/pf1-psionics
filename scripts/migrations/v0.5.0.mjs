@@ -2,22 +2,22 @@ import { MODULE_ID } from "../_module.mjs";
 import { migrateAllActors, migrateAllItems } from "./helpers.mjs";
 
 /**
- * Migration for version 0.4.1
+ * Migration for version 0.5.0
  * Renames manifestor/manifestors to manifester/manifesters
  * - Renames actor flag from "manifestors" to "manifesters"
  * - Updates power items to use "manifester" instead of "manifestor"
  */
-export async function migrateToVersion041() {
-  console.log(`${MODULE_ID} | Running migration to 0.4.1`);
+export async function migrateToVersion050() {
+  console.log(`${MODULE_ID} | Running migration to 0.5.0`);
 
-  await migrateAllActors(migrateActor, "actors to v0.4.1");
-  await migrateAllItems(`${MODULE_ID}.power`, migratePowerItem, "power items to v0.4.1");
+  await migrateAllActors(migrateActor, "actors to v0.5.0");
+  await migrateAllItems(`${MODULE_ID}.power`, migratePowerItem, "power items to v0.5.0");
 
-  console.log(`${MODULE_ID} | Migration to 0.4.1 complete`);
+  console.log(`${MODULE_ID} | Migration to 0.5.0 complete`);
 }
 
 /**
- * Migrates a single actor to v0.4.1 schema
+ * Migrates a single actor to v0.5.0 schema
  * Renames the "manifestors" flag to "manifesters"
  * @param {Actor} actor - The actor to migrate
  * @returns {Promise<boolean>} - True if actor was modified
@@ -42,7 +42,7 @@ async function migrateActor(actor) {
 }
 
 /**
- * Migrates a single power item to v0.4.1 schema
+ * Migrates a single power item to v0.5.0 schema
  * Renames "manifestor" field to "manifester"
  * @param {Item} item - The item to migrate
  * @returns {Promise<boolean>} - True if item was modified
@@ -70,3 +70,4 @@ async function migratePowerItem(item) {
 
   return true;
 }
+
