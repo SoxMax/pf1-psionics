@@ -145,7 +145,6 @@ function onToggleConfig(event) {
   const currentToggle = manifesters[dataset.manifester].showConfig;
   const configFlag = { [`flags.${MODULE_ID}.manifesters.${dataset.manifester}.showConfig`]: !currentToggle };
   this.actor.update(configFlag);
-  this._forceShowPowerTab = true;
 }
 
 function onItemCreate(event) {
@@ -166,7 +165,6 @@ function onItemCreate(event) {
     }
   };
   PowerItem.create(powerData, { parent: actor, renderSheet: true });
-  this._forceShowPowerTab = true;
 }
 
 async function onBrowsePowers(event) {
@@ -197,6 +195,11 @@ function injectEventListeners(app, html, _data) {
   // Bind Events
   // manifestersBodyElement.find("a.hide-show").click(app._hideShowElement.bind(app));
   manifestersBodyElement.find("a.toggle-config").click(onToggleConfig.bind(app));
+
+  // Initialize and bind filter buttons - uses PF1e's native filter system
+  const filterLists = manifestersBodyElement.find(".filter-list");
+  filterLists.each(app._initializeFilterItemList.bind(app));
+  filterLists.on("click", ".filter-rule", app._onToggleFilter.bind(app));
 
   // Create new Power
   manifestersBodyElement.find(".item-create").click(onItemCreate.bind(app));
