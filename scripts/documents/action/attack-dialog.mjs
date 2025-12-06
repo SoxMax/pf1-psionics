@@ -16,7 +16,7 @@ export async function renderAttackDialogHook(app, html, data) {
       {
         augments: augments,
         manifestCL: manifestCL,
-        currentFocus: data.actor?.flags?.[MODULE_ID]?.focus?.current || 0
+        currentFocus: data.actor?.psionics?.focus?.current ?? 0
       }
     );
     controls.after(augmentControls);

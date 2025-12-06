@@ -114,14 +114,14 @@ export class AugmentModel extends pf1.models.abstract.DocumentLikeModel {
   canUse(actor) {
     if (!actor) return true;
 
-    // Check power point cost
-    const ppAvailable = actor.system.attributes?.powerPoints?.value ?? 0;
+    // Check power point cost using helper
+    const ppAvailable = actor.psionics?.powerPoints?.available ?? 0;
     if (ppAvailable < this.cost) return false;
 
-    // Check psionic focus requirement
+    // Check psionic focus requirement using helper
     if (this.requiresFocus && this.maxUses === 1) {
-      const focusAvailable = actor.getFlag("pf1-psionics", "focus.current") ?? 0;
-      if (focusAvailable < 1) return false;
+      const isFocused = actor.psionics?.focus?.isFocused ?? false;
+      if (!isFocused) return false;
     }
 
     return true;
