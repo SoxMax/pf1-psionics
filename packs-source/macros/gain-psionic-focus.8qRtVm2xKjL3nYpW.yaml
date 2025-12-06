@@ -13,14 +13,14 @@ command: |-
   //
   // Use this for abilities that let you regain psionic focus as a swift action,
   // move action, or other non-standard action (e.g., Psionic Meditation feat).
-  
+
   // Validate we have an actor
   if (!actor) {
     ui.notifications.error("No actor found for this item.");
     shared.reject = true;
     return;
   }
-  
+
   // Get psionic focus helper from actor
   const focus = actor.psionics?.focus;
   if (!focus?.inUse) {
@@ -28,13 +28,13 @@ command: |-
     shared.reject = true;
     return;
   }
-  
+
   // Check if actor is already focused
   if (focus.isFocused) {
     ui.notifications.warn(`${actor.name} is already psionically focused.`);
     return;
   }
-  
+
   // Gain psionic focus using the helper
   try {
     await focus.gain();
@@ -51,4 +51,3 @@ img: systems/pf1/icons/feats/combat-casting.jpg
 name: Gain Psionic Focus
 scope: global
 type: script
-

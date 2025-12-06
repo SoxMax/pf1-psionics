@@ -21,14 +21,14 @@ command: |-
   //
   // Note: Temporary power points are spent before regular power points
   // and are typically lost after resting.
-  
+
   // Validate we have an actor
   if (!actor) {
     ui.notifications.error("No actor found for this item.");
     shared.reject = true;
     return;
   }
-  
+
   // Get power points helper from actor
   const pp = actor.psionics?.powerPoints;
   if (!pp?.inUse) {
@@ -36,10 +36,10 @@ command: |-
     shared.reject = true;
     return;
   }
-  
+
   // Get amount from item's dictionary flag, default to 1
   const amountValue = item.getItemDictionaryFlag("tempPP") ?? 1;
-  
+
   // Evaluate amount - supports formulas like "@cl" or "@attributes.hd.total"
   let amount;
   if (typeof amountValue === "number") {
@@ -50,15 +50,15 @@ command: |-
     const roll = RollPF.safeRollSync(String(amountValue), rollData);
     amount = roll.total;
   }
-  
+
   // Ensure amount is a valid positive number
   amount = Math.max(0, Math.floor(amount));
-  
+
   if (amount === 0) {
     // Zero amount - nothing to add
     return;
   }
-  
+
   // Add temporary power points using the helper
   try {
     await pp.addTemporary(amount);
@@ -75,4 +75,3 @@ img: icons/magic/symbols/runes-star-blue.webp
 name: Add Temporary Power Points
 scope: global
 type: script
-

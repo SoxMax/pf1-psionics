@@ -15,14 +15,14 @@ command: |-
   // - Check if the actor has psionic focus capability
   // - Check if the actor is currently focused
   // - Expend the focus if available, or reject the action if not
-  
+
   // Validate we have an actor
   if (!actor) {
     ui.notifications.error("No actor found for this item.");
     shared.reject = true;
     return;
   }
-  
+
   // Get psionic focus helper from actor
   const focus = actor.psionics?.focus;
   if (!focus?.inUse) {
@@ -30,14 +30,14 @@ command: |-
     shared.reject = true;
     return;
   }
-  
+
   // Check if actor is currently focused
   if (!focus.canExpend()) {
     ui.notifications.error(`Cannot use ${item.name}. ${actor.name} is not psionically focused.`);
     shared.reject = true;
     return;
   }
-  
+
   // Expend psionic focus using the helper
   try {
     await focus.expend();

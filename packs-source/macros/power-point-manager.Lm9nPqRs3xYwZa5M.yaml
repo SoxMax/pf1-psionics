@@ -3,28 +3,41 @@ _key: '!macros!Lm9nPqRs3xYwZa5M'
 _stats:
   coreVersion: '13.351'
 author: N8Qq94zyfscJUwL4
-command: |-
+command: >-
   // Power Point Manager Dialog Macro
-  // Opens a dialog to manually adjust power points (for GMs or special abilities)
+
+  // Opens a dialog to manually adjust power points (for GMs or special
+  abilities)
+
   //
+
   // EXAMPLE MACRO: Demonstrates using dialogs with the psionics API
+
   // This is a standalone macro - run it from the hotbar with a token selected
-  
+
+
   // Get the selected actor
+
   const actor = canvas.tokens.controlled[0]?.actor ?? game.user.character;
+
   if (!actor) {
     ui.notifications.warn("Please select a token or set a default character.");
     return;
   }
-  
+
+
   // Get power points helper
+
   const pp = actor.psionics?.powerPoints;
+
   if (!pp?.inUse) {
     ui.notifications.warn(`${actor.name} does not have power points.`);
     return;
   }
-  
+
+
   // Build dialog content
+
   const content = `
     <form>
       <p><strong>Current:</strong> ${pp.current} / ${pp.maximum}</p>
@@ -47,7 +60,8 @@ command: |-
       </div>
     </form>
   `;
-  
+
+
   new Dialog({
     title: `Power Point Manager - ${actor.name}`,
     content: content,
@@ -97,4 +111,3 @@ img: icons/magic/control/energy-stream-link-large-blue.webp
 name: Power Point Manager
 scope: global
 type: script
-

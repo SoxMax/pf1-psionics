@@ -18,14 +18,14 @@ command: |-
   //   ppCost = @cl * 2    (cost equals double caster level)
   //
   // If no ppCost flag is set, defaults to 1 power point.
-  
+
   // Validate we have an actor
   if (!actor) {
     ui.notifications.error("No actor found for this item.");
     shared.reject = true;
     return;
   }
-  
+
   // Get power points helper from actor
   const pp = actor.psionics?.powerPoints;
   if (!pp?.inUse) {
@@ -33,10 +33,10 @@ command: |-
     shared.reject = true;
     return;
   }
-  
+
   // Get cost from item's dictionary flag, default to 1
   const costValue = item.getItemDictionaryFlag("ppCost") ?? 1;
-  
+
   // Evaluate cost - supports formulas like "@cl" or "@attributes.hd.total"
   let cost;
   if (typeof costValue === "number") {
@@ -47,22 +47,22 @@ command: |-
     const roll = RollPF.safeRollSync(String(costValue), rollData);
     cost = roll.total;
   }
-  
+
   // Ensure cost is a valid positive number
   cost = Math.max(0, Math.floor(cost));
-  
+
   if (cost === 0) {
     // Zero cost - nothing to spend
     return;
   }
-  
+
   // Check if actor has enough power points
   if (!pp.canSpend(cost)) {
     ui.notifications.error(`Cannot use ${item.name}. Requires ${cost} power points but only ${pp.available} available.`);
     shared.reject = true;
     return;
   }
-  
+
   // Spend power points using the helper
   // This automatically drains temporary points first, then current
   try {

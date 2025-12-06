@@ -9,18 +9,18 @@ command: |-
   //
   // EXAMPLE MACRO: Demonstrates iterating over multiple actors
   // Useful for GMs to track party resources at a glance
-  
+
   // Get all player-owned characters with psionics
   const psionicActors = game.actors.filter(a => 
     a.hasPlayerOwner && 
     a.psionics?.hasPsionics
   );
-  
+
   if (psionicActors.length === 0) {
     ui.notifications.info("No psionic characters found in the game.");
     return;
   }
-  
+
   // Build summary table
   let content = `
     <h2>Psionic Party Overview</h2>
@@ -36,7 +36,7 @@ command: |-
       </thead>
       <tbody>
   `;
-  
+
   for (const actor of psionicActors) {
     const pp = actor.psionics.powerPoints;
     const focus = actor.psionics.focus;
@@ -61,7 +61,7 @@ command: |-
       </tr>
     `;
   }
-  
+
   content += `
       </tbody>
     </table>
@@ -71,7 +71,7 @@ command: |-
       <span style="color:#a44;">●</span> <25%</em>
     </p>
   `;
-  
+
   // Display as a dialog so it can stay open
   new Dialog({
     title: "Psionic Party Overview",
@@ -93,8 +93,7 @@ command: |-
     },
     default: "close"
   }, { width: 400 }).render(true);
-img: icons/magic/symbols/cog-orange-glowing.webp
+img: icons/environment/people/group.webp
 name: Psionic Party Overview
 scope: global
 type: script
-

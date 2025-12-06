@@ -12,32 +12,32 @@ command: |-
   //
   // Wild Surge allows a Wilder to boost their manifester level and gain
   // temporary power points, but risks psychic enervation on natural 1s.
-  
+
   // Configuration - adjust these based on class feature level
   const SURGE_LEVEL = 1;  // Wild surge bonus to manifester level
   const TEMP_PP = 2;      // Temporary power points gained
   const ENERVATION_DC = 15 + SURGE_LEVEL; // Will save DC to avoid enervation
-  
+
   // Get actor
   const actor = token?.actor ?? game.user.character;
   if (!actor) {
     ui.notifications.warn("No actor found.");
     return;
   }
-  
+
   const pp = actor.psionics?.powerPoints;
   if (!pp?.inUse) {
     ui.notifications.warn(`${actor.name} does not have power points.`);
     return;
   }
-  
+
   // Roll d20 to check for psychic enervation
   const roll = await new Roll("1d20").evaluate();
   const isEnervation = roll.total === 1;
-  
+
   // Build result message
   let flavor = `<h3>Wild Surge +${SURGE_LEVEL}</h3>`;
-  
+
   if (isEnervation) {
     // Psychic Enervation! 
     // Wilder is dazed and loses power points equal to manifester level
@@ -60,7 +60,7 @@ command: |-
     flavor += `<p>Gained <strong>${TEMP_PP}</strong> temporary power points!</p>`;
     flavor += `<p><em>(${pp.temporary} temp, ${pp.available} total available)</em></p>`;
   }
-  
+
   // Show the roll in chat with results
   await roll.toMessage({
     speaker: ChatMessage.getSpeaker({ actor }),
@@ -71,4 +71,3 @@ img: icons/magic/lightning/bolt-strike-creature-pink.webp
 name: Wild Surge (Example)
 scope: global
 type: script
-

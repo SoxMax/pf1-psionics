@@ -11,33 +11,33 @@ command: |-
   // that demonstrates the API for macro writers.
   //
   // Run this macro to see the API documentation in chat.
-  
+
   const content = `
   <h2>PF1-Psionics API Reference</h2>
   <p>Use these examples in your own macros!</p>
-  
+
   <h3>Accessing the API</h3>
   <pre><code>// Via actor (recommended)
   const pp = actor.psionics.powerPoints;
   const focus = actor.psionics.focus;
-  
+
   // Via module API
   const api = game.modules.get("pf1-psionics").api;
   </code></pre>
-  
+
   <h3>Power Points Helper</h3>
   <pre><code>const pp = actor.psionics.powerPoints;
-  
+
   // Read values
   pp.current    // Current PP (not including temp)
   pp.temporary  // Temporary PP
   pp.maximum    // Maximum PP
   pp.available  // Total available (current + temp)
   pp.inUse      // Boolean: has PP capability?
-  
+
   // Check affordability
   pp.canSpend(5)  // Boolean: can afford 5 PP?
-  
+
   // Modify values (all async)
   await pp.spend(5);       // Spend 5 PP (temp first)
   await pp.add(3);         // Add 3 PP (clamped to max)
@@ -45,36 +45,36 @@ command: |-
   await pp.setCurrent(10); // Set current to 10
   await pp.setTemporary(5); // Set temp to 5
   await pp.restore();      // Restore to maximum
-  
+
   // Get as plain object (for templates)
   const data = pp.toObject();
   </code></pre>
-  
+
   <h3>Psionic Focus Helper</h3>
   <pre><code>const focus = actor.psionics.focus;
-  
+
   // Read values
   focus.current   // Current focus (0 or 1)
   focus.maximum   // Maximum focus (usually 1)
   focus.isFocused // Boolean: is focused?
   focus.inUse     // Boolean: can use focus?
-  
+
   // Check
   focus.canExpend() // Boolean: can expend?
-  
+
   // Modify values (all async)
   await focus.expend();     // Expend focus
   await focus.gain();       // Gain focus
   await focus.setCurrent(1); // Set focus value
   await focus.restore();    // Restore to maximum
-  
+
   // Get as plain object
   const data = focus.toObject();
   </code></pre>
-  
+
   <h3>Manifesters Data</h3>
   <pre><code>const manifesters = actor.psionics.manifesters;
-  
+
   // Access specific manifester (primary, secondary, tertiary)
   const primary = manifesters?.primary;
   primary.cl.total       // Manifester level
@@ -82,43 +82,42 @@ command: |-
   primary.concentration  // Concentration bonus
   primary.powerPoints    // PP from this class
   </code></pre>
-  
+
   <h3>Roll Data Access</h3>
   <pre><code>// In formulas, use @psionics:
   // @psionics.primary.cl.total
   // @psionics.powerPoints.current
   // @psionics.focus.isFocused
-  
+
   const rollData = actor.getRollData();
   rollData.psionics.primary.cl.total;
   rollData.psionics.powerPoints.available;
   </code></pre>
-  
+
   <h3>Script Call Context</h3>
   <pre><code>// In item script calls, you have:
   // actor - the owning actor
   // item - the item being used
   // shared - object to share data/reject action
-  
+
   // Reject an action
   shared.reject = true;
   return;
-  
+
   // Read dictionary flags from items
   const cost = item.getItemDictionaryFlag("ppCost");
   </code></pre>
   `;
-  
+
   ChatMessage.create({
     user: game.user.id,
     content: content,
     whisper: [game.user.id], // Whisper to self
     type: CONST.CHAT_MESSAGE_STYLES.OTHER
   });
-  
+
   ui.notifications.info("API reference sent to chat (whispered to you).");
 img: icons/sundries/books/book-worn-brown-grey.webp
 name: Psionic API Examples
 scope: global
 type: script
-

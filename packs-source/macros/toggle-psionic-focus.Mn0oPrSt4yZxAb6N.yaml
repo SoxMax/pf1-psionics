@@ -13,21 +13,21 @@ command: |-
   // Behavior:
   // - If focused: Expends focus
   // - If not focused: Gains focus (with optional concentration check)
-  
+
   // Get the selected actor
   const actor = canvas.tokens.controlled[0]?.actor ?? game.user.character;
   if (!actor) {
     ui.notifications.warn("Please select a token or set a default character.");
     return;
   }
-  
+
   // Get focus helper
   const focus = actor.psionics?.focus;
   if (!focus?.inUse) {
     ui.notifications.warn(`${actor.name} cannot use psionic focus.`);
     return;
   }
-  
+
   if (focus.isFocused) {
     // Currently focused - ask if they want to expend it
     new Dialog({
@@ -82,8 +82,7 @@ command: |-
       default: "gain"
     }).render(true);
   }
-img: icons/magic/control/buff-flight-wings-rune-purple.webp
+img: systems/pf1/icons/feats/still-spell.jpg
 name: Toggle Psionic Focus
 scope: global
 type: script
-
