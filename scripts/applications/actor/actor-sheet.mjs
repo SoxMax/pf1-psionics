@@ -24,6 +24,29 @@ function injectActorSheetPF() {
 
     context.psionics.powerPoints = ppHelper?.toObject() ?? { current: 0, temporary: 0, maximum: 0, available: 0, inUse: false };
     context.psionics.focus = focusHelper?.toObject() ?? { current: 0, maximum: 0, isFocused: false, inUse: false };
+
+    // Apply filters to manifester sections (similar to how PF1e handles spellbooks)
+    for (const [manifesterId, manifester] of Object.entries(context.manifesterData ?? {})) {
+      if (!manifester.inUse || !manifester.sections) continue;
+
+      const categoryKey = `manifester-${manifesterId}`;
+      const filterSet = this._filters.sections[categoryKey];
+
+      // Debug logging
+      console.log(`PF1-Psionics | Filtering manifester "${manifesterId}":`, {
+        categoryKey,
+        filterSet: filterSet ? Array.from(filterSet) : undefined,
+        sectionIds: manifester.sections.map(s => s?.id)
+      });
+
+      if (!filterSet) continue;
+
+      // Apply filters to each section
+      for (const section of manifester.sections) {
+        if (!section) continue;
+        this._filterSection({ key: categoryKey }, section, filterSet);
+      }
+    }
   }, "WRAPPER");
 
   // Track the currently active tab
