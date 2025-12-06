@@ -17,34 +17,28 @@ command: |-
     return;
   }
   
-  // Get power points from actor flags
-  const powerPoints = actor.flags?.["pf1-psionics"]?.powerPoints;
-  if (!powerPoints) {
+  // Get power points helper from actor
+  const pp = actor.psionics?.powerPoints;
+  if (!pp?.inUse) {
     ui.notifications.error("This actor does not have power points. Ensure the PF1-Psionics module is active and the actor has manifesting capability.");
     shared.reject = true;
     return;
   }
   
   // Check if actor has enough power points
-  const currentPP = (powerPoints.current || 0);
-  const tempPP = (powerPoints.temporary || 0);
-  const totalAvailable = currentPP + tempPP;
-  
-  if (cost > totalAvailable) {
-    ui.notifications.error(`Cannot use ${item.name}. Requires ${cost} power points but only ${totalAvailable} available.`);
+  if (!pp.canSpend(cost)) {
+    ui.notifications.error(`Cannot use ${item.name}. Requires ${cost} power points but only ${pp.available} available.`);
     shared.reject = true;
     return;
   }
   
-  // Use the item's addCharges method to spend power points
-  // This ensures consistency with the system's power point management
-  // Note: addCharges with negative value spends points
+  // Spend power points using the helper
+  // This automatically drains temporary points first, then current
   try {
-    await item.addCharges(-cost);
+    await pp.spend(cost);
     
     // Success notification
-    const remaining = totalAvailable - cost;
-    ui.notifications.info(`${actor.name} spent ${cost} power point${cost !== 1 ? 's' : ''} to use ${item.name}. (${remaining} / ${powerPoints.maximum} remaining)`);
+    ui.notifications.info(`${actor.name} spent ${cost} power point${cost !== 1 ? 's' : ''} to use ${item.name}. (${pp.available} / ${pp.maximum} remaining)`);
   } catch (error) {
     console.error("Failed to spend power points:", error);
     ui.notifications.error(`Failed to spend power points for ${item.name}.`);
