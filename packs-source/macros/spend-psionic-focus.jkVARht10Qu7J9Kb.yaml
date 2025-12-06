@@ -1,0 +1,56 @@
+_id: jkVARht10Qu7J9Kb
+_key: '!macros!jkVARht10Qu7J9Kb'
+_stats:
+  coreVersion: '13.351'
+author: N8Qq94zyfscJUwL4
+command: |-
+  // Spend Psionic Focus Script Call for PF1-Psionics
+  // Designed to be attached to an item's "use" script call category
+  // This will expend psionic focus when an item is used
+  //
+  // SETUP: Simply drag this macro onto a feat or class feature's script calls.
+  // No additional configuration is needed - psionic focus is always 0 or 1.
+  //
+  // The macro will:
+  // - Check if the actor has psionic focus capability
+  // - Check if the actor is currently focused
+  // - Expend the focus if available, or reject the action if not
+
+  // Validate we have an actor
+  if (!actor) {
+    ui.notifications.error("No actor found for this item.");
+    shared.reject = true;
+    return;
+  }
+
+  // Get psionic focus helper from actor
+  const focus = actor.psionics?.focus;
+  if (!focus?.inUse) {
+    ui.notifications.error("This actor cannot use psionic focus. Ensure the PF1-Psionics module is active and the actor has manifesting capability.");
+    shared.reject = true;
+    return;
+  }
+
+  // Check if actor is currently focused
+  if (!focus.canExpend()) {
+    ui.notifications.error(`Cannot use ${item.name}. ${actor.name} is not psionically focused.`);
+    shared.reject = true;
+    return;
+  }
+
+  // Expend psionic focus using the helper
+  try {
+    await focus.expend();
+    
+    // Success notification
+    ui.notifications.info(`${actor.name} expended psionic focus to use ${item.name}.`);
+  } catch (error) {
+    console.error("Failed to expend psionic focus:", error);
+    ui.notifications.error(`Failed to expend psionic focus for ${item.name}.`);
+    shared.reject = true;
+    return;
+  }
+img: systems/pf1/icons/feats/still-spell.jpg
+name: Spend Psionic Focus
+scope: global
+type: script

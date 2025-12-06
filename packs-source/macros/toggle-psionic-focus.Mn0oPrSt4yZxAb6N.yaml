@@ -1,0 +1,88 @@
+_id: Mn0oPrSt4yZxAb6N
+_key: '!macros!Mn0oPrSt4yZxAb6N'
+_stats:
+  coreVersion: '13.351'
+author: N8Qq94zyfscJUwL4
+command: |-
+  // Toggle Psionic Focus Macro
+  // Quick toggle for gaining/expending psionic focus
+  //
+  // EXAMPLE MACRO: Demonstrates a simple toggle pattern
+  // This is a standalone macro - run it from the hotbar with a token selected
+  //
+  // Behavior:
+  // - If focused: Expends focus
+  // - If not focused: Gains focus (with optional concentration check)
+
+  // Get the selected actor
+  const actor = canvas.tokens.controlled[0]?.actor ?? game.user.character;
+  if (!actor) {
+    ui.notifications.warn("Please select a token or set a default character.");
+    return;
+  }
+
+  // Get focus helper
+  const focus = actor.psionics?.focus;
+  if (!focus?.inUse) {
+    ui.notifications.warn(`${actor.name} cannot use psionic focus.`);
+    return;
+  }
+
+  if (focus.isFocused) {
+    // Currently focused - ask if they want to expend it
+    new Dialog({
+      title: "Expend Psionic Focus?",
+      content: `<p>${actor.name} is currently <strong>focused</strong>.</p><p>Do you want to expend your psionic focus?</p>`,
+      buttons: {
+        expend: {
+          icon: '<i class="fas fa-bolt"></i>',
+          label: "Expend Focus",
+          callback: async () => {
+            await focus.expend();
+            ui.notifications.info(`${actor.name} expended psionic focus.`);
+          }
+        },
+        cancel: {
+          icon: '<i class="fas fa-times"></i>',
+          label: "Keep Focus"
+        }
+      },
+      default: "cancel"
+    }).render(true);
+  } else {
+    // Not focused - gain focus
+    // In a real game, this would require a full-round action and DC 20 concentration check
+    // This macro simplifies it for convenience, but you could add a roll here
+    
+    new Dialog({
+      title: "Gain Psionic Focus",
+      content: `
+        <p>${actor.name} is <strong>not focused</strong>.</p>
+        <p>Gaining psionic focus normally requires:</p>
+        <ul>
+          <li>A full-round action</li>
+          <li>DC 20 Concentration check (Autohypnosis can substitute)</li>
+        </ul>
+        <p>Gain focus now?</p>
+      `,
+      buttons: {
+        gain: {
+          icon: '<i class="fas fa-brain"></i>',
+          label: "Gain Focus",
+          callback: async () => {
+            await focus.gain();
+            ui.notifications.info(`${actor.name} became psionically focused.`);
+          }
+        },
+        cancel: {
+          icon: '<i class="fas fa-times"></i>',
+          label: "Cancel"
+        }
+      },
+      default: "gain"
+    }).render(true);
+  }
+img: systems/pf1/icons/feats/still-spell.jpg
+name: Toggle Psionic Focus
+scope: global
+type: script

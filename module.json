@@ -52,6 +52,12 @@
         "races",
         "rules"
       ]
+    },
+    {
+      "name": "Macros",
+      "packs": [
+        "macros"
+      ]
     }
   ],
   "packs": [
@@ -71,6 +77,17 @@
       "label": "Psionic Feats",
       "path": "packs/feats",
       "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macros",
+      "label": "Psionic Macros",
+      "path": "packs/macros",
+      "type": "Macro",
       "system": "pf1",
       "ownership": {
         "PLAYER": "OBSERVER",

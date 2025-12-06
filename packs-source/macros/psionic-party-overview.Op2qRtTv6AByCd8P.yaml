@@ -1,0 +1,99 @@
+_id: Op2qRtTv6AByCd8P
+_key: '!macros!Op2qRtTv6AByCd8P'
+_stats:
+  coreVersion: '13.351'
+author: N8Qq94zyfscJUwL4
+command: |-
+  // Psionic Party Overview Macro (GM Tool)
+  // Displays psionic resources for all player characters
+  //
+  // EXAMPLE MACRO: Demonstrates iterating over multiple actors
+  // Useful for GMs to track party resources at a glance
+
+  // Get all player-owned characters with psionics
+  const psionicActors = game.actors.filter(a => 
+    a.hasPlayerOwner && 
+    a.psionics?.hasPsionics
+  );
+
+  if (psionicActors.length === 0) {
+    ui.notifications.info("No psionic characters found in the game.");
+    return;
+  }
+
+  // Build summary table
+  let content = `
+    <h2>Psionic Party Overview</h2>
+    <table style="width:100%; border-collapse: collapse;">
+      <thead>
+        <tr style="border-bottom: 2px solid #666;">
+          <th style="text-align:left; padding: 4px;">Character</th>
+          <th style="text-align:center; padding: 4px;">PP</th>
+          <th style="text-align:center; padding: 4px;">Temp</th>
+          <th style="text-align:center; padding: 4px;">Max</th>
+          <th style="text-align:center; padding: 4px;">Focus</th>
+        </tr>
+      </thead>
+      <tbody>
+  `;
+
+  for (const actor of psionicActors) {
+    const pp = actor.psionics.powerPoints;
+    const focus = actor.psionics.focus;
+    
+    // Calculate PP percentage for color coding
+    const ppPercent = pp.maximum > 0 ? (pp.current / pp.maximum) * 100 : 0;
+    let ppColor = "#4a4"; // Green
+    if (ppPercent <= 25) ppColor = "#a44"; // Red
+    else if (ppPercent <= 50) ppColor = "#a84"; // Orange
+    
+    const focusIcon = focus.isFocused 
+      ? '<i class="fas fa-check-circle" style="color: #4a4;"></i>' 
+      : '<i class="fas fa-times-circle" style="color: #a44;"></i>';
+    
+    content += `
+      <tr style="border-bottom: 1px solid #444;">
+        <td style="padding: 4px;">${actor.name}</td>
+        <td style="text-align:center; padding: 4px; color: ${ppColor};">${pp.current}</td>
+        <td style="text-align:center; padding: 4px; color: #48a;">${pp.temporary || "-"}</td>
+        <td style="text-align:center; padding: 4px;">${pp.maximum}</td>
+        <td style="text-align:center; padding: 4px;">${focusIcon}</td>
+      </tr>
+    `;
+  }
+
+  content += `
+      </tbody>
+    </table>
+    <p style="margin-top: 8px; font-size: 0.9em; color: #888;">
+      <em>PP colors: <span style="color:#4a4;">●</span> >50% | 
+      <span style="color:#a84;">●</span> 25-50% | 
+      <span style="color:#a44;">●</span> <25%</em>
+    </p>
+  `;
+
+  // Display as a dialog so it can stay open
+  new Dialog({
+    title: "Psionic Party Overview",
+    content: content,
+    buttons: {
+      refresh: {
+        icon: '<i class="fas fa-sync"></i>',
+        label: "Refresh",
+        callback: () => {
+          // Re-run the macro to refresh data
+          const macro = game.macros.getName("Psionic Party Overview");
+          if (macro) macro.execute();
+        }
+      },
+      close: {
+        icon: '<i class="fas fa-times"></i>',
+        label: "Close"
+      }
+    },
+    default: "close"
+  }, { width: 400 }).render(true);
+img: icons/environment/people/group.webp
+name: Psionic Party Overview
+scope: global
+type: script

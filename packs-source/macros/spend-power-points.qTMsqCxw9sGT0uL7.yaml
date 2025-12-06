@@ -1,0 +1,82 @@
+_id: qTMsqCxw9sGT0uL7
+_key: '!macros!qTMsqCxw9sGT0uL7'
+_stats:
+  coreVersion: '13.351'
+author: N8Qq94zyfscJUwL4
+command: |-
+  // Spend Power Points Script Call for PF1-Psionics
+  // Designed to be attached to an item's "use" script call category
+  // This will spend power points when an item is used
+  //
+  // SETUP: Add a Dictionary Flag to your feat/class feature:
+  //   Key: ppCost
+  //   Value: The power point cost (number or formula)
+  //
+  // Examples:
+  //   ppCost = 3          (fixed cost of 3 PP)
+  //   ppCost = @cl        (cost equals caster level)
+  //   ppCost = @cl * 2    (cost equals double caster level)
+  //
+  // If no ppCost flag is set, defaults to 1 power point.
+
+  // Validate we have an actor
+  if (!actor) {
+    ui.notifications.error("No actor found for this item.");
+    shared.reject = true;
+    return;
+  }
+
+  // Get power points helper from actor
+  const pp = actor.psionics?.powerPoints;
+  if (!pp?.inUse) {
+    ui.notifications.error("This actor does not have power points. Ensure the PF1-Psionics module is active and the actor has manifesting capability.");
+    shared.reject = true;
+    return;
+  }
+
+  // Get cost from item's dictionary flag, default to 1
+  const costValue = item.getItemDictionaryFlag("ppCost") ?? 1;
+
+  // Evaluate cost - supports formulas like "@cl" or "@attributes.hd.total"
+  let cost;
+  if (typeof costValue === "number") {
+    cost = costValue;
+  } else {
+    // It's a formula string - evaluate it with rollData
+    const rollData = item.getRollData();
+    const roll = RollPF.safeRollSync(String(costValue), rollData);
+    cost = roll.total;
+  }
+
+  // Ensure cost is a valid positive number
+  cost = Math.max(0, Math.floor(cost));
+
+  if (cost === 0) {
+    // Zero cost - nothing to spend
+    return;
+  }
+
+  // Check if actor has enough power points
+  if (!pp.canSpend(cost)) {
+    ui.notifications.error(`Cannot use ${item.name}. Requires ${cost} power points but only ${pp.available} available.`);
+    shared.reject = true;
+    return;
+  }
+
+  // Spend power points using the helper
+  // This automatically drains temporary points first, then current
+  try {
+    await pp.spend(cost);
+    
+    // Success notification
+    ui.notifications.info(`${actor.name} spent ${cost} power point${cost !== 1 ? 's' : ''} to use ${item.name}. (${pp.available} / ${pp.maximum} remaining)`);
+  } catch (error) {
+    console.error("Failed to spend power points:", error);
+    ui.notifications.error(`Failed to spend power points for ${item.name}.`);
+    shared.reject = true;
+    return;
+  }
+img: icons/magic/symbols/runes-star-magenta.webp
+name: Spend Power Points
+scope: global
+type: script

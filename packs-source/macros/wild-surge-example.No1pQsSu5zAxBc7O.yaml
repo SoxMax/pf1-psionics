@@ -1,0 +1,73 @@
+_id: No1pQsSu5zAxBc7O
+_key: '!macros!No1pQsSu5zAxBc7O'
+_stats:
+  coreVersion: '13.351'
+author: N8Qq94zyfscJUwL4
+command: |-
+  // Wild Surge Macro
+  // Demonstrates a complex macro that combines multiple psionic mechanics
+  //
+  // EXAMPLE MACRO: Wild Surge class feature for Wilders
+  // This is a standalone macro - attach to a class feature or run from hotbar
+  //
+  // Wild Surge allows a Wilder to boost their manifester level and gain
+  // temporary power points, but risks psychic enervation on natural 1s.
+
+  // Configuration - adjust these based on class feature level
+  const SURGE_LEVEL = 1;  // Wild surge bonus to manifester level
+  const TEMP_PP = 2;      // Temporary power points gained
+  const ENERVATION_DC = 15 + SURGE_LEVEL; // Will save DC to avoid enervation
+
+  // Get actor
+  const actor = token?.actor ?? game.user.character;
+  if (!actor) {
+    ui.notifications.warn("No actor found.");
+    return;
+  }
+
+  const pp = actor.psionics?.powerPoints;
+  if (!pp?.inUse) {
+    ui.notifications.warn(`${actor.name} does not have power points.`);
+    return;
+  }
+
+  // Roll d20 to check for psychic enervation
+  const roll = await new Roll("1d20").evaluate();
+  const isEnervation = roll.total === 1;
+
+  // Build result message
+  let flavor = `<h3>Wild Surge +${SURGE_LEVEL}</h3>`;
+
+  if (isEnervation) {
+    // Psychic Enervation! 
+    // Wilder is dazed and loses power points equal to manifester level
+    const mlLoss = actor.psionics?.manifesters?.primary?.cl?.total ?? SURGE_LEVEL;
+    
+    flavor += `<p class="notification error"><strong>Psychic Enervation!</strong></p>`;
+    flavor += `<p>${actor.name} is <strong>dazed</strong> until the end of their next turn and loses ${mlLoss} power points!</p>`;
+    
+    // Spend power points as penalty (use spend which handles temp first)
+    await pp.spend(mlLoss);
+    
+    // Note: You'd want to apply the Dazed condition here too
+    // await actor.addCondition("dazed"); // if using a condition system
+  } else {
+    // Success! Gain benefits
+    flavor += `<p>Manifester level increased by <strong>+${SURGE_LEVEL}</strong> for this manifestation.</p>`;
+    
+    // Grant temporary power points
+    await pp.addTemporary(TEMP_PP);
+    flavor += `<p>Gained <strong>${TEMP_PP}</strong> temporary power points!</p>`;
+    flavor += `<p><em>(${pp.temporary} temp, ${pp.available} total available)</em></p>`;
+  }
+
+  // Show the roll in chat with results
+  await roll.toMessage({
+    speaker: ChatMessage.getSpeaker({ actor }),
+    flavor: flavor,
+    flags: { "pf1-psionics": { wildSurge: true } }
+  });
+img: icons/magic/lightning/bolt-strike-creature-pink.webp
+name: Wild Surge (Example)
+scope: global
+type: script

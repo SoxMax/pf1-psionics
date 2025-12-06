@@ -1,0 +1,110 @@
+_id: 7jLwRy4zMnT6pVsK
+_key: '!macros!7jLwRy4zMnT6pVsK'
+_stats:
+  coreVersion: '13.351'
+author: N8Qq94zyfscJUwL4
+command: >-
+  // Require Power Points Script Call for PF1-Psionics
+
+  // Designed to be attached to an item's "use" script call category
+
+  // This checks if the actor has enough power points WITHOUT spending them
+
+  //
+
+  // SETUP: Add a Dictionary Flag to your feat/class feature:
+
+  //   Key: ppRequired
+
+  //   Value: The power points required (number or formula)
+
+  //
+
+  // Examples:
+
+  //   ppRequired = 3          (require 3 PP)
+
+  //   ppRequired = @cl        (require PP equal to caster level)
+
+  //   ppRequired = @sl * 2    (require PP equal to double spell level)
+
+  //
+
+  // If no ppRequired flag is set, defaults to 1 power point.
+
+  //
+
+  // Use this for abilities that require having power points available
+
+  // but don't actually spend them (e.g., maintaining a power).
+
+  // If you need to SPEND power points, use the "Spend Power Points" macro
+  instead.
+
+
+  // Validate we have an actor
+
+  if (!actor) {
+    ui.notifications.error("No actor found for this item.");
+    shared.reject = true;
+    return;
+  }
+
+
+  // Get power points helper from actor
+
+  const pp = actor.psionics?.powerPoints;
+
+  if (!pp?.inUse) {
+    ui.notifications.error("This actor does not have power points. Ensure the PF1-Psionics module is active and the actor has manifesting capability.");
+    shared.reject = true;
+    return;
+  }
+
+
+  // Get required amount from item's dictionary flag, default to 1
+
+  const requiredValue = item.getItemDictionaryFlag("ppRequired") ?? 1;
+
+
+  // Evaluate required - supports formulas like "@cl" or "@attributes.hd.total"
+
+  let required;
+
+  if (typeof requiredValue === "number") {
+    required = requiredValue;
+  } else {
+    // It's a formula string - evaluate it with rollData
+    const rollData = item.getRollData();
+    const roll = RollPF.safeRollSync(String(requiredValue), rollData);
+    required = roll.total;
+  }
+
+
+  // Ensure required is a valid positive number
+
+  required = Math.max(0, Math.floor(required));
+
+
+  if (required === 0) {
+    // Zero required - always passes
+    return;
+  }
+
+
+  // Check if actor has enough power points (but don't spend them)
+
+  if (!pp.canSpend(required)) {
+    ui.notifications.error(`Cannot use ${item.name}. Requires ${required} power points but only ${pp.available} available.`);
+    shared.reject = true;
+    return;
+  }
+
+
+  // Actor has enough PP - allow the action to proceed
+
+  // Power points are NOT spent
+img: icons/magic/symbols/question-stone-yellow.webp
+name: Require Power Points
+scope: global
+type: script
