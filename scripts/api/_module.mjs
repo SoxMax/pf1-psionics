@@ -1,3 +1,3 @@
-export { PowerPointsAPI } from "./power-points-api.mjs";
-export { PsionicFocusAPI } from "./psionic-focus-api.mjs";
+export { PowerPointsApi } from "./power-points-api.mjs";
+export { PsionicFocusApi } from "./psionic-focus-api.mjs";
 

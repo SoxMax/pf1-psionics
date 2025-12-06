@@ -262,7 +262,7 @@ Group related functions:
 
 ```javascript
 module.api = {
-  powerPoints: PowerPointsAPI,
+  powerPoints: PowerPointsApi,
   focus: FocusAPI,
   utils: UtilsAPI,
 };

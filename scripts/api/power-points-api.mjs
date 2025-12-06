@@ -13,7 +13,7 @@ import { PowerPointsHelper } from "../helpers/_module.mjs";
  * // Get available points
  * const available = api.powerPoints.getAvailable(actor);
  */
-export const PowerPointsAPI = {
+export const PowerPointsApi = {
   /**
    * Get the PowerPointsHelper instance for an actor
    * @param {Actor|string} actorOrId - Actor document or actor ID

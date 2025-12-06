@@ -1,6 +1,6 @@
 import { MODULE_ID } from "../_module.mjs";
 import { runMigrations } from "../migrations/_module.mjs";
-import { PowerPointsAPI, PsionicFocusAPI } from "../api/_module.mjs";
+import { PowerPointsApi, PsionicFocusApi } from "../api/_module.mjs";
 import { PowerPointsHelper, PsionicFocusHelper, PsionicsHelper } from "../helpers/_module.mjs";
 
 export async function readyHook() {
@@ -28,8 +28,8 @@ function registerModuleApi() {
 	const module = game.modules.get(MODULE_ID);
 	module.api = {
 		// Static APIs for macro use
-		powerPoints: PowerPointsAPI,
-		psionicFocus: PsionicFocusAPI,
+		powerPoints: PowerPointsApi,
+		psionicFocus: PsionicFocusApi,
 
 		// Export helper classes for advanced use
 		PowerPointsHelper,

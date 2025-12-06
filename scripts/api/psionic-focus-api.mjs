@@ -16,7 +16,7 @@ import { PsionicFocusHelper } from "../helpers/_module.mjs";
  * // Regain focus
  * await api.psionicFocus.gain(actor);
  */
-export const PsionicFocusAPI = {
+export const PsionicFocusApi = {
   /**
    * Get the PsionicFocusHelper instance for an actor
    * @param {Actor|string} actorOrId - Actor document or actor ID
