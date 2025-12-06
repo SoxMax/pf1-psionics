@@ -1,6 +1,6 @@
 import { MODULE_ID } from "../../_module.mjs";
 
-export async function renderAttackDialogHook(app, html, data) {
+async function renderAttackDialogHook(app, html, data) {
   if (data.item.type !== `${MODULE_ID}.power`) return;
   const powerControls = await foundry.applications.handlebars.renderTemplate("modules/pf1-psionics/templates/action/attack-dialog.hbs", data);
   const controls = html.find(".conditionals");
@@ -88,3 +88,6 @@ function handleAugmentAdjust(app, html, availableAugments, event) {
   // Update tracking
   app.rollData.augmentCounts[augmentId] = newCount;
 }
+
+Hooks.on("renderAttackDialog", renderAttackDialogHook);
+

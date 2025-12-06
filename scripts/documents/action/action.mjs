@@ -1,6 +1,6 @@
 import {MODULE_ID} from "../../_module.mjs";
 
-export function injectItemAction() {
+function injectItemAction() {
   libWrapper.register(MODULE_ID, "pf1.components.ItemAction.prototype.getDC", function(wrapped, rollData) {
     if (this.item.type === `${MODULE_ID}.power`) {
       rollData ??= this.getRollData();
@@ -36,3 +36,5 @@ export function injectItemAction() {
     return wrapped(rollData);
   }, "MIXED");
 }
+
+Hooks.once("libWrapper.Ready", injectItemAction);

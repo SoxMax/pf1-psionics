@@ -1,7 +1,7 @@
 import { MODULE_ID } from "../../_module.mjs";
 import { PowerItem } from "../../documents/_module.mjs";
 
-export async function renderActorHook(app, html, data) {
+async function renderActorHook(app, html, data) {
   const actor = data.actor;
   if (actor.flags?.core?.sheetClass !== "pf1alt.AltActorSheetPFCharacter") {
     // Inject Settings
@@ -12,7 +12,7 @@ export async function renderActorHook(app, html, data) {
   }
 }
 
-export function injectActorSheetPF() {
+function injectActorSheetPF() {
   libWrapper.register(MODULE_ID, "pf1.applications.actor.ActorSheetPF.prototype._prepareItems", function (wrapped, context) {
     wrapped(context);
     context.psionics = {};
@@ -336,3 +336,9 @@ function prepareManifesterPowerLevels(data, manifesterId, manifester, powers) {
     return level <= maxPowerLevel && level >= minPowerLevel;
   });
 }
+
+// Register hooks
+Hooks.on("renderActorSheetPF", renderActorHook);
+
+Hooks.once("libWrapper.Ready", injectActorSheetPF);
+

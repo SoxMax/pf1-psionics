@@ -1,4 +1,4 @@
-export function renderItemActionSheetHook(app, html) {
+function renderItemActionSheetHook(app, html) {
   if (app.object.parent.type === "pf1-psionics.power") {
     updateDcDisplay(html);
   }
@@ -20,3 +20,6 @@ function updateDcDisplay(html) {
     $dcLabel.text(dcOffsetText);
   }
 }
+
+Hooks.on("renderItemActionSheet", renderItemActionSheetHook);
+

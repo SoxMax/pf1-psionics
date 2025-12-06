@@ -1,72 +1,28 @@
-import {readyHook} from "./hooks/ready.mjs";
-import {i18nHook} from "./hooks/i18n.mjs";
-import {initHook} from "./hooks/init.mjs";
-import {setupHook} from "./hooks/setup.mjs";
-import {onGetRollData} from "./hooks/rolls.mjs";
-import {
-  injectActorPF,
-  onPreCreateActor,
-  pf1ActorRest,
-  pf1PrepareBaseActorData,
-  pf1PrepareDerivedActorData,
-} from "./documents/actor/actor-pf.mjs";
-import {injectActorSheetPF, renderActorHook} from "./applications/actor/actor-sheet.mjs";
-import {renderItemHook} from "./applications/item/item-sheet.mjs";
-import {injectItemAction} from "./documents/action/action.mjs";
-import {injectActionUse, pf1PreActionUseHook} from "./documents/action/action-use.mjs";
-import {renderAttackDialogHook} from "./documents/action/attack-dialog.mjs";
-import {onCreateItemHook} from "./documents/item/item.mjs";
-import {renderItemActionSheetHook} from "./applications/item/action-sheet.mjs";
-
 /**
- * Module hooks for initialization, localization, and rendering.
+ * PF1 Psionics Module Entry Point
+ *
+ * This file serves as the entry point for the module, loaded by module.json.
+ * Each imported module registers its own hooks when loaded.
+ *
+ * @module psionics
  */
-Hooks.once("setup", setupHook);
 
-/**
- * Executes when the module is initialized.
- * It registers the configuration settings and item types for the module.
- */
-Hooks.once("init", initHook);
+// Core lifecycle hooks
+import "./hooks/setup.mjs";
+import "./hooks/init.mjs";
+import "./hooks/i18n.mjs";
+import "./hooks/ready.mjs";
+import "./hooks/rolls.mjs";
 
-/**
- * Executes when the i18n localization system is initialized.
- * It localizes the labels for power types, save types, and save effects.
- */
-Hooks.once("i18nInit", i18nHook);
+// Document hooks & libWrapper injections
+import "./documents/actor/actor-pf.mjs";
+import "./documents/item/item.mjs";
+import "./documents/action/action.mjs";
+import "./documents/action/action-use.mjs";
+import "./documents/action/attack-dialog.mjs";
 
-/**
- * Executes when all data is ready and the module is fully loaded.
- * It registers the Power Browser and performs migration tasks for old actors.
- * Additionally, it shows a welcome dialog to users who have installed the module for the first time.
- */
-Hooks.once("ready", readyHook);
+// Application render hooks & libWrapper injections
+import "./applications/actor/actor-sheet.mjs";
+import "./applications/item/item-sheet.mjs";
+import "./applications/item/action-sheet.mjs";
 
-Hooks.on("pf1PrepareBaseActorData", pf1PrepareBaseActorData);
-
-Hooks.on("pf1PrepareDerivedActorData", pf1PrepareDerivedActorData);
-
-Hooks.on("pf1ActorRest", pf1ActorRest);
-
-Hooks.on("renderActorSheetPF", renderActorHook);
-
-Hooks.on("renderItemActionSheet", renderItemActionSheetHook);
-
-Hooks.on("renderAttackDialog", renderAttackDialogHook);
-
-Hooks.on("createItem", onCreateItemHook);
-
-Hooks.on("renderItemSheet", renderItemHook);
-
-Hooks.on("pf1GetRollData", onGetRollData);
-
-Hooks.on("pf1PreActionUse", pf1PreActionUseHook);
-
-Hooks.on("preCreateActor", onPreCreateActor);
-
-Hooks.once("libWrapper.Ready", () => {
-  injectActorPF();
-  injectActorSheetPF();
-  injectItemAction();
-  injectActionUse();
-});

@@ -4,7 +4,7 @@ import { MODULE_ID } from "../_module.mjs";
  * @param {ActorPF | ItemPF | ItemAction} doc
  * @param {RollData} rollData
  */
-export function onGetRollData(doc, rollData) {
+function onGetRollData(doc, rollData) {
 	try {
 		if (doc instanceof pf1.documents.actor.ActorPF) {
 			const actor = doc;
@@ -42,3 +42,5 @@ export function onGetRollData(doc, rollData) {
 		return;
 	}
 }
+
+Hooks.on("pf1GetRollData", onGetRollData);

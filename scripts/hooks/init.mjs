@@ -4,12 +4,14 @@ import { PowerModel } from "../dataModels/_module.mjs";
 import { PowerItem } from "../documents/_module.mjs";
 import { DISCIPLINE_TO_SCHOOL } from "../data/disciplines.mjs";
 
-export function initHook() {
+function initHook() {
   registerSettings();
   registerConfig();
   registerItems();
   console.log(`${MODULE_ID} | Initialized`);
 }
+
+Hooks.once("init", initHook);
 
 /**
  * Registers module settings.
