@@ -24,6 +24,29 @@ function injectActorSheetPF() {
 
     context.psionics.powerPoints = ppHelper?.toObject() ?? { current: 0, temporary: 0, maximum: 0, available: 0, inUse: false };
     context.psionics.focus = focusHelper?.toObject() ?? { current: 0, maximum: 0, isFocused: false, inUse: false };
+
+    // Apply filters to manifester sections (similar to how PF1e handles spellbooks)
+    for (const [manifesterId, manifester] of Object.entries(context.manifesterData ?? {})) {
+      if (!manifester.inUse || !manifester.sections) continue;
+
+      const categoryKey = `manifester-${manifesterId}`;
+      const filterSet = this._filters.sections[categoryKey];
+
+      // Debug logging
+      console.log(`PF1-Psionics | Filtering manifester "${manifesterId}":`, {
+        categoryKey,
+        filterSet: filterSet ? Array.from(filterSet) : undefined,
+        sectionIds: manifester.sections.map(s => s?.id)
+      });
+
+      if (!filterSet) continue;
+
+      // Apply filters to each section
+      for (const section of manifester.sections) {
+        if (!section) continue;
+        this._filterSection({ key: categoryKey }, section, filterSet);
+      }
+    }
   }, "WRAPPER");
 
   // Track the currently active tab
@@ -145,7 +168,6 @@ function onToggleConfig(event) {
   const currentToggle = manifesters[dataset.manifester].showConfig;
   const configFlag = { [`flags.${MODULE_ID}.manifesters.${dataset.manifester}.showConfig`]: !currentToggle };
   this.actor.update(configFlag);
-  this._forceShowPowerTab = true;
 }
 
 function onItemCreate(event) {
@@ -166,7 +188,6 @@ function onItemCreate(event) {
     }
   };
   PowerItem.create(powerData, { parent: actor, renderSheet: true });
-  this._forceShowPowerTab = true;
 }
 
 async function onBrowsePowers(event) {
@@ -197,6 +218,22 @@ function injectEventListeners(app, html, _data) {
   // Bind Events
   // manifestersBodyElement.find("a.hide-show").click(app._hideShowElement.bind(app));
   manifestersBodyElement.find("a.toggle-config").click(onToggleConfig.bind(app));
+
+  // Activate Item Filters
+  const filterLists = manifestersBodyElement.find(".filter-list");
+  filterLists.each(app._initializeFilterItemList.bind(app));
+  filterLists.on("click", ".filter-rule", app._onToggleFilter.bind(app));
+  // Search boxes
+  {
+    const sb = manifestersBodyElement.find(".search-input");
+    sb.on("change input", app._searchFilterChange.bind(app));
+    sb.on("compositionstart compositionend", app._searchFilterCompositioning.bind(app)); // for IME
+    app.searchRefresh = true;
+    // Filter tabs on followup refreshes
+    sb.each(function () {
+      if (this.value.length > 0) $(this).change();
+    });
+  }
 
   // Create new Power
   manifestersBodyElement.find(".item-create").click(onItemCreate.bind(app));
