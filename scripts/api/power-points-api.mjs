@@ -24,7 +24,7 @@ export const PowerPointsApi = {
       ? game.actors.get(actorOrId)
       : actorOrId;
     if (!actor) {
-      throw new Error(`pf1-psionics | PowerPointsAPI.get: Actor not found`);
+      throw new Error("pf1-psionics | PowerPointsAPI.get: Actor not found");
     }
     return new PowerPointsHelper(actor);
   },

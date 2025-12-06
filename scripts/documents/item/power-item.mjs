@@ -1,5 +1,3 @@
-import {MODULE_ID} from "../../_module.mjs";
-
 export class PowerItem extends pf1.documents.item.ItemPF {
 
   /** @inheritDoc */

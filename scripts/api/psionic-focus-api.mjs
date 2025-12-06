@@ -27,7 +27,7 @@ export const PsionicFocusApi = {
       ? game.actors.get(actorOrId)
       : actorOrId;
     if (!actor) {
-      throw new Error(`pf1-psionics | PsionicFocusAPI.get: Actor not found`);
+      throw new Error("pf1-psionics | PsionicFocusAPI.get: Actor not found");
     }
     return new PsionicFocusHelper(actor);
   },
