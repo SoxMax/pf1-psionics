@@ -16,6 +16,17 @@ export function onGetRollData(doc, rollData) {
 				// Add alias
 				if (book.class && book.class !== "_hd") rollData.psionics[book.class] ??= book;
 			}
+
+			// Add power points and focus to rollData for formula access
+			// Use helpers to get consistent data
+			const ppHelper = actor.psionics?.powerPoints;
+			const focusHelper = actor.psionics?.focus;
+			if (ppHelper) {
+				rollData.psionics.powerPoints = ppHelper.toObject();
+			}
+			if (focusHelper) {
+				rollData.psionics.focus = focusHelper.toObject();
+			}
 		} else if (doc instanceof pf1.components.ItemAction) {
 			const action = doc;
 			const item = action.item;
