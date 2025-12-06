@@ -231,7 +231,7 @@ function injectEventListeners(app, html, _data) {
     app.searchRefresh = true;
     // Filter tabs on followup refreshes
     sb.each(function () {
-      if (app.value.length > 0) $(app).change();
+      if (this.value.length > 0) $(this).change();
     });
   }
 
