@@ -1,6 +1,6 @@
 import {MODULE_ID} from "../../_module.mjs";
 
-export function injectActionUse() {
+function injectActionUse() {
   libWrapper.register(MODULE_ID, "pf1.actionUse.ActionUse.prototype.getMessageData", function() {
     if (this.item.type === `${MODULE_ID}.power`) {
       this.shared.templateData.casterLevelCheck = this.shared.casterLevelCheck;
@@ -18,7 +18,7 @@ export function injectActionUse() {
   }, "LISTENER");
 }
 
-export function pf1PreActionUseHook(actionUse) {
+function pf1PreActionUseHook(actionUse) {
   if (actionUse.item.type === `${MODULE_ID}.power`) {
     // Handle power cost too expensive.
     const chargeCost = actionUse.shared.rollData.chargeCost || 0;
@@ -154,3 +154,9 @@ function applyAugmentEffects(actionUse, augmentCounts) {
       rollData.focusCost = (rollData.focusCost || 0) + totals.focusCostBonus;
   }
 }
+
+// Register hooks
+Hooks.on("pf1PreActionUse", pf1PreActionUseHook);
+
+Hooks.once("libWrapper.Ready", injectActionUse);
+

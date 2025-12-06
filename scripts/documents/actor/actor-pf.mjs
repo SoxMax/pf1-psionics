@@ -45,10 +45,10 @@ export function onPreCreateActor(document, _data, _options, _userId) {
   document.updateSource(psionicsFlags);
 }
 
-export function pf1PrepareBaseActorData(_actor) {
+function pf1PrepareBaseActorData(_actor) {
 }
 
-export function pf1PrepareDerivedActorData(actor) {
+function pf1PrepareDerivedActorData(actor) {
   if (actor.getFlag(MODULE_ID, "manifesters")) {
     deriveManifestersInfo(actor);
     deriveTotalPowerPoints(actor);
@@ -56,7 +56,7 @@ export function pf1PrepareDerivedActorData(actor) {
   }
 }
 
-export function pf1ActorRest(actor, _options, _updateData, _itemUpdates) {
+function pf1ActorRest(actor, _options, _updateData, _itemUpdates) {
   rechargePowerPoints(actor);
   rechargeFocus(actor);
 }
@@ -268,7 +268,7 @@ async function _isPsionicRoll(options) {
       || await fromUuid(options.reference)?.itemSource?.type === `${MODULE_ID}.power`;
 }
 
-export function injectActorPF() {
+function injectActorPF() {
   libWrapper.register(MODULE_ID, "pf1.documents.actor.ActorPF.prototype.rollConcentration",
       async function(wrapped, bookId, options = {}) {
         if (await _isPsionicRoll(options)) {
@@ -378,3 +378,12 @@ async function rollPsionicCL(manifesterId, options = {}) {
   Hooks.callAll("pf1ActorRollCl", this, result, manifesterId);
   return result;
 }
+
+// Register hooks
+Hooks.on("preCreateActor", onPreCreateActor);
+Hooks.on("pf1PrepareBaseActorData", pf1PrepareBaseActorData);
+Hooks.on("pf1PrepareDerivedActorData", pf1PrepareDerivedActorData);
+Hooks.on("pf1ActorRest", pf1ActorRest);
+
+Hooks.once("libWrapper.Ready", injectActorPF);
+

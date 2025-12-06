@@ -1,4 +1,4 @@
-export function setupHook() {
+function setupHook() {
   foundry.applications.handlebars.loadTemplates([
     "modules/pf1-psionics/templates/action/attack-dialog.hbs", // Attack dialog additions
     "modules/pf1-psionics/templates/action/augment-selector.hbs", // Augment selector in attack dialog
@@ -14,3 +14,5 @@ export function setupHook() {
     "modules/pf1-psionics/templates/item/power.hbs", // Power item template
   ]);
 }
+
+Hooks.once("setup", setupHook);

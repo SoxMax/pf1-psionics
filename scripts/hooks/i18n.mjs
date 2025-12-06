@@ -1,6 +1,6 @@
 import { MODULE_ID } from "../_module.mjs";
 
-export function i18nHook() {
+function i18nHook() {
 	console.log(`${MODULE_ID} | Localizing`);
 	for (let key of Object.keys(pf1.config.psionics.disciplines)) {
 		pf1.config.psionics.disciplines[key] = game.i18n.localize(pf1.config.psionics.disciplines[key]);
@@ -12,3 +12,6 @@ export function i18nHook() {
 		pf1.config.psionics.powerLevels[key] = game.i18n.localize(pf1.config.psionics.powerLevels[key]);
 	}
 }
+
+Hooks.once("i18nInit", i18nHook);
+

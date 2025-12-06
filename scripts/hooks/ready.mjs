@@ -3,7 +3,7 @@ import { runMigrations } from "../migrations/_module.mjs";
 import { PowerPointsApi, PsionicFocusApi } from "../api/_module.mjs";
 import { PowerPointsHelper, PsionicFocusHelper, PsionicsHelper } from "../helpers/_module.mjs";
 
-export async function readyHook() {
+async function readyHook() {
 	console.log(`${MODULE_ID} | Ready`);
 
 	// Register module API for macros and other modules
@@ -14,6 +14,8 @@ export async function readyHook() {
 
 	await runMigrations();
 }
+
+Hooks.once("ready", readyHook);
 
 /**
  * Register the module's public API on game.modules.get("pf1-psionics").api

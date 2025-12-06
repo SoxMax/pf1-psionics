@@ -1,6 +1,6 @@
 import {MODULE_ID} from "../../_module.mjs";
 
-export async function onCreateItemHook(item, _options, _userId) {
+async function onCreateItemHook(item, _options, _userId) {
   if (item.type === "class") {
     await addClassManifester(item);
   }
@@ -52,3 +52,5 @@ export async function addClassManifester(item) {
     console.error(`${MODULE_ID} | Failed auto-linking psionic class:`, err);
   }
 }
+
+Hooks.on("createItem", onCreateItemHook);

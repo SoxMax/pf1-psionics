@@ -1,6 +1,6 @@
 import {addClassManifester} from "../../documents/item/item.mjs";
 
-export function renderItemHook(app, html, data) {
+function renderItemHook(app, html, data) {
   if (app.object.type === "class") {
 		injectManifesting(app, html, data);
 	}
@@ -32,3 +32,6 @@ async function injectManifesting(app, html, data) {
 		await addClassManifester(app.document);
 	});
 }
+
+Hooks.on("renderItemSheet", renderItemHook);
+
