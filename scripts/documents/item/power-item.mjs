@@ -9,7 +9,7 @@ export class PowerItem extends pf1.documents.item.ItemPF {
     // Assign level if undefined
     if (!Number.isFinite(data?.system?.level) || override) {
       const book = item.system.manifester;
-      const cls = item.actor.flags?.[MODULE_ID]?.manifesters?.[book]?.classId;
+      const cls = item.actor.psionics?.manifesters?.[book]?.classId;
       const level = item.system.learnedAt?.class?.[cls];
       if (Number.isFinite(level)) {
         foundry.utils.setProperty(item._source, "system.level", Math.clamp(level, 0, 9));
