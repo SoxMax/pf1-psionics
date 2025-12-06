@@ -61,10 +61,19 @@ function attachActorHelpers() {
 		return;
 	}
 
+	// Use a WeakMap to cache helpers per actor instance
+	// This avoids creating a new helper on every property access
+	// while ensuring helpers are garbage collected with their actors
+	const helperCache = new WeakMap();
+
 	Object.defineProperty(ActorPF.prototype, "psionics", {
 		get() {
-			// Create new helper each time to ensure fresh data
-			return new PsionicsHelper(this);
+			let helper = helperCache.get(this);
+			if (!helper) {
+				helper = new PsionicsHelper(this);
+				helperCache.set(this, helper);
+			}
+			return helper;
 		},
 		configurable: true
 	});
