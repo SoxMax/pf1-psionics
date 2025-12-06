@@ -196,10 +196,21 @@ function injectEventListeners(app, html, _data) {
   // manifestersBodyElement.find("a.hide-show").click(app._hideShowElement.bind(app));
   manifestersBodyElement.find("a.toggle-config").click(onToggleConfig.bind(app));
 
-  // Initialize and bind filter buttons - uses PF1e's native filter system
+  // Activate Item Filters
   const filterLists = manifestersBodyElement.find(".filter-list");
   filterLists.each(app._initializeFilterItemList.bind(app));
   filterLists.on("click", ".filter-rule", app._onToggleFilter.bind(app));
+  // Search boxes
+  {
+    const sb = manifestersBodyElement.find(".search-input");
+    sb.on("change input", app._searchFilterChange.bind(app));
+    sb.on("compositionstart compositionend", app._searchFilterCompositioning.bind(app)); // for IME
+    app.searchRefresh = true;
+    // Filter tabs on followup refreshes
+    sb.each(function () {
+      if (app.value.length > 0) $(app).change();
+    });
+  }
 
   // Create new Power
   manifestersBodyElement.find(".item-create").click(onItemCreate.bind(app));
