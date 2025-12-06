@@ -33,11 +33,11 @@ function injectActorSheetPF() {
       const filterSet = this._filters.sections[categoryKey];
 
       // Debug logging
-      console.log(`PF1-Psionics | Filtering manifester "${manifesterId}":`, {
-        categoryKey,
-        filterSet: filterSet ? Array.from(filterSet) : undefined,
-        sectionIds: manifester.sections.map(s => s?.id)
-      });
+      // console.log(`PF1-Psionics | Filtering manifester "${manifesterId}":`, {
+      //   categoryKey,
+      //   filterSet: filterSet ? Array.from(filterSet) : undefined,
+      //   sectionIds: manifester.sections.map(s => s?.id)
+      // });
 
       if (!filterSet) continue;
 
