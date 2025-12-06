@@ -252,18 +252,11 @@ function deriveTotalFocus(actor) {
 }
 
 async function rechargePowerPoints(actor) {
-  const powerPoints = actor.getFlag(MODULE_ID, "powerPoints");
-  await actor.update({
-    [`flags.${MODULE_ID}.powerPoints.current`]: powerPoints.maximum,
-    [`flags.${MODULE_ID}.powerPoints.temporary`]: 0,
-  });
+  await actor.psionics?.powerPoints?.restore();
 }
 
 async function rechargeFocus(actor) {
-  const focus = actor.getFlag(MODULE_ID, "focus");
-  await actor.update({
-    [`flags.${MODULE_ID}.focus.current`]: focus.maximum,
-  });
+  await actor.psionics?.focus?.restore();
 }
 
 async function _isPsionicRoll(options) {

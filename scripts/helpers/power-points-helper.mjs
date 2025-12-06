@@ -104,17 +104,6 @@ export class PowerPointsHelper {
   }
 
   /**
-   * Try to spend power points, returning false if insufficient.
-   * Alias for spend() for semantic clarity.
-   * 
-   * @param {number} amount - Amount to spend
-   * @returns {Promise<boolean>} True if successful
-   */
-  async trySpend(amount) {
-    return this.spend(amount);
-  }
-
-  /**
    * Add power points to current pool (clamped to maximum)
    * @param {number} amount - Amount to add (can be negative)
    * @returns {Promise<void>}
