@@ -105,4 +105,18 @@ export class PsionicFocusHelper {
   canExpend() {
     return this.isFocused;
   }
+
+  /**
+   * Returns a plain object with all focus values.
+   * Useful for passing to templates or serialization.
+   * @returns {{current: number, maximum: number, isFocused: boolean, inUse: boolean}}
+   */
+  toObject() {
+    return {
+      current: this.current,
+      maximum: this.maximum,
+      isFocused: this.isFocused,
+      inUse: this.inUse
+    };
+  }
 }

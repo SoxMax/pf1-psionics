@@ -162,4 +162,19 @@ export class PowerPointsHelper {
   get inUse() {
     return this.maximum > 0;
   }
+
+  /**
+   * Returns a plain object with all power point values.
+   * Useful for passing to templates or serialization.
+   * @returns {{current: number, temporary: number, maximum: number, available: number, inUse: boolean}}
+   */
+  toObject() {
+    return {
+      current: this.current,
+      temporary: this.temporary,
+      maximum: this.maximum,
+      available: this.available,
+      inUse: this.inUse
+    };
+  }
 }

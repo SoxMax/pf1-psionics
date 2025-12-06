@@ -22,18 +22,8 @@ export function injectActorSheetPF() {
     const ppHelper = this.actor.psionics?.powerPoints;
     const focusHelper = this.actor.psionics?.focus;
 
-    context.psionics.powerPoints = ppHelper ? {
-      current: ppHelper.current,
-      temporary: ppHelper.temporary,
-      maximum: ppHelper.maximum,
-      available: ppHelper.available
-    } : { current: 0, temporary: 0, maximum: 0, available: 0 };
-
-    context.psionics.focus = focusHelper ? {
-      current: focusHelper.current,
-      maximum: focusHelper.maximum,
-      isFocused: focusHelper.isFocused
-    } : { current: 0, maximum: 0, isFocused: false };
+    context.psionics.powerPoints = ppHelper?.toObject() ?? { current: 0, temporary: 0, maximum: 0, available: 0, inUse: false };
+    context.psionics.focus = focusHelper?.toObject() ?? { current: 0, maximum: 0, isFocused: false, inUse: false };
   }, "WRAPPER");
 
   // Track the currently active tab
