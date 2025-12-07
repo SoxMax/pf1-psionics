@@ -126,22 +126,34 @@ export class PsionicPowerBrowser extends pf1.applications.compendiumBrowser.Comp
   }
 
   /**
-   * Map entry to include multiple manifestation levels across classes
-   * Similar to how SpellBrowser handles learnedAt levels
+   * Map entry to support both base power level and class-specific learned level filtering
+   *
+   * When the Manifesting Class filter is active, powers are indexed by the level
+   * at which each class learns them (via learnedAt.class).
+   * When the Manifesting Class filter is not active, powers are indexed by their
+   * base level (system.level).
+   *
+   * We achieve this by storing class-specific levels separately in a custom field
+   * so they can be accessed independently by the class filter.
+   *
    * @override
    */
   static _mapEntry(entry, pack) {
     const result = super._mapEntry(entry, pack);
 
-    // Collect all levels this power can be manifested at
-    const manifestedAtLevels = Object.values(entry.system.learnedAt?.class ?? {})
-      .filter((level) => typeof level === "number");
-
+    // Store the base power level separately for the power level filter
+    // This ensures that powers are always filterable by their fundamental power level
     if (typeof entry.system.level === "number") {
-      manifestedAtLevels.push(entry.system.level);
+      result.system.level = entry.system.level;
     }
 
-    result.system.level = [...new Set(manifestedAtLevels)];
+    // Separately store class-specific learned levels for use with the class filter
+    // This allows users to filter for "powers that psions learn at level 2"
+    // even if the power itself is a 1st-level power
+    const classLearnedLevels = entry.system.learnedAt?.class ?? {};
+    if (Object.keys(classLearnedLevels).length > 0) {
+      result._classLearnedAtLevels = classLearnedLevels;
+    }
 
     return result;
   }
