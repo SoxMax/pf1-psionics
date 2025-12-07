@@ -4,29 +4,24 @@ import {
   PsionicSubdisciplineFilter,
   PsionicDescriptorFilter,
   PsionicManifesterClassFilter,
-  PsionicRangeFilter,
-  PsionicActionTypeFilter,
-  PsionicDisplayFilter,
 } from "./filters/_module.mjs";
 
 const commonFilters = pf1.applications.compendiumBrowser.filters.common;
 
 /**
  * Compendium browser for psionic powers
- * Follows the pattern used by Path of War's ManeuverBrowser
  */
 export class PsionicPowerBrowser extends pf1.applications.compendiumBrowser.CompendiumBrowser {
   static typeName = "PF1-Psionics.PsionicPowers";
   static filterClasses = [
-    commonFilters.TagFilter,
+    commonFilters.PackFilter,
     PsionicDisciplineFilter,
     PsionicSubdisciplineFilter,
     PsionicDescriptorFilter,
     PsionicManifesterClassFilter,
     PsionicPowerLevelFilter,
-    PsionicRangeFilter,
-    PsionicActionTypeFilter,
-    PsionicDisplayFilter,
+    commonFilters.SourceFilter,
+    commonFilters.TagFilter,
   ];
 
   /**

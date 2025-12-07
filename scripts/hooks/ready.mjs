@@ -120,9 +120,6 @@ Hooks.on("pf1.registerCompendiumBrowserFilters", (filterIdMappings) => {
     psionDiscipline: "PsionicDisciplineFilter",
     psionSubdiscipline: "PsionicSubdisciplineFilter",
     psionDescriptor: "PsionicDescriptorFilter",
-    psionRange: "PsionicRangeFilter",
-    psionActionType: "PsionicActionTypeFilter",
-    psionDisplay: "PsionicDisplayFilter",
   });
 });
 

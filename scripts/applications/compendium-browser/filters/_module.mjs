@@ -4,8 +4,5 @@ export {
   PsionicSubdisciplineFilter,
   PsionicDescriptorFilter,
   PsionicManifesterClassFilter,
-  PsionicRangeFilter,
-  PsionicActionTypeFilter,
-  PsionicDisplayFilter,
 } from "./psionic.mjs";
 
