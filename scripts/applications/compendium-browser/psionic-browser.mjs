@@ -1,0 +1,51 @@
+import { MODULE_ID } from "../../_module.mjs";
+import * as psionicFilters from "./filters/_module.mjs";
+
+// Import from PF1 system's compendium browser
+const { CompendiumBrowser } = pf1.applications.compendiumBrowser;
+const commonFilters = pf1.applications.compendiumBrowser.filters;
+
+/**
+ * Compendium browser for psionic powers
+ */
+export class PsionicPowerBrowser extends CompendiumBrowser {
+  static typeName = "PF1-Psionics.PsionicPowers";
+
+  static types = [`${MODULE_ID}.power`];
+
+  static filterClasses = [
+    commonFilters.PackFilter,
+    psionicFilters.PsionicDisciplineFilter,
+    psionicFilters.PsionicSubdisciplineFilter,
+    psionicFilters.PsionicDescriptorFilter,
+    psionicFilters.PsionicManifesterClassFilter,
+    psionicFilters.PsionicPowerLevelFilter,
+    psionicFilters.PsionicRangeFilter,
+    psionicFilters.PsionicActionTypeFilter,
+    psionicFilters.PsionicDisplayFilter,
+    commonFilters.SourceFilter,
+    commonFilters.TagFilter,
+  ];
+
+  /**
+   * Map entry to include multiple manifestation levels across classes
+   * Similar to how SpellBrowser handles learnedAt levels
+   * @override
+   */
+  static _mapEntry(entry, pack) {
+    const result = super._mapEntry(entry, pack);
+
+    // Collect all levels this power can be manifested at
+    const manifestedAtLevels = Object.values(entry.system.learnedAt?.class ?? {})
+      .filter((level) => typeof level === "number");
+
+    if (typeof entry.system.level === "number") {
+      manifestedAtLevels.push(entry.system.level);
+    }
+
+    result.system.level = [...new Set(manifestedAtLevels)];
+
+    return result;
+  }
+}
+

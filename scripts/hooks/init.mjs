@@ -171,6 +171,16 @@ function registerConfig() {
     };
   }
 
+  // Sheet sections configuration for compendium browser integration
+  pf1.config.sheetSections.psionicPowers = {
+    [`${MODULE_ID}.power`]: {
+      browse: {
+        category: "psionicPowers",
+        level: true,
+      },
+    },
+  };
+
 }
 
 /**

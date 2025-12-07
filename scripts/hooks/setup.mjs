@@ -1,3 +1,6 @@
+import { MODULE_ID } from "../_module.mjs";
+import { PsionicPowerBrowser } from "../applications/_module.mjs";
+
 function setupHook() {
   foundry.applications.handlebars.loadTemplates([
     "modules/pf1-psionics/templates/action/attack-dialog.hbs", // Attack dialog additions
@@ -13,6 +16,32 @@ function setupHook() {
     "modules/pf1-psionics/templates/item/parts/power-subschool.hbs", // Power uses template
     "modules/pf1-psionics/templates/item/power.hbs", // Power item template
   ]);
+  // Register the browser type in PF1's compendium browser system
+  pf1.applications.compendiumBrowser.CompendiumBrowser.BROWSERS.psionicPowers = PsionicPowerBrowser;
+
+  // Create and store the browser instance
+  pf1.applications.compendiums.psionicPowers = new PsionicPowerBrowser();
+
+  console.log(`${MODULE_ID} | Registered Psionic Power Compendium Browser`);
 }
 
 Hooks.once("setup", setupHook);
+
+/**
+ * Hook to add custom filter ID mappings for psionic power filters
+ * This allows the _onOpenCompendiumBrowser function to properly activate filters
+ */
+Hooks.on("pf1.registerCompendiumBrowserFilters", (filterIdMappings) => {
+  // Add mappings for psionic power filter IDs to filter class names
+  Object.assign(filterIdMappings, {
+    psionLevel: "PsionicPowerLevelFilter",
+    psionClass: "PsionicManifesterClassFilter",
+    psionDiscipline: "PsionicDisciplineFilter",
+    psionSubdiscipline: "PsionicSubdisciplineFilter",
+    psionDescriptor: "PsionicDescriptorFilter",
+    psionRange: "PsionicRangeFilter",
+    psionActionType: "PsionicActionTypeFilter",
+    psionDisplay: "PsionicDisplayFilter",
+  });
+});
+
