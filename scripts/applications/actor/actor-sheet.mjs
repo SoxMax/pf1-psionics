@@ -54,17 +54,6 @@ function injectActorSheetPF() {
     this._activeTab = active;
   }, "LISTENER");
 
-  // Handle drag and drop for powers - both from drag start and drop
-  libWrapper.register(MODULE_ID, "pf1.applications.actor.ActorSheetPF.prototype._onDragStart", function (wrapped, event) {
-    // First, try the wrapped handler for standard behavior
-    wrapped(event);
-
-    // If dataTransfer doesn't have data yet, it means no custom handler matched
-    // This is normal for items which should use Foundry's native handler
-    // The native handler is called via super._onDragStart() in the base class
-    // and it will automatically call item.toDragData()
-  }, "WRAPPER");
-
   // Handle manifester concentration/CL drags
   libWrapper.register(MODULE_ID, "pf1.applications.actor.ActorSheetPF.prototype._onDragMiscStart", function (wrapped, event, type, subType) {
     // Only handle concentration and CL from manifesters
