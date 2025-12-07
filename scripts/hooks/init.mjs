@@ -74,6 +74,7 @@ function registerConfig() {
     creation: "PF1.SpellSubschools.creation",
     healing: "PF1.SpellSubschools.healing",
     scrying: "PF1.SpellSubschools.scrying",
+    teleportation: "PF1.SpellSubschools.teleportation",
   };
 
   pf1.config.psionics.subdisciplineMap = {
@@ -82,7 +83,7 @@ function registerConfig() {
     metacreativity: ["creation"],
     psychokinesis: [],
     psychometabolism: ["healing"],
-    psychoportation: [],
+    psychoportation: ["teleportation"],
     telepathy: ["charm", "compulsion"],
     misc: Object.keys(pf1.config.psionics.subdisciplines),
   };
