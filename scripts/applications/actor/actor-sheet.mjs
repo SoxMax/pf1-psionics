@@ -193,15 +193,37 @@ function onItemCreate(event) {
 async function onBrowsePowers(event) {
   event.preventDefault();
 
-  // Open the compendium for psionic powers
-  const pack = game.packs.get("pf1-psionics.powers");
-  if (!pack) {
-    ui.notifications.warn(game.i18n.localize("PF1-Psionics.Error.CompendiumNotFound"));
+  // Get the browser instance
+  const browser = pf1.applications.compendiums.psionicPowers;
+  if (!browser) {
+    ui.notifications.warn("Psionic Power Browser not available.");
     return;
   }
 
-  // Open the compendium - users can drag powers from here to their character sheet
-  pack.render(true);
+  // Get filter data from the element
+  const element = event.currentTarget;
+  const level = element.dataset.level;
+  const bookId = element.dataset.book;
+
+  // Build filter object
+  const filters = {};
+
+  // Add level filter if available
+  if (level !== undefined && level !== null) {
+    filters.psionicLevel = [String(level)];
+  }
+
+  // Add class filter if we have a manifester book
+  if (bookId && this.actor) {
+    const manifesterData = this.actor.getFlag(MODULE_ID, `manifesters.${bookId}`);
+    if (manifesterData?.class) {
+      filters.psionicClass = [manifesterData.class];
+    }
+  }
+
+  // Apply filters and open browser
+  browser._queueFilters(filters);
+  await browser.render(true, { focus: true });
 }
 
 function injectEventListeners(app, html, _data) {

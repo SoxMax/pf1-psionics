@@ -31,6 +31,8 @@
     },
     "TabName": "Psionics",
     "Powers": {
+      "Singular": "Psionic Power",
+      "Plural": "Psionic Powers",
       "NewPower": "New Power",
       "Display": {
         "Plural": "Displays",
@@ -83,6 +85,10 @@
         "Psychoportation": "Psychoportation CL",
         "Telepathy": "Telepathy CL"
       }
+    },
+    "Subdiscipline": {
+      "Singular": "Psionic Subdiscipline",
+      "Plural": "Psionic Subdisciplines"
     },
     "Manifesters": {
       "BrowsePowers": "Browse Powers",

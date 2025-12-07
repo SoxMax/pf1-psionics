@@ -2,6 +2,7 @@ import { MODULE_ID } from "../_module.mjs";
 import { runMigrations } from "../migrations/_module.mjs";
 import { PowerPointsApi, PsionicFocusApi } from "../api/_module.mjs";
 import { PowerPointsHelper, PsionicFocusHelper, PsionicsHelper } from "../helpers/_module.mjs";
+import { PsionicPowerBrowser } from "../applications/_module.mjs";
 
 async function readyHook() {
 	console.log(`${MODULE_ID} | Ready`);
@@ -11,6 +12,9 @@ async function readyHook() {
 
 	// Attach psionics helper to ActorPF prototype
 	attachActorHelpers();
+
+	// Register compendium browser
+	registerCompendiumBrowser();
 
 	await runMigrations();
 }
@@ -82,3 +86,13 @@ function attachActorHelpers() {
 
 	console.log(`${MODULE_ID} | Actor helper attached (actor.psionics)`);
 }
+
+/**
+ * Register the Psionic Power Compendium Browser with PF1 system.
+ */
+function registerCompendiumBrowser() {
+	pf1.applications.compendiums.psionicPowers = new PsionicPowerBrowser();
+	pf1.applications.compendiumBrowser.psionicPowers = PsionicPowerBrowser;
+}
+
+
