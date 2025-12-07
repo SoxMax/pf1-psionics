@@ -30,8 +30,9 @@
       "Psionic": "Psionic"
     },
     "TabName": "Psionics",
-    "PsionicPowers": "Psionic Powers",
     "Powers": {
+      "Singular": "Psionic Power",
+      "Plural": "Psionic Powers",
       "NewPower": "New Power",
       "Display": {
         "Plural": "Displays",

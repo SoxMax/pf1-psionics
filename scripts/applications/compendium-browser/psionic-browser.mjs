@@ -12,7 +12,7 @@ const commonFilters = pf1.applications.compendiumBrowser.filters.common;
  * Compendium browser for psionic powers
  */
 export class PsionicPowerBrowser extends pf1.applications.compendiumBrowser.CompendiumBrowser {
-  static typeName = "PF1-Psionics.PsionicPowers";
+  static typeName = "PF1-Psionics.Powers.Plural";
   static filterClasses = [
     commonFilters.PackFilter,
     PsionicDisciplineFilter,
