@@ -26,6 +26,7 @@ export default [
         CONFIG: "readonly",
         ChatMessage: "readonly",
         DocumentSheetConfig: "readonly",
+        DragDrop: "readonly",
         FormApplication: "readonly",
         HTMLInputElement: "readonly",
         Hooks: "readonly",
