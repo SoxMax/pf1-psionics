@@ -51,7 +51,7 @@ export class PsionicDisciplineFilter extends pf1.applications.compendiumBrowser.
  * Filter for psionic subdisciplines
  */
 export class PsionicSubdisciplineFilter extends pf1.applications.compendiumBrowser.filters.CheckboxFilter {
-	static label = "PF1.Subdiscipline";
+	static label = "PF1-Psionics.Subdiscipline.Singular";
 	static indexField = "system.subdiscipline";
 	static type = `${MODULE_ID}.power`;
 
@@ -103,20 +103,6 @@ export class PsionicManifesterClassFilter extends pf1.applications.compendiumBro
 				this.choices.set(choice.key, choice);
 			}
 		}
-	}
-}
-
-/**
- * Filter for psionic power range (personal, close, medium, long)
- */
-export class PsionicRangeFilter extends pf1.applications.compendiumBrowser.filters.CheckboxFilter {
-	static label = "PF1.Range";
-	static indexField = "system.actions.0.range.units";
-	static type = `${MODULE_ID}.power`;
-
-	/** @override */
-	prepareChoices() {
-		this.choices = this.constructor.getChoicesFromConfig(pf1.config.measureUnitsShort);
 	}
 }
 
