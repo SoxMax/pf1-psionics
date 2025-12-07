@@ -47,6 +47,9 @@ function injectActorSheetPF() {
         this._filterSection({ key: categoryKey }, section, filterSet);
       }
     }
+
+    // Add powers with showInCombat flag to combat tab
+    addPowersToCombatTab(this, context);
   }, "WRAPPER");
 
   // Track the currently active tab
@@ -302,6 +305,42 @@ function injectEventListeners(app, html, _data) {
   if (app._dragDrop && app._dragDrop.length > 0) {
     app._dragDrop.forEach(dd => dd.bind(manifestersBodyElement[0]));
   }
+}
+
+/**
+ * Add powers marked with showInCombat to the combat tab
+ * @param {ActorSheetPF} sheet - The actor sheet
+ * @param {object} context - The template context
+ */
+function addPowersToCombatTab(sheet, context) {
+  // Get the attacks array (combat sections)
+  const attacks = context.attacks;
+  if (!attacks) return;
+
+  // Find or create the power section
+  let powerSection = attacks.find(s => s.id === "power");
+
+  if (!powerSection) {
+    // Create the power section
+    powerSection = {
+      id: "power",
+      label: game.i18n.localize("PF1-Psionics.Powers.Plural"),
+      hideEmpty: true,
+      sort: 8500, // Place after spells (8000) but before equipment (10500)
+      items: []
+    };
+    attacks.push(powerSection);
+    // Re-sort the sections
+    attacks.sort((a, b) => a.sort - b.sort);
+  }
+
+  // Filter powers with showInCombat flag
+  const powers = context.items.filter(i =>
+    i.type === `${MODULE_ID}.power` && i.document.system.showInCombat
+  );
+
+  // Add powers to the section
+  powerSection.items = powers;
 }
 
 function prepareManifesters(sheet, context) {

@@ -94,6 +94,7 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
       manifester: new StringField({initial: ""}),
       sr: new BooleanField({initial: true}),
       augments: new ArrayField(new EmbeddedDataField(AugmentModel), { required: false, initial: [] }),
+      showInCombat: new BooleanField({initial: false}),
     };
   }
 

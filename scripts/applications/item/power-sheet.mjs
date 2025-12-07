@@ -25,6 +25,10 @@ export class PowerSheet extends pf1.applications.item.ItemSheetPF {
 
     context.isSpell = true;
     context.canUseAmmo = false;
+
+    // Enable combat tab checkbox for powers
+    context.showInCombat = true;
+
     context.manifesters = item.actor?.getFlag(MODULE_ID, "manifesters") ?? {};
     context.manifesterChoices = Object.fromEntries(
       Object.entries(context.manifesters)
