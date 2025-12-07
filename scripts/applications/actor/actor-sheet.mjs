@@ -54,10 +54,36 @@ function injectActorSheetPF() {
     this._activeTab = active;
   }, "LISTENER");
 
+  // Handle manifester concentration/CL drags
+  libWrapper.register(MODULE_ID, "pf1.applications.actor.ActorSheetPF.prototype._onDragMiscStart", function (wrapped, event, type, subType) {
+    // Only handle concentration and CL from manifesters
+    if (type === "concentration" || type === "cl") {
+      const elem = event.currentTarget;
+      const manifesterGroup = elem.closest(".tab.manifester-group");
+
+      if (manifesterGroup) {
+        // This is from a manifester, not a spellbook
+        // Create the result object matching PF1e's format exactly
+        const result = {
+          type,
+          uuid: this.actor.uuid,
+          bookId: manifesterGroup.dataset.tab, // Get bookId from manifester-group
+        };
+
+        // Set the drag data directly (same as PF1e does at the end)
+        event.dataTransfer.setData("text/plain", JSON.stringify(result));
+        return; // Don't call wrapped, we've handled it completely
+      }
+    }
+
+    // For spellbooks and all other cases, use PF1e's default handler
+    return wrapped(event, type, subType);
+  }, "MIXED");
+
   // Handle drag and drop for powers
   libWrapper.register(MODULE_ID, "pf1.applications.actor.ActorSheetPF.prototype._alterDropItemData", async function (wrapped, data, source) {
       wrapped(data, source);
-      // Set manifester to currently viewed one
+      // Set manifester to currently viewed one when dropping a power
       if (data.type === `${MODULE_ID}.power`) {
           data.system.manifester = this._tabs.find((t) => t.group === "manifesters")?.active || "primary";
       }
@@ -271,6 +297,11 @@ function injectEventListeners(app, html, _data) {
   manifestersBodyElement.find(".item-edit").click(app._onItemEdit.bind(app));
   manifestersBodyElement.find(".item-duplicate").click(app._duplicateItem.bind(app));
   manifestersBodyElement.find(".item-delete").click(app._onItemDelete.bind(app));
+
+
+  if (app._dragDrop && app._dragDrop.length > 0) {
+    app._dragDrop.forEach(dd => dd.bind(manifestersBodyElement[0]));
+  }
 }
 
 function prepareManifesters(sheet, context) {
