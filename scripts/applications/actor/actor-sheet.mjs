@@ -49,6 +49,42 @@ function injectActorSheetPF() {
     }
   }, "WRAPPER");
 
+  // Prevent duplicate drops by tracking drop events
+  // When drop handlers are bound at multiple levels, the same drop event
+  // can be processed twice. We track recent drop events and skip duplicates.
+  const processingDrops = new Map(); // key: timestamp window, prevents processing same drop twice
+
+  libWrapper.register(MODULE_ID, "pf1.applications.actor.ActorSheetPF.prototype._onDropItem", async function (wrapped, event, data) {
+    // Create a unique identifier for this drop event
+    const eventTime = Date.now();
+
+    // For powers, check if we've recently processed a drop
+    if (data.type === `${MODULE_ID}.power`) {
+      const dropKey = Math.floor(eventTime / 50); // 50ms time window
+
+      if (processingDrops.has(dropKey)) {
+        // This looks like a duplicate drop event from double-bound handlers
+        console.log(`PF1-Psionics | Prevented duplicate _onDropItem for power`);
+        return; // Skip processing
+      }
+
+      // Mark this drop as being processed
+      processingDrops.set(dropKey, true);
+
+      // Clean up old entries periodically
+      if (Math.random() < 0.1) { // 10% of calls
+        for (const [key] of processingDrops.entries()) {
+          if (eventTime - (key * 50) > 500) { // Older than 500ms
+            processingDrops.delete(key);
+          }
+        }
+      }
+    }
+
+    // Call the original handler
+    return wrapped(event, data);
+  }, "WRAPPER");
+
   // Track the currently active tab
   libWrapper.register(MODULE_ID, "pf1.applications.actor.ActorSheetPF.prototype._onChangeTab", function (event, tabs, active) {
     this._activeTab = active;
@@ -298,10 +334,29 @@ function injectEventListeners(app, html, _data) {
   manifestersBodyElement.find(".item-duplicate").click(app._duplicateItem.bind(app));
   manifestersBodyElement.find(".item-delete").click(app._onItemDelete.bind(app));
 
+  // Create surgical drag-only handlers for manifester elements
+  // We create minimal DragDrop instances bound only to specific selectors
+  // This prevents drop handler duplication while maintaining drag functionality
+  const manifesterDragDropConfig = [
+    { dragSelector: ".item[data-item-id]" },
+    { dragSelector: ".spellcasting-concentration[data-drag]" },
+    { dragSelector: ".spellcasting-cl" }
+  ];
 
-  if (app._dragDrop && app._dragDrop.length > 0) {
-    app._dragDrop.forEach(dd => dd.bind(manifestersBodyElement[0]));
-  }
+  manifesterDragDropConfig.forEach(config => {
+    const dragDrop = new DragDrop({
+      dragSelector: config.dragSelector,
+      dropSelector: null,  // No drop handling at this level
+      permissions: {
+        dragstart: () => true,
+        drop: () => false  // Prevent drop handling
+      },
+      callbacks: {
+        dragstart: app._onDragStart.bind(app)
+      }
+    });
+    dragDrop.bind(manifestersBodyElement[0]);
+  });
 }
 
 function prepareManifesters(sheet, context) {
