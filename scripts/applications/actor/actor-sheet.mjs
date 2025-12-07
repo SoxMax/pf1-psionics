@@ -54,10 +54,21 @@ function injectActorSheetPF() {
     this._activeTab = active;
   }, "LISTENER");
 
+  // Handle drag and drop for powers - both from drag start and drop
+  libWrapper.register(MODULE_ID, "pf1.applications.actor.ActorSheetPF.prototype._onDragStart", function (wrapped, event) {
+    // First, try the wrapped handler for standard behavior
+    wrapped(event);
+
+    // If dataTransfer doesn't have data yet, it means no custom handler matched
+    // This is normal for items which should use Foundry's native handler
+    // The native handler is called via super._onDragStart() in the base class
+    // and it will automatically call item.toDragData()
+  }, "WRAPPER");
+
   // Handle drag and drop for powers
   libWrapper.register(MODULE_ID, "pf1.applications.actor.ActorSheetPF.prototype._alterDropItemData", async function (wrapped, data, source) {
       wrapped(data, source);
-      // Set manifester to currently viewed one
+      // Set manifester to currently viewed one when dropping a power
       if (data.type === `${MODULE_ID}.power`) {
           data.system.manifester = this._tabs.find((t) => t.group === "manifesters")?.active || "primary";
       }
@@ -271,6 +282,11 @@ function injectEventListeners(app, html, _data) {
   manifestersBodyElement.find(".item-edit").click(app._onItemEdit.bind(app));
   manifestersBodyElement.find(".item-duplicate").click(app._duplicateItem.bind(app));
   manifestersBodyElement.find(".item-delete").click(app._onItemDelete.bind(app));
+
+
+  if (app._dragDrop && app._dragDrop.length > 0) {
+    app._dragDrop.forEach(dd => dd.bind(manifestersBodyElement[0]));
+  }
 }
 
 function prepareManifesters(sheet, context) {
