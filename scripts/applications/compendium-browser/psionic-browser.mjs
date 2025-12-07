@@ -45,6 +45,7 @@ export class PsionicPowerBrowser extends pf1.applications.compendiumBrowser.Comp
    */
   _queueFilters(filters) {
     this.#filterQueue = filters;
+    this.#filterQueueProcessed = false;
   }
 
   /**
@@ -74,6 +75,13 @@ export class PsionicPowerBrowser extends pf1.applications.compendiumBrowser.Comp
       source: "SourceFilter",
       tags: "TagFilter",
     };
+
+    // Clear all existing active filters before applying new ones
+    for (const filter of this.filters.contents) {
+      for (const choice of filter.choices) {
+        choice.active = false;
+      }
+    }
 
     for (const [filterId, choices] of Object.entries(this.#filterQueue)) {
       const filterName = idToFilter[filterId];
