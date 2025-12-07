@@ -2,6 +2,7 @@ import { MODULE_ID } from "../_module.mjs";
 import { runMigrations } from "../migrations/_module.mjs";
 import { PowerPointsApi, PsionicFocusApi } from "../api/_module.mjs";
 import { PowerPointsHelper, PsionicFocusHelper, PsionicsHelper } from "../helpers/_module.mjs";
+import { PsionicPowerBrowser } from "../applications/_module.mjs";
 
 async function readyHook() {
 	console.log(`${MODULE_ID} | Ready`);
@@ -11,6 +12,9 @@ async function readyHook() {
 
 	// Attach psionics helper to ActorPF prototype
 	attachActorHelpers();
+
+	// Register compendium browser
+	registerCompendiumBrowser();
 
 	await runMigrations();
 }
@@ -82,3 +86,43 @@ function attachActorHelpers() {
 
 	console.log(`${MODULE_ID} | Actor helper attached (actor.psionics)`);
 }
+
+/**
+ * Register the Psionic Power Compendium Browser with PF1 system.
+ * Follows the pattern used by Path of War's ManeuverBrowser.
+ *
+ * @example
+ * // Open browser
+ * pf1.applications.compendiums.psionicPowers.render(true);
+ *
+ * @example
+ * // Open with filters
+ * const browser = pf1.applications.compendiums.psionicPowers;
+ * browser._queueFilters({ psionLevel: "1", psionDiscipline: "telepathy" });
+ * browser.render(true);
+ */
+function registerCompendiumBrowser() {
+	pf1.applications.compendiums.psionicPowers = new PsionicPowerBrowser();
+	pf1.applications.compendiumBrowser.psionicPowers = PsionicPowerBrowser;
+
+	console.log(`${MODULE_ID} | Registered Psionic Power Compendium Browser`);
+}
+
+/**
+ * Hook to add custom filter ID mappings for psionic power filters
+ * This allows the _onOpenCompendiumBrowser function to properly activate filters
+ */
+Hooks.on("pf1.registerCompendiumBrowserFilters", (filterIdMappings) => {
+  // Add mappings for psionic power filter IDs to filter class names
+  Object.assign(filterIdMappings, {
+    psionLevel: "PsionicPowerLevelFilter",
+    psionClass: "PsionicManifesterClassFilter",
+    psionDiscipline: "PsionicDisciplineFilter",
+    psionSubdiscipline: "PsionicSubdisciplineFilter",
+    psionDescriptor: "PsionicDescriptorFilter",
+    psionRange: "PsionicRangeFilter",
+    psionActionType: "PsionicActionTypeFilter",
+    psionDisplay: "PsionicDisplayFilter",
+  });
+});
+
