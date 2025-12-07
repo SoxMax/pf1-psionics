@@ -98,7 +98,7 @@ function attachActorHelpers() {
  * @example
  * // Open with filters
  * const browser = pf1.applications.compendiums.psionicPowers;
- * browser._queueFilters({ psionLevel: "1", psionDiscipline: "telepathy" });
+ * browser._queueFilters({ psionLevel: ["1"], psionDiscipline: ["telepathy"] });
  * browser.render(true);
  */
 function registerCompendiumBrowser() {
@@ -108,18 +108,4 @@ function registerCompendiumBrowser() {
 	console.log(`${MODULE_ID} | Registered Psionic Power Compendium Browser`);
 }
 
-/**
- * Hook to add custom filter ID mappings for psionic power filters
- * This allows the _onOpenCompendiumBrowser function to properly activate filters
- */
-Hooks.on("pf1.registerCompendiumBrowserFilters", (filterIdMappings) => {
-  // Add mappings for psionic power filter IDs to filter class names
-  Object.assign(filterIdMappings, {
-    psionLevel: "PsionicPowerLevelFilter",
-    psionClass: "PsionicManifesterClassFilter",
-    psionDiscipline: "PsionicDisciplineFilter",
-    psionSubdiscipline: "PsionicSubdisciplineFilter",
-    psionDescriptor: "PsionicDescriptorFilter",
-  });
-});
 

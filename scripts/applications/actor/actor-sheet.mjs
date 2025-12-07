@@ -210,25 +210,25 @@ async function onBrowsePowers(event) {
 
   // Add level filter if available
   if (level !== undefined && level !== null) {
-    filters.psionLevel = level;
+    filters.psionLevel = [String(level)];
+    console.log(`${MODULE_ID} | Browse: Setting psionLevel filter to "${level}"`);
   }
 
   // Add class filter if we have a manifester book
   if (bookId && this.actor) {
     const manifesterData = this.actor.getFlag(MODULE_ID, `manifesters.${bookId}`);
     if (manifesterData?.class) {
-      // Get the class tag from the actor's class items
-      const classItem = this.actor.itemTypes.class.find(cls => cls.system.tag === manifesterData.class);
-      if (classItem) {
-        // Use the class tag as the filter value
-        filters.psionClass = manifesterData.class;
-      }
+      // Use the class tag as the filter value
+      filters.psionClass = [manifesterData.class];
+      console.log(`${MODULE_ID} | Browse: Setting psionClass filter to "${manifesterData.class}"`);
     }
   }
 
+  console.log(`${MODULE_ID} | Browse: Applying filters:`, filters);
+
   // Apply filters and open browser
   browser._queueFilters(filters);
-  browser.render(true, { focus: true });
+  await browser.render(true, { focus: true });
 }
 
 function injectEventListeners(app, html, _data) {
