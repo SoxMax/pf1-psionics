@@ -39,16 +39,16 @@ export class PsionicPowerLevelFilter extends pf1.applications.compendiumBrowser.
 	/**
 	 * Check if an entry matches the active power level filter
 	 * When the Manifesting Class filter is active, check class-specific learned levels
-	 * Otherwise, check the base power level
+	 * Otherwise, check the base power level using the standard filter logic
 	 *
 	 * @override
 	 */
-	checkEntry(entry) {
+	applyFilter(entry) {
 		// If no levels are selected, pass all entries
 		if (this.isDefault) return true;
 
 		// Find the active class filter to determine if we should use class-specific levels
-		const browser = this.filter?.browser;
+		const browser = this.compendiumBrowser;
 		const classFilter = browser?.filters?.find(
 			(f) => f.constructor.name === "PsionicManifesterClassFilter"
 		);
@@ -58,38 +58,30 @@ export class PsionicPowerLevelFilter extends pf1.applications.compendiumBrowser.
 			classFilter?.choices?.some((choice) => choice.active);
 
 		if (hasActiveClassFilter && entry._classLearnedAtLevels) {
-			// When class filter is active, check if any selected class learns this power at the active level
+			// When class filter is active, check if any selected class learns this power at any selected level
 			const activeClasses = Array.from(classFilter.choices)
 				.filter((choice) => choice.active)
 				.map((choice) => choice.key);
 
+			const activeLevel = Array.from(this.choices)
+				.filter((choice) => choice.active)
+				.map((choice) => choice.key);
+
+			// Check if ANY selected class learns this power at ANY selected level
 			for (const className of activeClasses) {
 				const classLearnLevel = entry._classLearnedAtLevels[className];
 				if (
 					typeof classLearnLevel === "number" &&
-					this.choices.some(
-						(choice) => choice.active && choice.key === classLearnLevel
-					)
+					activeLevel.includes(classLearnLevel)
 				) {
 					return true;
 				}
 			}
 			return false;
-		} else {
-			// No class filter: use base power level
-			const level = entry.system?.level;
-			if (typeof level === "number") {
-				return this.choices.some((choice) => choice.active && choice.key === level);
-			}
-			// Handle array case for compatibility
-			if (Array.isArray(level)) {
-				return level.some((l) =>
-					this.choices.some((choice) => choice.active && choice.key === l)
-				);
-			}
 		}
 
-		return false;
+		// No class filter: use base power level filtering via parent class
+		return super.applyFilter(entry);
 	}
 }
 
