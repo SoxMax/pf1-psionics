@@ -9,6 +9,10 @@ const BOOLEAN_OPERATOR = {
 
 /**
  * Filter for psionic power levels (1-9, 0 for talents)
+ *
+ * This filter is context-aware: when the Manifesting Class filter is active,
+ * it filters by the level at which the selected classes learn the power.
+ * When no class filter is active, it filters by the base power level.
  */
 export class PsionicPowerLevelFilter extends pf1.applications.compendiumBrowser.filters.CheckboxFilter {
 	static label = "PF1-Psionics.Powers.Level";
@@ -30,6 +34,54 @@ export class PsionicPowerLevelFilter extends pf1.applications.compendiumBrowser.
 			choice.key = Number(choice.key);
 		}
 		this.choices = choices;
+	}
+
+	/**
+	 * Check if an entry matches the active power level filter
+	 * When the Manifesting Class filter is active, check class-specific learned levels
+	 * Otherwise, check the base power level using the standard filter logic
+	 *
+	 * @override
+	 */
+	applyFilter(entry) {
+		// If no levels are selected, pass all entries
+		if (this.isDefault) return true;
+
+		// Find the active class filter to determine if we should use class-specific levels
+		const browser = this.compendiumBrowser;
+		const classFilter = browser?.filters?.find(
+			(f) => f.constructor.name === "PsionicManifesterClassFilter"
+		);
+
+		// Check if the class filter has any active choices
+		const hasActiveClassFilter =
+			classFilter?.choices?.some((choice) => choice.active);
+
+		if (hasActiveClassFilter && entry._classLearnedAtLevels) {
+			// When class filter is active, check if any selected class learns this power at any selected level
+			const activeClasses = Array.from(classFilter.choices)
+				.filter((choice) => choice.active)
+				.map((choice) => choice.key);
+
+			const activeLevel = Array.from(this.choices)
+				.filter((choice) => choice.active)
+				.map((choice) => choice.key);
+
+			// Check if ANY selected class learns this power at ANY selected level
+			for (const className of activeClasses) {
+				const classLearnLevel = entry._classLearnedAtLevels[className];
+				if (
+					typeof classLearnLevel === "number" &&
+					activeLevel.includes(classLearnLevel)
+				) {
+					return true;
+				}
+			}
+			return false;
+		}
+
+		// No class filter: use base power level filtering via parent class
+		return super.applyFilter(entry);
 	}
 }
 
