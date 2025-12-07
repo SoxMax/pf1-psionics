@@ -65,11 +65,11 @@ export class PsionicPowerBrowser extends pf1.applications.compendiumBrowser.Comp
 
     // Map filter IDs to filter class names for psionic powers
     const idToFilter = {
-      psionLevel: "PsionicPowerLevelFilter",
-      psionClass: "PsionicManifesterClassFilter",
-      psionDiscipline: "PsionicDisciplineFilter",
-      psionSubdiscipline: "PsionicSubdisciplineFilter",
-      psionDescriptor: "PsionicDescriptorFilter",
+      psionicLevel: "PsionicPowerLevelFilter",
+      psionicClass: "PsionicManifesterClassFilter",
+      psionicDiscipline: "PsionicDisciplineFilter",
+      psionicSubdiscipline: "PsionicSubdisciplineFilter",
+      psionicDescriptor: "PsionicDescriptorFilter",
       pack: "PackFilter",
       source: "SourceFilter",
       tags: "TagFilter",
