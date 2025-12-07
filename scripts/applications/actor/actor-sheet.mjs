@@ -298,10 +298,29 @@ function injectEventListeners(app, html, _data) {
   manifestersBodyElement.find(".item-duplicate").click(app._duplicateItem.bind(app));
   manifestersBodyElement.find(".item-delete").click(app._onItemDelete.bind(app));
 
+  // Create surgical drag-only handlers for manifester elements
+  // We create minimal DragDrop instances bound only to specific selectors
+  // This prevents drop handler duplication while maintaining drag functionality
+  const manifesterDragDropConfig = [
+    { dragSelector: ".item[data-item-id]" },
+    { dragSelector: ".spellcasting-concentration[data-drag]" },
+    { dragSelector: ".spellcasting-cl" }
+  ];
 
-  if (app._dragDrop && app._dragDrop.length > 0) {
-    app._dragDrop.forEach(dd => dd.bind(manifestersBodyElement[0]));
-  }
+  manifesterDragDropConfig.forEach(config => {
+    const dragDrop = new DragDrop({
+      dragSelector: config.dragSelector,
+      dropSelector: null,  // No drop handling at this level
+      permissions: {
+        dragstart: () => true,
+        drop: () => false  // Prevent drop handling
+      },
+      callbacks: {
+        dragstart: app._onDragStart.bind(app)
+      }
+    });
+    dragDrop.bind(manifestersBodyElement[0]);
+  });
 }
 
 function prepareManifesters(sheet, context) {
