@@ -211,20 +211,15 @@ async function onBrowsePowers(event) {
   // Add level filter if available
   if (level !== undefined && level !== null) {
     filters.psionLevel = [String(level)];
-    console.log(`${MODULE_ID} | Browse: Setting psionLevel filter to "${level}"`);
   }
 
   // Add class filter if we have a manifester book
   if (bookId && this.actor) {
     const manifesterData = this.actor.getFlag(MODULE_ID, `manifesters.${bookId}`);
     if (manifesterData?.class) {
-      // Use the class tag as the filter value
       filters.psionClass = [manifesterData.class];
-      console.log(`${MODULE_ID} | Browse: Setting psionClass filter to "${manifesterData.class}"`);
     }
   }
-
-  console.log(`${MODULE_ID} | Browse: Applying filters:`, filters);
 
   // Apply filters and open browser
   browser._queueFilters(filters);

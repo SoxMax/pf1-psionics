@@ -89,23 +89,10 @@ function attachActorHelpers() {
 
 /**
  * Register the Psionic Power Compendium Browser with PF1 system.
- * Follows the pattern used by Path of War's ManeuverBrowser.
- *
- * @example
- * // Open browser
- * pf1.applications.compendiums.psionicPowers.render(true);
- *
- * @example
- * // Open with filters
- * const browser = pf1.applications.compendiums.psionicPowers;
- * browser._queueFilters({ psionLevel: ["1"], psionDiscipline: ["telepathy"] });
- * browser.render(true);
  */
 function registerCompendiumBrowser() {
 	pf1.applications.compendiums.psionicPowers = new PsionicPowerBrowser();
 	pf1.applications.compendiumBrowser.psionicPowers = PsionicPowerBrowser;
-
-	console.log(`${MODULE_ID} | Registered Psionic Power Compendium Browser`);
 }
 
 

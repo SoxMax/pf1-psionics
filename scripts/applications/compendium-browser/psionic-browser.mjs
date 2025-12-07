@@ -58,13 +58,8 @@ export class PsionicPowerBrowser extends pf1.applications.compendiumBrowser.Comp
     if (this.#filterQueueProcessed || !this.#filterQueue) return;
 
     // Only process if filters have been set up
-    // If not, they'll be activated after setup completes
-    // this.filters is a Collection, so check its contents
     const filtersReady = this.filters.contents.every((f) => f.choices);
-    if (!filtersReady) {
-      console.log("PF1-Psionics | Filters not yet initialized, deferring queue activation");
-      return;
-    }
+    if (!filtersReady) return;
 
     this.#filterQueueProcessed = true;
 
@@ -83,17 +78,15 @@ export class PsionicPowerBrowser extends pf1.applications.compendiumBrowser.Comp
     for (const [filterId, choices] of Object.entries(this.#filterQueue)) {
       const filterName = idToFilter[filterId];
       const filter = this.filters.find((f) => f.constructor.name === filterName);
-      if (!filter || !filter.choices) {
-        console.warn(`Filter "${filterId}" not found or not initialized.`);
-        continue;
-      }
+      if (!filter?.choices) continue;
 
-      // Normalize choices to array
+      // Normalize choices to array and activate matching filter options
       const choicesArray = Array.isArray(choices) ? choices : [choices];
-
       for (const [key, choice] of filter.choices.entries()) {
-        choice.active = choicesArray.includes(key);
-        if (choice.active) this.expandedFilters.add(filter.id);
+        if (choicesArray.includes(key)) {
+          choice.active = true;
+          this.expandedFilters.add(filter.id);
+        }
       }
     }
 
