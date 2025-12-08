@@ -127,14 +127,8 @@ function injectPowerPointsIntoCombatTab(app, html, data) {
   if (!powerPoints || !powerPoints.inUse) return;
 
   // Create power points display element for the header
-  const ppDisplay = $('<div class="power-points-display"></div>');
-  // Show available PP (current + temporary) as the numerator
-  const availableSpan = $('<span class="value available"></span>')
-    .text(powerPoints.available);
-  const separator = $('<span class="sep">/</span>');
-  const maxSpan = $('<span class="max"></span>').text(powerPoints.maximum);
-
-  ppDisplay.append(availableSpan, separator, maxSpan);
+  const ppDisplay = $('<div class="power-points-display"></div>')
+    .text(`${powerPoints.available} / ${powerPoints.maximum}`);
 
   // Replace the item-controls area with power points display
   // (The + button was already suppressed by setting interface.create = false in addPowersToCombatTab)

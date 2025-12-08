@@ -11,17 +11,7 @@
   align-items: center;
   gap: 4px;
   color: var(--color-text-dark-primary);
-}
-
-.power-points-display .available {
-  min-width: 2em;
-  text-align: center;
-}
-
-
-.power-points-display .sep,
-.power-points-display .max {
-  font-weight: normal;
+  font-weight: bold;
 }
 
 /* Base PP cost display for powers in combat tab */
