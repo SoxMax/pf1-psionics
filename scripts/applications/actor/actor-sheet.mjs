@@ -9,6 +9,8 @@ async function renderActorHook(app, html, data) {
     // Inject Psionics Manifesters Tab
     await injectPsionicsTab(app, html, data);
     adjustActiveTab(app);
+    // Inject power points into combat tab
+    injectPowerPointsIntoCombatTab(app, html, data);
   }
 }
 
@@ -98,6 +100,63 @@ function adjustActiveTab(app) {
   if (app._activeTab === "manifester") {
     app.activateTab(app._activeTab);
   }
+}
+
+/**
+ * Inject power points display into combat tab header and update power item displays
+ *
+ * This function modifies the rendered HTML because:
+ * 1. The PF1e combat template doesn't support custom header content natively
+ * 2. We need to replace the generic item-controls area with our power points display
+ * 3. We need to replace the generic charges display with PP cost per item
+ *
+ * @param {ActorSheetPF} app - The actor sheet app
+ * @param {jQuery} html - The rendered HTML
+ * @param {object} data - The template context
+ */
+function injectPowerPointsIntoCombatTab(app, html, data) {
+  // Find the power section header in the combat tab
+  const powerHeader = html.find(".attacks-power");
+  if (!powerHeader.length) return;
+
+  // Get power points data
+  const powerPoints = data.psionics?.powerPoints;
+  if (!powerPoints || !powerPoints.inUse) return;
+
+  // Create power points display element for the header
+  const ppDisplay = $('<div class="power-points-display"></div>');
+  const currentSpan = $('<span class="value text-box direct wheel-change allow-relative"></span>')
+    .attr('data-dtype', 'Number')
+    .attr('name', `flags.${MODULE_ID}.powerPoints.current`)
+    .text(powerPoints.current);
+  const separator = $('<span class="sep">/</span>');
+  const maxSpan = $('<span class="max"></span>').text(powerPoints.maximum);
+
+  ppDisplay.append(currentSpan, separator, maxSpan);
+
+  // Replace the item-controls area with power points display
+  // (The + button was already suppressed by setting interface.create = false in addPowersToCombatTab)
+  const itemControls = powerHeader.find(".item-controls");
+  itemControls.empty().append(ppDisplay);
+
+  // Make the power points editable via click
+  ppDisplay.find("span.text-box.direct").on("click", (event) => {
+    app._onSpanTextInput(event, app._adjustActorPropertyBySpan.bind(app));
+  });
+
+  // Update each power item in combat tab to show base PP cost instead of charges
+  // This uses the data prepared in addPowersToCombatTab
+  const combatTab = html.find(".tab[data-tab='combat']");
+  combatTab.find(".item-list[data-list='power'] .item[data-item-id]").each(function() {
+    const itemId = $(this).data("item-id");
+    // Get the prepared item from context.items which has basePPCost calculated
+    const item = data.items.find(i => i.id === itemId);
+    if (!item || !item.showPPCost) return;
+
+    // Update the charges display to show base cost
+    const usesDiv = $(this).find(".item-detail.item-uses");
+    usesDiv.empty().append(`<span class="base-cost">${item.basePPCost} PP</span>`);
+  });
 }
 
 function injectSettings(app, html, data) {
@@ -346,17 +405,34 @@ function addPowersToCombatTab(sheet, context) {
       label: game.i18n.localize("PF1-Psionics.Powers.Plural"),
       hideEmpty: true,
       sort: 8500, // Place after spells (8000) but before equipment (10500)
-      items: []
+      items: [],
+      // Add power points info for the header
+      powerPoints: context.psionics?.powerPoints,
+      // Mark this section as needing special interface handling
+      interface: {
+        create: false // No + button for powers in combat tab
+      }
     };
     attacks.push(powerSection);
     // Re-sort the sections
     attacks.sort((a, b) => a.sort - b.sort);
+  } else {
+    // Update power points info if section already exists
+    powerSection.powerPoints = context.psionics?.powerPoints;
   }
 
   // Filter powers with showInCombat flag
   const powers = context.items.filter(i =>
     i.type === `${MODULE_ID}.power` && i.document.system.showInCombat
   );
+
+  // Modify power items to show base PP cost instead of charges
+  powers.forEach(power => {
+    // Store the base PP cost for display
+    power.basePPCost = power.labels?.chargeCost ?? 0;
+    // Mark that this item should show PP cost instead of charges
+    power.showPPCost = true;
+  });
 
   // Add powers to the section
   powerSection.items = powers;
