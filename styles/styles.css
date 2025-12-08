@@ -13,16 +13,11 @@
   color: var(--color-text-dark-primary);
 }
 
-.power-points-display .text-box {
-  cursor: pointer;
+.power-points-display .available {
   min-width: 2em;
   text-align: center;
-  font-weight: bold;
 }
 
-.power-points-display .text-box:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-}
 
 .power-points-display .sep,
 .power-points-display .max {

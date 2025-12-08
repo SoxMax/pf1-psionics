@@ -110,6 +110,9 @@ function adjustActiveTab(app) {
  * 2. We need to replace the generic item-controls area with our power points display
  * 3. We need to replace the generic charges display with PP cost per item
  *
+ * Shows "Available / Maximum" where available = current + temporary power points.
+ * This is a read-only display since available is a calculated property.
+ *
  * @param {ActorSheetPF} app - The actor sheet app
  * @param {jQuery} html - The rendered HTML
  * @param {object} data - The template context
@@ -125,24 +128,21 @@ function injectPowerPointsIntoCombatTab(app, html, data) {
 
   // Create power points display element for the header
   const ppDisplay = $('<div class="power-points-display"></div>');
-  const currentSpan = $('<span class="value text-box direct wheel-change allow-relative"></span>')
-    .attr('data-dtype', 'Number')
-    .attr('name', `flags.${MODULE_ID}.powerPoints.current`)
-    .text(powerPoints.current);
+  // Show available PP (current + temporary) as the numerator
+  const availableSpan = $('<span class="value available"></span>')
+    .text(powerPoints.available);
   const separator = $('<span class="sep">/</span>');
   const maxSpan = $('<span class="max"></span>').text(powerPoints.maximum);
 
-  ppDisplay.append(currentSpan, separator, maxSpan);
+  ppDisplay.append(availableSpan, separator, maxSpan);
 
   // Replace the item-controls area with power points display
   // (The + button was already suppressed by setting interface.create = false in addPowersToCombatTab)
   const itemControls = powerHeader.find(".item-controls");
   itemControls.empty().append(ppDisplay);
 
-  // Make the power points editable via click
-  ppDisplay.find("span.text-box.direct").on("click", (event) => {
-    app._onSpanTextInput(event, app._adjustActorPropertyBySpan.bind(app));
-  });
+  // Note: Available PP is read-only (calculated from current + temporary)
+  // Users edit current/temporary PP in the Psionics tab
 
   // Update each power item in combat tab to show base PP cost instead of charges
   // This uses the data prepared in addPowersToCombatTab
