@@ -2,6 +2,21 @@
   display: flex;
   flex-flow: row;
   gap: 3px;
-
   flex: 0;
 }
+
+/* Power points display in combat tab header */
+.power-points-display {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--color-text-dark-primary);
+  font-weight: bold;
+}
+
+/* Base PP cost display for powers in combat tab */
+.item-list[data-list="power"] .item .item-uses .base-cost {
+  font-weight: normal;
+  color: var(--color-text-dark-secondary);
+}
+
