@@ -114,3 +114,4 @@ jobs:
         with:
           package-token: ${{ secrets.FOUNDRY_PACKAGE_TOKEN }}
           manifest-url: https://github.com/${{github.repository}}/releases/download/v${{steps.version.outputs.version}}/module.json
+          notes-url: https://github.com/${{github.repository}}/releases/tag/v${{steps.version.outputs.version}}
