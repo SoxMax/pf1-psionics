@@ -107,3 +107,10 @@ jobs:
           files: |
             module.zip
             module.json
+
+      - name: Publish Module to FoundryVTT Website
+        id: publish-to-foundry-website
+        uses: cs96and/FoundryVTT-release-package@v1.0.3
+        with:
+          package-token: ${{ secrets.FOUNDRY_PACKAGE_TOKEN }}
+          manifest-url: https://github.com/${{github.repository}}/releases/download/v${{steps.version.outputs.version}}/module.json
