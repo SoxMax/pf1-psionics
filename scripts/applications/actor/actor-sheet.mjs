@@ -26,6 +26,8 @@ function injectActorSheetPF() {
 
     context.psionics.powerPoints = ppHelper?.toObject() ?? { current: 0, temporary: 0, maximum: 0, available: 0, inUse: false };
     context.psionics.focus = focusHelper?.toObject() ?? { current: 0, maximum: 0, isFocused: false, inUse: false };
+    context.psionics.activeEnergy = this.actor.psionics?.activeEnergy ?? "fire";
+    context.psionics.activeEnergyTypes = pf1.config.psionics.activeEnergyTypes;
 
     // Apply filters to manifester sections (similar to how PF1e handles spellbooks)
     for (const [manifesterId, manifester] of Object.entries(context.manifesterData ?? {})) {

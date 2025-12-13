@@ -14,6 +14,21 @@
         </div>
       </div>
     </div>
+    {{! Active Energy Type }}
+    <div class="info-box-header active-energy">
+      <h3>{{localize "PF1-Psionics.ActiveEnergy.Label"}}</h3>
+      <div class="info-box-joined">
+        <div class="info-box energy-type">
+          <select name="flags.pf1-psionics.activeEnergy" data-dtype="String">
+            {{#select psionics.activeEnergy}}
+            {{#each psionics.activeEnergyTypes as |label key|}}
+            <option value="{{key}}">{{localize label}}</option>
+            {{/each}}
+            {{/select}}
+          </select>
+        </div>
+      </div>
+    </div>
     {{! Power Points }}
     <div class="info-box-header power-points flexcol">
       <h3>{{localize "PF1-Psionics.PowerPoints.Plural"}}</h3>

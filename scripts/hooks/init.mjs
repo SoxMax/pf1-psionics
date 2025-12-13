@@ -88,6 +88,14 @@ function registerConfig() {
     misc: Object.keys(pf1.config.psionics.subdisciplines),
   };
 
+  // Energy types for active energy type selection
+  pf1.config.psionics.activeEnergyTypes = {
+    cold: "PF1.DamageTypes.cold.Label",
+    electricity: "PF1.DamageTypes.electricity.Label",
+    fire: "PF1.DamageTypes.fire.Label",
+    sonic: "PF1.DamageTypes.sonic.Label",
+  };
+
   // Add Levels to config
   pf1.config.psionics.powerLevels = {
     1: "PF1-Psionics.Powers.Levels.1",

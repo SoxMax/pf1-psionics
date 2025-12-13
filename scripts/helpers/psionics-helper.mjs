@@ -63,5 +63,26 @@ export class PsionicsHelper {
   get manifesters() {
     return this.actor.getFlag(MODULE_ID, "manifesters") ?? null;
   }
+
+  /**
+   * Get the current active energy type for this actor
+   * @type {string}
+   */
+  get activeEnergy() {
+    return this.actor.getFlag(MODULE_ID, "activeEnergy") ?? "fire";
+  }
+
+  /**
+   * Set the active energy type for this actor
+   * @param {string} value - The energy type (cold, electricity, fire, sonic)
+   * @returns {Promise<Actor>}
+   */
+  async setActiveEnergy(value) {
+    const validTypes = ["cold", "electricity", "fire", "sonic"];
+    if (!validTypes.includes(value)) {
+      throw new Error(`Invalid energy type: ${value}. Must be one of: ${validTypes.join(", ")}`);
+    }
+    return this.actor.setFlag(MODULE_ID, "activeEnergy", value);
+  }
 }
 
