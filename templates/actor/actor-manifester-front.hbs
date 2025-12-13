@@ -1,6 +1,6 @@
 <div class="tab spellbook psionics flexcol" data-group="primary" data-tab="manifester">
   <div class="psionics-resources flexrow">
-    <div class="info-box-header psionic-focus" style="flex: 0 0 30%;">
+    <div class="info-box-header psionic-focus" style="flex: 0 0 40%;">
       <h3>{{localize "PF1-Psionics.Focus.Plural"}}</h3>
       <div class="info-box-joined">
         <div class="info-box current">
@@ -11,24 +11,19 @@
           <h5>{{localize "PF1-Psionics.Focus.Maximum"}}</h5>
           <span class="value text-box readonly">{{psionics.focus.maximum}}</span>
         </div>
-      </div>
-    </div>
-    <div class="info-box-header active-energy" style="flex: 0 0 20%;">
-      <h3>{{localize "PF1-Psionics.ActiveEnergy.Label"}}</h3>
-      <div class="info-box-joined">
         <div class="info-box energy-type">
-          <h5>Energy Type</h5>
+          <h5>{{localize "PF1-Psionics.ActiveEnergy.Label"}}</h5>
           <select name="flags.pf1-psionics.activeEnergy" data-dtype="String">
             {{#select psionics.activeEnergy}}
-            {{#each psionics.activeEnergyTypes as |label key|}}
-            <option value="{{key}}">{{localize label}}</option>
-            {{/each}}
+              {{#each psionics.activeEnergyTypes as |label key|}}
+                <option value="{{key}}">{{localize label}}</option>
+              {{/each}}
             {{/select}}
           </select>
         </div>
       </div>
     </div>
-    <div class="info-box-header power-points flexcol" style="flex: 0 0 50%;">
+    <div class="info-box-header power-points flexcol">
       <h3>{{localize "PF1-Psionics.PowerPoints.Plural"}}</h3>
       <div class="info-box-joined">
         <div class="info-box current">
