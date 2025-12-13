@@ -46,17 +46,14 @@
         </div>
 
         {{!-- Requires Focus --}}
-        {{#if (eq data.maxUses 1)}}
         <div class="form-group">
-            <label></label>
+            <label>{{localize "PF1-Psionics.Augments.RequiresFocus"}}</label>
             <div class="form-fields">
                 <label class="checkbox">
                     <input type="checkbox" name="requiresFocus" {{checked data.requiresFocus}}>
-                    {{localize "PF1-Psionics.Augments.RequiresFocus"}}
                 </label>
             </div>
         </div>
-        {{/if}}
     </div>
 
     {{!-- Effects Tab --}}
