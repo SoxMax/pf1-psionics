@@ -1,7 +1,6 @@
 <div class="tab spellbook psionics flexcol" data-group="primary" data-tab="manifester">
   <div class="psionics-resources flexrow">
-    {{! Psionic Focus }}
-    <div class="info-box-header psionic-focus">
+    <div class="info-box-header psionic-focus" style="flex: 0 0 30%;">
       <h3>{{localize "PF1-Psionics.Focus.Plural"}}</h3>
       <div class="info-box-joined">
         <div class="info-box current">
@@ -14,11 +13,11 @@
         </div>
       </div>
     </div>
-    {{! Active Energy Type }}
-    <div class="info-box-header active-energy">
+    <div class="info-box-header active-energy" style="flex: 0 0 20%;">
       <h3>{{localize "PF1-Psionics.ActiveEnergy.Label"}}</h3>
       <div class="info-box-joined">
         <div class="info-box energy-type">
+          <h5>Energy Type</h5>
           <select name="flags.pf1-psionics.activeEnergy" data-dtype="String">
             {{#select psionics.activeEnergy}}
             {{#each psionics.activeEnergyTypes as |label key|}}
@@ -29,8 +28,7 @@
         </div>
       </div>
     </div>
-    {{! Power Points }}
-    <div class="info-box-header power-points flexcol">
+    <div class="info-box-header power-points flexcol" style="flex: 0 0 50%;">
       <h3>{{localize "PF1-Psionics.PowerPoints.Plural"}}</h3>
       <div class="info-box-joined">
         <div class="info-box current">
