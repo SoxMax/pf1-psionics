@@ -9,6 +9,8 @@ export const PSIONIC_FOCUS_FLAG = {
   maximum: 0
 };
 
+export const ACTIVE_ENERGY_FLAG = "fire";
+
 export const POINTS_PER_LEVEL = {
     low: {
         1: 1,
