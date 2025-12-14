@@ -37,6 +37,15 @@ system:
         description: None
       target:
         value: Ray
+  augments:
+    - _id: TNQHtin5kCvA3HXH
+      cost: 1
+      effects:
+        damageBonus: 1d6
+      img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
+      maxUses: null
+      name: Damage
+      requiresFocus: false
   description:
     value: >-
       <p>You create a ray of energy of your active energy type (cold,

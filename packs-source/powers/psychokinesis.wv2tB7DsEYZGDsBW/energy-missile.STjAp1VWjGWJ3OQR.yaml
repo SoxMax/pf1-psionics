@@ -38,6 +38,16 @@ system:
         value: >-
           Up to five creatures or unattended objects; no two targets can be more
           than 15 ft. apart.
+  augments:
+    - _id: dr03TBtwzheEDaCj
+      cost: 1
+      effects:
+        damageBonus: 1d6
+        dcBonus: 0.5
+      img: icons/magic/unholy/projectile-fireball-green.webp
+      maxUses: null
+      name: Damage
+      requiresFocus: false
   description:
     value: >-
       <p>You release a powerful missile of your active energy type (cold,
