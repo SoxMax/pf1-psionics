@@ -35,9 +35,6 @@ async function migrateActor(actor) {
   // Copy old flag to new name
   await actor.setFlag(MODULE_ID, "manifesters", oldManifestors);
 
-  // Remove old flag
-  await actor.unsetFlag(MODULE_ID, "manifestors");
-
   return true;
 }
 
