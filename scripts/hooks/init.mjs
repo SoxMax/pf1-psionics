@@ -239,6 +239,23 @@ Hooks.on("pf1RegisterScriptCalls", (registry) => {
   }
 });
 
+/**
+ * Registers custom damage types for psionic powers.
+ * Adds "activeEnergyType" which appears in the Energy Types category and gets
+ * resolved to the actual energy type (cold/electricity/fire/sonic) at action use time.
+ *
+ * @returns {void}
+ */
+Hooks.on("pf1RegisterDamageTypes", (registry) => {
+  registry.register(MODULE_ID, "activeEnergyType", {
+    name: "PF1-Psionics.DamageType.ActiveEnergyType",
+    icon: "ra ra-radiant",
+    category: "energy",
+    color: "#FFD700",
+    resist: true,
+  });
+});
+
 // Map custom psionics buff targets to concrete actor data paths
 // These paths point to the maximum values; using maximum avoids refilling current values each refresh.
 Hooks.on("pf1GetChangeFlat", (result, target, _modifierType, _value, _actor) => {

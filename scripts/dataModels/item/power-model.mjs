@@ -93,6 +93,24 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
       prepared: new BooleanField({initial: false}),
       manifester: new StringField({initial: ""}),
       sr: new BooleanField({initial: true}),
+      energyEffects: new SchemaField({
+        cold: new SchemaField({
+          damage: new NumberField({ required: false, nullable: true, initial: null }),
+          notes: new ArrayField(new StringField(), { required: false, initial: [] }),
+        }, { required: false }),
+        electricity: new SchemaField({
+          damage: new NumberField({ required: false, nullable: true, initial: null }),
+          notes: new ArrayField(new StringField(), { required: false, initial: [] }),
+        }, { required: false }),
+        fire: new SchemaField({
+          damage: new NumberField({ required: false, nullable: true, initial: null }),
+          notes: new ArrayField(new StringField(), { required: false, initial: [] }),
+        }, { required: false }),
+        sonic: new SchemaField({
+          damage: new NumberField({ required: false, nullable: true, initial: null }),
+          notes: new ArrayField(new StringField(), { required: false, initial: [] }),
+        }, { required: false }),
+      }, { required: false }),
       augments: new ArrayField(new EmbeddedDataField(AugmentModel), { required: false, initial: [] }),
       showInCombat: new BooleanField({initial: false}),
     };

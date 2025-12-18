@@ -23,7 +23,9 @@ system:
           type: nonaction
       damage:
         parts:
-          - formula: 1d6
+          - formula: 1d6 + @activeEnergy.damageBonus
+            types:
+              - activeEnergyType
       duration:
         units: inst
       name: Use
@@ -41,11 +43,24 @@ system:
     - _id: TNQHtin5kCvA3HXH
       cost: 1
       effects:
-        damageBonus: 1d6
+        damageBonus: 1d6 + @activeEnergy.damageBonus
       img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
       maxUses: null
       name: Damage
       requiresFocus: false
+  energyEffects:
+    cold:
+      damage: 1
+    electricity:
+      notes:
+        - +3 attack vs metal armor
+        - +2 manifester level vs power resistance
+    fire:
+      damage: 1
+    sonic:
+      damage: -1
+      notes:
+        - Ignores hardness
   description:
     value: >-
       <p>You create a ray of energy of your active energy type (cold,
