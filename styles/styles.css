@@ -20,3 +20,63 @@
   color: var(--color-text-dark-secondary);
 }
 
+/* Energy Effects UI */
+.energy-effects {
+  margin-top: 20px;
+}
+
+.energy-effects-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--color-border-light-2);
+}
+
+.energy-effects-header h3 {
+  margin: 0;
+}
+
+/* Energy effect rows */
+.energy-effect-item {
+  padding: 0;
+}
+
+/* Colored energy type icons */
+.energy-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+}
+
+.cold-icon {
+  background: linear-gradient(135deg, #b3e5fc 0%, #4fc3f7 100%);
+}
+
+.electricity-icon {
+  background: linear-gradient(135deg, #fff59d 0%, #fdd835 100%);
+}
+
+.fire-icon {
+  background: linear-gradient(135deg, #ffccbc 0%, #ff5722 100%);
+}
+
+.sonic-icon {
+  background: linear-gradient(135deg, #e1bee7 0%, #ab47bc 100%);
+}
+
+/* Column sizing */
+.energy-damage {
+  flex: 0 0 100px;
+  text-align: center;
+}
+
+.energy-damage input {
+  width: 60px;
+  text-align: center;
+}
+
+.energy-controls {
+  flex: 0 0 60px;
+}

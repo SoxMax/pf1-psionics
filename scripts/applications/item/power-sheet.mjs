@@ -77,6 +77,16 @@ export class PowerSheet extends pf1.applications.item.ItemSheetPF {
       };
     });
 
+    // Prepare energy effects data
+    const energyEffects = item.system.energyEffects || {};
+    context.showEnergyEffects = Object.keys(energyEffects).length > 0;
+    context.energyTypes = ["cold", "electricity", "fire", "sonic"].map(type => ({
+      type: type,
+      label: game.i18n.localize(`PF1-Psionics.EnergyEffects.${type.charAt(0).toUpperCase() + type.slice(1)}`),
+      damage: energyEffects[type]?.damage ?? null,
+      notes: energyEffects[type]?.notes || []
+    }));
+
     return context;
   }
 
@@ -169,6 +179,64 @@ export class PowerSheet extends pf1.applications.item.ItemSheetPF {
     new AugmentEditor(this.item, augment).render(true);
   }
 
+  /**
+   * Handle toggling energy effects visibility
+   * @param {Event} event
+   * @private
+   */
+  async _onToggleEnergyEffects(event) {
+    const enabled = event.target.checked;
+
+    if (!enabled) {
+      // Clear energy effects when disabling
+      await this.item.update({"system.energyEffects": {}});
+    } else {
+      // Initialize with empty effects for each energy type
+      const energyEffects = {
+        cold: { damage: null, notes: [] },
+        electricity: { damage: null, notes: [] },
+        fire: { damage: null, notes: [] },
+        sonic: { damage: null, notes: [] }
+      };
+      await this.item.update({"system.energyEffects": energyEffects});
+    }
+  }
+
+  /**
+   * Handle adding a note to an energy type
+   * @param {Event} event
+   * @private
+   */
+  async _onAddEnergyNote(event) {
+    event.preventDefault();
+    const energyType = event.currentTarget.dataset.energyType;
+    const energyEffects = foundry.utils.deepClone(this.item.system.energyEffects || {});
+
+    if (!energyEffects[energyType]) {
+      energyEffects[energyType] = { damage: null, notes: [] };
+    }
+
+    energyEffects[energyType].notes.push("");
+    await this.item.update({"system.energyEffects": energyEffects});
+  }
+
+  /**
+   * Handle deleting a note from an energy type
+   * @param {Event} event
+   * @private
+   */
+  async _onDeleteEnergyNote(event) {
+    event.preventDefault();
+    const energyType = event.currentTarget.dataset.energyType;
+    const index = parseInt(event.currentTarget.dataset.index);
+
+    const energyEffects = foundry.utils.deepClone(this.item.system.energyEffects || {});
+    if (energyEffects[energyType]?.notes) {
+      energyEffects[energyType].notes.splice(index, 1);
+      await this.item.update({"system.energyEffects": energyEffects});
+    }
+  }
+
   activateListeners(html) {
     super.activateListeners(html);
 
@@ -179,6 +247,11 @@ export class PowerSheet extends pf1.applications.item.ItemSheetPF {
     html.find(".duplicate-augment").click(this._onDuplicateAugment.bind(this));
     html.find(".delete-augment").click(this._onDeleteAugment.bind(this));
     html.find(".edit-augment").click(this._onEditAugment.bind(this));
+
+    // Energy effects controls
+    html.find(".toggle-energy-effects").change(this._onToggleEnergyEffects.bind(this));
+    html.find(".add-note").click(this._onAddEnergyNote.bind(this));
+    html.find(".delete-note").click(this._onDeleteEnergyNote.bind(this));
   }
 
   /**
