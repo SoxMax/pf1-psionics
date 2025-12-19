@@ -1,4 +1,3 @@
-import {MODULE_ID} from "../../_module.mjs";
 import {AugmentEditor} from "./augment-sheet.mjs";
 
 /**
@@ -7,9 +6,10 @@ import {AugmentEditor} from "./augment-sheet.mjs";
 Hooks.on("renderItemActionSheet", async (app, html, _data) => {
   // Only inject for PsionicActions (powers)
   if (!app.action.augments) return;
+  if (!app.isEditable) return; // Skip if not editable
 
   // Prepare augments data for template
-  const augments = Array.from(app.action.augments.values()).map(augObj => {
+  const augments = (app.action.augments || []).map(augObj => {
     const augmentData = augObj.toObject ? augObj.toObject() : augObj;
     return {
       ...augmentData,
@@ -17,21 +17,11 @@ Hooks.on("renderItemActionSheet", async (app, html, _data) => {
     };
   });
 
-  console.log("PF1-Psionics | Rendering augments:", {
-    actionName: app.action.name,
-    augmentsCollection: app.action.augments,
-    augmentsArray: augments,
-    augmentsLength: augments.length,
-    editable: app.isEditable
-  });
-
   // Render augments template
-  const augmentsHtml = await renderTemplate(
+  const augmentsHtml = await foundry.applications.handlebars.renderTemplate(
     "modules/pf1-psionics/templates/apps/psionic-action-augments.hbs",
     { augments, editable: app.isEditable }
   );
-
-  console.log("PF1-Psionics | Augments HTML length:", augmentsHtml.length);
 
   // Inject at the top of the conditionals tab
   const conditionalsTab = html.find('.tab[data-tab="conditionals"]');
@@ -40,102 +30,99 @@ Hooks.on("renderItemActionSheet", async (app, html, _data) => {
     return;
   }
   conditionalsTab.prepend(augmentsHtml);
+
+  // Attach event listeners to the injected HTML
+  conditionalsTab.find(".add-augment").click(_onAddAugment.bind(app));
+  conditionalsTab.find(".duplicate-augment").click(_onDuplicateAugment.bind(app));
+  conditionalsTab.find(".delete-augment").click(_onDeleteAugment.bind(app));
+  conditionalsTab.find(".edit-augment").click(_onEditAugment.bind(app));
 });
 
 /**
- * Register libWrapper injections for augment event handlers
+ * Event handler for adding a new augment
  */
-export function injectActionSheet() {
-  // Inject augment event listeners
-  libWrapper.register(MODULE_ID, "pf1.applications.component.ItemActionSheet.prototype.activateListeners", function(wrapped, html) {
-    wrapped(html);
+async function _onAddAugment(event) {
+  event.preventDefault();
 
-    if (!this.isEditable) return;
-    if (!this.action.augments) return; // Not a PsionicAction
+  console.log("PF1-Psionics | _onAddAugment called");
+  const action = this.action;
+  console.log("  action:", action.name, action.id);
+  console.log("  action._source.augments:", action._source.augments);
 
-    // Augment controls
-    html.find(".add-augment").click(this._onAddAugment.bind(this));
-    html.find(".duplicate-augment").click(this._onDuplicateAugment.bind(this));
-    html.find(".delete-augment").click(this._onDeleteAugment.bind(this));
-    html.find(".edit-augment").click(this._onEditAugment.bind(this));
-  }, "WRAPPER");
+  // Clone the array to avoid mutating the source directly (like duplicate handler does)
+  const augments = foundry.utils.deepClone(action._source.augments || []);
+  console.log("  cloned augments length:", augments.length);
 
-  // Add augment methods to ItemActionSheet prototype
-  pf1.applications.component.ItemActionSheet.prototype._onAddAugment = async function(event) {
-    event.preventDefault();
-
-    const action = this.action;
-    const actionData = action.toObject();
-
-    if (!actionData.augments) {
-      actionData.augments = [];
-    }
-
-    const newAugment = {
-      _id: foundry.utils.randomID(),
-      name: game.i18n.localize("PF1-Psionics.Augments.New"),
-      cost: 1,
-      effects: {},
-      requiresFocus: false,
-    };
-
-    actionData.augments.push(newAugment);
-
-    await this._updateActionData(actionData);
+  const newAugment = {
+    _id: foundry.utils.randomID(),
+    name: game.i18n.localize("PF1-Psionics.Augments.New"),
+    cost: 1,
+    effects: {},
+    requiresFocus: false,
   };
 
-  pf1.applications.component.ItemActionSheet.prototype._onDuplicateAugment = async function(event) {
-    event.preventDefault();
-    const augmentId = event.currentTarget.closest(".augment-item").dataset.augmentId;
+  augments.push(newAugment);
+  console.log("  augments after push:", augments.length);
+  console.log("  new augment:", newAugment);
 
-    const action = this.action;
-    const actionData = action.toObject();
-
-    const augment = actionData.augments.find(a => a._id === augmentId);
-    if (!augment) return;
-
-    const duplicate = foundry.utils.deepClone(augment);
-    duplicate._id = foundry.utils.randomID();
-    duplicate.name = `${augment.name} (Copy)`;
-
-    actionData.augments.push(duplicate);
-
-    await this._updateActionData(actionData);
-  };
-
-  pf1.applications.component.ItemActionSheet.prototype._onDeleteAugment = async function(event) {
-    event.preventDefault();
-    const augmentId = event.currentTarget.closest(".augment-item").dataset.augmentId;
-
-    const action = this.action;
-    const actionData = action.toObject();
-
-    actionData.augments = actionData.augments.filter(a => a._id !== augmentId);
-
-    await this._updateActionData(actionData);
-  };
-
-  pf1.applications.component.ItemActionSheet.prototype._onEditAugment = async function(event) {
-    event.preventDefault();
-    const augmentId = event.currentTarget.closest(".augment-item").dataset.augmentId;
-
-    const augment = this.action.augments.get(augmentId);
-    if (!augment) return;
-
-    new AugmentEditor(this.item, augment).render(true);
-  };
-
-  pf1.applications.component.ItemActionSheet.prototype._updateActionData = async function(actionData) {
-    const item = this.item;
-    const itemData = item.toObject();
-
-    const actionIndex = itemData.system.actions.findIndex(a => a._id === actionData._id);
-    if (actionIndex !== -1) {
-      itemData.system.actions[actionIndex] = actionData;
-      await item.update({"system.actions": itemData.system.actions});
-    }
-  };
+  // Use action.update() like PF1 does for damage formulas
+  console.log("  Calling action.update({ augments })");
+  try {
+    const result = await action.update({ augments });
+    console.log("  Update succeeded, result:", result);
+  } catch (error) {
+    console.error("  Update failed:", error);
+  }
 }
 
-// Register libWrapper injections
-Hooks.once("libWrapper.Ready", injectActionSheet);
+/**
+ * Event handler for duplicating an augment
+ */
+async function _onDuplicateAugment(event) {
+  event.preventDefault();
+  const augmentId = event.currentTarget.closest(".augment-item").dataset.augmentId;
+
+  const action = this.action;
+  const augments = foundry.utils.deepClone(action._source.augments || []);
+
+  const augment = augments.find(a => a._id === augmentId);
+  if (!augment) return;
+
+  const duplicate = foundry.utils.deepClone(augment);
+  duplicate._id = foundry.utils.randomID();
+  duplicate.name = `${augment.name} (Copy)`;
+
+  augments.push(duplicate);
+
+  // Use action.update() like PF1 does for damage formulas
+  await action.update({ augments });
+}
+
+/**
+ * Event handler for deleting an augment
+ */
+async function _onDeleteAugment(event) {
+  event.preventDefault();
+  const augmentId = event.currentTarget.closest(".augment-item").dataset.augmentId;
+
+  const action = this.action;
+  // Clone and filter to avoid mutating source directly
+  const augments = foundry.utils.deepClone(action._source.augments || []).filter(a => a._id !== augmentId);
+
+  // Use action.update() like PF1 does for damage formulas
+  await action.update({ augments });
+}
+
+/**
+ * Event handler for editing an augment
+ */
+async function _onEditAugment(event) {
+  event.preventDefault();
+  const augmentId = event.currentTarget.closest(".augment-item").dataset.augmentId;
+
+  const augment = this.action.augments?.find(a => a._id === augmentId);
+  if (!augment) return;
+
+  new AugmentEditor(this.item, augment).render(true);
+}
+
