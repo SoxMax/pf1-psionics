@@ -20,6 +20,8 @@
     "scrape:classes:single": "node ./tools/scrapers/classes-scraper.mjs",
     "scrape:races": "node ./tools/scrapers/races-scraper.mjs",
     "scrape:races:single": "node ./tools/scrapers/races-scraper.mjs",
+    "test": "node ./test/runner.mjs",
+    "test:migrations": "node ./test/migrations/test-runner.mjs",
     "lint": "eslint \"scripts/**/*.mjs\"",
     "lint:fix": "eslint \"scripts/**/*.mjs\" --fix"
   },

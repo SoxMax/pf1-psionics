@@ -12,17 +12,23 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
    */
   static migrateData(source) {
     // Migration 1: Move augments from power level to action level (v0.7.0)
-    if (source.augments && Array.isArray(source.augments) && source.augments.length > 0) {
+    if (source.augments !== undefined) {
       const augments = source.augments;
 
-      // Copy augments to each action that doesn't already have them
-      if (source.actions && Array.isArray(source.actions)) {
-        source.actions.forEach(action => {
-          if (!action.augments || action.augments.length === 0) {
-            action.augments = foundry.utils.deepClone(augments);
-          }
-        });
+      // Only copy augments if they exist and aren't empty
+      if (Array.isArray(augments) && augments.length > 0) {
+        // Copy augments to each action that doesn't already have them
+        if (source.actions && Array.isArray(source.actions)) {
+          source.actions.forEach(action => {
+            if (!action.augments || action.augments.length === 0) {
+              action.augments = foundry.utils.deepClone(augments);
+            }
+          });
+        }
       }
+
+      // Always remove the old augments field (regardless of whether we copied it)
+      delete source.augments;
     }
 
     return source;
