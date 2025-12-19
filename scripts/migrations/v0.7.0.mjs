@@ -3,7 +3,12 @@ import { migrateAllItems } from "./helpers.mjs";
 
 /**
  * Migration for version 0.7.0
- * Moves augments from power item level to action level
+ * Moves augments from power item level to action level for all existing powers.
+ *
+ * This runs once on upgrade to ensure all powers are migrated upfront.
+ * PowerModel.migrateData() provides lazy migration as a safety net for any missed items.
+ *
+ * Changes:
  * - Finds all powers with system.augments
  * - Copies those augments to each action in the power
  * - Removes the old system.augments field
@@ -53,7 +58,7 @@ async function migratePowerItem(item) {
   actions.forEach((action, index) => {
     // Only add augments if the action doesn't already have them
     if (!action.augments || action.augments.length === 0) {
-      updates[`system.actions.${index}.augments`] = oldAugments;
+      updates[`system.actions.${index}.augments`] = foundry.utils.deepClone(oldAugments);
     }
   });
 

@@ -1,6 +1,33 @@
 import { DISCIPLINE_TO_SCHOOL } from "../../data/disciplines.mjs";
 
 export class PowerModel extends foundry.abstract.TypeDataModel {
+  /** @override */
+  static SCHEMA_VERSION = 1;
+
+  /**
+   * Migrate source data from older schema versions
+   * @param {object} source - Candidate source data
+   * @returns {object} - Migrated source data
+   * @override
+   */
+  static migrateData(source) {
+    // Migration 1: Move augments from power level to action level (v0.7.0)
+    if (source.augments && Array.isArray(source.augments) && source.augments.length > 0) {
+      const augments = source.augments;
+
+      // Copy augments to each action that doesn't already have them
+      if (source.actions && Array.isArray(source.actions)) {
+        source.actions.forEach(action => {
+          if (!action.augments || action.augments.length === 0) {
+            action.augments = foundry.utils.deepClone(augments);
+          }
+        });
+      }
+    }
+
+    return source;
+  }
+
   static defineSchema() {
     const {
       SchemaField,

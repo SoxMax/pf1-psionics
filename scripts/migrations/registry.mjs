@@ -11,6 +11,9 @@ import { migrateToVersion070 } from "./v0.7.0.mjs";
  * 3. Import and add it to this registry
  *
  * Migrations will be executed in version order (sorted by semantic version).
+ *
+ * Note: Some migrations have both eager (here) and lazy (DataModel.migrateData) variants
+ * for belt-and-suspenders data safety. Example: v0.7.0 augments migration.
  */
 export const MIGRATIONS = {
 	"0.3.1": migrateToVersion031,
