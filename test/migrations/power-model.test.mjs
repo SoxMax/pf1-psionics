@@ -4,19 +4,29 @@
  * These tests can run:
  * 1. In Foundry via Quench (if available)
  * 2. Standalone via Node.js for CI/CD
+ *
+ * Note: v0.7.0 migration tests are now split into specialized test suites:
+ * - v0.7.0.test.mjs: Migration implementation and update object construction
+ * - data-integrity.test.mjs: Edge cases and malformed data handling
+ * - error-recovery.test.mjs: Error scenarios and recovery mechanisms
  */
 
 import { PowerModel } from "../../scripts/dataModels/item/power-model.mjs";
 
 /**
- * Test PowerModel.migrateData() - v0.7.0 augments migration
+ * Test PowerModel.migrateData() - Core migration functionality
+ *
+ * These tests verify the core PowerModel.migrateData() method works correctly.
+ * Detailed v0.7.0 implementation tests are in v0.7.0.test.mjs.
+ * Edge case handling is in data-integrity.test.mjs.
+ * Error recovery is in error-recovery.test.mjs.
  */
 export function testPowerModelMigrateData() {
   const tests = [];
 
-  // Test 1: Migrate augments from power level to action level
+  // Test 1: Basic migration - augments are copied to actions
   tests.push({
-    name: "v0.7.0: Move augments from system.augments to system.actions[].augments",
+    name: "PowerModel: Basic augment migration to actions",
     fn: () => {
       const source = {
         augments: [
@@ -68,9 +78,9 @@ export function testPowerModelMigrateData() {
     }
   });
 
-  // Test 2: Skip migration if no augments
+  // Test 2: No augments at power level - nothing to migrate
   tests.push({
-    name: "v0.7.0: Skip migration if no augments field",
+    name: "PowerModel: Skip migration if no augments",
     fn: () => {
       const source = {
         actions: [
@@ -90,37 +100,9 @@ export function testPowerModelMigrateData() {
     }
   });
 
-  // Test 3: Skip migration if augments is empty
+  // Test 3: Augments exist but don't overwrite existing action augments
   tests.push({
-    name: "v0.7.0: Skip migration if augments array is empty",
-    fn: () => {
-      const source = {
-        augments: [],
-        actions: [
-          {
-            _id: "action_1",
-            name: "Test Action"
-          }
-        ]
-      };
-
-      const migrated = PowerModel.migrateData(source);
-
-      // Empty augments should be removed
-      if (migrated.augments !== undefined) {
-        throw new Error("Expected empty augments to be removed");
-      }
-
-      // Should not add empty augments to actions
-      if (migrated.actions[0].augments !== undefined) {
-        throw new Error("Expected no augments to be added to action");
-      }
-    }
-  });
-
-  // Test 4: Don't overwrite existing action augments
-  tests.push({
-    name: "v0.7.0: Don't overwrite existing action augments",
+    name: "PowerModel: Don't overwrite existing action augments",
     fn: () => {
       const source = {
         augments: [
@@ -170,98 +152,6 @@ export function testPowerModelMigrateData() {
     }
   });
 
-  // Test 5: Handle power with no actions
-  tests.push({
-    name: "v0.7.0: Handle power with no actions gracefully",
-    fn: () => {
-      const source = {
-        augments: [
-          {
-            _id: "test_augment",
-            name: "Test Augment",
-            cost: 2
-          }
-        ]
-      };
-
-      const migrated = PowerModel.migrateData(source);
-
-      // Augments should still be removed even if no actions exist
-      if (migrated.augments !== undefined) {
-        throw new Error("Expected augments to be removed even without actions");
-      }
-    }
-  });
-
-  return tests;
-}
-
-/**
- * Test v0.7.0 eager migration helper function
- * Note: This tests the migration logic, not the actual item.update() calls
- */
-export function testV070EagerMigration() {
-  const tests = [];
-
-  tests.push({
-    name: "v0.7.0 Eager: Detect items needing migration",
-    fn: () => {
-      // Mock item with old-style augments
-      const mockItem = {
-        type: "pf1-psionics.power",
-        name: "Test Power",
-        _source: {
-          system: {
-            augments: [
-              { _id: "aug1", name: "Augment 1", cost: 1 }
-            ],
-            actions: [
-              { _id: "act1", name: "Action 1" }
-            ]
-          }
-        }
-      };
-
-      // Check if item needs migration
-      const needsMigration =
-        mockItem._source.system?.augments &&
-        Array.isArray(mockItem._source.system.augments) &&
-        mockItem._source.system.augments.length > 0;
-
-      if (!needsMigration) {
-        throw new Error("Expected item to need migration");
-      }
-    }
-  });
-
-  tests.push({
-    name: "v0.7.0 Eager: Skip items without augments",
-    fn: () => {
-      // Mock item without augments
-      const mockItem = {
-        type: "pf1-psionics.power",
-        name: "Test Power",
-        _source: {
-          system: {
-            actions: [
-              { _id: "act1", name: "Action 1" }
-            ]
-          }
-        }
-      };
-
-      // Check if item needs migration
-      const needsMigration =
-        mockItem._source.system?.augments &&
-        Array.isArray(mockItem._source.system.augments) &&
-        mockItem._source.system.augments.length > 0;
-
-      if (needsMigration) {
-        throw new Error("Expected item to not need migration");
-      }
-    }
-  });
-
   return tests;
 }
 
@@ -270,8 +160,7 @@ export function testV070EagerMigration() {
  */
 export function runAllTests() {
   const allTests = [
-    ...testPowerModelMigrateData(),
-    ...testV070EagerMigration()
+    ...testPowerModelMigrateData()
   ];
 
   let passed = 0;
@@ -312,7 +201,7 @@ export function registerQuenchTests() {
         const { describe, it, assert } = context;
 
         describe("PowerModel.migrateData()", function () {
-          it("v0.7.0: Move augments from power to actions", function () {
+          it("Basic augment migration to actions", function () {
             const source = {
               augments: [{ _id: "aug1", name: "Test", cost: 1 }],
               actions: [{ _id: "act1", name: "Action" }]
@@ -325,7 +214,7 @@ export function registerQuenchTests() {
             assert.lengthOf(migrated.actions[0].augments, 1, "action should have 1 augment");
           });
 
-          it("v0.7.0: Skip if no augments", function () {
+          it("Skip migration if no augments", function () {
             const source = {
               actions: [{ _id: "act1", name: "Action" }]
             };
@@ -335,7 +224,7 @@ export function registerQuenchTests() {
             assert.isUndefined(migrated.actions[0].augments, "should not add augments");
           });
 
-          it("v0.7.0: Don't overwrite existing action augments", function () {
+          it("Don't overwrite existing action augments", function () {
             const source = {
               augments: [{ _id: "power_aug", name: "Power Aug", cost: 2 }],
               actions: [
@@ -354,3 +243,5 @@ export function registerQuenchTests() {
     );
   });
 }
+
+

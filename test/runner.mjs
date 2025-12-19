@@ -17,13 +17,28 @@ const { setupMocks, teardownMocks } = await import(resolve(__dirname, "./migrati
 setupMocks();
 
 // Import all test suites
-const migrationTests = await import(resolve(__dirname, "./migrations/migrations.test.mjs"));
+const powerModelTests = await import(resolve(__dirname, "./migrations/power-model.test.mjs"));
+const v070Tests = await import(resolve(__dirname, "./migrations/v0.7.0.test.mjs"));
+const dataIntegrityTests = await import(resolve(__dirname, "./migrations/data-integrity.test.mjs"));
+const errorRecoveryTests = await import(resolve(__dirname, "./migrations/error-recovery.test.mjs"));
 
 // Registry of all test suites
 const TEST_SUITES = [
   {
-    name: "Migrations",
-    runTests: migrationTests.runAllTests
+    name: "PowerModel Core",
+    runTests: powerModelTests.runAllTests
+  },
+  {
+    name: "v0.7.0 Migration Implementation",
+    runTests: v070Tests.runAllTests
+  },
+  {
+    name: "Data Integrity & Edge Cases",
+    runTests: dataIntegrityTests.runAllTests
+  },
+  {
+    name: "Error Recovery & Rollback",
+    runTests: errorRecoveryTests.runAllTests
   },
   // Add more test suites here as they're created:
   // {
