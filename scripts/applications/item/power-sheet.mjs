@@ -1,6 +1,4 @@
 import { MODULE_ID } from "../../_module.mjs";
-import { AugmentEditor } from "./augment-sheet.mjs";
-
 export class PowerSheet extends pf1.applications.item.ItemSheetPF {
 
   static get defaultOptions() {
@@ -67,16 +65,6 @@ export class PowerSheet extends pf1.applications.item.ItemSheetPF {
       trait.active = !foundry.utils.isEmpty(trait.selected);
     }
 
-    // Prepare augments data - convert DataModels to plain objects
-    context.augments = (item.system.augments || []).map(aug => {
-      // Convert DataModel to plain object if needed
-      const augObj = aug.toObject ? aug.toObject() : aug;
-      return {
-        ...augObj,
-        hasEffects: Object.values(augObj.effects || {}).some(v => v && v !== 0 && v !== 1 && v !== "")
-      };
-    });
-
     return context;
   }
 
@@ -93,92 +81,10 @@ export class PowerSheet extends pf1.applications.item.ItemSheetPF {
     this.item.changes.get(changeId)?.delete();
   }
 
-  /**
-   * Handle adding a new augment
-   * @param {Event} event
-   * @private
-   */
-  async _onAddAugment(event) {
-    event.preventDefault();
-
-    // Convert DataModel instances to plain objects
-    const augments = (this.item.system.augments || []).map(a => a.toObject ? a.toObject() : a);
-    augments.push({
-      _id: foundry.utils.randomID(),
-      name: "New Augment",
-    });
-
-    await this.item.update({"system.augments": augments});
-  }
-
-  /**
-   * Handle duplicating an augment
-   * @param {Event} event
-   * @private
-   */
-  async _onDuplicateAugment(event) {
-    event.preventDefault();
-
-    const augmentId = event.currentTarget.closest(".augment-item").dataset.augmentId;
-    // Convert DataModel instances to plain objects
-    const augments = (this.item.system.augments || []).map(a => a.toObject ? a.toObject() : a);
-    const index = augments.findIndex(a => a._id === augmentId);
-
-    if (index >= 0) {
-      // Clone the augment and assign a new ID
-      const clone = foundry.utils.deepClone(augments[index]);
-      clone._id = foundry.utils.randomID();
-      // Insert the clone right after the original
-      augments.splice(index + 1, 0, clone);
-      await this.item.update({"system.augments": augments});
-    }
-  }
-
-  /**
-   * Handle deleting an augment
-   * @param {Event} event
-   * @private
-   */
-  async _onDeleteAugment(event) {
-    event.preventDefault();
-
-    const augmentId = event.currentTarget.closest(".augment-item").dataset.augmentId;
-    // Convert DataModel instances to plain objects
-    const augments = (this.item.system.augments || []).map(a => a.toObject ? a.toObject() : a);
-    const index = augments.findIndex(a => a._id === augmentId);
-
-    if (index >= 0) {
-      augments.splice(index, 1);
-      await this.item.update({"system.augments": augments});
-    }
-  }
-
-  /**
-   * Handle editing an augment
-   * @param {Event} event
-   * @private
-   */
-  async _onEditAugment(event) {
-    event.preventDefault();
-
-    const augmentId = event.currentTarget.closest(".augment-item").dataset.augmentId;
-    const augment = (this.item.system.augments || []).find(a => a._id === augmentId);
-
-    if (!augment) return;
-
-    new AugmentEditor(this.item, augment).render(true);
-  }
-
   activateListeners(html) {
     super.activateListeners(html);
 
     if (!this.isEditable) return;
-
-    // Augment controls
-    html.find(".add-augment").click(this._onAddAugment.bind(this));
-    html.find(".duplicate-augment").click(this._onDuplicateAugment.bind(this));
-    html.find(".delete-augment").click(this._onDeleteAugment.bind(this));
-    html.find(".edit-augment").click(this._onEditAugment.bind(this));
   }
 
   /**
