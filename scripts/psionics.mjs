@@ -26,3 +26,10 @@ import "./applications/actor/actor-sheet.mjs";
 import "./applications/item/item-sheet.mjs";
 import "./applications/item/action-sheet.mjs";
 
+// Quench test registration (if available)
+// Quench test registration (optional)
+if (game?.modules?.get("fvtt-quench")?.active) {
+  import("../test/quench/index.mjs").catch((err) => {
+    console.warn("pf1-psionics | Quench tests not loaded:", err);
+  });
+}
