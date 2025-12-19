@@ -6,12 +6,11 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Energy_Ray
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
+img: icons/magic/light/beam-rays-magenta.webp
 name: Energy Ray
 system:
   actions:
-    # Fire action
-    - _id: fire_action_id
+    - _id: cuz2rDTlH2QViFrl
       ability:
         critMult: 2
         critRange: 20
@@ -22,52 +21,27 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      damage:
-        parts:
-          - formula: 1d6 + 1
-            types:
-              - fire
-      duration:
-        units: inst
-      name: Use (Fire)
-      powerAttack:
-        critMultiplier: 1
-        damageBonus: 2
-      range:
-        units: close
-        value: Close (25 ft. + 5 ft./2 levels)
-      save:
-        description: None
-      target:
-        value: Ray
+      ammo:
+        type: none
       augments:
-        - _id: fire_damage_augment
+        - _id: TNQHtin5kCvA3HXH
           cost: 1
           effects:
-            damageBonus: 1d6 + 1
+            damageBonus: 1d6+1
+          img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
+          maxUses: null
           name: Damage
           requiresFocus: false
-
-    # Cold action
-    - _id: cold_action_id
-      ability:
-        critMult: 2
-        critRange: 20
-      actionType: rsak
-      activation:
-        cost: 1
-        type: standard
-        unchained:
-          cost: 1
-          type: nonaction
       damage:
         parts:
-          - formula: 1d6 + 1
+          - formula: 1d6+1
             types:
               - cold
+      description: <p>A ray of this energy type deals +1 point of damage per die.</p>
       duration:
         units: inst
-      name: Use (Cold)
+      img: icons/magic/water/projectile-icecicle-glowing.webp
+      name: Cold
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -76,18 +50,10 @@ system:
         value: Close (25 ft. + 5 ft./2 levels)
       save:
         description: None
+      tag: cold
       target:
         value: Ray
-      augments:
-        - _id: cold_damage_augment
-          cost: 1
-          effects:
-            damageBonus: 1d6 + 1
-          name: Damage
-          requiresFocus: false
-
-    # Electricity action
-    - _id: elec_action_id
+    - _id: AUqmpmwwu9rq4heT
       ability:
         critMult: 2
         critRange: 20
@@ -98,18 +64,50 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: TNQHtin5kCvA3HXH
+          cost: 1
+          effects:
+            damageBonus: 1d6
+          img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+      conditionals:
+        - _id: EmGj02tumWqDtLpE
+          default: false
+          modifiers:
+            - _id: 78oJJtrSBfvdr1zU
+              critical: normal
+              formula: '3'
+              subTarget: allAttack
+              target: attack
+              type: untyped
+            - _id: ppFklaBS8wU3QRBS
+              formula: '2'
+              target: cl
+              type: untyped
+          name: vs metal armor
       damage:
         parts:
           - formula: 1d6
             types:
-              - electricity
+              - electricty
+      description: >-
+        <p>Manifesting a ray of this energy type provides a +3 bonus on your
+        attack roll if the target is wearing metal armor and a +2 bonus on
+        manifester level checks for the purpose of overcoming power
+        resistance.</p>
       duration:
         units: inst
-      name: Use (Electricity)
-      notes:
-        effect:
-          - +3 attack vs metal armor
-          - +2 manifester level vs power resistance
+      img: icons/magic/lightning/bolt-blue.webp
+      name: Electricity
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -118,18 +116,10 @@ system:
         value: Close (25 ft. + 5 ft./2 levels)
       save:
         description: None
+      tag: electricity
       target:
         value: Ray
-      augments:
-        - _id: elec_damage_augment
-          cost: 1
-          effects:
-            damageBonus: 1d6
-          name: Damage
-          requiresFocus: false
-
-    # Sonic action
-    - _id: sonic_action_id
+    - _id: 59Rh8zvoogcK3rau
       ability:
         critMult: 2
         critRange: 20
@@ -140,14 +130,80 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: TNQHtin5kCvA3HXH
+          cost: 1
+          effects:
+            damageBonus: 1d6+1
+          img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
       damage:
         parts:
-          - formula: 1d6 - 1
+          - formula: 1d6+1
             types:
-              - sonic
+              - fire
+      description: <p>A ray of this energy type deals +1 point of damage per die.</p>
       duration:
         units: inst
-      name: Use (Sonic)
+      img: icons/magic/fire/beam-jet-stream-trails-orange.webp
+      name: Fire
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      tag: fire
+      target:
+        value: Ray
+    - _id: 47uk95QcfLYZjZDa
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: rsak
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: TNQHtin5kCvA3HXH
+          cost: 1
+          effects:
+            damageBonus: 1d6-1
+          img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+      damage:
+        parts:
+          - formula: 1d6-1
+            types:
+              - sonic
+      description: >-
+        <p>A ray of this energy type deals –1 point of damage per die and
+        ignores an object's hardness.</p>
+      duration:
+        units: inst
+      img: icons/magic/air/air-wave-gust-blue.webp
+      name: Sonic
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
       notes:
         effect:
           - Ignores hardness
@@ -159,16 +215,18 @@ system:
         value: Close (25 ft. + 5 ft./2 levels)
       save:
         description: None
+      tag: sonic
       target:
         value: Ray
-      augments:
-        - _id: sonic_damage_augment
-          cost: 1
-          effects:
-            damageBonus: 1d6 - 1
-          name: Damage
-          requiresFocus: false
-
+  augments:
+    - _id: TNQHtin5kCvA3HXH
+      cost: 1
+      effects:
+        damageBonus: 1d6
+      img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
+      maxUses: null
+      name: Damage
+      requiresFocus: false
   description:
     value: >-
       <p>You create a ray of energy of your active energy type (cold,
