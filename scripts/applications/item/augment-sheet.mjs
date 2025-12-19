@@ -17,10 +17,11 @@ export class AugmentEditor extends globalThis.FormApplication {
     return this.#controllers.content?.signal;
   }
 
-  constructor(item, augment, options = {}) {
+  constructor(item, augment, action, options = {}) {
     super(augment, options);
     this.item = item;
     this.augment = augment;
+    this.action = action;
   }
 
   /**
@@ -67,7 +68,7 @@ export class AugmentEditor extends globalThis.FormApplication {
   };
 
   get id() {
-    return `augment-editor-${this.item.id}-${this.augment._id}`;
+    return `augment-editor-${this.item.id}-${this.action.id}-${this.augment._id}`;
   }
 
   get title() {
@@ -256,8 +257,8 @@ export class AugmentEditor extends globalThis.FormApplication {
     removeIfEmpty(formData, "tag");
     removeIfEmpty(formData, "maxUses");
 
-    // Get the current augments array and convert DataModels to plain objects
-    const augments = (this.item.system.augments || []).map(a => a.toObject ? a.toObject() : a);
+    // Get the current augments array from the action and convert DataModels to plain objects
+    const augments = (this.action.augments || []).map(a => a.toObject ? a.toObject() : a);
 
     // Find the augment to update
     const index = augments.findIndex(a => a._id === this.augment._id);
@@ -277,13 +278,13 @@ export class AugmentEditor extends globalThis.FormApplication {
       });
     }
 
-    // Update the item (this will trigger a re-render via hooks)
-    await this.item.update({"system.augments": augments});
+    // Update the action (this will trigger a re-render via hooks)
+    await this.action.update({ augments });
 
     // Update this.augment to point to the new DataModel instance
-    // The item update creates new DataModel instances, so we need to get the fresh reference
+    // The action update creates new DataModel instances, so we need to get the fresh reference
     const augmentId = this.augment._id;
-    this.augment = this.item.system.augments.find(a => a._id === augmentId);
+    this.augment = this.action.augments.find(a => a._id === augmentId);
   }
 
   async close(options = {}) {

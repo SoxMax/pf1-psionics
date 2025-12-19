@@ -123,6 +123,6 @@ async function _onEditAugment(event) {
   const augment = this.action.augments?.find(a => a._id === augmentId);
   if (!augment) return;
 
-  new AugmentEditor(this.item, augment).render(true);
+  new AugmentEditor(this.item, augment, this.action).render(true);
 }
 
