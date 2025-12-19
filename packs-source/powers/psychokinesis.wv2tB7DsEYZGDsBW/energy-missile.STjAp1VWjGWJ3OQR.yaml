@@ -6,11 +6,156 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Energy_Missile
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/unholy/projectile-fireball-green.webp
+img: icons/magic/unholy/projectile-bolts-salvo-pink.webp
 name: Energy Missile
 system:
   actions:
     - _id: FR6h3Xl1MkjZLC1X
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: spellsave
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: dr03TBtwzheEDaCj
+          cost: 1
+          effects:
+            damageBonus: 1d6+1
+            dcBonus: 0.5
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+      damage:
+        parts:
+          - formula: 3d6+3
+            types:
+              - cold
+      description: >-
+        <p>A missile of this energy type deals +1 point of damage per die. The
+        saving throw to reduce damage from a cold missile is a Fortitude save
+        instead of a Reflex save.</p>
+      duration:
+        units: inst
+      img: icons/magic/water/projectile-ice-snowball.webp
+      name: Cold
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      save:
+        description: Fortitude half
+        harmless: false
+        type: fort
+      tag: cold
+      target:
+        value: >-
+          Up to five creatures or unattended objects; no two targets can be more
+          than 15 ft. apart.
+    - _id: vNgsOf2hXSBD5U0j
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: spellsave
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: dr03TBtwzheEDaCj
+          cost: 1
+          effects:
+            damageBonus: 1d6
+            dcBonus: 0.5
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+      damage:
+        parts:
+          - formula: 3d6
+            types:
+              - electric
+      description: >-
+        <p>Manifesting a missile of this energy type provides a +2 bonus to the
+        save DC and a +2 bonus on manifester level checks for the purpose of
+        overcoming power resistance.</p>
+      duration:
+        units: inst
+      img: icons/magic/lightning/orb-ball-blue.webp
+      name: Electricity
+      notes:
+        effect:
+          - +2 vs power resistance
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      save:
+        dc: '2'
+        description: Reflex half
+        harmless: false
+        type: ref
+      tag: electricity
+      target:
+        value: >-
+          Up to five creatures or unattended objects; no two targets can be more
+          than 15 ft. apart.
+    - _id: SN7eipwtoUbdocOE
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: spellsave
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: dr03TBtwzheEDaCj
+          cost: 1
+          effects:
+            damageBonus: 1d6+1
+            dcBonus: 0.5
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+      damage:
+        parts:
+          - formula: 3d6+3
+            types:
+              - cold
+      description: <p>A missile of this energy type deals +1 point of damage per die.</p>
+      duration:
+        units: inst
+      img: icons/magic/fire/projectile-fireball-orange-yellow.webp
+      name: Fire
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      save:
+        description: Reflex half
+        harmless: false
+        type: ref
+      tag: fire
+      target:
+        value: >-
+          Up to five creatures or unattended objects; no two targets can be more
+          than 15 ft. apart.
+    - _id: FsT6Ch1wGToZ06Lo
       actionType: save
       activation:
         cost: 1
@@ -18,22 +163,38 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: dr03TBtwzheEDaCj
+          cost: 1
+          effects:
+            damageBonus: 1d6-1
+            dcBonus: 0.5
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
       damage:
         parts:
-          - formula: 3d6
+          - formula: 3d6-3
+            types:
+              - sonic
       duration:
         units: inst
-      name: Use
+      img: icons/magic/sonic/explosion-shock-wave-teal.webp
+      name: Sonic
+      notes:
+        effect:
+          - Ignores hardness
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
-      range:
-        units: med
-        value: Medium (100 ft. + 10 ft./level)
       save:
-        description: Reflex half or Fortitude half; see text;
+        description: Fortitude half
         harmless: false
         type: fort
+      tag: sonic
       target:
         value: >-
           Up to five creatures or unattended objects; no two targets can be more
