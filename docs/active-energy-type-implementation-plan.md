@@ -83,19 +83,30 @@ Actions store damage in `damage.parts` arrays as `DamagePartModel` objects:
 
 ---
 
-## ✅ CHOSEN APPROACH: Formula-Based with Augments Exposed to Roll Data
+## ✅ CHOSEN APPROACH: Simple Formula-Based (Augments Reference @energyBonus)
 
 **Decision Date:** 2025-12-14
+**Refined:** 2025-12-14 (simplified based on user insight)
 
 ### Overview
 
-After investigating PF1e's action use flow and timing constraints, we've chosen a **formula-based approach** that:
-1. **Exposes augment data to roll data** - Makes augment values available as formula variables (e.g., `@augment.damageDice`)
-2. **Stores energy effects per-power** - Each power defines how different energy types affect it
-3. **Applies energy effects to roll data** - Injects energy-specific bonuses before damage rolls
-4. **Uses formulas to calculate final values** - Powers use formulas like `(1 + @augment.damageDice)d6 + (@energyBonus * (1 + @augment.damageDice))`
+After investigating PF1e's action use flow and timing constraints, we've chosen a **simple formula-based approach** that:
+1. **Applies energy effects FIRST** - Sets `@energyBonus` in rollData before augments are evaluated
+2. **Augments reference energy variables** - Both action formulas and augment formulas use `@energyBonus`
+3. **No complex dice parsing needed** - Augments naturally accumulate via `shared.damageBonus` array
+4. **Energy effects stored per-power** - Each power defines how different energy types affect it
 
 ### Why This Approach?
+
+**Key Insight (User):**
+> "Instead of moving augment logic into the action formula, couldn't both the formula for the Energy Ray action be `1d6 + @energyBonus` and then the damage augment for Energy Ray could be `1d6 + @energyBonus` as well?"
+
+**This is brilliant because:**
+- ✅ **No parsing needed** - Don't count dice, just let PF1's existing augment system work
+- ✅ **Augments stay simple** - They're just additive bonuses (existing behavior)
+- ✅ **Cleaner formulas** - `1d6 + @energyBonus` instead of `(1 + @augment.damageDice)d6 + (@energyBonus * (1 + @augment.damageDice))`
+- ✅ **More maintainable** - Less code complexity
+- ✅ **Naturally handles all cases** - Including sonic penalty (`1d6 - 1`)
 
 **Timing Investigation Results:**
 - PF1e's `generateChatAttacks()` runs at line 1671 of `action-use.mjs`
@@ -103,205 +114,153 @@ After investigating PF1e's action use flow and timing constraints, we've chosen 
 - Script calls in "use" category **cannot modify damage** because it's already rolled
 - The only way to influence damage is to modify `rollData` **before** `generateChatAttacks()` executes
 
-**Critical Flow:**
+**Critical Flow (Updated):**
 ```
-1. alterRollData() [line 1621] → Augments applied to rollData
+1. alterRollData() [line 1621]:
+   a. Apply energy effects FIRST → Sets @energyBonus, @activeEnergy
+   b. THEN apply augments → Augment formulas can reference @energyBonus
 2. generateChatAttacks() [line 1671] → Damage rolled using rollData
 3. executeScriptCalls("use") [line 1684] → Scripts run (TOO LATE!)
 ```
 
-**Why Not Script Calls Alone?**
-- Cannot modify damage after rolls complete
-- Would need new "preAugment" script category
-- Augments need to be counted before energy bonuses applied
-- Formula approach is cleaner and more maintainable
-
 ### Example: Energy Ray
 
-**Formula Pattern:**
+**Action Formula:**
 ```yaml
 damage:
   parts:
-    - formula: "(1 + @augment.damageDice)d6 + (@energyBonus * (1 + @augment.damageDice))"
+    - formula: 1d6 + @energyBonus
       types: ["@activeEnergy"]
 ```
 
+**Augment Formula:**
+```yaml
+augments:
+  - cost: 1
+    effects:
+      damageBonus: 1d6 + @energyBonus
+```
+
 **How It Works:**
-1. Manifester level 1, no augments, cold active:
-   - `@augment.damageDice = 0`
-   - `@energyBonus = 1` (cold bonus)
-   - Formula: `(1 + 0)d6 + (1 * (1 + 0))` = `1d6 + 1` cold damage ✅
+1. **Base manifestation (no augments), cold active:**
+   - Action: `1d6 + @energyBonus` where `@energyBonus = 1`
+   - Result: `1d6 + 1` cold damage ✅
 
-2. Manifester level 1, augmented +2 PP (adds 1d6), fire active:
-   - `@augment.damageDice = 1`
-   - `@energyBonus = 1` (fire bonus)
-   - Formula: `(1 + 1)d6 + (1 * (1 + 1))` = `2d6 + 2` fire damage ✅
+2. **Augmented +1 PP, fire active:**
+   - Action: `1d6 + @energyBonus` where `@energyBonus = 1`
+   - Augment: `1d6 + @energyBonus` (pushed to `shared.damageBonus`)
+   - Result: `1d6 + 1` + `1d6 + 1` = `2d6 + 2` fire damage ✅
 
-3. Manifester level 1, augmented +2 PP, sonic active:
-   - `@augment.damageDice = 1`
-   - `@energyBonus = -1` (sonic penalty)
-   - Formula: `(1 + 1)d6 + (-1 * (1 + 1))` = `2d6 - 2` sonic damage ✅
+3. **Augmented +2 PP, sonic active:**
+   - Action: `1d6 + @energyBonus` where `@energyBonus = -1`
+   - Augment 1: `1d6 + @energyBonus`
+   - Augment 2: `1d6 + @energyBonus`
+   - Result: `1d6 - 1` + `1d6 - 1` + `1d6 - 1` = `3d6 - 3` sonic damage ✅
 
-4. Manifester level 1, augmented +2 PP, electricity active:
-   - `@augment.damageDice = 1`
-   - `@energyBonus = 0` (no damage modifier)
-   - Formula: `(1 + 1)d6 + (0 * (1 + 1))` = `2d6` electricity damage
+4. **Augmented +1 PP, electricity active:**
+   - Action: `1d6 + @energyBonus` where `@energyBonus = 0`
+   - Augment: `1d6 + @energyBonus`
+   - Result: `1d6` + `1d6` = `2d6` electricity damage
    - Plus: `attackBonus = +3` vs metal armor (applied separately) ✅
 
 ---
 
-## Implementation Plan
+## Implementation Plan (Simplified)
 
-### Phase 1: Expose Augments to Roll Data
+### Phase 1: Apply Energy Effects BEFORE Augments
 
-**Goal:** Make augment values available as formula variables like `@augment.damageDice`, `@augment.dcBonus`, etc.
+**Goal:** Set `@energyBonus` and other energy variables in `rollData` BEFORE augments are evaluated, so augment formulas can reference these values.
 
-#### 1.1 Modify `applyAugmentEffects()` Function
+#### 1.1 Create `applyEnergyEffects()` Function
 
-**File:** `scripts/documents/action/action-use.mjs` (lines 117-156)
+**File:** `scripts/documents/action/action-use.mjs`
 
-**Changes Required:**
+**Status:** ✅ **COMPLETE** (lines 39-111)
+
+**What It Does:**
 ```javascript
-function applyAugmentEffects(actionUse, augmentCounts) {
-  const shared = actionUse.shared;
-  const rollData = shared.rollData;
-  const augments = actionUse.item.system.augments || [];
+function applyEnergyEffects(actionUse) {
+  // Get active energy type from actor flags
+  const activeEnergy = actor.flags?.["pf1-psionics"]?.activeEnergy || "fire";
+  const energyEffects = item.system.energyEffects?.[activeEnergy];
 
-  // Calculate all augment effect totals
-  const totals = calculateAugmentTotals(augments, augmentCounts);
+  // Set in rollData (BEFORE augments are evaluated)
+  rollData.energyBonus = energyEffects?.damagePerDie ?? 0;
+  rollData.activeEnergy = activeEnergy;
 
-  // ✨ NEW: Expose augment data to roll formulas
-  rollData.augment = {
-    damageDice: 0,          // Dice added by augments (parsed from damageBonus)
-    damageBonus: 0,         // Flat damage bonus
-    damageMult: totals.damageMult || 1,
-    dcBonus: totals.dcBonus || 0,
-    clBonus: totals.clBonus || 0,
-    totalCost: totals.chargeCostBonus || 0,
-    durationMult: totals.durationMultiplier || 1,
-  };
-
-  // ✨ NEW: Parse damageBonus formulas to extract dice
-  if (totals.damageBonus) {
-    const diceMatch = totals.damageBonus.match(/(\d+)d\d+/);
-    if (diceMatch) {
-      rollData.augment.damageDice = parseInt(diceMatch[1]);
-    } else {
-      // If not dice, store as flat bonus
-      try {
-        const evaluated = RollPF.safeRollSync(totals.damageBonus, rollData);
-        rollData.augment.damageBonus = evaluated;
-      } catch (e) {
-        // If can't evaluate, store as string
-        rollData.augment.damageBonus = totals.damageBonus;
-      }
-    }
+  // Apply attack bonuses, save type overrides, PR bonuses, etc.
+  if (energyEffects?.attackBonus) {
+    shared.attackBonus.push(`${energyEffects.attackBonus}[${energyEffects.attackNote || activeEnergy}]`);
   }
 
-  // Rest of existing code (apply totals to rollData)...
-  if (totals.chargeCostBonus > 0) {
-    rollData.chargeCostBonus = (rollData.chargeCostBonus || 0) + totals.chargeCostBonus;
+  if (energyEffects?.saveType) {
+    rollData.energySaveType = energyEffects.saveType;
+    action.save.type = energyEffects.saveType; // Direct override
   }
-  // ... etc (keep existing code)
 }
 ```
 
 **Key Points:**
-- Parse `damageBonus` formulas (e.g., `"1d6"`) to extract dice count
-- Handle both dice expressions (`"2d6"`) and flat bonuses (`"5"`)
-- Expose all augment values as `@augment.*` variables
-- Keep existing augment application code intact
+- ✅ Runs FIRST (before augments)
+- ✅ Sets `@energyBonus`, `@activeEnergy` in rollData
+- ✅ Powers without `energyEffects` get `@energyBonus = 0` (safe default)
+- ✅ Augment formulas can now reference `@energyBonus`
 
-#### 1.2 Update `calculateAugmentTotals()` Helper
+#### 1.2 Update `alterRollData` Wrapper to Apply Energy Effects First
 
-**File:** `scripts/documents/action/action-use.mjs` (lines 45-115)
+**File:** `scripts/documents/action/action-use.mjs`
 
-**Changes Required:**
+**Status:** ✅ **COMPLETE** (lines 11-23)
+
+**Changes:**
 ```javascript
-function calculateAugmentTotals(augments, augmentCounts) {
-  const totals = {
-    chargeCostBonus: 0,
-    damageBonus: "",      // String, may contain formula
-    damageMult: 1,
-    durationMultiplier: 1,
-    dcBonus: 0,
-    clBonus: 0,
-    focusCostBonus: 0,
-  };
+libWrapper.register(MODULE_ID, "pf1.actionUse.ActionUse.prototype.alterRollData", function() {
+  if (this.item.type === `${MODULE_ID}.power`) {
+    // ✨ CRITICAL: Apply energy effects FIRST (sets @energyBonus, @activeEnergy, etc.)
+    applyEnergyEffects(this);
 
-  for (const augment of augments) {
-    const count = augmentCounts[augment._id] || 0;
-    if (count === 0) continue;
-
-    // Accumulate costs and bonuses
-    totals.chargeCostBonus += augment.cost * count;
-
-    // ✨ IMPORTANT: Handle multiple augments with dice
-    if (augment.effects.damageBonus) {
-      const augmentDamageBonus = augment.effects.damageBonus;
-
-      // Check if it's a dice expression
-      const diceMatch = augmentDamageBonus.match(/(\d+)d(\d+)/);
-      if (diceMatch) {
-        const diceCount = parseInt(diceMatch[1]);
-        const dieSize = diceMatch[2];
-        const totalDice = diceCount * count;
-
-        // Accumulate dice (e.g., "1d6" + "1d6" = "2d6")
-        if (totals.damageBonus) {
-          // Already have dice, add to them
-          const existingMatch = totals.damageBonus.match(/(\d+)d(\d+)/);
-          if (existingMatch && existingMatch[2] === dieSize) {
-            // Same die size, combine
-            const existingDice = parseInt(existingMatch[1]);
-            totals.damageBonus = `${existingDice + totalDice}d${dieSize}`;
-          } else {
-            // Different die size or other bonus, append
-            totals.damageBonus += ` + ${totalDice}d${dieSize}`;
-          }
-        } else {
-          totals.damageBonus = `${totalDice}d${dieSize}`;
-        }
-      } else {
-        // Flat bonus, append
-        if (totals.damageBonus) {
-          totals.damageBonus += ` + ${augmentDamageBonus}`;
-        } else {
-          totals.damageBonus = augmentDamageBonus;
-        }
-      }
-    }
-
-    // Other effects (existing code)
-    if (augment.effects.damageMult) {
-      totals.damageMult *= augment.effects.damageMult;
-    }
-    if (augment.effects.dcBonus) {
-      totals.dcBonus += augment.effects.dcBonus * count;
-    }
-    if (augment.effects.clBonus) {
-      totals.clBonus += augment.effects.clBonus * count;
-    }
-    if (augment.effects.durationMultiplier) {
-      totals.durationMultiplier *= augment.effects.durationMultiplier;
-    }
-    if (augment.requiresFocus) {
-      totals.focusCostBonus += count;
+    // THEN apply augments (formulas can now reference @energyBonus)
+    const augmentCounts = this.shared.rollData.augmentCounts || {};
+    if (Object.keys(augmentCounts).length > 0) {
+      applyAugmentEffects(this, augmentCounts);
     }
   }
-
-  return totals;
-}
+}, "LISTENER");
 ```
 
 **Key Points:**
-- Properly accumulate multiple augments with dice (e.g., 2 augments = 2d6 total)
-- Handle mixed dice sizes and flat bonuses
-- Return consolidated totals for parsing
+- ✅ Order matters: Energy → Augments
+- ✅ Augment formulas (`1d6 + @energyBonus`) are evaluated after `@energyBonus` is set
+- ✅ No parsing needed
+
+#### 1.3 Optional: Expose Augment Metadata for Complex Formulas
+
+**File:** `scripts/documents/action/action-use.mjs`
+
+**Status:** ✅ **COMPLETE** (lines 125-133)
+
+**What It Does:**
+```javascript
+// In applyAugmentEffects()
+rollData.augment = {
+  damageMult: totals.damageMult || 1,
+  dcBonus: totals.dcBonus || 0,
+  clBonus: totals.clBonus || 0,
+  totalCost: totals.chargeCostBonus || 0,
+  durationMult: totals.durationMultiplier || 1,
+};
+```
+
+**Key Points:**
+- ✅ NOT needed for damage (augments use `@energyBonus` directly)
+- ✅ Useful for DC formulas like `10 + @sl + @augment.dcBonus`
+- ✅ Useful for duration formulas like `@cl * @augment.durationMult`
 
 ---
 
 ### Phase 2: Energy Effects Data Structure
+
+**Status:** 🔄 **IN PROGRESS** (YAML updated, PowerModel schema pending)
 
 **Goal:** Define how different energy types affect each power.
 
@@ -387,13 +346,19 @@ system:
     - actionType: rsak
       damage:
         parts:
-          - formula: "(1 + @augment.damageDice)d6 + (@energyBonus * (1 + @augment.damageDice))"
+          - formula: 1d6 + @energyBonus
             types: ["@activeEnergy"]
       range:
         units: close
       activation:
         cost: 1
         type: standard
+
+  augments:
+    - cost: 1
+      effects:
+        damageBonus: 1d6 + @energyBonus
+      name: Damage
 
   energyEffects:
     cold:
@@ -407,12 +372,6 @@ system:
     sonic:
       damagePerDie: -1
       special: "Ignores hardness"
-
-  augments:
-    - _id: extraDamage
-      cost: 1
-      effects:
-        damageBonus: "1d6"
 ```
 
 **Energy Cone with Save Type Override:**
@@ -425,8 +384,14 @@ system:
         description: "half"
       damage:
         parts:
-          - formula: "(@sl * 2 + @augment.damageDice)d6 + (@energyBonus * (@sl * 2 + @augment.damageDice))"
+          - formula: 5d6 + @energyBonus * 5
             types: ["@activeEnergy"]
+
+  augments:
+    - cost: 2
+      effects:
+        damageBonus: 1d6 + @energyBonus
+      name: Damage
 
   energyEffects:
     cold:

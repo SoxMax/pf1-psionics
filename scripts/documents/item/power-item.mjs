@@ -1,4 +1,42 @@
+/* global Collection */
+import {PsionicAction} from "../../components/psionic-action.mjs";
+
 export class PowerItem extends pf1.documents.item.ItemPF {
+
+  /**
+   * Override to instantiate PsionicAction instead of ItemAction
+   * This allows actions to have augments
+   * @internal
+   * @override
+   */
+  _prepareActions() {
+    const actions = this.system.actions ?? [];
+    const prior = this.actions;
+    const collection = new Collection();
+
+    for (const actionData of actions) {
+      let action = null;
+      if (prior && prior.has(actionData._id)) {
+        action = prior.get(actionData._id);
+        action.replaceSource(actionData);
+      } else {
+        // Use PsionicAction instead of ItemAction
+        action = new PsionicAction(actionData, {parent: this, strict: false});
+      }
+      collection.set(action.id, action);
+    }
+
+    this.actions = collection;
+
+    // Close action sheets for removed actions
+    for (const action of prior ?? []) {
+      if (this.actions.get(action.id) !== action) {
+        for (const app of Object.values(action.apps)) {
+          app.close({pf1: {action: "delete"}, submit: false, force: true});
+        }
+      }
+    }
+  }
 
   /** @inheritDoc */
   static _adjustNewItem(item, data, override = false) {

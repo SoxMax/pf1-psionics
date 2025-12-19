@@ -10,7 +10,8 @@ img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
 name: Energy Ray
 system:
   actions:
-    - _id: cuz2rDTlH2QViFrl
+    # Fire action
+    - _id: fire_action_id
       ability:
         critMult: 2
         critRange: 20
@@ -23,12 +24,12 @@ system:
           type: nonaction
       damage:
         parts:
-          - formula: 1d6 + @activeEnergy.damageBonus
+          - formula: 1d6 + 1
             types:
-              - activeEnergyType
+              - fire
       duration:
         units: inst
-      name: Use
+      name: Use (Fire)
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -39,28 +40,135 @@ system:
         description: None
       target:
         value: Ray
-  augments:
-    - _id: TNQHtin5kCvA3HXH
-      cost: 1
-      effects:
-        damageBonus: 1d6 + @activeEnergy.damageBonus
-      img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
-      maxUses: null
-      name: Damage
-      requiresFocus: false
-  energyEffects:
-    cold:
-      damage: 1
-    electricity:
+      augments:
+        - _id: fire_damage_augment
+          cost: 1
+          effects:
+            damageBonus: 1d6 + 1
+          name: Damage
+          requiresFocus: false
+
+    # Cold action
+    - _id: cold_action_id
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: rsak
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      damage:
+        parts:
+          - formula: 1d6 + 1
+            types:
+              - cold
+      duration:
+        units: inst
+      name: Use (Cold)
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      target:
+        value: Ray
+      augments:
+        - _id: cold_damage_augment
+          cost: 1
+          effects:
+            damageBonus: 1d6 + 1
+          name: Damage
+          requiresFocus: false
+
+    # Electricity action
+    - _id: elec_action_id
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: rsak
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      damage:
+        parts:
+          - formula: 1d6
+            types:
+              - electricity
+      duration:
+        units: inst
+      name: Use (Electricity)
       notes:
-        - +3 attack vs metal armor
-        - +2 manifester level vs power resistance
-    fire:
-      damage: 1
-    sonic:
-      damage: -1
+        effect:
+          - +3 attack vs metal armor
+          - +2 manifester level vs power resistance
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      target:
+        value: Ray
+      augments:
+        - _id: elec_damage_augment
+          cost: 1
+          effects:
+            damageBonus: 1d6
+          name: Damage
+          requiresFocus: false
+
+    # Sonic action
+    - _id: sonic_action_id
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: rsak
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      damage:
+        parts:
+          - formula: 1d6 - 1
+            types:
+              - sonic
+      duration:
+        units: inst
+      name: Use (Sonic)
       notes:
-        - Ignores hardness
+        effect:
+          - Ignores hardness
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      target:
+        value: Ray
+      augments:
+        - _id: sonic_damage_augment
+          cost: 1
+          effects:
+            damageBonus: 1d6 - 1
+          name: Damage
+          requiresFocus: false
+
   description:
     value: >-
       <p>You create a ray of energy of your active energy type (cold,

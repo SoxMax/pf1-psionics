@@ -1,4 +1,3 @@
-import { AugmentModel } from "./augment-model.mjs";
 import { DISCIPLINE_TO_SCHOOL } from "../../data/disciplines.mjs";
 
 export class PowerModel extends foundry.abstract.TypeDataModel {
@@ -11,7 +10,6 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
       ArrayField,
       ObjectField,
       TypedObjectField,
-      EmbeddedDataField,
     } = foundry.data.fields;
 
     const optional = {required: false, initial: undefined};
@@ -93,25 +91,6 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
       prepared: new BooleanField({initial: false}),
       manifester: new StringField({initial: ""}),
       sr: new BooleanField({initial: true}),
-      energyEffects: new SchemaField({
-        cold: new SchemaField({
-          damage: new NumberField({ required: false, nullable: true, initial: null }),
-          notes: new ArrayField(new StringField(), { required: false, initial: [] }),
-        }, { required: false }),
-        electricity: new SchemaField({
-          damage: new NumberField({ required: false, nullable: true, initial: null }),
-          notes: new ArrayField(new StringField(), { required: false, initial: [] }),
-        }, { required: false }),
-        fire: new SchemaField({
-          damage: new NumberField({ required: false, nullable: true, initial: null }),
-          notes: new ArrayField(new StringField(), { required: false, initial: [] }),
-        }, { required: false }),
-        sonic: new SchemaField({
-          damage: new NumberField({ required: false, nullable: true, initial: null }),
-          notes: new ArrayField(new StringField(), { required: false, initial: [] }),
-        }, { required: false }),
-      }, { required: false }),
-      augments: new ArrayField(new EmbeddedDataField(AugmentModel), { required: false, initial: [] }),
       showInCombat: new BooleanField({initial: false}),
     };
   }
@@ -136,22 +115,5 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
    */
   prepareDerivedData() {
     super.prepareDerivedData();
-  }
-
-  /**
-   * Prune empty data from source
-   *
-   * @param {object} source - Source data to prune
-   * @override
-   */
-  static pruneData(source) {
-    // Prune augments
-    if (source.augments?.length) {
-      for (const augment of source.augments) {
-        AugmentModel.pruneData(augment);
-      }
-    } else {
-      delete source.augments;
-    }
   }
 }

@@ -10,11 +10,7 @@ function injectActionUse() {
 
   libWrapper.register(MODULE_ID, "pf1.actionUse.ActionUse.prototype.alterRollData", function() {
     if (this.item.type === `${MODULE_ID}.power`) {
-      // ✨ CRITICAL: Apply energy effects FIRST (sets @energyBonus, @activeEnergy, etc.)
-      // This allows augment formulas to reference these values
-      applyEnergyEffects(this);
-
-      // THEN apply augments (formulas can now reference @energyBonus)
+      // Apply augments from the action
       const augmentCounts = this.shared.rollData.augmentCounts || {};
       if (Object.keys(augmentCounts).length > 0) {
         applyAugmentEffects(this, augmentCounts);
@@ -37,70 +33,6 @@ function pf1PreActionUseHook(actionUse) {
     if (focusCost > currentFocus) {
       ui.notifications.error(game.i18n.localize("PF1-Psionics.Error.NotEnoughFocus"));
       return false;
-    }
-  }
-}
-
-/**
- * Apply energy effects to the action use based on active energy type
- * This must run BEFORE augments so that augment formulas can reference @activeEnergy.damageBonus
- * @param {ActionUse} actionUse - The action being used
- */
-function applyEnergyEffects(actionUse) {
-  const item = actionUse.item;
-  const actor = item.actor;
-  const action = actionUse.shared.action;
-  const rollData = actionUse.shared.rollData;
-  const shared = actionUse.shared;
-
-  // Only apply to psionic powers
-  if (item.type !== `${MODULE_ID}.power`) return;
-
-  // Check if power has energy effects defined
-  const energyEffects = item.system.energyEffects;
-  if (!energyEffects) {
-    // Power doesn't use energy effects, set default values
-    rollData.activeEnergy = { damageBonus: 0 };
-    return;
-  }
-
-  // Get active energy type from actor flags
-  const activeEnergyType = actor.flags?.[MODULE_ID]?.activeEnergy || "fire";
-  const effects = energyEffects[activeEnergyType];
-
-  // Create activeEnergy object in rollData for formula access
-  rollData.activeEnergy = {
-    damageBonus: effects?.damage ?? 0,
-    type: activeEnergyType,
-  };
-
-  // If no effects for this energy type, we're done
-  if (!effects) return;
-
-  // Replace "activeEnergyType" placeholder with actual energy type
-  if (action?.damage?.parts) {
-    for (const part of action.damage.parts) {
-      if (part.types.has("activeEnergyType")) {
-        // Replace placeholder with actual energy type
-        part.types.delete("activeEnergyType");
-        part.types.add(activeEnergyType);
-      }
-    }
-  }
-
-  // Apply context notes (e.g., "+3 attack vs metal armor", "Ignores hardness")
-  if (effects.notes && Array.isArray(effects.notes) && effects.notes.length > 0) {
-    // Initialize action notes array if it doesn't exist
-    if (!action.notes) {
-      action.notes = [];
-    }
-
-    // Add each note as a context note
-    for (const note of effects.notes) {
-      action.notes.push({
-        text: note,
-        subTarget: activeEnergyType, // Tag with energy type for filtering
-      });
     }
   }
 }
@@ -186,7 +118,10 @@ function calculateAugmentTotals(augments, augmentCounts) {
 function applyAugmentEffects(actionUse, augmentCounts) {
   const shared = actionUse.shared;
   const rollData = shared.rollData;
-  const augments = actionUse.item.system.augments || [];
+
+  // Read augments from the action (not the power)
+  const action = actionUse.action;
+  const augments = action.augments ? Array.from(action.augments.values()) : [];
 
   // Calculate all augment effect totals
   const totals = calculateAugmentTotals(augments, augmentCounts);
@@ -223,7 +158,6 @@ function applyAugmentEffects(actionUse, augmentCounts) {
   }
 
   // Apply duration modifications
-  const action = actionUse.action;
   if (action?.duration?.value && totals.durationMultiplier !== 1) {
     action.duration.value = `floor((${action.duration.value}) * ${totals.durationMultiplier})`;
   }
