@@ -2,22 +2,22 @@ import { MODULE_ID } from "../_module.mjs";
 import { migrateAllItems } from "./helpers.mjs";
 
 /**
- * Migration for version 0.6.1
+ * Migration for version 0.7.0
  * Moves augments from power item level to action level
  * - Finds all powers with system.augments
  * - Copies those augments to each action in the power
  * - Removes the old system.augments field
  */
-export async function migrateToVersion061() {
-  console.log(`${MODULE_ID} | Running migration to 0.6.1`);
+export async function migrateToVersion070() {
+  console.log(`${MODULE_ID} | Running migration to 0.7.0`);
 
-  await migrateAllItems(`${MODULE_ID}.power`, migratePowerItem, "power items to v0.6.1");
+  await migrateAllItems(`${MODULE_ID}.power`, migratePowerItem, "power items to v0.7.0");
 
-  console.log(`${MODULE_ID} | Migration to 0.6.1 complete`);
+  console.log(`${MODULE_ID} | Migration to 0.7.0 complete`);
 }
 
 /**
- * Migrates a single power item to v0.6.1 schema
+ * Migrates a single power item to v0.7.0 schema
  * Moves augments from system.augments to system.actions[].augments
  * @param {Item} item - The item to migrate
  * @returns {Promise<boolean>} - True if item was modified
