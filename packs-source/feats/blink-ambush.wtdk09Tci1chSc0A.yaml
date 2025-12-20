@@ -24,9 +24,8 @@ system:
     value: >-
       <p><em>You can surprise foes with your teleportation abilities.</em></p>
 
-      <p><strong>Prerequisites:</strong><a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Feint">Improved
-      Feint</a>, Slipstream Feint
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1.feats.Item.tocde3sKG1O3GKgd]{Improved
+      Feint}, Slipstream Feint
 
       </p>
 

@@ -28,10 +28,11 @@ system:
         damageBonus: 2
   description:
     value: >-
-      <p>As <em><a href="/wiki/Concealing_Amorpha" title="Concealing
-      Amorpha">concealing amorpha</a></em>, except the quasi-real membrane so
-      distorts your image and actual position that you gain total concealment
-      (opponents have a 50% miss chance), but for a shorter period of time.
+      <p>As
+      @UUID[Compendium.pf1-psionics.powers.Item.AJEWr4a4ThDCpB1B]{Concealing
+      Amorpha}, except the quasi-real membrane so distorts your image and actual
+      position that you gain total concealment (opponents have a 50% miss
+      chance), but for a shorter period of time.
 
       </p>
   discipline: metacreativity

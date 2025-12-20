@@ -40,15 +40,12 @@ system:
       gather information about the target through divination powers or magic
       (such as detect evil, locate creature, scry, and see invisible). Barred
       mind also grants a +8 resistance bonus on saving throws against all
-      mind-affecting powers, spells, and effects. Barred mind even foils <em><a
-      href="/wiki/Bend_Reality" title="Bend Reality">bend reality</a></em>, <a
-      rel="nofollow" class="external text"
-      href="https://www.aonprd.com/SpellDisplay.aspx?ItemName=limited%20wish"><em>limited
-      wish</em></a>, <a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/SpellDisplay.aspx?ItemName=miracle"><em>miracle</em></a>,
-      <em><a href="/wiki/Reality_Revision" title="Reality Revision">reality
-      revision</a></em>, and <a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/SpellDisplay.aspx?ItemName=wish"><em>wish</em></a>
+      mind-affecting powers, spells, and effects. Barred mind even foils
+      @UUID[Compendium.pf1-psionics.powers.Item.zLDI7v0QU4LGXfLq]{Bend Reality},
+      @UUID[Compendium.pf1.spells.Item.s2p7a4biy7bl4ks2]{Limited Wish},
+      @UUID[Compendium.pf1.spells.Item.suel7sgnztenv551]{Miracle},
+      @UUID[Compendium.pf1-psionics.powers.Item.sADBUEGhQAynrw62]{Reality
+      Revision}, and @UUID[Compendium.pf1.spells.Item.nnj51dwfkwd15ngj]{Wish}
       spells when they are used in such a way as to gain information about the
       target. In the case of remote viewing or scrying that scans an area the
       creature is in, such as arcane eye, the effect works but the creature

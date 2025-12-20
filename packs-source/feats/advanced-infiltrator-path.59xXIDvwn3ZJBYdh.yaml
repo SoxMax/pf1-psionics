@@ -24,8 +24,7 @@ system:
     value: >-
       <p><em>You have a talent for getting wherever you need to go.</em></p>
 
-      <p><strong>Prerequisites:</strong><a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Deceitful">Deceitful</a>,
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1.feats.Item.SUACufUXl12sUvnQ]{Deceitful},
       infiltrator path class feature, manifester level 10th, base attack bonus
       +6
 

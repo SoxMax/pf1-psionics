@@ -80,9 +80,9 @@ system:
             types:
               - electric
       description: >-
-        <p>Manifesting a set of rings of this energy type provides a +2 bonus
-        to the save DC and a +2 bonus on manifester level checks for the purpose
-        of overcoming power resistance.</p>
+        <p>Manifesting a set of rings of this energy type provides a +2 bonus to
+        the save DC and a +2 bonus on manifester level checks for the purpose of
+        overcoming power resistance.</p>
       duration:
         dismiss: true
         units: round
@@ -129,7 +129,9 @@ system:
           - formula: 5d6+5
             types:
               - fire
-      description: <p>A set of rings of this energy type deals +1 point of damage per die.</p>
+      description: >-
+        <p>A set of rings of this energy type deals +1 point of damage per
+        die.</p>
       duration:
         dismiss: true
         units: round

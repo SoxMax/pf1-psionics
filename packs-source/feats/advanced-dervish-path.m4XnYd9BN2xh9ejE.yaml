@@ -24,13 +24,10 @@ system:
     value: >-
       <p><em>You seem to float between enemies, a blur of destruction.</em></p>
 
-      <p><strong>Prerequisites:</strong> Dex 15, <a rel="nofollow"
-      class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Double%20Slice">Double
-      Slice</a>, <a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Two-Weapon%20Fighting">Two-Weapon
-      Fighting</a>, dervish path class feature, manifester level 10th, base
-      attack bonus +6
+      <p><strong>Prerequisites:</strong> Dex 15,
+      @UUID[Compendium.pf1.feats.Item.VK8TgwfjeomMwGjd]{Double Slice},
+      @UUID[Compendium.pf1.feats.Item.Ee7JHADKEK37tTHs]{Two-Weapon Fighting},
+      dervish path class feature, manifester level 10th, base attack bonus +6
 
       </p>
 

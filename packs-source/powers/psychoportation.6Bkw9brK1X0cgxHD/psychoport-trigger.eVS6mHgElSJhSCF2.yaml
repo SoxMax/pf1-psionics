@@ -36,7 +36,7 @@ system:
   description:
     value: >-
       <p>You specify a situation that triggers your automatic manifestation of a
-      <em><a href="/wiki/Psychoport" title="Psychoport">psychoport</a></em>,
+      @UUID[Compendium.pf1-psionics.powers.Item.d8NLTbCxWGkglLSM]{Psychoport},
       taking you to a predetermined location. You must know the psychoport power
       and have sufficient power points to manifest it when the specified
       situation occurs.

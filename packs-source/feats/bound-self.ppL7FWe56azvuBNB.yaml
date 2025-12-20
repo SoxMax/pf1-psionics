@@ -25,11 +25,12 @@ system:
       <p><em>As a last-ditch effort, you may bind your own soul to your
       psicrystal – preventing death at great cost.</em></p>
 
-      <p><strong>Prerequisites:</strong><a href="/wiki/Bound_Spirit"
-      title="Bound Spirit">Bound Spirit</a>, <a href="/wiki/Psicrystal_Affinity"
-      title="Psicrystal Affinity">Psicrystal Affinity</a>, <a
-      href="/wiki/Spirited_Psicrystal" title="Spirited Psicrystal">Spirited
-      Psicrystal</a>, manifester level 15th.
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.y4s3owml0O47McPR]{Bound
+      Spirit},
+      @UUID[Compendium.pf1-psionics.feats.Item.pwkovU22CjU6Z5kN]{Psicrystal
+      Affinity},
+      @UUID[Compendium.pf1-psionics.feats.Item.pxNrNohrBxV4H5Hi]{Spirited
+      Psicrystal}, manifester level 15th.
 
       </p>
 

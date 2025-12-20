@@ -24,9 +24,8 @@ system:
     value: >-
       <p><em>You can burn away long-term damage to your body.</em></p>
 
-      <p><strong>Prerequisites:</strong><a href="/wiki/Biokinetic_Adept"
-      title="Biokinetic Adept">Biokinetic Adept</a>, Con 13, wild surge class
-      feature.
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.qLrRd7qVDytFIiFV]{Biokinetic
+      Adept}, Con 13, wild surge class feature.
 
       </p>
 

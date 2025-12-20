@@ -24,12 +24,11 @@ system:
     value: >-
       <p><em>Your intuition extends to multiple attacks.</em></p>
 
-      <p><strong>Prerequisites:</strong> Wis 13, <a href="/wiki/Intuitive_Shot"
-      title="Intuitive Shot">Intuitive Shot</a>, <a rel="nofollow"
-      class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank
-      Shot</a>, <a href="/wiki/Psionic_Shot" title="Psionic Shot">Psionic
-      Shot</a>, base attack bonus +6
+      <p><strong>Prerequisites:</strong> Wis 13,
+      @UUID[Compendium.pf1-psionics.feats.Item.I7P4Jb09ZGUJ12Bp]{Intuitive
+      Shot}, @UUID[Compendium.pf1.feats.Item.8rsFtye3PwM6CKli]{Point-Blank
+      Shot}, @UUID[Compendium.pf1-psionics.feats.Item.SvxneaewYQNywU6M]{Psionic
+      Shot}, base attack bonus +6
 
       </p>
 

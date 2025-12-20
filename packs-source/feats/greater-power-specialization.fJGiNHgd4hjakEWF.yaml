@@ -26,8 +26,9 @@ system:
 
       </p>
 
-      <p><strong>Prerequisites: </strong><a href="/wiki/Power_Specialization"
-      title="Power Specialization">Power Specialization</a>, Weapon Focus
+      <p><strong>Prerequisites:
+      </strong>@UUID[Compendium.pf1-psionics.feats.Item.K1hGI1nYARUKGEzX]{Power
+      Specialization}, Weapon Focus
 
       (ray), manifester level 12th.
 
@@ -39,7 +40,8 @@ system:
 
       bonuses on damage rolls to powers, including the one
 
-      from Power Specialization. The damage bonus applies
+      from @UUID[Compendium.pf1-psionics.feats.Item.K1hGI1nYARUKGEzX]{Power
+      Specialization}. The damage bonus applies
 
       only if the target or targets are within 30 feet.
 

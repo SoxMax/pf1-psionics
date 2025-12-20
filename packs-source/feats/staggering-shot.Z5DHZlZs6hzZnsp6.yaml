@@ -24,11 +24,9 @@ system:
     value: >-
       <p><em>Your ranged and thrown attacks stagger fearful opponents.</em></p>
 
-      <p><strong>Prerequisites:</strong><a href="/wiki/Intimidating_Shot"
-      title="Intimidating Shot">Intimidating Shot</a>, <a rel="nofollow"
-      class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank
-      Shot</a>, base attack bonus +6.
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.o1cweL3eMzdrIB63]{Intimidating
+      Shot}, @UUID[Compendium.pf1.feats.Item.8rsFtye3PwM6CKli]{Point-Blank
+      Shot}, base attack bonus +6.
 
       </p>
 

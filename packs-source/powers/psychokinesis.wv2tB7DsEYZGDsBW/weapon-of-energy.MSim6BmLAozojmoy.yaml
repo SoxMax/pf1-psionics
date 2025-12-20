@@ -39,10 +39,10 @@ system:
         value: Weapon touched
   description:
     value: >-
-      <p>As <em><a href="/wiki/Claw_of_Energy" title="Claw of Energy">claw of
-      energy</a></em>, except this power can be manifested on a touched weapon.
-      This power's subtype is the same as the type of energy infused in the
-      touched weapon.
+      <p>As @UUID[Compendium.pf1-psionics.powers.Item.rlgmiCQd0CwGHHJx]{Claw of
+      Energy}, except this power can be manifested on a touched weapon. This
+      power's subtype is the same as the type of energy infused in the touched
+      weapon.
 
       </p>
   descriptors:

@@ -25,21 +25,23 @@ system:
       <p><em>Your pretended judgments gain some true weight, promising true
       condemnation.</em></p>
 
-      <p><strong>Prerequisites:</strong><a href="/wiki/Divine_Judgment"
-      title="Divine Judgment">Divine Judgment</a>, <a
-      href="/wiki/Athanatism_(Psion_Discipline)" title="Athanatism (Psion
-      Discipline)">conduit</a> level 5th.
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.vhV4Axp2vdQsMbcz]{Divine
+      Judgment}, <a href="/wiki/Athanatism_(Psion_Discipline)" title="Athanatism
+      (Psion Discipline)">conduit</a> level 5th.
 
       </p>
 
-      <p><strong>Benefit:</strong> When you succeed on a check to use the Divine
-      Judgment feat, you may also attempt to use Intimidate to demoralize the
-      target as a free action (including the bonus from Divine Judgment). You
-      may demoralize a creature normally immune to fear or mind-affecting
-      effects in this way. Once per day, while the target is demoralized by this
-      effect, you may manifest aversion on that target as a psilike ability,
-      with a DC equal to 12 + your Charisma modifier and a manifester level
-      equal to your HD, ignoring normal immunities to mind-affecting effects.
+      <p><strong>Benefit:</strong> When you succeed on a check to use the
+      @UUID[Compendium.pf1-psionics.feats.Item.vhV4Axp2vdQsMbcz]{Divine
+      Judgment} feat, you may also attempt to use Intimidate to demoralize the
+      target as a free action (including the bonus from
+      @UUID[Compendium.pf1-psionics.feats.Item.vhV4Axp2vdQsMbcz]{Divine
+      Judgment}). You may demoralize a creature normally immune to fear or
+      mind-affecting effects in this way. Once per day, while the target is
+      demoralized by this effect, you may manifest aversion on that target as a
+      psilike ability, with a DC equal to 12 + your Charisma modifier and a
+      manifester level equal to your HD, ignoring normal immunities to
+      mind-affecting effects.
 
       </p>
 

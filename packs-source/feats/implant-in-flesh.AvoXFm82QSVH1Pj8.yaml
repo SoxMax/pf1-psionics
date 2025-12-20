@@ -25,15 +25,16 @@ system:
       <p><em>Your mental powers more effectively follow your physical
       powers.</em></p>
 
-      <p><strong>Prerequisite:</strong><a href="/wiki/Through_the_Flesh"
-      title="Through the Flesh">Through the Flesh</a>.
+      <p><strong>Prerequisite:</strong>@UUID[Compendium.pf1-psionics.feats.Item.T9Yc3VdNgLuf7JMh]{Through
+      the Flesh}.
 
       </p>
 
-      <p><strong>Benefit: </strong>When using the Through the Flesh metapsionic
-      feat, the target does not gain a save against the telepathy power if they
-      fail their save against the psychometabolism power, or if that power does
-      not allow a save.
+      <p><strong>Benefit: </strong>When using the
+      @UUID[Compendium.pf1-psionics.feats.Item.T9Yc3VdNgLuf7JMh]{Through the
+      Flesh} metapsionic feat, the target does not gain a save against the
+      telepathy power if they fail their save against the psychometabolism
+      power, or if that power does not allow a save.
 
       </p>
   disabled: false

@@ -24,12 +24,9 @@ system:
     value: >-
       <p><em>You have expanded expertise at ranged combat.</em></p>
 
-      <p><strong>Prerequisites:</strong><a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank
-      Shot</a>, <a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Precise%20Shot">Precise
-      Shot</a>, Archer path class feature, manifester level 10th, base attack
-      bonus +6
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1.feats.Item.8rsFtye3PwM6CKli]{Point-Blank
+      Shot}, @UUID[Compendium.pf1.feats.Item.53urYIbYYpQuoSLd]{Precise Shot},
+      Archer path class feature, manifester level 10th, base attack bonus +6
 
       </p>
 

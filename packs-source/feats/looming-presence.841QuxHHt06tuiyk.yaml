@@ -24,9 +24,8 @@ system:
     value: >-
       <p><em>Your mental presence pressures those under your dominion.</em></p>
 
-      <p><strong>Prerequisites:</strong><a href="/wiki/Unwilling_Participant"
-      title="Unwilling Participant">Unwilling Participant</a>, collective class
-      feature.
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.7XE0My1J5CQNd32B]{Unwilling
+      Participant}, collective class feature.
 
       </p>
 

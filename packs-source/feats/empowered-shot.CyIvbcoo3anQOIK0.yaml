@@ -24,9 +24,8 @@ system:
     value: >-
       <p><em>You can empower your ranged attacks, sending them farther.</em></p>
 
-      <p><strong>Prerequisite:</strong><a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank
-      Shot</a>.
+      <p><strong>Prerequisite:</strong>@UUID[Compendium.pf1.feats.Item.8rsFtye3PwM6CKli]{Point-Blank
+      Shot}.
 
       </p>
 

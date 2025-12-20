@@ -32,7 +32,8 @@ system:
         type: will
   description:
     value: >-
-      <p>As <em><a href="/wiki/Mindlink" title="Mindlink">mindlink</a></em>,
+      <p>As
+      @UUID[Compendium.pf1-psionics.powers.Item.3yLkMbSVKFsES3c3]{Mindlink},
       except that if the target is a psionic character or creature that knows
       powers, you can temporarily borrow a power of your choice (you are aware
       of what powers the subject knows, up to the highest level of power you can

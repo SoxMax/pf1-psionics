@@ -25,8 +25,8 @@ system:
       <p><em>You can vanish from the immediate memory of those around
       you.</em></p>
 
-      <p><strong>Prerequisites:</strong><a href="/wiki/Divert_Perception"
-      title="Divert Perception">Divert Perception</a> feat, Stealth 8 ranks.
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.7hhgkAuO8SaLEX30]{Divert
+      Perception} feat, Stealth 8 ranks.
 
       </p>
 
@@ -37,9 +37,10 @@ system:
       affected, and an affected creature can make a Will save (DC 10 + 1/2 your
       character level + your highest mental ability score modifier) to resist
       this effect. When you expend your psionic focus in order to hide at the
-      end of your movement using the Divert Perception feat, you can also use
-      this one as part of the same action, without having to expend psionic
-      focus a second time.
+      end of your movement using the
+      @UUID[Compendium.pf1-psionics.feats.Item.7hhgkAuO8SaLEX30]{Divert
+      Perception} feat, you can also use this one as part of the same action,
+      without having to expend psionic focus a second time.
 
       </p>
   disabled: false

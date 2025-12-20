@@ -26,14 +26,17 @@ system:
 
       </p>
 
-      <p><strong>Prerequisites: </strong><a href="/wiki/Overchannel"
-      title="Overchannel">Overchannel</a> or wild surge.
+      <p><strong>Prerequisites:
+      </strong>@UUID[Compendium.pf1-psionics.feats.Item.yXvYrdc5H3vWWUg0]{Overchannel}
+      or wild surge.
 
       </p>
 
       <p><strong>Benefit: </strong>Whenever you suffer psychic enervation
 
-      or use your Overchannel feat, you may select a hostile
+      or use your
+      @UUID[Compendium.pf1-psionics.feats.Item.yXvYrdc5H3vWWUg0]{Overchannel}
+      feat, you may select a hostile
 
       creature within 30 feet That creature must succeed at a
 
@@ -41,7 +44,8 @@ system:
 
       ability modifier) or suffer the effects of your psychic
 
-      enervation and/or the damage from your Overchannel
+      enervation and/or the damage from your
+      @UUID[Compendium.pf1-psionics.feats.Item.yXvYrdc5H3vWWUg0]{Overchannel}
 
       feat (you still suffer those effects yourself). This is a pain
 

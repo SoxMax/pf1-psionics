@@ -36,11 +36,9 @@ system:
       <p>Using your mastery of the spirit world, you sever a soul from the
       newly-dead. The subject must have been dead no more than 1 round/level.
       Once you have severed the soul, it cannot be returned to life or animated
-      as an undead creature by any means (including, but not limited to, <a
-      rel="nofollow" class="external text"
-      href="https://www.aonprd.com/SpellDisplay.aspx?ItemName=wish"><em>wish</em></a>
-      or <a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/SpellDisplay.aspx?ItemName=miracle"><em>miracle</em></a>).
+      as an undead creature by any means (including, but not limited to,
+      @UUID[Compendium.pf1.spells.Item.nnj51dwfkwd15ngj]{Wish} or
+      @UUID[Compendium.pf1.spells.Item.suel7sgnztenv551]{Miracle}).
 
       </p>
   discipline: athanatism

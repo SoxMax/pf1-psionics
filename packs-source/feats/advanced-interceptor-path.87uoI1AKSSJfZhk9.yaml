@@ -24,9 +24,8 @@ system:
     value: >-
       <p><em>You defend your allies with uncanny expertise.</em></p>
 
-      <p><strong>Prerequisites:</strong><a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Combat%20Expertise">Combat
-      Expertise</a>, interceptor path class feature, manifester level 10th, base
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1.feats.Item.NFxHebU1XhEs5WJh]{Combat
+      Expertise}, interceptor path class feature, manifester level 10th, base
       attack bonus +6
 
       </p>

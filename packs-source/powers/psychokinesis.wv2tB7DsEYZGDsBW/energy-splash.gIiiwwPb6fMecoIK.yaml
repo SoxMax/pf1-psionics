@@ -78,12 +78,13 @@ system:
               - electric
       description: >-
         <p>A ray of this energy type deals 1 point of damage. Manifesting a ray
-        of this energy type provides a +3 bonus on your attack roll if the target
-        is wearing metal armor and a +2 bonus on manifester level checks for the
-        purpose of overcoming power resistance. Alternately, the manifester can
-        choose to deal no damage but instead cause a relatively harmless static
-        shock. This shock is painful enough to wake someone sleeping, but is not
-        painful to interrupt concentration or spellcasting.</p>
+        of this energy type provides a +3 bonus on your attack roll if the
+        target is wearing metal armor and a +2 bonus on manifester level checks
+        for the purpose of overcoming power resistance. Alternately, the
+        manifester can choose to deal no damage but instead cause a relatively
+        harmless static shock. This shock is painful enough to wake someone
+        sleeping, but is not painful to interrupt concentration or
+        spellcasting.</p>
       duration:
         units: inst
       img: icons/magic/lightning/bolt-blue.webp

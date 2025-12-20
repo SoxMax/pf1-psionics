@@ -24,19 +24,17 @@ system:
     value: >-
       <p><em>You are an expert of unarmed combat.</em></p>
 
-      <p><strong>Prerequisites:</strong><a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Dodge">Dodge</a>,
-      <a href="/wiki/Psionic_Dodge" title="Psionic Dodge">Psionic Dodge</a>,
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1.feats.Item.JreaiTHdyWFNj3Tb]{Dodge},
+      @UUID[Compendium.pf1-psionics.feats.Item.IYaxEFQMcXGgMdpj]{Psionic Dodge},
       Ascetic path class feature, manifester level 10th, base attack bonus +6
 
       </p>
 
       <p><strong>Benefit: </strong>The competence bonus of your Ascetic trance
       now applies to both AC and saves. In addition, when using the Ascetic
-      maneuver, you can deflect one attack as if using the <a rel="nofollow"
-      class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Deflect%20Arrows">Deflect
-      Arrows</a> feat, although you may alternatively deflect a melee attack.
+      maneuver, you can deflect one attack as if using the
+      @UUID[Compendium.pf1.feats.Item.ACEQfonKVqh0fwkK]{Deflect Arrows} feat,
+      although you may alternatively deflect a melee attack.
 
       </p>
   disabled: false

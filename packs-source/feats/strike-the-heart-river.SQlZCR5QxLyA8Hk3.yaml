@@ -26,21 +26,24 @@ system:
       insight into striking a telling blow against an unprepared enemy, allowing
       you to siphon their strength away.</em></p>
 
-      <p><strong>Prerequisites:</strong><a href="/wiki/Psicrystal_Affinity"
-      title="Psicrystal Affinity">Psicrystal Affinity</a>, <a
-      href="/wiki/Psionic_Weapon" title="Psionic Weapon">Psionic Weapon</a>, <a
-      href="/wiki/Cortex_Strike" title="Cortex Strike">Cortex Strike</a>, <a
-      href="/wiki/Superior_Psicrystal" title="Superior Psicrystal">Superior
-      Psicrystal</a> (<a href="/wiki/Psicrystal_Weapon" title="Psicrystal
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.pwkovU22CjU6Z5kN]{Psicrystal
+      Affinity},
+      @UUID[Compendium.pf1-psionics.feats.Item.4YGpMFFcjNQeVzBc]{Psionic
+      Weapon}, @UUID[Compendium.pf1-psionics.feats.Item.dNb8KdrgA0rqyqvg]{Cortex
+      Strike},
+      @UUID[Compendium.pf1-psionics.feats.Item.Ev5ad7mRaA5fA5ka]{Superior
+      Psicrystal} (<a href="/wiki/Psicrystal_Weapon" title="Psicrystal
       Weapon">Psicrystal Weapon</a> variant), sneak attack +3d6.
 
       </p>
 
       <p><strong>Benefit: </strong>When you expend your psionic focus for the
-      purpose of your Psionic Weapon feat with a psicrystal weapon, you can
-      choose to not deal any damage and for every 1d6 points of sneak attack
-      damage you could do, the enemy takes 1 point of Strength damage instead.
-      This can be used even on creatures immune to sneak attacks.
+      purpose of your
+      @UUID[Compendium.pf1-psionics.feats.Item.4YGpMFFcjNQeVzBc]{Psionic Weapon}
+      feat with a psicrystal weapon, you can choose to not deal any damage and
+      for every 1d6 points of sneak attack damage you could do, the enemy takes
+      1 point of Strength damage instead. This can be used even on creatures
+      immune to sneak attacks.
 
       </p>
   disabled: false

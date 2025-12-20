@@ -24,14 +24,11 @@ system:
     value: >-
       <p><em>Your ranged attacks sometimes bypass barriers.</em></p>
 
-      <p><strong>Prerequisites:</strong> Dex 19, <a rel="nofollow"
-      class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Precise%20Shot">Improved
-      Precise Shot</a>, <a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank
-      Shot</a>, <a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Precise%20Shot">Precise
-      Shot</a>, base attack bonus +11.
+      <p><strong>Prerequisites:</strong> Dex 19,
+      @UUID[Compendium.pf1.feats.Item.h1vqUG9Kh3f7oKWK]{Improved Precise Shot},
+      @UUID[Compendium.pf1.feats.Item.8rsFtye3PwM6CKli]{Point-Blank Shot},
+      @UUID[Compendium.pf1.feats.Item.53urYIbYYpQuoSLd]{Precise Shot}, base
+      attack bonus +11.
 
       </p>
 

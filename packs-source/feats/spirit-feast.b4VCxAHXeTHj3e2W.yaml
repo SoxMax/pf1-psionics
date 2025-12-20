@@ -25,20 +25,22 @@ system:
       <p><em>You have become far more efficient in your efforts to preserve your
       life.</em></p>
 
-      <p><strong>Prerequisites:</strong><a href="/wiki/Feast_of_Folly"
-      title="Feast of Folly">Feast of Folly</a>, character level 10th.
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.c9GSotjQNAWm7SxS]{Feast
+      of Folly}, character level 10th.
 
       </p>
 
-      <p><strong>Benefit:</strong> When you use the Feast of Folly feat, you
-      heal 2 hit points for each point of ability burn taken instead of 1. If
-      you expend your psionic focus, you heal 3 per point of ability burn
-      instead.
+      <p><strong>Benefit:</strong> When you use the
+      @UUID[Compendium.pf1-psionics.feats.Item.c9GSotjQNAWm7SxS]{Feast of Folly}
+      feat, you heal 2 hit points for each point of ability burn taken instead
+      of 1. If you expend your psionic focus, you heal 3 per point of ability
+      burn instead.
 
       </p>
 
-      <p>The limit to the amount that you may heal through one use of Feast of
-      Folly increases to twice your HD.
+      <p>The limit to the amount that you may heal through one use of
+      @UUID[Compendium.pf1-psionics.feats.Item.c9GSotjQNAWm7SxS]{Feast of Folly}
+      increases to twice your HD.
 
       </p>
   disabled: false
