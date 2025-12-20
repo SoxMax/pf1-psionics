@@ -39,14 +39,58 @@ system:
       target:
         value: You
   description:
-    value: |-
-      <p>As <em>@UUID[Compendium.pf1-psionics.powers.Item.jPXWdZ5l8Tmp287E]{Metamorphosis, Minor}</em>, except you instead gain one option from enhancement menu B or one option from abilities menu B. Choices that give similar benefits to those from enhancement menu B or abilities menu B do not stack. For example, you cannot pick to gain two natural attacks from abilities menu B and also to gain a natural attack from abilities menu A to get three attacks.
+    value: >-
+      <p>As
+      <em>@UUID[Compendium.pf1-psionics.powers.Item.jPXWdZ5l8Tmp287E]{Metamorphosis,
+      Minor}</em>, except you instead gain one option from enhancement menu B or
+      one option from abilities menu B. Choices that give similar benefits to
+      those from enhancement menu B or abilities menu B do not stack. For
+      example, you cannot pick to gain two natural attacks from abilities menu B
+      and also to gain a natural attack from abilities menu A to get three
+      attacks.
+
       </p><ul><dt>Enhancement Menu B</dt></ul>
-      <ul><li>+4 enhancement bonus to Strength</li><li>+4 enhancement bonus to Dexterity</li><li>+4 enhancement bonus to Constitution</li><li>Increase your size by two size categories (+4 size bonus to Strength, -4 size penalty to Dexterity, appropriate size modifiers to AC, CMB, attack rolls, etc). This effect does not stack with other effects that increase your size.</li><li>Decrease your size by two size categories (+4 size bonus to Dexterity, -4 size penalty to Strength, appropriate size modifiers to AC, CMB, attack rolls, etc). This effect does not stack with other effects that decrease your size.</li><li>Pick 3 choices from Enhancement Menu A. You may not choose the same option twice.</li><li>Increase your base land speed by 20 feet.</li></ul>
+
+      <ul><li>+4 enhancement bonus to Strength</li><li>+4 enhancement bonus to
+      Dexterity</li><li>+4 enhancement bonus to Constitution</li><li>Increase
+      your size by two size categories (+4 size bonus to Strength, -4 size
+      penalty to Dexterity, appropriate size modifiers to AC, CMB, attack rolls,
+      etc). This effect does not stack with other effects that increase your
+      size.</li><li>Decrease your size by two size categories (+4 size bonus to
+      Dexterity, -4 size penalty to Strength, appropriate size modifiers to AC,
+      CMB, attack rolls, etc). This effect does not stack with other effects
+      that decrease your size.</li><li>Pick 3 choices from Enhancement Menu A.
+      You may not choose the same option twice.</li><li>Increase your base land
+      speed by 20 feet.</li></ul>
+
       <ul><dt>Abilities Menu B</dt></ul>
-      <ul><li>You gain two natural slam/bite/claw attacks that deal 1d8 damage (1d10 if Large).</li><li>You gain Fast Healing 2.</li><li>You gain a +3 natural armor bonus.</li><li>You gain 20 temporary hit points.</li><li>You gain the Improved Critical feat with any natural attacks you have.</li><li>You gain damage reduction 5/magic.</li><li>You gain a fly speed of 20 feet (poor).</li><li>You gain a poison attack. When you hit with a natural melee attack, the target must make a Fortitude save (DC10 + 1/2 your manifester level + your key ability modifier) or take 1 point of Constitution damage.</li><li>You can spit poison as a ranged touch attack (30 feet) as a standard action. If it hits, it deals 3d6 acid damage and the target must make a Fortitude save (DC10 + 1/2 your manifester level + your key ability score modifier) or take 1 point of Constitution damage.</li><li>You gain a swim speed of 40 feet.</li><li>You gain a climb speed of 40 feet.</li><li>You gain a burrow speed of 30 feet.</li><li>You gain 3 choices from Abilities Menu A from minor metamorphosis. You may not choose the same option twice.</li></ul>
-      <p><strong>Augment:</strong> You can augment this power in the following ways.
-      </p><ol><li>For every 4 power points you spend, you gain one choice from Enhancement Menu B and one choice from Abilities Menu B. You may not choose the same option twice.</li><li>For every 2 power points you spend, you gain one choice from Enhancement Menu A and one choice from Abilities Menu A from minor metamorphosis. You may not choose the same option twice.</li></ol>
+
+      <ul><li>You gain two natural slam/bite/claw attacks that deal 1d8 damage
+      (1d10 if Large).</li><li>You gain Fast Healing 2.</li><li>You gain a +3
+      natural armor bonus.</li><li>You gain 20 temporary hit points.</li><li>You
+      gain the Improved Critical feat with any natural attacks you
+      have.</li><li>You gain damage reduction 5/magic.</li><li>You gain a fly
+      speed of 20 feet (poor).</li><li>You gain a poison attack. When you hit
+      with a natural melee attack, the target must make a Fortitude save (DC10 +
+      1/2 your manifester level + your key ability modifier) or take 1 point of
+      Constitution damage.</li><li>You can spit poison as a ranged touch attack
+      (30 feet) as a standard action. If it hits, it deals 3d6 acid damage and
+      the target must make a Fortitude save (DC10 + 1/2 your manifester level +
+      your key ability score modifier) or take 1 point of Constitution
+      damage.</li><li>You gain a swim speed of 40 feet.</li><li>You gain a climb
+      speed of 40 feet.</li><li>You gain a burrow speed of 30 feet.</li><li>You
+      gain 3 choices from Abilities Menu A from minor metamorphosis. You may not
+      choose the same option twice.</li></ul>
+
+      <p><strong>Augment:</strong> You can augment this power in the following
+      ways.
+
+      </p><ol><li>For every 4 power points you spend, you gain one choice from
+      Enhancement Menu B and one choice from Abilities Menu B. You may not
+      choose the same option twice.</li><li>For every 2 power points you spend,
+      you gain one choice from Enhancement Menu A and one choice from Abilities
+      Menu A from minor metamorphosis. You may not choose the same option
+      twice.</li></ol>
   discipline: psychometabolism
   display:
     auditory: false

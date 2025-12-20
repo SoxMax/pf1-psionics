@@ -34,10 +34,20 @@ system:
       target:
         value: You
   description:
-    value: |-
-      <p>You specify a situation that triggers your automatic manifestation of a <em>@UUID[Compendium.pf1-psionics.powers.Item.d8NLTbCxWGkglLSM]{Psychoport}</em>, taking you to a predetermined location. You must know the psychoport power and have sufficient power points to manifest it when the specified situation occurs.
+    value: >-
+      <p>You specify a situation that triggers your automatic manifestation of a
+      <em>@UUID[Compendium.pf1-psionics.powers.Item.d8NLTbCxWGkglLSM]{Psychoport}</em>,
+      taking you to a predetermined location. You must know the psychoport power
+      and have sufficient power points to manifest it when the specified
+      situation occurs.
+
       </p>
-      <p>The psychoport trigger goes off on the initiative count immediately after the specified situation occurs, even if you are flat-footed or you have already taken your turn in the current round. The specified situation can be described in general terms or specific terms.
+
+      <p>The psychoport trigger goes off on the initiative count immediately
+      after the specified situation occurs, even if you are flat-footed or you
+      have already taken your turn in the current round. The specified situation
+      can be described in general terms or specific terms.
+
       </p>
   discipline: psychoportation
   display:

@@ -36,10 +36,29 @@ system:
       target:
         value: Ray; see text
   description:
-    value: |-
-      <p>As <em>@UUID[Compendium.pf1-psionics.powers.Item.B1T1tEAotwMAmZOw]{Energy Adaptation}</em>, except that instead of radiating away energy as light, you store up the energy and can later discharge it as a ray. To discharge a ray requires a standard action. You can choose to fire any number of rays during the power's duration. The ray you fire must be of one of the energy types you have stored (if you have stored more than one type, you can choose what kind of energy to use for each ray). If a ray successfully strikes its target (requiring a ranged touch attack), the target takes damage equal to the amount of energy damage of that type you have stored, up to a maximum of three times your manifester level. As long as this power remains in effect, you can continue to absorb energy damage and fire additional rays using the stored damage. Damage you fire in rays is subtracted from the damage you have absorbed, so you may not fire off rays if you have depleted the energy you have absorbed.
+    value: >-
+      <p>As
+      <em>@UUID[Compendium.pf1-psionics.powers.Item.B1T1tEAotwMAmZOw]{Energy
+      Adaptation}</em>, except that instead of radiating away energy as light,
+      you store up the energy and can later discharge it as a ray. To discharge
+      a ray requires a standard action. You can choose to fire any number of
+      rays during the power's duration. The ray you fire must be of one of the
+      energy types you have stored (if you have stored more than one type, you
+      can choose what kind of energy to use for each ray). If a ray successfully
+      strikes its target (requiring a ranged touch attack), the target takes
+      damage equal to the amount of energy damage of that type you have stored,
+      up to a maximum of three times your manifester level. As long as this
+      power remains in effect, you can continue to absorb energy damage and fire
+      additional rays using the stored damage. Damage you fire in rays is
+      subtracted from the damage you have absorbed, so you may not fire off rays
+      if you have depleted the energy you have absorbed.
+
       </p>
-      <p>This power's subtype is the same as the type of energy you discharge in a ray; thus, its subtype can change during the course of the power's duration.
+
+      <p>This power's subtype is the same as the type of energy you discharge in
+      a ray; thus, its subtype can change during the course of the power's
+      duration.
+
       </p>
   descriptors:
     - see text

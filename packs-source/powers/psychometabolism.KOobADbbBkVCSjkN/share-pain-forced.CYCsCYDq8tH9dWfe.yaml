@@ -36,12 +36,22 @@ system:
       target:
         value: One creature
   description:
-    value: |-
-      <p>As <em>@UUID[Compendium.pf1-psionics.powers.Item.gU1P9lhiJd96MnKc]{Share Pain}</em>, except as noted here.
+    value: >-
+      <p>As
+      <em>@UUID[Compendium.pf1-psionics.powers.Item.gU1P9lhiJd96MnKc]{Share
+      Pain}</em>, except as noted here.
+
       </p>
-      <p>You attempt to force the sharing of your wounds with an unwilling creature for less time. If you are immune to the type of damage dealt, or if you convert lethal damage into nonlethal, the target takes no damage.
+
+      <p>You attempt to force the sharing of your wounds with an unwilling
+      creature for less time. If you are immune to the type of damage dealt, or
+      if you convert lethal damage into nonlethal, the target takes no damage.
+
       </p>
-      <p><strong>Augment:</strong> For every 2 additional power points you spend, this power's save DC increases by 1.
+
+      <p><strong>Augment:</strong> For every 2 additional power points you
+      spend, this power's save DC increases by 1.
+
       </p>
   discipline: psychometabolism
   display:

@@ -29,14 +29,49 @@ system:
         harmless: false
         type: will
   description:
-    value: |-
-      <p>As <em>@UUID[Compendium.pf1-psionics.powers.Item.AELdoAZObvZ4xKUp]{Foot in the Grave}</em>, except as noted here. You permanently exchange bodies with the subject. Since this power's duration is instantaneous, you cannot be forced to return to your natural body by means of <em>@UUID[Compendium.pf1-psionics.powers.Item.VtCyfby7BYjzVDrL]{dispel psionics}</em>, an <em>@UUID[Compendium.pf1.spells.Item.niqxt53lhxrjfaty]{Antimagic Field}</em>, or a similar effect. If the subject's body dies while you are in it, you are dead. The subject immediately suffers one permanent negative level, but otherwise survives the experience in your natural body. If your natural body dies while the subject is in it, you immediately suffer two permanent negative levels, but you likewise survive the experience in your new body. Negative levels gained in this way may only be cured by powerful healing, such as cleanse spirit, greater restoration or restoration; they do not fade over time.
+    value: >-
+      <p>As <em>@UUID[Compendium.pf1-psionics.powers.Item.AELdoAZObvZ4xKUp]{Foot
+      in the Grave}</em>, except as noted here. You permanently exchange bodies
+      with the subject. Since this power's duration is instantaneous, you cannot
+      be forced to return to your natural body by means of
+      <em>@UUID[Compendium.pf1-psionics.powers.Item.VtCyfby7BYjzVDrL]{dispel
+      psionics}</em>, an
+      <em>@UUID[Compendium.pf1.spells.Item.niqxt53lhxrjfaty]{Antimagic
+      Field}</em>, or a similar effect. If the subject's body dies while you are
+      in it, you are dead. The subject immediately suffers one permanent
+      negative level, but otherwise survives the experience in your natural
+      body. If your natural body dies while the subject is in it, you
+      immediately suffer two permanent negative levels, but you likewise survive
+      the experience in your new body. Negative levels gained in this way may
+      only be cured by powerful healing, such as cleanse spirit, greater
+      restoration or restoration; they do not fade over time.
+
       </p>
-      <p>Your "natural" body is always considered to be the last one you switched out of. If you exchange bodies with a chain of multiple subjects, you need worry only about the welfare of the last body you switched with. In other words, if your mind is expelled from your current body, your mind returns to the last body you switched with, not to your original body. Similarly, if your original body dies but you have since switched minds with a second subject, you take no penalty. You suffer permanent negative levels only if the body you inhabited immediately prior to your current body is killed.
+
+      <p>Your "natural" body is always considered to be the last one you
+      switched out of. If you exchange bodies with a chain of multiple subjects,
+      you need worry only about the welfare of the last body you switched with.
+      In other words, if your mind is expelled from your current body, your mind
+      returns to the last body you switched with, not to your original body.
+      Similarly, if your original body dies but you have since switched minds
+      with a second subject, you take no penalty. You suffer permanent negative
+      levels only if the body you inhabited immediately prior to your current
+      body is killed.
+
       </p>
-      <p>You suffer two temporary negative levels upon manifesting this power, as your mind adjusts to controlling a new body. These negative levels cannot be cured, but fade at a rate of one every 24 hours.
+
+      <p>You suffer two temporary negative levels upon manifesting this power,
+      as your mind adjusts to controlling a new body. These negative levels
+      cannot be cured, but fade at a rate of one every 24 hours.
+
       </p>
-      <p>If you successfully use both feet in the grave while under the effect of foot in the grave, the original target of foot in the grave is returned to its original body, the new target of both feet in the grave occupies your original body, and you occupy the body of the target of both feet in the grave.
+
+      <p>If you successfully use both feet in the grave while under the effect
+      of foot in the grave, the original target of foot in the grave is returned
+      to its original body, the new target of both feet in the grave occupies
+      your original body, and you occupy the body of the target of both feet in
+      the grave.
+
       </p>
   discipline: athanatism
   display:

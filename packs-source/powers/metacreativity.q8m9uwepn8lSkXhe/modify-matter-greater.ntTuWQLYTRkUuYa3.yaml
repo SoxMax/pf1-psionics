@@ -25,8 +25,11 @@ system:
       target:
         value: Up to 100 cu. ft./level
   description:
-    value: |-
-      <p>As <em>@UUID[Compendium.pf1-psionics.powers.Item.S0SnZCJZZFrlBeCk]{Modify Matter}</em>, except ten times as much material is affected by the power.
+    value: >-
+      <p>As
+      <em>@UUID[Compendium.pf1-psionics.powers.Item.S0SnZCJZZFrlBeCk]{Modify
+      Matter}</em>, except ten times as much material is affected by the power.
+
       </p>
   discipline: metacreativity
   display:

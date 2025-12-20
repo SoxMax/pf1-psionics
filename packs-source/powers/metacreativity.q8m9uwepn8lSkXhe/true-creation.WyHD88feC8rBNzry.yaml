@@ -27,10 +27,19 @@ system:
       save:
         description: None
   description:
-    value: |-
-      <p>As <em>@UUID[Compendium.pf1-psionics.powers.Item.guz3vQYMlP9FTG3k]{Ectoplasmic Creation, Major}</em>, except items created are enduring and cannot be negated by dispelling magic or negating powers. For all intents and purposes, these items are completely real.
+    value: >-
+      <p>As
+      <em>@UUID[Compendium.pf1-psionics.powers.Item.guz3vQYMlP9FTG3k]{Ectoplasmic
+      Creation, Major}</em>, except items created are enduring and cannot be
+      negated by dispelling magic or negating powers. For all intents and
+      purposes, these items are completely real.
+
       </p>
-      <p>You suffer one point of ability burn to your key ability score per 5,000 gp value of the item created. You suffer no ability burn if the value of the item created is under 50 gp.
+
+      <p>You suffer one point of ability burn to your key ability score per
+      5,000 gp value of the item created. You suffer no ability burn if the
+      value of the item created is under 50 gp.
+
       </p>
   discipline: metacreativity
   display:

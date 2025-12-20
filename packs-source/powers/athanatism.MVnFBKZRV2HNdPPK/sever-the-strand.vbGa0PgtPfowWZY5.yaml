@@ -32,8 +32,14 @@ system:
       target:
         value: One corpse
   description:
-    value: |-
-      <p>Using your mastery of the spirit world, you sever a soul from the newly-dead. The subject must have been dead no more than 1 round/level. Once you have severed the soul, it cannot be returned to life or animated as an undead creature by any means (including, but not limited to, @UUID[Compendium.pf1.spells.Item.nnj51dwfkwd15ngj]{Wish} or <em>@UUID[Compendium.pf1.spells.Item.suel7sgnztenv551]{Miracle}).
+    value: >-
+      <p>Using your mastery of the spirit world, you sever a soul from the
+      newly-dead. The subject must have been dead no more than 1 round/level.
+      Once you have severed the soul, it cannot be returned to life or animated
+      as an undead creature by any means (including, but not limited to,
+      @UUID[Compendium.pf1.spells.Item.nnj51dwfkwd15ngj]{Wish} or
+      <em>@UUID[Compendium.pf1.spells.Item.suel7sgnztenv551]{Miracle}).
+
       </p>
   discipline: athanatism
   display:

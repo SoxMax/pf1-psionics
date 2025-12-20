@@ -32,10 +32,22 @@ system:
       target:
         value: You
   description:
-    value: |-
-      <p>As <em>@UUID[Compendium.pf1-psionics.powers.Item.jPXWdZ5l8Tmp287E]{Metamorphosis, Minor}</em>, except you gain two menu choices from the Enhancement Menu C and two menu choices from Abilities Menu C from major metamorphosis. As a swift action, you can change your menu choices while the duration of this power is in effect.
+    value: >-
+      <p>As
+      <em>@UUID[Compendium.pf1-psionics.powers.Item.jPXWdZ5l8Tmp287E]{Metamorphosis,
+      Minor}</em>, except you gain two menu choices from the Enhancement Menu C
+      and two menu choices from Abilities Menu C from major metamorphosis. As a
+      swift action, you can change your menu choices while the duration of this
+      power is in effect.
+
       </p>
-      <p>While under the effects of this power, you can choose to become one of the following types, with the associated benefits: aberration, dragon, fey, humanoid, magical beast or monstrous humanoid. As a swift action, you can change what type you are while the duration of this power is in effect.
+
+      <p>While under the effects of this power, you can choose to become one of
+      the following types, with the associated benefits: aberration, dragon,
+      fey, humanoid, magical beast or monstrous humanoid. As a swift action, you
+      can change what type you are while the duration of this power is in
+      effect.
+
       </p>
   discipline: psychometabolism
   display:

@@ -27,8 +27,13 @@ system:
         critMultiplier: 1
         damageBonus: 2
   description:
-    value: |-
-      <p>As <em>@UUID[Compendium.pf1-psionics.powers.Item.AJEWr4a4ThDCpB1B]{Concealing Amorpha}</em>, except the quasi-real membrane so distorts your image and actual position that you gain total concealment (opponents have a 50% miss chance), but for a shorter period of time.
+    value: >-
+      <p>As
+      <em>@UUID[Compendium.pf1-psionics.powers.Item.AJEWr4a4ThDCpB1B]{Concealing
+      Amorpha}</em>, except the quasi-real membrane so distorts your image and
+      actual position that you gain total concealment (opponents have a 50% miss
+      chance), but for a shorter period of time.
+
       </p>
   discipline: metacreativity
   display:
