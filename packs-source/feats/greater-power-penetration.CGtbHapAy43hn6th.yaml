@@ -21,28 +21,17 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
+    value: |-
       <p>Your powers are especially potent at breaking through
-
       power resistance.
-
       </p>
-
-      <p><strong>Prerequisite: </strong><a href="/wiki/Power_Penetration"
-      title="Power Penetration">Power Penetration</a>.
-
+      <p><strong>Prerequisite: </strong>@UUID[Compendium.pf1-psionics.feats.Item.ggMo04p9ruWJoqxf]{Power Penetration}.
       </p>
-
-      <p><strong>Benefit: </strong>When you use the Power Penetration feat,
-
+      <p><strong>Benefit: </strong>When you use the @UUID[Compendium.pf1-psionics.feats.Item.ggMo04p9ruWJoqxf]{Power Penetration} feat,
       the bonus on manifester level checks to overcome a
-
       creature’s power resistance increases to +4 when you
-
       maintain psionic focus, and +8 when you expend you
-
       psionic focus.
-
       </p>
   disabled: false
   featType: feat

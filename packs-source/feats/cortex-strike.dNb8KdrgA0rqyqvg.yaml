@@ -21,26 +21,11 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p><em>You have learned how to overwhelm your enemies with a burst of
-      energy just before your strike hits, allowing you to gain that final edge
-      needed to strike a telling blow.</em></p>
-
-      <p><strong>Prerequisites:</strong><a href="/wiki/Psicrystal_Affinity"
-      title="Psicrystal Affinity">Psicrystal Affinity</a>, <a
-      href="/wiki/Psionic_Weapon" title="Psionic Weapon">Psionic Weapon</a>,
-      sneak attack +2d6, <a href="/wiki/Superior_Psicrystal" title="Superior
-      Psicrystal">Superior Psicrystal</a> (<a href="/wiki/Psicrystal_Weapon"
-      title="Psicrystal Weapon">Psicrystal Weapon</a> variant).
-
+    value: |-
+      <p><em>You have learned how to overwhelm your enemies with a burst of energy just before your strike hits, allowing you to gain that final edge needed to strike a telling blow.</em></p>
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.pwkovU22CjU6Z5kN]{Psicrystal Affinity}, @UUID[Compendium.pf1-psionics.feats.Item.4YGpMFFcjNQeVzBc]{Psionic Weapon}, sneak attack +2d6, @UUID[Compendium.pf1-psionics.feats.Item.Ev5ad7mRaA5fA5ka]{Superior Psicrystal} (<a href="/wiki/Psicrystal_Weapon" title="Psicrystal Weapon">Psicrystal Weapon</a> variant).
       </p>
-
-      <p><strong>Benefit: </strong>When you expend your psionic focus for the
-      purpose of your Psionic Weapon feat with a psicrystal weapon, you can add
-      your sneak attack damage to the regular +2d6 damage this feat provides,
-      even if the creature isn’t denied its Dexterity bonus. This extra damage
-      does not affect a creature immune to sneak attacks.
-
+      <p><strong>Benefit: </strong>When you expend your psionic focus for the purpose of your @UUID[Compendium.pf1-psionics.feats.Item.4YGpMFFcjNQeVzBc]{Psionic Weapon} feat with a psicrystal weapon, you can add your sneak attack damage to the regular +2d6 damage this feat provides, even if the creature isn’t denied its Dexterity bonus. This extra damage does not affect a creature immune to sneak attacks.
       </p>
   disabled: false
   featType: feat

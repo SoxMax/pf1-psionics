@@ -21,19 +21,11 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p><em>You’ve learned to turn your evasive combat style into a potent
-      meditative technique.</em></p>
-
-      <p><strong>Prerequisites:</strong><a href="/wiki/Cloak_Dance" title="Cloak
-      Dance">Cloak Dance</a>, ability to generate a mind blade, psychic strike
-      +1d8, Acrobatics 2 ranks, Stealth 7 ranks.
-
+    value: |-
+      <p><em>You’ve learned to turn your evasive combat style into a potent meditative technique.</em></p>
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.ggKNxKp6XyRw850O]{Cloak Dance}, ability to generate a mind blade, psychic strike +1d8, Acrobatics 2 ranks, Stealth 7 ranks.
       </p>
-
-      <p><strong>Benefit</strong>: When performing a cloak dance (see the Cloak
-      Dance feat), you may charge your psychic strike.
-
+      <p><strong>Benefit</strong>: When performing a cloak dance (see the @UUID[Compendium.pf1-psionics.feats.Item.ggKNxKp6XyRw850O]{Cloak Dance} feat), you may charge your psychic strike.
       </p>
   disabled: false
   featType: feat

@@ -21,19 +21,11 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p><em>You have improved your psicrystal in one of many ways, manifesting
-      a better creature.</em></p>
-
-      <p><strong>Prerequisite:</strong><a href="/wiki/Psicrystal_Affinity"
-      title="Psicrystal Affinity">Psicrystal Affinity</a>.
-
+    value: |-
+      <p><em>You have improved your psicrystal in one of many ways, manifesting a better creature.</em></p>
+      <p><strong>Prerequisite:</strong>@UUID[Compendium.pf1-psionics.feats.Item.pwkovU22CjU6Z5kN]{Psicrystal Affinity}.
       </p>
-
-      <p><strong>Benefit: </strong>This feat grants you a choice of special <a
-      href="/wiki/Psicrystal#Alternate_Psicrystals" title="Psicrystal">Alternate
-      Psicrystals</a>.
-
+      <p><strong>Benefit: </strong>This feat grants you a choice of special <a href="/wiki/Psicrystal#Alternate_Psicrystals" title="Psicrystal">Alternate Psicrystals</a>.
       </p>
   disabled: false
   featType: feat

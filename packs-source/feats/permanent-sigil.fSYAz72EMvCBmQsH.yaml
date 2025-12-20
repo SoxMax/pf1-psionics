@@ -21,21 +21,11 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p><em>A permanent sigil on your body enhances your manifesting
-      ability.</em></p>
-
-      <p><strong>Prerequisite:</strong><a href="/wiki/Sigilist"
-      title="Sigilist">Sigilist</a>.
-
+    value: |-
+      <p><em>A permanent sigil on your body enhances your manifesting ability.</em></p>
+      <p><strong>Prerequisite:</strong>@UUID[Compendium.pf1-psionics.feats.Item.HkPb64HFrsLjeelo]{Sigilist}.
       </p>
-
-      <p><strong>Benefit: </strong>You have one or more scars, tattoos or other
-      markings that are bound to you and your power. When you manifest powers,
-      these glow and pulsate, making it impossible for you to manifest a power
-      without drawing attention. However, any power you manifest on yourself has
-      double the duration, and the DC to dispel them is 5 higher.
-
+      <p><strong>Benefit: </strong>You have one or more scars, tattoos or other markings that are bound to you and your power. When you manifest powers, these glow and pulsate, making it impossible for you to manifest a power without drawing attention. However, any power you manifest on yourself has double the duration, and the DC to dispel them is 5 higher.
       </p>
   disabled: false
   featType: feat

@@ -21,35 +21,15 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p><em>You increase your manifesting ability by penalizing the manifesting
-      and spellcasting ability of members of your collective.</em></p>
-
-      <p><strong>Prerequisites:</strong> Collective class feature, <a
-      href="/wiki/Mind_Parasite" title="Mind Parasite">Mind Parasite</a>.
-
+    value: |-
+      <p><em>You increase your manifesting ability by penalizing the manifesting and spellcasting ability of members of your collective.</em></p>
+      <p><strong>Prerequisites:</strong> Collective class feature, @UUID[Compendium.pf1-psionics.feats.Item.lPBKCtxFvagvrV6T]{Mind Parasite}.
       </p>
-
-      <p><strong>Benefit: </strong>For short moments at a time, you can drain
-      power from those in your Collective to enhance yourself. Up to 3 times per
-      day, as a swift action, you can give every member of your Collective a –1
-      penalty to their caster or manifester level and gain a +1 bonus per
-      affected member to your manifester level. This penalty does not
-
-      apply to members of your collective without a caster or manifester level.
-      Members of the collective with both a spellcaster level and manifester
-      level may choose which
-
-      receives the penalty. This increase does not allow you to augment powers
-      beyond your regular manifester level, but affects your ability to add
-      metapsionic effects, as
-
-      well as all other aspects of manifesting a power such as range, duration,
-      overcoming power resistance, and the like. Both the penalty and bonus last
-      for a number of
-
+      <p><strong>Benefit: </strong>For short moments at a time, you can drain power from those in your Collective to enhance yourself. Up to 3 times per day, as a swift action, you can give every member of your Collective a –1 penalty to their caster or manifester level and gain a +1 bonus per affected member to your manifester level. This penalty does not
+      apply to members of your collective without a caster or manifester level. Members of the collective with both a spellcaster level and manifester level may choose which
+      receives the penalty. This increase does not allow you to augment powers beyond your regular manifester level, but affects your ability to add metapsionic effects, as
+      well as all other aspects of manifesting a power such as range, duration, overcoming power resistance, and the like. Both the penalty and bonus last for a number of
       rounds equal to your key ability modifier.
-
       </p>
   disabled: false
   featType: feat

@@ -21,20 +21,11 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p><em>While focused, you enhance your form with biokinetic
-      techniques.</em></p>
-
-      <p><strong>Prerequisites:</strong><a href="/wiki/Biokinetic_Adept"
-      title="Biokinetic Adept">Biokinetic Adept</a>, <a
-      href="/wiki/Psionic_Meditation" title="Psionic Meditation">Psionic
-      Meditation</a>, Con 13.
-
+    value: |-
+      <p><em>While focused, you enhance your form with biokinetic techniques.</em></p>
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.qLrRd7qVDytFIiFV]{Biokinetic Adept}, @UUID[Compendium.pf1-psionics.feats.Item.6qtDPTlrrggGYxj7]{Psionic Meditation}, Con 13.
       </p>
-
-      <p><strong>Benefit: </strong>You gain a natural armor bonus to your AC
-      equal to your Constitution modifier while psionically focused.
-
+      <p><strong>Benefit: </strong>You gain a natural armor bonus to your AC equal to your Constitution modifier while psionically focused.
       </p>
   disabled: false
   featType: feat

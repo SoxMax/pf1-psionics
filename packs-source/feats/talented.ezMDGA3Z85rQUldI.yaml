@@ -21,39 +21,21 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
+    value: |-
       <p>You can overchannel powers with less cost to yourself.
-
       </p>
-
-      <p><strong>Prerequisite: </strong><a href="/wiki/Overchannel"
-      title="Overchannel">Overchannel</a>.
-
+      <p><strong>Prerequisite: </strong>@UUID[Compendium.pf1-psionics.feats.Item.yXvYrdc5H3vWWUg0]{Overchannel}.
       </p>
-
-      <p><strong>Benefit: </strong>To use this feat, you must expend your
-      psionic
-
+      <p><strong>Benefit: </strong>To use this feat, you must expend your psionic
       focus. When manifesting a power of 3rd level or lower,
-
       you do not take damage from overchanneling.
-
       </p>
-
       <p><br /></p>
-
       <p>You are incredibly skilled at pushing yourself beyond normal limits.
-
       </p>
-
       <p><strong>Prerequisite:</strong> Talented.
-
       </p>
-
-      <p><strong>Benefit:</strong> Add half your tier (minimum 1) to the maximum
-      power level you can use Talented on to not take damage from when
-      overchanneling. 
-
+      <p><strong>Benefit:</strong> Add half your tier (minimum 1) to the maximum power level you can use Talented on to not take damage from when overchanneling. 
       </p>
   disabled: false
   featType: feat

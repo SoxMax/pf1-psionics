@@ -21,23 +21,11 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
+    value: |-
       <p><em>You are capable of withstanding a variety of situations.</em></p>
-
-      <p><strong>Prerequisites:</strong> Con 13, <a href="/wiki/Mind_Over_Body"
-      title="Mind Over Body">Mind Over Body</a>, <a rel="nofollow"
-      class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Toughness">Toughness</a>,
-      survivor path class feature, manifester level 10th, base attack bonus +6
-
+      <p><strong>Prerequisites:</strong> Con 13, @UUID[Compendium.pf1-psionics.feats.Item.9P2mkLOSAh28f3nC]{Mind Over Body}, <a rel="nofollow" class="external text" href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Toughness">Toughness</a>, survivor path class feature, manifester level 10th, base attack bonus +6
       </p>
-
-      <p><strong>Benefit:</strong> When using the survivor trance, you gain
-      resistance to your active energy type. The resistance is equal to 5 for
-      every four psychic warrior levels you have. In addition, when using the
-      survivor maneuver, the bonus to Will saves can instead apply to Fortitude
-      saves.
-
+      <p><strong>Benefit:</strong> When using the survivor trance, you gain resistance to your active energy type. The resistance is equal to 5 for every four psychic warrior levels you have. In addition, when using the survivor maneuver, the bonus to Will saves can instead apply to Fortitude saves.
       </p>
   disabled: false
   featType: feat

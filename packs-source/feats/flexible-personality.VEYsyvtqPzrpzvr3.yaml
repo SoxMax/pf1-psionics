@@ -21,19 +21,11 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p><em>Whether because of a fluid personality or great power, you can
-      shift the shard of your personality that resides inside your
-      psicrystal.</em></p>
-
-      <p><strong>Prerequisite:</strong><a href="/wiki/Psicrystal_Affinity"
-      title="Psicrystal Affinity">Psicrystal Affinity</a>.
-
+    value: |-
+      <p><em>Whether because of a fluid personality or great power, you can shift the shard of your personality that resides inside your psicrystal.</em></p>
+      <p><strong>Prerequisite:</strong>@UUID[Compendium.pf1-psionics.feats.Item.pwkovU22CjU6Z5kN]{Psicrystal Affinity}.
       </p>
-
-      <p><strong>Benefit: </strong>As a standard action, once per day, you can
-      exchange your current psicrystal personality for another.
-
+      <p><strong>Benefit: </strong>As a standard action, once per day, you can exchange your current psicrystal personality for another.
       </p>
   disabled: false
   featType: feat

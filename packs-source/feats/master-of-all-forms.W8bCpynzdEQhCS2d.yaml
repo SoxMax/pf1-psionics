@@ -21,27 +21,16 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
+    value: |-
       <p>No longer inhibited by a single form, you are able to
-
       instantly change into the perfect shape for your current
-
       dilemma.
-
       </p>
-
-      <p><strong>Prerequisites: </strong><a href="/wiki/Swift_Shapeshifter"
-      title="Swift Shapeshifter">Swift Shapeshifter</a>, ability to manifest
-
+      <p><strong>Prerequisites: </strong>@UUID[Compendium.pf1-psionics.feats.Item.KuloyxehaZwEJumE]{Swift Shapeshifter}, ability to manifest
       <em>metamorphosis</em></p>
-
-      <p><strong>Benefit: </strong>When you manifest <em>minor
-      metamorphosis,</em><em>major metamorphosis or metamorphosis </em>the
-
+      <p><strong>Benefit: </strong>When you manifest <em>minor metamorphosis,</em><em>major metamorphosis or metamorphosis </em>the
       manifestation time is a swift action instead of a standard
-
       action.
-
       </p>
   disabled: false
   featType: feat

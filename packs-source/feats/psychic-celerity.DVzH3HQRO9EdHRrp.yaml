@@ -21,19 +21,11 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
+    value: |-
       <p><em>Your psionically-enhanced movement evolves further.</em></p>
-
-      <p><strong>Prerequisites: </strong><a href="/wiki/Psionic_Meditation"
-      title="Psionic Meditation">Psionic Meditation</a>, <a
-      href="/wiki/Speed_of_Thought" title="Speed of Thought">Speed of
-      Thought</a>.
-
+      <p><strong>Prerequisites: </strong>@UUID[Compendium.pf1-psionics.feats.Item.6qtDPTlrrggGYxj7]{Psionic Meditation}, @UUID[Compendium.pf1-psionics.feats.Item.Dr98xNmCPlKoAJkI]{Speed of Thought}.
       </p>
-
-      <p><strong>Benefit: </strong>You may expend your psionic focus to move up
-      to your speed as a swift action.
-
+      <p><strong>Benefit: </strong>You may expend your psionic focus to move up to your speed as a swift action.
       </p>
   disabled: false
   featType: feat

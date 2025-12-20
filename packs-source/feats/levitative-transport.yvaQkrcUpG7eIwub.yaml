@@ -21,65 +21,35 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
+    value: |-
       <p>You can share your gravity-defying abilities.
-
       </p>
-
-      <p><strong>Prerequisites: </strong>Elocater level 5th, <a
-      href="/wiki/Gravitic_Stability" title="Gravitic Stability">Gravitic
-      Stability</a></p>
-
+      <p><strong>Prerequisites: </strong>Elocater level 5th, @UUID[Compendium.pf1-psionics.feats.Item.AlIkoXpL8ttICja9]{Gravitic Stability}</p>
       <p><strong>Benefit: </strong>When you gain psionic focus, you may
-
       choose to share the benefit of your personal gravity,
-
       scorn earth, and terminal velocity abilities with all
-
       adjacent allies. When you move, all affected allies move
-
       with you on your turn. Allies may move around you
-
       freely on their own turns (for example, an ally in front
-
       of you could move to stand behind you), but if any ally
-
       moves more than 5 ft. away from you, the effect ends
-
       immediately for that ally. If you are attacked, you must
-
       make a concentration check as if concentrating on a
-
       2nd-level power to maintain this effect. If subjected
-
       to harsh environmental effects which would disrupt
-
       concentration (such as strong winds), you must make a
-
       concentration check once per hour of overland travel in
-
       such conditions.
-
       </p>
-
       <p>In addition, your speed is no longer reduced to 10
-
       ft. when wearing medium or heavy armor or carrying
-
       a medium load while using personal gravity or scorn
-
       earth, although your base land speed is still reduced
-
       as normal for such, unless you have an ability or trait
-
       such as a fighter’s armor training or a dwarf’s slow and
-
       steady. You may use personal gravity and scorn earth
-
       while heavily encumbered, but your movement speed
-
       is reduced to 10 ft. plus any applicable speed bonuses.
-
       </p>
   disabled: false
   featType: feat

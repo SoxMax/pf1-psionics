@@ -21,18 +21,11 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
+    value: |-
       <p><em>Your mental presence pressures those under your dominion.</em></p>
-
-      <p><strong>Prerequisites:</strong><a href="/wiki/Unwilling_Participant"
-      title="Unwilling Participant">Unwilling Participant</a>, collective class
-      feature.
-
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.7XE0My1J5CQNd32B]{Unwilling Participant}, collective class feature.
       </p>
-
-      <p><strong>Benefit: </strong>Members of your collective take a –2 penalty
-      to their attack rolls and AC against you.
-
+      <p><strong>Benefit: </strong>Members of your collective take a –2 penalty to their attack rolls and AC against you.
       </p>
   disabled: false
   featType: feat

@@ -21,90 +21,48 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
+    value: |-
       <p>You can form a collective with willing creatures; those
-
       creatures can withstand your enervation for you.
-
       </p>
-
-      <p><strong>Prerequisites: </strong><a href="/wiki/Vent_Agony" title="Vent
-      Agony">Vent Agony</a>, Autohypnosis 9 ranks.
-
+      <p><strong>Prerequisites: </strong>@UUID[Compendium.pf1-psionics.feats.Item.phuWrJ3XbPv2helO]{Vent Agony}, Autohypnosis 9 ranks.
       </p>
-
       <p><strong>Benefit: </strong>You may form a collective with which to
-
       share the pain of your psionic backlash. As a standard
-
       action, you may join any number of willing targets to
-
       your collective (up to your limit, see below). You must
-
       have line of sight to each target, each target must have a
-
       Wisdom score of at least 1, and all targets must be within
-
       Medium range (100 feet plus 10 feet per manifester
-
       level). Your collective may contain up to a number of
-
       creatures equal to your Charisma modifier. You are
-
       always considered a member of your own collective, and
-
       do not count against this limit.
-
       </p>
-
       <p>You can choose to remove a member as a free action
-
       on your turn, and any member can voluntarily leave the
-
       collective as a free action on their turn. Any member
-
       whose Wisdom drops to zero or who moves out of
-
       range of the collective is automatically removed. If a
-
       member enters a <em>null psionics field</em>, the connection to
-
       the collective is suppressed until that member leaves the
-
       field. A member who leaves the collective for any reason
-
       immediately loses any and all benefits they may have
-
       gained from being a member. You are aware of the status
-
       of this collective and can, roughly, sense the presence of
-
       each member, although beyond telling if such a creature
-
       is still a member, this has no mechanical benefit.
-
       </p>
-
       <p>Whenever you would suffer psychic enervation, a
-
       willing member of your collective may choose to suffer
-
       its effects instead of you. When you use the Overchannel
-
       feat, you may divide the damage amongst willing
-
       members of your collective in increments as small as 1
-
       die (that is, if your Overchannel feat would deal you 3d8
-
       points of damage and there are 2 willing members of
-
       your collective, you and those members each suffer 1d8
-
       points of damage). This feat counts as having a collective
-
       as a class feature for the purpose of prerequisites.
-
       </p>
   disabled: false
   featType: feat

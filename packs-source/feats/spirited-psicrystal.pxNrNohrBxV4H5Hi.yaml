@@ -21,30 +21,15 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p><em>Even after you die and return from death, your psicrystal remains
-      bonded to you.</em></p>
-
-      <p><strong>Prerequisites:</strong><a href="/wiki/Psicrystal_Affinity"
-      title="Psicrystal Affinity">Psicrystal Affinity</a>, manifester level 5th.
-
+    value: |-
+      <p><em>Even after you die and return from death, your psicrystal remains bonded to you.</em></p>
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.pwkovU22CjU6Z5kN]{Psicrystal Affinity}, manifester level 5th.
       </p>
-
-      <p><strong>Benefit:</strong> Whenever you die and are returned to life,
-      your psicrystal automatically reforms immediately. When it reforms, it
-      must have the same personality as the original.
-
+      <p><strong>Benefit:</strong> Whenever you die and are returned to life, your psicrystal automatically reforms immediately. When it reforms, it must have the same personality as the original.
       </p>
-
-      <p>In addition, having this extra bond strengthens you against further
-      peril. While your psicrystal is active, you gain a +2 bonus on saves
-      against death effects and on checks made to stabilize while you are dying.
-
+      <p>In addition, having this extra bond strengthens you against further peril. While your psicrystal is active, you gain a +2 bonus on saves against death effects and on checks made to stabilize while you are dying.
       </p>
-
-      <p><strong>Normal:</strong> When you die, your psicrystal is destroyed.
-      When your psicrystal is destroyed, it reforms after 24 hours.
-
+      <p><strong>Normal:</strong> When you die, your psicrystal is destroyed. When your psicrystal is destroyed, it reforms after 24 hours.
       </p>
   disabled: false
   featType: feat

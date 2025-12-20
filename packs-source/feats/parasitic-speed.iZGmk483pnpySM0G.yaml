@@ -21,21 +21,11 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p><em>You can steal the speed of those in your collective to move
-      faster.</em></p>
-
-      <p><strong>Prerequisites:</strong> Collective class feature, <a
-      href="/wiki/Mind_Parasite" title="Mind Parasite">Mind Parasite</a>.
-
+    value: |-
+      <p><em>You can steal the speed of those in your collective to move faster.</em></p>
+      <p><strong>Prerequisites:</strong> Collective class feature, @UUID[Compendium.pf1-psionics.feats.Item.lPBKCtxFvagvrV6T]{Mind Parasite}.
       </p>
-
-      <p><strong>Benefit: </strong>Up to 3 times per day, as a swift action, you
-      can give every member of your Collective a –5 feet penalty on their
-      movement speeds and gain a bonus to your movement speeds equal to +5 feet
-      per member. Both the penalty and bonus last for a number of rounds equal
-      to your key ability modifier.
-
+      <p><strong>Benefit: </strong>Up to 3 times per day, as a swift action, you can give every member of your Collective a –5 feet penalty on their movement speeds and gain a bonus to your movement speeds equal to +5 feet per member. Both the penalty and bonus last for a number of rounds equal to your key ability modifier.
       </p>
   disabled: false
   featType: feat

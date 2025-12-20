@@ -21,21 +21,11 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p><em>You utilize biokinetic techniques when you gain your
-      focus.</em></p>
-
-      <p><strong>Prerequisites: </strong><a href="/wiki/Psionic_Meditation"
-      title="Psionic Meditation">Psionic Meditation</a>, Con 13.
-
+    value: |-
+      <p><em>You utilize biokinetic techniques when you gain your focus.</em></p>
+      <p><strong>Prerequisites: </strong>@UUID[Compendium.pf1-psionics.feats.Item.6qtDPTlrrggGYxj7]{Psionic Meditation}, Con 13.
       </p>
-
-      <p><strong>Benefit: </strong>You may gain temporary hit points equal to
-      1/2 your manifester level whenever you gain your psionic focus. These
-      temporary hit points last for up to one minute per character level. You
-      may gain temporary hit points from this feat up to four times per day, and
-      they do not stack with themselves.
-
+      <p><strong>Benefit: </strong>You may gain temporary hit points equal to 1/2 your manifester level whenever you gain your psionic focus. These temporary hit points last for up to one minute per character level. You may gain temporary hit points from this feat up to four times per day, and they do not stack with themselves.
       </p>
   disabled: false
   featType: feat

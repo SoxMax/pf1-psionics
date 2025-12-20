@@ -21,23 +21,11 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p><em>You have learned to blend your ability to manifest powers with your
-      mind blade, using it as a conduit for some of your powers.</em></p>
-
-      <p><strong>Prerequisites:</strong><a href="/wiki/Psionic_Meditation"
-      title="Psionic Meditation">Psionic Meditation</a>, ability to generate a
-      mind blade, ability to manifest 1st-level powers.
-
+    value: |-
+      <p><em>You have learned to blend your ability to manifest powers with your mind blade, using it as a conduit for some of your powers.</em></p>
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.6qtDPTlrrggGYxj7]{Psionic Meditation}, ability to generate a mind blade, ability to manifest 1st-level powers.
       </p>
-
-      <p><strong>Benefit:</strong> You may use your mind blade to deliver touch
-      or ranged touch powers. As a standard action, you may manifest a power
-      with the range of touch or close and make a single attack, expending your
-      psionic focus. If this attack is successful, then the attack deals damage
-      from the mind blade and the effects of the power manifested with this
-      ability.
-
+      <p><strong>Benefit:</strong> You may use your mind blade to deliver touch or ranged touch powers. As a standard action, you may manifest a power with the range of touch or close and make a single attack, expending your psionic focus. If this attack is successful, then the attack deals damage from the mind blade and the effects of the power manifested with this ability.
       </p>
   disabled: false
   featType: feat

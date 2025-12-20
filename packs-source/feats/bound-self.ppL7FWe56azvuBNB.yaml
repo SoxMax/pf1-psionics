@@ -21,51 +21,21 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p><em>As a last-ditch effort, you may bind your own soul to your
-      psicrystal – preventing death at great cost.</em></p>
-
-      <p><strong>Prerequisites:</strong><a href="/wiki/Bound_Spirit"
-      title="Bound Spirit">Bound Spirit</a>, <a href="/wiki/Psicrystal_Affinity"
-      title="Psicrystal Affinity">Psicrystal Affinity</a>, <a
-      href="/wiki/Spirited_Psicrystal" title="Spirited Psicrystal">Spirited
-      Psicrystal</a>, manifester level 15th.
-
+    value: |-
+      <p><em>As a last-ditch effort, you may bind your own soul to your psicrystal – preventing death at great cost.</em></p>
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.y4s3owml0O47McPR]{Bound Spirit}, @UUID[Compendium.pf1-psionics.feats.Item.pwkovU22CjU6Z5kN]{Psicrystal Affinity}, @UUID[Compendium.pf1-psionics.feats.Item.pxNrNohrBxV4H5Hi]{Spirited Psicrystal}, manifester level 15th.
       </p>
-
-      <p><strong>Benefit:</strong> While on the edge of death, you can bind a
-      piece of yourself into your <a href="/wiki/Psicrystal"
-      title="Psicrystal">psicrystal</a> to be granted another chance. You may
-      only use Bound Self if you currently have an active psicrystal. You may
-      expend your psionic focus and gain two permanent negative levels to use
-      one of the following abilities:
-
+      <p><strong>Benefit:</strong> While on the edge of death, you can bind a piece of yourself into your <a href="/wiki/Psicrystal" title="Psicrystal">psicrystal</a> to be granted another chance. You may only use Bound Self if you currently have an active psicrystal. You may expend your psionic focus and gain two permanent negative levels to use one of the following abilities:
       </p>
-
-      <p>You may use Bound Self when you would fail a save against an effect
-      that would instantly kill you to automatically succeed on the save.
-
+      <p>You may use Bound Self when you would fail a save against an effect that would instantly kill you to automatically succeed on the save.
       </p>
-
-      <p>You may use Bound Self when you would suffer enough damage to kill you
-      to instead only suffer enough damage to reduce you to 0 hit points.
-
+      <p>You may use Bound Self when you would suffer enough damage to kill you to instead only suffer enough damage to reduce you to 0 hit points.
       </p>
-
-      <p>You may use Bound Self when you would be reduced to a Constitution
-      score of 0 to instead be reduced to a Constitution score of 1.
-
+      <p>You may use Bound Self when you would be reduced to a Constitution score of 0 to instead be reduced to a Constitution score of 1.
       </p>
-
-      <p>If your psicrystal is destroyed while you possess any negative levels
-      gained from Bound Self, you must succeed at a Fortitude save (DC equal to
-      10 + your manifester level) or die instantly.
-
+      <p>If your psicrystal is destroyed while you possess any negative levels gained from Bound Self, you must succeed at a Fortitude save (DC equal to 10 + your manifester level) or die instantly.
       </p>
-
-      <p><strong>Special:</strong> If you are immune to negative levels, you may
-      not benefit from this feat.
-
+      <p><strong>Special:</strong> If you are immune to negative levels, you may not benefit from this feat.
       </p>
   disabled: false
   featType: feat

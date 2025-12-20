@@ -21,21 +21,11 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p><em>You burn the life force of others to strengthen your
-      powers.</em></p>
-
-      <p><strong>Prerequisites:</strong><a href="/wiki/Overchannel"
-      title="Overchannel">Overchannel</a>, collective class feature.
-
+    value: |-
+      <p><em>You burn the life force of others to strengthen your powers.</em></p>
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.yXvYrdc5H3vWWUg0]{Overchannel}, collective class feature.
       </p>
-
-      <p><strong>Benefit:</strong> When you use the Overchannel feat, you can
-      instead have a member of your collective take the damage. They are allowed
-      a Will save to resist this effect (DC 10 + 1/2 manifester level + your
-      manifesting ability modifier), in which case you take the damage as
-      normal.
-
+      <p><strong>Benefit:</strong> When you use the @UUID[Compendium.pf1-psionics.feats.Item.yXvYrdc5H3vWWUg0]{Overchannel} feat, you can instead have a member of your collective take the damage. They are allowed a Will save to resist this effect (DC 10 + 1/2 manifester level + your manifesting ability modifier), in which case you take the damage as normal.
       </p>
   disabled: false
   featType: feat

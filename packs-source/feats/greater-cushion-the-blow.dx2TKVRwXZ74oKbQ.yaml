@@ -21,28 +21,16 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
+    value: |-
       <p>Your damage prevention protects your ally for longer.
-
       </p>
-
-      <p><strong>Prerequisite: </strong>Wisdom 17, <a
-      href="/wiki/Cushion_the_Blow" title="Cushion the Blow">Cushion the
-      Blow</a>,
-
-      <a href="/wiki/Improved_Cushion_the_Blow" title="Improved Cushion the
-      Blow">Improved Cushion the Blow</a>, Collective class feature,
-
+      <p><strong>Prerequisite: </strong>Wisdom 17, @UUID[Compendium.pf1-psionics.feats.Item.WpUyE5jQpixBxvgE]{Cushion the Blow},
+      <a href="/wiki/Improved_Cushion_the_Blow" title="Improved @UUID[Compendium.pf1-psionics.feats.Item.WpUyE5jQpixBxvgE]{Cushion the Blow}">Improved @UUID[Compendium.pf1-psionics.feats.Item.WpUyE5jQpixBxvgE]{Cushion the Blow}</a>, Collective class feature,
       manifester level 18th.
-
       </p>
-
-      <p><strong>Benefit: </strong>When using the Cushion the Blow feat, the
-
+      <p><strong>Benefit: </strong>When using the @UUID[Compendium.pf1-psionics.feats.Item.WpUyE5jQpixBxvgE]{Cushion the Blow} feat, the
       effect applies to all damage for that collective member
-
       until the beginning of your next turn.
-
       </p>
   disabled: false
   featType: feat

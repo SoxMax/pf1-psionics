@@ -21,27 +21,13 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
-      <p><em>As your bond to your empowered psicrystal grows, so does its
-      powers, swelling in response.</em></p>
-
-      <p><strong>Prerequisites:</strong><a href="/wiki/Psicrystal_Affinity"
-      title="Psicrystal Affinity">Psicrystal Affinity</a>, Manifester level 3rd,
-      <a href="/wiki/Superior_Psicrystal" title="Superior Psicrystal">Superior
-      Psicrystal</a> (<a href="/wiki/Empowered_Psicrystal" title="Empowered
-      Psicrystal">Empowered Psicrystal</a> variant).
-
+    value: |-
+      <p><em>As your bond to your empowered psicrystal grows, so does its powers, swelling in response.</em></p>
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.pwkovU22CjU6Z5kN]{Psicrystal Affinity}, Manifester level 3rd, @UUID[Compendium.pf1-psionics.feats.Item.Ev5ad7mRaA5fA5ka]{Superior Psicrystal} (<a href="/wiki/Empowered_Psicrystal" title="Empowered Psicrystal">Empowered Psicrystal</a> variant).
       </p>
-
-      <p><strong>Benefit: </strong>You increase the manifester level of all the
-      powers of your empowered psicrystal by 2 and gain one additional daily use
-      of each psi-like ability.
-
+      <p><strong>Benefit: </strong>You increase the manifester level of all the powers of your empowered psicrystal by 2 and gain one additional daily use of each psi-like ability.
       </p>
-
-      <p><strong>Special: </strong>This feat can be taken once for every 5
-      manifester levels the character has.
-
+      <p><strong>Special: </strong>This feat can be taken once for every 5 manifester levels the character has.
       </p>
   disabled: false
   featType: feat

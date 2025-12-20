@@ -21,23 +21,11 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: >-
+    value: |-
       <p><em>You wrap your form in the fears of your opponents.</em></p>
-
-      <p><strong>Prerequisites:</strong> Devastating touch class feature, <a
-      href="/wiki/Broken_Dreams_Style" title="Broken Dreams Style">Broken Dreams
-      Style</a>, <a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Unarmed%20Strike">Improved
-      Unarmed Strike</a>, <a href="/wiki/Shattered_Dream_Strike"
-      title="Shattered Dream Strike">Shattered Dream Strike</a>, Intimidate 9
-      ranks.
-
+      <p><strong>Prerequisites:</strong> Devastating touch class feature, @UUID[Compendium.pf1-psionics.feats.Item.89GntvDN2qUXNEdE]{Broken Dreams Style}, <a rel="nofollow" class="external text" href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Unarmed%20Strike">Improved Unarmed Strike</a>, @UUID[Compendium.pf1-psionics.feats.Item.EcnOddo2fzYX4Jck]{Shattered Dream Strike}, Intimidate 9 ranks.
       </p>
-
-      <p><strong>Benefit:</strong> While in the broken dreams style, any target
-      that is shaken treats you as concealed. In addition, while in the broken
-      dreams style, you treat shaken targets as flat-footed for unarmed attacks.
-
+      <p><strong>Benefit:</strong> While in the broken dreams style, any target that is shaken treats you as concealed. In addition, while in the broken dreams style, you treat shaken targets as flat-footed for unarmed attacks.
       </p>
   disabled: false
   featType: feat
