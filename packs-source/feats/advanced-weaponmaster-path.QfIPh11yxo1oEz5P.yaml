@@ -24,14 +24,11 @@ system:
     value: >-
       <p><em>You are a particularly dangerous opponent to duel.</em></p>
 
-      <p><strong>Prerequisites:</strong><a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Combat%20Expertise">Combat
-      Expertise</a>, <a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Disarm">Improved
-      Disarm</a>, <a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Weapon%20Focus">Weapon
-      Focus</a>, weaponmaster path class feature, manifester level 10th, base
-      attack bonus +6
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1.feats.Item.NFxHebU1XhEs5WJh]{Combat
+      Expertise}, @UUID[Compendium.pf1.feats.Item.711B9WNFgpdDKKf2]{Improved
+      Disarm}, @UUID[Compendium.pf1.feats.Item.n250dFlbykAIAg5Z]{Weapon Focus},
+      weaponmaster path class feature, manifester level 10th, base attack bonus
+      +6
 
       </p>
 

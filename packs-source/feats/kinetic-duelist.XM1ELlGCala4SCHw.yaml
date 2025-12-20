@@ -24,9 +24,8 @@ system:
     value: >-
       <p><em>You can create a second kinetic blade.</em></p>
 
-      <p><strong>Prerequisites:</strong><a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Two-Weapon%20Fighting">Two-Weapon
-      Fighting</a>, <em>kinetic blade</em> wild talent.
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1.feats.Item.Ee7JHADKEK37tTHs]{Two-Weapon
+      Fighting}, <em>kinetic blade</em> wild talent.
 
       </p>
 

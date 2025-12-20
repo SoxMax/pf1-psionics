@@ -25,10 +25,8 @@ system:
       <p><em>You’ve developed keen tactical instincts and are able to leverage
       these with both mental and physical power.</em></p>
 
-      <p><strong>Prerequisites:</strong> Wis 13; <a rel="nofollow"
-      class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Combat%20Expertise">Combat
-      Expertise</a>,
+      <p><strong>Prerequisites:</strong> Wis 13;
+      @UUID[Compendium.pf1.feats.Item.NFxHebU1XhEs5WJh]{Combat Expertise},
       @UUID[Compendium.pf1-psionics.feats.Item.JvPqfkAGFDSb2x62]{Ready
       Response}; warrior’s path class feature, manifester level 10th, base
       attack bonus +6.

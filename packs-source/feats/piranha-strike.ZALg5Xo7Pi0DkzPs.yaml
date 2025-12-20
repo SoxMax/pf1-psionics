@@ -25,9 +25,8 @@ system:
       <p><em>You make a combination of quick strikes, sacrificing accuracy for
       multiple, minor wounds that prove exceptionally deadly.</em></p>
 
-      <p><strong>Prerequisites:</strong><a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Weapon%20Finesse">Weapon
-      Finesse</a>, base attack bonus +1.
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1.feats.Item.vWiTqHC4Y3Xn1Pme]{Weapon
+      Finesse}, base attack bonus +1.
 
       </p>
 
@@ -40,10 +39,8 @@ system:
       damage rolls increases by +2. You must choose to use this feat before the
       attack roll, and its effects last until your next turn. The bonus damage
       does not apply to touch attacks or effects that do not deal hit point
-      damage. This feat cannot be used in conjunction with the <a rel="nofollow"
-      class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Power%20Attack">Power
-      Attack</a> feat.
+      damage. This feat cannot be used in conjunction with the
+      @UUID[Compendium.pf1.feats.Item.FUW5mIXHNBBIQ1Sq]{Power Attack} feat.
 
       </p><ul><li><em><strong>See:</strong><a href="/wiki/Combat_Stamina"
       title="Combat Stamina">Combat Stamina</a></em>.</li></ul>

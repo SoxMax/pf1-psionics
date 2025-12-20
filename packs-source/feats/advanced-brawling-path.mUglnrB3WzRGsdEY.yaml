@@ -24,12 +24,10 @@ system:
     value: >-
       <p><em>Your grappling abilities are particularly effective.</em></p>
 
-      <p><strong>Prerequisites:</strong><a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Grapple">Improved
-      Grapple</a>, <a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Unarmed%20Strike">Improved
-      Unarmed Strike</a>, brawling path class feature, manifester level 10th,
-      base attack bonus +6
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1.feats.Item.ZmQkRk93nbHxsQSt]{Improved
+      Grapple}, @UUID[Compendium.pf1.feats.Item.2aTFNMs3pW6nUBlr]{Improved
+      Unarmed Strike}, brawling path class feature, manifester level 10th, base
+      attack bonus +6
 
       </p>
 
