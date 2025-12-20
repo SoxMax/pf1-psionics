@@ -29,8 +29,8 @@ system:
         value: All willing creatures in range
   description:
     value: >-
-      <p>As <em>@UUID[Compendium.pf1-psionics.powers.Item.HaG8FNzUjeOpRyS6]{Time
-      Hop}</em>, except you can affect any number of willing subjects in range,
+      <p>As @UUID[Compendium.pf1-psionics.powers.Item.HaG8FNzUjeOpRyS6]{Time
+      Hop}, except you can affect any number of willing subjects in range,
       including yourself. You can choose which creatures are affected by the
       power. The subjects hop forward in time a number of hours equal to your
       manifester level, or some shorter number of hours; you decide how many

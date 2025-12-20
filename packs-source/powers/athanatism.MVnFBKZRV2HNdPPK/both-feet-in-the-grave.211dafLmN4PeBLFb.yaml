@@ -30,21 +30,20 @@ system:
         type: will
   description:
     value: >-
-      <p>As <em>@UUID[Compendium.pf1-psionics.powers.Item.AELdoAZObvZ4xKUp]{Foot
-      in the Grave}</em>, except as noted here. You permanently exchange bodies
-      with the subject. Since this power's duration is instantaneous, you cannot
-      be forced to return to your natural body by means of
-      <em>@UUID[Compendium.pf1-psionics.powers.Item.VtCyfby7BYjzVDrL]{dispel
-      psionics}</em>, an
-      <em>@UUID[Compendium.pf1.spells.Item.niqxt53lhxrjfaty]{Antimagic
-      Field}</em>, or a similar effect. If the subject's body dies while you are
-      in it, you are dead. The subject immediately suffers one permanent
-      negative level, but otherwise survives the experience in your natural
-      body. If your natural body dies while the subject is in it, you
-      immediately suffer two permanent negative levels, but you likewise survive
-      the experience in your new body. Negative levels gained in this way may
-      only be cured by powerful healing, such as cleanse spirit, greater
-      restoration or restoration; they do not fade over time.
+      <p>As @UUID[Compendium.pf1-psionics.powers.Item.AELdoAZObvZ4xKUp]{Foot in
+      the Grave}, except as noted here. You permanently exchange bodies with the
+      subject. Since this power's duration is instantaneous, you cannot be
+      forced to return to your natural body by means of
+      @UUID[Compendium.pf1-psionics.powers.Item.VtCyfby7BYjzVDrL]{dispel
+      psionics}, an @UUID[Compendium.pf1.spells.Item.niqxt53lhxrjfaty]{Antimagic
+      Field}, or a similar effect. If the subject's body dies while you are in
+      it, you are dead. The subject immediately suffers one permanent negative
+      level, but otherwise survives the experience in your natural body. If your
+      natural body dies while the subject is in it, you immediately suffer two
+      permanent negative levels, but you likewise survive the experience in your
+      new body. Negative levels gained in this way may only be cured by powerful
+      healing, such as cleanse spirit, greater restoration or restoration; they
+      do not fade over time.
 
       </p>
 

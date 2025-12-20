@@ -33,11 +33,10 @@ system:
         value: Spread with a radius of 25 ft. + 5 ft./2 levels, centered on you
   description:
     value: >-
-      <p>As
-      <em>@UUID[Compendium.pf1-psionics.powers.Item.r37lGXXCF1csQzMO]{Detect
-      Teleportation}</em>, except you can trace the destination of any psionic
-      or magical teleportation made by others within this power's area within
-      the last minute.
+      <p>As @UUID[Compendium.pf1-psionics.powers.Item.r37lGXXCF1csQzMO]{Detect
+      Teleportation}, except you can trace the destination of any psionic or
+      magical teleportation made by others within this power's area within the
+      last minute.
 
       </p>
 

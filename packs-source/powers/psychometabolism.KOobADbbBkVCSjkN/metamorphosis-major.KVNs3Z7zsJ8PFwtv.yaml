@@ -41,20 +41,19 @@ system:
   description:
     value: >-
       <p>As
-      <em>@UUID[Compendium.pf1-psionics.powers.Item.jPXWdZ5l8Tmp287E]{Metamorphosis,
-      Minor}</em>, except you instead gain one option from enhancement menu C or
-      one option from abilities menu C. Choices that give similar benefits to
-      those from enhancement menu C or abilities menu C do not stack. For
-      example, you cannot pick to gain three natural attacks from abilities menu
-      C and also to gain a natural attack from abilities menu A to get four
-      attacks.
+      @UUID[Compendium.pf1-psionics.powers.Item.jPXWdZ5l8Tmp287E]{Metamorphosis,
+      Minor}, except you instead gain one option from enhancement menu C or one
+      option from abilities menu C. Choices that give similar benefits to those
+      from enhancement menu C or abilities menu C do not stack. For example, you
+      cannot pick to gain three natural attacks from abilities menu C and also
+      to gain a natural attack from abilities menu A to get four attacks.
 
       </p><ul><dt>Enhancement Menu C</dt></ul>
 
       <ul><li>+6 enhancement bonus to Strength</li><li>+6 enhancement bonus to
       Dexterity</li><li>+6 enhancement bonus to Constitution</li><li>Pick 2
       choices from Enhancement Menu B from
-      <em>@UUID[Compendium.pf1-psionics.powers.Item.aZtlYlIu4ejIeYSu]{metamorphosis}</em>.
+      @UUID[Compendium.pf1-psionics.powers.Item.aZtlYlIu4ejIeYSu]{metamorphosis}.
       You may not choose the same option twice.</li><li>Increase your base land
       speed by 30 feet.</li></ul>
 

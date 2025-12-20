@@ -41,13 +41,12 @@ system:
   description:
     value: >-
       <p>As
-      <em>@UUID[Compendium.pf1-psionics.powers.Item.jPXWdZ5l8Tmp287E]{Metamorphosis,
-      Minor}</em>, except you instead gain one option from enhancement menu B or
-      one option from abilities menu B. Choices that give similar benefits to
-      those from enhancement menu B or abilities menu B do not stack. For
-      example, you cannot pick to gain two natural attacks from abilities menu B
-      and also to gain a natural attack from abilities menu A to get three
-      attacks.
+      @UUID[Compendium.pf1-psionics.powers.Item.jPXWdZ5l8Tmp287E]{Metamorphosis,
+      Minor}, except you instead gain one option from enhancement menu B or one
+      option from abilities menu B. Choices that give similar benefits to those
+      from enhancement menu B or abilities menu B do not stack. For example, you
+      cannot pick to gain two natural attacks from abilities menu B and also to
+      gain a natural attack from abilities menu A to get three attacks.
 
       </p><ul><dt>Enhancement Menu B</dt></ul>
 

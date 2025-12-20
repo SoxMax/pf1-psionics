@@ -24,10 +24,9 @@ system:
         damageBonus: 2
   description:
     value: >-
-      <p>As
-      <em>@UUID[Compendium.pf1-psionics.powers.Item.B1T1tEAotwMAmZOw]{Energy
-      Adaptation}</em>, except the type of energy to which you gain resistance
-      when this power is manifested is your active energy type.
+      <p>As @UUID[Compendium.pf1-psionics.powers.Item.B1T1tEAotwMAmZOw]{Energy
+      Adaptation}, except the type of energy to which you gain resistance when
+      this power is manifested is your active energy type.
 
       </p>
 

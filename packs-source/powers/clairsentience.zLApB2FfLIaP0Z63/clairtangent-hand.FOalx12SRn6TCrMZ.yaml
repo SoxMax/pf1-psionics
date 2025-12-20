@@ -36,22 +36,22 @@ system:
   description:
     value: >-
       <p>You can emulate a
-      <em>@UUID[Compendium.pf1-psionics.powers.Item.chWy4qoWuGcvvG9R]{Far
-      Hand}</em> effect at any distance while simultaneously emulating
-      <em>[[</em><a href="/wiki/Clairvoyant_Sense,_Dyne%27s" title="Clairvoyant
-      Sense, Dyne's">clairvoyant sense, dyne's</a><em>|]]</em> to target your
-      far hand; see the appropriate power descriptions. Clairtangent hand's
-      duration is up to 1 minute per level when used with a far hand effect.
+      @UUID[Compendium.pf1-psionics.powers.Item.chWy4qoWuGcvvG9R]{Far Hand}
+      effect at any distance while simultaneously emulating <em>[[</em><a
+      href="/wiki/Clairvoyant_Sense,_Dyne%27s" title="Clairvoyant Sense,
+      Dyne's">clairvoyant sense, dyne's</a><em>|]]</em> to target your far hand;
+      see the appropriate power descriptions. Clairtangent hand's duration is up
+      to 1 minute per level when used with a far hand effect.
 
       </p>
 
       <p><strong>Augment:</strong> If you spend 8 additional power points, you
       can emulate clairvoyant sense in conjunction with either
-      <em>@UUID[Compendium.pf1-psionics.powers.Item.veTLsh8gIkrysP5e]{Telekinetic
-      Force}</em> or
-      <em>@UUID[Compendium.pf1-psionics.powers.Item.ZeTWOIUGORKEs70E]{Telekinetic
-      Maneuver}</em>, but this power's duration expires as soon as any of the
-      noted telekinetic powers deals damage.
+      @UUID[Compendium.pf1-psionics.powers.Item.veTLsh8gIkrysP5e]{Telekinetic
+      Force} or
+      @UUID[Compendium.pf1-psionics.powers.Item.ZeTWOIUGORKEs70E]{Telekinetic
+      Maneuver}, but this power's duration expires as soon as any of the noted
+      telekinetic powers deals damage.
 
       </p>
   discipline: clairsentience
