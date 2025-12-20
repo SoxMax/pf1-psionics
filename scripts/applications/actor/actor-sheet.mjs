@@ -294,14 +294,14 @@ async function onBrowsePowers(event) {
 
   // Add level filter if available
   if (level !== undefined && level !== null) {
-    filters.psionicLevel = [String(level)];
+    filters.level = [String(level)];
   }
 
   // Add class filter if we have a manifester book
   if (bookId && this.actor) {
     const manifesterData = this.actor.getFlag(MODULE_ID, `manifesters.${bookId}`);
     if (manifesterData?.class) {
-      filters.psionicClass = [manifesterData.class];
+      filters.class = [manifesterData.class];
     }
   }
 
