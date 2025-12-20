@@ -20,11 +20,18 @@ system:
           type: nonaction
       damage:
         parts:
-          - formula: 4d6
+          - formula: 4d6+4
+            types:
+              - cold
+      description: >-
+        <p>A field of this energy type deals +1 point of damage per die. The
+        saving throw to reduce damage from a cold retort is a Fortitude save
+        instead of a Reflex save.</p>
       duration:
         units: minute
         value: '@cl'
-      name: Use
+      img: icons/magic/water/projectile-ice-snowball.webp
+      name: Cold
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -32,9 +39,118 @@ system:
         units: personal
         value: Personal and close (25 ft. + 5 ft./2 levels); see text
       save:
-        description: Reflex half or Fortitude half; see text;
+        description: Fortitude half
         harmless: false
         type: fort
+      tag: cold
+      target:
+        value: You and creature or object attacking you; see text
+    - _id: ElecRetort001
+      actionType: save
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      damage:
+        parts:
+          - formula: 4d6
+            types:
+              - electric
+      description: >-
+        <p>Manifesting a field of this energy type provides a +2 bonus to the
+        save DC and a +2 bonus on manifester level checks for the purpose of
+        overcoming power resistance.</p>
+      duration:
+        units: minute
+        value: '@cl'
+      img: icons/magic/lightning/orb-ball-blue.webp
+      name: Electricity
+      notes:
+        effect:
+          - +2 vs power resistance
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: personal
+        value: Personal and close (25 ft. + 5 ft./2 levels); see text
+      save:
+        dc: '2'
+        description: Reflex half
+        harmless: false
+        type: ref
+      tag: electricity
+      target:
+        value: You and creature or object attacking you; see text
+    - _id: FireRetort001
+      actionType: save
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      damage:
+        parts:
+          - formula: 4d6+4
+            types:
+              - fire
+      description: <p>A field of this energy type deals +1 point of damage per die.</p>
+      duration:
+        units: minute
+        value: '@cl'
+      img: icons/magic/fire/projectile-fireball-orange-yellow.webp
+      name: Fire
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: personal
+        value: Personal and close (25 ft. + 5 ft./2 levels); see text
+      save:
+        description: Reflex half
+        harmless: false
+        type: ref
+      tag: fire
+      target:
+        value: You and creature or object attacking you; see text
+    - _id: SonicRetort001
+      actionType: save
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      damage:
+        parts:
+          - formula: 4d6-4
+            types:
+              - sonic
+      description: >-
+        <p>A field of this energy type deals –1 point of damage per die and
+        ignores an object's hardness.</p>
+      duration:
+        units: minute
+        value: '@cl'
+      img: icons/magic/sonic/explosion-shock-wave-teal.webp
+      name: Sonic
+      notes:
+        effect:
+          - Ignores hardness
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: personal
+        value: Personal and close (25 ft. + 5 ft./2 levels); see text
+      save:
+        description: Fortitude half
+        harmless: false
+        type: fort
+      tag: sonic
       target:
         value: You and creature or object attacking you; see text
   description:

@@ -18,13 +18,29 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      augments:
+        - _id: AugColdStun001
+          cost: 1
+          effects:
+            damageBonus: 1d6+1
+            dcBonus: 0.5
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
       damage:
         parts:
-          - formula: 1d6
+          - formula: 1d6+1
+            types:
+              - cold
+      description: >-
+        <p>A stroke of this energy type deals +1 point of damage per die. The
+        saving throw to reduce damage from a cold stun is a Fortitude save
+        instead of a Reflex save.</p>
       duration:
         units: inst
-      name: Use
+      img: icons/magic/water/projectile-ice-snowball.webp
+      name: Cold
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -32,9 +48,145 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
-        description: Reflex half or Fortitude half; see text;
+        description: Fortitude half
         harmless: false
         type: fort
+      tag: cold
+      target:
+        value: 5-ft.-radius burst
+    - _id: ElecStun001
+      actionType: save
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      augments:
+        - _id: AugElecStun001
+          cost: 1
+          effects:
+            damageBonus: 1d6
+            dcBonus: 0.5
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+      damage:
+        parts:
+          - formula: 1d6
+            types:
+              - electric
+      description: >-
+        <p>Manifesting a stroke of this energy type provides a +2 bonus to the
+        save DC and a +2 bonus on manifester level checks for the purpose of
+        overcoming power resistance.</p>
+      duration:
+        units: inst
+      img: icons/magic/lightning/orb-ball-blue.webp
+      name: Electricity
+      notes:
+        effect:
+          - +2 vs power resistance
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        dc: '2'
+        description: Reflex half
+        harmless: false
+        type: ref
+      tag: electricity
+      target:
+        value: 5-ft.-radius burst
+    - _id: FireStun001
+      actionType: save
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      augments:
+        - _id: AugFireStun001
+          cost: 1
+          effects:
+            damageBonus: 1d6+1
+            dcBonus: 0.5
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+      damage:
+        parts:
+          - formula: 1d6+1
+            types:
+              - fire
+      description: <p>A stroke of this energy type deals +1 point of damage per die.</p>
+      duration:
+        units: inst
+      img: icons/magic/fire/projectile-fireball-orange-yellow.webp
+      name: Fire
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: Reflex half
+        harmless: false
+        type: ref
+      tag: fire
+      target:
+        value: 5-ft.-radius burst
+    - _id: SonicStun001
+      actionType: save
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      augments:
+        - _id: AugSonicStun001
+          cost: 1
+          effects:
+            damageBonus: 1d6-1
+            dcBonus: 0.5
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+      damage:
+        parts:
+          - formula: 1d6-1
+            types:
+              - sonic
+      description: >-
+        <p>A stroke of this energy type deals –1 point of damage per die and
+        ignores an object's hardness.</p>
+      duration:
+        units: inst
+      img: icons/magic/sonic/explosion-shock-wave-teal.webp
+      name: Sonic
+      notes:
+        effect:
+          - Ignores hardness
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: Fortitude half
+        harmless: false
+        type: fort
+      tag: sonic
       target:
         value: 5-ft.-radius burst
   description:
