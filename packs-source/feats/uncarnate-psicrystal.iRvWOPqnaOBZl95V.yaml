@@ -21,13 +21,28 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
-      <p><em>You are shedding your physical form and your psicrystal, sharing an unbreakable bond of mind and soul is walking the same path as you. It has learned to shed its physical form as you have learned to shed your body and one day it will become uncarnate just as you.</em></p>
-      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.pwkovU22CjU6Z5kN]{Psicrystal Affinity}, Shed Body class ability.
+    value: >-
+      <p><em>You are shedding your physical form and your psicrystal, sharing an
+      unbreakable bond of mind and soul is walking the same path as you. It has
+      learned to shed its physical form as you have learned to shed your body
+      and one day it will become uncarnate just as you.</em></p>
+
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.pwkovU22CjU6Z5kN]{Psicrystal
+      Affinity}, Shed Body class ability.
+
       </p>
-      <p><strong>Benefit: </strong>Your psicrystal gains the Shed Body class ability, usable as often as your ability is.
+
+      <p><strong>Benefit: </strong>Your psicrystal gains the Shed Body class
+      ability, usable as often as your ability is.
+
       </p>
-      <p><strong>Special: </strong>If you have the Uncarnate class ability, your psicrystal also gains this ability and receives a deflection bonus to AC equal to his former natural armor, which it looses while incorporeal. If you are permanently incorporeal, so does your psicrystal become and can use Shed Body to instead become corporeal.
+
+      <p><strong>Special: </strong>If you have the Uncarnate class ability, your
+      psicrystal also gains this ability and receives a deflection bonus to AC
+      equal to his former natural armor, which it looses while incorporeal. If
+      you are permanently incorporeal, so does your psicrystal become and can
+      use Shed Body to instead become corporeal.
+
       </p>
   disabled: false
   featType: feat

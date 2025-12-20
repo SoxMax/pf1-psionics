@@ -21,12 +21,24 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
-      <p><em>You can quickly exploit any weakness in the mental state of your enemies.</em></p>
-      <p><strong>Prerequisite:</strong>@UUID[Compendium.pf1-psionics.feats.Item.7XE0My1J5CQNd32B]{Unwilling Participant}.
+    value: >-
+      <p><em>You can quickly exploit any weakness in the mental state of your
+      enemies.</em></p>
+
+      <p><strong>Prerequisite:</strong>@UUID[Compendium.pf1-psionics.feats.Item.7XE0My1J5CQNd32B]{Unwilling
+      Participant}.
+
       </p>
-      <p><strong>Benefit:</strong> When a creature within the range of your @UUID[Compendium.pf1-psionics.feats.Item.7XE0My1J5CQNd32B]{Unwilling Participant} feat fails a save against an effect created by another member of your collective, you
-      can use the @UUID[Compendium.pf1-psionics.feats.Item.7XE0My1J5CQNd32B]{Unwilling Participant} feat on them as an immediate action.
+
+      <p><strong>Benefit:</strong> When a creature within the range of your
+      @UUID[Compendium.pf1-psionics.feats.Item.7XE0My1J5CQNd32B]{Unwilling
+      Participant} feat fails a save against an effect created by another member
+      of your collective, you
+
+      can use the
+      @UUID[Compendium.pf1-psionics.feats.Item.7XE0My1J5CQNd32B]{Unwilling
+      Participant} feat on them as an immediate action.
+
       </p>
   disabled: false
   featType: feat

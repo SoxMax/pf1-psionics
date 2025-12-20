@@ -21,21 +21,37 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
+    value: >-
       <p>Your psionic power reinforces your physical form.
+
       </p>
-      <p><strong>Prerequisites: </strong>@UUID[Compendium.pf1-psionics.feats.Item.14jCelSdW3Lz8pfH]{Psionic Body}, soulknife level 3
+
+      <p><strong>Prerequisites:
+      </strong>@UUID[Compendium.pf1-psionics.feats.Item.14jCelSdW3Lz8pfH]{Psionic
+      Body}, soulknife level 3
+
       </p>
+
       <p><strong>Benefit: </strong>As long as you maintain psionic focus, you
+
       gain a +1 bonus to your Fortitude saves for each psionic
+
       feat you have (including this one), to a maximum bonus
+
       of 1/3 of your soulknife class level (rounded down,
+
       minimum +1).
+
       </p>
+
       <p>You can expend your psionic focus as an immediate
+
       action to also add your Wisdom bonus to your Fortitude
+
       saves instead of your Constitution bonus until the
+
       beginning of your next turn.
+
       </p>
   disabled: false
   featType: feat

@@ -21,11 +21,20 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
-      <p><em>Your innate connection to your psicrystal is more powerful than that of an ordinary manifester, thus it can take more damage before being destroyed.</em></p>
-      <p><strong>Prerequisite:</strong>@UUID[Compendium.pf1-psionics.feats.Item.pwkovU22CjU6Z5kN]{Psicrystal Affinity}.
+    value: >-
+      <p><em>Your innate connection to your psicrystal is more powerful than
+      that of an ordinary manifester, thus it can take more damage before being
+      destroyed.</em></p>
+
+      <p><strong>Prerequisite:</strong>@UUID[Compendium.pf1-psionics.feats.Item.pwkovU22CjU6Z5kN]{Psicrystal
+      Affinity}.
+
       </p>
-      <p><strong>Benefit: </strong>Your psicrystal’s hit point total increases to be equal to your own, plus an additional 2 HP for each psionic feat you possess (including this one).
+
+      <p><strong>Benefit: </strong>Your psicrystal’s hit point total increases
+      to be equal to your own, plus an additional 2 HP for each psionic feat you
+      possess (including this one).
+
       </p>
   disabled: false
   featType: feat

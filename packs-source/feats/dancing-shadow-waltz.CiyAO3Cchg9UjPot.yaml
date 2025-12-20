@@ -21,14 +21,30 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
-      <p><em>Your evasive combat style allows you to move through danger without worry.</em></p>
-      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.ggKNxKp6XyRw850O]{Cloak Dance}, @UUID[Compendium.pf1-psionics.feats.Item.2PAn4keGRloODkpf]{Dancing Shadow Style}, ability to generate a mind blade, psychic strike +1d8, Acrobatics 5 ranks, Stealth 7 ranks.
+    value: >-
+      <p><em>Your evasive combat style allows you to move through danger without
+      worry.</em></p>
+
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.ggKNxKp6XyRw850O]{Cloak
+      Dance}, @UUID[Compendium.pf1-psionics.feats.Item.2PAn4keGRloODkpf]{Dancing
+      Shadow Style}, ability to generate a mind blade, psychic strike +1d8,
+      Acrobatics 5 ranks, Stealth 7 ranks.
+
       </p>
-      <p><strong>Benefit</strong>: When performing a cloak dance as a full round action you may move up to your base speed while gaining concealment.
+
+      <p><strong>Benefit</strong>: When performing a cloak dance as a full round
+      action you may move up to your base speed while gaining concealment.
+
       </p>
+
       <p><br /></p>
-      <p><br /></p><ul><li>This feat is erroneously categorized as a style feat in <em><a href="/wiki/Psionics_Augmented:_Soulknives_II" title="Psionics Augmented: Soulknives II">Psionics Augmented: Soulknives II</a></em>, which was fixed in <em><a href="/wiki/Psionics_Augmented:_Compilation_II" title="Psionics Augmented: Compilation II">Psionics Augmented: Compilation II</a></em>.</li></ul>
+
+      <p><br /></p><ul><li>This feat is erroneously categorized as a style feat
+      in <em><a href="/wiki/Psionics_Augmented:_Soulknives_II" title="Psionics
+      Augmented: Soulknives II">Psionics Augmented: Soulknives II</a></em>,
+      which was fixed in <em><a href="/wiki/Psionics_Augmented:_Compilation_II"
+      title="Psionics Augmented: Compilation II">Psionics Augmented: Compilation
+      II</a></em>.</li></ul>
   disabled: false
   featType: feat
   inherited: false

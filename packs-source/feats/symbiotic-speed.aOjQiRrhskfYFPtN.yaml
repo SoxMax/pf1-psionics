@@ -21,11 +21,18 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
+    value: >-
       <p><em>Your collective allows you to gain a brief burst of speed.</em></p>
-      <p><strong>Prerequisites:</strong> Collective class feature, @UUID[Compendium.pf1-psionics.feats.Item.HV2Digjgkw0nuW1p]{Mind Symbiote}.
+
+      <p><strong>Prerequisites:</strong> Collective class feature,
+      @UUID[Compendium.pf1-psionics.feats.Item.HV2Digjgkw0nuW1p]{Mind Symbiote}.
+
       </p>
-      <p><strong>Benefit: </strong>Up to 3 times per day, as a swift action, you gain a +5 feet bonus per member to your movement speed until the end of your current turn.
+
+      <p><strong>Benefit: </strong>Up to 3 times per day, as a swift action, you
+      gain a +5 feet bonus per member to your movement speed until the end of
+      your current turn.
+
       </p>
   disabled: false
   featType: feat

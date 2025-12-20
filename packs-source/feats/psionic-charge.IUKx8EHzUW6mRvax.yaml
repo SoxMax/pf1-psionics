@@ -21,25 +21,49 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
+    value: >-
       <p>You can charge in a crooked line.
+
       </p>
-      <p><strong>Prerequisite: </strong>Dex 13, @UUID[Compendium.pf1-psionics.feats.Item.Dr98xNmCPlKoAJkI]{Speed of Thought}.
+
+      <p><strong>Prerequisite: </strong>Dex 13,
+      @UUID[Compendium.pf1-psionics.feats.Item.Dr98xNmCPlKoAJkI]{Speed of
+      Thought}.
+
       </p>
-      <p><strong>Benefit: </strong>To use this feat, you must expend your psionic
+
+      <p><strong>Benefit: </strong>To use this feat, you must expend your
+      psionic
+
       focus. When you charge, you can make one turn of up to
+
       90 degrees during your movement. All other restrictions
+
       on charges still apply; for instance, you cannot pass
+
       through a square that blocks or slows movement, or that
+
       contains a creature. You must have line of sight to the
+
       opponent at the start of your turn.
+
       </p>
+
       <p><br /></p>
+
       <p>You have learned to charge a foe regardless of the path to reach him.
+
       </p>
+
       <p><strong>Prerequisite:</strong> Psionic Charge.
+
       </p>
-      <p><strong>Benefit:</strong> When using Psionic Charge, you can make a number of additional 90 degree turns equal to half your tier (minimum 1). For example, at 4th tier, you could make three 90 degree turns during a charge 
+
+      <p><strong>Benefit:</strong> When using Psionic Charge, you can make a
+      number of additional 90 degree turns equal to half your tier (minimum 1).
+      For example, at 4th tier, you could make three 90 degree turns during a
+      charge 
+
       </p>
   disabled: false
   featType: feat

@@ -21,11 +21,22 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
-      <p><em>Your collective allows you to gain a brief surge of psionic power.</em></p>
-      <p><strong>Prerequisites:</strong> Collective class feature, @UUID[Compendium.pf1-psionics.feats.Item.HV2Digjgkw0nuW1p]{Mind Symbiote}.
+    value: >-
+      <p><em>Your collective allows you to gain a brief surge of psionic
+      power.</em></p>
+
+      <p><strong>Prerequisites:</strong> Collective class feature,
+      @UUID[Compendium.pf1-psionics.feats.Item.HV2Digjgkw0nuW1p]{Mind Symbiote}.
+
       </p>
-      <p><strong>Benefit: </strong>Up to 3 times per day, as a swift action, you gain a +1 bonus to your manifester level for every member of your collective that has a caster or manifester level. This increase does not allow you to augment powers beyond your regular manifester level, but affects your ability to add metapsionics to them and all other aspects of manifested power.
+
+      <p><strong>Benefit: </strong>Up to 3 times per day, as a swift action, you
+      gain a +1 bonus to your manifester level for every member of your
+      collective that has a caster or manifester level. This increase does not
+      allow you to augment powers beyond your regular manifester level, but
+      affects your ability to add metapsionics to them and all other aspects of
+      manifested power.
+
       </p>
   disabled: false
   featType: feat

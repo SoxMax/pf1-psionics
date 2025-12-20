@@ -21,20 +21,66 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
-      <p><em>You have bound a powerful spirit to your psicrystal, gaining a servant that grows as you do.</em></p>
-      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.pwkovU22CjU6Z5kN]{Psicrystal Affinity}, manifester level 1st.
+    value: >-
+      <p><em>You have bound a powerful spirit to your psicrystal, gaining a
+      servant that grows as you do.</em></p>
+
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.pwkovU22CjU6Z5kN]{Psicrystal
+      Affinity}, manifester level 1st.
+
       </p>
-      <p><strong>Benefit:</strong> You replace your psicrystal with a three-headed psionic guardian, allying the splinter personality within it with a friendly spirit. Should your cerebric guardian be destroyed, you gain a new one in 24 hours. A new cerebric guardian must have the same personality as the original, and when created, may choose an additional two personalities. Once each day, when you would normally recover power points, you may choose which of the three personalities is active, gaining its benefits for the day.
+
+      <p><strong>Benefit:</strong> You replace your psicrystal with a
+      three-headed psionic guardian, allying the splinter personality within it
+      with a friendly spirit. Should your cerebric guardian be destroyed, you
+      gain a new one in 24 hours. A new cerebric guardian must have the same
+      personality as the original, and when created, may choose an additional
+      two personalities. Once each day, when you would normally recover power
+      points, you may choose which of the three personalities is active, gaining
+      its benefits for the day.
+
       </p>
-      <p>A cerebric guardian is treated the same as a psicrystal for the purpose of stats and advancement, with the following changes.
-      </p><ul><li><em>Piece of Mind (Ex):</em> A cerebric guardian is invisible and cannot interact with or be interacted with by any creature other than its owner. It is always treated as adjacent to its owner, and cannot be targeted by or included in any effect not originating from its owner.</li></ul>
+
+      <p>A cerebric guardian is treated the same as a psicrystal for the purpose
+      of stats and advancement, with the following changes.
+
+      </p><ul><li><em>Piece of Mind (Ex):</em> A cerebric guardian is invisible
+      and cannot interact with or be interacted with by any creature other than
+      its owner. It is always treated as adjacent to its owner, and cannot be
+      targeted by or included in any effect not originating from its
+      owner.</li></ul>
+
       <ul><li><em>This ability replaces flight.</em></li></ul>
-      <ul><li><em>Manifest Mind (Ps):</em> At 7th level, once per day, you may manifest your cerebric guardian, just as if you were using astral construct, at a manifester level equal to 1/2 your HD. You spend power points to do so as normal, to a maximum of 1/2 your HD, but this is a supernatural effect and has a duration of 1 hour. While this astral construct exists, it counts as your cerebric guardian and can deliver touch powers for you, but loses all benefits of the piece of mind ability. If your cerebric guardian is destroyed while in this form, you cannot use manifest mind again for 24 hours, you lose power points equal to your character level and are stunned for one round. This astral construct cannot venture more than 100 feet from you – if it does so, the astral construct immediately disperses, returning your cerebric guardian to its original form.</li></ul>
+
+      <ul><li><em>Manifest Mind (Ps):</em> At 7th level, once per day, you may
+      manifest your cerebric guardian, just as if you were using astral
+      construct, at a manifester level equal to 1/2 your HD. You spend power
+      points to do so as normal, to a maximum of 1/2 your HD, but this is a
+      supernatural effect and has a duration of 1 hour. While this astral
+      construct exists, it counts as your cerebric guardian and can deliver
+      touch powers for you, but loses all benefits of the piece of mind ability.
+      If your cerebric guardian is destroyed while in this form, you cannot use
+      manifest mind again for 24 hours, you lose power points equal to your
+      character level and are stunned for one round. This astral construct
+      cannot venture more than 100 feet from you – if it does so, the astral
+      construct immediately disperses, returning your cerebric guardian to its
+      original form.</li></ul>
+
       <ul><li><em>This ability modifies deliver touch powers.</em></li></ul>
-      <ul><li><em>Form of Fear (Su):</em> At 13th level, you may use manifest mind one additional time each day. When you use manifest mind, any enemy within 20 feet of the astral construct must succeed at a Will save (DC 13 + the primary manifesting ability score modifier of your highest level manifesting class) or be shaken for 5 minutes or until the cerebric guardian is no longer in astral construct form, whichever happens first.</li></ul>
+
+      <ul><li><em>Form of Fear (Su):</em> At 13th level, you may use manifest
+      mind one additional time each day. When you use manifest mind, any enemy
+      within 20 feet of the astral construct must succeed at a Will save (DC 13
+      + the primary manifesting ability score modifier of your highest level
+      manifesting class) or be shaken for 5 minutes or until the cerebric
+      guardian is no longer in astral construct form, whichever happens
+      first.</li></ul>
+
       <ul><li><em>This ability replaces sight link.</em></li></ul>
-      <ul><li><em>Channel Power (Sp):</em> This ability functions as normal, except that it only functions if the cerebric guardian is within 100 feet of you.</li></ul>
+
+      <ul><li><em>Channel Power (Sp):</em> This ability functions as normal,
+      except that it only functions if the cerebric guardian is within 100 feet
+      of you.</li></ul>
   disabled: false
   featType: feat
   inherited: false

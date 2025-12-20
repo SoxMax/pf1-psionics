@@ -21,11 +21,20 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
+    value: >-
       <p><em>You can burn away long-term damage to your body.</em></p>
-      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.qLrRd7qVDytFIiFV]{Biokinetic Adept}, Con 13, wild surge class feature.
+
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.qLrRd7qVDytFIiFV]{Biokinetic
+      Adept}, Con 13, wild surge class feature.
+
       </p>
-      <p><strong>Benefit:</strong> You may invoke your wild surge as a swift action to heal an amount of ability damage to your Strength, Dexterity, or Constitution equal to your wild surge's intensity. The first time per day that you use this feat, you do not need to check for psychic enervation. You check for psychic enervation as normal for each use thereafter.
+
+      <p><strong>Benefit:</strong> You may invoke your wild surge as a swift
+      action to heal an amount of ability damage to your Strength, Dexterity, or
+      Constitution equal to your wild surge's intensity. The first time per day
+      that you use this feat, you do not need to check for psychic enervation.
+      You check for psychic enervation as normal for each use thereafter.
+
       </p>
   disabled: false
   featType: feat

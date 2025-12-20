@@ -21,11 +21,27 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
+    value: >-
       <p><em>Your ectoplasmic mount strikes at foes you pass</em></p>
-      <p><strong>Prerequisites:</strong> Wis 13; <a rel="nofollow" class="external text" href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Mounted%20Archery">Mounted Archery</a> or <a rel="nofollow" class="external text" href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Ride-By%20Attack">Ride-By Attack</a>; @UUID[Compendium.pf1-psionics.feats.Item.1pJiRQTsLeckXqrQ]{Warrior's Focus}, Outrider path class feature, manifester level 10th, base attack bonus +6.
+
+      <p><strong>Prerequisites:</strong> Wis 13; <a rel="nofollow"
+      class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Mounted%20Archery">Mounted
+      Archery</a> or <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Ride-By%20Attack">Ride-By
+      Attack</a>;
+      @UUID[Compendium.pf1-psionics.feats.Item.1pJiRQTsLeckXqrQ]{Warrior's
+      Focus}, Outrider path class feature, manifester level 10th, base attack
+      bonus +6.
+
       </p>
-      <p><strong>Benefit:</strong> Whenever you are riding the mount from your outrider trance and its movement takes you within 5 feet of an opponent during your turn, you may deal force damage equal to your Wisdom modifier to that opponent. A given opponent can only take this damage once per round. This feat is a supernatural ability.
+
+      <p><strong>Benefit:</strong> Whenever you are riding the mount from your
+      outrider trance and its movement takes you within 5 feet of an opponent
+      during your turn, you may deal force damage equal to your Wisdom modifier
+      to that opponent. A given opponent can only take this damage once per
+      round. This feat is a supernatural ability.
+
       </p>
   disabled: false
   featType: feat

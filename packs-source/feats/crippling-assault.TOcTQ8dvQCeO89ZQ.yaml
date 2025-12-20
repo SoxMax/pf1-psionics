@@ -21,11 +21,28 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
-      <p><em>You are able to paralyze the targets of your ranged and thrown attacks.</em></p>
-      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.o1cweL3eMzdrIB63]{Intimidating Shot}, <a rel="nofollow" class="external text" href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank Shot</a>, @UUID[Compendium.pf1-psionics.feats.Item.Z5DHZlZs6hzZnsp6]{Staggering Shot}, base attack bonus +11.
+    value: >-
+      <p><em>You are able to paralyze the targets of your ranged and thrown
+      attacks.</em></p>
+
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.o1cweL3eMzdrIB63]{Intimidating
+      Shot}, <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank
+      Shot</a>,
+      @UUID[Compendium.pf1-psionics.feats.Item.Z5DHZlZs6hzZnsp6]{Staggering
+      Shot}, base attack bonus +11.
+
       </p>
-      <p><strong>Benefit:</strong> To use this feat, you must expend your psionic focus. As a standard action, you can make a ranged attack with a ranged or thrown weapon. If the attack is successful, it deals damage normally and forces the target to make a Fortitude saving throw (DC 10 + 1/2 your character level + your Wis modifier) or be paralyzed until the beginning of your next turn. This paralysis is only effective against dazed, flat-footed, paralyzed, staggered, stunned, or unconscious foes. If your attack misses, you still expend your psionic focus.
+
+      <p><strong>Benefit:</strong> To use this feat, you must expend your
+      psionic focus. As a standard action, you can make a ranged attack with a
+      ranged or thrown weapon. If the attack is successful, it deals damage
+      normally and forces the target to make a Fortitude saving throw (DC 10 +
+      1/2 your character level + your Wis modifier) or be paralyzed until the
+      beginning of your next turn. This paralysis is only effective against
+      dazed, flat-footed, paralyzed, staggered, stunned, or unconscious foes. If
+      your attack misses, you still expend your psionic focus.
+
       </p>
   disabled: false
   featType: feat

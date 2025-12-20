@@ -21,15 +21,27 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
+    value: >-
       <p>You are able to be attuned to multiple minds.
+
       </p>
-      <p><strong>Prerequisite: </strong>@UUID[Compendium.pf1-psionics.feats.Item.UYDSRuq0xmgfAed0]{Open Door}, mindlock class feature
+
+      <p><strong>Prerequisite:
+      </strong>@UUID[Compendium.pf1-psionics.feats.Item.UYDSRuq0xmgfAed0]{Open
+      Door}, mindlock class feature
+
       </p>
-      <p><strong>Benefit: </strong>You can be attuned to up to three creature for
-      the purposes of @UUID[Compendium.pf1-psionics.feats.Item.UYDSRuq0xmgfAed0]{Open Door}.
+
+      <p><strong>Benefit: </strong>You can be attuned to up to three creature
+      for
+
+      the purposes of
+      @UUID[Compendium.pf1-psionics.feats.Item.UYDSRuq0xmgfAed0]{Open Door}.
+
       </p>
+
       <p><strong>Normal: </strong>You can only be attuned to one creature.
+
       </p>
   disabled: false
   featType: feat

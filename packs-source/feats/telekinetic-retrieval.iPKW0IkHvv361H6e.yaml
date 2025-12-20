@@ -21,11 +21,20 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
-      <p><em>You are able to use your telekinetic ability to bring things back to your hand after you throw them.</em></p>
-      <p><strong>Prerequisite:</strong>@UUID[Compendium.pf1-psionics.feats.Item.1alAgTUW0zWooTO9]{Natural Telekinetic}.
+    value: >-
+      <p><em>You are able to use your telekinetic ability to bring things back
+      to your hand after you throw them.</em></p>
+
+      <p><strong>Prerequisite:</strong>@UUID[Compendium.pf1-psionics.feats.Item.1alAgTUW0zWooTO9]{Natural
+      Telekinetic}.
+
       </p>
-      <p><strong>Benefit: </strong>When throwing a thrown weapon, you can use your <em>far hand </em>psi-like ability as a swift action to recall your thrown weapon in the same round as you threw it, provided the weight of the thrown weapon is within your weight limits for the ability.
+
+      <p><strong>Benefit: </strong>When throwing a thrown weapon, you can use
+      your <em>far hand </em>psi-like ability as a swift action to recall your
+      thrown weapon in the same round as you threw it, provided the weight of
+      the thrown weapon is within your weight limits for the ability.
+
       </p>
   disabled: false
   featType: feat

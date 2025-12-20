@@ -21,11 +21,25 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
-      <p><em>You can charge your ranged attacks with additional damage potential.</em></p>
-      <p><strong>Prerequisites:</strong><a rel="nofollow" class="external text" href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank Shot</a>, @UUID[Compendium.pf1-psionics.feats.Item.SvxneaewYQNywU6M]{Psionic Shot}, base attack bonus +6.
+    value: >-
+      <p><em>You can charge your ranged attacks with additional damage
+      potential.</em></p>
+
+      <p><strong>Prerequisites:</strong><a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank
+      Shot</a>,
+      @UUID[Compendium.pf1-psionics.feats.Item.SvxneaewYQNywU6M]{Psionic Shot},
+      base attack bonus +6.
+
       </p>
-      <p><strong>Benefit: </strong>When you use the @UUID[Compendium.pf1-psionics.feats.Item.SvxneaewYQNywU6M]{Psionic Shot} feat, your ranged attack deals an extra 2 points of damage instead of 1 point of damage while you maintain psionic focus, and deal an extra 4d6 points of damage instead of an extra 2d6 points when you expend your psionic focus.
+
+      <p><strong>Benefit: </strong>When you use the
+      @UUID[Compendium.pf1-psionics.feats.Item.SvxneaewYQNywU6M]{Psionic Shot}
+      feat, your ranged attack deals an extra 2 points of damage instead of 1
+      point of damage while you maintain psionic focus, and deal an extra 4d6
+      points of damage instead of an extra 2d6 points when you expend your
+      psionic focus.
+
       </p>
   disabled: false
   featType: feat

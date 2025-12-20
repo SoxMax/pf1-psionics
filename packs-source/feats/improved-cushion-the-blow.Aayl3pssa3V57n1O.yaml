@@ -21,15 +21,27 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
+    value: >-
       <p>Your damage prevention blocks multiple attacks.
+
       </p>
-      <p><strong>Prerequisite: </strong>Wisdom 15, @UUID[Compendium.pf1-psionics.feats.Item.WpUyE5jQpixBxvgE]{Cushion the Blow},
+
+      <p><strong>Prerequisite: </strong>Wisdom 15,
+      @UUID[Compendium.pf1-psionics.feats.Item.WpUyE5jQpixBxvgE]{Cushion the
+      Blow},
+
       Collective class feature, manifester level 12th.
+
       </p>
-      <p><strong>Benefit: </strong>When using the @UUID[Compendium.pf1-psionics.feats.Item.WpUyE5jQpixBxvgE]{Cushion the Blow} feat, the
+
+      <p><strong>Benefit: </strong>When using the
+      @UUID[Compendium.pf1-psionics.feats.Item.WpUyE5jQpixBxvgE]{Cushion the
+      Blow} feat, the
+
       effect can be applied to an additional attack with a melee,
+
       ranged, or natural weapon in the same round.
+
       </p>
   disabled: false
   featType: feat

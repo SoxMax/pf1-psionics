@@ -21,11 +21,25 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
-      <p><em>You have developed finer control over of your psionic animus.</em></p>
-      <p><strong>Prerequisites:</strong> Wis 13; @UUID[Compendium.pf1-psionics.feats.Item.gJhuc0xO133qJ7qx]{Animus Potency} or @UUID[Compendium.pf1-psionics.feats.Item.wrx63rMgNKhhtUcu]{Extra Animus}; any <a href="/wiki/Metapsionic_feat" title="Metapsionic feat">metapsionic feat</a>, warrior's path class feature, manifester level 10th, base attack bonus +6.
+    value: >-
+      <p><em>You have developed finer control over of your psionic
+      animus.</em></p>
+
+      <p><strong>Prerequisites:</strong> Wis 13;
+      @UUID[Compendium.pf1-psionics.feats.Item.gJhuc0xO133qJ7qx]{Animus Potency}
+      or @UUID[Compendium.pf1-psionics.feats.Item.wrx63rMgNKhhtUcu]{Extra
+      Animus}; any <a href="/wiki/Metapsionic_feat" title="Metapsionic
+      feat">metapsionic feat</a>, warrior's path class feature, manifester level
+      10th, base attack bonus +6.
+
       </p>
-      <p>The anomalous trance benefit now applies to your touch Armor Class against powers, psi-like abilities, spells, and spell-like abilities. Additionally, when using the anomalous path maneuver, the animus provided from this ability increases from 1d4 to 1d6 at 3rd level, and from 2d4 to 2d6 at 7th level. This feat is a supernatural ability.
+
+      <p>The anomalous trance benefit now applies to your touch Armor Class
+      against powers, psi-like abilities, spells, and spell-like abilities.
+      Additionally, when using the anomalous path maneuver, the animus provided
+      from this ability increases from 1d4 to 1d6 at 3rd level, and from 2d4 to
+      2d6 at 7th level. This feat is a supernatural ability.
+
       </p>
   disabled: false
   featType: feat

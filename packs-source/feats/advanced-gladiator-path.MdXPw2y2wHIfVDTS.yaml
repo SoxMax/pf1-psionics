@@ -21,11 +21,31 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
-      <p><em>You’ve developed keen tactical instincts and are able to leverage these with both mental and physical power.</em></p>
-      <p><strong>Prerequisites:</strong> Wis 13; <a rel="nofollow" class="external text" href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Combat%20Expertise">Combat Expertise</a>, @UUID[Compendium.pf1-psionics.feats.Item.JvPqfkAGFDSb2x62]{Ready Response}; warrior’s path class feature, manifester level 10th, base attack bonus +6.
+    value: >-
+      <p><em>You’ve developed keen tactical instincts and are able to leverage
+      these with both mental and physical power.</em></p>
+
+      <p><strong>Prerequisites:</strong> Wis 13; <a rel="nofollow"
+      class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Combat%20Expertise">Combat
+      Expertise</a>,
+      @UUID[Compendium.pf1-psionics.feats.Item.JvPqfkAGFDSb2x62]{Ready
+      Response}; warrior’s path class feature, manifester level 10th, base
+      attack bonus +6.
+
       </p>
-      <p><strong>Benefit: </strong>The gladiator path trance ability allows you to tactically reposition yourself whenever you fail a combat maneuver attempt against an enemy or an enemy fails a combat maneuver attempt against you, allowing you to move up to 5 feet as a free action without provoking attacks of opportunity (even if it isn’t your turn). You may use the maneuver of this warrior’s path as part of an attack action you have made as a free action once per round. You must expend your psionic focus and you may immediately make a combat maneuver attempt (such as a disarm or grapple) as part of that attack action. This feat is a supernatural ability.
+
+      <p><strong>Benefit: </strong>The gladiator path trance ability allows you
+      to tactically reposition yourself whenever you fail a combat maneuver
+      attempt against an enemy or an enemy fails a combat maneuver attempt
+      against you, allowing you to move up to 5 feet as a free action without
+      provoking attacks of opportunity (even if it isn’t your turn). You may use
+      the maneuver of this warrior’s path as part of an attack action you have
+      made as a free action once per round. You must expend your psionic focus
+      and you may immediately make a combat maneuver attempt (such as a disarm
+      or grapple) as part of that attack action. This feat is a supernatural
+      ability.
+
       </p>
   disabled: false
   featType: feat

@@ -21,11 +21,27 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
-      <p><em>You can vanish from the immediate memory of those around you.</em></p>
-      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.7hhgkAuO8SaLEX30]{Divert Perception} feat, Stealth 8 ranks.
+    value: >-
+      <p><em>You can vanish from the immediate memory of those around
+      you.</em></p>
+
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.7hhgkAuO8SaLEX30]{Divert
+      Perception} feat, Stealth 8 ranks.
+
       </p>
-      <p><strong>Benefit:</strong> When you use Stealth to hide, you can expend your psionic focus to cause creatures within close range (25 feet + 5 feet per two character levels) to forget about you until you reappear. Only creatures who failed to see through your initial Stealth check are affected, and an affected creature can make a Will save (DC 10 + 1/2 your character level + your highest mental ability score modifier) to resist this effect. When you expend your psionic focus in order to hide at the end of your movement using the @UUID[Compendium.pf1-psionics.feats.Item.7hhgkAuO8SaLEX30]{Divert Perception} feat, you can also use this one as part of the same action, without having to expend psionic focus a second time.
+
+      <p><strong>Benefit:</strong> When you use Stealth to hide, you can expend
+      your psionic focus to cause creatures within close range (25 feet + 5 feet
+      per two character levels) to forget about you until you reappear. Only
+      creatures who failed to see through your initial Stealth check are
+      affected, and an affected creature can make a Will save (DC 10 + 1/2 your
+      character level + your highest mental ability score modifier) to resist
+      this effect. When you expend your psionic focus in order to hide at the
+      end of your movement using the
+      @UUID[Compendium.pf1-psionics.feats.Item.7hhgkAuO8SaLEX30]{Divert
+      Perception} feat, you can also use this one as part of the same action,
+      without having to expend psionic focus a second time.
+
       </p>
   disabled: false
   featType: feat

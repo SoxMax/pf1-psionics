@@ -21,10 +21,18 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
-      <p><em>You have learned how to focus the power of fear to reach enemies too far away to touch.</em></p>
-      <p><strong>Prerequisites:</strong> Devastating touch class feature, @UUID[Compendium.pf1-psionics.feats.Item.SvxneaewYQNywU6M]{Psionic Shot}</p>
-      <p><strong>Benefit:</strong> Your devastating touch ability may now also be used as a ranged touch attack with a range of close (25 ft. + 5 ft. / 2 levels).
+    value: >-
+      <p><em>You have learned how to focus the power of fear to reach enemies
+      too far away to touch.</em></p>
+
+      <p><strong>Prerequisites:</strong> Devastating touch class feature,
+      @UUID[Compendium.pf1-psionics.feats.Item.SvxneaewYQNywU6M]{Psionic
+      Shot}</p>
+
+      <p><strong>Benefit:</strong> Your devastating touch ability may now also
+      be used as a ranged touch attack with a range of close (25 ft. + 5 ft. / 2
+      levels).
+
       </p>
   disabled: false
   featType: feat

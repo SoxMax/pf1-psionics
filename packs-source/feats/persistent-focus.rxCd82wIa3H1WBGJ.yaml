@@ -21,11 +21,21 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
-      <p><em>You are always treated as maintaining psionic focus for one ability.</em></p>
-      <p><strong>Prerequisites:</strong> Wis 13, @UUID[Compendium.pf1-psionics.feats.Item.6qtDPTlrrggGYxj7]{Psionic Meditation}, Autohypnosis 4 ranks.
+    value: >-
+      <p><em>You are always treated as maintaining psionic focus for one
+      ability.</em></p>
+
+      <p><strong>Prerequisites:</strong> Wis 13,
+      @UUID[Compendium.pf1-psionics.feats.Item.6qtDPTlrrggGYxj7]{Psionic
+      Meditation}, Autohypnosis 4 ranks.
+
       </p>
-      <p><strong>Benefit: </strong>Choose one psionic ability or psionic feat that requires maintaining psionic focus. From this point forward, you are always considered psionically focused even if you expend your psionic focus for any other ability.
+
+      <p><strong>Benefit: </strong>Choose one psionic ability or psionic feat
+      that requires maintaining psionic focus. From this point forward, you are
+      always considered psionically focused even if you expend your psionic
+      focus for any other ability.
+
       </p>
   disabled: false
   featType: feat

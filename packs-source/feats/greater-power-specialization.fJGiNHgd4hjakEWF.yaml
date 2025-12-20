@@ -21,17 +21,30 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
+    value: >-
       <p>You deal more damage with your powers.
+
       </p>
-      <p><strong>Prerequisites: </strong>@UUID[Compendium.pf1-psionics.feats.Item.K1hGI1nYARUKGEzX]{Power Specialization}, Weapon Focus
+
+      <p><strong>Prerequisites:
+      </strong>@UUID[Compendium.pf1-psionics.feats.Item.K1hGI1nYARUKGEzX]{Power
+      Specialization}, Weapon Focus
+
       (ray), manifester level 12th.
+
       </p>
+
       <p><strong>Benefit: </strong>Your powers that deal damage deal an extra
+
       2 points of damage. This damage stacks with other
+
       bonuses on damage rolls to powers, including the one
-      from @UUID[Compendium.pf1-psionics.feats.Item.K1hGI1nYARUKGEzX]{Power Specialization}. The damage bonus applies
+
+      from @UUID[Compendium.pf1-psionics.feats.Item.K1hGI1nYARUKGEzX]{Power
+      Specialization}. The damage bonus applies
+
       only if the target or targets are within 30 feet.
+
       </p>
   disabled: false
   featType: feat

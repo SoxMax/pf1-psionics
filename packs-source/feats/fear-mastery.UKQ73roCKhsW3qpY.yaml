@@ -21,20 +21,35 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
+    value: >-
       <p>You have walked among true nightmares and seen
+
       into the depths of mortal fear and despair - giving you a
+
       terrible edge when it comes to weakening your enemies
+
       and bringing them to their knees, paralyzed with fear.
+
       </p>
-      <p><strong>Prerequisites: </strong>@UUID[Compendium.pf1-psionics.feats.Item.CVU6Fl1reDrfbp2B]{Psionic Endowment}, devastating touch
+
+      <p><strong>Prerequisites:
+      </strong>@UUID[Compendium.pf1-psionics.feats.Item.CVU6Fl1reDrfbp2B]{Psionic
+      Endowment}, devastating touch
+
       class feature.
+
       </p>
+
       <p><strong>Benefit: </strong>As long as you maintain psionic focus, you
+
       receive a +1 insight bonus to the save DCs of all your
+
       terrors and powers with the fear descriptor. You can
+
       expend your focus while manifesting a power or using a
+
       terror to increase this bonus to +2.
+
       </p>
   disabled: false
   featType: feat

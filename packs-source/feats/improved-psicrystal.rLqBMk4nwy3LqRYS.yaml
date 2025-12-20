@@ -21,31 +21,59 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
+    value: >-
       <p>You can upgrade your psicrystal.
+
       </p>
-      <p><strong>Prerequisites: </strong>@UUID[Compendium.pf1-psionics.feats.Item.pwkovU22CjU6Z5kN]{Psicrystal Affinity}.
+
+      <p><strong>Prerequisites:
+      </strong>@UUID[Compendium.pf1-psionics.feats.Item.pwkovU22CjU6Z5kN]{Psicrystal
+      Affinity}.
+
       </p>
+
       <p><strong>Benefit: </strong>You can implant another personality
+
       fragment in your psicrystal. You gain the benefits of both
+
       psicrystal personalities. Your psicrystal’s personality
+
       adjusts and becomes a blend between all implanted
+
       personality fragments. From now on, when determining
+
       the abilities of your psicrystal, treat your level as one
+
       higher than your normal level.
+
       </p>
+
       <p><strong>Special: </strong>You can gain this feat multiple times. Each
+
       time, you implant a new personality fragment in your
+
       psicrystal, from which you derive the noted benefits,
+
       and you treat your level as one higher for the purpose of
+
       determining your psicrystal’s abilities.
+
       </p>
+
       <p><br /></p>
-      <p>The personality fragments from your psicrystal greatly improve your abilities.
+
+      <p>The personality fragments from your psicrystal greatly improve your
+      abilities.
+
       </p>
+
       <p><strong>Prerequisite:</strong> Improved Psicrystal.
+
       </p>
-      <p><strong>Benefit:</strong> The bonus gained from all of your psicrystal personalities doubles. 
+
+      <p><strong>Benefit:</strong> The bonus gained from all of your psicrystal
+      personalities doubles. 
+
       </p>
   disabled: false
   featType: feat

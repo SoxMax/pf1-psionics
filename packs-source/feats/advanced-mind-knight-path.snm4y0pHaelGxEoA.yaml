@@ -21,11 +21,30 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
-      <p><em>You have learned enhanced techniques to make sure you are always armed and dangerous.</em></p>
-      <p><strong>Prerequisites:</strong> Wis 13, @UUID[Compendium.pf1-psionics.feats.Item.6qtDPTlrrggGYxj7]{Psionic Meditation}, @UUID[Compendium.pf1-psionics.feats.Item.SvxneaewYQNywU6M]{Psionic Shot} OR @UUID[Compendium.pf1-psionics.feats.Item.4YGpMFFcjNQeVzBc]{Psionic Weapon}, mind knight path class feature, manifester level 10th, base attack bonus +6
+    value: >-
+      <p><em>You have learned enhanced techniques to make sure you are always
+      armed and dangerous.</em></p>
+
+      <p><strong>Prerequisites:</strong> Wis 13,
+      @UUID[Compendium.pf1-psionics.feats.Item.6qtDPTlrrggGYxj7]{Psionic
+      Meditation},
+      @UUID[Compendium.pf1-psionics.feats.Item.SvxneaewYQNywU6M]{Psionic Shot}
+      OR @UUID[Compendium.pf1-psionics.feats.Item.4YGpMFFcjNQeVzBc]{Psionic
+      Weapon}, mind knight path class feature, manifester level 10th, base
+      attack bonus +6
+
       </p>
-      <p><strong>Benefit: </strong>As long as you have both mind knight path powers, you can manifest both mind knight path powers at the same time as a single standard action. Any time you manifest <a href="/wiki/Call_Weaponry" title="Call Weaponry">call weaponry</a>, you may select one other 1st level power you know; you may manifest that power using martial power as if it were a path power, as long as the attack is made using the weapon summoned. In addition, when using the mind knight maneuver, you gain a +1 competence bonus on the attack rolls for every four psychic warrior levels you have.
+
+      <p><strong>Benefit: </strong>As long as you have both mind knight path
+      powers, you can manifest both mind knight path powers at the same time as
+      a single standard action. Any time you manifest <a
+      href="/wiki/Call_Weaponry" title="Call Weaponry">call weaponry</a>, you
+      may select one other 1st level power you know; you may manifest that power
+      using martial power as if it were a path power, as long as the attack is
+      made using the weapon summoned. In addition, when using the mind knight
+      maneuver, you gain a +1 competence bonus on the attack rolls for every
+      four psychic warrior levels you have.
+
       </p>
   disabled: false
   featType: feat

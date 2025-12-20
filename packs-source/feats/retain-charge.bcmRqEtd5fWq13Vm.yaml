@@ -21,11 +21,37 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
-      <p><em>You have mastered a way to retain you charge through multiple attacks, but only when you drop foes so that you can siphon away their mental powers to feed the charge.</em></p>
-      <p><strong>Prerequisites:</strong> Str 13, <a rel="nofollow" class="external text" href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Cleave">Cleave</a>, <a rel="nofollow" class="external text" href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Power%20Attack">Power Attack</a>, @UUID[Compendium.pf1-psionics.feats.Item.pwkovU22CjU6Z5kN]{Psicrystal Affinity}, @UUID[Compendium.pf1-psionics.feats.Item.4YGpMFFcjNQeVzBc]{Psionic Weapon}, @UUID[Compendium.pf1-psionics.feats.Item.Ev5ad7mRaA5fA5ka]{Superior Psicrystal} (<a href="/wiki/Psicrystal_Weapon" title="Psicrystal Weapon">Psicrystal Weapon</a> variant).
+    value: >-
+      <p><em>You have mastered a way to retain you charge through multiple
+      attacks, but only when you drop foes so that you can siphon away their
+      mental powers to feed the charge.</em></p>
+
+      <p><strong>Prerequisites:</strong> Str 13, <a rel="nofollow"
+      class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Cleave">Cleave</a>,
+      <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Power%20Attack">Power
+      Attack</a>,
+      @UUID[Compendium.pf1-psionics.feats.Item.pwkovU22CjU6Z5kN]{Psicrystal
+      Affinity},
+      @UUID[Compendium.pf1-psionics.feats.Item.4YGpMFFcjNQeVzBc]{Psionic
+      Weapon},
+      @UUID[Compendium.pf1-psionics.feats.Item.Ev5ad7mRaA5fA5ka]{Superior
+      Psicrystal} (<a href="/wiki/Psicrystal_Weapon" title="Psicrystal
+      Weapon">Psicrystal Weapon</a> variant).
+
       </p>
-      <p><strong>Benefit: </strong>If you expend your focus for the purpose of @UUID[Compendium.pf1-psionics.feats.Item.4YGpMFFcjNQeVzBc]{Psionic Weapon} (or <a href="/wiki/Greater_Psionic_Weapon" title="Greater @UUID[Compendium.pf1-psionics.feats.Item.4YGpMFFcjNQeVzBc]{Psionic Weapon}">Greater @UUID[Compendium.pf1-psionics.feats.Item.4YGpMFFcjNQeVzBc]{Psionic Weapon}</a>), you retain the extra damage on all extra attacks from the Cleave (or Great Cleave) feat when making an attack with a psicrystal weapon.
+
+      <p><strong>Benefit: </strong>If you expend your focus for the purpose of
+      @UUID[Compendium.pf1-psionics.feats.Item.4YGpMFFcjNQeVzBc]{Psionic Weapon}
+      (or <a href="/wiki/Greater_Psionic_Weapon" title="Greater
+      @UUID[Compendium.pf1-psionics.feats.Item.4YGpMFFcjNQeVzBc]{Psionic
+      Weapon}">Greater
+      @UUID[Compendium.pf1-psionics.feats.Item.4YGpMFFcjNQeVzBc]{Psionic
+      Weapon}</a>), you retain the extra damage on all extra attacks from the
+      Cleave (or Great Cleave) feat when making an attack with a psicrystal
+      weapon.
+
       </p>
   disabled: false
   featType: feat

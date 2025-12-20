@@ -21,11 +21,25 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
-      <p><em>The splinter of your personality embedded into your Psicrystal holds part of your psionic potential within itself, allowing it to act as a receptacle for a little of your psionic power.</em></p>
-      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.pwkovU22CjU6Z5kN]{Psicrystal Affinity}, @UUID[Compendium.pf1-psionics.feats.Item.V1CagkWoRvEsPXhr]{Psicrystal Containment}.
+    value: >-
+      <p><em>The splinter of your personality embedded into your Psicrystal
+      holds part of your psionic potential within itself, allowing it to act as
+      a receptacle for a little of your psionic power.</em></p>
+
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.pwkovU22CjU6Z5kN]{Psicrystal
+      Affinity},
+      @UUID[Compendium.pf1-psionics.feats.Item.V1CagkWoRvEsPXhr]{Psicrystal
+      Containment}.
+
       </p>
-      <p><strong>Benefit:</strong> Your psicrystal gains the ability to refocus itself even without a power point pool, as long as you retain power points. This allows it to refocus itself for the purpose of your Containment feat instead of having you focus it. This also means that the psicrystal can utilize feats which require it to hold or expend psionic focus.
+
+      <p><strong>Benefit:</strong> Your psicrystal gains the ability to refocus
+      itself even without a power point pool, as long as you retain power
+      points. This allows it to refocus itself for the purpose of your
+      Containment feat instead of having you focus it. This also means that the
+      psicrystal can utilize feats which require it to hold or expend psionic
+      focus.
+
       </p>
   disabled: false
   featType: feat

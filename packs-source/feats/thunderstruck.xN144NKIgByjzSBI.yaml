@@ -21,15 +21,40 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
+    value: >-
       <p><em>Your music carries the fury of the elements.</em></p>
-      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.2A1H93asF4MbnpRx]{Fire Starter}, inspire courage class feature.
+
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.2A1H93asF4MbnpRx]{Fire
+      Starter}, inspire courage class feature.
+
       </p>
-      <p><strong>Benefit:</strong> When you use your inspire courage ability, you can choose to imbue the attacks of affected allies with elemental energy, rather than giving them a bonus on attack and weapon damage rolls. This choice is made when you activate the ability, and choice applies to affected allies.
+
+      <p><strong>Benefit:</strong> When you use your inspire courage ability,
+      you can choose to imbue the attacks of affected allies with elemental
+      energy, rather than giving them a bonus on attack and weapon damage rolls.
+      This choice is made when you activate the ability, and choice applies to
+      affected allies.
+
       </p>
-      <p>An affected ally does not gain the normal competence bonus on attack and weapon damage rolls, and instead deals additional 1d6 damage with their weapons for each point of competence bonus that your inspire courage would normally grant. The type of this damage depends on your primary element. This feat is a supernatural ability.
-      </p><ul><li><em>Aether:</em> The weapon's normal damage type.</li><li><em>Air:</em> Electricity.</li><li><em>Earth:</em> Sonic.</li><li><em>Fire:</em> Fire.</li><li><em>Water:</em> Cold.</li><li><em>Void:</em> Bludgeoning.</li><li><em>Wood:</em> Positive energy.</li></ul>
-      <p><strong>Special:</strong> If you do not have a primary element or if your primary element is not on the above list, then this feat's additional damage type defaults to electricity. At the GM's option, you can use a different damage type from the list (or an entirely new one) based on your primary element.
+
+      <p>An affected ally does not gain the normal competence bonus on attack
+      and weapon damage rolls, and instead deals additional 1d6 damage with
+      their weapons for each point of competence bonus that your inspire courage
+      would normally grant. The type of this damage depends on your primary
+      element. This feat is a supernatural ability.
+
+      </p><ul><li><em>Aether:</em> The weapon's normal damage
+      type.</li><li><em>Air:</em> Electricity.</li><li><em>Earth:</em>
+      Sonic.</li><li><em>Fire:</em> Fire.</li><li><em>Water:</em>
+      Cold.</li><li><em>Void:</em> Bludgeoning.</li><li><em>Wood:</em> Positive
+      energy.</li></ul>
+
+      <p><strong>Special:</strong> If you do not have a primary element or if
+      your primary element is not on the above list, then this feat's additional
+      damage type defaults to electricity. At the GM's option, you can use a
+      different damage type from the list (or an entirely new one) based on your
+      primary element.
+
       </p>
   disabled: false
   featType: feat

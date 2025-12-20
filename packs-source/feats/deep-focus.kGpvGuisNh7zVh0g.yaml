@@ -21,34 +21,69 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
+    value: >-
       <p>You have learned to focus your subconscious mind
+
       even while awake.
+
       </p>
-      <p><strong>Prerequisites: </strong>@UUID[Compendium.pf1-psionics.feats.Item.14jCelSdW3Lz8pfH]{Psionic Body}, Autohypnosis 4 ranks.
+
+      <p><strong>Prerequisites:
+      </strong>@UUID[Compendium.pf1-psionics.feats.Item.14jCelSdW3Lz8pfH]{Psionic
+      Body}, Autohypnosis 4 ranks.
+
       </p>
+
       <p><strong>Benefit: </strong>You can psionically focus your subconscious
+
       in the same manner in which you gain psionic focus
+
       normally. At any time when you need to expend your
+
       psionic focus, you can expend your subconscious’s
+
       psionic focus instead. At any time when you need
+
       to maintain psionic focus for an effect, you can use
+
       your subconscious’s psionic focus instead. Psionically
+
       focusing your subconscious works just like focusing
+
       your conscious mind.
+
       </p>
+
       <p><strong>Special: </strong>You cannot benefit from both Psicrystal
+
       Containment and Deep Focus at the same time. If you
+
       have both feats, you may only have your psicrystal or
+
       your subconscious maintaining psionic focus at any
+
       given time.
+
       </p>
+
       <p><br /></p>
+
       <p>Your subconscious mind’s focus is improved.
+
       </p>
+
       <p><strong>Prerequisite:</strong> Deep Focus.
+
       </p>
-      <p><strong>Benefit:</strong> As long as you have at least one use of mythic power remaining or one power point remaining in your power point pool, you are always treated as if you are maintaining psionic focus for abilities powered by maintaining psionic focus. You may still only expend your psionic focus if you are actually maintaining psionic focus. In addition, you can expend a use of mythic power as a swift action to regain both your own and the psionic focus provided by Deep Focus. 
+
+      <p><strong>Benefit:</strong> As long as you have at least one use of
+      mythic power remaining or one power point remaining in your power point
+      pool, you are always treated as if you are maintaining psionic focus for
+      abilities powered by maintaining psionic focus. You may still only expend
+      your psionic focus if you are actually maintaining psionic focus. In
+      addition, you can expend a use of mythic power as a swift action to regain
+      both your own and the psionic focus provided by Deep Focus. 
+
       </p>
   disabled: false
   featType: feat

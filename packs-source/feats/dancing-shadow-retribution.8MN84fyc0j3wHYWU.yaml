@@ -21,14 +21,35 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
-      <p><em>You have mastered the cloak dancer’s evasive combat style, blending in lightning fast strikes to your defensive dance.</em></p>
-      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.ggKNxKp6XyRw850O]{Cloak Dance}, @UUID[Compendium.pf1-psionics.feats.Item.2PAn4keGRloODkpf]{Dancing Shadow Style}, @UUID[Compendium.pf1-psionics.feats.Item.CiyAO3Cchg9UjPot]{Dancing Shadow Waltz}, ability to generate a mind blade, psychic strike +1d8, Acrobatics 9 ranks, Stealth 9 ranks.
+    value: >-
+      <p><em>You have mastered the cloak dancer’s evasive combat style, blending
+      in lightning fast strikes to your defensive dance.</em></p>
+
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.ggKNxKp6XyRw850O]{Cloak
+      Dance}, @UUID[Compendium.pf1-psionics.feats.Item.2PAn4keGRloODkpf]{Dancing
+      Shadow Style},
+      @UUID[Compendium.pf1-psionics.feats.Item.CiyAO3Cchg9UjPot]{Dancing Shadow
+      Waltz}, ability to generate a mind blade, psychic strike +1d8, Acrobatics
+      9 ranks, Stealth 9 ranks.
+
       </p>
-      <p><strong>Benefit</strong>: When performing a cloak dance as a fullround action, you gain total concealment and you mayrecharge your psychic strike while moving up to yourbase speed. When foes make attacks against you, theseattacks provoke attacks of opportunity from you whileyou’re under concealment from your cloak dance.
+
+      <p><strong>Benefit</strong>: When performing a cloak dance as a fullround
+      action, you gain total concealment and you mayrecharge your psychic strike
+      while moving up to yourbase speed. When foes make attacks against you,
+      theseattacks provoke attacks of opportunity from you whileyou’re under
+      concealment from your cloak dance.
+
       </p>
+
       <p><br /></p>
-      <p><br /></p><ul><li>This feat is erroneously categorized as a style feat in <em><a href="/wiki/Psionics_Augmented:_Soulknives_II" title="Psionics Augmented: Soulknives II">Psionics Augmented: Soulknives II</a></em>, which was fixed in <em><a href="/wiki/Psionics_Augmented:_Compilation_II" title="Psionics Augmented: Compilation II">Psionics Augmented: Compilation II</a></em>.</li></ul>
+
+      <p><br /></p><ul><li>This feat is erroneously categorized as a style feat
+      in <em><a href="/wiki/Psionics_Augmented:_Soulknives_II" title="Psionics
+      Augmented: Soulknives II">Psionics Augmented: Soulknives II</a></em>,
+      which was fixed in <em><a href="/wiki/Psionics_Augmented:_Compilation_II"
+      title="Psionics Augmented: Compilation II">Psionics Augmented: Compilation
+      II</a></em>.</li></ul>
   disabled: false
   featType: feat
   inherited: false

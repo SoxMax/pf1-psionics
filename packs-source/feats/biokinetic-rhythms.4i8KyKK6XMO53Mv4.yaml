@@ -21,11 +21,22 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
+    value: >-
       <p><em>You know how to heal your body with biokinetic techniques.</em></p>
-      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.qLrRd7qVDytFIiFV]{Biokinetic Adept}, @UUID[Compendium.pf1-psionics.feats.Item.6qtDPTlrrggGYxj7]{Psionic Meditation}, Con 15.
+
+      <p><strong>Prerequisites:</strong>@UUID[Compendium.pf1-psionics.feats.Item.qLrRd7qVDytFIiFV]{Biokinetic
+      Adept}, @UUID[Compendium.pf1-psionics.feats.Item.6qtDPTlrrggGYxj7]{Psionic
+      Meditation}, Con 15.
+
       </p>
-      <p><strong>Benefit:</strong> You may expend your psionic focus as a standard action to gain <a rel="nofollow" class="external text" href="https://www.aonprd.com/UMR.aspx?ItemName=Fast%20Healing">fast healing</a> equal to your Constitution modifier for 5 rounds. Using this feat drains your body’s natural biorhythms; after activating this feat you must wait 10 minutes before activating it again.
+
+      <p><strong>Benefit:</strong> You may expend your psionic focus as a
+      standard action to gain <a rel="nofollow" class="external text"
+      href="https://www.aonprd.com/UMR.aspx?ItemName=Fast%20Healing">fast
+      healing</a> equal to your Constitution modifier for 5 rounds. Using this
+      feat drains your body’s natural biorhythms; after activating this feat you
+      must wait 10 minutes before activating it again.
+
       </p>
   disabled: false
   featType: feat

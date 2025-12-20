@@ -21,11 +21,19 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
-      <p><em>The sigils of your manifesting can be drawn on your body and activated later.</em></p>
+    value: >-
+      <p><em>The sigils of your manifesting can be drawn on your body and
+      activated later.</em></p>
+
       <p><strong>Prerequisite:</strong>@UUID[Compendium.pf1-psionics.feats.Item.HkPb64HFrsLjeelo]{Sigilist}.
+
       </p>
-      <p><strong>Benefit: </strong>You can now draw your sigils on your body so that they etch themselves into you. 3 times per day you can manifest a power and turn it into a psionic tattoo on your body instead of having it manifest normally.
+
+      <p><strong>Benefit: </strong>You can now draw your sigils on your body so
+      that they etch themselves into you. 3 times per day you can manifest a
+      power and turn it into a psionic tattoo on your body instead of having it
+      manifest normally.
+
       </p>
   disabled: false
   featType: feat

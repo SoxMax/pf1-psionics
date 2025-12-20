@@ -21,10 +21,22 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   description:
-    value: |-
+    value: >-
       <p><em>Your intuition allows you to make deadly ranged attacks.</em></p>
-      <p><strong>Prerequisites:</strong> Wis 13, <a rel="nofollow" class="external text" href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank Shot</a>, @UUID[Compendium.pf1-psionics.feats.Item.SvxneaewYQNywU6M]{Psionic Shot}</p>
-      <p><strong>Benefit: </strong>As long as you maintain psionic focus, as a standard action, you may make an attack with a ranged or thrown weapon and add your Wisdom modifier to the damage roll. You must be within 30 feet of your target to deal this extra damage. Creatures immune to critical hits and sneak attacks are immune to this extra damage.
+
+      <p><strong>Prerequisites:</strong> Wis 13, <a rel="nofollow"
+      class="external text"
+      href="https://www.aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot">Point-Blank
+      Shot</a>,
+      @UUID[Compendium.pf1-psionics.feats.Item.SvxneaewYQNywU6M]{Psionic
+      Shot}</p>
+
+      <p><strong>Benefit: </strong>As long as you maintain psionic focus, as a
+      standard action, you may make an attack with a ranged or thrown weapon and
+      add your Wisdom modifier to the damage roll. You must be within 30 feet of
+      your target to deal this extra damage. Creatures immune to critical hits
+      and sneak attacks are immune to this extra damage.
+
       </p>
   disabled: false
   featType: feat
