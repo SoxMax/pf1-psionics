@@ -20,17 +20,25 @@
     "scrape:classes:single": "node ./tools/scrapers/classes-scraper.mjs",
     "scrape:races": "node ./tools/scrapers/races-scraper.mjs",
     "scrape:races:single": "node ./tools/scrapers/races-scraper.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage",
     "lint": "eslint \"scripts/**/*.mjs\"",
     "lint:fix": "eslint \"scripts/**/*.mjs\" --fix"
   },
   "devDependencies": {
     "@eslint/js": "^9.0.0",
+    "@ethaks/fvtt-quench": "^0.9.2",
     "@foundryvtt/foundryvtt-cli": "^3.0.0",
+    "@vitest/coverage-v8": "^1.0.0",
+    "@vitest/ui": "^1.0.0",
     "eslint": "^9.0.0",
     "js-yaml": "^4.1.0",
     "listr2": "^9.0.3",
     "picocolors": "^1.1.1",
     "typescript-eslint": "^8.0.0",
+    "vitest": "^1.0.0",
     "yargs": "^18.0.0"
   },
   "engines": {

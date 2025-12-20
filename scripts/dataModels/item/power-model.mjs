@@ -1,7 +1,39 @@
-import { AugmentModel } from "./augment-model.mjs";
 import { DISCIPLINE_TO_SCHOOL } from "../../data/disciplines.mjs";
 
 export class PowerModel extends foundry.abstract.TypeDataModel {
+  /** @override */
+  static SCHEMA_VERSION = 1;
+
+  /**
+   * Migrate source data from older schema versions
+   * @param {object} source - Candidate source data
+   * @returns {object} - Migrated source data
+   * @override
+   */
+  static migrateData(source) {
+    // Migration 1: Move augments from power level to action level (v0.7.0)
+    if (source.augments !== undefined) {
+      const augments = source.augments;
+
+      // Only copy augments if they exist and aren't empty
+      if (Array.isArray(augments) && augments.length > 0) {
+        // Copy augments to each action that doesn't already have them
+        if (source.actions && Array.isArray(source.actions)) {
+          source.actions.forEach(action => {
+            if (!action.augments || action.augments.length === 0) {
+              action.augments = foundry.utils.deepClone(augments);
+            }
+          });
+        }
+      }
+
+      // Always remove the old augments field (regardless of whether we copied it)
+      delete source.augments;
+    }
+
+    return source;
+  }
+
   static defineSchema() {
     const {
       SchemaField,
@@ -11,7 +43,6 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
       ArrayField,
       ObjectField,
       TypedObjectField,
-      EmbeddedDataField,
     } = foundry.data.fields;
 
     const optional = {required: false, initial: undefined};
@@ -93,7 +124,6 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
       prepared: new BooleanField({initial: false}),
       manifester: new StringField({initial: ""}),
       sr: new BooleanField({initial: true}),
-      augments: new ArrayField(new EmbeddedDataField(AugmentModel), { required: false, initial: [] }),
       showInCombat: new BooleanField({initial: false}),
     };
   }
@@ -118,22 +148,5 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
    */
   prepareDerivedData() {
     super.prepareDerivedData();
-  }
-
-  /**
-   * Prune empty data from source
-   *
-   * @param {object} source - Source data to prune
-   * @override
-   */
-  static pruneData(source) {
-    // Prune augments
-    if (source.augments?.length) {
-      for (const augment of source.augments) {
-        AugmentModel.pruneData(augment);
-      }
-    } else {
-      delete source.augments;
-    }
   }
 }

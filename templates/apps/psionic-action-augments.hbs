@@ -1,0 +1,50 @@
+{{!-- Augments --}}
+<div class="augments">
+  <ol class="item-list augment-list">
+    {{!-- Header --}}
+    <li class="item-list-header flexrow">
+      <div class="item-name">
+        <h3>{{localize "PF1-Psionics.Augments.Plural"}}</h3>
+      </div>
+
+      <div class="item-detail augment-cost">
+        <i class="icon-pf icon-battery-pack" data-tooltip="PF1-Psionics.PowerPoints.Cost"></i>
+      </div>
+
+      <div class="augment-controls item-controls">
+        {{#if editable}}
+        <a class="augment-control add-augment" data-tooltip="PF1.Add">
+          <i class="fa-solid fa-plus" inert></i>
+        </a>
+        {{/if}}
+      </div>
+    </li>
+
+    {{!-- Augment list --}}
+    <ol class="item-list">
+      {{#each augments}}
+      <li class="augment-item item flexrow" data-augment-id="{{_id}}">
+        <div class="item-name">
+          <div class="item-image no-hover" style='background-image: url("{{img}}")'></div>
+          <h4>{{name}}</h4>
+        </div>
+
+        <div class="item-detail augment-cost">
+          <span class="cost-value">{{cost}}</span>
+          <span class="cost-label">PP</span>
+        </div>
+
+        <div class="augment-controls item-controls">
+          {{#if ../editable}}
+          <a class="edit-augment" data-tooltip="PF1-Psionics.Augments.Edit"><i class="fa-solid fa-edit" inert></i></a>
+          <a class="duplicate-augment" data-tooltip="PF1-Psionics.Augments.Duplicate"><i class="fa-solid fa-copy" inert></i></a>
+          <a class="delete-augment" data-tooltip="PF1-Psionics.Augments.Delete"><i class="fa-solid fa-trash" inert></i></a>
+          {{/if}}
+        </div>
+      </li>
+      {{/each}}
+    </ol>
+  </ol>
+</div>
+
+<hr>

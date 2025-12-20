@@ -21,9 +21,19 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      damage:
+        parts:
+          - formula: '2'
+            types:
+              - cold
+      description: >-
+        <p>A ray of this energy type deals 2 points of damage. Alternately, the
+        manifester can choose to deal no damage but instead chill up to 1 pound
+        of non-living material (such as cooling a drink).</p>
       duration:
         units: inst
-      name: Use
+      img: icons/magic/water/projectile-icecicle-glowing.webp
+      name: Cold
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -32,6 +42,136 @@ system:
         value: Close (25 ft. + 5 ft./2 levels)
       save:
         description: None
+      tag: cold
+      target:
+        value: Ray
+    - _id: ElecSplash001
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: rsak
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      conditionals:
+        - _id: CondElecSplash001
+          default: false
+          modifiers:
+            - _id: ModElecSplash001
+              critical: normal
+              formula: '3'
+              subTarget: allAttack
+              target: attack
+              type: untyped
+            - _id: ModElecSplash002
+              formula: '2'
+              target: cl
+              type: untyped
+          name: vs metal armor
+      damage:
+        parts:
+          - formula: '1'
+            types:
+              - electric
+      description: >-
+        <p>A ray of this energy type deals 1 point of damage. Manifesting a ray
+        of this energy type provides a +3 bonus on your attack roll if the target
+        is wearing metal armor and a +2 bonus on manifester level checks for the
+        purpose of overcoming power resistance. Alternately, the manifester can
+        choose to deal no damage but instead cause a relatively harmless static
+        shock. This shock is painful enough to wake someone sleeping, but is not
+        painful to interrupt concentration or spellcasting.</p>
+      duration:
+        units: inst
+      img: icons/magic/lightning/bolt-blue.webp
+      name: Electricity
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      tag: electricity
+      target:
+        value: Ray
+    - _id: FireSplash001
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: rsak
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      damage:
+        parts:
+          - formula: '2'
+            types:
+              - fire
+      description: >-
+        <p>A ray of this energy type deals 2 points of damage. Alternately, the
+        manifester can choose to deal no damage but instead light a readily
+        flammable object such as a lantern or torch, or warm up to 1 pound of
+        nonliving material (such as heating food).</p>
+      duration:
+        units: inst
+      img: icons/magic/fire/beam-jet-stream-trails-orange.webp
+      name: Fire
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      tag: fire
+      target:
+        value: Ray
+    - _id: SonicSplash001
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: rsak
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      damage:
+        parts:
+          - formula: '1'
+            types:
+              - sonic
+      description: >-
+        <p>A ray of this energy type deals 1 point of damage and ignores an
+        object's hardness. Alternately, the manifester can choose to deal no
+        damage but instead cause a loud bang at the target location (DC 10
+        Perception check to hear it).</p>
+      duration:
+        units: inst
+      img: icons/magic/air/air-wave-gust-blue.webp
+      name: Sonic
+      notes:
+        effect:
+          - Ignores hardness
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: None
+      tag: sonic
       target:
         value: Ray
   description:

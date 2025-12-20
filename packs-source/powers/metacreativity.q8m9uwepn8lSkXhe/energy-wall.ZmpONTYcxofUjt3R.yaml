@@ -20,11 +20,18 @@ system:
           type: nonaction
       damage:
         parts:
-          - formula: 2d6
+          - formula: 2d6+2
+            types:
+              - cold
+      description: >-
+        <p>A sheet of this energy type deals +1 point of damage per die. The
+        saving throw to reduce damage from a cold wall is a Fortitude save
+        instead of a Reflex save.</p>
       duration:
         concentration: true
         units: conc
-      name: Use
+      img: icons/magic/water/projectile-ice-snowball.webp
+      name: Cold
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -32,9 +39,124 @@ system:
         units: med
         value: Medium (100 ft. + 10 ft./level)
       save:
-        description: Reflex half or Fortitude half; see text;
+        description: Fortitude half
         harmless: false
         type: fort
+      tag: cold
+      target:
+        value: >-
+          An opaque sheet of energy up to 20 ft. long/level or a ring of energy
+          with a radius of up to 5 ft./2 levels; either form 20 ft. high
+    - _id: ElecWall001
+      actionType: save
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      damage:
+        parts:
+          - formula: 2d6
+            types:
+              - electric
+      description: >-
+        <p>Manifesting a sheet of this energy type provides a +2 bonus to the
+        save DC and a +2 bonus on manifester level checks for the purpose of
+        overcoming power resistance.</p>
+      duration:
+        concentration: true
+        units: conc
+      img: icons/magic/lightning/orb-ball-blue.webp
+      name: Electricity
+      notes:
+        effect:
+          - +2 vs power resistance
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: '2'
+        description: Reflex half
+        harmless: false
+        type: ref
+      tag: electricity
+      target:
+        value: >-
+          An opaque sheet of energy up to 20 ft. long/level or a ring of energy
+          with a radius of up to 5 ft./2 levels; either form 20 ft. high
+    - _id: FireWall001
+      actionType: save
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      damage:
+        parts:
+          - formula: 2d6+2
+            types:
+              - fire
+      description: <p>A sheet of this energy type deals +1 point of damage per die.</p>
+      duration:
+        concentration: true
+        units: conc
+      img: icons/magic/fire/projectile-fireball-orange-yellow.webp
+      name: Fire
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        description: Reflex half
+        harmless: false
+        type: ref
+      tag: fire
+      target:
+        value: >-
+          An opaque sheet of energy up to 20 ft. long/level or a ring of energy
+          with a radius of up to 5 ft./2 levels; either form 20 ft. high
+    - _id: SonicWall001
+      actionType: save
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      damage:
+        parts:
+          - formula: 2d6-2
+            types:
+              - sonic
+      description: >-
+        <p>A sheet of this energy type deals –1 point of damage per die and
+        ignores an object's hardness.</p>
+      duration:
+        concentration: true
+        units: conc
+      img: icons/magic/sonic/explosion-shock-wave-teal.webp
+      name: Sonic
+      notes:
+        effect:
+          - Ignores hardness
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        description: Fortitude half
+        harmless: false
+        type: fort
+      tag: sonic
       target:
         value: >-
           An opaque sheet of energy up to 20 ft. long/level or a ring of energy

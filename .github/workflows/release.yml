@@ -74,6 +74,7 @@ jobs:
             --exclude='.git' \
             --exclude='node_modules' \
             --exclude='packs-source' \
+            --exclude='test' \
             --exclude='tools' \
             --exclude='.github' \
             --exclude='.worktrees' \

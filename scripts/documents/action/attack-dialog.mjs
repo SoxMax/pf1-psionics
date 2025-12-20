@@ -6,8 +6,8 @@ async function renderAttackDialogHook(app, html, data) {
   const controls = html.find(".conditionals");
   controls.after(powerControls);
 
-  // Add augment selector
-  const augments = data.item.system.augments || [];
+  // Add augment selector - get augments from the action, not the item
+  const augments = data.action?.augments || [];
   const manifestCL = data.rollData?.cl || 0;
 
   if (augments.length > 0) {

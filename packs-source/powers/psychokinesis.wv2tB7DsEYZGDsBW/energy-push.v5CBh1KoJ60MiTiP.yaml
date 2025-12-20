@@ -18,12 +18,29 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: AugColdPush001
+          cost: 2
+          effects:
+            damageBonus: 1d6+1
+            dcBonus: 1
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
       damage:
         parts:
-          - formula: 2d6
+          - formula: 2d6+2
+            types:
+              - cold
+      description: >-
+        <p>A blast of this energy type deals +1 point of damage per die (damage
+        from impact remains at 2d6 points). The saving throw to reduce damage
+        from a cold push is a Fortitude save instead of a Reflex save.</p>
       duration:
         units: inst
-      name: Use
+      img: icons/magic/water/projectile-ice-snowball.webp
+      name: Cold
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -31,9 +48,147 @@ system:
         units: med
         value: Medium (100 ft. + 10 ft./level)
       save:
-        description: Reflex half or Fortitude half; see text;
+        description: Fortitude half
         harmless: false
         type: fort
+      tag: cold
+      target:
+        value: Ray
+    - _id: ElecPush001
+      actionType: save
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      augments:
+        - _id: AugElecPush001
+          cost: 2
+          effects:
+            damageBonus: 1d6
+            dcBonus: 1
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+      damage:
+        parts:
+          - formula: 2d6
+            types:
+              - electric
+      description: >-
+        <p>Manifesting a blast of this energy type provides a +2 bonus to the
+        save DC and a +2 bonus on manifester level checks for the purpose of
+        overcoming power resistance.</p>
+      duration:
+        units: inst
+      img: icons/magic/lightning/orb-ball-blue.webp
+      name: Electricity
+      notes:
+        effect:
+          - +2 vs power resistance
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        dc: '2'
+        description: Reflex half
+        harmless: false
+        type: ref
+      tag: electricity
+      target:
+        value: Ray
+    - _id: FirePush001
+      actionType: save
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      augments:
+        - _id: AugFirePush001
+          cost: 2
+          effects:
+            damageBonus: 1d6+1
+            dcBonus: 1
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+      damage:
+        parts:
+          - formula: 2d6+2
+            types:
+              - fire
+      description: >-
+        <p>A blast of this energy type deals +1 point of damage per die (damage
+        from impact remains at 2d6 points).</p>
+      duration:
+        units: inst
+      img: icons/magic/fire/projectile-fireball-orange-yellow.webp
+      name: Fire
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        description: Reflex half
+        harmless: false
+        type: ref
+      tag: fire
+      target:
+        value: Ray
+    - _id: SonicPush001
+      actionType: save
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      augments:
+        - _id: AugSonicPush001
+          cost: 2
+          effects:
+            damageBonus: 1d6-1
+            dcBonus: 1
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+      damage:
+        parts:
+          - formula: 2d6-2
+            types:
+              - sonic
+      description: >-
+        <p>A blast of this energy type deals –1 point of damage per die (damage
+        from impact remains at 2d6 points) and ignores an object's hardness.</p>
+      duration:
+        units: inst
+      img: icons/magic/sonic/explosion-shock-wave-teal.webp
+      name: Sonic
+      notes:
+        effect:
+          - Ignores hardness
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: med
+        value: Medium (100 ft. + 10 ft./level)
+      save:
+        description: Fortitude half
+        harmless: false
+        type: fort
+      tag: sonic
       target:
         value: Ray
   description:

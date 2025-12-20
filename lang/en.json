@@ -29,6 +29,24 @@
     "Trait": {
       "Psionic": "Psionic"
     },
+    "EnergyEffects": {
+      "Title": "Active Energy Type Effects",
+      "UseEnergyEffects": "Use Active Energy Type",
+      "EnergyType": "Energy Type",
+      "DamageBonus": "Damage Modifier",
+      "DamagePerDie": "Damage per die",
+      "DamagePerDieHint": "Bonus or penalty added per damage die (e.g., +1 for fire, -1 for sonic)",
+      "PerDie": "per die",
+      "Notes": "Special Effects",
+      "NotesHint": "Special effects that apply when this energy type is active (e.g., attack bonuses, special properties)",
+      "EditNotes": "Edit Notes",
+      "AddNote": "Add Note",
+      "NotePlaceholder": "Special effect or note",
+      "Cold": "Cold",
+      "Electricity": "Electricity",
+      "Fire": "Fire",
+      "Sonic": "Sonic"
+    },
     "TabName": "Psionics",
     "Powers": {
       "Singular": "Psionic Power",

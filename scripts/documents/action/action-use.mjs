@@ -10,6 +10,7 @@ function injectActionUse() {
 
   libWrapper.register(MODULE_ID, "pf1.actionUse.ActionUse.prototype.alterRollData", function() {
     if (this.item.type === `${MODULE_ID}.power`) {
+      // Apply augments from the action
       const augmentCounts = this.shared.rollData.augmentCounts || {};
       if (Object.keys(augmentCounts).length > 0) {
         applyAugmentEffects(this, augmentCounts);
@@ -117,10 +118,23 @@ function calculateAugmentTotals(augments, augmentCounts) {
 function applyAugmentEffects(actionUse, augmentCounts) {
   const shared = actionUse.shared;
   const rollData = shared.rollData;
-  const augments = actionUse.item.system.augments || [];
+
+  // Read augments from the action (not the power)
+  const action = actionUse.action;
+  const augments = action.augments ? Array.from(action.augments.values()) : [];
 
   // Calculate all augment effect totals
   const totals = calculateAugmentTotals(augments, augmentCounts);
+
+  // ✨ Expose augment data to roll formulas via rollData.augment
+  // This allows formulas to reference augment bonuses (e.g., for DC scaling)
+  rollData.augment = {
+    damageMult: totals.damageMult || 1,
+    dcBonus: totals.dcBonus || 0,
+    clBonus: totals.clBonus || 0,
+    totalCost: totals.chargeCostBonus || 0,
+    durationMult: totals.durationMultiplier || 1,
+  };
 
   // Apply all totals at once
   if (totals.chargeCostBonus > 0) {
@@ -144,7 +158,6 @@ function applyAugmentEffects(actionUse, augmentCounts) {
   }
 
   // Apply duration modifications
-  const action = actionUse.action;
   if (action?.duration?.value && totals.durationMultiplier !== 1) {
     action.duration.value = `floor((${action.duration.value}) * ${totals.durationMultiplier})`;
   }

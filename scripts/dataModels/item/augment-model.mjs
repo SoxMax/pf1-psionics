@@ -88,21 +88,30 @@ export class AugmentModel extends pf1.models.abstract.DocumentLikeModel {
   }
 
   /**
-   * Get the parent item this augment belongs to
+   * Get the parent action this augment belongs to
    *
-   * @type {ItemPF}
+   * @type {PsionicAction}
    */
-  get item() {
+  get action() {
+    return this.parent;
+  }
+
+  /**
+   * Get the parent power item this augment belongs to
+   *
+   * @type {PowerItem}
+   */
+  get power() {
     return this.parent?.parent;
   }
 
   /**
-   * Get the power model this augment belongs to
+   * Get the parent item (alias for power)
    *
-   * @type {PowerModel}
+   * @type {PowerItem}
    */
-  get power() {
-    return this.parent;
+  get item() {
+    return this.power;
   }
 
   /**
