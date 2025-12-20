@@ -33,11 +33,8 @@ system:
       target:
         value: One held weapon; see text
   description:
-    value: >-
-      <p>As <em><a href="/wiki/Dissolving_Touch" title="Dissolving
-      Touch">dissolving touch</a></em>, except your weapon is charged with acid
-      until you make a successful attack.
-
+    value: |-
+      <p>As <em>@UUID[Compendium.pf1-psionics.powers.Item.m0wg78MgJ2cV9MmR]{Dissolving Touch}</em>, except your weapon is charged with acid until you make a successful attack.
       </p>
   descriptors:
     - acid

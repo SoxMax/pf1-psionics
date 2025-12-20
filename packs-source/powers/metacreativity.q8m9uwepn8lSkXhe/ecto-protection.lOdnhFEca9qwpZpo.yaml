@@ -33,23 +33,10 @@ system:
       target:
         value: An astral construct you manifest
   description:
-    value: >-
-      <p>This power reinforces an <em><a href="/wiki/Astral_Construct"
-      title="Astral Construct">astral construct</a></em> you created by the
-      astral construct power, increasing the DC by 1 on any dispel psionics
-      attempts or a similar effect, and a +1 bonus on its saving throw to resist
-      dismiss ectoplasm. This power can be manifested as a swift action in the
-      same round that you manifest an astral construct, as long as the power
-      points you spend to perform both actions do not exceed your manifester
-      level.
-
+    value: |-
+      <p>This power reinforces an <em>@UUID[Compendium.pf1-psionics.powers.Item.xl3dUlRS4ZQUxOVv]{Astral Construct}</em> you created by the astral construct power, increasing the DC by 1 on any dispel psionics attempts or a similar effect, and a +1 bonus on its saving throw to resist dismiss ectoplasm. This power can be manifested as a swift action in the same round that you manifest an astral construct, as long as the power points you spend to perform both actions do not exceed your manifester level.
       </p>
-
-      <p><strong>Augment:</strong> For every 2 additional power points you
-      spend, the DC for dispel psionics or similar effects increases by 1, and
-      your astral construct's bonus on its saving throw to resist dismiss
-      ectoplasm increases by 1.
-
+      <p><strong>Augment:</strong> For every 2 additional power points you spend, the DC for dispel psionics or similar effects increases by 1, and your astral construct's bonus on its saving throw to resist dismiss ectoplasm increases by 1.
       </p>
   discipline: metacreativity
   display:

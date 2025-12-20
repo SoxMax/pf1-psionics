@@ -39,51 +39,14 @@ system:
       target:
         value: You
   description:
-    value: >-
-      <p>As <em><a href="/wiki/Metamorphosis,_Minor" title="Metamorphosis,
-      Minor">metamorphosis, minor</a></em>, except you instead gain one option
-      from enhancement menu C or one option from abilities menu C. Choices that
-      give similar benefits to those from enhancement menu C or abilities menu C
-      do not stack. For example, you cannot pick to gain three natural attacks
-      from abilities menu C and also to gain a natural attack from abilities
-      menu A to get four attacks.
-
+    value: |-
+      <p>As <em>@UUID[Compendium.pf1-psionics.powers.Item.jPXWdZ5l8Tmp287E]{Metamorphosis, Minor}</em>, except you instead gain one option from enhancement menu C or one option from abilities menu C. Choices that give similar benefits to those from enhancement menu C or abilities menu C do not stack. For example, you cannot pick to gain three natural attacks from abilities menu C and also to gain a natural attack from abilities menu A to get four attacks.
       </p><ul><dt>Enhancement Menu C</dt></ul>
-
-      <ul><li>+6 enhancement bonus to Strength</li><li>+6 enhancement bonus to
-      Dexterity</li><li>+6 enhancement bonus to Constitution</li><li>Pick 2
-      choices from Enhancement Menu B from <em><a href="/wiki/Metamorphosis"
-      title="Metamorphosis">metamorphosis</a></em>. You may not choose the same
-      option twice.</li><li>Increase your base land speed by 30 feet.</li></ul>
-
+      <ul><li>+6 enhancement bonus to Strength</li><li>+6 enhancement bonus to Dexterity</li><li>+6 enhancement bonus to Constitution</li><li>Pick 2 choices from Enhancement Menu B from <em>@UUID[Compendium.pf1-psionics.powers.Item.aZtlYlIu4ejIeYSu]{metamorphosis}</em>. You may not choose the same option twice.</li><li>Increase your base land speed by 30 feet.</li></ul>
       <ul><dt>Abilities Menu C</dt></ul>
-
-      <ul><li>You gain the Rend ability. If you hit the same opponent with two
-      natural attacks in one round, you deal additional damage equal to 2d6 +
-      your Strength modifier.</li><li>You gain three natural slam/bite/claw
-      attacks that deal 2d6 damage if Medium (2d8 if Large).</li><li>Your
-      natural attacks extrude poison and acid. When you hit with a natural melee
-      attack, it deals +2d6 acid damage and the target must make a Fortitude
-      save (DC10+ 1/2 your manifester level + your key ability modifier) or take
-      1 point of Constitution damage.</li><li>You gain Fast Healing
-      5.</li><li>You gain +6 natural armor bonus.</li><li>You gain 40 temporary
-      hit points.</li><li>You gain a fly speed of 40 feet (good).</li><li>You
-      gain a swim speed of 60 feet.</li><li>You gain a climb speed of 60
-      feet.</li><li>You gain a burrow speed of 60 feet.</li><li>You gain 2
-      choices from Abilities Menu B from metamorphosis. You may not choose the
-      same option twice.</li></ul>
-
-      <p><strong>Augment:</strong> You can augment this power in the following
-      ways.
-
-      </p><ol><li>For every 6 power points you spend, you gain one choice from
-      Enhancement Menu C and one choice from Abilities Menu C. You may not
-      choose the same option twice.</li><li>For every 2 power points you spend,
-      you gain one choice from Enhancement Menu A and one choice from Abilities
-      Menu A from minor metamorphosis. You may not choose the same option
-      twice.</li><li>For every 4 power points you spend, you gain one choice
-      from Enhancement Menu B and one choice from Abilities Menu B from
-      metamorphosis. You may not choose the same option twice.</li></ol>
+      <ul><li>You gain the Rend ability. If you hit the same opponent with two natural attacks in one round, you deal additional damage equal to 2d6 + your Strength modifier.</li><li>You gain three natural slam/bite/claw attacks that deal 2d6 damage if Medium (2d8 if Large).</li><li>Your natural attacks extrude poison and acid. When you hit with a natural melee attack, it deals +2d6 acid damage and the target must make a Fortitude save (DC10+ 1/2 your manifester level + your key ability modifier) or take 1 point of Constitution damage.</li><li>You gain Fast Healing 5.</li><li>You gain +6 natural armor bonus.</li><li>You gain 40 temporary hit points.</li><li>You gain a fly speed of 40 feet (good).</li><li>You gain a swim speed of 60 feet.</li><li>You gain a climb speed of 60 feet.</li><li>You gain a burrow speed of 60 feet.</li><li>You gain 2 choices from Abilities Menu B from metamorphosis. You may not choose the same option twice.</li></ul>
+      <p><strong>Augment:</strong> You can augment this power in the following ways.
+      </p><ol><li>For every 6 power points you spend, you gain one choice from Enhancement Menu C and one choice from Abilities Menu C. You may not choose the same option twice.</li><li>For every 2 power points you spend, you gain one choice from Enhancement Menu A and one choice from Abilities Menu A from minor metamorphosis. You may not choose the same option twice.</li><li>For every 4 power points you spend, you gain one choice from Enhancement Menu B and one choice from Abilities Menu B from metamorphosis. You may not choose the same option twice.</li></ol>
   discipline: psychometabolism
   display:
     auditory: false

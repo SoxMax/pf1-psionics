@@ -23,28 +23,14 @@ system:
         critMultiplier: 1
         damageBonus: 2
   description:
-    value: >-
-      <p>As <em><a href="/wiki/Energy_Adaptation" title="Energy
-      Adaptation">energy adaptation</a></em>, except the type of energy to which
-      you gain resistance when this power is manifested is your active energy
-      type.
-
+    value: |-
+      <p>As <em>@UUID[Compendium.pf1-psionics.powers.Item.B1T1tEAotwMAmZOw]{Energy Adaptation}</em>, except the type of energy to which you gain resistance when this power is manifested is your active energy type.
       </p>
-
-      <p>This power's subtype is the same as the type of damage it protects
-      against.
-
+      <p>This power's subtype is the same as the type of damage it protects against.
       </p>
-
-      <p><strong>Augment:</strong> If you spend 4 additional power points, you
-      can manifest this power as an immediate action.
-
+      <p><strong>Augment:</strong> If you spend 4 additional power points, you can manifest this power as an immediate action.
       </p>
-
-      <p><strong>Special:</strong> A kineticist does not need to select an
-      energy type for this power when he gains psionic focus. He may choose the
-      type of damage at the time the power is manifested.
-
+      <p><strong>Special:</strong> A kineticist does not need to select an energy type for this power when he gains psionic focus. He may choose the type of damage at the time the power is manifested.
       </p>
   descriptors:
     - see text

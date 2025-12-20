@@ -28,19 +28,10 @@ system:
       target:
         value: All willing creatures in range
   description:
-    value: >-
-      <p>As <em><a href="/wiki/Time_Hop" title="Time Hop">time hop</a></em>,
-      except you can affect any number of willing subjects in range, including
-      yourself. You can choose which creatures are affected by the power. The
-      subjects hop forward in time a number of hours equal to your manifester
-      level, or some shorter number of hours; you decide how many hours the mass
-      time hop lasts when you manifest the power.
-
+    value: |-
+      <p>As <em>@UUID[Compendium.pf1-psionics.powers.Item.HaG8FNzUjeOpRyS6]{Time Hop}</em>, except you can affect any number of willing subjects in range, including yourself. You can choose which creatures are affected by the power. The subjects hop forward in time a number of hours equal to your manifester level, or some shorter number of hours; you decide how many hours the mass time hop lasts when you manifest the power.
       </p>
-
-      <p><strong>Augment:</strong> If you spend 6 additional power points, you
-      can manifest this power as an immediate action.
-
+      <p><strong>Augment:</strong> If you spend 6 additional power points, you can manifest this power as an immediate action.
       </p>
   discipline: psychoportation
   display:

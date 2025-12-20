@@ -30,12 +30,8 @@ system:
         harmless: false
         type: will
   description:
-    value: >-
-      <p>As <em><a href="/wiki/Recall_Agony" title="Recall Agony">recall
-      agony</a></em>, except the wounds revealed by folding the fourth dimension
-      are potentially fatal. If the target fails its Will save, it dies. If the
-      save succeeds, the target instead takes 5d6 points of damage.
-
+    value: |-
+      <p>As <em>@UUID[Compendium.pf1-psionics.powers.Item.etyZoJsoZ2ucfZja]{Recall Agony}</em>, except the wounds revealed by folding the fourth dimension are potentially fatal. If the target fails its Will save, it dies. If the save succeeds, the target instead takes 5d6 points of damage.
       </p>
   descriptors:
     - death

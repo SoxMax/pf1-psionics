@@ -35,25 +35,10 @@ system:
       target:
         value: You
   description:
-    value: >-
-      <p>This power functions exactly like <em><a
-      href="/wiki/Gift_of_the_Corpse" title="Gift of the Corpse">gift of the
-      corpse</a></em>, except that you become similar to a ghost instead of a
-      shadow, gaining the following changes for as long as this power is active:
-      you become incorporeal, count as undead for all purposes (including
-      immunities and vulnerabilities), gain a +4 enhancement bonus to Charisma,
-      a deflection bonus to your AC equal to your Charisma modifier, temporary
-      hit points equal to your manifester level, and channel resistance +4.
-      While in this state, you cannot benefit from any gear you possess unless
-      it has the ghost touch special property.
-
+    value: |-
+      <p>This power functions exactly like <em>@UUID[Compendium.pf1-psionics.powers.Item.RSTn1puvfEncgg7a]{Gift of the Corpse}</em>, except that you become similar to a ghost instead of a shadow, gaining the following changes for as long as this power is active: you become incorporeal, count as undead for all purposes (including immunities and vulnerabilities), gain a +4 enhancement bonus to Charisma, a deflection bonus to your AC equal to your Charisma modifier, temporary hit points equal to your manifester level, and channel resistance +4. While in this state, you cannot benefit from any gear you possess unless it has the ghost touch special property.
       </p>
-
-      <p><strong>Augment:</strong> You may spend 4 additional power points to
-      have your body temporarily vanish when you manifest this power. If you do
-      so, your body is immune to all damage and effects until this power ends,
-      when it reappears wherever it was originally.
-
+      <p><strong>Augment:</strong> You may spend 4 additional power points to have your body temporarily vanish when you manifest this power. If you do so, your body is immune to all damage and effects until this power ends, when it reappears wherever it was originally.
       </p>
   discipline: athanatism
   display:

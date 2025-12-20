@@ -30,11 +30,8 @@ system:
       target:
         value: Weapon touched
   description:
-    value: >-
-      <p>As <em><a href="/wiki/Prevenom" title="Prevenom">prevenom</a></em>,
-      except your weapon gains the poison coating as long as it remains in your
-      grip.
-
+    value: |-
+      <p>As <em>@UUID[Compendium.pf1-psionics.powers.Item.Ujmjif24y8yGLX1g]{Prevenom}</em>, except your weapon gains the poison coating as long as it remains in your grip.
       </p>
   discipline: psychometabolism
   display:

@@ -32,25 +32,12 @@ system:
       target:
         value: Spread with a radius of 25 ft. + 5 ft./2 levels, centered on you
   description:
-    value: >-
-      <p>As <em><a href="/wiki/Detect_Teleportation" title="Detect
-      Teleportation">detect teleportation</a></em>, except you can trace the
-      destination of any psionic or magical teleportation made by others within
-      this power's area within the last minute.
-
+    value: |-
+      <p>As <em>@UUID[Compendium.pf1-psionics.powers.Item.r37lGXXCF1csQzMO]{Detect Teleportation}</em>, except you can trace the destination of any psionic or magical teleportation made by others within this power's area within the last minute.
       </p>
-
-      <p>You know the direction and distance the individuals traveled and could
-      teleport to the location yourself if you so desired (and if you know the
-      psychoport power), as if you had "seen casually" the location. This power
-      does not grant you any information on the conditions at the other end of
-      the trace beyond the mental coordinates of the location.
-
+      <p>You know the direction and distance the individuals traveled and could teleport to the location yourself if you so desired (and if you know the psychoport power), as if you had "seen casually" the location. This power does not grant you any information on the conditions at the other end of the trace beyond the mental coordinates of the location.
       </p>
-
-      <p><strong>Augment:</strong> If you spend 2 additional power points, this
-      power's range increases to Medium (100 ft. + 10 ft./level).
-
+      <p><strong>Augment:</strong> If you spend 2 additional power points, this power's range increases to Medium (100 ft. + 10 ft./level).
       </p>
   discipline: clairsentience
   display:

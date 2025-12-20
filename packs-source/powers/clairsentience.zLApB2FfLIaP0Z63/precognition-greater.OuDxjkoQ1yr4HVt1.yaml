@@ -33,16 +33,10 @@ system:
       target:
         value: You
   description:
-    value: >-
-      <p>As <em><a href="/wiki/Precognition"
-      title="Precognition">precognition</a></em>, except as noted here.
-
+    value: |-
+      <p>As <em>@UUID[Compendium.pf1-psionics.powers.Item.HxNvpkMF9tv0fTNB]{Precognition}</em>, except as noted here.
       </p>
-
-      <p>You gain a +4 insight bonus instead of a +2 bonus, and the effect is
-      not discharged when used. You may only gain a number of precognitive edges
-      per manifestation equal to your manifester level.
-
+      <p>You gain a +4 insight bonus instead of a +2 bonus, and the effect is not discharged when used. You may only gain a number of precognitive edges per manifestation equal to your manifester level.
       </p>
   discipline: clairsentience
   display:

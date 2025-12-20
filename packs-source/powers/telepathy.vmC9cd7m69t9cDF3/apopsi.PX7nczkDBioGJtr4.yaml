@@ -34,22 +34,8 @@ system:
       target:
         value: One living psionic creature
   description:
-    value: >-
-      <p>By using this power, you delete 1d4 powers or spells permanently from
-      the subject's mind. You specify the level of each power or spell, and the
-      DM randomly determines which of the subject's powers or spells is actually
-      deleted. After 24 hours, the target may make an additional Fortitude save
-      to negate the effect. <em><a href="/wiki/Psychic_Chirurgery"
-      title="Psychic Chirurgery">psychic chirurgery</a></em> or <em><a
-      href="/wiki/Reality_Revision" title="Reality Revision">reality
-      revision</a></em> can be used to restore the lost powers or spells, but it
-      must be performed within 1 week of losing the powers or spells. The
-      deleted powers or spells no longer count against the subject's powers or
-      spells known the next time they gain a level. If a character gains a level
-      after losing powers or spells in this fashion, he or she may choose new
-      powers or spells to replace those lost, but they must be the same level as
-      the power or spell lost.
-
+    value: |-
+      <p>By using this power, you delete 1d4 powers or spells permanently from the subject's mind. You specify the level of each power or spell, and the DM randomly determines which of the subject's powers or spells is actually deleted. After 24 hours, the target may make an additional Fortitude save to negate the effect. <em>@UUID[Compendium.pf1-psionics.powers.Item.P4UEeSegnhBHi7DJ]{Psychic Chirurgery}</em> or <em>@UUID[Compendium.pf1-psionics.powers.Item.sADBUEGhQAynrw62]{Reality Revision}</em> can be used to restore the lost powers or spells, but it must be performed within 1 week of losing the powers or spells. The deleted powers or spells no longer count against the subject's powers or spells known the next time they gain a level. If a character gains a level after losing powers or spells in this fashion, he or she may choose new powers or spells to replace those lost, but they must be the same level as the power or spell lost.
       </p>
   descriptors:
     - mind-affecting
