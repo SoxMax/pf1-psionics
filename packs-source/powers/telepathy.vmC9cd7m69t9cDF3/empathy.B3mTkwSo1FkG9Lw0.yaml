@@ -18,23 +18,41 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      ammo:
+        type: none
+      area: 30-ft.-radius spread centered on you
+      augments:
+        - _id: 5mLgttRyLj36izT9
+          cost: 1
+          effects:
+            special: +5 ft range/radius
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: null
+          name: Range
+          requiresFocus: false
+        - _id: hgkgxInVn2aeMPvt
+          cost: 2
+          effects:
+            durationMultiplier: 60
+            special: Only concentrate for benefits
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: 1
+          name: Duration
+          requiresFocus: false
       duration:
         concentration: true
         dismiss: true
-        units: conc
-        value: up to 1 min./level (D)
+        units: minute
+        value: '@cl'
       name: Use
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
         units: ft
-        value: 30 ft.
+        value: '30'
       save:
         description: None
-      target:
-        value: 30-ft.-radius spread centered on you
   description:
     value: >-
       <p>You detect the surface emotions of any creature you can see that is in

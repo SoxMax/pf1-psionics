@@ -39,7 +39,7 @@ system:
             dcBonus: 2
             special: '@Condition[Blind]'
           img: icons/magic/light/explosion-star-glow-silhouette.webp
-          maxUses: null
+          maxUses: 1
           name: Blind
           requiresFocus: false
       duration:

@@ -11,6 +11,9 @@ name: Distract
 system:
   actions:
     - _id: zfZTgG8ujctcJFGf
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -18,11 +21,21 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: 8jtlTjv0Q2lj5YDq
+          cost: 2
+          effects: {}
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: null
+          name: Identify
+          requiresFocus: false
       duration:
         concentration: true
         dismiss: true
-        units: conc
-        value: up to 1 min./level (D)
+        units: minute
+        value: '@cl'
       name: Use
       powerAttack:
         critMultiplier: 1
@@ -40,14 +53,7 @@ system:
     value: >-
       <p>You cause your subject's mind to wander, distracting her. Subjects
       under the effect of distract make all Perception and Sense Motive checks
-      at a –4 penalty.
-
-      </p>
-
-      <p><em>Librarian Note</em>: This is a 1st-level power for psions, wilders,
-      and psychic warriors in Psionics Unleashed. Otherwise, it is the same
-
-      </p>
+      at a –4 penalty.</p>
   descriptors:
     - mind-affecting
   discipline: telepathy
