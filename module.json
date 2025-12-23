@@ -42,6 +42,18 @@
   ],
   "packFolders": [
     {
+      "name": "Conditions",
+      "packs": [
+        "buffs"
+      ]
+    },
+    {
+      "name": "Macros",
+      "packs": [
+        "macros"
+      ]
+    },
+    {
       "name": "Psionics",
       "color": "#6a5acd",
       "sorting": "a",
@@ -52,15 +64,20 @@
         "races",
         "rules"
       ]
-    },
-    {
-      "name": "Macros",
-      "packs": [
-        "macros"
-      ]
     }
   ],
   "packs": [
+    {
+      "name": "buffs",
+      "label": "Psionic Buffs",
+      "path": "packs/buffs",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
     {
       "name": "classes",
       "label": "Psionic Classes",

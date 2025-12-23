@@ -1,0 +1,45 @@
+_id: 0cIQyvzzh7MVyo3n
+_key: '!items!0cIQyvzzh7MVyo3n'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Distract
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: VmNOCfwX
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: skill.per
+      type: untyped
+    - _id: hYX9Qfht
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: skill.sen
+      type: untyped
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.lk5k4I9hxCUckf8s]{Distract}</p><p></p><p>-4
+      Perception and Sense Motive</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '@item.level'
+  hideFromToken: false
+  level: 0
+  showInQuickbar: false
+  subType: spell
+type: buff

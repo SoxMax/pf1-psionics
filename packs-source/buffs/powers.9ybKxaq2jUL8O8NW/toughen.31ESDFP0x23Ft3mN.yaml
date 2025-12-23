@@ -1,0 +1,39 @@
+_id: 31ESDFP0x23Ft3mN
+_key: '!items!31ESDFP0x23Ft3mN'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/defensive/shield-barrier-blue.webp
+name: Toughen
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: RMvgolCN
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.2zGndi6SFDsb62cx]{Toughen}</p><p></p><p>+1
+      natural armor</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '1'
+  hideFromToken: false
+  level: 0
+  showInQuickbar: false
+  subType: spell
+type: buff
