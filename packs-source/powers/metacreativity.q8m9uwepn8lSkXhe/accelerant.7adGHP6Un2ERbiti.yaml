@@ -18,6 +18,18 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: y2B6BAh5DH9EaGN0
+          cost: 2
+          effects:
+            damageBonus: 1d6
+            dcBonus: 1
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       damage:
         parts:
           - formula: 1d6
