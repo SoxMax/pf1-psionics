@@ -30,7 +30,7 @@ system:
         damageBonus: 2
       range:
         units: ft
-        value: 30 ft.
+        value: 30
       save:
         description: Fortitude half
         harmless: false

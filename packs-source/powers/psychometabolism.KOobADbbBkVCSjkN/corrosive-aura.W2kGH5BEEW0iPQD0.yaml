@@ -31,7 +31,7 @@ system:
         damageBonus: 2
       range:
         units: ft
-        value: 5 ft.
+        value: 5
       save:
         description: Reflex half
         harmless: false

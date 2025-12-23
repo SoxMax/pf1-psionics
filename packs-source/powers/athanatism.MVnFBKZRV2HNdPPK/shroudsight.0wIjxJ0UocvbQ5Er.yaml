@@ -27,7 +27,7 @@ system:
         damageBonus: 2
       range:
         units: ft
-        value: 60 ft.
+        value: 60
       save:
         description: None
       target:

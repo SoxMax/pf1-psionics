@@ -28,7 +28,7 @@ system:
         damageBonus: 2
       range:
         units: ft
-        value: 10 ft.
+        value: 10
       save:
         description: Will negates; see text
         harmless: false

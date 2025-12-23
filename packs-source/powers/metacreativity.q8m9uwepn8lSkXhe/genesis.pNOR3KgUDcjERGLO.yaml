@@ -27,7 +27,7 @@ system:
         damageBonus: 2
       range:
         units: ft
-        value: 0 ft.; see text
+        value: 0; see text
       save:
         description: None
       target:

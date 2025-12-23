@@ -46,7 +46,7 @@ system:
         damageBonus: 2
       range:
         units: ft
-        value: 40 ft.
+        value: 40
       save:
         description: Fortitude half
         harmless: false
@@ -93,7 +93,7 @@ system:
         damageBonus: 2
       range:
         units: ft
-        value: 40 ft.
+        value: 40
       save:
         dc: '2'
         description: Reflex half
@@ -135,7 +135,7 @@ system:
         damageBonus: 2
       range:
         units: ft
-        value: 40 ft.
+        value: 40
       save:
         description: Reflex half
         harmless: false
@@ -181,7 +181,7 @@ system:
         damageBonus: 2
       range:
         units: ft
-        value: 40 ft.
+        value: 40
       save:
         description: Fortitude half
         harmless: false
