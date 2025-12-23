@@ -23,6 +23,26 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: vCsAhEUPxcudUCCi
+          cost: 2
+          effects:
+            dcBonus: 1
+            special: >-
+              Target a single, non-magical item weighing up to 10 pounds per
+              manifester level
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Large Items
+          requiresFocus: false
+        - _id: TFeQpomFKiBDAXdW
+          cost: 2
+          effects:
+            dcBonus: 1
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: DC Increase
+          requiresFocus: false
       duration:
         units: inst
       name: Use

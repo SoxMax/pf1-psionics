@@ -11,6 +11,9 @@ name: Entangling Debris
 system:
   actions:
     - _id: 81jRpl4TtULYa7gO
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -18,15 +21,33 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
-      damage:
-        parts:
-          - formula: 2d6
+      ammo:
+        type: none
+      area: Matter in a 40-ft.-radius spread
+      augments:
+        - _id: tMKVNB4mO6F4RDjX
+          cost: 2
+          effects:
+            dcBonus: 1
+            special: +5 ft radius
+          img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+          maxUses: null
+          name: Increase Area
+          requiresFocus: false
+        - _id: 8HZKrbyYT39fwOn6
+          cost: 4
+          effects:
+            damageBonus: 2d6
+            dcBonus: 2
+          img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+          maxUses: 1
+          name: Damage
+          requiresFocus: false
       duration:
         concentration: true
         dismiss: true
-        units: conc
-        value: up to 1 min./level (D)
+        units: minute
+        value: '1'
       name: Use
       powerAttack:
         critMultiplier: 1
@@ -38,8 +59,6 @@ system:
         description: Reflex partial; see text
         harmless: false
         type: ref
-      target:
-        value: Matter in a 40-ft.-radius spread
   description:
     value: >-
       <p>You use telekinetic force to manipulate matter in the affected area,
