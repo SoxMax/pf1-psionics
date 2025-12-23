@@ -11,7 +11,7 @@ name: Spectral Stare
 system:
   actions:
     - _id: rY1k6sRI83wR8YrA
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

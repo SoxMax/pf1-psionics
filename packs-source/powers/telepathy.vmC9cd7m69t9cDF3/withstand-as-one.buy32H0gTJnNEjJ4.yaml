@@ -11,7 +11,7 @@ name: Withstand as One
 system:
   actions:
     - _id: 2yYWWUHv3bwUMs2e
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

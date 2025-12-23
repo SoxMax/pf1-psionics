@@ -11,7 +11,7 @@ name: Crystalline Bonds
 system:
   actions:
     - _id: FAClrDu0pc01x5xP
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

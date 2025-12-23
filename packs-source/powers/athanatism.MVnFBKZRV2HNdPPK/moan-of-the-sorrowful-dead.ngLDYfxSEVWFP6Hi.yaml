@@ -11,7 +11,7 @@ name: Moan of the Sorrowful Dead
 system:
   actions:
     - _id: fHQqLNrFFckhXJMn
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

@@ -11,7 +11,7 @@ name: Horrid Fetter
 system:
   actions:
     - _id: m8zFNYlQjUfohfxO
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 10
         type: minute

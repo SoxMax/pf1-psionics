@@ -11,7 +11,7 @@ name: Ego Whip
 system:
   actions:
     - _id: kiBVVsdayEukqwQK
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

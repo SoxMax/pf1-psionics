@@ -11,7 +11,7 @@ name: Mind Thrust
 system:
   actions:
     - _id: n29iFkoexI3Zlc7X
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

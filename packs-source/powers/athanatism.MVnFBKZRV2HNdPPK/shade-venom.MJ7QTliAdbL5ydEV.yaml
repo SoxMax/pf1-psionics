@@ -11,7 +11,7 @@ name: Shade Venom
 system:
   actions:
     - _id: edszlxbPlE04MsXq
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

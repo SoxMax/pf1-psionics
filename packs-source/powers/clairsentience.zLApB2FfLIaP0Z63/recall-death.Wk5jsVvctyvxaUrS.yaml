@@ -11,7 +11,7 @@ name: Recall Death
 system:
   actions:
     - _id: v0MTqANTojhGw33a
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

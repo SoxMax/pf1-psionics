@@ -11,7 +11,7 @@ name: Attraction
 system:
   actions:
     - _id: XudLAFtGhqDbaISk
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

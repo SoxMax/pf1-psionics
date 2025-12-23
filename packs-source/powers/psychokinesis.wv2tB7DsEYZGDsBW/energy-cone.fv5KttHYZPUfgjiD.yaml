@@ -11,7 +11,7 @@ name: Energy Cone
 system:
   actions:
     - _id: zUb1xQzhRVRoFsTd
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -55,7 +55,7 @@ system:
       target:
         value: Cone-shaped spread
     - _id: ElecCone001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -103,7 +103,7 @@ system:
       target:
         value: Cone-shaped spread
     - _id: FireCone001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -144,7 +144,7 @@ system:
       target:
         value: Cone-shaped spread
     - _id: SonicCone001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

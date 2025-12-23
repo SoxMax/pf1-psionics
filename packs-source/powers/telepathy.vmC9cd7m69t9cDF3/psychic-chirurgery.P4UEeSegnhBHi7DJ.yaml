@@ -11,7 +11,7 @@ name: Psychic Chirurgery
 system:
   actions:
     - _id: CysR8nmC8xlhmjk9
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 10
         type: minute

@@ -11,7 +11,7 @@ name: Vascular Disruption, Kyria's
 system:
   actions:
     - _id: ZnLIFVOIYJ3YvBkF
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

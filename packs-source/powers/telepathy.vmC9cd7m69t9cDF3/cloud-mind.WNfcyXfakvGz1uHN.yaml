@@ -11,7 +11,7 @@ name: Cloud Mind
 system:
   actions:
     - _id: QPGADcxq9bBuXczN
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

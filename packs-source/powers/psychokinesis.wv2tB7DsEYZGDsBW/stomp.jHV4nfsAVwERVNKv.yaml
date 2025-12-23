@@ -11,7 +11,7 @@ name: Stomp
 system:
   actions:
     - _id: NF5BHD57WaRnRU12
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

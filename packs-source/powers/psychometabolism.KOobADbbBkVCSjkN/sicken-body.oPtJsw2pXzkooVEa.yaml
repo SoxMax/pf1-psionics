@@ -11,7 +11,7 @@ name: Sicken Body
 system:
   actions:
     - _id: XpHyLl4AVrkLuXXz
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

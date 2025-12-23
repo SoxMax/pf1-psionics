@@ -11,7 +11,7 @@ name: Selective Hearing
 system:
   actions:
     - _id: Iv37LMxzJYtCI43C
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

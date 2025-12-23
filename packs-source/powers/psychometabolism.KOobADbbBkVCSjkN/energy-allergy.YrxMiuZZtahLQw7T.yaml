@@ -11,7 +11,7 @@ name: Energy Allergy
 system:
   actions:
     - _id: ayKF5LSuV9uSj7BT
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

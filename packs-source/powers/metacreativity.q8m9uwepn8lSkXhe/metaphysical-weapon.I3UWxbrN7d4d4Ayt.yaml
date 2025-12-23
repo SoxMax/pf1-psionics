@@ -11,7 +11,7 @@ name: Metaphysical Weapon
 system:
   actions:
     - _id: tfFcVexvrmCq9X6s
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

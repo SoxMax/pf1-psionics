@@ -11,7 +11,7 @@ name: Memory Modification
 system:
   actions:
     - _id: zzqMKM7pw7onJdhP
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: round

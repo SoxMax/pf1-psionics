@@ -11,7 +11,7 @@ name: Disable
 system:
   actions:
     - _id: ntFZ08XU5ojP8NF7
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

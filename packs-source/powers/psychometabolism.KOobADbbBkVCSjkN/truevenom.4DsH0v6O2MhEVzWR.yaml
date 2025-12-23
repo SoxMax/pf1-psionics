@@ -11,7 +11,7 @@ name: Truevenom
 system:
   actions:
     - _id: NK2mMRkjl3hnVtW6
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: swift

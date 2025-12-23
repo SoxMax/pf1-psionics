@@ -11,7 +11,7 @@ name: Breath of Thanatos
 system:
   actions:
     - _id: ye03rv4yiTw0YYZF
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

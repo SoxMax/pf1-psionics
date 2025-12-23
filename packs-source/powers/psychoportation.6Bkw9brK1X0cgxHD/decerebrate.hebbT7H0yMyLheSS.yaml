@@ -11,7 +11,7 @@ name: Decerebrate
 system:
   actions:
     - _id: T0E844FpGaUFR758
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

@@ -11,7 +11,7 @@ name: Unearthly Terror
 system:
   actions:
     - _id: PGSr1vm0TiIB6mMn
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

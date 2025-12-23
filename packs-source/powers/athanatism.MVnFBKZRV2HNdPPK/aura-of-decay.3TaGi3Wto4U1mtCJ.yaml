@@ -11,7 +11,7 @@ name: Aura of Decay
 system:
   actions:
     - _id: ZDAB02Ji5fu81bid
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

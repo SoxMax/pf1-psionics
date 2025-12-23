@@ -11,7 +11,7 @@ name: Untouchable Aura
 system:
   actions:
     - _id: 5ffNKPkdm2TwPSVt
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

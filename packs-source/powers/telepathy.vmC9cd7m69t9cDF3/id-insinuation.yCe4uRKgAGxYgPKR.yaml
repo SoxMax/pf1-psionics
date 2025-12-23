@@ -11,7 +11,7 @@ name: Id Insinuation
 system:
   actions:
     - _id: kUIwNBdpbVrNzDe5
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

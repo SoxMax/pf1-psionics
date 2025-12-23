@@ -11,7 +11,7 @@ name: Fate Link
 system:
   actions:
     - _id: nLvSj5t5k3SBRsRH
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

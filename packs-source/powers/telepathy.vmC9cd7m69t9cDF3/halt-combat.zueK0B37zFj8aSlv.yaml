@@ -11,7 +11,7 @@ name: Halt Combat
 system:
   actions:
     - _id: Z9gA9FcgJ5HAuS80
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

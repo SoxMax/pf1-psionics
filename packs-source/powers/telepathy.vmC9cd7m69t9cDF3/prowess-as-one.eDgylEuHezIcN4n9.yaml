@@ -11,7 +11,7 @@ name: Prowess as One
 system:
   actions:
     - _id: hhCC21r0TnnIvohG
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

@@ -11,7 +11,7 @@ name: Scales of Damnation
 system:
   actions:
     - _id: rJopqD45ZxuCp2Xu
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

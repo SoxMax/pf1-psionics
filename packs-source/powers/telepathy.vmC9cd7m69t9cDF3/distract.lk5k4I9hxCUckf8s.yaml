@@ -11,7 +11,7 @@ name: Distract
 system:
   actions:
     - _id: zfZTgG8ujctcJFGf
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

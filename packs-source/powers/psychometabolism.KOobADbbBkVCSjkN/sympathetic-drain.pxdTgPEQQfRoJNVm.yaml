@@ -11,7 +11,7 @@ name: Sympathetic Drain
 system:
   actions:
     - _id: bZMogrmWIVzve7Ch
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

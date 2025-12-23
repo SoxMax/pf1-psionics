@@ -11,7 +11,7 @@ name: Empathic Connection
 system:
   actions:
     - _id: fvn5ko2b9KgjBNTy
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

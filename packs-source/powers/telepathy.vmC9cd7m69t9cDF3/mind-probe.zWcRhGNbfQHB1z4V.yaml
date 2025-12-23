@@ -11,7 +11,7 @@ name: Mind Probe
 system:
   actions:
     - _id: Fj72HxsunyQ4AtDy
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: minute

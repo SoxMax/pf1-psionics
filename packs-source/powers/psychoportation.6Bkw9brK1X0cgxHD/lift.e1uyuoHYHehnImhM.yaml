@@ -11,7 +11,7 @@ name: Lift
 system:
   actions:
     - _id: KzUg77rTJYe3C95A
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

@@ -11,7 +11,7 @@ name: Toughen
 system:
   actions:
     - _id: UAUuy9capQASYO2D
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

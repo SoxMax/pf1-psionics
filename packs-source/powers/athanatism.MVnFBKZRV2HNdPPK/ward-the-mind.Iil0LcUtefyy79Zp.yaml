@@ -11,7 +11,7 @@ name: Ward the Mind
 system:
   actions:
     - _id: GVrWph7p6flA1fJU
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

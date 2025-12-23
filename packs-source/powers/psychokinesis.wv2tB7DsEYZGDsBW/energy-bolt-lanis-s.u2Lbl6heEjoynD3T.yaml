@@ -11,7 +11,7 @@ name: Energy Bolt, Lanis's
 system:
   actions:
     - _id: B9qWYiuy8swGpNgn
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -55,7 +55,7 @@ system:
       target:
         value: 120-ft. line
     - _id: ElecBolt001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -103,7 +103,7 @@ system:
       target:
         value: 120-ft. line
     - _id: FireBolt001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -144,7 +144,7 @@ system:
       target:
         value: 120-ft. line
     - _id: SonicBolt001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

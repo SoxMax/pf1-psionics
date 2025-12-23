@@ -11,7 +11,7 @@ name: Energy Push
 system:
   actions:
     - _id: UtoO73t6azmN3FGy
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -55,7 +55,7 @@ system:
       target:
         value: Ray
     - _id: ElecPush001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -103,7 +103,7 @@ system:
       target:
         value: Ray
     - _id: FirePush001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -146,7 +146,7 @@ system:
       target:
         value: Ray
     - _id: SonicPush001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

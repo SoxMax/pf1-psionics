@@ -11,7 +11,7 @@ name: Tormenting the Dead
 system:
   actions:
     - _id: xe6gTSfnWdS6mNxM
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

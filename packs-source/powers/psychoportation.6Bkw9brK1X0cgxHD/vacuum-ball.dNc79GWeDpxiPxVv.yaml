@@ -11,7 +11,7 @@ name: Vacuum Ball
 system:
   actions:
     - _id: fXs7HQNZh1V4jiEc
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

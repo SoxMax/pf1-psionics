@@ -11,7 +11,7 @@ name: Both Feet in the Grave
 system:
   actions:
     - _id: 1Hm5YtFH09l88o5N
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: minute

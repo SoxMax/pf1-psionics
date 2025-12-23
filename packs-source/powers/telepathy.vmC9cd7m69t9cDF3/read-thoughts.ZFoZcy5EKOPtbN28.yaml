@@ -11,7 +11,7 @@ name: Read Thoughts
 system:
   actions:
     - _id: VXkwm5plnVwA7XpT
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

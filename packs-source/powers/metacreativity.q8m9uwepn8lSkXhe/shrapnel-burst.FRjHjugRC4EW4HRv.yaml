@@ -11,7 +11,7 @@ name: Shrapnel Burst
 system:
   actions:
     - _id: nO42FmJcqFvlZzoB
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

@@ -11,7 +11,7 @@ name: Fold Space
 system:
   actions:
     - _id: ZDAhY4gCFUjJsoz0
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

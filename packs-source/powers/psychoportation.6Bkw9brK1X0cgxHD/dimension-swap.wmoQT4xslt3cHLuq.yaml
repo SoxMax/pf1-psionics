@@ -11,7 +11,7 @@ name: Dimension Swap
 system:
   actions:
     - _id: DZrTYQeISg8WFGQJ
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

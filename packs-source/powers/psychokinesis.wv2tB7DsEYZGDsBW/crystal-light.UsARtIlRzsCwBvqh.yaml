@@ -11,7 +11,7 @@ name: Crystal Light
 system:
   actions:
     - _id: lA4pSlUcP3m05cAT
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

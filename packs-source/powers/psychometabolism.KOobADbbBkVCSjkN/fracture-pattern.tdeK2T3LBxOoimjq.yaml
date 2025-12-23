@@ -11,7 +11,7 @@ name: Fracture Pattern
 system:
   actions:
     - _id: T8XpPja4rjbrcsLp
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

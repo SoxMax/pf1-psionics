@@ -11,7 +11,7 @@ name: Bind Flesh to Soul
 system:
   actions:
     - _id: UaHCSaIadKEr1NqH
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

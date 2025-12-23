@@ -11,7 +11,7 @@ name: Mind Control, Geth's
 system:
   actions:
     - _id: z3G8uN90RCMzxd75
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: round

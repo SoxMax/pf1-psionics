@@ -11,7 +11,7 @@ name: Share Pain, Forced
 system:
   actions:
     - _id: AHud5ANXXdWH7eoc
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

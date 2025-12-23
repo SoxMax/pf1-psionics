@@ -11,7 +11,7 @@ name: Psychoport
 system:
   actions:
     - _id: yq7CMyTD5ru7g4bA
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

@@ -11,7 +11,7 @@ name: Temporary Blindness
 system:
   actions:
     - _id: bRFkoP8i7yzQfo1x
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

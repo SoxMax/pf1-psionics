@@ -11,7 +11,7 @@ name: Telekinetic Punch
 system:
   actions:
     - _id: GfXfTPrOwMAwai7d
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

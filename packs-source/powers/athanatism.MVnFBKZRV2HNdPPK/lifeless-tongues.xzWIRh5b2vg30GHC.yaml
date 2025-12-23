@@ -11,7 +11,7 @@ name: Lifeless Tongues
 system:
   actions:
     - _id: u28SLyBPdtzzNq3B
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 10
         type: minute

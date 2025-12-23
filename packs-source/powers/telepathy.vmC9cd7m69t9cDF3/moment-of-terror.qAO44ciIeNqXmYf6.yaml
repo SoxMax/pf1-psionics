@@ -11,7 +11,7 @@ name: Moment of Terror
 system:
   actions:
     - _id: vF9rg4TFU5Szn6yn
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

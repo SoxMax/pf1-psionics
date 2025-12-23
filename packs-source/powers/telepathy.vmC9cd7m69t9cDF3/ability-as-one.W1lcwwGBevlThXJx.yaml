@@ -11,7 +11,7 @@ name: Ability as One
 system:
   actions:
     - _id: fLhDbPPo8y2YTnFA
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

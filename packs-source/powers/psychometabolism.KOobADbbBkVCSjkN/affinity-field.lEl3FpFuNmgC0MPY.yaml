@@ -11,7 +11,7 @@ name: Affinity Field
 system:
   actions:
     - _id: 8jRicCGDen5wljoR
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

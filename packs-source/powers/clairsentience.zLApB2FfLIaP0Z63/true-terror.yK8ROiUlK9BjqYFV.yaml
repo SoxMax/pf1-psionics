@@ -11,7 +11,7 @@ name: True Terror
 system:
   actions:
     - _id: O5XA6gFpd3G1tHCv
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

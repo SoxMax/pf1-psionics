@@ -11,7 +11,7 @@ name: Psychokinetic Charge
 system:
   actions:
     - _id: H4idN5YWglkVG272
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

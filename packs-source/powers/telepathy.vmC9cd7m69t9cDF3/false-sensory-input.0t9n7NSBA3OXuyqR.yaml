@@ -11,7 +11,7 @@ name: False Sensory Input
 system:
   actions:
     - _id: VQCK0RPmBbvuM4aE
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: round

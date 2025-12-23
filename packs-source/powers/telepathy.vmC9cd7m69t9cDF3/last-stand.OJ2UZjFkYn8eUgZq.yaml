@@ -11,7 +11,7 @@ name: Last Stand
 system:
   actions:
     - _id: pgBpmsxAQHjuif9s
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

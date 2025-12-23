@@ -11,7 +11,7 @@ name: Ghostly Possession
 system:
   actions:
     - _id: yyquHHpmBUZ7PFoI
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: round

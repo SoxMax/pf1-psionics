@@ -11,7 +11,7 @@ name: Deaden Attack
 system:
   actions:
     - _id: 5aUMuqkpecAt2jQ5
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: swift

@@ -11,7 +11,7 @@ name: Summoning Strike
 system:
   actions:
     - _id: 02vHEW3DejucCtOh
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

@@ -11,7 +11,7 @@ name: Energy Retort
 system:
   actions:
     - _id: clw3RPO2PlY1wIoF
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -46,7 +46,7 @@ system:
       target:
         value: You and creature or object attacking you; see text
     - _id: ElecRetort001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -85,7 +85,7 @@ system:
       target:
         value: You and creature or object attacking you; see text
     - _id: FireRetort001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -117,7 +117,7 @@ system:
       target:
         value: You and creature or object attacking you; see text
     - _id: SonicRetort001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

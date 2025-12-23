@@ -11,7 +11,7 @@ name: Energy Wall
 system:
   actions:
     - _id: Fpqj5dsa5eHDvmGB
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -48,7 +48,7 @@ system:
           An opaque sheet of energy up to 20 ft. long/level or a ring of energy
           with a radius of up to 5 ft./2 levels; either form 20 ft. high
     - _id: ElecWall001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -89,7 +89,7 @@ system:
           An opaque sheet of energy up to 20 ft. long/level or a ring of energy
           with a radius of up to 5 ft./2 levels; either form 20 ft. high
     - _id: FireWall001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -123,7 +123,7 @@ system:
           An opaque sheet of energy up to 20 ft. long/level or a ring of energy
           with a radius of up to 5 ft./2 levels; either form 20 ft. high
     - _id: SonicWall001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

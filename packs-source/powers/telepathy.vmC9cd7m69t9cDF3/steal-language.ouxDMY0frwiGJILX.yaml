@@ -11,7 +11,7 @@ name: Steal Language
 system:
   actions:
     - _id: yRruoK6m3hMBgXJz
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

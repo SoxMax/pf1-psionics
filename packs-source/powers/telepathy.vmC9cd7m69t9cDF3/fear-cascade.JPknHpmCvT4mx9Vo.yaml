@@ -11,7 +11,7 @@ name: Fear Cascade
 system:
   actions:
     - _id: PbDZa4DxG2MkNHGw
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

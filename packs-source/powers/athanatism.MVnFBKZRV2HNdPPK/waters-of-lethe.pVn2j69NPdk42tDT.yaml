@@ -11,7 +11,7 @@ name: Waters of Lethe
 system:
   actions:
     - _id: TYtO63f5r0a0pjUz
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

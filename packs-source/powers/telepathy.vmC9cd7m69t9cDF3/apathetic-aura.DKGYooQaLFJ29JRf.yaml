@@ -11,7 +11,7 @@ name: Apathetic Aura
 system:
   actions:
     - _id: v52yKWOl6Dxbt6k9
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

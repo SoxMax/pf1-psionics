@@ -11,7 +11,7 @@ name: Foot in the Grave
 system:
   actions:
     - _id: Zat5vG1iZjIkgH5E
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: round

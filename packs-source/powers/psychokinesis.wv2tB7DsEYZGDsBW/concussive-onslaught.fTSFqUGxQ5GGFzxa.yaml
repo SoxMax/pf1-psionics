@@ -11,7 +11,7 @@ name: Concussive Onslaught
 system:
   actions:
     - _id: 5B5ApH2Cpu7NIpUj
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

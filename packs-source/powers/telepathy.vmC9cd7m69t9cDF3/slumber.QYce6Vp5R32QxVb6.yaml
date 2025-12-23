@@ -11,7 +11,7 @@ name: Slumber
 system:
   actions:
     - _id: jfoLucBbECQ8St0b
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: round

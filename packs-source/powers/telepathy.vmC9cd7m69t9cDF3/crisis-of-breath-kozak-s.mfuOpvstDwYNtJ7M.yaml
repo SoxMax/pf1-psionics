@@ -11,7 +11,7 @@ name: Crisis of Breath, Kozak's
 system:
   actions:
     - _id: Q1aay7DA04e5SHxm
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

@@ -11,7 +11,7 @@ name: Mental Disruption
 system:
   actions:
     - _id: NsUtxt7eo5fl2FM4
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

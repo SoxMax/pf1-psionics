@@ -11,7 +11,7 @@ name: Preserve Psyche
 system:
   actions:
     - _id: ZgqHsb1hdDdtkPm1
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: immediate

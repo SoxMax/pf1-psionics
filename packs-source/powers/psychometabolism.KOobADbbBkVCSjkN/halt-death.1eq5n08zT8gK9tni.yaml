@@ -11,7 +11,7 @@ name: Halt Death
 system:
   actions:
     - _id: 58M4BDyEX5JtvgAO
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

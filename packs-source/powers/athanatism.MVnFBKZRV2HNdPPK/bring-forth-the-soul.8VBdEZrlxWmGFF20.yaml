@@ -11,7 +11,7 @@ name: Bring Forth the Soul
 system:
   actions:
     - _id: Jqkg3sDwm1m0KKZu
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 5
         type: minute

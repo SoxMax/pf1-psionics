@@ -11,7 +11,7 @@ name: Captivity Bond
 system:
   actions:
     - _id: UcejSSwNofm2MnVK
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

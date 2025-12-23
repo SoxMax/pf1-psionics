@@ -11,7 +11,7 @@ name: Telekinetic Force
 system:
   actions:
     - _id: aLLQBmPiL84N5xAH
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

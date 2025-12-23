@@ -11,7 +11,7 @@ name: Barred Mind
 system:
   actions:
     - _id: VaxPyaEIDbfQiDTC
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

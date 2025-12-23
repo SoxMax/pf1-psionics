@@ -11,7 +11,7 @@ name: Overpowering Guilt
 system:
   actions:
     - _id: kz0gbFDUp73V6V14
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

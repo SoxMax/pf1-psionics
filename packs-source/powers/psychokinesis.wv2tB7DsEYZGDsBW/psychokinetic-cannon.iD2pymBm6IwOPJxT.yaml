@@ -11,7 +11,7 @@ name: Psychokinetic Cannon
 system:
   actions:
     - _id: uaP6493gMtb0lgB8
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: swift

@@ -11,7 +11,7 @@ name: Energy Stun
 system:
   actions:
     - _id: NPmzCNcZ20Im6rRj
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -55,7 +55,7 @@ system:
       target:
         value: 5-ft.-radius burst
     - _id: ElecStun001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -103,7 +103,7 @@ system:
       target:
         value: 5-ft.-radius burst
     - _id: FireStun001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -144,7 +144,7 @@ system:
       target:
         value: 5-ft.-radius burst
     - _id: SonicStun001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

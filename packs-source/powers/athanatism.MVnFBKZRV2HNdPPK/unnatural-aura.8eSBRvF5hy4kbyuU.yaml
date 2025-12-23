@@ -11,7 +11,7 @@ name: Unnatural Aura
 system:
   actions:
     - _id: DUAHN3kTc6nBb33g
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

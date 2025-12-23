@@ -11,7 +11,7 @@ name: Tormenting the Living
 system:
   actions:
     - _id: FnHLyjyS1ckT7azt
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

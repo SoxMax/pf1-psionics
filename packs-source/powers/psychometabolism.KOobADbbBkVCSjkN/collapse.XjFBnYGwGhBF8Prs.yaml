@@ -11,7 +11,7 @@ name: Collapse
 system:
   actions:
     - _id: OjevcVSsxqKsgo57
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

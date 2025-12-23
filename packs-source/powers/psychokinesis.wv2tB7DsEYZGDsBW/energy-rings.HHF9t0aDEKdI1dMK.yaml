@@ -11,7 +11,7 @@ name: Energy Rings
 system:
   actions:
     - _id: FZF8gAWdb2acXm9j
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -57,7 +57,7 @@ system:
       target:
         value: One Medium or smaller creature
     - _id: ElecRings001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -107,7 +107,7 @@ system:
       target:
         value: One Medium or smaller creature
     - _id: FireRings001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -152,7 +152,7 @@ system:
       target:
         value: One Medium or smaller creature
     - _id: SonicRings001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
