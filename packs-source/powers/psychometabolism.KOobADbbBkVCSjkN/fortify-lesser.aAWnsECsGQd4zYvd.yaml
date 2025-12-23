@@ -18,9 +18,11 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       duration:
         units: minute
-        value: One minute
+        value: '1'
       name: Use
       powerAttack:
         critMultiplier: 1
