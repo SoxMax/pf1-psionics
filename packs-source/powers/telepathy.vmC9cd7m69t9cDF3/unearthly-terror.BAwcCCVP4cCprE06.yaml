@@ -11,6 +11,9 @@ name: Unearthly Terror
 system:
   actions:
     - _id: PGSr1vm0TiIB6mMn
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -18,10 +21,45 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: K2rdHMShYXMR1Hat
+          cost: 4
+          effects:
+            dcBonus: 2
+            special: >-
+              @Condition[frightened;duration=@cl] on failed save,
+              @Condition[shaken;duration=@cl] on successful save
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: 1
+          name: Frighten
+          requiresFocus: false
+        - _id: tSw87pcAsyNTKLoq
+          cost: 8
+          effects:
+            special: >-
+              @Condition[panicked;duration=@cl] on failed save,
+              @Condition[shaken;duration=@cl] on successful save
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: 1
+          name: Panic
+          requiresFocus: false
+        - _id: 3pvlYUjHL7JdsS0r
+          cost: 2
+          effects:
+            dcBonus: 1
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: null
+          name: DC Bonus
+          requiresFocus: false
       duration:
         units: round
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@Condition[shaken;duration=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

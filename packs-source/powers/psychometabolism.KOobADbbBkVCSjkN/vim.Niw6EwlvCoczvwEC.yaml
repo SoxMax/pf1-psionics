@@ -11,13 +11,21 @@ name: Vim
 system:
   actions:
     - _id: mRuJyJ1vzN958eMn
-      actionType: other
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: heal
       activation:
         cost: 1
         type: standard
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      damage:
+        parts:
+          - formula: '1'
       duration:
         units: minute
         value: '@cl'

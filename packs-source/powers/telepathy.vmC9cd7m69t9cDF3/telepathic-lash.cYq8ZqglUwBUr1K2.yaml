@@ -11,6 +11,9 @@ name: Telepathic Lash
 system:
   actions:
     - _id: NNgpfhF2c8xRSAlh
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -18,10 +21,43 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: jMBk7SBq5aW3QXH6
+          cost: 1
+          effects:
+            dcBonus: 0.5
+            special: +1 HD
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: null
+          name: Hit Dice
+          requiresFocus: false
+        - _id: jH34MZHYPenOjNl9
+          cost: 1
+          effects:
+            dcBonus: 0.5
+            special: +1 round duration
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: null
+          name: Duration
+          requiresFocus: false
+        - _id: MB1g6ANvDIYLB6Dv
+          cost: 6
+          effects:
+            dcBonus: 3
+            special: '@Condition[Stunned]'
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: 1
+          name: Stunned
+          requiresFocus: false
       duration:
         units: round
         value: '1'
       name: Use
+      notes:
+        footer:
+          - '@Condition[dazed]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
