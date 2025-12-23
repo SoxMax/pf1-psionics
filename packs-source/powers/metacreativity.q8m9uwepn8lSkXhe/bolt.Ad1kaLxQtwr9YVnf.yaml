@@ -18,6 +18,8 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       duration:
         units: minute
         value: '@cl'

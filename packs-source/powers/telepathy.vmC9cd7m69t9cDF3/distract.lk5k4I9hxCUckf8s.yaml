@@ -37,6 +37,9 @@ system:
         units: minute
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@Apply[Distract;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

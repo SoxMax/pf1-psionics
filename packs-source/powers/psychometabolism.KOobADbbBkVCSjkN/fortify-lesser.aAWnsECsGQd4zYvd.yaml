@@ -24,6 +24,9 @@ system:
         units: minute
         value: '1'
       name: Use
+      notes:
+        footer:
+          - '@Apply[Fortify, Lesser;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

@@ -14,10 +14,21 @@ system:
       actionType: other
       activation:
         cost: 1
-        type: standard
+        type: swift
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: hMwjo0iTrXOAqPII
+          cost: 2
+          effects:
+            special: +1 Sense Motive
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: null
+          name: Sense Motive
+          requiresFocus: false
       duration:
         units: round
         value: One Sense Motive check this round
@@ -63,7 +74,7 @@ system:
       sighted seeker: 1
       voyager: 1
       wilder: 1
-  level: 0
+  level: 1
   manifestTime:
     units: standard
     value: 1
