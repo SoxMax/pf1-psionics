@@ -116,9 +116,9 @@ export class AugmentEditor extends globalThis.FormApplication {
     const description = augment.description;
     data.descriptionHTML = description
       ? await TextEditor.enrichHTML(description, {
-          secrets: editable,
-          async: true,
-        })
+        secrets: editable,
+        async: true,
+      })
       : noDesc;
 
     if (this.constructor.EDIT_TRACKING?.length)
@@ -257,8 +257,9 @@ export class AugmentEditor extends globalThis.FormApplication {
     removeIfEmpty(formData, "tag");
     removeIfEmpty(formData, "maxUses");
 
-    // Get the current augments array from the action and convert DataModels to plain objects
-    const augments = (this.action.augments || []).map(a => a.toObject ? a.toObject() : a);
+    // Get the current augments array from the action's source data (not derived DataModels)
+    // Use deepClone to prevent mutation of source data
+    const augments = foundry.utils.deepClone(this.action._source.augments || []);
 
     // Find the augment to update
     const index = augments.findIndex(a => a._id === this.augment._id);

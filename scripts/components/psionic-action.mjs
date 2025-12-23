@@ -1,4 +1,4 @@
-import {AugmentModel} from "../dataModels/item/augment-model.mjs";
+import { AugmentModel } from "../dataModels/item/augment-model.mjs";
 
 /**
  * Psionic-specific action that supports augments
@@ -14,10 +14,12 @@ export class PsionicAction extends pf1.components.ItemAction {
     return {
       ...parentSchema,
       // Add augments field to schema so it's preserved in toObject()
+      // IMPORTANT: Use a function for initial to avoid shared reference bug -
+      // a literal [] would be shared across ALL PsionicAction instances
       augments: new fields.ArrayField(new fields.EmbeddedDataField(AugmentModel), {
         required: false,
         nullable: false,
-        initial: [],
+        initial: () => [],
       }),
     };
   }
