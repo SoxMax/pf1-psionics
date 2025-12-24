@@ -1,0 +1,45 @@
+_id: ySwqzgbh9NS29Hda
+_key: '!items!ySwqzgbh9NS29Hda'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Precognition, Defensive
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: b3993AIw
+      formula: '1'
+      operator: add
+      priority: 0
+      target: ac
+      type: insight
+    - _id: h0es7XF7
+      formula: '1'
+      operator: add
+      priority: 0
+      target: allSavingThrows
+      type: insight
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.agc1Qt884akNWDyu]{Precognition,
+      Defensive}</p><p>+AC &amp; Saves</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '@item.level'
+  hideFromToken: false
+  level: 1
+  showInQuickbar: false
+  subType: spell
+type: buff

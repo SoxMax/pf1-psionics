@@ -18,21 +18,22 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      ammo:
+        type: none
+      area: 60 ft. radius sphere centered on you
       duration:
         concentration: true
-        units: conc
+        units: minute
+        value: '@cl'
       name: Use
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
         units: ft
-        value: 60
+        value: '60'
       save:
         description: None
-      target:
-        value: 60 ft. radius sphere centered on you
   description:
     value: >-
       <p>You weave your prophetic power into song, using it to bolster your
