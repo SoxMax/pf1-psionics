@@ -6,11 +6,14 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Ward_the_Mind
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/defensive/shield-barrier-flaming-pentagon-magenta.webp
 name: Ward the Mind
 system:
   actions:
     - _id: GVrWph7p6flA1fJU
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -18,10 +21,12 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      ammo:
+        type: none
       duration:
         units: minute
         value: '@cl'
+      img: icons/magic/defensive/shield-barrier-flaming-pentagon-magenta.webp
       name: Use
       powerAttack:
         critMultiplier: 1

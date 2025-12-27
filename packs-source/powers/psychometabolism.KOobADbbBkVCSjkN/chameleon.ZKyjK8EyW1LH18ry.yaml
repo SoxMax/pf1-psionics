@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Chameleon
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/creatures/reptiles/chameleon-camouflage-green-brown.webp
 name: Chameleon
 system:
   actions:
@@ -18,11 +18,17 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       duration:
         dismiss: true
         units: minute
         value: 10 * @cl
+      img: icons/creatures/reptiles/chameleon-camouflage-green-brown.webp
       name: Use
+      notes:
+        footer:
+          - '@Apply[Chameleon;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

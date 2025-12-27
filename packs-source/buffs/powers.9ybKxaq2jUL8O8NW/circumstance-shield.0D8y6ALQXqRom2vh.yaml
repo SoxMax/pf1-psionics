@@ -1,0 +1,39 @@
+_id: 0D8y6ALQXqRom2vh
+_key: '!items!0D8y6ALQXqRom2vh'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+name: Circumstance Shield
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: aGUkQknd
+      formula: '1'
+      operator: add
+      priority: 0
+      target: init
+      type: insight
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.qvbd1hUViITL64b2]{Circumstance
+      Shield}</p><p>+Initiative</p>
+  duration:
+    end: turnStart
+    units: hour
+    value: '@item.level'
+  hideFromToken: false
+  level: 1
+  showInQuickbar: false
+  subType: spell
+type: buff

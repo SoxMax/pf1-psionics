@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Accelerant
 folder: q8m9uwepn8lSkXhe
-img: icons/magic/symbols/runes-star-magenta.webp
+img: icons/magic/fire/flame-burning-embers-yellow.webp
 name: Accelerant
 system:
   actions:
@@ -37,6 +37,7 @@ system:
         dismiss: true
         units: round
         value: '@cl'
+      img: icons/magic/fire/flame-burning-embers-yellow.webp
       name: Use
       powerAttack:
         critMultiplier: 1

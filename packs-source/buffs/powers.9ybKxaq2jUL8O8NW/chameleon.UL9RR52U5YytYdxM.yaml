@@ -1,0 +1,38 @@
+_id: UL9RR52U5YytYdxM
+_key: '!items!UL9RR52U5YytYdxM'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/creatures/reptiles/chameleon-camouflage-green-brown.webp
+name: Chameleon
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: 1Dxoyx1W
+      formula: '10'
+      operator: add
+      priority: 0
+      target: skill.ste
+      type: enh
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.ZKyjK8EyW1LH18ry]{Chameleon}</p><p>+Stealth</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '@item.level * 10'
+  hideFromToken: false
+  level: 1
+  showInQuickbar: false
+  subType: spell
+type: buff

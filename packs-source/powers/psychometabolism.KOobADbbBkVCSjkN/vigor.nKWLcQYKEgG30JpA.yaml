@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Vigor_(power)
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/defensive/barrier-shield-dome-blue-purple.webp
 name: Vigor
 system:
   actions:
@@ -38,6 +38,7 @@ system:
       duration:
         units: minute
         value: '@cl'
+      img: icons/magic/defensive/barrier-shield-dome-blue-purple.webp
       name: Use
       powerAttack:
         critMultiplier: 1

@@ -6,11 +6,14 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Collapse
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/control/silhouette-fall-slip-prone.webp
 name: Collapse
 system:
   actions:
     - _id: OjevcVSsxqKsgo57
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -18,9 +21,15 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       duration:
         units: inst
+      img: icons/magic/control/silhouette-fall-slip-prone.webp
       name: Use
+      notes:
+        footer:
+          - '@Condition[prone]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

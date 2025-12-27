@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Bolt
 folder: q8m9uwepn8lSkXhe
-img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
+img: icons/weapons/ammunition/arrows-barbed-white.webp
 name: Bolt
 system:
   actions:
@@ -23,13 +23,14 @@ system:
       duration:
         units: minute
         value: '@cl'
+      img: icons/weapons/ammunition/arrows-barbed-white.webp
       name: Use
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
         units: ft
-        value: 0
+        value: '0'
       save:
         description: None
       target:

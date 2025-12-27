@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Absorb_Dorje
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/weapons/wands/wand-crook-yellow.webp
 name: Absorb Dorje
 system:
   actions:
@@ -18,9 +18,12 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       duration:
         units: hour
         value: '24'
+      img: icons/weapons/wands/wand-crook-yellow.webp
       name: Use
       powerAttack:
         critMultiplier: 1
