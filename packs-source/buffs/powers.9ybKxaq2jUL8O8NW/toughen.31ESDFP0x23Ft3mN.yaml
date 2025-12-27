@@ -33,7 +33,7 @@ system:
     units: minute
     value: '1'
   hideFromToken: false
-  level: 0
+  level: 1
   showInQuickbar: false
   subType: spell
 type: buff

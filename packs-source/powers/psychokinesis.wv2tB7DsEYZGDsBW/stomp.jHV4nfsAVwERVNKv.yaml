@@ -6,11 +6,14 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Stomp
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/unholy/projectile-fireball-green.webp
+img: icons/magic/sonic/explosion-shock-sound-wave.webp
 name: Stomp
 system:
   actions:
     - _id: NF5BHD57WaRnRU12
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -18,21 +21,38 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      area: Cone-shaped spread
+      augments:
+        - _id: TNrbIrRvUkl5BR6q
+          cost: 1
+          effects:
+            damageBonus: 1d4
+            dcBonus: 0.5
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+      damage:
+        parts:
+          - formula: 1d4
+            types:
+              - nonlethal
       duration:
         units: inst
+      img: icons/magic/sonic/explosion-shock-sound-wave.webp
       name: Use
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
         units: ft
-        value: 20
+        value: '20'
       save:
         description: Reflex negates
         harmless: false
         type: ref
-      target:
-        value: Cone-shaped spread
   description:
     value: >-
       <p>Your foot stomp precipitates a psychokinetic shock wave that travels

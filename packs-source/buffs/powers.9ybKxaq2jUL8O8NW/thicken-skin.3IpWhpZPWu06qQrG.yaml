@@ -1,10 +1,10 @@
-_id: b7S0XFo710iBryQK
-_key: '!items!b7S0XFo710iBryQK'
+_id: 3IpWhpZPWu06qQrG
+_key: '!items!3IpWhpZPWu06qQrG'
 _stats:
   coreVersion: '13.351'
 folder: 9ybKxaq2jUL8O8NW
-img: icons/magic/life/heart-glowing-red.webp
-name: Fortify, Lesser
+img: icons/magic/defensive/armor-stone-skin.webp
+name: Thicken Skin
 system:
   active: false
   changeFlags:
@@ -18,20 +18,20 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   changes:
-    - _id: aIf7so7E
+    - _id: XGSYhUL8
       formula: '1'
       operator: add
       priority: 0
-      target: allSavingThrows
-      type: resist
+      target: nac
+      type: untyped
   description:
     value: >-
-      <p>@UUID[Compendium.pf1-psionics.powers.Item.aAWnsECsGQd4zYvd]{Fortify,
-      Lesser}</p><p></p><p>+1 Resistance bonus on Saves</p>
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.qmraZHZCTzOxB4DG]{Thicken
+      Skin}</p><p>+Natural Armor</p>
   duration:
     end: turnStart
     units: minute
-    value: '1'
+    value: '@item.level * 10'
   hideFromToken: false
   level: 1
   showInQuickbar: false

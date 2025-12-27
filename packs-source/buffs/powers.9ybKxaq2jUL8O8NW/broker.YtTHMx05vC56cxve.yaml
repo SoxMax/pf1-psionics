@@ -1,10 +1,10 @@
-_id: b7S0XFo710iBryQK
-_key: '!items!b7S0XFo710iBryQK'
+_id: YtTHMx05vC56cxve
+_key: '!items!YtTHMx05vC56cxve'
 _stats:
   coreVersion: '13.351'
 folder: 9ybKxaq2jUL8O8NW
-img: icons/magic/life/heart-glowing-red.webp
-name: Fortify, Lesser
+img: icons/skills/social/diplomacy-handshake-yellow.webp
+name: Broker
 system:
   active: false
   changeFlags:
@@ -18,22 +18,24 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   changes:
-    - _id: aIf7so7E
-      formula: '1'
+    - _id: hw19qoAk
+      formula: '2'
       operator: add
       priority: 0
-      target: allSavingThrows
-      type: resist
+      target: skill.dip
+      type: insight
   description:
     value: >-
-      <p>@UUID[Compendium.pf1-psionics.powers.Item.aAWnsECsGQd4zYvd]{Fortify,
-      Lesser}</p><p></p><p>+1 Resistance bonus on Saves</p>
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.sKDaSqBafgFDmViM]{Broker}</p><p>+diplomacy</p>
   duration:
     end: turnStart
-    units: minute
-    value: '1'
+    units: round
+    value: '@item.level'
   hideFromToken: false
   level: 1
   showInQuickbar: false
   subType: spell
+  uses:
+    maxFormula: '1'
+    value: 1
 type: buff

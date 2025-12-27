@@ -18,42 +18,38 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      area: See text
       duration:
         dismiss: true
-        units: spec
-        value: Up to 1 min./level; see text (D)
+        units: minute
+        value: '@cl'
       name: Use
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: ft
+        units: seeText
         value: See text
       save:
         description: None
-      target:
-        value: See text
   description:
     value: >-
       <p>You can emulate a
       @UUID[Compendium.pf1-psionics.powers.Item.chWy4qoWuGcvvG9R]{Far Hand}
-      effect at any distance while simultaneously emulating <em>[[</em><a
-      href="/wiki/Clairvoyant_Sense,_Dyne%27s" title="Clairvoyant Sense,
-      Dyne's">clairvoyant sense, dyne's</a><em>|]]</em> to target your far hand;
-      see the appropriate power descriptions. Clairtangent hand's duration is up
-      to 1 minute per level when used with a far hand effect.
-
-      </p>
-
-      <p><strong>Augment:</strong> If you spend 8 additional power points, you
-      can emulate clairvoyant sense in conjunction with either
+      effect at any distance while simultaneously emulating
+      @UUID[Compendium.pf1-psionics.powers.Item.vzRwcQBBMlnaqf32]{Clairvoyant
+      Sense, Dyne's} to target your far hand; see the appropriate power
+      descriptions. Clairtangent hand's duration is up to 1 minute per level
+      when used with a far hand effect.</p><p><strong>Augment:</strong> If you
+      spend 8 additional power points, you can emulate clairvoyant sense in
+      conjunction with either
       @UUID[Compendium.pf1-psionics.powers.Item.veTLsh8gIkrysP5e]{Telekinetic
       Force} or
       @UUID[Compendium.pf1-psionics.powers.Item.ZeTWOIUGORKEs70E]{Telekinetic
       Maneuver}, but this power's duration expires as soon as any of the noted
-      telekinetic powers deals damage.
-
-      </p>
+      telekinetic powers deals damage.</p>
   discipline: clairsentience
   display:
     auditory: true
@@ -71,8 +67,8 @@ system:
     class:
       empath: 5
       seer: 5
-      voyager: 1
-  level: 1
+      voyager: 5
+  level: 5
   manifestTime:
     units: standard
     value: 1

@@ -6,11 +6,14 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Psychokinetic_Cannon
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/unholy/projectile-fireball-green.webp
+img: icons/skills/ranged/arrow-flying-white-blue.webp
 name: Psychokinetic Cannon
 system:
   actions:
     - _id: uaP6493gMtb0lgB8
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -18,21 +21,24 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       damage:
         parts:
           - formula: 1d8
       duration:
         units: inst
+      img: icons/skills/ranged/arrow-flying-white-blue.webp
       name: Use
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
         units: ft
-        value: 0
+        value: '0'
       save:
         description: Will negates (harmless, object)
-        harmless: true
+        harmless: false
         type: will
       target:
         value: One piece of ammunition or one thrown weapon

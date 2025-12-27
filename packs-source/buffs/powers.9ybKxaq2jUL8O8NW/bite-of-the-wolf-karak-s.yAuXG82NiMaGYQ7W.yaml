@@ -1,0 +1,69 @@
+_id: yAuXG82NiMaGYQ7W
+_key: '!items!yAuXG82NiMaGYQ7W'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/creatures/mammals/wolf-shadow-black.webp
+name: Bite of the Wolf, Karak's
+system:
+  actions:
+    - _id: IR8obdhFinMq0NcH
+      ability:
+        attack: _default
+        critMult: 2
+        critRange: 20
+        damage: _default
+        damageMult: 1
+      actionType: mwak
+      activation:
+        cost: 1
+        type: attack
+        unchained:
+          cost: 1
+          type: nonaction
+      ammo:
+        type: none
+      damage:
+        parts:
+          - formula: sizeRoll(1, 8, @size)
+            types:
+              - slashing
+              - piercing
+              - bludgeoning
+      duration:
+        units: inst
+      held: 1h
+      name: Use
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: melee
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.M2ppfygjCg7k5gaP]{Bite of the
+      Wolf, Karak's}</p><p>+Bite Attack</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '@item.level'
+  hideFromToken: false
+  level: 1
+  showInQuickbar: false
+  subType: spell
+type: buff
