@@ -13,6 +13,7 @@ import "./hooks/init.mjs";
 import "./hooks/i18n.mjs";
 import "./hooks/ready.mjs";
 import "./hooks/rolls.mjs";
+import "./hooks/compendium-directory.mjs";
 
 // Document hooks & libWrapper injections
 import "./documents/actor/actor-pf.mjs";
