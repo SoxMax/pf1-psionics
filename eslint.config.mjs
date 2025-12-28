@@ -42,8 +42,9 @@ export default [
         pf1: "readonly",
         ui: "readonly",
 
-        // jQuery global
+        // jQuery globals
         $: "readonly",
+        jQuery: "readonly",
       },
     },
     rules: {
@@ -75,4 +76,3 @@ export default [
     ],
   },
 ];
-
