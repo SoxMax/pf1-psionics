@@ -11,7 +11,13 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
    * @override
    */
   static migrateData(source) {
-    // Migration 1: Move augments from power level to action level (v0.7.0)
+    // Migration 1: manifestor -> manifester (v0.5.0)
+    // Handle cases where migration script hasn't run yet or failed
+    if (source.manifestor && !source.manifester) {
+      source.manifester = source.manifestor;
+    }
+
+    // Migration 2: Move augments from power level to action level (v0.7.0)
     if (source.augments !== undefined) {
       const augments = source.augments;
 
