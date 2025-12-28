@@ -28,14 +28,7 @@ function renderCompendiumDirectory(app, html) {
   button.innerText = game.i18n.localize("PF1-Psionics.Browse");
   button.addEventListener("click", compendiumButtonClick);
 
-  // Insert the button after the Browse Spells button for logical grouping
-  const spellsButton = buttonSection.querySelector("button[data-category='spells']");
-  if (spellsButton) {
-    spellsButton.after(button);
-  } else {
-    // If no spells button, just append it
-    buttonSection.append(button);
-  }
+  buttonSection.prepend(button);
 }
 
 /**
