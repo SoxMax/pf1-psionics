@@ -11,7 +11,7 @@ name: Energy Cone
 system:
   actions:
     - _id: zUb1xQzhRVRoFsTd
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -46,7 +46,7 @@ system:
         damageBonus: 2
       range:
         units: ft
-        value: 60 ft.
+        value: 60
       save:
         description: Fortitude half
         harmless: false
@@ -55,7 +55,7 @@ system:
       target:
         value: Cone-shaped spread
     - _id: ElecCone001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -93,7 +93,7 @@ system:
         damageBonus: 2
       range:
         units: ft
-        value: 60 ft.
+        value: 60
       save:
         dc: '2'
         description: Reflex half
@@ -103,7 +103,7 @@ system:
       target:
         value: Cone-shaped spread
     - _id: FireCone001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -135,7 +135,7 @@ system:
         damageBonus: 2
       range:
         units: ft
-        value: 60 ft.
+        value: 60
       save:
         description: Reflex half
         harmless: false
@@ -144,7 +144,7 @@ system:
       target:
         value: Cone-shaped spread
     - _id: SonicCone001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -181,7 +181,7 @@ system:
         damageBonus: 2
       range:
         units: ft
-        value: 60 ft.
+        value: 60
       save:
         description: Fortitude half
         harmless: false

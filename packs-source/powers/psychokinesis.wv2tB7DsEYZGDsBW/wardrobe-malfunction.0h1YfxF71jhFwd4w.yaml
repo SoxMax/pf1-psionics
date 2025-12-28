@@ -11,7 +11,7 @@ name: Wardrobe Malfunction
 system:
   actions:
     - _id: peQTm07g6veny1EW
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

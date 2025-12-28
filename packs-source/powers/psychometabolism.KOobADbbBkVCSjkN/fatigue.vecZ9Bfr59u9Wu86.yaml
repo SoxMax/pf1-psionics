@@ -21,16 +21,25 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       duration:
         units: round
-        value: '1'
+        value: '@cl'
       name: Use
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
+      notes:
+        footer:
+          - '@Condition[fatigued;duration=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
         units: ft
-        value: 30 ft.
+        value: '30'
       save:
         description: Fortitude negates
         harmless: false

@@ -11,7 +11,7 @@ name: Reposition
 system:
   actions:
     - _id: 97VPvD21L9Z0zgVz
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

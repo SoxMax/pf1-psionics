@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Shroudsight
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 name: Shroudsight
 system:
   actions:
@@ -18,16 +18,16 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      duration:
-        concentration: true
-        units: conc
+      ammo:
+        type: none
+      img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
       name: Use
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
         units: ft
-        value: 60 ft.
+        value: '60'
       save:
         description: None
       target:

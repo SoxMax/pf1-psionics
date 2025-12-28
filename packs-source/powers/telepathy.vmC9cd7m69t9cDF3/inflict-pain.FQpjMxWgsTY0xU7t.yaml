@@ -11,7 +11,7 @@ name: Inflict Pain
 system:
   actions:
     - _id: SY9UbryD9b1u9Cn0
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

@@ -11,7 +11,7 @@ name: Cleanse Body
 system:
   actions:
     - _id: xRyIjSM8JFPOdYOq
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 3
         type: round

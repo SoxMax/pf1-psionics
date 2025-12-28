@@ -11,7 +11,7 @@ name: Psychic Interference
 system:
   actions:
     - _id: NAalmWHMTgV8tJHH
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

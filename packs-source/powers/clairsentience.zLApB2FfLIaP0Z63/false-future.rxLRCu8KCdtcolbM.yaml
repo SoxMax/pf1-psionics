@@ -11,7 +11,7 @@ name: False Future
 system:
   actions:
     - _id: kyOHGGRaTQgjxbkA
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

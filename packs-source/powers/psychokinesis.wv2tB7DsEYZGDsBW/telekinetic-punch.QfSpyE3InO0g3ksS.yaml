@@ -11,13 +11,23 @@ name: Telekinetic Punch
 system:
   actions:
     - _id: GfXfTPrOwMAwai7d
-      actionType: save
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      damage:
+        parts:
+          - formula: '1'
+            types:
+              - force
       duration:
         units: inst
       name: Use

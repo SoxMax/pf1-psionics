@@ -11,7 +11,7 @@ name: Recall Agony
 system:
   actions:
     - _id: 7HnTYEqOSW2gPONn
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

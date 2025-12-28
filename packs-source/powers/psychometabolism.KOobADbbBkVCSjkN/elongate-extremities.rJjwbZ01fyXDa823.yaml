@@ -18,6 +18,54 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: bLXUV00BZQx4K6OH
+          cost: 2
+          effects:
+            durationMultiplier: 10
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Duration
+          requiresFocus: false
+        - _id: GNTlwhpxQigwPUXs
+          cost: 2
+          effects:
+            special: >-
+              +15 speed instead of +5. Can end turn in the same square as a
+              creature that is up to two sizes larger than you.
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Extra Long Legs
+          requiresFocus: false
+        - _id: s3ErZvek20qZDhhu
+          cost: 2
+          effects:
+            special: Elongate both arms and legs at the same time.
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Both Limbs
+          requiresFocus: false
+        - _id: CVGMhB7z2ZccoUWn
+          cost: 2
+          effects:
+            special: +10 ft reach instead of +5ft reach
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Extra Long Arms
+          requiresFocus: false
+        - _id: UQdfxXP886FAYGLh
+          cost: 0
+          effects:
+            special: >-
+              Double the bonus and manifest it as a swift action but the power
+              only lasts for 1 round, and the duration cannot be augmented in
+              any way
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Double, Swift, and Short
+          requiresFocus: true
       duration:
         units: minute
         value: '@cl'

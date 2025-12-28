@@ -11,7 +11,7 @@ name: Coordinate as One
 system:
   actions:
     - _id: bgofuWVMSwOe5nqX
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

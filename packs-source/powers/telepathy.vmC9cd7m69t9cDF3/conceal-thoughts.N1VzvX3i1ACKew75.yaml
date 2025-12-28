@@ -11,13 +11,18 @@ name: Conceal Thoughts
 system:
   actions:
     - _id: kFlXAZDzmioy4Zi9
-      actionType: save
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       duration:
         units: hour
         value: '@cl'
@@ -40,16 +45,7 @@ system:
       lasts, the subject gains a +10 circumstance bonus on Bluff checks against
       those attempting to discern its true intentions with Sense Motive. It also
       gains a +4 bonus on its saving throw against any power or spell used to
-      read its mind (such as read thoughts or mind probe).
-
-      </p>
-
-      <p><em>Librarian Note:</em> Prior to Ultimate Psionics, this was both a
-      psionic talent and a 1st-level psionic power. They are essentially the
-      same power, with the only difference being that it was a 1st-level power
-      for psions and psychic warriors. As such, they are both on the same page.
-
-      </p>
+      read its mind (such as read thoughts or mind probe).</p>
   descriptors:
     - mind-affecting
   discipline: telepathy

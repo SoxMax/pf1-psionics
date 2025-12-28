@@ -11,7 +11,7 @@ name: Blanketing Assault
 system:
   actions:
     - _id: AZxbjRS1uZDPkcpM
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: swift

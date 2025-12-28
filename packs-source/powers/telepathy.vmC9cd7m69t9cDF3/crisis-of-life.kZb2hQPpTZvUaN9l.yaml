@@ -11,7 +11,7 @@ name: Crisis of Life
 system:
   actions:
     - _id: yKL3LuMjFi5erXfU
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

@@ -11,7 +11,7 @@ name: Psionic Howl, Melpomene's
 system:
   actions:
     - _id: GGv8chZ4fuHl7C9I
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -30,7 +30,7 @@ system:
         damageBonus: 2
       range:
         units: ft
-        value: 30 ft.
+        value: 30
       save:
         description: Fortitude half
         harmless: false

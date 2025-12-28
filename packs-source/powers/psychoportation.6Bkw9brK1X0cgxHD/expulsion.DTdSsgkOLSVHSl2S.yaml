@@ -11,7 +11,7 @@ name: Expulsion
 system:
   actions:
     - _id: vKxIUl4rsmAIJX25
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

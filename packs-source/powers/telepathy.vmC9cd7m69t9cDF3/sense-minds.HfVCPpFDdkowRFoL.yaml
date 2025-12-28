@@ -11,7 +11,7 @@ name: Sense Minds
 system:
   actions:
     - _id: 9GpWWasvnZxy8mUb
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -28,7 +28,7 @@ system:
         damageBonus: 2
       range:
         units: ft
-        value: 60 ft.
+        value: 60
       save:
         description: Will negates
         harmless: false

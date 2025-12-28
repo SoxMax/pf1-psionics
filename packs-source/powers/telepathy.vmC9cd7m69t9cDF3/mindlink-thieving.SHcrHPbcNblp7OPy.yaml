@@ -11,7 +11,7 @@ name: Mindlink, Thieving
 system:
   actions:
     - _id: 8cz59oUovoE4t1ax
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

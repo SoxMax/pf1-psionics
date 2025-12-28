@@ -11,7 +11,7 @@ name: Caustic Retribution
 system:
   actions:
     - _id: bJqCBgJBbiwZGDvF
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Skills_as_One
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/defensive/illusion-evasion-echo-purple.webp
 name: Skills as One
 system:
   actions:
@@ -18,9 +18,12 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       duration:
         units: round
         value: '@cl'
+      img: icons/magic/defensive/illusion-evasion-echo-purple.webp
       name: Use
       powerAttack:
         critMultiplier: 1

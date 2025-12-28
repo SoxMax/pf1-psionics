@@ -11,17 +11,26 @@ name: Crystal Light
 system:
   actions:
     - _id: lA4pSlUcP3m05cAT
-      actionType: save
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       duration:
         dismiss: true
-        units: inst
+        units: seeText
+        value: '1'
       name: Use
+      notes:
+        footer:
+          - '@Condition[dazzled;duration=1m]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

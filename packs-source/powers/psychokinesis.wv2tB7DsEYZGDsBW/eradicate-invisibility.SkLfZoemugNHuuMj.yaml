@@ -11,7 +11,7 @@ name: Eradicate Invisibility
 system:
   actions:
     - _id: BYHWi446nOQvPMZ1
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -27,7 +27,7 @@ system:
         damageBonus: 2
       range:
         units: ft
-        value: 50 ft.
+        value: 50
       save:
         description: Reflex negates
         harmless: false

@@ -11,7 +11,7 @@ name: Breath of the Black Dragon
 system:
   actions:
     - _id: IqltxB7k2WE6noOI
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

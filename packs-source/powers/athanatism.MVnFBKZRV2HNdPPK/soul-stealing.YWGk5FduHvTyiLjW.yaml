@@ -11,7 +11,7 @@ name: Soul Stealing
 system:
   actions:
     - _id: Q1S37YhIcZ62IF05
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

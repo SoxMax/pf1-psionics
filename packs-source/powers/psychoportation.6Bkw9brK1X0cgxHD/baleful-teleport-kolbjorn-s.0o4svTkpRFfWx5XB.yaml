@@ -11,7 +11,7 @@ name: Baleful Teleport, Kolbjorn's
 system:
   actions:
     - _id: ivRhRM3PnhgA6E95
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

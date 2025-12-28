@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Catfall
 folder: 6Bkw9brK1X0cgxHD
-img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+img: icons/creatures/mammals/cat-hunched-glowing-red.webp
 name: Catfall
 system:
   actions:
@@ -18,9 +18,12 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       duration:
         units: round
-        value: '1'
+        value: '@cl'
+      img: icons/creatures/mammals/cat-hunched-glowing-red.webp
       name: Use
       powerAttack:
         critMultiplier: 1

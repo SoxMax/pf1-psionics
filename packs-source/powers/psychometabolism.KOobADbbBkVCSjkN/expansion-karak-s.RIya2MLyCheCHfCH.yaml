@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Expansion,_Karak's
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/control/silhouette-grow-shrink-tan.webp
 name: Expansion, Karak's
 system:
   actions:
@@ -18,10 +18,38 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: PjYuLAS7JBlcpNoc
+          cost: 6
+          effects:
+            special: Increase by 2 size categories instead of 1
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Double Enlarge
+          requiresFocus: false
+        - _id: gK8FQqSy39qj8LgG
+          cost: 6
+          effects:
+            special: Swift Action
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Swift Action
+          requiresFocus: true
+        - _id: 8Cu1gYmcIKjQgNs6
+          cost: 2
+          effects:
+            durationMultiplier: 10
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Duration
+          requiresFocus: true
       duration:
         dismiss: true
         units: minute
         value: '@cl'
+      img: icons/magic/control/silhouette-grow-shrink-tan.webp
       name: Use
       powerAttack:
         critMultiplier: 1

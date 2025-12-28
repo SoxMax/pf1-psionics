@@ -11,7 +11,7 @@ name: Crystallize, Ruelle's
 system:
   actions:
     - _id: r6ylUdT8Z0Kp7lta
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

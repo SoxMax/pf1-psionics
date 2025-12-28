@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Absorb_Dorje
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/weapons/wands/wand-crook-yellow.webp
 name: Absorb Dorje
 system:
   actions:
@@ -18,9 +18,12 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       duration:
         units: hour
         value: '24'
+      img: icons/weapons/wands/wand-crook-yellow.webp
       name: Use
       powerAttack:
         critMultiplier: 1
@@ -38,36 +41,18 @@ system:
       a solid object slides under your skin. When you manifest this power, you
       must be holding a psionic dorje that contains a power that is on your
       power list but is not necessarily one of your powers known. That dorje
-      merges into your flesh, becoming part of your body.
-
-      </p>
-
-      <p>As long as the dorje you have absorbed has charges, you may manifest
-      its contained power as if it was one of your powers known. You must expend
-      power points as normal to manifest the absorbed power as well as one
-      charge from the dorje. The manifested power uses your manifester level and
-      ability score for purposes of determining its DC and other variable
-      effects.
-
-      </p>
-
-      <p>Once the absorbed dorje runs out of charges, it is immediately ejected
-      from your body. You cannot eject it earlier voluntarily however a day
-      after you absorb the dorje, it will slide harmlessly from your skin as
-      <em>absorb dorje </em>expires. You can never have more than one dorje
-      absorbed; attempting to manifest this power again while it is already in
-      effect does not work.
-
-      </p>
-
-      <p><em><strong>Mythic Absorb Dorje</strong></em></p>
-
-      <p>You may absorb as many dorjes as you have mythic tiers. Doing so causes
-      the duration of <em>mythic absorb dorje </em>to be divided by the number
-      of dorjes absorbed. Additionally, manifesting a power from any of the
-      absorbed dorjes consumes a charge from each of the absorbed dorjes.
-
-      </p>
+      merges into your flesh, becoming part of your body.</p><p>As long as the
+      dorje you have absorbed has charges, you may manifest its contained power
+      as if it was one of your powers known. You must expend power points as
+      normal to manifest the absorbed power as well as one charge from the
+      dorje. The manifested power uses your manifester level and ability score
+      for purposes of determining its DC and other variable effects.</p><p>Once
+      the absorbed dorje runs out of charges, it is immediately ejected from
+      your body. You cannot eject it earlier voluntarily however a day after you
+      absorb the dorje, it will slide harmlessly from your skin as <em>absorb
+      dorje </em>expires. You can never have more than one dorje absorbed;
+      attempting to manifest this power again while it is already in effect does
+      not work.</p>
   discipline: psychometabolism
   display:
     auditory: false

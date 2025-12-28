@@ -11,7 +11,7 @@ name: Alienation
 system:
   actions:
     - _id: n7S9dThl1aIKZqG9
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

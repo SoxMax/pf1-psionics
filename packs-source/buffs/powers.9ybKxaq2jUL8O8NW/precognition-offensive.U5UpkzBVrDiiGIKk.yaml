@@ -1,0 +1,39 @@
+_id: U5UpkzBVrDiiGIKk
+_key: '!items!U5UpkzBVrDiiGIKk'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Precognition, Offensive
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: dwgBNM0Z
+      formula: '1'
+      operator: add
+      priority: 0
+      target: attack
+      type: insight
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.txZMPlZKLbWYyPiR]{Precognition,
+      Offensive}</p><p>+Attack</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '@item.level'
+  hideFromToken: false
+  level: 1
+  showInQuickbar: false
+  subType: spell
+type: buff

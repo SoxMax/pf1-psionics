@@ -11,7 +11,7 @@ name: Ectoplasmic Cocoon, Mass
 system:
   actions:
     - _id: EECK6bGiy8mwPGP3
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

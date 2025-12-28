@@ -11,7 +11,7 @@ name: Shift the Tide
 system:
   actions:
     - _id: XvPLeoLtgEF99ZUJ
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: immediate

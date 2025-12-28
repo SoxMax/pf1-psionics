@@ -11,7 +11,7 @@ name: Expose Weakness
 system:
   actions:
     - _id: X0sdTC9At1fmpaC7
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

@@ -11,7 +11,7 @@ name: Dismiss Ectoplasm
 system:
   actions:
     - _id: z94f0Vx2DgIIGO7R
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

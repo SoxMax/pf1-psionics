@@ -11,7 +11,7 @@ name: Bastion
 system:
   actions:
     - _id: wIa3AGJsgh4MRUb4
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

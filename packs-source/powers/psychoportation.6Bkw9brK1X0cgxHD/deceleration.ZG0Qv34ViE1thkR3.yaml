@@ -11,7 +11,7 @@ name: Deceleration
 system:
   actions:
     - _id: ZfYmSlrv2tIe4zFh
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

@@ -11,7 +11,7 @@ name: Hallucinations
 system:
   actions:
     - _id: hNl0v4OGMC4dfwYW
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

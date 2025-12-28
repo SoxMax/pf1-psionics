@@ -11,7 +11,7 @@ name: Bloodfountain
 system:
   actions:
     - _id: uqJlkkt0PC4PRjVW
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

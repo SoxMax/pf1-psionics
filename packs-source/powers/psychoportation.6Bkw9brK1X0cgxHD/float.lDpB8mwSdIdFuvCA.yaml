@@ -18,6 +18,17 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: EqtkGIcr1K6s7t7W
+          cost: 1
+          effects:
+            special: +5 ft swim speed
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: null
+          name: Faster
+          requiresFocus: false
       duration:
         dismiss: true
         units: round

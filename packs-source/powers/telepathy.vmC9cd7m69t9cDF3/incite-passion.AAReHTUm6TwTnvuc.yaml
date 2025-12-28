@@ -11,7 +11,7 @@ name: Incite Passion
 system:
   actions:
     - _id: Y3aPLUUX5BYoIiwf
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

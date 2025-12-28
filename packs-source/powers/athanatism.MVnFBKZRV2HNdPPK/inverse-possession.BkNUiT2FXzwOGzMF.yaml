@@ -11,7 +11,7 @@ name: Inverse Possession
 system:
   actions:
     - _id: bM1BTtR6pnQXhMcq
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

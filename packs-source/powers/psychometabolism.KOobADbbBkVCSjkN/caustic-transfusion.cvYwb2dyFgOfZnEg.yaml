@@ -11,7 +11,7 @@ name: Caustic Transfusion
 system:
   actions:
     - _id: XhreFsa6sWQIcj7o
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

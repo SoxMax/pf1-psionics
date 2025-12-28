@@ -11,7 +11,7 @@ name: Mental Mist
 system:
   actions:
     - _id: olyx6Bdox3CcZ6E9
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

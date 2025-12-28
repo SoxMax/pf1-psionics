@@ -6,27 +6,33 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Untouchable_Aura
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/unholy/strike-body-explode-disintegrate.webp
 name: Untouchable Aura
 system:
   actions:
     - _id: 5ffNKPkdm2TwPSVt
-      actionType: save
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       duration:
         units: round
-        value: '1'
+        value: '@cl'
+      img: icons/magic/unholy/strike-body-explode-disintegrate.webp
       name: Use
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: ft
+        units: spec
         value: Aura
       save:
         description: Will save (see text)

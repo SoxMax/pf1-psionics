@@ -18,6 +18,17 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: 72ACTIekQTSuIqMa
+          cost: 3
+          effects:
+            special: +1 DR/-
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Amplify DR
+          requiresFocus: false
       duration:
         dismiss: true
         units: minute

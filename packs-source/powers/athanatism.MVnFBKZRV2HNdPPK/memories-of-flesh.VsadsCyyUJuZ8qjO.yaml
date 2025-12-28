@@ -11,7 +11,7 @@ name: Memories of Flesh
 system:
   actions:
     - _id: AoWKmsS7szLCKcgd
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: round

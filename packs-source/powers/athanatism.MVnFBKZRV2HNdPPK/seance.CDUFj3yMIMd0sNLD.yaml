@@ -11,7 +11,7 @@ name: Seance
 system:
   actions:
     - _id: WpShh1ENUosbB65n
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: hour

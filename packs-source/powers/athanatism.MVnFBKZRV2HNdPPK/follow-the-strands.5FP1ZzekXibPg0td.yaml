@@ -11,7 +11,7 @@ name: Follow the Strands
 system:
   actions:
     - _id: MjSy41h1bOdXcJcp
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

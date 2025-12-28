@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Absorb_Weapon
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/weapons/daggers/dagger-glowing-white.webp
 name: Absorb Weapon
 system:
   actions:
@@ -18,9 +18,12 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       duration:
-        units: hour
-        value: '24'
+        units: spec
+        value: Until discharged; up to 24 hours
+      img: icons/weapons/daggers/dagger-glowing-white.webp
       name: Use
       powerAttack:
         critMultiplier: 1

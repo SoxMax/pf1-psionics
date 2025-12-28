@@ -11,7 +11,7 @@ name: Parasitic Possession
 system:
   actions:
     - _id: lfX42sZMwn6s9Uf5
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

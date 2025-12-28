@@ -11,7 +11,7 @@ name: Energy Ball
 system:
   actions:
     - _id: T4jkcnjQfoCdVoVp
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -55,7 +55,7 @@ system:
       target:
         value: 20-ft.-radius spread
     - _id: ElecBall001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -103,7 +103,7 @@ system:
       target:
         value: 20-ft.-radius spread
     - _id: FireBall001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -144,7 +144,7 @@ system:
       target:
         value: 20-ft.-radius spread
     - _id: SonicBall001
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

@@ -11,7 +11,7 @@ name: Mental Contagion
 system:
   actions:
     - _id: KCJtAhbA0XO3gVH7
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: fullRound

@@ -11,7 +11,7 @@ name: Riding the Shell
 system:
   actions:
     - _id: TCfsbQLVFEoxGQkO
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

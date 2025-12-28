@@ -11,7 +11,7 @@ name: Remote View Trap
 system:
   actions:
     - _id: EB25w1RL6BBAjAFT
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

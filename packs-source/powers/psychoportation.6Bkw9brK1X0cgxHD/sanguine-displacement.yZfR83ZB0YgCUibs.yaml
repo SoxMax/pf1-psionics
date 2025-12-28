@@ -11,7 +11,7 @@ name: Sanguine Displacement
 system:
   actions:
     - _id: S10BkNueYNIZl16B
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

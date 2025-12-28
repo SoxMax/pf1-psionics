@@ -11,7 +11,7 @@ name: Volatile Rejection
 system:
   actions:
     - _id: kACoTLZyiNUeBRn8
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

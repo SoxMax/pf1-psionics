@@ -11,7 +11,7 @@ name: Body Slam
 system:
   actions:
     - _id: ei43prnj4kjDUZMD
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

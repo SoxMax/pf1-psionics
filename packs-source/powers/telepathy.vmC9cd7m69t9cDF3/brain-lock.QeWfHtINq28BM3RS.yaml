@@ -11,7 +11,7 @@ name: Brain Lock
 system:
   actions:
     - _id: iIrYGEpHKCAEqmlz
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

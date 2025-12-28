@@ -11,7 +11,7 @@ name: Co-opt Concentration
 system:
   actions:
     - _id: hj8RLiCoglPSZLGq
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

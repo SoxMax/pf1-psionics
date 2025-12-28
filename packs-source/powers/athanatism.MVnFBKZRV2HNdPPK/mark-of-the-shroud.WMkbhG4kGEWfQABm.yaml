@@ -11,7 +11,7 @@ name: Mark of the Shroud
 system:
   actions:
     - _id: oh9R37oPj2wwE2hN
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

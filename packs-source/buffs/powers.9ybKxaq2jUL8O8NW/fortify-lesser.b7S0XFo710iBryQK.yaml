@@ -1,0 +1,39 @@
+_id: b7S0XFo710iBryQK
+_key: '!items!b7S0XFo710iBryQK'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/life/heart-glowing-red.webp
+name: Fortify, Lesser
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: aIf7so7E
+      formula: '1'
+      operator: add
+      priority: 0
+      target: allSavingThrows
+      type: resist
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.aAWnsECsGQd4zYvd]{Fortify,
+      Lesser}</p><p></p><p>+1 Resistance bonus on Saves</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '1'
+  hideFromToken: false
+  level: 1
+  showInQuickbar: false
+  subType: spell
+type: buff

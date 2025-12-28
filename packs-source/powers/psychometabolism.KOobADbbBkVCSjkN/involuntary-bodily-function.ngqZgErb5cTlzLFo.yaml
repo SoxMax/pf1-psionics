@@ -11,7 +11,7 @@ name: Involuntary Bodily Function
 system:
   actions:
     - _id: OIAfP5alqxNunnoM
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

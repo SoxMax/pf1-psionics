@@ -11,7 +11,7 @@ name: Retrieve, Nimar's
 system:
   actions:
     - _id: 3UO0p2L9lDr7OVeT
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

@@ -1,0 +1,41 @@
+_id: YtTHMx05vC56cxve
+_key: '!items!YtTHMx05vC56cxve'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/skills/social/diplomacy-handshake-yellow.webp
+name: Broker
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: hw19qoAk
+      formula: '2'
+      operator: add
+      priority: 0
+      target: skill.dip
+      type: insight
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.sKDaSqBafgFDmViM]{Broker}</p><p>+diplomacy</p>
+  duration:
+    end: turnStart
+    units: round
+    value: '@item.level'
+  hideFromToken: false
+  level: 1
+  showInQuickbar: false
+  subType: spell
+  uses:
+    maxFormula: '1'
+    value: 1
+type: buff

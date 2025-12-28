@@ -11,7 +11,7 @@ name: Tortured Visions
 system:
   actions:
     - _id: R8P0wOvV0Q4ygTbd
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 10
         type: minute

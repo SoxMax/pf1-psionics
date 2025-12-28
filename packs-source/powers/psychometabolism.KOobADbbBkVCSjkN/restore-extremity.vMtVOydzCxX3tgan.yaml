@@ -11,7 +11,7 @@ name: Restore Extremity
 system:
   actions:
     - _id: ScnuozA31R9FqRhd
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

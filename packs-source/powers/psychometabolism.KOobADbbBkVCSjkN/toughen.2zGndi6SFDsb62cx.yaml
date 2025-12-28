@@ -6,28 +6,37 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Toughen
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/defensive/shield-barrier-blue.webp
 name: Toughen
 system:
   actions:
     - _id: UAUuy9capQASYO2D
-      actionType: save
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       duration:
         units: minute
         value: '1'
+      img: icons/magic/defensive/shield-barrier-blue.webp
       name: Use
+      notes:
+        footer:
+          - '@Apply[Toughen;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
         units: ft
-        value: 30 ft.
+        value: '30'
       save:
         description: Will negates (harmless)
         harmless: true

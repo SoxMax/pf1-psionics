@@ -21,6 +21,8 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       damage:
         parts:
           - formula: 1d4
@@ -32,10 +34,10 @@ system:
         damageBonus: 2
       range:
         units: ft
-        value: 10 ft.
+        value: '10'
       save:
         description: Will negates (harmless, object)
-        harmless: true
+        harmless: false
         type: will
       target:
         value: one object of up to 1 lb./level

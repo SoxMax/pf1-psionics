@@ -11,7 +11,7 @@ name: Control Body
 system:
   actions:
     - _id: 27PavaLBKaj9gLE8
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

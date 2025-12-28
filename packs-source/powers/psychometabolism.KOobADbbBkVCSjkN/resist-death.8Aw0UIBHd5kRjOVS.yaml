@@ -11,7 +11,7 @@ name: Resist Death
 system:
   actions:
     - _id: qG3yufOACUbOgZ46
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

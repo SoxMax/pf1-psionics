@@ -11,7 +11,7 @@ name: Mindscramble
 system:
   actions:
     - _id: rKXpF0kFiE8A5sCQ
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

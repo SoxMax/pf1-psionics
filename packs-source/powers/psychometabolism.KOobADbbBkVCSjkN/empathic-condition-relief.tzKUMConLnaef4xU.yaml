@@ -11,7 +11,7 @@ name: Empathic Condition Relief
 system:
   actions:
     - _id: J5b5FhYrdUMsarER
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

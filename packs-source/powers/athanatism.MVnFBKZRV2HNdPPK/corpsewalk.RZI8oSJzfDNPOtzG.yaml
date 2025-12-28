@@ -11,7 +11,7 @@ name: Corpsewalk
 system:
   actions:
     - _id: jqoP66PRFwQc5dm2
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

@@ -18,6 +18,16 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: 8jtlTjv0Q2lj5YDq
+          cost: 2
+          effects: {}
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: null
+          name: Identify
+          requiresFocus: false
       duration:
         dismiss: true
         units: minute
@@ -28,7 +38,7 @@ system:
         damageBonus: 2
       range:
         units: ft
-        value: 0 ft.
+        value: '0'
       save:
         description: None
       target:

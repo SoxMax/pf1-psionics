@@ -11,7 +11,7 @@ name: Aversion
 system:
   actions:
     - _id: ihQHNTc4D0RmHgfR
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

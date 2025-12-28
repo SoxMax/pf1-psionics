@@ -11,7 +11,7 @@ name: Time Hop
 system:
   actions:
     - _id: VXPzPbmDIlB7C6us
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

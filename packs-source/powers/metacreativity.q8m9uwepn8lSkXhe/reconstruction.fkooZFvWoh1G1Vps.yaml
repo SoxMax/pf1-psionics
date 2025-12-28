@@ -11,7 +11,7 @@ name: Reconstruction
 system:
   actions:
     - _id: oJKLjr8i6eb7HCp6
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

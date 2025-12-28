@@ -11,7 +11,7 @@ name: Phantasmagoria
 system:
   actions:
     - _id: uXYbyOd6gLW6Nja7
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

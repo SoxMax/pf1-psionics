@@ -11,7 +11,7 @@ name: Brutalize Wounds
 system:
   actions:
     - _id: H0t8IWVc88Yw3aL7
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

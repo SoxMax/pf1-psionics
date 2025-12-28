@@ -1,0 +1,39 @@
+_id: tezTnbaaR2HBIHrS
+_key: '!items!tezTnbaaR2HBIHrS'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Prescience, Offensive
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: c7uzjMVI
+      formula: '2'
+      operator: add
+      priority: 0
+      target: damage
+      type: insight
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.BuD3iIbSp0Fc1kXj]{Prescience,
+      Offensive}</p><p>+Damage</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '@item.level'
+  hideFromToken: false
+  level: 1
+  showInQuickbar: false
+  subType: spell
+type: buff

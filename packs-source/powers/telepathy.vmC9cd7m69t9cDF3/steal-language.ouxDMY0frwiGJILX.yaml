@@ -6,21 +6,27 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Steal_Language
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/sonic/scream-wail-shout-teal.webp
 name: Steal Language
 system:
   actions:
     - _id: yRruoK6m3hMBgXJz
-      actionType: save
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       duration:
         units: minute
         value: '@cl'
+      img: icons/magic/sonic/scream-wail-shout-teal.webp
       name: Use
       powerAttack:
         critMultiplier: 1

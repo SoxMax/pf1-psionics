@@ -11,7 +11,7 @@ name: Disable
 system:
   actions:
     - _id: ntFZ08XU5ojP8NF7
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -28,7 +28,7 @@ system:
         damageBonus: 2
       range:
         units: ft
-        value: 20 ft.
+        value: 20
       save:
         description: Will negates
         harmless: false

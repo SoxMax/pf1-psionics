@@ -11,7 +11,7 @@ name: Missive, Mass
 system:
   actions:
     - _id: ExiUeRruyipFyh3w
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

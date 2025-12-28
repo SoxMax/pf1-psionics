@@ -11,7 +11,7 @@ name: Remote Viewing
 system:
   actions:
     - _id: OrzyHuASC2nKdDFR
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: hour

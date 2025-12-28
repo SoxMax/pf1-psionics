@@ -11,7 +11,7 @@ name: Delayed Response
 system:
   actions:
     - _id: SFvYX5t0EZXeRvIm
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: immediate

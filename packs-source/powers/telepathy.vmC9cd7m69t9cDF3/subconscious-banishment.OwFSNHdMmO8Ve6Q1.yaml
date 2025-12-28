@@ -11,7 +11,7 @@ name: Subconscious Banishment
 system:
   actions:
     - _id: jPZKiOQfXF1M94bF
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

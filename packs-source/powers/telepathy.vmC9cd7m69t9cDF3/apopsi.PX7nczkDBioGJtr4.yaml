@@ -11,7 +11,7 @@ name: Apopsi
 system:
   actions:
     - _id: pf2ycHDK8tzOSPOG
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: round

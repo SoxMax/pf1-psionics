@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Suppress_Compulsion
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/control/debuff-chains-shackles-movement-blue.webp
 name: Suppress Compulsion
 system:
   actions:
@@ -18,9 +18,12 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       duration:
         units: round
         value: '1'
+      img: icons/magic/control/debuff-chains-shackles-movement-blue.webp
       name: Use
       powerAttack:
         critMultiplier: 1

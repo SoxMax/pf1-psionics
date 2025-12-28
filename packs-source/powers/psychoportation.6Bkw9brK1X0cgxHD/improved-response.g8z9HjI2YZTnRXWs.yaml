@@ -11,7 +11,7 @@ name: Improved Response
 system:
   actions:
     - _id: PlG4ipNbfvQaBQfz
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

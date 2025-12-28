@@ -11,7 +11,7 @@ name: Sharpened Edge
 system:
   actions:
     - _id: y8sdnx4wZWHo7c8L
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

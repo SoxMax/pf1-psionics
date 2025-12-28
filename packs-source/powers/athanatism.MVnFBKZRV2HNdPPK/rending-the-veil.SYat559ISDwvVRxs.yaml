@@ -11,7 +11,7 @@ name: Rending the Veil
 system:
   actions:
     - _id: G9yYP3xK4AoXk3tV
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -27,7 +27,7 @@ system:
         damageBonus: 2
       range:
         units: ft
-        value: 40 ft.
+        value: 40
       save:
         description: Will negates
         harmless: false

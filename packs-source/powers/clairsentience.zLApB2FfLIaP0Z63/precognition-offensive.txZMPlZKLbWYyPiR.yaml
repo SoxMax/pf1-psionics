@@ -18,11 +18,16 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       duration:
         dismiss: true
         units: minute
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@Apply[Precognition, Offensive;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

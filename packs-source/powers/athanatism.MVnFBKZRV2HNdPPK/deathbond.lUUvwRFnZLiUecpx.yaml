@@ -11,7 +11,7 @@ name: Deathbond
 system:
   actions:
     - _id: qtMbBhpHjJ7PJ5q3
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 10
         type: minute

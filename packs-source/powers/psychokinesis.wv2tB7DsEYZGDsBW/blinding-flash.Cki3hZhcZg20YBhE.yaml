@@ -11,17 +11,44 @@ name: Blinding Flash
 system:
   actions:
     - _id: uegq7VElApvPRyGS
-      actionType: save
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: spellsave
       activation:
         cost: 1
         type: swift
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: zJdAL3H3aREGekZG
+          cost: 1
+          effects:
+            dcBonus: 0.5
+            special: +1 round duration
+          img: icons/magic/light/explosion-star-glow-silhouette.webp
+          maxUses: null
+          name: Duration
+          requiresFocus: false
+        - _id: geoFSwo7asKnF6lE
+          cost: 4
+          effects:
+            dcBonus: 2
+            special: '@Condition[Blind]'
+          img: icons/magic/light/explosion-star-glow-silhouette.webp
+          maxUses: 1
+          name: Blind
+          requiresFocus: false
       duration:
         units: round
         value: '1'
       name: Use
+      notes:
+        footer:
+          - '@Condition[dazzled]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

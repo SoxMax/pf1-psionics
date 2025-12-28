@@ -18,22 +18,31 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      area: Cone-shaped emanation centered on you
+      augments:
+        - _id: 8jtlTjv0Q2lj5YDq
+          cost: 2
+          effects: {}
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: 1
+          name: Identify
+          requiresFocus: false
       duration:
         concentration: true
         dismiss: true
-        units: conc
-        value: up to 1 min./level (D)
+        units: minute
+        value: '@cl'
       name: Use
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
         units: ft
-        value: 60 ft.
+        value: '60'
       save:
         description: None
-      target:
-        value: Cone -shaped emanation centered on you
   description:
     value: >-
       <p>You detect psionic auras. A psionic aura is given off by any active or
@@ -41,119 +50,55 @@ system:
       have levels in a psionic class, creatures with the psionic subtype, and
       creatures with the Wild Talent feat possess psionic auras. The amount of
       information revealed by the manifestation of this power depends on how
-      long you study a particular area or subject.
-
-      </p><ul><li><em>1st Round:</em> Presence or absence of psionic
-      auras.</li></ul>
-
-      <ul><li><em>2nd Round:</em> Number of different psionic auras and the
-      strength of the most potent aura.</li></ul>
-
-      <ul><li><em>3rd Round:</em> The strength and location of each aura. If the
-      items or creatures bearing the auras are in line of sight, you can make
-      Knowledge (psionics) checks to determine the discipline involved in each
-      aura. (Make one check per aura; DC 15 + power level, or 15 + one-half
-      manifester level for an effect that is not created by a power, such as
-      that of a psionic item.) If the aura emanates from a psionic item, you can
-      attempt to identify its properties (see Spellcraft).</li></ul>
-
-      <p>Psionically charged locations, multiple disciplines, or strong local
-      psionic emanations may confuse or conceal weaker auras.
-
-      </p><ul><li><em>Aura Strength:</em> A psionic aura's strength depends on a
-      functioning power's level or an item's manifester level. If an aura falls
-      into more than one category, detect psionics indicates the stronger of the
-      two. Detection of an overwhelming aura (see the accompanying table) dazes
-      you for 1 round and the power ends.</li></ul>
-
-      <ul><li><em>Lingering Aura:</em> A psionic aura lingers after its original
-      source dissipates (in the case of a power) or is destroyed (in the case of
-      a psionic item). If detect psionics is manifested and directed at such a
-      location, the power indicates an aura of dim (even weaker than a faint
-      aura). How long the aura lingers at this dim level depends on its original
-      strength:</li></ul>
-
-      <table><tr><th>Original Strength
-
-      </th><th>Duration
-
-      </th></tr><tr><td>Faint
-
-      </td><td>1d6 minutes
-
-      </td></tr><tr><td>Moderate
-
-      </td><td>1d6 x 10 minutes
-
-      </td></tr><tr><td>Strong
-
-      </td><td>1d6 hours
-
-      </td></tr><tr><td>Overwhelming
-
-      </td><td>1d6 days
-
-      </td></tr></table>
-
-      <p>Each round, you can turn to detect psionics in a new area. You can tell
-      the difference between magical and psionic auras. The power can penetrate
-      barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of
-      lead, or 3 feet of wood or dirt blocks it.
-
-      </p>
-
-      <p><strong>Augment:</strong> If you spend 2 additional power points, the
-      duration changes to 3 rounds/level (D) (no concentration required) and it
-      also gives you a +10 enhancement bonus on Spellcraft checks made to
-      identify the properties and command words of magic items in your
-      possession. This power does not allow you to identify artifacts.
-
-      </p><table><tr><th>Power or Item
-
-      </th><th>Aura Strength
-
-      </th></tr><tr><th>Faint
-
-      </th><th>Moderate
-
-      </th><th>Strong
-
-      </th><th>Overwhelming
-
-      </th></tr><tr><td>Functioning power (power level)
-
-      </td><td>3rd or lower
-
-      </td><td>4th–6th
-
-      </td><td>7th–9th
-
-      </td><td>10th+ (deity-level)
-
-      </td></tr><tr><td>Psionic item or creature (manifester level)*
-
-      </td><td>5th or lower
-
-      </td><td>6th–11th
-
-      </td><td>12th–20th
-
-      </td><td>21st+ (artifact)
-
-      </td></tr></table>
-
-      <p>* For creatures without a manifester level, use the creature's CR or
-      hit die, whichever is lower.
-
-      </p><ul><li><em>Librarian Note</em>: In Psionics Unleashed, this power is
-      instead a 1st-level power for psions, wilders, and psychic warriors. In
-      addition, it also does not have the duration change augment effect (but
-      keeps the +10 Spellcraft effect). Otherwise, it is functionally the same
-      power.</li><li>This power was added to the <a href="/wiki/Thug_Power_List"
-      title="Thug Power List">Thug Power List</a> in <em><a
-      href="/wiki/Akasha_Reshaped:_Psionic_Essence" title="Akasha Reshaped:
-      Psionic Essence">Akasha Reshaped: Psionic Essence</a></em> pg.
-      9-12.</li></ul>
+      long you study a particular area or subject.</p><ul><li><em>1st
+      Round:</em> Presence or absence of psionic auras.</li></ul><ul><li><em>2nd
+      Round:</em> Number of different psionic auras and the strength of the most
+      potent aura.</li></ul><ul><li><em>3rd Round:</em> The strength and
+      location of each aura. If the items or creatures bearing the auras are in
+      line of sight, you can make Knowledge (psionics) checks to determine the
+      discipline involved in each aura. (Make one check per aura; DC 15 + power
+      level, or 15 + one-half manifester level for an effect that is not created
+      by a power, such as that of a psionic item.) If the aura emanates from a
+      psionic item, you can attempt to identify its properties (see
+      Spellcraft).</li></ul><p>Psionically charged locations, multiple
+      disciplines, or strong local psionic emanations may confuse or conceal
+      weaker auras.</p><ul><li><em>Aura Strength:</em> A psionic aura's strength
+      depends on a functioning power's level or an item's manifester level. If
+      an aura falls into more than one category, detect psionics indicates the
+      stronger of the two. Detection of an overwhelming aura (see the
+      accompanying table) dazes you for 1 round and the power
+      ends.</li></ul><ul><li><em>Lingering Aura:</em> A psionic aura lingers
+      after its original source dissipates (in the case of a power) or is
+      destroyed (in the case of a psionic item). If detect psionics is
+      manifested and directed at such a location, the power indicates an aura of
+      dim (even weaker than a faint aura). How long the aura lingers at this dim
+      level depends on its original
+      strength:</li></ul><table><tbody><tr><th><p>Original
+      Strength</p></th><th><p>Duration</p></th></tr><tr><td><p>Faint</p></td><td><p>1d6
+      minutes</p></td></tr><tr><td><p>Moderate</p></td><td><p>1d6 x 10
+      minutes</p></td></tr><tr><td><p>Strong</p></td><td><p>1d6
+      hours</p></td></tr><tr><td><p>Overwhelming</p></td><td><p>1d6
+      days</p></td></tr></tbody></table><p>Each round, you can turn to detect
+      psionics in a new area. You can tell the difference between magical and
+      psionic auras. The power can penetrate barriers, but 1 foot of stone, 1
+      inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt
+      blocks it.</p><p><strong>Augment:</strong> If you spend 2 additional power
+      points, the duration changes to 3 rounds/level (D) (no concentration
+      required) and it also gives you a +10 enhancement bonus on Spellcraft
+      checks made to identify the properties and command words of magic items in
+      your possession. This power does not allow you to identify
+      artifacts.</p><table><tbody><tr><th rowspan="2"><p>Power or
+      Item</p></th><th colspan="4" data-colwidth="0,0,0,112"><p>Aura
+      Strength</p></th></tr><tr><th><p>Faint</p></th><th><p>Moderate</p></th><th><p>Strong</p></th><th
+      data-colwidth="112"><p>Overwhelming</p></th></tr><tr><td><p>Functioning
+      power (power level)</p></td><td><p>3rd or
+      lower</p></td><td><p>4th–6th</p></td><td><p>7th–9th</p></td><td
+      data-colwidth="112"><p>10th+ (deity-level)</p></td></tr><tr><td><p>Psionic
+      item or creature (manifester level)*</p></td><td><p>5th or
+      lower</p></td><td><p>6th–11th</p></td><td><p>12th–20th</p></td><td
+      data-colwidth="112"><p>21st+ (artifact)</p></td></tr></tbody></table><p>*
+      For creatures without a manifester level, use the creature's CR or hit
+      die, whichever is lower.</p>
   discipline: clairsentience
   display:
     auditory: true

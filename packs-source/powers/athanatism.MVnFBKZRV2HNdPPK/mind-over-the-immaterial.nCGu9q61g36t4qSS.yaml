@@ -11,7 +11,7 @@ name: Mind over the Immaterial
 system:
   actions:
     - _id: bFUpBVRe7bGYujS4
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

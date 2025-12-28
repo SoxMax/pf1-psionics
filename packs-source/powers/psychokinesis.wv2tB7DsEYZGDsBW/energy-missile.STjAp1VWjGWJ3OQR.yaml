@@ -156,7 +156,7 @@ system:
           Up to five creatures or unattended objects; no two targets can be more
           than 15 ft. apart.
     - _id: FsT6Ch1wGToZ06Lo
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

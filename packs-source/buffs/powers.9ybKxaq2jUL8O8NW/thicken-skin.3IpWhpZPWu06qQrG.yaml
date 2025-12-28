@@ -1,0 +1,39 @@
+_id: 3IpWhpZPWu06qQrG
+_key: '!items!3IpWhpZPWu06qQrG'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/defensive/armor-stone-skin.webp
+name: Thicken Skin
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: XGSYhUL8
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.qmraZHZCTzOxB4DG]{Thicken
+      Skin}</p><p>+Natural Armor</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '@item.level * 10'
+  hideFromToken: false
+  level: 1
+  showInQuickbar: false
+  subType: spell
+type: buff

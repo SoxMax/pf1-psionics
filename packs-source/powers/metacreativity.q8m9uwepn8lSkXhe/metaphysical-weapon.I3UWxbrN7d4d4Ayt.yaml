@@ -6,21 +6,27 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Metaphysical_Weapon
 folder: q8m9uwepn8lSkXhe
-img: icons/magic/symbols/runes-star-magenta.webp
+img: icons/skills/melee/sword-engraved-glow-purple.webp
 name: Metaphysical Weapon
 system:
   actions:
     - _id: tfFcVexvrmCq9X6s
-      actionType: save
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       duration:
         units: minute
         value: '@cl'
+      img: icons/skills/melee/sword-engraved-glow-purple.webp
       name: Use
       powerAttack:
         critMultiplier: 1

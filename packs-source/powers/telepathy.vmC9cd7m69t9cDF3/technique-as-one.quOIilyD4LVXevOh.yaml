@@ -11,7 +11,7 @@ name: Technique as One
 system:
   actions:
     - _id: yKQWcpWMBIc4gFle
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard

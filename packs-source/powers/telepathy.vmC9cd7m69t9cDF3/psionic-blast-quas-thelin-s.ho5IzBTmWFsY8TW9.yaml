@@ -11,7 +11,7 @@ name: Psionic Blast, Quas'thelin's
 system:
   actions:
     - _id: IPpAhpZG1saOe3Rr
-      actionType: save
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -27,7 +27,7 @@ system:
         damageBonus: 2
       range:
         units: ft
-        value: 30 ft.
+        value: 30
       save:
         description: Will negates
         harmless: false

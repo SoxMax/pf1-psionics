@@ -18,7 +18,18 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      ammo:
+        type: none
+      area: 40-ft. cone of light emanating from you
+      augments:
+        - _id: WNIwTTpH4lwItsYf
+          cost: 2
+          effects:
+            special: Swift Action
+          img: icons/magic/light/explosion-star-glow-silhouette.webp
+          maxUses: 1
+          name: Swift Action
+          requiresFocus: false
       duration:
         dismiss: true
         units: minute
@@ -32,8 +43,6 @@ system:
         value: Personal
       save:
         description: None
-      target:
-        value: 40-ft. cone of light emanating from you
   description:
     value: >-
       <p>Your eyes beam forth a 40-foot cone of light; for the first 20 feet,
@@ -41,27 +50,13 @@ system:
       the other 20 feet by one step, up to normal light (darkness becomes dim
       light, and dim light becomes normal light). In an area of normal or bright
       light, this power can be manifested but it has no effect, until you enter
-      into an area with a lower light level.
-
-      </p>
-
-      <p>If my light is used in conjunction with elfsight, the cone of light
-      extends out to 80 feet instead of 40 feet.
-
-      </p>
-
-      <p>If my light is used in conjunction with control light, the cone of
-      light extends out to 60 feet instead of 20 feet.
-
-      </p>
-
-      <p><strong>Augment:</strong> You can augment this power in one of the
-      following ways.
-
-      </p><ol><li>If you spend 2 additional power points, you can manifest this
-      power as a swift action.</li><li>If you expend your psionic focus when
-      manifesting this power, the cost of the power is reduced by 1 (to a
-      minimum of 0).</li></ol>
+      into an area with a lower light level.</p><p>If my light is used in
+      conjunction with elfsight, the cone of light extends out to 80 feet
+      instead of 40 feet.</p><p>If my light is used in conjunction with control
+      light, the cone of light extends out to 60 feet instead of 20
+      feet.</p><p><strong>Augment:</strong> You can augment this power in one of
+      the following ways.</p><ol><li>If you spend 2 additional power points, you
+      can manifest this power as a swift action.</li></ol>
   descriptors:
     - light
   discipline: psychokinesis
