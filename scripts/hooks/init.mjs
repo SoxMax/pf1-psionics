@@ -4,13 +4,15 @@ import { PowerModel } from "../dataModels/_module.mjs";
 import { PowerItem } from "../documents/_module.mjs";
 import { DISCIPLINE_TO_SCHOOL } from "../data/disciplines.mjs";
 import {registerPsionicApplyEnricher} from "./enrichers/apply.mjs";
+import {registerPsionicBrowseEnricher} from "./enrichers/browse.mjs";
 
 function initHook() {
   registerSettings();
   registerConfig();
   registerItems();
 
-  registerPsionicApplyEnricher()
+  registerPsionicApplyEnricher();
+  registerPsionicBrowseEnricher();
   console.log(`${MODULE_ID} | Initialized`);
 }
 
