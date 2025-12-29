@@ -17,6 +17,17 @@ function injectActionUse() {
       }
     }
   }, "LISTENER");
+
+  libWrapper.register(MODULE_ID, "pf1.actionUse.ActionUse.prototype.generateChatMetadata", function (wrapped, ...args) {
+      const metadata = wrapped(...args);
+      if (this.item.type === `${MODULE_ID}.power` && this.shared?.rollData?.augments) {
+        metadata.config ??= {};
+        metadata.config.augments = this.shared.rollData.augments;
+      }
+      return metadata;
+    },
+    "WRAPPER"
+  );
 }
 
 function pf1PreActionUseHook(actionUse) {
@@ -215,4 +226,3 @@ function applyAugmentEffects(actionUse, augmentCounts) {
 Hooks.on("pf1PreActionUse", pf1PreActionUseHook);
 
 Hooks.once("libWrapper.Ready", injectActionUse);
-

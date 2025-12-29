@@ -19,6 +19,7 @@ function getRollData(message) {
     if (cfg.cl !== undefined) rollData.cl = cfg.cl;
     if (cfg.sl !== undefined) rollData.sl = cfg.sl;
     if (cfg.critMult !== undefined) rollData.critMult = cfg.critMult;
+    if (cfg.augments !== undefined) rollData.augments = cfg.augments;
   }
 
   return rollData;
@@ -106,8 +107,10 @@ async function enhancedApplyClick(originalClick, event, target) {
   if (!useTargetRollData) {
     const message = getMessage(target);
     const rollData = getRollData(message);
+    debugger;
     await generateResults(rollData);
   }
+  debugger;
 
   // Apply to each actor
   for (const actor of actors) {
