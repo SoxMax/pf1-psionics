@@ -13,13 +13,18 @@ function getRollData(message) {
   srcDoc ??= message.speaker ? ChatMessage.getSpeakerActor(message.speaker) : null;
   const rollData = srcDoc?.getRollData();
 
-  // Apply cached values
+  // Apply cached values from system.config (cl, sl, critMult)
   const cfg = message.system?.config;
   if (cfg && rollData) {
     if (cfg.cl !== undefined) rollData.cl = cfg.cl;
     if (cfg.sl !== undefined) rollData.sl = cfg.sl;
     if (cfg.critMult !== undefined) rollData.critMult = cfg.critMult;
-    if (cfg.augments !== undefined) rollData.augments = cfg.augments;
+  }
+
+  // Apply augments from module flags (not system.config - see message-rolldata-persistence.md)
+  const augments = message.getFlag(MODULE_ID, "augments");
+  if (augments !== undefined && rollData) {
+    rollData.augments = augments;
   }
 
   return rollData;

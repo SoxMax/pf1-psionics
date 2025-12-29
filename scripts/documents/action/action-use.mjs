@@ -17,18 +17,6 @@ function injectActionUse() {
       }
     }
   }, "LISTENER");
-
-  libWrapper.register(MODULE_ID, "pf1.actionUse.ActionUse.prototype.generateChatMetadata", function (wrapped, ...args) {
-      const metadata = wrapped(...args);
-      if (this.item.type === `${MODULE_ID}.power` && this.shared?.rollData?.augments) {
-        metadata.config ??= {};
-        metadata.config.sl = this.shared.rollData.sl;
-        metadata.config.augments = this.shared.rollData.augments;
-      }
-      return metadata;
-    },
-    "WRAPPER"
-  );
 }
 
 function pf1PreActionUseHook(actionUse) {
@@ -223,7 +211,25 @@ function applyAugmentEffects(actionUse, augmentCounts) {
   }
 }
 
+/**
+ * Hook to cache augments in message flags after messages are created
+ * @param {ActionUse} actionUse - The action use that just completed
+ * @param {ChatMessage|null} message - The message created by using the action
+ */
+async function pf1PostActionUseHook(actionUse, message) {
+  if (!message) return;
+  // Only process power items
+  if (actionUse.item.type !== `${MODULE_ID}.power`) return;
+
+  // Only cache if augments were applied
+  const augments = actionUse.shared?.rollData?.augments;
+  if (!augments) return;
+
+  await message.setFlag(MODULE_ID, "augments", augments);
+}
+
 // Register hooks
 Hooks.on("pf1PreActionUse", pf1PreActionUseHook);
+Hooks.on("pf1PostActionUse", pf1PostActionUseHook);
 
 Hooks.once("libWrapper.Ready", injectActionUse);
