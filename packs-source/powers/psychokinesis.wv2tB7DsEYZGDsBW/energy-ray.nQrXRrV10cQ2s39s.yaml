@@ -35,7 +35,7 @@ system:
           requiresFocus: false
       damage:
         parts:
-          - formula: (1+@augments.damage)d6+(1+augments.damage)
+          - formula: (1+@augments.damage)d6+(1+@augments.damage)
             types:
               - cold
       description: <p>A ray of this energy type deals +1 point of damage per die.</p>
@@ -148,7 +148,7 @@ system:
           requiresFocus: false
       damage:
         parts:
-          - formula: (1+@augments.damage)d6+(1+augments.damage)
+          - formula: (1+@augments.damage)d6+(1+@augments.damage)
             types:
               - fire
       description: <p>A ray of this energy type deals +1 point of damage per die.</p>
@@ -196,7 +196,7 @@ system:
           requiresFocus: false
       damage:
         parts:
-          - formula: (1+@augments.damage)d6-(1+augments.damage)
+          - formula: (1+@augments.damage)d6-(1+@augments.damage)
             types:
               - sonic
       description: >-
