@@ -3,7 +3,6 @@ import {runMigrations} from "../migrations/_module.mjs";
 import {PowerPointsApi, PsionicFocusApi} from "../api/_module.mjs";
 import {PowerPointsHelper, PsionicFocusHelper, PsionicsHelper} from "../helpers/_module.mjs";
 import {PsionicPowerBrowser} from "../applications/_module.mjs";
-import {registerPsionicApplyEnricher} from "./enrichers/apply.mjs";
 
 async function readyHook() {
   console.log(`${MODULE_ID} | Ready`);
@@ -15,7 +14,7 @@ async function readyHook() {
   attachActorHelpers();
 
   // Register compendium browser
-  registerPsionicApplyEnricher();
+  registerCompendiumBrowser();
 
   await runMigrations();
 }

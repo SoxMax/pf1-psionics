@@ -13,8 +13,6 @@ import {setIcon} from "./common.mjs";
 async function onPsionicBrowse(event, target) {
   const {category} = target.dataset;
   const browser = pf1.applications.compendiums[category];
-  const compendiums = pf1.applications.compendiums;
-  debugger;
 
   if (!browser) {
     console.warn(`${MODULE_ID} | @PsionicBrowse | Could not find compendium browser for category`, category);
