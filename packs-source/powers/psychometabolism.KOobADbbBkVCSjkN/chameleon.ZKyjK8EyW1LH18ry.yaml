@@ -28,7 +28,7 @@ system:
       name: Use
       notes:
         footer:
-          - '@Apply[Chameleon;level=@cl]'
+          - '@PsionicApply[Chameleon;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

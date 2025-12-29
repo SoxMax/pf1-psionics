@@ -30,7 +30,7 @@ system:
       name: Use
       notes:
         footer:
-          - '@Apply[Toughen;level=@cl]'
+          - '@PsionicApply[Toughen;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

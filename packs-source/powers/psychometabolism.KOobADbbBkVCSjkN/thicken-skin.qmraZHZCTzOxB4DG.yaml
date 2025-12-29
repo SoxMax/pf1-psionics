@@ -27,7 +27,7 @@ system:
       name: Use
       notes:
         footer:
-          - '@Apply[Thicken Skin;level=@cl]'
+          - '@PsionicApply[Thicken Skin;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

@@ -39,7 +39,7 @@ system:
       name: Use
       notes:
         footer:
-          - '@Apply[Distract;level=@cl]'
+          - '@PsionicApply[Distract;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

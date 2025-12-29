@@ -26,7 +26,7 @@ system:
       name: Use
       notes:
         footer:
-          - '@Apply[Circumstance Shield;level=@cl]'
+          - '@PsionicApply[Circumstance Shield;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

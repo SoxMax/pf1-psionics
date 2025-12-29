@@ -27,7 +27,7 @@ system:
       name: Use
       notes:
         footer:
-          - '@Apply[Precognition, Defensive;level=@cl]'
+          - '@PsionicApply[Precognition, Defensive;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
