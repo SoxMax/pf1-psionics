@@ -26,15 +26,16 @@ system:
       augments:
         - _id: TNQHtin5kCvA3HXH
           cost: 1
-          effects:
-            damageBonus: 1d6+1
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
           maxUses: null
           name: Damage
           requiresFocus: false
       damage:
         parts:
-          - formula: 1d6+1
+          - formula: (1+@augments.damage)d6+(1+augments.damage)
             types:
               - cold
       description: <p>A ray of this energy type deals +1 point of damage per die.</p>
@@ -69,8 +70,9 @@ system:
       augments:
         - _id: TNQHtin5kCvA3HXH
           cost: 1
-          effects:
-            damageBonus: 1d6
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
           maxUses: null
           name: Damage
@@ -81,20 +83,22 @@ system:
           modifiers:
             - _id: 78oJJtrSBfvdr1zU
               critical: normal
+              damageType: []
               formula: '3'
               subTarget: allAttack
               target: attack
               type: untyped
             - _id: ppFklaBS8wU3QRBS
+              damageType: []
               formula: '2'
               target: cl
               type: untyped
           name: vs metal armor
       damage:
         parts:
-          - formula: 1d6
+          - formula: (1+@augments.damage)d6
             types:
-              - electricty
+              - electric
       description: >-
         <p>Manifesting a ray of this energy type provides a +3 bonus on your
         attack roll if the target is wearing metal armor and a +2 bonus on
@@ -135,15 +139,16 @@ system:
       augments:
         - _id: TNQHtin5kCvA3HXH
           cost: 1
-          effects:
-            damageBonus: 1d6+1
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
           maxUses: null
           name: Damage
           requiresFocus: false
       damage:
         parts:
-          - formula: 1d6+1
+          - formula: (1+@augments.damage)d6+(1+augments.damage)
             types:
               - fire
       description: <p>A ray of this energy type deals +1 point of damage per die.</p>
@@ -182,15 +187,16 @@ system:
       augments:
         - _id: TNQHtin5kCvA3HXH
           cost: 1
-          effects:
-            damageBonus: 1d6-1
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
           maxUses: null
           name: Damage
           requiresFocus: false
       damage:
         parts:
-          - formula: 1d6-1
+          - formula: (1+@augments.damage)d6-(1+augments.damage)
             types:
               - sonic
       description: >-
