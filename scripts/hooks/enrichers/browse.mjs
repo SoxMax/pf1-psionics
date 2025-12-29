@@ -33,11 +33,19 @@ async function onPsionicBrowse(event, target) {
     if (skipKeys.has(key)) continue;
 
     // Parse semicolon-separated values
-    const values = String(value).split(";").map(v => v.trim()).filter(v => v);
+    const values = value.split(";").map(v => v.trim()).filter(v => v);
     if (values.length > 0) {
       filters[key] = values;
     }
   }
+
+  // Apply filters if any were found
+  if (Object.keys(filters).length > 0) {
+    browser._queueFilters(filters);
+  }
+
+  // Open the browser
+  browser.render(true, {focus: true});
 }
 
 /**
