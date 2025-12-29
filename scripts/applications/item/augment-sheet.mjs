@@ -64,7 +64,41 @@ export class AugmentEditor extends globalThis.FormApplication {
   ACTIONS = { ...this.constructor.ACTIONS };
 
   static ACTIONS = {
-    // Add action handlers here as needed
+    // Handlebars partial for notes uses generic add/delete with a data-name
+    add(_event, target) {
+      const arrayName = target.dataset.name; // "effectNotes" or "footerNotes"
+      const current = this.augment[arrayName] || [];
+      this.augment.update({ [arrayName]: [...current, ""] });
+    },
+    delete(_event, target) {
+      const arrayName = target.dataset.name;
+      const index = parseInt(target.dataset.index);
+      const current = this.augment[arrayName] || [];
+      const updated = current.filter((_, i) => i !== index);
+      this.augment.update({ [arrayName]: updated });
+    },
+
+    // Legacy-specific handlers (no longer used by the new template but kept for safety)
+    addEffectNote(_event, _target) {
+      const currentNotes = this.augment.effectNotes || [];
+      this.augment.update({ effectNotes: [...currentNotes, ""] });
+    },
+    removeEffectNote(_event, target) {
+      const index = parseInt(target.dataset.index);
+      const currentNotes = this.augment.effectNotes || [];
+      const newNotes = currentNotes.filter((_, i) => i !== index);
+      this.augment.update({ effectNotes: newNotes });
+    },
+    addFooterNote(_event, _target) {
+      const currentNotes = this.augment.footerNotes || [];
+      this.augment.update({ footerNotes: [...currentNotes, ""] });
+    },
+    removeFooterNote(_event, target) {
+      const index = parseInt(target.dataset.index);
+      const currentNotes = this.augment.footerNotes || [];
+      const newNotes = currentNotes.filter((_, i) => i !== index);
+      this.augment.update({ footerNotes: newNotes });
+    },
   };
 
   get id() {

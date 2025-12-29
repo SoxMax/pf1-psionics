@@ -38,6 +38,27 @@ function pf1PreActionUseHook(actionUse) {
 }
 
 /**
+ * Build augments counts object for rollData
+ * @param {Array} augments - Available augments
+ * @param {Object} augmentCounts - Map of augment ID to activation count
+ * @returns {Object} Map of tag to count
+ */
+function buildAugmentsCounts(augments, augmentCounts) {
+  const counts = {};
+
+  // Include ALL augments, even with 0 count
+  for (const augment of augments) {
+    const count = augmentCounts[augment._id] || 0;
+    const tag = augment.tag || pf1.utils.createTag(augment.name);
+
+    // Sum counts for same tag (allows intentional grouping)
+    counts[tag] = (counts[tag] || 0) + count;
+  }
+
+  return counts;
+}
+
+/**
  * Calculate the total effects from all augments
  * @param {Array} augments - Available augments on the item
  * @param {Object} augmentCounts - Object mapping augment IDs to their counts
@@ -123,9 +144,13 @@ function applyAugmentEffects(actionUse, augmentCounts) {
   const action = actionUse.action;
   const augments = action.augments ? Array.from(action.augments.values()) : [];
 
+  // Build augments rollData - just counts by tag
+  rollData.augments = buildAugmentsCounts(augments, augmentCounts);
+
   // Calculate all augment effect totals
   const totals = calculateAugmentTotals(augments, augmentCounts);
 
+  // DEPRECATED: Keep for backward compatibility
   // ✨ Expose augment data to roll formulas via rollData.augment
   // This allows formulas to reference augment bonuses (e.g., for DC scaling)
   rollData.augment = {
@@ -135,6 +160,24 @@ function applyAugmentEffects(actionUse, augmentCounts) {
     totalCost: totals.chargeCostBonus || 0,
     durationMult: totals.durationMultiplier || 1,
   };
+
+  // Merge notes from activated augments into action
+  for (const augment of augments) {
+    const count = augmentCounts[augment._id] || 0;
+    if (count <= 0) continue;
+
+    // Merge effect notes
+    if (augment.effectNotes?.length) {
+      shared.effectNotes ??= [];
+      shared.effectNotes.push(...augment.effectNotes);
+    }
+
+    // Merge footer notes
+    if (augment.footerNotes?.length) {
+      shared.footerNotes ??= [];
+      shared.footerNotes.push(...augment.footerNotes);
+    }
+  }
 
   // Apply all totals at once
   if (totals.chargeCostBonus > 0) {

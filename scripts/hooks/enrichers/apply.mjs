@@ -35,7 +35,7 @@ async function enhancedApplyClick(originalClick, event, target) {
 	let actors;
 	try {
 		actors = pf1.chat.enrichers.getRelevantActors(target, false);
-	} catch (e) {
+	} catch (_e) {
 		// If we can't find actors, try the original handler as fallback
 		console.warn(`${MODULE_ID} | @Apply | Could not find relevant actors, falling back to original handler`);
 		return originalClick.call(this, event, target);

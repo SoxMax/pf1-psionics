@@ -66,8 +66,15 @@ export class AugmentModel extends pf1.models.abstract.DocumentLikeModel {
         durationMultiplier: new fields.NumberField({ required: false }),
         dcBonus: new fields.NumberField({ required: false }),
         clBonus: new fields.NumberField({ required: false }),
-        special: new fields.StringField({ required: false }),
       }),
+      effectNotes: new fields.ArrayField(
+        new fields.StringField(),
+        { required: false, initial: () => [] }
+      ),
+      footerNotes: new fields.ArrayField(
+        new fields.StringField(),
+        { required: false, initial: () => [] }
+      ),
     };
   }
 
@@ -152,6 +159,20 @@ export class AugmentModel extends pf1.models.abstract.DocumentLikeModel {
   }
 
   /**
+   * Migrate data from old schema to new schema
+   *
+   * @param {object} source - Source data to migrate
+   * @returns {object} Migrated source data
+   */
+  static migrateData(source) {
+    // Migrate effects.special to effectNotes
+    if (source.effects?.special && !source.effectNotes?.length) {
+      source.effectNotes = [source.effects.special];
+    }
+    return source;
+  }
+
+  /**
    * Prune empty data from source
    *
    * @param {object} source - Source data to prune
@@ -174,10 +195,13 @@ export class AugmentModel extends pf1.models.abstract.DocumentLikeModel {
       if (source.effects.durationMultiplier === 1) delete source.effects.durationMultiplier;
       if (source.effects.dcBonus === 0) delete source.effects.dcBonus;
       if (source.effects.clBonus === 0) delete source.effects.clBonus;
-      if (!source.effects.special) delete source.effects.special;
 
       // Remove effects object if empty
       if (Object.keys(source.effects).length === 0) delete source.effects;
     }
+
+    // Prune empty note arrays
+    if (source.effectNotes?.length === 0) delete source.effectNotes;
+    if (source.footerNotes?.length === 0) delete source.footerNotes;
   }
 }
