@@ -22,6 +22,7 @@ function injectActionUse() {
       const metadata = wrapped(...args);
       if (this.item.type === `${MODULE_ID}.power` && this.shared?.rollData?.augments) {
         metadata.config ??= {};
+        metadata.config.sl = this.shared.rollData.sl;
         metadata.config.augments = this.shared.rollData.augments;
       }
       return metadata;
