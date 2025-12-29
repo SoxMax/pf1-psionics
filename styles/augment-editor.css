@@ -186,3 +186,15 @@ section.augments .augment-special {
 .pf1.sheet.augment-editor form .card-notes > :last-child {
   padding-bottom: 0;
 }
+
+/* Ensure note rows are single-line with controls on the right */
+.pf1.sheet.augment-editor form .card-notes > .note-list > li {
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+}
+.pf1.sheet.augment-editor form .card-notes > .note-list > li > .controls.entry {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
