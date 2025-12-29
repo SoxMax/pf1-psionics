@@ -36,20 +36,36 @@ function injectActionUse() {
     }
   }, "WRAPPER");
 
-  // After core effect notes are gathered, append augment effect notes to each chat attack
+  // After core effect notes are gathered per ChatAttack, append augment effect notes and re-enrich HTML
+  // Note: ChatAttack.addEffectNotes({ rollData }) resets effectNotes and calls setEffectNotesHTML at the end.
+  // We wrap addEffectNotes, call the original to gather base notes, then append augment notes and re-run enrichment.
   libWrapper.register(MODULE_ID, "pf1.actionUse.ChatAttack.prototype.addEffectNotes", async function(wrapped, ...args) {
     await wrapped(...args);
 
-    // const extraEffectNotes = this.shared.effectNotes;
-    // if (!extraEffectNotes?.length) return;
-    //
-    // const mapped = extraEffectNotes.map((note) => (typeof note === "string" ? { text: note } : note)).filter(Boolean);
-    // for (const attack of this.shared.chatAttacks) {
-    //   attack.effectNotes ??= [];
-    //   attack.effectNotes.push(...mapped);
-    //   // Refresh the pre-rendered HTML if present
-    //   if (typeof attack.setEffectNotesHTML === "function") await attack.setEffectNotesHTML();
-    // }
+    // Expect first arg to be an options object with { rollData }
+    const opts = args?.[0] || {};
+    const rollData = opts.rollData ?? this.rollData ?? this.actionUse?.shared?.rollData;
+
+    const action = this.action;
+    const augments = action?.augments ? Array.from(action.augments.values()) : [];
+    if (!rollData || !augments?.length) return;
+
+    const notes = [];
+    for (const [augmentId, count] of Object.entries(rollData.augmentCounts || {})) {
+      if (count <= 0) continue;
+      const augment = augments.find(a => a._id === augmentId);
+      if (!augment) continue;
+      // Add augment effect notes
+      if (Array.isArray(augment.effectNotes) && augment.effectNotes.length) {
+        notes.push(...augment.effectNotes.map((text) => ({ text })));
+      }
+    }
+
+    if (notes.length) {
+      this.effectNotes.push(...notes);
+      // Rebuild enriched HTML since the original method already ran enrichment before we appended
+      await this.setEffectNotesHTML();
+    }
   }, "WRAPPER");
 }
 
