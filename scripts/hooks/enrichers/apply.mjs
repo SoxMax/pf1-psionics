@@ -2,6 +2,17 @@ import {MODULE_ID} from "../../_module.mjs";
 import {RollPF} from "../../../ruleset/pf1e/module/dice/roll.mjs";
 
 /**
+ * @param {Element} el
+ * @param {string} icon
+ */
+function setIcon(el, icon) {
+  const i = document.createElement("i");
+  i.inert = true;
+  i.classList.add(...icon.split(" "));
+  el.prepend(i, " ");
+}
+
+/**
  * Get most relevant roll data
  *
  * @param {ChatMessagePF} message
@@ -183,8 +194,7 @@ export function registerPsionicApplyEnricher() {
           a.replaceChildren(ident);
         }
 
-        // Use namespaced setIcon helper from PF1 enrichers
-        pf1.chat.enrichers.setIcon(a, "fa-solid fa-angles-right");
+        setIcon(a, "fa-solid fa-angles-right");
 
         return a;
       },
