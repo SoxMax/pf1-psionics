@@ -112,10 +112,8 @@ async function enhancedApplyClick(originalClick, event, target) {
   if (!useTargetRollData) {
     const message = getMessage(target);
     const rollData = getRollData(message);
-    debugger;
     await generateResults(rollData);
   }
-  debugger;
 
   // Apply to each actor
   for (const actor of actors) {
