@@ -17,6 +17,40 @@ function injectActionUse() {
       }
     }
   }, "LISTENER");
+
+  // After core footnotes are gathered, append augment footer notes
+  libWrapper.register(MODULE_ID, "pf1.actionUse.ActionUse.prototype.addFootnotes", async function(wrapped, ...args) {
+    await wrapped(...args);
+
+    const rollData = this.shared.rollData;
+    const action = this.action;
+    const augments = action.augments;
+    for (const [augmentId, count] of Object.entries(rollData.augmentCounts)) {
+      if (count <= 0) continue;
+
+      const augment = augments.find(a => a._id === augmentId);
+      if (!augment) continue;
+
+      // Add augment notes
+      this.shared.templateData.footnotes.push(...augment.footerNotes.map((text) => ({ text })));
+    }
+  }, "WRAPPER");
+
+  // After core effect notes are gathered, append augment effect notes to each chat attack
+  libWrapper.register(MODULE_ID, "pf1.actionUse.ChatAttack.prototype.addEffectNotes", async function(wrapped, ...args) {
+    await wrapped(...args);
+
+    // const extraEffectNotes = this.shared.effectNotes;
+    // if (!extraEffectNotes?.length) return;
+    //
+    // const mapped = extraEffectNotes.map((note) => (typeof note === "string" ? { text: note } : note)).filter(Boolean);
+    // for (const attack of this.shared.chatAttacks) {
+    //   attack.effectNotes ??= [];
+    //   attack.effectNotes.push(...mapped);
+    //   // Refresh the pre-rendered HTML if present
+    //   if (typeof attack.setEffectNotesHTML === "function") await attack.setEffectNotesHTML();
+    // }
+  }, "WRAPPER");
 }
 
 function pf1PreActionUseHook(actionUse) {
