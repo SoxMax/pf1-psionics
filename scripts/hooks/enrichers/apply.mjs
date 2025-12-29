@@ -42,21 +42,14 @@ function getMessage(target) {
 }
 
 /**
- * Enhanced click handler for @Apply enricher.
+ * Click handler for @PsionicApply enricher.
  *
- * Supports setting dictionary flags on buffs via syntax:
- * @Apply[BuffName;level=@cl;dFlags.flagName=value]{Label}
+ * Applies a buff with support for dictionary flags and level formulas.
  *
- * The enricher's dataset can contain:
- * - uuid: UUID of the buff item
- * - level: Formula for buff level (caster level)
- * - dFlags.X: Dictionary flag values (can be formulas)
- *
- * @param {Function} originalClick - Original click handler to fall back to
  * @param {Event} event - Click event
  * @param {HTMLElement} target - Clicked element
  */
-async function enhancedApplyClick(originalClick, event, target) {
+async function onPsionicApply(event, target) {
   // Extract dFlags from dataset
   const dFlags = {};
   for (const [key, val] of Object.entries(target.dataset)) {
@@ -64,10 +57,6 @@ async function enhancedApplyClick(originalClick, event, target) {
     if (match) dFlags[match[1]] = val;
   }
 
-  // If no dFlags, use original handler
-  if (Object.keys(dFlags).length === 0) return originalClick.call(this, event, target);
-
-  // Custom implementation with dFlags support
   const {uuid, level, vars} = target.dataset;
 
   // Resolve actors using PF1 helper
@@ -75,17 +64,22 @@ async function enhancedApplyClick(originalClick, event, target) {
   try {
     actors = pf1.chat.enrichers.getRelevantActors(target, false);
   } catch (_e) {
-    console.warn(`${MODULE_ID} | @Apply | Could not find relevant actors, falling back to original handler`);
-    return originalClick.call(this, event, target);
+    console.error(`${MODULE_ID} | @PsionicApply | Could not find relevant actors`);
+    return void ui.notifications.error(
+        game.i18n.localize("PF1.EnrichedText.Errors.NoneSelected"),
+    );
   }
-  if (actors.size === 0) return originalClick.call(this, event, target);
+  if (actors.size === 0) {
+    ui.notifications.error(game.i18n.localize("PF1.EnrichedText.Errors.NoneSelected"));
+    return;
+  }
 
   // Load item
   const item = await fromUuid(uuid);
   if (!item) {
     const warn = game.i18n.localize("PF1.EnrichedText.Errors.ItemNotFound");
     ui.notifications.warn(warn, {console: false});
-    return void console.error(`${MODULE_ID} | @Apply |`, warn, uuid);
+    return void console.error(`${MODULE_ID} | @PsionicApply |`, warn, uuid);
   }
   if (item.type !== "buff") {
     return void ui.notifications.error(
@@ -150,35 +144,56 @@ async function enhancedApplyClick(originalClick, event, target) {
     }
   }
 
-  console.debug(`${MODULE_ID} | @Apply | Applied buff "${item.name}" with dFlags:`, dFlags);
+  console.debug(`${MODULE_ID} | @PsionicApply | Applied buff "${item.name}" with dFlags:`, dFlags);
 }
 
 /**
- * Enhance the @Apply enricher to support dictionary flags.
+ * Register the @PsionicApply enricher as an independent enricher.
  *
- * Patches the click handler to recognize and process dFlags.* options,
+ * This enricher provides buff application with support for dictionary flags,
  * allowing dynamic buff configuration via formula evaluation at click time.
  *
- * Runs in ready hook after all setup hooks complete to ensure PF1's enrichers
- * are registered and available.
+ * Syntax: @PsionicApply[BuffName;level=@cl;dFlags.flagName=value]{Label}
+ *
+ * The enricher is registered in the ready hook after all setup hooks complete.
  */
-export function enhanceApplyEnricher() {
-  // Find the apply enricher (registered by PF1 in setup)
-  const applyEnricher = CONFIG.TextEditor.enrichers.find(e => e.id === "apply");
+export function registerPsionicApplyEnricher() {
+  const enricher = new pf1.chat.enrichers.PF1TextEnricher(
+      "psionicApply",
+      /@PsionicApply\[(?<ident>.*?)(?:;(?<options>.*?))?\](?:\{(?<label>.*?)})?/g,
+      async (match, _options) => {
+        const { ident, options, label } = match.groups;
 
-  if (!applyEnricher) {
-    console.warn(`${MODULE_ID} | Could not find @Apply enricher to enhance`);
-    return;
-  }
+        const item = fromUuidSync(ident) ?? fromUuidSync(await pf1.chat.enrichers.findItem(ident, { type: "buff" }));
 
-  // Store original click handler
-  const originalClick = applyEnricher.click;
+        if (!item) console.warn("PF1 | @Apply | Could not find item", ident);
 
-  // Replace with enhanced version
-  applyEnricher.click = function(event, target) {
-    return enhancedApplyClick.call(this, originalClick, event, target);
-  };
+        const broken = !item;
 
-  console.log(`${MODULE_ID} | @Apply enricher enhanced with dFlags support`);
+        const a = pf1.chat.enrichers.createElement({ label, click: true, handler: "apply", options, broken });
+
+        if (item) {
+          a.dataset.name = `${game.i18n.localize("DOCUMENT.Item")}: ${item.name}`;
+          a.dataset.uuid = item.uuid;
+          a.append(item.name);
+
+          pf1.chat.enrichers.generateTooltip(a);
+        } else {
+          a.replaceChildren(ident);
+        }
+
+        setIcon(a, "fa-solid fa-angles-right");
+
+        return a;
+      },
+      {
+        click: onPsionicApply,
+      }
+  );
+
+  // Register the enricher (CONFIG.TextEditor.enrichers is available by ready)
+  CONFIG.TextEditor.enrichers ??= [];
+  CONFIG.TextEditor.enrichers.push(enricher);
+  console.log(`${MODULE_ID} | @PsionicApply enricher registered`);
 }
 

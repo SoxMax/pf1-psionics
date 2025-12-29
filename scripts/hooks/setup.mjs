@@ -1,3 +1,5 @@
+import {registerPsionicApplyEnricher} from "./enrichers/apply.mjs";
+
 function setupHook() {
   foundry.applications.handlebars.loadTemplates([
     "modules/pf1-psionics/templates/action/attack-dialog.hbs", // Attack dialog additions
@@ -13,6 +15,9 @@ function setupHook() {
     "modules/pf1-psionics/templates/item/parts/power-subschool.hbs", // Power uses template
     "modules/pf1-psionics/templates/item/power.hbs", // Power item template
   ]);
+
+  // Register independent @PsionicApply enricher with dictionary flag support
+  registerPsionicApplyEnricher();
 }
 
 Hooks.once("setup", setupHook);

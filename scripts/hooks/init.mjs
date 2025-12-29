@@ -8,6 +8,9 @@ function initHook() {
   registerSettings();
   registerConfig();
   registerItems();
+
+  // Enhance @Browse enricher (after all setup hooks have completed)
+  enhanceBrowseEnricher();
   console.log(`${MODULE_ID} | Initialized`);
 }
 
