@@ -20,66 +20,80 @@ async function enhancedApplyClick(originalClick, event, target) {
 	const dFlags = {};
 	for (const [key, val] of Object.entries(target.dataset)) {
 		const match = key.match(/^dflags\.(.+)$/i);
-		if (match) {
-			dFlags[match[1]] = val;
-		}
+		if (match) dFlags[match[1]] = val;
 	}
 
 	// If no dFlags, use original handler
-	if (Object.keys(dFlags).length === 0) {
-		return originalClick.call(this, event, target);
-	}
+	if (Object.keys(dFlags).length === 0) return originalClick.call(this, event, target);
 
 	// Custom implementation with dFlags support
-	const { uuid, level } = target.dataset;
+	const { uuid, level, vars } = target.dataset;
+
+	// Resolve actors using PF1 helper
 	let actors;
 	try {
 		actors = pf1.chat.enrichers.getRelevantActors(target, false);
 	} catch (_e) {
-		// If we can't find actors, try the original handler as fallback
 		console.warn(`${MODULE_ID} | @Apply | Could not find relevant actors, falling back to original handler`);
 		return originalClick.call(this, event, target);
 	}
+	if (actors.size === 0) return originalClick.call(this, event, target);
 
-	if (actors.size === 0) {
-		// No actors found, fall back to original handler
-		return originalClick.call(this, event, target);
-	}
-
+	// Load item
 	const item = await fromUuid(uuid);
 	if (!item) {
 		const warn = game.i18n.localize("PF1.EnrichedText.Errors.ItemNotFound");
 		ui.notifications.warn(warn, { console: false });
 		return void console.error(`${MODULE_ID} | @Apply |`, warn, uuid);
 	}
-
-	// Support only buffs
 	if (item.type !== "buff") {
 		return void ui.notifications.error(
 			game.i18n.format("PF1.EnrichedText.Errors.UnsupportedItemType", { type: item.type })
 		);
 	}
 
-	// Prepare item
+	// Prepare item (mirror PF1 onApply)
 	const itemData = game.items.fromCompendium(item, { clearFolder: true });
 	itemData.system.active = true;
 
-	// Apply to actors
-	for (const actor of actors) {
-		// Get actor roll data for formula evaluation
-		const actorRollData = actor.getRollData();
-
-		// Evaluate level formula
+	// Match PF1 level evaluation: pre-roll with message rollData when vars != target
+	const targetRollData = vars === "target";
+	let messageRollData = null;
+	if (!targetRollData) {
+		const message = target.closest("[data-message-id]")?.dataset.messageId
+			? game.messages.get(target.closest("[data-message-id]")?.dataset.messageId)
+			: undefined;
+		let srcDoc = message?.actionSource ?? message?.itemSource;
+		srcDoc ??= message?.speaker ? ChatMessage.implementation.getSpeakerActor(message.speaker) : null;
+		messageRollData = srcDoc?.getRollData();
+		const cfg = message?.system?.config;
+		if (cfg && messageRollData) {
+			if (cfg.cl !== undefined) messageRollData.cl = cfg.cl;
+			if (cfg.sl !== undefined) messageRollData.sl = cfg.sl;
+			if (cfg.critMult !== undefined) messageRollData.critMult = cfg.critMult;
+		}
 		if (level?.length) {
+			const roll = await pf1.dice.RollPF.safeRoll(level, messageRollData);
+			itemData.system.level = roll.total;
+		}
+	}
+
+	// Apply
+	for (const actor of actors) {
+		// Compute level per actor only when vars = target
+		if (targetRollData && level?.length) {
+			const actorRollData = actor.getRollData();
 			const roll = await pf1.dice.RollPF.safeRoll(level, actorRollData);
 			itemData.system.level = roll.total;
 		}
 
-		// Evaluate and set dictionary flags
+		// Evaluate dFlags using the same rollData context as level
+		const ctxRollData = targetRollData ? actor.getRollData() : messageRollData ?? actor.getRollData();
+		debugger;
 		itemData.system.flags ??= {};
-		itemData.system.flags.dictionary ??= {};
+		itemData.system.flags.dictionary = {}; // reset per actor to avoid bleed
 		for (const [flagName, formula] of Object.entries(dFlags)) {
-			const flagRoll = await pf1.dice.RollPF.safeRoll(formula, actorRollData);
+			const flagRoll = await pf1.dice.RollPF.safeRoll(formula, ctxRollData);
 			itemData.system.flags.dictionary[flagName] = flagRoll.total;
 		}
 
@@ -94,9 +108,7 @@ async function enhancedApplyClick(originalClick, event, target) {
 				updateData[`system.flags.dictionary.${flagName}`] = value;
 			}
 			await existing.update(updateData);
-		}
-		// Add new
-		else {
+		} else {
 			await Item.implementation.create(itemData, { parent: actor });
 		}
 	}
