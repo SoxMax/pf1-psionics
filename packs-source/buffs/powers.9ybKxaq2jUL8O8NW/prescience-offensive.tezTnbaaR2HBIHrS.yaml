@@ -19,7 +19,7 @@ system:
     seeInvisibility: false
   changes:
     - _id: c7uzjMVI
-      formula: '2 + @item.dFlags.augmentBonus'
+      formula: 2 + @item.dFlags.augmentBonus
       operator: add
       priority: 0
       target: damage
