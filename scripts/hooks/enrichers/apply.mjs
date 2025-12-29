@@ -166,11 +166,12 @@ export function registerPsionicApplyEnricher() {
 
         const item = fromUuidSync(ident) ?? fromUuidSync(await pf1.chat.enrichers.findItem(ident, { type: "buff" }));
 
-        if (!item) console.warn("PF1 | @Apply | Could not find item", ident);
+        if (!item) console.warn("PF1 | @PsionicApply | Could not find item", ident);
 
         const broken = !item;
 
-        const a = pf1.chat.enrichers.createElement({ label, click: true, handler: "apply", options, broken });
+        // Ensure the handler matches the PF1TextEnricher id so clicks route correctly
+        const a = pf1.chat.enrichers.createElement({ label, click: true, handler: "psionicApply", options, broken });
 
         if (item) {
           a.dataset.name = `${game.i18n.localize("DOCUMENT.Item")}: ${item.name}`;
@@ -182,7 +183,8 @@ export function registerPsionicApplyEnricher() {
           a.replaceChildren(ident);
         }
 
-        setIcon(a, "fa-solid fa-angles-right");
+        // Use namespaced setIcon helper from PF1 enrichers
+        pf1.chat.enrichers.setIcon(a, "fa-solid fa-angles-right");
 
         return a;
       },
@@ -191,9 +193,6 @@ export function registerPsionicApplyEnricher() {
       }
   );
 
-  // Register the enricher (CONFIG.TextEditor.enrichers is available by ready)
-  CONFIG.TextEditor.enrichers ??= [];
-  CONFIG.TextEditor.enrichers.push(enricher);
-  console.log(`${MODULE_ID} | @PsionicApply enricher registered`);
+  pf1.chat.enrichers.enrichers.push(enricher);
 }
 
