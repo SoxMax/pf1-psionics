@@ -1,4 +1,39 @@
-import { MODULE_ID } from "../../_module.mjs";
+import {MODULE_ID} from "../../_module.mjs";
+import {RollPF} from "../../../ruleset/pf1e/module/dice/roll.mjs";
+
+/**
+ * Get most relevant roll data
+ *
+ * @param {ChatMessagePF} message
+ * @returns {object} - Roll data
+ */
+function getRollData(message) {
+  // Get action, item, or actor
+  let srcDoc = message.actionSource ?? message.itemSource;
+  srcDoc ??= message.speaker ? ChatMessage.getSpeakerActor(message.speaker) : null;
+  const rollData = srcDoc?.getRollData();
+
+  // Apply cached values
+  const cfg = message.system?.config;
+  if (cfg && rollData) {
+    if (cfg.cl !== undefined) rollData.cl = cfg.cl;
+    if (cfg.sl !== undefined) rollData.sl = cfg.sl;
+    if (cfg.critMult !== undefined) rollData.critMult = cfg.critMult;
+  }
+
+  return rollData;
+}
+
+/**
+ * Get Chat Message
+ *
+ * @param {HTMLElement} target
+ * @returns {ChatMessagePF|undefined}
+ */
+function getMessage(target) {
+  const messageId = target.closest("[data-message-id]")?.dataset.messageId;
+  return game.messages.get(messageId);
+}
 
 /**
  * Enhanced click handler for @Apply enricher.
@@ -16,104 +51,100 @@ import { MODULE_ID } from "../../_module.mjs";
  * @param {HTMLElement} target - Clicked element
  */
 async function enhancedApplyClick(originalClick, event, target) {
-	// Extract dFlags from dataset
-	const dFlags = {};
-	for (const [key, val] of Object.entries(target.dataset)) {
-		const match = key.match(/^dflags\.(.+)$/i);
-		if (match) dFlags[match[1]] = val;
-	}
+  // Extract dFlags from dataset
+  const dFlags = {};
+  for (const [key, val] of Object.entries(target.dataset)) {
+    const match = key.match(/^dflags\.(.+)$/i);
+    if (match) dFlags[match[1]] = val;
+  }
 
-	// If no dFlags, use original handler
-	if (Object.keys(dFlags).length === 0) return originalClick.call(this, event, target);
+  // If no dFlags, use original handler
+  if (Object.keys(dFlags).length === 0) return originalClick.call(this, event, target);
 
-	// Custom implementation with dFlags support
-	const { uuid, level, vars } = target.dataset;
+  // Custom implementation with dFlags support
+  const {uuid, level, vars} = target.dataset;
 
-	// Resolve actors using PF1 helper
-	let actors;
-	try {
-		actors = pf1.chat.enrichers.getRelevantActors(target, false);
-	} catch (_e) {
-		console.warn(`${MODULE_ID} | @Apply | Could not find relevant actors, falling back to original handler`);
-		return originalClick.call(this, event, target);
-	}
-	if (actors.size === 0) return originalClick.call(this, event, target);
+  // Resolve actors using PF1 helper
+  let actors;
+  try {
+    actors = pf1.chat.enrichers.getRelevantActors(target, false);
+  } catch (_e) {
+    console.warn(`${MODULE_ID} | @Apply | Could not find relevant actors, falling back to original handler`);
+    return originalClick.call(this, event, target);
+  }
+  if (actors.size === 0) return originalClick.call(this, event, target);
 
-	// Load item
-	const item = await fromUuid(uuid);
-	if (!item) {
-		const warn = game.i18n.localize("PF1.EnrichedText.Errors.ItemNotFound");
-		ui.notifications.warn(warn, { console: false });
-		return void console.error(`${MODULE_ID} | @Apply |`, warn, uuid);
-	}
-	if (item.type !== "buff") {
-		return void ui.notifications.error(
-			game.i18n.format("PF1.EnrichedText.Errors.UnsupportedItemType", { type: item.type })
-		);
-	}
+  // Load item
+  const item = await fromUuid(uuid);
+  if (!item) {
+    const warn = game.i18n.localize("PF1.EnrichedText.Errors.ItemNotFound");
+    ui.notifications.warn(warn, {console: false});
+    return void console.error(`${MODULE_ID} | @Apply |`, warn, uuid);
+  }
+  if (item.type !== "buff") {
+    return void ui.notifications.error(
+        game.i18n.format("PF1.EnrichedText.Errors.UnsupportedItemType", {type: item.type}),
+    );
+  }
 
-	// Prepare item (mirror PF1 onApply)
-	const itemData = game.items.fromCompendium(item, { clearFolder: true });
-	itemData.system.active = true;
+  const results = {};
+  async function generateResults(rollData) {
+    if (level?.length) {
+      const roll = await RollPF.safeRoll(level, rollData);
+      results.level = roll.total;
+    }
+    for (const [flagName, formula] of Object.entries(dFlags)) {
+      if (formula?.length) {
+        results.dFlags ??= {};
+        const roll = await RollPF.safeRoll(formula, rollData);
+        results.dFlags[flagName] = roll.total;
+      }
+    }
+  }
 
-	// Match PF1 level evaluation: pre-roll with message rollData when vars != target
-	const targetRollData = vars === "target";
-	let messageRollData = null;
-	if (!targetRollData) {
-		const message = target.closest("[data-message-id]")?.dataset.messageId
-			? game.messages.get(target.closest("[data-message-id]")?.dataset.messageId)
-			: undefined;
-		let srcDoc = message?.actionSource ?? message?.itemSource;
-		srcDoc ??= message?.speaker ? ChatMessage.implementation.getSpeakerActor(message.speaker) : null;
-		messageRollData = srcDoc?.getRollData();
-		const cfg = message?.system?.config;
-		if (cfg && messageRollData) {
-			if (cfg.cl !== undefined) messageRollData.cl = cfg.cl;
-			if (cfg.sl !== undefined) messageRollData.sl = cfg.sl;
-			if (cfg.critMult !== undefined) messageRollData.critMult = cfg.critMult;
-		}
-		if (level?.length) {
-			const roll = await pf1.dice.RollPF.safeRoll(level, messageRollData);
-			itemData.system.level = roll.total;
-		}
-	}
+  const useTargetRollData = vars === "target";
+  if (!useTargetRollData) {
+    const message = getMessage(target);
+    const rollData = getRollData(message);
+    await generateResults(rollData);
+  }
 
-	// Apply
-	for (const actor of actors) {
-		// Compute level per actor only when vars = target
-		if (targetRollData && level?.length) {
-			const actorRollData = actor.getRollData();
-			const roll = await pf1.dice.RollPF.safeRoll(level, actorRollData);
-			itemData.system.level = roll.total;
-		}
+  // Apply to each actor
+  for (const actor of actors) {
+    // Evaluate results per-actor if using target roll data
+    if (useTargetRollData) {
+      const rollData = actor.getRollData();
+      await generateResults(rollData);
+    }
 
-		// Evaluate dFlags using the same rollData context as level
-		const ctxRollData = targetRollData ? actor.getRollData() : messageRollData ?? actor.getRollData();
-		debugger;
-		itemData.system.flags ??= {};
-		itemData.system.flags.dictionary = {}; // reset per actor to avoid bleed
-		for (const [flagName, formula] of Object.entries(dFlags)) {
-			const flagRoll = await pf1.dice.RollPF.safeRoll(formula, ctxRollData);
-			itemData.system.flags.dictionary[flagName] = flagRoll.total;
-		}
+    // Activate existing item with same source
+    const old = actor.itemTypes[item.type].find((i) => i._stats?.compendiumSource === uuid);
+    if (old) {
+      const activationData = {system: {active: true}};
+      if (results.level !== undefined) activationData.system.level = results.level;
+      // Merge dFlags into existing item via dotted-path updates
+      if (results.dFlags) {
+        for (const [flagName, value] of Object.entries(results.dFlags)) {
+          activationData[`system.flags.dictionary.${flagName}`] = value;
+        }
+      }
+      await old.update(activationData);
+    } else {
+      // Add new item with results baked in
+      const itemData = game.items.fromCompendium(item, {clearFolder: true});
+      itemData.system.active = true;
+      if (results.level !== undefined) itemData.system.level = results.level;
+      // Merge dFlags into new itemData
+      if (results.dFlags) {
+        itemData.system.flags ??= {};
+        itemData.system.flags.dictionary ??= {};
+        Object.assign(itemData.system.flags.dictionary, results.dFlags);
+      }
+      await Item.implementation.create(itemData, {parent: actor});
+    }
+  }
 
-		// Activate existing item with same source
-		const existing = actor.itemTypes.buff.find(i => i._stats?.compendiumSource === uuid);
-		if (existing) {
-			const updateData = {
-				"system.active": true,
-				"system.level": itemData.system.level,
-			};
-			for (const [flagName, value] of Object.entries(itemData.system.flags.dictionary)) {
-				updateData[`system.flags.dictionary.${flagName}`] = value;
-			}
-			await existing.update(updateData);
-		} else {
-			await Item.implementation.create(itemData, { parent: actor });
-		}
-	}
-
-	console.debug(`${MODULE_ID} | @Apply | Applied buff "${item.name}" with dFlags:`, dFlags);
+  console.debug(`${MODULE_ID} | @Apply | Applied buff "${item.name}" with dFlags:`, dFlags);
 }
 
 /**
@@ -126,21 +157,22 @@ async function enhancedApplyClick(originalClick, event, target) {
  * are registered and available.
  */
 export function enhanceApplyEnricher() {
-	// Find the apply enricher (registered by PF1 in setup)
-	const applyEnricher = CONFIG.TextEditor.enrichers.find(e => e.id === "apply");
+  // Find the apply enricher (registered by PF1 in setup)
+  const applyEnricher = CONFIG.TextEditor.enrichers.find(e => e.id === "apply");
 
-	if (!applyEnricher) {
-		console.warn(`${MODULE_ID} | Could not find @Apply enricher to enhance`);
-		return;
-	}
+  if (!applyEnricher) {
+    console.warn(`${MODULE_ID} | Could not find @Apply enricher to enhance`);
+    return;
+  }
 
-	// Store original click handler
-	const originalClick = applyEnricher.click;
+  // Store original click handler
+  const originalClick = applyEnricher.click;
 
-	// Replace with enhanced version
-	applyEnricher.click = function(event, target) {
-		return enhancedApplyClick.call(this, originalClick, event, target);
-	};
+  // Replace with enhanced version
+  applyEnricher.click = function(event, target) {
+    return enhancedApplyClick.call(this, originalClick, event, target);
+  };
 
-	console.log(`${MODULE_ID} | @Apply enricher enhanced with dFlags support`);
+  console.log(`${MODULE_ID} | @Apply enricher enhanced with dFlags support`);
 }
+
