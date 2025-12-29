@@ -188,10 +188,18 @@ section.augments .augment-special {
 }
 
 /* Ensure note rows are single-line with controls on the right */
+.pf1.sheet.augment-editor form .card-notes > .note-list {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2px; /* match PF1 action notes spacing */
+  margin-top: 0; /* no extra spacing above header */
+  margin-bottom: 0; /* no extra spacing below list */
+}
 .pf1.sheet.augment-editor form .card-notes > .note-list > li {
   display: flex;
   align-items: center;
   gap: 0.3em;
+  padding: 0; /* remove added vertical padding to match PF1 */
 }
 .pf1.sheet.augment-editor form .card-notes > .note-list > li > .controls.entry {
   margin-left: auto;
