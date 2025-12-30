@@ -11,6 +11,9 @@ name: Energy Retort
 system:
   actions:
     - _id: clw3RPO2PlY1wIoF
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -18,6 +21,8 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       damage:
         parts:
           - formula: 4d6+4
@@ -46,6 +51,9 @@ system:
       target:
         value: You and creature or object attacking you; see text
     - _id: ElecRetort001
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -85,6 +93,9 @@ system:
       target:
         value: You and creature or object attacking you; see text
     - _id: FireRetort001
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -117,6 +128,9 @@ system:
       target:
         value: You and creature or object attacking you; see text
     - _id: SonicRetort001
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1

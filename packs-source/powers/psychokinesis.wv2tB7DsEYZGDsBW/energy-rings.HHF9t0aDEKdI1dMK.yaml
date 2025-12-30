@@ -11,6 +11,9 @@ name: Energy Rings
 system:
   actions:
     - _id: FZF8gAWdb2acXm9j
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -18,19 +21,21 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       augments:
         - _id: AugColdRings001
           cost: 1
-          effects:
-            damageBonus: 1d6+1
-            dcBonus: 0.5
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/unholy/projectile-fireball-green.webp
           maxUses: null
           name: Damage
           requiresFocus: false
       damage:
         parts:
-          - formula: 5d6+5
+          - formula: (5+@augments.damage)d6+(5+@augments.damage)
             types:
               - cold
       description: >-
@@ -50,6 +55,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./level)
       save:
+        dc: floor(@augments.damage / 2)
         description: Fortitude half
         harmless: false
         type: fort
@@ -57,6 +63,9 @@ system:
       target:
         value: One Medium or smaller creature
     - _id: ElecRings001
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -64,19 +73,21 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       augments:
         - _id: AugElecRings001
           cost: 1
-          effects:
-            damageBonus: 1d6
-            dcBonus: 0.5
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/unholy/projectile-fireball-green.webp
           maxUses: null
           name: Damage
           requiresFocus: false
       damage:
         parts:
-          - formula: 5d6
+          - formula: (5+@augments.damage)d6
             types:
               - electric
       description: >-
@@ -99,7 +110,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./level)
       save:
-        dc: '2'
+        dc: 2 + floor(@augments.damage / 2)
         description: Reflex half
         harmless: false
         type: ref
@@ -107,6 +118,9 @@ system:
       target:
         value: One Medium or smaller creature
     - _id: FireRings001
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -114,19 +128,21 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       augments:
         - _id: AugFireRings001
           cost: 1
-          effects:
-            damageBonus: 1d6+1
-            dcBonus: 0.5
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/unholy/projectile-fireball-green.webp
           maxUses: null
           name: Damage
           requiresFocus: false
       damage:
         parts:
-          - formula: 5d6+5
+          - formula: (5+@augments.damage)d6+(5+@augments.damage)
             types:
               - fire
       description: >-
@@ -145,6 +161,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./level)
       save:
+        dc: floor(@augments.damage / 2)
         description: Reflex half
         harmless: false
         type: ref
@@ -152,6 +169,9 @@ system:
       target:
         value: One Medium or smaller creature
     - _id: SonicRings001
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -159,19 +179,21 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       augments:
         - _id: AugSonicRings001
           cost: 1
-          effects:
-            damageBonus: 1d6-1
-            dcBonus: 0.5
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/unholy/projectile-fireball-green.webp
           maxUses: null
           name: Damage
           requiresFocus: false
       damage:
         parts:
-          - formula: 5d6-5
+          - formula: (5+@augments.damage)d6-(5+@augments.damage)
             types:
               - sonic
       description: >-
@@ -193,6 +215,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./level)
       save:
+        dc: floor(@augments.damage / 2)
         description: Fortitude half
         harmless: false
         type: fort

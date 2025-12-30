@@ -11,6 +11,9 @@ name: Energy Push
 system:
   actions:
     - _id: UtoO73t6azmN3FGy
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -18,19 +21,21 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       augments:
         - _id: AugColdPush001
           cost: 2
-          effects:
-            damageBonus: 1d6+1
-            dcBonus: 1
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/unholy/projectile-fireball-green.webp
           maxUses: null
           name: Damage
           requiresFocus: false
       damage:
         parts:
-          - formula: 2d6+2
+          - formula: (2+@augments.damage)d6+(2+@augments.damage)
             types:
               - cold
       description: >-
@@ -44,10 +49,8 @@ system:
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
-      range:
-        units: med
-        value: Medium (100 ft. + 10 ft./level)
       save:
+        dc: '@augments.damage'
         description: Fortitude half
         harmless: false
         type: fort
@@ -55,6 +58,9 @@ system:
       target:
         value: Ray
     - _id: ElecPush001
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -62,19 +68,21 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       augments:
         - _id: AugElecPush001
           cost: 2
-          effects:
-            damageBonus: 1d6
-            dcBonus: 1
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/unholy/projectile-fireball-green.webp
           maxUses: null
           name: Damage
           requiresFocus: false
       damage:
         parts:
-          - formula: 2d6
+          - formula: (2+@augments.damage)d6
             types:
               - electric
       description: >-
@@ -91,11 +99,8 @@ system:
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
-      range:
-        units: med
-        value: Medium (100 ft. + 10 ft./level)
       save:
-        dc: '2'
+        dc: 2 + @augments.damage
         description: Reflex half
         harmless: false
         type: ref
@@ -103,6 +108,9 @@ system:
       target:
         value: Ray
     - _id: FirePush001
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -110,19 +118,21 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       augments:
         - _id: AugFirePush001
           cost: 2
-          effects:
-            damageBonus: 1d6+1
-            dcBonus: 1
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/unholy/projectile-fireball-green.webp
           maxUses: null
           name: Damage
           requiresFocus: false
       damage:
         parts:
-          - formula: 2d6+2
+          - formula: (2+@augments.damage)d6+(2+@augments.damage)
             types:
               - fire
       description: >-
@@ -135,10 +145,8 @@ system:
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
-      range:
-        units: med
-        value: Medium (100 ft. + 10 ft./level)
       save:
+        dc: '@augments.damage'
         description: Reflex half
         harmless: false
         type: ref
@@ -146,6 +154,9 @@ system:
       target:
         value: Ray
     - _id: SonicPush001
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -153,19 +164,21 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       augments:
         - _id: AugSonicPush001
           cost: 2
-          effects:
-            damageBonus: 1d6-1
-            dcBonus: 1
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/unholy/projectile-fireball-green.webp
           maxUses: null
           name: Damage
           requiresFocus: false
       damage:
         parts:
-          - formula: 2d6-2
+          - formula: (2+@augments.damage)d6-(2+@augments.damage)
             types:
               - sonic
       description: >-
@@ -181,10 +194,8 @@ system:
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
-      range:
-        units: med
-        value: Medium (100 ft. + 10 ft./level)
       save:
+        dc: '@augments.damage'
         description: Fortitude half
         harmless: false
         type: fort
