@@ -20,6 +20,16 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: elRL6sz1s99BKKP7
+          cost: 3
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/perception/third-eye-blue-red.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         dismiss: true
         units: minute
@@ -27,7 +37,9 @@ system:
       name: Use
       notes:
         footer:
-          - '@PsionicApply[Precognition, Defensive;level=@cl]'
+          - >-
+            @PsionicApply[Precognition,
+            Defensive;level=@cl;dFlags.augmentBonus=@augments.amplify]
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

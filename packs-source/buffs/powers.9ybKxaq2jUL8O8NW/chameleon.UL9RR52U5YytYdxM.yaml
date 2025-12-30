@@ -19,7 +19,7 @@ system:
     seeInvisibility: false
   changes:
     - _id: 1Dxoyx1W
-      formula: '10'
+      formula: 2 + @item.dFlags.augmentBonus
       operator: add
       priority: 0
       target: skill.ste
@@ -31,6 +31,9 @@ system:
     end: turnStart
     units: minute
     value: '@item.level * 10'
+  flags:
+    dictionary:
+      augmentBonus: '0'
   hideFromToken: false
   level: 1
   showInQuickbar: false

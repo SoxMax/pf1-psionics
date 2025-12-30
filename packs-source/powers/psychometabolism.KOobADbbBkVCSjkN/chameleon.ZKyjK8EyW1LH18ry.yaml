@@ -20,6 +20,16 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: adLSqDIdPCFrPR71
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/creatures/reptiles/chameleon-camouflage-green-brown.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         dismiss: true
         units: minute
@@ -28,7 +38,8 @@ system:
       name: Use
       notes:
         footer:
-          - '@PsionicApply[Chameleon;level=@cl]'
+          - >-
+            @PsionicApply[Chameleon;level=@cl;dFlags.augmentBonus=@augments.amplify]
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

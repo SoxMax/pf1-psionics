@@ -47,7 +47,9 @@ system:
       name: Use
       notes:
         footer:
-          - '@PsionicApply[Prescience, Offensive;level=@cl;dFlags.augmentBonus=@augments.amplify]'
+          - >-
+            @PsionicApply[Prescience,
+            Offensive;level=@cl;dFlags.augmentBonus=@augments.amplify]
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

@@ -25,7 +25,7 @@ system:
         type: none
       damage:
         parts:
-          - formula: sizeRoll(1, 8, @size)
+          - formula: sizeRoll(1+@augmentBonus, 8, @size)
             types:
               - slashing
               - piercing
@@ -62,6 +62,9 @@ system:
     end: turnStart
     units: minute
     value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
   hideFromToken: false
   level: 1
   showInQuickbar: false

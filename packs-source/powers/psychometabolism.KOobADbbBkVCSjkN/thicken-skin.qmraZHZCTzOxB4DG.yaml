@@ -20,6 +20,16 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: qF7PVISyqtVZMxc2
+          cost: 3
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/defensive/armor-stone-skin.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         units: minute
         value: 10 * @cl
@@ -27,7 +37,9 @@ system:
       name: Use
       notes:
         footer:
-          - '@PsionicApply[Thicken Skin;level=@cl]'
+          - >-
+            @PsionicApply[Thicken
+            Skin;level=@cl;dFlags.augmentBonus=@augments.amplify]
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
