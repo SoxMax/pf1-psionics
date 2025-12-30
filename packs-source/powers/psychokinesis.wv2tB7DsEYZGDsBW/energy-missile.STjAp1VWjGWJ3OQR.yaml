@@ -26,16 +26,16 @@ system:
       augments:
         - _id: dr03TBtwzheEDaCj
           cost: 1
-          effects:
-            damageBonus: 1d6+1
-            dcBonus: 0.5
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/unholy/projectile-fireball-green.webp
           maxUses: null
           name: Damage
           requiresFocus: false
       damage:
         parts:
-          - formula: 3d6+3
+          - formula: (3+@augments.damage)d6+(3+@augments.damage)
             types:
               - cold
       description: >-
@@ -50,6 +50,7 @@ system:
         critMultiplier: 1
         damageBonus: 2
       save:
+        dc: floor(@augments.damage / 2)
         description: Fortitude half
         harmless: false
         type: fort
@@ -74,16 +75,16 @@ system:
       augments:
         - _id: dr03TBtwzheEDaCj
           cost: 1
-          effects:
-            damageBonus: 1d6
-            dcBonus: 0.5
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/unholy/projectile-fireball-green.webp
           maxUses: null
           name: Damage
           requiresFocus: false
       damage:
         parts:
-          - formula: 3d6
+          - formula: (3+@augments.damage)d6
             types:
               - electric
       description: >-
@@ -101,11 +102,11 @@ system:
         critMultiplier: 1
         damageBonus: 2
       save:
-        dc: '2'
+        dc: 2+floor(@augments.damage / 2)
         description: Reflex half
         harmless: false
         type: ref
-      tag: electricity
+      tag: electric
       target:
         value: >-
           Up to five creatures or unattended objects; no two targets can be more
@@ -126,16 +127,16 @@ system:
       augments:
         - _id: dr03TBtwzheEDaCj
           cost: 1
-          effects:
-            damageBonus: 1d6+1
-            dcBonus: 0.5
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/unholy/projectile-fireball-green.webp
           maxUses: null
           name: Damage
           requiresFocus: false
       damage:
         parts:
-          - formula: 3d6+3
+          - formula: (3+@augments.damage)d6+(3+@augments.damage)
             types:
               - cold
       description: <p>A missile of this energy type deals +1 point of damage per die.</p>
@@ -147,6 +148,7 @@ system:
         critMultiplier: 1
         damageBonus: 2
       save:
+        dc: floor(@augments.damage / 2)
         description: Reflex half
         harmless: false
         type: ref
@@ -156,6 +158,9 @@ system:
           Up to five creatures or unattended objects; no two targets can be more
           than 15 ft. apart.
     - _id: FsT6Ch1wGToZ06Lo
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -168,16 +173,16 @@ system:
       augments:
         - _id: dr03TBtwzheEDaCj
           cost: 1
-          effects:
-            damageBonus: 1d6-1
-            dcBonus: 0.5
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/unholy/projectile-fireball-green.webp
           maxUses: null
           name: Damage
           requiresFocus: false
       damage:
         parts:
-          - formula: 3d6-3
+          - formula: (3+@augments.damage)d6-(3+@augments.damage)
             types:
               - sonic
       duration:
@@ -191,6 +196,7 @@ system:
         critMultiplier: 1
         damageBonus: 2
       save:
+        dc: floor(@augments.damage / 2)
         description: Fortitude half
         harmless: false
         type: fort

@@ -175,11 +175,14 @@
         "RangeBonus": "Range Bonus",
         "TargetBonus": "Target Bonus",
         "CLBonus": "Manifester Level Bonus",
-        "DCBonus": "DC Bonus",
-        "Special": "Special",
-        "SpecialLabel": "Special Effects",
-        "SpecialPlaceholder": "Describe any special effects not covered by other fields"
+        "DCBonus": "DC Bonus"
       },
+      "EffectNotes": "Effect Notes",
+      "EffectNotePlaceholder": "Effect note (shown in power description)",
+      "AddEffectNote": "Add Effect Note",
+      "FooterNotes": "Footer Notes",
+      "FooterNotePlaceholder": "Footer note (shown at bottom of power)",
+      "AddFooterNote": "Add Footer Note",
       "Conditions": {
         "Label": "Conditions",
         "LevelRequirements": "Level Requirements",

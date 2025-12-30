@@ -19,7 +19,7 @@ system:
     seeInvisibility: false
   changes:
     - _id: hw19qoAk
-      formula: '2'
+      formula: 2 + @item.dFlags.augmentBonus
       operator: add
       priority: 0
       target: skill.dip
@@ -31,6 +31,9 @@ system:
     end: turnStart
     units: round
     value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
   hideFromToken: false
   level: 1
   showInQuickbar: false

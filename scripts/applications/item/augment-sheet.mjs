@@ -64,8 +64,38 @@ export class AugmentEditor extends globalThis.FormApplication {
   ACTIONS = { ...this.constructor.ACTIONS };
 
   static ACTIONS = {
-    // Add action handlers here as needed
+    // Handlebars partial for notes uses generic add/delete with a data-name
+    async add(event, target) {
+      event.preventDefault();
+      event.stopPropagation();
+      const arrayName = target.dataset.name; // "effectNotes" or "footerNotes"
+      const current = this.augment?.[arrayName] || [];
+      const updated = [...current, ""];
+      await this.updateAugmentArray(arrayName, updated);
+    },
+    async delete(event, target) {
+      event.preventDefault();
+      event.stopPropagation();
+      const arrayName = target.dataset.name;
+      const index = parseInt(target.dataset.index);
+      const current = this.augment?.[arrayName] || [];
+      const updated = current.filter((_, i) => i !== index);
+      await this.updateAugmentArray(arrayName, updated);
+    },
   };
+
+  // Helper to update the parent action's augments array and refresh this.augment
+  async updateAugmentArray(field, value) {
+    const augments = foundry.utils.deepClone(this.action._source.augments || []);
+    const index = augments.findIndex(a => a._id === this.augment._id);
+    if (index < 0) return;
+    augments[index] = { ...augments[index], [field]: value };
+    await this.action.update({ augments });
+    const augmentId = this.augment._id;
+    this.augment = this.action.augments.find(a => a._id === augmentId);
+    // Immediately re-render so new rows appear without closing/reopening
+    await this.render(false);
+  }
 
   get id() {
     return `augment-editor-${this.item.id}-${this.action.id}-${this.augment._id}`;

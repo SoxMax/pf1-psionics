@@ -11,7 +11,7 @@ section.augments header h3 {
     margin: 0 0 0.5em 0;
     font-size: 1em;
     font-weight: bold;
-    color: var(--color-text-dark-primary);
+    color: inherit;
 }
 
 section.augments .augment-list {
@@ -136,4 +136,73 @@ section.augments .augment-special {
 /* Tab management - PF1 pattern for tab visibility */
 .pf1.sheet.augment .tab .editor .editor-content {
   min-height: 200px;
+}
+
+/* Apply PF1 card-notes styles to augment editor */
+.pf1.sheet.augment-editor form .card-notes {
+  /* Undo Foundry stylings */
+  flex: 0;
+  margin: 0;
+  line-height: inherit;
+
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2px;
+}
+
+.pf1.sheet.augment-editor form .card-notes > * {
+  width: 100%;
+  flex: 0;
+  padding: 0.2em 0.3em;
+  align-self: center;
+}
+
+.pf1.sheet.augment-editor form .card-notes > .header {
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: var(--pf1-header-background);
+  color: var(--pf1-header-text);
+  text-shadow: var(--pf1-header-shadow);
+}
+
+.pf1.sheet.augment-editor form .card-notes > .header > label {
+  flex: 1;
+  margin: 0;
+  border: unset;
+}
+
+.pf1.sheet.augment-editor form .card-notes > .header .header.controls {
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+/* Tighten spacing: remove bottom padding on note lists */
+.pf1.sheet.augment-editor form .card-notes > .note-list {
+  padding: 0; /* ensure no extra padding */
+  margin: 0;  /* already set, reiterate for clarity */
+}
+
+/* Remove any residual bottom padding from the last child inside card-notes */
+.pf1.sheet.augment-editor form .card-notes > :last-child {
+  padding-bottom: 0;
+}
+
+/* Ensure note rows are single-line with controls on the right */
+.pf1.sheet.augment-editor form .card-notes > .note-list {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2px; /* match PF1 action notes spacing */
+  margin-top: 0; /* no extra spacing above header */
+  margin-bottom: 0; /* no extra spacing below list */
+}
+.pf1.sheet.augment-editor form .card-notes > .note-list > li {
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0; /* remove added vertical padding to match PF1 */
+}
+.pf1.sheet.augment-editor form .card-notes > .note-list > li > .controls.entry {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
 }

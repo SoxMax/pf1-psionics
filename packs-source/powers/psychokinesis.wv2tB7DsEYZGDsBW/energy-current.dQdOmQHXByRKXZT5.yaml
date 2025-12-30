@@ -11,6 +11,9 @@ name: Energy Current
 system:
   actions:
     - _id: SrBuCYJnHvFV8LQd
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -18,29 +21,27 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       augments:
         - _id: AugColdCurrent001
           cost: 1
-          effects:
-            damageBonus: 1d6+1
-            dcBonus: 0.5
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/unholy/projectile-fireball-green.webp
           maxUses: null
           name: Damage
           requiresFocus: false
       damage:
         parts:
-          - formula: 9d6+9
+          - formula: (9+@augments.damage)d6+(9+@augments.damage)
             types:
               - cold
       description: >-
         <p>A current of this energy type deals +1 point of damage per die. The
         saving throw to reduce damage from a cold current is a Fortitude save
         instead of a Reflex save.</p>
-      duration:
-        concentration: true
-        units: conc
-        value: up to 1 round/level
       img: icons/magic/water/projectile-ice-snowball.webp
       name: Cold
       powerAttack:
@@ -50,6 +51,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
+        dc: floor(@augments.damage / 2)
         description: Fortitude half
         harmless: false
         type: fort
@@ -57,6 +59,9 @@ system:
       target:
         value: Any two creatures no more than 15 ft. apart
     - _id: ElecCurrent001
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -64,29 +69,27 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       augments:
         - _id: AugElecCurrent001
           cost: 1
-          effects:
-            damageBonus: 1d6
-            dcBonus: 0.5
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/unholy/projectile-fireball-green.webp
           maxUses: null
           name: Damage
           requiresFocus: false
       damage:
         parts:
-          - formula: 9d6
+          - formula: (9+@augments.damage)d6
             types:
               - electric
       description: >-
         <p>Manifesting a current of this energy type provides a +2 bonus to the
         save DC and a +2 bonus on manifester level checks for the purpose of
         overcoming power resistance.</p>
-      duration:
-        concentration: true
-        units: conc
-        value: up to 1 round/level
       img: icons/magic/lightning/orb-ball-blue.webp
       name: Electricity
       notes:
@@ -99,7 +102,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
-        dc: '2'
+        dc: 2 + floor(@augments.damage / 2)
         description: Reflex half
         harmless: false
         type: ref
@@ -107,6 +110,9 @@ system:
       target:
         value: Any two creatures no more than 15 ft. apart
     - _id: FireCurrent001
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -114,26 +120,24 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       augments:
         - _id: AugFireCurrent001
           cost: 1
-          effects:
-            damageBonus: 1d6+1
-            dcBonus: 0.5
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/unholy/projectile-fireball-green.webp
           maxUses: null
           name: Damage
           requiresFocus: false
       damage:
         parts:
-          - formula: 9d6+9
+          - formula: (9+@augments.damage)d6+(9+@augments.damage)
             types:
               - fire
       description: <p>A current of this energy type deals +1 point of damage per die.</p>
-      duration:
-        concentration: true
-        units: conc
-        value: up to 1 round/level
       img: icons/magic/fire/projectile-fireball-orange-yellow.webp
       name: Fire
       powerAttack:
@@ -143,6 +147,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
+        dc: floor(@augments.damage / 2)
         description: Reflex half
         harmless: false
         type: ref
@@ -150,6 +155,9 @@ system:
       target:
         value: Any two creatures no more than 15 ft. apart
     - _id: SonicCurrent001
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -157,28 +165,26 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       augments:
         - _id: AugSonicCurrent001
           cost: 1
-          effects:
-            damageBonus: 1d6-1
-            dcBonus: 0.5
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/unholy/projectile-fireball-green.webp
           maxUses: null
           name: Damage
           requiresFocus: false
       damage:
         parts:
-          - formula: 9d6-9
+          - formula: (9+@augments.damage)d6-(9+@augments.damage)
             types:
               - sonic
       description: >-
         <p>A current of this energy type deals –1 point of damage per die and
         ignores an object's hardness.</p>
-      duration:
-        concentration: true
-        units: conc
-        value: up to 1 round/level
       img: icons/magic/sonic/explosion-shock-wave-teal.webp
       name: Sonic
       notes:
@@ -191,6 +197,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
+        dc: floor(@augments.damage / 2)
         description: Fortitude half
         harmless: false
         type: fort

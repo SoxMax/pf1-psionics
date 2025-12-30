@@ -20,13 +20,25 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: 7WCifq64ORPGBsyh
+          cost: 5
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         units: hour
         value: One hour/level or until discharged
       name: Use
       notes:
         footer:
-          - '@Apply[Circumstance Shield;level=@cl]'
+          - >-
+            @PsionicApply[Circumstance
+            Shield;level=@cl;dFlags.augmentBonus=@augments.amplify]
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

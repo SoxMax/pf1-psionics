@@ -20,6 +20,16 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: J4yP7NXTfW3RHPyz
+          cost: 5
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/creatures/mammals/wolf-shadow-black.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
       damage:
         parts:
           - formula: 1d8
@@ -28,6 +38,11 @@ system:
         value: '@cl'
       img: icons/creatures/mammals/wolf-shadow-black.webp
       name: Use
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Prescience,
+            Offensive;level=@cl;dFlags.augmentBonus=@augments.damage]
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

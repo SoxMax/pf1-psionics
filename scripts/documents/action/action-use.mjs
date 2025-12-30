@@ -17,6 +17,56 @@ function injectActionUse() {
       }
     }
   }, "LISTENER");
+
+  // After core footnotes are gathered, append augment footer notes
+  libWrapper.register(MODULE_ID, "pf1.actionUse.ActionUse.prototype.addFootnotes", async function(wrapped, ...args) {
+    await wrapped(...args);
+
+    const rollData = this.shared.rollData;
+    const action = this.action;
+    const augments = action.augments;
+    for (const [augmentId, count] of Object.entries(rollData.augmentCounts)) {
+      if (count <= 0) continue;
+
+      const augment = augments.find(a => a._id === augmentId);
+      if (!augment) continue;
+
+      // Add augment notes
+      this.shared.templateData.footnotes.push(...augment.footerNotes.map((text) => ({ text })));
+    }
+  }, "WRAPPER");
+
+  // After core effect notes are gathered per ChatAttack, append augment effect notes and re-enrich HTML
+  // Note: ChatAttack.addEffectNotes({ rollData }) resets effectNotes and calls setEffectNotesHTML at the end.
+  // We wrap addEffectNotes, call the original to gather base notes, then append augment notes and re-run enrichment.
+  libWrapper.register(MODULE_ID, "pf1.actionUse.ChatAttack.prototype.addEffectNotes", async function(wrapped, ...args) {
+    await wrapped(...args);
+
+    // Expect first arg to be an options object with { rollData }
+    const opts = args?.[0] || {};
+    const rollData = opts.rollData ?? this.rollData ?? this.actionUse?.shared?.rollData;
+
+    const action = this.action;
+    const augments = action?.augments ? Array.from(action.augments.values()) : [];
+    if (!rollData || !augments?.length) return;
+
+    const notes = [];
+    for (const [augmentId, count] of Object.entries(rollData.augmentCounts || {})) {
+      if (count <= 0) continue;
+      const augment = augments.find(a => a._id === augmentId);
+      if (!augment) continue;
+      // Add augment effect notes
+      if (Array.isArray(augment.effectNotes) && augment.effectNotes.length) {
+        notes.push(...augment.effectNotes.map((text) => ({ text })));
+      }
+    }
+
+    if (notes.length) {
+      this.effectNotes.push(...notes);
+      // Rebuild enriched HTML since the original method already ran enrichment before we appended
+      await this.setEffectNotesHTML();
+    }
+  }, "WRAPPER");
 }
 
 function pf1PreActionUseHook(actionUse) {
@@ -35,6 +85,27 @@ function pf1PreActionUseHook(actionUse) {
       return false;
     }
   }
+}
+
+/**
+ * Build augments counts object for rollData
+ * @param {Array} augments - Available augments
+ * @param {Object} augmentCounts - Map of augment ID to activation count
+ * @returns {Object} Map of tag to count
+ */
+function buildAugmentsCounts(augments, augmentCounts) {
+  const counts = {};
+
+  // Include ALL augments, even with 0 count
+  for (const augment of augments) {
+    const count = augmentCounts[augment._id] || 0;
+    const tag = augment.tag || pf1.utils.createTag(augment.name);
+
+    // Sum counts for same tag (allows intentional grouping)
+    counts[tag] = (counts[tag] || 0) + count;
+  }
+
+  return counts;
 }
 
 /**
@@ -123,9 +194,13 @@ function applyAugmentEffects(actionUse, augmentCounts) {
   const action = actionUse.action;
   const augments = action.augments ? Array.from(action.augments.values()) : [];
 
+  // Build augments rollData - just counts by tag
+  rollData.augments = buildAugmentsCounts(augments, augmentCounts);
+
   // Calculate all augment effect totals
   const totals = calculateAugmentTotals(augments, augmentCounts);
 
+  // DEPRECATED: Keep for backward compatibility
   // ✨ Expose augment data to roll formulas via rollData.augment
   // This allows formulas to reference augment bonuses (e.g., for DC scaling)
   rollData.augment = {
@@ -135,6 +210,24 @@ function applyAugmentEffects(actionUse, augmentCounts) {
     totalCost: totals.chargeCostBonus || 0,
     durationMult: totals.durationMultiplier || 1,
   };
+
+  // Merge notes from activated augments into action
+  for (const augment of augments) {
+    const count = augmentCounts[augment._id] || 0;
+    if (count <= 0) continue;
+
+    // Merge effect notes
+    if (augment.effectNotes?.length) {
+      shared.effectNotes ??= [];
+      shared.effectNotes.push(...augment.effectNotes);
+    }
+
+    // Merge footer notes
+    if (augment.footerNotes?.length) {
+      shared.footerNotes ??= [];
+      shared.footerNotes.push(...augment.footerNotes);
+    }
+  }
 
   // Apply all totals at once
   if (totals.chargeCostBonus > 0) {
@@ -168,8 +261,25 @@ function applyAugmentEffects(actionUse, augmentCounts) {
   }
 }
 
+/**
+ * Hook to cache augments in message flags after messages are created
+ * @param {ActionUse} actionUse - The action use that just completed
+ * @param {ChatMessage|null} message - The message created by using the action
+ */
+async function pf1PostActionUseHook(actionUse, message) {
+  if (!message) return;
+  // Only process power items
+  if (actionUse.item.type !== `${MODULE_ID}.power`) return;
+
+  // Only cache if augments were applied
+  const augments = actionUse.shared?.rollData?.augments;
+  if (!augments) return;
+
+  await message.setFlag(MODULE_ID, "augments", augments);
+}
+
 // Register hooks
 Hooks.on("pf1PreActionUse", pf1PreActionUseHook);
+Hooks.on("pf1PostActionUse", pf1PostActionUseHook);
 
 Hooks.once("libWrapper.Ready", injectActionUse);
-

@@ -20,6 +20,16 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: KVYPVOcTbp5MKl3o
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/skills/social/diplomacy-handshake-yellow.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         units: round
         value: '@cl'
@@ -27,7 +37,8 @@ system:
       name: Use
       notes:
         footer:
-          - '@Apply[Broker;level=@cl]'
+          - >-
+            @PsionicApply[Broker;level=@cl;dFlags.augmentBonus=@augments.amplify]
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

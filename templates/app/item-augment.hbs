@@ -104,13 +104,12 @@
         </div>
       </div>
 
-      {{!-- Special Effects --}}
-      <div class="form-group stacked">
-        <label>{{localize "PF1-Psionics.Augments.Effects.SpecialLabel"}}</label>
-        <div class="form-fields">
-          <input type="text" name="effects.special" value="{{data.effects.special}}" placeholder="{{localize 'PF1-Psionics.Augments.Effects.SpecialPlaceholder'}}">
-        </div>
-      </div>
+      <h3 class="form-header">{{localize "PF1.Notes"}}</h3>
+
+      {{!-- Effect Notes --}}
+      {{~> "systems/pf1/templates/items/parts/item-notes.hbs" name="effectNotes" title="PF1.EffectNotes" hint="PF1.EffectNotesHint" notes=data.effectNotes css="effect"}}
+      {{!-- Footnotes --}}
+      {{~> "systems/pf1/templates/items/parts/item-notes.hbs" name="footerNotes" title="PF1.Footnotes" hint="PF1.FootnotesHint" notes=data.footerNotes css="footnotes"}}
     </div>
 
   </section>

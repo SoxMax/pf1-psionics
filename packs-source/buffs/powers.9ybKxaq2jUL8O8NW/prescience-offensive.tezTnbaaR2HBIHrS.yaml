@@ -19,7 +19,7 @@ system:
     seeInvisibility: false
   changes:
     - _id: c7uzjMVI
-      formula: '2'
+      formula: 2 + @item.dFlags.augmentBonus
       operator: add
       priority: 0
       target: damage
@@ -32,6 +32,9 @@ system:
     end: turnStart
     units: minute
     value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: 0
   hideFromToken: false
   level: 1
   showInQuickbar: false

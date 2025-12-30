@@ -36,6 +36,7 @@ export default [
         canvas: "readonly",
         foundry: "readonly",
         fromUuid: "readonly",
+        fromUuidSync: "readonly",
         game: "readonly",
         lang: "readonly",
         libWrapper: "readonly",
