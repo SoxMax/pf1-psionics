@@ -26,29 +26,31 @@ system:
       augments:
         - _id: zJdAL3H3aREGekZG
           cost: 1
+          effectNotes: []
           effects:
             dcBonus: 0.5
-            special: +1 round duration
+          footerNotes: []
           img: icons/magic/light/explosion-star-glow-silhouette.webp
           maxUses: null
           name: Duration
           requiresFocus: false
         - _id: geoFSwo7asKnF6lE
           cost: 4
-          effects:
-            dcBonus: 2
-            special: '@Condition[Blind]'
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '@PsionicCondition[blind;duration=1+@augments.duration]'
           img: icons/magic/light/explosion-star-glow-silhouette.webp
           maxUses: 1
           name: Blind
           requiresFocus: false
       duration:
         units: round
-        value: '1'
+        value: 1 + @augments.duration
       name: Use
       notes:
         footer:
-          - '@Condition[dazzled]'
+          - '@PsionicCondition[dazzled;duration=1+@augments.duration]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -56,6 +58,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
+        dc: (@augments.blind * 2) + floor(@augments.duration / 2)
         description: Fortitude Negates
         harmless: false
         type: fort
@@ -65,21 +68,13 @@ system:
     value: >-
       <p>You create a blinding flash of light to momentarily distract an
       opponent. The target of this power must make a Fortitude save or be
-      dazzled for one round.
-
-      </p>
-
-      <p><strong>Augment:</strong> You may augment this power in one or both of
-      the following ways:
-
-      </p><ol><li>For every additional power point you spend, the power's
-      duration increases by one round.</li><li>If you spend 4 additional power
-      points, the target is blinded instead of dazzled.</li></ol>
-
-      <p>In addition, for every 2 power points spent to achieve either of these
-      effects, increase the save DC by 1.
-
-      </p>
+      dazzled for one round.</p><p><strong>Augment:</strong> You may augment
+      this power in one or both of the following ways:</p><ol><li>For every
+      additional power point you spend, the power's duration increases by one
+      round.</li><li>If you spend 4 additional power points, the target is
+      blinded instead of dazzled.</li></ol><p>In addition, for every 2 power
+      points spent to achieve either of these effects, increase the save DC by
+      1.</p>
   descriptors:
     - light
   discipline: psychokinesis
