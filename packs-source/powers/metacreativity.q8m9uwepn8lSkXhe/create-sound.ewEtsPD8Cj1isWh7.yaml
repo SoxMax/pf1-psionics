@@ -25,6 +25,9 @@ system:
         units: round
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@Skill[blf;bonus=2]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
