@@ -1,4 +1,7 @@
 import {MODULE_ID} from "../../_module.mjs";
+import {registerPsionicApplyEnricher} from "./apply.mjs";
+import {registerPsionicBrowseEnricher} from "./browse.mjs";
+import {registerPsionicConditionEnricher} from "./condition.mjs";
 
 /**
  * @param {Element} el
@@ -41,6 +44,33 @@ export function getRollData(message) {
 }
 
 /**
+ * Parses duration string into distinct time and unit.
+ *
+ * @param {string} duration
+ */
+export function parseDuration(duration) {
+  const re = /^(?<time>\d+)(?<unit>[a-z]+)?$/.exec(duration);
+  if (!re) return [];
+  const { time, unit } = re.groups;
+
+  const unitLabel = (() => {
+    switch (unit?.[0]?.toLowerCase()) {
+      default:
+      case "r":
+        return game.i18n.localize("PF1.Time.Period.round.Label");
+      case "s":
+        return game.i18n.localize("PF1.Time.Period.second.Label");
+      case "h":
+        return game.i18n.localize("PF1.Time.Period.hour.Label");
+      case "m":
+        return game.i18n.localize("PF1.Time.Period.minute.Label");
+    }
+  })();
+
+  return [parseInt(time), unit || "r", unitLabel];
+}
+
+/**
  * Get Chat Message
  *
  * @param {HTMLElement} target
@@ -49,4 +79,10 @@ export function getRollData(message) {
 export function getMessage(target) {
   const messageId = target.closest("[data-message-id]")?.dataset.messageId;
   return game.messages.get(messageId);
+}
+
+export function registerPsionicEnrichers() {
+  registerPsionicApplyEnricher();
+  registerPsionicBrowseEnricher();
+  registerPsionicConditionEnricher();
 }
