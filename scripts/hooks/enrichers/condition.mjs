@@ -1,6 +1,6 @@
 import {MODULE_ID} from "../../_module.mjs";
 import {RollPF} from "../../../ruleset/pf1e/module/dice/roll.mjs";
-import { setIcon, getRollData, parseDuration, getMessage } from "./common.mjs";
+import {getMessage, getRollData, parseDuration, setIcon} from "./common.mjs";
 
 /**
  * Click handler for @PsionicCondition enricher.
@@ -12,7 +12,7 @@ import { setIcon, getRollData, parseDuration, getMessage } from "./common.mjs";
  * @param {HTMLElement} target - Clicked element
  */
 async function onPsionicCondition(event, target) {
-  const { condition, toggle, remove, duration, options, vars, info } = target.dataset;
+  const {condition, toggle, remove, duration, options, vars, info} = target.dataset;
 
   const cond = pf1.registry.conditions.getAliased(condition);
   if (!cond) throw new Error(`Condition "${condition}" not found!`); // TODO: Error notification
@@ -55,14 +55,14 @@ async function onPsionicCondition(event, target) {
     if (!remove && seconds) {
       // Flat number
       if (Number.isFinite(seconds)) {
-        enableConfig = { duration: { seconds } };
+        enableConfig = {duration: {seconds}};
       }
       // Roll
       else {
         if (targetRollData) rollData = actor.getRollData();
         else
           rollData ??= enableConfig = {
-            duration: { seconds: (await RollPF.safeRoll(seconds, rollData)).total * CONFIG.time.roundTime },
+            duration: {seconds: (await RollPF.safeRoll(seconds, rollData)).total * CONFIG.time.roundTime},
           };
       }
     }
@@ -90,7 +90,7 @@ export function registerPsionicConditionEnricher() {
       "psionicCondition",
       /@PsionicCondition\[(?<condition>\w+)(?:;(?<options>.*?))?](?:\{(?<label>.*?)})?/g,
       (match) => {
-        const { condition, options, label } = match.groups;
+        const {condition, options, label} = match.groups;
 
         let cond = pf1.registry.conditions.getAliased(condition);
         if (!cond) {
@@ -98,16 +98,14 @@ export function registerPsionicConditionEnricher() {
           const condId = [
             ...pf1.registry.conditions.keys(),
             ...[...pf1.registry.conditions.values()].map((e) => [...e.aliases]).flat(),
-          ]
-          .filter((c) => c.startsWith(condition))
-          .sort((a, b) => b.length - a.length)[0];
+          ].filter((c) => c.startsWith(condition)).sort((a, b) => b.length - a.length)[0];
           cond = pf1.registry.conditions.getAliased(condId);
         }
         let text = label || cond?.name || condition;
 
         const broken = !cond;
 
-        const a = pf1.chat.enrichers.createElement({ click: true, handler: "condition", options, broken });
+        const a = pf1.chat.enrichers.createElement({click: true, handler: "psionicCondition", options, broken});
         if (!cond) a.classList.add("broken");
 
         a.dataset.condition = cond?.id || condition;
@@ -119,13 +117,13 @@ export function registerPsionicConditionEnricher() {
           if (!cond?.journal) a.classList.add("broken");
         } else if (a.dataset.remove) {
           setIcon(a, "fa-solid fa-minus");
-          a.dataset.tooltip = game.i18n.format("PF1.EnrichedText.Remove", { value: text });
+          a.dataset.tooltip = game.i18n.format("PF1.EnrichedText.Remove", {value: text});
         } else if (a.dataset.toggle) {
           setIcon(a, "fa-solid fa-plus-minus");
-          a.dataset.tooltip = game.i18n.format("PF1.EnrichedText.Toggle", { value: text });
+          a.dataset.tooltip = game.i18n.format("PF1.EnrichedText.Toggle", {value: text});
         } else {
           setIcon(a, "fa-solid fa-plus");
-          a.dataset.tooltip = game.i18n.format("PF1.EnrichedText.Add", { value: text });
+          a.dataset.tooltip = game.i18n.format("PF1.EnrichedText.Add", {value: text});
         }
 
         if (a.dataset.duration) {
@@ -135,10 +133,10 @@ export function registerPsionicConditionEnricher() {
             period = a.dataset.duration;
             unit = game.i18n.localize("PF1.Time.Period.round.Label");
           }
-          a.dataset.tooltip += "<br>" + game.i18n.format("PF1.EnrichedText.Condition.Duration", { unit, period });
+          a.dataset.tooltip += "<br>" + game.i18n.format("PF1.EnrichedText.Condition.Duration", {unit, period});
           text = game.i18n.format("PF1.ForDuration", {
             subject: text,
-            duration: game.i18n.format("PF1.Time.Format", { value: period, unit }),
+            duration: game.i18n.format("PF1.Time.Format", {value: period, unit}),
           });
         }
 
@@ -148,7 +146,7 @@ export function registerPsionicConditionEnricher() {
       },
       {
         click: onPsionicCondition,
-      }
+      },
   );
 
   pf1.chat.enrichers.enrichers.push(enricher);
