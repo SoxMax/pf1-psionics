@@ -1,4 +1,24 @@
 import {AugmentEditor} from "./augment-sheet.mjs";
+import {MODULE_ID} from "../../_module.mjs";
+
+/**
+ * Inject ItemActionSheet getData to set isSpell flag for powers.
+ * This enables the "Effect" field in the Usage tab for psionic power actions.
+ */
+function injectItemActionSheet() {
+  libWrapper.register(MODULE_ID, "pf1.applications.component.ItemActionSheet.prototype.getData", async function(wrapped) {
+    const context = await wrapped();
+
+    // Set isSpell to true for psionic powers to enable the Effect field
+    if (this.item.type === `${MODULE_ID}.power`) {
+      context.isSpell = true;
+    }
+
+    return context;
+  }, "WRAPPER");
+}
+
+Hooks.once("libWrapper.Ready", injectItemActionSheet);
 
 /**
  * Register render hook to inject augments UI
