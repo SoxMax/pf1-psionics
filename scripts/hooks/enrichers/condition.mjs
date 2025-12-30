@@ -87,8 +87,8 @@ async function onPsionicCondition(event, target) {
  */
 export function registerPsionicConditionEnricher() {
   const enricher = new pf1.chat.enrichers.PF1TextEnricher(
-      "condition",
-      /@Condition\[(?<condition>\w+)(?:;(?<options>.*?))?](?:\{(?<label>.*?)})?/g,
+      "psionicCondition",
+      /@PsionicCondition\[(?<condition>\w+)(?:;(?<options>.*?))?](?:\{(?<label>.*?)})?/g,
       (match) => {
         const { condition, options, label } = match.groups;
 
@@ -107,7 +107,7 @@ export function registerPsionicConditionEnricher() {
 
         const broken = !cond;
 
-        const a = pf1.registry.conditions.createElement({ click: true, handler: "condition", options, broken });
+        const a = pf1.chat.enrichers.createElement({ click: true, handler: "condition", options, broken });
         if (!cond) a.classList.add("broken");
 
         a.dataset.condition = cond?.id || condition;
