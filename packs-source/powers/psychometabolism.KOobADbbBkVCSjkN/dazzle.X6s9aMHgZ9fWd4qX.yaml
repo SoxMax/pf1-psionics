@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Dazzle
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/light/projectile-stars-blue.webp
 name: Dazzle
 system:
   actions:
@@ -26,6 +26,7 @@ system:
       duration:
         units: round
         value: '1'
+      img: icons/magic/light/projectile-stars-blue.webp
       name: Use
       naturalAttack:
         primary: true

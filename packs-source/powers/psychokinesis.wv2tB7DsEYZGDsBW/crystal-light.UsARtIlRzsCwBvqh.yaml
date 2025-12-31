@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Crystal_Light
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/light/explosion-star-glow-silhouette.webp
+img: icons/magic/light/light-lantern-lit-white.webp
 name: Crystal Light
 system:
   actions:
@@ -27,6 +27,7 @@ system:
         dismiss: true
         units: seeText
         value: '1'
+      img: icons/magic/light/light-lantern-lit-white.webp
       name: Use
       notes:
         footer:

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Fortify,_Lesser
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/defensive/barrier-shield-dome-pink.webp
 name: Fortify, Lesser
 system:
   actions:
@@ -23,6 +23,7 @@ system:
       duration:
         units: minute
         value: '1'
+      img: icons/magic/defensive/barrier-shield-dome-pink.webp
       name: Use
       notes:
         footer:

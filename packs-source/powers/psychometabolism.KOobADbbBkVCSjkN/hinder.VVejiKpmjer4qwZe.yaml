@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Hinder
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/control/voodoo-doll-pain-damage-tan.webp
 name: Hinder
 system:
   actions:
@@ -26,6 +26,7 @@ system:
       duration:
         units: spec
         value: 1 minute or until discharged; see text
+      img: icons/magic/control/voodoo-doll-pain-damage-tan.webp
       name: Use
       naturalAttack:
         primary: true

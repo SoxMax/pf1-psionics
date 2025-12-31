@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Sicken_Body
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/acid/dissolve-vomit-green-brown.webp
 name: Sicken Body
 system:
   actions:
@@ -26,6 +26,7 @@ system:
       duration:
         units: round
         value: '1'
+      img: icons/magic/acid/dissolve-vomit-green-brown.webp
       name: Use
       notes:
         footer:

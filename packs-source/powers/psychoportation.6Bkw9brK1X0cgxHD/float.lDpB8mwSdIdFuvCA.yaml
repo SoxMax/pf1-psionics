@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Float
 folder: 6Bkw9brK1X0cgxHD
-img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+img: icons/skills/movement/ball-spinning-blue.webp
 name: Float
 system:
   actions:
@@ -23,8 +23,10 @@ system:
       augments:
         - _id: EqtkGIcr1K6s7t7W
           cost: 1
-          effects:
-            special: +5 ft swim speed
+          effectNotes:
+            - +[[5 * @augments.faster]] ft. swim speed
+          effects: {}
+          footerNotes: []
           img: icons/magic/movement/trail-streak-zigzag-yellow.webp
           maxUses: null
           name: Faster
@@ -33,6 +35,7 @@ system:
         dismiss: true
         units: round
         value: '@cl'
+      img: icons/skills/movement/ball-spinning-blue.webp
       name: Use
       powerAttack:
         critMultiplier: 1

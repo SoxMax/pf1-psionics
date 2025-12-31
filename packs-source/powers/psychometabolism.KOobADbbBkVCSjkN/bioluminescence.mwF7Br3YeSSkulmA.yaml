@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Bioluminescence
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/light/light-lantern-lit-white.webp
 name: Bioluminescence
 system:
   actions:
@@ -27,6 +27,7 @@ system:
       duration:
         units: spec
         value: One hour; see text
+      img: icons/magic/light/light-lantern-lit-white.webp
       name: Use
       powerAttack:
         critMultiplier: 1

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Telekinetic_Punch
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+img: icons/magic/unholy/projectile-bullet-orb-pink.webp
 name: Telekinetic Punch
 system:
   actions:
@@ -30,6 +30,7 @@ system:
               - force
       duration:
         units: inst
+      img: icons/magic/unholy/projectile-bullet-orb-pink.webp
       name: Use
       powerAttack:
         critMultiplier: 1

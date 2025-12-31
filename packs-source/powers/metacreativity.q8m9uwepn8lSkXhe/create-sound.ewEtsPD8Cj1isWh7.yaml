@@ -24,6 +24,7 @@ system:
         dismiss: true
         units: round
         value: '@cl'
+      effect: Sounds; see text
       name: Use
       notes:
         footer:
@@ -36,8 +37,6 @@ system:
         value: Close (25 ft. + 5 ft./2 levels)
       save:
         description: None
-      target:
-        value: Sounds; see text
   description:
     value: >-
       <p>You create a volume of sound that rises, recedes, approaches, or

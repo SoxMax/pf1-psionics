@@ -18,10 +18,47 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: 0b0dL351L17FcY24
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - +[[@augments.objects]] objects affected
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: null
+          name: Objects
+          requiresFocus: false
+        - _id: xkUnE3Idup0Dr5he
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - +[[@augments.size]] size category objects
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: null
+          name: Size
+          requiresFocus: false
+        - _id: 99TlJq2SHtacOIT5
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: null
+          name: Duration
+          requiresFocus: false
       duration:
         units: round
-        value: '1'
+        value: 1 + @augments.duration
       name: Use
+      notes:
+        footer:
+          - >-
+            +[[@augments.objects + (2 * @augments.size) + @augments.duration]]
+            words of trick description
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

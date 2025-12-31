@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Far_Hand
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/unholy/projectile-fireball-green.webp
+img: icons/magic/unholy/hand-marked-pink.webp
 name: Far Hand
 system:
   actions:
@@ -23,16 +23,20 @@ system:
       augments:
         - _id: bS1Sv3h8rMHdIIlV
           cost: 2
-          effects:
-            special: +5 ft range
+          effectNotes:
+            - +[[@augments.range]] ft. range
+          effects: {}
+          footerNotes: []
           img: icons/magic/unholy/projectile-fireball-green.webp
           maxUses: null
           name: Range
           requiresFocus: false
         - _id: lSM4wy4pUr6Gdjsp
           cost: 1
-          effects:
-            special: +2 lbs weight limit
+          effectNotes:
+            - +[[@augment.weight]] pounds weight limit
+          effects: {}
+          footerNotes: []
           img: icons/magic/unholy/projectile-fireball-green.webp
           maxUses: null
           name: Weight
@@ -41,6 +45,7 @@ system:
         concentration: true
         units: minute
         value: '1'
+      img: icons/magic/unholy/hand-marked-pink.webp
       name: Use
       powerAttack:
         critMultiplier: 1

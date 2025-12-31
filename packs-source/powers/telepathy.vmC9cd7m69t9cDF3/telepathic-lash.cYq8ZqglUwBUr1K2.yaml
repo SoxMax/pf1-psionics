@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Telepathic_Lash
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/control/energy-stream-link-large-blue.webp
 name: Telepathic Lash
 system:
   actions:
@@ -26,38 +26,40 @@ system:
       augments:
         - _id: jMBk7SBq5aW3QXH6
           cost: 1
-          effects:
-            dcBonus: 0.5
-            special: +1 HD
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
           maxUses: null
           name: Hit Dice
           requiresFocus: false
         - _id: jH34MZHYPenOjNl9
           cost: 1
-          effects:
-            dcBonus: 0.5
-            special: +1 round duration
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
           maxUses: null
           name: Duration
           requiresFocus: false
         - _id: MB1g6ANvDIYLB6Dv
           cost: 6
-          effects:
-            dcBonus: 3
-            special: '@Condition[Stunned]'
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '@Condition[stunned;duration=1+@augments.duration]'
           img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
           maxUses: 1
           name: Stunned
           requiresFocus: false
       duration:
         units: round
-        value: '1'
+        value: 1+@augments.duration
+      img: icons/magic/control/energy-stream-link-large-blue.webp
       name: Use
       notes:
         footer:
-          - '@Condition[dazed]'
+          - '@Condition[dazed;duration=1+@augments.duration]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -65,11 +67,14 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
+        dc: >-
+          floor((@augments.hitDice + @augments.duration)/2) + (3 *
+          @augment.stunned)
         description: Will negates
         harmless: false
         type: will
       target:
-        value: One humanoid creature that has 4 HD or less
+        value: One humanoid creature that has [[4 + @augments.hitDice]] HD or less
   description:
     value: >-
       <p>Your mind lashes out, overwhelming your target with raging emotions,

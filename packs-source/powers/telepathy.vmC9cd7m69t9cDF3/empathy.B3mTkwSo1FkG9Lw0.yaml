@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Empathy
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/skills/social/diplomacy-unity-alliance.webp
 name: Empathy
 system:
   actions:
@@ -24,17 +24,20 @@ system:
       augments:
         - _id: 5mLgttRyLj36izT9
           cost: 1
-          effects:
-            special: +5 ft range/radius
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
           maxUses: null
           name: Range
           requiresFocus: false
         - _id: hgkgxInVn2aeMPvt
           cost: 2
-          effects:
-            durationMultiplier: 60
-            special: Only concentrate for benefits
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: [[@cl]] hours'
+            - Only concentrate for benefits
           img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
           maxUses: 1
           name: Duration
@@ -44,13 +47,14 @@ system:
         dismiss: true
         units: minute
         value: '@cl'
+      img: icons/skills/social/diplomacy-unity-alliance.webp
       name: Use
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
         units: ft
-        value: '30'
+        value: 30 + @augments.range
       save:
         description: None
   description:
