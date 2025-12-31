@@ -1,10 +1,10 @@
-_id: YtTHMx05vC56cxve
-_key: '!items!YtTHMx05vC56cxve'
+_id: wK2mbancnx8hwdTF
+_key: '!items!wK2mbancnx8hwdTF'
 _stats:
   coreVersion: '13.351'
 folder: 9ybKxaq2jUL8O8NW
-img: icons/skills/social/diplomacy-handshake-yellow.webp
-name: Broker
+img: icons/skills/movement/figure-running-gray.webp
+name: Burst
 system:
   active: false
   changeFlags:
@@ -18,20 +18,20 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   changes:
-    - _id: hw19qoAk
-      formula: 2 + @item.dFlags.augmentBonus
+    - _id: 9Fj3NYyH
+      formula: 10 + 10 * @item.dFlags.augmentBonus
       operator: add
       priority: 0
-      target: skill.dip
-      type: insight
+      target: landSpeed
+      type: enh
   description:
     value: >-
-      <p>@UUID[Compendium.pf1-psionics.powers.Item.sKDaSqBafgFDmViM]{Broker}</p><p>+[[2
-      + @item.dFlags.augmentBonus]] Diplomacy</p>
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.eGEBJOwcb4BwlGm4]{Burst}</p><p>+[[10
+      + 10 * @item.dFlags.augmentBonus]] ft. land speed</p>
   duration:
     end: turnStart
     units: round
-    value: '@item.level'
+    value: '1'
   flags:
     dictionary:
       augmentBonus: '0'
@@ -39,7 +39,4 @@ system:
   level: 1
   showInQuickbar: false
   subType: spell
-  uses:
-    maxFormula: '1'
-    value: 1
 type: buff

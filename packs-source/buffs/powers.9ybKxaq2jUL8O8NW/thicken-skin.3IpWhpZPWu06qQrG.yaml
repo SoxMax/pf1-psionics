@@ -27,7 +27,7 @@ system:
   description:
     value: >-
       <p>@UUID[Compendium.pf1-psionics.powers.Item.qmraZHZCTzOxB4DG]{Thicken
-      Skin}</p><p>+Natural Armor</p>
+      Skin}</p><p>+[[1 + @item.dFlags.augmentBonus]] Natural Armor</p>
   duration:
     end: turnStart
     units: minute

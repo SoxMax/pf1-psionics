@@ -1,19 +1,18 @@
-_id: yAuXG82NiMaGYQ7W
-_key: '!items!yAuXG82NiMaGYQ7W'
+_id: CYs9KmwQSSGxBC7L
+_key: '!items!CYs9KmwQSSGxBC7L'
 _stats:
   coreVersion: '13.351'
 folder: 9ybKxaq2jUL8O8NW
-img: icons/creatures/mammals/wolf-shadow-black.webp
-name: Bite of the Wolf, Karak's
+img: icons/commodities/claws/claw-bear-brown.webp
+name: Claws of the Beast
 system:
   actions:
-    - _id: IR8obdhFinMq0NcH
+    - _id: k5tXnKTpfvNtDeES
       ability:
         attack: _default
         critMult: 2
         critRange: 20
         damage: _default
-        damageMult: 1
       actionType: mwak
       activation:
         cost: 1
@@ -25,10 +24,9 @@ system:
         type: none
       damage:
         parts:
-          - formula: sizeRoll(1+@augmentBonus, 8, @size)
+          - formula: sizeRoll(1, 4, @size+@augmentBonus)
             types:
               - slashing
-              - piercing
               - bludgeoning
       duration:
         units: inst
@@ -56,13 +54,8 @@ system:
     seeInvisibility: false
   description:
     value: >-
-      <p>@UUID[Compendium.pf1-psionics.powers.Item.M2ppfygjCg7k5gaP]{Bite of the
-      Wolf, Karak's}</p><p>[[sizeRoll(1+@augmentBonus, 8, @size)]] Bite
-      Attack</p>
-  duration:
-    end: turnStart
-    units: minute
-    value: '@item.level'
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.oFJ6AaeE1UB4anxZ]{Claws of
+      the Beast}</p><p>2x [[sizeRoll(1, 4, @size+@augmentBonus)]] claws</p>
   flags:
     dictionary:
       augmentBonus: '0'

@@ -27,7 +27,7 @@ system:
   description:
     value: >-
       <p>@UUID[Compendium.pf1-psionics.powers.Item.txZMPlZKLbWYyPiR]{Precognition,
-      Offensive}</p><p>+Attack</p>
+      Offensive}</p><p>+[[1 + @item.dFlags.augmentBonus]] Attack</p>
   duration:
     end: turnStart
     units: minute

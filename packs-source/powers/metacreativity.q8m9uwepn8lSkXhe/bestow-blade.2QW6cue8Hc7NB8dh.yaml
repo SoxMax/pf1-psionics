@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Bestow_Blade
 folder: q8m9uwepn8lSkXhe
-img: icons/magic/symbols/runes-star-magenta.webp
+img: icons/weapons/swords/sword-broad-serrated-blue.webp
 name: Bestow Blade
 system:
   actions:
@@ -18,17 +18,41 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: 9KYJNcSL00Gpt4z7
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Range: Close [[25 + 5* floor(@cl/2)]]'
+          img: icons/weapons/swords/sword-broad-serrated-blue.webp
+          maxUses: 1
+          name: Range
+          requiresFocus: false
+        - _id: almvqSFWVhQDFO44
+          cost: 3
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Manifest an additional weapon at the same enhancement bonus
+          img: icons/weapons/swords/sword-broad-serrated-blue.webp
+          maxUses: 1
+          name: Extra Weapon
+          requiresFocus: false
       duration:
         dismiss: true
-        units: spec
-        value: 1 min./level; see text (D)
+        units: minute
+        value: '@cl'
+      img: icons/weapons/swords/sword-broad-serrated-blue.webp
       name: Use
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
         units: ft
-        value: 0
+        value: '0'
       save:
         description: None
   description:

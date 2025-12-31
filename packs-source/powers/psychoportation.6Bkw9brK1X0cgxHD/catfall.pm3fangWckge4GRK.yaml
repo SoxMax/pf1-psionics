@@ -20,6 +20,16 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: 4AcfMd6qfTrqzL7J
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/creatures/mammals/cat-hunched-glowing-red.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         units: round
         value: '@cl'
@@ -39,20 +49,14 @@ system:
     value: >-
       <p>You recover instantly from a fall and can absorb some damage from
       falling. You land on your feet no matter how far you fall, and you take
-      damage as if the fall were 50 feet shorter than it actually is. This power
-      affects you and anything you carry or hold (up to your maximum load). You
-      can manifest this power with an instant thought, quickly enough to gain
-      the benefit of the power while you fall. You
-
-      can manifest this power even when it isn't your turn.
-
-      </p>
-
-      <p><strong>Augment:</strong> For every additional power point you spend,
-      this power reduces your damage as if the fall were an additional 50 feet
-      shorter.
-
-      </p>
+      damage as if the fall were [[50 + 50 * @augments.amplify]] feet shorter
+      than it actually is. This power affects you and anything you carry or hold
+      (up to your maximum load). You can manifest this power with an instant
+      thought, quickly enough to gain the benefit of the power while you fall.
+      You can manifest this power even when it isn't your
+      turn.</p><p><strong>Augment:</strong> For every additional power point you
+      spend, this power reduces your damage as if the fall were an additional 50
+      feet shorter.</p>
   discipline: psychoportation
   display:
     auditory: true

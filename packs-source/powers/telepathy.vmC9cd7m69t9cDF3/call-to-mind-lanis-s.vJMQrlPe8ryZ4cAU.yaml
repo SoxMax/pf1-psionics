@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Call_to_Mind,_Lanis's
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/skills/wounds/anatomy-organ-brain-pink-red.webp
 name: Call to Mind, Lanis's
 system:
   actions:
@@ -18,8 +18,21 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: Fm2rLOvuSJE4LD95
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         units: inst
+      img: icons/skills/wounds/anatomy-organ-brain-pink-red.webp
       name: Use
       powerAttack:
         critMultiplier: 1
@@ -34,20 +47,12 @@ system:
   description:
     value: >-
       <p>By meditating on a subject, you can recall natural memories and
-      knowledge otherwise inaccessible to you.
-
-      </p>
-
-      <p>On a failed Knowledge check, you can manifest this power to gain a new
-      check with a +4 competence bonus. If successful, you instantly recall what
-      was previously buried in your subconscious.
-
-      </p>
-
-      <p><strong>Augment:</strong> For every 2 additional power points you
-      spend, the competence bonus increases by +1.
-
-      </p>
+      knowledge otherwise inaccessible to you.</p><p>On a failed Knowledge
+      check, you can manifest this power to gain a new check with a +[[4 +
+      @augments.amplify]] competence bonus. If successful, you instantly recall
+      what was previously buried in your
+      subconscious.</p><p><strong>Augment:</strong> For every 2 additional power
+      points you spend, the competence bonus increases by +1.</p>
   descriptors:
     - mind-affecting
   discipline: telepathy

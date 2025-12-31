@@ -20,10 +20,22 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: zyyyrtVAn0GlKGUf
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - +[[@augments.level]] Astral Construct levels
+          img: icons/magic/control/silhouette-hold-beam-blue.webp
+          maxUses: null
+          name: Level
+          requiresFocus: false
       duration:
         dismiss: true
         units: round
         value: '@cl'
+      effect: One created astral construct
       img: icons/magic/control/silhouette-hold-beam-blue.webp
       name: Use
       powerAttack:
@@ -34,8 +46,6 @@ system:
         value: Close (25 ft. + 5 ft./2 levels)
       save:
         description: None
-      target:
-        value: One created astral construct
   description:
     value: >-
       <p>This power creates one 1st-level astral construct of solidified

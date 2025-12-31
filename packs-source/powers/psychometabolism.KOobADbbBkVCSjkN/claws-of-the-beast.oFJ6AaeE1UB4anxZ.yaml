@@ -20,14 +20,35 @@ system:
           type: nonaction
       ammo:
         type: none
-      damage:
-        parts:
-          - formula: 1d4
+      augments:
+        - _id: 3zSCi59iPU5sOp6j
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/commodities/claws/claw-bear-brown.webp
+          maxUses: 3
+          name: Damage
+          requiresFocus: false
+        - _id: 05oJ2oEfxyZBSfbv
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/commodities/claws/claw-bear-brown.webp
+          maxUses: null
+          name: Expensive Damage
+          requiresFocus: false
       duration:
         units: hour
         value: '@cl'
       img: icons/commodities/claws/claw-bear-brown.webp
       name: Use
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Claws of the
+            Beast;level=@cl;dFlags.augmentBonus=@augments.damage+@augments.expensiveDamage]
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

@@ -20,9 +20,20 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: fnjWmkeAHk5BO4pc
+          cost: 3
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/weapons/ammunition/arrows-barbed-white.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         units: minute
         value: '@cl'
+      effect: A normal bolt, arrow, or sling bullet
       img: icons/weapons/ammunition/arrows-barbed-white.webp
       name: Use
       powerAttack:
@@ -33,24 +44,17 @@ system:
         value: '0'
       save:
         description: None
-      target:
-        value: A normal bolt, arrow, or sling bullet
   description:
     value: >-
-      <p>You create 2d4 ectoplasmic crossbow bolts, arrows, or sling bullets,
-      appropriate to your size, which dissipate into their constituent
-      ectoplasmic particles when the duration ends or after being fired.
-      Ammunition you create has a +1 enhancement bonus on attack rolls and
-      damage rolls.
-
-      </p>
-
-      <p><strong>Augment:</strong> For every 3 additional power points you
-      spend, this power improves the ammunition's enhancement bonus on attack
-      rolls and damage rolls by 1 and creates an additional 1d4 pieces of
-      appropriate ammunition.
-
-      </p>
+      <p>You create [[(2 + @augments.amplify)d4]] ectoplasmic crossbow bolts,
+      arrows, or sling bullets, appropriate to your size, which dissipate into
+      their constituent ectoplasmic particles when the duration ends or after
+      being fired. Ammunition you create has a +[[1+@augments.amplify]]
+      enhancement bonus on attack rolls and damage
+      rolls.</p><p><strong>Augment:</strong> For every 3 additional power points
+      you spend, this power improves the ammunition's enhancement bonus on
+      attack rolls and damage rolls by 1 and creates an additional 1d4 pieces of
+      appropriate ammunition.</p>
   discipline: metacreativity
   display:
     auditory: false

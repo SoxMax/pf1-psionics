@@ -19,14 +19,15 @@ system:
     seeInvisibility: false
   changes:
     - _id: 1Dxoyx1W
-      formula: 2 + @item.dFlags.augmentBonus
+      formula: 10 + @item.dFlags.augmentBonus
       operator: add
       priority: 0
       target: skill.ste
       type: enh
   description:
     value: >-
-      <p>@UUID[Compendium.pf1-psionics.powers.Item.ZKyjK8EyW1LH18ry]{Chameleon}</p><p>+Stealth</p>
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.ZKyjK8EyW1LH18ry]{Chameleon}</p><p>+[[10
+      + @item.dFlags.augmentBonus]] Stealth</p>
   duration:
     end: turnStart
     units: minute

@@ -1,10 +1,10 @@
-_id: 31ESDFP0x23Ft3mN
-_key: '!items!31ESDFP0x23Ft3mN'
+_id: c5Fut7112ULaoguM
+_key: '!items!c5Fut7112ULaoguM'
 _stats:
   coreVersion: '13.351'
 folder: 9ybKxaq2jUL8O8NW
-img: icons/magic/defensive/shield-barrier-blue.webp
-name: Toughen
+img: icons/magic/defensive/barrier-shield-dome-deflect-blue.webp
+name: Biofeedback
 system:
   active: false
   changeFlags:
@@ -17,21 +17,13 @@ system:
     noMediumEncumbrance: false
     seeInDarkness: false
     seeInvisibility: false
-  changes:
-    - _id: RMvgolCN
-      formula: '1'
-      operator: add
-      priority: 0
-      target: nac
-      type: untyped
+  contextNotes:
+    - target: ac
+      text: DR [[2 + @item.dFlags.augmentBonus]]/-
   description:
     value: >-
-      <p>@UUID[Compendium.pf1-psionics.powers.Item.2zGndi6SFDsb62cx]{Toughen}</p><p></p><p>+1
-      Natural Armor</p>
-  duration:
-    end: turnStart
-    units: minute
-    value: '1'
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.2bx0llDpiQ66ShPZ]{Biofeedback}</p><p>DR
+      [[2 + @item.dFlags.augmentBonus]]/-</p>
   hideFromToken: false
   level: 1
   showInQuickbar: false

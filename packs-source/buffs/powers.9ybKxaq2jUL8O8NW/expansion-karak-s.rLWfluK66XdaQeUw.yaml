@@ -1,0 +1,73 @@
+_id: rLWfluK66XdaQeUw
+_key: '!items!rLWfluK66XdaQeUw'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/control/silhouette-grow-shrink-tan.webp
+name: Expansion, Karak's
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: LJnLsg8Z
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: size
+    - _id: e7VdU0c2
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: dex
+      type: size
+    - _id: jNUkMEnz
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: carryStr
+      type: untyped
+    - _id: RIP5jh8b
+      formula: '-0.5'
+      operator: add
+      priority: 0
+      target: carryMult
+      type: untyped
+    - _id: pA1M1KcG
+      formula: '1'
+      operator: add
+      priority: 0
+      target: size
+      type: untyped
+  description:
+    value: >-
+      <p>Adjusts:</p><ul><li>+2 Size penalty to Strength</li><li>-2 Size bonus
+      to Dexterity</li><li>+1 Size</li></ul><p>Included carry capacity
+      adjustments partially account for your gear not changing in
+      size.</p><p>See
+      @UUID[Compendium.pf1-psionics.powers.Item.RIya2MLyCheCHfCH] power for more
+      details.</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '@item.level *@item.dFlags.augmentDuration'
+  flags:
+    dictionary:
+      augmentDuration: '1'
+  hideFromToken: false
+  level: 1
+  showInQuickbar: false
+  sources:
+    - id: PZO1110
+      pages: 330, 331
+  subType: spell
+type: buff

@@ -34,7 +34,7 @@ system:
         - _id: lSM4wy4pUr6Gdjsp
           cost: 1
           effectNotes:
-            - +[[@augment.weight]] pounds weight limit
+            - +[[@augments.weight]] pounds weight limit
           effects: {}
           footerNotes: []
           img: icons/magic/unholy/projectile-fireball-green.webp

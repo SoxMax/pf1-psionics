@@ -20,11 +20,24 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: V1LU7RQP1Qytb3S5
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/skills/movement/figure-running-gray.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         units: round
         value: '1'
       img: icons/skills/movement/figure-running-gray.webp
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Burst;level=@cl;dFlags.augmentBonus=@augments.amplify]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
