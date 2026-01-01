@@ -3,15 +3,24 @@ _key: '!macros!EMcVphS3WmIn5MFX'
 _stats:
   coreVersion: '13.351'
 author: N8Qq94zyfscJUwL4
-command: |-
-  // Size Change Amplification - Updates size changes in buffs based on any augmentBonus
-  const augmentBonus = Number(item.dFlags?.augmentBonus) || 0;
+command: >-
+  // Size Change Amplification - Updates size changes in buffs based on any
+  augmentBonus
+
+  const augmentBonus = Number(item.system?.flags?.dictionary?.augmentBonus) ||
+  0;
+
   if (augmentBonus < 0) return; // Bad bonus, bail out
+
   const sizeBonus = 1 + augmentBonus;
-  
+
+
   const changes = item.system.changes || [];
-  const sizeChange = changes.find(c => c.target === 'size' && c.type === 'untyped');
-  
+
+  const sizeChange = changes.find(c => c.target === 'size' && c.type ===
+  'untyped');
+
+
   if (sizeChange) {
     const isNegative = sizeChange.formula.startsWith('-');
     const baseValue = isNegative ? -1 : 1;
@@ -21,8 +30,7 @@ command: |-
     const updates = {
       [`system.changes.${index}.formula`]: String(baseValue * sizeBonus)
     };
-  
-    await buff.update(updates);
+    await item.update(updates);
   }
 folder: sPlaP29TJOPP21oo
 img: icons/magic/unholy/strike-body-life-soul-purple.webp

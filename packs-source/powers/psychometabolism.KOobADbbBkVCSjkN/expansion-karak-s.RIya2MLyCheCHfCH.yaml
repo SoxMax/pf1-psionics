@@ -59,7 +59,7 @@ system:
         footer:
           - >-
             @PsionicApply[Expansion,
-            Karak's;level=@cl;dFlags.augmentDuration=ifelse(@augments.duration,
+            Karak's;level=@cl;dFlags.augmentBonus=@augments.amplify;dFlags.augmentDuration=ifelse(@augments.duration,
             10, 1)]
       powerAttack:
         critMultiplier: 1

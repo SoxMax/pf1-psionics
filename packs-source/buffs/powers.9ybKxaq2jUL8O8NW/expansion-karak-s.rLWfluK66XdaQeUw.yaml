@@ -19,19 +19,19 @@ system:
     seeInvisibility: false
   changes:
     - _id: LJnLsg8Z
-      formula: '2'
+      formula: 2 + 2*@item.dFlags.augmentBonus
       operator: add
       priority: 0
       target: str
       type: size
     - _id: e7VdU0c2
-      formula: '-2'
+      formula: '-(2 + 2*@item.dFlags.augmentBonus)'
       operator: add
       priority: 0
       target: dex
       type: size
     - _id: jNUkMEnz
-      formula: '-2'
+      formula: '-(2 + 2*@item.dFlags.augmentBonus)'
       operator: add
       priority: 0
       target: carryStr
@@ -50,10 +50,11 @@ system:
       type: untyped
   description:
     value: >-
-      <p>Adjusts:</p><ul><li>+2 Size penalty to Strength</li><li>-2 Size bonus
-      to Dexterity</li><li>+1 Size</li></ul><p>Included carry capacity
-      adjustments partially account for your gear not changing in
-      size.</p><p>See
+      <p>Adjusts:</p><ul><li>+[[2 + 2*@item.dFlags.augmentBonus]] Size penalty
+      to Strength</li><li>-[[2 + 2*@item.dFlags.augmentBonus]] Size bonus to
+      Dexterity</li><li>+[[1 + @item.dFlags.augmentBonus]]
+      Size</li></ul><p>Included carry capacity adjustments partially account for
+      your gear not changing in size.</p><p>See
       @UUID[Compendium.pf1-psionics.powers.Item.RIya2MLyCheCHfCH] power for more
       details.</p>
   duration:
@@ -62,9 +63,18 @@ system:
     value: '@item.level *@item.dFlags.augmentDuration'
   flags:
     dictionary:
+      augmentBonus: '0'
       augmentDuration: '1'
   hideFromToken: false
   level: 1
+  scriptCalls:
+    - _id: Ui39azRc
+      category: toggle
+      hidden: false
+      img: null
+      name: ''
+      type: macro
+      value: Compendium.pf1-psionics.macros.Macro.EMcVphS3WmIn5MFX
   showInQuickbar: false
   sources:
     - id: PZO1110

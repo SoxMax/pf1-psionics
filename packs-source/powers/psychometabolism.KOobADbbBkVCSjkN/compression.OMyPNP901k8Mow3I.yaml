@@ -58,7 +58,7 @@ system:
       notes:
         footer:
           - >-
-            @PsionicApply[Compression;level=@cl;dFlags.augmentDuration=ifelse(@augments.duration,
+            @PsionicApply[Compression;level=@cl;dFlags.augmentBonus=@augments.amplify;dFlags.augmentDuration=ifelse(@augments.duration,
             10, 1)]
       powerAttack:
         critMultiplier: 1
