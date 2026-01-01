@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Empty_Mind
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/holy/meditation-chi-focus-blue.webp
 name: Empty Mind
 system:
   actions:
@@ -18,9 +18,22 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: fKOlo3OnPNGIENPm
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/holy/meditation-chi-focus-blue.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         units: round
         value: '1'
+      img: icons/magic/holy/meditation-chi-focus-blue.webp
       name: Use
       powerAttack:
         critMultiplier: 1
@@ -35,15 +48,10 @@ system:
   description:
     value: >-
       <p>You empty your mind of all transitory and distracting thoughts,
-      improving your self-control. You gain a +2 bonus on all Will saves until
-      your next action.
-
-      </p>
-
-      <p><strong>Augment:</strong> For every 2 additional power points you
-      spend, the bonus on your Will saves increases by 1.
-
-      </p>
+      improving your self-control. You gain a +[[2 +@augments.amplify]] bonus on
+      all Will saves until your next action.</p><p><strong>Augment:</strong> For
+      every 2 additional power points you spend, the bonus on your Will saves
+      increases by 1.</p>
   descriptors:
     - mind-affecting
   discipline: telepathy

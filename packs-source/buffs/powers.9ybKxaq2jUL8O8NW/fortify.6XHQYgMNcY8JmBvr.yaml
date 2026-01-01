@@ -1,10 +1,10 @@
-_id: 3IpWhpZPWu06qQrG
-_key: '!items!3IpWhpZPWu06qQrG'
+_id: 6XHQYgMNcY8JmBvr
+_key: '!items!6XHQYgMNcY8JmBvr'
 _stats:
   coreVersion: '13.351'
 folder: 9ybKxaq2jUL8O8NW
-img: icons/magic/defensive/armor-stone-skin.webp
-name: Thicken Skin
+img: icons/magic/defensive/shield-barrier-glowing-triangle-teal.webp
+name: Fortify
 system:
   active: false
   changeFlags:
@@ -18,20 +18,20 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   changes:
-    - _id: XGSYhUL8
-      formula: 1 + @item.dFlags.augmentBonus
+    - _id: J2bctBUj
+      formula: 2 + @item.dFlags.augmentBonus
       operator: add
       priority: 0
-      target: nac
-      type: untyped
+      target: allSavingThrows
+      type: resist
   description:
     value: >-
-      <p>@UUID[Compendium.pf1-psionics.powers.Item.qmraZHZCTzOxB4DG]</p><p>+[[1
-      + @item.dFlags.augmentBonus]] Natural Armor</p>
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.LJSK9LRnyfUhUzW5]</p><p>+[[2
+      + @item.dFlags.augmentBonus]] resistance bonus to Saves</p>
   duration:
     end: turnStart
     units: minute
-    value: '@item.level * 10'
+    value: '@item.level'
   flags:
     dictionary:
       augmentBonus: '0'

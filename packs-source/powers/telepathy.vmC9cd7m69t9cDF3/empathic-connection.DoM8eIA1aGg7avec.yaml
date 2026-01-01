@@ -67,7 +67,7 @@ system:
       save:
         dc: >-
           @augments.creatureTypesA + @augments.creatureTypesB +
-          2*@augments.duration
+          @augments.duration
         description: Will negates
         harmless: false
         type: will
@@ -97,7 +97,7 @@ system:
       power can also affect an aberration, dragon, elemental, or outsider in
       addition to the creature types mentioned above.</li><li>If you spend 4
       additional power points, this power's duration increases to one day per
-      level.</li></ol><p>In addition, for every 2 additional power points you
+      level.</li></ol> <p>In addition, for every 2 additional power points you
       spend to achieve any of these effects, this power's save DC increases by
       1.</p>
   descriptors:
