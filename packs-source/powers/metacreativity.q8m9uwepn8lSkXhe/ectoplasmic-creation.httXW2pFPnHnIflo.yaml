@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Ectoplasmic_Creation
 folder: q8m9uwepn8lSkXhe
-img: icons/magic/symbols/runes-star-magenta.webp
+img: icons/magic/symbols/cog-glowing-green.webp
 name: Ectoplasmic Creation
 system:
   actions:
@@ -18,23 +18,25 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       duration:
         dismiss: true
         units: hour
         value: '@cl'
+      effect: >-
+        Unattended, nonpsionic, nonmagical object of nonliving matter, up to 1
+        cu. ft./level
+      img: icons/magic/symbols/cog-glowing-green.webp
       name: Use
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
         units: ft
-        value: 0
+        value: '0'
       save:
         description: None
-      target:
-        value: >-
-          Unattended, nonpsionic, nonmagical object of nonliving matter, up to 1
-          cu. ft./level
   description:
     value: >-
       <p>You shape raw ectoplasm into a nonmagical, unattended object of

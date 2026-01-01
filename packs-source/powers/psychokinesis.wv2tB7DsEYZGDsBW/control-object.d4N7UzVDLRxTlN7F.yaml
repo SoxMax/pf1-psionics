@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Control_Object
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/control/hypnosis-mesmerism-eye-tan.webp
+img: icons/magic/control/control-influence-puppet.webp
 name: Control Object
 system:
   actions:
@@ -18,17 +18,40 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: byzJTKLhhJG2888a
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - +[[@augments.quantity]] objects controlled
+          img: icons/magic/control/orb-web-hold.webp
+          maxUses: null
+          name: Quantity
+          requiresFocus: false
+        - _id: LRjzsVv22KpZkKH0
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - +[[100*@augments.weight]] weight
+          img: icons/magic/control/orb-web-hold.webp
+          maxUses: null
+          name: Weight
+          requiresFocus: false
       duration:
         concentration: true
-        units: conc
-        value: up to 1 round/level
+        units: round
+        value: '@cl'
+      img: icons/magic/control/control-influence-puppet.webp
       name: Use
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
-        value: Medium (100 ft. + 10 ft./level)
+        units: medium
       save:
         description: None
       target:
@@ -40,32 +63,20 @@ system:
       cannot be controlled in this fashion, nor can already animated objects or
       undead. The controlled object moves like a puppet, with jerky and clumsy
       movements, at a speed of up to 20 feet. If its form is rigid, it makes
-      creaking, groaning, or grating sounds as you control it.
-
-      </p>
-
-      <p>A controlled object can attack an opponent if you direct it to do so.
-      It has one slam attack, at a base attack bonus equal to your base attack
-      bonus plus your Intelligence modifier. If the attack hits, it deals points
-      of damage equal to 1d6 plus your primary ability modifier. A controlled
-      object has its usual hardness and hit points.
-
-      </p>
-
-      <p>You can use this power on a nonmagical lock, making it move in such a
-      way as to attempt to unlock itself. If another character makes a Disable
-      Device check to open a lock in the device that you are concentrating on
-      controlling, the character gains a +4 bonus on the check.
-
-      </p>
-
-      <p><strong>Augment:</strong> You can augment this power in one or both of
-      the following ways.
-
-      </p><ol><li>For every 2 additional power points you spend, you can control
-      another object at the same time.</li><li>For every 2 additional power
-      points you spend, the weight of the object you can control increases by
-      100 lb.</li></ol>
+      creaking, groaning, or grating sounds as you control it.</p><p>A
+      controlled object can attack an opponent if you direct it to do so. It has
+      one slam attack, at a base attack bonus equal to your base attack bonus
+      plus your Intelligence modifier. If the attack hits, it deals points of
+      damage equal to 1d6 plus your primary ability modifier. A controlled
+      object has its usual hardness and hit points.</p><p>You can use this power
+      on a nonmagical lock, making it move in such a way as to attempt to unlock
+      itself. If another character makes a Disable Device check to open a lock
+      in the device that you are concentrating on controlling, the character
+      gains a +4 bonus on the check.</p><p><strong>Augment:</strong> You can
+      augment this power in one or both of the following ways.</p><ol><li>For
+      every 2 additional power points you spend, you can control another object
+      at the same time.</li><li>For every 2 additional power points you spend,
+      the weight of the object you can control increases by 100 lb.</li></ol>
   discipline: psychokinesis
   display:
     auditory: false

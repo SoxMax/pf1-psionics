@@ -50,6 +50,9 @@ system:
       duration:
         units: round
         value: '@cl'
+      measureTemplate:
+        size: '30'
+        type: cone
       name: Use
       powerAttack:
         critMultiplier: 1

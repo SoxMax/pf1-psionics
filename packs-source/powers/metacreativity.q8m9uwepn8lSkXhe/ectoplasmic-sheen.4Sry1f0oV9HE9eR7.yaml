@@ -11,17 +11,37 @@ name: Ectoplasmic Sheen
 system:
   actions:
     - _id: QWwfQg4Dx6rpe3WP
-      actionType: other
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      area: One object or a 10-ft. square
+      augments:
+        - _id: 3XR0xC6eNjqMEk2M
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Strength check to stand
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: 1
+          name: HardFall
+          requiresFocus: false
       duration:
         dismiss: true
         units: round
         value: '@cl'
+      measureTemplate:
+        size: '10'
+        type: rect
       name: Use
       powerAttack:
         critMultiplier: 1
@@ -31,6 +51,8 @@ system:
         value: Close (25 ft. + 5 ft./2 levels)
       save:
         description: See power text
+        harmless: false
+        type: ref
       target:
         value: One object or a 10-ft. square
   description:

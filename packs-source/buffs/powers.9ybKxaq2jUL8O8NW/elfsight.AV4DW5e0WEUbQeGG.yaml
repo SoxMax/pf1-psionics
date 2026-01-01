@@ -1,0 +1,35 @@
+_id: AV4DW5e0WEUbQeGG
+_key: '!items!AV4DW5e0WEUbQeGG'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Elfsight
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: true
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  contextNotes:
+    - target: skill.per
+      text: +2 bonus on vision-based checks
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.iq3vL7c2t7KxISvP]</p><p>Low
+      light vision and +2 vision-based Perception checks </p>
+  duration:
+    end: turnStart
+    units: hour
+    value: '@item.level'
+  hideFromToken: false
+  level: 1
+  showInQuickbar: false
+  subType: spell
+type: buff

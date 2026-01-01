@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Control_Light
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/light/explosion-star-glow-silhouette.webp
+img: icons/magic/light/orbs-hand-gray.webp
 name: Control Light
 system:
   actions:
@@ -18,21 +18,26 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      area: Nine 10-ft. cubes + three 10-ft. cubes/level (S)
       duration:
         concentration: true
-        units: conc
-        value: up to 1 min./level, or 1 round; see text
+        units: minute
+        value: '@cl'
+      img: icons/magic/light/orbs-hand-gray.webp
+      measureTemplate:
+        size: '10'
+        type: rect
       name: Use
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
       save:
         description: None
-      target:
-        value: Nine 10-ft. cubes + three 10-ft. cubes/level (S)
   description:
     value: >-
       <p>By manipulating the ambient light level, you can decrease or increase

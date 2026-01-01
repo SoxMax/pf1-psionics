@@ -6,11 +6,14 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Empathic_Connection
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/skills/social/thumbsup-approval-like.webp
 name: Empathic Connection
 system:
   actions:
     - _id: fvn5ko2b9KgjBNTy
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -18,9 +21,42 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: z2JbxHsvykZuukpe
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Can affect an animal, fey, magical beast, or monstrous humanoid
+          img: icons/skills/social/thumbsup-approval-like.webp
+          maxUses: 1
+          name: Creature Types A
+          requiresFocus: false
+        - _id: xrcJSpd11tlWUIuQ
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Can affect an aberration, dragon, elemental, or outsider
+          img: icons/skills/social/thumbsup-approval-like.webp
+          maxUses: 1
+          name: Creature Types B
+          requiresFocus: false
+        - _id: 5xGapBZWNEXyj0sW
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/skills/social/thumbsup-approval-like.webp
+          maxUses: 1
+          name: Duration
+          requiresFocus: false
       duration:
         units: hour
-        value: '@cl'
+        value: '@cl * ifelse(@augments.duration, 24, 1)'
+      img: icons/skills/social/thumbsup-approval-like.webp
       name: Use
       powerAttack:
         critMultiplier: 1
@@ -29,6 +65,9 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
+        dc: >-
+          @augments.creatureTypesA + @augments.creatureTypesB +
+          2*@augments.duration
         description: Will negates
         harmless: false
         type: will
@@ -41,34 +80,26 @@ system:
       strings, making your target view you as a friend (treat the target's
       attitude as friendly). If the creature is currently being threatened or
       attacked by you or your allies, however, it receives a +5 bonus on its
-      saving throw.
-
-      </p>
-
-      <p>This does not enable you to control the affected person as if it was an
-      automaton, but it perceives your words and actions in the most favorable
-      way. You can try to give the subject orders, but you must win an opposed
-      Charisma check to convince it to do anything it wouldn't ordinarily do.
-      (Retries are not allowed.) An affected creature never obeys suicidal or
-      obviously harmful orders, but it might be convinced that something very
-      dangerous is worth doing. Any act by you or your apparent allies that
-      threatens the charmed person breaks the effect. You must speak the
-      person's language to communicate your commands, be good at pantomiming, or
-      have some other method to communicate, such as mindlink.
-
-      </p>
-
-      <p><strong>Augment:</strong> You can augment this power in one or more of
-      the following ways.
-
-      </p><ol><li>If you spend 2 additional power points, this power can also
-      affect an animal, fey, magical beast, or monstrous humanoid.</li><li>If
-      you spend 4 additional power points, this power can also affect an
-      aberration, dragon, elemental, or outsider in addition to the creature
-      types mentioned above.</li><li>If you spend 4 additional power points,
-      this power's duration increases to one day per level. In addition, for
-      every 2 additional power points you spend to achieve any of these effects,
-      this power's save DC increases by 1.</li></ol>
+      saving throw.</p><p>This does not enable you to control the affected
+      person as if it was an automaton, but it perceives your words and actions
+      in the most favorable way. You can try to give the subject orders, but you
+      must win an opposed Charisma check to convince it to do anything it
+      wouldn't ordinarily do. (Retries are not allowed.) An affected creature
+      never obeys suicidal or obviously harmful orders, but it might be
+      convinced that something very dangerous is worth doing. Any act by you or
+      your apparent allies that threatens the charmed person breaks the effect.
+      You must speak the person's language to communicate your commands, be good
+      at pantomiming, or have some other method to communicate, such as
+      mindlink.</p><p><strong>Augment:</strong> You can augment this power in
+      one or more of the following ways.</p><ol><li>If you spend 2 additional
+      power points, this power can also affect an animal, fey, magical beast, or
+      monstrous humanoid.</li><li>If you spend 4 additional power points, this
+      power can also affect an aberration, dragon, elemental, or outsider in
+      addition to the creature types mentioned above.</li><li>If you spend 4
+      additional power points, this power's duration increases to one day per
+      level.</li></ol><p>In addition, for every 2 additional power points you
+      spend to achieve any of these effects, this power's save DC increases by
+      1.</p>
   descriptors:
     - mind-affecting
   discipline: telepathy

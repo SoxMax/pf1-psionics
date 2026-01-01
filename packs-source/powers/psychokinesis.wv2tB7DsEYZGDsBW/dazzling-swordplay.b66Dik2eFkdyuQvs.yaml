@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Dazzling_Swordplay
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/unholy/projectile-fireball-green.webp
+img: icons/skills/melee/sword-twirl-orange.webp
 name: Dazzling Swordplay
 system:
   actions:
@@ -18,15 +18,33 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: zNyT8zQQ2603zqDC
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Manifest upon successful attack
+          img: icons/skills/melee/sword-twirl-orange.webp
+          maxUses: 1
+          name: On Attack
+          requiresFocus: false
       duration:
         units: spec
         value: 1 round; see text
+      img: icons/skills/melee/sword-twirl-orange.webp
       name: Use
+      notes:
+        footer:
+          - '@Condition[dazzled;duration=1]'
+          - '@Condition[blinded;duration=1]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: ft
+        units: melee
         value: Melee
       save:
         description: None

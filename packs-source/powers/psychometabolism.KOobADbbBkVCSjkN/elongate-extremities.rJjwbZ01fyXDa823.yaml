@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Elongate_Extremities
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/control/buff-strength-muscle-damage.webp
 name: Elongate Extremities
 system:
   actions:
@@ -23,53 +23,72 @@ system:
       augments:
         - _id: bLXUV00BZQx4K6OH
           cost: 2
+          effectNotes: []
           effects:
             durationMultiplier: 10
+          footerNotes: []
           img: icons/magic/life/heart-glowing-red.webp
           maxUses: 1
           name: Duration
           requiresFocus: false
         - _id: GNTlwhpxQigwPUXs
           cost: 2
-          effects:
-            special: >-
+          effectNotes:
+            - >-
               +15 speed instead of +5. Can end turn in the same square as a
               creature that is up to two sizes larger than you.
+          effects: {}
+          footerNotes: []
           img: icons/magic/life/heart-glowing-red.webp
           maxUses: 1
-          name: Extra Long Legs
+          name: Longer Legs
           requiresFocus: false
         - _id: s3ErZvek20qZDhhu
           cost: 2
-          effects:
-            special: Elongate both arms and legs at the same time.
+          effectNotes:
+            - Elongate both arms and legs at the same time.
+          effects: {}
+          footerNotes: []
           img: icons/magic/life/heart-glowing-red.webp
           maxUses: 1
-          name: Both Limbs
+          name: All Limbs
           requiresFocus: false
         - _id: CVGMhB7z2ZccoUWn
           cost: 2
-          effects:
-            special: +10 ft reach instead of +5ft reach
+          effectNotes:
+            - +10 ft reach instead of +5ft reach
+          effects: {}
+          footerNotes: []
           img: icons/magic/life/heart-glowing-red.webp
           maxUses: 1
-          name: Extra Long Arms
+          name: Longer Arms
           requiresFocus: false
         - _id: UQdfxXP886FAYGLh
           cost: 0
-          effects:
-            special: >-
-              Double the bonus and manifest it as a swift action but the power
-              only lasts for 1 round, and the duration cannot be augmented in
-              any way
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Casting Time: Swift'
+            - 'Duration: 1 round (cannot be augmented)'
           img: icons/magic/life/heart-glowing-red.webp
           maxUses: 1
-          name: Double, Swift, and Short
+          name: Short and Powerful
           requiresFocus: true
       duration:
         units: minute
-        value: '@cl'
+        value: '@cl * ifelse(@augments.duration, 10, 1)'
+      img: icons/magic/control/buff-strength-muscle-damage.webp
       name: Use
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Elongate Extremities
+            (Arms);level=@cl;dFlags.augmentBonus=@augments.longerArms;dFlags.augmentDuration=ifelse(@augments.duration,
+            10, 1)]
+          - >-
+            @PsionicApply[Elongate Extremities
+            (Legs);level=@cl;dFlags.augmentBonus=@augments.longerLegs;dFlags.augmentDuration=ifelse(@augments.duration,
+            10, 1)]
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -83,29 +102,25 @@ system:
   description:
     value: >-
       <p>You elongate either your arms (or whatever extremities are equivalent)
-      or your legs to gain an advantage over your enemies.
-
-      </p><ul><li><em>Arms:</em> Increase your reach by 5 ft for the duration of
-      this power.</li></ul>
-
-      <ul><li><em>Legs:</em> Increase your speed by 5 ft for the duration of
-      this power. In addition, you can end your turn in the same square as any
-      creature that is the same size or smaller as you.</li></ul>
-
-      <p><strong>Augment:</strong> You can augment this power in one or more of
-
-      the following ways.
-
-      </p><ol><li>If you spend 2 additional power points, the duration becomes
-      10 minutes per level.</li><li>If you spend 2 additional power points, the
-      speed increase becomes +15 ft instead of +5 ft and you can end your turn
-      in the same square as a creature that is up to two sizes larger than
-      you.</li><li>If you spend 2 additional power points, you can elongate both
-      arms and legs at the same time.</li><li>If you spend 2 additional power
-      points, your reach increases by 10 ft for the duration of this
-      power.</li><li>If you expend your psionic focus, you can double the bonus
-      and manifest it as a swift action but the power only lasts for 1 round,
-      and the duration cannot be augmented in any way.</li></ol>
+      or your legs to gain an advantage over your
+      enemies.</p><ul><li><em>Arms:</em> Increase your reach by
+      [[ifelse(@augments.longerArms, 10, 5) * (@augments.shortAndPowerful + 1)
+      ]] ft for the duration of this power.</li></ul><ul><li><em>Legs:</em>
+      Increase your speed by [[ifelse(@augments.longerLegs, 15, 5) *
+      (@augments.shortAndPowerful + 1) ]] ft for the duration of this power. In
+      addition, you can end your turn in the same square as any creature that is
+      the same size or smaller as you.</li></ul><p><strong>Augment:</strong> You
+      can augment this power in one or more of the following ways.</p><ol><li>If
+      you spend 2 additional power points, the duration becomes 10 minutes per
+      level.</li><li>If you spend 2 additional power points, the speed increase
+      becomes +15 ft instead of +5 ft and you can end your turn in the same
+      square as a creature that is up to two sizes larger than you.</li><li>If
+      you spend 2 additional power points, you can elongate both arms and legs
+      at the same time.</li><li>If you spend 2 additional power points, your
+      reach increases by 10 ft for the duration of this power.</li><li>If you
+      expend your psionic focus, you can double the bonus and manifest it as a
+      swift action but the power only lasts for 1 round, and the duration cannot
+      be augmented in any way.</li></ol>
   discipline: psychometabolism
   display:
     auditory: false

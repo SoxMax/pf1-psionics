@@ -1,10 +1,10 @@
-_id: 0cIQyvzzh7MVyo3n
-_key: '!items!0cIQyvzzh7MVyo3n'
+_id: yG5thVQ8t1utG0Ce
+_key: '!items!yG5thVQ8t1utG0Ce'
 _stats:
   coreVersion: '13.351'
 folder: 9ybKxaq2jUL8O8NW
-img: icons/magic/control/hypnosis-mesmerism-eye.webp
-name: Distract
+img: icons/magic/control/buff-strength-muscle-damage.webp
+name: Elongate Extremities (Arms)
 system:
   active: false
   changeFlags:
@@ -18,28 +18,22 @@ system:
     seeInDarkness: false
     seeInvisibility: false
   changes:
-    - _id: VmNOCfwX
-      formula: '-4'
+    - _id: rbh3LpKV
+      formula: ifelse(@item.dFlags.augmentBonus, 10, 5)
       operator: add
       priority: 0
-      target: skill.per
+      target: reach
       type: untyped
-    - _id: hYX9Qfht
-      formula: '-4'
-      operator: add
-      priority: 0
-      target: skill.sen
-      type: untyped
-  description:
-    value: >-
-      <p>@UUID[Compendium.pf1-psionics.powers.Item.lk5k4I9hxCUckf8s]{Distract}</p><p></p><p>-4
-      Perception and Sense Motive</p>
   duration:
     end: turnStart
     units: minute
-    value: '@item.level'
+    value: '@item.level *@item.dFlags.augmentDuration'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+      augmentDuration: '1'
   hideFromToken: false
-  level: 1
+  level: 0
   showInQuickbar: false
   subType: spell
 type: buff

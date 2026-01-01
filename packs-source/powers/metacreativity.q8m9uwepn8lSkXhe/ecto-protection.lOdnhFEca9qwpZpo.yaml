@@ -18,6 +18,18 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: ZiCrHfU5Acm7z42a
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         units: minute
         value: '@cl'

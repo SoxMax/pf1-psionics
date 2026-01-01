@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Control_Flames,_Izam's
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/fire/flame-burning-skull-orange.webp
+img: icons/magic/fire/flame-burning-hand-white.webp
 name: Control Flames, Izam's
 system:
   actions:
@@ -18,24 +18,22 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      damage:
-        parts:
-          - formula: 1d6
+      ammo:
+        type: none
+      area: One nonmagical fire source; see text
       duration:
         concentration: true
-        units: conc
-        value: up to 1 min./level
+        units: minute
+        value: '@cl'
+      img: icons/magic/fire/flame-burning-hand-white.webp
       name: Use
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
-        value: Medium (100 ft. + 10 ft./level)
+        units: medium
       save:
         description: See text
-      target:
-        value: One nonmagical fire source; see text
   description:
     value: >-
       <p>You pyrokinetically control the intensity or movements of one fire
