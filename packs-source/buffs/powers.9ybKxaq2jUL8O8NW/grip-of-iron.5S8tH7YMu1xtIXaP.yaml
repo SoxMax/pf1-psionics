@@ -1,0 +1,38 @@
+_id: 5S8tH7YMu1xtIXaP
+_key: '!items!5S8tH7YMu1xtIXaP'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/control/buff-strength-muscle-damage-red.webp
+name: Grip of Iron
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  contextNotes:
+    - target: cmb
+      text: 4 + @item.dFlags.augmentBonus enhancement when grappling
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.pVIeBu98MhMpCngt]</p><p>+[[4
+      + @item.dFlags.augmentBonus]] enhancement bonus to CMB when grappling</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 1
+  showInQuickbar: false
+  subType: spell
+type: buff

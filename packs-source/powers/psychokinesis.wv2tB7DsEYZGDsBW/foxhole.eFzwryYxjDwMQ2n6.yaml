@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Foxhole
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/unholy/projectile-fireball-green.webp
+img: icons/magic/earth/projectile-stone-landslide.webp
 name: Foxhole
 system:
   actions:
@@ -18,21 +18,57 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: cgWGXUXrJUCQazUV
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - >-
+              Burrow [[@augments.cubes]] 5-ft, cube instead of affecting four
+              5ft. squares. Only one of these cubes need be in contact with the
+              surface when you start manifesting.
+          img: icons/magic/earth/projectile-stone-landslide.webp
+          maxUses: null
+          name: Cubes
+          requiresFocus: false
+        - _id: VoRRkWZwHBeu03GU
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Affect substances with an hardness of [[2 * @augments.hardness]]
+          img: icons/magic/earth/projectile-stone-landslide.webp
+          maxUses: null
+          name: Hardness
+          requiresFocus: false
+        - _id: NxpBA8bSVsFqHxDp
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Casting Time: Swift'
+          img: icons/magic/earth/projectile-stone-landslide.webp
+          maxUses: null
+          name: Swift
+          requiresFocus: false
       duration:
         units: inst
+      effect: >-
+        Four 5-ft. squares of loose earth, sand, snow, or similar unworked
+        terrain (S)
+      img: icons/magic/earth/projectile-stone-landslide.webp
       name: Use
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
         units: ft
-        value: 20
+        value: '20'
       save:
         description: None
-      target:
-        value: >-
-          Four 5-ft. squares of loose earth, sand, snow, or similar unworked
-          terrain (S)
   description:
     value: >-
       <p>A quick burst of psychokinetic force rearranges the land nearby you,
