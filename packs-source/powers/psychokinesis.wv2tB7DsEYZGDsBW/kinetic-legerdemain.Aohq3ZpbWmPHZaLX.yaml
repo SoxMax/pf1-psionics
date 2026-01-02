@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Kinetic_Legerdemain
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/unholy/projectile-fireball-green.webp
+img: icons/magic/light/hand-sparks-smoke-green.webp
 name: Kinetic Legerdemain
 system:
   actions:
@@ -21,10 +21,41 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: 5fdAaxd6lZVsWugR
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '=[[@augments.amplify]] competence bons on Disable Device'
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
+        - _id: bYkQ6W24IlLGh1yL
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - >-
+              Can make Disable Device checks at a range of Close ([[25 +
+              floor(5*@cl/2)]]
+          img: icons/magic/light/hand-sparks-smoke-green.webp
+          maxUses: 1
+          name: Range
+          requiresFocus: false
       duration:
         units: round
         value: '@cl'
+      held: 1h
+      img: icons/magic/light/hand-sparks-smoke-green.webp
       name: Use
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

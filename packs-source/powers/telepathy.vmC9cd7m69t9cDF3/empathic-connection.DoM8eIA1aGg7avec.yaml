@@ -32,17 +32,19 @@ system:
             - Can affect an animal, fey, magical beast, or monstrous humanoid
           img: icons/skills/social/thumbsup-approval-like.webp
           maxUses: 1
-          name: Creature Types A
+          name: More Creatures
           requiresFocus: false
         - _id: xrcJSpd11tlWUIuQ
-          cost: 2
+          cost: 4
           effectNotes: []
           effects: {}
           footerNotes:
-            - Can affect an aberration, dragon, elemental, or outsider
+            - >-
+              Can affect an Can affect an animal, fey, magical beast, monstrous
+              humanoid, aberration, dragon, elemental, or outsider
           img: icons/skills/social/thumbsup-approval-like.webp
           maxUses: 1
-          name: Creature Types B
+          name: Most Creatures
           requiresFocus: false
         - _id: 5xGapBZWNEXyj0sW
           cost: 4
@@ -65,9 +67,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
-        dc: >-
-          @augments.creatureTypesA + @augments.creatureTypesB +
-          @augments.duration
+        dc: '@augments.moreCreatures + @augments.mostCreatures + @augments.duration'
         description: Will negates
         harmless: false
         type: will

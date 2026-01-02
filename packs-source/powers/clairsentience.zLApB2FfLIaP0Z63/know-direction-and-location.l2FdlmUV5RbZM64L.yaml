@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Know_Direction_and_Location
 folder: zLApB2FfLIaP0Z63
-img: icons/magic/perception/third-eye-blue-red.webp
+img: icons/magic/perception/orb-crystal-ball-scrying.webp
 name: Know Direction and Location
 system:
   actions:
@@ -18,8 +18,21 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: joRd91EMOcXkYzrR
+          cost: -1
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/perception/orb-crystal-ball-scrying.webp
+          maxUses: null
+          name: Cantrip
+          requiresFocus: true
       duration:
         units: inst
+      img: icons/magic/perception/orb-crystal-ball-scrying.webp
       name: Use
       powerAttack:
         critMultiplier: 1

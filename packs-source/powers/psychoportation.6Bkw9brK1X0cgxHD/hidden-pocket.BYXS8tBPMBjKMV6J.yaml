@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Hidden_Pocket
 folder: 6Bkw9brK1X0cgxHD
-img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+img: icons/magic/movement/portal-vortex-orange.webp
 name: Hidden Pocket
 system:
   actions:
@@ -21,11 +21,50 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: mQn8MIktKG4zltxm
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - +[[@augments.weight * @cl]] lbs. in pocket
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: null
+          name: Weight
+          requiresFocus: false
+        - _id: woffLIVLBkpT8ScF
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - +[[@augments.itemQuantity]] items in pocket
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: null
+          name: Item Quantity
+          requiresFocus: false
+        - _id: 7i3JpXYVAE18jB2o
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: 1 day'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: 1
+          name: Duration
+          requiresFocus: false
       duration:
         dismiss: true
         units: hour
-        value: '1'
+        value: floor(@cl/4)
+      held: 1h
+      img: icons/magic/movement/portal-vortex-orange.webp
       name: Use
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

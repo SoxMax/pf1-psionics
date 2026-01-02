@@ -6,11 +6,14 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Involuntary_Bodily_Function
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/acid/dissolve-vomit-green-brown.webp
 name: Involuntary Bodily Function
 system:
   actions:
     - _id: OIAfP5alqxNunnoM
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -18,10 +21,38 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: tPXYR70U6qXgRxNA
+          cost: 3
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '@Condition[nauseated;duration=10*@cl]'
+            - '@Save[ref;dc=10+@sl+@ablMod] or @Condition[prone]'
+          img: icons/magic/acid/dissolve-vomit-green-brown.webp
+          maxUses: null
+          name: Nauseated
+          requiresFocus: false
+        - _id: GonBq53wrPkKkuCi
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Target: [[@cl]] living creatures'
+          img: icons/magic/acid/dissolve-vomit-green-brown.webp
+          maxUses: 1
+          name: Targets
+          requiresFocus: false
       duration:
         units: minute
         value: '@cl'
+      img: icons/magic/acid/dissolve-vomit-green-brown.webp
       name: Use
+      notes:
+        footer:
+          - '@Condition[sickened;duration=10*@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

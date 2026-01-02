@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Judge_(power)
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/perception/eye-ringed-glow-angry-red.webp
 name: Judge
 system:
   actions:
@@ -23,15 +23,18 @@ system:
       augments:
         - _id: hMwjo0iTrXOAqPII
           cost: 2
-          effects:
-            special: +1 Sense Motive
+          effectNotes:
+            - +1 Sense Motive
+          effects: {}
+          footerNotes: []
           img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
           maxUses: null
           name: Sense Motive
           requiresFocus: false
       duration:
-        units: round
+        units: spec
         value: One Sense Motive check this round
+      img: icons/magic/perception/eye-ringed-glow-angry-red.webp
       name: Use
       powerAttack:
         critMultiplier: 1
@@ -46,14 +49,9 @@ system:
   description:
     value: >-
       <p>You gain temporary, intuitive insight into piercing lies. Your Sense
-      Motive check gains a +2 insight bonus.
-
-      </p>
-
-      <p><strong>Augment:</strong> For each 2 additional power points you spend,
-      you can increase your Sense Motive check by +1.
-
-      </p>
+      Motive check gains a +[[2+@augments.amplify]] insight
+      bonus.</p><p><strong>Augment:</strong> For each 2 additional power points
+      you spend, you can increase your Sense Motive check by +1.</p>
   discipline: telepathy
   display:
     auditory: false

@@ -26,15 +26,16 @@ system:
       augments:
         - _id: QpI0D9rt0K57i6br
           cost: 1
-          effects:
-            damageBonus: '5'
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/life/heart-glowing-red.webp
           maxUses: null
-          name: Augment HP
+          name: Amplify
           requiresFocus: false
       damage:
         parts:
-          - formula: '5'
+          - formula: 5 + 5* @augments.amplify
       duration:
         units: minute
         value: '@cl'

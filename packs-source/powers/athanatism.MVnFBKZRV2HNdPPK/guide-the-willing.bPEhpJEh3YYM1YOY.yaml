@@ -6,24 +6,39 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Guide_the_Willing
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/holy/barrier-shield-winged-cross.webp
 name: Guide the Willing
 system:
   actions:
     - _id: EWTVG66izSxPCLyg
-      ability:
-        critMult: 2
-        critRange: 20
-      actionType: msak
+      actionType: other
       activation:
         cost: 1
         type: standard
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: Mik0pi4dXWH8Vv1g
+          cost: 0
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Only effects of your choice trigger when the target dies
+          img: icons/magic/holy/barrier-shield-winged-cross.webp
+          maxUses: null
+          name: Selective
+          requiresFocus: true
       duration:
         units: inst
-      name: Use
+      img: icons/magic/holy/barrier-shield-winged-cross.webp
+      name: Willing Target
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -31,9 +46,84 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
-        description: None
+        harmless: true
       target:
         value: One conscious, willing, and living target
+    - _id: S7ETkURta7k81gYO
+      ability:
+        attack: _default
+        critMult: 2
+        critRange: 20
+      actionType: msak
+      activation:
+        cost: 1
+        type: nonaction
+        unchained:
+          cost: 1
+          type: nonaction
+      ammo:
+        type: none
+      description: >-
+        <p>The target does not have to be willing or conscious. This power has a
+        range of touch, and the target receives a Fortitude save to resist its
+        effects (as well as power resistance, if applicable).</p>
+      duration:
+        units: inst
+      held: 1h
+      name: Unwilling Target
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: touch
+      save:
+        dc: '5'
+        description: Fortitude negates
+        harmless: false
+        type: fort
+      target:
+        value: One living target
+      touch: true
+      uses:
+        autoDeductChargesCost: max(0, @sl * 2 - 1) + 10
+    - _id: CvrgJBAUlS4w83T8
+      actionType: other
+      activation:
+        cost: 1
+        type: nonaction
+        unchained:
+          cost: 1
+          type: nonaction
+      ammo:
+        type: none
+      description: >-
+        <p>The target can be a willing undead creature. The target is completely
+        destroyed, releasing its soul to be raised as normal.</p>
+      duration:
+        units: inst
+      name: Undead Target
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: close
+      save:
+        dc: '2'
+        description: Fortitude negates
+        harmless: false
+        type: fort
+      target:
+        value: One conscious, willing, and undead target
+      uses:
+        autoDeductChargesCost: max(0, @sl * 2 - 1) + 4
   description:
     value: >-
       <p>Your powers can grant the final mercy to those suffering. The target
@@ -93,7 +183,7 @@ system:
       pages: '32'
       publisher: Dreamscarred Press
       title: 'Psionics Augmented: Seventh Path'
-  sr: false
+  sr: true
   uses:
     autoDeductChargesCost: max(0, @sl * 2 - 1)
 type: pf1-psionics.power

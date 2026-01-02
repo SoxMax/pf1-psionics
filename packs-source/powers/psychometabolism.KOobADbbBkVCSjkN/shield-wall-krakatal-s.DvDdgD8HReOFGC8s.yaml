@@ -18,6 +18,41 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: veVFGbTAwuS6JHOe
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - >-
+              Decrease tower shield attack penalty by
+              [[@augments.attackPenalty]]
+          img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+          maxUses: null
+          name: Attack Penalty
+          requiresFocus: false
+        - _id: VL1tHzYGBRehKrX5
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - +[[@augments.ac]] tower shield AC
+          img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+          maxUses: null
+          name: AC
+          requiresFocus: false
+        - _id: 503es1qJnyPUaKNY
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Reduce tower shield armor check penalty by [[@augments.acp]]
+          img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+          maxUses: null
+          name: ACP
+          requiresFocus: false
       duration:
         dismiss: true
         units: minute

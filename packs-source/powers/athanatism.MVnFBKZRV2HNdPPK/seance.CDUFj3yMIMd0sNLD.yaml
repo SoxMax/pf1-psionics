@@ -11,6 +11,9 @@ name: Seance
 system:
   actions:
     - _id: WpShh1ENUosbB65n
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -18,6 +21,28 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: g7PujY5ucpOIwzLE
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Members
+          requiresFocus: false
+        - _id: LjfCieI7W3tdDx14
+          cost: 8
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Target a departed soul that has been destroyed in the last week
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Destroyed
+          requiresFocus: false
       duration:
         units: hour
         value: '1'
@@ -26,7 +51,7 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: unlimited
+        units: spec
         value: Unlimited; see text
       save:
         description: Will negates
@@ -37,27 +62,22 @@ system:
   description:
     value: >-
       <p>You and a group of allies summon pieces of a departed soul for
-      questioning. You may include up to two others in this power as members,
-      whom you must remain in close proximity to for the entire manifestation
-      time. When you manifest this power, you must specify a departed soul by
-      name. That departed soul is the target, and can be targeted on different
-      planes. The departed soul is physically drawn to your location, and cannot
-      take any actions while there except to communicate. It is not an actual
-      creature, and cannot be attacked or effected in any way. You and each
-      other that aided you in the manifestation of this power may each ask the
-      departed soul a question, which the departed soul must answer though it
-      only knows what it knew in life. The departed soul can be deceptive or
-      cryptic, if it so wishes.
-
-      </p>
-
-      <p><strong>Augment:</strong> You may augment this power in one of the
-      following ways.
-
-      </p><ol><li>For every 2 additional power points spent, you can include an
-      additional member in the manifestation of this power.</li><li>By spending
-      an additional 8 power points, you may target a departed soul that has been
-      destroyed in the last week.</li></ol>
+      questioning. You may include up to [[2+@augments.members]] others in this
+      power as members, whom you must remain in close proximity to for the
+      entire manifestation time. When you manifest this power, you must specify
+      a departed soul by name. That departed soul is the target, and can be
+      targeted on different planes. The departed soul is physically drawn to
+      your location, and cannot take any actions while there except to
+      communicate. It is not an actual creature, and cannot be attacked or
+      effected in any way. You and each other that aided you in the
+      manifestation of this power may each ask the departed soul a question,
+      which the departed soul must answer though it only knows what it knew in
+      life. The departed soul can be deceptive or cryptic, if it so
+      wishes.</p><p><strong>Augment:</strong> You may augment this power in one
+      of the following ways.</p><ol><li>For every 2 additional power points
+      spent, you can include an additional member in the manifestation of this
+      power.</li><li>By spending an additional 8 power points, you may target a
+      departed soul that has been destroyed in the last week.</li></ol>
   discipline: athanatism
   display:
     auditory: false

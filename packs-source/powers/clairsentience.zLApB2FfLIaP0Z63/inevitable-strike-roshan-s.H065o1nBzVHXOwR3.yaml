@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Inevitable_Strike,_Roshan's
 folder: zLApB2FfLIaP0Z63
-img: icons/magic/perception/third-eye-blue-red.webp
+img: icons/skills/targeting/target-strike-gray.webp
 name: Inevitable Strike, Roshan's
 system:
   actions:
@@ -18,9 +18,32 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: y1zBfZNYFqHsrz9W
+          cost: 0
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Casting Time: 1 Standard'
+          img: icons/skills/targeting/target-strike-gray.webp
+          maxUses: 1
+          name: True Strike
+          requiresFocus: false
+        - _id: Wqefl550ywZtvvFQ
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/skills/targeting/target-strike-gray.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         units: spec
         value: See text
+      img: icons/skills/targeting/target-strike-gray.webp
       name: Use
       powerAttack:
         critMultiplier: 1
@@ -36,19 +59,15 @@ system:
     value: >-
       <p>You gain temporary, intuitive insight into the immediate future during
       your next attack. Your next single attack roll (if it is made before the
-      end of the next round) gains a +5 insight bonus. Additionally, you are not
+      end of the next round) gains a +[[min(ifelse(@augments.trueStrike, 20,5)
+      +2*@augments.amplify, 25)]] insight bonus. Additionally, you are not
       affected by the miss chance that applies to attackers trying to strike a
-      concealed target.
-
-      </p>
-
-      <p><strong>Augment:</strong> This power may be augmented in one or both of
-      the following ways.
-
-      </p><ol><li>You can increase the manifesting time to 1 standard action and
-      increase the insight bonus to +20.</li><li>For every additional power
-      point spent, the insight bonus increases by 2, but the total bonus may not
-      exceed +25.</li></ol>
+      concealed target.</p><p><strong>Augment:</strong> This power may be
+      augmented in one or both of the following ways.</p><ol><li>You can
+      increase the manifesting time to 1 standard action and increase the
+      insight bonus to +20.</li><li>For every additional power point spent, the
+      insight bonus increases by 2, but the total bonus may not exceed
+      +25.</li></ol>
   discipline: clairsentience
   display:
     auditory: false

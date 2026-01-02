@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Matter_Agitation
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/unholy/projectile-fireball-green.webp
+img: icons/magic/symbols/rune-sigil-red-orange.webp
 name: Matter Agitation
 system:
   actions:
@@ -21,14 +21,23 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      area: 2 sq. ft. of surface area of an object or creature
       damage:
         parts:
           - formula: 1d4
       duration:
         concentration: true
-        units: conc
-        value: up to 1 min./level
+        units: minute
+        value: '@cl'
+      held: 1h
+      img: icons/magic/symbols/rune-sigil-red-orange.webp
       name: Use
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -37,8 +46,6 @@ system:
         value: Close (25 ft. + 5 ft./2 levels)
       save:
         description: None
-      target:
-        value: 2 sq. ft. of surface area of an object or creature
   description:
     value: >-
       <p>You can excite the structure of a nonpsionic, nonmagical object,

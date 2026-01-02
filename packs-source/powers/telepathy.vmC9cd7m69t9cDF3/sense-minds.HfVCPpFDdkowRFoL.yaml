@@ -6,11 +6,14 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Sense_Minds
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/skills/wounds/anatomy-organ-brain-pink-red.webp
 name: Sense Minds
 system:
   actions:
     - _id: 9GpWWasvnZxy8mUb
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -18,17 +21,19 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      duration:
-        concentration: true
-        units: conc
-        value: up to 1 min / level; (see text)
+      ammo:
+        type: none
+      img: icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+      measureTemplate:
+        size: '60'
+        type: cone
       name: Use
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
         units: ft
-        value: 60
+        value: '60'
       save:
         description: Will negates
         harmless: false

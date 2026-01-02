@@ -6,11 +6,14 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Hallucinations
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/control/hypnosis-mesmerism-watch.webp
 name: Hallucinations
 system:
   actions:
     - _id: hNl0v4OGMC4dfwYW
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -18,9 +21,69 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: acXzPVVdhai7VqJf
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: [[@augments.duration]] minutes'
+          img: icons/magic/control/hypnosis-mesmerism-watch.webp
+          maxUses: 1
+          name: Duration
+          requiresFocus: false
+        - _id: oVKqXvDXUfKiAUhH
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Can include the images
+            - 'Image AC: [[10 + floor(@cl/2)]]'
+          img: icons/magic/control/hypnosis-mesmerism-watch.webp
+          maxUses: 1
+          name: Images
+          requiresFocus: false
+        - _id: PtDfGbAkoxUHmU1n
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Can include an image, olfactory, thermal and tactile elements
+            - 'Image AC: [[10+floor(@cl/2)]]'
+          img: icons/magic/control/hypnosis-mesmerism-watch.webp
+          maxUses: 1
+          name: Full Hallucination
+          requiresFocus: false
+        - _id: Lw3h25qaIGjYc50w
+          cost: 5
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Triggered mindtrick
+            - 'Trigger Duration: [[@cl] weeks'
+            - 'Hallucination Duration: [[@cl]] minutes'
+          img: icons/magic/control/hypnosis-mesmerism-watch.webp
+          maxUses: 1
+          name: Triggered
+          requiresFocus: false
+        - _id: 6NYflFDlOuzzmjZf
+          cost: 8
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Max 1 target
+            - 'Duration: Permanent'
+          img: icons/magic/control/hypnosis-mesmerism-watch.webp
+          maxUses: 1
+          name: Permanant
+          requiresFocus: false
       duration:
         concentration: true
-        units: conc
+        units: spec
+        value: Concentration
+      img: icons/magic/control/hypnosis-mesmerism-watch.webp
       name: Use
       powerAttack:
         critMultiplier: 1

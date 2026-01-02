@@ -27,22 +27,28 @@ system:
       augments:
         - _id: TNrbIrRvUkl5BR6q
           cost: 1
-          effects:
-            damageBonus: 1d4
-            dcBonus: 0.5
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/unholy/projectile-fireball-green.webp
           maxUses: null
           name: Damage
           requiresFocus: false
       damage:
         parts:
-          - formula: 1d4
+          - formula: (1+@augments.damage)d4
             types:
               - nonlethal
       duration:
         units: inst
       img: icons/magic/sonic/explosion-shock-sound-wave.webp
+      measureTemplate:
+        size: '20'
+        type: cone
       name: Use
+      notes:
+        footer:
+          - '@Condition[prone]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -50,6 +56,7 @@ system:
         units: ft
         value: '20'
       save:
+        dc: floor(@augments.damage/2)
         description: Reflex negates
         harmless: false
         type: ref

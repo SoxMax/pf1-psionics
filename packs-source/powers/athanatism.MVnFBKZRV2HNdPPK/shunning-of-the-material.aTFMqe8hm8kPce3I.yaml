@@ -6,12 +6,13 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Shunning_of_the_Material
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/death/skull-energy-light-white.webp
 name: Shunning of the Material
 system:
   actions:
     - _id: DzwCQArlsVaW6HdZ
       ability:
+        attack: _default
         critMult: 2
         critRange: 20
       actionType: msak
@@ -21,10 +22,29 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: k9jqRphxHRTp7tSd
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: [[@cl]] hours'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Duration
+          requiresFocus: false
       duration:
         units: minute
         value: '@cl'
-      name: Use
+      held: 1h
+      img: icons/magic/death/skull-energy-light-white.webp
+      name: Target
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -37,6 +57,48 @@ system:
         type: will
       target:
         value: One object no larger than 2 cubic feet/level
+      touch: true
+    - _id: 0YNl6qrr4I6AI8p2
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: spellsave
+      activation:
+        cost: 1
+        type: nonaction
+        unchained:
+          cost: 1
+          type: nonaction
+      ammo:
+        type: none
+      area: 3,000 sq. ft./level
+      augments:
+        - _id: DsF86oK4B9LgO0G3
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: [[@cl]] hours'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Duration
+          requiresFocus: false
+      duration:
+        units: minute
+        value: '@cl'
+      img: icons/magic/death/skull-energy-light-white.webp
+      name: Area
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: touch
+      save:
+        description: Will negates; see text
+        harmless: false
+        type: will
+      uses:
+        autoDeductChargesCost: max(0, @sl * 2 - 1) + 6
   description:
     value: >-
       <p>You send an object into the Ethereal Plane, making it ethereal. While

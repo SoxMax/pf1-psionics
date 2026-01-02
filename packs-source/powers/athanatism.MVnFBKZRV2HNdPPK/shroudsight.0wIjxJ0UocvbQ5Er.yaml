@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Shroudsight
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/death/undead-ghost-scream-teal.webp
 name: Shroudsight
 system:
   actions:
@@ -20,7 +20,27 @@ system:
           type: nonaction
       ammo:
         type: none
-      img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+      area: Cone-shaped emanation
+      augments:
+        - _id: NlKZWWdoNGhgdHTW
+          cost: 3
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - >-
+              +1 bonus on attacks, power save DCs, and skill checks against any
+              creatures that you detected. Duration: @ablMod rounds
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: 1
+          name: Alert
+          requiresFocus: false
+      duration:
+        units: spec
+        value: Concentration
+      img: icons/magic/death/undead-ghost-scream-teal.webp
+      measureTemplate:
+        size: '60'
+        type: cone
       name: Use
       powerAttack:
         critMultiplier: 1
@@ -30,8 +50,6 @@ system:
         value: '60'
       save:
         description: None
-      target:
-        value: Cone-shaped emanation
   description:
     value: >-
       <p>You attune your eyes to the energies of the dead and the half-living,

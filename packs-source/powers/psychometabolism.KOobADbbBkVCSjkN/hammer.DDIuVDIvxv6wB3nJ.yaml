@@ -6,12 +6,13 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Hammer
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/earth/strike-fist-stone-gray.webp
 name: Hammer
 system:
   actions:
     - _id: 43KEJL91g3xHqZ76
       ability:
+        attack: _default
         critMult: 2
         critRange: 20
       actionType: msak
@@ -21,12 +22,40 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: WEZNnRHwDtUifbrl
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - +[[@augments.attacks]] uses
+          img: icons/magic/earth/strike-fist-stone-gray.webp
+          maxUses: null
+          name: Attacks
+          requiresFocus: false
+        - _id: 6N9Bww7LSx0bKpTd
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/earth/strike-fist-stone-gray.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
       damage:
         parts:
-          - formula: 1d8
+          - formula: (1+@augments.damage)d8
       duration:
         units: inst
+      held: 1h
+      img: icons/magic/earth/strike-fist-stone-gray.webp
       name: Use
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -37,6 +66,7 @@ system:
         description: None
       target:
         value: Creature or creatures touched (see text)
+      touch: true
   description:
     value: >-
       <p>This power charges your touch with the force of a sledgehammer. Your

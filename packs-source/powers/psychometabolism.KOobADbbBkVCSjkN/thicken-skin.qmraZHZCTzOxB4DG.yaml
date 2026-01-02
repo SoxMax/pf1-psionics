@@ -30,6 +30,16 @@ system:
           maxUses: null
           name: Amplify
           requiresFocus: false
+        - _id: kRkcJnEGyAMRLHsV
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Casting Time: Swift'
+          img: icons/magic/defensive/armor-stone-skin.webp
+          maxUses: 1
+          name: Swift
+          requiresFocus: false
       duration:
         units: minute
         value: 10 * @cl
@@ -53,20 +63,12 @@ system:
   description:
     value: >-
       <p>Your skin or natural armor thickens and spreads across your body,
-      increasing your natural armor bonus by +1.
-
-      </p>
-
-      <p><strong>Augment:</strong> You can augment this power in one or both of
-      the following ways.
-
-      1. For every 3 additional power points you spend, the bonus increases by
-      1.
-
-      2. If you spend 6 additional power points, you can manifest this power as
-      a swift action.
-
-      </p>
+      increasing your natural armor bonus by
+      +[[1+@augments.amplify]].</p><p><strong>Augment:</strong> You can augment
+      this power in one or both of the following ways.</p><ol><li><p>For every 3
+      additional power points you spend, the bonus increases by
+      1.</p></li><li><p>If you spend 6 additional power points, you can manifest
+      this power as a swift action.</p></li></ol>
   discipline: psychometabolism
   display:
     auditory: false

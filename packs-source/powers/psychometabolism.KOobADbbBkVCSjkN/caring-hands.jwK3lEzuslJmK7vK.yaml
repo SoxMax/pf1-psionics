@@ -37,17 +37,17 @@ system:
   description:
     value: >-
       <p>You must be a
-      @UUID[Compendium.pf1-psionics.classes.Item.OtFh9mttHxCFgzTd]{Highlord}
-      following the <a
+      @UUID[Compendium.pf1-psionics.classes.Item.OtFh9mttHxCFgzTd] following the
+      <a
       href="http://172.26.135.170:30000/wiki/Caretaker_(Tenets_of_Cultivation)"
       title="Caretaker (Tenets of Cultivation)">Caretaker (Tenets of
       Cultivation)</a> to manifest this power. You cannot learn this power with
-      the @UUID[Compendium.pf1-psionics.feats.Item.c0UEsI7FACYLayaw]{Expanded
-      Knowledge} feat or similar abilities.</p><p>When you use this power, you
-      can remove a condition or damage affecting a member of your collective,
-      based on how many powers points were spent on the power. Choose one option
-      from the following table to treat:</p><table><tbody><tr><th><p>Power
-      Points Spent</p></th><th><p>Condition
+      the @UUID[Compendium.pf1-psionics.feats.Item.c0UEsI7FACYLayaw] feat or
+      similar abilities.</p><p>When you use this power, you can remove a
+      condition or damage affecting a member of your collective, based on how
+      many powers points were spent on the power. Choose one option from the
+      following table to treat:</p><table><tbody><tr><th><p>Power Points
+      Spent</p></th><th><p>Condition
       Treated</p></th></tr><tr><td><p>1</p></td><td><p>Compulsion or charm, up
       to 4 hit points + 2 hit points per pp spent augmenting the
       power</p></td></tr><tr><td><p>3</p></td><td><p>Fatigue, paralysis, poison,

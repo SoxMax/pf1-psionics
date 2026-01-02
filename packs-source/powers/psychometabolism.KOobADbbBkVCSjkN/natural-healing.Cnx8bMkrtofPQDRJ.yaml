@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Natural_Healing
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-cross-strong-blue.webp
+img: icons/magic/life/heart-cross-blue.webp
 name: Natural Healing
 system:
   actions:
@@ -23,13 +23,24 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: 7gZVsb2ULGw5iFcL
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/life/heart-cross-strong-blue.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       damage:
         parts:
-          - formula: '3'
+          - formula: 3 + 3*@augments.amplify
             types:
               - untyped
       duration:
         units: inst
+      img: icons/magic/life/heart-cross-blue.webp
       name: Use
       powerAttack:
         critMultiplier: 1

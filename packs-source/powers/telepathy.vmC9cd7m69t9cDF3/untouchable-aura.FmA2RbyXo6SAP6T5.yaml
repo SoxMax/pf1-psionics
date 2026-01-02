@@ -23,9 +23,39 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: wglpbRHLlB44chen
+          cost: 0
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Casting Time: Immediate'
+          img: icons/magic/unholy/strike-body-explode-disintegrate.webp
+          maxUses: 1
+          name: Immediate
+          requiresFocus: true
+        - _id: e46m5Q8U4M2cFRyb
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/unholy/strike-body-explode-disintegrate.webp
+          maxUses: null
+          name: Duration
+          requiresFocus: false
+        - _id: Mgj5rvRVkcGUqPGV
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Affect ranged attacks/spells
+          img: icons/magic/unholy/strike-body-explode-disintegrate.webp
+          maxUses: 1
+          name: Ranged
+          requiresFocus: false
       duration:
         units: round
-        value: '@cl'
+        value: '@cl +@augments.duration'
       img: icons/magic/unholy/strike-body-explode-disintegrate.webp
       name: Use
       powerAttack:
@@ -35,6 +65,7 @@ system:
         units: spec
         value: Aura
       save:
+        dc: floor(@augments.duration/2) + 2*@augments.ranged
         description: Will save (see text)
         harmless: false
         type: will
