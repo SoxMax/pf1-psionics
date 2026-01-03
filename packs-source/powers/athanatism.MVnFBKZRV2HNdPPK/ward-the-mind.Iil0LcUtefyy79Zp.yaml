@@ -23,6 +23,36 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: d4TLLq3YqRBqvkDR
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - +[[@augments.targets]] targets
+          img: icons/magic/defensive/shield-barrier-flaming-pentagon-magenta.webp
+          maxUses: null
+          name: Targets
+          requiresFocus: false
+        - _id: 7N87lQlyW9IEsu4E
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/defensive/shield-barrier-flaming-pentagon-magenta.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
+        - _id: UFQVvFXQfeHKtREW
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Power affects a 10-ft.-radius emanation from the target
+          img: icons/magic/defensive/shield-barrier-flaming-pentagon-magenta.webp
+          maxUses: 1
+          name: Aura
+          requiresFocus: false
       duration:
         units: minute
         value: '@cl'
@@ -45,26 +75,19 @@ system:
       <p>This power wards the mind and soul of the living from the predations of
       the undead. The target is immune to future possession and possession-like
       effects such as magic jar - if the target is already possessed, this power
-      does not remove that effect. They also gain a +2 deflection bonus to AC
-      and a +2 resistance bonus on saves, but only against attacks made or
-      effects created by incorporeal creatures.
-
-      </p>
-
-      <p><strong>Augment:</strong> This power may be augmented in one of the
-      following ways.
-
-      </p><ol><li>For every additional power point spent, you can target an
-      additional creature when you manifest this power.</li><li>For every 2
-      additional power points spent, you increase the bonuses granted by this
-      power by 1.</li><li>By spending an additional 4 power points, this power
-      affects a 10-ft.-radius emanation from the target. Summoned incorporeal
-      creatures cannot enter the area of this power.</li></ol>
-
-      <p>In addition, if you spend at least 4 power points augmenting this
-      power, increase the duration of this power to 10 minutes/level.
-
-      </p>
+      does not remove that effect. They also gain a +[[2+@augments.amplify]]
+      deflection bonus to AC and a +[[2+@augments.amplify]] resistance bonus on
+      saves, but only against attacks made or effects created by incorporeal
+      creatures.</p><p><strong>Augment:</strong> This power may be augmented in
+      one of the following ways.</p><ol><li>For every additional power point
+      spent, you can target an additional creature when you manifest this
+      power.</li><li>For every 2 additional power points spent, you increase the
+      bonuses granted by this power by 1.</li><li>By spending an additional 4
+      power points, this power affects a 10-ft.-radius emanation from the
+      target. Summoned incorporeal creatures cannot enter the area of this
+      power.</li></ol><p>In addition, if you spend at least 4 power points
+      augmenting this power, increase the duration of this power to 10
+      minutes/level.</p>
   discipline: athanatism
   display:
     auditory: false

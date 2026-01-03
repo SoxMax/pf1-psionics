@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Induce_Pain
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/control/voodoo-doll-pain-damage-yellow.webp
 name: Induce Pain
 system:
   actions:
@@ -28,6 +28,7 @@ system:
           - formula: 1d3
       duration:
         units: inst
+      img: icons/magic/control/voodoo-doll-pain-damage-yellow.webp
       name: Use
       naturalAttack:
         primary: true

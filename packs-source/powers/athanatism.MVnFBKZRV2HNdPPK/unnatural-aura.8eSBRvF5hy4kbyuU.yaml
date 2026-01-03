@@ -23,12 +23,46 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: 5dQ33qhjzcY1sN4d
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - +[[@augments.targets]] targets
+          img: icons/magic/death/skull-flames-white-blue.webp
+          maxUses: null
+          name: Targets
+          requiresFocus: false
+        - _id: ZDcyahw5Eie2WSHc
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '@Condition[frightened]'
+          img: icons/magic/death/skull-flames-white-blue.webp
+          maxUses: 1
+          name: Frighten
+          requiresFocus: false
+        - _id: eEcArhhBDKNySQHP
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '@Condition[panicked]'
+          img: icons/magic/death/skull-flames-white-blue.webp
+          maxUses: null
+          name: Panic
+          requiresFocus: false
       duration:
         dismiss: true
         units: minute
         value: 10 * @cl
       img: icons/magic/death/skull-flames-white-blue.webp
       name: Use
+      notes:
+        footer:
+          - '@Condition[shaken]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -36,6 +70,7 @@ system:
         units: touch
         value: Touch
       save:
+        dc: floor(@augments.targets/2)+2*@augments.frighten+3*@augments.panic
         description: Will negates
         harmless: false
         type: will

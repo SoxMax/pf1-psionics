@@ -23,6 +23,37 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: BCeRmPk0RVt7pMqE
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - +[[@augments.language]] lanugages stolen
+          img: icons/magic/sonic/scream-wail-shout-teal.webp
+          maxUses: null
+          name: Language
+          requiresFocus: false
+        - _id: RmAhS9KLhurhj2nL
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: [[@cl]] hours'
+          img: icons/magic/sonic/scream-wail-shout-teal.webp
+          maxUses: 1
+          name: Hours
+          requiresFocus: false
+        - _id: MmiOnlvDC19F1xnX
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: [[@cl]] days'
+          img: icons/magic/sonic/scream-wail-shout-teal.webp
+          maxUses: null
+          name: Days
+          requiresFocus: false
       duration:
         units: minute
         value: '@cl'

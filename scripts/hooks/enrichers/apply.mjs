@@ -5,17 +5,20 @@ import { setIcon, getRollData, getMessage } from "./common.mjs";
 /**
  * Click handler for @PsionicApply enricher.
  *
- * Applies a buff with support for dictionary flags and level formulas.
+ * Applies a buff with support for dictionary and boolean flags plus level formulas.
  *
  * @param {Event} event - Click event
  * @param {HTMLElement} target - Clicked element
  */
 async function onPsionicApply(event, target) {
-  // Extract dFlags from dataset
+  // Extract dFlags/bFlags from dataset
   const dFlags = {};
+  const bFlags = new Set();
   for (const [key, val] of Object.entries(target.dataset)) {
-    const match = key.match(/^dflags\.(.+)$/i);
-    if (match) dFlags[match[1]] = val;
+    const dMatch = key.match(/^dflags\.(.+)$/i);
+    if (dMatch) dFlags[dMatch[1]] = val;
+    const bMatch = key.match(/^bflags\.(.+)$/i);
+    if (bMatch) bFlags.add(bMatch[1]);
   }
 
   const {uuid, level, vars} = target.dataset;
@@ -61,6 +64,9 @@ async function onPsionicApply(event, target) {
         results.dFlags[flagName] = roll.total;
       }
     }
+    if (bFlags.size) {
+      results.bFlags = Array.from(bFlags);
+    }
   }
 
   const useTargetRollData = vars === "target";
@@ -89,6 +95,11 @@ async function onPsionicApply(event, target) {
           activationData[`system.flags.dictionary.${flagName}`] = value;
         }
       }
+      if (results.bFlags?.length) {
+        for (const flagName of results.bFlags) {
+          activationData[`system.flags.boolean.${flagName}`] = true;
+        }
+      }
       await old.update(activationData);
     } else {
       // Add new item with results baked in
@@ -101,11 +112,16 @@ async function onPsionicApply(event, target) {
         itemData.system.flags.dictionary ??= {};
         Object.assign(itemData.system.flags.dictionary, results.dFlags);
       }
+      if (results.bFlags?.length) {
+        itemData.system.flags ??= {};
+        itemData.system.flags.boolean ??= {};
+        for (const flagName of results.bFlags) {
+          itemData.system.flags.boolean[flagName] = true;
+        }
+      }
       await Item.implementation.create(itemData, {parent: actor});
     }
   }
-
-  console.debug(`${MODULE_ID} | @PsionicApply | Applied buff "${item.name}" with dFlags:`, dFlags);
 }
 
 /**
@@ -114,7 +130,7 @@ async function onPsionicApply(event, target) {
  * This enricher provides buff application with support for dictionary flags,
  * allowing dynamic buff configuration via formula evaluation at click time.
  *
- * Syntax: @PsionicApply[BuffName;level=@cl;dFlags.flagName=value]{Label}
+ * Syntax: @PsionicApply[BuffName;level=@cl;dFlags.flagName=value;bFlags.flagName]{Label}
  *
  * The enricher is registered in the ready hook after all setup hooks complete.
  */
@@ -126,7 +142,6 @@ export function registerPsionicApplyEnricher() {
         const { ident, options, label } = match.groups;
 
         const item = fromUuidSync(ident) ?? fromUuidSync(await pf1.chat.enrichers.findItem(ident, { type: "buff" }));
-
         if (!item) console.warn("PF1 | @PsionicApply | Could not find item", ident);
 
         const broken = !item;
@@ -155,4 +170,3 @@ export function registerPsionicApplyEnricher() {
 
   pf1.chat.enrichers.enrichers.push(enricher);
 }
-

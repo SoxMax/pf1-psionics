@@ -20,6 +20,17 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: XXZlrUeeGjAWeK63
+          cost: 0
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Psicrystal can trigger the recall as an immediate action
+          img: icons/magic/movement/abstract-ribbons-red-orange.webp
+          maxUses: 1
+          name: Psicrystal
+          requiresFocus: true
       duration:
         units: hour
         value: '@cl'

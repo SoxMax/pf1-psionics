@@ -25,7 +25,8 @@ function injectActionUse() {
     const rollData = this.shared.rollData;
     const action = this.action;
     const augments = action.augments;
-    for (const [augmentId, count] of Object.entries(rollData.augmentCounts)) {
+    const augmentCounts = rollData?.augmentCounts || {};
+    for (const [augmentId, count] of Object.entries(augmentCounts)) {
       if (count <= 0) continue;
 
       const augment = augments.find(a => a._id === augmentId);

@@ -18,6 +18,18 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: N0cCUE29siwt3fKf
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 4
+          name: Amplify
+          requiresFocus: false
       duration:
         units: inst
       name: Use
@@ -36,20 +48,15 @@ system:
       <p>You see through the eyes of the dead, accessing their last living
       memories. When you manifest this power, you see and hear the last round of
       the creature's life. The base chance for receiving a meaningful result is
-      70%, and shows exactly what the creature saw and heard during that time.
-      This includes illusions, darkness, or anything else that might alter or
-      obscure perceptions. If the creature was unconscious during this time, you
-      see and hear nothing, but you learn that it was unconscious. If the power
-      fails, the vision is flawed, changing or obscuring the details.
-
-      </p>
-
-      <p><strong>Augment:</strong> For each additional power point you spend,
-      you may see an additional round before the creature died. For every power
-      point you spend augmenting this power, increase the chance of a meaningful
-      result by 5%, to a maximum of 90%.
-
-      </p>
+      [[70 + 5*@augments.amplify]]%, and shows exactly what the creature saw and
+      heard during that time. This includes illusions, darkness, or anything
+      else that might alter or obscure perceptions. If the creature was
+      unconscious during this time, you see and hear nothing, but you learn that
+      it was unconscious. If the power fails, the vision is flawed, changing or
+      obscuring the details.</p><p><strong>Augment:</strong> For each additional
+      power point you spend, you may see an additional round before the creature
+      died. For every power point you spend augmenting this power, increase the
+      chance of a meaningful result by 5%, to a maximum of 90%.</p>
   discipline: athanatism
   display:
     auditory: false

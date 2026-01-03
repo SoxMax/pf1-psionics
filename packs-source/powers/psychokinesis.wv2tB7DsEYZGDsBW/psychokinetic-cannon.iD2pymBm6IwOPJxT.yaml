@@ -23,6 +23,28 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: HAeRsuzepxDwXyFn
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Can do full attack with power
+          img: icons/skills/ranged/arrow-flying-white-blue.webp
+          maxUses: 1
+          name: Full Attack
+          requiresFocus: false
+        - _id: 4Q6Dt8ZmJQQdWMiT
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - +[[@augments.enhanced]] enhancement bonus to attack & damage
+            - +[[10*@augments.enhanced]] ft. range increment
+          img: icons/skills/ranged/arrow-flying-white-blue.webp
+          maxUses: null
+          name: Enhanced
+          requiresFocus: false
       damage:
         parts:
           - formula: 1d8

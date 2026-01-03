@@ -18,6 +18,21 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: nhtZl8o06rm69UH2
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - >-
+              Expend psionic focus to treat Ethereal Plane creatures as having
+              concealment instead of total concealment for 1 round
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Pierce the Veil
+          requiresFocus: false
       duration:
         units: hour
         value: '@cl'

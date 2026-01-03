@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Distract
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/control/hypnosis-mesmerism-eye.webp
 name: Distract
 system:
   actions:
@@ -26,7 +26,9 @@ system:
       augments:
         - _id: 8jtlTjv0Q2lj5YDq
           cost: 2
+          effectNotes: []
           effects: {}
+          footerNotes: []
           img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
           maxUses: null
           name: Identify
@@ -36,6 +38,7 @@ system:
         dismiss: true
         units: minute
         value: '@cl'
+      img: icons/magic/control/hypnosis-mesmerism-eye.webp
       name: Use
       notes:
         footer:

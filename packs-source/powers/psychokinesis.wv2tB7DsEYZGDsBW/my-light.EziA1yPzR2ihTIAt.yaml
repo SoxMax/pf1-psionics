@@ -20,12 +20,13 @@ system:
           type: nonaction
       ammo:
         type: none
-      area: 40-ft. cone of light emanating from you
       augments:
         - _id: WNIwTTpH4lwItsYf
           cost: 2
-          effects:
-            special: Swift Action
+          effectNotes:
+            - Swift Action
+          effects: {}
+          footerNotes: []
           img: icons/magic/light/explosion-star-glow-silhouette.webp
           maxUses: 1
           name: Swift Action
@@ -34,6 +35,7 @@ system:
         dismiss: true
         units: minute
         value: 10 * @cl
+      effect: 40-ft. cone of light emanating from you
       name: Use
       powerAttack:
         critMultiplier: 1

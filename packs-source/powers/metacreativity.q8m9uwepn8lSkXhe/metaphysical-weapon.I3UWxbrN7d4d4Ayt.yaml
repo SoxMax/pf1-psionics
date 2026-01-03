@@ -23,6 +23,26 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: qW9Np6dKk5dHSRdD
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: [[@cl]] hours'
+          img: icons/skills/melee/sword-engraved-glow-purple.webp
+          maxUses: 1
+          name: Duration
+          requiresFocus: false
+        - _id: i8x7nDJrafsbaNiQ
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/skills/melee/sword-engraved-glow-purple.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         units: minute
         value: '@cl'
@@ -42,34 +62,23 @@ system:
         value: Weapon touched
   description:
     value: >-
-      <p>Metaphysical weapon gives a weapon a +1 enhancement bonus on attack
+      <p>Metaphysical weapon gives a weapon a
+      +[[1+@augments.duration+@augments.amplify]] enhancement bonus on attack
       rolls and damage rolls. (An enhancement bonus does not stack with a
-      masterwork weapon's +1 bonus on attack rolls.)
-
-      </p>
-
-      <p>Alternatively, you can affect up to fifty arrows, bolts, or bullets.
-      The projectiles must be of the same type, and they have to be together
-      (such as in the same quiver). Projectiles, but not thrown weapons, lose
-      their enhancement when used. (Treat shuriken as projectiles, rather than
-      thrown weapons, for the purpose of this power.)
-
-      </p>
-
-      <p>You can't manifest this power on most natural weapons, including a
-      psychic warrior's claw powers. This power does work on a weapon brought
-      into being by the graft weapon power.
-
-      </p>
-
-      <p><strong>Augment:</strong> If you spend 4 additional power points, this
-      power's duration increases to 1 hour per level. Additionally, for every 4
-      additional power points you spend augmenting this power, this power
-      improves the weapon's enhancement bonus on attack rolls and damage rolls
-      by 1. This bonus does not allow a weapon to bypass damage reduction aside
-      from magic.
-
-      </p>
+      masterwork weapon's +1 bonus on attack rolls.)</p><p>Alternatively, you
+      can affect up to fifty arrows, bolts, or bullets. The projectiles must be
+      of the same type, and they have to be together (such as in the same
+      quiver). Projectiles, but not thrown weapons, lose their enhancement when
+      used. (Treat shuriken as projectiles, rather than thrown weapons, for the
+      purpose of this power.)</p><p>You can't manifest this power on most
+      natural weapons, including a psychic warrior's claw powers. This power
+      does work on a weapon brought into being by the graft weapon
+      power.</p><p><strong>Augment:</strong> If you spend 4 additional power
+      points, this power's duration increases to 1 hour per level. Additionally,
+      for every 4 additional power points you spend augmenting this power, this
+      power improves the weapon's enhancement bonus on attack rolls and damage
+      rolls by 1. This bonus does not allow a weapon to bypass damage reduction
+      aside from magic.</p>
   discipline: metacreativity
   display:
     auditory: true

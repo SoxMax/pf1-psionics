@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Conceal_Thoughts
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/defensive/barrier-shield-dome-deflect-teal.webp
 name: Conceal Thoughts
 system:
   actions:
@@ -26,6 +26,7 @@ system:
       duration:
         units: hour
         value: '@cl'
+      img: icons/magic/defensive/barrier-shield-dome-deflect-teal.webp
       name: Use
       powerAttack:
         critMultiplier: 1

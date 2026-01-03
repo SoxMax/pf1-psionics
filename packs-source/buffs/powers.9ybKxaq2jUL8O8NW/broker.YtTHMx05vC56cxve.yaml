@@ -26,7 +26,8 @@ system:
       type: insight
   description:
     value: >-
-      <p>@UUID[Compendium.pf1-psionics.powers.Item.sKDaSqBafgFDmViM]{Broker}</p><p>+diplomacy</p>
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.sKDaSqBafgFDmViM]{Broker}</p><p>+[[2
+      + @item.dFlags.augmentBonus]] Diplomacy</p>
   duration:
     end: turnStart
     units: round

@@ -30,6 +30,16 @@ system:
           maxUses: null
           name: Amplify
           requiresFocus: false
+        - _id: Wz0ymnkoCIkatV6X
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Casting Time: Swift'
+          img: icons/magic/perception/third-eye-blue-red.webp
+          maxUses: 1
+          name: Swift
+          requiresFocus: false
       duration:
         dismiss: true
         units: minute

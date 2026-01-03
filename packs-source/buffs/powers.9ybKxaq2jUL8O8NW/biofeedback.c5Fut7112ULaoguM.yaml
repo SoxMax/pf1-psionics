@@ -1,0 +1,31 @@
+_id: c5Fut7112ULaoguM
+_key: '!items!c5Fut7112ULaoguM'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/defensive/barrier-shield-dome-deflect-blue.webp
+name: Biofeedback
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  contextNotes:
+    - target: ac
+      text: DR [[2 + @item.dFlags.augmentBonus]]/-
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.2bx0llDpiQ66ShPZ]{Biofeedback}</p><p>DR
+      [[2 + @item.dFlags.augmentBonus]]/-</p>
+  hideFromToken: false
+  level: 1
+  showInQuickbar: false
+  subType: spell
+type: buff

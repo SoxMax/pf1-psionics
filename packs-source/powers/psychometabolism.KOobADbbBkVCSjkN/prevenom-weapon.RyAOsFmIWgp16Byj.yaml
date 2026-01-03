@@ -20,6 +20,16 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: sVavJz6U1YsEPzMO
+          cost: 3
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/weapons/daggers/dagger-poisoned.webp
+          maxUses: null
+          name: Duration
+          requiresFocus: false
       img: icons/weapons/daggers/dagger-poisoned.webp
       name: Use
       powerAttack:
@@ -34,12 +44,13 @@ system:
         value: Weapon touched
   description:
     value: >-
-      <p>As
-      @UUID[Compendium.pf1-psionics.powers.Item.Ujmjif24y8yGLX1g]{Prevenom},
-      except your weapon gains the poison coating as long as it remains in your
-      grip.
-
-      </p>
+      <p>You can use this power to produce a mild venom that coats one of your
+      weapons. On your next successful melee attack, the venom deals 1 point of
+      Constitution damage per round for [[2+@augments.duration]] rounds. A
+      target struck by the poison can make a Fortitude save each round to negate
+      the damage and end the affliction.</p><p><strong>Augment:</strong> For
+      every 3 additional power points you spend, the poison's duration increases
+      by 1 round.</p>
   discipline: psychometabolism
   display:
     auditory: false

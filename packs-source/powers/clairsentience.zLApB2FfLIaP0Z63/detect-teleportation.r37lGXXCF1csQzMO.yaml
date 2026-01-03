@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Detect_Teleportation
 folder: zLApB2FfLIaP0Z63
-img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+img: icons/magic/symbols/ring-circle-smoke-blue.webp
 name: Detect Teleportation
 system:
   actions:
@@ -18,23 +18,35 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      ammo:
+        type: none
+      area: radius emanation centered on you
+      augments:
+        - _id: 4rv1fKoAtozY61aV
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Range: Medium [[100+10*@cl]]'
+          img: icons/magic/symbols/ring-circle-smoke-blue.webp
+          maxUses: 1
+          name: Range
+          requiresFocus: false
       duration:
         concentration: true
         dismiss: true
-        units: conc
-        value: up to 1 minute (D)
+        units: minute
+        value: '1'
+      img: icons/magic/symbols/ring-circle-smoke-blue.webp
       name: Use
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
         units: ft
-        value: 40
+        value: '40'
       save:
         description: None
-      target:
-        value: 40-ft.-radius emanation centered on you
   description:
     value: >-
       <p>You sense the use of any effects of the teleportation subdiscipline

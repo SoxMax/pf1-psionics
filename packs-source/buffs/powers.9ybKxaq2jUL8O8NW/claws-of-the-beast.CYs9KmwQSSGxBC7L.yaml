@@ -1,0 +1,66 @@
+_id: CYs9KmwQSSGxBC7L
+_key: '!items!CYs9KmwQSSGxBC7L'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/commodities/claws/claw-bear-brown.webp
+name: Claws of the Beast
+system:
+  actions:
+    - _id: k5tXnKTpfvNtDeES
+      ability:
+        attack: _default
+        critMult: 2
+        critRange: 20
+        damage: _default
+      actionType: mwak
+      activation:
+        cost: 1
+        type: attack
+        unchained:
+          cost: 1
+          type: nonaction
+      ammo:
+        type: none
+      damage:
+        parts:
+          - formula: sizeRoll(1, 4, @size+@augmentBonus)
+            types:
+              - slashing
+              - bludgeoning
+      duration:
+        units: inst
+      held: 1h
+      name: Use
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: melee
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.oFJ6AaeE1UB4anxZ]{Claws of
+      the Beast}</p><p>2x [[sizeRoll(1, 4, @size+@augmentBonus)]] claws</p>
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 1
+  showInQuickbar: false
+  subType: spell
+type: buff

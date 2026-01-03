@@ -33,7 +33,7 @@ system:
   description:
     value: >-
       <p>@UUID[Compendium.pf1-psionics.powers.Item.agc1Qt884akNWDyu]{Precognition,
-      Defensive}</p><p>+AC &amp; Saves</p>
+      Defensive}</p><p>+[[1 + @item.dFlags.augmentBonus]] AC &amp; Saves</p>
   duration:
     end: turnStart
     units: minute

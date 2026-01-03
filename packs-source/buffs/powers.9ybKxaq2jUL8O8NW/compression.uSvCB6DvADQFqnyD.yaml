@@ -1,0 +1,81 @@
+_id: uSvCB6DvADQFqnyD
+_key: '!items!uSvCB6DvADQFqnyD'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/control/silhouette-grow-shrink-blue.webp
+name: Compression
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: aKRH9QqJ
+      formula: '-(2 + 2*@item.dFlags.augmentBonus)'
+      operator: add
+      priority: 0
+      target: str
+      type: size
+    - _id: OUzn8Ksy
+      formula: 2 + 2*@item.dFlags.augmentBonus
+      operator: add
+      priority: 0
+      target: dex
+      type: size
+    - _id: pV1p6FTZ
+      formula: 1 + @item.dFlags.augmentBonus
+      operator: add
+      priority: 0
+      target: carryStr
+      type: untyped
+    - _id: yOkQ9biM
+      formula: '0.5'
+      target: carryMult
+      type: untyped
+    - _id: wQ6lK0Ix
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: size
+      type: untyped
+  description:
+    value: >-
+      <p>Adjusts:</p><ul><li>-[[2 + 2*@item.dFlags.augmentBonus]] Size penalty
+      to Strength</li><li>+[[2 + 2*@item.dFlags.augmentBonus]] Size bonus to
+      Dexterity</li><li>-[[1 + @item.dFlags.augmentBonus]]
+      Size</li></ul><p>Included carry capacity adjustments partially account for
+      your gear not changing in size.</p><p>See
+      @UUID[Compendium.pf1-psionics.powers.Item.OMyPNP901k8Mow3I] power for more
+      details.</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '@item.level *@item.dFlags.augmentDuration'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+      augmentDuration: '1'
+  hideFromToken: false
+  level: 1
+  scriptCalls:
+    - _id: wCqjXZDC
+      category: toggle
+      hidden: false
+      img: null
+      name: ''
+      type: macro
+      value: Compendium.pf1-psionics.macros.Macro.EMcVphS3WmIn5MFX
+  showInQuickbar: false
+  sources:
+    - id: PZO1110
+      pages: 330, 331
+  subType: spell
+type: buff

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Entangling_Debris
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+img: icons/magic/nature/root-vine-entangle-foot-green.webp
 name: Entangling Debris
 system:
   actions:
@@ -27,18 +27,23 @@ system:
       augments:
         - _id: tMKVNB4mO6F4RDjX
           cost: 2
+          effectNotes: []
           effects:
             dcBonus: 1
-            special: +5 ft radius
+          footerNotes:
+            - +[[5*@augments.increaseArea]] ft. radius
           img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
           maxUses: null
-          name: Increase Area
+          name: Area
           requiresFocus: false
         - _id: 8HZKrbyYT39fwOn6
           cost: 4
+          effectNotes:
+            - '@Damage'
           effects:
             damageBonus: 2d6
             dcBonus: 2
+          footerNotes: []
           img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
           maxUses: 1
           name: Damage
@@ -48,6 +53,10 @@ system:
         dismiss: true
         units: minute
         value: '1'
+      img: icons/magic/nature/root-vine-entangle-foot-green.webp
+      measureTemplate:
+        size: 40 + 5*@augments.area
+        type: circle
       name: Use
       powerAttack:
         critMultiplier: 1
@@ -56,6 +65,7 @@ system:
         units: long
         value: Long (400 ft. + 40 ft./level)
       save:
+        dc: '@augments.area + 2*@augments.damage'
         description: Reflex partial; see text
         harmless: false
         type: ref

@@ -11,6 +11,9 @@ name: Deceleration
 system:
   actions:
     - _id: ZfYmSlrv2tIe4zFh
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -18,6 +21,18 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: nfnEWD7gFFKuRUaK
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         units: minute
         value: '@cl'
@@ -29,6 +44,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./level)
       save:
+        dc: '@augments.amplify'
         description: Reflex negates
         harmless: false
         type: ref

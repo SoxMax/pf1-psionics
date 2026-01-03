@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Halt_Death
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/life/ankh-gold-blue.webp
 name: Halt Death
 system:
   actions:
@@ -25,6 +25,7 @@ system:
         type: none
       duration:
         units: inst
+      img: icons/magic/life/ankh-gold-blue.webp
       name: Use
       notes:
         footer:

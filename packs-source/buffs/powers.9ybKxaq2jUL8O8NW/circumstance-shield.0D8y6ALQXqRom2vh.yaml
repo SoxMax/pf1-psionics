@@ -27,7 +27,11 @@ system:
   description:
     value: >-
       <p>@UUID[Compendium.pf1-psionics.powers.Item.qvbd1hUViITL64b2]{Circumstance
-      Shield}</p><p>+Initiative</p>
+      Shield}</p><p>+[[1 + @item.dFlags.augmentBonus]] Initiative</p><p>As an
+      immediate action, even if you are caught flatfooted (an exception to the
+      rule that you cannot normally take immediate actions while flat-footed),
+      you may add this bonus to a single Reflex save as a resistance bonus;
+      doing so ends the effect.</p>
   duration:
     end: turnStart
     units: hour

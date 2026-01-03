@@ -18,6 +18,19 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: xWjeNfpPQsCpL1TE
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - +[[@augments.targets]] targets
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: null
+          name: Targets
+          requiresFocus: false
       duration:
         dismiss: true
         units: minute
@@ -27,7 +40,7 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: personal
+        units: touch
         value: Personal or touch; see text
       save:
         description: None

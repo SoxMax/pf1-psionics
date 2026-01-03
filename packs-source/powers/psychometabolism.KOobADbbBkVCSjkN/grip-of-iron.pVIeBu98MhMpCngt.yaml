@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Grip_of_Iron
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/control/buff-strength-muscle-damage-red.webp
 name: Grip of Iron
 system:
   actions:
@@ -18,10 +18,28 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: OXW9CzPNUUIp9v1N
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/control/buff-strength-muscle-damage-red.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         units: round
         value: '@cl'
+      img: icons/magic/control/buff-strength-muscle-damage-red.webp
       name: Use
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Grip of
+            Iron;level=@cl;dFlags.augmentBonus=@augments.amplify]
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

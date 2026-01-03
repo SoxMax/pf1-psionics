@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Guidance_of_the_Ancestors
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/death/skeleton-skull-soul-blue.webp
 name: Guidance of the Ancestors
 system:
   actions:
@@ -18,9 +18,40 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: Uua5bGli86jKkxF9
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/death/skeleton-skull-soul-blue.webp
+          maxUses: 8
+          name: Amplify
+          requiresFocus: false
+        - _id: 9m3ijydiihsS1OjB
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/death/skeleton-skull-soul-blue.webp
+          maxUses: 1
+          name: Proficiency
+          requiresFocus: true
+        - _id: beLluniAiZWh2Sk7
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/death/skeleton-skull-soul-blue.webp
+          maxUses: 1
+          name: Language
+          requiresFocus: false
       duration:
         units: minute
         value: '@cl'
+      img: icons/magic/death/skeleton-skull-soul-blue.webp
       name: Use
       powerAttack:
         critMultiplier: 1
@@ -36,25 +67,18 @@ system:
     value: >-
       <p>By questioning the spirits of your ancestors, you gain vast knowledge.
       You may make Knowledge skill checks untrained. When you manifest this
-      power, choose one Knowledge skill. You gain a +2 insight bonus on skills
-      checks made using that skill.
-
-      </p>
-
-      <p><strong>Augment:</strong> This power may be augmented in one of the
-      following ways.
-
-      </p><ol><li>For every additional power point you spend, you increase the
-      bonus you gain to skill checks from this power by 1, to a maximum of
-      +10.</li><li>You may spend an additional 4 power points and expend your
-      psionic focus to you gain one armor or weapon proficiency of your
-      choice.</li><li>You may spend an additional 2 power points to choose a
-      language you do not speak. You may read, write, and speak it.</li></ol>
-
-      <p>For every 4 power points you spend augmenting this power, you may
-      choose another Knowledge skill.
-
-      </p>
+      power, choose [[1 +
+      floor((@augment.amplify+2*@augment.language+4*@augment.proficiency)/4) ]]
+      Knowledge skill. You gain a +[[2+@augments.amplify]] insight bonus on
+      skills checks made using that skill.</p><p><strong>Augment:</strong> This
+      power may be augmented in one of the following ways.</p><ol><li>For every
+      additional power point you spend, you increase the bonus you gain to skill
+      checks from this power by 1, to a maximum of +10.</li><li>You may spend an
+      additional 4 power points and expend your psionic focus to you gain one
+      armor or weapon proficiency of your choice.</li><li>You may spend an
+      additional 2 power points to choose a language you do not speak. You may
+      read, write, and speak it.</li></ol><p>For every 4 power points you spend
+      augmenting this power, you may choose another Knowledge skill.</p>
   discipline: athanatism
   display:
     auditory: true

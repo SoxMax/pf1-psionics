@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Missive
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/sundries/documents/envelope-sealed-red-brown.webp
 name: Missive
 system:
   actions:
@@ -23,14 +23,17 @@ system:
       augments:
         - _id: 82zdzjkrG2SzV9gh
           cost: 2
-          effects:
-            special: +5 ft range
+          effectNotes:
+            - +[[5 * @augments.range]] ft range
+          effects: {}
+          footerNotes: []
           img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
           maxUses: null
           name: Range
           requiresFocus: false
       duration:
         units: inst
+      img: icons/sundries/documents/envelope-sealed-red-brown.webp
       name: Use
       powerAttack:
         critMultiplier: 1

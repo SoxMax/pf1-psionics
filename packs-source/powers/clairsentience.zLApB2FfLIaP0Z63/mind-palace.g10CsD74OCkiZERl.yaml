@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Mind_Palace
 folder: zLApB2FfLIaP0Z63
-img: icons/magic/perception/third-eye-blue-red.webp
+img: icons/environment/settlement/palast.webp
 name: Mind Palace
 system:
   actions:
@@ -18,8 +18,21 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: YTidf5QMDzmzdEuj
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/environment/settlement/palast.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         units: inst
+      img: icons/environment/settlement/palast.webp
       name: Use
       powerAttack:
         critMultiplier: 1
@@ -42,16 +55,11 @@ system:
       contents, and you search within that representation for shards of
       knowledge that might be applicable to the problem immediately before you.
       The amount of hidden useful knowledge to be gained is unpredictable. You
-      gain a 1d4 bonus to the next attack roll, saving throw, skill check,
-      ability check, manifester level check or similar check you make before the
-      start of your next turn.
-
-      </p>
-
-      <p><strong>Augment: </strong>For every additional two power points you
-      spend, bonus granted by this power increases by 1d4.
-
-      </p>
+      gain a [[(1+@augment.amplify)d4]] bonus to the next attack roll, saving
+      throw, skill check, ability check, manifester level check or similar check
+      you make before the start of your next turn.</p><p><strong>Augment:
+      </strong>For every additional two power points you spend, bonus granted by
+      this power increases by 1d4.</p>
   discipline: clairsentience
   display:
     auditory: true

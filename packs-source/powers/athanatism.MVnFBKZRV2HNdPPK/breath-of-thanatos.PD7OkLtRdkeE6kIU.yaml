@@ -11,6 +11,9 @@ name: Breath of Thanatos
 system:
   actions:
     - _id: ye03rv4yiTw0YYZF
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -18,17 +21,47 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: ZQQYLLlLq1Mlg7Rd
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: DC
+          requiresFocus: false
+        - _id: ziLSDU32NGU9mfIB
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Damage
+          requiresFocus: false
+      damage:
+        parts:
+          - formula: if(@augments.damage, @cl)
+            types:
+              - negative
       duration:
         units: round
         value: '@cl'
+      measureTemplate:
+        size: '30'
+        type: cone
       name: Use
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
         units: ft
-        value: 30
+        value: '30'
       save:
+        dc: '@augments.dc'
         description: Fortitude negates
         harmless: false
         type: fort
@@ -37,23 +70,15 @@ system:
   description:
     value: >-
       <p>You exhale the chill of the grave onto your foes. Any creature that
-      fails its save suffers a -2 penalty to saving throws against death effects
-      and cannot be stabilized if brought below 0 hit points.
-
-      </p>
-
-      <p><strong>Augment:</strong> This power may be augmented in one of the
-      following ways.
-
-      </p><ol><li>For every 2 additional power points you spend, increase the
-      save DC of this power by 1.</li><li>By spending an additional 4 power
-      points, you may deal negative energy damage equal to your manifester level
-      to a target that fails its save.</li></ol>
-
-      <p>For every 2 power points that you spend augmenting this power, increase
-      the saving throw penalty by 1.
-
-      </p>
+      fails its save suffers a [[-(2 + @augments.dc + 2 * @augments.damage)]]
+      penalty to saving throws against death effects and cannot be stabilized if
+      brought below 0 hit points.</p><p><strong>Augment:</strong> This power may
+      be augmented in one of the following ways.</p><ol><li>For every 2
+      additional power points you spend, increase the save DC of this power by
+      1.</li><li>By spending an additional 4 power points, you may deal negative
+      energy damage equal to your manifester level to a target that fails its
+      save.</li></ol><p>For every 2 power points that you spend augmenting this
+      power, increase the saving throw penalty by 1.</p>
   discipline: athanatism
   display:
     auditory: false

@@ -23,6 +23,29 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: DTA6q7OLoOgdKJBI
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '@Condition[fatigued;duration=@cl]'
+            - '@Condition[sickened;duration=@cl]'
+            - '@Condition[staggered;duration=@cl]'
+          img: icons/magic/control/silhouette-fall-slip-prone.webp
+          maxUses: null
+          name: Debuff
+          requiresFocus: false
+        - _id: T2F3uVRojXSaRBVS
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '@Condition[nauseated;duration=@cl]'
+          img: icons/magic/control/silhouette-fall-slip-prone.webp
+          maxUses: null
+          name: Nauseate
+          requiresFocus: false
       duration:
         units: inst
       img: icons/magic/control/silhouette-fall-slip-prone.webp
@@ -37,6 +60,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
+        dc: '@augments.debuff + 2 * @augments.nauseate'
         description: Fortitude negates
         harmless: false
         type: fort

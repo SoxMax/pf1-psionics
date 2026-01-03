@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Demoralize
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/control/fear-fright-shadow-monster-purple.webp
 name: Demoralize
 system:
   actions:
@@ -23,10 +23,24 @@ system:
           type: nonaction
       ammo:
         type: none
-      area: 30-ft.-radius spread centered on you
+      area: radius spread centered on you
+      augments:
+        - _id: 9BkbDmeuWxpV8cfV
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/control/fear-fright-shadow-monster-purple.webp
+          maxUses: null
+          name: Range
+          requiresFocus: false
       duration:
         units: minute
         value: '@cl'
+      img: icons/magic/control/fear-fright-shadow-monster-purple.webp
+      measureTemplate:
+        size: 30 + (5*@augments.range)
+        type: circle
       name: Use
       notes:
         footer:
@@ -36,8 +50,9 @@ system:
         damageBonus: 2
       range:
         units: ft
-        value: '30'
+        value: 30 + (5*@augments.range)
       save:
+        dc: '@augments.range'
         description: Will negates
         harmless: false
         type: will

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Entangling_Ectoplasm
 folder: q8m9uwepn8lSkXhe
-img: icons/magic/symbols/runes-star-magenta.webp
+img: icons/magic/nature/root-vine-entangled-hands.webp
 name: Entangling Ectoplasm
 system:
   actions:
@@ -26,8 +26,10 @@ system:
       augments:
         - _id: TMMsHEadlLsKGU58
           cost: 2
-          effects:
-            special: Affect +1 size and +1 DC
+          effectNotes:
+            - Affect +1 size and +1 DC
+          effects: {}
+          footerNotes: []
           img: icons/magic/symbols/runes-star-magenta.webp
           maxUses: null
           name: Stickier Goo
@@ -35,6 +37,7 @@ system:
       duration:
         units: round
         value: '5'
+      img: icons/magic/nature/root-vine-entangled-hands.webp
       name: Use
       naturalAttack:
         primary: true

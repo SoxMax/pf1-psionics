@@ -26,25 +26,28 @@ system:
       augments:
         - _id: vCsAhEUPxcudUCCi
           cost: 2
-          effects:
-            dcBonus: 1
-            special: >-
-              Target a single, non-magical item weighing up to 10 pounds per
-              manifester level
+          effectNotes:
+            - >-
+              Target: A single, non-magical item weighing up to [[10 * @cl]]
+              pounds
+          effects: {}
+          footerNotes: []
           img: icons/magic/death/skull-energy-light-purple.webp
-          maxUses: null
-          name: Large Items
+          maxUses: 1
+          name: Mundane
           requiresFocus: false
         - _id: TFeQpomFKiBDAXdW
           cost: 2
-          effects:
-            dcBonus: 1
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/death/skull-energy-light-purple.webp
           maxUses: null
-          name: DC Increase
+          name: DC
           requiresFocus: false
       duration:
         units: inst
+      effect: Ray
       name: Use
       naturalAttack:
         primary: true
@@ -57,11 +60,10 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./level)
       save:
+        dc: '@augments.cl + @augments.mundane'
         description: Will negates, see text
         harmless: false
         type: will
-      target:
-        value: Ray
   description:
     value: >-
       <p>The smell of rancid, rotting vegetation suffuses the area as the object

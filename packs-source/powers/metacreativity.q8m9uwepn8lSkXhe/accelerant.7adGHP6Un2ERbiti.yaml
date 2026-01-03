@@ -11,7 +11,10 @@ name: Accelerant
 system:
   actions:
     - _id: 95H9f5A04IcazPGr
-      actionType: other
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -23,22 +26,27 @@ system:
       augments:
         - _id: y2B6BAh5DH9EaGN0
           cost: 2
-          effects:
-            damageBonus: 1d6
-            dcBonus: 1
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/symbols/runes-star-magenta.webp
           maxUses: null
           name: Amplify
           requiresFocus: false
       damage:
         parts:
-          - formula: 1d6
+          - formula: (1+@augments.amplify[Augment])d6
       duration:
         dismiss: true
         units: round
         value: '@cl'
+      effect: Ray
       img: icons/magic/fire/flame-burning-embers-yellow.webp
       name: Use
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -46,9 +54,10 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./level)
       save:
+        dc: '@augments.amplify[Augment]'
         description: See text
-      target:
-        value: Ray
+        harmless: false
+        type: ref
   description:
     value: >-
       <p>The stench of oils wafts around you, then the target of your ire finds

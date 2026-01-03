@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Charge_Psychic_Strike
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/unholy/projectile-fireball-green.webp
+img: icons/weapons/hammers/hammer-double-glowing-yellow.webp
 name: Charge Psychic Strike
 system:
   actions:
@@ -14,16 +14,39 @@ system:
       actionType: other
       activation:
         cost: 1
-        type: standard
+        type: move
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: Ulep0px3c6fEQvGv
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/weapons/hammers/hammer-double-glowing-yellow.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+        - _id: OwE8LmiepGJD4kaw
+          cost: 8
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Casting Time: Swift'
+          img: icons/weapons/hammers/hammer-double-glowing-yellow.webp
+          maxUses: 1
+          name: Swift Damage
+          requiresFocus: false
       damage:
         parts:
-          - formula: 1d8
+          - formula: (1+@augments.damage+2*@augments.swiftDamage)d8
       duration:
-        units: spec
+        units: inst
         value: Instant
+      img: icons/weapons/hammers/hammer-double-glowing-yellow.webp
       name: Use
       powerAttack:
         critMultiplier: 1

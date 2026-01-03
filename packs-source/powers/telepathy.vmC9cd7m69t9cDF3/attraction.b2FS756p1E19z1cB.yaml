@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Attraction
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/life/heart-red-blue.webp
 name: Attraction
 system:
   actions:
@@ -23,9 +23,20 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: L6WVChVy3aHGzCe6
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/life/heart-red-blue.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         units: hour
         value: '@cl'
+      img: icons/magic/life/heart-red-blue.webp
       name: Use
       powerAttack:
         critMultiplier: 1
@@ -34,6 +45,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
+        dc: '@augments.amplify'
         description: Will negates
         harmless: false
         type: will
@@ -51,17 +63,11 @@ system:
       recognize danger but will not flee unless the threat is immediate. If you
       make the subject feel an attraction to yourself, you can't command him
       indiscriminately, although he will be willing to listen to you (even if he
-      disagrees). This power grants you a +4 bonus on any interaction checks you
-      make involving the subject (such as Bluff, Diplomacy, Intimidate, and
-      Sense Motive).
-
-      </p>
-
-      <p><strong>Augment:</strong> For every 2 additional power points you
-      spend, this power's save DC increases by 1 and the bonus on interaction
-      checks increases by 1.
-
-      </p>
+      disagrees). This power grants you a +[[4+@augments.amplify]] bonus on any
+      interaction checks you make involving the subject (such as Bluff,
+      Diplomacy, Intimidate, and Sense Motive).</p><p><strong>Augment:</strong>
+      For every 2 additional power points you spend, this power's save DC
+      increases by 1 and the bonus on interaction checks increases by 1.</p>
   descriptors:
     - mind-affecting
   discipline: telepathy

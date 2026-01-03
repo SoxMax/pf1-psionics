@@ -57,7 +57,8 @@ system:
   description:
     value: >-
       <p>@UUID[Compendium.pf1-psionics.powers.Item.M2ppfygjCg7k5gaP]{Bite of the
-      Wolf, Karak's}</p><p>+Bite Attack</p>
+      Wolf, Karak's}</p><p>[[sizeRoll(1+@augmentBonus, 8, @size)]] Bite
+      Attack</p>
   duration:
     end: turnStart
     units: minute

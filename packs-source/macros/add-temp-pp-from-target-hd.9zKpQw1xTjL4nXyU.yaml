@@ -1,0 +1,77 @@
+_id: 9zKpQw1xTjL4nXyU
+_key: '!macros!9zKpQw1xTjL4nXyU'
+_stats:
+  coreVersion: '13.351'
+author: N8Qq94zyfscJUwL4
+command: |-
+  // Add Temporary Power Points Based on Target's Hit Dice
+  // Designed to be attached to an item's "use" script call category
+  // This grants temporary power points equal to a target's Hit Dice
+  //
+  // USAGE:
+  //   1. Target a creature before using the ability
+  //   2. Use the ability that has this script attached
+  //   3. The actor gains temporary PP equal to the target's HD
+
+  // Validate we have an actor
+  if (!actor) {
+    ui.notifications.error("No actor found for this item.");
+    shared.reject = true;
+    return;
+  }
+
+  // Get power points helper from actor
+  const pp = actor.psionics?.powerPoints;
+  if (!pp?.inUse) {
+    ui.notifications.error("This actor does not have power points. Ensure the PF1-Psionics module is active and the actor has manifesting capability.");
+    shared.reject = true;
+    return;
+  }
+
+  // Get the target
+  const target = game.user.targets.first();
+  if (!target) {
+    ui.notifications.error("Please target a creature first.");
+    shared.reject = true;
+    return;
+  }
+
+  const targetActor = target.actor;
+  if (!targetActor) {
+    ui.notifications.error("Selected target has no actor data.");
+    shared.reject = true;
+    return;
+  }
+
+  // Get target's Hit Dice
+  const hitDice = targetActor.system?.attributes?.hd?.total;
+  if (hitDice === undefined || hitDice === null) {
+    ui.notifications.error(`Could not determine Hit Dice for ${targetActor.name}.`);
+    shared.reject = true;
+    return;
+  }
+
+  // Calculate amount
+  const amount = Math.max(0, Math.floor(hitDice));
+
+  if (amount === 0) {
+    ui.notifications.warn(`Target ${targetActor.name} has 0 Hit Dice. No temporary power points granted.`);
+    return;
+  }
+
+  // Add temporary power points using the helper
+  try {
+    await pp.addTemporary(amount);
+    
+    // Success notification
+    ui.notifications.info(`${actor.name} gained ${amount} temporary power point${amount !== 1 ? 's' : ''} from ${item.name} (based on ${targetActor.name}'s ${hitDice} HD). Total available: ${pp.available}`);
+  } catch (error) {
+    console.error("Failed to add temporary power points:", error);
+    ui.notifications.error(`Failed to add temporary power points for ${item.name}.`);
+    shared.reject = true;
+    return;
+  }
+img: icons/magic/symbols/runes-star-blue.webp
+name: Add Temp PP from Target HD
+scope: global
+type: script

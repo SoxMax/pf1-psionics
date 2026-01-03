@@ -1,0 +1,42 @@
+_id: wK2mbancnx8hwdTF
+_key: '!items!wK2mbancnx8hwdTF'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/skills/movement/figure-running-gray.webp
+name: Burst
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: 9Fj3NYyH
+      formula: 10 + 10 * @item.dFlags.augmentBonus
+      operator: add
+      priority: 0
+      target: landSpeed
+      type: enh
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.eGEBJOwcb4BwlGm4]{Burst}</p><p>+[[10
+      + 10 * @item.dFlags.augmentBonus]] ft. land speed</p>
+  duration:
+    end: turnStart
+    units: round
+    value: '1'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 1
+  showInQuickbar: false
+  subType: spell
+type: buff

@@ -6,12 +6,13 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Crystal_Shard
 folder: q8m9uwepn8lSkXhe
-img: icons/magic/symbols/runes-star-magenta.webp
+img: icons/magic/water/projectile-ice-faceted-gray.webp
 name: Crystal Shard
 system:
   actions:
     - _id: FXzxNmZKiVliAeEr
       ability:
+        attack: _default
         critMult: 2
         critRange: 20
       actionType: rsak
@@ -21,9 +22,30 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: IQJheMRw6ZR6TdHU
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/water/projectile-ice-faceted-gray.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+      damage:
+        parts:
+          - formula: (1+@augments.damage)d6
       duration:
         units: inst
+      effect: Ray
+      img: icons/magic/water/projectile-ice-faceted-gray.webp
       name: Use
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -32,8 +54,40 @@ system:
         value: Close (25 ft. + 5 ft./2 levels)
       save:
         description: None
-      target:
-        value: Ray
+      touch: true
+    - _id: XBrKxgS8YWFsPMRm
+      ability:
+        attack: _default
+        critMult: 2
+        critRange: 20
+      actionType: rsak
+      activation:
+        cost: 1
+        type: standard
+        unchained:
+          cost: 1
+          type: nonaction
+      ammo:
+        type: none
+      damage:
+        parts:
+          - formula: 1d3
+      duration:
+        units: inst
+      effect: Ray
+      name: Cantrip
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
+      powerAttack:
+        critMultiplier: 1
+        damageBonus: 2
+      range:
+        units: close
+      touch: true
+      uses:
+        autoDeductChargesCost: max(0, @sl * 2 - 2)
   description:
     value: >-
       <p>Upon manifesting this power, you propel a razor-sharp crystal shard at

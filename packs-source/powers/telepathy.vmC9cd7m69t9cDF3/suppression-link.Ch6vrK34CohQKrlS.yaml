@@ -36,78 +36,58 @@ system:
         value: one creature
   description:
     value: >-
-      <p>You must be a <a href="/wiki/Highlord" title="Highlord">Highlord</a>
-      following the <a href="/wiki/Despot_(Tenets_of_Oppression)" title="Despot
-      (Tenets of Oppression)">Despot (Tenets of Oppression)</a> to manifest this
-      power. You cannot learn this power with the <a
-      href="/wiki/Expanded_Knowledge" title="Expanded Knowledge">Expanded
-      Knowledge</a> feat or similar abilities.
-
-      </p>
-
-      <p>You establish a short-lived telepathic bond with a creature within
-      range, concentrating on shutting of the creature’s ability to act against
-      you or escape from you. You can manifest this power as either a standard
-      action or a move action; if you manifest it as a move action,
-      concentrating on it is likewise a move action.
-
-      </p><ul><li><strong>Standard Action: </strong>The target must succeed at a
-      Will save or become entangled as long as you concentrate + 1 round
-      thereafter. On a successful save, they become entangled for 1 round
+      <p>You must be a
+      @UUID[Compendium.pf1-psionics.classes.Item.OtFh9mttHxCFgzTd] following the
+      <a href="http://172.26.135.170:30000/wiki/Despot_(Tenets_of_Oppression)"
+      title="Despot (Tenets of Oppression)">Despot (Tenets of Oppression)</a> to
+      manifest this power. You cannot learn this power with the
+      @UUID[Compendium.pf1-psionics.feats.Item.c0UEsI7FACYLayaw] feat or similar
+      abilities.</p><p>You establish a short-lived telepathic bond with a
+      creature within range, concentrating on shutting of the creature’s ability
+      to act against you or escape from you. You can manifest this power as
+      either a standard action or a move action; if you manifest it as a move
+      action, concentrating on it is likewise a move
+      action.</p><ul><li><strong>Standard Action: </strong>The target must
+      succeed at a Will save or become entangled as long as you concentrate + 1
+      round thereafter. On a successful save, they become entangled for 1 round
       instead.</li><li><strong>Move Action: </strong>The target must succeed at
-      a Will save or become entangled as long as you concentrate.</li></ul>
-
-      <p>Creatures entangled by this power cannot willingly move in directions
-      that would increase the distance between them and your location (including
-      using abilities that would increase the distance between you and them,
-      such as teleportation). Each turn you maintain this power, you can choose
-      to drag creatures entangled by the power up to 10 feet (or 5 feet, if you
-      are maintaining it as a move action) towards you.
-
-      </p>
-
-      <p>You can drag entangled creatures when you move, by halving the distance
-      you would normally move (to a minimum of 5 feet, even if halving it would
-      result in a lower distance). You must still follow all the restrictions of
-      your movement (such as where you can move, or where you must end your
-      movement).
-
-      </p>
-
-      <p>In both cases, if you would drag them into a space they cannot enter
-      (such as a wall or that of another creature), you must either end this
-      power’s effect on them, change direction, or stop moving. Otherwise, you
-      can freely drag them along with you.
-
-      </p>
-
-      <p>The movement of dragged creatures does not provoke attacks of
+      a Will save or become entangled as long as you
+      concentrate.</li></ul><p>Creatures entangled by this power cannot
+      willingly move in directions that would increase the distance between them
+      and your location (including using abilities that would increase the
+      distance between you and them, such as teleportation). Each turn you
+      maintain this power, you can choose to drag creatures entangled by the
+      power up to 10 feet (or 5 feet, if you are maintaining it as a move
+      action) towards you.</p><p>You can drag entangled creatures when you move,
+      by halving the distance you would normally move (to a minimum of 5 feet,
+      even if halving it would result in a lower distance). You must still
+      follow all the restrictions of your movement (such as where you can move,
+      or where you must end your movement).</p><p>In both cases, if you would
+      drag them into a space they cannot enter (such as a wall or that of
+      another creature), you must either end this power’s effect on them, change
+      direction, or stop moving. Otherwise, you can freely drag them along with
+      you.</p><p>The movement of dragged creatures does not provoke attacks of
       opportunity, and your movement does not provoke attacks of opportunity
       from creatures you’re dragging. If you would drag a creature into a space
       that can’t support them or a hazardous location (such as the air for a
       nonflying creature or a pit of lava), they may make another saving throw
       against the power. If they succeed, they are not dragged, end the effects
-      of the power upon them, and fall prone in their space.
-
-      </p>
-
-      <p><strong>Augment: </strong>This power can be augmented in one or more of
-      the following ways. Every 2 power points you spend augmenting this power
-      adds +1 to the power’s save DC (if any). This is in addition to the
-      effects of the augments themselves.
-
-      </p><ol><li>For every additional power point you spend, you gain a +1
-      bonus on concentration checks made for this power, except to manifest it
-      defensively.</li><li>If you spend 2 additional power points, the target
-      becomes staggered for the duration of the power.</li><li>For every 3
-      additional power points you spend, you can drag creatures 10 additional
-      feet (or 5 feet, if you are maintaining the power as a move action) each
-      turn you maintain this power.</li><li>If you spend 4 additional power
-      points, the target becomes dazed (standard action manifestation) or
-      nauseated (move action manifestation) for 1 round on a failed saving
-      throw.</li><li>If you spend 6 additional power points, the target becomes
-      blinded for the duration of the power (if the power ends or has its
-      duration reduced thanks to a successful save, so does the
+      of the power upon them, and fall prone in their
+      space.</p><p><strong>Augment: </strong>This power can be augmented in one
+      or more of the following ways. Every 2 power points you spend augmenting
+      this power adds +1 to the power’s save DC (if any). This is in addition to
+      the effects of the augments themselves.</p><ol><li>For every additional
+      power point you spend, you gain a +1 bonus on concentration checks made
+      for this power, except to manifest it defensively.</li><li>If you spend 2
+      additional power points, the target becomes staggered for the duration of
+      the power.</li><li>For every 3 additional power points you spend, you can
+      drag creatures 10 additional feet (or 5 feet, if you are maintaining the
+      power as a move action) each turn you maintain this power.</li><li>If you
+      spend 4 additional power points, the target becomes dazed (standard action
+      manifestation) or nauseated (move action manifestation) for 1 round on a
+      failed saving throw.</li><li>If you spend 6 additional power points, the
+      target becomes blinded for the duration of the power (if the power ends or
+      has its duration reduced thanks to a successful save, so does the
       blind).</li><li>If you spend 6 additional power points, if you would have
       used a standard action to manifest and maintain the power, you can instead
       do so as a move action. If you would have used a move action to manifest

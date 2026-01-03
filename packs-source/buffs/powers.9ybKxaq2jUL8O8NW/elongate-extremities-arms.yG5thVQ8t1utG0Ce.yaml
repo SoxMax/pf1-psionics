@@ -1,0 +1,39 @@
+_id: yG5thVQ8t1utG0Ce
+_key: '!items!yG5thVQ8t1utG0Ce'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/control/buff-strength-muscle-damage.webp
+name: Elongate Extremities (Arms)
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: rbh3LpKV
+      formula: ifelse(@item.dFlags.augmentBonus, 10, 5)
+      operator: add
+      priority: 0
+      target: reach
+      type: untyped
+  duration:
+    end: turnStart
+    units: minute
+    value: '@item.level *@item.dFlags.augmentDuration'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+      augmentDuration: '1'
+  hideFromToken: false
+  level: 0
+  showInQuickbar: false
+  subType: spell
+type: buff

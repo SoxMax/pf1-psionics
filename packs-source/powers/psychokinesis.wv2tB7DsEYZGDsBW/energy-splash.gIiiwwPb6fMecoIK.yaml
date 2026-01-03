@@ -21,6 +21,8 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       damage:
         parts:
           - formula: '2'
@@ -32,8 +34,13 @@ system:
         of non-living material (such as cooling a drink).</p>
       duration:
         units: inst
+      effect: Ray
       img: icons/magic/water/projectile-icecicle-glowing.webp
       name: Cold
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -43,8 +50,6 @@ system:
       save:
         description: None
       tag: cold
-      target:
-        value: Ray
     - _id: ElecSplash001
       ability:
         critMult: 2
@@ -56,6 +61,8 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       conditionals:
         - _id: CondElecSplash001
           default: false
@@ -87,8 +94,13 @@ system:
         spellcasting.</p>
       duration:
         units: inst
+      effect: Ray
       img: icons/magic/lightning/bolt-blue.webp
       name: Electricity
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -98,8 +110,6 @@ system:
       save:
         description: None
       tag: electricity
-      target:
-        value: Ray
     - _id: FireSplash001
       ability:
         critMult: 2
@@ -111,6 +121,8 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       damage:
         parts:
           - formula: '2'
@@ -123,8 +135,13 @@ system:
         nonliving material (such as heating food).</p>
       duration:
         units: inst
+      effect: Ray
       img: icons/magic/fire/beam-jet-stream-trails-orange.webp
       name: Fire
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -134,8 +151,6 @@ system:
       save:
         description: None
       tag: fire
-      target:
-        value: Ray
     - _id: SonicSplash001
       ability:
         critMult: 2
@@ -147,6 +162,8 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       damage:
         parts:
           - formula: '1'
@@ -159,8 +176,13 @@ system:
         Perception check to hear it).</p>
       duration:
         units: inst
+      effect: Ray
       img: icons/magic/air/air-wave-gust-blue.webp
       name: Sonic
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
       notes:
         effect:
           - Ignores hardness
@@ -173,8 +195,6 @@ system:
       save:
         description: None
       tag: sonic
-      target:
-        value: Ray
   description:
     value: >-
       <p>You create a ray of your active energy type (cold, electricity, fire,

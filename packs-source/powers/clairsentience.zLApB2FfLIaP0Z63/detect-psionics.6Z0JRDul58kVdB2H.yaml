@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Detect_Psionics
 folder: zLApB2FfLIaP0Z63
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/perception/hand-eye-fire-blue.webp
 name: Detect Psionics
 system:
   actions:
@@ -24,7 +24,13 @@ system:
       augments:
         - _id: 8jtlTjv0Q2lj5YDq
           cost: 2
+          effectNotes: []
           effects: {}
+          footerNotes:
+            - 'Duration: [[3 * @cl]] rounds (D)'
+            - >-
+              +10 enhancement bonus on Spellcraft checks made to identify the
+              properties and command words of magic items in your possession
           img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
           maxUses: 1
           name: Identify
@@ -34,6 +40,7 @@ system:
         dismiss: true
         units: minute
         value: '@cl'
+      img: icons/magic/perception/hand-eye-fire-blue.webp
       name: Use
       powerAttack:
         critMultiplier: 1

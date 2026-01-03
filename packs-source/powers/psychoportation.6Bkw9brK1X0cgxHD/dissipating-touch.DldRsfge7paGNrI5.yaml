@@ -6,12 +6,13 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Dissipating_Touch
 folder: 6Bkw9brK1X0cgxHD
-img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+img: icons/magic/unholy/hand-light-pink.webp
 name: Dissipating Touch
 system:
   actions:
     - _id: ciPmVUzaYrmYInHG
       ability:
+        attack: _default
         critMult: 2
         critRange: 20
       actionType: msak
@@ -21,12 +22,30 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: Vjlr00wwmR1MLXuG
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/unholy/hand-light-pink.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
       damage:
         parts:
-          - formula: 1d6
+          - formula: (1+@augments.damage)d6
       duration:
         units: inst
+      held: 1h
+      img: icons/magic/unholy/hand-light-pink.webp
       name: Use
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -37,6 +56,7 @@ system:
         description: None
       target:
         value: Creature or object touched
+      touch: true
   description:
     value: >-
       <p>Your mere touch can disperse the surface material of a foe or object,

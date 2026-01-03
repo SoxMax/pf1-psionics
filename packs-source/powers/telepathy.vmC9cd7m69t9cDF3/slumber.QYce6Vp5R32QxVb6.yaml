@@ -24,10 +24,33 @@ system:
       ammo:
         type: none
       area: One or more living creatures in a 10-foot-radius burst
+      augments:
+        - _id: N9JkeXeVsVJE4UPS
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/control/sleep-bubble-purple.webp
+          maxUses: null
+          name: HD
+          requiresFocus: false
+        - _id: x2bUk1Y5zfAEl6RC
+          cost: 11
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Affect unlimited HD
+          img: icons/magic/control/sleep-bubble-purple.webp
+          maxUses: 1
+          name: UnlimitedHD
+          requiresFocus: false
       duration:
         units: minute
         value: '@cl'
       img: icons/magic/control/sleep-bubble-purple.webp
+      measureTemplate:
+        size: '10'
+        type: circle
       name: Use
       powerAttack:
         critMultiplier: 1
@@ -40,23 +63,18 @@ system:
         type: will
   description:
     value: >-
-      <p>You cause a psionic slumber to come upon 4 HD of creatures. Creatures
-      with the fewest HD are affected first. Among creatures with equal HD,
-      those who are closest to the power's point of origin are affected first.
-      HD that are not sufficient to affect a creature are wasted. Sleeping
-      creatures are helpless. Slapping or wounding awakens an affected creature,
-      but normal noise does not. Awakening a creature is a standard action (an
-      application of the aid another action). Slumber does not target
-      unconscious creatures, constructs, or undead creatures.
-
-      </p>
-
-      <p><strong>Augment:</strong> For every additional power point you spend,
-      you increase the number of Hit Dice affected by one. If you instead spend
-      11 additional power points, you affect every creature within the power's
-      area, regardless of individual or total Hit Dice.
-
-      </p>
+      <p>You cause a psionic slumber to come upon [[4+@augments.hd]] HD of
+      creatures. Creatures with the fewest HD are affected first. Among
+      creatures with equal HD, those who are closest to the power's point of
+      origin are affected first. HD that are not sufficient to affect a creature
+      are wasted. Sleeping creatures are helpless. Slapping or wounding awakens
+      an affected creature, but normal noise does not. Awakening a creature is a
+      standard action (an application of the aid another action). Slumber does
+      not target unconscious creatures, constructs, or undead
+      creatures.</p><p><strong>Augment:</strong> For every additional power
+      point you spend, you increase the number of Hit Dice affected by one. If
+      you instead spend 11 additional power points, you affect every creature
+      within the power's area, regardless of individual or total Hit Dice.</p>
   descriptors:
     - mind-affecting
   discipline: telepathy

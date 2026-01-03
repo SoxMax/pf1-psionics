@@ -6,11 +6,14 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Disable
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/control/fear-fright-mask-orange.webp
 name: Disable
 system:
   actions:
     - _id: ntFZ08XU5ojP8NF7
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -18,65 +21,60 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      area: Cone-shaped emanation centered on you
+      augments:
+        - _id: n4irsBJT88eEHwth
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/control/fear-fright-mask-orange.webp
+          maxUses: null
+          name: Range
+          requiresFocus: false
       duration:
         dismiss: true
         units: minute
         value: '@cl'
+      img: icons/magic/control/fear-fright-mask-orange.webp
       name: Use
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
         units: ft
-        value: 20
+        value: 20+5*@augments.range
       save:
+        dc: '@augments.range'
         description: Will negates
         harmless: false
         type: will
-      target:
-        value: Cone-shaped emanation centered on you
   description:
     value: >-
       <p>You broadcast a mental compulsion that convinces one or more creatures
-      of a combined total of 4 Hit Dice or less that they are disabled.
-      Creatures with the fewest HD are affected first. Among creatures with
-      equal Hit Dice, those who are closest to the power's point of origin are
-      affected first. Hit Dice that are not sufficient to affect a creature are
-      wasted.
-
-      </p>
-
-      <p>Creatures that are rendered helpless or are destroyed when they reach 0
-      hit points cannot be affected. Creatures affected by this power believe
-      that they have somehow been brought to the brink of unconsciousness and
-      must act accordingly. While it's possible for an important nonplayer
-      character to attempt some sort of "heroic" action, common NPCs and
-      creatures under the effect of this power
-
-      typically cower or retreat.
-
-      </p>
-
-      <p>Any creature that attempts to take a standard action immediately breaks
-      the compulsion and can act normally. A creature that attempts to heal
-      itself or that receives healing is likewise freed of the compulsion, and
-      if it is not actually wounded, the healing is wasted. A creature that
-      takes damage is also instantly freed of the compulsion (although the
-      damage still counts against its actual current hit points).
-
-      </p>
-
-      <p><strong>Augment:</strong> For every 2 additional power points you
-      spend, this power's range increases by 5 feet and its save DC increases by
-      1.
-
-      </p>
-
-      <p>In addition, for every additional power point you spend to increase the
-      range and the save DC, this power can affect targets that have Hit Dice
-      equal to 4 + the number of additional points.
-
-      </p>
+      of a combined total of [[4+2*@augments.range]] Hit Dice or less that they
+      are disabled. Creatures with the fewest HD are affected first. Among
+      creatures with equal Hit Dice, those who are closest to the power's point
+      of origin are affected first. Hit Dice that are not sufficient to affect a
+      creature are wasted.</p><p>Creatures that are rendered helpless or are
+      destroyed when they reach 0 hit points cannot be affected. Creatures
+      affected by this power believe that they have somehow been brought to the
+      brink of unconsciousness and must act accordingly. While it's possible for
+      an important nonplayer character to attempt some sort of "heroic" action,
+      common NPCs and creatures under the effect of this power typically cower
+      or retreat.</p><p>Any creature that attempts to take a standard action
+      immediately breaks the compulsion and can act normally. A creature that
+      attempts to heal itself or that receives healing is likewise freed of the
+      compulsion, and if it is not actually wounded, the healing is wasted. A
+      creature that takes damage is also instantly freed of the compulsion
+      (although the damage still counts against its actual current hit
+      points).</p><p><strong>Augment:</strong> For every 2 additional power
+      points you spend, this power's range increases by 5 feet and its save DC
+      increases by 1.</p><p>In addition, for every additional power point you
+      spend to increase the range and the save DC, this power can affect targets
+      that have Hit Dice equal to 4 + the number of additional points.</p>
   descriptors:
     - mind-affecting
   discipline: telepathy

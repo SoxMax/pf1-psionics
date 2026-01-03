@@ -56,14 +56,9 @@ system:
       for the duration of the effect. As an immediate action, even if you are
       caught flatfooted (an exception to the rule that you cannot normally take
       immediate actions while flat-footed), you may add this bonus to a single
-      Reflex save as a resistance bonus; doing so ends the effect.
-
-      </p>
-
-      <p><strong>Augment:</strong> For every 5 additional power points you
-      spend, the insight bonus increases by +1.
-
-      </p>
+      Reflex save as a resistance bonus; doing so ends the
+      effect.</p><p><strong>Augment:</strong> For every 5 additional power
+      points you spend, the insight bonus increases by +1.</p>
   discipline: clairsentience
   display:
     auditory: true

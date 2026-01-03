@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Disruptive_Touch
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/death/hand-withered-gray.webp
 name: Disruptive Touch
 system:
   actions:
@@ -27,6 +27,7 @@ system:
         units: round
         value: '3'
       held: 1h
+      img: icons/magic/death/hand-withered-gray.webp
       name: Use
       naturalAttack:
         primary: true

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Lingering_Touch
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/light/hand-sparks-smoke-teal.webp
 name: Lingering Touch
 system:
   actions:
@@ -21,10 +21,28 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: iMh2vgYZ6x0hq9wH
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Duration
+          requiresFocus: false
       duration:
         units: round
-        value: '1'
+        value: 1 + @augments.duration
+      held: 1h
+      img: icons/magic/light/hand-sparks-smoke-teal.webp
       name: Use
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

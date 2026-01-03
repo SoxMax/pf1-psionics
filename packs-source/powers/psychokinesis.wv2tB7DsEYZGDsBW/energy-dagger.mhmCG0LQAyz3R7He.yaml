@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Energy_Dagger
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/unholy/projectile-fireball-green.webp
+img: icons/weapons/daggers/dagger-glowing-white.webp
 name: Energy Dagger
 system:
   actions:
@@ -18,19 +18,22 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
       damage:
         parts:
           - formula: 1d4
       duration:
         units: minute
         value: '@cl'
+      img: icons/weapons/daggers/dagger-glowing-white.webp
       name: Use
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
         units: ft
-        value: 0
+        value: '0'
       save:
         description: None
       target:
@@ -40,49 +43,30 @@ system:
       <p>You focus your mental energy into the form of a dagger wreathed in
       psionic energy. This dagger deals damage like a normal dagger for your
       size and has an additional effect depending on your active energy type. If
-      the dagger leaves your hand, it disappears at the end of the round.
-
-      </p><ul><li><em>Cold:</em> +1 point of cold damage and anyone damaged by
-      this takes a -1 penalty to saves against cold effects.</li></ul>
-
-      <ul><li><em>Fire:</em> +1d4 fire damage.</li></ul>
-
-      <ul><li><em>Electricity:</em> +1 point of electricity damage and a +3
-      bonus to attacks against enemies in metal armor.</li></ul>
-
-      <ul><li><em>Sonic</em>: –1 point of damage and ignores an object's
-      hardness.</li></ul>
-
-      <p>This power's subtype is the same as the type of energy you manifest.
-
-      </p>
-
-      <p><strong>Augment:</strong> You can augment this power in one or more of
-      the following ways.
-
-      </p><ol><li>If you spend 2 additional power points, the dagger becomes a
-      +1 weapon.</li><li>If you spend 4 additional power points, it becomes a +1
-      weapon with the corresponding energy enhancement (<a rel="nofollow"
-      class="external text"
-      href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Flaming"><em>flaming</em></a>,
-      <a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Frost"><em>frost</em></a>,
-      <a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shock"><em>shock</em></a>,
-      <a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Thundering"><em>thundering</em></a>)
+      the dagger leaves your hand, it disappears at the end of the
+      round.</p><ul><li><em>Cold:</em> +1 point of cold damage and anyone
+      damaged by this takes a -1 penalty to saves against cold
+      effects.</li></ul><ul><li><em>Fire:</em> +1d4 fire
+      damage.</li></ul><ul><li><em>Electricity:</em> +1 point of electricity
+      damage and a +3 bonus to attacks against enemies in metal
+      armor.</li></ul><ul><li><em>Sonic</em>: –1 point of damage and ignores an
+      object's hardness.</li></ul><p>This power's subtype is the same as the
+      type of energy you manifest.</p><p><strong>Augment:</strong> You can
+      augment this power in one or more of the following ways.</p><ol><li>If you
+      spend 2 additional power points, the dagger becomes a +1
+      weapon.</li><li>If you spend 4 additional power points, it becomes a +1
+      weapon with the corresponding energy enhancement
+      (@UUID[Compendium.pf-content.pf-special-qualities.Item.bcWTxWA8Yi0V3FGZ],
+      @UUID[Compendium.pf-content.pf-special-qualities.Item.jycc5bhVFUophNhQ],
+      @UUID[Compendium.pf-content.pf-special-qualities.Item.X6cBlnXiNHfqbp7b],
+      @UUID[Compendium.pf-content.pf-special-qualities.Item.oeONR56hlllcddEm])
       in addition to its energy bonus.</li><li>If you spend 6 additional power
       points, it becomes a +1 weapon with the corresponding energy enhancement
-      (<a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Flaming%20Burst"><em>flaming
-      burst</em></a>, <a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Icy%20Burst"><em>icy
-      burst</em></a>, <a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shocking%20Burst"><em>shocking
-      burst</em></a>, <a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Keen"><em>keen</em></a><a
-      rel="nofollow" class="external text"
-      href="https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Thundering"><em>thundering</em></a>).</li></ol>
+      (@UUID[Compendium.pf-content.pf-special-qualities.Item.QSn6WS37jNRlWYZp],
+      @UUID[Compendium.pf-content.pf-special-qualities.Item.hVuDaZIyPNXZskrW],
+      @UUID[Compendium.pf-content.pf-special-qualities.Item.gqAzRouD9E15M3X0],
+      @UUID[Compendium.pf-content.pf-special-qualities.Item.cif1888zADQza8QS]<em>,
+      @UUID[Compendium.pf-content.pf-special-qualities.Item.oeONR56hlllcddEm]</em>).</li></ol>
   descriptors:
     - see text
   discipline: psychokinesis

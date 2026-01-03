@@ -20,9 +20,31 @@ system:
           type: nonaction
       ammo:
         type: none
+      area: One dominated or controlled creature
+      augments:
+        - _id: Z43US2ejzCS8VtRz
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Attempt permanent dispel
+          img: icons/magic/control/debuff-chains-shackles-movement-blue.webp
+          maxUses: 1
+          name: Dispell
+          requiresFocus: false
+        - _id: Oy74qhazMO7KyLUj
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - +[[@augments.amplify]] bonus to checks
+          img: icons/magic/control/debuff-chains-shackles-movement-blue.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         units: round
-        value: '1'
+        value: 1 + @augments.amplify
       img: icons/magic/control/debuff-chains-shackles-movement-blue.webp
       name: Use
       powerAttack:

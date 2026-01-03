@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Compression
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/control/silhouette-grow-shrink-blue.webp
 name: Compression
 system:
   actions:
@@ -18,11 +18,48 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: n5ldrlVGCWKZq6i7
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/control/silhouette-grow-shrink-blue.webp
+          maxUses: 1
+          name: Amplify
+          requiresFocus: false
+        - _id: AAPaqbBroqQYA5aT
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Casting Time: Swift'
+          img: icons/magic/control/silhouette-grow-shrink-blue.webp
+          maxUses: 1
+          name: Swift
+          requiresFocus: false
+        - _id: 7YcbNpNAG1LC7IEC
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/control/silhouette-grow-shrink-blue.webp
+          maxUses: 1
+          name: Duration
+          requiresFocus: false
       duration:
         dismiss: true
         units: minute
-        value: '@cl'
+        value: '@cl * ifelse(@augments.duration, 10, 1)'
+      img: icons/magic/control/silhouette-grow-shrink-blue.webp
       name: Use
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Compression;level=@cl;dFlags.augmentBonus=@augments.amplify;dFlags.augmentDuration=ifelse(@augments.duration,
+            10, 1)]
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

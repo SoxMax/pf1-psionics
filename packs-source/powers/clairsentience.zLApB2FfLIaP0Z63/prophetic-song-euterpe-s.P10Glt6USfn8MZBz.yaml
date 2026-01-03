@@ -21,6 +21,53 @@ system:
       ammo:
         type: none
       area: 60 ft. radius sphere centered on you
+      augments:
+        - _id: U9JwrCZAti1AM0Fn
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Insight bonus also applies to skill checks
+          img: icons/magic/sonic/projectile-sound-rings-wave.webp
+          maxUses: 1
+          name: Stanza1
+          requiresFocus: false
+        - _id: VFx5ricpOIzDyJC8
+          cost: 8
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Insight bonus also applies to skill checks
+            - Insight bonus also applies to weapon damage rolls
+          img: icons/magic/sonic/projectile-sound-rings-wave.webp
+          maxUses: 1
+          name: Stanza2
+          requiresFocus: false
+        - _id: D7Bhk4Wssk9lrJXG
+          cost: 12
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Insight bonus also applies to skill checks
+            - Insight bonus also applies to weapon damage rolls
+            - Insight bonus also applies to AC
+          img: icons/magic/sonic/projectile-sound-rings-wave.webp
+          maxUses: 1
+          name: Stanza3
+          requiresFocus: false
+        - _id: Ej3XsVZPQPgUutWS
+          cost: 16
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Insight bonus also applies to skill checks
+            - Insight bonus also applies to weapon damage rolls
+            - Insight bonus also applies to AC
+            - Insight bonus also applies to saving throws
+          img: icons/magic/sonic/projectile-sound-rings-wave.webp
+          maxUses: 1
+          name: Stanza4
+          requiresFocus: false
       duration:
         concentration: true
         units: minute
@@ -37,37 +84,26 @@ system:
   description:
     value: >-
       <p>You weave your prophetic power into song, using it to bolster your
-      allies with visions of the future. Allies within the area gain a +1
-      insight bonus to their attack rolls as long as you concentrate on singing,
-      humming, or otherwise making music (allies within the area of silence or
-      similar effects, or who are deafened, cannot benefit from this bonus). You
-      cannot manifest this power while unable to make music, such as by being
-      within the area of a silence spell.
-
-      </p>
-
-      <p><strong>Augment:</strong> You may augment this power in the following
-      ways.
-
-      </p><ol><li>If you spend 4 additional power points, the insight bonus also
-      applies to skill checks.</li><li>If you spend 8 additional power points,
-      the insight bonus also applies to weapon damage rolls in addition to the
-      above options.</li><li>If you spend 12 additional power points, the
-      insight bonus also applies to AC in addition to the above
-      options.</li><li>If you spend 16 additional power points, the insight
-      bonus also applies to saving throws in addition to the above
-      options.</li></ol>
-
-      <p>In addition, the insight bonus granted by this power increases by 1 for
-      every 2 power points spent on the above options.
-
-      </p>
-
-      <p><strong>Surge Augmentation:</strong> If you invoke your wild surge
-      while manifesting this power, change its duration to 'concentration plus 3
-      rounds'.
-
-      </p>
+      allies with visions of the future. Allies within the area gain a +[[1+
+      max(@augments.stanza1*4, @augments.stanza2*8, @augments.stanza3*12,
+      @augments.stanza4*16)/2 ]] insight bonus to their attack rolls as long as
+      you concentrate on singing, humming, or otherwise making music (allies
+      within the area of silence or similar effects, or who are deafened, cannot
+      benefit from this bonus). You cannot manifest this power while unable to
+      make music, such as by being within the area of a silence
+      spell.</p><p><strong>Augment:</strong> You may augment this power in the
+      following ways.</p><ol><li>If you spend 4 additional power points, the
+      insight bonus also applies to skill checks.</li><li>If you spend 8
+      additional power points, the insight bonus also applies to weapon damage
+      rolls in addition to the above options.</li><li>If you spend 12 additional
+      power points, the insight bonus also applies to AC in addition to the
+      above options.</li><li>If you spend 16 additional power points, the
+      insight bonus also applies to saving throws in addition to the above
+      options.</li></ol><p>In addition, the insight bonus granted by this power
+      increases by 1 for every 2 power points spent on the above
+      options.</p><p><strong>Surge Augmentation:</strong> If you invoke your
+      wild surge while manifesting this power, change its duration to
+      'concentration plus 3 rounds'.</p>
   descriptors:
     - mind-affecting
     - sonic

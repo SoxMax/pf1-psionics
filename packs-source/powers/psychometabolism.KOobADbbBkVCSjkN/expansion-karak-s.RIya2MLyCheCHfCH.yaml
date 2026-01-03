@@ -21,36 +21,46 @@ system:
       ammo:
         type: none
       augments:
-        - _id: PjYuLAS7JBlcpNoc
+        - _id: JAhy9HOrboKaN9UT
           cost: 6
-          effects:
-            special: Increase by 2 size categories instead of 1
-          img: icons/magic/life/heart-glowing-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/control/silhouette-grow-shrink-tan.webp
           maxUses: 1
-          name: Double Enlarge
+          name: Amplify
           requiresFocus: false
-        - _id: gK8FQqSy39qj8LgG
+        - _id: lOBIk4Tp5ooX8Eda
           cost: 6
-          effects:
-            special: Swift Action
-          img: icons/magic/life/heart-glowing-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Casting Time: Swift'
+          img: icons/magic/control/silhouette-grow-shrink-tan.webp
           maxUses: 1
-          name: Swift Action
-          requiresFocus: true
-        - _id: 8Cu1gYmcIKjQgNs6
+          name: Swift
+          requiresFocus: false
+        - _id: LFTDGIduMGCBxiyr
           cost: 2
-          effects:
-            durationMultiplier: 10
-          img: icons/magic/life/heart-glowing-red.webp
-          maxUses: null
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/control/silhouette-grow-shrink-tan.webp
+          maxUses: 1
           name: Duration
-          requiresFocus: true
+          requiresFocus: false
       duration:
         dismiss: true
         units: minute
-        value: '@cl'
+        value: '@cl * ifelse(@augments.duration, 10, 1)'
       img: icons/magic/control/silhouette-grow-shrink-tan.webp
       name: Use
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Expansion,
+            Karak's;level=@cl;dFlags.augmentBonus=@augments.amplify;dFlags.augmentDuration=ifelse(@augments.duration,
+            10, 1)]
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

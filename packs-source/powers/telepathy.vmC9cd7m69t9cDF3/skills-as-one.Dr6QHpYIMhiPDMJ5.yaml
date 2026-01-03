@@ -11,7 +11,10 @@ name: Skills as One
 system:
   actions:
     - _id: 9BrxEWvl7aUB2vY6
-      actionType: other
+      ability:
+        critMult: 2
+        critRange: 20
+      actionType: spellsave
       activation:
         cost: 1
         type: standard
@@ -20,6 +23,36 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: 3LSEPfwpiO0c2SDq
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - +[[@augments.skills]] skills shared
+          img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+          maxUses: null
+          name: Skills
+          requiresFocus: false
+        - _id: 5tMajrImRZBiYjOf
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+          maxUses: null
+          name: Ranks
+          requiresFocus: false
+        - _id: 1uvDMIysq197NiEw
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Target may be unwilling
+          img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+          maxUses: 1
+          name: Unwilling
+          requiresFocus: false
       duration:
         units: round
         value: '@cl'
@@ -32,31 +65,28 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
-        description: None (see text)
+        description: Will negates
+        harmless: true
+        type: will
       target:
         value: You plus one willing creature
   description:
     value: >-
       <p>When manifesting this power, you must choose one skill. If your rank in
       that skill is higher, the target uses your ranks in place of his own ranks
-      (maximum 5 ranks), and vice versa. If a target's skill ranks are replaced
-      by this power, they are treated as though they actually had the shared
-      ranks in the skill for all purposes (including class skill bonuses and the
-      use of trained-only skills).
-
-      </p>
-
-      <p><strong>Augment:</strong> You can augment this power in one or more of
-      the following ways.
-
-      </p><ol><li>For every 2 additional power points you spend, you can choose
-      an additional skill to share. Compare each skill individually.</li><li>For
-      every 2 additional power points you spend, the maximum ranks you can share
-      increases by 5 ranks.</li><li>If you spend 2 additional power points, this
-      power can affect an unwilling target, and the power's saving throw becomes
-      "Will negates (harmless)". Unwilling targets do not gain the benefit of
-      increased skill ranks, although their skill ranks may be shared with
-      willing targets.</li></ol>
+      (maximum [[5+5*@augments.ranks]] ranks), and vice versa. If a target's
+      skill ranks are replaced by this power, they are treated as though they
+      actually had the shared ranks in the skill for all purposes (including
+      class skill bonuses and the use of trained-only
+      skills).</p><p><strong>Augment:</strong> You can augment this power in one
+      or more of the following ways.</p><ol><li>For every 2 additional power
+      points you spend, you can choose an additional skill to share. Compare
+      each skill individually.</li><li>For every 2 additional power points you
+      spend, the maximum ranks you can share increases by 5 ranks.</li><li>If
+      you spend 2 additional power points, this power can affect an unwilling
+      target, and the power's saving throw becomes "Will negates (harmless)".
+      Unwilling targets do not gain the benefit of increased skill ranks,
+      although their skill ranks may be shared with willing targets.</li></ol>
   descriptors:
     - mind-affecting
     - network

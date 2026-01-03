@@ -6,22 +6,50 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Transfer_Animus
 folder: KOobADbbBkVCSjkN
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/light/hand-sparks-smoke-teal.webp
 name: Transfer Animus
 system:
   actions:
     - _id: QbF5LtRfUgApp1II
-      ability:
-        critMult: 2
-        critRange: 20
-      actionType: rsak
+      actionType: other
       activation:
         cost: 1
         type: swift
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: rDk42FP0zIXCwgHa
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Range: Close ([[25+5*floor(@cl/2)]])'
+          img: icons/magic/light/hand-sparks-smoke-teal.webp
+          maxUses: 1
+          name: Ranged
+          requiresFocus: false
+        - _id: pdZ60kVuJG8vxlev
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - +2 animus transfered
+          img: icons/magic/light/hand-sparks-smoke-teal.webp
+          maxUses: 1
+          name: Amplify
+          requiresFocus: false
+      duration:
+        units: minute
+        value: '1'
+      img: icons/magic/light/hand-sparks-smoke-teal.webp
       name: Use
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -32,29 +60,20 @@ system:
         description: Will (harmless)
         harmless: true
         type: will
-      target:
-        value: 1 minute
   description:
     value: >-
       <p>Upon manifesting this power, you are able to transfer your animus to an
-      individual with a touch. To use this power, you must possess an <a
-      href="/wiki/Animus_(system)" title="Animus (system)">animus pool</a>. The
-      target of this power need not have an animus pool or a method of using it;
-      if they do not, they may not use this animus for any reason, simply
-      becoming harmlessly charged by it. You may transfer two points of animus
-      to a target creature, and this energy lasts for one minute before
-      dissipating harmlessly.
-
-      </p>
-
-      <p><strong>Augment: </strong>If you spend an additional 2 power points
-      points, you may alter the range of this power to close range (25 feet + 5
-      feet per two manifester levels) and the manifester must make a successful
-      ranged touch attack on an unwilling target. If you spend an additional 1
-      power point, you may transfer an additional two points of animus to the
-      target.
-
-      </p>
+      individual with a touch. To use this power, you must possess an animus
+      pool. The target of this power need not have an animus pool or a method of
+      using it; if they do not, they may not use this animus for any reason,
+      simply becoming harmlessly charged by it. You may transfer two points of
+      animus to a target creature, and this energy lasts for one minute before
+      dissipating harmlessly.</p><p><strong>Augment: </strong>If you spend an
+      additional 2 power points points, you may alter the range of this power to
+      close range (25 feet + 5 feet per two manifester levels) and the
+      manifester must make a successful ranged touch attack on an unwilling
+      target. If you spend an additional 1 power point, you may transfer an
+      additional two points of animus to the target.</p>
   descriptors:
     - mind-affecting
   discipline: psychometabolism

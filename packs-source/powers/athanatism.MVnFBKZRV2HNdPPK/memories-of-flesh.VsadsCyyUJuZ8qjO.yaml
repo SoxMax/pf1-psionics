@@ -6,11 +6,14 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Memories_of_Flesh
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/holy/chalice-glowing-gold.webp
 name: Memories of Flesh
 system:
   actions:
     - _id: AoWKmsS7szLCKcgd
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -18,9 +21,26 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: AXgVkCOH8YP6xWfW
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - >-
+              Target loses any immunity to pain and morale effects that you
+              create
+            - Not Harmless
+          img: icons/magic/holy/chalice-glowing-gold.webp
+          maxUses: 1
+          name: Strip Immunity
+          requiresFocus: false
       duration:
         units: hour
-        value: One hour
+        value: '1'
+      img: icons/magic/holy/chalice-glowing-gold.webp
       name: Use
       powerAttack:
         critMultiplier: 1

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Biofeedback
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/defensive/barrier-shield-dome-deflect-blue.webp
 name: Biofeedback
 system:
   actions:
@@ -23,17 +23,23 @@ system:
       augments:
         - _id: 72ACTIekQTSuIqMa
           cost: 3
-          effects:
-            special: +1 DR/-
+          effectNotes: []
+          effects: {}
+          footerNotes: []
           img: icons/magic/life/heart-glowing-red.webp
           maxUses: null
-          name: Amplify DR
+          name: Amplify
           requiresFocus: false
       duration:
         dismiss: true
         units: minute
         value: '@cl'
+      img: icons/magic/defensive/barrier-shield-dome-deflect-blue.webp
       name: Use
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Biofeedback;level=@cl;dFlags.augmentBonus=@augments.amplify]
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

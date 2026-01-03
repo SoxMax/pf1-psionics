@@ -6,11 +6,14 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Mark_of_the_Shroud
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/death/bones-crossed-orange.webp
 name: Mark of the Shroud
 system:
   actions:
     - _id: oh9R37oPj2wwE2hN
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -18,10 +21,51 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: KnJ3FpKkLr7pA1oT
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: [[@cl]] hours'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Hours
+          requiresFocus: false
+        - _id: lY1TuKyc2LRdx2Kr
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: [[@cl]] days'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Days
+          requiresFocus: false
+        - _id: pfQNDXkMxMHhJ1as
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - >-
+              Extend the negative hit point total at which targets die by
+              [[@augments.deathDelay]] hit points
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Death Delay
+          requiresFocus: false
       duration:
         units: minute
         value: '@cl'
+      img: icons/magic/death/bones-crossed-orange.webp
       name: Use
+      notes:
+        footer:
+          - >-
+            +[[@augments.hours + 2*@augments.days+@augments.deathDelay]] vs
+            death & negative energy effects
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

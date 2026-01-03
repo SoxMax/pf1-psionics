@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Sense_Poison
 folder: zLApB2FfLIaP0Z63
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/perception/eye-ringed-green.webp
 name: Sense Poison
 system:
   actions:
@@ -23,6 +23,7 @@ system:
       area: One creature, one object, or a 5-ft. cube
       duration:
         units: inst
+      img: icons/magic/perception/eye-ringed-green.webp
       name: Use
       powerAttack:
         critMultiplier: 1

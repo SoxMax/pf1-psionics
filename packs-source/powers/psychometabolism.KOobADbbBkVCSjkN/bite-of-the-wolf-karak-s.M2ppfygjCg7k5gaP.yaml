@@ -30,9 +30,6 @@ system:
           maxUses: null
           name: Damage
           requiresFocus: false
-      damage:
-        parts:
-          - formula: 1d8
       duration:
         units: minute
         value: '@cl'
@@ -41,8 +38,8 @@ system:
       notes:
         footer:
           - >-
-            @PsionicApply[Prescience,
-            Offensive;level=@cl;dFlags.augmentBonus=@augments.damage]
+            @PsionicApply[Bite of the Wolf,
+            Karak's;level=@cl;dFlags.augmentBonus=@augments.damage]
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

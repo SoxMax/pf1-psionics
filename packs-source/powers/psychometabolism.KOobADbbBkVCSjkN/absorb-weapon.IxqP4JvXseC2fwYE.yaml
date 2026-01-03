@@ -20,6 +20,36 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: 2tJIB8Uq1MpWApym
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/weapons/daggers/dagger-glowing-white.webp
+          maxUses: null
+          name: Weight
+          requiresFocus: false
+        - _id: P1vHyO9LwhOsqHAU
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Absorb a shield or armor instead of a weapon
+          img: icons/weapons/daggers/dagger-glowing-white.webp
+          maxUses: 1
+          name: Protection
+          requiresFocus: false
+        - _id: 1JlU6ySvSF5RnoAv
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - +1 item asbsorbed
+          img: icons/weapons/daggers/dagger-glowing-white.webp
+          maxUses: 1
+          name: Quantity
+          requiresFocus: false
       duration:
         units: spec
         value: Until discharged; up to 24 hours
@@ -34,7 +64,7 @@ system:
       save:
         description: None (object)
       target:
-        value: One weapon weighing up to 15 lbs.
+        value: One weapon weighing up to [[15 + (+5*@augments.weight)]] lbs.
   description:
     value: >-
       <p>You can absorb one weapon of up to 15 lbs into your body and a small

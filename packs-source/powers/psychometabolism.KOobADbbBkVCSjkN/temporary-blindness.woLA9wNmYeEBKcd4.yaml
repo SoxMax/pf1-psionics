@@ -23,6 +23,57 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: Y8rpTE6FD099gIgn
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: [[@cl]] minutes'
+          img: icons/skills/wounds/injury-eyes-blood-red.webp
+          maxUses: 1
+          name: Minutes
+          requiresFocus: false
+        - _id: eHiMhzivaYOKqVmL
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: [[@cl]] days'
+          img: icons/skills/wounds/injury-eyes-blood-red.webp
+          maxUses: 1
+          name: Days
+          requiresFocus: false
+        - _id: i8CVf7gqhnwAFKCh
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - No additional saves
+          img: icons/skills/wounds/injury-eyes-blood-red.webp
+          maxUses: 1
+          name: OneSave
+          requiresFocus: false
+        - _id: 7TDShDi3yO7Dnqsv
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Up to [[@cl]] targets
+          img: icons/skills/wounds/injury-eyes-blood-red.webp
+          maxUses: 1
+          name: Targets
+          requiresFocus: false
+        - _id: 4OBmb9xC3aRVFTTD
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: Permanent'
+          img: icons/skills/wounds/injury-eyes-blood-red.webp
+          maxUses: 1
+          name: Permanent
+          requiresFocus: false
       duration:
         units: round
         value: '@cl'
@@ -35,6 +86,9 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
+        dc: >-
+          @augments.minutes + 2*@augments.days + 2*@augments.oneSave + 2*
+          @augments.targets + 3*@augments.permanent
         description: Fortitude negates
         harmless: false
         type: fort
