@@ -12,7 +12,7 @@ import {getMessage, getRollData, parseDuration, setIcon} from "./common.mjs";
  * @param {HTMLElement} target - Clicked element
  */
 async function onPsionicCondition(event, target) {
-  const {condition, toggle, remove, duration, options, vars, info} = target.dataset;
+  const {condition, toggle, remove, duration, vars, info} = target.dataset;
 
   const cond = pf1.registry.conditions.getAliased(condition);
   if (!cond) throw new Error(`Condition "${condition}" not found!`); // TODO: Error notification
@@ -127,7 +127,7 @@ export function registerPsionicConditionEnricher() {
         }
 
         if (a.dataset.duration) {
-          let [period, _, unit] = parseDuration(a.dataset.duration);
+          let [period, , unit] = parseDuration(a.dataset.duration);
           if (!period) {
             // On parse failing, treat it as complex formula
             period = a.dataset.duration;
@@ -153,4 +153,3 @@ export function registerPsionicConditionEnricher() {
 
   console.log(`${MODULE_ID} | @PsionicCondition enricher registered`);
 }
-
