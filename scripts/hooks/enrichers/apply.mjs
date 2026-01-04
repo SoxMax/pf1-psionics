@@ -1,5 +1,4 @@
 import {MODULE_ID} from "../../_module.mjs";
-import {RollPF} from "../../../ruleset/pf1e/module/dice/roll.mjs";
 import { setIcon, getRollData, getMessage } from "./common.mjs";
 
 /**
