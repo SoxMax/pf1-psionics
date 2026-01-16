@@ -6,26 +6,40 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Ablative_Armor
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+img: icons/magic/defensive/barrier-shield-dome-deflect-blue.webp
 name: Ablative Armor
 system:
   actions:
     - _id: K9BDH9R0iplrKI3i
-      ability:
-        critMult: 2
-        critRange: 20
-      actionType: msak
+      actionType: other
       activation:
         cost: 1
         type: standard
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: g8oKuQ0BcjlJeHpa
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/defensive/barrier-shield-dome-deflect-blue.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         dismiss: true
         units: minute
         value: 10 * @cl
+      img: icons/magic/defensive/barrier-shield-dome-deflect-blue.webp
       name: Use
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -40,26 +54,18 @@ system:
     value: >-
       <p>A heat-haze of warped space surrounds your armor, hinting that it has
       been enhanced beyond expectations. You must be wearing a suit of armor (or
-      benefiting from <a rel="nofollow" class="external text"
-      href="https://www.aonprd.com/SpellDisplay.aspx?ItemName=inertial%20armor"><em>inertial
-      armor</em></a> or similar effect) or wearing bracers of armor (or similar
-      item that grants an armor bonus to AC) to manifest this power. Your armor
-      bonus to AC increases by two. Each time you are successfully hit by an
-      attack (other than an attack that targets touch AC) the improvement
-      granted by ablative armor is reduced by one. Once your improvement from
-      ablative armor is reduced to zero, this power ends.
-
-      </p>
-
-      <p>While under the effect of this power, your armor is also treated as if
-      it had the ghost touch property.
-
-      </p>
-
-      <p><strong>Augment:</strong> For every three additional power points you
-      spend, the improvement granted by this power increases by one.
-
-      </p>
+      benefiting from
+      <em>@UUID[Compendium.pf1-psionics.powers.Item.AkIkCPxAhCDACwb6] </em>or
+      similar effect) or wearing bracers of armor (or similar item that grants
+      an armor bonus to AC) to manifest this power. Your armor bonus to AC
+      increases by two. Each time you are successfully hit by an attack (other
+      than an attack that targets touch AC) the improvement granted by ablative
+      armor is reduced by one. Once your improvement from ablative armor is
+      reduced to zero, this power ends.</p><p>While under the effect of this
+      power, your armor is also treated as if it had the ghost touch
+      property.</p><p><strong>Augment:</strong> For every three additional power
+      points you spend, the improvement granted by this power increases by
+      one.</p>
   descriptors:
     - force
   discipline: psychokinesis

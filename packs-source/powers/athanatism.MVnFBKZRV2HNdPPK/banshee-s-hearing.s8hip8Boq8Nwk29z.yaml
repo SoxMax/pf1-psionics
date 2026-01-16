@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Banshee's_Hearing
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/death/skull-weapon-staff-glow-pink.webp
 name: Banshee's Hearing
 system:
   actions:
@@ -18,10 +18,33 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: 8k5Q6pp2g40tngAm
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Range
+          requiresFocus: false
+        - _id: NwOqw4JCyKQyll07
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: [[@cl]] hours'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Duration
+          requiresFocus: true
       duration:
         dismiss: true
         units: minute
         value: 10 * @cl
+      img: icons/magic/death/skull-weapon-staff-glow-pink.webp
       name: Use
       powerAttack:
         critMultiplier: 1
@@ -36,20 +59,15 @@ system:
   description:
     value: >-
       <p>Like the spectral undead, you attune your senses to the heartbeats of
-      the living. You gain blindsight with a range of 60 ft. However, any target
-      that does not have a heartbeat (undead, constructs, some aberrations,
-      etc.) is treated as having total concealment from your blindsight. Your
-      normal senses continue to function.
-
-      </p>
-
-      <p><strong>Augment:</strong> You may augment this power in one of the
-      following ways.
-
-      </p><ol><li>You may spend an additional 2 power points to increase the
-      range of your blindsight from this power by 10 feet.</li><li>By spending
-      an additional 4 power points, the duration of this power becomes 1
-      hour/level.</li></ol>
+      the living. You gain blindsight with a range of [[60 +@augments.range]]
+      ft. However, any target that does not have a heartbeat (undead,
+      constructs, some aberrations, etc.) is treated as having total concealment
+      from your blindsight. Your normal senses continue to
+      function.</p><p><strong>Augment:</strong> You may augment this power in
+      one of the following ways.</p><ol><li>You may spend an additional 2 power
+      points to increase the range of your blindsight from this power by 10
+      feet.</li><li>By spending an additional 4 power points, the duration of
+      this power becomes 1 hour/level.</li></ol>
   discipline: athanatism
   display:
     auditory: true

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Bond_of_Death
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/death/undead-zombie-grave-green.webp
 name: Bond of Death
 system:
   actions:
@@ -18,9 +18,23 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: nbAYcJMdnWB1aZxA
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - +[[@augments.amplify]] HD
+          img: icons/magic/death/undead-zombie-grave-green.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         units: day
         value: '@cl'
+      img: icons/magic/death/undead-zombie-grave-green.webp
       name: Use
       powerAttack:
         critMultiplier: 1

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Arcanix_Spellsieve
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/unholy/projectile-fireball-green.webp
+img: icons/magic/unholy/hands-circle-light-green.webp
 name: Arcanix Spellsieve
 system:
   actions:
@@ -18,9 +18,42 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: N0JiP0UO4s70LOjA
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/unholy/hands-circle-light-green.webp
+          maxUses: null
+          name: Duration
+          requiresFocus: true
+        - _id: NTnL5Mx6BAzOqIuj
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - + [[@augments.targets]] targets
+          img: icons/magic/unholy/hands-circle-light-green.webp
+          maxUses: null
+          name: Targets
+          requiresFocus: false
+        - _id: iZd7Ef7AJ1jLpFqp
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - Augmenting spells is a free action.
+          img: icons/magic/unholy/hands-circle-light-green.webp
+          maxUses: null
+          name: Free Action
+          requiresFocus: true
       duration:
         units: minute
-        value: '@cl'
+        value: '@cl * ifelse(@augments.duration, 10, 1)'
+      img: icons/magic/unholy/hands-circle-light-green.webp
       name: Use
       powerAttack:
         critMultiplier: 1
@@ -44,25 +77,16 @@ system:
       level by 1. Both of these uses stack with each other, but you cannot spend
       more than your manifester level on a single augment. (For example, if you
       spend 6 power points to augment a spell, the caster level increases by 3
-      and the spell level by 2).
-
-      </p>
-
-      <p>The other use of this power allows you to siphon some of the power of a
-      spell into your own power reserves. As an immediate action when the target
-      casts a spell, you regain 1 power point for every 2 spell levels of the
-      spell they cast. This use of the power immediately ends the effect.
-
-      </p>
-
-      <p><strong>Augment: </strong>This power may be augmented in one or more of
-      the following ways.
-
-      </p><ul><li>If you spend 2 additional power points, the duration increases
-      to 10 minutes / level.</li><li>For every 2 power points you spend, you can
-      choose another target for this power.</li><li>If you spend 2 additional
-      power points, you can augment the spells of your target as a free
-      action.</li></ul>
+      and the spell level by 2).</p><p>The other use of this power allows you to
+      siphon some of the power of a spell into your own power reserves. As an
+      immediate action when the target casts a spell, you regain 1 power point
+      for every 2 spell levels of the spell they cast. This use of the power
+      immediately ends the effect.</p><p><strong>Augment: </strong>This power
+      may be augmented in one or more of the following ways.</p><ul><li>If you
+      spend 2 additional power points, the duration increases to 10 minutes /
+      level.</li><li>For every 2 power points you spend, you can choose another
+      target for this power.</li><li>If you spend 2 additional power points, you
+      can augment the spells of your target as a free action.</li></ul>
   discipline: psychokinesis
   display:
     auditory: false

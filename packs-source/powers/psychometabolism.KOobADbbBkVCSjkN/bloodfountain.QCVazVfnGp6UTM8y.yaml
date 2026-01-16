@@ -6,11 +6,14 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Bloodfountain
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/skills/wounds/blood-drip-droplet-red.webp
 name: Bloodfountain
 system:
   actions:
     - _id: uqJlkkt0PC4PRjVW
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -18,9 +21,22 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: cMdIPu5dCiOJCtg0
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/skills/wounds/blood-drip-droplet-red.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
       duration:
         units: round
-        value: One round/level
+        value: '@cl'
+      img: icons/skills/wounds/blood-drip-droplet-red.webp
       name: Use
       powerAttack:
         critMultiplier: 1
@@ -29,6 +45,7 @@ system:
         units: touch
         value: Touch
       save:
+        dc: '@augments.damage'
         description: Fortitude negates
         harmless: false
         type: fort
@@ -41,18 +58,12 @@ system:
       When you manifest this power, your target’s blood pressure (or similar
       life-giving fluid) increases to the point that vessels begin to burst. A
       creature affected by <em>bloodfountain </em>begins to leak their precious
-      fluids out of eyes, ears, or other openings. Such a creature bleeds 2 hit
-      points of damage at the start of its turn each round. This bleed damage
-      functions as normal, requiring a DC 15 Heal check or magical healing to
-      stop.
-
-      </p>
-
-      <p><strong>Augment: </strong>For every two additional power points you
-      spend, the bleed damage increases by one each round and the DC also
-      increases by one.
-
-      </p>
+      fluids out of eyes, ears, or other openings. Such a creature bleeds [[2 +
+      @augments.damage]] hit points of damage at the start of its turn each
+      round. This bleed damage functions as normal, requiring a DC 15 Heal check
+      or magical healing to stop.</p><p><strong>Augment: </strong>For every two
+      additional power points you spend, the bleed damage increases by one each
+      round and the DC also increases by one.</p>
   discipline: psychometabolism
   display:
     auditory: false

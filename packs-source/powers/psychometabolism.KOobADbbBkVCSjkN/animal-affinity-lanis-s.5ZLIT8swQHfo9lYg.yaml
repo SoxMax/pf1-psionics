@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Animal_Affinity,_Lanis's
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/creatures/abilities/bull-head-horns-glowing.webp
 name: Animal Affinity, Lanis's
 system:
   actions:
@@ -18,9 +18,23 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: 0HVRnIish2V1U4hU
+          cost: 5
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - +[[@augments.abilities]] ablities selected
+          img: icons/creatures/abilities/bull-head-horns-glowing.webp
+          maxUses: null
+          name: Abilities
+          requiresFocus: false
       duration:
         units: minute
         value: '@cl'
+      img: icons/creatures/abilities/bull-head-horns-glowing.webp
       name: Use
       powerAttack:
         critMultiplier: 1
