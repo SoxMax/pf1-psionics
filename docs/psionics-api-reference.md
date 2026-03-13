@@ -306,3 +306,4 @@ actor.flags["pf1-psionics"].focus = {
 ```
 
 The `maximum` values are calculated during actor data preparation from the manifester configurations.
+
