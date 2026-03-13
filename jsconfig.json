@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["DOM", "ES2022"],
+    "allowJs": true,
+    "checkJs": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": false,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "types": ["fvtt-types", "@ethaks/fvtt-quench"],
+    "noEmit": true
+  },
+  "include": ["scripts/**/*.mjs", "types/**/*.d.ts"],
+  "exclude": ["node_modules", "packs", "packs-source", "tools"]
+}
