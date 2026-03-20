@@ -1,0 +1,52 @@
+_id: nG5pQrHv8yMk2cBx
+_key: '!items!nG5pQrHv8yMk2cBx'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Heartbinding
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: hB2kL9mN
+      formula: '1'
+      operator: add
+      priority: 0
+      target: ac
+      type: deflection
+    - _id: wT4vP7qR
+      formula: '1'
+      operator: add
+      priority: 0
+      target: allSavingThrows
+      type: resist
+  contextNotes:
+    - target: misc
+      text: >-
+        You or the target may gain morale bonuses granted to the other; shared saving throws vs. emotion effects (Heartbinding)
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.AAKu8kZXRTgLDKi5]{Heartbinding}</p>
+      <p>+1 deflection bonus to AC and +1 resistance bonus on saves. You or the target may gain morale bonuses granted to the other. Shared saving throws against emotion effects.</p>
+  duration:
+    end: turnStart
+    units: hour
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 2
+  showInQuickbar: false
+  subType: spell
+type: buff

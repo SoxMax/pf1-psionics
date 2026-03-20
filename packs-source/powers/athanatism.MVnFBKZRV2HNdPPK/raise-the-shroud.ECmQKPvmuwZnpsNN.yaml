@@ -19,11 +19,54 @@ system:
           cost: 1
           type: nonaction
       area: '[object Object]'
+      augments:
+        - _id: Yb2EfXhIkM5pTc8V
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Radius increased by 10 feet'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Radius
+          requiresFocus: false
+        - _id: Zc3FgYiJlN6qUd9W
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration increased to 1 minute/level'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Minute Duration
+          requiresFocus: false
+        - _id: Ad4GhZjKmO7rVe1X
+          cost: 8
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration increased to 10 minutes/level'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Ten Minute Duration
+          requiresFocus: false
+        - _id: Be5HiAkLnP8sWf2Y
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Center on a held object so the area moves with the object'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Mobile Area
+          requiresFocus: false
       duration:
         dismiss: true
         units: round
         value: '@cl'
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

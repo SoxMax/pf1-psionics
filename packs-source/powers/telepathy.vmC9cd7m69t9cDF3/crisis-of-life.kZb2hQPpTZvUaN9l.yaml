@@ -36,6 +36,17 @@ system:
         type: fort
       target:
         value: One creature
+      augments:
+        - _id: X4y5Z6a7B8c9D0e1
+          name: Increased Kill Threshold
+          cost: 1
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Kills creatures with HD up to 11 + PP spent; +1 DC per 2 PP spent'
   description:
     value: >-
       <p>You interrupt the subject's autonomic heart rhythm, killing it

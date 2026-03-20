@@ -33,6 +33,17 @@ system:
         type: will
       target:
         value: One creature
+      augments:
+        - _id: H9i0J1k2L3m4N5o6
+          name: Increased Charisma Damage
+          cost: 4
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1d4 Cha damage and +2 DC per 4 PP spent'
   description:
     value: >-
       <p>Your rapid mental lashings assault the ego of your enemy, debilitating

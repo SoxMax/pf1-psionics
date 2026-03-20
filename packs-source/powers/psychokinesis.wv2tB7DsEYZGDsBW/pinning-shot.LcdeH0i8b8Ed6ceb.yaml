@@ -28,6 +28,17 @@ system:
       range:
         units: personal
         value: Personal
+      augments:
+        - _id: Wl9xY5cC1fD8gH3i
+          cost: 2
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes: []
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: DC
+          requiresFocus: false
       save:
         description: None
       target:

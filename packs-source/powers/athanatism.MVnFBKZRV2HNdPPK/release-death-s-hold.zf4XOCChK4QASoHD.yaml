@@ -21,10 +21,23 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Cf6IjBkLnQ9tXg3Y
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Expend psionic focus: power becomes contagious; next undead target touches is subjected to a second manifestation (same augments, no additional cost)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Contagious
+          requiresFocus: true
       duration:
         units: round
         value: '@cl'
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

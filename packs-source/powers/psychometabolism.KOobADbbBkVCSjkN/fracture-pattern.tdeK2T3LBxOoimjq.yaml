@@ -18,6 +18,27 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Vi5eExJ3rA8oOy4h
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Target takes [[@augments.damage]]d6 untyped damage per augment; +1 DC per 2 PP'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+        - _id: Wj6fFyK4sB0pPz5i
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Affects [[@augments.targets]] additional target(s) within range'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Targets
+          requiresFocus: false
       duration:
         units: round
         value: '@cl'

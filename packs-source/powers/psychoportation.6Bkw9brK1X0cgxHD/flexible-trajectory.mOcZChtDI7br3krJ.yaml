@@ -21,10 +21,45 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Nn4oOp5pPq6qQr7s
+          cost: 3
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Ignore concealment (but not total concealment) with ranged attacks'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: 1
+          name: Ignore Concealment
+          requiresFocus: false
+        - _id: Oo5pPq6qQr7rRs8t
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Ignore all miss chances (including total concealment and effects such as mirror image)'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: 1
+          name: Ignore All Miss Chances
+          requiresFocus: false
+        - _id: Pp6qQr7rRs8sSt9u
+          cost: 3
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.range * 10]] ft. to range increment, maximum range, and ranged touch attack range'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: null
+          name: Range
+          requiresFocus: false
       duration:
         units: round
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Flexible Trajectory;level=@cl;dFlags.augmentBonus=@augments.range]
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

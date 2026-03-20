@@ -18,12 +18,25 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Fi8NnPqRsT3wZj6D
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Failed save: haunted 24 hours by imaginary creatures; -2 penalty to all d20 rolls; shaken; can see Ethereal Plane within 20 feet'
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: 1
+          name: Haunted
+          requiresFocus: false
       damage:
         parts:
           - formula: 1d10
       duration:
         units: inst
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

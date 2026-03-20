@@ -21,10 +21,34 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Kx2NcPmRsT7vBq4W
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Critical hits with this weapon cause target to lose incorporeal trait for 1 minute'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Corporeal Crit
+          requiresFocus: false
+        - _id: Ly9FdGnKwA3tEp5X
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.weapons]] additional weapon(s) or natural weapon(s) affected'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Weapons
+          requiresFocus: false
       duration:
         units: minute
         value: '1'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Ghostslayer''s Blade;level=@cl;dFlags.augmentBonus=@augments.weapons]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

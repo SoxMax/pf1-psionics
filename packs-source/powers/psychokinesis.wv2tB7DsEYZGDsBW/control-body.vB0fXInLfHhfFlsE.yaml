@@ -29,6 +29,27 @@ system:
       range:
         units: med
         value: Medium (100 ft. + 10 ft./level)
+      augments:
+        - _id: Xm4yA0bC6gD3hI8j
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.sizeIncrease]] size categories larger target allowed'
+          img: icons/magic/control/hypnosis-mesmerism-eye-tan.webp
+          maxUses: null
+          name: Size Increase
+          requiresFocus: false
+        - _id: Yn5zA1cD7hE4iJ9k
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Controlled target is no longer treated as staggered'
+          img: icons/magic/control/hypnosis-mesmerism-eye-tan.webp
+          maxUses: 1
+          name: Unstaggered
+          requiresFocus: false
       save:
         description: Fortitude negates
         harmless: false

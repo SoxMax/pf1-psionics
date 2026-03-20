@@ -28,6 +28,40 @@ system:
       range:
         units: personal
         value: Personal
+      augments:
+        - _id: Gq3mRxKpJtBvZn8w
+          name: Bonus
+          cost: 3
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Luck bonus improves by +[[@augments.bonus]] (total +[[2+@augments.bonus]])'
+        - _id: Vc5hLyNmSdWqXr7e
+          name: Duration
+          cost: 4
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: 10 minutes/level'
+        - _id: Pk2jFwAbCuTsOi4z
+          name: Network
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Gains Network descriptor; save becomes Will negates (harmless); PR becomes Yes (harmless)'
+      notes:
+        footer:
+          - '@PsionicApply[Battle Transformation, Galen''s;level=@cl;dFlags.augmentBonus=@augments.bonus]'
       save:
         description: None; see text
       target:

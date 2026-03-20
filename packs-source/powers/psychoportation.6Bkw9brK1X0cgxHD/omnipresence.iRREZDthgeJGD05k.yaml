@@ -20,11 +20,66 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: Xx4yYz5zZa6aAb7c
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '[[@augments.missChance * 5]]% miss chance on attacks against you (max 50%)'
+          img: icons/magic/control/buff-flight-wings-runes-blue-white.webp
+          maxUses: 10
+          name: Miss Chance
+          requiresFocus: false
+        - _id: Yy5zZa6aAb7bBc8d
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.extraAoo]] additional attack(s) of opportunity per round'
+          img: icons/magic/control/buff-flight-wings-runes-blue-white.webp
+          maxUses: null
+          name: Extra AoO
+          requiresFocus: false
+        - _id: Zz6aAb7bBc8cCd9e
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.reach * 5]] ft. to the distance this power reaches from you and collective members'
+          img: icons/magic/control/buff-flight-wings-runes-blue-white.webp
+          maxUses: null
+          name: Reach
+          requiresFocus: false
+        - _id: Aa7bBc8cCd9dDe0f
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Can switch positions with collective members within power area as a move action (no AoO)'
+          img: icons/magic/control/buff-flight-wings-runes-blue-white.webp
+          maxUses: 1
+          name: Position Swap
+          requiresFocus: false
+        - _id: Bb8cCd9dDe0eEf1g
+          cost: 8
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Center power on chosen collective member instead of yourself (you take half the damage they do, unreducible)'
+          img: icons/magic/control/buff-flight-wings-runes-blue-white.webp
+          maxUses: 1
+          name: Redirect Center
+          requiresFocus: false
       duration:
         units: round
         value: '@cl'
       img: icons/magic/control/buff-flight-wings-runes-blue-white.webp
       name: Use
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Omnipresence;level=@cl;dFlags.augmentBonus=@augments.missChance]
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

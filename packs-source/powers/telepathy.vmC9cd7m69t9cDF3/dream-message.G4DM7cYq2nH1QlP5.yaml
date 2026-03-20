@@ -35,6 +35,17 @@ system:
         description: None
       target:
         value: One living creature touched
+      augments:
+        - _id: G8h9I0j1K2l3M4n5
+          name: Plant Waking Message
+          cost: null
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'If recipient is awake, messenger may spend PP equal to target HD - 4 to plant message received when next the target sleeps'
   description:
     value: >-
       <p>You, or a messenger you touch, send a message to others in the form of

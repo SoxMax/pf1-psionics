@@ -21,11 +21,25 @@ system:
       damage:
         parts:
           - formula: 2d8
+      augments:
+        - _id: Uh4dDwI2qZ7nNx3g
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration extended by 2 rounds per augment'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Duration
+          requiresFocus: false
       duration:
         dismiss: true
         units: round
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Form of Doom, Zikopathik''s;level=@cl;dFlags.augmentBonus=@augments.duration]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

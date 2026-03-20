@@ -25,6 +25,31 @@ system:
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
+      augments:
+        - _id: Hw0iJ6nN2qO9rS4t
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+50 damage pool capacity per purchase'
+          img: icons/magic/earth/strike-body-stone-crumble.webp
+          maxUses: null
+          name: Capacity
+          requiresFocus: false
+        - _id: Ix1jK7oO3rP0sT5u
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Damage reduction changes to DR 20/- (bypasses magic requirement)'
+          img: icons/magic/earth/strike-body-stone-crumble.webp
+          maxUses: 1
+          name: Overcome
+          requiresFocus: false
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Telekinetic Barrier;level=@cl;dFlags.augmentBonus=@augments.capacity]
       save:
         description: None
       target:

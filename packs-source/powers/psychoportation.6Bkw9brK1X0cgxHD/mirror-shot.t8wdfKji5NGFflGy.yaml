@@ -18,6 +18,37 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Uu1vVw2wWx3xXy4z
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.enhancement]] enhancement bonus (or ability equivalent) bestowed on reflection projectiles'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: null
+          name: Enhancement
+          requiresFocus: false
+        - _id: Vv2wWx3xXy4yYz5a
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.projectiles]] additional mirrored projectile(s)'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: null
+          name: Projectiles
+          requiresFocus: false
+        - _id: Ww3xXy4yYz5zZa6b
+          cost: 10
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Can reflect unusually massive projectiles (siege weapons, boulders). All reflections strike same area.'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: 1
+          name: Massive Projectiles
+          requiresFocus: false
       duration:
         units: inst
       name: Use

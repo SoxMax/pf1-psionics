@@ -31,6 +31,17 @@ system:
       range:
         units: ft
         value: Melee
+      augments:
+        - _id: Kx7mP2nQ4vR8sT1w
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Manifest on successful attack instead of before; effect applies to that attack'
+          img: icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp
+          maxUses: 1
+          name: Reactive
+          requiresFocus: false
       save:
         description: None
       target:

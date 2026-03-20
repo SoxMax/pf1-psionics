@@ -31,6 +31,20 @@ system:
       range:
         units: ft
         value: Melee
+      augments:
+        - _id: Nk8vBpJ4wFxCm2sQ
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Manifest upon successful melee attack; effects apply to that attack instead of
+              next attack'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: 1
+          name: Reactive
+          requiresFocus: false
+      notes:
+        footer: []
       save:
         description: None
       target:

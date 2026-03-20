@@ -18,6 +18,27 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Vi2eExK5sB0oOy7h
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Affects [[@augments.targets]] additional target(s) per augment; +1 DC per 2 PP spent on augments'
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: null
+          name: Targets
+          requiresFocus: false
+        - _id: Wj3fFyL6tC1pPz8i
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Range becomes Medium (100 ft. + 10 ft./level); +1 DC per 2 PP spent on augments'
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: 1
+          name: Range
+          requiresFocus: false
       duration:
         units: inst
       name: Use

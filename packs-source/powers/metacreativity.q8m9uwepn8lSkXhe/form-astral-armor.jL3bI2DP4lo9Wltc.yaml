@@ -29,6 +29,22 @@ system:
       range:
         units: personal
         value: Personal
+      augments:
+        - _id: Dm6pKrN9wVxBs4tL
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.customization]] customization point(s) for astral suit'
+          img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+          maxUses: null
+          name: Customization
+          requiresFocus: false
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Form Astral
+            Armor;level=@cl;dFlags.augmentBonus=@augments.customization]
       save:
         description: None
       target:

@@ -18,6 +18,17 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Fs5oOhU8bK3yYi0r
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.duration]] minute(s) duration per augment'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Duration
+          requiresFocus: false
       duration:
         units: minute
         value: '1'

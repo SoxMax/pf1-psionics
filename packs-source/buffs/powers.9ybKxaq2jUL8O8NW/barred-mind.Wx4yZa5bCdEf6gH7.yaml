@@ -1,0 +1,45 @@
+_id: Wx4yZa5bCdEf6gH7
+_key: '!items!Wx4yZa5bCdEf6gH7'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Barred Mind
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: Ef5gHi6J
+      formula: '8 + @item.dFlags.augmentBonus'
+      operator: add
+      priority: 0
+      target: willSave
+      type: resist
+  contextNotes:
+    - target: misc
+      text: 'Barred Mind: protected from divination effects. +[[8 + @item.dFlags.augmentBonus]] resistance bonus on saving throws against all mind-affecting powers, spells, and effects.'
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.oQvsZf1U7mqotsjD]{Barred Mind}</p>
+      <p>Protected from all divination powers and magic. +[[8 + @item.dFlags.augmentBonus]] resistance bonus on saving throws against all mind-affecting powers, spells, and effects.</p>
+  duration:
+    end: turnStart
+    units: day
+    value: '1'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 8
+  showInQuickbar: false
+  subType: spell
+type: buff

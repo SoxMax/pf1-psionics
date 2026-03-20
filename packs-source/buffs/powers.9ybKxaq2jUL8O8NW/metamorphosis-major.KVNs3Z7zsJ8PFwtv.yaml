@@ -1,0 +1,49 @@
+_id: KVNs3Z7zsJ8PFwtv
+_key: '!items!KVNs3Z7zsJ8PFwtv'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/life/heart-glowing-red.webp
+name: Metamorphosis, Major
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  contextNotes:
+    - target: misc
+      text: >-
+        One choice from Enhancement Menu C and one from Abilities Menu C.
+        Augment: +[[@item.dFlags.menuC]] additional Menu C pairs (6 pp each),
+        +[[@item.dFlags.menuB]] additional Menu B pairs (4 pp each), and/or
+        +[[@item.dFlags.menuA]] additional Menu A pairs (2 pp each). See power
+        for full option lists. Choices do not stack.
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.KVNs3Z7zsJ8PFwtv]{Metamorphosis,
+      Major}</p><p>One Enhancement Menu C choice and one Abilities Menu C
+      choice. Augment (6 pp): +[[@item.dFlags.menuC]] Menu C pairs; augment
+      (4 pp): +[[@item.dFlags.menuB]] Menu B pairs; augment (2 pp):
+      +[[@item.dFlags.menuA]] Menu A pairs. See power for full option
+      lists.</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '@item.level'
+  flags:
+    dictionary:
+      menuC: '0'
+      menuB: '0'
+      menuA: '0'
+  hideFromToken: false
+  level: 6
+  showInQuickbar: false
+  subType: spell
+type: buff

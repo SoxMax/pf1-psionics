@@ -18,6 +18,17 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Ee1fFg2gGh3hHi4j
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.familiarity]] step(s) of familiarity improvement for destination (not false destinations)'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: null
+          name: Familiarity
+          requiresFocus: false
       damage:
         parts:
           - formula: 1d10

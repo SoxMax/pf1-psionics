@@ -1,0 +1,43 @@
+_id: t0nZ1q5SkNqEfAns
+_key: '!items!t0nZ1q5SkNqEfAns'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/life/heart-glowing-red.webp
+name: Psionic Lion's Charge
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  contextNotes:
+    - target: misc
+      text: >-
+        Can make a full attack in the same round as a charge. Each attack after
+        the charge gains a cumulative +[[@item.dFlags.augmentBonus]]
+        circumstance bonus on damage.
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.t0nZ1q5SkNqEfAns]{Psionic
+      Lion's Charge}</p><p>Full attack on a charge this round. Each attack
+      after the charge gains a cumulative +[[@item.dFlags.augmentBonus]]
+      circumstance bonus on damage.</p>
+  duration:
+    end: turnStart
+    units: round
+    value: '1'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 2
+  showInQuickbar: false
+  subType: spell
+type: buff

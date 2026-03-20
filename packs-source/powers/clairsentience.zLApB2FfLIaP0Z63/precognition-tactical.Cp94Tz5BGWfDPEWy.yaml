@@ -64,6 +64,9 @@ system:
         units: round
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Precognition, Tactical;level=@cl;dFlags.augmentBonus=@augments.amplify]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

@@ -32,6 +32,17 @@ system:
         description: None
       target:
         value: You
+      augments:
+        - _id: R5s6T7u8V9w0X1y2
+          name: Additional Language
+          cost: 1
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Understand and be understood in one additional language per PP spent'
   description:
     value: >-
       <p>You telepathically charge your speech and hearing, allowing you to

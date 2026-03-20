@@ -28,12 +28,26 @@ system:
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
+      notes:
+        footer:
+          - '@PsionicApply[Barred Mind;level=@cl;dFlags.augmentBonus=@augments.increasedResistanceBonus]'
       save:
         description: Will negates (harmless)
         harmless: true
         type: will
       target:
         value: One creature
+      augments:
+        - _id: H8i9J0k1L2m3N4o5
+          name: Increased Resistance Bonus
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1 resistance bonus per 2 PP spent'
   description:
     value: >-
       <p>The subject is protected from all devices, powers, and spells that

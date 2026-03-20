@@ -1,0 +1,41 @@
+_id: seRgHj6qTOy2OQMe
+_key: '!items!seRgHj6qTOy2OQMe'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Danger Sense
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  contextNotes:
+    - target: savingThrow
+      text: '+4 insight bonus on Reflex saves to avoid traps (Danger Sense)'
+    - target: ac
+      text: '+4 insight bonus to AC against attacks by traps (Danger Sense)'
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.2xJLOnP5L5juxec2]{Danger Sense}</p>
+      <p>+4 insight bonus on Reflex saves to avoid traps and +4 insight bonus to Armor Class against attacks by traps.</p>
+  duration:
+    end: turnStart
+    units: hour
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 3
+  showInQuickbar: false
+  subType: spell
+type: buff

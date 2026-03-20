@@ -18,6 +18,27 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Cp3lLeR1yH7vVf2o
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Cures diseases instead of granting poison immunity (make manifester level check 1d20+ML vs DC of each disease; duration changes to Instantaneous)'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Cure Disease
+          requiresFocus: false
+        - _id: Dq4mMfS2zI8wWg3p
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Detoxifies venom instead of granting poison immunity (make manifester level check 1d20+ML vs DC of each poison; duration changes to Instantaneous)'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Neutralize Poison
+          requiresFocus: false
       duration:
         units: hour
         value: '1'

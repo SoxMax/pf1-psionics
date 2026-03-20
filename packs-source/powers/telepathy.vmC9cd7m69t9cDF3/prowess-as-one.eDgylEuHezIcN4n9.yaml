@@ -34,6 +34,37 @@ system:
         type: will
       target:
         value: You plus one creature
+      augments:
+        - _id: C6d7E8f9G0h1I2j3
+          name: Share Weapon Proficiency
+          cost: 3
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Share one target weapon proficiency with all other willing targets per 3 PP spent'
+        - _id: D7e8F9g0H1i2J3k4
+          name: Share Lowest BAB
+          cost: 4
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Share lowest BAB instead of highest; unwilling recipients may Will save each round to ignore'
+        - _id: E8f9G0h1I2j3K4l5
+          name: Share BAB-Modifying Feature
+          cost: 4
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Select one class feature that directly modifies BAB; grant it to any willing targets per 4 PP spent'
   description:
     value: >-
       <p>This power links the fighting prowess of one to another. Treat all

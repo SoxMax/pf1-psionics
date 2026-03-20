@@ -18,9 +18,24 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Sv4AaCcDdE7jMw2Q
+          cost: 2
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes:
+            - 'Save DC +[[@augments.dcBonus]] (per 2 pp spent)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: DC Bonus
+          requiresFocus: false
       duration:
         units: inst
       name: Use
+      notes:
+        footer:
+          - 'For every 2 additional pp spent, save DC +1'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

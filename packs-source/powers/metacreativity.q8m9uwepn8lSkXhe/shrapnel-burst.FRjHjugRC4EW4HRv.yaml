@@ -28,6 +28,20 @@ system:
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
+      augments:
+        - _id: Nv6wKpT3mLqBx8rC
+          cost: 1
+          effectNotes: []
+          effects:
+            damageBonus: 1d6
+          footerNotes:
+            - '+[[@augments.damage]]d6 damage; save DC increases by [[floor(@augments.damage/2)]]'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+      notes:
+        footer: []
       save:
         description: Reflex half
         harmless: false

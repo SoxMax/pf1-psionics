@@ -27,6 +27,19 @@ system:
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
+      augments:
+        - _id: Sr7mDpJxNwQvAk2b
+          name: Range
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Range: Medium (100 ft. + 10 ft./level)'
+      notes:
+        footer: []
       save:
         description: None
       target:

@@ -21,6 +21,27 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: An0jJcP8wF4tTd9m
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Passenger is aware of everything the host is aware of, but cannot act'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Awareness
+          requiresFocus: false
+        - _id: Bo1kKdQ9xG5uUe0n
+          cost: 8
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Passenger is aware and can take mental actions (manifest powers); duration becomes 1 round/level (D)'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Mental Actions
+          requiresFocus: false
       duration:
         dismiss: true
         units: hour

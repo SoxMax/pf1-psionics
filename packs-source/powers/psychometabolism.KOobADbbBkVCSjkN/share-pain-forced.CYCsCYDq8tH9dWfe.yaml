@@ -18,6 +18,17 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Jw0sSlY8fO4cCm5v
+          cost: 2
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes: []
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: DC
+          requiresFocus: false
       duration:
         dismiss: true
         units: round

@@ -34,6 +34,17 @@ system:
         type: will
       target:
         value: One living creature
+      augments:
+        - _id: A2b3C4d5E6f7G8h9
+          name: Increased DC and Duration
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1 DC per 2 PP spent; duration increases by 1 round per 2-point DC increase'
   description:
     value: >-
       <p>You plant a hidden death-urge impulse in the subject's unconscious. On

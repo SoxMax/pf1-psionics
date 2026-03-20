@@ -1,0 +1,53 @@
+_id: e935biPtfiJWW94j
+_key: '!items!e935biPtfiJWW94j'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/life/heart-glowing-red.webp
+name: Epidermal Fissure
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: EpiFisS1
+      formula: 4 + 2 * @item.dFlags.augmentBonus
+      operator: add
+      priority: 0
+      target: str
+      type: enh
+  contextNotes:
+    - target: misc
+      text: >-
+        +[[4 + 2 * @item.dFlags.augmentBonus]] enhancement bonus to Strength
+        and Intimidate checks. 2 bleed damage per round. Natural armor penalty
+        -[[@item.dFlags.naturalArmor]] (cannot reduce below 0).
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.e935biPtfiJWW94j]{Epidermal
+      Fissure}</p><p>+[[4 + 2 * @item.dFlags.augmentBonus]] enhancement bonus
+      to Strength and Intimidate. Target suffers 2 + [[2 *
+      @item.dFlags.bleed]] bleed damage per round. Natural armor reduced by
+      [[@item.dFlags.naturalArmor]].</p>
+  duration:
+    end: turnStart
+    units: round
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+      bleed: '0'
+      naturalArmor: '0'
+  hideFromToken: false
+  level: 2
+  showInQuickbar: false
+  subType: spell
+type: buff

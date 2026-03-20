@@ -22,6 +22,28 @@ system:
       damage:
         parts:
           - formula: 9d6
+      augments:
+        - _id: Zm6iIbO9vE4sSc1l
+          cost: 1
+          effectNotes: []
+          effects:
+            damageBonus: 1d6
+            dcBonus: 0.5
+          footerNotes: []
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+        - _id: An7jJcP0wF5tTd2m
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Blood eruption occurs even if target succeeds at their saving throw'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Guaranteed Eruption
+          requiresFocus: false
       duration:
         units: inst
       name: Use

@@ -34,6 +34,17 @@ system:
         type: will
       target:
         value: You and one other creature
+      augments:
+        - _id: J7k8L9m0N1o2P3q4
+          name: Increased DC
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1 DC per 2 PP spent'
   description:
     value: >-
       <p>You can attempt to take control of a nearby living creature, forcing

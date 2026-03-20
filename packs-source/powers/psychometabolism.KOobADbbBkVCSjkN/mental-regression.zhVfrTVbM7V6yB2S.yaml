@@ -18,6 +18,37 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Iv8rRkX1eN6bBl3u
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Range increases to Medium (100 ft. + 10 ft./level)'
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: 1
+          name: Range
+          requiresFocus: false
+        - _id: Jw9sSlY2fO7cCm4v
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Penalty increases by 1d6 per augment'
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: null
+          name: Penalty
+          requiresFocus: false
+        - _id: Kx0tTmZ3gP8dDn5w
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration becomes Instantaneous; penalty removable only via psychic surgery, heal, wish, reality revision or similar'
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: 1
+          name: Permanent
+          requiresFocus: false
       duration:
         units: minute
         value: 10 * @cl

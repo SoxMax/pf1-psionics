@@ -32,6 +32,34 @@ system:
       range:
         units: med
         value: Medium (100 ft. + 10 ft./level)
+      augments:
+        - _id: Pq2mRsT6vXwNk8cD
+          cost: 2
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes:
+            - 'Target size category increases by [[@augments.size]] (also +[[@augments.size]]
+              to save DC and break-free DCs)'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: null
+          name: Size
+          requiresFocus: false
+        - _id: Wf9hJkL3mQvBn5xY
+          cost: 2
+          effectNotes: []
+          effects:
+            damageBonus: 1d6
+            dcBonus: 1
+          footerNotes:
+            - '+[[@augments.damage]]d6 continuous damage (also +[[@augments.damage]] to save DC
+              and break-free DCs)'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+      notes:
+        footer: []
       save:
         description: Reflex negates
         harmless: false

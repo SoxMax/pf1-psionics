@@ -18,6 +18,17 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Tt0uUv1vVw2wWx3y
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.steps]] additional step(s) improvement in initiative order'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: null
+          name: Steps
+          requiresFocus: false
       duration:
         units: inst
       name: Use

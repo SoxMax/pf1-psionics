@@ -1,0 +1,62 @@
+_id: egB3lf81GnfduQzl
+_key: '!items!egB3lf81GnfduQzl'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/life/heart-glowing-red.webp
+name: Endorphin Surge
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: EndSrgS1
+      formula: 2 + 2 * @item.dFlags.augmentBonus
+      operator: add
+      priority: 0
+      target: str
+      type: morale
+    - _id: EndSrgC1
+      formula: 2 + 2 * @item.dFlags.augmentBonus
+      operator: add
+      priority: 0
+      target: con
+      type: morale
+    - _id: EndSrgW1
+      formula: 1 + @item.dFlags.augmentBonus
+      operator: add
+      priority: 0
+      target: willSave
+      type: morale
+    - _id: EndSrgA1
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: ac
+      type: untyped
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.egB3lf81GnfduQzl]{Endorphin
+      Surge}</p><p>+[[2 + 2 * @item.dFlags.augmentBonus]] morale bonus to
+      Strength and Constitution, +[[1 + @item.dFlags.augmentBonus]] morale
+      bonus on Will saves, -2 penalty to AC. Not fatigued when it ends.</p>
+  duration:
+    end: turnStart
+    units: round
+    value: '1'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 2
+  showInQuickbar: false
+  subType: spell
+type: buff

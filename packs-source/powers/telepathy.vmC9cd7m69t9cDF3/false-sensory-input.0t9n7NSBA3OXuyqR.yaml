@@ -36,6 +36,17 @@ system:
         type: will
       target:
         value: One creature
+      augments:
+        - _id: M4n5O6p7Q8r9S0t1
+          name: Additional Target
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Affect one additional target per 2 PP spent; targets must be within 15 ft. of another target'
   description:
     value: >-
       <p>You have a limited ability to falsify one of the subject's senses. The

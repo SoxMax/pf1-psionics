@@ -1,0 +1,41 @@
+_id: KZrjGtUEiRb7ZWIw
+_key: '!items!KZrjGtUEiRb7ZWIw'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Dispatch
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  contextNotes:
+    - target: attack
+      text: '+[[4 + @item.dFlags.augmentBonus]] insight bonus on disarm and trip attack rolls and ability checks (Dispatch)'
+    - target: damage
+      text: '+[[0 + @item.dFlags.augmentBonus]] insight bonus on damage rolls on attacks of opportunity (Dispatch; based on total pp spent)'
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.USlg6hfgUzBQe116]{Dispatch}</p>
+      <p>+[[4 + @item.dFlags.augmentBonus]] insight bonus on attack rolls made to disarm or trip (and related ability checks) for one round. If you successfully disarm or trip an opponent in melee, you may make an immediate attack of opportunity at your highest attack bonus +4 circumstance bonus.</p>
+  duration:
+    end: turnStart
+    units: round
+    value: '1'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 3
+  showInQuickbar: false
+  subType: spell
+type: buff

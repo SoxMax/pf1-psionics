@@ -18,6 +18,17 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Qq7rRs8sSt9tTu0v
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Casting Time: Move Action (still cannot take other actions until next turn)'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: 1
+          name: Move Action
+          requiresFocus: false
       damage:
         parts:
           - formula: 1d6

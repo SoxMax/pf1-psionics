@@ -21,6 +21,27 @@ system:
       damage:
         parts:
           - formula: 3d6
+      augments:
+        - _id: Vh9eExK7rA2oOy8h
+          cost: 2
+          effectNotes: []
+          effects:
+            damageBonus: 1d6
+          footerNotes: []
+          img: icons/magic/unholy/projectile-missile-green.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+        - _id: Wj0fFyL8sB3pPz9i
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Creatures that fail save are also @Condition[blinded] until beginning of their next turn'
+          img: icons/magic/unholy/projectile-missile-green.webp
+          maxUses: 1
+          name: Blind
+          requiresFocus: false
       duration:
         units: round
         value: '@cl'

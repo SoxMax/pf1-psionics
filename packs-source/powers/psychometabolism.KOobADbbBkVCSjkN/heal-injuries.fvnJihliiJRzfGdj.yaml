@@ -18,6 +18,27 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Yl8hHaN6vD2rRb7k
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+10 total HP healed per augment'
+          img: icons/magic/life/heart-cross-strong-blue.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
+        - _id: Zm9iIbO7wE3sSc8l
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Heals all living creatures within 20 ft. of you'
+          img: icons/magic/life/heart-cross-strong-blue.webp
+          maxUses: 1
+          name: Area
+          requiresFocus: false
       duration:
         units: inst
       name: Use

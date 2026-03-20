@@ -28,12 +28,36 @@ system:
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
+      notes:
+        footer:
+          - '@PsionicApply[Coordinate as One;level=@cl;dFlags.augmentBonus=@augments.increasedInsightBonus]'
       save:
         description: Will negates (harmless)
         harmless: true
         type: will
       target:
         value: One willing creature other than you
+      augments:
+        - _id: R8s9T0u1V2w3X4y5
+          name: Increased Insight Bonus
+          cost: 3
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Insight bonus increases by 1 per 3 PP spent'
+        - _id: S9t0U1v2W3x4Y5z6
+          name: Dual Direction
+          cost: 6
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Target can be directed both offensively and defensively simultaneously'
   description:
     value: >-
       <p>You form a mental bond with one creature within range, giving them the

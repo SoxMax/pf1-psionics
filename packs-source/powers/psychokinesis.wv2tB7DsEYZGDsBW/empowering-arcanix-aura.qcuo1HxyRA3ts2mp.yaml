@@ -28,6 +28,30 @@ system:
       range:
         units: personal
         value: Personal
+      augments:
+        - _id: Ds0eF6hI2mJ9nO4p
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: 1 minute/level'
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: 1
+          name: Duration (minutes)
+          requiresFocus: false
+        - _id: Et1fG7iJ3nK0oP5q
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: 10 minutes/level'
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: 1
+          name: Duration (hours)
+          requiresFocus: false
+      notes:
+        footer:
+          - '@PsionicApply[Empowering Arcanix Aura;level=@cl]'
       save:
         description: none (harmless)
         harmless: true

@@ -18,11 +18,24 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Or1UvNxYbC4fJs7L
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Manifest this power as a swift action'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Swift Action
+          requiresFocus: false
       duration:
         dismiss: true
         units: round
         value: '@cl'
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

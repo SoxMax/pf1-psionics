@@ -37,6 +37,27 @@ system:
         harmless: true
       target:
         value: One willing creature
+      augments:
+        - _id: G0h1I2j3K4l5M6n7
+          name: Additional Saves
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Power lasts for one additional successful Will save per 2 PP spent before discharging'
+        - _id: H1i2J3k4L5m6N7o8
+          name: Permanent Connection
+          cost: 8
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Power is never discharged after making a successful Will save'
   description:
     value: >-
       <p>You forge a specialized telepathic connection between yourself and one

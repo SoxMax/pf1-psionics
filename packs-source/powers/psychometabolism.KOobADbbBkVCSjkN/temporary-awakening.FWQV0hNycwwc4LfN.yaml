@@ -18,6 +18,27 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Sf9bBuH2pY7mMw4f
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Target gains access to [[@augments.powers]] additional 1st-level power(s) you know per augment (you lose access to them for the duration)'
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: null
+          name: Extra 1st-Level Powers
+          requiresFocus: false
+        - _id: Tg0cCvI3qZ8nNx5g
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Target gains a 2nd-level power and effective ML 3 for manifesting these powers (you lose access to the 2nd-level power for the duration)'
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: 1
+          name: 2nd-Level Power
+          requiresFocus: false
       duration:
         dismiss: true
         units: spec

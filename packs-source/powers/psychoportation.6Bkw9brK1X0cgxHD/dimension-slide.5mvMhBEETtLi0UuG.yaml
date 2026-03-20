@@ -18,6 +18,17 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Jj0kKl1mMn2oOp3p
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Casting Time: Move Action'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: 1
+          name: Move Action
+          requiresFocus: false
       duration:
         units: inst
       name: Use

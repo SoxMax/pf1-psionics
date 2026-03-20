@@ -36,6 +36,10 @@ system:
         value: 10 * @cl
       img: icons/magic/defensive/barrier-shield-dome-deflect-blue.webp
       name: Use
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Ablative Armor;level=@cl;dFlags.augmentBonus=@augments.amplify]
       naturalAttack:
         primary: true
         secondary:

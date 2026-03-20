@@ -21,6 +21,37 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Er5nNgT3aJ9xXh4q
+          cost: 3
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Ignore penalties of one additional higher age category (old, venerable) per augment'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 2
+          name: Age Category
+          requiresFocus: false
+        - _id: Fs6oOhU4bK0yYi5r
+          cost: 3
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration becomes 1 day/level'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Duration
+          requiresFocus: false
+        - _id: Gt7pPiV5cL1zZj6s
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Range becomes Touch; target becomes one living creature'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Range
+          requiresFocus: false
       duration:
         units: hour
         value: '24'

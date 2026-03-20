@@ -27,6 +27,19 @@ system:
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
+      augments:
+        - _id: Tc6wBnF4kDxPq7mR
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Burst radius increases to [[20 + 5*@augments.area]] ft.'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: null
+          name: Area
+          requiresFocus: false
+      notes:
+        footer: []
       save:
         description: Reflex negates
         harmless: false

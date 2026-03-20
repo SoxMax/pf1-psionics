@@ -21,10 +21,23 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Xp9BrKvTsQ4mJc7N
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Affects part of any touched object up to 5 sq. ft./level (walls, ground, etc.)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Larger Object
+          requiresFocus: false
       duration:
         units: minute
         value: '@cl'
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

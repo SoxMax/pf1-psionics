@@ -29,6 +29,19 @@ system:
       range:
         units: personal
         value: Personal
+      augments:
+        - _id: mK7pXnR2tQwVsL9j
+          name: Planar
+          cost: 6
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Effect extends across all planar boundaries'
+      notes:
+        footer: []
       save:
         description: None
       target:

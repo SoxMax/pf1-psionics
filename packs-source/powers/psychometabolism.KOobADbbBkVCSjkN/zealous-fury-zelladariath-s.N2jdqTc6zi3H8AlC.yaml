@@ -18,10 +18,44 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Cp9lLeR3yH7vVf4o
+          cost: 5
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Attack penalty reduced by 10 instead of 5'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Greater Reduction
+          requiresFocus: false
+        - _id: Dq0mMfS4zI8wWg5p
+          cost: 10
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Attack penalty reduced by 15 instead of 5'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Superior Reduction
+          requiresFocus: false
+        - _id: Er1nNgT5aJ9xXh6q
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration increased by 1 round per augment'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Duration
+          requiresFocus: false
       duration:
         units: round
         value: '1'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Zealous Fury, Zelladariath''s;level=@cl;dFlags.augmentBonus=@augments.greaterReduction;dFlags.augmentDuration=@augments.duration]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

@@ -18,6 +18,37 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Xk3gGzM6tC1qQa8j
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Ability damage to increase another score is delayed until the power fades'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Delayed Damage
+          requiresFocus: false
+        - _id: Yl4hHaN7uD2rRb9k
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - "Power's duration increases to 1 minute/level (D)"
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Duration
+          requiresFocus: false
+        - _id: Zm5iIbO8vE3sSc0l
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - "Ability damage suffered to increase another score fades when power's duration expires"
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: No Lasting Damage
+          requiresFocus: false
       duration:
         dismiss: true
         units: round

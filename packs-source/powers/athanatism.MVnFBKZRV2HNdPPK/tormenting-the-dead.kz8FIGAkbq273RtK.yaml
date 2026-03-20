@@ -19,12 +19,47 @@ system:
           cost: 1
           type: nonaction
       area: '[object Object]'
+      augments:
+        - _id: Zc2HhJkKlM6qTd9X
+          cost: 1
+          effectNotes: []
+          effects:
+            damageBonus: 8
+          footerNotes:
+            - '+[[@augments.extraDice]]d8 additional damage'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Extra Damage
+          requiresFocus: false
+        - _id: Ad3IiKlLmN7rUe1Y
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Failed Fort save: also sickened for 1d6 rounds (affects incorporeal undead despite immunity)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Sickened
+          requiresFocus: false
+        - _id: Be4JjLmMnO8sVf2Z
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Affects all incorporeal creatures in 20-ft.-radius spread instead of one target'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Area Effect
+          requiresFocus: false
       damage:
         parts:
           - formula: 5d8
       duration:
         units: inst
       name: Use
+      notes:
+        footer:
+          - 'For every 2 pp spent augmenting, save DC +1'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

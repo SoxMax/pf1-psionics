@@ -30,6 +30,19 @@ system:
       range:
         units: touch
         value: Touch
+      augments:
+        - _id: Lh8pZkNmRcVtWx3j
+          name: Duration
+          cost: 1
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Maximum duration increases by +[[@augments.duration * 10]] minutes'
+      notes:
+        footer: []
       save:
         description: None
       target:

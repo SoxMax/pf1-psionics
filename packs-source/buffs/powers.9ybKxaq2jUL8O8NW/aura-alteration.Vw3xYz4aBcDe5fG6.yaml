@@ -1,0 +1,39 @@
+_id: Vw3xYz4aBcDe5fG6
+_key: '!items!Vw3xYz4aBcDe5fG6'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Aura Alteration
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  contextNotes:
+    - target: misc
+      text: 'Aura Alteration (Disguise): alignment and level disguised for [[10 * @item.level]] minutes; or (Remove Compulsion): subject gains +[[2 + @item.dFlags.augmentBonus]] on save to remove the afflicting compulsion or charm effect (up to 6th level).'
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.YLqWXrZK3XIljMvo]{Aura Alteration}</p>
+      <p>This buff tracks the Aura Alteration disguise effect, which disguises the subject's alignment and level for 10 minutes per manifester level. The remove compulsion use is instantaneous and grants a +[[2 + @item.dFlags.augmentBonus]] bonus on a new saving throw against the original effect.</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '10 * @item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 6
+  showInQuickbar: false
+  subType: spell
+type: buff

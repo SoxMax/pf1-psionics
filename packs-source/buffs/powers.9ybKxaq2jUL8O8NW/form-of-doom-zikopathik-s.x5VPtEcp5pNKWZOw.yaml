@@ -1,0 +1,65 @@
+_id: x5VPtEcp5pNKWZOw
+_key: '!items!x5VPtEcp5pNKWZOw'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/life/heart-glowing-red.webp
+name: Form of Doom, Zikopathik's
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: FoDmStr1
+      formula: '4'
+      operator: add
+      priority: 0
+      target: str
+      type: enh
+    - _id: FoDmNac1
+      formula: '5'
+      operator: add
+      priority: 0
+      target: nac
+      type: enh
+    - _id: FoDmSpd1
+      formula: '10'
+      operator: add
+      priority: 0
+      target: landSpeed
+      type: untyped
+  contextNotes:
+    - target: misc
+      text: >-
+        DR 5/—. Frightful presence (30 ft, shaken 5d6 rounds on failed Will
+        save, DC 16 + Cha). Up to 4 tentacle attacks per full attack at highest
+        BAB -5 (or at highest BAB with no penalty if only tentacle attacks):
+        2d8 + 1/2 Str. +10 bonus on Climb checks and Acrobatics (jump).
+        +10 Disguise to appear as a horrific monster.
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.x5VPtEcp5pNKWZOw]{Form of
+      Doom, Zikopathik's}</p><p>+4 enhancement Strength, +5 enhancement
+      natural armor, +10 ft land speed. DR 5/—. Frightful presence 30 ft
+      (shaken 5d6 rounds). Up to 4 tentacle attacks (2d8 + 1/2 Str). Duration:
+      [[@cl + 2 * @item.dFlags.augmentBonus]] rounds.</p>
+  duration:
+    end: turnStart
+    units: round
+    value: '@item.level + 2 * @item.dFlags.augmentBonus'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 6
+  showInQuickbar: false
+  subType: spell
+type: buff

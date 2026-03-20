@@ -1,0 +1,43 @@
+_id: hN5wKqMt2rBp8vLj
+_key: '!items!hN5wKqMt2rBp8vLj'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Soul Feast
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  contextNotes:
+    - target: misc
+      text: >-
+        Soul pool active; spend soul points: 1 point = temp HP equal to target's HD; 3 points = heal 1 ability damage; 5 points = heal 1 ability drain; 7 points = heal 1 negative level (Soul Feast)
+    - target: misc
+      text: >-
+        Any attempt to resurrect or raise the soul-feasted corpse requires an opposed manifester level check (Soul Feast)
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.VrR286IyvZril7zH]{Soul Feast}</p>
+      <p>Soul pool with soul points equal to target's HD + Cha modifier. Spend soul points (free action): 1 = gain temp HP equal to target's HD; 3 = heal 1 ability damage; 5 = heal 1 ability drain; 7 = heal 1 negative level. Soul pool and bonuses vanish at end of day. Save Bonus augment: while you have soul points, gain bonus on saves vs. negative energy, death effects, and energy drain equal to target's Charisma modifier.</p>
+  duration:
+    end: turnStart
+    units: spec
+    value: Until end of day
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 5
+  showInQuickbar: false
+  subType: spell
+type: buff

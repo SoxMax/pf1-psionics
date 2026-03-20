@@ -18,11 +18,45 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Xe3FnKpMqT7wBj5D
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Mental ability damage reduction increased by 1 (now reduces by 3)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Mental Reduction
+          requiresFocus: false
+        - _id: Yv6GsLrNuA2cPh8E
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Physical damage you take reduced by 2'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Physical Reduction
+          requiresFocus: false
+        - _id: Zw9HtMsOvB4dQi1F
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration increased to 1 hour/level'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Duration
+          requiresFocus: false
       duration:
         dismiss: true
         units: minute
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Cold of the Grave;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

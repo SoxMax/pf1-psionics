@@ -18,6 +18,17 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Ii5jJk6kKl7lLm8n
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.weight * 10]] lb. to weight limit of retrievable object'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: null
+          name: Weight
+          requiresFocus: false
       duration:
         units: inst
       name: Use

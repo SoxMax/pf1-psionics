@@ -25,11 +25,45 @@ system:
         parts:
           - formula: 2d6
           - formula: 2d6
+      augments:
+        - _id: Na3wWpC6jS1gGq8z
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1 choice from Enhancement Menu C and +1 choice from Abilities Menu C per augment (no duplicates)'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Menu C
+          requiresFocus: false
+        - _id: Ob4xXqD7kT2hHr9a
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1 choice from Enhancement Menu A and +1 choice from Abilities Menu A (minor metamorphosis) per augment (no duplicates)'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Menu A
+          requiresFocus: false
+        - _id: Pc5yYrE8lU3iIs0b
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1 choice from Enhancement Menu B and +1 choice from Abilities Menu B (metamorphosis) per augment (no duplicates)'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Menu B
+          requiresFocus: false
       duration:
         dismiss: true
         units: minute
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Metamorphosis, Major;level=@cl;dFlags.menuC=@augments.menuC;dFlags.menuB=@augments.menuB;dFlags.menuA=@augments.menuA]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

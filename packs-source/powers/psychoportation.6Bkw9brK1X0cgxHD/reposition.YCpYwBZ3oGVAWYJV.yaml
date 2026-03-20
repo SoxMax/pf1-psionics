@@ -18,6 +18,27 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Ff2gGh3hHi4iIj5k
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Can target unwilling creatures'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: 1
+          name: Unwilling Targets
+          requiresFocus: false
+        - _id: Gg3hHi4iIj5jJk6l
+          cost: 8
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Casting Time: Immediate'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: 1
+          name: Immediate
+          requiresFocus: false
       duration:
         units: inst
       name: Use

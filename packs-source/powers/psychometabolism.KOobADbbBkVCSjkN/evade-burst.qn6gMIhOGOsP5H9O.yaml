@@ -18,6 +18,17 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Pc9yYrD7lU2iIs8b
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Take only half damage on a failed Reflex save'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Half On Fail
+          requiresFocus: false
       duration:
         units: inst
       name: Use

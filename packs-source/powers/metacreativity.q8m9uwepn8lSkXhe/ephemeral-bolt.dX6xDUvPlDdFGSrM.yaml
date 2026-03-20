@@ -31,6 +31,44 @@ system:
       range:
         units: ft
         value: 0
+      augments:
+        - _id: Wp7kNtR3vLqCm6hJ
+          cost: 4
+          effectNotes: []
+          effects:
+            damageBonus: 1d4
+          footerNotes:
+            - '+[[@augments.damage]]d4 force damage and +[[@augments.damage]] enhancement bonus
+              on attack rolls'
+          img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+        - _id: Aq5mBsK8pXwFn2rD
+          cost: 3
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Enhancement bonus on attack rolls also applies to damage rolls'
+          img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+          maxUses: 1
+          name: Damage Bonus
+          requiresFocus: false
+        - _id: Gv9cLfT4hBzMx7wN
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Create [[@augments.bolts]] additional bolt(s) (all return at same time)'
+          img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+          maxUses: null
+          name: Bolts
+          requiresFocus: false
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Ephemeral
+            Bolt;level=@cl;dFlags.augmentBonus=@augments.damage]
       save:
         description: None
       target:

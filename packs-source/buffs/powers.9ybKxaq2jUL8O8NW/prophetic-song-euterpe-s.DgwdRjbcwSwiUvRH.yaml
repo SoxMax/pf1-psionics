@@ -1,0 +1,51 @@
+_id: DgwdRjbcwSwiUvRH
+_key: '!items!DgwdRjbcwSwiUvRH'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/sonic/projectile-sound-rings-wave.webp
+name: Prophetic Song, Euterpe's
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  contextNotes:
+    - target: attack
+      text: '+[[1 + @item.dFlags.augmentBonus]] insight bonus on attack rolls (Prophetic Song, Euterpe''s)'
+    - target: skill
+      text: '+[[1 + @item.dFlags.augmentBonus]] insight bonus on skill checks (Stanza 1+ only)'
+    - target: damage
+      text: '+[[1 + @item.dFlags.augmentBonus]] insight bonus on weapon damage rolls (Stanza 2+ only)'
+    - target: ac
+      text: '+[[1 + @item.dFlags.augmentBonus]] insight bonus to AC (Stanza 3+ only)'
+    - target: savingThrow
+      text: '+[[1 + @item.dFlags.augmentBonus]] insight bonus on saving throws (Stanza 4 only)'
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.P10Glt6USfn8MZBz]{Prophetic Song, Euterpe's}</p>
+      <p>+[[1 + @item.dFlags.augmentBonus]] insight bonus on attack rolls (concentration aura, 60 ft radius).
+      Stanza 1: also applies to skill checks.
+      Stanza 2: also applies to weapon damage rolls.
+      Stanza 3: also applies to AC.
+      Stanza 4: also applies to saving throws.</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 1
+  showInQuickbar: false
+  subType: spell
+type: buff

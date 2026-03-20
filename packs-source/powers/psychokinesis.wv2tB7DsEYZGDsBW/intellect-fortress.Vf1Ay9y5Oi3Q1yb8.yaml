@@ -29,6 +29,31 @@ system:
       range:
         units: ft
         value: 20
+      augments:
+        - _id: Nc0oP6rS2wT9xY4z
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.duration]] round(s) duration'
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: Duration
+          requiresFocus: false
+        - _id: Od1pQ7sT3xU0yZ5a
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Also halves damage from breath weapons'
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: 1
+          name: Breath Weapons
+          requiresFocus: false
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Intellect Fortress;level=@cl;dFlags.augmentBonus=@augments.duration]
       save:
         description: None
       target:

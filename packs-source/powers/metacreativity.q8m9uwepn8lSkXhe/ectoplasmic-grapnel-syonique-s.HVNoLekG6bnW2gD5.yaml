@@ -30,6 +30,62 @@ system:
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
+      augments:
+        - _id: Kf2rNxT5mLpBv8wC
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration extends to 1 round/level; cord persists (hardness 10, 5 hp, Str DC 26
+              to burst)'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: 1
+          name: Duration
+          requiresFocus: false
+        - _id: Aw9sJkH3vQzDm6tP
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Range increases to Medium (100 ft. + 10 ft./level)'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: 1
+          name: Range
+          requiresFocus: false
+        - _id: Vd4pMcG7nXwRf1hS
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Cord retracts full length instantly; successful CMB pulls target adjacent'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: 1
+          name: Instant Retract
+          requiresFocus: false
+        - _id: Ub6nFqL2kCyTx9mW
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Can drag creatures [[@augments.dragSize]] size category larger; cord hardness
+              [[10+2*@augments.dragSize]], hp [[5+10*@augments.dragSize]], break DC [[26+2*@augments.dragSize]]'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: null
+          name: Drag Size
+          requiresFocus: false
+        - _id: Rp3tJwK8dBzNs5vE
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Manifest as move action; +1 to CMB and Climb checks per 2 PP spent on any
+              augment'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: 1
+          name: Move Action
+          requiresFocus: false
+      notes:
+        footer: []
       save:
         description: None
       target:

@@ -1,0 +1,52 @@
+_id: Gz8sQvU1bV6wPz3X
+_key: '!items!Gz8sQvU1bV6wPz3X'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Telekinetic Bola
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: Ha9tRw
+      formula: '3 + @item.dFlags.augmentBonus'
+      operator: add
+      priority: 0
+      target: sac
+      type: untyped
+  contextNotes:
+    - target: misc
+      text: >-
+        Defensive mode: +[[3 + @item.dFlags.augmentBonus]] shield bonus to AC
+        (stacks with other shield bonuses). Offensive mode: animated objects
+        deal 1d3 + [[@item.dFlags.augmentBonus]]d3 damage on reaction attacks
+        (Telekinetic Bola)
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.97dSt5Q2clORQ8kZ]{Telekinetic
+      Bola}</p>
+      <p>Three animated objects orbit you. Defensive: +[[3 +
+      @item.dFlags.augmentBonus]] shield bonus to AC (stacks). Offensive: deal
+      1d3 + [[@item.dFlags.augmentBonus]]d3 damage on reaction attacks.</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 2
+  showInQuickbar: false
+  subType: spell
+type: buff

@@ -34,6 +34,37 @@ system:
       range:
         units: ft
         value: '0'
+      augments:
+        - _id: Fu2gH8jK4oL1pQ6r
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Dagger becomes a +1 weapon'
+          img: icons/weapons/daggers/dagger-glowing-white.webp
+          maxUses: 1
+          name: Enhancement
+          requiresFocus: false
+        - _id: Gv3hI9kL5pM2qR7s
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Dagger becomes +1 with corresponding energy enhancement'
+          img: icons/weapons/daggers/dagger-glowing-white.webp
+          maxUses: 1
+          name: Energy Enhancement
+          requiresFocus: false
+        - _id: Hw4iJ0lM6qN3rS8t
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Dagger becomes +1 with greater energy enhancement'
+          img: icons/weapons/daggers/dagger-glowing-white.webp
+          maxUses: 1
+          name: Greater Enhancement
+          requiresFocus: false
       save:
         description: None
       target:

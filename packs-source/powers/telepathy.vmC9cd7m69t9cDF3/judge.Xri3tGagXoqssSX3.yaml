@@ -42,6 +42,9 @@ system:
       range:
         units: personal
         value: Personal
+      notes:
+        footer:
+          - '@PsionicApply[Judge;level=@cl;dFlags.augmentBonus=@augments.sensemotive]'
       save:
         description: None
       target:

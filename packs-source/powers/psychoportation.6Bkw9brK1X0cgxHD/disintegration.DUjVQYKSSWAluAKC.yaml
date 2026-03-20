@@ -21,6 +21,17 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Ll2mMn3oOp4pPq5r
+          cost: 1
+          effectNotes: []
+          effects:
+            damageBonus: 2d6
+          footerNotes: []
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
       damage:
         parts:
           - formula: 22d6

@@ -43,6 +43,21 @@ system:
       range:
         units: personal
         value: Personal and close (25 ft. + 5 ft./2 levels); see text
+      augments:
+        - _id: Ix5jK1mN7rO4sT9u
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.duration]] minute(s) duration'
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: Duration
+          requiresFocus: false
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Energy Retort;level=@cl;dFlags.augmentBonus=@augments.duration]
       save:
         description: Fortitude half
         harmless: false
@@ -78,6 +93,8 @@ system:
       notes:
         effect:
           - +2 vs power resistance
+        footer:
+          - '@PsionicApply[Energy Retort;level=@cl;dFlags.augmentBonus=0]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -114,6 +131,9 @@ system:
         value: '@cl'
       img: icons/magic/fire/projectile-fireball-orange-yellow.webp
       name: Fire
+      notes:
+        footer:
+          - '@PsionicApply[Energy Retort;level=@cl;dFlags.augmentBonus=0]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -154,6 +174,8 @@ system:
       notes:
         effect:
           - Ignores hardness
+        footer:
+          - '@PsionicApply[Energy Retort;level=@cl;dFlags.augmentBonus=0]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

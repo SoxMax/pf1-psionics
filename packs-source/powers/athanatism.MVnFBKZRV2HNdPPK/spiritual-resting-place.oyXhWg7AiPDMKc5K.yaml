@@ -22,11 +22,44 @@ system:
           cost: 1
           type: nonaction
       area: '[object Object]'
+      augments:
+        - _id: Wz8EeGhHiJ3nQa6U
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Target yourself and two willing creatures touched/level (instead of one)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: More Targets
+          requiresFocus: false
+        - _id: Xa9FfHiIjK4oRb7V
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Send only the willing creatures touched, excluding yourself'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Others Only
+          requiresFocus: false
+        - _id: Yb1GgIjJkL5pSc8W
+          cost: 10
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Send one unwilling creature touched (no save, PR applies; 10 min duration; can escape with DC 20 Cha check as full-round action)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Unwilling Target
+          requiresFocus: false
       duration:
         dismiss: true
         units: hour
         value: 2 * @cl
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

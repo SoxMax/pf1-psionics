@@ -52,6 +52,10 @@ system:
       held: 1h
       img: icons/magic/light/hand-sparks-smoke-green.webp
       name: Use
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Kinetic Legerdemain;level=@cl;dFlags.augmentBonus=@augments.amplify]
       naturalAttack:
         primary: true
         secondary:

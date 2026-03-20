@@ -32,6 +32,27 @@ system:
         description: None
       target:
         value: One creature
+      augments:
+        - _id: E6f7G8h9I0j1K2l3
+          name: Additional Attacks
+          cost: 4
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Affects one additional melee attack per 4 PP spent (effects do not stack)'
+        - _id: F7g8H9i0J1k2L3m4
+          name: Retroactive Application
+          cost: 6
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Manifest upon a successful melee attack to apply effects to that attack (still uses swift action)'
   description:
     value: >-
       <p>Your next single melee attack is imbued to distract the opponent. If

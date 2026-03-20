@@ -18,11 +18,34 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Sv5YzRbCeF8jNw2P
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration increased to 10 min./level; object is not animated, you can only observe surroundings and dismiss'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Long Duration
+          requiresFocus: false
+        - _id: Tw6ZaScDfG9kOx3Q
+          cost: 3
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Max size of object animated increased by one step (up to Huge)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Larger Object
+          requiresFocus: false
       duration:
         dismiss: true
         units: round
         value: '@cl'
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

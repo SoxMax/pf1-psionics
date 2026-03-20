@@ -1,0 +1,39 @@
+_id: pR7mNkQx2sW4tY8v
+_key: '!items!pR7mNkQx2sW4tY8v'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/death/skeleton-skull-soul-blue.webp
+name: Guidance of the Ancestors
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  contextNotes:
+    - target: misc
+      text: '+[[2 + @item.dFlags.augmentBonus]] insight bonus on Knowledge skill checks (Guidance of the Ancestors); may make Knowledge checks untrained'
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.2ApfJMnHQlu69OXz]{Guidance of the Ancestors}</p>
+      <p>+[[2 + @item.dFlags.augmentBonus]] insight bonus on Knowledge skill checks. You may make Knowledge checks untrained.</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 1
+  showInQuickbar: false
+  subType: spell
+type: buff

@@ -34,6 +34,27 @@ system:
         type: will
       target:
         value: One humanoid
+      augments:
+        - _id: K1l2M3n4O5p6Q7r8
+          name: Broader Creature Types I
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Also affects animals, fey, magical beasts, and monstrous humanoids; +1 DC per 2 PP spent'
+        - _id: L2m3N4o5P6q7R8s9
+          name: Broader Creature Types II
+          cost: 4
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Also affects aberrations, dragons, elementals, and outsiders (in addition to types from 2 PP option); +1 DC per 2 PP spent'
   description:
     value: >-
       <p>The subject's higher mind is locked away. He stands dazed, unable to

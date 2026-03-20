@@ -1,0 +1,40 @@
+_id: rM6tQsVx1nWk4pGh
+_key: '!items!rM6tQsVx1nWk4pGh'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Living Haunter
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  contextNotes:
+    - target: misc
+      text: >-
+        Soul has left body (unconscious and helpless but immune to mind-affecting effects); may use standard action to Animate, create Hallucinations, or alter Movement of one creature in the haunted area (Living Haunter)
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.SBieNrBeiDh6n4w8]{Living Haunter}</p>
+      <p>Your soul leaves your body (unconscious and helpless; immune to mind-affecting effects). Each round, use a standard action to: Animate a Small object (as control object), create visual/audio Hallucinations, or alter a creature's Movement (accelerate: +1 attack, +1 dodge AC, +30 ft. speed, extra attack; or decelerate: staggered, -1 attack/AC/Ref saves, half speed).</p>
+  duration:
+    end: turnStart
+    units: round
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 3
+  showInQuickbar: false
+  subType: spell
+type: buff

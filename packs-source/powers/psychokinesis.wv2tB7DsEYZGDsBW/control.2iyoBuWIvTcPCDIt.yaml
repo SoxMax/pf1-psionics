@@ -27,6 +27,37 @@ system:
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
+      augments:
+        - _id: Ti0uW6xY2cZ9dE4f
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.targets]] additional targets'
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: null
+          name: Targets
+          requiresFocus: false
+        - _id: Uj1vX7yZ3dA0eF5g
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Range: Medium (100 ft. + 10 ft./level)'
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: 1
+          name: Range
+          requiresFocus: false
+        - _id: Vk2wY8zA4eB1fG6h
+          cost: 2
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes: []
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: null
+          name: DC
+          requiresFocus: false
       save:
         description: Fortitude OR Will (see text)
         harmless: false

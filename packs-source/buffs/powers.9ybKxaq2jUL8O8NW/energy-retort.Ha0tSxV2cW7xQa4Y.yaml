@@ -1,0 +1,45 @@
+_id: Ha0tSxV2cW7xQa4Y
+_key: '!items!Ha0tSxV2cW7xQa4Y'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/unholy/projectile-fireball-green.webp
+name: Energy Retort
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  contextNotes:
+    - target: misc
+      text: >-
+        Energy Retort active: first successful hit each round triggers an
+        ectoburst dealing 4d6 energy damage to attacker (Reflex or Fort half).
+        Duration: [[@item.level + @item.dFlags.augmentBonus]] minute(s)
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.6Kjo6jYjXS5NYMUI]{Energy
+      Retort}</p>
+      <p>A field of your active energy type (cold/electricity/fire/sonic)
+      surrounds you. The first successful attack each round triggers an
+      ectoburst dealing 4d6 energy damage to the attacker.</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '@item.level + @item.dFlags.augmentBonus'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 3
+  showInQuickbar: false
+  subType: spell
+type: buff

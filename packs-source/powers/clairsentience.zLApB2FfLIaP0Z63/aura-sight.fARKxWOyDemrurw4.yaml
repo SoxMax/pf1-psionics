@@ -29,6 +29,19 @@ system:
       range:
         units: ft
         value: 60
+      augments:
+        - _id: Hn4wBjGpR8cXvK3m
+          name: Range
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Range: [[@augments.range * 5]] additional feet (+[[@augments.range * 5]] ft. total increase)'
+      notes:
+        footer: []
       save:
         description: None
       target:

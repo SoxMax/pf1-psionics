@@ -33,6 +33,19 @@ system:
       range:
         units: ft
         value: Short (25 ft. + 5 ft./2 levels)
+      augments:
+        - _id: Mb9nO5qR1vS8wX3y
+          cost: 1
+          effectNotes: []
+          effects:
+            damageBonus: 1d6
+            dcBonus: 1
+          footerNotes:
+            - '+1d6 damage per purchase; +1 DC per 2d6'
+          img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
       save:
         description: Fortitude negates
         harmless: false

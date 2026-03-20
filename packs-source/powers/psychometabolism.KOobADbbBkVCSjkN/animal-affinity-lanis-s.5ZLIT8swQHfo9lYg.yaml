@@ -36,6 +36,9 @@ system:
         value: '@cl'
       img: icons/creatures/abilities/bull-head-horns-glowing.webp
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Animal Affinity, Lanis''s;level=@cl;dFlags.augmentBonus=@augments.abilities]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

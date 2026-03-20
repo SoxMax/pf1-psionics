@@ -40,6 +40,17 @@ system:
         type: will
       target:
         value: One creature
+      augments:
+        - _id: N7o8P9q0R1s2T3u4
+          name: Additional Target and DC
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1 DC and +1 additional target per 2 PP spent; targets must be within 15 ft. of another target'
   description:
     value: >-
       <p>Creatures affected by this power are permanently confused and

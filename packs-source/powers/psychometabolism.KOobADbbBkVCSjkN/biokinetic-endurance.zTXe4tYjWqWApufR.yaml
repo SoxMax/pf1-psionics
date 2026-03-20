@@ -21,11 +21,25 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Kq8mNpX7vR3wLz2a
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.amplify]] additional ability damage reduced and to maximum'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         dismiss: true
         units: minute
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Biokinetic Endurance;level=@cl;dFlags.augmentBonus=@augments.amplify]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

@@ -33,6 +33,17 @@ system:
         description: None
       target:
         value: Your psicrystal
+      augments:
+        - _id: U4v5W6x7Y8z9A0b1
+          name: Extended Duration
+          cost: 1
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Maximum duration increases by 1 round per PP spent'
   description:
     value: >-
       <p>Your <a href="/wiki/Psicrystal" title="Psicrystal">psicrystal</a> takes

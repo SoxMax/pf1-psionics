@@ -31,10 +31,24 @@ system:
       range:
         units: personal
         value: Personal
+      notes:
+        footer:
+          - '@PsionicApply[Mental Semblance;level=@cl;dFlags.augmentBonus=@augments.improvedDisguise]'
       save:
         description: Will negates
         harmless: false
         type: will
+      augments:
+        - _id: B9c0D1e2F3g4H5i6
+          name: Improved Disguise
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+2 Bluff/Disguise bonus and +1 DC to disbelieve per 2 PP spent'
   description:
     value: >-
       <p>When manifesting this power, you are capable of duplicating the psionic

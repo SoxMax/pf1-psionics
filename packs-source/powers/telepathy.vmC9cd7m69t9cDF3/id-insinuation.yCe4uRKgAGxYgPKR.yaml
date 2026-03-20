@@ -37,6 +37,17 @@ system:
         type: will
       target:
         value: One creature
+      augments:
+        - _id: P7q8R9s0T1u2V3w4
+          name: Additional Target
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1 DC and +1 target per 2 PP spent; targets must be within 15 ft. of another target'
   description:
     value: >-
       <p>Swift tendrils of thought disrupt the unconscious mind of any one

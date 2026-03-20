@@ -25,6 +25,27 @@ system:
         parts:
           - formula: 3d8
           - formula: 3d8
+      augments:
+        - _id: Gt6pPiV9cL4zZj1s
+          cost: 2
+          effectNotes: []
+          effects:
+            damageBonus: 1d8
+          footerNotes: []
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
+        - _id: Hu7qQjW0dM5aAk2t
+          cost: 0
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Each 1d8 healed becomes 2d6 instead'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Improved Healing
+          requiresFocus: true
       duration:
         units: inst
       name: Use

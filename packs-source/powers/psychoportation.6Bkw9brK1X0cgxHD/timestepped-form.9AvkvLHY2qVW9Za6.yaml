@@ -18,6 +18,17 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Pp2qQr3rRs4sSt5u
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'When recalled: all powers and effects active when time-stepped are restored as still active'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: 1
+          name: Restore Effects
+          requiresFocus: false
       duration:
         units: hour
         value: '24'

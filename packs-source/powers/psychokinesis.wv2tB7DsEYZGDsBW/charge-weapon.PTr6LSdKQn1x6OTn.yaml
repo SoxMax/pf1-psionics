@@ -31,6 +31,37 @@ system:
       range:
         units: touch
         value: Touch
+      augments:
+        - _id: Lm3nP9qR5vS2wX7y
+          cost: 1
+          effectNotes: []
+          effects:
+            damageBonus: 1d6
+          footerNotes: []
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+        - _id: Nc4oQ0rS6wT3xY8z
+          cost: 3
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Damage dice increased to d8'
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: 1
+          name: Larger Dice
+          requiresFocus: false
+        - _id: Od5pR1sT7xU4yZ9a
+          cost: 5
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Damage dice increased to d10'
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: 1
+          name: Largest Dice
+          requiresFocus: false
       save:
         description: None
       target:

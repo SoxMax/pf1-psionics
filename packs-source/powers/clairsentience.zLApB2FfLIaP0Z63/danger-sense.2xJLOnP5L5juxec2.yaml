@@ -29,6 +29,30 @@ system:
       range:
         units: personal
         value: Personal
+      augments:
+        - _id: Wj5bFnHxOkVdCg2y
+          name: Uncanny Dodge
+          cost: 3
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Grants uncanny dodge ability'
+        - _id: Ea9rTmSzPuLwBq6h
+          name: Improved Uncanny Dodge
+          cost: 6
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Grants improved uncanny dodge ability (requires Uncanny Dodge augment)'
+      notes:
+        footer:
+          - '@PsionicApply[Danger Sense;level=@cl]'
       save:
         description: None
       target:

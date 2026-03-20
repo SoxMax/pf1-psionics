@@ -27,10 +27,44 @@ system:
       range:
         units: med
         value: Medium (100 ft. + 10 ft./level)
+      notes:
+        footer:
+          - '@PsionicApply[Aura Alteration;level=@cl;dFlags.augmentBonus=@augments.improvedSaveBonus]'
       save:
         description: None
       target:
         value: One willing creature
+      augments:
+        - _id: D4e5F6g7H8i9J0k1
+          name: Extended Disguise Duration
+          cost: 1
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Disguise aura duration increases by 10 minutes per PP spent'
+        - _id: E5f6G7h8I9j0K1l2
+          name: Alignment Shift
+          cost: 2
+          maxUses: 2
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '2 PP: alignment shifts one additional step; 4 PP: alignment changes to opposite'
+        - _id: F6g7H8i9J0k1L2m3
+          name: Improved Save Bonus
+          cost: 3
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1 bonus on save against original compulsion per 3 PP spent'
   description:
     value: >-
       <p>You can use this power in one of two ways: to disguise the subject's

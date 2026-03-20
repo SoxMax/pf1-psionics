@@ -29,6 +29,31 @@ system:
       range:
         units: personal
         value: Personal
+      augments:
+        - _id: Fu8gH4lL0oM7pQ2r
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.strBonus]] Strength bonus to lifting/dragging capacity per purchase'
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: Str Bonus
+          requiresFocus: false
+        - _id: Gv9hI5mM1pN8qR3s
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.attackDamage]] circumstance bonus to attack and damage rolls per purchase'
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: Attack Damage
+          requiresFocus: false
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Tactile Telekinesis;level=@cl;dFlags.augmentBonus=@augments.strBonus;dFlags.augmentDamage=@augments.attackDamage]
       save:
         description: None
   description:

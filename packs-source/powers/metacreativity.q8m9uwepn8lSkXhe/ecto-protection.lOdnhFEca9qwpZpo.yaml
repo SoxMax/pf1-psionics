@@ -37,6 +37,9 @@ system:
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
+      notes:
+        footer:
+          - '@PsionicApply[Ecto Protection;level=@cl;dFlags.augmentBonus=@augments.amplify]'
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)

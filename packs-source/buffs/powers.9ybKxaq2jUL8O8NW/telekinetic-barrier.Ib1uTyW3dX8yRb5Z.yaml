@@ -1,0 +1,45 @@
+_id: Ib1uTyW3dX8yRb5Z
+_key: '!items!Ib1uTyW3dX8yRb5Z'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/earth/strike-body-stone-crumble.webp
+name: Telekinetic Barrier
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  contextNotes:
+    - target: misc
+      text: >-
+        DR 20/magic against ranged and thrown attacks. Damage pool: [[50 + 50 *
+        @item.dFlags.augmentBonus]] points before power ends (Telekinetic
+        Barrier)
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.Zqd8wBttx3ifCHb8]{Telekinetic
+      Barrier}</p>
+      <p>DR 20/magic against all ranged projectile or thrown attacks. Pool:
+      [[50 + 50 * @item.dFlags.augmentBonus]] points of damage before
+      ending.</p>
+  duration:
+    end: turnStart
+    units: hour
+    value: '1'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 3
+  showInQuickbar: false
+  subType: spell
+type: buff

@@ -31,6 +31,20 @@ system:
       range:
         units: personal
         value: Personal
+      augments:
+        - _id: Qb4nMsW7kVxPd9tF
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.projectiles]] additional duplicate projectile(s) (total [[3 + @augments.projectiles]]
+              projectiles)'
+          img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
+          maxUses: null
+          name: Projectiles
+          requiresFocus: false
+      notes:
+        footer: []
       save:
         description: None
       target:

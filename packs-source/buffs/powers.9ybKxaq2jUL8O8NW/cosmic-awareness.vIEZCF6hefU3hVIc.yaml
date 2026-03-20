@@ -1,0 +1,39 @@
+_id: vIEZCF6hefU3hVIc
+_key: '!items!vIEZCF6hefU3hVIc'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Cosmic Awareness
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  contextNotes:
+    - target: misc
+      text: 'Once during this buff, apply +[[@item.level]] insight bonus (max +25) to any single attack roll, CMB check, opposed ability/skill check, saving throw, or to AC against one attack (must declare before the roll). Activating is free action. Once used, buff ends.'
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.XoQt2ZuUxflqfODI]{Cosmic Awareness}</p>
+      <p>Once during the power's duration, apply +[[@item.level]] insight bonus (maximum +25) to any single attack roll, combat maneuver check, opposed ability or skill check, or saving throw. Alternatively, apply the bonus to AC against a single attack. Must declare before the roll. Once used, the power ends.</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 6
+  showInQuickbar: false
+  subType: spell
+type: buff

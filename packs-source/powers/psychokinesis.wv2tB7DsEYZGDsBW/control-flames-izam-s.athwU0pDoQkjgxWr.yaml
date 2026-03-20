@@ -32,6 +32,27 @@ system:
         damageBonus: 2
       range:
         units: medium
+      augments:
+        - _id: Zo6aB2dE8iF5jK0l
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.increaseSize]] size steps larger fire controllable'
+          img: icons/magic/fire/flame-burning-hand-white.webp
+          maxUses: null
+          name: Increase Size
+          requiresFocus: false
+        - _id: Ap7bC3eF9jG6kL1m
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '-[[@augments.decreaseSize]] size steps smaller (can extinguish Tiny or smaller)'
+          img: icons/magic/fire/flame-burning-hand-white.webp
+          maxUses: null
+          name: Decrease Size
+          requiresFocus: false
       save:
         description: See text
   description:

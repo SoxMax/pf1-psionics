@@ -34,6 +34,37 @@ system:
         type: will
       target:
         value: One creature
+      augments:
+        - _id: X1y2Z3a4B5c6D7e8
+          name: Increased Penalty
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Penalty to d20 rolls increases by 1 per 2 PP spent'
+        - _id: Y2z3A4b5C6d7E8f9
+          name: Mass Effect
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Affect one creature per manifester level'
+        - _id: Z3a4B5c6D7e8F9g0
+          name: Increased Range
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Range increases to Medium (100 ft. + 10 ft./level)'
   description:
     value: >-
       <p>You viciously pound on the mind of the target, triggering their inner

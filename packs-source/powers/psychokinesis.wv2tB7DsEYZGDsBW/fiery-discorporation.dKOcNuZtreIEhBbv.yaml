@@ -27,6 +27,17 @@ system:
       range:
         units: personal
         value: Personal
+      augments:
+        - _id: Kz7lM3oP9tQ6uV1w
+          cost: 3
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.willBonus]] bonus on Will save to discorporate'
+          img: icons/magic/fire/flame-burning-skull-orange.webp
+          maxUses: null
+          name: Will Bonus
+          requiresFocus: false
       save:
         description: None
       target:

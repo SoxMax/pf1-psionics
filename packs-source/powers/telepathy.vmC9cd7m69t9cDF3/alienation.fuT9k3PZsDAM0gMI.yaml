@@ -34,6 +34,17 @@ system:
         type: will
       target:
         value: 1 living creature
+      augments:
+        - _id: C3d4E5f6G7h8I9j0
+          name: Additional Target
+          cost: 1
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Affect one additional target per PP spent; no two targets may be more than 15 ft. apart; +1 DC per 2 PP spent this way'
   description:
     value: >-
       <p>You close off the centers of the subject's mind that deal with

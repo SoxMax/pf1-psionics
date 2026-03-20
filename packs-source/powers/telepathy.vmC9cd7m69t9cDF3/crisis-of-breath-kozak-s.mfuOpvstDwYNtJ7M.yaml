@@ -35,6 +35,37 @@ system:
         type: fort
       target:
         value: One breathing humanoid
+      augments:
+        - _id: U1v2W3x4Y5z6A7b8
+          name: Broader Creature Types I
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Also affects animals, fey, magical beasts, and monstrous humanoids; +1 DC per 2 PP spent'
+        - _id: V2w3X4y5Z6a7B8c9
+          name: Broader Creature Types II
+          cost: 4
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Also affects aberrations, dragons, elementals, and outsiders; +1 DC per 2 PP spent'
+        - _id: W3x4Y5z6A7b8C9d0
+          name: Area Burst
+          cost: 6
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Affect up to 4 creatures in a 20-ft.-radius burst; +1 DC per 2 PP spent'
   description:
     value: >-
       <p>You compel the subject to purge its entire store of air in one

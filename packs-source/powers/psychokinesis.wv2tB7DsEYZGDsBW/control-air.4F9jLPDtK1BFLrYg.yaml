@@ -30,6 +30,17 @@ system:
       range:
         units: long
         value: Long (400 ft. + 40 ft./level)
+      augments:
+        - _id: Wl3xZ9aB5fC2gH7i
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+10 mph wind speed modification per purchase (max 60 mph total change)'
+          img: icons/magic/control/hypnosis-mesmerism-eye-tan.webp
+          maxUses: 5
+          name: Wind Speed
+          requiresFocus: false
       save:
         description: None
       target:

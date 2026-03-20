@@ -34,6 +34,27 @@ system:
         type: will
       target:
         value: You plus one willing creature
+      augments:
+        - _id: G6h7I8j9K0l1M2n3
+          name: Additional Feat
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Share one additional feat from the same target per 2 PP spent; shared feats serve as prerequisites for other shared feats'
+        - _id: H7i8J9k0L1m2N3o4
+          name: Steal Feat
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Remove feat from target and grant it to you; target may Will save each round to negate'
   description:
     value: >-
       <p>When you manifest this power, pick one feat that either you or the

@@ -18,10 +18,24 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Vi1eExK4sB9oOy6h
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.bonus]] cumulative circumstance bonus on damage per augment for each attack after a charge'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Damage Bonus
+          requiresFocus: false
       duration:
         units: round
         value: '1'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Psionic Lion''s Charge;level=@cl;dFlags.augmentBonus=@augments.damageBonus]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

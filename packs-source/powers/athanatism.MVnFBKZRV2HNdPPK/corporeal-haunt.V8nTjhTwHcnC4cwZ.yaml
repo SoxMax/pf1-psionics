@@ -22,9 +22,23 @@ system:
           cost: 1
           type: nonaction
       area: '[object Object]'
+      augments:
+        - _id: Ap1KcNsQwT5xDm6B
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Haunt ML increased by [[@augments.amplify]] (max your manifester level)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         units: inst
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Corporeal Haunt;level=@cl;dFlags.augmentBonus=@augments.amplify]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

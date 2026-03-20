@@ -28,6 +28,18 @@ system:
       range:
         units: ft
         value: 50
+      augments:
+        - _id: Jy6kL2nO8sP5tU0v
+          cost: 1
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes:
+            - '+5 ft. range and burst radius per purchase; +1 DC per 10 ft. increase'
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: Range
+          requiresFocus: false
       save:
         description: Reflex negates
         harmless: false

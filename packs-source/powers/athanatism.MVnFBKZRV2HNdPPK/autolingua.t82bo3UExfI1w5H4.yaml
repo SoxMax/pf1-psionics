@@ -18,10 +18,43 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Mn6PbTcXeR2sVw4K
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Manifesting time for distant subject reduced from 1d10 days to 1d10 hours'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Faster Distant
+          requiresFocus: false
+        - _id: Wd8QrYpLsN3hGj51
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Manifesting time for rumored subject reduced from 2d6 weeks to 2d6 days'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Faster Rumors
+          requiresFocus: false
+        - _id: Fz9AkJmTuBvC6oE7
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Creates a map showing shortest physical route to subject (same plane), or reveals which plane it is on'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Map
+          requiresFocus: false
       duration:
         units: spec
         value: See text
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

@@ -1,0 +1,42 @@
+_id: m5Z1rCHN4qqAZzhU
+_key: '!items!m5Z1rCHN4qqAZzhU'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/life/heart-glowing-red.webp
+name: Expose Weakness
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  contextNotes:
+    - target: misc
+      text: >-
+        Target is treated as flanked by all attackers. All attacks gain +4
+        circumstance bonus to confirm critical hits. Fortification must be
+        rolled twice (use worse result).
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.m5Z1rCHN4qqAZzhU]{Expose
+      Weakness}</p><p>Target treated as flanked by all attackers. +4
+      circumstance bonus to confirm critical hits against target. Fortification
+      rolled twice (use worse roll).</p>
+  duration:
+    end: turnStart
+    units: round
+    value: '1'
+  flags:
+    dictionary: {}
+  hideFromToken: false
+  level: 3
+  showInQuickbar: false
+  subType: spell
+type: buff

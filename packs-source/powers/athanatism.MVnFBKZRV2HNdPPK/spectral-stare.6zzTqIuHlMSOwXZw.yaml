@@ -18,6 +18,29 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Tw5BbDdEeF8kNx3R
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Expend psionic focus when directing gaze: target suffers 1d4 negative levels (Fort save negates; death effect)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Negative Levels
+          requiresFocus: true
+        - _id: Ux6CcEeFfG9lOy4S
+          cost: 4
+          effectNotes: []
+          effects:
+            damageBonus: 10
+            dcBonus: 1
+          footerNotes:
+            - '+[[@augments.extraDice]]d10 damage; +[[@augments.extraDice]] Cha damage on failed save; DC +[[@augments.dcBonus]] per 2 pp'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Extra Damage
+          requiresFocus: false
       damage:
         parts:
           - formula: 2d10
@@ -25,6 +48,9 @@ system:
         units: round
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - 'For every 2 pp spent augmenting, save DC +1'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

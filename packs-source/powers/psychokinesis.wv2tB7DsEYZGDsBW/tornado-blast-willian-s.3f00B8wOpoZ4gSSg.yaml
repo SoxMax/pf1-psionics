@@ -34,6 +34,19 @@ system:
       range:
         units: long
         value: Long (400 ft. + 40 ft./level)
+      augments:
+        - _id: Mb5nO1sS7vT4wX9y
+          cost: 1
+          effectNotes: []
+          effects:
+            damageBonus: 1d6
+            dcBonus: 1
+          footerNotes:
+            - '+1d6 area damage per purchase; +1 DC per 2d6'
+          img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
       save:
         description: Reflex half; see text
         harmless: false

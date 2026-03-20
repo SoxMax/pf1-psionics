@@ -18,11 +18,35 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Hk2NoGrSvW5yCm9F
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Gain temporary power points = twice Cha modifier when draining spirit world (vanish when power ends; cannot be spent on this power or its augments)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Temp Power Points
+          requiresFocus: false
+        - _id: Il3OpHsSuX6zDn1G
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Spend 2 pp and lose 5 HP: insight bonus to AC and saves increased by 1'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: AC Bonus
+          requiresFocus: false
       duration:
         dismiss: true
         units: round
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Scales of Damnation;level=@cl;dFlags.augmentBonus=@augments.acBonus]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

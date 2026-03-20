@@ -46,6 +46,10 @@ system:
         value: '@cl'
       img: icons/magic/defensive/shield-barrier-deflect-teal.webp
       name: Use
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Deflect Missiles;level=@cl;dFlags.augmentBonus=@augments.amplify]
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

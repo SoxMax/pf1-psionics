@@ -73,6 +73,9 @@ system:
         units: minute
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Prophetic Song, Euterpe''s;level=@cl;dFlags.augmentBonus=@augments.stanza4]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

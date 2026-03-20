@@ -18,10 +18,44 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Mz6vVoA4iR9fFp5y
+          cost: 3
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Strength and Intimidate bonuses increase by 2'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Greater Bonus
+          requiresFocus: false
+        - _id: Na7wWpB5jS0gGq6z
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.bleed]] additional bleed damage per round'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Bleed
+          requiresFocus: false
+        - _id: Ob8xXqC6kT1hHr7a
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '-[[@augments.naturalArmor]] penalty to natural armor per augment'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Natural Armor
+          requiresFocus: false
       duration:
         units: round
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Epidermal Fissure;level=@cl;dFlags.augmentBonus=@augments.greaterBonus;dFlags.bleed=@augments.bleed;dFlags.naturalArmor=@augments.naturalArmor]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

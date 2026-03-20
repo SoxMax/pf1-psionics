@@ -1,0 +1,35 @@
+_id: qNvulr2EQOdj7eWI
+_key: '!macros!qNvulr2EQOdj7eWI'
+_stats:
+  coreVersion: '13.351'
+author: N8Qq94zyfscJUwL4
+command: >-
+  // Vigor - Apply/Remove temporary HP via pf1-temp-hp-manager on buff toggle
+
+  // Calculate temp HP: 5 base + 5 per augment point
+
+  const augmentBonus = Number(item.system?.flags?.dictionary?.augmentBonus) || 0;
+
+  const tempHp = 5 + 5 * augmentBonus;
+
+  const source = "Vigor";
+
+
+  if (state) {
+    // Buff toggled ON - apply temp HP
+    if (game.modules.get("pf1-temp-hp-manager")?.active) {
+      game.tempHpManager.overrideSource(actor, tempHp, source);
+    } else {
+      actor.addTempHP(tempHp);
+    }
+  } else {
+    // Buff toggled OFF - remove temp HP
+    if (game.modules.get("pf1-temp-hp-manager")?.active) {
+      game.tempHpManager.removeSource(actor, source);
+    }
+  }
+folder: sPlaP29TJOPP21oo
+img: icons/magic/defensive/barrier-shield-dome-blue-purple.webp
+name: Vigor Temp HP
+scope: global
+type: script

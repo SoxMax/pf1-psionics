@@ -39,6 +39,27 @@ system:
         type: fort
       target:
         value: One living creature
+      augments:
+        - _id: Y5z6A7b8C9d0E1f2
+          name: Increased DCs
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Both DCs increase by 1 per 2 PP spent'
+        - _id: Z6a7B8c9D0e1F2g3
+          name: Additional Target
+          cost: 5
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Affect one additional creature per 5 PP spent; no two targets may be more than 30 ft. apart'
   description:
     value: >-
       <p>You create a mental image of the most fearsome creature imaginable to

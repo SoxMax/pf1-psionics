@@ -18,6 +18,17 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Wj2fFyL5tC0pPz7i
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Power may also affect outsiders'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Outsiders
+          requiresFocus: false
       duration:
         units: inst
       name: Use

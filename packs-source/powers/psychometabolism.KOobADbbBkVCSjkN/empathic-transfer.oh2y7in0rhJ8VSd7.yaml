@@ -25,6 +25,17 @@ system:
         parts:
           - formula: 2d10
           - formula: 2d10
+      augments:
+        - _id: Hu1qQjV9dM4aAk0t
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Heals an additional 2d10 HP (max 10d10 per manifestation)'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 4
+          name: Amplify
+          requiresFocus: false
       duration:
         units: inst
       name: Use

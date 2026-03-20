@@ -18,11 +18,37 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Il4OpHrSvW7zDm1F
+          cost: 2
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes:
+            - 'Ask [[@augments.questions]] additional question(s)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Questions
+          requiresFocus: false
+        - _id: Jm5PqIsUwX8aEn2G
+          cost: 4
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes:
+            - 'Target an incorporeal creature (must answer questions honestly if it fails save); DC +[[@augments.dcBonus]] per 2 pp spent total'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Incorporeal Target
+          requiresFocus: false
       duration:
         dismiss: true
         units: minute
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - 'For every 2 pp spent augmenting, save DC +1'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

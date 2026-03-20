@@ -18,6 +18,27 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Tg9cCvI2qZ7nNx4g
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Target takes 1 fewer permanent negative level per augment (additional 1000 gp material cost per augment)'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Reduce Negative Levels
+          requiresFocus: false
+        - _id: Uh0dDwJ3rA8oOy5h
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Can target a creature that died in the last week, bringing them back to life at their youngest state (additional 5000 gp material cost)'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Resurrection
+          requiresFocus: false
       duration:
         units: inst
       name: Use

@@ -1,0 +1,40 @@
+_id: kP5vJrNw8tBm2qLx
+_key: '!items!kP5vJrNw8tBm2qLx'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Ghostslayer's Blade
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  contextNotes:
+    - target: misc
+      text: >-
+        Weapon(s) touched gain the undead bane and ghost touch special properties (Ghostslayer's Blade)
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.CrZIyrPyhcCrFZf7]{Ghostslayer's Blade}</p>
+      <p>The weapon touched gains the undead bane and ghost touch special properties. Corporeal Crit augment: critical hits cause target to lose incorporeal trait for 1 minute. Weapons augment: affects [[1 + @item.dFlags.augmentBonus]] additional weapon(s).</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '1'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 3
+  showInQuickbar: false
+  subType: spell
+type: buff

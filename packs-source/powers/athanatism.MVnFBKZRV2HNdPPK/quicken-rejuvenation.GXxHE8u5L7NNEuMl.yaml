@@ -18,9 +18,32 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Wz9CdVfGiK3nRa6T
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Target a ghost destroyed up to manifester level days ago (round down)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Older Ghost
+          requiresFocus: false
+        - _id: Xa1DeWgHjL4oSb7U
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Manifest as immediate action when you would drop to 0 or fewer HP: you and gear destroyed, return to life 2d4 days later (must be incorporeal or under spirit power)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Self Revival
+          requiresFocus: true
       duration:
         units: inst
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

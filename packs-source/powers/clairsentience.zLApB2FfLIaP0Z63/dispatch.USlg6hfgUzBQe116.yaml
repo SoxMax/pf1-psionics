@@ -28,6 +28,50 @@ system:
       range:
         units: personal
         value: Personal
+      augments:
+        - _id: Nf3cKwYrHqAbMd8p
+          name: Critical
+          cost: 5
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Critical threat range doubled on attacks of opportunity (stacks with Improved Critical/keen)'
+        - _id: Js6vGxDtPmZeLo2u
+          name: Insight Bonus
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Insight bonus on disarm/trip attempts increases by +[[@augments.insightBonus]] (total +[[4+@augments.insightBonus]])'
+        - _id: Cy4bWnRqFkXzOj7t
+          name: Extra Duration
+          cost: 4
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration increases by +[[@augments.extraDuration]] round(s) (total [[1+@augments.extraDuration]] rounds)'
+        - _id: Ph8mLsVwBrEuQa5n
+          name: Damage
+          cost: 1
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.damage]] insight bonus on damage rolls on attacks of opportunity'
+      notes:
+        footer:
+          - '@PsionicApply[Dispatch;level=@cl;dFlags.augmentBonus=@augments.insightBonus]'
       save:
         description: None
       target:

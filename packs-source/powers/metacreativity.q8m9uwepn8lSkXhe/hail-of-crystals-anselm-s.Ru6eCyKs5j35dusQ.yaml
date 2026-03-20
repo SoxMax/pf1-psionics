@@ -31,6 +31,19 @@ system:
       range:
         units: med
         value: Medium (100 ft. + 10 ft./level)
+      augments:
+        - _id: Cs7pMkR4nBxLv2wT
+          cost: 1
+          effectNotes: []
+          effects:
+            damageBonus: 1d4
+          footerNotes: []
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+      notes:
+        footer: []
       save:
         description: Reflex half
         harmless: false

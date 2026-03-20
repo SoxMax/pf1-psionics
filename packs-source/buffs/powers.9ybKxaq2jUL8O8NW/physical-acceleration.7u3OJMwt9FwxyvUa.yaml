@@ -1,0 +1,66 @@
+_id: 7u3OJMwt9FwxyvUa
+_key: '!items!7u3OJMwt9FwxyvUa'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/life/heart-glowing-red.webp
+name: Physical Acceleration
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: PhAcAC01
+      formula: '1'
+      operator: add
+      priority: 0
+      target: ac
+      type: dodge
+    - _id: PhAcAt01
+      formula: '1'
+      operator: add
+      priority: 0
+      target: attack
+      type: untyped
+    - _id: PhAcRf01
+      formula: '1'
+      operator: add
+      priority: 0
+      target: refSave
+      type: untyped
+    - _id: PhAcSp01
+      formula: '30'
+      operator: add
+      priority: 0
+      target: landSpeed
+      type: enh
+  contextNotes:
+    - target: misc
+      text: >-
+        Additional attack at full BAB on full attack. All movement speeds +30
+        ft (enh, max 2x normal). Does not stack with haste. Negates slow.
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.7u3OJMwt9FwxyvUa]{Physical
+      Acceleration}</p><p>+1 dodge bonus to AC, +1 on attack rolls and Reflex
+      saves. All movement speeds +30 ft (enhancement, max 2× normal). Extra
+      attack at full BAB on full attack. Does not stack with haste.</p>
+  duration:
+    end: turnStart
+    units: round
+    value: '@item.level'
+  flags:
+    dictionary: {}
+  hideFromToken: false
+  level: 3
+  showInQuickbar: false
+  subType: spell
+type: buff

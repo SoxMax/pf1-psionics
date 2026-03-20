@@ -27,6 +27,19 @@ system:
       range:
         units: personal
         value: Personal
+      augments:
+        - _id: Tz9sFqNdLbYcWp6r
+          name: No Daze
+          cost: 8
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'You are not dazed after making your attack'
+      notes:
+        footer: []
       save:
         description: None
       target:

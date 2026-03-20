@@ -29,11 +29,25 @@ system:
       range:
         units: ft
         value: 10
+      notes:
+        footer:
+          - '@PsionicApply[Tower of Iron Will;level=@cl;dFlags.augmentBonus=@augments.extendedDurationAndPowerResistance]'
       save:
         description: None (harmless)
         harmless: true
       target:
         value: 10-ft.-radius emanation centered on you
+      augments:
+        - _id: J9k0L1m2N3o4P5q6
+          name: Extended Duration and Power Resistance
+          cost: 1
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1 round duration and +1 power resistance per PP spent'
   description:
     value: >-
       <p>You generate a bastion of thought so strong that it offers protection

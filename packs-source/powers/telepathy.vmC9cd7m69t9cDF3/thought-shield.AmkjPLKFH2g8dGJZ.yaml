@@ -28,10 +28,24 @@ system:
       range:
         units: personal
         value: Personal
+      notes:
+        footer:
+          - '@PsionicApply[Thought Shield;level=@cl;dFlags.augmentBonus=@augments.extendedDurationAndPowerResistance]'
       save:
         description: None
       target:
         value: You
+      augments:
+        - _id: I8j9K0l1M2n3O4p5
+          name: Extended Duration and Power Resistance
+          cost: 1
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1 round duration and +1 power resistance per PP spent'
   description:
     value: >-
       <p>You fortify your mind against intrusions, gaining power resistance 13

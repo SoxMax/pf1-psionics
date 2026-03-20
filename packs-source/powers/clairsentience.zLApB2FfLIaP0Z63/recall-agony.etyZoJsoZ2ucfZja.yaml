@@ -30,6 +30,20 @@ system:
       range:
         units: med
         value: Medium (100 ft. + 10 ft./level)
+      augments:
+        - _id: Kt5wFpBxJnMqGr8v
+          name: Damage
+          cost: 1
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects:
+            damageBonus: 1d6
+          footerNotes:
+            - 'Damage: [[2+@augments.damage]]d6; DC increases by +[[floor(@augments.damage/2)]]'
+      notes:
+        footer: []
       save:
         description: Will half
         harmless: false

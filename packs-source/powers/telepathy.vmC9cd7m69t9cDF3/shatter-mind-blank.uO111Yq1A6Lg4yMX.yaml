@@ -34,6 +34,17 @@ system:
         type: will
       target:
         value: 30-ft.-radius burst centered on you
+      augments:
+        - _id: T3u4V5w6X7y8Z9a0
+          name: Selective Targeting
+          cost: 4
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Designate creatures within the affected area that are not affected by this power'
   description:
     value: >-
       <p>This power can negate a barred mind, mind blank, or a personal barred

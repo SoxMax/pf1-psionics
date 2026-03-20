@@ -28,6 +28,20 @@ system:
       range:
         units: personal
         value: Personal
+      augments:
+        - _id: Rp7nLqCwMgJxBt4k
+          name: Duration
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: 1 hour/level or until discharged'
+      notes:
+        footer:
+          - '@PsionicApply[Cosmic Awareness;level=@cl]'
       save:
         description: None
       target:

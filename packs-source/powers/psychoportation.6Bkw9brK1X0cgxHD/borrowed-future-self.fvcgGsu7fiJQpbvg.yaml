@@ -18,6 +18,27 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Gg7hHi8jJk9lLm0n
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duplicate acts autonomously by general orders (you retain remote senses but cannot influence actions)'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: 1
+          name: Autonomous
+          requiresFocus: false
+        - _id: Hh8iIj9kKl0mMn1o
+          cost: 2
+          effectNotes: []
+          effects:
+            durationMultiplier: 10
+          footerNotes: []
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: 1
+          name: Duration
+          requiresFocus: false
       duration:
         units: minute
         value: '@cl'

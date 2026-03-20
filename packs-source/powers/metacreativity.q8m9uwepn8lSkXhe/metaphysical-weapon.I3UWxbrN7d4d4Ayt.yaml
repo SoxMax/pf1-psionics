@@ -48,6 +48,11 @@ system:
         value: '@cl'
       img: icons/skills/melee/sword-engraved-glow-purple.webp
       name: Use
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Metaphysical
+            Weapon;level=@cl;dFlags.augmentBonus=@augments.amplify]
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

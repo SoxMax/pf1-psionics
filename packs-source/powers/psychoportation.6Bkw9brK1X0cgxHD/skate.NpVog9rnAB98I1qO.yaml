@@ -36,6 +36,10 @@ system:
         units: minute
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Skate;level=@cl;dFlags.augmentBonus=@augments.targets]
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

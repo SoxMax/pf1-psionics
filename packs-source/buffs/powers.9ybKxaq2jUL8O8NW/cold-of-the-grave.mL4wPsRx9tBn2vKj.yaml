@@ -1,0 +1,43 @@
+_id: mL4wPsRx9tBn2vKj
+_key: '!items!mL4wPsRx9tBn2vKj'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Cold of the Grave
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  contextNotes:
+    - target: misc
+      text: >-
+        Immune to pain and emotion effects; reduce all mental ability damage taken by 2 (Cold of the Grave)
+    - target: misc
+      text: >-
+        May choose whether morale effects apply (Cold of the Grave)
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.NWqxoUSoMCOyXFWw]{Cold of the Grave}</p>
+      <p>Immune to pain and emotion effects. Reduce all mental ability damage taken by 2 (or 3 with Mental Reduction augment). You may choose whether morale effects affect you. Augment: Physical Reduction reduces physical damage taken by 2.</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 3
+  showInQuickbar: false
+  subType: spell
+type: buff

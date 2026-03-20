@@ -18,11 +18,34 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Gj2MnFpQsT5xBk8D
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'When power ends, target suffers penalty to attack/damage/skill checks equal to times you activated bonus; lasts half as long as power was active'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Drain Penalty
+          requiresFocus: false
+        - _id: Hk3NoGqRtU6yCl9E
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Instead of increasing power DC, gain temporary power points = Charisma modifier (vanish 5 min after power ends)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Temp Power Points
+          requiresFocus: false
       duration:
         dismiss: true
         units: minute
         value: '@cl'
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

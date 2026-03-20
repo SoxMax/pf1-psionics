@@ -29,6 +29,17 @@ system:
       range:
         units: med
         value: Medium (100 ft. + 10 ft./level)
+      augments:
+        - _id: La4mN0rR6uS3vW8x
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.amplify]] bonus to CMB per purchase'
+          img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       save:
         description: None
       target:

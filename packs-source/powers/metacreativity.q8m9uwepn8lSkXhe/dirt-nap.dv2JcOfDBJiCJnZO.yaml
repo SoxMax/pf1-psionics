@@ -29,6 +29,20 @@ system:
       range:
         units: touch
         value: Touch
+      augments:
+        - _id: Gx5tLnV8wCqPm3rH
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.capacity]] additional creature capacity (total [[8 + @augments.capacity]]
+              creatures)'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: null
+          name: Capacity
+          requiresFocus: false
+      notes:
+        footer: []
       save:
         description: None
       target:

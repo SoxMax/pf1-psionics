@@ -18,10 +18,24 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Sf8bBuH1pY6mMw3f
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Casting Time: Swift'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Swift
+          requiresFocus: false
       duration:
         units: round
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Physical Acceleration;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

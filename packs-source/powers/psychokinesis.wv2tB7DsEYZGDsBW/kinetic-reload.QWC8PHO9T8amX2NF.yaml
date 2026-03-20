@@ -27,6 +27,17 @@ system:
       range:
         units: touch
         value: Touch
+      augments:
+        - _id: Pe2qR8uV4yW1zA6b
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Can manifest as part of a full attack sequence, reloading each attack'
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: 1
+          name: Full Attack
+          requiresFocus: false
       save:
         description: None
       target:

@@ -27,6 +27,19 @@ system:
       range:
         units: med
         value: Medium (100 ft. + 10 ft./level)
+      augments:
+        - _id: Jp3vKwFnYbLrCm7o
+          name: DC
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes: []
+      notes:
+        footer: []
       save:
         description: Will negates (harmless) or Will partial (see text)
         harmless: true

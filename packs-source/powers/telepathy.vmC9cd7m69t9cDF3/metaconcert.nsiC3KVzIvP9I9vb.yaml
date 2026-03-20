@@ -33,6 +33,17 @@ system:
         description: None
       target:
         value: You and up to five other willing psionic creatures in range; see text
+      augments:
+        - _id: C0d1E2f3G4h5I6j7
+          name: Extended Duration and Capacity
+          cost: 1
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1 minute duration per PP spent; per 2 PP spent: +1 max members, +5 ft. range and radius'
   description:
     value: >-
       <p>You link your psychic might with other psionic creatures, creating a

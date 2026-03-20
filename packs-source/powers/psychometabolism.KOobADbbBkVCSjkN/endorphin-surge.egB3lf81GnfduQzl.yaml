@@ -18,11 +18,25 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Iv2rRkW0eN5bBl1u
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Morale bonus to Constitution and Strength increases by 2, morale bonus on Will saves increases by 1'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Greater Surge
+          requiresFocus: false
       duration:
         dismiss: true
         units: round
         value: '1'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Endorphin Surge;level=@cl;dFlags.augmentBonus=@augments.greaterSurge]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

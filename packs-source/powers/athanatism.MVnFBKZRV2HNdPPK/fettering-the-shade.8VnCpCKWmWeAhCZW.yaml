@@ -21,11 +21,35 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Rb5KcNwQtX3vDm9P
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Weapon: gains one +1 weapon special ability or +1 bonus on one combat maneuver type'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Weapon Enhancement
+          requiresFocus: false
+        - _id: Uc7MdOxRuY4wEn1Q
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Armor/shield: gains one +1 armor or shield special ability'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Armor Enhancement
+          requiresFocus: false
       duration:
         dismiss: true
         units: minute
         value: 10 * @cl
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Fettering the Shade;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

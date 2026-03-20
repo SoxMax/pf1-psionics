@@ -34,6 +34,37 @@ system:
         type: will
       target:
         value: 10-ft.-radius spread centered on you
+      augments:
+        - _id: U2v3W4x5Y6z7A8b9
+          name: Increased DC
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1 DC per 2 PP spent'
+        - _id: V3w4X5y6Z7a8B9c0
+          name: Increased Range and Area
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Range and area radius increase by 5 ft. per 2 PP spent'
+        - _id: W4x5Y6z7A8b9C0d1
+          name: Extended Daze
+          cost: 4
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Dazed condition lasts one additional round per 4 PP spent'
   description:
     value: >-
       <p>You generate a mental wave of confusion that instantly sweeps out from

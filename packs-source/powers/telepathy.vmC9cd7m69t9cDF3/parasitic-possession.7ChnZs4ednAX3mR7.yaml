@@ -35,6 +35,17 @@ system:
         type: fort
       target:
         value: One living creature
+      augments:
+        - _id: A4b5C6d7E8f9G0h1
+          name: Full Mind Control
+          cost: 6
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Subject is under your control as if under the effect of mind control'
   description:
     value: >-
       <p>You transform into telepathic energy patterns and infect a living

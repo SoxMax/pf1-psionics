@@ -21,6 +21,38 @@ system:
       damage:
         parts:
           - formula: 5d6
+      augments:
+        - _id: Kx1tTmZ9gP5dDn6w
+          cost: 1
+          effectNotes: []
+          effects:
+            damageBonus: 1d6
+            dcBonus: 0.5
+          footerNotes: []
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+        - _id: Ly2uUnA0hQ6eEo7x
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Affects [[@augments.targets]] additional target(s) per augment; +1 DC per 2 PP spent on augments'
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: null
+          name: Targets
+          requiresFocus: false
+        - _id: Mz3vVoB1iR7fFp8y
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Range becomes Medium (100 ft. + 10 ft./level); +1 DC per 2 PP spent on augments'
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: 1
+          name: Range
+          requiresFocus: false
       duration:
         units: inst
       name: Use

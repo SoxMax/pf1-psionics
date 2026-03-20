@@ -28,6 +28,29 @@ system:
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
+      augments:
+        - _id: Hr5tKwP8mNvBx3qJ
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.attacks]] additional ranged touch attack(s)'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: null
+          name: Attacks
+          requiresFocus: false
+        - _id: Zf2sLcN6pDxKm9vR
+          cost: 3
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Ectoplasm sticks on hit; deals same nonlethal damage at start of your next turn'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: 1
+          name: Sticky
+          requiresFocus: false
+      notes:
+        footer: []
       save:
         description: None
       target:

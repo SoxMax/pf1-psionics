@@ -1,0 +1,40 @@
+_id: gD2nRkMw5vHp7cNq
+_key: '!items!gD2nRkMw5vHp7cNq'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/death/skull-energy-light-purple.webp
+name: Fettering the Shade
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  contextNotes:
+    - target: misc
+      text: >-
+        Item touched gains the ghost touch property (Fettering the Shade)
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.8VnCpCKWmWeAhCZW]{Fettering the Shade}</p>
+      <p>The item touched gains the ghost touch special property. Weapon Enhancement augment: weapon also gains one +1 weapon special ability or +1 bonus on one combat maneuver type. Armor Enhancement augment: armor or shield also gains one +1 armor or shield special ability.</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '10 * @item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 3
+  showInQuickbar: false
+  subType: spell
+type: buff

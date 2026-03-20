@@ -28,6 +28,19 @@ system:
       range:
         units: personal
         value: Personal
+      augments:
+        - _id: kR7mNpQ3XwAsTd8L
+          cost: 2
+          effectNotes: []
+          effects:
+            damageBonus: 1d6
+          footerNotes: []
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+      notes:
+        footer: []
       save:
         description: None
       target:

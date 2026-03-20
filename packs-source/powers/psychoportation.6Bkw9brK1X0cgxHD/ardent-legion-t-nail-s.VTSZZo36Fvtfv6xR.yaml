@@ -18,9 +18,44 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Aa1bCc2dEe3fFg4h
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Summon destination: Target collective member instead of manifester'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: 1
+          name: Redirect Destination
+          requiresFocus: false
+        - _id: Bb2cDd3eEf4gGh5i
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Summon range: Cross planar boundaries'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: 1
+          name: Planar Reach
+          requiresFocus: false
+        - _id: Cc3dEe4fFg5hHi6j
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Casting Time: Immediate'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: 1
+          name: Immediate
+          requiresFocus: false
       duration:
         units: inst
       name: Use
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Ardent Legion, T'Nail's;level=@cl]
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

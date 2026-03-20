@@ -28,6 +28,20 @@ system:
       range:
         units: personal
         value: Personal
+      augments:
+        - _id: Wc4nRjGkBqMpTx8a
+          name: Insight
+          cost: 3
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.insight]] insight bonus on the reroll'
+      notes:
+        footer:
+          - '@PsionicApply[Second Chance;level=@cl;dFlags.augmentBonus=@augments.insight]'
       save:
         description: None
       target:

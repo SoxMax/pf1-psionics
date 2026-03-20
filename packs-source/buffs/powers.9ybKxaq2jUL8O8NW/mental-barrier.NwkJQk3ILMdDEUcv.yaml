@@ -1,0 +1,43 @@
+_id: NwkJQk3ILMdDEUcv
+_key: '!items!NwkJQk3ILMdDEUcv'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/earth/strike-body-stone-crumble.webp
+name: Mental Barrier
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: LQjNOWxI
+      formula: '4 + @item.dFlags.augmentBonus'
+      operator: add
+      priority: 0
+      target: ac
+      type: deflection
+  contextNotes: []
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.3x2uwp9e7Qumvqta]{Mental Barrier}</p>
+      <p>+[[4 + @item.dFlags.augmentBonus]] deflection bonus to Armor Class</p>
+  duration:
+    end: turnStart
+    units: round
+    value: '1'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 3
+  showInQuickbar: false
+  subType: spell
+type: buff

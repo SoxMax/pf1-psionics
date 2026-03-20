@@ -34,6 +34,17 @@ system:
         type: will
       target:
         value: One creature
+      augments:
+        - _id: Q7r8S9t0U1v2W3x4
+          name: Additional Target
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1 target and +1 DC per 2 PP spent; additional targets must be within 15 ft. of another target'
   description:
     value: >-
       <p>You tune your voice to the empathic vibrations of your target, making

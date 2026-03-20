@@ -11,10 +11,7 @@ name: Vigor
 system:
   actions:
     - _id: 3dil2JNbSeOOKGTi
-      ability:
-        critMult: 2
-        critRange: 20
-      actionType: heal
+      actionType: other
       activation:
         cost: 1
         type: standard
@@ -33,14 +30,16 @@ system:
           maxUses: null
           name: Amplify
           requiresFocus: false
-      damage:
-        parts:
-          - formula: 5 + 5* @augments.amplify
       duration:
+        dismiss: true
         units: minute
         value: '@cl'
       img: icons/magic/defensive/barrier-shield-dome-blue-purple.webp
       name: Use
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Vigor;level=@cl;dFlags.augmentBonus=@augments.amplify]
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

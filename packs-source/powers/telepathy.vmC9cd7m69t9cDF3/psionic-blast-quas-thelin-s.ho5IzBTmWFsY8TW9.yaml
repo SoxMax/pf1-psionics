@@ -34,6 +34,17 @@ system:
         type: will
       target:
         value: 30-ft. cone-shaped burst
+      augments:
+        - _id: F9g0H1i2J3k4L5m6
+          name: Extended Stun and Increased DC
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1 round stun duration and +1 DC per 2 PP spent'
   description:
     value: >-
       <p>The air ripples with the force of your mental attack, which blasts the

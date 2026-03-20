@@ -34,6 +34,17 @@ system:
         type: will
       target:
         value: One creature of up to Large size
+      augments:
+        - _id: Q4r5S6t7U8v9W0x1
+          name: Unconditional Penalty
+          cost: 4
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Target suffers -2 penalty on Will saves against mind-affecting effects for 1 day even on successful save'
   description:
     value: >-
       <p>You brutally force the target's consciousness into a dimension of

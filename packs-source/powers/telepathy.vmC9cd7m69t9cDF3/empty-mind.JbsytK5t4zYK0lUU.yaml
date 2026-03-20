@@ -41,6 +41,9 @@ system:
       range:
         units: personal
         value: Personal
+      notes:
+        footer:
+          - '@PsionicApply[Empty Mind;level=@cl;dFlags.augmentBonus=@augments.amplify]'
       save:
         description: None
       target:

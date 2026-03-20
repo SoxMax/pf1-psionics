@@ -18,11 +18,44 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Mp7UuLwWyB1dGr5K
+          cost: 5
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Apply 2 points worth of eidolon evolutions to the target while this power is active'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Evolutions
+          requiresFocus: false
+        - _id: Nq8VvMxXzC2eHs6L
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Target a living creature (disguise must make them appear dead or as undead)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Living Target
+          requiresFocus: false
+        - _id: Or9WwNyYaD3fIt7M
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Make the target appear as a different creature type'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Different Type
+          requiresFocus: false
       duration:
         dismiss: true
         units: hour
         value: '@cl'
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

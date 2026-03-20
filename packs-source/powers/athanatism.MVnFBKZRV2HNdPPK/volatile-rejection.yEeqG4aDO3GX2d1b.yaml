@@ -18,12 +18,38 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Gj1OoQrSsU4xAk7E
+          cost: 2
+          effectNotes: []
+          effects:
+            damageBonus: 6
+            dcBonus: 1
+          footerNotes:
+            - 'Damage increased by +[[@augments.extraDice]]d6; DC +[[@augments.dcBonus]] per 2 pp'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Extra Damage
+          requiresFocus: false
+        - _id: Hk2PpRsTtV5yBl8F
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Deal half damage (rounded down) to the possessed creature as well'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Splash Damage
+          requiresFocus: false
       damage:
         parts:
           - formula: 3d6
       duration:
         units: inst
       name: Use
+      notes:
+        footer:
+          - 'For every 2 pp spent augmenting, save DC +1'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

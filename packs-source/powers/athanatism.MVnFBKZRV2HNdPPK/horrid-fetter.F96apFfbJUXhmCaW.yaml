@@ -20,9 +20,32 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: Zt3WsKpGqM6rBn9V
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Max HD of creature that can be summoned increased by [[@augments.amplify]]'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
+        - _id: Ac5YxNdLhT8wFj2R
+          cost: 0
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Expend psionic focus: target up to 3 creatures of the same kind (total HD must not exceed summoning limit)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Multiple Targets
+          requiresFocus: true
       duration:
         units: inst
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

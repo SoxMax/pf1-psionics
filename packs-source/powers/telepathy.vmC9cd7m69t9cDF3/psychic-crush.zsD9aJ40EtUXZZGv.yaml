@@ -36,6 +36,17 @@ system:
         type: will
       target:
         value: One creature
+      augments:
+        - _id: I2j3K4l5M6n7O8p9
+          name: Increased Damage and DC
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1d6 damage on successful save and +1 DC per 2 PP spent'
   description:
     value: >-
       <p>Your will abruptly and brutally crushes the mental essence of any one

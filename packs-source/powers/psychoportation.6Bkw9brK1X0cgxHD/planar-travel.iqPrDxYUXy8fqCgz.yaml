@@ -18,6 +18,17 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Cc9dDe0eEf1fFg2h
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '-[[@augments.accuracy]] die from the d% roll for arrival location (max -5d%)'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: 5
+          name: Accuracy
+          requiresFocus: false
       duration:
         units: inst
       name: Use

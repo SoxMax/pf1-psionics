@@ -19,10 +19,44 @@ system:
           cost: 1
           type: nonaction
       area: '[object Object]'
+      augments:
+        - _id: Ps2VwOyZcD5gKt8M
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Failed save: panicked instead of frightened'
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: 1
+          name: Panicked
+          requiresFocus: false
+        - _id: Qt3WxPzAd6hLu9N
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Successful save: shaken for an additional round'
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: 1
+          name: Extra Shaken
+          requiresFocus: false
+        - _id: Ru4XyQaB7iMv1O
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Radius increased by +[[@augments.radiusBonus * 5]] ft.'
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: null
+          name: Radius
+          requiresFocus: false
       duration:
         units: round
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - 'For every 2 pp spent augmenting, save DC +1'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

@@ -34,6 +34,37 @@ system:
         type: will
       target:
         value: One creature
+      augments:
+        - _id: N4o5P6q7R8s9T0u1
+          name: Immediate Action
+          cost: 6
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Manifest this power as an immediate action; +1 DC per 2 PP spent'
+        - _id: O5p6Q7r8S9t0U1v2
+          name: Additional Target
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Affect one additional creature per 2 PP spent; +1 DC per 2 PP spent'
+        - _id: P6q7R8s9T0u1V2w3
+          name: Mass Effect
+          cost: 8
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Affect one creature per manifester level; +1 DC per 2 PP spent'
   description:
     value: >-
       <p>You make yourself completely undetectable to the subject by erasing all

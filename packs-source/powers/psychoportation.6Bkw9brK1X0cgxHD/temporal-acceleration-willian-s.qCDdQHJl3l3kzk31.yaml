@@ -18,6 +18,17 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Ll8mMn9nNo0oOp1q
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.duration]] additional round(s) of apparent time duration'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: null
+          name: Duration
+          requiresFocus: false
       duration:
         units: spec
         value: 1 round (in apparent time); see text

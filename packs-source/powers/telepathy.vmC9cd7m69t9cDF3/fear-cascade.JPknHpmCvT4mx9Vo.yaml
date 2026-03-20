@@ -34,6 +34,27 @@ system:
         type: will
       target:
         value: One creature and any number within 20 ft.
+      augments:
+        - _id: N5o6P7q8R9s0T1u2
+          name: Extended Shaken Duration
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Shaken duration increases by 1 round per 2 PP spent; +1 DC per 2 PP spent'
+        - _id: O6p7Q8r9S0t1U2v3
+          name: Increased Area
+          cost: 4
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Radius for nearby affected creatures increases by 10 ft. per 4 PP spent; +1 DC per 2 PP spent'
   description:
     value: >-
       <p>You overload the target creature's mental and physical faculties with

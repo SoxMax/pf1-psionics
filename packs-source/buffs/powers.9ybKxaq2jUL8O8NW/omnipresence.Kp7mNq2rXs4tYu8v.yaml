@@ -1,0 +1,46 @@
+_id: Kp7mNq2rXs4tYu8v
+_key: '!items!Kp7mNq2rXs4tYu8v'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/control/buff-flight-wings-runes-blue-white.webp
+name: Omnipresence
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  contextNotes:
+    - target: misc
+      text: >-
+        [[@item.dFlags.augmentBonus * 5]]% miss chance on attacks against you
+        (max 50%) (Omnipresence)
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.iRREZDthgeJGD05k]{Omnipresence}</p>
+      <p>You threaten all spaces within 5 feet of you and can make attacks of
+      opportunity against targets within this area with any weapon you are
+      wielding. You can treat yourself as being within any of those spaces for
+      the purposes of vision and line of effect.</p>
+      <p>If augmented: [[@item.dFlags.augmentBonus * 5]]% miss chance on
+      attacks against you (max 50%).</p>
+  duration:
+    end: turnStart
+    units: round
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 1
+  showInQuickbar: false
+  subType: spell
+type: buff

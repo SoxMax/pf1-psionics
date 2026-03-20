@@ -21,6 +21,17 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Mm3nNo4oOp5pPq6s
+          cost: 2
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes: []
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: null
+          name: DC
+          requiresFocus: false
       duration:
         dismiss: true
         units: hour

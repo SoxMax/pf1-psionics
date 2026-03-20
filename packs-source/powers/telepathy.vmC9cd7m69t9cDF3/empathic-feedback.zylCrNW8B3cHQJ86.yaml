@@ -34,6 +34,27 @@ system:
         type: will
       target:
         value: You
+      augments:
+        - _id: I0j1K2l3M4n5O6p7
+          name: Half Damage Returned
+          cost: 3
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Attacker suffers damage equal to half the damage dealt to you'
+        - _id: J1k2L3m4N5o6P7q8
+          name: Full Damage Returned
+          cost: 6
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Attacker suffers damage equal to the full damage dealt to you'
   description:
     value: >-
       <p>You empathically share your pain and suffering with your attacker. Each

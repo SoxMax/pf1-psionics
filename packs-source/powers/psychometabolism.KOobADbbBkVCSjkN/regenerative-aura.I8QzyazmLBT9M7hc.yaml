@@ -19,6 +19,17 @@ system:
           cost: 1
           type: nonaction
       area: '[object Object]'
+      augments:
+        - _id: An1jJcP9wF5tTd0m
+          cost: 0
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'You may select which creatures within the aura are healed'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Selective
+          requiresFocus: true
       duration:
         dismiss: true
         units: round

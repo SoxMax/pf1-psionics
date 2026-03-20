@@ -18,11 +18,25 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Vy7DdFgGhI2mPz5T
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Haunt''s effective CL/ML increased by +[[@augments.levelBonus]] (max your manifester level)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Amplify Haunt
+          requiresFocus: false
       duration:
         dismiss: true
         units: round
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - 'For every 2 pp spent, haunt CL/ML +1 (max manifester level)'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

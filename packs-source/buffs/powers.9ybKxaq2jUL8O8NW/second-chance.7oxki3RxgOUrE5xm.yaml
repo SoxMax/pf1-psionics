@@ -1,0 +1,39 @@
+_id: 7oxki3RxgOUrE5xm
+_key: '!items!7oxki3RxgOUrE5xm'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Second Chance
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  contextNotes:
+    - target: misc
+      text: 'May reroll one attack roll, saving throw, ability check, or skill check once during buff duration; +[[0 + @item.dFlags.augmentBonus]] insight bonus on the reroll (Second Chance)'
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.QZaCPcrg1SVRpBh4]{Second Chance}</p>
+      <p>Once during the buff duration, you may reroll one attack roll, one saving throw, one ability check, or one skill check. You must take the result of the reroll, even if it is worse than the original roll. +[[0 + @item.dFlags.augmentBonus]] insight bonus on the reroll.</p>
+  duration:
+    end: turnStart
+    units: round
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 5
+  showInQuickbar: false
+  subType: spell
+type: buff

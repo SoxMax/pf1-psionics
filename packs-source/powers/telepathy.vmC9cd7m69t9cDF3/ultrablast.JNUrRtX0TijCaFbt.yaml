@@ -37,6 +37,17 @@ system:
         type: will
       target:
         value: 15-ft.-radius spread centered on you
+      augments:
+        - _id: K0l1M2n3O4p5Q6r7
+          name: Increased Damage
+          cost: 1
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1d6 damage per PP spent'
   description:
     value: >-
       <p>You "grumble" psychically (which both psionic and non-psionic creatures
