@@ -1,0 +1,87 @@
+_id: Qr4sTuVw8CDzEf0R
+_key: '!macros!Qr4sTuVw8CDzEf0R'
+_stats:
+  coreVersion: '13.351'
+author: N8Qq94zyfscJUwL4
+command: >-
+  // Clean Up Psionic Data
+
+  // Run this macro BEFORE disabling/uninstalling the pf1-psionics module.
+
+  // Removes psionic skills (Knowledge Psionics, Autohypnosis) and module
+
+  // flags from all world actors to prevent broken character sheets.
+
+
+  if (!game.user.isGM) {
+    ui.notifications.error("Only the GM can run this macro.");
+    return;
+  }
+
+
+  const MODULE_ID = "pf1-psionics";
+
+  const PSIONIC_SKILLS = ["kps", "ahp"];
+
+
+  // Confirmation dialog
+
+  const confirmed = await Dialog.confirm({
+    title: "Clean Up Psionic Data",
+    content: `<p>This will remove psionic skills (<b>Knowledge Psionics</b>,
+  <b>Autohypnosis</b>) and all <code>pf1-psionics</code> module flags from
+  <b>every character and NPC</b> in this world.</p>
+  <p>Run this before disabling the module to prevent errors on character
+  sheets.</p> <p><b>This cannot be undone.</b> Are you sure?</p>`,
+    defaultYes: false
+  });
+
+  if (!confirmed) return;
+
+
+  const actors = game.actors.filter(a => a.type === "character" || a.type ===
+  "npc");
+
+  let updated = 0;
+
+  let failed = 0;
+
+
+  for (const actor of actors) {
+    const updateData = {};
+
+    for (const key of PSIONIC_SKILLS) {
+      if (actor.system.skills?.[key] !== undefined) {
+        updateData[`system.skills.-=${key}`] = null;
+      }
+    }
+
+    if (actor.flags?.[MODULE_ID] !== undefined) {
+      updateData[`flags.-=${MODULE_ID}`] = null;
+    }
+
+    if (Object.keys(updateData).length === 0) continue;
+
+    try {
+      await actor.update(updateData);
+      updated++;
+    } catch (err) {
+      console.error(`${MODULE_ID} | Cleanup failed for "${actor.name}":`, err);
+      failed++;
+    }
+  }
+
+
+  if (failed > 0) {
+    ui.notifications.warn(`Cleaned ${updated} actor(s), but ${failed}
+  failed. Check the console (F12) for details.`);
+  } else if (updated > 0) {
+    ui.notifications.info(`Cleaned psionic data from ${updated} actor(s). You
+  can now safely disable the module.`);
+  } else {
+    ui.notifications.info("No psionic data found on any actors.");
+  }
+img: icons/magic/unholy/barrier-fire-pink.webp
+name: Clean Up Psionic Data
+scope: global
+type: script
