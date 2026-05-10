@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Spiritual_Lordship
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/death/skull-humanoid-crown-white-blue.webp
 name: Spiritual Lordship
 system:
   actions:
@@ -18,11 +18,24 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Vy7DdFgGhI2mPz5T
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Haunt''s effective CL/ML increased by +[[@augments.amplify]] (max your manifester level)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         dismiss: true
         units: round
         value: '@cl'
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

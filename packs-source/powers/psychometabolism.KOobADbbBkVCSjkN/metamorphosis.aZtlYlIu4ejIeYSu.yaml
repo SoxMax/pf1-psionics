@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Metamorphosis
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/nature/elemental-plant-humanoid.webp
 name: Metamorphosis
 system:
   actions:
@@ -22,14 +22,36 @@ system:
           cost: 1
           type: nonaction
       damage:
-        parts:
-          - formula: 1d8
-          - formula: 1d8
+        parts: []
+      augments:
+        - _id: Ly1uUnA4hQ9eEo6x
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1 choice from Enhancement Menu B and +1 choice from Abilities Menu B per augment (no duplicates)'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Menu B
+          requiresFocus: false
+        - _id: Mz2vVoB5iR0fFp7y
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1 choice from Enhancement Menu A and +1 choice from Abilities Menu A (minor metamorphosis) per augment (no duplicates)'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Menu A
+          requiresFocus: false
       duration:
         dismiss: true
         units: minute
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Metamorphosis;level=@cl;dFlags.menuB=@augments.menuB;dFlags.menuA=@augments.menuA]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

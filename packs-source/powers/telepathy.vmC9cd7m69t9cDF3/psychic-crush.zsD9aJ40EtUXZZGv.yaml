@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Psychic_Crush
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/unholy/strike-body-explode-disintegrate.webp
 name: Psychic Crush
 system:
   actions:
@@ -20,7 +20,7 @@ system:
           type: nonaction
       damage:
         parts:
-          - formula: 3d6
+          - formula: (3 + @augments.dc)d6
       duration:
         units: inst
       name: Use
@@ -31,11 +31,23 @@ system:
         units: close
         value: Close (25 ft. +5 ft./2 levels)
       save:
+        dc: '@augments.dc'
         description: Will partial; see text
         harmless: false
         type: will
       target:
         value: One creature
+      augments:
+        - _id: I2j3K4l5M6n7O8p9
+          name: DC
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1d6 damage on successful save and +1 DC per 2 PP spent'
   description:
     value: >-
       <p>Your will abruptly and brutally crushes the mental essence of any one

@@ -25,8 +25,19 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
+      augments:
+        - _id: Kz3lM9qQ5tR2uV7w
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+25 lb. weight limit per purchase'
+          img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       save:
         description: Will negates (object)
         harmless: false

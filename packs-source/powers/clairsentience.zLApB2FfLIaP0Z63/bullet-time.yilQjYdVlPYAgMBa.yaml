@@ -34,6 +34,19 @@ system:
       range:
         units: personal
         value: Personal
+      augments:
+        - _id: Xb6nMwQkGrApTj3c
+          name: Attacks
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Attempt to evade [[@augments.attacks]] additional ranged attack(s) from the same source'
+      notes:
+        footer: []
       save:
         description: None
       target:

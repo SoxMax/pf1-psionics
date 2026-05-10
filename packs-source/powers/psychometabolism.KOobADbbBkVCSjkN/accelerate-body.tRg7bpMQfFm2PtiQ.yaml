@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Accelerate_Body
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/time/hourglass-yellow-green.webp
 name: Accelerate Body
 system:
   actions:
@@ -21,9 +21,48 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: Td5ceWVad2AueFGh
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Range: Close([[25+5*floor(@cl/2)]])'
+          img: icons/magic/time/hourglass-yellow-green.webp
+          maxUses: null
+          name: Range
+          requiresFocus: true
+        - _id: TBj2dcdAxyCBQQek
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - +[[@augments.amplify]] effective days passed
+          img: icons/magic/time/hourglass-yellow-green.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
+        - _id: ZGUnRQdc7NpcdZuh
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Targets: +[[@augments.targets]]'
+          img: icons/magic/time/hourglass-yellow-green.webp
+          maxUses: null
+          name: Targets
+          requiresFocus: false
       duration:
         units: inst
+      held: 1h
+      img: icons/magic/time/hourglass-yellow-green.webp
       name: Use
+      naturalAttack:
+        primary: true
+        secondary:
+          damageMult: 0.5
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
@@ -35,7 +74,7 @@ system:
         harmless: false
         type: fort
       target:
-        value: One living creature&#160;
+        value: One living creature
   description:
     value: >-
       <p>You accelerate the body of the touched target and you can choose to

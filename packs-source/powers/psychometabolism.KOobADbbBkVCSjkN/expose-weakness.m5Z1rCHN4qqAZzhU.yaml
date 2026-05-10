@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Expose_Weakness
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/skills/wounds/anatomy-organ-heart-red.webp
 name: Expose Weakness
 system:
   actions:
@@ -18,15 +18,29 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Tg3cCvH1pY6mMw2f
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Target is considered @Condition[flat-footed] rather than flanked'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Flat-Footed
+          requiresFocus: false
       duration:
         units: round
         value: '1'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Expose Weakness;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
       save:
         description: Fortitude negates

@@ -1,0 +1,49 @@
+_id: jQ4wNpLr6vBk9mTx
+_key: '!items!jQ4wNpLr6vBk9mTx'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/unholy/orb-glowing-purple.webp
+name: Ex Nihilo
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: nB3kMw7p
+      formula: '4'
+      operator: add
+      priority: 0
+      target: cha
+      type: enh
+  contextNotes:
+    - target: misc
+      text: >-
+        You become incorporeal and count as undead for all purposes (immunities and vulnerabilities); gain deflection bonus to AC equal to Cha modifier; gain [[min(@cl, 25)]] temporary hit points; gain channel resistance +4 (Ex Nihilo)
+    - target: misc
+      text: >-
+        You cannot benefit from any gear unless it has the ghost touch special property (Ex Nihilo)
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.UB2LUQEgBRc7EVOM]{Ex Nihilo}</p>
+      <p>You become incorporeal, count as undead for all purposes, gain +4 enhancement bonus to Charisma, a deflection bonus to AC equal to your Charisma modifier, [[min(@cl, 25)]] temporary hit points, and channel resistance +4. You cannot benefit from gear without the ghost touch property. Vanish Body augment: body temporarily vanishes (immune to all damage/effects until power ends).</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '10 * @item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 5
+  showInQuickbar: false
+  subType: spell
+type: buff

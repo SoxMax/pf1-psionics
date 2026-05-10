@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Tormenting_the_Dead
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/unholy/strike-beam-blood-large-red-teal.webp
 name: Tormenting the Dead
 system:
   actions:
@@ -18,18 +18,60 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      augments:
+        - _id: Zc2HhJkKlM6qTd9X
+          cost: 1
+          effectNotes: []
+          effects:
+            damageBonus: '1d8'
+          footerNotes: []
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+        - _id: Cf5KkMmNnP9tWg3A
+          cost: 2
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes: []
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: DC
+          requiresFocus: false
+        - _id: Ad3IiKlLmN7rUe1Y
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Failed Fort save: also sickened for 1d6 rounds (affects incorporeal undead despite immunity)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Sickened
+          requiresFocus: false
+        - _id: Be4JjLmMnO8sVf2Z
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Affects all incorporeal creatures in 20-ft.-radius spread instead of one target'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Area Effect
+          requiresFocus: false
       damage:
         parts:
           - formula: 5d8
       duration:
         units: inst
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
       save:
         description: Fortitude half

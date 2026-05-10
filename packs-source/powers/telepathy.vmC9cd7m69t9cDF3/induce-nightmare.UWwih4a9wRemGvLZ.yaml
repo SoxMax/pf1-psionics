@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Induce_Nightmare
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/control/fear-fright-shadow-monster-purple.webp
 name: Induce Nightmare
 system:
   actions:
@@ -36,6 +36,17 @@ system:
         type: will
       target:
         value: One living creature
+      augments:
+        - _id: Q8r9S0t1U2v3W4x5
+          name: Damage
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects:
+            damageBonus: 1d10
+          footerNotes: []
   description:
     value: >-
       <p>You send a hideous and unsettling phantasmal vision to a specific

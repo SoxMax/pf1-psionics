@@ -1,0 +1,81 @@
+_id: DgdtSpKOkEtOLOlS
+_key: '!items!DgdtSpKOkEtOLOlS'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Power_Leech
+folder: vmC9cd7m69t9cDF3
+img: icons/magic/control/debuff-energy-snare-purple-pink.webp
+name: Power Leech
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        concentration: true
+        units: conc
+        value: up to 1 round/level; see text
+      name: Use
+      range:
+        units: close
+        value: Close (25 ft. + 5 ft./2 levels)
+      save:
+        description: Will negates
+        type: will
+      target:
+        value: Any living psionic creature
+  description:
+    instructions: ''
+    value: |-
+      <p>Your brow erupts with an arc of crackling dark energy that connects with your foe, draining it of 1d6 power points and adding 1 of those points to your reserve (unless that gain would cause you to exceed your maximum).
+      </p>
+      <p>The drain continues in each round you maintain concentration while the subject of the drain remains in range. If the subject is drained to 0 power points, this power ends.
+      </p>
+      <p>Concentrating to maintain power leech is a full-round action (you can take no other actions aside from a 5-foot step) instead of a standard action.
+      </p>
+  descriptors:
+    - mind-affecting
+  discipline: telepathy
+  display:
+    auditory: false
+    material: false
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      dread: 4
+      gambler: 4
+      psion: 4
+      thug: 4
+      wilder: 4
+  level: 4
+  manifestTime:
+    units: standard
+    value: 1
+  manifester: ''
+  prepared: false
+  sources:
+    - date: '2010-12-16'
+      pages: '133'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '229'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2015-04-30'
+      pages: '50'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline:
+    - compulsion
+  tags: []
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

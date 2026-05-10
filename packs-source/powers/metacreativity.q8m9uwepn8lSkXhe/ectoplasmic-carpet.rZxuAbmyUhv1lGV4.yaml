@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Ectoplasmic_Carpet
 folder: q8m9uwepn8lSkXhe
-img: icons/magic/symbols/runes-star-magenta.webp
+img: icons/magic/defensive/shield-barrier-glowing-blue.webp
 name: Ectoplasmic Carpet
 system:
   actions:
@@ -28,6 +28,54 @@ system:
       range:
         units: close
         value: Close (25 ft. + 5 ft./level)
+      augments:
+        - _id: Zt3vKpN7mLqXr8wJ
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Flying carpet size upgrade [[@augments.flying]] (5x10 at 1, 10x10 at 2; each
+              further step +2 squares and +400 lbs.; carpet 10x10+ has duration 1 hr/level)'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: null
+          name: Flying
+          requiresFocus: false
+        - _id: Qm6sHwD4nVbPf2xC
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.restraint]] to restraint carpet escape/break DCs'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: null
+          name: Restraint
+          requiresFocus: false
+        - _id: Ek8rJyT5cWmBs9vA
+          cost: 3
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Shield carpet grants +[[2 + @augments.shield]] shield bonus vs ranged'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: null
+          name: Shield
+          requiresFocus: false
+        - _id: Np1uFzG6dXkLh4qM
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Tripping carpet size upgrade [[@augments.tripping]] (Large at 1, Huge at 2,
+              etc.; larger carpet can trip multiple creatures)'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: null
+          name: Tripping
+          requiresFocus: false
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Ectoplasmic
+            Carpet;level=@cl;dFlags.augmentBonus=@augments.shield]
       save:
         description: See text
       target:

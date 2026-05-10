@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Remote_Viewing
 folder: zLApB2FfLIaP0Z63
-img: icons/magic/perception/third-eye-blue-red.webp
+img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
 name: Remote Viewing
 system:
   actions:
@@ -29,6 +29,19 @@ system:
       range:
         units: ft
         value: See text
+      augments:
+        - _id: Fg9bNkXrDmWsHo4c
+          name: Speed
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Quasi-real viewpoint moves at speed 40 ft. (instead of 20 ft.)'
+      notes:
+        footer: []
       save:
         description: Will negates
         harmless: false

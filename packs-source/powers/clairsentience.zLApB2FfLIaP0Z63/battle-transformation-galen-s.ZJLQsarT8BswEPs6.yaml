@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Battle_Transformation,_Galen's
 folder: zLApB2FfLIaP0Z63
-img: icons/magic/perception/third-eye-blue-red.webp
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
 name: Battle Transformation, Galen's
 system:
   actions:
@@ -28,6 +28,40 @@ system:
       range:
         units: personal
         value: Personal
+      augments:
+        - _id: Gq3mRxKpJtBvZn8w
+          name: Amplify
+          cost: 3
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Luck bonus improves by +[[@augments.amplify]] (total +[[2+@augments.amplify]])'
+        - _id: Vc5hLyNmSdWqXr7e
+          name: Duration
+          cost: 4
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: 10 minutes/level'
+        - _id: Pk2jFwAbCuTsOi4z
+          name: Network
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Gains Network descriptor; save becomes Will negates (harmless); PR becomes Yes (harmless)'
+      notes:
+        footer:
+          - '@PsionicApply[Battle Transformation, Galen''s;level=@cl;dFlags.augmentBonus=@augments.amplify]'
       save:
         description: None; see text
       target:

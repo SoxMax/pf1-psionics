@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Ectoplasmic_Obelisk
 folder: q8m9uwepn8lSkXhe
-img: icons/magic/symbols/runes-star-magenta.webp
+img: icons/magic/earth/barrier-stone-pillar-purple.webp
 name: Ectoplasmic Obelisk
 system:
   actions:
@@ -28,6 +28,40 @@ system:
       range:
         units: close
         value: Close (25 ft. + 5 ft./level)
+      augments:
+        - _id: Hm3wPkT6nLqXv9rB
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Obelisk hardness [[10+@augments.reinforce]], hp [[30+2*@augments.reinforce]],
+              push DC [[16+@augments.reinforce]]'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: null
+          name: Reinforce
+          requiresFocus: false
+        - _id: Jq5tNcD8vWmBf2kA
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Obelisk size increases to 10-ft. square'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: 1
+          name: Large Size
+          requiresFocus: false
+        - _id: Sz7rFgL4pXwKm1hV
+          cost: 10
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration becomes Permanent'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: 1
+          name: Permanent
+          requiresFocus: false
+      notes:
+        footer: []
       save:
         description: None
       target:

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Retarget_Power
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/unholy/projectile-fireball-green.webp
+img: icons/magic/light/beams-rays-orange-purple.webp
 name: Retarget Power
 system:
   actions:
@@ -31,6 +31,17 @@ system:
       range:
         units: touch
         value: Close (25 ft. + 5 ft./level) and touch
+      augments:
+        - _id: Ds6eF2jJ8mK5nO0p
+          cost: 2
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes: []
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: DC
+          requiresFocus: false
       save:
         description: Will negates; see text
         harmless: false

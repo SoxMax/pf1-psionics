@@ -53,6 +53,9 @@ system:
         value: '@cl'
       img: icons/magic/death/skeleton-skull-soul-blue.webp
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Guidance of the Ancestors;level=@cl;dFlags.augmentBonus=@augments.amplify]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

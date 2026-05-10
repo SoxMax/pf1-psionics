@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Reconstruction
 folder: q8m9uwepn8lSkXhe
-img: icons/magic/symbols/runes-star-magenta.webp
+img: icons/magic/earth/construct-stone.webp
 name: Reconstruction
 system:
   actions:
@@ -30,6 +30,19 @@ system:
       range:
         units: touch
         value: Touch
+      augments:
+        - _id: Jw8mNpK5vLqBt3xR
+          cost: 2
+          effectNotes: []
+          effects:
+            damageBonus: 1d8
+          footerNotes: []
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
+      notes:
+        footer: []
       save:
         description: Will negates (harmless)
         harmless: true

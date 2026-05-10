@@ -1,0 +1,277 @@
+{
+  "_comment": "Canonical reference for Dreamscarred Press psionic publications cited by this module. Sourced from https://metzo.miraheze.org infobox 'Date of Release' and 'Pages' fields, fetched 2026-05. Use this as the source of truth for any new YAML source-metadata entry; do not invent placeholder dates. Each entry's `aliases` lists incorrect titles found in legacy YAML data so validators can map them back to the canonical entry. Date is ISO YYYY-MM-DD; if only a year is known the date uses YYYY-01-01 with isYearOnly:true; if unknown use null and note in `notes`.",
+  "_lastUpdated": "2026-05-09",
+  "_publisher": "Dreamscarred Press",
+  "publications": {
+    "Psionics Unleashed": {
+      "title": "Psionics Unleashed",
+      "publisher": "Dreamscarred Press",
+      "date": "2010-12-16",
+      "pages": 231,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Unleashed"
+    },
+    "Psionics Unleashed: Revised": {
+      "title": "Psionics Unleashed: Revised",
+      "publisher": "Dreamscarred Press",
+      "date": "2015-06-01",
+      "pages": 236,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Unleashed:_Revised"
+    },
+    "Psionics Expanded": {
+      "title": "Psionics Expanded",
+      "publisher": "Dreamscarred Press",
+      "date": "2012-07-23",
+      "pages": 220,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Expanded"
+    },
+    "Psionics Expanded: Find the Mark": {
+      "title": "Psionics Expanded: Find the Mark",
+      "publisher": "Dreamscarred Press",
+      "date": "2011-06-27",
+      "pages": 29,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Expanded:_Find_the_Mark"
+    },
+    "Psionics Expanded: Hidden Intentions": {
+      "title": "Psionics Expanded: Hidden Intentions",
+      "publisher": "Dreamscarred Press",
+      "date": "2012-05-21",
+      "pages": 53,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Expanded:_Hidden_Intentions"
+    },
+    "Psionics Expanded: Master the Battle": {
+      "title": "Psionics Expanded: Master the Battle",
+      "publisher": "Dreamscarred Press",
+      "date": "2012-03-20",
+      "pages": 45,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Expanded:_Master_the_Battle"
+    },
+    "Psionics Expanded: Mind Over Body": {
+      "title": "Psionics Expanded: Mind Over Body",
+      "publisher": "Dreamscarred Press",
+      "date": "2011-05-16",
+      "pages": 25,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Expanded:_Mind_Over_Body"
+    },
+    "Psionics Expanded: Pawns and Powers": {
+      "title": "Psionics Expanded: Pawns and Powers",
+      "publisher": "Dreamscarred Press",
+      "date": "2011-12-27",
+      "pages": 25,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Expanded:_Pawns_and_Powers"
+    },
+    "Psionics Expanded: Unlimited Possibilities": {
+      "title": "Psionics Expanded: Unlimited Possibilities",
+      "publisher": "Dreamscarred Press",
+      "date": "2011-09-26",
+      "pages": 45,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Expanded:_Unlimited_Possibilities"
+    },
+    "Ultimate Psionics": {
+      "title": "Ultimate Psionics",
+      "publisher": "Dreamscarred Press",
+      "date": "2013-12-24",
+      "pages": 453,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Ultimate_Psionics"
+    },
+    "Psionics Augmented": {
+      "title": "Psionics Augmented",
+      "publisher": "Dreamscarred Press",
+      "date": "2013-10-14",
+      "pages": 78,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Augmented"
+    },
+    "Psionics Augmented: Compilation II": {
+      "title": "Psionics Augmented: Compilation II",
+      "publisher": "Dreamscarred Press",
+      "date": "2018-06-04",
+      "pages": 88,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Augmented:_Compilation_II"
+    },
+    "Psionics Augmented: Feats and Powers": {
+      "title": "Psionics Augmented: Feats and Powers",
+      "publisher": "Dreamscarred Press",
+      "date": "2018-01-01",
+      "isYearOnly": true,
+      "pages": 18,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Augmented:_Feats_and_Powers",
+      "notes": "Wiki only lists year (2018); exact day unknown."
+    },
+    "Psionics Augmented: Focused Disciplines": {
+      "title": "Psionics Augmented: Focused Disciplines",
+      "publisher": "Dreamscarred Press",
+      "date": "2015-12-01",
+      "pages": 10,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Augmented:_Focused_Disciplines"
+    },
+    "Psionics Augmented: Highlord": {
+      "title": "Psionics Augmented: Highlord",
+      "publisher": "Dreamscarred Press",
+      "date": "2017-08-28",
+      "pages": 19,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Augmented:_Highlord"
+    },
+    "Psionics Augmented: Highlord II": {
+      "title": "Psionics Augmented: Highlord II",
+      "publisher": "Dreamscarred Press",
+      "date": "2017-09-12",
+      "pages": 14,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Augmented:_Highlord_II"
+    },
+    "Psionics Augmented: Mind and Soul": {
+      "title": "Psionics Augmented: Mind and Soul",
+      "publisher": "Dreamscarred Press",
+      "date": null,
+      "pages": null,
+      "wikiUrl": null,
+      "notes": "No wiki page exists. Cited by feat YAMLs (boon-phantom, extended-crystalline-bond, mass-haunting, poltergeist-s-hand). Date and page count unknown."
+    },
+    "Psionics Augmented: Mythic Psionics": {
+      "title": "Psionics Augmented: Mythic Psionics",
+      "publisher": "Dreamscarred Press",
+      "date": "2015-04-30",
+      "pages": 75,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Augmented:_Mythic_Psionics"
+    },
+    "Psionics Augmented: Occult Compilation": {
+      "title": "Psionics Augmented: Occult Compilation",
+      "publisher": "Dreamscarred Press",
+      "date": "2017-07-18",
+      "pages": 91,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Augmented:_Occult_Compilation"
+    },
+    "Psionics Augmented: Occult Kineticists": {
+      "title": "Psionics Augmented: Occult Kineticists",
+      "publisher": "Dreamscarred Press",
+      "date": null,
+      "pages": null,
+      "wikiUrl": null,
+      "notes": "No wiki page exists. Cited by feat YAMLs (composite-power, fire-starter). Date unknown; likely a chapter within Occult Compilation."
+    },
+    "Psionics Augmented: Powers": {
+      "title": "Psionics Augmented: Powers",
+      "publisher": "Dreamscarred Press",
+      "date": "2017-01-01",
+      "isYearOnly": true,
+      "pages": 21,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Augmented:_Powers",
+      "notes": "Wiki only lists year (2017); exact day unknown."
+    },
+    "Psionics Augmented: Psicrystals": {
+      "title": "Psionics Augmented: Psicrystals",
+      "publisher": "Dreamscarred Press",
+      "date": "2016-11-29",
+      "pages": 15,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Augmented:_Psicrystals"
+    },
+    "Psionics Augmented: Psychic Warrior": {
+      "title": "Psionics Augmented: Psychic Warrior",
+      "publisher": "Dreamscarred Press",
+      "date": "2017-03-01",
+      "pages": 14,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Augmented:_Psychic_Warrior"
+    },
+    "Psionics Augmented: Psychic Warrior II": {
+      "title": "Psionics Augmented: Psychic Warrior II",
+      "publisher": "Dreamscarred Press",
+      "date": "2017-03-22",
+      "pages": 10,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Augmented:_Psychic_Warrior_II",
+      "aliases": ["Psionics Augmented: Psychic Warriors II"]
+    },
+    "Psionics Augmented: Seventh Path": {
+      "title": "Psionics Augmented: Seventh Path",
+      "publisher": "Dreamscarred Press",
+      "date": "2015-06-23",
+      "pages": 59,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Augmented:_Seventh_Path"
+    },
+    "Psionics Augmented: Soulknives": {
+      "title": "Psionics Augmented: Soulknives",
+      "publisher": "Dreamscarred Press",
+      "date": "2016-02-09",
+      "pages": 18,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Augmented:_Soulknives"
+    },
+    "Psionics Augmented: Soulknives II": {
+      "title": "Psionics Augmented: Soulknives II",
+      "publisher": "Dreamscarred Press",
+      "date": "2016-08-09",
+      "pages": 19,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Augmented:_Soulknives_II",
+      "aliases": ["Psionics Augmented: Soulknives 2"]
+    },
+    "Psionics Augmented: Soulknives III": {
+      "title": "Psionics Augmented: Soulknives III",
+      "publisher": "Dreamscarred Press",
+      "date": "2016-09-28",
+      "pages": 14,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Augmented:_Soulknives_III"
+    },
+    "Psionics Augmented: Voyager": {
+      "title": "Psionics Augmented: Voyager",
+      "publisher": "Dreamscarred Press",
+      "date": "2018-04-02",
+      "pages": 20,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Augmented:_Voyager"
+    },
+    "Psionics Augmented: Wilders": {
+      "title": "Psionics Augmented: Wilders",
+      "publisher": "Dreamscarred Press",
+      "date": "2015-02-07",
+      "pages": 18,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics_Augmented:_Wilders"
+    },
+    "Lords of the Night": {
+      "title": "Lords of the Night",
+      "publisher": "Dreamscarred Press",
+      "date": "2015-05-05",
+      "pages": 80,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Lords_of_the_Night"
+    },
+    "Path of War Expanded": {
+      "title": "Path of War Expanded",
+      "publisher": "Dreamscarred Press",
+      "date": "2016-03-16",
+      "pages": 190,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Path_of_War_Expanded"
+    },
+    "Divergent Paths: Roil Dancer": {
+      "title": "Divergent Paths: Roil Dancer",
+      "publisher": "Dreamscarred Press",
+      "date": "2016-08-26",
+      "pages": 9,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Divergent_Paths:_Roil_Dancer"
+    },
+    "Akasha Reshaped: Psionic Essence": {
+      "title": "Akasha Reshaped: Psionic Essence",
+      "publisher": "Dreamscarred Press",
+      "date": "2022-07-06",
+      "pages": 27,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Akasha_Reshaped:_Psionic_Essence"
+    },
+    "Psionics+": {
+      "title": "Psionics+",
+      "publisher": "Dreamscarred Press",
+      "date": "2022-02-06",
+      "pages": 100,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Psionics%2B"
+    },
+    "April Augmented: 2017": {
+      "title": "April Augmented: 2017",
+      "publisher": "Dreamscarred Press",
+      "date": "2017-04-01",
+      "isYearOnly": true,
+      "pages": null,
+      "wikiUrl": "https://metzo.miraheze.org/wiki/Category:April_Augmented:_2017_powers",
+      "notes": "Monthly DSP April Augmented release for 2017. Contains False Veil (and presumably others)."
+    },
+    "Baron's Glorious Arena": {
+      "title": "Baron's Glorious Arena",
+      "publisher": "Dreamscarred Press",
+      "date": null,
+      "pages": null,
+      "wikiUrl": null,
+      "notes": "No wiki page found. Cited only by feats/piranha-strike.ZALg5Xo7Pi0DkzPs.yaml. Title may be incorrect; possibly a Path of War supplement."
+    }
+  }
+}

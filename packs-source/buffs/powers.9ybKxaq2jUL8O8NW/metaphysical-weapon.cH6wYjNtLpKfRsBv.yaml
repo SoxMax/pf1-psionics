@@ -1,0 +1,46 @@
+_id: cH6wYjNtLpKfRsBv
+_key: '!items!cH6wYjNtLpKfRsBv'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/skills/melee/sword-engraved-glow-purple.webp
+name: Metaphysical Weapon
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  contextNotes:
+    - target: attack
+      text: >-
+        +[[1 + @item.dFlags.augmentBonus]] enhancement bonus on attack rolls
+        (Metaphysical Weapon)
+    - target: damage
+      text: >-
+        +[[1 + @item.dFlags.augmentBonus]] enhancement bonus on damage rolls
+        (Metaphysical Weapon)
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.I3UWxbrN7d4d4Ayt]{Metaphysical
+      Weapon}</p>
+      <p>+[[1 + @item.dFlags.augmentBonus]] enhancement bonus on attack rolls
+      and damage rolls.</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 1
+  showInQuickbar: false
+  subType: spell
+type: buff

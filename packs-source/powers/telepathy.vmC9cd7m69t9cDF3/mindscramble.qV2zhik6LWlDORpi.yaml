@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Mindscramble
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/control/hypnosis-mesmerism-pendulum.webp
 name: Mindscramble
 system:
   actions:
@@ -34,6 +34,17 @@ system:
         type: will
       target:
         value: Your mind blade (or equivalent)
+      augments:
+        - _id: M0n1O2p3Q4r5S6t7
+          name: Increased Damage and Duration
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1d6 damage and +1 round stun duration per 2 PP spent; +1 DC per 4 PP spent'
   description:
     value: >-
       <p>When manifesting this power, you create a subtle psionic field around

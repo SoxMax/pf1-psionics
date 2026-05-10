@@ -1,0 +1,41 @@
+_id: Qxr1mGKwss4TFMn1
+_key: '!items!Qxr1mGKwss4TFMn1'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/control/silhouette-aura-energy.webp
+name: Energy Adaptation, Specified
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  contextNotes:
+    - target: misc
+      text: >-
+        Energy resistance 10/20/30 (based on manifester level) against active
+        energy type (acid, cold, electricity, fire, or sonic). Does not stack
+        with other energy resistance.
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.Qxr1mGKwss4TFMn1]{Energy
+      Adaptation, Specified}</p><p>Resistance 10 (20 at ML 7, 30 at ML 11)
+      against chosen active energy type.</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: 10 * @item.level
+  flags:
+    dictionary: {}
+  hideFromToken: false
+  level: 2
+  showInQuickbar: false
+  subType: spell
+type: buff

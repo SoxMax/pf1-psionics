@@ -1,0 +1,47 @@
+_id: DvDdgD8HReOFGC8s
+_key: '!items!DvDdgD8HReOFGC8s'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+name: Shield Wall, Krakatal's
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  contextNotes:
+    - target: misc
+      text: >-
+        Proficient with tower shields. If already proficient: tower shield AC +1
+        + [[@item.dFlags.augmentBonus]] (augment). Tower shield attack penalty
+        reduced by [[@item.dFlags.attackPenalty]]. Tower shield ACP reduced by
+        [[@item.dFlags.acp]].
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.DvDdgD8HReOFGC8s]{Shield
+      Wall, Krakatal's}</p><p>Proficient with tower shields. If already
+      proficient: +1 + [[@item.dFlags.augmentBonus]] tower shield AC bonus.
+      Tower shield attack penalty reduced by [[@item.dFlags.attackPenalty]].
+      Tower shield ACP reduced by [[@item.dFlags.acp]].</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+      attackPenalty: '0'
+      acp: '0'
+  hideFromToken: false
+  level: 1
+  showInQuickbar: false
+  subType: spell
+type: buff

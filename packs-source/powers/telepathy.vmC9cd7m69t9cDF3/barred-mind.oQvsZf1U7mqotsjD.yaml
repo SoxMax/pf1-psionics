@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Barred_Mind
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/symbols/cross-circle-blue.webp
 name: Barred Mind
 system:
   actions:
@@ -28,12 +28,26 @@ system:
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
+      notes:
+        footer:
+          - '@PsionicApply[Barred Mind;level=@cl;dFlags.augmentBonus=@augments.amplify]'
       save:
         description: Will negates (harmless)
         harmless: true
         type: will
       target:
         value: One creature
+      augments:
+        - _id: H8i9J0k1L2m3N4o5
+          name: Amplify
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.amplify]] resistance bonus on saves vs mind-affecting'
   description:
     value: >-
       <p>The subject is protected from all devices, powers, and spells that

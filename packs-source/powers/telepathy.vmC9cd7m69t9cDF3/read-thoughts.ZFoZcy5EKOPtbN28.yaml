@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Read_Thoughts
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/perception/orb-crystal-ball-scrying.webp
 name: Read Thoughts
 system:
   actions:
@@ -31,11 +31,23 @@ system:
         units: ft
         value: 60
       save:
+        dc: '@augments.dc'
         description: Will negates; see text
         harmless: false
         type: will
       target:
         value: Cone-shaped emanation centered on you
+      augments:
+        - _id: O8p9Q0r1S2t3U4v5
+          name: DC
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1 DC per 2 PP spent'
   description:
     value: >-
       <p>You know the surface thoughts of the mind of any creature in the area

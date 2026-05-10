@@ -1,0 +1,52 @@
+_id: wE7nTpKq3rBv6hJm
+_key: '!items!wE7nTpKq3rBv6hJm'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/death/skull-horned-goat-pentagram-red.webp
+name: Scales of Damnation
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: qF3nGh8s
+      formula: '2 + @item.dFlags.augmentBonus'
+      operator: add
+      priority: 0
+      target: ac
+      type: insight
+    - _id: pL5mKj2t
+      formula: '2 + @item.dFlags.augmentBonus'
+      operator: add
+      priority: 0
+      target: allSavingThrows
+      type: insight
+  contextNotes:
+    - target: misc
+      text: >-
+        Bound to spirit world; may give energy (lose HP to extend duration by 1 round per 2 HP) or drain energy (gain insight bonus to AC and saves) as a standard action (Scales of Damnation)
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.spfjCoAxwB98h3KO]{Scales of Damnation}</p>
+      <p>+[[2 + @item.dFlags.augmentBonus]] insight bonus to AC and all saving throws (when energy drained from spirit world). As a standard action: give energy (lose HP to extend duration by 1 round per 2 HP) or drain energy (gain the insight bonus). AC Bonus augment: spend 2 pp + lose 5 HP to increase insight bonus by 1.</p>
+  duration:
+    end: turnStart
+    units: round
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 4
+  showInQuickbar: false
+  subType: spell
+type: buff

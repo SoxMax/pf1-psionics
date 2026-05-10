@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Fracture_Pattern
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/skills/wounds/bone-broken-knee-beam.webp
 name: Fracture Pattern
 system:
   actions:
@@ -18,15 +18,41 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Vi5eExJ3rA8oOy4h
+          cost: 2
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes:
+            - 'Target takes [[@augments.damage]]d6 untyped damage per augment'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+        - _id: Wj6fFyK4sB0pPz5i
+          cost: 4
+          effectNotes: []
+          effects:
+            dcBonus: 2
+          footerNotes:
+            - 'Affects [[@augments.targets]] additional target(s) within range'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Targets
+          requiresFocus: false
       duration:
         units: round
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Fracture Pattern;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. plus 10 ft. per level)
       save:
         description: Fortitude negates

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Susceptible_Mind
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/perception/eye-tendrils-web-purple.webp
 name: Susceptible Mind
 system:
   actions:
@@ -32,6 +32,27 @@ system:
         description: None
       target:
         value: One creature
+      augments:
+        - _id: E4f5G6h7I8j9K0l1
+          name: Doubled Duration
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration of any failed charm or compulsion effect is doubled'
+        - _id: F5g6H7i8J9k0L1m2
+          name: Additional Target
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Affect one additional creature in range per 2 PP spent'
   description:
     value: >-
       <p>You bend the mind of a creature so that it becomes less resistant to

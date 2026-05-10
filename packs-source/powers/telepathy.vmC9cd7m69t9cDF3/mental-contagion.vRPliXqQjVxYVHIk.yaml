@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Mental_Contagion
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/unholy/projectile-smoke-tendril-green.webp
 name: Mental Contagion
 system:
   actions:
@@ -34,6 +34,27 @@ system:
         type: will
       target:
         value: 3 creatures (see text)
+      augments:
+        - _id: S0t1U2v3W4x5Y6z7
+          name: Targets
+          cost: 4
+          maxUses: 3
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[2 * @augments.targets]] additional secondary targets (max 6)'
+        - _id: T1u2V3w4X5y6Z7a8
+          name: Remove Afflictions
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Make manifester level check (DC 11 + caster/manifester level of highest-level effect); if successful, remove all mind-affecting abilities from initial creature'
   description:
     value: >-
       <p>You join your mind with a creature and seize the afflictions around its

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Death_Pact_(power)
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/unholy/hands-circle-light-green.webp
 name: Death Pact
 system:
   actions:
@@ -21,9 +21,52 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Qr7VwMnBkX5pLa2J
+          cost: 0
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Expend psionic focus: target becomes a free-willed wraith on death (requires 7+ HD)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Wraith
+          requiresFocus: true
+        - _id: Hs4YbPcDmR8tNe6K
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Expend psionic focus: target becomes a free-willed spectre on death (requires 9+ HD)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Spectre
+          requiresFocus: true
+        - _id: Fw6ZoTsGqA3rCj9U
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Expend psionic focus: target becomes a free-willed banshee on death (requires 15+ HD)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Banshee
+          requiresFocus: true
+        - _id: Ek2XuNpHvL7wBf4M
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Suffer 1 permanent negative level; target gains one additional ghost special attack of your choice'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Extra Attack
+          requiresFocus: false
       duration:
         units: perm
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

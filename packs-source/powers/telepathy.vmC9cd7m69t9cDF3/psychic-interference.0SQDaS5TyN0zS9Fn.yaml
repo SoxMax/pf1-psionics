@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Psychic_Interference
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/symbols/ring-circle-smoke-blue.webp
 name: Psychic Interference
 system:
   actions:
@@ -29,11 +29,33 @@ system:
         units: close
         value: Close (25 ft. + 5 ft/2 levels)
       save:
+        dc: '@augments.checktype + @augments.penalty'
         description: Will partial (see text)
         harmless: false
         type: will
       target:
         value: One creature
+      augments:
+        - _id: J3k4L5m6N7o8P9q0
+          name: CheckType
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Choose a second type of check to apply the penalty to; +1 DC per 2 PP spent'
+        - _id: K4l5M6n7O8p9Q0r1
+          name: Penalty
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Penalty increases by 1 per 2 PP spent (partial save penalty also increases by 1 per 2 points); +1 DC per 2 PP spent'
   description:
     value: >-
       <p>You form a mental bond with one creature within range and use that bond

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Solicit_Psicrystal
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/symbols/circled-gem-pink.webp
 name: Solicit Psicrystal
 system:
   actions:
@@ -21,7 +21,7 @@ system:
       duration:
         dismiss: true
         units: round
-        value: '@cl'
+        value: '@cl + @augments.duration'
       name: Use
       powerAttack:
         critMultiplier: 1
@@ -33,6 +33,16 @@ system:
         description: None
       target:
         value: Your psicrystal
+      augments:
+        - _id: U4v5W6x7Y8z9A0b1
+          name: Duration
+          cost: 1
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes: []
   description:
     value: >-
       <p>Your <a href="/wiki/Psicrystal" title="Psicrystal">psicrystal</a> takes

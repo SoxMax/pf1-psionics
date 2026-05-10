@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Follow_the_Strands
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/death/grave-tombstone-glow-tan.webp
 name: Follow the Strands
 system:
   actions:
@@ -18,9 +18,22 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Ws6YpJrNbT4kMh3E
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Target a living person instead of a ghost connected to the object'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Living Target
+          requiresFocus: false
       duration:
         units: inst
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

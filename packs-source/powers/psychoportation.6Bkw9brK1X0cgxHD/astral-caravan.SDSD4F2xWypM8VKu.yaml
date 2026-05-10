@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Astral_Caravan
 folder: 6Bkw9brK1X0cgxHD
-img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+img: icons/magic/air/weather-clouds-rainbow.webp
 name: Astral Caravan
 system:
   actions:
@@ -21,6 +21,17 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Dd4eEf5gGh6iIj7k
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Membrane: Quasi-real enclosure (25% miss chance), hand-linking not required, apparent speed 40 ft., Knowledge (planes) check every 12 hours'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: 1
+          name: Membrane
+          requiresFocus: false
       duration:
         units: spec
         value: See text

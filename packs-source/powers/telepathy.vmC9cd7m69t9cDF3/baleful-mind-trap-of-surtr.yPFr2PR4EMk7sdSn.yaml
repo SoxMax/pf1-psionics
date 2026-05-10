@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Baleful_Mind_Trap_of_Surtr
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/control/orb-web-hold.webp
 name: Baleful Mind Trap of Surtr
 system:
   actions:
@@ -20,7 +20,7 @@ system:
           type: nonaction
       duration:
         units: round
-        value: '1'
+        value: '1 + @augments.duration'
       name: Use
       powerAttack:
         critMultiplier: 1
@@ -32,6 +32,17 @@ system:
         description: None; see text
       target:
         value: You
+      augments:
+        - _id: G7h8I9j0K1l2M3n4
+          name: Duration
+          cost: 1
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: [[1 + @augments.duration]] rounds'
   description:
     value: >-
       <p>You set up a trap in your mind against mental intruders. Anyone who

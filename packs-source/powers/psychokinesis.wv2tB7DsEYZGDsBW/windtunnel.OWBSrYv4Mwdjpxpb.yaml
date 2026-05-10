@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Windtunnel
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/unholy/projectile-fireball-green.webp
+img: icons/magic/air/wind-tornado-funnel-blue.webp
 name: Windtunnel
 system:
   actions:
@@ -28,6 +28,17 @@ system:
       range:
         units: personal
         value: Personal
+      augments:
+        - _id: Nc6oP2tT8wU5xY0z
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.range]] x 10 ft. additional range increment per purchase'
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: Range
+          requiresFocus: false
       save:
         description: None
       target:

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Personality_Parasite
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/unholy/silhouette-evil-horned-giant.webp
 name: Personality Parasite
 system:
   actions:
@@ -27,7 +27,7 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
       save:
         description: Will negates

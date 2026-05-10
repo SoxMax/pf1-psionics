@@ -18,7 +18,7 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      area: '30 ft. radius burst'
       damage:
         parts:
           - formula: 3d6
@@ -32,7 +32,29 @@ system:
       range:
         units: long
         value: Long (400 ft. + 40 ft./level)
+      augments:
+        - _id: Rg8sU4vW0aX7bC2d
+          cost: 2
+          effectNotes: []
+          effects:
+            damageBonus: 1d6
+          footerNotes: []
+          img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
+        - _id: Sh9tV5wX1bY8cD3e
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Can redirect affected area as a standard action (no AoO)'
+          img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+          maxUses: 1
+          name: Redirect
+          requiresFocus: false
       save:
+        dc: '@augments.amplify'
         description: Fortitude half
         harmless: false
         type: fort

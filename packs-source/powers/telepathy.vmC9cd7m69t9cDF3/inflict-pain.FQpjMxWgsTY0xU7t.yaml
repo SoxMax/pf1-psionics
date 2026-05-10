@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Inflict_Pain
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/control/voodoo-doll-pain-damage-red.webp
 name: Inflict Pain
 system:
   actions:
@@ -29,11 +29,23 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
+        dc: '@augments.targets'
         description: Will partial; see text
         harmless: false
         type: will
       target:
         value: One creature
+      augments:
+        - _id: R9s0T1u2V3w4X5y6
+          name: Targets
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1 DC and +1 target per 2 PP spent; targets must be within 15 ft. of another target'
   description:
     value: >-
       <p>You telepathically stab the mind of your foe, causing horrible agony.

@@ -24,6 +24,17 @@ system:
       damage:
         parts:
           - formula: 4d6
+      augments:
+        - _id: Er8nNgS6aJ1xXh7q
+          cost: 2
+          effectNotes: []
+          effects:
+            damageBonus: 1d6
+          footerNotes: []
+          img: icons/magic/unholy/projectile-missile-green.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
       duration:
         units: inst
       name: Use

@@ -20,10 +20,54 @@ system:
           type: nonaction
       ammo:
         type: none
+      augments:
+        - _id: Rp5zAtG3mW8nJx4d
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Affected allies gain 2 temp HP per augment (1 min)'
+          img: icons/magic/life/heart-hand-gold-green-light.webp
+          maxUses: null
+          name: Temp HP
+          requiresFocus: false
+        - _id: Qs6yBuH4oX9kLv5e
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.checkBonus]] bonus on manifester level checks to remove conditions'
+          img: icons/magic/life/heart-hand-gold-green-light.webp
+          maxUses: null
+          name: Check Bonus
+          requiresFocus: false
+        - _id: Tf7cCvI5pY0mMw6f
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.targets]] additional creatures affected'
+          img: icons/magic/life/heart-hand-gold-green-light.webp
+          maxUses: null
+          name: Targets
+          requiresFocus: false
+        - _id: Ug8dDwJ6qZ1nNx7g
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.conditions]] additional condition removed'
+          img: icons/magic/life/heart-hand-gold-green-light.webp
+          maxUses: null
+          name: Conditions
+          requiresFocus: false
       duration:
         units: inst
       img: icons/magic/life/heart-hand-gold-green-light.webp
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Caring Hands;level=@cl;dFlags.augmentBonus=@augments.tempHP]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

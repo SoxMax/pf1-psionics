@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Microcosm_(power)
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/unholy/orb-swirling-teal.webp
 name: Microcosm
 system:
   actions:
@@ -18,7 +18,7 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      area: 'One creature; or one or more creatures within a 15-ft.-radius sphere'
       duration:
         units: inst
       name: Use
@@ -32,6 +32,17 @@ system:
         description: None
       target:
         value: One creature; or one or more creatures within a 15-ft.-radius sphere
+      augments:
+        - _id: D1e2F3g4H5i6J7k8
+          name: Increased HP Threshold
+          cost: 1
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Per PP spent: single target threshold +10 HP; area max total +30 HP; area per-creature threshold +3 HP'
   description:
     value: >-
       <p>This power enables you to warp the consciousness and senses of one or

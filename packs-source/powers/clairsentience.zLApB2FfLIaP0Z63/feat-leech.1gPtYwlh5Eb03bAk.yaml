@@ -1,0 +1,86 @@
+_id: 1gPtYwlh5Eb03bAk
+_key: '!items!1gPtYwlh5Eb03bAk'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Feat_Leech
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/hand-eye-pink.webp
+name: Feat Leech
+system:
+  actions:
+    - actionType: msak
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        description: Will negates; see text
+        type: will
+      target:
+        value: Creature touched
+  description:
+    instructions: ''
+    value: |-
+      <p>You can use another's psionic or metapsionic feats for yourself. You make a melee touch attack against a target. If successful, you immediately are familiar with the target's psionic and metapsionic feats, if any, and you can choose two of these feats to "leech".
+      </p>
+      <p>While the power lasts, you are treated as if you possessed the stolen feats, despite the fact that you have more feats than normally allowed. During this same period, the target can make no use of the stolen feats. When the power's duration expires, you lose access to the feats, and the target gains immediate use of them. This transfer occurs regardless of the distance between you and the target.
+      </p>
+      <p>If the duration of feat leech is extended by the use of a metapsionic feat, the target gains a Will saving throw every 10 minutes beyond the normal duration. If this save succeeds, the power's duration ends. If the target is killed before the duration expires, you immediately lose the benefit of the stolen feats.
+      </p>
+      <p>You cannot steal a feat for which you do not meet the prerequisites, if any. However, you can use a stolen feat as the prerequisite for another stolen feat.
+      </p>
+      <p><strong>Augment:</strong> For every 2 additional power points you spend, you can leech another feat and this power's save DC increases by 1.
+      </p>
+  descriptors: []
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: false
+    mental: true
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      dread: 2
+      gifted blade: 2
+      psion: 2
+      psychic warrior: 2
+      sighted seeker: 2
+      tactician: 2
+      thug: 2
+      voyager: 2
+      wilder: 2
+  level: 2
+  manifestTime:
+    units: standard
+    value: 1
+  manifester: ''
+  prepared: false
+  sources:
+    - date: '2010-12-16'
+      pages: '112'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '203'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2015-04-30'
+      pages: '42'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline: []
+  tags: []
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

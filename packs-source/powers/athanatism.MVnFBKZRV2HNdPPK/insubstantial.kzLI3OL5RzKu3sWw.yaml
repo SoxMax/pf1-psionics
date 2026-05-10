@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Insubstantial
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/unholy/silhouette-light-fire-blue.webp
 name: Insubstantial
 system:
   actions:
@@ -21,6 +21,47 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Cf7HmBwKqT5rNs2V
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Gain innate sense of direction: move at full speed even when unable to see'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Direction Sense
+          requiresFocus: false
+        - _id: Dg8InCxLrU6sOt3W
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Move silently: observers take -5 penalty on Perception checks to locate you'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Silent Movement
+          requiresFocus: false
+        - _id: Eh9JoDyMsV7tPu4X
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'AC altered as natural incorporeal creature: lose natural armor, gain deflection bonus = Cha modifier (non-ghost-touch armor/shields cease applying)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Incorporeal AC
+          requiresFocus: false
+        - _id: Fi1KpEzNtW8uQv5Y
+          cost: 8
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Immune to non-magical attacks; half damage from magic weapons/powers; 50% chance corporeal non-damaging effects miss; force effects affect normally'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Full Incorporeal
+          requiresFocus: false
       damage:
         parts:
           - formula: 1d6
@@ -28,6 +69,9 @@ system:
         units: round
         value: '1'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Insubstantial;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

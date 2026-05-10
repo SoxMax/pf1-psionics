@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Telekinetic_Bola
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/unholy/projectile-fireball-green.webp
+img: icons/magic/control/orb-web-hold.webp
 name: Telekinetic Bola
 system:
   actions:
@@ -32,6 +32,21 @@ system:
       range:
         units: ft
         value: 5 feet
+      augments:
+        - _id: Jy2kL8pP4sQ1tU6v
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.amplify]] shield bonus (defensive) or +[[@augments.amplify]]d3 damage (offensive) per purchase'
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Telekinetic Bola;level=@cl;dFlags.augmentBonus=@augments.amplify]
       save:
         description: None
       target:

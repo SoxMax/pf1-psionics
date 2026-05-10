@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/False_Future
 folder: zLApB2FfLIaP0Z63
-img: icons/magic/perception/third-eye-blue-red.webp
+img: icons/magic/perception/eye-tendrils-web-purple.webp
 name: False Future
 system:
   actions:
@@ -28,6 +28,20 @@ system:
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
+      augments:
+        - _id: Bw7kDmRpZtJgXc4q
+          name: Amplify
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes:
+            - 'Duration: [[1+@augments.amplify]] rounds; DC increased by +[[@augments.amplify]]'
+      notes:
+        footer: []
       save:
         description: Will negates
         harmless: false

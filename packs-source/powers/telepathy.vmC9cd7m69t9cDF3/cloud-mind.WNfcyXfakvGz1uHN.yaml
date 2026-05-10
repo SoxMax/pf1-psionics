@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Cloud_Mind
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/perception/silhouette-stealth-shadow.webp
 name: Cloud Mind
 system:
   actions:
@@ -29,11 +29,43 @@ system:
         units: close
         value: Close (25 ft. +5 ft./2 levels)
       save:
+        dc: '3*@augments.immediate + @augments.targets + 4*@augments.mass'
         description: Will negates
         harmless: false
         type: will
       target:
         value: One creature
+      augments:
+        - _id: N4o5P6q7R8s9T0u1
+          name: Immediate
+          cost: 6
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Manifest this power as an immediate action'
+        - _id: O5p6Q7r8S9t0U1v2
+          name: Targets
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.targets]] additional creature(s)'
+        - _id: P6q7R8s9T0u1V2w3
+          name: Mass
+          cost: 8
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Affects one creature per manifester level'
   description:
     value: >-
       <p>You make yourself completely undetectable to the subject by erasing all

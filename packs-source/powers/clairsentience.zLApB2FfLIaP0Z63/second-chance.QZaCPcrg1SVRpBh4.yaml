@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Second_Chance_(power)
 folder: zLApB2FfLIaP0Z63
-img: icons/magic/perception/third-eye-blue-red.webp
+img: icons/magic/control/modfiy-luck-fortune-gray.webp
 name: Second Chance
 system:
   actions:
@@ -28,6 +28,20 @@ system:
       range:
         units: personal
         value: Personal
+      augments:
+        - _id: Wc4nRjGkBqMpTx8a
+          name: Amplify
+          cost: 3
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.amplify]] insight bonus on the reroll'
+      notes:
+        footer:
+          - '@PsionicApply[Second Chance;level=@cl;dFlags.augmentBonus=@augments.amplify]'
       save:
         description: None
       target:

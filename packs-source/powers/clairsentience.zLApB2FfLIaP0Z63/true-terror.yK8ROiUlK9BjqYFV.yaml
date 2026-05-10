@@ -18,7 +18,6 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
       duration:
         units: round
         value: '1'
@@ -27,8 +26,64 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
+      augments:
+        - _id: Ub4wNkPrJcTmXe9f
+          name: Long Range
+          cost: 0
+          maxUses: 1
+          requiresFocus: true
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Range: Long (400 ft. + 40 ft./level)'
+        - _id: Zo6vRsGdBnWqHy2a
+          name: Targets
+          cost: 1
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.targets]] additional target(s)'
+        - _id: Ax8mCkFpLjEtVr3n
+          name: Stun Duration
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes:
+            - 'Target is stunned for [[1+@augments.stunDuration]] round(s); DC +[[@augments.stunDuration]]'
+        - _id: Iy5hDzOmKwSbPg7c
+          name: Lower Intelligence
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes:
+            - 'Can target creatures with Intelligence 1+, and nonliving creatures; DC +1'
+        - _id: Qn2tBwJrCpMfXv6s
+          name: Area Effect
+          cost: 5
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Area effect: 20 ft. radius centered on you (affects all targets within range)'
+      notes:
+        footer:
+          - 'DC increases by +1 for every 2 power points spent on augments'
       save:
         description: Will negates
         harmless: false

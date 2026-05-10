@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Strength_of_My_Enemy
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/control/buff-strength-muscle-damage-red.webp
 name: Strength of My Enemy
 system:
   actions:
@@ -18,11 +18,35 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Pc6yYrE9lU4iIs1b
+          cost: 3
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Maximum enhancement bonus to Strength increases by 2 per augment'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Max Bonus
+          requiresFocus: false
+        - _id: Qd7zZsF0nW5kKu2d
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Casting Time: Swift'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Swift
+          requiresFocus: false
       duration:
         dismiss: true
         units: round
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Strength of My Enemy;level=@cl;dFlags.augmentBonus=@augments.maxBonus]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

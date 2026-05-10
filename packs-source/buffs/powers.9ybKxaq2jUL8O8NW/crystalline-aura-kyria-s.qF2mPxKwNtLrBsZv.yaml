@@ -1,0 +1,50 @@
+_id: qF2mPxKwNtLrBsZv
+_key: '!items!qF2mPxKwNtLrBsZv'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/defensive/shield-barrier-flaming-diamond-teal.webp
+name: Crystalline Aura, Kyria's
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: Gc5vNpLw
+      formula: 3 + @item.dFlags.augmentBonus
+      operator: add
+      priority: 0
+      target: sac
+      type: untyped
+  contextNotes:
+    - target: allSavingThrows
+      text: >-
+        +[[3 + @item.dFlags.augmentBonus]] competence bonus to Reflex saves
+        (defensive mode, Crystalline Aura)
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.SORoVXC0sJgaqKfh]{Crystalline
+      Aura, Kyria's}</p>
+      <p>Defensive mode: +[[3 + @item.dFlags.augmentBonus]] shield bonus to
+      AC and +[[3 + @item.dFlags.augmentBonus]] competence bonus to Reflex
+      saves.</p>
+  duration:
+    end: turnStart
+    units: round
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 4
+  showInQuickbar: false
+  subType: spell
+type: buff

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Everyman
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/control/silhouette-hold-change-green.webp
 name: Everyman
 system:
   actions:
@@ -21,10 +21,34 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Qd0zZsE8mV3jJt9c
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Can disguise as specific individuals'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Impersonate
+          requiresFocus: false
+        - _id: Re1aAtF9nW4kKu0d
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Can alter smell to blend in with creatures using scent or chemical senses'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Scent Disguise
+          requiresFocus: false
       duration:
         units: hour
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Everyman;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

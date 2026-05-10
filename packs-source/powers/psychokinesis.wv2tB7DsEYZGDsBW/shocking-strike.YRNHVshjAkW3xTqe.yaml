@@ -31,6 +31,17 @@ system:
       range:
         units: ft
         value: Melee
+      augments:
+        - _id: Et7fG3kK9nL6oP1q
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Manifest on successful attack instead of before; effect applies to that attack'
+          img: icons/magic/lightning/bolt-strike-blue-white.webp
+          maxUses: 1
+          name: Reactive
+          requiresFocus: false
       save:
         description: None
       target:

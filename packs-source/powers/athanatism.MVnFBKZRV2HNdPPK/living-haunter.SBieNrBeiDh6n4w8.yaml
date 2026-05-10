@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Living_Haunter
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/death/undead-ghost-scream-teal.webp
 name: Living Haunter
 system:
   actions:
@@ -18,11 +18,56 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Kn6QrJtUxY9bFo3H
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Target +[[@augments.creatures]] additional creature(s) with movement ability'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Movement Targets
+          requiresFocus: false
+        - _id: Lo7RsKuVyZ1cGp4I
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Hallucinations include full sound, smell, and thermal elements'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Full Hallucinations
+          requiresFocus: false
+        - _id: Mp8StLvWzA2dHq5J
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Animate +[[@augments.objects]] additional Small object(s) (or fewer, larger objects per control object)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Animate More
+          requiresFocus: false
+        - _id: Nq9TuMwXaB3eIr6K
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration increased to 1 min./level; if 6+ pp augmenting total, sustain effects as move action instead of standard'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Duration
+          requiresFocus: false
       duration:
         dismiss: true
-        units: spec
-        value: 1 round/level (D) and Will negates; see text and yes; see text
+        units: round
+        value: '@cl'
       name: Use
+      notes:
+        footer:
+          - 'If 6+ power points spent augmenting, sustain effects as move action instead of standard action'
+          - '@PsionicApply[Living Haunter;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

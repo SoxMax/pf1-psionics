@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Soul_Stealing
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/unholy/orb-colllecting-energy-green.webp
 name: Soul Stealing
 system:
   actions:
@@ -18,9 +18,22 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Sv4AaCcDdE7jMw2Q
+          cost: 2
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes: []
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: DC
+          requiresFocus: false
       duration:
         units: inst
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

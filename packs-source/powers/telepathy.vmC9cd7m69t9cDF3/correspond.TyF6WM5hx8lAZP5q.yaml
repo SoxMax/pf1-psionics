@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Correspond
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/control/energy-stream-link-spiral-blue.webp
 name: Correspond
 system:
   actions:
@@ -32,6 +32,17 @@ system:
         description: None
       target:
         value: One creature with an Intelligence score of 3 or higher
+      augments:
+        - _id: T0u1V2w3X4y5Z6a7
+          name: Duration
+          cost: 4
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: [[10 * @cl]] minutes (instead of @cl rounds)'
   description:
     value: >-
       <p>You forge a passive mental link with a creature with which you have

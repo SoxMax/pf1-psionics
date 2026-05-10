@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Time_Regression
 folder: 6Bkw9brK1X0cgxHD
-img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+img: icons/magic/time/clock-analog-gray.webp
 name: Time Regression
 system:
   actions:
@@ -75,10 +75,10 @@ system:
     value: 1
   prepared: false
   sources:
-    - date: '2010-01-01'
+    - date: '2010-08-01'
       pages: '150'
       publisher: Dreamscarred Press
-      title: '150'
+      title: Psionics Unleashed
     - date: '2013-12-24'
       pages: '252'
       publisher: Dreamscarred Press

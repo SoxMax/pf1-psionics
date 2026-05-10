@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Swarm_of_Crystals
 folder: q8m9uwepn8lSkXhe
-img: icons/magic/symbols/runes-star-magenta.webp
+img: icons/commodities/gems/gem-fragments-blue.webp
 name: Swarm of Crystals
 system:
   actions:
@@ -30,6 +30,19 @@ system:
       range:
         units: ft
         value: 15
+      augments:
+        - _id: Lk7mJpT4nBwXv6rQ
+          cost: 1
+          effectNotes: []
+          effects:
+            damageBonus: 1d4
+          footerNotes: []
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+      notes:
+        footer: []
       save:
         description: None
       target:

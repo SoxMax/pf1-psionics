@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Null_Psionics_Field
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/unholy/projectile-fireball-green.webp
+img: icons/magic/control/debuff-energy-hold-blue-yellow.webp
 name: Null Psionics Field
 system:
   actions:
@@ -18,7 +18,7 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      area: '10-ft.-radius emanation centered on you'
       duration:
         dismiss: true
         units: minute

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Touchsight
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/nature/stealth-hide-eyes-pink.webp
 name: Touchsight
 system:
   actions:
@@ -21,11 +21,25 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Uh1dDwJ4rA9oOy6h
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Touchsight field radius increases by 10 ft. per augment'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Radius
+          requiresFocus: false
       duration:
         dismiss: true
         units: minute
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Touchsight;level=@cl;dFlags.augmentBonus=@augments.radius]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

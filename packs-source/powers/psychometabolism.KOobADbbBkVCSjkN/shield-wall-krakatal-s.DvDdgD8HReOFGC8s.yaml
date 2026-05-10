@@ -58,6 +58,9 @@ system:
         units: minute
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Shield Wall, Krakatal''s;level=@cl;dFlags.augmentBonus=@augments.ac;dFlags.attackPenalty=@augments.attackPenalty;dFlags.acp=@augments.acp]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

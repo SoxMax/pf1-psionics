@@ -1,0 +1,43 @@
+_id: vB9xJqNr4kWp8sGm
+_key: '!items!vB9xJqNr4kWp8sGm'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/death/mouth-teeth-fangs-vampire.webp
+name: Feast of the Dead
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  contextNotes:
+    - target: misc
+      text: >-
+        Gained [[1d8 + min(floor(@cl/2), 10)]] temporary hit points (Feast of the Dead)
+    - target: misc
+      text: >-
+        +2 morale bonus on saves vs. curses and effects that sicken or nauseate (Feast of the Dead)
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.L7Q21esBCV4JAiN8]{Feast of the Dead}</p>
+      <p>[[1d8 + min(floor(@cl/2), 10)]] temporary hit points. +2 morale bonus on saves against curses and effects that sicken or nauseate. With Enhanced Feast augment: also +1 morale bonus on attack rolls and +4 bonus on saves vs. curses and sicken/nauseate.</p>
+  duration:
+    end: turnStart
+    units: hour
+    value: '12'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 3
+  showInQuickbar: false
+  subType: spell
+type: buff

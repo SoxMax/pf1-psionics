@@ -1,0 +1,55 @@
+_id: xQLwU2ozdlgBhIZ9
+_key: '!items!xQLwU2ozdlgBhIZ9'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Battle Transformation, Galen's
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: 8ARkFLoQ
+      formula: '2 + @item.dFlags.augmentBonus'
+      operator: add
+      priority: 0
+      target: attack
+      type: luck
+    - _id: LbYpTSNm
+      formula: '2 + @item.dFlags.augmentBonus'
+      operator: add
+      priority: 0
+      target: damage
+      type: luck
+  contextNotes:
+    - target: misc
+      text: '+[[2 + @item.dFlags.augmentBonus]] luck bonus on Strength checks and Strength-based skill checks (Battle Transformation, Galen''s)'
+    - target: misc
+      text: '[[1 * @item.level]] temporary hit points (Battle Transformation, Galen''s)'
+    - target: attack
+      text: 'May make one additional attack at full base attack bonus on a full-attack action (not cumulative with similar effects)'
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.ZJLQsarT8BswEPs6]{Battle Transformation, Galen's}</p>
+      <p>+[[2 + @item.dFlags.augmentBonus]] luck bonus on attack rolls, weapon damage rolls, Strength checks, and Strength-based skill checks. [[1 * @item.level]] temporary hit points. May make one additional attack at full base attack bonus on a full-attack action (not cumulative with similar effects).</p>
+  duration:
+    end: turnStart
+    units: round
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 4
+  showInQuickbar: false
+  subType: spell
+type: buff

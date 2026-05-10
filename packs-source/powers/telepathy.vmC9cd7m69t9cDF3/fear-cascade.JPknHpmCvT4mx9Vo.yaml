@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Fear_Cascade
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/control/fear-fright-monster-grin-purple-blue.webp
 name: Fear Cascade
 system:
   actions:
@@ -34,6 +34,29 @@ system:
         type: will
       target:
         value: One creature and any number within 20 ft.
+      augments:
+        - _id: N5o6P7q8R9s0T1u2
+          name: Duration
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes:
+            - 'Shaken duration: [[1 + @augments.duration]] rounds'
+        - _id: O6p7Q8r9S0t1U2v3
+          name: Range
+          cost: 4
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects:
+            dcBonus: 2
+          footerNotes:
+            - 'Cascade radius: [[20 + 10 * @augments.range]] ft.'
   description:
     value: >-
       <p>You overload the target creature's mental and physical faculties with

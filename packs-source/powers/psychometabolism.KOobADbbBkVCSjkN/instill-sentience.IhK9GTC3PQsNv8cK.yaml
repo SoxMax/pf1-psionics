@@ -18,6 +18,27 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Dq3mMfS6zI7wWg8p
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Can awaken vermin or oozes'
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: 1
+          name: Vermin or Ooze
+          requiresFocus: false
+        - _id: Er4nNgT7aJ8xXh9q
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Athanatism only: Can awaken mindless undead by binding a spirit to their animated husk'
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          maxUses: 1
+          name: Undead (Athanatism)
+          requiresFocus: false
       duration:
         dismiss: true
         units: spec

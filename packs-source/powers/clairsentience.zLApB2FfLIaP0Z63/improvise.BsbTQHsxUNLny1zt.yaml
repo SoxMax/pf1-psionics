@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Improvise
 folder: zLApB2FfLIaP0Z63
-img: icons/magic/perception/third-eye-blue-red.webp
+img: icons/magic/symbols/cog-glowing-green.webp
 name: Improvise
 system:
   actions:
@@ -28,6 +28,19 @@ system:
       range:
         units: personal
         value: Personal
+      augments:
+        - _id: Yr3wCnGjKqTpBx7s
+          name: Duration
+          cost: 6
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: 1 round/level (ends when readied action is taken)'
+      notes:
+        footer: []
       save:
         description: None
       target:

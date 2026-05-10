@@ -1,0 +1,46 @@
+_id: sH8nKpQv3rWm6yBj
+_key: '!items!sH8nKpQv3rWm6yBj'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+name: Tormenting the Living
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: xP2rNs7v
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: refSave
+      type: untyped
+  contextNotes:
+    - target: misc
+      text: >-
+        -2 penalty to AC against attacks of opportunity (Tormenting the Living)
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.E9qPCbbN240q0fQc]{Tormenting the Living}</p>
+      <p>-2 penalty on Reflex saves and -2 penalty to AC against attacks of opportunity. The manifester may expend psionic focus as a swift action to cause the target to be shaken for a number of rounds equal to their Charisma modifier.</p>
+  duration:
+    end: turnStart
+    units: hour
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 2
+  showInQuickbar: false
+  subType: spell
+type: buff

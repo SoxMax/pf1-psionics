@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Fuse_Flesh
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/skills/wounds/injury-stapled-flesh-tan.webp
 name: Fuse Flesh
 system:
   actions:
@@ -21,6 +21,16 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Xk7gGzL5tC1qQa6j
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: DC
+          requiresFocus: false
       duration:
         units: round
         value: '@cl'
@@ -32,6 +42,7 @@ system:
         units: touch
         value: Touch
       save:
+        dc: '@augments.dc'
         description: Fortitude negates and Fortitude partial; see text
         harmless: false
         type: fort

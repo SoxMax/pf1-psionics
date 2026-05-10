@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Detect_Hostile_Intent
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/perception/eye-slit-orange.webp
 name: Detect Hostile Intent
 system:
   actions:
@@ -18,7 +18,7 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      area: '30-ft.-radius emanation centered on you'
       duration:
         dismiss: true
         units: minute

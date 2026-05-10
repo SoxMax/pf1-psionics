@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Mental_Mist
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/unholy/orb-swirling-pink.webp
 name: Mental Mist
 system:
   actions:
@@ -18,7 +18,7 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      area: '20 ft radius'
       damage:
         parts:
           - formula: 1d6
@@ -30,7 +30,7 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
       save:
         description: Will negates
@@ -38,6 +38,47 @@ system:
         type: will
       target:
         value: 20 ft radius
+      augments:
+        - _id: X5y6Z7a8B9c0D1e2
+          name: Mental Drain
+          cost: 4
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Targets that fail save move at half speed and take -2 on attack and melee damage rolls; cannot take 5-ft.-step'
+        - _id: Y6z7A8b9C0d1E2f3
+          name: Mist Damage
+          cost: 4
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Targets that fail save take 1d6 damage at start of your turn each round'
+        - _id: Z7a8B9c0D1e2F3g4
+          name: Wisdom Damage
+          cost: 6
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Targets must Fort save each turn or take 1d4 Wis damage (half on success)'
+        - _id: A8b9C0d1E2f3G4h5
+          name: Self-Exclusion
+          cost: 0
+          maxUses: 1
+          requiresFocus: true
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Expend psionic focus: you are excluded from all effects while inside the area'
   description:
     value: >-
       <p>You reach into the minds of your targets and cloud them, making them

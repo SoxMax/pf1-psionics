@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Ectoplasmic_Cocoon
 folder: q8m9uwepn8lSkXhe
-img: icons/magic/symbols/runes-star-magenta.webp
+img: icons/magic/nature/root-vine-entangled-humanoid.webp
 name: Ectoplasmic Cocoon
 system:
   actions:
@@ -27,9 +27,33 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
+      augments:
+        - _id: Ld5mKrQ9vPwXn2hT
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: null
+          name: DC
+          requiresFocus: false
+        - _id: Yp8cNsH6fBzJm4wA
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Target size increases by [[@augments.size]] category (affects up to [[Medium+@augments.size]]
+              creature)'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: null
+          name: Size
+          requiresFocus: false
+      notes:
+        footer: []
       save:
+        dc: '@augments.dc'
         description: Reflex negates
         harmless: false
         type: ref

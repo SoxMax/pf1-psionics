@@ -1,0 +1,43 @@
+_id: Qr8sTu9vWxYz0aB1
+_key: '!items!Qr8sTu9vWxYz0aB1'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/symbols/mask-metal-silver-white.webp
+name: Mental Semblance
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: Cd2eGh3I
+      formula: '30 + 2 * @item.dFlags.augmentBonus'
+      operator: add
+      priority: 0
+      target: skill.dis
+      type: competence
+  contextNotes: []
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.6HCBlsoeAgeRnsEo]{Mental Semblance}</p>
+      <p>+[[30 + 2 * @item.dFlags.augmentBonus]] competence bonus on Disguise checks to appear as the duplicated individual. Also grants an equivalent bonus on Bluff checks to act like them.</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '10 * @item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 2
+  showInQuickbar: false
+  subType: spell
+type: buff

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Concealing_Amorpha
 folder: q8m9uwepn8lSkXhe
-img: icons/magic/symbols/runes-star-magenta.webp
+img: icons/magic/defensive/illusion-evasion-echo-purple.webp
 name: Concealing Amorpha
 system:
   actions:
@@ -29,6 +29,21 @@ system:
       range:
         units: ft
         value: 0
+      augments:
+        - _id: Mn4pLqT8vXwRs2kB
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Membrane extends to affect one adjacent creature (loses protection if it moves
+              away)'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: 1
+          name: Spread
+          requiresFocus: false
+      notes:
+        footer:
+          - '@PsionicApply[Concealing Amorpha;level=@cl]'
       save:
         description: None
       target:

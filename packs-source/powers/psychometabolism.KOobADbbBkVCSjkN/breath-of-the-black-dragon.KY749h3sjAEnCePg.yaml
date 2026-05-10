@@ -21,6 +21,18 @@ system:
       damage:
         parts:
           - formula: 11d6
+      augments:
+        - _id: Mn4jQpL9sR7xKz1b
+          cost: 1
+          effectNotes: []
+          effects:
+            damageBonus: 1d6
+          footerNotes:
+            - '+[[floor(@augments.damage / 2)]] DC (every 2 additional damage dice grants +1 DC)'
+          img: icons/magic/unholy/projectile-missile-green.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
       duration:
         units: inst
       name: Use
@@ -31,6 +43,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
+        dc: 'floor(@augments.damage / 2)'
         description: Reflex half
         harmless: false
         type: ref

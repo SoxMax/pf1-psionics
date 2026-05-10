@@ -28,6 +28,43 @@ system:
       range:
         units: personal
         value: Personal
+      augments:
+        - _id: Rv4kMnP8xLqTs3wB
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Base damage increases to [[2 + 2*@augments.damage]]d6 (discharge minimum 1d6)'
+          img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+        - _id: Jc7sWpH2vNyDm6tK
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Each discharge reduces damage by 1d6 instead of halving'
+          img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+          maxUses: 1
+          name: Slow Discharge
+          requiresFocus: false
+        - _id: Xb9fAkG5rCzVn1hQ
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Gain 3 temporary HP per die of base damage ([[3 * (2 + 2*@augments.damage)]] temp
+              HP)'
+          img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+          maxUses: 1
+          name: Temp HP
+          requiresFocus: false
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Ectoplasmic Charged
+            Armor;level=@cl;dFlags.augmentBonus=@augments.damage]
       save:
         description: None
       target:

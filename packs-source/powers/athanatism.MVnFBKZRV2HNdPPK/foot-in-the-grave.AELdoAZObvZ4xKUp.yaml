@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Foot_in_the_Grave
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/death/hand-dirt-undead-zombie.webp
 name: Foot in the Grave
 system:
   actions:
@@ -18,10 +18,33 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Vt5BpKxMqY8nCe3G
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Expend psionic focus while active to take control of different corporal undead body (may do multiple times)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Swap Bodies
+          requiresFocus: false
+        - _id: Qn7JwLrSvA5tDf2H
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration increased to 1 hour/level'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Duration
+          requiresFocus: false
       duration:
         units: minute
         value: 10 * @cl
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

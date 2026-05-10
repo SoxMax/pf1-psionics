@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Genesis_(power)
 folder: q8m9uwepn8lSkXhe
-img: icons/magic/symbols/runes-star-magenta.webp
+img: icons/magic/symbols/star-rising-purple.webp
 name: Genesis
 system:
   actions:
@@ -28,6 +28,59 @@ system:
       range:
         units: ft
         value: 0; see text
+      augments:
+        - _id: Fx4mNwT7pLkBs2vC
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Add or remove any planar trait (create demiplane); duration becomes Instantaneous'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: 1
+          name: Planar Trait
+          requiresFocus: false
+        - _id: Qh8rJcK5vXwMn3tD
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Add or remove any trait (create demiplane, greater); duration becomes Instantaneous'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: 1
+          name: Greater Planar Trait
+          requiresFocus: false
+        - _id: Bz3wPkG6nDxFm8hR
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Max size increases to 10 10-ft. cubes/level (double manifestation time required)'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: 1
+          name: Expanded Size
+          requiresFocus: false
+        - _id: Tn9sLfH4wCzVk1mQ
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Max size increases to 20 10-ft. cubes/level (quadruple manifestation time required)'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: 1
+          name: Grand Size
+          requiresFocus: false
+        - _id: Ep5vBjN8qKxTd6wS
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration becomes Permanent (requires 20,000 gp in specially-treated crystals)'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: 1
+          name: Permanent
+          requiresFocus: false
+      notes:
+        footer: []
       save:
         description: None
       target:

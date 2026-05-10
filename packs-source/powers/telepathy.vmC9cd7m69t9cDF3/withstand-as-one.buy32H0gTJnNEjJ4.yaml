@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Withstand_as_One
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/symbols/cog-shield-white-blue.webp
 name: Withstand as One
 system:
   actions:
@@ -28,12 +28,49 @@ system:
       range:
         units: close
         value: Close (25 ft. + 5 ft/2 levels)
+      notes:
+        footer:
+          - '@PsionicApply[Withstand as One;level=@cl]'
       save:
         description: Will negates (harmless, see text)
         harmless: true
         type: will
       target:
         value: You plus one other creature
+      augments:
+        - _id: L1m2N3o4P5q6R7s8
+          name: Additional Save Type
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes:
+            - 'Choose a second save type to share'
+        - _id: Wn4tQp7vMr2sZk8b
+          name: All Save Types
+          cost: 6
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects:
+            dcBonus: 3
+          footerNotes:
+            - 'Share all three save types with all targets'
+        - _id: M2n3O4p5Q6r7S8t9
+          name: Share Save-Modifying Feature
+          cost: 4
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects:
+            dcBonus: 2
+          footerNotes:
+            - 'Select one class feature that directly modifies the shared save(s) and grant it to willing targets'
   description:
     value: >-
       <p>When manifesting this power, you must choose one kind of saving throw:

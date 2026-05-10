@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Localized_Windstorm
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/unholy/projectile-fireball-green.webp
+img: icons/magic/air/wind-tornado-wall-blue.webp
 name: Localized Windstorm
 system:
   actions:
@@ -29,6 +29,58 @@ system:
       range:
         units: close
         value: Close (25 ft. +5 ft/level)
+      augments:
+        - _id: Qf3rS9vW5zA2bB7c
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: 1 round/level, no concentration needed; reshape as standard action'
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: 1
+          name: Duration
+          requiresFocus: false
+        - _id: Rg4sT0wX6aB3cC8d
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Range: Medium (100 ft. + 10 ft./level)'
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: 1
+          name: Range
+          requiresFocus: false
+        - _id: Sh5tU1xY7bC4dD9e
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Enhanced control: reshape as immediate action; mixed calm/intense zones allowed'
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: 1
+          name: Enhanced Control
+          requiresFocus: false
+        - _id: Ti6uV2yZ8cD5eE0f
+          cost: 2
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes:
+            - '-[[@augments.pacify]] additional wind categories when pacifying; +1 DC per 2 PP spent'
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: Pacify
+          requiresFocus: false
+        - _id: Uj7vW3zA9dE6fF1g
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.weight]] lb. weight limit for projectile deflection'
+          img: icons/magic/unholy/projectile-fireball-green.webp
+          maxUses: null
+          name: Weight Limit
+          requiresFocus: false
       save:
         description: None, see text
       target:

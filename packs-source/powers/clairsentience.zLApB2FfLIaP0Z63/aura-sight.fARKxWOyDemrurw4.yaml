@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Aura_Sight
 folder: zLApB2FfLIaP0Z63
-img: icons/magic/perception/third-eye-blue-red.webp
+img: icons/magic/light/explosion-glow-spiral-teal.webp
 name: Aura Sight
 system:
   actions:
@@ -29,6 +29,19 @@ system:
       range:
         units: ft
         value: 60
+      augments:
+        - _id: Hn4wBjGpR8cXvK3m
+          name: Range
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Range: [[@augments.range * 5]] additional feet (+[[@augments.range * 5]] ft. total increase)'
+      notes:
+        footer: []
       save:
         description: None
       target:

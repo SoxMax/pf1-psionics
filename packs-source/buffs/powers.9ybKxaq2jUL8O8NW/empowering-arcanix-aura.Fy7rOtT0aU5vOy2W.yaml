@@ -1,0 +1,50 @@
+_id: Fy7rOtT0aU5vOy2W
+_key: '!items!Fy7rOtT0aU5vOy2W'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/control/silhouette-aura-energy.webp
+name: Empowering Arcanix Aura
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: Gz8sPu
+      formula: '2'
+      operator: add
+      priority: 0
+      target: allSavingThrows
+      type: insight
+  contextNotes:
+    - target: misc
+      text: >-
+        +2 insight bonus on saves against chosen energy type (arcane, divine, or
+        psychic). On successful save, gain 1 temp HP per spell level or +1
+        insight bonus to next d20 per 3 spell levels (Empowering Arcanix Aura)
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.qcuo1HxyRA3ts2mp]{Empowering
+      Arcanix Aura}</p>
+      <p>+2 insight bonus on saves against chosen spell type (arcane, divine, or
+      psychic). On successful save, siphon energy for temp HP or d20 bonuses.</p>
+  duration:
+    end: turnStart
+    units: round
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 2
+  showInQuickbar: false
+  subType: spell
+type: buff

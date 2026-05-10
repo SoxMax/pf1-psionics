@@ -1,0 +1,45 @@
+_id: Ex6qNsS9zT4uNx1V
+_key: '!items!Ex6qNsS9zT4uNx1V'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/defensive/barrier-shield-dome-deflect-blue.webp
+name: Ablative Armor
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  contextNotes:
+    - target: misc
+      text: >-
+        Armor bonus to AC increased by [[2 + @item.dFlags.augmentBonus]]; armor
+        has ghost touch property. Bonus decreases by 1 per successful hit
+        (Ablative Armor)
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.H2gR4z7RYfmdlC47]{Ablative
+      Armor}</p>
+      <p>Armor bonus to AC +[[2 + @item.dFlags.augmentBonus]]. Armor treated as
+      ghost touch. Bonus reduces by 1 per successful hit (not against touch
+      AC).</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: 10 * @item.level
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 2
+  showInQuickbar: false
+  subType: spell
+type: buff

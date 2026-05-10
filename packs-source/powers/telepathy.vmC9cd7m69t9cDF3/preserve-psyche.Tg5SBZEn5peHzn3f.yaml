@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Preserve_Psyche
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/unholy/orb-glowing-yellow-purple.webp
 name: Preserve Psyche
 system:
   actions:
@@ -34,6 +34,17 @@ system:
         type: will
       target:
         value: One slain creature
+      augments:
+        - _id: B5c6D7e8F9g0H1i2
+          name: Extended Window
+          cost: 6
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Affect a creature that was in your collective when it died for up to 24 hours after its death'
   description:
     value: >-
       <p>You preserve the mind of the slain creature, keeping it from

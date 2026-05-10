@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Cloned_Twin
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/creatures/abilities/wolf-heads-swirl-purple.webp
 name: Cloned Twin
 system:
   actions:
@@ -18,6 +18,47 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: An4jJcO2wF7tTd3m
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration extended to 1 minute/level'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Duration
+          requiresFocus: false
+        - _id: Bo5kKdP3xG8uUe4n
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.targets]] additional cloned twin(s)'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Targets
+          requiresFocus: false
+        - _id: Cp6lLeQ4yH9vVf5o
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Twin uses your AC, movement speeds, movement modes, HP, and retains active spells/powers/effects at time of split'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Full Clone
+          requiresFocus: false
+        - _id: Dq7mMfR5zI0wWg6p
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'If reduced to 0 HP, can freely shift consciousness into the twin'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Mind Shift
+          requiresFocus: false
       duration:
         units: round
         value: '@cl'

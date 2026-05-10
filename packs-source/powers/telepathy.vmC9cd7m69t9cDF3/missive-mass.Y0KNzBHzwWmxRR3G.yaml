@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Missive,_Mass
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/control/energy-stream-link-large-blue.webp
 name: Missive, Mass
 system:
   actions:
@@ -28,6 +28,7 @@ system:
         units: long
         value: Long (400 ft. + 40 ft./level)
       save:
+        dc: '@augments.range'
         description: Will negates (harmless)
         harmless: true
         type: will
@@ -35,6 +36,17 @@ system:
         value: >-
           All creatures in a 400 ft. + 40 ft./level radius centered on you; see
           text
+      augments:
+        - _id: P3q4R5s6T7u8V9w0
+          name: Range
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Range increases by 40 ft. and +1 DC per 2 PP spent'
   description:
     value: >-
       <p>You send a telepathic message of up to twenty-five words to all

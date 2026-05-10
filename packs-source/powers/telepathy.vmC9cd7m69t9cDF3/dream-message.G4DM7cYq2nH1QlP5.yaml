@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Dream_Message
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/unholy/orb-glowing-purple.webp
 name: Dream Message
 system:
   actions:
@@ -35,6 +35,17 @@ system:
         description: None
       target:
         value: One living creature touched
+      augments:
+        - _id: G8h9I0j1K2l3M4n5
+          name: Plant Waking Message
+          cost: 1
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'If recipient is awake: spend PP equal to (recipient HD - 4) to plant message received when next they sleep. Adjust PP cost manually.'
   description:
     value: >-
       <p>You, or a messenger you touch, send a message to others in the form of

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Volatile_Rejection
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/unholy/beam-ringed-impact-purple.webp
 name: Volatile Rejection
 system:
   actions:
@@ -18,12 +18,45 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Gj1OoQrSsU4xAk7E
+          cost: 2
+          effectNotes: []
+          effects:
+            damageBonus: '1d6'
+          footerNotes: []
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+        - _id: Ip3QqStTuV6zCm9G
+          cost: 2
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes: []
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: DC
+          requiresFocus: false
+        - _id: Hk2PpRsTtV5yBl8F
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Deal half damage (rounded down) to the possessed creature as well'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Splash Damage
+          requiresFocus: false
       damage:
         parts:
           - formula: 3d6
       duration:
         units: inst
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

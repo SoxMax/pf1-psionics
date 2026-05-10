@@ -34,6 +34,67 @@ system:
         type: will
       target:
         value: one creature
+      augments:
+        - _id: Y8z9A0b1C2d3E4f5
+          name: Improved Concentration
+          cost: 1
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1 bonus on concentration checks per PP spent; +1 DC per 2 PP spent'
+        - _id: Z9a0B1c2D3e4F5g6
+          name: Stagger Target
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Target becomes staggered for the duration of the power; +1 DC per 2 PP spent'
+        - _id: A0b1C2d3E4f5G6h7
+          name: Increased Drag Distance
+          cost: 3
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Drag distance increases by 10 ft. per turn per 3 PP spent (5 ft. if maintaining as move action); +1 DC per 2 PP spent'
+        - _id: B1c2D3e4F5g6H7i8
+          name: Daze or Nauseate
+          cost: 4
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'On failed save: dazed (standard action) or nauseated (move action) for 1 round; +1 DC per 2 PP spent'
+        - _id: C2d3E4f5G6h7I8j9
+          name: Blind Target
+          cost: 6
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Target is blinded for the duration; ends if power ends or duration is reduced by successful save; +1 DC per 2 PP spent'
+        - _id: D3e4F5g6H7i8J9k0
+          name: Reduced Action Cost
+          cost: 6
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Standard action manifestation becomes move action; move action manifestation becomes swift action; +1 DC per 2 PP spent'
   description:
     value: >-
       <p>You must be a

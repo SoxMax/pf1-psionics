@@ -548,27 +548,30 @@ export function extractCategoryLinks(html, options = {}) {
 }
 
 /**
- * Known source metadata for Dreamscarred Press publications
- * Maps book titles to publication dates and publishers
+ * Known source metadata for Dreamscarred Press publications.
+ *
+ * Loaded from tools/data/dsp-publications.json, which is the canonical reference
+ * for every DSP psionic book cited by this module. To add or correct an entry,
+ * edit the JSON file rather than this constant.
+ *
+ * Aliases (e.g. "Psionics Augmented: Soulknives 2" → "Psionics Augmented: Soulknives II")
+ * are flattened into the lookup so legacy data with typo'd titles still resolves.
  */
-export const SOURCE_METADATA = {
-  'Ultimate Psionics': {
-    date: '2013-12-24',
-    publisher: 'Dreamscarred Press'
-  },
-  'Psionics Expanded': {
-    date: '2012-07-23',
-    publisher: 'Dreamscarred Press'
-  },
-  'Psionics Augmented': {
-    date: '2012-01-01',
-    publisher: 'Dreamscarred Press'
-  },
-  'Psionics Unleashed': {
-    date: '2010-08-01',
-    publisher: 'Dreamscarred Press'
+const PUBLICATIONS_PATH = join(dirname(fileURLToPath(import.meta.url)), '..', 'data', 'dsp-publications.json');
+const PUBLICATIONS_DATA = JSON.parse(fs.readFileSync(PUBLICATIONS_PATH, 'utf8'));
+
+export const SOURCE_METADATA = (() => {
+  const out = {};
+  for (const entry of Object.values(PUBLICATIONS_DATA.publications)) {
+    if (entry.date) {
+      out[entry.title] = { date: entry.date, publisher: entry.publisher };
+      for (const alias of entry.aliases ?? []) {
+        out[alias] = { date: entry.date, publisher: entry.publisher };
+      }
+    }
   }
-};
+  return out;
+})();
 
 /**
  * Parse a single source text into a structured object with metadata

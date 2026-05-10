@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Tower_of_Iron_Will
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/symbols/cog-orange-red.webp
 name: Tower of Iron Will
 system:
   actions:
@@ -18,7 +18,7 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      area: '10-ft.-radius emanation centered on you'
       duration:
         units: round
         value: '1'
@@ -29,11 +29,25 @@ system:
       range:
         units: ft
         value: 10
+      notes:
+        footer:
+          - '@PsionicApply[Tower of Iron Will;level=@cl;dFlags.augmentBonus=@augments.amplify]'
       save:
         description: None (harmless)
         harmless: true
       target:
         value: 10-ft.-radius emanation centered on you
+      augments:
+        - _id: J9k0L1m2N3o4P5q6
+          name: Amplify
+          cost: 1
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: [[1 + @augments.amplify]] rounds; Power Resistance: [[19 + @augments.amplify]]'
   description:
     value: >-
       <p>You generate a bastion of thought so strong that it offers protection

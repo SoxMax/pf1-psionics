@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Regenerative_Aura
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/life/cross-embers-glow-yellow-purple.webp
 name: Regenerative Aura
 system:
   actions:
@@ -18,7 +18,18 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      area: '30 ft. radius sphere centered on you'
+      augments:
+        - _id: An1jJcP9wF5tTd0m
+          cost: 0
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'You may select which creatures within the aura are healed'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Selective
+          requiresFocus: true
       duration:
         dismiss: true
         units: round

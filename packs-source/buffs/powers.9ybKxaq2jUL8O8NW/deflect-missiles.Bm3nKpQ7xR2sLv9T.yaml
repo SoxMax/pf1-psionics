@@ -1,0 +1,43 @@
+_id: Bm3nKpQ7xR2sLv9T
+_key: '!items!Bm3nKpQ7xR2sLv9T'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/defensive/shield-barrier-deflect-teal.webp
+name: Deflect Missiles
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  contextNotes:
+    - target: misc
+      text: >-
+        DR 10/magic against ranged and thrown weapons (pool: [[10 + 10 *
+        @item.dFlags.augmentBonus]] points) (Deflect Missiles)
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.0sihVrD94eZnIbXD]{Deflect
+      Missiles}</p>
+      <p>DR 10/magic against ranged and thrown weapons. Pool: [[10 + 10 *
+      @item.dFlags.augmentBonus]] points of damage before ending.</p>
+  duration:
+    end: turnStart
+    units: round
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 1
+  showInQuickbar: false
+  subType: spell
+type: buff

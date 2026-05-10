@@ -55,6 +55,9 @@ system:
       range:
         units: ft
         value: 30 + @augments.range
+      notes:
+        footer:
+          - '@PsionicApply[Empathy;level=@cl]'
       save:
         description: None
   description:

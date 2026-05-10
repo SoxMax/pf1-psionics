@@ -1,0 +1,64 @@
+_id: a9MzZyEwL2TLZ7Hc
+_key: '!items!a9MzZyEwL2TLZ7Hc'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/nature/tree-spirit-green.webp
+name: Oak Body
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: OakBdyS1
+      formula: '4'
+      operator: add
+      priority: 0
+      target: str
+      type: enh
+    - _id: OakBdyD1
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: dex
+      type: untyped
+    - _id: OakBdyN1
+      formula: '5'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes:
+    - target: misc
+      text: >-
+        DR 10/slashing. Hardness 5. Immune to ability damage, blindness,
+        deafness, disease, drowning, poison, stunning, and effects affecting
+        physiology/respiration. Half damage from cold. Vulnerable to fire.
+        Speed halved. ACP -4. Arcane spell failure 25%. Cannot drink or play
+        wind instruments. Unarmed strikes deal club damage.
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.a9MzZyEwL2TLZ7Hc]{Oak
+      Body}</p><p>+4 enhancement Strength, -2 Dexterity, +5 natural armor
+      (overlap). DR 10/slashing, hardness 5. Immune to many conditions.
+      Vulnerable to fire, half damage from cold. Speed halved. ACP -4.</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '@item.level + @item.dFlags.augmentDuration'
+  flags:
+    dictionary:
+      augmentDuration: '0'
+  hideFromToken: false
+  level: 5
+  showInQuickbar: false
+  subType: spell
+type: buff

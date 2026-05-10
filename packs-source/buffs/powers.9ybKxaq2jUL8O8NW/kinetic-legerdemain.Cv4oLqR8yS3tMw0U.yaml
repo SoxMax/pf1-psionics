@@ -1,0 +1,45 @@
+_id: Cv4oLqR8yS3tMw0U
+_key: '!items!Cv4oLqR8yS3tMw0U'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/light/hand-sparks-smoke-green.webp
+name: Kinetic Legerdemain
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: Dw5pMr
+      formula: '@item.dFlags.augmentBonus'
+      operator: add
+      priority: 0
+      target: skill.dis
+      type: competence
+  contextNotes: []
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.Aohq3ZpbWmPHZaLX]{Kinetic
+      Legerdemain}</p>
+      <p>+[[@item.dFlags.augmentBonus]] competence bonus on Disable Device
+      checks. No penalty for lacking a toolkit.</p>
+  duration:
+    end: turnStart
+    units: round
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 1
+  showInQuickbar: false
+  subType: spell
+type: buff

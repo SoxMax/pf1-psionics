@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Crystalline_Aura,_Kyria's
 folder: q8m9uwepn8lSkXhe
-img: icons/magic/symbols/runes-star-magenta.webp
+img: icons/magic/defensive/shield-barrier-flaming-diamond-teal.webp
 name: Crystalline Aura, Kyria's
 system:
   actions:
@@ -18,7 +18,6 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
       duration:
         units: round
         value: '@cl'
@@ -29,6 +28,32 @@ system:
       range:
         units: personal
         value: Personal
+      augments:
+        - _id: Bv6nKpT4wLqXm9aR
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.amplify]] to defensive AC/Reflex bonuses and offensive damage dice'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
+        - _id: Hs3cJpV7nDxWk5mQ
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Offensive mode area increases by [[5 * @augments.area]] ft.'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: null
+          name: Area
+          requiresFocus: false
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Crystalline Aura,
+            Kyria's;level=@cl;dFlags.augmentBonus=@augments.amplify]
       save:
         description: None
       target:

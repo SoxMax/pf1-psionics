@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Cleanse_Spirit
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/life/cross-yellow-green.webp
 name: Cleanse Spirit
 system:
   actions:
@@ -18,6 +18,17 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Zm3iIbN1vE6sSc2l
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Dispels all permanent and temporary negative levels, all psionic ability penalties, cures all temp ability damage, restores all ability drain, removes fatigue/exhaustion and mental effects'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Greater Cleanse
+          requiresFocus: false
       duration:
         units: inst
       name: Use

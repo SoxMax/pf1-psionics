@@ -1,0 +1,47 @@
+_id: hT5wQnBkLmRsXvZp
+_key: '!items!hT5wQnBkLmRsXvZp'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+name: Ephemeral Bolt
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  contextNotes:
+    - target: attack
+      text: >-
+        +[[1 + @item.dFlags.augmentBonus]] enhancement bonus on attack rolls
+        (Ephemeral Bolt)
+    - target: misc
+      text: >-
+        Bolt delivers [[1 + @item.dFlags.augmentBonus]]d4 force damage when
+        recalled (Ephemeral Bolt)
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.dX6xDUvPlDdFGSrM]{Ephemeral
+      Bolt}</p>
+      <p>Masterwork bolt (+[[1 + @item.dFlags.augmentBonus]] on attack rolls).
+      On recall (swift action): deals [[1 + @item.dFlags.augmentBonus]]d4
+      force damage plus normal weapon damage.</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 2
+  showInQuickbar: false
+  subType: spell
+type: buff

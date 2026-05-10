@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Gravitational_Well
 folder: 6Bkw9brK1X0cgxHD
-img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+img: icons/magic/air/wind-vortex-swirl-purple.webp
 name: Gravitational Well
 system:
   actions:
@@ -21,15 +21,40 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Rr8sSt9tTu0uUv1w
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Ranged attacks (not ranged touch) within 10 ft. that miss have 25% chance to strike affected creature (second attack roll at -4)'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: 1
+          name: Ranged Deflection
+          requiresFocus: false
+        - _id: Ss9tTu0uUv1vVw2x
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.area * 5]] ft. to the distance from target for deflecting missed ranged attacks'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: null
+          name: Area
+          requiresFocus: false
       duration:
         units: round
         value: '1'
       name: Use
+      notes:
+        footer:
+          - >-
+            @PsionicApply[Gravitational Well;level=@cl;dFlags.augmentBonus=@augments.rangedDeflection]
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
       save:
         description: Reflex negates

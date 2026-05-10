@@ -28,6 +28,30 @@ system:
       range:
         units: personal
         value: Personal
+      augments:
+        - _id: Mv6bHtJrKfNsWp9q
+          name: Amplify
+          cost: 4
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/earth/strike-body-stone-crumble.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Deflection bonus to AC: +[[4+@augments.amplify]]'
+        - _id: Dg2xAeZmPyObCn5w
+          name: Duration
+          cost: 1
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/earth/strike-body-stone-crumble.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: [[1+@augments.duration]] round(s)'
+      notes:
+        footer:
+          - '@PsionicApply[Mental Barrier;level=@cl;dFlags.augmentBonus=@augments.amplify;dFlags.augmentDuration=@augments.duration]'
       save:
         description: None
       target:

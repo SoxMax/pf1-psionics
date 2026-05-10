@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Mind_Trap
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/unholy/orb-contained-pink.webp
 name: Mind Trap
 system:
   actions:
@@ -32,6 +32,17 @@ system:
         description: None
       target:
         value: You
+      augments:
+        - _id: K8l9M0n1O2p3Q4r5
+          name: Additional Trigger Uses
+          cost: 4
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Trigger stored power one additional time per 4 PP spent'
   description:
     value: >-
       <p>You store a single power in your mind as a trap to any who would

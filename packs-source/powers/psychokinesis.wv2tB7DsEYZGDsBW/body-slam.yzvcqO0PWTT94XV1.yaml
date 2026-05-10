@@ -6,11 +6,14 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Body_Slam
 folder: wv2tB7DsEYZGDsBW
-img: icons/magic/unholy/projectile-fireball-green.webp
+img: icons/skills/movement/arrow-upward-yellow.webp
 name: Body Slam
 system:
   actions:
     - _id: ei43prnj4kjDUZMD
+      ability:
+        critMult: 2
+        critRange: 20
       actionType: spellsave
       activation:
         cost: 1
@@ -18,11 +21,34 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: GALpmXD46l3fBdR6
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/skills/movement/arrow-upward-yellow.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+        - _id: fXRQQ17cDhdWHsrn
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '@Condition[prone]'
+          img: icons/skills/movement/arrow-upward-yellow.webp
+          maxUses: null
+          name: Prone
+          requiresFocus: true
       damage:
         parts:
-          - formula: 2d6
+          - formula: (1+@augments.damage)d6
       duration:
         units: inst
+      img: icons/skills/movement/arrow-upward-yellow.webp
       name: Use
       powerAttack:
         critMultiplier: 1
@@ -31,6 +57,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./level)
       save:
+        dc: floor(@augments.damage/2)
         description: Reflex half
         harmless: false
         type: ref

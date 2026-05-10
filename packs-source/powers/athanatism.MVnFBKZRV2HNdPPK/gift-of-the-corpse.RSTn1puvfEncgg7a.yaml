@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Gift_of_the_Corpse
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/death/undead-skeleton-worn-blue.webp
 name: Gift of the Corpse
 system:
   actions:
@@ -21,11 +21,44 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Hm3YrBvKsP6tNd8L
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Manifest on a willing creature you touch instead of yourself'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Other Target
+          requiresFocus: false
+        - _id: Wq7GjMcZaE5wRf1T
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Manifest as an immediate action in response to being attacked (attacker believes they killed you)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Immediate Action
+          requiresFocus: false
+        - _id: Xs9KnDpLuO2vAb4C
+          cost: 4
+          effectNotes: []
+          effects:
+            durationMultiplier: 2
+          footerNotes: []
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Duration
+          requiresFocus: false
       duration:
         dismiss: true
         units: hour
         value: '@cl'
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

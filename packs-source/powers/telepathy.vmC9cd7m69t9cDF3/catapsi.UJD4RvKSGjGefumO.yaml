@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Catapsi
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/unholy/hand-claw-fog-green.webp
 name: Catapsi
 system:
   actions:
@@ -18,7 +18,7 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      area: '30-ft.-radius emanation centered on you'
       duration:
         units: round
         value: '@cl'
@@ -35,6 +35,17 @@ system:
         type: will
       target:
         value: 30-ft.-radius emanation centered on you
+      augments:
+        - _id: M3n4O5p6Q7r8S9t0
+          name: Range
+          cost: 4
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Range and area radius: [[30 + 5 * @augments.range]] ft.'
   description:
     value: >-
       <p>By manifesting this power, you generate psychic static, interfering

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Clairtangent_Hand
 folder: zLApB2FfLIaP0Z63
-img: icons/magic/perception/third-eye-blue-red.webp
+img: icons/magic/light/orb-hand-green.webp
 name: Clairtangent Hand
 system:
   actions:
@@ -32,6 +32,19 @@ system:
       range:
         units: seeText
         value: See text
+      augments:
+        - _id: Ld8vNbKmYfWcQo5s
+          name: Telekinetic
+          cost: 8
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Can emulate Telekinetic Force or Telekinetic Maneuver (duration ends when telekinetic power deals damage)'
+      notes:
+        footer: []
       save:
         description: None
   description:

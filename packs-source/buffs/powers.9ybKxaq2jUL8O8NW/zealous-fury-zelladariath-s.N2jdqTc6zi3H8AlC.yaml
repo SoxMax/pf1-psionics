@@ -1,0 +1,44 @@
+_id: N2jdqTc6zi3H8AlC
+_key: '!items!N2jdqTc6zi3H8AlC'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/creatures/abilities/bear-roar-bite-brown.webp
+name: Zealous Fury, Zelladariath's
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  contextNotes:
+    - target: misc
+      text: >-
+        Iterative attack penalties reduced by [[5 + 5 *
+        @item.dFlags.augmentBonus]] (to a minimum of 0). Duration: [[1 +
+        @item.dFlags.augmentDuration]] round(s).
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.N2jdqTc6zi3H8AlC]{Zealous
+      Fury, Zelladariath's}</p><p>Iterative attack penalties reduced by
+      [[5 + 5 * @item.dFlags.augmentBonus]] (minimum 0). Duration
+      [[1 + @item.dFlags.augmentDuration]] round(s).</p>
+  duration:
+    end: turnStart
+    units: round
+    value: 1 + @item.dFlags.augmentDuration
+  flags:
+    dictionary:
+      augmentBonus: '0'
+      augmentDuration: '0'
+  hideFromToken: false
+  level: 4
+  showInQuickbar: false
+  subType: spell
+type: buff

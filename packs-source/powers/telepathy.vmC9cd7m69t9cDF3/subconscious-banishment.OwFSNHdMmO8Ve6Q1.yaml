@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Subconscious_Banishment
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/control/silhouette-fall-slip-prone.webp
 name: Subconscious Banishment
 system:
   actions:
@@ -28,11 +28,33 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
+        dc: '@augments.range + 3*@augments.nauseate'
         description: Will negates; then Fortitude negates (seetext)
         harmless: false
         type: fort
       target:
         value: One creature with an Intelligence of 3 or more.
+      augments:
+        - _id: V5w6X7y8Z9a0B1c2
+          name: Range
+          cost: 3
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Range increases to Medium (100 ft. + 10 ft./level); +1 DC per 2 PP spent'
+        - _id: W6x7Y8z9A0b1C2d3
+          name: Nauseate
+          cost: 4
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Target becomes nauseated instead of sickened; on first successful Fort save becomes sickened until another successful Fort save; +1 DC per 2 PP spent'
   description:
     value: >-
       <p>You tear the subconscious mind away from the target and send it into a

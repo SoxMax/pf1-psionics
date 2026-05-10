@@ -21,6 +21,29 @@ system:
       damage:
         parts:
           - formula: 2d6
+      augments:
+        - _id: Xk1gGzM9tC4qQa0j
+          cost: 2
+          effectNotes: []
+          effects:
+            damageBonus: 1d6
+            dcBonus: 1
+          footerNotes: []
+          img: icons/magic/unholy/projectile-missile-green.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+        - _id: Yl2hHaN0uD5rRb1k
+          cost: 4
+          effectNotes: []
+          effects:
+            dcBonus: 2
+          footerNotes:
+            - 'Victims that fail save are also @Condition[nauseated] for 1 round'
+          img: icons/magic/unholy/projectile-missile-green.webp
+          maxUses: 1
+          name: Nauseate
+          requiresFocus: false
       duration:
         concentration: true
         units: conc
@@ -29,7 +52,7 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
       save:
         description: Fortitude partial (see text)

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Shade_Venom
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/death/skull-poison-green.webp
 name: Shade Venom
 system:
   actions:
@@ -18,10 +18,24 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Jm4QrItTvY7aDo2H
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Poison save DC +[[@augments.dc]] vs. incorporeal creatures'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: DC
+          requiresFocus: false
       duration:
         units: minute
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - 'For every 2 additional pp spent, save DC +1 against incorporeal creatures'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

@@ -34,6 +34,47 @@ system:
       range:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
+      augments:
+        - _id: Zo2aB8fF4iG1jK6l
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Damage dice increased to d8'
+          img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+          maxUses: 1
+          name: Larger Dice
+          requiresFocus: false
+        - _id: Ap3bC9gG5jH2kL7m
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Limb removed if damage reduces target below 1/4 HP (instead of 1/2)'
+          img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+          maxUses: 1
+          name: Easier Dismember
+          requiresFocus: false
+        - _id: Bq4cD0hH6kI3lM8n
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Target is also sickened if a limb is removed'
+          img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+          maxUses: 1
+          name: Sickened
+          requiresFocus: false
+        - _id: Cr5dE1iI7lJ4mN9o
+          cost: 1
+          effectNotes: []
+          effects:
+            damageBonus: 1d6
+          footerNotes: []
+          img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
       save:
         description: Fortitude partial (see text)
         harmless: false

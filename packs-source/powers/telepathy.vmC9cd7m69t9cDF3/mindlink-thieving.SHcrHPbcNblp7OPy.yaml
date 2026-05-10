@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Mindlink,_Thieving
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/perception/hand-eye-pink.webp
 name: Mindlink, Thieving
 system:
   actions:
@@ -27,9 +27,21 @@ system:
         critMultiplier: 1
         damageBonus: 2
       save:
+        dc: '@augments.dc'
         description: Will negates
         harmless: false
         type: will
+      augments:
+        - _id: L9m0N1o2P3q4R5s6
+          name: DC
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1 DC per 2 PP spent'
   description:
     value: >-
       <p>As

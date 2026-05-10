@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Body_Purification
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/life/heart-cross-green.webp
 name: Body Purification
 system:
   actions:
@@ -18,8 +18,21 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      ammo:
+        type: none
+      augments:
+        - _id: jx2lEXGZ4C85C3sk
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+          img: icons/magic/life/heart-cross-green.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         units: inst
+      img: icons/magic/life/heart-cross-green.webp
       name: Use
       powerAttack:
         critMultiplier: 1
@@ -33,15 +46,11 @@ system:
         value: You
   description:
     value: >-
-      <p>You restore up to 2 points of damage to a single ability score. You
-      cannot use body purification to heal ability drain.
-
-      </p>
-
-      <p><strong>Augment:</strong> For every additional power point you spend,
-      this power heals 1 additional point of damage to the same ability score.
-
-      </p>
+      <p>You restore up to [[2+@augments.amplify]] points of damage to a single
+      ability score. You cannot use body purification to heal ability
+      drain.</p><p><strong>Augment:</strong> For every additional power point
+      you spend, this power heals 1 additional point of damage to the same
+      ability score.</p>
   discipline: psychometabolism
   display:
     auditory: true

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Mind_Probe
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/perception/hand-eye-fire-blue.webp
 name: Mind Probe
 system:
   actions:
@@ -30,11 +30,32 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
+        dc: '@augments.dc'
         description: Will partial; see text
         harmless: false
         type: will
       target:
         value: One creature
+      augments:
+        - _id: H5i6J7k8L9m0N1o2
+          name: Range
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Range: Medium ([[100 + 10 * @cl]] ft.)'
+        - _id: I6j7K8l9M0n1O2p3
+          name: DC
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes: []
   description:
     value: >-
       <p>All the subject's memories and knowledge are accessible to you, from

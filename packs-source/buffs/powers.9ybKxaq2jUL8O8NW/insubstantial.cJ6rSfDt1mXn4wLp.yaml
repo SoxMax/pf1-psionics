@@ -1,0 +1,40 @@
+_id: cJ6rSfDt1mXn4wLp
+_key: '!items!cJ6rSfDt1mXn4wLp'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/unholy/silhouette-light-fire-blue.webp
+name: Insubstantial
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  contextNotes:
+    - target: misc
+      text: >-
+        You gain the incorporeal ability to move through solid objects; staggered for 1 round when power ends (Insubstantial)
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.kzLI3OL5RzKu3sWw]{Insubstantial}</p>
+      <p>You gain the incorporeal monster ability (movement through solid objects only). You are staggered for 1 round when this power ends. If you are inside a solid object when the power ends, you are ejected, taking 1d6 damage per 5 feet of material.</p>
+  duration:
+    end: turnStart
+    units: round
+    value: '1'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 2
+  showInQuickbar: false
+  subType: spell
+type: buff

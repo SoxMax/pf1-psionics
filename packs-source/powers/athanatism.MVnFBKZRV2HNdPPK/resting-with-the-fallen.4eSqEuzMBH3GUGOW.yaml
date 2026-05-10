@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Resting_with_the_Fallen
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/death/grave-tombstone-glow-teal.webp
 name: Resting with the Fallen
 system:
   actions:
@@ -18,10 +18,43 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Dg7JkClMoR1uYh4Z
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Gain access to 1 hour of memories per round spent (instead of 2 rounds per round)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Extended Memories
+          requiresFocus: false
+        - _id: Eh8KlDmNpS2vZi5A
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Corrupt any memories you access; affects future manifestations on target and their memories if raised/animated'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Corrupt Memories
+          requiresFocus: false
+        - _id: Fi9LmEnOqT3wAj6B
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Animate the dead body: treated as a wight under your control while this power is active'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Animate Body
+          requiresFocus: false
       duration:
         units: spec
         value: See text
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

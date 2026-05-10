@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Compelling_Voice,_Naija's
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/control/control-influence-rally-purple.webp
 name: Compelling Voice, Naija's
 system:
   actions:
@@ -29,11 +29,23 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
+        dc: '@augments.targets'
         description: Will negates
         harmless: false
         type: will
       target:
         value: One creature
+      augments:
+        - _id: Q7r8S9t0U1v2W3x4
+          name: Targets
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1 target and +1 DC per 2 PP spent; additional targets must be within 15 ft. of another target'
   description:
     value: >-
       <p>You tune your voice to the empathic vibrations of your target, making

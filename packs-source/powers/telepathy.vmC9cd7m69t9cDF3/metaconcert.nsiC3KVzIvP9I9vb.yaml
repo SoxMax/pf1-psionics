@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Metaconcert
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/control/energy-stream-link-large-teal.webp
 name: Metaconcert
 system:
   actions:
@@ -21,7 +21,7 @@ system:
       duration:
         dismiss: true
         units: minute
-        value: '@cl'
+        value: '@cl + @augments.duration'
       name: Use
       powerAttack:
         critMultiplier: 1
@@ -33,6 +33,17 @@ system:
         description: None
       target:
         value: You and up to five other willing psionic creatures in range; see text
+      augments:
+        - _id: C0d1E2f3G4h5I6j7
+          name: Duration
+          cost: 1
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration: [[@cl + @augments.duration]] minutes; +[[floor(@augments.duration / 2)]] max members; range/radius +[[5 * floor(@augments.duration / 2)]] ft.'
   description:
     value: >-
       <p>You link your psychic might with other psionic creatures, creating a

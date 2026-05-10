@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Sense_as_One
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/control/energy-stream-link-spiral-teal.webp
 name: Sense as One
 system:
   actions:
@@ -32,6 +32,29 @@ system:
         description: None (see text)
       target:
         value: You plus one willing creature
+      augments:
+        - _id: P9q0R1s2T3u4V5w6
+          name: Blindsight
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes:
+            - 'Blindsight can also be chosen as a special ability to share'
+        - _id: Q0r1S2t3U4v5W6x7
+          name: Unwilling Target
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes:
+            - 'Power can affect unwilling target (Will negates); unwilling target does not gain shared sense and you may negate their sensory ability'
   description:
     value: >-
       <p>When you manifest this power, choose one of the following sensory

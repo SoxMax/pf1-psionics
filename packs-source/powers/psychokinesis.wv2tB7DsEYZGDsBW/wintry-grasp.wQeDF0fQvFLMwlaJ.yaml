@@ -28,6 +28,17 @@ system:
       range:
         units: personal
         value: Personal
+      augments:
+        - _id: Od7pQ3uU9xV6yZ1a
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.duration]] additional round(s) of effect per purchase'
+          img: icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp
+          maxUses: null
+          name: Duration
+          requiresFocus: false
       save:
         description: None
       target:

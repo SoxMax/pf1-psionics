@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Aura_of_Decay
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/death/blood-corruption-vomit-red.webp
 name: Aura of Decay
 system:
   actions:
@@ -21,9 +21,37 @@ system:
       ammo:
         type: none
       area: 40-ft. radius emanating from the touched object
-      damage:
-        parts:
-          - formula: 1d10
+      augments:
+        - _id: Kp3mRwTnV8aJ2cXe
+          cost: 0
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Expend psionic focus: you and carried objects are immune to this manifestation'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Focus Immunity
+          requiresFocus: true
+        - _id: Yq7LdBsZkN5mWo19
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Rapid aging: failed save creatures take 1 Str/Dex/Con ability damage per hour in area'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Rapid Aging
+          requiresFocus: false
+        - _id: Hx4VcPmQjU6rAk83
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Non-magical object hardness reduced by 2 in area, and by 2 more per hour'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Corrode
+          requiresFocus: false
       duration:
         units: hour
         value: 2 * @cl
@@ -31,6 +59,8 @@ system:
         size: '40'
         type: circle
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

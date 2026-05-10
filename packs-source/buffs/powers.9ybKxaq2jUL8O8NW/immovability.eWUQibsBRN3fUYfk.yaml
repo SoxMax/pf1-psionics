@@ -1,0 +1,41 @@
+_id: eWUQibsBRN3fUYfk
+_key: '!items!eWUQibsBRN3fUYfk'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/nature/tree-elm-roots-brown.webp
+name: Immovability
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: true
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  contextNotes:
+    - target: misc
+      text: >-
+        DR 15/—. +20 bonus on opposed Strength checks vs. being moved.
+        Cannot voluntarily move or make physical attacks. Teleportation and
+        telekinesis automatically fail. Lose Dex bonus to AC.
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.eWUQibsBRN3fUYfk]{Immovability}</p><p>DR
+      15/—. +20 bonus on Strength checks to resist being moved. Cannot move or
+      make physical attacks. Lose Dex bonus to AC. Concentration required to
+      maintain.</p>
+  duration:
+    end: turnStart
+    units: conc
+  flags:
+    dictionary: {}
+  hideFromToken: false
+  level: 4
+  showInQuickbar: false
+  subType: spell
+type: buff

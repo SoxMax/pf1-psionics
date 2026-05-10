@@ -1,0 +1,59 @@
+_id: Qs5rUv0wWx7yYz2z
+_key: '!items!Qs5rUv0wWx7yYz2z'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/light/beam-deflect-path-yellow.webp
+name: Flexible Trajectory
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes: []
+  contextNotes:
+    - target: misc
+      text: >-
+        Ranged attacks ignore range increment penalties and bonuses to AC from
+        cover (total cover still blocks) (Flexible Trajectory).
+    - target: misc
+      text: >-
+        If augmented (Ignore Concealment): Ranged attacks ignore concealment
+        but not total concealment (Flexible Trajectory).
+    - target: misc
+      text: >-
+        If augmented (Ignore All Miss Chances): Ranged attacks ignore all miss
+        chances including total concealment and mirror image (Flexible
+        Trajectory).
+    - target: misc
+      text: >-
+        If augmented (Range): +[[@item.dFlags.augmentBonus * 10]] ft. to range
+        increment, maximum range, and ranged touch attack range (Flexible
+        Trajectory).
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.mOcZChtDI7br3krJ]{Flexible Trajectory}</p>
+      <p>Your ranged attacks may follow a path you imagine instead of the path
+      that physical laws would dictate. You ignore range increment penalties and
+      bonuses to AC from cover, although total cover still blocks the attack.</p>
+      <p>If augmented (Range): +[[@item.dFlags.augmentBonus * 10]] ft. to range
+      increment, maximum range, and ranged touch attack range.</p>
+  duration:
+    end: turnStart
+    units: round
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 1
+  showInQuickbar: false
+  subType: spell
+type: buff

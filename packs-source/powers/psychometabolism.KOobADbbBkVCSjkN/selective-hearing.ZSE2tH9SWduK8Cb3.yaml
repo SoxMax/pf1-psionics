@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Selective_Hearing
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/control/hypnosis-mesmerism-eye.webp
 name: Selective Hearing
 system:
   actions:
@@ -18,6 +18,27 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Hu8qQjW6dM2aAk3t
+          cost: 3
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Can choose a second target creature or second source creature per augment; +1 DC per 2 PP spent on this augment'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Extra Target/Source
+          requiresFocus: false
+        - _id: Iv9rRkX7eN3bBl4u
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'All sounds created by the source creature are inaudible to your target; +1 DC per 2 PP spent on this augment'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Full Silence
+          requiresFocus: false
       duration:
         units: minute
         value: '@cl'

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Feast_of_the_Dead
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/death/mouth-teeth-fangs-vampire.webp
 name: Feast of the Dead
 system:
   actions:
@@ -18,10 +18,34 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Jk4LpNwRmT9vCb2Q
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+1 morale bonus on attack rolls; +4 bonus on saves vs. curses and sickening/nauseating effects'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Enhanced Feast
+          requiresFocus: false
+        - _id: Zd8XsJoAhK3rFm5B
+          cost: 0
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Expend psionic focus: feast also dispels ability score penalties, cures 1d4 ability damage, eliminates fatigue/exhaustion, removes curses (ML check vs. curse DC)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Purifying Feast
+          requiresFocus: true
       duration:
         units: spec
         value: 1 hour plus 12 hours; see text
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Feast of the Dead;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

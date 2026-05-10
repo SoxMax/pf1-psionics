@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Vascular_Disruption,_Kyria's
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/skills/wounds/blood-cells-vessel-red.webp
 name: Vascular Disruption, Kyria's
 system:
   actions:
@@ -18,10 +18,30 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
       damage:
         parts:
           - formula: 9d6
+      augments:
+        - _id: Zm6iIbO9vE4sSc1l
+          cost: 1
+          effectNotes: []
+          effects:
+            damageBonus: 1d6
+          footerNotes: []
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+        - _id: An7jJcP0wF5tTd2m
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Blood eruption occurs even if target succeeds at their saving throw'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Guaranteed Eruption
+          requiresFocus: false
       duration:
         units: inst
       name: Use
@@ -29,9 +49,10 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. plus 10 ft. per level)
       save:
+        dc: floor(@augments.damage / 2)
         description: Fortitude partial
         harmless: false
         type: fort

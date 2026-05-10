@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Numbed_Mind
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/control/debuff-energy-snare-purple-blue.webp
 name: Numbed Mind
 system:
   actions:
@@ -34,6 +34,37 @@ system:
         type: will
       target:
         value: One creature
+      augments:
+        - _id: S6t7U8v9W0x1Y2z3
+          name: Extended Duration
+          cost: 4
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration increases to 1 minute/level'
+        - _id: T7u8V9w0X1y2Z3a4
+          name: Additional Target
+          cost: 1
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Affect one additional target per PP spent'
+        - _id: U8v9W0x1Y2z3A4b5
+          name: Permanent Duration
+          cost: 8
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration becomes permanent; target may save again (without +4 bonus) after sleeping 8+ hours each day the effect is active'
   description:
     value: >-
       <p>You numb the mind of the target, making their thoughts unfocused and

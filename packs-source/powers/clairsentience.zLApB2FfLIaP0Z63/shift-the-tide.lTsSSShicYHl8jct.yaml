@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Shift_the_Tide
 folder: zLApB2FfLIaP0Z63
-img: icons/magic/perception/third-eye-blue-red.webp
+img: icons/magic/control/modfiy-luck-fortune-red.webp
 name: Shift the Tide
 system:
   actions:
@@ -25,9 +25,22 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
+      augments:
+        - _id: Jp3vKwFnYbLrCm7o
+          name: DC
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/third-eye-blue-red.webp
+          effectNotes: []
+          effects: {}
+          footerNotes: []
+      notes:
+        footer: []
       save:
+        dc: '@augments.dc'
         description: Will negates (harmless) or Will partial (see text)
         harmless: true
         type: will

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Energy_Allergy
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/control/debuff-energy-snare-purple-pink.webp
 name: Energy Allergy
 system:
   actions:
@@ -18,11 +18,25 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Ly5uUnZ3hQ8eEo4x
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Specify a second energy type or a different energy type than focus'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Second Energy
+          requiresFocus: false
       duration:
         dismiss: true
         units: round
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Energy Allergy;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

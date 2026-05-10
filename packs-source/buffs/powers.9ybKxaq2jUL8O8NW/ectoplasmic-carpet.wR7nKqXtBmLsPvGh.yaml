@@ -1,0 +1,45 @@
+_id: wR7nKqXtBmLsPvGh
+_key: '!items!wR7nKqXtBmLsPvGh'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+name: Ectoplasmic Carpet
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  changes:
+    - _id: Tz4kBpWn
+      formula: 2 + @item.dFlags.augmentBonus
+      operator: add
+      priority: 0
+      target: sac
+      type: untyped
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.rZxuAbmyUhv1lGV4]{Ectoplasmic
+      Carpet}</p>
+      <p>+[[2 + @item.dFlags.augmentBonus]] shield bonus to AC vs. ranged
+      attacks (shield mode only; no armor check penalty or arcane spell failure
+      chance).</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 3
+  showInQuickbar: false
+  subType: spell
+type: buff

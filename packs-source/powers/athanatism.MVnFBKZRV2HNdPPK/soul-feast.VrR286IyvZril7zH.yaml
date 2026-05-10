@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Soul_Feast_(power)
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/death/mouth-bite-fangs-vampire.webp
 name: Soul Feast
 system:
   actions:
@@ -18,9 +18,33 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Qt2YyPaAbF5hKu9O
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Share feast with one adjacent ally: they gain temp HP = target''s HD (vanish at end of day)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Share Feast
+          requiresFocus: false
+        - _id: Ru3ZzQbBcG6iLv1P
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'While you have soul points, gain bonus on saves vs. negative energy/death effects/energy drain = target''s Cha modifier'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Save Bonus
+          requiresFocus: false
       duration:
         units: inst
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Soul Feast;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

@@ -1,0 +1,43 @@
+_id: zTXe4tYjWqWApufR
+_key: '!items!zTXe4tYjWqWApufR'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/life/heart-cross-strong-blue.webp
+name: Biokinetic Endurance
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  contextNotes:
+    - target: misc
+      text: >-
+        Reduce physical ability damage from external sources by [[2 +
+        @item.dFlags.augmentBonus]] per instance (minimum 0). Ends when
+        total prevented equals manifester level.
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.zTXe4tYjWqWApufR]{Biokinetic
+      Endurance}</p><p>Reduce physical ability damage taken from external
+      sources by [[2 + @item.dFlags.augmentBonus]] per instance (min 0). Ends
+      after preventing total ability damage equal to manifester level.</p>
+  duration:
+    end: turnStart
+    units: minute
+    value: '@item.level'
+  flags:
+    dictionary:
+      augmentBonus: '0'
+  hideFromToken: false
+  level: 3
+  showInQuickbar: false
+  subType: spell
+type: buff

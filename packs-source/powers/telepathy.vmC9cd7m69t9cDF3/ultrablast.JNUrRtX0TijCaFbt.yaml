@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Ultrablast
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/unholy/projectile-fireball-green.webp
 name: Ultrablast
 system:
   actions:
@@ -18,7 +18,7 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      area: '15-ft.-radius spread centered on you'
       damage:
         parts:
           - formula: 13d6
@@ -37,6 +37,17 @@ system:
         type: will
       target:
         value: 15-ft.-radius spread centered on you
+      augments:
+        - _id: K0l1M2n3O4p5Q6r7
+          name: Damage
+          cost: 1
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects:
+            damageBonus: 1d6
+          footerNotes: []
   description:
     value: >-
       <p>You "grumble" psychically (which both psionic and non-psionic creatures

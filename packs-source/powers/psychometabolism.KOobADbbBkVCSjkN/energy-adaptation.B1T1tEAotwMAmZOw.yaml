@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Energy_Adaptation
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/control/debuff-energy-hold-blue-yellow.webp
 name: Energy Adaptation
 system:
   actions:
@@ -18,11 +18,24 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      augments:
+        - _id: Jw3sSlX1fO6cCm2v
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Casting Time: Immediate'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Immediate
+          requiresFocus: false
       duration:
         units: minute
         value: 10 * @cl
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Energy Adaptation;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

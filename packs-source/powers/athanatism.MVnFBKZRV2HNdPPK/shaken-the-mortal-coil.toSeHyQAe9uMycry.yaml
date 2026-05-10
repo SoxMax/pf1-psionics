@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Shaken_the_Mortal_Coil
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/unholy/strike-body-explode-disintegrate.webp
 name: Shaken the Mortal Coil
 system:
   actions:
@@ -21,9 +21,42 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Kn5SrJuUwZ8bEp3I
+          cost: 1
+          effectNotes: []
+          effects:
+            damageBonus: '10'
+          footerNotes: []
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+        - _id: Mw4XpKqRsT8vBn7Q
+          cost: 2
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes: []
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: DC
+          requiresFocus: false
+        - _id: Lo6TsKvVxA9cFq4J
+          cost: 0
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Expend psionic focus: target a living creature touched with this power'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Living Target
+          requiresFocus: true
       duration:
         units: inst
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

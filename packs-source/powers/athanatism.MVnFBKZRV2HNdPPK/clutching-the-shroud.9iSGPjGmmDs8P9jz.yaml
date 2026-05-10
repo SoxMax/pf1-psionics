@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Clutching_the_Shroud
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/death/bones-crossed-gray.webp
 name: Clutching the Shroud
 system:
   actions:
@@ -18,11 +18,25 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Nq8JwLkRtX4vBp3C
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+2 bonus on saves vs. mind-affecting effects, disease, poison, sleep, and stunning'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Undead Resilience
+          requiresFocus: false
       duration:
         dismiss: true
         units: minute
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Clutching the Shroud;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

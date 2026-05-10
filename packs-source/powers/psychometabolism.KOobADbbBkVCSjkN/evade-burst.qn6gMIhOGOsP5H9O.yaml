@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Evade_Burst
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/creatures/abilities/cougar-roar-rush-orange.webp
 name: Evade Burst
 system:
   actions:
@@ -18,6 +18,17 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Pc9yYrD7lU2iIs8b
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Take only half damage on a failed Reflex save'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: 1
+          name: Half On Fail
+          requiresFocus: false
       duration:
         units: inst
       name: Use

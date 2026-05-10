@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Bring_Forth_the_Soul
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/death/skeleton-skull-soul-blue.webp
 name: Bring Forth the Soul
 system:
   actions:
@@ -18,11 +18,54 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Jm4VbRnXkP7wHc2T
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Target may have been dead for [[@augments.extraWeeks]] additional week(s)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Extra Weeks
+          requiresFocus: false
+        - _id: Gz8WsDqYeL5tAf9N
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration increased to 1 hour/level'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Hour Duration
+          requiresFocus: false
+        - _id: Ck6MpJoZhB3rEi1U
+          cost: 6
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Duration increased to 1 day/level'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Day Duration
+          requiresFocus: false
+        - _id: Sp2LqNtFvR9xKm7Y
+          cost: 10
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Raise the soul from the dead (willing): 2 permanent negative levels; manifester suffers 1 permanent negative level'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Raise
+          requiresFocus: false
       duration:
         dismiss: true
         units: minute
         value: 10 * @cl
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

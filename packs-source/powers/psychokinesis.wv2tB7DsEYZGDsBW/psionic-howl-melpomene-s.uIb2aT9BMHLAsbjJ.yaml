@@ -18,7 +18,7 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      area: '30 ft. radius burst centered on you'
       damage:
         parts:
           - formula: 3d4
@@ -31,6 +31,29 @@ system:
       range:
         units: ft
         value: 30
+      augments:
+        - _id: Xm0yZ6dD2gE9hI4j
+          cost: 1
+          effectNotes: []
+          effects:
+            damageBonus: 1d4
+            dcBonus: 1
+          footerNotes:
+            - '+1d4 damage per purchase; +1 DC per 2 extra dice'
+          img: icons/magic/sonic/projectile-sound-rings-wave.webp
+          maxUses: null
+          name: Damage
+          requiresFocus: false
+        - _id: Yn1zA7eE3hF0iJ5k
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Can exclude any number of allies and/or objects from effect'
+          img: icons/magic/sonic/projectile-sound-rings-wave.webp
+          maxUses: 1
+          name: Selective
+          requiresFocus: false
       save:
         description: Fortitude half
         harmless: false

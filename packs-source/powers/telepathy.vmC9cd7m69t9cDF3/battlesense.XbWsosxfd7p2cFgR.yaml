@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Battlesense
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/perception/third-eye-blue-red.webp
 name: Battlesense
 system:
   actions:
@@ -28,10 +28,34 @@ system:
       range:
         units: ft
         value: 30 feet (see text)
+      notes:
+        footer:
+          - '@PsionicApply[Battlesense;level=@cl]'
       save:
         description: None
       target:
         value: 1 willing creature/level
+      augments:
+        - _id: I9j0K1l2M3n4O5p6
+          name: Second Collective Bonus
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Choose a second special ability from the collective bonus list (may choose same again; stacks up to +5 attack/AC, +10 damage, +25 speed)'
+        - _id: J0k1L2m3N4o5P6q7
+          name: Treat as Collective
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Use power as if you had collective class feature; creatures linked via mindlink count as members if they consider you an ally'
   description:
     value: >-
       <p>You link the minds of your allies, dramatically improving their

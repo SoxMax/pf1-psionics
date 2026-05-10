@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Psychic_Reformation
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/symbols/cog-glowing-green.webp
 name: Psychic Reformation
 system:
   actions:
@@ -31,6 +31,27 @@ system:
         description: None
       target:
         value: One creature
+      augments:
+        - _id: L5m6N7o8P9q0R1s2
+          name: Reduced Recovery
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Penalties end after the subject rests for 8 hours instead of 24 hours'
+        - _id: M6n7O8p9Q0r1S2t3
+          name: No Penalties
+          cost: 6
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Subject does not suffer any penalties from changing decisions at lower levels'
   description:
     value: >-
       <p>When this power is manifested, the subject can choose to spend its most

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Bind_Flesh_to_Soul
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/unholy/strike-body-life-soul-purple.webp
 name: Bind Flesh to Soul
 system:
   actions:
@@ -18,11 +18,35 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Rp5NwKqJtY8mLv2A
+          cost: 2
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes:
+            - '+[[@augments.targets]] additional target(s)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Targets
+          requiresFocus: false
+        - _id: Cs7BxMoZhE4dFr6G
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Max level of shared effects increased by [[@augments.levelIncrease]] (base 3 + this value)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: Level Increase
+          requiresFocus: false
       duration:
         dismiss: true
         units: round
         value: '@cl'
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

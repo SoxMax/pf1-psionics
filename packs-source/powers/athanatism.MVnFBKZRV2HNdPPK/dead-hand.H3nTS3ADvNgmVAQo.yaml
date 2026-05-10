@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Dead_Hand
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/death/hand-withered-gray.webp
 name: Dead Hand
 system:
   actions:
@@ -21,11 +21,24 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Lf5TnKrQvW2xDm8C
+          cost: 3
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Manifest on one additional hand (yours or willing target): if both hands ethereal, you can wield normally (ethereally)'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Second Hand
+          requiresFocus: false
       duration:
         dismiss: true
         units: minute
         value: '@cl'
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

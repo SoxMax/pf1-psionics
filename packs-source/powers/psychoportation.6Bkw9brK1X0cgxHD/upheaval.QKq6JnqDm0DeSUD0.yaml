@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Upheaval
 folder: 6Bkw9brK1X0cgxHD
-img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+img: icons/magic/air/wind-tornado-funnel-gray.webp
 name: Upheaval
 system:
   actions:
@@ -18,7 +18,18 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      area: '20 ft. radius burst'
+      augments:
+        - _id: Qq3rRs4sSt5tTu6v
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Area radius: [[20 + @augments.amplify * 5]] ft.'
+          img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+          maxUses: null
+          name: Amplify
+          requiresFocus: false
       duration:
         units: inst
       name: Use
@@ -26,9 +37,10 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
       save:
+        dc: '@augments.amplify'
         description: Reflex half
         harmless: false
         type: ref

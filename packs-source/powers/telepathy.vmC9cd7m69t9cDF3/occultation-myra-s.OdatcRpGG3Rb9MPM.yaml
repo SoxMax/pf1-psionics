@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Occultation,_Myra's
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/symbols/mask-yellow-orange.webp
 name: Occultation, Myra's
 system:
   actions:
@@ -33,6 +33,27 @@ system:
         description: None
       target:
         value: You
+      augments:
+        - _id: V9w0X1y2Z3a4B5c6
+          name: Increased Penalty
+          cost: 1
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Knowledge check penalty increases by 2 per PP spent'
+        - _id: W0x1Y2z3A4b5C6d7
+          name: Controlled Misinformation
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'You determine the form of misinformation learned by creatures failing Knowledge checks'
   description:
     value: >-
       <p>You distort the way others perceive and remember you, making it hard

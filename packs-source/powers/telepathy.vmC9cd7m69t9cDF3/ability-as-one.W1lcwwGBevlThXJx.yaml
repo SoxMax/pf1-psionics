@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Ability_as_One
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/symbols/runes-star-pentagon-orange-purple.webp
 name: Ability as One
 system:
   actions:
@@ -34,6 +34,29 @@ system:
         type: will
       target:
         value: You plus one creature
+      augments:
+        - _id: A1b2C3d4E5f6G7h8
+          name: Hostile Share
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes:
+            - 'Share lowest base ability score amongst all targets; unwilling targets may Will save each round to ignore'
+        - _id: B2c3D4e5F6g7H8i9
+          name: Amplify
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes:
+            - '+[[@augments.amplify]] additional ability score(s) affected'
   description:
     value: >-
       <p>This power reflects the pinnacle of the network abilities — the

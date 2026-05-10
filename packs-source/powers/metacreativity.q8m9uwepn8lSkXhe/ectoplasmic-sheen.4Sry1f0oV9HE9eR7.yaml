@@ -50,6 +50,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
+        dc: '3*@augments.hardfall'
         description: See power text
         harmless: false
         type: ref

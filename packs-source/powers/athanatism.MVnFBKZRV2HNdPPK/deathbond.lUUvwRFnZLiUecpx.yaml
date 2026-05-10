@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Deathbond
 folder: MVnFBKZRV2HNdPPK
-img: icons/magic/death/skull-energy-light-purple.webp
+img: icons/magic/death/skull-trio-badge-purple.webp
 name: Deathbond
 system:
   actions:
@@ -18,10 +18,23 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Mv2AcKqPwT6nFr9Z
+          cost: 4
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Place a clairvoyant sense sensor at location of target''s death; lasts 1 min./level'
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: 1
+          name: Death Sensor
+          requiresFocus: false
       duration:
         units: day
         value: '@cl'
       name: Use
+      notes:
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

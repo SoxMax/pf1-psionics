@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Uplift
 folder: KOobADbbBkVCSjkN
-img: icons/magic/life/heart-glowing-red.webp
+img: icons/magic/control/buff-luck-fortune-green.webp
 name: Uplift
 system:
   actions:
@@ -18,6 +18,27 @@ system:
         unchained:
           cost: 1
           type: nonaction
+      augments:
+        - _id: Xk4gGzM7tC2qQa9j
+          cost: 1
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Transfer all ranks in one skill you possess to the target per augment (you lose access until power ends)'
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: Skill Transfer
+          requiresFocus: false
+        - _id: Yl5hHaN8uD3rRb0k
+          cost: 2
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes: []
+          img: icons/magic/life/heart-glowing-red.webp
+          maxUses: null
+          name: DC
+          requiresFocus: false
       duration:
         dismiss: true
         units: day

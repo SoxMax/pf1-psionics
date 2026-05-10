@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Disruption
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/symbols/rune-sigil-red-orange.webp
 name: Disruption
 system:
   actions:
@@ -32,6 +32,37 @@ system:
         description: None
       target:
         value: One creature
+      augments:
+        - _id: B3c4D5e6F7g8H9i0
+          name: Targets
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.targets]] additional target(s)'
+        - _id: C4d5E6f7G8h9I0j1
+          name: Range
+          cost: 2
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Range: Medium ([[100+10*@cl]] ft.)'
+        - _id: D5e6F7g8H9i0J1k2
+          name: Manifesting Ability Penalty
+          cost: 3
+          maxUses: 1
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - 'Target takes additional penalty to concentration checks equal to your manifesting ability modifier'
   description:
     value: >-
       <p>The power overwhelms the target's mind and ability to concentrate,

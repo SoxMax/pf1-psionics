@@ -1,0 +1,41 @@
+_id: tdeK2T3LBxOoimjq
+_key: '!items!tdeK2T3LBxOoimjq'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/skills/wounds/bone-broken-knee-beam.webp
+name: Fracture Pattern
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  contextNotes:
+    - target: misc
+      text: >-
+        Vulnerable to a chosen damage type (bludgeoning, cold, fire,
+        electricity, piercing, slashing, or sonic): takes +50% damage from that
+        type for the duration.
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.tdeK2T3LBxOoimjq]{Fracture
+      Pattern}</p><p>Target takes +50% damage from one chosen damage type
+      (bludgeoning, cold, fire, electricity, piercing, slashing, or sonic).</p>
+  duration:
+    end: turnStart
+    units: round
+    value: '@item.level'
+  flags:
+    dictionary: {}
+  hideFromToken: false
+  level: 3
+  showInQuickbar: false
+  subType: spell
+type: buff

@@ -6,7 +6,7 @@ flags:
   pf1-psionics:
     sourceUrl: https://metzo.miraheze.org/wiki/Death_Urge,_Blackstock's
 folder: vmC9cd7m69t9cDF3
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: icons/magic/unholy/strike-body-life-soul-purple.webp
 name: Death Urge, Blackstock's
 system:
   actions:
@@ -20,13 +20,13 @@ system:
           type: nonaction
       duration:
         units: round
-        value: '1'
+        value: '1 + @augments.dc'
       name: Use
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
       save:
         description: Will negates
@@ -34,6 +34,18 @@ system:
         type: will
       target:
         value: One living creature
+      augments:
+        - _id: A2b3C4d5E6f7G8h9
+          name: DC
+          cost: 2
+          maxUses: null
+          requiresFocus: false
+          img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes:
+            - 'Duration: [[1 + @augments.dc]] rounds (+1 round per +1 DC)'
   description:
     value: >-
       <p>You plant a hidden death-urge impulse in the subject's unconscious. On
