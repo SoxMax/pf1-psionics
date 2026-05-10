@@ -1,17 +1,28 @@
 import { MODULE_ID } from "../../_module.mjs";
 import { PowerItem } from "../../documents/_module.mjs";
 
+const ALT_SHEET_CLASSES = [
+  "pf1alt.AltActorSheetPFCharacter",
+  "pf1alt.AltActorSheetPFNPC",
+];
+
+function isAltSheet(actor) {
+  const sheetClass = actor.getFlag("core", "sheetClass");
+  if (sheetClass) return ALT_SHEET_CLASSES.includes(sheetClass);
+  const sheetsForType = CONFIG.Actor.sheetClasses?.[actor.type] ?? {};
+  return ALT_SHEET_CLASSES.some((cls) => sheetsForType[cls]?.default);
+}
+
 async function renderActorHook(app, html, data) {
   const actor = data.actor;
-  if (actor.flags?.core?.sheetClass !== "pf1alt.AltActorSheetPFCharacter") {
-    // Inject Settings
-    injectSettings(app, html, data);
-    // Inject Psionics Manifesters Tab
-    await injectPsionicsTab(app, html, data);
-    adjustActiveTab(app);
-    // Inject power points into combat tab
-    injectPowerPointsIntoCombatTab(app, html, data);
-  }
+  if (isAltSheet(actor)) return;
+  // Inject Settings
+  injectSettings(app, html, data);
+  // Inject Psionics Manifesters Tab
+  await injectPsionicsTab(app, html, data);
+  adjustActiveTab(app);
+  // Inject power points into combat tab
+  injectPowerPointsIntoCombatTab(app, html, data);
 }
 
 function injectActorSheetPF() {
