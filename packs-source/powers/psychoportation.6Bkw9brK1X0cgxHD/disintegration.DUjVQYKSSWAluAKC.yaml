@@ -27,7 +27,8 @@ system:
           effectNotes: []
           effects:
             damageBonus: 2d6
-          footerNotes: []
+          footerNotes:
+            - 'Save DC increases by 1 per 4d6 (every 2 PP) of additional damage.'
           img: icons/magic/movement/trail-streak-zigzag-yellow.webp
           maxUses: null
           name: Damage
@@ -42,9 +43,10 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
       save:
+        dc: floor(@augments.damage / 2)
         description: Fortitude partial (object)
         harmless: false
         type: fort

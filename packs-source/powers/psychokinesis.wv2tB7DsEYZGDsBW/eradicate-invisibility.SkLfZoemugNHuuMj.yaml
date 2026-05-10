@@ -18,7 +18,7 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      area: 'You and all invisible creatures and objects in a 50-ft.-radius burst centered on you'
       duration:
         units: inst
       name: Use
@@ -32,8 +32,7 @@ system:
         - _id: Jy6kL2nO8sP5tU0v
           cost: 1
           effectNotes: []
-          effects:
-            dcBonus: 1
+          effects: {}
           footerNotes:
             - '+5 ft. range and burst radius per purchase; +1 DC per 10 ft. increase'
           img: icons/magic/unholy/projectile-fireball-green.webp
@@ -41,6 +40,7 @@ system:
           name: Range
           requiresFocus: false
       save:
+        dc: floor(@augments.range / 2)
         description: Reflex negates
         harmless: false
         type: ref

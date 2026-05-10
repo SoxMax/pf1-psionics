@@ -27,14 +27,13 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
       augments:
         - _id: Ld5mKrQ9vPwXn2hT
           cost: 2
           effectNotes: []
-          effects:
-            dcBonus: 1
+          effects: {}
           footerNotes: []
           img: icons/magic/symbols/runes-star-magenta.webp
           maxUses: null
@@ -54,6 +53,7 @@ system:
       notes:
         footer: []
       save:
+        dc: '@augments.dc'
         description: Reflex negates
         harmless: false
         type: ref

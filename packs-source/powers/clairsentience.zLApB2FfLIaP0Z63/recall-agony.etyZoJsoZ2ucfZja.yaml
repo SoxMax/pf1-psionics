@@ -28,7 +28,7 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
       augments:
         - _id: Kt5wFpBxJnMqGr8v
@@ -45,6 +45,7 @@ system:
       notes:
         footer: []
       save:
+        dc: '@augments.damage'
         description: Will half
         harmless: false
         type: will

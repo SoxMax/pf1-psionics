@@ -28,6 +28,7 @@ system:
         units: long
         value: Long (400 ft. + 40 ft./level)
       save:
+        dc: '@augments.range'
         description: Will negates (harmless)
         harmless: true
         type: will
@@ -37,7 +38,7 @@ system:
           text
       augments:
         - _id: P3q4R5s6T7u8V9w0
-          name: Increased Range and DC
+          name: Range
           cost: 2
           maxUses: null
           requiresFocus: false

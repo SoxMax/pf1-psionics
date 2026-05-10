@@ -38,14 +38,14 @@ system:
       augments:
         - _id: G8h9I0j1K2l3M4n5
           name: Plant Waking Message
-          cost: null
+          cost: 1
           maxUses: 1
           requiresFocus: false
           img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
           effectNotes: []
           effects: {}
           footerNotes:
-            - 'If recipient is awake, messenger may spend PP equal to target HD - 4 to plant message received when next the target sleeps'
+            - 'If recipient is awake: spend PP equal to (recipient HD - 4) to plant message received when next they sleep. Adjust PP cost manually.'
   description:
     value: >-
       <p>You, or a messenger you touch, send a message to others in the form of

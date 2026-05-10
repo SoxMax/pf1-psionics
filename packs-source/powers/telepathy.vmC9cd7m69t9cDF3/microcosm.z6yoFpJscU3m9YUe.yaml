@@ -18,7 +18,7 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      area: 'One creature; or one or more creatures within a 15-ft.-radius sphere'
       duration:
         units: inst
       name: Use

@@ -46,6 +46,9 @@ system:
         units: round
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Caustic Retribution;level=@cl;dFlags.augmentBonus=@augments.damage]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

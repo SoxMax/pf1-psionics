@@ -41,7 +41,7 @@ system:
             - 'Duration: 1 hour/level or until discharged'
       notes:
         footer:
-          - '@PsionicApply[Cosmic Awareness;level=@cl]'
+          - '@PsionicApply[Cosmic Awareness;level=@cl;dFlags.augmentDuration=ifelse(@augments.duration, 60, 1)]'
       save:
         description: None
       target:

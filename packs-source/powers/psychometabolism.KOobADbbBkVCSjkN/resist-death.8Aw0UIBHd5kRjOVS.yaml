@@ -24,7 +24,7 @@ system:
           effectNotes: []
           effects: {}
           footerNotes:
-            - 'Power prevents [[@augments.effects]] additional negative energy effect(s) per augment'
+            - 'Power prevents [[@augments.extraEffects]] additional negative energy effect(s) per augment'
           img: icons/magic/life/heart-glowing-red.webp
           maxUses: null
           name: Extra Effects
@@ -33,6 +33,9 @@ system:
         units: hour
         value: '1'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Resist Death;level=@cl;dFlags.augmentBonus=@augments.extraEffects]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

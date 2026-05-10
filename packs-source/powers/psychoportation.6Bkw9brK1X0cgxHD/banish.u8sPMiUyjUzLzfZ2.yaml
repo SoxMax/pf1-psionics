@@ -22,9 +22,9 @@ system:
         - _id: Ff6gGh7iIj8kKl9m
           cost: 2
           effectNotes: []
-          effects:
-            dcBonus: 1
-          footerNotes: []
+          effects: {}
+          footerNotes:
+            - 'Manifester level (vs. PR) also increases by 1 per 2 PP spent.'
           img: icons/magic/movement/trail-streak-zigzag-yellow.webp
           maxUses: null
           name: DC
@@ -39,6 +39,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
+        dc: '@augments.dc'
         description: Will negates
         harmless: false
         type: will

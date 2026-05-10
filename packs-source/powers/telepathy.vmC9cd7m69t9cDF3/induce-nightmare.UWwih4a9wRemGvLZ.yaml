@@ -38,15 +38,15 @@ system:
         value: One living creature
       augments:
         - _id: Q8r9S0t1U2v3W4x5
-          name: Increased Damage
+          name: Damage
           cost: 2
           maxUses: null
           requiresFocus: false
           img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
           effectNotes: []
-          effects: {}
-          footerNotes:
-            - '+1d10 damage when the sleeper wakes per 2 PP spent'
+          effects:
+            damageBonus: 1d10
+          footerNotes: []
   description:
     value: >-
       <p>You send a hideous and unsettling phantasmal vision to a specific

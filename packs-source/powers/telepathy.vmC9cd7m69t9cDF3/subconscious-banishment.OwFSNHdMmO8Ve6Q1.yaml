@@ -28,6 +28,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
+        dc: '@augments.range + 3*@augments.nauseate'
         description: Will negates; then Fortitude negates (seetext)
         harmless: false
         type: fort
@@ -35,7 +36,7 @@ system:
         value: One creature with an Intelligence of 3 or more.
       augments:
         - _id: V5w6X7y8Z9a0B1c2
-          name: Extended Range
+          name: Range
           cost: 3
           maxUses: 1
           requiresFocus: false
@@ -45,7 +46,7 @@ system:
           footerNotes:
             - 'Range increases to Medium (100 ft. + 10 ft./level); +1 DC per 2 PP spent'
         - _id: W6x7Y8z9A0b1C2d3
-          name: Nauseated Condition
+          name: Nauseate
           cost: 4
           maxUses: 1
           requiresFocus: false

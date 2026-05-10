@@ -24,7 +24,7 @@ system:
           effectNotes: []
           effects: {}
           footerNotes:
-            - 'Target gains access to [[@augments.powers]] additional 1st-level power(s) you know per augment (you lose access to them for the duration)'
+            - 'Target gains access to [[@augments.extra1stlevelpowers]] additional 1st-level power(s) you know per augment (you lose access to them for the duration)'
           img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
           maxUses: null
           name: Extra 1st-Level Powers

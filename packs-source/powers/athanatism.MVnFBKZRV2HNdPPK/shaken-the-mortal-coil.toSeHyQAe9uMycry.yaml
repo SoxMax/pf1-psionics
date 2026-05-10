@@ -26,13 +26,21 @@ system:
           cost: 1
           effectNotes: []
           effects:
-            damageBonus: 10
-            dcBonus: 1
-          footerNotes:
-            - '+[[@augments.extraDamage * 10]] damage on failed save; +[[@augments.dcBonus]] save DC per 2 pp'
+            damageBonus: '10'
+          footerNotes: []
           img: icons/magic/death/skull-energy-light-purple.webp
           maxUses: null
-          name: Extra Damage
+          name: Damage
+          requiresFocus: false
+        - _id: Mw4XpKqRsT8vBn7Q
+          cost: 2
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes: []
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: DC
           requiresFocus: false
         - _id: Lo6TsKvVxA9cFq4J
           cost: 0
@@ -48,8 +56,7 @@ system:
         units: inst
       name: Use
       notes:
-        footer:
-          - 'For every 2 pp spent augmenting, save DC +1'
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

@@ -28,10 +28,9 @@ system:
         - _id: tMKVNB4mO6F4RDjX
           cost: 2
           effectNotes: []
-          effects:
-            dcBonus: 1
+          effects: {}
           footerNotes:
-            - +[[5*@augments.increaseArea]] ft. radius
+            - +[[5*@augments.area]] ft. radius
           img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
           maxUses: null
           name: Area
@@ -42,7 +41,6 @@ system:
             - '@Damage'
           effects:
             damageBonus: 2d6
-            dcBonus: 2
           footerNotes: []
           img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
           maxUses: 1

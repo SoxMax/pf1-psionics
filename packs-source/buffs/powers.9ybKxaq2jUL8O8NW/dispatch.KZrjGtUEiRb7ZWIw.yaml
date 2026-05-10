@@ -22,7 +22,7 @@ system:
     - target: attack
       text: '+[[4 + @item.dFlags.augmentBonus]] insight bonus on disarm and trip attack rolls and ability checks (Dispatch)'
     - target: damage
-      text: '+[[0 + @item.dFlags.augmentBonus]] insight bonus on damage rolls on attacks of opportunity (Dispatch; based on total pp spent)'
+      text: '+[[@item.dFlags.augmentDamage]] insight bonus on damage rolls on attacks of opportunity (Dispatch; +1 per total PP spent on Damage augment)'
   description:
     value: >-
       <p>@UUID[Compendium.pf1-psionics.powers.Item.USlg6hfgUzBQe116]{Dispatch}</p>
@@ -30,7 +30,7 @@ system:
   duration:
     end: turnStart
     units: round
-    value: '1'
+    value: '1 + @item.dFlags.augmentDuration'
   flags:
     dictionary:
       augmentBonus: '0'

@@ -24,7 +24,6 @@ system:
       damage:
         parts:
           - formula: 3d8
-          - formula: 3d8
       augments:
         - _id: Gt6pPiV9cL4zZj1s
           cost: 2

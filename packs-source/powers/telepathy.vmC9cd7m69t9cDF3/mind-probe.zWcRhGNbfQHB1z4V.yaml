@@ -30,6 +30,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
+        dc: '@augments.dc'
         description: Will partial; see text
         harmless: false
         type: will
@@ -37,7 +38,7 @@ system:
         value: One creature
       augments:
         - _id: H5i6J7k8L9m0N1o2
-          name: Extended Range
+          name: Range
           cost: 2
           maxUses: 1
           requiresFocus: false
@@ -45,17 +46,16 @@ system:
           effectNotes: []
           effects: {}
           footerNotes:
-            - 'Range increases to Medium (100 ft. + 10 ft./level)'
+            - 'Range: Medium ([[100 + 10 * @cl]] ft.)'
         - _id: I6j7K8l9M0n1O2p3
-          name: Increased DC
+          name: DC
           cost: 2
           maxUses: null
           requiresFocus: false
           img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
           effectNotes: []
           effects: {}
-          footerNotes:
-            - '+1 DC per 2 PP spent'
+          footerNotes: []
   description:
     value: >-
       <p>All the subject's memories and knowledge are accessible to you, from

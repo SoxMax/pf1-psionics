@@ -1,0 +1,41 @@
+_id: YrxMiuZZtahLQw7T
+_key: '!items!YrxMiuZZtahLQw7T'
+_stats:
+  coreVersion: '13.351'
+folder: 9ybKxaq2jUL8O8NW
+img: icons/magic/life/heart-glowing-red.webp
+name: Energy Allergy
+system:
+  active: false
+  changeFlags:
+    heavyArmorFullSpeed: false
+    immuneToMorale: false
+    loseDexToAC: false
+    lowLightVision: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
+  contextNotes:
+    - target: misc
+      text: >-
+        Vulnerability to a chosen energy type (acid/cold/electricity/fire/sonic):
+        takes +50% damage from that type. Resistance/immunity unaffected.
+  description:
+    value: >-
+      <p>@UUID[Compendium.pf1-psionics.powers.Item.YrxMiuZZtahLQw7T]{Energy
+      Allergy}</p><p>Target takes +50% damage from a chosen energy type
+      (selected when manifester last gained psionic focus). Existing resistance
+      and immunity to that energy type remain unaffected.</p>
+  duration:
+    end: turnStart
+    units: round
+    value: '@item.level'
+  flags:
+    dictionary: {}
+  hideFromToken: false
+  level: 1
+  showInQuickbar: false
+  subType: spell
+type: buff

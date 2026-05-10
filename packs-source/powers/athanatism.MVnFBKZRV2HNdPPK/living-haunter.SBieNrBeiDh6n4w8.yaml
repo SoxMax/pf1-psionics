@@ -61,8 +61,8 @@ system:
           requiresFocus: false
       duration:
         dismiss: true
-        units: spec
-        value: 1 round/level (D) and Will negates; see text and yes; see text
+        units: round
+        value: '@cl'
       name: Use
       notes:
         footer:

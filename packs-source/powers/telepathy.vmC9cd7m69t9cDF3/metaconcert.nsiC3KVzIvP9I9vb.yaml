@@ -21,7 +21,7 @@ system:
       duration:
         dismiss: true
         units: minute
-        value: '@cl'
+        value: '@cl + @augments.duration'
       name: Use
       powerAttack:
         critMultiplier: 1
@@ -35,7 +35,7 @@ system:
         value: You and up to five other willing psionic creatures in range; see text
       augments:
         - _id: C0d1E2f3G4h5I6j7
-          name: Extended Duration and Capacity
+          name: Duration
           cost: 1
           maxUses: null
           requiresFocus: false
@@ -43,7 +43,7 @@ system:
           effectNotes: []
           effects: {}
           footerNotes:
-            - '+1 minute duration per PP spent; per 2 PP spent: +1 max members, +5 ft. range and radius'
+            - 'Duration: [[@cl + @augments.duration]] minutes; +[[floor(@augments.duration / 2)]] max members; range/radius +[[5 * floor(@augments.duration / 2)]] ft.'
   description:
     value: >-
       <p>You link your psychic might with other psionic creatures, creating a

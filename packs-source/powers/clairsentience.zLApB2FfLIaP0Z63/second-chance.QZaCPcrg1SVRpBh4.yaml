@@ -30,7 +30,7 @@ system:
         value: Personal
       augments:
         - _id: Wc4nRjGkBqMpTx8a
-          name: Insight
+          name: Amplify
           cost: 3
           maxUses: null
           requiresFocus: false
@@ -38,10 +38,10 @@ system:
           effectNotes: []
           effects: {}
           footerNotes:
-            - '+[[@augments.insight]] insight bonus on the reroll'
+            - '+[[@augments.amplify]] insight bonus on the reroll'
       notes:
         footer:
-          - '@PsionicApply[Second Chance;level=@cl;dFlags.augmentBonus=@augments.insight]'
+          - '@PsionicApply[Second Chance;level=@cl;dFlags.augmentBonus=@augments.amplify]'
       save:
         description: None
       target:

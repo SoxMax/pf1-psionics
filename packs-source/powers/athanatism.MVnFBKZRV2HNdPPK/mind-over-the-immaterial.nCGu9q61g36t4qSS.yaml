@@ -27,7 +27,7 @@ system:
             - 'Manifest this power as a swift action'
           img: icons/magic/death/skull-energy-light-purple.webp
           maxUses: 1
-          name: Swift Action
+          name: Swift
           requiresFocus: false
       duration:
         dismiss: true

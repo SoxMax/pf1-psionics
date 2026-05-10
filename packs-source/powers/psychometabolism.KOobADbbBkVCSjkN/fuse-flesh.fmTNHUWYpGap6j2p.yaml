@@ -25,8 +25,7 @@ system:
         - _id: Xk7gGzL5tC1qQa6j
           cost: 2
           effectNotes: []
-          effects:
-            dcBonus: 1
+          effects: {}
           footerNotes: []
           img: icons/magic/life/heart-glowing-red.webp
           maxUses: null
@@ -43,6 +42,7 @@ system:
         units: touch
         value: Touch
       save:
+        dc: '@augments.dc'
         description: Fortitude negates and Fortitude partial; see text
         harmless: false
         type: fort

@@ -28,7 +28,7 @@ system:
   duration:
     end: turnStart
     units: minute
-    value: '@item.level'
+    value: '@item.level * @item.dFlags.augmentDuration'
   flags:
     dictionary:
       augmentBonus: '0'

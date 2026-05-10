@@ -36,12 +36,12 @@ system:
           requiresFocus: false
           img: icons/magic/perception/third-eye-blue-red.webp
           effectNotes: []
-          effects:
-            dcBonus: 1
+          effects: {}
           footerNotes: []
       notes:
         footer: []
       save:
+        dc: '@augments.dc'
         description: Will negates
         harmless: false
         type: will

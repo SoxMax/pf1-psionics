@@ -20,13 +20,13 @@ system:
           type: nonaction
       duration:
         units: round
-        value: '1'
+        value: '1 + @augments.dc'
       name: Use
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
       save:
         description: Will negates
@@ -36,15 +36,16 @@ system:
         value: One living creature
       augments:
         - _id: A2b3C4d5E6f7G8h9
-          name: Increased DC and Duration
+          name: DC
           cost: 2
           maxUses: null
           requiresFocus: false
           img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
           effectNotes: []
-          effects: {}
+          effects:
+            dcBonus: 1
           footerNotes:
-            - '+1 DC per 2 PP spent; duration increases by 1 round per 2-point DC increase'
+            - 'Duration: [[1 + @augments.dc]] rounds (+1 round per +1 DC)'
   description:
     value: >-
       <p>You plant a hidden death-urge impulse in the subject's unconscious. On

@@ -60,29 +60,38 @@ system:
             - 'Cord retracts full length instantly; successful CMB pulls target adjacent'
           img: icons/magic/symbols/runes-star-magenta.webp
           maxUses: 1
-          name: Instant Retract
+          name: Retract
           requiresFocus: false
         - _id: Ub6nFqL2kCyTx9mW
           cost: 4
           effectNotes: []
           effects: {}
           footerNotes:
-            - 'Can drag creatures [[@augments.dragSize]] size category larger; cord hardness
-              [[10+2*@augments.dragSize]], hp [[5+10*@augments.dragSize]], break DC [[26+2*@augments.dragSize]]'
+            - 'Can drag creatures [[@augments.drag]] size category larger; cord hardness
+              [[10+2*@augments.drag]], hp [[5+10*@augments.drag]], break DC [[26+2*@augments.drag]]'
           img: icons/magic/symbols/runes-star-magenta.webp
           maxUses: null
-          name: Drag Size
+          name: Drag
           requiresFocus: false
         - _id: Rp3tJwK8dBzNs5vE
           cost: 4
           effectNotes: []
           effects: {}
           footerNotes:
-            - 'Manifest as move action; +1 to CMB and Climb checks per 2 PP spent on any
-              augment'
+            - 'Manifest as a move action'
           img: icons/magic/symbols/runes-star-magenta.webp
           maxUses: 1
-          name: Move Action
+          name: Move
+          requiresFocus: false
+        - _id: Hg7vKrM2nWtBp5xQ
+          cost: 2
+          effectNotes: []
+          effects: {}
+          footerNotes:
+            - '+[[@augments.amplify]] bonus on CMB and Climb checks made for this power'
+          img: icons/magic/symbols/runes-star-magenta.webp
+          maxUses: null
+          name: Amplify
           requiresFocus: false
       notes:
         footer: []

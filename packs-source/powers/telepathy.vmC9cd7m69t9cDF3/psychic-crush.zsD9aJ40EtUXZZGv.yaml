@@ -20,7 +20,7 @@ system:
           type: nonaction
       damage:
         parts:
-          - formula: 3d6
+          - formula: (3 + @augments.dc)d6
       duration:
         units: inst
       name: Use
@@ -31,6 +31,7 @@ system:
         units: close
         value: Close (25 ft. +5 ft./2 levels)
       save:
+        dc: '@augments.dc'
         description: Will partial; see text
         harmless: false
         type: will
@@ -38,7 +39,7 @@ system:
         value: One creature
       augments:
         - _id: I2j3K4l5M6n7O8p9
-          name: Increased Damage and DC
+          name: DC
           cost: 2
           maxUses: null
           requiresFocus: false

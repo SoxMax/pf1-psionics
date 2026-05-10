@@ -39,7 +39,6 @@ system:
           effectNotes: []
           effects:
             damageBonus: 1d6
-            dcBonus: 1
           footerNotes:
             - '+1d6 damage per purchase; +1 DC per 2d6'
           img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
@@ -47,6 +46,7 @@ system:
           name: Damage
           requiresFocus: false
       save:
+        dc: floor(@augments.damage / 2)
         description: Fortitude negates
         harmless: false
         type: fort

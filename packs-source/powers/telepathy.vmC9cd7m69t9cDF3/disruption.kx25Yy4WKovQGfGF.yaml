@@ -34,7 +34,7 @@ system:
         value: One creature
       augments:
         - _id: B3c4D5e6F7g8H9i0
-          name: Additional Target
+          name: Targets
           cost: 2
           maxUses: null
           requiresFocus: false
@@ -42,9 +42,9 @@ system:
           effectNotes: []
           effects: {}
           footerNotes:
-            - 'Affect one additional target per 2 PP spent'
+            - '+[[@augments.targets]] additional target(s)'
         - _id: C4d5E6f7G8h9I0j1
-          name: Extended Range
+          name: Range
           cost: 2
           maxUses: 1
           requiresFocus: false
@@ -52,7 +52,7 @@ system:
           effectNotes: []
           effects: {}
           footerNotes:
-            - 'Range increases to Medium'
+            - 'Range: Medium ([[100+10*@cl]] ft.)'
         - _id: D5e6F7g8H9i0J1k2
           name: Manifesting Ability Penalty
           cost: 3

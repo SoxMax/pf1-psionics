@@ -34,7 +34,7 @@ system:
         value: One creature with an Intelligence score of 3 or higher
       augments:
         - _id: T0u1V2w3X4y5Z6a7
-          name: Extended Duration
+          name: Duration
           cost: 4
           maxUses: 1
           requiresFocus: false
@@ -42,7 +42,7 @@ system:
           effectNotes: []
           effects: {}
           footerNotes:
-            - 'Duration increases to 10 minutes/level'
+            - 'Duration: [[10 * @cl]] minutes (instead of @cl rounds)'
   description:
     value: >-
       <p>You forge a passive mental link with a creature with which you have

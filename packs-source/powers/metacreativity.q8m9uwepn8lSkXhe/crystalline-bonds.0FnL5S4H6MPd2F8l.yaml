@@ -30,7 +30,7 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
       augments:
         - _id: Pq2mRsT6vXwNk8cD

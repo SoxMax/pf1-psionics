@@ -26,7 +26,7 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level); see text
       save:
         description: Will negates
@@ -42,9 +42,10 @@ system:
           requiresFocus: false
           img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
           effectNotes: []
-          effects: {}
+          effects:
+            dcBonus: 1
           footerNotes:
-            - 'Also affects animals, fey, magical beasts, and monstrous humanoids; +1 DC per 2 PP spent'
+            - 'Also affects animals, fey, magical beasts, and monstrous humanoids'
         - _id: F3g4H5i6J7k8L9m0
           name: Broader Creature Types II
           cost: 4
@@ -52,19 +53,21 @@ system:
           requiresFocus: false
           img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
           effectNotes: []
-          effects: {}
+          effects:
+            dcBonus: 2
           footerNotes:
-            - 'Also affects aberrations, dragons, elementals, and outsiders; +1 DC per 2 PP spent'
+            - 'Also affects aberrations, dragons, elementals, and outsiders'
         - _id: G4h5I6j7K8l9M0n1
-          name: Additional Target
+          name: Targets
           cost: 2
           maxUses: null
           requiresFocus: false
           img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
           effectNotes: []
-          effects: {}
+          effects:
+            dcBonus: 1
           footerNotes:
-            - '+1 additional target per 2 PP spent; targets must be within 15 ft. of another target; +1 DC per 2 PP spent'
+            - '+[[@augments.targets]] additional target(s); targets must be within 15 ft. of another target'
   description:
     value: >-
       <p>You can control the actions of any humanoid creature through a

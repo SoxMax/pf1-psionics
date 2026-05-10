@@ -22,8 +22,7 @@ system:
         - _id: Kk7lLm8mMn9nNo0p
           cost: 4
           effectNotes: []
-          effects:
-            dcBonus: 2
+          effects: {}
           footerNotes:
             - '+[[@augments.amplify]] size categor(ies) increase to maximum target size'
           img: icons/magic/holy/angel-winged-humanoid-blue.webp
@@ -40,6 +39,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
+        dc: 2 * @augments.amplify
         description: Will negates
         harmless: false
         type: will

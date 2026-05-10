@@ -24,18 +24,16 @@ system:
           effectNotes: []
           effects:
             dcBonus: 1
-          footerNotes:
-            - 'Save DC +[[@augments.dcBonus]] (per 2 pp spent)'
+          footerNotes: []
           img: icons/magic/death/skull-energy-light-purple.webp
           maxUses: null
-          name: DC Bonus
+          name: DC
           requiresFocus: false
       duration:
         units: inst
       name: Use
       notes:
-        footer:
-          - 'For every 2 additional pp spent, save DC +1'
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

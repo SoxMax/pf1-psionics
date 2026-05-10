@@ -30,7 +30,7 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 feet + 10 feet/level)
       save:
         description: Yes (harmless)

@@ -21,7 +21,7 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      area: '40-ft.-radius spread'
       damage:
         parts:
           - formula: 8d6
@@ -40,7 +40,6 @@ system:
           effectNotes: []
           effects:
             damageBonus: 1d6
-            dcBonus: 1
           footerNotes:
             - '+1d6 area damage per purchase; +1 DC per 2d6'
           img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
@@ -48,6 +47,7 @@ system:
           name: Damage
           requiresFocus: false
       save:
+        dc: floor(@augments.damage / 2)
         description: Reflex half; see text
         harmless: false
         type: ref

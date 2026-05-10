@@ -27,7 +27,7 @@ system:
           effectNotes: []
           effects: {}
           footerNotes:
-            - 'Power causes [[@augments.dice]]d4 additional points of Strength damage per augment'
+            - 'Power causes [[@augments.damage]]d4 additional points of Strength damage per augment'
           img: icons/magic/life/heart-glowing-red.webp
           maxUses: null
           name: Damage

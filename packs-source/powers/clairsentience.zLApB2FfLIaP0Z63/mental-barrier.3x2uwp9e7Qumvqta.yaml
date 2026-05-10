@@ -30,7 +30,7 @@ system:
         value: Personal
       augments:
         - _id: Mv6bHtJrKfNsWp9q
-          name: Deflection
+          name: Amplify
           cost: 4
           maxUses: null
           requiresFocus: false
@@ -38,9 +38,9 @@ system:
           effectNotes: []
           effects: {}
           footerNotes:
-            - 'Deflection bonus to AC: +[[4+@augments.deflection]]'
+            - 'Deflection bonus to AC: +[[4+@augments.amplify]]'
         - _id: Dg2xAeZmPyObCn5w
-          name: Extra Duration
+          name: Duration
           cost: 1
           maxUses: null
           requiresFocus: false
@@ -48,10 +48,10 @@ system:
           effectNotes: []
           effects: {}
           footerNotes:
-            - 'Duration: [[1+@augments.extraDuration]] round(s)'
+            - 'Duration: [[1+@augments.duration]] round(s)'
       notes:
         footer:
-          - '@PsionicApply[Mental Barrier;level=@cl;dFlags.augmentBonus=@augments.deflection]'
+          - '@PsionicApply[Mental Barrier;level=@cl;dFlags.augmentBonus=@augments.amplify;dFlags.augmentDuration=@augments.duration]'
       save:
         description: None
       target:

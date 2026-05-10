@@ -34,10 +34,10 @@ system:
           effectNotes: []
           effects: {}
           footerNotes:
-            - '+[[@augments.twins]] additional cloned twin(s)'
+            - '+[[@augments.targets]] additional cloned twin(s)'
           img: icons/magic/life/heart-glowing-red.webp
           maxUses: null
-          name: Twins
+          name: Targets
           requiresFocus: false
         - _id: Cp6lLeQ4yH9vVf5o
           cost: 4

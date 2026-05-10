@@ -31,7 +31,7 @@ system:
           requiresFocus: false
       duration:
         units: minute
-        value: '1'
+        value: '1 + @augments.duration'
       name: Use
       powerAttack:
         critMultiplier: 1

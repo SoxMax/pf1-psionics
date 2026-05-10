@@ -40,9 +40,10 @@ system:
           requiresFocus: false
           img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
           effectNotes: []
-          effects: {}
+          effects:
+            dcBonus: 1
           footerNotes:
-            - 'Blindsight can also be chosen as a special ability to share; +1 DC per 2 PP spent'
+            - 'Blindsight can also be chosen as a special ability to share'
         - _id: Q0r1S2t3U4v5W6x7
           name: Unwilling Target
           cost: 2
@@ -50,9 +51,10 @@ system:
           requiresFocus: false
           img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
           effectNotes: []
-          effects: {}
+          effects:
+            dcBonus: 1
           footerNotes:
-            - 'Power can affect unwilling target (Will negates); unwilling target does not gain shared sense and you may negate their sensory ability; +1 DC per 2 PP spent'
+            - 'Power can affect unwilling target (Will negates); unwilling target does not gain shared sense and you may negate their sensory ability'
   description:
     value: >-
       <p>When you manifest this power, choose one of the following sensory

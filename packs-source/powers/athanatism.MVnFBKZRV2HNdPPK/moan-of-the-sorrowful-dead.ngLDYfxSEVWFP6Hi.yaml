@@ -18,7 +18,7 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      area: '10-ft.-radius spread'
       augments:
         - _id: Ps2VwOyZcD5gKt8M
           cost: 4
@@ -61,7 +61,7 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
       save:
         description: Will partial

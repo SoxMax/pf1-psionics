@@ -36,7 +36,8 @@ system:
         - _id: Yl2hHaN0uD5rRb1k
           cost: 4
           effectNotes: []
-          effects: {}
+          effects:
+            dcBonus: 2
           footerNotes:
             - 'Victims that fail save are also @Condition[nauseated] for 1 round'
           img: icons/magic/unholy/projectile-missile-green.webp
@@ -51,7 +52,7 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
       save:
         description: Fortitude partial (see text)

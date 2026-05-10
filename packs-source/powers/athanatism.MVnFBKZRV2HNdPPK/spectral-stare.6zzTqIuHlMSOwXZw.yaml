@@ -33,13 +33,22 @@ system:
           cost: 4
           effectNotes: []
           effects:
-            damageBonus: 10
-            dcBonus: 1
+            damageBonus: '1d10'
           footerNotes:
-            - '+[[@augments.extraDice]]d10 damage; +[[@augments.extraDice]] Cha damage on failed save; DC +[[@augments.dcBonus]] per 2 pp'
+            - '+[[@augments.damage]] Cha damage on failed save'
           img: icons/magic/death/skull-energy-light-purple.webp
           maxUses: null
-          name: Extra Damage
+          name: Damage
+          requiresFocus: false
+        - _id: Vy7DdFfGgH0mPz5T
+          cost: 2
+          effectNotes: []
+          effects:
+            dcBonus: 1
+          footerNotes: []
+          img: icons/magic/death/skull-energy-light-purple.webp
+          maxUses: null
+          name: DC
           requiresFocus: false
       damage:
         parts:
@@ -49,8 +58,7 @@ system:
         value: '@cl'
       name: Use
       notes:
-        footer:
-          - 'For every 2 pp spent augmenting, save DC +1'
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

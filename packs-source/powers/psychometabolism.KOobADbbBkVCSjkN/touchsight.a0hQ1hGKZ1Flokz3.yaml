@@ -37,6 +37,9 @@ system:
         units: minute
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Touchsight;level=@cl;dFlags.augmentBonus=@augments.radius]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

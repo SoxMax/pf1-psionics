@@ -55,7 +55,7 @@ system:
       name: Use
       notes:
         footer:
-          - '@PsionicApply[Zealous Fury, Zelladariath''s;level=@cl;dFlags.augmentBonus=@augments.greaterReduction;dFlags.augmentDuration=@augments.duration]'
+          - '@PsionicApply[Zealous Fury, Zelladariath''s;level=@cl;dFlags.augmentBonus=@augments.greaterReduction+2*@augments.superiorReduction;dFlags.augmentDuration=@augments.duration]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

@@ -25,8 +25,7 @@ system:
         - _id: Mm3nNo4oOp5pPq6s
           cost: 2
           effectNotes: []
-          effects:
-            dcBonus: 1
+          effects: {}
           footerNotes: []
           img: icons/magic/movement/trail-streak-zigzag-yellow.webp
           maxUses: null
@@ -44,6 +43,7 @@ system:
         units: touch
         value: Touch
       save:
+        dc: '@augments.dc'
         description: Will negates
         harmless: false
         type: will

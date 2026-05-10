@@ -29,6 +29,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft/2 levels)
       save:
+        dc: '@augments.checktype + @augments.penalty'
         description: Will partial (see text)
         harmless: false
         type: will
@@ -36,7 +37,7 @@ system:
         value: One creature
       augments:
         - _id: J3k4L5m6N7o8P9q0
-          name: Additional Check Type
+          name: CheckType
           cost: 2
           maxUses: 1
           requiresFocus: false
@@ -46,7 +47,7 @@ system:
           footerNotes:
             - 'Choose a second type of check to apply the penalty to; +1 DC per 2 PP spent'
         - _id: K4l5M6n7O8p9Q0r1
-          name: Increased Penalty
+          name: Penalty
           cost: 2
           maxUses: null
           requiresFocus: false

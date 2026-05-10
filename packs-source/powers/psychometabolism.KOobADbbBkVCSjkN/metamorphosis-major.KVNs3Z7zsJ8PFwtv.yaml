@@ -22,9 +22,7 @@ system:
           cost: 1
           type: nonaction
       damage:
-        parts:
-          - formula: 2d6
-          - formula: 2d6
+        parts: []
       augments:
         - _id: Na3wWpC6jS1gGq8z
           cost: 6

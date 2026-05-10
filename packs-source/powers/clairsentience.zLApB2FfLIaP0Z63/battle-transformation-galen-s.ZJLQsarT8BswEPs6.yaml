@@ -30,7 +30,7 @@ system:
         value: Personal
       augments:
         - _id: Gq3mRxKpJtBvZn8w
-          name: Bonus
+          name: Amplify
           cost: 3
           maxUses: null
           requiresFocus: false
@@ -38,7 +38,7 @@ system:
           effectNotes: []
           effects: {}
           footerNotes:
-            - 'Luck bonus improves by +[[@augments.bonus]] (total +[[2+@augments.bonus]])'
+            - 'Luck bonus improves by +[[@augments.amplify]] (total +[[2+@augments.amplify]])'
         - _id: Vc5hLyNmSdWqXr7e
           name: Duration
           cost: 4
@@ -61,7 +61,7 @@ system:
             - 'Gains Network descriptor; save becomes Will negates (harmless); PR becomes Yes (harmless)'
       notes:
         footer:
-          - '@PsionicApply[Battle Transformation, Galen''s;level=@cl;dFlags.augmentBonus=@augments.bonus]'
+          - '@PsionicApply[Battle Transformation, Galen''s;level=@cl;dFlags.augmentBonus=@augments.amplify]'
       save:
         description: None; see text
       target:

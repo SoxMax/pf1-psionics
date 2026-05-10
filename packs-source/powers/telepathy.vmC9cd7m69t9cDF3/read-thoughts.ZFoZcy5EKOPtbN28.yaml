@@ -31,6 +31,7 @@ system:
         units: ft
         value: 60
       save:
+        dc: '@augments.dc'
         description: Will negates; see text
         harmless: false
         type: will
@@ -38,7 +39,7 @@ system:
         value: Cone-shaped emanation centered on you
       augments:
         - _id: O8p9Q0r1S2t3U4v5
-          name: Increased DC
+          name: DC
           cost: 2
           maxUses: null
           requiresFocus: false

@@ -27,8 +27,7 @@ system:
         - _id: zJdAL3H3aREGekZG
           cost: 1
           effectNotes: []
-          effects:
-            dcBonus: 0.5
+          effects: {}
           footerNotes: []
           img: icons/magic/light/explosion-star-glow-silhouette.webp
           maxUses: null

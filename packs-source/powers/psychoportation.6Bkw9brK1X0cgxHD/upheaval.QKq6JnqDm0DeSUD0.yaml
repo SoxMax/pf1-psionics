@@ -18,13 +18,12 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      area: '20 ft. radius burst'
       augments:
         - _id: Qq3rRs4sSt5tTu6v
           cost: 2
           effectNotes: []
-          effects:
-            dcBonus: 1
+          effects: {}
           footerNotes:
             - 'Area radius: [[20 + @augments.amplify * 5]] ft.'
           img: icons/magic/movement/trail-streak-zigzag-yellow.webp
@@ -38,9 +37,10 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
       save:
+        dc: '@augments.amplify'
         description: Reflex half
         harmless: false
         type: ref

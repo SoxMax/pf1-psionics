@@ -1,0 +1,74 @@
+_id: l9Uxz00RbMjA9ELh
+_key: '!items!l9Uxz00RbMjA9ELh'
+_stats:
+  coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    sourceUrl: https://metzo.miraheze.org/wiki/Power_Resistance
+folder: zLApB2FfLIaP0Z63
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Power Resistance
+system:
+  actions:
+    - actionType: save
+      activation:
+        cost: 1
+        type: standard
+      duration:
+        units: minute
+        value: '@cl'
+      name: Use
+      range:
+        units: touch
+        value: Touch
+      save:
+        description: Will negates (harmless)
+        harmless: true
+        type: will
+      target:
+        value: Creature touched
+  description:
+    instructions: ''
+    value: |-
+      <p>The creature gains power resistance equal to 12 + your manifester level.
+      </p>
+  descriptors: []
+  discipline: clairsentience
+  display:
+    auditory: false
+    material: true
+    mental: false
+    olfactory: false
+    visual: true
+  known: false
+  learnedAt:
+    class:
+      psion: 5
+      tactician: 5
+      vitalist: 5
+      wilder: 5
+  level: 5
+  manifestTime:
+    units: standard
+    value: 1
+  manifester: ''
+  prepared: false
+  sources:
+    - date: '2010-12-16'
+      pages: '133'
+      publisher: Dreamscarred Press
+      title: Psionics Unleashed
+    - date: '2013-12-24'
+      pages: '229'
+      publisher: Dreamscarred Press
+      title: Ultimate Psionics
+    - date: '2015-04-30'
+      pages: '50'
+      publisher: Dreamscarred Press
+      title: 'Psionics Augmented: Mythic Psionics'
+  sr: true
+  subdiscipline: []
+  tags: []
+  uses:
+    autoDeductChargesCost: max(0, @sl * 2 - 1)
+type: pf1-psionics.power

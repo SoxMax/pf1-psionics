@@ -32,6 +32,7 @@ system:
         units: close
         value: Close (25 ft. +5 ft./2 levels)
       save:
+        dc: '@augments.targets'
         description: Will negates
         harmless: false
         type: will
@@ -39,7 +40,7 @@ system:
         value: One creature
       augments:
         - _id: P7q8R9s0T1u2V3w4
-          name: Additional Target
+          name: Targets
           cost: 2
           maxUses: null
           requiresFocus: false

@@ -37,7 +37,7 @@ system:
             - 'Spend 2 pp and lose 5 HP: insight bonus to AC and saves increased by 1'
           img: icons/magic/death/skull-energy-light-purple.webp
           maxUses: null
-          name: AC Bonus
+          name: Amplify
           requiresFocus: false
       duration:
         dismiss: true
@@ -46,7 +46,7 @@ system:
       name: Use
       notes:
         footer:
-          - '@PsionicApply[Scales of Damnation;level=@cl;dFlags.augmentBonus=@augments.acBonus]'
+          - '@PsionicApply[Scales of Damnation;level=@cl;dFlags.augmentBonus=@augments.amplify]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

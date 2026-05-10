@@ -18,10 +18,12 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      area: '40 ft. burst'
       damage:
         parts:
-          - formula: 1d6
+          - formula: 9d6
+            types:
+              - piercing
       duration:
         units: inst
       name: Use
@@ -35,7 +37,7 @@ system:
           effects:
             damageBonus: 1d6
           footerNotes:
-            - '+[[@augments.damage]]d6 damage; save DC increases by [[floor(@augments.damage/2)]]'
+            - 'Save DC increases by [[floor(@augments.damage/2)]] (+1 per 2 extra dice)'
           img: icons/magic/symbols/runes-star-magenta.webp
           maxUses: null
           name: Damage
@@ -43,6 +45,7 @@ system:
       notes:
         footer: []
       save:
+        dc: 'floor(@augments.damage/2)'
         description: Reflex half
         harmless: false
         type: ref

@@ -34,6 +34,9 @@ system:
         units: round
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Energy Allergy;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

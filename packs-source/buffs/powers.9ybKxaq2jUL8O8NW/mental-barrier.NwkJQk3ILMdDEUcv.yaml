@@ -32,7 +32,7 @@ system:
   duration:
     end: turnStart
     units: round
-    value: '1'
+    value: '1 + @item.dFlags.augmentDuration'
   flags:
     dictionary:
       augmentBonus: '0'

@@ -18,7 +18,7 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      area: '30 ft. radius burst'
       damage:
         parts:
           - formula: 3d6
@@ -38,7 +38,6 @@ system:
           effectNotes: []
           effects:
             damageBonus: 1d6
-            dcBonus: 1
           footerNotes: []
           img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
           maxUses: null
@@ -55,6 +54,7 @@ system:
           name: Redirect
           requiresFocus: false
       save:
+        dc: '@augments.amplify'
         description: Fortitude half
         harmless: false
         type: fort

@@ -18,7 +18,7 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      area: '10-ft.-radius emanation centered on you'
       duration:
         units: round
         value: '1'
@@ -31,7 +31,7 @@ system:
         value: 10
       notes:
         footer:
-          - '@PsionicApply[Tower of Iron Will;level=@cl;dFlags.augmentBonus=@augments.extendedDurationAndPowerResistance]'
+          - '@PsionicApply[Tower of Iron Will;level=@cl;dFlags.augmentBonus=@augments.amplify]'
       save:
         description: None (harmless)
         harmless: true
@@ -39,7 +39,7 @@ system:
         value: 10-ft.-radius emanation centered on you
       augments:
         - _id: J9k0L1m2N3o4P5q6
-          name: Extended Duration and Power Resistance
+          name: Amplify
           cost: 1
           maxUses: null
           requiresFocus: false
@@ -47,7 +47,7 @@ system:
           effectNotes: []
           effects: {}
           footerNotes:
-            - '+1 round duration and +1 power resistance per PP spent'
+            - 'Duration: [[1 + @augments.amplify]] rounds; Power Resistance: [[19 + @augments.amplify]]'
   description:
     value: >-
       <p>You generate a bastion of thought so strong that it offers protection

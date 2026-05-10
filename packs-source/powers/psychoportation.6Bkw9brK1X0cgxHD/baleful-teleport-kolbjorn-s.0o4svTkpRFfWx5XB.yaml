@@ -24,7 +24,8 @@ system:
           effectNotes: []
           effects:
             damageBonus: 1d6
-          footerNotes: []
+          footerNotes:
+            - 'For each extra 2d6 damage, save DC and manifester level (vs. PR) increase by 1.'
           img: icons/magic/movement/trail-streak-zigzag-yellow.webp
           maxUses: null
           name: Damage
@@ -42,6 +43,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
+        dc: floor(@augments.damage / 2)
         description: Fortitude half
         harmless: false
         type: fort

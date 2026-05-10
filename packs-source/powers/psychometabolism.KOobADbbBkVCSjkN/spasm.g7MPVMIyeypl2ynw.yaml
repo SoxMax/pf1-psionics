@@ -36,9 +36,10 @@ system:
         - _id: Ly2uUnA0hQ6eEo7x
           cost: 2
           effectNotes: []
-          effects: {}
+          effects:
+            dcBonus: 0.5
           footerNotes:
-            - 'Affects [[@augments.targets]] additional target(s) per augment; +1 DC per 2 PP spent on augments'
+            - 'Affects [[@augments.targets]] additional target(s) per augment'
           img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
           maxUses: null
           name: Targets
@@ -46,9 +47,10 @@ system:
         - _id: Mz3vVoB1iR7fFp8y
           cost: 2
           effectNotes: []
-          effects: {}
+          effects:
+            dcBonus: 0.5
           footerNotes:
-            - 'Range becomes Medium (100 ft. + 10 ft./level); +1 DC per 2 PP spent on augments'
+            - 'Range becomes Medium (100 ft. + 10 ft./level)'
           img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
           maxUses: 1
           name: Range

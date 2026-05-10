@@ -50,7 +50,7 @@ system:
           footerNotes: []
           img: icons/magic/death/skull-energy-light-purple.webp
           maxUses: 1
-          name: Extended Duration
+          name: Duration
           requiresFocus: false
       duration:
         dismiss: true

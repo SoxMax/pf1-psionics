@@ -24,10 +24,10 @@ system:
           effectNotes: []
           effects: {}
           footerNotes:
-            - 'Haunt''s effective CL/ML increased by +[[@augments.levelBonus]] (max your manifester level)'
+            - 'Haunt''s effective CL/ML increased by +[[@augments.amplify]] (max your manifester level)'
           img: icons/magic/death/skull-energy-light-purple.webp
           maxUses: null
-          name: Amplify Haunt
+          name: Amplify
           requiresFocus: false
       duration:
         dismiss: true
@@ -35,8 +35,7 @@ system:
         value: '@cl'
       name: Use
       notes:
-        footer:
-          - 'For every 2 pp spent, haunt CL/ML +1 (max manifester level)'
+        footer: []
       powerAttack:
         critMultiplier: 1
         damageBonus: 2

@@ -44,7 +44,7 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: melee
+        units: ft
         value: Melee
       save:
         description: None

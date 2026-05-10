@@ -18,7 +18,7 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      area: '30-ft.-radius emanation centered on you'
       duration:
         units: round
         value: '@cl'
@@ -37,7 +37,7 @@ system:
         value: 30-ft.-radius emanation centered on you
       augments:
         - _id: M3n4O5p6Q7r8S9t0
-          name: Increased Range and Area
+          name: Range
           cost: 4
           maxUses: null
           requiresFocus: false
@@ -45,7 +45,7 @@ system:
           effectNotes: []
           effects: {}
           footerNotes:
-            - 'Range and area radius increase by 5 ft. per 4 PP spent'
+            - 'Range and area radius: [[30 + 5 * @augments.range]] ft.'
   description:
     value: >-
       <p>By manifesting this power, you generate psychic static, interfering

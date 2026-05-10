@@ -18,7 +18,6 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
       damage:
         parts:
           - formula: 9d6
@@ -28,7 +27,6 @@ system:
           effectNotes: []
           effects:
             damageBonus: 1d6
-            dcBonus: 0.5
           footerNotes: []
           img: icons/magic/life/heart-glowing-red.webp
           maxUses: null
@@ -51,9 +49,10 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. plus 10 ft. per level)
       save:
+        dc: floor(@augments.damage / 2)
         description: Fortitude partial
         harmless: false
         type: fort

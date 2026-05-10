@@ -30,7 +30,7 @@ system:
         value: Close (25 ft. + 5 ft./2 levels)
       notes:
         footer:
-          - '@PsionicApply[Barred Mind;level=@cl;dFlags.augmentBonus=@augments.increasedResistanceBonus]'
+          - '@PsionicApply[Barred Mind;level=@cl;dFlags.augmentBonus=@augments.amplify]'
       save:
         description: Will negates (harmless)
         harmless: true
@@ -39,7 +39,7 @@ system:
         value: One creature
       augments:
         - _id: H8i9J0k1L2m3N4o5
-          name: Increased Resistance Bonus
+          name: Amplify
           cost: 2
           maxUses: null
           requiresFocus: false
@@ -47,7 +47,7 @@ system:
           effectNotes: []
           effects: {}
           footerNotes:
-            - '+1 resistance bonus per 2 PP spent'
+            - '+[[@augments.amplify]] resistance bonus on saves vs mind-affecting'
   description:
     value: >-
       <p>The subject is protected from all devices, powers, and spells that

@@ -42,19 +42,21 @@ system:
           requiresFocus: false
           img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
           effectNotes: []
-          effects: {}
+          effects:
+            dcBonus: 1
           footerNotes:
             - 'Share lowest base ability score amongst all targets; unwilling targets may Will save each round to ignore'
         - _id: B2c3D4e5F6g7H8i9
-          name: Additional Ability Score
+          name: Amplify
           cost: 2
           maxUses: null
           requiresFocus: false
           img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
           effectNotes: []
-          effects: {}
+          effects:
+            dcBonus: 1
           footerNotes:
-            - 'Affect one additional ability score per 2 PP spent; +1 save DC per 2 PP spent'
+            - '+[[@augments.amplify]] additional ability score(s) affected'
   description:
     value: >-
       <p>This power reflects the pinnacle of the network abilities — the

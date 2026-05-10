@@ -28,9 +28,10 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
       save:
+        dc: 'floor(@augments.threshold / 2)'
         description: Fortitude partial; see text
         harmless: false
         type: fort
@@ -38,7 +39,7 @@ system:
         value: One creature
       augments:
         - _id: X4y5Z6a7B8c9D0e1
-          name: Increased Kill Threshold
+          name: Threshold
           cost: 1
           maxUses: null
           requiresFocus: false
@@ -46,7 +47,7 @@ system:
           effectNotes: []
           effects: {}
           footerNotes:
-            - 'Kills creatures with HD up to 11 + PP spent; +1 DC per 2 PP spent'
+            - 'Kills creatures up to [[11 + @augments.threshold]] HD; +[[floor(@augments.threshold / 2)]] DC'
   description:
     value: >-
       <p>You interrupt the subject's autonomic heart rhythm, killing it

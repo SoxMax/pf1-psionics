@@ -31,7 +31,7 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 feet + 10 feet/level)
       save:
         description: Will disbelief (if interacted with), then Fortitude partial; see text
@@ -41,17 +41,18 @@ system:
         value: One living creature
       augments:
         - _id: Y5z6A7b8C9d0E1f2
-          name: Increased DCs
+          name: DC
           cost: 2
           maxUses: null
           requiresFocus: false
           img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
           effectNotes: []
-          effects: {}
+          effects:
+            dcBonus: 1
           footerNotes:
-            - 'Both DCs increase by 1 per 2 PP spent'
+            - 'Both Will and Fortitude DCs increase by [[@augments.dc]]'
         - _id: Z6a7B8c9D0e1F2g3
-          name: Additional Target
+          name: Targets
           cost: 5
           maxUses: null
           requiresFocus: false
@@ -59,7 +60,7 @@ system:
           effectNotes: []
           effects: {}
           footerNotes:
-            - 'Affect one additional creature per 5 PP spent; no two targets may be more than 30 ft. apart'
+            - '+[[@augments.targets]] additional creature(s); no two targets may be more than 30 ft. apart'
   description:
     value: >-
       <p>You create a mental image of the most fearsome creature imaginable to

@@ -22,9 +22,10 @@ system:
         - _id: Vi5eExJ3rA8oOy4h
           cost: 2
           effectNotes: []
-          effects: {}
+          effects:
+            dcBonus: 1
           footerNotes:
-            - 'Target takes [[@augments.damage]]d6 untyped damage per augment; +1 DC per 2 PP'
+            - 'Target takes [[@augments.damage]]d6 untyped damage per augment'
           img: icons/magic/life/heart-glowing-red.webp
           maxUses: null
           name: Damage
@@ -32,7 +33,8 @@ system:
         - _id: Wj6fFyK4sB0pPz5i
           cost: 4
           effectNotes: []
-          effects: {}
+          effects:
+            dcBonus: 2
           footerNotes:
             - 'Affects [[@augments.targets]] additional target(s) within range'
           img: icons/magic/life/heart-glowing-red.webp
@@ -43,11 +45,14 @@ system:
         units: round
         value: '@cl'
       name: Use
+      notes:
+        footer:
+          - '@PsionicApply[Fracture Pattern;level=@cl]'
       powerAttack:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. plus 10 ft. per level)
       save:
         description: Fortitude negates

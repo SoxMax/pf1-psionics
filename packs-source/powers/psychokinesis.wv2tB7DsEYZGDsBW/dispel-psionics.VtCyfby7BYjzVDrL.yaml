@@ -18,7 +18,7 @@ system:
         unchained:
           cost: 1
           type: nonaction
-      area: '[object Object]'
+      area: 'One manifester, creature, or object; or 20-ft.-radius burst'
       duration:
         units: inst
       name: Use
@@ -26,7 +26,7 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
       augments:
         - _id: Bq8cD4fG0kH7lM2n

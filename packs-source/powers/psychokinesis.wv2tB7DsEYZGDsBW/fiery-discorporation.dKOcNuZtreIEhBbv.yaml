@@ -33,10 +33,10 @@ system:
           effectNotes: []
           effects: {}
           footerNotes:
-            - '+[[@augments.willBonus]] bonus on Will save to discorporate'
+            - '+[[@augments.amplify]] bonus on Will save to discorporate'
           img: icons/magic/fire/flame-burning-skull-orange.webp
           maxUses: null
-          name: Will Bonus
+          name: Amplify
           requiresFocus: false
       save:
         description: None

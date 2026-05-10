@@ -27,20 +27,11 @@ system:
           effectNotes: []
           effects:
             damageBonus: 1d6
-          footerNotes: []
+          footerNotes:
+            - '+[[floor(@augments.damage / 2)]] DC (every 2 additional damage dice grants +1 DC)'
           img: icons/magic/unholy/projectile-missile-green.webp
           maxUses: null
           name: Damage
-          requiresFocus: false
-        - _id: Vb2wYtF8nH5mCk6c
-          cost: 2
-          effectNotes: []
-          effects:
-            dcBonus: 1
-          footerNotes: []
-          img: icons/magic/unholy/projectile-missile-green.webp
-          maxUses: null
-          name: DC
           requiresFocus: false
       duration:
         units: inst
@@ -52,6 +43,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
+        dc: 'floor(@augments.damage / 2)'
         description: Reflex half
         harmless: false
         type: ref

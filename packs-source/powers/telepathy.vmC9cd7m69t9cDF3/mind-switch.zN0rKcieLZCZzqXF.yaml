@@ -29,6 +29,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
+        dc: '@augments.dc'
         description: Will negates; see text
         harmless: false
         type: will
@@ -36,7 +37,7 @@ system:
         value: You and one other creature
       augments:
         - _id: J7k8L9m0N1o2P3q4
-          name: Increased DC
+          name: DC
           cost: 2
           maxUses: null
           requiresFocus: false

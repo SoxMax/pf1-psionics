@@ -22,13 +22,12 @@ system:
         - _id: Jm4QrItTvY7aDo2H
           cost: 2
           effectNotes: []
-          effects:
-            dcBonus: 1
+          effects: {}
           footerNotes:
-            - 'Poison save DC +[[@augments.dcBonus]] vs. incorporeal creatures'
+            - 'Poison save DC +[[@augments.dc]] vs. incorporeal creatures'
           img: icons/magic/death/skull-energy-light-purple.webp
           maxUses: null
-          name: DC Bonus
+          name: DC
           requiresFocus: false
       duration:
         units: minute

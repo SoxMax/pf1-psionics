@@ -22,8 +22,7 @@ system:
         - _id: Jw0sSlY8fO4cCm5v
           cost: 2
           effectNotes: []
-          effects:
-            dcBonus: 1
+          effects: {}
           footerNotes: []
           img: icons/magic/life/heart-glowing-red.webp
           maxUses: null
@@ -41,6 +40,7 @@ system:
         units: close
         value: Close (25 ft. + 5 ft./2 levels)
       save:
+        dc: '@augments.dc'
         description: Fortitude negates
         harmless: false
         type: fort

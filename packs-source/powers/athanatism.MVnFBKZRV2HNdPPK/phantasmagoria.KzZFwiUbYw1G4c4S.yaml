@@ -31,8 +31,8 @@ system:
           requiresFocus: false
       duration:
         dismiss: true
-        units: spec
-        value: 10 min./level (D); see text
+        units: minute
+        value: 10 * @cl
       name: Use
       notes:
         footer: []
@@ -40,7 +40,7 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
       save:
         description: Will negates; see text

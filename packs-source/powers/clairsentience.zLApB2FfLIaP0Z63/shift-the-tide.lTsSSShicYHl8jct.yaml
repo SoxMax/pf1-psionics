@@ -25,7 +25,7 @@ system:
         critMultiplier: 1
         damageBonus: 2
       range:
-        units: med
+        units: medium
         value: Medium (100 ft. + 10 ft./level)
       augments:
         - _id: Jp3vKwFnYbLrCm7o
@@ -35,12 +35,12 @@ system:
           requiresFocus: false
           img: icons/magic/perception/third-eye-blue-red.webp
           effectNotes: []
-          effects:
-            dcBonus: 1
+          effects: {}
           footerNotes: []
       notes:
         footer: []
       save:
+        dc: '@augments.dc'
         description: Will negates (harmless) or Will partial (see text)
         harmless: true
         type: will

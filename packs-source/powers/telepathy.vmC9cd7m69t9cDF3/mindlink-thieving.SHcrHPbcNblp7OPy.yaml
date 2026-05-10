@@ -27,12 +27,13 @@ system:
         critMultiplier: 1
         damageBonus: 2
       save:
+        dc: '@augments.dc'
         description: Will negates
         harmless: false
         type: will
       augments:
         - _id: L9m0N1o2P3q4R5s6
-          name: Increased DC
+          name: DC
           cost: 2
           maxUses: null
           requiresFocus: false
