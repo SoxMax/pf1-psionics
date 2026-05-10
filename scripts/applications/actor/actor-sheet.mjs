@@ -1,21 +1,23 @@
 import { MODULE_ID } from "../../_module.mjs";
 import { PowerItem } from "../../documents/_module.mjs";
 
-const ALT_SHEET_CLASSES = [
+const SKIPPED_SHEET_CLASSES = [
   "pf1alt.AltActorSheetPFCharacter",
   "pf1alt.AltActorSheetPFNPC",
+  "pf1.ActorSheetPFNPCLoot",
+  "PF1.LootSheetPf1NPC",
 ];
 
-function isAltSheet(actor) {
+function shouldSkipInjection(actor) {
   const sheetClass = actor.getFlag("core", "sheetClass");
-  if (sheetClass) return ALT_SHEET_CLASSES.includes(sheetClass);
+  if (sheetClass) return SKIPPED_SHEET_CLASSES.includes(sheetClass);
   const sheetsForType = CONFIG.Actor.sheetClasses?.[actor.type] ?? {};
-  return ALT_SHEET_CLASSES.some((cls) => sheetsForType[cls]?.default);
+  return SKIPPED_SHEET_CLASSES.some((cls) => sheetsForType[cls]?.default);
 }
 
 async function renderActorHook(app, html, data) {
   const actor = data.actor;
-  if (isAltSheet(actor)) return;
+  if (shouldSkipInjection(actor)) return;
   // Inject Settings
   injectSettings(app, html, data);
   // Inject Psionics Manifesters Tab
