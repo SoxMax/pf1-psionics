@@ -28,6 +28,9 @@ Hooks.on("renderItemActionSheet", async (app, html, _data) => {
   if (!app.action.augments) return;
   if (!app.isEditable) return; // Skip if not editable
 
+  // Foundry v13 passes HTMLElement to render hooks; v12 passes jQuery. Normalize to HTMLElement.
+  if (html instanceof jQuery) html = html[0];
+
   // Prepare augments data for template
   const augments = (app.action.augments || []).map(augObj => {
     const augmentData = augObj.toObject ? augObj.toObject() : augObj;
@@ -44,18 +47,23 @@ Hooks.on("renderItemActionSheet", async (app, html, _data) => {
   );
 
   // Inject at the top of the conditionals tab
-  const conditionalsTab = html.find('.tab[data-tab="conditionals"]');
-  if (conditionalsTab.length === 0) {
+  const conditionalsTab = html.querySelector('.tab[data-tab="conditionals"]');
+  if (!conditionalsTab) {
     console.warn("PF1-Psionics | Conditionals tab not found!");
     return;
   }
-  conditionalsTab.prepend(augmentsHtml);
+  conditionalsTab.insertAdjacentHTML("afterbegin", augmentsHtml);
 
   // Attach event listeners to the injected HTML
-  conditionalsTab.find(".add-augment").click(_onAddAugment.bind(app));
-  conditionalsTab.find(".duplicate-augment").click(_onDuplicateAugment.bind(app));
-  conditionalsTab.find(".delete-augment").click(_onDeleteAugment.bind(app));
-  conditionalsTab.find(".edit-augment").click(_onEditAugment.bind(app));
+  const bindClick = (selector, handler) => {
+    for (const el of conditionalsTab.querySelectorAll(selector)) {
+      el.addEventListener("click", handler);
+    }
+  };
+  bindClick(".add-augment", _onAddAugment.bind(app));
+  bindClick(".duplicate-augment", _onDuplicateAugment.bind(app));
+  bindClick(".delete-augment", _onDeleteAugment.bind(app));
+  bindClick(".edit-augment", _onEditAugment.bind(app));
 });
 
 /**
