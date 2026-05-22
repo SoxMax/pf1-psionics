@@ -18,6 +18,8 @@ function shouldSkipInjection(actor) {
 async function renderActorHook(app, html, data) {
   const actor = data.actor;
   if (shouldSkipInjection(actor)) return;
+  // Foundry v13 passes HTMLElement to render hooks; v12 passes jQuery. Normalize to HTMLElement.
+  if (html instanceof jQuery) html = html[0];
   // Inject Settings
   injectSettings(app, html, data);
   // Inject Psionics Manifesters Tab
@@ -48,13 +50,6 @@ function injectActorSheetPF() {
 
       const categoryKey = `manifester-${manifesterId}`;
       const filterSet = this._filters.sections[categoryKey];
-
-      // Debug logging
-      // console.log(`PF1-Psionics | Filtering manifester "${manifesterId}":`, {
-      //   categoryKey,
-      //   filterSet: filterSet ? Array.from(filterSet) : undefined,
-      //   sectionIds: manifester.sections.map(s => s?.id)
-      // });
 
       if (!filterSet) continue;
 
@@ -129,43 +124,53 @@ function adjustActiveTab(app) {
  * This is a read-only display since available is a calculated property.
  *
  * @param {ActorSheetPF} app - The actor sheet app
- * @param {jQuery} html - The rendered HTML
+ * @param {HTMLElement} html - The rendered HTML
  * @param {object} data - The template context
  */
 function injectPowerPointsIntoCombatTab(app, html, data) {
   // Find the power section header in the combat tab
-  const powerHeader = html.find(".attacks-power");
-  if (!powerHeader.length) return;
+  const powerHeader = html.querySelector(".attacks-power");
+  if (!powerHeader) return;
 
   // Get power points data
   const powerPoints = data.psionics?.powerPoints;
   if (!powerPoints || !powerPoints.inUse) return;
 
   // Create power points display element for the header
-  const ppDisplay = $('<div class="power-points-display"></div>')
-    .text(`${powerPoints.available} / ${powerPoints.maximum}`);
+  const ppDisplay = document.createElement("div");
+  ppDisplay.classList.add("power-points-display");
+  ppDisplay.textContent = `${powerPoints.available} / ${powerPoints.maximum}`;
 
   // Replace the item-controls area with power points display
   // (The + button was already suppressed by setting interface.create = false in addPowersToCombatTab)
-  const itemControls = powerHeader.find(".item-controls");
-  itemControls.empty().append(ppDisplay);
+  const itemControls = powerHeader.querySelector(".item-controls");
+  if (itemControls) {
+    itemControls.replaceChildren(ppDisplay);
+  }
 
   // Note: Available PP is read-only (calculated from current + temporary)
   // Users edit current/temporary PP in the Psionics tab
 
   // Update each power item in combat tab to show base PP cost instead of charges
   // This uses the data prepared in addPowersToCombatTab
-  const combatTab = html.find(".tab[data-tab='combat']");
-  combatTab.find(".item-list[data-list='power'] .item[data-item-id]").each(function() {
-    const itemId = $(this).data("item-id");
+  const combatTab = html.querySelector(".tab[data-tab='combat']");
+  if (!combatTab) return;
+  for (const itemEl of combatTab.querySelectorAll(".item-list[data-list='power'] .item[data-item-id]")) {
+    const itemId = itemEl.dataset.itemId;
     // Get the prepared item from context.items which has basePPCost calculated
     const item = data.items.find(i => i.id === itemId);
-    if (!item || !item.showPPCost) return;
+    if (!item || !item.showPPCost) continue;
 
     // Update the charges display to show base cost
-    const usesDiv = $(this).find(".item-detail.item-uses");
-    usesDiv.empty().append(`<span class="base-cost">${item.basePPCost} PP</span>`);
-  });
+    const usesDiv = itemEl.querySelector(".item-detail.item-uses");
+    if (usesDiv) {
+      usesDiv.replaceChildren();
+      const costSpan = document.createElement("span");
+      costSpan.classList.add("base-cost");
+      costSpan.textContent = `${item.basePPCost} PP`;
+      usesDiv.append(costSpan);
+    }
+  }
 }
 
 function injectSettings(app, html, data) {
@@ -174,7 +179,8 @@ function injectSettings(app, html, data) {
 }
 
 function injectPsionicsDiv(app, html) {
-  const controls = html.find(".settings")[0];
+  const controls = html.querySelector(".settings");
+  if (!controls) return;
   const div = document.createElement("div");
   div.classList.add("pf1-psionics-div");
   const h2 = document.createElement("h2");
@@ -198,7 +204,8 @@ function getManifesterName(bookId, manifester) {
 }
 
 function injectManifesterCheckboxes(app, html, data) {
-  const controls = html.find(".pf1-psionics-div .stacked")[0];
+  const controls = html.querySelector(".pf1-psionics-div .stacked");
+  if (!controls) return;
   for (const [bookId, manifester] of Object.entries(data.actor.getFlag(MODULE_ID, "manifesters"))) {
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
@@ -216,17 +223,17 @@ function injectManifesterCheckboxes(app, html, data) {
 
 async function injectPsionicsTab(app, html, data) {
   if (Object.values(data.manifesterData).some((manifester) => manifester.inUse)) {
-    const tabSelector = html.find("a[data-tab=skills]");
+    const tabSelector = html.querySelector("a[data-tab=skills]");
     const psionicsTab = document.createElement("a");
     psionicsTab.classList.add("item");
     psionicsTab.dataset["tab"] = "manifester";
     psionicsTab.dataset["group"] = "primary";
     psionicsTab.innerHTML = game.i18n.localize("PF1-Psionics.TabName");
-    tabSelector.after(psionicsTab);
+    tabSelector?.after(psionicsTab);
 
     const psionicsBody = await foundry.applications.handlebars.renderTemplate("modules/pf1-psionics/templates/actor/actor-manifester-front.hbs", data);
-    const bodySelector = html.find("div.tab[data-tab=skills]");
-    bodySelector.after(psionicsBody);
+    const bodySelector = html.querySelector("div.tab[data-tab=skills]");
+    bodySelector?.insertAdjacentHTML("afterend", psionicsBody);
 
     var tab = app._tabs.find((element) => element.group == "manifesters");
     if (!tab) {
@@ -237,7 +244,7 @@ async function injectPsionicsTab(app, html, data) {
         group: "manifesters",
       });
     }
-    tab.bind(html[0]);
+    tab.bind(html);
     app._tabs.push(tab);
 
     injectEventListeners(app, html, data);
@@ -247,14 +254,14 @@ async function injectPsionicsTab(app, html, data) {
 function onRollConcentration(event) {
   event.preventDefault();
 
-  const manifesterKey = $(event.currentTarget).closest(".manifester-group").data("tab");
+  const manifesterKey = event.currentTarget.closest(".manifester-group").dataset.tab;
   this.actor.rollConcentration(manifesterKey, { token: this.token, isPsionic: true });
 }
 
 function onRollCL(event) {
   event.preventDefault();
 
-  const manifesterKey = $(event.currentTarget).closest(".manifester-group").data("tab");
+  const manifesterKey = event.currentTarget.closest(".manifester-group").dataset.tab;
   this.actor.rollCL(manifesterKey, { token: this.token, isPsionic: true });
 }
 
@@ -271,7 +278,6 @@ function onItemCreate(event) {
   const type = `${MODULE_ID}.power`;
   const actor = this.actor;
   const element = event.currentTarget;
-  // const [categoryId, sectionId] = element.dataset.create?.split(".") ?? [];
   const dataset = element.dataset;
   const baseName = game.i18n.localize("PF1-Psionics.Powers.NewPower");
   const n = actor.items.filter(i => i.type === type && i.name.startsWith(baseName)).length;
@@ -324,50 +330,64 @@ async function onBrowsePowers(event) {
 }
 
 function injectEventListeners(app, html, _data) {
-  const psionicsTabBody = html.find("div.tab[data-tab=manifester]");
-  psionicsTabBody.find("span.text-box.direct").on("click", (event) => {
-    app._onSpanTextInput(event, app._adjustActorPropertyBySpan.bind(app));
-  });
+  const psionicsTabBody = html.querySelector("div.tab[data-tab=manifester]");
+  if (!psionicsTabBody) return;
 
-  const manifestersBodyElement = psionicsTabBody.find(".manifesters-body");
-
-  manifestersBodyElement.find(".spellcasting-concentration.rollable").click(onRollConcentration.bind(app));
-  manifestersBodyElement.find(".spellcasting-cl.rollable").click(onRollCL.bind(app));
-
-  // Bind Events
-  // manifestersBodyElement.find("a.hide-show").click(app._hideShowElement.bind(app));
-  manifestersBodyElement.find("a.toggle-config").click(onToggleConfig.bind(app));
-
-  // Activate Item Filters
-  const filterLists = manifestersBodyElement.find(".filter-list");
-  filterLists.each(app._initializeFilterItemList.bind(app));
-  filterLists.on("click", ".filter-rule", app._onToggleFilter.bind(app));
-  // Search boxes
-  {
-    const sb = manifestersBodyElement.find(".search-input");
-    sb.on("change input", app._searchFilterChange.bind(app));
-    sb.on("compositionstart compositionend", app._searchFilterCompositioning.bind(app)); // for IME
-    app.searchRefresh = true;
-    // Filter tabs on followup refreshes
-    sb.each(function () {
-      if (this.value.length > 0) $(this).change();
+  for (const el of psionicsTabBody.querySelectorAll("span.text-box.direct")) {
+    el.addEventListener("click", (event) => {
+      app._onSpanTextInput(event, app._adjustActorPropertyBySpan.bind(app));
     });
   }
 
+  const manifestersBodyElement = psionicsTabBody.querySelector(".manifesters-body");
+  if (!manifestersBodyElement) return;
+
+  const bindClick = (selector, handler) => {
+    for (const el of manifestersBodyElement.querySelectorAll(selector)) {
+      el.addEventListener("click", handler);
+    }
+  };
+
+  bindClick(".spellcasting-concentration.rollable", onRollConcentration.bind(app));
+  bindClick(".spellcasting-cl.rollable", onRollCL.bind(app));
+  bindClick("a.toggle-config", onToggleConfig.bind(app));
+
+  // Activate Item Filters
+  const filterLists = manifestersBodyElement.querySelectorAll(".filter-list");
+  filterLists.forEach((el, i) => app._initializeFilterItemList(i, el));
+  for (const list of filterLists) {
+    list.addEventListener("click", (event) => {
+      if (event.target.closest(".filter-rule")) app._onToggleFilter(event);
+    });
+  }
+
+  // Search boxes
+  for (const sb of manifestersBodyElement.querySelectorAll(".search-input")) {
+    const onChange = app._searchFilterChange.bind(app);
+    sb.addEventListener("change", onChange);
+    sb.addEventListener("input", onChange);
+    const onComposition = app._searchFilterCompositioning.bind(app);
+    sb.addEventListener("compositionstart", onComposition);
+    sb.addEventListener("compositionend", onComposition);
+    app.searchRefresh = true;
+    // Filter tabs on followup refreshes
+    if (sb.value.length > 0) onChange({ currentTarget: sb, target: sb });
+  }
+
   // Create new Power
-  manifestersBodyElement.find(".item-create").click(onItemCreate.bind(app));
+  bindClick(".item-create", onItemCreate.bind(app));
   // Browse Powers compendium
-  manifestersBodyElement.find("a[data-action='browse']").click(onBrowsePowers.bind(app));
+  bindClick("a[data-action='browse']", onBrowsePowers.bind(app));
   // Expand Power with summary
-  manifestersBodyElement.find(".item .item-name").click((event) => app._onItemSummary(event));
+  bindClick(".item .item-name", (event) => app._onItemSummary(event));
   // Post Power to chat
-  manifestersBodyElement.find(".item .item-image").click((event) => app._onItemCard(event));
+  bindClick(".item .item-image", (event) => app._onItemCard(event));
   // Item Action control
-  manifestersBodyElement.find(".item-actions a.item-action").click(app._itemActivationControl.bind(app));
+  bindClick(".item-actions a.item-action", app._itemActivationControl.bind(app));
   // Power Edit/Duplicate/Delete
-  manifestersBodyElement.find(".item-edit").click(app._onItemEdit.bind(app));
-  manifestersBodyElement.find(".item-duplicate").click(app._duplicateItem.bind(app));
-  manifestersBodyElement.find(".item-delete").click(app._onItemDelete.bind(app));
+  bindClick(".item-edit", app._onItemEdit.bind(app));
+  bindClick(".item-duplicate", app._duplicateItem.bind(app));
+  bindClick(".item-delete", app._onItemDelete.bind(app));
 
   // Create surgical drag-only handlers for manifester elements
   // We create minimal DragDrop instances bound only to specific selectors
@@ -390,7 +410,7 @@ function injectEventListeners(app, html, _data) {
         dragstart: app._onDragStart.bind(app)
       }
     });
-    dragDrop.bind(manifestersBodyElement[0]);
+    dragDrop.bind(manifestersBodyElement);
   });
 }
 
@@ -574,4 +594,3 @@ function prepareManifesterPowerLevels(data, manifesterId, manifester, powers) {
 Hooks.on("renderActorSheetPF", renderActorHook);
 
 Hooks.once("libWrapper.Ready", injectActorSheetPF);
-

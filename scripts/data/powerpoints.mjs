@@ -34,7 +34,7 @@ export const POINTS_PER_LEVEL = {
         19: 64,
         20: 70,
     },
-    medium: {
+    med: {
         1: 1,
         2: 2,
         3: 4,
