@@ -461,6 +461,13 @@ pf1-psionics/
 - `.claude/commands/review-power-yaml.md` - `/review-power-yaml <name>` - Verify a power YAML for correctness
 - `.claude/commands/check-pf1-source.md` - `/check-pf1-source <question>` - Look up PF1 system architecture via MCP
 
+**Live Foundry Testing (Playwright MCP):**
+- A FoundryVTT instance is running at `http://localhost:30000` with this module loaded.
+- Use the Playwright MCP tools (`mcp__playwright__browser_*`) to navigate the Foundry UI for live testing — opening actor/item sheets, exercising the manifesting dialog, verifying augment UI, checking the compendium browser, etc.
+- Prefer `browser_snapshot` (accessibility tree) over screenshots for inspecting UI state and finding element references for clicks/typing.
+- Reload the page (or restart Foundry) after editing module code or recompiling packs so changes take effect.
+- **Changes are not complete until verified in Foundry.** Lint and unit tests confirm code correctness, not feature correctness. Before reporting a task done, exercise the affected UI/behavior in the live Foundry instance via Playwright MCP. If live testing isn't possible for a given change, say so explicitly rather than claiming success.
+
 **External References:**
 - PF1 System Source: https://gitlab.com/foundryvtt_pathfinder1e/foundryvtt-pathfinder1
 - PF1 System Local Checkout: `/home/cobrien/Code/foundryvtt-pathfinder1/` (accessible via MCP server)
