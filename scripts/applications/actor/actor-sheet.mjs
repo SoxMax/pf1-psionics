@@ -206,7 +206,7 @@ function getManifesterName(bookId, manifester) {
 function injectManifesterCheckboxes(app, html, data) {
   const controls = html.querySelector(".pf1-psionics-div .stacked");
   if (!controls) return;
-  for (const [bookId, manifester] of Object.entries(data.actor.getFlag(MODULE_ID, "manifesters"))) {
+  for (const [bookId, manifester] of Object.entries(data.actor.getFlag(MODULE_ID, "manifesters") ?? {})) {
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
     checkbox.name = `flags.${MODULE_ID}.manifesters.${bookId}.inUse`;
@@ -470,7 +470,7 @@ function addPowersToCombatTab(sheet, context) {
 function prepareManifesters(sheet, context) {
   const powers = context.items.filter((item) => item.type === `${MODULE_ID}.power`);
 
-  const manifesters = Object.entries(context.actor.getFlag(MODULE_ID, "manifesters"))
+  const manifesters = Object.entries(context.actor.getFlag(MODULE_ID, "manifesters") ?? {})
     .map(([manifesterId, manifesterData]) => {
       // Create a shallow copy to avoid mutating the original flag data
       const manifester = { ...manifesterData };
