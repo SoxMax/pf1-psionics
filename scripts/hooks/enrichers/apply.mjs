@@ -2,6 +2,109 @@ import {MODULE_ID} from "../../_module.mjs";
 import { setIcon, getRollData, getMessage } from "./common.mjs";
 
 /**
+ * Parse `dflags.*` / `bflags.*` keys from a dataset.
+ *
+ * @param {DOMStringMap} dataset
+ * @returns {{dFlags: Record<string, string>, bFlags: Set<string>}}
+ */
+function parseFlagDataset(dataset) {
+  const dFlags = {};
+  const bFlags = new Set();
+  for (const [key, val] of Object.entries(dataset)) {
+    const m = key.match(/^([db])flags\.(.+)$/i);
+    if (!m) continue;
+    if (m[1].toLowerCase() === "d") dFlags[m[2]] = val;
+    else bFlags.add(m[2]);
+  }
+  return { dFlags, bFlags };
+}
+
+/**
+ * Evaluate level + dFlags formulas against the given roll data.
+ *
+ * @param {{level?: string, dFlags: Record<string, string>, bFlags: Set<string>}} spec
+ * @param {object} rollData
+ * @returns {Promise<{level?: number, dFlags?: Record<string, number>, bFlags?: string[]}>}
+ */
+async function evaluateResults({ level, dFlags, bFlags }, rollData) {
+  const results = {};
+  if (level?.length) {
+    results.level = (await RollPF.safeRoll(level, rollData)).total;
+  }
+  for (const [name, formula] of Object.entries(dFlags)) {
+    if (!formula?.length) continue;
+    (results.dFlags ??= {})[name] = (await RollPF.safeRoll(formula, rollData)).total;
+  }
+  if (bFlags.size) results.bFlags = Array.from(bFlags);
+  return results;
+}
+
+/**
+ * Build a dotted-path update object describing a successful buff apply.
+ *
+ * Works for both `Item#update` (paths expanded server-side) and
+ * `mergeObject(itemData, updates)` (paths expanded into nested objects).
+ *
+ * @param {{level?: number, dFlags?: Record<string, number>, bFlags?: string[]}} results
+ * @returns {Record<string, unknown>}
+ */
+function buildBuffUpdates(results) {
+  const updates = { "system.active": true };
+  if (results.level !== undefined) updates["system.level"] = results.level;
+  for (const [name, value] of Object.entries(results.dFlags ?? {})) {
+    updates[`system.flags.dictionary.${name}`] = value;
+  }
+  for (const name of results.bFlags ?? []) {
+    updates[`system.flags.boolean.${name}`] = true;
+  }
+  return updates;
+}
+
+/**
+ * Resolve actors relevant to the click target. Notifies and returns null on failure.
+ *
+ * @param {HTMLElement} target
+ * @returns {Set<ActorPF>|null}
+ */
+function resolveActors(target) {
+  let actors;
+  try {
+    actors = pf1.chat.enrichers.getRelevantActors(target, false);
+  } catch (_e) {
+    console.error(`${MODULE_ID} | @PsionicApply | Could not find relevant actors`);
+    actors = null;
+  }
+  if (!actors || actors.size === 0) {
+    ui.notifications.error(game.i18n.localize("PF1.EnrichedText.Errors.NoneSelected"));
+    return null;
+  }
+  return actors;
+}
+
+/**
+ * Resolve the buff item referenced by uuid. Notifies and returns null on failure.
+ *
+ * @param {string} uuid
+ * @returns {Promise<ItemPF|null>}
+ */
+async function resolveBuffItem(uuid) {
+  const item = await fromUuid(uuid);
+  if (!item) {
+    const warn = game.i18n.localize("PF1.EnrichedText.Errors.ItemNotFound");
+    ui.notifications.warn(warn, { console: false });
+    console.error(`${MODULE_ID} | @PsionicApply |`, warn, uuid);
+    return null;
+  }
+  if (item.type !== "buff") {
+    ui.notifications.error(
+        game.i18n.format("PF1.EnrichedText.Errors.UnsupportedItemType", { type: item.type }),
+    );
+    return null;
+  }
+  return item;
+}
+
+/**
  * Click handler for @PsionicApply enricher.
  *
  * Applies a buff with support for dictionary and boolean flags plus level formulas.
@@ -10,115 +113,29 @@ import { setIcon, getRollData, getMessage } from "./common.mjs";
  * @param {HTMLElement} target - Clicked element
  */
 async function onPsionicApply(event, target) {
-  // Extract dFlags/bFlags from dataset
-  const dFlags = {};
-  const bFlags = new Set();
-  for (const [key, val] of Object.entries(target.dataset)) {
-    const dMatch = key.match(/^dflags\.(.+)$/i);
-    if (dMatch) dFlags[dMatch[1]] = val;
-    const bMatch = key.match(/^bflags\.(.+)$/i);
-    if (bMatch) bFlags.add(bMatch[1]);
-  }
+  const { uuid, level, vars } = target.dataset;
+  const { dFlags, bFlags } = parseFlagDataset(target.dataset);
 
-  const {uuid, level, vars} = target.dataset;
-
-  // Resolve actors using PF1 helper
-  let actors;
-  try {
-    actors = pf1.chat.enrichers.getRelevantActors(target, false);
-  } catch (_e) {
-    console.error(`${MODULE_ID} | @PsionicApply | Could not find relevant actors`);
-    return void ui.notifications.error(
-        game.i18n.localize("PF1.EnrichedText.Errors.NoneSelected"),
-    );
-  }
-  if (actors.size === 0) {
-    ui.notifications.error(game.i18n.localize("PF1.EnrichedText.Errors.NoneSelected"));
-    return;
-  }
-
-  // Load item
-  const item = await fromUuid(uuid);
-  if (!item) {
-    const warn = game.i18n.localize("PF1.EnrichedText.Errors.ItemNotFound");
-    ui.notifications.warn(warn, {console: false});
-    return void console.error(`${MODULE_ID} | @PsionicApply |`, warn, uuid);
-  }
-  if (item.type !== "buff") {
-    return void ui.notifications.error(
-        game.i18n.format("PF1.EnrichedText.Errors.UnsupportedItemType", {type: item.type}),
-    );
-  }
-
-  const results = {};
-  async function generateResults(rollData) {
-    if (level?.length) {
-      const roll = await RollPF.safeRoll(level, rollData);
-      results.level = roll.total;
-    }
-    for (const [flagName, formula] of Object.entries(dFlags)) {
-      if (formula?.length) {
-        results.dFlags ??= {};
-        const roll = await RollPF.safeRoll(formula, rollData);
-        results.dFlags[flagName] = roll.total;
-      }
-    }
-    if (bFlags.size) {
-      results.bFlags = Array.from(bFlags);
-    }
-  }
+  const actors = resolveActors(target);
+  if (!actors) return;
+  const item = await resolveBuffItem(uuid);
+  if (!item) return;
 
   const useTargetRollData = vars === "target";
-  if (!useTargetRollData) {
-    const message = getMessage(target);
-    const rollData = getRollData(message);
-    await generateResults(rollData);
-  }
+  const messageRollData = getRollData(getMessage(target));
 
-  // Apply to each actor
   for (const actor of actors) {
-    // Evaluate results per-actor if using target roll data
-    if (useTargetRollData) {
-      const rollData = actor.getRollData();
-      await generateResults(rollData);
-    }
+    const rollData = useTargetRollData ? actor.getRollData() : messageRollData;
+    const results = await evaluateResults({ level, dFlags, bFlags }, rollData);
+    const updates = buildBuffUpdates(results);
 
-    // Activate existing item with same source
-    const old = actor.itemTypes[item.type].find((i) => i._stats?.compendiumSource === uuid);
-    if (old) {
-      const activationData = {system: {active: true}};
-      if (results.level !== undefined) activationData.system.level = results.level;
-      // Merge dFlags into existing item via dotted-path updates
-      if (results.dFlags) {
-        for (const [flagName, value] of Object.entries(results.dFlags)) {
-          activationData[`system.flags.dictionary.${flagName}`] = value;
-        }
-      }
-      if (results.bFlags?.length) {
-        for (const flagName of results.bFlags) {
-          activationData[`system.flags.boolean.${flagName}`] = true;
-        }
-      }
-      await old.update(activationData);
+    const existing = actor.itemTypes[item.type].find((i) => i._stats?.compendiumSource === uuid);
+    if (existing) {
+      await existing.update(updates);
     } else {
-      // Add new item with results baked in
-      const itemData = game.items.fromCompendium(item, {clearFolder: true});
-      itemData.system.active = true;
-      if (results.level !== undefined) itemData.system.level = results.level;
-      // Merge dFlags into new itemData
-      if (results.dFlags) {
-        itemData.system.flags ??= {};
-        itemData.system.flags.dictionary ??= {};
-        Object.assign(itemData.system.flags.dictionary, results.dFlags);
-      }
-      if (results.bFlags?.length) {
-        itemData.system.flags ??= {};
-        itemData.system.flags.boolean ??= {};
-        for (const flagName of results.bFlags) {
-          itemData.system.flags.boolean[flagName] = true;
-        }
-      }
-      await Item.implementation.create(itemData, {parent: actor});
+      const itemData = game.items.fromCompendium(item, { clearFolder: true });
+      foundry.utils.mergeObject(itemData, updates);
+      await Item.implementation.create(itemData, { parent: actor });
     }
   }
 }
