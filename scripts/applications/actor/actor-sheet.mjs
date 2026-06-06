@@ -1,7 +1,7 @@
 import { MODULE_ID } from "../../_module.mjs";
 import { PowerItem } from "../../documents/_module.mjs";
 import { createManifesterRecord } from "../../data/manifesters.mjs";
-import { clearPowerManifesterRefs, findOrphanedPowers } from "../../documents/item/item.mjs";
+import { deleteManifesterPowers, findOrphanedPowers } from "../../documents/item/item.mjs";
 
 const SKIPPED_SHEET_CLASSES = [
   "pf1alt.AltActorSheetPFCharacter",
@@ -240,21 +240,21 @@ function injectManifesterCheckboxes(app, html, data) {
 
 async function onRemoveManifester(actor, id, manifester) {
   const name = getManifesterName(manifester);
-  const orphanCount = findOrphanedPowers(actor, id).length;
-  const orphanMsg = orphanCount > 0
-    ? `<p>${game.i18n.format("PF1-Psionics.Manifesters.OrphanWarning", {count: orphanCount})}</p>`
+  const powerCount = findOrphanedPowers(actor, id).length;
+  const powerMsg = powerCount > 0
+    ? `<p>${game.i18n.format("PF1-Psionics.Manifesters.DeleteWarning", {count: powerCount})}</p>`
     : "";
   const confirmed = await foundry.applications.api.DialogV2.confirm({
     window: {title: game.i18n.localize("PF1-Psionics.Manifesters.RemoveManifester")},
-    content: `<p>${game.i18n.format("PF1-Psionics.Manifesters.ConfirmRemovalBody", {class: manifester.class?.name ?? "—", manifester: name})}</p>${orphanMsg}`,
+    content: `<p>${game.i18n.format("PF1-Psionics.Manifesters.ConfirmRemovalBody", {class: manifester.class?.name ?? "—", manifester: name})}</p>${powerMsg}`,
     rejectClose: false,
   });
   if (!confirmed) return;
-  const cleared = await clearPowerManifesterRefs(actor, id);
+  const deleted = await deleteManifesterPowers(actor, id);
   await actor.update({[`flags.${MODULE_ID}.manifesters.-=${id}`]: null});
-  if (cleared > 0) {
+  if (deleted > 0) {
     ui.notifications.info(
-      game.i18n.format("PF1-Psionics.Manifesters.OrphanedNotice", {count: cleared}),
+      game.i18n.format("PF1-Psionics.Manifesters.DeletedNotice", {count: deleted}),
     );
   }
 }

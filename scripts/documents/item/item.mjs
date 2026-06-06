@@ -117,37 +117,33 @@ export function findOrphanedPowers(actor, manifesterId) {
 }
 
 /**
- * Clear `system.manifester` on every power referencing `manifesterId`.
- * Batched via updateEmbeddedDocuments. Returns count cleared.
+ * Delete every power referencing `manifesterId`. Returns count deleted.
  * @param {Actor} actor
  * @param {string} manifesterId
  * @returns {Promise<number>}
  */
-export async function clearPowerManifesterRefs(actor, manifesterId) {
-  const orphans = findOrphanedPowers(actor, manifesterId);
-  if (orphans.length === 0) return 0;
-  await actor.updateEmbeddedDocuments(
-    "Item",
-    orphans.map((p) => ({_id: p.id, "system.manifester": ""})),
-  );
-  return orphans.length;
+export async function deleteManifesterPowers(actor, manifesterId) {
+  const powers = findOrphanedPowers(actor, manifesterId);
+  if (powers.length === 0) return 0;
+  await actor.deleteEmbeddedDocuments("Item", powers.map((p) => p.id));
+  return powers.length;
 }
 
 async function promptClassManifesterRemoval(item) {
   const linked = findLinkedRecord(item);
   if (!linked) return "noop";
 
-  const orphanCount = findOrphanedPowers(item.parent, linked.id).length;
+  const powerCount = findOrphanedPowers(item.parent, linked.id).length;
 
   const className = item.name;
   const recordName = linked.record.name || className;
-  const orphanMsg = orphanCount > 0
-    ? game.i18n.format("PF1-Psionics.Manifesters.OrphanWarning", {count: orphanCount})
+  const powerMsg = powerCount > 0
+    ? game.i18n.format("PF1-Psionics.Manifesters.DeleteWarning", {count: powerCount})
     : "";
 
   const choice = await foundry.applications.api.DialogV2.wait({
     window: {title: game.i18n.localize("PF1-Psionics.Manifesters.ConfirmRemovalTitle")},
-    content: `<p>${game.i18n.format("PF1-Psionics.Manifesters.ConfirmRemovalBody", {class: className, manifester: recordName})}</p>${orphanMsg ? `<p>${orphanMsg}</p>` : ""}`,
+    content: `<p>${game.i18n.format("PF1-Psionics.Manifesters.ConfirmRemovalBody", {class: className, manifester: recordName})}</p>${powerMsg ? `<p>${powerMsg}</p>` : ""}`,
     buttons: [
       {action: "remove", label: game.i18n.localize("PF1-Psionics.Manifesters.RemoveRecord"), default: true},
       {action: "keep", label: game.i18n.localize("PF1-Psionics.Manifesters.KeepRecord")},
@@ -162,11 +158,11 @@ async function promptClassManifesterRemoval(item) {
 async function removeLinkedRecord(item) {
   const linked = findLinkedRecord(item);
   if (!linked) return;
-  const cleared = await clearPowerManifesterRefs(item.parent, linked.id);
+  const deleted = await deleteManifesterPowers(item.parent, linked.id);
   await item.parent.update({[`flags.${MODULE_ID}.manifesters.-=${linked.id}`]: null});
-  if (cleared > 0) {
+  if (deleted > 0) {
     ui.notifications.info(
-      game.i18n.format("PF1-Psionics.Manifesters.OrphanedNotice", {count: cleared}),
+      game.i18n.format("PF1-Psionics.Manifesters.DeletedNotice", {count: deleted}),
     );
   }
 }

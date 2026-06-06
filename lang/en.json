@@ -115,12 +115,12 @@
       "HitDice": "Hit Dice",
       "AddManifester": "Add Manifester",
       "RemoveManifester": "Remove Manifester",
-      "RemoveRecord": "Remove record + orphan powers",
+      "RemoveRecord": "Remove record + delete powers",
       "KeepRecord": "Keep record (as manual)",
       "ConfirmRemovalTitle": "Remove Manifester Record?",
       "ConfirmRemovalBody": "Deleting class \"{class}\" will affect its linked manifester record \"{manifester}\".",
-      "OrphanWarning": "{count} power(s) link to this manifester and will be orphaned if you remove the record.",
-      "OrphanedNotice": "{count} power(s) now have no linked manifester. Re-bind them via the power sheet."
+      "DeleteWarning": "{count} power(s) link to this manifester and will be deleted if you remove the record.",
+      "DeletedNotice": "{count} power(s) linked to this manifester were deleted."
     },
     "UnknownClass": "Unknown class",
     "Charges": {
