@@ -214,21 +214,25 @@ function injectManifesterCheckboxes(app, html, data) {
   const actor = data.actor;
   const manifesters = actor.getFlag(MODULE_ID, "manifesters") ?? {};
 
-  for (const [id, manifester] of Object.entries(manifesters)) {
-    const row = document.createElement("div");
-    row.classList.add("pf1-psionics-manifester-row");
-    const label = document.createElement("span");
-    label.textContent = getManifesterName(manifester);
-    row.append(label);
+  const list = document.createElement("div");
+  list.classList.add("pf1-psionics-manifester-list");
 
-    const removeBtn = document.createElement("a");
-    removeBtn.classList.add("pf1-psionics-remove-manifester");
-    removeBtn.innerHTML = '<i class="fas fa-trash"></i>';
-    removeBtn.title = game.i18n.localize("PF1-Psionics.Manifesters.RemoveManifester");
-    removeBtn.addEventListener("click", () => onRemoveManifester(actor, id, manifester));
-    row.append(removeBtn);
-    controls.append(row);
+  for (const [id, manifester] of Object.entries(manifesters)) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.classList.add("pf1-psionics-remove-manifester");
+    btn.title = game.i18n.localize("PF1-Psionics.Manifesters.RemoveManifester");
+    const label = document.createElement("span");
+    label.classList.add("label");
+    label.textContent = getManifesterName(manifester);
+    const icon = document.createElement("i");
+    icon.classList.add("fas", "fa-trash");
+    btn.append(label, icon);
+    btn.addEventListener("click", () => onRemoveManifester(actor, id, manifester));
+    list.append(btn);
   }
+
+  if (list.children.length) controls.append(list);
 
   const addBtn = document.createElement("button");
   addBtn.type = "button";

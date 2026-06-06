@@ -85,3 +85,30 @@
 details.manifester-config-collapse > summary.manifester-config-summary {
   display: none;
 }
+
+/* Manifester delete buttons in actor sheet settings tab */
+.pf1-psionics-manifester-list {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 4px;
+  margin-bottom: 6px;
+}
+
+.pf1-psionics-manifester-list .pf1-psionics-remove-manifester {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 8px;
+  width: auto;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.pf1-psionics-manifester-list .pf1-psionics-remove-manifester .fa-trash {
+  opacity: 0.7;
+}
+
+.pf1-psionics-manifester-list .pf1-psionics-remove-manifester:hover .fa-trash {
+  opacity: 1;
+  color: var(--color-text-warning, #b00);
+}
