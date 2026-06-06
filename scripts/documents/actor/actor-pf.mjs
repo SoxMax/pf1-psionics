@@ -50,11 +50,17 @@ function pf1PrepareBaseActorData(_actor) {
 
 function pf1PrepareDerivedActorData(actor) {
   const manifesters = actor.getFlag(MODULE_ID, "manifesters");
-  if (manifesters && Object.keys(manifesters).length > 0) {
-    deriveManifestersInfo(actor);
-    deriveTotalPowerPoints(actor);
-    deriveTotalFocus(actor);
+  if (!manifesters || Object.keys(manifesters).length === 0) return;
+  // Skip derivation if any record still has legacy schema (class stored as
+  // string tag rather than {itemId} object). The v0.10.0 migration runs in
+  // the ready hook; until then the consumer below would throw trying to set
+  // book.class.name on a string. Failing silently keeps world load clean.
+  for (const book of Object.values(manifesters)) {
+    if (book?.class != null && typeof book.class !== "object") return;
   }
+  deriveManifestersInfo(actor);
+  deriveTotalPowerPoints(actor);
+  deriveTotalFocus(actor);
 }
 
 function pf1ActorRest(actor, _options, _updateData, _itemUpdates) {

@@ -80,6 +80,18 @@ function rebindPower(systemManifester, idMap) {
   return idMap[systemManifester] ?? "";
 }
 
+/**
+ * Simulate the actor.update() the migration performs: per-slot delete of
+ * legacy keys, then merge of new entries. Models the production write strategy
+ * so we can assert that pre-existing non-legacy entries survive.
+ */
+function applyMigrationUpdate(rawManifesters, newDict) {
+  const result = foundry.utils.deepClone(rawManifesters ?? {});
+  for (const slot of LEGACY_SLOT_KEYS) delete result[slot];
+  Object.assign(result, foundry.utils.deepClone(newDict));
+  return result;
+}
+
 describe("v0.10.0 migration", () => {
   let psionClass;
 
@@ -178,6 +190,35 @@ describe("v0.10.0 migration", () => {
     }
   });
 
+  it("preserves pre-existing non-legacy entries in mixed-state dict", () => {
+    const existingId = "abcdefghijklmnop";
+    const existingRecord = {
+      id: existingId,
+      source: "manual",
+      class: { itemId: null },
+      name: "Already Migrated",
+      casterType: "low",
+      ability: "wis",
+      powerPoints: { max: 99, formula: "" },
+      cl: { formula: "", notes: "" },
+      concentration: { formula: "", notes: "" },
+    };
+    const raw = {
+      primary: defaultLegacyBook({ inUse: true, class: "psion" }),
+      [existingId]: existingRecord,
+    };
+    const { newDict } = rebuildManifesters(raw, [psionClass]);
+    // Simulate the actual actor.update strategy (per-slot delete + merge).
+    const persisted = applyMigrationUpdate(raw, newDict);
+    expect(Object.keys(persisted).length).toBe(2);
+    expect(persisted[existingId]).toEqual(existingRecord);
+    // None of the legacy slot keys should survive.
+    for (const slot of LEGACY_SLOT_KEYS) expect(persisted).not.toHaveProperty(slot);
+    // The converted legacy entry should also be present under a new id.
+    const convertedIds = Object.keys(persisted).filter(k => k !== existingId);
+    expect(convertedIds.length).toBe(1);
+  });
+
   it("rebinds power's system.manifester via idMap", () => {
     const raw = {
       primary: defaultLegacyBook({ inUse: true, class: "psion" }),
@@ -200,6 +241,108 @@ describe("v0.10.0 migration", () => {
     const idMap = { primary: "anId000000000001" };
     expect(rebindPower("Qm3K9xZ2pLwV4tNb", idMap)).toBeNull();
     expect(rebindPower("", idMap)).toBeNull();
+  });
+
+  // ---- edge cases ----
+
+  it("treats empty-string class tag as manual with no _lastTag", () => {
+    const raw = {
+      primary: defaultLegacyBook({ inUse: true, class: "" }),
+      secondary: defaultLegacyBook(),
+      tertiary: defaultLegacyBook(),
+      spelllike: defaultLegacyBook(),
+    };
+    const [rec] = Object.values(rebuildManifesters(raw, []).newDict);
+    expect(rec.source).toBe("manual");
+    expect(rec.class.itemId).toBeNull();
+    expect(rec).not.toHaveProperty("_lastTag");
+  });
+
+  it("treats null/undefined class tag as manual with no _lastTag", () => {
+    const rawNull = {
+      primary: defaultLegacyBook({ inUse: true, class: null }),
+      secondary: defaultLegacyBook(), tertiary: defaultLegacyBook(), spelllike: defaultLegacyBook(),
+    };
+    const rawUndef = {
+      primary: defaultLegacyBook({ inUse: true, class: undefined }),
+      secondary: defaultLegacyBook(), tertiary: defaultLegacyBook(), spelllike: defaultLegacyBook(),
+    };
+    for (const raw of [rawNull, rawUndef]) {
+      const [rec] = Object.values(rebuildManifesters(raw, []).newDict);
+      expect(rec.source).toBe("manual");
+      expect(rec.class.itemId).toBeNull();
+      expect(rec).not.toHaveProperty("_lastTag");
+    }
+  });
+
+  it("skips null/undefined slot record", () => {
+    const raw = {
+      primary: null,
+      secondary: undefined,
+      tertiary: defaultLegacyBook({ inUse: true, class: "_hd" }),
+      spelllike: defaultLegacyBook(),
+    };
+    const result = rebuildManifesters(raw, []);
+    expect(Object.keys(result.newDict)).toHaveLength(1);
+  });
+
+  it("treats empty record with truthy inUse as a valid manual entry (fills defaults)", () => {
+    const raw = {
+      primary: { inUse: true },
+      secondary: defaultLegacyBook(), tertiary: defaultLegacyBook(), spelllike: defaultLegacyBook(),
+    };
+    const [rec] = Object.values(rebuildManifesters(raw, []).newDict);
+    expect(rec.source).toBe("manual");
+    expect(rec.casterType).toBe("high");
+    expect(rec.ability).toBe("int");
+    expect(rec.cl).toEqual({ formula: "", notes: "" });
+    expect(rec.concentration).toEqual({ formula: "", notes: "" });
+    expect(rec.powerPoints).toEqual({ max: 0, formula: "" });
+    expect(rec.spellPreparationMode).toBe("spontaneous");
+    expect(rec.baseDCFormula).toBe("10 + @sl + @ablMod");
+    expect(rec.autoLevelPowerPoints).toBe(true);
+    expect(rec.autoAttributePowerPoints).toBe(true);
+    expect(rec.autoMaxPowerLevel).toBe(true);
+    expect(rec.hasCantrips).toBe(true);
+  });
+
+  it("preserves unrecognized casterType verbatim (consumer is responsible for validation)", () => {
+    const raw = {
+      primary: defaultLegacyBook({ inUse: true, class: "_hd", casterType: "ultra-mega" }),
+      secondary: defaultLegacyBook(), tertiary: defaultLegacyBook(), spelllike: defaultLegacyBook(),
+    };
+    const [rec] = Object.values(rebuildManifesters(raw, []).newDict);
+    expect(rec.casterType).toBe("ultra-mega");
+  });
+
+  it("returns null on non-object raw flag (string / array)", () => {
+    // Object.entries on a string yields character entries that won't match
+    // LEGACY_SLOT_KEYS, so the function should bail with null.
+    expect(rebuildManifesters("garbage", [])).toBeNull();
+    expect(rebuildManifesters([], [])).toBeNull();
+  });
+
+  it("emits unique ids for all inUse slots and an idMap that round-trips through rebindPower", () => {
+    const raw = {
+      primary: defaultLegacyBook({ inUse: true, class: "psion" }),
+      secondary: defaultLegacyBook({ inUse: true, class: "_hd" }),
+      tertiary: defaultLegacyBook({ inUse: true, class: "_hd" }),
+      spelllike: defaultLegacyBook({ inUse: true, class: "_hd" }),
+    };
+    const { idMap, newDict } = rebuildManifesters(raw, [psionClass]);
+    const ids = Object.values(idMap);
+    expect(new Set(ids).size).toBe(ids.length);    // unique
+    expect(ids.every(id => id.length === 16)).toBe(true);
+    expect(Object.keys(newDict).sort()).toEqual([...ids].sort());
+    for (const slot of ["primary", "secondary", "tertiary", "spelllike"]) {
+      expect(rebindPower(slot, idMap)).toBe(idMap[slot]);
+    }
+  });
+
+  it("rebindPower handles null/undefined gracefully", () => {
+    const idMap = { primary: "anId000000000001" };
+    expect(rebindPower(null, idMap)).toBeNull();
+    expect(rebindPower(undefined, idMap)).toBeNull();
   });
 });
 

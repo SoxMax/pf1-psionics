@@ -95,14 +95,18 @@ async function rebuildManifesters(actor) {
     newDict[id] = record;
   }
 
-  // Single atomic update: -=manifesters strips legacy slot keys, then the
-  // new dict is written. New record ids cannot collide with primary/secondary/
-  // tertiary/spelllike, so the merge is safe in one call.
-  await actor.update({
-    [`flags.${MODULE_ID}.-=manifesters`]: null,
+  // Per-slot deletion + merge of new entries in a single update. Avoids
+  // `-=manifesters` (which wipes the whole dict in the same update before the
+  // merge applies, destroying any pre-existing non-legacy entries from
+  // manual adds or partial prior migrations).
+  const update = {
     [`flags.${MODULE_ID}.manifesters`]: newDict,
     [`flags.${MODULE_ID}._v0_10_0_idMap`]: idMap,
-  });
+  };
+  for (const slot of LEGACY_SLOT_KEYS) {
+    update[`flags.${MODULE_ID}.manifesters.-=${slot}`] = null;
+  }
+  await actor.update(update);
   console.log(`${MODULE_ID} | Rebuilt manifesters for ${actor.name}: ${Object.keys(idMap).length} record(s)`);
   return true;
 }
