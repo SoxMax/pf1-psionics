@@ -2,6 +2,12 @@ _id: baE6chcLhK4hlxy3
 _key: '!items!baE6chcLhK4hlxy3'
 _stats:
   coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    manifesting:
+      ability: int
+      cantrips: true
+      progression: high
 img: icons/magic/perception/third-eye-blue-red.webp
 name: Tactician
 system:
@@ -97,10 +103,6 @@ system:
         uuid: Compendium.pf1-psionics.classes.Item.DSTX6yfgLHbFgC1S
       - level: 20
         uuid: Compendium.pf1-psionics.classes.Item.obTDSo5JuAEdHXxo
-  manifesting:
-    ability: int
-    cantrips: true
-    progression: high
   savingThrows:
     fort:
       value: low

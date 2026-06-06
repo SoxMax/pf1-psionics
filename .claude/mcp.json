@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "pf1-system": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@anthropic-ai/mcp-server-filesystem",
+        "/home/cobrien/Code/foundryvtt-pathfinder1"
+      ]
+    }
+  }
+}

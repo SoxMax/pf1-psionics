@@ -2,6 +2,12 @@ _id: XkVstqF0BQgD9nS3
 _key: '!items!XkVstqF0BQgD9nS3'
 _stats:
   coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    manifesting:
+      ability: wis
+      cantrips: true
+      progression: med
 img: icons/magic/perception/third-eye-blue-red.webp
 name: Psychic Warrior
 system:
@@ -90,10 +96,6 @@ system:
         uuid: Compendium.pf1-psionics.classes.Item.1o2mdgD8nAdv3xpY
       - level: 20
         uuid: Compendium.pf1-psionics.classes.Item.ICslAPTZkfRm0gtI
-  manifesting:
-    ability: wis
-    cantrips: true
-    progression: med
   savingThrows:
     fort:
       value: high

@@ -2,6 +2,12 @@ _id: 45rDg9TutKCEyvgP
 _key: '!items!45rDg9TutKCEyvgP'
 _stats:
   coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    manifesting:
+      ability: int
+      cantrips: true
+      progression: high
 img: icons/magic/perception/third-eye-blue-red.webp
 name: Psion
 system:
@@ -104,10 +110,6 @@ system:
         uuid: Compendium.pf1-psionics.classes.Item.kCywUn5mg5xjqiJ0
       - level: 1
         uuid: Compendium.pf1-psionics.classes.Item.vex5zB9t1i7cZaia
-  manifesting:
-    ability: int
-    cantrips: true
-    progression: high
   savingThrows:
     fort:
       value: low

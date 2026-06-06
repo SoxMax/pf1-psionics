@@ -2,6 +2,12 @@ _id: m2VbU4MXyAYr2pvV
 _key: '!items!m2VbU4MXyAYr2pvV'
 _stats:
   coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    manifesting:
+      ability: wis
+      cantrips: true
+      progression: low
 img: icons/magic/perception/third-eye-blue-red.webp
 name: Marksman
 system:
@@ -99,10 +105,6 @@ system:
         uuid: Compendium.pf1-psionics.classes.Item.7gz4W01En9UwEPzV
       - level: 19
         uuid: Compendium.pf1-psionics.classes.Item.UVWw0Na1sBX1TLcO
-  manifesting:
-    ability: wis
-    cantrips: true
-    progression: low
   savingThrows:
     fort:
       value: low

@@ -241,9 +241,21 @@ Hooks.on("pf1RegisterScriptCalls", (registry) => {
   }
 });
 
-// Map custom psionics buff targets to concrete actor data paths
-// These paths point to the maximum values; using maximum avoids refilling current values each refresh.
-Hooks.on("pf1GetChangeFlat", (result, target, _modifierType, _value, _actor) => {
+// Map custom psionics buff targets to concrete actor data paths.
+// Manifester paths are enumerated dynamically from the actor's current
+// manifester records, so adding/removing records updates the buff routing
+// automatically.
+const SPELLBOOK_KEYS = ["primary", "secondary", "tertiary", "spelllike"];
+
+Hooks.on("pf1GetChangeFlat", (result, target, _modifierType, _value, actor) => {
+  const manifesterIds = Object.keys(actor?.flags?.[MODULE_ID]?.manifesters ?? {});
+  const mPaths = (suffix) => manifesterIds.map(
+    (id) => `flags.${MODULE_ID}.manifesters.${id}.${suffix}`,
+  );
+  const sPaths = (suffix) => SPELLBOOK_KEYS.map(
+    (k) => `system.attributes.spells.spellbooks.${k}.${suffix}`,
+  );
+
   switch (target) {
     case `${MODULE_ID}.powerPoints`:
       result.push(`flags.${MODULE_ID}.powerPoints.maximum`);
@@ -252,70 +264,30 @@ Hooks.on("pf1GetChangeFlat", (result, target, _modifierType, _value, _actor) => 
       result.push(`flags.${MODULE_ID}.focus.maximum`);
       break;
     case `${MODULE_ID}.concentration`:
-      // Apply to both manifesters AND spellbooks for Psionics-Magic Transparency
-      result.push(
-        `flags.${MODULE_ID}.manifesters.primary.concentration.total`,
-        `flags.${MODULE_ID}.manifesters.secondary.concentration.total`,
-        `flags.${MODULE_ID}.manifesters.tertiary.concentration.total`,
-        `flags.${MODULE_ID}.manifesters.spelllike.concentration.total`,
-        "system.attributes.spells.spellbooks.primary.concentration.total",
-        "system.attributes.spells.spellbooks.secondary.concentration.total",
-        "system.attributes.spells.spellbooks.tertiary.concentration.total",
-        "system.attributes.spells.spellbooks.spelllike.concentration.total"
-      );
+      result.push(...mPaths("concentration.total"), ...sPaths("concentration.total"));
       break;
     case `${MODULE_ID}.manifesterLevel`:
-      // Apply to both manifesters AND spellbooks for Psionics-Magic Transparency
-      result.push(
-        `flags.${MODULE_ID}.manifesters.primary.cl.total`,
-        `flags.${MODULE_ID}.manifesters.secondary.cl.total`,
-        `flags.${MODULE_ID}.manifesters.tertiary.cl.total`,
-        `flags.${MODULE_ID}.manifesters.spelllike.cl.total`,
-        "system.attributes.spells.spellbooks.primary.cl.total",
-        "system.attributes.spells.spellbooks.secondary.cl.total",
-        "system.attributes.spells.spellbooks.tertiary.cl.total",
-        "system.attributes.spells.spellbooks.spelllike.cl.total"
-      );
+      result.push(...mPaths("cl.total"), ...sPaths("cl.total"));
       break;
     case `${MODULE_ID}.psionicDC`:
-      // Universal DC bonus affects all powers and spells
       result.push("system.attributes.spells.school.all.dc");
       break;
     case `${MODULE_ID}.psionicResistance`:
-      // Psionic Resistance maps to same location as Spell Resistance for transparency
       result.push("system.attributes.sr.total");
       break;
-  // Bidirectional transparency: spell bonuses also apply to manifesters
+    // Bidirectional transparency: spell bonuses also apply to manifesters
     case "concentration":
-      // Spell concentration also applies to manifesters
-      result.push(
-        `flags.${MODULE_ID}.manifesters.primary.concentration.total`,
-        `flags.${MODULE_ID}.manifesters.secondary.concentration.total`,
-        `flags.${MODULE_ID}.manifesters.tertiary.concentration.total`,
-        `flags.${MODULE_ID}.manifesters.spelllike.concentration.total`
-      );
+      result.push(...mPaths("concentration.total"));
       break;
     case "cl":
-      // Spell CL also applies to manifesters
-      result.push(
-        `flags.${MODULE_ID}.manifesters.primary.cl.total`,
-        `flags.${MODULE_ID}.manifesters.secondary.cl.total`,
-        `flags.${MODULE_ID}.manifesters.tertiary.cl.total`,
-        `flags.${MODULE_ID}.manifesters.spelllike.cl.total`
-      );
+      result.push(...mPaths("cl.total"));
       break;
-    // Note: "dc" already applies to all via system.attributes.spells.school.all.dc
     default: {
-      // Map discipline buff targets to spell school paths for Psionics-Magic Transparency
       const disciplineMatch = target.match(/^pf1-psionics\.discipline\.(\w+)\.(dc|cl)$/);
       if (disciplineMatch) {
         const [, discipline, stat] = disciplineMatch;
         const schoolKey = DISCIPLINE_TO_SCHOOL[discipline];
-
-        // Psychoportation has no school equivalent
-        if (!schoolKey) return;
-
-        // Map to the equivalent school path
+        if (!schoolKey) return; // Psychoportation has no school equivalent
         result.push(`system.attributes.spells.school.${schoolKey}.${stat}`);
       }
       break;

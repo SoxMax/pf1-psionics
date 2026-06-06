@@ -2,6 +2,12 @@ _id: OtFh9mttHxCFgzTd
 _key: '!items!OtFh9mttHxCFgzTd'
 _stats:
   coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    manifesting:
+      ability: cha
+      cantrips: true
+      progression: med
 img: icons/magic/perception/third-eye-blue-red.webp
 name: Highlord
 system:
@@ -119,10 +125,6 @@ system:
         uuid: Compendium.pf1-psionics.classes.Item.SK61mFpMBDbIMOfz
       - level: 20
         uuid: Compendium.pf1-psionics.classes.Item.aXK08eTE3JfiuYbs
-  manifesting:
-    ability: cha
-    cantrips: true
-    progression: med
   savingThrows:
     fort:
       value: high

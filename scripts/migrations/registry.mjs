@@ -1,14 +1,15 @@
-import { migrateToVersion031 } from "./v0.3.1.mjs";
-import { migrateToVersion050 } from "./v0.5.0.mjs";
-import { migrateToVersion070 } from "./v0.7.0.mjs";
-import { migrateToVersion082 } from "./v0.8.2.mjs";
+import { migrateToVersion0_3_1 } from "./v0.3.1.mjs";
+import { migrateToVersion0_5_0 } from "./v0.5.0.mjs";
+import { migrateToVersion0_7_0 } from "./v0.7.0.mjs";
+import { migrateToVersion0_8_2 } from "./v0.8.2.mjs";
+import { migrateToVersion0_10_0 } from "./v0.10.0.mjs";
 
 /**
  * Registry of all migration functions mapped to their target version.
  *
  * When adding a new migration:
  * 1. Create a new file: vX.Y.Z.mjs
- * 2. Export a function: migrateToVersionXYZ()
+ * 2. Export a function: migrateToVersionX_Y_Z()
  * 3. Import and add it to this registry
  *
  * Migrations will be executed in version order (sorted by semantic version).
@@ -17,12 +18,11 @@ import { migrateToVersion082 } from "./v0.8.2.mjs";
  * for belt-and-suspenders data safety. Example: v0.7.0 augments migration.
  */
 export const MIGRATIONS = {
-	"0.3.1": migrateToVersion031,
-	"0.5.0": migrateToVersion050,
-	"0.7.0": migrateToVersion070,
-	"0.8.2": migrateToVersion082,
-	// Add new migrations here as needed
-	// "1.0.0": migrateToVersion100,
+	"0.3.1": migrateToVersion0_3_1,
+	"0.5.0": migrateToVersion0_5_0,
+	"0.7.0": migrateToVersion0_7_0,
+	"0.8.2": migrateToVersion0_8_2,
+	"0.10.0": migrateToVersion0_10_0,
 };
 
 /**

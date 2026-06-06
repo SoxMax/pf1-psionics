@@ -11,7 +11,7 @@ import { migrateAllActors, migrateAllItems } from "./helpers.mjs";
  * "med" in 0.8.2; this migration rewrites any stored "medium" values so that
  * existing worlds continue to resolve to the same row of the table.
  */
-export async function migrateToVersion082() {
+export async function migrateToVersion0_8_2() {
   console.log(`${MODULE_ID} | Running migration to 0.8.2`);
 
   await migrateAllActors(migrateActorManifesters, "actor manifesters to v0.8.2");

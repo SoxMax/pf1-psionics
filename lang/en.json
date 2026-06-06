@@ -111,8 +111,18 @@
     "Manifesters": {
       "BrowsePowers": "Browse Powers",
       "CreatePower": "Create Power",
-      "Spelllike": "Psi-like"
+      "Spelllike": "Psi-like",
+      "HitDice": "Hit Dice",
+      "AddManifester": "Add Manifester",
+      "RemoveManifester": "Remove Manifester",
+      "RemoveRecord": "Remove record + orphan powers",
+      "KeepRecord": "Keep record (as manual)",
+      "ConfirmRemovalTitle": "Remove Manifester Record?",
+      "ConfirmRemovalBody": "Deleting class \"{class}\" will affect its linked manifester record \"{manifester}\".",
+      "OrphanWarning": "{count} power(s) link to this manifester and will be orphaned if you remove the record.",
+      "OrphanedNotice": "{count} power(s) now have no linked manifester. Re-bind them via the power sheet."
     },
+    "UnknownClass": "Unknown class",
     "Charges": {
       "Plural": "Uses",
       "Current": "Uses left"

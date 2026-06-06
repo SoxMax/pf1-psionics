@@ -13,7 +13,7 @@ import { migrateAllItems } from "./helpers.mjs";
  * - Copies those augments to each action in the power
  * - Removes the old system.augments field
  */
-export async function migrateToVersion070() {
+export async function migrateToVersion0_7_0() {
   console.log(`${MODULE_ID} | Running migration to 0.7.0`);
 
   await migrateAllItems(`${MODULE_ID}.power`, migratePowerItem, "power items to v0.7.0");

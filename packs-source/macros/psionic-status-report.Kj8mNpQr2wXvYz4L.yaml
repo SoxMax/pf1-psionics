@@ -77,12 +77,16 @@ command: >-
   const manifesters = psionics.manifesters;
 
   if (manifesters) {
-    const activeBooks = Object.entries(manifesters).filter(([_, m]) => m.inUse);
-    if (activeBooks.length > 0) {
+    const books = Object.entries(manifesters);
+    if (books.length > 0) {
       content += `<h3>Manifesters</h3>`;
       content += `<ul>`;
-      for (const [bookId, manifester] of activeBooks) {
-        content += `<li><strong>${manifester.label || bookId}:</strong> ML ${manifester.cl?.total ?? 0}</li>`;
+      for (const [bookId, manifester] of books) {
+        const className = manifester.class?.itemId
+          ? actor.items.get(manifester.class.itemId)?.name
+          : null;
+        const label = manifester.name || className || bookId;
+        content += `<li><strong>${label}:</strong> ML ${manifester.cl?.total ?? 0}</li>`;
       }
       content += `</ul>`;
     }

@@ -1,7 +1,20 @@
 import { MODULE_ID } from "../_module.mjs";
-import { MANIFESTERS } from "../data/manifesters.mjs";
 import { addFlagIfMissing, addSkillIfMissing, migrateAllActors } from "./helpers.mjs";
 import { POWER_POINTS_FLAG, PSIONIC_FOCUS_FLAG } from "../data/powerpoints.mjs";
+
+const LEGACY_MANIFESTER = {
+	name: "", inUse: false, showConfig: false, casterType: "high", class: "",
+	cl: { formula: "", notes: "" }, concentration: { formula: "", notes: "" },
+	ability: "int", autoLevelPowerPoints: true, autoAttributePowerPoints: true,
+	autoMaxPowerLevel: true, hasCantrips: true, spellPreparationMode: "spontaneous",
+	baseDCFormula: "10 + @sl + @ablMod", powerPoints: { max: 0, formula: "" },
+};
+const LEGACY_MANIFESTERS = {
+	primary: foundry.utils.deepClone(LEGACY_MANIFESTER),
+	secondary: foundry.utils.deepClone(LEGACY_MANIFESTER),
+	tertiary: foundry.utils.deepClone(LEGACY_MANIFESTER),
+	spelllike: Object.assign(foundry.utils.deepClone(LEGACY_MANIFESTER), { class: "_hd", ability: "cha" }),
+};
 
 /**
  * Migration for version 0.3.1
@@ -12,7 +25,7 @@ import { POWER_POINTS_FLAG, PSIONIC_FOCUS_FLAG } from "../data/powerpoints.mjs";
  * - powerPoints flag
  * - focus flag
  */
-export async function migrateToVersion031() {
+export async function migrateToVersion0_3_1() {
 	console.log(`${MODULE_ID} | Running migration to 0.3.1`);
 
 	await migrateAllActors(migrateActor, "actors to v0.3.1");
@@ -47,7 +60,7 @@ async function migrateActor(actor) {
 	});
 
 	// Add manifesters flag
-	const manifestersAdded = await addFlagIfMissing(actor, "manifesters", MANIFESTERS);
+	const manifestersAdded = await addFlagIfMissing(actor, "manifesters", LEGACY_MANIFESTERS);
 
 	// Add powerPoints flag
 	const powerPointsAdded = await addFlagIfMissing(actor, "powerPoints", POWER_POINTS_FLAG);

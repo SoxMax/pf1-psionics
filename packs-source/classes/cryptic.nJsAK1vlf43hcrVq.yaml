@@ -2,6 +2,12 @@ _id: nJsAK1vlf43hcrVq
 _key: '!items!nJsAK1vlf43hcrVq'
 _stats:
   coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    manifesting:
+      ability: int
+      cantrips: true
+      progression: med
 img: icons/magic/perception/third-eye-blue-red.webp
 name: Cryptic
 system:
@@ -106,10 +112,6 @@ system:
         uuid: Compendium.pf1-psionics.classes.Item.cUOEYJWXNhlABszP
       - level: 20
         uuid: Compendium.pf1-psionics.classes.Item.Fpmk7td5TrzUB3An
-  manifesting:
-    ability: int
-    cantrips: true
-    progression: med
   savingThrows:
     fort:
       value: low

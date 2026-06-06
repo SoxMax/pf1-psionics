@@ -80,3 +80,8 @@
 .energy-controls {
   flex: 0 0 60px;
 }
+
+/* Hide native disclosure marker for manifester config; toggling happens via gear in summary row */
+details.manifester-config-collapse > summary.manifester-config-summary {
+  display: none;
+}

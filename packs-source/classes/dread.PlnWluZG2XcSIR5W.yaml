@@ -2,6 +2,12 @@ _id: PlnWluZG2XcSIR5W
 _key: '!items!PlnWluZG2XcSIR5W'
 _stats:
   coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    manifesting:
+      ability: cha
+      cantrips: true
+      progression: med
 img: icons/magic/perception/third-eye-blue-red.webp
 name: Dread
 system:
@@ -94,10 +100,6 @@ system:
         uuid: Compendium.pf1-psionics.classes.Item.c1550Omo9i1udB7T
       - level: 20
         uuid: Compendium.pf1-psionics.classes.Item.iSfEsGtYh60C2R0n
-  manifesting:
-    ability: cha
-    cantrips: true
-    progression: med
   savingThrows:
     fort:
       value: low

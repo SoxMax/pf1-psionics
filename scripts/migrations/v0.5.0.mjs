@@ -1,6 +1,19 @@
 import { MODULE_ID } from "../_module.mjs";
 import { migrateAllActors, migrateAllItems, addFlagIfMissing } from "./helpers.mjs";
-import { MANIFESTERS } from "../data/manifesters.mjs";
+
+const LEGACY_MANIFESTER = {
+  name: "", inUse: false, showConfig: false, casterType: "high", class: "",
+  cl: { formula: "", notes: "" }, concentration: { formula: "", notes: "" },
+  ability: "int", autoLevelPowerPoints: true, autoAttributePowerPoints: true,
+  autoMaxPowerLevel: true, hasCantrips: true, spellPreparationMode: "spontaneous",
+  baseDCFormula: "10 + @sl + @ablMod", powerPoints: { max: 0, formula: "" },
+};
+const LEGACY_MANIFESTERS = {
+  primary: foundry.utils.deepClone(LEGACY_MANIFESTER),
+  secondary: foundry.utils.deepClone(LEGACY_MANIFESTER),
+  tertiary: foundry.utils.deepClone(LEGACY_MANIFESTER),
+  spelllike: Object.assign(foundry.utils.deepClone(LEGACY_MANIFESTER), { class: "_hd", ability: "cha" }),
+};
 
 /**
  * Migration for version 0.5.0
@@ -8,7 +21,7 @@ import { MANIFESTERS } from "../data/manifesters.mjs";
  * - Renames actor flag from "manifestors" to "manifesters"
  * - Updates power items to use "manifester" instead of "manifestor"
  */
-export async function migrateToVersion050() {
+export async function migrateToVersion0_5_0() {
   console.log(`${MODULE_ID} | Running migration to 0.5.0`);
 
   await migrateAllActors(migrateActor, "actors to v0.5.0");
@@ -28,7 +41,7 @@ async function migrateActor(actor) {
   let modified = false;
 
   // Step 1: Ensure actor has default manifesters flag (safety first!)
-  const manifestersAdded = await addFlagIfMissing(actor, "manifesters", MANIFESTERS);
+  const manifestersAdded = await addFlagIfMissing(actor, "manifesters", LEGACY_MANIFESTERS);
   if (manifestersAdded) {
     console.log(`${MODULE_ID} | Added default manifesters flag to actor "${actor.name}"`);
     modified = true;

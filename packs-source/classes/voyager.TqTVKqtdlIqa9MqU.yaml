@@ -2,6 +2,12 @@ _id: TqTVKqtdlIqa9MqU
 _key: '!items!TqTVKqtdlIqa9MqU'
 _stats:
   coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    manifesting:
+      ability: int
+      cantrips: true
+      progression: med
 img: icons/magic/perception/third-eye-blue-red.webp
 name: Voyager
 system:
@@ -138,10 +144,6 @@ system:
         uuid: Compendium.pf1-psionics.classes.Item.kuC9sbprrCxPkPAF
       - level: 20
         uuid: Compendium.pf1-psionics.classes.Item.Qt1HPXFIOndN1BAb
-  manifesting:
-    ability: int
-    cantrips: true
-    progression: med
   savingThrows:
     fort:
       value: low

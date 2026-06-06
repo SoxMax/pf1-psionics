@@ -54,7 +54,7 @@ Each migration function follows this pattern:
  * Migration for version X.Y.Z
  * Description of what this migration does
  */
-export async function migrateToVersionXYZ() {
+export async function migrateToVersionX_Y_Z() {
     console.log("pf1-psionics | Running migration to X.Y.Z");
 
     // Migrate actors
@@ -182,7 +182,7 @@ When you need to add a migration for a new version:
 1. **Create migration file**: `scripts/migrations/vX.Y.Z.mjs`
 
 ```javascript
-export async function migrateToVersionXYZ() {
+export async function migrateToVersionX_Y_Z() {
     // Migration logic here
 }
 ```
@@ -191,9 +191,9 @@ export async function migrateToVersionXYZ() {
 
 ```javascript
 export const MIGRATIONS = {
-    "0.2.0": migrateToVersion020,
-    "0.3.0": migrateToVersion030,
-    "X.Y.Z": migrateToVersionXYZ,  // Add this line
+    "0.2.0": migrateToVersion0_2_0,
+    "0.3.0": migrateToVersion0_3_0,
+    "X.Y.Z": migrateToVersionX_Y_Z,  // Add this line
 };
 ```
 
@@ -211,7 +211,7 @@ export const MIGRATIONS = {
 This migration added the `manifesters` flag to all actors:
 
 ```javascript
-export async function migrateToVersion030() {
+export async function migrateToVersion0_3_0() {
     for (const actor of game.actors.contents) {
         if (!isValidActor(actor)) continue;
 
@@ -227,7 +227,7 @@ export async function migrateToVersion030() {
 Example of migrating from a simple flag to a nested structure:
 
 ```javascript
-export async function migrateToVersion040() {
+export async function migrateToVersion0_4_0() {
     for (const actor of game.actors.contents) {
         const oldPP = actor.getFlag("pf1-psionics", "powerPoints");
 
@@ -250,7 +250,7 @@ export async function migrateToVersion040() {
 For changes to PowerModel schema:
 
 ```javascript
-export async function migrateToVersion050() {
+export async function migrateToVersion0_5_0() {
     // Migrate world items
     for (const item of game.items.contents) {
         if (item.type !== "pf1-psionics.power") continue;

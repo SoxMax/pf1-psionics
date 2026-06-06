@@ -44,9 +44,10 @@ export class PowerItem extends pf1.documents.item.ItemPF {
 
     // Assign level if undefined
     if (!Number.isFinite(data?.system?.level) || override) {
-      const book = item.system.manifester;
-      const cls = item.actor.psionics?.manifesters?.[book]?.classId;
-      const level = item.system.learnedAt?.class?.[cls];
+      const bookId = item.system.manifester;
+      const book = item.actor.psionics?.manifesters?.[bookId];
+      const classTag = book?.class?.tag;
+      const level = classTag ? item.system.learnedAt?.class?.[classTag] : undefined;
       if (Number.isFinite(level)) {
         foundry.utils.setProperty(item._source, "system.level", Math.clamp(level, 0, 9));
       }
@@ -208,10 +209,12 @@ export class PowerItem extends pf1.documents.item.ItemPF {
 
       result.cl = this.casterLevel || 0;
 
-      // Add @class shortcut to @classes[classTag]
-      if (manifester.class === "_hd")
+      // Add @class shortcut: itemId truthy → class data, else HD level
+      if (manifester.class?.itemId) {
+        result.class = (manifester.class?.tag ? result.classes?.[manifester.class.tag] : null) ?? {};
+      } else {
         result.class = {level: result.attributes.hd?.total ?? result.details?.level?.value ?? 0};
-      else result.class = result.classes?.[manifester.class] ?? {};
+      }
 
       // Add @manifester shortcut to @psionics[bookId]
       result.manifester = result.psionics[this.system.manifester];

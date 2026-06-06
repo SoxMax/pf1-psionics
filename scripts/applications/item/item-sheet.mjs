@@ -9,11 +9,13 @@ function renderItemHook(app, html, data) {
 }
 
 async function injectManifesting(app, html, data) {
-  if (app.document?.actor)
-    data.hasManifester = Object.values(data.rollData.psionics ?? {}).some(
-        (manifester) => !!manifester.class && manifester.class === app.document.system.tag && manifester.inUse
+  if (app.document?.actor) {
+    const actor = app.document.actor;
+    const manifesters = actor.getFlag("pf1-psionics", "manifesters") ?? {};
+    data.hasManifester = Object.values(manifesters).some(
+        (m) => m.class?.kind === "class" && m.class?.itemId === app.document.id
     );
-  else {
+  } else {
     data.hasManifester = true; // Not true, but avoids unwanted behaviour.
   }
   data.manifesting = {
@@ -23,7 +25,6 @@ async function injectManifesting(app, html, data) {
       high: "PF1.High",
     }
   };
-
   const manifestingConfig = await foundry.applications.handlebars.renderTemplate("modules/pf1-psionics/templates/item/class-manifesting.hbs", data);
   const previousSelect = html.querySelector("select[name='system.savingThrows.will.value']");
   previousSelect?.parentElement?.insertAdjacentHTML("afterend", manifestingConfig);

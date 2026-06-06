@@ -1,5 +1,7 @@
 import { MODULE_ID } from "../../_module.mjs";
 import { PowerItem } from "../../documents/_module.mjs";
+import { createManifesterRecord } from "../../data/manifesters.mjs";
+import { clearPowerManifesterRefs, findOrphanedPowers } from "../../documents/item/item.mjs";
 
 const SKIPPED_SHEET_CLASSES = [
   "pf1alt.AltActorSheetPFCharacter",
@@ -46,7 +48,7 @@ function injectActorSheetPF() {
 
     // Apply filters to manifester sections (similar to how PF1e handles spellbooks)
     for (const [manifesterId, manifester] of Object.entries(context.manifesterData ?? {})) {
-      if (!manifester.inUse || !manifester.sections) continue;
+      if (!manifester.sections) continue;
 
       const categoryKey = `manifester-${manifesterId}`;
       const filterSet = this._filters.sections[categoryKey];
@@ -98,9 +100,11 @@ function injectActorSheetPF() {
   // Handle drag and drop for powers
   libWrapper.register(MODULE_ID, "pf1.applications.actor.ActorSheetPF.prototype._alterDropItemData", async function (wrapped, data, source) {
       wrapped(data, source);
-      // Set manifester to currently viewed one when dropping a power
       if (data.type === `${MODULE_ID}.power`) {
-          data.system.manifester = this._tabs.find((t) => t.group === "manifesters")?.active || "primary";
+          const manifesters = this.actor.getFlag(MODULE_ID, "manifesters") ?? {};
+          const activeTabId = this._tabs.find((t) => t.group === "manifesters")?.active;
+          const firstId = Object.keys(manifesters)[0];
+          data.system.manifester = (activeTabId && manifesters[activeTabId]) ? activeTabId : (firstId ?? "");
       }
   }, "WRAPPER");
 }
@@ -196,33 +200,118 @@ function injectPsionicsDiv(app, html) {
   div.append(formGroup);
 }
 
-function getManifesterName(bookId, manifester) {
-  if (manifester.label) {
-    return manifester.label;
-  }
-  return game.i18n.localize(`PF1-Psionics.Manifesters.${bookId.capitalize()}`);
+function getManifesterName(manifester) {
+  if (manifester.name) return manifester.name;
+  if (manifester.class?.item?.name) return manifester.class.item.name;
+  if (manifester.class?.name) return manifester.class.name;
+  if (!manifester.class?.itemId) return game.i18n.localize("PF1-Psionics.Manifesters.Spelllike");
+  return game.i18n.localize("PF1-Psionics.UnknownClass");
 }
 
 function injectManifesterCheckboxes(app, html, data) {
   const controls = html.querySelector(".pf1-psionics-div .stacked");
   if (!controls) return;
-  for (const [bookId, manifester] of Object.entries(data.actor.getFlag(MODULE_ID, "manifesters") ?? {})) {
-    const checkbox = document.createElement("input");
-    checkbox.type = "checkbox";
-    checkbox.name = `flags.${MODULE_ID}.manifesters.${bookId}.inUse`;
-    checkbox.id = checkbox.name;
-    if (manifester.inUse)
-      checkbox.checked = true;
-    const label = document.createElement("label");
-    label.append(checkbox);
-    label.append(getManifesterName(bookId, manifester));
-    label.classList.add("checkbox");
-    controls.append(label);
+  const actor = data.actor;
+  const manifesters = actor.getFlag(MODULE_ID, "manifesters") ?? {};
+
+  for (const [id, manifester] of Object.entries(manifesters)) {
+    const row = document.createElement("div");
+    row.classList.add("pf1-psionics-manifester-row");
+    const label = document.createElement("span");
+    label.textContent = getManifesterName(manifester);
+    row.append(label);
+
+    const removeBtn = document.createElement("a");
+    removeBtn.classList.add("pf1-psionics-remove-manifester");
+    removeBtn.innerHTML = '<i class="fas fa-trash"></i>';
+    removeBtn.title = game.i18n.localize("PF1-Psionics.Manifesters.RemoveManifester");
+    removeBtn.addEventListener("click", () => onRemoveManifester(actor, id, manifester));
+    row.append(removeBtn);
+    controls.append(row);
+  }
+
+  const addBtn = document.createElement("button");
+  addBtn.type = "button";
+  addBtn.classList.add("pf1-psionics-add-manifester");
+  addBtn.innerHTML = `<i class="fas fa-plus"></i> ${game.i18n.localize("PF1-Psionics.Manifesters.AddManifester")}`;
+  addBtn.addEventListener("click", () => onAddManifester(actor));
+  controls.append(addBtn);
+}
+
+async function onRemoveManifester(actor, id, manifester) {
+  const name = getManifesterName(manifester);
+  const orphanCount = findOrphanedPowers(actor, id).length;
+  const orphanMsg = orphanCount > 0
+    ? `<p>${game.i18n.format("PF1-Psionics.Manifesters.OrphanWarning", {count: orphanCount})}</p>`
+    : "";
+  const confirmed = await foundry.applications.api.DialogV2.confirm({
+    window: {title: game.i18n.localize("PF1-Psionics.Manifesters.RemoveManifester")},
+    content: `<p>${game.i18n.format("PF1-Psionics.Manifesters.ConfirmRemovalBody", {class: manifester.class?.name ?? "—", manifester: name})}</p>${orphanMsg}`,
+    rejectClose: false,
+  });
+  if (!confirmed) return;
+  const cleared = await clearPowerManifesterRefs(actor, id);
+  await actor.update({[`flags.${MODULE_ID}.manifesters.-=${id}`]: null});
+  if (cleared > 0) {
+    ui.notifications.info(
+      game.i18n.format("PF1-Psionics.Manifesters.OrphanedNotice", {count: cleared}),
+    );
   }
 }
 
+async function onAddManifester(actor) {
+  const classes = actor.itemTypes.class ?? [];
+  const classOptions = [
+    `<option value="">${game.i18n.localize("PF1-Psionics.Manifesters.HitDice")}</option>`,
+    ...classes.map((c) => `<option value="${c.id}">${c.name}</option>`),
+  ].join("");
+  const abilityOptions = ["str", "dex", "con", "int", "wis", "cha"]
+    .map((a) => `<option value="${a}">${a.toUpperCase()}</option>`).join("");
+  const progressionOptions = ["high", "med", "low"]
+    .map((p) => `<option value="${p}">${p}</option>`).join("");
+
+  const result = await foundry.applications.api.DialogV2.wait({
+    window: {title: game.i18n.localize("PF1-Psionics.Manifesters.AddManifester")},
+    content: `
+      <div class="form-group"><label>Class</label><select name="classItemId">${classOptions}</select></div>
+      <div class="form-group"><label>Ability</label><select name="ability">${abilityOptions}</select></div>
+      <div class="form-group"><label>Progression</label><select name="casterType">${progressionOptions}</select></div>
+      <div class="form-group"><label>Has Cantrips</label><input type="checkbox" name="hasCantrips" checked/></div>
+      <div class="form-group"><label>Name (optional)</label><input type="text" name="name"/></div>
+    `,
+    buttons: [
+      {action: "ok", label: game.i18n.localize("PF1-Psionics.Manifesters.AddManifester"), default: true,
+        callback: (_event, button) => {
+          const form = button.form;
+          return {
+            classItemId: form.elements.classItemId?.value ?? "",
+            ability: form.elements.ability?.value ?? "int",
+            casterType: form.elements.casterType?.value ?? "high",
+            hasCantrips: form.elements.hasCantrips?.checked ?? false,
+            name: form.elements.name?.value ?? "",
+          };
+        }},
+      {action: "cancel", label: game.i18n.localize("Cancel")},
+    ],
+    rejectClose: false,
+  });
+  if (!result || result === "cancel") return;
+
+  const classItemId = result.classItemId || null;
+  const record = createManifesterRecord({
+    source: "manual",
+    class: {itemId: classItemId},
+    ability: result.ability ?? "int",
+    casterType: result.casterType ?? "high",
+    hasCantrips: !!result.hasCantrips,
+    name: result.name ?? "",
+  });
+  await actor.update({[`flags.${MODULE_ID}.manifesters.${record.id}`]: record});
+}
+
 async function injectPsionicsTab(app, html, data) {
-  if (Object.values(data.manifesterData).some((manifester) => manifester.inUse)) {
+  const manifesters = data.actor.getFlag(MODULE_ID, "manifesters") ?? {};
+  if (Object.keys(manifesters).length > 0) {
     const tabSelector = html.querySelector("a[data-tab=skills]");
     const psionicsTab = document.createElement("a");
     psionicsTab.classList.add("item");
@@ -265,13 +354,11 @@ function onRollCL(event) {
   this.actor.rollCL(manifesterKey, { token: this.token, isPsionic: true });
 }
 
-function onToggleConfig(event) {
-  const element = event.currentTarget;
-  const dataset = element.dataset;
-  const manifesters = this.actor.getFlag(MODULE_ID, "manifesters");
-  const currentToggle = manifesters[dataset.manifester].showConfig;
-  const configFlag = { [`flags.${MODULE_ID}.manifesters.${dataset.manifester}.showConfig`]: !currentToggle };
-  this.actor.update(configFlag);
+function onToggleManifesterConfig(event) {
+  event.preventDefault();
+  const bookId = event.currentTarget.dataset.bookId;
+  const details = event.currentTarget.closest(".spellbook-configuration")?.querySelector(`details.manifester-config-collapse[data-book-id="${bookId}"]`);
+  if (details) details.open = !details.open;
 }
 
 function onItemCreate(event) {
@@ -319,8 +406,10 @@ async function onBrowsePowers(event) {
   // Add class filter if we have a manifester book
   if (bookId && this.actor) {
     const manifesterData = this.actor.getFlag(MODULE_ID, `manifesters.${bookId}`);
-    if (manifesterData?.class) {
-      filters.class = [manifesterData.class];
+    const cls = manifesterData?.class?.itemId ? this.actor.items.get(manifesterData.class.itemId) : null;
+    const tag = cls?.system?.tag ?? manifesterData?._lastTag;
+    if (tag) {
+      filters.class = [tag];
     }
   }
 
@@ -350,7 +439,7 @@ function injectEventListeners(app, html, _data) {
 
   bindClick(".spellcasting-concentration.rollable", onRollConcentration.bind(app));
   bindClick(".spellcasting-cl.rollable", onRollCL.bind(app));
-  bindClick("a.toggle-config", onToggleConfig.bind(app));
+  bindClick("a.toggle-manifester-config", onToggleManifesterConfig);
 
   // Activate Item Filters
   const filterLists = manifestersBodyElement.querySelectorAll(".filter-list");
@@ -469,34 +558,31 @@ function addPowersToCombatTab(sheet, context) {
 
 function prepareManifesters(sheet, context) {
   const powers = context.items.filter((item) => item.type === `${MODULE_ID}.power`);
+  const flagManifesters = context.actor.getFlag(MODULE_ID, "manifesters") ?? {};
 
-  const manifesters = Object.entries(context.actor.getFlag(MODULE_ID, "manifesters") ?? {})
-    .map(([manifesterId, manifesterData]) => {
-      // Create a shallow copy to avoid mutating the original flag data
-      const manifester = { ...manifesterData };
-      if (!manifester.inUse) return [manifesterId, manifester];
-      const manifesterPowers = powers.filter((obj) => obj.manifester === manifesterId);
-      manifester.sections = prepareManifesterPowerLevels(context, manifesterId, manifester, manifesterPowers);
-      manifester.rollData = context.rollData.psionics[manifesterId];
-      manifester.classId = manifester.class;
-      manifester.class = context.rollData.classes[manifester.class];
-      return [manifesterId, manifester];
-    });
-  const isManifester = manifesters.some(([_manifesterId, manifester]) => manifester.inUse);
+  const manifesters = Object.entries(flagManifesters).map(([manifesterId, manifesterData]) => {
+    const manifester = { ...manifesterData };
+    const manifesterPowers = powers.filter((obj) => obj.manifester === manifesterId);
+    manifester.sections = prepareManifesterPowerLevels(context, manifesterId, manifester, manifesterPowers);
+    manifester.rollData = context.rollData.psionics?.[manifesterId];
+    // Resolve linked class item (live name/level) for template convenience.
+    if (manifester.class?.kind === "class" && manifester.class?.itemId) {
+      manifester.class = { ...manifester.class, item: sheet.actor.items.get(manifester.class.itemId) };
+    }
+    manifester.label = getManifesterName(manifester);
+    return [manifesterId, manifester];
+  });
+  const isManifester = manifesters.length > 0;
 
   context.manifesterData = Object.fromEntries(manifesters);
   context.usesAnyManifester = isManifester;
 
-  // Class selection list, only used by manifesters
   if (isManifester) {
     const lang = game.settings.get("core", "language");
     const allClasses = sheet.actor.itemTypes.class
-      .map((cls) => [cls.system.tag, cls.name])
+      .map((cls) => [cls.id, cls.name])
       .sort(([_0, a], [_1, b]) => a.localeCompare(b, lang));
-    allClasses.unshift(["_hd", game.i18n.localize("PF1.HitDie")]);
     context.classList = Object.fromEntries(allClasses);
-  }
-  if (isManifester) {
     context.choices.casterProgression = Object.fromEntries(
       Object.entries(pf1.config.caster.progression).map(([key, data]) => [key, data.label])
     );

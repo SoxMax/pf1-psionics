@@ -686,12 +686,15 @@ function buildClassItem(classData, abilities, featureLevels) {
     weaponProf: classData.weaponProf || ['simple']
   };
 
-  // Add manifesting section for psionic classes
+  // Module-owned manifesting config lives in flags, not system (PF1 ClassModel does not declare it).
+  const flags = {};
   if (classData.isPsionic) {
-    system.manifesting = {
-      ability: 'wis', // Default, could be parsed from page
-      cantrips: true,
-      progression: 'high' // Default, could be parsed from class table
+    flags['pf1-psionics'] = {
+      manifesting: {
+        ability: 'wis', // Default, could be parsed from page
+        cantrips: true,
+        progression: 'high' // Default, could be parsed from class table
+      }
     };
   }
 
@@ -704,7 +707,8 @@ function buildClassItem(classData, abilities, featureLevels) {
     img: 'icons/magic/perception/third-eye-blue-red.webp',
     name: classData.name,
     type: 'class',
-    system: system
+    system: system,
+    flags: flags
   };
 }
 

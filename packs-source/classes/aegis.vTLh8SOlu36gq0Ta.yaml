@@ -2,6 +2,12 @@ _id: vTLh8SOlu36gq0Ta
 _key: '!items!vTLh8SOlu36gq0Ta'
 _stats:
   coreVersion: '13.350'
+flags:
+  pf1-psionics:
+    manifesting:
+      ability: int
+      cantrips: false
+      progression: low
 img: icons/magic/perception/third-eye-blue-red.webp
 name: Aegis
 system:
@@ -88,10 +94,6 @@ system:
         uuid: Compendium.pf1-psionics.classes.Item.vLEg1U2IHOINcPC8
       - level: 20
         uuid: Compendium.pf1-psionics.classes.Item.UoF7zxQMREzkbTJ8
-  manifesting:
-    ability: int
-    cantrips: false
-    progression: low
   savingThrows:
     fort:
       value: high

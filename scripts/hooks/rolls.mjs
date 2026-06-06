@@ -9,16 +9,23 @@ function onGetRollData(doc, rollData) {
 		if (doc instanceof pf1.documents.actor.ActorPF) {
 			const actor = doc;
 
-			// Add manifester info
-			rollData.psionics = foundry.utils.deepClone(actor.getFlag(MODULE_ID, "manifesters") || {});
-			for (const book of Object.values(rollData.psionics)) {
+			// Add manifester info. Records are id-keyed; alias by class tag
+			// (book.class.tag populated by deriveManifestersInfo) so formulas
+			// can write @psionics.psion.cl.total etc. First-wins on tag collision
+			// (??= preserves the earliest record in iteration order).
+			const flagManifesters = actor.getFlag(MODULE_ID, "manifesters") ?? {};
+			rollData.psionics = {};
+			for (const [id, src] of Object.entries(flagManifesters)) {
+				const book = foundry.utils.deepClone(src);
 				book.abilityMod = rollData.abilities[book.ability]?.mod ?? 0;
-				// Add alias
-				if (book.class && book.class !== "_hd") rollData.psionics[book.class] ??= book;
+				rollData.psionics[id] = book;
+				const tag = book.class?.tag;
+				if (tag && tag !== "_hd") {
+					rollData.psionics[tag] ??= book;
+				}
 			}
 
 			// Add power points and focus to rollData for formula access
-			// Use helpers to get consistent data
 			const ppHelper = actor.psionics?.powerPoints;
 			const focusHelper = actor.psionics?.focus;
 			if (ppHelper) {
@@ -31,10 +38,9 @@ function onGetRollData(doc, rollData) {
 			const action = doc;
 			const item = action.item;
 
-			// Add school CL bonus for powers (Psionics-Magic Transparency)
-			// The PF1 system only adds this for spells, so we need to add it for powers
+			// Add school CL bonus for powers (Psionics-Magic Transparency).
+			// PF1 only adds this for spells, so mirror it for powers.
 			if (item?.type === `${MODULE_ID}.power` && item.system.school) {
-				// Add per school CL bonus (same as PF1 does for spells)
 				rollData.cl += rollData.attributes?.spells?.school?.[item.system.school]?.cl ?? 0;
 			}
 		}
