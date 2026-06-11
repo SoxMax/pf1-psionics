@@ -120,7 +120,17 @@
       "ConfirmRemovalTitle": "Remove Manifester Record?",
       "ConfirmRemovalBody": "Deleting class \"{class}\" will affect its linked manifester record \"{manifester}\".",
       "DeleteWarning": "{count} power(s) link to this manifester and will be deleted if you remove the record.",
-      "DeletedNotice": "{count} power(s) linked to this manifester were deleted."
+      "DeletedNotice": "{count} power(s) linked to this manifester were deleted.",
+      "NoBookForDrop": "No manifester record exists; drop a class first or add a manifester via the actor settings tab.",
+      "NoEligibleClass": "No eligible class to add as a manifester. All known class tags already have a record.",
+      "Progression": "Progression",
+      "HasCantrips": "Has Talents",
+      "NameOptional": "Name (optional)"
+    },
+    "Progression": {
+      "high": "Full",
+      "med": "2/3",
+      "low": "1/2"
     },
     "UnknownClass": "Unknown class",
     "Charges": {

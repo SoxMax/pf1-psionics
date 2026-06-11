@@ -307,3 +307,108 @@ actor.flags["pf1-psionics"].focus = {
 
 The `maximum` values are calculated during actor data preparation from the manifester configurations.
 
+---
+
+## Manifesters API
+
+**⚠ Breaking change in 0.10.0.** Manifester records are now keyed by **class tag** (e.g. `"psion"`, `"wilder"`, `"_hd"` for psi-like) instead of the legacy fixed slots (`primary`/`secondary`/`tertiary`/`spelllike`). Each record's `class` field is a tag string (not an `inUse` boolean — presence in the dict means active).
+
+### Storage shape
+
+```javascript
+actor.flags["pf1-psionics"].manifesters = {
+  psion: {
+    class: "psion",
+    source: "class",                 // "class" or "manual"
+    casterType: "high",              // "high" | "med" | "low"
+    ability: "int",
+    spellPreparationMode: "spontaneous",
+    hasCantrips: true,
+    cl:            { formula: "", notes: "", base: 0 },
+    concentration: { formula: "", notes: "" },
+    powerPoints:   { max: 0, formula: "" },
+    baseDCFormula: "10 + @sl + @ablMod",
+    autoLevelPowerPoints: true,
+    autoAttributePowerPoints: true,
+    autoMaxPowerLevel: true,
+    // _lastTag, _pendingClassTag: internal orphan/promotion tracking
+  },
+  _hd: { /* same shape, class: "_hd" for HD-based psi-like */ }
+};
+```
+
+### Quick reference
+
+| Method | Returns | Description |
+|---|---|---|
+| `actor.psionics.manifesters` | `object \| null` | Raw flag dict (read-only snapshot). |
+| `actor.psionics.manifesterCollection` | `ManifesterCollection` | Hydrated, validated collection. |
+| `actor.psionics.addManifester(tag, config)` | `Promise<string>` | Create a record. Throws on tag clash. |
+| `actor.psionics.removeManifester(tag)` | `Promise<boolean>` | Delete a record by tag. |
+
+### Reading a manifester
+
+```javascript
+// Raw flag access (fastest, no validation).
+const psion = actor.flags["pf1-psionics"]?.manifesters?.psion;
+
+// Hydrated model — has prep lifecycle, derived cl.total etc.
+const collection = actor.psionics.manifesterCollection;
+const wilder = collection.manifesters.wilder;
+console.log(wilder.cl.total, wilder.concentration.total, wilder.powerPoints.max);
+```
+
+### Adding a manifester programmatically
+
+```javascript
+// HD-based psi-like
+await actor.psionics.addManifester("_hd", {
+  casterType: "high",
+  ability: "cha",
+});
+
+// Linked to a class tag
+await actor.psionics.addManifester("vitalist", {
+  source: "class",
+  casterType: "high",
+  ability: "wis",
+  hasCantrips: true,
+});
+```
+
+### Removing a manifester
+
+```javascript
+const removed = await actor.psionics.removeManifester("wilder");
+if (removed) console.log("Wilder manifester removed.");
+```
+
+### Formula access
+
+Manifester data is exposed under `@psionics.<tag>` for roll formulas:
+
+```
+@psionics.psion.cl.total          // Caster level of the Psion manifester
+@psionics.psion.concentration.total
+@psionics.psion.powerPoints.max
+@psionics.psion.abilityMod        // Currently-bound ability mod
+@psionics._hd.cl.total            // Psi-like HD-based CL
+```
+
+### Migration from prior versions
+
+A world upgraded from 0.9.1 (or earlier) runs migration v0.10.0 on first load. The migration:
+
+1. For each actor: reads `flags.pf1-psionics.manifesters` (slot-keyed: `primary`/`secondary`/`tertiary`/`spelllike`). For each slot with `inUse: true`, resolves a class tag — `book.class` matching an actor class item's `system.tag` → that tag; `book.class === "_hd"` or absent → `_hd`; class string with no live class item → use the string verbatim and stash original as `_lastTag`. Slots with `inUse: false` are dropped (intentionally disabled by the user).
+2. Tag clashes (two slot records resolving to the same tag) keep the first and suffix the rest (`psion-2`).
+3. For each power on each actor: rewrites `system.manifester` from the slot key to the resolved tag via a temporary actor-flag idMap.
+4. Cleans up the temp idMap flag.
+5. For each class item (world / actor-owned / module compendia): relocates `system.manifesting` → `flags.pf1-psionics.manifesting`, copying `progression` / `ability` / `cantrips` and dropping legacy `type` / `offset`.
+6. Applies the same actor-side rebuild against unlinked scene tokens' deltas.
+
+Non-module compendium actors are out of scope; re-import after upgrade if needed.
+
+### Migration impact for downstream code
+
+Anything that read `actor.flags["pf1-psionics"].manifesters.primary` (or other slot keys) no longer works — read by tag instead. Anything that checked `book.inUse` no longer works — presence in the dict means active. Roll formulas written against the legacy slot-name path need updating to `@psionics.<tag>.cl.total`.
+

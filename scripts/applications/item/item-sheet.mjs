@@ -12,9 +12,10 @@ async function injectManifesting(app, html, data) {
   if (app.document?.actor) {
     const actor = app.document.actor;
     const manifesters = actor.getFlag("pf1-psionics", "manifesters") ?? {};
-    data.hasManifester = Object.values(manifesters).some(
-        (m) => m.class?.kind === "class" && m.class?.itemId === app.document.id
-    );
+    // Manifester record is keyed by class tag. Linked iff a record exists
+    // with the same tag as this class item AND its source is "class".
+    const tag = app.document.system?.tag;
+    data.hasManifester = !!(tag && manifesters[tag]?.source === "class");
   } else {
     data.hasManifester = true; // Not true, but avoids unwanted behaviour.
   }

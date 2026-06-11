@@ -244,13 +244,15 @@ Hooks.on("pf1RegisterScriptCalls", (registry) => {
 // Map custom psionics buff targets to concrete actor data paths.
 // Manifester paths are enumerated dynamically from the actor's current
 // manifester records, so adding/removing records updates the buff routing
-// automatically.
+// automatically. Spellbook keys remain hardcoded on the PF1 side; that
+// list is owned by PF1 and we mirror it here for the cross-system
+// transparency cases.
 const SPELLBOOK_KEYS = ["primary", "secondary", "tertiary", "spelllike"];
 
 Hooks.on("pf1GetChangeFlat", (result, target, _modifierType, _value, actor) => {
-  const manifesterIds = Object.keys(actor?.flags?.[MODULE_ID]?.manifesters ?? {});
-  const mPaths = (suffix) => manifesterIds.map(
-    (id) => `flags.${MODULE_ID}.manifesters.${id}.${suffix}`,
+  const manifesterTags = Object.keys(actor?.flags?.[MODULE_ID]?.manifesters ?? {});
+  const mPaths = (suffix) => manifesterTags.map(
+    (tag) => `flags.${MODULE_ID}.manifesters.${tag}.${suffix}`,
   );
   const sPaths = (suffix) => SPELLBOOK_KEYS.map(
     (k) => `system.attributes.spells.spellbooks.${k}.${suffix}`,
@@ -259,38 +261,48 @@ Hooks.on("pf1GetChangeFlat", (result, target, _modifierType, _value, actor) => {
   switch (target) {
     case `${MODULE_ID}.powerPoints`:
       result.push(`flags.${MODULE_ID}.powerPoints.maximum`);
-      break;
+      return;
     case `${MODULE_ID}.focus`:
       result.push(`flags.${MODULE_ID}.focus.maximum`);
-      break;
+      return;
     case `${MODULE_ID}.concentration`:
       result.push(...mPaths("concentration.total"), ...sPaths("concentration.total"));
-      break;
+      return;
     case `${MODULE_ID}.manifesterLevel`:
       result.push(...mPaths("cl.total"), ...sPaths("cl.total"));
-      break;
+      return;
     case `${MODULE_ID}.psionicDC`:
       result.push("system.attributes.spells.school.all.dc");
-      break;
+      return;
     case `${MODULE_ID}.psionicResistance`:
       result.push("system.attributes.sr.total");
-      break;
-    // Bidirectional transparency: spell bonuses also apply to manifesters
+      return;
+    // Bidirectional transparency: spell bonuses also apply to manifesters.
     case "concentration":
       result.push(...mPaths("concentration.total"));
-      break;
+      return;
     case "cl":
       result.push(...mPaths("cl.total"));
-      break;
-    default: {
-      const disciplineMatch = target.match(/^pf1-psionics\.discipline\.(\w+)\.(dc|cl)$/);
-      if (disciplineMatch) {
-        const [, discipline, stat] = disciplineMatch;
-        const schoolKey = DISCIPLINE_TO_SCHOOL[discipline];
-        if (!schoolKey) return; // Psychoportation has no school equivalent
-        result.push(`system.attributes.spells.school.${schoolKey}.${stat}`);
-      }
-      break;
+      return;
+  }
+
+  // Per-book targets, mirroring PF1 v12's cl.book.<id> / concentration.book.<id>
+  // shape so cross-system transparency aligns with the eventual v12 conventions.
+  // Form: "cl.book.<tag>", "concentration.book.<tag>", "asf.<tag>" (reserved).
+  const perBook = target.match(/^(cl|concentration)\.book\.(.+)$/);
+  if (perBook) {
+    const [, stat, tag] = perBook;
+    if (manifesterTags.includes(tag)) {
+      result.push(`flags.${MODULE_ID}.manifesters.${tag}.${stat}.total`);
     }
+    return;
+  }
+
+  const disciplineMatch = target.match(/^pf1-psionics\.discipline\.(\w+)\.(dc|cl)$/);
+  if (disciplineMatch) {
+    const [, discipline, stat] = disciplineMatch;
+    const schoolKey = DISCIPLINE_TO_SCHOOL[discipline];
+    if (!schoolKey) return; // Psychoportation has no school equivalent
+    result.push(`system.attributes.spells.school.${schoolKey}.${stat}`);
   }
 });

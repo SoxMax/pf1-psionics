@@ -42,12 +42,10 @@ export class PowerItem extends pf1.documents.item.ItemPF {
   static _adjustNewItem(item, data, override = false) {
     if (!item.actor) return;
 
-    // Assign level if undefined
+    // Assign level if undefined. system.manifester IS the class tag now.
     if (!Number.isFinite(data?.system?.level) || override) {
-      const bookId = item.system.manifester;
-      const book = item.actor.psionics?.manifesters?.[bookId];
-      const classTag = book?.class?.tag;
-      const level = classTag ? item.system.learnedAt?.class?.[classTag] : undefined;
+      const tag = item.system.manifester;
+      const level = (tag && tag !== "_hd") ? item.system.learnedAt?.class?.[tag] : undefined;
       if (Number.isFinite(level)) {
         foundry.utils.setProperty(item._source, "system.level", Math.clamp(level, 0, 9));
       }
@@ -123,13 +121,17 @@ export class PowerItem extends pf1.documents.item.ItemPF {
   }
 
   /**
-   * Linked manifester
+   * Linked manifester record (raw flag data).
+   *
+   * The hydrated ManifesterModel can be reached via
+   * `getCollection(this.actor).manifesters[tag]` for code that needs prep
+   * lifecycle methods or derived fields.
    *
    * @type {object|undefined}
    */
   get manifester() {
-    const bookId = this.system.manifester;
-    return this.actor?.flags["pf1-psionics"]?.manifesters[bookId];
+    const tag = this.system.manifester;
+    return this.actor?.flags?.["pf1-psionics"]?.manifesters?.[tag];
   }
 
   /**
@@ -200,6 +202,7 @@ export class PowerItem extends pf1.documents.item.ItemPF {
   _addTypeRollData(result) {
     result.sl = this.spellLevel || 0;
 
+    const tag = this.system.manifester;
     const manifester = this.manifester;
     if (manifester) {
       const spellAbility = manifester.ability;
@@ -209,15 +212,15 @@ export class PowerItem extends pf1.documents.item.ItemPF {
 
       result.cl = this.casterLevel || 0;
 
-      // Add @class shortcut: itemId truthy → class data, else HD level
-      if (manifester.class?.itemId) {
-        result.class = (manifester.class?.tag ? result.classes?.[manifester.class.tag] : null) ?? {};
-      } else {
+      // @class shortcut: HD-based when tag is "_hd"/empty; class data otherwise.
+      if (tag === "_hd" || !tag) {
         result.class = {level: result.attributes.hd?.total ?? result.details?.level?.value ?? 0};
+      } else {
+        result.class = result.classes?.[tag] ?? {};
       }
 
-      // Add @manifester shortcut to @psionics[bookId]
-      result.manifester = result.psionics[this.system.manifester];
+      // @manifester shortcut to @psionics.<tag>
+      result.manifester = result.psionics?.[tag];
     } else {
       const [sl, cl] = this.constructor.getMinimumCasterLevelBySpellData(this);
 

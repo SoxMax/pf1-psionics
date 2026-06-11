@@ -122,6 +122,10 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
       }),
       known: new BooleanField({initial: false}),
       prepared: new BooleanField({initial: false}),
+      // Class tag of the manifester this power is associated with on its
+      // owning actor. Mirrors the tag used as the key in
+      // flags.pf1-psionics.manifesters. "_hd" for psi-like / racial HD,
+      // "" when not yet linked.
       manifester: new StringField({initial: ""}),
       sr: new BooleanField({initial: true}),
       showInCombat: new BooleanField({initial: false}),

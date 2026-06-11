@@ -1,7 +1,7 @@
 import { MODULE_ID } from "../_module.mjs";
 import { PowerPointsHelper } from "./power-points-helper.mjs";
 import { PsionicFocusHelper } from "./psionic-focus-helper.mjs";
-import { createManifesterRecord } from "../data/manifesters.mjs";
+import { getCollection } from "../documents/actor/manifester-store.mjs";
 
 /**
  * Main helper class providing access to all psionic functionality for an actor.
@@ -59,7 +59,10 @@ export class PsionicsHelper {
 
   /**
    * Get the manifesters dict for this actor.
-   * Keys are 16-char record ids; absent flag returns null.
+   * Keys are class tags (e.g. "psion", "wilder", "_hd" for psi-like);
+   * absent flag returns null. Values are raw record objects — for
+   * hydrated ManifesterModel instances, use the collection helper:
+   * `import { getCollection } from "scripts/documents/actor/manifester-store.mjs"`.
    * @returns {object|null}
    */
   get manifesters() {
@@ -67,38 +70,36 @@ export class PsionicsHelper {
   }
 
   /**
-   * Add a manifester record to this actor.
-   * Returns the new record id.
-   * @param {object} config - record overrides; passed to createManifesterRecord
-   * @returns {Promise<string>} new record id
-   * @throws {Error} when config.class.itemId is set but does not resolve to a
-   *   class item on this actor.
+   * Get the hydrated ManifesterCollection for this actor.
+   * @returns {import("../dataModels/actor/manifester-collection.mjs").ManifesterCollection}
    */
-  async addManifester(config = {}) {
-    const itemId = config.class?.itemId;
-    if (itemId) {
-      const item = this.actor.items.get(itemId);
-      if (item?.type !== "class") {
-        throw new Error(
-          `${MODULE_ID}: addManifester class.itemId '${itemId}' does not resolve to a class item on actor '${this.actor.name}'.`,
-        );
-      }
-    }
-    const record = createManifesterRecord(config);
-    await this.actor.update({[`flags.${MODULE_ID}.manifesters.${record.id}`]: record});
-    return record.id;
+  get manifesterCollection() {
+    return getCollection(this.actor);
   }
 
   /**
-   * Remove a manifester record by id.
-   * @param {string} id - record id
-   * @returns {Promise<boolean>} true if removed
+   * Add a manifester record to this actor.
+   * @param {string} tag - class tag (e.g. "psion") or "_hd" for psi-like.
+   * @param {object} config - record overrides (name, ability, casterType, ...).
+   * @returns {Promise<string>} the tag of the new record.
+   * @throws {Error} when tag is already in use on this actor.
    */
-  async removeManifester(id) {
-    const ms = this.manifesters ?? {};
-    if (!ms[id]) return false;
-    await this.actor.update({[`flags.${MODULE_ID}.manifesters.-=${id}`]: null});
-    return true;
+  async addManifester(tag, config = {}) {
+    if (!tag) {
+      throw new Error(`${MODULE_ID}: addManifester tag is required.`);
+    }
+    const collection = this.manifesterCollection;
+    return collection.create(tag, config);
+  }
+
+  /**
+   * Remove a manifester record by tag.
+   * @param {string} tag - class tag.
+   * @returns {Promise<boolean>} true if removed.
+   */
+  async removeManifester(tag) {
+    const collection = this.manifesterCollection;
+    return collection.delete(tag);
   }
 
   /**

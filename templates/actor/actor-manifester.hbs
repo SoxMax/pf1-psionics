@@ -75,10 +75,7 @@
         <div class="form-group spellcasting-class">
           <h3>{{localize "PF1-Psionics.ManifestingClass"}}</h3>
           <div class="form-fields">
-            <select name="flags.pf1-psionics.manifesters.{{bookId}}.class.itemId">
-              <option value="">{{localize "PF1-Psionics.Manifesters.HitDice"}}</option>
-              {{selectOptions @root.classList selected=class.itemId}}
-            </select>
+            <span>{{#if classLabel}}{{classLabel}}{{else}}{{localize "PF1-Psionics.Manifesters.HitDice"}}{{/if}}</span>
           </div>
         </div>
 
