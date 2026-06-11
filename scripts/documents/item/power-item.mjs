@@ -1,5 +1,6 @@
 /* global Collection */
 import {PsionicAction} from "../../components/psionic-action.mjs";
+import {resolveManifester} from "../../dataModels/actor/manifester-resolve.mjs";
 
 export class PowerItem extends pf1.documents.item.ItemPF {
 
@@ -121,17 +122,17 @@ export class PowerItem extends pf1.documents.item.ItemPF {
   }
 
   /**
-   * Linked manifester record (raw flag data).
+   * Linked manifester record.
    *
-   * The hydrated ManifesterModel can be reached via
-   * `getCollection(this.actor).manifesters[tag]` for code that needs prep
-   * lifecycle methods or derived fields.
+   * Returns the hydrated ManifesterModel from the actor's cached collection
+   * when available (so derived fields like `cl.total`, `concentration.total`,
+   * `powerPoints.max` are populated). Falls back to the raw flag dict only
+   * when no hydrated collection is cached.
    *
    * @type {object|undefined}
    */
   get manifester() {
-    const tag = this.system.manifester;
-    return this.actor?.flags?.["pf1-psionics"]?.manifesters?.[tag];
+    return resolveManifester(this.actor, this.system.manifester);
   }
 
   /**

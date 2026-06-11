@@ -4,6 +4,7 @@ import {
   computeConcentration,
   computePowerPoints,
 } from "./manifester-calculations.mjs";
+import { snapshotChangeBonuses } from "./manifester-resolve.mjs";
 
 /**
  * Schema for a single manifester record.
@@ -99,21 +100,52 @@ export class ManifesterModel extends foundry.abstract.DataModel {
   /**
    * Reset derived fields before each prep cycle. Mirrors
    * SpellbookModel.prepareData in PF1 v12.
+   *
+   * NOTE: `cl.bonus` and `concentration.bonus` are NOT reset here. They
+   * carry the change-system delta captured by
+   * {@link _captureChangeBonuses} ahead of this method and must survive
+   * into {@link finalizeData}.
    */
   prepareData() {
     this.cl ??= {};
     this.cl.total = 0;
     this.cl.class = 0;
-    this.cl.bonus = 0;
+    this.cl.bonus ??= 0;
     this.cl.classLevelTotal = 0;
     this.cl.woundPenalty = 0;
 
     this.concentration ??= {};
     this.concentration.total = 0;
+    this.concentration.bonus ??= 0;
 
     this.powerPoints ??= {};
     // powerPoints.max gets overwritten in finalizeData; reset here.
     this.powerPoints.max = 0;
+  }
+
+  /**
+   * Snapshot change-system writes off the raw flag dict into bonus fields.
+   *
+   * Must run BEFORE {@link prepareData} on each prep cycle. The PF1 change
+   * system writes buff totals directly to
+   * `flags.pf1-psionics.manifesters.<tag>.cl.total` / `.concentration.total`
+   * (see `pf1GetChangeFlat` in hooks/init.mjs).
+   *
+   * Because `cl.total` / `concentration.total` are not in the schema, they
+   * never round-trip to `actor._source`. Foundry resets `actor.flags` to
+   * source at the start of each prep cycle, so by the time `applyChanges`
+   * (which runs before our hook) writes the buff onto the raw flag, the
+   * pre-existing value is 0 — meaning the raw value at hook entry is
+   * exactly the buff delta. Capture it before prepareData zeros things out.
+   */
+  _captureChangeBonuses() {
+    if (!this.actor) return;
+    const raw = this.actor.flags?.["pf1-psionics"]?.manifesters?.[this.tag];
+    const snap = snapshotChangeBonuses(raw);
+    this.cl ??= {};
+    this.concentration ??= {};
+    this.cl.bonus = snap.cl;
+    this.concentration.bonus = snap.concentration;
   }
 
   /**
@@ -221,7 +253,7 @@ export class ManifesterModel extends foundry.abstract.DataModel {
       clTotal: this.cl.total,
       abilityMod,
       formulaBonus,
-    });
+    }) + (this.concentration.bonus || 0);
 
     const setSourceInfoByName = pf1.documents.actor.changes.setSourceInfoByName;
     const key = `flags.pf1-psionics.manifesters.${this.tag}.concentration.total`;
