@@ -4,7 +4,6 @@ import {
   computeConcentration,
   computePowerPoints,
 } from "./manifester-calculations.mjs";
-import { snapshotChangeBonuses } from "./manifester-resolve.mjs";
 
 /**
  * Schema for a single manifester record.
@@ -100,23 +99,16 @@ export class ManifesterModel extends foundry.abstract.DataModel {
   /**
    * Reset derived fields before each prep cycle. Mirrors
    * SpellbookModel.prepareData in PF1 v12.
-   *
-   * NOTE: `cl.bonus` and `concentration.bonus` are NOT reset here. They
-   * carry the change-system delta captured by
-   * {@link _captureChangeBonuses} ahead of this method and must survive
-   * into {@link finalizeData}.
    */
   prepareData() {
     this.cl ??= {};
     this.cl.total = 0;
     this.cl.class = 0;
-    this.cl.bonus ??= 0;
     this.cl.classLevelTotal = 0;
     this.cl.woundPenalty = 0;
 
     this.concentration ??= {};
     this.concentration.total = 0;
-    this.concentration.bonus ??= 0;
 
     this.powerPoints ??= {};
     // powerPoints.max gets overwritten in finalizeData; reset here.
@@ -124,28 +116,50 @@ export class ManifesterModel extends foundry.abstract.DataModel {
   }
 
   /**
-   * Snapshot change-system writes off the raw flag dict into bonus fields.
+   * Read this prep cycle's change-system delta straight off the raw flag.
    *
-   * Must run BEFORE {@link prepareData} on each prep cycle. The PF1 change
-   * system writes buff totals directly to
-   * `flags.pf1-psionics.manifesters.<tag>.cl.total` / `.concentration.total`
-   * (see `pf1GetChangeFlat` in hooks/init.mjs).
+   * The PF1 change system writes buff totals to
+   * `flags.pf1-psionics.manifesters.<tag>.cl.total` /
+   * `…concentration.total` (see `pf1GetChangeFlat` in hooks/init.mjs).
+   * `cl.total` and `concentration.total` are not in the schema, so they
+   * never round-trip to `actor._source` — Foundry resets `actor.flags` to
+   * source at the start of each prep cycle, applyChanges runs before our
+   * hook, and the raw value at hook entry is exactly the buff delta.
    *
-   * Because `cl.total` / `concentration.total` are not in the schema, they
-   * never round-trip to `actor._source`. Foundry resets `actor.flags` to
-   * source at the start of each prep cycle, so by the time `applyChanges`
-   * (which runs before our hook) writes the buff onto the raw flag, the
-   * pre-existing value is 0 — meaning the raw value at hook entry is
-   * exactly the buff delta. Capture it before prepareData zeros things out.
+   * @returns {{cl: number, concentration: number}}
+   * @private
    */
-  _captureChangeBonuses() {
-    if (!this.actor) return;
-    const raw = this.actor.flags?.["pf1-psionics"]?.manifesters?.[this.tag];
-    const snap = snapshotChangeBonuses(raw);
-    this.cl ??= {};
-    this.concentration ??= {};
-    this.cl.bonus = snap.cl;
-    this.concentration.bonus = snap.concentration;
+  _readChangeBonuses() {
+    const raw = this.actor?.flags?.["pf1-psionics"]?.manifesters?.[this.tag];
+    const cl = Number(raw?.cl?.total ?? 0);
+    const concentration = Number(raw?.concentration?.total ?? 0);
+    return {
+      cl: Number.isFinite(cl) ? cl : 0,
+      concentration: Number.isFinite(concentration) ? concentration : 0,
+    };
+  }
+
+  /**
+   * Mirror derived fields back onto the raw flag dict so downstream readers
+   * (e.g. PowerItem.manifester, formulas like `@psionics.psion.cl.total`)
+   * see them. The raw flag mutation is in-memory only — these fields are
+   * not in the schema, so they never persist to `actor._source`.
+   *
+   * @private
+   */
+  _mirrorToRawFlag() {
+    const raw = this.actor?.flags?.["pf1-psionics"]?.manifesters?.[this.tag];
+    if (!raw) return;
+    raw.cl ??= {};
+    raw.cl.total = this.cl.total;
+    raw.cl.class = this.cl.class;
+    raw.cl.classLevelTotal = this.cl.classLevelTotal;
+    raw.cl.woundPenalty = this.cl.woundPenalty;
+    raw.concentration ??= {};
+    raw.concentration.total = this.concentration.total;
+    raw.powerPoints ??= {};
+    raw.powerPoints.max = this.powerPoints.max;
+    raw.range = this.range;
   }
 
   /**
@@ -170,19 +184,25 @@ export class ManifesterModel extends foundry.abstract.DataModel {
    * Finalize: compute CL/concentration/PP totals from formulas and roll data.
    * Mirrors SpellbookModel.finalizeData in PF1 v12.
    *
+   * Reads PF1 change-system writes off the raw flag (they were already
+   * applied before our prep hook ran), computes totals, and mirrors the
+   * derived state back to the raw flag dict for downstream consumers.
+   *
    * @param {object} rollData - Actor roll data. Caller is responsible for
    *   ensuring `rollData.class`, `rollData.cl`, `rollData.ablMod` are set
    *   for this manifester's context.
    */
   finalizeData(rollData) {
     if (!this.actor) return;
-    this._calculateCasterLevel(rollData);
-    this._calculateConcentration(rollData);
+    const changeBonuses = this._readChangeBonuses();
+    this._calculateCasterLevel(rollData, changeBonuses.cl);
+    this._calculateConcentration(rollData, changeBonuses.concentration);
     this._calculatePowerPoints(rollData);
     this.range = new SpellRanges(this.cl.total);
+    this._mirrorToRawFlag();
   }
 
-  _calculateCasterLevel(rollData) {
+  _calculateCasterLevel(rollData, changeBonus) {
     const actor = this.actor;
     const setSourceInfoByName = pf1.documents.actor.changes.setSourceInfoByName;
     const key = `flags.pf1-psionics.manifesters.${this.tag}.cl.total`;
@@ -198,7 +218,7 @@ export class ManifesterModel extends foundry.abstract.DataModel {
       actorType: actor.type,
       formulaBonus,
       energyDrain,
-      changeBonus: this.cl.bonus,
+      changeBonus,
     });
     this.cl.classLevelTotal = classLevelTotal;
     this.cl.total = total;
@@ -240,7 +260,7 @@ export class ManifesterModel extends foundry.abstract.DataModel {
     }
   }
 
-  _calculateConcentration(rollData) {
+  _calculateConcentration(rollData, changeBonus) {
     const actor = this.actor;
     const concFormula = this.concentration.formula || "";
     const formulaRoll = concFormula.length
@@ -253,7 +273,7 @@ export class ManifesterModel extends foundry.abstract.DataModel {
       clTotal: this.cl.total,
       abilityMod,
       formulaBonus,
-    }) + (this.concentration.bonus || 0);
+    }) + (changeBonus || 0);
 
     const setSourceInfoByName = pf1.documents.actor.changes.setSourceInfoByName;
     const key = `flags.pf1-psionics.manifesters.${this.tag}.concentration.total`;

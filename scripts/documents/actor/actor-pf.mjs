@@ -61,10 +61,6 @@ function pf1PrepareDerivedActorData(actor) {
   const collection = getCollection(actor);
   const rollData = actor.getRollData({refresh: true});
   for (const [tag, manifester] of Object.entries(collection.manifesters)) {
-    // Snapshot any change-system writes BEFORE prepareData wipes the
-    // derived totals — otherwise buffs targeting cl.total / concentration.total
-    // are silently lost (see manifester-model._captureChangeBonuses).
-    manifester._captureChangeBonuses();
     manifester.prepareData();
     manifester._prepareDependentData();
 
