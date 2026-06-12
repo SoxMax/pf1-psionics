@@ -1,6 +1,6 @@
 import {MODULE_ID} from "../../_module.mjs";
 import {ACTIVE_ENERGY_FLAG, POWER_POINTS_FLAG, PSIONIC_FOCUS_FLAG} from "../../data/powerpoints.mjs";
-import {getCollection, onUpdateActor} from "./manifester-store.mjs";
+import {getCollection, invalidateCollection, onUpdateActor} from "./manifester-store.mjs";
 
 export function onPreCreateActor(document, _data, _options, _userId) {
   if (!["character", "npc"].includes(document.type)) return;
@@ -52,12 +52,20 @@ function pf1PrepareDerivedActorData(actor) {
   const raw = actor.getFlag(MODULE_ID, "manifesters");
   if (!raw || Object.keys(raw).length === 0) return;
   // Skip derivation if any record still has legacy schema (class stored as
-  // {itemId} object rather than a tag string). The v0.11.0 migration runs
+  // {itemId} object rather than a tag string). The v0.10.0 migration runs
   // in the ready hook; failing silently keeps world load clean until then.
   for (const book of Object.values(raw)) {
     if (book?.class && typeof book.class !== "string") return;
   }
 
+  // Rebuild the collection fresh from current _source each prep cycle.
+  // The `updateActor` hook (which invalidates the cache) fires AFTER
+  // `pf1PrepareDerivedActorData`, so a cache hit here would hand back
+  // model instances hydrated from the PREVIOUS source — deriving stale
+  // CL/PP/concentration on the cycle triggered by the change itself.
+  // Invalidate first so prep always sees the just-committed values; the
+  // cache then only serves cheap between-prep reads (sheet render, API).
+  invalidateCollection(actor);
   const collection = getCollection(actor);
   const rollData = actor.getRollData({refresh: true});
   for (const [tag, manifester] of Object.entries(collection.manifesters)) {

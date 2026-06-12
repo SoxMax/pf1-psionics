@@ -423,11 +423,13 @@ async function onBrowsePowers(event) {
     filters.level = [String(level)];
   }
 
-  // Add class filter if we have a manifester book
-  if (bookId && this.actor) {
+  // Add class filter if we have a manifester book. bookId IS the class tag
+  // (or "_hd"). Resolve to a live class item's tag when present; fall back
+  // to the record's stashed _lastTag, then the bookId itself.
+  if (bookId && bookId !== "_hd" && this.actor) {
     const manifesterData = this.actor.getFlag(MODULE_ID, `manifesters.${bookId}`);
-    const cls = manifesterData?.class?.itemId ? this.actor.items.get(manifesterData.class.itemId) : null;
-    const tag = cls?.system?.tag ?? manifesterData?._lastTag;
+    const cls = this.actor.itemTypes.class?.find((c) => c.system?.tag === bookId);
+    const tag = cls?.system?.tag ?? manifesterData?._lastTag ?? bookId;
     if (tag) {
       filters.class = [tag];
     }

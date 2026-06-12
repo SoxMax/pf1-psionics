@@ -58,6 +58,9 @@ export function computeConcentration({ clTotal, abilityMod, formulaBonus }) {
  *
  * @param {object} args
  * @param {boolean} args.autoLevel - if true, use POINTS_PER_LEVEL + ability bonus.
+ * @param {boolean} [args.autoAttribute=true] - if true, add the ability-mod
+ *   contribution. Only applies when autoLevel is true. Defaults true so
+ *   actors without the field set keep the historical behaviour.
  * @param {string} args.casterType - "high" | "med" | "low".
  * @param {number} args.classLevel
  * @param {number} args.abilityMod
@@ -66,6 +69,7 @@ export function computeConcentration({ clTotal, abilityMod, formulaBonus }) {
  */
 export function computePowerPoints({
   autoLevel,
+  autoAttribute = true,
   casterType,
   classLevel,
   abilityMod,
@@ -74,6 +78,8 @@ export function computePowerPoints({
   const bonus = formulaBonus || 0;
   if (!autoLevel) return bonus;
   const levelPoints = POINTS_PER_LEVEL[casterType]?.[classLevel] || 0;
-  const abilityPoints = Math.max(0, Math.floor((classLevel || 0) * (abilityMod || 0) * 0.5));
+  const abilityPoints = autoAttribute
+    ? Math.max(0, Math.floor((classLevel || 0) * (abilityMod || 0) * 0.5))
+    : 0;
   return bonus + levelPoints + abilityPoints;
 }

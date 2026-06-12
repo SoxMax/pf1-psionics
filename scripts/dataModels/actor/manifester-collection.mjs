@@ -53,22 +53,6 @@ export class ManifesterCollection extends foundry.abstract.DataModel {
   }
 
   /**
-   * Persist the collection back to the actor flag namespace, replacing
-   * the entire manifesters dict. Use {@link create}/{@link delete} for
-   * targeted writes when possible.
-   *
-   * @returns {Promise<Actor>}
-   */
-  async commit() {
-    if (!this.actor) throw new Error("pf1-psionics | ManifesterCollection.commit: no actor");
-    const payload = {};
-    for (const [tag, record] of Object.entries(this.manifesters)) {
-      payload[tag] = record.toObject();
-    }
-    return this.actor.update({ "flags.pf1-psionics.manifesters": payload });
-  }
-
-  /**
    * Create a new manifester record. Tag becomes the dict key. Throws on
    * tag clash; caller is responsible for picking a unique tag.
    *
@@ -95,27 +79,6 @@ export class ManifesterCollection extends foundry.abstract.DataModel {
   async delete(tag) {
     if (!this.manifesters[tag]) return false;
     await this.actor.update({ [`flags.pf1-psionics.manifesters.-=${tag}`]: null });
-    return true;
-  }
-
-  /**
-   * Rename a manifester record's key.
-   *
-   * @param {string} oldTag
-   * @param {string} newTag
-   * @returns {Promise<boolean>}
-   */
-  async rename(oldTag, newTag) {
-    if (!this.manifesters[oldTag]) return false;
-    if (this.manifesters[newTag]) {
-      throw new Error(`pf1-psionics | Manifester '${newTag}' already exists; cannot rename.`);
-    }
-    const data = this.manifesters[oldTag].toObject();
-    data.class = newTag;
-    await this.actor.update({
-      [`flags.pf1-psionics.manifesters.-=${oldTag}`]: null,
-      [`flags.pf1-psionics.manifesters.${newTag}`]: data,
-    });
     return true;
   }
 }

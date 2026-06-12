@@ -55,7 +55,6 @@ export class ManifesterModel extends foundry.abstract.DataModel {
       autoAttributePowerPoints: new BooleanField({ required: false, initial: true }),
       autoMaxPowerLevel: new BooleanField({ required: false, initial: true }),
       _lastTag: new StringField({ required: false, initial: "" }),
-      _pendingClassTag: new StringField({ required: false, initial: "" }),
     };
   }
 
@@ -126,6 +125,16 @@ export class ManifesterModel extends foundry.abstract.DataModel {
    * source at the start of each prep cycle, applyChanges runs before our
    * hook, and the raw value at hook entry is exactly the buff delta.
    *
+   * This is the same read-then-fold idiom PF1 v11 itself uses for
+   * spellbooks: ActorPF#prepareDerivedData runs applyChanges, THEN fires
+   * `pf1PrepareDerivedActorData` (where our hook lives), and the spellbook
+   * compute does `clTotal += book.cl.total ?? 0; book.cl.total = clTotal;`
+   * (actor-pf.mjs ~L820). The only difference: v11 stores in `system.*`
+   * (schema-backed); we store in `flags.*` (schema-free), which gives the
+   * same per-cycle reset for free. v12's MetaChange/_prepareChanges
+   * pipeline does not exist in v11 — this routing is the only mechanism
+   * available.
+   *
    * @returns {{cl: number, concentration: number}}
    * @private
    */
@@ -159,7 +168,14 @@ export class ManifesterModel extends foundry.abstract.DataModel {
     raw.concentration.total = this.concentration.total;
     raw.powerPoints ??= {};
     raw.powerPoints.max = this.powerPoints.max;
-    raw.range = this.range;
+    // NOTE: do NOT mirror `range` here. Foundry seals the top-level flag
+    // record after the first prep cycle, so adding a new top-level key
+    // ("range" is not in the schema and never present in source) throws
+    // "Cannot add property range, object is not extensible" on re-prep,
+    // aborting the whole pf1PrepareDerivedActorData hook. The sub-objects
+    // (cl/concentration/powerPoints) stay extensible, which is why their
+    // derived keys mirror fine. `range` lives on the model instance
+    // (this.range) and the sheet reads it from there via prepareManifesters.
   }
 
   /**
@@ -299,6 +315,7 @@ export class ManifesterModel extends foundry.abstract.DataModel {
 
     this.powerPoints.max = computePowerPoints({
       autoLevel: this.autoLevelPowerPoints,
+      autoAttribute: this.autoAttributePowerPoints,
       casterType: this.casterType,
       classLevel: this.cl.classLevelTotal ?? 0,
       abilityMod,

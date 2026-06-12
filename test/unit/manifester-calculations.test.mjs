@@ -204,6 +204,28 @@ describe("computePowerPoints", () => {
     })).toBe(70);
   });
 
+  it("omits ability bonus when autoAttribute is false", () => {
+    // high level 5 = 25 base; ability bonus (7) suppressed.
+    expect(computePowerPoints({
+      autoLevel: true,
+      autoAttribute: false,
+      casterType: "high",
+      classLevel: 5,
+      abilityMod: 3,
+      formulaBonus: 0,
+    })).toBe(25);
+  });
+
+  it("includes ability bonus by default when autoAttribute is omitted", () => {
+    expect(computePowerPoints({
+      autoLevel: true,
+      casterType: "high",
+      classLevel: 5,
+      abilityMod: 3,
+      formulaBonus: 0,
+    })).toBe(25 + 7);
+  });
+
   it("handles unknown casterType as zero base", () => {
     expect(computePowerPoints({
       autoLevel: true,
