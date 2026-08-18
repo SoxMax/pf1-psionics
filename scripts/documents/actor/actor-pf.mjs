@@ -54,8 +54,8 @@ function pf1PrepareDerivedActorData(actor) {
   // Skip derivation if any record still has legacy schema (class stored as
   // {itemId} object rather than a tag string). The v0.10.0 migration runs
   // in the ready hook; failing silently keeps world load clean until then.
-  for (const book of Object.values(raw)) {
-    if (book?.class && typeof book.class !== "string") return;
+  for (const manifester of Object.values(raw)) {
+    if (manifester?.class && typeof manifester.class !== "string") return;
   }
 
   // Rebuild the collection fresh from current _source each prep cycle.
@@ -125,19 +125,19 @@ async function _isPsionicRoll(options) {
 
 function injectActorPF() {
   libWrapper.register(MODULE_ID, "pf1.documents.actor.ActorPF.prototype.rollConcentration",
-      async function(wrapped, bookId, options = {}) {
+      async function(wrapped, manifesterId, options = {}) {
         if (await _isPsionicRoll(options)) {
-          return rollPsionicConcentration.call(this, bookId, options);
+          return rollPsionicConcentration.call(this, manifesterId, options);
         }
-        return wrapped(bookId, options);
+        return wrapped(manifesterId, options);
       }, "MIXED");
 
   libWrapper.register(MODULE_ID, "pf1.documents.actor.ActorPF.prototype.rollCL",
-      async function(wrapped, bookId, options = {}) {
+      async function(wrapped, manifesterId, options = {}) {
         if (await _isPsionicRoll(options)) {
-          return rollPsionicCL.call(this, bookId, options);
+          return rollPsionicCL.call(this, manifesterId, options);
         }
-        return wrapped(bookId, options);
+        return wrapped(manifesterId, options);
       }, "MIXED");
 }
 

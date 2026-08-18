@@ -40,11 +40,11 @@
     </div>
 
     <div class="spellcasting-config">
-      <a class="toggle-manifester-config" data-book-id="{{bookId}}" data-tooltip="PF1.Settings"><i class="fa-solid fa-cogs" inert></i></a>
+      <a class="toggle-manifester-config" data-manifester-id="{{manifesterId}}" data-tooltip="PF1.Settings"><i class="fa-solid fa-cogs" inert></i></a>
     </div>
   </div>
 
-  <details class="manifester-config-collapse" data-book-id="{{bookId}}">
+  <details class="manifester-config-collapse" data-manifester-id="{{manifesterId}}">
     <summary class="manifester-config-summary"></summary>
     <div class="manifester-info spellbook-info">
       <h3>{{localize "PF1.Concentration"}}</h3>
@@ -52,23 +52,23 @@
       <div class="form-group spellcasting-bonus-formulas">
         <h3>{{localize "PF1.BonusFormula"}}</h3>
         <div class="form-fields">
-          <input class="formula" type="text" name="flags.pf1-psionics.manifesters.{{bookId}}.concentration.formula"
+          <input class="formula" type="text" name="flags.pf1-psionics.manifesters.{{manifesterId}}.concentration.formula"
             value="{{concentration.formula}}" placeholder="{{localize "PF1.ConcentrationBonusFormula"}}">
         </div>
       </div>
       <div class="form-group spellcasting-bonus-formulas">
         <h3>{{localize "PF1.BonusFormula"}}</h3>
         <div class="form-fields">
-          <input class="formula" type="text" name="flags.pf1-psionics.manifesters.{{bookId}}.cl.formula"
+          <input class="formula" type="text" name="flags.pf1-psionics.manifesters.{{manifesterId}}.cl.formula"
             value="{{cl.formula}}" placeholder="{{localize "PF1.CasterLevelBonusFormula"}}">
         </div>
       </div>
       {{! Notes }}
       <div class="flexrow spellcasting-notes">
-        <textarea name="flags.pf1-psionics.manifesters.{{bookId}}.concentration.notes" placeholder="{{localize "PF1.ConcentrationNotes"}}">{{concentration.notes}}</textarea>
+        <textarea name="flags.pf1-psionics.manifesters.{{manifesterId}}.concentration.notes" placeholder="{{localize "PF1.ConcentrationNotes"}}">{{concentration.notes}}</textarea>
       </div>
       <div class="flexrow spellcasting-notes">
-        <textarea name="flags.pf1-psionics.manifesters.{{bookId}}.cl.notes" placeholder="{{localize "PF1.CasterLevelNotes"}}">{{cl.notes}}</textarea>
+        <textarea name="flags.pf1-psionics.manifesters.{{manifesterId}}.cl.notes" placeholder="{{localize "PF1.CasterLevelNotes"}}">{{cl.notes}}</textarea>
       </div>
 
       <div class="spell-settings">
@@ -82,7 +82,7 @@
         <div class="form-group spellcasting-ability">
           <h3>{{localize "PF1-Psionics.ManifestingAbility"}}</h3>
           <div class="form-fields">
-            <select name="flags.pf1-psionics.manifesters.{{bookId}}.ability">
+            <select name="flags.pf1-psionics.manifesters.{{manifesterId}}.ability">
               {{selectOptions @root.config.abilities selected=ability}}
             </select>
           </div>
@@ -91,7 +91,7 @@
         <div class="form-group formulas">
           <h3>{{localize "PF1.BaseDCFormula"}}</h3>
           <div class="form-fields">
-            <input class="formula" type="text" name="flags.pf1-psionics.manifesters.{{bookId}}.baseDCFormula"
+            <input class="formula" type="text" name="flags.pf1-psionics.manifesters.{{manifesterId}}.baseDCFormula"
               value="{{baseDCFormula}}" placeholder="{{localize "PF1.BaseDCFormula"}}">
           </div>
         </div>
@@ -99,7 +99,7 @@
         <div class="form-group power-point-formula">
           <h3>{{#if autoLevelPowerPoints}} {{localize "PF1-Psionics.PowerPoints.FormulaLabel.Bonus"}} {{else}} {{localize "PF1-Psionics.PowerPoints.FormulaLabel.Maximum"}} {{/if}}</h3>
           <div class="form-fields">
-            <input class="formula" type="text" name="flags.pf1-psionics.manifesters.{{bookId}}.powerPoints.formula"
+            <input class="formula" type="text" name="flags.pf1-psionics.manifesters.{{manifesterId}}.powerPoints.formula"
               value="{{powerPoints.formula}}" placeholder="{{localize "PF1.Formula"}}">
           </div>
         </div>
@@ -107,7 +107,7 @@
         <div class="form-group alt-name">
           <h3>{{localize "PF1-Psionics.ManifesterName"}}</h3>
           <div class="form-fields">
-            <input type="text" name="flags.pf1-psionics.manifesters.{{bookId}}.name"
+            <input type="text" name="flags.pf1-psionics.manifesters.{{manifesterId}}.name"
               value="{{name}}" placeholder="{{label}}">
           </div>
         </div>
@@ -116,35 +116,35 @@
       <div class="spell-settings">
         <div class="flexrow stacked autoslots">
           <label class="checkbox">
-            <input type="checkbox" name="flags.pf1-psionics.manifesters.{{bookId}}.autoLevelPowerPoints"
+            <input type="checkbox" name="flags.pf1-psionics.manifesters.{{manifesterId}}.autoLevelPowerPoints"
               {{checked autoLevelPowerPoints}}> {{localize "PF1-Psionics.AutoLevelPowerPoints"}}
           </label>
           <label class="checkbox" {{#if (not autoLevelPowerPoints)}}data-tooltip="PF1-Psionics.RequiresAutoLevelPowerPoints"{{/if}}>
-            <input type="checkbox" name="flags.pf1-psionics.manifesters.{{bookId}}.autoAttributePowerPoints"
+            <input type="checkbox" name="flags.pf1-psionics.manifesters.{{manifesterId}}.autoAttributePowerPoints"
               {{disabled (not autoLevelPowerPoints)}}
               {{checked autoAttributePowerPoints}}> {{localize "PF1-Psionics.AutoAttributePowerPoints"}}
           </label>
         </div>
         <div class="flexrow stacked special">
           <label class="checkbox">
-            <input type="checkbox" name="flags.pf1-psionics.manifesters.{{bookId}}.hasCantrips"
+            <input type="checkbox" name="flags.pf1-psionics.manifesters.{{manifesterId}}.hasCantrips"
               {{checked hasCantrips}}> {{localize "PF1-Psionics.HasCantrips"}}
           </label>
           <label class="checkbox">
-            <input type="checkbox" name="flags.pf1-psionics.manifesters.{{bookId}}.noAbilityLimit"
+            <input type="checkbox" name="flags.pf1-psionics.manifesters.{{manifesterId}}.noAbilityLimit"
               {{checked manifester.noAbilityLimit}}> {{localize "PF1.NoCastingAbilityLimit"}}
           </label>
         </div>
         <div class="flexrow stacked special">
           <label class="checkbox">
-            <input type="checkbox" name="flags.pf1-psionics.manifesters.{{bookId}}.autoMaxPowerLevel"
+            <input type="checkbox" name="flags.pf1-psionics.manifesters.{{manifesterId}}.autoMaxPowerLevel"
               {{checked autoMaxPowerLevel}}> {{localize "PF1-Psionics.AutoMaxPowerLevel"}}
           </label>
         </div>
         <div class="form-group">
           <h3>{{localize "PF1.Preparation"}}</h3>
           <div class="form-fields">
-            <select name="flags.pf1-psionics.manifesters.{{bookId}}.spellPreparationMode">
+            <select name="flags.pf1-psionics.manifesters.{{manifesterId}}.spellPreparationMode">
               {{selectOptions @root.choices.casterPreparation selected=manifester.spellPreparationMode}}
             </select>
           </div>
@@ -152,7 +152,7 @@
         <div class="form-group" data-tooltip="PF1.Spellcasting.Progression.Hint">
           <h3>{{localize "PF1.Spellcasting.Progression.Label"}}</h3>
           <div class="form-fields">
-            <select name="flags.pf1-psionics.manifesters.{{bookId}}.casterType">
+            <select name="flags.pf1-psionics.manifesters.{{manifesterId}}.casterType">
               {{#each @root.choices.casterProgression}}
               <option value="{{@key}}" {{#if (eq ../manifester.casterType @key)}}selected{{/if}}>{{this}}</option>
               {{/each}}
@@ -165,12 +165,12 @@
 </div>
 
 {{!-- Manifester Filtering --}}
-{{> "systems/pf1/templates/actors/parts/actor-item-nav-filters.hbs" category=(concat "manifester-" bookId) sections=sections prepared=false}}
+{{> "systems/pf1/templates/actors/parts/actor-item-nav-filters.hbs" category=(concat "manifester-" manifesterId) sections=sections prepared=false}}
 
-<ol class="item-groups-list book-{{bookId}}-body">
+<ol class="item-groups-list book-{{manifesterId}}-body">
   {{#each sections}}
   {{#unless _hidden}}
-  <ol class="item-list{{#unless valid}} invalid{{/unless}}" data-list="spell-{{../bookId}}-{{level}}" data-type="spell" data-level="{{level}}" data-preparation-unused="{{preparation.unused}}" {{#if ../manifester.spontaneous}}data-known-unused="{{known.unused}}"{{/if}}>
+  <ol class="item-list{{#unless valid}} invalid{{/unless}}" data-list="spell-{{../manifesterId}}-{{level}}" data-type="spell" data-level="{{level}}" data-preparation-unused="{{preparation.unused}}" {{#if ../manifester.spontaneous}}data-known-unused="{{known.unused}}"{{/if}}>
     <li class="flexrow item-list-header spellbook-header {{#if lowAbilityScore}}insufficient-ability-score{{/if}}" data-level="{{level}}">
       <div class="item-name">
         <h3>{{label}}</h3>
@@ -191,10 +191,10 @@
 
       <div class="item-controls">
         {{#if valid}}
-        <a class="item-control item-create" data-tooltip="PF1-Psionics.Manifesters.CreatePower" data-create="{{path}}" data-level="{{level}}" data-book="{{../bookId}}">
+        <a class="item-control item-create" data-tooltip="PF1-Psionics.Manifesters.CreatePower" data-create="{{path}}" data-level="{{level}}" data-manifester="{{../manifesterId}}">
           <i class="fa-solid fa-plus" inert></i>
         </a>
-        <a data-action="browse" data-level="{{level}}" data-book="{{../bookId}}" data-tooltip="PF1-Psionics.Manifesters.BrowsePowers"><i class="fa-solid fa-folder-plus" inert></i></a>
+        <a data-action="browse" data-level="{{level}}" data-manifester="{{../manifesterId}}" data-tooltip="PF1-Psionics.Manifesters.BrowsePowers"><i class="fa-solid fa-folder-plus" inert></i></a>
         {{/if}}
       </div>
     </li>

@@ -30,9 +30,9 @@ async function migrateActorManifesters(actor) {
   if (!manifesters) return false;
 
   const updates = {};
-  for (const [bookId, book] of Object.entries(manifesters)) {
-    if (book?.casterType === "medium") {
-      updates[`flags.${MODULE_ID}.manifesters.${bookId}.casterType`] = "med";
+  for (const [manifesterId, manifester] of Object.entries(manifesters)) {
+    if (manifester?.casterType === "medium") {
+      updates[`flags.${MODULE_ID}.manifesters.${manifesterId}.casterType`] = "med";
     }
   }
 

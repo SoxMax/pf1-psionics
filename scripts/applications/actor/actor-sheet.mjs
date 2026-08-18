@@ -376,8 +376,8 @@ function onRollCL(event) {
 
 function onToggleManifesterConfig(event) {
   event.preventDefault();
-  const bookId = event.currentTarget.dataset.bookId;
-  const details = event.currentTarget.closest(".spellbook-configuration")?.querySelector(`details.manifester-config-collapse[data-book-id="${bookId}"]`);
+  const manifesterId = event.currentTarget.dataset.manifesterId;
+  const details = event.currentTarget.closest(".spellbook-configuration")?.querySelector(`details.manifester-config-collapse[data-manifester-id="${manifesterId}"]`);
   if (details) details.open = !details.open;
 }
 
@@ -394,7 +394,7 @@ function onItemCreate(event) {
     type: type,
     system: {
       level: parseInt(dataset.level),
-      manifester: dataset.book,
+      manifester: dataset.manifester,
     }
   };
   PowerItem.create(powerData, { parent: actor, renderSheet: true });
@@ -413,7 +413,7 @@ async function onBrowsePowers(event) {
   // Get filter data from the element
   const element = event.currentTarget;
   const level = element.dataset.level;
-  const bookId = element.dataset.book;
+  const manifesterId = element.dataset.manifester;
 
   // Build filter object
   const filters = {};
@@ -423,13 +423,13 @@ async function onBrowsePowers(event) {
     filters.level = [String(level)];
   }
 
-  // Add class filter if we have a manifester book. bookId IS the class tag
+  // Add class filter if we have a manifester. manifesterId IS the class tag
   // (or "_hd"). Resolve to a live class item's tag when present; fall back
-  // to the record's stashed _lastTag, then the bookId itself.
-  if (bookId && bookId !== "_hd" && this.actor) {
-    const manifesterData = this.actor.getFlag(MODULE_ID, `manifesters.${bookId}`);
-    const cls = this.actor.itemTypes.class?.find((c) => c.system?.tag === bookId);
-    const tag = cls?.system?.tag ?? manifesterData?._lastTag ?? bookId;
+  // to the record's stashed _lastTag, then the manifesterId itself.
+  if (manifesterId && manifesterId !== "_hd" && this.actor) {
+    const manifesterData = this.actor.getFlag(MODULE_ID, `manifesters.${manifesterId}`);
+    const cls = this.actor.itemTypes.class?.find((c) => c.system?.tag === manifesterId);
+    const tag = cls?.system?.tag ?? manifesterData?._lastTag ?? manifesterId;
     if (tag) {
       filters.class = [tag];
     }

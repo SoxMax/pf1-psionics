@@ -15,14 +15,14 @@ function onGetRollData(doc, rollData) {
 			rollData.psionics = {};
 			const collection = getCollection(actor);
 			for (const [tag, manifester] of Object.entries(collection.manifesters)) {
-				const book = manifester.toObject();
+				const data = manifester.toObject();
 				// Carry derived fields the formula needs (model writes these
 				// in finalizeData onto the live instance, not the source).
-				book.cl = { ...(book.cl ?? {}), ...(manifester.cl ?? {}) };
-				book.concentration = { ...(book.concentration ?? {}), ...(manifester.concentration ?? {}) };
-				book.powerPoints = { ...(book.powerPoints ?? {}), ...(manifester.powerPoints ?? {}) };
-				book.abilityMod = rollData.abilities[manifester.ability]?.mod ?? 0;
-				rollData.psionics[tag] = book;
+				data.cl = { ...(data.cl ?? {}), ...(manifester.cl ?? {}) };
+				data.concentration = { ...(data.concentration ?? {}), ...(manifester.concentration ?? {}) };
+				data.powerPoints = { ...(data.powerPoints ?? {}), ...(manifester.powerPoints ?? {}) };
+				data.abilityMod = rollData.abilities[manifester.ability]?.mod ?? 0;
+				rollData.psionics[tag] = data;
 			}
 
 			// Add power points and focus to rollData for formula access

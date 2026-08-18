@@ -63,17 +63,17 @@ export class Manifester {
  */
 export class ManifesterLevel {
   /**
-   * Owning book.
+   * Owning manifester.
    */
 
-  book;
+  manifester;
   /**
    * Spells for level.
    */
   spells = [];
 
-  constructor(book) {
-    this.book = book;
+  constructor(manifester) {
+    this.manifester = manifester;
   }
 }
 
@@ -140,19 +140,19 @@ export class ManifesterMode {
   }
 
   get usesSpellpoints() {
-    return this.book.spellPoints?.useSystem === true;
+    return this.manifester.spellPoints?.useSystem === true;
   }
 
   get isSemiSpontaneous() {
     return this.isSpontaneous || this.usesSpellpoints || false;
   }
 
-  constructor(book) {
-    this.book = book;
+  constructor(manifester) {
+    this.manifester = manifester;
 
-    let mode = book.spellPreparationMode;
+    let mode = manifester.spellPreparationMode;
     // Shunt invalid mode
-    mode ||= book.spellPreparationMode = "spontaneous";
+    mode ||= manifester.spellPreparationMode = "spontaneous";
 
     this.raw = mode;
 

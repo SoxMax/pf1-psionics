@@ -54,8 +54,8 @@
 
   <section class="manifesters-body">
     {{#each manifesterData}}
-      <div class="tab manifester-group flexcol" data-group="manifesters" data-tab="{{@key}}" data-book-id="{{@key}}">
-      {{~> "modules/pf1-psionics/templates/actor/actor-manifester.hbs" manifester=this bookId=@key}}
+      <div class="tab manifester-group flexcol" data-group="manifesters" data-tab="{{@key}}" data-manifester-id="{{@key}}">
+      {{~> "modules/pf1-psionics/templates/actor/actor-manifester.hbs" manifester=this manifesterId=@key}}
       </div>
     {{/each}}
   </section>
