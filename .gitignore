@@ -332,3 +332,6 @@ $RECYCLE.BIN/
 # Release build artifacts
 release-temp/
 module.zip
+
+# AI
+.playwright-mcp

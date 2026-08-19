@@ -2,6 +2,7 @@ import { migrateToVersion031 } from "./v0.3.1.mjs";
 import { migrateToVersion050 } from "./v0.5.0.mjs";
 import { migrateToVersion070 } from "./v0.7.0.mjs";
 import { migrateToVersion082 } from "./v0.8.2.mjs";
+import { migrateToVersion092 } from "./v0.9.2.mjs";
 
 /**
  * Registry of all migration functions mapped to their target version.
@@ -21,6 +22,7 @@ export const MIGRATIONS = {
 	"0.5.0": migrateToVersion050,
 	"0.7.0": migrateToVersion070,
 	"0.8.2": migrateToVersion082,
+	"0.9.2": migrateToVersion092,
 	// Add new migrations here as needed
 	// "1.0.0": migrateToVersion100,
 };
