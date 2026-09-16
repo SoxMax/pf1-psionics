@@ -5,6 +5,26 @@ export class PowerModel extends foundry.abstract.TypeDataModel {
   static SCHEMA_VERSION = 1;
 
   /**
+   * Preserve PF1's prepared trait objects when serializing derived data.
+   * PF1 replaces these source arrays with {base, standard, custom} objects,
+   * which cannot pass through ArrayField.toObject(). Source serialization
+   * still uses the saved arrays; all other fields retain their schema handling.
+   * @override
+   */
+  toObject(source = true) {
+    if (source) return super.toObject(source);
+
+    const data = {};
+    for (const [name, field] of this.constructor.schema.entries()) {
+      const value = this[name];
+      const isPreparedTrait = (name === "subdiscipline" || name === "descriptors")
+        && Array.isArray(value?.base);
+      data[name] = isPreparedTrait ? foundry.utils.deepClone(value) : field.toObject(value);
+    }
+    return data;
+  }
+
+  /**
    * Migrate source data from older schema versions
    * @param {object} source - Candidate source data
    * @returns {object} - Migrated source data

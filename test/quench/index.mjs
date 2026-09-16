@@ -6,6 +6,7 @@
  */
 
 import { registerPowerModelTests } from './power-model.test.mjs';
+import { registerPowerSkillTests } from './power-skills.test.mjs';
 
 /**
  * Register all Quench test batches
@@ -15,6 +16,7 @@ Hooks.on('quenchReady', () => {
 
   // Register test suites
   registerPowerModelTests();
+  registerPowerSkillTests();
 
   // Add more test suites here as they're created:
   // registerBuffSystemTests();
