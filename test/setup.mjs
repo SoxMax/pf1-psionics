@@ -12,6 +12,8 @@ global.foundry = {
       if (obj === null || typeof obj !== "object") return obj;
       if (obj instanceof Date) return new Date(obj.getTime());
       if (obj instanceof Array) return obj.map(item => foundry.utils.deepClone(item));
+      // Foundry retains unsupported advanced objects (including Sets) by reference.
+      if (obj.constructor && obj.constructor !== Object) return obj;
       if (obj instanceof Object) {
         const clonedObj = {};
         for (const key in obj) {
@@ -109,6 +111,11 @@ global.foundry = {
   abstract: {
     TypeDataModel: class TypeDataModel {
       static SCHEMA_VERSION = 0;
+
+      toObject(source = true) {
+        if (source) return foundry.utils.deepClone(this._source);
+        return this.constructor.schema.toObject(this);
+      }
 
       static defineSchema() {
         return {};
