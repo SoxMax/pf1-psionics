@@ -12,6 +12,8 @@ export default [
         // Browser globals
         console: "readonly",
         document: "readonly",
+        Event: "readonly",
+        EventTarget: "readonly",
         window: "readonly",
         
         // Node globals

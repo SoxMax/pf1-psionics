@@ -25,7 +25,10 @@ async function renderAttackDialogHook(app, html, data) {
     if (controls) controls.insertAdjacentHTML("afterend", augmentControls);
 
     // Initialize augment tracking
-    app.rollData.augmentCounts = app.rollData.augmentCounts || {};
+    const augmentCounts = app.rollData.augmentCounts ??= {};
+    for (const input of html.querySelectorAll("input.augment-count")) {
+      input.value = String(augmentCounts[input.dataset.augmentId] ?? 0);
+    }
 
     // Handle augment adjust buttons (both increase and decrease)
     for (const button of html.querySelectorAll(".augment-adjust")) {
@@ -44,24 +47,9 @@ async function renderAttackDialogHook(app, html, data) {
 
   bindChange('input.attribute[name="sl-offset"]', app._onChangeAttribute.bind(app));
   bindChange('input.attribute[name="cl-offset"]', app._onChangeAttribute.bind(app));
-  bindChange('input.attribute[name="pp-offset"]', onChangeAttribute.bind(app));
+  bindChange('input.attribute[name="pp-offset"]', app._onChangeAttribute.bind(app));
   bindChange('input[type="checkbox"][name="concentration"]', app._onToggleFlag.bind(app));
   bindChange('input[type="checkbox"][name="cl-check"]', app._onToggleFlag.bind(app));
-}
-
-function onChangeAttribute(event) {
-  event.preventDefault();
-
-  const elem = event.currentTarget;
-  this.attributes[elem.name] = elem.value;
-
-  switch (elem.name) {
-    case "pp-offset":
-      this.rollData.chargeCostBonus = (this.rollData?.chargeCostBonus ?? 0) + parseInt(elem.value);
-      break;
-  }
-
-  this.render();
 }
 
 /**
@@ -79,7 +67,7 @@ function handleAugmentAdjust(app, html, availableAugments, event) {
   const action = button.dataset.action; // 'increase' or 'decrease'
   const augment = availableAugments.find(a => a._id === augmentId);
   const input = html.querySelector(`input.augment-count[data-augment-id="${augmentId}"]`);
-  const currentCount = parseInt(input?.value) || 0;
+  const currentCount = app.rollData.augmentCounts[augmentId] ?? 0;
   const maxUses = augment.maxUses || Infinity;
 
   // Determine the new count based on action
