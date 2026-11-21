@@ -64,8 +64,11 @@ system:
   description:
     value: >-
       <p>Although most forgeborn are steady in their gait, some are designed for
-      speed. Forgeborn with this trait have a speed of 30 ft. This replaces slow
-      and steady and fearless.</li></p>
+      speed. Forgeborn with this trait have a base land speed of 30 feet. This
+      replaces Slow and Steady and Fearless.</p>
+      <p><em>In Foundry, set the character’s base land speed to 30 feet, turn
+      off the full-speed flags for medium and heavy armor and loads on the race
+      item, and remove Fearless.</em></p>
   disabled: false
   inherited: false
   showInQuickbar: false

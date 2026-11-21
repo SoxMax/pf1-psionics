@@ -12,7 +12,7 @@ system:
     heavyArmorFullSpeed: false
     immuneToMorale: false
     loseDexToAC: false
-    lowLightVision: false
+    lowLightVision: true
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false

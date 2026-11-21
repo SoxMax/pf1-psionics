@@ -152,8 +152,8 @@ system:
       - name: Scent
         uuid: Compendium.pf1-psionics.races.Item.nBx64nGxXVAkmGzW
   quadruped: false
-  size: med
+  size: sm
   speeds:
     flyManeuverability: average
-    land: 30
+    land: 20
 type: race
