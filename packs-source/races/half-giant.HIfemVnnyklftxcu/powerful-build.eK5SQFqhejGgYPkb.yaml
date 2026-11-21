@@ -64,16 +64,12 @@ system:
   contextNotes:
     - target: cmd
       text: >-
-        Treated as one size larger if doing so is advantageous to him.
-
-        Treated as one size larger when determining whether a creature’s special
-        attacks based on size
+        For size modifiers to CMD, count as one size larger when advantageous.
+        Also count as one size larger when determining whether a size-based
+        special attack such as grab or swallow whole can affect you.
     - target: cmb
       text: >-
-        Treated as one size larger if doing so is advantageous to him.
-
-        Treated as one size larger when determining whether a creature’s special
-        attacks based on size
+        For size modifiers to CMB, count as one size larger when advantageous.
   description:
     value: >-
       <p>The physical stature of half-giants lets them function in many ways as
@@ -86,7 +82,7 @@ system:
       based on size (such as grab or swallow whole) can affect him. A half-giant
       can use weapons designed for a creature one size larger without penalty.
       However, his space and reach remain those of a creature of his actual
-      size. The benefts of this racial trait stack with the effects of powers,
+      size. The benefits of this racial trait stack with the effects of powers,
       abilities, and spells that change the subject’s size category.</p>
   disabled: false
   inherited: false

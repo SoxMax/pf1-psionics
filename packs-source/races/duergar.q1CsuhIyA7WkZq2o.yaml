@@ -9,13 +9,13 @@ img: systems/pf1/icons/races/dwarf.png
 name: Duergar
 system:
   changeFlags:
-    heavyArmorFullSpeed: false
+    heavyArmorFullSpeed: true
     immuneToMorale: false
     loseDexToAC: false
     lowLightVision: false
-    mediumArmorFullSpeed: false
-    noHeavyEncumbrance: false
-    noMediumEncumbrance: false
+    mediumArmorFullSpeed: true
+    noHeavyEncumbrance: true
+    noMediumEncumbrance: true
     seeInDarkness: false
     seeInvisibility: false
   changes:

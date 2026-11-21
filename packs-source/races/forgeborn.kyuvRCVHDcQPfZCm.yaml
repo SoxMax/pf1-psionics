@@ -9,13 +9,13 @@ img: icons/environment/people/group.webp
 name: Forgeborn
 system:
   changeFlags:
-    heavyArmorFullSpeed: false
+    heavyArmorFullSpeed: true
     immuneToMorale: false
     loseDexToAC: false
     lowLightVision: false
-    mediumArmorFullSpeed: false
-    noHeavyEncumbrance: false
-    noMediumEncumbrance: false
+    mediumArmorFullSpeed: true
+    noHeavyEncumbrance: true
+    noMediumEncumbrance: true
     seeInDarkness: false
     seeInvisibility: false
   changes:
@@ -163,5 +163,5 @@ system:
   size: med
   speeds:
     flyManeuverability: average
-    land: 30
+    land: 20
 type: race
