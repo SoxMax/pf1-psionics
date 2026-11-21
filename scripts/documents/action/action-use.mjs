@@ -10,8 +10,12 @@ function injectActionUse() {
 
   libWrapper.register(MODULE_ID, "pf1.actionUse.ActionUse.prototype.alterRollData", function() {
     if (this.item.type === `${MODULE_ID}.power`) {
+      const { formData, rollData } = this.shared;
+      const ppOffset = parseInt(formData?.["pp-offset"], 10) || 0;
+      if (ppOffset !== 0) rollData.chargeCostBonus = (rollData.chargeCostBonus ?? 0) + ppOffset;
+
       // Apply augments from the action
-      const augmentCounts = this.shared.rollData.augmentCounts || {};
+      const augmentCounts = rollData.augmentCounts || {};
       if (Object.keys(augmentCounts).length > 0) {
         applyAugmentEffects(this, augmentCounts);
       }
